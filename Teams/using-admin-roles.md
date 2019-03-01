@@ -10,12 +10,12 @@ ms.reviewer: islubin
 description: Aprenda a usar las funciones administrativas diferentes para administrar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824c9d93c98bb1f6fd9af0cbb93bac24f84e926e
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 2e031c1bee98fc1790f39e888063353087a82422
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754318"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342184"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar Teams
 
@@ -29,7 +29,7 @@ Hay cuatro roles de administrador de equipos disponibles: Administrador de servi
 
 | Rol | Puede realizar estas tareas | Puede obtener acceso a las siguientes herramientas |
 |----- | ------------------ | ------------------------------ |
-| Administrador de servicios de Teams | Administrar el servicio de Microsoft Teams y administrar y crear grupos de Office 365 | Todo el contenido en el centro de administración de Microsoft Teams y controles asociados de PowerShell, incluidos:<br><br> Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Administración de mensajería, incluidas la mensajería de directivas<sup>1,3</sup><br><br> Administrar toda la configuración de toda la organización, incluida la federación, actualización de los equipos y los equipos cliente configuración<sup>1,3</sup><br><br> Administrar los equipos de la organización y sus valores asociados, incluyendo pertenencia (administración de grupo que se admiten mediante PowerShell, la administración de equipo en el portal de administración implantar) <sup>23</sup><br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
+| Administrador de servicios de Teams | Administrar el servicio de Microsoft Teams y administrar y crear grupos de Office 365 | Todo el contenido en el centro de administración de Microsoft Teams y controles asociados de PowerShell, incluidos:<br><br> Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Administración de mensajería, incluidas la mensajería de directivas<sup>1,3</sup><br><br> Administrar toda la configuración de toda la organización, incluida la federación, actualización de los equipos y los equipos cliente configuración<sup>1,3</sup><br><br> Administrar los equipos de la organización y sus valores asociados, incluyendo pertenencia (administración de grupo que se admiten mediante PowerShell, la administración de equipo en el portal de administración implantar) <sup>23</sup><br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> <br><br> Obtener acceso, supervisar y solucionar problemas de llamada del inquilino calidad y confiabilidad mediante datos exponen en el panel de calidad de llamadas (CQD). Crear nuevos informes, actualizar y eliminar informes según sea necesario. Cargar y actualizar CQD creación de datos |
 | Administrador de comunicaciones de Teams | Administre las características de reuniones y llamadas dentro del servicio de Microsoft Teams | Administrar reuniones, incluida la conferencia, las configuraciones y directivas de puentes<sup>1,3</sup> de la reunión<br><br> Administrar voz, incluida la llamada a las directivas y número de inventario y asignación<sup>1</sup> de teléfono<br><br> Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
 | Ingeniero de soporte en comunicaciones de Teams | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **Avanzadas** . | Ver la página de perfil de usuario y solucionar los problemas de calidad de llamada de usuario utilizando de conjunto de herramientas de solución de problemas avanzada<sup>3</sup> |
 | Especialista en soporte técnico de comunicaciones de los equipos | Solucionar problemas de las comunicaciones dentro de los equipos mediante el uso de herramientas **básicas** .| Acceso a la página de perfil de usuario para solucionar problemas de las llamadas en llamar análisis. Solo se puede ver la información de usuario del usuario concreto que se está buscando.<sup>3</sup>

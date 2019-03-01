@@ -13,12 +13,12 @@ ms.custom: Teams-upgrade-guidance
 MS.collection: Teams_ITAdmin_JourneyFromSfB
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 11e08837aa7f9eeb4b74d8f8d98e05dc33d2ea49
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 028ce0fe9e1fd30f96b157cd8fd82acd8f5d1268
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743008"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342200"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -56,7 +56,7 @@ En este modo de coexistencia, denominado **Islas**, cada una de las aplicaciones
 
 En este modo de coexistencia, los usuarios permanecen en Skype para la empresa: los equipos no — para chat, convocatorias de reunión y llamar a funciones y no usan los equipos para los equipos y los canales. Este modo está disponible en la actualidad; Sin embargo, en la implementación actual modalidades de los equipos no se desactivan para el usuario automáticamente. Esta capacidad es próxima. Mientras tanto, los administradores pueden quitar la licencia de los equipos de los usuarios que necesiten permanecer en Skype para la empresa como su única aplicación de comunicaciones.
 
-### <a name="teams-only-this-mode-started-rolling-out-summer-2018-and-will-be-completed-to-all-tenants-in-calendar-year-2019"></a>Sólo los equipos (este modo iniciado sucesivas desproteger verano 2018 y se completará para todos los inquilinos en el año de Calendario 2019)
+### <a name="teams-only"></a>Sólo los equipos
 
 Un usuario de **los equipos sólo** solo puede usar la Skype para cliente empresarial para unirse a Skype existente para reuniones de negocios o reuniones en Skype para la empresa que se han organizado por los usuarios que no sean actualizado o partes externas. Un usuario actualizado puede continuar para comunicarse con otros usuarios de la organización que todavía se están utilizando la Skype para la empresa mediante el uso de las capacidades de la interoperabilidad entre los equipos y Skype para la empresa; Sin embargo, un usuario actualizado no puede iniciar un Skype para chat empresarial, la llamada o reunión.
 

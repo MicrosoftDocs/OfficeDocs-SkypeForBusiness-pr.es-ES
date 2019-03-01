@@ -1,5 +1,5 @@
 ---
-title: Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada
+title: Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
@@ -24,14 +24,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Use Analytics llamada obtener información detallada sobre los dispositivos, redes y la conectividad para solucionar problemas de usuario con Microsoft Teams y Skype para reuniones y llamadas de trabajo.
-ms.openlocfilehash: 3e35a72150d74580d1f44623583419b37e3ad1c5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 9a76b683e31a0d48464b42de761108b26c8da459
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754068"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342192"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
 
 Análisis de llamada le ayudará a solucionar los problemas de conexión o llamada con Microsoft Teams y Skype para la empresa. Análisis de la llamada, muestran información detallada acerca de los dispositivos, redes y conectividad para las llamadas y las reuniones de cada usuario en su cuenta de Office 365. Si crear, del sitio y de inquilinos se ha agregado información para análisis de llamadas, también se mostrarán para cada llamada y la sesión. Información disponible a través de análisis de llamadas puede ayudar a averiguar por qué un usuario tuvo una llamada deficiente o experiencia de reunión. 
   
@@ -60,21 +60,19 @@ Si necesita ayuda con los permisos, vea sus equipos y Skype para administración
 
 1. Inicie sesión con su compatibilidad con las comunicaciones de los equipos o credenciales de administrador de equipos.
 
-2. Vaya al centro de administración de Office 365 e iniciar sesión con su cuenta de trabajo o escuela. A continuación, en el explorador web vaya a *https://adminportal.services.skypeforbusiness.com*.
-
-3. Seleccione **centros de administración** > **& equipos Skype**. 
+2. En el explorador web, vaya a *https://admin.teams.microsoft.com*.
     
-4. En el **panel**, en la **Búsqueda de usuarios**, empiece a escribir el nombre o la dirección sip del usuario cuyas llamadas desea solucionar problemas o seleccione **Ver los usuarios** para ver una lista de los usuarios.
+3. En el **panel**, en la **Búsqueda de usuarios**, empiece a escribir el nombre o la dirección sip del usuario cuyas llamadas desea solucionar problemas o seleccione **Ver los usuarios** para ver una lista de los usuarios.
     
     ![Captura de pantalla del cuadro de búsqueda de usuarios del análisis de llamadas en el centro de administración de Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-5. Seleccione el usuario en la lista.
+4. Seleccione el usuario en la lista.
 
-6. Seleccione **historial de llamadas**y, a continuación, seleccione la llamada o reunión que va a solucionar problemas.
+5. Seleccione **historial de llamadas**y, a continuación, seleccione la llamada o reunión que va a solucionar problemas.
     
     ![Captura de pantalla muestra la página de historial de llamadas para un usuario.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-7. Seleccione la ficha **Opciones avanzadas** y, a continuación, busque elementos de amarillos y rojos que indican problemas de calidad o conexión llamada deficiente.
+6. Seleccione la ficha **Opciones avanzadas** y, a continuación, busque elementos de amarillos y rojos que indican problemas de calidad o conexión llamada deficiente.
     
     En los detalles de la sesión para cada llamada o una reunión, problemas secundarias aparecen en amarillo. (Por ejemplo, en la siguiente captura de pantalla, los valores están en amarillo para vibración Media, la vibración de Max y la frecuencia de pérdida de paquetes promedio.) Si algo es el amarillo, está fuera del intervalo normal y puede contribuir al problema, pero es poco probable que sea la causa principal del problema. Si algo es rojo, es un problema importante, y es probable que es la causa principal de la calidad de llamadas deficientes para esta sesión. 
     
@@ -91,9 +89,9 @@ Para las sesiones de audioconferencias que tienen la calidad de los datos de la 
 |Dispositivo no funciona  <br/> |Dispositivo  <br/> | Un dispositivo no está funcionando correctamente. Dispositivo no funciona proporciones es: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
-[Configurar el análisis de llamadas](set-up-call-analytics.md)
+[Configurar el Análisis de llamadas](set-up-call-analytics.md)
 
-[Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

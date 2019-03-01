@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: b3a65c4fa6a3dfe8de6b4ef70cd7657661cf4dc9
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 17a2b72e28f505e0653cc11ecf765403d7eaca03
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178672"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342176"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -38,11 +38,7 @@ Análisis de la llamada y CQD ejecutarán en paralelo y pueden usarse independie
 
 ## <a name="whats-call-analytics-and-when-should-i-use-it"></a>¿Qué es el análisis de llamadas, y cuándo debo usarlo?
 
-**Análisis de la llamada está ahora disponible en el centro de administración de Microsoft Teams.** Para ver toda la información de la llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, puede buscar en la página de perfil del usuario buscando el usuario desde el panel o buscar el usuario de **los usuarios** en el panel de navegación izquierdo.
-
-> [!IMPORTANT]
-> Permisos de agente de departamento de soporte técnico y la carga de la topología de red estará disponibles en el nuevo portal de administración en los próximos meses. Mientras tanto, puede seguir usando https://adminportal.services.skypeforbusiness.com para el acceso de departamento de soporte técnico de nivel 1 y nivel 2.
-  
+**Análisis de la llamada está ahora disponible en el [Centro de administración de equipos de Microsoft](https://admin.teams.microsoft.com).** Para ver toda la información de la llamada y los datos para un usuario, utilice la ficha **Historial de llamadas** . Para ello, puede buscar en la página de perfil del usuario buscando el usuario desde el panel o buscar el usuario de **los usuarios** en el panel de navegación izquierdo.
 
 Análisis de la llamada muestran información detallada acerca de los dispositivos, redes y conectividad relacionadas con las llamadas específicas y las reuniones para cada usuario en un Microsoft Teams o Skype para la cuenta de empresa. ¿Por qué este usuario tiene una llamada deficiente esta tarde? Uso de análisis de llamadas, un agente de departamento de soporte técnico capacitados o administración de Office 365 puede investigar el dispositivo, red, conectividad y otros factores relacionados con su llamada a solucionar problemas de conexión y la calidad de llamada en Microsoft Teams y Skype para la empresa.
 
@@ -61,7 +57,7 @@ Si desea que no son de administrador, como agentes de departamento de soporte t�
 - **Los agentes del departamento de soporte técnico con las comunicaciones admiten permisos de ingeniería**: los agentes vea todos los datos disponibles en análisis de llamadas y solucionar problemas de llamadas y las reuniones. Tienen acceso completo para llamar a los registros y la información del cliente.
 
 > [!NOTE]
-> La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.
+> La función de especialista en soporte técnico de communications es equivalente a la función de soporte técnico de nivel 1 desde el portal de vista previa y la función de ingeniero de soporte técnico de comunicaciones es equivalente a la función de soporte técnico de nivel 2 desde el portal de vista previa.
 
 Para obtener más información acerca de las comunicaciones especialista en soporte técnico y comunicaciones admite ingeniero de roles, consulte [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md).
 

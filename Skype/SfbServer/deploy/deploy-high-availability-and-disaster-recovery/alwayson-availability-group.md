@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: eaf0c935f246cfdd00aa0707475442c88dc89b8a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374375"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342222"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  
@@ -55,7 +55,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - Seleccione los servidores que añadir al clúster y después haga clic en **Ejecutar todas las pruebas**.
     
-   - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
+   - En el cuadro **Resumen**, compruebe cualquier error del que informe el asistente. Luego haga clic en **Finalizar** para completar la validación.
     
      Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
@@ -119,7 +119,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - En la página Validación, compruebe que todas las comprobaciones de validación se realizan correctamente y luego haga clic en **Siguiente**.
     
-   - En la página**Resumen** , compruebe todas las opciones y haga clic en Finalizar.
+   - En la página **Resumen**, compruebe todas las opciones de configuración y haga clic en Finalizar.
     
 7. Usar el generador de topología para crear el grupo de servidores Front-End, como se explica en [crear y publicar la nueva topología de Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Cuando lo hace, especifique el AG como el almacén de SQL para el grupo de servidores.
     
@@ -161,7 +161,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
    Get-CsPool -Identity <Pool FQDN>
    ```
 
-2. Usar el Generador de topologías para quitar el reflejo de bases de datos del grupo
+2. Use el generador de topología para quitar el reflejo de base de datos desde el grupo de servidores.
     
    - Abra el generador de topología. En su topología, expanda **Grupos de servidores front-end Enterprise Edition**, haga clic derecho en el nombre del grupo de servidores y haga clic en **Editar propiedades**.
     
@@ -195,7 +195,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - Seleccione los servidores que añadir al clúster y después haga clic en **Ejecutar todas las pruebas**.
     
-   - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
+   - En el cuadro **Resumen**, compruebe cualquier error del que informe el asistente. Luego haga clic en **Finalizar** para completar la validación.
     
      Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
@@ -279,7 +279,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
     - Cuando esté seguro de que todas las bases de datos necesarias se establecen en el AG, haga clic en **Aceptar**.
     
-13. Publique la topología. En el menú **Acción** haga clic en **Topología** y luego en **Publicar**. Después, en la página de confirmación haga clic en **Siguiente**.
+13. Publique la topología. En el menú **Acción**, haga clic en **Topología** y después en **Publicar**. A continuación, en la página de confirmación, haga clic en **Siguiente**.
     
 14. Realizar algunos pasos finales para asegurarse de que los inicios de sesión SQL se encuentran en cada una de las réplicas en el grupo de disponibilidad AlwaysOn.
     
@@ -327,7 +327,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - Seleccione los servidores que añadir al clúster y después haga clic en **Ejecutar todas las pruebas**.
     
-   - En el cuadro**Resumen** , compruebe los errores que el Asistente para informes. Luego haga clic en **Finalizar** para completar la validación.
+   - En el cuadro **Resumen**, compruebe cualquier error del que informe el asistente. Luego haga clic en **Finalizar** para completar la validación.
     
      Puede que el asistente le informe de varias advertencias, especialmente si no usa el almacenamiento compartido. No tiene que usar el almacenamiento compartido, pero si ve cualquier mensaje de **Error**, debe corregir estos problemas antes de continuar.
     
@@ -411,7 +411,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
     
    - Cuando esté seguro de que todas las bases de datos necesarias se establecen en el AG, haga clic en **Aceptar**.
     
-9. Publique la topología. En el menú **Acción** haga clic en **Topología** y luego en **Publicar**. Después, en la página de confirmación haga clic en **Siguiente**.
+9. Publique la topología. En el menú **Acción**, haga clic en **Topología** y después en **Publicar**. A continuación, en la página de confirmación, haga clic en **Siguiente**.
     
 10. Realizar algunos pasos finales para asegurarse de que los inicios de sesión SQL se encuentran en cada una de las réplicas en el AG.
     

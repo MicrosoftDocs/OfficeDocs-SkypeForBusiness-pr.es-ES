@@ -1,7 +1,7 @@
 ---
 title: Actualizaciones de Skype Empresarial Server
-ms.author: jambirk
 author: ariantor
+ms.author: jambirk
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: arianr
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4b32dfba-1af6-4077-9a92-7cec8f220f20
 description: Busque y administre actualizaciones de Skype Empresarial Server 2015 y Lync 2013 desde un solo lugar. Use los vínculos de esta página para obtener más información sobre las actualizaciones y después descárguelas.
-ms.openlocfilehash: 6433fe939bca07c520d402f193ff1e5fdacb8a09
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+ms.openlocfilehash: 7aa5a6735a0a3f9fd3544a5f0980f47b4af74213
+ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786365"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "30340422"
 ---
 # <a name="skype-for-business-server-updates"></a>Actualizaciones de Skype Empresarial Server
 

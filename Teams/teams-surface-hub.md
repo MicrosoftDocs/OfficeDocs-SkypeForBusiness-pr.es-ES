@@ -1,5 +1,5 @@
 ---
-title: Implementación de equipos de Microsoft para el concentrador de superficie
+title: Implementar Microsoft Teams para Surface Hub
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
@@ -16,20 +16,22 @@ ms.custom:
 MS.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 485e4063c523608421955b86e0be680d5dc10b9a
-ms.sourcegitcommit: 5742301cdd28e5e26107920f18e70f41b0f67cfb
+ms.openlocfilehash: 8a97e651e703146c07450229fb4958116d0fd8a2
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2018
-ms.locfileid: "27132006"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342208"
 ---
-<a name="deploy-microsoft-teams-for-surface-hub"></a>Implementación de equipos de Microsoft para el concentrador de superficie
+<a name="deploy-microsoft-teams-for-surface-hub"></a>Implementar Microsoft Teams para Surface Hub
 ======================================
 
-Antes de implementar Microsoft Teams Microsoft Surface concentrador, asegúrese de que haya cumplido con el hardware, sistema operativo y otros requisitos. Para obtener más información, consulte la [Guía de administración de Microsoft Surface concentrador](https://docs.microsoft.com/surface-hub/).
+Antes de instalar los equipos de superficie de concentradores, asegúrese de hacer lo siguiente:
 
-> [!NOTE]
-> Si se están realizando la transición de Skype para profesionales en línea, debe confirmar que se ha asignado una licencia de Microsoft Teams al usuario.
+ Se cumple □ hacer seguro de requisitos de hardware, sistema operativo y otro. Para obtener más información, consulte la [Guía de administración de Microsoft Surface concentrador](https://docs.microsoft.com/surface-hub/).<br>
+ □ Asegúrese de que está instalada la actualización de sistema operativo mínimo necesaria para los equipos - [KB4343889](https://support.microsoft.com/help/4343889).<br>
+ □ Asigna una licencia de los equipos a la cuenta del dispositivo concentrador.<br>
+ □ Si están realizando la transición de Skype para en línea de negocio, confirme que se asigna una licencia de los equipos al usuario.
 
 ## <a name="install-teams-for-surface-hub-from-the-microsoft-store"></a>Instalación de los equipos para exponer concentrador desde el almacén de Microsoft 
 
@@ -37,7 +39,7 @@ Estas instrucciones son para la instalación de los equipos de concentrador de s
  
 1. Iniciar el almacén de Microsoft:<br>
    a. Puntee en **Iniciar** > **todas las aplicaciones** > **configuración**.<br> b. Puntee en **dispositivo de concentrador de superficie de cuenta, administración**.<br>
-   c. En la izquierda, puntee en la ficha **aplicaciones y características** .<br> d. En la derecha, puntee en el botón **Abrir almacén** . 
+   c. En la izquierda, puntee en la ficha **aplicaciones & características** .<br> d. En la derecha, puntee en el botón **Abrir almacén** . 
 2. De Microsoft Store, busque *Los equipos de Microsoft*. Se mostrarán los **Equipos de Microsoft para el concentrador de superficie** . Puntee en el botón **obtener la aplicación** para instalar.  
 3. Una vez finalizada la instalación, reinicie el concentrador de superficie. 
 
