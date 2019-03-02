@@ -10,15 +10,18 @@ ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo crear y configurar regiones de red, sitios y subredes para enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3b818b10a333fbb7cf50cf4e49d521aa224e2d17
-ms.sourcegitcommit: b53d99d06178c26297d1349ff82d05f706dfb479
+ms.openlocfilehash: 60ed4b1c69f2b6495e21fe28653b19ca905dfc6c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30050767"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353445"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 

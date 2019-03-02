@@ -3,15 +3,15 @@ title: Compartir llamadas y atender llamadas grupales en Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 01/16/19
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Uso compartido de llamadas y respuesta de llamadas en grupo permite a los usuarios compartir las llamadas entrantes con compañeros de trabajo para que las llamadas se pueden capturar cuando el usuario no está disponible.
-ms.openlocfilehash: 31df45d0420457528fd517c851b845a09cab32e0
-ms.sourcegitcommit: 0fcca2d8303da82cc00a504f4183bee50ab23eea
+ms.openlocfilehash: df98dd4df064b23b687ddcc569e6c5a431137527
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28328320"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351333"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
@@ -48,7 +48,7 @@ Para configurar la respuesta de llamadas en grupo, un usuario en primer lugar co
 
 Llamar a la creación del grupo y notificación preferencias son las características de controlado por el usuario; no es necesario que los administradores configurar estas características para sus usuarios. No se puede crear grupos de llamada de grupos de seguridad o grupos de Office 365; se deben crear en los equipos.
 
-Los administradores no pueden impedir que los usuarios crear grupos y cambiar otro valor de configuración de recogida de llamada. No se bloquea la funcionalidad.
+Los administradores deben habilitar grupos de llamada a través de la configuración de **TeamsCallingPolicy AllowCallGroups** para un usuario. Los administradores pueden controlar sólo si este usuario puede configurar los grupos de la llamada. Una vez que está establecido el bit a los administradores es true, no puede evitar que el usuario de configuración y la adición de los usuarios del grupo de llamada de su elección.
 
 ## <a name="limitations"></a>Limitaciones
 

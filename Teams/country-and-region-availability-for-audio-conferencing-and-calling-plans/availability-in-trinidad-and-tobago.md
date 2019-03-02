@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Trinidad y Tobago
+title: Disponibilidad en Trinidad y Tobago
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Trinidad y Tobago los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c180341535390f6fc32bbf28cc885e5f58899b2b
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 29b5dc0b7de7d7f5e621d4736676a9ebf335b314
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047693"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353453"
 ---
-# <a name="availability-in-trinidad-and-tobago"></a>Disponibilidad de Trinidad y Tobago
+# <a name="availability-in-trinidad-and-tobago"></a>Disponibilidad en Trinidad y Tobago
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad en Corea del sur
+title: Disponibilidad en Corea del Sur
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 91618281-947b-4039-abf5-37bf388367c9
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para Corea del sur.
-ms.openlocfilehash: e59509978e92ff43f70327b570256774967fac4a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 9d5f6e40067b87c22e0840307d3bce467138f25a
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048789"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352461"
 ---
-# <a name="availability-in-south-korea"></a>Disponibilidad en Corea del sur
+# <a name="availability-in-south-korea"></a>Disponibilidad en Corea del Sur
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: e010a5decd864ee86e74129583df06856571a060
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a84ade55bc05f5fa1ac97cb291a9c43ef64552c3
+ms.sourcegitcommit: 310354297b8e8fb4e7426fd91f179253eaf4af7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351765"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "30364489"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -128,7 +128,7 @@ Puede seleccionar un país o región para ver qué características de voz en la
 > - [Venezuela](availability-in-venezuela.md)
 > - [Vietnam](availability-in-vietnam.md)
 
-**Si busca una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo de la disponibilidad de país o región de la nube voz característica](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-06252018)-(en-us).xlsx?raw=true)**.
+**Si busca una hoja de cálculo con todos los países y regiones, descargue y guarde la [hoja de cálculo de la disponibilidad de país o región de la nube voz característica](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/country-and-region-availabilty/country-and-region-availability-(v-02012019)-(en-us).xlsx?raw=true)**.
 
 ***
 

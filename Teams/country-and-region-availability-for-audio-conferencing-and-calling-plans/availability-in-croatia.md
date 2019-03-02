@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Croacia
+title: Disponibilidad en Croacia
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Croacia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9203fce004d80573161e6c6542d6f6ebfdfbb90a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 328a17b5192b50a390943fd239f932ed8b3f8cdd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047169"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353053"
 ---
-# <a name="availability-in-croatia"></a>Disponibilidad de Croacia
+# <a name="availability-in-croatia"></a>Disponibilidad en Croacia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

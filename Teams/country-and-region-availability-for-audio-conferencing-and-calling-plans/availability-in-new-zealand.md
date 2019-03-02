@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Nueva Zelanda
+title: Disponibilidad en Nueva Zelanda
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: cde2f823-753a-4202-8ca6-081ac056b5a5
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Nueva Zelanda los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4c24c7996c190294d12c3d98364d48097fac8906
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 6c778b8a5b12eb6deb5760fbf58ea1eec4530f8c
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048248"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352349"
 ---
-# <a name="availability-in-new-zealand"></a>Disponibilidad de Nueva Zelanda
+# <a name="availability-in-new-zealand"></a>Disponibilidad en Nueva Zelanda
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

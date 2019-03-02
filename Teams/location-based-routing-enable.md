@@ -1,5 +1,5 @@
 ---
-title: Habilitar el enrutamiento basado en ubicación para el enrutamiento directo
+title: Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo habilitar el enrutamiento basados en ubicación para el enrutamiento directo.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8437eba299cb42415d224017ca7d0e888fffa684
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 854f0fefc006c02bc07c73cd4519b943411094f5
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771011"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352549"
 ---
-# <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar el enrutamiento basado en ubicación para el enrutamiento directo
+# <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)]
 
@@ -65,7 +68,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     
     ||Directiva de enrutamiento 1 de voz|Directiva de enrutamiento 2 de voz|
     |---------|---------|---------|
-    |Identificador de la directiva de voz   |Directiva de enrutamiento de voz de Delhi   |Directiva de enrutamiento de voz de Hyderabad    |
+    |Identificador de la directiva de voz en línea   |Directiva de enrutamiento de voz en línea de Delhi   |Directiva de enrutamiento de voz en línea de Hyderabad    |
     |Usos de RTC en línea  |Larga distancia  |Larga distancia, Local, interno  |
 
     Para obtener más información, vea [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
@@ -76,21 +79,21 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
 ## <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el enrutamiento basado en la ubicación de sitios de red
 1.  Usar el ``Set-CsTenantNetworkSite`` cmdlet para habilitar el enrutamiento basado en la ubicación y asociar las directivas de enrutamiento a los sitios de red que se deben aplicar las restricciones de enrutamiento de voz.
     ```
-    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false> -OnlineVoiceRoutingPolicy <voice routing policy ID> 
+    Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
 
     En este ejemplo, se habilita enrutamiento basado en la ubicación del sitio de Delhi y el sitio de Hyderabad. 
 
     ```
-    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "DelhiVoiceRoutingPolicy" 
-    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true -OnlineVoiceRoutingPolicy "HyderabadVoiceRoutingPolicy" 
+    Set-CsTenantNetworkSite -Identity "Delhi" -EnableLocationBasedRouting $true  
+    Set-CsTenantNetworkSite -Identity "Hyderabad" -EnableLocationBasedRouting $true 
     ```
     En la siguiente tabla muestra los sitios habilitados para enrutamiento basado en la ubicación en este ejemplo.
 
     ||Sitio 1 (Delhi)  |Sitio 2 (Hyderabad)  |
     |---------|---------|---------|
+|Nombre del sitio    |Sitio 1 (Delhi)    |Sitio 2 (Hyderabad)   
     |EnableLocationBasedRouting    |True    |True    |
-    |Directiva de enrutamiento de voz    | Directiva de enrutamiento de voz de Delhi       |Directiva de enrutamiento de voz de Hyderabad    |
     |Subredes     |Subred 1 (Delhi)     |Subred 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Habilitar el enrutamiento basado en la ubicación de las puertas de enlace
@@ -103,7 +106,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
 
     En este ejemplo, se crea una configuración de puerta de enlace para cada puerta de enlace. 
     ```
-    New-CsOnlinePSTNGateway -Identity sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
+    New-CsOnlinePSTNGateway -Fqdn sbc.contoso.com -Enabled $true -SipSignallingPort 5067 
     ```
     Para obtener más información, vea [Configurar el enrutamiento directo](direct-routing-configure.md).
     
@@ -142,25 +145,25 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     |---------|---------|---------|
     |SUPR PstnGateway:Gateway 1-puerta de enlace    |    True     |   Sitio 1 (Delhi)      |
     |PstnGateway:Gateway 2 Hidráulico-puerta de enlace     |   True      |      Sitio 2 (Hyderabad)   |
-    |PstnGateway:Gateway 3 SUPR-PBX    |    True     |     Sitio 1 (Delhi)    |
-    |PstnGateway:Gateway 4 Hidráulico-PBX    |    True     |    Sitio 2 (Hyderabad)     |
+    |PstnGateway:Gateway 3 SUPR-PBX    |    False     |     Sitio 1 (Delhi)    |
+    |PstnGateway:Gateway 4 Hidráulico-PBX    |    False     |    Sitio 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-calling-policies"></a>Habilitar el enrutamiento basados en ubicación para llamar a las directivas
 
 Para exigir la aplicación de enrutamiento basados en ubicación para usuarios específicos, el desvío de configurar la directiva de voz de los usuarios para evitar que el teléfono de pago PTSN. 
 
-Usar el ``Grant-TeamsCallingPolicy`` el desvío de cmdlet para habilitar el enrutamiento basado en ubicación impidiendo que los números de pago de RTC.
+Usar el ``Grant-CsTeamsCallingPolicy`` el desvío de cmdlet para habilitar el enrutamiento basado en ubicación impidiendo que los números de pago de RTC.
 
 ```
-Grant-TeamsCallingPolicy -PolicyName <policy name> -id <user id> 
+Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 
 ```
 En este ejemplo, se evitar el desvío de pago de RTC del Usuario1 al llamar a las directivas de. 
 
 ```
-Grant-TeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
+Grant-CsTeamsCallingPolicy –PolicyName “AllowCallingPreventTollBypass” -id “User1” 
 ```
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Planeación de enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Establecer la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
-- [Terminología de enrutamiento basados en ubicación](location-based-routing-terminology.md)
+- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
+- [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
+- [Terminología de enrutamiento basado en la ubicación](location-based-routing-terminology.md)

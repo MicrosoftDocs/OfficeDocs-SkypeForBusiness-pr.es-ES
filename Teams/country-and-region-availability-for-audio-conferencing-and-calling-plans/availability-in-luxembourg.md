@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 466bff97-98ef-4e44-95b5-f51ee80b2128
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Luxemburgo los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9eefc9645ab2f03ce8156193799e7e99adfc1c27
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d43be0cfca4f0eddee529e12a7f5fad25d3a7079
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047145"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352189"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilidad en Luxemburgo
 

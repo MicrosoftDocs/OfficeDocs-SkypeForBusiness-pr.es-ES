@@ -1,5 +1,5 @@
 ---
-title: Crear una cola de llamadas de Sistema telefónico
+title: Crear una cola de llamadas para el sistema telefónico
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,11 +7,13 @@ ms.reviewer: phans, wasseemh
 ms.topic: article
 ms.assetid: 67ccda94-1210-43fb-a25b-7b9785f8a061
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 0d9113dfb3380872170d16ae5f657839f099a52a
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 59054c1d73e002065db00ff1045ed8453fafa929
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30222435"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351693"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas de Sistema telefónico
+# <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el sistema telefónico
 
 Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
   

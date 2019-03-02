@@ -15,6 +15,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +25,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-ms.openlocfilehash: 091131cf852847e60c6b8546b56121183cc2d499
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3158e31b5008fef91e3da4be86ee6cabf3a5fd1b
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047525"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352885"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 

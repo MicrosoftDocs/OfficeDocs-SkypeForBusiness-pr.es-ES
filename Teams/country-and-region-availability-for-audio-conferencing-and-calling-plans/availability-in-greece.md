@@ -1,18 +1,17 @@
 ---
 title: Disponibilidad en Grecia
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b1a5b69-4bc2-4427-91e6-adb26993c365
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Grecia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c877282f61be1b628e747b1c02e88f50d1ded737
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: b9041bda474a93af33250d9c79cbf51a029d8b48
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014046"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353166"
 ---
 # <a name="availability-in-greece"></a>Disponibilidad en Grecia
 

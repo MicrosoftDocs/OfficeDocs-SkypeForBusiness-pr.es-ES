@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Taiwán
+title: Disponibilidad en Taiwán
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: fbbdebfe-497d-41e1-b654-39bbb2e5a67e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Taiwán los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: a5853a3ce1152e9b9b62e17b0ea6a430cc021f6c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: a918291f3d6592a6429f6783f9de2424577fe950
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048589"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352661"
 ---
-# <a name="availability-in-taiwan"></a>Disponibilidad de Taiwán
+# <a name="availability-in-taiwan"></a>Disponibilidad en Taiwán
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

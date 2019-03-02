@@ -1,28 +1,26 @@
 ---
-title: Migración a enrutamiento directo
+title: Migrar a enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Obtenga información sobre lo que necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y perspectiva de la configuración de los equipos.
-ms.openlocfilehash: 4aeb9a2a2ba1bc8398896b2040276f08658194f5
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754474"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353117"
 ---
-# <a name="migrating-to-direct-routing"></a>Migración a enrutamiento directo
+# <a name="migrating-to-direct-routing"></a>Migrar a enrutamiento directo
 
 Este artículo describe lo que se necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y Microsoft Teams perspectiva de la configuración. En este artículo se trata la migración entre las siguientes opciones: 
  
@@ -67,7 +65,7 @@ Para obtener más información, consulte [migración e interoperabilidad instruc
 
 Para obtener más información sobre la migración de los planes de llamada, vea:
 
-- [Configurar Planes de llamada](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
+- [Configurar planes de llamadas](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 - [Set-CsOnlineVoice usuario](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  

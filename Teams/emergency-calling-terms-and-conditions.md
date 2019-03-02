@@ -7,12 +7,12 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: ca2c751b-53ab-42c7-aed9-cfe27e662940
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- Strat_SB_PSTN
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de servicios de telefonía tradicional y cómo realizar una llamada. '
-ms.openlocfilehash: 95288e2d6d4d78583d93e1dbccca3b703704df21
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d60626a119d047906faa99a4c756435bd565ee98
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048677"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350645"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 

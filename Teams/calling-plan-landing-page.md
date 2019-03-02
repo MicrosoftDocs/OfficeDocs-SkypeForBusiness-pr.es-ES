@@ -6,22 +6,25 @@ manager: serdars
 ms.date: 01/28/2019
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Llamar a la página de inicio del Plan
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3299460eeb504c53737d163a6026081775fce5d
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: cce239825389e11cfbc627d518e7d1e459fa77d3
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29595439"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351501"
 ---
 # <a name="phone-system-with-calling-plans"></a>Sistema telefónico con Planes de llamada 
 
-Se ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implantado equipos con [chat, los equipos, los canales, & aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido usar el sistema telefónico de Microsoft con el Plan para llamar a para conectarse a la red telefónica pública conmutada (RTC). 
+Se ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido usar el sistema telefónico de Microsoft con el Plan para llamar a para conectarse a la red telefónica pública conmutada (RTC). 
 
 En este artículo se describe la implementación las decisiones principales para llamar a los planes, así como consideraciones adicionales que es posible que desea configurar, en función de las necesidades de su organización. También debe leer [En la nube de voz en los equipos de Microsoft](cloud-voice-landing-page.md) para obtener más información acerca de las ofertas de voz de la nube de Microsoft.
 
@@ -31,8 +34,8 @@ En este artículo se describe la implementación las decisiones principales para
 Los artículos siguientes proporcionan más información sobre la implementación y uso de llamar a los planes de Microsoft:
 
 - [Sistema telefónico de Office 365](what-is-phone-system-in-office-365.md)
-- [Planes de llamada para Office 365](calling-plans-for-office-365.md)
-- [Configurar Planes de llamada](set-up-calling-plans.md)
+- [Planes de llamadas para Office 365](calling-plans-for-office-365.md)
+- [Configurar planes de llamadas](set-up-calling-plans.md)
 
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
@@ -44,7 +47,7 @@ Hay dos tipos de planes de llamada disponibles:
 - Planes de llamada nacionales 
 - Planes de llamada nacional e internacional
 
-|Hágase|Acción |
+|Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Son planes de llamada disponibles en Mi área? ¿Las ubicaciones de usuario tendrá planeación de llamar al servicio? | Para obtener más información, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). | 
 ¿Mis usuarios necesitan llamadas internacionales? | Para obtener más información, vea [Llamar a planes de Office 365](calling-plans-for-office-365.md). |
@@ -61,7 +64,7 @@ Es fácil transferir sus números de teléfono de su proveedor de servicios actu
 
 Con una llamada a los planes en Office 365, todos los usuarios de su organización necesita tener un único marcado entrante directo (DID) número de teléfono y una dirección de emergencia validada correspondiente. También puede especificar una ubicación de emergencia dentro de la dirección de emergencia (por ejemplo, un número de oficina o número de piso). 
 
-|Hágase|Acción |
+|Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
 |¿El nivel de detalle quiero la información de dirección y ubicación de emergencia a ser? |Para obtener más información, vea [¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-emergency-locations-addresses-and-call-routing).
 
@@ -70,7 +73,7 @@ Con una llamada a los planes en Office 365, todos los usuarios de su organizaci�
 
 De forma predeterminada, todas las llamadas salientes utilizan el número de teléfono asignado como llamada identidad (identificador de autor de la llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada.
 
-|Hágase|Acción |
+|Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
 |¿Desea enmascarar o deshabilitar el identificador de autor de la llamada? | Para cambiar o bloquear el identificador de autor de la llamada, vea [establecer el identificador de autor de la llamada de un usuario](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user). |
 |||

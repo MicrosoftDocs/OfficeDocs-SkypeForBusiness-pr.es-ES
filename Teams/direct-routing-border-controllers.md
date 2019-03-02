@@ -6,22 +6,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: f4154280b23fbd1d8b9f1a82b5877f58c04a1c70
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+ms.openlocfilehash: 95668351a521f0cbb262d877f2f8ad2f6fcfd69d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760602"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353405"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 

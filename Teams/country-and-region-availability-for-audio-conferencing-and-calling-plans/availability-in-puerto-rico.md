@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: c23f007c-b858-4691-af72-c95d94676331
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Puerto Rico los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b1f45cba06915f16c69d96a7e00567013ec491a7
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: fcb55650903b2ba3cbe75cbcddfed9f5613dadc7
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047549"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352669"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidad en Puerto Rico
 

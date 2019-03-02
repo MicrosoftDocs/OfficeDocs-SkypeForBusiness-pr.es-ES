@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 589bf5f5-490a-4215-8588-99bab7d33e31
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -25,12 +24,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: 70cb54b3f8315bef7dc0d317234326fb056034c1
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d552fe5599a9c1189b20a3efa69f659333d80166
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048438"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352845"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 

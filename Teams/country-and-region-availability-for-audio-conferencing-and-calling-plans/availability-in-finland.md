@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 1e242b5d-0526-431c-885f-ff27a9560d0a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Finlandia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 0499feb20dc8abf3d62c34278a813b2636ec8e18
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: e740e964608496899ea7809495a68f6092b5f293
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048885"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353005"
 ---
 # <a name="availability-in-finland"></a>Disponibilidad en Finlandia
 

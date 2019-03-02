@@ -5,21 +5,20 @@ author: jambirk
 manager: serdars
 ms.reviewer: kponnus
 ms.topic: article
-ms.service:
-- skype-for-business
-- msteams
+ms.service: msteams
 ms.audience: Admin
-appliesto:
-- Skype for Business
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 localization_priority: Normal
 description: En este artículo, se explica la lista de teléfonos que están certificados para Microsoft Teams y las características admitidas en los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: ac4e609378e23dde4a91fd45bee917ad5c1340d7
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 45295187e145fb634b76eeb7433c2201746db59e
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120959"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353325"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 

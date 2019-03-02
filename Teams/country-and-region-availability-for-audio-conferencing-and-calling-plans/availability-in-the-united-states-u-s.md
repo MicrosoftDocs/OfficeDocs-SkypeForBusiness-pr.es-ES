@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 267abb97-5a9c-4ed3-aa6d-47cb63d39cd0
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: 5ef3e2435f4219f42f6e8cc9b02b057bcee96634
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: d6f1b205016146fb9b90458b387f23f31cfe1b69
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048781"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352637"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 

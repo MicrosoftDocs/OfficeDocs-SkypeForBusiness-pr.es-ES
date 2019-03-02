@@ -1,5 +1,5 @@
 ---
-title: Restricciones de marcado gratuito de Chile
+title: Restricciones de marcado de número gratuito en Chile
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 5d616ef2-29b2-4c5e-9103-ef531369512d
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 6e9e683d6659f4409d55b1522690a6da9b50433a
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b391e0ca3ff86df83142652503e9c8d059b1a3a8
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047493"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353629"
 ---
-# <a name="toll-free-dialing-restrictions-in-chile"></a>Restricciones de marcado gratuito de Chile
+# <a name="toll-free-dialing-restrictions-in-chile"></a>Restricciones de marcado de número gratuito en Chile
 
 [Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
 

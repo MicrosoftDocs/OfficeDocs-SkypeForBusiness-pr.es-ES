@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: a1534ecf-fae6-4472-9f3f-c205f547af17
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Rusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c287c419e99f7649a6b9f2b006adb94cf7f14eca
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: b070493e649e31ea6d44e8bd94a5dba7a3d13984
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046777"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352253"
 ---
 # <a name="availability-in-russia"></a>Disponibilidad en Rusia
 

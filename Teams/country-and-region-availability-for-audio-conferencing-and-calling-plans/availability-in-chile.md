@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Chile
+title: Disponibilidad en Chile
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 42fd0274-d0d8-4fb1-abfe-6bc42881dac8
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Chile los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 8adf068472b256adb11b5530daf4620213a59d56
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: cc4cd08f497f2120a1afde33bdcc368944d74c82
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047349"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352477"
 ---
-# <a name="availability-in-chile"></a>Disponibilidad de Chile
+# <a name="availability-in-chile"></a>Disponibilidad en Chile
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

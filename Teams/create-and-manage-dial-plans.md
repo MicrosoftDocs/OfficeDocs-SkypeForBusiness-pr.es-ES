@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 7af17c94-5f8f-4452-ae1d-01f495b4dc94
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Learn how to create calling dial plans (PSTN Calling dial plans) in Office 365 and how to manage them. '
-ms.openlocfilehash: b65e8bf7dc55e88f3c71414f3ac2f81abfa3be07
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 388dd1bf037a506ca3936e89d66e01997e6ca208
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048534"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352861"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 

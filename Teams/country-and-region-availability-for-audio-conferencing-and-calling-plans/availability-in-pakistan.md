@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Pakistán
+title: Disponibilidad en Pakistán
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 2066d1f9-cbf6-411f-91bb-84d824b4325e
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Pakistán los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 6195b45983a7e444627b17bc37566b8220cf4939
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: c44f289cbc3ee82ad1c287624a68897b50f0c048
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047057"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353541"
 ---
-# <a name="availability-in-pakistan"></a>Disponibilidad de Pakistán
+# <a name="availability-in-pakistan"></a>Disponibilidad en Pakistán
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

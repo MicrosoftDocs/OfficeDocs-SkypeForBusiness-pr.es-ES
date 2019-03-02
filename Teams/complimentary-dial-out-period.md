@@ -7,12 +7,11 @@ ms.reviewer: mikedav, OscarR
 ms.topic: article
 ms.assetid: dc6e95cd-51e8-49ca-bcd3-78dc9dae486a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: 235b8906385be0e6228a7d99c3dda1a52507f137
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 1d1d047e4888c2f8fbfa93aeb7ab4c00dfc62bde
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532895"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352869"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -49,7 +48,7 @@ Los usuarios con una ubicación de uso de licencia (esta es la ubicación de pa�
 - Todas las llamadas salientes a destinos no está en la lista de país de la zona se facturan por minuto con Communications créditos a nuestros publicados velocidades de ese destino (siempre inquilino tiene configurar Communications créditos y asignado la licencia de créditos de comunicaciones para el Organizador de la reunión).
 
 > [!NOTE]
-> Puede supervisar el uso de la salida de grupo de servidores minuto en el Skype para el centro de administración de negocio. En el Microsoft Teams & Centro de administración de Skype, vaya al **portal heredado** > **informes** > **Grupos de servidores de RTC minuto**. Este minuto complementario grupo tendrá la etiqueta en el informe como "Llamadas salientes a la zona A países".
+> Puede supervisar el uso de la salida de grupo de servidores minuto en el Skype para el centro de administración de negocio. En el centro de administración de Skype de Microsoft Teams &, vaya al **portal heredado** > **informes** > **Grupos de servidores de RTC minuto**. Este minuto complementario grupo tendrá la etiqueta en el informe como "Llamadas salientes a la zona A países".
 
 Se enviarán notificaciones por correo electrónico a todos los administradores de inquilinos de un cliente determinado cuando el uso del grupo de servidores de acceso telefónico de salida minutos del inquilino alcanza el 80% y 100%.
 

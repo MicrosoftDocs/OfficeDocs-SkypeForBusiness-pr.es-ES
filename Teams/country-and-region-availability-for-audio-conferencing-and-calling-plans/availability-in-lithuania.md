@@ -1,18 +1,17 @@
 ---
 title: Disponibilidad en Lituania
-ms.author: tonysmit
-author: tonysmit
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Lituania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 2e147d01e952c7606d223e636a045d07a81a824c
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: cd0f5105ee73ea45b9b97d5d4bd8c6e095071ab4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014494"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352525"
 ---
 # <a name="availability-in-lithuania"></a>Disponibilidad en Lituania
 

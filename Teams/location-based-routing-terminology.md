@@ -1,5 +1,5 @@
 ---
-title: Terminología de enrutamiento basados en ubicación
+title: Terminología de enrutamiento basado en la ubicación
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -10,17 +10,20 @@ ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre la terminología y los conceptos asociados con el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7bcf4341d171f8b9faf8c11bbe8d85503cf2240b
-ms.sourcegitcommit: a80f26cdb91fac904e5c292c700b66af54261c62
+ms.openlocfilehash: 122ded988b9bf3c2cd8d439e84cb132e3a3f690d
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29771003"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352334"
 ---
-# <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basados en ubicación
+# <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basado en la ubicación
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
@@ -34,6 +37,6 @@ A continuación presentamos algunos términos y conceptos que se usan en toda la
 |Direcciones IP externas de confianza    |Confianza direcciones IP externas son las direcciones IP externas de Internet de la red de la empresa. Determinan si el extremo del usuario está dentro de la red corporativa antes de comprobar una coincidencia de sitio específico. Si la dirección IP externa del usuario coincide con una dirección IP que se define en la lista de confianza, enrutamiento basados en ubicación comprueba para determinar la subred interna donde se encuentra extremo del usuario. Si la dirección IP externa del usuario no coincide con cualquier dirección IP que se define en la lista de confianza, el extremo se clasifica como está en una ubicación desconocida y se bloquean las llamadas RTC a o desde un usuario habilitado para enrutamiento basado en la ubicación.          |
 
 ### <a name="related-topics"></a>Temas relacionados
-- [Planeación de enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-plan.md)
-- [Establecer la configuración de red para el enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
-- [Habilitar el enrutamiento basado en ubicación para el enrutamiento directo](location-based-routing-enable.md)
+- [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
+- [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
+- [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)

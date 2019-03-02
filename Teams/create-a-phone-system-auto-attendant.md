@@ -1,5 +1,5 @@
 ---
-title: Configurar un operador automático de Sistema telefónico
+title: Configurar un operador automático para el sistema telefónico
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -7,11 +7,13 @@ ms.reviewer: makolomi
 ms.topic: article
 ms.assetid: 6fc2687c-0abf-43b8-aa54-7c3b2a84b67c
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
+- Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -21,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas.
-ms.openlocfilehash: 8f4ed3b220af30dc229da5ef8abfcdc15c7af338
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30222451"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353301"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático de Sistema telefónico
+# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático para el sistema telefónico
 
 Operadores automáticos permiten a las personas que llaman a su organización y navegue a un sistema de menús a obtienen al departamento de derecho, cola, persona o el operador de llamada. Puede crear a un operador automático para la organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático de, vaya a **voz** en el panel de navegación izquierdo y, a continuación, seleccione **operadores automáticos** > **Agregar nuevo**.
 

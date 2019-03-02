@@ -1,18 +1,17 @@
 ---
-title: Disponibilidad de Ecuador
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilidad en Ecuador
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 93419ae6-1f3d-4182-83d1-afe02060fd6a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Ecuador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 15d7dc86ef164eeb8a23f176d8eeca9bfa5b0b60
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: bf2eadb0c64caa4733d3c057b211cc7d539c00e9
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25013164"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30353229"
 ---
-# <a name="availability-in-ecuador"></a>Disponibilidad de Ecuador
+# <a name="availability-in-ecuador"></a>Disponibilidad en Ecuador
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 

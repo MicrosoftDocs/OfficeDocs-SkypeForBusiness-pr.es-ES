@@ -5,22 +5,20 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: 46fd5ad046551d30bf3822d11864edc2a5353a26
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 75f116004c0385aa7d13b0173380221304590814
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014936"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350989"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
@@ -46,7 +44,7 @@ En el siguiente diagrama muestra un ejemplo de la configuración:
 
 ![Ejemplo de configuración de opciones de SIP](media/sip-options-config-example.png)
 
-Cuando un usuario realiza una llamada al número +1 425 \<cualquier siete dígitos >, el enrutamiento directo da como resultado la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Ambos SBCs tienen la misma prioridad en la ruta. Antes de seleccionar un SBC, el mecanismo de enrutamiento, se evalúa como el mantenimiento de la SBCs según cuando la SBC envía las opciones de SIP por última vez. 
+Cuando un usuario realiza una llamada al número +1 425 \<cualquier digits> siete, enrutamiento directo da como resultado la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Ambos SBCs tienen la misma prioridad en la ruta. Antes de seleccionar un SBC, el mecanismo de enrutamiento, se evalúa como el mantenimiento de la SBCs según cuando la SBC envía las opciones de SIP por última vez. 
 
 Un SBC se considera correcto si las estadísticas en el momento del envío de la llamada se muestran que el SBC envía las opciones en un intervalo regular.  
 

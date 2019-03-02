@@ -1,5 +1,5 @@
 ---
-title: ¿Cuántos números de teléfono puede conseguir?
+title: ¿Cuántos números de teléfono puede obtener?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,14 +7,13 @@ ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
 ms.assetid: 61dfb27c-5bfa-4481-a930-9c026e73ff3a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información acerca de los números de teléfono diferentes que se usan en Skype para profesionales en línea.
-ms.openlocfilehash: 4eeef8ea633b1ba26169681b2e994b6d3176fd67
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30048765"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352789"
 ---
-# <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede conseguir?
+# <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 
 Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en [distintos tipos de números de teléfono utilizados para llamar a los planes](different-kinds-of-phone-numbers-used-for-calling-plans.md) para obtener información acerca de los números de teléfono diferentes que se usan en Skype para profesionales en línea.
   

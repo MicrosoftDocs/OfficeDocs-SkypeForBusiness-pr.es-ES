@@ -1,18 +1,17 @@
 ---
-title: Disponibilidad de Sri Lanka
-ms.author: tonysmit
-author: tonysmit
+title: Disponibilidad en Sri Lanka
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: 5e91dcb0-7c23-415b-9e0b-82115dc046da
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Sri Lanka los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 01dba4ec6d4ad62350fd77e6283602e335558f41
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04ca009a0b542a156ec3e6fba95e79c5880f6695
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25016136"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30352925"
 ---
-# <a name="availability-in-sri-lanka"></a>Disponibilidad de Sri Lanka
+# <a name="availability-in-sri-lanka"></a>Disponibilidad en Sri Lanka
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
