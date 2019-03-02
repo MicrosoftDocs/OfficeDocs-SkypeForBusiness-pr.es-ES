@@ -1,5 +1,5 @@
 ---
-title: Restricciones de marcado gratuito en el Reino Unido (Reino Unido)
+title: Restricciones de marcado de número gratuito en Reino Unido
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, oscarr
 ms.topic: article
 ms.assetid: 4e3ffa25-762e-4066-acb2-15634818b586
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 5bbad4682755b6df364790910aa7e0579457506f
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 3641719d03efd34eadf8a739be0d9d6a4abf2a59
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046363"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30350637"
 ---
-# <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Restricciones de marcado gratuito en el Reino Unido (Reino Unido)
+# <a name="toll-free-dialing-restrictions-in-the-united-kingdom-uk"></a>Restricciones de marcado de número gratuito en Reino Unido
 
 [Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
 

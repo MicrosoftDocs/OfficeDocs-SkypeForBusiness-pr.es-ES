@@ -1,5 +1,5 @@
 ---
-title: Empezar a trabajar con plantillas de Microsoft los equipos sanitarios
+title: Introducción a las plantillas de equipos para las organizaciones de salud
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Empezar a trabajar con plantillas de Microsoft los equipos sanitarios
-ms.openlocfilehash: e2b1e9cb2171f250c9d9e635c3d5233c4f47f24e
-ms.sourcegitcommit: d400c8f83a2325c4a8bbb963ddad685a346bc4d8
+description: Introducción a las plantillas de equipos para las organizaciones de salud
+ms.openlocfilehash: 98fff56720bc0d0dee530ab37c67e0e24aaba086
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "29760570"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351717"
 ---
-# <a name="get-started-with-microsoft-teams-healthcare-templates"></a>Empezar a trabajar con plantillas de Microsoft los equipos sanitarios
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de equipos para las organizaciones de salud
 
 Plantillas de Microsoft Teams permiten rápidamente y creación fácilmente los equipos, ya que proporciona una plantilla predefinida de configuración, canales y aplicaciones instaladas previamente.
 
@@ -37,7 +37,7 @@ La plantilla de distrito está pensada para la comunicación y la colaboración 
 |Healthcare - distrito | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anuncios\* <br> Huddles\* <br> Redondea hacia arriba\* <br> Personal\* <br> Recursos de aprendizaje\* |
 |     | |         |
 
-\*Automático favoritos 
+\*Automático favoritos
 
 ## <a name="hospital-template"></a>Plantilla de hospital
 

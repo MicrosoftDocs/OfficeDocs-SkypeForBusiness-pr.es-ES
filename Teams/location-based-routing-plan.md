@@ -10,15 +10,18 @@ ms.reviewer: roykuntz
 search.appverid: MET150
 description: Obtenga información sobre cómo planear el enrutamiento basado en la ubicación para el enrutamiento directo.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+ms.collection:
+- Teams_ITAdmin_Help
+- Strat_SB_PSTN
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8faf0f70b509a851b8365bea5ce4a69a57f198d1
-ms.sourcegitcommit: 09c2094104ee055cb1cb047a5fab8f9fd02b123e
+ms.openlocfilehash: ff596f444c5df963b809e1ccacd525cb0dfd74e4
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29967459"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351829"
 ---
 # <a name="plan-location-based-routing-for-direct-routing"></a>Planear enrutamiento basado en la ubicación para el enrutamiento directo
 

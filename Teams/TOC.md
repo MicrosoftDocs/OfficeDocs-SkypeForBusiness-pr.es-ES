@@ -23,7 +23,7 @@
 ## [Crear un equipo de toda la organización en los equipos](create-an-org-wide-team.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [Introducción a las plantillas de Teams](get-started-with-teams-templates.md)
-## [Introducción a las plantillas de sanidad de Microsoft Teams](healthcare/healthcare-templates.md)
+## [Plantillas de equipos para la asistencia sanitaria](healthcare/healthcare-templates.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presencia](presence-admins.md)
 ## [Comunicarse con los usuarios de los equipos de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
@@ -105,7 +105,7 @@
 ### Licencias
 #### [Gestionar acceso de los usuarios a Microsoft Teams](user-access.md)
 #### [Licencias de Office 365 para Microsoft Teams](office-365-licensing.md)
-#### [Asignación de licencias de los equipos](assign-teams-licenses.md)
+#### [Asignar licencias de Teams](assign-teams-licenses.md)
 #### [Licencias de complemento de los equipos](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 ##### Opciones de licencia en función del plan
 ###### [Office 365 Business Premium](teams-add-on-licensing/office-365-business-premium.md)
@@ -315,10 +315,10 @@
 #### [Establecer la identificación de llamadas de un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Operadores automáticos y colas de llamadas 
 #### [¿Qué son los operadores automáticos de sistema telefónico](what-are-phone-system-auto-attendants.md)
-#### [Configurar un operador automático de Sistema telefónico](create-a-phone-system-auto-attendant.md)
+#### [Configurar un operador automático para el sistema telefónico](create-a-phone-system-auto-attendant.md)
 #### [Ejemplo de pequeña empresa - configurar un operador automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md)
-#### [Crear una cola de llamadas de Sistema telefónico](create-a-phone-system-call-queue.md)
+#### [Crear una cola de llamadas para el sistema telefónico](create-a-phone-system-call-queue.md)
 #### [Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos](answer-auto-attendant-and-call-queue-calls.md)
 ### [Estacionamiento y recuperación](call-park-and-retrieve.md)
 ### [Uso compartido de llamada y el grupo de atención de llamadas](call-sharing-and-group-call-pickup.md)

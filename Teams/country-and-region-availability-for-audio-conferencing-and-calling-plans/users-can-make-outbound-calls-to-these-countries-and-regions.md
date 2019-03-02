@@ -1,5 +1,5 @@
 ---
-title: Los usuarios pueden hacer llamadas salientes a estos países y regiones
+title: Los usuarios pueden realizar llamadas a estos países y regiones
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -7,11 +7,11 @@ ms.reviewer: mikedav, jastark
 ms.topic: article
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,14 +24,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 55158366711e51472884aab74db6f5f70a9241c3
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 59cfb8f99392538313f67ff80f13aa394cfa4352
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047533"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351949"
 ---
-# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden hacer llamadas salientes a estos países y regiones
+# <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 
 ### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene la licencia nacionales y llamar a planear internacional
 

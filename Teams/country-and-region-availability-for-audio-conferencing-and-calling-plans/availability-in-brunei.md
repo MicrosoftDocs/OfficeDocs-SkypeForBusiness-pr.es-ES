@@ -1,5 +1,5 @@
 ---
-title: Disponibilidad de Brunei
+title: Disponibilidad en Brunéi
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -7,12 +7,11 @@ ms.reviewer: mikedav, jastark, oscarr
 ms.topic: article
 ms.assetid: a4921bd0-d6b4-4b98-b5c9-a2bb9c830d93
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Adm_Skype4B_Online
 - Teams_ITAdmin_Help
+- M365-voice
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -26,14 +25,14 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 64e42340c4fa3b02b85dd839b6d348af15ea2a94
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: e9442c98329833f96f995b012f90461cc6eb9e90
+ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047161"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30351269"
 ---
-# <a name="availability-in-brunei"></a>Disponibilidad de Brunei
+# <a name="availability-in-brunei"></a>Disponibilidad en Brunéi
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
