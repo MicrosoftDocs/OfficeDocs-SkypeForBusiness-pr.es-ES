@@ -3,7 +3,7 @@ title: Problemas conocidos de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 2/19/2019
+ms.date: 2/25/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 252d1508065aaf0a26e865b8f8d8109dec81512e
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 53a6a258d96777e5dc335fcecb84e9f2b7962beb
+ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178584"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "30342106"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -43,6 +43,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |La administración de conectores a nivel de inquilino ya no está disponible  <br/> |Al intentar agregar un conector en la versión de cliente y la versión en línea, se recibe el error: Se ha producido un error inesperado. Inténtalo de nuevo. Set-OrganizationConfig -ConnectorsEnabled=True   <br/> |Deshabilítelo en la configuración de Microsoft Teams. Vea este artículo de soporte: https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_teams-mso_o365b/how-to-enable-or-disable-connectors-in-office-365/33d4b2c1-00eb-420a-ad83-01a2b42ad098    <br/> |21/6/17  <br/> |
 
 ## <a name="apps"></a>Aplicaciones
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Es posible que [Acceso condicional](https://docs.microsoft.com/es-ES/azure/active-directory/conditional-access/overview) no funcione cuando use la pestaña "Sitio Web" en la aplicación de escritorio<br/> |Si un sitio web, por ejemplo, un portal de intranet, cuenta con directivas de acceso condicional (como restricciones en el explorador o las direcciones IP), ese sitio web puede no parecer como una pestaña dentro de Teams en la aplicación de escritorio <br/> |Usar Teams en un explorador en lugar de en la aplicación de escritorio.  <br/> |1/7/18  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -226,6 +230,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
+|La ficha Sitio web provoca la confusión de los clientes  <br/> |Las fichas Sitio web no son equivalentes a las de su explorador. Una serie de sitios, en especial los que requieren autenticación o el uso de ventanas emergentes, no funcionarán cuando se anclan como ficha de sitio web.  <br/> |Estamos trabajando en mejorar la interfaz de usuario para que sea más obvia para los clientes.  <br/> |02/05/2018  <br/>|
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
 |Las fichas no funcionan desde que se habilitó el acceso condicional <br/> |Es posible que algunas fichas no se carguen más en el cliente de escritorio desde que se habilitó el Acceso condicional en el inquilino. Las fichas se cargan cuando se usa el cliente web. Algunas de las fichas que se pueden ver afectadas son: PowerBI, Forms, VSTS, PowerApps y SharePoint List.  <br/> |Para ver las fichas afectadas, deberá usar Microsoft Teams en Microsoft Edge, IE o Chrome con la extensión de cuentas de Windows 10 instalada. Algunas fichas todavía dependen de la autenticación web, que no funciona en el cliente de escritorio cuando la entidad de certificación está habilitada. Estamos trabajando con nuestros socios para habilitar estos escenarios; de momento hemos habilitado Planner, OneNote y Stream. <br/> |05/04/2018  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -282,3 +290,6 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |:-----|:-----|:-----|:-----|
 |La aplicación de escritorio de Microsoft Teams muestra una pantalla blanca  <br/> | <br/> |Intente eliminar o reinstalar los controladores gráficos del equipo, o iniciar Teams desde una línea de comandos con la marca Deshabilitar GPU:<ul><li>Para Windows: Abra el símbolo del sistema y especifique lo siguiente: `cd %localappdata%\microsoft\teams\current run Teams.exe --disable-gpu`</li><li>Para Mac: Inicie Terminal y especifique lo siguiente: `cd \Applications folder Microsoft\ Teams.app/Contents/MacOS/Teams --disable-gpu`</li></ul> <br/> |<br/> |
 
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|El usuario no recibe el correo electrónico de bienvenida cuando se le agrega de forma administrativa  <br/> |Cuando se agrega a un miembro a un equipo con PowerShell o el centro de administración de Teams, este no recibe el mensaje de bienvenida de Microsoft Teams  <br/> |Agregar a un miembro directamente desde la interfaz de usuario de Teams enviará un correo electrónico. Actualmente, no hay ninguna solución alternativa a hacerlo de forma administrativa.  <br/> |12/2/19  <br/> |
