@@ -14,12 +14,12 @@ MS.collection: Teams_ITAdmin_Help
 description: Obtenga información acerca de los informes de los equipos que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8759de65058c6f2c418622df05028b3c03c94aa6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6769a21e621b0259d6811daed90f43f99fdd047f
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "29754626"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408231"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -41,7 +41,7 @@ Constantemente estamos mejorando la experiencia de reporting y agregar caracter�
 |Informe  |¿Qué se mide? |
 |---------|---------|
 |[Informe de uso de los equipos](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos en los equipos y canales<br/>Canales de activos<br/>Mensajes<br/>Configuración de privacidad de los equipos<br/>Invitados en un equipo   |
-|[Informe de actividad de usuario de los equipos](user-activity-report.md)  |  1:1 llama a un usuario particpated<br/>Mensajes de un usuario registrado en una charla de equipo<br/>Los mensajes de un usuario registrado en un chat privado<br/>Última fecha de actividad de un usuario     |
+|[Informe de actividad de usuario de los equipos](user-activity-report.md)  |  un usuario ha participado en las llamadas 1:1<br/>Mensajes de un usuario registrado en una charla de equipo<br/>Los mensajes de un usuario registrado en un chat privado<br/>Última fecha de actividad de un usuario     |
 |[Informe de uso de dispositivos de los equipos](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfonos Android     |
 
 > [!NOTE]

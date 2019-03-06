@@ -20,16 +20,17 @@ metadata:
   localization_priority: Normal
   search.appverid: MET150
   ms.collection:
+  - M365-voice
   - Adm_Skype4B_Online
   - Teams_ITadmin_Training
   ms.custom:
   - NewAdminCenter_Update
-  ms.openlocfilehash: c309f4882cc12c3d8ccb9a0d9bccadb6d1cd459e
-  ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+  ms.openlocfilehash: f6138e8279ca0c45c186cc3c9e60bf7952a6d14f
+  ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/22/2019
-  ms.locfileid: "30210774"
+  ms.lasthandoff: 03/05/2019
+  ms.locfileid: "30408372"
 items:
 - durationInMinutes: 2
   content: "\n[Los equipos de Microsoft](/MicrosoftTeams/Teams-overview.md) y [Skype para la empresa](https://support.office.com/en-us/article/Video-What-is-Skype-for-Business-3a21eca4-434d-41f1-ab06-3d4a268573b7) forman parte de Office 365 que proporcionan chat, las conversaciones telefónicas, correo de voz, reuniones, archivos y aplicaciones juntas en un solo lugar. Ambas tienen que usar el [**Sistema telefónico**](/MicrosoftTeams/what-is-phone-system-in-office-365) para habilitar el control de llamadas y las capacidades de PBX en la nube de Office 365. \n\nSistema telefónico permite reemplazar el sistema PBX existente con un [conjunto de características](/MicrosoftTeams/here-s-what-you-get-with-phone-system) que incluyen el correo de voz y los [operadores automáticos](/microsoftteams/what-are-phone-system-auto-attendants), qué personas permiten que llame a su negocio desplazarse por un sistema de menús para que estén al departamento de derecho, de persona, o el Operador. Operadores automáticos pueden usarse con los equipos o Skype para la empresa. Crear un sistema de operador automático para su organización mediante la Skype para el centro de administración de negocio.\n\nSi se le pide que configurar un operador automático, este artículo le guiará a través de planeación e implementación de operadores automáticos de una pequeña empresa hipotética. No es una solución única, pero es un buen punto de partida. \n\n## <a name=\"before-you-begin\"></a>Antes de comenzar\n\nSe supone que ya ha realizado la siguiente: \n- [Configurar el sistema telefónico en su organización](/MicrosoftTeams/setting-up-your-phone-system.md) con una [Planeación de la llamada](/MicrosoftTeams/what-are-calling-plans-in-office-365) para proporcionar los números de teléfono a los usuarios.\n- [Configurar el correo de voz de Sistema telefónico](/MicrosoftTeams/set-up-phone-system-voicemail.md) \n- Revisado [¿Qué son los operadores automáticos de teléfono del sistema?](/MicrosoftTeams/what-are-phone-system-auto-attendants.md) para obtener una mejor comprensión de las características del sistema de teléfono que puede interactuar con un operador automático.\n\nAdemás, se complace descubrir que se puede realizar la mayor parte de la parte de la planificación y diseño utilizando una pizarra o tarjetas de índice: técnicamente no se exigen tener un buen plan.\n"

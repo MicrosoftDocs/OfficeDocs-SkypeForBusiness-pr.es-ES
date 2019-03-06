@@ -1,11 +1,11 @@
 ---
-title: Configurar el análisis de llamadas
+title: Configurar el Análisis de llamadas
 ms.author: lolaj
 author: LolaJacobsen
 manager: serdars
 ms.reviewer: mikedav, wlooney
 ms.topic: article
-ms.assetid: ''
+ms.assetid: fbf7247a-84ae-46cc-9204-2c45b1c734cd
 ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
@@ -23,14 +23,14 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: 489dceae4924f3f720fd60f86423781c1aa31b41
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 4d6216fe1771158453ca32bbabfed5fcf9b09156
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754554"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408294"
 ---
-# <a name="set-up-call-analytics"></a>Configurar el análisis de llamadas
+# <a name="set-up-call-analytics"></a>Configurar el Análisis de llamadas
 
 Como un equipos o Skype para administración en línea de negocio, puede usar el análisis de llamadas para solucionar problemas de Skype para la empresa y Microsoft Teams llamar a problemas de calidad y de conexión. Es posible que encuentre útil para configurar las siguientes funciones en análisis de llamadas:
   
@@ -94,9 +94,9 @@ Si está creando el archivo .tsv o .csv desde el principio, vea [formato y estru
 ## <a name="related-topics"></a>Temas relacionados
 <a name="BKMK_UploadFiles"> </a>
 
-[Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)
 
-[Análisis de llamada y el panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md)
+[Análisis de llamadas y Panel de calidad de llamadas](difference-between-call-analytics-and-call-quality-dashboard.md)
 
   
  

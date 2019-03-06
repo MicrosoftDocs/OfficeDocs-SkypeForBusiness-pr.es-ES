@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: Revise el equilibrio consideraciones antes de implementar Skype para Business Server de carga.'
-ms.openlocfilehash: 9c0153d9b366731a85070c42ed11ea1a061ee409
-ms.sourcegitcommit: ff0c4bef4d4cbc71d51fce941aff63739a0016e9
+ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "26626194"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408168"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
@@ -106,7 +106,7 @@ Para las implementaciones que **utilizarán** la afinidad basada en cookies:
 Si se implementan dispositivos móviles, es preciso que el equilibrador de carga de hardware pueda equilibrar la carga de una solicitud individual dentro de una sesión TCP (de hecho, necesita poder equilibrar la carga de una solicitud individual basada en la dirección IP de destino).
   
 > [!CAUTION]
-> Los equilibradores de carga de hardware F5 tienen una característica llamada OneConnect que asegura que cada solicitud dentro de una conexión TCP tenga carga equilibrada individualmente. Si va a implementar dispositivos móviles, asegúrese de que su proveedor del equilibrador de carga de hardware admita la misma función. Las últimas aplicaciones móviles que utilizan Apple iOS requieren la versión 1.2 de la seguridad de la capa de transporte (TLS). Para ellos, F5 proporciona una configuración específica. 
+> Si va a implementar los dispositivos móviles, el equilibrador de carga de hardware debe ser capaz de cargar individualmente equilibrar cada solicitud dentro de una conexión TCP. Las últimas aplicaciones móviles que utilizan Apple iOS requieren la versión 1.2 de la seguridad de la capa de transporte (TLS).  
   
 > [!CAUTION]
 > Para más detalles sobre los equilibradores de carga de hardware de terceros, consulte [Infraestructura para Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  

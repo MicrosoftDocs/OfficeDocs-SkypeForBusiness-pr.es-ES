@@ -8,7 +8,9 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 60fcfe34c665805eac90b5e5be862786e9e68de5
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
+ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210783"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "30408262"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -100,11 +102,11 @@ Para las implementaciones en los equipos o Skype para empresarial en línea:
 
 [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 
-[Configurar un operador automático de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar un operador automático para el sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Ejemplo de pequeña empresa - configurar un operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Crear una cola de llamadas de Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Crear una cola de llamadas para el sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nueva CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 
