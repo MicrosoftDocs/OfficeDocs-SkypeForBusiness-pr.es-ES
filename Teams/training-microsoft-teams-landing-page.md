@@ -1,5 +1,5 @@
 ---
-title: Formación de equipos de Microsoft
+title: Aprendizaje de Microsoft Teams
 description: Use estos usuarios finales, administración y recursos de aprendizaje presencial que le ayudarán a obtener el máximo partido de Microsoft Teams en su organización.
 layout: LandingPage
 ms.topic: landing-page
@@ -8,18 +8,20 @@ ms.author: lolaj
 manager: serdars
 ms.date: 01/28/2019
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29cfb69af17387ad5ca9b9cf4f1ceff11fe09117
-ms.sourcegitcommit: 5cf9b45ad87aebfd46d3f1f757786c01804143ed
+ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29635694"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463687"
 ---
-# <a name="microsoft-teams-training"></a>Formación de equipos de Microsoft
+# <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
 
 
@@ -93,7 +95,7 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                        <h3>Recorrido desde Skype Empresarial a Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
                     </div>
                 </div>
@@ -104,7 +106,7 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Trabajo en equipo</h3>
+                        <h3>Trabajo en Equipo</h3>
                          <p><a href="https://aka.ms/edx-cld267x-about">Curso: Habilitar el trabajo en equipo con los equipos de Microsoft</a></p>
                     </div>
                 </div>

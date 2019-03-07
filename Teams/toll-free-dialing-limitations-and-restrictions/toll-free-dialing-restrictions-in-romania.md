@@ -9,7 +9,7 @@ ms.assetid: 039d4dd7-c070-472d-85e4-9085139c0ca2
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,34 +23,34 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: be34eb843dc68a9729b92294e52e5de792b2f5b1
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ab89c0c58b46e61cd393f548a78eba9388b50a4e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350773"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465351"
 ---
-# <a name="toll-free-dialing-restrictions-in-romania"></a><span data-ttu-id="c0061-105">Restricciones de marcado de número gratuito en Rumania</span><span class="sxs-lookup"><span data-stu-id="c0061-105">Toll-free dialing restrictions in Romania</span></span>
+# <a name="toll-free-dialing-restrictions-in-romania"></a><span data-ttu-id="02db2-105">Restricciones de marcado de número gratuito en Rumania</span><span class="sxs-lookup"><span data-stu-id="02db2-105">Toll-free dialing restrictions in Romania</span></span>
 
-<span data-ttu-id="c0061-106">[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.</span><span class="sxs-lookup"><span data-stu-id="c0061-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
+<span data-ttu-id="02db2-106">[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.</span><span class="sxs-lookup"><span data-stu-id="02db2-106">[Find another country or region](../toll-free-dialing-limitations-and-restrictions.md), or learn more about toll-free dialing limitations and restrictions.</span></span>
 
 
-|<span data-ttu-id="c0061-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="c0061-107">**Details**</span></span>|<span data-ttu-id="c0061-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="c0061-108">**Description**</span></span>|
+|<span data-ttu-id="02db2-107">**Detalles**</span><span class="sxs-lookup"><span data-stu-id="02db2-107">**Details**</span></span>|<span data-ttu-id="02db2-108">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="02db2-108">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="c0061-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="c0061-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="c0061-110">Sí</span><span class="sxs-lookup"><span data-stu-id="c0061-110">Yes</span></span>  <br/> |
-|<span data-ttu-id="c0061-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="c0061-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="c0061-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="c0061-112">0 800 XXX XXX</span></span> <br/> |
-|<span data-ttu-id="c0061-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="c0061-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="c0061-114">RO</span><span class="sxs-lookup"><span data-stu-id="c0061-114">RO</span></span>  <br/> |
-|<span data-ttu-id="c0061-115">Isla/territorio que abarque</span><span class="sxs-lookup"><span data-stu-id="c0061-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="c0061-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="c0061-116">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c0061-117">Isla o territorio que no están cubierta</span><span class="sxs-lookup"><span data-stu-id="c0061-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="c0061-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="c0061-118">Not applicable</span></span>  <br/> |
-|<span data-ttu-id="c0061-119">Disponibilidad de la línea con cable o fijo</span><span class="sxs-lookup"><span data-stu-id="c0061-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="c0061-120">Solo de Romtelecom.</span><span class="sxs-lookup"><span data-stu-id="c0061-120">From Romtelecom only.</span></span>  <br/> |
-|<span data-ttu-id="c0061-121">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="c0061-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="c0061-122">Sí.</span><span class="sxs-lookup"><span data-stu-id="c0061-122">Yes.</span></span> <span data-ttu-id="c0061-123">Disponible con tarifa Premium.</span><span class="sxs-lookup"><span data-stu-id="c0061-123">Available at premium rate.</span></span>  <br/> |
-|<span data-ttu-id="c0061-124">Comentarios, las restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="c0061-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="c0061-125">Ninguno</span><span class="sxs-lookup"><span data-stu-id="c0061-125">None</span></span>  <br/> |
+|<span data-ttu-id="02db2-109">¿Es gratuito de llamada disponibles?</span><span class="sxs-lookup"><span data-stu-id="02db2-109">Is toll-free calling available?</span></span>  <br/> |<span data-ttu-id="02db2-110">Sí</span><span class="sxs-lookup"><span data-stu-id="02db2-110">Yes</span></span>  <br/> |
+|<span data-ttu-id="02db2-111">Formatos de marcado</span><span class="sxs-lookup"><span data-stu-id="02db2-111">Dialing format(s)</span></span>  <br/> | <span data-ttu-id="02db2-112">0 800 XXX XXX</span><span class="sxs-lookup"><span data-stu-id="02db2-112">0 800 XXX XXX</span></span> <br/> |
+|<span data-ttu-id="02db2-113">Código ISO de país o región</span><span class="sxs-lookup"><span data-stu-id="02db2-113">Country/region ISO code</span></span>  <br/> |<span data-ttu-id="02db2-114">RO</span><span class="sxs-lookup"><span data-stu-id="02db2-114">RO</span></span>  <br/> |
+|<span data-ttu-id="02db2-115">Isla/territorio que abarque</span><span class="sxs-lookup"><span data-stu-id="02db2-115">Island/territory covered</span></span>  <br/> |<span data-ttu-id="02db2-116">No aplicable</span><span class="sxs-lookup"><span data-stu-id="02db2-116">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="02db2-117">Isla o territorio que no están cubierta</span><span class="sxs-lookup"><span data-stu-id="02db2-117">Island/territory not covered</span></span>  <br/> |<span data-ttu-id="02db2-118">No aplicable</span><span class="sxs-lookup"><span data-stu-id="02db2-118">Not applicable</span></span>  <br/> |
+|<span data-ttu-id="02db2-119">Disponibilidad de la línea con cable o fijo</span><span class="sxs-lookup"><span data-stu-id="02db2-119">Wired/fixed line availability</span></span>  <br/> |<span data-ttu-id="02db2-120">Solo de Romtelecom.</span><span class="sxs-lookup"><span data-stu-id="02db2-120">From Romtelecom only.</span></span>  <br/> |
+|<span data-ttu-id="02db2-121">Disponibilidad de red móvil</span><span class="sxs-lookup"><span data-stu-id="02db2-121">Mobile network availability</span></span>  <br/> |<span data-ttu-id="02db2-122">Sí.</span><span class="sxs-lookup"><span data-stu-id="02db2-122">Yes.</span></span> <span data-ttu-id="02db2-123">Disponible con tarifa Premium.</span><span class="sxs-lookup"><span data-stu-id="02db2-123">Available at premium rate.</span></span>  <br/> |
+|<span data-ttu-id="02db2-124">Comentarios, las restricciones y problemas de acceso</span><span class="sxs-lookup"><span data-stu-id="02db2-124">Comments, restrictions, and access issues</span></span>  <br/> |<span data-ttu-id="02db2-125">Ninguno</span><span class="sxs-lookup"><span data-stu-id="02db2-125">None</span></span>  <br/> |
    
-## <a name="related-topics"></a><span data-ttu-id="c0061-126">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="c0061-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="02db2-126">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="02db2-126">Related topics</span></span>
 
-[<span data-ttu-id="c0061-127">Restricciones y limitaciones de marcado gratuito</span><span class="sxs-lookup"><span data-stu-id="c0061-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
+[<span data-ttu-id="02db2-127">Restricciones y limitaciones de marcado de número gratuito</span><span class="sxs-lookup"><span data-stu-id="02db2-127">Toll-free dialing limitations and restrictions</span></span>](../toll-free-dialing-limitations-and-restrictions.md)
 
-[<span data-ttu-id="c0061-128">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="c0061-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[<span data-ttu-id="02db2-128">Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="02db2-128">Getting service phone numbers for Skype for Business and Microsoft Teams</span></span>](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 
   
  
