@@ -9,18 +9,20 @@ ms.service: msteams
 ms.reviewer: ''
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Obtenga información sobre cómo se carga a un sitio.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9f9c093e7a80a7f4f3165f58cd6dc34f532ab7e
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25017418"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462639"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================
@@ -45,10 +47,10 @@ Puede usar el siguiente ejemplo para ayudar a crear el archivo de datos.
 
 |Red|Nombre de red|Intervalo de red|Nombre del edificio|Tipo de propiedad|Tipo de creación|Tipo de creación de Office|Ciudad|Código postal|País|Estado|Region|Corp interior|Ruta de Express|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE & F|Oficina|RE & F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE & F|Oficina|RE & F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE & F|Oficina|RE & F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE & F|Oficina|RE & F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
 
 
 Para obtener más información sobre cómo dar formato a su archivo de datos, vea [formato y estructura de archivos de datos de creación de archivos de datos de inquilinos](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
@@ -56,4 +58,4 @@ Para obtener más información sobre cómo dar formato a su archivo de datos, ve
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Configurar el análisis de llamadas](set-up-call-analytics.md)
+[Configurar el Análisis de llamadas](set-up-call-analytics.md)

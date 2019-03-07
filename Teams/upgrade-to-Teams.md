@@ -10,15 +10,17 @@ description: Elija su ruta de actualización a Teams Microsoft según su Skype a
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45afa40d28d940eba0eb5b5d20fb0ef8aad61b02
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349212"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463983"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 

@@ -7,7 +7,9 @@ ms.date: 07/05/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: harij, rafarhi
 localization_priority: Normal
 search.appverid: MET150
@@ -16,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0b4e0e713bda280738ec72c8c4e07dc5b0da15c3
-ms.sourcegitcommit: 5f289e4ca3ba40013d38c352bd34eff96d6421b3
+ms.openlocfilehash: 32fba747deb73b7f4e2c19b96cb4c0c62b741722
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726638"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458911"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -97,7 +99,7 @@ Los administradores de TI pueden utilizar implementación administrada de los eq
 > [!NOTE]
 > Si experimenta problemas al instalar el paquete, háganoslo saber. En la sección de **comentarios** al final de este artículo, haga clic en **comentarios sobre el producto**.
 
-<a name="web-client"></a>Cliente web 
+<a name="web-client"></a>Cliente Web 
 ----------
 
 El cliente web ([https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753)) es un cliente completo, funcional que se puede usar desde una variedad de exploradores. El cliente web admite llamadas y reuniones mediante webRTC, por lo que hay no complemento o descargar necesarios para ejecutar los equipos en un explorador web. El explorador debe configurarse para permitir que las cookies de terceros. 

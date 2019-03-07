@@ -1,5 +1,5 @@
 ---
-title: En la nube de voz en Microsoft Teams
+title: Voz en la nube de Microsoft Teams
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -8,22 +8,21 @@ ms.topic: article
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
 description: Página de inicio a la implementación de voz en la nube en los equipos
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 969bab316a39ec873fea802a9c257cf062891bb9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351301"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465311"
 ---
-# <a name="cloud-voice-in-microsoft-teams"></a>En la nube de voz en Microsoft Teams
+# <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar funciones de voz en la nube para los usuarios. 
 
@@ -41,7 +40,7 @@ Los artículos siguientes proporcionan más información sobre la implementació
 
 - [Sistema telefónico de Office 365](what-is-phone-system-in-office-365.md)
 - [Sistema telefónico al llamar a Plan](calling-plan-landing-page.md)
-- [Enrutamiento directo de teléfono del sistema](direct-routing-landing-page.md)
+- [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Implementación de voz en la nube](cloud-voice-deployment.md)
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 - Vea la sesión siguiente para obtener más información sobre el sistema telefónico: [Introducción al sistema de teléfono en los equipos de Microsoft](https://aka.ms/teams-phone-system)

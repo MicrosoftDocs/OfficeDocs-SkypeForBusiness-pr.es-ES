@@ -10,15 +10,17 @@ description: Consideraciones para actualizar a los equipos de Skype para profesi
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 668e44b66b08b16a04e730c43dbbe02a9edea4fe
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754639"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465159"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 

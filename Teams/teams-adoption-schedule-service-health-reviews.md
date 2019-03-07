@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo usar el servicio de informe de mantenimiento en la adopción de los equipos.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 26cbc5e80ea989bff7c68b8004a3cd38b4318538
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 97d54fae46c542d79161e97fc034d7742a335200
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699848"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463119"
 ---
 # <a name="schedule-service-health-reviews-for-your-microsoft-teams-adoption"></a>Programar revisiones de estado del servicio para su adopción de Microsoft Teams
 

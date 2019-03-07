@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Obtenga información acerca de cómo planear la implementación de las capacidades de gobierno en los equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 87f52eae4b99a76fc1eddf60fbdfd876efa8da05
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754813"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464879"
 ---
 # <a name="plan-for-governance-in-teams"></a>Plan de gobierno en los equipos
 
@@ -115,8 +117,8 @@ Los equipos proporciona capacidades granulares para controlar mensajería, convo
 
 Para obtener listas detalladas de todas las configuraciones, incluido orientación técnica acerca de cómo implementarlos para su organización, consulte los siguientes artículos:
 
--   [Administrar características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md)
--   [Administrar los equipos durante la transición al nuevo centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
+-   [Administrar las características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md)
+-   [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Administrar las directivas de reunión en los equipos](meeting-policies-in-teams.md)
 
 

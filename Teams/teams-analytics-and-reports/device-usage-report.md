@@ -10,16 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Obtenga información sobre cómo usar el informe de uso de dispositivos de los equipos en el centro de administración de Microsoft Teams para ver el modo en que los usuarios de su organización se conectan a los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c1c75b2b94b368686e7334acfff9d3d0cd5c909
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7eaa4dc63fb9de7dc4caccdc3d412f588e874a2b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753946"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463495"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 

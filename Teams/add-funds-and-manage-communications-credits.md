@@ -1,5 +1,5 @@
 ---
-title: Agregar fondos y administrar Créditos de comunicaciones
+title: Agregar fondos y administrar los créditos de comunicaciones
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,8 +13,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -32,14 +31,14 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: 1ae700c315188fe68d856a0a39b5dd35a4997a0c
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047227"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459351"
 ---
-# <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar Créditos de comunicaciones
+# <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
 Créditos de comunicaciones son una forma cómoda de pago para el sistema telefónico y llamar a los planes en Office 365. Ayuda a garantizar que usted y sus usuarios nunca se detectan sin ser capaz de:
   
@@ -81,7 +80,7 @@ Puede ver los planes y precios, visite uno de los siguientes vínculos:
     
 También puede ver información iniciando [sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
   
-Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing).
+Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Temas relacionados
 
@@ -91,7 +90,5 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
         
-- [Configurar el conector en la nube](https://technet.microsoft.com/library/mt605228.aspx) y [Descargue el conector en la nube](https://aka.ms/CloudConnectorInstaller)
-
-  
+ 
  

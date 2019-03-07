@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Cree un plan para estimular la adopción de usuario por definir los objetivos, comprender qué aceptación tiene el aspecto y proporcionar recursos de aprendizaje y soporte técnico.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca1b2e5d28adf95a634df914b4693efddcbc5dd0
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 22d8383914755bdd3d9d185f083509de9175bef6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649560"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463503"
 ---
 # <a name="prepare-my-users"></a>Preparación de Mis usuarios
 
@@ -150,6 +152,6 @@ Después de comprender quiénes son los usuarios y cómo funcionan aquí dentro 
 ### <a name="readiness-plan-ideas"></a>Ideas de plan de preparación
 
 <table>
-<tr><th>Comunicación</th><th>Recursos de aprendizaje</th><th>Asistencia técnica</th></tr>
+<tr><th>Comunicación</th><th>Recursos de aprendizaje</th><th>Soporte técnico</th></tr>
 <tr><td><ul><li>Correo electrónico&mdash;personalizar nuestras <a href="prepare-my-users-email-templates.md" data-raw-source="[voice email templates](prepare-my-users-email-templates.md)">plantillas de correo de voz</a></li><li>Pósteres y señalización digital </li><li>Eventos de inicio</li><li>Directores de departamento</li><li>Expertos</li><li>Equipos y canales</li><li>Gamification</li></ul></td><td><ul><li>Artículos y vídeos de Microsoft:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Cambiar a los equipos de Skype para la empresa</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7" data-raw-source="[Teams video training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)">Aprendizaje de vídeo de los equipos</a></li><li><a href="https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8" data-raw-source="[Meetings and calls](https://support.office.com/article/meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8)">Las reuniones y llamadas</a></li></li></ul><li>Asistencia interno (Ayuda)</li><li>Equipo de formación interna</li><li>Equipo de formación de socio</li></ul></td><td><ul><li>Departamento de soporte técnico interno</li><li>Servicio de soporte técnico externo</li><li>Autoayuda (sitio de intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online Help and how-to](https://support.office.com/teams)">Ayuda en pantalla y procedimientos</a></li><li>Floor andadores y Campeones</li><li>Bucle de comentarios&mdash;vea las <a href="prepare-my-users-feedback-templates.md" data-raw-source="[sample user feedback surveys](prepare-my-users-feedback-templates.md)">encuestas de comentarios de usuario de ejemplo</a></li></td></tr>
 </table>

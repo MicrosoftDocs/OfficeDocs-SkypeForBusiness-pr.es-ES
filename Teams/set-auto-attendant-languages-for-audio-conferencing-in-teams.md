@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: 8babb2857862c74d2e94faf248b436c487b92b21
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a0ed552599e295f630852971f22b362d2e2f2b1b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352829"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463927"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 

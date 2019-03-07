@@ -10,9 +10,9 @@ ms.tgt.pltfrm: cloud
 ms.service:
 - skype-for-business-online
 - msteams
-ms.collection:
+MS.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -24,12 +24,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de error, el uso y el recuento para comprender cómo se utiliza Skype para la empresa y donde los usuarios tienen problemas. Los datos se usan para planear mejoras en los productos.
-ms.openlocfilehash: df56d2321a2f3c2d7f4159e3f1b782254cf1a64b
-ms.sourcegitcommit: 044286f9dec2743a622bdaeac03469418cfdfa0d
+ms.openlocfilehash: d2673424bcddb1b6b3ebaae3bc7bde7f1fce790f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/19/2018
-ms.locfileid: "25678381"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464119"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Skype para profesionales y Microsoft Teams prácticas de recopilación de datos
 
@@ -108,7 +108,7 @@ Informes de errores requieren dos cosas:
 - Los usuarios finales individualmente participar en de la ficha General (haga clic en el icono del engranaje ![icono de engranaje](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) y, a continuación, se abre el cuadro de diálogo **Opciones** con la ficha **General** que se muestra) en el Skype para clientes empresariales.
     
  
-![Skype para checkbox de colección de datos profesionales en las opciones > cuadro de diálogo General](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Skype para checkbox de colección de datos profesionales en el cuadro de diálogo Opciones > General](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Para la aplicación de las reuniones de Skype, la MeetingUxEnableTelemetry controla también informes de errores, aunque para se bloquea en Windows, la configuración de Watson control cargar información de bloqueo. No hay ninguna configuración de usuario para la aplicación de las reuniones de Skype como se puede ver en el cuadro de diálogo de cliente de escritorio.
 

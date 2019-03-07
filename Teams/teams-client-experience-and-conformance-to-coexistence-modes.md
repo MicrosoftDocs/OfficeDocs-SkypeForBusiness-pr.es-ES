@@ -10,15 +10,17 @@ description: Experiencia de los equipos cliente y la compatibilidad con los modo
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d97bf7230e8d1f78f2cf5c169fbf48a93f415bb
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: a9d205bc81a43d3434206e151bf074af7956f0fa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178649"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465143"
 ---
 <a name="about-upgrade-basic"></a>
 

@@ -9,15 +9,17 @@ search.appverid: MET150
 ms.reviewer: srividhc
 description: En este artículo se explica cómo puede planear y configurar interoperabilidad de vídeo en la nube para los usuarios de la organización.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5e0663553f6dbd3374245ba2ab370e4b5a369701
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: b51bcd5cd5813c317c79a5f89656e11423d91412
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531967"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462543"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Configurar la interoperabilidad de vídeo en la nube de Microsoft Teams
 
@@ -48,7 +50,7 @@ Para configurar la interoperabilidad de vídeo en la nube, siga estos pasos.
 3. Configurar salones integrados con exchange y OTD. En la mayoría de los casos, retransmisión adicional tendría que configurarse y configurado en el entorno.
 
 
-## <a name="provision"></a>Aprovisionamiento
+## <a name="provision"></a>Provisión
  
 La clave de inquilino será la llamada de salida para el servicio de socio. En el ejemplo siguiente, 813878896@t.plcm.vc es la clave de inquilino. 
 

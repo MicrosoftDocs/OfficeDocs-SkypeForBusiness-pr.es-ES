@@ -1,5 +1,5 @@
 ---
-title: Skype de ámbito del proyecto para la empresa para la adopción de los equipos de Microsoft | Actualización
+title: Skype de ámbito del proyecto para la empresa para la adopción de los equipos de Microsoft | Actualizar
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: El proyecto de actualización de ámbito por perfeccionamiento de s
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 161d5e8a73514374cfae8e8e29ed28dafdc858c3
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2a4d042864e3260404ddbbaa56f39c7408a0896c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349479"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464831"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Fases de la actualización viaje, con especial hincapié en la fase de definición del proyecto")
 
@@ -104,7 +106,7 @@ En la siguiente tabla se muestra ejemplos de OKRs y KSIs para las fases iniciale
 | **Adopción de usuario bajo** | Alto | Alto | Alto | Trabajar de forma proactiva con los usuarios durante las fases de prueba piloto e implementación; implementar un destino conocimiento del producto y campaña de aprendizaje para crear el deseo. |
 | | | | | |
 
-## <a name="timeline"></a>Escala de tiempo
+## <a name="timeline"></a>línea de tiempo
 
 Tal y como se define el ámbito de su viaje por la actualización, asegúrese de establecer una escala de tiempo para los hitos clave (por ejemplo, habilitar los equipos junto con Skype para la empresa para todos los usuarios) además de la fecha de finalización. Una escala de tiempo definido ayuda a la unidad de equipo de proyecto hacia un estado coherente final y se informa a la programación de copia de trabajo a la derecha, ayudar a garantizar que el proyecto se ajusta en el camino. Considere la posibilidad de una escala de tiempo que no se demasiado acelerado (donde tareas es posible que se puede pasar por alto) o demasiado lejano (donde se podrían perder momentum). Las cuentas de escala de tiempo ideal para:
 

@@ -1,5 +1,5 @@
 ---
-title: Actualizar a los equipos desde una Skype para Business híbrida o local deployment - Microsoft Teams
+title: 'Actualizar a Teams desde una implementación local o híbrida de Skype Empresarial: Microsoft Teams'
 author: arachmanGitHub
 ms.author: arachman
 manager: serdars
@@ -11,15 +11,17 @@ description: Consideraciones para la actualización a los equipos de un Skype pa
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 016165ea54b3a87d4a26f5670964794364e78985
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 38a9c3bd2e9649ea657a559f1c6d41aab86edd56
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27791742"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464767"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 

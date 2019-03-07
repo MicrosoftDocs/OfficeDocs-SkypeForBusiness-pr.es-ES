@@ -1,5 +1,5 @@
 ---
-title: Instalar Teams Microsoft con MSI a través de SCCM
+title: Instalar Microsoft Teams con MSI (mediante SCCM)
 author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
@@ -9,15 +9,17 @@ ms.reviewer: ''
 description: Los administradores pueden usar el MSI de Teams para implementar Microsoft Teams en bloque y poder seleccionar usuarios o equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad0564d491302ae6b934cca1ae8501329951d9fd
-ms.sourcegitcommit: c0679cbaf7df38769f722afd65c4232311d25515
+ms.openlocfilehash: c5ffceef19e91f5d3e694db7655d23efb67498ae
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/26/2019
-ms.locfileid: "29562592"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464351"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================

@@ -1,5 +1,5 @@
 ---
-title: ¿Cuáles son las restricciones de caracteres especiales en las directivas de los equipos?
+title: ¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.service:
 - msteams
 - skype-for-business-online
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 search.appverid: MET150
 ms.audience: Admin
@@ -22,14 +22,14 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Vea ¿qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para solucionarlo.
-ms.openlocfilehash: ffb6082a613587b654f997bc2b2154bfeade15bf
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754739"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460159"
 ---
-# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en las directivas de los equipos?
+# <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?
 
 **No puede crear o editar directivas (para mensajería, reuniones, etc.) que tienen un carácter especial en el nombre de la administración de equipos de Microsoft centro**. 
 

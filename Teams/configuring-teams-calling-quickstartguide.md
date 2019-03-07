@@ -13,14 +13,15 @@ localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - Teams_ITAdmin_Training
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa397b7a859e24beaf5f8455ef054b7d5a18222
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: e1d2fd7a9b999d98109e732b3bdbbba16f26e3bf
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753621"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460575"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================

@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se usa para solicitar los autores de llamadas y recopilar los nombres y los PIN para los organizadores de reuniones cuando no utilizan Skype para las aplicaciones empresariales o Teams de Microsoft. '
-ms.openlocfilehash: 250d474d92acafb0fe7042743442e2005997588b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b407c51526470f61d58a25a4c4f1951d6f9556fa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352773"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460951"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de audioconferencias.
 

@@ -7,7 +7,9 @@ ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 6349bd8299883fe213797a51e7051411c74298ef
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302668"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465303"
 ---
-# <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?
+# <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?  
 
 ::: zone target="docs"
 Messaging policies are used to control which chat and channel messaging features are available to users in Microsoft Teams. You can use the default policy that is created or create one or more custom messaging policies for people in your organization. After you create a policy, you will assign it a user or groups of users in your organization.
@@ -35,8 +37,7 @@ Las directivas se pueden administrar fácilmente en el centro de administración
 Para editar la directiva de mensajería predeterminado existente para su organización, haga clic en la fila **Global (valor predeterminado de toda la organización)** y, a continuación, realice los cambios. Para crear una nueva directiva personalizada de mensajería, haga clic en **nueva directiva** y seleccione su configuración. Cuando haya terminado, elija **Guardar** .
 
 ![Configuración de directiva en los equipos de mensajería](media/messaging-policies-image2.png)
-::: zone-end
-
+::: zone-end  
 ::: zone target="chromeless"
 Para cambiar la directiva de mensajería global o crear una nueva directiva personalizada, use la siguiente configuración:
 

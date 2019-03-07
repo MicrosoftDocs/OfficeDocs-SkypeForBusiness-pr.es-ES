@@ -9,15 +9,17 @@ ms.service: msteams
 description: Describe los operadores automáticos de sistema telefónico y colas de llamadas y se explica cómo puede responder a estas llamadas en los equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7b0b533020def2e344991fa758304888c8166436
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530949"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465335"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos
 ===========================================================
@@ -38,7 +40,7 @@ En la siguiente ilustración se muestra cómo aparecerá una llamada recibida de
 
 ![Notificación de llamada entrante](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Una vez que se responde a una llamada de cola de llamada o de operador automático, el usuario puede procesar la llamada al igual que cualquier otra llamada & #x 2014; pueden agregar o conferencia en otro usuario o transferir la llamada a otra persona. Además, las llamadas de operador automático se desviarán según la configuración del usuario.
+Una vez que se responde a una llamada de cola de llamada o de operador automático, el usuario puede procesar la llamada al igual que cualquier otro & de llamada #x 2014; pueden agregar o conferencia en otro usuario o transferir la llamada a otra persona. Además, las llamadas de operador automático se desviarán según la configuración del usuario.
 
 > [!NOTE] 
 > Cola de llamadas no se transfieren en función de la configuración del usuario. Esto es para asegurarse de que los autores de llamadas permanecen en la cola hasta que un agente puede responder a la llamada y el autor de la llamada no se reenvía de forma inesperada.
@@ -59,7 +61,7 @@ Para recibir el operador automático y llamar a las llamadas de cola en Microsof
 ## <a name="related-topics"></a>Temas relacionados
 
 -   [¿Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
--   [Crear una cola de llamadas de Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [¿Qué son los operadores automáticos de Sistema telefónico?](what-are-phone-system-auto-attendants.md)
--   [Configurar un operador automático de Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Crear una cola de llamadas para el Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
+-   [Configurar un operador automático para el Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

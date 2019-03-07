@@ -10,16 +10,18 @@ ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 description: Obtenga información acerca de los informes de los equipos que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6769a21e621b0259d6811daed90f43f99fdd047f
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 2517ebe62dc903f2abcc5f3e6aa817160e15c4d0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408231"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463735"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 

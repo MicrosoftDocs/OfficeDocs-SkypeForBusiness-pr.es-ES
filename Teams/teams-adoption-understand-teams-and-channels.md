@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga más información sobre la estructura de los equipos y canales en Microsoft Teams.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8413bdf3bbcc2bcb4b172d46a84b7a46bd7d190
-ms.sourcegitcommit: 43c2b4f844c38ee6d4ba059bdbb5324f041bec18
+ms.openlocfilehash: 7721e8acd7487d89400bd7ac0d177e8413d30f47
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2019
-ms.locfileid: "27896126"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460959"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Descripción de los equipos y canales en Microsoft Teams
 

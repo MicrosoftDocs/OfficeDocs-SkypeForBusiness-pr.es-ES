@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Identificar un grupo de control de las partes interesadas clave y los jefes de proyecto para identificar los objetivos de implementación, realizar un seguimiento del progreso y quitar los bloqueadores de elementos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ecbefe68b00e8388298ee6eb64ddbdc55ad0eeb9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25014486"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464287"
 ---
 # <a name="steering-committee"></a>Comité de dirección
 
@@ -50,7 +52,7 @@ El Comité de dirección cumple en un intervalo periódico a lo largo de la dura
 
 -   Identificar, administrar y mitigar huecos, riesgos y problemas, donde es necesario desde el Comité influencia adicional.
 
--   Recopilar soporte desde el patrocinador ejecutivo o equipo de liderazgo ejecutivo para problemas que requieren escalación, asignar prioridades a los y resolver los conflictos entre unidades de negocio de los participantes. 
+-   Recopilar soporte desde el patrocinador ejecutivo o equipo de liderazgo ejecutivo para problemas que requieren escalación, asignar prioridades a los y resolver los conflictos entre unidades de negocio de los participantes. 
 
 -   Proporcionar comentarios formal y recomendaciones a Liderazgo ejecutivo, el Consejo consultor de cambios, u otros profesionales y las partes interesadas de TI, según corresponda.
 

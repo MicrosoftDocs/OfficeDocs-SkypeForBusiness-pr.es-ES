@@ -9,16 +9,18 @@ ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
 description: Medir los resultados de las conferencias de Audio, el sistema telefónico con planes de llamada o implementación de enrutamiento directo de teléfono del sistema y compruebe que ha conseguido los resultados que desea.
-ms.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9f969955dc01d0ea66ea2242549eff4938d80ce6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372724"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465111"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -198,7 +200,7 @@ Al definir KSIs, se recomienda que use "específicos, cuantificables, puede asig
 > |---------|---------|---------|---------|---------|---------|
 > |Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
 > |Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
-> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
+> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|Cada día|Equipo de administración de cambios|
 > |Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
 > |Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
 > |Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
@@ -211,8 +213,8 @@ Debe identificar los riesgos de negocio como parte de este ejercicio y definir u
 > 
 > |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
 > |---------|---------|---------|---------|---------|
-> |Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
-> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
+> |Con la próxima fusión se sumarán hasta 1000 personas|Alto|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alto|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
 > |Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
 > |Configuración de SBC|Alto|Alto|Alto|<ul><li>Antes de implementar los equipos como reemplazo para el sistema PBX existente, confirme que puede cumplir todos los requisitos de configuración de SBC</li><li>Confirme que los recursos de soporte técnico SBC tienen la aptitud adecuada para configurar SBC para enrutamiento directo</li></ul>|
 
@@ -220,7 +222,7 @@ Debe identificar los riesgos de negocio como parte de este ejercicio y definir u
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son la organización & #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de planes de llamada en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son sus organization& #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de planes de llamada en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documentar las OKRs y KSIs y establecer el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -231,7 +233,7 @@ Un Comité de dirección es un grupo de control de las partes interesadas clave 
 
 Cada proyecto requiere una visión acordado en y carta. Para ofrecer los resultados que desee desde el proyecto, se debe definir claramente la visión y necesita supervisar y mantener. Esto se convierte en la responsabilidad del Comité de gobierno: a las decisiones de unidad, de aviso, proporcionar supervisión estratégica, para que sirva como abogados a la organización para las iniciativas del proyecto, y, cuando sea necesario: quitar los bloqueadores de elementos.
 
-Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la forma.
+Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la sentido.
 
 El Comité debe definir su carta para incluir algunos objetivos clave:
 

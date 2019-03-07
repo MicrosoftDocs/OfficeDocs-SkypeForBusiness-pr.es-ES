@@ -11,7 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtener los pasos para crear un número de teléfono predeterminado para los autores de llamadas para unirse a una reunión de Microsoft Teams. '
-ms.openlocfilehash: a4e6ef573d7c6b5888beee9fc9278d65b883927f
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 3e6aae2c01962a4cd3c704cded1e284dc2975d28
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302684"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464247"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Establecer los números de teléfono incluidos en las invitaciones en Microsoft Teams
 

@@ -11,17 +11,17 @@ localization_priority: Normal
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 appliesto:
 - Microsoft Teams
 description: Describe cómo utiliza la carga de trabajo de los equipos flujos de Office 365 en varias topologías.
-ms.openlocfilehash: d3ca964e320dbe7ec107d0acc3a6f9a55a5e054a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 485bd1706a3b5df9ca7ca92a8644f2470f95b739
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352221"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460743"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flujos de llamada de Microsoft Teams Online
 

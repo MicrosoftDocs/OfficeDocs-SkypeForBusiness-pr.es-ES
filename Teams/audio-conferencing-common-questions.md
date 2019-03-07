@@ -11,8 +11,7 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-collaboration
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que recibimos de nuestros clientes que desean usar la conferencia de Audio.
-ms.openlocfilehash: 3ede756aff99f5be8d8b5f703860d54554d34ea9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353637"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465223"
 ---
 # <a name="audio-conferencing-common-questions"></a>Preguntas comunes sobre Audioconferencia
 

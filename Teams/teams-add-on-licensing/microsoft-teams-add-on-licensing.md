@@ -1,5 +1,5 @@
 ---
-title: Licencias de complemento de Microsoft Teams
+title: Licencias complementarias de Microsoft Teams
 ms.date: 02/14/2019
 ms.author: tonysmit
 author: tonysmit
@@ -8,7 +8,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -17,14 +19,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga información sobre las licencias de complemento, las características que se obtienen con cada licencia, cómo comprar un producto para el producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y plan de detalles para Office 365, créditos de comunicación, y los planes de llamada.
-ms.openlocfilehash: d776e6e3b54f8a847bd82ef8b1c373af2211dbae
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127681"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460135"
 ---
-# <a name="microsoft-teams-add-on-licensing"></a>Licencias de complemento de Microsoft Teams
+# <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
 ## <a name="what-are-add-on-licenses"></a>¿Qué son las licencias de complementos?
 
@@ -65,7 +67,7 @@ Las opciones de licencia de complemento disponibles depende de su plan de Office
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 o E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
-- [Office 365 Enterprise E5 (sin conferencias de Audio)](office-365-enterprise-e5-without-audio-conferencing.md)
+- [Office 365 Enterprise E5 (sin audioconferencia)](office-365-enterprise-e5-without-audio-conferencing.md)
 - [Sistema de salas de Skype v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [Organizaciones sin fines de lucro, GOV y EDU](gov-edu-and-nonprofit-organizations.md)
 

@@ -12,16 +12,18 @@ description: Obtenga información sobre cómo actualizar la versión gratuita de
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 468a3c60b83784fb308165a5da835d451f2bc780
-ms.sourcegitcommit: 3a0b90af8eb3c10579b9eea7837c60a19a577881
+ms.openlocfilehash: d8365792ead4422786d8e54c2541ff42d79f35b6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/28/2019
-ms.locfileid: "29594233"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464319"
 ---
 <a name="upgrade-microsoft-teams-free-to-office-365-subscription-version"></a>Actualizar Microsoft Teams gratuito a la versión de suscripción de Office 365
 ======================================================

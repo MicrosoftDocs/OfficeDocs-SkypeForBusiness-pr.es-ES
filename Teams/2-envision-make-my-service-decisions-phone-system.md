@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Elija desde planes de llamada y licencias, configurar las ubicaciones de emergencia y características, como el identificador de correo de voz y el autor de la llamada, adquirir o transferir los números de teléfono.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7cd550b266f69d4ad0223bd7364ec1b69e56745
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120574"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461895"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -79,8 +81,8 @@ Después de confirmar que su organización puede obtener el servicio al llamar a
 > | **Office**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Servicio de RTC antiguo |
-> | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo de teléfono del sistema |
-> | One Marina Boulevard           | Singapur      | Enrutamiento directo de teléfono del sistema |
+> | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo del Sistema telefónico |
+> | One Marina Boulevard           | Singapur      | Enrutamiento directo del Sistema telefónico |
 > | 32 London Bridge Street        | Reino Unido | Sistema telefónico con Planes de llamada |
 > | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con Planes de llamada |
 

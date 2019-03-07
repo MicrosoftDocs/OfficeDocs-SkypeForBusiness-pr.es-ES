@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Usar plantillas para enviar mensajes de correo electrónico a los usuarios cuando implemente las funciones de voz de la nube en los equipos o Skype para la empresa.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7fd7e9078558c0b64b4acc448b28e4312f1eec8
-ms.sourcegitcommit: a599bdd5057c4fc38e14b4f14961e1a6bf08ee8a
+ms.openlocfilehash: 97bda9bb33e3a87d75ed039fca4a2d042147f0d6
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "25436667"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461447"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción de usuario de su nuevo sistema de teléfono en línea
 

@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Descargue la Guía de habilitación de sitio para planear la implantación de los equipos y acelerar y optimizar la adopción de usuario, los requisitos de calidad y satisfacción.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 021f69644701fb68a8122219b3f98bc4fd2f390d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5ce9b3f5a1d81728f0bff6951211453fb4aa2ef4
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372614"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458999"
 ---
 # <a name="deploy-my-service"></a>Implementar el servicio de mi
 

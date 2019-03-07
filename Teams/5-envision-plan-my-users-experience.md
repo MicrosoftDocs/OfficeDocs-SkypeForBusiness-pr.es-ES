@@ -1,5 +1,5 @@
 ---
-title: Planeación de la experiencia de los usuarios de Microsoft Teams
+title: Planificar la experiencia de usuario de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Elija los equipos cliente aplicaciones, planeación de la calidad de extremo, ver recomendaciones para implementar los extremos de Wi-Fi y selección de dispositivos de audioconferencias.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a44af03e694937c5e874f6d53c0795a0c61dd606
-ms.sourcegitcommit: 336a9c95602d58ff069e4990b340e376a2d0d809
+ms.openlocfilehash: 95777c59da635631c1493fc15351521248eead34
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26716370"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459039"
 ---
 # <a name="plan-my-users-experience"></a>Planeación de la experiencia de mi los usuarios
 
@@ -28,61 +30,61 @@ En este artículo se proporciona una visión general de los requisitos para iden
 
 Microsoft Teams tiene clientes disponibles para escritorio, web (Windows y Mac) y mobile (Android y iOS). Para obtener más información acerca de cómo se instalan el escritorio (Windows y Mac) y los clientes móviles, vea [obtener los clientes de equipos de Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
 
-## <a name="client-updates"></a>Actualizaciones de clientes
+## <a name="client-updates"></a>Actualizaciones del cliente
 
-Uno de los beneficios clave de los equipos es que el cliente se mantiene actualizado automáticamente. Los clientes en el PC y Mac se actualizan mediante el uso de un proceso en segundo plano que comprueba para las versiones nuevas y descarga al nuevo cliente cuando la aplicación está inactiva.
+Uno de los beneficios clave de los equipos es que el cliente se mantiene actualizado automáticamente. Los clientes de PC y Mac se actualizan mediante un proceso en segundo plano que comprueba si hay nuevas compilaciones y descarga el cliente nuevo cuando la aplicación está inactiva.
 
 <!--ENDOFSECTION-->
 
-## <a name="plan-for-endpoint-quality"></a>Planeación de la calidad de extremo
+## <a name="plan-for-endpoint-quality"></a>Plan para la calidad de los puntos de conexión
 
 Tal y como se puede ver en el diagrama siguiente, los extremos son un bloque de creación importante en proporcionar una experiencia de calidad para los usuarios.
 
 ![Diagrama que describe los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en los extremos.] (media/plan-my-users-experience-image1.png "Diagrama que describe los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en los extremos.")
 
-Los extremos de los equipos pueden ejecutar en muchos dispositivos, incluidos PCs, Mac, tabletas y dispositivos móviles. Parte de la experiencia no sólo abarca el dispositivo, pero cómo un usuario se conecta al dispositivo — por ejemplo, utilizando un auricular con micrófono optimizada, auriculares o micrófono o altavoz integrado del dispositivo. Uso de un auricular con micrófono optimizada puede enriquecer la experiencia global del usuario.
+Los extremos de los equipos pueden ejecutar en muchos dispositivos, incluidos PCs, Mac, tabletas y dispositivos móviles. Parte de la experiencia no sólo abarca el dispositivo, pero cómo un usuario se conecta al dispositivo — por ejemplo, utilizando un auricular con micrófono optimizada, auriculares o micrófono o altavoz integrado del dispositivo. El uso de un auricular con micrófono optimizado, se puede enriquecer la experiencia general del usuario.
 
-Las siguientes instrucciones acerca de cómo planear el extremo le ayudará a asegurarse de que su organización tiene una incorporación correcta de experiencia con los equipos.
+Las siguientes directrices sobre la planificación de los puntos de conexión le ayudarán a garantizar que su organización tenga una experiencia de incorporación con Teams correcta.
 
-## <a name="endpoint-capability"></a>Capacidad de extremo
+## <a name="endpoint-capability"></a>Funcionalidad de puntos de conexión
 
-Es la primera parte de la planeación para asegurarse de todos los equipos y otros dispositivos de la organización pueden ejecutar los equipos. Esto implica que no solo con mirar los requisitos de hardware, pero también descripción lo está haciendo el PC en segundo plano. Muchas organizaciones ejecutan otro software, incluidos los sistemas de detección de intrusiones y el software antimalware, que puede afectar al rendimiento de un dispositivo de base.
+Es la primera parte de la planeación para asegurarse de todos los equipos y otros dispositivos de la organización pueden ejecutar los equipos. Esto no solo implica comprobar los requisitos de hardware, sino también conocer qué más hace el PC en segundo plano. Muchas organizaciones ejecutan otro software, incluidos sistemas de detección de intrusiones y software antimalware, que puede afectar al rendimiento básico de un dispositivo.
 
 Para obtener información acerca de los requisitos de software para los equipos de los clientes en cada plataforma (mobile, de escritorio y web), vea [obtener los clientes de equipos de Microsoft](https://docs.microsoft.com/microsoftteams/get-clients).
 
-## <a name="endpoint-firewalls"></a>Firewalls de extremo
+## <a name="endpoint-firewalls"></a>Firewalls para los puntos de conexión
 
-Firewalls de cliente pueden tener un impacto significativo en la experiencia del usuario.
-Firewalls de cliente pueden afectar a la calidad de las llamadas además de impedir una llamada desde el que se establezca. Configure las exclusiones adecuadas en el firewall de cliente según la información de [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros tendrá instrucciones específicas sobre cómo crear las exclusiones.
+Los firewalls del cliente pueden repercutir de forma significativa en la experiencia de usuario.
+Los firewalls del cliente pueden afectar a la calidad de las llamadas, además de impedir que la llamada se establezca. Configure las exclusiones apropiadas en el firewall del cliente según la información que aparece en [URL de Office 365 e intervalos de direcciones IP](https://aka.ms/o365ips). Su proveedor de terceros debe tener instrucciones específicas para saber cómo se crean las exclusiones.
 
 >[!NOTE]
-> Microsoft Teams se actualizará automáticamente el Firewall de Windows con una configuración de firewall adecuados.
+> Microsoft Teams actualizará automáticamente el firewall de Windows con una configuración de firewall adecuada.
 
-## <a name="wi-fi-recommendations-for-endpoints"></a>Recomendaciones de Wi-Fi para extremos
+## <a name="wi-fi-recommendations-for-endpoints"></a>Recomendaciones de Wi-Fi para puntos de conexión
 
 Toma importante planear la implementación de una red Wi-Fi optimizada para admitir las cargas de trabajo en tiempo real en Microsoft Teams. En las secciones siguientes proporcionan algunas instrucciones generales que pueden ayudar a evitar los errores comunes al planear los extremos.
 
-### <a name="wi-fi-drivers"></a>Controladores de Wi-Fi
+### <a name="wi-fi-drivers"></a>Controladores Wi-Fi
 
-Algunos controladores Wi-Fi pueden ser un inconveniente. Por ejemplo, un controlador podría tener muy agresivos comportamientos de movilidad entre puntos de acceso, lo que provoca que la calidad de llamada deficiente.
+Algunos controladores Wi-Fi pueden ser un inconveniente. Como ejemplo, un controlador puede tener comportamientos de itinerancia muy agresivos entre los puntos de acceso dando lugar a una mala calidad en las llamadas.
 Esto no es un ejemplo típico, pero es importante para asegurarse de que se han actualizado y probarse antes de la implementación controladores Wi-Fi en su PC.
 
 ### <a name="wi-fi-bands"></a>Bandas Wi-Fi
 
-Existen principalmente dos tipos de bandas utilizadas en Wi-Fi equipamiento hoy en día, 2,4 GHz y 5,0 GHz. Si su organización proporciona ambas bandas, debe configurar la configuración del controlador para prefiere la banda GHz 5.0. Esta banda es mucho más densa en términos de rendimiento y es menos afectados por la interferencia que se puede apreciar en la banda de 2,4 GHz.
-Esta recomendación se da por supuesto que ha optimizado correctamente la banda de red GHz 5.0.
+Existen principalmente dos tipos de bandas que se utilizan en los equipos Wi-Fi de hoy en día: 2,4 GHz y 5 GHz. Si su organización proporciona ambas bandas, debe configurar el controlador para que dé prioridad a la banda de 5 GHz. Esta banda es mucho más densa en términos de rendimiento y le afectan menos las interferencias que se aprecian en la banda de 2,4 GHz.
+Esta recomendación da por hecho que ha optimizado correctamente la banda de red de 5 GHz.
 
 ### <a name="wi-fi-radio-type"></a>Tipo de radio Wi-Fi
 
-Planeación de dispositivos que admiten los tipos de radio Wi-Fi más reciente. Puede obtener un rendimiento muy bueno Wi-Fi si se aprovecha la 802.11ac o posterior en los dispositivos que aprovisiona.
+Planifique los dispositivos que admiten los tipos de radio Wi-Fi más recientes. Se puede obtener un rendimiento de Wi-Fi muy bueno si aprovecha 802.11ac o más recientes en los dispositivos que aprovisiona.
 
-### <a name="wireless-avoidance"></a>Prevención de inalámbrica
+### <a name="wireless-avoidance"></a>Elusión de redes inalámbricas
 
-Algunas organizaciones prefieren evitar por completo la Wi-Fi. En ocasiones, esta guía se proporciona a través de una recomendación a los usuarios conectarse directamente a una red por cable. En algunos casos, el orden de enlace de red podría tener la conexión inalámbrica preferida y seguir usando esa conexión, aunque el equipo esté conectado a la conexión por cable. Para evitar este comportamiento imprevisto, configure el orden de enlace para evitar este escenario.
+Algunas organizaciones prefieren evitar las redes Wi-Fi en general. En ocasiones, esta guía se ofrece a través de una recomendación a los usuarios para que se conecten directamente a una red de cable. En algunos casos, la orden de enlace de red podría preferir la conexión inalámbrica y seguir usando esa conexión incluso cuando el PC está conectado a la conexión de cable. Para evitar este comportamiento no intencionado, configure la orden de enlace para que esta situación no se produzca.
 
 ### <a name="80211-power-save-protocol"></a>802.11 Protocolo de ahorro de energía
 
-Si su organización utiliza puntos de acceso inalámbrico o los enrutadores que no son compatibles con el protocolo de ahorro de energía 802.11, es posible que experimente llamadas interrumpidas o calidad de llamadas deficientes en Teams Microsoft que se ejecutan en los dispositivos de Windows. Si no es posible actualizar el punto de acceso inalámbrico o los enrutadores, deberá actualizar la configuración del Plan de energía de Windows en los dispositivos que se ejecutan en energía de la batería. Se proporcionan instrucciones de detalle y la configuración adicional en el siguiente [artículo de soporte técnico](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
+Si su organización utiliza puntos de acceso inalámbrico o los enrutadores que no son compatibles con el protocolo de ahorro de energía 802.11, es posible que experimente llamadas interrumpidas o calidad de llamadas deficientes en Teams Microsoft que se ejecutan en los dispositivos de Windows. Si no es posible actualizar su enrutador o su punto de acceso inalámbrico, debe actualizar la configuración del Plan de energía de Windows en los dispositivos que se ejecutan con ahorro de energía. Podrá encontrar más detalles e instrucciones de configuración en el siguiente [artículo de soporte](https://support.microsoft.com/help/928152/you-may-experience-connectivity-issues-or-performance-issues-when-you).
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Qué clientes de los equipos se implementará en su organización?</li><li>¿Cómo inicialmente implementará los clientes de los equipos a los usuarios?</li><li>¿Quién es responsable de evaluar los extremos y dispositivos para validar cumplen los requisitos de los equipos para una experiencia de calidad?</li></ul></td></tr>
@@ -91,19 +93,19 @@ Si su organización utiliza puntos de acceso inalámbrico o los enrutadores que 
 
 <!--ENDOFSECTION-->
 
-## <a name="devices-for-teams"></a>Dispositivos de los equipos
+## <a name="devices-for-teams"></a>Dispositivos para Teams
 
-Microsoft Teams se puede usar para las reuniones o como un sistema telefónico. Al usar estas características, el dispositivo de interfaz que se usa para los equipos desempeña un papel importante en la experiencia del usuario.
+Microsoft Teams se puede usar para reuniones o como un sistema telefónico. Cuando se usan estas características, el dispositivo de interfaz que se utiliza para Teams tiene un papel fundamental en la experiencia de usuario.
 
-Es posible que sonido aceptable para el usuario que tiene que la configuración con un altavoz de PC y un micrófono integrado. Normalmente, pero esos dispositivos no están optimizados para la cancelación de ruido, y cualquier tipo de ruido ambiente puede tener un impacto dirección descendente en otros en la llamada. Aprovechamiento de dispositivos optimizados para estos escenarios le ayudará a garantizar una experiencia de alta calidad.
+Con un micrófono o altavoz de PC integrado, el sonido podría ser correcto para el usuario que tenga esa configuración. Normalmente, pero esos dispositivos no están optimizados para la cancelación de ruido, y cualquier tipo de ruido ambiente puede tener un impacto dirección descendente en otros en la llamada. Si se utilizan dispositivos optimizados para estos escenarios, se podrá garantizar una experiencia de gran calidad.
 
-Cada dispositivo necesita satisfacer las necesidades de los usuarios. Debe adaptar los dispositivos como los auriculares con micrófono para las diferentes personas y casos de uso en su organización.
-Un ejercicio de asignación de rol para el dispositivo debe realizarse como parte del proceso de planeación.
+Cada dispositivo tiene que cumplir las necesidades de sus usuarios. Tendrá que adaptar dispositivos, como auriculares con micrófono, para distintas personas y casos prácticos de su organización.
+Habría que completar un ejercicio de asignación de persona a dispositivo como parte del proceso de planificación.
 
-Después de seleccionar los dispositivos, incluir en el plan de pruebas piloto para la validación final. Aproveche encuestas durante la prueba piloto a recopilar comentarios para asegurarse de la estrategia de dispositivo es óptimo.
+Una vez que se seleccionen los dispositivos, se deben incluir en el plan de prueba piloto para su validación final. Utilice encuestas durante el piloto para recopilar comentarios con los que se pueda garantizar que su estrategia de dispositivo sea la adecuada.
 
 > [!NOTE]
-> En este momento, se recomienda usar dispositivos de audio que se han certificado a través de la Skype para el programa de certificación empresarial. Para buscar dispositivos certificados bajo este programa, consulte el catálogo de soluciones [Certificadas de dispositivos USB de Skype para la empresa](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
+> En este momento, recomendamos usar dispositivos de audio que se hayan certificado mediante el programa de certificación de Skype Empresarial. Para buscar dispositivos certificados bajo este programa, consulte el catálogo de soluciones [Certificadas de dispositivos USB de Skype para la empresa](http://partnersolutions.skypeforbusiness.com/solutionscatalog/personal-peripherals-pcs) .
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decida en estrategia de dispositivo general de su organización para el usuario y experiencias de sala de la reunión.</li></ul></td></tr>

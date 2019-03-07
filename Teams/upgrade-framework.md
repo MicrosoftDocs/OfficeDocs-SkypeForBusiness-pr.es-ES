@@ -11,15 +11,17 @@ description: Use un marco cuyo éxito ya se ha demostrado para realizar la trans
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5a9a2bd4bfe1122fe31951f4382340a7bbd57b1f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 91a2b5ae92598ad9a210f84bfce1a89fc1c97350
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754570"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460567"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
@@ -55,7 +57,7 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 | **2** | **Definir el ámbito y la visión del proyecto** | Diseñe su visión de "Panorama general" y el ámbito del proyecto actual para crear un blueprint para su viaje por la actualización. | [Visión del proyecto](upgrade-define-project-scope.md#project-vision) <br> <br>[Ámbito del proyecto](upgrade-define-project-scope.md#project-scope) |
 | **3** | **Definir los objetivos del proyecto** | Establecer los objetivos de destinados que permiten medir el progreso, así como el éxito del proyecto. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
 | **4** | **Identificar los riesgos y los planes de mitigación** | Establecer un plan de mitigación para asegurarse de que puede obtener rápidamente su proyecto en el camino si surgen problemas. | [Los riesgos y mitigación](upgrade-define-project-scope.md#risks-and-mitigation) |
-| **5** | **Definir la escala de tiempo** | Establecer una escala de tiempo y los hitos clave para ayudar a su proyecto a permanecer en el tiempo y dentro del presupuesto. | [Escala de tiempo](upgrade-define-project-scope.md#timeline) <br><br> [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **Definir la escala de tiempo** | Establecer una escala de tiempo y los hitos clave para ayudar a su proyecto a permanecer en el tiempo y dentro del presupuesto. | [línea de tiempo](upgrade-define-project-scope.md#timeline) <br><br> [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 | **6** | **Definir el Skype adecuado para la estrategia de actualización y coexistencia empresariales y de los equipos** | Asignar su viaje para garantizar la mejor ruta de Skype para la empresa a los equipos para su organización. | [Descripción de Microsoft Teams y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Elija su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 

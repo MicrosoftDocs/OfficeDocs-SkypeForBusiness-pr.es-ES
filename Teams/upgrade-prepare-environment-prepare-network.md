@@ -10,15 +10,17 @@ description: Use esta guía para preparar la red para la implementación y el la
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cb83e60748cd36cc88256862a76131eb12d93ec
-ms.sourcegitcommit: 6205201cb1314e753f672654dade11dd4adbfe8a
+ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29743023"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463711"
 ---
 ![Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica")
 
@@ -52,7 +54,7 @@ Los pasos descritos a continuación le ayudará a determinar que si su implement
 
 <!--ENDOFSECTION-->
 
-## <a name="bandwidth-planning"></a>Planeación de ancho de banda
+## <a name="bandwidth-planning"></a>Planeamiento del ancho de banda
 
 El primer paso para la preparación de la red es garantizar que la red tiene suficiente ancho de banda disponible para las modalidades de los equipos que va a proporcionar a los usuarios. La planeación de suficiente ancho de banda es una tarea bastante sencilla y un inicio de muy baja-barrera para garantizar que los usuarios tendrán una experiencia de los equipos de alta calidad.
 
@@ -71,13 +73,13 @@ Inicie el ancho de banda planear viaje para los equipos en el [sitio Web de mi a
 |**Reunión de cuatro participante** |5,5 Mbps |4 Mbps |Cliente <> Office 365 |
 |**Cinco o más – participante reunión** |6 Mbps |1,5 Mbps |Cliente <> Office 365 |
 
-### <a name="local-internet-egress"></a>Salida de internet local
+### <a name="local-internet-egress"></a>Salida local de Internet
 
-Muchas redes se diseñaron para usar un concentrador y radio de topología. En esta topología, el tráfico de internet recorre normalmente la WAN a un centro de datos central antes de que se desprende (egresses) a internet. A menudo, esto se realiza para centralizar los dispositivos de seguridad de red con el objetivo de reducir los costos generales.
+Muchas redes se diseñaron en su momento para usar una topología tipo hub-and-spoke. En esta topología, por lo general, el tráfico de Internet atraviesa la red WAN hasta un centro de datos central antes de salir a Internet. A menudo, esto se hace para centralizar los dispositivos de seguridad de redes y reducir así el coste general.
 
-Back-tomando el tráfico a través de la WAN aumenta la latencia y tiene un impacto negativo en la calidad y la experiencia del usuario. Debido a que Microsoft Teams se ejecuta en la red global grandes de Microsoft, a menudo es una ubicación de interconexión de red más cercano al usuario. Un usuario es muy probable que va a obtener un mejor rendimiento por egressing fuera de un punto de internet local cerca de su ubicación y sesión en nuestra red optimizado para voz tan pronto como sea posible. Para algunas cargas de trabajo, las solicitudes DNS se utilizan para enviar el tráfico a la más cercana del servidor front-end. En estos casos, es importante que cuando se utiliza un punto de salida local, se corresponde con la resolución DNS local.
+El tráfico de transporte hacia atrás por la WAN aumenta la latencia y repercute negativamente en la calidad y la experiencia del usuario. Como Microsoft Teams se ejecuta en una gran red global de Microsoft, existe a menudo una ubicación de emparejamiento de red cerca del usuario. Es muy probable que un usuario obtenga un mejor rendimiento si sale de un punto de Internet local que se encuentra cerca de su ubicación y accede a una red optimizada para voz lo antes posible. Para algunas cargas de trabajo, las solicitudes DNS se utilizan para enviar tráfico al servidor front-end más cercano. En esos casos, es importante que, cuando se usa un punto de salida local, se empareje con una resolución DNS local.
 
-Optimización de la ruta de acceso de red a red global de Microsoft va a mejorar el rendimiento y en última instancia proporcionar la mejor experiencia para los usuarios. Para obtener más detalles, consulte el blog [Introducción la mejor conectividad y rendimiento en Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
+Al optimizar la ruta de red a la red global de Microsoft, mejorará el rendimiento y, en última instancia, los usuarios disfrutarán de la mejor experiencia posible. Para obtener más detalles, vea la publicación del blog [Conseguir la mejor conectividad y el mejor rendimiento en Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
 Para obtener una experiencia óptima al usar multimedia en tiempo real dentro de Microsoft Teams, debe cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
@@ -99,11 +101,11 @@ Para probar los dos segmentos de red, puede usar la [herramienta de evaluación 
 
 ### <a name="vpn"></a>VPN
 
-Las redes privadas virtuales proporcionan un servicio valioso para muchas organizaciones. Desafortunadamente, normalmente no diseñados o mientras está configurados para admitir multimedia en tiempo real. Algunas redes privadas virtuales también podrían no admitir UDP. Las redes privadas virtuales también presentan un nivel adicional de cifrado sobre el tráfico de medios que ya está cifrado. Además, la conectividad con el servicio de los equipos no sea eficaz debido a la fijación de cursor en forma de tráfico a través de un dispositivo VPN. Además, no están necesariamente diseñados desde una perspectiva de la capacidad para dar cabida a las cargas anticipadas que requieren los equipos.
+Las redes VPN ofrecen un servicio muy valioso a muchas organizaciones. Desafortunadamente, normalmente no diseñados o mientras está configurados para admitir multimedia en tiempo real. Algunas redes VPN también podrían no admitir UDP. Las redes privadas virtuales también presentan un nivel adicional de cifrado sobre el tráfico de medios que ya está cifrado. Además, la conectividad con el servicio de los equipos no sea eficaz debido a la fijación de cursor en forma de tráfico a través de un dispositivo VPN. Además, no están necesariamente diseñados desde una perspectiva de la capacidad para dar cabida a las cargas anticipadas que requieren los equipos.
 
-La recomendación es proporcionar una ruta de acceso alternativa que omite la VPN para el tráfico de los equipos. Normalmente, esto se conoce como *división túnel VPN*. La división del túnel significa que el tráfico de Office 365 no atravesar la VPN pero vaya directamente a Office 365. Este cambio tendrá un impacto positivo en calidad, pero también proporciona la ventaja secundaria de reducir la carga de los dispositivos VPN y la red de la organización.
+Lo que se recomienda es ofrecer una ruta alternativa que omita el VPN para el tráfico de Teams. Normalmente, esto se conoce como *división túnel VPN*. La división del túnel significa que el tráfico de Office 365 no atravesar la VPN pero vaya directamente a Office 365. Este cambio repercutirá positivamente en la calidad, pero también proporciona la ventaja secundaria que supone reducir la carga de los dispositivos VPN y la red de la organización.
 
-Para implementar un túnel dividido, póngase en contacto con su proveedor de VPN para los detalles de configuración.
+Para implementar un túnel dividido, consulte con su proveedor de VPN para los detalles de configuración.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
@@ -111,15 +113,15 @@ Al igual que VPN, redes Wi-Fi no están diseñadas necesariamente o configuradas
 
 Hay varios factores que se precie para optimizar una red Wi-Fi:
 
-- Implementación de QoS o Multimedia Wi-Fi (WMM) para asegurarse de que el tráfico de medios se Introducción prioriza según corresponda a través de las redes Wi-Fi.
+- Implementar QoS o Wi-Fi Multimedia (WMM) para garantizar que el tráfico multimedia se priorice de forma acorde a través de redes Wi-Fi.
 
-- Planeación y optimización de la Wi-Fi bandas y el acceso de punto de colocación. El intervalo de 2,4 GHz podría proporcionar una experiencia adecuada según la posición del punto de acceso, pero los puntos de acceso a menudo se ven afectados por otros dispositivos del consumidor que operan en ese intervalo. El intervalo de 5 GHz se adapta mejor a medios en tiempo real debido a su intervalo denso, pero requiere más puntos de acceso para obtener la cobertura suficiente. Los extremos también deben admitir dicho rango y configurarse para aprovechar las bandas en consecuencia.
+- Planeación y optimización de la Wi-Fi bandas y el acceso de punto de colocación. El intervalo de 2,4 GHz podría proporcionar una experiencia adecuada según la posición del punto de acceso, pero los puntos de acceso a menudo se ven afectados por otros dispositivos del consumidor que operan en ese intervalo. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.
 
 - Si se implementan redes Wi-Fi de doble banda, considere la posibilidad de implementar el control de banda. _El control de banda_ es una técnica de implementada por proveedores de Wi-Fi para influir en los clientes de banda dual para utilizar el intervalo de 5 GHz.
 
 - Cuando los puntos de acceso del mismo canal están demasiado cerca pueden provocar la superposición de señal y compiten por equivocación, lo que resulta en una mala experiencia para el usuario. Asegurarse de que los puntos de acceso que están junto a otra en canales que no se superpongan.
 
-Cada proveedor inalámbrico tiene sus propias recomendaciones para la implementación de su solución inalámbrica. Se recomienda que consulte a su proveedor para obtener instrucciones específicas.
+Cada proveedor inalámbrico tiene sus propias recomendaciones para implementar su solución inalámbrica. Le recomendamos que consulte con su proveedor para obtener las indicaciones concretas.
 
 <!--ENDOFSECTION-->
 
@@ -202,7 +204,7 @@ Si los resultados de la planeación de ancho de banda, las pruebas de puerto o l
 Calidad de servicio (QoS) puede usarse para auditiva batalla por orden de prioridad y separar el tráfico. Algunas organizaciones optan por implementar QoS para resolver los problemas de ancho de banda o restringir la cantidad de tráfico que fluyen. Esto no mejora la calidad y va a dar lugar a problemas nuevo. Siempre debe realizar un análisis de causa raíz cuando dificultades de red superan los requisitos. QoS puede ser una solución. Para obtener más información, vea [Calidad de servicio en los equipos de Microsoft](qos-in-teams.md).
 
 >[!NOTE]
->Muchas redes evolucionan con el tiempo debido a las actualizaciones, la expansión u otros requisitos empresariales. Asegúrese de que tiene los procesos operativos en contexto a mantener estas áreas como parte de la planeación de la administración de servicio.
+>Muchas redes van evolucionando gracias a las actualizaciones, al ampliarlas o por otros requisitos de negocio. Asegúrese de contar con procesos operativos que ayuden a mantener estas áreas como parte de su planificación de administración de servicios.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar las evaluaciones de red adecuada en todos los segmentos de red y ubicaciones de la organización?</li></ul></td></tr>

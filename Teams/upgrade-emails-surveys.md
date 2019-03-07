@@ -10,15 +10,17 @@ description: Ver los correos electrónicos y encuestas a usar en conjunciton con
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43d2df58bef38b65470791b40948170a9cd54374
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 4832be7a89bbfc337fc481e213c67f69b179935e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349456"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460255"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Muestra mensajes de correo electrónico y encuestas para las comunicaciones de actualización básica
 
