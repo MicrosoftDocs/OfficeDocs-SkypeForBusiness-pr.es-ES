@@ -1,5 +1,5 @@
 ---
-title: Tomar decisiones de servicio de enrutamiento directo de teléfono del sistema - Microsoft Teams
+title: 'Tomar decisiones relacionadas con el servicio de enrutamiento directo del sistema telefónico: Microsoft Teams'
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Obtenga información sobre el enrutamiento directo, administración de licencias, y las decisiones que deben realizarse.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1d79b6e0423ddb94b29a9d82ea1e6d6d1f173cf3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374445"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462743"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -52,11 +54,11 @@ Después de confirmar que su organización puede obtener la característica del 
 > [!TIP]
 > A continuación es un ejemplo de una lista de habilitación enrutamiento directo del sitio.
 > 
-> | **Oficina**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
+> | **Office**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
 > | One Epping Road                | Australia      | Servicio de RTC antiguo |
-> | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo de teléfono del sistema |
-> | One Marina Boulevard           | Singapur      | Enrutamiento directo de teléfono del sistema |
+> | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo del Sistema telefónico |
+> | One Marina Boulevard           | Singapur      | Enrutamiento directo del Sistema telefónico |
 > | 32 London Bridge Street        | Reino Unido | Sistema telefónico con Planes de llamada |
 > | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con Planes de llamada |
 
@@ -87,9 +89,9 @@ Sistema telefónico requiere que cada usuario en su organización tiene un únic
 
 Correo de voz de sistema de teléfono, con tecnología de servicios de correo de voz de Azure, es compatible con depósitos de correo de voz a los buzones de Exchange y no es compatible con sistemas de correo electrónico de otro fabricante.
 
-El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si debe habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) .
+El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si debe habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](set-up-phone-system-voicemail.md) .
 
-Para obtener más información acerca de correo de voz en una implementación del sistema de teléfono, vea [Configurar el correo de voz del sistema telefónico](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail).
+Para obtener más información acerca de correo de voz en una implementación del sistema de teléfono, vea [Configurar el correo de voz del sistema telefónico](set-up-phone-system-voicemail.md).
 
 |         |         |         |
 |---------|---------|---------|
@@ -101,7 +103,7 @@ Para obtener más información acerca de correo de voz en una implementación de
 > 
 > | **Usuario**         | **Buzón de Exchange** | **¿Habilitar correo de voz?** | **Transcripción de correo de voz** | **Enmascaramiento de contenido ofensivo de transcripción de correo de voz** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
-> | Emily Braun      | En línea               | Sí                   | Habilitado                     | Habilitado                                       |
+> | Emily Braun      | Online               | Sí                   | Habilitado                     | Habilitado                                       |
 > | Lidia Holloway   | En línea               | Sí                   | Habilitado                     | Deshabilitado                                      |
 > | Louis Lahr       | Local          | Sí                   | Habilitado                     | Habilitado                                       |
 > | Marcel Beauchamp | Local          | Sí                   | Deshabilitado                    | N/D                                           |
@@ -109,15 +111,13 @@ Para obtener más información acerca de correo de voz en una implementación de
 > | Isabell Potvin   | Local          | Sí                   | Deshabilitado                    | N/D                                           |
 > 
 > [!NOTE]
-> Para usar los equipos y correo de voz, los usuarios deben tener los buzones de Exchange. Para obtener más información, vea [cómo Exchange y los equipos de Microsoft para interactuar](https://docs.microsoft.com/microsoftteams/exchange-teams-interact) .
+> Para usar los equipos y correo de voz, los usuarios deben tener los buzones de Exchange. Para obtener más información, vea [cómo Exchange y los equipos de Microsoft para interactuar](exchange-teams-interact.md) .
 
 <!--ENDOFSECTION-->
 
 ## <a name="licensing-for-direct-routing"></a>Concesión de licencias para el enrutamiento directo
 
 Si su organización se va a usar el enrutamiento directo, debe obtener licencias necesarias. Los usuarios de enrutamiento directo deben tener las siguientes licencias asignadas en Office 365:
-
-
 
 -   Sistema telefónico de Microsoft
 
@@ -129,12 +129,12 @@ Licencia de conferencia de audio es necesaria para agregar los participantes ext
 
 
 > [!NOTE]
-> Para proporcionar números de teléfono de puente de conferencia gratuito y para admitir la conferencia de salida para los números de teléfono internacional, debe establecer [Comunicaciones créditos](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/what-are-communications-credits) para su organización.
+> Para proporcionar números de teléfono de puente de conferencia gratuito y para admitir la conferencia de salida para los números de teléfono internacional, debe establecer [Comunicaciones créditos](what-are-communications-credits.md) para su organización.
 
 Conferencia de audio y sistema telefónico pueden tener licencia por separado como servicios complementarios para los clientes que tengan Office 365 E3 o E1 planes de suscripción; ya están incluidos como parte del plan de suscripción de Office 365 E5.
 
 > [!TIP]
-> También puede usar el enrutamiento directo para los usuarios que están habilitados para llamar a planes al enrutar sus llamadas a sistemas PBX de terceros. Para obtener más detalles, vea [Licensing y otros requisitos de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-plan#licensing-and-other-requirements).
+> También puede usar el enrutamiento directo para los usuarios que están habilitados para llamar a planes al enrutar sus llamadas a sistemas PBX de terceros. Para obtener más detalles, vea [Licensing y otros requisitos de enrutamiento directo](direct-routing-plan.md#licensing-and-other-requirements).
 
 
 |         |         |         |
@@ -161,7 +161,7 @@ Debe estar habilitado el inquilino de Office 365 con uno o más dominios, debido
 
 ## <a name="sbc-considerations"></a>Consideraciones de SBC
 
-Debe usar controladores de borde de sesión compatibles y certificados (SBCs) que deben estar emparejados con el servicio de enrutamiento directo para proporcionar conectividad con RTC para los usuarios. Para obtener una lista de SBCs certificadas, vea [Admite controladores de borde de sesión](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs).
+Debe usar controladores de borde de sesión compatibles y certificados (SBCs) que deben estar emparejados con el servicio de enrutamiento directo para proporcionar conectividad con RTC para los usuarios. Para obtener una lista de SBCs certificadas, vea [Admite controladores de borde de sesión](direct-routing-plan.md#supported-session-border-controllers-sbcs).
 
 Según el entorno, el número de ubicaciones y los requisitos de enrutamiento de voz, es posible que necesite implementar varios SBCs para admitir la base de usuarios.
 
@@ -179,7 +179,7 @@ Cada SBC implementado con el enrutamiento directo requiere un certificado obteni
 > [!NOTE]
 > También se admite el uso de certificados con caracteres comodín con SBCs.
 
-Para obtener más información y una lista de entidades de certificación compatibles, vea [pública certificado de confianza para el SBC](https://docs.microsoft.com/microsoftteams/direct-routing-plan#public-trusted-certificate-for-the-sbc).
+Para obtener más información y una lista de entidades de certificación compatibles, vea [pública certificado de confianza para el SBC](direct-routing-plan.md#public-trusted-certificate-for-the-sbc).
 
 
 ### <a name="sbc-ip-addresses-and-ports"></a>Puertos y direcciones IP de SBC
@@ -190,7 +190,7 @@ SBCs requieren conectividad bidireccional para comunicarse con los servicios de 
 
 Debe definir los números de puerto específico en cada SBC para la señalización SIP y medios y configurar los servidores de seguridad para permitir el tráfico bidireccional a estos puertos y sus direcciones IP asociadas.
 
-Para obtener más información, consulte [de señalización SIP: FQDN y los puertos de firewall](https://docs.microsoft.com/microsoftteams/direct-routing-plan#sip-signaling-fqdns-and-firewall-ports) y [el tráfico de medios: intervalos de puertos](https://docs.microsoft.com/microsoftteams/direct-routing-plan#media-traffic-port-ranges).
+Para obtener más información, consulte [de señalización SIP: FQDN y los puertos de firewall](direct-routing-plan.md#sip-signaling-fqdns-and-firewall-ports) y [el tráfico de medios: intervalos de puertos](direct-routing-plan.md#media-traffic-port-ranges).
 
 
 > [!NOTE]
@@ -270,7 +270,7 @@ Puede configurar los usuarios para configurar los equipos como su cliente prefer
 
 -   Configurar los equipos como cliente preferido llamado mediante la asignación de la TeamsCallingPolicy y la TeamsInteropPolicy.
 
-Para obtener más información, vea [establecer los equipos de Microsoft como el preferido llamar al cliente para los usuarios](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users).
+Para obtener más información, vea [establecer los equipos de Microsoft como el preferido llamar al cliente para los usuarios](direct-routing-configure.md#set-microsoft-teams-as-the-preferred-calling-client-for-users).
 
 
 |         |         |         |
@@ -281,7 +281,7 @@ Para obtener más información, vea [establecer los equipos de Microsoft como el
 > [!IMPORTANT]
 > Cuando un usuario está configurado para el modo de solo los equipos, este usuario ya no puede iniciar sesión para Skype para la empresa.
 
-Para que los usuarios se ve la ficha llamadas en el cliente de los equipos, tiene que habilitar privada de llamada en un nivel de organización para el inquilino. Para obtener más información acerca de cómo habilitar las llamadas privadas, consulte [Habilitar Calling para equipos de Microsoft](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams) .
+Para que los usuarios se ve la ficha llamadas en el cliente de los equipos, tiene que habilitar privada de llamada en un nivel de organización para el inquilino. Para obtener más información acerca de cómo habilitar las llamadas privadas, consulte [Habilitar Calling para equipos de Microsoft](direct-routing-configure.md) .
 
 
 <!--ENDOFSECTION-->

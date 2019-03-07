@@ -9,7 +9,7 @@ ms.assetid: 3050548b-dc73-4bac-b03b-ade6cb28704a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c83440e1e20025fec6d6ebbe5714244d3e3b1b46
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5ed8744f38d8cd6465c59a5169b0a92b8eba8385
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351925"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462519"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 

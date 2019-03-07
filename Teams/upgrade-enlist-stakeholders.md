@@ -10,15 +10,17 @@ description: Dar de alta las partes interesadas para atender en el equipo del pr
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 072161fed4d28ec045156c34acbcc3cbc37d7635
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349330"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461295"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto] (media/upgrade-banner-stakeholders.png "Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto")
 
@@ -36,7 +38,7 @@ Opcionalmente, puede crear un Comité de dirección. A veces grandes o más comp
 | | |
 |---|---|
 | ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión | <ul><li>¿Quiénes son las personas adecuadas para que sirva como su equipo de los participantes para este proyecto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asignar a las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es exhaustiva.<br><strong>Sugerencia</strong><br>Crear un responsable-responsable-consultada-informados [matriz (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para diferenciar aún más quienes se celebrará responsable de quienes simplemente necesitan para mantenerse informado en un área determinada del proyecto.</li> |
+| ![](media/audio_conferencing_image9.png)<br/>Pasos siguientes | <ul><li>Tenga en cuenta el ámbito del proyecto y asignar a las partes interesadas relevantes.</li><li>Use la tabla siguiente como guía, pero tenga en cuenta que esta lista no es exhaustiva.<br><strong>Propina</strong><br>Crear un responsable-responsable-consultada-informados [matriz (RACI)](https://en.wikipedia.org/wiki/Responsibility_assignment_matrix) para diferenciar aún más quienes se celebrará responsable de quienes simplemente necesitan para mantenerse informado en un área determinada del proyecto.</li> |
 | <li>Decidir si desea crear un Comité de dirección y asignar funciones según corresponda.</li></ul> | |
 
 | Roles | Responsabilidad |

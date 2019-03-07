@@ -1,5 +1,5 @@
 ---
-title: Asignar propietarios de equipo y miembros en Microsoft Teams
+title: Asignar miembros y propietarios de equipo en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -10,17 +10,19 @@ ms.reviewer: dansteve
 search.appverid: MET150
 description: Sepa cómo asignar roles y permisos de propietario y miembro de equipo en Microsoft Teams, incluidos permisos para crear equipos.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67685fc79f2d2cd1f3ef9f76f6802f73119be43a
-ms.sourcegitcommit: be8b6383261358e91dcb79bf819502b8b7ac6526
+ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/19/2018
-ms.locfileid: "26618548"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460343"
 ---
-<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar propietarios de equipo y miembros en Microsoft Teams
+<a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
 
 > [!IMPORTANT]

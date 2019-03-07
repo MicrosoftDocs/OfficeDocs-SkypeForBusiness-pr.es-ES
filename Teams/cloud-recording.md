@@ -5,23 +5,24 @@ ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 ms.reviewer: sonua
 search.appverid: MET150
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
-MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f773c88c16f77e6879adb29852514ef7548790fa
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 93ab7201d96fe337cbdc1c0bbf89f9eab3006d91
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754755"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463095"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Grabación de reuniones en la nube de Teams
 
-En Microsoft Teams, los usuarios pueden registrar sus reuniones de los equipos y las llamadas de grupo para capturar audio, vídeo y uso compartido de actividad de pantalla. También es una opción para grabaciones tener transcripción automática, por lo que los usuarios pueden reproducir grabaciones de la reunión con títulos cerrados y buscar elementos de discusión importantes en la transcripción. La grabación sucede en la nube y se guarda en la [Secuencia de Microsoft](https://docs.microsoft.com/stream/), por lo que los usuarios pueden compartirla de manera segura en toda su organización.
+En Microsoft Teams, los usuarios pueden registrar sus reuniones de los equipos y las llamadas de grupo para capturar audio, vídeo y uso compartido de actividad de pantalla. También hay una opción para que las grabaciones tengan una transcripción automática, para que los usuarios puedan reproducir grabaciones de reunión con subtítulos y buscar elementos de discusión importantes en la transcripción. La grabación sucede en la nube y se guarda en la [Secuencia de Microsoft](https://docs.microsoft.com/stream/), por lo que los usuarios pueden compartirla de manera segura en toda su organización.
 
 [Grabación de documentación del usuario final de reunión de los equipos](https://aka.ms/recordmeeting) de relacionados:
 

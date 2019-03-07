@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Tomar decisiones claves para la fase 2 del plan de adopción
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c8cf1460919019234da365626bfdf587c87249e
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: f5caf84ff4ea941a89d631c1e2839d91039d01a1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699800"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462231"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Comenzar el inicio rápido para Microsoft Teams
 

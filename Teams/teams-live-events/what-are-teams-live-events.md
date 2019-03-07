@@ -1,24 +1,26 @@
 ---
-title: ¿Cuáles son Teams Microsoft live eventos?
+title: ¿Qué son los eventos en directo de Microsoft Teams?
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: tonysmit
 search.appverid: MET150
 description: Obtenga información sobre cómo live eventos permiten a los usuarios difundir vídeo y contenido a grandes audiencias en línea en Microsoft Teams, Yammer y Microsoft Stream.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 881d5c2754703766cb9b84525472bfa18fc6e651
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 4a818e95bf4d71fca06e7ea08f0bcff47efe4e2f
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532244"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461055"
 ---
-# <a name="what-are-microsoft-teams-live-events"></a>¿Cuáles son Teams Microsoft live eventos?
+# <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 ## <a name="overview"></a>Información general
@@ -27,7 +29,7 @@ Con Microsoft Teams eventos en directo, los usuarios de su organización pueden 
 
 Eventos en directo Microsoft 365 traer la transmisión por secuencias a un nuevo nivel, fomentar la conexión a lo largo del ciclo de vida de compromiso completo con los asistentes antes, durante y después de eventos en directo de vídeo en directo. Puede crear un evento en directo donde reside la audiencia, equipo o la Comunidad, utilizando Microsoft Stream, Microsoft Teams, o Yammer.  
 
-Los equipos ofrece una colaboración basada en chat, llamada, las reuniones y con eventos en directo, por lo que puede ampliar el público de sus reuniones. Eventos en directo equipos es una extensión de las reuniones de los equipos, permitir a los usuarios difundir contenido de reuniones y vídeo a una audiencia en línea de gran tamaño. Estos están diseñados para las comunicaciones de uno a varios donde el host del evento es líder las interacciones y participación de la audiencia es principalmente ver el contenido compartido por host. Los asistentes pueden verla el evento grabado o en vivo en Yammer, los equipos o Microsoft Stream y pueden interactuar con los moderadores uso moderado Q & o una conversación de Yammer. 
+Los equipos ofrece una colaboración basada en chat, llamada, las reuniones y con eventos en directo, por lo que puede ampliar el público de sus reuniones. Eventos en directo equipos es una extensión de las reuniones de los equipos, permitir a los usuarios difundir contenido de reuniones y vídeo a una audiencia en línea de gran tamaño. Estos están diseñados para las comunicaciones de uno a varios donde el host del evento es líder las interacciones y participación de la audiencia es principalmente ver el contenido compartido por host. Los asistentes pueden verla el evento grabado o en vivo en Yammer, los equipos o Microsoft Stream y pueden interactuar con los moderadores uso moderado Q & A o una conversación de Yammer. 
 
 Eventos en directo se consideran la próxima versión de Difundir presentación de reunión de Skype y finalmente a los equipos de reemplazan las funciones proporcionadas en Difundir presentación de reunión de Skype. Durante la versión public preview de eventos en los equipos directo, seguiremos admitir la difusión de reunión de Skype, sin interrupciones en el servicio de eventos nuevo o futuros. Sin embargo, le animamos a que probar los equipos de eventos en directo para poder aprovechar todas las características nuevas y apasionantes, incluido el uso compartido de pantalla, recuento de attendee y compatibilidad con codificadores de hardware y software externos. 
 

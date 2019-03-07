@@ -1,19 +1,21 @@
 ---
 layout: HubPage
 hide_bc: true
-title: Formación presencial y vídeos para los administradores de los equipos de Microsoft
+title: Curso dirigido por un instructor y vídeos para administradores de Microsoft Teams
 description: Regístrese para obtener impartidos por clases obtener todos los detalles sobre Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
 ms.author: dearbeen
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Training
-ms.openlocfilehash: 35b8a75e1c19acbe66e05c6d163b55cd4ab9f904
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.collection:
+- Teams_ITAdmin_Training
+- M365-collaboration
+ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349314"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461223"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -138,6 +140,44 @@ ms.locfileid: "29349314"
                                             <div class="cardText">
                                                 <h3>Equipos para el ámbito educativo - seminarios Web</h3>
                                                 <p>Obtenga información sobre cómo usar los equipos de enseñanza superior. (Audiencia: personal, los alumnos, académicos, de la investigación profesores, profesionales de TI)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://microsoftteams.eventbuilder.com/MaximizingTeamsMeetings">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Optimización de las reuniones de los equipos</h3>
+                                                <p>Obtenga información sobre cómo puede sacar provecho de los equipos para su pre, durante y registrar la experiencia de reuniones. (Audiencia: los usuarios finales)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://microsoftteams.eventbuilder.com/FLW3">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Trabajadores de Firstline con los equipos</h3>
+                                                <p>Obtenga información acerca de las capacidades de trabajador firstline publicado recientemente en los equipos. (Audiencia: los usuarios finales)</p>
                                             </div>
                                         </div>
                                     </div>

@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre cómo comprar Office 365 Business Premium planes, características y licencias adicionales. '
-ms.openlocfilehash: bbaa3c15ede66bc23103f72ed81f01c210d19c37
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: a385f23e1d5b8f16c5e234efb93a349000bbaaa3
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127641"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462247"
 ---
 # <a name="office-365-business-premium"></a>Office 365 Business Premium
 

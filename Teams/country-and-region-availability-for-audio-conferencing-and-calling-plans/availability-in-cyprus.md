@@ -9,7 +9,7 @@ ms.assetid: b8abc334-bd57-4bc9-ae17-43d543d895c8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para chipriota los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 432fc03042217919f05641fbdac87ad0bb9f18e0
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9fb82d0c5ca422d8c4243d1b902873cc0a53d00d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352029"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464663"
 ---
 # <a name="availability-in-cyprus"></a>Disponibilidad en Chipre
 

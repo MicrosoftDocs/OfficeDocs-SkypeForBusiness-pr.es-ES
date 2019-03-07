@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Guía paso a paso para implementar equipos, canales, chat y aplicaciones de Microsoft Teams
 localization_priority: Priority
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a09b203cbfa9da3e9782d3f63ac945b61fd7fa8a
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 123d5cfb8744ad07cc9df2a8765a9fc897289f48
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754821"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461743"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, equipos, canales y aplicaciones en Microsoft Teams
 

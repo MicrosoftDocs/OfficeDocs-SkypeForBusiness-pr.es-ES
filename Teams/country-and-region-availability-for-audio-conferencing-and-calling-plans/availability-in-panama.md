@@ -9,7 +9,7 @@ ms.assetid: d15c6f11-da29-4cda-951a-308c13ff841b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Panamá los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: d5267d258e17ff55de5d558f02de8b7fc606209e
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 971907ac49a4582ab5093393dfa01bd84c5a554c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353173"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462599"
 ---
 # <a name="availability-in-panama"></a>Disponibilidad en Panamá
 

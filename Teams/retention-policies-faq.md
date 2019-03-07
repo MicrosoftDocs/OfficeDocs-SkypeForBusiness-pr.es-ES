@@ -10,21 +10,23 @@ ms.reviewer: anach
 description: Preguntas más frecuentes acerca de las directivas de retención en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c8ebd3d35c471a529899cd46a364511f7ea267c
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 7597565afcd63872554e867d8f68929a3e214538
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004581"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461023"
 ---
 # <a name="microsoft-teams-retention-policies-faq"></a>Directivas de retención de Microsoft Teams preguntas más frecuentes
 
 ### <a name="what-types-of-policies-can-i-set-up-in-retention-policies-and-how-do-they-work"></a>¿Qué tipos de directivas puedo configurar en las directivas de retención y cómo funcionan?
 
-En el centro de cumplimiento y seguridad, cuando se configura una directiva de retención, para los equipos o para cualquier otra carga de trabajo, puede configurar dos tipos principales de directivas: 
+En el centro de cumplimiento de seguridad &, cuando se configura una directiva de retención, para los equipos o para cualquier otra carga de trabajo, puede configurar dos tipos principales de directivas: 
 - Conservación: Estas directivas Asegúrese de que los datos se conserven durante un período determinado de tiempo, independientemente de lo que sucede en las herramientas de usuario final. Garantizan que los datos se conservan por motivos de cumplimiento de normas y expira disponibles en la exhibición de documentos electrónicos hasta este momento. Después de que expire el tiempo, la directiva puede indicar si no hace nada o eliminar los datos. En los equipos, si crea una directiva de conservación durante siete años, incluso si los usuarios finales eliminar sus mensajes de los equipos, estos mensajes se conservan aún para exhibición de documentos electrónicos durante siete años.
 - Eliminación: Estas directivas Asegúrese de que los datos no están un pasivo para la organización. Después de la duración especificada, los datos se eliminan de todo el almacenamiento relevante en los equipos. 
 
@@ -54,9 +56,9 @@ Nota: Lanzamiento de la característica de directivas de retención para los equ
 
 Sí, Skype para profesionales en línea y chats de interoperabilidad de los equipos funcionan del mismo modo. Una vez que el Skype para chat en línea de negocio entra en los equipos, se convierte en un mensaje en un subproceso de chat de los equipos y obtiene ingestión en el buzón apropiado. Por lo que el mismo flujo de works – directivas de eliminación de los equipos eliminará estos mensajes desde el subproceso de los equipos. Sin embargo, si el historial de conversaciones está activado para Skype para profesionales en línea y desde el Skype para cliente empresarial en línea los que se guardan en un buzón de correo, estos datos de chat no está controlados por una directiva de retención de los equipos.
 
-### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puede hacer a través de los cmdlets de seguridad & Centro de cumplimiento? ¿Qué debo usar? 
+### <a name="can-i-do-these-through-security--compliance-center-cmdlets-what-should-i-use"></a>¿Puede hacer a través de & cmdlets de centro de cumplimiento de seguridad? ¿Qué debo usar? 
 
-Absolutamente. Puede crear directivas de retención de los equipos con [cmdlets de Powershell de centro de cumplimiento y seguridad]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que estos no son los cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para los equipos. Siguen nomenclatura existente y el estilo de los cmdlets de retención disponibles actualmente en el centro de cumplimiento y seguridad.
+Absolutamente. Puede crear directivas de retención de los equipos con [& los cmdlets de Powershell de centro de cumplimiento de seguridad]( https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps). Recuerde que estos no son los cmdlets de Exchange Online. Estos son los cmdlets que hemos creado para los equipos. Siguen nomenclatura existente y el estilo de los cmdlets de retención disponibles hoy día en & centro de cumplimiento de seguridad.
 
 |Directiva|Regla|
 |---|---|

@@ -9,7 +9,7 @@ ms.assetid: 1bf00fc9-342d-4244-822d-0a3e8f20ea27
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Paraguay los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 15c2d33397f3f4bf9d51cee1705116cedb66efcd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 690fe0e8b9aa4dcf16cae25bf77c2d5e002fea9d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352717"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461279"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilidad en Paraguay
 

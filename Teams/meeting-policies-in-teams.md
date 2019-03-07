@@ -3,36 +3,78 @@ title: Administrar directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 02/25/2019
+ms.date: 03/01/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: 412deb1e8d671b40fd574d72a68f9dad15281645
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: a7b7cc9d6aa0ba10583f872d8c542152f908b551
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302700"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462655"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
-Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de las reuniones programadas por los usuarios de la organización de la reunión. Después de crear una directiva y realice los cambios, a continuación, puede asignar a usuarios a la directiva. 
+::: zone target="docs"
+Las directivas de reunión se usan para controlar las características que están disponibles para los participantes de las reuniones programadas por los usuarios de la organización de la reunión. Después de crear una directiva y realice los cambios, se puede, a continuación, asignar se usa para la directiva. 
 
-## <a name="here-are-the-settings-you-can-change-to-fit-your-organization"></a>Estos son los valores que puede cambiar para ajustarse a la organización
-<a name="bkgeneral"> </a>
+De forma predeterminada, se crea una directiva con nombre Global (valor predeterminado de toda la organización). Todos los usuarios de su organización se asignará esta directiva de reunión de forma predeterminada. Puede realizar cambios en esta directiva o crear una o varias directivas personalizadas y asignar a usuarios a ellos. Cuando se crea una directiva personalizada, puede permitir o impedir que determinadas características que están disponibles para los usuarios y, a continuación, asignarla a uno o varios usuarios que tendrán las opciones que se aplican a ellos. 
+
+## <a name="change-or-create-a-meeting-policy"></a>Cambiar o crear una directiva de reunión
+
+Para cambiar o crear una directiva de reunión, vaya al **Centro de administración de equipos de Microsoft** > **reuniones** > **las directivas de reunión**. Seleccione una directiva de la lista, o seleccione **nueva directiva**. Elija la configuración y, a continuación, seleccione **Guardar**.
+
+Por ejemplo, supongamos que tiene un montón de usuarios y desea limitar la cantidad de ancho de banda que requieran sus reuniones. Debe crear una nueva directiva personalizada denominada "Ancho de banda limitado" y deshabilite a las siguientes opciones:
+
+En **Audio & vídeo**:
+- Desactivar la nube grabación
+- Desactivar la opción permitir IP vídeo
+
+En el **uso compartido de contenido**:
+- Deshabilitar el modo de uso compartido de pantalla
+- Desactivar la Pizarra
+- Desactivar notas compartidas
+
+A continuación, asigne la directiva a los usuarios.
+
+> [!NOTE] 
+> Un usuario puede asignar la directiva de reunión sólo una a la vez. 
+
+## <a name="assign-a-meeting-policy-to-a-user"></a>Asignar una directiva de reunión a un usuario
+
+Para asignar una directiva, vaya a **Centro de administración de equipos de Microsoft** > **a los usuarios**. 
+ 
+Si va a aplicar la directiva a un usuario, seleccione el nombre del usuario para mostrar. Junto a **las directivas asignadas**, seleccione **Editar**. A continuación, en el panel **Editar las directivas de usuario** , en **la directiva de reunión**, seleccione la directiva de reunión de la lista desplegable y seleccione **Guardar**. También puede editar la configuración de la lista de usuarios. Para ello, seleccione el usuario al hacer clic en a la izquierda del nombre para mostrar del usuario. Seleccione **Editar la configuración**. A continuación, en el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**. 
+ 
+Si va a aplicar una directiva a más de un usuario, seleccione cada uno de los usuarios, haga clic en a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**. En el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**.
+ 
+También puede hacerlo yendo al **Centro de administración de equipos de Microsoft** > **reuniones** >  **las directivas de reunión**. Seleccione la directiva y, a continuación, seleccione **Administrar usuarios**. En el panel **Administrar usuarios** , buscar el usuario para mostrar o nombre de usuario. Seleccione el nombre y seleccione **Agregar**. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+
+> [!NOTE] 
+> No se puede eliminar una directiva si los usuarios se asignan a él. En primer lugar debe asignar una directiva diferente a todos los usuarios afectados y, a continuación, puede eliminar la directiva original.
+ 
+ 
+## <a name="user-policy-settings"></a>Configuración de la directiva de usuario
+
+Cuando seleccione una directiva existente en la página de **directivas de reunión** o seleccione **nueva directiva** para agregar una nueva directiva, puede configurar los valores siguientes.
 
 ### <a name="new-meeting-policy-name-and-description"></a>Nueva reunión nombre de directiva y descripción
-   - **Nueva directiva de reunión** Cambiar esto en el nombre de la directiva que aparecerá en la página de directivas de reunión. El nombre no puede contener caracteres especiales ni tener más de 64 caracteres.
-   - **Descripción** Puede agregar una descripción simplificada de la directiva que se crea. Esto va a ser útil si desea asignar una directiva a un grupo de usuarios.
+   - **Nombre** Esto es el nombre de la directiva que aparecerá en la página de **directivas de reunión** . No puede contener caracteres especiales ni tener más de 64 caracteres. Tenga en cuenta que no se puede cambiar el nombre de la directiva existente.
+   - **Descripción** Puede colocar en una descripción simplificada de la directiva que se crea. Esto va a ser útil si desea asignar una directiva a un grupo de usuarios.
+::: zone-end 
 
+<a name="bkgeneral"> </a>
 ### <a name="general"></a>General
    - **Permitir Reunirse ahora** Activar esto le permitirá la característica Reunirse ahora para que esté disponible para los usuarios que se unen a las reuniones.
    - **Permitir que el complemento de Outlook** Activar esto le permitirá a los usuarios asignados a la directiva de tener el complemento de Outlook disponible al programar reuniones.
@@ -43,7 +85,7 @@ Las directivas de reunión se usan para controlar las características que está
 
 ### <a name="audio--video"></a>Audio & de vídeo
    - **Permitir transcripción** Si desactiva esta, transcripción de la reunión estará disponible para los usuarios.
-   - **Grabación de permitir en la nube** Activar esto le permitirá grabaciones van a guardar en la nube.
+   - **Grabación de permitir en la nube** Activar esto le permitirá grabaciones que se guarde en la nube.
    - **Permitir IP vídeo** Activar esto le permitirá vídeos IP durante las reuniones.
    - **(KB) de velocidad de bits de medios** Puede establecer la velocidad de bits para las reuniones. El valor predeterminado es 50 MB.
 
@@ -63,4 +105,7 @@ Las directivas de reunión se usan para controlar las características que está
    - **Permitir a los usuarios anónimos a iniciar reuniones** Si esta opción está desactivada, sólo una persona que se ha autenticado a la reunión con una aplicación de los equipos puede iniciar la reunión. Si está activado, cualquier usuario puede iniciar la reunión.
    - **Admitir automáticamente a los usuarios** Si desactiva esta opción, los participantes de la reunión se dejará en la sala de espera hasta que alguien inicia la reunión. Si está activado, los participantes de la reunión podrán unirse a la reunión automáticamente.
 
+[Artículo completo](meeting-policies-in-teams.md)
 
+### <a name="related-topics"></a>Temas relacionados
+[Directivas de mensajería de los equipos](messaging-policies-in-teams.md)

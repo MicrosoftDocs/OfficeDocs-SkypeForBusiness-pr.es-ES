@@ -10,15 +10,17 @@ ms.reviewer: LolaJ
 description: Busque el camino correcto para implementar Microsoft Teams en su organización. Obtenga información sobre la infraestructura de Teams y cómo usar Teams con Office 365.
 localization_priority: Priority
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13fc63883e3dcdc5585cf68e013bbdc00bb9a503
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 7ee4cba00f20eb53630845f1956d88d47e333084
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754855"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458871"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -36,7 +38,7 @@ Si es un nuevo usuario de Teams, vea este breve vídeo: [Bienvenido a Microsoft 
 
 Cuando se crea un equipo desde un grupo existente, la pertenencia del grupo, el sitio, el buzón y el bloc de notas se muestran en Teams. No se pierda el nuevo [equipo de toda la organización](create-an-org-wide-team.md), un tipo de equipo especial que incluye todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory a medida que los usuarios se unen a la organización o la dejan. 
 
-Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [aplicaciones, conectores y bots](deploy-apps-microsoft-teams-landing-page.md). Con Teams, puede incluir a personas de fuera de la organización [agregándolas como invitados](guest-access.md) a un equipo o un canal. Como parte de Office 365, Teams ofrece una sólida [plataforma de desarrollo](https://docs.microsoft.com/es-ES/microsoftteams/platform) para que pueda crear el hub para el trabajo en equipo que necesita en su organización. 
+Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [aplicaciones, conectores y bots](deploy-apps-microsoft-teams-landing-page.md). Con Teams, puede incluir a personas de fuera de la organización [agregándolas como invitados](guest-access.md) a un equipo o un canal. Como parte de Office 365, Teams ofrece una sólida [plataforma de desarrollo](https://docs.microsoft.com/en-us/microsoftteams/platform) para que pueda crear el hub para el trabajo en equipo que necesita en su organización. 
 
 ![Aplicación de escritorio y aplicación móvil de Microsoft Teams](media/teams-overview-hub.png)
 

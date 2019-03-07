@@ -9,16 +9,18 @@ layout: LandingPage
 ms.date: 11/20/2018
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e127be7c64dfadcc8cf01e2abcd4bb069d92b78
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: e516822a2ab6b64ae4b382d7fcd73bbfce7f691c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408246"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460871"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir adopción 
 

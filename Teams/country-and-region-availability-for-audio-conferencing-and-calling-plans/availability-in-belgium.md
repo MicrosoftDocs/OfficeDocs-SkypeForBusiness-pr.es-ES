@@ -9,7 +9,7 @@ ms.assetid: 1f9c7e23-41f8-4ca2-8097-b9f2c969897e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bélgica los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 3fc183cf7e3443a84974d3ac5c978b303446cb5c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9c80c548902c25d0d6d79ffbcabf24360dad5dda
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352229"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460063"
 ---
 # <a name="availability-in-belgium"></a>Disponibilidad en Bélgica
 

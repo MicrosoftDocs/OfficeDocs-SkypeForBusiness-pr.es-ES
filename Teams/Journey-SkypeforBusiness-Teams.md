@@ -1,5 +1,5 @@
 ---
-title: Actualización de Skype para la empresa a los equipos de Microsoft
+title: Actualizar Skype Empresarial a Microsoft Teams
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
@@ -10,15 +10,17 @@ description: Use un marco cuyo éxito ya se ha demostrado para realizar la trans
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bfe9fb437be2df1c069c79d3c5281dbb121b4204
-ms.sourcegitcommit: 716d39077784417c3545a91e501ae26ff56ebdf4
+ms.openlocfilehash: 41c026712370ccf6aa3b2b8819bd0e82c9b8bf83
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "29349080"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460175"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Actualización de Skype Empresarial a Microsoft Teams
 

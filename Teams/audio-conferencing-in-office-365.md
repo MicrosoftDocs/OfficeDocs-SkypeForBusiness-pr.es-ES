@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 - M365-voice
 search.appverid: MET150
 ms.audience: Admin
@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 9d50c4682553999c2836d8e18bd3f6a56d88554c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 39c36772de3370e29e8ab47fe596186b76bf3361
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351605"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461343"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferencia en Office 365
 Conferencias de audio en Office 365 permite a los usuarios llaman a las reuniones desde sus teléfonos. Conferencias de audio permite a hasta 250 asistentes de teléfono.

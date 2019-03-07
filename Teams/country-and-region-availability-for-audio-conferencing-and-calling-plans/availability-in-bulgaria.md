@@ -9,7 +9,7 @@ ms.assetid: 0aa7cb59-7479-415b-83a8-f51e1437af5e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bulgaria los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 678002b620316ff8d1d508f2d837b00731b7003d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 43368970bca09a2b5054a40ee50dc308798fafb3
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353549"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463215"
 ---
 # <a name="availability-in-bulgaria"></a>Disponibilidad en Bulgaria
 

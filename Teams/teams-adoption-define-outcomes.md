@@ -8,19 +8,21 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo se va a medir los resultados empresariales y el éxito de la habilitación de gran escala de los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2df638a12b67ac70b0759f70365f48330c26914d
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 09efb86effe9179908c10eb9fbb7de30cc5a247d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699823"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461815"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
@@ -55,7 +57,7 @@ Ejemplo de resultados en cada categoría son:
    - Simplificación de los procesos
    - Retiro de sistemas heredados
    
-- **Individual**
+- **individual**
    - Uso de herramientas que desee
    - Morale empleado
    - Productividad de los empleados

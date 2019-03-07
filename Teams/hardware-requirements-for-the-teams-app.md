@@ -1,5 +1,5 @@
 ---
-title: Requisitos de hardware para la aplicación Microsoft Teams
+title: Requisitos de hardware de la aplicación de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -7,7 +7,9 @@ ms.date: 08/28/2018
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre los requisitos de hardware que se necesitan para instalar y ejecutar Microsoft Teams.
@@ -15,14 +17,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97ce12f2dd55807cd806afa05ea6d1813ad457b
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 3e18eff1d96bd51d2ecc13a1299bd6ec8ec07edc
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699412"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462175"
 ---
-# <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware para la aplicación Microsoft Teams
+# <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-windows-pc"></a>Requisitos de hardware para la aplicación de escritorio de los equipos en un equipo con Windows
 

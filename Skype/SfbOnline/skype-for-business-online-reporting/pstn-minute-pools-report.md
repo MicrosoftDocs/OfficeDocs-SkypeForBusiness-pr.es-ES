@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el Skype para informe de grupos de servidores minuto RTC de negocio para ver el número de minutos consumidos durante el mes actual dentro de la organización.
-ms.openlocfilehash: 2840ac4bde1234f0f87fe17c41f43b6efad647b5
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182379"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454020"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -62,7 +62,7 @@ Este es el aspecto del informe.
 ![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de servidores minutos por licencia (capacidad) y la ubicación de uso. 
 *    **Capacidad** es el plan de licencia/servicio utilizado para la llamada. Los planes de licencia o servicio que puede ver en este informe se incluyen:
      * MCOPSTN1 - nacionales llamar a planear (3000 minuto 1200/US-minuto UE planes
-     * MCOPSTN2 - nacionales & internacional llamar a planear desde la que podrá ver un grupo de servidores interno (3000 minuto Estados Unidos, Canadá/PR, 1200 minuto países de Europa) y un grupo de servidores internacional (600 minutos). Minuto cap se alcanza cada vez que se alcanza el cap OR internacional nacional dentro del mes del calendario. 
+     * MCOPSTN2 - nacionales & International llamar a planear desde la que podrá ver un grupo de servidores interno (3000 minuto Estados Unidos, Canadá/PR, 1200 minuto países de Europa) y un grupo de servidores internacional (600 minutos). Minuto cap se alcanza cada vez que se alcanza el cap OR internacional nacional dentro del mes del calendario. 
      * MCOPSTN5 - nacionales llamar a Plan (plan llamada 120 minutos)
      * MCOPSTN6 - nacionales llamar a Plan (plan de llamadas de 240 minutos)
      * MCOMEETADD - conferencias de Audio

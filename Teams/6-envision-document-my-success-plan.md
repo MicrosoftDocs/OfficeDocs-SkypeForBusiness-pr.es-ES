@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Elija un modelo de implementación, desarrollar una matriz (RACI) responsable-responsable-consultada-informada, crear los planes de ejecución y gobierno.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 271faa8ffc4a4e6c3977382cf5a1153513bd1ba5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374213"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462143"
 ---
 # <a name="document-my-success-plan"></a>Mi plan de éxito de documentos
 
@@ -87,9 +89,9 @@ El siguiente es un ejemplo de un plan de ejecución trimestral para la fase de p
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
 | Estados Unidos: Nueva York                             | 2000                | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
 | Irlanda: Dublín                          | 300                 | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
-| Austria: Viena                          | 500                 | Sí                | Enrutamiento directo de teléfono del sistema     | Q2 CY2018          |
+| Austria: Viena                          | 500                 | Sí                | Enrutamiento directo del Sistema telefónico     | Q2 CY2018          |
 | Italia: Milán                             | 200                 | Sí                | N/D                             | Q2 CY2018          |
-| América del sur: (Brasil)                    | 1500                | Sí                | Enrutamiento directo de teléfono del sistema     | Q2 CY2018          |
+| América del sur: (Brasil)                    | 1500                | Sí                | Enrutamiento directo del Sistema telefónico     | Q2 CY2018          |
 | India: Delhi                             | 7000                | Sí                | N/D                             | T3 CY2018          |
 
 

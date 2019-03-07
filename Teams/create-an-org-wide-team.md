@@ -10,15 +10,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre cómo crear y administrar un equipo de toda la organización en los equipos.
 localization_priority: Normal
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b838652ee68895d8c2be3768316aa200a203945
-ms.sourcegitcommit: 969a71ef0ac0030c27bd2455c3bf9d536dbcd752
+ms.openlocfilehash: a63b39d0b0ef51326b253e87be99889e9a018a03
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27182523"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461063"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -40,7 +42,7 @@ Cuando se crea un equipo de toda la organización, todos los administradores glo
 Para obtener el máximo partido de su equipo de toda la organización, se recomienda que los propietarios de equipo haga lo siguiente.
 
 ### <a name="allow-only-team-owners-to-post-to-the-general-channel"></a>Permitir que sólo los propietarios de equipo registrar en el canal de General
-Reducir el ruido de canal por tener solo del equipo que los propietarios de entrada para el canal General. Vaya al equipo y haga clic en **más opciones (…)**  >  **Administrar equipo**. En la ficha **configuración** , haga clic en **permisos de miembro** > seleccione **sólo los propietarios pueden publicar mensajes**.
+Reducir el ruido de canal por tener solo del equipo que los propietarios de entrada para el canal General. Vaya al equipo y haga clic en **más opciones (…)**  >  **Administrar equipo**. En la ficha **configuración** , haga clic en **permisos de miembro** > seleccionar **sólo los propietarios pueden publicar mensajes**.
 ### <a name="turn-off-team-and-team-name-mentions"></a>Desactivar @team y @ menciones de [nombre de equipo]
  Reducir @mentions para evitar la sobrecarga de toda la organización. Vaya al equipo y haga clic en **más opciones (…)**  >  **Administrar equipo**. En la ficha **configuración** , haga clic en **@mentions** > desactivar **Mostrar (miembros de) la opción de @team o @[nombre de equipo]**. 
 ### <a name="automatically-favorite-important-channels"></a>Canales importantes automáticamente favoritos

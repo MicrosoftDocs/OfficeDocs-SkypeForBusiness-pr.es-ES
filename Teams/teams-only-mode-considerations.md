@@ -11,15 +11,17 @@ description: Preparar la actualización a modo de sólo los equipos de Microsoft
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6342ba15ac05e9b26b2f62499c84fe43631ca94
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: 2a9e42d8245afdd1deb33f22f3f7695bb5d71617
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754514"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459559"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 

@@ -9,7 +9,7 @@ ms.assetid: 4ace3c1d-c1b6-4f99-bc71-0d1757c8aba9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 67e9436b61d4f88c042d0e827244ffffe3604e88
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a3dc31d6baf76b8d34c177806f0c0ec25448c28e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350917"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461927"
 ---
 # <a name="availability-in-belarus"></a>Disponibilidad en Belarús
 

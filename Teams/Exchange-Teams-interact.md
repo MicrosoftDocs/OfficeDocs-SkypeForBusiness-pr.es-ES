@@ -9,15 +9,17 @@ ms.reviewer: crowe
 description: Conozca la funcionalidad que hay entre Microsoft Teams y las distintas configuraciones de Exchange, como crear equipos y unirse a ellos, crear canales y mucho más.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c251255807e1c673c672db20a85b7f56c4a64d6
-ms.sourcegitcommit: 47b29c15ca3cf1676168608537613f3b841dbfcb
+ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "29992820"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462191"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -39,8 +41,8 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí |Sí|
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|No|Sí|Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No <sup>5|No|No|Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
 
 <sup>1</sup> CU3 de 2016 admite exchange y por encima de  
 <sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  
@@ -64,7 +66,7 @@ Información adicional:
 
 -   En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
 
--   Para Exchange local, debe para configurar OAuth tal como se describe en [Configurar OAuth autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
+-   Para Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange como se describe en [Configurar OAuth autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx). 
 
 > [!NOTE]
 > Por el momento, si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange.

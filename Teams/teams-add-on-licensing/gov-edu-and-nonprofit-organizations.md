@@ -1,5 +1,5 @@
 ---
-title: Organizaciones sin fines de lucro, GOV y EDU
+title: Organizaciones gubernamentales, educativas y sin ánimo de lucro
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,7 +7,9 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -16,14 +18,14 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre licencias adicionales y las características para GOV, EDU y planes de la organización sin fines de lucro. '
-ms.openlocfilehash: c4e77fbd08d81a69b6c1e59c7bfe6e0519eb62ab
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 503afdff3cdcb8c19014a5055c402436091b6c70
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30127625"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459639"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>Organizaciones sin fines de lucro, GOV y EDU
+# <a name="gov-edu-and-non-profit-organizations"></a>Organizaciones gubernamentales, educativas y sin ánimo de lucro
 
 La mayoría de las características de los equipos están disponibles para las organizaciones sin fines de lucro, educación y gobierno de Estados Unidos. Consulte la tabla siguiente para obtener información detallada.
 

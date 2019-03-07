@@ -9,7 +9,7 @@ ms.assetid: c5dcb36b-9700-46c8-8499-d5cadb218a37
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Polonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 43363b6ea47ce680f664b9e1437ced410914bd63
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 10d6655ae2615c97437b88c94ac3ff48aff5e4e7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353389"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460287"
 ---
 # <a name="availability-in-poland"></a>Disponibilidad en Polonia
 

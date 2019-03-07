@@ -1,5 +1,5 @@
 ---
-title: Planeación de gobierno de 365 de Microsoft - implementaciones DoD - Microsoft Teams
+title: Plan para Microsoft 365 Administración Pública - Implementaciones de DoD - Microsoft Teams
 author: lolajacobsen
 ms.author: lolaj
 manager: serdars
@@ -11,15 +11,17 @@ description: Instrucciones para los profesionales de TI a las implementaciones d
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6464982fad114b28019534068503c3fce5f42c20
-ms.sourcegitcommit: 42083a67ad92d81643131c8514d82c529a1ac491
+ms.openlocfilehash: 239996abd87c52905758d6bff5ddeb6bf7805e89
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "27992190"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462767"
 ---
 # <a name="plan-for-microsoft-365-government---dod-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones de DoD
 
@@ -126,7 +128,7 @@ Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, exist
 | Archivos | Recientes | Disponible |
 | | Microsoft Teams | Disponible |
 | Almacén | Tienda de aplicaciones | No disponible |
-| Buscar | Mensajes | Disponible |
+| Búsqueda | Mensajes | Disponible |
 | | Personas | Disponible |
 | | Archivos | Disponible |
 | | Comandos de barra diagonal | Disponible |

@@ -9,7 +9,7 @@ ms.assetid: 26419a93-4216-448f-bf3a-f29778c62c84
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Macedonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4bb35b86b4ea3ce65afe1fdbbb8d088ed3aaf7f7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 01651e7b09554902fb286c3229207db1bd574af3
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352901"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461247"
 ---
 # <a name="availability-in-macedonia"></a>Disponibilidad en Macedonia, ERY
 

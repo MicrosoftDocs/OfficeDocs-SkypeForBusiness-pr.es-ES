@@ -9,15 +9,17 @@ ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre los diferentes equipos, canales y aplicaciones disponibles para una gran variedad de requisitos, como los servicios financieros, la planificación de eventos, las ventas y mucho más.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: babfec7ae442b9d5f787fda7a9d9eedb0e3a6303
-ms.sourcegitcommit: e739925aa73f257b72ce4f94002d8b17582252a1
+ms.openlocfilehash: b3f49bc8ed4fe5c140c01bbc29c1d7ed7595f547
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30357773"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458847"
 ---
 > [!NOTE]
 > Revise la siguiente información para entender la charla, los equipos, los canales, & aplicaciones en los equipos. A continuación, vaya a [implementar chat, los equipos, los canales, & aplicaciones en los equipos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes a la implantación de los equipos.

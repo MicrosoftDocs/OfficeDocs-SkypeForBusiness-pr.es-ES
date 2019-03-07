@@ -9,7 +9,7 @@ ms.assetid: 4f3430a6-141f-4842-817d-ca4355ae8fda
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para México los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9ffdf1bcce04ce8b5004f6f7f9f695908cb88e2d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: a3e1b5526e859652c6c8b17e7a4b6e23d4956ffa
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351533"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461999"
 ---
 # <a name="availability-in-mexico"></a>Disponibilidad en México
 

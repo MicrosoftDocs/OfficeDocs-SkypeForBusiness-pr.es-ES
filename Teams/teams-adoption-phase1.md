@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre la fase de inicio de la adopción de los equipos.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbebdc95a4c915e558f905e732cfae92fcd3ed14
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 83a5d4d40b7370a2c609f33d056443c5dee06167
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699832"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460479"
 ---
 # <a name="microsoft-teams-adoption-phase-1---start"></a>Fase 1 de la adopción de Microsoft Teams: Inicio
 
@@ -46,11 +48,11 @@ En la tabla siguiente se enumera las funciones principales de su equipo de proye
 | ---- | ---------------- | ---------- |
 | Patrocinador ejecutivo<sup>1</sup> | Visión de alto nivel se comunican. Conectar implementación de los equipos a las iniciativas de misión y la prioridad de principal de la compañía. | Liderazgo ejecutivo |
 | Propietario de éxito<sup>1</sup> | Asegúrese de que se obtienen los objetivos empresariales de la implantación de los equipos. | Cualquier departamento |
-| Jefe de programa<sup>1</sup> | Supervisará el todo proceso de implementación y la ejecución de la lanzamiento de los equipos. | LO |
+| Jefe de programa<sup>1</sup> | Supervisará el todo proceso de implementación y la ejecución de la lanzamiento de los equipos. | eso |
 | Campeones<sup>1</sup> | Ayuda de dé a conocer los equipos, admite la creación de aptitudes y proporciona perspectivas de uso. | Varios departamentos |
 | Responsable de formación | Administrar y comunicar el contenido de aprendizaje acerca de los equipos. | TI u otro |
 | Departamento de clientes potenciales (las partes interesadas)<sup>2</sup> | Identificar cómo determinados departamentos usará los equipos y fomentar la contratación. | Cualquier departamento (administración) |
-| TI especialistas en<sup>1</sup> | Supervisar todos los aspectos técnicos de implementación, incluida la integración. | LO |
+| TI especialistas en<sup>1</sup> | Supervisar todos los aspectos técnicos de implementación, incluida la integración. | eso |
 | Clientes potenciales de comunicación<sup>2</sup> | Supervisar las comunicaciones de toda la compañía acerca de los equipos. | Las comunicaciones corporativas, TI, u otro |
 | Administrador de la Comunidad | Administrar la actividad de red de Yammer diaria. Se proporcionan información y procedimientos recomendados. | Varios departamentos |
 

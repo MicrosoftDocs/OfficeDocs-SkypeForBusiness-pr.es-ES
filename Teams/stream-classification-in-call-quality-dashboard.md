@@ -11,7 +11,7 @@ ms.service:
 - msteams
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
+- M365-collaboration
 search.appverid: MET150
 ms.audience: Admin
 appliesto:
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: 43c3e876b041e8a586b43d21f049731e3450a1a4
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 9a25e44393cbe8660687451fea5163f064c16240
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374328"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460311"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -77,7 +77,7 @@ Una transmisión de uso compartido de aplicaciones se marca como mala si se cump
 | **Métrica**                                     | **Condición** | **Explicación**                                                                                                                                                                                                        |
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
-| AppSharing RDP Tile Processing Latency Average | 400 >         | Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.                                                                                                                          |
+| AppSharing RDP Tile Processing Latency Average | > 400         | Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.                                                                                                                          |
 | AppSharing Relative OneWay Average             | > 1,75        | Retraso medio de relativa unidireccional entre los extremos en segundos para el uso compartido de secuencias de aplicaciones.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
@@ -110,4 +110,4 @@ If ICE connectivity succeeded for an unclassified stream, the stream is likely c
 
 [Dimensiones y medidas disponibles en el Panel de calidad de llamadas](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
-[Usar Análisis de llamadas para solucionar problemas de mala calidad de llamada](use-call-analytics-to-troubleshoot-poor-call-quality.md)
+[Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas](use-call-analytics-to-troubleshoot-poor-call-quality.md)

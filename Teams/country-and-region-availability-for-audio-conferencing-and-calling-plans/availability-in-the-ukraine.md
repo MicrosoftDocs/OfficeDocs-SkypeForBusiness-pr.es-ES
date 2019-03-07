@@ -9,7 +9,7 @@ ms.assetid: f3107dfc-592e-4952-a451-921b89cd5d3f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Ucrania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 62345c996578280f93d53dfc1077860edf70adb8
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3782b2333b1722ef182af913371791231b8d948b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352469"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461487"
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilidad en Ucrania
 

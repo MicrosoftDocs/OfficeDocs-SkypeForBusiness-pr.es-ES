@@ -12,15 +12,17 @@ description: Aprenda a permitir y habilitar aplicaciones en Microsoft Teams, inc
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: da73768f69159c32543d0843139facc2b9ef4f9a
-ms.sourcegitcommit: 7f235c2c2cd350e8552a84ae1877b2d659a6aa53
+ms.openlocfilehash: 43d2e00e7e8608f78ef2e7ed87bd225596aec6c3
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29706358"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464159"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================

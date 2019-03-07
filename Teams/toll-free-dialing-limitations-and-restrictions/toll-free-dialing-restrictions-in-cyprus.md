@@ -9,7 +9,7 @@ ms.assetid: 0dc3969f-2ca2-4fc3-991d-c951a4b6240f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: fd48adc4dee3e97b265e35adc134b258238d4a53
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 25b596d8f27e8cf2f6b40c41a1380450380b7545
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351365"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463359"
 ---
 # <a name="toll-free-dialing-restrictions-in-cyprus"></a>Restricciones de marcado de número gratuito en Chipre
 
@@ -48,7 +48,7 @@ ms.locfileid: "30351365"
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Restricciones y limitaciones de marcado gratuito](../toll-free-dialing-limitations-and-restrictions.md)
+[Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

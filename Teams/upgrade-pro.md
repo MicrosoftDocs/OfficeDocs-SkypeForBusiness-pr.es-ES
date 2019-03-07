@@ -10,15 +10,17 @@ description: Use esta guía si está en una organización grande o muy ha person
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e948685a1a49920ca7cf200435266e2cbaaf165d
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: caec680997f4fd44582dbb19b90e5c56d2b9c5b7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754837"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464103"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 
@@ -50,7 +52,7 @@ Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actual
 |**3** |**Definir el ámbito del proyecto** |Su visión sólo puede llevarse a cabo a través del tiempo, a través de varias fases. El ámbito del proyecto define el enfoque del proyecto en este momento y sirve para mantener su equipo de proyecto que se centra en sus tareas actuales, lo que permite obtener su visión a largo plazo. |[Ámbito del proyecto](upgrade-define-project-scope.md#project-scope) |
 |**4** |**Definir los objetivos del proyecto** |Los objetivos de definición los resultados que desee y permite medir el éxito del proyecto. Objetivos pueden definirse como objetivos y resultados claves (OKRs) y las medidas de éxito de un proyecto pueden definirse como indicadores clave para el éxito (KSIs). Es esencial que obtener una completa participación de las partes interesadas del proyecto en la definición OKRs y KSIs, para ayudar a garantizar que sienten de propiedad y alineación estas medidas de éxito a tareas del proyecto definido. Objetivos deben incluir una combinación de técnica y centrados en el usuario correcto. |[Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
 |**5** |**Identificar los riesgos y los planes de mitigación** |Es importante evaluar los posibles riesgos de forma proactiva y definir un plan de mitigación para superar los problemas que puedan surgir, por lo que el proyecto puede continuar hacia los objetivos. Un registro de riesgos es una herramienta excelente para el seguimiento de riesgos del proyecto, junto con la posibilidad de son y su impacto potencial — y capturar el plan de mitigación. En la siguiente tabla se muestra un registro de riesgos de ejemplo. |[Los riesgos y mitigación](upgrade-define-project-scope.md#risks-and-mitigation) |
-|**6** |**Definir la escala de tiempo** |Establecer una escala de tiempo para los hitos clave (por ejemplo, para permitir a los equipos junto con Skype para la empresa para todos los usuarios o iniciar la actualización por fases de usuarios) además de la fecha de finalización. Una escala de tiempo definido ayuda a la unidad de equipo de proyecto hacia un estado coherente final y se informa a la programación de copia de trabajo a la derecha, ayudar a garantizar que el proyecto se ajusta en el camino. Considere la posibilidad de una escala de tiempo que no se demasiado acelerado (donde tareas pueden ser lista). |[Escala de tiempo](upgrade-define-project-scope.md#timeline)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)|
+|**6** |**Definir la escala de tiempo** |Establecer una escala de tiempo para los hitos clave (por ejemplo, para permitir a los equipos junto con Skype para la empresa para todos los usuarios o iniciar la actualización por fases de usuarios) además de la fecha de finalización. Una escala de tiempo definido ayuda a la unidad de equipo de proyecto hacia un estado coherente final y se informa a la programación de copia de trabajo a la derecha, ayudar a garantizar que el proyecto se ajusta en el camino. Considere la posibilidad de una escala de tiempo que no se demasiado acelerado (donde tareas pueden ser lista). |[línea de tiempo](upgrade-define-project-scope.md#timeline)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit)|
 |**7** |**Definir el Skype adecuado para la estrategia de actualización y coexistencia empresariales y de los equipos** |Como un Skype existente para cliente comercial, la transición completa a los equipos puede tardar algún tiempo. Sin embargo, puede empezar a darse cuenta el valor de los equipos en la actualidad, permitiendo que los usuarios usen los equipos junto con Skype para la empresa. Dado que hay algunas de las funciones superpuestas entre las dos aplicaciones, se recomienda que revise la coexistencia disponible y actualizar los modos para ayudar a determinar qué ruta de acceso es la adecuada para su organización. Para obtener una experiencia óptima, prueba piloto su estrategia de coexistencia planeada antes de implementar a grandes rasgos para todos los usuarios. |[Descripción de Microsoft Teams y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md)<br><br>[Elija su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)|
 
 ### <a name="days-8ndash15-evaluate-your-organizations-readiness-for-teams"></a>Días 8&ndash;15: evaluación de la preparación de su organización para los equipos

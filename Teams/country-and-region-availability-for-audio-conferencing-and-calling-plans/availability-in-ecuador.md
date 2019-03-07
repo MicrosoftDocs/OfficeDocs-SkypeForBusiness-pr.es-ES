@@ -9,7 +9,7 @@ ms.assetid: 93419ae6-1f3d-4182-83d1-afe02060fd6a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Ecuador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: bf2eadb0c64caa4733d3c057b211cc7d539c00e9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e169f6f6cde83f584a9d45dbaf1ae783b9cad319
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353229"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464239"
 ---
 # <a name="availability-in-ecuador"></a>Disponibilidad en Ecuador
 

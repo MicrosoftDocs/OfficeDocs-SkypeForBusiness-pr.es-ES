@@ -9,7 +9,7 @@ ms.assetid: 30a528ca-43bc-4e7f-81fe-3adc7d3d6acb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Croacia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 328a17b5192b50a390943fd239f932ed8b3f8cdd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: c025000928b48e9ecfb2366add6f83ac1895c6c1
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353053"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464087"
 ---
 # <a name="availability-in-croatia"></a>Disponibilidad en Croacia
 

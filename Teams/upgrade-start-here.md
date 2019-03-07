@@ -11,15 +11,17 @@ description: Obtenga información sobre por qué se debe tener en cuenta actuali
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
-MS.collection: Teams_ITAdmin_JourneyFromSfB
+MS.collection:
+- Teams_ITAdmin_JourneyFromSfB
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3881990e6c6906f59ceef2c2c4055399457d6952
-ms.sourcegitcommit: 784dcab3923adec61449b3b901e22a991f0c262d
+ms.openlocfilehash: 5082b99d6742b72520ac7a42b33c80e19a329517
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "29662473"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461887"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 

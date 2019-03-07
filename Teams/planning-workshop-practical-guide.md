@@ -10,15 +10,17 @@ ms.reviewer: lolaj, rowille
 description: Herramientas de planificación, talleres y kits de introducción para ayudar a las organizaciones en sus primeros pasos con Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5458596d1eba8d956d6a75e0d99c99982e6525b9
-ms.sourcegitcommit: 9acf2f80cbd55ba2ff6aab034757cc053287485f
+ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "25012108"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463959"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -27,7 +29,7 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
 - [Kit para el éxito del cliente de Microsoft Teams](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip)
 
-    Este kit contiene una amplia variedad de presentaciones, plantillas de correo electrónico, sugerencias & trucos y Pósteres que puede usar para implantar y la adopción de los equipos de la organización. Incluye a dos guías de inicio rápido para los administradores y jefes de equipo y ejemplos de casos de uso para cada departamento. Use estos recursos para sacar el máximo partido para distintas funciones en la organización, incluido el Marketing, ventas, finanzas, recursos humanos, los equipos de TI, ingeniería y administración de proyectos.
+    Este kit contiene una amplia variedad de presentaciones, plantillas de correo electrónico, sugerencias y trucos & y Pósteres que puede usar para implantar y la adopción de los equipos de la organización. Incluye a dos guías de inicio rápido para los administradores y jefes de equipo y ejemplos de casos de uso para cada departamento. Use estos recursos para sacar el máximo partido para distintas funciones en la organización, incluido el Marketing, ventas, finanzas, recursos humanos, los equipos de TI, ingeniería y administración de proyectos.
 
 
 - [Guía de inicio rápido para administradores](https://download.microsoft.com/download/F/3/9/F39B4F10-5720-4516-87E1-91E5A5678EFB/MicrosoftTeams-AdminQuickStart-EnableTeams.docx)

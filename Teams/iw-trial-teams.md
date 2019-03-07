@@ -11,15 +11,17 @@ ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
 description: Los usuarios de Office 365 que no tienen licencia para Microsoft Teams pueden iniciar una versión de prueba de 1 año de los equipos.
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dc0b62ce0be0606ad4c31d3cee04347729fbbe32
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5101cc8f54d41aaf63b24fea1d9092b1465a81d7
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214584"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462375"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
@@ -76,9 +78,9 @@ Además, los administradores pueden deshabilitar la capacidad para los usuarios 
 
 Puede desactivar la capacidad de un usuario para instalar los servicios y aplicaciones de prueba.
 
-1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **configuración** > **Services & complementos** > **usuario que son propiedad de aplicaciones y servicios**.
+1. Desde el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home), vaya a **configuración** > **complementos & de servicios** > **usuario que son propiedad de aplicaciones y servicios**.
 
-    ![Captura de pantalla de la página Servicios & complementos en el centro de administración de Office 365.](media/iw-trial-enable-1.png)
+    ![Captura de pantalla de la página de complementos de servicios & en el centro de administración de Office 365.](media/iw-trial-enable-1.png)
 
 2. Desactivar la opción **Permitir a los usuarios instalar los servicios y aplicaciones de prueba**.
 

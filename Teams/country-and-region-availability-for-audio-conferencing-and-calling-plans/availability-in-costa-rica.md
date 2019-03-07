@@ -9,7 +9,7 @@ ms.assetid: af771135-60cb-4c37-ae0a-a300d3ced073
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para Costa Rica.
-ms.openlocfilehash: 2cb214f087b4487ae0e76a09000bdcc6ab81d28a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5862b013821695ef95d32a8bb72a24ba1d1f2bda
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351965"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459476"
 ---
 # <a name="availability-in-costa-rica"></a>Disponibilidad en Costa Rica
 

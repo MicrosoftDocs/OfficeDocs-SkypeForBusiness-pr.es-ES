@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Conference Participant Activity report, and how to interpret and customize it. '
-ms.openlocfilehash: 3786d74d7708887e680fccc813c3cf245dc7d468
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 44427c5ed40d44c9ad82223dd468f869dcbeec0c
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532714"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454070"
 ---
 # <a name="conference-participant-activity-report"></a>Informe de actividad de los participantes de la conferencia
 

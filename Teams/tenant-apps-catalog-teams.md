@@ -1,5 +1,5 @@
 ---
-title: Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
+title: Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Microsoft Teams
 author: ChuckEdmonson
 ms.author: lolaj
 manager: serdars
@@ -10,17 +10,19 @@ ms.reviewer: prem
 description: Instrucciones para la publicación de aplicaciones en el catálogo de aplicaciones de inquilino de los equipos de Microsoft.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2454ad195fbecb25b30218ac156e62d396b4a6dd
-ms.sourcegitcommit: fbcd150e724456ea4521d68cf3acb351e3525e2e
+ms.openlocfilehash: c7e280d0e0034290232010897b34e0e30319bd51
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2018
-ms.locfileid: "26674823"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464215"
 ---
-<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones del inquilino de equipos de Microsoft
+<a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Microsoft Teams
 =======================================================
 
 Puede usar el catálogo de aplicaciones de inquilino de los equipos de Microsoft para probar y distribuir aplicaciones de línea de negocio para su organización. 

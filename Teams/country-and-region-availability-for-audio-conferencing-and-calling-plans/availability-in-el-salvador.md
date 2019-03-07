@@ -9,7 +9,7 @@ ms.assetid: ba39f7c0-3bdd-4cd5-b4bc-dccda2414c3a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 789e505d08e68fdcf6612fe314e9ba5cfa6aa79b
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 145d395bd5ca013c67cac2bdde52e71c933da934
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350693"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464295"
 ---
 # <a name="availability-in-el-salvador"></a>Disponibilidad en El Salvador
 

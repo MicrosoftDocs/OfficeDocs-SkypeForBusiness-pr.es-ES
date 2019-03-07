@@ -9,7 +9,7 @@ ms.assetid: 9e46f068-564b-464b-bd5c-82d92097f45f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 61c255bbbcbf9f7cc2eab14415a7fff6d06c2b73
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9044f3e9f595f3ecb8e536cd2df20f9da9c9a7ac
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351378"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461287"
 ---
 # <a name="toll-free-dialing-restrictions-in-luxembourg"></a>Restricciones de marcado de número gratuito en Luxemburgo
 
@@ -48,7 +48,7 @@ ms.locfileid: "30351378"
    
 ## <a name="related-topics"></a>Temas relacionados
 
-[Restricciones y limitaciones de marcado gratuito](../toll-free-dialing-limitations-and-restrictions.md)
+[Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
 [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
 

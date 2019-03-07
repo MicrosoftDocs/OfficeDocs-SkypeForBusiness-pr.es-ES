@@ -9,7 +9,7 @@ ms.assetid: 14b4e0d3-6add-47a5-b0a2-e80fc5199fce
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: bedc12da81972551fc2743f8552cdee1b93cdbfb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 49bcadc16aab6a6792ae2c57eea5f943ed6208a0
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351757"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465127"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 

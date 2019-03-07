@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo impulsar la adopción de los equipos mediante el uso del producto.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 82956a64e80811efd176f853651aa9db3770afc3
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699715"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459455"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
@@ -28,7 +30,7 @@ La mejor manera para estimular la adopción de los equipos es usar el producto. 
 
 | Nombre del equipo | Nombres de canal propuesto |
 | --------- | ---------------------- |
-| Conozca los equipos | General</br> Diga hi</br> ¿Cómo se hace?</br>Comentarios </br> Ideas para los equipos del futuro </br> Asistencia técnica |
+| Conozca los equipos | General</br> Saludad</br> ¿Cómo se hace?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
 | Implementación de equipos de Microsoft | General <br/> Conocimiento del producto y adopción <br/> Compromiso de negocio <br/> Programa de adopción temprana <br/> Comentarios y perspectivas <br/> Seguridad y cumplimiento de normas <br/> Estrategia y planeación <br/> Incidentes y el estado del servicio <br/> Recursos de aprendizaje <br/> Chat dispensador de agua |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y cómo <br/> Esquina Campeones <br/> Comentarios y soporte técnico <br/> Clientes potenciales de programa <br/> Concentrador sociales |
 

@@ -19,12 +19,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
-ms.openlocfilehash: 26b835162f0db82a7ea4631d8add24dcd9ec79dc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374496"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454000"
 ---
 # <a name="activity-report"></a>Informe de actividad
 
@@ -71,7 +71,7 @@ Cada informe tiene la fecha del momento en que se generó. Normalmente, los info
 Utilice los datos del gráfico interactivo **Usuarios** para comprender las tendencias de uso y ver el número de usuarios únicos que participan en las actividades de conferencia realizadas en su organización. Mostrará el número total de usuarios junto con los tipos de **sesiones de punto a punto**, **organizada**y **Participated** en las sesiones de conferencia.
 ***
 ![Número 5](../images/sfbcallout5.png)<br/>
-Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el diagrama de **actividad** , haga clic en o puntee en **las sesiones de punto a punto**, **organizado**o **Participated** para ver sólo la información relacionada con cada uno de ellos. Si se cambia esta selección, no se cambia la información en la tabla de cuadrícula. 
+Puede filtrar las series que aparecen en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, en el diagrama de **actividad** , haga clic en o puntee en **las sesiones de punto a punto**, **organizado**o **Participated** para ver sólo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información en la tabla de cuadrícula. 
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>
 Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
@@ -81,7 +81,7 @@ Cada gráfico tiene un eje X (horizontal) y un eje Y (vertical).
 En ambos gráficos, el eje X es el intervalo de fechas seleccionado para este informe específico. 
 ***
 ![Número 7](../images/sfbcallout7.png)<br/>
-La tabla muestra un desglose de todas las actividades de conferencia por usuario. Muestra todos los usuarios que disponen de Skype para la empresa asignada a ellas y sus actividades de conferencia. Puede agregar columnas adicionales a la tabla.
+La tabla muestra un desglose de todas las actividades de conferencia por usuario. Muestra todos los usuarios que disponen de Skype para la empresa asignada a ellas y sus actividades de conferencia. Puede agregar columnas a la tabla.
 * **Nombre de usuario** es el nombre del usuario.
 * **Eliminado** indica que se ha quitado la licencia del usuario.<br/><br/>
   > [!NOTE]

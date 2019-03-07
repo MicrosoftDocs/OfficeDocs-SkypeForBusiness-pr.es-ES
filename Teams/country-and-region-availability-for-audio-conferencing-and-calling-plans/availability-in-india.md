@@ -9,7 +9,7 @@ ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para la India los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 5c5ab7100daba2cd67ba7aa6c9006cc352f23dda
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 29e59d72ad6a4c4629b42b5f22d1a04db0c79b3e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350725"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460839"
 ---
 # <a name="availability-in-india"></a>Disponibilidad en India
 

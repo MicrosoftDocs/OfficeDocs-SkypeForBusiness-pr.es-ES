@@ -9,7 +9,7 @@ ms.assetid: 91951367-bb7c-4620-bc23-10e6a0ac58e0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Portugal los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: fe57e80ce4296a0d480c6e7c00e3342964554cad
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 72e580bfb56c8243239814758eb9f5653b35d2b5
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352581"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30465167"
 ---
 # <a name="availability-in-portugal"></a>Disponibilidad en Portugal
 

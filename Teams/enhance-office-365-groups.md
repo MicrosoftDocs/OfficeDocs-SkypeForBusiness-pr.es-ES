@@ -9,15 +9,17 @@ ms.service: msteams
 description: Aprenda a mejorar los grupos de Office 365 con Microsoft Teams invitando a una lista de distribución a un equipo, y agregue grupos de seguridad habilitados para correo y mucho más.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5905ba16a6928b4347db9edb08e5db1c08f0cdb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699270"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30463527"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Office 365 existentes con Microsoft Teams
 =======================================================
@@ -32,7 +34,7 @@ Para ello, los usuarios deben pasar por el flujo de creación de un nuevo equipo
 >La opción **crear un equipo de un grupo existente de Office 365** no estará disponible a menos que se cumplen estas condiciones.
 
 
-Los usuarios también pueden invitar a una lista de distribución a un equipo, y los miembros de esa lista de distribución se agregarán al equipo. Se trata de una sincronización única, así que los cambios que se realicen posteriormente en los miembros del grupo de la lista de distribución no se replicarán en Teams. 
+Los usuarios también pueden invitar a una lista de distribución a un equipo, y los miembros de esa lista de distribución se agregarán al equipo. Se trata de una sincronización única, así que los cambios que se realicen posteriormente en los miembros del grupo de la lista de distribución no se replicarán en Teams. 
 
 ![Capturas de pantalla en secuencia que muestran la invitación de una lista de distribución y sus miembros a un equipo.](media/Enhance_Existing_Office_365_groups_with_Microsoft_Teams_image2.png)
 

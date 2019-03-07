@@ -9,7 +9,7 @@ ms.assetid: d9c0434e-4d95-4cb1-a22a-6fd58933a98a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Israel los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b365d237a07c313f81d265d6dd438ac188073dcf
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 4c3cfd6ea647ca30335782e091bb38f52014019e
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352701"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461431"
 ---
 # <a name="availability-in-israel"></a>Disponibilidad en Israel
 

@@ -12,7 +12,7 @@ ms.service:
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Strat_SB_PSTN
+- M365-collaboration
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
-ms.openlocfilehash: 3a06019f942a5fb670b7ed24ea23ccb77ed238f7
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 17b066aefdd6dc41a55a41e7db1265ba6eebeb6b
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120855"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464735"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -61,4 +61,4 @@ Si desea obtener instrucciones acerca de cómo permitir a los usuarios conectars
 
 [Probar o comprar Audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
     
-[Licencias de complemento de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+[Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

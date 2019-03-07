@@ -6,25 +6,27 @@ manager: serdars
 ms.date: 11/13/2018
 ms.topic: article
 ms.service: msteams
-ms.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 ms.reviewer: lucarras
 search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca1d1a49a749991c97e2e8807557c457f1b67f6
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788960"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458799"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
 
 Fichas permiten a los miembros del equipo tener acceso a servicios en un lienzo dedicado dentro de un canal o en un chat. Esto permite que el equipo a trabajar directamente con las herramientas y los datos y tener conversaciones sobre ellos en el contexto del canal o chat. 
 
-Los propietarios y los miembros del equipo pueden agregar fichas a un canal, chat privado y conversaciones en grupo para ayudar a integrar sus servicios en la nube. Se pueden agregar fichas para ayudar a los usuarios fácilmente obtener acceso y administrar los datos que necesita o interactúan con el mayor número. Esto puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Secuencia de Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) donde publicar vídeos de aprendizaje.
+Los propietarios y los miembros del equipo pueden agregar pestañas adicionales a cada canal para integrar mejor sus servicios en la nube. Se pueden agregar fichas para ayudar a los usuarios fácilmente obtener acceso y administrar los datos que necesita o interactúan con el mayor número. Esto puede ser un informe de Power BI, un panel o incluso un canal de vídeo de [Secuencia de Microsoft](https://go.microsoft.com/fwlink/?linkid=855785) donde publicar vídeos de aprendizaje.
 
 ![Tres capturas de pantalla con contenido diverso en las fichas.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image4.png)
 

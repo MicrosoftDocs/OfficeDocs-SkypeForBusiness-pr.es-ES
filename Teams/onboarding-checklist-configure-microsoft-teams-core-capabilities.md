@@ -1,5 +1,5 @@
 ---
-title: Lista de comprobación de incorporación para configurar la funcionalidad básica de Microsoft Teams
+title: Lista de comprobación de incorporación para configurar las funciones principales de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Siga el núcleo, las tareas pendientes y las actividades en esta lista de comprobación al configurar los equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7038d521878e03bd982e88bc8a299d2563e73d34
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: f9f703f8eae477093bfd3efa0bd986992940d697
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120360"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462271"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar la funcionalidad básica de Microsoft Teams
 

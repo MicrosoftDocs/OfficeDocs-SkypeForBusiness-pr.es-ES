@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Traer la incorporación personal de soporte técnico para la fase de experimento de la adopción de los equipos.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 21e93c62a65b46b78c143d357a88ee2a789007bd
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: fa8909e0179975554ca4375ad56fef63dabc5236
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699736"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464375"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Incorporar compatibilidad con Microsoft Teams
 

@@ -9,7 +9,7 @@ ms.assetid: 931c6b7a-3ea7-421f-a321-860da3e16273
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bahrein los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 0a6da7a36149db3546762081c8d0c7d5b5914d9a
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 046fbabdb0f6cbacdc2f93848c0daef4c4e3f701
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353349"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461775"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilidad en Baréin
 

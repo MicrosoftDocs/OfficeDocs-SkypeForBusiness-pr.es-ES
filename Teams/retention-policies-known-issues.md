@@ -10,15 +10,17 @@ ms.reviewer: anach
 description: Lista actual de problemas conocidos de las directivas de retención de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Strat_MT_TeamsAdmin
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b6d71a1b2422dfadfbc7ae0fb87e607fd288152
-ms.sourcegitcommit: 5e8d04bbc3eb1a57fed893e5ff929674b4297851
+ms.openlocfilehash: 411ef4bf12d55af0b913443219a00f3f56c7eba2
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "25004589"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30461191"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problemas conocidos de las directivas de retención en Microsoft Teams
 

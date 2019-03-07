@@ -9,7 +9,7 @@ ms.assetid: cde2f823-753a-4202-8ca6-081ac056b5a5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Nueva Zelanda los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 6c778b8a5b12eb6deb5760fbf58ea1eec4530f8c
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 81894289816a7930e204cd39c8f2050f85186083
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352349"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30464711"
 ---
 # <a name="availability-in-new-zealand"></a>Disponibilidad en Nueva Zelanda
 

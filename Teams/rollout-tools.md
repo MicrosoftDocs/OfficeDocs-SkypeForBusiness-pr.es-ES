@@ -9,15 +9,17 @@ ms.service: msteams
 description: Busque herramientas que le ayudarán con el lanzamiento de Microsoft Teams, como plantillas de correo electrónico, guías de introducción, el Kit para el éxito del cliente y mucho más.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94c35dbf18b3afdeb62cb4bb463e040f38f37f65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532296"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30458839"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Herramientas para ayudar con el lanzamiento de Microsoft Teams
 =================================================

@@ -9,7 +9,7 @@ ms.assetid: 42fd0274-d0d8-4fb1-abfe-6bc42881dac8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- Adm_Skype4B_Online
+- M365-collaboration
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Chile los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cc4cd08f497f2120a1afde33bdcc368944d74c82
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: c104853384bd83fdea96fa04cd81b97e83a28c1d
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352477"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460039"
 ---
 # <a name="availability-in-chile"></a>Disponibilidad en Chile
 

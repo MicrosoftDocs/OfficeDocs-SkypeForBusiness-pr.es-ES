@@ -12,15 +12,17 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo aumentar el conocimiento e implementar un programa de aprendizaje para la adopción de Microsoft Teams.
 ms.custom: Adopt
-ms.collection: Teams_ITAdmin_Adopt
+MS.collection:
+- Teams_ITAdmin_Adopt
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8da00716e83d1b227bdf2c4ff66b1c026aa8e55c
-ms.sourcegitcommit: 160ced7013c1c46595c4362c2f32c5769b082294
+ms.openlocfilehash: bf3437d07bef4b068f68ba6607e664aa25c99605
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "26699760"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459591"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
@@ -48,7 +50,7 @@ Use nuestros recursos para ofrecer aprendizaje para usuarios finales en personas
 - [Formación presencial para el usuario final para los equipos](instructor-led-training-teams-landing-page.md)
 - [Administrador de recursos de aprendizaje para los equipos](itadmin-readiness.md)
 - [Aprendizaje para usuarios finales en línea](enduser-training.md)
-- [Café en la formación en línea en la nube para Campeones & los profesionales de TI](https://aka.ms/CoffeeintheCloud) 
+- [Café en la nube de formación en línea para Campeones & TI profesionales de TI](https://aka.ms/CoffeeintheCloud) 
 - [Día en las hojas de datos básicos de aprendizaje de vida Office 365](https://aka.ms/O365AdoptionTools)
 
 ## <a name="measure-and-share-success"></a>Medir y compartir el éxito
