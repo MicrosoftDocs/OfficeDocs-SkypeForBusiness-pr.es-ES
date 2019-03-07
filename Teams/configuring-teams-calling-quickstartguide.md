@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d2fd7a9b999d98109e732b3bdbbba16f26e3bf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7cd8f5a2d0402418bb2a8c0e5a2c20bc95aeef68
+ms.sourcegitcommit: 2dd1369e5112b0c4ed7c6b0be8a17489b71f494a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460575"
+ms.locfileid: "30469749"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -48,67 +48,28 @@ Para habilitar la ficha de **Teclado de marcado** en los equipos y permitir que 
 > [!NOTE]
 > También puede usar el enrutamiento directo para permitir que a los usuarios obli y recibir llamadas de RTC. Para obtener información sobre cómo configurar el enrutamiento directo, leer la [Configuración de enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure).
 
-## <a name="teams-interop-policy-configuration"></a>Configuración de la directiva de interoperabilidad de Microsoft Teams
-Para habilitar los equipos para empezar a recibir llamadas, que necesitará para actualizar la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos mediante el [Centro de administración de equipos de Microsoft](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el Skype para la empresa [ `*-CsTeamsUpgradePolicy` y `*-CsTeamsInteropPolicy` ](https://docs.microsoft.com/powershell/module/skype) cmdlets, para redirigir las llamadas a los equipos.
+## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Uso de TeamsUpgradePolicy para control donde land llamadas
+Para controlar si las llamadas entrantes (y chats) land en los equipos o Skype para la empresa, los administradores usan TeamsUpgradePolicy, mediante cualquiera de [Centro de administración de equipos de Microsoft](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el [Skype para la empresa](https://docs.microsoft.com/powershell/module/skype) cmdlets.
 
-Para obtener más información acerca de la directiva de actualización de los equipos y la directiva de interoperabilidad de los equipos, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype).
 
-> [!TIP]
-> Para buscar los cmdlets de PowerShell que necesita, escriba "CsTeamsUpgradePolicy" o "CsTeamsInteropPolicy" en el cuadro **filtro** en el [Skype para obtener documentación sobre el cmdlet de PowerShell de negocio](https://docs.microsoft.com/powershell/module/skype).
+La configuración predeterminada de TeamsUpgradePolicy es el modo islas, que está diseñado para asegurarse de que los flujos de trabajo no se interrumpen durante una implementación de los equipos de negocio existentes. De forma predeterminada, VoIP, RTC y las llamadas federadas a los usuarios se seguirán dirigiendo a Skype Empresarial hasta que actualice la directiva para permitir las llamadas entrantes en Microsoft Teams.  Cuando los destinatarios se encuentran en modo de islas:
 
-### <a name="default-teams-upgrade-and-interop-policies"></a>Valor predeterminado de los equipos de las directivas de actualización y la interoperabilidad
-Microsoft Teams tiene una configuración de directiva predeterminada diseñada para garantizar que no se interrumpan los flujos de trabajo empresariales existentes durante el proceso de implementación de Microsoft Teams. De forma predeterminada, VoIP, RTC y las llamadas federadas a los usuarios se seguirán dirigiendo a Skype Empresarial hasta que actualice la directiva para permitir las llamadas entrantes en Microsoft Teams. De este modo se garantiza que no se producirán interrupciones no deseadas en los servicios de voz cuando inicie el proyecto piloto de Microsoft Teams o comience la implementación.
+ - VOIP entrante llama a ese originadas en Skype para la empresa siempre land en Skype del destinatario para clientes empresariales.
+ - VOIP entrante llama a se ha originado en el mundo de los equipos en los equipos, *Si el remitente y el destinatario se encuentran en el mismo arrendatario*.
+ - Entrante federados VOIP (independientemente del cliente que se origina) y llamadas RTC siempre land en Skype del destinatario para clientes empresariales.
+ 
+Para asegurarse de que entrante VOIP y RTC llama siempre land en los equipos cliente de un usuario, actualizar el modo de coexistencia del usuario para que sea TeamsOnly (lo que significa que les asigne la instancia de "UpgradeToTeams" de TeamsUpgradePolicy.  Para obtener más información sobre los modos de coexistencia y TeamsUpgradePolicy, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-Directiva de actualización de forma predeterminada se mantiene en modo heredado que respeta la directiva de interoperabilidad de los equipos para determinar dónde están los chats y las llamadas deben enrutarse--los equipos de los equipos o Skype para la empresa.
+**NOTAS**
+ - Skype para teléfonos IP empresarial va a recibir llamadas, incluso si el usuario está en modo de TeamsOnly.  
+ - Usuarios que ya han aprovisionados con el sistema telefónico y llamar a los planes de licencias para su uso con Skype para profesionales en línea (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tendrá la ficha llamadas habilitada en los equipos y puede colocar las llamadas RTC salientes desde Equipos sin tener que realizar ninguna acción administrativa de los administradores.
 
-> [!NOTE]
-> Directiva de actualización de los comportamientos de los equipos y directiva de interoperabilidad de los equipos cambiarán pronto como se describe en la [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-La directiva de interoperabilidad de Microsoft Teams tiene la siguiente configuración predeterminada:
+### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar usuarios para recibir todos los entrantes VOIP y RTC llama en los equipos
+Para asegurarse de que los usuarios reciben todas las llamadas entrantes de VOIP y RTC en los equipos, establezca el modo de coexistencia del usuario como TeamsOnly en el centro de administración de Microsoft Teams o usar Skype para la sesión remota de Windows PowerShell de negocio para actualizar TeamsUpgradePolicy de la siguiente manera:
 
-    Identity                   : Global
-    AllowEndUserClientOverride : False
-    CallingDefaultClient       : Default
-    ChatDefaultClient          : Default
+    Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
-Los comportamientos de la configuración predeterminada son los siguientes:
-* **Para los clientes existentes de Skype Empresarial**, esta directiva está diseñada para garantizar que las llamadas de Skype Empresarial se dirijan a Skype Empresarial y las de Microsoft Teams a Microsoft Teams. RTC y las llamadas federadas se dirigirán a Skype Empresarial si se aplica esta directiva.
-* **Para los clientes sin Skype Empresarial**, si se aplica, además de llamadas entre usuarios de Microsoft Teams, solo se podrán realizar llamadas RTC salientes en Microsoft Teams. Tendrá que modificar la directiva de interoperabilidad de Microsoft Teams asignada a sus usuarios para que puedan recibir llamadas RTC en Microsoft Teams.
-
-> [!NOTE]
-> Los usuarios aprovisionados con licencias de Sistema telefónico y Planes de llamada para el uso con Skype Empresarial Online que tengan configurada la directiva de interoperabilidad global predeterminada de Microsoft Teams tendrán habilitada la ficha Llamadas en Microsoft Teams y podrán realizar llamadas RTC salientes desde la aplicación sin que un administrador tenga que realizar ninguna acción específica.
-
-## <a name="configuring-teams-to-receive-inbound-pstn-calls"></a>Configurar Microsoft Teams para recibir llamadas RTC entrantes
-Para recibir las llamadas RTC entrantes en los equipos, debe configurar los equipos como el valor predeterminado al llamar a la aplicación mediante la aplicación de directiva de actualización de los equipos con la directiva de interoperabilidad de los equipos correspondiente que establece `CallingDefaultClient` parámetro para los equipos.
-
-> [!IMPORTANT]
-> Recomendamos aplicar esta configuración a un conjunto inicial de usuarios para explorar las excitantes nuevas funcionalidades de llamada que ofrece Microsoft Teams antes de realizar cambios en un grupo más grande o en toda la organización.
-
-Si elige seguir usando la directiva heredada de actualización de los equipos, use la siguiente directiva preconfigurada de interoperabilidad de los equipos para enrutar las llamadas RTC entrantes a los equipos:
-
-    Identity                   : Tag:DisallowOverrideCallingTeamsChatTeams
-    AllowEndUserClientOverride : False
-    CallingDefaultClient       : Teams
-    ChatDefaultClient          : Teams
-
-Si decide utilizar la directiva de actualización de los equipos actualizada, debe asignar el modo de sólo los equipos a los usuarios.
-
-Los comportamientos de la directiva anterior son los siguientes:
-* **Para los clientes existentes de Skype Empresarial**, esta directiva está diseñada para redirigir las llamadas entrantes a Microsoft Teams. Esto afecta tanto a las llamadas VoIP (desde Microsoft Teams y Skype Empresarial) como a las RTC. 
-* **Para los clientes sin Skype Empresarial**, al aplicar esta directiva, las llamadas RTC se recibirán en Microsoft Teams.
-
-> [!WARNING]
-> Actualmente, cambiar `CallingDefaultClient` a Teams afectará también a las llamadas a teléfonos IP de Skype Empresarial. Las llamadas entrantes no se recibirán en los teléfonos y solo sonarán en los clientes de Microsoft Teams. Consulte la [Guía básica de 365 de Microsoft](https://aka.ms/O365Roadmap) para obtener información acerca de la compatibilidad con los teléfonos SIP certificadas existentes.
-
-### <a name="how-to-configure-users-to-receive-pstn-calls-in-teams"></a>Cómo configurar usuarios para recibir RTC llama en los equipos
-Cuando se usa la directiva heredada de actualización de los equipos, aplicar la directiva de interoperabilidad de los equipos como se describió anteriormente a través de Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
-
-    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
-
-Si decide usar el modo de sólo los equipos, puede cambiar el modo de coexistencia del usuario a sólo los equipos a través del centro de acmin Teams Microsoft o a través de un Skype para la sesión remota de Windows PowerShell de negocio para redirigir las llamadas a los equipos:
-
-    Grant-CsTeamsUpgradePolicy -PolicyName tag:UpgradeToTeams -Identity user@contoso.com
-    Grant-CsTeamsInteropPolicy -PolicyName tag:DisallowOverrideCallingTeamsChatTeams -Identity user@contoso.com
 
 ## <a name="see-also"></a>Vea también
 [Configurar Planes de llamada](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
@@ -119,4 +80,3 @@ Si decide usar el modo de sólo los equipos, puede cambiar el modo de coexistenc
 
 [Referencia de cmdlets de PowerShell para Skype Empresarial](https://docs.microsoft.com/powershell/module/skype)
 
-[Referencia de cmdlets de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams)
