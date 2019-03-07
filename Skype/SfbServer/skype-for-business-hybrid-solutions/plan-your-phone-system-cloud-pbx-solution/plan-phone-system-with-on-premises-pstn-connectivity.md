@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
-ms.openlocfilehash: 234c2966cb887c0adfdd15f518479ad5e363fe73
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
+ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210632"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30454046"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
 
 Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
 
-Este contenido es relevante si ya dispone de Skype para Business Server o Lync Server 2013 implementado localmente. Para otros escenarios, vea [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](plan-your-phone-system-cloud-pbx-solution.md).
+Este contenido es relevante si ya dispone de Skype para Business Server o Lync Server 2013 implementado localmente. Para otros escenarios, consulte [soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions).
 
  Sistema telefónico en Office 365 con conectividad de RTC local le permite aprovechar las capacidades de sistema telefónico (PBX en la nube) para los usuarios. Esto puede resultarle útil en los escenarios siguientes:
 

@@ -126,6 +126,7 @@
 ## [Tutorial: Reuniones en Teams](Tutorial-Meetings-in-Teams.yml)
 ## [Administrar directivas de reunión](meeting-policies-in-teams.md)
 ## [Administrar la configuración de las reuniones](meeting-settings-in-teams.md)
+## [Personalizar invitaciones a reuniones](customize-meeting-invitations-in-teams.md)
 ## [Correos electrónicos que se envían a los usuarios cuando cambia la configuración](emails-sent-to-users-when-their-settings-change-in-teams.md) 
 ## [Permitir que los usuarios registren su nombre cuando se unan a una reunión](enable-users-to-record-their-name-when-they-join-a-meeting-in-teams.md)
 ## [Activar o desactivar los anuncios de entrada y salida para las reuniones](turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams.md)
@@ -203,7 +204,7 @@
 <!-- ============================================================ -->
 
 ### Referencia
-#### [Idiomas compatibles con Audioconferencia](audio-conferencing-supported-languages.md)
+#### [Idiomas admitidos para Audioconferencia](audio-conferencing-supported-languages.md)
 
 #### [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md)
 #### [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
@@ -315,10 +316,10 @@
 #### [Establecer la identificación de llamadas de un usuario](/SkypeForBusiness/what-are-calling-plans-in-office-365/set-the-caller-id-for-a-user?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### Operadores automáticos y colas de llamadas 
 #### [¿Qué son los operadores automáticos de sistema telefónico](what-are-phone-system-auto-attendants.md)
-#### [Configurar un operador automático para el sistema telefónico](create-a-phone-system-auto-attendant.md)
+#### [Configurar un operador automático para el Sistema telefónico](create-a-phone-system-auto-attendant.md)
 #### [Ejemplo de pequeña empresa - configurar un operador automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md)
-#### [Crear una cola de llamadas para el sistema telefónico](create-a-phone-system-call-queue.md)
+#### [Crear una cola de llamadas para el Sistema telefónico](create-a-phone-system-call-queue.md)
 #### [Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos](answer-auto-attendant-and-call-queue-calls.md)
 ### [Estacionamiento y recuperación](call-park-and-retrieve.md)
 ### [Uso compartido de llamada y el grupo de atención de llamadas](call-sharing-and-group-call-pickup.md)
@@ -329,7 +330,7 @@
 ### [Configurar planes de llamada para la organización](set-up-calling-plans.md)
 ### [Guía de inicio rápido: configuración de planes de llamada](configuring-teams-calling-quickstartguide.md)
 
-## [Enrutamiento directo de teléfono del sistema](direct-routing-landing-page.md)
+## [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 ### [Planear el enrutamiento directo](direct-routing-plan.md)
 ### [Configurar el enrutamiento directo](direct-routing-configure.md)
 ### [Migrar a enrutamiento directo](direct-routing-migrating.md)
@@ -470,7 +471,7 @@
 #### [Administración de números de teléfono para EE. UU.](manage-phone-numbers-for-your-organization/phone-number-management-for-the-u-s.md)
 
 
-### [Restricciones y limitaciones de marcado gratuito](toll-free-dialing-limitations-and-restrictions.md)
+### [Restricciones y limitaciones de marcado de número gratuito](toll-free-dialing-limitations-and-restrictions.md)
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarús](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
@@ -681,7 +682,7 @@
 ### [Gobierno de Microsoft Education preguntas más frecuentes para los administradores](plan-teams-governance-edu.md)
 
 ## Equipos de los trabajadores de la firstline
-### [Microsoft StaffHub que deben retirarse](microsoft-staffhub-to-be-retired.md)
+### [Se retirará Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
 ### [Administrar la aplicación de turnos para su organización en los equipos](manage-the-shifts-app-for-your-organization-in-teams.md)
 ### [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
 

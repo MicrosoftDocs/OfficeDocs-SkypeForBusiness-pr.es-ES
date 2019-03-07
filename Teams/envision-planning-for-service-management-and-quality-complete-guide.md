@@ -10,15 +10,17 @@ ms.reviewer: rowille
 description: Ofrezca a los usuarios una experiencia de gran calidad en Teams al administrar el estado de los servicios, las redes y los puntos de conexión, y definir los roles operativos y de experto en calidad.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e30eed7432a628bbd4951867e77883143f9290eb
-ms.sourcegitcommit: 327fe807b461aff18b06449f06b9e51ce393c4bc
+ms.openlocfilehash: 5aba748798870193e615eea56331f15cf0aaa530
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "29964461"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30462031"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan para la calidad y la administración de servicios
 

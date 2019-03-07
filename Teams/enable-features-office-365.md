@@ -12,15 +12,17 @@ description: Aprenda a activar o desactivar las aplicaciones de Microsoft Teams 
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b9da36d938a5b6e55920826b10f1ac2c1f528fe3
-ms.sourcegitcommit: c2e4e9b59183440d6aa903832d6d6a1769ccf57d
+ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "30274611"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30460239"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 

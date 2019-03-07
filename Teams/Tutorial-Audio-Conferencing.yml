@@ -17,14 +17,15 @@ metadata:
   ms.collection:
   - Teams_ITAdmin_PracticalGuidance
   - Teams_ITAdmin_Training
+  - M365-collaboration
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: 5bf7d77f521e39ab91e54b8a9fa075842d9aa41b
-  ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+  ms.openlocfilehash: 441e1166547ac17842704df47d9e992d892de87f
+  ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
   ms.translationtype: MT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 01/17/2019
-  ms.locfileid: "28694926"
+  ms.lasthandoff: 03/07/2019
+  ms.locfileid: "30462511"
 items:
 - durationInMinutes: 1
   content: >
