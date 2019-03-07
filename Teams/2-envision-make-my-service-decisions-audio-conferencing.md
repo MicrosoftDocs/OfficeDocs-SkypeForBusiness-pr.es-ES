@@ -10,15 +10,17 @@ search.appverid: MET150
 ms.reviewer: rowille
 description: Obtenga información sobre las reuniones, las licencias y la disponibilidad, configurar las opciones de puente de conferencia, adquirir o transferir los números de teléfono, elija inquilino planes de marcado.
 localization_priority: Normal
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ba2faa36cbb1a745ada776d40113aab80790b728
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
+ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120719"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30459151"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
