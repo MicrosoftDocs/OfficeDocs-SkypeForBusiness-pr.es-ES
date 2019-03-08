@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer un usuario reunión de identificador de conferencia en Skype para profesionales en línea y get contiene vínculos a las herramientas de actualización y migración de la reunión. '
-ms.openlocfilehash: d569dfb015db5cea79c57233ba455adfd90a3182
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
+ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887549"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "30475799"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un identificador de conferencia para un usuario en Skype para profesionales en línea
 
@@ -35,7 +35,7 @@ ms.locfileid: "23887549"
 Un identificador de conferencia dinámico se incluye en la parte inferior de las invitaciones junto con los números de teléfono de acceso telefónico que pueden usarse por los autores de llamadas a llama a una reunión de la reunión. Cuando el usuario marca el número de teléfono, el operador automático de la reunión le preguntará el autor de la llamada para escribir este identificador de conferencia, por lo que pueden asistir a la reunión.
   
 > [!NOTE]
-> Si su proveedor de conferencia es Microsoft, los identificadores de conferencia de los usuarios se establecen en dinámico sólo de forma predeterminada. Lamentablemente, no hay ninguna capacidad para cambiar en la Skype para el centro de administración de negocio o el uso de Windows Powershell para convertirse en estáticos, ya que esta es ahora no compatible. ID de conferencia se establece automáticamente solo para Skype para usuarios profesionales habilitado para conferencias de Audio. 
+> Si su proveedor de conferencia es Microsoft, los identificadores de conferencia de los usuarios se establecen en sólo dinámico. No se puede cambiar. ID de conferencia se establece automáticamente solo para Skype para usuarios profesionales habilitado para conferencias de Audio. 
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Restablecer el identificador de conferencia para un usuario
    
