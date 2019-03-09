@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4833a36b08d3acc4b3cbe7ffaf2eaa4726fe0c82
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458943"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493984"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -150,4 +150,4 @@ Aplicación de escritorio de Microsoft Teams admite AppLocker.  Para obtener má
 
 Como cliente de Office 365, el usuario posee y controla sus propios datos. Microsoft no usa los datos para ninguna otra finalidad que proporcionarle el servicio para el que se ha suscrito. Como proveedores de servicios, no examinamos el correo electrónico, los documentos o los equipos para enviar publicidad o para otras finalidades que no estén relacionadas con el servicio. Microsoft no tiene acceso al contenido cargado. Tal como ocurre en OneDrive para la Empresa y SharePoint Online, los datos de los clientes permanecen en el inquilino.
 
-Consulte más detalles sobre nuestra información de confianza y seguridad en el [Centro de confianza de Office 365](https://go.microsoft.com/fwlink/?linkid=855779). Microsoft Teams sigue los mismos principios y directrices que el Centro de confianza de Office 365.
+Desproteger más información acerca de nuestra confianza y la seguridad relacionadas con la información en el [Centro de confianza de Microsoft](https://microsoft.com/trustcenter). Los equipos se sigue las mismas instrucciones y principios como la Center Trust Microsoft.

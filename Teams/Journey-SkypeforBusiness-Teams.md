@@ -10,17 +10,18 @@ description: Use un marco cuyo éxito ya se ha demostrado para realizar la trans
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+F1keywords: ms.teamsadmincenter.dashboard.widget.upgrade.opt-in
 MS.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41c026712370ccf6aa3b2b8819bd0e82c9b8bf83
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d5749700eb314444398111150f1ac842466f7f90
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460175"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494096"
 ---
 # <a name="skype-for-business-to-microsoft-teams-upgrade"></a>Actualización de Skype Empresarial a Microsoft Teams
 

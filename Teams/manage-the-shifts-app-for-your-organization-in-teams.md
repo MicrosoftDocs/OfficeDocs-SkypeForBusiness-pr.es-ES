@@ -3,7 +3,7 @@ title: Administrar la aplicación Turnos para su organización en Microsoft Team
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
-ms.date: 1/10/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5dd05bf1485460bfd94ca3b33c5134084176e1fe
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cae03a4388a1555d7a2cc608532fd84a7587678f
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462886"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494128"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 

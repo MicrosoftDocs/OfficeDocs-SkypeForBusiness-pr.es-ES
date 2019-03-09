@@ -17,13 +17,14 @@ localization_priority: Normal
 search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
+- ms.teamsadmincenter.messagingpolicies.settings.chat
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: b30b14ef8db70a6d8d88d4413a82fd1d672da13b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 69097888038699b8d30084598fcf411fe0f97dc2
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465303"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494104"
 ---
 # <a name="what-are-messaging-policies-in-teams"></a>¿Cuáles son las directivas de mensajería de Teams?  
 

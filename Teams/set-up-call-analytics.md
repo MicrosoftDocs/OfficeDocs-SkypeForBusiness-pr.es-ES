@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Configurar y usar el análisis de llamada para identificar y solucionar problemas de Skype para profesionales y Microsoft Teams problemas de calidad de llamada.
-ms.openlocfilehash: e54668afc6e71b519f1656443a25e17274b22fb2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 97faee554bd4a4ea8b88226d12cb675fab51e114
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462836"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494224"
 ---
 # <a name="set-up-call-analytics"></a>Configurar el Análisis de llamadas
 
@@ -51,7 +51,7 @@ Como un equipos o Skype para administración en línea de negocio, puede usar el
 ## <a name="set-call-analytics-permissions"></a>Establecer permisos de análisis de llamadas
 <a name="BKMK_SetCAPerms"></a>
 
-Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto del centro de administración de Microsoft Teams.
+Como el administrador tiene acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto del centro de administración de Microsoft Teams.
 
 > [!NOTE]
 > La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.

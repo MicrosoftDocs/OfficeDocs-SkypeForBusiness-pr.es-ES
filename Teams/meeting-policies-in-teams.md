@@ -16,13 +16,17 @@ appliesto:
 - Microsoft Teams
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
+- ms.teamsadmincenter.meetingpolicies.audioandvideo
+- ms.teamsadmincenter.meetingpolicies.contentsharing
+- ms.teamsadmincenter.meetingpolicies.general
+- ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: a7b7cc9d6aa0ba10583f872d8c542152f908b551
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462655"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494088"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 

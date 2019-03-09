@@ -15,14 +15,15 @@ MS.collection:
 description: Obtenga información sobre cómo se carga a un sitio.
 ms.custom:
 - NewAdminCenter_Update
+f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5267f419fd61bd492a904dd358b930e2d55d6b1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462639"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494080"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================

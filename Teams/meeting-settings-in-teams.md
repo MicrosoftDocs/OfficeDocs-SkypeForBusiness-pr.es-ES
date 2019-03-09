@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración para las reuniones de los equipos que los usuarios programar en la organización.
-ms.openlocfilehash: ad48e44ef475d3643444cfb570e81d8224117133
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462647"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494256"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -80,7 +80,7 @@ Si está utilizando de calidad de servicio [(QoS)](qos-in-teams.md) para dar pri
 
     ![reunión-configuración-network.png] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red para las reuniones de los equipos en el centro de administración de equipos de Microsoft")
 
-    - Para permitir que los marcados de DSCP que se usará para QoS, activar **marcadores de insertar calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienen la opción de utilizar marcadores o no, no se puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más marcadores DSCP en, consulte [Seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
+    - Para permitir que los marcados de DSCP que se usará para QoS, activar **marcadores de insertar calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Sólo tienen la opción de utilizar marcadores o no; no se puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más marcadores DSCP en, consulte [Seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Para especificar intervalos de puertos, junto al **Seleccionar un rango de puerto para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos inicial y final de audio, vídeo y uso compartido de la pantalla. Si selecciona esta opción es necesario para implementar QoS.
     > [!IMPORTANT]
     > Si selecciona **utilizar automáticamente los puertos disponibles**, disponibles puertos entre 1024 y 65535 se usan. Use esta opción sólo cuando no la implementación de QoS.

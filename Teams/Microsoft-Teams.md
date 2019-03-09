@@ -4,12 +4,17 @@ hide_bc: true
 title: Documentación técnica de Microsoft Teams
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
-ms.openlocfilehash: a68d3c6c7fe5fbe3a78af76e95672d10b797638d
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+f1keywords:
+- ms.teamsadmincenter.apppolicies.overview
+- ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
+- ms.teamsadmincenter.dashboard.widget.upgrade.complete
+- ms.teamsadmincenter.orgwidesettings.holidays.overview
+ms.openlocfilehash: 1d30744f71683b7681ad738938a714d066b31c4a
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120302"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30493590"
 ---
 <div id="main" class="v2">
     <div class="container">

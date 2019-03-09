@@ -4,7 +4,7 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 audience: Admin
-ms.date: 10/02/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c0252d3bf8420711d67aec33aab1041cfe7eb1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
+ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463135"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "30512992"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================

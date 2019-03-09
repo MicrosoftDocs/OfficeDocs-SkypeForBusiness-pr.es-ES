@@ -10,17 +10,20 @@ description: Plan de acción de diez paso acelerado de actualización de Skype p
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
+f1keywords:
+- ms.teamsadmincenter.dashboard.widget.upgrade.opt-out
+- ms.teamsadmincenter.dashboard.widget.upgrade.scheduled
 MS.collection:
 - Teams_ITAdmin_JourneyFromSfB
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1cdc1a9de03256698d2cc06defb713cb4e394a84
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460207"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494168"
 ---
 <a name="about-upgrade-basic"></a>
 

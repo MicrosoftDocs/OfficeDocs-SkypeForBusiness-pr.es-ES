@@ -21,15 +21,16 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.lync.lac.ToolsCallQualityDashboard
+- ms.teamsadmincenter.directrouting.cqd
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: ff6e878a08dacf0fe206d68759ca23345b57301d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 58d1fe6db8108c2660b67fd072878aa1d2b81798
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461039"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494176"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 

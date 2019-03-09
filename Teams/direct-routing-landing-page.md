@@ -1,5 +1,5 @@
 ---
-title: Enrutamiento directo de teléfono del sistema
+title: Enrutamiento directo del Sistema telefónico
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,16 +11,17 @@ ms.collection:
 - M365-voice
 ms.reviewer: crowe
 search.appverid: MET150
+F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de destino de enrutamiento directo
 appliesto: Microsoft Teams
-ms.openlocfilehash: 6aeff0f79dfbc6cd7b3ba3cddefee382673d24eb
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
+ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353269"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "30494064"
 ---
-# <a name="phone-system-direct-routing"></a>Enrutamiento directo de teléfono del sistema
+# <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido utilizar su propio operador de telefonía para la conectividad pública red de telefónica conmutada (RTC) mediante el uso de enrutamiento directo de teléfono del sistema. Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
 
