@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 91951367-bb7c-4620-bc23-10e6a0ac58e0
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Portugal los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 72e580bfb56c8243239814758eb9f5653b35d2b5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70b452d41b7ea108ca5223e755fcea1e128185bf
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465167"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543122"
 ---
 # <a name="availability-in-portugal"></a>Disponibilidad en Portugal
 

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 931c6b7a-3ea7-421f-a321-860da3e16273
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bahrein los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 046fbabdb0f6cbacdc2f93848c0daef4c4e3f701
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 993e4399b69c9c327469a670457778c2927e5530
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461775"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543066"
 ---
 # <a name="availability-in-bahrain"></a>Disponibilidad en Baréin
 

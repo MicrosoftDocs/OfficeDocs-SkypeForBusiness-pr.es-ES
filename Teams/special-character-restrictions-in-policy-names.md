@@ -6,9 +6,7 @@ manager: serdars
 ms.reviewer: jastark
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
-- skype-for-business-online
+ms.service: msteams
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Help
@@ -22,12 +20,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.teamsadmincenter.policies.naming.error
 description: Vea ¿qué problemas hay con caracteres especiales en los nombres de las directivas y qué puede hacer para solucionarlo.
-ms.openlocfilehash: 3d2bc6f253f048dc07ab99111df3bc1d47788795
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 40cf70b61c8e939c2a1096825e83c676083b9950
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460159"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541059"
 ---
 # <a name="what-are-the-special-character-restrictions-in-teams-policies"></a>¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: a4470c6b-38a2-4b28-9780-91e6a214145c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Malta los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 43e4edd778cbfd0bf7a9a00080776b7bc8efd471
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17cfbb08f929b4b79b93f4c230367f415aecc298
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462183"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543355"
 ---
 # <a name="availability-in-malta"></a>Disponibilidad en Malta
 

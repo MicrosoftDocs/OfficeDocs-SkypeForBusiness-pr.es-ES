@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información acerca de los números de teléfono diferentes que se usan en Skype para profesionales en línea.
-ms.openlocfilehash: fa2a33086d832cc7d35afa6da59f431ebae47b19
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 9adedf15bbedda7aaf03645cf6eaa253e59eadc4
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352789"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542986"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 

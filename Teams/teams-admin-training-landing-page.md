@@ -9,14 +9,17 @@ ms.assetid: ''
 ms.service: msteams
 ms.tgt_pltfrm: na
 ms.devlang: na
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Training
 ms.topic: landing-page
 ms.author: dearbeen
-ms.openlocfilehash: dd5b9a3955c3b647d9823c29d2d871800a144223
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 84d409f18fb6e6f4832ad4f5912f2b50fef05736
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532641"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540947"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -88,7 +91,7 @@ Obtenga información sobre cómo administrar los equipos de la organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Solución de problemas con Skype Empresarial Online</h3>
+                        <h3>Solución de problemas en Skype for Business Online</h3>
                     </div>
                 </div>
             </div>

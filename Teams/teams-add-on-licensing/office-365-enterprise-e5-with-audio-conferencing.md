@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre cómo comprar para planes de Office 365 Enterprise E5, características y licencias adicionales. '
-ms.openlocfilehash: a39f5eacf59a47814a4537edcdda5a78640981cd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 58e481bce72596bd7e731b73e78cad11bfff6c30
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463223"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541027"
 ---
 # <a name="office-365-enterprise-e5"></a>Office 365 Enterprise E5
 

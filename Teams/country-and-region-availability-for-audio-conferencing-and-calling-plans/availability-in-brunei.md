@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: a4921bd0-d6b4-4b98-b5c9-a2bb9c830d93
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 50d091ca6ba22e20cef5f0e7d25032768ede8326
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 437c5f62eff5d1fd015185feae6b2a803ad7f63d
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463263"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543202"
 ---
 # <a name="availability-in-brunei"></a>Disponibilidad en Brunéi
 

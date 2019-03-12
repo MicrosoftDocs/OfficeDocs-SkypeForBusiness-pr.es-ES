@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 1bf00fc9-342d-4244-822d-0a3e8f20ea27
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Paraguay los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 690fe0e8b9aa4dcf16cae25bf77c2d5e002fea9d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 8154f326f2626a3f2705ebbccfc4d6427f1a903a
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461279"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543170"
 ---
 # <a name="availability-in-paraguay"></a>Disponibilidad en Paraguay
 

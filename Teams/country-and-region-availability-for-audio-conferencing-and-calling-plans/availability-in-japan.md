@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4057f7de-09cd-400e-a583-ca1c3caa7613
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Japón los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cbb5cf1c8cf9bee06e8bbf4115526d50f45a405a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a9316872d6b29f88bad5bd3b7a578f8fc091e0f9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465263"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541019"
 ---
 # <a name="availability-in-japan"></a>Disponibilidad en Japón
 

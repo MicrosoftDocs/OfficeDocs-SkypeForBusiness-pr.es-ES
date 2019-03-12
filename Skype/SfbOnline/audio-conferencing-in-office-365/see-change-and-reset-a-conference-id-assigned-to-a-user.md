@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype para profesionales en línea y cuál deben ser los parámetros de los identificadores de conferencia. '
-ms.openlocfilehash: 7996cc91bd9461f733f82da3eb01eeac7109604a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: eb7d42fa88c54b917e89eb97ce9f52bd03af4935
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883419"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30535963"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -51,7 +51,7 @@ Puede ver el Id. de conferencia y enviárselo a los usuarios.
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
 
 3. En el **centro de administración de Skype for Business**> **Audioconferencias** > **Usuarios**, seleccione el usuario que necesita el Id. de conferencia.
 
@@ -79,7 +79,7 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
 
 3. En el **Skype para el centro de administración de negocio**> **conferencias de Audio** > **a los usuarios**, en el panel de acciones en **Identificador de conferencia**, haga clic en **Restablecer**.
 
@@ -90,7 +90,7 @@ Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo
 Puede restablecer el id. de conferencia de un usuario mediante Windows PowerShell. Para ello, ejecute:
 
   ```
-  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble"  -ResetConferenceID 8271964
+  Set-CsOnlineDialInConferencingUser -Identity "Amos Marble" -ResetConferenceID
   ```
 
 ## <a name="what-else-should-you-know"></a>¿Qué más tengo que saber?

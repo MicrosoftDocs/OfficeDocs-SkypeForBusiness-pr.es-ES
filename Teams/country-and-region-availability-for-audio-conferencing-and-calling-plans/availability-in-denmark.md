@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: a12419b1-51b3-4518-87de-1570f798ac2c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Dinamarca los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: e34f565828594221bfe05fb2f19ee060108071c9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 82e09dda4c6cd378542ef545bd26c4c330cc9391
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462911"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543042"
 ---
 # <a name="availability-in-denmark"></a>Disponibilidad en Dinamarca
 

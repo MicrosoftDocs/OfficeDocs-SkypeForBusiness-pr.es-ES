@@ -7,9 +7,7 @@ ms.reviewer: mikedav, wlooney, gageames
 ms.topic: article
 ms.assetid: 4cd5fe35-8463-4996-a252-086cd3ca2d9a
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: e8c9331a26caf5e2fe4cb618ac896393d35939ba
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 693e17152d3c51ae51efaa0977d5d83b5c5f2297
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460855"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543010"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -44,7 +42,7 @@ Análisis de la llamada muestran información detallada acerca de los dispositiv
 
 Para ver esta información para un usuario en el centro de administración de Microsoft Teams, haga clic en la ficha **Historial de llamadas** para ese usuario en la página de detalles del usuario, que muestra todas las llamadas y las reuniones que el usuario ha participado en para los últimos 30 días.
 
-![Llame al análisis de datos de usuario.](media/call-analytics-user-data.png)
+![Llame al análisis de datos de usuario.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Para obtener información adicional acerca de una sesión determinada, incluidos los medios detalladas y las estadísticas de red, haga clic en una sesión para ver los detalles.
 
@@ -76,7 +74,7 @@ Quizá la calidad de llamadas deficientes del usuario es debido a un problema de
 
 Con la Ayuda de informes de Location-Enhanced del CQD, se pueden evaluar la calidad de llamada agregado y la confiabilidad dentro de creación del usuario para determinar si el problema se aísla a un solo usuario o afecta a un segmento mayor de usuarios.
 
-![Captura de pantalla de informes de mejorado a la ubicación del panel de calidad de llamada. Las fichas que se muestran son información general, los edificios - cableada, los edificios - WiFi y Mobile (LTE). Se aplica un filtro para ver las secuencias dentro de un edificio específico.](media/call-quality-dashboard-location-enhanced-reports-building-selection.png)
+![Captura de pantalla de informes de mejorado a la ubicación del panel de calidad de llamada. Las fichas que se muestran son información general, los edificios - cableada, los edificios - WiFi y Mobile (LTE). Se aplica un filtro para ver las secuencias dentro de un edificio específico.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
 > Para habilitar las vistas específicas de creación en CQD, un administrador debe [cargar información de creación](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) de página del CQD inquilino la carga de datos.

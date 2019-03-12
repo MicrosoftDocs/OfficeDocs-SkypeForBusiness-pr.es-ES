@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 98fef414-b8e1-4032-b07b-63ec52fb3f26
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Indonesia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 00e8a9dd6a7e0d6fdaa0c7cd07e1d9055643d795
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1bed52cc61f745249ce72bc913a8227a1e1a4358
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460047"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30540939"
 ---
 # <a name="availability-in-indonesia"></a>Disponibilidad en Indonesia
 

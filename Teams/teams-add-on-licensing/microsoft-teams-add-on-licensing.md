@@ -5,7 +5,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga información sobre las licencias de complemento, las características que se obtienen con cada licencia, cómo comprar un producto para el producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y plan de detalles para Office 365, créditos de comunicación, y los planes de llamada.
-ms.openlocfilehash: 6cf3b2a242a941c9a4352aa35afd1dcbe23c902c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460135"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543082"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
@@ -63,13 +63,13 @@ Según el plan que ya tiene, puede comprar licencias adicionales para las siguie
 
 Las opciones de licencia de complemento disponibles depende de su plan de Office 365. Consulte los siguientes temas para obtener información, características y opciones que son específicas de su plan.
 
-- [Office 365 Business Premium](office-365-business-premium.md)
+- [Office 365 Empresa Premium](office-365-business-premium.md)
 - [Office 365 ProPlus](office-365-premium-pro-plus.md)
 - [Office 365 Enterprise E1 o E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sin audioconferencia)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Sistema de salas de Skype v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
-- [Organizaciones sin fines de lucro, GOV y EDU](gov-edu-and-nonprofit-organizations.md)
+- [Sistemas de salas de Skype v2](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Organizaciones gubernamentales, educativas y sin ánimo de lucro](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver los precios y comprar licencias de complementos
 <a name="bkmk_how"> </a>
@@ -95,7 +95,7 @@ Para una extensa documentación acerca de cómo planear la implementación, incl
 
 - [Configurar los equipos](../microsoft-teams.md)
     
-- [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](../set-up-phone-system-voicemail.md)
+- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](../set-up-phone-system-voicemail.md)
     
 - [Llamar a planes para Office 365](../calling-plans-for-office-365.md) y [Configurar planes de llamada](../set-up-calling-plans.md)
     

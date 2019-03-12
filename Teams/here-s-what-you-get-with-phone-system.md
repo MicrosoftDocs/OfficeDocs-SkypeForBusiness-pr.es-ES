@@ -7,14 +7,11 @@ msreviewer: jastarck, makolomi
 ms.topic: article
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
+- M365-voice
 ms.audience: Admin
 appliesto:
 - Skype for Business
@@ -24,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 655e095f87ee9ad53cb57df09ca8366ecc8eb8f6
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120903"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542922"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -54,7 +51,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |Llamada en espera/recuperar llamada  <br/> | Use esta característica cuando se produzcan varias llamadas al mismo tiempo. Al contestar la siguiente llamada entrante o realizar una llamada saliente, la llamada actual entra en espera automáticamente. <br/> |
 |[Transferir una llamada de Skype Empresarial](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfiere llamadas a otra persona. O bien, si necesita salir de la oficina, pero desea continuar la conversación, puede transferir las llamadas desde su teléfono IP o de PC a su teléfono móvil o Tablet PC.  <br/> |
 |Identificador de llamada  <br/> |Las llamadas desde dentro de la empresa muestran un identificador de llamada detallado que toma información del directorio de su empresa, y le muestra una imagen y el puesto en lugar de tan solo un número de teléfono.  <br/> |
-|[Crear una cola de llamadas de Sistema telefónico](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera.  <br/> |
+|[Crear una cola de llamadas para el Sistema telefónico](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera.  <br/> |
 |[Informar cuando cambie el estado de un usuario](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esta característica le permite etiquetar personas que no están disponibles actualmente y recibir una notificación cuando su presencia cambie y estén listas para tomar llamadas telefónicas. <br/> |
 |Clientes de PC, Mac y Mobile  <br/> | Esto le ofrece características de llamada en dispositivos, desde tabletas y teléfonos móviles para PC y teléfonos de escritorio IP. <br/> |
 |Cambio de dispositivo  <br/> |Le permite reproducir su llamada o reunión en otro dispositivo.  <br/> |
@@ -88,7 +85,7 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
     
 - [Licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Obtenga información sobre las licencias que necesitará comprar para obtener el sistema telefónico en Office 365.
     
-- [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
+- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
     
 - [Descubra Skype Empresarial](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ayude a los miembros de su empresa a aprender a usar las características de Skype Empresarial. 
 

@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -25,12 +23,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: Cada país o región tiene sus propias instrucciones para conseguir números de teléfono para usuarios en Skype Empresarial Online y Microsoft Teams. Siga el vínculo al país o la región que corresponda de los que aparecen a continuación y consiga la información que necesita.
-ms.openlocfilehash: 23923d6d31222d1d97d43318227ce2b1e558d5c2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: dd4bb74172736ae3b82bef00a4b4b11c7285ee1f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351901"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543130"
 ---
 # <a name="manage-phone-numbers-for-your-organization"></a>Administrar los números de teléfono para su organización
 Hay tres modos de obtener números tanto de usuario como de servicio (de pago y gratuitos) para su organización.

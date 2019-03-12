@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbaf568d-363f-45e7-acd2-82e5ebb7fa21
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Suiza los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 42721cc79cfb69c209d906825835d4c3adb6133b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462471"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542939"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidad en Suiza
 

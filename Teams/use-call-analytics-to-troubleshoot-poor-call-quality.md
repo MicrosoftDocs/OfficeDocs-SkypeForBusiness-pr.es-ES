@@ -8,9 +8,7 @@ ms.date: 03/08/2019
 ms.topic: article
 ms.assetid: 66945036-ae87-4c08-a0bb-984e50d6b009
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -26,12 +24,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: Use Analytics llamada obtener información detallada sobre los dispositivos, redes y la conectividad para solucionar problemas de usuario con Microsoft Teams y Skype para reuniones y llamadas de trabajo.
-ms.openlocfilehash: b020ae52b9cb7906484c6a0a5403e626ebab68a8
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494240"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30543186"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
 

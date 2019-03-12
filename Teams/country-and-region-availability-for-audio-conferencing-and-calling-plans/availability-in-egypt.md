@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Egipto los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 12347e7bf3eeaa5ab8416d2ffec5057381960149
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2634f879b3d03c454e024e3bafe443b25e9bf417
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463967"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542874"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidad en Egipto
 
