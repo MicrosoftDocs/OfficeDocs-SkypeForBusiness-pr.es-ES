@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7cd45341-1289-4592-a511-f07556ff9139
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Brasil los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 6e4b9d36eeeebf9d2706ef8eeb94e082ff3264bf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f4124e229e6a899c8eef36b12e1bf4e62bd3e594
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461479"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542578"
 ---
 # <a name="availability-in-brazil"></a>Disponibilidad en Brasil
 

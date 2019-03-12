@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas.
-ms.openlocfilehash: f055a6851610bc2071e1705a4b5739544c5d72bd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353301"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542322"
 ---
 # <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático para el sistema telefónico
 
@@ -373,4 +371,4 @@ Estos son los cmdlets que necesita para administrar un operador automático.
 
 [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 
-[Ejemplo de pequeña empresa - configurar un operador automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Ejemplo de pequeña empresa: configurar un operador automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  

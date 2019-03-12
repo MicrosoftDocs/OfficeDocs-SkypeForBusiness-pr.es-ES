@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: 62077251-f24e-4a43-95a2-67a2dc54e9de
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Alemania para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: 85e257be2d7d33273f6a6c766df661f36e338ee2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e7b27c8cc5429d535055109695f64ac61fc95b33
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30350765"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542203"
 ---
 # <a name="phone-number-management-for-germany"></a>Administración de números de teléfono para Alemania
 

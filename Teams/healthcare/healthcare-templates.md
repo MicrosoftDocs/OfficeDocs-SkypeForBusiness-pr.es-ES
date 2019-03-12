@@ -1,10 +1,10 @@
 ---
-title: Introducción a las plantillas de equipos para las organizaciones de salud
+title: Introducción a las plantillas para las organizaciones sanitarias de Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
 audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 localization_priority: Normal
@@ -14,15 +14,15 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Introducción a las plantillas de equipos para las organizaciones de salud
-ms.openlocfilehash: fac7aa90d0fe7f1e6b3e1570378b78a50d321869
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+description: Introducción a las plantillas para las organizaciones sanitarias de Teams
+ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408286"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541667"
 ---
-# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas de equipos para las organizaciones de salud
+# <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
 Plantillas de Microsoft Teams permiten rápidamente y creación fácilmente los equipos, ya que proporciona una plantilla predefinida de configuración, canales y aplicaciones instaladas previamente.
 

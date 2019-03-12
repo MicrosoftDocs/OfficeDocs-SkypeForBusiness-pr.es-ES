@@ -5,7 +5,7 @@ ms.author: v-lanac
 manager: serdars
 ms.date: 01/11/2019
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: svemu
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 description: Obtenga información acerca de los informes de los equipos que están disponibles en el centro de administración de Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a3c6479dbd9dbc9e8097f4228ad2b11288390fad
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c674f9256d30e4b4a4f5a6f8e336e7d03f551df0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494232"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541507"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Análisis e informes de Microsoft Teams
 
@@ -43,9 +43,9 @@ Constantemente estamos mejorando la experiencia de reporting y agregar caracter�
 
 |Informe  |¿Qué se mide? |
 |---------|---------|
-|[Informe de uso de los equipos](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos en los equipos y canales<br/>Canales de activos<br/>Mensajes<br/>Configuración de privacidad de los equipos<br/>Invitados en un equipo   |
-|[Informe de actividad de usuario de los equipos](user-activity-report.md)  |  un usuario ha participado en las llamadas 1:1<br/>Mensajes de un usuario registrado en una charla de equipo<br/>Los mensajes de un usuario registrado en un chat privado<br/>Última fecha de actividad de un usuario     |
-|[Informe de uso de dispositivos de los equipos](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfonos Android     |
+|[Informes de uso de Teams](teams-usage-report.md)  |  Usuarios activos<br/>Usuarios activos en los equipos y canales<br/>Canales de activos<br/>Mensajes<br/>Configuración de privacidad de los equipos<br/>Invitados en un equipo   |
+|[Informe de actividad de usuario de Teams](user-activity-report.md)  |  un usuario ha participado en las llamadas 1:1<br/>Mensajes de un usuario registrado en una charla de equipo<br/>Los mensajes de un usuario registrado en un chat privado<br/>Última fecha de actividad de un usuario     |
+|[Informe de uso de dispositivos de Teams](device-usage-report.md)   |  Usuarios de Windows<br/>Usuarios de Mac<br/>usuarios de iOS<br/>Usuarios de teléfonos Android     |
 
 > [!NOTE]
 > Los informes de los equipos muestran datos de usuarios activos y equipos de activos. Por ejemplo, si un usuario de la organización no está activo en los equipos durante el intervalo de fechas especificado para un informe, los datos para que el usuario no está incluidos en dicho informe.

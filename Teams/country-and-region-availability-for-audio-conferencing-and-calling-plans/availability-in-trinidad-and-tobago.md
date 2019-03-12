@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 7ab4538a-3513-40c3-ad54-89067d2357d3
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Trinidad y Tobago los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: e73094ca77643da6f8cc55bc2ccd92e67eaa9da0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 89c8ac47534ccc8097ecec6bd0ddcba25a60cb97
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465207"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541691"
 ---
 # <a name="availability-in-trinidad-and-tobago"></a>Disponibilidad en Trinidad y Tobago
 

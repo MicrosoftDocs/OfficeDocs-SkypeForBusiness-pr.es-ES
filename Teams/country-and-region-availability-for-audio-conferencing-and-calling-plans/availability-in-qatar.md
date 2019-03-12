@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 34743a0a-e743-4142-961f-679da254d080
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Qatar los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: d3fa5af4f9ac9812cd22c0422304bb1a1de58b8f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ded2cf603f0db3cb43f2523f418838f002be9a49
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463023"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542011"
 ---
 # <a name="availability-in-qatar"></a>Disponibilidad en Catar
 

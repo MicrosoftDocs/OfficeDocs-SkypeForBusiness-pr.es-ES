@@ -7,9 +7,7 @@ ms.reviewer: mikedav
 ms.topic: article
 ms.assetid: 691c9301-1f66-41fe-9b2c-ca24ae987463
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -31,12 +29,12 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: 1c4fc9b9834b11c641961651843073a2392bc95b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459351"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542258"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -86,7 +84,7 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
+- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
         

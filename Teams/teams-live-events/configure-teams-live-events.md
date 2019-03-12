@@ -3,7 +3,7 @@ title: Configurar eventos en directo en Microsoft Teams
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.date: 10/23/2018
+ms.date: 03/11/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo administrar la configuración para
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94a167e8a929f2011ccaa773cd04d4e0ca6a2a0e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463671"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542842"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
@@ -82,6 +82,6 @@ Para obtener más información, vea [Set-CsTeamsMeetingBroadcastConfiguration](h
 > Si va a crear eventos en directo que usar codificadores externos, también necesitará [configurar su proveedor eCDN con la secuencia de Microsoft](https://docs.microsoft.com/stream/network-caching). 
 
 ### <a name="related-topics"></a>Temas relacionados
-- [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
-- [Plan para los equipos eventos en directo](plan-for-teams-live-events.md)
-- [Configurar para los equipos de eventos en directo](set-up-for-teams-live-events.md)
+- [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)
+- [Planear eventos en directo en Teams](plan-for-teams-live-events.md)
+- [Configuración de eventos en directo en Teams](set-up-for-teams-live-events.md)

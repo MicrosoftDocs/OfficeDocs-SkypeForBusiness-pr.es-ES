@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 54905c72-2214-47c7-8ac2-7a27597475c5
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Arabia Saudí los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9d5807a5d1c305164c43b5c6927ea455b94a209a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7acac3a77ffb74cc5d4800efcfbcb90f7316d315
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464095"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541811"
 ---
 # <a name="availability-in-saudi-arabia"></a>Disponibilidad en Arabia Saudí
 

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 46bce770-7c3c-4813-aa3c-26859989a849
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Belice los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: e19ab6636bb6dfc40e3066876edb55f4796d0b57
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 39ca7f425df21a3a26a42ab7b9d613f5654d0b7f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460943"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542386"
 ---
 # <a name="availability-in-belize"></a>Disponibilidad en Belice
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0e62e15f-e84a-42c3-87cb-adeb6dcfd761
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 8652405b6523b17ac3afd00bf6ef35b7566788f6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b6d16763a3d491a7addfdcce25b969c882a96db9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460863"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541387"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilidad en Emiratos Árabes Unidos
 

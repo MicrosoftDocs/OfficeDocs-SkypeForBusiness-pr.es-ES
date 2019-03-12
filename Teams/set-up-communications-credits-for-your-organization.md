@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 172cfef66b6f16ecd70c2ad4ea5db2918140f6cd
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353493"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541787"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -118,7 +116,7 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
+- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
     

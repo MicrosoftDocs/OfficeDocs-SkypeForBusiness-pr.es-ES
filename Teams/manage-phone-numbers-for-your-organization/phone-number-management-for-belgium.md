@@ -4,14 +4,12 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: ee10dde6-55ab-4141-92ca-dc97d8ca67f9
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Use esta tabla para buscar información sobre cómo se obtienen y se administran los números de teléfono en Bélgica para Skype Empresarial Online y Microsoft Teams.
-ms.openlocfilehash: eccc710c876abe7d146db13e4501e590421c6cd5
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 41900ace3d9992ee6e14ebaed6cb55ba100c0122
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351973"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541619"
 ---
 # <a name="phone-number-management-for-belgium"></a>Administración de números de teléfono para Bélgica
 

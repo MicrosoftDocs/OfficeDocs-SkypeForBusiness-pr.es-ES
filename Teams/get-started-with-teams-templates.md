@@ -10,17 +10,20 @@ ms.service: msteams
 ms.reviewer: phlouie
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Obtenga información sobre cómo usar las plantillas de equipos para crear un equipo con los canales de predefinidos.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97504dcc6fa1cd465eae7bf0ea151cdf36f525d2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: f16b851641de64813212bf67a83dbf9d7a05c043
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352645"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541643"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 

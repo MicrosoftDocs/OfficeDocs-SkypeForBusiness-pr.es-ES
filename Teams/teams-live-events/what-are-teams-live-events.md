@@ -3,7 +3,7 @@ title: ¿Qué son los eventos en directo de Microsoft Teams?
 author: tonysmith
 ms.author: tonysmit
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ description: Obtenga información sobre cómo live eventos permiten a los usuari
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4eec16dd51c687ed34c9a0f04710b29c87a887a3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 02db69572fa13e5c02717e7d8d192ca1b61cff8e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494184"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542898"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 > [!INCLUDE [Preview customer token](../includes/preview-feature.md)]

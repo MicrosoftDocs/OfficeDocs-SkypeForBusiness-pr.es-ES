@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre las directivas de permisos de aplicación en Microsoft Teams y cómo usarlos para controlar qué aplicaciones están disponibles para los usuarios de su organización.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 47a4d3a444a0685e0a1ff568332bdc426752af4c
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 46a4cbd008db7dc742cd5cc3d22277d7535daa88
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30411384"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542234"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
@@ -122,7 +125,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicación
 

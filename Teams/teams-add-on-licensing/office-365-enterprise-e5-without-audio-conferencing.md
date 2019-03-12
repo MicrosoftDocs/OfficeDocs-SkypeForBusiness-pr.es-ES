@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 search.appverid: MET150
 MS.collection:
@@ -18,12 +18,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complemento, las características y cómo comprar planes de Office 365 Enterprise (sin Audioconferencia). '
-ms.openlocfilehash: b424b5d097f420b3a9fde7642c0f317ade6e92c8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bd78dd091cbe70517e5ea9ea8d6ca6a6becc25cf
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461823"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541635"
 ---
 # <a name="office-365-enterprise-e5-without-audio-conferencing"></a>Office 365 Enterprise E5 (sin audioconferencia)
 

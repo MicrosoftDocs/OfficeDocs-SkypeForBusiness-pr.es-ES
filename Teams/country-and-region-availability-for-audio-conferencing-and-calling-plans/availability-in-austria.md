@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 298c6df7-0054-48cf-867c-082bdb695999
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Austria los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cefeb2568d5153250cb79a18eb0e0bfa488fe1a3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 23845e265b96e4e3c65798810a2d3560997e790f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464687"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542490"
 ---
 # <a name="availability-in-austria"></a>Disponibilidad en Austria
 

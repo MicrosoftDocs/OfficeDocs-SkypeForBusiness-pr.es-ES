@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 466bff97-98ef-4e44-95b5-f51ee80b2128
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Luxemburgo los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 154ce25838ee9f41d307f4979c2a3f64281fe72f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 526896686131974214229e1a7bdd08e598fa7ef9
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459719"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542482"
 ---
 # <a name="availability-in-luxembourg"></a>Disponibilidad en Luxemburgo
 

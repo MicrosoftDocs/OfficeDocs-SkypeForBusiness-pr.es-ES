@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: b8abc334-bd57-4bc9-ae17-43d543d895c8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para chipriota los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 9fb82d0c5ca422d8c4243d1b902873cc0a53d00d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5998a834226d8e63eeed237342abdb7e52e6bfdd
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464663"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542338"
 ---
 # <a name="availability-in-cyprus"></a>Disponibilidad en Chipre
 

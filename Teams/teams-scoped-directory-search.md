@@ -10,17 +10,20 @@ ms.service: msteams
 ms.reviewer: sbhatta
 localization_priority: Normal
 search.appverid: MET150
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 description: Obtenga información sobre cómo usar búsqueda de Active directory con ámbito de Microsoft Teams para proporcionar vistas personalizadas del directorio.
 ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e21cc33ab24dc14bd56f15146180ef90afdde7de
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: cc17bda47861512900be908a6efaf60847377d09
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494160"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541523"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbb45c69-746a-4891-85ae-af55bdc2ef57
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Mónaco los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 0bc840e77fdda08f6f21a2fefed1f213b205e9ea
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ce71880ba25554e727da7c8472dcfe8d65541090
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461679"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541371"
 ---
 # <a name="availability-in-monaco"></a>Disponibilidad en Mónaco
 

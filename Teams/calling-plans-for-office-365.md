@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -27,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: ec692f33d51ac8c5405049f71d8b1010d4e1f011
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351933"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542099"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 
@@ -96,7 +94,7 @@ A continuación presentamos más artículos que explican cómo configurar los pl
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el correo de voz de Sistema telefónico - Ayuda para el administrador](set-up-phone-system-voicemail.md)
+- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamadas](set-up-calling-plans.md)
     

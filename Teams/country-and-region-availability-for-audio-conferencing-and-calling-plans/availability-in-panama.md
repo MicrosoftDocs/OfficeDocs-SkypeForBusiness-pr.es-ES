@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d15c6f11-da29-4cda-951a-308c13ff841b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Panamá los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 971907ac49a4582ab5093393dfa01bd84c5a554c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3ae2da65b2396e78e83da44a38036dea760b6235
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462599"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541995"
 ---
 # <a name="availability-in-panama"></a>Disponibilidad en Panamá
 

@@ -12,8 +12,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -24,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Obtenga información sobre qué son automáticos de sistema telefónico (nube PBX) y cómo usarlas.
-ms.openlocfilehash: 22136339b980779991170d0f072ec762b8c39c7a
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 14499789287e23767429392f0c21b66d56372ac0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494208"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542282"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos del Sistema telefónico?
 
@@ -266,4 +264,4 @@ Puede obtener más información acerca de cómo realizar cambios en la configura
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 
-[Ejemplo de pequeña empresa - configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Ejemplo de pequeña empresa: configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)

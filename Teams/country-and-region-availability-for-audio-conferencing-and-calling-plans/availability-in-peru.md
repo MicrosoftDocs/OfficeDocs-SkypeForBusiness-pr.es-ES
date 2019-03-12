@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: cea54175-c39d-4ac2-ba84-2ffeb1c111e7
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Perú los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: ae9881b90ba06312b820b66852a59908c887f713
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1d7413a36ac7d4e3219e7f0d0a23643ad486a2b8
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461871"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541675"
 ---
 # <a name="availability-in-peru"></a>Disponibilidad en Perú
 

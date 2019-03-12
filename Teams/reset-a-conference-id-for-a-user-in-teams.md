@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 ms.audience: Admin
 appliesto:
 - Microsoft Teams
@@ -21,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Conozca cuáles son los pasos que hay que seguir para restablecer el Id. de conferencia de reunión de un usuario en Microsoft Teams, y obtenga los vínculos para las herramientas de migración y actualización de reuniones. '
-ms.openlocfilehash: a33ccf71d683fc7ae55011f502eda5182ed40268
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.openlocfilehash: f5926d838d61d38eb5b8e9f840cd9d7a4694253f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29754708"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542850"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Restablecer un Id. de conferencia para un usuario en Microsoft Teams
 
@@ -77,4 +75,4 @@ Para obtener más información sobre Windows PowerShell, consulte la [referencia
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin-in-teams.md)
+[Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md)

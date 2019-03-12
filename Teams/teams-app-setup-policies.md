@@ -9,18 +9,21 @@ ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.audience: Admin
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 3e46f5ea50d3e9cdb1717838beec454cca05ba30
-ms.sourcegitcommit: baca91b0e022a1d2b5a522ef749a97463d61f560
+ms.openlocfilehash: 6c88ba45aba076c6e26fe8bc16fd3643499a881b
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "30302692"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541827"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -45,7 +48,7 @@ Puede modificar la configuración de la directiva global para incluir las aplica
 
 ## <a name="create-a-custom-app-setup-policy"></a>Crear una directiva de aplicación personalizada del programa de instalación
 
-Puede usar el centro de administración de Microsoft Teams o Windows PowerShell para crear una directiva personalizada.
+Puede usar el centro de administración de Microsoft Teams para crear una directiva personalizada.
 
 1. En la izquierda el centro de administración de Microsoft Teams, vaya a **las aplicaciones de los equipos** > **las directivas de aplicación del programa de instalación**.
 2. Seleccione **nueva directiva**.
@@ -102,7 +105,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabajar con directivas del programa de instalación de aplicaciones
 

@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: b205d2b2-bb2c-457e-82ba-328742d168b6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para la India los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 29e59d72ad6a4c4629b42b5f22d1a04db0c79b3e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 054927a178b442b074d92323135895dd6add4823
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460839"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541939"
 ---
 # <a name="availability-in-india"></a>Disponibilidad en India
 

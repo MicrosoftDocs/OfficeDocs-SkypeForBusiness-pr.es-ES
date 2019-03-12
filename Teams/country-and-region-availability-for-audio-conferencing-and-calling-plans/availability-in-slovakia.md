@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d1cbbed6-7398-4152-8836-1b06484d8bae
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Eslovaquia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: d00770ccaa4e8cb76677e43bce063c08bc09ec2b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d46ea5df0c4facf3d009bb912397b5ca5ddda4ca
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462927"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542818"
 ---
 # <a name="availability-in-slovakia"></a>Disponibilidad en Eslovaquia
 

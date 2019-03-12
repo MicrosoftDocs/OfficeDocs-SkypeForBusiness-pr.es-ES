@@ -1,5 +1,5 @@
 ---
-title: Restricciones y limitaciones de marcado gratuito
+title: Restricciones y limitaciones de marcado de número gratuito
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -7,14 +7,10 @@ ms.reviewer: mikedav, roykuntz, jastark, oscarr
 ms.topic: article
 ms.assetid: 6b8d5ddb-59c1-4ee7-b171-18e5ace2dcd6
 ms.tgt.pltfrm: cloud
-ms.service:
-- skype-for-business-online
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -26,14 +22,14 @@ ms.custom:
 - Calling Plans
 - Strat_SB_PSTN
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 9ecea9fa2503134c7ce3b13c6c7adaabdf24a142
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 2c5f5d97972fe1c1002ffb16ca39f6a6224beb06
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352685"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542115"
 ---
-# <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado gratuito
+# <a name="toll-free-dialing-limitations-and-restrictions"></a>Restricciones y limitaciones de marcado de número gratuito
 
 Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página que contiene donde está disponible incluidos detalles específicos, restricciones y límites de servicio gratuito de pago. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
   
@@ -75,7 +71,7 @@ Si está listo, seleccione un país o región:
 > - [Luxemburgo](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-luxembourg.md)
 > - [Malasia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-malaysia.md)
 > - [México](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-mexico.md)
-> - [Moldavia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
+> - [Moldova](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-moldova.md)
 > - [Mónaco](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-monaco.md)
 > - [Países Bajos](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-the-netherlands.md)
 > - [Panamá](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-panama.md)
@@ -85,7 +81,7 @@ Si está listo, seleccione un país o región:
 > - [Polonia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-poland.md)
 > - [Portugal](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-portugal.md)
 > - [Catar](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-qatar.md)
-> - [Rumanía](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
+> - [Rumania](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-romania.md)
 > - [Arabia Saudí](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-saudi-arabia.md)
 > - [Serbia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-serbia.md)
 > - [Singapur](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-singapore.md)

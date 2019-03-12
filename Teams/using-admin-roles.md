@@ -6,16 +6,19 @@ manager: serdars
 ms.date: 09/19/2018
 ms.topic: article
 ms.service: msteams
+ms.collection:
+- M365-collaboration
+- Teams_ITAdmin_Help
 ms.reviewer: islubin
 description: Aprenda a usar las funciones administrativas diferentes para administrar los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2e031c1bee98fc1790f39e888063353087a82422
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 62b8de5d5e96177476ef07a8a91566d9757364d1
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342184"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542514"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar Teams
 

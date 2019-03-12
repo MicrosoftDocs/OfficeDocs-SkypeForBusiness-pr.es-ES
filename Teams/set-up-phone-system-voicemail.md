@@ -1,5 +1,5 @@
 ---
-title: Configurar el correo de voz de Sistema telefónico
+title: Configurar el correo de voz del Sistema telefónico
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: 48617a9bb40257dffda993a171b42c4e63ba5d1d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: e0f966d178fb775ff8f9283c6a8097487e8933a2
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353333"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541907"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz de Sistema telefónico
+# <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz del Sistema telefónico
 
 En este artículo es para la [administración de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz de sistema telefónico para todos los usuarios en la empresa.
 

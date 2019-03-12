@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -24,12 +22,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn what emergency address, location, and emergency call routing are, and how to plan and assign them to your users. '
-ms.openlocfilehash: d552fe5599a9c1189b20a3efa69f659333d80166
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 4e9fd0d3fa9fabc1f9b2176a4dc2b7ac59206352
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30352845"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541987"
 ---
 # <a name="what-are-emergency-locations-addresses-and-call-routing"></a>¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?
 

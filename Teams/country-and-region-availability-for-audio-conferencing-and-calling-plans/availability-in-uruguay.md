@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 5ce55c31-59da-4649-9021-ea9e78cfd9ed
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Uruguay los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b2deb8c2c55ae176dad0fa4f3a96e702834730ef
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 235b2c3f981c2756cefd9bbfc95b1028c342c7bf
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460543"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541659"
 ---
 # <a name="availability-in-uruguay"></a>Disponibilidad en Uruguay
 

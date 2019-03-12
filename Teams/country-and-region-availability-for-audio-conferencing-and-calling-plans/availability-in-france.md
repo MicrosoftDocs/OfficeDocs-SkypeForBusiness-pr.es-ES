@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 14b4e0d3-6add-47a5-b0a2-e80fc5199fce
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 49bcadc16aab6a6792ae2c57eea5f943ed6208a0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465127"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541683"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 

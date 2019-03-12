@@ -3,12 +3,11 @@ title: Apariencia de línea compartida en Microsoft Teams
 ms.author: lolaj
 author: lolaj
 manager: serdars
-ms.date: 12/13/2018
+ms.date: 02/19/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
-ms.service:
-- msteams
+ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
@@ -20,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Apariencia de línea compartida permite a los usuarios elegir un delegado para responder o administrar las llamadas en su nombre.
-ms.openlocfilehash: 41c0eb9f740a7fa771769159fe4f560019293857
-ms.sourcegitcommit: f69b5dbdbd61f77ffc0494886516effe35a0c338
+ms.openlocfilehash: 0a110e18cb8a939870528d2700ec54103cf91a6e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/15/2018
-ms.locfileid: "27283763"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541699"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Apariencia de línea compartida en Microsoft Teams
 
@@ -43,6 +42,8 @@ Los administradores y delegados deben enterprise voice está habilitado. La expe
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Configuración de la delegación y la apariencia de línea compartida
 
 Delegación y la apariencia de línea compartidos son las características de controlado por el usuario: no hay ninguna configuración de administración para configurar. Para obtener información acerca de cómo usar la característica, vea el [recurso compartido de una línea telefónica con un delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
+
+La administración de inquilinos debe habilitar la delegación a través de la configuración de **TeamsCallingPolicy AllowDelegation** para que esta característica funcione.
 
 ## <a name="shared-line-appearance-feature-availability"></a>Compartir la disponibilidad de características de apariencia de línea
 

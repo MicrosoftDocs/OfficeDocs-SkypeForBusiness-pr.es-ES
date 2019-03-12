@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Estonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: ee20f8b1a3ba65abf21175849ccb4d4a954dba52
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 324fa1e504faa0ce30685ed184aa2417011dd1cb
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462959"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541467"
 ---
 # <a name="availability-in-estonia"></a>Disponibilidad en Estonia
 

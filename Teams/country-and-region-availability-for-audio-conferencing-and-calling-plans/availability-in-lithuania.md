@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Lituania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 0ad1696b1f2fcccc45c832f1ac21668733b73712
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: de137ef566d006191410f014d038f99f1e3d03d0
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465199"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541863"
 ---
 # <a name="availability-in-lithuania"></a>Disponibilidad en Lituania
 

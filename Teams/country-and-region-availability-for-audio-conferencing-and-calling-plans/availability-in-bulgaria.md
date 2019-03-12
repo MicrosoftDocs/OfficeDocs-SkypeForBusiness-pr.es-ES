@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 0aa7cb59-7479-415b-83a8-f51e1437af5e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Bulgaria los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 43368970bca09a2b5054a40ee50dc308798fafb3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e19263a011c7d0f403c4bb59763b7e7d44b0427d
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463215"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542650"
 ---
 # <a name="availability-in-bulgaria"></a>Disponibilidad en Bulgaria
 

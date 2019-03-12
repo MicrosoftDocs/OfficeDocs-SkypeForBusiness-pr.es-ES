@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 42fd0274-d0d8-4fb1-abfe-6bc42881dac8
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Chile los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c104853384bd83fdea96fa04cd81b97e83a28c1d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a804a8955a676df8381d1dcb6a2cab4f17dfe840
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460039"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541363"
 ---
 # <a name="availability-in-chile"></a>Disponibilidad en Chile
 

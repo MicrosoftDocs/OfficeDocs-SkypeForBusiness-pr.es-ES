@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: f16965c2-645b-4cdf-8cf0-bf685917e425
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plansfor Business and Microsoft Teams available for Moldova."
-ms.openlocfilehash: 194f0bd74b9fab4e9989b5ab34ca0cbbcdf470a3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e9ed4fb86bd7eb15fe08563ac652579cfcacf712
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460679"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541475"
 ---
 # <a name="availability-in-moldova"></a>Disponibilidad en Moldova
 

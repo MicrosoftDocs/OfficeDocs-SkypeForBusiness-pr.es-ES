@@ -11,8 +11,6 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - M365-voice
 ms.audience: Admin
 appliesto:
@@ -23,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype para profesionales Online usa tipos de número de teléfono distinta según la finalidad para la que desea usar el número de teléfono.
-ms.openlocfilehash: 80a3c4b0b5eaf205b92af3be9a018fc4e152cda6
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 7d25c13aec53e441c2de5ecee4540cff074b599e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353341"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542394"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de teléfono que se usan para planes de llamadas
 

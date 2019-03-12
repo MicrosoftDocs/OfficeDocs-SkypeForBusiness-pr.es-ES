@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: d9c0434e-4d95-4cb1-a22a-6fd58933a98a
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están disponibles para Israel los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 4c3cfd6ea647ca30335782e091bb38f52014019e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b5fe1021ce64a8e04489cda4d12e4988d3c8201f
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461431"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30541571"
 ---
 # <a name="availability-in-israel"></a>Disponibilidad en Israel
 

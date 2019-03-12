@@ -5,14 +5,12 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
-ms.topic: article
+ms.topic: reference
 ms.assetid: 95893973-f90d-44d7-ba86-72712f031817
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection:
-- Adm_Skype4B_Online
-- Strat_SB_PSTN
 - Teams_ITAdmin_Help
 - M365-voice
 ms.audience: Admin
@@ -27,12 +25,12 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Puede seleccionar un país o una región para comprobar si Audioconferencia, Sistema telefónico, Planes de llamada, Créditos de comunicaciones y los números gratuitos y de pago están disponibles o no.
-ms.openlocfilehash: a84ade55bc05f5fa1ac97cb291a9c43ef64552c3
-ms.sourcegitcommit: 310354297b8e8fb4e7426fd91f179253eaf4af7e
+ms.openlocfilehash: accdefde4fa94b9a0526938bd64ec5171810d36e
+ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "30364489"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30542906"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Países y regiones donde Audioconferencia y Planes de llamada están disponibles
 
@@ -85,11 +83,11 @@ Puede seleccionar un país o región para ver qué características de voz en la
 > - [Letonia](availability-in-latvia.md)
 > - [Lituania](availability-in-lithuania.md)
 > - [Luxemburgo](availability-in-luxembourg.md)
-> - [ERY de Macedonia](availability-in-macedonia.md)
+> - [Macedonia, ERY](availability-in-macedonia.md)
 > - [Malasia](availability-in-malaysia.md)
 > - [Malta](availability-in-malta.md)
 > - [México](availability-in-mexico.md)
-> - [Moldavia](availability-in-moldova.md)
+> - [Moldova](availability-in-moldova.md)
 > - [Mónaco](availability-in-monaco.md)
 > - [Países Bajos](availability-in-the-netherlands.md)
 > - [Nueva Zelanda](availability-in-new-zealand.md)
@@ -103,7 +101,7 @@ Puede seleccionar un país o región para ver qué características de voz en la
 > - [Portugal](availability-in-portugal.md)
 > - [Puerto Rico](availability-in-puerto-rico.md)
 > - [Catar](availability-in-qatar.md)
-> - [Rumanía](availability-in-romania.md)
+> - [Rumania](availability-in-romania.md)
 > - [Rusia](availability-in-russia.md)
 > - [Arabia Saudí](availability-in-saudi-arabia.md)
 > - [Serbia](availability-in-serbia.md)
