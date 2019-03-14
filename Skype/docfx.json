@@ -128,12 +128,13 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "bilingual_type": "hover over",
       "searchScope": [
         "Skype for Business"
       ],
       "breadcrumb_path": "/skypeforbusiness/breadcrumb/toc.json",
       "extendBreadcrumb": "true",
+      "ms.suite": "office",
+      "bilingual_type": "hover over",
       "contributors_to_exclude": [
         "dstrome",
         "daswifty",
