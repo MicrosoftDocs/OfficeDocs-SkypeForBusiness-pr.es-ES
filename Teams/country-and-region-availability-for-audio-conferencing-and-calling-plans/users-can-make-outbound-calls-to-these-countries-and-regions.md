@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, jastark
-ms.topic: article
+ms.topic: reference
 ms.assetid: e603431c-8264-4b47-ad9d-d2701ce318be
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 1965e362114b98f2b41cf3f3efbf74fcab93a83c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
+ms.sourcegitcommit: 13445200c9b2991d5a88c8e203048cd7d094382c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465103"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30645427"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 
@@ -38,7 +38,7 @@ ms.locfileid: "30465103"
 |**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
 ---|---|---|---|---|---|
 |Afganistán|Ecuador |Islandia |Macao |Pakistán |Taiwán   |
-|Albania|Egipto |India |ERY de Macedonia |Palaos |Tayikistán   |
+|Albania|Egipto |India |Macedonia |Palaos |Tayikistán   |
 |Argelia|El Salvador |Indonesia |Malawi |Autoridad Palestina |Tanzania, República Unida de  |
 |Samoa Americana|Guinea Ecuatorial |Irán |Malasia |Panamá | Tailandia   |
 |Andorra |Eritrea |Iraq |Malí |Paraguay |Togo   |
@@ -50,7 +50,7 @@ ms.locfileid: "30465103"
 |Aruba |Francia |Jordania |México |Qatar | Ucrania   |
 |Australia |Guayana Francesa |Kazajstán |Micronesia |Reunión |Emiratos Árabes Unidos (E.A.U.)  |
 |Austria |Polinesia Francesa |Kenia |Moldavia, República de |Rumanía |Reino Unido (UK) |
-|Azerbaiyán |Georgia |Corea, República de |Mónaco | Federación de Rusia |Estados Unidos (EE. UU.)  |
+|Azerbaiyán |Georgia |Corea, República de |Mónaco | Federación de Rusia |Estados Unidos (EE. UU.)  |
 |Bahamas |Alemania |Kuwait |Mongolia |Ruanda | Uruguay |
 |Baréin |Ghana |Kirguistán |Montenegro | San Cristóbal y Nieves |Uzbekistán  |
 |Bangladesh |Gialtar |Lao |Montserrat | Santa Lucía |Ciudad del Vaticano  |
@@ -63,16 +63,16 @@ ms.locfileid: "30465103"
 |Bután |Guinea |Luxemburgo |Antillas Holandesas |Eslovaquia |Zambia  |
 |Bolivia |Guyana| |Nueva Caledonia |Eslovenia |Zimbabue |
 |Bosnia y Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
-|Botsuana |Honduras ||Nicaragua |España |
-|Brasil |Hong Kong ||Níger |Sri Lanka | 
-|Bunei Darussalam |Hungría ||Nigeria |San Pedro y Miquelón | 
-|Bulgaria |||Islas Marianas del Norte |Sudán |
-|Burkina Faso |||Noruega |Surinam |
-|Camboya |||Omán |Suazilandia | 
-|Camerún ||||Suecia |
-|Canadá ||||Suiza | 
-|Cabo Verde ||||República Árabe Siria |
-|Islas Caimán |
+|Botsuana |Honduras ||Nicaragua |Sudán sur |
+|Brasil |Hong Kong ||Níger |España | 
+|Bunei Darussalam |Hungría ||Nigeria |Sri Lanka | 
+|Bulgaria |||Islas Marianas del Norte |San Pedro y Miquelón |
+|Burkina Faso |||Noruega |Sudán |
+|Camboya |||Omán |Surinam | 
+|Camerún ||||Suazilandia |
+|Canadá ||||Suecia | 
+|Cabo Verde ||||Suiza |
+|Islas Caimán ||||República Árabe Siria |
 |República Centroafricana |
 |Chile |
 |China |
