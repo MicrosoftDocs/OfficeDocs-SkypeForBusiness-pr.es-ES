@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 10/20/17
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85956acbdd07ea5e014c93a1229a1ebc432b718f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458879"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640717"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================
 
-El propietario de un equipo en Microsoft Teams puede agregar y administrar invitados en sus equipos a través de la versión web o de escritorio. Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook.com o Gmail.com) puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo. Solo se puede agregar como invitados a personas que sean externas a la organización, como socios o consultores. Aquellos que pertenecen a la organización se pueden unir como miembros habituales del equipo.
+El propietario de un equipo en Microsoft Teams puede agregar y administrar invitados en sus equipos a través de la versión web o de escritorio. Cualquier usuario con una cuenta de correo electrónico empresariales o de clientes, como Outlook, Gmail u otras personas, puede participar como invitado en los equipos con acceso total al equipo chats, reuniones y archivos. Solo se puede agregar como invitados a personas que sean externas a la organización, como socios o consultores. Aquellos que pertenecen a la organización se pueden unir como miembros habituales del equipo.
   
 > [!NOTE]
 > Antes de que los invitados se puedan unir a un equipo, un administrador debe habilitar el acceso de invitado a Microsoft Teams. Para ello, vea [Activar o desactivar el acceso como invitado para equipos de Microsoft](set-up-guests.md). 

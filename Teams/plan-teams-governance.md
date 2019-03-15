@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/10/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: rowille
 description: Obtenga información acerca de cómo planear la implementación de las capacidades de gobierno en los equipos.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0792bf80ebc2d55f4f60e72fe0373a6d86df3923
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464879"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640949"
 ---
-# <a name="plan-for-governance-in-teams"></a>Plan de gobierno en los equipos
+# <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
 Los equipos proporciona un amplio conjunto de herramientas para implementar cualquier capacidades de gobierno, es posible que requiere su organización. En este artículo es una guía para profesionales de TI para las preguntas adecuadas para determinar los requisitos para el gobierno y cómo cumplirlos. 
 

@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 layout: LandingPage
-ms.date: 02/15/2019
+ms.date: 03/14/2019
 ms.topic: landing-page
 ms.service: msteams
 ms.collection:
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, diapositivas de PowerPoint, tutoriales y otros recursos para los administradores acerca de cómo planear, implementación y ejecutan Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 85ff5f21b1e23f2ff0407272a3e86885b779a3d6
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f166d3a00fbf0ea9b51fa1d083ed490d7323df0c
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461855"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641163"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -90,10 +90,11 @@ Utilice los recursos de aprendizaje para autodidacta acerca de los equipos, ense
 | ------------ | -------------------- | -------------------- |
 | Fundamentos - componentes principales | [Vídeo](https://aka.ms/teams-foundations) | [Baraja](https://aka.ms/teams-foundations-deck) |
 | Cliente de escritorio de Windows | [Vídeo](https://aka.ms/teams-clients) | [Baraja](https://aka.ms/teams-clients-deck) |
-| Gobierno, administración y Lifecylce | [Vídeo](https://aka.ms/teams-governance) | [Baraja](https://aka.ms/teams-governance-deck) |
+| Gobierno, administración y ciclo de vida | [Vídeo](https://aka.ms/teams-governance) | [Baraja](https://aka.ms/teams-governance-deck) |
 | Planificación de la red | [Vídeo](https://aka.ms/teams-networking) | [Baraja](https://aka.ms/teams-networking-deck) |
 | Introducción a la calidad de llamadas | [Vídeo](https://aka.ms/teams-quality) | [Baraja](https://aka.ms/teams-quality-deck) |
 | Introducción de las reuniones | [Vídeo](https://aka.ms/teams-meetings-intro) | [Baraja](https://aka.ms/teams-meetings-intro-deck) |
+| Eventos en directo | [Vídeo](https://aka.ms/teams-live-events-session) | [Baraja](https://aka.ms/teams-live-events-deck) |
 | Introducción del sistema de teléfono | [Vídeo](https://aka.ms/teams-phone-system) | [Baraja](https://aka.ms/teams-phone-system-deck) |
 | Enrutamiento directo | [Vídeo](https://aka.ms/teams-direct-routing) | [Baraja](https://aka.ms/teams-direct-routing-deck) |
 | Actualización de Skype Empresarial a Microsoft Teams | [Vídeo 1: Introducción a la actualización](https://aka.ms/teams-upgrade-intro)</br>[Vídeo 2: Planear la actualización](https://aka.ms/teams-upgrade-plan)</br>[Vídeo 3: Interoperabilidad y coexistencia](https://aka.ms/teams-upgrade-coexistence-interop)</br>[Vídeo 4: Experiencia del administrador](https://aka.ms/teams-upgrade-admin) | [Baraja](https://aka.ms/teams-upgrade-deck)|
@@ -105,9 +106,9 @@ Utilice los recursos de aprendizaje para autodidacta acerca de los equipos, ense
 
 <h2>Tutoriales</h2>
 
-- [Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
+- [Tutorial: Cambiar de Skype Empresarial a Teams](tutorial-journey-skypeforbusiness-to-teams.yml)
 - [Tutorial: Reuniones en Teams](tutorial-meetings-in-teams.yml)
-- [Tutorial: Conferencias de Audio en los equipos](tutorial-audio-conferencing.yml)
+- [Tutorial: Audioconferencia en Microsoft Teams](tutorial-audio-conferencing.yml)
 - [Tutorial: Comprender las llamadas en Microsoft Teams](tutorial-calling-in-teams.yml)
 
 <h2>Cursos</h2>

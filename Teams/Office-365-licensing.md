@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 04/16/2018
-ms.topic: article
+ms.topic: reference
 audience: Admin
 ms.service: msteams
 ms.reviewer: ''
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a2eeffd8e59272c1f7c8fa756edecab94fd5ab11
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 20a10288c53ef26e47f50339c581901bd4e33958
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460271"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640701"
 ---
 <a name="office-365-licensing-for-microsoft-teams"></a>Licencias de Office 365 para Microsoft Teams
 ========================================
@@ -46,7 +46,7 @@ Para obtener más información acerca de cómo obtener los equipos, desproteger 
 > Teams también está disponible para organizaciones sin ánimo de lucro. Los equipos comenzará a implantar para el nos gubernamentales en la nube Comunidad (GCC), el 17 de julio y que esté disponible para todos los clientes optan por el final de agosto de 2018. Estamos trabajando para traer Microsoft Teams a las otras nubes de gobierno de Estados Unidos (GCC alta y DoD) próximamente. Obtenga más información en el blog de Microsoft Teams [aquí](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-will-be-available-July-17-for-the-US-Government/ba-p/209976).
 
 > [!NOTE]
-> Desde el 1 de octubre de 2018, los nuevos clientes de Office 365 con 500 puestos o menos se incorporarán en Microsoft Teams y no tendrán acceso a Skype Empresarial Online. Los inquilinos que ya usan Skype Empresarial Online podrán seguir haciéndolo (incluido el aprovisionamiento de nuevos usuarios) hasta que completen la transición a Teams. Para obtener más información, consulte [Microsoft Teams es ahora el cliente principal para las reuniones y las llamadas en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
+> Iniciar el 1 de octubre de 2018 nuevos clientes de Office 365 con 500 puestos o menos serán onboarded a los equipos y no tendrán acceso a Skype para profesionales en línea. Los inquilinos que ya está usando Skype para profesionales en línea podrá continuar al hacerlo es así (incluido el aprovisionamiento de nuevos usuarios) hasta que se complete su transición a los equipos. Para obtener más información, vea [Microsoft equipos ahora el cliente principal para las reuniones y llamar en Office 365](https://support.microsoft.com/help/4465277/microsoft-teams-now-the-primary-client-for-meetings-and-calling).
         
 En términos de funcionalidades principales de los equipos, no existen diferencias entre las suscripciones de Office 365. La disponibilidad de las capacidades de cumplimiento no depende del nivel de suscripción adecuado. Para aprender más cosas a este respecto, lea [Información general de seguridad y cumplimiento en Microsoft Teams](security-compliance-overview.md). Para obtener una lista detallada de las características disponibles en cada suscripción, vea la [Descripción del servicio de plataforma de Office 365](https://technet.microsoft.com/library/office-365-platform-service-description.aspx).
 

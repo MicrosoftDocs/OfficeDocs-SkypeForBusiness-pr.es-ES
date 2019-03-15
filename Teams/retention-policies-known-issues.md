@@ -1,10 +1,10 @@
 ---
-title: Problemas conocidos de las directivas de retención en Microsoft Teams
+title: Problemas conocidos para directivas de retención en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
 description: Lista actual de problemas conocidos de las directivas de retención de Microsoft Teams.
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 411ef4bf12d55af0b913443219a00f3f56c7eba2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e64bcb2959060b8237f06a1986f15a093eb321a2
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461191"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641155"
 ---
-# <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problemas conocidos de las directivas de retención en Microsoft Teams
+# <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problemas conocidos para directivas de retención en Microsoft Teams
 
 Los siguientes son problemas conocidos que para las directivas de retención en los equipos que se va a realizar un seguimiento e investigarse.
 

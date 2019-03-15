@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 msreviewer: jastarck, makolomi
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: bc9756d1-8a2f-42c4-98f6-afb17c29231c
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 051834d3a0fd232cc9839ee6a72a41e9be127636
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3982afffc948d58d6793b13c06fa3d29d8e48ac9
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542922"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640925"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
-Un PBX es un sistema telefónico dentro de una empresa. El sistema de teléfono en el complemento de Office 365 proporciona capacidades de PBX, pero sin la costoso y complejo de equipos. 
+Un sistema PBX es un sistema de teléfono dentro de una empresa. El sistema de teléfono en el complemento de Office 365 proporciona capacidades de PBX, pero sin la costoso y complejo de equipos. 
   
 Con el complemento del sistema de teléfono, puede usar Skype para la empresa para llevar a cabo tareas básicas, como realizar y recibir llamadas, transferencia de llamadas y llamadas silenciar el audio o unmuting, desde casi cualquier lugar con acceso a Internet. Y está disponible en todo el mundo. 
   
@@ -77,7 +77,7 @@ Configurar el sistema telefónico de la manera que mejor se adapte a su negocio:
     
 Vea estos artículos para planear y configurar el sistema telefónico en su negocio:
 
-- [Sistema telefónico con Planes de llamada](calling-plan-landing-page.md)
+- [Sistema telefónico con planes de llamada](calling-plan-landing-page.md)
 
 - [Configurar planes de llamada](set-up-calling-plans.md): este artículo contiene instrucciones paso a paso para configurar la aplicación con sus números de teléfono o para transferir los números de teléfono existente a Skype para la empresa.
     

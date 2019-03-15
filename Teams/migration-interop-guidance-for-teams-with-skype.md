@@ -3,7 +3,7 @@ title: Guía de migración e interoperabilidad para organizaciones que usan Team
 author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Instrucciones para la administración de la transición a los equipos de Skype para la empresa
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d4c0733b30118bc09004d84f8c4b9db64f58e23
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2fe85942a943bcfb5a9645030924acd4180d250a
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494280"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641346"
 ---
 # <a name="migration-and-interoperability-guidance-for-organizations-using-teams-together-with-skype-for-business"></a>Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial
 
@@ -83,9 +83,9 @@ Los modos se enumeran a continuación.
 |---|---|---|---|---|
 |**TeamsOnly**</br>*Requiere home en Skype para profesionales en línea*|Microsoft Teams|Microsoft Teams|Sí|El estado final del que se está actualizando. También el valor predeterminado para los inquilinos nuevo con <500 puestos.|
 |Islas|cualquiera de los dos|cualquiera de los dos|Sí|Configuración predeterminada. Permite que un único usuario evaluar ambos al lado del cliente. Charlas y las llamadas se pueden colocar en cualquier cliente, por lo que los usuarios siempre deben ejecutar a ambos clientes.|
-|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype for Business|Microsoft Teams|Sí|"Reuniones primera". Principalmente para organizaciones locales para beneficiarse de la funcionalidad de reunión de los equipos, si aún no están aún está listo para el modo de llamar a la nube.|
-|SfBWithTeamsCollab<sup>2</sup>|Skype for Business|Skype for Business|Sí|Punto de partida alternativa para las organizaciones complejas que necesitan un control administrativo estricta|
-|SfBOnly|Skype for Business|Skype for Business|No hay<sup>3</sup>|Especializados escenario para organizaciones con estrictos requisitos alrededor de control de datos. Los equipos sólo se utiliza para participar en reuniones programadas por otros usuarios.|
+|SfBWithTeamsCollabAndMeetings<sup>2</sup>|Skype Empresarial|Microsoft Teams|Sí|"Reuniones primera". Principalmente para organizaciones locales para beneficiarse de la funcionalidad de reunión de los equipos, si aún no están aún está listo para el modo de llamar a la nube.|
+|SfBWithTeamsCollab<sup>2</sup>|Skype Empresarial|Skype Empresarial|Sí|Punto de partida alternativa para las organizaciones complejas que necesitan un control administrativo estricta|
+|SfBOnly|Skype Empresarial|Skype Empresarial|No hay<sup>3</sup>|Especializados escenario para organizaciones con estrictos requisitos alrededor de control de datos. Los equipos sólo se utiliza para participar en reuniones programadas por otros usuarios.|
 ||||||
 
 </br>

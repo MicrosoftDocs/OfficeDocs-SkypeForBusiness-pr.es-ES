@@ -4,7 +4,7 @@ author: LanaChin
 ms.author: v-lanac
 manager: serdars
 ms.date: 2/1/2019
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
 search.appverid: MET150
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ec6558873da0db3537f6c5ae82b6624a3af369
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: a8e02f8c9c9371771f41b1fc724bcc2f40ebd69b
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462399"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640965"
 ---
 # <a name="location-based-routing-terminology"></a>Terminología de enrutamiento basado en la ubicación
 

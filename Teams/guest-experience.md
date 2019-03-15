@@ -4,7 +4,7 @@ author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
 ms.date: 11/26/18
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sbhatta
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9301ecf94588560b1ba11b17b2c7f92d89cb072a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458983"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641084"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -56,19 +56,19 @@ En la siguiente tabla muestra las características llamadas y convocatorias de r
 
 | Característica de llamada | Invitado | Usuario E1 y E3 | Usuario E5 y EV |
 | --------------- | ----- | -------------- | -------------- |
-| Llamadas de VOIP | Sí | Sí | Sí |
-| Llamada de grupo | Sí | Sí | Sí |
-| Los controles de llamada principal compatible (suspensión, vídeo silencio, activado/desactivado, uso compartido de pantalla) | Sí | Sí | Sí |
-| Destino de transferencia | Sí | Sí | Sí |
-| Puede transferir una llamada | Sí | Sí | Sí |
-| Puede a transferencia con consulta | Sí | Sí | Sí |
-| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí | Sí |
+| Llamadas de VOIP | Sí | Sí  | Sí  |
+| Llamada de grupo | Sí | Sí  | Sí  |
+| Los controles de llamada principal compatible (suspensión, vídeo silencio, activado/desactivado, uso compartido de pantalla) | Sí | Sí  | Sí  |
+| Destino de transferencia | Sí | Sí  | Sí  |
+| Puede transferir una llamada | Sí | Sí  | Sí  |
+| Puede a transferencia con consulta | Sí | Sí  | Sí  |
+| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí  | Sí  |
 | Puede agregar usuarios por número de teléfono a una llamada | No | No | Sí |
-| Destino hacia delante | No | Sí | Sí |
-| Destino de grupo de llamada | No | Sí | Sí |
-| Destino no respondida | No | Sí | Sí |
-| Puede ser el destino de una llamada federada | No | Sí | Sí |
-| Puede realizar una llamada federada | No | Sí | Sí |
+| Destino hacia delante | No | Sí | Sí  |
+| Destino de grupo de llamada | No | Sí | Sí  |
+| Destino no respondida | No | Sí | Sí  |
+| Puede ser el destino de una llamada federada | No | Sí | Sí  |
+| Puede realizar una llamada federada | No | Sí | Sí  |
 | Inmediatamente se puede desviar sus llamadas | No | No | Sí |
 | Puede llamar simultáneamente a sus llamadas | No | No | Sí |
 | Puede enrutar sus llamadas no respondidas | No | No | Sí |

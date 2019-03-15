@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.date: 11/15/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eec164da4dafe9be54272a72680cfa920d32d60c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5dc79f6913a2996734b34d589f124c440eb9835e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458815"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641108"
 ---
 <a name="sign-in-to-microsoft-teams-using-modern-authentication"></a>Iniciar sesión en Microsoft Teams con la autenticación moderna
 ==========================
@@ -49,7 +49,6 @@ Cuando los usuarios inicien los equipos, su equipo no podrá extraer sus credenc
 Si los usuarios están trabajando en un equipo unido a un dominio (por ejemplo, si su inquilino ha habilitado Kerberos), no pueden cambiar las cuentas de usuario una vez que hayan completado la autenticación moderna. Si los usuarios no están trabajando en un equipo unido a un dominio, puede cambiar de cuentas.
 
 ## <a name="signing-out-of-microsoft-teams-after-completing-modern-authentication"></a>Cerrar una sesión de Microsoft Teams después de completar la autenticación moderna
-
 Para desconectarse de los equipos, los usuarios pueden haga clic en su imagen de perfil en la parte superior de la aplicación y, a continuación, seleccione **Cerrar sesión**. Pueden también (ratón) en el icono de la aplicación en la barra de tareas y, a continuación, seleccione **Cerrar la sesión**. Una vez que ha de cerrar la sesión de equipos, que se necesitan escribir sus credenciales de nuevo para iniciar la aplicación.
 
 ## <a name="troubleshooting-modern-authentication"></a>Solución de problemas de autenticación moderna

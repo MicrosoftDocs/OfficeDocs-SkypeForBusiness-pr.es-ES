@@ -1,26 +1,28 @@
 ---
-title: Presencia de usuario en los equipos
+title: La presencia del usuario en Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: rakayala
 description: Los administradores de información deben conocer acerca de la presencia en los equipos.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_Help
+MS.collection:
+- Teams_ITAdmin_Help
+- M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1934a602d89240c89ffb4f7410192d19a7dd2e61
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 75710a428273a38954de38ef5b6094d412aa3085
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533029"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640973"
 ---
-# <a name="user-presence-in-teams"></a>Presencia de usuario en los equipos
+# <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
 
 Presencia forma parte de un perfil de usuario en Microsoft Teams (y a lo largo de Office 365) – e indica la disponibilidad actual y el estado a otros usuarios de la organización del usuario. De forma predeterminada, cualquier persona de su organización con los equipos puede ver si otros usuarios están disponibles en línea.
 
@@ -42,7 +44,7 @@ Los Estados de presencia de usuario disponibles en los equipos son:
 || ![ausente](media/Presence_Away.png) como ausente último visto *tiempo*|
 |![estado ausente](media/Presence_Away.png) Enseguida regreso| |
 || ![estado ausente](media/Presence_Away.png)  Día libre|
-|| ![Sin conexión](media/Presence_Offline.png) Sin conexión |
+|| ![sin conexión](media/Presence_Offline.png) sin conexión |
 || ![desconocido](media/Presence_Unknown.png) Estado desconocido|
 ||![bloqueado](media/Presence_Blocked.png) Bloqueado |
 || ![Fuera de la oficina](media/Presence_OOF.png) Fuera de la oficina|
@@ -58,7 +60,7 @@ Los usuarios pueden especificar quién puede interrumpir a través de (póngase 
 
 La siguiente configuración de administración en Skype para la empresa es diferente en los equipos:
 - Uso compartido de presencia siempre está habilitado en los equipos de los usuarios de la organización. Configuración de privacidad (decidir quién puede ver la presencia) no está disponible en los equipos.
-- Uso compartido con todos los usuarios (incluidos los servicios federados) de presencia siempre está habilitado para los usuarios en los equipos. Está visible en su lista de contactos (si tuvieran uno en SfB) **conversaciones > contactos** o en **llamadas > contactos**.
+- Uso compartido con todos los usuarios (incluidos los servicios federados) de presencia siempre está habilitado para los usuarios en los equipos. Su lista de contactos (si tuvieran uno en SfB) está visible en **conversaciones > contactos** o en **las llamadas > contactos**.
 - Características de cliente no molestar e innovadora siempre están habilitadas para los usuarios en los equipos.
 - Calendario (incluye OOF & otra información de calendario) integración siempre está habilitada para los usuarios de los equipos si integrado con Outlook.
 - El indicador de *Ausente desde* (si está en un entorno dual con Skype para la empresa) o *visto por última vez* siempre está habilitado para los usuarios en los equipos.
@@ -68,6 +70,6 @@ La siguiente configuración de administración en Skype para la empresa es difer
 > La capacidad de una administración de equipos para personalizar estas opciones no se admite actualmente.
 
 
-## <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype para la empresa
+## <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
 Para obtener información detallada sobre el funcionamiento de presencia de los equipos cuando coexisten con Skype para la empresa, vea [coexistencia con Skype para la empresa](coexistence-chat-calls-presence.md) . 

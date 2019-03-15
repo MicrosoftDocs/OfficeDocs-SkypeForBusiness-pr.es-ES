@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 06/08/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: sonua
 localization_priority: Normal
@@ -16,12 +16,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Describe cómo utiliza la carga de trabajo de los equipos flujos de Office 365 en varias topologías.
-ms.openlocfilehash: 485bd1706a3b5df9ca7ca92a8644f2470f95b739
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 49393337fd8e4f5c0bbfdf8b3cea0edf383fbd57
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460743"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641092"
 ---
 # <a name="microsoft-teams-online-call-flows"></a>Flujos de llamada de Microsoft Teams Online
 

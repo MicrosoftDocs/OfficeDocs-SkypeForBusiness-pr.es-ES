@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e542dbcba4d098d197dfd70ab663aa06c9144f4c
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 17ef7a0575de20fcef7a10e71d8b81e1504f947e
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458839"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640677"
 ---
 <a name="get-tools-to-support-a-rollout-of-microsoft-teams"></a>Herramientas para ayudar con el lanzamiento de Microsoft Teams
 =================================================
@@ -28,7 +28,7 @@ El Kit para el éxito del cliente de Microsoft proporciona herramientas que le a
 
 ### <a name="learn-adjust-and-repeat"></a>Aprenda, ajuste y repita
 
-Mientras usa los recursos del Kit para el éxito del cliente siguiendo los pasos que le recomendamos aquí, otros participantes, expertos y usuarios están compartiendo sus comentarios. Esta valiosa información puede serle útil para reajustar su enfoque, su mensaje y los modelos para impulsar una adopción adicional y, en definitiva, obtener resultados para su negocio. Disponer de flexibilidad en un modelo de administración de servicios ágil resulta crucial para lograr el éxito ante el ritmo actual de los negocios. Si está leyendo este documento, es porque es uno de los principales responsables del éxito de esta implementación y su capacidad para ajustar su plan según las condiciones actuales acelerará la curva de adopción de su compañía.
+Como vaya a través de los pasos recomendados aquí mediante los recursos del Kit de éxito de clientes, su las partes interesadas, campeones y los usuarios compartirán los comentarios. Estos valiosos conocimientos pueden ayudar a ajustar su enfoque, mensajería y modelos para impulsar la adopción adicional y finalmente land los resultados de su negocio. Flexibilidad en un modelo de administración de servicio ágil es fundamental en la entrega de éxito en el ritmo de los negocios hoy en día. Si está leyendo este documento, es uno de los principales responsables del éxito de esta implementación y la posibilidad de ajustar el plan según las condiciones actuales se acelerar la curva de adopción de la compañía.
 
 Microsoft Teams está diseñado para impulsar la colaboración, además de ser un servicio robusto y fácil de usar. Si realiza una revisión periódica de los resultados del negocio, se asegurará de lograr un impacto de negocio medible dentro de estas prioridades durante la adopción de Microsoft Teams.
 

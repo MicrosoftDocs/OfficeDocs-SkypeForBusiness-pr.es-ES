@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 10/05/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
 description: Obtenga información sobre los límites, especificaciones y otros requisitos que se aplican a Microsoft Teams.
@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4da0f7049912c246a58792c8c03c15b28a083cbc
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460655"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641171"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -80,7 +80,7 @@ Función de chat de Microsoft Teams funciona en un back-end de Microsoft Exchang
 |Característica  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Límite de tamaño de mensaje&dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Límite de datos adjuntos del archivo&Dagger;  | 10     | 10     | 10     | 10    |
+|Límite de datos adjuntos del archivo&Dagger;  |10     |10     |10     |10    |
 |Límite de imágenes en línea&Dagger; |50   |50   |50   |50   |
 
 &dagger;Si el mensaje supera este límite, se genera una vista previa del mensaje y se pregunta al usuario a la vista y descarga el correo electrónico original desde el vínculo proporcionado.
@@ -89,7 +89,7 @@ Función de chat de Microsoft Teams funciona en un back-end de Microsoft Exchang
 
 Para obtener más información, vea [los límites de Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>Exploradores de  
+<a name="browsers"></a>Exploradores 
 --------
 
 [!INCLUDE [browser-support](includes/browser-support.md)]

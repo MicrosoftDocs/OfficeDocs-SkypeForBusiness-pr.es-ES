@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Una lista de recursos de soporte técnico para Microsoft Teams que le ayudarán a usarlo de manera más eficiente y efectiva.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf6360afa81303531773cf9e1c931156fc537831
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c4342552711aad3cc22ede2d055c62d7fae69dab
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462863"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30641227"
 ---
 <a name="support-resources-for-microsoft-teams"></a>Recursos de soporte técnico para Microsoft Teams
 =====================================

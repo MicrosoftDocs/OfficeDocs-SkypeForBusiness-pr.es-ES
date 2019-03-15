@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/11/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: anach
 description: Una descripción general de las características de seguridad y cumplimiento de Microsoft Teams, incluyendo auditoría y creación de informes, búsqueda de contenido de cumplimiento de normas, exhibición de documentos electrónicos y mucho más.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3c1288bee6e2b1adcceb3b899f705536c8a00133
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: d78f1e0a4f1c3a5ca95dff0f50d688c2d8a6b239
+ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493984"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30640789"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -95,13 +95,13 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 
 | Funcionalidad de protección de información | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archivo              |               -                |              -              |            -             |             Sí              |           Compatibilidad en varios países o regiones            |
-|        eDiscovery local        |               -                |              -              |            -             |             Sí              |           Sí            |
+|              Archivo              |               -                |              -              |            -             |             Sí              |           Sí             |
+|        eDiscovery local        |               -                |              -              |            -             |             Sí              |           Sí             |
 |        eDiscovery avanzado        |               -                |              -              |            -             |              -              |           Sí            |
-|            Suspensión legal             |               -                |              -              |            -             |             Sí              |           Compatibilidad en varios países o regiones            |
+|            Suspensión legal             |               -                |              -              |            -             |             Sí              |           Sí             |
 |     Búsqueda de contenido de cumplimiento     |               -                |             Sí              |           Sí             |             Sí              |           Sí            |
-|      Auditoría y generación de informes       |              Sí               |             Sí              |           Sí             |             Sí              |           Compatibilidad en varios países o regiones            |
-|       Acceso condicional\*        |              Sí                |             Sí             |           Sí            |             Sí             |           Sí            |
+|      Auditoría y generación de informes       |              Sí               |             Sí              |           Sí             |             Sí              |           Sí             |
+|       Acceso condicional\*        |              Sí                |             Sí              |           Sí             |             Sí              |           Sí            |
 
 > [!NOTE]
 > \*El acceso condicional requiere licencias adicionales
