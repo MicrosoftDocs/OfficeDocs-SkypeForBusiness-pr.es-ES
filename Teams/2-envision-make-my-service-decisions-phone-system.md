@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7a277133adb520ea2a5e23cab05477f79f18ea1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461895"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568691"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
 Para planear la implementación técnica del sistema telefónico con planes de llamada, debe realizar una serie de decisiones de servicio con anterioridad para una mejor preparación de su organización para implementar una solución que cumple los requisitos de negocio definidos.
 
-## <a name="calling-in-teams"></a>Llamar en Microsoft Teams
+## <a name="calling-in-teams"></a>Al llamar a los equipos
 
 Con Microsoft Teams, los usuarios pueden realizar y recibir llamadas de teléfono a o desde la red telefónica conmutada (RTC). Los usuarios pueden utilizar sus propios números de teléfono dedicado para realizar y recibir llamadas telefónicas internacionales y nacionales de las aplicaciones de cliente de los equipos, con características avanzadas que incluyen el correo de voz.
 
@@ -42,7 +42,7 @@ Para habilitar la conectividad a la RTC, la organización puede usar Microsoft c
 > [!IMPORTANT]
 > La capacidad de usar su propio proveedor de servicios de telecomunicaciones para el sistema telefónico con la implementación de los equipos también está disponible con el enrutamiento directo teléfono del sistema. Para obtener más información sobre el enrutamiento directo, revise las [instrucciones de enrutamiento directo](2-envision-make-my-service-decisions-direct-routing.md).
 
-## <a name="phone-system-with-calling-plans"></a>Sistema telefónico con Planes de llamada
+## <a name="phone-system-with-calling-plans"></a>Sistema telefónico con planes de llamada
 
 Para usar Microsoft como proveedor de servicios de sus telecomunicaciones, debe obtener licencias de llamar a planear y asignarlos a los usuarios del sistema telefónico.
 
@@ -56,7 +56,7 @@ Cada tipo de plan de llamadas asigna un número determinado de minutos de llamad
 
 <!--ENDOFSECTION-->
 
-## <a name="availability-of-calling-plans"></a>Disponibilidad de Planes de llamada
+## <a name="availability-of-calling-plans"></a>Disponibilidad de los planes de llamada
 
 Antes de planear la implementación de una llamada a los planes en los equipos, compruebe que el servicio planes de llamada está disponible en su zona mediante la revisión de [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
 
@@ -80,11 +80,11 @@ Después de confirmar que su organización puede obtener el servicio al llamar a
 > 
 > | **Office**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
-> | One Epping Road                | Australia      | Servicio de RTC antiguo |
+> | One Epping Road                | Australia      | Servicio de RTC heredado |
 > | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo del Sistema telefónico |
 > | One Marina Boulevard           | Singapur      | Enrutamiento directo del Sistema telefónico |
-> | 32 London Bridge Street        | Reino Unido | Sistema telefónico con Planes de llamada |
-> | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con Planes de llamada |
+> | 32 London Bridge Street        | Reino Unido | Sistema telefónico con planes de llamada |
+> | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con planes de llamada |
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Después de confirmar que su organización puede obtener el servicio al llamar a
 
 Con una llamada a los planes en Office 365, todos los usuarios de su organización deben tener un único entrante directa marcando el número de teléfono (DID) y una dirección de emergencia validada correspondiente. Revise los [números de teléfono de voz en la nube de administrar](2-envision-make-my-service-decisions-phone-system.md#manage-cloud-voice-telephone-numbers) para planear la adquisición de número de teléfono para la implementación de planes de llamada.
 
-Cuando está configurando los números de teléfono para llamar a los planes, debe asignar una dirección de emergencia a cada número de teléfono antes de asignar al número a un usuario. Este paso es necesario para poder realizar llamadas de emergencia. La dirección de emergencia debe validarse para asegurarse de que se encuentra en el formato correcto para ser usados por los servicios de respuesta de emergencia.
+Cuando está configurando los números de teléfono para llamar a los planes, debe asignar una dirección de emergencia a cada número de teléfono antes de asignar al número a un usuario. Esto es necesario para admitir llamadas de emergencia. La dirección de emergencia debe validarse para asegurarse de que se encuentra en el formato correcto para ser usados por los servicios de respuesta de emergencia.
 
 > [!IMPORTANT]
 > Llamar a los servicios de emergencia funciona de forma diferente en el servicio al llamar a los planes que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios. Para obtener más información, consulte [emergencia llamar a términos y condiciones](emergency-calling-terms-and-conditions.md) .
@@ -101,7 +101,7 @@ Además de proporcionar una dirección de emergencia validada, puede definir las
 
 Para obtener más información acerca de las ubicaciones de emergencias en relación con los planes de llamada, revise los siguientes artículos:
 
--   [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
+-   [¿Qué son las direcciones, las ubicaciones de emergencia y el enrutamiento de llamadas?](what-are-emergency-locations-addresses-and-call-routing.md)
 
 -   [Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
@@ -117,10 +117,10 @@ Para obtener más información acerca de las ubicaciones de emergencias en relac
 > 
 > |Usuario |Dirección y la ubicación de emergencia |Número de teléfono |
 > |-----|-------------------------------|-------------|
-> |Emily Braun |1034/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8901 |
+> |Emily Braun |Calle de puente de Londres 1034/32, London, SE1, Reino Unido |+ 44 23 4567 8901 |
 > |Lidia Holloway |Calle de puente de Londres 1065/32, London, SE1, Reino Unido |+ 44 23 4567 89112 |
-> |Louis Lahr |1023/32 London Bridge Street, Londres, SE1, Reino Unido |+ 44 23 4567 8921 |
-> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, 92130 Issy-les-Moulineaux, Francia | Por añadir |
+> |Louis Lahr |Calle de puente de Londres 1023/32, London, SE1, Reino Unido |+ 44 23 4567 8921 |
+> |Marcel Beauchamp |07E15D/39 quai du Président Roosevelt, Issy 92130-LECS-Moulineaux, Francia | Por añadir |
 > |Rachelle Cormier |07N15D/39 quai du Président Roosevelt, Issy 92130-LECS-Moulineaux, Francia | Por añadir |
 > |Isabell Potvin |07F05E/39 quai du Président Roosevelt, Issy 92130-LECS-Moulineaux, Francia | Por añadir |
 
@@ -155,14 +155,14 @@ Para obtener más información acerca de correo de voz en una implementación de
 > |Lidia Holloway   |Online      |Sí |Habilitado |Deshabilitado |
 > |Louis Lahr       |Local |Sí |Habilitado |Habilitado |
 > |Marcel Beauchamp |Local |Sí |Deshabilitado |N/D |
-> |Rachelle Cormier |En línea      |Sí |Deshabilitado |N/D |
+> |Rachelle Cormier |Online      |Sí |Deshabilitado |N/D |
 > |Isabell Potvin   |Local |Sí |Deshabilitado |N/D |
 
 <!--ENDOFSECTION-->
 
 ## <a name="calling-identity"></a>Identidad de llamada
 
-De forma predeterminada, todas las llamadas salientes usan el número de teléfono asignado como identidad de llamada (identificador de llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada. En algunos casos, existen requisitos de negocio legítimo para enmascarar el identificador de autor de la llamada para proteger la identidad de los autores de llamadas mediante el número de línea principal de office: suele ser un número de servicio atendido por la configuración del operador automático — como identificador de autor de la llamada, o bien para bloquear el identificador de autor de la llamada presentación por completo.
+De forma predeterminada, todas las llamadas salientes utilizan el número de teléfono asignado como llamada identidad (identificador de autor de la llamada). El destinatario de la llamada puede identificar rápidamente a la persona que llama y decidir si desea aceptar o rechazar la llamada. En algunos casos, existen requisitos de negocio legítimo para enmascarar el identificador de autor de la llamada para proteger la identidad de los autores de llamadas mediante el número de línea principal de office: suele ser un número de servicio atendido por la configuración del operador automático — como identificador de autor de la llamada, o bien para bloquear el identificador de autor de la llamada presentación por completo.
 
 <br>
 
@@ -174,13 +174,13 @@ De forma predeterminada, todas las llamadas salientes usan el número de teléfo
 > [!TIP]
 > El siguiente es un ejemplo de documentación de detalles del enmascaramiento de identificador de autor de la llamada.
 > 
-> |Usuario  |Habilitar el enmascaramiento del identificador de llamada en llamadas salientes  |Tipo de enmascaramiento del identificador de llamada  |Permitir la invalidación por parte del usuario  | Habilitar el enmascaramiento del identificador de llamada en llamadas entrantes  |
+> |Usuario  |Habilitar el enmascaramiento de identificador de autor de la llamada saliente  |Tipo de enmascaramiento de identificador de autor de la llamada  |Permitir invalidación de usuario  | Habilitar el enmascaramiento de identificador de autor de la llamada entrante  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|No|N/D|Sí|No|
-> |Lidia Holloway|Sí|Número de servicio (OrgAA, +44 20 7946 0000)|No|Sí|
-> |Louis Lahr|No|N/D|Sí|No|
+> |Emily Braun|No|N/D|No|No|
+> |Lidia Holloway|Sí|Número de servicio (OrgAA, + 44 20 7946 0000)|No|Sí|
+> |Louis Lahr|No|N/D|No|No|
 > |Marcel Beauchamp|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
-> |Rachelle Cormier|Sí|Anonimizar|No|No|
+> |Rachelle Cormier|Sí|Definir como anónimo|No|No|
 > |Isabell Potvin|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
 
 <!--ENDOFSECTION-->
@@ -193,24 +193,24 @@ Planes de llamada es un complemento a la característica de sistema telefónico 
 
 Para admitir para conferencias de Audio adicionales y llamar a los planes de usan (Conferencia internacional de salida, externo de llamada después de llamar a planear asignaciones minutos agotar y así sucesivamente) de los casos, puede configurar Communications créditos para su organización.
 
-## <a name="licensing-for-calling-plans"></a>Licencias de Planes de llamada
+## <a name="licensing-for-calling-plans"></a>Concesión de licencias para planes de llamada
 
 Si su organización va a utilizar Microsoft como proveedor de servicios de telecomunicaciones, necesita obtener una llamada a planear los complementos adecuados a los requisitos de negocio de los usuarios. Por lo general, no todo el mundo en una organización necesita realizar llamadas internacionales, por lo que puede aprovisionar la mayoría de los usuarios con licencias de llamar a planear nacionales.
 
-Hay dos tipos de licencia de Planes de llamada:
+Hay dos tipos de licencias de planeación de la llamada:
 
 -   Plan de llamada nacional
 
 -   Plan de llamada nacional e internacional
 
 > [!NOTE]
-> La definición de "nacional" para un usuario específico está determinada por la ubicación de uso de Office 365 asignada al usuario.
+> ¿Qué se considera "interno" para un usuario concreto está determinada por la ubicación del usuario asignada Office 365 uso.
 
-Cada tipo de Plan de llamada proporciona una asignación de minutos de llamada que los usuarios pueden usar al mes, ya sea para realizar llamadas nacionales o internacionales. Los costos de llamar a planear nacionales que menor en comparación con el Plan de llamar a nacional e internacional.
+Cada tipo de planeación de la llamada proporciona una asignación de una llamada al minutos que los usuarios pueden usar al mes, ya sea para hacer llamadas nacionales o las llamadas internacionales. Los costos de llamar a planear nacionales que menor en comparación con el Plan de llamar a nacional e internacional.
 
 La flexibilidad de la suscripción y asignar al tipo de planeación de la llamada más adecuado para los requisitos de negocio de los usuarios individuales ayuda a su organización a controlar los costos de su implementación de planes de llamada.
 
-Para cada inquilino de Office 365, la cantidad combinada de minutos de llamada se agrupa por país o región, y por tipo de Plan de llamada. Cuando un inquilino llega al límite de minutos de llamada mensual, el servicio de Planes de llamada se suspende hasta finalizar el mes (a excepción de las llamadas de emergencia). El servicio de planes de llamada se reanudará automáticamente en el primer día del mes de calendario siguiente.
+Para cada inquilino de Office 365, el número total de minutos que realiza la llamada se agrupa por país o región y por tipo de planeación de la llamada. Cuando se alcanza el capital minutos llamada mensual para el inquilino, llamar a los planes de servicio (excepto para llamadas de emergencia) se suspenderá durante el resto del mes. El servicio de planes de llamada se reanudará automáticamente en el primer día del mes de calendario siguiente.
 
 Puede configurar Communications créditos para las organizaciones habilitar a los usuarios realizar llamadas salientes a después de la asignación de una llamada al minutos se agota sin tener que esperar hasta el mes próximo ciclo de facturación. Además, créditos Communications proporcionan asignar a los usuarios el Plan de llamar a nacionales la capacidad de realizar llamadas internacionales, que, a continuación, se cargan mediante un modelo de "pago por minuto".
 
@@ -409,17 +409,17 @@ Para obtener más información acerca de los planes de marcado, vea [¿Qué son 
 
 Use la información de las secciones anteriores de este artículo para documentar las decisiones de servicio. En general, esta documentación contiene las secciones principales siguientes:
 
--   Lista de habilitación del sitio de Sistema telefónico con Planes de llamada
+-   Sistema telefónico con planes de llamar a la lista de habilitación de sitios
 
--   Asignación de licencias a usuarios de Sistema telefónico con Planes de llamada
+-   Asignación de licencias para el sistema telefónico con planes de llamar a los usuarios
 
 -   Números de planificación de Créditos de comunicaciones
 
--   Adquisición de números de teléfono, número de teléfono y detalles de las ubicaciones de emergencia
+-   Adquisición de número de teléfono, números de teléfono y detalles de las ubicaciones de emergencia
 
--   Detalles de la configuración del correo de voz
+-   Detalles de configuración de correo de voz
 
--   Detalles de la configuración del enmascaramiento del identificador de llamada
+-   Identificador de autor de la llamada detalles de configuración de transparencias
 
 -   Planes de marcado de inquilino
 

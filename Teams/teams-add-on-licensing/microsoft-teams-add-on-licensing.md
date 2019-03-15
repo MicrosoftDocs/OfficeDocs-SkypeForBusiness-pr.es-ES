@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: Obtenga información sobre las licencias de complemento, las características que se obtienen con cada licencia, cómo comprar un producto para el producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y plan de detalles para Office 365, créditos de comunicación, y los planes de llamada.
-ms.openlocfilehash: 5912ac5cf79f0db7aaf02fa4d8425d3da80a99bb
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 8b3e68fe89f2a7f07f5f117d60c2a74327a891ca
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543082"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633237"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
@@ -38,7 +38,7 @@ Licencias de Microsoft Teams está diseñada para dar a la cantidad máxima de f
 
 Para la mayoría de las empresas, comprar un lote de software en un plan Enterprise comportará un coste total menor. Normalmente, cuando compran varias licencias adicionales de forma individual, en lugar de como parte de un plan, puede terminar con mayor costo combinado.
 
-Para obtener más información sobre costes, consulte [Cómo ver los precios y comprar licencias de complementos](microsoft-teams-add-on-licensing.md#bkmk_how) o uno de los siguientes:
+Para obtener más información de costo, vea uno de los siguientes:
 
 - [Precios de Audioconferencia](https://products.office.com/microsoft-teams/online-meeting-solutions)
 

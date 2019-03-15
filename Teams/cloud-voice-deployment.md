@@ -4,7 +4,7 @@ author: arachmanGitHub
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: MyAdvisor
@@ -15,16 +15,16 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e6d8057fa2cba1f14ed00eebebdb522144eb283d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 953c971c39bde9d112619fcaee145008c378f1a3
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458919"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568443"
 ---
 # <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 
-Microsoft Teams, el concentrador de trabajo en equipo y comunicaciones en Office 365, ahora proporciona conferencias de Audio, el sistema telefónico con planes de llamada, y sistema telefónico directa capacidades de enrutamiento para cumplir los requisitos de negocio adicionales mediante la ampliación de la reunión de los equipos y experiencia de llamada para incluir usuarios externos conectados a través de la red telefónica conmutada (RTC).
+Microsoft Teams, el centro de trabajo en equipo y comunicaciones de Office 365, proporciona ahora las funcionalidades de Audioconferencia, Sistema telefónico con Planes de llamada y Enrutamiento directo del Sistema telefónico. De este modo, satisface los requisitos empresariales adicionales al ampliar la experiencia de reuniones y llamadas de Teams e incluir usuarios externos que se conecten a través de la red telefónica conmutada (RTC).
 
 
 > [!Tip] 
@@ -44,7 +44,7 @@ Aquí es lo que se obtiene con las [Conferencias de Audio](https://docs.microsof
 
 ## <a name="phone-system-with-calling-plans-calling-plans-in-microsoft-teams"></a>Sistema telefónico al llamar a planes ("planes de llamada") en los equipos de Microsoft
 
-Sistema telefónico es una funcionalidad de Office 365 que permite administrar el enrutamiento de llamadas, las directivas y el aprovisionamiento de usuarios. Aquí se incluye el sistema de administración de llamadas, el enrutamiento de llamadas y el control de llamadas.
+Sistema telefónico es una característica de Office 365 que proporciona la capacidad para administrar el enrutamiento de llamadas, directivas y aprovisionamiento de los usuarios. Esto incluye el sistema de administración, el enrutamiento de llamadas y el control de llamadas de llamada telefónica.
 
 Planes de llamada es un servicio de complemento para la característica de sistema telefónico entregada a través de los equipos y Skype para profesionales en línea. Planes de llamada requiere que el usuario en cuestión se hospedados en Skype para empresarial en línea para que funcionen en Microsoft Teams. Planes de llamada proporcionan las personas de su empresa con un número de teléfono principal y les permite realizar y recibir llamadas de teléfono externos a su organización a través de la RTC.
 
@@ -64,7 +64,7 @@ Esta orientación práctica se organiza mediante el marco de viaje de atención 
 > [!div class="mx-tableFixed"]
 > |Enfoque  |Incorporación  |Nuevos valores  |
 > |---------|---------|---------|
-> |[Definir mi éxito](1-envision-define-my-success-cloud-voice.md) <br> Mi las decisiones de servicio <br>&nbsp;&nbsp;[Conferencias de audio](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Planes de llamada](2-envision-make-my-service-decisions-phone-system.md)o [directa de enrutamiento](2-envision-make-my-service-decisions-direct-routing.md) <br> [Evaluar mi entorno](3-envision-evaluate-my-environment.md) <br> [Planeación de la administración del servicio de mi](4-envision-plan-my-service-management.md) <br> [Planeación de la experiencia de mi los usuarios](5-envision-plan-my-users-experience.md) <br> [Mi plan de éxito de documentos](6-envision-document-my-success-plan.md)    | [Preparar mi servicio](1-onboard-prepare-my-service.md) <br> [Preparación de Mis usuarios](2-onboard-prepare-my-users.md) <br> [Implementar el servicio de mi](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Usar mi servicio](1-drive-value-operate-my-service.md) <br> [Mejorar mi servicio](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
+> |[Definir mi éxito](1-envision-define-my-success-cloud-voice.md) <br> Mi las decisiones de servicio <br>&nbsp;&nbsp;[Conferencias de audio](2-envision-make-my-service-decisions-audio-conferencing.md),<br>&nbsp;&nbsp;[Planes de llamada](2-envision-make-my-service-decisions-phone-system.md)o [directa de enrutamiento](2-envision-make-my-service-decisions-direct-routing.md) <br> [Evaluar mi entorno](3-envision-evaluate-my-environment.md) <br> [Planificar la administración de mis servicios](4-envision-plan-my-service-management.md) <br> [Planeación de la experiencia de mi los usuarios](5-envision-plan-my-users-experience.md) <br> [Documentar el plan de éxito](6-envision-document-my-success-plan.md)    | [Preparar mis servicios](1-onboard-prepare-my-service.md) <br> [Preparar a mis usuarios](2-onboard-prepare-my-users.md) <br> [Implementar mis servicios](3-onboard-deploy-my-service.md)  <br> <br> <br> <br>     | [Ejecutar mis servicios](1-drive-value-operate-my-service.md) <br> [Mejorar mis servicios](2-drive-value-enhance-my-service.md) <br> <br> <br> <br> <br>      |
 
 El contenido se presenta en forma ordenada y está diseñado para guiarle a través de un viaje de implementación de extremo a extremo de principio a fin. Si va a implementar ya activamente, aún le animamos a hacer referencia a las áreas de contenido aplicables.
 

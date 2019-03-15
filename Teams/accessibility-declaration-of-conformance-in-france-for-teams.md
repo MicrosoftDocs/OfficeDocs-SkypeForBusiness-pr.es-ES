@@ -1,10 +1,10 @@
 ---
-title: Accesibilidad de declaración de conformidad en Francia para los equipos
+title: Declaración de accesibilidad de cumplimiento para Microsoft Teams en Francia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif automáticamente 365 qui intègre todas LECS personas, contenus et outils no votre équipe un preciso fluidez efectuarse plus impliquée et eficaz. "
-ms.openlocfilehash: 98f80c52b16c0bd237ced2b072854a46824c0d07
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541971"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569873"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 declaración de conformidad en materia d. ' accessibilité
 

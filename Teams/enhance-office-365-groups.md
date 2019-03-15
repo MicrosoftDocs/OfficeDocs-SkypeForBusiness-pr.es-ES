@@ -1,5 +1,5 @@
 ---
-title: Mejorar los grupos de Office 365 existentes con Microsoft Teams
+title: Mejorar los grupos existentes de Office 365 con Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95112a3a3e4aea4fee68507fea4c366dac1da2da
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 13b34da03c35706fafb02a4e9e02eab629a4a399
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463527"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568419"
 ---
-<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos de Office 365 existentes con Microsoft Teams
+<a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos existentes de Office 365 con Microsoft Teams
 =======================================================
 
 Los usuarios de Microsoft Teams pueden mejorar un grupo de Office 365 existente con la funcionalidad de Microsoft Teams. Cuando vean cómo mejorar un grupo público de Office 365, los usuarios pueden hacer como si el número de miembros fuera igual o inferior a 2500.
@@ -32,7 +32,6 @@ Para ello, los usuarios deben pasar por el flujo de creación de un nuevo equipo
 > Sólo los propietarios de Office 365 grupo tienen permiso para mejorar un grupo existente con Microsoft Teams, y dicho grupo debe contener menos de 2500 usuarios. Los equipos que ya se han mejorado no se mostrará en la lista.
 >
 >La opción **crear un equipo de un grupo existente de Office 365** no estará disponible a menos que se cumplen estas condiciones.
-
 
 Los usuarios también pueden invitar a una lista de distribución a un equipo, y los miembros de esa lista de distribución se agregarán al equipo. Se trata de una sincronización única, así que los cambios que se realicen posteriormente en los miembros del grupo de la lista de distribución no se replicarán en Teams. 
 

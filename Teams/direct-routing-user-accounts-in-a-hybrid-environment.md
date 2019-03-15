@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: 9eaa8c98847fd7bbad4d93c48ad2523d114ba815
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: bfa4bef876886b01f7be987aae644e9e4b9169fd
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353469"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569578"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
@@ -55,13 +55,13 @@ Un Skype para entornos híbridos, empresarial con conectividad RTC proporciona f
 
 |**Objeto de usuario creado en**  |**Skype del usuario para el proveedor de servicios profesionales**|**Cliente del usuario**|**Opción de voz**|**Compatible**|
 | ------------ | --------- | --------- | --------- | -------- |
-|En AD local| Implementación local |Skype for Business   | Telefonía IP empresarial   |Sí|
-|En AD local|Online| Skype for Business  | Conectividad de voz híbrida   |Sí |
+|En AD local| Implementación local |Skype Empresarial   | Telefonía IP empresarial   |Sí|
+|En AD local|Online| Skype Empresarial  | Conectividad de voz híbrida   |Sí |
 |En AD local|Online |Microsoft Teams |Enrutamiento directo  |Sí |
 |**Combinaciones admitidas**    | |         |         |      |
 |Azure AD| En local o en línea | Skype para los equipos de negocio y Microsoft|Enterprise Voice de voz híbrida enrutamiento conectividad/Direct  |No, debe crearse el objeto de usuario en AD local en primer lugar |
 |En AD local  |Implementación local| Microsoft Teams| Enterprise Voice de voz híbrida enrutamiento conectividad/Direct   |No, el cliente de Microsoft Teams no es compatible con Skype local para la empresa |     
-|En AD local  |Online |Skype for Business  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con Skype para cliente de negocio y usuario debe estar habilitado para Enterprise Voice en Skype para la empresa en primer lugar  |
+|En AD local  |Online |Skype Empresarial  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con Skype para cliente de negocio y usuario debe estar habilitado para Enterprise Voice en Skype para la empresa en primer lugar  |
 
 
 ### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrucción de compatibilidad para el entorno híbrido con RTC

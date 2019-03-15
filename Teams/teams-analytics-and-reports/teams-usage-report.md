@@ -3,7 +3,7 @@ title: Informe de uso de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 01/11/2019
+ms.date: 03/12/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de los equipos en el centro de administración de Microsoft Teams para obtener una visión general de la actividad de los equipos de la organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d013073402de29fc586b14c9cc3bd5ab336d3086
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463111"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569937"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 
@@ -50,5 +50,5 @@ El informe de uso de los equipos en el centro de administración de Microsoft Te
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Informes y análisis de los equipos](teams-reporting-reference.md)
-- [Informe de actividad de usuario de los equipos](user-activity-report.md)
-- [Informe de uso de dispositivos de los equipos](device-usage-report.md)
+- [Informe de actividad de usuario de Teams](user-activity-report.md)
+- [Informe de uso de dispositivos de Teams](device-usage-report.md)

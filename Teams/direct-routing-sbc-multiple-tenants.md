@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 438bfbc487f7723c63afc7b7c304e832bf7d49a2
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 166093a628eb7a048c1959554514f74bcb1b0677
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353573"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569706"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -208,6 +208,14 @@ Por ejemplo:
 ```
 New-CSOnlinePSTNGateway –FQDN sbc1.customers.adatum.biz -SipSignallingPort 5068
 ```
+
+Al crear el tronco, puede recibir el mensaje de error siguiente:
+
+```
+Can not use the "sbc1.customers.adatum.biz" domain as it was not configured for this tenant.
+```
+
+Espere algún tiempo de registro de dominios y la activación a replicar e inténtelo de nuevo.
 
 Abastecer a los usuarios con los números de teléfono y configuración de enrutamiento de voz.
 

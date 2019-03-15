@@ -8,12 +8,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: En este artículo le guiará a través de los pasos para configurar un Skype existente para la instalación de Business Server para usar el servicio de movilidad, lo que permite a los dispositivos móviles que puedan aprovechar las ventajas de Skype para las características de movilidad de servidor empresarial.
-ms.openlocfilehash: e1799459d2e7723298aa7fdda17f89a9041efd15
-ms.sourcegitcommit: e93b12f5ebaad1140d7df798b5e0647197b9213d
+ms.openlocfilehash: 788f4084f902fc1b5fee8ae29fcd518542f3572d
+ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "26649718"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "30536036"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Implementación y configuración de movilidad de Skype para Business Server  
  
@@ -36,7 +36,7 @@ Todas las secciones siguientes contienen pasos que dan por sentado que ha leído
 > [!NOTE]
 > Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
-## <a name="create-dns-records"></a>Crear registros DNS
+## <a name="create-dns-records"></a>Crear registros de DNS
 <a name="CreateDNSRec"> </a>
 
 Es posible que ya tiene estos como parte de su Skype para el entorno de servidor empresarial, pero es necesario crear los siguientes registros para la detección automática para que funcione:
@@ -258,7 +258,7 @@ Si tiene alguna pregunta sobre la planeación alrededor de certificados, nos hem
 
 No es necesario seguir al pie de la letra los pasos que se explican a continuación. En las versiones anteriores del producto, le hemos guiado, por ejemplo, en el proceso de configuración de Threat Management Gateway (TMG) y, si no lo estaba utilizando, tenía que encontrar la forma de adaptarlo a su propia versión a partir de la información con la que contaba.
   
-Microsoft ya no ofrece TMG como producto, pero, si todavía necesita configurarlo, puede revisar los [pasos para Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Pero la siguiente información de pretende ser útiles de forma más general, incluso si no hay ninguna forma podemos proporcionar pasos del tutorial específico para cada proxy inverso ahí.
+Microsoft como un producto ya no ofrece TMG y, si aún necesita configurarlo, puede consultar los [pasos de Lync Server 2013](https://technet.microsoft.com/en-us/library/hh690011%28v=ocs.15%29.aspx). Pero la siguiente información de pretende ser útiles de forma más general, incluso si no hay ninguna forma podemos proporcionar pasos del tutorial específico para cada proxy inverso ahí.
   
 Debemos considerar dos aspectos:
   
@@ -464,7 +464,7 @@ Para revisar en detalle los procedimientos de comando, puede consultar [Test-CsU
 ## <a name="configure-for-push-notifications"></a>Configurar notificaciones de inserción
 <a name="ConfigPush"> </a>
 
-Las notificaciones de inserción, que tienen la forma de notificaciones, iconos o alertas, pueden enviarse a un dispositivo móvil incluso cuando la aplicación Skype o Lync está inactiva. ¿En qué consisten las notificaciones de inserción? Son alertas de eventos, como una invitación de mensajería instantánea perdida o nueva, o un correo de voz recibido. El Skype para servicio de movilidad de Business Server envía estas notificaciones a la Skype basados en la nube para servidor de inserción notificación servicio empresarial, que, a continuación, envía las notificaciones para el servicio de notificación de inserción de Microsoft (MSNS) para los usuarios de Windows Phone.
+Las notificaciones de inserción, que tienen la forma de notificaciones, iconos o alertas, pueden enviarse a un dispositivo móvil incluso cuando la aplicación Skype o Lync está inactiva. Pero ¿qué son las notificaciones de inserción? Son alertas de eventos, como una invitación de mensajería instantánea perdida o nueva, o un correo de voz recibido. El Skype para servicio de movilidad de Business Server envía estas notificaciones a la Skype basados en la nube para servidor de inserción notificación servicio empresarial, que, a continuación, envía las notificaciones para el servicio de notificación de inserción de Microsoft (MSNS) para los usuarios de Windows Phone.
   
 Esta funcionalidad se ha modificado desde Lync Server 2013, pero si tiene un Skype para Business Server, querrá hacer lo siguiente:
   

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/27/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dansteve
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4887cb129242473da46a611c4f873e79384e5e32
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460343"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569961"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
 =================================================
@@ -42,7 +42,8 @@ En la tabla siguiente muestra la diferencia de permisos entre un propietario y u
 |          **Agregar canal**          |    Sí     |    Sí<sup>2</sup>|
 | **Editar nombre o descripción del canal** |    Sí     |    Sí<sup>2</sup>|
 |        **Eliminar canal**         |    Sí     |    Sí<sup>2</sup>|
-|          **Agregar miembros**          |  Sí<sup>3</sup>   |     No      |
+|          **Agregar miembros**          |  Sí<sup>3</sup>   |     No hay<sup>4</sup>    |
+|          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar fichas**            |    Sí     |    Sí<sup>2</sup>|
 |        **Agregar conectores**         |    Sí     |    Sí<sup>2</sup>|
 |           **Agregar bots**            |    Sí     |    Sí<sup>2</sup>|
@@ -52,6 +53,10 @@ En la tabla siguiente muestra la diferencia de permisos entre un propietario y u
 <sup>2</sup> estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
 
 <sup>3</sup> después de agregar a un miembro a un equipo, un propietario también puede ascender a un miembro al estado de propietario. También es posible para un propietario disminuir el nivel de su propio estado para un miembro.
+
+<sup>4</sup> los miembros del equipo pueden agregar a otros miembros a un equipo público.
+
+<sup>5</sup> mientras un miembro del equipo directamente no puede agregar a miembros a un equipo privado, puede solicitar a alguien que se agregarán a un equipo que ya están miembro de. Cuando un miembro solicita a alguien que se agregarán a un equipo, los propietarios de equipo reciben una alerta que cuentan con una solicitud pendiente que se puede aceptar o rechazar.
 
 
 

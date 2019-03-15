@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Aprenda a usar fichas integradas y personalizadas para incluir características como conversaciones, archivos, mapas y mucho más.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a1e93de09dc99832f942397a3af966334371a094
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e63cbe83214f9323692804b7d297de9091aceef0
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458799"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568667"
 ---
 <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Usar fichas integradas y personalizadas en Microsoft Teams
 ==================================================
@@ -32,7 +32,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 ## <a name="work-with-tabs"></a>Trabajar con fichas
 
-- Con cada nuevo canal, dos fichas se aprovisionan de forma predeterminada, las conversaciones y archivos. 
+- Con cada nuevo canal, dos fichas se aprovisionan de forma predeterminada: los archivos y las conversaciones. 
 
     ![Captura de pantalla de la sección Conversación del equipo de marketing.](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image1.png)
 - Con cada chat privado, cuatro fichas se aprovisionan de forma predeterminada, las conversaciones, archivos, organización y actividad.

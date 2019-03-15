@@ -4,23 +4,23 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 12/28/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Obtenga información sobre las reuniones, las licencias y la disponibilidad, configurar las opciones de puente de conferencia, adquirir o transferir los números de teléfono, elija inquilino planes de marcado.
+description: Obtenga información sobre las reuniones, las licencias y planes de marcado de disponibilidad, configuración de puente de conferencia, transferir o adquisición de números de teléfono y elegir inquilino.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8b98aa7a601466826d95ddb2413e702f94f4877
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459151"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30570001"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -68,8 +68,8 @@ Después de confirmar que la organización tiene derecho a obtener el servicio d
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decida qué oficinas o ubicaciones de usuario implementarán el servicio de Audioconferencia.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Decida qué oficinas o ubicaciones de usuario se habilitarán para el servicio de Audioconferencia.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir qué oficinas o ubicaciones de usuario va a implementar el servicio de conferencia de Audio.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Las ubicaciones de usuario o las oficinas a habilitarse para el servicio de conferencia de Audio de documentos.</li></ul>|
 
 > [!TIP]
 > A continuación es un ejemplo de una plantilla de lista de habilitación de sitio de conferencia de Audio:
@@ -161,11 +161,11 @@ Si debe transferir números de teléfono de puente de conferencia existente para
 
 Para obtener más información acerca de los números de teléfono de puente de conferencia, revise los siguientes artículos:
 
--   [Configurar conferencias de Audio de Skype para la empresa y Teams de Microsoft](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+-   [Establecer una conferencia de Audio para Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 -   [Números de teléfono para Audioconferencia](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/phone-numbers-for-audio-conferencing)
 
--   [Obtener números de teléfono de servicio](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+-   [Obtener números de teléfono de servicio](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 -   [Transferir números de teléfono a Office 365](https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/transfer-phone-numbers-to-office-365)
 
@@ -225,7 +225,7 @@ Con estos controles, puede decidir si los organizadores de reuniones pueden prop
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere las notificaciones de entrada y salida, y, si lo hace, el tipo de notificación que se va a implementar (tonos, nombre grabado o número de teléfono).</li><li>Decidir la longitud de PIN de conferencia de Audio que cumpla los requisitos de seguridad de la organización.</li><li>Decidir si su organización desea tomar el control de las comunicaciones de usuario relacionados con el servicio de conferencia de Audio.</li><li>Decida qué números de teléfono para puentes de conferencia se asignarán a cada organizador de reuniones.</li><li>Decidir si es necesario usar números de teléfono de puente de conferencia gratuito para sus reuniones algunos los organizadores de reuniones.</li><li>Decidir si algunos los organizadores de reuniones es necesario permitir que los autores de llamadas sin autenticar iniciar una reunión.</li><li>Decidir si algunos los organizadores de reuniones necesitan desconexión de conferencias esté controlado.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere las notificaciones de entrada y salida, y, si lo hace, el tipo de notificación que se va a implementar (tonos, nombre grabado o número de teléfono).</li><li>Decidir la longitud de PIN de conferencia de Audio que cumpla los requisitos de seguridad de la organización.</li><li>Decidir si su organización desea tomar el control de las comunicaciones de usuario relacionados con el servicio de conferencia de Audio.</li><li>Decidir los números de teléfono de puente de conferencia que se asignará a cada organizador de la reunión.</li><li>Decidir si es necesario usar números de teléfono de puente de conferencia gratuito para sus reuniones algunos los organizadores de reuniones.</li><li>Decidir si algunos los organizadores de reuniones es necesario permitir que los autores de llamadas sin autenticar iniciar una reunión.</li><li>Decidir si algunos los organizadores de reuniones necesitan desconexión de conferencias esté controlado.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documente la configuración de puentes de conferencia con todos los detalles (notificaciones de entrada y salida, longitud de PIN y notificación por correo electrónico de cambios en la configuración).</li><li>Los números de teléfono de puente de conferencia para ser asignado a cada organizador de la reunión y la configuración correspondiente para controlar la directiva para los autores de llamadas sin autenticar y gratuito de documentos y controles de marcado.</li></ul>|
 
 > [!TIP]
@@ -342,7 +342,7 @@ Para obtener más información acerca de los planes de marcado, consulte [¿Cuá
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere planes de marcado personalizado (requisitos empresariales, los requisitos de adopción y así sucesivamente).</li><li>En caso de necesitarlos, decida qué ámbito del plan de marcado de inquilino (inquilino global o usuario de inquilino) se ajusta a los requisitos de los planes de marcado personalizados.</li><li>Si procede, decidir los planes de marcado de inquilinos que va a crear para admitir oficinas o ubicaciones de usuario en el ámbito de la implementación de voz en la nube.</li><li>Si procede, decidir qué usuarios requieren un plan de marcado personalizado y el plan de marcado de inquilinos que se asignará para cada usuario.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si la organización requiere planes de marcado personalizado (requisitos empresariales, los requisitos de adopción y así sucesivamente).</li><li>Si procede, decidir el ámbito del plan de marcado de inquilino (inquilino global o usuario inquilino) para admitir los requisitos para los planes de marcado personalizado.</li><li>Si procede, decidir los planes de marcado de inquilinos que va a crear para admitir oficinas o ubicaciones de usuario en el ámbito de la implementación de voz en la nube.</li><li>Si procede, decidir qué usuarios requieren un plan de marcado personalizado y el plan de marcado de inquilinos que se asignará para cada usuario.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documentar los planes de marcado personalizado y las reglas de normalización asociado a configurarse como parte de la implementación de voz en la nube.</li><li>Los usuarios para que se le ha asignado un plan de marcado personalizado y el plan de marcado de inquilinos que se asignará para cada usuario del documento.</li></ul>|
 
 > [!TIP]

@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: 26602564-0f15-44e6-a27b-c8f26668ba7f
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Skype para profesionales Online usa tipos de número de teléfono distinta según la finalidad para la que desea usar el número de teléfono.
-ms.openlocfilehash: 7d25c13aec53e441c2de5ecee4540cff074b599e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542394"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569093"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de teléfono que se usan para planes de llamadas
 
@@ -65,7 +65,7 @@ Skype para profesionales Online usa tipos de número de teléfono distinta segú
 
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

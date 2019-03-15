@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 267ce64472fe643bb3544b80a3e3f6222db1d4ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373979"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568545"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -144,7 +144,7 @@ Al definir KSIs, se recomienda que use "específicos, cuantificables, puede asig
 > |---------|---------|---------|---------|---------|---------|
 > |Uso/adopción|La calidad de las llamadas es igual o mejor que en la solución anterior|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de tecnología de la información|
 > |Uso/adopción|El proceso de comunicación fue más sencillo gracias a Microsoft Teams|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
-> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|A diario|Equipo de administración de cambios|
+> |Uso/adopción|Los usuarios utilizan la solución activamente|Informes de Office 365, panel de calidad de llamadas|El 80 % de los usuarios son usuarios activos diarios|Cada día|Equipo de administración de cambios|
 > |Uso/calidad|El porcentaje de llamadas/conferencias de mala calidad debe ser mínimo|Panel de calidad de llamadas|Menos del 5 % de llamadas de mala calidad al mes|A diario|Equipo de tecnología de la información|
 > |Uso/soporte|Sé cómo conseguir soporte técnico|Encuesta|El 90% de los usuarios está de acuerdo o muy de acuerdo|Tras la habilitación y trimestralmente|Equipo de administración de cambios|
 > |Uso/soporte|Estoy satisfecho con la calidad del soporte técnico|Encuesta|El 80 % de los usuarios está de acuerdo o muy de acuerdo|Tras cada incidente|Equipo de tecnología de la información|
@@ -157,15 +157,15 @@ Debe identificar los riesgos de negocio como parte de este ejercicio y definir u
 > 
 > |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
 > |---------|---------|---------|---------|---------|
-> |Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
-> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li></ul>|
+> |Con la próxima fusión se sumarán hasta 1000 personas|Alto|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alto|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li></ul>|
 > |Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son la organización & #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son sus organization& #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documente la OKRs, KSIs y establecer el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -176,7 +176,7 @@ Un Comité de dirección es un grupo de control de las partes interesadas clave 
 
 Cada proyecto requiere una visión acordado en y carta. Para ofrecer los resultados que desee desde el proyecto, se debe definir claramente la visión y necesita supervisar y mantener. Esto se convierte en la responsabilidad del Comité de gobierno: a las decisiones de unidad, de aviso, proporcionar supervisión estratégica, para que sirva como abogados a la organización para las iniciativas del proyecto, y, cuando sea necesario: quitar los bloqueadores de elementos.
 
-Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la forma.
+Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la sentido.
 
 El Comité debe definir su carta para incluir algunos objetivos clave:
 

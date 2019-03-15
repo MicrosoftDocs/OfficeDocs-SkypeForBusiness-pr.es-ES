@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Resumen: Lea este tema para obtener más información acerca de cómo planear la topología de las conferencias en Skype Business Server.'
-ms.openlocfilehash: 3110588585291ccfb55b45750d336863fea7329b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d8e3d771eadfe47ee1d7ec15eb68051b717643bf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006128"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "25375960"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planeación de la topología de las conferencias de Skype para Business Server
  
@@ -48,9 +48,9 @@ Puede implementar la característica de conferencia en las configuraciones y top
 
 Si implementa las conferencias de acceso telefónico local, necesita tener en cuenta los siguientes puntos:
   
--  Conferencia de acceso telefónico requiere un servidor de mediación para traducir señalización (y medios en algunas configuraciones) entre Skype para Business Server y la puerta de enlace RTC y una puerta de enlace de RTC para traducir la señalización y los medios entre el servidor de mediación y la puerta de enlace de RTC .
+- Conferencia de acceso telefónico requiere un servidor de mediación para traducir señalización (y medios en algunas configuraciones) entre Skype para Business Server y la puerta de enlace RTC y una puerta de enlace de RTC para traducir la señalización y los medios entre el servidor de mediación y la puerta de enlace de RTC .
     
-    Para poder configurar la conferencia de acceso telefónico local, también necesita implementar la telefonía IP empresarial o un servidor de mediación y al menos uno de los siguientes elementos:
+   Para poder configurar la conferencia de acceso telefónico local, también necesita implementar la telefonía IP empresarial o un servidor de mediación y al menos uno de los siguientes elementos:
     
   - Puerta de enlace RTC
     
@@ -77,7 +77,7 @@ Las conferencias web requieren los siguientes puntos:
   
 Skype para Business Server proporciona las siguientes opciones para configurar Office Web Apps Server/Office Online Server. Dependiendo de sus necesidades, puede:
   
-- **Instalar ambos Skype para Business Server y Office Web Apps Server/Office Online Server local detrás de firewall de la organización y en la misma zona de red.** Con esta topología, el acceso externo a Office Web Apps Server/Office Online Server se proporciona a través del servidor proxy inverso. Idealmente, debe instalar a Office Web Apps Server/Office Online Server en la misma zona de red como Skype para Business Server.
+- **Instalar ambos Skype para Business Server y Office Web Apps Server/Office Online Server local detrás de firewall de la organización y en la misma zona de red.** With this topology, external access to Office Web Apps Server/Office Online Server will be provided through your reverse proxy server. Idealmente, debe instalar a Office Web Apps Server/Office Online Server en la misma zona de red como Skype para Business Server.
     
     Skype externo para los clientes empresariales puede conectarse a Skype para Business Server y Office Web Apps Server/Office Online Server mediante el uso de un servidor proxy inverso, que es un servidor que toma las solicitudes desde Internet y los reenvía a la red interna. (Los clientes internos no es necesario usar el servidor proxy inverso, porque se pueden conectar directamente a Office Web Apps Server/Office Online Server). Esta topología funciona mejor si desea usar una granja de servidores de Office Web Apps Server/Office Online Server dedicado que usa Skype para Business Server.
     
@@ -104,7 +104,7 @@ Una única reunión grande requiere al menos un servidor front-end y un servidor
   
 El usuario que hospeda las reuniones grandes necesita tener su cuenta de usuario alojada en el grupo de servidores front-end. Pero, no se recomienda hospedar otras cuentas de usuario en este grupo. Úselo solo para reuniones grandes. El procedimiento recomendado es crear una cuenta de usuario especial en este grupo y usarla solo para hospedar reuniones grandes. Como la configuración de las reuniones grandes se optimiza para el rendimiento, al utilizarla como un usuario normal podría tener problemas como la imposibilidad de promover una sesión P2P a una reunión cuando hay un extremo RTC involucrado.
   
-Administrar un grupo con exactamente dos servidores front-end requiere algunas consideraciones especiales. Para obtener más información, vea [Conceptos básicos de la topología de Skype para Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) y [topologías de referencia de Skype para Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
+Administrar un grupo con exactamente dos servidores front-end requiere algunas consideraciones especiales. Para más información, vea [Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md) y [Reference topologies for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/reference-topologies.md).
   
 Además, si desea proporcionar la opción de recuperación ante desastres y conmutación por error para el grupo que se usa para las reuniones grandes, puede asociarlo a un grupo dedicado con una configuración similar y datos diferentes. Para obtener información detallada, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
@@ -114,7 +114,7 @@ Las siguientes son notas adicionales sobre la topología:
     
 - Se requiere un Office Web Apps Server/Office Online Server para habilitar la función de presentación de PowerPoint en reuniones grandes. El Office Web Apps Server/Office Online Server puede ser exclusivo del grupo de reuniones grandes o puede ser el mismo Office Web Apps Server/Office Online Server que otros grupos utilizan en el sitio donde el grupo dedicado está implementado. Para obtener más información, vea [Configurar la integración con Office Web Apps Server en Skype para Business Server](../../deploy/deploy-conferencing/office-web-app-server.md). 
     
-- El equilibrio de carga de los servidores front-end requiere equilibrio de carga de hardware para el tráfico HTTP (como la descarga de contenido de la reunión). El equilibrio de carga de DNS se recomienda para el tráfico SIP. Para obtener información detallada, vea [requisitos de Skype para la empresa el equilibrio de carga](../../plan-your-deployment/network-requirements/load-balancing.md). 
+- El equilibrio de carga de los servidores front-end requiere equilibrio de carga de hardware para el tráfico HTTP (como la descarga de contenido de la reunión). El equilibrio de carga de DNS se recomienda para el tráfico SIP. Para más información, vea [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - Si desea usar el servidor de supervisión para el grupo de reuniones grandes dedicado, se recomienda usar el servidor de supervisión y su base de datos que se comparten a través de todos los grupos de servidor Front-End en su Skype para la implementación de Business Server. Para obtener más información, vea [Planear la supervisión en Skype para Business Server](../../plan-your-deployment/monitoring.md).
     

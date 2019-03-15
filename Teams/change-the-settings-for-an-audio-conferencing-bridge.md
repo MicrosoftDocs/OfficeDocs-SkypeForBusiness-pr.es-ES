@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se usa para solicitar los autores de llamadas y recopilar los nombres y los PIN para los organizadores de reuniones cuando no utilizan Skype para las aplicaciones empresariales o Teams de Microsoft. '
-ms.openlocfilehash: 04ad6cfe3de9b4549db6382fe790b7fb8c644fc7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494200"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633236"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de audioconferencias.
 
@@ -66,7 +66,7 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
 6. Haga clic en **Guardar**. 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png)  Usar el Centro de administración de Skype Empresarial
+## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Configurar la experiencia de reunión cuando los autores de llamadas, unirse a una reunión**
     
@@ -86,13 +86,13 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
     
 3. Después de realizar los cambios, haga clic en **Guardar**.
     
-**Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.**
+Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsof**.
+3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 4. En la página **configuración de puente de Microsoft** , en **seguridad**, escriba el número de dígitos que desee para el PIN en la lista de **longitud PIN** y, a continuación, haga clic en **Guardar**.
     
@@ -103,9 +103,9 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
+2. Go to the **Office 365 admin center** > **Skype for Business**.
     
-3. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsof**.
+3. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 4. En la página **configuración de puente de Microsoft** , seleccione o desactive **Enviar automáticamente mensajes de correo electrónico a los usuarios si se cambia su información de marcado**y, a continuación, haga clic en **Guardar**.
     
@@ -132,6 +132,8 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
-[Configurar Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Establecer una conferencia de Audio para Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+
+[Configurar conferencias de Audio para Skype para profesionales en línea](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

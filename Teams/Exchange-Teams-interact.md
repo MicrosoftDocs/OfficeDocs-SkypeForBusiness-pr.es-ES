@@ -3,7 +3,7 @@ title: Interacción entre Exchange y Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: crowe
 description: Conozca la funcionalidad que hay entre Microsoft Teams y las distintas configuraciones de Exchange, como crear equipos y unirse a ellos, crear canales y mucho más.
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 020204700101e086691004cb90b5e5f7eabdbe5a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 560e1f81db6e8150bcd8d686747bfb297cbfcf84
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462191"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569985"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -40,9 +40,9 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 | El buzón del usuario se hospeda en: | eDiscovery| Legal&nbsp;suspensión | Retención| Equipo y canal mgmt |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a los contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí |Sí|
-|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí |
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|No|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Sí |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí |
 
 <sup>1</sup> CU3 de 2016 admite exchange y por encima de  
 <sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  

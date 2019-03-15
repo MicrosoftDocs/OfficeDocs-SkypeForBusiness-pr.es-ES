@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 04/12/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ description: Las tareas y actividades necesarias para la administración de serv
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc4dbb59b5346286b10b8a146b96c2b1f5dbc40e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459159"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569482"
 ---
-# <a name="operate-my-service"></a>Usar mi servicio
+# <a name="operate-my-service"></a>Ejecutar mis servicios
 
 En este artículo se proporciona una visión general de los requisitos para el funcionamiento correctamente los servicios de voz en la nube para su organización. Por funciona correctamente los servicios de voz en la nube, puede estar seguro de que si va a proporcionar una experiencia confiable de alta calidad para su organización.
 
@@ -400,7 +400,7 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 
 [Información de creación de carga](turning-on-and-using-call-quality-dashboard.md#upload-building-information)
 
-[Calidad de experiencia consulte la Guía](https://aka.ms/qerguide)
+[Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -473,7 +473,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>Administración de equipos
+## <a name="manage-teams"></a>Administrar Teams
 
 Después de que se ha implementado el servicio de Microsoft Teams, debe realizar varias actividades relativas a su administración. El intervalo de las actividades de administración del servicio y los usuarios individuales a la planeación de la capacidad y el aprovisionamiento de licencia y los números telefónicos. En las secciones siguientes se tratan algunas de estas tareas habituales de administración.
 
@@ -502,13 +502,13 @@ Para admitir usuarios, una organización puede requerir cualquier número de tar
 
 #### <a name="common-tasks-for-audio-conferencing"></a>Tareas comunes para conferencias de Audio
 
-[Cambiar la configuración de un puente de Audioconferencia](change-the-settings-for-an-audio-conferencing-bridge.md)
+[Cambiar la configuración de un puente de audioconferencias](change-the-settings-for-an-audio-conferencing-bridge.md).
 
 [Cambiar los números de teléfono de su puente de Audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 [Administrar la configuración de Audioconferencia para un usuario](manage-the-audio-conferencing-settings-for-a-user-in-teams.md)
 
-[Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin-in-teams.md)
+[Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin-in-teams.md)
 
 ### <a name="license-management"></a>Administración de licencias
 
@@ -547,7 +547,7 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 
 <!--ENDOFSECTION-->
 
-## <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
+## <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
 La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye un conjunto de actividades que evaluar y se proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto sobre cómo mejorar la experiencia del usuario, tal y como se muestra a continuación.
 

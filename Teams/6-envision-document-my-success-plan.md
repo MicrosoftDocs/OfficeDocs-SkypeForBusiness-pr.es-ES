@@ -1,10 +1,10 @@
 ---
-title: Documentar el plan de éxito de Microsoft Teams
+title: Documentar su plan de éxito de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd124b8ce06b15bb0c6c33aecd848d9382afde64
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462143"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568475"
 ---
-# <a name="document-my-success-plan"></a>Mi plan de éxito de documentos
+# <a name="document-my-success-plan"></a>Documentar el plan de éxito
 
 En este artículo se proporciona una visión general de los requisitos para documentar correctamente la implementación de voz en la nube. Al definir y documentar todos los puntos de decisión y pasos siguientes cuando planee la implementación de voz en la nube, puede asegurarse de que todas las partes interesadas y los miembros del equipo de proyecto se alinean en la entrega de los resultados obtenidos. 
 
@@ -87,8 +87,8 @@ El siguiente es un ejemplo de un plan de ejecución trimestral para la fase de p
 
 | Sitio/división                            | Número de empleados | Audioconferencia | Sistema telefónico                    | Trimestre para ejecutar |
 |------------------------------------------|---------------------|--------------------|---------------------------------|--------------------|
-| Estados Unidos: Nueva York                             | 2000                | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
-| Irlanda: Dublín                          | 300                 | Sí                | Sistema telefónico con Planes de llamada | T1 CY2018          |
+| Estados Unidos: Nueva York                             | 2000                | Sí                | Sistema telefónico con planes de llamada | T1 CY2018          |
+| Irlanda: Dublín                          | 300                 | Sí                | Sistema telefónico con planes de llamada | T1 CY2018          |
 | Austria: Viena                          | 500                 | Sí                | Enrutamiento directo del Sistema telefónico     | Q2 CY2018          |
 | Italia: Milán                             | 200                 | Sí                | N/D                             | Q2 CY2018          |
 | América del sur: (Brasil)                    | 1500                | Sí                | Enrutamiento directo del Sistema telefónico     | Q2 CY2018          |

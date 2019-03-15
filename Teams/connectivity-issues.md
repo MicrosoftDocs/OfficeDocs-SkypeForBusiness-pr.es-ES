@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 08/21/2018
-ms.topic: article
+ms.topic: troubleshooting
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Aprenda a resolver problemas de conectividad con el cliente de Microsoft Teams, ocasionadas principalmente por el firewall o la conexión del proxy.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5204c745da00535b0838d06a00709ffa31146a3e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 70255ccbd1c0547c44bb30dee78ffa14d1586705
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461663"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568427"
 ---
 <a name="troubleshoot-connectivity-issues-with-the-microsoft-teams-client"></a>Solucionar problemas de conectividad con el cliente de Microsoft Teams
 ==============================================================

@@ -10,92 +10,92 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Resumen: Obtenga información sobre cómo configurar el servicio de cumplimiento de servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: e41afe6b9d6d36a73d818af7fc297e7b20006dcf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8d6fff09a59870c8550627bcf4222192e405c871
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21026619"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "25375932"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar el servicio de cumplimiento para el servidor de chat persistente en Skype Empresarial Server 2015
- 
+
 **Resumen:** Obtenga información sobre cómo configurar el servicio de cumplimiento de servidor de Chat persistente en Skype para Business Server 2015.
-  
+
 El cumplimiento del chat persistente permite a los administradores mantener un archivo de las actividades y de los mensajes del chat persistente. El servicio de cumplimiento registra y archiva datos relacionados con cada conversación de servidor de Chat persistente, incluso cuando un participante:
-  
+
 - Se une a un salón de Chat persistente
-    
+
 - Abandone un salón de chat
-    
+
 - Publique un mensaje
-    
+
 - Vea el historial de chat
-    
+
 - Cargue un archivo
-    
+
 - Descargue un archivo
-    
+
 Según sea necesario, esta información se puede recuperar de la base de datos de SQL de cumplimiento. 
 
 > [!NOTE]
 > Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
-  
+
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Configurar el servicio de cumplimiento con Windows PowerShell
 
 Una vez que el servicio de cumplimiento se ha habilitado con el Generador de topologías, puede configurar el servicio con el cmdlet **Set-CsPersistenChatComplianceConfiguration**:
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
 ```
 
 o
-  
+
 ```
 Set-CsPersistentChatComplianceConfiguration [-Instance <PSObject>] <COMMON PARAMETERS>
 ```
 
 Puede establecer los siguientes parámetros:
-  
+
 - AdapterType: permite especificar el tipo de adaptador. Un adaptador es un producto de terceros que convierte los datos en la base de datos de cumplimiento en un formato específico. La opción predeterminada es XML.
-    
+
 - OneChatRoomPerOutputFile - este parámetro permite especificar que separar los informes que se creará para cada salón de chat.
-    
+
 - AddChatRoomDetails: cuando se habilita, este parámetro registra los detalles adicionales sobre cada salón de chat en la base de datos. Como esta configuración puede aumentar en gran medida el tamaño de la base de datos, se encuentra deshabilitada de manera predeterminada.
-    
+
 - AddUserDetails: cuando se habilita, este parámetro registra los detalles adicionales sobre cada usuario del salón de chat en la base de datos. Como esta configuración puede aumentar en gran medida el tamaño de la base de datos, se encuentra deshabilitada de manera predeterminada.
-    
+
 - Identity: este parámetro permite limitar la configuración de cumplimiento a una colección en concreto, incluso de forma global, en el sitio o en el servicio. La opción predeterminada es el ámbito global. 
-    
+
 - RunInterval: este parámetro determina la cantidad de tiempo antes de que el servidor cree el siguiente archivo de salida de cumplimiento (el tiempo predeterminado es 15 minutos).
-    
+
 ## <a name="use-a-customized-compliance-adapter"></a>Usar un adaptador de cumplimiento personalizado
 
 Puede escribir un adaptador personalizado en lugar de usar el XmlAdapter que se instala con el servidor de Chat persistente. Para lograr esto, es necesario brindar un ensamblado de .NET Framework que contenga una clase pública que implemente la interfaz de **IComplianceAdapter**. Debe colocar este ensamblado en la carpeta de instalación del servidor de Chat persistente de cada servidor de su grupo de servidores de Chat persistente. Cualquiera de los servidores de cumplimiento puede brindar datos de cumplimiento al adaptador, pero los servidores de cumplimiento no brindarán datos de cumplimiento duplicados a varias instancias del adaptador.
-  
+
 La interfaz se define en el ensamblado Compliance.dll en el espacio de nombres `Microsoft.Rtc.Internal.Chat.Server.Compliance`. La interfaz define dos métodos que el adaptador personalizado necesita implementar.
-  
+
 El servidor de cumplimiento de Chat persistente llamará al método siguiente cuando se carga primero el adaptador. El `AdapterConfig` contiene la configuración de cumplimiento de Chat persistente que es relevante para el adaptador de cumplimiento:
-  
+
 ```
 void SetConfig(AdapterConfig config)
 ```
 
 El servidor de cumplimiento de Chat persistente llama al método siguiente en intervalos periódicos siempre y cuando no hay datos nuevos para traducir. Este intervalo de tiempo es igual a la `RunInterval` como se establece en la configuración de cumplimiento de Chat persistente:
-  
+
 ```
 void Translate(ConversationCollection conversations)
 ```
 
 El `ConversationCollection` contiene la información de conversación que se recopila desde la última vez que se llama a este método.
-  
+
 ## <a name="customize-the-xslt-definition-file"></a>Personalizar el archivo de definición XSLT
 
 Los datos de cumplimiento se proporcionan en formato XML, que puede convertir al formato que mejor se adapte a las necesidades de su organización, por medio de un archivo de definición XSLT. En este tema se describe el archivo XML que crea el Servicio de cumplimiento. También proporciona ejemplos de archivos de salida y de definición XSLT.
-  
+
 ### <a name="output-format"></a>Formato de resultados
 
 Los resultados del Servicio de cumplimiento se clasifican por conversación (el elemento Conversation) y, posteriormente, por mensaje (el elemento Messages), tal como se muestra en el siguiente ejemplo de código:
-  
+
 ```
 <?xml version="1.0" encoding="utf-8" ?> 
 <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -112,7 +112,7 @@ Los resultados del Servicio de cumplimiento se clasifican por conversación (el 
 ```
 
 Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, StartTimeUTC y EndTimeUTC). El elemento Channel contiene el Identificador uniforme de recursos (URI) del salón de chat, mientras que el elemento FirstMessage describe el primer mensaje del elemento Messages. Los elementos StartTimeUTC y EndTimeUTC contienen las horas de inicio y de finalización de la conversación, tal como se muestra en el siguiente ejemplo de código:
-  
+
 ```
 <<FirstMessage type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -121,7 +121,7 @@ Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, Start
 ```
 
 Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa el usuario que envía el mensaje, mientras que el elemento DateTimeUTC representa el momento en el que tiene lugar un evento, tal como se muestra en el siguiente ejemplo de código:
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -130,7 +130,7 @@ Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atribut
 ```
 
 En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
-  
+
 **Atributos del elemento Messages**
 
 |**Atributo**|**Descripción**|**Opcional/Obligatorio**|
@@ -138,9 +138,9 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 |Type  <br/> |Especifica el tipo de mensaje. Los tipos de mensajes se describen en la tabla Tipos de mensajes de los elementos de mensaje.  <br/> |Obligatorio  <br/> |
 |Content  <br/> |Contiene el contenido del mensaje. Aquellos mensajes que presenten el tipo Join o Part no usan este atributo.  <br/> |Opcional  <br/> |
 |ID  <br/> |Especifica el identificador único del contenido. Este atributo solo se usa cuando los mensajes son del tipo Chat.  <br/> |Opcional  <br/> |
-   
+
 Cada elemento Sender contiene cinco atributos: user name, ID, email, internal y URI. Estos atributos se describen en la siguiente tabla.
-  
+
 **Atributos del elemento Sender**
 
 |**Atributo**|**Descripción**|**Opcional/Obligatorio**|
@@ -149,12 +149,12 @@ Cada elemento Sender contiene cinco atributos: user name, ID, email, internal y 
 |ID  <br/> |Identificador único de. la dirección del remitente  <br/> |Obligatorio  <br/> |
 |Email  <br/> |Dirección de correo electrónico del remitente.  <br/> |Opcional  <br/> |
 |Internal  <br/> |Determina si el usuario es un usuario interno o un usuario federado. Si el valor está establecido en True, el usuario es interno.  <br/> |Opcional  <br/> |
-|URI  <br/> |URI de SIP del usuario.  <br/> | Obligatorio  <br/> |
-   
+|URI  <br/> |URI de SIP del usuario.  <br/> |Obligatorio  <br/> |
+
 Los siguientes ejemplos muestran a los tipos de mensaje que puede contener el elemento Messages. Contiene ejemplos también de la forma en la que se usa cada elemento.
-  
+
 JOIN - un usuario se une a un salón de chat.
-  
+
 ```
 <Message type="JOIN" content="" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -163,7 +163,7 @@ JOIN - un usuario se une a un salón de chat.
 ```
 
 Elemento - un usuario sale de un salón de chat.
-  
+
 ```
 <Message type="PART" content="" id="0">
   < Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -172,7 +172,7 @@ Elemento - un usuario sale de un salón de chat.
 ```
 
 Chat - dirección de correo electrónico del remitente.
-  
+
 ```
 <Message type="CHAT" content="hello" id="1">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -181,7 +181,7 @@ Chat - dirección de correo electrónico del remitente.
 ```
 
 Backchat - un usuario solicita contenido desde el historial de chat.
-  
+
 ```
 <Message type="BACKCHAT" content="backchatcontent" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -190,7 +190,7 @@ Backchat - un usuario solicita contenido desde el historial de chat.
 ```
 
 Carga de archivos - un usuario carga un archivo.
-  
+
 ```
 <Message type="FILEUPLOAD" content="0988239a-bb66-4616-90a4-b07771a2097c.txt" id="0">
   <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -199,7 +199,7 @@ Carga de archivos - un usuario carga un archivo.
 ```
 
 Descarga de archivos - un usuario descarga un archivo.
-  
+
 ```
 <Message type="FILEDOWNLOAD" content="006074ca-24f0-4b35-8bd8-98006a2d1aa8.txt" id="0">
   <Sender UserName="kazuto@litwareinc.com" id="10" email="" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -210,7 +210,7 @@ Descarga de archivos - un usuario descarga un archivo.
 ### <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>XSD de salida de Chat en grupo predeterminado y transformación XSL de ejemplo
 
 El siguiente ejemplo de código muestra el resultado predeterminado del Servidor de cumplimiento:
-  
+
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema id="Conversations" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -224,7 +224,7 @@ El siguiente ejemplo de código muestra el resultado predeterminado del Servidor
         <xs:enumeration value="FILEDOWNLOAD"/>
       </xs:restriction>
     </xs:simpleType>
-  
+
   <xs:element name="Sender">
     <xs:complexType>
       <xs:attribute name="UserName" type="xs:string" />
@@ -309,7 +309,7 @@ El siguiente ejemplo de código muestra el resultado predeterminado del Servidor
 ```
 
 El siguiente ejemplo de código contiene un ejemplo de transformación XSL:
-  
+
 ```
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
    <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -378,5 +378,4 @@ El siguiente ejemplo de código contiene un ejemplo de transformación XSL:
       <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
    </xsl:template>
 </xsl:stylesheet>
-
 ```

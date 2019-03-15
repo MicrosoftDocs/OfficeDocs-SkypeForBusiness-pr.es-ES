@@ -13,12 +13,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 4e117cd7e8bdde34a4982408052a1a61aedd00d7
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353485"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569785"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -105,14 +105,14 @@ En la siguiente tabla se enumera los parámetros adicionales que puede usar en l
 |¿Obligatorio?|Nombre|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Sí|FQDN|El nombre FQDN de la SBC |Ninguno|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguno|True<br/>False|Booleano|
+|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguno|True<br/>False|Boolean|
 |Sí|SipSignallingPort |Puerto de escucha usado para la comunicación con los servicios de enrutamiento directa mediante el protocolo de seguridad de capa de transporte (TLS).|Ninguno|Cualquier puerto|0 a 65535 |
-|No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no hay respondidas por la puerta de enlace dentro de 10 segundos se enrutan al siguiente tronco disponible; Si no hay ningún troncos adicionales, automáticamente se interrumpe la llamada. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.| 10|Número|Int|
-|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si se habilita, el Proxy de RTC de Office 365 envía dos encabezados: información de historial y remitido por. El valor predeterminado es **False** ($False). |False|True<br/>False|Booleano|
-|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. El valor predeterminado es **False** ($False).|False|True<br/>False|Booleano|
-|No|SendSIPOptions |Define si un SBC se o no enviará las opciones de SIP. Si deshabilita esta opción, la SBC se excluirán del sistema de supervisión y alertas. Se recomienda encarecidamente que habilite las opciones de SIP. Valor predeterminado es **True**. |True|True<br/>False|Booleano|
+|No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no hay respondidas por la puerta de enlace dentro de 10 segundos se enrutan al siguiente tronco disponible; Si no hay ningún troncos adicionales, automáticamente se interrumpe la llamada. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.|10|Número|Int|
+|No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si se habilita, el Proxy de RTC de Office 365 envía dos encabezados: información de historial y remitido por. El valor predeterminado es **False** ($False). |False|True<br/>False|Boolean|
+|No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si se habilita la privacidad: identificador también se enviará el encabezado. El valor predeterminado es **False** ($False).|False|True<br/>False|Boolean|
+|No|SendSIPOptions |Define si un SBC se o no enviará las opciones de SIP. Si deshabilita esta opción, la SBC se excluirán del sistema de supervisión y alertas. Se recomienda encarecidamente que habilite las opciones de SIP. Valor predeterminado es **True**. |True|True<br/>False|Boolean|
 |No|MaxConcurrentSessions |Usada por el sistema de alertas. Cuando se establece ningún valor, el sistema de alertas generará una alerta para el Administrador de inquilinos cuando el número de sesión simultáneo es 90% o mayor que este valor. Si no se establece el parámetro, no se generan las alertas. Sin embargo, el sistema de supervisión informará número de sesiones simultáneas cada 24 horas. |Null|Null<br/>1 y 100.000. ||
-|No|Habilitado *|Se usa para habilitar este SBC para las llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se está actualizando o durante el mantenimiento. |False|True<br/>False|Booleano|
+|No|Habilitado *|Se usa para habilitar este SBC para las llamadas salientes. Puede usarse para quitar temporalmente el SBC, mientras se está actualizando o durante el mantenimiento. |False|True<br/>False|Boolean|
  
 ### <a name="verify-the-sbc-pairing"></a>Compruebe el emparejamiento de SBC 
 
@@ -530,6 +530,6 @@ El resultado es que la directiva de voz que se aplican a las llamadas de John Wo
 Sólo enrutamiento directa enruta las llamadas a y desde los usuarios si utilizan al cliente de los equipos. Si su organización sólo usa los equipos, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si su organización usa Skype para Business Server o Skype para profesionales en línea, consulte el siguiente artículo para obtener más información y seleccione la opción adecuada: [comprender la coexistencia y actualización de viaje para Skype para profesionales y los equipos](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)

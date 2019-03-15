@@ -3,7 +3,7 @@ title: Plan de adopción de usuario de los equipos de Microsoft | Procedimientos
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad07d4445e02c10eb75a62d6fa2933b413b8107
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463279"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569977"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -34,9 +34,9 @@ Tecnología está dispuestos a un ritmo sin precedentes. Mantiene la actual y la
 
 El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, gotas de llamada o de posposición tiempo al unirse a reuniones), correlacionan esto con la propia tecnología, dejarlas con la impresión de que no funciona la tecnología y apertura de la puerta para las aplicaciones no compatibles. Implementación de un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positivo además de reducir las llamadas al soporte técnico de su. Para obtener más información, vea los siguientes artículos:
 
-- [Usar el servicio](upgrade-operate-my-service.md)
-- [Calidad de Monitor](upgrade-monitor-quality.md)
-- [Mejorar el servicio](upgrade-enhance-my-service.md)
+- [Ejecutar los servicios](upgrade-operate-my-service.md)
+- [Supervisar la calidad](upgrade-monitor-quality.md)
+- [Mejorar los servicios](upgrade-enhance-my-service.md)
 
 ## <a name="drive-user-momentum-and-adoption"></a>Unidad de usuario momentum y adopción
 

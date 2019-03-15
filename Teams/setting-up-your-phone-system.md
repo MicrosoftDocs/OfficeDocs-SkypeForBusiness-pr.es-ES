@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: ef677e694ca170b7576f6613cbfddd83f9b493b0
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5423ceb0dcd4de03c95ff956e50442a784de877c
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542890"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633285"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -48,7 +48,7 @@ Para asignar una licencia del sistema telefónico y del plan de llamadas a un so
 [] Para poder configurar los usuarios de su organización para que puedan recibir y realizar llamadas telefónicas, debe usar el Centro de administración de Skype Empresarial para obtener los números de teléfono.
 
 Existen tres maneras de obtener números para los usuarios:
-- Obtener números nuevos con el Centro de administración de Skype Empresarial.
+- Get new numbers using the Skype for Business admin center.
 - Obtener números nuevos que no están disponibles en el centro de administración de Skype for Business.
 - Realizar la portabilidad de los números existentes de su proveedor de servicios u operador telefónico actual, o transferirlos.
 
@@ -68,7 +68,7 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
   
 Sometimes (depending on your country/region) you won't be able to get your new numbers using the Skype for Business admin center. In this case, you will need to download a form and send it back to us. See [Manage phone numbers for your organization](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) to learn how to request new user numbers.   
   
-### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Realizar la portabilidad de los números de su proveedor de servicios u operador telefónico o transferirlos
+### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Port or transfer phone numbers from your service provider or phone carrier
   
 - If you need 999 or fewer phone numbers for your users, you can use the **New Local Number Port Order** wizard in the Skype for Business admin center. Follow the steps found in [Transfer phone numbers to Office 365](transfer-phone-numbers-to-office-365.md) to transfer your phone numbers over to Skype for Business Online.
     
@@ -205,7 +205,7 @@ Para ver las preguntas más frecuentes acerca de las audioconferencias, consulte
       > [!NOTE]
       > This feature is not yet available to customers using Office 365 operated by 21Vianet in China. To learn more, see [Learn about Office 365 operated by 21Vianet](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE).
 
-**Para obtener más información acerca de las audioconferencias, consulte [Configurar las audioconferencias](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing).**
+**Para obtener más información acerca de las conferencias de Audio, consulte [Configurar conferencias de Audio para los equipos de Microsoft](set-up-audio-conferencing-in-teams.md).**
 
 ## <a name="step-7-if-you-want-to-set-up-a-phone-system-call-queue"></a>Paso 7: si desea configurar una cola de llamadas del sistema telefónico
 

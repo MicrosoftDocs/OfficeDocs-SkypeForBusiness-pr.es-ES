@@ -4,7 +4,7 @@ author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.date: 01/28/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Help
@@ -14,21 +14,20 @@ search.appverid: MET150
 F1keywords: ms.teamsadmincenter.directrouting.overview
 description: Página de destino de enrutamiento directo
 appliesto: Microsoft Teams
-ms.openlocfilehash: b8f7840b981b67f941598638b2624de0cd512b8c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 5710ddd2c3715f0cfd1e4b1ca5b45058c9741e18
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494064"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569865"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 
 Ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido utilizar su propio operador de telefonía para la conectividad pública red de telefónica conmutada (RTC) mediante el uso de enrutamiento directo de teléfono del sistema. Con el enrutamiento directo, puede usar el sistema telefónico con prácticamente cualquier operador de telefonía.
 
-En este artículo se describe la implementación las decisiones principales para el enrutamiento directo, así como consideraciones adicionales que es posible que desea configurar, en función de las necesidades de su organización.  También debe leer [En la nube de voz en los equipos de Microsoft](cloud-voice-landing-page.md) para obtener más información acerca de las ofertas de voz de la nube de Microsoft.
+En este artículo se describe la implementación las decisiones principales para el enrutamiento directo, así como consideraciones adicionales es posible que desee pensar, según las necesidades de su organización. También debe leer [En la nube de voz en los equipos de Microsoft](cloud-voice-landing-page.md) para obtener más información acerca de las ofertas de voz de la nube de Microsoft.
 
 ## <a name="learn-more-about-direct-routing"></a>Encontrará más información acerca del enrutamiento directo
-
 
 Los artículos siguientes proporcionan más información sobre cómo configurar y usar enrutamiento directo de teléfono del sistema. Configurar el enrutamiento directo requiere conocimientos de diseño de enrutamiento de RTC. Debe leer todos estos artículos para aprender a planear y configurar el enrutamiento directo:
 
@@ -47,7 +46,6 @@ Además, es posible que desee leer los artículos según los requisitos siguient
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
 Estos son las decisiones principales a tener en cuenta para el enrutamiento directo. 
-
 
 |Pregúntese lo siguiente:|Acción |
 | :------------|:-------|

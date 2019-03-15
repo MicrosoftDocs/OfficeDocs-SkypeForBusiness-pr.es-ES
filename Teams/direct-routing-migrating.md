@@ -13,14 +13,14 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre lo que necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y perspectiva de la configuración de los equipos.
-ms.openlocfilehash: 100999483aa3246807008c2e8c60fc6d3ed5baa9
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ff70af11783fb184fc3599fdb6d5fc13c15478a7
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353117"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569929"
 ---
-# <a name="migrating-to-direct-routing"></a>Migrar a enrutamiento directo
+# <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
 Este artículo describe lo que se necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y Microsoft Teams perspectiva de la configuración. En este artículo se trata la migración entre las siguientes opciones: 
  
@@ -35,9 +35,9 @@ Además de estos pasos de configuración, configuración también es necesario e
 
 En la siguiente tabla se muestra el estado final para un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el sistema telefónico de Office 365. Se muestran sólo los atributos relevantes para voz.
 
-|Atributos de objeto de usuario |Sistema telefónico con Planes de llamada|Phone sistema con local conectividad RTC a través de Skype para Business Server|Sistema de teléfono con local conectividad RTC a través del conector en la nube|Sistema de teléfono con local conectividad RTC a través de enrutamiento directo|
+|Atributos de objeto de usuario |Sistema telefónico con planes de llamada|Phone sistema con local conectividad RTC a través de Skype para Business Server|Sistema de teléfono con local conectividad RTC a través del conector en la nube|Sistema de teléfono con local conectividad RTC a través de enrutamiento directo|
 |---|---|---|---|---|
-|Cliente|Skype para profesionales o equipos |Skype for Business |Skype for Business |Microsoft Teams|
+|Cliente|Skype para profesionales o equipos |Skype Empresarial |Skype Empresarial |Microsoft Teams|
 |Licencias|Profesionales de Skype en línea</br>Plan 2</br></br>MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)</br></br></br>Planes de llamadas</br>Microsoft Teams|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD</br></br></br>Sistema telefónico (MCOEV)</br></br>Microsoft Teams|
 OnPremLineURI |N/D|El número de teléfono debe ser sincronizado desde el local AD. |El número de teléfono se puede administrar en Active Directory local o en Active Directory de Azure.|El número de teléfono se puede administrar en Active Directory local o en Active Directory de Azure. Sin embargo, si la organización tiene Skype local para la empresa, el número debe ser sincronizado desde Active Directory local.|
 |LineURI|Número de teléfono de llamada de RTC|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|

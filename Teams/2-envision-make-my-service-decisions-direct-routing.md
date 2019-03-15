@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 07/09/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e0597444b9f46d9ac3761ef42a4817a5db5117f
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: aca4fc24cb39fd1dc607825a73b9f3751992de3d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462743"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569769"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
 Para planear la implementación técnica del teléfono del sistema enrutamiento directo ("enrutamiento directo"), debe realizar una serie de decisiones de servicio antes de tiempo para preparar mejor su organización para implementar una solución que cumpla los requisitos de negocio que ha definido.
 
-## <a name="calling-in-teams"></a>Llamar en Microsoft Teams
+## <a name="calling-in-teams"></a>Al llamar a los equipos
 
 Con Microsoft Teams, los usuarios pueden realizar y recibir llamadas de teléfono a o desde la red telefónica conmutada (RTC). Los usuarios pueden utilizar sus propios números de teléfono dedicado para realizar y recibir llamadas de teléfono nacionales e internacionales (incluido el correo de voz) de la aplicación de los equipos cliente.
 
@@ -56,11 +56,11 @@ Después de confirmar que su organización puede obtener la característica del 
 > 
 > | **Office**                     | **Ubicación**   | **Servicio del sistema de teléfono** |
 > |--------------------------------|----------------|--------------------------|
-> | One Epping Road                | Australia      | Servicio de RTC antiguo |
+> | One Epping Road                | Australia      | Servicio de RTC heredado |
 > | 100 Cyberport Road             | RAE de Hong Kong  | Enrutamiento directo del Sistema telefónico |
 > | One Marina Boulevard           | Singapur      | Enrutamiento directo del Sistema telefónico |
-> | 32 London Bridge Street        | Reino Unido | Sistema telefónico con Planes de llamada |
-> | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con Planes de llamada |
+> | 32 London Bridge Street        | Reino Unido | Sistema telefónico con planes de llamada |
+> | 39 quai du Président Roosevelt | Francia         | Sistema telefónico con planes de llamada |
 
 <!--ENDOFSECTION-->
 
@@ -104,10 +104,10 @@ Para obtener más información acerca de correo de voz en una implementación de
 > | **Usuario**         | **Buzón de Exchange** | **¿Habilitar correo de voz?** | **Transcripción de correo de voz** | **Enmascaramiento de contenido ofensivo de transcripción de correo de voz** |
 > |------------------|----------------------|-----------------------|-----------------------------|-----------------------------------------------|
 > | Emily Braun      | Online               | Sí                   | Habilitado                     | Habilitado                                       |
-> | Lidia Holloway   | En línea               | Sí                   | Habilitado                     | Deshabilitado                                      |
+> | Lidia Holloway   | Online               | Sí                   | Habilitado                     | Deshabilitado                                      |
 > | Louis Lahr       | Local          | Sí                   | Habilitado                     | Habilitado                                       |
 > | Marcel Beauchamp | Local          | Sí                   | Deshabilitado                    | N/D                                           |
-> | Rachelle Cormier | En línea               | Sí                   | Deshabilitado                    | N/D                                           |
+> | Rachelle Cormier | Online               | Sí                   | Deshabilitado                    | N/D                                           |
 > | Isabell Potvin   | Local          | Sí                   | Deshabilitado                    | N/D                                           |
 > 
 > [!NOTE]
@@ -290,9 +290,9 @@ Para que los usuarios se ve la ficha llamadas en el cliente de los equipos, tien
 
 Use la información de las secciones anteriores de este artículo para documentar las decisiones de servicio. En general, esta documentación contiene las secciones principales siguientes:
 
--   Lista de habilitación del sitio de Sistema telefónico con Planes de llamada
+-   Sistema telefónico con planes de llamar a la lista de habilitación de sitios
 
--   Detalles de la configuración del correo de voz
+-   Detalles de configuración de correo de voz
 
 -   Asignación de licencias para usuarios de enrutamiento directo de teléfono del sistema
 

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 03/12/2018
-ms.topic: article
+ms.topic: reference
 ms.service: msteams
 ms.reviewer: MyAdvisor
 description: Vídeos que presentan la Audioconferencia en Microsoft Teams al administrador de TI.
@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54df85983734a83ae3e9dcf95911a1879be7f1fa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 7cac58c5921f56d5db6e5b35e17f4930bcffe0f8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462951"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569969"
 ---
 <a name="videos-audio-conferencing-in-microsoft-teams"></a>Vídeos: Audioconferencia en Microsoft Teams
 =============================================

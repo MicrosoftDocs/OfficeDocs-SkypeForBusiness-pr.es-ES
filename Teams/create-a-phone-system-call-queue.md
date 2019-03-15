@@ -20,17 +20,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Learn how to set up phone system for Office 365 (Cloud PBX) call queues to give you an organizational greeting, music on hold, and redirecting calls to call agents in distribution lists and security groups. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3ac506f62f7b6dad35b9b1ec04fe2ffe2d612061
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Obtenga información sobre cómo configurar el sistema telefónico para colas de llamadas de Office 365 (PBX en la nube) para que le proporcionen un saludo organizativo, música en espera y redireccionamiento de llamadas a los agentes de llamadas en las listas de distribución y grupos de seguridad. También puede establecer las opciones de tamaño máximo de cola, tiempo de espera y administración de llamadas.
+ms.openlocfilehash: f22b840bfde011937305732e61748d8a1feae390
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543050"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633277"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el Sistema telefónico
 
-Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
+Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
   
 Las colas de llamadas del Sistema telefónico pueden proporcionar:
   
@@ -55,14 +55,14 @@ Todas las llamadas en espera en la cola se distribuirá mediante un modo de enru
 > [!NOTE]
 > En este artículo se aplica a Microsoft Teams y Skype para profesionales en línea.
 
-## <a name="step-1---getting-started"></a>Paso 1: tareas iniciales
+## <a name="step-1---get-started"></a>Paso 1: Introducción
 
 Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas:
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para usarse en las colas de llamadas. El número de colas de llamada que puede tener depende de que el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para usarse en las colas de llamadas. El número de colas de llamada que puede tener depende de que el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para licencias de complemento de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) o [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
 
     > [!NOTE]
-    > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [Asignar Skype para licencias de negocio y equipos de Microsoft](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [Asignar Skype para licencias de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) o [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener más información acerca de planes de llamadas de Office 365, vea [¿Cuáles son los planes de llamadas en Office 365?](what-are-calling-plans-in-office-365.md) y [Planes de llamadas para Office 365](calling-plans-for-office-365.md).
 
@@ -80,7 +80,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 
   - Cliente de escritorio de Lync 2013 (versiones de 32 y 64 bits)
 
-  - Todos los modelos de teléfono IP compatible con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online.md).
+  - Todos los modelos de teléfono IP compatible con Microsoft Teams. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online).
 
   - Cliente de Skype for Business para Mac (versión 16.8.196 y posteriores)
 
@@ -100,7 +100,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 
 ## <a name="step-2---getting-or-transferring-toll-or-toll-free-service-phone-numbers"></a>Paso 2: obtener o transferir números de servicio de pago o gratuitos
 
-Antes de crear o configurar una cola, tendrá que obtener sus números de servicio de pago o gratuitos, o transferir unos existentes. Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > **los números de teléfono**y la ya se encuentra el **tipo de número de** aparecer como **servicio - gratuito**. Para obtener sus números de servicio, vea [los números de teléfono del servicio de obtención](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) o si desea transferir un número de servicio existente, vea [los números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md).
+Antes de crear o configurar una cola, tendrá que obtener sus números de servicio de pago o gratuitos, o transferir unos existentes. Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > **los números de teléfono**y la ya se encuentra el **tipo de número de** aparecer como **servicio - gratuito**. Para obtener sus números de servicio, vea [los números de teléfono del servicio de obtención](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) o si desea transferir un número de servicio existente, vea [los números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de los Estados Unidos.
@@ -133,7 +133,7 @@ En el **Centro de administración de equipos de Microsoft**, **voz** >  **colas 
 
 **Agregar cuentas** Seleccione una cuenta de recurso. La cuenta del recurso puede o no puede estar asociada con un teléfono de pago de servicio o el número de teléfono gratuito de la cola de llamadas, pero cada cola llamada requiere una cuenta de recurso asociado.
 
-Si no existe ninguno en la lista, debe obtener los números de servicio y asignarlos a una cuenta de recursos con el para poder crear esta cola de llamadas, tal y como se ha descrito anteriormente. Para obtener sus números de servicio, vea [los números de teléfono del servicio de introducción](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md). Debe crear una cuenta de recurso tal como se describe en [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) , si desea que la cola de llamada tiene un número de teléfono asociado.
+Si no existe ninguno en la lista, debe obtener los números de servicio y asignarlos a una cuenta de recursos con el para poder crear esta cola de llamadas, tal y como se ha descrito anteriormente. Para obtener sus números de servicio, vea [los números de teléfono del servicio de introducción](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Debe crear una cuenta de recurso tal como se describe en [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) , si desea que la cola de llamada tiene un número de teléfono asociado.
 
 > [!NOTE]
 > Si desea o necesita asignar un **dominio** sería hacerlo mediante la asignación a la cuenta del recurso de la cola de llamada.
@@ -167,7 +167,7 @@ Puede seleccionar a un máximo de 200 agentes de llamada que pertenecen a grupos
 - Un usuario en línea con una licencia de **Sistema telefónico** y habilitado para Enterprise Voice o con un Plan de llamada.
 
   > [!NOTE]
-  > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o disponer de un Plan de llamada. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md).
+  > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o disponer de un Plan de llamada. Vea [Asignar Skype para licencias de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
 
  Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
@@ -284,7 +284,7 @@ A continuación, aplique la directiva al usuario mediante el cmdlet **Grant-Call
 Grant-CsCallingLineIdentity -PolicyName UKSalesQueue -Identity "AmosMarble@contoso.com"
 ```
 
-Puede obtener más información acerca de cómo realizar cambios en la configuración de identificador de autor de la llamada de la organización en el artículo [cómo se puede usar el identificador de autor de la llamada de la organización](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization.md).
+Puede obtener más información acerca de cómo realizar cambios en la configuración de identificador de autor de la llamada de la organización en el artículo [cómo se puede usar el identificador de autor de la llamada de la organización](/skypeforbusiness/what-are-calling-plans-in-office-365/how-can-caller-id-be-used-in-your-organization).
   
 ## <a name="want-to-know-more"></a>¿Desea obtener más información?
 
@@ -320,7 +320,7 @@ Estos son los cmdlets que necesita para administrar una cola de llamadas.
 
 [Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Obtener números de teléfono de servicio](/Skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obtener números de teléfono de servicio](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

@@ -20,16 +20,16 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Vea qué información se envía por correo electrónico automáticamente a los usuarios cuando cambia su configuración de las conferencias de acceso telefónico local en Microsoft Teams. '
-ms.openlocfilehash: 6081f531bb7cbae180997dedd9e9892e9829ae1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: cdd45eaad709ed2060cc0b0f9700e213ea884b72
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462815"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633337"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>Correos electrónicos que se envían a los usuarios cuando cambia la configuración en Microsoft Teams
 
-Los correos electrónicos se enviarán automáticamente a los usuarios que estén [habilitados para Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) con Microsoft como proveedor de servicios de audioconferencia.
+Los correos electrónicos se enviarán automáticamente a los usuarios que estén [habilitados para Audioconferencia](set-up-audio-conferencing-in-teams.md) con Microsoft como proveedor de servicios de audioconferencia.
 
 De manera predeterminada, hay cuatro tipos de correos electrónicos que se enviarán a los usuarios habilitados para Audioconferencia. Sin embargo, si quiere limitar el número de correos electrónicos que se envían a los usuarios, puede desactivar esta función. Audioconferencia en Office 365 enviará un correo electrónico a los usuarios en las siguientes circunstancias:
 

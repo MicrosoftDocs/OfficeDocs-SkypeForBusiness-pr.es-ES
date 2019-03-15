@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 69b14984ac9acca71a7729615cde2280b064ff9b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493568"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568411"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -44,7 +44,7 @@ Si desea más información sobre la configuración de administrador para las apl
 
 ## <a name="allow-external-apps-in-teams"></a>Permitir aplicaciones externas en Microsoft Teams
 
-De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada con todas las aplicaciones seleccionadas.  Si desactiva esta opción, se deshabilitan todas las aplicaciones de otros fabricantes externas. 
+De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada con todas las aplicaciones seleccionadas. Si desactiva esta opción, se deshabilitan todas las aplicaciones de otros fabricantes externas. 
 
 ## <a name="enable-new-external-apps-by-default"></a>Habilitar nuevas aplicaciones externas de manera predeterminada
 

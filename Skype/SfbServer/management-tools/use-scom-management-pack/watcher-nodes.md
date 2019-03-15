@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure los nodos de monitor para Skype para las transacciones sintéticas Business Server.'
-ms.openlocfilehash: 4e7b0b8c1874a2491cc34d26a8ef6870c412b760
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6719826515954290f30eac272f638b846f45142a
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015641"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "25375989"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  
@@ -281,9 +281,9 @@ El siguiente consiste en ejecutar el archivo Watchernode.msi:
     
 2. En el Shell de administración de Skype Empresarial Server, escriba el siguiente comando y, a continuación, presione ENTRAR (asegúrese de especificar la ruta de acceso real a la copia del archivo Watchernode.msi):
     
-  ```
-  c:\Tools\Watchernode.msi Authentication=Negotiate
-  ```
+   ```
+   c:\Tools\Watchernode.msi Authentication=Negotiate
+   ```
 
 > [!NOTE]
 > Como se ha descrito con anterioridad, Watchernode.msi también se puede ejecutar desde una ventana Comandos. Para abrir una ventana Comandos, haga clic en **Inicio**, haga clic con el botón secundario en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**. Cuando se abra la ventana Comandos, escriba el mismo comando que se ha mostrado en el paso 2. 

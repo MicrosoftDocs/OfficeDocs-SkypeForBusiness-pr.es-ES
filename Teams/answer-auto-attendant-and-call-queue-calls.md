@@ -1,10 +1,10 @@
 ---
-title: Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos
+title: Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 09/20/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 description: Describe los operadores automáticos de sistema telefónico y colas de llamadas y se explica cómo puede responder a estas llamadas en los equipos.
 localization_priority: Normal
@@ -14,14 +14,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c010ae5a812cfd3d49279dd3728e948bdb31ca53
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 900fe698654a760c9863583da0b3cd161625844d
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465335"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569442"
 ---
-<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder a operador automático y las llamadas de cola de llamadas directamente desde los equipos
+<a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 ===========================================================
 
 Los usuarios de los equipos pueden recibir y responda a llamadas de Skype para profesionales Online operador automático y las colas de llamadas directamente desde su cliente de los equipos. Para los usuarios de los equipos, la característica de operador automático está ahora disponible por lo general y la funcionalidad de cola de llamadas está en vista previa. 
@@ -63,5 +63,5 @@ Para recibir el operador automático y llamar a las llamadas de cola en Microsof
 -   [¿Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
 -   [Crear una cola de llamadas para el Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 -   [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
--   [Configurar un operador automático para el Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Configurar un operador automático para el sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

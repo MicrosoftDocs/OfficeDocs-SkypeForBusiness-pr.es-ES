@@ -4,7 +4,7 @@ ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: d050c8c3-1cd2-45c8-8a6d-2e86e938f356
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: Además de la licencia de cada usuario estándar de conferencias de Audio, las organizaciones con licencias por volumen de Microsoft también pueden elegir una oferta de pago por minuto para habilitar las capacidades de conferencia de Audio para sus organizaciones.
-ms.openlocfilehash: 5b2a194b999382e66db8c9a87d19594fbb4d6a3d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 72083c7c312382b5288293cbe1223594f3053455
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464415"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569721"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audioconferencia con pago por minuto
 

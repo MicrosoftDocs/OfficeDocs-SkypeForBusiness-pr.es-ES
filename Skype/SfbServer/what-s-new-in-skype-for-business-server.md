@@ -3,7 +3,7 @@ title: Novedades de Skype Empresarial Server 2015
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
-ms.date: 12/20/2018
+ms.date: 12/20/2017
 ms.audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Resumen: Lea este tema para obtener más información acerca de las nuevas características de Skype para Business Server 2015. Para obtener información detallada acerca de la nueva experiencia del cliente, vea que Lync ahora está Skype para la empresa: consulte cuáles son las novedades.'
-ms.openlocfilehash: 9c5dd3996cb6c15de93b564fa800e01270d92b66
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e1ae2a046b955e83ccc7c811984a526c26f7c526
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012454"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "24961032"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Novedades de Skype Empresarial Server 2015
 
@@ -48,7 +48,7 @@ Skype para Business Server 2015 incluye mejoras a la funcionalidad de voz y víd
   
 ### <a name="call-data-collection-and-analysis"></a>Recopilación y análisis de datos de llamadas
 
-La característica Mis llamadas de tasa, permite Skype para los administradores de Business Server 2015 recopila datos de la llamada. Solo está disponible para implementaciones locales. Se pedirá a los usuarios que rellenen una encuesta tras completar una llamada. Para obtener más información, consulte [tasa de mi llamada de Skype para Business Server 2015](manage/health-and-monitoring/rate-my-call.md).
+La característica Mis llamadas de tasa, permite Skype para los administradores de Business Server 2015 recopila datos de la llamada. Solo está disponible para implementaciones locales. Se pedirá a los usuarios que rellenen una encuesta tras completar una llamada. Para obtener más información, consulte [Rate my Call in Skype for Business Server 2015](manage/health-and-monitoring/rate-my-call.md).
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>Interoperabilidad mejorada con sistemas de videoconferencia de terceros
 
@@ -100,14 +100,14 @@ Skype para Business Server 2015 proporciona varias características nuevas para 
 
 Ahora puede actualizar los sistemas de Lync Server 2013 a Skype para Business Server 2015 utilizando la característica nueva de actualización en contexto, que usa Lync Server 2013 hardware y server las inversiones existentes, lo que reduce el costo total para implementar Skype para Business Server 2015.
   
-Hay dos escenarios posibles: el método Mover usuario, que no causa tiempo de inactividad, y el método Sin conexión, que sí lo provoca. Para obtener más información acerca de qué es la adecuada para su negocio procedimiento de actualización, vea [Planear la actualización a Skype para Business Server 2015](plan-your-deployment/upgrade.md). 
+Hay dos escenarios posibles: el método Mover usuario, que no causa tiempo de inactividad, y el método Sin conexión, que sí lo provoca. Para obtener más información sobre cuál es el más adecuado para su negocio, consulte [Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md). 
   
 > [!NOTE]
 > La opción en contexto no está disponible si está actualizando de Lync Server 2010. Para obtener más información sobre la actualización de Lync Server 2010, vea [Planear la actualización a Skype para Business Server 2015](plan-your-deployment/upgrade.md). 
   
 ### <a name="smart-setup"></a>Configuración inteligente
 
-La función Configuración inteligente, que detecta y descarga automáticamente las actualizaciones, ahora forma parte del programa de configuración. Durante el proceso de instalación, se pregunta al usuario si el proceso de instalación debe buscar actualizaciones. Para obtener más información, vea [Instalar Skype para Business Server 2015](deploy/install/install.md).
+La función Configuración inteligente, que detecta y descarga automáticamente las actualizaciones, ahora forma parte del programa de configuración. Durante el proceso de instalación, se pregunta al usuario si el proceso de instalación debe buscar actualizaciones. Para obtener más información, consulte [Install Skype for Business Server 2015](deploy/install/install.md).
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Proceso mejorado de revisión y actualización de servidores front-end
 
@@ -127,7 +127,7 @@ Grupos de disponibilidad de SQL Server AlwaysOn es una alta disponibilidad y la 
   
 Instancias de clúster de conmutación por error de SQL Server aprovecha la funcionalidad de agrupación en clústeres de conmutación por error de servidor de Windows (WSFC) para proporcionar alta disponibilidad local a través de redundancia en el nivel de instancia de servidor, una instancia de clúster de conmutación por error (FCI). Un FCI es una sola instancia de SQL Server que está instalado en todos los nodos de clústeres de conmutación por error de servidor de Windows (WSFC) y, posiblemente, en varias subredes.
   
-Para obtener más información, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para más información, vea [Plan for high availability and disaster recovery in Skype for Business Server 2015](plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 ### <a name="centralized-logging-and-troubleshooting-improvements-for-on-premises-servers"></a>Mejoras en el registro de eventos centralizado y la solución de problemas para servidores locales
 

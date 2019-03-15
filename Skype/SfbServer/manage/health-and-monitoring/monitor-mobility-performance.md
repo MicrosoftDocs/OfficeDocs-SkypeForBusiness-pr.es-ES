@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Resumen: Obtenga información sobre el servicio de movilidad (Mcx) y la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
-ms.openlocfilehash: 4affcb532697f24c87d62e18fc26552639dc00e1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f4932a9ff14500aa16d2e183a3b665e7106302ee
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990640"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226920"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Movilidad de Monitor de rendimiento en Skype para Business Server
  
@@ -23,7 +23,7 @@ ms.locfileid: "20990640"
 El Skype para el servicio de movilidad de Business Server (Mcx) y la API de Web de comunicaciones unificadas (UCWA) aumentan la carga de los grupos de servidores Front-End y servidores Front-End. Dispositivos móviles que mantienen una conexión con el servidor incluso cuando se minimiza la aplicación móvil, como dispositivos Android y Nokia ejecuta Lync 2010 Mobile, así como los dispositivos Android y Apple que ejecutan Lync Mobile de 2013, imponen una carga mayor que los dispositivos que finalizar su conexión con el servidor cuando se minimiza la aplicación móvil. A medida que aumenta el uso de la movilidad, es preciso supervisar el rendimiento para determinar cuándo necesita aumentar su capacidad.
 
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 Hay varios límites que afectan al rendimiento de la movilidad: 
   

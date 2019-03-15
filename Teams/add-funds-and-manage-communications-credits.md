@@ -29,16 +29,16 @@ f1keywords:
 ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
-ms.openlocfilehash: f2b4b6d882753e20d2c7d401fb4fb63082b02f0f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: bbb24094e7aefd428e510273a922dab4461b7dde
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542258"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569083"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
-Créditos de comunicaciones son una forma cómoda de pago para el sistema telefónico y llamar a los planes en Office 365. Ayuda a garantizar que usted y sus usuarios nunca se detectan sin ser capaz de:
+Créditos de comunicaciones son una forma cómoda de pago para el sistema telefónico y llamar a los planes en Office 365. Comunicación créditos ayuda a garantizar que usted y sus usuarios nunca se detectan sin ser capaz de:
   
 - Acceso telefónico a las reuniones de conferencia de Audio con números de teléfono de acceso telefónico gratuito.
     
@@ -78,7 +78,7 @@ Puede ver los planes y precios, visite uno de los siguientes vínculos:
     
 También puede ver información iniciando [sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
   
-Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="related-topics"></a>Temas relacionados
 

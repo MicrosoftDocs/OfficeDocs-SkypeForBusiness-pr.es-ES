@@ -1,10 +1,10 @@
 ---
-title: Planes de llamada en Office 365 - código de práctica para el Reino Unido (Reino Unido)
+title: 'Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, allancar
-ms.topic: article
+ms.topic: reference
 ms.assetid: 44c6c523-2cd8-43c5-a53c-e9c59489b9c6
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ ms.custom:
 - Legal
 hideEdit: true
 description: 'Learn the code of practice for Calling Plans (PSTN Calling plans)  for Skype for Business for the United Kingdom, where to get help, and how to submit complaints and resolve disputes. '
-ms.openlocfilehash: 74458d97735d678f827b1510f10969bcda407cb6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 0973dab8afdbcfbeeb563694489a593e0029b212
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543002"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569434"
 ---
-# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365 - código de práctica para el Reino Unido (Reino Unido)
+# <a name="calling-plans-in-office-365---code-of-practice-for-the-united-kingdom-uk"></a>Planes de llamada en Office 365: código de prácticas para Reino Unido (UK)
 
 Este código se aplica a los clientes de pequeña empresa (las organizaciones con 10 empleados o menos) en el Reino Unido (Reino Unido) en relación con el servicio de planeación de llamada de Office 365 (el "servicio") con arreglo a las normativas de comunicaciones de Reino Unido. Los demás servicios de Skype Empresarial están regidos por su acuerdo de servicio con Microsoft y por otros términos aplicables en relación con el uso del servicio particular.
 

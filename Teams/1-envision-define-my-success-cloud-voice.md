@@ -1,10 +1,10 @@
 ---
-title: Definir el éxito en las conferencias de Audio, sistema telefónico con planes de llamada, o el teléfono del sistema enrutamiento directo - Microsoft Teams
+title: 'Definir el éxito en Audioconferencias, el Sistema telefónico con Planes de llamadas o el Enrutamiento directo del Sistema telefónico: Microsoft Teams'
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 06/07/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 405ec9e5471925ed977fc480d1b64f8d8deaee4b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: c6d841a593cf88830f95bb6282b21a081abf6f21
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465111"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569761"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -67,7 +67,7 @@ Casos de uso de negocio están diseñados para definir y documentar los resultad
 > 
 > |         |
 > |---------|
-> |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
+> |**Descripción del proceso de negocio actual**<br>Configuración estándar de áreas de trabajo de office de Contoso incluye un teléfono de escritorio para cada servicio de asistencia. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados sólo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Análisis de uso de los teléfonos de escritorio se muestra que sólo un 10% de los teléfonos de escritorio se usa activamente, con el resto configurado, ya sea para transferir las llamadas a los teléfonos móviles o simultáneamente a los teléfonos móviles. Mantener el sistema PBX existente y teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía mensual de Contoso.|
 > |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Planes de llamada le permitirá equipo de personal de un usuario recibir y realizar llamadas de teléfono a través de la red de datos mediante el aprovechamiento de la aplicación Microsoft Teams nativa. Esto elimina la necesidad de desplegar y mantener los teléfonos de escritorio y abre la oportunidad para dar de baja el sistema PBX existente, debido a que el servicio de teléfono se puede entregar a través de la nube a través de la red sin dependencia en un sistema telefónico tradicional.|
 > |**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. Planes de llamada simplificará áreas de trabajo de office, lo que permite Contoso ampliar sus operaciones mediante el establecimiento de nuevas oficinas con los costos de telefonía por adelantado mínima.|
@@ -79,7 +79,7 @@ Casos de uso de negocio están diseñados para definir y documentar los resultad
 > 
 > |         |
 > |---------|
-> |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
+> |**Descripción del proceso de negocio actual**<br>Configuración estándar de áreas de trabajo de office de Contoso incluye un teléfono de escritorio para cada servicio de asistencia. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados sólo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Análisis de uso de los teléfonos de escritorio se muestra que sólo un 10% de los teléfonos de escritorio se usa activamente, con el resto configurado, ya sea para transferir las llamadas a los teléfonos móviles o simultáneamente a los teléfonos móviles. Mantener el sistema PBX existente y teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía mensual de Contoso.|
 > |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>El contrato de proveedor del tronco SIP recientemente se firmó y estará en lugar de tres años. Permite la conectividad RTC a ser proporcionado por el proveedor de troncos SIP de enrutamiento directo y también le permitirá equipo de personal de un usuario recibir y realizar llamadas de teléfono a través de la red de datos mediante el aprovechamiento de la aplicación Microsoft Teams nativa. Esto elimina la necesidad de desplegar y mantener los teléfonos de escritorio y abre la oportunidad para dar de baja el sistema PBX existente, manteniendo una superficie de (SBC) del controlador de borde de sesión limitado local.|
 > |**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. Enrutamiento directo simplificará áreas de trabajo de office, lo que permite Contoso ampliar sus operaciones mediante el establecimiento de nuevas oficinas con los costos de telefonía por adelantado mínima.|
@@ -164,7 +164,7 @@ OKRs contienen los objetivos establecidos en el principio del proyecto y definir
 > |Objetivos  |Resultados de la claves  |Para hacer  |
 > |---------|---------|---------|
 > |Implementación de una llamada a los planes en sucursales Europeo final del año fiscal 2018|FY18Q3: Implementar planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
-> |Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
+> |Dé de baja PBX heredado en la oficina de Londres al final del año fiscal 2018|FY18Q4: Retirar el sistema PBX heredado en la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
 > 
 > [!TIP]
 > Ejemplos de OKRs relevantes para una implementación de enrutamiento directo se pueden hacer referencia a continuación:
@@ -214,7 +214,7 @@ Debe identificar los riesgos de negocio como parte de este ejercicio y definir u
 > |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
 > |---------|---------|---------|---------|---------|
 > |Con la próxima fusión se sumarán hasta 1000 personas|Alto|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
-> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alto|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alto|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se debe comunicar el uso de los nuevos números de conferencia de acceso telefónico local a los participantes externos.</li><li>Utilice los números de teléfono temporal con la manipulación de identificador de autor de la llamada</li></ul>|
 > |Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
 > |Configuración de SBC|Alto|Alto|Alto|<ul><li>Antes de implementar los equipos como reemplazo para el sistema PBX existente, confirme que puede cumplir todos los requisitos de configuración de SBC</li><li>Confirme que los recursos de soporte técnico SBC tienen la aptitud adecuada para configurar SBC para enrutamiento directo</li></ul>|
 

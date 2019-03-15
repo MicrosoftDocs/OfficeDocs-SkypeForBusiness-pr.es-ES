@@ -9,12 +9,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Resumen: Obtenga información sobre cómo supervisar los límites de capacidad de memoria de servidor en Skype para Business Server.'
-ms.openlocfilehash: 05913ea5b32a9a40d7c577c4a0795ccb07db211f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6eb60d48e9da0736ac8753000343b5dc1458bacf
+ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978703"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "21226977"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Monitor de los límites de capacidad de memoria de servidor en Skype para Business Server
  
@@ -24,7 +24,7 @@ ms.locfileid: "20978703"
 > La información de este tema que hace referencia a la planeación de capacidad pertenece únicamente a los clientes móviles de Lync 2010 y el servicio de movilidad (Mcx). Planeación de la capacidad para el Unified Communications Web API (UCWA), usado por los clientes móviles de Lync 2013, es proporcionada por la herramienta de planeación de Lync Server 2013. 
 
 > [!NOTE]
-> Compatibilidad con MCX para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Los usuarios deben actualizar a un cliente actual.
+> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
 Dos contadores de rendimiento de movilidad pueden ayudarle a determinar su uso actual y le ayudará a planear la capacidad para el Skype para servicio de movilidad de servidor empresarial (Mcx), así como para supervisar el uso de memoria para UCWA. Para UCWA, la categoría de contador es **LS:WEB - UCWA**. En el caso de Mobility Service (Mcx), los contadores pertenecen a la categoría **LS:WEB - Mobile Communication Service**. Los contadores que se supervisan son los siguientes:
   
@@ -47,6 +47,6 @@ El servidor Front-End necesita suficiente memoria disponible para admitir el ser
   
 Si la cantidad de memoria disponible en el servidor Front-End es inferior a 1 500 MB al planear el número esperado de usuarios de movilidad, necesita agregar más hardware para admitir el servicio de movilidad. Para obtener más detalles, vea [movilidad de Monitor de rendimiento en Skype para Business Server](monitor-mobility-performance.md) en la documentación sobre operaciones.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Movilidad de Monitor de rendimiento en Skype para Business Server](monitor-mobility-performance.md)

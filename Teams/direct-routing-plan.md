@@ -5,23 +5,21 @@ author: CarolynRowe
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: NMuravlyannikov
-ms.topic: article
-ms.service:
-- msteams
-- skype-for-business-online
-ms.prod: skype-for-business-itpro
+ms.topic: conceptual
+ms.service: msteams
 localization_priority: Normal
 search.appverid: MET150
-ms.collection: Teams_ITAdmin_Help
-appliesto:
-- Microsoft Teams
+ms.collection:
+- Teams_ITAdmin_Help
+- M365-voice
+appliesto: Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 77c4e21b2be0f8d4729924484102ba31becbfbe7
-ms.sourcegitcommit: 10370b163e5a9d0e27dde71b847c8bca26dcaa74
+ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "29690575"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569945"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -79,7 +77,7 @@ En la siguiente tabla, se enumeran los requisitos de infraestructura para el SBC
 |Puntos de conexión para el enrutamiento directo |Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:<br/><br/>`sip.pstnhub.microsoft.com`: FQDN global, debe intentar primero.<br/>`sip2.pstnhub.microsoft.com`: FQDN secundario, geográficamente se asigna a la segunda región de prioridad.<br/>`sip3.pstnhub.microsoft.com`– Terciario FQDN, geográficamente se asigna a la región de prioridad de terceros.<br/><br/>Para obtener información sobre los requisitos de configuración, vea [de señalización SIP: FQDN y los puertos de firewall](#sip-signaling-fqdns-and-firewall-ports).|
 |Las direcciones IP de servidor de seguridad y los puertos para los medios de enrutamiento directo |La SBC se comunica con los siguientes servicios en la nube:<br/><br/>Proxy, que controla la señalización SIP<br/>Procesador de medios, que controla los medios-excepto cuando es el desvío de medios en<br/><br/>Estos dos servicios tienen direcciones IP distintas en Microsoft Cloud, que se describen más adelante en este documento.<br/><br/>Para obtener más información, vea la [sección de equipos de Microsoft](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |Medios de transporte perfil|RTP/TCP/SAVP <br/>RTP/UDP/SAVP|
-Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Si desea más información, consulte [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
+Las direcciones IP de servidor de seguridad y los puertos de medios de Microsoft Teams |Para obtener más información, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Concesión de licencias y otros requisitos 
@@ -106,7 +104,7 @@ Combinación de conectividad de planeación de la llamada y el enrutamiento dire
 
 Para obtener más información acerca de las licencias del sistema de teléfono, vea [Opciones de planeación de Office 365](https://technet.microsoft.com/library/office-365-plan-options.aspx)y [obtener el máximo partido de Office con Office 365](https://products.office.com/compare-all-microsoft-office-products?tab=2) . 
 
-Para obtener más información acerca de las licencias del sistema de teléfono, vea [Skype para profesionales y los equipos de Microsoft complemento licencias](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing). 
+Para obtener más información acerca de las licencias del sistema de teléfono, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). 
 
 ## <a name="sbc-domain-names"></a>Nombres de dominio SBC
 
@@ -249,7 +247,7 @@ Los dispositivos que se han validado aparecen como certificado para el enrutamie
 Para obtener más información acerca de SBCs compatibles, vea la [lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)
 

@@ -3,21 +3,23 @@ title: Coexistencia con Skype Empresarial
 author: jambirk
 ms.author: francoid
 manager: Serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: francoid
-description: Este documento describe el comportamiento de chat, el enrutamiento de llamadas y presencia entre los usuarios de los equipos y Skype para la empresa, en el inquilino y federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio del modo de TeamsUpgrade predeterminado de *heredado* a *Islas* y la retirada inminente de *heredado*.
 localization_priority: Normal
 search.appverid: MET150
-MS.collection: Teams_ITAdmin_PracticalGuidance
+MS.collection:
+- Teams_ITAdmin_PracticalGuidance
+- M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c7dee2921e6458c797a09f5b3fa78118992766b2
-ms.sourcegitcommit: 3070dd7c091e6c97c6d746c6bfb866625184ba87
+description: Este documento describe el comportamiento de chat, el enrutamiento de llamadas y presencia entre los usuarios de los equipos y Skype para la empresa, en el inquilino y federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio del modo de TeamsUpgrade predeterminado de *heredado* a *Islas* y la retirada inminente de *heredado*.
+ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "29786402"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569713"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -76,8 +78,8 @@ En las tablas siguientes:
 
 | <br/><br/> Modo | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | | Destinatario <br/><br/> Islas  |
 |--- |--- |--- |--- |--- |
-| Islas | Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business| En línea<br/> En línea<br/> En prem<br/>En prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype for Business<br/> Microsoft Teams<br/> Skype for Business|
-|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> En prem<br/> |&boxv;<br/>&boxv;|Skype for Business<br/>Skype for Business<br/>|
+| Islas | Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial| En línea<br/> En línea<br/> En prem<br/>En prem| &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|Microsoft Teams <br/> Skype Empresarial<br/> Microsoft Teams<br/> Skype Empresarial|
+|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> En prem<br/> |&boxv;<br/>&boxv;|Skype Empresarial<br/>Skype Empresarial<br/>|
 |TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/>|Microsoft Teams|
 | | | | | |
 
@@ -85,8 +87,8 @@ En las tablas siguientes:
 
 | <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | |   Destinatario <br/><br/> SfB\*   |
 |--- |--- |--- |---   |--- |
-| Islas |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business  |En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype for Business<br/> **No es posible** <br/>Skype for Business<br/> |
-|SfB\* <br/> | Skype for Business<br/>Skype for Business<br/> | Online<br/> En prem<br/> |&boxv;<br/>&boxv; |  Skype for Business<br/>Skype for Business<br/> |
+| Islas |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial<br/> **No es posible** <br/>Skype Empresarial<br/> |
+|SfB\* <br/> | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> En prem<br/> |&boxv;<br/>&boxv; |  Skype Empresarial<br/>Skype Empresarial<br/> |
 |TeamsOnly |Microsoft Teams| Online<br/>|&boxv;<br/> |  *Skype Empresarial* <br/>| 
 | | | | | |
 
@@ -94,8 +96,8 @@ En las tablas siguientes:
 
 | <br/><br/> Modo   | Autor <br/><br/> Cliente | <br/><br/> SfB&nbsp;hospedados | |   Destinatario <br/><br/> TeamsOnly  |
 |--- |--- |--- |--- | --- |
-| Islas   |Microsoft Teams<br/>Skype for Business<br/>Microsoft Teams <br/>Skype for Business<br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
-|SfB\*  | Skype for Business<br/>Skype for Business<br/> | Online<br/> En prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
+| Islas   |Microsoft Teams<br/>Skype Empresarial<br/>Microsoft Teams <br/>Skype Empresarial<br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;|  Microsoft Teams <br/>*Teams* <br/>Teams <br/>*Teams*  |
+|SfB\*  | Skype Empresarial<br/>Skype Empresarial<br/> | Online<br/> En prem<br/> | &boxv;<br/>&boxv; | *Teams*  <br/>*Teams*   |
 |TeamsOnly  | Microsoft Teams | Online |  &boxv; |Microsoft Teams   |
 |  |  |  | | |
 
@@ -116,8 +118,8 @@ Las tablas siguientes describen qué cliente recibe una llamada desde el origina
 
 | <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB hospedados| | Destinatario<br/><br/> Islas |
 |--- |--- |--- |--- |--- |
-| Islas |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business  |En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype for Business <br/> **No es posible**   <br/> Skype for Business |
-| SfB\* |Skype for Business <br/>Skype for Business |Online<br/> En prem<br/> | &boxv;<br/>&boxv;|Skype for Business <br/>Skype for Business |
+| Islas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial  |En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible**   <br/> Skype Empresarial |
+| SfB\* |Skype Empresarial <br/>Skype Empresarial |Online<br/> En prem<br/> | &boxv;<br/>&boxv;|Skype Empresarial <br/>Skype Empresarial |
 | TeamsOnly |Microsoft Teams |Online| &boxv;|*Skype Empresarial* |
 |  | | | | 
 
@@ -125,8 +127,8 @@ Las tablas siguientes describen qué cliente recibe una llamada desde el origina
 
 | <br/><br/>Modo   | Autor<br/><br/> Cliente| <br/><br/>SfB hospedados| |  Destinatario<br/><br/> SfB\* |  
 |--- |--- |--- |--- |--- |
-| Islas |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype for Business <br/> **No es posible** <br/>Skype for Business <br/> |  
-| SfB\* |Skype for Business <br/>Skype for Business  |Online<br/> En prem<br/>  |&boxv;<br/>&boxv; | Skype for Business <br/>Skype for Business  |
+| Islas |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/> | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;<br/>| *Skype Empresarial* <br/> Skype Empresarial <br/> **No es posible** <br/>Skype Empresarial <br/> |  
+| SfB\* |Skype Empresarial <br/>Skype Empresarial  |Online<br/> En prem<br/>  |&boxv;<br/>&boxv; | Skype Empresarial <br/>Skype Empresarial  |
 | TeamsOnly | Microsoft Teams|Online |&boxv; |*Skype Empresarial*  |
 |  | | | | |
 
@@ -134,8 +136,8 @@ Las tablas siguientes describen qué cliente recibe una llamada desde el origina
 
 | <br/><br/>Modo | Autor<br/><br/> Cliente| <br/><br/>SfB hospedados| |  Destinatario<br/>  <br/> TeamsOnly  |
 |--- |--- |--- |--- |--- |
-| Islas  |Microsoft Teams<br/>Skype for Business <br/>Microsoft Teams <br/>Skype for Business <br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
-| SfB\* |Skype for Business <br/>Skype for Business  | Online<br/> En prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
+| Islas  |Microsoft Teams<br/>Skype Empresarial <br/>Microsoft Teams <br/>Skype Empresarial <br/>|En línea<br/> En línea<br/> En prem<br/> En prem<br/>  | &boxv;<br/>&boxv;<br/>&boxv;<br/>&boxv;| Microsoft Teams <br/>*Teams* <br/>**No es posible** <br/>*Teams* |
+| SfB\* |Skype Empresarial <br/>Skype Empresarial  | Online<br/> En prem| &boxv;<br/>&boxv;|*Teams* <br/>*Teams*   |
 | TeamsOnly |Microsoft Teams |Online |&boxv; |Microsoft Teams |
 |  | | | | |
 
@@ -189,8 +191,8 @@ La tabla describen la presencia de Publisher que se verán por un monitor, segú
 
 |Monitor <br/><br/>Cliente| |<br/><br/>Islas |Publisher <br/><br/>SfB\* |<br/>Sólo los equipos|
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv;|Skype for Business | Skype for Business | Microsoft Teams|
-|Microsoft Teams |&boxv; |Microsoft Teams |Skype for Business |Microsoft Teams |
+|Skype Empresarial |&boxv;|Skype Empresarial | Skype Empresarial | Microsoft Teams|
+|Microsoft Teams |&boxv; |Microsoft Teams |Skype Empresarial |Microsoft Teams |
 | | | | |
 
 ## <a name="federated-presence"></a>Presencia federada
@@ -203,8 +205,8 @@ En la tabla siguiente se describe la presencia de Publisher que se verán por un
 
 |Monitor <br/><br/> Cliente | |<br/><br/> Islas  |Publisher <br/><br/> SfB\* |<br/><br/> Sólo los equipos |
 |--- |--- |--- |--- |---|
-|Skype for Business |&boxv; |Skype for Business  | Skype for Business  | Microsoft Teams  |
-|Microsoft Teams | &boxv;|Skype for Business |Skype for Business |Microsoft Teams|
+|Skype Empresarial |&boxv; |Skype Empresarial  | Skype Empresarial  | Microsoft Teams  |
+|Microsoft Teams | &boxv;|Skype Empresarial |Skype Empresarial |Microsoft Teams|
 | | | | ||
 
 ## <a name="presence-in-pre-existing-threads"></a>Presencia en subprocesos ya existentes

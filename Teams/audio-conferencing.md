@@ -13,12 +13,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: 0bf506350a6e656d0143a968bcd0e884b47e5653
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120687"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633293"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guía práctica para implementar Audioconferencia en Microsoft Teams.
 ============================================================
@@ -324,7 +324,7 @@ El servicio de Audioconferencia en Office 365 incluye:
 -   Soporte para varios idiomas del puente de conferencia (principal y secundario)
 -   Un número de teléfono predeterminado para el inquilino.
 
-La descripción completa de las funcionalidades que se incluyen se puede extraer de [Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing) y [Números de teléfono para Audioconferencia](phone-numbers-for-audio-conferencing-in-teams.md).
+Para obtener una descripción completa de las capacidades incluyen, vea [Configurar conferencias de Audio para los equipos de Microsoft](set-up-audio-conferencing-in-teams.md) y [los números de teléfono para conferencias de Audio](phone-numbers-for-audio-conferencing-in-teams.md).
 
 > [!NOTE]
 > Los números de teléfono dedicados para puentes de conferencia se tienen en cuenta como parte del límite de números de teléfono que se pueden adquirir por inquilino, según el número de licencias que corresponden, como se describe en [Obtener números de teléfono de servicio de Skype Empresarial y Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers). Los números de teléfono gratuitos para puentes de conferencia necesitan los Créditos de comunicaciones.
@@ -549,4 +549,4 @@ Nuevos valores ===========
 <br>
 ## <a name="see-also"></a>Vea también
 
-[Configurar Audioconferencia para Skype Empresarial y Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)
+[Establecer una conferencia de Audio para Microsoft Teams](set-up-audio-conferencing-in-teams.md)

@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 22574b2045f162353c3b1154590f3cf903721cf8
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408262"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30633253"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -49,7 +49,7 @@ Para empezar a es importante recordar algunas cosas:
 > [!NOTE]
 > Los números de teléfono del usuario (suscriptor) no se pueden asignar a una cuenta de recurso. Se pueden usar solo números de pago de servicio o números de teléfono gratuito.
 
-Para asignar un número de teléfono a una cuenta de recurso, necesitará obtener o transferir su pago existente o un servicio gratuito números. Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > **los números de teléfono**y la ya se encuentra el **tipo de número de** aparecer como **servicio - gratuito**. Para obtener sus números de servicio, vea [los números de teléfono del servicio de introducción](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md) o si desea transferir y el número de servicio existente, vea [transferir los números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md).
+Para asignar un número de teléfono a una cuenta de recurso, necesitará obtener o transferir su pago existente o un servicio gratuito números. Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > **los números de teléfono**y la ya se encuentra el **tipo de número de** aparecer como **servicio - gratuito**. Para obtener sus números de servicio, vea [los números de teléfono del servicio de obtención](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) o si desea transferir un número de servicio existente, vea [los números de teléfono de transferencia a Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de los Estados Unidos.
@@ -94,7 +94,7 @@ Cuando haya terminado, haga clic en **Guardar**.
 
 Para las implementaciones que son híbrida con Skype para Business Server:
 
-[Planeación de operador automático de la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+[Planeación de operadores automáticos en la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
 [Configurar operadores automáticos en la nube](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
@@ -104,9 +104,9 @@ Para las implementaciones en los equipos o Skype para empresarial en línea:
 
 [Configurar un operador automático para el sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
-[Ejemplo de pequeña empresa - configurar un operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
+[Ejemplo de pequeña empresa: configurar un operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Crear una cola de llamadas para el sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Crear una cola de llamadas para el Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nueva CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

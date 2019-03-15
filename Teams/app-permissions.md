@@ -4,7 +4,7 @@ author: Lester-Hewett
 ms.author: lehewe
 manager: serdars
 ms.date: 10/18/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
@@ -15,12 +15,12 @@ description: Vea qué datos y permisos están solicitando las aplicaciones de su
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c7394690cc59ce56e22fcc94076d5a90800c850
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460295"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30569649"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 

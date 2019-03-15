@@ -4,7 +4,7 @@ author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
 ms.date: 03/13/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 4dd22442cec0a2171a9833b043af415b02b78d99
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ffea5c4b73c5034dffcd39f3f7ddf17277c37b03
+ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374336"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "30568747"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -26,7 +26,7 @@ En este artículo se proporciona una visión general de los requisitos para la d
 
 <!--ENDOFSECTION-->
 
-## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definir casos de uso empresariales para Sistema telefónico con Planes de llamada
+## <a name="define-business-use-cases-for-phone-system-with-calling-plans"></a>Definir casos de uso de negocio para el sistema telefónico con planes de llamada
 
 Las organizaciones pueden usar el sistema telefónico con planes de llamada para modernizar su trabajo mediante la habilitación de los usuarios realizar llamadas de teléfono de relacionadas con la empresa desde sus equipos y dispositivos móviles.
 
@@ -49,10 +49,10 @@ Casos de uso de negocio están diseñados para definir y documentar los resultad
 > 
 > |         |
 > |---------|
-> |**Descripción del proceso de negocio actual**<br>La configuración estándar de las áreas de trabajo de la oficina de Contoso incluye un teléfono de escritorio en cada mesa. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados solo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
+> |**Descripción del proceso de negocio actual**<br>Configuración estándar de áreas de trabajo de office de Contoso incluye un teléfono de escritorio para cada servicio de asistencia. Cada empleado se han concedido un entrante directa marcando el número de teléfono (DID). Los teléfonos de escritorio están conectados a un sistema PBX y conectados a la RTC a través de un tronco de protocolo (SIP) de inicio de sesión. Los empleados sólo pueden realizar y recibir llamadas telefónicas en sus teléfonos de escritorio asignados.|
 > |**Retos que se deben conseguir con el proceso de negocio actual definido**<br>Análisis de uso de los teléfonos de escritorio se muestra que sólo un 10% de los teléfonos de escritorio se usa activamente, con el resto configurado, ya sea para transferir las llamadas a los teléfonos móviles o simultáneamente a los teléfonos móviles. Mantener el sistema PBX existente y teléfonos de escritorio asociados contribuye al 20% del coste de servicio de telefonía mensual de Contoso.|
 > |**De qué manera la tecnología puede ayudar a alcanzar estos retos**<br>Sistema telefónico con planes de llamada le permitirá equipo de personal de un usuario recibir y realizar llamadas de teléfono a través de la red de datos mediante el aprovechamiento de la aplicación Microsoft Teams nativa. Esto elimina la necesidad de desplegar y mantener los teléfonos de escritorio y abre la oportunidad para dar de baja el sistema PBX existente, debido a que el servicio de teléfono se puede entregar a través de la nube a través de la red sin dependencia en un sistema telefónico tradicional.|
-> |**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. El sistema telefónico con planes de llamada simplificará las áreas de trabajo de la oficina, de modo que Contoso podrá ampliar sus operaciones estableciendo nuevas oficinas con un mínimo coste de telefonía inicial.|
+> |**Propósitos y medición de los resultados de negocio**<br>Eliminación de los requisitos de mantenimiento y retirar PBX heredado y teléfonos de escritorio ofrecerán una reducción del 20% en telefonía mensual los gastos de servicio. Sistema telefónico con planes de llamada simplificará áreas de trabajo de office, lo que permite Contoso ampliar sus operaciones mediante el establecimiento de nuevas oficinas con los costos de telefonía por adelantado mínima.|
 
 Además de definir su negocio use casos, para establecer los límites del proyecto debe tener como objetivo para que resulte más claro de unidad alrededor de:
 
@@ -115,15 +115,15 @@ Completa la participación de las partes interesadas del proyecto en la definici
 OKRs contienen los objetivos establecidos en el principio del proyecto y definir los resultados de la claves cuantificables en cada tres meses. Revise los resultados claves de todos los meses para realizar un seguimiento del estado del proyecto global, y — basándose en progreso: ajustar los planes de trimestrales según sea necesario.
 
 > [!TIP]
-> A continuación puede consultar un ejemplo de OKR relevantes para la implementación de Sistema telefónico con Planes de llamada:
+> Ejemplo de OKRs relevantes para el sistema telefónico con una llamada a los planes de implementación se puede hacer referencia a continuación:
 > <br>
 > 
 > **Visión: aumentar la productividad maximizando las inversiones de Office 365**
 > 
 > |Objetivos  |Resultados principales  |Acciones que realizar  |
 > |---------|---------|---------|
-> |Implementar Sistema telefónico con Planes de llamada en las sucursales europeas a finales del año fiscal 2018|T3 2018: implementar Sistema telefónico con Planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
-> |Retirar el sistema PBX antiguo de la oficina de Londres a finales del año fiscal 2018|T4 2018: retirar el sistema PBX antiguo de la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
+> |Implementar el sistema telefónico con una llamada a los planes en sucursales Europeo al final del año fiscal 2018|FY18Q3: Implementar el sistema telefónico con planes de llamada en la oficina de Londres|Enfoque<ul><li>Crear el plan de éxito</li><li>Crear un plan técnico de implementación muy detallado</li></ul><p>Incorporación<ul><li>Ejecutar el plan de éxito</li><li>Ejecutar el plan técnico de implementación</li></ul>|
+> |Dé de baja PBX heredado en la oficina de Londres al final del año fiscal 2018|FY18Q4: Retirar el sistema PBX heredado en la oficina de Londres|Nuevos valores<ul><li>Potenciar la participación del usuario e impulsar la adopción</li><li>Administrar y prepararse para el cambio</li><li>Medir, compartir el éxito e iterar</li>|
 
 KSIs medir el éxito de los resultados de la claves y de calidad y complementar la naturaleza binaria de OKRs (logra o no logra) por la que se detalla los resultados de una buena o incorrectos.
 
@@ -159,15 +159,15 @@ Como parte de este ejercicio, hay que identificar los riesgos del negocio y defi
 > 
 > |Riesgo  |Probabilidad  |Impacto  |General  |Plan de mitigación  |
 > |---------|---------|---------|---------|---------|
-> |Con la próxima fusión se sumarán hasta 1000 personas|Alta|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
-> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alta|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Se deben usar números de teléfono temporales con manipulación del identificador de llamada.</li></ul>|
+> |Con la próxima fusión se sumarán hasta 1000 personas|Alto|Alto|Alto|<ul><li>Para las empresas combinadas, cree un OKR independiente que se aplica a sus propios fases del proyecto (previsión, incorporado, el valor de unidad)</li><li>No incluir estos OKRs en OKRs existentes</li></ul>|
+> |La portabilidad de los números de teléfono retrasará la finalización del proyecto.|Alto|Alto|Alto|<ul><li>Preparar toda la información necesaria para admitir el número de teléfono al trasladar antelación (registro de servicio de atención al cliente, detalles, carta de autorización de facturación)</li><li>Ajustar la escala de tiempo del proyecto para dar cabida al tiempo de procesamiento de la ejecución de traslado número de teléfono</li><li>Utilice los números de teléfono temporal con la manipulación de identificador de autor de la llamada</li></ul>|
 > |Se ha planificado rediseñar las redes|Alta|Medio|Medio|<ul><li>Antes de implementar los equipos como plataforma de colaboración y comunicaciones modernas, realizar una evaluación de disponibilidad de red para los sitios en el ámbito del proyecto</li></ul>|
 
 <br>
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son la organización & #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>¿Cuáles son sus organization& #39; s OKRs y KSIs?</li><li>¿Qué riesgos ¿ha identificado relevantes para la implementación de conferencias de Audio en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Documente la OKRs, KSIs y establecer el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
@@ -178,7 +178,7 @@ Un Comité de dirección es un grupo de control de las partes interesadas clave 
 
 Cada proyecto requiere una visión acordado en y carta. Para ofrecer los resultados que desee desde el proyecto, se debe definir claramente la visión y necesita supervisar y mantener. Esto se convierte en la responsabilidad del Comité de gobierno: a las decisiones de unidad, de aviso, proporcionar supervisión estratégica, para que sirva como abogados a la organización para las iniciativas del proyecto, y, cuando sea necesario: quitar los bloqueadores de elementos.
 
-Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la forma.
+Su organización debe colocar reflexión significativo en la formación del Comité de dirección. El Comité debe asegurarse de que el proyecto logra los objetivos de negocio que ha definido para que manejan el cambio en toda la organización, reunirse periódicamente para discutir los impulsos actual del proyecto y ayudar a desbloquear los obstáculos que se encuentran a lo largo de la sentido.
 
 El Comité debe definir su carta para incluir algunos objetivos clave:
 
