@@ -24,14 +24,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e06766ffd650a28f13d2b89f969a1a5c87a9fe0
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494056"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649239"
 ---
-# <a name="upgrade-to-teams"></a>Actualización a los equipos
+# <a name="upgrade-to-teams"></a>Actualizar a Teams
 
 Le felicitamos por la actualización pendiente de Skype para la empresa a Microsoft Teams. Si está acaba de empezar con los equipos, ya está usando los equipos junto con Skype para la empresa, o listo para actualizar, queremos para asegurarse de que tiene todo lo necesario navegar por un viaje correcto a los equipos.  
 
@@ -42,8 +42,8 @@ Le felicitamos por la actualización pendiente de Skype para la empresa a Micros
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Vea la siguiente sesión para obtener información sobre la Actualización de Skype Empresarial a Microsoft Teams:
+> Ver las sesiones siguientes para obtener más información acerca de la actualización de Skype para la empresa a Microsoft Teams:
 > - [Introducción a la actualización](https://aka.ms/teams-upgrade-intro)
-> - [Planificar la actualización](https://aka.ms/teams-upgrade-plan)
-> - [Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Planear la actualización](https://aka.ms/teams-upgrade-plan)
+> - [Interoperabilidad y coexistencia](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Experiencia del administrador](https://aka.ms/teams-upgrade-admin)

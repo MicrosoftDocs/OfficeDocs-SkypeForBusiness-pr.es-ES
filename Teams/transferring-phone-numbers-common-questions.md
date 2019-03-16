@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Las siguientes son preguntas más frecuentes sobre la transferencia de los números de teléfono a Skype para la empresa. Después de revisar las respuestas, deberá estar preparado para crear un orden de puerto y transferir los números de teléfono. Vea los números de teléfono de transferencia a Office 365 para obtener instrucciones.
-ms.openlocfilehash: 57d20095302e4a971ea35a91e1fb46e4499735f9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 311eaa78920b3853947df5dd375c6471cab4d8aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543218"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649431"
 ---
 # <a name="transferring-phone-numbers-common-questions"></a>Preguntas comunes sobre la transferencia de números de teléfono
 
@@ -69,7 +69,7 @@ En general, puede transferir cualquier número de teléfono que sea de un provee
   **NO PUEDE TRANSFERIR:**
   
 > [!NOTE]
-> Actualmente no se pueden transferir números de teléfono que no sean de un país o región admitido, incluidos los números de teléfono de un proveedor de telefonía VoIP. Para ver una lista de países o regiones admitidas, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> En este momento, no puede transferir cualquier número de teléfono o los números que no pertenecen a una país o región admitida, incluidos los números de teléfono de un proveedor de teléfono VoIP. Para ver una lista de países o regiones admitidas, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Números de teléfono usados para conexiones de datos, como números para líneas ADSL o conexiones a Internet de banda ancha.
     
@@ -177,6 +177,6 @@ Para transferir o *puerto a* números de teléfono de Skype para profesionales e
 
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
   
  

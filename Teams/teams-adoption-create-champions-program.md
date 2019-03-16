@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.custom: Adopt
 MS.collection:
@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Obtenga información sobre cómo formar a un equipo de campeones para promover la adopción de los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b3480fa477f59ca39d25cc1e1caadf3eff663fcd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: f5f708ee518915c7462be7aa8c8494f72e7edd17
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461919"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647524"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 23622e076b470dbb2fb9607c90cbc1f864fb42e1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 23f1d842619ca8c7921eb14939182baa1b97ed9a
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464647"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647500"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 

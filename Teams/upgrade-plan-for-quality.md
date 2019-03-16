@@ -3,7 +3,7 @@ title: Planeación de la administración de servicios y calidad | Preparación t
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Use esta guía para obtener más información acerca de los requisitos que son necesarios para entregar y mantener una implementación de Microsoft Teams de alta calidad.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc1332acb7f6623ed3d9faf8919558b71d4b347d
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 45dafd29302dc26dae80461a7c4082c6a73469c8
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465191"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649519"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -33,7 +33,7 @@ En este artículo forma parte de la fase de preparación técnica de su viaje de
 
 <!-- [!INCLUDE [envision-planning-for-service-management-and-quality-complete-guide](envision-planning-for-service-management-and-quality-complete-guide.md)]-->
 
-# <a name="plan-for-quality"></a>Planeación de la calidad
+# <a name="plan-for-quality"></a>Planificar la calidad
 
 Si va a implementar las reuniones, audio o vídeo, puede realizar algunos pasos adicionales para optimizar el entorno para que la funcionalidad. En esta sección se describen los requisitos que se requieren para ofrecer y mantener una implementación de Microsoft Teams de gran calidad. Puede ayudar a garantizar una correcta implementación mediante la planificación de administración de servicios y la calidad, antes de la primera implementación piloto o de producción.
 

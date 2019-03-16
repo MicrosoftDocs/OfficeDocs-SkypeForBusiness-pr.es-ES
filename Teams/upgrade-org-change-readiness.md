@@ -3,7 +3,7 @@ title: Skype para la empresa a los equipos de Microsoft | Preparación de cambio
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Asegúrese de que su organización y los usuarios están listos para Microsoft Teams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00294800f0e63c45c550b46be59623349ed3ade7
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0ac397a7ba54a81a2d92cf4823144da2b0c56a3c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465239"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649455"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -31,7 +31,7 @@ En este artículo forma parte de la fase de preparación de usuarios de su viaje
 - [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
 - [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="assess-organizational-change-readiness"></a>Evalúe la preparación de los cambios en la organización
+# <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
 Después de proteger su equipo de proyecto y define su visión, el ámbito y los objetivos, es el siguiente paso en su viaje por la actualización para asegurarse de que la organización y los usuarios están listos para equipos: una actividad que completar en paralelo de garantizar la disponibilidad de la técnica. Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo. Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades. La buena noticia es que administrar el cambio no es todo lo que complicado, pero tarda un esfuerzo reducido. Las discusiones guiadas que aparece a continuación están diseñadas para ayudarle a comprender la base de usuarios para que puede preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario. Hay dos formas que debe mirar su base de usuarios:
 

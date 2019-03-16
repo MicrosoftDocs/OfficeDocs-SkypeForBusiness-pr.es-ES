@@ -15,12 +15,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Descubra cómo un administrador puede ver la información sobre usuarios invitados en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 852963652397b2e8c792ad7203c71520f79a4a52
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493656"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649143"
 ---
 <a name="view-guest-users-in-a-team"></a>Ver los usuarios invitados en un equipo
 ==========================
@@ -29,8 +29,8 @@ Cualquier persona de un equipo puede ver a todos los miembros de un equipo, incl
 Para identificar los usuarios invitados:
 
 1.  Inicie sesión en el centro de administración de Microsoft 365.
-2.  Seleccione **centros de administración** > **& equipos Skype**.
-3.  En el centro de administración de Skype de Microsoft Teams &, seleccione **los usuarios**. Verá **invitado** que se anexa al nombre para mostrar de los usuarios de invitado.
+2.  Seleccione **centros de administración** > **los equipos**.
+3.  En el centro de administración de Microsoft Teams, seleccione **los usuarios**. Verá **invitado** que se anexa al nombre para mostrar de los usuarios de invitado.
   
 Además, puede identificar los usuarios invitados desde dentro de un equipo que es propietario.  
 

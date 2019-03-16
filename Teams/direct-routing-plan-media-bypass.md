@@ -15,18 +15,18 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: 39fc46fb95fef1d78f6f6cc946693f05c7c1f865
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
+ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631091"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "30649215"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear el desvío de medios con el enrutamiento directo
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Acerca de la omisión de medios con el enrutamiento directo
 
-Desvío de medios le permite acortar la ruta de acceso del tráfico de medios y reducir el número de saltos en tránsito para mejorar el rendimiento. Con el desvío de medios, medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviar a través del sistema de teléfono de Microsoft. Para configurar medios desvío, los SBC y el cliente deben ser en la misma ubicación o la red
+Desvío de medios le permite acortar la ruta de acceso del tráfico de medios y reducir el número de saltos en tránsito para mejorar el rendimiento. Con el desvío de medios, medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviar a través del sistema de teléfono de Microsoft. Para configurar medios desvío, los SBC y el cliente deben ser en la misma ubicación o la red.
 
 Puede controlar el desvío de medios para cada SBC mediante el comando **Set-CSOnlinePSTNGateway** con el parámetro **- MediaBypass** establecido en true o false. Si habilita el desvío de medios, esto no significa que todo el tráfico de medios permanecerá en la red corporativa. En este artículo se describe el flujo de llamadas en distintos escenarios.    
 

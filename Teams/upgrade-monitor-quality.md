@@ -3,7 +3,7 @@ title: Calidad de la experiencia de usuario | Los equipos de Microsoft | QoS | C
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Las tareas y actividades necesarias para supervisar la calidad y uso de Microsoft Teams
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4060c0f9171c8871ed22d15325d560616bf5fc23
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 5d5b34a7dc556313108555bff4d55cee7a6f9a31
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460079"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649383"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
 En este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza en cuanto se haya completado la actualización de Skype para la empresa a los equipos.
 
-# <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
+# <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
 La [Calidad de experiencia consulte la guía](https://aka.ms/qerguide) incluye un conjunto de actividades que evaluar y se proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto sobre cómo mejorar la experiencia del usuario, tal y como se muestra a continuación.
 

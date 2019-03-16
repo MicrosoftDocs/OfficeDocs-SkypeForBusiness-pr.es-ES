@@ -3,7 +3,7 @@ title: Dar de alta las partes interesadas | Skype para la empresa a los equipos 
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Dar de alta las partes interesadas para atender en el equipo del proyecto para la actualización.
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c456d60d8dc4f98e2fa75b90dfbb80c0fd90f13
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 6de0b8a3924a9f4e80bd1ff462a5a7dd9e8f8bd6
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461295"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649207"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto] (media/upgrade-banner-stakeholders.png "Fases de la actualización viaje, con especial hincapié en la recopilación de su equipo de las partes interesadas del proyecto")
 
 En este artículo forma parte de la fase de participantes en el proyecto de su viaje de actualización, la actividad primera y más esencial completar para el éxito del proyecto.
 
-# <a name="enlist-your-project-stakeholders"></a>Dar de alta a las partes interesadas de project
+# <a name="enlist-your-project-stakeholders"></a>Incorporar a las partes interesadas del proyecto
 
 De la implementación de entregas del proyecto para impulsar responsabilidad, las partes interesadas mantenga presionada la tecla para el éxito del proyecto. Hay dos grupos de las partes interesadas que desea asignar: (1) un _coalition patrocinadores_ que incluye patrocinadores ejecutivos y proyecto que tienen un interés personal e influyen en el proyecto correcto y (2) el _equipo del proyecto_, que consta de la Planeación de personas responsables de garantizar técnica y preparación del usuario, que se efectuarán las diversas tareas en el proyecto. El subproceso comunes entre estos dos grupos es el _jefe de proyecto_, que trabaja para asegurarse de que se completen las tareas del proyecto en la programación e informes de estado a la coalition del proyecto.
 

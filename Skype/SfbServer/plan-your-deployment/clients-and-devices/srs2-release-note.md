@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: 7eb6eb3c9bcd2cbbbe72a6fc96d619303216cd37
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729403"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30645359"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -24,8 +24,10 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 ##  <a name="version-history"></a>Historial de versiones
 
-| Versión | Publicado en <br>Almacén de Microsoft | 
+| Lanzamiento | Publicado en <br>Almacén de Microsoft | 
 | ---     | ---  |
+| 4.0.78.0 | 14/03/2019   |
+| 4.0.76.0 | 04/03/2019   |
 | 4.0.64.0 | 14/12/2018   |
 | 4.0.51.0 | 17/11/2018   | 
 | 4.0.31.0 | 16/10/2018   | 
@@ -50,6 +52,19 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
+
+### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
+Se introdujeron en esta actualización:
+- Corrección para el error "se bloquee en el inicio de aplicación" que afectadas dispositivos en la compilación de Windows 10 RS2 heredada.  
+
+### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
+Se introdujeron en esta actualización:
+- Teclado DTMF para las reuniones de Microsoft Teams. Para hacer que Microsoft Teams su cliente que llama de forma predeterminada, los administradores deben establecer IsTeamsDefaultClient en true
+- Anclar el vídeo entrante de un participante remoto a pantalla completa en la parte frontal de la presentación de la sala. Use el comando de "Anclar" desde la lista de participantes en la consola
+- Mejoras a las notificaciones de la sala de espera con la incorporación de notificación frontal de salón
+- Parte frontal de la presentación del salón quita icono de conversión de tipos cuando baliza Bluetooth no está habilitada en el dispositivo de sala de sistema
+- Corrección para el problema de control de volumen en las reuniones de los equipos
+
 
 ### <a name="40640-12142018"></a>4.0.64.0 (14/12/2018)
 Se introdujeron en esta actualización:
@@ -159,7 +174,7 @@ Se introdujeron en esta actualización:
 - Capacidad de proporcionar comentarios para compilaciones públicas     
 - Telemetría mejorada alrededor de confiabilidad de unirse a la reunión     
 - Creación de informes de OMS adicionales     
-- Capacidad de administración de TI configurar los dispositivos de forma remota<!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
+- Capacidad de administración de TI configurar los dispositivos de forma remota  <!--  - Front-of-Room UX shows room details pre-meeting U2  --> 
 
 
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
@@ -198,7 +213,7 @@ Se introdujeron en esta actualización:
  
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

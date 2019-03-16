@@ -3,7 +3,7 @@ title: Experiencia del cliente de Teams y cumplimiento con los modos de coexiste
 author: dearbeen
 ms.author: bjwhalen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: bjwhalen
 description: Experiencia de los equipos cliente y la compatibilidad con los modos de coexistencia
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9d205bc81a43d3434206e151bf074af7956f0fa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0bd2b3f94acfc82e1602f3137ed1e275a03c7b0e
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465143"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647428"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -60,7 +60,7 @@ Para configurar manualmente la experiencia del usuario final, los administradore
 |**Modalidad (aplicación)**|**Policy.Setting**|
 |---|---|
 |Chat|TeamsMessagingPolicy.AllowUserChat|
-|Llamadas|TeamsCallingPolicy.AllowPrivateCalling|
+|Llamar a|TeamsCallingPolicy.AllowPrivateCalling|
 |Programación de reuniones|TeamsMeetingPolicy.AllowPrivateMeetingScheduling</br>TeamsMeetingPolicy.AllowChannelMeetingScheduling|
 |||
 

@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,21 +17,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7d57349a499e4434ba796cdf75df6258591f4144
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 38c7e34f5efb70dce5a81295f0145b539f8265aa
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459455"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647508"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 
 La mejor manera para estimular la adopción de los equipos es usar el producto. Se recomienda que administrar la implementación de Office 365 con los equipos. También debe crear una comunidad de empleados que se centran en el trabajo en equipo y la productividad. (Estos equipos iniciales pueden cambiar con el tiempo). Algunos equipos sugeridos son:
 
-| Nombre del equipo | Nombres de canal propuesto |
+| Nombre de equipo | Nombres de canal propuesto |
 | --------- | ---------------------- |
 | Conozca los equipos | General</br> Saludad</br> ¿Cómo se hace?</br>Comentarios </br> Ideas para equipos futuros </br> Soporte técnico |
-| Implementación de equipos de Microsoft | General <br/> Conocimiento del producto y adopción <br/> Compromiso de negocio <br/> Programa de adopción temprana <br/> Comentarios y perspectivas <br/> Seguridad y cumplimiento de normas <br/> Estrategia y planeación <br/> Incidentes y el estado del servicio <br/> Recursos de aprendizaje <br/> Chat dispensador de agua |
+| Implementación de equipos de Microsoft | General <br/> Conocimiento del producto y adopción <br/> Compromiso de negocio <br/> Programa de adopción temprana <br/> Comentarios y perspectivas <br/> Seguridad y cumplimiento de normas <br/> Estrategia y planeación <br/> Incidentes y el estado del servicio <br/> Aprendizaje <br/> Chat dispensador de agua |
 | Campeones de trabajo en equipo | General <br/> Procedimientos recomendados, aprendizaje y cómo <br/> Esquina Campeones <br/> Comentarios y soporte técnico <br/> Clientes potenciales de programa <br/> Concentrador sociales |
 
 Dentro de Microsoft Teams, la [Galería de ficha](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/tabs/tabs-overview) le proporciona acceso a todas las aplicaciones de terceros que se ha activado por el administrador y Office 365. Para obtener el máximo valor de su producto, es recomendable fijación de recursos clave como fichas en cada uno de los canales adecuados. Consulte el ejemplo siguiente.
@@ -50,7 +50,7 @@ En los equipos de iniciales, es recomendable fijación de los siguientes element
 | Comentarios y creación de informes | Informe de uso de Office 365 anclado (para administradores de Office 365) |
 | Seguridad y cumplimiento de normas | Portal de confianza de Microsoft <br/> [Documentación de seguridad y cumplimiento](https://docs.microsoft.com/en-us/office365/securitycompliance/index)<br/> [Mapa de ruta (Roadmap)](https://docs.microsoft.com/office365/securitycompliance/security-roadmap) |
 | Estrategia y planeación | PowerPoint Norte estrella de colaboración <br/> Plan de proyecto de adopción de servicio |
-| Recursos de aprendizaje | Portal de aprendizaje de aprendizaje de personalizado <br/> [Formación en línea de los equipos](https://aka.ms/TeamsTraining) |
+| Aprendizaje | Portal de aprendizaje de aprendizaje de personalizado <br/> [Formación en línea de los equipos](https://aka.ms/TeamsTraining) |
 | **Campeones de trabajo en equipo**|  |
 | General | Uso de anuncios de programa <br/> Información general sobre el programa de campeones de PIN |
 | Procedimientos recomendados | Procedimientos recomendados para los equipos, los canales y charlas PowerPoint <br/> Ciclo de vida del equipo |

@@ -3,7 +3,7 @@ title: Operaciones para equipos de Microsoft | Administración de servicios | Ca
 author: turgayo
 ms.author: turgayo
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Las tareas y actividades necesarias para la administración de servicio de los equipos, incluidos supervisar el estado del servicio y evaluar y garantizar la calidad de la red y uso
@@ -15,18 +15,18 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42df00ed52b62d70d8c9ea734291d77e0ba038ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460503"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649415"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
 En este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza en cuanto se haya completado la actualización de Skype para la empresa a los equipos.
 
-# <a name="operate-your-service"></a>Usar el servicio
+# <a name="operate-your-service"></a>Ejecutar los servicios
 
 En este artículo se proporciona una visión general de los requisitos para el funcionamiento correctamente los equipos de la organización después de haber actualizado. Por funciona correctamente los servicios de los equipos, puede estar seguro de que si va a proporcionar una experiencia confiable de alta calidad para su organización.
 
@@ -399,7 +399,7 @@ Se recomienda encarecidamente que se nombra al Campeón de calidad desde el prin
 
 [Información de creación de carga](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard#upload-building-information)
 
-[Calidad de experiencia consulte la Guía](https://aka.ms/qerguide)
+[Guía de revisión de la experiencia de calidad](https://aka.ms/qerguide)
 
 <!--ENDOFSECTION-->
 
@@ -470,7 +470,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 <!--ENDOFSECTION-->
 
-## <a name="manage-teams"></a>Administración de equipos
+## <a name="manage-teams"></a>Administrar Teams
 
 Después de que se ha implementado el servicio de Microsoft Teams, debe realizar varias actividades relativas a su administración. El intervalo de las actividades de administración del servicio y los usuarios individuales a la planeación de la capacidad y el aprovisionamiento de licencia y los números telefónicos. En las secciones siguientes se tratan algunas de estas tareas habituales de administración.
 

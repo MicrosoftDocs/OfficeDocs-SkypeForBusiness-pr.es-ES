@@ -3,7 +3,7 @@ title: ¿Qué es el Sistema telefónico en Office 365?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: 3e008230a3237f5d4a92224a000aa8f8bb9af6ac
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542132"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649255"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 

@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 11/02/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 description: Obtenga información sobre los diferentes equipos, canales y aplicaciones disponibles para una gran variedad de requisitos, como los servicios financieros, la planificación de eventos, las ventas y mucho más.
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e78806ae0fb4b118757026fda695dcba03bae1dd
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493976"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30647444"
 ---
 > [!NOTE]
 > Revise la siguiente información para entender la charla, los equipos, los canales, & aplicaciones en los equipos. A continuación, vaya a [implementar chat, los equipos, los canales, & aplicaciones en los equipos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes a la implantación de los equipos.
@@ -36,7 +36,7 @@ Para empezar, veamos cómo Microsoft Teams permite que los equipos individuales 
 
     -   Los equipos se pueden crear privados solo para los usuarios invitados.
 
-    -   Los equipos también se pueden crear públicos y abiertos, de modo que todos los integrantes de la organización se pueden unir (hasta 2500 miembros).
+    -   Los equipos también pueden crearse para ser públicos y open y dentro de la organización pueden unirse a (hasta un máximo de 5000 miembros).
     
     Los equipos están diseñados para reunir grupos de personas que trabajan juntos para intentar lograr sus objetivos. Los equipos pueden ser dinámicos para el trabajo basado en proyectos (por ejemplo, iniciar un producto o crear un centro de operaciones digital) o continuos para reflejar la estructura interna de su organización (por ejemplo, departamentos y ubicaciones de oficinas). Los miembros del equipo serán los únicos que podrán ver las conversaciones, los archivos y las notas de los canales del equipo.
 

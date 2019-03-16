@@ -3,7 +3,7 @@ title: Requisitos de Microsoft Teams | Mejorar el servicio
 author: dearbeen
 ms.author: dearbeen
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 description: Con regularidad evaluar las oportunidades para mejorar el servicio de los equipos después de actualizar, supervisar la guía básica de los equipos para las mejoras de la característica interesante.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20d3c30157b58640b3bdfe5c1941d68a745c0e68
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 78b90349ebaf5dfea878d32c750d03d379c14cab
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461255"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649375"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 

@@ -3,7 +3,7 @@ title: Microsoft Teams actualizar de Skype para la empresa | Modos de coexistenc
 author: lsomi
 ms.author: lsomi
 manager: serdars
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen, bjwhalen
 description: Detalles de Skype para profesionales y Microsoft Teams opciones de coexistencia y modos y viajes de actualización a los equipos de Skype para la empresa con los escenarios de ejemplo.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f4c7401ccf8bdefa7eaf906795d5e5e37ac8ba2e
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 22bd17ffbb29695f69aa4eff8581821a882f1614
+ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493960"
+ms.lasthandoff: 03/16/2019
+ms.locfileid: "30649199"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
