@@ -145,9 +145,9 @@
 ### [Período gratuito de aceptación de llamadas de Audioconferencia](complimentary-dial-out-period.md)
 
 
-### [Configurar Audioconferencias para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/audio-conferencing-in-office-365/set-up-audio-conferencing?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
-### [Asignar Microsoft como el proveedor de servicios de Audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+### [Asignar a Microsoft como proveedor de servicios de audioconferencia](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 ### Administrar el puente de Audioconferencia
 #### [Cambiar los números de teléfono de su puente de Audioconferencia](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
@@ -343,6 +343,12 @@
 #### [Planear enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-plan.md)
 #### [Configuración de red de enrutamiento basado en la ubicación](location-based-routing-configure-network-settings.md)
 #### [Habilitar enrutamiento basado en la ubicación para el enrutamiento directo](location-based-routing-enable.md)
+
+### Desvío de medios para enrutamiento directo
+#### [Planear desvío de medios con enrutamiento directo](direct-routing-plan-media-bypass.md)
+#### [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
+
+
 ### Referencia técnica para enrutamiento directo
 #### [Conmutación por error de tronco en llamadas salientes](direct-routing-trunk-failover-on-outbound-call.md)
 
