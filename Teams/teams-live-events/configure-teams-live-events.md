@@ -16,15 +16,14 @@ description: Obtenga información sobre cómo administrar la configuración para
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 56a7834f1547c682c690f8c42082af0a314efec9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542842"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664895"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Usar la configuración de eventos en directo de los equipos para establecer la configuración para eventos en directo que se conservan en la organización. Puede configurar una dirección URL de soporte y configurar un proveedor de distribución de vídeo de otro fabricante. Esta configuración se aplica a todos los eventos en directo que se crean en la organización. 
 
@@ -43,7 +42,7 @@ Esta dirección URL se muestra a los asistentes del evento de live. Agregue la d
 
     ![Configuración de la dirección URL de soporte para eventos en el centro de administración de equipos de Microsoft en directo] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de admite la dirección URL de configuración para los equipos de eventos en directo")
 
-### <a name="using-windows-powershell"></a>Usar Windows PowerShell
+### <a name="using-windows-powershell"></a>Vea Enviar un correo electrónico a un usuario con su información de conferencias de Audio.
 Ejecute lo siguiente:
 ```
 Set-CsTeamsMeetingBroadcastConfiguration -SupportURL “{your URL}” 
@@ -65,7 +64,7 @@ Si adquirió y configurar una solución de software definido network (SDN) o una
     - **Clave de licencia de proveedor** Escriba el identificador de licencia que obtuvo de su contacto de proveedor.
     - **Dirección URL de la plantilla de API de SDN** Escriba la dirección URL de plantilla de API que obtuvo de su contacto de proveedor.
 
-### <a name="using-windows-powershell"></a>Usar Windows PowerShell
+### <a name="using-windows-powershell"></a>Vea Enviar un correo electrónico a un usuario con su información de conferencias de Audio.
 Obtener el token de licencia de identificador o API y la plantilla de la API de su contacto de proveedor y, a continuación, ejecute uno de los siguientes, según el proveedor que está utilizando:
 
 **Subárbol** 

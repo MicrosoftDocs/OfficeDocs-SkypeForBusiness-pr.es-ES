@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ee9ecf1a6db549a002c72f7eeea1e0a383ae966
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543018"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664711"
 ---
 # <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas de equipos de venta por menor 
 
@@ -43,7 +43,7 @@ La plantilla de almacenamiento es ideal para la creación de un equipo para repr
 
 | Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore`| Canales <ul><li>Entrega de turnos\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en público</li></ul> <br>Permisos de miembro <ul><li>No se puede crear, actualizar o eliminar canales </li><li>No se puede agregar o quitar el aplicaciones </li><li>No se puede crear/actualizar/quitar pestañas</li><li>No se puede crear/actualizar/quitar conectores</li><ul>|
+| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')`| Canales <ul><li>Entrega de turnos\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en público</li></ul> <br>Permisos de miembro <ul><li>No se puede crear, actualizar o eliminar canales </li><li>No se puede agregar o quitar el aplicaciones </li><li>No se puede crear/actualizar/quitar pestañas</li><li>No se puede crear/actualizar/quitar conectores</li><ul>|
 ||||
 
 Se recomienda formas de personalizar la plantilla de almacenamiento para su organización:
@@ -58,7 +58,7 @@ La plantilla de administrador colaboración es otro una de las plantillas de los
 
 | Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration`| Canales <ul><li>Operaciones\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar o eliminar canales </li><li>Puede agregar o quitar el aplicaciones </li><li>Puede crear/actualizar/quitar pestañas</li><li>Puede crear/actualizar/quitar conectores</li><ul>|
+| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canales <ul><li>Operaciones\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar o eliminar canales </li><li>Puede agregar o quitar el aplicaciones </li><li>Puede crear/actualizar/quitar pestañas</li><li>Puede crear/actualizar/quitar conectores</li><ul>|
 ||||
 
 Se recomienda formas de personalizar la plantilla de colaboración de administrador para su organización:

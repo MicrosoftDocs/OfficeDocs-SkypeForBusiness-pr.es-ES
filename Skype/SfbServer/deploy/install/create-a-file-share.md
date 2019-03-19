@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumen: Obtenga información sobre cómo crear un recurso compartido de archivos de Windows Server como parte de la instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: a6a040c60d3c5a41df8dfa24abd5948d85180f2e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a3fe1d69bb9e7db377c6a9334b90f8ce96c581ad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884624"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664830"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crear un recurso compartido de archivos en Skype para Business Server
  
@@ -60,4 +60,13 @@ Vea los pasos del vídeo para **crear un recurso compartido de archivos**:
     
      ![Pestaña Uso compartido para compartir una carpeta.](../../media/78fe8441-dead-43ed-9a04-3c7c8c657c15.png)
   
+> [!NOTE]
+>Si el almacén de archivos está hospedado en un DFS compartir, se recibirá la advertencia siguiente:
 
+Advertencia: No se puede tener acceso a los permisos de recurso compartido para "\\<domain>\<share>".
+
+>Esto se espera si no es un administrador en el servidor de archivos, o si se trata de un recurso compartido de sistema de archivos distribuido (DFS). Si ya se han configurado los permisos de recurso compartido, puede ignorar esta advertencia. Si es un nuevo recurso compartido, consulte la documentación para obtener información detallada acerca de la configuración manualmente los permisos de recurso compartido.
+
+>Debido a la imposibilidad de tener acceso a los permisos de recurso compartido en un recurso compartido de DFS, Skype para Business Server no podrá establecer explícitamente grupos en el recurso compartido de archivos. Para asegurarse de Skype para los componentes de Business Server puede tener acceso a recurso compartido de archivos con los permisos adecuados, asegúrese de que se agregan los siguientes grupos RTC con permisos de nivel de recurso compartido de cambio además de los administradores locales con permisos de recurso compartido Control total.
+
+RTCHSUniversalServices RTCComponentUniversalServices RTCUniversalServerAdmins

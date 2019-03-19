@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34070ae8ac21be278596960a5a15129906d867f0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 04ab6b74745bf343ec09e887ef3e7187d3ffeaad
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463711"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664743"
 ---
 ![Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica")
 
@@ -56,22 +56,19 @@ Los pasos descritos a continuación le ayudará a determinar que si su implement
 
 ## <a name="bandwidth-planning"></a>Planeamiento del ancho de banda
 
-El primer paso para la preparación de la red es garantizar que la red tiene suficiente ancho de banda disponible para las modalidades de los equipos que va a proporcionar a los usuarios. La planeación de suficiente ancho de banda es una tarea bastante sencilla y un inicio de muy baja-barrera para garantizar que los usuarios tendrán una experiencia de los equipos de alta calidad.
+Teams Microsoft le ofrece la mejor audio, vídeo y uso compartido experiencia independientemente de las condiciones de red del contenido. Con códecs variables, se pueden negociar medios en entornos de ancho de banda limitado con un impacto mínimo. Pero donde ancho de banda no es una preocupación, experiencias pueden ser optimizadas para calidad, incluida una resolución de vídeo 1080p, hasta 30 fps para vídeo y audio de contenido y de alta fidelidad.
 
-Inicie el ancho de banda planear viaje para los equipos en el [sitio Web de mi asesor](https://myadvisor.fasttrack.microsoft.com/) mediante el uso del organizador de la red. El organizador de la red proporciona ancho de banda por sitio planeación de los equipos y ofrece recomendaciones para optimizar el rendimiento de la red.
+En este artículo se describe una versión concisa de forma se utiliza el ancho de banda por modalidades en distintos casos de uso de uso compartido de escritorio, vídeo y audio en tiempo real de los equipos. Los equipos siempre es conservadoras sobre la utilización de ancho de banda y puede ofrecer una calidad de vídeo HD en menos de 1,2 Mb. El consumo de ancho de banda real en cada llamada de audio y vídeo o una reunión variará en función de varios factores, como el diseño de vídeo, la resolución de vídeo y de fotogramas de vídeo por segundo.Cuando hay más ancho de banda disponible calidad y uso aumentará para ofrecer la mejor experiencia.
 
-> [!IMPORTANT]
-> Si el ancho de banda necesario no está disponible, la pila de medios dentro de los equipos degrada la calidad de la sesión de audio y vídeo para dar cabida a ese menor cantidad de ancho de banda disponible, lo que afecta a la calidad de la llamada o reunión. El cliente de los equipos intenta dar prioridad a la calidad del audio a través de la calidad de vídeo. Por lo tanto, es muy importante tener el ancho de banda esperado disponible.
-
-|Actividad |Descargar el ancho de banda |Cargar el ancho de banda |Flujo de tráfico |
-|---|---|---|---|
-|**Llamada de audio punto a punto** |0,1 Mbps |0,1 Mbps |Cliente <> Cliente |
-|**Llamada de vídeo punto a punto (pantalla completa)** |4 Mbps |4 Mbps |Cliente <> Cliente |
-|**Uso compartido de escritorio punto a punto (1920& #215; 1080 resolución)** |4 Mbps |4 Mbps |Cliente <> Cliente |
-|**Reunión de dos participantes** |4 Mbps |4 Mbps |Cliente <> Office 365 |
-|**Reunión de tres participantes** |8 Mbps |6.5 Mbps |Cliente <> Office 365 |
-|**Reunión de cuatro participante** |5,5 Mbps |4 Mbps |Cliente <> Office 365 |
-|**Cinco o más – participante reunión** |6 Mbps |1,5 Mbps |Cliente <> Office 365 |
+|Bandwidth(Up/Down) |Escenarios |
+|---|---|
+|30 kbps |Llamada de audio punto a punto |
+|130 kbps |Llamadas de audio de punto a punto y uso compartido de la pantalla |
+|500 kbps |Vídeo de una llamada a p 360 a 30fps de calidad de punto a punto |
+|1.2 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de alta definición 720p a 30fps |
+|1,5 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de HD 1080p a 30fps |
+|500kbps y 1 Mbps |Llamada de vídeo de grupo |
+|1Mps/2 Mbps |Grupo de HD vídeo llamada (vídeos 540p en pantalla 1080p) |
 
 ### <a name="local-internet-egress"></a>Salida local de Internet
 
@@ -81,20 +78,20 @@ El tráfico de transporte hacia atrás por la WAN aumenta la latencia y repercut
 
 Al optimizar la ruta de red a la red global de Microsoft, mejorará el rendimiento y, en última instancia, los usuarios disfrutarán de la mejor experiencia posible. Para obtener más detalles, vea la publicación del blog [Conseguir la mejor conectividad y el mejor rendimiento en Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-Para obtener una experiencia óptima al usar multimedia en tiempo real dentro de Microsoft Teams, debe cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para obtener una experiencia óptima al usar multimedia en tiempo real dentro de Microsoft Teams, debe cumplir los requisitos de red para Office 365. Para obtener más información, vea [calidad de los medios y el rendimiento de la conectividad de red para Skype para profesionales en línea](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de cliente a Microsoft Edge) deben cumplir con los siguientes requisitos:
+Los dos segmentos de red definen (cliente a Microsoft Edge) y borde de cliente a Microsoft Edge deben cumplir los siguientes requisitos:
 
-|**Valor** |**Cliente a Microsoft Edge** |**Perímetro de cliente a Microsoft Edge** |
+|**Valor** |**Cliente hasta el borde de Microsoft** |**Borde de cliente hasta el borde de Microsoft** |
 |---|---|---|
 |**Latencia (unidireccional)** |< 50 ms |< 30 ms |
 |**Latencia (tiempo de ida y vuelta o RTT)** |< 100 ms |< ms 60 |
-|**Pérdida de paquetes de ráfaga** |% de <10 durante un intervalo de 200 ms |% de <1 durante un intervalo de 200 ms |
+|**Ráfagas de pérdida de paquetes** |% de <10 durante un intervalo de 200 ms |% de <1 durante un intervalo de 200 ms |
 |**Pérdida de paquetes** |% de <1 durante un intervalo de 15 segundos |<0.1% durante un intervalo de 15 segundos |
 |**Vibración de llegada entre granjas de paquetes** |<30 ms durante un intervalo de 15 segundos |<15 ms durante un intervalo de 15 segundos |
-|**Reordenamiento de paquetes** |< 0,05% paquetes sin ordenar |< 0,01% paquetes sin ordenar |
+|**Reaprovisionamiento de paquetes** |paquetes de salida de orden <0.05% |paquetes de salida de orden <0.01% |
 
-Para probar los dos segmentos de red, puede usar la [herramienta de evaluación de red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta puede implementarse en el equipo cliente directamente y en un equipo que esté conectado al perímetro de red de cliente. La herramienta incluye documentación limitada, pero se puede ver una documentación más profunda sobre el uso de la herramienta aquí: [herramienta de evaluación de red](https://go.microsoft.com/fwlink/?linkid=855800). Al ejecutar la evaluación de preparación de la red, puede validar la preparación de la red para ejecutar aplicaciones multimedia en tiempo real, como Microsoft Teams.
+Para probar ambos segmentos de red, puede usar la [Herramienta de evaluación de la red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta se puede implementar en el cliente PC directamente y en un PC conectado hasta el borde de la red del cliente. La herramienta incluye documentación limitada, pero una documentación más profunda alrededor el uso de la herramienta se puede encontrar aquí: [Evaluación de preparación de la red](https://go.microsoft.com/fwlink/?linkid=855800). Mediante la ejecución de esta evaluación de disponibilidad de red, puede validar preparación de su red para ejecutar aplicaciones de multimedia en tiempo real, como Microsoft Teams.
 
 > [!NOTE]
 > Esto es lo mismo evaluación de disponibilidad de red que se recomienda ejecutar por los clientes que desean para implementar correctamente Skype para la empresa.
@@ -137,7 +134,7 @@ En el caso de un servidor proxy que se va a implementar, se recomienda que se pa
 
 <!--ENDOFSECTION-->
 
-## <a name="additional-network-considerations"></a>Otras consideraciones sobre la red
+## <a name="additional-network-considerations"></a>Consideraciones de red adicionales
 
 ### <a name="external-name-resolution"></a>Resolución de nombres externos
 
@@ -147,7 +144,7 @@ Asegúrese de que todos los equipos cliente que ejecutan al cliente de los equip
 
 Cuando varios usuarios y dispositivos de acceso a Office 365 mediante el uso de traducción de direcciones de red (NAT) o traducción de direcciones de puerto (PAT), debe asegurarse de que los dispositivos ocultos detrás de cada dirección IP enrutable públicamente no superen el número compatible.
 
-Para mitigar este riesgo, asegúrese de adecuada direcciones IP públicas se asignan a los grupos de NAT para evitar el agotamiento de puerto. El agotamiento de puertos ocasionará que los usuarios internos y los dispositivos tengan problemas al conectarse con los servicios de Office 365. Para obtener más información, consulte [Compatibilidad de NAT con Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
+Para mitigar este riesgo, asegúrese de adecuada direcciones IP públicas se asignan a los grupos de NAT para evitar el agotamiento de puerto. Agotamiento del puerto hará que los usuarios finales internos y los dispositivos hacer frente a problemas al conectarse a los servicios de Office 365. Para obtener más información, vea [admitir NAT con Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
 ### <a name="intrusion-detection-and-prevention-guidance"></a>Instrucciones de detección y prevención de intrusiones
 

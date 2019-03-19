@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: f8f7e4bbf18fa96ebc8de3fd219945a06c05c0b3
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494088"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664719"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
@@ -106,8 +106,8 @@ Cuando seleccione una directiva existente en la página de **directivas de reuni
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Invitados de & de los participantes
-   - **Permitir a los usuarios anónimos a iniciar reuniones** Si esta opción está desactivada, sólo una persona que se ha autenticado a la reunión con una aplicación de los equipos puede iniciar la reunión. Si está activado, cualquier usuario puede iniciar la reunión.
-   - **Admitir automáticamente a los usuarios** Si desactiva esta opción, los participantes de la reunión se dejará en la sala de espera hasta que alguien inicia la reunión. Si está activado, los participantes de la reunión podrán unirse a la reunión automáticamente.
+   - **Permitir a las personas que acceso telefónico para iniciar una reunión** Puede activar o desactivar si desea permitir que las personas que aún no se ha autenticado porque ha marcado en usar su teléfono para iniciar una reunión.
+   - **Admitir automáticamente las personas** Determina qué tipos de participantes establece automáticamente agregarse a las reuniones organizadas por este usuario. Debe establecer en "Todos los usuarios de la organización" si le gustaría que las reuniones para colocar todos los usuarios externos en la sala de espera, pero permitir que a todos los usuarios de la compañía para unirse a la reunión inmediatamente. Debe establecer en "Todos" Si desea que admiten a usuarios anónimos de forma predeterminada. Debe establecer en "Todas las personas de su organización y de organizaciones federadas" si le gustaría que las reuniones para permitir que los usuarios federados puedan unirse al igual que los usuarios de su compañía, pero colocar todos los demás usuarios externos en una sala de espera.
 
 [Artículo completo](meeting-policies-in-teams.md)
 

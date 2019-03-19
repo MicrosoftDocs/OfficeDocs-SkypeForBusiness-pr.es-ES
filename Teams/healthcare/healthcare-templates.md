@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: 68ab93ceca20f0d26c9dac0b5b65667835bd1203
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: e5116ecf2ab9fa0bbad25222e69317c47cf0c892
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541667"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664703"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -36,7 +36,7 @@ La plantilla de distrito está pensada para la comunicación y la colaboración 
 
 |Tipo de plantilla de base |baseTemplateId |Canales de la plantilla de línea de base|
 |:--- |:---|:---|
-|Healthcare - distrito | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareWard   | Anuncios\* <br> Huddles\* <br> Redondea hacia arriba\* <br> Personal\* <br> Recursos de aprendizaje\* |
+|Healthcare - distrito | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')`   | Anuncios\* <br> Huddles\* <br> Redondea hacia arriba\* <br> Personal\* <br> Recursos de aprendizaje\* |
 |     | |         |
 
 \*Automático favoritos
@@ -47,7 +47,7 @@ La plantilla de hospital está pensada para la comunicación y la colaboración 
 
 |Tipo de plantilla de base |baseTemplateId |Canales de la plantilla de línea de base|
 |:--- |:---|:---|
-|Healthcare - Hospital | https://<span></span>gráfico<span></span>.microsoft.com/beta/teamsTemplates/healthcareHospital   | Anuncios\* <br> Cumplimiento de normas\* <br> Custodia <br> Recursos humanos <br> Farmacia |
+|Healthcare - Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')`   | Anuncios\* <br> Cumplimiento de normas\* <br> Custodia <br> Recursos humanos <br> Farmacia |
 | | |  |
 
 \*Automático favoritos 
@@ -60,7 +60,7 @@ Para usar estas plantillas, bastará con cambiar la propiedad 'template@odata.bi
 
 ``` Powershell
 { 
-          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates/healthcareHospital",
+          "template@odata.bind": "https://graph.microsoft.com/beta/teamsTemplates('healthcareHospital')",
           "DisplayName": "Contoso Hospital",
           "Description": "Team for all staff in Contoso Hospital",
           "Channels": [

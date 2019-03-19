@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de inicio a la implementación de voz en la nube en los equipos
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93a17e76444efbc57f2d8043ca1e6eda68806263
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465311"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664921"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -38,8 +38,8 @@ Se recomienda que todas las organizaciones funcionan a través de las decisiones
 
 Los artículos siguientes proporcionan más información sobre la implementación y uso de las características de voz de la nube en los equipos:
 
-- [Sistema telefónico de Office 365](what-is-phone-system-in-office-365.md)
-- [Sistema telefónico al llamar a Plan](calling-plan-landing-page.md)
+- [Sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema telefónico con planes de llamada](calling-plan-landing-page.md)
 - [Enrutamiento directo del Sistema telefónico](direct-routing-landing-page.md)
 - [Implementación de voz en la nube](cloud-voice-deployment.md)
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)

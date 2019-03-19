@@ -13,12 +13,13 @@ ms.tgt_pltfrm: na
 ms.devlang: na
 ms.topic: landing-page
 ms.author: tonysmit
-ms.openlocfilehash: db174b9e9df8fb6a819930babfaae9422f3ffe30
-ms.sourcegitcommit: f091c351bec56219a8c91b8c12b9c1f5c5983c95
-ms.translationtype: HT
+f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
+ms.openlocfilehash: 4f941766db77b8bb8678d4d593e6843db662dc06
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "26531752"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664608"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online
 
@@ -54,7 +55,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Estamos aquí para ayudarle</h3>
+                        <h3>We& #39; re aquí para ayudar a</h3>
                     </div>
                 </div>
             </div>
@@ -108,7 +109,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Teams</h3>
+                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
                     </div>
                 </div>
             </div>
@@ -119,7 +120,7 @@ Aprenda a administrar Skype for Business Online para su organización.
 
 ---
 
-<h2>Novedades</h2>
+<h2>What& #39; s nuevo</h2>
 
 <ul class="panelContent cardsF">
     <li>
@@ -169,7 +170,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Actualizaciones importantes</h3>
+                        <h3>Actualizaciones principales</h3>
                         <p><a href="/microsoftteams/audio-conferencing-in-office-365">Configurar Audioconferencia</a></p>
                     </div>
                 </div>
@@ -224,7 +225,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Planes de llamadas</h3>
-                        <p><a href="/MicrosoftTeams/what-are-calling-plans-in-office-365">¿Qué son los Planes de llamada en Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurar Planes de llamada</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Planes de llamada está disponible en su país o región</a></p>
+                        <p><a href="/MicrosoftTeams/calling-plan-landing-page">¿Qué son los Planes de llamada en Office 365?</a></p><p><a href="/MicrosoftTeams/set-up-calling-plans">Configurar Planes de llamada</a></p><p><a href="/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans">Consultar si Planes de llamada está disponible en su país o región</a></p>
                     </div>
                 </div>
             </div>
@@ -236,7 +237,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                 <div class="card">
                     <div class="cardText">
                         <h3>Sistema telefónico</h3>
-                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Esto es lo que conseguirá con Sistema telefónico en Office 365</a></p>
+                        <p><a href="/MicrosoftTeams/what-is-phone-system-in-office-365">¿Qué es Sistema telefónico en Office 365?</a></p><p><a href="/MicrosoftTeams/here-s-what-you-get-with-phone-system">Here& #39; s lo que se obtiene con el sistema telefónico en Office 365</a></p>
                </div>
                 </div>
             </div>

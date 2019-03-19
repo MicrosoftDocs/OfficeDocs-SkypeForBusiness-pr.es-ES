@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar Skype Empresarial para usar otro idioma para el saludo del correo de voz predeterminado de su organización. '
-ms.openlocfilehash: 0acfb798e404ea0aef4e49a866f0501b85e33653
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 6de73212df6be8a1f0d52cff8065536442085783
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541611"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664862"
 ---
 # <a name="change-the-default-language-for-greetings-and-emails"></a>Cambiar el idioma predeterminado en los saludos y los correos electrónicos
 
@@ -63,9 +63,9 @@ Si es [administrador global de Office 365](https://support.office.com/article/da
     
 ## <a name="related-articles-for-the-admin"></a>Artículos relacionados para el administrador
 
-- [¿Qué son los Planes de llamada en Office 365?](what-are-calling-plans-in-office-365.md)
+- [Sistema telefónico y planes de llamada](calling-plan-landing-page.md)
     
-- [Configurar Planes de llamada](set-up-calling-plans.md)
+- [Configurar planes de llamadas](set-up-calling-plans.md)
     
 - [Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server](https://go.microsoft.com/fwlink/?LinkId=717947)
     

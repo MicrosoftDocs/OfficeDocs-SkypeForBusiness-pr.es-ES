@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: 95668351a521f0cbb262d877f2f8ad2f6fcfd69d
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: ec9c3b152858e9e1968340d20d20996bf3dfbfb0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353405"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664727"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -43,20 +43,20 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 
 |                                                       Proveedor                                                        |       Producto       | Desvío de lo que no son medios | Desvío de medios | Versión de software |
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|
-| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   Pendiente    |  7.20A.200.055   |
-|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   Pendiente    |       V6.2       |
-|                                                                                                                     |      SBC 5210       |     &#10004;     |   Pendiente    |       V6.2       |
-|                                                                                                                     |      SBC 5400       |     &#10004;     |   Pendiente    |       V6.2       |
-|                                                                                                                     |      SBC 7000       |     &#10004;     |   Pendiente    |       V6.2       |
-|                                                                                                                     |       SBC SWe       |     &#10004;     |   Pendiente    |       V6.2       |
-|                                                                                                                     |      SBC 1000       |     &#10004;     |   Pendiente    |      V7.0.2      |
-|                                                                                                                     |      SBC 2000       |     &#10004;     |   Pendiente    |      V7.0.2      |
-|                                                                                                                     |    SBC sueco Lite     |     &#10004;     |   Pendiente    |      V7.0.4      |
+| [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   SBC Mediant 500   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |   SBC Mediant 800   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     |  SBC Mediant 2600   |     &#10004;     |   &#10004;    |  7.20A.250.003   |
+|                                                                                                                     |  SBC Mediant 4000   |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | SBC Mediant 1000B  |     &#10004;     |   &#10004;     |  7.20A.250.003   |
+|                                                                                                                     | SBC Virtual Edition |     &#10004;     |   &#10004;     |  7.20A.250.003  |
+|  [Ribbon Communications](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5110       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5210       |     &#10004;     |  &#10004;    |       V6.2       |
+|                                                                                                                     |      SBC 5400       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 7000       |     &#10004;     |   &#10004;    |       V6.2       |
+|                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
+|                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
+|                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
+|                                                                                                                     |    SBC sueco Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pendiente  |   ECZ8.1m1p6  |
 |                                                                                                                    |    AP 3900           |    &#10004;     |   Pendiente  |   ECZ8.1m1p6  | 
@@ -64,4 +64,4 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                    |      AP 6300         |    &#10004;   |   Pendiente    |     ECZ8.1m1p6  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |   Pendiente    |     ECZ8.1m1p6  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |   Pendiente    |     ECZ8.1m1p6   |
-|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |   Pendiente    |      V3.16.2      |
+|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |

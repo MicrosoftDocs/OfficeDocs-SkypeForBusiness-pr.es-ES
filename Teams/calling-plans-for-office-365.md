@@ -25,16 +25,16 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3f1f28862274a95f5bfbb0eb3fbdc3a32f72bc90
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542099"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30664735"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 
-Llamadas a otro Skype para los usuarios profesionales y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos normales y ya no tiene un proveedor de servicios para realizar llamadas de voz, necesita adquirir un Plan de llamada. [¿Qué son los Planes de llamada en Office 365?](what-are-calling-plans-in-office-365.md)
+Llamadas a otro Skype para los usuarios profesionales y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos normales y ya no tiene un proveedor de servicios para realizar llamadas de voz, necesita adquirir un Plan de llamada. Para obtener más información, vea el [sistema telefónico y planes de llamada](calling-plan-landing-page.md).
   
 Éstas son las opciones de planes de llamada:
   
