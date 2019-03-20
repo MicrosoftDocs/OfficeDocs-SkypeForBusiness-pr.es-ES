@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5c755c1dbcb62b01ab45772660b23524550e4e5
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 83d2b0710b811431546f0df9931d3a0b867d2b2b
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30458895"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683887"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Gestionar acceso de los usuarios a Microsoft Teams
 =====================================
@@ -30,7 +30,7 @@ ms.locfileid: "30458895"
 
 En el nivel de usuario, acceso a Microsoft Teams puede habilitar o deshabilitar por usuario mediante la asignación o la eliminación de la licencia del producto Microsoft Teams.
 
-Actualmente, no hay ninguna opción de directiva para activar los equipos o un subconjunto de las características de los equipos, o desactivar en un nivel de usuario individual fuera de licencias.
+Use las directivas de mensajería, administradas desde el centro de administración de equipos, para controlar qué chat y canal de características de mensajería están disponibles para los usuarios en los equipos. Puede usar la directiva predeterminada o crear una o varias directivas de mensajería personalizadas para las personas de su organización. Para obtener más información, lea [Administrar directivas de mensajería en los equipos](messaging-policies-in-teams.md).
 
 > [!NOTE]
 >Microsoft recomienda activar en los equipos de todos los usuarios de una compañía para que los equipos se pueden formar ecológicamente para proyectos y otras iniciativas dinámicos. Incluso si se decide piloto, puede ser útil para mantener los equipos habilitados para todos los usuarios, pero sólo communications para el grupo piloto de usuarios de destino.

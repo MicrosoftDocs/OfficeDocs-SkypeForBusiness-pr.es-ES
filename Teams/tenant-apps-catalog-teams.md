@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61b8f631857d9e81ced843437288fde88001032d
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 909ed249ea4e408cbddcd52824a7cb0047504613
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649511"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684075"
 ---
 <a name="publish-apps-to-the-microsoft-teams-tenant-apps-catalog"></a>Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Microsoft Teams
 =======================================================
@@ -71,7 +71,7 @@ La aplicación se revisará a la versión 2.0. También se elimina la aplicació
 
 ## <a name="use-the-office-365-admin-portal-to-manage-the-tenant-apps-catalog"></a>Usar el portal de administración de Office 365 para administrar el catálogo de aplicaciones de inquilinos
 
-Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar temporalmente aplicaciones a través del portal de administración de Office 365. Además de la configuración anterior, ahora hay una sección dedicada a las aplicaciones de su empresa. Puede elegir qué aplicaciones que desea habilitar o deshabilitar.
+Si tiene aplicaciones que necesitan correcciones de errores, puede deshabilitar aplicaciones a través del portal de administración de Office 365, seleccione **configuración**temporalmente > **complementos & de servicios** > **Equipos de Microsoft**. Además de la configuración anterior, ahora hay una sección dedicada a las aplicaciones de su empresa. Puede elegir qué aplicaciones que desea habilitar o deshabilitar.
 
 ![Captura de pantalla de la tienda de aplicaciones de los equipos que muestra el catálogo de aplicaciones.](media/private-app-store-teams-image05.png)
 

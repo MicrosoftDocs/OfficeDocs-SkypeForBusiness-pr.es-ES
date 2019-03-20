@@ -3,7 +3,7 @@ title: Informe de uso de dispositivos de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/08/2019
+ms.date: 03/19/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de dispositivos de los equipos en el centro de administración de Microsoft Teams para ver el modo en que los usuarios de su organización se conectan a los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0abc3afd09a1bd253319de0f4b68512c35cd2daa
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
+ms.openlocfilehash: 1915e7c2c52911e49afca6dbbb23e6ed9b74d672
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30513016"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684028"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -49,5 +49,5 @@ El informe de uso de dispositivos de los equipos en el centro de administración
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Informes y análisis de los equipos](teams-reporting-reference.md)
-- [Informe de uso de los equipos](teams-usage-report.md)
-- [Informe de actividad de usuario de los equipos](user-activity-report.md)
+- [Informes de uso de Teams](teams-usage-report.md)
+- [Informe de actividad de usuario de Teams](user-activity-report.md)
