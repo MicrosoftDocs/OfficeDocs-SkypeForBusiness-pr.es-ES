@@ -121,7 +121,7 @@
 ### [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
 ### [Activar o desactivar los anuncios de entrada y salida para las reuniones](../audio-conferencing-in-office-365/turn-on-or-off-entry-and-exit-announcements-for-meetings.md)
 
-## [Planes de llamadas en Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+## [Sistema telefónico y Planes de llamada](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Problemas conocidos de Planes de llamadas](../what-are-calling-plans-in-office-365/calling-plans-known-issues.md)
 ### [Agregar, cambiar o quitar una ubicación de emergencia para su organización](../what-are-calling-plans-in-office-365/add-change-or-remove-an-emergency-location-for-your-organization.md)
 ### [Agregar, cambiar o quitar una dirección de emergencia para su organización](../what-are-calling-plans-in-office-365/add-or-remove-an-emergency-address-for-your-organization.md)
@@ -131,7 +131,7 @@
 ### [Crear y administrar planes de marcado](/microsoftteams/create-and-manage-dial-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Diferentes tipos de números de teléfono que se usan para planes de llamadas](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Conseguir números de teléfono para sus usuarios](../what-are-calling-plans-in-office-365/getting-phone-numbers-for-your-users.md)
-### [Cómo se consiguen Planes de llamada para Office 365](/microsoftteams/what-are-calling-plans-in-office-365?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
+### [Cómo se consiguen Planes de llamada para Office 365](/microsoftteams/calling-plan-landing-page?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 ### [Administrar los números de teléfono de la organización](/microsoftteams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Administración de números de teléfono para Australia](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-australia?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
 #### [Administración de números de teléfono para Bélgica](/microsoftteams/manage-phone-numbers-for-your-organization/phone-number-management-for-belgium?toc=/skypeforbusiness/toc.json&bc=/skypeforbusiness/breadcrumb/toc.json)
