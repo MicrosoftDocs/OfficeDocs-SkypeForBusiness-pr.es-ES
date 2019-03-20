@@ -6,7 +6,7 @@ ms.topic: landing-page
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 01/28/2019
+ms.date: 03/19/2019
 ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
@@ -14,12 +14,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f227a9787368b325f102229afebdebf000513bb9
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463687"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30684044"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -95,8 +95,8 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Teams</h3>
-                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Recorrido desde Skype Empresarial a Microsoft Teams</a></p>
+                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                         <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Cambiar de Skype Empresarial a Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -124,4 +124,15 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             </div>
         </div>
     </li>
-  
+      </li><li>
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardText">
+                        <h3>Introducción al trabajo en equipo en Microsoft 365</h3>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Obtenga información acerca de las herramientas de Microsoft 365 que facilitan el trabajo en equipo para todos los trabajadores, independientemente de dónde se encuentren o cómo se conectan a recursos de su organización.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
