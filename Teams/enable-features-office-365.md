@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a7712caa826804d26fd2e3527183128ce78520c3
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
+ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30460239"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "30683895"
 ---
 # <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
 
@@ -40,25 +40,25 @@ https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns
 
 ### <a name="apps"></a>Aplicaciones
 
-Apps are tabs, connectors, bots, or any combination of these three, provided by Teams (first-party apps, also known as default apps) or by a third-party (also known as external apps). Under **Apps**, you can enable and disable default apps and configure settings to control external apps.  
+Las aplicaciones son pestañas, bots, conectores o cualquier combinación de estos tres, proporcionada por Teams (aplicaciones de primeros, también conocidas como aplicaciones predeterminadas) o por un tercero (también conocidas como aplicaciones externas). En **Aplicaciones**, puede habilitar y deshabilitar aplicaciones predeterminadas y configurar opciones para controlar aplicaciones externas. Para obtener información sobre la implementación de aplicaciones, bots, conectores y pestañas en Teams, lea (Aplicaciones, bots y connectors)[deploy-apps-microsoft-teams-landing-page.md].
 
 #### <a name="default-apps"></a>Aplicaciones predeterminadas
 
-These apps, such as Planner, Praise, and Weather, are provided by Teams. To turn on an app, select the check box for that app. To turn off an app, clear the check box. 
+Estas aplicaciones (como Planner, Elogio y El Tiempo) las ofrece Teams. Si desea activar una aplicación, seleccione la casilla de verificación que corresponde a esa aplicación. Para desactivarla, anule la selección de dicha casilla. 
 
 ![Captura de pantalla de la sección Aplicaciones predeterminadas.](media/teams-manage-features-in-office365-image1.png "Captura de pantalla de la sección Aplicaciones predeterminadas")
 
 #### <a name="external-apps"></a>Aplicaciones externas
 
-These apps are provided by third parties. You can configure the following settings for external apps.
+Estas aplicaciones las proporcionan terceros. Es posible configurar las siguientes opciones relacionadas con las aplicaciones externas.
 
 ![Captura de pantalla de la sección Aplicaciones externas.](media/teams-manage-features-in-office365-image2.png "Captura de pantalla de la sección Aplicaciones externas, donde se muestran las opciones que se pueden activar o desactivar")
 
 - **Permitir aplicaciones externas en Microsoft Teams:** si esta opción se activa, los usuarios podrán agregar aplicaciones externas que estén disponibles para la organización. 
 
-- **Allow sideloading of external apps**: If you want to turn on some external apps and turn off others , turn off this setting, and then in the list of external apps, turn off the apps that you don't want users to access. When this setting is turned on, team owners and members who are granted permission can sideload apps to Teams. 
+- **Permitir instalación de prueba de aplicaciones externas**: si quiere activar algunas aplicaciones externas y desactivar otras, desactive esta opción y, a continuación, en la lista de aplicaciones externas, desactive aquellas a las que no desea que accedan los usuarios. Cuando esta opción esté activada, los miembros y los propietarios de los equipos que tengan autorización para ello podrán transferir localmente aplicaciones a Teams. 
 
-- **Enable new external apps by default**: When this setting is turned on, users can activate new apps as soon as they're added to the Teams app catalog. Turn off this setting if you want to control new apps. Of course, if you turn it off, you have to remember to review new apps periodically so your organization doesn't miss out on new apps. 
+- **Habilitar nuevas aplicaciones externas de manera predeterminada**: si esta opción se activa, los usuarios podrán activar nuevas aplicaciones en cuanto estas se agreguen al catálogo de aplicaciones de Teams. Desactive esta opción si quiere controlar las aplicaciones nuevas. Si la desactiva, deberá recordar revisar periódicamente las nuevas aplicaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
 
 Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md). 
 
