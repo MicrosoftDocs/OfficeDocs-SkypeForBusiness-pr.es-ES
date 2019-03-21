@@ -13,12 +13,12 @@ search.appverid: MET150
 description: Conozca los registros de depuración, medios y escritorio generados por Microsoft Teams, dónde se encuentran y cómo pueden ser útiles para resolver problemas.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 018247ba7f5f7ac088226bd505f6bf11737533c2
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8e2e638af7ca9f728835f244996a0d922d8f7cbc
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640709"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720334"
 ---
 <a name="use-log-files-in-troubleshooting-microsoft-teams"></a>Usar los archivos de registro para solucionar problemas en Microsoft Teams
 =================================================
@@ -96,9 +96,7 @@ Los registros de escritorio, también conocidos como registros de programa previ
 
 Windows:
 
-  1.  Haga clic con el botón secundario en el **icono de Microsoft Teams** en la bandeja de la aplicación y seleccione **Obtener registros**.
-
-  2.  Elija **Obtener registros** en el menú desplegabe **Ayuda**.
+1.  Haga clic con el botón secundario en el **icono de Microsoft Teams** en la bandeja de la aplicación y seleccione **Obtener registros**.
 
 Mac OsX:
 

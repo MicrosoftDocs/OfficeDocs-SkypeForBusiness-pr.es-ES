@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Lea este tema para obtener más información acerca de la administración de sistemas de salón de Skype v2, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 5dcfcf13b22e7ad110b675d5d202f1ad53d32687
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4c94ffbcb83e5e208e5cd7278af54e157b9f478c
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373650"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720427"
 ---
 # <a name="skype-room-systems-v2-maintenance-and-operations"></a>Operaciones y mantenimiento de sistemas de salón de Skype v2 
  
@@ -23,7 +23,7 @@ Lea este tema para obtener más información acerca de la administración de sis
   
 V2 de sistemas de salón de Skype es la solución de conferencia más reciente de Microsoft diseñada para transformar la sala de reuniones en un Skype enriquecido, colaboración para que la experiencia empresarial. Los usuarios disfrutarán de su Skype familiar para la interfaz de negocios y los administradores de TI apreciará una aplicación de Windows 10 Skype reunión fácil de implementar y administrada. Sistemas de salón de Skype v2 está diseñado para aprovechar equipamiento existente como paneles LCD para facilitar la de instalación para incorporar Skype para la empresa en la sala de reuniones.
   
-Con una configuración adicional, es posible mediante el conjunto de aplicaciones de administración de operaciones de Microsoft (OMS) tal como se describe la [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), implementar sistemas de salón de Skype v2 con OMS y la [administración](../../deploy/deploy-clients/with-oms.md)de [administrar administración remota Dispositivos de sistemas de salón de Skype v2 con OMS](oms.md). Es posible que también [configuración de la consola Administrar un v2 de sistemas de Skype salón de forma remota con un archivo de configuración XML](xml-config-file.md), que incluye la aplicación de un tema de presentación personalizada. 
+Con una configuración adicional, es posible mediante el conjunto de aplicaciones de administración de operaciones de Microsoft (OMS) tal como se describe la [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), implementar sistemas de salón de Skype v2 con OMS y la [administración](../../deploy/deploy-clients/with-oms.md)de [administrar administración remota Dispositivos de sistemas de salón de Skype v2 con OMS](oms.md). También puede ver [Manage a Skype Room Systems v2 console settings remotely with an XML configuration file](xml-config-file.md), que incluye la aplicación de un tema de pantalla personalizado. 
   
 ## <a name="collecting-logs-on-skype-room-systems-v2"></a>Recopilación de registros en los Sistemas de salas de Skype v2
 <a name="Logs"> </a>
@@ -74,9 +74,9 @@ En esta sección, se explica la configuración del sistema que depende de sistem
 
 |**Configuración**|**Permite**|
 |:-----|:-----|
-|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AdminAutoLogon = 1 (REG_SZ)  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
+|HKLM\Software\Microsoft\Windows NT\CurrentVersion\Winlogon AutoAdminLogon = 1 (REG_SZ)  <br/> |Permite v2 de sistemas de salón de Skype iniciar copia de seguridad  <br/> |
 |Administración de energía -\> en AC, desactivar pantalla después de 10 minutos  <br/> Administración de energía -\> en AC, nunca colocar del sistema al modo de suspensión  <br/> |Permite v2 de sistemas de salón de Skype para desactivar muestra adjunto y reactivar automáticamente  <br/> |
-|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.   <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
+|net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
 Transferencia de archivos mediante directivas de grupo se describe en [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx).
   
@@ -106,7 +106,7 @@ Por ejemplo, puede habilitar PowerShell remoto de esta manera:
     
 2. Abra un símbolo del sistema de PowerShell comando con privilegios elevados.
     
-3. Escriba el siguiente comando: Enable-PSRemoting - forzar
+3. Escriba el siguiente comando: Enable-PSRemoting -force
     
 Para ejecutar una operación de administración:
   
@@ -223,7 +223,7 @@ La consola ahora es nuevo en el modo de funcionamiento normal. El siguiente proc
   
 ### <a name="switching-to-admin-mode-and-back-when-the-skype-room-systems-v2-app-crashes"></a>Cambia al modo de administrador y cuando se bloquea la aplicación v2 de sistemas de salón de Skype
 
-1. Presione rápidamente la tecla Windows cinco veces. De este modo accederá a la pantalla de inicio de sesión de Windows.  
+1. Presione rápidamente la tecla Windows cinco veces. De este modo accederá a la pantalla de inicio de sesión de Windows. 
     
 2. Inicie sesión en el escritorio con sus credenciales de administrador.
     

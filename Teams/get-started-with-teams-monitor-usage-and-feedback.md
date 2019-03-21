@@ -3,7 +3,7 @@ title: Supervisar el uso y los comentarios en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/20/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 24928ceab9224853c81ae352374aaf4e2ca947fb
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e53ed44f4377d90ae0d43b8c8971f651d940b839
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459975"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720435"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Supervisar el uso y los comentarios en Microsoft Teams
 Es importante saber cómo los usuarios utilizan Teams y cuál es su experiencia con Teams. Los informes de uso pueden ayudarle a comprender mejor los patrones de uso y, junto con los comentarios de los usuarios, proporcionarle información para ampliar la implementación y saber en qué áreas debe dar prioridad a los esfuerzos de aprendizaje y comunicación.

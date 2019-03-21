@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: En este artículo, se explica la lista de teléfonos que están certificados para Microsoft Teams y las características admitidas en los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: 9531d1c3619c15b0b8669708e40264fec5f211fd
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c7b5278acf8b03cdd2f27b6f10a4e83be74b5a2f
+ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640989"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30720443"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -29,7 +29,7 @@ Microsoft Teams admite una cartera de teléfonos de escritorio para los usuarios
 
 ## <a name="teams-certified-ip-phones"></a>Equipos certificada teléfonos IP 
 
-Para proporcionar una experiencia de Microsoft Teams confiable y de alta calidad en teléfonos, estamos asociación y trabajar activamente con Yealink, Crestron, Polycom y Audiocodes para desarrollar y certifica una cartera amplia de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Vea [actualmente certified teléfonos IP](/SfbPartnerCertification/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos admitidos actuales.
+Para proporcionar una experiencia de Microsoft Teams confiable y de alta calidad en teléfonos, estamos asociación y trabajar activamente con Yealink, Crestron, Polycom y Audiocodes para desarrollar y certifica una cartera amplia de teléfonos de escritorio y dispositivos de audio de sala de conferencias. Vea [actualmente certified teléfonos IP](/SkypeForBusiness/certification/teams-ip-phones.md#currently-certified-ip-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) para dispositivos admitidos actuales.
 
 ## <a name="microsoft-teams-phones-feature-set"></a>Conjunto de características de teléfonos de Microsoft Teams
 
