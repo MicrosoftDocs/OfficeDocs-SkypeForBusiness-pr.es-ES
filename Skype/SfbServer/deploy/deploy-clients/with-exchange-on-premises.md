@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 en un entorno híbrido con Exchange local.
-ms.openlocfilehash: a804ba6b1210efae8ed36630180f14ad367cb955
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 9ebd7463465d8b2fbf11e95d71c8fcb557666b3a
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645419"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737797"
 ---
 # <a name="deploy-skype-room-systems-v2-with-exchange-on-premises"></a>Implementar Sistemas de salas de Skype v2 con Exchange local
 
@@ -103,19 +103,25 @@ Si va a implementar sistemas de salón de Skype v2 con Exchange local, va a usar
 
 1. Conectar con Azure Active Directory PowerShell. Para obtener instrucciones, vea [Conectar con Azure Active Directory PowerShell para el módulo de gráfico](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
-2. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará. Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta. Puede usar Get-AzureADSubscribedSku para recuperar una lista de SKU disponibles para el inquilino de Office 365, como se indica a continuación:
+2. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Skype para la empresa no funcionará. Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta. Puede usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de SKU disponibles.
 
-   ``` Powershell
+<!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```
+   ``` -->
 
-   A continuación, puede agregar una licencia con el cmdlet Set-AzureADUserLicense. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).
+3. A continuación, puede agregar una licencia mediante la`Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. En este caso, $strLicense es el código de SKU que ve (por ejemplo, contoso:STANDARDPACK).
 
-   ``` Powershell
+  ``` PowerShell
+  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Get-MsolAccountSku
+  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  ```
+
+<!--   ``` Powershell
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -UsageLocation "US"
    Get-AzureADSubscribedSku
    Set-AzureADUserLicense -UserPrincipalName $acctUpn -AddLicenses $strLicense
-   ```
+   ```  -->
 
    Para obtener instrucciones detalladas, consulte [asignar licencias a cuentas de usuario con PowerShell de Office 365](https://docs.microsoft.com/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
