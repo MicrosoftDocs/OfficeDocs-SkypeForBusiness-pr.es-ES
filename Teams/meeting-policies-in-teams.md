@@ -3,7 +3,7 @@ title: Administrar directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/01/2019
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: 344c45761ebbb326162d2c62b4fb8cac25f47645
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: dc2870786c586715164dde94fdd6795f04f567bc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664719"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747673"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
@@ -55,16 +55,20 @@ A continuación, asigne la directiva a los usuarios.
 > [!NOTE] 
 > Un usuario puede asignar la directiva de reunión sólo una a la vez. 
 
-## <a name="assign-a-meeting-policy-to-a-user"></a>Asignar una directiva de reunión a un usuario
+## <a name="assign-a-meeting-policy-to-users"></a>Asignar una directiva de reunión a los usuarios
 
-Para asignar una directiva, vaya a **Centro de administración de equipos de Microsoft** > **a los usuarios**. 
+Si va a aplicar la directiva a un usuario, seleccione **los usuarios** en el panel de navegación izquierdo y, a continuación, haga clic en nombre para mostrar del usuario. En la página del usuario, junto a **las directivas asignadas**, seleccione **Editar**. A continuación, en el panel **Editar las directivas de usuario** , en **la directiva de reunión**, en la lista desplegable, seleccione la directiva de reunión y, a continuación, seleccione **Guardar**. También puede asignar directivas desde la lista de usuarios. Para ello, seleccione el usuario al hacer clic en a la izquierda del nombre para mostrar del usuario. Seleccione **Editar la configuración**. A continuación, en el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**. 
  
-Si va a aplicar la directiva a un usuario, seleccione el nombre del usuario para mostrar. Junto a **las directivas asignadas**, seleccione **Editar**. A continuación, en el panel **Editar las directivas de usuario** , en **la directiva de reunión**, seleccione la directiva de reunión de la lista desplegable y seleccione **Guardar**. También puede editar la configuración de la lista de usuarios. Para ello, seleccione el usuario al hacer clic en a la izquierda del nombre para mostrar del usuario. Seleccione **Editar la configuración**. A continuación, en el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**. 
+Si va a aplicar una directiva a más de un usuario, seleccione **los usuarios** en el panel de navegación izquierdo y, a continuación, seleccione cada usuario haciendo clic en a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**. En el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**.
  
-Si va a aplicar una directiva a más de un usuario, seleccione cada uno de los usuarios, haga clic en a la izquierda del nombre de usuario y, a continuación, haga clic en **Editar configuración**. En el panel **Editar configuración** , en **Directiva de reunión**, seleccione la directiva de la lista desplegable y, a continuación, seleccione **Guardar**.
- 
-También puede hacerlo yendo al **Centro de administración de equipos de Microsoft** > **reuniones** >  **las directivas de reunión**. Seleccione la directiva y, a continuación, seleccione **Administrar usuarios**. En el panel **Administrar usuarios** , buscar el usuario para mostrar o nombre de usuario. Seleccione el nombre y seleccione **Agregar**. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+También puede asignar una directiva de reunión a uno o varios usuarios como sigue:
 
+1. Vaya al **Centro de administración de equipos de Microsoft** > **reuniones** > **las directivas de reunión**.
+2. Seleccione la directiva, haga clic en a la izquierda del nombre de la directiva.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios** , buscar el usuario por nombre para mostrar o por su nombre de usuario, seleccione el nombre y, a continuación, seleccione **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+ 
 > [!NOTE] 
 > No se puede eliminar una directiva si los usuarios se asignan a él. En primer lugar debe asignar una directiva diferente a todos los usuarios afectados y, a continuación, puede eliminar la directiva original.
  

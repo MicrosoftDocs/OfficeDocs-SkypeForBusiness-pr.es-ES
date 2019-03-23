@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Use estacionamiento y recuperación para realizar una llamada en espera en el servicio de los equipos en la nube.
-ms.openlocfilehash: 48052768ce172fda88b3e034277c4454988b32db
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30353477"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747657"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -60,6 +60,16 @@ Debe ser un administrador para configurar estacionamiento y recuperación, y la 
 
 Para obtener información acerca de cómo usar el estacionamiento de llamadas y recuperar característica, vea [estacionamiento una llamada en los equipos](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
 
+### <a name="assign-a-call-park-policy"></a>Asignar una directiva de estacionamiento de llamada
+
+Siga estos pasos para asignar una directiva de estacionamiento de llamada a uno o varios usuarios:
+
+1. Vaya al **Centro de administración de equipos de Microsoft** > **voz** > **las directivas de estacionamiento de llamadas**.
+2. Seleccione la directiva, haga clic en a la izquierda del nombre de la directiva.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios** , buscar el usuario por nombre para mostrar o por su nombre de usuario, seleccione el nombre y, a continuación, seleccione **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+ 
 ### <a name="configure-call-park-and-retrieve-with-powershell"></a>Configurar el estacionamiento de llamadas y recuperar con PowerShell
 
 Use el cmdlet de PowerShell [New-CsTeamsCallParkPolicy](https://docs.microsoft.com/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps) para crear una directiva de estacionamiento de llamada.

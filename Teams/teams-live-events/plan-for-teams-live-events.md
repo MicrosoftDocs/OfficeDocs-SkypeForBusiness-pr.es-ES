@@ -14,15 +14,14 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d6847a4db0a2517e90535aa5ab013b030fb36f38
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463199"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771769"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Al planear los equipos eventos en directo para incluir grandes reuniones de la organización, hay varios factores que debe tener en cuenta antes de empezar a establecerla Subir todo. 
 
@@ -30,8 +29,8 @@ Al planear los equipos eventos en directo para incluir grandes reuniones de la o
 Los siguientes requisitos previos son necesarios para el usuario programar un evento en directo los equipos.
 
 Estas son las licencias que se deben asignar:  
-- Una licencia de Office 365 Enterprise E3 o E5 o una licencia de Office 365 A3 o A5. 
-- Un Microsoft Teams, Skype para la empresa y la licencia de Microsoft Stream.
+- Una licencia de Office 365 Enterprise E1, E3 o E5 o una licencia de Office 365 A3 o A5. 
+- Una licencia de Microsoft Teams y Stream de Microsoft.
 
 Es importante saber que se requiere una licencia de Office 365 para participar en un evento en directo como un usuario autenticado, pero esto depende del método de producción usado:
 
@@ -42,6 +41,8 @@ Para obtener más información acerca de las licencias, vea [licencias de comple
 
 El usuario debe tener:
 - Programación de reunión privada en los equipos habilitados (*AllowPrivateMeetingScheduling - TeamsMeetingPolicy el parámetro = True*).
+- Uso compartido de video habilitado en las reuniones de los equipos (*- AllowIPVideo TeamsMeetingPolicy el parámetro = True*).
+- Uso compartido de pantalla habilitado en las reuniones de los equipos (*ScreenSharingMode - TeamsMeetingPolicy el parámetro = EntireScreen*).
 - Live programación de eventos en los equipos habilitados (*AllowBroadcastScheduling - TeamsMeetingBroadcastPolicy el parámetro = True*).
 - Permisos para crear eventos en directo en Microsoft Stream (para [producción codificador externo](#production)).
 
@@ -55,8 +56,8 @@ El usuario debe tener:
 |Público (usuarios anónimos)      |  Sí            |  No                  |
 |Usuarios invitados                   |  No hay<sup>1</sup> |  No                  |
 |Todos los usuarios de empresa federada |  No hay<sup>1</sup> |  No                  |
-|Todos los usuarios de empresa           |  Sí            |  Sí                 |
-|Específicos de grupos o de personas      |  Sí            |  Sí                 |
+|Todos los usuarios de empresa           |  Sí             |  Sí                 |
+|Específicos de grupos o de personas      |  Sí             |  Sí                 |
 
 <sup>1</sup> solo puede ver eventos en directo como los usuarios anónimos.
 
@@ -64,7 +65,7 @@ El usuario debe tener:
 ## <a name="teams-live-events-and-skype-meeting-broadcast"></a>Los equipos de live Meeting Difundir presentación de Skype y eventos
 En la siguiente tabla resalta las principales características y funciones ofrecidas en eventos en directo y cómo se diferencian de Difundir presentación de reunión de Skype. 
 
-|**Capacidad**   |**Difusión de reunión de Skype** |**Los equipos live eventos (Guía de inicio rápido)** |**Eventos de los equipos en directo (codificador externo)** |
+|**Capacidad**   |**Difusión de reunión de Skype** |**Eventos generados en Microsoft Teams** |**Eventos generados en una aplicación externa o dispositivo** |
 |---------|---------|---------|---------|
 |Tamaño máximo de la audiencia |asistentes de 10.000 |10.000 asistentes * |10.000 asistentes * |
 |Duración máxima de live (evento) |4 horas |4 horas |4 horas |
@@ -75,8 +76,9 @@ En la siguiente tabla resalta las principales características y funciones ofrec
 |Cliente de productor en Mac |X  | & #x 2714; (Equipos) |& #x 2714; (Secuencia, los equipos a través de secuencia incrustar) |
 |Recuento de ATTENDEE de la interfaz de usuario de productor |X  |& #x 2714; (Equipos) |& #x 2714; (Secuencia, los equipos a través de secuencia incrustar) |
 |Permite que varios moderadores |& #x 2714; (Skype para la empresa) |& #x 2714; (Equipos) |N/D  |
-Invitar a un moderador durante la reunión |& #x 2714; (Skype para la empresa) |X |N/D |
+|Invitar a un moderador durante la reunión |& #x 2714; (Skype para la empresa) |X |N/D |
 |Combinación de moderador en Web y Mobile |& #x 2714; (Skype para la empresa)  |X |N/D |
+|_AMP_ federadas invitado los moderadores o asistentes |& #x 2714; (Skype para la empresa)  | (próximamente) |N/D |
 |Moderador: acceso de RTC |X |& #x 2714; (Equipos) |N/D |
 |Presentar una pantalla |X |& #x 2714; (Equipos) |N/D |
 |Presentar un archivo de PowerPoint (uso compartido de PPT) |& #x 2714; |X (mitigado mediante el uso compartido de la pantalla) |N/D |
@@ -105,14 +107,14 @@ Puede usar los eventos de los equipos live en varias regiones en todo el mundo. 
 - Vaya a Canadá Local
 
 **Exclusiones y consideraciones**
-- **Vaya variables locales:** Reino Unido, India y otras variables locales vaya de los equipos de Microsoft no son compatibles actualmente.
+- **Vaya variables locales:** Reino Unido, India, Australia, Japón y otras variables locales vaya de los equipos de Microsoft no son compatibles actualmente.
 - **China:** Los asistentes y los miembros del equipo de evento no podrá usar los eventos de live de los equipos debido a que no es accesible en China CDN de Azure. Una solución alternativa consiste en usar una conexión VPN, que obtiene el cliente conectado a CDN a través de la red corporativa del cliente de empresa.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [configurar para los equipos eventos en directo](set-up-for-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
-- [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
-- [Configurar para los equipos de eventos en directo](set-up-for-teams-live-events.md)
+- [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)
+- [Configuración de eventos en directo en Teams](set-up-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo en los equipos](configure-teams-live-events.md)
 

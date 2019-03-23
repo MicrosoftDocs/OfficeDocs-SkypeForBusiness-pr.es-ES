@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 29fcd5541e4817a2c5880316bba33d7d55047444
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664751"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747665"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -85,6 +85,14 @@ Puede usar el centro de administración de Microsoft Teams para asignar una dire
 3. En **el programa de instalación de los equipos de aplicación de directiva**, seleccione la directiva del programa de instalación de la aplicación que desea asignar y, a continuación, elija **Guardar**.
 
     ![aplicación del programa de instalación directivas asignar policy.png](media/app-setup-policies-assign-policy.png)
+
+También puede asignar una directiva de aplicación del programa de instalación para uno o varios usuarios como sigue:
+
+1. Vaya al **Centro de administración de equipos de Microsoft** > **aplicaciones de los equipos** > **las directivas de instalación**.
+2. Seleccione la directiva, haga clic en a la izquierda del nombre de la directiva.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios** , buscar el usuario por nombre para mostrar o por su nombre de usuario, seleccione el nombre y, a continuación, seleccione **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
 
 ### <a name="assign-a-custom-app-setup-policy-to-users-in-a-group"></a>Asignar una directiva de aplicación personalizada del programa de instalación para los usuarios de un grupo
 

@@ -16,16 +16,14 @@ description: Aprenda los pasos para configurar live para los eventos de los equi
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bd650e9f34a63007cee63ae8d7ce604e28abddd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 957db93e2eb8cba5b2b35388b00ed4d38b21d6ca
+ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464527"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30747681"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Definir eventos en directo en Microsoft Teams
-
-> [!INCLUDE [Preview customer token](../includes/preview-feature.md)]
 
 Cuando se está estableciendo para eventos en directo, hay varios pasos que debe seguir:
 
@@ -77,6 +75,17 @@ Si ha creado una directiva personalizada eventos en directo, asignar a los usuar
 2. Junto a **las directivas asignadas**, elija **Editar**. 
 3. Seleccione la directiva de eventos en directo que desea asignar y, a continuación, elija **Guardar**. 
 
+También puede asignar una directiva de eventos en directo a uno o varios usuarios de la siguiente manera:
+
+![los equipos-logotipo-30x30.png](../media/teams-logo-30x30.png) Desde el centro de administración de Microsoft Teams
+
+1. Vaya a **las reuniones** > **las directivas de eventos en directo**.
+2. Seleccione la directiva, haga clic en a la izquierda del nombre de la directiva.
+3. Seleccione **Administrar usuarios**.
+4. En el panel **Administrar usuarios** , buscar el usuario por nombre para mostrar o por su nombre de usuario, seleccione el nombre y, a continuación, seleccione **Agregar**. Repita este paso para cada usuario que desee agregar.
+5. Cuando haya terminado de agregar usuarios, seleccione **Guardar**.
+ 
+
 ### <a name="enable-users-to-schedule-external-encoder-events"></a>Permitir a los usuarios programar eventos externos codificador
 
 Para que los usuarios programar eventos codificador externo, también debe hacer lo siguiente:
@@ -111,7 +120,7 @@ Después de configurar la solución SDN o eCDN, estará listo configurar el prov
 Vaya a [Configurar live configuración de eventos en los equipos](configure-teams-live-events.md).
 
 ### <a name="related-topics"></a>Temas relacionados
-- [¿Cuáles son los equipos de eventos en directo?](what-are-teams-live-events.md)
-- [Plan para los equipos eventos en directo](plan-for-teams-live-events.md)
+- [¿Qué son los eventos en directo en Teams?](what-are-teams-live-events.md)
+- [Planear eventos en directo en Teams](plan-for-teams-live-events.md)
 - [Establecer la configuración de eventos en directo en los equipos](configure-teams-live-events.md)
 

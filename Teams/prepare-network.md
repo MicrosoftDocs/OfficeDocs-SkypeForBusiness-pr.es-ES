@@ -15,45 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 57f8ffc7d5cedeb6117deffb99ad48ccbe17b48f
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: c39924df868d7d9a3dae45a68b9785a4f493b35a
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640733"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771713"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
-> [!Tip]
-> Vea la sesión siguiente para obtener más información cómo los equipos aprovecha la red y cómo planear mejor para la conectividad de red óptima: [Planeación de los equipos de red](https://aka.ms/teams-networking)
 
+Teams combina tres formas de tráfico:
 
-Los equipos combina tres formas de tráfico:
+-   Tráfico de datos entre el entorno en línea de Office 365 y el cliente de Teams (señalización, presencia, chat, carga y descarga de archivos, sincronización de OneNote).
 
--   Tráfico de datos entre el entorno de Office 365 en línea y el cliente de los equipos (señalización, presencia, chat, carga de archivos y descarga, sincronización de OneNote).
+-   Tráfico de comunicaciones punto a punto en tiempo real (audio, vídeo y escritorio compartido).
 
--   Tráfico de comunicaciones en tiempo real de punto a punto (audio, vídeo, escritorio uso compartido).
+-   Tráfico de comunicaciones de conferencias en tiempo real (audio, vídeo y escritorio compartido).
 
--   Tráfico de comunicaciones en tiempo real de conferencia (audio, vídeo, escritorio uso compartido).
-
-Esto afecta a la red en dos niveles: fluirá el tráfico entre los clientes de Microsoft Teams directamente para escenarios de punto a punto y fluirá el tráfico entre el entorno de Office 365 y los clientes de Microsoft Teams para escenarios de la reunión. Para garantizar un flujo de tráfico sea óptima, se debe permitir el tráfico de flujo de ambos entre los segmentos de red interna (por ejemplo, entre los sitios a través de la WAN), así como entre los sitios de red y Office 365. No abrir los puertos adecuados o activamente el bloqueo de puertos específicos conducirá a una experiencia de degradado.
+Esto afecta la red de dos maneras: el tráfico fluirá entre los clientes de Microsoft Teams directamente para las comunicaciones de par a par, y entre el entorno de Office 365 y los clientes de Microsoft Teams en los escenarios de reuniones. Para asegurar un flujo de tráfico óptimo, se debe permitir que el tráfico fluya entre los segmentos de red internos (por ejemplo, entre sitios a través de WAN), así como entre los sitios de red y Office 365. Si no se abren los puertos correctos o se bloquean activamente determinados puertos, se obtendrá una experiencia deficiente.
 
 > [!NOTE]
 > Las reuniones son compatibles con iOS y Android dispositivos móviles. 
 
-Para obtener una experiencia óptima con multimedia en tiempo real dentro de Microsoft Teams, la red debe cumplir los requisitos de red para Office 365. Para obtener más información, vea [calidad de los medios y el rendimiento de la conectividad de red para Skype para profesionales en línea](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para obtener una experiencia óptima con multimedia en tiempo real dentro de Microsoft Teams, la red debe cumplir los requisitos de red para Office 365. Para obtener más información, consulte [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://docs.microsoft.com/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Para los dos definen segmentos de red (cliente a Microsoft Edge) y borde de cliente a Microsoft Edge, tenga en cuenta las siguientes recomendaciones.
+Para los dos segmentos de red definitivos (cliente a Microsoft Edge y perímetro de cliente a Microsoft Edge), tenga en cuenta las siguientes recomendaciones.
 
 
-|Valor  |Cliente hasta el borde de Microsoft  |Borde de cliente hasta el borde de Microsoft  |
+|Valor  |Cliente a Microsoft Edge  |Perímetro de cliente a Microsoft Edge  |
 |:--- |:--- |:--- |
-|**Latencia (unidireccional)**\*  |< 50 ms.          |< 30ms         |
-|**Latencia (RTT o tiempo de ida y vuelta)**\* |< 100 ms   |< 60ms |
-|**Ráfagas de pérdida de paquetes**    |<10% durante cualquier intervalo 200ms         |<1% durante cualquier intervalo 200ms         |
-|**Pérdida de paquetes**     |<1% durante cualquier 15s intervalo          |<0.1% durante cualquier 15s intervalo         |
-|**Vibración de llegada entre granjas de paquetes**    |<30ms durante cualquier 15s intervalo         |<15ms durante cualquier 15s intervalo         |
-|**Reaprovisionamiento de paquetes**    |paquetes de salida de orden <0.05%         |paquetes de salida de orden <0.01%         |
+|**Latencia (unidireccional)**\*  |< 50 ms          |< 30 ms         |
+|**Latencia (RTT o tiempo de ida y vuelta)**\* |< 100 ms   |< 60 ms |
+|**Pérdida de paquetes de ráfaga**    |< 10% durante un intervalo de 200 ms         |< 1% durante un intervalo de 200 ms         |
+|**Pérdida de paquetes**     |< 1% durante un intervalo de 15 s          |< 0,1% durante un intervalo de 15 s         |
+|**Vibración entre llegadas de paquetes**    |< 30 ms durante un intervalo de 15 s         |< 15 ms durante un intervalo de 15 s         |
+|**Reordenamiento de paquetes**    |< 0,05% paquetes sin ordenar         |< 0,01% paquetes sin ordenar         |
 
 \*Los destinos de métricas de latencia asumen su sitio de empresa o los sitios y los bordes de Microsoft se encuentran en el mismo continente.
 
@@ -69,10 +66,19 @@ Para probar ambos segmentos de red, puede usar la [Herramienta de evaluación de
 
 ## <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 
-Los cálculos de ancho de banda para Microsoft Teams son complejos y para ayudar a con esto, se ha creado una calculadora. Para obtener acceso a la Calculadora, vaya al [Organizador de la red](https://aka.ms/bwcalc/) en MyAdvisor.
 
-> [!NOTE]
-> Mejora el control de ancho de banda de los equipos en Skype para profesionales en línea: para una alta calidad de llamada o reunión experiencia (con audio, vídeo y uso compartido), los equipos requiere sólo 1,2 Mbps. También puede escalar más allá de super alta calidad si no hay suficiente ancho de banda disponible. Cuando una solicitud de los equipos encuentra una condición de ancho de banda bajo, los equipos pueden reajustar rápidamente el uso de ancho de banda para adaptarse al ancho de banda disponible.
+En este artículo se describe una versión concisa de forma se utiliza el ancho de banda por Microsoft Teams tiempo real audio, vídeo y uso compartido modalidades en distintos casos de uso de escritorio. Los equipos siempre es conservadoras sobre la utilización de ancho de banda y puede ofrecer una calidad de vídeo HD en 1.2Mbps.  El consumo de ancho de banda real en cada llamada de audio y vídeo o una reunión variará en función de varios factores, como el diseño de vídeo, la resolución de vídeo y de fotogramas de vídeo por segundo. Cuando hay más ancho de banda disponible calidad y uso aumentará para ofrecer la mejor experiencia.
+
+
+|Bandwidth(Up/Down) |Escenarios |
+|---|---|
+|30 kbps |Llamada de audio punto a punto |
+|130 kbps |Llamadas de audio de punto a punto y uso compartido de la pantalla |
+|500 kbps |Vídeo de una llamada a p 360 a 30fps de calidad de punto a punto |
+|1.2 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de alta definición 720p a 30fps |
+|1,5 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de HD 1080p a 30fps |
+|500kbps y 1 Mbps |Llamada de vídeo de grupo |
+|1 Mbps/2 Mbps |Grupo de HD vídeo llamada (vídeos 540p en pantalla 1080p) |
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.
