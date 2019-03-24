@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 718b239da2d65bc01675f91c68ad18f7dee68c3e
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
+ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641235"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "30737819"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -257,6 +257,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Ficha OneNote heredada  <br/> |Las fichas OneNote heredadas que se crearon durante la versión preliminar pública de Microsoft Teams no se pueden eliminar ni se les puede cambiar el nombre.  <br/> |No hay ninguna solución. <br/> |8/11/2017  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Función de búsqueda en la pestaña de lista de SharePoint  <br/> |Si se intenta abrir un archivo desde la función de búsqueda de la pestaña de lista de SharePoint, aparecerá un aviso "Necesitará una nueva aplicación para abrir este archivo" y el archivo no se abrirá. <br/> |Abra directamente desde la lista en lugar de la barra de búsqueda. <br/> |11/2/2019  <br/> |
 
 ## <a name="teams"></a>Microsoft Teams
 
