@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2908ff9bec8be1eaf7d6dc09ff03adb9ae3ea9ea
-ms.sourcegitcommit: cad74f2546a6384747b1280c3d9244aa13fd0989
+ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
+ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30737819"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "30771737"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -178,7 +178,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Número máximo de asistentes para las reuniones  <br/> |Cada reunión de Microsoft Teams puede albergar un máximo de 80 asistentes.  <br/> |No hay ninguna solución.  <br/> |13/03/2017  <br/> |
+|Número máximo de asistentes para las reuniones  <br/> |Cada reunión de Microsoft Teams puede albergar un máximo de 250 asistentes.  <br/> |Cree eventos en directo en equipos que puedan albergar 10 000 usuarios.  <br/> |13/03/2017  <br/> |
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
@@ -249,10 +249,6 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |Integración de Teams Planner con Planner Online <br/> |Los cubos de tareas de Planner no se muestran en la experiencia de Planner Online.  <br/> |No hay ninguna solución. <br/> |28/02/2017  <br/>|
-
-|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
-|:-----|:-----|:-----|:-----|
-|La ficha de la página de SharePoint muestra una pantalla blanca <br/> |Los dominios personales de SharePoint Online no se admiten actualmente. La experiencia del usuario es una pantalla blanca cuando se intenta agregar una ficha de página de SharePoint. <br/> |No hay ninguna solución. <br/> |20/08/2018  <br/>|
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
