@@ -1,13 +1,13 @@
 ---
-title: Lista de comprobación para el acceso de invitado de Microsoft Teams
+title: Lista de comprobación de acceso de invitado de Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
-ms.date: 01/22/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sbhatta
-description: Use esta lista de comprobación para ayudar a configurar el acceso de invitado en invitado de los equipos de Microsoft Access.
+description: Use esta lista de comprobación para ayudar a configurar el acceso de invitado en Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 404754c373d46b9b6e5578107415d61bbb87f97e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
+ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463471"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "30795589"
 ---
-<a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado a los equipos
+<a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado de los equipos
 ==========================================
 
 Use esta lista de comprobación que le ayudarán a habilitar y configurar la característica de acceso de invitado en Microsoft Teams según las preferencias de la organización.
@@ -65,7 +65,7 @@ Recuerde los siguientes puntos:
 4. **Los usuarios externos**, haga clic en **configuración de colaboración externa para administrar**.
 5. En la página **configuración de colaboración externa** Asegúrese de que **pueden invitar los miembros** está establecida en **Sí**.
 
-      ![Captura de pantalla muestra un ejemplo de un control de alternancia AAD configuración. ](media/guest-access-checklist-AADSettings1.png)
+      ![Captura de pantalla muestra un ejemplo de una alternancia de configuración AAD. ](media/guest-access-checklist-AADSettings1.png)
 
     Para admitir a invitados, **pueden invitar los miembros** se debe establecer en **Sí**. 
    
@@ -93,7 +93,7 @@ Como mínimo, debe activar el acceso de invitado para Microsoft Teams en el **Ce
 1. En el centro de administración de equipos, seleccione **configuración de toda la organización** > **acceso de invitado**.
 2. Configurar el conmutador de **Permitir el acceso de invitado en los equipos de Microsoft** **activado**.
 
-    ![Captura de pantalla muestra un ejemplo de un control de alternancia de la configuración de los equipos](media/set-up-guests-image1.png)
+    ![Captura de pantalla muestra un ejemplo de un control de alternancia de configuración de los equipos](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. En esta misma página, configure las demás opciones de invitado que necesita.
 4. Haga clic en **Guardar**.
@@ -107,15 +107,15 @@ Asegúrese de que los usuarios pueden agregar a invitados. Aquí es cómo:
 
 1. En el centro de administración de Microsoft 365, vaya a **configuración de** > **privacy & de seguridad**.
 
-     ![Captura de pantalla muestra un ejemplo de una configuración de servicios](media/guest-access-checklist-Office365Admin_Services_addins.png)
+     ![Captura de pantalla muestra un ejemplo de configuración de servicios](media/guest-access-checklist-Office365Admin_Services_addins.png)
 
 2. En **el uso compartido**, seleccione **Editar**.
 
-     ![Captura de pantalla muestra un ejemplo de alternancia de una configuración de uso compartido](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
+     ![Captura de pantalla muestra un ejemplo de una alternancia de configuración de uso compartido](media/guest-access-checklist-Office365Admin_Services_addins_Sharing1.png)
  
 3. **Permitir a los usuarios agregar a nuevos invitados a esta organización** se establece en **On**y, a continuación, haga clic en **Guardar**.
 
-     ![Captura de pantalla muestra un ejemplo de alternancia de una configuración de uso compartido](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
+     ![Captura de pantalla muestra un ejemplo de una alternancia de configuración de uso compartido](media/guest-access-checklist-Office365Admin_Services_addins_Sharing2.png)
  
 > [!NOTE]
 > Esta configuración es equivalente a la configuración **pueden invitar los miembros** en **Configuración del usuario** > **a los usuarios externos** en Azure AD.  
@@ -128,7 +128,7 @@ Asegúrese de que los usuarios pueden agregar a invitados. Aquí es cómo:
 3. En el centro de administración de SharePoint, seleccione **Compartir**.
 4. Asegúrese de que la opción para **no permitir el uso compartido de fuera de su organización** *no* está seleccionado.
  
-     ![Captura de pantalla muestra un ejemplo de alternancia de una configuración de Online Sparepoint.](media/guest-access-checklist-SPOSettings1.png)
+     ![Captura de pantalla muestra un ejemplo de una alternancia de configuración SparePoint en línea.](media/guest-access-checklist-SPOSettings1.png)
 
 
 ## <a name="-step-6-enable-specific-settings-for-channels"></a>□ Paso 6: habilitar la configuración específica para canales 

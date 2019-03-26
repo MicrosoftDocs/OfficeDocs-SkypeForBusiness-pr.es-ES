@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: b773c10766b33e57eb8a132d98ef0e0cdc180123
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 2877af4d7ccf8fea0087ce67d7e92ecc5e2f8ccd
+ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342222"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "30800120"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  
@@ -88,8 +88,10 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
    - Abra el Administrador de configuración de SQL Server. En el árbol de la parte izquierda de la pantalla, haga clic en **Servicios de SQL Server** y luego haga doble clic en el servicio de SQL Server.  
     
    - En el cuadro **Propiedades**, seleccione la pestaña **AlwaysOn alta disponibilidad**. Seleccione la casilla **Habilitar Grupos de disponibilidad AlwaysOn**. Reinicie el servicio de SQL Server cuando se le solicite.
+   
+6. Usar el generador de topología para crear el grupo de servidores Front-End, como se explica en [crear y publicar la nueva topología de Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Cuando lo hace, especifique el AG como el almacén de SQL para el grupo de servidores.
     
-6. Cree el grupo de disponibilidad.
+7. Cree el grupo de disponibilidad.
     
    - Abra SQL Server Management Studio y conéctese a la instancia de SQL Server.
     
@@ -120,9 +122,7 @@ Cómo implementar un AG depende de si se implementa en un nuevo grupo de servido
    - En la página Validación, compruebe que todas las comprobaciones de validación se realizan correctamente y luego haga clic en **Siguiente**.
     
    - En la página **Resumen**, compruebe todas las opciones de configuración y haga clic en Finalizar.
-    
-7. Usar el generador de topología para crear el grupo de servidores Front-End, como se explica en [crear y publicar la nueva topología de Skype para Business Server](../../deploy/install/create-and-publish-new-topology.md). Cuando lo hace, especifique el AG como el almacén de SQL para el grupo de servidores.
-    
+      
 8. Después de que el grupo de servidores y el AG se implementan, realizar algunos pasos finales para asegurarse de que los inicios de sesión SQL se encuentran en cada una de las réplicas en el grupo de disponibilidad AlwaysOn. 
     
    - Abra el generador, seleccione **Descargar topología de la implementación existente**y haga clic en **Aceptar**.
