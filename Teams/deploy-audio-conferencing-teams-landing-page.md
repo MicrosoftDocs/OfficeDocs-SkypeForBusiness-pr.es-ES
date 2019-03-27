@@ -1,5 +1,6 @@
 ---
 title: Audioconferencia en Microsoft Teams
+ms.reviewer: ''
 description: Use estos recursos de implementación para ayudarle a implementar la audioconferencia como parte de la carga de trabajo de reuniones en Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -15,12 +16,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c146e0bc3417e5a62af4a57c3ec1e2e49158c3a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 596edc9aa9adf3a12bac9ec4553e27beec82f648
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461175"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898673"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 
@@ -40,14 +41,14 @@ Antes de que pueda implementar audioconferencias para Teams, tenga en cuenta lo 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
 |¿Está disponible la audioconferencia para mi país o región?|Para averiguar si la audioconferencia está disponible en su país o región, vea [Disponibilidad de país y región para las audioconferencias y los planes de llamadas](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).|
-|¿Tienen los usuarios la licencia adecuada para las audioconferencias de Teams?|Las licencia de Audioconferencia están disponible como parte de los planes de suscripción de Office 365 E5, o como un servicio de complemento para los planes de suscripción de Office 365 E1 y Office 365 E3. <ul><li>Para obtener y asignar licencias, consulte [Probar o comprar Audioconferencias en Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) y [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para obtener más información, lea [licencias complementarias de Teams y Skype Empresarial] (teams-add-on-licensing/microsoft-teams-add-on-licensing.md. </li><li>Para ver las características de la nube que se incluyen en cada plan de Office 365, vea los artículos [Opciones de licencia basadas en su plan](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
+|¿Tienen los usuarios la licencia adecuada para las audioconferencias de Teams?|Las licencia de Audioconferencia están disponible como parte de los planes de suscripción de Office 365 E5, o como un servicio de complemento para los planes de suscripción de Office 365 E1 y Office 365 E3. <ul><li>Para obtener y asignar licencias, consulte [Probar o comprar Audioconferencias en Office 365](https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365) y [Asignar o quitar licencias de Office 365 para empresas](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc).</li><li> Para obtener más información, lea las [Licencias de complementos de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). </li><li>Para ver las características de la nube que se incluyen en cada plan de Office 365, vea los artículos [Opciones de licencia basadas en su plan](teams-add-on-licensing/office-365-business-premium.md).</li></ul>|
 |¿Necesito comprar créditos de comunicaciones para los usuarios a los que se asignan las licencias de audioconferencias?|Para obtener más información, lea [¿Qué son los Créditos de comunicaciones?](what-are-communications-credits.md) y consulte la sección [Créditos de comunicaciones](#communications-credits) a continuación.|
 |||
 
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales
 
-Una vez cumpla con los [requisitos previos para las audioconferencias](#audio-conferencing-prerequisites), realice las tareas siguientes para configurar las audioconferencias para los usuarios.
+Una vez que cumpla con los requisitos previos de las audioconferencias, realice las tareas siguientes para configurar las audioconferencias para los usuarios.
 
 
 ### <a name="teams-administrators"></a>Administradores de Teams
@@ -100,7 +101,7 @@ Después de crear el puente de audioconferencias, debe configurar los números d
 
 |Pregúntese lo siguiente:|Acción |
 |------------|-------|
-| ¿Qué números de puente de conferencias voy a asignar a cada usuario que dirija reuniones? | Para asignar un número de teléfono de acceso telefónico a un usuario, vea [Paso 7: Asignar números de teléfono de acceso telefónico para los usuarios que dirigen reuniones](https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| ¿Qué números de puente de conferencias voy a asignar a cada usuario que dirija reuniones? | Para asignar un número de teléfono de acceso telefónico a un usuario, vea [Paso 7: Asignar números de teléfono de acceso telefónico para los usuarios que dirigen reuniones](set-up-audio-conferencing-in-teams.md#step-7-assign-dial-in-phone-numbers-for-users-who-lead-meetings). |
 |||
 
 ### <a name="communications-credits"></a>Créditos de comunicaciones
@@ -111,7 +112,7 @@ Para proporcionar números de teléfono gratuitos para puentes de conferencia y 
 |------------|-------|
 |¿Son necesarios los Créditos de comunicaciones para la implementación de audioconferencias? |Para saber si necesita configurar Créditos de comunicaciones, consulte [Configurar Créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).|
 |Si son necesarios, ¿cuántos debería comprar?|Para determinar la cantidad de Créditos de comunicaciones, vea [Cantidad de fondos recomendada](what-are-communications-credits.md#recommended-funding-amounts).|
-|¿Me interesa configurar una cantidad de recarga automática?|Para configurar una cantidad de recarga automática, vea [Configurar Créditos de comunicaciones para su organización](what-are-communications-credits.md#recommended-funding-amounts).|
+|¿Me interesa configurar una cantidad de recarga automática?|Para configurar una cantidad de recarga automática, vea [Configurar Créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).|
 |||
 
 
