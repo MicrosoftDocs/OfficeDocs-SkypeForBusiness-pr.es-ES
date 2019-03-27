@@ -1,5 +1,6 @@
 ---
 title: Probar la conferencia de acceso telefónico en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumen: Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: e86e2c136edd8520f12944768e327e0870106f6e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880920"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar la conferencia de acceso telefónico en Skype para Business Server
  

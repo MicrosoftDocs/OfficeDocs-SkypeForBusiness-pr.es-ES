@@ -1,5 +1,6 @@
 ---
 title: Habilitar el registro de detalles de llamada de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
 description: 'Resumen: Obtenga información sobre cómo habilitar detalles de llamadas (CDR) registros en Skype para Business Server.'
-ms.openlocfilehash: e010f76e25f8ab0894df1dc3a5bbb8a917c93ada
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8ba053c95dcb9e43b6951671853d2c064ad5542f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245526"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884515"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Habilitar el registro de detalles de llamada de Skype para Business Server
 
@@ -25,7 +26,7 @@ El registro detallado de llamadas (CDR) registra la información de uso y diagn�
 Use el procedimiento siguiente para habilitar el registro detallado de llamadas (CDR) en toda la organización o en cada sitio de la organización.
 
 > [!NOTE]
-> Para poder habilitar el CDR necesita configurar la supervisión y una base de datos de supervisión. Para obtener información detallada, vea [Implementación de supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
+> Para poder habilitar el CDR necesita configurar la supervisión y una base de datos de supervisión. Para más información, mire [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx).
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>Para habilitar el Panel de Control de servidor empresarial CDR con Skype
 
@@ -70,8 +71,8 @@ Puede habilitar a CDR mediante Windows PowerShell y el cmdlet **Set-CsCdrConfigu
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la supervisión](https://technet.microsoft.com/library/26cead5a-183c-42f1-a4b0-0e8d61c6159d.aspx)
 
-[Implementación de la supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

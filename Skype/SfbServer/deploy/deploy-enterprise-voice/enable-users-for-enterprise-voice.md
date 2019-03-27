@@ -1,5 +1,6 @@
 ---
 title: Habilitar a usuarios para Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f252b23b-9641-4160-aa81-bf06dc2eced3
 description: 'Resumen: Obtenga información sobre cómo habilitar a los usuarios realizar y recibir llamadas mediante el uso de Enterprise Voice en Skype para Business Server.'
-ms.openlocfilehash: 9e1435c73a175ef40b4962ace41f4c7690f85953
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: b02155f424e8b3f29881caf8c4a29db6f76cb807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883759"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882972"
 ---
 # <a name="enable-users-for-enterprise-voice-in-skype-for-business-server"></a>Habilitar a usuarios para Enterprise Voice en Skype para Business Server
  
@@ -55,7 +56,7 @@ Después de implementar Enterprise Voice o llamar vía trabajo, puede usar los s
     
 9. Haga clic en **Confirmar**.
     
-Para terminar de habilitar un usuario para Enterprise Voice, asegúrese de que el usuario tiene asignada una directiva de voz y un plan de marcado, ya sea global (asignado de forma predeterminada) o específica del usuario. De forma predeterminada, todos los usuarios se les asigna una directiva de voz global y plan de marcado. Si ya hubiera una directiva de voz o un plan de marcado a nivel de sitio para el sitio en el que se hospeda la cuenta de usuario, dichas directivas se aplicarán automáticamente al usuario. Para aplicar una directiva de voz por usuario o plan a un usuario de marcado, debe ejecutar los cmdlets **Grant-CsVoicePolicy** y **Grant-CsDialPlan** . Para obtener más información, consulte los siguientes procedimientos de este tema.
+Para terminar de habilitar un usuario para Enterprise Voice, asegúrese de que el usuario tiene asignada una directiva de voz y un plan de marcado, ya sea global (asignado de forma predeterminada) o específica del usuario. De forma predeterminada, todos los usuarios se les asigna una directiva de voz global y plan de marcado. Si ya hubiera una directiva de voz o un plan de marcado a nivel de sitio para el sitio en el que se hospeda la cuenta de usuario, dichas directivas se aplicarán automáticamente al usuario. Para aplicar una directiva de voz o plan de marcado por usuario a un usuario, deberá ejecutar los cmdlets **Grant-CsVoicePolicy** y **Grant-CsDialPlan**. Para obtener más información, consulte los siguientes procedimientos de este tema.
 ## <a name="voice-policy-assignment"></a>Asignación de directivas de voz
 
 Las directivas de voz global y de nivel de sitio se asignan automáticamente a todas las cuentas de usuario que están habilitadas para Enterprise Voice. También puede crear directivas de voz aplicables a usuarios o grupos específicos. Estas directivas por usuario deben estar explícitamente asignadas a los usuarios o grupos. Si desea usar la información global o sitio directiva de voz para todos los usuarios que están habilitados para Enterprise Voice, puede omitir esta sección y continuar con la sección [Asignación de Plan de marcado](enable-users-for-enterprise-voice.md#BKMK_DialPlanAssignment) más adelante en este tema.

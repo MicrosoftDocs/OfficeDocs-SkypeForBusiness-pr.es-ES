@@ -1,5 +1,6 @@
 ---
-title: Seleccione un servicio de anuncio
+title: Seleccionar servicio de anuncio
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el seleccionar un cuadro de diálogo servicio de anuncio para seleccionar un servicio de anuncio que controlará las llamadas entrantes a un intervalo de números sin asignar.
-ms.openlocfilehash: aa606074eeebb67109a9633611888a0c8f37f702
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e307ce4caa0f2f68807ea0a5bd663b3993dfdcd7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001809"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882845"
 ---
-# <a name="select-an-announcement-service"></a>Seleccione un servicio de anuncio
+# <a name="select-an-announcement-service"></a>Seleccionar servicio de anuncio
  
 Use el cuadro de diálogo **Seleccionar un servicio de anuncio** para seleccionar un servicio de anuncio que controlará las llamadas entrantes a un intervalo de números sin asignar.
   

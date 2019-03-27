@@ -1,5 +1,6 @@
 ---
 title: Requisitos de hardware y software para conferencias en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para conferencias en Skype para Business Server.'
-ms.openlocfilehash: 0029bca57477d52e1886ff476984477bdac75b97
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247672"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883931"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype para Business Server
 
@@ -52,7 +53,7 @@ Skype para Business Server admite el uso de recursos compartidos de archivos en 
 
 - 1-CentralMgmt-1
 
-- WebServices-1-1
+- 1-WebServices-1
 
   - CollabContent
 
@@ -74,7 +75,7 @@ Para obtener información acerca de cómo configurar Skype para Business Server 
 
 Para planear una conferencia A/V, necesita conocer el ancho de banda necesario para el tipo de medio de conferencia que requiere su organización. Esto podría incluir audio, vídeo y vídeo panorámico. Si el ancho de banda de red no es suficiente, la experiencia del usuario puede verse afectada en gran medida.
 
-Para obtener información acerca de la planeación para las conferencias de audio y vídeo capacidad, vea [Planear los requisitos de red de Skype para la empresa](../../plan-your-deployment/network-requirements/network-requirements.md).
+Para más información sobre la planificación de capacidad de audio y vídeo para conferencias, vea [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md).
 
 Puede usar el servicio de control de admisión de llamadas (CAC) para administrar el ancho de banda de red que se usa en las conferencias A/V. Esto es importante para redes restringidas, como vínculos de ancho de banda limitados entre los sitios centrales y de sucursal. Para obtener información detallada, consulte [Plan para el control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md).
 
@@ -98,7 +99,7 @@ Debe instalar el siguiente Skype para los componentes de Business Server antes d
 
 - Al menos un servidor de mediación y al menos una puerta de enlace RTC
 
-Para conferencias de acceso telefónico, servicio de la aplicación, la aplicación operador de conferencia y la aplicación de anuncio de conferencia tienen los mismos requisitos de sistema operativo como servidores Front-End. Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Para conferencias de acceso telefónico, servicio de la aplicación, la aplicación operador de conferencia y la aplicación de anuncio de conferencia tienen los mismos requisitos de sistema operativo como servidores Front-End. Para más información, vea [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 Aplicación operador de conferencia y aplicación de anuncio de conferencia requieren que esté instalado el tiempo de ejecución de Windows Media Format en servidores Front-End. El tiempo de ejecución de Windows Media Format es necesario para reproducir archivos de Windows Media Audio (WMA) que se usan para la música en espera, nombres registrados y avisos. Si va a instalar en Windows Server 2012 o Windows Server 2012 R2 (que se recomienda), debe instalar Microsoft Media Foundation para obtener el tiempo de ejecución de Windows Media Format. Si va a instalar en cualquier versión de Windows Server anterior a Windows 2012, necesitará asegurarse de que la experiencia de escritorio de Windows esté instalada para obtener el tiempo de ejecución de Windows Media Format.
 
@@ -126,7 +127,7 @@ Los usuarios de conferencias de acceso telefónico local necesitan tener un núm
 
 Para poder usar las características de conferencia, Skype para Business Server requiere que estén abiertos determinados puertos. La siguiente tabla enumera los requisitos de los puertos para conferencias. Para obtener información detallada acerca de todos los requisitos de puerto, vea [requisitos de protocolo y puerto para los servidores](../../plan-your-deployment/network-requirements/ports-and-protocols.md).
 
-**Puertos de servidor necesarias**
+**Puertos de servidor necesarios**
 
 
 |**Rol de servidor**|**Nombre de servicio**|**Puerto**|**Protocolo**|**Notas**|

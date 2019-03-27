@@ -1,5 +1,6 @@
 ---
 title: Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Resumen: Obtenga información sobre cómo crear, modificar y eliminar los escenarios para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: e80324d4228aec503c887927459e42188741837f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878304"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -43,7 +44,7 @@ El resto de este tema se centra en cómo definir un escenario, modificarlo, recu
   
 Como se comentó en [Servicio de registro centralizado en Skype para profesionales de 2015](centralized-logging-service.md), los elementos de un escenario son:
   
-- **Proveedores de** Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para indicar a OCSLogger el motor de seguimiento de qué debe recopilar los registros de. Los proveedores son los mismos componentes (y, muchas veces, con los mismos nombres) que los de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de roles de servidor que el servicio de registro centralizado puede recopilar los registros de. Para obtener información detallada sobre la configuración de proveedores, vea [Configurar proveedores de servicio de registro centralizado en Skype para Business Server 2015](configure-providers.md).
+- **Proveedores de** Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para indicar a OCSLogger el motor de seguimiento de qué debe recopilar los registros de. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de roles de servidor que el servicio de registro centralizado puede recopilar los registros de. Para obtener información detallada sobre la configuración de proveedores, vea [Configurar proveedores de servicio de registro centralizado en Skype para Business Server 2015](configure-providers.md).
     
 - **Identidad** El parámetro-Identity establece el ámbito y el nombre del escenario. Por ejemplo, podría establecer un ámbito de "global" e identificar el escenario con "LyssServiceScenario". Cuando se combinan las dos, definir la identidad (por ejemplo, "global/LyssServiceScenario").
     
@@ -56,7 +57,7 @@ Como se comentó en [Servicio de registro centralizado en Skype para profesional
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Para crear un nuevo escenario para una sesión de registro, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) y defina el nombre del escenario (es decir, cómo se identifica de forma exclusiva identificará). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato ASCII basado en el formato de archivo de registro de IIS). Luego, defina Level y Flags tal como se definen en este tema los niveles de registro y las marcas, respectivamente.
+2. Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/new-csclsprovider?view=skype-ps) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato ASCII basado en el formato de archivo de registro de IIS). Luego, defina Level y Flags tal como se definen en este tema los niveles de registro y las marcas, respectivamente.
     
     Para este escenario de ejemplo, utilizaremos LyssProvider como variable de ejemplo del proveedor.
     
@@ -141,7 +142,7 @@ Como se comentó en [Servicio de registro centralizado en Skype para profesional
    Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
    ```
 
-El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero siguen estando disponibles en los registros para buscar en los seguimientos que se hayan capturado.
+El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los datos de seguimiento que se hayan capturado seguirán disponibles en los registros para su consulta.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>Para cargar y descargar el cmdlet Edit-CsClsScenario con el módulo ClsScenarioEdit.psm1
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.

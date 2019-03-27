@@ -1,5 +1,6 @@
 ---
 title: Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: Configure el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
-ms.openlocfilehash: 68931d9523fba92211295805e2f041869bc3e774
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1cdc03fea116b5c41eaca13b4349ffc340dbc061
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982534"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880189"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
  
@@ -73,7 +74,7 @@ Para una llamada de vídeo de tronco SIP desde una puerta de enlace vídeo cuyo 
 
 Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo que se ha mencionado anteriormente eran nuevos en Skype para Business Server 2015. La configuración asociada a la configuración del tronco vídeo requiere una explicación breve.
   
- **GatewaySendsRtcpForActiveCalls** Este parámetro determina si RTCP se envían los paquetes desde el VTC a la luz visible para las llamadas activas. En este contexto, una llamada activa es una llamada en la que se permite el flujo de medios como mínimo en una dirección. Si GatewaySendsRtcpForActiveCalls se establece en True, VIS puede finalizar una llamada si no recibe paquetes RTCP durante un período superior a los 30 segundos. El valor predeterminado es **True**.
+ **GatewaySendsRtcpForActiveCalls** Este parámetro determina si RTCP se envían los paquetes desde el VTC a la luz visible para las llamadas activas. En este contexto, una llamada activa es una llamada en la que se permite el flujo de medios como mínimo en una dirección. Si GatewaySendsRtcpForActiveCalls se establece en True, VIS puede finalizar una llamada si no recibe paquetes RTCP durante un período superior a los 30 segundos. La opción predeterminada es **True**.
   
  **GatewaySendsRtcpForCallsOnHold** Este parámetro determina si sigue paquetes RTCP enviarse a través del tronco para las llamadas que se han colocado en espera y no se esperaban que los paquetes multimedia en cualquier dirección de flujo. VIS puede finalizar la llamada, si no hay paquetes RTCP que fluyan desde el dispositivo VTC a VIS mientras la llamada está en espera. El valor predeterminado es **True**. Cuando se establece el protocolo de transporte SIP en TCP, se ignora esta configuración.
   
@@ -83,6 +84,6 @@ Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo qu
   
  **ForwardErrorCorrectionType** Este parámetro se usa para determinar si está desviar Error corrección (FEC) para las secuencias de vídeo que se aplique en la bifurcación entre el servidor de interoperabilidad de vídeo y una puerta de enlace de vídeo. Opción de configuración ForwardErrorCorrectionType en "None" desactiva FEC entre respecto y puerta de enlace de vídeo/VTC. Establecer ForwardErrorCorrectionType a "Cisco" permite FEC compatible con puertas de enlace de vídeo por Cisco, como Cisco Unified Communications Manager (CUCM). La opción predeterminada es **Ninguno**.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar CUCM para la interoperación con Skype para Business Server](configure-cucm-for-interoperation.md)

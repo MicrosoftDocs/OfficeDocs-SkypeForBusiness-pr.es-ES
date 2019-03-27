@@ -1,5 +1,6 @@
 ---
 title: Tabla Region
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1751a6aa-a6e8-4f16-8eb7-ae731c2e3ee3
-description: La tabla de la región es una tabla de soporte. Cada registro representa un país o región definida en la configuración de red.
-ms.openlocfilehash: 20fe1e77e9454ca1957bd7f719478bdce06a1166
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla de la región es una tabla de apoyo. Cada registro representa un país o región definido en la opción de configuración de red.
+ms.openlocfilehash: 1fcc6c0b4b2d9cbe1edc0a7127cda7f54cd079ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880542"
 ---
 # <a name="region-table"></a>Tabla Region
  
-La tabla de la región es una tabla de soporte. Cada registro representa un país o región definida en la configuración de red.
+En la tabla de la región es una tabla de apoyo. Cada registro representa un país o región definido en la opción de configuración de red.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|

@@ -1,5 +1,6 @@
 ---
 title: Install-CcAppliance
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'El cmdlet Install-CcAppliance instala el dispositivo de Skype Empresarial Cloud Connector Edition, incluidas las máquinas virtuales de AD, del almacén de administración central, del servidor de mediación y del servidor perimetral en el servidor host. '
-ms.openlocfilehash: d35a102f7d3ade7b64bcf43388eaf03dc455c27b
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880217"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -66,7 +67,7 @@ El parámetro -ShowStepsOnly solo se usa para solucionar problemas.
   
 ### <a name="example-5"></a>Ejemplo 5
 
-En el siguiente ejemplo se generan los archivos de configuración de cada paso de implementación en el servidor host. Los archivos de configuración se guardan en el \<ApplianceRoot\>\Instances\\< versión\>-default\ExportedConfig de carpeta en el servidor host:
+En el siguiente ejemplo se generan los archivos de configuración de cada paso de implementación en el servidor host. Los archivos de configuración se guardan en el \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig de carpeta en el servidor host:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -89,21 +90,21 @@ El parámetro SkipExistingObjects debe usarse junto con el parámetro Steps.
   
 Para determinar los pasos de la implementación, ejecute el comando siguiente:
   
-Install-CcAppliance - ShowStepsOnly
+Install-CcAppliance -ShowStepsOnly
   
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
 El cmdlet Install-CcAppliance se usa para implementar el conector de la nube a un equipo nuevo o para actualizar un dispositivo existente a la versión más reciente.
   
-Si tiene un dispositivo nuevo, asegúrese antes de leer Preparar el entorno para Cloud Connector, ejecute el cmdlet Register-CcAppliance para registrar el dispositivo y después ejecute el cmdlet Install-CcAppliance. Para obtener más información, vea [implementar un sitio de conector en la nube](deploy-a-single-site-in-cloud-connector.md) e [implementar varios sitios de conector en la nube](deploy-multiple-sites-in-cloud-connector.md). 
+Si tiene un dispositivo nuevo, asegúrese antes de leer Preparar el entorno para Cloud Connector, ejecute el cmdlet Register-CcAppliance para registrar el dispositivo y después ejecute el cmdlet Install-CcAppliance. Para obtener más información, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) y [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
 Si tiene una implementación existente de conector en la nube y que desea actualizar, siga las instrucciones de [actualización a una nueva versión del conector en la nube](upgrade-to-a-new-version-of-cloud-connector.md).
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
-|**Parámetro**|**Requerida.**|**Tipo de**|**Descripción**|
+|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
 |PrepareOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |  Se generan archivos de configuración para cada paso de implementación. Este parámetro solo se usa para solucionar problemas.  <br/> |
 |ShowStepsOnly  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Solo se muestran los nombres de los pasos de la implementación. Este parámetro solo se usa para solucionar problemas.  <br/> |
@@ -125,12 +126,12 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[CcAppliance publicar](publish-ccappliance.md)
+[Publish-CcAppliance](publish-ccappliance.md)
   
 [Register-CcAppliance](register-ccappliance.md)
   
-[Anular el registro de CcAppliance](unregister-ccappliance.md)
+[Unregister-CcAppliance](unregister-ccappliance.md)
   
-[CcAppliance desinstalar](uninstall-ccappliance.md)
+[Uninstall-CcAppliance](uninstall-ccappliance.md)
   
 

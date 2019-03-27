@@ -1,5 +1,6 @@
 ---
 title: Bloquear las transferencias de archivos punto a punto
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En Skype para profesionales en línea, tiene la posibilidad de controlar a las transferencias de archivos punto a punto (P2P) como parte de la configuración de la directiva de conferencia existente. Sin embargo, esto permite o bloquea las transferencias realizadas para los usuarios si están transfiriendo archivos a un usuario que está dentro de la misma organización o a un usuario federado de otra organización de archivos. Siguiendo los pasos que aparece a continuación, puede bloquear a las transferencias de archivos P2P con las organizaciones federadas o socios.
-ms.openlocfilehash: 7128de070e13a1c4fc62ba12e05c1fffb3595467
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 9b7d229c7f0ea0565dc3174286b4117984a2b606
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561670"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883247"
 ---
 # <a name="block-point-to-point-file-transfers"></a>Bloquear las transferencias de archivos punto a punto
 
@@ -119,7 +120,7 @@ Se puede aplicar a un usuario mediante la creación de una nueva directiva y con
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Crear directivas personalizadas de acceso externo](create-custom-external-access-policies.md)
 
 [Establecer directivas de cliente en su organización](set-up-client-policies-for-your-organization.md)

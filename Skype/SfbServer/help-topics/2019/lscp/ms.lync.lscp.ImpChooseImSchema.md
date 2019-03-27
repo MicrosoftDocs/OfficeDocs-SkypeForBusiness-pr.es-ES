@@ -1,5 +1,6 @@
 ---
-title: Seleccione prefijo de hipervínculo
+title: Seleccionar prefijo de hipervínculo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar prefijo de hipervínculos para seleccionar los tipos de hipervínculos que se desean bloquear, enviar un mensaje de advertencia o permitir activando (para bloquear o enviar un mensaje de advertencia) o desactivando (para permitir) las casillas de verificación para sus extensiones de las categorías en Prefijos de hipervínculo. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de categoría.
-ms.openlocfilehash: 4fbceccc00d95466190859d6eb8a9be9e5b4134b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 59e5c5c4b5dd84ce12ffc7cf52717cdd5c6cc3cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989453"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879093"
 ---
-# <a name="select-hyperlink-prefix"></a>Seleccione prefijo de hipervínculo
+# <a name="select-hyperlink-prefix"></a>Seleccionar prefijo de hipervínculo
  
 Use el cuadro de diálogo **Seleccionar prefijo de hipervínculos** para seleccionar los tipos de hipervínculos que se desean bloquear, enviar un mensaje de advertencia o permitir activando (para bloquear o enviar un mensaje de advertencia) o desactivando (para permitir) las casillas de verificación para sus extensiones desde el categorías en **prefijos de hipervínculo**. Haga clic en la flecha para expandir una categoría y ver todos los prefijos de hipervínculo para esa categoría. Si desea seleccionar todos los prefijos de hipervínculo para una categoría, seleccione el nombre de categoría. 
   

@@ -1,5 +1,6 @@
 ---
 title: Asignar directivas de conferencia para admitir usuarios anónimos
+ms.reviewer: ''
 ms:assetid: 662de022-1111-40f7-bad4-f2b686f30973
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521007(v=OCS.15)
 ms:contentKeyID: 48184333
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede controlar quién puede invitar a usuarios anónimos mediante la configuración de una directiva de conferencia para admitir usuarios anónimos y aplicar esa directiva de conferencia a usuarios específicos.
-ms.openlocfilehash: 5d3ade88a9d4ca0f639d7119da53f8180af6c30d
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222733"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881130"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Asignar directivas de conferencia para admitir usuarios anónimos en Skype para Business Server 
 
@@ -48,7 +49,7 @@ Use el procedimiento de esta sección para aplicar una directiva de conferencia 
 
 6.  En la barra de navegación izquierda, haga clic en **usuarios**, busque en la cuenta de usuario que desea configurar.
 
-7.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, finalmente, en **Mostrar detalles**.
+7.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
 
 8.  En **Editar Skype para usuarios de empresa Server** en **Directiva de conferencia**, seleccione la directiva de usuario con la configuración de acceso de usuario anónimo que desee aplicar a este usuario.  
 

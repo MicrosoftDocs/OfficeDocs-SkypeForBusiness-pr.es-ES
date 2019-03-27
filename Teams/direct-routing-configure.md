@@ -1,5 +1,6 @@
 ---
 title: Configurar el enrutamiento directo
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
-ms.openlocfilehash: 5c2d90ccb88c0e654239ec02a5780778a7db6bbe
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 20bd29bdd2ba83050bd83513f513732ce646cbbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569785"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883570"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -449,7 +450,7 @@ En la siguiente tabla se resume denominación de uso de enrutamiento directiva "
 
 
   > [!NOTE]
-  > - El orden de los usos de RTC en las directivas de enrutamiento de voz es fundamental. Los usos se aplican en orden, y si se encuentra una coincidencia en el primer uso, a continuación, otros usos no se evaluarán nunca. El uso de RTC "Internacional" se debe colocar después el uso de RTC "Sólo en EE." Para cambiar el orden de los usos de RTC, ejecute el `Set-CSOnlineRouteRoutingPolicy` comando. <br/>Por ejemplo, para cambiar el orden de "Nosotros y Canadá" ejecutar "Internacional" y el segundo para el orden inverso:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - El orden de los usos de RTC en las directivas de enrutamiento de voz es fundamental. Los usos se aplican en orden, y si se encuentra una coincidencia en el primer uso, a continuación, otros usos no se evaluarán nunca. El uso de RTC "Internacional" se debe colocar después el uso de RTC "Sólo en EE." Para cambiar el orden de los usos de RTC, ejecute el `Set-CSOnlineVoiceRoutingPolicy` comando. <br/>Por ejemplo, para cambiar el orden de "Nosotros y Canadá" ejecutar "Internacional" y el segundo para el orden inverso:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - La prioridad de las rutas de voz de "caracteres International" y "Otros + 1" se asignan automáticamente. Éstos no importan como que tienen una prioridad inferior que "Redmond 1" y "Redmond 2".
 
 #### <a name="example-of-voice-routing-policy-for-user-john-woods"></a>Ejemplo de directiva de enrutamiento de voz para el usuario John Woods

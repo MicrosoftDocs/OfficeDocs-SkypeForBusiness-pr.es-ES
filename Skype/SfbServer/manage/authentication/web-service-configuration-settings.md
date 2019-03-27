@@ -1,5 +1,6 @@
 ---
 title: Administrar la configuración de configuración del servicio Web en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
 description: 'Resumen: Administrar opciones de configuración del servicio Web en Skype para Business Server.'
-ms.openlocfilehash: 7724ef576142c2eb6cebb287a88b7761a69028aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 53d709c9964a665c97ba809ca6f40dceb0be137b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20995837"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884107"
 ---
 # <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de configuración del servicio Web en Skype para Business Server
  

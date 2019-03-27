@@ -1,5 +1,6 @@
 ---
 title: Configurar conferencias de acceso telefónico en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar conferencias de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: 3c4460761fadd1dee523eb15949da8fc1bf69f14
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dbd851f416fb3bc91a556753ce33d2ef80976ff2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372405"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881510"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Configurar conferencias de acceso telefónico en Skype para Business Server
  
@@ -171,7 +172,7 @@ Antes de poder crear números de acceso telefónico local, necesita planear las 
 9. En **Grupo de servidores**, haga clic en el grupo que ejecuta la instancia del operador de conferencia que admite el número de acceso telefónico local.
     
     > [!NOTE]
-    > Si necesita cambiar el grupo de servidores después de crear el número de acceso, debe usar el cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) o eliminar y volver a crear el número de acceso.
+    > Si necesita cambiar el grupo de servidores tras crear el número de acceso, necesitará usar el cmdlet [Move-CsApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/move-csapplicationendpoint?view=skype-ps) o eliminar y volver a crear el número de acceso.
   
 10. En **Idioma principal**, haga clic en el idioma en el que se mostrarán las indicaciones para este número de acceso telefónico local. 
     
@@ -194,7 +195,7 @@ Las directivas de conferencias son una opción de cuenta de usuario que especifi
   
 Para obtener más información acerca de cómo configurar las directivas de conferencia, vea [administrar las directivas de conferencia en Skype para Business Server](../../manage/conferencing/conferencing-policies.md).
   
-## <a name="assign-a-line-uri-to-a-user-account"></a>Assign a Line URI to a user account
+## <a name="assign-a-line-uri-to-a-user-account"></a>Asignar un URI de línea a una cuenta de usuario
 <a name="BKMK_AssignaLineURI"> </a>
 
 Los usuarios de acceso telefónico local escriben su número de teléfono o extensión y un PIN para participar en conferencias como usuarios autenticados. El **URI de línea** especificado en Skype Business Server las cuentas de usuario de telefonía se requiere para la autenticación.

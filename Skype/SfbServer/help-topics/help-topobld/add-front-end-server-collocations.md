@@ -1,5 +1,6 @@
 ---
-title: Agregar colocaciones de servidor Front-End
+title: Agregar colocación de servidor front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23e3bda7-a8bf-4da4-88e5-098ae2aa268f
 description: Para una implementación de Enterprise Edition, el servicio de conferencia A/v se instala también en el grupo de servidores Front-End. También puede instalar el servidor de mediación en el grupo de servidores Front-End, o puede implementar como un servidor independiente. El servicio de conferencia A/v siempre se instala también si se habilita la conferencia.
-ms.openlocfilehash: 376a5f7a878f4760a832c998aaae3f5ddd6eee90
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 98e42a36bd57d256b66e08b6a44cca1d8b492155
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263798"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884360"
 ---
-# <a name="add-front-end-server-collocations"></a>Agregar colocaciones de servidor Front-End
+# <a name="add-front-end-server-collocations"></a>Agregar colocación de servidor front-end
 
 Para una implementación de Enterprise Edition, el servicio de conferencia A/v se instala también en el grupo de servidores Front-End. También puede instalar el servidor de mediación en el grupo de servidores Front-End, o puede implementar como un servidor independiente. El servicio de conferencia A/v siempre se instala también si se habilita la conferencia.
 

@@ -1,5 +1,6 @@
 ---
 title: No está habilitado en este Skype para la característica de negocio en línea
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Busque las posibles causas y sugerencias de acción al obtener un Skype para características en línea de negocio no se encuentra errores habilitado. '
-ms.openlocfilehash: 12d5c19f7830d99ce6c7e8fad8089b713bd90d0a
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23863613"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881578"
 ---
 # <a name="this-skype-for-business-online-feature-isnt-enabled"></a>No está habilitado en este Skype para la característica de negocio en línea
 

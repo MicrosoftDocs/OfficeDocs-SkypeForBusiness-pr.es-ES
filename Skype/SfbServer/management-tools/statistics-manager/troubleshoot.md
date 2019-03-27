@@ -1,5 +1,6 @@
 ---
-title: Solucionar problemas de administrador de estadísticas de Skype para Business Server
+title: Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: 236b109f28de838d626e9c85844b87dc9e9eb20b
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297921"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883809"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas de administrador de estadísticas de Skype para Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.
   
@@ -172,8 +173,8 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
+- [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     
-- [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md)
+- [Implementar el administrador de estadísticas para Skype Empresarial Server](deploy.md)
     
-- [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
+- [Actualizar el administrador de estadísticas para Skype Empresarial Server](upgrade.md)

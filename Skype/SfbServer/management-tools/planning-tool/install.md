@@ -1,5 +1,6 @@
 ---
 title: Instalar la Herramienta de planeación en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear su Skype para infraestructura de Business Server 2015 mediante el uso de la Skype para la herramienta de planeación de Business Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte de la infraestructura o el dominio donde va a instalar Skype para Business Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y uso de la herramienta. Se ha duplicado aquí una parte de la información del archivo Léame para mayor claridad.
-ms.openlocfilehash: 2314a9ae548bea70bc13872714ae3215d7439eec
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244326"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884135"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la Herramienta de planeación en Skype Empresarial Server 2015
 
@@ -31,7 +32,7 @@ Los sistemas operativos admitidos para la instalación y el funcionamiento de la
 
 - Windows 8
 
-- Windows 8.1
+- Windows 8,1
 
 - Windows Server 2012
 
@@ -69,7 +70,7 @@ Después de que se cumplen los requisitos de preinstalación, a continuación, p
 
 9. La herramienta de planeación está lista para su uso.
 
-## <a name="optional-software"></a>Optional Software
+## <a name="optional-software"></a>Software opcional
 <a name="Optional_Software"> </a>
 
 El Skype para la herramienta de planeación de Business Server 2015 está diseñado para exportar a Microsoft Excel y Microsoft Visio. Mientras que estas aplicaciones no son necesarias para el funcionamiento de la herramienta de planeación, agreguen un valor significativo para la implementación y la documentación de su diseño.
@@ -105,7 +106,7 @@ La exportación del diseño a Microsoft Visio genera un diagrama para su uso en 
 
 - Diagrama de red: diagrama que detalla la configuración del servidor perimetral con direcciones IP y los nombres de dominio completos asociados de bordes. El equilibrio de carga de DNS y los equilibradores de carga de hardware también están incluidos. Además, los directores y el grupo de servidores Front-End o de servidor Front-End se muestran, con asociados kg de DNS o HLB y la dirección IP asignada (la herramienta de planeación es compatible con direcciones IPv4 e IPv6) y del FQDN.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Optional_Software"> </a>
 
-[Instalar la herramienta de planeación](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)
+[Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

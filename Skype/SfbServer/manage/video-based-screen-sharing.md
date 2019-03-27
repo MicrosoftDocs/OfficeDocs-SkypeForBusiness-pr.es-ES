@@ -1,5 +1,6 @@
 ---
-title: Vídeo según el uso compartido de la pantalla de Skype para Business Server
+title: Pantalla compartida basada en vídeo para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/20/2018
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: 84547168eb883522005480fb07ff2bfb9abd54f6
-ms.sourcegitcommit: f7b706f8ac9647ba854ae3457018d3007edf6f6e
+ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "26993436"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878917"
 ---
-# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Vídeo según el uso compartido de la pantalla de Skype para Business Server 
+# <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Pantalla compartida basada en vídeo para Skype Empresarial Server 
  
 Vídeo compartida basado en pantalla (VbSS) en Skype para Business Server 2015 está ahora disponible para su descarga: [Skype para KB3061064 de actualización acumulativa de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=47690). VbSS se incluye con Skype para Business Server 2019.
   
@@ -189,7 +190,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
 > [!NOTE]
 > En un Skype varios participantes de la reunión de negocios, todos los extremos de cliente va a respetar la configuración de directiva para el organizador de la reunión. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Skype para Business Server 2015 actualización acumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   

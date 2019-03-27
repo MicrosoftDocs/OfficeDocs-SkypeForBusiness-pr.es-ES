@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración de implementación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
-ms.openlocfilehash: 733f71ffbb2f1e49fb73da6727a9df7586273d5b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255419"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878164"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 
@@ -39,7 +40,7 @@ Para actualizar un nombre de dominio SIP adicional existente, seleccione el nomb
 
 Para quitar un nombre de dominio SIP adicional definido, seleccione el nombre de dominio y haga clic en **Quitar**.
 
-Cuando haya introducido todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios o en **Cancelar** para descartarlos.
+Cuando haya terminado con todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
 ## <a name="simple-urls"></a>Direcciones URL simples
 
@@ -70,9 +71,9 @@ El servidor de administración central se puede cambiar de un grupo de servidore
 > [!IMPORTANT]
 > Cuando haya definido, publicado e implementado el Almacén de administración central de la infraestructura, ya no podrá cambiarlo de ubicación sin recolocarlo en otro front-end mediante un proceso externo.
 
-Para obtener información detallada acerca de cómo mover el almacén de Administración Central, vea [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia del cmdlet de Windows PowerShell.
+Para más detalles sobre cómo mover el Almacén de administración central, mire [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia del cmdlet de Windows PowerShell.
 
 
-Para obtener información detallada sobre cómo definir y configurar estas opciones, vea [definición y configuración de la topología](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
+Para más detalles sobre cómo definir y configurar estas opciones, mire [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 
 

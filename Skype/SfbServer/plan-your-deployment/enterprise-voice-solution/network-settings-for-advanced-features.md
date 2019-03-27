@@ -1,5 +1,6 @@
 ---
 title: Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el Plan de desvío de medios en Skype para la empresa, Plan para llamar el control de admisión de Skype para Business Server), o un Plan de servicios de emergencia en Skype para Business Server en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 6dad93aa2d5ef235b07f2189329f94d94b1a3d02
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885660"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882316"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
 
@@ -33,7 +34,7 @@ En este tema se proporciona una visión general de los requisitos de configuraci
 Una región de red es un concentrador de red o una red troncal de red que solo se usa en la configuración del servicio de control de admisión de llamadas (CAC), E9-1-1 y la omisión de medios.
 
 > [!NOTE]
-> Regiones de red no son los mismos que Skype para regiones de conferencia de acceso telefónico de Business Server, que son necesarias para asociar los números de acceso telefónico con Skype uno o varios planes de marcado de Business Server. Para obtener información detallada acerca de las regiones de conferencia de acceso telefónico, consulte [Planning for conferencia de acceso telefónico](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
+> Regiones de red no son los mismos que Skype para regiones de conferencia de acceso telefónico de Business Server, que son necesarias para asociar los números de acceso telefónico con Skype uno o varios planes de marcado de Business Server. Para obtener más información sobre las regiones de conferencias de acceso telefónico, mira [Planning for Dial-In Conferencing](https://technet.microsoft.com/library/9aff949e-3dac-481a-be46-a180c72e8066.aspx).
 
 CAC requiere que cada región de red tienen un Skype asociado para el sitio central de Business Server, que administra el tráfico de medios dentro de la región (es decir, toma decisiones basándose en las directivas que se han configurado, con respecto a o no un audio en tiempo real o sesión de vídeo puede establecerse). Skype para sitios centrales de Business Server no representan ubicaciones geográficas, pero en su lugar lógicos grupos de servidores que están configurados como un grupo de servidores o un conjunto de grupos de servidores.
 
@@ -67,7 +68,7 @@ Cada subred de la red empresarial necesita asociarse a un sitio de red (es decir
 
 Para asociar subredes a sitios de red, puede usar la sección de **Configuración de red** de Skype para el Panel de Control de Business Server o puede usar el Skype para Shell de administración de servidor empresarial. Para obtener instrucciones, consulte [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) en la documentación de implementación o hacer referencia a la Skype para la documentación del Shell de administración de servidor empresarial.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de control de admisión de llamadas en Skype para Business Server](call-admission-control.md)
 

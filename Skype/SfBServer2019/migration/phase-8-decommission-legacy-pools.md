@@ -1,5 +1,6 @@
 ---
 title: Fase 8 retiro de grupos de servidores heredados
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
 description: El siguiente tema proporciona instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son necesarios. Leer la documentación y determine qué procedimiento cómo dar de baja para usar.
-ms.openlocfilehash: 0e5c7bebeb0449f8fa71942f2ac68ff9d7eb017a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370763"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880265"
 ---
-# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar grupos de servidores heredados
+# <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 
 El siguiente tema proporciona instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son necesarios. Leer la documentación y determine qué procedimiento cómo dar de baja para usar. 
   
@@ -27,7 +28,7 @@ Para un artículo con fecha pero exhaustivo acerca de cómo quitar servidores y 
   
 ## <a name="in-this-section"></a>En esta sección
 
-> [Actualizar los registros DNS SRV](update-dns-srv-records.md)
+> [Actualizar registros SRV de DNS](update-dns-srv-records.md)
 > 
 > [Mover el servidor de Administración Central de instalación heredada a Skype para Business Server 2019](move-the-central-management-server.md)
 > 
@@ -39,6 +40,6 @@ Para un artículo con fecha pero exhaustivo acerca de cómo quitar servidores y 
 > 
 > [Quitar el servidor Front-End Enterprise Edition o servidor Front-End de Standard Edition](remove-the-front-end-server.md)
 > 
-> [Quitar instancias de SQL Server y bases de datos en el servidor Back-End](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
+> [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     
 

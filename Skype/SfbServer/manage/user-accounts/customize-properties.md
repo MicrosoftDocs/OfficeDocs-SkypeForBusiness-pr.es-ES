@@ -1,5 +1,6 @@
 ---
 title: Personalizar propiedades de la cuenta de usuario de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 505d9619-adab-4cc4-b054-89286e18a19b
 description: Puede usar los procedimientos de esta sección para modificar las propiedades de la cuenta de usuario individual.
-ms.openlocfilehash: 8546d660d0d79f36fa37abf43fcf06dc8e863691
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5162cb187538b5288f13f25beae96f3775faa594
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968862"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880871"
 ---
 # <a name="customize-user-account-properties-for-skype-for-business-server"></a>Personalizar propiedades de la cuenta de usuario de Skype para Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Quitar el servidor Front-End Enterprise Edition o servidor Front-End de Standard Edition
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Los procedimientos descritos en este tema están diseñados para que le guían por el proceso de eliminación de un grupo de servidores Front-End de Enterprise Edition o una edición Standard servidor Front-End. Después de migrar a Skype para Business Server 2019, se trata de uno de los primeros pasos para retirar el entorno heredado.
-ms.openlocfilehash: e9aaa12c1822116d65c29d5ecfec0f81030f0162
-ms.sourcegitcommit: 247747ec19c0f5c1d45fea7e5ac5318e4d5127ea
+ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "25030619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881858"
 ---
-# <a name="remove-the-front-end-server"></a>Quitar el servidor Front-End
+# <a name="remove-the-front-end-server"></a>Eliminar el servidores front-end
 
 Los procedimientos descritos en esta sección están diseñados para que le guían por el proceso de eliminación de un grupo de servidores Front-End de Enterprise Edition o una edición Standard servidor Front-End. Después de migrar a Skype para Business Server 2019, se trata de uno de los primeros pasos para retirar el entorno heredado.
   
@@ -27,8 +28,8 @@ Los procedimientos descritos en esta sección están diseñados para que le guí
     
 - [Detener servicios heredados](stop-services.md)
     
-- [Quitar un servidor Front-End de un grupo de servidores](remove-a-front-end-server-from-a-pool.md)
+- [Quitar un servidor front-end de un grupo de servidores](remove-a-front-end-server-from-a-pool.md)
     
-- [Quitar el servidor Standard Edition o grupo de servidores Front-End](remove-front-end-pool-or-standard-edition-server.md)
+- [Quitar un grupo de servidores front-end o servidor Standard Edition](remove-front-end-pool-or-standard-edition-server.md)
     
 

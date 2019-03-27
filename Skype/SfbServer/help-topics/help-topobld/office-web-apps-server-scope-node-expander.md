@@ -1,5 +1,6 @@
 ---
 title: Expansor de nodo de ámbito del servidor de Office Web Apps
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Derecha haga clic en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: fccc7fc89c069b45a9482c3cea21b9faf189dc74
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Botón secundario haga clic en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
+ms.openlocfilehash: 58dd287b4749ed0855e8bf122397622b681e73d6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884219"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor de Office Web Apps
  
-Derecha haga clic en los **Servidores de Office Web Apps** en el generador de topología para realizar lo siguiente:
+Botón secundario haga clic en **Los servidores de Office Web Apps** en el generador de topología para realizar lo siguiente:
   
-- **Nuevo servidor de Office Web Apps**: inicia el Asistente para **Definir servidor de Office Web Apps** permite definir un nuevo servidor de aplicaciones Web de Office.
+- **Nuevo Office Web Apps Server**: inicia el asistente **Definir nuevo Office Web Apps Server** se usa para definir un nuevo servidor de aplicaciones Web de Office.
     
-Además de la opción nuevo servidor de Office Web Apps, puede realizar las siguientes tareas generales:
+Además de la opción nuevo Office Web Apps Server, puede realizar las tareas generales siguientes:
   
 ![Nodo de ámbito del servidor de Office Web Apps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

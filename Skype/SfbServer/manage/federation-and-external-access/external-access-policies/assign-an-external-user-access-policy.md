@@ -1,5 +1,6 @@
 ---
-title: Asignar una directiva de acceso de usuarios externos
+title: Asignar una directiva de acceso de usuario externo
+ms.reviewer: ''
 ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si un usuario tiene habilitado para Skype para Business Server, puede configurar la federación SIP, acceso de usuarios remotos e instantánea pública conectividad de mensajería (IM en el Skype) para el Panel de Control de servidor empresarial mediante la aplicación de las directivas apropiadas a usuarios específicos.
-ms.openlocfilehash: 3498b7aabaddc80053efca70b89198c224147c0e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222845"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881503"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Asignar una directiva de acceso de usuarios externos a un Skype para usuarios de empresa habilitado
 
@@ -39,12 +40,12 @@ Use el procedimiento de este tema para aplicar una directiva de acceso de usuari
 
 3.  En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
 
-4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, finalmente, en **Mostrar detalles**.
+4.  En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
 
 5.  En **Editar Skype para usuarios de empresa Server** en **Directiva de acceso externo**, seleccione la directiva de usuario que desea aplicar.
      
 > [!NOTE]  
-> La ** \<automática >** configuración aplica el servidor predeterminado o la configuración de la directiva global.
+> La ** \<Automatic>** configuración aplica el servidor predeterminado o la configuración de la directiva global.
 
 
 ## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Asignación de directivas de acceso externo por usuario mediante el uso de Cmdlets de Windows PowerShell

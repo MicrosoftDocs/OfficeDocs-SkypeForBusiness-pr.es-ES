@@ -1,5 +1,6 @@
 ---
 title: Preparar Active Directory para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Resumen: Obtenga información sobre cómo preparar el dominio de Active Directory para una instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 278a46ab7f39f3274905741fb40212869c043e9e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: de5de35377e526844a7badeb9897fe29b4b15db4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884007"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880829"
 ---
 # <a name="prepare-active-directory-for-skype-for-business-server"></a>Preparar Active Directory para Skype para Business Server
  
@@ -150,7 +151,7 @@ Vea los pasos del vídeo **Preparar Active Directory**:
     
 10. **Paso 7: Agregar usuarios para otorgar acceso administrativo al Panel de control de Skype Empresarial Server**
     
-    a. Inicie sesión como miembro del grupo Administradores del dominio o del grupo RTCUniversalServerAdmins.
+    a. Inicie sesión como miembro del grupo Admins. del dominio o del grupo RTCUniversalServerAdmins.
     
     b. Abra **Usuarios y equipos de Active Directory**, expanda el dominio, haga clic en el contenedor **Usuarios**, haga clic con el botón secundario en CSAdministrator y seleccione **Propiedades**.
     
@@ -173,6 +174,6 @@ Vea los pasos del vídeo **Preparar Active Directory**:
      ![Preparación de Active Directory completada.](../../media/1fbb655a-25c3-4652-96f9-af0427def17d.png)
   
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
  
-[Servicios de dominio de Active Directory para Skype Empresarial Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)
+[Active Directory Domain Services for Skype for Business Server 2015](../../plan-your-deployment/security/active-directory-domain-services.md)

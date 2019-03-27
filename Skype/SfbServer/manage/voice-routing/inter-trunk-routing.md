@@ -1,5 +1,6 @@
 ---
 title: Enrutamiento entre tronco en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype para Business Server proporciona administración de sesiones básica a través de la compatibilidad de enrutamiento entre troncos. '
-ms.openlocfilehash: 66ee1f0cb9e37587d3c581b895528e27e7fad6c0
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 9f73899d59e79d8fc93e768f0e870449baaeb7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222817"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884602"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Enrutamiento entre tronco en Skype para Business Server
 

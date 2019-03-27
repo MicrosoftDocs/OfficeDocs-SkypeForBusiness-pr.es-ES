@@ -1,5 +1,6 @@
 ---
 title: Estadísticas del usuario e información de la organización
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,12 +21,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Vea qué estadísticas tienen disponibles los usuarios de Skype Empresarial, como el número de usuarios habilitados, los usuarios habilitados con conferencia o los usuarios que están habilitados para Office 365.
-ms.openlocfilehash: bff5bd374f554bd05e443d6deb89b3a16ca10a64
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 785a5c8323eda012f50c290e2241321f54c4834f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861127"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882837"
 ---
 # <a name="user-statistics-and-organization-information"></a>Estadísticas del usuario e información de la organización
 

@@ -1,5 +1,6 @@
 ---
 title: Aplicación de servidor de la topología
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'La topología: Página de aplicación de servidor muestra las aplicaciones de servidor en su implementación.'
-ms.openlocfilehash: 1d12014c3baff43866f2a6009d381a3c9cfb4719
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260695"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883717"
 ---
-# <a name="topology-server-application"></a>Topología: Aplicación de servidor de
+# <a name="topology-server-application"></a>Topología: Aplicación de servidor
 
 La **topología**: página de **Aplicación de servidor** muestra las aplicaciones de servidor en su implementación.
 
@@ -33,7 +34,7 @@ Puede realizar las siguientes tareas en la **topología**: página de **Aplicaci
 
 - Seleccione o anule la selección de una aplicación como crítica
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Habilitar o deshabilitar un SIP de Microsoft procesamiento de aplicación de servidor de idioma (MSPL)](https://technet.microsoft.com/library/b20af38d-224a-4459-991d-0b7eabb3ca7c.aspx)
 

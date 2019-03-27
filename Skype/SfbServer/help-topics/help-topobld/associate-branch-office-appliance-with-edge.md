@@ -1,5 +1,6 @@
 ---
 title: Asociar la aplicación de la sucursal con el perímetro
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: Si tiene servidores Edge implementados y debe proporcionar servicios de medios para uso externo, elija el servidor perimetral o agrupación que se asociará con el dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven seleccionándola en la lista desplegable. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 1fc6d734511a8e4bf614694057727c35f209f96c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Si tiene servidores perimetrales implementados y debe proporcionar servicios de medios para su uso externo, elija el servidor perimetral o grupo de servidores que se asociarán a la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia mediante la selección en la lista desplegable. Haga clic en siguiente para continuar.
+ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878539"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Asociar la aplicación de la sucursal con el perímetro
  
-Si tiene servidores Edge implementados y debe proporcionar servicios de medios para uso externo, elija el servidor perimetral o agrupación que se asociará con el dispositivo de sucursal que sobreviven o un servidor de sucursal que sobreviven seleccionándola en la lista desplegable. Haga clic en **Siguiente** para continuar.
+Si tiene servidores perimetrales implementados y debe proporcionar servicios de medios para su uso externo, elija el servidor perimetral o grupo de servidores que se asociarán a la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia mediante la selección en la lista desplegable. Haga clic en **Siguiente** para continuar.
   
 > [!NOTE]
-> Si no tiene un servidor perimetral o definida en la topología de grupo de servidor perimetral, puede omitir este paso. Podrá asociar el dispositivo de sucursal que sobreviven o el servidor de sucursal que sobreviven con un servidor perimetral o grupo de servidores de borde al definir un nuevo servidor de borde o grupo servidor perimetral, o al editar las páginas de propiedades del dispositivo de sucursal que sobreviven o Survivable Servidor de sucursal una vez definido un servidor perimetral o grupo de servidores de borde en la topología. 
+> Si no tiene un servidor perimetral o grupo de servidores perimetrales definido en la topología, puede omitir este paso. Podrá asociar la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia con un servidor perimetral o grupo de servidores perimetrales al definir un nuevo servidor perimetral o grupo de servidores perimetrales, o cuando se editen las páginas de propiedades de la aplicación de sucursal con funciones de supervivencia o con función de supervivencia Servidor de sucursal después de que un servidor perimetral o grupo de servidores perimetrales se define en la topología. 
   
 

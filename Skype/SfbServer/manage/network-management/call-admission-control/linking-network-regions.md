@@ -1,5 +1,6 @@
 ---
 title: Vinculación de regiones de red
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas (CAC). '
-ms.openlocfilehash: f2f3e170b11677663739f4e06ea7c6768f0a9c11
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223020"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884687"
 ---
-# <a name="linking-network-regions-in-skype-for-business-server"></a>Vinculación de regiones de red en Skype para Business Server
+# <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiones de red en Skype Empresarial Server
 
 Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas (CAC). Use las secciones de este artículo para ver la información del vínculo de región newtwork o configurar o eliminar vínculos de región de red. 
 

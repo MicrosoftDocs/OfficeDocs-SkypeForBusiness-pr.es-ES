@@ -1,5 +1,6 @@
 ---
 title: tblEnumAttribute
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: tblEnumAttribute es una tabla que contiene los atributos de visibilidad y el comportamiento que se usan en la tabla Node.
-ms.openlocfilehash: bd386bc77d15c627597a5680277235a05d0c8039
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 7555656f02fa7808e54100c03de8f80e0e078678
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504869"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879703"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -41,6 +42,6 @@ tblEnumAttribute es una tabla que contiene los atributos de visibilidad y el com
 |1  <br/> |Visibilidad.  <br/> |
 |2  <br/> |Comportamiento.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [tblNode](tblnode.md)

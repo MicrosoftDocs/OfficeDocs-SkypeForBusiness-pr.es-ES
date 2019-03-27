@@ -1,5 +1,6 @@
 ---
 title: Administrar los servicios de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: Este artículo describe cómo administrar los servicios que se ejecutan en un Skype de topología de servidores de negocio.
-ms.openlocfilehash: 7f95023416bd1b851bc5a3d3ce6185e3362ec098
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4f5e1c4d91d5412470edebf3ed8d320101153da1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372449"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879219"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Administrar los servicios de Skype para Business Server
 

@@ -1,5 +1,6 @@
 ---
 title: tblEnumValue
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue es una tabla que contiene los valores de visibilidad y el comportamiento de los atributos que se usan en la tabla Node.
-ms.openlocfilehash: 4e17e5fc167342c106e7b5354d90c7fc284785c3
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505079"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881172"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -46,6 +47,6 @@ tblEnumValue es una tabla que contiene los valores de visibilidad y el comportam
 |5  <br/> |2  <br/> |auditorio  <br/> |
 |6  <br/> |1  <br/> |Abra  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [tblNode](tblnode.md)

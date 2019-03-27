@@ -1,5 +1,6 @@
 ---
 title: Informe de rendimiento del servidor en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Resumen: Información sobre el informe de rendimiento de servidor en Skype para Business Server.'
-ms.openlocfilehash: b902d5b02922e390a50af97365965b261c13002f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d66bdef25435c245e005eff6618e0294fb93da4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980647"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878220"
 ---
 # <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype para Business Server
  

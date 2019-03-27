@@ -1,5 +1,6 @@
 ---
 title: Directiva de ubicación crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Puede configurar directivas de ubicación para determinar si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
-ms.openlocfilehash: 2fa861277f5b7e36c9faa3ffd632cc84aa9b5f53
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 50769e3f6aec7d495ee5f9ea1c835c2e0849dc01
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244996"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883675"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nueva o editar existente
 
@@ -50,7 +51,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Número de marcado de E9-1-1** Especifique el número que se marca para llegar a los servicios de emergencia.
 
-- **Máscara de marcado de E9-1-1** Especifique un número que un usuario marca, que se traduce, a continuación, en número de emergencia. Por ejemplo, escriba un valor de 212 en este campo para que un usuario puede marcar 212 para llegar a los servicios de emergencia. Esto permite que los números de emergencias alternativos se debe marcar y seguir teniendo la llamada llegar a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número diferente de emergencia intenta marcar que país o región del número en vez del número de la país o región que se encuentran actualmente en). Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. La longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
+- **Máscara de marcado de E9-1-1** Especifique un número que un usuario marca, que se traduce, a continuación, en número de emergencia. Por ejemplo, escriba un valor de 212 en este campo para que un usuario puede marcar 212 para llegar a los servicios de emergencia. Esto permite que los números de emergencias alternativos se debe marcar y seguir teniendo la llamada llegar a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número diferente de emergencia intenta marcar que país o región del número en vez del número de la país o región que se encuentran actualmente en). Puede definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212; 414. La longitud máxima de la cadena es de 100 caracteres. Cada carácter debe ser un dígito de 0 a 9.
 
     > [!IMPORTANT]
     > Procure que la máscara de marcado no sea la misma que el número del intervalo de números de estacionamiento de llamadas, ya que el enrutamiento de estacionamiento de llamadas prevalece sobre la conversión de cadenas de marcado de emergencia. Para ver los intervalos de números de estacionamiento de llamadas, haga clic en **Características de voz** en la barra de navegación izquierdo y, a continuación, haga clic en **Estacionamiento de llamadas**.
@@ -65,6 +66,6 @@ En la siguiente lista se describen los campos de la página.
 
   - **Bidireccional** Especifica que el tercero puede participar en la llamada entre el autor de la llamada y el operador del servicio de emergencia.
 
-Para obtener información detallada sobre las características de servicios de emergencia de Enterprise Voice y funciones, vea [información general de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con directivas de ubicación, vea [Configurar la directiva de ubicación](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de servicios de emergencia de Enterprise Voice y funciones, vea [información general de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) en la documentación de planeación. For details about working with location policies, see [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.
 
 

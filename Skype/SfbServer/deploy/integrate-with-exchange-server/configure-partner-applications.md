@@ -1,5 +1,6 @@
 ---
 title: Configuración de las aplicaciones asociadas en Skype para Business Server 2015 y Exchange Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 9c3a3054-6201-433f-b128-4c49d3341370
 description: 'Resumen: Configurar la autenticación de servidor a servidor para Exchange Server 2016 o Exchange Server 2013 y Skype para Business Server.'
-ms.openlocfilehash: f437b081466f837c012e0d2ddba8bea79d3ad445
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d9d2b32b637946555b906f24e7abbd5dda007d7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20973083"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878476"
 ---
 # <a name="configure-partner-applications-in-skype-for-business-server-and-exchange-server"></a>Configuración de las aplicaciones asociadas en Skype para Business Server y Exchange Server
  

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f8b3105889021408983c8e3ae249c74833e65ced
-ms.sourcegitcommit: 8e5fc1d8c19a7f26f53e40b23dd6476a8c6d805f
+ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "30800076"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882965"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
@@ -65,20 +65,13 @@ Para probar ambos segmentos de red, puede usar la [Herramienta de evaluación de
 
 
 ## <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
-
+Teams Microsoft le ofrece la mejor audio, vídeo y uso compartido experiencia independientemente de las condiciones de red del contenido. Con códecs variables, se pueden negociar medios en entornos de ancho de banda limitado con un impacto mínimo. Pero donde ancho de banda no es una preocupación, experiencias pueden ser optimizadas para calidad, incluida una resolución de vídeo 1080p, hasta 30fps para vídeo y 15fps para contenido y audio de alta fidelidad.
 
 En este artículo se describe una versión concisa de forma se utiliza el ancho de banda por Microsoft Teams tiempo real audio, vídeo y uso compartido modalidades en distintos casos de uso de escritorio. Los equipos siempre es conservadoras sobre la utilización de ancho de banda y puede ofrecer una calidad de vídeo HD en 1.2Mbps.  El consumo de ancho de banda real en cada llamada de audio y vídeo o una reunión variará en función de varios factores, como el diseño de vídeo, la resolución de vídeo y de fotogramas de vídeo por segundo. Cuando hay más ancho de banda disponible calidad y uso aumentará para ofrecer la mejor experiencia.
 
 
-|Bandwidth(Up/Down) |Escenarios |
-|---|---|
-|30 kbps |Llamada de audio punto a punto |
-|130 kbps |Llamadas de audio de punto a punto y uso compartido de la pantalla |
-|500 kbps |Vídeo de una llamada a p 360 a 30fps de calidad de punto a punto |
-|1.2 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de alta definición 720p a 30fps |
-|1,5 Mbps |Vídeo de calidad de alta definición Peer-to-peer de llamada con resolución de HD 1080p a 30fps |
-|500kbps y 1 Mbps |Llamada de vídeo de grupo |
-|1 Mbps/2 Mbps |Grupo de HD vídeo llamada (vídeos 540p en pantalla 1080p) |
+[!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
+
 
 <!--
 The content you will find below can be used as supplemental background information; however, it is recommended that customers use [Network Planner](https://aka.ms/bwcalc) to track their needs.

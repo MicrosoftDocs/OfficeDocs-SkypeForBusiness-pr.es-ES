@@ -1,5 +1,6 @@
 ---
 title: Seleccionar un servicio
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Use el cuadro de diálogo Seleccionar un servicio para buscar los servicios disponibles en su entorno. Para usar un servicio existente, haga clic en un servicio de la lista y, a continuación, en Aceptar.
-ms.openlocfilehash: 99a6011906254dd26fa1f8e2812ecbbf4f8a3f7f
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc5a65521cc8f7b508abd06256026fb769be47e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247552"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880549"
 ---
 # <a name="select-a-service"></a>Seleccionar un servicio
 
@@ -29,21 +30,21 @@ Para obtener información detallada sobre los distintos procedimientos que puede
 
 En la página **Seleccionar un servicio** puede realizar las siguientes tareas:
 
-- [Configuración de categorías](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
+- [Configure Categories](https://technet.microsoft.com/library/4547f514-f0c0-404d-890f-092ddeeac852.aspx)
 
-- [Configurar complementos para salones](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
+- [Configure Add-ins for Rooms](https://technet.microsoft.com/library/4eeaf19e-8369-4f6f-af65-a283cf7daa1c.aspx)
 
-- [Configure las opciones del servidor de Chat en grupo global o de grupo de servidores de Chat en grupo](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 
-## <a name="to-configure-categories-for-chat-rooms"></a>Para configurar categorías para salones de chat
+## <a name="to-configure-categories-for-chat-rooms"></a>Configuración de las categorías de los salones de chat
 
 En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente en el que debe crearse la categoría. El servicio es el servidor de Chat persistente pertenece el grupo de servidores que el Chat persistente (cliente) se utiliza para identificar que la categoría del grupo de servidores. Una categoría puede pertenecer al grupo de un solo servidor de Chat persistente y no se mueve a otro equipo o compartida con otro grupo de servidores.
 
 ## <a name="to-configure-add-ins-for-chat-rooms"></a>Para configurar complementos para salones de chat
 
-En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente que necesita para crear el complemento. Los complementos no se pueden mover de un grupo a otro ni compartir entre diferentes grupos.
+En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente que necesita para crear el complemento. Los complementos no se pueden mover de un grupo a otro o compartirse entre diferentes grupos.
 
 ## <a name="to-configure-persistent-chat-options-for-a-specific-persistent-chat-server-pool"></a>Para configurar las opciones de Chat persistente para un grupo específico de servidor de Chat persistente
 

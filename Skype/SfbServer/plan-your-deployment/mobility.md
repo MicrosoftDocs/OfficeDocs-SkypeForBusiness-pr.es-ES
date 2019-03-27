@@ -1,5 +1,6 @@
 ---
 title: Planeación de movilidad de Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/17/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planeación de la implementación de movilidad de Skype para Business Server.
-ms.openlocfilehash: 22d5b8bdeb6a82a202740af4919756daac47010a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6616560afbea5a2aed30fbf671035ae46d6ed8b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533269"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878185"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planeación de movilidad de Skype para Business Server
  
@@ -243,7 +244,7 @@ Tenemos una tabla para ayudar a con algunas de las características que están d
 |Permitir movilidad  <br/> |EnableMobility  <br/> |Controla a los usuarios que disponen de Skype para clientes móviles de negocio instalado en un ámbito determinado. Si la directiva está definida en falso, los usuarios no podrán iniciar sesión con su cliente.  <br/> |True  <br/> |
 |Voz externa  <br/> |EnableOutsideVoice  <br/> |Habilita la capacidad de un usuario para usar Vía trabajo, que permite a los usuarios enviar y recibir llamadas utilizando su número de teléfono del trabajo en lugar de su número de teléfono móvil. Si está definida en falso, los usuarios no podrán realizar o recibir llamadas en su teléfono móvil cuando utilicen su número de teléfono del trabajo.  <br/> |True  <br/> |
 |Permitir Audio y vídeo IP  <br/> |EnableIPAudioVideo  <br/> |Si se define en el valor predeterminado, permite a un usuario utilizar VoIP para realizar o recibir llamadas de teléfono o videollamadas en su dispositivo móvil. Si se define en falso, los usuarios no podrán utilizar su dispositivo móvil para dichos fines.  <br/> |True  <br/> |
-|Requerir Wi-Fi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas de VoIP con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |
+|Requerir Wi-Fi para audio IP  <br/> |RequireWiFiForIPAudio  <br/> |Define si un cliente necesitará realizar y recibir llamadas de VoIP con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |False  <br/> |
 |Requerir Wi-Fi para vídeo IP  <br/> |RequireWiFiForIPVideo  <br/> |Define si un cliente necesitará realizar y recibir videollamadas con una red WiFi en lugar de con una red de datos de telefonía móvil. Si se define en verdadero, los usuarios solo podrán realizar y recibir llamadas de VoIP cuando estén conectados a una red WiFi.  <br/> |Falso  <br/> |
    
 ### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>¿Los usuarios no habilitados para Telefonía IP empresarial deberán poder hacer clic para unirse a conferencias?

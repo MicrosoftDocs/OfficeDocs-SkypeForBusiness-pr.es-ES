@@ -1,5 +1,6 @@
 ---
 title: Probar los casos de prueba de enrutamiento de voz
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6d043d7dbf4c74b1b2fae7dd421fcf48759bd90b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2cdd4fac098f0a3906a380ba947229cef50d7ea2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247780"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881886"
 ---
-# <a name="test-voice-routing-test-cases"></a>Enrutamiento de voz de prueba: casos de prueba
+# <a name="test-voice-routing-test-cases"></a>Probar enrutamiento de voz: Pruebas
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

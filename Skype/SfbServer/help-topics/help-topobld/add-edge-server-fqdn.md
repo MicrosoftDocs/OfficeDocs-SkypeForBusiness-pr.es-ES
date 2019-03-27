@@ -1,5 +1,6 @@
 ---
-title: Agregar el FQDN del servidor perimetral
+title: Agregar FQDN de servidor perimetral
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el uso de un FQDN único &amp; opción de dirección IP en la seleccionar las características de página, también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
-ms.openlocfilehash: 5f9d3bc3b63eaaf9db303c3fc0c74038df223391
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 33856832407e6e12a3c0854fb2d2c87a1bde376c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965901"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880021"
 ---
-# <a name="add-edge-server-fqdn"></a>Agregar el FQDN del servidor perimetral
+# <a name="add-edge-server-fqdn"></a>Agregar FQDN de servidor perimetral
  
 Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el **utilizar un FQDN único &amp; dirección IP** opción en la página **Seleccionar características** , también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
   

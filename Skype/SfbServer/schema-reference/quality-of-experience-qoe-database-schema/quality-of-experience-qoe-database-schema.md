@@ -1,5 +1,6 @@
 ---
 title: Esquema de la base de datos de calidad de la experiencia (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,25 +10,26 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 87b9c534-a1b1-48a6-bf51-cb232f5240c1
-description: Esto documenta el esquema de la base de datos de la calidad de la experiencia (QoE) en Skype para Business Server 2015.
-ms.openlocfilehash: 23a6e551da114354a83ff92f1f270a08cfeceee1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Documenta el esquema de la base de datos de calidad de la experiencia (QoE) en Skype para Business Server 2015.
+ms.openlocfilehash: 88d2e05ec8515ab286c5f20adc9486ea9664301e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884546"
 ---
 # <a name="quality-of-experience-qoe-database-schema"></a>Esquema de la base de datos de calidad de la experiencia (QoE)
  
-Esto documenta el esquema de la base de datos de la calidad de la experiencia (QoE) en Skype para Business Server 2015.
+Documenta el esquema de la base de datos de calidad de la experiencia (QoE) en Skype para Business Server 2015.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Lista de tablas de calidad](list-of-qoe-tables.md)
+- [Lista de tablas de QoE](list-of-qoe-tables.md)
     
-- [Detalles de la tabla de calidad](qoe-table-details.md)
+- [Detalles de la tabla de QoE](qoe-table-details.md)
     
-- [Ver detalles de la calidad de la experiencia](qoe-view-details.md)
+- [Detalles de la vista QoE](qoe-view-details.md)
     
-- [Ejemplos de consultas de base de datos de calidad](sample-qoe-database-queries.md)
+- [Consultas de base de datos de QoE de ejemplo](sample-qoe-database-queries.md)
     
 

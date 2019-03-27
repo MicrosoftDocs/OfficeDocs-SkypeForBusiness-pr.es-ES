@@ -1,5 +1,6 @@
 ---
 title: Informe de distribución de errores en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: Información sobre el informe de distribución de errores en Skype para Business Server.'
-ms.openlocfilehash: 47cb4374f8e443d9c288ab07dc97b1447ccacf45
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 6a8c5402555bc8334a9df36e2fff62ed2991bcff
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008511"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883255"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype para Business Server
  

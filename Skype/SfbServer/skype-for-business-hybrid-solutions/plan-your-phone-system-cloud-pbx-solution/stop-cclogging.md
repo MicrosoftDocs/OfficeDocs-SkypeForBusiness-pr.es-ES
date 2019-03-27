@@ -1,5 +1,6 @@
 ---
-title: Parada CcLogging
+title: Stop-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fee9eda7-ad15-40d2-b9fe-21c5462d3309
 description: El cmdlet Stop-CcLogging detiene la generación del registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: abecc5acc6a454b2965fbf79caadb23f2256e4cd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: eaccde49421cd22e32b23b89d8b5ea42dd073912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879626"
 ---
-# <a name="stop-cclogging"></a>Parada CcLogging
+# <a name="stop-cclogging"></a>Stop-CcLogging
  
 El cmdlet Stop-CcLogging detiene la generación del registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.
   
@@ -53,7 +55,7 @@ El cmdlet Stop-CcLogging detiene el registro de llamadas entrantes y salientes e
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| /RemoveCache <br/> | Opcional <br/> | System.Management.Automation.SwitchParameter <br/> |Elimina los archivos caché del registro.  <br/> |
+| RemoveCache <br/> | Opcional <br/> | System.Management.Automation.SwitchParameter <br/> |Elimina los archivos caché del registro.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -68,8 +70,8 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Búsqueda CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[Inicio CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
 

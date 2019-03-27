@@ -1,5 +1,6 @@
 ---
 title: Habilitar y deshabilitar el desvío de medios
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Use los procedimientos de este artículo para habilitar o deshabilitar el desvío de medios mediante el uso de la Skype para el Panel de Control de servidor empresarial.
-ms.openlocfilehash: f595ab5380575f34c0a470cb58c82459841ee4d7
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: eebbc111f0d205be8dced9ec8ddb5150deff8119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222761"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874292"
 ---
-# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitación y deshabilitación de medios de omisión de Skype Business Server
+# <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 
 Use los procedimientos de este artículo para habilitar o deshabilitar el desvío de medios mediante el uso de la Skype para el Panel de Control de servidor empresarial.
 

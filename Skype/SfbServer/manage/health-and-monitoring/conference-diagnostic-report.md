@@ -1,5 +1,6 @@
 ---
 title: Informe de diagnósticos de conferencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Resumen: Información sobre el informe de diagnósticos de conferencia usadas en Skype para Business Server.'
-ms.openlocfilehash: 75d12f8b2906e84a8ca786a7103ce41d87f3f300
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: eb7fde75050b6d97172986aef6429cdc19216f59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981132"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879360"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnósticos de conferencia en Skype para Business Server
  

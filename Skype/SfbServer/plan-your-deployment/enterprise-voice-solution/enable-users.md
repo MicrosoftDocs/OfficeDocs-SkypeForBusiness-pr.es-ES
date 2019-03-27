@@ -1,5 +1,6 @@
 ---
 title: Habilitar a usuarios para E9-1-1 en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Decisiones necesarias para la directiva de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice, incluido qué usuarios para habilitar y cómo admitir usuarios móviles.
-ms.openlocfilehash: 24a50384ec0f455c1998aa97274890e6346e5a01
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 57a84d18bec0547f1179e62013c9b957afdd2c53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889912"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879310"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Habilitar a usuarios para E9-1-1 en Skype para Business Server
  

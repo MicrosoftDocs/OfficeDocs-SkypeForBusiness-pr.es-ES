@@ -1,5 +1,6 @@
 ---
 title: Importar certificado (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1c248faa-2023-48b2-8cac-9a28045b72c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página ejecución de comandos, revise la información de resumen para el certificado importado. En la lista desplegable, seleccione el archivo de registro de certificado de importación. Asegúrese de que el archivo de registro de importar certificado está visible en la lista desplegable. Haga clic en Ver registro para revisar los detalles de la importación del certificado. Cuando haya terminado de revisar el resumen y el archivo de registro, haga clic en Finalizar.
-ms.openlocfilehash: 51617b3cb88c379138525ae8621b2e705d0d00bf
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e892dde5317c7c8ee8583b5054ccf46ccf306250
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004087"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881608"
 ---
 # <a name="import-certificate-invoke"></a>Importar certificado (invocar)
  

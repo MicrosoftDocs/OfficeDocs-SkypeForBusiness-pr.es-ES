@@ -1,5 +1,6 @@
 ---
 title: 'Administrar números de acceso telefónico en Skype para Business Server '
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Resumen: Obtenga información sobre cómo administrar los números de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: a9e93b52a329a4fdce6817a758b6c6dcb29a0348
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c074cb9417e39d8964996f643b90f8fe3e0fd7b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008191"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883524"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Administrar números de acceso telefónico en Skype para Business Server
  
@@ -111,7 +112,7 @@ Puede modificar los números de acceso telefónico mediante el uso de Skype para
 9. En **Grupo de servidores**, haga clic en el grupo que ejecuta la instancia del operador de conferencia que admite el número de acceso telefónico local.
     
     > [!NOTE]
-    > Si necesita cambiar el grupo de servidores después de crear el número de acceso, debe usar el cmdlet **Move-CsApplicationEndpoint** o eliminar y volver a crear el número de acceso.
+    > Si necesita cambiar el grupo de servidores tras crear el número de acceso, necesitará usar el cmdlet **Move-CsApplicationEndpoint** o eliminar y volver a crear el número de acceso.
   
 10. En **Idioma principal**, haga clic en el idioma en el que se mostrarán las indicaciones para este número de acceso telefónico local. 
     

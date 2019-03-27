@@ -1,5 +1,6 @@
 ---
 title: Implementar la supervisión en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Resumen: Obtenga información sobre cómo implementar la supervisión en Skype para Business Server.'
-ms.openlocfilehash: 0bcc324e9f37b37078719e3e5c0e5ffe1518f5cd
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 147d20c7a6b85ef294711602748ee474b4e9abd3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23252390"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878108"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Implementar la supervisión en Skype para Business Server
 
@@ -54,7 +55,7 @@ Aunque ya está instalado y activado en cada servidor Front-End de supervisión,
 
 |**Fase**|**Pasos**|**Rol y pertenencia a grupos**|**Documentación**|
 |:-----|:-----|:-----|:-----|
-|**Instalar los requisitos previos de hardware y software** <br/> |Instale una versión compatible de Microsoft SQL Server en el equipo que actuará como almacén de datos back-end para la supervisión.  <br/> |Usuario de dominio que también es miembro del grupo de administradores locales.  <br/> |[Hardware admitido](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Software de servidor y compatibilidad con la infraestructura](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
+|**Instalar los requisitos previos de hardware y software** <br/> |Instale una versión compatible de Microsoft SQL Server en el equipo que actuará como almacén de datos back-end para la supervisión.  <br/> |Usuario de dominio que también es miembro del grupo de administradores locales.  <br/> |[Supported Hardware](https://technet.microsoft.com/library/5f9c085d-205e-4235-9061-9ad875283cb0.aspx) <br/> [Server Software and Infrastructure Support](https://technet.microsoft.com/library/4ee5fe38-0191-4710-9aa2-df8895e8c51b.aspx) <br/> |
 |**Crear la topología interna adecuada para admitir la supervisión** <br/> |Usar Skype para Business Server Topology Builder agregar, a continuación, supervisar bases de datos a la topología, publica la topología actualizada.  <br/> |Para definir una topología, un usuario que sea miembro del grupo de usuarios locales.  <br/> Para publicar la topología, un usuario que sea miembro del grupo de administradores del dominio y del grupo RTCUniversalServerAdmins.  <br/> |[Asociar un almacén de supervisión a un grupo de servidores Front-End en Skype para Business Server](associate-a-monitoring-store.md) <br/> |
 |**Habilitar la configuración de supervisión adecuada** <br/> |Habilitar el registro detallado de llamadas (CDR) o la supervisión de la calidad de la experiencia (QoE) en los ámbitos del sitio o a nivel global.  <br/> |Un usuario que sea miembro del grupo RTCUniversalServerAdmins o que tiene asignado un rol RBAC que proporciona acceso a los cmdlets de CsCdrConfiguration y CsQoEConfiguration.  <br/> |[Configurar los detalles de las llamadas y la configuración de calidad de la experiencia en Skype para Business Server](call-detail-recording-and-qoe.md) <br/> |
 
@@ -94,6 +95,6 @@ Si lo prefiere, también puede habilitar la supervisión QoE desde dentro de la 
 
 Tal como hemos visto, los ejemplos anteriores muestran cómo habilitar la supervisión de forma global; es decir, permiten habilitar la supervisión de CDR y QoE en toda la organización. De forma alternativa, puede separar las opciones de configuración de CDR y QoE en el sitio para habilitar o deshabilitar la supervisión en cada sitio. Por ejemplo, puede habilitar la supervisión de CDR para el sitio de Redmont y deshabilitarla para el sitio de Dublín. Para obtener más información acerca de cómo administrar las opciones de configuración de supervisión, consulte el tema de la Guía de implementación [llame a configurar registro de detalles y la configuración de calidad de la experiencia de Skype para Business Server](call-detail-recording-and-qoe.md).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de la supervisión en Skype para Business Server](../../plan-your-deployment/monitoring.md)

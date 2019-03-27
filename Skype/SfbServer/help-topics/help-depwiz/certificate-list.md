@@ -1,5 +1,6 @@
 ---
 title: Lista de certificados
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-description: Para asignar un certificado, seleccione uno en el almacén de certificados local. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 268d2215aa0a56bc8c86243d99b345831b8d42d1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para asignar un certificado, seleccione uno en el almacén de certificados local. Haga clic en Siguiente para continuar.
+ms.openlocfilehash: 3b8f18c84bbd0b7efba201430255f057556268cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883738"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  

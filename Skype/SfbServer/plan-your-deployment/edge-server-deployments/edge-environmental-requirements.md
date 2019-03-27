@@ -1,5 +1,6 @@
 ---
 title: Borde de requisitos de entorno de servidor en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos del entorno de servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: c1a7c9ff9b55d2b5cdf978b87913f50b6521ea77
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878817"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Borde de requisitos de entorno de servidor en Skype para Business Server
  
@@ -79,9 +80,9 @@ Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen 
 |:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral consolidado simple con direcciones IP privadas y NAT  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |
 |Servidor perimetral consolidado simple con direcciones IP públicas  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |No  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí   <br/> |
    
 &sup1; Conmutación por error de usuarios remotos de mensajería unificada de Exchange (UM) con equilibrio de carga DNS requiere Exchange 2013 o más reciente.
   
@@ -283,7 +284,7 @@ Hablaremos de las necesidades de los certificados internos y externos por separa
   
 ### <a name="external-certificates"></a>Certificados externos
 
-Como mínimo, el certificado asignado a las interfaces de servidor perimetral externas deberá ser proporcionado por una entidad de certificación (CA) pública. No podemos recomendarle una CA determinada, pero tenemos una lista de CA, [Socios de certificados de comunicaciones unificados](https://support.microsoft.com/en-us/kb/929395), a la que puede echar un vistazo para ver si su CA preferida está en la lista.
+Como mínimo, el certificado asignado a las interfaces de servidor perimetral externas deberá ser proporcionado por una entidad de certificación (CA) pública. No podemos recomendamos una entidad de certificación específico para usted, pero hemos desarrollado una lista de entidades de certificación de [los socios de certificados de comunicaciones unificadas](https://support.microsoft.com/en-us/kb/929395) que puede Eche un vistazo a ver si la entidad de certificación preferido aparece.
   
 ¿Cuándo tendrá que enviar una solicitud a una entidad de certificación para este certificado público y cómo lo tiene que hacer? Hay un par de formas de llevar esto a cabo:
   
@@ -363,7 +364,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
 |Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
 |Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
 |Conferencia web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de conferencia Web <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de conferencia Web de servidor perimetral <br/> |Medios de conferencias Web.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50.000-59.999  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Skype para Business Server usada para determinar la versión del servidor perimetral se está comunicando con.  <br/> • Utilizado para el tráfico de medios entre los servidores perimetrales.  <br/> • Se necesita para federación con Lync Server 2010.  <br/> • Es necesario si se implementan varios grupos de servidores perimetrales dentro de la organización.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
@@ -399,7 +400,7 @@ La dirección IP de origen y la dirección IP de destino contendrán informació
 |Acceso/HTTP  <br/> |TCP  <br/> |80  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Revocación de certificados y comprobación y recuperación de CRL.  <br/> |
 |Acceso/DNS  <br/> |TCP  <br/> |53  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre TCP.  <br/> |
 |Acceso/DNS  <br/> |UDP  <br/> |53  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre UDP.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50.000-59.999  <br/> |Un servidor perimetral / dirección IP del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Un servidor perimetral / dirección IP del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
 |A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Skype para Business Server usada para determinar la versión del servidor perimetral se está comunicando con.  <br/> • Utilizado para el tráfico de medios entre los servidores perimetrales.  <br/> • Se necesita para federación.  <br/> • Es necesario si se implementan varios grupos de servidores perimetrales dentro de la organización.  <br/> |
 |A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |

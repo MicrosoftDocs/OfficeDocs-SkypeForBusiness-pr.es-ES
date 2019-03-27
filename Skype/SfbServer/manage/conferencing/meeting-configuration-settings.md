@@ -1,5 +1,6 @@
 ---
 title: Administrar opciones de configuración en Skype para Business Server de la reunión
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Resumen: Obtenga información sobre cómo administrar los valores de configuración de Skype para Business Server de la reunión.'
-ms.openlocfilehash: 28f0dc37579f762b8ae3b0ac8ac58440c6ce5e24
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 90d1004101f1dd3b4737c7bfa4414438a65c54a6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966069"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883224"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar opciones de configuración en Skype para Business Server de la reunión
  
@@ -56,8 +57,8 @@ Para administrar las reuniones mediante el uso de Skype para Shell de administra
 
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
-|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Devuelve información sobre las opciones de configuración de reunión en uso en la organización.  <br/> |
-|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Crea una colección de opciones de configuración de reunión en el ámbito de sitio o de servicio.  <br/> |
+|[Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps) <br/> |Devuelve información sobre las opciones de configuración de reuniones que se usan actualmente en la organización.  <br/> |
+|[New-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csmeetingconfiguration?view=skype-ps) <br/> |Crea una recopilación de opciones de configuración de reunión en el ámbito del sitio o del servicio.  <br/> |
 |[Remove-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csmeetingconfiguration?view=skype-ps) <br/> |Elimina una colección existente de opciones de configuración de reunión.  <br/> |
 |[Set-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csmeetingconfiguration?view=skype-ps) <br/> |Modifica las opciones de configuración de reuniones que se usan actualmente en la organización.  <br/> |
    

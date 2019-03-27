@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración de FQDN de servidor perimetral de Lync Server 2010
+title: Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir las propiedades en configuración externa, configure lo siguiente:'
-ms.openlocfilehash: d925da792e2c2c296707a99d6a4ae6b29c0545a9
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3ebd98c17f7b32af72809375bd17e55514684e6d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882351"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración de FQDN de servidor perimetral de Lync Server 2010
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
  
 Para definir las propiedades en **configuración externa**, configure lo siguiente:
   
@@ -38,9 +39,9 @@ Para los Servicios perimetrales habilitados, se escribe un **FQDN del grupo de s
     
 - Definir la **A / servicio perimetral A/v** FQDN del grupo de servidores (si habilitar separar el FQDN y la dirección IP para la conferencia web y / V no está seleccionada) y un puerto que identifica el servicio.
     
-  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
-  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
   
   **Ayuda** Abre esta pantalla de ayuda.
   

@@ -1,5 +1,6 @@
 ---
 title: Una revisión o actualización de un servidor Back-End o servidor Standard Edition en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Resumen: Obtenga información sobre cómo instalar una actualización o revisión en un servidor Back-End en Skype para Business Server.'
-ms.openlocfilehash: 7815c42443afae6fef7aaec71399120fb61ece82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7919d437e5111d32f3f51fa19a1880714800666b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969134"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884156"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Una revisión o actualización de un servidor Back-End o servidor Standard Edition en Skype para Business Server
  

@@ -1,5 +1,6 @@
 ---
-title: Recuperación ante desastres (herramienta de planeación)
+title: Disaster Recovery (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype para Business Server 2015 incluye desastre medidas de recuperación al permitir par de agrupaciones de Front-End se encuentran en dos centros de datos.
-ms.openlocfilehash: 584a5c82619bc99bb4804bbb36140148fce8b6fe
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Skype para Business Server 2015 incluye ante desastres medidas de recuperación, ya que permite a los grupos de servidores Front-End del par que se encuentran en dos centros de datos.
+ms.openlocfilehash: a56e9334ad71dee56eaa919200589fc0ae4df6fe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881454"
 ---
-# <a name="disaster-recovery-planning-tool"></a>Recuperación ante desastres (herramienta de planeación)
+# <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  
-Skype para Business Server 2015 incluye desastre medidas de recuperación al permitir par de agrupaciones de Front-End se encuentran en dos centros de datos.
+Skype para Business Server 2015 incluye ante desastres medidas de recuperación, ya que permite a los grupos de servidores Front-End del par que se encuentran en dos centros de datos.
   
-Para obtener más información acerca de cómo preparar el entorno de recuperación ante desastres, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Para obtener información detallada acerca de cómo preparar el entorno de recuperación ante desastres, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 

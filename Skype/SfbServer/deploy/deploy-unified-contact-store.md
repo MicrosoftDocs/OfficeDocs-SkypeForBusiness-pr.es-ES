@@ -1,5 +1,6 @@
 ---
 title: 'Implementar el almacén de contactos unificados en Skype para Business Server '
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumen: Habilitar el almacén de contactos unificados en Skype para Business Server.'
-ms.openlocfilehash: 36515e9542a18d422254292b0cf2a2b4ef937178
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e7fb34d03459be5066d154e89fa8e27dc060757
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978224"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882569"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificados en Skype para Business Server
  
@@ -33,7 +34,7 @@ Después de que los contactos del usuario se han migrado, lo que sucede automát
   
 ## <a name="enable-users-for-unified-contact-store"></a>Habilitar usuarios para el almacenamiento de contactos unificado
 
-Al implementar Skype para Business Server y publicar la topología, almacén de contactos unificados está habilitado para todos los usuarios de forma predeterminada. No es necesario realizar ninguna acción adicional para habilitar el almacén de contactos unificados después de implementar Skype para Business Server. Sin embargo, puede usar el cmdlet **Set-CsUserServicesPolicy** para personalizar qué usuarios han unificada almacén de contactos disponibles. Puede habilitar esta característica globalmente, por sitio, por inquilino, por individuo o por grupos de individuos.
+Al implementar Skype para Business Server y publicar la topología, almacén de contactos unificados está habilitado para todos los usuarios de forma predeterminada. No es necesario realizar ninguna acción adicional para habilitar el almacén de contactos unificados después de implementar Skype para Business Server. Pero, puede usar el cmdlet **Set-CsUserServicesPolicy** para personalizar qué usuarios tienen disponible el almacén de contactos unificado. Puede habilitar esta característica globalmente, por sitio, por inquilino, por individuo o por grupos de individuos.
   
 ### <a name="to-enable-users-for-unified-contact-store"></a>Para habilitar usuarios para el almacén de contactos unificado
 
@@ -107,21 +108,21 @@ Puede determinar si se han migrado los contactos de un usuario usando uno de los
   
 - Compruebe la siguiente clave del registro en el equipo cliente:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\< dirección URL de SIP\>\UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\dirección URL de <SIP\>\UCS
     
     Si los contactos del usuario se almacenan en Exchange 2013, esta clave contiene un valor de InUCSMode con un valor 2165.
     
-- Ejecute el cmdlet **Test-CsUnifiedContactStore** . En Skype para la línea de comandos de Shell de administración de servidor empresarial, escriba:
+- Ejecute el cmdlet **Test-CsUnifiedContactStore**. En Skype para la línea de comandos de Shell de administración de servidor empresarial, escriba:
     
   ```
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
   ```
 
-    Si **Test-CsUnifiedContactStore** se realiza correctamente, se han migrado los contactos del usuario al almacén de contactos unificado.
+    Si el cmdlet **Test-CsUnifiedContactStore** se lleva a cabo con éxito, quiere decir que los contactos del usuario se han migrado al almacén de contactos unificado.
     
 ## <a name="roll-back-migrated-users"></a>Revertir usuarios migrados
 
-Si es necesario revertir el contacto unificado almacenar característica, revertir los contactos sólo si el usuario se mueve de nuevo a Exchange 2010 o Lync Server 2010. Para revertir, deshabilitar la directiva para el usuario y, a continuación, ejecute el cmdlet **Invoke-CsUcsRollback** . Sólo ejecutar **Invoke-CsUcsRollback** por sí solo no es suficiente para garantizar la reversión permanente, debido a que el almacén de contactos unificados migración se iniciará nuevamente si la directiva no está deshabilitada. Por ejemplo, si un usuario es deshacer porque se deshace 2013 de Exchange a Exchange 2010 y, a continuación, se mueve el buzón del usuario a Exchange 2013, la migración de almacén de contactos unificados se iniciará nuevamente siete días después de la operación de deshacer, siempre y cuando el almacén de contactos unificado aún se está habilitada para el usuario en la directiva de servicios de usuario.
+Si es necesario revertir el contacto unificado almacenar característica, revertir los contactos sólo si el usuario se mueve de nuevo a Exchange 2010 o Lync Server 2010. Para hacer la reversión, deshabilite la directiva del usuario y ejecute el cmdlet **Invoke-CsUcsRollback**. Ejecutar solo **Invoke-CsUcsRollback** no es suficiente para que la reversión sea permanente, porque la migración del almacén de contactos unificado se iniciará de nuevo si la directiva no se deshabilita. Por ejemplo, si un usuario es deshacer porque se deshace 2013 de Exchange a Exchange 2010 y, a continuación, se mueve el buzón del usuario a Exchange 2013, la migración de almacén de contactos unificados se iniciará nuevamente siete días después de la operación de deshacer, siempre y cuando el almacén de contactos unificado aún se está habilitada para el usuario en la directiva de servicios de usuario.
   
 El cmdlet **Move-CsUser** revierte automáticamente almacén de contactos del usuario de Exchange 2013 a Skype para Business Server en las situaciones siguientes:
   

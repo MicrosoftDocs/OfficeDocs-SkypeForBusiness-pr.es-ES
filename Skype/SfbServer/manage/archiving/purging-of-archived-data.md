@@ -1,5 +1,6 @@
 ---
 title: Administrar la purga de datos archivados de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Resumen: Obtenga información sobre cómo administrar el proceso de purga de los datos archivados de Skype para Business Server.'
-ms.openlocfilehash: fce7c8214eddd55736a54b960d57053a88cdc859
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5483871d69932239f5d6e654c95edf1feac7b9d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997947"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884128"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la purga de datos archivados de Skype para Business Server
 

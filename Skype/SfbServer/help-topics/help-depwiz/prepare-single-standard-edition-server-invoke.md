@@ -1,5 +1,6 @@
 ---
-title: Preparar el servidor Standard Edition (invocar)
+title: Preparar un servidor único de Standard Edition (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 description: En la página de comandos de ejecución, se pueden ver las tareas de instalación de SQL Server Express y configuración para actuar como el almacén de Administración Central en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server denominada RTC. También se crean las reglas de Firewall para permitir el acceso de entrada y salido para servidores y clientes para comunicarse con la base de datos y la instancia. Una vez finalizada la tarea, puede seleccionar el archivo de registro de la lista desplegable. El archivo de registro se denomina secuencia de inicio del equipo local. Después de seleccionar el archivo de registro, haga clic en Ver registro. Revise el archivo de registro para los errores y advertencias. Cuando esté listo para continuar, haga clic en Finalizar. Ahora debe definir la topología con Topology Builder si aún no lo ha hecho.
-ms.openlocfilehash: 74f66552a208169abb433e7d68a1d6f7f4736ee5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 665075799794d94328e0a5a3d9e1f9c603813ed7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972698"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880066"
 ---
-# <a name="prepare-single-standard-edition-server-invoke"></a>Preparar el servidor Standard Edition (invocar)
+# <a name="prepare-single-standard-edition-server-invoke"></a>Preparar un servidor único de Standard Edition (invocar)
  
 En la página **ejecutar comandos** , se pueden ver las tareas de instalación de SQL Server Express y configuración para actuar como el almacén de Administración Central en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server denominada RTC. También se crean las reglas de Firewall para permitir el acceso de entrada y salido para servidores y clientes para comunicarse con la base de datos y la instancia. Una vez finalizada la tarea, puede seleccionar el archivo de registro de la lista desplegable. El archivo de registro se denomina **secuencia de inicio del equipo local**. Después de seleccionar el archivo de registro, haga clic en **Ver registro**. Revise el archivo de registro para los errores y advertencias. Cuando esté listo para continuar, haga clic en **Finalizar.** Ahora debe definir la topología con Topology Builder si aún no lo ha hecho.
   

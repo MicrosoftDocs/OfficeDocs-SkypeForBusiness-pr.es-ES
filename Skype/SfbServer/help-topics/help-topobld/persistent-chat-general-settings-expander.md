@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración general del chat persistente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Para modificar la configuración General para el servidor de Chat persistente o grupo de servidores de Chat persistente, configure o defina estas propiedades:'
-ms.openlocfilehash: 912cacaa050962b85d8e3f70bec78f01306909d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5300a6353bb683bfe2a010cda00c43e0faa839b8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374962"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884381"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de configuración general del chat persistente
  
@@ -105,13 +106,13 @@ Modificar la configuración de **asociaciones** para el servidor de Chat persist
     
 - **Almacén de archivo** Seleccione una ubicación de almacén de archivos de la lista, o haga clic en **nuevo** para crear un nuevo almacén de archivos.
     
-  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
-  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
   
-  **Ayuda** Abre esta pantalla de ayuda.
+  **Ayuda.** Abre esta pantalla de ayuda.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

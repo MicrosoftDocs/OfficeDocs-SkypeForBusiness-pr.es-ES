@@ -1,5 +1,6 @@
 ---
 title: Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Resumen: Obtenga información sobre cómo purgar manualmente los registros de CDR y las bases de datos de QoE usados por Skype para Business Server.'
-ms.openlocfilehash: 14218bbc6af3d05cba3c9886da70ab7155d05159
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006085"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879836"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server
  
@@ -26,7 +27,7 @@ Las bases de datos de CDR y QoE pueden purgar los registros de forma manual o au
 
 Los administradores pueden configurar las bases de datos de Registro detallado de llamadas (CDR) o de Calidad de experiencia (QoE) para depurar automáticamente registros antiguos de la base de datos; esto sucede si se ha habilitado la depuración para la base de datos especificada (CDR o QoE) y si existe algún registro que haya estado en la base de datos durante más tiempo del especificado. Por ejemplo, cada día a la 01:00 los administradores podrían configurar el sistema de modo tal que los registros de QoE que tengan más de 60 días de antigüedad se eliminen de la base de datos de QoE.
   
-Además de ese automático depuración, dos nuevos cmdlets & #x 2014; Invoke-CsCdrDatabasePurge y CsQoEDatbasePurge invocar & #x 2014; se han agregado a Skype para Business Server; estos cmdlets permiten a los administradores Purgar manualmente los registros de CDR y las bases de datos de QoE en cualquier momento. Por ejemplo, para depurar manualmente todos los registros que tengan más de 10 días de antigüedad de la base de datos de CDR puede utilizar un comando similar al siguiente:
+A la que la eliminación automática, dos nuevos cmdlets & #x 2014; Invoke-CsCdrDatabasePurge y & CsQoEDatbasePurge invocar #x 2014; se han agregado a Skype para Business Server; estos cmdlets permiten a los administradores Purgar manualmente los registros de CDR y las bases de datos de QoE en cualquier momento. Por ejemplo, para depurar manualmente todos los registros que tengan más de 10 días de antigüedad de la base de datos de CDR puede utilizar un comando similar al siguiente:
   
 ```
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

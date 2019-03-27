@@ -1,5 +1,6 @@
 ---
-title: Instalar o quitar Skype para los componentes de servidor empresariales (invocar)
+title: Instalar o quitar componentes de Skype Empresarial Server (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Los comandos ejecutar muestra un resumen de las tareas que se ejecutan para implementar la función de servidor que se está ejecutando. Una vez completadas las tareas: implementar y activar o desactivar y desinstalar un resumen se muestra. Además, en la lista desplegable, puede seleccionar cualquiera de los archivos de registro que se crean cuando se ejecutan los comandos. Use la lista desplegable para seleccionar el archivo de registro que desea ver y haga clic en Ver registro.'
-ms.openlocfilehash: a63f6bada6b477558208b644373dca6993e8238e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7cf9ba48be5cfe311dfd3c38046d8730942064a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018911"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883903"
 ---
-# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Instalar o quitar Skype para los componentes de servidor empresariales (invocar)
+# <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Instalar o quitar componentes de Skype Empresarial Server (invocar)
  
 Los **Comandos ejecutar** muestra un resumen de las tareas que se ejecutan para implementar la función de servidor que se está ejecutando. Una vez completadas las tareas: implementar y activar o desactivar y desinstalar un resumen se muestra. Además, en la lista desplegable, puede seleccionar cualquiera de los archivos de registro que se crean cuando se ejecutan los comandos. Use la lista desplegable para seleccionar el archivo de registro que desea ver y haga clic en **Ver registro**.
   

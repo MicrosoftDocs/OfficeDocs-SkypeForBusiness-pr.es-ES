@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 3188748c1222a87d0861693c5b0c85ede3cba5a9
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340480"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880780"
 ---
 # <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
 
@@ -141,7 +141,7 @@ Necesario crear y configurar los siguientes paquetes y, a continuación, distrib
 | SRS v2 - configurar la instalación SRS         | Paquete de software       | Paquete para configurar la implementación de la aplicación de v2 de sistemas de salón de Skype                          |
 | Las actualizaciones de SO SRS v2 - paquete          | Paquete de software       | Paquete de implementación de actualizaciones de sistema operativo obligatorio                                      |
 | SRS v2 - paquete de certificado raíz    | Paquete de software       | Opcional: paquete para implementar el certificado raíz (no es necesario para las unidades unido a un dominio)  |
-| SRS v2 - paquete de agente de OMS de Microsoft | Paquete de software       | Opcional: paquete para implementar y configurar al agente de conjunto de aplicaciones de administración de operaciones de Microsoft|
+| SRS v2 - paquete del agente de supervisión de Microsoft | Paquete de software       | Opcional: paquete para implementar y configurar al agente de conjunto de aplicaciones de administración de operaciones de Microsoft|
 | SRS v2 - WinPE fondo paquete    | Paquete de software       | Paquete de la imagen de fondo personalizado usar con imágenes de arranque                           |
 | Windows 10 Enterprise                | Imagen de sistema operativo | Paquete para el archivo de instalación del sistema operativo (install.wim)                          |
 | Surface Pro                          | Paquete de controladores         | Paquete para los controladores de dispositivos y el firmware para Microsoft Surface Pro                     |
@@ -155,7 +155,7 @@ Administrador de configuración requiere que los archivos de origen del paquete 
 
 Cree la siguiente estructura de carpetas en el sitio de administración central de System Center Configuration Manager o el sitio primario, o en un recurso compartido del servidor que está utilizando para los archivos de origen del paquete de host:
 
--   SRS v2 - paquete de agente de OMS de Microsoft
+-   SRS v2 - paquete del agente de supervisión de Microsoft
 -   Las actualizaciones de SO SRS v2 - paquete
 -   SRS v2 - paquete de certificado raíz
 -   SRS v2 - Set-SRSComputerName paquete
@@ -171,23 +171,23 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
 > [!TIP]
 > También puede [Descargar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) y usar el archivo zip que incluye la estructura de carpetas para los paquetes, las secuencias de comandos que se debe usar y la plantilla de secuencia de tareas, que necesita para importar.
 
-### <a name="create-the-microsoft-operations-management-suite-agent-package"></a>Crear el paquete de agente de conjunto de aplicaciones de administración de operaciones de Microsoft
+### <a name="create-the-monitoring-agent-package"></a>Crear el paquete de agente de supervisión
 
-1. Descargue el agente de X-64 del conjunto de aplicaciones de administración de operaciones de <https://go.microsoft.com/fwlink/?LinkId=828603>.
+1. Descargue el agente de supervisión de <https://go.microsoft.com/fwlink/?LinkId=828603>.
 
-2. Extraer el paquete en la carpeta **SRS v2 - paquete del agente Microsoft OMS** abrir una ventana del símbolo del sistema y **escribir/C: MMASetup-AMD64.exe** en el símbolo del sistema.
+2. Extraer el paquete en la carpeta **SRS v2 - paquete del agente de supervisión de Microsoft** abrir una ventana del símbolo del sistema y **escribir/C: MMASetup-AMD64.exe** en el símbolo del sistema.
 
 3. En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
 
 4. Escriba la información siguiente para crear el paquete:
 
-   - Nombre de<strong>: SRS v2 - paquete del agente de Microsoft OMS</strong>
+   - Nombre de<strong>: SRS v2 - paquete del agente de supervisión de Microsoft</strong>
 
    - Fabricante<strong>: Microsoft Corporation</strong>
 
    - Versión<strong>: 8.1.11081.0</strong> (especifique la versión del archivo de instalación descargado)
 
-   - Active la casilla de verificación **este paquete contiene archivos de origen** , escriba la ruta de acceso a la carpeta **SRS v2 - paquete de agente de OMS de Microsoft** y, a continuación, seleccione **siguiente**.
+   - Active la casilla de verificación **este paquete contiene archivos de origen** , escriba la ruta de acceso a la carpeta **SRS v2 - paquete del agente de supervisión de Microsoft** y, a continuación, seleccione **siguiente**.
 
 5. Seleccione **no crear un programa**y, a continuación, seleccione **siguiente**.
 
@@ -623,12 +623,12 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
       -   Habilitar este paso si es necesario implementar un certificado raíz para las unidades de v2 de sistemas de salón de Skype.
       -   Si es necesario realizar este paso, compruebe están seleccionados el **SRS v2: paquete de certificado raíz** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
-   10. **Instalar y configurar el agente de OMS**: este paso instala la versión de 64 bits del agente de conjunto de aplicaciones de administración de operaciones de Microsoft y configura el agente para conectarse a su área de trabajo de análisis de registro.
-       -   Este paso está deshabilitado de forma predeterminada. Habilitar este paso únicamente si va a usar OMS para supervisar el estado de las unidades de sistemas de salón de Skype v2.
+   10. **Instalar y configurar el agente de supervisión**: este paso instala la versión de 64 bits del agente de supervisión de Microsoft Azure y configura el agente para conectarse a su área de trabajo de análisis de registro.
+       -   Este paso está deshabilitado de forma predeterminada. Habilitar este paso únicamente si va a utilizar al agente de supervisión para supervisar el estado de las unidades de sistemas de salón de Skype v2.
        -   Editar este paso y actualizar los parámetros de línea de comandos para especificar el **Identificador del área de trabajo** y la **Clave de área de trabajo**.
-       -   Para obtener más información acerca de cómo obtener el identificador de las operaciones de administración de conjunto de aplicaciones de área de trabajo y la clave principal, vea [equipos Windows conectarse al servicio de registro de análisis de Azure](with-oms.md#configure-test-devices-for-operations-management-suite-setup) .
-       -   Compruebe que están seleccionadas las **SRS v2 – paquete de agente de OMS de Microsoft** y **Deshabilitar 64-bit redirección del sistema de archivos** .
-       -   Para obtener más información acerca de cómo supervisar el estado de la implementación de sistemas de salón de Skype v2, vea [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md) y [administración de v2 de implementar sistemas de salón de Skype con OMS](with-oms.md#configure-test-devices-for-operations-management-suite-setup).
+       -   Para obtener más información acerca de cómo obtener el identificador de las operaciones de administración de conjunto de aplicaciones de área de trabajo y la clave principal, vea [Configure probar dispositivos para la supervisión de Azure](azure-monitor.md#configure-test-devices-for-azure-monitoring) .
+       -   Compruebe que están seleccionadas las **SRS v2 – paquete del agente de supervisión de Microsoft** y **Deshabilitar 64-bit redirección del sistema de archivos** .
+       -   Para obtener más información acerca de cómo supervisar el estado de la implementación de sistemas de salón de Skype v2, vea [administración de sistemas de planeación de las salas Skype v2 con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [administración de v2 de implementar sistemas de salón de Skype con el Monitor de Azure](azure-monitor.md) y [Administrar Skype salón Dispositivos de v2 de sistemas con Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
    11. **Los archivos de configuración de copia SRS v2**: este paso copia los archivos del programa de instalación y configuración necesarios desde el kit de implementación de sistemas de salón de Skype v2 a la unidad de disco duro local. Personalización no es necesaria para este paso.
        -   Compruebe que están seleccionadas las **SRS v2 – paquete de aplicación SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .

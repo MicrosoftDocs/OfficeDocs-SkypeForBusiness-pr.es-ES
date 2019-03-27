@@ -1,5 +1,6 @@
 ---
 title: Plan para el almacén de contactos unificados en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013.'
-ms.openlocfilehash: b66282f43e6203d1477c9076de45bba3e9c344ff
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011487"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882659"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planear el almacenamiento de contactos unificado en Skype Empresarial Server 2015
  
@@ -24,7 +25,7 @@ ms.locfileid: "21011487"
   
 Almacén de contactos unificados proporciona una experiencia coherente de contacto entre los productos de Microsoft Office y permite a los usuarios almacenar toda la información de contacto en Exchange 2013, pero permite que la información esté disponible globalmente a través de Skype para profesionales, Exchange, Outlook y Outlook Web Access.
   
-## <a name="requirements-for-unified-contact-store"></a>Requisitos del almacenamiento de contactos unificado
+## <a name="requirements-for-unified-contact-store"></a>Requisitos para el almacenamiento de contactos unificado
 
 Para implementar el almacén de contactos unificados de Skype para Business Server:
   
@@ -39,6 +40,6 @@ Para implementar el almacén de contactos unificados de Skype para Business Serv
     > [!NOTE]
     > Para requisitos detallados sobre cómo configurar la autenticación entre Skype para Business Server y Exchange 2013 o 2016, vea [Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server](../../manage/authentication/server-to-server-and-partner-applications.md) en las operaciones documentación.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementar el almacén de contactos unificados en Skype para Business Server](../../deploy/deploy-unified-contact-store.md)

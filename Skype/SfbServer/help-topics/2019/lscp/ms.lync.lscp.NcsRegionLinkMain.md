@@ -1,5 +1,6 @@
 ---
 title: Configurar un vínculo de región de red
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: d44d0158532b64ef2caf363901db774bd9b41109
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 53791fa0e6c4a5ac29fdc124e9ef05e1e152897c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254472"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880878"
 ---
 # <a name="configure-a-network-region-link"></a>Configurar un vínculo de región de red
 

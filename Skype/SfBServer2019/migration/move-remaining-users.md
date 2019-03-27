@@ -1,5 +1,6 @@
 ---
-title: Mover el resto de usuarios
+title: Mover al resto de los usuarios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Puede mover usuarios a la nueva Skype para la implementación empresarial Server 2019 mediante cualquiera Skype para Panel de Control de servidor empresarial o Skype para Shell de administración de servidor empresarial. Deben cumplir algunos requisitos para garantizar una transición sin problemas a Skype para Business Server 2019. Para obtener información detallada sobre los requisitos previos para completar los procedimientos descritos en este tema, vea a configurar clientes para la migración. Para los pasos detallados sobre cómo mover usuarios, vea fase 4: mover usuarios de prueba al grupo piloto.'
-ms.openlocfilehash: 7bc5d942ddcf30cad84ceb5badf8817de2b254a0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9f984b7fac919decce521c6dafc587a4ac86de50
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030500"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878328"
 ---
 # <a name="move-remaining-users-to-skype-for-business-server-2019"></a>Mover el resto de usuarios a Skype para Business Server 2019
 

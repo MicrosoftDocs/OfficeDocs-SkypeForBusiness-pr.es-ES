@@ -1,18 +1,15 @@
----
+--- 
 layout: HubPage
 hide_bc: true
-title: Skype for Business
-description: Skype Empresarial
-ms.openlocfilehash: 47a7383bb6383c1dad338dc022c9f4e471210a86
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069464"
+title: Skype Empresarial
+ms.reviewer: null
+ms.author: kenwith
+author: kenwith
+description: Skype for Business
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Skype for Business</h1>
+        <h1>Skype Empresarial</h1>
         <ul class="pivots">
             <li>
                 <a href="#home"></a>
@@ -125,7 +122,7 @@ ms.locfileid: "30069464"
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
-                                                    <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                                                    <h3>Viaje de Skype para la empresa a los equipos de Microsoft</h3>
                                                     <p>Busque las instrucciones y herramientas para explorar la ruta de acceso sea óptima para los equipos.</p>
                                                 </div>
                                             </div>

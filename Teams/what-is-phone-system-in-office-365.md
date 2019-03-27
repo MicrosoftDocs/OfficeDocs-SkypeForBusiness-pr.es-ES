@@ -1,5 +1,6 @@
 ---
 title: ¿Qué es el Sistema telefónico en Office 365?
+ms.reviewer: ''
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: a11f527e80ec38d86c2adb97a9d861e7c11b6b8c
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 511f5892bad23901e30e1e3e1c5feacf43fa97f0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649255"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884248"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
@@ -38,7 +39,7 @@ Con los sistemas PBX tradicionales, las llamadas entre los usuarios de su organi
   
 Para habilitar las llamadas a landlines y teléfonos móviles, el sistema telefónico se pueden conectar a la RTC en una de estas dos formas:
   
-- Mediante la compra de la a llamar a Plan (nacionales o nacional e internacional) a Office 365. Vea [¿Cuáles son los planes de llamada?](what-are-calling-plans-in-office-365.md)
+- Mediante la compra de la a llamar a Plan (nacionales o nacional e internacional) para Office 365. Vea [sistema telefónico y planes de llamada](calling-plan-landing-page.md)
     
 - Mediante el uso de la conectividad de RTC local, donde software local se conecta con la infraestructura de telefonía existente. Vea [Planning el sistema telefónico](/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution).
 
@@ -50,7 +51,7 @@ Con un complemento de planeación de la llamada al sistema de teléfono en Offic
 
 ![Diagrama de topología que muestra Cloud PBX con Llamadas RTC, la solución de telefonía IP ubicada completamente en la nube.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
-Dado que los planes de llamada funcionan dentro de Office 365, esto es una oferta de completamente-in-the-cloud que no requiere una implementación de servidor local. Tiene la opción de usar un nacional o nacionales y llamar a planear internacional, que se asigna a cada usuario que se desea realizar llamadas. [¿Desea obtener más información?](what-are-calling-plans-in-office-365.md)
+Dado que los planes de llamada funcionan dentro de Office 365, esto es una oferta de completamente-in-the-cloud que no requiere una implementación de servidor local. Tiene la opción de usar un nacional o nacionales y llamar a planear internacional, que se asigna a cada usuario que se desea realizar llamadas. [Desea saber más?](calling-plan-landing-page.md).
   
 Los usuarios que están hospedados en Skype para profesionales en línea o Teams de Microsoft en Office 365 tendrán acceso a los servicios de voz de Office 365. Microsoft es el proveedor de los servicios principales de llamadas y RTC, e incluso puede proporcionar o transferir los números de teléfono de sus usuarios. 
   
