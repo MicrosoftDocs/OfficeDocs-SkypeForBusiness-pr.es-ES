@@ -1,5 +1,6 @@
 ---
 title: Establecer PIN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,21 +13,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Para generar el PIN del usuario, seleccione Generar automáticamente un PIN válido.
-ms.openlocfilehash: 7f1a78a1de16ab5689c63bb60afeb7c88479cc0c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 18899e9a8fd5ec7b739f07cad2667460a51582ee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255834"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889122"
 ---
-# <a name="set-pin"></a><span data-ttu-id="e6688-103">Establecer PIN</span><span class="sxs-lookup"><span data-stu-id="e6688-103">Set PIN</span></span>
+# <a name="set-pin"></a><span data-ttu-id="39ecc-103">Establecer PIN</span><span class="sxs-lookup"><span data-stu-id="39ecc-103">Set PIN</span></span>
 
-<span data-ttu-id="e6688-104">Para generar el PIN del usuario, seleccione **generar automáticamente un PIN válido**.</span><span class="sxs-lookup"><span data-stu-id="e6688-104">To generate the user's PIN, select **Automatically generate a valid PIN**.</span></span>
+<span data-ttu-id="39ecc-104">Para generar el PIN del usuario, seleccione **generar automáticamente un PIN válido**.</span><span class="sxs-lookup"><span data-stu-id="39ecc-104">To generate the user's PIN, select **Automatically generate a valid PIN**.</span></span>
 
-<span data-ttu-id="e6688-105">Para crear su propio PIN, seleccione **Escribir manualmente un PIN específico** y, a continuación, escriba un PIN en el cuadro de texto que cumpla con los requisitos de PIN especificados en su configuración de directiva de PIN.</span><span class="sxs-lookup"><span data-stu-id="e6688-105">To create your own PIN, select **Manually enter a specific PIN**, and then type a PIN in the text box that meets the PIN requirements specified in your PIN policy settings.</span></span>
+<span data-ttu-id="39ecc-105">Para crear su propio PIN, seleccione **Escribir manualmente un PIN específico** y, a continuación, escriba un PIN en el cuadro de texto que cumpla con los requisitos de PIN especificados en su configuración de directiva de PIN.</span><span class="sxs-lookup"><span data-stu-id="39ecc-105">To create your own PIN, select **Manually enter a specific PIN**, and then type a PIN in the text box that meets the PIN requirements specified in your PIN policy settings.</span></span>
 
-<span data-ttu-id="e6688-106">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="e6688-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="39ecc-106">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="39ecc-106">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e6688-107">Vea también</span><span class="sxs-lookup"><span data-stu-id="e6688-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="39ecc-107">Consulte también</span><span class="sxs-lookup"><span data-stu-id="39ecc-107">See also</span></span>
 
-[<span data-ttu-id="e6688-108">PIN de usuario</span><span class="sxs-lookup"><span data-stu-id="e6688-108">User PINs</span></span>](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)
+[<span data-ttu-id="39ecc-108">User PINs</span><span class="sxs-lookup"><span data-stu-id="39ecc-108">User PINs</span></span>](https://technet.microsoft.com/library/806a813c-bdd4-49eb-9923-0dbb03968d8a.aspx)

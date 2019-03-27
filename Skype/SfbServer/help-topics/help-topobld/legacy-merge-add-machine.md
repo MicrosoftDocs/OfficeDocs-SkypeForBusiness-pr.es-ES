@@ -1,5 +1,6 @@
 ---
 title: Combinación de implementación heredada - Agregar equipo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 description: Para definir los equipos que componen el grupo de servidores perimetrales, especifique al menos el nombre de dominio completo de un equipo perteneciente al grupo de servidores perimetrales consolidados y con equilibrio de carga heredados.
-ms.openlocfilehash: 30969003f6c6231706a1b3feb8d7a87f835c949e
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f5e4eaf0fed8f7f8e41c60abac35685e3e2a9d6c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897291"
 ---
-# <a name="legacy-merge-add-machine"></a><span data-ttu-id="66c84-103">Combinación de implementación heredada - Agregar equipo</span><span class="sxs-lookup"><span data-stu-id="66c84-103">Legacy Merge Add Machine</span></span>
+# <a name="legacy-merge-add-machine"></a><span data-ttu-id="d90a1-103">Combinación de implementación heredada - Agregar equipo</span><span class="sxs-lookup"><span data-stu-id="d90a1-103">Legacy Merge Add Machine</span></span>
  
-<span data-ttu-id="66c84-104">Para definir los equipos que componen el grupo de servidores perimetrales, especifique al menos el nombre de dominio completo de un equipo perteneciente al grupo de servidores perimetrales consolidados y con equilibrio de carga heredados.</span><span class="sxs-lookup"><span data-stu-id="66c84-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
+<span data-ttu-id="d90a1-104">Para definir los equipos que componen el grupo de servidores perimetrales, especifique al menos el nombre de dominio completo de un equipo perteneciente al grupo de servidores perimetrales consolidados y con equilibrio de carga heredados.</span><span class="sxs-lookup"><span data-stu-id="d90a1-104">To define the computers that make up the Edge Server pool, enter the fully qualified domain name (FQDN) of at least one computer that is part of the legacy load-balanced, consolidated Edge pool.</span></span> 
   
 
