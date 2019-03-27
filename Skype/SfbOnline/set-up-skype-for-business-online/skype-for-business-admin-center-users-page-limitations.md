@@ -1,5 +1,6 @@
 ---
 title: Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,32 +20,32 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo funcionan dentro de las limitaciones de Skype para la presentación de negocio en línea del Administrador de usuarios. '
-ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862999"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896912"
 ---
-# <a name="skype-for-business-online-admin-center-users-page-limitations"></a><span data-ttu-id="ffefa-103">Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio</span><span class="sxs-lookup"><span data-stu-id="ffefa-103">Skype for Business Online admin center users page limitations</span></span>
+# <a name="skype-for-business-online-admin-center-users-page-limitations"></a><span data-ttu-id="5ee8c-103">Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio</span><span class="sxs-lookup"><span data-stu-id="5ee8c-103">Skype for Business Online admin center users page limitations</span></span>
 
-<span data-ttu-id="ffefa-104">Por motivos de rendimiento el **Skype para el centro de administración de negocio**muestra los primeros 1.000 usuarios en la lista de usuario.</span><span class="sxs-lookup"><span data-stu-id="ffefa-104">For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list.</span></span> <span data-ttu-id="ffefa-105">Si tiene más de 1.000 usuarios, use el **filtro**![filtro](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) y **búsqueda**![búsqueda](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) para buscar a las personas específicas que está buscando.</span><span class="sxs-lookup"><span data-stu-id="ffefa-105">If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.</span></span>
+<span data-ttu-id="5ee8c-104">Por motivos de rendimiento el **Skype para el centro de administración de negocio**muestra los primeros 1.000 usuarios en la lista de usuario.</span><span class="sxs-lookup"><span data-stu-id="5ee8c-104">For performance reasons the **Skype for Business admin center**displays the first 1,000 users in your user list.</span></span> <span data-ttu-id="5ee8c-105">Si tiene más de 1.000 usuarios, use el **filtro**![filtro](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) y **búsqueda**![búsqueda](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) para buscar a las personas específicas que está buscando.</span><span class="sxs-lookup"><span data-stu-id="5ee8c-105">If you have more than 1,000 users, use **Filter**![Filter](../images/d360528a-a05a-4f0d-a7fd-25a6c696206a.png) and **Search**![Search](../images/5cc29d50-4eec-48a4-bdad-bbeae230f9ae.png) to find the specific people you're looking for.</span></span>
   
-## <a name="bulk-editing"></a><span data-ttu-id="ffefa-106">Edición en masa</span><span class="sxs-lookup"><span data-stu-id="ffefa-106">Bulk editing</span></span>
-<span data-ttu-id="ffefa-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="ffefa-107"></span></span>
+## <a name="bulk-editing"></a><span data-ttu-id="5ee8c-106">Edición en masa</span><span class="sxs-lookup"><span data-stu-id="5ee8c-106">Bulk editing</span></span>
+<span data-ttu-id="5ee8c-107"><a name="__top"> </a></span><span class="sxs-lookup"><span data-stu-id="5ee8c-107"></span></span>
 
-1. <span data-ttu-id="ffefa-108">Seleccione los primeros 1.000 usuarios, o todos los usuarios devueltos por el filtro o la búsqueda: activando la casilla situada junto al **nombre para mostrar** en la parte superior de la lista.</span><span class="sxs-lookup"><span data-stu-id="ffefa-108">Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.</span></span>
+1. <span data-ttu-id="5ee8c-108">Seleccione los primeros 1.000 usuarios, o todos los usuarios devueltos por el filtro o la búsqueda: activando la casilla situada junto al **nombre para mostrar** en la parte superior de la lista.</span><span class="sxs-lookup"><span data-stu-id="5ee8c-108">Select the first 1,000 users—or everyone returned by your filter or search—by checking the box next to **Display name** at the top of the list.</span></span>
     
-2. <span data-ttu-id="ffefa-109">Haga clic en **Editar**![editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span><span class="sxs-lookup"><span data-stu-id="ffefa-109">Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span></span>
+2. <span data-ttu-id="5ee8c-109">Haga clic en **Editar**![editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span><span class="sxs-lookup"><span data-stu-id="5ee8c-109">Click **Edit**![Edit](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).</span></span>
     
-<span data-ttu-id="ffefa-110">Puede cambiar el número de usuarios que se muestran en cada página con el control en la parte inferior de la lista:</span><span class="sxs-lookup"><span data-stu-id="ffefa-110">You can change the number of users shown on each page with the control at the bottom of the list:</span></span>
+<span data-ttu-id="5ee8c-110">Puede cambiar el número de usuarios que se muestran en cada página con el control en la parte inferior de la lista:</span><span class="sxs-lookup"><span data-stu-id="5ee8c-110">You can change the number of users shown on each page with the control at the bottom of the list:</span></span>
   
 ![Los usuarios de página navegación para cambiar la cantidad de usuarios en la página](../images/7d8ba24e-e3e8-4ff8-92f7-98ac143aab6d.png)
   
-## <a name="related-topics"></a><span data-ttu-id="ffefa-112">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="ffefa-112">Related topics</span></span>
-[<span data-ttu-id="ffefa-113">Configurar Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="ffefa-113">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
+## <a name="related-topics"></a><span data-ttu-id="5ee8c-112">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="5ee8c-112">Related topics</span></span>
+[<span data-ttu-id="5ee8c-113">Configurar Skype Empresarial Online</span><span class="sxs-lookup"><span data-stu-id="5ee8c-113">Set up Skype for Business Online</span></span>](set-up-skype-for-business-online.md)
 
-[<span data-ttu-id="ffefa-114">Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype</span><span class="sxs-lookup"><span data-stu-id="ffefa-114">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
+[<span data-ttu-id="5ee8c-114">Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype</span><span class="sxs-lookup"><span data-stu-id="5ee8c-114">Let Skype for Business users add Skype contacts</span></span>](let-skype-for-business-users-add-skype-contacts.md)
 
   
  
