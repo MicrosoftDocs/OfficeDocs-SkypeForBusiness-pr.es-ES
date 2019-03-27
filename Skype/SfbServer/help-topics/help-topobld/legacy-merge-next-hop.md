@@ -1,5 +1,6 @@
 ---
-title: Próximo salto de la combinación de información heredada
+title: Próximo salto de combinación de información heredada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: El FQDN de salto siguiente identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno. Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un Director o un grupo de servidores Front-End.
-ms.openlocfilehash: f93dc2db27806661ddca654363e51a49a3420abe
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0e498a7181b77ec86b1f1b6d12d673feba372097
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896438"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="92db4-104">Próximo salto de la combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="92db4-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="e91f3-104">Próximo salto de combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="e91f3-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="92db4-105">El **FQDN de próximo salto** identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno.</span><span class="sxs-lookup"><span data-stu-id="92db4-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="92db4-106">Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un **grupo de servidores Front-End** o un **Director**.</span><span class="sxs-lookup"><span data-stu-id="92db4-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="e91f3-105">El **FQDN de próximo salto** identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno.</span><span class="sxs-lookup"><span data-stu-id="e91f3-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="e91f3-106">Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un **grupo de servidores Front-End** o un **Director**.</span><span class="sxs-lookup"><span data-stu-id="e91f3-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

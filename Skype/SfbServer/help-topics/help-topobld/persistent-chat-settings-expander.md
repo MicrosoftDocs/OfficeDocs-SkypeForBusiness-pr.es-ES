@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración de Chat en grupo
+title: Expansor de configuración del chat persistente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,13 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 12da11ea-3aca-4ef1-8367-f3f8a959f033
-ms.openlocfilehash: 84e9392b473bc42bf7577c39748b4134ca2bed7a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2fd1c82c6fdd4edc2264905b279b71e7f6db9a08
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21002561"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899056"
 ---
-# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="14695-102">Expansor de configuración de Chat en grupo</span><span class="sxs-lookup"><span data-stu-id="14695-102">Persistent Chat Settings Expander</span></span>
+# <a name="persistent-chat-settings-expander"></a><span data-ttu-id="90870-102">Expansor de configuración del chat persistente</span><span class="sxs-lookup"><span data-stu-id="90870-102">Persistent Chat Settings Expander</span></span>
  
 

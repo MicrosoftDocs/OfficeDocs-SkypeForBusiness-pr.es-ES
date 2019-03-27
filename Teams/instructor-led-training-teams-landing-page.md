@@ -2,6 +2,7 @@
 layout: HubPage
 hide_bc: true
 title: Curso dirigido por un instructor y vídeos para administradores de Microsoft Teams
+ms.reviewer: ''
 description: Regístrese para obtener impartidos por clases obtener todos los detalles sobre Microsoft Teams.
 author: dearbeen
 ms.topic: hub-page
@@ -10,16 +11,16 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: f3797407d02717109f1d8ab8b288cd68f9defe57
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ddbd1a70cdc6617deb413e4b3e216b35fa9425d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461223"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898220"
 ---
 <div id="main" class="v2">
     <div class="container">
-        <h1>Formación dirigida por instructor para Microsoft Teams</h1>
+        <h1>Formación presencial para Microsoft Teams</h1>
         <ul class="pivots">
             <li>
                 <a href="#tab1">Formación presencial</a>

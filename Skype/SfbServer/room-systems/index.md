@@ -1,5 +1,6 @@
 ---
 title: Sistemas de salas de Skype v2
+ms.reviewer: null
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,13 +12,8 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 52d837877a962a3a087073175a169268dd169eae
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
-ms.translationtype: MT
-ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531804"
 ---
+
 <h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
@@ -25,7 +21,7 @@ ms.locfileid: "26531804"
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Espacios de reunión de transformación comprendido entre áreas unirse pequeñas y grandes salas de conferencia con un Skype enriquecido, colaboración para que la experiencia empresarial & #39; s fáciles de usar, implementar y administrar. </p>
+                        <p>Espacios de reunión de transformación comprendido entre áreas unirse pequeñas y grandes salas de conferencia con un Skype enriquecido, colaboración para profesionales experiencia that& #39; s fáciles de usar, implementar y administrar. </p>
                         <p>Iniciar reuniones en el tiempo con un solo toque join, a continuación, al instante de project a la presentación en la sala y el recurso compartido a los participantes remotos. </p>
                         <p>Seleccione el sistema derecho y periféricos de sonido de vídeo en uno de nuestros socios: Logitech, Crestron, Polycom, Lenovo y HP.</p>
                         <p></p>
@@ -60,7 +56,7 @@ ms.locfileid: "26531804"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Planificar</h3>
+                        <h3>Plan</h3>
                     </div>
                 </div>
             </div>
@@ -78,7 +74,7 @@ ms.locfileid: "26531804"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implementar </h3>
+                        <h3>Implementación</h3>
                     </div>
                 </div>
             </div>
@@ -96,7 +92,7 @@ ms.locfileid: "26531804"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Administración</h3>
+                        <h3>Administrar</h3>
                     </div>
                 </div>
             </div>
