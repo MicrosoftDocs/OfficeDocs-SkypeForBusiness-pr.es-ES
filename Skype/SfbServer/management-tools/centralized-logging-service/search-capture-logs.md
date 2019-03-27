@@ -1,5 +1,6 @@
 ---
 title: Buscar registros de captura creados por el servicio de registro centralizado en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumen: Obtenga información sobre cómo buscar y leer los registros de captura del servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 9429ef0f2c14552c615e4d7f81c497ea9bb546f3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372222"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895890"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Buscar registros de captura creados por el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -32,7 +33,7 @@ Las características de búsqueda en el servicio de registro centralizado son ú
     
 El CLSAgent en cada equipo individual crea los registros en función del escenario o los escenarios (es posible ejecutar dos escenarios por equipo en cualquier momento). El CLSAgent administra los registros y sus archivos caché e índice asociados. Cuando define y ejecuta una búsqueda, el comando de búsqueda da al CLSAgent la instrucción de qué información necesita recuperarse. El CLSAgent ejecuta la consulta en los archivos de registro, los archivos caché y los archivos de índice y devuelve los resultados de la búsqueda al CLSContoller. El CLSController recibe los resultados de búsqueda de todos los equipos y grupos de servidores en el ámbito de la búsqueda. El CLSController, luego, agrega (combina) los registros y los coloca en orden delta de tiempo, la entrada más antigua en primer lugar, y avanzando en el tiempo hasta la entrada más reciente en último lugar.
   
-Después de cada búsqueda, se ejecuta el cmdlet **Sync-CsClsLogging** y vacía la memoria caché usada por las búsquedas (no para confundirse con los archivos de caché que mantienen la con CLSAgent). Vaciar la memoria caché ayuda a asegurar de que haya un registro limpio y a realizar un seguimiento del búfer de captura de archivos en el CLSController para la próxima operación de búsqueda.
+Después de cada búsqueda, se ejecuta el cmdlet **Sync-CsClsLogging**, que vacía la memoria caché utilizada por las búsquedas (tenga presente que no hay que confundirse con los archivos caché que mantienen CLSAgent). Vaciar la memoria caché ayuda a asegurar de que haya un registro limpio y a realizar un seguimiento del búfer de captura de archivos en el CLSController para la próxima operación de búsqueda.
   
 Para obtener el máximo provecho desde el servicio de registro centralizado, necesita una buena comprensión de cómo configurar la búsqueda para devolver solo los mensajes de seguimiento de los registros de equipo y de grupo de servidores que son relevantes para el problema que se investiga. problemas
   

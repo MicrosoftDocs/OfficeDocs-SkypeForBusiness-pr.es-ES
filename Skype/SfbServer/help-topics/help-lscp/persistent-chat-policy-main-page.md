@@ -1,5 +1,6 @@
 ---
 title: Página principal de directiva de chat persistente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Puede usar la página Directiva de chat persistente del grupo Chat persistente para administrar directivas en un nivel global, de grupo, de sitio o de usuario, además de configurar la directiva global predeterminada y crear una o varias directivas de sitio y usuario adicionales para su implementación. Si un usuario está habilitado para el servidor de Chat persistente mediante una directiva, el entorno de servidor de Chat persistente aparece en su cliente.
-ms.openlocfilehash: 670c372c5dc3997d0d2c15622a9780e52c03508c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372731"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898891"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Página principal de directiva de chat persistente
  
@@ -119,12 +120,12 @@ Use el procedimiento de este tema para aplicar una directiva de usuario de Chat 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
     
-4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, finalmente, en **Mostrar detalles**.
+4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
     
 5. En **Editar usuario de Lync Server** en **Directiva de Chat persistente**, seleccione la directiva de usuario de Chat persistente que se desea aplicar.
     
     > [!NOTE]
-    > La ** \<automática\> ** configuración aplica la directiva en vigor de forma predeterminada. El servidor aplica esta configuración automáticamente.
+    > La ** \<automática\> ** configuración aplica la directiva en vigor de forma predeterminada. El servidor aplica automáticamente esta configuración.
   
 6. Haga clic en **Confirmar**.
     

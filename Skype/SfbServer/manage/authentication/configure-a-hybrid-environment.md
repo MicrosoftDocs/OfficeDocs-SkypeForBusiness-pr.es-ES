@@ -1,5 +1,6 @@
 ---
 title: Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 700639ec-5264-4449-a8a6-d7386fad8719
 description: 'Resumen: Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.'
-ms.openlocfilehash: 2d4589d2d194cd885329dd701f69af7b8896f8f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: d8ba920d516368d1931097e5e31b738a0d271bcf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532350"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893615"
 ---
 # <a name="configure-server-to-server-authentication-for-a-skype-for-business-server-hybrid-environment"></a>Configurar la autenticación de servidor a servidor para un Skype para entorno híbrido de Business Server.
 
@@ -120,7 +121,7 @@ $binaryValue = $certificate.GetRawCertData()
 $credentialsValue = [System.Convert]::ToBase64String($binaryValue)
 ```
 
-Después de que el certificado se ha importado y codificado, a continuación, puede asignar el certificado a entidades de servicio de Office 365. Para ello, use primero el Get-MsolServicePrincipal para recuperar el valor de la propiedad AppPrincipalId para el Skype para Business Server y las entidades de seguridad del servicio de Microsoft Exchange; el valor de la propiedad AppPrincipalId se usará para identificar la entidad de seguridad de servicio que se va a asignar el certificado. Con el AppPrincipalId propiedad valor de Skype para Business Server de la mano, use el siguiente comando para asignar el certificado a la versión de Office 365 de Skype para Business Server:
+Después de que el certificado se ha importado y codificado, a continuación, puede asignar el certificado a entidades de servicio de Office 365. Para ello, use primero el Get-MsolServicePrincipal para recuperar el valor de la propiedad AppPrincipalId para el Skype para Business Server y las entidades de seguridad del servicio de Microsoft Exchange; el valor de la propiedad AppPrincipalId se usará para identificar la entidad de seguridad de servicio que se va a asignar el certificado. Con el AppPrincipalId (propiedad) valor de Skype para Business Server de la mano, use el siguiente comando para asignar el certificado a la versión de Skype para empresarial en línea:
 
 ```
 New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000 -Type Asymmetric -Usage Verify -Value $credentialsValue 
@@ -128,7 +129,7 @@ New-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00000
 
 A continuación, debe repetir el comando, esta vez utilizando el valor de la propiedad AppPrincipalId para Exchange 2013.
 
-Si más tarde necesita eliminar el certificado, primero recupere el KeyId del certificado con:
+Si más tarde necesita eliminar el certificado, por ejemplo, si ha caducado, puede hacerlo por primera el keyid el certificado:
 
 ```
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
@@ -153,11 +154,11 @@ Remove-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-00
 
 Además de asignar un certificado, también debe configurar la entidad de seguridad de servicio en línea de Exchange y configurar la versión local de Skype para direcciones URL de servicios externas de Web de Business Server como una entidad de seguridad del servicio de Office 365. Para hacerlo, ejecute estos dos comandos: 
 
-En el ejemplo siguiente, lync.contoso.com es la URL de servicios Web externa para el Skype para grupo de servidores empresariales. Debe repetir estos pasos para agregar todas las URL de servicios Web externas en la implementación.
+En el ejemplo siguiente, Pool1ExternalWebFQDN.contoso.com es la URL de servicios Web externa para el Skype para grupo de servidores empresariales. Debe repetir estos pasos para agregar todas las URL de servicios Web externas en la implementación.
 
 ```
 Set-MSOLServicePrincipal -AppPrincipalID 00000002-0000-0ff1-ce00-000000000000 -AccountEnabled $true
 $lyncSP = Get-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000
-$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/lync.contoso.com")
+$lyncSP.ServicePrincipalNames.Add("00000004-0000-0ff1-ce00-000000000000/Pool1ExternalWebFQDN.contoso.com")
 Set-MSOLServicePrincipal -AppPrincipalID 00000004-0000-0ff1-ce00-000000000000 -ServicePrincipalNames $lyncSP.ServicePrincipalNames
 ```

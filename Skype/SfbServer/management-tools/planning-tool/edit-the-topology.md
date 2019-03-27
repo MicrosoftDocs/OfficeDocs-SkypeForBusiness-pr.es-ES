@@ -1,5 +1,6 @@
 ---
 title: Editar la topología en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Una vez completadas las preguntas iniciales de la entrevista, podrá editar las direcciones IP y el nombre de dominio completo (FQDN) del sitio. Para ello, en la página Topología global, haga doble clic en el sitio que desea editar.
-ms.openlocfilehash: 65b23bf764f802da0f535dcc86cfb5170481161b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263819"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895149"
 ---
-# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Editar la topología en Skype Empresarial Server 2015
+# <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 Una vez completadas las preguntas iniciales de la entrevista, podrá editar las direcciones IP y el nombre de dominio completo (FQDN) del sitio. Para ello, en la página **Topología global**, haga doble clic en el sitio que desea editar.
 
@@ -78,7 +79,7 @@ Una vez completadas todas las modificaciones, guarde la topología. Para ello, s
 
 Para guardar el diseño de la herramienta de planeación, haga clic en **archivo**y, a continuación, haga clic en **Guardar topología** o **Guardar topología como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Edit_Network_diagram"> </a>
 
-[Edición del diseño](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

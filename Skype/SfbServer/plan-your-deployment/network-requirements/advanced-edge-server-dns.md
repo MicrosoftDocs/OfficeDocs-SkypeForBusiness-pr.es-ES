@@ -1,5 +1,6 @@
 ---
 title: Avanzada planeación DNS del servidor perimetral de Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
-ms.openlocfilehash: ce65c0e79b2863bf1e2fb2ccd7f14d6aa7953161
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 88f3da6a006c74393b487a55e85a16aa56bd968b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893072"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server
  
@@ -207,14 +208,14 @@ Todos los registros DNS en esta tabla son ejemplos.
   
 |**Registro de GeoDNS**|**Registros del grupo**|**CNAME records**|**Configuración de DNS (seleccione una opción)**|
 |:-----|:-----|:-----|:-----|
-|Reunirse int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
-|Reunirse ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Meet-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Meet-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Meet.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Meet.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
 |Dialin-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Dialin.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Dialin.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
 |Dialin-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Dialin.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Dialin.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
-|Lyncdiscoverint int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscoverinternal.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Lyncdiscoverinternal.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
-|Lyncdiscover ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscover.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Lyncdiscover.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
-|Programador de int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
-|Programador de ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Lyncdiscoverint-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscoverinternal.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Lyncdiscoverinternal.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Lyncdiscover-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Lyncdiscover.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Lyncdiscover.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Scheduler-int.geolb.contoso.com  <br/> |Pool1InternalWebFQDN.contoso.com  <br/> Pool2InternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com a Pool1InternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com a Pool2InternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
+|Scheduler-ext.geolb.contoso.com  <br/> |Pool1ExternalWebFQDN.contoso.com  <br/> Pool2ExternalWebFQDN.contoso.com  <br/> |Alias Scheduler.contoso.com a Pool1ExternalWebFQDN.contoso.com  <br/> Alias Scheduler.contoso.com a Pool2ExternalWebFQDN.contoso.com  <br/> |Round robin entre grupos  <br/> **O bien** <br/> Usa el primario, se conecta al secundario en caso de error  <br/> |
    
 ## <a name="dns-load-balancing"></a>Equilibrio de carga de DNS
 <a name="DNSLB"> </a>

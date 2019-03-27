@@ -1,5 +1,6 @@
 ---
 title: Enlace troncal SIP en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Obtenga información sobre el enlace troncal SIP en Skype para Business Server Enterprise Voice
-ms.openlocfilehash: 502629c794ed95b5d6228880c8fe37a23eb86af9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 98b107d02d223ea8bad555c5aa0802f8f7581807
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882237"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892959"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>Enlace troncal SIP en Skype para Business Server
 
@@ -153,10 +154,10 @@ La figura siguiente muestra la topología de enlace troncal SIP en Skype para Bu
 Como se muestra en el diagrama, se usa una red privada virtual (VPN) de IP para la conectividad entre la red empresarial y el proveedor de servicios de la red telefónica conmutada (RTC). El objetivo de esta red privada es proporcionar conectividad IP, mejorar la seguridad y obtener garantías (opcionales) de calidad de servicio (QoS). Dada la naturaleza de una VPN, no necesitas usar seguridad de la capa de transporte (TLS) para el tráfico de señalización SIP ni el protocolo de transporte en tiempo real seguro (SRTP) para el tráfico de medios. Las conexiones entre la empresa y el proveedor de servicios constan, por lo tanto, de conexiones TCP simples para SIP y el protocolo de transporte en tiempo real (RTP) simple (sobre UDP) para los medios de túnel a través de una VPN de IP. Asegúrate de que todos los firewalls que hay entre los enrutadores de VPN tienen los puertos abiertos para permitir la comunicación de dichos enrutadores, y que las direcciones IP de los bordes externos de los enrutadores de VPN se pueden redirigir públicamente.
 
 > [!IMPORTANT]
-> Consulta a tu proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrás que determinar los procedimientos para instalarla. ¿Por ejemplo, es necesario configurar una única dirección IP y un tronco SIP en cada servidor de mediación, o es necesario configurar varios troncos SIP en cada servidor de mediación? > Si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a y desde otro sitio central.
+> Consulta a tu proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrás que determinar los procedimientos para instalarla. ¿Por ejemplo, es necesario configurar una única dirección IP y un tronco SIP en cada servidor de mediación, o es necesario configurar varios troncos SIP en cada servidor de mediación? > si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a y desde otro sitio central.
 
 > [!NOTE]
-> Para el enlace troncal SIP, recomendamos encarecidamente que implemente los servidores de mediación independiente. Para obtener información detallada, consulte [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) en la documentación de implementación.
+> Para el enlace troncal SIP, recomendamos encarecidamente que implemente los servidores de mediación independiente. Para obtener más detalles, mira [Deploying Mediation Servers and Defining Peers](https://technet.microsoft.com/library/a684f1da-6671-4011-adf6-2db49e2528e2.aspx) en la documentación sobre implementación.
 
 ### <a name="securing-the-mediation-server-for-sip-trunking"></a>Protección del servidor de mediación para el enlace troncal SIP
 
@@ -180,7 +181,7 @@ Si usas un servidor de VPN, recomendamos seguir estas instrucciones:
 
 - Cifra los datos de la VPN con encapsulación de enrutamiento genérico (GRE).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Enlace troncal SIP sitio de sucursal en Skype para Business Server](branch-site.md)
 

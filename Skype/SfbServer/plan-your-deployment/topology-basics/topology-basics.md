@@ -1,5 +1,6 @@
 ---
 title: Conceptos básicos de la topología de Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija la topología de Skype para Business Server. Obtenga información sobre la combinación de servidor de Skype para Business Server.'
-ms.openlocfilehash: 5d2589d6ba7878ea69c8860ad99f182912e471dd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886168"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881621"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de la topología de Skype para Business Server
 
@@ -133,7 +134,7 @@ El servidor Front-End incluye lo siguiente:
 
 - Componentes web para las tareas basadas en web compatibles, como el Programador web y el Iniciador de participación en reuniones.
 
-- Opcionalmente, el archivado, para archivar comunicaciones de MI y contenido de reuniones con fines de cumplimiento. Para obtener información detallada, consulte [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) en la documentación de planeación.
+- Opcionalmente, el archivado, para archivar comunicaciones de MI y contenido de reuniones con fines de cumplimiento. Para ver más detalles, mire [Planning for Archiving](https://technet.microsoft.com/library/898b83c1-007b-43be-9484-08fe49c10951.aspx) en la documentación de planeación.
 
     En Lync Server 2010 y versiones anteriores, la supervisión y archivado eran roles de servidor independiente, que no se instala en el servidor Front-End.
 
@@ -191,7 +192,7 @@ Los servidores que ejecutan Skype para Business Server Standard Edition también
 
 Para obtener información detallada, consulte [Plan for Persistent Chat Server en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
-## <a name="high-availability-and-disaster-recovery-support"></a>Compatibilidad entre la alta disponibilidad y la recuperación ante desastres
+## <a name="high-availability-and-disaster-recovery-support"></a>Compatibilidad de alta disponibilidad y recuperación ante desastres
 
 Skype para Business Server proporciona una alta disponibilidad mediante la redundancia de servidores a través de la agrupación. Si un servidor que ejecuta un determinado rol de servidor tiene errores, los demás servidores del grupo que ejecutan el mismo rol recogen la carga de ese servidor. Esto es válido en servidores front-end, servidores perimetrales, servidores de mediación y directores.
 
@@ -262,7 +263,7 @@ Las siguientes bases de datos se pueden instalar en el mismo back-end SQL Server
 
 - Base de datos de cumplimiento de normas de Chat persistente
 
-#### <a name="both"></a>Ambos
+#### <a name="both"></a>Both
 
 Ahora, hay algunas reglas adicionales que se deben seguir al combinar Skype para bases de datos de Business Server en una sola instancia SQL, o en varias instancias SQL en la misma base de datos de SQL Server:
 
@@ -296,6 +297,6 @@ El recurso compartido de archivos puede estar en un servidor separado o puede co
 
 - No se puede combinar ningún componente de mensajería unificada de Exchange ni SharePoint Server con cualquier Skype para el rol de servidor empresarial.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Topologías de referencia de Skype para Business Server](reference-topologies.md)

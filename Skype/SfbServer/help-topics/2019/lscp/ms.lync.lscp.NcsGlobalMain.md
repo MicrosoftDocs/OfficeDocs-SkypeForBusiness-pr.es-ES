@@ -1,5 +1,6 @@
 ---
 title: Configuración Global de la red
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: d537d063ff766ad02cea9b5e43011fa9ab9ceeef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f1495ab62c0b9cf25944361ddee687aaecfd6bc7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23244919"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893100"
 ---
-# <a name="network-configuration-global-setting"></a>Configuración de red: Configuración Global
+# <a name="network-configuration-global-setting"></a>Configuración de red: Configuración global
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

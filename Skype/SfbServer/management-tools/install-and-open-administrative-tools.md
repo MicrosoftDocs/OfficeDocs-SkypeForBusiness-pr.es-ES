@@ -1,5 +1,6 @@
 ---
-title: Instalar y abrir las herramientas administrativas
+title: Instalar y abrir herramientas administrativas
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este tema se describe cómo instalar y abrir las herramientas administrativas que necesita para implementar y administrar Skype para la empresa.
-ms.openlocfilehash: a27f16ab72d8fcdd4a5c440909dfb40baadd2572
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 260d84f071558ff54511b8650868db3ebb56abcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223167"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899480"
 ---
-# <a name="install-and-open-administrative-tools"></a>Instalar y abrir las herramientas administrativas
+# <a name="install-and-open-administrative-tools"></a>Instalar y abrir herramientas administrativas
 
 En este tema se describe cómo instalar las herramientas administrativas que necesita para implementar y administrar Skype para Business Server. Las herramientas administrativas se instalan de forma predeterminada en cada servidor que ejecuta Skype para Business Server. Además, puede instalar las herramientas administrativas en otros equipos, como dedicadas consolas administrativas. Se recomienda encarecidamente que instalar las herramientas administrativas en un equipo que se encuentra en el mismo dominio o bosque como el Skype para la implementación de Business Server que va a crear, para asegurarse de que la preparación de los servicios de dominio de Active Directory ya están completas, pasos que le permite usar las herramientas administrativas en el equipo más adelante para publicar su topología. Además, asegúrese de revisar los requisitos necesarios antes de instalar o usar el Skype para herramientas administrativas de Business Server. Consulte la documentación de los requisitos de [Skype para Business Server 2019](../../SfBServer2019/plan/system-requirements.md) o [Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md).
  

@@ -1,5 +1,6 @@
 ---
 title: Planeación de la supervisión en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: Revise este tema durante la planeación para el servicio de supervisión en Skype para Business Server.'
-ms.openlocfilehash: ab2b96063d94471ce47564845c64a63dfc5710c8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243350"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892514"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planeación de la supervisión en Skype para Business Server
 
@@ -85,7 +86,7 @@ Invoke-CsDatabaseFailover -PoolFqdn atl-cs-001.litwareinc.com -DatabaseType "Mon
 
 En términos de planeación, esto es importante, ya que será necesario duplicar la cantidad de bases de datos necesarias, ya que, aparte de cada base de datos principal, necesitará otra base de datos que haga de reflejo.
 
- **¿Su Skype para sitios de Business Server necesitan sus propios configuraciones personalizadas de supervisión?** Al instalar Skype para Business Server también instalar colecciones globales de opciones de configuración de CDR y QoE; Estas colecciones globales proporcionan la capacidad para aplicar la misma configuración de CDR y QoE en toda la organización. En muchos casos, será suficiente: a menudo a veces se desea, por ejemplo, tener CDR supervisión habilitado para todos los usuarios.
+ **¿Su Skype para sitios de Business Server necesitan sus propios configuraciones personalizadas de supervisión?** Al instalar Skype para Business Server también instalar colecciones globales de opciones de configuración de CDR y QoE; Estas colecciones globales proporcionan la capacidad para aplicar la misma configuración de CDR y QoE en toda la organización. In many cases, this will be sufficient: often-times you will want, say, to have CDR monitoring enabled for all of your users.
 
 En cambio, en ocasiones querrá aplicar otras configuraciones en sitios diferentes. Por ejemplo, quizás quiera usar la supervisión de CDR y QoE en el sitio de Redmond, pero desee usar solo la supervisión de CDR en el sitio de Dublín. Igualmente, es posible que quiera conservar los datos de supervisión durante 60 días en el sitio de Redmond, y mantener ese mismo tipo de datos durante 30 días en el sitio de Dublín. Skype para Business Server le permite crear colecciones de distintos de los valores de configuración de CDR y QoE en el ámbito del sitio; que permite administrar cada sitio de forma diferente. De esta forma, podrá administrar cada sitio de forma diferente (esto incluye la habilitación y la deshabilitación de la supervisión, así como también la configuración de las opciones de administración como, por ejemplo, cuánto tiempo se retendrán los datos).
 
@@ -108,7 +109,7 @@ Al supervisar los datos se puede compartir una instancia de SQL Server con otros
 
 En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, tendrá que configurar varias instancias de SQL Server.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
-[Implementación de la supervisión](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)
+[Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

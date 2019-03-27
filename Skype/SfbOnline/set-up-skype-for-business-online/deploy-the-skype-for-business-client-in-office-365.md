@@ -1,5 +1,6 @@
 ---
 title: Implementar el Skype para cliente empresarial en Office 365
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo planear e implementar Skype para la empresa en organizaciones pequeñas, medianas y grandes y ponerlo a disposición de los usuarios. '
-ms.openlocfilehash: c96d4759e25370997b9af8d42d8130d7964962df
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372575"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896797"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implementar el Skype para cliente empresarial en Office 365
 
@@ -52,7 +53,7 @@ Como el [Administrador](https://support.office.com/en-us/article/eac4d046-1afd-4
     ![Elija qué software desea que el usuario tenga acceso a.](../images/91f6f422-2c85-4afd-944f-0021b2f6f109.png)
   
 > [!NOTE]
-> Si necesita ver cuáles son los planes están asignados a personas de la organización, inicie sesión en el nuevo centro de administración de Office 365 > **usuarios** > **usuarios activos**. Seleccione a la persona de la lista, a continuación, mire en **licencias de producto**. Si utiliza el centro de administración de Office 365 clásico, mire en la **licencia asignada**. 
+> Si necesita ver cuáles son los planes están asignados a personas de la organización, inicie sesión en el nuevo > de centro de administración de Office 365 **a los usuarios** > **usuarios activos**. Seleccione a la persona de la lista, a continuación, mire en **licencias de producto**. Si utiliza el centro de administración de Office 365 clásico, mire en la **licencia asignada**. 
   
 ### <a name="manually-deploying-skype-for-business-to-your-users"></a>Implementación manual de Skype para la empresa a los usuarios
 <a name="bkmk_manual_1"> </a>

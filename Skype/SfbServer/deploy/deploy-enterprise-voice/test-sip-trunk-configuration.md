@@ -1,5 +1,6 @@
 ---
 title: Probar las opciones de configuración de troncos SIP en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c8712308-0e2d-4e39-8f90-d1a250487a94
 description: 'Resumen: Obtenga información sobre cómo probar las opciones de configuración de troncos SIP mediante el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: f6a7cfae4a5591fa9325e7b9ac99f4c2b18ed516
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d602f24c3342e6c8460cab41d5f14e68ba17188b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883636"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898969"
 ---
 # <a name="test-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Probar las opciones de configuración de troncos SIP en Skype para Business Server
  
@@ -34,7 +35,7 @@ Las opciones de configuración de los troncos SIP definen la relación y las cap
     
 Al instalar Skype para Business Server, se crea una colección global de opciones de configuración de tronco SIP para usted. Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC). Los administradores pueden usar también el cmdlet Test-CsTrunkConfiguration para comprobar que el tronco puede convertir un número que ha marcado el usuario en un número que la puerta de enlace puede controlar.
   
-Sólo se pueden probar las configuraciones de tronco mediante el uso de Windows PowerShell y el cmdlet [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps) . Este cmdlet se puede ejecutar desde la Skype para Shell de administración de servidor empresarial o desde una sesión remota de Skype para Shell de administración de servidor empresarial.
+Los valores de configuración de tronco solo se pueden probar con Windows PowerShell y el cmdlet [Test-CsTrunkConfiguration](https://docs.microsoft.com/powershell/module/skype/test-cstrunkconfiguration?view=skype-ps). Este cmdlet se puede ejecutar desde la Skype para Shell de administración de servidor empresarial o desde una sesión remota de Skype para Shell de administración de servidor empresarial.
   
 ### <a name="to-test-sip-trunk-configuration-settings"></a>Para probar las opciones de configuración de troncos SIP
 
