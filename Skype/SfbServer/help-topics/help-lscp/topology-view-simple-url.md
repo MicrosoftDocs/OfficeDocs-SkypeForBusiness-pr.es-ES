@@ -1,5 +1,6 @@
 ---
 title: Dirección URL de topología vista Simple
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: c652f9fd4a8de6e8ada981374ad6a0c05a2491f8
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bfb0a5cf30ac19e99c89482ae4cffbb2bb4d4762
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241844"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880056"
 ---
 # <a name="topology-view-simple-url"></a>Topología: Ver URL sencilla
 

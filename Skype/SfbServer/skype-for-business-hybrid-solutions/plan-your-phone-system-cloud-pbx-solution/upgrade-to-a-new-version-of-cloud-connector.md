@@ -1,5 +1,6 @@
 ---
 title: Actualizar a una versión nueva de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
 description: Obtenga información acerca de cómo actualizar su implementación de edición de conector en la nube.
-ms.openlocfilehash: c0946cf26181df81327412c2dc0efc227b5a5586
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370630"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897653"
 ---
-# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Actualizar a una versión nueva de Cloud Connector
+# <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
 Obtenga información acerca de cómo actualizar su implementación de edición de conector en la nube.
   
@@ -61,12 +62,12 @@ Actualización automática requiere que se está ejecutando el servicio de conec
   - Depure el antiguo dispositivo y cambie la conexión de red al nuevo dispositivo.
     
 > [!NOTE]
->  Cuando se actualiza el conector en la nube para una nueva compilación, no es posible que actualizarse cmdlets de conector en la nube. Esto puede suceder, por ejemplo, si se queda abierta una ventana de PowerShell mientras se produce la actualización automática. Para cargar los cmdlets actualizados, puede realizar cualquiera de los siguientes pasos: > Cerrar PowerShell en el dispositivo de conector en la nube y volver a abrirla PowerShell. > o bien, puede ejecutar Import-Module CloudConnector-Force.
+>  Cuando se actualiza el conector en la nube para una nueva compilación, no es posible que actualizarse cmdlets de conector en la nube. Esto puede suceder, por ejemplo, si se queda abierta una ventana de PowerShell mientras se produce la actualización automática. Para cargar los cmdlets actualizados, puede realizar cualquiera de los PowerShell Close de pasos: > siguiente en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.> o, puede ejecutar Import-Module CloudConnector-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Actualizar un sitio único a una versión nueva
 <a name="BKMK_Upgrade"> </a>
 
-Si solo hay una aplicación en el sitio que desea actualizar, realice lo siguiente:
+Si solo hay un dispositivo en el sitio que desea actualizar, realice lo siguiente:
   
 1. Desinstale la versión existente de conector en la nube en **el Panel de Control \> programas \> programas y características**.
     

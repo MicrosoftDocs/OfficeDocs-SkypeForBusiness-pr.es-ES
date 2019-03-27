@@ -1,5 +1,6 @@
 ---
 title: Calidad de los datos de la experiencia (QoE) crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 7b944eeb6b0e92a27eb61ce18fd8a3608750f45f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 077f39c73443687aae5223f7f906b5ce8e7169ae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029350"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878924"
 ---
-# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Calidad de los datos de la experiencia (QoE): crear nuevos o editar los existentes
+# <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   

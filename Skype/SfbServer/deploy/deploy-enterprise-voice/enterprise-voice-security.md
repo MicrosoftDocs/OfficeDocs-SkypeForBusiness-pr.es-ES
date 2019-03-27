@@ -1,5 +1,6 @@
 ---
 title: Requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Resumen: Obtenga información sobre los requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server.'
-ms.openlocfilehash: 9fd7a4fd35785c0cb4a7c10efb7dc781b84b8186
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 522252119dd6e3699dc93e0191d50a3c09c023dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887590"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896577"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server
  

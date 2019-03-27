@@ -1,5 +1,6 @@
 ---
 title: Get-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment. '
-ms.openlocfilehash: cff2ba89f7ebf3151a92a753e4dc6adc490dde05
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898398"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
@@ -59,9 +60,9 @@ Write-Host $text
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
-|**Parámetro**|**Requerida.**|**Tipo de**|**Descripción**|
+|**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> | Obligatorio  <br/> | System.String <br/> | AccountType valor puede ser una de las siguientes opciones: <br/>  VmAdmin: el administrador local de las máquinas virtuales de conector en la nube. <br/>  DomainAdmin: el administrador de dominio del dominio de máquina virtual de Cloud Connector. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
+| AccountType <br/> |Requerido  <br/> | System.String <br/> | AccountType value can be one of the following: <br/>  VmAdmin: el administrador local de las máquinas virtuales de conector en la nube. <br/>  DomainAdmin: Domain administrator of Cloud Connector virtual machine domain. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

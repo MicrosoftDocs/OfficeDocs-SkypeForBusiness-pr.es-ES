@@ -1,5 +1,6 @@
 ---
 title: Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Resumen: Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.'
-ms.openlocfilehash: 33c20319142608f38451a547687bc1bc9eae47d1
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7311850f2504b84a862f809b17077b15ec022bf1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892698"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
  

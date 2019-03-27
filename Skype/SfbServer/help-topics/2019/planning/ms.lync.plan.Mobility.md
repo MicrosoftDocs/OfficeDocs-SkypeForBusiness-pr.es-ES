@@ -1,5 +1,6 @@
 ---
-title: Movilidad (herramienta de planeación)
+title: Mobility (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.
-ms.openlocfilehash: 02fc39f6bd33eb202eeb45b54ae732ab23397db0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e008b0e138a11a9418c9331b7f358303da14a48b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20991620"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890828"
 ---
-# <a name="mobility-planning-tool"></a>Movilidad (herramienta de planeación)
+# <a name="mobility-planning-tool"></a>Mobility (Planning Tool)
  
 La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.
   

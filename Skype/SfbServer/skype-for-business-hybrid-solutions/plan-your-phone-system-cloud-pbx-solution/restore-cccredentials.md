@@ -1,5 +1,6 @@
 ---
-title: Restauración CcCredentials
+title: Restore-CcCredentials
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
 description: El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube.
-ms.openlocfilehash: bb74444c5f63b792abf6c12c317c1a824298426c
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19569736"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891471"
 ---
-# <a name="restore-cccredentials"></a>Restauración CcCredentials
+# <a name="restore-cccredentials"></a>Restore-CcCredentials
  
 El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube. 
   
@@ -51,7 +52,7 @@ En el ejemplo siguiente se restaura todas las credenciales de la implementación
     PS C:\>Restore-CcCredentials
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Get-CcCredential](get-cccredential.md)
   

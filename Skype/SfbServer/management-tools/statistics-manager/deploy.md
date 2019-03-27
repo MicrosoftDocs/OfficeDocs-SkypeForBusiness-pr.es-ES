@@ -1,5 +1,6 @@
 ---
-title: Implementar el Administrador de estadísticas de Skype para Business Server
+title: Implementar el administrador de estadísticas para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server.'
-ms.openlocfilehash: ef2dd51306dc2806161fc0c0d4b11087a2f466ea
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297702"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898261"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el Administrador de estadísticas de Skype para Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo implementar las estadísticas de administrador para Skype para Business Server.
   
@@ -67,7 +68,7 @@ Para preparar el equipo host, debe instalar el sistema de almacenamiento en cach
     
     Sin firmar instaladores se pueden descargar desde[https://github.com/MSOpenTech/redis/releases](https://github.com/MSOpenTech/redis/releases)
     
-    Si lo necesita, hay binarios firmados disponibles a través de gestores de paquetes populares: [Nuget](https://www.nuget.org/packages/Redis-64/) y [Choclatey](https://chocolatey.org/packages/redis-64).
+    Si es necesario, los archivos binarios firmados están disponibles a través de los jefes de paquete populares: [Nuget](https://www.nuget.org/packages/Redis-64/) y [Choclatey](https://chocolatey.org/packages/redis-64).
     
    - Ejecute el msi proporcionado y siga las instrucciones.
     
@@ -298,8 +299,8 @@ Microsoft recomienda encarecidamente usar un certificado firmado por una autorid
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
+- [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     
-- [Actualizar el Administrador de estadísticas de Skype para Business Server](upgrade.md)
+- [Actualizar el administrador de estadísticas para Skype Empresarial Server](upgrade.md)
     
 - [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md) ß

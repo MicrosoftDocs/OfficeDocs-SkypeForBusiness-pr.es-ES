@@ -1,5 +1,6 @@
 ---
 title: Subinforme de resumen de P2P en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Resumen: Conozca el subinforme de resumen de P2P en Skype para Business Server.'
-ms.openlocfilehash: 216545644456a3cfd6285aaf73a4279879a12ef1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c36102eaa3fbf3dd970176316c11dd366b2a8fca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981792"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896696"
 ---
 # <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen de P2P en Skype para Business Server
  

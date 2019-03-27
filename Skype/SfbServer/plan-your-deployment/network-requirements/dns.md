@@ -1,5 +1,6 @@
 ---
 title: Requisitos de DNS de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c50e38d2-b1e4-4ebd-8dc3-85d4ae7a76ee
 description: 'Resumen: Revise las consideraciones de DNS en este tema antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 649528c21254625b1aac8d2933c59988138b38b1
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: c54f2b8509d0849ee8949dfb4c0275450e533d3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069583"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891990"
 ---
 # <a name="dns-requirements-for-skype-for-business-server"></a>Requisitos de DNS de Skype para Business Server
 
@@ -41,7 +42,7 @@ Las siguientes tablas muestran los registros DNS que Skype para Business Server 
 
 **Asignaciones DNS interno**
 
-|Tipo de registro|Valor|Se resuelve en|Finalidad|Requerido|
+|Tipo de registro|Valor|Se resuelve en|Finalidad|Obligatorio|
 |:-----|:-----|:-----|:-----|:-----|
 |A O AAAA   |Servidor front-end FQDN  <br/> *FE-pool. <span> </span>contoso<span></span>.com*   |Direcciones IP de servidor de grupo de servidores de Front-End  <br/>  Libras de DNS para *192.168.21.122 192.168.21.123 192.168.21.124*   |Equilibrio de carga de DNS de grupos de servidores Front-End. Asigna el nombre de grupo de servidores Front-End a un conjunto de direcciones IP.  <br/> Vea [implementar DNS equilibrio de carga en los grupos de servidores Front-End y grupos de directores](load-balancing.md#BK_FE_Dir)  |Y   |
 |A O AAAA   | FQDN de cada servidor Front-End o servidor Standard Edition en un grupo de servidores o un servidor independiente <br/>  *FE01. <span> </span>contoso. <span> </span>FE02 com. <span> </span>contoso<span></span>.com FE03. <span> </span>contoso<span></span>.com*   |IP correspondiente de cada servidor  <br/> *192.168.21.122 192.168.21.123 192.168.21.124*   |Asigna el nombre del servidor en su dirección IP.   |Y   |
@@ -83,7 +84,7 @@ En el siguiente diagrama muestra un ejemplo que incluye los registros DNS intern
 
 **Asignaciones DNS de red perimetral (las interfaces interna y externas)**
 
-|Tipo de registro|Valor|Se resuelve en|Finalidad|Requerido|
+|Tipo de registro|Valor|Se resuelve en|Finalidad|Obligatorio|
 |:--- |:--- |:--- |:--- |:--- |
 |A O AAAA   |FQDN del grupo perimetral interna  <br/>*EdgePool-int.<span></span>contoso<span></span>.com*  |Direcciones IP de grupo de servidores de internal orientado perimetral  <br/> 172.25.33.10, 172.25.33.11   |Consolidar las direcciones IP de interfaz interna de grupo de servidores perimetrales   |Y   |
 |A O AAAA   |FQDN del servidor perimetral  <br/>*Inconvenientes-1. <span> </span>contoso<span></span>.com*  |Dirección IP del servidor interno orientado para un servidor en el grupo de servidores perimetrales  <br/> 172.25.33.10   |Crear un registro para cada servidor del grupo de servidores con el FQDN del servidor que señala a su IP de nodo de servidor interno en el grupo de servidores, vea [El equilibrio de carga DNS en grupos de servidores perimetrales](load-balancing.md#BK_Edge).   |Y   |

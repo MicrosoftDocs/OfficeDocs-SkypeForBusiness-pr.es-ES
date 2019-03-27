@@ -1,5 +1,6 @@
 ---
 title: Activar o desactivar las notificaciones del teléfono móvil
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: Obtenga información sobre cómo activar las notificaciones de teléfono móvil o desactivar para que los usuarios pueden recibir alertas de correo de voz entrante y perdidas mensajes instantáneos.
-ms.openlocfilehash: 6ec2dad1a6084db4c83061b06d056382f90787b8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 40d71ba5a3106e9ae33e5f39a504e1e413a58af1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23854247"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897027"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Activar o desactivar las notificaciones del teléfono móvil
 

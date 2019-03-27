@@ -1,5 +1,6 @@
 ---
 title: Cambiar las opciones de base de datos de archivado en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Resumen: Obtenga información sobre cómo cambiar las opciones de base de datos archivado de Skype para Business Server.'
-ms.openlocfilehash: 40cb0d6a3e0a55ad5221c55105355a7838835d30
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8e2c1f0ef90f193f157b1387f1fa65278efea60d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371970"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891233"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Cambiar las opciones de base de datos de archivado en Skype para Business Server
 
@@ -93,9 +94,9 @@ Para realizar cualquiera de estos cambios, debe ejecutar el generador de topolog
     > [!IMPORTANT]
     > Los cambios que realice en el generador no tendrá efecto hasta que se publique la nueva topología. Para obtener información detallada, vea [las bases de datos de archivado de agregar a una implementación existente de Skype para Business Server](../../deploy/deploy-archiving/add-archiving-databases.md). 
   
-## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Cambiar la ubicación de la base de datos de archivado con Windows PowerShell
+## <a name="change-the-location-of-the-archiving-database-by-using-windows-powershell"></a>Cambiar la ubicación de la base de datos de archivado mediante el uso de Windows PowerShell
 
-En la mayoría de los casos, no será necesario que cambie la ubicación de la base de datos de archivado, que se especifica al instalar el servidor de archivado. Pero, si se produce un error de hardware o cualquier otro problema, puede apuntar el servidor de archivado hacia una base de datos nueva con el cmdlet **Set-CsArchivingServer**.
+En la mayoría de los casos, no necesitará cambiar la ubicación de la base de datos de archivado, que se especifica al instalar el servidor de archivado. Sin embargo, si se debe producir un error de hardware o a otro problema, puede apuntar el servidor de archivado a una nueva base de datos mediante el cmdlet **Set-CsArchivingServer** .
   
 En el ejemplo siguiente se cambia la ubicación de la base de datos de archivado para el ArchivingServer:atl-cs-001.contoso.com el servidor de archivado. En este ejemplo, la nueva base de datos se encuentra en ArchivingDatabase:atl-sql-001.contoso.com:
   

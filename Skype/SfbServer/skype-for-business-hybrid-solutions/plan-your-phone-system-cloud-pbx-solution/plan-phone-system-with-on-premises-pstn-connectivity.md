@@ -1,5 +1,6 @@
 ---
 title: Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Obtenga información acerca de las consideraciones de planeación para el sistema telefónico en Office 365 (en la nube PBX) con conectividad de RTC local.
-ms.openlocfilehash: f0e73b2541bdab8d3e37db02bc023667ae942578
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 3c3dcb8316cdd3665d7570d16777a8b4195c4a82
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454046"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897917"
 ---
 # <a name="plan-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planear el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
 

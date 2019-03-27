@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito del chat persistente
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 35dfc16f-7190-4993-9d4a-e0262bf35166
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para empezar la creación de un nuevo servidor de Chat persistente o grupo de servidores de Chat persistente, en el generador, haga clic con el botón secundario en grupos de servidores de Chat persistente y, a continuación, seleccione Nuevo grupo de Chat persistente
-ms.openlocfilehash: 31239b226ed1a9a07db7613ac2cd10cef579d544
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 940cd2595ecde9fde7894bb16e08bf4d66f7611c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057400"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891557"
 ---
 # <a name="persistent-chat-scope-node"></a>Nodo de ámbito del chat persistente
 

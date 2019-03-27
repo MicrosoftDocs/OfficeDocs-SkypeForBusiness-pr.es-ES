@@ -1,5 +1,6 @@
 ---
 title: Alta disponibilidad y administración del grupo de servidores front-end
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Obtenga información acerca de la administración de grupo de servidores Front-End en Skype para Business Server, incluida la administración de grupos de servidores, pérdida de quórum y pasos especiales para grupos de servidores con sólo dos servidores Front-End.
-ms.openlocfilehash: ba15e090829256188763a0e7791cebb29f097422
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 43c8e3fffb010bf268f94970b5cca25ecee7cd58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005249"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894198"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidad y administración del grupo de servidores front-end
  

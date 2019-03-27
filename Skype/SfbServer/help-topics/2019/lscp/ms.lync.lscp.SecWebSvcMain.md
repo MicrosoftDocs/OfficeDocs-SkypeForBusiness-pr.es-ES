@@ -1,5 +1,6 @@
 ---
-title: Configuración de seguridad del servicio Web
+title: Configuración de seguridad del servicio web
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4ea30583-e5bd-4498-9bd8-38604c61e658
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 1abfb2fda0767a18f443dfe1e0dbb6e112c18830
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4158a0aa4317a2d8b73e545bb303046eca858e96
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880203"
 ---
-# <a name="web-service-security-settings"></a>Configuración de seguridad del servicio Web
+# <a name="web-service-security-settings"></a>Configuración de seguridad del servicio web
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

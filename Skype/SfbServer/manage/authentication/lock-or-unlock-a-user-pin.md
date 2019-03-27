@@ -1,5 +1,6 @@
 ---
 title: Bloquear o desbloquear un usuario PIN en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Resumen: Bloquear o desbloquear telefónico PIN de la conferencia un usuario de Skype para Business Server.'
-ms.openlocfilehash: 89e971ac8c935c7998c206ce365c8899e0617cc4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb90cd54ac5f339050adc51378e42d2542e489fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20986326"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895394"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear o desbloquear un usuario PIN en Skype para Business Server
  
@@ -31,11 +32,11 @@ Puede bloquear o desbloquear un PIN de usuario de la sección **usuarios** de Sk
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. Utilice uno de los métodos siguientes para encontrar a un usuario:
+4. Use uno de los métodos siguientes para encontrar a un usuario:
     
     - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-    - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+    - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
     
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     
@@ -62,11 +63,11 @@ Puede bloquear o desbloquear un PIN de usuario de la sección **usuarios** de Sk
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. Utilice uno de los métodos siguientes para encontrar a un usuario:
+4. Use uno de los métodos siguientes para encontrar a un usuario:
     
    - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
     
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     

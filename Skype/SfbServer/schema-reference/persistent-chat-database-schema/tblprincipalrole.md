@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalRole
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,33 +10,34 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-description: tblPrincipalRole contiene funciones explícitas que se asigna a los nodos.
-ms.openlocfilehash: 0e6c7f60f372bc14542567ccaa1b1b1a837c6c6d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: la tabla PrincipalRole contiene roles explícitos asignados a nodos.
+ms.openlocfilehash: 69cfb0cb2b821064801a07510758514bb5d33128
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890772"
 ---
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
-tblPrincipalRole contiene funciones explícitas que se asigna a los nodos.
+la tabla PrincipalRole contiene roles explícitos asignados a nodos.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|prinRoleNodeID  <br/> |int, no nulo  <br/> |Identificador de nodo al que se aplica la función.  <br/> |
-|prinRolePrinID  <br/> |int, no nulo  <br/> |Id. principal  <br/> |
-|prinRoleTypeID  <br/> |int, no nulo  <br/> |Identificador de tipo de papel (de tblRoleType).  <br/> |
-|prinRoleUpdatedBy  <br/> |int, no nulo  <br/> |Identificador de la entidad de seguridad que se actualizó por última vez esta entrada.  <br/> |
+|prinRoleNodeID  <br/> |int, no es nulo  <br/> |Identificador de nodo que se aplica la función.  <br/> |
+|prinRolePrinID  <br/> |int, no es nulo  <br/> |Identificador de entidad de seguridad.  <br/> |
+|prinRoleTypeID  <br/> |int, no es nulo  <br/> |Identificador de tipo de función (de tblRoleType).  <br/> |
+|prinRoleUpdatedBy  <br/> |int, no es nulo  <br/> |Identificador de la entidad de seguridad que actualizó por última vez esta entrada.  <br/> |
    
 **Claves**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
 |\<prinRoleNodeID, prinRolePrinID, prinRoleTypeID\>  <br/> |Clave principal.  <br/> |
-|prinRoleNodeID  <br/> |Clave externa con la búsqueda en la tabla tblNode.nodeID.  <br/> |
-|prinRolePrinID  <br/> |Clave externa con la búsqueda en la tabla tblPrincipal.prinID.  <br/> |
-|prinRoleTypeID  <br/> |Clave externa con la búsqueda en la tabla tblRoleType.rtypeID.  <br/> |
+|prinRoleNodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
+|prinRolePrinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
+|prinRoleTypeID  <br/> |Clave externa con búsqueda en la tabla principal.prinid.  <br/> |
    
 

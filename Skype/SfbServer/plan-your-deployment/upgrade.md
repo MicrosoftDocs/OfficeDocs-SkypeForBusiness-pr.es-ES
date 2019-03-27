@@ -1,5 +1,6 @@
 ---
 title: Planear la actualización a Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumen: Conozca las cosas que debe tener en cuenta al planear una actualización a Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: dd62ee7b8b7721b8ace7c3e49dd69df60d3229f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375137"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899168"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planear la actualización a Skype Empresarial Server 2015
  
@@ -147,7 +148,7 @@ Este método consiste en mover a los usuarios a otro grupo antes de comenzar la 
    - Para los servidores de los demás grupos, use Start-CSWindowsService.
     
 > [!NOTE]
->  Si no quiere actualizar las bases de datos existentes de archivado y supervisión, elimine esta dependencia antes de actualizar la topología. Si quiere crear nuevas bases de datos de archivado y supervisión, durante la actualización puede crear un nuevo almacén SQL y asociarlo al grupo. Puede encontrar los pasos sobre cómo hacerlo en el tema,[actualizar a Skype para Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). > Actualización en contexto no admite alta disponibilidad o recuperación ante desastres para Skype para Business Server. Para evitar la interrupción de los servicios de los usuarios, utilice el [método Move Users (sin tiempo de inactividad de usuario)](upgrade.md#bkmk_MoveUsersMethod) a la actualización. > durante el proceso de actualización de la réplica de xds se coloca en la carpeta compartida local en la unidad de disco con más espacio libre. Si el disco se desconecta posteriormente, pueden producirse problemas (por ejemplo, servicios que no se inicien).
+>  Si no quiere actualizar las bases de datos existentes de archivado y supervisión, elimine esta dependencia antes de actualizar la topología. Si quiere crear nuevas bases de datos de archivado y supervisión, durante la actualización puede crear un nuevo almacén SQL y asociarlo al grupo. Puede encontrar los pasos sobre cómo hacerlo en el tema,[actualizar a Skype para Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md). actualización en contexto de > no admite alta disponibilidad o recuperación ante desastres para Skype para Business Server. Para evitar la interrupción de los servicios de los usuarios, utilice el [método Move Users (sin tiempo de inactividad de usuario)](upgrade.md#bkmk_MoveUsersMethod) a upgrade.> durante el proceso de actualización de que la réplica de xds se coloca en la carpeta compartida local en la unidad de disco con más espacio libre. Si el disco se desconecta posteriormente, pueden producirse problemas (por ejemplo, servicios que no se inicien).
   
 ### <a name="upgrade-order"></a>Orden de actualización
 
@@ -183,11 +184,11 @@ Al migrar una topología de Lync Server 2010 a Skype Empresarial Server 2015, de
   
 Para topologías de coexistencia de Lync Server 2010 y Lync Server 2013, alinear primero las recomendaciones realizadas en la sección 'Soporte técnico para la coexistencia con Lync Server 2013 y Lync Server 2010'.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Actualización de Skype para Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
-[Requisitos del entorno para Skype Empresarial Server 2015](requirements-for-your-environment/environmental-requirements.md)
+[Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   
-[Requisitos del servidor para Skype Empresarial Server 2015](requirements-for-your-environment/server-requirements.md)
+[Server requirements for Skype for Business Server 2015](requirements-for-your-environment/server-requirements.md)

@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de servidores perimetrales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-description: 'El nodo del borde piscinas enumera los grupos de borde en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 62e77cbf86a692d6245ad262918188e3e0e15a11
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Grupos de servidores perimetrales contiene los grupos de servidores perimetrales de la topología. You can perform the following action:'
+ms.openlocfilehash: 7cdd190f1a39d51815ccfd3751f193adacd02cca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891688"
 ---
 # <a name="edge-servers-scope-node"></a>Nodo de ámbito de servidores perimetrales
  

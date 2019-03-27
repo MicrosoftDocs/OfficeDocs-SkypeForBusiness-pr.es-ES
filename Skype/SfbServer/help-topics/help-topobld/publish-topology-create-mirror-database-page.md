@@ -1,5 +1,6 @@
 ---
-title: Publicar la topología de creación de página de la base de datos de reflejo
+title: Publicar página de topología Crear base de datos de reflejo
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: 28ba8b6be560d035e9d10d5dace778b2a74207de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c5efe9f89adb999667ab82ca1b9909fa5dc1795c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969399"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896003"
 ---
-# <a name="publish-topology-create-mirror-database-page"></a>Publicar la topología de creación de página de la base de datos de reflejo
+# <a name="publish-topology-create-mirror-database-page"></a>Publicar página de topología Crear base de datos de reflejo
  
 Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
   
@@ -27,6 +28,6 @@ Generador de topología analiza todas las opciones de configuración en el docum
   
  Si selecciona para elegir no instalar una o todas estas bases de datos en este momento, desactive las bases de datos que no se instalará. En un momento posterior, opta por usar **Instalar base de datos** haciendo clic en la mayoría de los elementos de nodo en el generador de topología.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

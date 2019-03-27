@@ -1,5 +1,6 @@
 ---
 title: Informe de resumen de actividad punto a punto en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Resumen: Información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.'
-ms.openlocfilehash: 20eab96b870b0ce4bef0e516116cbc39d6a4c7e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0502fc3880a4a04369f6717e67093d359c2b8af7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975728"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882575"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype para Business Server
  
@@ -40,7 +41,7 @@ Obtenga acceso al Informe de resumen de actividad punto a punto desde la página
     
 Igualmente, puede abrir el informe de voz y vídeo punto a punto haciendo clic en una de estas métricas:
   
-- Total de sesiones de audio punto a punto
+- Total de sesiones de audio de punto a punto
     
 - Total de minutos de sesiones de audio punto a punto
     

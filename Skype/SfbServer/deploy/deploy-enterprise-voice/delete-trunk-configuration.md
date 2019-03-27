@@ -1,5 +1,6 @@
 ---
 title: Eliminar una colección existente de opciones de configuración del tronco SIP en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumen: Obtenga información sobre cómo eliminar una colección de configuraciones de tronco mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 27e022588798e848cf690bb643d921e46d827b39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23890540"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890553"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de opciones de configuración del tronco SIP en Skype para Business Server
  
@@ -48,11 +49,11 @@ Los Administradores también pueden crear configuraciones de tronco personalizad
     
 3. La propiedad **Estado** para la recopilación se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la recopilación, haga clic en **Confirmar** y luego en **Confirmar todo**.
     
-4. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en haga clic en **Aceptar**.
+4. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en **Aceptar**.
     
 5. En el cuadro de diálogo de **Skype para el Panel de Control de Business Server** haga clic en **Aceptar**.
     
-6. Si cambia de opinión y decide no eliminar la recopilación, haga clic en **Confirmar** y, a continuación, haga clic en **Cancelar todos los cambios no confirmados**. Cuando aparezca el cuadro de diálogo de **Skype para el Panel de Control de servidor empresarial** , haga clic en **Aceptar**.
+6. If you change your mind and decide not to delete the collection, click **Commit** and then click **Cancel All Uncommitted Changes**. Cuando aparezca el cuadro de diálogo de **Skype para el Panel de Control de servidor empresarial** , haga clic en **Aceptar**.
     
 ## <a name="removing-trunk-configuration-settings-by-using-skype-for-business-server-management-shell-cmdlets"></a>Eliminación de opciones de configuración de tronco utilizando Skype para Cmdlets de Shell de administración de servidor empresarial
 

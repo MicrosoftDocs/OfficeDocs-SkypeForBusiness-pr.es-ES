@@ -1,5 +1,6 @@
 ---
 title: Tronco compatibilidad con múltiples en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para la funcionalidad de Business Server admite varias asociaciones entre los servidores de mediación y puertas de enlace. Estas asociaciones se realizan mediante la definición de un tronco, que es una asociación lógica entre un grupo de servidores de mediación y una telefónica conmutada (RTC) de red puerta de enlace, controlador de borde de sesión (SBC) o IP-PBX. Use el generador de topología para asociar las puertas de enlace con los servidores de mediación (es decir, troncos).
-ms.openlocfilehash: 086d345eb7492423526466cc77a2ce0d0d9a998e
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5d093bee56597474f0cefcf1053536774f2eb795
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896570"
 ---
 # <a name="multiple-trunk-support-in-skype-for-business-server"></a>Tronco compatibilidad con múltiples en Skype para Business Server
 

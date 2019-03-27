@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver Chat persistente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Los miembros del rol CsPersistentChatAdministrator (administradores de Chat persistente) pueden conceder permisos y derechos de administrador de salón de chat a otros usuarios y a ellos mismos.
-ms.openlocfilehash: 3fcf75ece119ff8ce11aa09d146df5b481b05efa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246999"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888157"
 ---
-# <a name="users-view-persistent-chat"></a>Usuarios: Ver Chat persistente
+# <a name="users-view-persistent-chat"></a>Usuarios: Ver chat persistente
 
 Los miembros del rol **CsPersistentChatAdministrator** (administradores de Chat persistente) pueden conceder permisos y derechos de administrador de salón de chat a otros usuarios y a ellos mismos.
 
@@ -43,7 +44,7 @@ Puede realizar las siguientes tareas en la **a los usuarios: ver Chat persistent
 
 - [Habilitar un usuario administrar categorías, salones de Chat y derechos de usuario y permisos](https://technet.microsoft.com/library/6c551be3-bc74-4d0e-9008-ddfabd86e940.aspx)
 
-- [Descripción de la pertenencia de Chat en grupo](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
+- [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)
 
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

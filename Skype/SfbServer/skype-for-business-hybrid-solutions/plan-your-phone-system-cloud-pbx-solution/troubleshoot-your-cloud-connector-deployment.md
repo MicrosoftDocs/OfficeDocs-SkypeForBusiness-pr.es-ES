@@ -1,5 +1,6 @@
 ---
 title: Solución de problemas con la implementación de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: 2290d032f1461c37c31d138510388f17a52f5843
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531908"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894469"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -179,7 +180,7 @@ A continuación se muestran soluciones para problemas habituales:
     
 - **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
     
-  **Resolución:** esto puede producirse cuando se actualiza de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance` migrará el archivo module.ini de %perfilusuario%\CloudConnector a %ProgramData%\CloudConnector. Si no se hizo esto, se creará un nuevo module.ini en la carpeta %ProgramData%\CloudConnector y se reemplazará la información de la versión de copia de seguridad/en ejecución para 1.3.4 o 1.3.8.
+  **Resolución:** Esto puede ocurrir cuando se actualiza desde 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el archivo .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance`va a migrar el archivo module.ini desde %UserProfile%\CloudConnector a % ProgramData%\CloudConnector. Si se lo haya perdido, un module.ini nueva se creará en la carpeta %ProgramData%\CloudConnector y reemplace la información de versión de copia de seguridad o ejecución para 1.3.4 o 1.3.8.
     
   Compare los archivos module.ini files en la carpeta %perfilusuario%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en %ProgramData%\CloudConnector y volver a ejecutar `Register-CcAppliance`. También puede modificar el archivo manualmente a la ejecución correcta y la versión de copia de seguridad.
     

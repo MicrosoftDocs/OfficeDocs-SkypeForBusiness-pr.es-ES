@@ -1,5 +1,6 @@
 ---
 title: Configuración de dispositivo
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 description: Una configuración de dispositivo es una colección de configuración que se utiliza para administrar Skype para dispositivos de negocio Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: 14314e32c4ed277a1d823bfc3671f9b126f977e4
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 20f288ab601fb53aa9d4dbb622170da8964fc9e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503203"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890807"
 ---
 # <a name="device-configuration"></a>Configuración de dispositivo
  
@@ -41,7 +42,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
   - Sitio
     
-- **Editar** Puede cambiar las opciones de configuración de un dispositivo en la lista. Esta opción permite hacer lo siguiente:
+- **Editar** Puede cambiar las opciones de configuración de un dispositivo en la lista. Al usar esta opción, puede hacer lo siguiente:
     
   - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones para una configuración de dispositivo.
     
@@ -51,7 +52,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 - **Actualizar** Puede actualizar la lista de configuración de dispositivo para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de dispositivo: Crear nueva o editar existente](device-configuration-create-new-or-edit-existing.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Editar expansor de configuración perimetral para Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Modificar la configuración para el servidor perimetral o grupo de servidores perimetrales mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: 3a3dd5fa1521bf23252bef85c3c26842258413f7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892381"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar expansor de configuración perimetral para Lync Server 2010
  
@@ -61,9 +62,9 @@ En esta sección de las propiedades permite editar las propiedades de la configu
     > [!IMPORTANT]
     > Si ha seleccionado la **de dirección IP y FQDN independiente de habilitar para la conferencia web y / V** casilla de verificación, el servicio de servidor perimetral de acceso FQDN del grupo estará disponible para su edición. Asignar puertos distintos para cada uno de los tres servicios perimetrales.
   
-  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
-  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
   
   **Ayuda** Abre esta pantalla de ayuda.
   
