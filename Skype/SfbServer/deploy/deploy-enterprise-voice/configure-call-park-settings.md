@@ -1,5 +1,6 @@
 ---
 title: Configuración del estacionamiento de llamadas en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,30 +14,30 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4a80b9e60085c3091aacbbf619f0dbe672b64251
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373680"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891653"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configuración del estacionamiento de llamadas en Skype para la empresa
 
 Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
 
-Si no desea usar la configuración predeterminada de estacionamiento de llamadas, puede personalizarlos. Cuando se instala la aplicación de estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use el cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
+Si no desea usar la configuración predeterminada de estacionamiento de llamadas, puede personalizarlos. Cuando se instala la aplicación de estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
 
 > [!NOTE]
 > Como mínimo, se recomienda configurar la opción **OnTimeoutURI** para el destino de reserva que se usará cuando el tiempo de espera de una llamada estacionada se agote y deje de sonar.
 
-Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** para configurar cualquiera de las siguientes opciones:
+Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** para configurar cualquiera de las opciones siguientes:
 
 
 | **Esta opción:**                     | **Especifica:**                                                                                                                                                                                                                                                                                                                   |
 |:-------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CallPickupTimeoutThreshold** <br/> | El tiempo que transcurre después de estacionar la llamada hasta que vuelve a sonar en el teléfono en el que se respondió.  <br/> El valor debe introducirse con el formato hh:mm:ss para especificar las horas, los minutos y los segundos. El valor mínimo es 10 segundos y el máximo, 10 minutos. El valor predeterminado es 00:01:30.  <br/> |
 | **EnableMusicOnHold** <br/>          | Si la persona que llama escuchará música mientras la llamada está estacionada.  <br/> Los valores son True o False. El valor predeterminado es True.  <br/>                                                                                                                                                                                                                 |
-| **Valor de MaxCallPickupAttempts** <br/>      | El número de veces que una llamada estacionada vuelve a sonar en el teléfono en que se respondió antes de transferirla al identificador uniforme de recursos (URI) de reserva que se especifique para **OnTimeoutURI**. El valor predeterminado es 1.<br/>                                                                                                                         |
+| **MaxCallPickupAttempts** <br/>      | El número de veces que una llamada estacionada vuelve a sonar en el teléfono en que se respondió antes de transferirla al identificador uniforme de recursos (URI) de reserva que se especifique para **OnTimeoutURI**. El valor predeterminado es 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | La dirección SIP del usuario o grupo de respuesta al que se enruta una llamada estacionada que no se responda cuando se supera el valor de **MaxCallPickupAttempts**. <br/> El valor debe ser un URI de SIP que comience por sip:. Por ejemplo, sip:bob@contoso.com. El valor predeterminado corresponde a sin dirección de transferencia.<br/>                                                   |
 
 ### <a name="to-configure-call-park-settings"></a>Para configurar las opciones de estacionamiento de llamadas
@@ -58,7 +59,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Personalizar la música de espera para el estacionamiento de llamadas en Skype Empresarial 2015](customize-call-park-music-on-hold.md)
 

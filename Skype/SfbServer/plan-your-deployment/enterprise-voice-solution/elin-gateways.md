@@ -1,5 +1,6 @@
 ---
 title: Administración de ubicaciones para puertas de enlace ELIN en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con puertas de enlace ELIN, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 622593285ef4b1643f19d54f6c7d2f5c1e956c84
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885667"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894694"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administración de ubicaciones para puertas de enlace ELIN en Skype para Business Server
 
@@ -32,10 +33,10 @@ Para que tenga Skype para Business Server proporcione automáticamente las ubica
 
 - Carga los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC).
 
-Para obtener información detallada sobre cómo realizar estas tareas, vea [Configurar la base de datos de la ubicación](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
+Para obtener más información sobre la ejecución de estas tareas, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
 
 > [!NOTE]
-> Las ubicaciones agregadas a la base de datos de ubicación central no están disponibles para el cliente hasta que se hayan publicado mediante el uso de un Skype para el comando de Shell de administración de servidor empresarial y se replican en tiendas locales del grupo de servidores. Para obtener información detallada, consulte [la base de datos de la ubicación de publicación](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
+> Las ubicaciones agregadas a la base de datos de ubicación central no están disponibles para el cliente hasta que se hayan publicado mediante el uso de un Skype para el comando de Shell de administración de servidor empresarial y se replican en tiendas locales del grupo de servidores. Para obtener más información, mira [Publishing the Location Database](https://technet.microsoft.com/library/dd032b5b-df0e-4017-ac46-e17570c1ab1e.aspx) en la documentación de implementación.
 
 Esta sección describe qué necesitas tener en cuenta cuando planificas la actualización y el mantenimiento de la base de datos de ubicaciones.
 
@@ -85,7 +86,7 @@ Mediante el uso de la opción de servicio de información de ubicación secundar
 
 Para integrar con el servicio de información de ubicación, la base de datos de terceros debe seguir el Skype para el esquema de solicitud y respuesta de Business Server ubicación. Para obtener información detallada, vea [Servicio de Web para E911 compatibilidad con protocolo](https://go.microsoft.com/fwlink/p/?linkid=213819). Para obtener información detallada sobre la implementación de un servicio de información de ubicación secundaria, vea [Configure un servicio de información de ubicación secundario en Skype para Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) en la documentación de implementación.
 
-Para obtener información detallada sobre cómo rellenar la base de datos de ubicación, vea [Configure la base de datos de la ubicación](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación de implementación.
+Para obtener más información sobre cómo rellenar la base de datos de ubicaciones, mira [Configure the Location Database](https://technet.microsoft.com/library/8544be31-6958-47ef-b926-fdc80d56191c.aspx) en la documentación sobre implementación.
 
 ## <a name="maintaining-the-location-database"></a>Mantener la base de datos de ubicaciones
 

@@ -1,5 +1,6 @@
 ---
 title: Crear registros DNS para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Resumen: Obtenga información sobre cómo configurar DNS y crear registros DNS para una instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0090cdd19d0bef8b73ad79bd8c7f0d36a5044a48
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 35e8aecea74cc74cda6ea086a1765642885a091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890686"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Crear registros DNS para Skype para Business Server
  
@@ -49,10 +50,10 @@ En este ejemplo usamos un FQDN con equilibrio de carga de DNS llamado pool.conto
 |FQDN del grupo de servidores  <br/> |A  <br/> |pool.contoso.local  <br/> |Dirección IP del servidor SFB03  <br/> |DNS  <br/> |
 |FQDN de SFB03  <br/> |A  <br/> |SFB03.contoso.local  <br/> |Dirección IP del servidor SFB03  <br/> |DNS  <br/> |
 |Detección automática de Skype Empresarial  <br/> |A  <br/> |lyncdiscoverinternal.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
-|URL sencilla de reunión  <br/> |A  <br/> |Meet.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
+|URL sencilla de reunión  <br/> |A  <br/> |meet.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
 |URL sencilla de marcado  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
-|Dirección URL del Programador web  <br/> |A  <br/> |Scheduler.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
-|URL sencilla de administración  <br/> |A  <br/> |Admin.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
+|Dirección URL del Programador web  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
+|URL sencilla de administración  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP para los servicios web internos  <br/> |Software y hardware compatibles  <br/> |
 |Detección heredada  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |FQDN del grupo de servidores (puerto 5061)  <br/> |N/D  <br/> |
    
 ### <a name="create-dns-records"></a>Crear registros de DNS

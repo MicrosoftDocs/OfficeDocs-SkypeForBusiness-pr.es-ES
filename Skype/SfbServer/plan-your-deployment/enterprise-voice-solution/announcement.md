@@ -1,5 +1,6 @@
 ---
 title: Planeación de la aplicación de anuncio en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planeación de la aplicación de anuncio en Skype para Business Server Enterprise Voice, que configura qué hacer con las llamadas telefónicas a los números de teléfono sin asignar en sus organizaciones. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: 2642dc13653f18520371b31c9e5ff41bc6a479d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5e3b9af1a6bdc83081a1a8f17cd4963337efbbb6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882108"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896563"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planeación de la aplicación de anuncio en Skype para la empresa
 
@@ -43,10 +44,10 @@ Todos los servidores Front-End o servidores Standard Edition que ejecutan la apl
 La aplicación de anuncio usa **5071 de puerto** para solicitudes de escucha SIP.
 
 > [!NOTE]
-> Este puerto es el valor predeterminado, que se puede cambiar mediante el cmdlet **Set-CsApplicationServer** . Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
+> Este puerto es el predeterminado, pero puedes cambiarlo utilizando el cmdlet **Set-CsApplicationServer**. Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
 
 ### <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
-La aplicación de anuncio es compatible con formato de archivo de onda (.wav) y audio de Windows Media (.wma) formato de archivo de música y anuncios. Requisitos de archivo de audio para la aplicación de anuncio son los mismos que para la aplicación de grupo de respuesta. Para obtener información detallada, vea [Requisitos técnicos para grupos de respuesta](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
+La aplicación de anuncio es compatible con formato de archivo de onda (.wav) y audio de Windows Media (.wma) formato de archivo de música y anuncios. Requisitos de archivo de audio para la aplicación de anuncio son los mismos que para la aplicación de grupo de respuesta. Si desea información detallada, mire [Technical Requirements for Response Groups](https://technet.microsoft.com/library/477488bd-124f-437b-9327-732a0d7271ca.aspx).
 
 

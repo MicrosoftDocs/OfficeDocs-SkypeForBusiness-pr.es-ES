@@ -1,5 +1,6 @@
 ---
 title: Informe de diagnóstico en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Resumen: Información sobre el informe de diagnóstico en Skype para Business Server.'
-ms.openlocfilehash: 15ef3d6e5663dee7ec0056ed48dc45119ad09db2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 21f5a15495c925f401442bd6443b42d1d0bdd16d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966387"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898154"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype para Business Server
  

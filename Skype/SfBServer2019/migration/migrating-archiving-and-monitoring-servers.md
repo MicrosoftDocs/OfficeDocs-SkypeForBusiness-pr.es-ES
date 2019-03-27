@@ -1,5 +1,6 @@
 ---
 title: Migración de servidores de archivado y supervisión
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si ha implementado el servidor de archivado y el servidor de supervisión en el entorno heredado, puede implementar estos servidores en su Skype para entorno empresarial Server 2019 después de migrar los grupos de servidores Front-End. Sin embargo, si la funcionalidad de supervisión y archivado son críticos para la organización, debe agregar el archivado y supervisión a su Skype para el grupo piloto Business Server 2019 antes de migrar para que la funcionalidad esté disponible durante el proceso de migración.
-ms.openlocfilehash: cd6e3bf7ef04ca7906b707a30211d0c22d22d837
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 24dc3e3007fd9a58c23f9c15a31cccc766d45e83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028757"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896095"
 ---
 # <a name="migrating-archiving-and-monitoring-servers"></a>Migración de servidores de archivado y supervisión
 

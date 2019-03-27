@@ -1,5 +1,6 @@
 ---
 title: Restablecer el control de admisión de llamadas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si un grupo de servidores Front-End heredado hospeda el control de admisión de llamadas (CAC), debe mover CAC que hospeda a un Skype para Business Server 2019 grupo para poder quitar el grupo de servidores Front-End heredado.
-ms.openlocfilehash: 65d56d000c5bcec5f7aae73413c287dee8ab29ca
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b94322b86feb2c647f88102617ab1dcc9d5f8bc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895778"
 ---
 # <a name="reset-call-admission-control"></a>Restablecer el control de admisión de llamadas
 

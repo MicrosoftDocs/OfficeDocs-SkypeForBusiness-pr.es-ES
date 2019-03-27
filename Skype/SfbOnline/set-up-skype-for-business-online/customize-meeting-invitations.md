@@ -1,5 +1,6 @@
 ---
 title: Personalizar invitaciones a reuniones
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Personalizar las invitaciones a reuniones de Skype con logotipos gráficos, ayuda y direcciones URL legales y texto de pie de página. '
-ms.openlocfilehash: a5ea519ddc762e861b8c3bad173139c328d8bab4
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493525"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897338"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 

@@ -1,5 +1,6 @@
 ---
-title: Obtener el cubo
+title: Obtener cubo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Resumen: Obtenga información acerca de la operación obtener cubo, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 228ebd8f9bcb6db919f418ef9809bce1b3eb7f90
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 5c0623b92c9169a9e54f92d21358fb377c84a8f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532470"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897139"
 ---
-# <a name="get-cube"></a>Obtener el cubo
+# <a name="get-cube"></a>Obtener cubo
  
 **Resumen:** Obtenga información acerca de la operación obtener cubo, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación obtener Cube es parte de la API de datos para llamar al panel de calidad.
   
-## <a name="get-cube"></a>Obtener el cubo
+## <a name="get-cube"></a>Obtener cubo
 
 Operación de cubo Get devuelve la lista de dimensiones disponibles y las medidas.
   

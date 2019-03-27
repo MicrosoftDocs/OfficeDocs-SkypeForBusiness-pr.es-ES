@@ -1,5 +1,6 @@
 ---
 title: Definir FQDN de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Crear un nuevo servidor de Chat persistente o el grupo de servidores de Chat persistente mediante el Asistente para definir nuevo grupo de Chat persistente. Seleccione un Grupo de varios equipos o un Grupo de un solo equipo. Si selecciona un grupo de un solo equipo y, más adelante, necesita uno de varios equipos, deberá eliminar el grupo de un solo equipo y definir uno de varios equipos.
-ms.openlocfilehash: a7b07fae815b27c1dac031a3694f1effe2193dd4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: e05eb50751b92c9f4ce6b05c23314683afd5b5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21061116"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898616"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definir FQDN de chat persistente
 

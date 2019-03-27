@@ -1,5 +1,6 @@
 ---
 title: Preparar esquema (introducción)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e74f0ef5-4ced-489e-9509-e0464dad5c24
-description: Para iniciar la tarea de extender el esquema de Skype para Business Server 2015, comenzar en la página Preparar esquema. Haga clic en siguiente para continuar con la preparación del esquema.
-ms.openlocfilehash: cd0103b6f6f17c03e32991e8f95d7b42e4899fe4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para iniciar la tarea para extender el esquema de Skype para Business Server 2015, comenzar en la página preparar el esquema. Haga clic en Siguiente para continuar con la preparación del esquema.
+ms.openlocfilehash: 7454e82fac3c2af03d640d499feeaf54dcdf38f7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892888"
 ---
 # <a name="prepare-schema-intro"></a>Preparar esquema (introducción)
  
-Para iniciar la tarea de extender el esquema de Skype para Business Server 2015, comenzar en la página **Preparar esquema** . Haga clic en **Siguiente** para continuar con la preparación del esquema.
+Para iniciar la tarea para extender el esquema de Skype para Business Server 2015, comenzar en la página **Preparar el esquema** . Haga clic en **Siguiente** para continuar con la preparación del esquema.
   
 

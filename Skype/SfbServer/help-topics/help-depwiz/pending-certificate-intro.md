@@ -1,5 +1,6 @@
 ---
-title: Certificado pendiente (Introducción)
+title: Certificado pendiente (introducción)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 description: Para procesar una solicitud de certificado en línea pendiente, es decir, una solicitud que se han emitido a la entidad de certificación en línea pero o está establecida en requieren un proceso de aprobación manual, haga clic en siguiente.
-ms.openlocfilehash: 1e43faba5809766939af3658f2b6a2bc01b3da15
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8b474d4b577cbbac90863a291f1c197ccf9f572d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981848"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895785"
 ---
-# <a name="pending-certificate-intro"></a>Certificado pendiente (Introducción)
+# <a name="pending-certificate-intro"></a>Certificado pendiente (introducción)
  
 Para procesar una solicitud de certificado en línea pendiente, es decir, una solicitud que se han emitido a la entidad de certificación en línea pero o está establecida en requieren un proceso de aprobación manual, haga clic en **siguiente**.
   

@@ -1,5 +1,6 @@
 ---
-title: Inicio CcLogging
+title: Start-CcLogging
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 'El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition. '
-ms.openlocfilehash: 26056f06ed8d7d3982729e9caab69a01eca189d6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892507"
 ---
-# <a name="start-cclogging"></a>Inicio CcLogging
+# <a name="start-cclogging"></a>Start-CcLogging
  
 El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition.  
   
@@ -42,7 +44,7 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Start-CcLogging proporciona una manera para que los administradores empezar a registrar las llamadas entrantes y salientes en un dispositivo conector de nube. De manera predeterminada, el registro se detendrá automáticamente después de cuatro horas.
+El cmdlet Start-CcLogging proporciona una manera para que los administradores empezar a registrar las llamadas entrantes y salientes en un dispositivo de conector en la nube. De manera predeterminada, el registro se detendrá automáticamente después de cuatro horas.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -57,8 +59,8 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Búsqueda CcLog](search-cclog.md)
+[Search-CcLog](search-cclog.md)
   
-[Parada CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

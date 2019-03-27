@@ -1,5 +1,6 @@
 ---
-title: Quitar instancias de SQL Server y bases de datos en el servidor Back-End
+title: Quitar instancias de SQL Server y bases de datos en el servidor back-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Quitar las bases de datos de Microsoft SQL Server y sesiones después de quitar los servidores que ejecutan son dependientes en ellos, o después de volver a configurar los servidores para usar otra base de datos. Debe realizar el procedimiento de este tema al retirar la versión actual de SQL Server o volver a configurar el servidor actual de forma que se representa las bases de datos obsoletos o no está disponible.
-ms.openlocfilehash: 648c808ee293c4fa33352d0f68ba337e4a489d27
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027882"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898743"
 ---
-# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Quitar instancias de SQL Server y bases de datos en el servidor Back-End
+# <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Quitar instancias de SQL Server y bases de datos en el servidor back-end
 
 Quitar las bases de datos de Microsoft SQL Server y sesiones después de quitar los servidores que ejecutan son dependientes en ellos, o después de volver a configurar los servidores para usar otra base de datos. Debe realizar el procedimiento de este tema al retirar la versión actual de SQL Server o volver a configurar el servidor actual de forma que se representa las bases de datos obsoletos o no está disponible.
   
@@ -23,10 +24,10 @@ Para quitar las bases de datos o instancias para el servidor de archivado o el s
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Quitar la base de datos de SQL Server para un grupo de servidores Front-End](remove-the-sql-server-database-for-a-front-end-pool.md)
+- [Quitar la base de datos de SQL Server para un grupo de servidores front-end](remove-the-sql-server-database-for-a-front-end-pool.md)
     
-- [Quitar la base de datos de SQL Server para un servidor de supervisión](remove-the-sql-server-database-for-a-monitoring-server.md)
+- [Quitar la base de datos de SQL Server de un servidor de supervisión](remove-the-sql-server-database-for-a-monitoring-server.md)
     
-- [Quitar la base de datos de SQL Server para un servidor de archivado](remove-the-sql-server-database-for-an-archiving-server.md)
+- [Quitar la base de datos de SQL Server de un servidor de archivado](remove-the-sql-server-database-for-an-archiving-server.md)
     
 

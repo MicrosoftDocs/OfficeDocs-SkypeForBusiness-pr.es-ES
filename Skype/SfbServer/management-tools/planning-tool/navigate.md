@@ -1,5 +1,6 @@
 ---
 title: Navegar por la Herramienta de planeación en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
 description: Navegue el Skype para la herramienta de planeación de Business Server 2015 mediante una combinación de una barra de herramientas, los botones específicos de la página y vínculos y paneles específicos del contexto. Los paneles contextuales proporcionan información de diseño sobre la planeación y la capacidad que resulta relevante para tomar las decisiones de selección en una página determinada.
-ms.openlocfilehash: eaaa560765b3ab49d5aeb3746e323e30a97aba90
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 64e8157c6511316d047709a47009769843f95958
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897569"
 ---
-# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navegar por la Herramienta de planeación en Skype Empresarial Server 2015
+# <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigate the Planning Tool in Skype for Business Server 2015
 
 Navegue el Skype para la herramienta de planeación de Business Server 2015 mediante una combinación de una barra de herramientas, los botones específicos de la página y vínculos y paneles específicos del contexto. Los paneles contextuales proporcionan información de diseño sobre la planeación y la capacidad que resulta relevante para tomar las decisiones de selección en una página determinada.
 
@@ -42,10 +43,10 @@ Además, se muestra información sobre el hardware en la información general de
 
 ![Panel de acciones de la Herramienta de planeación](../../media/Planning_Tool_Actions_Pane.jpg)
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Crear el diseño de la topología inicial para Skype Empresarial Server 2015](create-the-initial-design.md)
+[Create the initial topology design for Skype for Business Server 2015](create-the-initial-design.md)
 
-[Edición del diseño](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
+[Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)
 
-[Revisión de los informes del administrador](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

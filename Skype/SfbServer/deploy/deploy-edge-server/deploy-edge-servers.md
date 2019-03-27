@@ -1,5 +1,6 @@
 ---
 title: Implemente servidores perimetrales en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Resumen: Obtenga información sobre cómo implementar servidores perimetrales en su Skype para el entorno de servidor empresarial.'
-ms.openlocfilehash: 28a3262e49816976110aab0adde07a64c8d126fb
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: e8e3251380c996ca4fea65fd286ef9e2a9d75575
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890953"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885620"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Implemente servidores perimetrales en Skype para Business Server
  

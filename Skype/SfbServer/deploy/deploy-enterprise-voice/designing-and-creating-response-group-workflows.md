@@ -1,5 +1,6 @@
 ---
 title: Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: 9bb701cf3d4894ff46127b04a3132b6b1fb5895a
-ms.sourcegitcommit: a3181bc3707b09c1e3f87c343b38259fdc6dabd2
+ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/14/2018
-ms.locfileid: "27264863"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895558"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 
@@ -43,7 +44,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
 
-5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio**, escriba la totalidad o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o cambiar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
 
     > [!NOTE]
     > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https://\<Fqdngrupoweb\>/RgsConfig.
@@ -216,7 +217,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
    ```
 
      > [!NOTE]
-     > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Para usar un archivo de audio para el mensaje, ejecute el cmdlet **Import-CsRgsAudioFile**. Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Obtenga la identidad de la cola o la pregunta a la que se dirigirán las llamadas. En la línea de comandos, ejecute:
 
@@ -243,7 +244,7 @@ Un flujo de trabajo también define configuraciones como el mensaje de bienvenid
 
 6. Si desea definir horas laborables y vacaciones, debe crearlas antes de crear o modificar el flujo de trabajo. Para obtener información detallada, vea el [grupo de respuesta (opcional) definir el horario en Skype para la empresa](optional-define-response-group-business-hours.md) y [conjuntos de días festivos de grupo de respuesta (opcional) definir en Skype para la empresa](optional-define-response-group-holiday-sets.md).
 
-7. Si desea tener mensajes para las llamadas que se reciben fuera del horario laboral o en días festivos, use el cmdlet **New-CsRgsPrompt** para definir el símbolo del sistema y use el **New-CsRgsCallAction** para definir la acción que se realizará después el símbolo del sistema. Para obtener información detallada, vea [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
+7. Si desea tener mensajes para las llamadas que se reciben en un horario no laborable o en época de vacaciones, use el cmdlet **New-CsRgsPrompt** para definir el mensaje y el cmdlet **New-CsRgsCallAction** para definir la acción que se ejecutará después del mensaje. Para obtener información detallada, vea [New-CsRgsPrompt](https://docs.microsoft.com/powershell/module/skype/new-csrgsprompt?view=skype-ps) y [New-CsRgsCallAction](https://docs.microsoft.com/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Recuperar el nombre del servicio para el servicio de grupo de respuesta de Lync Server y asignarla a una variable. En la línea de comandos, ejecute:
 
@@ -376,7 +377,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
 
 4. En la página **Flujo de trabajo**, haga clic en **Crear o editar un flujo de trabajo**.
 
-5. En el campo de búsqueda **Seleccionar un servicio** , escriba todo o parte del nombre del servicio **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
+5. En el campo de búsqueda **Seleccionar un servicio**, escriba total o parcialmente el nombre del servicio de **ApplicationServer** que hospeda el flujo de trabajo que desea crear o modificar. En la lista de servicios resultante, haga clic en el servicio que desee y, a continuación, haga clic en **Aceptar**.
 
     > [!NOTE]
     > Se abre la herramienta de configuración de grupo de respuesta. También puede abrir la herramienta de configuración de grupo de respuesta directamente desde un explorador web, escriba la siguiente dirección URL: https://\<Fqdngrupoweb\>/RgsConfig.
@@ -641,7 +642,7 @@ En la lista siguiente se describen algunas técnicas recomendadas para diseñar 
      > [!NOTE]
      > Todos los usuarios que se han designado como administrador de un grupo de respuesta se deben asignar el rol CsResponseGroupManager. De lo contrario, no podrán administrar los grupos de respuestas.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para la empresa](optional-define-response-group-holiday-sets.md)
 

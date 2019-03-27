@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de puerta de enlace RTC
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Este nodo muestra el nombre de dominio completo (FQDN), asociados a servidor de mediación y otras informaciones básicas sobre esta puerta de enlace de telefonía pública conmutada (PSTN) de la red. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 4b9d34a9decb2989bd82ce5b1c97b10d2b8ad992
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 0dcb1632c3c1803f93eaba6a3bc271172cba08a5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892234"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace RTC
  
-Este nodo muestra el nombre de dominio completo (FQDN), asociados a servidor de mediación y otras informaciones básicas sobre esta puerta de enlace de telefonía pública conmutada (PSTN) de la red. Puede efectuar las acciones siguientes:
+Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede efectuar las acciones siguientes:
   
 - **Editar propiedades**. Abre la página **Editar propiedades** de esta puerta de enlace, en la que se puede cambiar su FQDN (si la topología no se ha publicado ya), puerto de escucha, protocolo de transporte y dirección IP de medios alternativa.
     

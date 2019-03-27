@@ -1,5 +1,6 @@
 ---
-title: Actualizar el Administrador de estadísticas de Skype para Business Server
+title: Actualizar el administrador de estadísticas para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,14 +11,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.'
-ms.openlocfilehash: e2118377fc782af6818d070bc0bd3f5ddacab99e
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297898"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897132"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el Administrador de estadísticas de Skype para Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.
   
@@ -106,8 +107,8 @@ Si, por algún motivo, se produce un error durante la actualización automática
 
 Para obtener más información, consulte lo siguiente:
   
-- [Plan para el Administrador de estadísticas de Skype para Business Server](plan.md)
+- [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     
-- [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md)
+- [Implementar el administrador de estadísticas para Skype Empresarial Server](deploy.md)
     
-- [Solucionar problemas de administrador de estadísticas de Skype para Business Server](troubleshoot.md)
+- [Solucionar problemas del administrador de estadísticas para Skype Empresarial Server](troubleshoot.md)

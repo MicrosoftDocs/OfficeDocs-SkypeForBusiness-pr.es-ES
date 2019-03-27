@@ -1,5 +1,6 @@
 ---
-title: Instalar página de opción de base de datos de reflejo
+title: Página de opción instalar base de datos de reflejo
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
-ms.openlocfilehash: 6dedf85e90791062d97e5030f0521fe648dc48c8
-ms.sourcegitcommit: 905ba61de9622dd485ff375fa75bb0d76bac0b55
+ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "22196053"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896291"
 ---
-# <a name="install-mirror-database-option-page"></a>Instalar página de opción de base de datos de reflejo
+# <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  
 > [!NOTE]
 > La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.

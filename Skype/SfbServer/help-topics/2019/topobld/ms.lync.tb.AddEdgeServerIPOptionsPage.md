@@ -1,5 +1,6 @@
 ---
-title: Agregar opciones de IP de servidor perimetral
+title: Agregar opciones IP de servidor perimetral
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype para Business Server le permite configurar las direcciones IPv4 e IPv6 para cada interfaz para el servidor perimetral y el grupo de servidores perimetrales. Para ello, realice lo siguiente:'
-ms.openlocfilehash: b4b7a80ac8f1cc9f310542a9c87c5a2c568e870b
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 727a946c6e9992b9391e7bf77238fdb61910c830
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069303"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898588"
 ---
-# <a name="add-edge-server-ip-options"></a>Agregar opciones de IP de servidor perimetral
+# <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  
 Skype para Business Server le permite configurar las direcciones IPv4 e IPv6 para cada interfaz para el servidor perimetral y el grupo de servidores perimetrales. Para ello, realice lo siguiente:
   

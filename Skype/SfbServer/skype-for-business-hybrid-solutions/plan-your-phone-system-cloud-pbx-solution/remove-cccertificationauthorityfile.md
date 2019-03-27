@@ -1,5 +1,6 @@
 ---
-title: Quitar CcCertificationAuthorityFile
+title: Remove-CcCertificationAuthorityFile
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad de servicio de autoridad de certificación en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para conector de nube Business Edition.
-ms.openlocfilehash: 0cc2470d6ee9312646feb3d459d6fb7a4c2bb30b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de entidad de certificación en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para Business Edition de conector en la nube.
+ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899627"
 ---
-# <a name="remove-cccertificationauthorityfile"></a>Quitar CcCertificationAuthorityFile
+# <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad de servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para Business Connector de nube Edition. 
+El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para la nube de Business Connector Edition. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -33,7 +35,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-El ejemplo siguiente quita el archivo de copia de seguridad de servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio:
+En el ejemplo siguiente se quita el archivo de copia de seguridad del servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido de sitio:
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -52,6 +54,6 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Copia de seguridad CcCertificationAuthority](backup-cccertificationauthority.md)
+[Backup-CcCertificationAuthority](backup-cccertificationauthority.md)
   
 

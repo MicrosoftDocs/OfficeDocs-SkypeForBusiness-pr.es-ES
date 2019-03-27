@@ -1,5 +1,6 @@
 ---
 title: Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: 'Resumen: Configure cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.'
-ms.openlocfilehash: 257814108a276d049ed4ac9173fde6dfa4473ff2
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 121e07d8bee20bef1b8fd4b06e51cf0313c018d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789394"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895219"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
  
@@ -51,7 +52,7 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 
 Se debería devolver información similar a la siguiente para cada usuario:
   
-|**Nombre de usuario**|**Contraseña**|
+|**nombre de usuario**|**Contraseña**|
 |:-----|:-----|
 |Litwareinc\watcher1  <br/> |System.Security.SecureString  <br/> |
    
@@ -369,7 +370,7 @@ En este ejemplo, un Skype para regla Business Server tendrá que existen para en
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transacción sintética de Video Interop Server (VIS)
 
-Para la transacción sintética de Video Interop Server (VIS), es necesario descargar e instalar los archivos de compatibilidad de transacción sintética ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transacción de servidor de interoperabilidad de vídeo (VISIBLES) requiere que descargue e instale los archivos de soporte técnico de transacciones sintéticas ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
 Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo .msi instala todos los archivos en la ruta de acceso siguiente: "%ProgramFiles%\VIS paquete de compatibilidad con transacciones sintéticas".
   

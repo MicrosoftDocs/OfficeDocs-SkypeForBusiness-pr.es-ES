@@ -1,5 +1,6 @@
 ---
 title: Requisitos para el entorno de Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,13 +14,13 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
-description: 'Resumen: esquema de los temas de los requisitos del sistema y los requisitos de infraestructura o de red de Skype Empresarial Server 2015. Si tiene que instalar o configurar algo como requisito previo a la instalación e implementación de Skype Empresarial Server 2015, estará aquí.'
-ms.openlocfilehash: 50844d0ed48604796ca2f9c399408c10291f4c10
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+description: 'Resumen: El esquema de temas para los requisitos de sistemas y los requisitos de red o la infraestructura de Skype para Business Server 2015. Si necesita instalar o configurar nada como un requisito previo para instalar e implementar Skype para Business Server 2015, será aquí.'
+ms.openlocfilehash: e43fc9bda052abc952bf4a4a1a8921b4ab276427
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883904"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895443"
 ---
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Requisitos para su Skype para entorno empresarial 2015
  

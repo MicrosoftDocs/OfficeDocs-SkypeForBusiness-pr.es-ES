@@ -1,5 +1,6 @@
 ---
-title: Perfil de directiva de ancho de banda
+title: Perfil de directivas de ancho de banda
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a7ad229-31f3-477e-b254-f45858213fa8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3cd4fa6d367cc0509831b06c66c054a71c8e0d4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 0b962ada48c1c24eb8d569ae0450d16e8dbfa994
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242099"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893528"
 ---
-# <a name="bandwidth-policy-profile"></a>Perfil de directiva de ancho de banda
+# <a name="bandwidth-policy-profile"></a>Perfil de directivas de ancho de banda
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

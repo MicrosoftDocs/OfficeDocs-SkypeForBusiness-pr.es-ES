@@ -1,5 +1,6 @@
 ---
 title: Plan de sitios de RTC con Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lea este tema para aprender a planear los sitios en la nube conector Edition RTC para garantizar el enrutamiento de llamadas rentable y eficiente.
-ms.openlocfilehash: fa224bd4fa3dc1d0be5db8104e414f9a78d01b30
-ms.sourcegitcommit: 58934985891818fa505ae742b1e750edccadd870
+ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "25576522"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897618"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plan de sitios de RTC con Cloud Connector Edition
  
@@ -28,21 +29,21 @@ En este tema se describe lo que necesita saber acerca de la edición de conector
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Sitios RTC con Cloud Connector y enrutamiento de llamadas
 
-Los sitios de RTC de conector en la nube son una construcción de topología creada para evitar innecesario larga distancia y tarifas país entre granjas y asegurarse de que las llamadas salientes de emergencia se enrutan al tronco adecuado. Para garantizar el enrutamiento rentable y efectivo de las llamadas, incluidas las llamadas a servicios de emergencia, debe planificar cuidadosamente los sitios RTC y el modo en que se asignan los usuarios a cada sitio. 
+Los sitios de RTC de conector en la nube son una construcción de topología creada para evitar innecesario larga distancia y tarifas país entre granjas y asegurarse de que las llamadas salientes de emergencia se enrutan al tronco adecuado. Para garantizar el enrutamiento de llamadas, incluidas las llamadas a los servicios de emergencia, rentable y eficiente debe planear cuidadosamente los sitios de RTC y cómo los usuarios se asignan a cada sitio. 
   
-Como parte de la planificación de Cloud Connector, es fundamental que comunique a los operadores dónde se encuentran las oficinas y los usuarios, y el lugar donde terminan los troncos RTC del operador. Debe trabajar con los operadores para determinar cómo llamadas de emergencia se pueden redirigir y, a continuación, usar esa información para definir sitios de RTC de conector en la nube y asignar usuarios a los sitios apropiados. Por ejemplo, debe asegurarse de que los troncos que terminan en un centro de datos en el que se extiende el sitio RTC estén configurados para administrar tanto el enrutamiento de entrada como el de salida, para todos los números asignados a los usuarios en ese sitio. 
+Como parte de la planeación para el conector en la nube, es esencial que hable de los operadores donde se encuentran sus oficinas y los usuarios, y donde los troncos RTC terminar desde el operador de. Debe trabajar con los operadores para determinar cómo llamadas de emergencia se pueden redirigir y, a continuación, usar esa información para definir sitios de RTC de conector en la nube y asignar usuarios a los sitios apropiados. Por ejemplo, debe asegurarse de que los troncos que terminan en un centro de datos en el que se extiende el sitio RTC estén configurados para administrar tanto el enrutamiento de entrada como el de salida, para todos los números asignados a los usuarios en ese sitio. 
   
-Cada dispositivo de conector de nube puede estar conectado a varias puertas de enlace IP, IP-PBX o controladores de borde de sesión (SBCs). Debido a que las puertas de enlace y PBX están conectadas a troncos de telecomunicaciones (troncos SIP o PRI), dispositivos de conector en la nube están conectados lógicamente a troncos RTC para las llamadas entrantes y salientes. Con Cloud Connector y la conectividad con RTC local, se obtiene el tronco y los números de teléfono asociados del operador local. Si su compañía es una empresa grande, es posible que tenga más de un operador, en especial si su compañía se extiende a más de una ciudad, estado, país o región. Dado que el operador es propietario del número de teléfono, este es responsable de la administración de las llamadas de emergencia.
+Cada dispositivo de conector de nube puede estar conectado a varias puertas de enlace IP, IP-PBX o controladores de borde de sesión (SBCs). Debido a que las puertas de enlace y PBX están conectadas a troncos de telecomunicaciones (troncos SIP o PRI), dispositivos de conector en la nube están conectados lógicamente a troncos RTC para las llamadas entrantes y salientes. Con el conector de la nube y la conectividad de RTC local, obtenga el tronco y el número de teléfono asociado de su operador de telefonía local. Si su compañía es una empresa grande, es posible que tenga más de un operador, en especial si su compañía se extiende a más de una ciudad, estado, país o región. Dado que el operador es propietario del número de teléfono, este es responsable de la administración de las llamadas de emergencia.
   
-Skype para profesionales Online trata por igual a todos los dispositivos de conector en la nube en un sitio y va a enrutar las llamadas salientes en forma cíclica a dispositivos de conector en la nube en el mismo sitio. Cada Cloud Connector en un sitio está interconectado al mismo conjunto de troncos RTC (completamente en malla). Debido a que cada usuario está asociada con un sitio de RTC de conector en la nube, todas las llamadas salientes desde ese usuario (normal o de emergencia) se asignará a uno de los dispositivos de conector en la nube en el sitio de RTC que está asociado el usuario. 
+Skype para profesionales Online trata por igual a todos los dispositivos de conector en la nube en un sitio y va a enrutar las llamadas salientes en forma cíclica a dispositivos de conector en la nube en el mismo sitio. Cada conector en la nube en un sitio es cruzado conectado en el mismo conjunto de troncos RTC (totalmente entrelazados). Debido a que cada usuario está asociada con un sitio de RTC de conector en la nube, todas las llamadas salientes desde ese usuario (normal o de emergencia) se asignará a uno de los dispositivos de conector en la nube en el sitio de RTC que está asociado el usuario. 
   
-Cloud Connector realiza el enrutamiento estático de llamadas a sus puertas de enlace IP asociadas, las IP-PBX, los SBC o los troncos RTC directos. Cloud Connector aún no tiene la capacidad de realizar el enrutamiento dinámico a un tronco en base al destino (para el enrutamiento de menor coste) o en base al origen (llamadas de emergencia estáticas o dinámicas). Las llamadas entrantes no son un problema, ya que la llamada solo puede provenir de un tronco asociado a ese número. Sin embargo, las llamadas salientes, pueden ir a cualquier dispositivo de conector en la nube en un sitio (y por extensión los troncos RTC acoplados a ese equipo de conector en la nube) que puede causar que las llamadas de larga distancia no deseadas. Además, las llamadas de emergencia no se vaya a través de si el sitio de RTC de conector en la nube se extiende en centros de datos con distintos códigos de área o compañías aéreas.
+Conector de la nube lo hace una llamada estática enrutamiento a su adjunto puertas de enlace IP, IP-PBX, SBCs o directas troncos RTC. Conector de nube todavía no es capaz de enrutamiento dinámico a un tronco en función de destino (para el enrutamiento de menor costo) o en función de origen (dinámico o estático llamadas de emergencia). Las llamadas entrantes no son un problema, ya que la llamada solo puede provenir de un tronco asociado a ese número. Sin embargo, las llamadas salientes, pueden ir a cualquier dispositivo de conector en la nube en un sitio (y por extensión los troncos RTC acoplados a ese equipo de conector en la nube) que puede causar que las llamadas de larga distancia no deseadas. Además, las llamadas de emergencia no se vaya a través de si el sitio de RTC de conector en la nube se extiende en centros de datos con distintos códigos de área o compañías aéreas.
   
 ## <a name="an-example"></a>Un ejemplo
 
 En el ejemplo siguiente se muestra cómo agrupar los troncos de acceso a sitios de RTC y cómo asignar a usuarios a los sitios. Para la compañía Contoso, considere lo siguiente:
   
-- Hay cuatro usuarios:   
+- Hay cuatro usuarios:  
     
   - Usuario A en Redmond, Washington (EE. UU.)
     

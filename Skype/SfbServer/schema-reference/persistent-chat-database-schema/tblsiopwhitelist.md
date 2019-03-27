@@ -1,5 +1,6 @@
 ---
 title: tblSiopWhiteList
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,24 +10,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05fc1df4-32eb-4d46-9d1c-e0b607091142
-description: tblSiopWhiteList es la lista de complementos registrados que pueden asociarse con nodos.
-ms.openlocfilehash: 0653ec7f4a663479f7b7d4787eee4dc0a1045aac
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblSiopWhiteList es la lista de complementos registrados que se pueden asociar con nodos.
+ms.openlocfilehash: e5201fff31982da039d864adc4d29d900dbdcf99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899718"
 ---
 # <a name="tblsiopwhitelist"></a>tblSiopWhiteList
  
-tblSiopWhiteList es la lista de complementos registrados que pueden asociarse con nodos.
+tblSiopWhiteList es la lista de complementos registrados que se pueden asociar con nodos.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|siopID  <br/> |GUID, no nulo  <br/> |GUID del complemento.  <br/> |
-|siopName  <br/> |nvarchar (50), no nulo  <br/> |Nombre para mostrar del complemento.  <br/> |
-|siopUrl  <br/> |nvarchar (255), no nulo  <br/> |Dirección URL del complemento.  <br/> |
+|siopID  <br/> |GUID, no es nulo  <br/> |GUID del complemento.  <br/> |
+|siopName  <br/> |nvarchar (50), no es nulo  <br/> |Nombre para mostrar del complemento.  <br/> |
+|siopUrl  <br/> |nvarchar (255), no es nulo  <br/> |Dirección URL del complemento.  <br/> |
    
 **Clave**
 

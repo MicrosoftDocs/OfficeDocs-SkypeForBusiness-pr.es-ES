@@ -1,5 +1,6 @@
 ---
 title: Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo funcionan dentro de las limitaciones de Skype para la presentación de negocio en línea del Administrador de usuarios. '
-ms.openlocfilehash: 1f8a3c98e218b3d536c21bbfdd0efe7cecf3806b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862999"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896912"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio
 

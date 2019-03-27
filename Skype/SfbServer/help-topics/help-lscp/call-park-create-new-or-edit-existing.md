@@ -1,5 +1,6 @@
 ---
 title: Estacionamiento de llamadas crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e834d485-d25a-4eec-9090-2b8534ecf65d
 description: Intervalos de números de estacionamiento de llamadas definición los números temporales donde se conservan las llamadas estacionadas hasta que alguien las recupera o superan el tiempo de espera.
-ms.openlocfilehash: 8b4e3e56eeb166fe5d3a3fe16d3b0414f7805304
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6948bc42616ee85c77eb7fe250fe922420d6919b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243584"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898855"
 ---
 # <a name="call-park-create-new-or-edit-existing"></a>Estacionamiento de llamadas: Crear nuevo o editar existente
 

@@ -1,5 +1,6 @@
 ---
 title: Descargar una topología desde una implementación existente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Al crear un Skype para el grupo de servidores de Business Server 2019, va a usar el almacén de Administración Central que está asociada con la instalación heredada. Al iniciar sesiones de edición de generador de topologías en utilizar por primera vez y posteriores, se le pedirá la ubicación donde desea que el generador de topología para cargar el documento de configuración actual. Debido a que ya tiene una topología definida y ha establecido el almacén de Administración Central, debe elegir descargar una topología de una implementación existente. Generador de topología leerá la base de datos y recuperar la definición actual.
-ms.openlocfilehash: e43bfa6da2bdcb96a28f157c9fc4a6f9e50c3508
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 35c0d7163d58c17db16678ba14fd8c7b6b400c9f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030535"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896761"
 ---
 # <a name="download-topology-from-existing-deployment"></a>Descargar una topología desde una implementación existente
 

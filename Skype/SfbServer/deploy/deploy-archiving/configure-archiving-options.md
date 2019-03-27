@@ -1,5 +1,6 @@
 ---
 title: Configurar las opciones de archivado para Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las opciones de archivado iniciales de Skype para Business Server. Se configura inicialmente las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar las configuraciones de después de la implementación.'
-ms.openlocfilehash: 186ebae95c3d4d27ef634c0ca9ae1bc99bbfa253
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 80501c01c4e05e0578685b42f8fb83b7faed6c59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896298"
 ---
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Configurar las opciones de archivado para Skype para Business Server
  
@@ -67,7 +68,7 @@ Para configurar las opciones de archivado en el ámbito global:
     
    - **Archivar sesiones de mensajería instantánea (MI)**
     
-   - **Archivar sesiones de mensajería instantánea y conferencias web**
+   - **Archivar sesiones de mensajería instantánea (MI) y conferencias web**
     
 6. También en la página **Editar configuración de archivado - Global** , haga lo siguiente:
     

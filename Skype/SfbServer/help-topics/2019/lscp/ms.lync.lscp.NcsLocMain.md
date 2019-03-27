@@ -1,5 +1,6 @@
 ---
 title: Directiva de ubicación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las directivas de ubicación determinan si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
-ms.openlocfilehash: a7528ea173d03714a8dc20c474d4e1f3d74a5bc2
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 22ac0d266737b402a5ba6af62a6319f4fd9d37e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897475"
 ---
 # <a name="location-policy"></a>Directiva de ubicación
 
@@ -75,6 +76,6 @@ En la siguiente lista se describen los campos de la página.
 
 - **Máscara E9-1-1** Especifica un número que llama a un usuario y, a continuación, se convierte en el número de marcado de emergencia.
 
-Para obtener información detallada sobre las características de servicios de emergencia de Enterprise Voice y funciones, vea [información general de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con directivas de ubicación, vea [Configurar la directiva de ubicación](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de servicios de emergencia de Enterprise Voice y funciones, vea [información general de E9-1-1](https://technet.microsoft.com/library/c01e6774-bc9f-4c5b-a60b-478b7317b2b7.aspx) en la documentación de planeación. For details about working with location policies, see [Configuring Location Policy](https://technet.microsoft.com/library/14e41bcb-ea0a-49c2-99b3-1f61fc34416d.aspx) in the Operations documentation.
 
 

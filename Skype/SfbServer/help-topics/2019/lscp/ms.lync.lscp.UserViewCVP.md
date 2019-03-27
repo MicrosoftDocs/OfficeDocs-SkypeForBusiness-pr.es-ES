@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración directiva de versión de cliente
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0a05626a421b2481cf1a7fd22390ff570b5ff1d4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 16516e6b384a9790d71df70df95c36ee4268f860
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23254588"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899337"
 ---
-# <a name="users-view-or-configure-client-version-policy"></a>Usuarios: Ver o configurar Directiva de versión de cliente
+# <a name="users-view-or-configure-client-version-policy"></a>Usuarios: Ver o configurar directiva de versión de clientes
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

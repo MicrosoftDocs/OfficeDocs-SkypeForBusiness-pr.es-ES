@@ -1,5 +1,6 @@
 ---
 title: (Opcional) Implementación de grupo de respuesta Verify en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
 description: Comprobar el éxito de la implementación de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ebf8e9960b26dfa0da256e0ea26e356648cbe356
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2a0cc58101199183a23d74152a0ef6a05a1fb699
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532179"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893942"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Opcional) Implementación de grupo de respuesta Verify en Skype para la empresa
  
@@ -31,7 +32,7 @@ Después de configurar el grupo de respuesta, debe comprobar la configuración p
     
 - Un agente que está hospedado en Skype para la empresa
     
-  **Scenarios**
+  **Escenarios**
   
 - El Skype para usuarios de empresa llama al grupo de respuesta.
     

@@ -1,5 +1,6 @@
 ---
 title: Administrar el servidor de chat persistente en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
 description: 'Resumen: Obtenga información sobre cómo administrar el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 2511de09c321c70d73d824f5fc94bf21fa674131
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f6bd3f9e1364f4dd5b347e65a0a5799e66a97b33
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967901"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899112"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar el servidor de chat persistente en Skype Empresarial Server 2015
  
@@ -36,7 +37,7 @@ Para usar el Panel de control:
     
 3. En la barra de navegación izquierda, haga clic en **Chat persistente**.
     
-En la siguiente tabla se resume los cmdlets de Windows PowerShell disponibles que le ayudarán a administrar el servidor de Chat persistente. Para obtener información detallada sobre la sintaxis, incluidos todos los parámetros disponibles, vea [Skype para Shell de administración de Business Server 2015](../management-shell.md).
+En la siguiente tabla se resume los cmdlets de Windows PowerShell disponibles que le ayudarán a administrar el servidor de Chat persistente. Para detalles sobre la sintaxis, incluso todos los parámetros disponibles, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|
