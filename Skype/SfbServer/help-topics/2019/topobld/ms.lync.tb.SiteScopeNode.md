@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito del sitio de Lync Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra uno de los sitios definidos en la topología. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 26c33e7d2e68351986198afe973f5453085d4a6a
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 6ad38157ae8e0f4e0450b10bf22fc7a43394568d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062417"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886580"
 ---
 # <a name="test---skype-for-business-server-site-scope-node"></a>Nodo de ámbito del sitio de Lync Server
  

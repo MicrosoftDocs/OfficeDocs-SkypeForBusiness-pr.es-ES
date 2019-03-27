@@ -1,5 +1,6 @@
 ---
 title: Asignar una directiva de PIN por usuario en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server.'
-ms.openlocfilehash: fc7444aae0dfea0f22500f524490aea470c83903
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ec2187ddf75d3725646ed9ea732a65552d432364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21005956"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889101"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Asignar una directiva de PIN por usuario en Skype para Business Server
 
@@ -35,11 +36,11 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. Utilice uno de los métodos siguientes para encontrar a un usuario:
+4. Use uno de los métodos siguientes para encontrar a un usuario:
     
    - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
     
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     
@@ -105,6 +106,6 @@ Puede asignar directivas de PIN por usuario mediante el uso de Windows PowerShel
 
 Para obtener información detallada, vea [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear una nueva directiva PIN en Skype para Business Server](create-a-new-pin-policy.md)

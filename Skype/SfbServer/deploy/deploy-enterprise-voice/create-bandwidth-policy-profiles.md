@@ -1,5 +1,6 @@
 ---
 title: Crear perfiles de directivas de ancho de banda en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a71881ef-b04a-465e-9abb-0577bfd182f3
 description: Crear o modificar directivas de ancho de banda, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: ac1c5ab43e810ca152097c256e087ee176caa2d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26f0e81d4f148888b9c8f61b774dcd476bd102d5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885362"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887788"
 ---
 # <a name="create-bandwidth-policy-profiles-in-skype-for-business-server"></a>Crear perfiles de directivas de ancho de banda en Skype para Business Server 
  
@@ -89,9 +90,9 @@ Las directivas de ejemplo creadas en el procedimiento siguiente definen límites
     
 12. Para terminar de crear perfiles de directiva de ancho de banda para su topología, repita los pasos del 4 al 11 con la configuración para otros perfiles de directiva de ancho de banda.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Nueva CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
+[New-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/new-csnetworkbandwidthpolicyprofile?view=skype-ps)
   
 [Get-CsNetworkBandwidthPolicyProfile](https://docs.microsoft.com/powershell/module/skype/get-csnetworkbandwidthpolicyprofile?view=skype-ps)
   

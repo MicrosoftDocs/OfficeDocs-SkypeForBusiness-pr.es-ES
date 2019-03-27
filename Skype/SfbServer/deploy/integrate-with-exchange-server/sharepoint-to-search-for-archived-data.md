@@ -1,5 +1,6 @@
 ---
 title: Configurar SharePoint Server para buscar datos archivados de Skype Empresarial
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumen: Configure SharePoint Server para buscar datos archivados por el servidor de Exchange y Skype para Business Server.'
-ms.openlocfilehash: 0663874985063f4cf051aec69792ea0bdb32bb26
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b9e08c5681b35b71ac7543115ee008a97e207bb7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884981"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint Server para buscar datos archivados de Skype Empresarial
  
@@ -24,7 +25,7 @@ ms.locfileid: "25373324"
   
 Una de las principales ventajas de almacenar transcripciones de conferencias Web y mensajería instantánea de Exchange Server en lugar de Skype para Business Server es que almacenar los datos en la misma ubicación permite a los administradores utilizar una sola herramienta para buscar datos archivados de Exchange o archivado Skype para los datos de Business Server. Debido a que los datos se almacenan en la misma sitúan (Exchange) también puede buscar cualquier herramienta que puede buscar datos archivados de Exchange archivado Skype para los datos de Business Server.
   
-Una herramienta que facilita la búsqueda de datos archivados es Microsoft SharePoint Server 2013. Si desea usar SharePoint para buscar Skype para los datos de Business Server, primero debe completar todos los pasos necesarios para configurar el archivado de Exchange en Skype para Business Server. Después de Skype para Business Server y Exchange Server se han integrado correctamente, a continuación, debe instalar la [API administrada de servicios Web](https://go.microsoft.com/fwlink/p/?LinkId=258305) de Exchange en el servidor de SharePoint. El archivo descargado (EWSManagedAPI.msi) se puede guardar en cualquier carpeta en el servidor de SharePoint.
+Una herramienta que facilita la búsqueda de datos archivados es Microsoft SharePoint Server 2013. Si desea usar SharePoint para buscar Skype para los datos de Business Server, primero debe completar todos los pasos necesarios para configurar el archivado de Exchange en Skype para Business Server. Después de Skype para Business Server y Exchange Server se han integrado correctamente, a continuación, debe instalar la [API administrada de servicios Web](https://go.microsoft.com/fwlink/p/?LinkId=258305) de Exchange en el servidor de SharePoint. The downloaded file (EWSManagedAPI.msi) can be saved to any folder on your SharePoint server.
   
 Una vez se ha descargado el archivo, complete el siguiente procedimiento en SharePoint Server:
   

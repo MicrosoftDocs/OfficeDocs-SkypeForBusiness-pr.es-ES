@@ -1,5 +1,6 @@
 ---
 title: Administradores Configurar Skype Empresarial para usuarios individuales
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,12 +22,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Learn how to change the Skype for Business settings for individual users such as: Audio and video conferencing, recording of calls and meetings. '
-ms.openlocfilehash: 9dde738431e8afac4837b6f4bcab9b955787927a
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 5c9bb7cfddb496a5b3bdb0b28ea050d5958a8147
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561690"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885766"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administradores: Configurar Skype Empresarial para usuarios individuales
 

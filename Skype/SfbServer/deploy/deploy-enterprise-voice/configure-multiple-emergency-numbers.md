@@ -1,5 +1,6 @@
 ---
 title: Configurar varios números de emergencias en Skype para la empresa
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: Lea este tema para aprender a configurar varios números de emergencias en Skype para Business Server.
-ms.openlocfilehash: 64f9368b5d6eaac1c2f872ebf48152514cc99b34
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 26d533b277bd8d57166cd65c7326b0e80739bf4e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372688"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885550"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Configurar varios números de emergencias en Skype para la empresa
 

@@ -1,5 +1,6 @@
 ---
 title: Preparar el dispositivo de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar su dispositivo conector en la nube para la implementación y usar con el sistema telefónico en Office 365 (en la nube PBX).
-ms.openlocfilehash: 336136021041131189261c8c3b57c46ca8b53809
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371205"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887319"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 
@@ -118,7 +119,7 @@ En esta sección se describe cómo obtener los archivos de instalación de Skype
     Especifique la ruta de acceso completa al certificado externo, incluido el nombre del archivo. El certificado se puede almacenar localmente o en un recurso compartido de archivos. Si el certificado se almacena en una carpeta compartida, esta deberá crearse en el primer dispositivo de cada sitio y los demás dispositivos que pertenezcan al mismo sitio deben poder acceder a ella. Este cmdlet copia el certificado externo en el **directorio de dispositivos**.
 
     > [!IMPORTANT]
-    > **Si ha actualizado a Cloud Connector versión 1.4.2 o posterior**, asegúrese de que el certificado externo preparado contenga claves privadas y la cadena de certificados completa, incluidos el certificado de CA raíz y los certificados de CA intermedios.  **Si aún NO ha actualizado a Cloud Connector versión 1.4.2**, asegúrese de que el certificado externo preparado contenga claves privadas. Este certificado externo lo debe emitir una entidad de certificación en la que Windows confíe de manera predeterminada.
+    > **Si ha actualizado a Cloud Connector versión 1.4.2 o posterior**, asegúrese de que el certificado externo preparado contenga claves privadas y la cadena de certificados completa, incluidos el certificado de CA raíz y los certificados de CA intermedios. **Si aún NO ha actualizado a Cloud Connector versión 1.4.2**, asegúrese de que el certificado externo preparado contenga claves privadas. Este certificado externo lo debe emitir una entidad de certificación en la que Windows confíe de manera predeterminada.
 
 ## <a name="set-the-path-for-the-external-pstn-gatewaysbc-certificate"></a>Establecer la ruta de acceso del certificado de la puerta de enlace RTC/SBC
 
@@ -157,7 +158,7 @@ Para actualizar el archivo, ejecute primero el siguiente cmdlet para obtener la 
 Export-CcConfigurationSampleFile
 ```
 
-La plantilla de muestra está almacenada en el **Directorio de aplicaciones**. 
+La plantilla de muestra está almacenada en el **Directorio de aplicaciones**.
 
 Después de actualizarlo con los valores de su entorno, guarde el archivo como CloudConnector.ini en el **Directorio de aplicaciones**. Puede ejecutar **Get-CcApplianceDirectory** para determinar la ruta de acceso al **Directorio de aplicaciones**.
 
@@ -174,8 +175,7 @@ Al actualizar el archivo .ini, tenga en cuenta lo siguiente:
 
 - **HardwareType:** Si no establece o deje el valor en null, se usará el valor predeterminado de **Normal** . Utilice **Normal** si tiene previsto implementar la versión mayor del conector en la nube para admitir llamadas simultáneas 500 por máquina del host como se describe en [Plan for Skype para Business Edition de conector en la nube](plan-skype-for-business-cloud-connector-edition.md). Use **Minimum** para una versión más pequeña que admita 50 llamadas simultáneas.
 
-- **Conmutadores virtuales de Internet, red corporativa o administración:** Agregue el nombre de los conmutadores virtuales que haya creado. Para el conmutador virtual de administración, deje el valor predeterminado. El script de implementación creará el conmutador virtual de administración al comienzo de la implementación y lo eliminará cuando termine la implementación.
-
+- **Modificadores virtuales de Internet/Corpnet de administración:**: agregar el nombre de los modificadores virtuales que haya creado. Para el modificador virtual de administración, deje el valor predeterminado. El script de implementación creará el conmutador virtual administración al principio de la implementación y eliminarlo cuando finalice la implementación.
 
 - **ManagementIPPrefix:** ManagementIPPrefix en la sección de Red debe ser una subred diferente de otras IP internas. Por ejemplo, tal como muestra el valor predeterminado, ManagementIPPrefix es 192.168.213.0, mientras que AD IPAddress es 192.168.0.238.
 
@@ -243,15 +243,15 @@ Este paso prepara un archivo de disco duro virtual (VHDX) de la imagen ISO de Wi
 
 Antes de continuar con este paso, asegúrese de que se haya creado el conmutador de red corporativa. Además, confirme que las siguientes opciones se hayan configurado correctamente en el archivo CloudConnector.ini:
 
-- [Network] CorpnetSwitchName
+- [Network]CorpnetSwitchName
 
-- [Common] BaseVMIP
+- [Common]BaseVMIP
 
-- [Network] CorpnetIPPrefixLength
+- [Network]CorpnetIPPrefixLength
 
-- [Network] CorpnetDefaultGateway
+- [Network]CorpnetDefaultGateway
 
-- [Network] CorpnetDNSIPAddress
+- [Network]CorpnetDNSIPAddress
 
 Inicie una consola de PowerShell como administrador y ejecute el siguiente cmdlet para convertir la imagen ISO a un disco duro virtual (VHD):
 

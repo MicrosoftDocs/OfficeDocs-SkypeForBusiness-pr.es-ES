@@ -1,5 +1,6 @@
 ---
 title: Agregar almacén SQL Server de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Configurar los almacenes de SQL Server que proporcionarán bases de datos para el servidor de Chat persistente o grupo de servidores de Chat persistente.
-ms.openlocfilehash: 58c18c7ae541ff4413e6cbaf17c2d4ad8933c191
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 856c74db37ef99243e024b0c044b20d095ca6ba6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503721"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899564"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Agregar almacén SQL Server de chat persistente
  
@@ -45,7 +46,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
@@ -55,6 +56,6 @@ Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta pág
   
 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Conceptos básicos de topología de Skype Empresarial Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)
   
 [Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

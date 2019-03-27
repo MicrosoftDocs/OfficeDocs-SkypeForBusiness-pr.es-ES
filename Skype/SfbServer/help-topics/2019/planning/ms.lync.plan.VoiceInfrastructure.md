@@ -1,5 +1,6 @@
 ---
-title: Infraestructura de voz (herramienta de planeación)
+title: Voice Infrastructure (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para Business Server ofrece una conectividad de RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace RTC o conexiones SIP directas a un sistema PBX. Para obtener información detallada, vea Plan para la conectividad de RTC en Skype for Business Server.
-ms.openlocfilehash: 6bfee9b76505d1d5e4e1131e5df136cee6befa50
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 422d9af716bdb1c2af55860d697d94dc50b4975a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065279"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893402"
 ---
-# <a name="voice-infrastructure-planning-tool"></a>Infraestructura de voz (herramienta de planeación)
+# <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  
 Skype para Business Server ofrece una conectividad de RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace RTC o conexiones SIP directas a un sistema PBX. Para obtener información detallada, consulte [Plan para la conectividad de RTC en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity-0.md).
   

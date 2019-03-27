@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de aplicaciones de sucursal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8117b88a-0a34-4bf4-b1dd-ded72b5c9c18
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo aplicaciones de sucursal con funciones de supervivencia enumera las aplicaciones de sucursal con funciones de supervivencia en este sitio de sucursal. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: c5342f5a7fe93636e128776bea79971f641ad732
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'El nodo aplicaciones de sucursal con funciones de supervivencia enumera las aplicaciones de sucursal con funciones de supervivencia en este sitio de sucursal. You can perform the following action:'
+ms.openlocfilehash: 994ed5a87ca1615f64eba423db97e9f11127fa16
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063534"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890786"
 ---
 # <a name="branch-office-appliances-scope-node"></a>Nodo de ámbito de aplicaciones de sucursal
  
-El nodo **Aplicaciones de sucursal con funciones de supervivencia** enumera las aplicaciones de sucursal con funciones de supervivencia en este sitio de sucursal. Puede efectuar la acción siguiente:
+El nodo **Aplicaciones de sucursal con funciones de supervivencia** enumera las aplicaciones de sucursal con funciones de supervivencia en este sitio de sucursal. You can perform the following action:
   
 - **Nueva aplicación de sucursal con funciones de supervivencia**. Inicia al Asistente para **Definir nueva aplicación de sucursal con funciones de supervivencia** , que sirve para agregar una nueva aplicación de sucursal con funciones de supervivencia a este sitio.
     

@@ -1,5 +1,6 @@
 ---
 title: Detalles de la tabla QoE
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: Estas secciones, se describen las columnas de cada una de las tablas de esquema de base de datos de calidad de la experiencia (QoE).
-ms.openlocfilehash: eaf942c7eedbd8ab515ceb402435439f500dd7b4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3008fe59733f6bd7d148dd7f3ec16a05fb609e90
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016547"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889087"
 ---
 # <a name="qoe-table-details"></a>Detalles de la tabla QoE
  

@@ -1,5 +1,6 @@
 ---
 title: Skype para resoluciones de vídeo de cliente empresarial
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumen: Revise los requisitos de vídeo del cliente durante la planeación de Skype para Business Server.'
-ms.openlocfilehash: 0150acf98a2d5219975cf33c573f31f755db62f0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886146"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886693"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype para resoluciones de vídeo de cliente empresarial
  

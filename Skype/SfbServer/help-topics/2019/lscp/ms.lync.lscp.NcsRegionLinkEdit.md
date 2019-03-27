@@ -1,5 +1,6 @@
 ---
 title: Configurar un vínculo de región de red crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3fa2ee9effcbdbfd9894375cb3cea2bd42a72daa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: ac0ce6806f89832507946b8f0d1b1ee4b149f5dd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260660"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892021"
 ---
-# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar un vínculo de región de red: crear nuevos o editar los existentes
+# <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar un vínculo de región de red: Crear nuevos o editar los existentes
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

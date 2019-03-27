@@ -1,5 +1,6 @@
 ---
-title: Plan para la resistencia de Enterprise Voice en Skype para Business Server
+title: Plan for Enterprise Voice resiliency in Skype for Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
 description: Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
-ms.openlocfilehash: b93e93e32baf67b71c2a1eb842455973ee619f80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 8b6b414cc1667c0764ac8878ea0f06da7468e781
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374762"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887802"
 ---
-# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan para la resistencia de Enterprise Voice en Skype para Business Server
+# <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Plan for Enterprise Voice resiliency in Skype for Business Server
 
 Obtenga información sobre cómo admitir la resistencia de voz en Skype para Business Server Enterprise Voice, en sitios centrales y sitios de sucursal. Opciones de sitio de sucursal incluyen implementar aplicaciones de sucursal con funciones de supervivencia o servidores de sucursal con funciones de supervivencia.
 
@@ -358,7 +359,7 @@ Por último, los usuarios del sitio de sucursal deben ser configurados para Ente
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Requisitos para los servidores de sucursal con funciones de supervivencia
 
-Los requisitos para servidores de sucursal con funciones de supervivencia son los mismos que los requisitos para un servidor Front-End. Para obtener información detallada, vea [requisitos de servidor para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Los requisitos para servidores de sucursal con funciones de supervivencia son los mismos que los requisitos para un servidor Front-End. Para más información, vea [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 #### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Requisitos de Skype a gran escala para las implementaciones de sitio de sucursal de servidor empresarial
 
@@ -379,7 +380,7 @@ Para obtener información detallada, vea [requisitos de servidor para Skype para
 **Tabla 2. Rutas**
 
 
-| **Nombre de ruta**             | **Patrón de números** | **Uso de teléfono**         | **Tronco**                                 | **Puerta de enlace**                                     |
+| **Nombre de ruta**             | **Patrón de números** | **Uso de teléfono**         | **baúl**                                 | **Puerta de enlace**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
 | Ruta Local de Redmond  <br/> | ^\+1 (425           | 206                     | 253)(\d{7})$  <br/>                       | Local  <br/> RedmondLocal  <br/>                |
 | Ruta Local de Dallas  <br/>  | ^\+1 (972           | 214                     | 469)(\d{7})$  <br/>                       | Local  <br/>                                    |

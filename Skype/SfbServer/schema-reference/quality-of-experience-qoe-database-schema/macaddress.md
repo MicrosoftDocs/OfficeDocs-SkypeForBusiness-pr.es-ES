@@ -1,5 +1,6 @@
 ---
 title: Tabla MacAddress
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
-description: La tabla de dirección MAC es una tabla de soporte. Cada registro representa una sola fuente.
-ms.openlocfilehash: 531f368023318d23fbc0211cbc2db697bd295d60
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla MacAddress es una tabla de apoyo. Cada registro representa una fuente.
+ms.openlocfilehash: 4df96baf0a964029f7cefb4288ea2b3c8e3a1f6a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888790"
 ---
 # <a name="macaddress-table"></a>Tabla MacAddress
  
-La tabla de dirección MAC es una tabla de soporte. Cada registro representa una sola fuente.
+En la tabla MacAddress es una tabla de apoyo. Cada registro representa una fuente.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**MacAddressKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica la dirección Mac.  <br/> |
-|**Dirección MAC** <br/> |varchar (256)  <br/> |Único  <br/> |Cadena de la dirección MAC.  <br/> |
+|**MacAddress** <br/> |varchar (256)  <br/> |Único  <br/> |Cadena de dirección MAC.  <br/> |
    
 

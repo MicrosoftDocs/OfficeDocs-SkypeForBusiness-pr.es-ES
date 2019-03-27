@@ -1,5 +1,6 @@
 ---
 title: Comprobar la topología de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Resumen: Obtenga información sobre cómo comprobar la Skype para la topología de servidor empresarial y los servidores de Active Directory funcionan según lo previsto. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: ed06860837805886f1d2287f23281edb90c470c1
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 03dfb45c03aa104cc5a9b265a37c347380590877
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881976"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896424"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Comprobar la topología de Skype para Business Server
  
@@ -59,7 +60,7 @@ Es el paso final probar el grupo de servidores Front-End y confirme que Skype pa
     
 9. En el panel de resultados de la búsqueda, seleccione los usuarios que desea agregar y, luego, haga clic en **Aceptar**.
     
-10. En la página **Nuevo Skype para usuarios del servidor de empresa** , los usuarios seleccionados se encuentran en la visualización de **los usuarios** . En la lista **Asignar usuarios a un grupo**, seleccione el servidor en el que se necesitan hospedar los usuarios.
+10. En la página **Nuevo Skype para usuarios del servidor de empresa** , los usuarios seleccionados se encuentran en la visualización de **los usuarios** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     Aquí presentamos una lista de opciones que puede usar para configurar los objetos.
     

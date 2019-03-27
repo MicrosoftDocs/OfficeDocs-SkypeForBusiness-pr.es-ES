@@ -1,5 +1,6 @@
 ---
 title: Crear o eliminar un anuncio en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Creación o eliminación de anuncios para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: cbdcaed3d5908b76f0932f3461dfc21716f74b32
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372297"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885578"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype para Business Server
 
@@ -28,7 +29,7 @@ Cuando configura anuncios, en realidad está configurando la forma en que desea 
 
 Cree los anuncios antes de definir la tabla de números sin asignar. Ejecute este paso para todos los anuncios que usan un mensaje de audio, un mensaje TTS o no tienen mensaje.
 
-En este tema se describe cómo importar y crear anuncios. Para obtener información detallada acerca de cómo asignar anuncios en la tabla de números sin asignar, vea [Configurar la tabla de número sin asignar](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
+En este tema se describe cómo importar y crear anuncios. Para obtener información sobre la asignación de anuncios en la tabla de números no asignados, consulte [Configure the Unassigned Number Table](https://technet.microsoft.com/library/eaa01986-e92f-4328-acf6-4e46c4306a04.aspx).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Crear un nuevo anuncio para números sin asignar
 
@@ -38,7 +39,7 @@ Para crear un anuncio, debe seguir estos pasos:
 
 2. Para mensajes de audio, ejecute el cmdlet **Import-CsAnnouncementFile** para importar el contenido del archivo de audio al almacén de archivos.
 
-3. Ejecute el cmdlet **New-CsAnnouncement** para crear y asignar nombre el anuncio. Lleve a cabo este paso para crear anuncios con un mensaje de audio, con un mensaje TTS o sin mensaje.
+3. Ejecute el cmdlet **New-CsAnnouncement** para crear y asignar un nombre al anuncio. Lleve a cabo este paso para crear anuncios con un mensaje de audio, con un mensaje TTS o sin mensaje.
 
     > [!TIP]
     > Puede que le interese crear un anuncio sin mensaje; por ejemplo, si quiere transferir las llamadas a un destino específico sin reproducir un mensaje.
@@ -112,7 +113,7 @@ Para crear un anuncio, debe seguir estos pasos:
     > [!NOTE]
     > Para obtener información detallada acerca de las opciones más, vea [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear o eliminar un anuncio en Skype para Business Server](create-an-announcement.md)
 

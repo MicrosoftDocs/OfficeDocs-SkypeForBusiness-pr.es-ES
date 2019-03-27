@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de instancia SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: b77c3fd9b72c979f76a3c347951c099e2561f089
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 2c87deeb0e49b23572e7b8c8cf2b330703c5835f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21058538"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886398"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  
-Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede efectuar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:
   
 - **Editar propiedades**. Se abre la página **Editar propiedades** para este servidor, donde puede cambiar el FQDN del servidor (si ya no está publicada la topología) y la instancia de SQL Server que se usará.
     

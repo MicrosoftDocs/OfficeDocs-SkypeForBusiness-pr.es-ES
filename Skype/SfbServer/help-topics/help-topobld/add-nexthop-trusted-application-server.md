@@ -1,5 +1,6 @@
 ---
 title: Agregar servidor de aplicaciones de confianza de próximo salto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 'Para establecer el próximo salto para el servidor de aplicaciones de confianza o un grupo de servidores, haga lo siguiente:'
-ms.openlocfilehash: 48dd7d025c79b5b342f282eeb2d690bb9eb99d0b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ed2141d8d55a84789a18b70f11f32ce83c07a16a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887206"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Agregar servidor de aplicaciones de confianza de próximo salto
  

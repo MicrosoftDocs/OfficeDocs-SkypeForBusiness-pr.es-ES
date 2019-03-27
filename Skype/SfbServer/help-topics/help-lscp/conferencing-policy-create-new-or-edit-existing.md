@@ -1,5 +1,6 @@
 ---
 title: Directiva de conferencia crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Una directiva de conferencia define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada reunión)
-ms.openlocfilehash: 6dbdb4a300e899e5172785cc08b081852a2c9742
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 393ced559593f63068dd8cf0761096330b8c4544
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23262354"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899571"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Directiva de conferencia: Crear nueva o editar existente
 
@@ -58,7 +59,7 @@ En la siguiente lista se describen los campos de la página.
 
 - **Conferencia de acceso telefónico RTC habilitar** Si se habilita el audio en **Audio y vídeo**, Active esta casilla para permitir a los usuarios conectarse a conferencias mediante el uso de la red telefónica conmutada (RTC).
 
-- **Permitir que los participantes anónimos a marcar un número** Seleccione esta casilla de verificación si permitir a los usuarios conectarse a conferencias y desea permitir sin autenticar a los usuarios (anónimos) para unirse a una conferencia mediante el uso de salida llamen. Mediante las llamadas de salida, el servidor de conferencia llama al usuario y el usuario responde al teléfono para unirse a la conferencia.
+- **Permitir que los participantes anónimos a marcar un número** Seleccione esta casilla de verificación si permitir a los usuarios conectarse a conferencias y desea permitir sin autenticar a los usuarios (anónimos) para unirse a una conferencia mediante el uso de salida llamen. Con las llamadas de salida, el servidor de conferencia llama al usuario y este responde al teléfono para unirse a la conferencia.
 
 - **Permitir que los participantes no habilitados para que Enterprise Voice para marcar un número** Si se habilita el audio en **Audio y vídeo**, Active esta casilla para permitir que a los usuarios que no están habilitados para que Enterprise Voice para unirse a una conferencia mediante el uso de salida llamen. Al realizar la marcación, el servidor de conferencia llama al usuario y este responde al teléfono para unirse a la conferencia.
 
@@ -104,6 +105,6 @@ En la siguiente lista se describen los campos de la página.
     > [!NOTE]
     > La opción **Permitir varias secuencias de vídeo** determina si una conferencia permite varias secuencias de vídeo
 
-Para obtener información detallada sobre las características de conferencia y funciones, vea [Información general de conferencias](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con directivas de conferencia, vea [Directivas de conferencia](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) en la documentación sobre operaciones.
+Para más detalles sobre las características y capacidades de la conferencia, mire [Overview of Conferencing](https://technet.microsoft.com/library/5bb90e69-3d4f-4d59-a1ee-2550de84439f.aspx) en la documentación de planeación. Para más detalles sobre cómo trabajar con directivas de conferencias, mire [Conferencing Policies](https://technet.microsoft.com/library/8f92eb7c-ee66-4df6-a726-4bff93b122cb.aspx) en la documentación de operaciones.
 
 

@@ -1,5 +1,6 @@
 ---
 title: Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Si necesitará quitar el servidor de archivos que actualmente está actuando como el almacén de archivos para su Skype para la implementación de Business Server, o si necesita realizar otros cambios que harían que el archivo actual almacén no está disponible, primero debe crear un nuevo recurso compartido. Después deberá realizar los siguientes pasos:'
-ms.openlocfilehash: 5051e7ef9c0008fb3b98f7e4b7c67a06a5465d1e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 0f9552e9de66924524ef2ac5c66d125689061b88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375925"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890391"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Almacén de archivos de movimiento de datos a un nuevo almacén de archivos en Skype para Business Server
 
@@ -54,7 +55,7 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
 10. En **Definir nuevo almacén de archivos**, en **FQDN del servidor de archivos**, escriba el nombre de dominio completo (FQDN) del servidor de archivos. En **Recurso compartido de archivos**, escriba el nombre de la carpeta del nuevo recurso compartido de archivos y después haga clic en **Aceptar**.
 
      > [!IMPORTANT]
-     > En este paso se define un nuevo almacén de archivos para su uso en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener más información, consulte [definir el almacén de archivos para el Front-End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
+     > En este paso se define un nuevo almacén de archivos para su uso en el generador de topología. Debe definirlo solo una vez, no en cada servidor. Antes de publicar la topología, deberá crear el recurso compartido de archivos definido en el servidor de archivos definido. Para obtener información detallada, consulte [Define the File Store for the Front End](https://technet.microsoft.com/library/90994400-c4e5-4509-af41-121ac716fbca.aspx).
 
 11. Por cada servidor o grupo que use el almacén de archivos, realice lo siguiente:
 
@@ -62,7 +63,7 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
 
 13. En **Editar propiedades** > **Asociaciones** > **Almacén de archivos**, seleccione el nuevo recurso compartido de archivos y haga clic en **Aceptar**.
 
-14. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Skype para el Asistente para la implementación de Business Server según sea necesario. Para obtener información detallada, vea [Procedimientos comunes para Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
+14. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Skype para el Asistente para la implementación de Business Server según sea necesario. Para obtener información detallada, consulte [Common Procedures for Removing Lync Servers and Components](https://technet.microsoft.com/library/5438ce1e-57fa-4031-8bdb-3af6581d901b.aspx).
 
 15. Inicie un símbolo del sistema: haga clic en **Inicio**, haga clic en **Ejecutar**y, a continuación, escriba cmd.exe.
 
@@ -77,13 +78,13 @@ Si necesitará quitar el servidor de archivos que actualmente está actuando com
 
 17. Cuando la copia de datos se complete, en el Panel de Control de Lync Server, haga clic en **topología**y, a continuación, haga clic en **estado**.
 
-18. Por cada servidor o grupo donde haya detenido los servicios, seleccione el servidor o el grupo, haga clic en **Acción** y después en **Iniciar todos los servicios**.
+18. Por cada servidor o grupo donde haya detenido los servicios, seleccione el servidor o el grupo, haga clic en **Acción** y después en **Iniciar todos los servicios**.         
 
-19. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, vea [quitar un almacén de archivos](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
+19. Quite el antiguo almacén de archivos de la topología y, a continuación, publique la topología. Para obtener información detallada, consulte [Remove a file store](https://technet.microsoft.com/library/1ba7eb15-5c87-4357-b4d8-f59409ac7f71.aspx).
 
 20. (Opcional) Inicie sesión como miembro del grupo Administradores local o del grupo Administradores del dominio en el equipo que contenía el almacén de archivos que acaba de eliminar y quite el directorio y el recurso compartido de archivos anteriores.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Reasignar un servidor a un almacén de archivos diferente](https://technet.microsoft.com/library/18509cce-a4d2-4537-a822-f99de6d7598e.aspx)
 

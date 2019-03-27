@@ -1,5 +1,6 @@
 ---
 title: Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Lea acerca de cómo instalar y configurar las opciones de disponibilidad en Skype para Business Server.
-ms.openlocfilehash: a5fdd117f2c812bba69978a7d2943321b940bcc4
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: 3d6e6f0ee3351fea60449528a0ea694b2c307ad5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240662"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894110"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Instalar y configurar Opciones de disponibilidad para Skype Empresarial Server
 

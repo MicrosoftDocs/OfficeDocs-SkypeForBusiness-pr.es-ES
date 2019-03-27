@@ -1,5 +1,6 @@
 ---
 title: Ver certificado
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 description: En la página Ver certificado, hay un panel que le permite seleccionar cualquier certificado válido en el almacén de certificados local. Puede seleccionar un certificado y, a continuación, haga clic en Ver detalles del certificado. El certificado se mostrará en un nuevo panel. En el panel de certificado, puede ver la información del certificado General. Haga clic en la ficha Detalles para mostrar información detallada sobre el certificado, como el nombre de sujeto y nombre alternativo del sujeto. La ruta de certificación se mostrará la ruta de acceso de thechain de confíaPor el certificado. Cuando haya terminado de revisar la información del certificado, haga clic en Aceptar.
-ms.openlocfilehash: be5588b00b3fbabaee1c05eebb211c9fb643ce2a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e16d49fe3fb483b4155ae3a64f12c9e51ba203bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978615"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886629"
 ---
 # <a name="view-certificate"></a>Ver certificado
  

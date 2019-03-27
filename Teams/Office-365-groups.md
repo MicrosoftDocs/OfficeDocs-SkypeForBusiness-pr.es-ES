@@ -1,5 +1,6 @@
 ---
 title: Office 365 grupos y equipos de Microsoft
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae3a64111ae00241d88ed6ef4b02948f1c8c75a0
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641203"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890097"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================
@@ -34,7 +35,7 @@ Un administrador de Office 365 puede definir un grupo de Office 365, agregar a m
 <a name="how-office-365-groups-work"></a>Cómo funcionan los grupos de Office 365
 --------------------------
 
-Cuando se crea un equipo, en el back-end, está creando un grupo de Office 365 y la biblioteca de documentos de SharePoint asociado y el Bloc de notas de OneNote, junto con vínculos a otras aplicaciones de nube de Office 365. Si la persona que crea el equipo es un propietario de una existente Office 365 público o privado grupo, pueden agregar funcionalidad de los equipos al grupo si tiene menos de 2500 personas y nunca se ha agregado a los equipos. Esto crea un canal **General** de forma predeterminada en qué chat residen los mensajes, documentos, OneNote y otros objetos. Visualización de la biblioteca de documentos para el canal mostrará la carpeta **General** que representa el canal en el equipo. Lo más importante, si crear su propia estructura de carpetas dentro de un documento biblioteca **no se propaga** a los equipos como un canal; por ahora, sólo fluya de los equipos en SharePoint.
+Cuando se crea un equipo, en el back-end, está creando un grupo de Office 365 y la biblioteca de documentos de SharePoint asociado y el Bloc de notas de OneNote, junto con vínculos a otras aplicaciones de nube de Office 365. Si la persona que crea el equipo es un propietario de una existente Office 365 público o privado grupo, pueden agregar funcionalidad de los equipos al grupo si tiene menos de 5000 usuarios y nunca se ha agregado a los equipos. Esto crea un canal **General** de forma predeterminada en qué chat residen los mensajes, documentos, OneNote y otros objetos. Visualización de la biblioteca de documentos para el canal mostrará la carpeta **General** que representa el canal en el equipo. Lo más importante, si crear su propia estructura de carpetas dentro de un documento biblioteca **no se propaga** a los equipos como un canal; por ahora, sólo fluya de los equipos en SharePoint.
 
 > [!NOTE]
 > En función de los comentarios del cliente, nuevo Office 365 grupos generados como resultado de la creación de un equipo en Microsoft Teams se ya no se mostrarán en Outlook de forma predeterminada. Para los clientes que desean continuar con el comportamiento existente de mostrar estos grupos en Outlook, se proporcionará un cmdlet de PowerShell en línea de Exchange que puede habilitar el grupo para la experiencia de Outlook. Grupos creado a través de Outlook y, a continuación, más adelante habilitado para los equipos seguirán mostrar en Outlook y en los equipos. Esta actualización va a gradualmente roll out a través de Outlook y los equipos en los próximos meses.

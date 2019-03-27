@@ -1,5 +1,6 @@
 ---
 title: Planear el desvío de medios en Skype para la empresa
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Las decisiones necesarias para la planeación para los medios de omisión de Skype Business Server Enterprise Voice. Incluye interoperación con el control de admisión de llamadas (CAC).
-ms.openlocfilehash: b9cb62e8153f7eb54159637954ea13cda72b6817
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 26cf20fcd7b8378d99da21be46bd6ca219b82196
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885318"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884866"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planear el desvío de medios en Skype para la empresa
 
@@ -101,7 +102,7 @@ El servicio de control de admisión de llamadas (CAC) y la omisión de medios fu
 
     Incluso aunque el CAC esté deshabilitado globalmente, es necesario definir la directiva de ancho de banda para cada uno de los sitios y vínculos si deseas usar una configuración de sitio y región para controlar la decisión de omisión. El valor real de la restricción de ancho de banda o su modalidad no importa. El objetivo final es hacer que el sistema calcule automáticamente diferentes identificadores de omisión para asociarse con diferentes configuraciones regionales que no tienen una buena conexión. La definición de una restricción de ancho de banda significa por definición que un vínculo no tiene una buena conexión.
 
-- El CAC está habilitado y la omisión de medios no está habilitada. Esto se aplica únicamente cuando todas las puertas de enlace y las IP-PBX presentan una conexión deficiente o no reúnen otros requisitos para la omisión de medios. Para obtener información detallada acerca de los requisitos para el desvío de medios, consulte [requisitos para el desvío de medios](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
+- El CAC está habilitado y la omisión de medios no está habilitada. Esto se aplica únicamente cuando todas las puertas de enlace y las IP-PBX presentan una conexión deficiente o no reúnen otros requisitos para la omisión de medios. Para obtener más información sobre los requisitos para la omisión de medios, mira [Requirements for Media Bypass](https://technet.microsoft.com/library/6162a204-0e7c-460a-8eb2-e592c6590a8a.aspx).
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 

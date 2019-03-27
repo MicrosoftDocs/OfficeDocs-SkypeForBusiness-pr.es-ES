@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración SBA de registrador
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: db69f930dfa747e7537e529ede3b90405867ca27
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 35cff0566286f61a5d3dcedaf719da0e4e7eefcb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890209"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 
@@ -32,12 +33,12 @@ Editar la configuración de **resistencia** y configure las siguientes propiedad
     > [!CAUTION]
     > El número de segundos que se definen para los intervalos de conmutación por error y conmutación por recuperación se debería probar detenidamente para asegurarse de que la resistencia funciona según lo previsto. Si se establece el intervalo en baja (es decir, menos de 120 segundos) o la conmutación por error y la conmutación por recuperación establecer demasiado estrechamente pueden ocasionar que la conmutación por error real y la conmutación por recuperación no funciona según lo previsto.
 
-  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
 
-  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
 
-  **Ayuda** Abre esta pantalla de ayuda.
+  **Ayuda.** Abre esta pantalla de ayuda.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planeación de resistencia de Enterprise Voice](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de instancia SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
-description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que utilizan este SQL Server. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: bd89b0fa262b24b4d4f64d2cf549c980965cb009
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 18da478ce1cda34c6ce36c5cfc10141d57878c3b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889339"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  
-Este nodo muestra el nombre de dominio completo (FQDN) de este de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que utilizan este SQL Server. Puede efectuar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Abre la página **Editar propiedades** para este servidor, donde puede cambiar el FQDN del servidor (si la topología ya no está publicada) y la instancia de SQL Server que se utilizará.
+- **Editar propiedades**. Se abre la página **Editar propiedades** para este servidor, donde puede cambiar el FQDN del servidor (si ya no está publicada la topología) y la instancia de SQL Server que se usará.
     
 - **Eliminar**. Elimina el servidor de la topología.
     

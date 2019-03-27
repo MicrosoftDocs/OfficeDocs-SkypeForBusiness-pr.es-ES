@@ -1,5 +1,6 @@
 ---
 title: Agregar almacén de archivos front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos del servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: cc1b4cea0bda9e523b4cc10583167cec103eaad3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 086e818483ef56c31c16c49895eeff6f889c0f8e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242207"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889546"
 ---
 # <a name="add-front-end-file-store"></a>Agregar almacén de archivos front-end
 
@@ -32,6 +33,6 @@ Debe especificar el recurso compartido de archivos que se debe usar como almacé
 > [!IMPORTANT]
 > Al agregar un grupo de servidores front-end Enterprise Edition o un servidor Standard Edition en la topología, el Generador de topologías debe poder instalar el recurso compartido de archivos y configurar listas de control de acceso discrecionales en el recurso compartido de archivos para usarse para el almacén de archivos. Esto implica que, al ejecutar el Generador de topologías para publicar la nueva topología, debe haber iniciado sesión en una cuenta que tenga todos los permisos de control (lectura/escritura/modificación) respecto al recurso compartido de archivos.
 
-Para obtener información detallada sobre la compatibilidad de almacenamiento de información de recursos compartidos de archivos, consulte [Soporte de almacenamiento de información de archivo](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) en la documentación de compatibilidad y la [ubicación del archivo de registro y de datos de SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) en la documentación de implementación. Para obtener información detallada sobre la combinación de recurso compartido de archivos, consulte [Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) en la documentación referente a. Para obtener información detallada acerca del diseño de la topología para un grupo de servidores Front-End de Enterprise Edition, consulte [definir y configurar un grupo de servidores Front-End](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación.
+Para obtener información detallada sobre la compatibilidad de almacenamiento para los recursos compartidos de archivos, consulte [File Storage Support](https://technet.microsoft.com/library/ed66430d-3c19-4267-938c-956a51005073.aspx) en la documentación sobre compatibilidad y [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) en la documentación sobre implementación. Para obtener información detallada sobre la combinación del recurso compartido de archivos, consulte [Supported Server Collocation](https://technet.microsoft.com/library/3be990a1-5485-4b83-b73f-947ac97821f9.aspx) en la documentación sobre compatibilidad. Para obtener información detallada sobre cómo diseñar la topología de un grupo de servidores front-end Enterprise Edition, consulte [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación sobre implementación.
 
 

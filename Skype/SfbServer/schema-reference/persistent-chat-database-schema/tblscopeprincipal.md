@@ -1,5 +1,6 @@
 ---
 title: tblScopePrincipal
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,32 +10,33 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
-description: tblScopePrincipal contiene ámbitos asignados a los nodos.
-ms.openlocfilehash: ba2927598cdff07368cb017866ec41bfa7540f48
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: la tabla tblScopePrincipal contiene ámbitos asignados a nodos.
+ms.openlocfilehash: e93b92280605dfe01f288435c7cb42b724c22064
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885627"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
-tblScopePrincipal contiene ámbitos asignados a los nodos.
+la tabla tblScopePrincipal contiene ámbitos asignados a nodos.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|scopeNodeID  <br/> |int, no nulo  <br/> |Identificador de nodo al que se aplica el ámbito.  <br/> |
-|scopePrinID  <br/> |int, no nulo  <br/> |Id. principal  <br/> |
-|scopeIsDenied  <br/> |bits, no nulo  <br/> |True si el tipo de ámbito es Denegar; False si se permite.  <br/> |
-|scopeUpdatedBy  <br/> |int, no nulo  <br/> |Identificador de la entidad de seguridad que se actualizó por última vez esta entrada.  <br/> |
+|scopeNodeID  <br/> |int, no es nulo  <br/> |Identificador de nodo que se aplica el ámbito.  <br/> |
+|scopePrinID  <br/> |int, no es nulo  <br/> |Identificador de entidad de seguridad.  <br/> |
+|scopeIsDenied  <br/> |bit, no es nulo  <br/> |Es True si el tipo de ámbito es Denegar; False si es permitir.  <br/> |
+|scopeUpdatedBy  <br/> |int, no es nulo  <br/> |Identificador de la entidad de seguridad que actualizó por última vez esta entrada.  <br/> |
    
 **Claves**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
 |\<scopeNodeID, scopePrinID\>  <br/> |Clave principal.  <br/> |
-|scopeNodeID  <br/> |Clave externa con la búsqueda en la tabla tblNode.nodeID.  <br/> |
-|scopePrinID  <br/> |Clave externa con la búsqueda en la tabla tblPrincipal.prinID.  <br/> |
+|scopeNodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
+|scopePrinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
    
 

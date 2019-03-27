@@ -1,5 +1,6 @@
 ---
 title: Definir propiedades y opciones para grupo de servidores de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:'
-ms.openlocfilehash: 23b307af37ae16a3ffb5c90e97d3974f3f5317ff
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 380a1e34e041368d4520cd5c8ecea5b18284ef51
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503602"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887546"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
  
@@ -47,7 +48,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

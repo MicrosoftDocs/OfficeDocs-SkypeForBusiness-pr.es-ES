@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito del servidor de mediación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 'Este nodo muestra los puertos de escucha y las puertas de enlace de red telefónica conmutada (RTC) asociadas a este grupo de servidores de mediación. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 8ead72a254b70d0b56f8e7d45b55a79a38d4604c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 192829c24bbfbd8263b2a6cb3263bb88b0da2c39
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886658"
 ---
 # <a name="mediation-server-scope-node"></a>Nodo de ámbito del servidor de mediación
  

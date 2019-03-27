@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de aplicación de sucursal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,18 +12,19 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-description: 'Este nodo muestra el nombre de dominio completo (FQDN), asociados a grupos y servidores y resiliencia información acerca de este dispositivo de la rama que sobreviven. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 0a4290ad15b9484f7410f8f490c636d45f2def27
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886588"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
-Este nodo muestra el nombre de dominio completo (FQDN), asociados a grupos y servidores y resiliencia información acerca de este dispositivo de la rama que sobreviven. Puede efectuar las acciones siguientes:
+El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Abre la página **Editar propiedades** para este dispositivo que sobreviven de sucursales, donde puede cambiar el nombre de dominio completo (si ya no está publicada la topología), las asociaciones y configuración resistencia.
+- **Editar propiedades**. Se abre la página **Editar propiedades** para esta aplicación de sucursal con funciones de supervivencia, donde puede cambiar el nombre de dominio completo (si ya no está publicada la topología), las asociaciones y la configuración de la resistencia.
     
 - **Eliminar**. Elimina el servidor de la topología.
     

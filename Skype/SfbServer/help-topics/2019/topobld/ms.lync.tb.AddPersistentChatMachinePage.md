@@ -1,5 +1,6 @@
 ---
 title: Definir equipos en grupo de servidores de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Definir los equipos que va a formar parte de un grupo de servidores de Chat persistente escribiendo el nombre de dominio completo (FQDN) en el FQDN del equipo. Este nombre debe coincidir con el nombre del equipo que figura en los registros host (A o AAAA) del sistema de nombres de dominio (DNS).
-ms.openlocfilehash: 0aedfef5aefeab8a483450df938e174dd1edf6ae
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 956fba56e1a14c90f7d535c5bce0ea8d1f49544a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21060576"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889157"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir equipos en grupo de servidores de chat persistente
 

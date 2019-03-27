@@ -1,5 +1,6 @@
 ---
 title: Crear opciones de configuración de una nueva colección de tronco en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Opciones de configuración de tronco SIP definen la relación y las funciones entre un servidor de mediación y la puerta de enlace de telefónica conmutada (RTC) de red, un IP-público conmutación (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicios.
-ms.openlocfilehash: cdf38667d18db3525432fe4e5786481175183a5c
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 86a731c07f3c7289e5eabcd74bb3ccf37ec4df9d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223181"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890454"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de una nueva colección de tronco en Skype para Business Server
 

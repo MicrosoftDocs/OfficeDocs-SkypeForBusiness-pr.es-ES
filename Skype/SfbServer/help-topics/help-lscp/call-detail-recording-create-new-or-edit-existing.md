@@ -1,5 +1,6 @@
 ---
 title: Detalles de las llamadas crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: f9d8156e104e6181a8754da864583ce71720ce43
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cabe1396a8cea69e3fd2028120f3ec16ee773453
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012790"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886850"
 ---
-# <a name="call-detail-recording-create-new-or-edit-existing"></a>Detalles de las llamadas: Crear nuevos o editar los existentes
+# <a name="call-detail-recording-create-new-or-edit-existing"></a>Registro de detalles de llamadas: Crear nuevos o editar los existentes
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   

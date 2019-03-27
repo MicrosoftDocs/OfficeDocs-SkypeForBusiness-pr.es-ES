@@ -1,5 +1,6 @@
 ---
 title: Características de seguridad clave de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
 description: Skype para Business Server incluye varias características de seguridad, incluida la autenticación de servidor a servidor, el control de acceso basado en roles y el almacenamiento centralizado de datos de configuración.
-ms.openlocfilehash: c8bc1e9b45f9433c716ab2a803caeaef5f16172f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a0a82800be8158b6d54e4e01e7609d3e6b3714d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20981967"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894283"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Características de seguridad clave de Skype para Business Server
  

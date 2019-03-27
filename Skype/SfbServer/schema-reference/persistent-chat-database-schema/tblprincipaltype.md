@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalType
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contiene los tipos de entidad de seguridad para clasificar lo que aparece en la tabla tblPrincipal.
-ms.openlocfilehash: d5c710e1301344c853ef39aeff3b57f62c630c95
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19505128"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887442"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -47,8 +48,8 @@ tblPrincipalType contiene los tipos de entidad de seguridad para clasificar lo q
 |5  <br/> |Usuario  <br/> |Usuario habitual.  <br/> |Sí  <br/> |
 |8  <br/> |CONTROLADOR DE DOMINIO  <br/> |Controlador de dominio de servicios de dominio de Active Directory activo.  <br/> ||
 |9  <br/> |Grupo  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
-| 10  <br/> |Carpeta  <br/> |Contenedor de Active Directory o la unidad organizativa.  <br/> ||
+|10  <br/> |Carpeta  <br/> |Contenedor de Active Directory o la unidad organizativa.  <br/> ||
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [tblPrincipal](tblprincipal.md)

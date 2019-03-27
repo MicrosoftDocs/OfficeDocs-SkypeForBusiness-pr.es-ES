@@ -1,5 +1,6 @@
 ---
-title: Ayuda-LSCP
+title: Help-LSCP
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.audience: ITPro
@@ -9,14 +10,14 @@ localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Temas de Panel de control
-ms.openlocfilehash: 5391d566516fe2e5b079469438d2f990e563675a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 54047a0115fb8b53a06052a45069dceb520a285a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006758"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886920"
 ---
-# <a name="help-lscp"></a>Ayuda-LSCP
+# <a name="help-lscp"></a>Help-LSCP
  
 En los temas de este nodo proporcionan ayuda para la Skype para el Panel de Control de servidor empresarial.
   

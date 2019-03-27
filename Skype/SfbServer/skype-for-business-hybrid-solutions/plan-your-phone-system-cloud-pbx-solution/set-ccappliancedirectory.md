@@ -1,5 +1,6 @@
 ---
-title: Conjunto de CcApplianceDirectory
+title: Set-CcApplianceDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: El cmdlet Set-CcApplianceDirectory establece el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio.
-ms.openlocfilehash: 67fda4f1ef7da0f9a7e61b1099c7edb3b96ad62c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 16c9c858d770b7d4a74c9030ebdc760f5a9f25e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888185"
 ---
-# <a name="set-ccappliancedirectory"></a>Conjunto de CcApplianceDirectory
+# <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  
 El cmdlet Set-CcApplianceDirectory establece el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio.
   
@@ -40,7 +42,7 @@ Set-CcApplianceDirectory -Path "c:\cloudconnector\applianceroot"
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|  Ruta de acceso <br/> |  Obligatorio <br/> |System.String  <br/> |  Especifica la ruta de acceso en la que se almacenan todos los archivos de implementación. <br/> |
+|  Ruta de acceso <br/> | Obligatorio <br/> |System.String  <br/> |  Especifica la ruta de acceso en la que se almacenan todos los archivos de implementación. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -50,7 +52,7 @@ Ninguno. El cmdlet Set-CcApplianceDirectory no acepta entradas canalizadas.
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
-Ninguno
+Ninguno 
   
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>

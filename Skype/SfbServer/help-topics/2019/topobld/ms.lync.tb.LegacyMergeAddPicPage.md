@@ -1,5 +1,6 @@
 ---
-title: Combinación de información heredada
+title: Combinar información heredada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 085fde15-e33a-4d95-8d06-4da1d5d7c770
 ROBOTS: NOINDEX, NOFOLLOW
 description: El FQDN externo de conferencia Web permite a los usuarios externos participar en las reuniones locales. Escriba el nombre de dominio completo (FQDN) de la interfaz externa de conferencia web del servidor perimetral heredado.
-ms.openlocfilehash: bd8fba515f2eb9a3f272f7d2f4f70bbc4a0716f5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5402508ac733eb7a550fe4984850f8e889ae3929
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253574"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889066"
 ---
-# <a name="legacy-merge"></a>Combinación de información heredada
+# <a name="legacy-merge"></a>Combinar información heredada
 
 El **FQDN externo de conferencia Web** permite a los usuarios externos participar en las reuniones locales. Escriba el nombre de dominio completo (FQDN) de la interfaz externa de conferencia web del servidor perimetral heredado.
 

@@ -1,5 +1,6 @@
 ---
 title: Asistente para la implementación mediante las herramientas de administración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 33fdbb31-c9c7-49cb-81ab-2522ac9ac8b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server, vea instalar Skype for Business Server.
-ms.openlocfilehash: 7c5e91095268ca1068f1e32b736f6d14783965b4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 338197417b9581b0175fc8e9445f88d35750a1f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20972670"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894061"
 ---
 # <a name="deployment-wizard-using-the-admin-tools"></a>Asistente para la implementación: Uso de las herramientas administrativas
  

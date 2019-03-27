@@ -1,5 +1,6 @@
 ---
 title: Edición de configuración del registro de dispositivo
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: fac6dd8aae7c1081c268d35ea0336b41eb7c6f55
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 09d0bc24ad61be98864fd1f37964c01f1fba84ba
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888269"
 ---
-# <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: editar
+# <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: Editar
  
 Puede agregar una configuración de registro de dispositivo a la página **Editar configuración de registro** que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
   
@@ -50,6 +51,6 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 - **Días para mantener los archivos de registro (1-365)** Puede especificar el número de días que se conservan los archivos de registro antes de purgarse. El valor predeterminado es 10 días.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de registro de dispositivo](device-log-configuration.md)

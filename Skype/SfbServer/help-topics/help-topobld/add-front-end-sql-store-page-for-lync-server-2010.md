@@ -1,5 +1,6 @@
 ---
-title: Agregar página de almacén de Sql de Front-End de Lync Server 2010
+title: Agregar página de almacén de SQL front-end para Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Definir las propiedades de los almacenes de SQL Server para el nuevo grupo de servidores Front-End que va a configurar.
-ms.openlocfilehash: d0d8207d45425e84d20f62bc19adadc7337684ff
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a8d919732bb1c58025e042e8394b292b60009d8a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375837"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885336"
 ---
-# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Agregar página de almacén de Sql de Front-End de Lync Server 2010
+# <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Agregar página de almacén de SQL front-end para Lync Server 2010
  
 Definir las propiedades de los almacenes de SQL Server para el nuevo grupo de servidores Front-End que va a configurar.
   

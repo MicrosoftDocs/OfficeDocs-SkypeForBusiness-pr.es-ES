@@ -1,5 +1,6 @@
 ---
 title: Informe de lista de errores en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
 description: 'Resumen: Información sobre el informe de lista de errores en Skype para Business Server.'
-ms.openlocfilehash: 3d40d7d73b6a4cb63e3885736a9a32f8b64ed989
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f286dfe288b82b1e8ab0f5b4956c4f75c5bd72a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992636"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899613"
 ---
 # <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype para Business Server 
  

@@ -1,5 +1,6 @@
 ---
-title: Solicitud de certificado (cuenta de autoridad de certificado)
+title: Solicitud de certificado (cuenta de entidad de certificación)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para enviar una solicitud, la entidad de certificación (CA) puede requerir credenciales distintas de las del usuario que actualmente iniciado sesión como.
-ms.openlocfilehash: 5dba120d79cda59babb4f4e3dc3854c6c40083fd
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 71239d8b4648c08de12b0c425c5050c5c4f2e0ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016777"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890216"
 ---
-# <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificado (cuenta de autoridad de certificado)
+# <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificado (cuenta de entidad de certificación)
  
 Para enviar una solicitud, la entidad de certificación (CA) puede requerir credenciales distintas de las del usuario que actualmente iniciado sesión como. Para permitir que una solicitud de certificado como un usuario diferente, active la casilla de verificación **especificar credenciales alternativas para la entidad de certificación**y, a continuación, escriba el nombre de usuario o _dominio_\ _nombre de usuario_ para un usuario que puede solicitar el certificado . En el cuadro de texto **contraseña** , escriba la contraseña para el usuario que ha especificado. El nombre de usuario y la contraseña, a continuación, se envían como parte del proceso de solicitud de certificado, pero no en la solicitud de certificado real, a una entidad de certificación en línea.
   

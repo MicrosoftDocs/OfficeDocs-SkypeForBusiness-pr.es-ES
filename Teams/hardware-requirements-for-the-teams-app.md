@@ -1,5 +1,6 @@
 ---
 title: Requisitos de hardware de la aplicación de Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -17,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40e5cde52be45b5b3d9616c239fc34c0335c72f1
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: f699352625d512c20e6b0b0b2384a08eafcb1872
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640741"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891631"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 

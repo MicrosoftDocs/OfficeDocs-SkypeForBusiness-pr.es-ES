@@ -1,5 +1,6 @@
 ---
 title: Requisitos del entorno para Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configurar los requisitos de servidor que no sean de Skype para Business Server 2015. Hay una gran variedad de cosas que querrá configurado antes de realizar la implementación, incluidos Active Directory, DNS, certificados y uso compartido de archivos.'
-ms.openlocfilehash: 59bcc654b2999db5b13baa08fd83f74e06c5b1cf
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884145"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887140"
 ---
-# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Requisitos del entorno para Skype Empresarial Server 2015
+# <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  
 **Resumen:** Configurar los requisitos de servidor que no sean de Skype para Business Server 2015. Hay una gran variedad de cosas que querrá configurado antes de realizar la implementación, incluidos Active Directory, DNS, certificados y uso compartido de archivos.
   
@@ -60,9 +61,9 @@ Mientras que una gran cantidad de datos de configuración de los servidores y se
     
 - Windows Server 2012
     
-- Windows Server 2008 R2
+- Windows Server 2008 R2
     
-- Windows Server 2008
+- Windows Server 2008
     
 Ahora, el nivel funcional de dominio de cualquier dominio en que implementar Skype para Business Server 2015 y el nivel funcional de bosque de cualquier bosque implementar Skype para Business Server 2015 en, tienen que ser una de las siguientes opciones:
   
@@ -72,9 +73,9 @@ Ahora, el nivel funcional de dominio de cualquier dominio en que implementar Sky
     
 - Windows Server 2012
     
-- Windows Server 2008 R2
+- Windows Server 2008 R2
     
-- Windows Server 2008
+- Windows Server 2008
     
 - Windows Server 2003
     
@@ -273,36 +274,36 @@ Certificados para servidores Standard Edition:
 |**Certificado**|**Nombre de sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
 |Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |En servidor de Standard Edition de los servidores Standard Edition, el FQDN del servidor es el mismo que el FQDN del grupo.  <br/> El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que es el mismo que el FQDN del servidor)  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |No se puede invalidar el FQDN en el generador de web interno.  <br/> Si dispone de varias URL sencillas de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> Dirección URL sencilla de • dial-in  <br/> • Cumplir con las direcciones URL sencillas por dominio SIP  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que es el mismo que el FQDN del servidor)  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN =\*. contoso.com  <br/> |No se puede invalidar el FQDN en el generador de web interno.  <br/> Si dispone de varias URL sencillas de reunión, deberá incluirlas todas como nombres alternativos de sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> Dirección URL sencilla de • dial-in  <br/> • Cumplir con las direcciones URL sencillas por dominio SIP  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para servidores Front-End de un grupo de servidores Front-End:
   
 |**Certificado**|**Nombre de sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|**Comentarios**|
 |:-----|:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
-|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que no es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
-|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo y FQDN del servidor  <br/> Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.  <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com   <br/> Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.  <br/> También puede usar este certificado para la autenticación de servidor a servidor.  <br/> |
+|Web interno  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que no es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
+|Web externo  <br/> |FQDN del grupo de servidores  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN =\*. contoso.com  <br/> |Si tiene varias URL simples de reunión, tiene que incluir todos ellos como nombres alternativos del sujeto.  <br/> Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.  <br/> |
    
 Certificados para el Director:
   
 |**Certificado**|**Nombre de sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |Grupo de directores  <br/> |FQDN del Director, FQDN del grupo de servidores Director.  <br/> Si este grupo de servidores es el servidor de inicio de sesión automático para los clientes y exacta de DNS requiere una directiva de grupo, necesitará también entradas para sip.sipdomain (para cada dominio SIP que tiene).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Si este grupo de servidores de Director es el servidor de inicio de sesión automático para los clientes y exacta de DNS es necesario en la directiva de grupo, necesitará también SAN; SAN=SIP.fabrikam.com  <br/> |
-|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=Meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com; SAN=Admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
-|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> • Cumplir con las direcciones URL sencillas por dominio SIP  <br/> Dirección URL sencilla de • dial-in  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |El FQDN de web externo de Director debe ser distinto del grupo de servidores Front-End o un servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=Meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
+|Valor predeterminado  <br/> |Grupo de directores  <br/> |FQDN del Director, FQDN del grupo de servidores Director.  <br/> Si este grupo de servidores es el servidor de inicio de sesión automático para los clientes y exacta de DNS requiere una directiva de grupo, necesitará también entradas para sip.sipdomain (para cada dominio SIP que tiene).  <br/> |pool.contoso.com; SAN=dir01.contoso.com   <br/> Si este grupo de servidores de Director es el servidor de inicio de sesión automático para los clientes y exacta de DNS es necesario en la directiva de grupo, necesitará también SAN; SAN=SIP.fabrikam.com  <br/> |
+|Web interno  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • Internal web FQDN (que es el mismo que el FQDN del servidor)  <br/> FQDN del servidor •  <br/> • Skype para el FQDN del grupo de negocio  <br/> Y  <br/> • Direcciones URL sencillas de reunión  <br/> Dirección URL sencilla de • dial-in  <br/> • Dirección URL sencilla de administración  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN =\*. contoso.com  <br/> |
+|Web externo  <br/> |FQDN del servidor  <br/> |Cada uno de los siguientes elementos:  <br/> • FQDN de web externo  <br/> Y  <br/> • Cumplir con las direcciones URL sencillas por dominio SIP  <br/> Dirección URL sencilla de • dial-in  <br/> O BIEN  <br/> • Una entrada comodín para las direcciones URL sencillas  <br/> |El FQDN de web externo de Director debe ser distinto del grupo de servidores Front-End o un servidor Front-End.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Con un certificado de comodín:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN =\*. contoso.com  <br/> |
    
 Certificados para el servidor de mediación independiente:
   
 |**Certificado**|**Nombre de sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del miembro del grupo de servidores  <br/> |SN = medsvr-pool.contoso.net; SAN = medsvr-pool.contoso.net; SAN=medsvr01.contoso .net  <br/> |
+|Valor predeterminado  <br/> |FQDN del grupo de servidores  <br/> |FQDN del grupo de servidores  <br/> FQDN del miembro del grupo de servidores  <br/> |SN=medsvr-pool.contoso.net; SAN=medsvr-pool.contoso.net; SAN=medsvr01.contoso.net  <br/> |
    
 Certificados para la aplicación de sucursal con funciones de supervivencia:
   
 |**Certificado**|**Nombre de sujeto/Nombre común**|**Nombre alternativo de sujeto**|**Ejemplo**|
 |:-----|:-----|:-----|:-----|
-|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP. \<sipdomain\> (necesita sólo una entrada por dominio SIP)  <br/> |SN=sba01.contoso. NET; SAN; SAN=SIP.fabrikam.com  <br/> |
+|Predeterminado  <br/> |FQDN de la aplicación  <br/> |SIP. \<sipdomain\> (necesita sólo una entrada por dominio SIP)  <br/> |SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com  <br/> |
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Certificados para el servidor de chat persistente
 
@@ -318,7 +319,7 @@ Su proxy inverso (RP) también usa un certificado público y cifra sus propias c
 
 Si va a implementar movilidad y está fomentando la detección automática para clientes móviles, va a necesitar incluir algunas entradas de nombre alternativo de sujeto adicional en los certificados para admitir las conexiones seguras de los clientes móviles.
   
-Estos son los certificados en los que necesitará nombres alternativos de sujeto para la detección automática:
+¿Qué certificados? Necesitará nombres de SAN para la detección automática en los certificados aquí:
   
 - Grupo de directores
     

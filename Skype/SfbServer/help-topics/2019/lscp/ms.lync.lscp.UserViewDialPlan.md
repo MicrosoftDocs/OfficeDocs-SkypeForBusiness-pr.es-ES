@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración el Plan de marcado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 8780aaad-1318-4e7a-945c-5e1863761034
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 49c77aff1c74fb7240fa00a18cd6deeaf33210f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b831ee19b09e38b456c251e1aacb3390274446a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23241959"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894939"
 ---
-# <a name="users-view-or-configure-dial-plan"></a>Usuarios: Ver o configurar el Plan de marcado
+# <a name="users-view-or-configure-dial-plan"></a>Usuarios: Ver o configurar plan de marcado
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

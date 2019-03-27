@@ -1,5 +1,6 @@
 ---
 title: Ejemplos de desarrollo de CQD
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumen: Revise un tutorial y desarrollo ejemplos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 994a26af99ec141b531ed3011a42f626c0c62886
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531070"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887375"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo de CQD
 
@@ -346,14 +347,14 @@ Estos son los pasos detallados para ir a la página del cuadro de mandos en la i
    ],
    ```
 
-   Aquí tiene la dimensión `[Scenarios].[ScenarioPair]` está establecida sea igual a `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. El `[Scenario.][ScenarioPair]` es una dimensión especial creada para simplificar el proceso de creación de informes. Tiene seis valores que se corresponden con `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo tiene que usar 1 filtro. En nuestro ejemplo, el valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduce en el escenario donde: en primer lugar es servidor, en segundo lugar no es servidor, en primer lugar se encuentra dentro de, en segundo lugar está dentro, primer tipo de conexión es con cable y segundo tipo de conexión es cableada, que es la definición exacta de " Server-Client-Inside con cable".
+   Aquí tiene la dimensión `[Scenarios].[ScenarioPair]` está establecida sea igual a `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`. El `[Scenario.][ScenarioPair]` es una dimensión especial creada para simplificar el proceso de creación de informes. Tiene seis valores correspondientes a `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`. Por lo tanto, en lugar de usar una combinación de 6 filtros para definir un escenario, solo tiene que usar 1 filtro. En nuestro ejemplo, el valor `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` se traduce en el escenario donde: en primer lugar es servidor, en segundo lugar no es servidor, en primer lugar se encuentra dentro de, en segundo lugar está dentro, primer tipo de conexión es con cable y segundo tipo de conexión es cableada, que es la definición exacta de " Server-Client-Inside con cable".
 
 3. Cree un conjunto de filtros para cada escenario. Cada fila en el cuadro de mandos, en la ilustración, representa un escenario diferente, que será un filtro diferente (mientras que las dimensiones y medidas son las mismas). 
 
 4. Analice los resultados de las llamadas AJAX y colóquelos en la posición correcta de la tabla. Puesto que se trata principalmente de manipulación del HTML y del JavaScript, no entraremos en detalles. En su lugar, se proporciona el código en el Apéndice A.
 
     > [!NOTE]
-    >  Si está habilitado el uso compartido de recursos de origen cruzado (CORS), los usuarios pueden producirse errores como "encabezado 'Access-Control-permitir-origen' no está presente en el recurso solicitado. Origen 'null', por tanto, no se permite el acceso". Para resolver el problema, coloque el archivo HTML en la carpeta en la que está instalado el Portal (de forma predeterminada, necesita ser `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. A continuación, obtener acceso el código html a través de cualquier explorador con la dirección URL `http://<servername>/cqd/<html_file_name>`. (Es la dirección URL predeterminada para el panel CQD local de `http://<servername>/cqd.`) 
+    >  Si está habilitado el uso compartido de recursos de origen cruzado (CORS), los usuarios pueden producirse errores como "encabezado 'Access-Control-permitir-origen' no está presente en el recurso solicitado. Origen 'null', por tanto, no se permite el acceso". Para resolver el problema, coloque el archivo HTML en la carpeta donde está instalado el Portal (de forma predeterminada, debe ser `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)`. A continuación, obtener acceso el código html a través de cualquier explorador con la dirección URL `http://<servername>/cqd/<html_file_name>`. (Es la dirección URL predeterminada para el panel CQD local de `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>Apéndice A
 

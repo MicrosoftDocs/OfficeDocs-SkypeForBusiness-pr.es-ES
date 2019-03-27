@@ -1,5 +1,6 @@
 ---
 title: Activar o desactivar los mensajes sin conexión para administradores
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 7401d1690f85fcfcc0cefe157b4335da63181693
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: 3992c2b4be9cbaaee5f7e7c9648f90d8034bc6aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561586"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884896"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
@@ -113,7 +114,7 @@ Para habilitar o deshabilitar el envío de mensajes sin conexión sin conexión,
 
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)
 
 [Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype](let-skype-for-business-users-add-skype-contacts.md)

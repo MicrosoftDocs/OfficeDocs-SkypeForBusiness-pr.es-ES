@@ -1,5 +1,6 @@
 ---
 title: Seguridad de la aplicación para móviles de Skype Empresarial
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Aprenda a configurar la seguridad de la aplicación móvil para los usuarios. '
-ms.openlocfilehash: 03b6575826defd5bd4c8c7739a1975edaabe0752
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 0c07bbbe7d186774c4c8aa13d7fcb08bf81dcb63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530619"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886835"
 ---
 # <a name="skype-for-business-mobile-app-security"></a>Seguridad de la aplicación para móviles de Skype Empresarial
 

@@ -1,5 +1,6 @@
 ---
 title: Configurar certificados y directivas de acceso por puerta de enlace XMPP
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La federación XMPP define una implementación externa en función de la mensajería eXtensible y el protocolo de presencia (XMPP). Una configuración de XMPP permite a los usuarios acceso a los usuarios de dominio XMPP por:'
-ms.openlocfilehash: 2ec2440365907632523728238c51cc90e894c84e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027861"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889976"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar certificados y directivas de acceso por puerta de enlace XMPP
 

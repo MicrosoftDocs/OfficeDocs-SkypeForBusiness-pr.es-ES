@@ -1,5 +1,6 @@
 ---
 title: Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -26,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: eaac8426677268e526f622b477caff062d81deef
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533202"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887597"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
@@ -59,7 +60,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. En **Centro de administración de Skype Empresarial**, seleccione **organización** > **comunicaciones externas**.
+3. En el **Skype para el centro de administración de negocio**, elija **organización** > **comunicaciones externas**.
     
 4. Para establecer la comunicación con un negocio específicos o con los usuarios en otro dominio, en el cuadro de lista desplegable, elija **sólo para permitido dominios**.
     

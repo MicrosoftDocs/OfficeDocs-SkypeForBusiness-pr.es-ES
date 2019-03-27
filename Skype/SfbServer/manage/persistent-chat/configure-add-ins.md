@@ -1,5 +1,6 @@
 ---
 title: Configurar complementos para los salones de chat persistente en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Resumen: Obtenga información sobre cómo configurar extensiones de servidor de Chat persistente para salones de chat de Skype para Business Server 2015.'
-ms.openlocfilehash: 4fe6c5fa15118949bd559ddb280ddf56fe41b360
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b43340f44b7ce41a1d77768f10a96bff651afc3f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372702"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885957"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Configurar complementos para los salones de chat persistente en Skype Empresarial Server 2015
  
@@ -42,9 +43,9 @@ Para configurar complementos para los salones de chat con el Panel de control:
     
 4. En la página **Complemento**, haga clic en **Nuevo**.
     
-5. En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente que necesita para crear el complemento. Los complementos no se pueden mover de un grupo a otro ni compartir entre diferentes grupos.
+5. En **Seleccionar un servicio**, seleccione el servicio correspondiente al grupo de servidores de Chat persistente que necesita para crear el complemento. Los complementos no se pueden mover de un grupo a otro o compartirse entre diferentes grupos.
     
-6. Haga lo siguiente en **Complemento nuevo**:
+6. En **Complemento nuevo**, haga lo siguiente:
     
    - En **Nombre**, especifique un nombre para el nuevo complemento.
     
@@ -54,7 +55,7 @@ Para configurar complementos para los salones de chat con el Panel de control:
     
 ## <a name="configure-add-ins-by-using-windows-powershell"></a>Configurar los complementos con Windows PowerShell
 
-Puede configurar complementos para los salones de chat con los siguientes cmdlets de Windows PowerShell. Para obtener información detallada sobre la sintaxis, incluidos todos los parámetros disponibles, vea [Skype para Shell de administración de Business Server 2015](../management-shell.md).
+Puede configurar complementos para los salones de chat con los siguientes cmdlets de Windows PowerShell. Para más detalles sobre la sintaxis, incluso los parámetros disponibles, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|

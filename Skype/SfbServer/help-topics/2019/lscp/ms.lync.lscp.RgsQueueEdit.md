@@ -1,5 +1,6 @@
 ---
 title: Cola de grupos de respuesta crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
-ms.openlocfilehash: b55f1ad12369824a60282294dacfc63177675e02
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 96d8bae5f4f3e818366872c4e81615a90fe24e86
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263840"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896976"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Cola de grupos de respuesta: Crear nueva o editar existente
 
@@ -69,6 +70,6 @@ En la siguiente lista se describen los campos de la página.
 
   - **Desviar a otra cola** Si selecciona esta opción, desplácese hasta la cola que va a recibir las llamadas cuando se alcanza el umbral de desbordamiento de cola.
 
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con colas, vea [Administración de colas de grupo de respuesta](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para más información sobre cómo trabajar con colas, mire [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación de operaciones.
 
 

@@ -1,5 +1,6 @@
 ---
-title: Conjunto de CcSiteDirectory
+title: Set-CcSiteDirectory
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b1cd89fd-6968-4ace-a4aa-c4105231cf7b
 description: El cmdlet Set-CcSiteDirectory establece el directorio en el que se almacenarán los archivos de configuración del nivel de sitio para Skype Empresarial Cloud Connector Edition. La carpeta contendrá el VHD base y los archivos de configuración de Cloud Connector.
-ms.openlocfilehash: d34945a17f32c275240e2cef0435f6e0ca3e63a0
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 1c03d0f91b3a724df6ce61d216138bb281fb0b87
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885585"
 ---
-# <a name="set-ccsitedirectory"></a>Conjunto de CcSiteDirectory
+# <a name="set-ccsitedirectory"></a>Set-CcSiteDirectory
  
 El cmdlet Set-CcSiteDirectory establece el directorio en el que se almacenarán los archivos de configuración del nivel de sitio para Skype Empresarial Cloud Connector Edition. La carpeta contendrá el VHD base y los archivos de configuración de Cloud Connector.
   
@@ -40,7 +42,7 @@ Set-CcSiteDirectory -Path "\\SiteShare\CloudConnector"
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-Para proporcionar alta disponibilidad y afinidad de puerta de enlace, dispositivos de conector de nube pueden combinarse en sitios. Los usuarios se asignan a sitios en lugar de dispositivos de conector de nube. Cada sitio tiene una carpeta compartida donde se almacenan los archivos de instalación de VHD y nube de conector de base. Dispositivos utilizan esta carpeta durante la implementación. Esta carpeta debe compartirse con todos los otros equipos en un sitio de conector de nube.
+Para proporcionar alta disponibilidad y la afinidad de puerta de enlace, se pueden combinar dispositivos de conector en la nube en sitios. Los usuarios se asignan a sitios en lugar de dispositivos de conector en la nube. Cada sitio tiene una carpeta compartida donde se almacenan los archivos de instalación bases VHD y el conector de la nube. Dispositivos utilizan esta carpeta durante la implementación. Esta carpeta se debe compartir con todos los otros equipos en un sitio de conector en la nube.
   
 La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\SiteRoot. La ruta se puede ver mediante el cmdlet Get-CcSiteDirectory.
   
@@ -49,7 +51,7 @@ La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\SiteRoot. La 
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|  Ruta de acceso <br/> |  Obligatorio <br/> | System.String <br/> |Proporciona la ruta a la carpeta donde se almacenarán los archivos de sitio de conector de nube.  <br/> |
+|  Ruta de acceso <br/> | Obligatorio <br/> | System.String <br/> |Proporciona la ruta de acceso a la carpeta donde se almacenarán los archivos de sitio de conector en la nube.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

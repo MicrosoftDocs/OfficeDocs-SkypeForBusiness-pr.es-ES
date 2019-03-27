@@ -1,5 +1,6 @@
 ---
 title: Implementación de características avanzadas de Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 286d9c0b-9442-448f-a6e5-95b3034278fe
 description: Implementar características avanzadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: d92e12b51dce783048f81dac3facf31c027a8528
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 3570082b6e4c93a238967c538a30afb3f6ae0f3c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23891028"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891772"
 ---
 # <a name="deploy-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Implementación de características avanzadas de Enterprise Voice en Skype para Business Server
  

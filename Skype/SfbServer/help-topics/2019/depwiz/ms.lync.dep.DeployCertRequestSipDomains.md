@@ -1,5 +1,6 @@
 ---
 title: Solicitud de certificado (dominios SIP)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página sobre configuración del dominio SIP en nombres alternativos de sujeto, debe seleccionar la casilla del dominio del protocolo de inicio de sesión (SIP) principal y cualquier otro dominio SIP si la infraestructura y la implementación reúnen los criterios enumerados.
-ms.openlocfilehash: 9cc86cf7f1bbd2ad2276e6554841a69a366d4274
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 14d0b1f5a74e8707653af774ab569dd70e79afdf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21020115"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891564"
 ---
 # <a name="certificate-request-sip-domains"></a>Solicitud de certificado (dominios SIP)
  

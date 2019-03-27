@@ -1,5 +1,6 @@
 ---
 title: Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Resumen: Configurar la mensajería unificada de Exchange Server para Skype Business Server para correo de voz.'
-ms.openlocfilehash: 03511671e0535e07dbc10e50b427364c3502a674
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 60f9398b7a35ad211ede22ee0e0e7f9689bbc8d7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059197"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887903"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server
  

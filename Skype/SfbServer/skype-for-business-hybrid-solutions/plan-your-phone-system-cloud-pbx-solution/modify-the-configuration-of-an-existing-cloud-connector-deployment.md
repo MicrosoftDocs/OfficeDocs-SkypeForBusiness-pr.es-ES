@@ -1,5 +1,6 @@
 ---
 title: Modificar la configuración de una implementación de Cloud Connector existente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
 description: Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior.
-ms.openlocfilehash: be3c7cbbc1395000dbb84bab0c9be0a866fb4403
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375375"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893058"
 ---
-# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modificar la configuración de una implementación de Cloud Connector existente
+# <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
 Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior. 
   
@@ -172,17 +173,17 @@ Set-CcCredential -AccountType TenantAdmin
 > [!NOTE]
 > En esta sección es aplicable a la versión 2.0 de conector en la nube y versiones posteriores. 
   
-Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se cambia la contraseña en el servidor de host, debe actualizar las credenciales almacenadas localmente.
+Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
   
 Para actualizar las credenciales almacenadas localmente en el dispositivo de conector en la nube, use los cmdlets [Get-CcCredential](get-cccredential.md) y [Set-CcCredential](set-cccredential.md) y siga estos pasos:
   
 1. Ejecute los siguientes comandos para recuperar las contraseñas que necesitará más adelante:   
     
-   - Get-CcCredential - AccountType del administrador del dominio - DisplayPassword
+   - Get-CcCredential -AccountType DomainAdmin -DisplayPassword
     
    - Get-CcCredential -AccountType VMAdmin -DisplayPassword
     
-   - Get-CcCredential - AccountType CceService - DisplayPassword
+   - Get-CcCredential -AccountType CceService -DisplayPassword
     
 2. Cambie la contraseña de su cuenta en el servidor host.
     
@@ -190,7 +191,7 @@ Para actualizar las credenciales almacenadas localmente en el dispositivo de con
     
 4. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
     
-5. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Asegúrese de que escribir la misma contraseña que escribió antes de la implementación del conector en la nube.
+5. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Asegúrese de introducir la misma contraseña que usó antes para la implementación de Cloud Connector.
     
 De forma predeterminada, VmAdmin y DomainAdmin usan la misma contraseña que CceService. Si las contraseñas de DomainAdmin, VMAdmin y CceService que se devolvieron en el paso 1 son diferentes, debe realizar los siguientes pasos:
   
@@ -279,7 +280,7 @@ Para cada dispositivo que pertenece al mismo sitio de RTC, debe especificar lo s
 
 Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación existente de conector en la nube, haga lo siguiente:
   
-1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Actualizar el archivo de configuración del conector en la nube con el nuevo dominio SIP o dominios.
     
@@ -300,7 +301,7 @@ Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación e
 
 Si necesita cambiar el dominio SIP principal en la implementación del conector de la nube, haga lo siguiente:
   
-1. Asegúrese de que haya completado los pasos para actualizar su dominio en Office 365 y tienen la capacidad de agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
 2. Actualice el archivo de configuración del conector en la nube con el nuevo dominio SIP.
     
@@ -323,8 +324,6 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 6. 
     
     Quite el registro de sitios para cada sitio mediante la ejecución del siguiente cmdlet en el PowerShell de Skype Empresarial Online :
-
-
     
    ```
    Remove-CsHybridPSTNSite

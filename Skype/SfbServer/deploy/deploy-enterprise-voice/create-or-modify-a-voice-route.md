@@ -1,5 +1,6 @@
 ---
 title: Crear o modificar una ruta de voz de Skype para la empresa
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: d3265f3864e01391598b11ab5466c96f41a123ae
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886357"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888573"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz de Skype para la empresa
  
@@ -57,7 +58,7 @@ ms.locfileid: "23886357"
 11. Para asociar uno o más registros de uso de la red de telefonía conmutada (RTC) con la ruta de voz, haga clic en **Seleccionar** y elija un registro en la lista de registros de uso de RTC que se hayan definido para la implementación de Telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
   
 12. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
     
@@ -104,7 +105,7 @@ ms.locfileid: "23886357"
 9. Para asociar uno o varios usos de RTC con la ruta de voz, haga clic en **Seleccionar** y elija un registro de la lista de registros de uso de RTC que se han definido para la implementación de Enterprise Voice.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > Para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md). 
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md). 
   
 10. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
     
@@ -120,7 +121,7 @@ ms.locfileid: "23886357"
     > [!NOTE]
     > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
   

@@ -1,5 +1,6 @@
 ---
 title: Conceptos básicos DNS
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la Guía de escenario de directiva de DNS. Puede elegir una solución de terceros si lo prefiere.
-ms.openlocfilehash: 297dc905a308806aec9228a9514f8e1bd65a245b
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532819"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886617"
 ---
 # <a name="dns-basics"></a>Conceptos básicos DNS
  

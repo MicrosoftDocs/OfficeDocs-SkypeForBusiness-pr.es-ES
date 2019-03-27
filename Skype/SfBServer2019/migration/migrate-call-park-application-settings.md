@@ -1,5 +1,6 @@
 ---
 title: Migrar la configuración de la aplicación de estacionamiento de llamadas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La migración de la aplicación incluye la Skype para grupo de negocio Server 2019 con cualquier personalizado de música en espera los archivos que se han cargado en la instalación heredada de aprovisionamiento de estacionamiento de llamadas, al restaurar la configuración de nivel de servicio y redirección de estacionamiento todas las órbitas a la Skype para el grupo de servidores de Business Server 2019. Si se han configurado en el grupo de archivos de música en espera personalizados, estos archivos deben copiarse a la nueva Skype para el grupo de servidores de Business Server 2019. Además, se recomienda que se haga una copia de seguridad de cualquier estacionamiento personalizado los archivos de música en espera de a otro destino para mantener una copia de seguridad independiente de cualquier archivo personalizado de música en espera que se han cargado del estacionamiento de llamadas. Los archivos de música en espera personalizados para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo de servidores. Para copiar los archivos de audio desde un almacén de archivos de grupo de servidores a un Skype Business Server 2019 almacén de archivos, utilice el comando Xcopy con los siguientes parámetros:'
-ms.openlocfilehash: bcc2da8192f0c94f20d11073b1b18439ccc9df61
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887626"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar la configuración de la aplicación de estacionamiento de llamadas
 

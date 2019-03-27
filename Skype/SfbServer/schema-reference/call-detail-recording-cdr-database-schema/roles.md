@@ -1,5 +1,6 @@
 ---
 title: Tabla Roles
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8eb8a10-26b5-488b-bc8c-f9ef93f98bdb
-description: La tabla de funciones es una tabla estática que almacena la lista de funciones de conferencia posibles, como asistente y moderador.
-ms.openlocfilehash: a9f35c510eaca054dd504db4045686cb4eeaac4c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla Roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
+ms.openlocfilehash: 2b7759cc600471a8bf1b989ce429f6b2a4149ee0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891716"
 ---
 # <a name="roles-table"></a>Tabla Roles
  
-La tabla de funciones es una tabla estática que almacena la lista de funciones de conferencia posibles, como asistente y moderador.
+En la tabla Roles es una tabla estática que almacena la lista de posibles roles de conferencia, como asistente y moderador.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**Identificador de función** <br/> |tinyint  <br/> |Primary  <br/> ||
-|**Rol** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0 - desconocido <br/>  1 - presenter <br/>  2 - Asistente <br/> |
+|**Rol** <br/> |nvarchar(256)  <br/> || Valores permitidos: <br/>  0 - Unknown (desconocido) <br/>  1 - moderador <br/>  2 - attendee <br/> |
    
 

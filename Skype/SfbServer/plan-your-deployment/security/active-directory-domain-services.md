@@ -1,5 +1,6 @@
 ---
 title: Servicios de dominio de Active Directory para Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
 description: Los servicios de dominio de Active Directory funciona como el servicio de directorio para las redes de Windows Server 2003, Windows Server 2008, Windows Server 2012 y Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirve como la base en la que se basa el Skype para la infraestructura de seguridad de Business Server. El propósito de esta sección es describir cómo Skype para Business Server utiliza los servicios de dominio de Active Directory para crear un entorno de confianza para la mensajería instantánea, conferencia Web, medios y voz. Para obtener información detallada sobre la preparación de su entorno para los servicios de dominio de Active Directory, vea instalar Skype for Business Server en la documentación de implementación. Para obtener información detallada acerca de la función de los servicios de dominio de Active Directory en redes de Windows Server, vea la documentación de la versión del sistema operativo que se está utilizando.
-ms.openlocfilehash: 19e09126e07055b2c76487ba8dad1cc7c5777bc5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1664f3b354078c79429b20e7654b363ce9fccb7f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980812"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892388"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype para Business Server
  
@@ -58,7 +59,7 @@ Para obtener información detallada acerca de los grupos universales específico
   
 ## <a name="role-based-access-control"></a>Control de acceso basado en roles
 
-Además de crear grupos universales de servicio y administración y añadir grupos de servicio y administración a los grupos universales correspondientes, la preparación del bosque también crea grupos de control de acceso basado en roles (RBAC). Para obtener información detallada acerca de los grupos específicos de RBAC creados por la preparación del bosque, vea [cambios realizados por la preparación del bosque en Skype para Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación. Para obtener más información acerca de los grupos RBAC, vea [control de acceso basado en roles (RBAC) para Skype para Business Server](role-based-access-control-rbac.md).
+Además de crear grupos universales de servicio y administración y añadir grupos de servicio y administración a los grupos universales correspondientes, la preparación del bosque también crea grupos de control de acceso basado en roles (RBAC). Para obtener más información sobre los grupos RBAC específicos creados por la preparación del bosque, consulte [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación sobre implementación. Para obtener más información acerca de los grupos RBAC, vea [control de acceso basado en roles (RBAC) para Skype para Business Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entradas de control de acceso (ACE) y herencia
 
@@ -111,6 +112,6 @@ Además, para habilitar las implementaciones de Microsoft Office Communications 
 |Servidores proxy  <br/> |Skype para Business Server no admite la compatibilidad con versiones anteriores de los servidores proxy  <br/> |
    
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Preparar Active Directory para Skype para Business Server](../../deploy/install/prepare-active-directory.md)

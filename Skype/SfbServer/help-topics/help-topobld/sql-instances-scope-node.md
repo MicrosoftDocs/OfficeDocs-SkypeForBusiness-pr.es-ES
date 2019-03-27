@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de instancias SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,20 +12,21 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 'El SQL almacena listas de nodos las bases de datos de SQL Server en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 3253f0c1ed6658dc07aed09eb3c4a70dca43bebf
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'La instrucción SQL almacena listas de nodos las bases de datos de SQL Server en su topología. You can perform the following action:'
+ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891226"
 ---
 # <a name="sql-instances-scope-node"></a>Nodo de ámbito de instancias SQL
  
 El nodo **SQL almacena** enumera las bases de datos de SQL Server en su topología. Puede efectuar la acción siguiente:
   
-- **Nuevo almacén SQL**. Inicia al Asistente para **Definir nuevo almacén de SQL** , que se utiliza para agregar una nueva base de datos de SQL Server a la topología.
+- **Nuevo almacén SQL**. Inicia al asistente **Definir nuevo almacén SQL** , que se utiliza para agregar una nueva base de datos de SQL Server a la topología.
     
-Además de las opciones de base de datos de SQL Server, puede realizar las siguientes tareas generales:
+Además de las opciones de base de datos de SQL Server, puede realizar las tareas generales siguientes:
   
 - **Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.
     

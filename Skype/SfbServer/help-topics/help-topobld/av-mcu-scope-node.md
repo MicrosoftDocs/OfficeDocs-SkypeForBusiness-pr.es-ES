@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito MCU AV
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y los grupos de servidores asociados de este grupo de servidores de conferencias A/V. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: f3157d19eac103af45a84815c09b8af3b2845e7d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 76797ecbc1dd2a80320b99c9fc2feb2d0cad5cfe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887102"
 ---
 # <a name="av-mcu-scope-node"></a>Nodo de ámbito MCU AV
  

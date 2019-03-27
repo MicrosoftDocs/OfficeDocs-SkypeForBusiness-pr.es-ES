@@ -1,5 +1,6 @@
 ---
 title: Proceso de implementación de la aplicación de anuncio en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Proceso de implementación y los pasos para la aplicación de anuncio en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 5adaea25903968935cbaa00639546926781c004c
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 96925df57a36373ee6f031b953f1933b3bac5681
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885602"
 ---
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Proceso de implementación de la aplicación de anuncio en Skype para Business Server
  

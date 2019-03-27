@@ -1,5 +1,6 @@
 ---
 title: Preparar esquema
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para preparar el esquema de los servicios de dominio de Active Directory, ejecute el paso Preparar el esquema en el Skype para el Asistente para la implementación de servidor de negocio. Haga clic en Ejecutar para comenzar la preparación del esquema.
-ms.openlocfilehash: 5cc9f4136d86408296a95c8bad0ffdbd13185d8d
-ms.sourcegitcommit: ddedcfe6efd4d8adec794a70c904468a45fbdeb4
+ms.openlocfilehash: fc9981e5a6f298d4d7697b00cde2798dd0b859ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "22601965"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886250"
 ---
 # <a name="prepare-schema"></a>Preparar esquema
  

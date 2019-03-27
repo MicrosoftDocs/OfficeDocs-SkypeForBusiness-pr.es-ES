@@ -1,5 +1,6 @@
 ---
 title: Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Resumen: Obtenga información sobre cómo definir una regla de conversión mediante la compilación una herramienta de la regla de conversión de Skype para Business Server.'
-ms.openlocfilehash: c50b16f2753569b1a47b37f6615ef0e7f6d26cae
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 947dc6a76482fc5b00efaeb71463b35eab9f9cea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370833"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897695"
 ---
 # <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server
 
 **Resumen:** Obtenga información sobre cómo definir una regla de conversión mediante la compilación una herramienta de la regla de conversión de Skype para Business Server.
 
-Siga estos pasos si desea definir una regla de conversión especificando un conjunto de valores en la herramienta de **creación de una regla de conversión** y habilitación de Skype para Panel de Control de servidor empresarial generar el patrón coincidente correspondiente y la regla de conversión para usted. También tiene la opción de escribir una expresión regular manualmente para definir el patrón de correspondencia y la regla de conversión. Para obtener información detallada, vea [crear o modificar una regla de conversión de forma manual](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
+Siga estos pasos si desea definir una regla de conversión especificando un conjunto de valores en la herramienta de **creación de una regla de conversión** y habilitación de Skype para Panel de Control de servidor empresarial generar el patrón coincidente correspondiente y la regla de conversión para usted. También tiene la opción de escribir una expresión regular manualmente para definir el patrón de correspondencia y la regla de conversión. Para obtener más información, consulte [Create or Modify a Translation Rule Manually](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx).
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>Para definir una regla mediante el uso de la herramienta Crear una regla de conversión
 
@@ -98,7 +99,7 @@ Siga estos pasos si desea definir una regla de conversión especificando un conj
     > [!NOTE]
     > Cada vez que cree o modifique una regla de conversión, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar un tronco con desvío de medios en Skype para Business Server](configure-trunk-with-media-bypass.md)
 

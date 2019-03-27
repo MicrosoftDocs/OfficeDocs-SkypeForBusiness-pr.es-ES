@@ -1,5 +1,6 @@
 ---
 title: Iniciar servicios (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
-description: El panel de resumen en el panel de comandos de ejecución muestra el estado de las tareas que se emite para iniciar los servicios para el Skype para servidor de rol Business Server 2015 que va a implementar. El resumen del panel de tareas no representa ninguna indicación en tiempo real de inicio del servicio. Algunos de lo Skype para servicios Business Server pueden tardar mucho tiempo para iniciar el proceso de inicio. Las tareas indican al comando que se inicie, pero no esperan para determinar si el servicio se ha iniciado correctamente. Si debe supervisar el inicio y el estado de los servicios, se recomienda usar Windows Services Microsoft Management Console (MMC).
-ms.openlocfilehash: 803295c059e980470335d2d98d95d36de02cadfc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El panel de resumen en el panel de ejecución de comandos muestra el estado de las tareas emitido para iniciar los servicios para la Skype para servidor de funciones de Business Server 2015 que va a implementar. El resumen del panel de tareas no representa ninguna indicación en tiempo real de inicio del servicio. Algunas de las Skype para servicios de Business Server pueden tardar un tiempo extendido para comenzar el proceso de inicio. Las tareas indican al comando que se inicie, pero no esperan para determinar si el servicio se ha iniciado correctamente. Si debe supervisar el inicio y el estado de los servicios, se recomienda usar Windows Services Microsoft Management Console (MMC).
+ms.openlocfilehash: 48d94dabe5e584fed8bc10b7e7b19efd5b068a1c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888143"
 ---
 # <a name="start-services-invoke"></a>Iniciar servicios (invocar)
  
-El panel de resumen en el panel de **Comandos de ejecución** muestra el estado de las tareas que se emite para iniciar los servicios para el Skype para servidor de rol Business Server 2015 que va a implementar. El resumen del panel de tareas no representa ninguna indicación en tiempo real de inicio del servicio. Algunos de lo Skype para servicios Business Server pueden tardar mucho tiempo para iniciar el proceso de inicio. Las tareas indican al comando que se inicie, pero no esperan para determinar si el servicio se ha iniciado correctamente. Si debe supervisar el inicio y el estado de los servicios, se recomienda usar Windows Services Microsoft Management Console (MMC).
+El panel de resumen en el panel de **Ejecución de comandos** muestra el estado de las tareas emitido para iniciar los servicios para la Skype para servidor de funciones de Business Server 2015 que va a implementar. El resumen del panel de tareas no representa ninguna indicación en tiempo real de inicio del servicio. Algunas de las Skype para servicios de Business Server pueden tardar un tiempo extendido para comenzar el proceso de inicio. Las tareas indican al comando que se inicie, pero no esperan para determinar si el servicio se ha iniciado correctamente. Si debe supervisar el inicio y el estado de los servicios, se recomienda usar Windows Services Microsoft Management Console (MMC).
   
 Debajo del panel de tareas, hay una lista desplegable que muestra el archivo de registro **Iniciar servicios**. Para visualizar el archivo de registro, haga clic en **Ver registro**. Haga clic en **Finalizar** para completar la tarea.
   

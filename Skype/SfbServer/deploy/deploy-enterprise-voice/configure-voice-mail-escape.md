@@ -1,5 +1,6 @@
 ---
 title: Configurar escape de correo de voz de Skype para la empresa
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: 260488701348fdf52eaccb82cc6dc41c19c68339
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23891268"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891870"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar escape de correo de voz de Skype para la empresa
 
@@ -45,7 +46,7 @@ Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicem
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Configuración de directivas de voz y registros de uso de RTC para autorizar privilegios y características de llamada](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
+[Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

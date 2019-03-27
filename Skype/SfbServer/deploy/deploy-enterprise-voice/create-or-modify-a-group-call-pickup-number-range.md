@@ -1,5 +1,6 @@
 ---
 title: Creación o modificación de un intervalo de números de grupo llamada recogida en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Crear o modificar un intervalo de números de grupo llamada recogida en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d73b3e72aa7cd5f733406c861d8a3357fe28fe45
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 0032d46507c6cb91629b94662ec67bf9c67b7cc4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883956"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885613"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Creación o modificación de un intervalo de números de grupo llamada recogida en Skype para la empresa
 
@@ -51,7 +52,7 @@ Los intervalos de números del grupo de atención de llamadas deben cumplir con 
 
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
-3. Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números de llamada de grupo pickup. Usar **Set-CsCallParkOrbit** para modificar un intervalo de números de llamada pickup existente.
+3. Use **New-CsCallParkOrbit** para crear un nuevo intervalo de números del grupo de atención de llamadas. Use **Set-CsCallParkOrbit** para modificar un intervalo de números del grupo de atención de llamadas existente.
 
     En la línea de comandos, ejecute:
 
@@ -74,7 +75,7 @@ Los intervalos de números del grupo de atención de llamadas deben cumplir con 
     > [!IMPORTANT]
     > Use este cmdlet para cambiar el tipo asignado a los intervalos de números únicamente si especificó el tipo incorrecto y el intervalo de números aún no se encuentra en uso. Si cambia el intervalo de números de CallPark a GroupPickup, o viceversa, y este ya se encuentra en uso, el estacionamiento de llamadas o la atención de llamadas grupales dejará de funcionar para ese intervalo de números. Por ejemplo, si cambia un intervalo de números de CallPark a GroupPick, la aplicación de estacionamiento de llamadas ya no puede utilizar ese intervalo de Órbitas para estacionar llamadas.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Nuevo-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

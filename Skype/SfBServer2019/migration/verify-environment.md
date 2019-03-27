@@ -1,5 +1,6 @@
 ---
 title: Comprobación del entorno heredado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de implementar Skype para Business Server 2019 en un estado de coexistencia, debe comprobar que se han configurado e iniciado servicios heredados. Es importante identificar servicios clave y características que existen en el entorno heredado, antes de implementar un Skype para el grupo piloto Business Server 2019. Antes de implementar Microsoft Skype para Business Server 2019 XMPP en un estado de coexistencia con una implementación de XMPP heredado, debe comprobar los servicios XMPP heredados se han configurado y se ha iniciado e identificar qué es la configuración de XMPP heredada de socio federado compatibilidad con.
-ms.openlocfilehash: d6e4585e127009117345d1220458196b5b461b6a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0f9812efe966d72eba1eeead9d74780f2ba16661
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030430"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887353"
 ---
 # <a name="verify-the-legacy-environment"></a>Comprobación del entorno heredado
 

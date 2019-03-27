@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración de puerta de enlace RTC
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,11 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 'Modifique los siguientes campos para editar o modificar la configuración de una puerta de enlace de la red telefónica conmutada (RTC):'
-ms.openlocfilehash: b13580053783ae6b6934fa40e93b493280fd6d3c
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 9b00cdadab9f2a7967bab7601a0c691ca35819c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887676"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expansor de configuración de puerta de enlace RTC
  
@@ -28,6 +30,6 @@ El protocolo de transporte de SIP puede ser el Protocolo de control de transmisi
   
 Seleccione si desea habilitar IPv4 e IPv6 para la puerta de enlace.
   
-La **dirección IP de medios alternativos** es una definición para el servidor de mediación para que la puerta de enlace PSTN implementado tiene una dirección IP diferente para el tráfico de medios que la dirección IP configurada de forma predeterminada, que normalmente está dedicado para el tráfico SIP. Si este parámetro se define, la puerta de enlace RTC admite una ruta de acceso o una interfaz de red distintas para el medio. Si esta dirección se deja en blanco, la puerta de enlace RTC no admitirá la ruta de acceso alternativa para el medio.
+La **dirección IP de medios alternativa** es una definición para el servidor de mediación para los que la puerta de enlace RTC implementada tiene una dirección IP diferente para el tráfico de medios que la dirección IP predeterminado configurado, que normalmente está dedicado para el tráfico SIP. Si este parámetro se define, la puerta de enlace RTC admite una ruta de acceso o una interfaz de red distintas para el medio. Si esta dirección se deja en blanco, la puerta de enlace RTC no admitirá la ruta de acceso alternativa para el medio.
   
 

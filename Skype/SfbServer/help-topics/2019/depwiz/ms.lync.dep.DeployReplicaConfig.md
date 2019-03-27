@@ -1,5 +1,6 @@
 ---
-title: Invocar el almacén de configuración de instalación Local (configurar)
+title: Instalar invocación de almacén de configuración local (configurar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de la base de datos que contendrá la copia local de sólo lectura del almacén de Administración Central, seleccione uno de recuperar la configuración definida publicada mediante Topology Builder desde la Central ya instalado y configurado Almacén de administración, o leer la configuración definida de otro medio. Para un equipo que se encuentra en la red interna de la organización, seleccione recuperar la configuración automáticamente en el almacén de Administración Central.
-ms.openlocfilehash: 87d2620b6b4b9eb36ee96e7f9b693016620d3a49
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003148"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886271"
 ---
-# <a name="install-local-configuration-store-invoke-configure"></a>Invocar el almacén de configuración de instalación Local (configurar)
+# <a name="install-local-configuration-store-invoke-configure"></a>Instalar invocación de almacén de configuración local (configurar)
  
 Para comenzar la instalación de la base de datos que contendrá la copia local de sólo lectura del almacén de Administración Central, seleccione uno de recuperar la configuración definida publicada mediante Topology Builder desde la Central ya instalado y configurado Almacén de administración, o leer la configuración definida de otro medio. Para un equipo que se encuentra en la red interna de la organización, seleccione **recuperar la configuración automáticamente el almacén de Administración Central**.
   

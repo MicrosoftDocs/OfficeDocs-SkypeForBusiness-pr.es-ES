@@ -1,5 +1,6 @@
 ---
 title: Directiva de archivado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-description: 'Utilizar directivas de archivado para habilitar y deshabilitar el archivado para usuarios alojados en Skype para Business Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones (o ambas):'
-ms.openlocfilehash: eea3f7eb71bcf3928e2976b9468cea6bf94b4ab1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Use las directivas de archivado para habilitar y deshabilitar el archivado para los usuarios alojados en Skype para Business Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones (o ambas):'
+ms.openlocfilehash: d0ef36b6300895c1dbdf3199da7dc07a9b4064fd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884852"
 ---
 # <a name="archiving-policy"></a>Directiva de archivado
  
-Utilizar directivas de archivado para habilitar y deshabilitar el archivado para usuarios alojados en Skype para Business Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones (o ambas):
+Use las directivas de archivado para habilitar y deshabilitar el archivado para los usuarios alojados en Skype para Business Server. En cada directiva de archivado, puede habilitar o deshabilitar el archivado para una de las siguientes opciones (o ambas):
   
 - Comunicaciones internas
     
@@ -30,15 +32,15 @@ Las directivas de archivado están formadas por la directiva global y, de forma 
   
 - **Directiva global** La directiva global se crea de forma predeterminada en todas las implementaciones. Puede editarla, pero no eliminarla. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
     
-- **Directiva de sitio (opcional)** Puede especificar uno o más sitios archivado directivas, que cada una de las cuales se puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un único sitio. Una directiva de sitio reemplaza a la directiva global, pero solo para los sitios especificados en las directivas de sitio de archivado. Las directivas de sitio se pueden editar o eliminar.
+- **Directiva de sitio (opcional)** Puede especificar uno o varios sitios las directivas de archivado, que cada uno de los cuales se pueden configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas de un solo sitio. Una directiva de sitio reemplaza a la directiva global, pero solo para los sitios especificados en las directivas de sitio de archivado. Las directivas de sitio se pueden editar o eliminar.
     
-- **Directiva de usuario (opcional)** Puede especificar uno o más archivado directivas de usuario, que cada uno de los cuales se puede configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un usuario específico o grupo de usuarios. Una directiva de usuario reemplaza a las directivas globales y de sitio, pero solo para los usuarios y grupos de usuarios que tengan asignadas directivas de archivado de nivel de usuario. Las directivas de usuario se pueden editar o eliminar.
+- **Directiva de usuario (opcional)** Puede especificar uno o varios usuarios directivas de archivado, que cada uno de los cuales se pueden configurar para habilitar y deshabilitar el archivado de comunicaciones internas o externas para un usuario específico o grupo de usuarios. Una directiva de usuario reemplaza a las directivas globales y de sitio, pero solo para los usuarios y grupos de usuarios que tengan asignadas directivas de archivado de nivel de usuario. Las directivas de usuario se pueden editar o eliminar.
     
 > [!NOTE]
-> Políticas de archiving se aplican sólo a los usuarios alojados en Skype para Business Server. Si utiliza la integración de Exchange para almacenar archivar los datos en Microsoft Exchange, a continuación, las directivas de Exchange 2013 control archivado para usuarios alojados en Exchange de 2013. Para habilitar el archivado de los usuarios, el buzón del usuario debe colocarse en posesión en el lugar. 
+> Las directivas de archivado se aplican sólo a los usuarios hospedados en Skype para Business Server. Si utiliza la integración de Exchange para almacenar datos en Microsoft Exchange, a continuación, las directivas de Exchange 2013 de archivado control de archivado para los usuarios alojados en Exchange 2013. Para habilitar el archivado para aquellos usuarios, se debe colocar el buzón del usuario en suspensión en contexto. 
   
 La página **Directiva de archivado** muestra cada directiva de archivado configurada en la implementación. También refleja el nombre de la directiva, el ámbito (global, sitio o usuario) y qué opciones de archivado están habilitadas para cada directiva de archivado. En la página **Directiva de archivado**, dispone de las siguientes opciones:
-- **Nuevo** Puede agregar uno o varios de cada una de las siguientes políticas de Archiving opcionales:
+- **Nuevo** Puede agregar uno o varios de cada una de las directivas de archivado opcionales siguientes:
     
   - Directiva de sitio
     
@@ -52,7 +54,7 @@ La página **Directiva de archivado** muestra cada directiva de archivado config
     
   - **Eliminar.** Esta opción elimina todas las directivas de archivado seleccionadas.
     
-- **Acción** Puede utilizar esta opción para habilitar o deshabilitar el archivado de comunicaciones internas o externas en cualquier directiva aparecerán en la página, en lugar de modificar la directiva rápidamente. Las opciones disponibles en **Acción** dependen de qué opción esté especificada actualmente en la directiva de archivado. Todas las opciones están disponibles, excepto la opción en vigor actualmente para la directiva de archivado. Las opciones son estas:
+- **Acción** Puede usar esta opción para habilitar o deshabilitar el archivado de comunicaciones internas o externas en cualquier directiva que aparece en la página, en lugar de modificar la directiva de rápidamente. Las opciones disponibles en **Acción** dependen de qué opción esté especificada actualmente en la directiva de archivado. Todas las opciones están disponibles, excepto la opción en vigor actualmente para la directiva de archivado. Las opciones son estas:
     
   - **Habilitar archivado de comunicaciones internas**
     
@@ -62,7 +64,7 @@ La página **Directiva de archivado** muestra cada directiva de archivado config
     
   - **Deshabilitar archivado de comunicaciones externas**
     
-- **Actualizar** Puede actualizar la página **Política de Archiving** para comprobar el estado de las opciones de todas las políticas de Archiving.
+- **Actualizar** Puede actualizar la página **Directiva de archivado** para comprobar el estado de las opciones de todas las directivas de archivado.
     
-Para obtener más información acerca de la característica de archivado y capacidades, incluida la integración de Exchange, consulte [Plan para archiving en Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [implementar archiving de Skype para Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)y [Administrar archiving en Skype para 2015 empresariales de servidor](../../manage/archiving/archiving.md).
+Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, vea [Planear el archivado en Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para 2015 empresariales de servidor](../../manage/archiving/archiving.md).
 

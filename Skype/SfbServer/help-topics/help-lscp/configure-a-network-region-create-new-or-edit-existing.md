@@ -1,5 +1,6 @@
 ---
 title: Configurar una región de red crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 64b1463fb6bc83af5e60b08ff191cd57bff8d3b6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e6dfbfb6a03e8f9a9ee7f8548b8bb06f379b1ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257475"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885044"
 ---
-# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configurar una región de red: crear nuevos o editar los existentes
+# <a name="configure-a-network-region-create-new-or-edit-existing"></a>Configurar una región de red: Crear nuevos o editar los existentes
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

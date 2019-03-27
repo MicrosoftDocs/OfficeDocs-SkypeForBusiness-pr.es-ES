@@ -1,5 +1,6 @@
 ---
 title: Ver directivas de conferencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1c0976e-2bfb-475b-9255-ed6b093d8798
 description: 'Resumen: Obtenga información sobre cómo ver las directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 161b9f172af935b105e01bda88c1c3dbef2e3a9f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 034de4e8d1a5d1a4a89589d3f6361d22e5a783be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20992339"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886440"
 ---
 # <a name="view-conferencing-policies-in-skype-for-business-server"></a>Ver directivas de conferencia en Skype para Business Server
  

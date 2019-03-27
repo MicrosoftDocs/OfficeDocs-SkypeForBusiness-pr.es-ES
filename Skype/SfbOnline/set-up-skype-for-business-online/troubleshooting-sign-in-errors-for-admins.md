@@ -1,5 +1,6 @@
 ---
 title: Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para los administradores
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Obtenga información sobre las causas habituales de Skype para errores de inicio de sesión en línea de negocio y de trabajo a través de solucionar estos problemas. '
-ms.openlocfilehash: b9eccd817fbb9a67fcbce61d73b4a701c6b063de
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 369dc9347903335227641b1afebb1fd199d64541
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27789088"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886999"
 ---
 # <a name="troubleshooting-skype-for-business-online-sign-in-errors-for-administrators"></a>Solución de problemas de Skype para errores de inicio de sesión empresarial en línea para los administradores
 

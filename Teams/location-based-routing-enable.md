@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 809e48e4a770906b93642356cc5f37fd03c411c4
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68b239d00e67d942f80a259facb87c80ddf2a55
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460335"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886035"
 ---
 # <a name="enable-location-based-routing-for-direct-routing"></a>Habilitar enrutamiento basado en la ubicación para el enrutamiento directo
 
@@ -39,7 +39,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
 
 ## <a name="enable-location-based-routing-for-users"></a>Habilitar el enrutamiento basado en la ubicación para los usuarios
 
-1. Usar el ``Set-CsOnlinePstnUsages`` cmdlet para establecer usos de RTC. Para varios usos, separe cada uso con una coma.
+1. Use el cmdlet [Set-CsOnlinePstnUsage](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstnusage?view=skype-ps) para establecer los usos de RTC. Para varios usos, separe cada uso con una coma.
 
     ```
     Set-CsOnlinePstnUsage -Usage <usages> 
@@ -48,7 +48,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     ```
     Set-CsOnlinePstnUsage -Usage "Long Distance", "Local", "Internal" 
     ```
-2. Usar el ``New-CsOnlineVoiceRoutingPolicy`` cmdlet para crear una directiva de enrutamiento de voz para asociar el usuario con los usos de RTC adecuados.
+2. Use el cmdlet [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/new-csonlinevoiceroutingpolicy?view=skype-ps) para crear una directiva de enrutamiento de voz para asociar el usuario con los usos de RTC adecuados.
 
     ```
     New-CsOnlineVoiceRoutingPolicy -Identity <voice routing policy ID> -Description <voice routing policy name> -OnlinePstnUsages <usages> 
@@ -71,13 +71,12 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     |Identificador de la directiva de voz en línea   |Directiva de enrutamiento de voz en línea de Delhi   |Directiva de enrutamiento de voz en línea de Hyderabad    |
     |Usos de RTC en línea  |Larga distancia  |Larga distancia, Local, interno  |
 
-    Para obtener más información, vea [New-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csonlinevoiceroutingpolicy).
-3. Usar el ``Grant-CsOnlineVoiceRoutingPolicy`` las directivas de enrutamiento para los usuarios que requieren que se deben cumplir las restricciones de enrutamiento de voz de cmdlet para asociar en línea.
+3. Use el cmdlet [Grant-CsOnlineVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csonlinevoiceroutingpolicy?view=skype-ps) para asociar las directivas de enrutamiento de voz en línea a los usuarios que requieren que se deben cumplir las restricciones de enrutamiento.
     ```
     Grant-CsOnlineVoiceRoutingPolicy -Identity <User> -Tenant <TenantId>
     ```
 ## <a name="enable-location-based-routing-for-network-sites"></a>Habilitar el enrutamiento basado en la ubicación de sitios de red
-1.  Usar el ``Set-CsTenantNetworkSite`` cmdlet para habilitar el enrutamiento basado en la ubicación y asociar las directivas de enrutamiento a los sitios de red que se deben aplicar las restricciones de enrutamiento de voz.
+1.  Use el cmdlet [Set-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/set-cstenantnetworksite?view=skype-ps) para habilitar el enrutamiento basado en la ubicación y asociar las directivas de enrutamiento de voz a los sitios de red que se deben aplicar las restricciones de enrutamiento.
     ```
     Set-CsTenantNetworkSite -Identity <site ID> -EnableLocationBasedRouting <$true|$false>  
     ```
@@ -97,7 +96,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     |Subredes     |Subred 1 (Delhi)     |Subred 2 (Hyderabad)     |
 
 ## <a name="enable-location-based-routing-for-gateways"></a>Habilitar el enrutamiento basado en la ubicación de las puertas de enlace
-1. Usar el ``New-CsOnlinePstnGateway`` cmdlet para crear una configuración de puerta de enlace para cada sitio de red o la puerta de enlace. 
+1. Use el cmdlet [New-CsOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/new-csonlinepstngateway?view=skype-ps) para crear una configuración de puerta de enlace para cada sitio de red o la puerta de enlace. 
 
     ```
     New-CSOnlinePSTNGateway -Fqdn <FDQN registered for the SBC> -Identity <gateway configuration ID> -SipSignallingPort <listening port used> -Enabled $true 
@@ -110,7 +109,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
     ```
     Para obtener más información, vea [Configurar el enrutamiento directo](direct-routing-configure.md).
     
-2. Usar el ``Set-CSOnlinePSTNGateway`` cmdlet para habilitar el enrutamiento basado en la ubicación de las puertas de enlace que se deben aplicar las restricciones de enrutamiento. 
+2. Use el cmdlet [Set-CSOnlinePSTNGateway](https://docs.microsoft.com/powershell/module/skype/set-csonlinepstngateway?view=skype-ps) para habilitar el enrutamiento basado en la ubicación de las puertas de enlace que se deben aplicar las restricciones de enrutamiento. 
 
     Habilitar el enrutamiento basado en la ubicación a puertas de enlace que enrutan las llamadas a las puertas de enlace de RTC que enrutan las llamadas a la RTC y asociación el sitio de red donde se encuentra la puerta de enlace.
 
@@ -152,7 +151,7 @@ Este artículo describe cómo habilitar el enrutamiento basados en ubicación pa
 
 Para exigir la aplicación de enrutamiento basados en ubicación para usuarios específicos, el desvío de configurar la directiva de voz de los usuarios para evitar que el teléfono de pago PTSN. 
 
-Usar el ``Grant-CsTeamsCallingPolicy`` el desvío de cmdlet para habilitar el enrutamiento basado en ubicación impidiendo que los números de pago de RTC.
+Use el cmdlet [Grant-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamscallingpolicy?view=skype-ps) para habilitar el enrutamiento basado en ubicación al evitar el desvío de llamadas RTC.
 
 ```
 Grant-CsTeamsCallingPolicy -PolicyName <policy name> -id <user id> 

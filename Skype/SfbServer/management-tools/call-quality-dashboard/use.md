@@ -1,5 +1,6 @@
 ---
 title: Usar el panel de calidad de llamada de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 6b431bb34ca6350662fbae720c61d2033d95fba4
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533430"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891522"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamada de Skype para Business Server
  
@@ -200,7 +201,7 @@ CQD no utilice los campos de autor de la llamada y el destinatario. Estos han si
 |:-----|:-----|:-----|:-----|
 |2 (AVMCU)   <br/> |4 (Skype Empresarial)   <br/> |Extremo 1  <br/> |Extremo 2  <br/> |
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Extremo 2  <br/> |Extremo 1  <br/> |
-|4 (Skype Empresarial)   <br/> |4 (Skype Empresarial)   <br/> |El autor de la llamada en MediaLine   <br/> |El destinatario de la llamada en MMediaLine  <br/> |
+|4 (Skype Empresarial)  <br/> |4 (Skype Empresarial)   <br/> |El autor de la llamada en MediaLine   <br/> |El destinatario de la llamada en MMediaLine  <br/> |
    
 Si los dos extremos son del mismo tipo, el CQD registrará la entrada del autor de la llamada como Primero y el destinatario como Segundo. Consulte [este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) para obtener más información.
   

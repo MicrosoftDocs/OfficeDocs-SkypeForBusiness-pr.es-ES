@@ -1,5 +1,6 @@
 ---
-title: CcCACertificate renovar
+title: Renew-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: El cmdlet Renew-CcCACertificate renueva los certificados de CA raíz de Skype Empresarial Cloud Connector Edition que están a punto de expirar o que ya han expirado. Este comando se cambió a CcCACertificate de actualización en nube conector 2.0 y versiones posteriores.
-ms.openlocfilehash: bfcf7c69e27af8ebf83c85a8c90cc46491fbc454
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El cmdlet Renew-CcCACertificate renueva los certificados de CA raíz de Skype Empresarial Cloud Connector Edition que están a punto de expirar o que ya han expirado. Este comando se ha cambiado a CcCACertificate de actualización en la nube conector 2.0 y versiones posteriores.
+ms.openlocfilehash: 616abb35d577b816368854396a201b9f07b40d12
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893865"
 ---
-# <a name="renew-cccacertificate"></a>CcCACertificate renovar
+# <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-El cmdlet Renew-CcCACertificate renueva los certificados de CA raíz de Skype Empresarial Cloud Connector Edition que están a punto de expirar o que ya han expirado. Este comando se cambió a CcCACertificate de actualización en nube conector 2.0 y versiones posteriores.
+El cmdlet Renew-CcCACertificate renueva los certificados de CA raíz de Skype Empresarial Cloud Connector Edition que están a punto de expirar o que ya han expirado. Este comando se ha cambiado a CcCACertificate de actualización en la nube conector 2.0 y versiones posteriores.
   
 ```
 Renew-CcCACertificate
@@ -63,10 +65,10 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Restablecer CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[CcServerCertificate renovar](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[CcRootCertificate de exportación](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

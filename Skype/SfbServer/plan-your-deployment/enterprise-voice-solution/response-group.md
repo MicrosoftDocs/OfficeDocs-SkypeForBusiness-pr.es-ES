@@ -1,5 +1,6 @@
 ---
 title: Planeación de la aplicación de grupo de respuesta en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
-ms.openlocfilehash: a5dcf77d2c5c87bf2f3bfa3156795b050591eee5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885588"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894405"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planeación de la aplicación de grupo de respuesta en Skype para Business Server
 
@@ -101,7 +102,7 @@ La aplicación de grupo de respuesta utiliza los siguientes puertos:
     > Este puerto se usa para el servicio de correspondencia y es necesario cuando se implementa la aplicación de grupo de respuesta en un grupo de servidores que tiene más de un servidor Front-End.
 
    > [!NOTE]
-   > Estos puertos son la configuración predeterminada que se puede cambiar mediante el cmdlet **Set-CsApplicationServer** . Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
+   > Estos puertos son configuraciones predeterminadas que se pueden cambiar con el cmdlet **Set-CsApplicationServer**. Para obtener más información acerca de este cmdlet, vea el Skype para la documentación del Shell de administración de servidor empresarial.
 
 ### <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 

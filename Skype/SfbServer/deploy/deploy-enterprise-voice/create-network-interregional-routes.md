@@ -1,5 +1,6 @@
 ---
 title: Crear rutas interregionales de red en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Cree o modifique las rutas interregional de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: db3447e28ad038dd9976959da62c347c911234c9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5b792a9d1471e8925a44bcc5c0a1026e79aa0a0c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887487"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885571"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Crear rutas interregionales de red en Skype para Business Server
  
@@ -76,9 +77,9 @@ En el ejemplo de topología, hay que definir rutas entre regiones de red para ca
     
 10. Para finalizar la creación de rutas entre regiones de red de la topología, repita los pasos del 4 al 9 con la configuración para otras rutas entre regiones de red.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Nueva CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
+[New-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   
 [Get-CsNetworkInterRegionRoute](https://docs.microsoft.com/powershell/module/skype/get-csnetworkinterregionroute?view=skype-ps)
   

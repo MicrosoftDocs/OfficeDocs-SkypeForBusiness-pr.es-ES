@@ -1,5 +1,6 @@
 ---
-title: Configuración de seguridad del registrador
+title: Configuración de seguridad de registrador
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 877caf0a85bdb434864a606ad685b1dfab91d609
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 3af65a039f352d4987f865e96eeed37144881347
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247773"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892098"
 ---
-# <a name="registrar-security-settings"></a>Configuración de seguridad del registrador
+# <a name="registrar-security-settings"></a>Configuración de seguridad de registrador
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 
-- [Administrar opciones de configuración de registrador en Skype Empresarial Server 2015](../../manage/authentication/registrar-configuration-settings.md)
+- [Manage Registrar configuration settings in Skype for Business Server 2015](../../manage/authentication/registrar-configuration-settings.md)
 
 - [Modificar a un registrador existente](https://technet.microsoft.com/library/a8931511-3e66-49ed-a3ec-03bcd61ce1f0.aspx)
 

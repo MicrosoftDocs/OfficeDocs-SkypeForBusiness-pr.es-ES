@@ -1,5 +1,6 @@
 ---
-title: Ver puertas de enlace (importar configuración)
+title: Ver puertas de enlace (Importar configuración)
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0cdb0a42-c682-42f7-907e-667f934cb7e0
 description: En puerta de enlace de implementada, haga clic en la puerta de enlace donde desea importar el archivo de configuración de voz que ha seleccionado.
-ms.openlocfilehash: 858254d4bf608aa9450d1f8f0f116d9b02489b82
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c4166854fda1508b24cc1ec0bc0adbc964ef3ad0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886520"
 ---
-# <a name="view-gateways-import-configuration"></a>Ver puertas de enlace (importar configuración)
+# <a name="view-gateways-import-configuration"></a>Ver puertas de enlace (Importar configuración)
  
 En **puerta de enlace de implementada**, haga clic en la puerta de enlace donde desea importar el archivo de configuración de voz que ha seleccionado.
   

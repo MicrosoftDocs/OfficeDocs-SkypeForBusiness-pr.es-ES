@@ -1,5 +1,6 @@
 ---
 title: Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener información detallada, vea acumulativa 9 de paquete de actualización para SQL Server 2008 Service Pack 1.'
-ms.openlocfilehash: 9ea6e8a48fbcc3f5938c33e9d06db3c882f28de2
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373803"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886278"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar la creación de reflejos de SQL para el servidor Back-End una alta disponibilidad en Skype para Business server 2015
 
@@ -49,7 +50,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 > La creación de reflejos se admite el uso de Topology Builder o cmdlets para configurar y quitar SQL sólo cuando la principal, reflejado y servidores testigo (si así lo desea) pertenecen al mismo dominio. Si desea configurar la creación del reflejo de SQL entre servidores de dominios diferentes, consulte la documentación de SQL Server.
 
 > [!IMPORTANT]
-> Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.  > Para un cambio en la creación de reflejos, (por ejemplo, para cambiar la ubicación de un reflejo), debe usar el generador de topología para llevar a cabo estos tres pasos:
+> Siempre que haga algún cambio en las conexiones entre reflejos de la base de datos back-end, deberá reiniciar todos los servidores front-end del grupo de servidores.  > para un cambio en la creación de reflejos, (por ejemplo, para cambiar la ubicación de un reflejo), debe usar el generador de topología para llevar a cabo estos tres pasos:
 
 1. Quite reflejos del servidor reflejado antiguo.
 
@@ -58,7 +59,7 @@ Con el reflejo de SQL, puede configurar la topología de creación de reflejos a
 3. Publique la topología.
 
 > [!NOTE]
-> Hay que crear un recurso compartido de archivos en el que puedan escribirse los archivos reflejados, y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio SQL Server se está ejecutando en el contexto de servicio de red, puede agregar \<dominio\>\\< NOMBREDESERVIDORSQL\>$ de los servidores de SQL de reflejo y de entidad de seguridad a los permisos de recurso compartido. El $ es importante para identificar si se trata de una cuenta de equipo.
+> Hay que crear un recurso compartido de archivos en el que puedan escribirse los archivos reflejados, y el servicio en el que se ejecutan SQL Server y SQL Agent necesita acceso de lectura y escritura. Si el servicio SQL Server se está ejecutando en el contexto de servicio de red, puede agregar \<dominio\>\\<SQLSERVERNAME\>$ de los servidores de SQL de reflejo y de entidad de seguridad a los permisos de recurso compartido. El $ es importante para identificar si se trata de una cuenta de equipo.
 
 ## <a name="to-configure-sql-mirroring-while-creating-a-pool-in-topology-builder"></a>Para configurar la creación de reflejos de SQL al crear un grupo de servidores en el generador de topología
 
@@ -234,13 +235,13 @@ La forma más sencilla de configurar la creación de reflejos es mediante el gen
 
     Se configurará la creación de reflejos.
 
-    **Install-CsMirrorDatabase** el reflejo se instala y configura la creación de reflejos para todas las bases de datos que están presentes en el almacén de SQL principal. Si desea configurar la creación de reflejos de bases de datos sólo específicas, puede usar la opción - tipodebasededatos o, si desea configurar la creación de reflejos para todas las bases de datos, excepto algunos, puede usar la opción - ExcludeDatabaseList, junto con una lista separada por comas de base de datos nombres que se deben excluir.
+    **Install-CsMirrorDatabase** instala el reflejo y configura la creación de reflejos para todas las bases de datos que están presentes en el almacén principal de SQL. Si desea configurar la creación de reflejos de bases de datos sólo específicas, puede usar la opción - tipodebasededatos o, si desea configurar la creación de reflejos para todas las bases de datos, excepto algunos, puede usar la opción - ExcludeDatabaseList, junto con una lista separada por comas de base de datos nombres que se deben excluir.
 
-    Por ejemplo, si agrega la opción siguiente a **Install-CsMirrorDatabase**, se reflejará todas las bases de datos, excepto rtcab y rtcxds.
+    Por ejemplo, si agrega la opción siguiente a **Install-CsMirrorDatabase**, se creará un reflejo de todas las bases de datos, excepto rtcab y rtcxds.
 
     `-ExcludeDatabaseList rtcab,rtcxds`
 
-   Por ejemplo, si agrega la opción siguiente a **Install-CsMirrorDatabase**, se reflejará sólo las bases de datos rtcab, rtcshared y rtcxds.
+   Por ejemplo, si agrega la opción siguiente a **Install-CsMirrorDatabase**, solo se creará un reflejo de las bases de datos rtcab, rtcshared y rtcxds.
 
     `-DatabaseType User`
 

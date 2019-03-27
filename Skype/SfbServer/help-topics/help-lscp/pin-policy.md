@@ -1,5 +1,6 @@
 ---
 title: Directiva de PIN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 2fd111f3572d2fba4450e7d71f5bb8d190cec80b
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 93b7aa02ebf850ba1b039769df4797832e50c72c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371441"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890342"
 ---
 # <a name="pin-policy"></a>Directiva de PIN
 
@@ -31,11 +32,11 @@ ms.locfileid: "25371441"
 - [Eliminar una directiva de PIN en Skype Empresarial Server 2015](../../manage/authentication/delete-a-pin-policy.md)
 
   **Trabajo con la directiva de PIN para conferencias de acceso telefónico** Esta directiva PIN permite a los usuarios que tienen credenciales de servicios de dominio de Active Directory en la organización para unirse a conferencias de acceso telefónico como los usuarios autenticados introduciendo un PIN.
-- [Crear o modificar la configuración de PIN de conferencia de acceso telefónico para un sitio o grupo de usuarios](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modificar la configuración de PIN de conferencia de acceso telefónico predeterminada](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Eliminar la configuración de PIN de conferencia de acceso telefónico para un sitio o grupo de usuarios](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

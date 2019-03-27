@@ -1,5 +1,6 @@
 ---
 title: Visualización de información de interfaz de red
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede ver información de interfaz de red mediante el uso de Windows PowerShell y el cmdlet Get-CsNetworkInterface. Puede ejecutar este cmdlet desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell.
-ms.openlocfilehash: b3f1217c53176ae2a67ba81893864e1fb3a4e384
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: df4424e33cb42f3c1b2311cc822c762a2c4878f1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222768"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888032"
 ---
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Visualización de información de interfaz de red en Skype para Business Server
 

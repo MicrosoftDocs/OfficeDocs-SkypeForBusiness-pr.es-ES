@@ -1,5 +1,6 @@
 ---
 title: Los usuarios editar usuario
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e687e12e-efae-4b8c-a716-c29c41ee7b75
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3db8ee7b7e27258952a3c427cd9b66094c4659ab
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 291d1f8f908b772cdc92c108706b5b19fcf6bef4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887340"
 ---
 # <a name="users-edit-user"></a>Usuarios: Editar usuario
 
@@ -33,13 +34,13 @@ ms.locfileid: "23260464"
 
 - [Asignar una directiva de PIN por usuario en Skype para Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [Configurar el archivado de comunicaciones de un usuario](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
 - [Asignar una directiva de ubicación a un usuario](https://technet.microsoft.com/library/343f2de3-a0ae-4403-8456-6e520b579d32.aspx)
 
-- [Configurar la telefonía para los usuarios](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [Asignar una directiva de movilidad por usuario](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

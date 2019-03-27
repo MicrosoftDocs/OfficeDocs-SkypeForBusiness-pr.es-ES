@@ -1,5 +1,6 @@
 ---
 title: Configurar un sitio de red
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6450efabd38ac62dc4610821380b28ddb57577ab
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: afa8e61f9b01f2d737f862235b514c8beb3e2a07
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260611"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889912"
 ---
 # <a name="configure-a-network-site"></a>Configurar un sitio de red
 

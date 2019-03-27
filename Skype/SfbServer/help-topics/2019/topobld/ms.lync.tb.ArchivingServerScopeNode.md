@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de servidor de archivado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: eb3c64bc-82db-4d92-b7ed-c86a67eaebb9
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el generador de topología, se pueden realizar las tareas relacionadas con el servidor de archivado haciendo doble clic en el grupo de servidores en el árbol de consola y seleccione Editar propiedades. En la página Editar propiedades puede cambar el nombre de dominio completo (FQDN) del servidor que ejecuta el archivado, la base de datos de SQL Server de archivado y el almacén de archivos de archivado.
-ms.openlocfilehash: cfb6679222da15692f016d4242caffa50296a461
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 34e0472cf12ebf1d45a409631175f147f3217df1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065884"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889199"
 ---
 # <a name="archiving-server-scope-node"></a>Nodo de ámbito de servidor de archivado
  

@@ -1,5 +1,6 @@
 ---
 title: Plan de respuesta de llamadas en grupo en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planeación de recogida de llamadas de grupo en Skype para Business Server Enterprise Voice, que permite a los usuarios atender las llamadas originalmente destinadas a otras personas.
-ms.openlocfilehash: 561dc483194b497e06007dfcecfcd43fb62c678a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ce00ebcacfe8703bcec6418ea620b3d4fe525a68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882093"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892874"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Plan de respuesta de llamadas en grupo en Skype para la empresa
  
@@ -28,7 +29,7 @@ Recogida de llamadas de grupo permite a los usuarios responder a las llamadas en
   
 La característica de recogida de llamadas de grupo está diseñada en particular para las unidades de negocio en entornos de office open. Las llamadas entrantes no resultan molestas porque solo suenan en el destino previsto. Pero los otros usuarios que escuchan el timbre pueden atender la llamada muy fácilmente al marcar el número del grupo. 
   
-En entornos donde los usuarios no se encuentran en un diseño de oficina open o donde los usuarios que comparten una responsabilidad común están distribuidos geográficamente, llamada de equipo presenta la solución más adecuada. La diferencia principal entre recogida de llamadas de grupo y llamada de equipo es que, con grupo de llamada recogida, llama una llamada entrante sólo en el destino previsto, pero aún, cualquier usuario puede elegir responder a la llamada marcando un número de grupo. Con la llamada de equipo, la llamada en absoluto suena teléfonos de los miembros del equipo y cualquier usuario en el equipo puede recoger el teléfono para responder a la llamada. Una diferencia adicional entre recogida de llamadas de grupo y llamada de equipo es que recogida de llamadas de grupo sea administrado por un administrador, a través de Skype para Business Server. Con la llamada de equipo, los usuarios finales administrar la característica mediante el uso de la Skype para clientes empresariales. Por lo tanto, con recogida de llamadas de grupo, este aspecto de la administración de llamadas puede ser centralizada.
+In environments where users are not located in an open office layout, or where users who share a common responsibility are geographically distributed, team call presents the most suitable solution. La diferencia principal entre recogida de llamadas de grupo y llamada de equipo es que, con grupo de llamada recogida, llama una llamada entrante sólo en el destino previsto, pero aún, cualquier usuario puede elegir responder a la llamada marcando un número de grupo. With team call, the call rings at all the team members' phones, and any user in the team can pick up the phone to answer the call. Una diferencia adicional entre recogida de llamadas de grupo y llamada de equipo es que recogida de llamadas de grupo sea administrado por un administrador, a través de Skype para Business Server. Con la llamada de equipo, los usuarios finales administrar la característica mediante el uso de la Skype para clientes empresariales. Por lo tanto, con recogida de llamadas de grupo, este aspecto de la administración de llamadas puede ser centralizada.
   
 Recogida de llamadas de grupo se basa en la aplicación de estacionamiento de llamadas. Al implementar recogida de llamadas de grupo, configurar la tabla de órbitas de estacionamiento de llamadas con los rangos de números de extensión que se designan como números de llamada de grupo pickup independientes. Al igual que los números de órbita del estacionamiento de llamadas, los números de grupo de atención de llamadas necesitan ser extensiones virtuales que no tengan asignado ningún usuario o teléfono. Cada grupo de servidores Front-End donde implementa recogida de llamadas de grupo puede tener uno o varios intervalos de números de llamada de grupo pickup. Los intervalos de números de grupo deben ser únicos global a través de la Skype para la implementación de Business Server. 
   
@@ -119,7 +120,7 @@ En la siguiente tabla se describe el modelo de usuario de recogida de llamadas d
 |:-----|:-----|:-----|
 |Cantidad recomendada de usuarios por grupo  <br/> |50  <br/> |50  <br/> |
 |Cantidad recomendada de grupos  <br/> |500  <br/> |60  <br/> |
-|Cantidad máxima de usuarios por grupo habilitados para la atención de llamadas grupales  <br/> |25.000  <br/> |3.000  <br/> |
+|Cantidad máxima de usuarios por grupo habilitados para la atención de llamadas grupales  <br/> |25 000  <br/> |3.000  <br/> |
 |Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo, por minuto  <br/> |500  <br/> |60  <br/> |
 |Tasa máxima de llamadas recuperadas por los usuarios con la atención de llamadas grupales por grupo, por minuto  <br/> |200  <br/> |25  <br/> |
    

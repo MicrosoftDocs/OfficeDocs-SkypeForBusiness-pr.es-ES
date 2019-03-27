@@ -1,5 +1,6 @@
 ---
 title: FQDN de combinación de información heredada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
 description: El FQDN interno del grupo de servidores de acceso perimetral se utiliza para una variedad de escenarios donde los usuarios internos comunicarse con usuarios externos para la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública. Si se ha implementado un servidor perimetral con equilibrio de carga en el entorno heredado, escriba el nombre de dominio completo (FQDN) del equilibrador de carga interno.
-ms.openlocfilehash: 86f06718e3d8a149dc93a990edbb9c0359c0d087
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 38febd8b6d37d186706dc6d4ce43df5a9585c475
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987067"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899578"
 ---
 # <a name="legacy-merge-fqdn"></a>FQDN de combinación de información heredada
  

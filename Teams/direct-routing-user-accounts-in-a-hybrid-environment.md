@@ -1,5 +1,6 @@
 ---
 title: Cuentas de usuario en un entorno híbrido con conectividad RTC
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: bfa4bef876886b01f7be987aae644e9e4b9169fd
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 88f679d5028cd2626ce4e85f0794aafb38317c9c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569578"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899197"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 

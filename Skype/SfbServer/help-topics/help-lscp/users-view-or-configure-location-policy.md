@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración directiva de ubicación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fa4027bc-2a85-47e0-9f5e-7f1dee08a94f
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 4911e4d9be63dadeb06ecd45f9dc3ee69e0d9a44
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1837b5770ab8c9516152553824b3d62b907f95ac
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23257307"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885736"
 ---
-# <a name="users-view-or-configure-location-policy"></a>Usuarios: Ver o configurar Directiva de ubicación
+# <a name="users-view-or-configure-location-policy"></a>Usuarios: Ver o configurar directiva de ubicación
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

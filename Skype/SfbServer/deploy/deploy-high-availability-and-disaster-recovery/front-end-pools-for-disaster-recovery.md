@@ -1,5 +1,6 @@
 ---
 title: Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Puede decidir usar grupos de servidores front-end para proporcionar protección de recuperación ante desastres emparejados, pero hacerlo no es un requisito.
-ms.openlocfilehash: 7bbb15c635b8a0b9c90d80309e49721cfe778155
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 028e0b4966a15b81b3e6e5627e63261207835f1f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884988"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server
  
@@ -79,6 +80,6 @@ Puede implementar fácilmente la topología de grupos de Front-End emparejados c
 > [!NOTE]
 > La opción de **conmutación por error automática y la conmutación por recuperación para voz** y los intervalos de tiempo asociado en el generador de topología se aplican sólo a las características de resistencia de voz que se introdujeron en Lync Server. La selección de esta opción no implica que la conmutación por error de grupos de servidores tratada en este documento sea automática. La conmutación por error y la conmutación por recuperación de los grupos de servidores siempre requieren que un administrador invoque manualmente los cmdlets de conmutación por error y de conmutación por recuperación, respectivamente.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

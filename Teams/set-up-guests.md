@@ -17,12 +17,12 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.turnonguestaccessarticle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6b446b3baadb1bc692017496f19535d2246244fb
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493648"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885286"
 ---
 <a name="turn-on-or-off-guest-access-to-microsoft-teams"></a>Activar o desactivar el acceso de invitado a Microsoft Teams
 ======================================
@@ -97,7 +97,6 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     AllowShareFile                   : True
     AllowOrganizationTab             : True
     AllowSkypeBusinessInterop        : True
-    AllowTBotProactiveMessaging      : False
     ContentPin                       : RequiredOutsideScheduleMeeting
     AllowResourceAccountSendMessage  : True
     ResourceAccountContentAccess     : NoAccess

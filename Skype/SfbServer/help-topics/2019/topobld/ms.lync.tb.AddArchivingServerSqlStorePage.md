@@ -1,5 +1,6 @@
 ---
-title: Agregar almacén de SQL Server de servidor de archivado
+title: Agregar almacén de SQL Server del servidor de archivado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servidor de archivado requiere una edición de 64 bits compatible del software de base de datos de SQL Server para almacenar los datos de archivo. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que reside la base de datos de SQL Server y la instancia de SQL Server que que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: 4495db6454dc68d1b46db4d618edba0fea23d0ef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: f16a405551822041ad7d792ac9307e29df19ee45
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250605"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889332"
 ---
-# <a name="add-archiving-server-sql-server-store"></a>Agregar almacén de SQL Server de servidor de archivado
+# <a name="add-archiving-server-sql-server-store"></a>Agregar almacén de SQL Server del servidor de archivado
 
 El servidor de archivado requiere una edición de 64 bits compatible del software de base de datos de SQL Server para almacenar los datos de archivo. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que reside la base de datos de SQL Server y la instancia de SQL Server que que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
 

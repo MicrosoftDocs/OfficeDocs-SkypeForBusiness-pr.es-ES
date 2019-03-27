@@ -1,5 +1,6 @@
 ---
 title: Deshabilitar TLS 1.0/1.1 en Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Preparar e implementar deshabilitar TLS 1.0 y 1.1 en sus entornos.'
-ms.openlocfilehash: f99cf01ceb952298e90d296461e0d2b663f92c5d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c10be59bb3e14ccb0a3ac315891789e8a0e2ce64
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493936"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886608"
 ---
 # <a name="disable-tls-1011-in-skype-for-business-server-2015"></a>Deshabilitar TLS 1.0/1.1 en Skype para Business Server 2015
 
@@ -38,7 +39,7 @@ Microsoft ha publicado notas del producto en TLS disponibles [aquí](https://clo
 
 ### <a name="fully-tested-and-supported-servers"></a>Servidores totalmente probados y admitidos
 
-- Skype para Business Server 2019
+- Skype Empresarial Server 2019
 - Skype para Business Server 2015 CU6 HF2 6.0.9319.516 ([actualización de marzo 2018](https://support.microsoft.com/en-us/help/4086059/march-2018-cumulative-update-6-0-9319-516-for-skype-for-business)) y superior en: 
     - Windows Server 2012 (con 3140245 KB o actualización que reemplaza), 2012 R2 o 2016
 - En contexto actualizado Skype para servidor empresarial 2015, con CU6 HF2 y superior en 
@@ -66,7 +67,7 @@ Microsoft ha publicado notas del producto en TLS disponibles [aquí](https://clo
 
 - El sistema de sala de Lync (también conocido como SRSv1)
 - Sistemas de salón de Skype v2 (también conocido como SRSv2)
-- Surface Hub
+- Concentrador de superficie
 - en función de 2015 dispositivo de sucursal con funciones de supervivencia (SBA) o servidor de sucursal con funciones de supervivencia (SBS)
 
 #### <a name="other"></a>Otros

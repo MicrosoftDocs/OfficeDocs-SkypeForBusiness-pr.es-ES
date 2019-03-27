@@ -1,5 +1,6 @@
 ---
-title: Obtener a miembros de dimensión
+title: Obtener miembros de dimensión
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Resumen: Obtenga información acerca de la operación obtener miembros de dimensión. La operación de obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 4c53e809d13b1ceb386c6727805402be9dfaf7f8
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 59cc44cfabca8f216b9d03046fbe697daccbaee2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897104"
 ---
-# <a name="get-dimension-members"></a>Obtener a miembros de dimensión
+# <a name="get-dimension-members"></a>Obtener miembros de dimensión
  
 **Resumen:** Obtenga información acerca de la operación obtener miembros de dimensión. La operación de obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener miembros de dimensión forma parte de la API de datos para el panel de calidad de llamadas.
   
-## <a name="get-dimension-members"></a>Obtener a miembros de dimensión
+## <a name="get-dimension-members"></a>Obtener miembros de dimensión
 
 Operación de obtención de miembros de dimensión, devuelve la lista de miembros de una dimensión específica. También proporcionan la capacidad de filtrar la lista de miembros y obtener un subconjunto, para reducir el costo de transferencia de cable.
   
