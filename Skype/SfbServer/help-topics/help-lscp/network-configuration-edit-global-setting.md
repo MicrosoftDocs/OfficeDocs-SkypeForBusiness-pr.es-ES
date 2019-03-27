@@ -1,5 +1,6 @@
 ---
 title: Configuración de red de modificación de la configuración Global
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 214712fc720c45271f22bb6c69d35b5a7de1e1c5
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 97ce2a5eb8e5f4bc7578dcf79cab19526e18afa6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246634"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926486"
 ---
-# <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración Global
+# <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración global
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

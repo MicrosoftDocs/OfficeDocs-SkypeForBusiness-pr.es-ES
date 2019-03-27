@@ -1,5 +1,6 @@
 ---
 title: Categorías de chat persistente, salones de chat y roles de usuario en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
 description: 'Resumen: Lea este tema para obtener más información sobre las categorías, salones de chat y roles de usuario y Administrador de servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 83aa18d427c97ba54dcc3c66e684a4e13ed0c5df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 0a65d5d8944d28ba834fac461051f23fcdd98800
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983780"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898862"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Categorías de chat persistente, salones de chat y roles de usuario en Skype Empresarial Server 2015
  
@@ -39,7 +40,7 @@ Las categorías le permiten organizar los salones de chat y controlar los usuari
 El principio básico del concepto de miembros permitidos/denegados son las zonas de protección. Por ejemplo, en las instituciones financieras y bancarias, es muy común disponer de límites de protección que impidan a los comerciantes y analistas compartir comunicaciones al implementar directivas y convenciones. Para abordar este requisito, el administrador puede crear categorías de manera que una categoría admita la creación y el uso de salones por parte de los comerciantes, mientras que la otra admita la creación y el uso de salones por parte de los analistas. No se pueden agregar usuarios como miembros del salón si la categoría principal lo prohíbe.
   
 > [!IMPORTANT]
-> Los miembros permitidos y denegados en una categoría no son los mismos que una función de **miembro** , que se aplica a un salón de Chat persistente. > búsquedas mostrar todos los salones de chat abiertos y cerrados para que el usuario que realiza la búsqueda se encuentra en la lista de miembros permitidos y denegados. Los salones secretos no se muestran a menos que el usuario que efectúa la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
+> Los miembros permitidos y denegados en una categoría no son los mismos que una función de **miembro** , que se aplica a un room.> de Chat en grupo para mostrar todas las abiertas y cerrado salones de chat para que el usuario que realiza la búsqueda se encuentra en el permitido y lista de miembros denegados de las búsquedas. Los salones secretos no se muestran a menos que el usuario que efectúa la búsqueda sea miembro del salón secreto. De este modo, el usuario solo puede buscar salones de los que sea miembro o aquellos a los que pueda solicitar ser miembro. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Salones de chat y roles de usuario
 
@@ -65,7 +66,7 @@ Además de permitidos y miembros denegados para las categorías, también puede 
 
 Los siguientes son roles de administrador para el servidor de Chat persistente:
   
-- **Administrador de Chat persistente**: rol de administrador de Chat persistente el puede administrar salones de chat (modificar todas las propiedades incluida la pertenencia, los administradores, categorías, salones de marca como deshabilitado), así como crear y administrar categorías de salón de chat que definen quién puede crear y tener acceso a salones de chat. Los administradores también pueden marcar salones de chat como deshabilitados y eliminar los salones de chat que ya no estén activos. Los administradores no están sujetos a las restricciones que tienen los Autores o los Miembros permitidos. Los administradores pueden crear cualquier tipo de salón de chat y agregarse a sí mismos como miembros de cualquier salón de chat. Los administradores pueden también modificar y administrar la configuración de Chat persistente (propiedades de grupo de servidores, la configuración global y configuración de cumplimiento) y puede también planear e implementar la migración de una implementación de servidor de conversaciones en grupo más antiguos a Skype para Business Server 2015 Servidor de Chat persistente.
+- **Administrador de Chat persistente**: rol de administrador de Chat persistente el puede administrar salones de chat (modificar todas las propiedades incluida la pertenencia, los administradores, categorías, salones de marca como deshabilitado), así como crear y administrar categorías de salón de chat que definen quién puede crear y tener acceso a salones de chat. Administrators can also mark chat rooms as disabled and clean up chat rooms that are no longer active. Administrators are not subject to the Creators or Allowed Members restrictions. Administrators can create any kind of chat room and add themselves as a member to any chat room. Los administradores pueden también modificar y administrar la configuración de Chat persistente (propiedades de grupo de servidores, la configuración global y configuración de cumplimiento) y puede también planear e implementar la migración de una implementación de servidor de conversaciones en grupo más antiguos a Skype para Business Server 2015 Servidor de Chat persistente.
     
     Los administradores de charla persistente son capaces de administrar el servidor de Chat persistente mediante el uso de forma remota los cmdlets de Windows PowerShell (es decir, desde un equipo distinto del servidor de Chat persistente). Servidor de Chat persistente comprueba que el Administrador de Chat persistente es un miembro del grupo local de administrador Local de RTC en la Persistent Chat Server servidor Front-End.
     

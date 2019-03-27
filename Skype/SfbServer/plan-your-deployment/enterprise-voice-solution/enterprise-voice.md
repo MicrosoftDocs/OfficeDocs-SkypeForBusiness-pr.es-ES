@@ -1,5 +1,6 @@
 ---
 title: Planeación de Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise Voice planeación conceptos básicos en Skype Business Server, incluidos los sitios, áreas, vínculos de red entre sitios y estimar el tráfico de uso de voz.
-ms.openlocfilehash: afff1ccffbc6e967f3b18b0746d29db9085fe82c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 281dfefedb05cd60e1d050d708bacae4eec2baa2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373709"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898268"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planeación de Enterprise Voice en Skype para Business Server
  
@@ -72,6 +73,6 @@ Consulte las siguientes secciones para obtener más información acerca de cómo
     
 - [Planeación de características de administración de llamadas de Skype para la empresa](call-management-features.md)
     
-- [Plan para la resistencia de Enterprise Voice en Skype para Business Server](enterprise-voice-resiliency.md)
+- [Plan for Enterprise Voice resiliency in Skype for Business Server](enterprise-voice-resiliency.md)
     
 

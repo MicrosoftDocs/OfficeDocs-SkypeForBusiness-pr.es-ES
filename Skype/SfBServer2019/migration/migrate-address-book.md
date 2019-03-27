@@ -1,5 +1,6 @@
 ---
 title: Migrar la libreta de direcciones
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que necesite realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en el entorno heredado:'
-ms.openlocfilehash: 081246acaaede37ab7f7f204a3f7204d9b25fbcc
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788997"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890651"
 ---
 # <a name="migrate-address-book"></a>Migrar la libreta de direcciones
 

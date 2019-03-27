@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de sistemas de salón de Skype v2.
-ms.openlocfilehash: 7d9a24b69c1e91c5193f67b6bdc321981265cda7
-ms.sourcegitcommit: f0dec487e2893a171c7e701bfcf598076f5245b7
+ms.openlocfilehash: 7d80a803038724e8818ab01f6b4ae54b552cabcd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26539075"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879780"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
@@ -27,7 +27,7 @@ Implementación de sistemas de salón de Skype v2 básicamente se divide en fase
 - Para confirmar que las ubicaciones de implementación (salones) cumplen las dependencias de implementación
 - Creación de Skype para cuentas empresariales y de Exchange y asignarlos a los dispositivos de consola (vea [Configurar cuentas para sistemas de salón de Skype v2](room-systems-v2-configure-accounts.md))
 - Restaurar Microsoft Surface tabletas para que funcionen como consolas de sistemas de salón de Skype v2 (vea [Configure una consola de v2 de Skype salón de sistemas](console.md) o la [Guía de implementación masiva de implementar sistemas de salón de Skype v2](room-systems-scale.md))
-- (Opcional) Configuración de conjunto de aplicaciones de administración de operaciones de Microsoft para los sistemas (consulte [administración de v2 de implementar sistemas de salón de Skype con OMS](with-oms.md))
+- (Opcional) Configuración de conjunto de aplicaciones de administración de operaciones de Microsoft para los sistemas (consulte [administración de v2 de implementar sistemas de salón de Skype con Azure Monitor](azure-monitor.md))
 - Configuración de consolas en las salas de reuniones y conectar los dispositivos periféricos que necesita (consulte la documentación de OEM para el conjunto de dispositivos)
 
 Técnicos de AV se pueden usar para la última tarea, pero la organización necesita hacer las demás partes del proceso de departamento de TI. 
@@ -143,16 +143,16 @@ Al planear la implementación de Skype sala Systemsv2, tiene un número de opcio
 
 | **Escenario**            | **Enfoque**         |
 |-------------------------|-----------------------|   
-|Implementación de un número reducido de dispositivos de sistemas de salón de Skype (< 10). | Si usa sistemas basados en Surface Pro de salón de Skype v2, siga las [instrucciones de instalación para un dispositivo por instalación](console.md). [En este vídeo práctico le guiará por el proceso.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si utiliza una solución integrada, implementar mediante el uso de la imagen del proveedor y configuración según sea necesario. |
+|Implementación de un número reducido de dispositivos de sistemas de salón de Skype (<10). | Si usa sistemas basados en Surface Pro de salón de Skype v2, siga las [instrucciones de instalación para un dispositivo por instalación](console.md). [En este vídeo práctico le guiará por el proceso.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si utiliza una solución integrada, implementar mediante el uso de la imagen del proveedor y configuración según sea necesario. |
 | Implementación de entre 10 y 50 dispositivos desde un único proveedor.     | Crear una imagen de WIM, pausa después del [paso 6 en la guía](console.md)y capturar una imagen de distribución para usarse con la tecnología de clonación de distribución.    |
-| Implementación de más de 50 dispositivos de sistemas de salón de Skype, implementación de los dispositivos de más de un proveedor o que requieren a los agentes específicos de la organización como parte de la implementación. | Use una tarea basada en el secuenciador de compilación y distribución plataforma de software, como [System Center Configuration Manager](with-oms.md).  |
+| Implementación de más de 50 dispositivos de sistemas de salón de Skype, implementación de los dispositivos de más de un proveedor o que requieren a los agentes específicos de la organización como parte de la implementación. | Use una tarea basada en el secuenciador de compilación y distribución plataforma de software, como [System Center Configuration Manager](room-systems-scale.md).  |
 
 **Sugerencia pro** - v2 de sistemas de salón de Skype Each debe tener un nombre de equipo válido y único en la red. Muchos de supervisión y alertas de sistemas muestran el nombre del equipo como un identificador de clave, por lo que es importante desarrollar una convención de nomenclatura para las implementaciones de v2 de sistemas de salón de Skype que permite que el personal de soporte técnico encontrar fácilmente el v2 de Skype salón sistemas que se ha marcado como necesidad de realizar una acción. Un ejemplo que esté utilizando un patrón de SRS -*sitio*-*Nombre del salón* (SRS-LON-CURIE). 
 
 
 Como parte de la implementación, también necesitará tener en cuenta su estrategia para administrar y configurar las [cuentas locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que se crean mediante el instalador de la aplicación de sistemas de salón de Skype.
 
-Se proporcionan instrucciones sobre cómo usar el [Conjunto de aplicaciones de administración de operaciones de Microsoft](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/oms-management) para supervisar la implementación de sistemas de salón de Skype v2 e informar sobre disponibilidad, errores de hardware y software y versión de la aplicación de sistemas de salón de Skype v2. Si decide utilizar el paquete de administración de operaciones de Microsoft, debe instalar al agente de conjunto de aplicaciones de administración de operaciones como parte del proceso de instalación de software y configurar la información de conexión de área de trabajo para el área de trabajo. 
+Se proporcionan instrucciones sobre cómo usar el [Monitor de Microsoft Azure](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para supervisar la implementación de sistemas de salón de Skype v2 e informar sobre disponibilidad, errores de hardware y software y versión de la aplicación de sistemas de salón de Skype v2. Si decide utilizar el paquete de administración de operaciones de Microsoft, debe instalar al agente de conjunto de aplicaciones de administración de operaciones como parte del proceso de instalación de software y configurar la información de conexión de área de trabajo para el área de trabajo. 
 
 Una consideración adicional es que si el v2 de sistemas de salón de Skype dejará de estar unido a un dominio. Información acerca de las ventajas de unirse a dominio puede encontrarse en [Consideraciones unirse de dominio del sistema de sala de Skype](domain-joining-considerations.md). 
 

@@ -1,5 +1,6 @@
 ---
 title: Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
 description: 'Resumen: Administrar aplicaciones de OAuth y socio de Skype para Business Server.'
-ms.openlocfilehash: 6b7701ff91f323b13a97613f57f7228da18d9773
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 77fd070ace850035d129dc247decdcf7988219cf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532842"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893149"
 ---
 # <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server
  
@@ -59,7 +60,7 @@ Con el fin de configurar la autenticación de servidor a servidor para una imple
   
 Tenga en cuenta que OAuth es una parte fundamental del producto y no se puede desactivar ni eliminar.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Asignar un certificado de autenticación de servidor a servidor a Skype para Business Server](assign-a-server-to-server-certificate.md)
   

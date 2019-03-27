@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración General de director para Lync Server 2010
+title: Expansor de configuración general de director para Lync Server 2010
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 67bd625d-f093-4218-a869-768813c54dad
 description: 'Para configurar las propiedades generales del Director o un grupo de directores:'
-ms.openlocfilehash: 48f0c59e547d5c7a1ef841c3fa7a8270349234a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: f0d5f8f730e1952cceab8f364443263d808e558b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010515"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885529"
 ---
-# <a name="director-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General de director para Lync Server 2010
+# <a name="director-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de director para Lync Server 2010
  
 Para configurar las propiedades **generales** del Director o un grupo de directores:
   
@@ -35,9 +36,9 @@ Active la casilla de verificación de **Asociar el servidor de supervisión** y 
   
 Haga clic en **nuevo** para definir un nuevo servidor de supervisión
   
- **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+ **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
- **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+ **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
   
  **Ayuda** Abre esta pantalla de ayuda.
   

@@ -1,5 +1,6 @@
 ---
 title: Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
+ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -14,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ee84c8d3c841f7b6e0a8a1ddc6287ecd27c0b898
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568451"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892536"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================
 
 La adopción de una nueva experiencia de colaboración consiste en cambiar el comportamiento de los usuarios. Los cambios de los humanos requieren formación, motivación y ejemplos positivos. Es fundamental que la gente se sienta escuchada durante la transición. Si ya ha establecido métodos de comentarios adecuados en su organización, puede ampliarlos para que incluyan la implementación de sus equipos. Si no lo ha hecho antes, puede seguir uno de estos enfoques:
 
--   La creación de un equipo público en Microsoft Teams al que puede unirse cualquier usuario para proporcionar comentarios sobre su experiencia (teniendo en cuenta que los grupos públicos están limitados a 2500 usuarios).
+-   Creación de un equipo público dentro de Microsoft Teams que cualquier usuario puede unirse a para proporcionar información sobre su experiencia (que se teniendo en cuenta que los grupos públicos está limitado a 5000 usuarios).
 
 -   El uso de Yammer para proporcionar una comunidad abierta para las prácticas recomendadas y la compatibilidad de la experiencia.
 

@@ -1,5 +1,6 @@
 ---
 title: Configuración de troncos en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Como parte de la implementación de Enterprise Voice, puede configurar un tronco entre un servidor de mediación y uno o más pares para proporcionar conectividad con telefónica conmutada (RTC) para los clientes de Enterprise Voice y dispositivos de la organización.
-ms.openlocfilehash: 34391e09bb87144252634b572bf0eac6a10fe1d9
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 5e07f0152aac32c4d57962cf619e56777221c955
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222866"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883973"
 ---
 # <a name="configuring-trunks-in-skype-for-business-server"></a>Configuración de troncos en Skype para Business Server
 

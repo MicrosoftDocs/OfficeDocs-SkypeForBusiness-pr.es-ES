@@ -1,5 +1,6 @@
 ---
 title: Procedimientos recomendados para la infraestructura básica de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,30 +9,30 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
-description: Es probable que ya haya tomado las medidas necesarias para diseñar la tolerancia a errores en el sistema, mediante el uso de prácticas como garantizar la redundancia de hardware, la protección frente a interrupciones del suministro eléctrico, realizar instalaciones rutinarias de las actualizaciones de seguridad y las medidas contra virus, además de la supervisión de la actividad del servidor. Estas prácticas benefician no sólo de su Skype para la infraestructura del servidor empresarial, sino también de toda la red. Si no se han implementado estas prácticas, se recomienda hacerlo antes de implementar Skype para Business Server.
-ms.openlocfilehash: f88461e7563d28dce145d01a9b47a0176ef0d97f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: Probablemente ya ha dado los pasos para diseñar tolerancia a errores en el sistema, utilizando recomendados, que garantiza la redundancia de hardware, como la protección contra la pérdida de energía, rutinariamente instalar actualizaciones de seguridad y medidas antivirus y la actividad del servidor de supervisión. Estas prácticas benefician no sólo de su Skype para la infraestructura del servidor empresarial, sino también de toda la red. Si no se han implementado estas prácticas, se recomienda hacerlo antes de implementar Skype para Business Server.
+ms.openlocfilehash: 86d18e1d9d34b5f65f4cb938e13a9829af1646bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996597"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30885809"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Procedimientos recomendados para la infraestructura básica de Skype para Business Server
  
-Es probable que ya haya tomado las medidas necesarias para diseñar la tolerancia a errores en el sistema, mediante el uso de prácticas como garantizar la redundancia de hardware, la protección frente a interrupciones del suministro eléctrico, realizar instalaciones rutinarias de las actualizaciones de seguridad y las medidas contra virus, además de la supervisión de la actividad del servidor. Estas prácticas benefician no sólo de su Skype para la infraestructura del servidor empresarial, sino también de toda la red. Si no se han implementado estas prácticas, se recomienda hacerlo antes de implementar Skype para Business Server.
+Probablemente ya ha dado los pasos para diseñar tolerancia a errores en el sistema, utilizando recomendados, que garantiza la redundancia de hardware, como la protección contra la pérdida de energía, rutinariamente instalar actualizaciones de seguridad y medidas antivirus y la actividad del servidor de supervisión. Estas prácticas benefician no sólo de su Skype para la infraestructura del servidor empresarial, sino también de toda la red. Si no se han implementado estas prácticas, se recomienda hacerlo antes de implementar Skype para Business Server.
   
 Para ayudar a proteger los servidores en su Skype para la implementación de servidor empresarial de daños accidentales o intencionados que pudieran provocar tiempos de inactividad, adopte las precauciones siguientes:
   
-- Mantenga actualizados los servidores con las actualizaciones de seguridad. Al suscribirse al Servicio de notificación de seguridad de Microsoft, se garantiza que recibirá notificación inmediata de las nuevas versiones de los boletines de seguridad de los productos de Microsoft. Para suscribirse, visite el [sitio Web de notificaciones de seguridad técnica de Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=145202).
+- Mantenga los servidores actualizados con las actualizaciones de seguridad. Suscribirse a Microsoft Security Notification Service ayuda a garantizar que recibirá notificación inmediata de boletines de seguridad para los productos de Microsoft. Para suscribirse, visite el [sitio Web de notificaciones de seguridad técnica de Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=145202).
     
-- Asegúrese de que los derechos de acceso estén correctamente configurados.
+- Asegúrese de que los derechos de acceso estén configurados correctamente.
     
-- Mantenga los servidores en un entorno físico que evite el acceso no autorizado. Asegúrese de que haya un software antivirus adecuado instalado en todos los servidores. Mantenga el software actualizado con los archivos de firma de virus más recientes. Utilice la función de actualización automática de la aplicación de antivirus para mantener las firmas de virus actualizadas.
+- Mantenga los servidores en un entorno físico que impida el acceso no autorizado. Asegúrese de que esté instalado un software antivirus adecuado en todos los servidores. Mantenga el software actualizado con los archivos de firma de virus más recientes. Utilizar la característica de actualización automática de la aplicación antivirus para mantener los firmas del antivirus actual.
     
 - Se recomienda que deshabilite los servicios del sistema operativo Windows Server que no sean necesarios en los equipos donde instale Skype para Business Server.
     
-- Cifre los sistemas operativos y las unidades de disco en los que se encuentren almacenados los datos mediante un sistema de cifrado de todo el volumen, a menos que pueda garantizar un control constante y completo de los servidores, aislamiento físico total y la retirada correcta y segura de las unidades de disco que se sustituyan o fallen.
+- Cifrar sistemas operativos y unidades de disco donde se almacenan los datos con un sistema de cifrado de volumen completo, a menos que se puede garantizar una constante y completado el control de los servidores, el aislamiento físico total y retirar correcto y seguro de reemplazan o error de disco unidades de disco.
     
-- Deshabilite todos los puertos de Acceso directo a memoria (DMA) del servidor, a menos que pueda garantizar un control muy estricto del acceso físico a los servidores. Los ataques basados en DMA, que pueden iniciarse de una forma muy sencilla, pueden exponer información confidencial muy delicada, como es el caso de las claves de cifrado privadas.
+- Deshabilitar todos los puertos externos de acceso directo a memoria (DMA) del servidor, a menos que pueda garantizar un control muy estricto sobre el acceso a los servidores físico. Los ataques basados en DMA, que pueden iniciarse bastante fácilmente, podrían exponer información muy confidencial, como claves privadas de cifrado.
     
 

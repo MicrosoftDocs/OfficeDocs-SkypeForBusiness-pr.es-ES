@@ -1,5 +1,6 @@
 ---
-title: Introducción a la característica (herramienta de planeación)
+title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Herramienta de planeación de Skype Empresarial Server 2015
-ms.openlocfilehash: ebc528c2c73a9bcb15141cf238ae9edb4b2055df
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cd0b2f4cef61edf58fd7bff692f697df0f78f7a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20987673"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897468"
 ---
-# <a name="feature-overview-planning-tool"></a>Introducción a la característica (herramienta de planeación)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Herramienta de planeación de Skype Empresarial Server 2015
   

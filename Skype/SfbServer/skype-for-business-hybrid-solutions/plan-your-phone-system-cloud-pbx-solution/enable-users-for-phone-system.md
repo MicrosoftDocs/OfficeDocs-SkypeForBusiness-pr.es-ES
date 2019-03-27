@@ -1,5 +1,6 @@
 ---
 title: Habilitar a usuarios para el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
 description: En este tema se describe cómo habilitar a los usuarios para el sistema telefónico en Office 365 con conectividad de RTC local. Antes de seguir los pasos descritos en este tema, debe leer los siguientes:.
-ms.openlocfilehash: 7427bf33c275d55b99c240aaf192d180c2d63945
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: a3eec7adbd4897889cbc2ef8c7e985231c53bc99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30642212"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889220"
 ---
 # <a name="enable-users-for-phone-system-in-office-365-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Habilitar a usuarios para el sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server
  
@@ -35,7 +36,7 @@ En este tema se describe cómo habilitar a los usuarios para el sistema telefón
     
 ## <a name="moving-users-to-phone-system-in-office-365-with-on-premises-pstn-connectivity"></a>Mover a los usuarios al sistema de teléfono en Office 365 con conectividad de RTC local
 
-Antes de mover los usuarios a Skype para profesionales en línea, se recomienda que permiten a los usuarios en local en Skype para Business Server o Lync Server 2013 y, a continuación, muévalos en línea. Para obtener más información, vea la sección Consideraciones especiales de [Habilitar a los usuarios para Enterprise Voice local](enable-the-users-for-enterprise-voice-on-premises.md)y [planeación de la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) . 
+Antes de mover los usuarios a Skype para profesionales en línea, se recomienda que permiten a los usuarios en local en Skype para Business Server o Lync Server 2013 y, a continuación, muévalos en línea. Para obtener más información, vea la sección Consideraciones especiales de [Habilitar a los usuarios para Enterprise Voice en local](enable-the-users-for-enterprise-voice-on-premises.md) (realizado mientras los usuarios están hospedados y [planeación de la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md) local). 
   
 Todos los usuarios deben crearse en Active Directory local y sincronizan en Office 365 con la versión admitida del conector de AD de Azure. No se puede habilitar a los usuarios para el sistema telefónico en Office 365 que se crearon directamente en Azure AD. Si desea habilitar el sistema telefónico en Office 365 con conectividad de RTC local para un usuario que se creó en Azure AD, que necesitará para crear una nueva cuenta para ese usuario en sus instalaciones AD, configuración de la cuenta local y, a continuación, sincronizar el uso de la cuenta una versión compatible de la herramienta de conector de AD de Azure. 
   
@@ -47,8 +48,8 @@ Habilitar a un usuario para el sistema telefónico en Office 365 con conectivida
     
 - [Sincronizar a los usuarios a la nube y asignar licencias](synchronize-users-to-the-cloud-and-assign-licenses.md) (realiza mediante Office 365).
     
-- [Mover a los usuarios de local Skype para profesionales en línea](move-on-premises-users-to-skype-for-business-online.md) (lo realiza el uso de Windows PowerShell local, pero con sus credenciales de administrador de Office 365).
+- [Mover a los usuarios de local Skype para profesionales en línea](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-skype-for-business-online) (lo realiza el uso de Windows PowerShell local, pero con sus credenciales de administrador de Office 365).
     
-- [Habilitar a los usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (realizado mediante PowerShell remoto).
+- [Habilitar a los usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365](enable-users-for-enterprise-voice-online-and-phone-system-voicemail.md) (realiza mediante PowerShell remoto.
     
 

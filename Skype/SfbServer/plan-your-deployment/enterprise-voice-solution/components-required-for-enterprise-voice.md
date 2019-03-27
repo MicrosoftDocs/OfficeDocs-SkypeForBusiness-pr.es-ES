@@ -1,5 +1,6 @@
 ---
 title: Componentes necesarios para Enterprise Voice en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Un resumen de los componentes de Enterprise Voice de Skype para Business Server.
-ms.openlocfilehash: 513f116f1c92bbe931e9015bc8507b0c1f16fc1a
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 870110c702c36660652fb08cff702453573349a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881807"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884163"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Componentes necesarios para Enterprise Voice en Skype para Business Server
  

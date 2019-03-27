@@ -1,5 +1,6 @@
 ---
-title: Obtener la configuración de usuario
+title: Obtener configuración de usuario
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16611a55-79fb-487a-a936-20caca829f87
 description: 'Resumen: Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 286939271bdc99790f125beabb68735dd4c5f758
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 003850ed4e6f1e49fc0e8bafe8dfa7d828cae63f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26530716"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889003"
 ---
-# <a name="get-user-setting"></a>Obtener la configuración de usuario
+# <a name="get-user-setting"></a>Obtener configuración de usuario
  
 **Resumen:** Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener la configuración de usuario es parte del servicio de configuración de usuario de la API de repositorio para llamar al panel de calidad.
   
-## <a name="get-user-setting"></a>Obtener la configuración de usuario
+## <a name="get-user-setting"></a>Obtener configuración de usuario
 
 Obtener configuración de usuario devuelve una configuración de usuario único.
   

@@ -1,5 +1,6 @@
 ---
 title: Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumen: Obtenga información sobre cómo recuperar, actualizar y crear opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 62902a25e50043f2e03eda907f4ba572249b1a60
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375604"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896934"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 
@@ -58,7 +59,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 Los ámbitos de sitio y Global se definen en los cmdlets **New -**, **Set -** y **Remove -** servicio de registro centralizado. En los siguientes ejemplos se muestra cómo establecer un ámbito de sitio y un ámbito global.
 
 > [!IMPORTANT]
-> Los comandos que se muestran pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo están diseñados para demostrar el uso de la **-Identity** parámetro para definir el ámbito y los demás parámetros se incluyen para más precisión y para especificar el ámbito. Para obtener información detallada acerca de los cmdlets **Set-CsClsConfiguration** , consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) en la documentación sobre operaciones.
+> Los comandos que se muestran pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo están diseñados para demostrar el uso de la **-Identity** parámetro para definir el ámbito y los demás parámetros se incluyen para más precisión y para especificar el ámbito. Para más información sobre los cmdlets de **Set-CsClsConfiguration**, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) en la documentación sobre operaciones.
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar la configuración actual del servicio de registro centralizado
 
@@ -179,13 +180,13 @@ Por ejemplo, para quitar una configuración del servicio de registro centralizad
 > Esta es la configuración nueva que se creó en el procedimiento "para"crear una nueva configuración de servicio de registro centralizado.
 
 Si decide quitar una configuración de sitio, el sitio usará la configuración global.
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015](configure-providers.md)
 
 [Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015](configure-scenarios.md)
 
-[Servicio de registro centralizado en Skype Empresarial 2015](centralized-logging-service.md)
+[Centralized Logging Service in Skype for Business 2015](centralized-logging-service.md)
 
 [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 

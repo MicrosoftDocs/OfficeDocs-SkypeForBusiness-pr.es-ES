@@ -1,5 +1,6 @@
 ---
 title: Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumen: Obtenga información sobre cómo configurar los proveedores de escenario para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: e67a1dee9227624ecc94c50437f60781435b2fe8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372495"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882211"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -45,7 +46,7 @@ En lugar de que tenga que realizar profundamente profundiza en los detalles de l
   
 Introducidos en el [Servicio de registro centralizado en Skype para profesionales de 2015](centralized-logging-service.md), los elementos clave de la definición de un proveedor para su uso en un escenario son:
   
-- **Proveedores de** Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para indicar a OCSLogger el motor de seguimiento de qué debe recopilar los registros de. Los proveedores son los mismos componentes (y, muchas veces, con los mismos nombres) que los de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son roles de servidor de componentes específicos que el servicio de registro centralizado puede recopilar los registros de. En el caso del servicio centralizado de registro, el con CLSAgent es la parte de arquitectura del servicio de registro centralizado que está realizando el seguimiento de los componentes que se definen en la configuración de proveedores.
+- **Proveedores de** Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para indicar a OCSLogger el motor de seguimiento de qué debe recopilar los registros de. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son roles de servidor de componentes específicos que el servicio de registro centralizado puede recopilar los registros de. En el caso del servicio centralizado de registro, el con CLSAgent es la parte de arquitectura del servicio de registro centralizado que está realizando el seguimiento de los componentes que se definen en la configuración de proveedores.
     
 - **Niveles de registro** OCSLogger proporciona la opción para elegir un número de niveles de detalle de los datos recopilados. Esta característica es una parte integral del servicio de registro centralizado y escenarios y se define mediante el parámetro de **tipo** . Puede elegir entre las siguientes opciones:
     
@@ -63,13 +64,13 @@ Introducidos en el [Servicio de registro centralizado en Skype para profesionale
     
   - **Depurar** es básicamente un equivalente de 'All' - recopila seguimientos de tipo Error grave, Error, advertencia, información, detallado y depurar el proveedor definido.
     
-- **Marcas** OCSLogger proporciona la opción para elegir los indicadores para cada proveedor que definen qué tipo de información se puede recuperar desde los archivos de seguimiento. Se pueden elegir las siguientes marcas según el proveedor:
+- **Marcas** OCSLogger proporciona la opción para elegir los indicadores para cada proveedor que definen qué tipo de información se puede recuperar desde los archivos de seguimiento. Puede elegir las siguientes marcas, según el proveedor:
     
-  - **TF_Connection** Proporciona las entradas del registro relacionadas con la conexión. Estos registros incluyen información sobre las conexiones establecidas con un componente en particular. También puede incluir información de la red relevante (esto es, relacionada con los componentes sin el concepto de una conexión).
+  - **TF_Connection** Proporciona las entradas del registro relacionadas con la conexión. Estos registros incluyen información acerca de las conexiones que estableció a y desde un componente determinado. También se puede incluir información importante en el nivel de red (es decir, para los componentes sin el concepto de una conexión).
     
-  - **TF_Security** Proporciona todas las entradas de registro y eventos relacionados con la seguridad. Por ejemplo, para SipStack existen eventos de seguridad, como error de validación de dominio y errores de autenticación o autorización de clientes.
+  - **TF_Security** Proporciona todas las entradas de registro y eventos relacionados con la seguridad. Por ejemplo, para SipStack, éstos son eventos de seguridad, como errores de validación de dominio y los errores de autenticación, autorización de cliente.
     
-  - **TF_Diag** Proporciona eventos de diagnóstico que puede usar para diagnosticar o solucionar problemas del componente. Por el ejemplo, para SipStack, estos son errores de certificado, o errores o advertencias de DNS.
+  - **TF_Diag** Proporciona eventos de diagnóstico que puede usar para diagnosticar o solucionar problemas del componente. Por ejemplo, para SipStack, estos son los errores de certificado o advertencias o errores de DNS.
     
   - **TF_Protocol** Proporciona los mensajes de protocolo, como los mensajes SIP y combinar Pack de códec de la Comunidad.
     
@@ -81,43 +82,43 @@ Introducidos en el [Servicio de registro centralizado en Skype para profesionale
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Escriba lo siguiente si desea revisar la configuración de los proveedores existentes:
+2. Para revisar la configuración de proveedores existentes, escriba lo siguiente:
     
    ```
    Get-CsClsScenario -Identity <scope and scenario name>
    ```
 
-    Por ejemplo, escriba lo siguiente para revisar la información sobre el operador de las conferencias globales:
+    Por ejemplo, para revisar la información sobre el operador de conferencia global, escriba:
     
    ```
    Get-CsClsScenario -Identity "global/CAA"
    ```
 
-    El comando hace que se muestre una lista de proveedores con sus marcas, configuración y componentes asociados. Si la información que se muestra no es suficiente o la lista es demasiado larga para el formato de lista de Windows PowerShell de forma predeterminada, puede mostrar información adicional mediante la definición de un método de resultados diferente. Para ello, escriba lo siguiente:
+    El comando muestra una lista de proveedores con los indicadores asociados, configuración y componentes. Si la información que se muestra no es suficiente o la lista es demasiado larga para el formato de lista de Windows PowerShell de forma predeterminada, puede mostrar información adicional mediante la definición de un método de resultados diferente. Para ello, escriba lo siguiente:
     
    ```
    Get-CsClsScenario -Identity "global/CAA" | Select-Object -ExpandProperty Provider
    ```
 
-    La salida de este comando muestra a cada proveedor en un formato de cinco líneas; en cada una de ellas se indica el nombre del proveedor, el tipo de registro, el nivel de registro, las marcas, el GUID y el rol. 
+    El resultado de este comando muestra cada proveedor que se muestra en un formato de cinco línea con el nombre del proveedor, tipo de registro, nivel de registro, indicadores, GUID y función, cada uno en una línea independiente. 
     
 ### <a name="to-define-a-new-centralized-logging-service-scenario-provider"></a>Para definir un nuevo proveedor de escenario del servicio de registro centralizado
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Un proveedor de escenario consta de un componente sobre el que realizar el seguimiento, las marcas que se van a usar y el nivel de detalle al que se van a recopilar los datos. Esto se logra escribiendo lo siguiente:
+2. Un proveedor de escenario consta de un componente a un nivel de detalle para recopilar, indicadores que se utilizarán y seguimiento. Hacer esto escribiendo:
     
    ```
    $<variableName> = New-CsClsProvider -Name <provider component> -Type <log type> -Level <log level detail type> -Flags <provider trace log flags>
    ```
 
-    Por ejemplo, una definición de proveedor de seguimiento en la que se define qué recopilar y con qué nivel de detalle del proveedor Lyss sería así:
+    Por ejemplo, una definición de proveedor de seguimiento que define qué se va a recopilar y con qué nivel de detalle del proveedor Lyss el siguiente aspecto:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Info" -Flags "All"
    ```
 
--Nivel recopila grave, error, advertencia e información de los mensajes. Los indicadores utilizados son todos los definidos para el proveedor Lyss e incluyen TF_Connection, TF_Diag y TF_Protocol.After se define la variable $LyssProvider, puede usar con el cmdlet **New-CsClsScenario** para reunir seguimientos desde el proveedor Lyss. Escriba lo siguiente para crear y asignar el proveedor a un nuevo escenario:
+-Nivel recopila grave, error, advertencia e información de los mensajes. Los indicadores utilizados son todos los definidos para el proveedor Lyss e incluyen TF_Connection, TF_Diag y TF_Protocol.After se define la variable $LyssProvider, puede usar con el cmdlet **New-CsClsScenario** para reunir seguimientos desde el proveedor Lyss. Para completar la creación y asignación del proveedor para un nuevo escenario, escriba:
 
 ```
 New-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
@@ -128,23 +129,23 @@ Donde $LyssProvider es la variable que contiene el escenario definido creado con
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Escriba lo siguiente para actualizar o cambiar la configuración de un proveedor existente:
+2. Para actualizar o cambiar la configuración de un proveedor existente, escriba:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "TF_Connection, TF_Diag"
    ```
 
-    Después, escriba lo siguiente para actualizar el escenario al que se va a asignar el proveedor:
+    A continuación, actualice el escenario para asignar al proveedor escribiendo lo siguiente:
     
    ```
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider $LyssProvider
    ```
 
-El resultado final del comando es que el escenario site:Redmond/RedmondLyssInfo tendrá las marcas actualizadas y el nivel del proveedor que tenga asignado. Puede ver el nuevo escenario con Get-CsClsScenario. Para obtener información detallada, vea [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
+El resultado final del comando es que el escenario site: Redmond o RedmondLyssInfo habrá actualizado marcas y nivel para el proveedor asignado a él. Puede ver el nuevo escenario mediante Get-CsClsScenario. Para obtener información detallada, vea [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps).
 > [!CAUTION]
 > **New-ClsCsProvider** no se comprueba para determinar si los indicadores son válidos. Asegúrese de que la ortografía de las marcas (por ejemplo, TF_DIAG o TF_CONNECTION) está escrita correctamente. Si las marcas no están escritas correctamente, el proveedor no puede devolver la información de registro esperado.
   
-Escriba lo siguiente si quiere agregar más proveedores a este escenario:
+Si desea agregar más proveedores a este escenario, escriba lo siguiente:
 
 ```
 Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Add=$ABSProvider, $CASProvider, S4Provider}
@@ -155,7 +156,7 @@ Donde cada proveedor definido con la directiva Add ya definida mediante el proce
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Los cmdlets aquí suministrados permiten crear proveedores y actualizar los ya existentes. Para quitar un proveedor, debe utilizar la directiva de reemplazo para el parámetro de proveedor a **Set-CsClsScenario**. La única forma de quitar un proveedor por completo consiste en reemplazarlo por un proveedor predefinido que tenga el mismo nombre y usar la directiva Update. Por ejemplo, nuestro proveedor LyssProvider tiene definido un tipo de registro WPP, un nivel establecido en Debug y las marcas TF_CONNECTION y TF_DIAG. Debe cambiar las marcas como "Todos". Escriba lo siguiente para cambiar el proveedor:
+2. Los cmdlets proporcionados permiten actualizar proveedores existentes y crear nuevos proveedores. Para quitar un proveedor, debe utilizar la directiva de reemplazo para el parámetro de proveedor a **Set-CsClsScenario**. Es la única forma de quitar por completo un proveedor reemplazar con un proveedor de definidos de nuevo el mismo nombre y utilizar la directiva de actualización. Por ejemplo, nuestro proveedor LyssProvider se define con WPP como el tipo de registro, nivel establecido para depurar y marcas conjunto son TF_CONNECTION y TF_DIAG. Debe cambiar las marcas como "Todos". Para cambiar el proveedor, escriba lo siguiente:
     
    ```
    $LyssProvider = New-CsClsProvider -Name "Lyss" -Type "WPP" -Level "Debug" -Flags "All"
@@ -165,7 +166,7 @@ Donde cada proveedor definido con la directiva Add ya definida mediante el proce
    Set-CsClsScenario -Identity "site:Redmond/RedmondLyssInfo" -Provider @{Replace=$LyssProvider}
    ```
 
-3. Escriba lo siguiente si quiere quitar por completo un escenario y sus proveedores asociados:
+3. Si desea quitar por completo un escenario y los proveedores asociados con ella, escriba lo siguiente:
     
    ```
    Remove-CsClsScenario -Identity <scope and name of scenario>
@@ -178,10 +179,10 @@ Donde cada proveedor definido con la directiva Add ya definida mediante el proce
    ```
 
     > [!CAUTION]
-    > El cmdlet **Remove-CsClsScenario** no solicitar confirmación. El escenario se elimina junto con los proveedores que tenga asignados. Puede crear el escenario de nuevo si vuelve a ejecutar los comandos que usó para crearlo. No existe ningún procedimiento para recuperar escenarios o proveedores.
+    > El cmdlet **Remove-CsClsScenario** no solicitar confirmación. Se elimina el escenario, junto con los proveedores que se han asignado a él. Puede volver a crear el escenario volviendo a ejecutar los comandos usados para crearlo inicialmente. No hay ningún procedimiento de recuperación de los escenarios se han quitado o proveedores.
   
-Al quitar un escenario mediante el cmdlet **Remove-CsClsScenario** , quitar completamente el escenario del ámbito de aplicación. Para usar los escenarios que creó y los proveedores que formaban parte de ellos, necesitará crear proveedores y asignarlos a un nuevo escenario.
-## <a name="see-also"></a>Vea también
+Al quitar un escenario mediante el cmdlet **Remove-CsClsScenario** , quitar completamente el escenario del ámbito de aplicación. Para usar los escenarios que ha creado y los proveedores que formaran parte del escenario, crear nuevos proveedores y asignarlas a un nuevo escenario.
+## <a name="see-also"></a>Consulte también
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   

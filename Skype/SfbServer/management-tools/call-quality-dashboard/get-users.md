@@ -1,5 +1,6 @@
 ---
-title: Obtención de usuarios
+title: Obtener usuarios
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
 description: 'Resumen: Obtenga información acerca de la operación obtener los usuarios, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 11c4e8d1230385f51992dac7559d65ddc2ec4ac0
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 24a01f7a149240c3f7bd6830cdfa7a9cb8123396
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531728"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897454"
 ---
-# <a name="get-users"></a>Obtención de usuarios
+# <a name="get-users"></a>Obtener usuarios
  
 **Resumen:** Obtenga información acerca de la operación obtener los usuarios, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener los usuarios es parte del servicio de usuario de la API de repositorio para llamar al panel de calidad.
   
-## <a name="get-users"></a>Obtención de usuarios
+## <a name="get-users"></a>Obtener usuarios
 
 Obtener una lista de los usuarios de devuelve los usuarios en el repositorio.
   

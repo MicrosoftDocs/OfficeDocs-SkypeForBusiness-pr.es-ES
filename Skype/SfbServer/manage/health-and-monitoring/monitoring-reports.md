@@ -1,5 +1,6 @@
 ---
 title: Uso de informes de supervisión en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: Obtenga información sobre la supervisión de informes en Skype para Business Server.'
-ms.openlocfilehash: 68fcf3a738d2cf849bd51959a86f2d61e53db603
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 11eb398d45102cb73fa02e61f63e0eda56e70200
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003796"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896788"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype para Business Server 
  
 **Resumen:** Obtenga información acerca de la supervisión de informes en Skype para Business Server.
   
-Skype para Business Server incluye un conjunto de informes estándar que se publican por Microsoft SQL Server Reporting Services. En estos informes, accesibles a través de un explorador web, encontrará información sobre el uso, el diagnóstico de llamadas y la calidad de medios, todo ello basado en el registro detallado de llamadas (CDR) y en los registros de calidad de la experiencia (QoE) que se almacenan en las bases de datos de CDR y QoE.
+Skype para Business Server incluye un conjunto de informes estándar que se publican por Microsoft SQL Server Reporting Services. Estos informes, a los que se puede obtener acceso con un explorador web, proporcionan información de uso, diagnóstico de llamadas y calidad de medios, basada en la información del registro detallado de llamadas (CDR) y la calidad de la experiencia (QoE) almacenada en las bases de datos de CDR y QoE.
   
 Para usar estos informes, debe instalar los informes de supervisión en un equipo que ejecuta una instancia de SQL Server.
   

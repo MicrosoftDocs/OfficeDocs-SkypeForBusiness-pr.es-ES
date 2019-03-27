@@ -1,5 +1,6 @@
 ---
 title: Revisar los informes del administrador en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Los informes de administrador consisten en información detallada acerca de la implementación y las operaciones. Los informes se generan en función de las elecciones realizadas en Diseñar sitios. El diseñador puede agregar más valor a los informes de administrador si se editan los diagramas de red y se definen las direcciones IP completas y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
-ms.openlocfilehash: 1aec87246082083d981d8783d1abc31b5f96bc55
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5cab8231428ace2a0d77132481819eed304d3519
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23261591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898197"
 ---
-# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Revisar los informes del administrador en Skype Empresarial Server 2015
+# <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Review the Administrator Reports in Skype for Business Server 2015
 
 Los informes de administrador consisten en información detallada acerca de la implementación y las operaciones. Los informes se generan en función de las elecciones realizadas en **Diseñar sitios**. El diseñador puede agregar más valor a los informes de administrador si se editan los diagramas de red y se definen las direcciones IP completas y los nombres de dominio completos (FQDN) de servidores, grupos y equilibradores de carga.
 
@@ -82,7 +83,7 @@ El informe de DNS, que forma parte de los informes de administrador, detalla tod
 
 Deberá hacer que el equipo de administración de DNS revise completamente el informe de DNS para asegurarse de que no haya errores que puedan provocar alguna dificultad durante la implementación o que compliquen una sesión de solución de problemas.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="DNS_Report"> </a>
 
-[Revisión de los informes del administrador](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)
+[Reviewing the Administrator Reports](https://technet.microsoft.com/library/1dee56a9-a033-4201-9765-e3469bd7d3e3.aspx)

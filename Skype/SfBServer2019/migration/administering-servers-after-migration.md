@@ -1,5 +1,6 @@
 ---
-title: Administración de servidores después de la migración
+title: Administrar los servidores tras la migración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En general, debe utilizar la herramienta administrativa que corresponde a la versión del servidor que desea administrar.
-ms.openlocfilehash: 383c41d66ec79bac0eb35be1feda352767883b85
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 235ceee4bfc3aa79022a97ab0e8be2edc46b8005
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029394"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30882103"
 ---
-# <a name="administering-servers-after-migration"></a>Administración de servidores después de la migración
+# <a name="administering-servers-after-migration"></a>Administrar los servidores tras la migración
 
 En general, debe utilizar la herramienta administrativa que corresponde a la versión del servidor que desea administrar. No se puede instalar las herramientas administrativas de versiones diferentes en el mismo equipo.
   

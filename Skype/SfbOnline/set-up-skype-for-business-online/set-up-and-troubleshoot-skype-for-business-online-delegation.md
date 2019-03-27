@@ -1,5 +1,6 @@
 ---
 title: Configurar y solucionar problemas relacionados con la delegación de Skype Empresarial Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: En este artículo se explica cómo configurar y solucionar problemas de Skype para la delegación en línea de negocio. En este artículo se ofrece instrucciones para el programa de instalación recomendaciones, procedimientos recomendados y pasos para solucionar problemas.
-ms.openlocfilehash: e3131b28be1ad01e0965b2739dc152a627826d5e
-ms.sourcegitcommit: 28e0e8043f418505039cd12407c927f454c141f1
+ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/12/2018
-ms.locfileid: "25546679"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887839"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar y solucionar problemas relacionados con la delegación de Skype Empresarial Online
 
@@ -105,7 +106,7 @@ Para configurar Skype para la delegación en línea de negocio, siga estos pasos
     
 ### <a name="verify-success"></a>Compruebe el éxito
 
-Si el programa de instalación se realiza correctamente, el delegado debería ver la **ha sido agregado como delegado para < nombre >** mensaje y también que se crea el grupo **de personas puedo administrar las llamadas para** . El usuario delegado debería ver que se ha creado el grupo de **delegados** .
+Si el programa de instalación se realiza correctamente, el delegado debería ver la **ha sido agregado como delegado para < Name>** mensaje y también que se crea el grupo **de personas puedo administrar las llamadas para** . El usuario delegado debería ver que se ha creado el grupo de **delegados** .
   
 > [!NOTE]
 > Permisos de delegación suelen aparecerán dentro de 30 minutos al proceso de instalación. Sin embargo, este proceso puede tardar hasta 24 horas para llevar a cabo. 

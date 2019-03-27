@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración de servicio de mediación de Front-End de Lync Server 2010
+title: Expansor de configuración del servicio de mediación front-end para Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
 description: 'Para editar las propiedades de la configuración de puerta de enlace de RTC del servidor de mediación en este cuadro de diálogo. Defina las opciones siguientes:'
-ms.openlocfilehash: a70ec5e569b60c28e8ec91e86d09ac5f5285ee00
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 1a189481eebafc18e925df391c55fa5ced656d91
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371494"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889276"
 ---
-# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración de servicio de mediación de Front-End de Lync Server 2010
+# <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración del servicio de mediación front-end para Lync Server 2010
  
 Para editar las propiedades de la configuración de **puerta de enlace RTC del servidor de mediación** en este cuadro de diálogo. Defina las opciones siguientes:
   
@@ -34,9 +35,9 @@ Para editar las propiedades de la configuración de **puerta de enlace RTC del s
     
 - Seleccione un tronco, una puerta de enlace y un sitio y haga clic en **Establecer como predeterminado** para definir la selección como predeterminada para este servicio de mediación. Seleccione los valores predeterminados actuales y haga clic en **No establecer como predeterminado** para eliminar la selección de los valores predeterminados. Luego, necesitará seleccionar un nuevo valor predeterminado y hacer clic en **Establecer como predeterminado**.
     
-  **Aceptar** Se aceptan y confirman los cambios en el cuadro de diálogo.
+  **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
-  **Cancelar** Se descartan los cambios y se cierra el cuadro de diálogo.
+  **Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.
   
   **Ayuda** Abre esta pantalla de ayuda.
   

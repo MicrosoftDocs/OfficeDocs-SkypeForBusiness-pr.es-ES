@@ -1,5 +1,6 @@
 ---
 title: Informes de uso del sistema en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 187d316d-2456-417e-b636-05527a18ef06
 description: 'Resumen: Obtenga información sobre los informes de uso del sistema en Skype para Business Server.'
-ms.openlocfilehash: 979736f9e5659abc572b5308db55bd082a4be3c7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5e3bcca092eb1ab8e03a837455924320e3af5e9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21016770"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896745"
 ---
 # <a name="system-usage-reports-in-skype-for-business-server"></a>Informes de uso del sistema en Skype para Business Server
  

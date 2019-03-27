@@ -1,5 +1,6 @@
 ---
-title: Detalles de llamadas
+title: Registro de detalles de llamadas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0a2b0e7ad96581ef18172fc814a34cfc2e7f28db
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b5203a0245f30a5b14eecc8bbf6db99be1a0bcf7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000603"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30926549"
 ---
-# <a name="call-detail-recording"></a>Detalles de llamadas
+# <a name="call-detail-recording"></a>Registro de detalles de llamadas
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   

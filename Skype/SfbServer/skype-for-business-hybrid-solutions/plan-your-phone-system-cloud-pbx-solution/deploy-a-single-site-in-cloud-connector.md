@@ -1,5 +1,6 @@
 ---
 title: Implementar un solo sitio en Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fa8aa499-1188-447e-bc30-89d1f5b198a7
 description: Obtenga información sobre la implementación de un único sitio de RTC en la nube conector Edition.
-ms.openlocfilehash: 389829373d857d587a1fd904932f13a7a321deec
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 667637fdf7dd42df64c4fdf9aca6b20931da188d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375007"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881144"
 ---
-# <a name="deploy-a-single-site-in-cloud-connector"></a>Implementar un solo sitio en Cloud Connector
+# <a name="deploy-a-single-site-in-cloud-connector"></a>Deploy a single site in Cloud Connector
  
 Obtenga información sobre la implementación de un único sitio de RTC en la nube conector Edition.
   
@@ -39,7 +40,7 @@ Siga las instrucciones para proporcionar el nombre y la contraseña de la cuenta
   
 En la versión 1.4.2 y versiones anteriores, también, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña de administrador de modo seguro, contraseña de administrador de dominio y contraseña de administrador de la máquina virtual. 
   
-En la versión 2.0 y las versiones posteriores, siga también las instrucciones para proporcionar la contraseña del certificado externo, la contraseña de CceService y la contraseña de CABackupFile.
+En la versión 2.0 y versiones posteriores, también, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña CceService y CABackupFile.
   
 Para iniciar la instalación, abra una consola de PowerShell como administrador y ejecute el siguiente cmdlet:
   
@@ -72,7 +73,7 @@ Puede ampliar un sitio existente de conector en la nube para admitir alta dispon
    ```
 
 > [!NOTE]
-> Si el directorio de sitios se ha establecido en la ruta de acceso a una carpeta local, tiene que definir un recurso compartido de archivos para esta carpeta y usar una ruta de acceso UNC para el directorio de sitios en el nuevo dispositivo. Puede dejar el directorio de sitios del primer dispositivo con la ruta de acceso local o modificarla para usar la ruta de acceso UNC para el recurso compartido en la misma carpeta. Si modifica la ubicación del directorio de sitios del recurso compartido, tendrá que desinstalar y volver a instalar después los dispositivos que se hayan instalado previamente. > Importante: La contraseña de la cuenta CceService y la cuenta de CABackupFile debe ser el mismo en todos los dispositivos que se implementan en el sitio, por lo que pueden tener acceso a los dispositivos el recurso compartido de directorio de sitios y el archivo de copia de seguridad cifrado de entidad emisora de certificados en el directorio de sitios. 
+> Si el directorio de sitios se ha establecido en la ruta de acceso a una carpeta local, tiene que definir un recurso compartido de archivos para esta carpeta y usar una ruta de acceso UNC para el directorio de sitios en el nuevo dispositivo. Puede dejar el directorio de sitios del primer dispositivo con la ruta de acceso local o modificarla para usar la ruta de acceso UNC para el recurso compartido en la misma carpeta. Si modifica la ubicación del directorio de sitios del recurso compartido, tendrá que desinstalar y volver a instalar después los dispositivos que se hayan instalado previamente. > importante: la contraseña de la cuenta CceService y la cuenta de CABackupFile debe ser el mismo en todos los dispositivos que se implementan en el sitio, por lo que pueden tener acceso a los dispositivos el recurso compartido de directorio de sitios y el archivo de copia de seguridad cifrado de entidad emisora de certificados en el directorio de sitios. 
   
 ## <a name="remove-an-appliance-from-an-existing-site"></a>Quitar una aplicación de un sitio existente
 

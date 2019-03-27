@@ -1,5 +1,6 @@
 ---
 title: Ver información de directivas PIN de Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,18 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Resumen: Ver información de directiva del NIP de un usuario de Skype para Business Server.'
-ms.openlocfilehash: 8401f429184122539f66186c470034f2829536b3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5fdd042f01c325bfffedbfa32fa14d9e667ef7be
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21017158"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888926"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Ver información de directivas PIN de Skype para Business Server
  
 **Resumen:** Ver información de directiva del NIP de un usuario de Skype para Business Server.
   
-Puede usar la ficha **Directiva de PIN** a vista identificación personal numérico (PIN) la autenticación de usuarios que se conectan a Skype para la empresa con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
+Puede usar la ficha **Directiva de PIN** a vista identificación personal numérico (PIN) la autenticación de usuarios que se conectan a Skype para la empresa con teléfonos IP. Para utilizar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación PIN** esté seleccionada en la configuración del servicio web.
   
 Siga estos pasos para modificar una directiva de PIN de nivel de usuario o de sitio. 
   
@@ -61,6 +62,6 @@ MaximumLogonAttempts :
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear una nueva directiva PIN en Skype para Business Server](create-a-new-pin-policy.md)

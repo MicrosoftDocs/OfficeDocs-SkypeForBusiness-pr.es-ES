@@ -1,5 +1,6 @@
 ---
 title: Asistente de híbrida iniciar sesión en Office 365
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -16,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 description: Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.
-ms.openlocfilehash: ec2507b7efd25dba6e3b18eba3a14f35eb93fcc4
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 00e01132f1f8330ba46fe25bcfe2d08db41a2410
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260373"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887945"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Asistente híbrido: Inicio de sesión en Office 365
 
@@ -31,6 +32,6 @@ Use el Skype para el Asistente para la capacidad de administración de negocio s
 
 Escriba el nombre de usuario y contraseña de su inquilino de Office 365 para conectarse a su implementación local de Office 365. Deberá usar la cuenta de administración que creó para el dominio onmicrosoft al registrarse en Office 365 (por ejemplo, admin@contoso.onmicrosoft.com).
 
-Para obtener más información acerca de cómo configurar el entorno para la implementación híbrida, vea [información general de las implementaciones híbridas](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
+Para más información sobre cómo configurar un entorno híbrido, consulte [Overview of hybrid deployments](https://technet.microsoft.com/library/f6610f2f-c804-4f36-81fc-7aa3297bb4a2.aspx).
 
 

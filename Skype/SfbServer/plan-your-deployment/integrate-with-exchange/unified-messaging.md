@@ -1,5 +1,6 @@
 ---
 title: Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013 o 2016.'
-ms.openlocfilehash: ee6e6bc81c4bd0b2291b7f4be7ceb13894d2aec2
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 951b31e36290bda0d6bd171c4a7df8f6aa4ff337
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059190"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886020"
 ---
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planear la integración de la mensajería unificada de Exchange en Skype Empresarial
 
@@ -52,7 +53,7 @@ Skype para Business Server, Enterprise Voice usa la infraestructura de mensajer�
 
 - **Operador automático** Operador automático es una característica de mensajería unificada de Exchange que se puede usar para configurar un número de teléfono que los usuarios externos puede marcar para llegar a los representantes de la empresa. En concreto, proporciona una serie de mensajes de voz que ayudan a un autor de la llamada externa a navegar por un sistema de menús. Se configura la lista de opciones disponibles en el servidor de mensajería unificada de Exchange por el Administrador de la mensajería unificada de Exchange.
 
-- **Servicios de fax** Mensajería unificada de Exchange incluye características de fax, que permiten a los usuarios recibir faxes entrantes en sus buzones de Exchange. Para más información, vea [Mensajería unificada](https://go.microsoft.com/fwlink/p/?linkId=135652) en la documentación de Microsoft Exchange Server.
+- **Servicios de fax** Mensajería unificada de Exchange incluye características de fax, que permiten a los usuarios recibir faxes entrantes en sus buzones de Exchange. Para obtener información detallada, vea [Mensajería unificada](https://go.microsoft.com/fwlink/p/?linkId=135652) en la documentación de Microsoft Exchange Server.
 
     > [!NOTE]
     > Los servicios de fax proporcionados por el servidor de mensajería unificada de Exchange no están disponibles en Skype para las implementaciones de Business Server que se integran con Microsoft Exchange Server 2010, Exchange 2010 con el último service pack, Exchange 2013 o 2016 de Exchange.
@@ -134,13 +135,13 @@ Para obtener información detallada acerca de cómo habilitar o deshabilitar la 
 
 - [Habilitar mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204418)
 
-- [Deshabilitar mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
+- [Deshabilitar la mensajería unificada en Exchange 2010](https://go.microsoft.com/fwlink/p/?LinkId=204416)
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
 Mensajería unificada de Exchange ya no está presente en Exchange 2019, si dispone de Exchange 2019 y desea que necesita usar el servicio de correo de voz en la nube que se describen en el [servicio de correo de voz de la nube de planeación de](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)una funcionalidad equivalente.
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Información general sobre el proceso de implementación para integrar la mensajería unificada local y Skype Empresarial](deployment-overview.md)

@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito raíz de Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
-description: 'El nodo de Lync Server enumera los sitios centrales en la topología. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: ca9ba70369c62498d5cd9b1feb0089d3b8c484df
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Lync Server enumera los sitios centrales en su topología. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: c58386048aef8fd41a192cb9ad8755933a885cf0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886320"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nodo de ámbito raíz de Skype Empresarial Server
  
-El nodo de **Lync Server** enumera los sitios centrales en la topología. Puede realizar las acciones siguientes:
+El nodo **Lync Server** enumera los sitios centrales en su topología. Puede realizar las acciones siguientes:
   
 - **Nuevo sitio central**. Inicia el asistente Definir nuevo sitio central, que permite agregar un nuevo sitio central a la topología.
     
@@ -38,7 +40,7 @@ El nodo de **Lync Server** enumera los sitios centrales en la topología. Puede 
     
 - **Instalar base de datos**. Permite crear las bases de datos necesarias para la implementación.
     
-- **Combinar topología de Office Communications Server 2007 R2**. Inicia el asistente para la combinación del Generador de topologías. Esta herramienta recopila información sobre el entorno de Office Communications Server anterior, incluida la información de servidor perimetral y publica esa información en una base de datos compartida. 
+- **Combinar topología de Office Communications Server 2007 R2**. Inicia el asistente para la combinación del Generador de topologías. Esta herramienta recopila información sobre el entorno anterior de Office Communications Server, incluida la información de servidor perimetral y esa información publica en una base de datos compartida. 
     
 - **Quitar implementación**. Inicia el asistente para quitar la implementación, que permite empezar a quitar la implementación completa.
     

@@ -1,5 +1,6 @@
 ---
 title: Informe de Control de admisión de llamadas en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Resumen: Obtenga información sobre los informes de Control de admisión de llamadas usadas en Skype para Business Server.'
-ms.openlocfilehash: c3828eb890ed8f70c41bc669785278f9be017893
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88d1db546e488452d73e7a5e39dcba990402a210
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21011249"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897433"
 ---
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Informe de Control de admisión de llamadas en Skype para Business Server
  
@@ -50,7 +51,7 @@ En la tabla siguiente se muestran los filtros que se pueden utilizar con el Info
 |:-----|:-----|
 |**De** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 17/07/2015 13:00  <br/> Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 17/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 13/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Hasta** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:  <br/> 17/07/2015 13:00  <br/> Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 17/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 13/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Grupo de servidores** <br/> |Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en **[Todos]** para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.<br/> |
+|**Grupo** <br/> |Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en **[Todos]** para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.<br/> |
 |**Tipo de actividad** <br/> | Tipo de actividad. Seleccione una de las siguientes actividades: <br/>  [Todas] <br/>  Punto a punto <br/>  Una conferencia <br/> |
 |**Categoría de llamada** <br/> | Indica el motivo por el que se usó el control de admisión de llamadas para la llamada. Seleccione una de las siguientes opciones: <br/>  [Todas] <br/>  Llamada rechazada por el control de admisión de llamadas <br/>  Llamadas que se han vuelto a enrutar a través de RTC por el control de admisión de llamadas <br/> |
    

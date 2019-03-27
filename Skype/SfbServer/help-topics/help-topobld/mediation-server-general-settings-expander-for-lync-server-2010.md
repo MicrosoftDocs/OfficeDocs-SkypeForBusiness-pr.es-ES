@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración General del servidor de mediación para Lync Server 2010
+title: Expansor de configuración general del servidor de mediación para Lync Server 2010
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:'
-ms.openlocfilehash: bc26a6b92746e2cf1453d9ee789500011469527f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375974"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892430"
 ---
-# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración General del servidor de mediación para Lync Server 2010
+# <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general del servidor de mediación para Lync Server 2010
 
 Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:
 
@@ -44,7 +45,7 @@ Para editar las propiedades de los servidores de mediación en este cuadro de di
 
 - Aparece una lista de enlaces troncales SIP y las puertas de enlace que se definen y configurados para su implementación. Si no hay entradas están presentes, no hay ningún troncos SIP o puertas de enlace RTC configurados para su implementación. Definir y configurar troncos y las puertas de enlace en **Componentes compartidos** en el generador de topología.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Información general sobre el enlace troncal SIP](https://technet.microsoft.com/library/204f2c21-436f-4b2d-93ea-d6db98fa2952.aspx)
 

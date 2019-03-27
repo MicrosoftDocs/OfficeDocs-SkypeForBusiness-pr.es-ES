@@ -1,5 +1,6 @@
 ---
-title: Implementar grupo piloto
+title: Implementar un grupo de servidores piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uno de los primeros pasos necesarios para la migración a Skype para Business Server 2019 consiste en implementar un grupo piloto. El grupo piloto es donde se prueba la coexistencia de Skype para Business Server 2019 con su implementación heredada. La coexistencia es un estado temporal que dura hasta que mueva todos los usuarios y grupos de servidores a Skype para Business Server 2019.
-ms.openlocfilehash: 9a713a567d33121449ca83516bed35b574e0da01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027854"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890658"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implementación de Skype para el grupo piloto de Business Server 2019
 

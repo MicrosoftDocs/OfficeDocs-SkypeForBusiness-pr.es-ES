@@ -1,5 +1,6 @@
 ---
 title: Shell de administración de Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: El Skype para Shell de administración de Business Server proporciona la interfaz de línea de comandos para la administración y la administración de servidores. Se basa en Windows PowerShell e incluye un completo conjunto de cmdlets de gestión y administración que son específicos de Skype y los productos de servidor heredados de Lync.
-ms.openlocfilehash: 34bf761cfa6d9cfe648360319084b3a304d9f6e6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 243ff7a684bb14f73ef9f4836ce00e8048fbb236
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884205"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Shell de administración de Skype Empresarial Server
  
@@ -32,7 +33,7 @@ Skype para Business Server se distribuye con más de 700 cmdlets que permiten a 
 Get-Help New-CsVoicePolicy -Full
 ```
 
-El comando anterior recupera la Ayuda completa disponible para el cmdlet **New-CsVoicePolicy** . Para ver la Ayuda de un cmdlet diferente, sustituya **New-CsVoicePolicy** con el nombre del cmdlet para la que desea obtener ayuda.
+El comando anterior recupera toda la ayuda disponible para el cmdlet **New-CsVoicePolicy**. Si desea ver la ayuda de otro cmdlet, cambie **New-CsVoicePolicy** por el nombre del cmdlet cuya ayuda desea obtener.
   
 Para obtener una lista de todos los cmdlets disponibles para administrar Skype Empresarial Server, escriba lo siguiente en el símbolo del sistema del shell: 
   
@@ -53,7 +54,7 @@ Cosas que debe saber acerca de Windows PowerShell en Skype para Business Server:
     
 - Puede actualizar el Skype para el contenido de Ayuda del Shell de administración de servidor empresarial ejecutando el cmdlet [Update-Help](https://technet.microsoft.com/en-us/library/hh849720.aspx) . El cmdlet Update-Help descarga e instala los archivos de ayuda más recientes disponibles para todos los módulos instalados en el equipo, incluidas las actualizaciones de Skype para cmdlets de negocio.
     
-    De forma predeterminada, el cmdlet **Update-Help** actualizará todos los módulos instalados en su Skype para Business Server. Si desea actualizar solo determinadas módulos, puede usar el parámetro de _módulo_ para limitar el ámbito del cmdlet. En el ejemplo siguiente se actualiza sólo la Skype para módulo empresarial.
+    De forma predeterminada, el cmdlet **Update-Help** actualizará todos los módulos instalados en su Skype para Business Server. Si desea actualizar solo determinados módulos, puede usar el parámetro _Module_ a fin de limitar el ámbito del cmdlet. En el ejemplo siguiente se actualiza sólo la Skype para módulo empresarial.
     
   ```
   Update-Help -Module SkypeforBusiness

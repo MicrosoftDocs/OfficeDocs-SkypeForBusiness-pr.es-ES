@@ -1,5 +1,6 @@
 ---
 title: Planificar IPv6 en Skype Empresarial
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 01f77196-38f4-4292-9480-2e2fbd57eabe
 description: 'Resumen: Implementar IPv6 antes de instalar Skype para Business Server.'
-ms.openlocfilehash: b500a0b3f4b99b97b1fc3a89eda7c5736953d854
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c2ac3470646c78e0a7312fb9390a712321793915
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888349"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884750"
 ---
 # <a name="plan-for-ipv6-in-skype-for-business"></a>Planificar IPv6 en Skype Empresarial
  
@@ -132,9 +133,9 @@ En la siguiente tabla se muestra la matriz de compatibilidad entre el grupo de s
 
 ||**Grupo de servidores perimetrales: IPv4** <br/> |**Grupo de servidores perimetrales: pila dual** <br/> |**Grupo de servidores perimetrales: IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Grupo de servidores front-end: IPv4** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|**Grupo de servidores front-end: pila dual** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
-|**Grupo de servidores front-end: IPv6** <br/> |No  <br/> |No  <br/> |Sí\*  <br/> |
+|**Grupo de servidores front-end: IPv4** <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
+|**Grupo de servidores front-end: pila dual** <br/> |Sí   <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
+|**Grupo de servidores front-end: IPv6** <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Sí\*  <br/> |
    
 \*Utilice esta combinación únicamente en un entorno de laboratorio.
   
@@ -144,9 +145,9 @@ La tabla siguiente es una matriz de combinaciones admitidas de las interfaces pe
 
 ||**Grupo de servidores perimetrales (perímetro externo): IPv4** <br/> |**Grupo de servidores perimetrales (perímetro externo): pila dual** <br/> |**Grupo de servidores perimetrales (perímetro externo): IPv6** <br/> |
 |:-----|:-----|:-----|:-----|
-|**Grupo de servidores perimetrales (perímetro interno): IPv4** <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|**Grupo de servidores perimetrales (perímetro interno): IPv4** <br/> |Sí  <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
 |**Grupo de servidores perimetrales (perímetro interno): pila dual** <br/> |No  <br/> |Sí  <br/> |No  <br/> |
-|**Grupo de servidores perimetrales (perímetro interno): IPv6** <br/> |No  <br/> |No  <br/> |Sí\*  <br/> |
+|**Grupo de servidores perimetrales (perímetro interno): IPv6** <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Sí\*  <br/> |
    
 \*Utilice esta combinación únicamente en un entorno de laboratorio.
   
@@ -200,10 +201,10 @@ Se admiten los siguientes escenarios durante la migración y coexistencia:
     
 - Skype para profesionales de servidores en modo de solo IPv6, si el grupo de servidores solo IPv6 se encuentra aislado.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="migration"> </a>
 
-[Configurar tipos de dirección IP en Skype Empresarial](ip-address-types.md)
+[Configure IP address types in Skype for Business](ip-address-types.md)
 
 [Arquitectura de direccionamiento de IP versión 6](https://tools.ietf.org/html/rfc4291)
   

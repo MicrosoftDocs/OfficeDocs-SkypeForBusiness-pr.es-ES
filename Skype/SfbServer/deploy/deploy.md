@@ -1,5 +1,6 @@
 ---
 title: Implementar Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,14 +15,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0cf43c54-e544-40c5-8659-a876f614a3b3
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2015 y actualización de versiones anteriores de Lync Server.'
-ms.openlocfilehash: 8560bd52877866f861c8c98dbf22926902a0ce1e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 129106e6d7affdc097a1f5601831307e706e8903
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890990"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879986"
 ---
-# <a name="deploy-skype-for-business-server-2015"></a>Implementar Skype Empresarial Server 2015
+# <a name="deploy-skype-for-business-server-2015"></a>Deploy Skype for Business Server 2015
  
 **Resumen:** Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2015 y actualización de versiones anteriores de Lync Server.
   
@@ -34,7 +35,7 @@ Ver los siguientes recursos para obtener información acerca de cómo implementa
   
 ||**Contenido**|**Descripción**|
 |:-----|:-----|:-----|
-|![Icono de diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos para Skype Empresarial Server 2015](../technical-diagrams.md) <br/> |Obtenga una vista rápida de las opciones de las arquitecturas en estos diagramas en formato grande.  <br/> |
+|![Icono de diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server 2015](../technical-diagrams.md) <br/> |Obtenga una vista rápida de las opciones de las arquitecturas en estos diagramas en formato grande.  <br/> |
 |![Icono de vídeos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Vídeos sobre cómo instalar Skype para Business Server - *próximamente!*  <br/> |Descubra presentaciones de vídeo y aprendizaje para profesionales de Skype para Business Server.  <br/> |
    
 ##  <a name="articles-about-skype-for-business-server-installation-and-configuration"></a>Artículos acerca de Skype para la instalación de Business Server y configuración
@@ -44,13 +45,13 @@ Los siguientes artículos acerca de cómo instalar y configurar Skype para Busin
 ||**Contenido**|**Descripción**|
 |:-----|:-----|:-----|
 |![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Requisitos para el entorno de Skype Empresarial Server](../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) <br/> |Obtenga información sobre el servidor y los requisitos de entorno para Skype para Business Server.  <br/> |
-|![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Conceptos básicos de topología de Skype Empresarial Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Obtenga información sobre las opciones de topología y escenarios de combinación de servidor de Skype para Business Server.  <br/> |
+|![Icono de documentación](../media/e4c786ef-1fff-4512-87c5-748543c60222.png)|[Topology Basics for Skype for Business Server 2015](../plan-your-deployment/topology-basics/topology-basics.md) <br/> |Obtenga información sobre las opciones de topología y escenarios de combinación de servidor de Skype para Business Server.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Instalar Skype Empresarial Server 2015](install/install.md) <br/> |Obtenga información sobre cómo instalar Skype para Business Server en varias topologías, en entornos físicos y virtuales.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Actualización de Skype para Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Obtenga información sobre cómo actualizar desde versiones anteriores de Lync Server.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configurar la experiencia del cliente con Skype Empresarial](deploy-clients/configure-the-client-experience.md) <br/> |Obtenga más información sobre cómo configurar la experiencia del cliente.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar conectividad híbrida entre Skype Empresarial Server y Skype Empresarial Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Obtenga información sobre cómo configurar los requisitos previos para una implementación híbrida y, a continuación, configurar la implementación para administrar los usuarios entre Skype para Business Server local y Skype para profesionales en línea.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar el servidor perimetral en Skype Empresarial Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Si los usuarios de la organización comunican con usuarios externos que no están registrados en la red interna, desea implementar el servidor perimetral.  <br/> |
-|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar la telefonía IP empresarial en Skype Empresarial Server 2015](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Obtenga más información sobre cómo implementar una solución de telefonía IP empresarial de voz sobre IP (VoIP) completa, que proporciona la integración enriquecida con Outlook y Exchange y muchas funciones eficaces, como los grupos de respuesta, el estacionamiento de llamadas, la llamada de equipo, la atención de llamadas grupales y la asistencia de E9-1-1 de emergencia mejorada.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Upgrade to Skype for Business Server 2015](upgrade-to-skype-for-business-server.md) <br/> |Obtenga información sobre cómo actualizar desde versiones anteriores de Lync Server.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Configure the client experience with Skype for Business](deploy-clients/configure-the-client-experience.md) <br/> |Obtenga más información sobre cómo configurar la experiencia del cliente.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md) <br/> |Obtenga información sobre cómo configurar los requisitos previos para una implementación híbrida y, a continuación, configurar la implementación para administrar los usuarios entre Skype para Business Server local y Skype para profesionales en línea.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy Edge Server in Skype for Business Server 2015](deploy-edge-server/deploy-edge-server.md) <br/> |Si los usuarios de la organización comunican con usuarios externos que no están registrados en la red interna, desea implementar el servidor perimetral.  <br/> |
+|![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Deploy Enterprise Voice in Skype for Business Server 2015](deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Obtenga más información sobre cómo implementar una solución de telefonía IP empresarial de voz sobre IP (VoIP) completa, que proporciona la integración enriquecida con Outlook y Exchange y muchas funciones eficaces, como los grupos de respuesta, el estacionamiento de llamadas, la llamada de equipo, la atención de llamadas grupales y la asistencia de E9-1-1 de emergencia mejorada.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar el servidor de chat persistente en Skype Empresarial Server 2015](deploy-persistent-chat-server/deploy-persistent-chat-server.md) <br/> |Si desea que los usuarios de la organización para participar en conversaciones basadas en temas que persisten a lo largo del tiempo, desea implementar el servidor de Chat persistente.  <br/> |
 |![Icono de procedimiento numérico](../media/d73b5029-a6ba-4abd-9197-d8151dabf56e.png)|[Implementar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015](deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Si desea admitir la interoperación vídeo, lea acerca de cómo implementar el servidor de vídeo de interoperabilidad (VISIBLES).  <br/> |
    

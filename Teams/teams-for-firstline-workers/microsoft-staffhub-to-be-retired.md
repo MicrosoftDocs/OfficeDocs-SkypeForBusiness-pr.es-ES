@@ -1,5 +1,6 @@
 ---
 title: Se retirará Microsoft StaffHub
+author: kenwith
 ms.author: v-lanac
 ms.reviewer: lisawu
 manager: serdars
@@ -14,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Office for business, Microsoft Teams
-ms.openlocfilehash: 0a7f21b4c999ab7300b88e059b87d3710ddd700a
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: f0ce0ce2df6ecd9da1ead976ba9f03985f5511fa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537727"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893044"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 

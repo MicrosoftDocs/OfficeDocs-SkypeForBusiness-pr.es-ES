@@ -1,5 +1,6 @@
 ---
 title: Plan para Skype Empresarial Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
-ms.openlocfilehash: 4d03d8ea6936ad906de01a5b478fce01d62113c4
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: da594ba2511b7e3a296eb57b825489305d9473d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454138"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888755"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
@@ -49,7 +50,7 @@ Cloud Connector proporcionará enrutamiento entre los usuarios alojados en local
 
 Tenga en cuenta lo siguiente al planear la implementación de nube conector Edition:
 
-- Para usar el conector en la nube para aprovechar las ventajas de las soluciones de voz en la nube, debe registrarse para un inquilino de Office 365 que incluye el sistema telefónico en Office 365. Si todavía no tiene un inquilino de Office 365, puede obtener información sobre como suscribirse aquí: [Office 365 para empresas](https://products.office.com/en-us/business/office). Tenga en cuenta que necesitará para registrarse y obtener un plan que incluya Skype para profesionales en línea.
+- Para usar el conector en la nube para aprovechar las ventajas de las soluciones de voz en la nube, debe registrarse para un inquilino de Office 365 que incluye el sistema telefónico en Office 365. Si aún no dispone de un inquilino de Office 365 Obtenga información sobre cómo registrarse aquí: [Office 365 para la empresa](https://products.office.com/en-us/business/office). Tenga en cuenta que necesitará para registrarse y obtener un plan que incluya Skype para profesionales en línea.
 
 - Para registrar los dispositivos de conector en la nube con la Skype para servicios en línea de negocio y para ejecutar varios cmdlets, conector de nube 2.0 y versiones posterior requiere una cuenta de Office 365 dedicada con la Skype para derechos de administrador de inquilinos de negocio. Las versiones de Cloud Connector anteriores a 2.0 requieren una cuenta de Office 365 dedicada con los derechos de administrador global de inquilinos.
 
@@ -249,7 +250,7 @@ Antes de implementar en la nube conector Edition, asegúrese de que tener lo sig
 
 - PBX/tronco cualificado o SBC/puerta de enlace cualificada (se recomienda un mínimo de dos puertas de enlace).
 
-    Cloud Connector admite los mismos controladores de borde de sesión (SBC) que los certificados para Skype Empresarial. Para obtener más información, vea [Infraestructura de telefonía para Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
+    Cloud Connector admite los mismos controladores de borde de sesión (SBC) que los certificados para Skype Empresarial. Para obtener más información, vea [Infraestructura de telefonía de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).
 
 - Una cuenta de administrador del servidor local con permisos para instalar y configurar Hyper-V en los servidores host. La cuenta debe tener permisos de administrador en el servidor local donde está instalado y configurado Hyper-V.
 
@@ -424,7 +425,7 @@ El equipo host debe ser capaz de llegar a recursos externos para instalar, actua
 
 Si se requieren reglas más restrictivas, consulte las siguientes direcciones URL incluidas en la lista blanca:
 
-- [Direcciones URL de la Lista de revocación de certificados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en [URL de Office 365 e intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
+- [Direcciones URL de lista de revocación de certificados](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2) en [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US)
 
 - [Cómo configurar un Firewall para las actualizaciones de Software](https://technet.microsoft.com/en-us/library/bb693717.aspx) de Windows Update:
 
@@ -528,7 +529,7 @@ Al configurar la información de puerta de enlace, recuerde lo siguiente:
 |CABackupFile  <br/> Versión 2.0 y posteriores  <br/> |Se utiliza para guardar el servicio de la entidad de certificación desde el servidor de Active Directory en un archivo al implementar varios dispositivos en un sitio de conector en la nube. Asegúrese de usar la misma contraseña en todos los dispositivos de un sitio de Cloud Connector para poder importar correctamente el archivo de copia de seguridad de la entidad de certificación en los nuevos dispositivos que se agreguen.  <br/> ||
 |CCEService  <br/> Versión 2.0 y posteriores  <br/> |Se usa para el servicio de administración de Cloud Connector; necesita acceder al directorio del sitio de Cloud Connector. Asegúrese de usar la misma contraseña en todos los dispositivos de un sitio de Cloud Connector.   <br/> ||
 |Administrador de inquilinos de Office 365  <br/> |  Cloud Connector usa la cuenta para actualizar y administrar la configuración de los inquilinos para Cloud Connector: <br/>  Versión 2.0 y versiones posterior: credenciales para una dedicado Office 365 cuenta con Skype para derechos de administrador empresarial. <br/>  Versiones anteriores a la versión 2.0: las credenciales de una cuenta de Office 365 dedicada con derechos globales de administrador de inquilinos. <br/> ||
-|Habilitar la compatibilidad con referencias  <br/> |Esto definirá si la compatibilidad con SIP REFER está habilitada o deshabilitada en la configuración de tronco de su IP/PBX. El valor predeterminado es True. Si su puerta de enlace IP/PBX es compatible con REFER, déjelo como True. Si no es así, tiene que cambiar este valor a False. Si no está seguro de si la puerta de enlace es compatible o no con REFER, consulte [IP/PBX cualificados y puertas de enlace](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
+|Habilitar la compatibilidad con referencias  <br/> |Esto definirá si la compatibilidad con SIP REFER está habilitada o deshabilitada en la configuración de tronco de su IP/PBX. El valor predeterminado es True. Si su puerta de enlace IP/PBX es compatible con REFER, déjelo como True. Si no es así, tiene que cambiar este valor a False. Si no está seguro de si la puerta de enlace admite REFER, vea [completa de IP-PBX y puertas de enlace](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).   <br/> ||
 |EnableFastFailoverTimer  <br/> Versión 2.0 y posteriores  <br/> |Con el valor predeterminado es "True", si no se responden las llamadas salientes por la puerta de enlace dentro de 10 segundos se van a enrutar a la siguiente puerta de enlace disponible; Si no hay ningún troncos adicionales, a continuación, la llamada se eliminará automáticamente.  <br/> Sin embargo, en una organización donde las respuestas de las puertas de enlace y las redes son lentas, o cuando el proceso de establecimiento de las llamadas tarda más de 10 segundos, las llamadas se interrumpirían innecesariamente.  <br/> Cuando se realizan llamadas a determinados países o regiones, como los Emiratos Árabes Unidos o Afganistán, el establecimiento de llamada puede tardar más de 10 segundos. En estos casos o en otros problemas parecidos, tendrá que cambiar el valor a False. No olvide cambiar la configuración correspondiente en el SBC o la puerta de enlace conectados.  <br/> El valor puede ser True o False. El valor predeterminado es True.  <br/> ||
 |ForwardCallHistory  <br/> Versión 2.0 y posteriores  <br/> | Con este parámetro se activan los encabezados SIP que se utilizan para comunicar el autor inicial de la llamada en los escenarios de llamadas simultáneas, desvío de llamadas y transferencia de llamadas. Si el parámetro se establece en True, se activarán dos encabezados SIP:<br/>  History-Info <br/>  Referred-By <br/>  El encabezado de información de historial se usa para volver a dirigir las solicitudes SIP y "ofrecen un mecanismo estándar para capturar la información del historial de solicitud para habilitar una amplia variedad de servicios para redes y los usuarios finales" ([RFC 4244 - sección 1.1](http://www.ietf.org/rfc/rfc4244.txt)). En el caso de interfaces de troncos de Cloud Connector, se usa en situaciones de llamadas simultáneas y desvío de llamadas.  <br/>  El valor puede ser True o False. El valor predeterminado es False.<br/> ||
 |Reenvío de PAI  <br/> Versión 2.0 y posteriores  <br/> |PAI es una extensión privada de SIP que permite que los servidores SIP confirmen la identidad de los usuarios autenticados. El proveedor de tronco SIP puede usar PAI con fines de facturación en el caso de que los encabezados History-Info y Referred-By no estén presentes. Cuando desviar P-Asserted-Identity está habilitada en la configuración, el servidor de mediación reenviará encabezados PAI con SIP &amp; Tel URI de conector en la nube en el tronco SIP. El servidor de mediación reenviará encabezados PAI con tel URI &amp; los números E.164 sólo se recibe en el tronco SIP al conector de la nube. El servidor de mediación también desviará los encabezados de privacidad que se reciban en cualquier dirección. Si el SIP de solicitudes enviadas por el servidor de mediación incluye un encabezado de privacidad del formulario: "privacidad: identificador de" junto con el encabezado PAI, a continuación, la identidad del objeto de aserción debe ser privada fuera del dominio de confianza de la red.  <br/> El valor puede ser True o False. El valor predeterminado es False.  <br/> ||

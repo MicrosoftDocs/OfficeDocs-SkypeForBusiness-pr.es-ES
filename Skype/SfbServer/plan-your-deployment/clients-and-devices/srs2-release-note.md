@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: fefad8a37d53760a81b2ea78e73bbd75069c848f
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645359"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891602"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -53,9 +53,11 @@ Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
 
 ## <a name="skype-room-systems-v2-feature-introduction-and-issue-resolution"></a>Sistemas de salón de Skype v2 característica introducción y su resolución
 
+
 ### <a name="40780-03142018"></a>4.0.78.0 (14/03/2018)
 Se introdujeron en esta actualización:
 - Corrección para el error "se bloquee en el inicio de aplicación" que afectadas dispositivos en la compilación de Windows 10 RS2 heredada.  
+
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Se introdujeron en esta actualización:
@@ -180,7 +182,7 @@ Se introdujeron en esta actualización:
 ### <a name="2020-03152017"></a>2.0.2.0 (15/03/2017)
 Se introdujeron en esta actualización: 
 - Selección de usuario en la aplicación de los dispositivos USB de audio y vídeos de sala de la reunión
-- Integrado salón consola informes de estado de los clientes que usen el conjunto de aplicaciones de administración de operaciones de Microsoft (consulte [administración de sistemas de planeación de las salas Skype v2 con OMS](oms-management.md)) 
+- Salón integrada consola informes de estado de los clientes que usen Microsoft Operations Management Suite, ahora Monitor de Azure  
 
 ### <a name="release-to-market--1272016"></a>Versión en el mercado (7/12/2016)
 **Características:** 

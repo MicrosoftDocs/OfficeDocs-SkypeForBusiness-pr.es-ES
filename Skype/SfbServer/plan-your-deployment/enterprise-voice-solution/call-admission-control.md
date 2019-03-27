@@ -1,5 +1,6 @@
 ---
 title: Planeación de control de admisión de llamadas en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Obtenga información sobre el control de admisión de llamadas, lo que puede impedir que las llamadas procedentes de produciendo si poseen una calidad deficiente multimedia, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: db4b2f7a77885ff96a4b43b01aa2337996418217
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: f02952c45badf26fa2e02a9d3d8349d087bbe6e8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883854"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897716"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planeación de control de admisión de llamadas en Skype para Business Server
 
@@ -203,7 +204,7 @@ Usa la tabla que aparece a continuación para optimizar la configuración del an
 |Siren  <br/> |57,6 kbps  <br/> |73,6 kbps  <br/> |
 |G.711  <br/> |102 kbps  <br/> |166 kbps  <br/> |
 |G.722  <br/> |105,6 kbps  <br/> |169,6 kbps  <br/> |
-|RTVideo (CIF 15 fps)  <br/> |260 kbps  <br/> |No disponible  <br/> |
+|RTVideo (CIF 15 fps)  <br/> |260 kbps  <br/> |No aplicable  <br/> |
 |RTVideo (VGA 30 fps)  <br/> |610 kbps  <br/> |No disponible  <br/> |
 
 > [!NOTE]
@@ -252,7 +253,7 @@ Para mejorar el rendimiento y facilitar la implementación, sigue los procedimie
 
 - Usa directivas de ancho de banda de CAC para complementar la configuración de QoS.
 
-- Si deseas volver a redirigir llamadas bloqueadas a la RTC, comprueba la capacidad y las funciones de la RTC. Para obtener información detallada, vea [Planeación de enrutamiento de llamadas salientes](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
+- Si deseas volver a redirigir llamadas bloqueadas a la RTC, comprueba la capacidad y las funciones de la RTC. Para obtener más detalles, mira [Planning Outbound Call Routing](https://technet.microsoft.com/library/37c55fa4-175a-4190-b9e4-c2e5ac7b9261.aspx).
 
     > [!NOTE]
     > La capacidad hace referencia a la cantidad de puertos que necesitas abrir para admitir un nuevo posible enrutamiento de la RTC.

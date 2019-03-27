@@ -1,5 +1,6 @@
 ---
 title: Configuración de archivado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Utilice las configuraciones de archivado para controlar las opciones para su Skype para la implementación de servidor empresarial, incluidas la habilitación y deshabilitación de las siguientes opciones de archivado:'
-ms.openlocfilehash: d8e7adec0918cf13104857957442f1f0a5f4ff3d
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 51c77b17fe234ab343fc18f17fce25f2c46813cb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21004263"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895137"
 ---
 # <a name="archiving-configuration"></a>Configuración de archivado
  

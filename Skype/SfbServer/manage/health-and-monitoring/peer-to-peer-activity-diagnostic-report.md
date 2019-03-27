@@ -1,5 +1,6 @@
 ---
 title: Informe de diagnóstico de actividad punto a punto en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Resumen: Información sobre el informe de diagnóstico de actividad punto a punto en Skype para Business Server.'
-ms.openlocfilehash: ccc0c793a27df51c86d7ae0a6a9b575c7f6a5659
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 097b323d2a9484e14dd056196b7344b61b412339
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20980819"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880612"
 ---
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico de actividad punto a punto en Skype para Business Server
  

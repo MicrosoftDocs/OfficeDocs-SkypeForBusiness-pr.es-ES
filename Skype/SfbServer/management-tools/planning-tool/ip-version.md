@@ -1,5 +1,6 @@
 ---
-title: Versión IP (herramienta de planeación)
+title: IP Version (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
-description: Tiene tres opciones al configurar direcciones IP en Skype para Business Server 2015. Puede configurar Skype para Business Server 2015 admitir sólo IP versión 4 (IPv4), sólo IP versión 6 (IPv6), o una combinación de ambos (conocido como pila doble).
-ms.openlocfilehash: 94e77a4e4560ba9e6aca4337a4e30a064b67c294
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Dispone de tres opciones al configurar las direcciones IP en Skype para Business Server 2015. Puede configurar Skype para Business Server 2015 admitir sólo IP versión 4 (IPv4), sólo IP versión 6 (IPv6), o una combinación de ambos (conocido como una pila dual).
+ms.openlocfilehash: 7899718a02992756e730819cd1abd880b074758b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894967"
 ---
-# <a name="ip-version-planning-tool"></a>Versión IP (herramienta de planeación)
+# <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  
-Tiene tres opciones al configurar direcciones IP en Skype para Business Server 2015. Puede configurar Skype para Business Server 2015 admitir sólo IP versión 4 (IPv4), sólo IP versión 6 (IPv6), o una combinación de ambos (conocido como pila doble).
+Dispone de tres opciones al configurar las direcciones IP en Skype para Business Server 2015. Puede configurar Skype para Business Server 2015 admitir sólo IP versión 4 (IPv4), sólo IP versión 6 (IPv6), o una combinación de ambos (conocido como una pila dual).
   
-Para obtener más información acerca de cómo elegir su infraestructura IP, consulte [Plan para IPv6 en Skype para el negocio](../../plan-your-deployment/network-requirements/ipv6.md).
+Para obtener más información acerca de cómo elegir la infraestructura de IP, consulte [Plan para IPv6 en Skype para la empresa](../../plan-your-deployment/network-requirements/ipv6.md).
   
 

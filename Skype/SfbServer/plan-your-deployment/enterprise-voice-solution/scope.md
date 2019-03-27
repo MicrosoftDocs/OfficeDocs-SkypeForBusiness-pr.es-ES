@@ -1,5 +1,6 @@
 ---
 title: Definir el ámbito de la implementación de E9-1-1 de Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Decisiones necesarias para planear una implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 01b6b1656826977444928583ff08e8cb23b2982d
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886292"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889143"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definir el ámbito de la implementación de E9-1-1 de Skype para Business Server
 
@@ -36,7 +37,7 @@ Antes de configurar Skype para la empresa para E9-1-1, debe planear la implement
 
  **¿Cómo implementará E9-1-1 en las sucursales?**
 
- La resistencia de voz es un concepto que es importante tener en cuenta al implementar E9-1-1 en un sitio de sucursal. Si ha centralizado troncos SIP de E-9-1-1 y se produce una interrupción de la WAN, los clientes de inicio de sesión es posible que no pueda para obtener una ubicación de servicio de información de ubicación o para conectarse al proveedor de servicios de emergencia. Skype para la empresa proporciona varias estrategias para controlar la resistencia de voz en sucursales, incluidas: necesidad de redes de datos resistente, implementar un tronco SIP en cada sucursal o extraer las llamadas de emergencia a la puerta de enlace local durante las interrupciones. Para obtener información detallada, consulte [Planning for resistencia de voz del sitio de sucursal](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
+ La resistencia de voz es un concepto que es importante tener en cuenta al implementar E9-1-1 en un sitio de sucursal. Si ha centralizado troncos SIP de E-9-1-1 y se produce una interrupción de la WAN, los clientes de inicio de sesión es posible que no pueda para obtener una ubicación de servicio de información de ubicación o para conectarse al proveedor de servicios de emergencia. Skype para la empresa proporciona varias estrategias para controlar la resistencia de voz en sucursales, incluidas: necesidad de redes de datos resistente, implementar un tronco SIP en cada sucursal o extraer las llamadas de emergencia a la puerta de enlace local durante las interrupciones. Para obtener más información, mira [Planning for Branch-Site Voice Resiliency](https://technet.microsoft.com/library/67713f57-3ded-4127-ac37-57d8099bf384.aspx).
 
  **¿Se habilitará E9-1-1 para los usuarios que trabajan fuera de la red?**
 

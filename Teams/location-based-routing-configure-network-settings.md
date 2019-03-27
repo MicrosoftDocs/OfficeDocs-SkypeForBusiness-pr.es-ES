@@ -16,23 +16,23 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 67202207b5668022f4e0b33acc2d20f3c4abd7aa
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 60af1c90cd1dbd7855da7686950ffd135d1da5dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462711"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876771"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Configuración de red de enrutamiento basado en la ubicación
 
 > [!INCLUDE [Preview customer token](includes/preview-feature.md)] 
 
-Si ya lo ha hecho, lea [Plan Location-Based enrutamiento para el enrutamiento directo](location-based-routing-plan.md) para revisar otros pasos debe tomar antes de implementar la configuración de red para el enrutamiento basado en la ubicación.
+Si ya lo ha hecho, lea [Plan Location-Based enrutamiento para el enrutamiento directo](location-based-routing-plan.md) para revisar otros pasos debe tomar antes de configurar la configuración de red para el enrutamiento basado en la ubicación.
 
 Este artículo describe cómo configurar las opciones de red para el enrutamiento basado en la ubicación. Después de implementar el enrutamiento directo teléfono del sistema en la organización, son los siguientes pasos crear y configurar regiones de red, sitios de red y subredes de la red. Para completar los pasos descritos en este artículo, necesitará un poco familiarizado con los cmdlets de PowerShell. Para obtener más información, vea [Introducción a los equipos de PowerShell](teams-powershell-overview.md).
 
 ## <a name="define-network-regions"></a>Definir regiones de red
- Una región de red interconexiones distintas partes de una red a través de varias áreas geográficas. Usar el ``New-CsTenantNetworkRegion`` cmdlet de PowerShell para definir regiones de red. Tenga en cuenta que el ``RegionID`` parámetro es un nombre lógico que representa la región geográfica de la región y no tiene dependencias ni las restricciones y el ``CentralSite <site ID>`` parámetro es opcional. 
+ Una región de red interconexiones distintas partes de una red a través de varias áreas geográficas. Use el cmdlet [New-CsTenantNetworkRegion](https://docs.microsoft.com/powershell/module/skype/New-CsTenantNetworkRegion?view=skype-ps) para definir regiones de red. Tenga en cuenta que el parámetro RegionID es un nombre lógico que representa la región geográfica de la región y no tiene ninguna dependencia o restricciones y el CentralSite &lt;identificador de sitio&gt; parámetro es opcional. 
 
 ```
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -45,7 +45,7 @@ New-CsTenantNetworkRegion -NetworkRegionID "India"
 
 ## <a name="define-network-sites"></a>Definir sitios de red
 
-Usar el ``New-CsTenantNetworkSite`` cmdlet de PowerShell para definir sitios de red. 
+Use el cmdlet [New-CsTenantNetworkSite](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksite?view=skype-ps) para definir sitios de red. 
 
 ```
 New-CsTenantNetworkSite -NetworkSiteID <site ID> -NetworkRegionID <region ID>
@@ -64,7 +64,7 @@ En la siguiente tabla muestra los sitios de red definidos en este ejemplo.
 
 ## <a name="define-network-subnets"></a>Definir subredes de red
 
-Usar el ``New-CsTenantNetworkSubnet`` cmdlet para definir subredes de red y asociarlos a sitios de red. Sólo se puede asociar con un sitio cada subred interna. 
+Use el cmdlet [New-CsTenantNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-cstenantnetworksubnet?view=skype-ps) para definir subredes de red y asociarlos a sitios de red. Sólo se puede asociar con un sitio cada subred interna. 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID> 
 ```
@@ -94,7 +94,7 @@ Identity, Mask, SiteID
 172.11.15.0, 28, Paris
 ```
 ## <a name="define-external-subnets"></a>Definir subredes externas
-Usar el ``New-CsTenantTrustedIPAddress`` cmdlet para definir subredes externas y asignarlas a los inquilinos. Puede definir un número ilimitado de subredes de un inquilino. 
+Use el cmdlet [New-CsTenantTrustedIPAddress](https://docs.microsoft.com/powershell/module/skype/new-cstenanttrustedipaddress?view=skype-ps) para definir subredes externas y asignarlas a los inquilinos. Puede definir un número ilimitado de subredes de un inquilino. 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```

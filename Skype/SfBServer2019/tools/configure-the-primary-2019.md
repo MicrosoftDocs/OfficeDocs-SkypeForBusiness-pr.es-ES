@@ -1,5 +1,6 @@
 ---
 title: Configurar el servidor de administración principal
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Configurar el servidor de administración principal, instalar a System Center Operations Manager e Importar módulos de administración para Skype para Business Server 2019.'
-ms.openlocfilehash: 39ed469227c607084dc030fa003700074a6aae9a
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a1e77a46b450e7f2e8f706099224ae314618ed78
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536078"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895680"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar el servidor de administración principal
 
@@ -57,7 +58,7 @@ Puede ampliar las capacidades de System Center Operations Manager mediante la in
 - **El componente y el módulo de administración de usuario** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) realiza un seguimiento de Skype para Business Server problemas registrados en los registros de eventos, registrado por los contadores de rendimiento o registrados en los registros de detalles de llamadas (CDR) o las bases de datos de calidad de la experiencia (QoE). Para problemas críticos, System Center Operations Manager puede configurarse para notificar inmediatamente a los administradores a través de correo electrónico, mensaje instantáneo o SMS de mensajería. (SMS o servicio de mensajes cortos, es la tecnología que se utiliza para enviar mensajes de texto desde un dispositivo móvil a otro).
 
     > [!NOTE]
-    >  Para obtener más información sobre cómo configurar la notificación en Operations Manager, consulte [Cómo configurar la notificación](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Para obtener información detallada sobre la configuración de notificación de Operations Manager, vea [Configuración de las notificaciones](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
 - **El módulo de administración de supervisión activa** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) proactivamente pruebas clave Skype para los componentes de servidor empresarial, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono que se encuentra en la red telefónica conmutada (RTC ). Estas pruebas se llevan a cabo mediante el uso de la Skype para cmdlets de transacciones sintéticas Business Server. Por ejemplo, se usa el cmdlet **Test-CsIM** para simular una conversación entre un par de usuarios de prueba de mensajería instantánea. Si se produce un error en esta conversación simulada, se genera una alerta.
 

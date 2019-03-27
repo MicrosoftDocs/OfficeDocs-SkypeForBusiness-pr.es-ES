@@ -1,5 +1,6 @@
 ---
 title: Validar la implementación perimetral en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -11,12 +12,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Resumen: Obtenga información sobre cómo comprobar que la implementación de servidor perimetral o grupo de servidores perimetrales está funcionando en Skype para Business Server.'
-ms.openlocfilehash: 267a02407a66614d0c78592da073307979136e39
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 63c4cb1af599da191d0e0f4b95cfdaa775a64ba4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883551"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878609"
 ---
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Validar la implementación perimetral en Skype para Business Server
  

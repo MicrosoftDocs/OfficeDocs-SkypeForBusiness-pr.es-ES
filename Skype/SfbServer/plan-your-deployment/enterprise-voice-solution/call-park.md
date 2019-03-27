@@ -1,5 +1,6 @@
 ---
 title: Plan para el estacionamiento de llamadas en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planeación de estacionamiento de llamadas en Skype para Business Server Enterprise Voice, que permite que las llamadas de puesta en espera y la transferencia de llamadas a departamentos. Incluye el planeamiento de capacidad, llamadas admitidas y clientes admitidos.
-ms.openlocfilehash: 328c94507c393aba1edc7253bdf962a2904a44d6
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 92c896bb610827108379af2bca38cd7a89639af2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23883358"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894068"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Plan para el estacionamiento de llamadas en Skype para la empresa
  
@@ -60,7 +61,7 @@ Todos los servidores Front-End y Standard Edition de los servidores donde se imp
 La aplicación de estacionamiento de llamadas usa **5075 de puerto** para solicitudes de escucha SIP.
     
 > [!NOTE]
-> Este puerto es una configuración predeterminada que se puede cambiar mediante el cmdlet **Set-CsApplicationServer** . Para obtener más información acerca de este cmdlet, vea la documentación del Shell de administración de Lync Server.
+> Este puerto es una configuración predeterminada que puedes cambiar con el cmdlet **Set-CsApplicationServer**. Para obtener más información acerca de este cmdlet, vea la documentación del Shell de administración de Lync Server.
   
 ### <a name="audio-file-requirements"></a>Requisitos de archivos de audio
 
@@ -88,7 +89,7 @@ Los siguientes clientes pueden usar estacionamiento de llamadas para estacionar 
     
 - Lync 2010
     
-- Operador de Skype Empresarial
+- Operador de Lync 2010
     
 - Lync Phone Edition
     
@@ -109,7 +110,7 @@ Los siguientes clientes pueden recuperar llamadas que están estacionadas en el 
     
 - Lync 2010
     
-- Operador de Skype Empresarial
+- Operador de Lync 2010
     
 - Lync Phone Edition
     

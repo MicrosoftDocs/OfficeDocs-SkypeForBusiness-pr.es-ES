@@ -1,5 +1,6 @@
 ---
 title: Fases de la migración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En Skype para Business Server 2019, es posible definir sitios en la red que contienen Skype para los componentes de Business Server 2019. Un sitio es un conjunto de equipos que están bien conectados mediante una red de alta velocidad, baja latencia, como una única red de área local (LAN) o dos redes conectadas mediante una red óptica de fibra de alta velocidad.
-ms.openlocfilehash: cb6529ac09c10f73a01d3454ef9518d7fe960e1f
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: d34351b551262450dee852efd7679f17cbe1e161
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027735"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886543"
 ---
 # <a name="migration-phases"></a>Fases de la migración
 
@@ -25,7 +26,7 @@ Las siguientes fases describen el proceso de una migración de grupo de servidor
   
 1. [Fase 1: Planear la migración](phase-1-plan-your-migration.md)
     
-2. [Fase 2: Preparación para la migración](phase-2-prepare-for-migration.md)
+2. [Fase 2: Preparación de la migración](phase-2-prepare-for-migration.md)
     
 3. [Fase 3: Implementar Skype para Business Server 2019 el grupo piloto](phase-3-deploy-pilot-pool.md)
     
@@ -33,10 +34,10 @@ Las siguientes fases describen el proceso de una migración de grupo de servidor
     
 5. [Fase 5: Agregar Skype para servidor perimetral de Business Server 2019 al grupo piloto](phase-5-add-edge-server-to-pilot-pool.md)
     
-6. [Fase 6: Pasar de la implementación piloto a producción](phase-6-move-from-pilot-deployment-into-production.md)
+6. [Fase 6: Pasar de la implementación piloto a la producción](phase-6-move-from-pilot-deployment-into-production.md)
     
-7. [Fase 7: Completar tareas posteriores a la migración](phase-7-complete-post-migration-tasks.md)
+7. [Fase 7: Finalización de las tareas posteriores a la migración](phase-7-complete-post-migration-tasks.md)
     
-8. [Fase 8: Retirar grupos de servidores heredados](phase-8-decommission-legacy-pools.md)
+8. [Fase 8: Retirar los grupos de servidores heredados](phase-8-decommission-legacy-pools.md)
     
 

@@ -1,5 +1,6 @@
 ---
 title: Configurar las directivas de usuario del chat persistente de Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumen: Lea este tema para obtener información sobre cómo crear directivas de usuario inicial para el servidor de Chat persistente en Skype para Business Server 2015. Las directivas de usuario de charla persistentes determinan si los usuarios pueden acceder a salones de chat.'
-ms.openlocfilehash: 186611977a1a9dfa77549e8f0c5df6b863718eee
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21000839"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30883710"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar las directivas de usuario del chat persistente de Skype Empresarial Server 2015
  
@@ -40,7 +41,7 @@ Este tema incluye las secciones siguientes:
 
 Para configurar la directiva global:
   
-1. En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.
     
 2. Desde el menú **Inicio** , seleccione el Skype para el Panel de Control de servidor empresarial o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
@@ -62,7 +63,7 @@ Para configurar la directiva global:
 
 Para cada sitio que ha implementado, puede crear una directiva de chat persistente específica para el sitio. La configuración de la directiva de sitio reemplaza la directiva global, pero solo para el sitio específico que abarca la directiva de sitio. Para crear una directiva de sitio:
   
-1. En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.
     
 2. Desde el menú **Inicio** , seleccione el Skype para el Panel de Control de servidor empresarial o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
@@ -86,7 +87,7 @@ Para cada sitio que ha implementado, puede crear una directiva de chat persisten
 
 Puede crear directivas de usuario específicas que reemplazan la directiva global y todas las directivas de sitio que abarcan al usuario. Para crear una directiva de usuario:
   
-1. En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1. Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.
     
 2. Desde el menú **Inicio** , seleccione el Skype para el Panel de Control de servidor empresarial o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
     
@@ -114,12 +115,12 @@ Después de crear políticas, puede aplicarlas a una cuenta de usuario de esta m
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
     
-4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, finalmente, en **Mostrar detalles**.
+4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
     
 5. En **Editar Skype para usuarios de empresa Server** en **Directiva de Chat persistente**, seleccione la directiva de usuario de Chat persistente que se desea aplicar.
     
     > [!NOTE]
-    > La ** \<automática\> ** configuración aplica la directiva en vigor de forma predeterminada. El servidor aplica esta configuración automáticamente.
+    > La ** \<automática\> ** configuración aplica la directiva en vigor de forma predeterminada. El servidor aplica automáticamente esta configuración.
   
 6. Haga clic en **Confirmar**.
     

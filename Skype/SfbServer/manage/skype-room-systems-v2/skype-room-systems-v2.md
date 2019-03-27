@@ -11,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 description: Introducción a la administración de sistemas de salón de Skype v2.
-ms.openlocfilehash: b30406c9f186fad699056a78ed1b18da9f59537a
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: edd73c6ecf973d0d066b5f46d949a792bc0910c5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699355"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880288"
 ---
 # <a name="management-overview"></a>Introducción a la administración 
 
 Es esencial que desarrollar y ejecutar el mantenimiento continuado y operaciones para asegurarse de que los sistemas de v2 de Skype salón sistemas están disponibles para los usuarios y ofrecen a un usuario excelente experimentan. 
 
-## <a name="monitoring"></a>Supervisión 
+## <a name="monitoring"></a>Supervisión 
 
 Sistemas de salón de Skype v2 sistemas de supervisión consta de dos actividades clave:
 
@@ -35,7 +35,7 @@ Sistemas de salón de Skype v2 sistemas de supervisión consta de dos actividade
 Para asegurarse de que los usuarios podrán utilizar las unidades de sistemas de salón de Skype v2, las unidades deben estar en, conectado a la red con la aplicación de v2 de sistemas de salón de Skype configurada correctamente y estar conectadas a dispositivos periféricos funcionamiento. 
 
 
-Información sobre el estado de la aplicación de v2 de Skype salón sistemas y dispositivos periféricos conectados está escrita por la aplicación de v2 de sistemas de salón de Skype para el registro de eventos de Windows y documenta [en este artículo](oms.md#understand-the-log-entries). 
+Información sobre el estado de la aplicación de v2 de Skype salón sistemas y dispositivos periféricos conectados es escrita por la aplicación de v2 de sistemas de salón de Skype para el registro de eventos de Windows y que se documentaron en [comprender las entradas del registro](azure-monitor.md#understand-the-log-entries). 
 
 |**Configuración**|**Permite**|
 |:-----|:-----|
@@ -43,13 +43,13 @@ Información sobre el estado de la aplicación de v2 de Skype salón sistemas y 
 |Administración de energía -\> en AC, desactivar pantalla después de 10 minutos  <br/> Administración de energía -\> en AC, nunca colocar del sistema al modo de suspensión  <br/> |Permite v2 de sistemas de salón de Skype para desactivar muestra adjunto y reactivar automáticamente  <br/> |
 |net accounts /maxpwage:unlimited  <br/> O medios alternativos para deshabilitar la opción de caducidad de la contraseña en la cuenta local. Si esto no se realiza, la cuenta de Skype no podrá iniciar sesión indicando que la contraseña ha caducado. Tenga en cuenta que esto afectará todas las cuentas locales de la máquina y, por consiguiente, si no se configura esto, la cuenta administrativa del cuadro eventualmente también caducará.  <br/> |Permite que la cuenta de Skype siempre inicie sesión  <br/> |
    
-La transferencia de archivos mediante directivas de grupo se trata en [Configuración de un elemento de servicio](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
+Transferencia de archivos mediante directivas de grupo se describe en [configurar un elemento de archivo](https://technet.microsoft.com/en-us/library/cc772536%28v=ws.11%29.aspx).
   
 ## <a name="remote-management-using-powershell"></a>Administración remota con PowerShell
 <a name="RemotePS"> </a>
 
 
-Se recomienda que utilice el conjunto de aplicaciones de Microsoft Operations Manager para supervisar los sistemas de v2 de sistemas de salón de Skype. Para obtener instrucciones acerca de cómo configurar la supervisión y alertas básicas, vea [administración de v2 de implementar sistemas de salón de Skype con OMS](../../deploy/deploy-clients/with-oms.md). 
+Se recomienda que utilice el conjunto de aplicaciones de Microsoft Operations Manager para supervisar los sistemas de v2 de sistemas de salón de Skype. Para obtener instrucciones acerca de cómo configurar la supervisión y alertas básicas, vea [administración de v2 de implementar sistemas de salón de Skype con el Monitor de Azure](../../deploy/deploy-clients/azure-monitor.md). 
 
 Uso de esta guía, puede crear un panel simple de usar para identificar los problemas con las unidades de v2 de sistemas de salón de Skype en toda la implementación. 
 
@@ -82,7 +82,7 @@ Se recomienda que configure alertas del conjunto de aplicaciones de administraci
 Para obtener más información sobre el modo de administración y solución de problemas, vea [administrar sistemas de salón de Skype v2](room-systems-v2-operations.md#admin-mode-and-device-management). 
 
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 

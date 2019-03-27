@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener más información sobre cómo configurar cuentas para sistemas de salón de Skype v2 en Exchange e Skype para la empresa.
-ms.openlocfilehash: 38fdc37467b1a9f7b73271ac8684e86f52059981
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 59e94251014b2f5c567e3b672d67007471d3709b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699682"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888282"
 ---
 # <a name="configure-accounts-for-skype-room-systems-v2"></a>Configurar cuentas para sistemas de salón de Skype v2
  
@@ -57,7 +57,7 @@ Una cuenta de usuario se puede considerar como la cuenta del recurso que persona
   
 Si ya tiene una cuenta de buzón de recursos establecer para el espacio de reunión donde va a instalar sistemas de salón de Skype v2, puede cambiar esa cuenta del recurso en una cuenta de usuario. Una vez que se realiza, todo lo que necesita hacer es agregar la cuenta de usuario a un dispositivo de v2 de sistemas de salón de Skype. Vea los ejemplos de configuración de cuentas de usuario que se ofrecen a continuación.
   
-Con una configuración adicional, es posible mediante el conjunto de aplicaciones de administración de operaciones de Microsoft (OMS) tal como se describe la [administración de sistemas de planeación de las salas Skype v2 con OMS](../../plan-your-deployment/clients-and-devices/oms-management.md), implementar sistemas de salón de Skype v2 con OMS y la [administración](with-oms.md)de [administrar administración remota Dispositivos de sistemas de salón de Skype v2 con OMS](../../manage/skype-room-systems-v2/oms.md). 
+Con una configuración adicional, es posible usar el Monitor de Azure de Microsoft tal como se describe la [administración de sistemas de planeación de las salas Skype v2 con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md), implementar sistemas de salón de Skype v2 con el Monitor de Azure y la [administración](azure-monitor.md)de [administrar administración remota Dispositivos de sistemas de salón de Skype v2 con Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md). 
   
 ## <a name="basic-configuration"></a>Configuración básica
 
@@ -79,9 +79,9 @@ Mientras que las propiedades para la configuración básica permitirá la cuenta
    
 La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles.
   
-Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Vea [Crear una cuenta del dispositivo mediante Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   

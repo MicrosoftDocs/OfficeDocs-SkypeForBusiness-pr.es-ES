@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito raíz de Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Lync Server enumera los sitios centrales en su topología. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 1ce19c77d0ec090033895278c0df5f50f00a1eaf
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'El nodo Lync Server enumera los sitios centrales en su topología. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 4b9c9ce84ffeddc13415d13a8b7f8086b6ccba83
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082562"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887168"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nodo de ámbito raíz de Skype Empresarial Server
  

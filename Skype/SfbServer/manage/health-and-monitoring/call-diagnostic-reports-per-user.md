@@ -1,5 +1,6 @@
 ---
 title: Llamar a informes de diagnóstico (por usuario) en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Resumen: Conozca la por usuario llamada informes de diagnóstico usadas en Skype para Business Server.'
-ms.openlocfilehash: 16b9fc5ef612f0f47fcb7501c6bd2b6dc38770e1
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 0c8e17151ab07814db2b07d1f0dda3ead3a509f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214629"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899302"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Llamar a informes de diagnóstico (por usuario) en Skype para Business Server
   

@@ -1,5 +1,6 @@
 ---
-title: Planeación de ayuda
+title: Help-Planning
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 ms.audience: ITPro
@@ -9,14 +10,14 @@ localization_priority: Normal
 ms.assetid: 2287aef6-c7b6-4170-9d4d-e1e54e5236b5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Planeación de los temas de la herramienta
-ms.openlocfilehash: 8c431cc43c53063b3ded5647bb708548f65d9d64
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 5a8098de4b1330958bc72bb8d2512935dd37dfdf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057988"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889438"
 ---
-# <a name="help-planning"></a>Planeación de ayuda
+# <a name="help-planning"></a>Help-Planning
  
 En los temas de este nodo proporcionan ayuda para la Skype para la herramienta de planeación de Business Server.
   

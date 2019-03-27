@@ -1,5 +1,6 @@
 ---
 title: Requisitos del equilibrio de carga para Skype Empresarial
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Resumen: Revise el equilibrio consideraciones antes de implementar Skype para Business Server de carga.'
-ms.openlocfilehash: ed3572b16126ce16b423d4ffe0d60d1f84d6b3cf
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: a7e8e70088c83276c36334c5d9a1e3be1538ca38
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408168"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897895"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Requisitos del equilibrio de carga para Skype Empresarial
  
@@ -109,7 +110,7 @@ Si se implementan dispositivos móviles, es preciso que el equilibrador de carga
 > Si va a implementar los dispositivos móviles, el equilibrador de carga de hardware debe ser capaz de cargar individualmente equilibrar cada solicitud dentro de una conexión TCP. Las últimas aplicaciones móviles que utilizan Apple iOS requieren la versión 1.2 de la seguridad de la capa de transporte (TLS).  
   
 > [!CAUTION]
-> Para más detalles sobre los equilibradores de carga de hardware de terceros, consulte [Infraestructura para Skype Empresarial](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
+> Para obtener información detallada en los equilibradores de carga de hardware de terceros, vea [infraestructura de Skype para la empresa](https://docs.microsoft.com/SkypeForBusiness/certification/infra-gateways).  
   
 A continuación, se muestran los requisitos del equilibrador de carga de hardware para los servicios web del grupo de servidores front-end y de directores:
   
@@ -284,7 +285,7 @@ Para implementar el equilibrio de carga de DNS en un grupo de servidores de medi
 ### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Bloquear tráfico a un servidor con equilibrio de carga de DNS
 <a name="BK_Mediation"> </a>
 
-Si utiliza el equilibrio de carga de DNS y necesita bloquear el tráfico a un equipo específico, no es suficiente con solo quitar las entradas de direcciones IP del grupo FQDN. También necesita quitar la entrada de DNS para el equipo. 
+Si utiliza el equilibrio de carga de DNS y necesita bloquear el tráfico a un equipo específico, no es suficiente con solo quitar las entradas de direcciones IP del FQDN del grupo de servidores. También es preciso quitar la entrada de DNS para el equipo. 
   
 Tenga en cuenta que para el tráfico de servidor a servidor, Skype para Business Server usa el equilibrio de carga conscientes de la topología. Servidores leen la topología publicada en el almacén de Administración Central para obtener los FQDN de los servidores de la topología y distribuyen automáticamente el tráfico entre los servidores. Para bloquear un servidor para que no reciba tráfico de servidor a servidor, necesita quitar el servidor de la topología. 
   

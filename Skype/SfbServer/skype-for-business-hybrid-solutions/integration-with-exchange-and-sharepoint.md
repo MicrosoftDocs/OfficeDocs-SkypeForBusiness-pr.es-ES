@@ -1,5 +1,6 @@
 ---
 title: Integración con Exchange y SharePoint
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,12 +18,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Resumen: Conozca Skype para la integración de Business Server 2015 con Exchange y SharePoint.'
-ms.openlocfilehash: 98e84fdac1e070c10bdcfb99278e78fb6f56a9a6
-ms.sourcegitcommit: e378b8652be6319755a04eb820761364c7faa916
+ms.openlocfilehash: 91291f960636b8fd0c41519ff65830b98b631e8c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "30210625"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879965"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integración con Exchange y SharePoint
 
@@ -71,7 +72,7 @@ Las siguientes tablas enumeran las características admitidas en una implementac
 |Delegación de reuniones  <br/> |Se admite solo cuando ambos usuarios están hospedados en línea en el mismo bosque o ambos están hospedados localmente. Para obtener más información, vea [Skype para soluciones híbridas de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/skype-for-business-hybrid-solutions). <br/> |
 |Registros de llamadas y el historial de conversaciones perdidas se escriben en el buzón de Exchange del usuario  <br/> ||
 |Contenido de archivado (mensajería instantánea y reuniones) en Exchange  <br/> |Para obtener más información, vea [Lista de comprobación de implementación para el archivado](https://technet.microsoft.com/library/7479734d-be01-40d9-ad82-320a09d19d04.aspx).  <br/> |
-|Buscar contenido archivado  <br/> |Si desea más información, vea [Configurar Exchange para el Centro de exhibición de documentos electrónicos de SharePoint en](https://go.microsoft.com/fwlink/p/?LinkId=285448). <br/> |
+|Buscar contenido archivado  <br/> |Para obtener más información, consulte en [Configurar Exchange para el centro de exhibición de documentos electrónicos de SharePoint](https://go.microsoft.com/fwlink/p/?LinkId=285448) <br/> |
 |Correo de voz  <br/> |Para obtener más información, vea [Proporcionar Lync Server 2013 los usuarios de correo de voz en hospedado mensajería unificada de Exchange](https://technet.microsoft.com/library/306d3fb5-231b-4f0b-b8d8-0d9083b5ed77.aspx).  <br/> |
 
  **Skype para profesionales en línea y de Exchange local**
