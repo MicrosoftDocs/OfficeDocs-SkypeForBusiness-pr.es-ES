@@ -1,5 +1,6 @@
 ---
-title: Agregar página de almacén de supervisión de Front-End
+title: Página Agregar almacén de supervisión de front-end
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: 14528aeb86d34f96d54d3cf4088ea8d2b08dfd88
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2de5788c52f91a2ef2395aaa3c1f580170f1c765
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065344"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896843"
 ---
-# <a name="add-front-end-monitoring-store-page"></a>Agregar página de almacén de supervisión de Front-End
+# <a name="add-front-end-monitoring-store-page"></a>Página Agregar almacén de supervisión de front-end
  
 Para **definir el almacén de SQL Server de supervisión** mediante la configuración de las siguientes propiedades:
   
@@ -37,7 +38,7 @@ Para **definir el almacén de SQL Server de supervisión** mediante la configura
     
     Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén testigo de reflejo.
     
-Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición del grupo de servidores.
+Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición de grupo de servidores.
   
 Haga clic en **siguiente** cuando haya terminado de introducir las opciones de este cuadro de diálogo continuar con la configuración.
   
@@ -45,6 +46,6 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Asociar un almacén de supervisión a un grupo de servidores Front-End en Skype para Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

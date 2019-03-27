@@ -1,5 +1,6 @@
 ---
 title: Informe de resumen de conferencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Resumen: Información sobre el informe de resumen de conferencia en Skype para Business Server.'
-ms.openlocfilehash: c2a31665bb8c3f10bf14a936ca32dde08d3ea5aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a6b494395a1d4074907947ef626f9d36b4e239db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20990231"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897004"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Informe de resumen de conferencia en Skype para Business Server
  

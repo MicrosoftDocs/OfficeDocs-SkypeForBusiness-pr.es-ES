@@ -1,5 +1,6 @@
 ---
 title: Grupo de grupos de respuesta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas que se designan para atender las llamadas de grupo de respuesta.
-ms.openlocfilehash: e6293b40575d3847cb94082bdd9049387900feef
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9f7e28aad186467938df9d0ec64e7a5de151d7aa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898016"
 ---
-# <a name="response-groups-group"></a>Grupos de respuesta: grupo
+# <a name="response-groups-group"></a>Grupos de respuesta: Grupo
 
 Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Un grupo de agentes es un grupo de personas que se designan para atender las llamadas de grupo de respuesta.
 
@@ -53,6 +54,6 @@ En la siguiente lista se describen los campos de la página.
 
 - **Descripción** La descripción para el grupo de agentes.
 
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
+Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para más información sobre cómo trabajar con grupos de agentes, mire [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación de operaciones.
 
 

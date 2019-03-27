@@ -1,5 +1,6 @@
 ---
 title: Implementar varios sitios en Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e62413fd-f68e-4825-8384-c983076bdf23
 description: Obtenga información sobre la implementación de varios sitios de RTC en la nube conector Edition.
-ms.openlocfilehash: 388915d0ab22dc50378d84a82c01291cfd7c99eb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 194eaf0b68489b37a5ab1fc2d5d501177edd0b35
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532372"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895954"
 ---
 # <a name="deploy-multiple-sites-in-cloud-connector"></a>Implementar varios sitios en Cloud Connector
  
@@ -69,7 +70,7 @@ ExternalMRPublicIPs=104.42.226.134
 Para cada sitio de RTC que desee agregar, siga los pasos de [implementar un sitio de conector en la nube](deploy-a-single-site-in-cloud-connector.md).
   
 > [!IMPORTANT]
-> La carpeta compartida para preparar la alta disponibilidad (HA) es por cada sitio RTC. La carpeta compartida **debe** ser diferente en cada sitio RTC. No use la misma carpeta compartida para varios sitios. > 
+> La carpeta compartida para preparar la alta disponibilidad (HA) es por cada sitio RTC. La carpeta compartida **debe** ser diferente en cada sitio RTC. No use la misma carpeta compartida para varios sites.> 
   
 ## <a name="single-site-with-high-availability-ha-compared-to-multi-site-deployments"></a>Sitio único con alta disponibilidad (HA) comparado con implementaciones de varios sitios
 <a name="BKMK_SingleSitecomparedtomulti-site"> </a>

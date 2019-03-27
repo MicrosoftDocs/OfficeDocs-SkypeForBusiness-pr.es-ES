@@ -1,5 +1,6 @@
 ---
 title: Agregar servidor de mediación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 965eda6f-5d11-4b94-8cc4-5968bc4e7018
-description: Para definir el servidor de mediación, especifique un nombre de dominio completo (FQDN) para el grupo de servidor de mediación. Si está creando un grupo de servidores de mediación, especificará el nombre del grupo de servidores para los servidores de mediación va a implementar. Definirá los FQDN de los servidores individuales en otro paso. Si va a implementar un solo servidor de mediación, el FQDN que especifique será el FQDN del servidor de mediación único. Para obtener más información, vea implementar un servidor de mediación en el generador de topología en Skype para Business Server 2015.
-ms.openlocfilehash: 94badcf09b00e5ed60d642decaf0229bbf7d4b75
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para definir el servidor de mediación, especifique un nombre de dominio completo (FQDN) para el grupo de servidores de mediación. Si va a crear un grupo de servidores de mediación, deberá especificar el nombre del grupo de servidores para los servidores de mediación va a implementar. Definirá los FQDN de los servidores individuales en otro paso. Si va a implementar un único servidor de mediación, el FQDN que especifique será el FQDN del servidor de mediación único. Para obtener información detallada, vea implementar un servidor de mediación en el generador de Skype para Business Server 2015.
+ms.openlocfilehash: 54c1be6c851916d754b2beacd28d2d86a0b848b6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888678"
 ---
 # <a name="add-mediation-server"></a>Agregar servidor de mediación
  
-Para definir el servidor de mediación, especifique un nombre de dominio completo (FQDN) para el grupo de servidor de mediación. Si está creando un grupo de servidores de mediación, especificará el nombre del grupo de servidores para los servidores de mediación va a implementar. Definirá los FQDN de los servidores individuales en otro paso. Si va a implementar un solo servidor de mediación, el FQDN que especifique será el FQDN del servidor de mediación único. Para obtener más información, vea [implementar un servidor de mediación en el generador de topología en Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
+Para definir el servidor de mediación, especifique un nombre de dominio completo (FQDN) para el grupo de servidores de mediación. Si va a crear un grupo de servidores de mediación, deberá especificar el nombre del grupo de servidores para los servidores de mediación va a implementar. Definirá los FQDN de los servidores individuales en otro paso. Si va a implementar un único servidor de mediación, el FQDN que especifique será el FQDN del servidor de mediación único. Para obtener información detallada, vea [implementar un servidor de mediación en el generador de Skype para Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md).
   
 

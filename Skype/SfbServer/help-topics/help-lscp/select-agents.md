@@ -1,5 +1,6 @@
 ---
 title: Seleccionar agentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b5cf912b-8273-4c2c-a1e5-f25530b264d0
 description: Los agentes son usuarios que se designan para atender las llamadas de grupo de respuesta. Los grupos de respuesta necesitan tener un grupo de agentes asignados que identifique los agentes que pueden recibir llamadas para el grupo de respuesta. Una forma de crear un grupo de agentes es definir un grupo personalizado seleccionando los usuarios aptos. Los usuarios optan están habilitados para Skype para Business Server y Enterprise Voice.
-ms.openlocfilehash: 45f7ff77acc48a5c4000fd985cfdb0ae707deb9e
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 17a58df6e6729d5258e69007db98b480b83d46c4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23263425"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888594"
 ---
 # <a name="select-agents"></a>Seleccionar agentes
 
@@ -43,6 +44,6 @@ En la siguiente lista se describen los campos del cuadro de diálogo **Seleccion
 
 - **Habilitado** Muestra el valor del campo **habilitado para Lync Server** definido para los usuarios.
 
-Para obtener información detallada sobre cómo trabajar con grupos de agentes, consulte [Administración de grupos de agentes](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación sobre operaciones.
+Para más información sobre cómo trabajar con grupos de agentes, mire [Managing Agent Groups](https://technet.microsoft.com/library/36084cdc-38f1-4c45-922f-f81c7e86210c.aspx) en la documentación de operaciones.
 
 

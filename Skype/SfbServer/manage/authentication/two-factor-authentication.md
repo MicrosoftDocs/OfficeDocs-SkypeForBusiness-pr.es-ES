@@ -1,5 +1,6 @@
 ---
 title: Administrar la autenticación de dos factores en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Resumen: Administrar la autenticación de dos factores en Skype para Business Server.'
-ms.openlocfilehash: a9ebeaa5f8f012d66fb62357e8378010d0a74865
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: ce6d43b8ace741a754cb4406235534fd83e414b3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25692743"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888405"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Administrar la autenticación de dos factores en Skype para Business Server
  
@@ -100,13 +101,13 @@ La configuración del registro de **SavePassword** debe deshabilitarse cuando Sk
 
 AD FS 2.0 proporciona una característica que se conoce como detección de reproducción de tokens, con la cual varias solicitudes de tokens que usan el mismo token se pueden detectar y descartar. Cuando esta característica está habilitada, la detección de reproducción de tokens protege la integridad de las solicitudes de autenticación en el perfil pasivo de la federación WS y el perfil de SAML WebSSO asegurándose de que el mismo token nunca se use más de una vez.
   
-Esta característica necesita habilitarse en situaciones donde la seguridad es extremadamente preocupante como cuando se usan quioscos. Para más información sobre la detección de reproducción de tokens, vea [Procedimientos recomendados para planear e implementar AD FS 2.0 de forma segura](https://go.microsoft.com/fwlink/p/?LinkId=309215).
+Esta característica necesita habilitarse en situaciones donde la seguridad es extremadamente preocupante como cuando se usan quioscos. Para obtener más información acerca de la detección de reproducción de tokens, vea [Procedimientos recomendados para proteger planeación e implementación de AD FS 2.0](https://go.microsoft.com/fwlink/p/?LinkId=309215).
   
 ## <a name="external-user-access"></a>Acceso de usuarios externos
 
 En estos temas no se trata la configuración de un Proxy de AD FS o el Proxy inverso para admitir Skype para la autenticación de dos factores de profesionales de redes externas.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Configuración de autenticación de dos factores en Skype para Business Server](configure-two-factor.md)
   

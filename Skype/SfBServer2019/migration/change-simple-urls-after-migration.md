@@ -1,5 +1,6 @@
 ---
-title: Direcciones URL sencillas de cambio después de la migración
+title: Cambiar las direcciones URL simples tras la migración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server es compatible con las direcciones URL sencillas.
-ms.openlocfilehash: 71935aab09de1598b355d2a7b27dfa02fd169216
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 02f4cc729a50459a8125e216265b935d557007c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374993"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892712"
 ---
-# <a name="change-simple-urls-after-migration"></a>Direcciones URL sencillas de cambio después de la migración
+# <a name="change-simple-urls-after-migration"></a>Cambiar las direcciones URL simples tras la migración
 
 Skype para Business Server admite tres direcciones URL sencillas:
   
@@ -44,6 +45,6 @@ Después de migrar a Skype para Business Server, debe tener en cuenta cómo afec
    > [!TIP]
    > Recomendamos usar la dirección URL más simple posible como dirección URL sencilla de administración. La opción más sencilla es https://admin. <em> \<dominio\></em>. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Requisitos de DNS para direcciones URL simples en Skype para Business Server](../../SfbServer/plan-your-deployment/network-requirements/simple-urls.md)

@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de servidores de mediación
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
-description: 'El nodo grupos de mediación enumera los grupos de mediación en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 45991f4f12c387890f91420c93b9fbda5bf86b01
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Grupos de servidores de mediación contiene los grupos de servidores de mediación de la topología. You can perform the following action:'
+ms.openlocfilehash: c10fe6a878342a133f22e1a7eee5fa70be6a47ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891032"
 ---
 # <a name="mediation-servers-scope-node"></a>Nodo de ámbito de servidores de mediación
  

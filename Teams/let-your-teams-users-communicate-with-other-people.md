@@ -1,5 +1,6 @@
 ---
 title: Comunicarse con usuarios de Microsoft Teams de otra organización
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: b3aa366d26399f3d899da471d41823e79f4bc0f1
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494251"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894191"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -84,11 +85,11 @@ Tener la administración en que la organización siga estos pasos:
     
 1. En el centro de administración de Office 365, vaya a **Centros de administrador de** > **& equipos Skype** > **portal heredado**.
   
-2. En **Centro de administración de Skype Empresarial**, seleccione **organización** > **comunicaciones externas**.
+2. En el **Skype para el centro de administración de negocio**, elija **organización** > **comunicaciones externas**.
     
 3. Para establecer la comunicación con un negocio específicos o con los usuarios en otro dominio, en el cuadro de lista desplegable, elija **sólo para permitido dominios**.
     
-    O bien, si desea habilitar la comunicación con todos los demás en el mundo que tiene abierto Skype para las directivas de negocio, elija **en excepto dominios bloqueados**. Esta es la configuración predeterminada.
+    O bien, si desea habilitar la comunicación con todos los demás en el mundo que tiene abierto Skype para las directivas de negocio, elija **en excepto dominios bloqueados**. Esta es la configuración que se aplica normalmente.
     
 4. En **dominios permitidos o bloqueados**, elija **+** y agregue el nombre del dominio que desea permitir. Asegúrese de que el administrador en la otra organización estos mismos pasos. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
     

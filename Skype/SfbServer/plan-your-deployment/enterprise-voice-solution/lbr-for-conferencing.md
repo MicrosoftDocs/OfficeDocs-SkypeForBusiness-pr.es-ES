@@ -1,5 +1,6 @@
 ---
 title: Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
 description: Planeación de basados en ubicación enrutamiento para las conferencias en Skype para Business Server Enterprise Voice, incluidas consultoría llame a transferencias.
-ms.openlocfilehash: 810b93d20fe9bdbf0ae057250509b1e9ec612afe
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: cdb043aca3f2e2ac4278de1782f756d395016770
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240741"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892966"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Enrutamiento para las conferencias en Skype para Business Server basados en ubicación
 
@@ -142,7 +143,7 @@ Por ejemplo, si la aplicación de "UdcAgent" tiene un valor de prioridad de "2",
 
 Después de encontrar el valor de prioridad correcta para el enrutamiento basado en la ubicación para la aplicación de conferencia, escriba el siguiente cmdlet para cada servidor Standard Edition o grupo de servidores front-end que los usuarios de casas habilitados para enrutamiento basados en ubicación:
 
-New-CsServerApplication-identidad Service: Registrar:`<Pool FQDN`> / LBRouting-prioridad \<aplicación prioridad\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
+New-CsServerApplication-identidad Service: Registrar:`<Pool FQDN`>/LBRouting - prioridad \<aplicación prioridad\> -habilitado $true-$true - Uri crítico<http://www.microsoft.com/LCS/LBRouting> 
 
 Por ejemplo:
 

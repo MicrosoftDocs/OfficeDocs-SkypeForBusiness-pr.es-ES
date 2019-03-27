@@ -1,5 +1,6 @@
 ---
-title: Quitar la base de datos de SQL Server para un grupo de servidores Front-End
+title: Quitar la base de datos de SQL Server para un grupo de servidores front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de quitar un grupo de servidores Front-End o volver a configurar el grupo de servidores para usar una base de datos diferente, puede quitar las bases de datos de SQL Server que hospedan los datos del grupo de servidores. Use los procedimientos siguientes para quitar las definiciones de generador de topología y, a continuación, quitar los archivos de registro y base de datos desde el servidor de base de datos.
-ms.openlocfilehash: 35c9429fc16aef886945f8b0adcd5894ce40b834
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 4ba60a905d5f4cda56cf5277e1be2db80d906ca0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373129"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893785"
 ---
-# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores Front-End
+# <a name="remove-the-sql-server-database-for-a-front-end-pool"></a>Quitar la base de datos de SQL Server para un grupo de servidores front-end
 
 Después de quitar un grupo de servidores Front-End o volver a configurar el grupo de servidores para usar una base de datos diferente, puede quitar las bases de datos de SQL Server que hospedan los datos del grupo de servidores. Use los procedimientos siguientes para quitar las definiciones de generador de topología y, a continuación, quitar los archivos de registro y base de datos desde el servidor de base de datos.
   

@@ -1,5 +1,6 @@
 ---
-title: Conjunto de CcExternalCertificateFilePath
+title: Set-CcExternalCertificateFilePath
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: El cmdlet Set-CcExternalCertificateFilePath especifica la ruta de acceso en la que se almacena el certificado del servidor de mediación o del servidor perimetral.
-ms.openlocfilehash: 89216fb2b56130dd76b711a483c6279ac1073392
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 059d0f2fbf5fee708ceccd0d6e10ad4286fe4f85
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895352"
 ---
-# <a name="set-ccexternalcertificatefilepath"></a>Conjunto de CcExternalCertificateFilePath
+# <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
 El cmdlet Set-CcExternalCertificateFilePath especifica la ruta de acceso en la que se almacena el certificado del servidor de mediación o del servidor perimetral.
   
@@ -60,7 +62,7 @@ Set-CcExternalCertificateFilePath -Target MediationServer -Path C:\CloudConnecto
 
 Durante la implementación, o al modificar la topología, deberá especificar la ruta del certificado del servidor perimetral y, opcionalmente, la del certificado del servidor de mediación. 
   
-El certificado del servidor de mediación es necesario si se usa TLS entre las puertas de enlace y el servidor de mediación. Al implementar un dispositivo conector de nube y desea implementar TLS, sólo puede especificar la ruta de acceso al certificado que se va a implementar en el servidor de mediación. Sin embargo, si desea actualizar el certificado del servidor de mediación en un dispositivo que ya se ha implementado, deberá especificar la ruta y el parámetro -Import. Para ver la ruta, use el cmdlet Get-CCExternalCertificateFilePath.
+El certificado del servidor de mediación es necesario si se usa TLS entre las puertas de enlace y el servidor de mediación. Al implementar un dispositivo de conector en la nube y desea implementar TLS, sólo se puede especificar la ruta de acceso al certificado que se va a implementar en el servidor de mediación. Sin embargo, si desea actualizar el certificado del servidor de mediación en un dispositivo que ya se ha implementado, deberá especificar la ruta y el parámetro -Import. Para ver la ruta, use el cmdlet Get-CCExternalCertificateFilePath.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>

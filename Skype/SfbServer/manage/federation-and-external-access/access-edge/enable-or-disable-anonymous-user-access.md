@@ -1,5 +1,6 @@
 ---
 title: Habilitar y deshabilitar el acceso anónimo de usuarios
+ms.reviewer: ''
 ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
 ms:contentKeyID: 49733872
@@ -12,12 +13,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: ''
-ms.openlocfilehash: 35104d7d7128e76f7691a4ddf1ad9693a427eb40
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: a68790f870a6c62b513caab559580695763cd4df
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27222754"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892853"
 ---
 # <a name="enable-or-disable-anonymous-user-access-in-skype-for-business-server"></a>Habilitar o deshabilitar el acceso de usuarios anónimos en Skype para Business Server
 

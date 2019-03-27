@@ -1,5 +1,6 @@
 ---
 title: Vista de usuario información del PIN en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumen: Ver la información de PIN de usuario en Skype para Business Server.'
-ms.openlocfilehash: 4b0eda76e4429ee5c6d658f4d161783bc4d356a3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008562"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899697"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Vista de usuario información del PIN en Skype para Business Server
  
@@ -34,11 +35,11 @@ Para unirse a una conferencia de acceso telefónico como un usuario autenticado,
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. Utilice uno de los métodos siguientes para encontrar a un usuario:
+4. Use uno de los métodos siguientes para encontrar a un usuario:
     
    - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
     
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     
@@ -84,7 +85,7 @@ PinExpirationTime :
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Establecer telefónico un usuario PIN en Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   
