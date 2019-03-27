@@ -2,6 +2,9 @@
 layout: HubPage
 hide_bc: true
 title: Documentación técnica de Microsoft Teams
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
 localization_priority: Priority
@@ -10,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 14ab61709f40f0d2e2d6be95df4cd758322d0ff2
-ms.sourcegitcommit: ff100b32fa92fc878f1404dace266d956262c24d
+ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "30720318"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875865"
 ---
 <div id="main" class="v2">
     <div class="container">

@@ -1,5 +1,6 @@
 ---
-title: Configurar la supervisión de SCOM
+title: Configurar la supervisión SCOM
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,36 +9,36 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de migrar a Microsoft Skype para Business Server 2019, debe completar algunas tareas para configurar Skype para Business Server 2019 trabajar con System Center Operations Manager.
-ms.openlocfilehash: c54038bc89c62a9911e684e451a66f4f12a23124
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373745"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887417"
 ---
-# <a name="configure-scom-monitoring"></a><span data-ttu-id="ac9a6-103">Configurar la supervisión de SCOM</span><span class="sxs-lookup"><span data-stu-id="ac9a6-103">Configure SCOM monitoring</span></span>
+# <a name="configure-scom-monitoring"></a><span data-ttu-id="975e2-103">Configurar la supervisión SCOM</span><span class="sxs-lookup"><span data-stu-id="975e2-103">Configure SCOM monitoring</span></span>
 
-<span data-ttu-id="ac9a6-104">Después de migrar a Skype para Business Server 2019, debe completar algunas tareas para configurar Skype para Business Server 2019 trabajar con System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
+<span data-ttu-id="975e2-104">Después de migrar a Skype para Business Server 2019, debe completar algunas tareas para configurar Skype para Business Server 2019 trabajar con System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="975e2-104">After migrating to Skype for Business Server 2019, you must complete a few tasks to configure Skype for Business Server 2019 to work with System Center Operations Manager.</span></span>
   
-- <span data-ttu-id="ac9a6-105">Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
+- <span data-ttu-id="975e2-105">Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.</span><span class="sxs-lookup"><span data-stu-id="975e2-105">Apply updates to a server elected to manage the central discovery logic.</span></span>
     
-- <span data-ttu-id="ac9a6-106">Actualizar la clave del registro de detección central candidato server.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-106">Update the central discovery candidate server registry key.</span></span>
+- <span data-ttu-id="975e2-106">Actualizar la clave del registro de detección central candidato server.</span><span class="sxs-lookup"><span data-stu-id="975e2-106">Update the central discovery candidate server registry key.</span></span>
     
-- <span data-ttu-id="ac9a6-107">Configure el servidor de administración de System Center Operations Manager principal para invalidar el nodo de detección central candidato.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
+- <span data-ttu-id="975e2-107">Configure el servidor de administración de System Center Operations Manager principal para invalidar el nodo de detección central candidato.</span><span class="sxs-lookup"><span data-stu-id="975e2-107">Configure your primary System Center Operations Manager management server to override the candidate central discovery node.</span></span>
     
-<span data-ttu-id="ac9a6-108">A continuación se proporcionan instrucciones para llevar a cabo cada una de estas tareas.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-108">Instructions for carrying out each of these tasks are provided below.</span></span>
+<span data-ttu-id="975e2-108">A continuación se proporcionan instrucciones para llevar a cabo cada una de estas tareas.</span><span class="sxs-lookup"><span data-stu-id="975e2-108">Instructions for carrying out each of these tasks are provided below.</span></span>
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="ac9a6-109">Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a><span data-ttu-id="975e2-109">Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.</span><span class="sxs-lookup"><span data-stu-id="975e2-109">Apply updates to a server elected to manage the central discovery logic.</span></span>
 
-1. <span data-ttu-id="ac9a6-110">Elija a un servidor que tiene System Center Operations Manager archivos del agente se instala y se configura como un nodo de detección candidato.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
+1. <span data-ttu-id="975e2-110">Elija a un servidor que tiene System Center Operations Manager archivos del agente se instala y se configura como un nodo de detección candidato.</span><span class="sxs-lookup"><span data-stu-id="975e2-110">Elect a server that has the System Center Operations Manager agent files installed and is configured as a candidate discovery node.</span></span> 
     
-2. <span data-ttu-id="ac9a6-111">Aplicar actualizaciones a este servidor.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-111">Apply updates to this server.</span></span> <span data-ttu-id="ac9a6-112">Vea el tema [aplicar actualizaciones](apply-updates.md).</span><span class="sxs-lookup"><span data-stu-id="ac9a6-112">See the topic [Apply updates](apply-updates.md).</span></span>
+2. <span data-ttu-id="975e2-111">Aplicar actualizaciones a este servidor.</span><span class="sxs-lookup"><span data-stu-id="975e2-111">Apply updates to this server.</span></span> <span data-ttu-id="975e2-112">Vea el tema [aplicar actualizaciones](apply-updates.md).</span><span class="sxs-lookup"><span data-stu-id="975e2-112">See the topic [Apply updates](apply-updates.md).</span></span>
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="ac9a6-113">Actualizar la clave del registro de detección central candidato server.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-113">Update the central discovery candidate server registry key.</span></span>
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a><span data-ttu-id="975e2-113">Actualizar la clave del registro de detección central candidato server.</span><span class="sxs-lookup"><span data-stu-id="975e2-113">Update the central discovery candidate server registry key.</span></span>
 
-1. <span data-ttu-id="ac9a6-114">En el servidor elegido para administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
+1. <span data-ttu-id="975e2-114">En el servidor elegido para administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="975e2-114">On the server elected to manage the central discovery logic, open a Windows PowerShell command window.</span></span> 
     
-2. <span data-ttu-id="ac9a6-115">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="ac9a6-115">At the command line, type the following:</span></span>
+2. <span data-ttu-id="975e2-115">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="975e2-115">At the command line, type the following:</span></span>
     
    ```
    New-Item -Path "HKLM:\Software\Microsoft\Real-Time Communications\Health"
@@ -48,18 +49,18 @@ ms.locfileid: "25373745"
    ```
 
     > [!NOTE]
-    > <span data-ttu-id="ac9a6-116">Cada vez que edite el registro, puede experimentar un error que el comando no se pudo si ya existe la clave del registro.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="ac9a6-117">Si sucede esto, puede ignorar el error.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-117">If you experience this, you can safely ignore the error.</span></span> 
+    > <span data-ttu-id="975e2-116">Cada vez que edite el registro, puede experimentar un error que el comando no se pudo si ya existe la clave del registro.</span><span class="sxs-lookup"><span data-stu-id="975e2-116">Whenever you edit the registry, you may experience an error that the command failed if the registry key already exists.</span></span> <span data-ttu-id="975e2-117">Si sucede esto, puede ignorar el error.</span><span class="sxs-lookup"><span data-stu-id="975e2-117">If you experience this, you can safely ignore the error.</span></span> 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="ac9a6-118">Configurar el servidor principal de administración de System Center Operations Manager para invalidar el nodo de Monitor de detección central candidato.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a><span data-ttu-id="975e2-118">Configurar el servidor principal de administración de System Center Operations Manager para invalidar el nodo de Monitor de detección central candidato.</span><span class="sxs-lookup"><span data-stu-id="975e2-118">Configure your primary System Center Operations Manager management server to override the candidate central discovery watcher node.</span></span>
 
-1. <span data-ttu-id="ac9a6-119">En un equipo donde se ha instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y, a continuación, seleccione **Detecciones de objetos**.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
+1. <span data-ttu-id="975e2-119">En un equipo donde se ha instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y, a continuación, seleccione **Detecciones de objetos**.</span><span class="sxs-lookup"><span data-stu-id="975e2-119">On a computer where the System Center Operations Manager console has been installed, expand **Management Pack Objects** and then select **Object Discoveries**.</span></span>
     
-2. <span data-ttu-id="ac9a6-120">Haga clic en **Cambiar ámbito**</span><span class="sxs-lookup"><span data-stu-id="ac9a6-120">Click **Change Scope**</span></span>
+2. <span data-ttu-id="975e2-120">Haga clic en **Cambiar ámbito**</span><span class="sxs-lookup"><span data-stu-id="975e2-120">Click **Change Scope**</span></span>
     
-3. <span data-ttu-id="ac9a6-121">En la página **Objetos del módulo de administración de ámbito** , seleccione **Candidato de detección de LS**.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
+3. <span data-ttu-id="975e2-121">En la página **Objetos del módulo de administración de ámbito** , seleccione **Candidato de detección de LS**.</span><span class="sxs-lookup"><span data-stu-id="975e2-121">From the **Scope Management Pack Objects** page, select **LS Discovery Candidate**.</span></span>
     
-4. <span data-ttu-id="ac9a6-122">Reemplazar el **Valor efectivo de candidato de detección de LS** en el nombre de servidor candidato elegido en el procedimiento anterior.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
+4. <span data-ttu-id="975e2-122">Reemplazar el **Valor efectivo de candidato de detección de LS** en el nombre de servidor candidato elegido en el procedimiento anterior.</span><span class="sxs-lookup"><span data-stu-id="975e2-122">Override the **LS Discovery Candidate Effective Value** to the name of the candidate server elected in the earlier procedure.</span></span> 
     
-<span data-ttu-id="ac9a6-123">Para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de System Center Operations Manager raíz.</span><span class="sxs-lookup"><span data-stu-id="ac9a6-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
+<span data-ttu-id="975e2-123">Para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de System Center Operations Manager raíz.</span><span class="sxs-lookup"><span data-stu-id="975e2-123">To finalize your changes, restart the health service on the System Center Operations Manager Root Management Server.</span></span>
   
 

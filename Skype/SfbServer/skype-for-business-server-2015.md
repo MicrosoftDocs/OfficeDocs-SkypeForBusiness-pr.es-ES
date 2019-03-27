@@ -1,5 +1,6 @@
 ---
 title: Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2015.'
-ms.openlocfilehash: bc7c8f586eaf0312d0a37e814634104dab4df324
-ms.sourcegitcommit: 4967c9b1010a444475dcfbdb6dd3c058494449d9
+ms.openlocfilehash: 4ec6dd19757c4a4d367146582cf9b05205662ed3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "30069642"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899767"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Empresarial Server 2015
 
@@ -71,7 +72,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Implementar</h3>
+                        <h3>Implementación</h3>
                     </div>
                 </div>
             </div>
@@ -144,8 +145,8 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                 <div class="card">
                     <div class="cardText">
                         <h3>Antes de empezar</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requirements for your environment</a></p>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Requisitos de red</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment" data-raw-source="[Requirements for your environment](/SkypeForBusiness/plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment)">Requisitos para el entorno</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements" data-raw-source="[Network requirements](/SkypeForBusiness/plan-your-deployment/network-requirements/network-requirements)">Requisitos de la red</a></p>
                         <p><a href="/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices" data-raw-source="[Clients and devices](/SkypeForBusiness/plan-your-deployment/clients-and-devices/clients-and-devices)">Clientes y dispositivos</a></p>
                     </div>
                 </div>
@@ -171,7 +172,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                 <div class="card">
                     <div class="cardText">
                         <h3>Telefonía IP empresarial</h3>
-                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Planificar</a></p>
+                        <p><a href="/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution" data-raw-source="[Plan](/SkypeForBusiness/plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution)">Planear</a></p>
                         <p><a href="/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice" data-raw-source="[Deploy](/SkypeForBusiness/deploy/deploy-enterprise-voice/deploy-enterprise-voice)">Implementar</a></p>
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 ---
 title: Novedades de Skype para profesionales en línea.
+ms.reviewer: ''
 description: Agregue una descripción breve
 services: skype-for-business-online-admin
 author: samanro
@@ -13,12 +14,12 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
-ms.openlocfilehash: 1280395be00f8a23768b28349a875320f12bc035
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: a59eb6c7a64de3c1b45cbd94bbbc0f3e26e8cea4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533161"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899423"
 ---
 # <a name="whats-new-in-skype-for-business-online"></a>Novedades de Skype para profesionales en línea
 
@@ -69,7 +70,7 @@ Averigüe cuáles son las novedades en Skype para profesionales en línea.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Actualizaciones importantes</h3>
+                        <h3>Actualizaciones principales</h3>
                         <p><a href=" ">Nombre del vínculo</a></p>
                     </div>
                 </div>
