@@ -1,5 +1,6 @@
 ---
-title: Seleccione las extensiones de tipo de archivo
+title: Seleccionar extensiones de tipo de archivo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,20 +13,20 @@ localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar extensiones de tipo de archivo para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) extensiones de tipo de las casillas de verificación junto a las extensiones de archivo. Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría. Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.
-ms.openlocfilehash: e9dd652859a5aeda5c1d8a95b20964018b88e3de
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 17ded977e4b5d4dc217ca8d2743d1e5ac369c342
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20975130"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873460"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="921f2-105">Seleccione las extensiones de tipo de archivo</span><span class="sxs-lookup"><span data-stu-id="921f2-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="55b19-105">Seleccionar extensiones de tipo de archivo</span><span class="sxs-lookup"><span data-stu-id="55b19-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="921f2-106">Use el cuadro de diálogo **Seleccionar extensiones de tipo de archivo** para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) las casillas de verificación junto a las extensiones de **extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="921f2-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="921f2-107">Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría.</span><span class="sxs-lookup"><span data-stu-id="921f2-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="921f2-108">Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.</span><span class="sxs-lookup"><span data-stu-id="921f2-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="55b19-106">Use el cuadro de diálogo **Seleccionar extensiones de tipo de archivo** para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) las casillas de verificación junto a las extensiones de **extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="55b19-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="55b19-107">Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría.</span><span class="sxs-lookup"><span data-stu-id="55b19-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="55b19-108">Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.</span><span class="sxs-lookup"><span data-stu-id="55b19-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="921f2-109">Si no ve la extensión para un tipo de archivo que desea para seleccionar que aparecen en **las extensiones de tipo de archivo**, escriba la extensión en el cuadro de texto en **Agregar nuevas extensiones de archivo a la lista**y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="921f2-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="55b19-109">Si no ve la extensión para un tipo de archivo que desea para seleccionar que aparecen en **las extensiones de tipo de archivo**, escriba la extensión en el cuadro de texto en **Agregar nuevas extensiones de archivo a la lista**y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="55b19-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="921f2-110">Después de agregar todas las extensiones de tipo de archivo que desee a la lista de **extensiones de tipo de archivo seleccionados** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="921f2-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="55b19-110">Después de agregar todas las extensiones de tipo de archivo que desee a la lista de **extensiones de tipo de archivo seleccionados** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="55b19-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
  
   

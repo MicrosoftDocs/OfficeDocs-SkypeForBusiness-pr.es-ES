@@ -1,5 +1,6 @@
 ---
 title: Agregar detalles de sitio de sucursal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,23 +13,23 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Para especificar los detalles de un sitio, haga lo siguiente:'
-ms.openlocfilehash: da801d1a37631069ca83c6d3378b22aea58b49a9
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: caba9060f082778e768aac615ea369b02ef0e11f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253072"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877244"
 ---
-# <a name="add-branch-site-details"></a><span data-ttu-id="1303e-103">Agregar detalles de sitio de sucursal</span><span class="sxs-lookup"><span data-stu-id="1303e-103">Add Branch Site Details</span></span>
+# <a name="add-branch-site-details"></a><span data-ttu-id="326f8-103">Agregar detalles de sitio de sucursal</span><span class="sxs-lookup"><span data-stu-id="326f8-103">Add Branch Site Details</span></span>
 
-<span data-ttu-id="1303e-104">Para especificar los detalles de un sitio, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="1303e-104">To specify site details for a site, do the following:</span></span>
+<span data-ttu-id="326f8-104">Para especificar los detalles de un sitio, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="326f8-104">To specify site details for a site, do the following:</span></span>
 
-<span data-ttu-id="1303e-p101">Especifique un nombre de ciudad para la nueva sucursal. El valor de Ciudad es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="1303e-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
+<span data-ttu-id="326f8-p101">Especifique un nombre de ciudad para la nueva sucursal. El valor de Ciudad es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="326f8-p101">Specify a city name for the new branch site. The City value is an optional entry.</span></span>
 
-<span data-ttu-id="1303e-p102">Especifique un nombre de estado/provincia para la nueva sucursal. El valor de Estado o provincia es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="1303e-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
+<span data-ttu-id="326f8-p102">Especifique un nombre de estado/provincia para la nueva sucursal. El valor de Estado o provincia es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="326f8-p102">Specify a state/province name for the new branch site. The State/Province value is an optional entry.</span></span>
 
-<span data-ttu-id="1303e-p103">Especifique un código de país o región para la nueva sucursal. El valor de País o región es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="1303e-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
+<span data-ttu-id="326f8-p103">Especifique un código de país o región para la nueva sucursal. El valor de País o región es una entrada opcional.</span><span class="sxs-lookup"><span data-stu-id="326f8-p103">Specify a country/region Code name for the new branch site. The Country/Region Code value is an optional entry.</span></span>
 
-<span data-ttu-id="1303e-111">Para obtener más información, vea [sitios](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span><span class="sxs-lookup"><span data-stu-id="1303e-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
+<span data-ttu-id="326f8-111">Para obtener más información, consulte [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span><span class="sxs-lookup"><span data-stu-id="326f8-111">For additional information, see [Sites](https://technet.microsoft.com/library/022cb6dd-37e2-4882-a53e-5ddfdbc6f53a.aspx).</span></span>
 
 

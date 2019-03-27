@@ -1,5 +1,6 @@
 ---
 title: Solicitud de certificado (en línea o sin conexión)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,17 +12,18 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 83697d4c-320b-4797-beb0-dd0bc4f1d0d6
-description: Para crear una petición demorada o una solicitud sin conexión, seleccione Preparar la petición ahora pero enviarla más tarde (solicitud de certificados sin conexión). Para crear una solicitud de inmediata a una entidad emisora de certificados en línea (normalmente un sistema interno de la infraestructura de claves públicas de la organización), seleccione Enviar la petición inmediatamente a una entidad emisora de certificados en línea.
-ms.openlocfilehash: b97839f08e27cc763f154c258625e6e57b9c5fdc
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para crear una solicitud retrasada o una sin conexión, seleccione Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión). Para crear una solicitud de inmediata a una autoridad de certificación en línea (normalmente un sistema interno de la infraestructura de clave pública de la organización), seleccione Enviar la solicitud inmediatamente a una entidad de certificación en línea.
+ms.openlocfilehash: d49b3027a2d6c5bfa2c27dfcbde598748aba29f4
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875766"
 ---
-# <a name="certificate-request-online-offline"></a><span data-ttu-id="092b9-104">Solicitud de certificado (en línea o sin conexión)</span><span class="sxs-lookup"><span data-stu-id="092b9-104">Certificate Request (Online Offline)</span></span>
+# <a name="certificate-request-online-offline"></a><span data-ttu-id="fc260-104">Solicitud de certificado (en línea o sin conexión)</span><span class="sxs-lookup"><span data-stu-id="fc260-104">Certificate Request (Online Offline)</span></span>
  
-<span data-ttu-id="092b9-105">Para crear una solicitud retrasada o una sin conexión, seleccione **Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión)**.</span><span class="sxs-lookup"><span data-stu-id="092b9-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="092b9-106">Para crear una solicitud de inmediata a una entidad emisora de certificados en línea (normalmente un sistema interno de la infraestructura de claves públicas de la organización), seleccione **enviar la petición inmediatamente a una entidad emisora de certificados en línea**.</span><span class="sxs-lookup"><span data-stu-id="092b9-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
+<span data-ttu-id="fc260-105">Para crear una solicitud retrasada o una sin conexión, seleccione **Prepare ahora la solicitud, pero envíela más tarde (solicitud de certificado sin conexión)**.</span><span class="sxs-lookup"><span data-stu-id="fc260-105">To create a delayed request or an offline request, select **Prepare the request now, but send it later (offline certificate request)**.</span></span> <span data-ttu-id="fc260-106">Para crear una solicitud de inmediata a una autoridad de certificación en línea (normalmente un sistema interno de la infraestructura de clave pública de la organización), seleccione **enviar la solicitud inmediatamente a una entidad de certificación en línea**.</span><span class="sxs-lookup"><span data-stu-id="fc260-106">To create an immediate request to an online certification authority (typically an internal system in your organization's public key infrastructure), select **Send the request immediately to an online certification authority**.</span></span>
   
-<span data-ttu-id="092b9-p103">Tras haber efectuado la selección pertinente, haga clic en **Siguiente** para continuar. Si desea cancelar sin aplicar los cambios, haga clic en **Cancelar**. Haga clic en **Atrás** para retroceder al paso anterior.</span><span class="sxs-lookup"><span data-stu-id="092b9-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
+<span data-ttu-id="fc260-p103">Tras haber efectuado la selección pertinente, haga clic en **Siguiente** para continuar. Si desea cancelar sin aplicar los cambios, haga clic en **Cancelar**. Haga clic en **Atrás** para retroceder al paso anterior.</span><span class="sxs-lookup"><span data-stu-id="fc260-p103">After you have made a selection, click **Next** to continue. If you want to cancel without making changes, click **Cancel**. To go back to the previous step, click **Back**.</span></span>
   
 

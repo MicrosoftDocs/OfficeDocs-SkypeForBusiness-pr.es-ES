@@ -1,5 +1,6 @@
 ---
 title: Asociar una subred agregar nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6c912f2b6ef4e07e55f5dcef89e0a50d127e5ca0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 6897ca78a9ea15741c2558433082af81d0d327c0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874811"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="0f791-104">Asociar una subred: agregar nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="0f791-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="84725-104">Asociar una subred: Agregar nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="84725-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="0f791-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="0f791-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="84725-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="84725-105">What do you want to do?</span></span> <span data-ttu-id="84725-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="84725-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0f791-107">Configuración de subredes de red</span><span class="sxs-lookup"><span data-stu-id="0f791-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="84725-107">Configuración de subredes de red</span><span class="sxs-lookup"><span data-stu-id="84725-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
 
 

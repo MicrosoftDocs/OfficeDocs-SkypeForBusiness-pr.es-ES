@@ -1,5 +1,6 @@
 ---
 title: Configurar un sitio de red
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 9d65238a-d255-4b13-abe8-e4301b44c21c
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 8d91bceae09eba9ec95dd2c27c85120ece120b68
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 84ce1e7019d676c45db2fe00e09eb1e40923891b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256507"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876665"
 ---
-# <a name="configure-a-network-site"></a><span data-ttu-id="2079b-104">Configurar un sitio de red</span><span class="sxs-lookup"><span data-stu-id="2079b-104">Configure a Network Site</span></span>
+# <a name="configure-a-network-site"></a><span data-ttu-id="fc11e-104">Configurar un sitio de red</span><span class="sxs-lookup"><span data-stu-id="fc11e-104">Configure a Network Site</span></span>
 
-<span data-ttu-id="2079b-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="2079b-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="fc11e-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="fc11e-105">What do you want to do?</span></span> <span data-ttu-id="fc11e-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="fc11e-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="2079b-107">Configuración de sitios de red</span><span class="sxs-lookup"><span data-stu-id="2079b-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
+- [<span data-ttu-id="fc11e-107">Configuración de sitios de red</span><span class="sxs-lookup"><span data-stu-id="fc11e-107">Configuring Network Sites</span></span>](https://technet.microsoft.com/library/358aa08a-c5bc-45fc-8017-19e6202f88c5.aspx)
 
 
 

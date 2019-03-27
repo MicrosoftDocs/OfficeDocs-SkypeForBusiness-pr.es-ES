@@ -1,5 +1,6 @@
 ---
-title: Quitar certificado (Introducción)
+title: Quitar certificado (introducción)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,15 +13,15 @@ localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página de introducción de quitar certificado, lea la información detenidamente sobre las implicaciones de la eliminación de un certificado. Después de haber leído esta información, haga clic en siguiente para continuar.
-ms.openlocfilehash: 3dc15c6c57ede44405c399ee6797b29f2748b683
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cf922ceebab4440356547a64ffb5d19307042c1d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982408"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877842"
 ---
-# <a name="remove-certificate-intro"></a><span data-ttu-id="ac355-104">Quitar certificado (Introducción)</span><span class="sxs-lookup"><span data-stu-id="ac355-104">Remove Certificate (Intro)</span></span>
+# <a name="remove-certificate-intro"></a><span data-ttu-id="665ee-104">Quitar certificado (introducción)</span><span class="sxs-lookup"><span data-stu-id="665ee-104">Remove Certificate (Intro)</span></span>
  
-<span data-ttu-id="ac355-105">En la página de introducción de **Quitar certificado** , lea la información detenidamente sobre las implicaciones de la eliminación de un certificado.</span><span class="sxs-lookup"><span data-stu-id="ac355-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="ac355-106">Después de haber leído esta información, haga clic en **siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="ac355-106">After you have read this information, click **Next** to continue.</span></span>
+<span data-ttu-id="665ee-105">En la página de introducción de **Quitar certificado** , lea la información detenidamente sobre las implicaciones de la eliminación de un certificado.</span><span class="sxs-lookup"><span data-stu-id="665ee-105">On the **Remove Certificate** introduction page, read the information carefully about the implications of removing a certificate.</span></span> <span data-ttu-id="665ee-106">Después de haber leído esta información, haga clic en **siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="665ee-106">After you have read this information, click **Next** to continue.</span></span>
   
 

@@ -1,5 +1,6 @@
 ---
 title: Seleccionar rutas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,19 +13,19 @@ localization_priority: Normal
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar rutas para buscar rutas de voz existentes que se pueden usar.
-ms.openlocfilehash: 487ff06b8cccc68dc918eaee95dc3f419f320537
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 2c2f1d34976ed1f709e948af74f83999a368933e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20983157"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874461"
 ---
-# <a name="select-routes"></a><span data-ttu-id="31fbd-103">Seleccionar rutas</span><span class="sxs-lookup"><span data-stu-id="31fbd-103">Select Routes</span></span>
+# <a name="select-routes"></a><span data-ttu-id="bdd88-103">Seleccionar rutas</span><span class="sxs-lookup"><span data-stu-id="bdd88-103">Select Routes</span></span>
  
-<span data-ttu-id="31fbd-104">Use el cuadro de diálogo **Seleccionar rutas** para buscar rutas de voz existentes que se pueden usar.</span><span class="sxs-lookup"><span data-stu-id="31fbd-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
+<span data-ttu-id="bdd88-104">Use el cuadro de diálogo **Seleccionar rutas** para buscar rutas de voz existentes que se pueden usar.</span><span class="sxs-lookup"><span data-stu-id="bdd88-104">Use the **Select Routes** dialog box to find existing voice routes that you can use.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="31fbd-105">Para recuperar todas las rutas de voz disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="31fbd-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
+> <span data-ttu-id="bdd88-105">Para recuperar todas las rutas de voz disponibles, no escriba nada en el cuadro de búsqueda y, a continuación, haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="bdd88-105">To retrieve all available voice routes, do not type anything in the search box and then click the search icon.</span></span> 
   
  
   
