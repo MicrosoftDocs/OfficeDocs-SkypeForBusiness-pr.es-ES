@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de instancias SQL
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'La instrucción SQL almacena listas de nodos las bases de datos de SQL Server en su topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 1dbaeadf58ead0d957c2d75ac7dbd3d65e92034d
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'La instrucción SQL almacena listas de nodos las bases de datos de SQL Server en su topología. You can perform the following action:'
+ms.openlocfilehash: 0485c23dea00a2d317af914e0f33e72961eee778
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21062738"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873895"
 ---
 # <a name="sql-instances-scope-node"></a>Nodo de ámbito de instancias SQL
  

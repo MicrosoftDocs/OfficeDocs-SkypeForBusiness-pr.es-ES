@@ -1,5 +1,6 @@
 ---
 title: Resumen de configuración de Skype Empresarial Online
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Este resumen de Skype para la configuración de usuario y organización empresarial que le ayudarán a obtener más información acerca de la conectividad de mensajería instantánea pública, las invitaciones a reuniones, grabación de llamadas y las reuniones y mucho más.  '
-ms.openlocfilehash: 95368d06cbd243aa5b57b7e68ec1e99db81b2fb0
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865601"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876067"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
@@ -35,7 +36,7 @@ El **Skype para el centro de administración de negocio** incluye la configuraci
 ## <a name="skype-for-business-online-organization-settings"></a>Configuración de Skype Empresarial Online para una organización:
 <a name="__top"> </a>
 
-|**Configuración**|**Descripción**|**Valor predeterminado**|**Aprende más**|
+|**Configuración**|**Descripción**|**Valor predeterminado**|**Más información**|
 |:-----|:-----|:-----|:-----|
 |Federación de dominios  <br/> |Establecer comunicación con otras organizaciones que usan Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividad de mensajería instantánea pública  <br/> |Establecer comunicación con usuarios de Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |

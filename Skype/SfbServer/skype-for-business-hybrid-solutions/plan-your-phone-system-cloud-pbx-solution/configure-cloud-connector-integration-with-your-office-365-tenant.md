@@ -1,5 +1,6 @@
 ---
 title: Configurar la integración de Cloud Connector con el inquilino de Office 365
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0e2f2395-b890-4d16-aa2d-99d52438b89c
 description: Obtenga información sobre cómo configurar la integración de conector en la nube con el inquilino de Office 365.
-ms.openlocfilehash: 837775fea5a128dbbb8d143f15064e08d9267756
-ms.sourcegitcommit: e53749714dcde9f7b184d5ef554bffbc77f54267
+ms.openlocfilehash: 52b66d7870f8416b1dda1a3b5f34f8f028f65557
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28729382"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877898"
 ---
 # <a name="configure-cloud-connector-integration-with-your-office-365-tenant"></a>Configure Cloud Connector integration with your Office 365 tenant
  
@@ -54,7 +55,7 @@ Asegúrese de haber completado los pasos para actualizar el dominio en Office 36
   
 ## <a name="add-dns-records-in-office-365-for-your-edge"></a>Agregar registros DNS en Office 365 desde el perímetro
 
-Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información sobre cómo agregar registros DNS a su inquilino de Office 365, consulte [Agregar o editar registros DNS personalizados en Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
+Agregue los siguientes registros DNS a su inquilino de Office 365. Para obtener información acerca de cómo agregar registros DNS en su inquilino de Office 365, vea [Agregar o editar registros DNS personalizados en Office 365](https://support.office.com/en-us/article/Add-or-edit-custom-DNS-records-in-Office-365-AF00A516-DD39-4EDA-AF3E-1EAF686C8DC9?ui=en-US&amp;rs=en-US&amp;ad=US&amp;fromAR=1).
   
 1. Agregar un registro A de DNS para el acceso perimetral.
     

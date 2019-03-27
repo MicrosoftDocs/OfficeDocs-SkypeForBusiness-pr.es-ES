@@ -1,5 +1,6 @@
 ---
 title: Plan para el archivado en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: Lea este tema para obtener información sobre cómo planear el archivado en Skype para Business Server.'
-ms.openlocfilehash: 352ef56b3030a28b6a039b6408becc24db5eced9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20969014"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876524"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Plan para el archivado en Skype para Business Server
  
@@ -177,7 +178,7 @@ El acceso a los datos archivados depende de dónde se almacenan los datos:
   
 - **Almacenamiento de información de Microsoft Exchange**. Si elige la opción de integración de Exchange, Skype para Business Server depósitos el contenido archivado en el almacén de Exchange para todos los usuarios que están alojados en Exchange, y que ha mantenido sus buzones poner en suspensión en contexto. Los datos archivados se almacenan en la carpeta de elementos recuperables de los buzones de usuario, que es generalmente invisible para los usuarios y sólo se puede buscar los usuarios con una función de **Administración de detección** de Exchange. Exchange habilita búsqueda federada y detección, junto con SharePoint, si se ha implementado. Para obtener más información acerca del almacenamiento, retención y detección de datos almacenados en Exchange, consulte la documentación de Exchange y SharePoint.
     
-- **Skype para el almacenamiento de archivado Business Server**. Si configurar Skype para bases de datos de archivado de servidor empresarial, Skype para los depósitos de Business Server no archivado del contenido en el Skype para bases de datos de archivado de servidor empresarial de los usuarios alojados en Exchange y que no tengan sus buzones poner en suspensión en contexto. Estos datos no están que admite búsquedos, pero se puede exportar a los formatos que se pueden buscar con otras herramientas. Para obtener información detallada acerca de cómo exportar datos almacenados en bases de datos de archivado, vea [Exportar datos archivados en Skype para Business Server](../../manage/archiving/export-archived-data.md).
+- **Skype para el almacenamiento de archivado Business Server**. Si configurar Skype para bases de datos de archivado de servidor empresarial, Skype para los depósitos de Business Server no archivado del contenido en el Skype para bases de datos de archivado de servidor empresarial de los usuarios alojados en Exchange y que no tengan sus buzones poner en suspensión en contexto. This data is not searchable, but it can be exported to formats that are searchable using other tools. Para obtener información detallada acerca de cómo exportar datos almacenados en bases de datos de archivado, vea [Exportar datos archivados en Skype para Business Server](../../manage/archiving/export-archived-data.md).
     
 ## <a name="for-more-information"></a>Para más información
 

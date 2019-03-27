@@ -1,5 +1,6 @@
 ---
 title: Plan para basados en ubicación enrutamiento en Skype para la empresa
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
 description: Planeación de basados en ubicación enrutamiento en Skype para Business Server Enterprise Voice, incluida la interacción con las llamadas simultáneas y la delegación y escenarios admitidos para enrutamiento basado en la ubicación.
-ms.openlocfilehash: 1e4f19d96306db31be0606dbfda799e93c2d34e0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 2e9070e5ecddcf88e5edac8064409177caa82b4d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886101"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874367"
 ---
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Plan para basados en ubicación enrutamiento en Skype para la empresa
 
@@ -127,7 +128,7 @@ En la siguiente tabla ilustra el escenario de un Skype para usuarios de empresa 
 
 Por ejemplo: un Skype para usuarios de empresa en una llamada con otra Skype para usuarios de empresa que se están en el mismo sitio de red transfiere la llamada a un extremo de RTC y se permite la transferencia de llamadas.
 
-### <a name="simultaneous-ringing"></a>Llamadas simultáneas
+### <a name="simultaneous-ringing"></a>Tono de llamada simultáneo
 
 Cuando el receptor tiene habilitadas las llamadas simultáneas, analiza el enrutamiento basado en la ubicación de la ubicación de la parte que llama y los extremos de las partes llamados para determinar si se debe enrutar la llamada.
 
@@ -236,7 +237,7 @@ En la siguiente tabla identifica a los clientes que admite el enrutamiento basad
 |Lync Mobile 2010  <br/> |sí  <br/> ||
 
 > [!NOTE]
-> Para deshabilitar VoIP de Skype para clientes empresariales, asignar una directiva de movilidad con la configuración IP Audio y vídeo, deshabilitada para todos los usuarios habilitados para enrutamiento basado en la ubicación. Para obtener más información acerca de la directiva de movilidad, vea [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+> Para deshabilitar VoIP de Skype para clientes empresariales, asignar una directiva de movilidad con la configuración IP Audio y vídeo, deshabilitada para todos los usuarios habilitados para enrutamiento basado en la ubicación. Para obtener más detalles sobre la directiva de movilidad, mira [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Capacidades no compatibles con el enrutamiento basado en ubicación
 

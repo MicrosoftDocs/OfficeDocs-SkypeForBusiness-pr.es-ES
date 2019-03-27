@@ -1,5 +1,6 @@
 ---
 title: Panel de control - búsqueda de usuario actualizada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar los resultados de una consulta de búsqueda para configurar usuarios de Skype para Business Server. Puede buscar usuarios según el nombre para mostrar, el nombre, los apellidos, el nombre de cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de línea. También Puede buscar usuarios con el panel de control de Lync Server o el complemento de usuarios y equipos de Active Directory.
-ms.openlocfilehash: 79a12b5b420b355376e544d8a51db8e24142bea0
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 9ffcb7c0046c80f684450f8d8c9e30814f8ef4ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245687"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877968"
 ---
 # <a name="control-panel---updated-user-search"></a>Panel de control - actualización: Búsqueda de usuarios
 
@@ -35,13 +36,13 @@ Puede llevar a cabo las tareas siguientes en la página **Búsqueda de usuarios*
 
 - [Mover todos los usuarios](ms.lync.lscp.UserMoveAll.md)
 
-- [Asignar directivas a usuarios](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
+- [Assign Policies to Users](https://technet.microsoft.com/library/a4ed0120-d9e5-4eb2-acfd-8de2cb503652.aspx)
 
 - [Habilitar a usuarios para Enterprise Voice en Skype para Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Configurar la telefonía para los usuarios](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 
 
@@ -75,7 +76,7 @@ Escriba más texto descriptivo, según sea conveniente.
 
 - **Permitir a los usuarios** Haga clic para abrir el [a los usuarios: nuevo usuario de Lync Server](ms.lync.lscp.UserNew.md) cuadro de diálogo, donde puede agregar un nuevo usuario a Skype para Business Server.
 
-    Para agregar un nuevo contacto, haga clic en la flecha hacia abajo y, a continuación, seleccione **Habilitar contactos** para abrir el [a los usuarios: nuevos objetos de contacto](ms.lync.lscp.UserNewContact.md) cuadro de diálogo.
+    Para agregar un nuevo contacto, haga clic en la flecha abajo y, luego, seleccione **Habilitar contactos** para abrir el cuadro de diálogo [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md).
 
 - **Editar** Haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles** para mostrar los detalles del usuario seleccionado, o haga clic en **Seleccionar todos los resultados de búsqueda** para seleccionar todos los usuarios que se muestran en la tabla de resultados.
 

@@ -1,5 +1,6 @@
 ---
-title: Tipo de borde de combinación heredados
+title: Tipo de perímetro combinación de información heredada
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,15 +12,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
-description: Para un solo servidor perimetral o equilibrio de carga consolidado servidor perimetral, haga clic en siguiente para especificar información de configuración. Un borde expandido, configuración de cada servidor debe cambiarse a una configuración consolidada de borde antes de que se pueda volver a combinar con Lync Server 2013.
-ms.openlocfilehash: 249b280d05c14c58f1f809135403b25457c6b872
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Para un solo servidor perimetral o con equilibrio de carga consolidada servidor perimetral, haga clic en siguiente para especificar información de configuración. Para un servidor perimetral expandido, configuración de cada servidor se debe cambiar a una configuración consolidada de perimetral antes de se puede combinar con Lync Server 2013.
+ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875091"
 ---
-# <a name="legacy-merge-edge-type"></a>Tipo de borde de combinación heredados
+# <a name="legacy-merge-edge-type"></a>Tipo de perímetro combinación de información heredada
  
-Para un servidor **Único servidor perimetral** o **Equilibrio de carga consolidada borde** , haga clic en **siguiente** para especificar información de configuración. **Borde expandido**, configuración de cada servidor debe cambiarse a una configuración consolidada de borde antes de que se pueda volver a combinar con Lync Server 2013. 
+Para un servidor **Único servidor perimetral** o **con equilibrio de carga para topologías perimetrales consolidadas** , haga clic en **siguiente** para especificar información de configuración. Para un **Borde expandida**, configuración de cada servidor se debe cambiar a una configuración consolidada de perimetral antes de se puede combinar con Lync Server 2013. 
   
 

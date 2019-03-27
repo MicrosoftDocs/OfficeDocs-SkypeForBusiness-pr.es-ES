@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de Office Communications Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: f2706abd440d55e30a0fb485fff5d7a95643bd34
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d64e64ad5caed89d2249e8da1cd8125a52316bb5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23255848"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875407"
 ---
 # <a name="office-communications-server-scope-node"></a>Nodo de ámbito de Office Communications Server
 
@@ -25,7 +26,7 @@ Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco 
 
 Haga clic en **Office Communications Server 2007 R2** para ampliar las secciones bajo el nodo o botón secundario haga clic en para tener acceso a las opciones de **topología** , o para tener acceso a esta página de **Ayuda** .
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Combinar mediante el Asistente de combinación del generador de topología](https://technet.microsoft.com/library/c3f3c425-dab6-4dcd-bf0e-d7fde05f2ebf.aspx)
 

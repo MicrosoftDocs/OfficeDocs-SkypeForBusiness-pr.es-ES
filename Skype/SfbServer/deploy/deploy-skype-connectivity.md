@@ -1,5 +1,6 @@
 ---
 title: Implementación de la conectividad de Skype en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Descubra cómo conectar Skype para Business Server con Skype consumidor. También conocido como la conectividad de Skype.'
-ms.openlocfilehash: 33b24ff4ea609240bbb1a1bbea4a8e25154dc14a
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372456"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874510"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementación de la conectividad de Skype en Skype para Business Server
  
@@ -80,7 +81,7 @@ Para Office 365 Small Business Premium: Inicie sesión en Office 365 y vaya a ad
   
 Para más información sobre la administración de Skype Empresarial Online, consulte:
   
-- [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
+- [Permitir a los usuarios contactar con usuarios externos de Skype Empresarial](../../SfbOnline/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md)
 
 - [¿Qué debe intentar si no puede Skype de mensajería instantánea para contactos externos empresariales o de Skype](https://support.office.com/en-us/article/What-to-try-if-you-cant-IM-Skype-for-Business-Lync-or-Skype-external-contacts-87f6d5d7-3b8c-4196-9c8c-1dabb75f54b8?ui=en-US&amp;rs=en-US&amp;ad=US)
     
@@ -231,7 +232,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
   
 |**Cliente**|**Agregar contactos y búsqueda en el directorio de Skype**|**Audio o vídeo de Skype, interoperabilidad de mensajería instantánea**|
 |:-----|:-----|:-----|
-|Skype Empresarial  <br/> |Sí  <br/> |Sí  <br/> |
+|Skype Empresarial  <br/> |Sí   <br/> |Sí   <br/> |
 |Skype Empresarial en Mac  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2013  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Web App: local y en línea  <br/> |N/D  <br/> |N/D  <br/> |
@@ -239,7 +240,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
 |Lync Mobile: Android  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Lync Mobile: iOS  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Sistema Lync Room  <br/> |Próximamente  <br/> |Sí  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí  <br/> |
+|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí   <br/> |
 |Lync Mac 2011  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2010  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |

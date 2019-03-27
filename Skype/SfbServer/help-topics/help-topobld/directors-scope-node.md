@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de directores
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
-description: 'El nodo grupos de Director enumera los grupos de Director en su topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 390b4615a42f40bc73e99fe3b536c3c1610790a7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Grupos de directores contiene los grupos de directores de la topología. You can perform the following action:'
+ms.openlocfilehash: c3625bc35e57616783bdea7801c1b56e9715edae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877499"
 ---
 # <a name="directors-scope-node"></a>Nodo de ámbito de directores
  

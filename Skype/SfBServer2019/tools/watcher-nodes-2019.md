@@ -1,5 +1,6 @@
 ---
 title: Configurar los equipos de Skype Empresarial Server equipos que se supervisarán
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Instalar los archivos del agente Operations Manager en el Skype para Business Server 2019 equipo que se va a supervisar y configurar el equipo para que actúe como un proxy de System Center.'
-ms.openlocfilehash: 3f2e17dcaa32a37f0ae7b5ef73cd6f351c9d4bc1
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 90608d9233bea466b523418553d5421735234aee
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26536085"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875421"
 ---
 # <a name="configure-the-skype-for-business-server-computers-that-will-be-monitored"></a>Configurar los equipos de Skype Empresarial Server equipos que se supervisarán
 
@@ -26,9 +27,9 @@ Cada Skype para Business Server 2019 equipo que desea supervisar debe poder Self
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Instalación de un certificado en un nodo de monitor localizado fuera de la red perimetral
 <a name="watcher_node_outside"> </a>
 
-Agentes de System Center Operations Manager que se ejecuta en un perímetro de red (por ejemplo, Skype para servidor perimetral de Business Server), fuera de la empresa (por ejemplo, un nodo de monitor externo transacciones sintéticas) o a través de una confianza de Active Directory puede requerir límite, la configuración de un servidor de puerta de enlace de System Center Operations Manager. Este rol de servidor permite que los agentes que no tienen una relación de confianza con el servidor de administración raíz inicien alertas. Para obtener más información, consulte [Administración de servidores de puerta de enlace en Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx)
+Agentes de System Center Operations Manager que se ejecuta en un perímetro de red (por ejemplo, Skype para servidor perimetral de Business Server), fuera de la empresa (por ejemplo, un nodo de monitor externo transacciones sintéticas) o a través de una confianza de Active Directory puede requerir límite, la configuración de un servidor de puerta de enlace de System Center Operations Manager. Este rol de servidor permite que los agentes que no tienen una relación de confianza con el servidor de administración raíz inicien alertas. Para obtener información detallada, vea [Administración de servidores de puerta de enlace de Operations Manager 2012](https://technet.microsoft.com/en-us/library/hh212823.aspx).
 
-Si implementa a un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permite el nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager ha creado un conjunto de utilidades que permiten solicitar e instalar al tipo de certificado correcto en el equipo de nodo de monitor. Para obtener más información y para descargar estas utilidades, consulte [Obtención de certificados para agentes no unidos al dominio fácilmente con el Asistente para generación de certificados](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
+Si implementa a un agente en una de estas ubicaciones, también tendrá que solicitar y configurar un certificado que permite el nodo de monitor enviar alertas a System Center Operations Manager. Para simplificar este proceso, el equipo de Operations Manager ha creado un conjunto de utilidades que permiten solicitar e instalar al tipo de certificado correcto en el equipo de nodo de monitor. Para obtener información detallada y para descargar estas utilidades, consulte [Obtención de certificados para dominios no se unió a los agentes Made Easy con el Asistente para certificados de generación](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409).
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Instalación de los archivos del agente Operations Manager
 
@@ -54,7 +55,7 @@ Si implementa a un agente en una de estas ubicaciones, también tendrá que soli
 
 11. Haga clic en **Salir**.
 
-Para System Center 2012, puede comprobar que el agente se ha creado hace clic en **Inicio**, haciendo clic en **Todos los programas**, haciendo clic en **System Center Operations Manager 2012**y, a continuación, haciendo clic en **Shell de 2012 de Operations Manager**. En Shell de Operations Manager Shell, escriba el siguiente comando de Windows PowerShell y presione ENTRAR:
+Para System Center 2012, puede comprobar que el agente se ha creado hace clic en **Inicio**, haciendo clic en **Todos los programas**, haciendo clic en **System Center Operations Manager 2012**y, a continuación, haciendo clic en **Shell de 2012 de Operations Manager**. In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:
 ```
 Get-SCOMAgent
 ```

@@ -1,5 +1,6 @@
 ---
 title: Fase 4 mover usuarios de prueba al grupo piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Puede mover a un único usuario o grupos de usuarios a su nuevo Skype Microsoft para la implementación de Business Server 2019 mediante los dos métodos siguientes: Skype para Panel de Control de servidor empresarial y Skype para Shell de administración de servidor empresarial. En los temas de esta sección se describen las tareas que debe completar durante la implementación piloto, así como antes de migrar la implementación de Skype para Business Server 2019 de una implementación piloto a una implementación de nivel de producción.'
-ms.openlocfilehash: 91372aaf7f3d86738eb511c2dd996d51df0394e5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 69278cb325209823136a21e03b9261baf680ab73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027224"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875464"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Fase 4: Mover usuarios de prueba al grupo piloto
 
@@ -21,9 +22,9 @@ Puede mover a un único usuario o grupos de usuarios a su nuevo Skype Microsoft 
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Ver los usuarios actuales en el grupo de servidores heredado](view-current-users-in-legacy-pool.md)
+- [Ver los usuarios actuales del grupo de servidores heredado](view-current-users-in-legacy-pool.md)
     
-- [Comprobar la replicación de usuarios ha completado](verify-user-replication-has-completed.md)
+- [La comprobación de la replicación de usuarios ha finalizado](verify-user-replication-has-completed.md)
     
 - [Mover un usuario único para el grupo piloto](move-a-single-user-to-the-pilot-pool.md)
     

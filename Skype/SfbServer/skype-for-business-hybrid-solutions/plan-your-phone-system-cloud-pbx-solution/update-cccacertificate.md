@@ -1,5 +1,6 @@
 ---
-title: Actualización CcCACertificate
+title: Update-CcCACertificate
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5b474789-75de-443c-89bd-de89be55a1dd
-description: El cmdlet Update-CcCACertificate renueva el Skype para el certificado de CA raíz de conector de nube Business Edition que está cerca de caducidad o ya expiró.
-ms.openlocfilehash: f23298f1be30ab96b3e77ff0625ff6e3b419e111
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El cmdlet Update-CcCACertificate renueva el Skype para certificado de entidad emisora de certificados raíz de Business Edition de conector en la nube que está cerca de expiración o ya ha caducado.
+ms.openlocfilehash: d123474240fb18ffcb6c1c037cc5407eb4c6c4e3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877936"
 ---
-# <a name="update-cccacertificate"></a>Actualización CcCACertificate
+# <a name="update-cccacertificate"></a>Update-CcCACertificate
  
-El cmdlet Update-CcCACertificate renueva el Skype para el certificado de CA raíz de conector de nube Business Edition que está cerca de caducidad o ya expiró. 
+El cmdlet Update-CcCACertificate renueva el Skype para certificado de entidad emisora de certificados raíz de Business Edition de conector en la nube que está cerca de expiración o ya ha caducado. 
   
 ```
 Update-CcCACertificate
@@ -44,18 +46,18 @@ Update-CcCACertificate
 
 El certificado de CA raíz de Cloud Connector es válido durante cinco años a partir de la fecha en que se instaló el servicio de entidad de certificación.
   
-Si el certificado raíz está cerca de caducidad o ya expiró, ejecute el cmdlet Update-CcCACertificate para renovar el certificado. Después de la renovación del certificado raíz, se emitirán nuevos certificados automáticamente para el servidor de AD, el almacén de administración central y el servidor perimetral.
+Si el certificado raíz esté cerca de expiración o ya ha caducado, ejecute el cmdlet Update-CcCACertificate para renovar el certificado. Después de la renovación del certificado raíz, se emitirán nuevos certificados automáticamente para el servidor de AD, el almacén de administración central y el servidor perimetral.
   
-Si hay varios dispositivos en el mismo sitio de RTC, ejecute el cmdlet Update-CcCACertificate en todos los equipos del mismo sitio PSTN.
+Si hay varios dispositivos en el mismo sitio de RTC, ejecute el cmdlet Update-CcCACertificate en todos los equipos del mismo sitio de RTC.
   
 Como último paso, ejecute Export-CcRootCertificate para exportar el certificado raíz a un archivo local en el primer dispositivo y después copie e instale el certificado exportado a sus puertas de enlace RTC.
   
-Este comando reemplaza el cmdlet renovar CcCACertificate en nube conector 2.0 y versiones posteriores.
+Este comando reemplaza el cmdlet renovar CcCACertificate en la nube conector 2.0 y versiones posteriores.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
 
-Ninguno. El cmdlet Update-CcCACertificate no acepta entrada canalizada.
+Ninguno. El cmdlet Update-CcCACertificate no acepta entradas transferidas.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
@@ -65,10 +67,10 @@ Ninguno.
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Restablecer CcCACertificate](reset-cccacertificate.md)
+[Reset-CcCACertificate](reset-cccacertificate.md)
   
-[CcServerCertificate renovar](renew-ccservercertificate.md)
+[Renew-CcServerCertificate](renew-ccservercertificate.md)
   
-[CcRootCertificate de exportación](export-ccrootcertificate.md)
+[Export-CcRootCertificate](export-ccrootcertificate.md)
   
 

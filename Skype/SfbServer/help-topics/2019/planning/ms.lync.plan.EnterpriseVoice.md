@@ -1,5 +1,6 @@
 ---
-title: Enterprise Voice (herramienta de planeación)
+title: Enterprise Voice (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 8749fc54-4cd1-4c25-9a64-60e4bdab9767
 ROBOTS: NOINDEX, NOFOLLOW
 description: Con Enterprise Voice, Skype para Business Server ofrece una voz independiente a través del protocolo de Internet (VoIP), que ofrece mejorar o reemplazar sistemas de tradicional central de conmutación (PBX) de exchange.
-ms.openlocfilehash: f507ae79ae7547d5ee10bb7bb628d509cb0882c6
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 2a25de34494d6a5e13e90072136b396e8da8a13d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21069275"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877835"
 ---
-# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (herramienta de planeación)
+# <a name="enterprise-voice-planning-tool"></a>Enterprise Voice (Planning Tool)
  
 Con Enterprise Voice, Skype para Business Server ofrece una voz independiente a través del protocolo de Internet (VoIP), que ofrece mejorar o reemplazar sistemas de tradicional central de conmutación (PBX) de exchange. Los usuarios de Enterprise Voice pueden llamar a los compañeros en la red de su organización VoIP o PBX y pueden llamar a números de teléfono tradicional fuera de su organización. La solución de Enterprise Voice incluye características de llamada comunes, como respuesta, reenviar, transferir, suspensión, desviar, versión y estacionar y llamar al método de 9-1-1 mejorado (E9-1-1) (E9-1-1 está disponible sólo en los Estados Unidos). Enterprise Voice también es compatible con una amplia gama de dispositivos IP y USB actuales y anteriores.
   

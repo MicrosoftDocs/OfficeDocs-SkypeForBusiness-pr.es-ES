@@ -1,5 +1,6 @@
 ---
 title: Página Agregar un servidor perimetral con un FQDN único
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 44d98453-cb41-49cd-99cb-52b6ebd2d559
 ROBOTS: NOINDEX, NOFOLLOW
 description: Información sobre la página del FQDN único del servidor perimetral.
-ms.openlocfilehash: 8599ffdbcfe391075909a4d2f168494b0eb73a51
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 3592bcef47a372bb4ee188c64840c2798ee311d2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065295"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876891"
 ---
 # <a name="add-edge-server-with-single-fqdn-page"></a>Página Agregar un servidor perimetral con un FQDN único
  

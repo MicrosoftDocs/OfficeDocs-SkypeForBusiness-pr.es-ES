@@ -1,5 +1,6 @@
 ---
 title: Administración de directivas de archivado en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Resumen: Obtenga información sobre cómo administrar las directivas de usuario para el archivado de Skype para Business Server.'
-ms.openlocfilehash: d29d30c99320631279114d3ebdfa8ee7db00b677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21013324"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873243"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administración de directivas de archivado en Skype para Business Server
 
@@ -50,7 +51,7 @@ También puede configurar las directivas de archivado con los cmdlets de Windows
 |**Cmdlet**|**Descripción**|
 |:-----|:-----|
 |Get-CsArchivingPolicy  <br/> |Devuelve información sobre las directivas de archivado de las sesiones de mensajería instantánea (MI) de la organización.  <br/> |
-|GRANT-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
+|Grant-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
 |New-CsArchivingPolicy  <br/> |Crea directivas de archivado de sesiones de mensajería instantánea (MI). Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
 |Remove-CsArchivingPolicy  <br/> |Quita el especificado mensajería instantánea (mi) directiva que determina si Skype para Business Server guardará automáticamente todas las sesiones de mensajería instantánea que tienen lugar entre los usuarios internos, o todas las sesiones de mensajería instantánea entre usuarios internos y los socios federados de archivado.  <br/> |
 |Set-CsArchivingPolicy  <br/> |Modifica una existente mensajería instantánea (mi) Directiva de archivado. Una directiva de archivado le ofrece la posibilidad de archivar todas las sesiones de mensajería instantánea y las conferencias que tienen lugar entre los usuarios internos; También puede archivar sesiones que tienen lugar entre los usuarios internos y los socios federados.  <br/> |

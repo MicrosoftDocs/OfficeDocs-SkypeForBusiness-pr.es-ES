@@ -1,5 +1,6 @@
 ---
 title: Configuración de reunión crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las opciones de configuración de reuniones definen la experiencia de unión de los usuarios a conferencias programadas. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
-ms.openlocfilehash: 755bb0d2e0d9722d8f240e508224684c380d16bf
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: cc997e2ed523ad958c08325112dc661c5a56e6ca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253321"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872989"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Configuración de reuniones: Crear nueva o editar existente
 
@@ -53,6 +54,6 @@ En la siguiente lista se describen los campos de la página.
 
 - **Texto de pie de página personalizado** Escriba el texto que se utilizará en las invitaciones a conferencias personalizadas.
 
-Para obtener información detallada sobre cómo trabajar con configuraciones de reunión, vea [crear un o modificar una colección de opciones de configuración que](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) en la documentación sobre operaciones. Para obtener información detallada acerca de cómo establecer configuraciones de reunión para reuniones grandes, consulte [Configuración de seguridad de compatibilidad para reuniones grandes](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) en la documentación de planeación.
+Para más detalles sobre cómo trabajar con configuraciones de reuniones, mire [Create a or modify a Collection of Meeting Configuration Settings](https://technet.microsoft.com/library/ce6773c1-a0d5-4405-8e32-33a6f3a46a1a.aspx) en la documentación de operaciones. Para más detalles sobre cómo establecer configuraciones de reuniones para reuniones grandes, mire [Setting Up Support for Large Meetings](https://technet.microsoft.com/library/8e22d34b-b395-408d-9d48-8f2a3abe9513.aspx) en la documentación de planeación.
 
 

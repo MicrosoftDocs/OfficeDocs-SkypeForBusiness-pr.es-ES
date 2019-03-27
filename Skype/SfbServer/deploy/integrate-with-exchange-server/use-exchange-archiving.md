@@ -1,5 +1,6 @@
 ---
 title: Configuración de Skype para Business Server usar el archivado de Exchange Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 260346d1-edc8-4a0c-8ad2-6c2401c3c377
 description: 'Resumen: Configure transcripciones de mensajería instantánea de Exchange Server 2016 o Exchange Server 2013 y Skype para Business Server.'
-ms.openlocfilehash: 63d533091426fe609932de18e3d37bd75004ce4c
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5db51f1206fee5ef3f87f16e73836a32c460234b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258028"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873489"
 ---
 # <a name="configure-skype-for-business-server-to-use-exchange-server-archiving"></a>Configuración de Skype para Business Server usar el archivado de Exchange Server
 
@@ -111,7 +112,7 @@ Si Skype para Business Server y Exchange Server se encuentran en bosques diferen
 
 1. **No inicializado**. Indica que el archivado se basará en la configuración de retención local configurada para el buzón de Exchange del usuario. Si la conservación local no se ha habilitado en el buzón del usuario, a continuación, el usuario tendrá su propia de mensajería y Web transcripciones de conferencia que se archivan en Skype para Business Server.
 
-2. **Como UseLyncArchivingPolicy**. Indica que se deben archivar transcripciones de conferencias Web y mensajería instantánea del usuario en Skype para Business Server, en lugar de en Exchange.
+2. **UseLyncArchivingPolicy**. Indica que se deben archivar transcripciones de conferencias Web y mensajería instantánea del usuario en Skype para Business Server, en lugar de en Exchange.
 
 3. **NoArchiving**. Indica que las transcripciones de mensajería instantánea y de las conferencias web no necesitan archivarse. Tenga en cuenta que esta configuración invalida cualquier Skype para Business Server asignadas al usuario de directivas de archivado.
 

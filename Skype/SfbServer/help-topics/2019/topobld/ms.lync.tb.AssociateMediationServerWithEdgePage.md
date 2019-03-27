@@ -1,5 +1,6 @@
 ---
-title: Asociar servidor de mediación con borde
+title: Asociar servidor de mediación con perimetral
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 65c5d93c-9f0d-4a60-8bd1-d05eb6bc2088
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor Front-End y con un servidor perimetral o grupo de servidores. Para asociar el servidor de mediación o un grupo de servidores con un servidor perimetral o grupo de servidores perimetrales, haga lo siguiente:'
-ms.openlocfilehash: b619b4d4244aadcb8e161da0a2393c5896024585
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 03d0cc7c1333151274b67d9eef657d33931501ea
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21082632"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874440"
 ---
-# <a name="associate-mediation-server-with-edge"></a>Asociar servidor de mediación con borde
+# <a name="associate-mediation-server-with-edge"></a>Asociar servidor de mediación con perimetral
  
 Para definir un servidor de mediación, especifique la configuración que asocia el servidor de mediación con un servidor Front-End y con un servidor perimetral o grupo de servidores. Para asociar el servidor de mediación o un grupo de servidores con un servidor perimetral o grupo de servidores perimetrales, haga lo siguiente:
   

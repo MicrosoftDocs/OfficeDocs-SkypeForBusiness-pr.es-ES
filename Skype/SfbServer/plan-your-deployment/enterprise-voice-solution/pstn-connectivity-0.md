@@ -1,5 +1,6 @@
 ---
 title: Plan para la conectividad de RTC en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: 0c84cc1c683f55ab003164f845071c071c620adc
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: d98955795ef5172065027a1fab9030091ee11b11
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23881828"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878038"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Plan para la conectividad de RTC en Skype para Business Server
  

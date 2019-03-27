@@ -1,5 +1,6 @@
 ---
 title: Fase 7 completar tareas posteriores a la migración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,20 +9,20 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En los temas de esta sección se describen las tareas que necesitará para llevar a cabo después de haber completado la migración a Skype para Business Server 2019.
-ms.openlocfilehash: dedeb9fd3cb524fb2f61ff7e8ade87265c2001e0
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ef3a1f4b6d7262d223e78ebfae53e02203e9248e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875457"
 ---
-# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Completar tareas posteriores a la migración
+# <a name="phase-7-complete-post-migration-tasks"></a>Fase 7: Finalización de las tareas posteriores a la migración
 
 En los temas de esta sección se describen las tareas que necesitará para llevar a cabo después de haber completado la migración a Skype para Business Server 2019.
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Migrar reuniones existentes y contenido de la reunión](migrate-existing-meetings-and-meeting-content.md)
+- [Migración de reuniones existentes y contenido de reuniones](migrate-existing-meetings-and-meeting-content.md)
     
 - [Migrar los números de acceso telefónico](migrate-dial-in-access-numbers.md)
     
@@ -31,9 +32,9 @@ En los temas de esta sección se describen las tareas que necesitará para lleva
     
 - [Migrar la libreta de direcciones](migrate-address-book.md)
     
-- [Configuración de la reunión de la página de participación](configure-the-meeting-join-page.md)
+- [Configurar la página para unirse a la reunión](configure-the-meeting-join-page.md)
     
-- [Quitar archivado heredado y supervisión de servidores](remove-legacy-archiving-and-monitoring-servers.md)
+- [Quitar los servidores de archivado y supervisión heredados](remove-legacy-archiving-and-monitoring-servers.md)
     
 - [Configurar servidores de aplicaciones de confianza](configure-trusted-application-servers.md)
     
@@ -41,7 +42,7 @@ En los temas de esta sección se describen las tareas que necesitará para lleva
     
 - [Conectar una aplicación de sucursal con funciones de supervivencia](connect-a-survivable-branch-appliance.md)
     
-- [Configurar la supervisión de SCOM](configure-scom-monitoring.md)
+- [Configurar la supervisión SCOM](configure-scom-monitoring.md)
     
 - [Migrar teléfonos de área común](migrate-common-area-phones.md)
     

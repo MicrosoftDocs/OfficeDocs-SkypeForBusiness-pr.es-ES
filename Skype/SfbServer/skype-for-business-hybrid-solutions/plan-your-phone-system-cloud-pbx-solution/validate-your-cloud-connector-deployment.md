@@ -1,5 +1,6 @@
 ---
 title: Validación de la implementación de Cloud Connector
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,14 +14,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Una vez haya completado los pasos para implementar y configurar Skype para Business Edition de conector en la nube, compruebe que puede realizar y recibir llamadas.
-ms.openlocfilehash: 57d0d72974d25ca2472dcee80e0a4156d1f70920
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23889664"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875379"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a>Validación de la implementación de Cloud Connector
+# <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  
 Una vez haya completado los pasos para implementar y configurar Skype para Business Edition de conector en la nube, compruebe que puede realizar y recibir llamadas.
   

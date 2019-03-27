@@ -1,5 +1,6 @@
 ---
 title: Administrar los servicios de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Obtenga información sobre cómo ver el estado de los servicios, iniciar y detener los servicios e impedir sesiones para servicios.
-ms.openlocfilehash: bfe24b32509f47cd733f5720ef29e635a7105d52
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 6913ce2cbef6c12a61d7d4751b35a71371ffb991
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223475"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875063"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Administrar los servicios de Skype para Business Server
 

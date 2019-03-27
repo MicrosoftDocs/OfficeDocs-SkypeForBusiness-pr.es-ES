@@ -1,5 +1,6 @@
 ---
-title: (Herramienta de planeación) del equilibrador de carga
+title: Load Balancer (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,20 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
-description: 'Si tiene grupos de Front-End, Director grupos o agrupaciones de servidor perimetral, necesitará implementar equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:'
-ms.openlocfilehash: a68e2782d27777838e77a4a9a077212badaa697d
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'Si tiene grupos de servidores Front-End, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos de servidores. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:'
+ms.openlocfilehash: d185e7f45106ace873fbf31917f1c91f551d7c3e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874412"
 ---
-# <a name="load-balancer-planning-tool"></a>(Herramienta de planeación) del equilibrador de carga
+# <a name="load-balancer-planning-tool"></a>Load Balancer (Planning Tool)
  
-Si tiene grupos de Front-End, Director grupos o agrupaciones de servidor perimetral, necesitará implementar equilibrio de carga para estos grupos. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:
+Si tiene grupos de servidores Front-End, grupos de directores o grupos de servidores perimetrales, necesita implementar el equilibrio de carga para estos grupos de servidores. El equilibrio de carga distribuye el tráfico entre los servidores de los grupos de servidores. Para obtener detalles, consulte:
   
-- [Requisitos de Skype para el negocio de equilibrio de carga](../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Requisitos del equilibrio de carga para Skype Empresarial](../../plan-your-deployment/network-requirements/load-balancing.md)
     
-- [Requisitos de DNS para Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
+- [Requisitos de DNS de Skype para Business Server 2015](../../plan-your-deployment/network-requirements/dns.md)
     
 

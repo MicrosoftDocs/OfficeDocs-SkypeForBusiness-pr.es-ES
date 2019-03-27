@@ -1,5 +1,6 @@
 ---
 title: ¿Qué está en desuso de Skype para Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características se han quitado de Skype para Business Server 2019.'
-ms.openlocfilehash: 399c5f219ae5a088c4e7f8aa40f40344885d571e
-ms.sourcegitcommit: 6ad3ce36140464319f5957652331acd6a4273f82
+ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/17/2018
-ms.locfileid: "26561614"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876658"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019
 
@@ -56,7 +57,7 @@ Para obtener más detalles, vea [planear para movilidad de Skype para Business S
 
 Las siguientes herramientas no estará disponibles para su uso en la versión inicial de Skype para Business Server 2019:
 
-- Skype para Calculadora de planeación de la capacidad de servidor empresarial
+- Calculadora de planeamiento de capacidad de Skype Empresarial Server
 - Skype para herramientas de depuración de Business Server
 - Skype para (algunas herramientas se quitará) de herramientas del Kit de recursos de servidor empresarial
     - Call Parkometer (Estacionamiento de llamadas)
@@ -67,11 +68,11 @@ Las siguientes herramientas no son compatibles con Skype para Business Server 20
 
 - Metodología de calidad de llamadas (pero no llamar al panel de calidad)
 - Cuadro de mandos de metodología de calidad de llamada de Microsoft, v1.5
-- Skype for Business Server 2015 Planning Tool
+- Herramienta de planeación de Skype Empresarial Server 2015
 - Skype for Business Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Vea también
+### <a name="see-also"></a>Consulte también
 
 [¿Qué es una novedad de Skype para Business Server 2019](whats-new.md)
 
-[Migración de la federación XMPP](migration/migrating-xmpp-federation.md)
+[Migrar la federación XMPP](migration/migrating-xmpp-federation.md)

@@ -1,5 +1,6 @@
 ---
-title: Quitar certificado (Introducción)
+title: Quitar certificado (introducción)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página de introducción de quitar certificado, lea la información detenidamente sobre las implicaciones de la eliminación de un certificado. Después de haber leído esta información, haga clic en siguiente para continuar.
-ms.openlocfilehash: 3dc15c6c57ede44405c399ee6797b29f2748b683
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: cf922ceebab4440356547a64ffb5d19307042c1d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20982408"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877842"
 ---
-# <a name="remove-certificate-intro"></a>Quitar certificado (Introducción)
+# <a name="remove-certificate-intro"></a>Quitar certificado (introducción)
  
 En la página de introducción de **Quitar certificado** , lea la información detenidamente sobre las implicaciones de la eliminación de un certificado. Después de haber leído esta información, haga clic en **siguiente** para continuar.
   

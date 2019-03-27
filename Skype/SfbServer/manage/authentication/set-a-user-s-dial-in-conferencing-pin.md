@@ -1,5 +1,6 @@
 ---
 title: Establecer telefónico un usuario PIN en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumen: Establecer telefónico un usuario PIN para Skype para Business Server.'
-ms.openlocfilehash: e5d14af74c208aaf29fffe94937afc1253a032da
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 62b38b8ef15aa2283b66fc18abf5ec0e84e64870
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009385"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877394"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Establecer telefónico un usuario PIN en Skype para Business Server
  
@@ -34,11 +35,11 @@ Para unirse a una conferencia de acceso telefónico como un usuario autenticado,
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
-4. Utilice uno de los métodos siguientes para encontrar a un usuario:
+4. Use uno de los métodos siguientes para encontrar a un usuario:
     
    - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
     
-   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+   - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
     
 5. (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
     

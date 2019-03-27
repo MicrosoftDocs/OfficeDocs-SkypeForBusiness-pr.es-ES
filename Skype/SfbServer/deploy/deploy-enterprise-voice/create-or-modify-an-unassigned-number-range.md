@@ -1,5 +1,6 @@
 ---
 title: Crear o modificar un intervalo de números sin asignar en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 519f4b753314325b1af71f11f94ea669e78148a1
-ms.sourcegitcommit: d1672a9070668a0d9304296dbca29f7dd2a8daee
+ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "26625669"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872898"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype para Business Server
  
@@ -92,7 +93,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
     
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-3. Use **New-CsUnassignedNumber** para crear un nuevo intervalo numérico sin asignar. Usar **Set-CsUnassignedNumber** para modificar un intervalo numérico sin asignar existente.
+3. Use **New-CsUnassignedNumber** para crear un nuevo intervalo de números no asignados. Use **Set-CsUnassignedNumber** para modificar un intervalo de números no asignados existente.
     
     > [!TIP]
     > Si tiene intervalos solapados y desea que se apliquen en un orden específico, incluya el parámetro Prioridad. Se aplicará a la llamada el intervalo con la máxima prioridad. El valor 0 representa la prioridad más alta.
@@ -166,7 +167,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
     > [!NOTE]
     > Para obtener información detallada acerca de las opciones más, vea [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [New-CsUnassignedNumber](https://docs.microsoft.com/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

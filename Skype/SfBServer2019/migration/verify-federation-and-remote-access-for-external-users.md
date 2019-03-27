@@ -1,5 +1,6 @@
 ---
 title: Comprobar la federación y el acceso remoto de usuarios externos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de trasladar la ruta de federación para el Skype para servidor perimetral de Business Server 2019, debe realizar algunas pruebas funcionales para comprobar que la federación funciona del modo esperado. Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos cualquiera o todas las opciones siguientes.
-ms.openlocfilehash: ce0e2dd6ee7d4fb605f844d7dfb26b3f9d13bf14
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027238"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876700"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Comprobar la federación y el acceso remoto de usuarios externos
 

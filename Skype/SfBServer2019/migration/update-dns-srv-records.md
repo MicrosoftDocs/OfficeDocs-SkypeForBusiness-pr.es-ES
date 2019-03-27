@@ -1,5 +1,6 @@
 ---
-title: Actualizar los registros DNS SRV
+title: Actualizar registros SRV de DNS
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Para completar correctamente este procedimiento, debe iniciar sesión en el servidor o dominio como miembro del grupo Administradores del dominio o un miembro del grupo DnsAdmins.
-ms.openlocfilehash: f298db10f7030482b604734a1719756af4071ce2
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5cdf98d065abbb57b3cb654c8b770f8f1f87500c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027231"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872727"
 ---
-# <a name="update-dns-srv-records"></a>Actualizar los registros DNS SRV
+# <a name="update-dns-srv-records"></a>Actualizar registros SRV de DNS
 
 Para completar correctamente este procedimiento, debe iniciar sesión en el servidor o dominio como miembro del grupo Administradores del dominio o un miembro del grupo DnsAdmins.
   

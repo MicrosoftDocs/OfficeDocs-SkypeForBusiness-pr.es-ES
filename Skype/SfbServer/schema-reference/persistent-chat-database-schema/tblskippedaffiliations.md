@@ -1,5 +1,6 @@
 ---
 title: tblSkippedAffiliations
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,30 +10,31 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
-description: tblSkippedAffiliations contiene las afiliaciones que no se puede leer (generalmente debido a errores de acceso a los servicios de dominio de Active Directory).
-ms.openlocfilehash: 8809e75f7da7f08c3dee9a846cef332d9cba4371
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblSkippedAffiliations contiene las afiliaciones que no se podrían leer (generalmente debido a errores de acceso a los servicios de dominio de Active Directory).
+ms.openlocfilehash: 7072cf1d9ebef1040b78bc2fe93ccac02808099a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874790"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  
-tblSkippedAffiliations contiene las afiliaciones que no se puede leer (generalmente debido a errores de acceso a los servicios de dominio de Active Directory).
+tblSkippedAffiliations contiene las afiliaciones que no se podrían leer (generalmente debido a errores de acceso a los servicios de dominio de Active Directory).
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, no nulo  <br/> |Id. principal  <br/> |
-|affDescription  <br/> |nvarchar (256), no nulo  <br/> |Cadena que identifica la afiliación.  <br/> El formato es: guid: uri de _{0}_ : _{1}_> id: _{2}_ <br/> |
-|updatedBy  <br/> |int, no nulo  <br/> |Identificador de la entidad de seguridad que actualiza esta fila. Siempre es 1 (usuario del sistema) porque la sincronización de Active Directory es la única fuente de estas entradas.  <br/> |
+|prinID  <br/> |int, no es nulo  <br/> |Identificador de entidad de seguridad.  <br/> |
+|affDescription  <br/> |nvarchar (256), no es nulo  <br/> |Una cadena que identifica la afiliación.  <br/> El formato es: guid: _{0}_ uri: _{1}_> identificador:_{2}_ <br/> |
+|updatedBy  <br/> |int, no es nulo  <br/> |Identificador de la entidad de seguridad que actualizó esta fila. Siempre es 1 (los usuarios del sistema) debido a que la sincronización de Active Directory es el único origen para estas entradas.  <br/> |
    
 **Claves**
 
 |**Columnas**|**Descripción**|
 |:-----|:-----|
 |\<prinID, affDescription\>  <br/> |Clave principal.  <br/> |
-|prinID  <br/> |Clave externa con la búsqueda en la tabla tblPrincipal.prinID.  <br/> |
+|prinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
    
 

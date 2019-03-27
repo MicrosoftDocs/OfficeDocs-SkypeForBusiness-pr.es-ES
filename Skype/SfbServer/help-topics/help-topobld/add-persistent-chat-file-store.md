@@ -1,5 +1,6 @@
 ---
 title: Agregar almacén de archivos de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1068706-ff61-4a98-8e51-4202111d936a
 description: Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos para el servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: 6463cb2c572be5d367e8788fc121ed0981bcb8a9
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: f5645a1e9d85f773e9faa273e703594a1617d359
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503826"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873129"
 ---
 # <a name="add-persistent-chat-file-store"></a>Agregar almacén de archivos de chat persistente
  
@@ -32,7 +33,7 @@ Debe especificar el recurso compartido de archivos que se debe usar como almacé
 > [!IMPORTANT]
 > Al agregar un servidor de Chat persistente o servidor de Chat persistente debe poder configurar el archivo de grupo de servidores a la topología, Topology Builder almacenar y configurar el control de acceso discrecional (DACL) se enumeran en el recurso compartido de archivos que se usará para el almacén de archivos. Esto implica que, al ejecutar el Generador de topologías para publicar la nueva topología, debe haber iniciado sesión en una cuenta que tenga todos los permisos de control (lectura/escritura/modificación) respecto al recurso compartido de archivos. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
@@ -42,4 +43,4 @@ Debe especificar el recurso compartido de archivos que se debe usar como almacé
   
 [Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
   
-[Conceptos básicos de topología de Skype Empresarial Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)
+[Topology Basics for Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md)

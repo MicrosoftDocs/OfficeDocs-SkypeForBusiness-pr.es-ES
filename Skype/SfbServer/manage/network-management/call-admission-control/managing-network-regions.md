@@ -1,5 +1,6 @@
 ---
 title: Administración de regiones de red
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Región de red * son los concentradores de red o redes troncales utilizados en la configuración de desvío de medios, E9-1-1 y control de admisión llamada.
-ms.openlocfilehash: 3fe6707e6949fa47a9cc5e96703e06132ed8cb2f
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223314"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877632"
 ---
-# <a name="managing-network-regions-in-skype-for-business-server"></a>Administración de regiones de red en Skype para Business Server
+# <a name="managing-network-regions-in-skype-for-business-server"></a>Administrar regiones de red en Skype Empresarial Server
 
 *Regiones de red* son los concentradores de red o redes troncales utilizados en la configuración de desvío de medios, E9-1-1 y control de admisión llamada. Use los siguientes procedimientos para ver, crear o modificar regiones de red. Por ejemplo, si ya ha creado las regiones de red para una característica de voz, no es necesario crear nuevas regiones de red; otras características avanzadas de Enterprise Voice utilizará esas mismos regiones de red. Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central. 
 

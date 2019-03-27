@@ -1,5 +1,6 @@
 ---
 title: Avanzada planeación DNS del servidor perimetral de Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.audience: ITPro
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
-ms.openlocfilehash: 4631f7120bb091f3a9666edd4ab2d92cfdf52a00
-ms.sourcegitcommit: ce3f40d2ffdf452111a317a019eeebf807b0c78a
+ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537568"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872961"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server
  
@@ -254,7 +255,7 @@ No puede usar el equilibrio de carga de DNS para:
   
 - Tráfico de cliente a servidor web para los servidores Front-End o un Director.
     
-Para ir un poco más detallada de cómo un registro SRV de DNS seleccionado cuando varios registros DNS son devueltos por una consulta, el servicio de servidor perimetral de acceso siempre elige el objeto record con la prioridad numérica más baja y, si es un separador de placa es necesario, el peso numérico más alto. Esto es compatible con la [documentación del Grupo de trabajo de ingeniería de Internet](https://www.ietf.org/rfc/rfc2782.txt).
+Para ir un poco más detallada de cómo un registro SRV de DNS seleccionado cuando varios registros DNS son devueltos por una consulta, el servicio de servidor perimetral de acceso siempre elige el objeto record con la prioridad numérica más baja y, si es un separador de placa es necesario, el peso numérico más alto. Esto es coherente con la [documentación de Internet Engineering Task Force](https://www.ietf.org/rfc/rfc2782.txt).
   
 Por tanto, por ejemplo, si el primer registro SRV de DNS tiene un peso de 20 y una prioridad de 40 y el segundo registro SRV de DNS tiene un peso de 10 y una prioridad de 50, se elegirá el primer registro porque tiene la prioridad más baja, 40. La prioridad siempre va primero y es el host que un cliente elegirá primero. ¿Qué ocurre si hay dos destinos con la misma prioridad? 
   

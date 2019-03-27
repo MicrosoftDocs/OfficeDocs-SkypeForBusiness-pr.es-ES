@@ -1,5 +1,6 @@
 ---
-title: Agregar almacén de archivado de Front-End
+title: Agregar almacén de archivado front-end
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: El archivado requiere una edición de 64 bits compatible del software de base de datos de Microsoft SQL Server para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que la base de datos de SQL Server se residan, además de la instancia de SQL Se servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: be924cb8ff418e75f50dbaceaa875397f498ba8d
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: bbdcd20333897078dea7deddc716d67dcca1b2f5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23243449"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873496"
 ---
-# <a name="add-front-end-archiving-store"></a>Agregar almacén de archivado de Front-End
+# <a name="add-front-end-archiving-store"></a>Agregar almacén de archivado front-end
 
 El archivado requiere una edición de 64 bits compatible del software de base de datos de Microsoft SQL Server para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que la base de datos de SQL Server se residan, además de la instancia de SQL Se servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
 

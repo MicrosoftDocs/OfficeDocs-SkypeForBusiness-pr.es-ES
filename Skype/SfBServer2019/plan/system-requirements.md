@@ -1,5 +1,6 @@
 ---
 title: Requisitos del sistema para Skype para Business Server 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Prepare su Skype Business Server 2019 servidores y la infraestructura de dominio con este tema. Hardware, sistema operativo, las bases de datos, software, todos los requisitos del sistema y recomendaciones, junto con el certificado de DNS, recurso compartido de archivos e información de Active Directory, están aquí ayudar a garantizar una instalación correcta y la implementación de la granja de servidores.'
-ms.openlocfilehash: 0f2926bc0d110ce7270b6798895ecda7ebabb23a
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.openlocfilehash: 86ef54a5a269a47fb1e2b8dff04808bf85b5b296
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120661"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875647"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Requisitos del sistema para Skype para Business Server 2019
  
@@ -50,7 +51,7 @@ Hardware recomendado para los servidores Standard Edition:
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre en disco espacio (dos de los discos mediante RAID 1 y 6 con RAID 10).  <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de ofrecer el mismo espacio libre y un rendimiento similar de 8 unidades de disco mecánicas de 10.000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones de host múltiple o dobles son **no** admite los servidores para servidores Front-End, servidores Back-End y Standard Edition. <br/> Siempre que no se exponen en el sistema operativo y se usan para supervisar y administrar el hardware del servidor, puede hacer que los sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de múltiples ubicaciones, y es un escenario compatible.  <br/> |
 
 
@@ -60,7 +61,7 @@ Hardware recomendado para servidores Front-End y servidores Back-End:
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior. <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |64 gigabytes (GB).  <br/> |
-|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre en disco espacio (dos de los discos mediante RAID 1 y 6 con RAID 10).  <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de ofrecer el mismo espacio libre y un rendimiento similar de 8 unidades de disco mecánicas de 10.000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones de host múltiple o dobles son **no** admite los servidores para servidores Front-End, servidores Back-End y Standard Edition. <br/> Siempre que no se exponen en el sistema operativo y se usan para supervisar y administrar el hardware del servidor, puede hacer que los sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de múltiples ubicaciones, y es un escenario compatible.  <br/> |
    
 Hardware recomendado para los servidores perimetrales, servidores de mediación independiente y directores:
@@ -69,7 +70,7 @@ Hardware recomendado para los servidores perimetrales, servidores de mediación 
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |32 gigabytes.  <br/> |
-|Disco  <br/> |O  <br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2 unidades RAID 1).  <br/> O bien  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 4 o más 10000 RPM unidades de disco duro con al menos 72 GB de espacio libre (los discos deben estar en una de 2 x RAID 1 configuración) de espacio en disco.  <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de ofrecer el mismo espacio libre y un rendimiento similar de 4 unidades de disco mecánicas de 10.000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Son las configuraciones de dobles u host múltiple **no** se admite para los servidores de la interoperabilidad de vídeo y directores. <br/> Los servidores Edge necesitan dos interfaces de red que sean adaptadores de red de puerto doble, 1 Gbps o superior (o dos adaptadores de red emparejados para un total de cuatro; cada pareja debe formar un equipo con una sola dirección MAC y una sola dirección IP, para un total de dos parejas).  <br/> En los servidores de mediación independiente, se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para permitir la configuración de una dirección IP de PSTN específica.  <br/> |
 
 
@@ -267,7 +268,7 @@ El nivel funcional de dominio de cualquier dominio en que implementar Skype para
     
 ¿Puede haber controladores de dominio de solo lectura en estos entornos? Por supuesto, el mismo tiempo que allí también están controladores de dominio de escritura disponibles.
   
-Es importante saber que Skype para Business Server 2019 no admite dominios de etiqueta única. ¿Qué son? Si tiene un dominio raíz con la etiqueta contoso.local, que se va a estar bien. Si tiene un dominio raíz sólo con el nombre local, que no se va a trabajar y no se admite como resultado. Puede encontrar más información al respecto en [este artículo de la Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
+Es importante saber que Skype para Business Server 2019 no admite dominios de etiqueta única. ¿Qué son? Si tiene un dominio raíz con la etiqueta contoso.local, que se va a estar bien. Si tiene un dominio raíz sólo con el nombre local, que no se va a trabajar y no se admite como resultado. Un poco más acerca de esto se ha escrito [en este artículo de Knowledge Base](https://support.microsoft.com/kb/300684/en-us).
   
 Skype para Business Server 2019 también no admite el cambio de nombre de dominios. Si realmente tiene que cambiar el nombre de su dominio, se podrá necesita para desinstalar Skype para Business Server 2019, realice el cambio de nombre de dominio y, a continuación, vuelva a instalar Skype para Business Server 2019.
   
@@ -352,7 +353,7 @@ En esta topología, hay uno o más bosques de usuarios y Skype para Business Ser
   
 Con este escenario, hay varios bosques locales, con una topología de bosque de recursos. Hay una relación de total confianza entre los bosques de Active Directory. La herramienta Azure Active Directory Connect se utiliza para sincronizar cuentas entre los bosques de usuarios locales y Office 365.
   
- La organización también tiene Office 365 y usa [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) para sincronizar sus cuentas locales con Office 365. Los usuarios habilitados para Skype para la empresa están habilitados a través de Office 365 y Skype para profesionales en línea. Skype para Business Server no está instalados en servidores locales.
+ La organización también tiene Office 365 y [Azure Active Directory Connect](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect) utiliza para sincronizar sus cuentas locales con Office 365. Los usuarios habilitados para Skype para la empresa están habilitados a través de Office 365 y Skype para profesionales en línea. Skype para Business Server no está instalados en servidores locales.
   
 Autenticación de inicio de sesión único es proporcionada por una granja de servidores de servicios de federación de Active Directory que se encuentra en el bosque de usuarios.
   
@@ -535,7 +536,7 @@ Este SAN debe asignarse al certificado asignado al agente de escucha SSL de su p
 
 Skype para Business Server 2019 puede usar el mismo recurso compartido de archivos para el almacenamiento de todos los archivos. Deberá tener en cuenta lo siguiente:
   
-- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre el uso de DFS con Windows Server 2012, consulte [esta página](https://technet.microsoft.com/en-us/library/jj127250.aspx).
+- Un recurso compartido de archivos debe estar en un almacenamiento conectado directo (DAS) o en un almacenamiento en red (SAN), y esto incluye el sistema de archivos distribuidos (DFS) y las matrices redundantes de discos independientes (RAID). Para obtener más información sobre DFS para Windows Server 2012, desproteger [esta página DFS](https://technet.microsoft.com/en-us/library/jj127250.aspx).
     
 - Se recomienda un clúster compartido para el recurso compartido de archivos. Si está utilizando uno, debe organizar en clústeres Windows Server 2012 o Windows Server 2012 R2. ¿Por qué el más reciente para Windows? Las versiones más antiguas no pueden tener los permisos adecuados para habilitar todas las características. Puede usar el Administrador de clústeres para crear los recursos compartidos de archivos y, en este artículo de [creación de un clúster](https://support.microsoft.com/en-us/help/224967) KB le ayudará con esos detalles.
     

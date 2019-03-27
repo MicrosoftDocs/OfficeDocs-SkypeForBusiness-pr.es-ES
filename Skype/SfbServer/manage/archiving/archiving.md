@@ -1,5 +1,6 @@
 ---
 title: Administrar el archivado en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Resumen: Obtenga información sobre cómo administrar el archivado de Skype para Business Server.'
-ms.openlocfilehash: 3044ad4bd8c5b551d5cc43c2d3f6ae9b111c7ca6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 19d8d7eb6a2cd92bb4132d5dfe7703995b1056b9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21008078"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875239"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Administrar el archivado en Skype para Business Server
 
@@ -65,7 +66,7 @@ Puede administrar el archivado con el Panel de control o con Windows PowerShell.
 |Export-CsArchivingData  <br/> |Exporta los registros que se han almacenado en el Skype para la base de datos de archivado de servidor empresarial.  <br/> |
 |Get-CsArchivingConfiguration  <br/> |Devuelve información sobre las opciones de configuración de archivado en la organización.  <br/> |
 |Get-CsArchivingPolicy  <br/> |Devuelve información sobre las directivas de archivado de la organización para las comunicaciones internas y externas.  <br/> |
-|GRANT-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
+|Grant-CsArchivingPolicy  <br/> |Asigna directivas de archivado de sesiones de mensajería instantánea (MI) a usuarios o conjuntos de usuarios. Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |
 |Invoke-CsArchivingDatabasePurge  <br/> |Purga manualmente los registros de la base de datos de archivado.  <br/> |
 |New-CsArchivingConfiguration  <br/> |Crea un nuevo conjunto de configuraciones de mensajería instantánea (MI) que se pueden usar para habilitar o deshabilitar el guardado automático de las sesiones de mensajería instantánea (MI) y para bloquear todos los mensajes instantáneos que no se pueden archivar.  <br/> |
 |New-CsArchivingPolicy  <br/> |Crea directivas de archivado de sesiones de mensajería instantánea (MI). Estas directivas permiten archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos o archivar todas las sesiones de mensajería instantánea (MI) entre usuarios internos y socios externos.  <br/> |

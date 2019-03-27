@@ -1,5 +1,6 @@
 ---
 title: Tabla MonitoredUserSiteLink
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16edc24a-2718-4bb4-b05c-bc7aafa97963
-description: La tabla MonitoredUserSiteLink es un auxiliar. Cada registro representa un vínculo entre dos sitios de usuario.
-ms.openlocfilehash: 7b9b2ddab3bff48105a24f586816666b15c0b9b6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla MonitoredUserSiteLink es una tabla de apoyo. Cada registro representa un vínculo entre dos sitios de usuario.
+ms.openlocfilehash: 8022286289d4acd5fab8ea821c72897d9500597b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874262"
 ---
 # <a name="monitoredusersitelink-table"></a>Tabla MonitoredUserSiteLink
  
-La tabla MonitoredUserSiteLink es un auxiliar. Cada registro representa un vínculo entre dos sitios de usuario.
+En la tabla MonitoredUserSiteLink es una tabla de apoyo. Cada registro representa un vínculo entre dos sitios de usuario.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|

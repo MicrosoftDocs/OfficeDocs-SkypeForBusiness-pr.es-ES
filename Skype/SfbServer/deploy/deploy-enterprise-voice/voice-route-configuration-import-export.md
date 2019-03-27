@@ -1,5 +1,6 @@
 ---
 title: Exportar o importar un archivo de configuración de ruta de voz de Skype para la empresa
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
 description: 'Resumen: Obtenga información sobre cómo exportar o importar un archivo de configuración de enrutamiento de voz de Skype para Business Server mediante el uso de la Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 5cf9021a1cc18daf90fc719723962959142ad92e
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 8f0d8f4e221cbe23ac37c4126a9d26aac46e6d53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886792"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874846"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportar o importar un archivo de configuración de ruta de voz de Skype para la empresa
  
@@ -32,7 +33,7 @@ Si ha realizado los cambios no confirmados en la configuración de cualquier pá
   
 ### <a name="to-export-a-voice-routing-configuration"></a>Para exportar una configuración de enrutamiento de voz
 
-1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
+1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
 2. Abra Skype para el Panel de Control de servidor empresarial.
     

@@ -1,5 +1,6 @@
 ---
-title: Conectar el grupo piloto a servidores perimetrales heredados
+title: Conecte el grupo de servidores piloto a los servidores perimetrales heredados
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de la implementación de Skype para 2019 de servidor empresarial, debe configurar una ruta de federación para su sitio. Para poder usar la ruta federada que está siendo utilizada por la instalación heredada, Skype para Business Server 2019 debe configurarse para utilizar esta ruta.
-ms.openlocfilehash: 6766034cf54fd867c9b270324cb1db8ad2d644d5
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25030570"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874748"
 ---
-# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conectar el grupo piloto a servidores perimetrales heredados
+# <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conecte el grupo de servidores piloto a los servidores perimetrales heredados
 
 Después de la implementación de Skype para 2019 de servidor empresarial, debe configurar una ruta de federación para su sitio. Para poder usar la ruta federada que está siendo utilizada por la instalación heredada, Skype para Business Server 2019 debe configurarse para utilizar esta ruta. 
   

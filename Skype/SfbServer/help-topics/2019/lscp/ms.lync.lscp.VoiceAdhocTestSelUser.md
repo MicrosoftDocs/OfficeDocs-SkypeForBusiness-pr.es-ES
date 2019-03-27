@@ -1,5 +1,6 @@
 ---
-title: Seleccione usuarios de Enterprise Voice
+title: Seleccionar usuarios de Enterprise Voice
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar usuarios de Enterprise Voice para buscar los usuarios habilitados para Enterprise Voice. En el cuadro Buscar, escriba la dirección SIP o mostrar el nombre del usuario que desea buscar y, a continuación, haga clic en Buscar. Para seleccionar un usuario, haga clic en el usuario en la lista de resultados de búsqueda y, a continuación, haga clic en Aceptar. Si no puede encontrar el usuario que está buscando, que el usuario no puede habilitarse para Enterprise Voice.
-ms.openlocfilehash: 615f25aee7a697a4679e929b5067c404939d13a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a801a35fd02bca06179c70c38b285d412aee0428
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998984"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878101"
 ---
-# <a name="select-enterprise-voice-users"></a>Seleccione usuarios de Enterprise Voice
+# <a name="select-enterprise-voice-users"></a>Seleccionar usuarios de Enterprise Voice
  
 Use el cuadro de diálogo **Seleccionar usuarios de Enterprise Voice** para buscar los usuarios habilitados para Enterprise Voice. En el cuadro Buscar, escriba la dirección SIP o mostrar el nombre del usuario que desea buscar y, a continuación, haga clic en **Buscar**. Para seleccionar un usuario, haga clic en el usuario en la lista de resultados de búsqueda y, a continuación, haga clic en **Aceptar**. Si no puede encontrar el usuario que está buscando, que el usuario no puede habilitarse para Enterprise Voice. 
   

@@ -1,5 +1,6 @@
 ---
 title: Administración de la configuración de grupo de respuesta de nivel de la aplicación en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,18 +14,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Administración de la configuración de grupo de respuesta de nivel de la aplicación, como la configuración de música en espera y devolución de llamada, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 4a44ee8988925025b81eac6bd1ee340a3bbef81b
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "23890946"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873699"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración de grupo de respuesta de nivel de la aplicación en Skype para la empresa
  
 Administración de la configuración de grupo de respuesta de nivel de la aplicación, como la configuración de música en espera y devolución de llamada, en Skype para Business Server Enterprise Voice.
   
-Configuración de nivel de la aplicación para la aplicación de grupo de respuesta incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera de forma predeterminada, el período de gracia de devolución de llamada de agente y la configuración del contexto de llamada. Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo. Para ver la configuración de nivel de la aplicación, use el cmdlet **Get-CsRgsConfiguration** . Para modificar la configuración de nivel de la aplicación, use el cmdlet **Set-CsRgsConfiguration** .
+Configuración de nivel de la aplicación para la aplicación de grupo de respuesta incluye la configuración de música en espera predeterminada, el archivo de audio de música en espera de forma predeterminada, el período de gracia de devolución de llamada de agente y la configuración del contexto de llamada. Solo puede definir un conjunto de opciones de configuración de la aplicación por grupo. Para ver la configuración de la aplicación, use el cmdlet **Get-CsRgsConfiguration**. Para modificar la configuración de la aplicación, use el cmdlet **Set-CsRgsConfiguration**.
   
 La música en espera predeterminada se reproduce cuando se pone una llamada en espera solo si no se definió ninguna música en espera personalizada. El contexto de llamada está disponible solo para las colas asignadas a flujos de trabajo interactivos. Si se habilitó el contexto de llamada, un agente puede ver información como tiempo de espera del autor de la llamada, o preguntas y respuestas del flujo de trabajo, cuando se recibe la llamada.
   
@@ -53,7 +54,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   

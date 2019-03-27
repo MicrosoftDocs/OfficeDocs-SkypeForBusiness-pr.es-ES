@@ -1,5 +1,6 @@
 ---
 title: Configuración de dispositivo crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: SerdarS
 author: SerdarSoysal
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
-description: En la página Configuración de dispositivo nuevo o editar configuración de dispositivo, puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y, asimismo, especificar si el teléfono se bloquea automáticamente después de un periodo de inactividad específico.
-ms.openlocfilehash: 9e91313db84a870ef4f85105ddf2b2138d8948aa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+description: En la página Configuración de dispositivo nuevo o editar configuración de dispositivo, puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
+ms.openlocfilehash: 3dd7c9f782160b0f8a58d15e749276b4b2ee6adf
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20997933"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877010"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuración de dispositivo: Crear nueva o editar existente
  
-En la página **Configuración de dispositivo nuevo** o **Editar configuración de dispositivo** , puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo, los ajustes de calidad de servicio de voz (QoS) y, asimismo, especificar si el teléfono se bloquea automáticamente después de un periodo de inactividad específico.
+En la página **Configuración de dispositivo nuevo** o **Editar configuración de dispositivo** , puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -59,8 +60,8 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
   - **Tiempo de espera de bloqueo de teléfono** Puede especificar la longitud mínima de tiempo antes de los bloqueos de teléfono propio. El intervalo para el tiempo de espera va de 0 a 60 minutos; el valor predeterminado es de 10 minutos. Especifique el valor con el formato HH:MM:SS.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Configuración de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)
+[Configuración de dispositivos](ms.lync.lscp.ClientDeviceCfgMain.md)
 
 [Set-CsUCPhoneConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csucphoneconfiguration?view=skype-ps)

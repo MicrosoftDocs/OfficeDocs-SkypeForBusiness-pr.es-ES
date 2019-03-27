@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración de puertos servidor de interoperabilidad de vídeo
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 416ba609-5a32-4c60-b346-ef3119932c91
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: d05c08475d0f89fa32923268da3ca2eeb8fd0795
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: be0ef406f94cc16ba53acad545b38a4010c1ba4f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19504064"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873776"
 ---
 # <a name="video-interop-server-port-settings-expander"></a>Expansor de configuración de puertos servidor de interoperabilidad de vídeo
  
@@ -31,6 +32,6 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
  La configuración de un VTC que es necesario definir en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un respecto se describe en línea al [configurar un VTC para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015](../../plan-your-deployment/video-interop-server.md)

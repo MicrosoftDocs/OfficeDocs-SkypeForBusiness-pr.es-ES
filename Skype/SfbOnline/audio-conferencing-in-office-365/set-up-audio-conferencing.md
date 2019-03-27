@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar acceso telefónico o conferencias de Audio para las personas de su empresa que necesitan utilizar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 64ebcb97157d94a5c25ddff38e8e1ca58d3975ec
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: d57eedec13d9bd1c01ec9365fd42c0a4dfdc2d96
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633302"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877194"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Configurar conferencias de Audio para Skype para la empresa
 
@@ -49,7 +49,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
     >[!NOTE] 
     > Conferencias de audio se incluye en las licencias de Office 365 Enterprise E5 y como un complemento.
         
-2. Después de adquirir las licencias de Audioconferencia, tendrá que asignarlas a aquellas personas de la organización que vayan a programar o coordinar reuniones. Vea [asignar o quitar licencias de Office 365 para profesionales](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ha comprado a las personas de la organización que se van a las reuniones de programación o cliente potencial.
+2. Después de adquirir las licencias de conferencias de Audio, necesita asignarlas a aquellas personas de la organización que se van a programar o potenciales de las reuniones. Vea [asignar o quitar licencias de Office 365 para profesionales](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) ha comprado a las personas de la organización que se van a las reuniones de programación o cliente potencial.
     
 3. También se recomienda que asigne licencias de Créditos de comunicaciones (que no cuesta nada) a los mismos usuarios que asignó licencias en el paso anterior. Para obtener información sobre cómo configurar comunicaciones créditos, vea [Configurar Communications créditos para su organización](/microsoftteams/set-up-communications-credits-for-your-organization).
     

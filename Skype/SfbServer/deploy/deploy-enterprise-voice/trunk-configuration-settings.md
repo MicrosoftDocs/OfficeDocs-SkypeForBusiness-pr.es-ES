@@ -1,5 +1,6 @@
 ---
 title: Crear opciones de configuración de una nueva colección de tronco en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Resumen: Obtenga información sobre cómo crear una nueva colección de tronco opciones de configuración mediante el uso de la Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: f4cb53cecc54ebd547cd6992c4d89aaf2ea9e586
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882182"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877688"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de una nueva colección de tronco en Skype para Business Server 
 
@@ -72,7 +73,7 @@ Al crear opciones de configuración de tronco SIP con Skype para el Panel de Con
     
 5. La propiedad **Estado** para la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.
     
-6. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en haga clic en **Aceptar**.
+6. En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en **Aceptar**.
     
 7. En el cuadro de diálogo de **Skype para el Panel de Control de Business Server** haga clic en **Aceptar**.
     

@@ -1,5 +1,6 @@
 ---
 title: Servicio de registro centralizado en Skype Empresarial 2015
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumen: Obtenga información sobre los componentes de servicio y opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: b2234ac1b52ff41108573f6a90a07bfa28c50a58
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372463"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877758"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Servicio de registro centralizado en Skype Empresarial 2015
  
@@ -57,7 +58,7 @@ El servicio de registro centralizado es una eficaz herramienta de solución de p
   
 Emitir comandos mediante la interfaz de línea de comandos de Windows Server o mediante el Skype de consola de administración de servidor empresarial. Los comandos se ejecutan en el equipo donde haya iniciado sesión y se envían a ClsAgent de forma local o a los demás equipos y grupos de la implementación.
   
-ClsAgent mantiene un archivo de índice de todos los archivos .CACHE disponibles en la máquina local. Con ClsAgent les asigna para que se distribuyen uniformemente entre volúmenes definidos por la opción CacheFileLocalFolders, nunca se consumo más del 80% de cada volumen (es decir, la ubicación de la memoria caché local y el porcentaje puede configurarse mediante el ** Set-CsClsConfiguration** cmdlet). ClsAgent también es responsable de limpiar los archivos de registro de seguimiento de eventos (.etl) antiguos almacenados en la memoria caché de la máquina local. Después de dos semanas (es decir, el período de tiempo es puede configurarse mediante el cmdlet **Set-CsClsConfiguration** ) estos archivos se copian a un recurso compartido de archivos y se elimina del equipo local. Para obtener información detallada, vea [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Cuando se recibe una solicitud de búsqueda, se usan los criterios de búsqueda para seleccionar el conjunto de archivos .etl en la memoria caché a fin de realizar la búsqueda en función de los valores del índice que mantiene el agente.
+ClsAgent mantiene un archivo de índice de todos los archivos .CACHE disponibles en la máquina local. ClsAgent los asigna de manera que se distribuyan uniformemente entre todos los volúmenes definidos por la opción CacheFileLocalFolders, sin consumir nunca más del 80 % de cada volumen (es decir, la ubicación de la memoria caché local y el porcentaje se pueden configurar con el cmdlet **Set-CsClsConfiguration**). ClsAgent también es responsable de limpiar los archivos de registro de seguimiento de eventos (.etl) antiguos almacenados en la memoria caché de la máquina local. Después de dos semanas (que es el período de tiempo que se puede configurar con el cmdlet **Set-CsClsConfiguration**), estos archivos se copian a un recurso compartido de archivos y se eliminan del equipo local. Para más detalles, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps). Cuando se recibe una solicitud de búsqueda, se usan los criterios de búsqueda para seleccionar el conjunto de archivos .etl en la memoria caché a fin de realizar la búsqueda en función de los valores del índice que mantiene el agente.
   
 > [!NOTE]
 > ClsAgent puede buscar en los archivos que se trasladan al recurso compartido de archivos desde el equipo local. Después de que ClsAgent mueve los archivos al recurso compartido de archivos, ClsAgent no realiza el mantenimiento de limpieza y eliminación de archivos. Es necesario definir una tarea administrativa para supervisar el tamaño de los archivos en el recurso compartido de archivos y eliminarlos o archivarlos. 
@@ -99,7 +100,7 @@ El servicio de registro centralizado está configurado para definir qué es el s
    ```
 
     > [!TIP]
-    > Puede restringir o ampliar el ámbito de las opciones de configuración que se devuelven mediante la definición de `-Identity` y un ámbito, como "Site: Redmond" para devolver únicamente la CsClsConfiguration para el sitio de Redmond. Si desea obtener información detallada acerca de una determinada parte de la configuración, puede canalizar el resultado a otro cmdlet de Windows PowerShell. Por ejemplo, para obtener información detallada sobre los escenarios definidos en la configuración para el sitio "Redmond", escriba: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`.
+    > Puede restringir o ampliar el ámbito de las opciones de configuración que se devuelven mediante la definición de `-Identity` y un ámbito, como "Site: Redmond" para devolver únicamente la CsClsConfiguration para el sitio de Redmond. Si desea obtener información detallada acerca de una determinada parte de la configuración, puede canalizar el resultado a otro cmdlet de Windows PowerShell. Por ejemplo, para obtener detalles acerca de los escenarios definidos en la configuración de sitio "Redmond", escriba:`Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Salida de ejemplo de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   

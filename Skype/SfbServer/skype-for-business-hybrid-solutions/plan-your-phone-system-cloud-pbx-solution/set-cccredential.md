@@ -1,5 +1,6 @@
 ---
-title: Conjunto de CcCredential
+title: Set-CcCredential
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,17 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 784ff94a-4b33-4dbd-ba74-27acc3eb6954
 description: 'El cmdlet Set-CcCredential establece las credenciales de la implementación actual de Skype Empresarial Cloud Connector Edition. '
-ms.openlocfilehash: 7680f863ccf082ddb8359c7d3fcefc2c058b6a40
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 547f0b87b006347a337a2c25222aecbd4f402669
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876644"
 ---
-# <a name="set-cccredential"></a>Conjunto de CcCredential
+# <a name="set-cccredential"></a>Set-CcCredential
  
 El cmdlet Set-CcCredential establece las credenciales de la implementación actual de Skype Empresarial Cloud Connector Edition.  
   
-Con conector de nube 2.0 y versiones posteriores, este cmdlet también puede establecer la información de cuenta para el Administrador de la máquina virtual y para el administrador del dominio.
+Con la nube conector versión 2.0 y versiones posterior, este cmdlet también puede establecer la información de cuenta para el Administrador de la máquina virtual y para el Administrador de dominio.
   
 ```
 Set-CcCredential [[-AccountType] <string> {TenantAdmin}]
@@ -40,14 +42,14 @@ Set-CcCredential -AccountType "TenantAdmin"
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Set-CcCredential establece el nombre y la contraseña de la cuenta para el administrador de inquilinos. Para versiones anteriores a 2.0, el administrador debe ser un administrador Global de Office 365. Conector de nube utiliza esta cuenta para obtener información de configuración, establecer parámetros de configuración y estado de actualización del dispositivo a la configuración de clientes de Office 365. Con la versión 2.0 y posterior, también puede usar este cmdlet para actualizar las contraseñas para las cuentas de administrador de dominio y de VmAdmin.
+El cmdlet Set-CcCredential establece el nombre y la contraseña de la cuenta para el administrador de inquilinos. Para las versiones anteriores a 2.0, este administrador tiene que ser un administrador global de Office 365. Conector de nube usa esta cuenta para obtener información de configuración, establezca los parámetros de configuración y estado de actualización de dispositivo a la configuración de inquilino de Office 365. Con la versión 2.0 y versiones posteriores, también puede usar este cmdlet para actualizar las contraseñas de las cuentas VmAdmin y Administrador de dominio.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |  Obligatorio <br/> |System.String  <br/> |  El valor del parámetro debe ser "TenantAdmin", "VmAdmin" o "DomainAdmin". <br/> |
+| AccountType <br/> | Requerido <br/> |System.String  <br/> |  El valor del parámetro debe ser "TenantAdmin", "VmAdmin" o "DomainAdmin". <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

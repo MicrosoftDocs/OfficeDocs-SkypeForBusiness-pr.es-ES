@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de almacenes de archivos
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
-description: 'El nodo de almacenes de archivos muestra los almacenes de archivo en la topología. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 8cb399b89332a23e1844b13033ba203f59bbfcd1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Almacenes de archivos contiene los almacenes de archivos de la topología. You can perform the following action:'
+ms.openlocfilehash: f86bf9903b99604658d3b11f3f0bff71d3d5daae
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876373"
 ---
 # <a name="file-stores-scope-node"></a>Nodo de ámbito de almacenes de archivos
  

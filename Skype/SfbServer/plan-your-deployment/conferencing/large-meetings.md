@@ -1,5 +1,6 @@
 ---
 title: Planeación de reuniones grandes en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: Lea este tema para obtener más información sobre los procedimientos recomendados para implementar y administrar reuniones grandes en Skype para Business Server.'
-ms.openlocfilehash: d77a3b3fa5f989f36fd9097499de0fd75991b5e4
-ms.sourcegitcommit: a4f2d3440399f0a17fb8f6d364cfd2dc4b0bf8db
+ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30342215"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877912"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planeación de reuniones grandes en Skype para Business Server
  
@@ -26,7 +27,7 @@ El tamaño de las reuniones que puede admitir Skype para Business Server depende
 > En este tema se centra en procedimientos recomendados para grandes reuniones compatibles con Skype para Business Server. Si la organización requiere más grandes capacidades de reunión, considere la posibilidad de implementar un entorno híbrido que aprovecha las ventajas de la difusión de reunión de Skype, un nuevo servicio en línea que forma parte de Office 365. 
 
 > [!NOTE]
-> La difusión de reunión de Skype permite a los usuarios hospedar y difundir reuniones a grandes públicos en línea de hasta 10.000 participantes. El uso de la difusión de reunión de Skype requiere que Skype Empresarial Server ya esté configurado en una configuración híbrida con un inquilino de producción de Office 365. Todos los usuarios necesitan tener un inquilino en línea establecido como requisito previo. Si está interesado en implementar una solución híbrida que puede aprovechar la difusión de reunión de Skype, vea [¿Qué es una Difusión de reunión de Skype?](https://go.microsoft.com/fwlink/?LinkId=617071) y [Configure your on-premises deployment for Skype Meeting Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
+> La difusión de reunión de Skype permite a los usuarios hospedar y difundir reuniones a grandes públicos en línea de hasta 10.000 participantes. El uso de la difusión de reunión de Skype requiere que Skype Empresarial Server ya esté configurado en una configuración híbrida con un inquilino de producción de Office 365. Todos los usuarios necesitan tener un inquilino en línea establecido como requisito previo. Si está interesado en la implementación de una solución híbrida que puede aprovechar las ventajas de Difundir presentación de reunión de Skype, vea [¿Qué es una reunión de Skype difusión?](https://go.microsoft.com/fwlink/?LinkId=617071) y [Configure su implementación local para difundir presentación de reunión de Skype](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Las reuniones grandes normalmente tienen las siguientes características:
   

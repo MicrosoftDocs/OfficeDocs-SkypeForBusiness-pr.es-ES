@@ -1,5 +1,6 @@
 ---
 title: Administrar la configuración de PIN en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4a104e2-830c-47f1-a5dd-de7a937cc83a
 description: 'Resumen: Administrar la configuración de PIN en Skype para Business Server.'
-ms.openlocfilehash: 4c5d9ac081256230ea4699bcbf03ee71a8d1a712
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7a61c62f31fb5f86dde03c791c3eea5b821ea804
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20965656"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874608"
 ---
 # <a name="manage-pin-settings-in-skype-for-business-server"></a>Administrar la configuración de PIN en Skype para Business Server
  

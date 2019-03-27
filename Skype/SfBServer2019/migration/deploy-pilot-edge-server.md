@@ -1,5 +1,6 @@
 ---
 title: Implementar el servidor perimetral piloto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este tema resalta las opciones de configuración que deben tener en cuenta antes de implementar su Skype para servidor perimetral de Business Server 2019. Los procesos de implementación y configuración de Skype para Business Server 2019 son muy similares a Skype para Business Server 2015. Esta sección resalta sólo puntos clave que debe tener en cuenta como parte de la implementación del grupo piloto. Para obtener instrucciones detalladas, vea implementar el acceso de usuarios externos en Skype para Business Server 2019 en la documentación de implementación, que se describe el proceso de implementación y también se proporciona información de configuración para el acceso de usuarios externos.
-ms.openlocfilehash: 3ae1508c56ac3240cfb9904415090ff1bdf18677
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029863"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876201"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 

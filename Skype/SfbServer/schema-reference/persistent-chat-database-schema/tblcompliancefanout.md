@@ -1,5 +1,6 @@
 ---
 title: tblComplianceFanout
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,28 +10,29 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
-description: tblComplianceFanout contiene todos los servidores que se procesan un evento de conformidad.
-ms.openlocfilehash: f9141a6f7144c20d8039756387a889cc25cc8f50
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: la tabla Compliancefanout contiene todos los servidores que procesan un evento de cumplimiento.
+ms.openlocfilehash: 7f24b1a78dab16b43036734e21d5a8a9b876ca7a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874062"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  
-tblComplianceFanout contiene todos los servidores que se procesan un evento de conformidad.
+la tabla Compliancefanout contiene todos los servidores que procesan un evento de cumplimiento.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|fanoutEventID  <br/> |int  <br/> |ID de evento.  <br/> |
-|fanoutServerID  <br/> |int  <br/> |Identidad del servidor (correspondiente a la tabla de tblServerIdentity.serverID).  <br/> |
+|fanoutEventID  <br/> |int  <br/> |Identificador de evento.  <br/> |
+|fanoutServerID  <br/> |int  <br/> |Identidad del servidor (correspondiente a la tabla tblServerIdentity.serverID).  <br/> |
    
 **Clave**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
-|fanoutEventID  <br/> |Clave externa con la búsqueda en la tabla tblComplianceData.cmplEventID.  <br/> |
+|fanoutEventID  <br/> |Clave externa con búsqueda en la tabla Compliancedata.cmpleventid.  <br/> |
    
 

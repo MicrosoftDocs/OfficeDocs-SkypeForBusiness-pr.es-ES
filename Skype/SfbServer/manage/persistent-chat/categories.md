@@ -1,5 +1,6 @@
 ---
 title: Administrar categorías en el servidor de chat persistente en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,18 +11,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Resumen: Obtenga información sobre cómo administrar las categorías de servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 01b1bad9fd8b68eee68e1980fcb79f69462e9dfa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a0d70ec0266fc85d94c44c11ba15e42eea0be44b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20979508"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874196"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar categorías en el servidor de chat persistente en Skype Empresarial Server 2015
  
 **Resumen:** Obtenga información sobre cómo administrar las categorías de servidor de Chat persistente en Skype para Business Server 2015.
   
-Una categoría es una estructura lógica para la organización de los salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que pueden crear o unirse a los salones de chat. Categorías de salón de chat contienen salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos, como el nombre y descripción. La categoría tiene propiedades que se pueden establecer para controlar el comportamiento de los salones de chat que pertenecen a ella; Por ejemplo, si los salones de chat permitir invitaciones o cargas de archivos, o contienen el historial de Chat. 
+Una categoría es una estructura lógica para la organización de los salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que pueden crear o unirse a los salones de chat. Categorías de salón de chat contienen salones de chat, pero no otras categorías. Cada categoría describe su contenido con metadatos como Name y Description. La categoría tiene propiedades que se pueden establecer para controlar el comportamiento de los salones de chat que pertenecen a ella; Por ejemplo, si los salones de chat permitir invitaciones o cargas de archivos, o contienen el historial de Chat. 
   
 El uso correcto de las categorías facilita considerablemente la creación y la administración de los salones de chat. Como administrador del servidor de chat persistente, puede definir los miembros permitidos (AllowedMembers) y los creadores para cada categoría, así como también definir los comportamientos y la configuración predeterminados de los salones de chat que se aplicarán a todos los salones de chat creados en la categoría. Por ejemplo, si establece AllowedMembers la categoría a contoso.com, puede agregar cualquier grupo o usuario de Contoso como un miembro a salones de chat en esa categoría. Si establece en Ventas los miembros permitidos de una categoría, solo los usuarios y los grupos en esa lista de distribución pueden agregarse como miembros de los salones de chat de esa categoría. La propiedad de los creadores permite controlar quién puede crear salones de chat en esa categoría. Una vez que se crea el salón de chat, se puede designar a cualquier miembro del grupo de miembros permitidos como director de las funciones de administración en curso en los salones (por ejemplo, los cambios y las aprobaciones de pertenencia).
   
@@ -102,7 +103,7 @@ Puede configurar los siguientes parámetros para las categorías:
     
 - DeniedMembers. Enumera los usuarios que no tienen permiso para obtener acceso a los salones de chat en la categoría.
     
-Para obtener información completa sobre la sintaxis de cmdlet, incluidos todos los parámetros, vea [Skype para Shell de administración de Business Server 2015](../management-shell.md).
+Para ver información completa sobre la sintaxis del cmdlet, incluso todos los parámetros, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 ### <a name="create-a-new-category"></a>Crear una categoría
 

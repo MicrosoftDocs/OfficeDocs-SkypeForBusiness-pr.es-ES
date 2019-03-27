@@ -1,5 +1,6 @@
 ---
-title: Obtener los últimos datos de integración
+title: Obtener últimos datos de integración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumen: Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: b2e759766987b6ee52795845ee55546920181807
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531790"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874426"
 ---
-# <a name="get-last-integration-data"></a>Obtener los últimos datos de integración
+# <a name="get-last-integration-data"></a>Obtener últimos datos de integración
  
 **Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
   
 La operación de obtener datos de integración de última forma parte de la API de datos para el panel de calidad de llamadas.
   
-## <a name="get-last-integration-data"></a>Obtener los últimos datos de integración
+## <a name="get-last-integration-data"></a>Obtener últimos datos de integración
 
 Operación de datos de integración último Get devuelve la lista de los últimos 5 éxito o error de archivado y el procesamiento del cubo.
   

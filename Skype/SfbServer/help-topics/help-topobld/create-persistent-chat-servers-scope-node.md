@@ -1,5 +1,6 @@
 ---
 title: Crear nodo de ámbito de servidores de chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c5f2873f-6601-4483-850d-c135b530392a
 description: 'Botón secundario haga clic en el grupo de Chat persistente en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: e8126dd3576d71a955c45a53c4fd2cd66eb14142
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: 76027854078ca7ab90422943964fb920f8e85fd9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503441"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877961"
 ---
 # <a name="create-persistent-chat-servers-scope-node"></a>Crear nodo de ámbito de servidores de chat persistente
  
@@ -31,7 +32,7 @@ Además de la opción Nuevo grupo de chat persistente, puede realizar las tareas
     
 - **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

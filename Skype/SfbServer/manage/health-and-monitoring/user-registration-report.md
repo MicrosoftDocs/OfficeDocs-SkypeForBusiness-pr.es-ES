@@ -1,5 +1,6 @@
 ---
 title: Informe de registro de usuario en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Resumen: Información sobre el informe de registro de usuario en Skype para Business Server.'
-ms.openlocfilehash: 6136e90700bf371621f2b7b27c87453ceb04d854
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: ba60e691a8f2c7c976fa1c8dbe79ee3668e9c81a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873446"
 ---
 # <a name="user-registration-report-in-skype-for-business-server"></a>Informe de registro de usuario en Skype para Business Server
  
@@ -65,7 +66,7 @@ La métrica de usuarios únicos activos también proporciona los datos más sign
   
 ## <a name="filters"></a>Filtros
 
-Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de registro de usuario le permite ver los datos de todos los servidores perimetrales y grupo de registrador o para ver los datos de un grupo de servidores individual. También se puede elegir cómo agrupar los datos. En este caso, los registros se agrupan por hora, día, semana o mes.
+Los filtros ofrecen el medio para devolver un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. Por ejemplo, el informe de registro de usuario le permite ver los datos de todos los servidores perimetrales y grupo de registrador o para ver los datos de un grupo de servidores individual. También se puede elegir cómo agrupar los datos. En este caso, los registros se agrupan por hora, día, semana o mes.
   
 En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de registro de usuario.
   

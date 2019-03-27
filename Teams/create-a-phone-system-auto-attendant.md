@@ -1,5 +1,5 @@
 ---
-title: Configurar un operador automático para el sistema telefónico
+title: Configurar un operador automático para el Sistema telefónico
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,14 +21,14 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas.
-ms.openlocfilehash: 83a59090e447a5bfbda4cf72481b9d6b1ce21a0e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 5071b3c26809e56df4cdd922ed1df2e67fc9481c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542322"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873482"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático para el sistema telefónico
+# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático para el Sistema telefónico
 
 Operadores automáticos permiten a las personas que llaman a su organización y navegue a un sistema de menús a obtienen al departamento de derecho, cola, persona o el operador de llamada. Puede crear a un operador automático para la organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático de, vaya a **voz** en el panel de navegación izquierdo y, a continuación, seleccione **operadores automáticos** > **Agregar nuevo**.
 
@@ -37,19 +37,21 @@ Si desea obtener más información sobre los operadores automáticos, consulte [
 > [!NOTE]
 > En este artículo se aplica a Microsoft Teams y Skype para profesionales en línea.
 
-## <a name="step-1---getting-started"></a>Paso 1: tareas iniciales
+## <a name="step-1---get-started"></a>Paso 1: Introducción
 
-- Antes de poder crear y configurar los operadores automáticos, si el operador automático tendrá un número de teléfono (y muchos de segundo nivel solicita o anidados automático automáticos realizarán no requieren un número de teléfono) necesita obtener o transferir su pago existente o un servicio gratuito números . Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > página de**números de teléfono** . Para obtener sus números de servicio, vea [los números de teléfono del servicio de obtención](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)o, si desea transferir y el número de servicio existente, vea [transferir los números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio; vaya [aquí](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
+- Antes de poder crear y configurar los operadores automáticos, si el operador automático tendrá un número de teléfono (y muchos de segundo nivel solicita o anidados automático automáticos realizarán no requieren un número de teléfono) necesita obtener o transferir su pago existente o un servicio gratuito números . Después de obtener el teléfono de pago o números de teléfono gratuito de servicio, se mostrarán en el **Centro de administración de equipos de Microsoft** > **voz** > página de**números de teléfono** . Para obtener sus números de servicio, vea [los números de teléfono del servicio de obtención](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)o, si desea transferir y el número de servicio existente, vea [transferir los números de teléfono para Office 365](transfer-phone-numbers-to-office-365.md). **User (subscriber)** numbers can't be assigned to auto attendants. Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio; vaya [aquí](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
     > [!CAUTION]
     > Para obtener y usar los números de teléfono gratuitos, necesita configurar créditos de comunicaciones. Para ello, consulte [¿Qué son los créditos de comunicaciones?](what-are-communications-credits.md) y [Configurar créditos de comunicaciones para su organización](set-up-communications-credits-for-your-organization.md).
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para usarse en operadores automáticos. Los números de los operadores automáticos que puede tener depende de las licencias números de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vaya [aquí](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para usarse en operadores automáticos. Los números de los operadores automáticos que puede tener depende de las licencias números de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para licencias de complemento de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) o [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md). .
 
     > [!TIP]
-    > Para redirigir las llamadas a un operador o una opción de menú que es un usuario con una licencia de **Sistema telefónico** en línea, debe habilitarlos para Enterprise Voice o asignar al llamar a los planes en Office 365 a ellos. See [Assign Skype for Business and Microsoft Teams licenses](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > Para redirigir las llamadas a un operador o una opción de menú que es un usuario con una licencia de **Sistema telefónico** en línea, debe habilitarlos para Enterprise Voice o asignar al llamar a los planes en Office 365 a ellos. Vea [Asignar Skype para licencias de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses) o [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:`Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 ## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
+
+[!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 > [!IMPORTANT]
 > Cada cola de llamada es necesario tener asociado a una [cuenta del recurso](manage-resource-accounts.md). Debe crear la cuenta del recurso en primer lugar, a continuación, puede asociar para el operador automático.
@@ -363,7 +365,7 @@ Estos son los cmdlets que necesita para administrar un operador automático.
 
 [Esto es lo obtiene con el Sistema telefónico de Office 365](/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
-[Obtener números de teléfono de servicio](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers.md)
+[Obtener números de teléfono de servicio](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
@@ -371,4 +373,5 @@ Estos son los cmdlets que necesita para administrar un operador automático.
 
 [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
 
-[Ejemplo de pequeña empresa: configurar un operador automático](/skypeforbusiness/what-is-phone-system-in-office-365/tutorial-org-aa.yml)  
+[Ejemplo de pequeña empresa: configurar un operador automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa
+)  

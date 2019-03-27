@@ -1,5 +1,6 @@
 ---
 title: Tabla UserAgentDef (QoE)
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,29 +10,30 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cfd8e3e0-4076-4162-9381-5276da8316d9
-description: La tabla UserAgentDef asigna identificadores de agente de usuario nombres descriptivos del agente. Agentes de usuario son clientes de software utilizados para conectar con Skype para Business Server.
-ms.openlocfilehash: fac9f838185482a13bb778cfc7f27f78baf2c66f
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla UserAgentDef asigna identificadores de agente de usuario a nombres descriptivos del agente. Los agentes de usuario son los clientes de software que usa para conectarse a Skype para Business Server.
+ms.openlocfilehash: 8f607be022851a6622060c47dedc5ac36358a3c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876616"
 ---
 # <a name="useragentdef-table-qoe"></a>Tabla UserAgentDef (QoE)
  
-La tabla UserAgentDef asigna identificadores de agente de usuario nombres descriptivos del agente. Agentes de usuario son clientes de software utilizados para conectar con Skype para Business Server.
+En la tabla UserAgentDef asigna identificadores de agente de usuario a nombres descriptivos del agente. Los agentes de usuario son los clientes de software que usa para conectarse a Skype para Business Server.
   
 |**UAType**|**UAName**|**UACategory**|
 |:-----|:-----|:-----|
 |1  <br/> |MediationServer  <br/> |MediationServer  <br/> |
 |2  <br/> |MCU de audio y vídeo  <br/> |MCU de audio y vídeo  <br/> |
-|4  <br/> |Componente opcional  <br/> |Componente opcional  <br/> |
+|4  <br/> |OC  <br/> |OC  <br/> |
 |8  <br/> |OCPhone  <br/> |OCPhone  <br/> |
 |16  <br/> |LMC  <br/> |LMC  <br/> |
 |32  <br/> |DVT  <br/> |DVT  <br/> |
 |64  <br/> |MM  <br/> |MM  <br/> |
 |64  <br/> |MC  <br/> |MM  <br/> |
 |128  <br/> |Operador  <br/> |Operador  <br/> |
-|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |ENTIDADES EMISORAS DE CERTIFICADOS  <br/> |
+|256  <br/> |Conferencing_Announcement_Service_1.0  <br/> |ENTIDADES DE CERTIFICACIÓN  <br/> |
 |512  <br/> |Conferencing_Attendant_1.0  <br/> |CAA  <br/> |
 |512  <br/> |Conference_Auto_Attendant_1.0  <br/> |CAA  <br/> |
 |1024  <br/> |Response_Group_Service  <br/> |RGS  <br/> |

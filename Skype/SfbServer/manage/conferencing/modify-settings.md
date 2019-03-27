@@ -1,5 +1,6 @@
 ---
 title: Modificar valores de configuración de Skype para Business Server de la reunión
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 11d1f9ac-0029-429b-be2b-d7591abfc192
 description: 'Resumen: Obtenga información sobre cómo modificar los valores de configuración de Skype para Business Server de la reunión.'
-ms.openlocfilehash: b4b8307711fcf7b120c867debe5ab3e2978f6ef7
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 73127bfce04c8c124ce8036222d755de6bc37058
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20978970"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876051"
 ---
 # <a name="modify-meeting-configuration-settings-in-skype-for-business-server"></a>Modificar valores de configuración de Skype para Business Server de la reunión
  

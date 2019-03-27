@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración directiva de PIN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 4a68227c-f559-442f-955b-5c4ccc06b7f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 8ee23702098c005bfa24fbf0e5e05f1d70b22a7a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 441c05f21ebd18e60e90e6e1a97ffa98fa733d92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996440"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874303"
 ---
-# <a name="users-view-or-configure-pin-policy"></a>Usuarios: Ver o configurar Directiva de PIN
+# <a name="users-view-or-configure-pin-policy"></a>Usuarios: Ver o configurar directiva de PIN
  
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
   

@@ -1,5 +1,6 @@
 ---
 title: Componentes de conectividad de RTC en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Obtenga información sobre el enlace troncal SIP y puertas de enlace RTC para Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: d770e47917d8fc1d56e6a74d896938151ac00895
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 06c4b79d07b776b4f5820f67ab86ac958db32686
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887994"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877003"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>Componentes de conectividad de RTC en Skype para Business Server
  
@@ -55,7 +56,7 @@ Escenarios de integración de Enterprise Voice y PBX admitidos son los siguiente
 - PBX de multiplexación por división de tiempo (TDM), con una puerta de enlace RTC independiente.
     
 > [!NOTE]
-> La omisión de medios no interactuará con todas las puertas de enlace RTC, las IP-PBX y los SBC. Microsoft ha probado una serie de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con los IP-PBX de Cisco. Desvío de medios es compatible solo con productos y versiones que aparece al [Unified Communications Open Interoperability Program - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
+> La omisión de medios no interactuará con todas las puertas de enlace RTC, las IP-PBX y los SBC. Microsoft ha probado una serie de puertas de enlace RTC y SBC con socios certificados y ha realizado algunas pruebas con las IP-PBX de Cisco. Desvío de medios es compatible solo con productos y versiones que aparece al [Unified Communications Open Interoperability Program - Lync Server](https://go.microsoft.com/fwlink/p/?linkId=214406). 
   
 Para obtener información detallada acerca de los socios que ofrecen soluciones de Enterprise Voice, consulte el [sitio Web de socios de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=202836).
   

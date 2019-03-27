@@ -1,5 +1,6 @@
 ---
 title: Definición de reglas de conversión en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Enterprise Voice Business Server enruta las llamadas en función de los números de teléfono normalizados al formato E.164. Esto significa que se deben normalizar todas las cadenas de marcado al formato E.164 con el fin de realizar la búsqueda inversa de números (RNL) por lo que se pueden traducir a sus URI de SIP coincidente. Skype para Business Server proporciona la capacidad de manipular el identificador de llamada y la presentación del identificador de autor de la llamada.
-ms.openlocfilehash: e3feda41a3057ea6f0ae6d7946f3e21e75ba7f81
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: b85241cfa7fc8f14732c92994660cdeb2088c874
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223006"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875478"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definición de reglas de conversión en Skype para Business Server
 
@@ -29,17 +30,17 @@ Skype para Business Server ofrece la opción de traducir también el número de 
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener información detallada, vea [delegar permisos de instalación](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de Control. Para obtener información detallada sobre los distintos métodos que puede usar para iniciar el Skype para el Panel de Control, consulte [Install and open herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Configuración del tronco**.
+3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Configuración de tronco**.
 4. En la página Configuración de tronco, haga doble clic en el tronco existente (por ejemplo, **Global**) para abrir el cuadro de diálogo **Editar configuración de tronco**.
 5. Para configurar la presentación del identificador de llamada:
     - Para elegir una o varias reglas de una lista de todas las reglas de conversión disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Reglas de traducción de números de llamada**, haga clic en las reglas que quiera asociar al tronco y, después, haga clic en **Aceptar**.
     - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. 
     - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**.
     - Para copiar una regla de conversión existente para usar como punto de partida para definir una nueva regla, haga clic en el nombre de la regla, haga clic en **Copiar**y, a continuación, haga clic en **Pegar**.
-    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Quitar**.
+    - Para quitar una regla de conversión del plan de marcado, resalte el nombre de la regla y haga clic en **Eliminar**.
 
 > [!Warning] 
-> No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas pudieran entrar en conflicto. 
+> No asocie reglas de conversión a un tronco si ha configurado reglas de conversión en la entidad del mismo nivel que el tronco asociado, ya que es posible que ambas reglas puedan entrar en conflicto. 
 
 ## <a name="called-id-presentation"></a>Presentación del identificador llamado
 

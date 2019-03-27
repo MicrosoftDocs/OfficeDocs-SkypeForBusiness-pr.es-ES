@@ -1,5 +1,6 @@
 ---
 title: Configurar una región de red
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d3fe1f6-e987-4b21-aafd-4ceaf523027a
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 2edf1fd2897bab2f754224bfa2aa5dbb3467fd08
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: a5e4ad13bf742c75bf4a2e8dfadb47f444ccb1e0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23245827"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873804"
 ---
 # <a name="configure-a-network-region"></a>Configurar una región de red
 

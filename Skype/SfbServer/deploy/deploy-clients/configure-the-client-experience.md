@@ -1,5 +1,6 @@
 ---
 title: Configurar la experiencia del cliente con Skype para profesionales de 2015
+ms.reviewer: ''
 ms.author: chucked
 author: chuckedmonson
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la experiencia del cliente de Skype para los usuarios empresariales.'
-ms.openlocfilehash: 9e2a7d53788eda36fc18cb9094cde096864ce2ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375361"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875795"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia del cliente con Skype para profesionales de 2015
  
@@ -98,19 +99,19 @@ Si desea mostrar la interfaz de usuario de Lync cuando los usuarios inician el c
 
 La interfaz de usuario de Lync se mostrará ahora cuando los usuarios inicien el cliente Skype Empresarial por primera vez.
   
-### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Controlar la visualización del tutorial de la pantalla de inicio de sesión
+### <a name="control-the-display-of-the-welcome-screen-tutorial"></a>Tutorial sobre controlar cómo se muestra la pantalla de bienvenida
 
 Cuando los usuarios abren la Skype para clientes empresariales, el comportamiento predeterminado es mostrar una pantalla de bienvenida que incluye la *mayoría de las personas formular a 7 sugerencias rápidas para*. Puede desactivar la visualización de la pantalla de inicio de sesión, pero puede permitir que los usuarios sigan teniendo acceso al tutorial agregando el siguiente valor de registro en el equipo del cliente:
   
 En la clave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, cree un **valor DWORD (32 bits)**. Es preciso que el **Nombre del valor** sea **IsBasicTutorialSeenByUser** y que los **Datos del valor** se establezcan en **1**.
   
-La clave debería ser similar a esta:
+La clave necesita ser similar a la siguiente:
   
 `"IsBasicTutorialSeenByUser"=dword:00000001`
 
 ### <a name="turn-off-the-client-tutorial"></a>Desactivar el tutorial del cliente
 
-Si no desea que los usuarios puedan tener acceso al tutorial, puede desactivar el tutorial del cliente con el siguiente valor de registro:
+Si no quiere que los usuarios obtengan acceso al tutorial, puede desactivar el tutorial del cliente con el siguiente valor del registro:
   
 En la clave **[HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync]**, cree un **valor DWORD (32 bits)**. Es preciso que el **Nombre del valor** sea **TutorialFeatureEnabled** y que los **Datos del valor** se establezcan en **0**.
   
@@ -129,24 +130,24 @@ Si su organización tiene ambos Skype para Business Server y a implementar Lync 
 
 |**Versión del servidor**|**Configuración de EnableSkypeUI**|**Experiencia del cliente**|
 |:-----|:-----|:-----|
-|Skype Empresarial Server |Predeterminado  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server  |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server  |Falso  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Predeterminado  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Verdadero  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Falso  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
-|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario no puede cambiar a Skype para la empresa más adelante)  <br/> |
+|Skype Empresarial Server |Valor predeterminado  <br/> |Skype Empresarial  <br/> |
+|Skype Empresarial Server  |True  <br/> |Skype Empresarial  <br/> |
+|Skype Empresarial Server  |False  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Valor predeterminado  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |True  <br/> |Skype Empresarial  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |False  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario puede cambiar a Skype para la empresa más adelante si cambia la configuración de la interfaz de usuario en $true)  <br/> |
+|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Valor predeterminado  <br/> |Usuario más frecuentes cambiar al modo de Lync (el usuario no puede cambiar a Skype para la empresa más adelante)  <br/> |
    
 En la tabla siguiente muestra la experiencia del cliente cuando el administrador cambia la configuración inicial para la experiencia de Skype UI:
   
 
 |**Versión del servidor**|**Configuración de EnableSkypeUI**|**La interfaz de usuario de cliente = Lync**|**IU del cliente = Skype Empresarial**|
 |:-----|:-----|:-----|:-----|
-|Skype Empresarial Server |Verdadero  <br/> |Usuario que se le pida que cambie a Skype para la empresa  <br/> |Skype Empresarial  <br/> |
-|Skype Empresarial Server |Falso  <br/> |Modo de Lync  <br/> |Usuario más frecuentes cambiar al modo de Lync  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Verdadero  <br/> |Usuario que se le pida que cambie a Skype para la empresa  <br/> |Skype Empresarial  <br/> |
-|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |Falso  <br/> |Modo de Lync  <br/> |Usuario más frecuentes cambiar al modo de Lync  <br/> |
-|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Predeterminado  <br/> |Modo de Lync (no se puede cambiar a Skype para la empresa)  <br/> |Modo de Lync (no se puede cambiar a Skype para la empresa)  <br/> |
+|Skype Empresarial Server |True  <br/> |Usuario que se le pida que cambie a Skype para la empresa  <br/> |Skype Empresarial  <br/> |
+|Skype Empresarial Server |False  <br/> |Modo de Lync  <br/> |Usuario más frecuentes cambiar al modo de Lync  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |True  <br/> |Usuario que se le pida que cambie a Skype para la empresa  <br/> |Skype Empresarial  <br/> |
+|Lync Server 2010 o Lync Server 2013 (con correcciones correctos)  <br/> |False  <br/> |Modo de Lync  <br/> |Usuario más frecuentes cambiar al modo de Lync  <br/> |
+|Lync Server 2010 o Lync Server 2013 (sin revisiones)  <br/> |Valor predeterminado  <br/> |Modo de Lync (no se puede cambiar a Skype para la empresa)  <br/> |Modo de Lync (no se puede cambiar a Skype para la empresa)  <br/> |
    
 Las versiones de revisión necesarias para administrar la configuración de la Skype para clientes empresariales son:
   
@@ -189,11 +190,11 @@ El siguiente procedimiento describe cómo modificar el registro para que la expe
    
 8. Haga clic en **Aceptar** para guardar los cambios y cierre el GPO.
     
-A continuación, tendrá que vincular el GPO que ha creado al grupo de usuarios al que desea asignar la política, como una UO.
+A continuación, es preciso que vincule el GPO que creó con el grupo de usuarios al que desea asignar la directiva, como una UO.
   
-### <a name="to-use-the-gpo-to-assign-the-policy"></a>Utilizar el GPO para asignar la directiva
+### <a name="to-use-the-gpo-to-assign-the-policy"></a>Para usar el GPO a fin de asignar la directiva
 
-1. En la consola de administración de directivas de grupo, haga clic con el botón derecho en la UO a la que desea asignar la directiva y seleccione **Vincular a un GPO existente**.
+1. En la Consola de administración de directivas de grupo, haga clic con el botón secundario en la UO a la que desea asignar la directiva y, luego, seleccione **Vincular con un GPO existente**.
     
 2. En el diálogo **Seleccionar GPO**, seleccione el GPO que ha creado y seleccione **Aceptar**.
     

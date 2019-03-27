@@ -1,5 +1,6 @@
 ---
-title: Vista de ConferenceSessionDetails
+title: Vista ConferenceSessionDetails
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,61 +10,62 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
-description: La vista ConferenceSessionDetails almacena información acerca de las sesiones con varios participantes. Cada registro representa una sesión de conferencia, que podría ser la sesión con el foco o la sesión con un servidor de conferencia específica. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 8e81f33a68fc90a589f4d3574f9ca3070076c479
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: La vista ConferenceSessionDetails almacena información acerca de las sesiones entre varias partes. Cada registro representa una sesión de conferencia, que podría ser la sesión con foco o la sesión con un servidor de conferencia específico. Esta vista se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: 448b73326f7caf7657d146939eb01729e97628f9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874126"
 ---
-# <a name="conferencesessiondetails-view"></a>Vista de ConferenceSessionDetails
+# <a name="conferencesessiondetails-view"></a>Vista ConferenceSessionDetails
  
-La vista ConferenceSessionDetails almacena información acerca de las sesiones con varios participantes. Cada registro representa una sesión de conferencia, que podría ser la sesión con el foco o la sesión con un servidor de conferencia específica. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista ConferenceSessionDetails almacena información acerca de las sesiones entre varias partes. Cada registro representa una sesión de conferencia, que podría ser la sesión con foco o la sesión con un servidor de conferencia específico. Esta vista se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se utiliza junto con SessionIdSeq para identificar una sesión. Consulte la [tabla de Skype para Business Server 2015 los cuadros de diálogo](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Número de identificación para identificar la sesión. Se utiliza junto con SessionIdTime para identificar una sesión. Consulte la [tabla de Skype para Business Server 2015 los cuadros de diálogo](dialogs.md) para obtener más información. <br/> |
-|**InviteTime** <br/> |datetime  <br/> |Hora de la primera solicitud de invitación. Normalmente, este campo se rellena con datos generados desde el mensaje de invitación inicial en la sesión. Si no aparece ningún mensaje de invitación se rellena el campo con la fecha y hora de la primer mensaje SIP pertinente (BYE, Cancelar, mensaje o información).  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se utiliza en forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con SessionIdTime para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
+|**InviteTime** <br/> |datetime  <br/> |Hora de la primera solicitud INVITE. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI de la conferencia.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI de tipo de conferencia. Consulte la [tabla de UriTypes](uritypes.md) para obtener más información. <br/> |
-|**ConfInstance** <br/> |uniqueidentifier  <br/> |Identificador que distingue entre instancias de conferencias periódicas. Cada instancia de conferencia periódica tiene el mismo ConferenceURI pero un valor diferente de ConfInstance.  <br/> |
-|**McuConferenceUri** <br/> |nvarchar(450)  <br/> |URI del servidor de conferencias.  <br/> |
-|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del servidor de conferencias. Consulte la [tabla de UriTypes](uritypes.md) para obtener más información. <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |URI del usuario implicado en la sesión.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario cuya formaba parte de la sesión. Consulte la [tabla de UriTypes](uritypes.md) para obtener más información. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Inquilinos del usuario cuya formaba parte de la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
-|**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificador único del usuario cuya formaba parte de la sesión.  <br/> |
-|**Hora de finalización** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
-|**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Versión de servidor de conferencia.  <br/> |
-|**ConferenceClientType** <br/> |int  <br/> |Tipo de servidor de conferencia. Consulte la [tabla de UserAgentDef](useragentdef.md) para obtener más información. <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI de tipo de conferencia. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**ConfInstance** <br/> |uniqueidentifier  <br/> |Identificador que diferencia entre instancias de conferencias periódicas. Cada instancia de conferencia periódica tiene el mismo ConferenceURI, pero un valor distinto de ConfInstance.  <br/> |
+|**McuConferenceUri** <br/> |nvarchar(450)  <br/> |URI del servidor de conferencia.  <br/> |
+|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del servidor de conferencia. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**UserUri** <br/> |nvarchar(450)  <br/> |URI del usuario que participó en la sesión.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que participó en la sesión. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que participó en la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
+|**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificador único del usuario que participó en la sesión.  <br/> |
+|**EndTime** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
+|**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Versión del servidor de conferencias.  <br/> |
+|**ConferenceClientType** <br/> |int  <br/> |Tipo de servidor de conferencia. Consulte la [tabla UserAgentDef](useragentdef.md) para obtener más información. <br/> |
 |**ConferenceCategory** <br/> |nvarchar(64)  <br/> |Categoría de servidor de conferencia.  <br/> |
-|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versión de cliente utilizada por el usuario que participaron en la sesión.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Cliente utilizado por el usuario que participaron en la sesión. Consulte la [tabla de UserAgentDef](useragentdef.md) para obtener más detalles. <br/> |
-|**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente utilizado por el usuario que formaba parte de la sesión.  <br/> |
+|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versión del cliente usado por el usuario que participó en la sesión.  <br/> |
+|**UserClientType** <br/> |int  <br/> |Cliente usado por el usuario que participó en la sesión. Consulte la [tabla UserAgentDef](useragentdef.md) para obtener más detalles. <br/> |
+|**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente usado por el usuario que forman parte de la sesión.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |URI del usuario en cuyo nombre se inició la sesión.  <br/> |
-|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Consulte la [tabla de UriTypes](uritypes.md) para obtener más información. <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilinos del usuario cuya en nombre se inició la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
-|**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI del usuario que a que se refiere la sesión.  <br/> |
-|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que a que se refiere la sesión. Consulte la [tabla de UriTypes](uritypes.md) para obtener más información. <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que a que se refiere la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
-|**DialogId** <br/> |varstring(775)  <br/> |ID de SIP El formato es  <br/> : diálogo de etiqueta; para etiqueta  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Número de ID para identificar el cuadro de diálogo que se ha reemplazado por la sesión actual. Consulte la [tabla de Skype para Business Server 2015 los cuadros de diálogo](dialogs.md) para obtener más información. <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Número de identificación para identificar la sesión. Se utiliza junto con ReplaceDialogIdTime para identificar una sesión que es reemplazada por esta sesión. Consulte la [tabla de Skype para Business Server 2015 los cuadros de diálogo](dialogs.md) para obtener más información. <br/> |
-|**ReplacesDialogId** <br/> |varchar(775)  <br/> |ID de diálogo sustituye a la sesión del SIP. El formato de la es:  <br/> diálogo de etiqueta; para etiqueta  <br/> |
+|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario en cuyo nombre se inició la sesión. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario cuyas en nombre se inició la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
+|**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI del usuario que hizo referencia a la sesión.  <br/> |
+|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que hizo referencia a la sesión. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que hizo referencia a la sesión. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
+|**DialogId** <br/> |varstring(775)  <br/> |Identificador del cuadro de diálogo SIP. El formato es  <br/> : diálogo; de etiqueta; para etiqueta  <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Número de identificador para identificar el cuadro de diálogo que se ha sustituido por la sesión actual. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con ReplaceDialogIdTime para identificar de forma exclusiva una sesión que se ha reemplazado por esta sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
+|**ReplacesDialogId** <br/> |varchar(775)  <br/> |Identificador de diálogo reemplaza la sesión del SIP. El formato de la es:  <br/> cuadro de diálogo; de etiqueta; para etiqueta  <br/> |
 |**IsStartedByConfServer** <br/> |bit  <br/> |Indica si la sesión ha sido iniciada por el servidor de conferencia.  <br/> |
-|**IsEndedByConfServer** <br/> |bit  <br/> |Indica si la sesión ha terminado por el servidor de conferencia.  <br/> |
-|**IsUserInternal** <br/> |bit  <br/> |Indica si el usuario inició sesión desde la red interna.  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> |Hora de la respuesta al primer mensaje de invitación. Normalmente, este campo se rellena con datos generados desde el mensaje de invitación inicial en la sesión. Si no aparece ningún mensaje de invitación se rellena el campo con la fecha y hora de la primer mensaje SIP pertinente (BYE, Cancelar, mensaje o información).  <br/> |
-|**ResponseCode** <br/> |int  <br/> |Código de respuesta SIP a la invitación de sesión. Normalmente, este campo se rellena con datos generados desde el mensaje de invitación inicial en la sesión. Si no aparece ningún mensaje de invitación se rellena el campo con la fecha y hora de la primer mensaje SIP pertinente (BYE, Cancelar, mensaje o información).  <br/> |
-|**DiagnosticId** <br/> |int  <br/> |Id. de diagnóstico captura de sesión encabezados SIP.  <br/> |
-|**ContentType** <br/> |nvarchar(256)  <br/> |Tipo de contenido de la sesión.  <br/> |
-|**Front-end** <br/> |nvarchar(256)  <br/> |FQDN del servidor Front-End que capturan los datos de la sesión.  <br/> |
-|**Grupo de servidores** <br/> |nvarchar(256)  <br/> |FQDN del grupo que captura los datos de la sesión.  <br/> |
-|**MediationServer** <br/> |nvarchar(256)  <br/> |Utilizado por el usuario que participaron en la sesión de un servidor de mediación.  <br/> |
-|**Puerta de enlace** <br/> |nvarchar(256)  <br/> |Puerta de enlace utilizada por el usuario en la que participaron la sesión.  <br/> |
-|**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor de borde utilizado por el usuario que participaron en la sesión.  <br/> |
-|**UserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que participaron en la sesión. Las siguientes definiciones de atributo permite:  <br/> 0 x 01 - integrado con el teléfono de escritorio  <br/> |
-|**CallFlag** <br/> |smallint  <br/> |Indica los atributos de la llamada. Se permiten las siguientes definiciones de atributo:  <br/> 0 x 01 - vuelve a intentar Session0  <br/> x02-una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |
+|**IsEndedByConfServer** <br/> |bit  <br/> |Indica si el servidor de conferencia finalizó la sesión.  <br/> |
+|**IsUserInternal** <br/> |bit  <br/> |Indica si el usuario se conectó desde la red interna.  <br/> |
+|**ResponseTime** <br/> |datetime  <br/> |Hora de la respuesta para el primer mensaje invitar. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
+|**ResponseCode** <br/> |int  <br/> |Código de respuesta SIP a la invitación a la sesión. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
+|**DiagnosticId** <br/> |int  <br/> |Identificador de diagnóstico había capturado de sesión de los encabezados SIP.  <br/> |
+|**ContentType** <br/> |nvarchar(256)  <br/> |Tipo de contenido para la sesión.  <br/> |
+|**FrontEnd** <br/> |nvarchar(256)  <br/> |FQDN del servidor Front-End que captura los datos de la sesión.  <br/> |
+|**Grupo** <br/> |nvarchar(256)  <br/> |FQDN del grupo de servidores que captura los datos de la sesión.  <br/> |
+|**MediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediación usado por el usuario que participó en la sesión.  <br/> |
+|**Puerta de enlace** <br/> |nvarchar(256)  <br/> |Puerta de enlace usada por el usuario que participó la sesión.  <br/> |
+|**EdgeServer** <br/> |nvarchar(256)  <br/> |FQDN del servidor perimetral usado por el usuario que participó en la sesión.  <br/> |
+|**UserFlag** <br/> |smallint  <br/> |Indica los atributos del usuario que participó en la sesión. Las siguientes definiciones de atributo permitidas:  <br/> 0 x 01 - integrado con el teléfono de escritorio  <br/> |
+|**CallFlag** <br/> |smallint  <br/> |Indica los atributos de llamada. Se permiten las siguientes definiciones de atributo:  <br/> 0 x 01 - reintento de sesión0  <br/> x02-una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |
    
 

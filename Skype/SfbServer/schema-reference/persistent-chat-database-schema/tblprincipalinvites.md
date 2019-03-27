@@ -1,5 +1,6 @@
 ---
 title: tblPrincipalInvites
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,32 +10,33 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
-description: tblPrincipalInvites contiene las invitaciones para todos los usuarios configurados para todos los nodos con auto invite en.
-ms.openlocfilehash: ae33d45e14340b6374299343f13c8352db1a5021
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados para todos los nodos con invitación automática activada.
+ms.openlocfilehash: fbf61265f4970b57ffa95a52c8bafa395fb3a331
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876693"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  
-tblPrincipalInvites contiene las invitaciones para todos los usuarios configurados para todos los nodos con auto invite en.
+tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados para todos los nodos con invitación automática activada.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, no nulo  <br/> |Id. principal  <br/> |
-|invID  <br/> |int, no nulo  <br/> |Número secuencial único (por ID. principal) generado a partir de la tabla tblLastInviteId.  <br/> |
-|nodeID  <br/> |int, no nulo  <br/> |Identificador de nodo (sólo sala de charlas).  <br/> |
-|createdOn  <br/> |fecha y hora, no nulo  <br/> |Hora de creación.  <br/> |
+|prinID  <br/> |int, no es nulo  <br/> |Identificador de entidad de seguridad.  <br/> |
+|invID  <br/> |int, no es nulo  <br/> |Número secuencial único (por identificador de entidad de seguridad) generado desde la tabla tblLastInviteId.  <br/> |
+|nodeID  <br/> |int, no es nulo  <br/> |Identificador de nodo (solo salón de chat).  <br/> |
+|createdOn  <br/> |DateTime, no es nulo  <br/> |Hora de creación.  <br/> |
    
 **Claves**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
 |\<prinID, nodeID\>  <br/> |Clave principal.  <br/> |
-|prinID  <br/> |Clave externa con la búsqueda en la tabla tblPrincipal.prinID.  <br/> |
-|nodeID  <br/> |Clave externa con la búsqueda en la tabla tblNode.nodeID.  <br/> |
+|prinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
+|nodeID  <br/> |Clave externa con búsqueda en la tabla tblNode.nodeID.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Vista de NetworkConfigurationSettings
+title: Vista NetworkConfigurationSettings
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,20 +11,21 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 279ea5d1-5d07-44d4-8133-2557446914ca
 description: La vista NetworkConfigurationSettings almacena información acerca de la configuración de red. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 7e024a61eb03dc6f60a224d00eec70e1c125bcf4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: 8b366d0763ff1754fb41a58b5b32bfd3b2f7d628
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876672"
 ---
-# <a name="networkconfigurationsettings-view"></a>Vista de NetworkConfigurationSettings
+# <a name="networkconfigurationsettings-view"></a>Vista NetworkConfigurationSettings
  
 La vista NetworkConfigurationSettings almacena información acerca de la configuración de red. Esta vista se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|SubnetIP  <br/> |int  <br/> |Dirección IP de subred (se admiten sólo direcciones IPv4).  <br/> |
+|SubnetIP  <br/> |int  <br/> |Dirección IP de subred (se admiten sólo las direcciones IPv4).  <br/> |
 |UserSiteName  <br/> |nvarchar (128)  <br/> |Nombre del sitio del usuario.  <br/> |
-|RegionName  <br/> |nvarchar (128)  <br/> |Nombre del país del usuario.  <br/> |
+|RegionName  <br/> |nvarchar (128)  <br/> |Nombre del país o la región del usuario.  <br/> |
    
 

@@ -1,5 +1,6 @@
 ---
-title: Configuración de seguridad del registrador
+title: Configuración de seguridad de registrador
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3abca26900b10db7aa014209357c6936e13c016b
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 20cb4bfd9954f93e92f46488ca842d9fb7a9bc59
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23260618"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877094"
 ---
-# <a name="registrar-security-settings"></a>Configuración de seguridad del registrador
+# <a name="registrar-security-settings"></a>Configuración de seguridad de registrador
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 

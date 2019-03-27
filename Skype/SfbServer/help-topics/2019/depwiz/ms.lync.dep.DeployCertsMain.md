@@ -1,5 +1,6 @@
 ---
 title: Asistente para certificados
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: El Asistente para certificados se usa para solicitar, asignar, quitar o ver certificados. Debe haber iniciado sesión como miembro del grupo RTCUniversalServerAdmins. No hace falta pertenecer a ningún otro grupo para solicitar un certificado a una entidad de certificación pública. Para solicitar un certificado de infraestructura de clave pública (PKI) de su organización, es necesario que confirme lo que adicionales, si hay alguno, pertenencias a grupos que necesitará. Durante la tarea de la solicitud, puede escribir las credenciales que se utilizará para solicitar que el certificado desde su PKI entidad emisora de certificados.
-ms.openlocfilehash: 6254ae2601387fa7ef6c6900fe7479db9d7c6ee3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: afa36085fb4e8a1937facac204d78d5c0c61af9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21001464"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873404"
 ---
 # <a name="certificate-wizard"></a>Asistente para certificados
  

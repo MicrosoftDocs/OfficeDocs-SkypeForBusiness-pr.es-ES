@@ -1,5 +1,6 @@
 ---
-title: Tabla de dirección IP
+title: Tabla IPAddress
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,20 +10,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ec018b9-158e-4bbe-ad46-869e60315555
-description: La tabla dirección IP asigna direcciones IP a los identificadores únicos de dirección IP utilizados en la base de datos de calidad de la experiencia. Esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 6372d46b69046f944ba33d4deff6d29e923a94cb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla IPAddress asigna direcciones IP a los identificadores de dirección IP únicos que se usan en la base de datos de calidad de la experiencia. En esta tabla se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: b118d85eff7c0f8e355a43e354f97de3c66da7d0
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876961"
 ---
-# <a name="ipaddress-table"></a>Tabla de dirección IP
+# <a name="ipaddress-table"></a>Tabla IPAddress
  
-La tabla dirección IP asigna direcciones IP a los identificadores únicos de dirección IP utilizados en la base de datos de calidad de la experiencia. Esta tabla se introdujo en Microsoft Lync Server 2013.
+En la tabla IPAddress asigna direcciones IP a los identificadores de dirección IP únicos que se usan en la base de datos de calidad de la experiencia. En esta tabla se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**IPAddressKey** <br/> |int  <br/> |Primary  <br/> |Identificador único de la dirección IP especificada.  <br/> |
-|**Dirección IP** <br/> |varchar(50)  <br/> |Único  <br/> |Dirección IP única (por ejemplo, 189.168.1.1) que se asigna a la IpAddressKey. Esto puede ser tanto una dirección IPv4 o IPv6.  <br/> |
+|**IPAddress** <br/> |varchar(50)  <br/> |Único  <br/> |Dirección IP única (por ejemplo, 189.168.1.1) que se asigna a la IpAddressKey. Esto puede resultar una IPv4 o una dirección IPv6.  <br/> |
    
 

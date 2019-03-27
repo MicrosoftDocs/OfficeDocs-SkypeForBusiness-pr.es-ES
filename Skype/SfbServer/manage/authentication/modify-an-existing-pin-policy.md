@@ -1,5 +1,6 @@
 ---
 title: Modificar una directiva PIN existente en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,18 +11,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Resumen: Modificar una directiva PIN existente en Skype para Business Server.'
-ms.openlocfilehash: 30b9926a7f8094cae1e23be6d0e9a0ade6d8d8a6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 7694b96b3e3dc169e6642c435edf38506a506bb8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21006188"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877639"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Modificar una directiva PIN existente en Skype para Business Server
  
 **Resumen:** Modificar una directiva PIN existente en Skype para Business Server.
   
-Puede usar la ficha **Directiva de PIN** para proporcionar autenticación de identificación personal numérica (PIN) a los usuarios que se conectan a Skype para la empresa con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
+Puede usar la ficha **Directiva de PIN** para proporcionar autenticación de identificación personal numérica (PIN) a los usuarios que se conectan a Skype para la empresa con teléfonos IP. Para utilizar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación PIN** esté seleccionada en la configuración del servicio web.
   
 Siga estos pasos para modificar una directiva de PIN de nivel de usuario o de sitio. 
   
@@ -39,13 +40,13 @@ Siga estos pasos para modificar una directiva de PIN de nivel de usuario o de si
     
 6. Para poder especificar un número máximo de intentos de inicio de sesión antes de que un usuario quede bloqueado, active la casilla   **Especificar número máximo de intentos de inicio de sesión**. Si no selecciona esta opción, el número máximo de intentos permitidos queda determinado automáticamente en función de la longitud del PIN. De forma predeterminada, el número máximo de intentos se determina automáticamente.
     
-7. Si activa la casilla **Especificar máximo de intentos de inicio de sesión**, en **Número máximo de intentos de inicio de sesión**, escriba o seleccione un número máximo de intentos de inicio de sesión que quiera permitir.
+7. Si ha seleccionado la casilla **Especificar número máximo de intentos de inicio de sesión**, en **Número máximo de intentos de inicio de sesión**, escriba o seleccione un número máximo de intentos de inicio de sesión que quiera permitir.
     
 8. Para que los PIN tengan vencimiento, active la casilla **Habilitar expiración de PIN**. Si no selecciona esta opción, los PIN nunca expirarán. De forma predeterminada, los PIN nunca expiran.
     
 9. Si activa la casilla **Habilitar expiración de PIN**, en **El PIN expira tras (días)**, escriba o seleccione el número de días después de los cuales expira el PIN.
     
-10. En **Recuento de historial de PIN**, escriba el número de PIN que debe crear un usuario antes de que pueda volver a usar un PIN. De forma predeterminada, los usuarios pueden volver a usar sus PIN.
+10. En **Recuento de historial de PIN**, escriba el número de PIN que debe crear un usuario antes de que pueda volver a usar el PIN. De forma predeterminada, los usuarios pueden volver a usar sus PIN.
     
 11. Para permitir patrones comunes de dígitos en los PIN como, por ejemplo, números secuenciales y conjuntos repetitivos de números, active la casilla **Permitir patrones comunes**. Si no selecciona esta opción, solamente se permitirán patrones complejos de dígitos. De forma predeterminada, solo se permiten patrones complejos de dígitos.
     

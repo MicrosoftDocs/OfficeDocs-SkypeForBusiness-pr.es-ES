@@ -1,5 +1,6 @@
 ---
-title: Conmutador CcVersion
+title: Switch-CcVersion
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
-description: El cmdlet CcVersion de Switch desconecta el dispositivo ejecutando y cambia a un dispositivo recién implementado o copia de seguridad.
-ms.openlocfilehash: 651dad80ef5c9907eb6c182527b646da7aa5acc8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: El cmdlet de modificador CcVersion desconecta el dispositivo que se está ejecutando y cambia a un dispositivo recién implementado o copia de seguridad.
+ms.openlocfilehash: 73ae9b4f93a2488dea29f3271565ac3d25759fd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872862"
 ---
-# <a name="switch-ccversion"></a>Conmutador CcVersion
+# <a name="switch-ccversion"></a>Switch-CcVersion
  
-El cmdlet CcVersion de Switch desconecta el dispositivo ejecutando y cambia a un dispositivo recién implementado o copia de seguridad. 
+El cmdlet de modificador CcVersion desconecta el dispositivo que se está ejecutando y cambia a un dispositivo recién implementado o copia de seguridad. 
   
 ```
 Switch-CcVersion [-Force]
@@ -29,7 +31,7 @@ Switch-CcVersion [-Force]
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se agota los servicios del equipo de ejecución actual y, a continuación, cambia a un dispositivo recién implementado o copia de seguridad:
+En el siguiente ejemplo se purga los servicios de la aplicación actual que se está ejecutando y, a continuación, se pasa a un dispositivo recién implementado o copia de seguridad:
   
 ```
 Switch-CcVersion
@@ -37,7 +39,7 @@ Switch-CcVersion
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el ejemplo siguiente se purgan los servicios del equipo de ejecución actual y detiene los servicios forzosamente si no purga los servicios. A continuación, cambia el comando a un dispositivo recién implementado o copia de seguridad:
+En el ejemplo siguiente se purga los servicios de la aplicación actual que se está ejecutando y detiene los servicios forzosamente si purga de los servicios se produce un error. A continuación, cambia el comando a un dispositivo recién implementado o copia de seguridad:
   
 ```
 Switch-CcVersion -Force
@@ -46,14 +48,14 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet CcVersion de conmutador purga los servicios de nube de conector en el servidor de mediación y servidor perimetral. Todas las llamadas de ejecución se completará, pero el dispositivo rechazará todas las llamadas nuevas. Tras el drenaje, el cmdlet desconecta el dispositivo ejecución de corporativa y redes de Internet, desactiva todas las máquinas virtuales que pertenecen al dispositivo y, a continuación, conecta el dispositivo de copia de seguridad a la empresa y las redes de Internet.
+El cmdlet de modificador CcVersion purga los servicios del conector de nube en el servidor de mediación y el servidor perimetral. Se completará todas las llamadas que se está ejecutando, pero el dispositivo rechazará las llamadas nuevo. Después de purga, el cmdlet desconecta el dispositivo que se está ejecutando desde la corporativa y las redes de Internet, desactiva todas las máquinas virtuales que pertenecen al dispositivo y, a continuación, conecta el dispositivo de copia de seguridad a la empresa y las redes de Internet.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| Force <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> | Detiene los servicios forzosamente si purga los servicios se produce un error. <br/> |
+| Force <br/> | Opcional <br/> |System.Management.Automation.SwitchParameter  <br/> | Detiene los servicios forzosamente si purga de los servicios se produce un error. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -63,7 +65,7 @@ Ninguno
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="ReturnTypes"> </a>
 
-Ninguno
+Ninguno 
   
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>

@@ -1,5 +1,6 @@
 ---
 title: Administrar Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo administrar y mantener Skype para Business Server.'
-ms.openlocfilehash: 82a5c28904a169e406224668a32176dbfeb94886
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a2f9b33c4ab5a33e9b4cb3a20d77008ee1b0e315
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20993877"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874447"
 ---
 # <a name="manage-skype-for-business-server"></a>Administrar Skype Empresarial Server 
 
@@ -31,7 +32,7 @@ Ver los siguientes recursos para obtener información acerca de cómo administra
   
 ||**Contenido**|**Descripción**|
 |:-----|:-----|:-----|
-|![Icono de diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Diagramas técnicos de Skype para Business Server](../technical-diagrams.md) <br/> |Obtenga una vista rápida de las opciones de las arquitecturas en estos diagramas en formato grande.  <br/> |
+|![Icono de diagramas técnicos](../media/87de0d09-77fd-46f2-b9f6-99a7998fd332.png)|[Technical diagrams for Skype for Business Server](../technical-diagrams.md) <br/> |Obtenga una vista rápida de las opciones de las arquitecturas en estos diagramas en formato grande.  <br/> |
 |![Icono de vídeos](../media/143e0d86-1c68-482a-9bf9-93e7966acca0.png)|Demostraciones de vídeo y aprendizaje - *próximamente!*  <br/> |Descubra presentaciones de vídeo y aprendizaje para profesionales de Skype para Business Server.  <br/> |
    
 ##  <a name="articles-about-managing-skype-for-business-server"></a>Artículos sobre la administración de Skype para Business Server

@@ -1,5 +1,6 @@
 ---
 title: Configure las directivas de archivado para Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales de Skype para los usuarios de Business Server.'
-ms.openlocfilehash: 9db5d04ba04a3d840c493f5fbea42260ed87a6d4
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003958"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876453"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configure las directivas de archivado para Skype para Business Server
  
@@ -134,7 +135,7 @@ Una directiva de usuario solo se aplica a los usuarios a los que asigne la direc
 5. En **Editar Skype para usuario Business Server** en **Directiva de archivado**, seleccione la directiva de usuario de archivado que desea aplicar.
     
     > [!NOTE]
-    > La ** \<automática\> ** configuración aplica la configuración predeterminada de la instalación de servidor. El servidor aplica esta configuración automáticamente.
+    > La ** \<automática\> ** configuración aplica la configuración predeterminada de la instalación de servidor. El servidor aplica automáticamente esta configuración.
   
 6. Haga clic en **Confirmar**.
     

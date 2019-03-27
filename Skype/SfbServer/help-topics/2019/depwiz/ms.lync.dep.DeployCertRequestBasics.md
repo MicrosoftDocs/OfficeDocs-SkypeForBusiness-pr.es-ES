@@ -1,5 +1,6 @@
 ---
 title: Solicitud de certificado (básica)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página nombre y configuración de seguridad proporciona un cuadro de texto para definir un nombre descriptivo, una lista desplegable para la longitud en bits del par de claves público y privado y una casilla de verificación que le permite marcar la clave privada del certificado como exportable.
-ms.openlocfilehash: 474111f6f732353c80ceea88da3e9cebda1caae3
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: abc022cd9126b90fb83244657dfb32ac214a62c8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996469"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874804"
 ---
 # <a name="certificate-request-basic"></a>Solicitud de certificado (básica)
  

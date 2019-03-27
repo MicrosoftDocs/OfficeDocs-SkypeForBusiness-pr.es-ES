@@ -1,5 +1,6 @@
 ---
 title: Planeación de alta disponibilidad y recuperación ante desastres en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,18 +13,18 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
 description: Skype para Business Server proporcione una alta disponibilidad con servidor de agrupación, recuperación ante desastres con el emparejamiento de grupo de servidores y varios modos de alta disponibilidad de servidor Back-End, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de base de datos y agrupación en clústeres de conmutación por error SQL.
-ms.openlocfilehash: 94db95c097fca62e31a01efd1d254ab6d3cd6d37
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9e48fa65572dea5c0e6a297397d2a502cefcdc36
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20996462"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875260"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planeación de alta disponibilidad y recuperación ante desastres en Skype para Business Server
  
 Skype para Business Server proporcione una alta disponibilidad con servidor de agrupación, recuperación ante desastres con el emparejamiento de grupo de servidores y varios modos de alta disponibilidad de servidor Back-End, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de base de datos y agrupación en clústeres de conmutación por error SQL. 
   
-Alta disponibilidad hace referencia a asegurándose de que Skype para servicios de Business Server están disponibles incluso si uno o más servidores deja de funcionar. La recuperación ante desastres se basa en preservar los servicios en caso de que ocurra un desastre natural o un error humano, intentando resguardar la mayor cantidad de datos que sea posible.
+Alta disponibilidad hace referencia a asegurándose de que Skype para servicios de Business Server están disponibles incluso si uno o más servidores deja de funcionar. Disaster recovery refers to keeping services going in the event of a natural or human-caused disaster, and preserving as much data from before the disaster as possible.
   
 Al igual que en versiones anteriores de Lync Server, la característica principal de alta disponibilidad para la mayoría de roles de servidor de Skype para Business Server es la redundancia de servidor a través de la agrupación. Si un servidor que ejecuta un determinado rol de servidor tiene errores, los demás servidores del grupo que ejecutan el mismo rol recogen la carga de ese servidor. Esto es válido en servidores front-end, servidores perimetrales, servidores de mediación y directores.
   
@@ -39,7 +40,7 @@ Skype para Business Server también admite cuatro modos de alta disponibilidad p
   
 En esta sección se explican estas características y trata además los pasos que puede tomar en la alta disponibilidad y la recuperación ante desastres para sus otros roles de servidor. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Alta disponibilidad y administración del grupo de servidores front-end](high-availability.md)
   

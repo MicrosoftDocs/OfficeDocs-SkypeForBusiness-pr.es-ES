@@ -1,5 +1,6 @@
 ---
 title: Cambios de esquema en Skype para Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones del esquema agregan las clases y atributos que se necesitan por Skype para Business Server.
-ms.openlocfilehash: 8594ff3a25c7af7ef8c57468a8900d3abbb7f790
-ms.sourcegitcommit: 1ad4120af98240f1b54c0ca18286598b289a97f1
+ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "27240920"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874643"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Cambios de esquema en Skype para Business Server
  
@@ -64,7 +65,7 @@ En la siguiente tabla se describe las clases de Active Directory que se modifica
   
 **Clases modificadas por Skype para Business Server**
 
-|**Clase**|**CAMBIAR**|**Clase o atributo**|
+|**Clase**|**Cambio**|**Clase o atributo**|
 |:-----|:-----|:-----|
 |Usuario  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contacto  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |

@@ -1,5 +1,6 @@
 ---
 title: Crear un administrador de chat persistente en Skype Empresarial Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Resumen: Lea este tema para obtener información sobre cómo crear un rol de administrador del servidor de Chat persistente para habilitar la configuración inicial y la administración de servicios de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: df2c62964d6c1d315f6fda04132c829d235e6038
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: fb8a222f65f6fe579d3600df15a53bb84f65de66
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20966118"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874070"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Crear un administrador de chat persistente en Skype Empresarial Server 2015
  
@@ -28,7 +29,7 @@ Antes de configurar y administrar el servidor de chat persistente, asegúrese de
 > [!NOTE] 
 > Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015.
 
-## <a name="create-a-persistent-chat-administrator"></a>Crear un administrador de chat persistente
+## <a name="create-a-persistent-chat-administrator"></a>Create a Persistent Chat administrator
 
 Para agregar un usuario al grupo de seguridad Persistent Chat Administrator, CsPersistentChatAdministrator, realice los pasos siguientes:
   

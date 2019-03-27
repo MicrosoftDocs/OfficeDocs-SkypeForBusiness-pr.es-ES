@@ -1,5 +1,6 @@
 ---
 title: Planificación de capacidad de Skype para Business Server 2019
+ms.reviewer: ''
 ms.author: heidip
 author: MicrosoftHeidi
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: En los temas de esta sección le ayudarán a comprender cómo planear e implementar Skype para Business Server de forma que pueda planear adecuadamente para el número de usuarios en la organización y la planeación de la carga del servidor que generan sus actividades.
-ms.openlocfilehash: 4a18b68d080eb7cb2a384b727e4ce4d7593d0ac4
-ms.sourcegitcommit: d3c459dc1304db5f5ba78b5e093b5a4fd797c8ec
+ms.openlocfilehash: 1d20ed85c06514f4e999a966c5d137727842726d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30178719"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875973"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Planificación de capacidad de Skype para Business Server 2019
 
@@ -30,7 +31,7 @@ Hemos finalizado nuestras pruebas de rendimiento en el hardware que se describe 
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> Los procesadores Intel Itanium no se admiten para Skype para funciones de Business Server 2019.  <br/> |
 |Memoria  <br/> |32 gigabytes (GB).  <br/> |
-|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (dos de los discos con RAID 1 y 6 con RAID 10).   <br/> O bien  <br/> • Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 8 unidades de disco mecánicas de 10000 RPM.  <br/> |
+|Disco  <br/> |O  <br/> • 8 o más unidades de disco duro de 10.000 RPM con al menos 72 GB de espacio libre en disco espacio (dos de los discos mediante RAID 1 y 6 con RAID 10).  <br/> O BIEN  <br/> • Unidades de estado sólido (SSD) capaces de ofrecer el mismo espacio libre y un rendimiento similar de 8 unidades de disco mecánicas de 10.000 RPM.  <br/> |
 |Red  <br/> |1 adaptador de red de puerto doble, 1 Gbps o superior (pueden usarse dos adaptadores de red, pero es necesario formar con ellos un equipo con una sola dirección MAC y una sola dirección IP).  <br/> Las configuraciones de host múltiple o dobles son **no** admite los servidores para servidores Front-End, servidores Back-End y Standard Edition. <br/> Siempre que no se exponen en el sistema operativo y se usan para supervisar y administrar el hardware del servidor, puede hacer que los sistemas de administración fuera de banda, como DRAC o ILO. Este escenario no constituye un servidor de múltiples ubicaciones, y es un escenario compatible.  <br/> |
 
 ## <a name="summary-of-results"></a>Resumen de los resultados
@@ -77,7 +78,7 @@ En la siguiente tabla se muestra el ancho de banda medio para mensajería instan
 |3-3,75 kBps  <br/> |13 MBps  <br/> |
 
 > [!NOTE]
-> Para mejorar el rendimiento de medios de la co-autoría encuentra A / funcionalidad de conferencia A/v y el servidor de mediación en los servidores Front-End, debe habilitar el lado de recepción (RSS) de escala en los adaptadores de red en los servidores Front-End. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para más información, vea [Ajuste de escala en lado de recepción (RSS) en la documentación de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento de medios de la co-autoría encuentra A / funcionalidad de conferencia A/v y el servidor de mediación en los servidores Front-End, debe habilitar el lado de recepción (RSS) de escala en los adaptadores de red en los servidores Front-End. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener información detallada, vea [Recibir del ajuste de escala (RSS) en la documentación de Windows Server 2012](https://go.microsoft.com/fwlink/p/?LinkId=620365). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="conferencing-maximums"></a>Máximos de conferencia
 
@@ -101,7 +102,7 @@ Debe implementar un servidor perimetral para cada 18.000 usuarios remotos tengan
 Cuando calcule el número de usuarios para los servidores perimetrales, incluya los usuarios hospedados en aplicaciones de sucursal con funciones de supervivencia y servidores de sucursal con funciones de supervivencia en sucursales que están asociadas con un grupo de servidores Front-End en este sitio.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servicio perimetral de conferencia en los servidores perimetrales, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores perimetrales. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para obtener más información, compruebe [Recibir del ajuste de escala (RSS) en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servicio perimetral de conferencia en los servidores perimetrales, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores perimetrales. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener más información, compruebe [Recibir del ajuste de escala (RSS) en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731). Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="director"></a>Director
 
@@ -145,7 +146,7 @@ Las siguientes tablas suponen uso como se resume en los [modelos de usuario de S
 > Este número es mucho menor que los números para el servidor de mediación independiente. Que es debido a que el servidor Front-End tiene que controlar otras características y funciones para los 6600 usuarios hospedados en él, además de la transcodificación necesario para las llamadas de voz.
 
 > [!NOTE]
-> Para mejorar el rendimiento del servidor de mediación, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores de mediación. RSS permite que varios procesadores del servidor administren en paralelo los paquetes entrantes. Para obtener información detallada, vea "[Receive-Side Scaling en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
+> Para mejorar el rendimiento del servidor de mediación, debe habilitar el lado de recepción escala (RSS) en los adaptadores de red en los servidores de mediación. RSS permite que los paquetes entrantes se administren en paralelo por varios procesadores en el servidor. Para obtener información detallada, vea "[Receive-Side Scaling en Windows Server 2012](https://go.microsoft.com/fwlink/p/?linkId=268731)". Para más información sobre cómo habilitar RSS, vea la documentación de su adaptador de red.
 
 ## <a name="back-end-server"></a>Servidor back-end
 
@@ -171,7 +172,7 @@ Durante las pruebas de rendimiento, Microsoft usó el hardware de la tabla sigui
 |:-----|:-----|
 |CPU  <br/> |Procesador dual de Intel Xeon E5-2673 v3, 6 núcleos, 2,4 gigahercios (GHz) o superior.  <br/> |
 |Memoria  <br/> |48 GB  <br/> |
-|Disco  <br/> | O<br/> • 4 o más unidades de disco duro de 10000 RPM con al menos 72 GB de espacio libre en disco (los discos deben estar en una configuración de 2 unidades RAID 1). <br/>O bien <br/>• Unidades de estado sólido (SSD) capaces de proporcionar el mismo espacio libre y un rendimiento similar a 4 unidades de disco mecánicas de 10000 RPM.   <br/> |
+|Disco  <br/> | O<br/> • 4 o más 10000 RPM unidades de disco duro con al menos 72 GB de espacio libre (los discos deben estar en una de 2 x RAID 1 configuración) de espacio en disco. <br/>O BIEN <br/>• Unidades de estado sólido (SSD) capaces de ofrecer el mismo espacio libre y un rendimiento similar de 4 unidades de disco mecánicas de 10.000 RPM.   <br/> |
 |Red  <br/> | 1 adaptador de red de puerto doble, 1 Gbps o superior (recomendado: 2, lo que requiere la formación de equipos con una sola dirección MAC y una sola dirección IP).  <br/> |
 
 **Configuraciones de disco recomendadas**

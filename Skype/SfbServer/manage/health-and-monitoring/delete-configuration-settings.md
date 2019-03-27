@@ -1,5 +1,6 @@
 ---
 title: Eliminar una colección existente de opciones de configuración de CDR en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebf5da8-c0fc-498c-8d85-527d3be8479a
 description: 'Resumen: Obtenga información sobre cómo quitar las opciones de configuración de CDR en Skype para Business Server.'
-ms.openlocfilehash: ed8f729d78ea64b230d91d9142d0ba7dae743b0e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 470aade77fce211ba771c628b913efa4376a4a6f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003702"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873080"
 ---
 # <a name="delete-an-existing-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de opciones de configuración de CDR en Skype para Business Server
  
@@ -68,7 +69,7 @@ Puede eliminar de detalles de llamadas de opciones de configuración mediante el
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Remove-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-cscdrconfiguration?view=skype-ps) .
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

@@ -1,5 +1,6 @@
 ---
 title: Componentes y topologías para llamar al control de admisión de Skype para la empresa
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planear el servicio de control de admisión de llamadas (CAC) si tiene una red MPLS, un tronco SIP o una puerta de enlace RTC o PBX de terceros. Se aplica a Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: f43b111d0ef3260c34b53e27a903de20fdf676ef
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 7022ade98dbd614023a4faaea283b939fa658e73
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887675"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30872841"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Componentes y topologías para llamar al control de admisión de Skype para la empresa
 
@@ -52,14 +53,14 @@ La siguiente figura muestra un ejemplo de implementación de CAC en un tronco SI
 
 Para configurar el CAC en un tronco SIP necesitarás realizar las siguientes tareas durante la implementación de CAC:
 
-1. Crea un sitio de red para representar al ITSP. Asocia el sitio de red a una región de red adecuada y asigna un ancho de banda de cero para el audio y el vídeo para este sitio de red. Para obtener información detallada, vea [Configurar sitios de red para CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) en la documentación de implementación.
+1. Crea un sitio de red para representar al ITSP. Asocia el sitio de red a una región de red adecuada y asigna un ancho de banda de cero para el audio y el vídeo para este sitio de red. Para obtener más información, mira [Configure Network Sites for CAC](https://technet.microsoft.com/library/afcea38f-5789-45ec-97af-c6e38364950c.aspx) en la documentación sobre implementación.
 
     > [!NOTE]
     > Para el ITSP, no funciona esta configuración de sitio de red. Los valores de la directiva de ancho de banda se aplican, en realidad, en el paso 2.
 
 2. Crea un vínculo entre sitios para el tronco SIP, usando los valores de los parámetros correspondientes al sitio que creaste en el paso 1. Por ejemplo, usa el nombre del sitio de red de tu empresa como el valor del parámetro NetworkSiteID1 y el sitio de red de ITSP como el valor del parámetro NetworkSiteID2. Para obtener información detallada, vea [directivas entre sitios de red crear en Skype para Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) en la documentación de implementación y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
-3. Obtener la dirección IP del controlador de borde de sesión (SCB) de punto de terminación de medios desde el protocolo. Agrega esa dirección IP con una máscara de subred de 32 al sitio de red que representa al ITSP. Para obtener información detallada, vea [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+3. Obtener la dirección IP del controlador de borde de sesión (SCB) de punto de terminación de medios desde el protocolo. Agrega esa dirección IP con una máscara de subred de 32 al sitio de red que representa al ITSP. Para obtener más información, mira [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ## <a name="call-admission-control-with-a-third-party-pstn-gateway-or-pbx"></a>Servicio de control de admisión de llamadas con una PBX o una puerta de enlace RTC de terceros
 
@@ -88,7 +89,7 @@ Esto funciona tanto para las llamadas RTC entrantes a un cliente en el sitio de 
 > Asegúrese de que la subred IP a la que pertenezcan ambas interfaces del servidor de mediación esté configurada y asociada con el sitio de red 1.
 
 > [!NOTE]
-> Para obtener información detallada, vea [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Para obtener más información, mira [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-2-cac-between-the-mediation-server-and-a-third-party-pbx-with-media-termination-point"></a>Caso 2: CAC entre el servidor de mediación y una PBX de terceros con punto de terminación de medios
 
@@ -113,7 +114,7 @@ Esto funciona tanto para las llamadas RTC entrantes a un cliente en el sitio de 
 > Asegúrese de que la subred IP a la que pertenezcan ambas interfaces del servidor de mediación esté configurada y asociada con el sitio de red 1.
 
 > [!NOTE]
-> Para obtener información detallada, vea [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Para obtener más información, mira [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 ### <a name="case-3-cac-between-the-mediation-server-and-a-third-party-pbx-without-a-media-termination-point"></a>Caso 3: CAC entre el servidor de mediación y una PBX de terceros sin un punto de terminación de medios
 
@@ -134,6 +135,6 @@ Para las llamadas que se originan desde el punto final de otro fabricante, la in
 > Asegúrese de que la subred IP a la que pertenezcan ambas interfaces del servidor de mediación esté configurada y asociada con el sitio de red 1.
 
 > [!NOTE]
-> Para obtener información detallada, vea [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
+> Para obtener más información, mira [Associate a Subnet with a Network Site](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx).
 
 

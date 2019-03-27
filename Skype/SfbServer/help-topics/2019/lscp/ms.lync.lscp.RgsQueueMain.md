@@ -1,5 +1,6 @@
 ---
 title: Cola de grupos de respuesta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
-ms.openlocfilehash: d42290fc43464de3c540a2a642f71ba161a71dd3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250591"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874867"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 

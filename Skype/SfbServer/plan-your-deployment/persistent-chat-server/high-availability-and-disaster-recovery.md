@@ -1,5 +1,6 @@
 ---
 title: Planeación de alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Resumen: Lea este tema para obtener información sobre cómo planear una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 90f01de0ca7efef8fdcda4f03fa4bfaa28bd4fcc
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 88584c43cb205d10d2baacb6cb31c4e8fdbb228a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20971658"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874797"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planeación de alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015
  
@@ -47,7 +48,7 @@ Antes de configurar el servidor de Chat persistente de alta disponibilidad y rec
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Soluciones de alta disponibilidad y recuperación ante desastres
 
-Skype para Business Server admite varios modos de alta disponibilidad para los servidores Back-End, incluidas la creación de reflejo de base de datos. Para obtener más información, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype para Business Server admite varios modos de alta disponibilidad para los servidores Back-End, incluidas la creación de reflejo de base de datos. Para más información, vea [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
   
 La solución de recuperación ante desastres para servidor de Chat persistente que se describen en este tema se basa en un grupo de servidores de Chat persistente. No hay ningún requisito para una red de área local virtual (VLAN) extendida. Mediante la expansión de un grupo de servidores de Chat persistente, configurar un grupo de servidores en la topología de forma lógica, pero físicamente colocar los servidores en el grupo de servidores en centros de datos diferentes dos. Configure la creación de reflejos de SQL Server en la base de datos de la misma forma e implemente la base de datos y el reflejo en el mismo centro de datos. Tiene que configurar una base de datos de copia de seguridad en el centro de datos secundario (con un reflejo opcional para proporcionar alta disponibilidad durante la recuperación ante desastres). Esta es la base de datos de copia de seguridad que se usa para la conmutación por error durante la recuperación ante desastres. 
   

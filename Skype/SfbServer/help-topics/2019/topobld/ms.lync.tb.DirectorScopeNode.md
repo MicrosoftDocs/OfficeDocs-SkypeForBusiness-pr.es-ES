@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de director
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los puertos y el almacén de archivos asociado de este grupo de directores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 64590075286b7b88ab4c2097f3fd735a788e5f1c
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 8413d5e9c1382bb14a12571d3cab645d033dee68
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21063278"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874622"
 ---
 # <a name="director-scope-node"></a>Nodo de ámbito de director
  

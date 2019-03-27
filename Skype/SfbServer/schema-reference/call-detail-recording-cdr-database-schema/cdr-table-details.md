@@ -1,5 +1,6 @@
 ---
 title: Detalles de la tabla CDR en Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de llamada detalles registros (CDR).
-ms.openlocfilehash: 631a7ad4bd24dc5c41302f6f67ad97b6add0a490
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c6deafa34450e996766389f343afece5f81ba698
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012440"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876474"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla CDR en Skype para Business Server 2015
  

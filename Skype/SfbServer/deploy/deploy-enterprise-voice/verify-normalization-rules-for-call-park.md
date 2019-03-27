@@ -1,5 +1,6 @@
 ---
 title: Compruebe las reglas de normalización para el estacionamiento de llamadas en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: deaa170f-041e-45cb-8eab-f02931ab541e
 description: Obtenga información acerca de las reglas de normalización para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d98cd7b71d60081f254bb1de004f83de73b3f423
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 794d64efcefbc4b36fac84e6356df46df76dc5a2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23888147"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877279"
 ---
 # <a name="verify-normalization-rules-for-call-park-in-skype-for-business"></a>Compruebe las reglas de normalización para el estacionamiento de llamadas en Skype para la empresa
  
@@ -29,7 +30,7 @@ No se deben normalizar órbitas de estacionamiento de llamadas. Revise sus plane
 > [!IMPORTANT]
 > Asegúrese de que la regla de normalización de forma predeterminada en los planes de marcado no contenga **^(\d\*)**. De lo contrario, nunca se ejecutará la regla de normalización de estacionamiento de llamadas.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Crear o modificar un plan de marcado de Skype para Business Server](dial-plans.md)
 

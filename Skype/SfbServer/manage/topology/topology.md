@@ -1,5 +1,6 @@
 ---
 title: Administrar la topología de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.'
-ms.openlocfilehash: d56ee1f0e7203415d541b7a2690f520c4b8d27f3
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 783917822b2e89224bebd34c9d8234c2d58f7bd6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27214576"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874958"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar la topología de Skype para Business Server 
  
@@ -22,7 +23,7 @@ ms.locfileid: "27214576"
   
 Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidor empresarial y los servidores Front-End.
   
-- [Administrar servidores Front-End](manage-front-end-servers.md)
+- [Administrar los servidores front-end](manage-front-end-servers.md)
     
 - [Administrar bases de datos con un grupo de disponibilidad AlwaysOn](manage-databases.md)
 
@@ -30,7 +31,7 @@ Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionad
     
 - [Mover los datos del almacén de archivos a un almacén de archivos nuevo](../../help-topics/help-topobld/move-file-store-data.md)
 
-- [Administración de servicios](manage-services.md)
+- [Administrar servicios](manage-services.md)
 
     
 

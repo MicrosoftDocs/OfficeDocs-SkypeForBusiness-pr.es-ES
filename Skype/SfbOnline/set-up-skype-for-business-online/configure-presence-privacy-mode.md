@@ -1,5 +1,6 @@
 ---
 title: Configurar el modo de privacidad de presencia
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo configurar el modo de privacidad para los usuarios, por lo que pueden controlar mejor cómo personas ven su disponibilidad. '
-ms.openlocfilehash: e2fb222046dc936d8fbd010dc8016da2b06e1ae8
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: e51c4b6a545b59dc6eed713a1518f44f1cd25443
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862805"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30874227"
 ---
 # <a name="configure-presence-privacy-mode"></a>Configurar el modo de privacidad de presencia
 
@@ -32,7 +33,7 @@ El Skype para la configuración de presencia en línea de negocio proporciona a 
 ## <a name="choose-the-default-online-presence-setting-for-everyone-in-your-organization"></a>Elija la configuración de presencia en línea predeterminada para todos los usuarios de la organización
 <a name="__top"> </a>
 
-1. Vaya a la Skype para el centro de administración de negocio en línea > **organización > General**.
+1. Vaya a la Skype para > de centro de administración empresarial en línea **> organización General**.
     
 2. En el **modo de privacidad de presencia**, elija la configuración y, a continuación, haga clic en **Guardar**.
     

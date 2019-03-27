@@ -1,5 +1,6 @@
 ---
 title: Definir una puerta de enlace en el generador de Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Resumen: Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server.'
-ms.openlocfilehash: 50c5dca09608f6b0ef9046109e434f3ccbbba0d3
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886799"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876323"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el generador de Skype para Business Server
  
@@ -58,7 +59,7 @@ Siga estos pasos para usar el generador de topología para definir a un par con 
 9. En **puerto de servidor de mediación asociado**, escriba el puerto de escucha que se va a usar el servidor de mediación para mensajes SIP desde la puerta de enlace.
     
     > [!NOTE]
-    > Compatible con varios tronco en Skype para Business Server, puede definir varios puertos en el servidor de mediación para la comunicación con varias puertas de enlace de RTC de señalización de SIP. Al definir un tronco, el **puerto del servidor de mediación asociado** debe estar dentro del intervalo de puertos de escucha para el protocolo respectivo permitida por el servidor de mediación. Este intervalo de puertos se define en Skype para Business Server y los grupos de servidores de mediación. Haga clic en el grupo de servidores de mediación de interés y seleccione **Editar propiedades**. Especifique el intervalo de puertos en el campo **Puertos de escucha**.
+    > Compatible con varios tronco en Skype para Business Server, puede definir varios puertos en el servidor de mediación para la comunicación con varias puertas de enlace de RTC de señalización de SIP. Al definir un tronco, el **puerto del servidor de mediación asociado** debe estar dentro del intervalo de puertos de escucha para el protocolo respectivo permitida por el servidor de mediación. Este intervalo de puertos se define en Skype para Business Server y los grupos de servidores de mediación. Haga clic en el grupo de servidores de mediación de interés y seleccione **Editar propiedades**. Specify the port range in the **Listening ports** field.
   
 10. Asegúrese de que el par definido está en ejecución y usa el FQDN o la dirección IP que ha especificado. A continuación, haga clic en **Finalizar**
     

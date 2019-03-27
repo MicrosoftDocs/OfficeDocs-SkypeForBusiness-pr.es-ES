@@ -1,5 +1,6 @@
 ---
 title: Ver los usuarios invitados en un equipo
+ms.reviewer: ''
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -15,12 +16,12 @@ f1keywords: ms.teamsadmincenter.orgwidesettings.guestaccess.viewguestusersarticl
 description: Descubra cómo un administrador puede ver la información sobre usuarios invitados en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6a5db8c39ace9dc3682441495000f61a7a2523f9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 9a54d9f23bd32fd84e53f5e285014b92679000f2
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649143"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873608"
 ---
 <a name="view-guest-users-in-a-team"></a>Ver los usuarios invitados en un equipo
 ==========================

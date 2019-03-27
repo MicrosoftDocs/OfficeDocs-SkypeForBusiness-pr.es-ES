@@ -1,5 +1,6 @@
 ---
 title: Los usuarios nuevos objetos de contacto
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 93f0c4b66c7f18bb42e6abddcec1c92ec3f75949
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 4acb88c33ed914ff88971e05693235fe0f29a68c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23247580"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876503"
 ---
-# <a name="users-new-contact-objects"></a>De los usuarios: Nuevos objetos de contacto
+# <a name="users-new-contact-objects"></a>Usuarios: Nuevos objetos de contacto
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 
@@ -31,7 +32,7 @@ ms.locfileid: "23247580"
 
 - [Asignar una directiva de PIN por usuario en Skype para Business Server](../../../manage/authentication/assign-a-per-user-pin-policy.md)
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 - [Configurar el archivado de comunicaciones de un usuario](https://technet.microsoft.com/library/a12ca483-b235-460f-b3fe-130fb3087264.aspx)
 
@@ -39,9 +40,9 @@ ms.locfileid: "23247580"
 
 - [Habilitar a usuarios para Enterprise Voice en Skype para Business Server](../../../deploy/deploy-enterprise-voice/enable-users-for-enterprise-voice.md)
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
-- [Configurar la telefonía para los usuarios](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
+- [Configure Telephony for Users](https://technet.microsoft.com/library/4546432e-c839-4517-a2c5-bc0d4d8c6a03.aspx)
 
 - [Asignar una directiva de movilidad por usuario](https://technet.microsoft.com/library/d8bf997f-4bc7-48d3-973b-323505f55e9d.aspx)
 

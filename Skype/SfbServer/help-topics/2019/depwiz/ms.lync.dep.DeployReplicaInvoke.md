@@ -1,5 +1,6 @@
 ---
-title: Instalar almacén de configuración Local (invocar)
+title: Instalar almacén de configuración local (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El panel de ejecutar comandos muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central. Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos. Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran. Cuando las tareas son completadas, el estado de la tarea de mensaje: completado se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro. Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en Ver registro. Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.'
-ms.openlocfilehash: 6977804f333c7cee4e71fd9d45d1e25416f0af81
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b7241a7cd7aeb7b01e762e31bebaa37fa1b90b58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20989481"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30875316"
 ---
-# <a name="install-local-configuration-store-invoke"></a>Instalar almacén de configuración Local (invocar)
+# <a name="install-local-configuration-store-invoke"></a>Instalar almacén de configuración local (invocar)
  
 El panel de **Ejecutar comandos** muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central. Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos. Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran. Cuando las tareas son completadas, el mensaje **estado de tarea: completado** se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro. Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en **Ver registro**. Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.
   

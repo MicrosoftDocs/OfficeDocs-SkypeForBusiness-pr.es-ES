@@ -1,5 +1,6 @@
 ---
-title: Agregar supervisión de Director
+title: Agregar supervisión de director
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: 56be865d60266fd2ee477356f9c7cd407dee28c4
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 4ba52c49cc9d851df9d6fa53220cf81d70967e75
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068985"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30876686"
 ---
-# <a name="add-director-monitoring"></a>Agregar supervisión de Director
+# <a name="add-director-monitoring"></a>Agregar supervisión de director
  
 Se puede **definir el almacén de SQL Server de supervisión** mediante la configuración de las siguientes propiedades:
   
@@ -37,7 +38,7 @@ Se puede **definir el almacén de SQL Server de supervisión** mediante la confi
     
     Haga clic en **nuevo** para crear una nueva definición FQDN de SQL Server y, opcionalmente, un nombre de instancia para el almacén testigo de reflejo.
     
-Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición del grupo de servidores.
+Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición de grupo de servidores.
   
 Haga clic en **siguiente** cuando haya terminado de introducir las opciones de este cuadro de diálogo continuar con la configuración.
   
