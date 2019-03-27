@@ -1,5 +1,6 @@
 ---
 title: Implementar SRS v1 administrativas Web Portal en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 description: El Skype para sistemas de negocio Server Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
-ms.openlocfilehash: 6aa7b0d4f36fbffe29a27f77209fb6f2cf312c05
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23248134"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891948"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 administrativas Web Portal en Skype para Business Server
 
@@ -193,7 +194,7 @@ La sección Mantenimiento proporciona una indicación visual del estado de la Sk
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Notas adicionales sobre el portal web administrativo
 
 > [!NOTE]
->  Cambios en la configuración se aplican sólo después de que se reinicie el sistema SRS. > Si caduca la contraseña de la cuenta LRSApp, no podrá ver el estado de las salas. Configurar la contraseña de la cuenta LRSAppuser para que nunca caduca o asegúrese de actualizar la contraseña cuando está cerca de expiración. > portal web administrativa de SRS el es compatible con las implementaciones locales únicamente.
+>  Cambios en la configuración se aplican sólo después de que el sistema SRS es reiniciado .> si caduca la contraseña de la cuenta LRSApp, no podrá ver el estado de las salas. Configurar la contraseña de la cuenta LRSAppuser para que nunca caduca o asegúrese de actualizar la contraseña cuando está cerca de expiration.> el SRS administrativas portal web es compatible con las implementaciones locales únicamente.
 
 ### <a name="bulk-management"></a>Administración en masa 
 

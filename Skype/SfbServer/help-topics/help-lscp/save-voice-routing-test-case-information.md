@@ -1,5 +1,6 @@
 ---
 title: Guardar información de caso de prueba de enrutamiento de voz
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 description: Puede usar el cuadro de diálogo Guardar información de caso de prueba de enrutamiento de voz para guardar un caso de prueba de enrutamiento de voz temporal. En Guardar información enrutamiento de voz caso de prueba, escriba el nombre que desea dar a este caso de prueba en nombre y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 50ad181cec9944e56a763a4352e82efec8bfb172
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3ec9ed0a878f6d6482d2756d929221eb26dccb92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21012124"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894806"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Guardar información de caso de prueba de enrutamiento de voz
  

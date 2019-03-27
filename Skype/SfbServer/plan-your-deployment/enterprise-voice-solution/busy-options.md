@@ -1,5 +1,6 @@
 ---
 title: Plan para Opciones de disponibilidad para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Lea acerca de la característica de opciones de disponibilidad de Skype para Business Server.
-ms.openlocfilehash: 7b71cad7eebaf2d375098abfa0891cdf6b494fe9
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884789"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897980"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan para Opciones de disponibilidad para Skype Empresarial Server
  
@@ -27,7 +28,7 @@ Opciones de disponibilidad es una nueva directiva de voz introducida en la actua
   
 La directiva de opciones de disponibilidad se admite para la recuperación ante desastres y la conmutación por error en grupos de servidores front-end emparejados y servidores de sucursal con funciones de supervivencia (SBS).
   
-En este tema se describen las características de Opciones de disponibilidad. Para obtener información acerca de cómo instalar y configurar las opciones de disponibilidad, vea [instalar y configurar las opciones de disponibilidad de Skype para Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+En este tema se describen las características de Opciones de disponibilidad. Para obtener información sobre cómo instalar y configurar Opciones de disponibilidad, vea [Install and configure Busy Options for Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
   
 ## <a name="configuration-options"></a>Opciones de configuración
 

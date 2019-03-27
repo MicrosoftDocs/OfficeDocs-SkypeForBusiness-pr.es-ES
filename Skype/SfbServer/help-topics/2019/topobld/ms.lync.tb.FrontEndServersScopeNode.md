@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de servidores front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,13 +12,13 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Grupos de servidores front-end Enterprise Edition contiene los grupos de servidores front-end de este sitio y los nodos Servidores front-end Standard Edition, los servidores Standard Edition de este sitio. Puede efectuar la siguiente acción:'
-ms.openlocfilehash: f6ca2a8b27b0868492862c551cebfe12e9e32ffa
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'El nodo Grupos de servidores front-end Enterprise Edition contiene los grupos de servidores front-end de este sitio y los nodos Servidores front-end Standard Edition, los servidores Standard Edition de este sitio. You can perform the following action:'
+ms.openlocfilehash: f4e02da68560537040855413618396b916a88b32
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21065588"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897353"
 ---
 # <a name="front-end-servers-scope-node"></a>Nodo de ámbito de servidores front-end
  

@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración directiva de acceso externo
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7065ebf2-15cc-44cf-9282-d64a86e3185a
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: fd0fb7913e9e7be0dba4798eae7d89dd5c647371
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 862ab5d30c21f4e05a59a0de9d27db324839ba53
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253107"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892332"
 ---
-# <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar Directiva de acceso externo
+# <a name="users-view-or-configure-external-access-policy"></a>Usuarios: Ver o configurar directiva de acceso externo
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 
-- [Configurar la federación, el acceso de usuarios remotos y la conectividad de mensajería instantánea pública para los usuarios](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
+- [Configure Federation, Remote User Access, and Public IM Connectivity for Users](https://technet.microsoft.com/library/736fcaad-9f95-4896-b767-e199d86a00a4.aspx)
 
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

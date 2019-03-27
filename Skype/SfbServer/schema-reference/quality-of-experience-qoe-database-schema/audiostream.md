@@ -1,5 +1,6 @@
 ---
 title: Tabla AudioStream
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -10,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa una secuencia de audio. Normalmente, una línea de medios de audio contiene dos secuencias de audio.
-ms.openlocfilehash: 2e910eb3f6717beed4ba228237f16b96471aea29
-ms.sourcegitcommit: a79668bb45b73a63bea5c249d76a4c4c2530a096
+ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "19570054"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894138"
 ---
 # <a name="audiostream-table"></a>Tabla AudioStream
  
@@ -43,7 +44,7 @@ Cada registro representa una secuencia de audio. Normalmente, una línea de medi
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |Degradación de MOS de red provocada por la pérdida.  <br/> |
 |**AudioPayloadDescription** <br/> |int  <br/> |Externa  <br/> |El códec de audio utilizado para la llamada, de PayloadDescription Table.  <br/> |
 |**AudioSampleRate** <br/> |int  <br/> | <br/> |Velocidad de muestreo de la secuencia de audio.  <br/> |
-|**Ida y vuelta** <br/> |int  <br/> | <br/> |Tiempo de ida y vuelta desde las estadísticas de RTCP. Debe ser inferior a 100 ms para calidad aceptable.  <br/> |
+|**RoundTrip** <br/> |int  <br/> | <br/> |Tiempo de ida y vuelta desde las estadísticas de RTCP. Debe ser inferior a 100 ms para calidad aceptable.  <br/> |
 |**RoundTripMax** <br/> |int  <br/> | <br/> |Tiempo de ida y vuelta máximo para la secuencia de audio.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |Promedio de banda ancha MOS de red para la llamada. Esta métrica depende de la pérdida de paquetes, la vibración y el códec utilizado. Rango es [1.0 a 5.0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |El mínimo MOS banda ancha red de la llamada.  <br/> |

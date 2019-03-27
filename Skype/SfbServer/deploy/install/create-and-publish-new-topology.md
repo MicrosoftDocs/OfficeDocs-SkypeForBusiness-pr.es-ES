@@ -1,5 +1,6 @@
 ---
 title: Crear y publicar la nueva topología de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Resumen: Obtenga información sobre cómo crear, publicar y comprobar una nueva topología de antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c2879b2323ffe85624c852d70028ab2388b4feb7
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: ba141e76732705008ded4e8e03737154bc45b1c6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371337"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886678"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Crear y publicar la nueva topología de Skype para Business Server
  
@@ -29,7 +30,7 @@ Antes de instalar el Skype para sistema Business Server en cada uno de los servi
   
 ![Diagrama de información general](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
-## <a name="create-and-publish-new-topology"></a>Crear y publicar una nueva topología
+## <a name="create-and-publish-new-topology"></a>Create and publish new topology
 
 Puede usar Skype para Business Server Topology Builder para diseñar, definir, configurar y publicar las topologías. Anteriormente en este artículo, se instaló esta herramienta al instalar las herramientas administrativas. Al crear una topología, puede seleccionar varias opciones diferentes. En este procedimiento, creará una topología básica con conferencias.
   

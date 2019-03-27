@@ -1,5 +1,6 @@
 ---
 title: Tabla SessionCorrelation
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,22 +10,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
-description: La tabla SessionCorrelation es un auxiliar. Cada registro representa un CorrelationID que se utiliza para relacionar varias sesiones.
-ms.openlocfilehash: 8a9c9661b10548bf3ebf402aa4654fced2ca709b
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: En la tabla SessionCorrelation es una tabla de apoyo. Cada registro representa una CorrelationID que se usa para correlacionar varias sesiones.
+ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884666"
 ---
 # <a name="sessioncorrelation-table"></a>Tabla SessionCorrelation
  
-La tabla SessionCorrelation es un auxiliar. Cada registro representa un CorrelationID que se utiliza para relacionar varias sesiones. 
+En la tabla SessionCorrelation es una tabla de apoyo. Cada registro representa una CorrelationID que se usa para correlacionar varias sesiones. 
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**Suma de comprobación** <br/> |int  <br/> |||
-|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica este A / V Conferencing Server.  <br/> |
-|**CorrelationID** <br/> |nvarchar(256)  <br/> |Único  <br/> |Las sesiones que se correlacionan tendrán el mismo identificador de correlación.  <br/> |
+|**CorrelationKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica este / servidor de conferencia A/v.  <br/> |
+|**CorrelationID** <br/> |nvarchar(256)  <br/> |Único  <br/> |Las sesiones correlacionadas tendrán el mismo identificador de correlación.  <br/> |
 |**NextUpdateTS** <br/> |datetime  <br/> | <br/> |Sólo para uso interno.  <br/> |
    
 

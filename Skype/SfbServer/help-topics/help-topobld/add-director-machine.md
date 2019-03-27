@@ -1,5 +1,6 @@
 ---
-title: Agregar equipo Director
+title: Agregar equipo director
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d51493a-1b7a-43ad-b562-49e45f899796
 description: Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un Director en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo.
-ms.openlocfilehash: a45d0c25d371669791760d016968e52e6c2db88b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a3d3837a6d8ab1821a5ddece87a276ab516ddef8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974948"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881768"
 ---
-# <a name="add-director-machine"></a>Agregar equipo Director
+# <a name="add-director-machine"></a>Agregar equipo director
  
 Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un Director en este grupo de servidores. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo. 
   

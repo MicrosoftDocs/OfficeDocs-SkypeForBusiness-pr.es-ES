@@ -1,5 +1,6 @@
 ---
-title: Agregar el FQDN del grupo de servidores de Front-End
+title: Agregar FQDN del grupo de servidores front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique el nombre de dominio completo (FQDN) del grupo de servidores Front-End que va a crear. No se puede cambiar el FQDN de un grupo de servidores después de publicar la topología que contiene el grupo de servidores Front-End. Si necesita cambiar el nombre de un grupo de servidores, debe eliminar el grupo de servidores y, a continuación, agregar un nuevo grupo con el FQDN nuevo.
-ms.openlocfilehash: 9730c1857ccb68e5aeb05a66d89e306aa9646246
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+ms.openlocfilehash: 28e831df0cdf86620eefc1a22ced199507026c46
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21068236"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884255"
 ---
-# <a name="add-front-end-pool-fqdn"></a>Agregar el FQDN del grupo de servidores de Front-End
+# <a name="add-front-end-pool-fqdn"></a>Agregar FQDN del grupo de servidores front-end
  
 Especifique el nombre de dominio completo (FQDN) del grupo de servidores Front-End que va a crear. No se puede cambiar el FQDN de un grupo de servidores después de publicar la topología que contiene el grupo de servidores Front-End. Si necesita cambiar el nombre de un grupo de servidores, debe eliminar el grupo de servidores y, a continuación, agregar un nuevo grupo con el FQDN nuevo.
   

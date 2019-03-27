@@ -1,5 +1,6 @@
 ---
-title: Seleccione un servicio de anuncio
+title: Seleccionar servicio de anuncio
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: Use el seleccionar un cuadro de diálogo servicio de anuncio para seleccionar un servicio de anuncio que controlará las llamadas entrantes a un intervalo de números sin asignar.
-ms.openlocfilehash: 2d5ab200d38e72c05816b27b13bb66d87e62d119
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1d9f76f912892eccdaf54629aa4a2f1dc9376eca
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21015061"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881039"
 ---
-# <a name="select-an-announcement-service"></a>Seleccione un servicio de anuncio
+# <a name="select-an-announcement-service"></a>Seleccionar servicio de anuncio
  
 Use el cuadro de diálogo **Seleccionar un servicio de anuncio** para seleccionar un servicio de anuncio que controlará las llamadas entrantes a un intervalo de números sin asignar.
   

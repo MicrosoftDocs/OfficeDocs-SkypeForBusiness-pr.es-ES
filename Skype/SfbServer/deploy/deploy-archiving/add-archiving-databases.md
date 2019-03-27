@@ -1,5 +1,6 @@
 ---
 title: Agregar bases de datos de archivado a una implementación existente de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Resumen: Lea este tema para obtener información sobre cómo agregar bases de datos de archivado a su Skype para la implementación de Business Server.'
-ms.openlocfilehash: c2e92b1da9dd5e9827b362bf4979ffba075c4402
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 083b6329cdf27331ba861b96a74f94e2ae5aa912
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372954"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895317"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Agregar bases de datos de archivado a una implementación existente de Skype para Business Server
  
@@ -95,7 +96,7 @@ Es preciso incorporar el archivado a la topología para poder configurar la impl
 5. En la página **Crear bases de datos**, compruebe que la base de datos está seleccionada y, luego, haga clic en **Siguiente**. 
     
     > [!NOTE]
-    > Si no tiene los permisos adecuados para crear bases de datos, puede cancelar la selección de la base de datos y alguien con permisos adecuados podrá crear la base de datos. > Sólo las bases de datos en servidores dedicada de SQL Server se pueden instalar mediante el generador de topología. Las bases de datos en servidores SQL Server que se han combinado con otros componentes de servidor necesitan instalarse al ejecutar la instalación local en dicho equipo. 
+    > Si no tiene los permisos adecuados para crear bases de datos, puede cancelar la selección de la base de datos y alguien con permisos adecuados podrá crear la base de datos. > bases de datos sólo en servidores dedicada de SQL Server se pueden instalar mediante el generador de topología. Las bases de datos en servidores SQL Server que se han combinado con otros componentes de servidor necesitan instalarse al ejecutar la instalación local en dicho equipo. 
   
 6. En la página **Asistente para publicación completado**, compruebe que se ha publicado correctamente la topología y, luego, haga clic en **Finalizar**.
     

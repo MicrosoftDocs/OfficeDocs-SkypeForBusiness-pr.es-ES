@@ -1,5 +1,6 @@
 ---
 title: (Opcional) Comprobación de la implementación de anuncio en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 54da13fb-cf5e-40d0-88fb-aee1658f67eb
 description: Comprobación de la implementación de la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: f85a28377871fa604e6e07d5014b56a0c4daf20e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 8f20c9d35a8349c0e02af7a5c3d67532ec2d9236
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967631"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896312"
 ---
 # <a name="optional-verify-announcement-deployment-in-skype-for-business"></a>(Opcional) Comprobación de la implementación de anuncio en Skype para la empresa
  

@@ -1,5 +1,6 @@
 ---
-title: Ejecutar la consulta
+title: Ejecutar consulta
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -10,20 +11,20 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Resumen: Obtenga información acerca de la operación de ejecutar la consulta, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: ac9f042a8d5b8e016a398a0daf9595ffcb9d2fcb
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533395"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899154"
 ---
-# <a name="run-query"></a>Ejecutar la consulta
+# <a name="run-query"></a>Ejecutar consulta
 
 **Resumen:** Obtenga información acerca de la operación de ejecutar la consulta, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
 
 La operación de ejecutar la consulta forma parte de la API de datos para el panel de calidad de llamadas.
 
-## <a name="run-query"></a>Ejecutar la consulta
+## <a name="run-query"></a>Ejecutar consulta
 
 Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta en el cubo en función de los filtros, las medidas y dimensiones especificadas y volver atrás los datos.
 

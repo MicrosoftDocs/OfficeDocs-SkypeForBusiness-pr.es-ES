@@ -1,5 +1,6 @@
 ---
-title: Expansor de configuración de dirección URL sencilla
+title: Expansor de configuración de dirección URL simple
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Para especificar nuevas, quitar las ya existentes, o para cambiar las direcciones URL sencillas de la activa, haga lo siguiente:'
-ms.openlocfilehash: 8f548f927666dfe6fafdbbe2a5b02e94db514ffa
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2015b377647c96e2e590a07c89c81f84ab59f586
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23258413"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889017"
 ---
-# <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL sencilla
+# <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 
 Para especificar nuevas, quitar las ya existentes, o para cambiar las direcciones URL sencillas de la activa, haga lo siguiente:
 
@@ -45,7 +46,7 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez que haya terminado con todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 Para obtener información detallada, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
 

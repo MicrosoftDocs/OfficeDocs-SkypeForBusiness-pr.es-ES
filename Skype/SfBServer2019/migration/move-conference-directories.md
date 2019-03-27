@@ -1,5 +1,6 @@
 ---
 title: Mover directorios de conferencia
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de retirar un grupo de servidores debe realizar el procedimiento siguiente para cada directorio de conferencia en su grupo heredado.
-ms.openlocfilehash: b7526d8c3c032bf8b1f9052dce7da7e8a87b66b5
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 32ebe22c54585a206c90888238d96e41fce30a58
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372808"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895722"
 ---
 # <a name="move-conference-directories"></a>Mover directorios de conferencia
 

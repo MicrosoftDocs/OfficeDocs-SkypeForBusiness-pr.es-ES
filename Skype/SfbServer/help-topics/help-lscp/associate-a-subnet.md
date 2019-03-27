@@ -1,5 +1,6 @@
 ---
 title: Asociar una subred
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a52e48cf53aa7aee4f2baf9e9decdb041f6c18a7
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 5b63dbb3d89a8ba526804b69fdf82bce79c81bfa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "23263910"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889743"
 ---
 # <a name="associate-a-subnet"></a>Asociar una subred
 

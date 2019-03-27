@@ -1,5 +1,6 @@
 ---
 title: Plan para la omisión de medios en Cloud Connector Edition
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
-description: Lea este tema para revisar las consideraciones de planificación a la hora de implementar la omisión de medios con la versión 2.0 de Cloud Connector Edition y las versiones posteriores. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
-ms.openlocfilehash: a3cfaea8d963efa4f7774b8b589fcd0ecc61d3bc
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+description: Lea este tema para revisar las consideraciones de planeación para la implementación de desvío de medios con la nube conector Edition versión 2.0 y versiones posterior. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
+ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371004"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896024"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
-Lea este tema para revisar las consideraciones de planificación a la hora de implementar la omisión de medios con la versión 2.0 de Cloud Connector Edition y las versiones posteriores. Para obtener información sobre la implementación de medios de desvío, vea [de desvío de medios de implementar en la nube conector Edition](deploy-media-bypass-in-cloud-connector.md).
+Lea este tema para revisar las consideraciones de planeación para la implementación de desvío de medios con la nube conector Edition versión 2.0 y versiones posterior. Para obtener información sobre la implementación de medios de desvío, vea [de desvío de medios de implementar en la nube conector Edition](deploy-media-bypass-in-cloud-connector.md).
   
 Desvío de medios permite que un cliente enviar medios directamente en el próximo salto pública red de telefónica conmutada (RTC): una puerta de enlace o el controlador de borde de sesión (SBC) — y eliminar el componente de edición de conector en la nube desde la ruta de acceso de medios.
   
@@ -32,7 +33,7 @@ La omisión de medios puede mejorar la calidad de la voz al reducir la latencia,
   
 ## <a name="how-media-bypass-affects-media-and-signaling-pathways"></a>Cómo afecta la omisión de medios a las rutas de señalización y medios
 
-Si bien la señalización toma la misma ruta con o sin omisión de medios, el flujo de medios actúa de forma diferente. Los siguientes diagramas muestran las rutas de señalización y medios en las topologías con omisión de medios y sin ella.  
+Si bien la señalización toma la misma ruta con o sin omisión de medios, el flujo de medios actúa de forma diferente. Los siguientes diagramas muestran las rutas de señalización y medios en las topologías con omisión de medios y sin ella.   
   
 Por ejemplo, en la siguiente topología: que omitir la no emplean medios — un Skype para cliente empresarial realiza una llamada de RTC para un número externo, las señales SIP va a Office 365 y Office 365, a continuación, dirige el tráfico de señalización según la voz para el usuario final Directiva. Para los usuarios de conector en la nube, la directiva de voz dirige el tráfico de señalización para el servidor perimetral de conector de nube, que, a continuación, se distribuye el tráfico de señalización a un controlador de borde de sesión (SBC) de RTC o puerta de enlace a través del servidor de mediación de conector en la nube. Se transmite desde el Skype para clientes empresariales al servidor de mediación de conector en la nube y, a continuación, al SBC o puerta de enlace, tal como se muestra en el siguiente diagrama:
   
@@ -48,7 +49,7 @@ En la siguiente topología: que omitir la emplean medios — señalización toma
 
 ![señalización con omisión de medios](../../media/60400c38-4921-4964-89f2-5e53b68fb497.png)
   
-## <a name="multi-site-scenario-and-media-bypass"></a>Escenario centralizado de varios sitios y omisión de medios
+## <a name="multi-site-scenario-and-media-bypass"></a>Escenario centralizado de varios sitios y omisión de medios  
 
 Desvío de medios también es útil cuando desea proporcionar servicios de telefonía para varios sitios con un solo dispositivo de conector en la nube. Debido a que el conector en la nube no podrá enrutar llamadas basadas en los números de origen o de destino, mayoría de las empresas implementar una puerta de enlace detrás de conector en la nube o SBC para tomar decisiones de enrutamiento. La omisión de medios en este escenario elimina el salto entre el cliente y el SBC central o la puerta de enlace, como se muestra en el siguiente diagrama:
   
@@ -85,7 +86,7 @@ Para la versión actual de los clientes en distintos canales, vea [Release infor
 
 Sin desvío de medios y dependiendo del hardware, puede controlar un dispositivo de conector en la nube de 50 a 500 llamadas simultáneas que requieren medios viajar a través de un servidor de mediación. Para obtener más información, consulte [Plan de Skype para Business Edition de conector en la nube](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
   
-Con la omisión de medios habilitado, los clientes internos en la versión compatible no usa el Servidor de mediación, de modo que el número de clientes internos puede aumentar considerablemente. 
+Con la omisión de medios habilitado, los clientes internos en la versión compatible no usa el Servidor de mediación, de modo que el número de clientes internos puede aumentar considerablemente.  
   
 Como se mencionó anteriormente, los clientes externos o los clientes no compatibles usará los servidores perimetrales de conector en la nube y de mediación para los medios. Al calcular cuántos dispositivos de conector en la nube se deben colocar en un sitio, debe tener en cuenta el tráfico de los usuarios externos y los usuarios en los clientes no compatibles.
   
@@ -93,9 +94,9 @@ Como se mencionó anteriormente, los clientes externos o los clientes no compati
 
 Conector de nube admite sólo en modo siempre el desvío. En entornos locales, existen dos opciones: Omitir siempre y Use Site and Region Information (Usar la información del sitio y la región).
   
-«Omitir siempre» significa que la omisión de medios se intentará en todas las llamadas RTC con los clientes internos como punto de origen o de destino. Para determinar si el cliente es interno o externo, se utiliza un sitio web en la máquina virtual del servidor de mediación. Si el cliente puede llegar al sitio, se tiene en cuenta la omisión interna y de medios. Si el cliente no puede llegar al sitio (por ejemplo, el cliente está en una red doméstica), no se utiliza la omisión de medios.  
+"Omitir siempre" significa que la omisión de medios se intentará en todas las llamadas RTC con los clientes internos como punto de origen o de destino. Para determinar si el cliente es interno o externo, se utiliza un sitio web en la máquina virtual del servidor de mediación. Si el cliente puede llegar al sitio, se tiene en cuenta la omisión interna y de medios. Si el cliente no puede llegar al sitio (por ejemplo, el cliente está en una red doméstica), no se utiliza la omisión de medios.  
   
-Para usar Omitir siempre, hace falta que la conectividad esté despejada entre los usuarios y las puertas de enlace RTC dentro de un sitio RTC.  
+Omitir siempre requiere una conectividad sin obstrucciones entre los usuarios y las puertas de enlace RTC en un sitio RTC.  
   
 Para obtener más información, consulte [Plan de Skype para Business Edition de conector en la nube](https://technet.microsoft.com/en-us/library/mt605227.aspx). 
   
@@ -108,8 +109,8 @@ Por ejemplo, en el diagrama siguiente, los usuarios de Europa deben estar bien c
   
 ## <a name="codecs-used-in-media-bypass"></a>Códecs usados en la omisión de medios
 
-Con la omisión de medios habilitada, el tráfico de los medios entre un cliente y un SBC o una puerta de enlace usará el códec G.711. 
+Con la omisión de medios habilitada, el tráfico de los medios entre un cliente y un SBC o una puerta de enlace usará el códec G.711.  
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementar el desvío de medios en la nube conector Edition](deploy-media-bypass-in-cloud-connector.md)

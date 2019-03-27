@@ -1,5 +1,6 @@
 ---
 title: Diseñar el tronco SIP para E9-1-1 en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4f93b974-b460-45c7-a4a8-6f38e34840f5
 description: Planeación de las topologías de enlace troncal SIP para una implementación de E9-1-1 que usa los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 7640cbd78dadaac999327becce360bf5ea865ef5
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 25d961c00eb701dce6386ce2a901c1fbe5cf3cde
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885541"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893643"
 ---
 # <a name="design-the-sip-trunk-for-e9-1-1-in-skype-for-business-server"></a>Diseñar el tronco SIP para E9-1-1 en Skype para Business Server
  

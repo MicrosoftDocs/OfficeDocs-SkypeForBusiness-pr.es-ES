@@ -1,5 +1,6 @@
 ---
 title: Configuración de archivado crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Las configuraciones de archivado sirven para controlar las opciones de archivado de su implementación. Las configuraciones de archivado constan de la configuración global y, de forma opcional, de una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: 1e85367566618638da8e8c9a826c56eecad6b029
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 9c48387c18919b4713c57232ee21f5bf5b22adbe
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20974811"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896066"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nueva o editar existente
  
@@ -45,7 +46,7 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     
 - **Configuración de archivado** Las opciones incluyen lo siguiente:
     
-  - **Archivar sesiones de mensajería instantánea**
+  - **Archivar sesiones de mensajería instantánea (MI)**
     
   - **Archivar sesiones de mensajería instantánea y conferencias web**
     
@@ -55,9 +56,9 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     
   - **Mensajería instantánea** un error podría ser un problema con el servicio de almacenamiento o base de datos completa. En este caso, la mensajería instantánea se bloquea para los usuarios que tienen el archivado habilitado.
     
-  - **Conferencia** Un error podría ser un recurso compartido de archivo no está disponible o un problema con el servicio de almacenamiento. En este caso, todas las conferencias activas hospedadas en el grupo de servidores en el momento del error se cambian al modo restringido y no se puede activar conferencias nuevas.
+  - **Conferencia** Un error podría ser un recurso compartido de archivo no está disponible o un problema con el servicio de almacenamiento. En este caso, todas las conferencias activas alojadas en el grupo de servidores en el momento del error se cambian al modo restringido y no se puede activar conferencias nuevas.
     
-    Tanto el servicio de mensajería instantánea como el servicio de conferencias se recuperan automáticamente después de que se corrijan los errores.
+    Tanto la mensajería instantánea como las conferencias se recuperan automáticamente después de que se corrigen los errores.
     
 - **Integración de Microsoft Exchange** Seleccione esta opción si tiene usuarios que están ubicados en Exchange. Con esta opción, Exchange se usa para almacenar los datos de los usuarios, si sus buzones de correo se han colocado en suspensión en contexto. Si todos los usuarios están ubicados en Exchange, no es necesario configurar bases de datos de SQL Server independientes para el almacenamiento de datos de archivado.
     
@@ -68,7 +69,7 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
   - Depuración después de los datos de archivado se han exportado (que incluye datos que se han cargado en Exchange, si habilita la integración de Microsoft Exchange).
     
     > [!NOTE]
-    > Si habilita la integración de Microsoft Exchange, depuración para los usuarios alojados en Exchange y con sus buzones de correo que se colocan en suspensión en contexto se controla mediante Exchange. La única excepción es para los archivos de la conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. Estos archivos se purgan desde el recurso compartido de archivos sólo después de que los archivos se han exportado (que se cargan a Exchange), si selecciona la opción para purgar los datos después de haber exportado los datos de archivado, o después del número máximo especificado de días, si especifica un número máximo de días de retención. 
+    > Si habilita la integración de Microsoft Exchange, depuración para los usuarios alojados en Exchange y con sus buzones de correo que se colocan en suspensión en contexto se controla mediante Exchange. La única excepción es para los archivos de la conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
   
 Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, consulte [Plan para el archivado en Skype para Business Server](../../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para la empresa Servidor](../../../manage/archiving/archiving.md).
 

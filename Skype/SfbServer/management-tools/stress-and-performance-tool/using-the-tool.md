@@ -1,5 +1,6 @@
 ---
 title: Uso de la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 ms.date: 2/13/2018
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Para ejecutar la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento, aquí necesite que puedan administrar usuarios, contactos y perfiles de usuario, configurar la herramienta para la ejecución y, a continuación, revise los resultados o los resultados producidos por la herramienta.
-ms.openlocfilehash: 829bedbd2a042234e67285045ac67cff30064936
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 7ce25ec13af020734e0784392e457f96399a2398
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375442"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30884845"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Uso de la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
  
@@ -296,7 +297,7 @@ Las opciones son:
 - **Servidor de mediación y RTC-** Cada servidor de mediación que desea usar necesita su propio simulador de RTC. Una vez que haya determinado de cliente que va a usar para el simulador, configuración de su servidor de mediación para enrutar llamadas a ese equipo en el simulador de RTC configurado. Haga clic en el botón **Agregar** para configurar un valor para el servidor de mediación.
     
     > [!NOTE]
-    > Cada escenario tiene un botón avanzadas que se encuentra junto a ella. Cuadros de diálogo Opciones avanzadas contienen la configuración específica de cada escenario que cambia el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización. > Para cada escenario en la ficha de escenarios de voz, si el valor de nivel de carga es **personalizada**, a continuación, la tasa de conversación se calcularán mediante el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero la descripción del campo se de estado: *Nota: este número solo se usará si se selecciona personalizado en el menú desplegable* .
+    > Cada escenario tiene un botón avanzadas que se encuentra junto a ella. Cuadros de diálogo Opciones avanzadas contienen la configuración específica de cada escenario que cambia el comportamiento de la herramienta de rendimiento y esfuerzo y permiten la personalización. > para cada escenario en la ficha de escenarios de voz, si el valor de nivel de carga es **personalizada**y, a continuación, la tasa de conversación se calcularán mediante el campo correspondiente en el cuadro de diálogo Opciones avanzadas. El nombre de campo puede diferir, dependiendo del escenario, pero la descripción del campo se de estado: *Nota: este número solo se usará si se selecciona personalizado en el menú desplegable* .
   
 #### <a name="web-app-tab"></a>Ficha de aplicación Web
 
@@ -315,7 +316,7 @@ Aplicación Web es compatible con escenarios de conferencia a través del servid
 - **Conferencias de voz-** Seleccione un valor para el nivel de carga.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar personalización. > para cada uno de los escenarios de aplicación Web, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar customization.> para cada uno de los escenarios de la aplicación Web, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
   
 #### <a name="mobility-tab"></a>Ficha de movilidad
 
@@ -330,7 +331,7 @@ Las opciones aquí son:
 - **Presencia y mensajería instantánea de P2P/Audio-** Seleccione un valor para el nivel de carga habilitar la simulación de movilidad.
     
 > [!NOTE]
-> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar personalización. > para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
+> Cada uno de los escenarios tiene un botón de **Opciones avanzadas** que se encuentra junto a ella. Cuadros de diálogo avanzados contienen valores específicos para cada escenario que se va a cambiar el comportamiento de la herramienta de rendimiento y esfuerzo y habilitar customization.> para cada uno de los escenarios de movilidad, si el nivel de carga es **personalizada**, a continuación, el valor especificado en el ** ConversationsPerHour** campo se usa en lugar del predeterminado.
   
 #### <a name="summary-tab"></a>Ficha Resumen
 

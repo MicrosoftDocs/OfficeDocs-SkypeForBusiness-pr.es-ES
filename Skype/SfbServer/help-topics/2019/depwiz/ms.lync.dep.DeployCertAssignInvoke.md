@@ -1,5 +1,6 @@
 ---
 title: Asignación de certificados (invocar)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3b7cf7d2-90e1-4c73-bda8-33bdcf19725c
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página ejecución de comandos muestra las acciones realizadas por las tareas para asignar el certificado al servidor. Cuando haya completado las tareas, puede ver el registro que se detalla el proceso de asignación del certificado. Para visualizar el archivo de registro, haga clic en Ver registro.
-ms.openlocfilehash: 385ee73a1619781b90a409410ed20bb96a31c993
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 510f2d7a55530ba4c1a0096ce15aa4481f64e0dc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20967708"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899704"
 ---
 # <a name="certificate-assignment-invoke"></a>Asignación de certificados (invocar)
  

@@ -1,5 +1,6 @@
 ---
 title: Administración de 9-1-1 mejorado y el servicio de ubicación
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server es compatible con Enhanced 9-1-1 (E9-1-1) de llamada de Skype para clientes empresariales. Al configurar Skype para Business Server para E9-1-1, las llamadas de emergencias realizadas desde Skype para la empresa incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos de servicio de información de ubicación.
-ms.openlocfilehash: ef45f6e30e65a9a3fe79fd51576c24a6a4dfb318
-ms.sourcegitcommit: 5576463b0295e48e0506f7e4b44006ffc0b38a95
+ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "27223461"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895156"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administración de 9-1-1 mejorado y el servicio de ubicación en Skype para Business Server
 
@@ -83,7 +84,7 @@ En Skype para Business Server, se puede invalidar la cantidad de tiempo entre la
     
       - **Número de marcado de emergencia**   el número que se marca para llegar a los servicios de emergencia. En los Estados Unidos, este valor es 911. La cadena debe estar formada por dígitos del 0 al 9 y puede contener de 1 a 10 dígitos de longitud.
     
-      - **Máscara de marcado de emergencia**   un número que se va a traducir en el valor del valor del número marcado de emergencia cuando se marca. Por ejemplo, si se escribe un valor de 212 en este campo y el campo número de marcado de emergencia tiene un valor de 911, si un usuario marca 212 se realizará la llamada al 911. Esto permite marcar números de emergencia alternativos y seguir teniendo acceso a los servicios de emergencia (por ejemplo, si una persona de un país o una región con otro número de emergencia intenta marcar el número de su país o región, en lugar del número del país o la región donde se encuentra). Para definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212;414. Longitud máxima de la cadena es de 100 caracteres. Todos los caracteres deben ser dígitos del 0 al 9.
+      - **Máscara de marcado de emergencia**   un número que se va a traducir en el valor del valor del número marcado de emergencia cuando se marca. Por ejemplo, si se escribe un valor de 212 en este campo y el campo número de marcado de emergencia tiene un valor de 911, si un usuario marca 212 se realizará la llamada al 911. Esto permite que los números de emergencias alternativos se debe marcar y seguir teniendo la llamada llegar a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número diferente de emergencia intenta marcar que país o región del número en vez del número de la país o región que se encuentran actualmente en). Puede definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212; 414. Longitud máxima de la cadena es de 100 caracteres. Cada carácter debe ser un dígito de 0 a 9.
       
 
         > [!IMPORTANT]  

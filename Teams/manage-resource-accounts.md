@@ -17,13 +17,13 @@ appliesto:
 localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
-description: Administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: dad2ea10f2dbdeb387a74d01fd48ca6de9805a5a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+description: Obtenga información acerca de cómo administrar las cuentas de recursos en Microsoft Teams
+ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633253"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886064"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -38,13 +38,14 @@ En Microsoft Teams o Skype para profesionales en línea, cada llamada de cola o 
 
 Para empezar a es importante recordar algunas cosas:
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para ser usadas para las cuentas de recursos asignadas a las colas u operadores automáticos de llamadas. El número de cuentas de recursos que puede hacer que depende el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+- Debe asignar una licencia de sistema de teléfono a una cuenta de recurso que se asociarán a la cola de llamada o de operador automático. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    
 
     > [!NOTE]
     > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
-- Para obtener más información acerca de planes de llamada de Office 365, vea [Llamar a planes de Office 365](calling-plans-for-office-365.md).
-- Sólo se pueden asignar números de pago y los números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a una cuenta de recurso. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
+- Puede asignar a un número de híbrido de enrutamiento directa a la cuenta del recurso.  Para obtener información detallada, vea [Planear el enrutamiento directo](direct-routing-plan.md) .
+- Planes de llamada de Microsoft, sólo se pueden asignar números de pago y los números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a una cuenta de recurso. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
 
 > [!NOTE]
 > Los números de teléfono del usuario (suscriptor) no se pueden asignar a una cuenta de recurso. Se pueden usar solo números de pago de servicio o números de teléfono gratuito.
@@ -66,19 +67,22 @@ Dependiendo de si su número de teléfono se encuentra en línea o local, sería
 El siguiente es un ejemplo de un entorno en línea de la creación de una cuenta de recursos:
 
 ``` Powershell
-New-CsOnlineApplicationInstance -DisplayName Node1 -SipAddress sip:node1@litwareinc.com -OU "ou=Redmond,dc=litwareinc,dc=com"
+New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
+$resacct=Get-MsolUser -UserPrincipalName testra1@contoso.com
 ```
 
 Para obtener más información acerca de este comando, vea [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-csonlineapplicationinstance?view=skype-ps) .
 
 > [!NOTE]
-> Es más fácil de establecer el número de teléfono con el centro de administración de Microsoft Teams, tal como se describe en la siguiente sección. También puede usar el `Set-CsOnlineApplicationInstance` de comando a un asignar un número de teléfono a la cuenta del recurso después de su creación inicial tal como se muestra:
+> Es más fácil de establecer el número de teléfono en línea mediante el centro de administración de Microsoft Teams, tal como se describe en la siguiente sección. También puede usar el `Set-CsOnlineVoiceApplicationInstance` de comando a un asignar un número de teléfono a la cuenta del recurso después de su creación inicial tal como se muestra:
 
 ``` Powershell
-Set-CsOnlineApplicationInstance -Identity "CN={4f6c99fe-7999-4088-ac4d-e88e0b3d3820},OU=Redmond,DC=litwareinc,DC=com" -DisplayName Node1 -LineURI tel:+14255550100
+Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
+ -TelephoneNumber +14255550100
+Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
-Para obtener más información acerca de este comando, vea [Set-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlineapplicationinstance?view=skype-ps) .
+Para obtener más información acerca de este comando, vea [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams
 
@@ -94,9 +98,9 @@ Cuando haya terminado, haga clic en **Guardar**.
 
 Para las implementaciones que son híbrida con Skype para Business Server:
 
-[Planeación de operadores automáticos en la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
+[Planear los operadores automáticos en la nube](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant)
 
-[Configurar operadores automáticos en la nube](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
+[Configurar los operadores automáticos en la nube](/SkypeForBusiness/hybrid/configure-cloud-auto-attendant)
 
 Para las implementaciones en los equipos o Skype para empresarial en línea:
 

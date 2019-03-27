@@ -1,5 +1,6 @@
 ---
-title: Introducción a las características (herramienta de planeación)
+title: Feature Overview (Planning Tool)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -13,17 +14,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Herramienta de planeación de Skype Empresarial Server 2015
-ms.openlocfilehash: 8d35b9babe99b4899cda51804f40dd6e3302feeb
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: f04935f7dc4d27883e40b388051b9affa4ec30e9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899739"
 ---
-# <a name="feature-overview-planning-tool"></a>Introducción a las características (herramienta de planeación)
+# <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  
 Herramienta de planeación de Skype Empresarial Server 2015
   
-Puede utilizar la página de **Los sitios centrales** de la herramienta de planeación para diseñar el Skype para la implementación de Business Server. Puede crear una implementación distribuida o centralizada. Una implementación centralizada sólo tiene un sitio central, que aloje todos Skype para usuarios profesionales de su organización. Una implementación distribuida tiene más de un sitio central. Si implementa Skype para Business Server en varios sitios centrales, se especifique el número de usuarios en cada sitio central en la herramienta de planeación.
+Puede usar la página **Sitios centrales** de la herramienta de planeación para diseñar la Skype para la implementación de Business Server. Puede crear una implementación distribuida o centralizada. Una implementación centralizada sólo tiene un sitio central, que hospede todos los Skype para usuarios profesionales de la organización. Una implementación distribuida tiene más de un sitio central. Si implementa Skype para Business Server en varios sitios centrales, va a escribir el número de usuarios en cada sitio central en la herramienta de planeación.
   
 Para completar la definición del sitio central, primero debe proporcionar la siguiente información:
   
@@ -31,7 +33,7 @@ Para completar la definición del sitio central, primero debe proporcionar la si
     
 - **Número de usuarios** Escriba el número de usuarios, incluidos los usuarios de sitios de sucursal alojados en el sitio central.
     
-- **Nube de usuarios alojados** Escriba el número de usuarios alojados en el sitio central de Skype para los negocios en línea.
+- **Usuarios alojados de nube** Introduzca el número de usuarios que están hospedados en el sitio central de Skype para profesionales en línea.
     
 ## <a name="ui-elements"></a>Elementos de la interfaz de usuario
 
@@ -43,7 +45,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
   
 - **Mensajería instantánea (MI) y presencia**
     
-    La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos mediante mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. La presencia proporciona información a los usuarios acerca del estado de los otros usuarios en la red. Estado de presencia del usuario proporciona información para ayudar a otros a determinar si el usuario está conectado y cómo mejor póngase en contacto con el usuario. Por ejemplo, la mejor forma de ponerse en contacto con un usuario que se encuentra en una reunión es mediante correo electrónico.
+    La mensajería instantánea (MI) permite a los usuarios comunicarse entre sí en tiempo real desde sus equipos mediante mensajes basados en texto. Se admiten sesiones de mensajería instantánea con dos participantes y con varios participantes. La presencia proporciona información a los usuarios acerca del estado de los otros usuarios en la red. El estado de presencia de un usuario proporciona información para ayudar a otros usuarios a determinar si el usuario está conectado y cómo mejor póngase en contacto con el usuario. Por ejemplo, la mejor forma de ponerse en contacto con un usuario que se encuentra en una reunión es mediante correo electrónico.
     
 - **Conferencias de audio y vídeo**
     
@@ -75,15 +77,15 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Federación con proveedores de servicios basados en XMPP**
     
-    Skype para Business Server 2015 presenta un proxy XMPP completamente integrado (implementado en los servidores perimetrales) y una puerta de enlace XMPP implementados en los servidores frontales. Agregar y configurar al servidor proxy XMPP puede implementar y gateway XMPP permitirá su Skype para los usuarios de Business Server 2015 agregar contactos de presencia y socios basado en XMPP para mensajería instantánea (IM).
+    Skype para Business Server 2015 presenta un proxy XMPP totalmente integrado (implementado en los servidores perimetrales) y una puerta de enlace XMPP implementado en los servidores Front-End. Puede implementar agregar y configurar al proxy XMPP y puerta de enlace XMPP permitirá su Skype para los usuarios de Business Server 2015 agregar contactos de presencia y socios basados en XMPP para la mensajería instantánea (IM).
     
 - **Movilidad**
     
-    Al implementar el Skype para servicio de movilidad de 2015 Business Server, los usuarios pueden utilizar para realizar actividades tales como enviar y recibir mensajes instantáneos, ver contactos y ver la presencia compatibles Apple iOS, Android, Windows Phone o dispositivos móviles Nokia.
+    Al implementar el Skype para servicio de movilidad de Business Server 2015, los usuarios pueden utilizar compatibles Apple iOS, Android, Windows Phone o dispositivos móviles Nokia para realizar dichas actividades como enviar y recibir mensajes instantáneos, ver contactos y visualización de la presencia.
     
 - **Buzón de correo de W15 Exchange**
     
-    Skype para el año 2015 de servidor empresarial permite que los mensajes de correo de voz almacenados en Exchange Unified Messaging (UM); los mensajes de correo de voz aparecerá como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
+    Skype para Business Server 2015 permite que los mensajes de correo de voz almacenados en Exchange mensajería unificada (UM); los mensajes de correo de voz, a continuación, se mostrará como mensajes de correo electrónico en las bandejas de entrada de los usuarios.
     
 ### <a name="voice"></a>Voz
 
@@ -91,11 +93,11 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
   
 - **Telefonía IP empresarial**
     
-    Telefonía IP empresarial es la solución de VoIP con tecnología de software de Microsoft. Telefonía IP empresarial permite a los usuarios utilizar Skype para empresas para realizar una llamada telefónica desde su equipo.
+    Enterprise voice es la solución de VoIP basada en software de Microsoft. Enterprise voice permite a los usuarios usar Skype para la empresa para realizar una llamada telefónica desde su equipo.
     
 - **Mensajería unificada de Exchange**
     
-    Correo de voz de Exchange Unified Messaging (UM) combina y correo electrónico en una única infraestructura de mensajería. Skype para Business Server 2015 mensajería unificada de Exchange utiliza para proporcionar contestación de llamadas, acceso de suscriptor, las notificaciones de llamadas y servicios de operador automático. Si utiliza estos servicios, debe integrar mensajería unificada de Exchange y Skype para Business Server en una topología de Active Directory compartida.
+    Correo de voz de mensajería unificada de Exchange (UM) combina y correo electrónico en una sola infraestructura de mensajería. Skype para Business Server 2015 mensajería unificada de Exchange usa para proporcionar el contestador automático, acceso de suscriptor, notificación de llamadas y servicios de operador automático. Si utiliza estos servicios, debe integrar la mensajería unificada de Exchange y Skype para Business Server en una topología de Active Directory compartida.
     
 ### <a name="additional-deployment-options"></a>Opciones de implementación adicionales
 
@@ -107,11 +109,11 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Recuperación ante desastres**
     
-    Las medidas de recuperación ante desastres permiten pools de Front-End de par ubicados en dos centros de datos.
+    Medidas de recuperación ante desastres permiten a los grupos de servidores Front-End de par que se encuentra en dos centros de datos.
     
 - **Supervisión**
     
-    La supervisión captura registros de detalles de llamadas relacionados con las sesiones de comunicación. También recopila métricas de sesiones de audio y vídeo en los puntos de conexión de los participantes. Servidor de supervisión proporciona estadísticas de uso, tendencias y estadísticas de calidad media.
+    La supervisión captura registros de detalles de llamadas relacionados con las sesiones de comunicación. También recopila métricas de sesiones de audio y vídeo en los puntos de conexión de los participantes. El servidor de supervisión proporciona las estadísticas de uso, las tendencias y estadísticas de calidad media.
     
 - **Archivado**
     
@@ -119,7 +121,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Integración de archivado de Exchange**
     
-    Si tiene usuarios que están alojados en 2013 de Exchange y sus buzones se han puesto en posesión en el lugar, puede seleccionar la opción integrar Skype para el almacenamiento de Business Server 2015 con almacenamiento de información de Exchange.
+    Si tiene usuarios que están hospedados en Exchange 2013 y sus buzones de correo se almacenaron en suspensión en contexto, puede seleccionar la opción de integrar Skype para el almacenamiento de Business Server 2015 con el almacenamiento de Exchange.
     
 - **IPv4**
     
@@ -131,7 +133,7 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
     
 - **Servicio web de actualización de dispositivos**
     
-    El servicio Web de actualización de dispositivo proporciona una forma automatizada para actualizar todos los dispositivos, como Skype para negocios para Windows Phone, que se implementan fuera de la organización.
+    El servicio Web de actualización de dispositivo proporciona una forma automatizada de actualizar todos los dispositivos, como Skype para profesionales de Windows Phone, que se han implementado fuera de la organización.
     
 ### <a name="server-applications"></a>Aplicaciones de servidor
 
@@ -139,23 +141,23 @@ Los elementos restantes se rellenaron con las respuestas proporcionadas a las pr
   
 - **Grupo de respuesta**
     
-    La aplicación de grupo de respuesta automáticamente respuestas y distribuye llamadas a un agente de asistencia técnica disponible.
+    La aplicación de grupo de respuesta contesta a y distribuye las llamadas a un agente de departamento de soporte técnico disponibles automáticamente.
     
 - **Anuncio**
     
-    Si planea implementar la Telefonía IP empresarial, desea poder configurar cómo se controlan las llamadas de teléfono si el número marcado es válido pero no asignado a un área común del usuario. Los administradores pueden configurar el servicio de anuncio para que estas llamadas se transfieran a un destino predeterminado (número de teléfono o URI de SIP) o para que se reproduzca un anuncio de audio, o bien para que se lleven a cabo ambas acciones. Con el servicio de anuncio, se evita la situación en la que el autor de una llamada marca el número de forma incorrecta y escucha un tono de línea ocupada o el cliente SIP recibe un mensaje de error. La funcionalidad del servicio de anuncio es una característica típica de PBX. 
+    Si planea implementar Enterprise Voice, es posible que desee poder configurar la forma en que se administran las llamadas telefónicas si el número marcado es válido pero no asignado a un área común del usuario. Los administradores pueden configurar el servicio de anuncio para que estas llamadas se transfieran a un destino predeterminado (número de teléfono o URI de SIP) o para que se reproduzca un anuncio de audio, o bien para que se lleven a cabo ambas acciones. Con el servicio de anuncio, se evita la situación en la que el autor de una llamada marca el número de forma incorrecta y escucha un tono de línea ocupada o el cliente SIP recibe un mensaje de error. La funcionalidad del servicio de anuncio es una característica típica de PBX. 
     
 - **Estacionamiento de llamadas**
     
-    Habilita aplicaciones de llamada parque mantenga un usuario de Telefonía IP empresarial para poner una llamada en una teléfono y, a continuación, recibe la llamada desde otro teléfono sin consumir recursos en el teléfono que recibió la llamada. Aplicación llamada Park es útil cuando necesita transferir una llamada a un usuario, pero se desconoce el destinatario específico. 
+    Permite de aplicación de estacionamiento de llamadas un usuario de Enterprise Voice para poner una llamada en espera de uno de teléfono y, a continuación, recibe la llamada desde otro teléfono sin consumir recursos en el teléfono que recibió la llamada. Aplicación estacionamiento de llamadas es útil cuando un usuario necesita para transferir una llamada, pero el destinatario específico es desconocido. 
     
 - **Operador de conferencia**
     
-    Aplicación de conferencia operador proporciona capacidades de conferencia de audio para los usuarios de teléfono sin el servicio de un proveedor de conferencia de audio de terceros.
+    Aplicación operador de conferencia proporciona capacidades de conferencia de audio a los usuarios de teléfonos sin el servicio de un proveedor de conferencia de audio de terceros.
     
 - **Anuncio de conferencia**
     
-    Anuncio de conferencias aplicación genera tonos que cuando los usuarios entren o salgan de una conferencia, así como notificaciones a los usuarios de teléfonos cuando se silencian o desactivar el silencio de señal.
+    Anuncio de conferencia aplicación genera tonos que señalan cuándo los usuarios o la abandonan una conferencia, así como notificaciones a los usuarios de teléfonos cuando se ha desactivado o reactivados.
     
 - **Control de admisión de llamadas**
     

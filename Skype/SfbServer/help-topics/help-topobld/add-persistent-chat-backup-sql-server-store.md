@@ -1,5 +1,6 @@
 ---
 title: Agregar un almacén de SQL Server de copia de seguridad del chat persistente
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 106698e4-ce73-4a34-8fc7-e9d3208a17dc
 description: Configurar los almacenes de SQL Server de reserva que proporcionarán bases de datos de copia de seguridad para el servidor de Chat persistente o grupo de servidores de Chat persistente.
-ms.openlocfilehash: ed7d3196e609a0180fc16df08efcc3ed4230b141
-ms.sourcegitcommit: b14cfca231b618ec28cf9f4efe11cb3e8aceb34b
+ms.openlocfilehash: ed507b14cf0b03da86eda4b3fbc8491997c801d9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2018
-ms.locfileid: "19503882"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30880584"
 ---
 # <a name="add-persistent-chat-backup-sql-server-store"></a>Agregar un almacén de SQL Server de copia de seguridad del chat persistente
  
@@ -45,7 +46,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

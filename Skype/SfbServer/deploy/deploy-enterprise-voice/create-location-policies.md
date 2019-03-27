@@ -1,5 +1,6 @@
 ---
 title: Crear directivas de ubicación en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para aprender a configurar las directivas de ubicación de servicio de emergencia (E9-1-1) de Skype mejorado en Business Server Enterprise Voice.
-ms.openlocfilehash: 1de62f6ab24002b42afa3f0afeab3f0fe35edd33
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370748"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897987"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Crear directivas de ubicación en Skype para Business Server
 
@@ -47,8 +48,8 @@ Para obtener más información, vea [Planear las directivas de ubicación para S
 | PstnUsage  <br/>                          | **EmergencyUsage** <br/>                                                                                                                                                           |
 | EmergencyDialString  <br/>                | **911** <br/>                                                                                                                                                                      |
 | EmergencyDialMask  <br/>                  | **112** <br/>                                                                                                                                                                      |
-| NotificationUri  <br/>                    | <strong>SIP:Security@litwareinc.com</strong> <br/>                                                                                                                                 |
-| URI de conferencia  <br/>                      | <strong>SIP:+14255550123@litwareinc.com</strong> <br/>                                                                                                                             |
+| NotificationUri  <br/>                    | <strong>sip:security@litwareinc.com</strong> <br/>                                                                                                                                 |
+| ConferenceUri  <br/>                      | <strong>sip:+14255550123@litwareinc.com</strong> <br/>                                                                                                                             |
 | ConferenceMode  <br/>                     | **twoway** <br/>                                                                                                                                                                   |
 | LocationRefreshInterval  <br/>            | **2** <br/>                                                                                                                                                                        |
 

@@ -1,5 +1,6 @@
 ---
-title: Ver los usuarios actuales en el grupo de servidores heredado
+title: Ver los usuarios actuales del grupo de servidores heredado
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,14 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Antes de las distintas maneras en que puede mover usuarios entre grupos de servidores de aprendizaje, primero debemos determinar lo que los usuarios existen en el grupo heredado. En la imagen siguiente, la columna grupo de registrador identifica seis los usuarios que están configurados para el grupo de servidores heredado. Estos son los usuarios de prueba que se moverán a la Skype para el grupo de servidores de Business Server 2019.
-ms.openlocfilehash: 172d73c35986a57941a1a6778fbf52f21367f3f1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028820"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894476"
 ---
-# <a name="view-current-users-in-legacy-pool"></a>Ver los usuarios actuales en el grupo de servidores heredado
+# <a name="view-current-users-in-legacy-pool"></a>Ver los usuarios actuales del grupo de servidores heredado
 
 Antes de conocer las distintas maneras en que puede mover usuarios entre grupos de servidores, primero debemos determinar qué usuarios existen en el grupo heredado. En la imagen siguiente, la columna **grupo de registrador** identifica seis los usuarios que están configurados para el grupo de servidores heredado. Estos son los usuarios de prueba que se moverán a la Skype para el grupo de servidores de Business Server 2019.
   

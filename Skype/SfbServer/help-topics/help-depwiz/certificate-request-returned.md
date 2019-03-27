@@ -1,5 +1,6 @@
 ---
 title: Solicitud de certificado (devuelto)
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,28 +12,29 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
-description: 'La página de estado de la solicitud de certificado en línea presenta información importante que resulta de la correcta creación y emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificado del servidor de empresa. Si hace clic en Finalizar, el certificado se asignará automáticamente a Lync Server 2013 los fines definidos durante los pasos de creación de la solicitud de certificado. De forma predeterminada, los propósitos que se asignará el certificado son:'
-ms.openlocfilehash: 392fbdf4cae860152a5ed96e9e347a0c51aa6f70
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'La página de estado de solicitud de certificado en línea presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificados de servidor empresarial. Si hace clic en Finalizar, el certificado se asignará automáticamente a Lync Server 2013 para los fines que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:'
+ms.openlocfilehash: 61e62216cd582a07b95a51d05033482699ca2f3d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897611"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificado (devuelto)
  
-La página de **Estado de la solicitud de certificado en línea** presenta información importante que resulta de la correcta creación y emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica el certificado. De forma predeterminada, se selecciona la casilla de verificación **asignar este certificado a Skype para usos de certificado del servidor de empresa** . Si hace clic en **Finalizar**, el certificado se asignará automáticamente a Lync Server 2013 los fines definidos durante los pasos de creación de la solicitud de certificado. De forma predeterminada, los propósitos que se asignará el certificado son:
+La página de **Estado de solicitud de certificado en línea** presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación **asignar este certificado a Skype para usos de certificados de servidor empresarial** . Si hace clic en **Finalizar**, el certificado se asignará automáticamente a Lync Server 2013 para los fines que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:
   
-- Servidor predeterminado para mutuo transporte capa de seguridad (MTLS) - conexiones con clientes y otros servidores
+- Servidor predeterminado para Mutual Transport capa de seguridad (MTLS) - conexiones a clientes y otros servidores
     
-- Servicios Web internos - conexiones de cliente y servidor en el Web interno sitio servicios de Transport Layer Security/Secure Sockets Layer (TLS/SSL)
+- Servicios Web internos - conexiones de cliente y servidor en el sitio Web interno sitio de servicios de Transport Layer Security/Secure Sockets Layer (TLS/SSL)
     
-- Servicios Web externos - conexiones de cliente y servidor en el Web externo sitio servicios de TLS/SSL
+- Servicios Web externos - conexiones de cliente y servidor en el sitio Web externo sitio de servicios de TLS/SSL
     
-Haga clic en la **Vista Detalles del certificado** para ver el certificado para confirmar que las propiedades del certificado son las previstas, y que el certificado está listo para ser aplicado y puesto en uso en el servidor.
+Haga clic en la **Vista de detalles del certificado** para ver el certificado para confirmar que las propiedades del certificado son lo que pretende y que el certificado está listo para ser aplicado y poner en uso en el servidor.
   
-Haga clic en **Finalizar** para completar el proceso de solicitud de certificados en línea. Si ha seleccionado la casilla de verificación **asignar este certificado a Skype para usos de certificado del servidor de empresa**, se asignará automáticamente el certificado. Si opta por desactivar esta casilla de verificación, debe asignar el certificado en un paso independiente. 
+Haga clic en **Finalizar** para completar el proceso de solicitud de certificado en línea. Si ha seleccionado la casilla de verificación **asignar este certificado a Skype para usos de certificados de servidor empresarial**, se asignará automáticamente el certificado. Si opta por desactive esta casilla de verificación, debe asignar el certificado en un paso independiente. 
   
 > [!IMPORTANT]
-> Si el emisor certificados de raíz de entidad emisora (CA) no está en el almacén del equipo autoridad de certificación raíz de confianza, o si los certificados de CA intermedios no están en el almacén correcto, verá el estado del resumen, tal como se ilustra en la siguiente imagen. No tiene la opción de asignar el certificado. Para completar el proceso de asignación de certificados, debe importar el certificado raíz de CA emisora y los certificados de CA intermedios y, a continuación, asignar el certificado, haga clic en **asignar** en la página principal del Asistente para certificados.
+> Si el certificado de raíz de entidad de certificación (CA) de certificación emisora no está en el almacén del equipo entidad de certificación raíz de confianza, o si los certificados de CA intermedios no están en el almacén correcto, verá el estado del resumen, tal como se ilustra en la siguiente imagen. No tiene la opción para asignar el certificado. Para completar el proceso de asignación de certificados, debe importar el certificado raíz de entidad de certificación emisora y los certificados de CA intermedios y, a continuación, asignar el certificado, haga clic en **asignar** en la página principal del Asistente para certificados.
   
 

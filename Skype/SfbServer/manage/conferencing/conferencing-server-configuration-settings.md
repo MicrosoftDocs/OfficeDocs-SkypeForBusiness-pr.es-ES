@@ -1,5 +1,6 @@
 ---
 title: Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumen: Obtenga información sobre cómo administrar los valores de configuración de servidor de conferencia en Skype para Business Server.'
-ms.openlocfilehash: ede34c37e957340f0aa01ac511378d2f4bb3a80e
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21009897"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890384"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
  
@@ -22,7 +23,7 @@ ms.locfileid: "21009897"
   
 En este tema se describe cómo administrar opciones de configuración de conferencia. Para obtener más información acerca de cómo planear e implementar una conferencia, vea [Plan para las conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencias en Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Determinación de la configuración de conferencia elementos tales como el tamaño máximo permitido para el contenido de las reuniones y los documentos; cantidad máxima de ancho de banda para el servicio de conferencia de uso compartido de la aplicación; límites de almacenamiento y períodos de expiración; descargas de las direcciones URL internas y externas del cliente compatible; punteros a las direcciones URL internas y externas donde los usuarios pueden obtener ayuda de conferencia y recursos; y los puertos usados para el uso compartido de aplicaciones, audio de cliente, las transferencias de archivos y el tráfico de medios. Estas opciones permiten administrar los servidores reales. Estas opciones de configuración se pueden establecer mediante el uso de Skype para Shell de administración de servidor empresarial.
+Determinación de la configuración de conferencia elementos tales como el tamaño máximo permitido para el contenido de las reuniones y los documentos; cantidad máxima de ancho de banda para el servicio de conferencia de uso compartido de la aplicación; límites de almacenamiento y períodos de expiración; descargas de las direcciones URL internas y externas del cliente compatible; punteros a las direcciones URL internas y externas donde los usuarios pueden obtener ayuda de conferencia y recursos; y los puertos usados para el uso compartido de aplicaciones, audio de cliente, las transferencias de archivos y el tráfico de medios. Esta configuración le permite administrar los servidores reales. Estas opciones de configuración se pueden establecer mediante el uso de Skype para Shell de administración de servidor empresarial.
   
 Al instalar Skype para Business Server, el sistema proporciona una única colección de conferencia de opciones de configuración (la recopilación global). Si necesita crear una configuración personalizada para un sitio o servicio, puede hacerlo con el cmdlet **New-CsConferencingConfiguration**. Tenga en cuenta que las configuraciones nuevas solo se pueden aplicar al ámbito de sitio o servicio; no puede crear una colección global de opciones de configuración de conferencia, pero puede modificar la colección global con el cmdlet **Set-CsConferencingConfiguration**. Además, ningún sitio ni servicio puede hospedar más de una colección de opciones de configuración. Si intenta crear una configuración para el sitio de Redmond y el sitio ya tiene hospedada una colección de opciones de configuración de conferencia, el comando no se completará.
   

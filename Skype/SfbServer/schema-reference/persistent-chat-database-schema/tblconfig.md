@@ -1,5 +1,6 @@
 ---
 title: tblConfig
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,24 +10,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7445e7db-c574-46fa-b964-8640d77047a8
-description: tblConfig contiene una configuración no compatible persistente Chat Server, en una fila.
-ms.openlocfilehash: 099060f0957ae21c14b285eac1b753ad0b8c1719
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: la tabla tblConfig contiene algunos configuración de servidor de Chat persistente no admitida, en una fila.
+ms.openlocfilehash: 9d28c0506b905975e2a72eeb83605fe4e32e7cfd
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30898940"
 ---
 # <a name="tblconfig"></a>tblConfig
  
-tblConfig contiene una configuración no compatible persistente Chat Server, en una fila.
+la tabla tblConfig contiene algunos configuración de servidor de Chat persistente no admitida, en una fila.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|configLabel  <br/> |nvarchar (255), no nulo  <br/> |Contiene "grupo".  <br/> |
+|configLabel  <br/> |nvarchar (255), no es nulo  <br/> |Contiene "grupo".  <br/> |
 |configContent  <br/> |nvarchar (max)  <br/> |Contenido de configuración.  <br/> |
-|configPoolID  <br/> |GUID, no nulo  <br/> |Identificador exclusivo de la instancia de base de datos.  <br/> |
+|configPoolID  <br/> |GUID, no es nulo  <br/> |Identificador único de la instancia de base de datos.  <br/> |
    
 **Clave**
 

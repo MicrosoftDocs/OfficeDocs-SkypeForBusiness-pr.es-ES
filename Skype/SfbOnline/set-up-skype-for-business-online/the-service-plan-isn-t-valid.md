@@ -1,5 +1,6 @@
 ---
 title: Skype del usuario para el plan de servicio en línea de Business no es válido
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Vea where asignar un plan de servicio válido para un usuario después de un Skype para el plan de servicio en línea de negocio no es error válido. '
-ms.openlocfilehash: 92945ec7cb39a91c68c6fe31022feaf482e4310b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861013"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888024"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype del usuario para el plan de servicio en línea de Business no es válido
 

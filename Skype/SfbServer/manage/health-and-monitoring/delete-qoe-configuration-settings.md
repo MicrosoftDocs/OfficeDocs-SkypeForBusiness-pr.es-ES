@@ -1,5 +1,6 @@
 ---
 title: Eliminar los valores de configuración de calidad de la experiencia de Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fd0c4c2f-3bfb-42cb-9b6a-f0f8d5aa9e81
 description: 'Resumen: Obtenga información sobre cómo eliminar la configuración de calidad de la experiencia (QoE) en Skype para Business Server.'
-ms.openlocfilehash: a0ed68fa6670f66512023e1dcf0754be5e95ed53
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 1324029be12816abcc6c70de34363043df78277a
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21029412"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889849"
 ---
 # <a name="delete-quality-of-experience-configuration-settings-in-skype-for-business-server"></a>Eliminar los valores de configuración de calidad de la experiencia de Skype para Business Server
  
@@ -30,7 +31,7 @@ Puede quitar la configuración de QoE mediante el Skype para el Panel de Control
   
 ### <a name="to-delete-qoe-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para eliminar la configuración de QoE mediante Skype para el Panel de Control de servidor empresarial
 
-1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como un miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener información detallada, vea **Delegar permisos de instalación**.
+1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
     
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
     
@@ -70,7 +71,7 @@ Puede eliminar la configuración de QoE mediante el uso de Windows PowerShell y 
 
 Para obtener información detallada, vea [Remove-CsQoEConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csqoeconfiguration?view=skype-ps).
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
 

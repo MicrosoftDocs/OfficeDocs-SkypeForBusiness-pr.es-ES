@@ -1,5 +1,6 @@
 ---
-title: SQL Server Reporting Services (Introducción)
+title: SQL Server Reporting Services (introducción)
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,14 +13,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 description: Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
-ms.openlocfilehash: 791277e218f070dbe9c679a0dfaa744034cae25b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: acbaa205472cacad13c32086b2e93017c8b9dcec
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21018515"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890863"
 ---
-# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (Introducción)
+# <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introducción)
  
 Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
   

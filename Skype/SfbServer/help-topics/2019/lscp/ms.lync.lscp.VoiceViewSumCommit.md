@@ -1,5 +1,6 @@
 ---
 title: Confirmar la configuración de voz sin confirmar configuración
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 ROBOTS: NOINDEX, NOFOLLOW
 description: El cuadro de diálogo Valores de configuración de voz no confirmados sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
-ms.openlocfilehash: 317091ee8b0b2e94cfba07787bd83431a02514e8
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 19e60df24656ff9a65b6eb93af1a53929d912d0f
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21010074"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889136"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Valores de configuración de voz no confirmados: Confirmar
  

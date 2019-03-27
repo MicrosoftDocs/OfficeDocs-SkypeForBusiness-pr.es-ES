@@ -1,5 +1,6 @@
 ---
-title: Supervisar el conector en la nube con el conjunto de aplicaciones de administración de operaciones (OMS)
+title: Supervisar Cloud Connector con Operations Management Suite (OMS)
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,14 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: Lea este tema para obtener información acerca de cómo supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones de Microsoft (OMS).
-ms.openlocfilehash: 36d70a1504eab085d319e46d03c3c6f0bd9d14f3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 2077b5525984cc3d9948e7602036dfbb7f0ee4b7
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532083"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886081"
 ---
-# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar el conector en la nube con el conjunto de aplicaciones de administración de operaciones (OMS)
+# <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Supervisar Cloud Connector con Operations Management Suite (OMS)
 
 Lea este tema para obtener información acerca de cómo supervisar la versión 2.1 de conector en la nube y la implementación posterior mediante el uso conjunto de aplicaciones de administración de operaciones de Microsoft (OMS).
 
@@ -240,7 +241,7 @@ A continuación enumeran los contadores de la capacidad de llamadas que deben su
 
 - LS:MediationServer - Calls(_Total) saliente\- multimedia activo el desvío de llamadas
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 Para obtener más información sobre cómo trabajar con OMS, consulte lo siguiente:
 

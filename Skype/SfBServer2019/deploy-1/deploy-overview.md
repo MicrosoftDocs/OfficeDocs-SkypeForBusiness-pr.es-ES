@@ -1,5 +1,6 @@
 ---
 title: Implementación de Skype para Business Server 2019
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2019.'
-ms.openlocfilehash: a8512e55cdc0062be1548458f2ce6a4aca0296ad
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30058999"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897845"
 ---
 # <a name="deploy-skype-for-business-server-2019"></a>Implementación de Skype para Business Server 2019
  
@@ -51,8 +52,8 @@ Los recursos siguientes sobre cómo planear Skype para Business Server están di
   
 ||**Contenido**|**Descripción**|
 |:-----|:-----|:-----|
-|![Icono para documentos](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype Empresarial Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite el centro de recursos para el acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.|
-|![Icono de contenido de desarrollador](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.  <br/> |
-|![Icono de noticias, blogs, etc.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Adopción y administración de cambios](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.  <br/> |
+|![Icono para documentos](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Skype para Business Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite el centro de recursos para el acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.|
+|![Icono de contenido de desarrollador](https://docs.microsoft.com/office/media/icons/developer-blue.svg)|[Plataforma de desarrollador de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.  <br/> |
+|![Icono de noticias, blogs, etc.](https://docs.microsoft.com/office/media/icons/blog-site-blue.svg)|[Administración de cambios y adopción](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.  <br/> |
    
 

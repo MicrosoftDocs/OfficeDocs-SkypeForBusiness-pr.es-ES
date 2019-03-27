@@ -1,5 +1,6 @@
 ---
-title: Detalle de llamadas registro de esquema de base de datos (CDR) en Skype para Business Server 2015
+title: Detalles de llamadas (CDR) esquema de base de datos en Skype para Business Server 2015
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +10,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 754642cd-051a-47da-bb08-27800dae39d1
-description: Esto documenta el esquema de los detalles de llamada de registro de base de datos (CDR) en Skype para Business Server 2015.
-ms.openlocfilehash: 746c428076c02431268fb06af935e5c8935a02c7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: Documenta el esquema de los detalles de llamadas (CDR) base de datos en Skype para Business Server 2015.
+ms.openlocfilehash: 35f740172568eef5ed5863498d7c0bdb9afd8625
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890933"
 ---
-# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>Detalle de llamadas registro de esquema de base de datos (CDR) en Skype para Business Server 2015
+# <a name="call-detail-recording-cdr-database-schema-in-skype-for-business-server-2015"></a>Detalles de llamadas (CDR) esquema de base de datos en Skype para Business Server 2015
  
-Esto documenta el esquema de los detalles de llamada de registro de base de datos (CDR) en Skype para Business Server 2015.
+Documenta el esquema de los detalles de llamadas (CDR) base de datos en Skype para Business Server 2015.
   
 ## <a name="in-this-section"></a>En esta sección
 

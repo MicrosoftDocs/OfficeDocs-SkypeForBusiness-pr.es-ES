@@ -1,5 +1,6 @@
 ---
 title: Instalar los requisitos previos de Skype para Business Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumen: Obtenga información sobre los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 11a4d4240415dc11ce42ceb8f9643b52c91c9e2c
-ms.sourcegitcommit: 8279beffec35fe8a75968245c6cb09f1d622370f
+ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/18/2018
-ms.locfileid: "27297637"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894666"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar los requisitos previos de Skype para Business Server
  
@@ -52,13 +53,13 @@ Puede instalar los roles necesarios y las características de con el administrad
 1. Instalar las características de software necesario como requisito previo que aparecen en los [requisitos de servidor para Skype para Business Server](../../../SfBServer2019/plan/system-requirements.md). Debe ser el software necesario en el servidor que ejecutará Skype para Business Server.
     
     > [!CAUTION]
-    > De forma predeterminada, Windows Server 2012 R2 no instala todos los archivos de origen de las características necesarias. Si el servidor no está conectado a Internet, necesitará insertar el disco de Windows Server 2012 R2 y seleccionar **Especifique una ruta de acceso de origen alternativa** para instalar las características necesarias. Los archivos de origen se encuentran en el directorio sources\sxs. Por ejemplo, si el disco de Windows Server 2012 R2 se encuentra en la unidad D, la ruta de acceso será `d:\sources\sxs`. Es importante que disponga de las últimas actualizaciones de Windows Update. Si no se encuentra conectado a Internet, necesitará instalar todas las actualizaciones relevantes de manera manual, así como también todos los requisitos previos de las actualizaciones necesarias. 
+    > De forma predeterminada, Windows Server 2012 R2 no instala todos los archivos de origen de las características necesarias. Si el servidor no está conectado a Internet, necesitará insertar el disco de Windows Server 2012 R2 y seleccionar **Especifique una ruta de acceso de origen alternativa** para instalar las características necesarias. Los archivos de origen se encuentran en el directorio sources\sxs. Por ejemplo, si los medios de Windows Server 2012 R2 se encuentra en la unidad D, establecería la ruta de acceso `d:\sources\sxs`. Es importante que disponga de las últimas actualizaciones de Windows Update. Si no se encuentra conectado a Internet, necesitará instalar todas las actualizaciones relevantes de manera manual, así como también todos los requisitos previos de las actualizaciones necesarias. 
   
 1. Cuando el cuadro de diálogo indica que se ha completado la instalación, necesitará reiniciar el servidor para completar el proceso.
     
 1. Ejecute **Windows Update** nuevamente para comprobar si hay actualizaciones de los roles y los servicios que se instalaron.
     
-1. Si va a usar Skype para el Panel de Control de servidor empresarial en este servidor, a continuación, también debe instalar Silverlight. Para instalar Silverlight, consulte [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
+1. Si va a usar Skype para el Panel de Control de servidor empresarial en este servidor, a continuación, también debe instalar Silverlight. Para instalar Silverlight, vea [Microsoft Silverlight](https://www.microsoft.com/silverlight/).
 
 
 > [!IMPORTANT]

@@ -1,5 +1,6 @@
 ---
 title: Directiva de PIN
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6feffbff265aaf114844d2125717aecdc36921ff
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: 560bcc70f2f2702c0ab75b6e7f61bad55e758405
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375123"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30886475"
 ---
 # <a name="pin-policy"></a>Directiva de PIN
 
@@ -31,11 +32,11 @@ ms.locfileid: "25375123"
 - [Eliminar una directiva de PIN en Skype para Business Server](../../../manage/authentication/delete-a-pin-policy.md)
 
   **Trabajo con la directiva de PIN para conferencias de acceso telefónico** Esta directiva PIN permite a los usuarios que tienen credenciales de servicios de dominio de Active Directory en la organización para unirse a conferencias de acceso telefónico como los usuarios autenticados introduciendo un PIN.
-- [Crear o modificar la configuración de PIN de conferencia de acceso telefónico para un sitio o grupo de usuarios](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
+- [Create or Modify Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/c29bab5c-2b93-48e0-ae0b-29564daaff9a.aspx)
 
-- [Modificar la configuración de PIN de conferencia de acceso telefónico predeterminada](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
+- [Modify the Default Dial-in Conferencing PIN Settings](https://technet.microsoft.com/library/2d110e94-ad29-4755-b17f-d8c2da9b78a4.aspx)
 
-- [Eliminar la configuración de PIN de conferencia de acceso telefónico para un sitio o grupo de usuarios](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
+- [Delete Dial-in Conferencing PIN Settings for a Site or Group of Users](https://technet.microsoft.com/library/15a9faee-d024-4c0e-b2a0-fe7e7dc00589.aspx)
 
 
 

@@ -1,5 +1,6 @@
 ---
 title: Expansor de configuración general del servidor de supervisión
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
-description: 'Generador de topología, puede editar las propiedades de un servidor de supervisión individual haciendo clic en el servidor de supervisión en el árbol de consola y, a continuación, haga clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haga clic en Editar propiedades y si cambia alguna de las siguientes opciones:'
-ms.openlocfilehash: 049479e0a16764b5da91c43a003521238e0c1bdd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'En el Generador de topologías puede editar las propiedades de un servidor de supervisión concreto, ya sea haciendo clic con el botón secundario en el servidor de supervisión en el árbol de consola; haciendo clic en Acción en la barra de herramientas; o haciendo clic en una tarea del panel Acciones, haciendo clic en Editar propiedades y, a continuación, cambiando cualquiera de las opciones siguientes:'
+ms.openlocfilehash: d096603f2a3ec5f0644c666f8f76b02b8d01d99d
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891018"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Expansor de configuración general del servidor de supervisión
  

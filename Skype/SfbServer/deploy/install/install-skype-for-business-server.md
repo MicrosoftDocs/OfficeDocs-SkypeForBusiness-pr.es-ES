@@ -1,5 +1,6 @@
 ---
 title: Instalar Skype Empresarial Server en los servidores de la topología
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -14,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Resumen: Obtenga información sobre cómo instalar el Skype para los componentes del sistema de Business Server en cada servidor de la topología. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: c6122bea5af5be0e08f2510a6fae4b9c0e406df4
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: caa933e3469227fe0fa2aab680f53ddee445256e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887269"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891905"
 ---
 # <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Instalar Skype Empresarial Server en los servidores de la topología
  
@@ -158,9 +159,9 @@ Una vez haya publicado una topología, puede instalar el Skype para los componen
     
 15. En la página **Ejecución de comandos**, haga clic en **Siguiente**.
     
-16. En la página **Estado de la solicitud de certificado en línea**, revise la información devuelta. Tenga en cuenta que el certificado se emitió e instaló en el almacén de certificados local. Si se crea un informe tal y como se ha emitido e instalado, pero no es válido, asegúrese de que se ha instalado el certificado de entidad de certificación raíz en el almacén del servidor CA raíz de confianza. Consulte la documentación de la CA para más información sobre cómo recuperar un certificado de CA raíz de confianza. Si necesita ver el certificado recuperado, haga clic en **Ver detalles del certificado**. De forma predeterminada, se selecciona la casilla de verificación para **asignar el certificado a Skype para usos de certificados de servidor empresarial** . Si desea asignar el certificado manualmente, desactive la casilla y haga clic en **Finalizar**.
+16. On the **Online Certificate Request Status** page, review the information returned. You should note that the certificate was issued and installed into the local certificate store. Si se crea un informe tal y como se ha emitido e instalado, pero no es válido, asegúrese de que se ha instalado el certificado de entidad de certificación raíz en el almacén del servidor CA raíz de confianza. Refer to your CA documentation on how to retrieve a Trusted Root CA certificate. If you need to view the retrieved certificate, click **View Certificate Details**. De forma predeterminada, se selecciona la casilla de verificación para **asignar el certificado a Skype para usos de certificados de servidor empresarial** . If you want to manually assign the certificate, clear the check box, and then click **Finish**.
     
-17. Si desactiva la casilla de verificación para **asignar el certificado a Skype para usos de certificados de servidor de negocio** en la página anterior, aparecerá la página **Asignación de certificados** . Haga clic en **Siguiente**.
+17. Si desactiva la casilla de verificación para **asignar el certificado a Skype para usos de certificados de servidor de negocio** en la página anterior, aparecerá la página **Asignación de certificados** . Click **Next**.
     
 18. En la página **Almacén de certificados**, seleccione el certificado solicitado. Si desea ver el certificado, haga clic en **Ver detalles del certificado** y en **Siguiente** para continuar.
     
@@ -185,7 +186,7 @@ Una vez haya publicado una topología, puede instalar el Skype para los componen
 
 1. Revise los requisitos del **Paso 4: Iniciar servicios**.
     
-2. Si se trata de un grupo de servidores front-end Enterprise Edition con al menos tres servidores, se usa Windows Fabric, y necesitará usar el cmdlet **Start-CsPool**. Si se utiliza un único servidor, que siempre es el caso de Standard Edition, muse use el cmdlet **Start-CsWindowsService** . En este ejemplo se usa con tres servidores Front-End del grupo de servidores Enterprise Edition, abra el **Skype para Business Server Management Shell** y ejecute el cmdlet **Start-CsPool** tal como se muestra en la ilustración. Para el resto de los roles (incluido el servidor Standard Edition), use **Start-CsWindowsService**. Para implementar roles que no sean el rol de servidor front-end, consulte la documentación de los roles en cuestión.
+2. If this is an Enterprise Edition Front End pool with at least three servers, Windows Fabric is used, and you must use the **Start-CsPool** cmdlet. Si se utiliza un único servidor, que siempre es el caso de Standard Edition, muse use el cmdlet **Start-CsWindowsService** . En este ejemplo se usa con tres servidores Front-End del grupo de servidores Enterprise Edition, abra el **Skype para Business Server Management Shell** y ejecute el cmdlet **Start-CsPool** tal como se muestra en la ilustración. For all other roles, including Standard Edition server, you must use **Start-CsWindowsService**. To deploy roles other than the Front End role, see documentation for those particular roles.
     
      ![Inicia los servicios de Skype Empresarial.](../../media/f52ec719-9476-419f-9a78-df08368395f7.png)
   

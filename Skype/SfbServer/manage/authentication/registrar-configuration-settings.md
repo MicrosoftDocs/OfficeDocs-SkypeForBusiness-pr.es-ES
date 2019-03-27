@@ -1,5 +1,6 @@
 ---
 title: Administrar la configuración de configuración de registrador en Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Resumen: Administrar opciones de configuración de registrador de Skype para Business Server.'
-ms.openlocfilehash: 65dfae7e518ef1b561a6782f9555de2d5dd6a6fa
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: a1dda801049313cc2fc4dead94b524c300885924
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20998998"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30877059"
 ---
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de configuración de registrador en Skype para Business Server
  

@@ -1,5 +1,6 @@
 ---
 title: Ejemplo de recopilación de requisitos de control de admisión de llamadas en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
-ms.openlocfilehash: f5c050e33271958c103b5ea6ecd9f7a13d9da998
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25375192"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893914"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: Requisitos de recopilación para llamar al control de admisión de Skype para Business Server
 
@@ -124,7 +125,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
      | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
      | Albuquerque  <br/> | Norteamérica  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
-     | Reno  <br/>        | Norteamérica  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
+     | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
      | Portland  <br/>    | Norteamérica  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
      | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
      | Chicago  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
@@ -137,7 +138,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     > Cada subred de la red necesita estar asociada a un sitio de red, aunque el sitio de red no esté restringido por el ancho de banda. Esto es porque el servicio de control de admisión de llamadas usa la información de la subred para determinar el sitio de red en que está situado un extremo. Cuando se determinan las ubicaciones de ambas partes de la sesión, el servicio de control de admisión de llamadas puede determinar si existe suficiente ancho de banda para establecer una llamada. Cuando se establece una sesión a través de un vínculo que no tiene límites de ancho de banda, se genera una alerta. 
 
     > [!IMPORTANT]
-    > Si implementas servidores perimetrales de audio o vídeo, las direcciones IP públicas de cada servidor perimetral necesitan estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V necesita agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementas servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, crea una subred con una máscara de subred de 32 y asocia el sitio de red Chicago a dichas subredes. Para obtener información detallada acerca de las direcciones IP públicas, vea [Planear los requisitos de red de Skype para la empresa](../../plan-your-deployment/network-requirements/network-requirements.md). 
+    > Si implementas servidores perimetrales de audio o vídeo, las direcciones IP públicas de cada servidor perimetral necesitan estar asociadas al sitio de red en el que se implementa el servidor perimetral. Cada dirección IP pública del servidor perimetral A/V necesita agregarse a las opciones de configuración de la red como subred con una máscara de subred de 32. Por ejemplo, si implementas servidores perimetrales A/V en Chicago, para cada dirección IP externa de los servidores, crea una subred con una máscara de subred de 32 y asocia el sitio de red Chicago a dichas subredes. Para obtener más información sobre las direcciones IP públicas, mira [Plan network requirements for Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md) en la documentación sobre planificación. 
 
     Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red, pero que no están asociadas a una subred; o bien, la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de 8 horas. A continuación se ofrece la información sobre las alertas relevante y un ejemplo:
 
@@ -165,7 +166,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
    | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** | **Subredes**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
    | Albuquerque  <br/> | Norteamérica  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
-   | Reno  <br/>        | Norteamérica  <br/> | 10.000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
+   | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
    | Portland  <br/>    | Norteamérica  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
@@ -189,10 +190,10 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
    **Información de ancho de banda de vínculos de región (ancho de banda en kbps)**
 
 
-   | **Nombre del vínculo de región**  | **First Region**     | **Second Region** | **Límite de ancho de banda**  | **Límite de audio** | **Límite de sesión de audio** | **Límite de vídeo** | **Límite de sesión de vídeo** |
+   | **Nombre del vínculo de región**  | **Primera región**     | **Segunda región** | **Límite de ancho de banda**  | **Límite de audio** | **Límite de sesión de audio** | **Límite de vídeo** | **Límite de sesión de vídeo** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
-   | NA-EMEA-LINK  <br/>   | Norteamérica  <br/> | EMEA  <br/>       | 50.000  <br/> | 20.000  <br/>   | 175  <br/>              | 14.000  <br/>   | 700  <br/>              |
-   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25.000  <br/> | 10.000  <br/>   | 175  <br/>              | 7.000  <br/>    | 700  <br/>              |
+   | NA-EMEA-LINK  <br/>   | Norteamérica  <br/> | EMEA  <br/>       | 50 000  <br/> | 20 000  <br/>   | 175  <br/>              | 14 000  <br/>   | 700  <br/>              |
+   | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25 000  <br/> | 10 000  <br/>   | 175  <br/>              | 7.000  <br/>    | 700  <br/>              |
 
 
 8. Define una ruta entre cada par de regiones de red.
@@ -203,7 +204,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
    **Rutas de región**
 
 
-   | **Nombre de la ruta de región**  | **First Region**     | **Second Region** | **Vínculos de región**                    |
+   | **Nombre de la ruta de región**  | **Primera región**     | **Segunda región** | **Vínculos de región**                    |
    |:-----------------------|:---------------------|:------------------|:------------------------------------|
    | NA-EMEA-ROUTE  <br/>   | Norteamérica  <br/> | EMEA  <br/>       | NA-EMEA-LINK  <br/>                 |
    | EMEA-APAC-ROUTE  <br/> | EMEA  <br/>          | APAC  <br/>       | EMEA-APAC-LINK  <br/>               |
@@ -228,13 +229,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
    |**Nombre del vínculo entre sitios**|**Primer sitio**|**Segundo sitio**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20.000  <br/> |12.000  <br/> |175  <br/> |5.000  <br/> |700  <br/> |
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5.000  <br/> |700  <br/> |
 
 ### <a name="next-steps"></a>Pasos siguientes
 
 Una vez recopilada la información necesaria, puede realizar la implementación de CAC mediante el Skype para Shell de administración de servidor empresarial o Skype para el Panel de Control de servidor empresarial.
 
 > [!NOTE]
-> Si bien puede realizar la mayoría de las tareas de configuración de red mediante el uso de Skype para el Panel de Control de servidor empresarial, para crear subredes y vínculos entre sitios, debe usar Skype para Shell de administración de servidor empresarial. Para obtener información detallada, vea [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Si bien puede realizar la mayoría de las tareas de configuración de red mediante el uso de Skype para el Panel de Control de servidor empresarial, para crear subredes y vínculos entre sitios, debe usar Skype para Shell de administración de servidor empresarial. Si necesita información detallada, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

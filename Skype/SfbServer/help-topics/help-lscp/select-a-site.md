@@ -1,5 +1,6 @@
 ---
 title: Seleccionar un sitio
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Use el cuadro de diálogo Seleccionar un sitio para buscar los sitios disponibles en el entorno. Para usar un sitio existente, haga clic en un sitio de la lista y, a continuación, en Aceptar.
-ms.openlocfilehash: 39cd1ede1aa3ed3a01cbf32eec4388328d9812f1
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256724"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895841"
 ---
 # <a name="select-a-site"></a>Seleccionar un sitio
 
@@ -32,9 +33,9 @@ Para obtener información detallada sobre los distintos procedimientos que puede
 
 En la página **Seleccionar un sitio** puede realizar las siguientes tareas:
 
-- [Configure las opciones del servidor de Chat en grupo global o de grupo de servidores de Chat en grupo](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
+- [Configure Persistent Chat Server Options Globally or for Persistent Chat Server Pool](https://technet.microsoft.com/library/1e8d5245-cd58-4aad-9a1c-35b24189bc40.aspx)
 
-- [Crear una directiva de sitio para Chat persistente](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
+- [Create a Site Policy for Persistent Chat](https://technet.microsoft.com/library/1327ff5c-b859-4010-a240-e0b2b084b5bd.aspx)
 
 Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
 

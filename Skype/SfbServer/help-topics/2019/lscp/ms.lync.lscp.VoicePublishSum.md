@@ -1,5 +1,6 @@
 ---
 title: Estado de la distribución de confirmación de cambios de voz para la configuración del enrutamiento de voz
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 ROBOTS: NOINDEX, NOFOLLOW
 description: Si no se han completado los cambios, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
-ms.openlocfilehash: efd468b7913114bced5a86b75cbe442df918583a
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 3b3dcad6649d8c0ec43efa561cfe296265412a77
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20988220"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30899515"
 ---
-# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Enrutamiento de voz: Estado de confirmación de cambios de configuración del enrutamiento de voz
+# <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>Enrutamiento de voz: Estado de confirmación de cambios para la configuración del enrutamiento de voz
  
 Si no se han completado los cambios, revise los mensajes de este cuadro de diálogo, cambie la configuración de enrutamiento de voz y vuelva a intentarlo.
   

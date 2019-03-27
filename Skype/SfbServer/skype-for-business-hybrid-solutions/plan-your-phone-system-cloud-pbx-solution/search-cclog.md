@@ -1,5 +1,6 @@
 ---
-title: Búsqueda CcLog
+title: Search-CcLog
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -10,13 +11,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 3d7d34f2e069b9c4ed728dcc805af5ccf9d13067
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892768"
 ---
-# <a name="search-cclog"></a>Búsqueda CcLog
+# <a name="search-cclog"></a>Search-CcLog
  
 El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.
   
@@ -53,9 +55,9 @@ El cmdlet Search-CsClsLogging ofrece una opción de línea de comandos para busc
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|Hora de inicio  <br/> | Requerido <br/> |System.Datetime  <br/> | Fecha y hora inicial de las entradas del registro que se buscarán. Se especifica en la zona horaria local. <br/> |
-|Hora de finalización  <br/> |Requerido  <br/> |System.Datetime  <br/> |Fecha y hora final de las entradas del registro que se buscarán. Se especifica en la zona horaria local.  <br/> |
-|Nombre de archivo  <br/> |Requerido  <br/> |System.String  <br/> |Especifica la ruta completa del archivo de texto que contiene los resultados de la búsqueda.  <br/> |
+|StartTime  <br/> | Requerido <br/> |System.Datetime  <br/> | Fecha y hora inicial de las entradas del registro que se buscarán. Se especifica en la zona horaria local. <br/> |
+|EndTime  <br/> |Requerido  <br/> |System.Datetime  <br/> |Fecha y hora final de las entradas del registro que se buscarán. Se especifica en la zona horaria local.  <br/> |
+|FileName  <br/> |Obligatorio  <br/> |System.String  <br/> |Especifica la ruta completa del archivo de texto que contiene los resultados de la búsqueda.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -70,8 +72,8 @@ Ninguno
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[Inicio CcLogging](start-cclogging.md)
+[Start-CcLogging](start-cclogging.md)
   
-[Parada CcLogging](stop-cclogging.md)
+[Stop-CcLogging](stop-cclogging.md)
   
 

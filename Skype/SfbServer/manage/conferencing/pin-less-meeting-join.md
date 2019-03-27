@@ -1,5 +1,6 @@
 ---
 title: Configurar unión a la reunión sin PIN para Skype Empresarial Server
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -9,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Resumen: Obtenga información sobre cómo configurar el PIN-menor opción de unión en Skype para Business Server de la reunión.'
-ms.openlocfilehash: 843ea92a331391faa47e4cbc32191312c6dfbc6b
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: 4ea20f68b123f6593c5a98fc82dbca62f90f31b1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20985966"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892290"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar unión a la reunión sin PIN para Skype Empresarial Server
  
 **Resumen:** Obtenga información sobre cómo configurar el PIN-menor opción de unión en Skype para Business Server de la reunión.
   
-Cuando un autor de la llamada telefónico intenta unirse a una reunión, el servicio de operador automático de conferencia (CAA) coloca el autor de la llamada en una pluma de explotación que es diferente de la sala de espera & #x 2014; Si un moderador no está ya en una llamada y el autor de marcado en la llamada no ha entrado un responsable de PIN. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
+Cuando un autor de la llamada telefónico intenta unirse a una reunión, el servicio de operador automático de conferencia (CAA) coloca el autor de la llamada en una pluma de explotación que es diferente de la & de la sala de espera #x 2014; Si un moderador no está ya en una llamada y el autor de marcado en la llamada no ha entrado un responsable de PIN. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
   
 Tenga en cuenta lo siguiente al configurar esta característica:
   

@@ -1,5 +1,6 @@
 ---
 title: Cursos de administración para Skype for Business Online
+ms.reviewer: ''
 author: thomasbinder
 ms.author: thomasbinder
 manager: lehewe
@@ -7,12 +8,12 @@ ms.date: 10/05/2018
 ms.topic: article
 ms.prod: skype-for-business-itpro
 description: Vídeos de formación donde se presenta Skype for Business y se explica a los administradores cómo planificar, implementar y usar Skype for Business.
-ms.openlocfilehash: cd35f3de54dff3e7016fd2fdbb0ea29dd0a7ea36
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c6498fd2d3ed94222b7da40f2eb842d745359bd1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531162"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895658"
 ---
 <a name="admin-training-for-skype-for-business-online"></a>Cursos de administración para Skype for Business Online
 ==================================

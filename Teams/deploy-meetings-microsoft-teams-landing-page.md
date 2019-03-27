@@ -1,5 +1,6 @@
 ---
 title: Reuniones y conferencias en Microsoft Teams
+ms.reviewer: ''
 description: Use estos recursos de implementación para ayudarle a implementar las reuniones en Microsoft Teams.
 ms.topic: article
 author: LolaJacobsen
@@ -14,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d6554a641fe9abc02461fac891a3bb4fc5a9440
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: afd7e15f759caafdc76dc2f20777f4d3ab66d672
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461095"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30889772"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 
@@ -49,7 +50,7 @@ Puede usar el [Complemento de pruebas de red](https://www.powershellgallery.com/
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/en-us/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
+|¿Está mi red lista para la implementación de reuniones de Teams? | Para comprobar que la red está preparada, vea:<ul><li>[Preparar la red de la organización para Microsoft Teams](https://docs.microsoft.com/es-ES/MicrosoftTeams/prepare-network)</li><li>[Direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/es-ES/MicrosoftTeams/office-365-urls-ip-address-ranges)</li></ul> |
 |||
 
 ## <a name="core-deployment-decisions"></a>Decisiones de implementación principales

@@ -1,5 +1,6 @@
 ---
 title: Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -10,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumen: Use la autenticación en dos fases con Skype para Business Server y Skype para la empresa.'
-ms.openlocfilehash: 734e63d22610dab44cc221290b462e51e93291f1
-ms.sourcegitcommit: 6251a2c659909c3972ca2ea0a2bcdab4f334df34
+ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "25694599"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894205"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
  
@@ -49,7 +50,7 @@ Cuando haya terminado de usar Skype para la empresa, puede cerrar la presentaci�
 |:-----|:-----|:-----|
 |Cerrar  <br/> |Cierra la presentación, pero permite la Skype para sesión empresarial identificado con su identificador de continuar con la ejecución de usuario. El motivo es poder seguir recibiendo notificaciones e interactuando con los demás. <br/> <br/> Puede obtener la presentación atrás en cualquier momento haciendo clic en el Skype para el icono de negocio en la barra de tareas o el área de notificación en la parte inferior de la pantalla.  <br/> | En Skype para la ventana principal de negocio, realice una de las siguientes opciones: <br/> 1. Seleccione el botón **Opciones** , a continuación, seleccione **archivo** > **Close**.  <br/> 2. Haga clic en el botón **Cerrar** (X) en la esquina superior derecha de la ventana. <br/> |
 |Cerrar sesión  <br/> |Finaliza la sesión asociada con el identificador de usuario, pero Skype para la empresa sigue ejecutándose en segundo plano. Al cerrar la sesión, aparece la ventana de inicio de sesión.  <br/> **Sugerencia:** Seleccione **Eliminar mi información de inicio de sesión** al cerrar la sesión quitar el registro de su identificador de inicio de sesión y la contraseña desde el equipo. De este modo tiene que resultar más fácil al equipo técnico ayudar a los usuarios a resolver problemas de inicio de sesión. También puede ayudar a garantizar que la información de inicio de sesión es más segura, ya que resulta más difícil para los usuarios no autorizados iniciar sesión con credenciales ajenas. <br/> |En Skype para la ventana principal de negocio, seleccione el botón **Opciones** y después seleccione el **archivo** > **Cerrar sesión**.  <br/> |
-|Salir  <br/> |Finaliza la Skype para la sesión de negocio y cierra Skype para la empresa en su equipo. Después de salir, si desea reiniciar, seleccione **Iniciar** > **Todos los programas** > Skype para la empresa. <br/> |En Skype para la ventana principal de negocio, seleccione el botón **Opciones** y después seleccione el **archivo** > **Salir**.  <br/> |
+|Salir  <br/> |Finaliza la Skype para la sesión de negocio y cierra Skype para la empresa en su equipo. Después de salir, si desea reiniciar, seleccione **Iniciar** > > de**Todos los programas** Skype para la empresa. <br/> |En Skype para la ventana principal de negocio, seleccione el botón **Opciones** y después seleccione el **archivo** > **Salir**.  <br/> |
    
 ## <a name="sign-in-to-skype-for-business-with-a-smart-card"></a>Iniciar sesión en Skype Empresarial con una tarjeta inteligente
 
@@ -140,7 +141,7 @@ Antes de usar su tarjeta inteligente por primera vez, se recomienda que haga cli
     > [!NOTE]
     > Si no se le asignó un número de PIN para la tarjeta inteligente, use el valor predeterminado, que es 12345678. 
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Administrar la autenticación de dos factores en Skype para Business Server](two-factor-authentication.md)
   

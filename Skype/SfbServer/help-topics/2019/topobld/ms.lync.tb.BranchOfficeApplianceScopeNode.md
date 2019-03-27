@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de aplicación de sucursal
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 53c2d42088dc9ea6d1b295265053e41494ab3af5
-ms.sourcegitcommit: 1f7299f535ec6b34f92301b4abc14d8922492eeb
+description: 'El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 0fe014df84d371c3c1cd1cd0d1be76d81dd64122
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21057338"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895240"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
-El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede efectuar las acciones siguientes:
+El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:
   
 - **Editar propiedades**. Se abre la página **Editar propiedades** para esta aplicación de sucursal con funciones de supervivencia, donde puede cambiar el nombre de dominio completo (si ya no está publicada la topología), las asociaciones y la configuración de la resistencia.
     

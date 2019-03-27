@@ -1,5 +1,6 @@
 ---
 title: Crear o modificar una cola en Skype para la empresa
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a77940bae3dd720594619ebffc1858dae2a161ba
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374518"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895516"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype para la empresa
  
@@ -41,7 +42,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     
 4. En la página **Cola**, lleve a cabo alguna de estas acciones:
     
-   - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccionar un servicio**, escriba parte o todo el nombre del servicio **ApplicationServer** donde desea agregar la cola en el campo de búsqueda. En la lista de servicios que aparezca, haga clic en el servicio que desea y en **Aceptar**.
+   - Para crear una cola nueva, haga clic en **Nuevo**. En **Seleccionar un servicio**, escriba total o parcialmente el nombre del servicio **ApplicationServer** en cuyo campo de búsqueda desea agregar la cola. En la lista de servicios que aparezca, haga clic en el servicio que desea y en **Aceptar**.
     
    - Para modificar una cola actual, escriba total o parcialmente el nombre de la cola en el campo de búsqueda. En la lista de colas que aparezca, haga clic sucesivamente en la cola que desea, **Editar** y **Mostrar detalles**.
     
@@ -118,7 +119,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
    ```
 
    > [!NOTE]
-   > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+   > Para usar un archivo de audio para el mensaje, ejecute el cmdlet **Import-CsRgsAudioFile**. Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 4. Defina la acción que debe realizarse cuando se alcance el umbral de tiempo de espera de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
@@ -148,7 +149,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
    ```
 
       > [!NOTE]
-      > Para usar un archivo de audio para el símbolo del sistema, use el cmdlet **Import-CsRgsAudioFile** . Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
+      > Para usar un archivo de audio para el mensaje, ejecute el cmdlet **Import-CsRgsAudioFile**. Para obtener información detallada, vea [Import-CsRgsAudioFile](https://docs.microsoft.com/powershell/module/skype/import-csrgsaudiofile?view=skype-ps). 
   
 6. Defina la acción que debe realizarse cuando se alcance el umbral de desbordamiento de la cola y guárdela en una variable. En la línea de comandos ejecute:
     
@@ -198,7 +199,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

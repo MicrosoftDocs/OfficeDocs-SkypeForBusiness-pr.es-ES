@@ -1,5 +1,6 @@
 ---
-title: Asistente de la capacidad de administración híbrida
+title: Asistente para la administración híbrida
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,14 +13,14 @@ localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar al Asistente para la administración híbrida para llevar a cabo algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype para profesionales en línea. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, vea Configure your environment con el Asistente para la administración híbrida.
-ms.openlocfilehash: 175635088b68ea9d9be529fdfb4d8f516df30a36
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: d0770e193d84337189cdd7a24fdb471faa275b9b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23246777"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30890779"
 ---
-# <a name="hybrid-manageability-wizard"></a>Asistente de la capacidad de administración híbrida
+# <a name="hybrid-manageability-wizard"></a>Asistente para la administración híbrida
 
 Puede usar al Asistente para la administración híbrida para llevar a cabo algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype para profesionales en línea. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, vea [Configure your environment con el Asistente para la administración híbrida](https://technet.microsoft.com/library/d777f79b-a740-4aba-a9e2-c91f0315b6f8.aspx).
 

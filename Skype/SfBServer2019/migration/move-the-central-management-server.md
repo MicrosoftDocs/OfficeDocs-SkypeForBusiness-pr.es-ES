@@ -1,5 +1,6 @@
 ---
 title: Mover el servidor de Administración Central
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -8,18 +9,18 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de migrar a Skype para Business Server 2019, debe mover el servidor de Administración Central para la Skype para profesionales de 2019 Front-End Server o grupo de servidores, para poder quitar el servidor heredado.
-ms.openlocfilehash: 6a358b11d7d319d5dafbb82f4391cdc3d0ae1562
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.openlocfilehash: dc85548a3c81e55267bc0ed3a32e53860e4bce09
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373446"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894750"
 ---
 # <a name="move-the-legacy-central-management-server-to-skype-for-business-server-2019"></a>Mover el servidor de Administración Central heredado a Skype para Business Server 2019
 
 Después de migrar a Skype para Business Server 2019 y poder quitar el servidor heredado, debe mover el servidor de Administración Central para la Skype para profesionales de 2019 Front-End Server o grupo de servidores. 
   
-El servidor de Administración Central es un sistema de única réplica maestro o varios, donde se mantiene la copia de lectura y escritura de la base de datos por el servidor Front-End que contiene el servidor de Administración Central. Cada equipo en la topología, incluido el servidor Front-End que contiene el servidor de Administración Central, tiene una copia de solo lectura de los datos del almacén de Administración Central en la base de datos de SQL (denominado RTCLOCAL de forma predeterminada) instalado en el equipo durante el programa de instalación y implementación. La base de datos local recibe actualizaciones de réplica mediante el Skype para profesionales agente de Replicador de réplica de servidor que se ejecuta como un servicio en todos los equipos. El nombre de la base de datos real en el servidor de Administración Central y la réplica local es XDS, que se compone de los archivos xds.mdf y xds.ldf. Un punto de control de servicio (SCP) en servicios de dominio de Active Directory al que hace referencia la ubicación de la base de datos maestra. Todas las herramientas que use el servidor de Administración Central para administrar y configurar Skype para Business Server usa el SCP para encontrar el almacén de Administración Central.
+El servidor de Administración Central es un sistema de única réplica maestro o varios, donde se mantiene la copia de lectura y escritura de la base de datos por el servidor Front-End que contiene el servidor de Administración Central. Cada equipo en la topología, incluido el servidor Front-End que contiene el servidor de Administración Central, tiene una copia de solo lectura de los datos del almacén de Administración Central en la base de datos de SQL (denominado RTCLOCAL de forma predeterminada) instalado en el equipo durante el programa de instalación y despliegue. La base de datos local recibe actualizaciones de réplica mediante el Skype para profesionales agente de Replicador de réplica de servidor que se ejecuta como un servicio en todos los equipos. El nombre de la base de datos real en el servidor de Administración Central y la réplica local es XDS, que se compone de los archivos xds.mdf y xds.ldf. Un punto de control de servicio (SCP) en servicios de dominio de Active Directory al que hace referencia la ubicación de la base de datos maestra. Todas las herramientas que use el servidor de Administración Central para administrar y configurar Skype para Business Server usa el SCP para encontrar el almacén de Administración Central.
   
 Una vez que haya movido correctamente el servidor de Administración Central, debe quitar las bases de datos del servidor de Administración Central desde el servidor original de Front-End. Para obtener información acerca de cómo quitar las bases de datos del servidor de Administración Central, vea [quitar la base de datos de SQL Server para un grupo de servidores Front-End](remove-the-sql-server-database-for-a-front-end-pool.md).
   

@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de sucursales
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,12 +12,13 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
-description: 'El nodo de la rama sitios enumera los sitios de sucursales que están asociados con este sitio central. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: cc0509a7af85637147d1560324c9198a218d28a4
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Sitios de sucursal contiene los sitios de sucursal asociados a este sitio central. You can perform the following action:'
+ms.openlocfilehash: 52d971b14f058a5284d84a710257f61794b5f091
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30895163"
 ---
 # <a name="branch-offices-scope-node"></a>Nodo de ámbito de sucursales
  

@@ -1,5 +1,6 @@
 ---
 title: Informe de lista de llamadas en Skype para Business Server
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -9,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Resumen: Información sobre el informe de lista de llamadas usadas en Skype para Business Server.'
-ms.openlocfilehash: af9c729adf17fd0df24a76bd13f48501b0f2eba1
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: c79cee289d3e76c0b191bb62a0383269ef8b886b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "20968357"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30891191"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Informe de lista de llamadas en Skype para Business Server
  

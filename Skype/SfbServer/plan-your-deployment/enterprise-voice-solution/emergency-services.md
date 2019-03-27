@@ -1,5 +1,6 @@
 ---
 title: Planeación de servicios de emergencia en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información acerca de los servicios Enhanced 9-1-1 (E9-1-1) en Skype para Business Server Enterprise Voice, incluidas la adquisición de ubicación y enrutamiento de llamadas.
-ms.openlocfilehash: 19c660152903c1091612060bfd808bea5a116d2f
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23884395"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30893813"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype para Business Server
 
@@ -89,7 +90,7 @@ Para que un cliente adquiera una ubicación, es preciso seguir estos pasos:
 
 ## <a name="routing-e9-1-1-calls-using-a-sip-trunk"></a>Enrutamiento de llamadas E9-1-1 por medio de un tronco SIP
 
-El uso de un tronco SIP para conectarse a un proveedor de servicios E9-1-1 certificado es una manera de implementar E9-1-1. Para obtener información detallada sobre el uso de una puerta de enlace ELIN para conectarse a una red telefónica conmutada (RTC)-basándose E9-1-1 proveedor de servicios, vea [Enrutamiento de llamadas E9-1-1 mediante el uso de una puerta de enlace ELIN](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
+El uso de un tronco SIP para conectarse a un proveedor de servicios E9-1-1 certificado es una manera de implementar E9-1-1. Para más detalles sobre el uso de una puerta de enlace ELIN para conectarse a un proveedor de servicios E9-1-1 basado en una red telefónica conmutada (RTC), vea [Routing E9-1-1 Calls by Using an ELIN Gateway](https://technet.microsoft.com/library/5a3997e3-898d-49cb-922a-4184c3373350.aspx).
 
 En el siguiente diagrama se muestra cómo una llamada de emergencia se enruta desde Skype para Business Server a pública punto de respuesta de seguridad (PSAP) cuando se usa un tronco SIP y el proveedor de servicios E9-1-1 completa.
 
@@ -124,7 +125,7 @@ Cuando un Skype para cliente empresarial obtiene su ubicación del servicio de i
 Las puertas de enlace ELIN admiten llamadas de emergencia únicamente desde dentro de la red de la organización; no admite llamadas externas.
 
 > [!NOTE]
-> Para obtener información detallada sobre el uso de una conexión troncal SIP para las llamadas de emergencia, vea [Enrutamiento de llamadas E9-1-1 mediante el uso de un tronco SIP](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
+> Para obtener información detallada sobre cómo usar una conexión troncal SIP en las llamadas de emergencia, consulte [Routing E9-1-1 Calls by Using a SIP Trunk](https://technet.microsoft.com/library/157753c3-fe74-4e2c-81da-ee06911d4cc2.aspx).
 
 En el siguiente diagrama se muestra cómo una llamada de emergencia se enruta desde Skype para Business Server al PSAP cuando se utiliza una puerta de enlace ELIN.
 

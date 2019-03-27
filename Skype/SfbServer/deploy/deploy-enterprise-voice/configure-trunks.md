@@ -1,5 +1,6 @@
 ---
 title: Configuración de troncos en Skype para Business Server
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Resumen: Obtenga información sobre cómo configurar un tronco entre un servidor de mediación y a los compañeros para Enterprise Voice en Skype para Business Server.'
-ms.openlocfilehash: 02ace749e62b7e6edd3f514fa81b55eb30c87094
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.openlocfilehash: c47d1ff06fe695be939758c8444dac246c555de9
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23887979"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30892860"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Configuración de troncos en Skype para Business Server
  

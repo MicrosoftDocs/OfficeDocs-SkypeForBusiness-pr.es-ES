@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de aplicaciones externas
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,16 +12,17 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
-description: 'El nodo de servidores de aplicaciones de confianza enumera los grupos de aplicaciones de confianza en este sitio. Grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de Microsoft de confianza, pero no ejecutan Skype para funciones de servidor de Business. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: c7f877e069b240c80219ce24f15943b2cce5fb08
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Servidores de aplicaciones de confianza contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de servidores de aplicaciones de confianza contienen servidores que ejecuten las aplicaciones de confianza de comunicaciones unificadas de Microsoft, pero no ejecute Skype para funciones de servidor empresarial. You can perform the following action:'
+ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30894040"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  
-El nodo **Servidores de aplicaciones de confianza** contiene los grupos de aplicaciones de confianza de este sitio. Grupos de aplicaciones de confianza contienen servidores que ejecutan aplicaciones de comunicaciones unificadas de Microsoft de confianza, pero no ejecutan Skype para funciones de servidor de Business. Puede efectuar la acción siguiente:
+El nodo **Servidores de aplicaciones de confianza** contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de servidores de aplicaciones de confianza contienen servidores que ejecuten las aplicaciones de confianza de comunicaciones unificadas de Microsoft, pero no ejecute Skype para funciones de servidor empresarial. Puede efectuar la acción siguiente:
   
 - **Nuevo grupo de aplicaciones de confianza**. Inicia el asistente **Definir nuevo grupo de aplicaciones de confianza**, que sirve para agregar un nuevo grupo de servidores de aplicaciones de confianza a la topología.
     
