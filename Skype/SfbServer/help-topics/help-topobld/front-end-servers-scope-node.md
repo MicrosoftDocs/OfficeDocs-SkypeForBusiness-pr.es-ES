@@ -1,5 +1,6 @@
 ---
 title: Nodo de ámbito de servidores front-end
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -11,25 +12,26 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
-description: 'El nodo de grupos de servidores Enterprise Edition Front-End enumera los grupos de Front-End en este sitio y los nodos de Standard Edition servidores frontales los servidores Standard Edition en este sitio. Puede efectuar la acción siguiente:'
-ms.openlocfilehash: 4ba5bbc6f49c5f5ec63a8fb6f9766ce38c14a833
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+description: 'El nodo Grupos de servidores front-end Enterprise Edition contiene los grupos de servidores front-end de este sitio y los nodos Servidores front-end Standard Edition, los servidores Standard Edition de este sitio. You can perform the following action:'
+ms.openlocfilehash: cce9e2d52b20ad9b439435f12111fdc1e9bf7b8b
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30896675"
 ---
-# <a name="front-end-servers-scope-node"></a><span data-ttu-id="b06eb-104">Nodo de ámbito de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="b06eb-104">Front End Servers Scope Node</span></span>
+# <a name="front-end-servers-scope-node"></a><span data-ttu-id="55b6f-104">Nodo de ámbito de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="55b6f-104">Front End Servers Scope Node</span></span>
  
-<span data-ttu-id="b06eb-p102">El nodo **Grupos de servidores front-end Enterprise Edition** contiene los grupos de servidores front-end de este sitio y los nodos **Servidores front-end Standard Edition**, los servidores Standard Edition de este sitio. Puede efectuar la siguiente acción:</span><span class="sxs-lookup"><span data-stu-id="b06eb-p102">The **Enterprise Edition Front End pools** node lists the Front End pools at this site, and the **Standard Edition Front End Servers** nodes lists the Standard Edition servers at this site. You can perform the following action:</span></span>
+<span data-ttu-id="55b6f-p102">El nodo **Grupos de servidores front-end Enterprise Edition** contiene los grupos de servidores front-end de este sitio y los nodos **Servidores front-end Standard Edition**, los servidores Standard Edition de este sitio. Puede efectuar la siguiente acción:</span><span class="sxs-lookup"><span data-stu-id="55b6f-p102">The **Enterprise Edition Front End pools** node lists the Front End pools at this site, and the **Standard Edition Front End Servers** nodes lists the Standard Edition servers at this site. You can perform the following action:</span></span>
   
-- <span data-ttu-id="b06eb-p103">**Nuevo grupo de servidores front-end**. Inicia el asistente **Definir nuevo grupo de servidores front-end**, que sirve para agregar un nuevo servidor Standard Edition o un grupo de servidores front-end a la topología de este sitio.</span><span class="sxs-lookup"><span data-stu-id="b06eb-p103">**New Front End Pool**. Starts the **Define New Front End Pool** wizard, which you use to add either a new Front End pool or Standard Edition server to the topology at this site.</span></span>
+- <span data-ttu-id="55b6f-p103">**Nuevo grupo de servidores front-end**. Inicia el asistente **Definir nuevo grupo de servidores front-end**, que sirve para agregar un nuevo servidor Standard Edition o un grupo de servidores front-end a la topología de este sitio.</span><span class="sxs-lookup"><span data-stu-id="55b6f-p103">**New Front End Pool**. Starts the **Define New Front End Pool** wizard, which you use to add either a new Front End pool or Standard Edition server to the topology at this site.</span></span>
     
-<span data-ttu-id="b06eb-109">Además, puede efectuar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="b06eb-109">In addition, you can perform the following general tasks:</span></span>
+<span data-ttu-id="55b6f-109">Además, puede efectuar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="55b6f-109">In addition, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="b06eb-p104">**Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="b06eb-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
+- <span data-ttu-id="55b6f-p104">**Topología**. Esta opción permite definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes de versiones anteriores o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="55b6f-p104">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, merge components from previous versions, or remove the deployment.</span></span>
     
-- <span data-ttu-id="b06eb-p105">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="b06eb-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="55b6f-p105">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="55b6f-p105">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="b06eb-p106">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="b06eb-p106">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="55b6f-p106">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="55b6f-p106">**Help**. You can use this option to access Help for the active node.</span></span>
     
 

@@ -1,5 +1,6 @@
 ---
 title: Asociar una subred agregar nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e08a6a2d-1f88-4a84-b6e5-b84dcded4a86
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 768745f87e6af4fe2b0e3e75592a2dbb740f69c3
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 2ca5ad983f49e15a4e20ff1d175cab2a545849ef
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242221"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30897236"
 ---
-# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="1bd5e-104">Asociar una subred: agregar nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="1bd5e-104">Associate a Subnet: Add New or Edit Existing</span></span>
+# <a name="associate-a-subnet-add-new-or-edit-existing"></a><span data-ttu-id="62dc2-104">Asociar una subred: Agregar nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="62dc2-104">Associate a Subnet: Add New or Edit Existing</span></span>
 
-<span data-ttu-id="1bd5e-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="1bd5e-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="62dc2-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="62dc2-105">What do you want to do?</span></span> <span data-ttu-id="62dc2-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="62dc2-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="1bd5e-107">Configuración de subredes de red</span><span class="sxs-lookup"><span data-stu-id="1bd5e-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
+- [<span data-ttu-id="62dc2-107">Configuración de subredes de red</span><span class="sxs-lookup"><span data-stu-id="62dc2-107">Configuring Network Subnets</span></span>](https://technet.microsoft.com/library/1ba8c4e3-fbc7-4758-88ac-d651fef17bed.aspx)
 
-<span data-ttu-id="1bd5e-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="1bd5e-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="62dc2-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="62dc2-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

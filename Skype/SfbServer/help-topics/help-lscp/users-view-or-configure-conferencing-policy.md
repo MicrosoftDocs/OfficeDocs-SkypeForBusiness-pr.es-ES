@@ -1,5 +1,6 @@
 ---
 title: Los usuarios ver o configuración directiva de conferencia
+ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
@@ -12,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 85ce41cf773414b6c5030ab8a17cffa9009bac17
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: c667c07b6e2b3ccc1953765e6670ae8f54e28609
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23253086"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888902"
 ---
-# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="0e9c7-104">Usuarios: Ver o configurar Directiva de conferencia</span><span class="sxs-lookup"><span data-stu-id="0e9c7-104">Users: View or Configure Conferencing Policy</span></span>
+# <a name="users-view-or-configure-conferencing-policy"></a><span data-ttu-id="00266-104">Usuarios: Ver o configurar directiva de conferencia</span><span class="sxs-lookup"><span data-stu-id="00266-104">Users: View or Configure Conferencing Policy</span></span>
 
-<span data-ttu-id="0e9c7-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="0e9c7-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="00266-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="00266-105">What do you want to do?</span></span> <span data-ttu-id="00266-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="00266-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="0e9c7-107">Asignar una directiva de conferencia para modificar una experiencia de usuario predeterminada reunión</span><span class="sxs-lookup"><span data-stu-id="0e9c7-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [<span data-ttu-id="00266-107">Asignar una directiva de conferencia para modificar una experiencia de usuario predeterminada reunión</span><span class="sxs-lookup"><span data-stu-id="00266-107">Assign a Conferencing Policy to Modify a User's Default Meeting Experience</span></span>](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-<span data-ttu-id="0e9c7-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="0e9c7-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="00266-108">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="00266-108">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

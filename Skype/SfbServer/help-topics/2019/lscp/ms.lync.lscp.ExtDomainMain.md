@@ -1,5 +1,6 @@
 ---
 title: Dominios federados
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,19 +13,19 @@ localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: dc9f00fe39903c40011583a4852ca8017b331ce6
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: b4e8c1e529a295f2eebd8cfb84d71cca0159a463
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23250598"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30887683"
 ---
-# <a name="federated-domains"></a><span data-ttu-id="8edff-104">Dominios federados</span><span class="sxs-lookup"><span data-stu-id="8edff-104">Federated Domains</span></span>
+# <a name="federated-domains"></a><span data-ttu-id="ad9c6-104">Dominios federados</span><span class="sxs-lookup"><span data-stu-id="ad9c6-104">Federated Domains</span></span>
 
-<span data-ttu-id="8edff-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="8edff-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="ad9c6-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="ad9c6-105">What do you want to do?</span></span> <span data-ttu-id="ad9c6-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="ad9c6-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8edff-107">Configurar el acceso de los socios federados</span><span class="sxs-lookup"><span data-stu-id="8edff-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
+- [<span data-ttu-id="ad9c6-107">Configure Access for Federated Partners</span><span class="sxs-lookup"><span data-stu-id="ad9c6-107">Configure Access for Federated Partners</span></span>](https://technet.microsoft.com/library/5485e208-81e4-4e59-9aeb-1232c11dd8a2.aspx)
 
-- [<span data-ttu-id="8edff-108">Supervisar y controlar el acceso de socios federados</span><span class="sxs-lookup"><span data-stu-id="8edff-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
+- [<span data-ttu-id="ad9c6-108">Monitor and Control Federated Partner Access</span><span class="sxs-lookup"><span data-stu-id="ad9c6-108">Monitor and Control Federated Partner Access</span></span>](https://technet.microsoft.com/library/3ee6e175-986d-4c33-b03a-b9f93083dca6.aspx)
 
 

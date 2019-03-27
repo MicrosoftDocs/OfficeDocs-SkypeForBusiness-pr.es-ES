@@ -1,5 +1,6 @@
 ---
 title: Proveedores federados SIP crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 42c80e5a9d0239285058481adb603ba463676387
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: fe601017823dd44f52004f95377fc897bcab71f8
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23256738"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30888206"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="fefa9-104">Proveedores federados SIP: Crear nuevo o editar existente</span><span class="sxs-lookup"><span data-stu-id="fefa9-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="a6668-104">Proveedores federados SIP: Crear nuevo o editar existente</span><span class="sxs-lookup"><span data-stu-id="a6668-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="fefa9-p102">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="fefa9-p102">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="a6668-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="a6668-105">What do you want to do?</span></span> <span data-ttu-id="a6668-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="a6668-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="fefa9-107">Administrar SIP federados proveedores para su organización</span><span class="sxs-lookup"><span data-stu-id="fefa9-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="a6668-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="a6668-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 
