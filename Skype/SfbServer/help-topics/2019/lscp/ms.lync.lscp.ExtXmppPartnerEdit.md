@@ -1,5 +1,6 @@
 ---
 title: Socios federados de XMPP crear nuevos o editar los existentes
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -12,21 +13,21 @@ localization_priority: Normal
 ms.assetid: 7a14552e-96b0-4a3d-bb9b-4813c97dd8e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 9f5f5b887f0da52276ddff80e55c280cc3f9ea23
-ms.sourcegitcommit: 08c6fe9955ea61dd9cded2210ae0153e06bdd8a6
+ms.openlocfilehash: 24f37f1ba3324a5b379fb2a12bd3dce1282b686c
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/28/2018
-ms.locfileid: "23242106"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30879619"
 ---
-# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="8fec7-104">Socios federados de XMPP: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="8fec7-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
+# <a name="xmpp-federated-partners-create-new-or-edit-existing"></a><span data-ttu-id="c8f01-104">Socios federados de XMPP: Crear nuevos o editar los existentes</span><span class="sxs-lookup"><span data-stu-id="c8f01-104">XMPP Federated Partners: Create New or Edit Existing</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="8fec7-105">Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="8fec7-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="8fec7-106">Para obtener más información, vea [la federación XMPP migrar](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .</span><span class="sxs-lookup"><span data-stu-id="8fec7-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
+> <span data-ttu-id="c8f01-105">Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="c8f01-105">XMPP Gateways and proxies are available in Skype for Business Server 2015 but are no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="c8f01-106">Para obtener más información, vea [la federación XMPP migrar](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) .</span><span class="sxs-lookup"><span data-stu-id="c8f01-106">See [Migrating XMPP federation](../../../../SfBServer2019/migration/migrating-xmpp-federation.md) for more information.</span></span>
 
-<span data-ttu-id="8fec7-p103">¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="8fec7-p103">What do you want to do? Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="c8f01-107">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="c8f01-107">What do you want to do?</span></span> <span data-ttu-id="c8f01-108">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="c8f01-108">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="8fec7-109">Crear o editar la configuración del socio XMPP</span><span class="sxs-lookup"><span data-stu-id="8fec7-109">Create or Edit XMPP Partner Configuration</span></span>](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
+- [<span data-ttu-id="c8f01-109">Crear o editar la configuración del socio XMPP</span><span class="sxs-lookup"><span data-stu-id="c8f01-109">Create or Edit XMPP Partner Configuration</span></span>](https://technet.microsoft.com/library/362dbe5e-8ee9-4aba-8c26-5907312b4a60.aspx)
 
-- [<span data-ttu-id="8fec7-110">Tabla de opciones de negociación para XMPP socios federados</span><span class="sxs-lookup"><span data-stu-id="8fec7-110">Negotiation Settings Table for XMPP Federated Partners</span></span>](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
+- [<span data-ttu-id="c8f01-110">Tabla de opciones de negociación para XMPP socios federados</span><span class="sxs-lookup"><span data-stu-id="c8f01-110">Negotiation Settings Table for XMPP Federated Partners</span></span>](https://technet.microsoft.com/library/ef773942-ef92-4f71-85a1-738dfebdfa00.aspx)
 

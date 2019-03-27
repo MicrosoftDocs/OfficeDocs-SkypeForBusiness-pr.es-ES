@@ -1,5 +1,6 @@
 ---
 title: Configurar las directivas de la organización
+ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -16,13 +17,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-ms.openlocfilehash: e7379c1dcc86321b225d6fc9738c6bf0204ffddd
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.openlocfilehash: 18ddded9822eb479e40f8f9338741b63209919e5
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23860697"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878740"
 ---
-# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="e3d2d-102">Configurar las directivas de la organización</span><span class="sxs-lookup"><span data-stu-id="e3d2d-102">Set up policies in your organization</span></span>
+# <a name="set-up-policies-in-your-organization"></a><span data-ttu-id="477ff-102">Configurar las directivas de la organización</span><span class="sxs-lookup"><span data-stu-id="477ff-102">Set up policies in your organization</span></span>
 
 

@@ -1,5 +1,6 @@
 ---
-title: Nodo de Lync del generador de topología
+title: Nodo Lync del Generador de topologías
+ms.reviewer: ''
 ms.author: heidip
 author: microsoftheidi
 manager: serdars
@@ -11,14 +12,14 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
-ms.openlocfilehash: 4c65e0375d9d19ce08aa0234853603bca18dee01
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+ms.openlocfilehash: b6df0c5c59007afa4a60c1a6db5403a38ea77caa
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "21003723"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30881329"
 ---
-# <a name="topology-builder-lync-node"></a><span data-ttu-id="f58f7-102">Nodo de Lync del generador de topología</span><span class="sxs-lookup"><span data-stu-id="f58f7-102">Topology Builder Lync Node</span></span>
+# <a name="topology-builder-lync-node"></a><span data-ttu-id="ccf46-102">Nodo Lync del Generador de topologías</span><span class="sxs-lookup"><span data-stu-id="ccf46-102">Topology Builder Lync Node</span></span>
  
 
 
