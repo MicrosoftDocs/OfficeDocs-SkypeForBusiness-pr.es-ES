@@ -1,6 +1,7 @@
 ---
 title: Aprendizaje de Microsoft Teams
-description: Use estos usuarios finales, administración y recursos de aprendizaje presencial que le ayudarán a obtener el máximo partido de Microsoft Teams en su organización.
+ms.reviewer: ''
+description: Use estos recursos impartidos por usuarios finales, administradores e instructores para sacar el máximo provecho de Microsoft Teams en su organización.
 layout: LandingPage
 ms.topic: landing-page
 author: LolaJacobsen
@@ -8,18 +9,19 @@ ms.author: lolaj
 manager: serdars
 ms.date: 03/19/2019
 ms.service: msteams
+localization_priority: Priority
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc0e9cb6c3f8a708b7633a5731908e0a27db8ff
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
-ms.translationtype: MT
+ms.openlocfilehash: 81a8b7fe6043d868d88c24c4d1b2573e71f31beb
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30684044"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30878889"
 ---
 # <a name="microsoft-teams-training"></a>Aprendizaje de Microsoft Teams
 
@@ -38,7 +40,7 @@ ms.locfileid: "30684044"
                     </div>
                     <div class="cardText">
                         <h3>Aprendizaje de administración</h3>
-                        <p>Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener información acerca de los equipos y uso de la unidad en la organización.</p>
+                        <p>Use estos tutoriales, vídeos y otros recursos de aprendizaje para obtener información sobre Teams y fomentar el uso en su organización.</p>
                     </div>
                 </div>
             </div>
@@ -56,8 +58,8 @@ ms.locfileid: "30684044"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Formación presencial</h3>
-                        <p>Clases de aprendizaje en línea, live gratuita hospedado por Microsoft diseñadas para poner en funcionamiento y en ejecución con los equipos. Únase a nosotros para ver los equipos en acción, obtener respuestas a sus preguntas e interactuar con nuestros instructores live.</p>
+                        <h3>Cursos de entrenamiento impartidos por un instructor</h3>
+                        <p>Clases de aprendizaje gratuitas en línea y en directo ofrecidas por Microsoft diseñadas para empezar a trabajar con Teams. Únase a nosotros para ver Teams en acción, obtener respuestas a sus preguntas e interactuar con los profesores en directo.</p>
                     </div>
                 </div>
             </div>
@@ -75,8 +77,8 @@ ms.locfileid: "30684044"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Usuarios finales de formación</h3>
-                        <p>Use estos recursos de aprendizaje para ayudar a los usuarios de su organización a obtener el máximo partido de los equipos.</p>
+                        <h3>Aprendizaje para usuarios finales</h3>
+                        <p>Use estos recursos de aprendizaje para ayudar a los usuarios de su organización a sacar el máximo provecho de Teams.</p>
                     </div>
                 </div>
             </div>
@@ -87,15 +89,15 @@ ms.locfileid: "30684044"
 
 ---
 
-<h2>No se pierda este curso de formación clave</h2>
-Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para siempre saber acerca de los equipos más recientes, más interesantes, más importantes recursos de aprendizaje.
+<h2>No se pierda este aprendizaje clave</h2>
+Vuelve a menudo para ver las novedades. Esta lista se actualiza para que estés siempre al día con lo último del aprendizaje de Teams.
 <ul class="panelContent cardsW">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                        <h3>Cambiar de Skype Empresarial a Teams</h3>
                          <p><a href="tutorial-journey-skypeforbusiness-to-teams.yml">Tutorial: Cambiar de Skype Empresarial a Teams</a></p>
                     </div>
                 </div>
@@ -106,8 +108,8 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Trabajo en Equipo</h3>
-                         <p><a href="https://aka.ms/edx-cld267x-about">Curso: Habilitar el trabajo en equipo con los equipos de Microsoft</a></p>
+                        <h3>Trabajo en equipo</h3>
+                         <p><a href="https://aka.ms/edx-cld267x-about">Curso: Facilitar el trabajo en equipo con Teams</a></p>
                     </div>
                 </div>
             </div>
@@ -117,8 +119,8 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Certificación de especialista de adopción</h3>
-                        <p><a href="http://aka.ms/AdoptionCert">En las primeras enero de 2019, lanzamos un curso de la certificación de especialista de adopción de servicio de Microsoft, que incluye los equipos. Aquí enseñar cómo impulsar la adopción de servicios de Microsoft en su org.</a></p>
+                        <h3>Certificación especialista de adopción</h3>
+                        <p><a href="http://aka.ms/AdoptionCert">El curso de certificación de especialista de adopción de servicios Microsoft usa Teams. Aprenda a fomentar la adopción de servicios Microsoft en su organización.</a></p>
                     </div>
                 </div>
             </div>
@@ -130,7 +132,7 @@ Compruebe con frecuencia la copia: se podrá seguir actualizando esta lista para
                 <div class="card">
                     <div class="cardText">
                         <h3>Introducción al trabajo en equipo en Microsoft 365</h3>
-                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Obtenga información acerca de las herramientas de Microsoft 365 que facilitan el trabajo en equipo para todos los trabajadores, independientemente de dónde se encuentren o cómo se conectan a recursos de su organización.</a></p>
+                        <p><a href="https://docs.microsoft.com/learn/modules/intro-to-teamwork-in-m365/index">Obtenga información sobre las herramientas de Microsoft 365 que facilitan el trabajo en equipo para todos los empleados, independientemente de dónde se encuentran o de su relación con su organización. </a></p>
                     </div>
                 </div>
             </div>

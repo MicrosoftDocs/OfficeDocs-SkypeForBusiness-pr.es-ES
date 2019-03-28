@@ -1,5 +1,6 @@
 ---
 title: Conectores, bots y aplicaciones en Microsoft Teams
+ms.reviewer: ''
 description: Use estos recursos de implementación para ayudarle a implementar las aplicaciones en Microsoft.
 ms.topic: article
 author: LolaJacobsen
@@ -14,20 +15,18 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f7ccc2c489d4423b906aec92dcb594f82a380e40
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
+ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460799"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30873172"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
 Las aplicaciones le permiten buscar contenido de sus servicios favoritos y compartirlo directamente en Teams. Le ayudan a hacer cosas como anclar servicios al principio de un canal, chatear con bots o compartir y asignar tareas. Para aprender más cosas a este respecto, lea [Información general de aplicaciones en Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
 Le recomendamos que incluya nuestras aplicaciones destacadas, como Planner, en la implementación inicial de Teams. Agregue otras aplicaciones, bots y conectores a medida que impulsa la adopción de Teams.
-
-
 
 ## <a name="apps-deployment-decisions"></a>Decisiones de implementación de aplicaciones
 
@@ -39,13 +38,13 @@ Estas son las opciones de aplicaciones que la mayoría de organizaciones cambian
 
 ### <a name="app-availability-settings"></a>Configuración de disponibilidad de aplicaciones 
 
-Teams ofrece una serie de aplicaciones propias (proporcionadas por Microsoft) y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams. Obtener aplicaciones desde la Tienda Teams. De forma predeterminada, todas las aplicaciones, incluidas las aplicaciones externas que ha enviado a través del [proceso de aprobación de Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), están activadas para todos los usuarios. Por ejemplo, los usuarios pueden usar la aplicación de Planner para crear y administrar tareas de equipo en Teams.
+Teams ofrece una serie de aplicaciones proporcionadas por Microsoft y aplicaciones de terceros para interactuar con los usuarios, ayudar en la productividad e integrar los servicios empresariales usados frecuentemente en Teams. Obtener aplicaciones desde la Tienda Teams. De forma predeterminada, todas las aplicaciones, incluidas las aplicaciones personalizadas que ha enviado a través del [proceso de aprobación de Teams Store](https://docs.microsoft.com/microsoftteams/platform/publishing/apps-publish#microsoft-teams-app-approval-process), están activadas para todos los usuarios. Por ejemplo, los usuarios pueden usar la aplicación de Planner para crear y administrar tareas de equipo en Teams.
 
-De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft y externas están disponibles y puede activarlas o desactivarlas individualmente. Hay una configuración global que le permite activar o desactivar todas las aplicaciones externas para toda la organización.
+De forma predeterminada, todas las aplicaciones proporcionadas por Microsoft, así como las personalizadas, están disponibles y puede activarlas o desactivarlas individualmente. Hay una configuración que abarca toda la organización que le permite activar o desactivar todas las aplicaciones personalizadas para toda la organización.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|
-|¿Va a cambiar la configuración predeterminada de las aplicaciones de Teams? | Para obtener más información sobre cómo configurar la disponibilidad de aplicaciones externas, consulte [Configuración de administrador de aplicaciones en Microsoft Teams](admin-settings.md).|
+|¿Va a cambiar la configuración predeterminada de las aplicaciones de Teams? | Para obtener más información sobre las directivas y configuraciones que puede usar para administrar las aplicaciones de su organización, consulte [Configuración de administración de aplicaciones en Microsoft Teams](admin-settings.md).|
 |||
 
 ### <a name="app-permissions-and-other-considerations"></a>Permisos de aplicación y otras consideraciones
