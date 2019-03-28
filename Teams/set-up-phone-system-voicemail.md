@@ -1,5 +1,5 @@
 ---
-title: Configurar el correo de voz del Sistema telefónico
+title: Configurar el correo de voz en la nube
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,24 +20,24 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Learn how to set up the phone system (Cloud PBX) voicemail for your Skype for Business users. '
-ms.openlocfilehash: e0f966d178fb775ff8f9283c6a8097487e8933a2
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
+ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
+ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541907"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30934775"
 ---
-# <a name="set-up-phone-system-voicemail"></a>Configurar el correo de voz del Sistema telefónico
+# <a name="set-up-cloud-voicemail"></a>Configurar el correo de voz en la nube
 
-En este artículo es para la [administración de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz de sistema telefónico para todos los usuarios en la empresa.
+En este artículo es para la [administración de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz en la nube para todos los usuarios en la empresa.
 
 > [!NOTE]
-> Phone System voicemail supports depositing voicemail messages only in an Exchange mailbox and doesn't support any third-party email systems. As a fallback mechanism, Phone System voicemail can resend messages using SMTP, which means users with a mailbox on a third-party email system will receive their voicemail messages with no guaranteed service uptime or other voicemail features, such as changing their greetings and other settings.
+> Correo de voz en la nube admite depositar los mensajes de correo de voz sólo en un buzón de Exchange y no es compatible con los sistemas de correo electrónico de otro fabricante. Como un mecanismo de reserva, correo de voz en la nube puede volver a enviar los mensajes mediante SMTP, lo que significa que los usuarios con un buzón de correo en un sistema de correo electrónico de otro fabricante recibirán sus mensajes de correo de voz con ningún tiempo de actividad de servicio garantizado u otras características de correo de voz, como el cambio de sus saludos y otras opciones de configuración.
 
-## <a name="cloud-only-environments-set-up-phone-system-voicemail"></a>Entornos de nube: configurar el correo de voz del sistema de teléfono
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Entornos de nube: configurar el correo de voz en la nube
 
-Para Skype para los usuarios en línea de negocio y planes de llamada, correo de voz del sistema telefónico se configuran automáticamente y aprovisionar para los usuarios después de asignar una licencia de **Sistema telefónico** y un número de teléfono a ellos.
+Para Skype para los usuarios en línea de negocio y planes de llamada, correo de voz en la nube se configuran automáticamente y aprovisionar para los usuarios después de asignar una licencia de **Sistema telefónico** y un número de teléfono a ellos.
   
 1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También es posible que necesite comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
@@ -47,13 +47,13 @@ Para Skype para los usuarios en línea de negocio y planes de llamada, correo de
 
 ## <a name="phone-system-with-on-premises-environments"></a>Sistema telefónico con entornos locales
 
-La siguiente información se refiere a la configuración del correo de voz del Sistema telefónico para que funcione con los entornos locales del Plan de llamadas.
+Es la siguiente información acerca de cómo configurar el correo de voz en la nube para trabajar con entornos de planeación de llamada local.
   
 1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También necesitará comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
 2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa.
     
-3. Siga las instrucciones que aparecen en la sección **Permitir que los usuarios de voz de sistema telefónico y servicios de correo de voz** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx).
+3. Siga las instrucciones que aparecen en la sección **Permitir que los usuarios de servicios de voz y correo de voz del sistema de teléfono** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx).
 
 4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
 
