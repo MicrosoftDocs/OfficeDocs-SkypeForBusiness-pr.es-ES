@@ -187,26 +187,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-## [Interoperabilidad de vídeos en la nube](cloud-video-interop.md)
-
-## Eventos en directo
-### [¿Qué son los eventos en directo en Teams?](teams-live-events/what-are-teams-live-events.md)
-### [Planear eventos en directo en Teams](teams-live-events/plan-for-teams-live-events.md)
-### [Configuración de eventos en directo en Teams](teams-live-events/set-up-for-teams-live-events.md)
-### [Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
-### [Establecer la configuración de eventos en directo en Microsoft Teams](teams-live-events/configure-teams-live-events.md)
-
-<!-- ============================================================ -->
-
 ### Referencia
 #### [Idiomas admitidos para Audioconferencia](audio-conferencing-supported-languages.md)
 
@@ -305,6 +285,26 @@
 <!-- ============================================================ -->
 
 
+
+
+
+
+
+
+
+## [Interoperabilidad de vídeos en la nube](cloud-video-interop.md)
+
+## Eventos en directo
+### [¿Qué son los eventos en directo en Teams?](teams-live-events/what-are-teams-live-events.md)
+### [Planear eventos en directo en Teams](teams-live-events/plan-for-teams-live-events.md)
+### [Configuración de eventos en directo en Teams](teams-live-events/set-up-for-teams-live-events.md)
+### [Usar PowerShell para establecer directivas de eventos en directo en Microsoft Teams](teams-live-events/set-teams-live-events-policies-using-powershell.md)
+### [Establecer la configuración de eventos en directo en Microsoft Teams](teams-live-events/configure-teams-live-events.md)
+
+<!-- ============================================================ -->
+
+
+
 # [Servicios de voz en la nube](cloud-voice-landing-page.md)
 ## Sistema telefónico
 ### [¿Qué es el Sistema telefónico?](what-is-phone-system-in-office-365.md)
@@ -312,7 +312,7 @@
 ### [Configurar el Sistema telefónico](setting-up-your-phone-system.md)
 ### [Configurar teléfonos de área común](set-up-common-area-phones.md)
 ### Correo de voz
-#### [Configurar el correo de voz del Sistema telefónico](set-up-phone-system-voicemail.md)
+#### [Planear el Correo de voz en la nube](set-up-phone-system-voicemail.md)
 #### [Cambiar el idioma predeterminado para el buzón de voz](change-the-default-language-for-greetings-and-emails.md)
 #### [Idiomas para saludos del buzón de voz y mensajes](languages-for-voicemail-greetings-and-messages.md)
 ### Identificador de llamada
