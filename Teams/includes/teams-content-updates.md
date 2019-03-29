@@ -566,7 +566,7 @@
 | 11/3/2019 | [Configurar el Análisis de llamadas](/MicrosoftTeams/set-up-call-analytics) | modificado |
 | 11/3/2019 | [Configurar planes de llamadas](/MicrosoftTeams/set-up-calling-plans) | modificado |
 | 11/3/2019 | [Configurar Créditos de comunicaciones para su organización](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado |
-| 11/3/2019 | [Configurar el correo de voz del Sistema telefónico](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
+| 11/3/2019 | [Configurar el Correo de voz en la nube](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
 | 11/3/2019 | [Configurar el Sistema telefónico en su organización](/MicrosoftTeams/setting-up-your-phone-system) | modificado |
 | 11/3/2019 | [Apariencia de línea compartida en Microsoft Teams](/MicrosoftTeams/shared-line-appearance) | modificado |
 | 11/3/2019 | [¿Cuáles son las restricciones de caracteres especiales en directivas de Teams?](/MicrosoftTeams/special-character-restrictions-in-policy-names) | modificado |
@@ -948,7 +948,7 @@
 | 20/2/2019 | [Configurar planes de llamadas](/MicrosoftTeams/set-up-calling-plans) | modificado  |
 | 20/2/2019 | [Configuración de la licencia de teléfono de área común de Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modificado  |
 | 20/2/2019 | [Configurar Créditos de comunicaciones para su organización](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado  |
-| 20/2/2019 | [Configurar el correo de voz de Sistema telefónico](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado  |
+| 20/2/2019 | [Configurar el Correo de voz en la nube](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
 | 20/2/2019 | [Configurar el Sistema telefónico en su organización](/MicrosoftTeams/setting-up-your-phone-system) | modificado  |
 | 20/2/2019 | [Plan para eventos en directo en Microsoft Teams](/MicrosoftTeams/teams-live-events/plan-for-teams-live-events) | modificado  |
 | 20/2/2019 | [Probar o comprar Audioconferencia en Office 365 para Microsoft Teams](/MicrosoftTeams/try-or-purchase-audio-conferencing-in-office-365-for-teams) | modificado  |
@@ -1160,7 +1160,7 @@
 | 1/3/2019 | [Configurar planes de llamadas](/MicrosoftTeams/set-up-calling-plans) | modificado  |
 | 1/3/2019 | [Configuración de la licencia de teléfono de área común de Microsoft Teams](/MicrosoftTeams/set-up-common-area-phones) | modificado  |
 | 1/3/2019 | [Configurar Créditos de comunicaciones para su organización](/MicrosoftTeams/set-up-communications-credits-for-your-organization) | modificado  |
-| 1/3/2019 | [Configurar el correo de voz de Sistema telefónico](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado  |
+| 1/3/2019 | [Configurar el Correo de voz en la nube](/MicrosoftTeams/set-up-phone-system-voicemail) | modificado |
 | 1/3/2019 | [Configurar el Sistema telefónico en su organización](/MicrosoftTeams/setting-up-your-phone-system) | modificado  |
 | 1/3/2019 | [Restricciones y limitaciones de marcado de número gratuito](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions) | modificado  |
 | 1/3/2019 | [Restricciones de marcado de número gratuito en Argentina](/MicrosoftTeams/toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina) | modificado  |
