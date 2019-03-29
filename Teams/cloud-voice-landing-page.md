@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de inicio a la implementación de voz en la nube en los equipos
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1b9398e7a468c023949a0b7079d2924a9e1f0924
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664921"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948380"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -85,11 +85,11 @@ Es posible que desee cambiar la configuración de los siguientes valores, en fun
 
 ### <a name="voicemail"></a>Correo de voz
 
-Correo de voz de sistema de teléfono, con tecnología de servicios de correo de voz de Azure, es compatible con depósitos de correo de voz a los buzones de Exchange y no es compatible con sistemas de correo electrónico de otro fabricante. El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización.
+Correo de voz en la nube, con tecnología de servicios de correo de voz de Azure, es compatible con depósitos de correo de voz a los buzones de Exchange y no es compatible con sistemas de correo electrónico de otro fabricante. Correo de voz en la nube incluye transcripción de correo de voz, que está habilitado para todos los usuarios de la organización de forma predeterminada. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización.
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Desea habilitar correo de voz del sistema de teléfono? | Para los procedimientos de configuración de correo de voz, vea [Configurar el correo de voz del sistema telefónico](set-up-phone-system-voicemail.md).
+| ¿Desea habilitar el correo de voz en la nube? | Para los procedimientos de configuración de correo de voz, vea [Configurar el correo de voz en la nube](set-up-phone-system-voicemail.md).
 | ¿Desea habilitar la transcripción de correo de voz para todos o algunos de Mis usuarios? | Para desactivar la transcripción de correo de voz, consulte [configuración de directivas de correo de voz en su organización](set-up-phone-system-voicemail.md#setting-voicemail-policies-in-your-organization).</li></ul>|
 |||
 

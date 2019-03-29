@@ -1,5 +1,5 @@
 ---
-title: Correo de voz de Sistema telefónico
+title: Correo de voz en la nube
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Obtenga información sobre el correo de voz del sistema telefónico.
-ms.openlocfilehash: 69e0908552149ff171d41961d8721b4a4f6ab615
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+description: Obtenga información sobre el correo de voz en la nube.
+ms.openlocfilehash: 6c224d3b00234bc65f724f7c255049b3be9edbe8
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23856423"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948137"
 ---
-# <a name="phone-system-voicemail"></a>Correo de voz de Sistema telefónico
+# <a name="cloud-voicemail"></a>Correo de voz en la nube
 
 

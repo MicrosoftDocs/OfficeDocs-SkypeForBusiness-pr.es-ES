@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamadas para el Sistema telefónico
-author: CarolynRowe
-ms.author: crowe
+author: Jambirk
+ms.author: jambirk
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: ms.teamsadmincenter.callqueues.overview
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el sistema telefónico para colas de llamadas de Office 365 (PBX en la nube) para que le proporcionen un saludo organizativo, música en espera y redireccionamiento de llamadas a los agentes de llamadas en las listas de distribución y grupos de seguridad. También puede establecer las opciones de tamaño máximo de cola, tiempo de espera y administración de llamadas. '
-ms.openlocfilehash: 204959e68fa398300352e477fc7e78ea870aa359
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: c76f7e00c8c12e79c0dc333e05d4ccb0ca75266a
+ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664634"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30952355"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el Sistema telefónico
 
@@ -173,7 +173,7 @@ En el **Centro de administración de equipos de Microsoft**, haga clic en ![sfb-
 ![Número 2](../images/sfbcallout2.png)<br/><br/>**Cuando se alcanza el número máximo de llamadas** Cuando la cola llamada alcanza su tamaño máximo (establecido con el valor **máximo de llamadas en la cola** ), puede elegir lo que ocurre con las nuevas llamadas recibidas.
 * **Desconectar con una señal de línea ocupada**: se desconectará la llamada.
 * **Reenviar esta llamada a** Cuando se selecciona esta opción, tendrá estas opciones:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have a Calling Plan. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. <br/> <br/>Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz en la nube](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Los usuarios alojados en implementaciones locales no se admite el uso de Lync Server 2010.<br/>
@@ -187,7 +187,7 @@ En el **Centro de administración de equipos de Microsoft**, haga clic en ![sfb-
 ![Número 4](../images/sfbcallout4.png)<br/><br/>**Cuando una llamada agota el tiempo de espera**: puede elegir lo que sucede con las llamadas cuando alcanzan el límite establecido en el ajuste **Cuánto tiempo puede esperar una llamada en la cola**:
 * **Desconectar**: la llamada se desconectará.
 * **Reenviar esta llamada a** Cuando se selecciona esta opción, tendrá estas opciones:
-  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](/microsoftteams/set-up-phone-system-voicemail). 
+  * **Person in your company** An Online user with a **Phone System** license and be enabled for Enterprise Voice or have Calling Plans. You can set it up so the person calling in can be sent to voicemail. To do this, select a **Person in your company** and set this person to have their calls forwarded directly to voicemail. </br><br/>  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz en la nube](/microsoftteams/set-up-phone-system-voicemail). 
 
     > [!Note]
     > Los usuarios alojados en implementaciones locales no se admite el uso de Lync Server 2010.<br/>

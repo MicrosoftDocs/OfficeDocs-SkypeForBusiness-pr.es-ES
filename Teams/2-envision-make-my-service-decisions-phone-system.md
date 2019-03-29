@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4d473408b054d1e7a89ad5ce27c1686cce181d9e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568691"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948190"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -128,14 +128,14 @@ Para obtener más información acerca de las ubicaciones de emergencias en relac
 
 ## <a name="voicemail"></a>Correo de voz
 
-Correo de voz de sistema de teléfono, con tecnología de servicios de correo de voz de Azure, es compatible con depósitos de correo de voz a los buzones de Exchange y no es compatible con sistemas de correo electrónico de otro fabricante.
+Correo de voz en la nube, con tecnología de servicios de correo de voz de Azure, es compatible con depósitos de correo de voz a los buzones de Exchange y no es compatible con sistemas de correo electrónico de otro fabricante.
 
-De forma predeterminada, el correo de voz de sistema telefónico funciona con Exchange Online; Sin embargo, tiene un mínimo Exchange local versión e implementación modelo compatible para permitir la entrega de mensajes de correo de voz a los buzones de usuario en la implementación de Exchange local.
+De forma predeterminada, el correo de voz en la nube funciona con Exchange Online; Sin embargo, tiene un mínimo Exchange local versión e implementación modelo compatible para permitir la entrega de mensajes de correo de voz a los buzones de usuario en la implementación de Exchange local.
 
-El correo de voz de Sistema telefónico cuenta con transcripción del correo de voz y esta opción está activada de forma predeterminada para todos los usuarios de la organización. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si deben habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](set-up-phone-system-voicemail.md) .
+Correo de voz en la nube incluye transcripción de correo de voz, que está habilitado para todos los usuarios de la organización de forma predeterminada. Las necesidades de negocio pueden requerir que deshabilite la transcripción de correo de voz para usuarios específicos o todos los usuarios en toda la organización. Si su organización ha decidido mantener habilitado de transcripción de correo de voz, debe también tener en cuenta si deben habilitarse enmascaramiento de contenido ofensivo de transcripción de correo de voz. Para obtener más información, vea [configuración de directivas de correo de voz en su organización](set-up-phone-system-voicemail.md) .
 
 >[!NOTE]
-> Se ha implementado un mecanismo de reserva para que el correo de voz de Sistema telefónico pueda reenviar mensajes mediante SMTP, lo que implica que los usuarios con un buzón de un sistema de correo electrónico de terceros podrán recibir sus mensajes de correo de voz. Este mecanismo no incluye el tiempo de actividad de servicio garantizado u otras funciones de correo de voz, como cambiar el saludo del correo de voz.
+> Se ha implementado un mecanismo de reserva para que el correo de voz en la nube puede volver a enviar los mensajes mediante el uso de SMTP, lo que significa que los usuarios que tienen un buzón de correo en un sistema de correo electrónico de otro fabricante recibirán sus mensajes de correo de voz. Este mecanismo no incluye el tiempo de actividad de servicio garantizado u otras funciones de correo de voz, como cambiar el saludo del correo de voz.
 
 Para obtener más información acerca de correo de voz en una implementación del sistema de teléfono, vea [Sistema de teléfono con planes de llamada](calling-plan-landing-page.md).
 
@@ -143,11 +143,11 @@ Para obtener más información acerca de correo de voz en una implementación de
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si debe habilitar correo de voz de sistema telefónico en su implementación de planes de llamada.</li><li>Si el uso de Exchange local y la implementación existente no cumple los requisitos para admitir el correo de voz del sistema de teléfono, elija entre las opciones disponibles (actualizar y configuración de la compatibilidad con el correo de voz de sistema de teléfono, migrar a Exchange Online o aprovechar la mecanismo de reserva que se ha descrito anteriormente).</li><li>Decidir si se debe habilitar o deshabilitar transcripción de correo de voz y enmascaramiento de contenido ofensivo transcripción de correo de voz en toda la organización o para usuarios específicos.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Si procede, documente los puntos de decisión de Exchange para admitir el correo de voz del sistema telefónico.</li><li>Si se debe habilitar o deshabilitar correo de voz, correo de voz transcripción y enmascaramiento de contenido ofensivo transcripción de correo de voz para determinados usuarios, documentos que la lista de los usuarios.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" />|Puntos de decisión|<ul><li>Decidir si va habilitar correo de voz de la nube en su implementación de planes de llamada.</li><li>Si el uso de Exchange local y la implementación existente no cumple los requisitos para admitir el correo de voz en la nube, elija entre las opciones disponibles (actualización y el programa de instalación para la compatibilidad de correo de voz en la nube, migrar a Exchange Online, o sacar provecho de la reserva mecanismo que se ha descrito anteriormente).</li><li>Decidir si se debe habilitar o deshabilitar transcripción de correo de voz y enmascaramiento de contenido ofensivo transcripción de correo de voz en toda la organización o para usuarios específicos.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" />|Pasos siguientes|<ul><li>Si procede, documente los puntos de decisión de Exchange para admitir el correo de voz en la nube.</li><li>Si se debe habilitar o deshabilitar correo de voz, correo de voz transcripción y enmascaramiento de contenido ofensivo transcripción de correo de voz para determinados usuarios, documentos que la lista de los usuarios.</li></ul>|
 
 > [!TIP]
-> Detalles de correo de voz del sistema de teléfono para el sistema de teléfono con una llamada a los planes de implementación se puede documentar como el siguiente.
+> En la nube detalles de correo de voz para el sistema de teléfono con una llamada a los planes de implementación se puede documentar como el siguiente.
 > 
 > |Usuario |Buzón de Exchange |¿Habilitar correo de voz? |Transcripción de correo de voz |Enmascaramiento de contenido ofensivo de transcripción de correo de voz |
 > |------------------|------------------|-------------------|----------|----------|

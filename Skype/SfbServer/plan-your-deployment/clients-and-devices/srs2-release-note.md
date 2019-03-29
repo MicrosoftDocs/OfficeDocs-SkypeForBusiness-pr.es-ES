@@ -10,12 +10,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describen mejoras acumulativas en sistemas de salón de Skype v2.
-ms.openlocfilehash: b3e6a6341e917b49eed6f1c89dcadfe29bcdaf10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8de76d085bad4ec8fc7c52c0f46a416d9b1cac82
+ms.sourcegitcommit: 0ea63f45cb31852fea6894cc6ffb0ae1ae444e64
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891602"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30950259"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -61,7 +61,7 @@ Se introdujeron en esta actualización:
 
 ### <a name="40760-03042019"></a>4.0.76.0 (04/03/2019)
 Se introdujeron en esta actualización:
-- Teclado DTMF para las reuniones de Microsoft Teams. Para hacer que Microsoft Teams su cliente que llama de forma predeterminada, los administradores deben establecer IsTeamsDefaultClient en true
+- Teclado DTMF para las reuniones de Microsoft P2P de los equipos y las llamadas de RTC. Para hacer que Microsoft Teams su cliente que llama de forma predeterminada, los administradores deben establecer IsTeamsDefaultClient en true
 - Anclar el vídeo entrante de un participante remoto a pantalla completa en la parte frontal de la presentación de la sala. Use el comando de "Anclar" desde la lista de participantes en la consola
 - Mejoras a las notificaciones de la sala de espera con la incorporación de notificación frontal de salón
 - Parte frontal de la presentación del salón quita icono de conversión de tipos cuando baliza Bluetooth no está habilitada en el dispositivo de sala de sistema
