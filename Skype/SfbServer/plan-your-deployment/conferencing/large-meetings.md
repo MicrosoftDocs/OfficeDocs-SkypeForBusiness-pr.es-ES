@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: Lea este tema para obtener más información sobre los procedimientos recomendados para implementar y administrar reuniones grandes en Skype para Business Server.'
-ms.openlocfilehash: 3c4b00a961aa8c687ad4a420cade08af908ca102
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877912"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003877"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planeación de reuniones grandes en Skype para Business Server
  
@@ -189,8 +189,14 @@ Cree una directiva de conferencias específica para reuniones grandes y, despué
 > [!NOTE]
 > Soporte técnico de reuniones grandes en Skype para Business Server requiere que se establezca la opción **AllowLargeMeetings** en true. Cuando esta configuración se establece en true, el Skype para que la experiencia empresarial se optimizará para las reuniones extra grandes cuando los usuarios unirse a la reunión. En concreto, en una reunión grande, Skype para la empresa no mostrará la inicial o la actualización de la lista de participantes de la reunión completa, que es un cuello de botella de rendimiento para el cliente y Skype para Business Server. En su lugar, Skype para la empresa sólo mostrará información sobre el usuario y la lista de moderadores de la reunión. Skype para la empresa seguirá mostrando el número total de participantes disponibles en las reuniones grandes.
 
+La opción - AllowLargeMeetings $true hace lo siguiente: · Oculta la lista de asistentes. · Deshabilita los errores en la ventana de mensajería instantánea.
+· Deshabilita el vídeo con varios participantes.
+· Deshabilita la posibilidad de promocionar a un asistente a moderador. Debe planear de antemano y declarar todos los moderadores antes de la reunión.
+· Deshabilita la capacidad para reactivar el audio de asistentes individuales.
+· Deshabilita la capacidad para aplicar la característica Noticias destacadas de vídeo de bloqueo a los asistentes.
+· Los usuarios de acceso telefónico RTC no podrá reactivar su uso de audio * 6 porque asistencia Virtual Personal que se encarga de DTMF de comandos en reuniones grandes activas es que faltan.
+· Si el organizador de moderador programa una reunión donde todos los usuarios deben estar desactivado en primer lugar ("desactivar todos los"), los usuarios de RTC se silencian a lo largo de la llamada y no podrá reactivar su audio.
 
-  
 Excepto en la opción **Tamaño máximo de la reunión**, todas las demás opciones de la directiva de conferencia aquí especificadas son necesarias para deshabilitar las funciones de conferencia que no se necesitan en reuniones grandes.
   
 Además, debe configurar el grupo de reuniones grandes dedicado de modo que cada Skype para usuario Business Server que es responsable de administrar la programación de reuniones y hospedados en el grupo de servidores tiene los permisos adecuados. Para ello, siga estos pasos:

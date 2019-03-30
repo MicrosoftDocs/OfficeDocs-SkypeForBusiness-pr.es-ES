@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Obtenga información sobre qué son los operadores automáticos de sistema telefónico y cómo usarlas.
-ms.openlocfilehash: 036044f779d964b19db53e7e568bb5df86ff372c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
+ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879339"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31003870"
 ---
 # <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos del Sistema telefónico?
 
@@ -53,17 +53,22 @@ Un operador automático de sistema telefónico tiene las siguientes característ
 ## <a name="getting-started"></a>Introducción
 
 Para comenzar a utilizar operadores automáticos, es importante recordar que:
-  
-- Debe asignar una licencia de sistema de teléfono a una cuenta de recurso que se asociará con el operador automático. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+
+- Un operador automático es necesario tener una cuenta de recurso asociado. Para obtener información detallada sobre las cuentas de recursos, vea [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) .
+- Si tiene previsto asignar un número de enrutamiento directa, debe adquirir y asignar las siguientes licencias para las cuentas de recursos \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico\).
+- Si se asigna un número de servicio de Microsoft en su lugar, debe adquirir y asignar las licencias siguientes a la cuenta del recurso \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico y un Plan de llamar a\).
+
+> [!NOTE] 
+> Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como automáticos en la nube y las colas de llamadas, para ahora tiene que usar el modelo de licencias de usuario.
     
     > [!TIP]
-    > Para redirigir las llamadas a un operador o una opción de menú que es un usuario con una licencia de **Sistema telefónico** en línea, debe habilitarlos para Enterprise Voice o asignar planes de llamada a ellos. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). También puede usar Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+    > To redirect calls to an operator or a menu option that is an Online user with a **Phone System** license, you will need to enable them for Enterprise Voice or assign Calling Plans to them. See [Assign Microsoft Teams licenses](assign-teams-licenses.md). You can also use Windows PowerShell. For example run:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener y usar números de servicio gratuito para los operadores automáticos, debe configurar Communications créditos. Para hacer esto, vea [¿Cuáles son las comunicaciones créditos?](what-are-communications-credits.md) y [Configurar Communications créditos para su organización](set-up-communications-credits-for-your-organization.md).
 
     > [!IMPORTANT]
     > Los números de teléfono de usuario (suscriptor) no se pueden asignar a los operadores automáticos; solo se pueden usar números de teléfono de servicio de pago y gratuitos.
-- Un operador automático es necesario tener una cuenta de recurso asociado. Para obtener información detallada sobre las cuentas de recursos, vea [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) .
+
 - Un sistema de operador automático completa por lo general requerirá varios operadores automáticos y sólo se requiere un número de teléfono asignado único para el automático de nivel superior o de entrada de operador. Otros operadores automáticos o colas de llamadas en todo el sistema sólo necesita un número de teléfono si desea proporcionar varios puntos de entrada en el sistema.
 - Es posible aplicar más de un número de teléfono a un operador automático mediante la asociación de más de una cuenta de recurso a un operador automático.
   
@@ -125,8 +130,8 @@ Los autores de llamadas pueden decir los nombres en los siguientes formatos:
 |:-----|:-----|:-----|:-----|
 |Nombre + Apellidos |Completo |Amos Marble |Amos Marble |
 |Apellidos + Nombre |Completo  |Marble Amos |Amos Marble |
-|FirstName |Completo |Amos |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Jones |
-|LastName (apellidos) |Completo |Marble |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Ben Marble |
+|Nombre |Completo |Amos |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Amos Jones |
+|Apellidos |Completo |Marble |Pulse o diga 1 para Amos Marble  <br/> Pulse o diga 2 para Ben Marble |
 
 > [!NOTE]
 > Puede tardar hasta 36 horas para un nuevo usuario para que su nombre aparezca en el directorio de marcado por nombre con el reconocimiento de voz debido a los retrasos de la replicación de Active Directory.
