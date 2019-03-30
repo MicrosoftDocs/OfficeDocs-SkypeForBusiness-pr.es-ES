@@ -1,5 +1,5 @@
 ---
-title: Implementar la administración de sistemas de salón de Skype v2 con el Monitor de Azure
+title: Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Turgayo
@@ -10,25 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: En este artículo se explica cómo implementar la administración de dispositivos de sistemas de salón de Skype v2 de manera integrada, end-to-end mediante el Monitor de Azure.
-ms.openlocfilehash: 6a90f5b1dcbbdbab9c4149717e16a01c3a5f5ba1
-ms.sourcegitcommit: 09fcd68e30e7f83110f98172382c74f970b339a7
+description: En este artículo se explica cómo implementar la administración de dispositivos de Microsoft salones de los equipos de una manera integrada, end-to-end mediante el Monitor de Azure.
+ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29448506"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013112"
 ---
-# <a name="deploy-skype-room-systems-v2-management-with-azure-monitor"></a>Implementar la administración de sistemas de salón de Skype v2 con el Monitor de Azure
+# <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure
 
-En este artículo se describe cómo configurar e implementar administración integrada, end-to-end de dispositivos de sistemas de salón de Skype v2 con el Monitor de Azure.
+En este artículo se describe cómo configurar e implementar administración integrada, end-to-end de dispositivos de salas de equipos de Microsoft con el Monitor de Azure.
 
-Puede configurar análisis de registro dentro de Monitor de Azure para proporcionar básico telemetry y alertas que le ayudarán a administración dispositivos de sala de la reunión de Skype. A medida que crezca la solución de administración, decide implementar datos adicionales y capacidades de administración para crear una vista más detallada de la disponibilidad de dispositivos y el rendimiento.
+Puede configurar análisis de registro dentro de Monitor de Azure para proporcionar básico telemetry y alertas que le ayudarán a administración las salas de los equipos de Microsoft dispositivos de sala de la reunión. A medida que crezca la solución de administración, decide implementar datos adicionales y capacidades de administración para crear una vista más detallada de la disponibilidad de dispositivos y el rendimiento.
 
-Siguiendo esta guía, puede usar un panel similar al ejemplo siguiente para obtener el estado detallado de informes de disponibilidad de dispositivo, aplicación y mantenimiento de hardware y aplicación de sistemas de salón de Skype v2 y distribución de la versión de sistema operativo.
+Siguiendo esta guía, puede usar un panel similar al ejemplo siguiente para obtener el estado detallado de informes de disponibilidad de dispositivo, aplicación y mantenimiento de hardware y aplicación de salas de equipos de Microsoft y distribución de la versión de sistema operativo.
 
-![Vista de análisis de registro de ejemplo para SRS v2] (../../media/Deploy-Azure-Monitor-1.png "Vista de análisis de registro de ejemplo para SRS v2")
+![Vista de análisis de registro de ejemplo para salas de equipos de Microsoft] (../../media/Deploy-Azure-Monitor-1.png "Vista de análisis de registro de ejemplo para salas de equipos de Microsoft")
 
 A un mayor nivel, debe realizar las siguientes tareas:
 
@@ -36,32 +37,32 @@ A un mayor nivel, debe realizar las siguientes tareas:
 1.  [Validar la configuración del análisis de registro](azure-monitor.md#validate_LogAnalytics)
 2.  [Configurar dispositivos de prueba para el programa de instalación de administración de análisis de registro](azure-monitor.md#configure_test_devices)
 3.  [Asignar campos personalizados](azure-monitor.md#Custom_fields)
-4.  [Definir las vistas de v2 de sistemas de salón de Skype en análisis de registro](azure-monitor.md#Define_Views)
+4.  [Definir las vistas de salas de equipos de Microsoft en el registro de análisis](azure-monitor.md#Define_Views)
 5.  [Definir alertas](azure-monitor.md#Alerts)
 6.  [Configurar todos los dispositivos de supervisión](azure-monitor.md#configure_all_devices)
 7.  [Configurar las soluciones de Monitor de Azure adicionales](azure-monitor.md#Solutions)
 
 > [!IMPORTANT]
-> Aunque con la configuración mínima, análisis de registro del Monitor de Azure puede supervisar un equipo que ejecute un sistema operativo Windows, aún hay algunos pasos de v2 específicas Skype sala sistemas que debe tomar antes de iniciar la implementación de agentes a todos los sistemas de salón de Skype dispositivos.
+> Aunque con la configuración mínima, análisis de registro del Monitor de Azure puede supervisar un equipo que ejecute un sistema operativo Windows, aún hay algunos pasos Microsoft Teams salones específicas que se deben tomar antes de iniciar la implementación de agentes a todos los Teams Microsoft Dispositivos de salas.
 > Por lo tanto, se recomienda encarecidamente que realizar todos los pasos de configuración en el orden correcto para un controlado el programa de instalación y configuración. La calidad del resultado final depende mucho de la calidad de la configuración inicial.
 
 ## <a name="validate-log-analytics-configuration"></a>Validar la configuración del análisis de registro
 <a name="validate_LogAnalytics"> </a>
 
-Debe tener un área de trabajo de análisis de registro para iniciar la recopilación de registros de dispositivos de sistemas de salón de Skype v2. Un área de trabajo es un entorno de análisis de registro único con su propio repositorio de datos, orígenes de datos y soluciones. Si ya tiene un área de trabajo de análisis de registro existente, puede utilizarlo para supervisar la implementación de sistemas de salón de Skype v2 o como alternativa, puede crear un área de trabajo de análisis de registro dedicado específico para sus necesidades de supervisión de sistemas de salón de Skype v2.
+Debe tener un área de trabajo de análisis de registro para iniciar la recopilación de registros de dispositivos de salas de equipos de Microsoft. Un área de trabajo es un entorno de análisis de registro único con su propio repositorio de datos, orígenes de datos y soluciones. Si ya tiene un área de trabajo de análisis de registro existente, puede utilizarlo para supervisar la implementación de salas de equipos de Microsoft o de forma alternativa, puede crear un área de trabajo de análisis de registro dedicado específico para sus salones de los equipos de Microsoft necesidades de monitoreo.
 
 Si necesita crear una nueva área de trabajo de análisis de registro, siga las instrucciones que aparecen en el artículo [crear un área de trabajo de análisis de registro en el portal de Azure](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace)
 
 > [!NOTE]
 > Para usar el análisis de registro con el Monitor de Azure, debe tener una suscripción de Azure activa. Si no dispone de una suscripción de Azure, puede crear [una suscripción de prueba gratuita](https://azure.microsoft.com/free) como punto de partida.
 
-### <a name="configure-log-analytics-to-collect-skype-room-systems-v2-event-logs"></a>Configurar el registro de análisis para recopilar los registros de eventos de sistemas de salón de Skype v2
+### <a name="configure-log-analytics-to-collect-microsoft-teams-rooms-event-logs"></a>Configurar el registro de análisis para recopilar los registros de eventos de salas de equipos de Microsoft
 
 Análisis de registro sólo recopila eventos de los registros de eventos de Windows que se especifican en la configuración. Para cada registro, se recopilan sólo los eventos con los niveles de gravedad seleccionados.
 
-Debe configurar el registro de análisis para recopilar los registros necesarios para supervisar el estado de dispositivo y la aplicación de sistemas de salón de Skype v2. Los dispositivos de v2 de Skype salón sistemas usan el registro de eventos **Del sistema de sala de Skype** .
+Debe configurar el registro de análisis para recopilar los registros necesarios para supervisar el estado de dispositivo y la aplicación de salas de equipos de Microsoft. Los dispositivos de salas de equipos de Microsoft usan el registro de eventos **Del sistema de sala de Skype** .
 
-Para configurar el registro de análisis para recopilar los eventos de sistemas de salón de Skype v2, vea [orígenes de datos de registro de eventos de Windows en el Monitor de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
+Para configurar el registro de análisis para recopilar los eventos de salas de equipos de Microsoft, vea [orígenes de datos de registro de eventos de Windows en el Monitor de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/data-sources-windows-events)
 
 ![Configuración del registro de eventos] (../../media/Deploy-Azure-Monitor-2.png "Configuración del registro de eventos")
 
@@ -71,34 +72,34 @@ Para configurar el registro de análisis para recopilar los eventos de sistemas 
 ## <a name="configure-test-devices-for-azure-monitoring"></a>Configurar dispositivos de prueba para la supervisión de Azure
 <a name="configure_test_devices"> </a>
 
-Debe preparar análisis de registro para poder supervisar los eventos relacionados con v2 de sistemas de salón de Skype. Para empezar con, debe implementar los agentes de Microsoft Monitoring en uno o dos sistemas de salón de Skype v2 los dispositivos que tienen acceso físico a y obtenerlos dispositivos de prueba generar algunos datos e inserción al área de trabajo de análisis de registro.
+Debe preparar análisis de registro para poder supervisar los eventos relacionados con salas de equipos de Microsoft. Para empezar con, deberá implementar Microsoft Monitoring agentes a uno o dos dispositivos de salas de equipos de Microsoft que tienen acceso físico a y obtenerlos dispositivos de prueba generar algunos datos e inserción al área de trabajo de análisis de registro.
 
 ### <a name="install-microsoft-monitoring-agents-to-test-devices"></a>Instalar los agentes de Microsoft Monitoring para los dispositivos de prueba
 
-Implementar al agente de Microsoft Monitoring en los dispositivos de prueba mediante el uso de las instrucciones proporcionadas en [equipos Windows conectarse al servicio de registro de análisis de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). En este artículo se proporciona información detallada sobre los pasos para la implementación de supervisión de Microsoft Agent para Windows, instrucciones para obtener el ***Identificador del área de trabajo*** de análisis de registro y la ***clave principal*** para obtener los dispositivos de sistemas de salón de Skype v2 conectado a su implementación de Monitor de Azure y los pasos para comprobar la conectividad del agente a instancia de análisis de registro.
+Implementar al agente de Microsoft Monitoring en los dispositivos de prueba mediante el uso de las instrucciones proporcionadas en [equipos Windows conectarse al servicio de registro de análisis de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows). En este artículo se proporciona información detallada sobre los pasos para la implementación de supervisión de Microsoft Agent para Windows, instrucciones para obtener el ***Identificador del área de trabajo*** de análisis de registro y la ***clave principal*** para obtener los dispositivos de salas de equipos de Microsoft conectado a su implementación de Monitor de Azure y los pasos para comprobar la conectividad del agente a instancia de análisis de registro.
 
-### <a name="generate-sample-skype-room-systems-events"></a>Generar eventos de sistemas de salón de Skype de ejemplo
+### <a name="generate-sample-microsoft-teams-rooms-events"></a>Generar eventos de ejemplo salones de los equipos de Microsoft
 
 Después de que el agente de Microsoft Monitoring se implementa en los dispositivos de prueba, compruebe que se recopilan los datos de registro de eventos necesarios por el Monitor de Azure.
 
 > [!NOTE]
-> Reiniciar el dispositivo tras la instalación del agente Microsoft Monitoring y asegúrese de que esa aplicación de reunión v2 de sistemas de salón de Skype se ha iniciado, por lo que puede generar eventos de nuevo en el registro de eventos.
+> Reiniciar el dispositivo tras la instalación del agente Microsoft Monitoring y asegúrese de que esa aplicación de reunión de salas de equipos de Microsoft se ha iniciado, por lo que puede generar eventos de nuevo en el registro de eventos.
 
 1.  Inicie sesión el [portal de Microsoft Azure](https://portal.azure.com) y vaya al análisis de registro y seleccione el área de trabajo.
 
-2.  Se enumeran los eventos de latido generados por un dispositivo de v2 de sistemas de salón de Skype:
-    1.  Seleccione el área de trabajo y vaya a **registros** y usar una consulta para recuperar los registros de latido que tendrán los campos personalizados para SRS v2.
+2.  Se enumeran los eventos de latido generados por un dispositivo de salas de equipos de Microsoft:
+    1.  Seleccione el área de trabajo y vaya a **registros** y usar una consulta para recuperar los registros de latido que tendrán los campos personalizados para salas de equipos de Microsoft.
     2.  Consulta de ejemplo:`Event | where Source == "SRS-App" and EventID == 2000`
 
-3.  Asegúrese de que la consulta devuelve los registros de registro que incluyen los eventos generados por la aplicación de las reuniones de sistemas de salón de Skype v2.
+3.  Asegúrese de que la consulta devuelve los registros de registro que incluyen los eventos generados por la aplicación de las reuniones de salas de equipos de Microsoft.
 
 4.  Generar un problema de hardware y validar que se registran los eventos necesarios en análisis de registro de Azure.
-    1.  Desconecte uno de los dispositivos periféricos en la prueba del sistema de sistemas de salón de Skype v2. Podría tratarse de la cámara, altavoz, micrófono o para mostrar de la sala de frente
+    1.  Desconecte uno de los dispositivos periféricos en la prueba del sistema de salas de equipos de Microsoft. Podría tratarse de la cámara, altavoz, micrófono o para mostrar de la sala de frente
     2.  Espere 10 minutos para el registro de eventos se rellene de análisis de registro de Azure.
     3.  Utilizar una consulta para los eventos de error de hardware de lista:`Event | where Source == "SRS-App" and EventID == 3001`
 
 5.  Generar un problema de la aplicación y validar que se registran los eventos necesarios.
-    1.  Modificar la configuración de la aplicación de sistemas de salón de Skype v2 y escriba un par de dirección y contraseña de protocolo de inicio de sesión (SIP) incorrecta.
+    1.  Modificar la configuración de la aplicación de salas de equipos de Microsoft, y escriba un par de dirección y contraseña de protocolo de inicio de sesión (SIP) incorrecta.
     2.  Espere 10 minutos para el registro de eventos se rellene de análisis de registro de Azure.
     3.  Utilizar una consulta para los eventos de error de aplicación de lista:`Event | where Source == "SRS-App" and EventID == 2001 and EventLevel == 1`
 
@@ -114,14 +115,11 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 
 1.  Inicie sesión el [portal de Microsoft Azure](https://portal.azure.com) y vaya al análisis de registro y seleccione el área de trabajo.
 
-2. Se enumeran los eventos generados por un dispositivo de v2 de sistemas de salón de Skype:
-   1.  Vaya a **registros (clásico)** y usar una consulta para recuperar los registros que va a tener el campo personalizado.
+2. Se enumeran los eventos generados por un dispositivo de salas de equipos de Microsoft:
+   1.  Vaya a **registros** y usar una consulta para recuperar los registros que va a tener el campo personalizado.
    2.  Consulta de ejemplo:`Event | where Source == "SRS-App" and EventID == 2000`
 
 3. Seleccione uno de los registros, seleccione el botón situado a la izquierda e iniciar al Asistente para la extracción de campo.
-
-   ![Asistente para la extracción de campo] (../../media/Deploy-Azure-Monitor-3.png "Asistente para la extracción de campo")
-
 4. Resalte los datos que le gustaría extraer el RenderedDescription y proporcione un título de campo. Se proporcionan los nombres de campo que se deben usar en la tabla 1.
 
    ![Definición de campos personalizados] (../../media/Deploy-Azure-Monitor-4.png "Definición de campos personalizados")
@@ -137,19 +135,19 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 
 **Tabla 1**
 
-| Campo JSON                   | **Campo personalizado de análisis de registro** | Nivel del | **Para usar con la extracción de consulta**                   |
+| **Campo JSON**                   | **Campo personalizado de análisis de registro** | **Nivel del** | **Para usar con la extracción de consulta**                   |
 |:---------------------------------|:-------------------------------|:-------------|:-------------------------------------------------------|
-| Descripción                      | SRSEventDescription         | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| ResourceState                    | SRSResourceState            | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| OperationName                    | SRSOperationName            | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| OperationResult                  | SRSOperationResult          | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| Sistema operativo                               | SRSOSVersion                | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| OSVersion                        | SRSOSLongVersion            | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| Alias                            | SRSAlias                    | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| DisplayName                      | SRSDisplayName              | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| AppVersion                       | SRSAppVersion               | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| IPv4Address                      | SRSIPv4Address              | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
-| IPv6Address                      | SRSIPv6Address              | 2.000 $     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| Descripción                      | SRSEventDescription         | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| ResourceState                    | SRSResourceState            | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| OperationName                    | SRSOperationName            | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| OperationResult                  | SRSOperationResult          | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| Sistema operativo                               | SRSOSVersion                | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| OSVersion                        | SRSOSLongVersion            | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| Alias                            | SRSAlias                    | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| DisplayName                      | SRSDisplayName              | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| AppVersion                       | SRSAppVersion               | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| IPv4Address                      | SRSIPv4Address              | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
+| IPv6Address                      | SRSIPv6Address              | **2000**     | Evento \| de origen donde == "SRS-App" y EventID == 2000 |
 | Estado de micrófono de conferencia     | SRSConfMicrophoneStatus     | **3001**     | Evento \| de origen donde == "SRS-App" y EventID == 3001 |
 | Estado de altavoz de conferencia        | SRSConfSpeakerStatus        | **3001**     | Evento \| de origen donde == "SRS-App" y EventID == 3001 |
 | Estado del altavoz predeterminado           | SRSDefaultSpeakerStatus     | **3001**     | Evento \| de origen donde == "SRS-App" y EventID == 3001 |
@@ -159,17 +157,17 @@ Para extraer los campos personalizados fuera de los registros de eventos captura
 | Estado de ingesta HDMI               | SRSHDMIIngestStatus         | **3001**     | Evento \| de origen donde == "SRS-App" y EventID == 3001 |
 
 
-## <a name="define-the-skype-room-systems-v2-views-in-log-analytics"></a>Definir las vistas de v2 de sistemas de salón de Skype en análisis de registro
+## <a name="define-the-microsoft-teams-rooms-views-in-log-analytics"></a>Definir las vistas de salas de equipos de Microsoft en el registro de análisis
 <a name="Define_Views"> </a>
 
-Una vez que se recopilan los datos y se asignan los campos personalizados, puede usar el Diseñador de vistas para desarrollar un panel que contiene varios mosaicos para supervisar los eventos de sistemas de salón de Skype v2. Use Diseñador de vistas para crear los siguientes iconos. Para obtener más información, vea [crear vistas personalizadas mediante el Diseñador de vista de análisis de registro](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
+Una vez que se recopilan los datos y se asignan los campos personalizados, puede usar el Diseñador de vistas para desarrollar un panel que contiene varios mosaicos para supervisar los eventos de salas de equipos de Microsoft. Use Diseñador de vistas para crear los siguientes iconos. Para obtener más información, vea [crear vistas personalizadas mediante el Diseñador de vista de análisis de registro](https://docs.microsoft.com/azure/azure-monitor/platform/view-designer)
 
 > [!NOTE]
 > Deben haber completado los pasos anteriores en esta guía para que los mosaicos del panel funcionen correctamente.
 
-### <a name="create-a-skype-room-systems-v2-dashboard-by-using-the-import-method"></a>Crear un panel de v2 de Skype salón sistemas mediante el método de importación
+### <a name="create-a-microsoft-teams-rooms-dashboard-by-using-the-import-method"></a>Crear un panel de salas de equipos de Microsoft mediante el método de importación
 
-Puede importar un panel de v2 de sistemas de salón de Skype e iniciar supervisión rápidamente sus dispositivos. Lleve a cabo los siguientes pasos para importar el panel:
+Puede importar un panel de salas de equipos de Microsoft e iniciar supervisión rápidamente sus dispositivos. Lleve a cabo los siguientes pasos para importar el panel:
 
 1.  Obtenga el archivo del panel de [SkypeRoomSystems_v2.omsview](https://go.microsoft.com/fwlink/?linkid=835675) .
 2.  Inicie sesión el [portal de Microsoft Azure](https://portal.azure.com) y vaya al análisis de registro y seleccione el área de trabajo.
@@ -177,7 +175,7 @@ Puede importar un panel de v2 de sistemas de salón de Skype e iniciar supervisi
 4.  Seleccione **Importar**y, a continuación, seleccione el archivo **SkypeRoomSystems_v2.omsview** .
 5.  Seleccione **Guardar**.
 
-### <a name="create-a-skype-room-systems-v2-dashboard-manually"></a>Crear un panel de sistemas de salón de Skype v2 de forma manual
+### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Crear un panel de salas de equipos de Microsoft de forma manual
 
 Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos que desea supervisar.
 
@@ -185,7 +183,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
 
 1.  Abra el **Diseñador de vistas**.
 2.  Seleccione el **Icono de información general sobre**y, a continuación, seleccione **dos números** de la galería.
-3.  Nombre el mosaico **v2 de sistemas de salón de Skype**.
+3.  Nombre el mosaico **Salones de los equipos de Microsoft**.
 4.  Definir el **primer mosaico**:<br>
     **Leyenda:** Dispositivos que se ha enviado un latido al menos una vez dentro del último mes<br>
     **Consulta:**```Event | where EventLog == "Skype Room System" and TimeGenerated > ago(30d) | summarize TotalSRSDevices = dcount(Computer)```
@@ -203,9 +201,9 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Nuevo grupo:** Seleccionado
 4.  Definir las propiedades de **icono** :<br>
     **Leyenda:** Dispositivos activos (latido enviado en los últimos 20 minutos)<br>
-    Consulta de icono: 
+    **Consulta de icono: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize AggregatedValue = count() by Computer | count```
 5.  Definir las propiedades de **lista** :<br>
-    Consulta de lista: 
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" and TimeGenerated > ago(20m) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 6.  Definir **los títulos de columna**:<br>
     **Nombre:** Nombre del equipo<br>
     **Valor:** Último latido
@@ -221,9 +219,9 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Nuevo grupo:** No seleccionado
 3.  Definir las propiedades de **icono** :<br>
     **Leyenda:** Dispositivos inactivos (ningún mensaje de latido enviado en los últimos 20 minutos)<br>
-    Consulta de icono: 
+    **Consulta de icono: ** ```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize LastHB = max(TimeGenerated) by Computer | where LastHB < ago(20m) | count```
 4.  Definir las propiedades de **lista** :<br>
-    Consulta de lista: 
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize TimeGenerated = max(TimeGenerated) by Computer | where TimeGenerated < ago(20m) | order by TimeGenerated```
 5.  Definir **los títulos de columna**:<br>
     **Nombre:** Nombre del equipo<br>
     **Valor:** Último latido
@@ -239,9 +237,9 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Nuevo grupo:** Seleccionado
 3.  Definir las propiedades de **icono** :<br>
     **Leyenda:** Dispositivos que ha experimentado un error de hardware en la última hora<br>
-    Consulta de icono: 
+    **Consulta de icono: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definir las propiedades de **lista** :<br>
-    Consulta de lista: 
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "3001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **los títulos de columna**:<br>
     **Nombre:** Nombre del equipo<br>
     **Valor:** Último Error
@@ -249,7 +247,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     ```search {selected item} | where EventLog == "Skype Room System" and EventID == 3001 and EventLevelName == "Error" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSConfMicrophoneStatus_CF, SRSConfSpeakerStatus_CF, SRSDefaultSpeakerStatus_CF, SRSCameraStatus_CF, SRSFORDStatus_CF, SRSMotionSensorStatus_CF, SRSHDMIIngestStatus_CF, SRSEventDescription_CF | sort by TimeGenerated desc```
 7.  Seleccione **Aplicar**y, a continuación, en **Cerrar**.
 
-### <a name="create-a-tile-that-displays-skype-room-systems-v2-operating-system-versions"></a>Crear un icono que muestra las versiones de sistema operativo de v2 de sistemas de salón de Skype
+### <a name="create-a-tile-that-displays-microsoft-teams-rooms-operating-system-versions"></a>Crear un icono que muestra las versiones del sistema operativo de salas de equipos de Microsoft
 
 1.  Seleccione **lista de & rosquilla** desde la Galería de y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
@@ -263,7 +261,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Del centro de texto:** Dispositivos<br>
     **Operación:** Suma
 5.  Definir las propiedades de la **lista** .<br>
-    Consulta de lista: <br>
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSOSLongVersion_CF = max(SRSOSLongVersion_CF) by Computer | sort by Computer asc```<br>
     **Ocultar gráfico:** Seleccionado<br>
     **Habilitar minigráficos:** No seleccionado
 6.  Definir **los títulos de columna**.<br>
@@ -273,11 +271,11 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     ```search {selected item} | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize arg_max(TimeGenerated, *) by Computer | project TimeGenerated, Computer, SRSDisplayName_CF, SRSAlias_CF, SRSAppVersion_CF, SRSOSVersion_CF, SRSOSLongVersion_CF, SRSIPv4Address_CF, SRSIPv6Address_CF, SRSOperationName_CF, SRSOperationResult_CF, SRSResourceState_CF, SRSEventDescription_CF```
 8.  Seleccione **Aplicar** y, a continuación, en **Cerrar**.
 
-### <a name="create-a-tile-that-displays-skype-room-systems-v2-application-versions"></a>Crear un icono que muestra las versiones de la aplicación de sistemas de salón de Skype v2
+### <a name="create-a-tile-that-displays-microsoft-teams-rooms-application-versions"></a>Crear un icono que muestra las versiones de la aplicación de salas de equipos de Microsoft
 
 1.  Seleccione **lista de & rosquilla** desde la Galería de y, a continuación, agregue un nuevo mosaico.
 2.  Definir las propiedades **generales** :<br>
-    **Título de grupo:** Detalles de la aplicación de sistemas de salón de Skype v2<br>
+    **Título de grupo:** Detalles de la aplicación de salas de equipos de Microsoft<br>
     **Nuevo grupo:** Seleccionado
 3.  Definir las propiedades de **encabezado** :<br>
     **Título:** Versiones de la aplicación<br>
@@ -287,7 +285,7 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Del centro de texto:** Dispositivos<br>
     **Operación:** Suma
 5.  Definir las propiedades de la **lista** .<br>
-    Consulta de lista: <br>
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and SRSOperationName_CF == "Heartbeat" | summarize SRSAppVersion_CF = max(SRSAppVersion_CF) by Computer | sort by Computer asc```<br>
     **Ocultar gráfico:** Seleccionado<br>
     **Habilitar minigráficos:** No seleccionado
 6.  Definir **los títulos de columna**.<br>
@@ -305,9 +303,9 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Nuevo grupo:** No seleccionado
 3.  Definir las propiedades de **mosaico** .<br>
     **Leyenda:** Dispositivos que se produjo un error de aplicación en la última hora<br>
-    Consulta de icono: 
+    **Consulta de icono: ** ```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definir las propiedades de la **lista** .<br>
-    Consulta de lista: 
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventLevelName == "Error" and EventID == "2001" and TimeGenerated > ago(1h) | summarize TimeGenerated = max(TimeGenerated) by Computer | order by TimeGenerated```
 5.  Definir **los títulos de columna**.<br>
     **Nombre:** Nombre del equipo<br>
     **Valor:** Último Error
@@ -323,9 +321,9 @@ Como alternativa, puede crear su propio escritorio y agregar sólo los mosaicos 
     **Nuevo grupo:** No seleccionado
 3.  Definir las propiedades de **mosaico** .<br>
     **Leyenda:** Dispositivos donde se ha reiniciado la aplicación en el último 24 horas y el número de reinicios<br>
-    Consulta de icono: 
+    **Consulta de icono: ** ```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | summarize AggregatedValue = count() by Computer | count```
 4.  Definir las propiedades de la **lista** .<br>
-    Consulta de lista: 
+    **Consulta de lista:**```Event | where EventLog == "Skype Room System" and EventID == "4000" and TimeGenerated > ago(24h) | order by TimeGenerated | summarize AggregatedValue = count(EventID) by Computer```
 5.  Definir **los títulos de columna**.<br>
     **Nombre:** Nombre del equipo<br>
     **Valor:** Número de reinicios
@@ -339,7 +337,7 @@ Ahora ha completado la creación de las vistas.
 ## <a name="configure-alerts-in-azure-monitor"></a>Configurar las alertas en el Monitor de Azure
 <a name="Alerts"> </a>
 
-Monitor de Azure puede generar alertas para notificar a los administradores, cuando encuentra un problema con una consola de v2 de sistemas de salón de Skype.
+Monitor de Azure puede generar alertas para notificar a los administradores, cuando encuentra un problema con una consola de salas de equipos de Microsoft.
 
 El Monitor de Azure incluye un mecanismo de alerta integrado que se ejecuta a través de las búsquedas de registro programadas a intervalos regulares. Si los resultados de la búsqueda de registro coinciden con algunos criterios determinados, se crea un registro de alerta.
 
@@ -351,11 +349,11 @@ La regla, a continuación, puede ejecutar automáticamente una o más acciones p
 Vea [iniciar las alertas en el Monitor de Azure](https://docs.microsoft.com/azure/azure-monitor/platform/alerts-unified-log) para obtener más información acerca de las alertas en el Monitor de Azure.
 
 > [!NOTE]
-> Los siguientes ejemplos envían alertas de correo electrónico cuando un dispositivo de v2 de sistemas de salón de Skype genera un hardware o un error de aplicación.
+> Los siguientes ejemplos envían alertas de correo electrónico cuando un dispositivo de salas de equipos de Microsoft genera un hardware o un error de aplicación.
 
-### <a name="configure-an-email-alert-for-skype-room-systems-v2-hardware-issues"></a>Configurar una alerta de correo electrónico para problemas de hardware de sistemas de salón de Skype v2
+### <a name="configure-an-email-alert-for-microsoft-teams-rooms-hardware-issues"></a>Configurar una alerta de correo electrónico para problemas de hardware de salas de equipos de Microsoft
 
-Configurar una regla de alerta que comprueba para dispositivos de v2 de Skype salón sistemas que se encontraron problemas de hardware dentro de la última hora.
+Configurar una regla de alerta que comprueba para dispositivos de salas de equipos de Microsoft que se encontraron problemas de hardware dentro de la última hora.
 1.  Inicie sesión el [portal de Microsoft Azure](https://portal.azure.com) y vaya al análisis de registro y seleccione el área de trabajo.
 
 2. Navegue hasta el área de trabajo de análisis de registro y seleccione **las alertas** y, a continuación, seleccione **nueva regla de alerta**
@@ -391,14 +389,14 @@ Configurar una regla de alerta que comprueba para dispositivos de v2 de Skype sa
 8. **Personalizar acciones** si desea invalidar la línea de asunto de los correos electrónicos de alerta.
 
 9. Especifique un nombre de la regla y una descripción.<br>
-    **Nombre de la regla:** Alerta de error de Hardware de salón de Skype sistemas v2<br>
+    **Nombre de la regla:** Alerta de error de Hardware de salas de equipos de Microsoft<br>
     **Descripción:** Lista de los dispositivos que se encuentra un problema de hardware dentro de la última hora<br>
 
 10. Seleccione la gravedad prevista y asegúrese de que la regla está habilitada.
 
 11. Seleccione **Crear regla de alertas**.
 
-### <a name="configure-an-email-alert-for-skype-room-systems-v2-application-issues"></a>Configurar una alerta de correo electrónico para problemas de aplicaciones de sistemas de salón de Skype v2
+### <a name="configure-an-email-alert-for-microsoft-teams-rooms-application-issues"></a>Configurar una alerta de correo electrónico para problemas de aplicaciones de salas de equipos de Microsoft
 
 Repita el mismo procedimiento, pero use la siguiente consulta en los dispositivos de lista que se encontraron problemas de aplicaciones dentro de la última hora.
 
@@ -417,15 +415,15 @@ Cuando se genera una alerta, obtendrá un correo electrónico que se enumera los
 ![Correo electrónico de alerta de Monitor de Azure de ejemplo] (../../media/Deploy-Azure-Monitor-6.png "Correo electrónico de alerta de Monitor de Azure de ejemplo")
 
 ## <a name="configure-all-devices-for-azure-monitoring"></a>Configurar todos los dispositivos para la supervisión de Azure
-<a name="configure_all_devices"></a> Una vez configuradas los paneles y las alertas, puede configurar y configurar el agente de Microsoft Monitoring en todos los dispositivos de v2 de sistemas de salón de Skype para completar la implementación de supervisión.
+<a name="configure_all_devices"></a> Una vez configuradas los paneles y las alertas, puede configurar y configurar el agente de Microsoft Monitoring en todos los dispositivos de salas de equipos de Microsoft para llevar a cabo la implementación de supervisión.
 
 Aunque se puede instalar y configurar al agente de Microsoft Monitoring manualmente en cada dispositivo, se recomienda encarecidamente que aprovechar los métodos y herramientas de implementación de software existente.
 
-Si va a crear los dispositivos de sistemas de salón de Skype v2 por primera vez, es posible que desee incluir los pasos del programa de instalación y configuración del agente de Microsoft Monitoring como parte del proceso de compilación. Para obtener más información, vea [instalar al agente mediante la línea de comandos](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
+Si va a crear los dispositivos de salas de equipos de Microsoft por primera vez, es posible que desee incluir los pasos del programa de instalación y configuración del agente de Microsoft Monitoring como parte del proceso de compilación. Para obtener más información, vea [instalar al agente mediante la línea de comandos](https://docs.microsoft.com/azure/azure-monitor/platform/agent-windows#install-the-agent-using-the-command-line).
 
 ### <a name="deploying-microsoft-monitoring-agent-by-using-a-group-policy-object-gpo"></a>Implementar el agente de Microsoft Monitoring mediante el uso de un objeto de directiva de grupo (GPO)
 
-Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes de implementar la supervisión de Azure, puede usar la secuencia de comandos para instalar y configurar a los agentes mediante el uso de objetos de directiva de grupo de Active Directory.
+Si ya ha implementado los dispositivos de salas de equipos de Microsoft antes de implementar la supervisión de Azure, puede usar la secuencia de comandos para instalar y configurar a los agentes mediante el uso de objetos de directiva de grupo de Active Directory.
 
 1.  Crear una ruta de acceso de red compartida y conceder acceso de lectura al grupo de **Equipos del dominio** .
 
@@ -435,7 +433,7 @@ Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes d
     1.  Abra una ventana del símbolo del sistema y, a continuación, ejecutar **MMASetup-AMD64.exe /c**
     2.  Especifique el recurso compartido que acaba de crear y extraiga el contenido.
 
-4.  Crear un nuevo objeto de directiva de grupo y asignar a la unidad organizativa donde se encuentran las cuentas de máquina de sistemas de salón de Skype v2.
+4.  Crear un nuevo objeto de directiva de grupo y asignar a la unidad organizativa donde se encuentran las cuentas de máquina de salas de equipos de Microsoft.
 
 5.  Configurar la directiva de ejecución de PowerShell:
     1.  Editar el objeto de directiva de grupo recién creada y vaya a configuración del equipo \\ directivas \\ plantillas administrativas \\ componentes de Windows \\ Windows PowerShell
@@ -450,7 +448,7 @@ Si ya ha implementado los dispositivos de sistemas de salón de Skype v2 antes d
     6.  Seleccione **Agregar**y, a continuación, **busque**.
     7.  Seleccione la secuencia de comandos ps1 que acaba de copiar.
 
-7.  Dispositivos de sistemas de salón de Skype v2 deben instalar y configurar al agente de Microsoft Monitoring con el segundo reinicio.
+7.  Dispositivos de salas de equipos de Microsoft deben instalar y configurar al agente de Microsoft Monitoring con el segundo reinicio.
 
 ```
 # Install-MMAgent.ps1
@@ -505,8 +503,8 @@ Monitor de Azure proporciona soluciones de administración integradas a través 
 > [!NOTE]
 > La solución de mantenimiento de agente puede ayudar a identificar a anticuados o rotos agentes Microsoft Monitoring dentro de su entorno y la solución de administración de alertas proporciona información detallada acerca de las alertas que se han desencadenado dentro de un período determinado.
 
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
-[Planeación de la administración de sistemas de salón de Skype v2 con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
+[Planeación de la administración de salas de equipos de Microsoft con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
-[Administrar dispositivos de sistemas de salón de Skype v2 con el Monitor de Azure](../../manage/skype-room-systems-v2/azure-monitor.md)
+[Administrar dispositivos de salas de equipos de Microsoft con el Monitor de Azure](../../manage/skype-room-systems-v2/azure-monitor.md)

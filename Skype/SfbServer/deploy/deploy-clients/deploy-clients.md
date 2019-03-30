@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Resumen: Información general de los métodos de instalación de cliente de empresa de Skype para la empresa.'
-ms.openlocfilehash: 7b58b712f5b6dec7383bcb8a58e1b17b0ed4d870
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699284"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012542"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implementar a clientes de Skype para Business Server
  
@@ -51,7 +51,7 @@ En los temas de esta sección se describen cómo utilizar y personalizar Windows
     
 - [Implementar el Sistema de salas de Skype en Skype Empresarial Server](deploy-skype-room-system.md)
     
-- [Implementar Sistemas de salas de Skype v2](room-systems-v2.md)
+- [Implementación de salas de equipos de Microsoft](room-systems-v2.md)
     
 - [Implementación del complemento Lync VDI con Skype para Business Server](deploy-the-lync-vdi-plug-in.md)
     
@@ -59,6 +59,6 @@ En los temas de esta sección se describen cómo utilizar y personalizar Windows
     
 - [Personalizar la experiencia del cliente de Mac en Skype Empresarial](customize-the-mac-client-experience.md)
     
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 [Implementar el Skype para cliente empresarial en Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

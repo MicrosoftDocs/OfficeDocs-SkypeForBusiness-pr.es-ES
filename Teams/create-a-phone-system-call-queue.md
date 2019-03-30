@@ -1,5 +1,5 @@
 ---
-title: Crear una cola de llamadas para el Sistema telefónico
+title: Crear una cola de llamada
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas de sistema telefónico dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 924885ff62bb0e7e2ba0f25cc348dc62eb29ec32
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898169"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012976"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el Sistema telefónico
 
@@ -41,10 +41,11 @@ Las colas de llamadas del Sistema telefónico pueden proporcionar:
 
 Cuando alguien llama a un número de teléfono que está asociado con una cola de llamadas a través de una [cuenta de recurso](manage-resource-accounts.md), escuchará un saludo inicial (si se configura cualquiera) y, a continuación, se coloca en la cola y espere a que el siguiente agente de llamada disponibles. La persona que llama escuchará música mientras están en espera en espera y las llamadas se ofrecerán a los agentes de llamada en orden *Primero en ENTRAR, primero en salir* (FIFO).
   
-Todas las llamadas en espera en la cola se distribuirá mediante un modo de enrutamiento operador o el modo de enrutamiento en serie:
+Todas las llamadas en espera en la cola se distribuirá mediante uno de los métodos siguientes:
   
 - Con el operador de enrutamiento, la primera llamada en la cola sonarán a todos los agentes al mismo tiempo.
 - Con el enrutamiento en serie, la primera llamada de la cola llamará a todos los agentes uno a uno.
+- Operación por turnos, el enrutamiento de las llamadas entrantes se equilibradas de modo que cada agente de llamada obtendrá el mismo número de llamadas de la cola.
 
     > [!NOTE]
     > No se llamará a los agentes de llamadas que están **Sin conexión**, han establecido su presencia en **No molestar** o han decidido quedar fuera de la cola de llamadas.
@@ -59,16 +60,18 @@ Todas las llamadas en espera en la cola se distribuirá mediante un modo de enru
 
 Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas:
   
-- Su organización debe tener (como mínimo) una licencia Enterprise E3 plus **Sistema telefónico** o una licencia Enterprise E5. El número de licencias de usuario de **Sistema telefónico** que se asignan afecta al número de números de servicio que están disponibles para usarse en las colas de llamadas. El número de colas de llamada que puede tener depende de que el número de licencias de **Sistema telefónico** y **Conferencias de Audio** que se asignan en la organización. Para obtener más información acerca de las licencias, vea [Skype para licencias de complemento de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing) o [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md) .
+- Un operador automático es necesario tener una cuenta de recurso asociado. Para obtener información detallada sobre las cuentas de recursos, vea [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) .
+- Si tiene previsto asignar un número de enrutamiento directa, debe adquirir y asignar las siguientes licencias para las cuentas de recursos \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico\).
+- Si se asigna un número de servicio de Microsoft en su lugar, debe adquirir y asignar las licencias siguientes a la cuenta del recurso \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico y un Plan de llamar a\).
 
-    > [!NOTE]
-    > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [Asignar Skype para licencias de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) o [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como automáticos en la nube y las colas de llamadas, para ahora tiene que usar el modelo de licencias de usuario.
+
+> [!NOTE]
+> Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [Asignar Skype para licencias de negocio](/skypeforbusiness/skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md) o [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Para obtener más información acerca de planes de llamada de Office 365, vea [sistema telefónico y llamar a los planes](calling-plan-landing-page.md) y [Llamar a los planes de Office 365](calling-plans-for-office-365.md).
 
-    > [!NOTE]
-    > Los usuarios alojados en implementaciones locales con Lync Server 2010 no se admiten como una cola de llamada de los agentes.
-  
 - Sólo se pueden asignar números de pago y los números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a las colas de llamadas de sistema telefónico. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
 
     > [!NOTE]
@@ -175,9 +178,6 @@ Puede seleccionar a un máximo de 200 agentes de llamada que pertenecen a grupos
 
 - Usuarios en línea con una licencia de **Sistema telefónico** y un Plan de llamadas que se agregan a un grupo de Office 365, una lista de distribución habilitada para correo o un grupo de seguridad. El nuevo agente agregado a una lista de distribución o a un grupo de seguridad podría tardar hasta 30 minutos en recibir llamadas de una cola de llamadas. Un grupo de seguridad o lista de distribución recién creado puede tardar hasta 48 horas para que estén disponibles para usarse con colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata.
 
-  > [!NOTE]
-  > Los usuarios alojados en implementaciones locales no se admite el uso de Lync Server 2010.
-
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 
 ![Número 2](media/sfbcallout2.png)
@@ -241,10 +241,8 @@ El valor predeterminado es 30 segundos, pero se puede establecer para hasta 3 mi
 
   - **Persona de la empresa** Un usuario con una licencia de **Sistema telefónico** en línea y estar habilitados para Enterprise Voice o disponer de un Plan de llamada. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que sus llamadas se desvían directamente al correo de voz.
 
-  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](set-up-phone-system-voicemail.md).
+  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz en la nube](set-up-phone-system-voicemail.md).
 
-    > [!Note]
-    > Los usuarios alojados en implementaciones locales no se admite el uso de Lync Server 2010.
   - **Aplicación de voz** Seleccione el nombre de uno de ellos en una cola de llamada u operadores automáticos que ya se ha creado.
 
 * * *
@@ -263,16 +261,13 @@ El valor de tiempo de espera se puede establecer en segundos, en intervalos de 1
 - **Redirigir esta llamada a** Cuando se selecciona esta opción, tendrá estas opciones:
   - **Persona de la empresa** Un usuario con una licencia de **Sistema telefónico** en línea y estar habilitados para Enterprise Voice o tienen planes de llamada. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de la empresa** y establezca esta persona para que sus llamadas se desvían directamente al correo de voz.
 
-  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz de Sistema telefónico](set-up-phone-system-voicemail.md).
-
-    > [!Note]
-    > Los usuarios alojados en implementaciones locales no se admite el uso de Lync Server 2010.
+  Para obtener información acerca de las licencias necesarias para el correo de voz, vea [Configurar el correo de voz en la nube](set-up-phone-system-voicemail.md).
 
   - **Aplicación de voz** Seleccione el nombre de uno de ellos en una cola de llamada u operadores automáticos que ya se ha creado.
 
-## <a name="changing-a-users-caller-id-to-be-a-call-queues-phone-number"></a>Cambiar el identificador de autor de la llamada de un usuario para que sea el número de teléfono de la cola de llamada
+## <a name="changing-a-users-caller-id-for-outbound-calls"></a>Cambiar el identificador de autor de la llamada de un usuario para las llamadas salientes 
 
-Puede proteger la identidad de un usuario cambiando su identificador de llamada para las llamadas salientes a una cola de llamadas en lugar de crear una directiva con el cmdlet **New-CallingLineIdentity**.
+Puede proteger la identidad del usuario cambiando su identificador de autor de la llamada para llamadas salientes a una cola de llamadas, operador automático o cualquier número de servicio en su lugar mediante la creación de una directiva con el cmdlet **New-CsCallingLineIdentity** .
 
 Para ello, ejecute:
 
@@ -296,13 +291,13 @@ También puede usar Windows PowerShell para crear y configurar colas de llamadas
 
 Estos son los cmdlets que necesita para administrar una cola de llamadas.
   
-- [New-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796459.aspx)
+- [Nueva CsCallQueue](https://docs.microsoft.com/powershell/module/skype/new-CsCallQueue?view=skype-ps)
 
-- [Set-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796457.aspx)
+- [Set-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/set-CsCallQueue?view=skype-ps)
 
-- [Get-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796458.aspx)
+- [Get-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/get-CsCallQueue?view=skype-ps)
 
-- [Remove-CsHuntgroup](https://technet.microsoft.com/en-us/library/mt796456.aspx)
+- [Remove-CsCallQueue](https://docs.microsoft.com/powershell/module/skype/remove-CsCallQueue?view=skype-ps)
 
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 

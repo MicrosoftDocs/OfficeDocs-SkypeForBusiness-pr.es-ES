@@ -1,5 +1,5 @@
 ---
-title: Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
+title: Administrar una configuración de la consola Microsoft salones de los equipos de forma remota con un archivo de configuración XML
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -10,19 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df418e25-81fd-474d-be16-5cd1ac8145cc
-description: En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de v2 de sistemas de salón de Skype, incluyen la aplicación de un tema personalizado.
-ms.openlocfilehash: 55a2dc3de11c4fbe8540740a52fe29a377264545
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.collection: M365-voice
+description: En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de salas de equipos de Microsoft, que incluyen la aplicación de un tema personalizado.
+ms.openlocfilehash: 2dc99046647fc1cbda8fcb7643dbdf06d2d24c82
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965978"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013032"
 ---
-# <a name="manage-a-skype-room-systems-v2-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar la configuración de una consola de Sistemas de salas de Skype v2 de forma remota con un archivo XML de configuración
+# <a name="manage-a-microsoft-teams-rooms-console-settings-remotely-with-an-xml-configuration-file"></a>Administrar una configuración de la consola Microsoft salones de los equipos de forma remota con un archivo de configuración XML
  
-En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de v2 de sistemas de salón de Skype, incluyen la aplicación de un tema personalizado.
+En este artículo se describe la administración remota de la configuración predeterminada utilizada por un dispositivo de salas de equipos de Microsoft, que incluyen la aplicación de un tema personalizado.
   
-Al actualizar un archivo XML maestro y enviar copias a las consolas que administra, le será posible cambiar la configuración predeterminada de los dispositivos administrados de forma remota. En este artículo se habla de cómo se crea un archivo como ese y se agregan vínculos a debates sobre cómo se colocan en los dispositivos administrados de forma remota. Con este método, también puede implementar los temas personalizados en las consolas de v2 de sistemas de salón de Skype. 
+Al actualizar un archivo XML maestro y enviar copias a las consolas que administra, le será posible cambiar la configuración predeterminada de los dispositivos administrados de forma remota. En este artículo se habla de cómo se crea un archivo como ese y se agregan vínculos a debates sobre cómo se colocan en los dispositivos administrados de forma remota. Con este método, también puede implementar los temas personalizados en las consolas de salas de equipos de Microsoft. 
   
 ## <a name="creating-an-xml-configuration-file"></a>Creación de un archivo de configuración XML
 
@@ -72,22 +73,22 @@ Si el archivo XML está mal formado (es decir, que un valor de variable es del t
 |Elemento|Tipo|Nivel|Uso|
 |:--- |:--- |:--- |:--- |
 |\<SkypeSettings\>   |Contenedor de todos los elementos.   ||Obligatorio.   |
-| \<AutoScreenShare\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  | Si se cumple, se habilita el uso compartido de pantalla automático.  |
-|\<HideMeetingName\>   |Valor booleano & #x 2777;  |Primera & #x 2776;  |Si se cumple, se ocultan los nombres de la reunión.   |
+| \<AutoScreenShare\>  |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  | Si se cumple, se habilita el uso compartido de pantalla automático.  |
+|\<HideMeetingName\>   |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Si se cumple, se ocultan los nombres de la reunión.   |
 |\<UserAccount\>   |Contenedor   |Primera & #x 2776;  |Contenedor para parámetros de credenciales.   Normalmente, el inicio de sesión en la dirección, dirección de Exchange o dirección de correo electrónico es los mismos, como RanierConf<span></span>@contoso.com.   |
-|\<SkypeMeetingsEnabled\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está habilitada de forma predeterminada.   |
+|\<SkypeMeetingsEnabled\>  |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Está habilitado de forma predeterminada.   |
 |\<SkypeSignInAddress\>   |Cadena & #x 2778;  ||El nombre de inicio de sesión para la cuenta del dispositivo de Skype Empresarial de la consola.   |
 |\<ExchangeAddress\>   |Cadena & #x 2778;  ||El nombre de inicio de sesión para la cuenta del dispositivo de Exchange de la consola.   Si se omite ExchangeAddress, SkypeSignInAddress no se volverá a usar automáticamente.    |
 |\<Dominionombre_de_usuario\>   |Cadena & #x 2778;  ||El dominio y el nombre de usuario del dispositivo de consola; por ejemplo, Seattle\RanierConf.   |
 |\<Contraseña\>   |Cadena 3  || El parámetro de contraseña es la misma contraseña que se utiliza para iniciar sesión con la cuenta del dispositivo de Skype Empresarial.   |
 | \<ConfigureDomain\>  |Cadena & #x 2778;  ||Puede enumerar varios dominios, separados por comas.   |
-|\<TeamsMeetingsEnabled\>   |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está deshabilitada de forma predeterminada. <br/> <br/> El archivo XML se considera mal construida si ambos \<SkypeMeetingsEnabled\> y\<TeamsMeetingsEnabled\> están deshabilitadas, pero es aceptable tener ambas configuraciones habilitados al mismo tiempo.   |
-|\<IsTeamsDefaultClient > |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está deshabilitada de forma predeterminada. |
-|\<BluetoothAdvertisementEnabled > |Valor booleano & #x 2777;  |Primera & #x 2776;  |Está habilitada de forma predeterminada. |
-|\<DualScreenMode\>  |Valor booleano & #x 2777;  |Primera & #x 2776;  |Si es true, se habilita el modo de pantalla dual. De lo contrario, el dispositivo usará el modo de pantalla sencillo.   |
+|\<TeamsMeetingsEnabled\>   |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Está deshabilitado de forma predeterminada. <br/> <br/> El archivo XML se considera mal construida si ambos \<SkypeMeetingsEnabled\> y\<TeamsMeetingsEnabled\> están deshabilitadas, pero es aceptable tener ambas configuraciones habilitados al mismo tiempo.   |
+|\<IsTeamsDefaultClient> |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Está deshabilitado de forma predeterminada. |
+|\<BluetoothAdvertisementEnabled> |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Está habilitado de forma predeterminada. |
+|\<DualScreenMode\>  |_AMP_ Boolean #x 2777;  |Primera & #x 2776;  |Si es true, se habilita el modo de pantalla dual. De lo contrario, el dispositivo usará el modo de pantalla sencillo.   |
 |\<SendLogs\>   |Contenedor   |Primera & #x 2776;  ||
 |\<EmailAddressForLogsAndFeedback\>   |Cadena & #x 2778;  ||De esta forma se establece una dirección de correo electrónico opcional a la que se pueden enviar los registros cuando aparece la ventana "Enviar comentarios".    |
-|\<SendLogsAndFeedback\>   |Valor booleano & #x 2777;  || Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros).  |
+|\<SendLogsAndFeedback\>   |_AMP_ Boolean #x 2777;  || Si se cumple, los registros se envían al administrador. Si no se cumple, solo se envían los comentarios al administrador (y no los registros).  |
 | \<Dispositivos\>  |Contenedor   |Primera & #x 2776;  | Los nombres de los dispositivos de audio conectados en los elementos secundarios son los mismos valores que aparecen en la aplicación del Administrador de dispositivos. La configuración puede contener un dispositivo que no existe actualmente en el sistema, como un dispositivo de A/V que no está conectado en este momento a la consola. La configuración se retendrá´para el dispositivo respectivo.  |
 |\<MicrophoneForCommunication\>   |Cadena & #x 2778;  ||Establece el micrófono que se usará como dispositivo de grabación en una conferencia.   |
 |\<SpeakerForCommunication\>   |Cadena & #x 2778;  ||El dispositivo que se va a usar como altavoz en la conferencia. Esta configuración se utiliza para establecer el dispositivo de altavoz que se utilizará para escuchar el audio en una llamada.   |
@@ -109,11 +110,11 @@ Si el archivo XML está mal formado (es decir, que un valor de variable es del t
   
 ## <a name="manage-console-settings-using-an-xml-configuration-file"></a>Administrar la configuración de la consola con un archivo XML de configuración
 
-En el inicio, si una consola de v2 de sistemas de salón de Skype busca un archivo XML denominado SkypeSettings.xml en la ubicación **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, se aplicará las opciones de configuración indicada por el archivo XML, a continuación, elimine el archivo XML.
+En el inicio, si una consola de salas de equipos de Microsoft busca un archivo XML denominado SkypeSettings.xml en la ubicación **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, se aplicará las opciones de configuración indicada por el archivo XML, a continuación, elimine el archivo XML.
   
-Dependiendo de cuántos dispositivos de sistemas de salón de Skype v2 tiene su empresa y la forma que elija Administrar para configurarlos, hay varias maneras para colocar el archivo de configuración XML. Una vez que el archivo se inserte en la consola, reinícielo para procesar los cambios en la configuración. El archivo XML de configuración se eliminará una vez que se procese correctamente. Los métodos de administración sugeridos para dispositivos de sistemas de salón de Skype v2 se tratan en:
+Dependiendo de cuántos dispositivos de salas de equipos de Microsoft tiene su empresa y la forma que elija Administrar para configurarlos, hay varias maneras para colocar el archivo de configuración XML. Una vez que el archivo se inserte en la consola, reinícielo para procesar los cambios en la configuración. El archivo XML de configuración se eliminará una vez que se procese correctamente. Se tratan los métodos de administración sugeridos para dispositivos de salas de equipos de Microsoft en:
   
-- [Configurar la directiva de grupo para los Sistemas de salas de Skype v2](room-systems-v2-operations.md#GroupPolicy)
+- [Configuración de directiva de grupo para salas de equipos de Microsoft](room-systems-v2-operations.md#GroupPolicy)
     
 - [Administración remota con PowerShell](room-systems-v2-operations.md#RemotePS) y [configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)
     
@@ -124,13 +125,13 @@ Puede utilizar el método que desee, siempre que pueda usarlo para transferir ar
 
 Se debe colocar el archivo de imagen de tema personalizado en **C:\Users\Skype\AppData\Local\Packages\Microsoft.SkypeRoomSystem_8wekyb3d8bbwe\LocalState**, sólo tiene que escribir el nombre de archivo y la extensión en el \<CustomThemeImageUrl\> variable.
   
-El archivo de imagen debe tener exactamente 3840 x 1080 píxeles y debe ser tener uno de los siguientes formatos de archivo: jpg, jpeg, png y bmp. Si su organización desea que una imagen personalizada, un diseñador gráfico útil nuestra [Plantilla personalizada de Photoshop de tema](https://go.microsoft.com/fwlink/?linkid=870441) . Contiene información detallada sobre dónde colocar diversos elementos en una imagen de tema y las áreas que aparecen en las consolas y muestra.
+El archivo de imagen debe tener exactamente 3840 x 1080 píxeles y debe tener uno de los siguientes formatos de archivo: jpg, jpeg, png y bmp. Si su organización desea que una imagen personalizada, un diseñador gráfico útil nuestra [Plantilla personalizada de Photoshop de tema](https://go.microsoft.com/fwlink/?linkid=870441) . Contiene más detalles sobre dónde se deben colocar varios elementos en una imagen de tema, y qué áreas aparecen en las consolas y las pantallas.
   
 El archivo XML de configuración se debe actualizar al iniciarse el dispositivo para reconocer la imagen del tema. Una vez que el archivo XML nuevo se procese y se elimine, el archivo de gráficos del tema se eliminará del directorio.
   
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 
 
-[Administrar Sistemas de salas de Skype v2](skype-room-systems-v2.md)
+[Administrar las salas de equipos de Microsoft](skype-room-systems-v2.md)
 
 [Configurar un elemento de archivo](https://technet.microsoft.com/library/cc772536%28v=ws.11%29.aspx)

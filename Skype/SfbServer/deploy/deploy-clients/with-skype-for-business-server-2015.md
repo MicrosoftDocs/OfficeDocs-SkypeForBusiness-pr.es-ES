@@ -1,5 +1,5 @@
 ---
-title: Implementación de salón de Skype v2 de sistemas con Skype para Business Server
+title: Implementación de salas de equipos de Microsoft con Skype para Business Server
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -10,31 +10,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
 - Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
-description: Lea este tema para obtener información acerca de cómo implementar sistemas de salón de Skype v2 con Skype para Business Server.
-ms.openlocfilehash: 5159d9cc8835ebe2b6e1d74e2f7644ee11232b63
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos con Skype para Business Server.
+ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30645397"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012479"
 ---
-# <a name="deploy-skype-room-systems-v2-with-skype-for-business-server"></a>Implementación de salón de Skype v2 de sistemas con Skype para Business Server
+# <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementación de salas de equipos de Microsoft con Skype para Business Server
   
-En este tema se explica cómo agregar una cuenta de dispositivo para sistemas de salón de Skype v2 cuando tiene una implementación de bosque único, local.
+En este tema se explica cómo agregar una cuenta de dispositivo para salas de equipos de Microsoft cuando tiene una implementación local de bosque único.
   
 Si tiene un solo bosque, implementación de local con Exchange 2013 SP1 o posterior y Skype para Business Server 2015 o posterior, puede usar los scripts de Windows PowerShell proporcionados para crear cuentas de dispositivo. Si utiliza una implementación de varios bosque, puede usar cmdlets de equivalentes que se producen los mismos resultados. Estos cmdlets se describen en esta sección.
 
-La forma más sencilla de configurar las cuentas de usuario es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de usuario o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de usuario de v2 de Skype salón sistemas compatibles. Si lo prefiere, puede seguir los pasos siguientes para configurar las cuentas que se va a usar el dispositivo v2 de sistemas de salón de Skype.
-
-## <a name="requirements"></a>Requisitos
-
-Antes de implementar sistemas de salón de Skype v2 con Skype Business Server, debe asegurarse de que cumplen los requisitos. Para más información, vea [Skype Room Systems v2 requirements](../../plan-your-deployment/clients-and-devices/requirements.md).
   
-Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de que tiene los permisos adecuados para ejecutar los cmdlets de asociados.
+Antes de comenzar a implementar salones de los equipos de Microsoft, asegúrese de que tiene los permisos adecuados para ejecutar los cmdlets de asociados.
   
-1. Iniciar una sesión remota de Windows PowerShell desde un PC y conectarse a Exchange.
 
    ``` Powershell
    Set-ExecutionPolicy Unrestricted
@@ -49,7 +44,7 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
 
    Tenga en cuenta que $strExchangeServer es el nombre de dominio completo (FQDN) del servidor de Exchange, y $strLyncFQDN es el FQDN de su Skype para la implementación de Business Server.
 
-2. Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente. Esto le permitirá la cuenta autenticar a los sistemas de salón de Skype v2.
+2. Después de establecer una sesión, podrá crear un nuevo buzón y habilitar como un RoomMailboxAccount o cambiar la configuración de un buzón de sala existente. Esto le permitirá la cuenta autenticar a los salones de los equipos de Microsoft.
 
     Si va a cambiar un buzón de recursos existente:
 
@@ -79,13 +74,13 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
    Set-AdUser $acctUpn -PasswordNeverExpires $true
    ```
 
-5. Habilite la cuenta en Active Directory, por lo que autenticará a sistemas de salón de Skype v2.
+5. Habilite la cuenta de Active Directory, por lo que va a autenticar a los salones de los equipos de Microsoft.
 
    ``` Powershell
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Habilitar la cuenta del dispositivo con Skype para Business Server mediante la habilitación de la cuenta de Active Directory v2 sistemas de salón de Skype en un Skype para grupo de servidores de negocio:
+6. Habilitar la cuenta del dispositivo con Skype para Business Server mediante la habilitación de su cuenta de salas de equipos de Microsoft Active Directory en un Skype para grupo de servidores de negocio:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com
@@ -94,7 +89,7 @@ Antes de comenzar a implementar sistemas de salón de Skype v2, asegúrese de qu
 
     Tendrá que usar la dirección SIP (protocolo de inicio de sesión) y el controlador de dominio del proyecto
 
-7. **Opcional.** También puede permitir v2 de sistemas de salón de Skype realizar y recibir llamadas telefónicas de telefónica conmutada (RTC) de la red mediante la habilitación de Enterprise Voice para su cuenta. Enterprise Voice no es un requisito para sistemas de salón de Skype v2, pero si desea que la funcionalidad de marcado de RTC para el cliente de v2 de sistemas de salón de Skype, aquí es cómo habilitarla:
+7. **Opcional.** También puede permitir que Microsoft salones de los equipos realizar y recibir llamadas telefónicas de telefónica conmutada (RTC) de la red mediante la habilitación de Enterprise Voice para su cuenta. Enterprise Voice no es un requisito para salas de equipos de Microsoft, pero si desea que la funcionalidad de marcado de RTC para el cliente de salas de equipos de Microsoft, aquí es cómo habilitarla:
 
    ``` Powershell
    Set-CsMeetingRoom PROJECTRIGEL01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"
@@ -123,12 +118,12 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 
 ## <a name="see-also"></a>Consulte también
 
-[Configurar cuentas para sistemas de salón de Skype v2](room-systems-v2-configure-accounts.md)
+[Configurar las cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md)
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan para salas de equipos de Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implementar Sistemas de salas de Skype v2](room-systems-v2.md)
+[Implementación de salas de equipos de Microsoft](room-systems-v2.md)
   
-[Configurar una consola de Sistemas de salas de Skype v2](console.md)
+[Configurar una consola de salas de equipos de Microsoft](console.md)
   
-[Administrar Sistemas de salas de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

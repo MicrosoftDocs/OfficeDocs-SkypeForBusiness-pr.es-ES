@@ -1,5 +1,5 @@
 ---
-title: Administrar las actualizaciones de Windows para la sala de Skype v2 de sistemas
+title: Administrar las actualizaciones de Windows para salas de equipos de Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: davgroom
@@ -9,18 +9,19 @@ ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
+ms.collection: M365-voice
 ms.assetid: ''
-description: Administrar las actualizaciones de Windows para la sala de Skype v2 de sistemas
-ms.openlocfilehash: 4b1b0bc27be3f8277fde0c641efe5359ca002d65
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+description: Administrar las actualizaciones de Windows para salas de equipos de Microsoft
+ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532143"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013105"
 ---
 # <a name="manage-windows-updates"></a>Administrar las actualizaciones de Windows
 
-Sistema de salas de Skype v2 (SRS v2) se ejecuta en Windows 10 Enterprise IoT o Windows 10 Enterprise (VL) y recibe las compilaciones de actualizaciones de Windows y el sistema operativo mismas como un escritorio estándar.
+Salones de los equipos de Microsoft se ejecuta en Windows 10 Enterprise IoT o Windows 10 Enterprise (VL) y recibe las compilaciones de actualizaciones de Windows y el sistema operativo mismas como un escritorio estándar.
 
 Actualizaciones de Windows se puede administrar de varias formas diferentes:
 
@@ -43,8 +44,8 @@ Actualizaciones de Windows se puede administrar de varias formas diferentes:
 
 ### <a name="feature-updates"></a>Actualizaciones de característica
 
-A diferencia de calidad y no Deferable actualizaciones, Windows 10 "Característica Actualizaciones" (versiones principales del sistema operativo) sólo se instalarán después de que Microsoft prueba y valida una funcionalidad determinada actualizaciones con SRS v2. Incluso si se publicadas hasta el punto y anuales del canal (o destino si tiene sistemas establecida en dicho canal para las pruebas) o incluso manualmente inserta por su propio intentos o las configuraciones, no le permitirá la instalación hasta que se quite el bloqueo en nuestro final.
+A diferencia de calidad y no Deferable actualizaciones, Windows 10 "Característica Actualizaciones" (versiones principales del sistema operativo) sólo se instalarán después de que Microsoft prueba y valida una funcionalidad determinada actualizaciones con Microsoft los equipos locales. Incluso si se publicadas hasta el punto y anuales del canal (o destino si tiene sistemas establecida en dicho canal para las pruebas) o incluso manualmente inserta por su propio intentos o las configuraciones, no le permitirá la instalación hasta que se quite el bloqueo en nuestro final.
 
-Un SRS v2 "de fábrica", con las manos desactiva el enfoque, no va a instalar una actualización de Windows o un dispositivo se reinicie automáticamente debido a una actualización de Windows. Sin embargo, los sistemas pueden descargar una actualización y esperar el siguiente reinicio que lo instale. A menos que alguien reinicia manualmente, instalación debe producirse durante el reinicio automático por la noche. Actualizaciones de Windows debe ser transparentes en la sala, la interfaz de usuario nunca debe ser interrumpido por actualizaciones de Windows.
+Salón de los equipos de Microsoft "de fábrica", con las manos desactiva el enfoque, no va a instalar una actualización de Windows o un dispositivo se reinicie automáticamente debido a una actualización de Windows. Sin embargo, los sistemas pueden descargar una actualización y esperar el siguiente reinicio que lo instale. A menos que alguien reinicia manualmente, instalación debe producirse durante el reinicio automático por la noche. Actualizaciones de Windows debe ser transparentes en la sala, la interfaz de usuario nunca debe ser interrumpido por actualizaciones de Windows.
 
 Si opta por unirse a un dominio, use SCCM o WSUS y preste especial atención a las directivas o acciones que pueden ocasionar que el dispositivo de instalar una actualización o forzar un reinicio durante la jornada laboral. Si tiene sistemas en la implementación de reinicio durante el uso o alertas acerca de las actualizaciones de Windows a través de la interfaz de usuario, desea buscar en la configuración.

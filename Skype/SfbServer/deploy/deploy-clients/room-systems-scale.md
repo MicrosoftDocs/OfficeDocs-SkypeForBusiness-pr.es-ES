@@ -1,5 +1,5 @@
 ---
-title: Implementación de sistemas de salón de Skype con System Center Configuration Manager
+title: Implementación de salas de equipos de Microsoft con System Center Configuration Manager
 author: jambirk
 ms.author: jambirk
 ms.reviewer: Turgayo
@@ -11,30 +11,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lea este tema para obtener más información sobre la implementación de sistemas de salón de Skype v2 en las implementaciones de gran escala.
-ms.openlocfilehash: 39884e660ca757827570f6c7c4005baa7b59a1b0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.collection: M365-voice
+description: Lea este tema para obtener más información sobre la implementación de salas de equipos de Microsoft en las implementaciones de gran escala.
+ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880780"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013039"
 ---
-# <a name="deploy-skype-room-systems-v2-by-using-system-center-configuration-manager"></a>Implementación de sistemas de salón de Skype v2 mediante System Center Configuration Manager
+# <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementación de salas de equipos de Microsoft con System Center Configuration Manager
 
-En este artículo se proporciona toda la información necesaria para crear las implementaciones de sistemas de salón de Skype v2 mediante System Center Configuration Manager.
+En este artículo se proporciona toda la información necesaria para crear las implementaciones locales de los equipos de Microsoft mediante System Center Configuration Manager.
 
 Con la fáciles de usar los métodos proporcionados por System Center Configuration Manager, puede implementar el sistema operativo y otras aplicaciones en varios dispositivos de destino.
 
 Use el enfoque se ilustra a continuación le guiarán a través de la configuración del Administrador de configuración y personalizar los paquetes de ejemplo y secuencias de comandos proporcionadas a lo largo de esta guía, según sea necesario para la organización.
 
-![Proceso de implementación de sistemas de salón de Skype v2 mediante el Administrador de configuración](../../media/room-systems-scale-image1.png)
+![Proceso de implementación de Microsoft salones de los equipos mediante el Administrador de configuración](../../media/room-systems-scale-image1.png)
 
 > [!IMPORTANT]
 > Esta solución sólo se ha probado con implementaciones basado en Surface Pro. Siga las instrucciones del fabricante para las configuraciones que no están basadas en Surface Pro.
 
 ## <a name="validate-prerequisites"></a>Validar los requisitos previos
 
-Para implementar sistemas de salón de Skype v2 con el Administrador de configuración, asegúrese de que cumple los siguientes requisitos previos y requisitos.
+Para implementar los salones de los equipos de Microsoft con el Administrador de configuración, asegúrese de que cumple los siguientes requisitos previos y requisitos.
 
 ### <a name="system-center-configuration-manager-requirements"></a>Requisitos de System Center Configuration Manager
 
@@ -46,11 +47,11 @@ Para implementar sistemas de salón de Skype v2 con el Administrador de configur
 
 -   Una cuenta de acceso de red debe configurarse para admitir escenarios de implementación de nuevo equipo (más bajos del hardware). Para obtener más información acerca de la configuración de una cuenta de acceso de red, consulte [Administrar cuentas para tener acceso al contenido en System Center Configuration Manager](https://docs.microsoft.com/sccm/core/plan-design/hierarchy/manage-accounts-to-access-content#bkmk_NAA).
 
--   Se recomienda que habilite [la compatibilidad con multidifusión](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si es probable que implementar la misma imagen v2 de sistemas de salón de Skype en varias unidades al mismo tiempo.
+-   Se recomienda que habilite [la compatibilidad con multidifusión](https://docs.microsoft.com/sccm/osd/deploy-use/use-multicast-to-deploy-windows-over-the-network), si es probable que implementar la misma imagen de salas de equipos de Microsoft en varias unidades al mismo tiempo.
 
 ### <a name="networking-requirements"></a>Requisitos de red
 
--   La red debe tener un servidor de protocolo de configuración dinámica de Host (DHCP), configurado para la distribución automática de direcciones IP a las subredes donde se implementará unidades de sistemas de salón de Skype v2.
+-   La red debe tener un servidor de protocolo de configuración dinámica de Host (DHCP), configurado para la distribución automática de direcciones IP a las subredes donde se implementará unidades locales de los equipos de Microsoft.
 
     > [!NOTE]
     > Duración de concesión DHCP debe establecerse en un valor mayor que la duración de la implementación de imagen. De lo contrario, puede producirse un error en la implementación.
@@ -80,7 +81,7 @@ Use las siguientes instrucciones para comprobar que se han configurado correctam
 
 1.  En la consola de Configuration Manager, vaya a **administración** \> **Puntos de distribución**.
 
-2.  Seleccione el servidor de punto de distribución que va a servir la implementación de sistemas de salón de Skype v2 y, a continuación, seleccione **Propiedades**.
+2.  Seleccione el servidor de punto de distribución que va a servir la implementación de salas de equipos de Microsoft y, a continuación, seleccione **Propiedades**.
 
 3.  Seleccione la ficha **PXE** y asegúrese de que estén habilitadas las siguientes opciones:
     -   Habilitar la compatibilidad con PXE para los clientes
@@ -129,16 +130,16 @@ Para obtener más información, vea [Administrar imágenes de arranque con Syste
 
 ## <a name="create-configuration-manager-packages"></a>Crear paquetes de Configuration Manager
 
-Administrador de configuración requiere un número de paquetes para implementar y configurar las unidades de sistema de salas de Skype v2.
+Administrador de configuración requiere un número de paquetes para implementar y configurar las unidades locales de los equipos de Microsoft.
 
 Necesario crear y configurar los siguientes paquetes y, a continuación, distribuirlas a los sistemas de sitio de Configuration Manager que se han asignado el rol de servidor del punto de distribución.
 
 | **Nombre del paquete**                     | **Tipo**               | **Descripción**                                                                           |
 |--------------------------------------|------------------------|-------------------------------------------------------------------------------------------|
-| SRS v2 - SRS paquete de la aplicación     | Paquete de software       | Paquete para el kit de implementación de sistemas de salón de Skype v2                                      |
-| SRS v2 - paquete de Sysprep             | Paquete de software       | Paquete para el Unattended.xml personalizado configurar unidades de v2 de sistemas de salón de Skype            |
+| SRS v2 - SRS paquete de la aplicación     | Paquete de software       | Paquete para el kit de implementación de salas de equipos de Microsoft                                      |
+| SRS v2 - paquete de Sysprep             | Paquete de software       | Paquete para el Unattended.xml personalizado configurar unidades de salas de equipos de Microsoft            |
 | SRS v2 - Set-SRSComputerName paquete | Paquete de software       | Paquete de la aplicación HTML (HTA) asignar un nombre de equipo durante la implementación    |
-| SRS v2 - configurar la instalación SRS         | Paquete de software       | Paquete para configurar la implementación de la aplicación de v2 de sistemas de salón de Skype                          |
+| SRS v2 - configurar la instalación SRS         | Paquete de software       | Paquete para configurar la implementación de la aplicación de salas de equipos de Microsoft                          |
 | Las actualizaciones de SO SRS v2 - paquete          | Paquete de software       | Paquete de implementación de actualizaciones de sistema operativo obligatorio                                      |
 | SRS v2 - paquete de certificado raíz    | Paquete de software       | Opcional: paquete para implementar el certificado raíz (no es necesario para las unidades unido a un dominio)  |
 | SRS v2 - paquete del agente de supervisión de Microsoft | Paquete de software       | Opcional: paquete para implementar y configurar al agente de conjunto de aplicaciones de administración de operaciones de Microsoft|
@@ -215,7 +216,7 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
    ```
 3. Descargue los paquetes de actualización de Windows obligatorio en la misma carpeta.
    > [!NOTE]
-   > En el momento en que se publicó este artículo, sólo [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) era necesaria. Comprobar [Configure una consola de v2 de Skype salón de sistemas](console.md), para ver si se requiere cualquier otra actualización.
+   > En el momento en que se publicó este artículo, sólo [KB4056892](http://download.windowsupdate.com/c/msdownload/update/software/secu/2018/01/windows10.0-kb4056892-x64_a41a378cf9ae609152b505c40e691ca1228e28ea.msu) era necesaria. Comprobar [Configure una consola de salas de equipos de Microsoft](console.md), para ver si se requiere cualquier otra actualización.
 
 4. En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
 
@@ -235,7 +236,7 @@ Cree la siguiente estructura de carpetas en el sitio de administración central 
 
 Crear este paquete para distribuir el certificado raíz para dispositivos que no se ha unido a un dominio de Active Directory. Crear este paquete sólo si se aplican las siguientes condiciones:
 -   La implementación incluye local Lync o Skype para Business Server.
--   Unidades de sistemas de salón de Skype v2 se configuran para que funcione en un grupo de trabajo en lugar de un miembro de dominio.
+-   Unidades de salas de equipos de Microsoft están configuradas para que funcione en un grupo de trabajo en lugar de un miembro de dominio.
 
 1.  Copie el certificado raíz en la carpeta **SRS v2: paquete de certificado raíz** .
 
@@ -253,9 +254,9 @@ Crear este paquete para distribuir el certificado raíz para dispositivos que no
 
 6.  Seleccione **Cerrar**.
 
-### <a name="create-the-skype-room-systems-v2-deployment-kit-package"></a>Crear el paquete de kit de implementación de sistemas de salón de Skype v2
+### <a name="create-the-microsoft-teams-rooms-deployment-kit-package"></a>Crear el paquete de kit de implementación de salas de equipos de Microsoft
 
-1.  Descargar la versión más reciente del **kit de implementación de sistemas de salón de Skype v2** de <https://go.microsoft.com/fwlink/?linkid=851168>e instalar una estación de trabajo.
+1.  Descargar la versión más reciente del **kit de implementación de Microsoft los equipos salones** de <https://go.microsoft.com/fwlink/?linkid=851168>e instalar una estación de trabajo.
 
 2.  Copie el contenido de **C:\\archivos de programa (x86)\\Kit de implementación de sistema de sala de Skype** a la carpeta **SRS v2 - SRS paquete de la aplicación** .
 
@@ -469,10 +470,10 @@ Para obtener más información, vea [Administrar imágenes del sistema operativo
 
 ### <a name="create-surface-pro-device-driver-packages"></a>Crear paquetes de controladores de dispositivo Surface Pro
 
-Es compatible con sistemas de salas de Skype v2 Surface Pro y Surface Pro 4. Debe crear un paquete de controlador para cada modelo Surface Pro que tiene en su entorno.
+Salones de los equipos de Microsoft es compatible con Surface Pro y Surface Pro 4. Debe crear un paquete de controlador para cada modelo Surface Pro que tiene en su entorno.
 
 > [!IMPORTANT]
-> Los controladores deben ser compatibles con la compilación de Windows 10 Enterprise y la versión de kit de implementación de sistemas de salón de Skype v2. Para obtener más información, vea [descargar el firmware más reciente y los controladores para dispositivos superficiales](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) y [Configurar una consola](console.md).
+> Los controladores deben ser compatibles con la compilación de Windows 10 Enterprise y la versión de kit de implementación de salas de equipos de Microsoft. Para obtener más información, vea [descargar el firmware más reciente y los controladores para dispositivos superficiales](https://docs.microsoft.com/surface/deploy-the-latest-firmware-and-drivers-for-surface-devices) y [Configurar una consola](console.md).
 
 1.  Descargue los controladores y el firmware más reciente.
     -   Para Surface Pro:<https://www.microsoft.com/download/details.aspx?id=55484>
@@ -505,7 +506,7 @@ Es compatible con sistemas de salas de Skype v2 Surface Pro y Surface Pro 4. Deb
 > [!NOTE]
 > Repita los mismos pasos para otros modelos Surface Pro, es posible que deba. Para obtener más información, vea [Administrar controladores en System Center Configuration Manager](https://docs.microsoft.com/sccm/osd/get-started/manage-drivers).
 
-### <a name="create-skype-room-system-configuration-package"></a>Crear paquete de configuración del sistema de sala de Skype
+### <a name="create-microsoft-teams-rooms-configuration-package"></a>Crear paquete de configuración de salas de equipos de Microsoft
 
 1.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **Administración de aplicaciones** \> **paquetes**y, a continuación, seleccione **Crear paquete**.
 
@@ -564,13 +565,13 @@ Todos los paquetes se deben distribuir a los servidores que se han asignado la f
 > [!NOTE]
 > Paquete de distribución puede tardar algún tiempo, según el tamaño del paquete, jerarquía de Configuration Manager, número de servidores de punto de distribución y el ancho de banda disponible en la red.
 > 
-> Todos los paquetes deben distribuirse antes de empezar a implementar una unidad de v2 de sistemas de salón de Skype.
+> Todos los paquetes deben distribuirse antes de empezar a implementar una unidad de salas de equipos de Microsoft.
 > 
 > Puede revisar el estado de la distribución de paquetes en la consola de Configuration Manager, vaya a **supervisión** \> **Estado de distribución** \> **Estado del contenido**.
 
 ## <a name="configuration-manager-task-sequences"></a>Secuencias de tareas de Configuration Manager
 
-Utilice las secuencias de tareas con System Center Configuration Manager para automatizar los pasos para implementar una imagen de sistema operativo en un equipo de destino. Para implementar una unidad de v2 de sistemas de salón de Skype en forma automática, se crea una secuencia de tareas que hace referencia a la imagen de arranque se usa para iniciar el equipo de destino v2 de sistemas de salón de Skype, la imagen del sistema operativo Windows 10 Enterprise que desea instalar y cualquiera otro contenido adicional, como otras aplicaciones o actualizaciones de software.
+Utilice las secuencias de tareas con System Center Configuration Manager para automatizar los pasos para implementar una imagen de sistema operativo en un equipo de destino. Para implementar una unidad de salas de equipos de Microsoft de forma automática, se crea una secuencia de tareas que hace referencia a la imagen de arranque se usa para iniciar el equipo de Microsoft salones de los equipos de destino, la imagen del sistema operativo Windows 10 Enterprise que desea instalar y cualquiera otro contenido adicional, como otras aplicaciones o actualizaciones de software.
 
 ### <a name="import-the-sample-task-sequence"></a>Importación de la secuencia de tareas de ejemplo
 
@@ -579,7 +580,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 1.  [**Descargue**](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Skype/SfbOnline/downloads/Skype-Room-Systems-v2/SRS-v2-Configuration-Manager-Files.zip?raw=true) el ejemplo de secuencia de tareas y copie el archivo zip descargado en una ubicación compartida.
 2.  En la consola de Configuration Manager, vaya a la **Biblioteca de Software** \> **sistemas operativos** \> **Secuencias de tareas**y, a continuación, seleccione **Importar secuencia de tareas**.
 
-3.  Seleccione **Examinar**, vaya a la ubicación de la carpeta compartida que utilizó en el paso 1, seleccione el archivo **.zip de implementación (EN-US) v2 de Skype salón de sistemas** y, a continuación, seleccione **siguiente**.
+3.  Seleccione **Examinar**, vaya a la ubicación de la carpeta compartida que utilizó en el paso 1, seleccione el archivo **.zip de implementación de salas de equipos de Microsoft (EN-US)** y, a continuación, seleccione **siguiente**.
 
 4.  Establecer la **acción** para **Crear nuevo**y, a continuación, seleccione **siguiente**.
 
@@ -591,7 +592,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
 1. Seleccione la secuencia de tareas importadas y, a continuación, seleccione **Editar**.
 
-    El Editor de secuencia de tareas se abre y muestra cada paso secuencial que necesita para implementar y configurar una unidad de v2 de sistemas de salón de Skype.
+    El Editor de secuencia de tareas se abre y muestra cada paso secuencial que necesita para implementar y configurar una unidad de salas de equipos de Microsoft.
 
 2. Recorra cada paso y completar las actualizaciones recomendadas:
 
@@ -599,7 +600,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
    2. **Partición disco 0 – UEFI**: este paso elimina la configuración de disco y crea particiones en función de la configuración establecida. Se recomienda que no realice ningún cambio para este paso.
 
-   3. **Establecer el nombre de equipo de SRS**: este paso incluye una aplicación HTML para proporcionar una interfaz de usuario para establecer un nombre de equipo para la unidad de v2 de sistemas de salón de Skype durante la implementación.
+   3. **Establecer el nombre de equipo de SRS**: este paso incluye una aplicación HTML para proporcionar una interfaz de usuario para establecer un nombre de equipo para la unidad de salas de equipos de Microsoft durante la implementación.
       -  Éste es un paso opcional, pero solo puede deshabilitarse si desea administrar a través de un proceso alternativo de nombre del equipo.
       -  Compruebe que esté seleccionado el paquete **SRS v2 - Set-SRSComputerName** . Si no es así, vaya al paquete y selecciónelo.
 
@@ -612,7 +613,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
    6. **Aplicar la configuración de red**: este paso permite especificar un grupo de trabajo o el nombre de dominio de Active Directory y la unidad organizativa.
       > [!NOTE]
-      > Vea [Consideraciones unirse de dominio del sistema de sala de Skype](domain-joining-considerations.md) para acciones recomendadas que debe tener en la implementación de unidades de v2 de Skype salón sistemas como miembros de un dominio de Active Directory.
+      > Para acciones recomendadas que debe tener en la implementación de unidades locales de los equipos de Microsoft como miembros de un dominio de Active Directory, vea [Consideraciones de unirse a dominio del sistema de la sala de Skype](domain-joining-considerations.md) .
    7. **Aplicar controladores:** Este paso y sus subpasos se usan para implementar controladores de dispositivo aplicables y firmware basada en el modelo Surface Pro que tiene. Actualizar cada paso para especificar el paquete de controladores relevantes asociado con esta implementación.
       -   Cada paquete de controlador está configurado para sacar provecho de los filtros de Instrumental de administración de Windows (WMI) para implementar los controladores relevantes y marca y modelo de firmware según la Surface Pro.
       -   Se recomienda encarecidamente que no se modifique la configuración de estos controladores, en caso contrario, puede producirse un error de implementación.
@@ -620,21 +621,21 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
    8. **Configurar Windows y el Administrador de configuración**: este paso se implementa y se configura el cliente del Administrador de configuración. Actualizar este paso para especificar el paquete de cliente de Configuration Manager integradas.
 
    9. **Instalar el certificado de raíz**: en este paso se distribuye el certificado raíz para dispositivos que no pertenecen a un dominio y, por lo tanto, es opcional y está deshabilitado de forma predeterminada.
-      -   Habilitar este paso si es necesario implementar un certificado raíz para las unidades de v2 de sistemas de salón de Skype.
+      -   Habilitar este paso si necesita implementar un certificado raíz en las unidades locales de los equipos de Microsoft.
       -   Si es necesario realizar este paso, compruebe están seleccionados el **SRS v2: paquete de certificado raíz** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
    10. **Instalar y configurar el agente de supervisión**: este paso instala la versión de 64 bits del agente de supervisión de Microsoft Azure y configura el agente para conectarse a su área de trabajo de análisis de registro.
-       -   Este paso está deshabilitado de forma predeterminada. Habilitar este paso únicamente si va a utilizar al agente de supervisión para supervisar el estado de las unidades de sistemas de salón de Skype v2.
+       -   Este paso está deshabilitado de forma predeterminada. Habilitar este paso únicamente si va a utilizar al agente de supervisión para supervisar el estado de las unidades locales de los equipos de Microsoft.
        -   Editar este paso y actualizar los parámetros de línea de comandos para especificar el **Identificador del área de trabajo** y la **Clave de área de trabajo**.
        -   Para obtener más información acerca de cómo obtener el identificador de las operaciones de administración de conjunto de aplicaciones de área de trabajo y la clave principal, vea [Configure probar dispositivos para la supervisión de Azure](azure-monitor.md#configure-test-devices-for-azure-monitoring) .
        -   Compruebe que están seleccionadas las **SRS v2 – paquete del agente de supervisión de Microsoft** y **Deshabilitar 64-bit redirección del sistema de archivos** .
-       -   Para obtener más información acerca de cómo supervisar el estado de la implementación de sistemas de salón de Skype v2, vea [administración de sistemas de planeación de las salas Skype v2 con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [administración de v2 de implementar sistemas de salón de Skype con el Monitor de Azure](azure-monitor.md) y [Administrar Skype salón Dispositivos de v2 de sistemas con Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
+       -   Para obtener más información acerca de cómo supervisar el estado de la implementación de salas de equipos de Microsoft, vea [administración de planeación de salas de equipos de Microsoft con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md), [administración de salas de equipos Deploy Microsoft con el Monitor de Azure](azure-monitor.md) y [Administrar Microsoft Los equipos de los dispositivos de salas con Azure Monitor](../../manage/skype-room-systems-v2/azure-monitor.md).
 
-   11. **Los archivos de configuración de copia SRS v2**: este paso copia los archivos del programa de instalación y configuración necesarios desde el kit de implementación de sistemas de salón de Skype v2 a la unidad de disco duro local. Personalización no es necesaria para este paso.
+   11. **Los archivos de configuración de copia SRS v2**: este paso copia los archivos del programa de instalación y configuración necesarios desde el kit de implementación de salas de equipos de Microsoft en la unidad de disco duro local. Personalización no es necesaria para este paso.
        -   Compruebe que están seleccionadas las **SRS v2 – paquete de aplicación SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
-   12. **Install-SRSv2--actualizaciones del sistema operativo**: este paso implementa las actualizaciones de sistema operativo obligatorio necesarias con la implementación de sistemas de salón de Skype v2. Siga este procedimiento:
-       -   Compruebe la [consola de configurar un v2 de sistemas de salón de Skype](console.md) para ver qué actualizaciones son necesarias.
+   12. **Install-SRSv2--actualizaciones del sistema operativo**: este paso implementa las actualizaciones de sistema operativo obligatorio necesarias con la implementación de salas de equipos de Microsoft. Siga este procedimiento:
+       -   Comprobar [Configure una consola de salas de equipos de Microsoft](console.md) para ver qué actualizaciones son necesarias.
        -   Compruebe que su **SRS v2 – paquete de actualizaciones del sistema operativo** incluye todas las actualizaciones necesarias.
        -   Compruebe que esté seleccionado el **SRS v2 – paquete de actualizaciones del sistema operativo** .
        -   Compruebe que la directiva de ejecución de PowerShell esté establecida en **el desvío**.
@@ -645,9 +646,9 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 
    15. **Reiniciar el equipo**: en este paso se reinicia el equipo después de que se configuran las características de Windows. Personalización no es necesaria para este paso.
 
-   16. **Agregar usuario de Skype Local**: este paso crea la cuenta de Skype local se usa para iniciar sesión en Windows y para iniciar la aplicación de sistemas de salón de Skype v2 de automáticamente. Este paso no tiene ningún paquete de software asociado con él y, personalización no se requiere para él.
+   16. **Agregar usuario de Skype Local**: este paso crea la cuenta de Skype local se usa para iniciar sesión en Windows automáticamente y para iniciar la aplicación de salas de equipos de Microsoft. Este paso no tiene ningún paquete de software asociado con él y, personalización no se requiere para él.
 
-   17. **Establecer de seguridad y configuración de aplicación de SRS**: este paso configura los sistemas de la sala de Skype v2 instalación de la aplicación para el próximo inicio del sistema operativo.
+   17. **Establecer de seguridad y configuración de aplicación de SRS**: este paso configura la instalación de la aplicación de salas de equipos de Microsoft para el próximo inicio del sistema operativo.
        -   Compruebe que están seleccionadas las **SRS v2 – Configurar paquete de instalación de SRS** y **Deshabilitar 64-bit redirección del sistema de archivos** .
 
 > [!IMPORTANT]
@@ -671,7 +672,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
    > [!WARNING]
    > Es muy importante que **propósito** se establece en **disponible**. Asegúrese de que el **propósito** es **no** **requerido**. También asegúrese de que seleccione **sólo medios y PXE** en la **que esté disponible al siguiente**.
    >
-   > Configuración de estos valores a otra cosa puede causar todos los equipos obtener la imagen de implementación de sistemas de salón de Skype al arrancar.
+   > Configuración de estos valores a otra cosa puede causar todos los equipos obtener la imagen de implementación de salas de equipos de Microsoft al arrancar.
 7. No especifique cualquier programación y seleccione **siguiente**.
 
 8. No cambiar nada dentro de la sección de la **Experiencia del usuario** y seleccione **siguiente**.
@@ -687,7 +688,7 @@ Puede descargar y fácilmente importar una secuencia de tareas de ejemplo y pers
 <a name="validate-and-troubleshoot-the-solution"></a>Validar y solucionar problemas de la solución
 --------------------------------------
 
-Una vez completada la secuencias de tareas de System Center Configuration Manager, debe realizar una ejecución de prueba para validar que la secuencia de tareas puede implementar y configurar unidades de sistemas de salón de Skype v2.
+Una vez completada la secuencias de tareas de System Center Configuration Manager, debe realizar una ejecución de prueba para validar que la secuencia de tareas puede implementar y configurar unidades de salas de equipos de Microsoft.
 
 1.  Conecte el dispositivo de prueba a la red por cable mediante uno de los adaptadores admitidos de Ethernet o utilizando el muelle de superficie. Si no se ha configurado la funcionalidad de arranque PXE para su entorno, puede usar la imagen de arranque en el USB unidad flash [creó anteriormente](https://docs.microsoft.com/sccm/osd/deploy-use/create-bootable-media) para iniciar desde USB y conectar con el Administrador de configuración.
 
@@ -720,13 +721,13 @@ Una vez completada la secuencias de tareas de System Center Configuration Manage
 
 8.  El resto del proceso de implementación es automático y no solicitar ninguna entrada del usuario más.
 
-9.  Después de la secuencia de tareas de implementación termina de configurar el dispositivo, verá la siguiente pantalla de configuración que le pide que configure la configuración de la aplicación de sistemas de salón de Skype v2.
+9.  Después de la secuencia de tareas de implementación termina de configurar el dispositivo, verá la siguiente pantalla de configuración que le pide que configure la aplicación de salas de equipos de Microsoft.
 
-    ![Pantalla inicial del programa de instalación para aplicación v2 de sistemas de salón de Skype](../../media/room-systems-scale-image2.png)
+    ![Pantalla inicial del programa de instalación para la aplicación de salas de equipos de Microsoft](../../media/room-systems-scale-image2.png)
 
-10.  Conecte el Surface Pro en la consola de v2 de sistemas de salón de Skype y configurar la configuración de la aplicación.
+10.  Conecte el Surface Pro en la consola de salas de equipos de Microsoft y establezca la configuración de la aplicación.
 
-11.  Validar que las funciones que aparecen en la [Ayuda de sistemas de salón de Skype v2](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) están trabajando en el dispositivo implementado.
+11.  Validar que las funciones que aparecen en la [Ayuda de salas de equipos de Microsoft](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) están trabajando en el dispositivo implementado.
 
 
 Para solucionar problemas de una instalación con errores, compruebe el archivo **SMSTS.log** , que registra todos los pasos que se ejecutan en una secuencia de tareas de administrador de configuración.

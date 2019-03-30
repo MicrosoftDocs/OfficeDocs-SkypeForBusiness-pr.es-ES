@@ -9,20 +9,21 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
+ms.collection: M365-voice
 description: Lea este tema para obtener información sobre cómo administrar las cuentas de Sistema de salas de Skype.
-ms.openlocfilehash: 715eda137395d2133b6b19dee4a9d2336923c13b
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699247"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012527"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Administrar las cuentas del Sistema de salas de Skype
  
 Lea este tema para obtener información sobre cómo administrar las cuentas de Sistema de salas de Skype. 
 
 > [!NOTE]
-> Sistemas de salón de Skype v2 es un producto diferente con dependencias diferentes y procedimientos de implementación. Para obtener información sobre los sistemas de la sala de Skype v2, vea el de v2 [Introducción a la administración](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)de sistemas de salón de Skype.
+> Salones de los equipos de Microsoft es un producto distinto con dependencias diferentes y procedimientos de implementación. Para obtener información sobre las salas de los equipos de Microsoft, vea la [Introducción a la administración](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)de salas de equipos de Microsoft.
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Mover la cuenta del sistema de salas de Skype entre grupos de servidores
 

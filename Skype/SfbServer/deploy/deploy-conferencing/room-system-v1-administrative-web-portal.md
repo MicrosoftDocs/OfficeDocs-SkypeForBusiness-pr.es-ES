@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
+ms.collection: M365-voice
 description: El Skype para sistemas de negocio Server Skype salón v1 (v1 SRS, anteriormente conocido como sistema de sala de Lync) administrativas Portal Web es un portal web que las organizaciones pueden usar para mantener las salas de conferencias de sistemas de salón de Skype. Los administradores pueden usar el Portal Web del SRS v1 administrativas para supervisar el estado del dispositivo, por ejemplo mediante la supervisión de dispositivos de audio y vídeo. Con este portal, los administradores también pueden recopilar información de diagnóstico de forma remota para supervisar el estado de las salas de conferencias.
-ms.openlocfilehash: d6575f83aaf76dee1255c37482cf4435e8e3771c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b616084016a3b660f4af5bcd3bda6926dfc7e286
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891948"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012908"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Implementar SRS v1 administrativas Web Portal en Skype para Business Server
 
@@ -243,7 +244,7 @@ Cuando se abre https://localhost/lrs, podrá ver la página de inicio de sesión
 
 Asegúrese de que la cuenta de usuario LRSApp está habilitado para SIP y que forma parte del grupo de seguridad LRSPowerUserAdminsGroup.
 
-#### <a name="does-the-srs-v1-administrative-web-portal-work-with-skype-room-systems-v2"></a>¿El portal web administrativo de SRS v1 funciona con Sistemas de salas de Skype v2?
+#### <a name="does-the-srs-v1-administrative-web-portal-work-with-microsoft-teams-rooms"></a>¿Funciona el portal de web administrativa v1 SRS con salas de equipos de Microsoft?
 
 No.
 

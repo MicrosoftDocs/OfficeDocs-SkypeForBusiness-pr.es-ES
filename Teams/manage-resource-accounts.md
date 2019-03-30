@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Obtenga información acerca de cómo administrar las cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: ad435a812191cc8f7b9061ac5fba2bbe626b908e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886064"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012958"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -38,11 +38,15 @@ En Microsoft Teams o Skype para profesionales en línea, cada llamada de cola o 
 
 Para empezar a es importante recordar algunas cosas:
   
-- Debe asignar una licencia de sistema de teléfono a una cuenta de recurso que se asociarán a la cola de llamada o de operador automático. Para obtener más información acerca de las licencias, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
-    
+- Una cola de llamada o de operador automático es necesario tener una cuenta de recurso asociado. Para obtener información detallada sobre las cuentas de recursos, vea [Administrar cuentas de recursos en los equipos](manage-resource-accounts.md) .
+- Si tiene previsto asignar un número de enrutamiento directa, debe adquirir y asignar las siguientes licencias para las cuentas de recursos \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico\).
+- Si se asigna un número de servicio de Microsoft en su lugar, debe adquirir y asignar las licencias siguientes a la cuenta del recurso \(Office 365 Enterprise E1, E3 o E5, con el complemento de sistema telefónico y un Plan de llamar a\).
 
-    > [!NOTE]
-    > Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+> [!NOTE] 
+> Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como automáticos en la nube y las colas de llamadas, para ahora tiene que usar el modelo de licencias de usuario.
+    
+> [!NOTE]
+> Para redirigir las llamadas a personas de la organización que están en línea, deben tener una licencia de **Sistema telefónico** y estar habilitados para Enterprise Voice o tienen planes de llamada de Office 365. Vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
   
 - Puede asignar a un número de híbrido de enrutamiento directa a la cuenta del recurso.  Para obtener información detallada, vea [Planear el enrutamiento directo](direct-routing-plan.md) .
 - Planes de llamada de Microsoft, sólo se pueden asignar números de pago y los números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a una cuenta de recurso. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
@@ -54,6 +58,12 @@ Para asignar un número de teléfono a una cuenta de recurso, necesitará obtene
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de los Estados Unidos.
+
+## <a name="create-a-resource-account-in-admin-center"></a>Crear una cuenta de recursos en el centro de administración
+
+Para crear una cuenta de recursos en el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización** > **las cuentas de recursos**, haga clic en **+ Agregar**y rellene el nombre para mostrar, nombre de usuario, a continuación, seleccione el nombre de dominio y haga clic en **Guardar**.
+
+Para aplicar una licencia a la cuenta del recurso, vaya a la ficha de usuarios del centro de administración de Office 365.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Crear una cuenta de recursos en Powershell
 
@@ -82,7 +92,11 @@ Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
 Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
 ```
 
+Si no se aplican una licencia durante la creación de la cuenta del recurso se producirá un error en la asignación de números de teléfono. 
+
 Para obtener más información acerca de este comando, vea [Set-CsOnlineVoiceApplicationInstance](https://docs.microsoft.com/powershell/module/skype/set-csonlinevoiceapplicationinstance?view=skype-ps) .
+
+
 
 ## <a name="manage-resource-account-settings-in-microsoft-teams-admin-center"></a>Administrar la configuración de la cuenta de recursos en el centro de administración de Microsoft Teams
 

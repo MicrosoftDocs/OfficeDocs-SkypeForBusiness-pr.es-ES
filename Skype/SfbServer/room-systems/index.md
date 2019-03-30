@@ -1,5 +1,5 @@
 ---
-title: Sistemas de salas de Skype v2
+title: Salones de equipos de Microsoft
 ms.reviewer: null
 ms.author: jambirk
 author: jambirk
@@ -11,17 +11,17 @@ ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Las consideraciones de planeación relevantes para la implementación de sistemas de salón de Skype v2 y cómo implementar y administrar el sistema.
+description: Las consideraciones de planeación relevantes para la implementación de salas de equipos de Microsoft y cómo implementar y administrar el sistema.
 ---
 
-<h2>Sala de Skype sistemas v2 & #x 2013; <br>la próxima generación de sistemas de las salas de Skype </h2>
+<h2>Salones de equipos de Microsoft</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <p>Espacios de reunión de transformación comprendido entre áreas unirse pequeñas y grandes salas de conferencia con un Skype enriquecido, colaboración para profesionales experiencia that& #39; s fáciles de usar, implementar y administrar. </p>
+                        <p>Espacios de reunión de transformación comprendido entre áreas pequeñas unirse y salas de conferencias de gran tamaño con un enriquecido, colaboración equipos experiencia that& #39; s fáciles de usar, implementar y administrar. </p>
                         <p>Iniciar reuniones en el tiempo con un solo toque join, a continuación, al instante de project a la presentación en la sala y el recurso compartido a los participantes remotos. </p>
                         <p>Seleccione el sistema derecho y periféricos de sonido de vídeo en uno de nuestros socios: Logitech, Crestron, Polycom, Lenovo y HP.</p>
                         <p></p>
@@ -36,7 +36,7 @@ description: Las consideraciones de planeación relevantes para la implementaci�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="../media/srs-room.jpg" alt="A conference table with Skype Room Systems v2 equipment" />
+                            <img src="../media/srs-room.jpg" alt="A conference table with Microsoft Teams Rooms equipment" />
                         </div>
                     </div>
                 </div>
@@ -52,7 +52,7 @@ description: Las consideraciones de planeación relevantes para la implementaci�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/tasks-blue.svg" alt="Tasks" />
+                            <img src="https://docs.microsoft.com/office/media/icons/tasks-teams.svg" alt="Tasks" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -70,7 +70,7 @@ description: Las consideraciones de planeación relevantes para la implementaci�
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/deploy-blue.svg" alt="Deploy" />
+                            <img src="https://docs.microsoft.com/office/media/icons/deploy-teams.svg" alt="Deploy" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -102,9 +102,9 @@ description: Las consideraciones de planeación relevantes para la implementaci�
 </ul>
 
 > [!NOTE]
-> Sistemas de salón de Skype v2 está pensada para su uso con Skype para Business Server 2019, Skype Business Server 2015, Microsoft Teams o Skype para profesionales en línea.  <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con sistemas de salas de Skype v2. 
+> Salones de los equipos de Microsoft está pensada para su uso con los equipos, Skype para profesionales en línea, Skype para Business Server 2019 o Skype para Business Server 2015.  <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con salas de equipos de Microsoft.
 
-Estos artículos están diseñados para las personas que la obligación de planeación, implementación y administración de estos dispositivos y no para los usuarios del sistema. Los usuarios estarán más interesados en los sistemas de salón de Skype v2 [Ayuda en pantalla](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Estos artículos están diseñados para las personas que la obligación de planeación, implementación y administración de estos dispositivos y no para los usuarios del sistema. Los usuarios estarán más interesados en la [Ayuda en pantalla](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)de salas de equipos de Microsoft.
 
 > [!NOTE]
-> Sistema de sala de Skype y sistemas de salón de Skype v2 son distintos productos con dependencias diferentes y procedimientos de implementación. 
+> [Sistema de salón de Skype](../deploy/deploy-clients/lrs-migration.md) (anteriormente en el sistema de Lync sala) y las salas de los equipos de Microsoft son distintos productos con dependencias diferentes y procedimientos de implementación.

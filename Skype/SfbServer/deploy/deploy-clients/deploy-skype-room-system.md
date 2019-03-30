@@ -9,13 +9,14 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
+ms.collection: M365-voice
 description: Obtenga información acerca de cómo implementar del sistema de la sala de Skype, una reunión de solución de sala formado por integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
-ms.openlocfilehash: 94a9b1cb7ff3f341a51944cdc678bc66e44831cb
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699320"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012570"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planes de implementación de sistema de sala de Skype en Skype para la empresa
  
@@ -25,7 +26,7 @@ Obtenga información acerca de cómo implementar del sistema de la sala de Skype
 > Para los propósitos de este contenido, Skype para la empresa para sistema de sala inteligentes, RL Crestron, y Polycom CX8000 se hará referencia a como sistema de sala de Skype. 
 
 > [!NOTE]
-> Sistemas de salón de Skype v2 es un producto diferente con dependencias diferentes y procedimientos de implementación. Para obtener información sobre los sistemas de la sala de Skype v2, vea [planeación de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
+> Salones de los equipos de Microsoft es un producto distinto con dependencias diferentes y procedimientos de implementación. Para obtener información sobre las salas de los equipos de Microsoft, consulte [Planeación de salas de equipos de Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md).
   
  Sistema de sala de Skype es un Skype para cliente de comunicaciones unificadas de negocio que se ha optimizado para Skype para reuniones de negocios en salas de conferencias físico.
   
@@ -65,9 +66,9 @@ En la siguiente tabla indica la interoperabilidad del cliente del sistema de sal
 |**Topología**|**AD**|**Skype Empresarial**|**Exchange**|
 |:-----|:-----|:-----|:-----|
 |Implementación local  <br/> |Implementación local  <br/> |Implementación local  <br/> |Implementación local  <br/> |
-|Office 365 varios inquilinos (O365MT)  <br/> |En línea  <br/> |En línea  <br/> |En línea  <br/> |
-|Office 365 Dedicated  <br/> (Póngase en contacto con su proveedor de servicios)  <br/> |Implementación local  <br/> |En línea  <br/> |En línea  <br/> |
-|Híbrido (dominio dividido)  <br/> No compatible  <br/> |Implementación local  <br/> Implementación local  <br/> Implementación local  <br/> |Implementación local  <br/> En línea  <br/> En línea  <br/> |En línea  <br/> En línea  <br/> Implementación local  <br/> |
+|Office 365 varios inquilinos (O365MT)  <br/> |Online  <br/> |Online  <br/> |Online  <br/> |
+|Office 365 Dedicated  <br/> (Póngase en contacto con su proveedor de servicios)  <br/> |Implementación local  <br/> |En línea  <br/> |Online  <br/> |
+|Híbrido (dominio dividido)  <br/> No compatible  <br/> |Implementación local  <br/> Implementación local  <br/> Implementación local  <br/> |Implementación local  <br/> En línea  <br/> Online  <br/> |Online  <br/> En línea  <br/> Implementación local  <br/> |
    
 Las versiones anteriores a Lync Server 2013 son compatibles parcialmente. En estos escenarios, sistema de sala de Skype pueden participar en Skype para conferencias de empresa (aquellos que están programados por los usuarios hospedados en Lync Server 2010) como las conferencias son "públicas", lo que significa que las conferencias no están personalizadas para el acceso restringido. 
   
@@ -79,7 +80,7 @@ En la siguiente tabla indica la compatibilidad de cliente del sistema de salas d
 |**Exchange**|**Implementación local**|**Online**|**Híbrido**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Sí (un solo bosque)  <br/> |N/D  <br/> |N/D  <br/> |
-|Exchange 2013  <br/> |Sí (compatibilidad con varios bosques disponible para Exchange 2013 CU6 y versiones posteriores)  <br/> |Sí  <br/> |Sí  <br/> |
-|Exchange 2016  <br/> |Sí (múltiples bosques soporte disponible)  <br/> |Sí  <br/> |Sí  <br/> |
+|Exchange 2013  <br/> |Sí (compatibilidad con varios bosques disponible para Exchange 2013 CU6 y versiones posteriores)  <br/> |Sí  <br/> |Sí   <br/> |
+|Exchange 2016  <br/> |Sí (múltiples bosques soporte disponible)  <br/> |Sí   <br/> |Sí  <br/> |
    
 

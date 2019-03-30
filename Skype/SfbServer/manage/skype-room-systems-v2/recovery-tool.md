@@ -1,5 +1,5 @@
 ---
-title: Utilizar la herramienta de recuperación de sistemas de salón de Skype v2
+title: Utilizar la herramienta de recuperación de salas de equipos de Microsoft
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -8,31 +8,32 @@ ms.date: 4/17/2018
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
+ms.collection: M365-voice
 localization_priority: Normal
-description: En este artículo se describe cómo usar la herramienta de recuperación para sistemas de salón de Skype v2, que se pueden utilizar para incorporar un sistema caducado en un estado admitido.
-ms.openlocfilehash: 04bce72f6a8812c35b92f9f92d445cdf8765d110
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+description: En este artículo se describe cómo usar la herramienta de recuperación para salas de equipos de Microsoft, que se pueden utilizar para incorporar un sistema caducado en un estado admitido.
+ms.openlocfilehash: 9580a94c96b7982a3030ccc0435be8e05f7c4a25
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965992"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013083"
 ---
-# <a name="use-the-skype-room-systems-v2-recovery-tool"></a>Utilizar la herramienta de recuperación de sistemas de salón de Skype v2
+# <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Utilizar la herramienta de recuperación de salas de equipos de Microsoft
  
-En este artículo se describe cómo usar la herramienta de recuperación para sistemas de salón de Skype v2, que se pueden utilizar para incorporar un sistema caducado en un estado admitido. ¿Utilizar esta herramienta cuando la consola de v2 de sistemas de salón de Skype muestra un error "sistema config caducada".
+En este artículo se describe cómo usar la herramienta de recuperación para salas de equipos de Microsoft, que se pueden utilizar para incorporar un sistema caducado en un estado admitido. ¿Utilizar esta herramienta cuando la consola de salas de equipos de Microsoft muestra un error "sistema config caducada".
   
 
 <a name="Prerequisites"> </a>  
 ## <a name="prerequisites"></a>Requisitos previos
 
-Descargue el último [paquete de instalación de sistemas de salón de Skype v2](https://go.microsoft.com/fwlink/?linkid=851168) y extraer a un USB memoria pincel recurso compartido de red accesible para el dispositivo de v2 de sistemas de salón de Skype.
+Descargue el último [paquete de instalación de salas de equipos de Microsoft](https://go.microsoft.com/fwlink/?linkid=851168) y extraer a un USB memoria pincel recurso compartido de red accesible para el dispositivo de salas de equipos de Microsoft.
 
 También es posible que necesite instalar [KB4089848](http://download.windowsupdate.com/d/msdownload/update/software/updt/2018/03/windows10.0-kb4089848-x64_db7c5aad31c520c6983a937c3d53170e84372b11.msu).
 
 <a name="Windows-ver"> </a>
 ## <a name="verify-windows-version"></a>Comprobar la versión de Windows 
 
-1. Inicio de sesión a una cuenta de administrador, vaya a **Configuración > configuración de Windows > Administrador de inicio de sesión en** desde el dispositivo v2 de sistemas de salón de Skype. Esta opción le lleva a la pantalla de inicio de sesión.
+1. Inicio de sesión a una cuenta de administración, vaya a **Settings> Setting> Administrador de inicio de sesión de Windows** desde el dispositivo de salas de equipos de Microsoft. Esta opción le lleva a la pantalla de inicio de sesión.
 2. Cuenta de inicio de sesión a una cuenta de administrador, el administrador predeterminado bienestar `admin` con la contraseña `sfb`.
 3. Haga clic en el menú Inicio y el tipo `winver.exe` en el cuadro de búsqueda y haga clic en **Run Command* en el resultado.
 4. Tome nota del número después de 'Versión' en la segunda línea del panel de información.
@@ -52,17 +53,17 @@ También es posible que necesite instalar [KB4089848](http://download.windowsupd
 <a name="Perform"> </a>
 ## <a name="perform-a-recovery"></a>Realizar una recuperación
 
-1. Inicie sesión en la cuenta de administrador en su dispositivo de sistemas de salón de Skype v2 y, inicie un símbolo del sistema con privilegios elevados.
-2. Compruebe desde el dispositivo v2 de Skype salón sistemas que pueden tener acceso a la `RecoveryTool.ps1` archivo, que se incluye en los archivos extraídos desde el paquete de instalación de sistemas de salón de Skype v2. El kit de puede encontrarse en el recurso compartido de red o una unidad USB utilizado al preparar los requisitos previos.
+1. Inicie sesión en la cuenta de administrador en el dispositivo de salas de equipos de Microsoft y, inicie un símbolo del sistema con privilegios elevados.
+2. Compruebe desde el dispositivo de salas de equipos de Microsoft que pueden tener acceso a la `RecoveryTool.ps1` archivo, que se incluye en los archivos extraídos desde el paquete de instalación de salas de equipos de Microsoft. El kit de puede encontrarse en el recurso compartido de red o una unidad USB utilizado al preparar los requisitos previos.
 3. Ejecute el comando Powershell.exe `-ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"`.
 4. Cuando se le solicite mediante la opción Seleccionar de secuencia de comandos `1:"Repair System"`.
-5. Al finalizar, reinicie el dispositivo de v2 de sistemas de salón de Skype. Se reiniciará automáticamente nuevo y surgen recuperado totalmente la segunda vez.
+5. Al finalizar, reinicie el dispositivo de salas de equipos de Microsoft. Se reiniciará automáticamente nuevo y surgen recuperado totalmente la segunda vez.
 
 
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
  
-[Ayuda de la versión 2 de sistemas de salón de Skype](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Ayuda de salas de equipos de Microsoft](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
-[Administrar Sistemas de salas de Skype v2](skype-room-systems-v2.md)
+[Administrar las salas de equipos de Microsoft](skype-room-systems-v2.md)

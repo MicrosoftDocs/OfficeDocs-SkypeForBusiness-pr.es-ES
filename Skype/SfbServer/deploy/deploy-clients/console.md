@@ -1,5 +1,5 @@
 ---
-title: Configurar una consola de Sistemas de salas de Skype v2
+title: Configurar una consola de salas de equipos de Microsoft
 ms.author: jambirk
 author: jambirk
 ms.reviewer: Travis-Snoozy
@@ -8,68 +8,68 @@ ms.audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-ms.collection: Strat_SB_Admin
+ms.collection:
+- Strat_SB_Admin
+- M365-voice
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
-description: En este artículo se describe cómo configurar la consola de v2 de sistemas de salón de Skype y sus periféricos.
-ms.openlocfilehash: 00203c8aa781c489d8a1cc8c2bf91a364bea057f
-ms.sourcegitcommit: c7c8e5f6d8b25e68bf071745517d38eb45c1e172
+description: En este artículo se describe cómo configurar la consola de salas de equipos de Microsoft y sus periféricos.
+ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
+ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28694723"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31012616"
 ---
-# <a name="configure-a-skype-room-systems-v2-console"></a>Configurar una consola de Sistemas de salas de Skype v2
- 
-En este artículo se describe cómo configurar la consola de v2 de sistemas de salón de Skype y sus periféricos.
+# <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de salas de equipos de Microsoft
+
+En este artículo se describe cómo configurar la consola de salas de equipos de Microsoft y sus periféricos.
   
-Sólo debe realizar estos pasos si el Skype es necesario para las cuentas empresariales y de Exchange ya se han creado y probado tal como se describe en [implementar sistemas de salón de Skype v2](room-systems-v2.md). Necesitará el hardware y software descritos en [requisitos de sistemas de salón de Skype v2](../../plan-your-deployment/clients-and-devices/requirements.md). Este tema incluye las secciones siguientes:
+Sólo debe realizar estos pasos si el Skype es necesario para las cuentas empresariales y de Exchange ya se han creado y probado tal como se describe en [Implementar Microsoft los equipos locales](room-systems-v2.md). Necesitará el hardware y software descritos en [requisitos de salas de equipos de Microsoft](../../plan-your-deployment/clients-and-devices/requirements.md). Este tema incluye las secciones siguientes:
   
 - [Preparar los medios de instalación](console.md#Prep_Media)
-    
 - [Instalar un certificado de entidad de certificación privado en la consola](console.md#Certs)
-    
-- [Instalación de Windows 10 y la aplicación de consola Sistemas de salas de Skype](console.md#Reimage)
-   
+- [Instalar Windows 10 y la aplicación de consola de salas de equipos de Microsoft](console.md#Reimage)
 - [Configuración inicial de la consola](console.md#Initial)
-    
-- [Lista de comprobación de implementación de sistemas de salón de Skype v2](console.md#Checklist)
-    
+- [Lista de comprobación de implementación de salas de equipos de Microsoft](console.md#Checklist)
+
 > [!NOTE]
-> Sistemas de salón de Skype v2 sólo funciona en un Skype configurada correctamente para el entorno empresarial donde las cuentas de dispositivos estén configuradas correctamente, tal como se describe en [implementar sistemas de salón de Skype v2](room-systems-v2.md).
+> Salones de los equipos de Microsoft sólo funciona en un Skype configurada correctamente para el entorno empresarial donde las cuentas de dispositivos estén configuradas correctamente, tal como se describe en [Implementar Microsoft los equipos locales](room-systems-v2.md).
   
 ## <a name="prepare-the-installation-media"></a>Preparar los medios de instalación
 <a name="Prep_Media"> </a>
 
-Instalación de la aplicación de consola de sistemas de salón de Skype v2 requiere un dispositivo de almacenamiento USB con al menos 32GB de capacidad. No debe haber ningún otro archivo en el dispositivo; se perderán todos los archivos existentes en el almacenamiento USB.
+Instalación de la aplicación de consola de salas de equipos de Microsoft requiere un dispositivo de almacenamiento USB con al menos 32GB de capacidad. No debe haber ningún otro archivo en el dispositivo; se perderán todos los archivos existentes en el almacenamiento USB.
   
 > [!NOTE]
-> Error al crear los discos de instalación de sistemas de salón de Skype v2 según estas instrucciones probablemente tendrá como resultado un comportamiento inesperado.
+> Error al crear los discos de instalación de salas de equipos de Microsoft según estas instrucciones probablemente tendrá como resultado un comportamiento inesperado.
 
 > [!NOTE]
-> El proceso siguiente es para la creación de medios de instalación de dispositivos de imagen nuevos del sistema de salas de Skype v2. Dispositivos existentes, de forma predeterminada, se actualizan automáticamente desde el almacén de Windows y Windows Update.
+> El proceso siguiente es para la creación de medios de instalación de dispositivos de imagen nuevos salones de los equipos de Microsoft. Dispositivos existentes, de forma predeterminada, se actualizan automáticamente desde el almacén de Windows y Windows Update.
   
-1. Descargue el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842). 
+1. Descargar el [script CreateSrsMedia.ps1](https://go.microsoft.com/fwlink/?linkid=867842).
 2. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
-3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de sistemas de salón de Skype v2 USB.
+3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de Microsoft los equipos salones USB.
 
 > [!CAUTION]
 > El nombre de la carpeta que se ejecutan los medios de secuencia de comandos de creación de no puede contener un espacio. Si hay un espacio de nombre de carpeta, se producirá un error en la secuencia de comandos.
 
 La secuencia de comandos CreateSrsMedia.ps1 automatiza las tareas siguientes:
 
-1. Descargue al instalador MSI más reciente para sistemas de salón de Skype v2.
-2. Determinar la compilación de Windows que el usuario debe suministrar. Las versiones más recientes pueden o no ser probadas y compatibles para su uso con los dispositivos de sistema de salas de Skype v2.
+1. Descargue al instalador MSI más reciente para salas de equipos de Microsoft.
+2. Determinar la compilación de Windows que el usuario debe suministrar. Las versiones más recientes pueden o no ser probadas y compatibles para su uso con dispositivos de salas de equipos de Microsoft.
 3. Descargar componentes auxiliares necesarios.
 4. Ensamblar los componentes necesarios en los medios de instalación.
 
-Cuando haya terminado, quitar el disco USB de su equipo y proceda a [instalar 10 de Windows y la aplicación de consola de sistemas de salón de Skype v2](console.md#Reimage).
+Se requiere una versión específica de Windows 10, y esta versión sólo está disponible para los clientes de licencias por volumen.  Puede obtener una copia desde el [Centro de servicio de licencias por volumen](https://www.microsoft.com/Licensing/servicecenter/).
+
+Cuando termine, quitar el disco USB de su equipo y continúe con la [aplicación de consola de instalar Windows 10 y las salas de los equipos de Microsoft](console.md#Reimage).
 
     
-## <a name="install-windows-10-and-the-skype-room-systems-v2-console-app"></a>Instalación de Windows 10 y la aplicación de consola Sistemas de salas de Skype
+## <a name="install-windows-10-and-the-microsoft-teams-rooms-console-app"></a>Instalar Windows 10 y la aplicación de consola de salas de equipos de Microsoft
 <a name="Reimage"> </a>
 
-Debe aplicar el medio de instalación que se ha creado. El dispositivo de destino se ejecutará como un dispositivo y el usuario predeterminado se establecerá en sólo ejecutar la aplicación de consola de v2 de sistemas de salón de Skype.
+Debe aplicar el medio de instalación que se ha creado. El dispositivo de destino se ejecutará como un dispositivo y el usuario predeterminado se establecerá en sólo ejecutar la aplicación de consola de salas de equipos de Microsoft.
 
 1. Si el dispositivo de destino se instalará en un muelle (por ejemplo, un Surface Pro), desconectar desde el muelle.
 
@@ -133,11 +133,11 @@ En la actualización del creador, necesitará utilizar la secuencia de comandos 
     
 13. Reinicie el sistema.
     
-El idioma deseado ahora se aplica a la consola de v2 de sistemas de salón de Skype.
+El idioma deseado ahora se aplica a la consola de salas de equipos de Microsoft.
 ## <a name="initial-set-up-of-the-console"></a>Configuración inicial de la consola
 <a name="Initial"> </a>
 
-Después de instalar Windows, la aplicación de consola de sistemas de salón de Skype v2 entra en su proceso de instalación inicial cuando se inicia siguiente o si se ha seleccionado la opción Reboot.
+Después de instalar Windows, la aplicación de consola de salas de equipos de Microsoft entra en su proceso de instalación inicial cuando se inicia siguiente o si se ha seleccionado la opción Reboot.
   
 1. Aparece la pantalla Cuenta de usuario. Escriba la Skype inicio de sesión de dirección (en formato user@domain) de la cuenta de sala para usarse con la consola.
     
@@ -159,10 +159,10 @@ Después de instalar Windows, la aplicación de consola de sistemas de salón de
     
 6. Haga clic en **Finalizar**.
     
-La aplicación de consola de sistemas de salón de Skype v2 debe iniciar inmediatamente el inicio de sesión en Skype para Business Server con las credenciales especificadas anteriormente y también debe comenzar a sincronizar su calendario con Exchange utilizando las mismas credenciales. Para obtener información detallada sobre el uso de la aplicación de consola, consulte la [Ayuda de sistemas de salón de Skype versión 2](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+La aplicación de consola de salas de equipos de Microsoft debe iniciar inmediatamente el inicio de sesión en Skype para Business Server con las credenciales especificadas anteriormente y también debe comenzar a sincronizar su calendario con Exchange utilizando las mismas credenciales. Para obtener información detallada sobre el uso de la aplicación de consola, consulte la [Ayuda de salas de equipos de Microsoft](https://support.office.com/en-US/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
 > [!IMPORTANT]
-> Sistemas de salón de Skype v2 se basa en la presencia de hardware de la consola certificados. Incluso una imagen creada correctamente que contiene la aplicación de consola de sistemas de salón de Skype v2 no se iniciará pasadas de un documento el procedimiento de instalación inicial, a menos que se detecta el hardware de la consola. Para las soluciones Surface Pro en función, debe estar conectado el Surface Pro a su hardware de acoplamiento que lo acompaña para pasar esta comprobación.
+> Salones de los equipos de Microsoft se basa en la presencia de hardware de la consola certificados. Incluso una imagen creada correctamente que contiene la aplicación de consola de salas de equipos de Microsoft no se iniciará pasadas de un documento el procedimiento de instalación inicial, a menos que se detecta el hardware de la consola. Para las soluciones Surface Pro en función, debe estar conectado el Surface Pro a su hardware de acoplamiento que lo acompaña para pasar esta comprobación.
   
 > [!NOTE]
 > Algunos usuarios de idiomas distintos del inglés pueden necesitar un teclado físico conectado a la consola durante la instalación inicial en caso de que no se admiten los símbolos en el teclado táctil.
@@ -170,7 +170,7 @@ La aplicación de consola de sistemas de salón de Skype v2 debe iniciar inmedia
 ### <a name="install-a-private-ca-certificate-on-the-console"></a>Instalar un certificado de entidad de certificación privado en la consola
 <a name="Certs"> </a>
 
-La consola de sistemas de salón de Skype v2 debe confiar en los certificados usados por el Skype para servidores empresariales y de Exchange a que se conecta. Para O365, este proceso se realiza automáticamente, puesto que los servidores utilizan entidades de certificación públicas y Windows 10 confía en ellas automáticamente. En un caso donde la entidad emisora de certificados es privada, por ejemplo, una implementación local con Active Directory y la entidad emisora de certificados de Windows, puede agregar el certificado a la consola de v2 de sistemas de salón de Skype en un par de maneras:
+Debe confiar en los certificados usados por el Skype para servidores empresariales y de Exchange a que se conecta la consola de salas de equipos de Microsoft. Para O365, este proceso se realiza automáticamente, puesto que los servidores utilizan entidades de certificación públicas y Windows 10 confía en ellas automáticamente. En un caso donde la entidad emisora de certificados es privada, por ejemplo, una implementación local con Active Directory y la entidad emisora de certificados de Windows, puede agregar el certificado a la consola de salas de equipos de Microsoft en un par de maneras:
   
 - Puede unirse a la consola a Active Directory y que agregará automáticamente los certificados necesarios, dado la entidad emisora de certificados se publica en Active Directory (opción de implementación normal).
     
@@ -191,9 +191,9 @@ La consola de sistemas de salón de Skype v2 debe confiar en los certificados us
 ### <a name="join-an-active-directory-domain-optional"></a>Unirse a un dominio de Active Directory (opcional)
 <a name="Certs"> </a>
 
-Puede unirse a consolas de sistemas de salón de Skype v2 a su dominio. Consolas de sistemas de salón de Skype v2 deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC debido a que muchas de las directivas de estación de trabajo no son compatibles con sistemas de salas de Skype v2. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente sistemas de salón de Skype v2. Si desea obtener más información sobre la administración de la configuración de GPO, consulte [Manage Skype Room Systems v2](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
+Puede unirse a consolas de salas de equipos de Microsoft a su dominio. Consolas de salas de equipos de Microsoft deben ubicarse en una unidad organizativa independiente desde estaciones de trabajo de sus PC porque muchas de las directivas de estación de trabajo no son compatibles con Microsoft los equipos locales. Un ejemplo común son las directivas de cumplimiento de contraseña que se impiden que se inicie automáticamente salones de los equipos de Microsoft. Para obtener información acerca de la administración de configuraciones de GPO, consulte [Manage Rooms de los equipos de Microsoft](../../manage/skype-room-systems-v2/room-systems-v2-operations.md).
   
-### <a name="to-join-skype-room-system-v2-to-a-domain"></a>Para unir Sistemas de salas de Skype v2 a un dominio
+### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>Para unirse a salones de los equipos de Microsoft a un dominio
 
 1. Inicio de sesión en la consola de la administración de cuenta (consulte [administración de modo y el dispositivo de administración](../../manage/skype-room-systems-v2/room-systems-v2-operations.md#AdminMode)).
     
@@ -205,15 +205,15 @@ Puede unirse a consolas de sistemas de salón de Skype v2 a su dominio. Consolas
    Add-Computer -DomainName <Fully qualified domain> -OUPath "OU=<Child OU>, … ,OU=<Top level OU>,DC=<child domain>,…,DC=<top level domain>"
    ```
 
-Por ejemplo, si su nombre de dominio completo es redmond.corp.microsoft.com y desea que las consolas de v2 de sistemas de salón de Skype para estar en un "v2 de sistemas de las salas de Skype" unidad organizativa que es un elemento secundario de una unidad organizativa "recursos", el comando será:
+Por ejemplo, si su nombre de dominio completo es redmond.corp.microsoft.com y desea que las consolas de salas de equipos de Microsoft para estar en una unidad organizativa "Salas de equipos de Microsoft" que es un elemento secundario de una unidad organizativa "recursos", el comando será:
   
 ```
-Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Skype_Room_System,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
+Add-Computer -DomainName redmond.corp.microsoft.com -OUPath "OU=Microsoft_Teams_Rooms,OU=Resources,DC=redmond,DC=corp,DC=microsoft,DC=com"
 ```
 
  Si desea cambiar el nombre del equipo al unir a un dominio, use la marca - NewName seguida por el nombre del equipo nuevo.
   
-## <a name="skype-room-systems-v2-deployment-checklist"></a>Lista de comprobación de implementación de sistemas de salón de Skype v2
+## <a name="microsoft-teams-rooms-deployment-checklist"></a>Lista de comprobación de implementación de salas de equipos de Microsoft
 <a name="Checklist"> </a>
 
 Utilizar la lista de comprobación siguiente mientras se hace una comprobación final que se han configurado totalmente la consola y todas sus periféricos:
@@ -249,13 +249,13 @@ Utilizar la lista de comprobación siguiente mientras se hace una comprobación 
 |☐  <br/> |La base puede girar sin obstáculos.  <br/> |
 |☐  <br/> |El brillo de la pantalla es el adecuado para el entorno.  <br/> |
    
-## <a name="see-also"></a>Vea también
+## <a name="see-also"></a>Consulte también
 <a name="Checklist"> </a>
 
-[Plan for Skype Room Systems v2](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+[Plan para salas de equipos de Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
   
-[Implementar Sistemas de salas de Skype v2](room-systems-v2.md)
+[Implementación de salas de equipos de Microsoft](room-systems-v2.md)
   
-[Configurar una consola de Sistemas de salas de Skype v2](console.md)
+[Configurar una consola de salas de equipos de Microsoft](console.md)
   
-[Administrar Sistemas de salas de Skype v2](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
