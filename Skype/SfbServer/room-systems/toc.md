@@ -1,12 +1,11 @@
-# [Sistemas de salas de Skype v2](index.md)
-
+# [Salas de Microsoft Teams](index.md)
 ## Plan
-### [Información general sobre la planeación del Sistemas de salas de Skype v2](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
+### [Información general sobre la planeación de salas de Microsoft Teams](../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
 ### [Soporte de versión](../plan-your-deployment/clients-and-devices/srs2-lifecycle-support.md)
 ### [Notas de la versión](../plan-your-deployment/clients-and-devices/srs2-release-note.md)
 ### [Preparar el entorno](../plan-your-deployment/clients-and-devices/srs-v2-prep.md)
 ### [Requisitos](../plan-your-deployment/clients-and-devices/requirements.md) 
-### [Licencias en línea](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+### [Licencias en línea](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2.md)
 ### [Administración del plan con Azure Monitor](../plan-your-deployment/clients-and-devices/azure-monitor.md)
 
 ## Implementación
@@ -19,6 +18,7 @@
 ### [Configurar una consola](../deploy/deploy-clients/console.md)
 ### [Con el Administrador de configuración de System Center](../deploy/deploy-clients/room-systems-scale.md)
 ### [Administración con Azure Monitor](../deploy/deploy-clients/azure-monitor.md)
+### [Migrar SRS v1 o LRS](../deploy/deploy-clients/lrs-migration.md)
 
 ## Administrar
 ### [Introducción a la administración](../manage/skype-room-systems-v2/skype-room-systems-v2.md)
@@ -27,4 +27,4 @@
 ### [Dispositivos con Azure Monitor](../manage/skype-room-systems-v2/azure-monitor.md)
 ### [Configuración con un archivo XML](../manage/skype-room-systems-v2/xml-config-file.md)
 ### [Usar la herramienta de recuperación](../manage/skype-room-systems-v2/recovery-tool.md)
-### [Migrar](../deploy/deploy-clients/lrs-migration.md)
+
