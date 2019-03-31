@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Obtenga información acerca de cómo administrar las cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: b24538e73d236da2c7ee9e889b7cd117a3c931b0
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012958"
+ms.locfileid: "31013648"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -59,7 +59,7 @@ Para asignar un número de teléfono a una cuenta de recurso, necesitará obtene
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener números de servicio. Vaya a [administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) en su lugar para ver cómo hacerlo desde fuera de los Estados Unidos.
 
-## <a name="create-a-resource-account-in-admin-center"></a>Crear una cuenta de recursos en el centro de administración
+## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
 
 Para crear una cuenta de recursos en el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización** > **las cuentas de recursos**, haga clic en **+ Agregar**y rellene el nombre para mostrar, nombre de usuario, a continuación, seleccione el nombre de dominio y haga clic en **Guardar**.
 

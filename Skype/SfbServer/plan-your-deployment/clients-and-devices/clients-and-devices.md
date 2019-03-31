@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 95f0852e-391d-4345-985f-0a2da50491fa
 description: 'Resumen: revisión de los clientes y aplicaciones compatibles para Skype Empresarial.'
-ms.openlocfilehash: 0aff83afc14401e3b8d165f108415cb32c407e60
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 56d397d1cdab0f63c856934c4ff66c834b0b8137
+ms.sourcegitcommit: c355738d09c2697834373e27ffa1a010457ed583
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012750"
+ms.locfileid: "31013552"
 ---
 # <a name="plan-for-clients-and-devices"></a>Planificar los clientes y los dispositivos
 
@@ -80,7 +80,7 @@ El entorno de Infraestructura de escritorio virtual (VDI) se utiliza en algunas 
 
 ### <a name="microsoft-teams-rooms"></a>Salones de equipos de Microsoft
 
-Salones de los equipos de Microsoft es la solución de Microsoft más reciente conferencia que utiliza una interfaz familiar y fácil de implementar y administran, aprovechamiento de equipamiento existente como paneles LCD para facilitar la instalación. Salones de los equipos de Microsoft usa una aplicación UWP diseñado específicamente se está ejecutando en un Surface Pro 4 o Surface Pro en un modo de consola (una vez implementada la aplicación UWP es la única aplicación que se ejecutará en el dispositivo) y requiere su propia cuenta de dispositivo en su implementación. El software se actualiza a través de la Tienda Windows y de Windows Update. Consulte https://aka.ms/SRSDocs para ver más detalles sobre cómo se usan estas consolas de salas en su implementación. 
+Salones de los equipos de Microsoft es la solución de Microsoft más reciente conferencia que utiliza una interfaz familiar y fácil de implementar y administran, aprovechamiento de equipamiento existente como paneles LCD para facilitar la instalación. Salones de los equipos de Microsoft usa una aplicación UWP diseñado específicamente se está ejecutando en un Surface Pro 4 o Surface Pro en un modo de consola (una vez implementada la aplicación UWP es la única aplicación que se ejecutará en el dispositivo) y requiere su propia cuenta de dispositivo en su implementación. El software se actualiza a través de la Tienda Windows y de Windows Update. Consulte https://aka.ms/MTRDocs para ver más detalles sobre cómo se usan estas consolas de salas en su implementación. 
 
 ### <a name="skype-for-business-on-surface-hub"></a>Skype Empresarial en Surface Hub
 

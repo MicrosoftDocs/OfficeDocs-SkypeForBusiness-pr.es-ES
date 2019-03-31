@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: 282c28661de3d2678f7b4b29129de4f80dece491
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013220"
+ms.locfileid: "31013632"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -157,3 +157,9 @@ Para usar estas plantillas, bastará con cambiar la propiedad 'template@odata.bi
           }
 
 ```
+
+## <a name="related-topics"></a>Temas relacionados
+
+[Introducción a las plantillas de Teams](../../get-started-with-teams-templates.md)
+
+[Empezar a trabajar con los equipos para las organizaciones de salud](teams-in-hc.md)

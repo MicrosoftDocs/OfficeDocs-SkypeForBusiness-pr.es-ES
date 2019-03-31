@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a41e16b8e813fe3f8acb1a41d9c2751fa7c71e4c
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: b620f163f1dc071bde8a0ed43bf7fe546a9bc04a
+ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640941"
+ms.lasthandoff: 03/30/2019
+ms.locfileid: "31013640"
 ---
 # <a name="get-started-with-teams-templates"></a>Introducción a las plantillas de Teams 
 
@@ -64,14 +64,14 @@ De forma predeterminada, la plantilla base se establece en **estándar** que no 
 
 | Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Standard | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`standard` | No hay aplicaciones adicionales y propiedades |
-| Educación-<br>Equipo de clase | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationClass` | Aplicaciones:<ul><li>Bloc de notas de OneNote clase (anclado a la ficha **General** ) </li><li>Aplicación de las asignaciones (anclado a la ficha **General** )</li></ul> Propiedades de equipo:<ul><li>Visibilidad de equipo se establece en **HiddenMembership** (no se puede reemplazar)</li></ul> |
-| Educación-<br>Equipo de personal | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationStaff` | Aplicaciones:<ul><li>Bloc de notas de OneNote personal (anclado a la ficha **General** )</li></ul> |
-|Educación-<br>Equipo PLC |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`educationProfessionalLearningCommunity` | Aplicaciones:<ul><li>Bloc de notas de OneNote PLC (anclado a la ficha **General** )</ul></li>|
-| Venta por menor-<br>Almacén | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailStore` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo<ul><li>Visibilidad de equipo establecida en público</li></ul>Permisos de miembro<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul> |
-| Venta por menor-<br>Colaboración de administrador | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`retailManagerCollaboration` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo:<ul><li>Visibilidad de equipo establecida en privado</li></ul>Permisos de los miembros:<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul>|
-| Healthcare-<br>Distrito |`https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareWard` |Canales de entrada: <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Redondea hacia arriba</li><li>Personal\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos |
-|Healthcare-<br>Hospital | `https://graph.microsoft.com/beta/teamsTemplates/`<br>`healthcareHospital` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal automático favoritos|
+| Standard | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('standard')` | No hay aplicaciones adicionales y propiedades |
+| Educación-<br>Equipo de clase | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationClass')` | Aplicaciones:<ul><li>Bloc de notas de OneNote clase (anclado a la ficha **General** ) </li><li>Aplicación de las asignaciones (anclado a la ficha **General** )</li></ul> Propiedades de equipo:<ul><li>Visibilidad de equipo se establece en **HiddenMembership** (no se puede reemplazar)</li></ul> |
+| Educación-<br>Equipo de personal | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationStaff')` | Aplicaciones:<ul><li>Bloc de notas de OneNote personal (anclado a la ficha **General** )</li></ul> |
+|Educación-<br>Equipo PLC |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('educationProfessionalLearningCommunity')` | Aplicaciones:<ul><li>Bloc de notas de OneNote PLC (anclado a la ficha **General** )</ul></li>|
+| Venta por menor-<br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailStore')` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo<ul><li>Visibilidad de equipo establecida en público</li></ul>Permisos de miembro<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul> |
+| Venta por menor-<br>Colaboración de administrador | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')` | Canales de entrada:<ul><li>Entrega de MAYÚS</li><li>Recursos de aprendizaje</li></ul>Propiedades de equipo:<ul><li>Visibilidad de equipo establecida en privado</li></ul>Permisos de los miembros:<ul><li>Impedir que a los miembros de creación, actualización o eliminación de canales</li><li>Impedir que a los miembros de la adición o eliminación de aplicaciones</li><li>Impedir que a los miembros de creación, actualización o eliminación de los conectores</li></ul>|
+| Healthcare-<br>Distrito |`https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareWard')` |Canales de entrada: <ul><li>Anuncios\*</li><li>Huddles\*</li><li>Redondea hacia arriba</li><li>Personal\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos |
+|Healthcare-<br>Hospital | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('healthcareHospital')` |Canales de entrada:<ul><li>Anuncios\*</li><li>Cumplimiento de normas\*</li><li>Custodia</li><li>Recursos humanos</li></li><li>Farmacia</li></ul>\*Canal automático favoritos|
 |||
 
 > [!NOTE]
@@ -84,4 +84,4 @@ De forma predeterminada, la plantilla base se establece en **estándar** que no 
 - [Nuevo equipo](https://docs.microsoft.com/powershell/module/teams/New-Team?view=teams-ps)
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
 - [Introducción a las plantillas comerciales de Teams](get-started-with-retail-teams-templates.md)
-- [Introducción a las plantillas de equipos sanitarios](healthcare/healthcare-templates.md)
+- [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
