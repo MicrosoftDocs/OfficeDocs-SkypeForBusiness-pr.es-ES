@@ -1,5 +1,5 @@
 ---
-title: Soporte de migración de Exchange Unified Messaging en línea
+title: Soporte de migración en línea de la mensajería unificada de Exchange
 ms.author: heidip
 author: heidip
 manager: serdars
@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retira el servicio Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se resume qué afectados los clientes deben conocer y para planear su continuidad del negocio.
-ms.openlocfilehash: 8d09a9a16104420bfbe225aefefab57399f8dec5
-ms.sourcegitcommit: 6d4b99de7233e91dbab4f08331dac4d88c51d9e4
+ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "30059169"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026247"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración de Exchange Unified Messaging en línea  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange  
 
 En relación con el [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) en el 8 de febrero de 2019 Microsoft es retirar el servicio de Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se ofrece un resumen de qué clientes afectados debe conocer y para planear su continuidad del negocio. 
  
@@ -66,7 +66,7 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 
 3. **Planear la migración de operador automático**
     
-    Los administradores pueden iniciar migrar a sus operadores automáticos de ExchUMO para el operador automático de la nube en cualquier momento. Para obtener más información, vea [configurar un operador automático de sistema telefónico](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) . Planes de Microsoft para proporcionar funciones adicionales de operador automático que los clientes considerar críticos para su migración por de 2019 de marzo. Los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático en consecuencia. Para la comparación de la lista de características, consulte la [matriz de características de servicios basados en la nube ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Los administradores pueden iniciar migrar a sus operadores automáticos de ExchUMO para el operador automático de la nube en cualquier momento. Para obtener más información, vea [configurar un operador automático de sistema telefónico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Planes de Microsoft para proporcionar funciones adicionales de operador automático que los clientes considerar críticos para su migración por de 2019 de marzo. Los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático en consecuencia. Para la comparación de la lista de características, consulte la [matriz de características de servicios basados en la nube ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planear para su validación posterior a la migración de correo de voz y las pruebas**
 
@@ -93,7 +93,7 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 
 
 
-| Servicio  | Nivel de característica | Característica | Notas  | En la nube VM/AA  | ExUMO |
+| Servicio | Nivel de característica | Característica | Notas  | En la nube VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | MÁQUINA VIRTUAL  | Características del servicio| Admitir PBX de terceros 3rd    |  | N   | Y    |
 | MÁQUINA VIRTUAL | Características del servicio  | Compatibilidad con Skype para Business Server   |  | Q1CY19 | Y    |
@@ -170,7 +170,7 @@ Al probar la funcionalidad de correo de voz después de que los usuarios se han 
 
 - Validar el acceso de correo de voz a través de todos los tipos de extremo de la organización: los teléfonos IP y aplicaciones. 
 - Validar con los usuarios de ejemplo que se reproducen los saludos personalizados configurados para los autores de llamadas.   
-- Si su organización tiene un requisito legal o de cumplimiento para deshabilitar transcripción para los usuarios, asegúrese de que está deshabilitado posterior a la migración. Para obtener más detalles, vea [Configurar el correo de voz del sistema telefónico](/microsoftteams/set-up-phone-system-voicemail).
+- Si su organización tiene un requisito legal o de cumplimiento para deshabilitar transcripción para los usuarios, asegúrese de que está deshabilitado posterior a la migración. Para obtener más detalles, vea [Configurar el correo de voz en la nube](/microsoftteams/set-up-phone-system-voicemail).
 - Si ha configurado anteriormente las reglas y las directivas de la máquina virtual de Exchange, asegúrese de que son eficaces.
 - Familiarizarse con los cmdlets de PowerShell de servicio de correo de voz en la nube para cambiar la configuración de usuario.  
 
@@ -193,8 +193,8 @@ La siguiente es una introducción a la experiencia de migración de usuario fina
 
 #### <a name="user-management-and-provisioning-in-cvm"></a>Administración de usuarios y el aprovisionamiento en CVM 
 
-Skype para los nuevos usuarios de negocio se aprovisionará para correo de voz en el servicio de CVM cuando crea automáticamente. No se requiere ningún trabajo de administración adicionales o licencia para aprovisionar nuevos usuarios para correo de voz. Vea [Configurar el correo de voz del sistema de teléfono](/microsoftteams/set-up-phone-system-voicemail) para obtener más información acerca de cómo administrar las directivas para los usuarios nuevos y existentes.
+Skype para los nuevos usuarios de negocio se aprovisionará para correo de voz en el servicio de CVM cuando crea automáticamente. No se requiere ningún trabajo de administración adicionales o licencia para aprovisionar nuevos usuarios para correo de voz. Vea [Configurar el correo de voz en la nube](/microsoftteams/set-up-phone-system-voicemail) para obtener más información acerca de cómo administrar las directivas para los usuarios nuevos y existentes.
 
 #### <a name="admin-auto-attendant-management-experience"></a>Experiencia de administración de operador automático de administración 
 
-Vea [configurar un operador automático de sistema telefónico](../../SfbOnline/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant.md) para obtener más información acerca de la configuración y administración de operadores automáticos. 
+Vea [configurar un operador automático de sistema telefónico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) para obtener más información acerca de la configuración y administración de operadores automáticos. 

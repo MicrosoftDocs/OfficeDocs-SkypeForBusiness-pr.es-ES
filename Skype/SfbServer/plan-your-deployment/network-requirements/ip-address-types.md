@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Resumen: Revise las consideraciones de tipo de dirección IP a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 82c2cac46efe2513c6506bf57ab5c181c7a32202
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 4ebf8c3329358e526f86dd90eb4cbc0340d06606
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892126"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026059"
 ---
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Configurar tipos de dirección IP en Skype Empresarial
 
@@ -51,7 +51,7 @@ Con el generador, realice los pasos del siguiente procedimiento para implementar
    - **Dirección IP de RTC**. Defina una dirección IP para la RTC cuando asigne un servidor de mediación en el servidor front-end. Esta dirección necesita coincidir con el formato del tipo de dirección seleccionado.
 
 > [!NOTE]
-> No se admite la instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de direcciones IP PSTN en servidores Front-End. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
+> La instalación de tarjetas de interfaz de red adicionales (NIC) para admitir la configuración de dirección IP PSTN (o por cualquier otro motivo) no se admite en servidores Front-End. Para obtener más información acerca de configuraciones compatibles de NIC de Skype para Business Server, vea [plataformas de hardware de servidor para Lync Server 2013](https://technet.microsoft.com/library/c964c1c0-0153-472b-88ad-a38866e0df0c.aspx).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Implementar tipos de dirección IP en un servidor de mediación
 

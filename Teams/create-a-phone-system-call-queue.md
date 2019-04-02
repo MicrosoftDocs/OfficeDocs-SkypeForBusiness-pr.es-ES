@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas de sistema telefónico dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: a44bd5b00b47655dc950ee01f82ffd0c0a308466
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: be8055dfe1d92caa7e3416740856ab2b6578e799
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012976"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026232"
 ---
 # <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el Sistema telefónico
 
@@ -209,7 +209,7 @@ Para obtener acceso a la opción de no participación, los agentes pueden hacer 
  3. En la página de configuración del usuario, haga clic en **Colas de llamadas**y, a continuación, desactive las casillas de verificación de las colas en las que no desee participar.
 
     > [!NOTE]
-    > Los agentes con clientes Mac, Mobile o Lync 2013 o los usuarios de Voz híbrida alojados localmente que utilicen Skype for Business 2015 pueden ir a [https://aka.ms/cqsettings](https://aka.ms/cqsettings) para tener acceso a la opción de no participación.
+    > Los agentes con aplicaciones o extremos distinto de Skype para escritorio de negocio puede tener acceso a la opción de descarte desde el portal de la configuración de usuario [https://aka.ms/cqsettings](https://aka.ms/cqsettings).
 
 ![Número 2](media/sfbcallout2.png)
 **configuración de alerta del agente**

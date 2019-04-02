@@ -9,12 +9,12 @@ ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Uno de los primeros pasos necesarios para la migración a Skype para Business Server 2019 consiste en implementar un grupo piloto. El grupo piloto es donde se prueba la coexistencia de Skype para Business Server 2019 con su implementación heredada. La coexistencia es un estado temporal que dura hasta que mueva todos los usuarios y grupos de servidores a Skype para Business Server 2019.
-ms.openlocfilehash: e0ac949b0cc7a52e1da5edd9f150e5f59717c08f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26f391a485c991aa3575498b98b181f1b5ac761c
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890658"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026052"
 ---
 # <a name="deploy-skype-for-business-server-2019-pilot-pool"></a>Implementación de Skype para el grupo piloto de Business Server 2019
 
@@ -53,6 +53,10 @@ Al implementar un grupo piloto, use el Asistente para definir nuevo Front-End de
 10. Para publicar su topología, haga clic en el nodo de **Skype para Business Server** y, a continuación, haga clic en **Publicar topología**.
   
 11. Cuando haya finalizado el proceso de publicación, haga clic en **Finalizar**.
+
+12. Antes de pasar a la siguiente sección denominada "Comprobar la coexistencia del grupo piloto con grupo heredado" necesita instalar el Skype para nuevo grupo de piloto de Front-End Business Server que se acaba de definir en la topología publicada, siga los procedimientos descritos aquí [instalar Skype para Business Server en servidores de la topología de](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+
+13. Una vez completado el paso anterior, mover a la sección siguiente para comprobar la coexistencia del grupo piloto con grupo heredado.
     
 <!-- To install a local copy of the configuration store and start the required services, see 
 [Setting up Front End Servers and Front End pools for Skype for Business Server 2019](../deployment/deploying-lync-server-2013/setting-up-front-end-servers-and-front-end-pools.md) in the Deployment documentation.  -->

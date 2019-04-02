@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going How can caller ID be used in your organization.
-ms.openlocfilehash: f57a0a2dc2158949879df8e3755b64183b534f3a
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: e9d2cced647eef2f4db7729c4446068a19000176
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952411"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026036"
 ---
 # <a name="set-the-caller-id-for-a-user"></a>Establecer el identificador de llamada de un usuario
 The Phone System in Office 365 provides a default caller ID that is the user's assigned telephone number. You can either change or block the caller ID (also called a Calling Line ID) for a user. You can learn more about how to use caller ID in your organization by going [How can caller ID be used in your organization](how-can-caller-id-be-used-in-your-organization.md).
@@ -83,21 +83,12 @@ Para obtener más información sobre esta configuración y cómo usarla, vaya [C
    > [!NOTE]
    > Solo tiene que ejecutar el comando **Import-Module** la primera vez que use el módulo Windows PowerShell de Skype Empresarial Online.
    > 
-   > ```
-   > Import-Module -Name SkypeOnlineConnector
-   > ```
-   > 
-   > ```
-   > $credential = Get-Credential
-   > ```
-   > 
-   > ```
-   > $session = New-CsOnlineSession -Credential $credential
-   > ```
-   > 
-   > ```
-   > Import-PSSession $session
-   > ```
+   ```
+    Import-Module -Name SkypeOnlineConnector
+    $credential = Get-Credential
+    $session = New-CsOnlineSession -Credential $credential
+    Import-PSSession $session
+   ```
 
 Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Configurar el equipo de Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
     

@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 134d0f636719592edca1060d86fbf4fb7c2d9db6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 38332fdcf8cb2f5e1f26d45b67d85dc17610a42d
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543146"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026240"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -77,7 +77,7 @@ Después de iniciar sesión, una vez activada, la CQD comenzará el procesamient
 > [!NOTE]
 > Puede tardar un par de horas para procesar datos suficientes para mostrar resultados significativos en los informes. 
   
-## <a name="features-of-the-call-quality-dashboard-for-skype-for-business-online"></a>Características del panel de calidad de llamada de Skype para la empresa en línea
+## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Características del panel de calidad de llamada para los equipos de Microsoft y Skype para la empresa en línea 
 <a name="BKMKFeaturesOfTheCQD"> </a>
 
 Informes de resumen de CQD proporcionan un subconjunto de las características planeadas para informes detallados. Las diferencias entre las dos ediciones se resumen a continuación:
@@ -85,17 +85,17 @@ Informes de resumen de CQD proporcionan un subconjunto de las características p
 |**Característica**|**Informes de resumen**|**Informes detallados**|
 |:-----|:-----|:-----|
 |Métrica de uso compartido de aplicaciones  <br/> |No  <br/> |Sí  <br/> |
-|Crear la compatibilidad de información del cliente  <br/> |Sí  <br/> |Sí  <br/> |
+|Crear la compatibilidad de información del cliente  <br/> |Sí  <br/> |Sí   <br/> |
 |Soporte de análisis en profundidad  <br/> |No  <br/> |Sí  <br/> |
 |Métricas de confiabilidad de medios  <br/> |No  <br/> |Sí  <br/> |
-|Informes de fábrica  <br/> |Sí  <br/> |Sí  <br/> |
-|Información general sobre informes  <br/> |Sí  <br/> |Sí  <br/> |
+|Informes de fábrica  <br/> |Sí  <br/> |Sí   <br/> |
+|Información general sobre informes  <br/> |Sí  <br/> |Sí   <br/> |
 |Conjunto de informes por usuario  <br/> |No  <br/> |Sí  <br/> |
 |Informe de establece personalización (agregar, eliminar, modificar informes)  <br/> |No  <br/> |Sí  <br/> |
 |Uso compartido de las métricas de pantalla basados en vídeo  <br/> |No  <br/> |Sí  <br/> |
 |Métricas de vídeo  <br/> |No  <br/> |Sí  <br/> |
 |Cantidad de datos disponibles  <br/> |6 últimos meses  <br/> |6 últimos meses  <br/> |
-|Datos de Microsoft Teams  <br/> |Sí  <br/> |Sí  <br/> |
+|Datos de Microsoft Teams  <br/> |Sí  <br/> |Sí   <br/> |
    
 ### <a name="out-of-the-box-reports"></a>Informes de fábrica
 
@@ -222,18 +222,18 @@ El formato del archivo de datos que se carga debe cumplir lo siguiente para pasa
     
 |**Nombre de columna**|**Tipo de datos**|**Ejemplo**|
 |:-----|:-----|:-----|
-|Red  <br/> |Cadena  <br/> |192.168.1.0  <br/> |
-|NetworkName  <br/> |Cadena  <br/> |Estados Unidos/Seattle/SEATTLE-mar-1  <br/> |
+|Red  <br/> |String  <br/> |192.168.1.0  <br/> |
+|NetworkName  <br/> |String  <br/> |Estados Unidos/Seattle/SEATTLE-mar-1  <br/> |
 |NetworkRange  <br/> |Número  <br/> |26  <br/> |
-|BuildingName  <br/> |Cadena  <br/> |SEATTLE-MAR-1  <br/> |
-|OwnershipType  <br/> |Cadena  <br/> |Contoso  <br/> |
-|BuildingType  <br/> |Cadena  <br/> |Terminación de TI  <br/> |
-|BuildingOfficeType  <br/> |Cadena  <br/> |De ingeniería  <br/> |
-|Ciudad  <br/> |Cadena  <br/> |Seattle  <br/> |
-|ZipCode  <br/> |Cadena  <br/> |98001  <br/> |
-|País  <br/> |Cadena  <br/> |NOSOTROS  <br/> |
-|Estado  <br/> |Cadena  <br/> |WA  <br/> |
-|Region  <br/> |Cadena  <br/> |MSUS  <br/> |
+|BuildingName  <br/> |String  <br/> |SEATTLE-MAR-1  <br/> |
+|OwnershipType  <br/> |String  <br/> |Contoso  <br/> |
+|BuildingType  <br/> |String  <br/> |Terminación de TI  <br/> |
+|BuildingOfficeType  <br/> |String  <br/> |De ingeniería  <br/> |
+|Ciudad  <br/> |String  <br/> |Seattle  <br/> |
+|ZipCode  <br/> |String  <br/> |98001  <br/> |
+|País  <br/> |String  <br/> |NOSOTROS  <br/> |
+|Estado  <br/> |String  <br/> |WA  <br/> |
+|Region  <br/> |String  <br/> |MSUS  <br/> |
 |InsideCorp  <br/> |Booleano  <br/> |1  <br/> |
 |ExpressRoute  <br/> |Booleano  <br/> |0  <br/> |
    

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49d8ea5235c490b38c0ef52bf5cf5a9903c4137c
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013284"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026216"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -128,7 +128,7 @@ Este es un ejemplo de la respuesta que se obtiene cuando un movimiento está en 
 
 ### <a name="raise-awareness"></a>Mejorar el conocimiento
 
-Cuando esté listo para ir más allá de sus equipos pilotos y mover equipo StaffHub de su organización a los equipos, es importante comunicarse en primer lugar el cambio a través de la organización. Propagar la palabra acerca de turnos y la transición a los equipos para mejorar el conocimiento, generar diversión y adopción de unidad.
+Cuando esté listo para ir más allá de sus equipos pilotos y mover los equipos de su organización StaffHub a los equipos, es importante comunicarse en primer lugar el cambio a través de la organización. Propagar la palabra acerca de turnos y la transición a los equipos para mejorar el conocimiento, generar diversión y adopción de unidad.
 
 ### <a name="move-your-staffhub-teams"></a>Mover los equipos de StaffHub
 

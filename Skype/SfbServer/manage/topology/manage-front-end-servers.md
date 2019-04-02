@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Obtenga información sobre cómo agregar, quitar, revisión o actualizar los servidores Front-End en Skype para Business Server.'
-ms.openlocfilehash: c7ccaee0ee70c10b855053fb63c39cfead148f4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875225"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026184"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores Front-End de Skype para Business Server
  
@@ -47,6 +47,9 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.
     
     > [!IMPORTANT]
     > Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial. 
+  
+  > [!NOTE]
+> También, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Skype para el Asistente para la implementación empresarial Server en cada equipo agregado o quitado, para obtener más información, vea [Instalar Skype para Business Server en servidores de la topología](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
 4. Si ha cambiado el número de servidores en el grupo de servidores Front-End en cualquiera de las siguientes maneras, a continuación, restablecer el grupo de servidores con escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn 
     
