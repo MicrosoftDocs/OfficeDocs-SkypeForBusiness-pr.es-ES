@@ -1,5 +1,5 @@
 ---
-title: Equipos para la asistencia sanitaria
+title: Teams para sanidad
 description: Use estos recursos para obtener el máximo partido de los equipos en su organización de salud.
 layout: LandingPage
 ms.topic: landing-page
@@ -12,14 +12,14 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9957bfda5a30dc40350220cf6d5707604c5f3b06
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013624"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026200"
 ---
-# <a name="teams-for-healthcare"></a>Equipos para la asistencia sanitaria
+# <a name="teams-for-healthcare"></a>Teams para sanidad
 
 Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una forma segura de comunicarse, coordinar la atención del paciente y mejorar la eficacia operativa. Aquí encontrará los recursos de administración que necesita para administrar los equipos de los equipos de asistencia sanitarios en su organización.
 
@@ -31,11 +31,11 @@ Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una fo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Empezar a trabajar con los equipos para las organizaciones de salud</h3>
+                        <h3>Introducción a Teams para organizaciones sanitarias</h3>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una fo
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Empezar a trabajar con mensajería segura para las organizaciones de salud</h3>
+                        <h3>Introducción a la mensajería segura para las organizaciones sanitarias</h3>
                     </div>
                 </div>
             </div>
