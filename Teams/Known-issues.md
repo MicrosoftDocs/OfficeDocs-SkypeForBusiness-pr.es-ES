@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9abe6e17a4c11dd2e1943643c7030eadd5bd0ba
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: e3dc7e1797c1e5c1551abad40cf6598f11e01ada
+ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771737"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31026106"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -108,7 +108,8 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Compatibilidad con el cliente web de Safari  <br/> |A los usuarios que intentan abrir el cliente web de Microsoft Teams en Safari se les redirige al sitio de descarga del cliente de escritorio. Microsoft está investigando la compatibilidad con Safari y compartirá las actualizaciones a través del [mapa de ruta de Microsoft Teams](https://aka.ms/TeamsRoadmap).  <br/> |Utilice exploradores de Internet compatibles, como: Internet Explorer 11+, Microsoft Edge 12+, Chrome 51.0+ y Firefox 47.0+.  <br/> |02/11/2016  <br/> |
+|Compatibilidad con el cliente web de Safari  <br/> | Teams ahora está disponible en versión preliminar en Safari 11.1 + en macOS. Durante la versión preliminar, los usuarios pueden encontrarse problemas relacionados con la prevención de seguimiento inteligente de Safari [Problemas conocidos de Safari](https://go.microsoft.com/fwlink/?linkid=2062082).  <br/> | Mientras la compatibilidad del explorador Safari está en versión preliminar, vaya a **Preferencias > Privacidad**  y desactive la opción  **Evitar seguimiento entre sitios**  . A continuación, cierre el explorador y vuelva a teams.microsoft.com en Safari. <br/> |02/11/2016  <br/> |
+
 
 ## <a name="channels"></a>Canales
 
