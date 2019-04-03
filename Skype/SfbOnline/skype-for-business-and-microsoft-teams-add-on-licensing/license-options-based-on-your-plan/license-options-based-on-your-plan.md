@@ -1,5 +1,5 @@
 ---
-title: Opciones de licencia en función del plan
+title: Opciones de licencias en función de su plan
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -17,14 +17,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 ms.custom: None
-description: Obtenga información sobre el correo de voz del Sistema telefónico.
-ms.openlocfilehash: faabd4c089227730f1c28e5e19dc9c394bd64473
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+description: Obtenga información sobre el correo de voz en la nube.
+ms.openlocfilehash: eb6065a64bf03c2112747a296a1d0ef955a1506f
+ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120293"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "30948147"
 ---
-# <a name="license-options-based-on-your-plan"></a>Opciones de licencia en función del plan
+# <a name="license-options-based-on-your-plan"></a>Opciones de licencias en función de su plan
 
 

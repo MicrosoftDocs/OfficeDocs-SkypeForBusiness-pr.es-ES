@@ -1,5 +1,5 @@
 ---
-title: Configurar el correo de voz en la nube
+title: Planear el Correo de voz en la nube
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,19 +21,19 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: 8219934b8e95962f0e9ea81f4965ad9e5c55fb34
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
+ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934775"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31041937"
 ---
-# <a name="set-up-cloud-voicemail"></a>Configurar el correo de voz en la nube
+# <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
 En este artículo es para la [administración de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz en la nube para todos los usuarios en la empresa.
 
 > [!NOTE]
-> Correo de voz en la nube admite depositar los mensajes de correo de voz sólo en un buzón de Exchange y no es compatible con los sistemas de correo electrónico de otro fabricante. Como un mecanismo de reserva, correo de voz en la nube puede volver a enviar los mensajes mediante SMTP, lo que significa que los usuarios con un buzón de correo en un sistema de correo electrónico de otro fabricante recibirán sus mensajes de correo de voz con ningún tiempo de actividad de servicio garantizado u otras características de correo de voz, como el cambio de sus saludos y otras opciones de configuración.
+> Correo de voz en la nube admite depositar los mensajes de correo de voz sólo en un buzón de Exchange y no es compatible con los sistemas de correo electrónico de otro fabricante. 
 
 ## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Entornos de nube: configurar el correo de voz en la nube
 
@@ -43,7 +43,7 @@ Para Skype para los usuarios en línea de negocio y planes de llamada, correo de
     
 2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
     
-3. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+3. Compatibilidad con transcripción de correo de voz se ha agregado a partir de marzo de 2017 y está habilitada de forma predeterminada para todos los usuarios y las organizaciones. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
 ## <a name="phone-system-with-on-premises-environments"></a>Sistema telefónico con entornos locales
 
@@ -53,13 +53,16 @@ Es la siguiente información acerca de cómo configurar el correo de voz en la n
     
 2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa.
     
-3. Siga las instrucciones que aparecen en la sección **Permitir que los usuarios de servicios de voz y correo de voz del sistema de teléfono** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx).
+3. Siga las instrucciones que coincidan con RTC local al llamar a la solución de implementada para los usuarios. Edition de conector en la nube, siga las instrucciones que aparecen en la sección **Permitir que los usuarios de servicios de voz y correo de voz del sistema de teléfono** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx). Para llamar a con Skype para Business Server de RTC, siga [Habilitar a los usuarios para Enterprise Voice en local](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para el enrutamiento directo de los equipos, siga la sección **Configurar el número de teléfono y habilitar enterprise voice y correo de voz** de [Configurar el enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
-4. Support for voicemail transcription has been added as of March 2017 and is enabled by default for all organizations and users. You can disable transcription for your organization by using Windows PowerShell and following the steps below.
+4. Compatibilidad con transcripción de correo de voz se ha agregado a partir de marzo de 2017 y está habilitada de forma predeterminada para todos los usuarios y las organizaciones. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
-5. También puede ver el [soporte de correo de voz de Azure PBX para Exchange Server](https://support.microsoft.com/kb/3195158) para aprender a configurar la entrega de mensajes de correo de voz de Azure para usuarios del Sistema telefónico con buzones de correo locales.
+5. Los mensajes de correo de voz se envían al buzón de Exchange de los usuarios a través de SMTP que se enrutan a través de Exchange Online Protection. Para habilitar la entrega de estos mensajes se realizó correctamente, asegúrese de que los conectores de Exchange se han configurado correctamente entre los servidores de Exchange y Exchange Online Protection. [Usar conectores para configurar el flujo de correo](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. También lea y siga los pasos descritos en el siguiente documento: [Asistente de configuración híbrida](https://docs.microsoft.com/exchange/hybrid-configuration-wizard)
+6. Para habilitar las características de correo de voz como personalizar saludo, marcado en access y correo de voz visual, se requiere conectividad de Office 365 para el buzón de correo de Exchange server a través de servicios Web de Exchange. Para habilitar esta conectividad debe configurar el nuevo Oauth de Exchange se describe el protocolo de autenticación de [OAuth de configurar la autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+
+> [!NOTE]
+> El Asistente de Exchange híbrida ejecución desde Exchange 2013 CU5 o mayor controlará los requisitos en los pasos 5 y 6 automáticamente. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
 

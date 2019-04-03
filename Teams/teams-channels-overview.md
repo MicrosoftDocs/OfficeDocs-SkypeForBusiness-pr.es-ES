@@ -2,6 +2,7 @@
 title: Información general de los equipos y canales en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
+ms.reviewer: ''
 manager: serdars
 ms.date: 11/02/2018
 ms.topic: conceptual
@@ -17,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8677354bf6a8e500e1ee138fef65327711e74105
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
+ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647444"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31038567"
 ---
 > [!NOTE]
 > Revise la siguiente información para entender la charla, los equipos, los canales, & aplicaciones en los equipos. A continuación, vaya a [implementar chat, los equipos, los canales, & aplicaciones en los equipos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes a la implantación de los equipos.
@@ -97,4 +98,4 @@ Es posible crear que Teams se alinee con la estructura de la organización.  Est
 
 ## <a name="org-wide-teams"></a>Equipos de toda la organización
 
-Si su organización tiene no más de 1.000 usuarios, puede crear un equipo de toda la organización. Los equipos de toda la organización proporcionan una forma automática para todos los usuarios de una organización a formar parte de un único equipo para la colaboración. Para obtener más información, incluidas las prácticas recomendadas para crear y administrar un equipo de toda la organización, vea [crear un equipo de toda la organización en los equipos de Microsoft](create-an-org-wide-team.md).
+Si su organización tiene no más de 2.500 a los usuarios, puede crear un equipo de toda la organización. Los equipos de toda la organización proporcionan una forma automática para todos los usuarios de una organización a formar parte de un único equipo para la colaboración. Para obtener más información, incluidas las prácticas recomendadas para crear y administrar un equipo de toda la organización, vea [crear un equipo de toda la organización en los equipos de Microsoft](create-an-org-wide-team.md).
