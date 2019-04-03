@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 391fd25aeec4ae52b31865f25be9b127158ef764
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641171"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043360"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -34,7 +34,7 @@ En este artículo se describe algunos de los límites, especificaciones y otros 
 |-----------|---------------|
 |Número de equipos, que puede crear un usuario | Sujeto a un limit&sup1 250 objeto;         |
 |Número de miembros de un equipo | 5.000       |
-|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 2.500       |
+|Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5.000       |
 |Número de equipos, que puede crear un administrador global        |  500.000   |
 |Número de equipos que puede tener un inquilino de Office 365    | 500.000     |
 |Número de canales por equipo    | 200 (incluye canales eliminados)         |

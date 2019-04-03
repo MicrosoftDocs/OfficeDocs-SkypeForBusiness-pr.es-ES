@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea532f31bff01ba31e22f9253db157a9466a733
-ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
+ms.openlocfilehash: 415f4d94cf64de76ed3d7b4a7243d419d092999c
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31038567"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043368"
 ---
 > [!NOTE]
 > Revise la siguiente información para entender la charla, los equipos, los canales, & aplicaciones en los equipos. A continuación, vaya a [implementar chat, los equipos, los canales, & aplicaciones en los equipos](deploy-chat-teams-channels-microsoft-teams-landing-page.md) para recorrer una lista de decisiones importantes a la implantación de los equipos.
@@ -98,4 +98,4 @@ Es posible crear que Teams se alinee con la estructura de la organización.  Est
 
 ## <a name="org-wide-teams"></a>Equipos de toda la organización
 
-Si su organización tiene no más de 2.500 a los usuarios, puede crear un equipo de toda la organización. Los equipos de toda la organización proporcionan una forma automática para todos los usuarios de una organización a formar parte de un único equipo para la colaboración. Para obtener más información, incluidas las prácticas recomendadas para crear y administrar un equipo de toda la organización, vea [crear un equipo de toda la organización en los equipos de Microsoft](create-an-org-wide-team.md).
+Si su organización tiene no más de 5.000 usuarios, puede crear un equipo de toda la organización. Los equipos de toda la organización proporcionan una forma automática para todos los usuarios de una organización a formar parte de un único equipo para la colaboración. Para obtener más información, incluidas las prácticas recomendadas para crear y administrar un equipo de toda la organización, vea [crear un equipo de toda la organización en los equipos de Microsoft](create-an-org-wide-team.md).

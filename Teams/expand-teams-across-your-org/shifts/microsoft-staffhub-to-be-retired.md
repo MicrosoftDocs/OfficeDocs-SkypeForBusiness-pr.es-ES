@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c4d68d9ac41a3dfff1ca5863869726040b36bb4
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
+ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013308"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "31043416"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -32,7 +32,7 @@ Estos cambios son parte de nuestros esfuerzos continuos para permitir que todos 
 
 #### <a name="when-will-staffhub-be-retired"></a>¿Cuándo deben retirarse StaffHub?
 
-A partir de la mitad de 2019 abril, Microsoft StaffHub ya no estará disponible para los inquilinos nuevo. Los usuarios actuales todavía podrá usar el servicio hasta octubre 1,2019, sin embargo no hay características adicionales estarán disponibles.
+A partir de la mitad de 2019 abril, Microsoft StaffHub ya no estará disponible para los inquilinos nuevos y ya no podrá tener acceso a la aplicación desde el selector de la aplicación de Office 365. Los usuarios actuales todavía podrá usar el servicio hasta octubre 1,2019, sin embargo no hay características adicionales estarán disponibles.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>¿Qué ocurrirá una vez que se ha retirado StaffHub?
 
