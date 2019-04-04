@@ -1,35 +1,33 @@
 ---
-title: ¿Cuál es el estado de mis solicitudes de portabilidad?
+title: ¿Qué es el estado de Mis pedidos de puerto en los equipos?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: article
-ms.assetid: f651e82d-4237-4e3d-ad74-40fdf11fa8d1
 ms.tgt.pltfrm: cloud
-ms.service: skype-for-business-online
+ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto:
-- Skype for Business
+appliesto: Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
 - ms.lync.lac.PortOrderNoOrderHelp
 ms.custom:
 - Calling Plans
-description: 'Learn how to get the status of your port orders, and what the different actions you can take on them. '
-ms.openlocfilehash: e8cc303c503d52a9424c400617c7a982aec99d1f
+description: 'Obtenga información sobre cómo obtener el estado de sus pedidos de puerto y obtenga información sobre las diferentes acciones que puede realizar en ellos. '
+ms.openlocfilehash: bf1fc2d6fc58ce2586e768392aac0d6e91c5aaf3
 ms.sourcegitcommit: a37abb5c433012d501ede319fba60e0ae7474fce
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/03/2019
-ms.locfileid: "31397052"
+ms.locfileid: "31407765"
 ---
-# <a name="whats-the-status-of-my-port-orders"></a>¿Cuál es el estado de mis solicitudes de portabilidad?
+# <a name="whats-the-status-of-my-port-orders-in-teams"></a>¿Qué es el estado de Mis pedidos de puerto en los equipos?
 
-Puede ver el estado de su pedido de puerto yendo a la **Skype para el centro de administración de negocio** > **voz** > **pedidos de puerto**. Cada estado de orden de puerto se mostrará en la columna **estado** . Si necesita ayuda, [póngase en contacto con soporte técnico para productos de negocio: Ayuda de administración](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Puede ver el estado de su pedido de puerto yendo al **Centro de administración de equipos de Microsoft** > **portal heredado** > **voz** > **pedidos de puerto**. Cada estado de orden de puerto se mostrará en la columna **estado** . Si necesita ayuda, [soporte técnico de contacto para los productos de negocio - ayuda de administración](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
 
 En la siguiente tabla se enumera los Estados de orden de puerto, así como las acciones que puede realizar si es necesario.
 
@@ -54,8 +52,8 @@ En la siguiente tabla se enumera los Estados de orden de puerto, así como las a
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
+[Términos y condiciones de llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de declinación de responsabilidades de emergencia llamada](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
 
