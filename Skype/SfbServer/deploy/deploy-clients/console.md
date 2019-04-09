@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de salas de equipos de Microsoft y sus periféricos.
-ms.openlocfilehash: fc1d50ffe6dd7415848e02571eab1484bd3dfe22
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012616"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520158"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de salas de equipos de Microsoft
 
@@ -51,8 +51,9 @@ Instalación de la aplicación de consola de salas de equipos de Microsoft requi
 2. Ejecute el script CreateSrsMedia.ps1 desde un símbolo de sistema con privilegios elevados en un equipo con Windows 10.
 3. Siga las instrucciones de la secuencia de comandos para crear un disco de instalación de Microsoft los equipos salones USB.
 
-> [!CAUTION]
-> El nombre de la carpeta que se ejecutan los medios de secuencia de comandos de creación de no puede contener un espacio. Si hay un espacio de nombre de carpeta, se producirá un error en la secuencia de comandos.
+
+> [!TIP]
+> Cada vez que se inicia la secuencia de comandos CreateSrsMedia.ps1, la salida de pantalla incluirá el nombre de un archivo de registro o la transcripción de la sesión. Si hay problemas con la ejecución de la secuencia de comandos, asegúrese de tener una copia de ese transcripción disponible al solicitar soporte técnico. 
 
 La secuencia de comandos CreateSrsMedia.ps1 automatiza las tareas siguientes:
 

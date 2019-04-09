@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: 26594c9d955cb21dc5751491e1857525660bdcae
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041937"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517155"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -59,7 +59,7 @@ Es la siguiente información acerca de cómo configurar el correo de voz en la n
 
 5. Los mensajes de correo de voz se envían al buzón de Exchange de los usuarios a través de SMTP que se enrutan a través de Exchange Online Protection. Para habilitar la entrega de estos mensajes se realizó correctamente, asegúrese de que los conectores de Exchange se han configurado correctamente entre los servidores de Exchange y Exchange Online Protection. [Usar conectores para configurar el flujo de correo](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Para habilitar las características de correo de voz como personalizar saludo, marcado en access y correo de voz visual, se requiere conectividad de Office 365 para el buzón de correo de Exchange server a través de servicios Web de Exchange. Para habilitar esta conectividad debe configurar el nuevo Oauth de Exchange se describe el protocolo de autenticación de [OAuth de configurar la autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Para habilitar las características de correo de voz como personalizar el saludo y correo de voz visual en Skype para clientes empresariales, se requiere conectividad de Office 365 para el buzón de correo de Exchange server a través de servicios Web de Exchange. Para habilitar esta conectividad debe configurar el nuevo Oauth de Exchange se describe el protocolo de autenticación de [OAuth de configurar la autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
 > El Asistente de Exchange híbrida ejecución desde Exchange 2013 CU5 o mayor controlará los requisitos en los pasos 5 y 6 automáticamente. 
@@ -127,6 +127,8 @@ Disponemos de información de recursos de aprendizaje y artículos para ayudar a
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](/skypeforbusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
 
-[Esto es lo que conseguirá con Sistema telefónico en Office 365](here-s-what-you-get-with-phone-system.md)
+[Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
+
+[Planificar la migración de Skype Empresarial Server y Exchange Server](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/plan-um-migration)
 
 

@@ -1,5 +1,5 @@
 ---
-title: Planear el desvío de medios con el enrutamiento directo
+title: Planear desvío de medios con enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: 6a152fed20dde9d641abfab1bdba7b211f2dcdb9
-ms.sourcegitcommit: 27cf21fb02632e9f65dfa2f995120fb927114b3d
+ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30649215"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517250"
 ---
-# <a name="plan-for-media-bypass-with-direct-routing"></a>Planear el desvío de medios con el enrutamiento directo
+# <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
 ## <a name="about-media-bypass-with-direct-routing"></a>Acerca de la omisión de medios con el enrutamiento directo
 
@@ -47,7 +47,7 @@ Pero supongamos que un usuario está en el mismo edificio o red como la SBC. Por
 
 ![Fluyen de muestra de señalización y medios con desvío de medios](media/direct-routing-media-bypass-2.png)
 
-Protocolos de aprovecha denominados establecimiento interactivo de conectividad (ICE) en el cliente de los equipos y ICE claro en la SBC el desvío de medios. Estos protocolos permiten el enrutamiento directo usar la ruta de medios más directa para una calidad óptima. HIELO y claro ICE son los estándares de WebRTC. Para obtener información detallada acerca de estos protocolos, consulte RFC 5245.
+Protocolos de aprovecha denominados establecimiento interactivo de conectividad (ICE) en el cliente de los equipos y ICE claro en la SBC el desvío de medios. Estos protocolos permiten el enrutamiento directo usar la ruta de medios más directa para una calidad óptima. HIELO y ICE Lite son los estándares de WebRTC. Para obtener información detallada acerca de estos protocolos, consulte RFC 5245.
 
 
 ## <a name="call-flow-and-firewall-planning"></a>Flujo de llamadas y planeación de firewall
@@ -136,7 +136,7 @@ En la ruta de medios para las llamadas que no sean pasó para los usuarios final
 En la ruta de medios para las llamadas omitidas para los usuarios finales | Nunca | Si el cliente no puede acceder a la SBC en la dirección IP pública | 
 En la ruta de medios para aplicaciones de voz | Siempre | Nunca | 
 Puede hacer transcodificación (B2BUA)\* | Sí | No, sólo retransmite audio entre extremos | 
-Número de instancess en todo el mundo y ubicación | 8 total: 2 en nosotros este y oeste; 2 en Ámsterdam y Dublin; 2 en Hong Kong y Singapur; 2 en Japón (que se agrega en Q1CY2019)  | Varios
+Número de instancias en todo el mundo y ubicación | 8 total: 2 en nosotros este y oeste; 2 en Ámsterdam y Dublin; 2 en Hong Kong y Singapur; 2 en Japón (que se agrega en Q1CY2019)  | Varios
 
 El intervalo IP es 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254). 
 
@@ -154,7 +154,7 @@ Los equipos transporte multifase siempre están en la ruta de acceso de medios e
 - Llamada se va a un usuario federado de equipos
 - Llamada se reenvía o se transfiere a un Skype para usuarios de empresa
 
-Enusre su SBC tiene acceso a las transmisiones de transporte tal y como se describe a continuación.    
+Asegúrese de que su SBC tiene acceso a las transmisiones de transporte, tal y como se describe a continuación.    
 
 
 ## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Señalización SIP: Los puertos de firewall y los FQDN
@@ -220,7 +220,7 @@ El intervalo de puertos de las transmisiones de transporte de los equipos se mue
 | Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
 UDP/SRTP | Retransmisión de transporte | SBC | 50 000-59 999    | Definidos en la SBC |
-| UDP/SRTP | SBC | Retransmisión de transporte | Definidos en la SBC | 50 000 – 59 9999, 3478, 3479     |
+| UDP/SRTP | SBC | Retransmisión de transporte | Definidos en la SBC | 50 000 – 59 999, 3478, 3479     |
 
 
 Nota: Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC. Debido a que Microsoft tiene dos versiones de transmisiones de transporte, se necesita lo siguiente:
@@ -289,7 +289,7 @@ Si los usuarios prefieren la aplicación Web de los equipos en Microsoft Edge, G
  
 ## <a name="see-also"></a>Consulte también
 
-[Configurar el desvío de medios con el enrutamiento directo](direct-routing-configure-media-bypass.md)
+[Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
 
 
 

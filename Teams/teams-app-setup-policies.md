@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 5633e5158a3f19ea8960e957b91537547d2580a1
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747665"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517106"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -54,11 +54,12 @@ Puede usar el centro de administración de Microsoft Teams para crear una direct
 1. En la izquierda el centro de administración de Microsoft Teams, vaya a **las aplicaciones de los equipos** > **las directivas de instalación**.
 2. Seleccione **nueva directiva**.
 3. Escriba un nombre descriptivo para la directiva y, a continuación, haga clic en **Agregar aplicaciones**.
-4. En el panel **Agregar anclados aplicaciones** , de búsqueda para las aplicaciones que desea agregar y, a continuación, haga clic en **Agregar**. También puede filtrar aplicaciones mediante la directiva de permisos de aplicación. Cuando haya elegido su lista de aplicaciones, haga clic en **Agregar**.
+4. Activar o desactivar la opción **Permitir la carga de aplicaciones personalizadas**, dependiendo de si desea permitir a los usuarios cargar aplicaciones personalizadas en los equipos.
+5. En el panel **Agregar anclados aplicaciones** , de búsqueda para las aplicaciones que desea agregar y, a continuación, haga clic en **Agregar**. También puede filtrar aplicaciones mediante la directiva de permisos de aplicación. Cuando haya elegido su lista de aplicaciones, haga clic en **Agregar**.
 
      ![App-el programa de instalación-directivas-agregar-apps.png](media/app-setup-policies-add-apps.png)
 
-5. Organizar las aplicaciones en el orden que desea que aparezcan en los equipos y, a continuación, haga clic en **Guardar**.
+6. Organizar las aplicaciones en el orden que desea que aparezcan en los equipos y, a continuación, haga clic en **Guardar**.
 
     ![App-Setup-Policies-New-Policy-Setup.png](media/app-setup-policies-new-policy-setup.png)
 
@@ -117,7 +118,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabajar con directivas del programa de instalación de aplicaciones
 
@@ -173,6 +174,6 @@ Asegúrese de seguir las instrucciones del logotipo antes de enviar la aplicaci�
 
  ## <a name="related-topics"></a>Temas relacionados
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-- [Administrar directivas de permisos de aplicación en los equipos](teams-app-permission-policies.md)
-- [Administrar la configuración en los equipos y las directivas de aplicación personalizada](teams-custom-app-policies-and-settings.md)
+- [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
+- [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 - [Publicar una aplicación en el catálogo de aplicaciones de inquilino desde el cliente de los equipos](tenant-apps-catalog-teams.md)

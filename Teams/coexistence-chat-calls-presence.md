@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de chat, el enrutamiento de llamadas y presencia entre los usuarios de los equipos y Skype para la empresa, en el inquilino y federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio del modo de TeamsUpgrade predeterminado de *heredado* a *Islas* y la retirada inminente de *heredado*.
-ms.openlocfilehash: c6343b7f62249dab6e02c1e42fce1cc567f5035a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569713"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517219"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 
@@ -27,8 +27,6 @@ Coexistencia y la interoperabilidad entre Skype para clientes empresariales y de
 
 Cualquier usuario determinado siempre se asignará un modo TeamsUpgrade, ya sea de forma predeterminada o explícitamente por el administrador. El valor predeterminado es *Islas*. Los usuarios actualizados a los equipos tienen el modo de *TeamsOnly*. *SfBOnly*, *SfBWithTeamsCollab*y *SfBWithTeamsCollabAndMeetings* también son modos posibles.
 
-> [!NOTE]
-> Modo *heredado* ha quedado obsoleto; los usuarios que estaban en modo *heredado* se convirtieron en modo de *Islas* .
 
 ## <a name="routing-parameters"></a>Parámetros de enrutamiento
 
@@ -49,9 +47,9 @@ Los parámetros que determinan el método de enrutamiento de subproceso son:
 - Si la conversación es nueva o forma parte de un tema existente
 - Si la conversación está en el inquilino o federados
 - Si es posible la conversación
-    - Interoperabilidad *de inquilino* requiere que el inquilino es puro en línea o Skype para entornos híbridos de negocio. Los inquilinos puramente local no pueden tener en el inquilino interoperabilidad.
+    - Interoperabilidad *de inquilino* requiere que el inquilino es puro en línea o Skype para entornos híbridos de negocio. Puramente local los inquilinos no pueden tener la interoperabilidad de inquilinos.
     - *Federación entre inquilino* siempre requiere Skype adecuado para la configuración de federación de negocio, así como la configuración de federación de los equipos adecuado desde tanto los inquilinos. No es necesario de puede ser inquilino Skype para entornos híbridos de negocio.
-    - Si el Skype para cuenta de empresa que el autor es in situ hospedado, que el usuario no puede usar al cliente de los equipos para la interoperabilidad en el inquilino o para la federación. Que el usuario sólo puede usar el Skype para cliente empresarial para la interoperabilidad y la federación.
+    - Si el Skype para cuenta empresarial del originador es alojarse en local, que el usuario no puede usar al cliente de los equipos para la interoperabilidad en el inquilino o para la federación. Que el usuario sólo puede usar el Skype para cliente empresarial para la interoperabilidad y la federación.
     - Los equipos para la comunicación de los equipos siempre es posible en el inquilino.
 
 > [!NOTE]
@@ -61,7 +59,7 @@ Los parámetros que determinan el método de enrutamiento de subproceso son:
 
 ## <a name="in-tenant-routing-for-new-chats-or-calls"></a>El enrutamiento para el nuevo chats o las llamadas en inquilino 
 
-Las tablas siguientes capturan el enrutamiento de llamadas y conversaciones en inquilino y son válidas para las nuevas llamadas o charlas que no se han iniciado desde un subproceso ya existente. Describe qué cliente recibirá una nueva llamada o chat, si se ha originado por un usuario de la izquierda, para un usuario de destinatario en el inquilino de la derecha.
+Las tablas siguientes capturan el enrutamiento de llamadas y conversaciones en inquilino y son válidas para las llamadas nuevas o charlas que no se han iniciado desde un subproceso ya existente. Describe qué cliente recibirá una nueva llamada o chat, si se ha originado por un usuario de la izquierda, para un usuario de destinatario en el inquilino de la derecha.
 
 Los mensajes enviados a los usuarios de TeamsOnly siempre se enrutarán a los equipos. Los mensajes enviados a SfB\* a los usuarios siempre enrutará a Skype para la empresa, si la conversación es posible tal y como se ha descrito anteriormente. Los mensajes enviados a los usuarios de islas enrutará siempre al mismo cliente desde el que se enviaron.
 
@@ -178,8 +176,6 @@ Para saber qué comportamiento cabe esperar, necesita comprender que la presenci
     * Desde los equipos, cualquier otro usuario en un inquilino federado verán Skype del usuario islas de presencia de negocio; Esto se alinea con la tabla de enrutamiento federada anterior
     * De Skype para la empresa, cualquier otro usuario verán Skype del usuario islas de presencia de negocio (tanto en el inquilino y federado); Esto se alinea con las tablas de enrutamiento anteriores
 
-> [!NOTE]
-> Se trata de un cambio reciente de la implementación anterior (denominado presencia unificada) que se mostró una presencia combinada, agregado de los equipos y Skype el destino para los clientes empresariales. Ese enfoque anterior resultado para ser confusa para los usuarios, ya que con frecuencia daría lugar en Mostrar imprecisos presencia, es decir, un usuario no está accesible, aunque su presencia les mostramos en línea.
 
 ## <a name="in-tenant-presence"></a>Presencia en el inquilino
 
@@ -216,5 +212,6 @@ Con el fin de alinear la presencia y el alcance de los subprocesos ya existentes
 En particular, si un destinatario previamente tenía un subproceso persistente conversación interoperabilidad con se ha actualizado a los equipos, que el subproceso ya no reflejarán presencia preciso y ya no estará enrutable. Debe iniciar un nuevo subproceso.
 
 ## <a name="related-links"></a>Vínculos relacionados
+[Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/en-us/microsoftteams/migration-interop-guidance-for-teams-with-skype)
 
 [Vídeo: Administrar la coexistencia y la interoperabilidad entre los equipos y SfB](https://www.youtube.com/watch?v=wEc9u4S3GIA&list=PLaSOUojkSiGnKuE30ckcjnDVkMNqDv0Vl&index=11)

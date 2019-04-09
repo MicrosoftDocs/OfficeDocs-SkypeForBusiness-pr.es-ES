@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son los operadores automáticos del Sistema telefónico?
+title: ¿Cuáles son los operadores automáticos de sistema telefónico?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -22,14 +22,14 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Obtenga información sobre qué son los operadores automáticos de sistema telefónico y cómo usarlas.
-ms.openlocfilehash: 03eec73f8274ab9b5cbe67624b0ef1158d548a4a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 1f5d54308836f0677db26e63003ab04c60ef395a
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003870"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517258"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos del Sistema telefónico?
+# <a name="what-are-phone-system-auto-attendants"></a>¿Cuáles son los operadores automáticos de sistema telefónico?
 
 Sistema telefónico en Office 365 proporciona a operadores automáticos, que se pueden usar para permitir que externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.
   
@@ -76,7 +76,7 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
 
 ### <a name="dial-by-name"></a>Marcado por nombre
 
-Marcado por nombre es una característica de un operador automático que también se conoce como búsqueda en el directorio. Permite a las personas que llame a su operador automático para utilizar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) teléfono para escribir un nombre completo o parcial para buscar en el directorio de la compañía, busque a la persona y, a continuación, haga transferir la llamada a ellos. Los usuarios que desea tener que se encuentra y alcanzar mediante marcado por nombre de **no son necesarias para tener un número de teléfono o llamar a planes asignados a ellos, pero deben tener una licencia de sistema telefónico**. Marcado por nombre incluso podrán buscar y transferir las llamadas a los usuarios de Microsoft Teams que se hospedan en distintos países o regiones para las organizaciones multinacionales.
+Marcado por nombre es una característica de un operador automático que también se conoce como búsqueda en el directorio. Permite a las personas que llame a su operador automático para utilizar voz (reconocimiento de voz) o sus respuestas de teclado (DTMF) teléfono para escribir un nombre completo o parcial para buscar en el directorio de la compañía, busque a la persona y, a continuación, haga transferir la llamada a ellos. Los usuarios que desea tener que se encuentra y alcanzar mediante marcado por nombre de **no es necesario tener un número de teléfono o llamar a planes asignados a ellos, pero deben tener una licencia de sistema telefónico si son usuarios en línea o EV habilitado para local a los usuarios**. Marcado por nombre incluso podrán buscar y transferir las llamadas a los usuarios de Microsoft Teams que se hospedan en distintos países o regiones para las organizaciones multinacionales.
 
 ### <a name="maximum-directory-size"></a>Tamaño máximo de directorio
 

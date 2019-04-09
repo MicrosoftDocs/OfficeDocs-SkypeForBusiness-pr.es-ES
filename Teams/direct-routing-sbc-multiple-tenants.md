@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 53cc4d6f9d930c9069ac39d81e304b0265669b5e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 26c2263747b33eab5c6e27a1a22b13fd44af7874
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893346"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517227"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -118,7 +118,7 @@ Para obtener más información acerca de los roles de administrador y cómo asig
 3. Haga clic en **Siguiente**.
 4. En el ejemplo, el inquilino ya tiene adatum.biz como un nombre de dominio comprobado. El asistente no le preguntará para la comprobación adicional debido a que customers.adatum.biz es un subdominio para el nombre ya registrado. Sin embargo, si agrega un FQDN que no se ha comprobado antes, necesitará ir a través del proceso de comprobación. El proceso de comprobación es [se describe a continuación](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Confirmación de un nombre de dominio comprueba](media/direct-routing-3-sbc-verify-domain.png)
+    ![Confirmación de un nombre de dominio comprobado](media/direct-routing-3-sbc-verify-domain.png)
 
 5.  Haga clic en **siguiente**y en la página **Configuración de DNS de actualización** , seleccione **vamos a agregar los registros DNS yo mismo** y haga clic en **siguiente**.
 6.  En la siguiente página, desactive todos los valores (a menos que desee usar el nombre de dominio de Exchange, SharePoint o equipos/Skype para la empresa), haga clic en **siguiente**y, a continuación, haga clic en **Finalizar**. Asegúrese de que su nuevo dominio se encuentra en el estado del programa de instalación completado.

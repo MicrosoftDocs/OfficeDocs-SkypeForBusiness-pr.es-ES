@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Obtenga información acerca de cómo administrar las cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 345b3b8698f0c387f90b37cc1212c320a2d3d85d
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 055e419e5a82233676e5b66857589216b4dbca6d
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013648"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517235"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -61,9 +61,13 @@ Para asignar un número de teléfono a una cuenta de recurso, necesitará obtene
 
 ## <a name="create-a-resource-account-in-microsoft-teams-admin-center"></a>Crear una cuenta de recursos en el centro de administración de Microsoft Teams
 
-Para crear una cuenta de recursos en el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización** > **las cuentas de recursos**, haga clic en **+ Agregar**y rellene el nombre para mostrar, nombre de usuario, a continuación, seleccione el nombre de dominio y haga clic en **Guardar**.
+Para crear una cuenta de recursos en el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización** > **las cuentas de recursos**, a continuación, haga clic en **+ Agregar**. En el menú emergente, rellene el nombre para mostrar y nombre de usuario para la cuenta del recurso (el nombre de dominio debe rellenar automáticamente), a continuación, haga clic en **Guardar**.
 
-Para aplicar una licencia a la cuenta del recurso, vaya a la ficha de usuarios del centro de administración de Office 365.
+![cuenta de recurso](media/res-acct.png)
+
+También necesitará aplicar una licencia a la cuenta del recurso, tal como se describe en [asignar licencias a los usuarios de Office 365 para profesionales](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/assign-licenses-to-users?redirectSourcePath=%252farticle%252f997596b5-4173-4627-b915-36abac6786dc&view=o365-worldwide)
+
+Una vez que haya creado la cuenta del recurso y asignado la licencia, puede hacer clic en **Asignar o Cancelar asignación** para asignar a un número de teléfono a la cuenta del recurso, o para asignar la cuenta de recurso a una cola de llamada o de operador automático.
 
 ## <a name="create-a-resource-account-in-powershell"></a>Crear una cuenta de recursos en Powershell
 
@@ -74,7 +78,7 @@ Dependiendo de si su número de teléfono se encuentra en línea o local, sería
 - Las implementaciones de híbrido (números de números hospedados en el enrutamiento directo, OPCH y CCE) se utilizará [CsHybridApplicationEndpoint de nuevo](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps) para crear una cuenta de recurso que se hospeda en local.  
 - En línea sólo las implementaciones utilizarán [New-CsOnlineApplicationInstance](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineApplicationInstance?view=skype-ps) para una cuenta de recurso que se hospeda en línea.
 
-El siguiente es un ejemplo de un entorno en línea de la creación de una cuenta de recursos:
+El siguiente es un ejemplo de un entorno en línea de creación de cuenta de recurso con un operador automático de ApplicationID. Para una cola de llamadas, puede usar el siguiente ApplicationID 11cd3e2e-fccb-42ad-ad00-878b93575e07:
 
 ``` Powershell
 New-CsOnlineApplicationInstance -UserPrincipalName testra1@contoso.com -ApplicationId “ce933385-9390-45d1-9512-c8d228074e07” -DisplayName "Resource account 1"
@@ -89,7 +93,7 @@ Para obtener más información acerca de este comando, vea [New-CsOnlineApplicat
 ``` Powershell
 Set-CsOnlineVoiceApplicationInstance -Identity $resacct.ObjectId
  -TelephoneNumber +14255550100
-Get-CsOnlineTelephoneNumber -TelephoneNumber 19294450177
+Get-CsOnlineTelephoneNumber -TelephoneNumber +14255550100
 ```
 
 Si no se aplican una licencia durante la creación de la cuenta del recurso se producirá un error en la asignación de números de teléfono. 

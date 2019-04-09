@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Obtenga información sobre las directivas de permisos de aplicación en Microsoft Teams y cómo usarlos para controlar qué aplicaciones están disponibles para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: e88493e5ecb764f207ee0eebd9a46e68db3671cd
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747689"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520227"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Como administrador, puede usar las directivas de permisos de aplicación para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams en su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas, publicadas por Microsoft, terceros y su organización. Cuando se bloquea una aplicación, los usuarios son no se puede instalar desde el almacén de aplicación de los equipos.
 
@@ -137,7 +137,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas más frecuentes
+## <a name="faq"></a>Preguntas frecuentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicación
 
@@ -178,5 +178,5 @@ Por ejemplo, si se bloquea una aplicación, los usuarios no cualquiera de las si
 
  ## <a name="related-topics"></a>Temas relacionados
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-- [Administración de directivas de aplicación del programa de instalación en los equipos](teams-app-setup-policies.md)
-- [Administrar la configuración en los equipos y las directivas de aplicación personalizada](teams-custom-app-policies-and-settings.md)
+- [Administrar directivas de configuración de aplicación en Teams](teams-app-setup-policies.md)
+- [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)

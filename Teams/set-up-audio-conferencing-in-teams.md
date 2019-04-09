@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar acceso telefónico o conferencias de Audio para las personas de su empresa que necesitan utilizar un teléfono para unirse a llamadas de conferencia. '
-ms.openlocfilehash: 30e79282f04c2d1b4dc7ff01673461b7a18254fd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.openlocfilehash: 7ff24dd2b29eabbad46759471b69c3619e4e7b24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955033"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517179"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Establecer una conferencia de Audio para Microsoft Teams
 
@@ -74,7 +74,7 @@ En Audioconferencia, no puede usar números de teléfono para los usuarios; debe
 
 Una vez que obtenga su teléfono de pago o números de teléfono gratuito para el puente de conferencia, debe asignar los números de modo que se pueden usar en las invitaciones a reuniones.  
 
-Siga estos stesps para asignar a un nuevo número de teléfono para el puente de conferencia de audio.
+Siga estos pasos para asignar a un nuevo número de teléfono para el puente de conferencia de audio.
 
 ![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio:**
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar los días no laborables en Microsoft Teams
+title: Configurar vacaciones en Microsoft Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -18,14 +18,14 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Obtenga información sobre cómo configurar los días no laborables en Microsoft Teams y conectarlos a su operador automático.
-ms.openlocfilehash: ee88135a030aa1a20872b397b2709da40b3ab8e5
-ms.sourcegitcommit: 3d3a296f225ecbbee0b4cea67664ad7ab31ed1c2
+ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30537759"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517122"
 ---
-# <a name="set-up-holidays-in-microsoft-teams"></a>Configurar los días no laborables en Microsoft Teams
+# <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
 Puede usar la característica de días festivos de los equipos de Microsoft para programar fechas específicas y veces cuando las personas de su organización va a tener tiempo desactivado de trabajan y no estarán disponibles durante el horario normal. 
 
@@ -55,7 +55,7 @@ Para obtener más información sobre los operadores automáticos, consulte [¿Cu
 
 9. Seleccione **Guardar**.
 
-## <a name="change-a-holdiay"></a>Cambiar un holdiay
+## <a name="change-a-holiday"></a>Cambiar un día festivo
 
 1. En el centro de administración de Microsoft Teams, vaya a **configuración de toda la organización** > **días festivos**.
 

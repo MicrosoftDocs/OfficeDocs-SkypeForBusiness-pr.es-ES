@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d92e30617fb62000cd4b10dac29ec23eee1feaa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: cf48da12ddd1088c499f9d0703dc229d5b5df605
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882965"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516794"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 
@@ -66,9 +66,6 @@ Para probar ambos segmentos de red, puede usar la [Herramienta de evaluación de
 
 ## <a name="bandwidth-requirements"></a>Requisitos de ancho de banda
 Teams Microsoft le ofrece la mejor audio, vídeo y uso compartido experiencia independientemente de las condiciones de red del contenido. Con códecs variables, se pueden negociar medios en entornos de ancho de banda limitado con un impacto mínimo. Pero donde ancho de banda no es una preocupación, experiencias pueden ser optimizadas para calidad, incluida una resolución de vídeo 1080p, hasta 30fps para vídeo y 15fps para contenido y audio de alta fidelidad.
-
-En este artículo se describe una versión concisa de forma se utiliza el ancho de banda por Microsoft Teams tiempo real audio, vídeo y uso compartido modalidades en distintos casos de uso de escritorio. Los equipos siempre es conservadoras sobre la utilización de ancho de banda y puede ofrecer una calidad de vídeo HD en 1.2Mbps.  El consumo de ancho de banda real en cada llamada de audio y vídeo o una reunión variará en función de varios factores, como el diseño de vídeo, la resolución de vídeo y de fotogramas de vídeo por segundo. Cuando hay más ancho de banda disponible calidad y uso aumentará para ofrecer la mejor experiencia.
-
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 

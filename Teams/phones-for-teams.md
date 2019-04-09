@@ -16,12 +16,12 @@ ms.collection:
 - M365-voice
 localization_priority: Normal
 description: En este artículo, se explica la lista de teléfonos que están certificados para Microsoft Teams y las características admitidas en los teléfonos certificados para Microsoft Teams.
-ms.openlocfilehash: 2a5ae7d996d2b89aae02e4104e762dfa916c9f55
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747649"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517211"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -78,7 +78,7 @@ Cuando un usuario hace clic en el botón Inicio de sesión en los equipos, inici
 
 Después de la sesión correctamente, el usuario puede elegir si se usará el dispositivo para uso personal o en una sala de conferencias compartida.
 
-![La opción de cuenta compartida o personl](media/personal-vs-shared-mode.jpg)
+![La opción de cuenta personal o compartido](media/personal-vs-shared-mode.jpg)
 
 La experiencia de teléfono de los equipos se optimiza en función de la selección del usuario.
 

@@ -1,5 +1,5 @@
 ---
-title: Asignar o cambiar la ubicación de emergencia para un usuario
+title: Asignar o cambiar la ubicación de emergencia de un usuario
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to change the emergency location for your users. With an unlimited number of locations, you can change emergency locations as employees move floors or buildings. '
-ms.openlocfilehash: c55f8f51ee7d94ad3b9e0c91c0bb67c319a28c46
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
+ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30046500"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31516946"
 ---
-# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia para un usuario
+# <a name="assign-or-change-the-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
 Cada número de teléfono activo debe tener una dirección de emergencia asociada al asignar el número de teléfono a un usuario. (Puede asociar la dirección al obtener un número de teléfono en Office 365, o cuando se transfiere un número de teléfono). Cuando el número se asocia con una dirección de emergencia, también puede agregar una ubicación de emergencia para proporcionar una ubicación más exacta dentro de una ubicación física. Una ubicación de emergencia puede ser una planta, el ala de un edificio o un número de oficina donde se encuentra el usuario. Puede tener un número ilimitado de ubicaciones para una determinada dirección de emergencia, y puede cambiar la ubicación de emergencia si el usuario se desplaza a una oficina o edificio diferente: por ejemplo, si el usuario se mueve desde la planta 34 a la planta 35.
   
@@ -60,6 +60,9 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
     Si desea agregar una nueva ubicación de emergencia que aparecerá en la lista, consulte [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md).
     
 ## <a name="related-topics"></a>Temas relacionados
+
+[Asignar una respuesta de emergencia ubicaciones mediante powershell](https://github.com/MicrosoftDocs/office-docs-powershell/blob/master/skype/skype-ps/skype/Set-CsOnlineVoiceUser.md)
+
 [Agregar o quitar una dirección de emergencia para su organización](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md)
@@ -70,7 +73,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

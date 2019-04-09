@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: afe1ce61a5c5f137b5123cb530094d6a651ecf7f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541787"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517074"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -76,6 +76,8 @@ Para obtener más información, vea [licencias de complemento de equipos de Micr
 
       > [!NOTE]
      > Fondos se aplicará sólo a créditos Communications en Microsoft publicado tasas cuando se usan los servicios. Los fondos que no se usen en 12 meses desde la fecha de compra se perderán. 
+     > 
+     > Facturación mensual para comunicación créditos sólo se aplicará si se ha usado el fondo asignado para aprender a comprobar su uso mensual, lea [Skype para el informe de uso de RTC de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report)
     
 5. Escriba la información de pago y haga clic en **Realizar pedido**.
     >[!IMPORTANT]
@@ -83,7 +85,7 @@ Para obtener más información, vea [licencias de complemento de equipos de Micr
     
 Cada organización va a tener un uso diferente de volumen de una llamada a planear e índices a tener en cuenta. You will need to get this type of usage data from your current service provider. Las organizaciones que ya utilizan Skype para profesionales Online ya como su proveedor de servicios pueden obtener datos de uso mediante la revisión en el **Skype para el centro de administración de negocio** > **informes** > informe de**Detalles de uso de RTC** .
   
-Cuando está configurando créditos Communications, debe investigar el uso de la llamada de la organización determinar los importes que necesitará para poner en. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de la llamada a Excel si desea exportar los datos para el almacenamiento o crear informes personalizados. Para ver el uso, vea [Skype para el informe de uso de RTC de negocio](/SkypeForBusiness/skype-for-business-online-reporting/pstn-usage-report)
+Cuando está configurando créditos Communications, debe investigar el uso de la llamada de la organización determinar los importes que necesita. Puede obtener la información del uso de llamadas en el informe **Detalles de uso de RTC**. Este informe le permite exportar los registros de datos de la llamada a Excel si necesita almacenar los datos o crear informes personalizados. Para obtener información sobre cómo ver uso, lea [Skype para el informe de uso de RTC de negocio](https://docs.microsoft.com/skypeforbusiness/skype-for-business-online-reporting/pstn-usage-report).
   
 ## <a name="step-3-assign-a-communications-credits-license-to-users"></a>Paso 3: Asignar una licencia de créditos de comunicaciones a los usuarios
 
@@ -116,7 +118,7 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
+- [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
     

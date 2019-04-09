@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
 description: 'Resumen: Revise la compatibilidad con la característica para el cliente móvil durante la planeación de Skype para Business Server.'
-ms.openlocfilehash: f04d0162113db68e2507930e827904110b69066f
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: 6d43d5dbadbc11abaabde8858c75273a0190b324
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965751"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520165"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Comparación de características de cliente móvil de Skype para la empresa
  
@@ -90,7 +90,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |:-----|:-----|:-----|:-----|:-----|
 |Publicar y ver estado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Ver estado según la información de disponibilidad del calendario  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Ver notas de estado y mensajes de Fuera de la oficina  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Ver notas de estado y mensajes Fuera de la oficina  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Agregar una ubicación personalizada  <br/> |& #x 2714;||||
 |Agregar una nota personalizada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Publicar el estado según la información de disponibilidad del calendario   <br/> |& #x 2714; & #x 2776; ||||
@@ -108,7 +108,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |Ver grupo de contactos frecuentes  <br/> |& #x 2714;||||
 |Modificar lista de contactos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Marcar contactos para alertas de cambio de estado  <br/> |& #x 2714;||||
-|Controlar las relaciones de privacidad  <br/> |& #x 2714;||||
+|Controlar relaciones de privacidad  <br/> |& #x 2714;||||
 |Buscar en la libreta de direcciones corporativa  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Buscar en la lista de contactos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Administrar grupos de contactos  <br/> |& #x 2714;|||& #x 2714;|
@@ -140,7 +140,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 ## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype para la empresa a Skype para profesionales audio y vídeo
 
 
- | Característica / función  | Skype para el cliente de escritorio empresarial  | Windows Phone  | iOS  | Android |
+ | Característica/función  | Skype para el cliente de escritorio empresarial  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Skype para profesionales de Skype para voz empresarial  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Skype para profesionales de Skype para vídeo de negocio  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -158,14 +158,14 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |Usar la conferencia saliente (el servidor llama al dispositivo móvil)  <br/> |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |& #x 2714; & #x 2776; |
 |Usar audioconferencia de acceso telefónico  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Ver vídeo de la reunión  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Ver un vídeo entre varios participantes (vista de galería)  <br/> |& #x 2714;||||
+|Ver un vídeo entre varias partes (vista de galería)  <br/> |& #x 2714;||||
 |Esperar en la sala de espera de la reunión  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Usar los controles de moderador en la reunión  <br/> |& #x 2714;||||
 |Obtener acceso a la lista detallada de la reunión para audioconferencias  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Obtener acceso a la lista detallada de la reunión para conferencias de MI  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Compartir escritorio o programa  <br/> |& #x 2714;||||
 |Ver el escritorio compartido o programa (VbSS o RDP)  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
-|Ver archivos de PowerPoint compartidos  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
+|Ver archivos de PowerPoint compartidos  <br/> |& #x 2714;|& #x 2714; & #x 2777; |& #x 2714; & #x 2777; & #x 2778; |& #x 2714; & #x 2777; & #x 2778;|
 |Cargar y presentar archivos de PowerPoint  <br/> |& #x 2714;||& #x 2714; & #x 2777; |& #x 2714; & #x 2777; |
 |Usar herramientas de la reunión (usar la pizarra, realizar sondeos, compartir archivos)  <br/> |& #x 2714;||||
 |Navegar por una lista de reuniones personales  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
@@ -176,6 +176,8 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
  & #x 2776;  Para los usuarios de Office 365, esta característica requiere Enterprise Voice, que forma parte de la licencia de E5.
   
  & #x 2777;  Requiere una conexión WiFi de forma predeterminada.
+ 
+ & #x 2778;  No se admite la visualización de vídeo incrustado en presentaciones de PowerPoint.
   
 ## <a name="telephony-support"></a>Compatibilidad con funciones de telefonía
 
@@ -211,7 +213,7 @@ En dispositivos iOS, Skype para la empresa cierra la sesión automáticamente de
 |Iniciar mensajería instantánea con un contacto federado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Realizar llamadas de dos participantes con usuarios externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Realizar llamadas de varios participantes con usuarios externos  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Usar vía trabajo para contactar con un contacto federado en su teléfono móvil mediante una llamada a su número del trabajo publicado & #x 2776;            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
+|Usar vía trabajo para contactar con un contacto federado en su teléfono móvil llamando a sus & número del trabajo publicado #x 2776;            <br/> ||& #x 2714;|& #x 2714;|& #x 2714;|
    
  & #x 2776;  De forma predeterminada, los usuarios federados se asignan la relación de privacidad contactos externos. Para comunicarse con un contacto federado en su teléfono móvil llamando a su número del trabajo publicado, el contacto federado debe asignar manualmente la relación de privacidad Compañeros al autor de la llamada.
   
@@ -240,11 +242,11 @@ Esta tabla reúne las características que requieren soporte para la autenticaci
 Autenticación moderna también requiere una topología que se describen en [Skype para topologías empresariales compatibles con autenticación moderno](../../plan-your-deployment/modern-authentication/topologies-supported.md).
   
 
- | Característica / función  | Skype para el cliente de escritorio empresarial  | Windows Phone  | iOS  | Android |
+ | Característica/función  | Skype para el cliente de escritorio empresarial  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Autenticación moderna  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Autenticación multifactor  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Autenticación basada en certificados  <br/> |& #x 2714; (sólo dispositivo unido a un dominio)  <br/> ||& #x 2714;|& #x 2714;|
+|Autenticación basada en certificado  <br/> |& #x 2714; (sólo dispositivo unido a un dominio)  <br/> ||& #x 2714;|& #x 2714;|
 |Administración de aplicaciones móviles (a través de Intune)  <br/> |||& #x 2714;|& #x 2714;|
    
 

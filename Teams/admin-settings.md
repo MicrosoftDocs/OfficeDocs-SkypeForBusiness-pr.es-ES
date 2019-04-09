@@ -3,12 +3,12 @@ title: Configurar la administración para aplicaciones en Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 03/12/2018
+ms.date: 03/18/2018
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: ritikag
-description: Aprenda a permitir y habilitar aplicaciones en Microsoft Teams, incluida la carga lateral de aplicaciones externas.
+ms.reviewer: ritikag, lajin
+description: Obtenga información sobre las directivas y la configuración que puede usar para administrar aplicaciones para la organización en Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -18,54 +18,54 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad61e412bbbe0a880a279179f40124895d6e38a5
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568411"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520151"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Aplicaciones son las fichas, conectores, bots o cualquier combinación de estos tres, proporcionada por y los equipos (aplicaciones de cookies, también conocido como aplicaciones de forma predeterminada) o por un tercero (también conocido como aplicaciones externas). En el centro de administración de Microsoft 365, puede habilitar y deshabilitar aplicaciones predeterminadas y configurar las opciones para controlar las aplicaciones externas. Esta configuración permite especificar qué aplicaciones externas permitidas y no permitidos, nuevo comportamiento de la aplicación externa, y si se permite la carga de lado aplicaciones.
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
- Para administrar la configuración de administración de aplicaciones en los equipos, vaya al centro de administración de Microsoft 365 y elija **configuración** > **complementos & de servicios** > **Equipos de Microsoft**. Si ha iniciado sesión como administrador de Office 365, puede acceder con este vínculo:
+Proporcionan las aplicaciones del cuadro herramientas para la organización obtener más provecho de los equipos. Estas aplicaciones de combinan la funcionalidad de las fichas, las extensiones de mensajería, conectores y bots proporcionados por Microsoft, creada por un tercero, o por los programadores de la organización.
 
-https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns 
+Administración de aplicaciones para la organización en las **aplicaciones de los equipos** en el centro de administración de Microsoft Teams. Puede establecer directivas para controlar qué aplicaciones están disponibles para los usuarios de los equipos de la organización, personalizar los equipos mediante fijación de aplicaciones que son más importantes para los usuarios y especificar si los usuarios pueden cargar aplicaciones personalizadas (también conocido como sideloading). Estas directivas y configuración proporciona un control granular sobre qué aplicaciones están disponibles, cómo aparecen en los equipos y quién puede utilizarlos en función de las necesidades de su organización.
 
-Si desea más información sobre la configuración de administrador para las aplicaciones, consulte el siguiente vídeo: 
- 
-|  |  |
-|---------|---------|
-| Administrar la experiencia de aplicaciones en Microsoft Teams   | <iframe width="350" height="200" src="https://www.youtube.com/embed/CHnpw1O7EgM" frameborder="0" allowfullscreen></iframe>     | 
+## <a name="app-permission-policies"></a>Directivas de permisos de aplicación
 
-## <a name="allow-external-apps-in-teams"></a>Permitir aplicaciones externas en Microsoft Teams
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-De manera predeterminada, la opción **Permitir aplicaciones externas en Microsoft Teams** está activada con todas las aplicaciones seleccionadas. Si desactiva esta opción, se deshabilitan todas las aplicaciones de otros fabricantes externas. 
+Con las directivas de permisos de aplicación, puede bloquear o permitir aplicaciones, toda la organización o para usuarios específicos.  Cuando se bloquea una aplicación, se deshabilitan todas las interacciones con esa aplicación y la aplicación no aparece en los equipos de los usuarios.
 
-## <a name="enable-new-external-apps-by-default"></a>Habilitar nuevas aplicaciones externas de manera predeterminada
+Por ejemplo, puede usar las directivas de permisos de aplicación para:
 
-#### <a name="trophy-best-practice-manage-external-apps-individually"></a>:trophy: Procedimiento recomendado: Administrar las aplicaciones externas de forma individual 
- 
-Para activar algunas aplicaciones (y desactivar otras), desactive **Permitir la instalación de prueba de aplicaciones externas**. A continuación, desactive las aplicaciones que no quiera que usen los usuarios. Opcional: Desactive **Habilitar nuevas aplicaciones externas de manera predeterminada** (si desea controlar las nuevas aplicaciones). 
+- Deshabilitar una aplicación que supone un permiso o el riesgo de pérdida de datos para la organización.
+- Gradualmente desplegar nuevas aplicaciones de terceros o aplicaciones personalizadas de integrado a usuarios específicos.
+- Simplificar la experiencia del usuario, especialmente cuando se inicie implantar los equipos en toda la organización.
 
-> [!NOTE]
-> Aplicaciones predeterminadas, como los creados por Microsoft, no se ven afectadas por la configuración de **Habilitar las nuevas aplicaciones externas de forma predeterminada** . Nuevas aplicaciones están habilitadas de forma predeterminada cuando publicadas por Microsoft.
+Para obtener más información, vaya a [administrar las directivas de permisos de aplicación en los equipos](teams-app-permission-policies.md).
 
-Cuando esta opción está activada, los usuarios pueden activar las nuevas aplicaciones tan pronto como el que se agregan al catálogo de aplicaciones de los equipos. Para abrir el catálogo de aplicaciones de Microsoft Teams, haga clic en **Tienda** en la parte inferior de Microsoft Teams y después en **Aplicaciones**. Si desea controlar qué aplicaciones están disponibles, desactivar esta configuración. Si lo desactiva, deberá recordar revisar periódicamente las nuevas incorporaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
+## <a name="app-setup-policies"></a>Directivas del programa de instalación de aplicaciones
 
-La instalación de prueba es la forma en que se agrega una aplicación a Microsoft Teams mediante la carga de un archivo zip directamente a un equipo. La instalación de prueba le permite probar una aplicación en fase de desarrollo. También le permite crear una aplicación solo para el uso interno y compartirla con su equipo sin enviarla al catálogo de aplicaciones de Microsoft Teams en la Tienda Office. 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-La instalación de prueba de aplicaciones en Microsoft Teams la pueden realizar únicamente los propietarios del equipo o los miembros con los permisos adecuados.  
+Las directivas de aplicación del programa de instalación le permiten personalizar la experiencia de la aplicación para los usuarios. Elija las aplicaciones que desea anclar a la barra de aplicaciones en los clientes de los equipos y el orden en que aparecen, en clientes móviles, de escritorio y web.
 
-![Captura de pantalla de la sección de aplicaciones externas expandida.] (media/teams-tenant-wide-settings-external-apps.png "Captura de pantalla de la sección aplicaciones externas expandida que muestra aplicaciones externas")
+Presentamos algunos ejemplos de cómo puede usar las directivas de aplicación del programa de instalación:
+- Mejorar el conocimiento y la adopción de aplicaciones principales. Por ejemplo, anclar una aplicación de administración de contratación y talento personalizada para los usuarios en el equipo de recursos humanos.
+- Anclar las características de los equipos de núcleo, como Chat, equipos y llamar de forma selectiva. Al hacerlo, puede ayudar a garantizar que los usuarios están ocupados en actividades específicas dentro de los equipos.
 
-## <a name="creating-and-uploading-app-packages"></a>Crear y cargar paquetes de aplicaciones 
+Para obtener más información, consulte [Administrar directivas de configuración de aplicación en los equipos](teams-app-setup-policies.md).
 
-Para obtener más información acerca de las aplicaciones, vea [desarrollar aplicaciones para los equipos](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-overview). 
+## <a name="custom-app-policies-and-settings"></a>Configuración y las directivas de aplicación personalizada
 
+[!INCLUDE [preview-feature](includes/preview-feature.md)]
 
+Los equipos permite a los programadores de la organización para crear, probar e implementar aplicaciones personalizadas a otros usuarios. Aplicaciones personalizadas se pueden agregar a los equipos mediante la carga de un paquete de aplicación en un archivo .zip directamente a un equipo o en el contexto personal. Puede usar directivas de configuración de aplicación para controlar quién en la organización puede cargar sus aplicaciones personalizadas. También puede establecer la configuración de toda la organización para controlar si los usuarios pueden interactuar con aplicaciones personalizadas específicas.
 
+Para obtener más información, vaya a [directivas de aplicación personalizada de administrar y configuración de los equipos](teams-custom-app-policies-and-settings.md).

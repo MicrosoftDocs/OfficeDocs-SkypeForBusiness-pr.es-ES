@@ -15,12 +15,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a las plantillas para las organizaciones sanitarias de Teams
-ms.openlocfilehash: 5482afa3302085f113a57ec7b6b9f3f188f7cffc
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+ms.openlocfilehash: 38b2067bc91a79ff2efa8bc20726ad14d793aa24
+ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013632"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31517114"
 ---
 # <a name="get-started-with-teams-templates-for-healthcare-organizations"></a>Introducción a las plantillas para las organizaciones sanitarias de Teams
 
@@ -55,6 +55,9 @@ La plantilla de hospital está pensada para la comunicación y la colaboración 
 ## <a name="how-to-use-first-party-templates"></a>Cómo usar plantillas primera parte
 
 Para usar estas plantillas, bastará con cambiar la propiedad 'template@odata.bind' en el cuerpo de la solicitud de 'estándar' para el TemplateIDs anterior.  Para obtener más información acerca de cómo implementar las plantillas de equipos, vea el [artículo sobre la creación de un equipo](https://docs.microsoft.com/graph/api/team-post?view=graph-rest-beta)de Microsoft Graph.
+
+> [!NOTE]
+> Se crearán automáticamente los canales en la plantilla en la ficha General.
 
 ### <a name="example-hospital-template-extension-script"></a>Ejemplo: Secuencia de comandos de extensión de plantilla Hospital
 
@@ -162,4 +165,4 @@ Para usar estas plantillas, bastará con cambiar la propiedad 'template@odata.bi
 
 [Introducción a las plantillas de Teams](../../get-started-with-teams-templates.md)
 
-[Empezar a trabajar con los equipos para las organizaciones de salud](teams-in-hc.md)
+[Introducción a Teams para organizaciones sanitarias](teams-in-hc.md)

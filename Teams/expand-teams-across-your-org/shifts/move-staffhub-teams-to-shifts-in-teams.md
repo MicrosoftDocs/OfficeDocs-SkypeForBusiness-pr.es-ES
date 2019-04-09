@@ -1,5 +1,5 @@
 ---
-title: Mover los equipos de StaffHub a turnos en Microsoft Teams
+title: Mover los equipos de StaffHub a Turnos en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -13,21 +13,23 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2eb6e6616d1164dad462e349a80e7ac36cc5ce1e
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
+ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026216"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "31520219"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
-> Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Capacidades de StaffHub que estamos creando en Microsoft Teams. En la actualidad, los equipos incluye la aplicación de turnos para la administración de programación y funciones adicionales se lleve a cabo a través del tiempo. StaffHub dejará de funcionar para todos los usuarios en el 1 de octubre de 2019. Cualquier persona que intenta abrir StaffHub se mostrará un mensaje que les dirige a descargar los equipos. Para obtener más información, vea [Microsoft StaffHub retirarse](microsoft-staffhub-to-be-retired.md). 
+> Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Capacidades de StaffHub que estamos creando en Microsoft Teams. En la actualidad, los equipos incluye la aplicación de turnos para la administración de programación y funciones adicionales se lleve a cabo a través del tiempo. StaffHub dejará de funcionar para todos los usuarios en el 1 de octubre de 2019. Cualquier persona que intenta abrir StaffHub se mostrará un mensaje que les dirige a descargar los equipos. Para obtener más información, vea [Microsoft StaffHub retirarse](microsoft-staffhub-to-be-retired.md).
+
+> Aún no se ha emitido la funcionalidad descrita en este artículo. Se ha anunciado y estará disponible próximamente, hacia el final de abril de 2019. Si usted es un administrador, puede saber cuándo estará disponible en el centro de mensajes (en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home)).
 
 La aplicación de turnos en los equipos proporciona un método sencillo para administración de programaciones y el flujo constante de MAYÚS permutaciones y cancelaciones que se producen en un diario. Los miembros del equipo pueden tener acceso a su programación y MAYÚS información directamente en la aplicación y a través de sus dispositivos para establecer sus preferencias, administrar sus programaciones y tiempo de la solicitud desactivado.
 
-En este artículo le guiará a través del procedimiento para mover los equipos de su organización StaffHub y programar datos a turnos en los equipos. Independientemente de si una empresa pequeña con uno o dos equipos de StaffHub o una empresa grande con cientos de equipos StaffHub, aquí encontrará la orientación de administración que necesita para ayudar a hacer la transición a los equipos se realice correctamente. 
+En este artículo le guiará a través del procedimiento para mover los equipos de su organización StaffHub y programar datos a turnos en los equipos. Independientemente de si una empresa pequeña con uno o dos equipos de StaffHub o una empresa grande con cientos de equipos StaffHub, aquí encontrará la orientación de administración que necesita para ayudar a hacer la transición a los equipos se realice correctamente.
 
 Debe ser un administrador global para llevar a cabo los pasos de este artículo. Si aún no lo ha hecho, eche un vistazo a través de la [retirada de StaffHub preguntas más frecuentes](microsoft-staffhub-to-be-retired.md) para obtener respuestas a cualquier pregunta que tenga. 
 
@@ -68,7 +70,7 @@ Cada administrador y miembro del equipo deben tener una identidad en Azure Activ
 
 ### <a name="install-the-staffhub-powershell-module"></a>Instalar el módulo de StaffHub PowerShell
 
-Si no lo ha hecho ya, instale el [módulo de StaffHub PowerShell](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha).
+Si no lo ha hecho ya, [instale el módulo de StaffHub PowerShell](install-the-staffhub-powershell-module.md).
 
 Cuando se mueve un equipo de StaffHub, la solicitud de movimiento comprueba los requisitos previos. Aquí es motivos de por qué puede producir un error de una solicitud de movimiento:
 
@@ -92,9 +94,9 @@ Identificar a campeones entre los equipos pilotos y dar de alta para ayudar a d�
 
 Deben asegurarse de campeones de equipo los integrantes del grupo están configurar por dedique tiempo para todos los usuarios para [obtener a los clientes de los equipos](../../get-clients.md), inicie sesión en los equipos y desproteger sus programaciones por turnos e inicio charlar con cada una de las demás. Los usuarios que ya están familiarizados con StaffHub será y en funcionamiento rápidamente por turnos. También puede indicarles que [Ayudarán a turnos](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b) para obtener más ayuda.
 
-### <a name="move-a-staffhub-team"></a>Mover un equipo de StaffHub
+### <a name="move-a-staffhub-team-coming-soon"></a>Mover un equipo de StaffHub (próximamente)
 
-Siga estos pasos para mover un equipo de StaffHub a la vez. Se recomienda este enfoque para los equipos de prueba piloto. Más adelante, cuando esté listo para mover los equipos de StaffHub de todos los de su organización, consulte [mover sus equipos StaffHub](#move-your-staffhub-teams) para obtener instrucciones acerca de cómo mover varios equipos a la vez.
+Siga estos pasos para mover un equipo de StaffHub a la vez. Se recomienda este enfoque para los equipos de prueba piloto. Más adelante, cuando esté listo para mover los equipos de StaffHub de todos los de su organización, consulte [mover sus equipos StaffHub](#move-your-staffhub-teams-coming-soon) para obtener instrucciones acerca de cómo mover varios equipos a la vez.
 
 Ejecute el siguiente procedimiento para mover un equipo StaffHub.
 
@@ -130,11 +132,11 @@ Este es un ejemplo de la respuesta que se obtiene cuando un movimiento está en 
 
 Cuando esté listo para ir más allá de sus equipos pilotos y mover los equipos de su organización StaffHub a los equipos, es importante comunicarse en primer lugar el cambio a través de la organización. Propagar la palabra acerca de turnos y la transición a los equipos para mejorar el conocimiento, generar diversión y adopción de unidad.
 
-### <a name="move-your-staffhub-teams"></a>Mover los equipos de StaffHub
+### <a name="move-your-staffhub-teams-coming-soon"></a>Mover los equipos de StaffHub (próximamente)
 
-Siga estos pasos para mover los equipos de StaffHub de forma masiva. Puede elegir mover los equipos de StaffHub de todos los de su organización o mover determinados equipos StaffHub. Si desea mover que los equipos StaffHub uno a la vez, consulte [mover un equipo StaffHub](#move-a-staffhub-team).
+Siga estos pasos para mover los equipos de StaffHub de forma masiva. Puede elegir mover los equipos de StaffHub de todos los de su organización o mover determinados equipos StaffHub. Si desea mover que los equipos StaffHub uno a la vez, consulte [mover un equipo StaffHub](#move-a-staffhub-team-coming-soon).
 
-#### <a name="move-all-staffhub-teams"></a>Mover todos los equipos de StaffHub
+#### <a name="move-all-staffhub-teams-coming-soon"></a>Mover todos los equipos de StaffHub (próximamente)
 
 Ejecute el siguiente procedimiento para obtener una lista de todos los equipos de StaffHub en su organización.
 
@@ -157,7 +159,7 @@ Este es un ejemplo de la respuesta.
         2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
 ```
 
-#### <a name="move-specific-staffhub-teams"></a>Mover determinados equipos StaffHub
+#### <a name="move-specific-staffhub-teams-coming-soon"></a>Mover determinados equipos StaffHub (próximamente)
 
 Ejecute el siguiente procedimiento para obtener una lista de todos los equipos de StaffHub en su organización.
 
