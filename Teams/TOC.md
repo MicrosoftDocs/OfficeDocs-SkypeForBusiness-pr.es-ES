@@ -482,6 +482,7 @@
 #### [Argentina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-argentina.md)
 #### [Australia](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-australia.md)
 #### [Belarús](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belarus.md)
+#### [Bélgica](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belgium.md)
 #### [Belice](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-belize.md)
 #### [Bosnia y Herzegovina](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-bosnia-and-herzegovina.md)
 #### [Brasil](toll-free-dialing-limitations-and-restrictions/toll-free-dialing-restrictions-in-brazil.md)
@@ -634,6 +635,7 @@
 ## [Turnos para Teams](expand-teams-across-your-org/shifts-for-teams-landing-page.md)
 ### [Se retirará Microsoft StaffHub](expand-teams-across-your-org/shifts/microsoft-staffhub-to-be-retired.md)
 ### [Características Firstline Workers próximamente para Microsoft Teams](expand-teams-across-your-org/shifts/firstline-worker-features-coming-to-teams.md)
+### [Instalar el módulo de PowerShell de Microsoft StaffHub](expand-teams-across-your-org/shifts/install-the-staffhub-powershell-module.md)
 ### [Mover los equipos de Microsoft StaffHub a Turnos en Teams](expand-teams-across-your-org/shifts/move-staffhub-teams-to-shifts-in-teams.md)
 ### [Administrar la aplicación Turnos para su organización en Microsoft Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
 
