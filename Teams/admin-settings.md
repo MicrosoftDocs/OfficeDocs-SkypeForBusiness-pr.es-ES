@@ -18,19 +18,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 034ac8eeb5529179013540b1911a7bbc34b49014
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520151"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749672"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
-
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
 
 Proporcionan las aplicaciones del cuadro herramientas para la organización obtener más provecho de los equipos. Estas aplicaciones de combinan la funcionalidad de las fichas, las extensiones de mensajería, conectores y bots proporcionados por Microsoft, creada por un tercero, o por los programadores de la organización.
 
@@ -38,7 +36,7 @@ Administración de aplicaciones para la organización en las **aplicaciones de l
 
 ## <a name="app-permission-policies"></a>Directivas de permisos de aplicación
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Con las directivas de permisos de aplicación, puede bloquear o permitir aplicaciones, toda la organización o para usuarios específicos.  Cuando se bloquea una aplicación, se deshabilitan todas las interacciones con esa aplicación y la aplicación no aparece en los equipos de los usuarios.
 
@@ -52,7 +50,7 @@ Para obtener más información, vaya a [administrar las directivas de permisos d
 
 ## <a name="app-setup-policies"></a>Directivas del programa de instalación de aplicaciones
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Las directivas de aplicación del programa de instalación le permiten personalizar la experiencia de la aplicación para los usuarios. Elija las aplicaciones que desea anclar a la barra de aplicaciones en los clientes de los equipos y el orden en que aparecen, en clientes móviles, de escritorio y web.
 
@@ -64,7 +62,7 @@ Para obtener más información, consulte [Administrar directivas de configuraci�
 
 ## <a name="custom-app-policies-and-settings"></a>Configuración y las directivas de aplicación personalizada
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-section.md)]
 
 Los equipos permite a los programadores de la organización para crear, probar e implementar aplicaciones personalizadas a otros usuarios. Aplicaciones personalizadas se pueden agregar a los equipos mediante la carga de un paquete de aplicación en un archivo .zip directamente a un equipo o en el contexto personal. Puede usar directivas de configuración de aplicación para controlar quién en la organización puede cargar sus aplicaciones personalizadas. También puede establecer la configuración de toda la organización para controlar si los usuarios pueden interactuar con aplicaciones personalizadas específicas.
 

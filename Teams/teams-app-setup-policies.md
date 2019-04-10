@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: dc5800d6231245be1b562dbedef44608232f04c1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
+ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517106"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31749752"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Como administrador, puede usar las directivas de aplicación del programa de instalación para personalizar Microsoft Teams para resaltar las aplicaciones que son más importantes para los usuarios. Elija las aplicaciones para anclar y establecer el orden en que aparecen. Las directivas de aplicación del programa de instalación le permiten showcase aplicaciones que necesitan los usuarios de su organización, las creadas por terceros o por los programadores de la organización incluidas. También puede usar las directivas de aplicación del programa de instalación para administrar las características integradas cómo aparecen.
 

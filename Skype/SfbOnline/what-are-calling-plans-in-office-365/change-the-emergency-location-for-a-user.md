@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
-ms.openlocfilehash: 79ba52d65dc87b36397d4d0a8df121ac1fec8262
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
+ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516946"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31744284"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 
@@ -74,6 +74,8 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
 [Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+
+[Cmdlet Set-CsOnlineVoiceUser](https://docs.microsoft.com/en-us/powershell/module/skype/set-csonlinevoiceuser?view=skype-ps)
 
   
  

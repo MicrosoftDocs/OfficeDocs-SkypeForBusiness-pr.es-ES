@@ -1,0 +1,1 @@
+Esta característica todavía no se ha emitido. Se ha anunciado y estará disponible próximamente.Si usted es un administrador, puede saber cuándo se publicará esta característica en el centro de mensajes (en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home)).

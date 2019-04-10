@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retira el servicio Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se resume qué afectados los clientes deben conocer y para planear su continuidad del negocio.
-ms.openlocfilehash: 2622b95e8bae7d5721665c5691c1c76691207e74
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: e318e6aac1e4c5ab2b9934fd655dc3112120f36b
+ms.sourcegitcommit: 38b501cedfe5fa4ab0126f58926fe2ce4f0cdd0c
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026247"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "31740936"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange  
 
@@ -66,7 +66,7 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 
 3. **Planear la migración de operador automático**
     
-    Los administradores pueden iniciar migrar a sus operadores automáticos de ExchUMO para el operador automático de la nube en cualquier momento. Para obtener más información, vea [configurar un operador automático de sistema telefónico](/MicrosoftTeams/create-a-phone-system-auto-attendant.md) . Planes de Microsoft para proporcionar funciones adicionales de operador automático que los clientes considerar críticos para su migración por de 2019 de marzo. Los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático en consecuencia. Para la comparación de la lista de características, consulte la [matriz de características de servicios basados en la nube ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
+    Los administradores pueden iniciar migrar a sus operadores automáticos de ExchUMO para el operador automático de la nube en cualquier momento. Para obtener más información, vea [configurar un operador automático de sistema telefónico](https://docs.microsoft.com/microsoftteams/create-a-phone-system-auto-attendant) . Planes de Microsoft para proporcionar funciones adicionales de operador automático que los clientes considerar críticos para su migración por de 2019 de marzo. Los administradores deben evaluar el conjunto de características y migrar sus instancias de operador automático en consecuencia. Para la comparación de la lista de características, consulte la [matriz de características de servicios basados en la nube ExchUMO y Azure](#exchumo-and-azure-cloud-based-services-feature-matrix).
 
 4. **Planear para su validación posterior a la migración de correo de voz y las pruebas**
 
@@ -95,8 +95,8 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 
 | Servicio | Nivel de característica | Característica | Notas  | En la nube VM/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
-| MÁQUINA VIRTUAL  | Características del servicio| Admitir PBX de terceros 3rd    |  | N   | Y    |
-| MÁQUINA VIRTUAL | Características del servicio  | Compatibilidad con Skype para Business Server   |  | Q1CY19 | Y    |
+| MÁQUINA VIRTUAL  | Características del servicio| Admitir PBX de terceros 3rd    | Incluidas todas las funciones proporcionadas a 3ª PBX de terceros como MWI (indicador de espera de mensaje) mediante SIP notificar a los mensajes de Exchange UM en línea | N   | Y    |
+| MÁQUINA VIRTUAL | Características del servicio  | Compatibilidad con Skype para Business Server   |  | Y | S    |
 | MÁQUINA VIRTUAL | Características del servicio | Microsoft equipos de soporte técnico|  | Y | N    |
 | MÁQUINA VIRTUAL | Características del servicio | exhibición de documentos electrónicos y retención  | Para el cumplimiento y seguridad  | S | S    |
 | MÁQUINA VIRTUAL | Características del servicio | Compatibilidad con las reglas de Exchange | Para el cumplimiento y seguridad  | S | S    |
@@ -119,7 +119,7 @@ Microsoft ha identificado varias implementaciones de cliente que se consuman de 
 | MÁQUINA VIRTUAL | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión de correo de voz   | N | Y   |
 | MÁQUINA VIRTUAL | Características de usuario | Notificación de correo de voz con SMS    | Los usuarios pueden recibir un SMS cuando tienen un nuevo correo de voz    | N | Y    |
 | MÁQUINA VIRTUAL | Características de usuario | Idiomas admitidos saludo | Detalles aquí:https://docs.microsoft.com/en-us/microsoftteams/what-are-phone-system-auto-attendants | Y | S    |
-| MÁQUINA VIRTUAL | Características de usuario | Reglas de contestador automático |  | Q1CY19 | Y    |
+| MÁQUINA VIRTUAL | Características de usuario | Reglas de contestador automático |  | Y | S    |
 | MÁQUINA VIRTUAL | Características de usuario | Reproducir en teléfono (RTC): para reproducir el mensaje | Llamarme en mi celda para escuchar el mensaje de voz  | N | Y    |
 | MÁQUINA VIRTUAL | Características de usuario | Reproducir en teléfono (Auth) - para reproducir el mensaje | Llamarme en mi dispositivo autenticado  | Y | S    |
 | MÁQUINA VIRTUAL | Características de usuario | Buzón compartido entre varios usuarios |  | Y | S    |
