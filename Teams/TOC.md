@@ -145,7 +145,7 @@
 ### [Tutorial: Audioconferencia en Microsoft Teams](Tutorial-Audio-Conferencing.yml)
 ### [Probar o comprar Audioconferencia en Office 365](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 ### [Período gratuito de aceptación de llamadas de Audioconferencia](complimentary-dial-out-period.md)
-
+### [Prestación del plan de audioconferencia «Llamada de salida»/«Llamarme al»](audio-conferencing-subscription-dial-out.md)
 
 ### [Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
@@ -703,7 +703,7 @@
 
 ## Solución de problemas y soporte técnico
 ### [Problemas conocidos de Teams](Known-issues.md)
-### [Recursos de soporte técnico para Teams](support-resources.md)
+### [Recursos de soporte técnico para Teams](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 ### [Usar los archivos de registro para solucionar problemas en Teams](log-files.md)
 ### [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
