@@ -3,7 +3,7 @@ title: Equipos de la infraestructura de escritorio virtualizado
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/25/2018
+ms.date: 04/10/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30577fc8ee2628520bca7329f651f07cecfe6553
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: 1491932206812f81843c784274ffc7ea4102ee0b
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31752713"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808073"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Equipos de la infraestructura de escritorio virtualizado
 

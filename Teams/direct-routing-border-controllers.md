@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
-ms.openlocfilehash: ed394326f56c9647036d2b4785dcf04b59caeba6
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 142cda95c8bd45e3e52059863ad837927e144aa7
+ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517130"
+ms.lasthandoff: 04/11/2019
+ms.locfileid: "31808049"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
 
@@ -58,12 +58,12 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
 |                                                                                                                     |    SBC sueco Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
 |                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
-|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |   Pendiente  |   ECZ8.1m1p6  |
-|                                                                                                                    |    AP 3900           |    &#10004;     |   Pendiente  |   ECZ8.1m1p6  | 
-|                                                                                                                    |      AP 4600         |    &#10004;   |   Pendiente    |     ECZ8.1m1p6  |
-|                                                                                                                    |      AP 6300         |    &#10004;   |   Pendiente    |     ECZ8.1m1p6  |
-|                                                                                                                   |      AP 6350           |    &#10004;   |   Pendiente    |     ECZ8.1m1p6  |                                             
-|                                                                                                                    |      VME           |    &#10004;    |   Pendiente    |     ECZ8.1m1p6   |
+|                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
+|                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
+|                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
+|                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
+|                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
+|                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
 |                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
 
 Para proporcionar comentarios del producto acerca de los equipos, como ideas para las nuevas características, visite [Uservoice](https://microsoftteams.uservoice.com)

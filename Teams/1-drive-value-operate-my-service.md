@@ -15,12 +15,12 @@ description: Las tareas y actividades necesarias para la administración de serv
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cbf0da1cab0f350b9abc7b01e6583e54a996c687
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
+ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569482"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "31765184"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -440,7 +440,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 4.  **Visite la Comunidad de Microsoft Teams:** La [Comunidad de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) ofrece espacios dedicados para los equipos. La Comunidad de equipos proporciona una lista de discusión, entradas de blog y anuncios centrados en los equipos. Puede registrar una pregunta o buscar conversaciones anteriores para soluciones para el problema.
 
-5.  **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contacto admite para los equipos de Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
+5.  **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contactos de soporte para productos de negocio](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
     Para Premier a los clientes, compatibilidad con las solicitudes se pueden iniciar siguiendo las instrucciones en [póngase en contacto con soporte técnico para Microsoft Teams (Premier a los clientes)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
@@ -465,7 +465,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 
-[Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Soporte ampliado de contacto](https://support.microsoft.com/premier/contacts)
 
@@ -514,7 +514,7 @@ Para admitir usuarios, una organización puede requerir cualquier número de tar
 
 Que su organización crezca o contratos, es importante que planee la concesión de licencias para las necesidades actuales y futuras. No hay una licencia básica de los equipos, además de las licencias para las capacidades de voz de la nube ([Sistema telefónico](here-s-what-you-get-with-phone-system.md) y [Conferencias de Audio](https://products.office.com/skype-for-business/audio-conferencing)).
 
-Para los equipos, licencias del sistema de teléfono requieren licencias de [Planeación de llamada](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) asociadas. Llamar al Plan de licencias permite realizar y recibir llamadas de teléfono nacionales o internacionales. Estos planes están basados en uso y tener minutos grupos asociados con ellos. Aprovisionamiento [Communications créditos](what-are-communications-credits.md) se asegurará de que nunca se ejecute fuera de servicio.
+Para los equipos, licencias del sistema de teléfono requieren licencias de [Planes de llamada](calling-plan-landing-page.md) asociadas. Llamar al Plan de licencias permite realizar y recibir llamadas de teléfono nacionales o internacionales. Estos planes están basados en uso y tener minutos grupos asociados con ellos. Aprovisionamiento [Communications créditos](what-are-communications-credits.md) se asegurará de que nunca se ejecute fuera de servicio.
 
 Conferencias de audio permite la conferencia de acceso telefónico tolled y servicios de conferencia de acceso telefónico de salida nacionales. Conferencia de acceso telefónico gratuita o no nacionales de salida de escenarios pueden provocar que incurrir en gastos adicionales para qué [Comunicaciones créditos](what-are-communications-credits.md) son necesarios.
 
