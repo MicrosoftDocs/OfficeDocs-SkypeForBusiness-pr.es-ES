@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: Lea este tema para obtener más información sobre cómo configurar cuentas para salas de equipos de Microsoft en Exchange e Skype para la empresa.
-ms.openlocfilehash: cbff055a80a156deab0446e5da08fa4fe9bb3808
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.openlocfilehash: 7606f31dde96236111b4a44919427245fa32215d
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012894"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31828954"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar las cuentas para salas de equipos de Microsoft
  
@@ -52,7 +52,7 @@ Cada cuenta de dispositivo es único a un único dispositivo de salas de equipos
 - La infraestructura debe configurarse para permitir que los salones de los equipos de Microsoft para validar la cuenta del dispositivo y ponerse en contacto con los servicios de Microsoft apropiados.
     
 > [!IMPORTANT]
-> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. 
+> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. En entornos híbridos de la cuenta usada para salas de equipos de Microsoft debe tener habilitada en la sincronización de AAD debido a que la autenticación de salas de equipos de Microsoft requiere autenticación 365 0ffice la sincronización de contraseñas.
   
 Una cuenta de dispositivo se puede considerar como la cuenta del recurso que personas reconocen como cuenta de una conferencia de la sala o reunión del espacio. Cuando desee programar una reunión en esa sala de conferencias, invitará a la cuenta a esa reunión. Para poder usar salones de los equipos de Microsoft de manera más eficaz, hace lo mismo con la cuenta del dispositivo que se asigna a cada uno de ellos.
   

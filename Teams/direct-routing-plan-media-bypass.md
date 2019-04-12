@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: 308150121733f5f135d248404c663634ddaeea7c
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
+ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517250"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31827884"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -66,7 +66,7 @@ Si el usuario tiene acceso directo a la dirección IP pública de la SBC, el flu
 
 El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es interno y el cliente puede llegar a la dirección IP pública de la SBC (medios directas): 
 
-- Las flechas y los valores numéricos de las rutas de acceso sean conformes el documento flujos de llamadas en línea de Microsoft los equipos.
+- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - La señalización SIP siempre tiene las rutas de acceso 4 y 4' (dependiendo de la dirección del tráfico). Permanece local y toma 5b de la ruta de acceso de medios.
 
@@ -87,7 +87,7 @@ Por ejemplo, suponga que el usuario es externo y el Administrador de inquilinos 
 
 El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es externo y el cliente no puede acceder a la dirección IP pública del controlador de borde de sesión (medios se retransmitan mediante la retransmisión de transporte de los equipos).
 
-- Las flechas y los valores numéricos de las rutas de acceso sean conformes el documento flujos de llamadas en línea de Microsoft los equipos.
+- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - Medios se retransmiten a través de las rutas de acceso 3, 3', 4 y 4'
 
@@ -101,7 +101,7 @@ El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios es
 
 El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es externo y el cliente puede llegar a la dirección IP pública de la SBC (medios directas).
 
-- Las flechas y los valores numéricos de las rutas de acceso sean conformes el documento flujos de llamadas en línea de Microsoft los equipos.
+- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
 - La señalización SIP siempre tiene 3 las rutas de acceso y 3' (dependiendo de la dirección del tráfico). Flujos de medios con la ruta de acceso de 2.
 
@@ -125,7 +125,7 @@ El siguiente diagrama muestra dos flujos de llamadas: uno con desvío de medios 
 
 - El servidor Proxy SIP es un componente que traduce señalización de REST de HTTP usados en los equipos para SIP.    
 
-![Muestra muestra dos flujos de llamadas: uno con desvío de medios habilita y deshabilita el segundo con desvío de medios)](media/direct-routing-media-bypass-6.png)
+![Muestra dos flujos de llamadas: uno con desvío de medios habilitado y el segundo con desvío de medios deshabilitado)](media/direct-routing-media-bypass-6.png)
 
 
 En la tabla siguiente se resume las diferencias entre los procesadores de medios y retransmisiones de transporte.
