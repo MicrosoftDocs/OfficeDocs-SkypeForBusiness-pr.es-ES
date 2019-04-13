@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Servicio de migración (MMS) de la reunión es un servicio que se ejecuta en segundo plano y Skype se actualiza automáticamente para las reuniones de negocios y Microsoft Teams para los usuarios. MMS está diseñado para eliminar la necesidad de los usuarios ejecutar la herramienta de migración de la reunión para actualizar su Skype para las reuniones de negocios y Microsoft Teams.
-ms.openlocfilehash: e700725fc95957647bea8fe44d6a73a34bd16ab8
-ms.sourcegitcommit: 2d79898281258e123a86d9a0a2bc1211ee6b039e
+ms.openlocfilehash: 90953f1352f54a8411513a78ccfda8bfb5356883
+ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "28019580"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "31836860"
 ---
 # <a name="using-the-meeting-migration-service-mms"></a>Uso del servicio de migración de reunión (MMS)
 
@@ -41,7 +41,7 @@ El servicio de migración de reunión (MMS) es el servicio que actualiza las reu
 De forma predeterminada, MMS se activa automáticamente en cada uno de estos casos, aunque los administradores pueden deshabilitar en el nivel de inquilino. Además, los administradores pueden utilizar un cmdlet de PowerShell para activar manualmente la migración de la reunión para un usuario determinado.
 
 > [!NOTE]
-> La capacidad para convertir Skype para reuniones de negocios a las reuniones de los equipos y la capacidad para actualizar las reuniones de los equipos existentes para modificar la configuración de conferencias de audio está actualmente limitado a TAP únicamente para los clientes.
+> La capacidad para convertir Skype para reuniones de negocios a las reuniones de los equipos y la capacidad para actualizar las reuniones de los equipos existentes para modificar la configuración de conferencias de audio está actualmente limitado a TAP únicamente para los clientes. Microsoft espera que esta funcionalidad esté disponible para todos los clientes en algún momento en mayo de 2019.
 
 **Limitaciones**: la reunión no se puede utilizar el servicio de migración si cualquiera de las condiciones siguientes:
 
@@ -113,7 +113,7 @@ No todos los cambios a la configuración de conferencia de audio de un usuario d
 ### <a name="updating-meetings-when-assigning-teamsupgradepolicy"></a>Actualización de reuniones al asignar TeamsUpgradePolicy
 
 > [!NOTE]
-> En esta sección se describe la funcionalidad que actualmente sólo está disponible para los clientes puntee dos veces en.
+> En esta sección se describe la funcionalidad que actualmente sólo está disponible para los clientes puntee dos veces en. Microsoft espera que esta funcionalidad esté disponible para todos los clientes en algún momento en mayo de 2019.
 
 De forma predeterminada, migración de la reunión se automáticamente activará cuando un usuario se le concede a una instancia de `TeamsUpgradePolicy` con `mode=TeamsOnly` o `mode= SfBWithTeamsCollabAndMeetings`. Si no desea migrar las reuniones cuando la concesión de cualquiera de estos modos, a continuación, especifique `MigrateMeetingsToTeams $false` en `Grant-CsTeamsUpgradePolicy`.
 
