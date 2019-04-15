@@ -1,5 +1,5 @@
 ---
-title: Lista de controladores de borde de sesión certificados para el Enrutamiento directo
+title: Lista de controladores de borde de sesión certificados para el enrutamiento directo
 ms.author: crowe
 ms.reviewer: NMuravlyannikov
 author: CarolynRowe
@@ -13,17 +13,17 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 appliesto: Microsoft Teams
-description: Los socios de Microsoft con proveedores seleccionados de SBC certifica sus SBCs funcionan con el enrutamiento directo.
+description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
 ms.openlocfilehash: 142cda95c8bd45e3e52059863ad837927e144aa7
 ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/11/2019
 ms.locfileid: "31808049"
 ---
-# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el Enrutamiento directo
+# <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 
-Microsoft está asociado con los proveedores de controladores de borde de sesión (SBC) seleccionados para certifica que su trabajo SBCs con el enrutamiento directo. 
+Microsoft se asocia con proveedores de controladores de borde de sesión (SBC) seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo. 
 
 Con cada proveedor, Microsoft: 
 
@@ -56,14 +56,14 @@ En la tabla siguiente se enumeran los dispositivos certificados para el Enrutami
 |                                                                                                                     |       SBC SWe       |     &#10004;     |   &#10004;   |       V6.2       |
 |                                                                                                                     |      SBC 1000       |     &#10004;     |   &#10004;    |      v8.0.1     |
 |                                                                                                                     |      SBC 2000       |     &#10004;     |   &#10004;   |     v8.0.1     |
-|                                                                                                                     |    SBC sueco Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
-|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pendiente    |       V1.4       |
+|                                                                                                                     |    SBC SWe Lite     |     &#10004;     |  &#10004;    |      v8.0.1    |
+|                     [Thinktel](https://www.thinktel.ca/services/think-365/think-365-overview/)                      |    SBC Think 365    |     &#10004;     |   Pending    |       V1.4       |
 |                     [Oracle](https://www.oracle.com/industries/communications/enterprise-session-border-controller/microsoft.html)                      |    AP 1100      |    &#10004;     |    &#10004;    |   8.3.0.0.1 |
 |                                                                                                                    |    AP 3900           |    &#10004;     |    &#10004;   |   8.3.0.0.1  | 
 |                                                                                                                    |      AP 4600         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
 |                                                                                                                    |      AP 6300         |    &#10004;   |    &#10004;     |     8.3.0.0.1  |
 |                                                                                                                   |      AP 6350           |    &#10004;   |    &#10004;    |     8.3.0.0.1  |                                             
 |                                                                                                                    |      VME           |    &#10004;    |    &#10004;    |     8.3.0.0.1   |
-|                     [TE SISTEMAS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      V3.16.2      |
+|                     [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/)                               |     anynode         |     &#10004;   |  &#10004;   |      v3.16.2      |
 
-Para proporcionar comentarios del producto acerca de los equipos, como ideas para las nuevas características, visite [Uservoice](https://microsoftteams.uservoice.com)
+Para enviarnos comentarios sobre Microsoft Teams, como ideas para nuevas características, visite [UserVoice](https://microsoftteams.uservoice.com).
