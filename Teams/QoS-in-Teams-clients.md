@@ -15,14 +15,14 @@ MS.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b1f80ede0432c3666a1974b1e0c8d7fa3dc2bbfc
-ms.sourcegitcommit: d90beb625c2d12616fb9aee39b6dd1c2d4c12947
+ms.openlocfilehash: 101deb10cf3d86dbc97116cad269556683d03be4
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "30408270"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869849"
 ---
-# <a name="set-qos-on-windows-clients"></a>Conjunto de QoS en los clientes de Windows
+# <a name="set-qos-on-windows-clients"></a>Configurar QoS en clientes de Windows
 
 Puede usar QoS basada en Directiva dentro de la directiva de grupo para establecer el intervalo de puertos de origen para el valor de DSCP predefinido en el cliente de los equipos. Los intervalos de puertos especificados en la tabla siguiente son un punto de partida para crear una directiva para cada carga de trabajo.
 
@@ -37,7 +37,7 @@ Tipo de tráfico de medios| Intervalo de puertos de origen de cliente |Protocolo
 
 Siempre que sea posible, configure las opciones de QoS basada en Directiva dentro de un objeto de directiva de grupo. Los siguientes pasos son muy similares a la [configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype para Business Server](https://docs.microsoft.com/SkypeForBusiness/manage/network-management/qos/configuring-port-ranges-for-your-skype-clients#configure-quality-of-service-policies-for-clients-running-on-windows-10), que tiene algunos detalles adicionales que no sea necesarios.
 
-Para crear una directiva de audio de QoS para equipos unidos a un dominio de Windows 10, primero inicie sesión en un equipo en el que se ha instalado Administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic en Inicio, elija Herramientas administrativas y, a continuación, haga clic en administración de directivas de grupo) y, a continuación, complete los siguientes pasos:
+Para crear una directiva de audio de QoS para equipos de 10 Windows unido a un dominio, primero inicie sesión en un equipo en el que se ha instalado Administración de directivas de grupo. Abra Administración de directivas de grupo (haga clic en Inicio, elija Herramientas administrativas y, a continuación, haga clic en administración de directivas de grupo) y, a continuación, complete los siguientes pasos:
 
 1. En administración de directivas de grupo, busque el contenedor donde se debe crear la nueva directiva. Por ejemplo, si todos los equipos cliente se encuentran en una unidad organizativa denominada **clientes**, se debe crear la nueva directiva en la unidad organizativa de cliente.
 

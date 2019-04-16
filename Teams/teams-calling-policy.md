@@ -1,9 +1,9 @@
 ---
-title: Directiva de llamada en Microsoft Teams
+title: Llamar a las directivas de Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/12/2019
+ms.date: 04/15/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,14 +17,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c97fd5ff9228d0761f55f2f56b9a908cc3861c29
-ms.sourcegitcommit: 82490c2ef74900c348c14968b605a313b5bf3078
+ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/13/2019
-ms.locfileid: "31860268"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869809"
 ---
-<a name="calling-policy-in-microsoft-teams"></a>Directiva de llamada en Microsoft Teams
+<a name="calling-policies-in-microsoft-teams"></a>Llamar a las directivas de Microsoft Teams
 ==========================================
 
 En Microsoft Teams, llamar al control de las directivas que la llamada a y las características de desvío de llamadas están disponibles para los usuarios. Las directivas de la llamada a determinan si un usuario puede realizar llamadas privadas, use el desvío de llamadas o llamadas a otros usuarios o números de teléfono externos simultáneas, enrutar las llamadas al correo de voz, enviar las llamadas a grupos de llamadas, delegación para las llamadas entrantes y salientes, y así sucesivamente. Una directiva global predeterminada se crea automáticamente, pero los administradores también pueden crear y asignar directivas de llamada personalizadas.
@@ -41,6 +41,14 @@ En Microsoft Teams, llamar al control de las directivas que la llamada a y las c
 |Permitir la delegación de las llamadas entrantes y salientes | Permite las llamadas entrantes deben enrutarse a delegados; permite a los delegados realizar llamadas salientes en nombre de los usuarios para quienes se delega permisos. |
 |Evitar el desvío de pago y enviar las llamadas a través de la RTC | Si se establece en **** va a enviar las llamadas a través de RTC e incurrir en los cargos en lugar de pasar por la red y omitir el cuotas. |
 |No disponible en no disponible está disponible mientras se encuentre en una llamada.| Configura las llamadas entrantes cómo se controlan cuando un usuario ya está en una llamada o conferencia. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. |
+
+### <a name="busy-options-busy-on-busy-setting"></a>Opciones de disponibilidad (no disponible en la configuración no disponible)
+
+Opciones de disponibilidad es un nuevo valor en los equipos que se administran las directivas de llamada que le permite configurar las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o se realiza una llamada en espera. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. Puede habilitar las opciones de disponibilidad en un nivel de inquilino o en un nivel de usuario. 
+
+Independientemente de cómo se configuran las opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se les impide iniciar nuevas llamadas o conferencias.
+
+Puede usar la disponibilidad en ocupado opción de configuración de la directiva de llamada para configurar las opciones de disponibilidad. Esta opción está deshabilitada de forma predeterminada.
 
 ## <a name="create-a-custom-calling-policy"></a>Crear una directiva llamada personalizada
 

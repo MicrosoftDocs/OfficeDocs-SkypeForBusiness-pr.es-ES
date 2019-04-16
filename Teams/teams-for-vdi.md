@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1491932206812f81843c784274ffc7ea4102ee0b
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808073"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869833"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Equipos de la infraestructura de escritorio virtualizado
 
@@ -149,7 +149,7 @@ Use los cmdlets **CsTeamsMeetingPolicy** para controlar el tipo de las reuniones
         AllowExternalParticipantGiveRequestControl  : False
         AllowSharedNotes                            : False
         AllowWhiteboard                             : False
-        AlowTranscription                           : False
+        AllowTranscription                          : False
         MediaBitRateKb                              : False
         ScreenSharingMode                           : False
 

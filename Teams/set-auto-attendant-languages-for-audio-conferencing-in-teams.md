@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: a0ed552599e295f630852971f22b362d2e2f2b1b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463927"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869817"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
@@ -46,7 +46,7 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione un número de teléfono de conferencia de audio de **Dedidcated** de la lista y, en la parte superior de la página, haga clic en **Editar**. Sólo es posible cambiar los idiomas de números de conferencias de audio dedicada. La opción **Editar** sólo se muestra cuando se selecciona un número de conferencia de audio dedicada.
+2. Seleccione un número de teléfono de conferencia de audio **dedicadas** de la lista y, en la parte superior de la página, haga clic en **Editar**. Sólo es posible cambiar los idiomas de números de conferencias de audio dedicada. La opción **Editar** sólo se muestra cuando se selecciona un número de conferencia de audio dedicada.
 
 3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
  

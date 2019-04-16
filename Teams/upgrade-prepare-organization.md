@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76367a02920500a8e329ff5a2fa984f922d763ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 4bfbc65edac21c39a7135588d420c3515344d45d
+ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465047"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "31869825"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -36,7 +36,7 @@ En este artículo forma parte de la fase de preparación de usuarios de su viaje
 Para obtener el máximo valor de los equipos, los usuarios deben usarlo realmente pero, introducción a los usuarios cambiar la forma en que trabajan no siempre es fácil. Poner el tiempo para comprender los usuarios y diseñar el plan de preparación derecho puede ayudar a facilitar el cambio y acelerar la adopción de los equipos. Estas actividades deben realizarse en paralelo con la preparación de preparación técnica:
 
 - [Evaluación organizativa cambiar preparación](https://aka.ms/OrgReadiness): incluye información para comprender quiénes son los usuarios, cómo usará la nueva tecnología y qué facilidad se adapten para cambiar. También es una oportunidad para identificar los perfiles de usuario específicos que podrían beneficiarse de incorporación centrado.
-- [Preparar un plan de preparación del usuario](https://aka.ms/UserReadinessPlan): que consta de sensibilización, formación y las actividades de soporte, el plan de preparación se debe aplicar a ambas su base de usuarios amplia y dirigidas perfiles, como identificados en el artículo de [evaluación de preparación de cambio](https://aka.ms/OrgReadiness) .
+- [Preparar un plan de preparación del usuario](https://aka.ms/UserReadinessPlan): que consta de sensibilización, formación y las actividades de soporte, el plan de preparación debe aplicar a su base de usuarios de una amplia y el destino de los perfiles, tal como identifica el artículo de [evaluación de preparación de cambio](https://aka.ms/OrgReadiness) .
 
 > [!Tip]
 > Descargue el [Kit de actualización de éxito](https://aka.ms/UpgradeSuccessKit) para materiales de preparación de usuario de plantilla, como comunicaciones y encuestas de usuario, además de un plan de proyecto de actualización de ejemplo y un plan de prueba piloto.
