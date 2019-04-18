@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Obtenga información acerca de cómo administrar las cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: 3e3dbfb43498041296cb9cfb79341a3f40f2eda0
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.openlocfilehash: e8d3da4938a5040972b3c4853434808ca7457c90
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808057"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914597"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -127,13 +127,13 @@ Para las implementaciones que son híbrida con Skype para Business Server:
 
 Para las implementaciones en los equipos o Skype para empresarial en línea:
 
-[¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
+[¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md)
 
-[Configurar un operador automático para el sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+[Configurar un operador automático de la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 
 [Ejemplo de pequeña empresa: configurar un operador automático](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)
 
-[Crear una cola de llamadas para el Sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+[Crear una cola de llamada de nube](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
 
 [Nueva CsHybridApplicationEndpoint](https://docs.microsoft.com/powershell/module/skype/new-cshybridapplicationendpoint?view=skype-ps)
 

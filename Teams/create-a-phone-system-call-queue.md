@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas de sistema telefónico dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 1260f74deecefd93dcb9e8d99c4ea5063918a720
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas en la nube para dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
+ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808065"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914647"
 ---
-# <a name="create-a-phone-system-call-queue"></a>Crear una cola de llamadas para el Sistema telefónico
+# <a name="create-a-cloud-call-queue"></a>Crear una cola de llamada de nube
 
-Phone System call queues include greetings that are used when someone calls in to a phone number for your organization, the ability to automatically put the calls on hold, and the ability to search for the next available call agent to handle the call while the people who call are listening to music on hold. You can create single or multiple call queues for your organization.
+Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera. Puede crear una o varias colas de llamadas para su organización.
   
-Las colas de llamadas del Sistema telefónico pueden proporcionar:
+Pueden proporcionar las colas de llamada de nube:
   
 - Un mensaje de saludo empresarial.
 - Música que se reproduce mientras los usuarios se mantienen a la espera.
@@ -76,12 +76,12 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
   
 - Para obtener más información acerca de planes de llamada de Office 365, vea [sistema telefónico y llamar a los planes](calling-plan-landing-page.md) y [Llamar a los planes de Office 365](calling-plans-for-office-365.md).
 
-- Sólo se pueden asignar números de pago y los números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a las colas de llamadas de sistema telefónico. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
+- Sólo se pueden asignar números de teléfono gratuito de servicio que se obtuvo en el **Centro de administración de equipos de Microsoft** o se transfiere desde otro proveedor de servicios a las colas de llamadas en la nube y de pago. Para obtener y usar números de servicio gratuitos, debe configurar Créditos de comunicaciones.
 
     > [!NOTE]
     > Los números de teléfono de usuario (suscriptor) no se pueden asignar a las colas de llamadas; solo se pueden usar números de teléfono de servicio de pago y gratuitos.
   
-- Cuando se va a distribuir las llamadas entrantes de una cola de llamada de sistema telefónico, estos clientes son compatibles para agentes de llamada:
+- Cuando se va a distribuir las llamadas entrantes de una cola de llamada en la nube, estos clientes son compatibles para agentes de llamada:
 
   - Cliente de escritorio de Skype Empresarial 2016 (versiones de 32 y 64 bits)
 

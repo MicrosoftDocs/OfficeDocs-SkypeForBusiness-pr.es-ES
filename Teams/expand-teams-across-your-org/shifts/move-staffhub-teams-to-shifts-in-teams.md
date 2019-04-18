@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fa224306f3d42d4746f8e8f2276b44208fc568bd
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 885872b62d15091faf8b14609aed69b274c1ae74
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520219"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914589"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -68,7 +68,7 @@ Cada administrador y miembro del equipo deben tener una identidad en Azure Activ
 
 - Los administradores pueden ejecutar el [Add-StaffHubMember](https://docs.microsoft.com/powershell/module/staffhub/add-staffhubmember?view=staffhub-ps) y cmdlets de [Remove-StaffHubUser](https://docs.microsoft.com/powershell/module/staffhub/Remove-StaffHubUser?view=staffhub-ps) para quitar una cuenta que no sean aprovisionado de un equipo de StaffHub y agregue la cuenta de back-usando el UPN.
 
-### <a name="install-the-staffhub-powershell-module"></a>Instalar el módulo de StaffHub PowerShell
+### <a name="install-the-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de StaffHub
 
 Si no lo ha hecho ya, [instale el módulo de StaffHub PowerShell](install-the-staffhub-powershell-module.md).
 
@@ -101,29 +101,37 @@ Siga estos pasos para mover un equipo de StaffHub a la vez. Se recomienda este e
 Ejecute el siguiente procedimiento para mover un equipo StaffHub.
 
 ```
-Move-StaffHubTeam -Identity <String>
+Move-StaffHubTeam -TeamId <String>
+
+Sample:
+
+Move-StaffHubTeam -TeamId "TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f"
 ```
 
 Este es un ejemplo de la respuesta que se obtiene al enviar una solicitud para mover un equipo de StaffHub a los equipos.
 
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ---------------------------------------    ----------------------------------------    ---------------------------          
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   false
 ```
 
 Para comprobar el estado de una solicitud de movimiento, ejecute lo siguiente.
 
 ```
-Get-TeamMigrationJobStatus <Int32>
+Get-TeamMigrationJobStatus <String>
+
+Sample:
+Get-TeamMigrationJobStatus -JobId "JOB_81b1f191-3e19-45ce-ab32-3ef51f100000"
+
 ```
 
 Este es un ejemplo de la respuesta que se obtiene cuando un movimiento está en curso.
 
 ```
-    jobId   status       teamId                                     isO365GroupCreated  Error
-    -----   ------       ------                                     ------------------  -----    
-        1   InProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  True                None
+    jobId                                     status       teamId                                     isO365GroupCreated  Error
+    ----------------------------------------  ----------   ----------------------------------------   ------------------  -----    
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000  inProgress   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f  true                none
 ```
 
 ## <a name="make-the-transition-from-staffhub-to-teams"></a>Realizar la transición desde StaffHub a los equipos
@@ -141,44 +149,56 @@ Siga estos pasos para mover los equipos de StaffHub de forma masiva. Puede elegi
 Ejecute el siguiente procedimiento para obtener una lista de todos los equipos de StaffHub en su organización.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+$StaffHubTeams = Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
 A continuación, ejecute el siguiente procedimiento para mover todos los equipos.
 
 ```
-$StaffHubTeams | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+$StaffHubTeams | foreach {Move-StaffHubTeam -TeamId {$_.Id}}
 ```
 
 Este es un ejemplo de la respuesta.
 
+Para cualquier equipo que ya se ha movido a los equipos o ya existe en los equipos, jobId será "null" como un trabajo no es necesario que se debe enviar para mover ese equipo.
+
 ```
-    jobId   teamId                                      teamAlreadyInMicrosofteams  
-    -----   ------                                      ------------          
-        1   TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   True
-        2   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   False
+    jobId                                      teamId                                      teamAlreadyInMicrosofteams  
+    ----------------------------------------   -----------------------------------------   --------------------------         
+    null                                       TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f   true
+    JOB_81b1f191-3e19-45ce-ab32-3ef51f100000   TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000   false
 ```
 
 #### <a name="move-specific-staffhub-teams-coming-soon"></a>Mover determinados equipos StaffHub (próximamente)
 
-Ejecute el siguiente procedimiento para obtener una lista de todos los equipos de StaffHub en su organización.
+Ejecute el siguiente procedimiento para obtener una lista de todos los StaffHub equipo identificadores en su organización.
 
 ```
-$StaffHubTeams = Get-StaffHubTeamsForTenant
+Get-StaffHubTeamsForTenant -ManagedBy "Staffhub"
 ```
 
-Cree un archivo de valores separados por comas (CSV) y agregue los identificadores de los equipos que desea mover.
-Este es un ejemplo.
+En los resultados devueltos por la `Get-StaffHubteamsForTenant` cmdlet ejecutó anteriormente, seleccione los identificadores de equipo que desea mover y, a continuación, agregarlas a un archivo de valores separados por comas (CSV).
+
+Este es un ejemplo de cómo se debe aplicar el formato de archivo CSV.
 
 |Id.  |
 |---------|
 |TEAM_4bbc03af-c764-497f-a8a5-1c0708475e5f<br>TEAM_81b1f191-3e19-45ce-ab32-3ef51f100000<br>TEAM_b42d0fa2 - 0fc 9-408b-85ff-c14a26700000<br>TEAM_b42d0fa2 - 0fc 9-408b-85ff-c14a26700000|
 
-A continuación, ejecute el siguiente procedimiento para mover los equipos que especificó en el archivo CSV.
+Después de crear el archivo CSV, ejecute el siguiente procedimiento para mover los equipos que especificó en el archivo CSV.
 
 ```
-Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -Identity {$_.Id}}
+Import-Csv .\teams.txt | foreach {Move-StaffHubTeam -TeamdId {$_.Id}}
 ```
+### <a name="confirm-that-your-staffhub-teams-have-moved-to-teams-coming-soon"></a>Confirme que los equipos de StaffHub se han movido a los equipos (próximamente)
+
+Ejecute el siguiente procedimiento para obtener una lista de todos los equipos de turnos en su organización. 
+
+```
+Get-StaffHubTeamsForTenant -ManagedBy "Teams"
+```
+
+#### 
 
 ## <a name="monitor-teams-usage"></a>Supervisar el uso de los equipos
 

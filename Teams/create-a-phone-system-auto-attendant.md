@@ -1,5 +1,5 @@
 ---
-title: Configurar un operador automático para el sistema telefónico
+title: Configurar un operador automático de la nube
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Obtenga información sobre cómo configurar y probar a automáticos de sistema telefónico (PBX en la nube) para administración de la organización eficaz de las llamadas.
-ms.openlocfilehash: 32fbf066524ec73b6cfa683a493dc93c58932d7c
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Obtenga información sobre cómo configurar y probar a automáticos en la nube para administración de la organización eficaz de las llamadas.
+ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013656"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914673"
 ---
-# <a name="set-up-a-phone-system-auto-attendant"></a>Configurar un operador automático para el sistema telefónico
+# <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático de la nube
 
 Operadores automáticos permiten a las personas que llaman a su organización y navegue a un sistema de menús a obtienen al departamento de derecho, cola, persona o el operador de llamada. Puede crear a un operador automático para la organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático de, vaya a **voz** en el panel de navegación izquierdo y, a continuación, seleccione **operadores automáticos** > **Agregar nuevo**.
 
-Si desea obtener más información sobre los operadores automáticos, consulte [¿Qué son los operadores automáticos de sistema telefónico?](/microsoftteams/what-are-phone-system-auto-attendants)
+Si desea obtener más información sobre los operadores automáticos, consulte [¿Qué son los operadores automáticos de la nube?](/microsoftteams/what-are-phone-system-auto-attendants)
 
 > [!NOTE]
 > En este artículo se aplica a Microsoft Teams y Skype para profesionales en línea.
@@ -57,7 +57,7 @@ Si desea obtener más información sobre los operadores automáticos, consulte [
 ## <a name="step-2---create-a-new-auto-attendant"></a>Paso 2: crear un operador automático nuevo
 
 > [!IMPORTANT]
-> Cada cola de llamada es necesario tener asociado a una [cuenta del recurso](manage-resource-accounts.md). Debe crear la cuenta del recurso en primer lugar, a continuación, puede asociar para el operador automático.
+> Cada operador automático es necesario tener asociado a una [cuenta del recurso](manage-resource-accounts.md). Debe crear la cuenta del recurso en primer lugar, a continuación, puede asociar para el operador automático.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Desde el centro de administración de Microsoft Teams
 
@@ -77,7 +77,7 @@ En el **Centro de administración de equipos de Microsoft**, haga clic en **voz*
 
 ![Número 2](media/sfbcallout2.png)
 
-**Cuenta de recurso** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse a su nuevo operador automático. Todos los operadores automáticos deben tener una cuenta de recurso asociado. Una cuenta de recurso puede tener un número de teléfono asociado a la cuenta, pero es posible que no. Un operador automático de nivel superior casi sin duda sería tendría una cuenta de recursos con un número de teléfono asignado, pero un operador automático secundario (usado como un menú de nivel 2 que se conecta el primer operador automático de nivel a) fácilmente no podría tener un número de teléfono que se asigna a su cuenta del recurso.
+**Cuenta de recurso** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse a su nuevo operador automático. Todos los operadores automáticos deben tener una cuenta de recurso asociado. Una cuenta de recurso puede tener un número de teléfono asociado a la cuenta, pero es posible que no. Un operador automático de nivel superior normalmente tienen una cuenta de recurso con un número de teléfono asignado, pero el operador automático anidados de (se utiliza como un menú de nivel 2 que se conecta el primer operador automático de nivel a) no es posible que tienen un número de teléfono asignado a su cuenta del recurso.
 
 * * *
 
@@ -329,23 +329,23 @@ También puede usar Windows PowerShell para crear y configurar operadores autom�
 
 Estos son los cmdlets que necesita para administrar un operador automático.
 
-- [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendant?view=skype-ps)  
-- [Set-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendant?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [Remove-CsOrganizationalAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csOrganizationalautoattendant?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csOrganizationalautoattendantmenu?view=skype-ps) 
-- [Nueva CsOrganizationalOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallFlow?view=skype-ps) 
-- [Export-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsOrganizationalAutoAttendantHolidays?view=skype-ps) 
+- [Nueva CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/new-csautoattendant?view=skype-ps)  
+- [Set-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/set-csautoattendant?view=skype-ps) 
+- [Get-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/get-csattendant?view=skype-ps) 
+- [Get-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/get-csautoattendantholidays?view=skype-ps) 
+- [Remove-CsAutoAttendant](https://docs.microsoft.com/powershell/module/skype/remove-csautoattendant?view=skype-ps) 
+- [Nueva CsAutoAttendantMenu](https://docs.microsoft.com/powershell/module/skype/new-csautoattendantmenu?view=skype-ps) 
+- [Nueva CsOnlineAudioFile](https://docs.microsoft.com/powershell/module/skype/new-CsOnlineAudioFile?view=skype-ps) 
+- [Nueva CsAutoAttendantCallFlow](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallFlow?view=skype-ps) 
+- [Export-CsAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/export-Export-CsAutoAttendantHolidays?view=skype-ps) 
 - [New-CsOnlineTimeRange](https://docs.microsoft.com/powershell/module/skype/new-New-CsOnlineTimeRange?view=skype-ps) 
 - [New-CsOnlineDateTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csonlinedatetimerange?view=skype-ps) 
 - [New-CsOnlineSchedule](https://docs.microsoft.com/powershell/module/skype/New-CsOnlineSchedule?view=skype-ps) 
-- [Get-CsOrganizationalAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedTimeZone?view=skype-ps)
-- [New-CsOrganizationalAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsOrganizationalAutoAttendantCallHandlingAssociation?view=skype-ps)
-- [Get-CsOrganizationalAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsOrganizationalAutoAttendantSupportedLanguage?view=skype-ps)
-- [Import-CsOrganizationalAutoAttendantHolidays](https://docs.microsoft.com/powershell/module/skype/import-csOrganizationalautoattendantholidays?view=skype-ps) 
-- [New-CsOrganizationalAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
+- [Get-CsAutoAttendantSupportedTimeZone](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedTimeZone?view=skype-ps)
+- [Nueva CsAutoAttendantCallHandlingAssociation](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallHandlingAssociation?view=skype-ps)
+- [Get-CsAutoAttendantSupportedLanguage](https://docs.microsoft.com/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage?view=skype-ps)
+- [CsAutoAttendantHolidays de importación](https://docs.microsoft.com/powershell/module/skype/import-csautoattendantholidays?view=skype-ps) 
+- [Nueva CsAutoAttendantCallableEntity](https://docs.microsoft.com/powershell/module/skype/New-CsAutoAttendantCallableEntity?view=skype-ps) 
 
 ### <a name="more-about-windows-powershell"></a>Más información sobre Windows PowerShell
 
@@ -371,6 +371,6 @@ Estos son los cmdlets que necesita para administrar un operador automático.
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
+[¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md)
 
 [Ejemplo de pequeña empresa: configurar un operador automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

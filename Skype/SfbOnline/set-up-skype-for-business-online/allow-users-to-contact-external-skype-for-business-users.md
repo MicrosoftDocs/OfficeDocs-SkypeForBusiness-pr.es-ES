@@ -27,12 +27,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to configure Skype for Business to let users talk to users in another organization, or let outside contacts to them. '
-ms.openlocfilehash: 24cedb4a9fd612c3aa0c4886a9a35dd89b52fbe7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 352973816e07ce60cff650f43ac6fced7f81e3b1
+ms.sourcegitcommit: 1bb3bf4b16394aaa1fdf9bab8d766afe040b9aac
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887597"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31907501"
 ---
 # <a name="allow-users-to-contact-external-skype-for-business-users"></a>Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial
 
@@ -52,33 +52,35 @@ Siga los pasos de este artículo cuando:
 
 Debe tener [permisos de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) en Office 365 en ambas organizaciones para ello.
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **desde el centro de administración de equipos**
   
 1. Inicie sesión con su cuenta de administración de Office 365. 
     
-2. En Centro de administración de Office 365, vaya a **Centros de administración** > **Skype Empresarial**.
+2. En el centro de administración de Office 365, vaya a **Centros de administrador de** > **los equipos**.
     
-    ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
+    ![Elija el Administrador de equipos.](../images/MS-Teams-Admin.png)
   
-3. En el **Skype para el centro de administración de negocio**, elija **organización** > **comunicaciones externas**.
-    
-4. Para establecer la comunicación con un negocio específicos o con los usuarios en otro dominio, en el cuadro de lista desplegable, elija **sólo para permitido dominios**.
+3. En el **Centro de los equipos**, elija **Skype** > **Portal heredado** 
+ ![elegir el Portal heredado de SfB.](../images/SFBlegacy-size65.png)
+ 
+4. En el **Skype para el centro de administración de negocio** , elija **organización** > **comunicaciones externas**.
+5. Para establecer la comunicación con un negocio específicos o con los usuarios en otro dominio, en el cuadro de lista desplegable, elija **sólo para permitido dominios**.
     
     O BIEN, si desea habilitar la comunicación con todo el mundo que tenga directivas de Skype Empresarial abiertas, seleccione **Activado excepto para los dominios bloqueados**. Esta es la configuración predeterminada.
     
-5. En **dominios permitidos o bloqueados**, elija **+** y agregue el nombre del dominio que desea permitir.
+6. En **dominios permitidos o bloqueados**, elija **+** y agregue el nombre del dominio que desea permitir.
     
-6. Asegúrese de que el administrador en la otra organización estos mismos pasos en sus **Skype para el centro de administración de negocio**. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
+7. Asegúrese de que el administrador en la otra organización estos mismos pasos en sus **Skype para el centro de administración de negocio**. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
     
-7. Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
+8. Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
     
     Si su organización usa una solución de firewall diferente para restringir la conexión a Internet de los equipos en la red, asegúrese de que sus equipos cliente pueden acceder a los siguientes [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges). Esto puede requerir la adición de los FQDN para la salida permiten lista en el firewall o el proxy la configuración de la infraestructura: ** \*. api.skype.com**, \* **. users.storage.live.com**y **graph.skype.com**. Para obtener instrucciones sobre cómo abrir estos puertos en el servidor de seguridad, consulte la documentación que lo acompaña.
     
     Para obtener una lista de todos los puertos que necesita abrir, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges).
 
-8. Asegúrese de que el Administrador de la organización también ha seguido estos pasos.
+9. Asegúrese de que el Administrador de la organización también ha seguido estos pasos.
     
-9. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cada vez que modifica la configuración de comunicaciones externas, los cambios pueden demorar hasta 24 horas en completarse en todos los centros de datos.
+10. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cada vez que modifica la configuración de comunicaciones externas, los cambios pueden demorar hasta 24 horas en completarse en todos los centros de datos.
     
 ![Skype](../images/58550720-2a68-42d1-a926-1884e6aeb55c.png) Puede permitir a los usuarios que busquen a todos los que usen Skype, la aplicación de consumidor gratuita, y que se comuniquen con ellos con mensajería instantánea. Para obtener más información, vea [permiten Skype para usuarios profesionales agregar contactos de Skype](let-skype-for-business-users-add-skype-contacts.md).
   

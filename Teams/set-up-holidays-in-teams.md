@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: None
 description: Obtenga información sobre cómo configurar los días no laborables en Microsoft Teams y conectarlos a su operador automático.
-ms.openlocfilehash: 72feed025e43eb7242f75608534db45d74aca9c9
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: afec7fc3f1bbe47c907b823711db3b8b8ef3aded
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517122"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914581"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Configurar vacaciones en Microsoft Teams
 
@@ -33,7 +33,7 @@ Puede vincular los días no laborables para los operadores automáticos que cree
 
 Un buen ejemplo es crear un día festivo para Navidad para cuando muchos de los empleados no están en el trabajo. Después de crear el día festivo y establecer veces, a continuación, agregue el día festivo a la ventana principal de operador automático por lo que cuando se llama personas, escuchará un mensaje de audio que se creó. Algo como "Estamos cerramos para Navidad desde el 22 de diciembre a través de 27 de diciembre. Por favor, deje nos un mensaje de voz por lo que podemos devolver la llamada cuando se está en la oficina."
 
-Para obtener más información sobre los operadores automáticos, consulte [¿Cuáles son automáticos de sistema telefónico](what-are-phone-system-auto-attendants.md)?  
+Para obtener más información sobre los operadores automáticos, consulte [¿Cuáles son automáticos en la nube](what-are-phone-system-auto-attendants.md)?  
 
 ## <a name="create-a-holiday"></a>Crear un día festivo
 
@@ -88,4 +88,4 @@ Para obtener más información sobre los operadores automáticos, consulte [¿Cu
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[¿Qué son los operadores automáticos de sistema telefónico](what-are-phone-system-auto-attendants.md)?
+[¿Qué son los operadores automáticos de la nube](what-are-phone-system-auto-attendants.md)?

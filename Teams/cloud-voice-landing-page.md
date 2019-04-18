@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Página de inicio a la implementación de voz en la nube en los equipos
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: abc8d3e552820ee93b5ccd1fc968e914ac5287ba
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.openlocfilehash: 47c534eba93c6f5af21a75fa20b5015fac00c674
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948380"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914615"
 ---
 # <a name="cloud-voice-in-microsoft-teams"></a>Voz en la nube de Microsoft Teams
 
@@ -127,20 +127,20 @@ Para obtener más información acerca de los planes de marcado, vea [¿Qué son 
 
 ### <a name="call-queues"></a>Colas de llamadas
 
-Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización. 
+Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera. Puede crear una o varias colas de llamadas para su organización. 
 
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Mi organización necesitan llamar a colas? | Para obtener más información, vea [crear una cola de llamadas de sistema telefónico](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) y [Configuración del sistema de teléfono](setting-up-your-phone-system.md). |
+| ¿Mi organización necesitan llamar a colas? | Para obtener más información, vea [crear una cola de llamada en la nube](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json) y la [Configuración del sistema de teléfono](setting-up-your-phone-system.md). |
 
 ### <a name="auto-attendants"></a>Operadores automáticos
 
-Sistema telefónico operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.
+Operadores automáticos en la nube se pueden usar para crear un sistema de menús para la organización que permite externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.
 
 |Pregúntese lo siguiente:|Acción |
 |:------------|:-------|
-| ¿Necesita mi organización automáticos? | Para obtener más información, vea [¿Cuáles son los operadores automáticos de sistema telefónico](what-are-phone-system-auto-attendants.md) y [configurar un operador automático de sistema telefónico](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
+| ¿Necesita mi organización automáticos? | Para obtener más información, vea [¿Cuáles son los operadores automáticos de la nube](what-are-phone-system-auto-attendants.md) y [configurar un operador automático de la nube](https://docs.microsoft.com/en-us/SkypeForBusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). |
 
 ### <a name="devices"></a>Dispositivos
 

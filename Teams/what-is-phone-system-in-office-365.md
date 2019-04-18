@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre lo que puede aportar sistema telefónico. '
-ms.openlocfilehash: 41694fcc91ccb1d7bdf4df38c39a6554851d2a8f
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.openlocfilehash: a4ac90d24863ecaf56ca471d412474bf81653a50
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934783"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914623"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
@@ -65,9 +65,9 @@ Planes de llamada (nacionales y nacionales e internacionales) están disponibles
 
 ## <a name="phone-system-with-services"></a>Sistema telefónico con servicios
  Sistema de teléfono aso se puede usar para los servicios y correo de voz:
-- **Operadores automáticos**  Sistema telefónico en Office 365 operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización. Vea [¿Qué son los operadores automáticos de sistema telefónico?](what-are-phone-system-auto-attendants.md)
+- **Operadores automáticos**  Sistema telefónico en Office 365 operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización. Vea [¿Qué son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md)
 
-- **Colas de llamadas**  Con el sistema de teléfono, puede crear el saludo de la cola de llamada que se usa cuando alguien llama a un número de teléfono para su organización; Esto incluye la capacidad para poner automáticamente las llamadas en espera y la capacidad para buscar el siguiente agente de llamada disponibles controlar la llamada mientras las personas que la llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización. Vea [crear una cola de llamadas de sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- **Colas de llamadas**  Con el sistema de teléfono, puede crear el saludo de la cola de llamada que se usa cuando alguien llama a un número de teléfono para su organización; Esto incluye la capacidad para poner automáticamente las llamadas en espera y la capacidad para buscar el siguiente agente de llamada disponibles controlar la llamada mientras las personas que la llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización. Vea [crear una cola de llamada en la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 - **Correo de voz** Al obtener una licencia de sistema de teléfono de un usuario, ese usuario podrá obtener el correo de voz que se ha dejado por los autores de llamadas. Correo de voz en la nube es configurar automáticamente y aprovisiona para los usuarios después de asignar una licencia de sistema telefónico y un número de teléfono a ellos. Consulte [Configurar el correo de voz en la nube](set-up-phone-system-voicemail.md).
 

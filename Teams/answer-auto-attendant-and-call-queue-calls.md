@@ -7,7 +7,7 @@ manager: serdars
 ms.date: 09/20/2018
 ms.topic: conceptual
 ms.service: msteams
-description: Describe los operadores automáticos de sistema telefónico y colas de llamadas y se explica cómo puede responder a estas llamadas en los equipos.
+description: Describe los operadores automáticos de la nube y colas de llamadas y explica cómo puede responder a estas llamadas en los equipos.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,23 +15,23 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 91c0d1ae8034766759baa9b832cbefd399306fd2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 8a94f8220cca2058e993f73241e62ff3ad0ea4f2
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875981"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914547"
 ---
 <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Responder al operador automático y llamar a la cola de llamadas directamente desde Teams
 ===========================================================
 
-Los usuarios de los equipos pueden recibir y responda a llamadas de Skype para profesionales Online operador automático y las colas de llamadas directamente desde su cliente de los equipos. Para los usuarios de los equipos, la característica de operador automático está ahora disponible por lo general y la funcionalidad de cola de llamadas está en vista previa. 
+Los usuarios de los equipos pueden recibir y responder a las llamadas de operadores automáticos en la nube y colas de llamadas directamente desde su cliente de los equipos. Para los usuarios de los equipos, la característica de operador automático está ahora disponible por lo general y la funcionalidad de cola de llamadas está en vista previa. 
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>¿Cuáles son automáticos y colas de llamadas?
 
-Operadores automáticos de teléfono del sistema proporcionan una serie de mensajes de voz o un archivo de audio que escuchen los autores de llamadas en lugar de un operador humano cuando llaman a una organización. Un operador automático permite que los autores de llamadas se muevan por el sistema de menús, llamen y localicen a usuarios utilizando el teclado del teléfono (DTMF) o su propia voz gracias al reconocimiento de voz.
+Operadores automáticos de nube proporcionan una serie de mensajes de voz o un archivo de audio que escuchen los autores de llamadas en lugar de un operador humano cuando llaman a una organización. Un operador automático permite que los autores de llamadas se muevan por el sistema de menús, llamen y localicen a usuarios utilizando el teclado del teléfono (DTMF) o su propia voz gracias al reconocimiento de voz.
 
-Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera. Puede crear una o varias colas de llamadas para su organización.
+Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera. Puede crear una o varias colas de llamadas para su organización.
 
 ## <a name="handling-an-auto-attendant-or-call-queue-call"></a>Controlar una llamada de cola de llamada o de operador automático
 
@@ -57,12 +57,12 @@ Compatibilidad para las llamadas de cola de operador y llamada automático está
 
 ## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Configurar la auto attendant y llamada de cola compatibilidad con Microsoft Teams
 
-Para recibir el operador automático y llamar a las llamadas de cola en Microsoft Teams, debe configurar la directiva de interoperabilidad y actualización de directiva. Revise la [migración y la interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md). Si no dispone de operador automático o cola de llamadas configurado y desea hacerlo, vea [configurar un operador automático de sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) y [crear una cola de llamadas de sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+Para recibir el operador automático y llamar a las llamadas de cola en Microsoft Teams, debe configurar la directiva de interoperabilidad y actualización de directiva. Revise la [migración y la interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md). Si no dispone de operador automático o cola de llamadas configurado y desea hacerlo, vea [configurar un operador automático de la nube](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant) y [crear una cola de llamada en la nube](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ## <a name="related-topics"></a>Temas relacionados
 
 -   [¿Qué es el sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
--   [Crear una cola de llamadas para el Sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
--   [¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md)
--   [Configurar un operador automático para el sistema telefónico](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
+-   [Crear una cola de llamada de nube](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue)
+-   [¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md)
+-   [Configurar un operador automático de la nube](https://docs.microsoft.com/skypeforbusiness/what-is-phone-system-in-office-365/set-up-a-phone-system-auto-attendant)
 

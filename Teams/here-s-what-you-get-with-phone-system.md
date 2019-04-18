@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 4cfb143bc8d86bbd5340cb7dddc203563ec1d093
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896088"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914573"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -44,7 +44,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |||
 |:-----|:-----|
 |**Sistema de teléfono en la característica de Office 365** <br/> |**Descripción** <br/> |
-|[¿Qué son los operadores automáticos del Sistema telefónico?](what-are-phone-system-auto-attendants.md) <br/> |Sistema telefónico operadores automáticos se pueden usar para crear un sistema de menús para la organización que permite a los autores de llamadas externas e internas mover a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
+|[¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md) <br/> |Operadores automáticos en la nube se pueden usar para crear un sistema de menús para la organización que permite externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
 |Iniciar/responder llamadas (por nombre y número)  <br/> |Conteste llamadas entrantes con un toque y realice llamadas salientes ya sea marcando el número completo o haciendo clic en un nombre en Skype Empresarial u Outlook.  <br/> |
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Realice o conteste llamadas en nombre de un administrador que usted admita. Las notificaciones permiten a los participantes ver claramente cuándo se contesta o realiza una llamada en nombre de otra persona.  <br/> |
 |[Desvío de llamadas y llamada simultánea](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Estas características permiten establecer las reglas de desvío para que sus llamadas puedan ir a cualquier parte, y usted pueda desviar llamadas a colegas o al correo de voz.  <br/> |
@@ -52,7 +52,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |Llamada en espera/recuperar llamada  <br/> | Use esta característica cuando se produzcan varias llamadas al mismo tiempo. Al contestar la siguiente llamada entrante o realizar una llamada saliente, la llamada actual entra en espera automáticamente. <br/> |
 |[Transferir una llamada de Skype Empresarial](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfiere llamadas a otra persona. O bien, si necesita salir de la oficina, pero desea continuar la conversación, puede transferir las llamadas desde su teléfono IP o de PC a su teléfono móvil o Tablet PC.  <br/> |
 |Identificador de llamada  <br/> |Las llamadas desde dentro de la empresa muestran un identificador de llamada detallado que toma información del directorio de su empresa, y le muestra una imagen y el puesto en lugar de tan solo un número de teléfono.  <br/> |
-|[Crear una cola de llamadas para el Sistema telefónico](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Llamada de teléfono del sistema colas incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que llamada se escuchan música en espera.  <br/> |
+|[Crear una cola de llamada de nube](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera.  <br/> |
 |[Informar cuando cambie el estado de un usuario](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esta característica le permite etiquetar personas que no están disponibles actualmente y recibir una notificación cuando su presencia cambie y estén listas para tomar llamadas telefónicas. <br/> |
 |Clientes de PC, Mac y Mobile  <br/> | Esto le ofrece características de llamada en dispositivos, desde tabletas y teléfonos móviles para PC y teléfonos de escritorio IP. <br/> |
 |Cambio de dispositivo  <br/> |Le permite reproducir su llamada o reunión en otro dispositivo.  <br/> |
@@ -65,7 +65,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |Skype y llamada federada  <br/> |Puede buscar cualquier persona en el directorio de Skype, a continuación, forma segura conectarse, comunicarse y colaborar con ellos.  <br/> |
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envía sus llamadas al equipo ya sea de manera inmediata como después de establecer un período de tiempo.  <br/> |
 |[Realizar y recibir una videollamada con Skype Empresarial](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Puede ver el nombre de quien habla y la secuencia de vídeo en una pequeña ventana flotante para poder estar siempre listo para responder a cualquier pregunta. <br/> |
-|[Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Así es cómo funciona el correo de voz de sistema telefónico: cuando un usuario recibe un correo de voz, se entrega a sus buzones de correo como un correo electrónico con el mensaje de correo de voz como datos adjuntos. También podrán escuchar sus mensajes mediante un teléfono de escritorio certificado para Skype, todas las aplicaciones de Skype Empresarial o Lync para Mac 2011.  <br/> Correo de voz de teléfono del sistema incluye saludo personalizado, el indicador de mensaje en espera y responder con llamada. Puede hacer que todo el correo de voz se deposite en buzones y se ponga a disposición a través de Skype Empresarial en su PC, dispositivo móvil y teléfono IP.  <br/> |
+|[Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Así es cómo funciona el correo de voz en la nube: cuando un usuario recibe un correo de voz, se entrega a sus buzones de correo como un correo electrónico con el mensaje de correo de voz como datos adjuntos. También podrán escuchar sus mensajes mediante un teléfono de escritorio certificado para Skype, todas las aplicaciones de Skype Empresarial o Lync para Mac 2011.  <br/> Correo de voz en la nube incluye saludo personalizado, el indicador de mensaje en espera y responder con llamada. Puede hacer que todo el correo de voz se deposite en buzones y se ponga a disposición a través de Skype Empresarial en su PC, dispositivo móvil y teléfono IP.  <br/> |
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planear y configurar el sistema telefónico en Office 365
 <a name="bkmk_setup"> </a>
@@ -82,11 +82,11 @@ Vea estos artículos para planear y configurar el sistema telefónico en su nego
 
 - [Configurar planes de llamada](set-up-calling-plans.md): este artículo contiene instrucciones paso a paso para configurar la aplicación con sus números de teléfono o para transferir los números de teléfono existente a Skype para la empresa.
     
-- [Planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/?LinkId=708645): en este artículo se dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
+- [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions): en este artículo se dispone de todas las opciones de implementación. También tiene información acerca de cómo planificar una solución completamente basada en la nube. 
     
 - [Licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md): Obtenga información sobre las licencias que necesitará comprar para obtener el sistema telefónico en Office 365.
     
-- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
+- [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
 - [Descubra Skype Empresarial](https://support.office.com/article/8a3491a3-c095-4718-80cf-cbbe4afe4eba): Ayude a los miembros de su empresa a aprender a usar las características de Skype Empresarial. 
 

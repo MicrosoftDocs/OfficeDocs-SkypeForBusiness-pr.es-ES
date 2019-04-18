@@ -1,10 +1,10 @@
 ---
-title: ¿Qué son los operadores automáticos del Sistema telefónico?
+title: ¿Cuáles son los operadores automáticos de la nube?
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
 ms.reviewer: makolomi
-ms.date: 9/1/2018
+ms.date: 4/2/2019
 ms.topic: article
 ms.assetid: ab9f05a2-22cb-4692-a585-27f82d1b37c7
 ms.tgt.pltfrm: cloud
@@ -21,23 +21,23 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
-description: Obtenga información sobre qué son los operadores automáticos de sistema telefónico y cómo usarlas.
-ms.openlocfilehash: 46828acc60f6960416f8aeb18452da0ae5e31e68
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+description: Obtenga información sobre qué son los operadores automáticos en la nube y cómo usarlas.
+ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
+ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31808089"
+ms.lasthandoff: 04/18/2019
+ms.locfileid: "31914631"
 ---
-# <a name="what-are-phone-system-auto-attendants"></a>¿Qué son los operadores automáticos del Sistema telefónico?
+# <a name="what-are-cloud-auto-attendants"></a>¿Cuáles son los operadores automáticos de la nube?
 
 Sistema telefónico en Office 365 proporciona a operadores automáticos, que se pueden usar para permitir que externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.
   
 Un operador automático es una serie de mensajes de voz o los archivos de audio que escuchen los autores de llamadas en lugar de un operador humano cuando llaman a una organización. Cuando las personas llaman a un número asociado a un operador automático, sus opciones pueden redirigir la llamada a un usuario o busque a alguien en su organización y, a continuación, conectarse a ese usuario. Puede express sus opciones e interactuar con el sistema de menús mediante el uso de un teclado de teléfono (DTMF) o el reconocimiento de voz.
   
-Para configurar un operador automático para el sistema telefónico en Office 365, vaya a [configurar un operador automático de sistema telefónico](create-a-phone-system-auto-attendant.md).
+Para configurar un operador automático para el sistema telefónico en Office 365, vaya a [configurar un operador automático de la nube](create-a-phone-system-auto-attendant.md).
   
-Un operador automático de sistema telefónico tiene las siguientes características:
+Un operador automático de la nube tiene las siguientes características:
   
 - Puede transmitir saludos corporativos o informativos.
 - Puede proporcionar menús corporativos personalizados. Estos menús se pueden personalizar para que tengan más de un nivel.
@@ -199,7 +199,7 @@ El operador se puede establecer en:
 - Un usuario de Microsoft Teams o un Skype para la empresa en usuario local que esté habilitado para Enterprise Voice.
   
 - Otro operador automático configurado para su organización.
-- Cualquier cola de llamadas que tenga su organización. Para ver más información acerca de las colas de llamadas, vea [crear una cola de llamadas de sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+- Cualquier cola de llamadas que tenga su organización. Para ver más información acerca de las colas de llamadas, vea [crear una cola de llamada en la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
 ### <a name="business-hours-and-call-handling"></a>Horario laboral y administración de llamadas
 
@@ -212,14 +212,14 @@ Cada operador automático tiene opciones de control de llamada que se pueden est
   - Redirigir la llamada a un usuario de Microsoft Teams que tiene una licencia de **Sistema telefónico** que esté habilitado para Enterprise Voice o planes de llamada ha asignado a ellos. Puede configurarlo para que se pueda enviar un correo de voz a la persona que llama. Para ello, seleccione una **persona de su empresa** y establezca que las llamadas de esta persona se desvíen de manera automática directamente al correo de voz.
 
   
-  - Redirigir la llamada a una cola de llamada. Para ver más información acerca de las colas de llamadas, vea [crear una cola de llamadas de sistema telefónico](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
+  - Redirigir la llamada a una cola de llamada. Para ver más información acerca de las colas de llamadas, vea [crear una cola de llamada en la nube](/SkypeForBusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue).
 
   - Redirigir la llamada a otro operador automático que haya configurado.
 - Crear opciones de menú y reproducir un mensaje con instrucciones para el autor de la llamada. Por ejemplo: "Pulse 1 para Ventas, pulse 2 para Servicios. Para hablar con el operador, pulse 0 en cualquier momento".
 
 ### <a name="menu-options"></a>Opciones de menú
 
-Operadores automáticos de teléfono del sistema le permiten crear mensajes de menú ("Presione 1 para ventas, presione 2 para servicios de") y configure las opciones de menú para enrutar las llamadas en función de lo que el usuario selecciona. La configuración de opciones de menú para un operador automático permite a una organización proporcionar instrucciones interactivas para que las personas lleguen a su destino con mayor rapidez, sin necesidad de que un operador humano administre las llamadas entrantes. Indicadores de menú se pueden crear mediante texto a voz (mensajes generados por el sistema) o cargar un archivo de audio que se ha registrado. El reconocimiento de voz usa comandos de voz para facilitar la navegación sin entrada manual, pero los autores de llamadas pueden usar también el teclado de su teléfono para navegar por los menús.
+Operadores automáticos de nube permiten crear mensajes de menú ("Presione 1 para ventas, presione 2 para servicios de") y configure las opciones de menú para enrutar las llamadas en función de lo que el usuario selecciona. La configuración de opciones de menú para un operador automático permite a una organización proporcionar instrucciones interactivas para que las personas lleguen a su destino con mayor rapidez, sin necesidad de que un operador humano administre las llamadas entrantes. Indicadores de menú se pueden crear mediante texto a voz (mensajes generados por el sistema) o cargar un archivo de audio que se ha registrado. El reconocimiento de voz usa comandos de voz para facilitar la navegación sin entrada manual, pero los autores de llamadas pueden usar también el teclado de su teléfono para navegar por los menús.
   
 Las teclas de 0 a 9 se pueden asignar a **Las opciones de menú** en un operador automático mediante el Skype para el centro de administración de negocio. Pueden crear conjuntos de opciones de menú diferentes para el horario laboral y el no laboral, y puede activar o desactivar Marcado por nombre en las **opciones del menú**. Se pueden asignar las teclas para transferir las llamadas a:
   
@@ -230,7 +230,7 @@ Las teclas de 0 a 9 se pueden asignar a **Las opciones de menú** en un operador
   
 El nombre de cada opción de menú se convierte en una palabra clave de reconocimiento de voz si se ha habilitado el reconocimiento de voz. Por ejemplo, los autores de llamadas pueden decir "Uno" para seleccionar la opción de menú asignada a la tecla 1, o simplemente puede dicen "Sales" para seleccionar la misma opción de menú denominada "Sales".
   
-Para configurar un operador automático y las opciones de menú, vaya a [configurar un operador automático de sistema telefónico](create-a-phone-system-auto-attendant.md).
+Para configurar un operador automático y las opciones de menú, vaya a [configurar un operador automático de la nube](create-a-phone-system-auto-attendant.md).
   
 ### <a name="assigning-phone-numbers-for-an-auto-attendant"></a>Asignación de números de teléfono para un operador automático
 
