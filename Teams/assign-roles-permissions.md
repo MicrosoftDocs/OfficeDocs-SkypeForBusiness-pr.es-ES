@@ -16,10 +16,10 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0c7343f294f18d5aaacf01059459524cdd2700a2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569961"
 ---
 <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Asignar miembros y propietarios de equipo en Microsoft Teams
@@ -28,35 +28,35 @@ ms.locfileid: "30569961"
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-En Microsoft Teams existen dos roles de usuario: **propietario** y **miembros**. De forma predeterminada, un usuario que crea un nuevo equipo se concede el estado de propietario. Si se crea un equipo de un grupo de 365 existente de Office, los permisos se heredan.
+Dentro de Microsoft Teams hay dos roles: **Propietario** y **Miembro**. De forma predeterminada, el usuario que crea un equipo tiene el estado Propietario. Si se crea un equipo a partir de un grupo de Office 365 existente, los permisos se heredan.
 
-En la tabla siguiente muestra la diferencia de permisos entre un propietario y un miembro.
+En la tabla siguiente se muestra la diferencia entre un propietario y un miembro:
 
 
-|                                   | Propietario de equipo | Miembro de equipo |
+|                                   | Propietario de equipo | Integrante de grupo |
 |-----------------------------------|------------|-------------|
-|          **Crear equipo**          |    Sí<sup>1</sup>     |     No      |
+|          **Crear un equipo**          |    Sí<sup>1</sup>     |     No      |
 |          **Abandonar equipo**           |    Sí     |     Sí     |
 |  **Editar nombre o descripción del equipo**   |    Sí     |     No      |
 |          **Eliminar equipo**          |    Sí     |     No      |
 |          **Agregar canal**          |    Sí     |    Sí<sup>2</sup>|
 | **Editar nombre o descripción del canal** |    Sí     |    Sí<sup>2</sup>|
 |        **Eliminar canal**         |    Sí     |    Sí<sup>2</sup>|
-|          **Agregar miembros**          |  Sí<sup>3</sup>   |     No hay<sup>4</sup>    |
+|          **Agregar miembros**          |  Sí<sup>3</sup>   |     No<sup>4</sup>    |
 |          **Solicitud para agregar miembros**          |  N/D   |     Sí<sup>5</sup>     |
 |           **Agregar fichas**            |    Sí     |    Sí<sup>2</sup>|
 |        **Agregar conectores**         |    Sí     |    Sí<sup>2</sup>|
 |           **Agregar bots**            |    Sí     |    Sí<sup>2</sup>|
 
-<sup>1</sup> los propietarios de equipo pueden crear equipos a menos que ha ha restringido de hacerlo. Vea "Permisos para crear los equipos" más adelante.
+<sup>1</sup> Los propietarios del equipo pueden crear equipos a no ser que se les haya quitado el permiso para hacerlo. Consulte "Permisos para crear equipos" más abajo.
 >
-<sup>2</sup> estos elementos se pueden desactivar un propietario en un nivel de equipo, en cuyo caso los miembros no tienen acceso a ellos.
+<sup>2</sup> Un propietario puede desactivar estos elementos a nivel de equipo, en cuyo caso, los miembros no tendrían acceso a ellos.
 
-<sup>3</sup> después de agregar a un miembro a un equipo, un propietario también puede ascender a un miembro al estado de propietario. También es posible para un propietario disminuir el nivel de su propio estado para un miembro.
+<sup>3</sup> Tras agregar un miembro a un equipo, un propietario también puede promover un miembro al estado de propietario. El propietario también puede degradar su propio estado a miembro.
 
-<sup>4</sup> los miembros del equipo pueden agregar a otros miembros a un equipo público.
+<sup>4</sup> Los miembros del equipo pueden agregar otros miembros a un equipo público.
 
-<sup>5</sup> mientras un miembro del equipo directamente no puede agregar a miembros a un equipo privado, puede solicitar a alguien que se agregarán a un equipo que ya están miembro de. Cuando un miembro solicita a alguien que se agregarán a un equipo, los propietarios de equipo reciben una alerta que cuentan con una solicitud pendiente que se puede aceptar o rechazar.
+<sup>5</sup> Aunque un miembro del equipo no puede agregar directamente miembros a un equipo privado, puede solicitar que se añada a una persona a un equipo del que ya es miembro. Cuando un miembro solicita que se añada a una persona a un equipo, los propietarios del equipo reciben una alerta de que tienen una solicitud pendiente que pueden aceptar o denegar.
 
 
 
@@ -67,7 +67,7 @@ En la tabla siguiente muestra la diferencia de permisos entre un propietario y u
 <a name="permissions-to-create-teams"></a>Permisos para crear equipos
 ---------------------------
 
-De forma predeterminada, todos los usuarios con un buzón en Exchange Online tienen permisos para crear grupos de Office 365 y, por lo tanto, un equipo dentro de Microsoft Teams. Puede tener un control más estricto y restringir la creación de nuevos equipos y, por lo tanto, la creación de nuevos grupos de Office 365 mediante la delegación de la creación del grupo y derechos de administración a un conjunto de usuarios. Para obtener instrucciones, vea [administrar quién puede crear grupos de Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
+De manera predeterminada, todos los usuarios que tengan un buzón de correo en Exchange Online tienen permisos para crear grupos de Office 365 y, por lo tanto, para crear equipos dentro de Microsoft Teams. Puede ejercer un control más estricto y restringir la creación de nuevos equipos y, por lo tanto, la creación de grupos de Office 365 si delega la creación de grupos y los derechos de administración en un conjunto de usuarios. Para ver más información, consulte [Administrar quién puede crear Grupos de Office 365](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618).
 
 
 ||||

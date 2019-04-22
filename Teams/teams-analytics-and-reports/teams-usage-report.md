@@ -13,42 +13,42 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Obtenga información sobre cómo usar el informe de uso de los equipos en el centro de administración de Microsoft Teams para obtener una visión general de la actividad de los equipos de la organización.
+description: Aprenda a usar el informe de uso de Teams en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de Teams en su organización.
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
-ms.translationtype: MT
+ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
+ms.lasthandoff: 03/19/2019
 ms.locfileid: "30569937"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 
-El informe de uso de los equipos en el centro de administración de Microsoft Teams proporciona una visión general de la actividad de uso en los equipos, incluido el número de usuarios activos y los canales, para que pueda ver rápidamente cuántos usuarios en toda la organización utilizan los equipos para comunicarse y colaborar. Puede ver la información de uso de los equipos, incluido el número de usuarios activos y canales, los invitados y los mensajes en cada equipo.
+El informe de uso de Teams en el centro de administración de Microsoft Teams proporciona información general sobre la actividad de uso en Teams, como el número de usuarios y canales activos, para que pueda ver rápidamente cuántos usuarios en su organización usan Teams para comunicarse y colaborar. Puede ver información sobre el uso para equipos, como el número de canales y usuarios activos, invitados y mensajes en cada equipo.
 
-![Captura de pantalla del informe de uso de los equipos en el centro de administración de equipos de Microsoft] (../media/teams-reports-teams-usage.png "Captura de pantalla del informe de uso de los equipos en el centro de administración de equipos de Microsoft")
+![Captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams](../media/teams-reports-teams-usage.png "Captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams")
 
 ## <a name="view-the-report"></a>Ver el informe
 
-1. Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **informes de análisis &** y, a continuación, en el **informe**, seleccione **uso de los equipos**. 
-2. En **intervalo de fechas**, seleccione un intervalo y, a continuación, haga clic en **Ejecutar informe**.
+1. Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **Análisis e informes** y, en **Informe**, seleccione **Uso de Teams**. 
+2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**.
 
-## <a name="interpret-the-report"></a>Interpretación del informe
+## <a name="interpret-the-report"></a>Interpretar el informe
 
-![Captura de pantalla del informe de uso de los equipos en el centro de administración de equipos de Microsoft] (../media/teams-reports-teams-usage-with-callouts.png "Captura de pantalla del informe de uso de los equipos en el centro de administración de equipos de Microsoft con llamadas numerada")
+![Captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams](../media/teams-reports-teams-usage-with-callouts.png "Captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams con secciones resaltadas numeradas")
 
-|Llamada |Descripción  |
+|Globo |Descripción  |
 |--------|-------------|
-|**1**   |Puede verse el informe de actividad de uso de los equipos de tendencias a través de últimos 7 días o 28 días. |
+|**1**   |El informe de actividad de uso de Teams se puede visualizar para ver las tendencias de los últimos 7 o 28 días. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
-|**3**   |<ul><li>El eje X del gráfico es el intervalo de fechas seleccionado para el informe.</li> <li> El eje Y es el número de elementos de activos o actividad.</li> </ul>Mantenga el mouse sobre el punto que representa un elemento o actividad en una fecha determinada para ver el número de instancias de ese elemento o actividad en fecha determinada.|
-|**4**   |Puede filtrar lo que se ve en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haga clic en **usuarios activos Total**, **usuarios activos de equipos & canales**, **canales activos**o **los mensajes** para ver sólo la información relacionada con cada uno de ellos. Cambiar esta selección no cambia la información de la tabla. |
-|**5**   |La tabla proporciona un desglose de uso por equipo. <ul><li>**Nombre para mostrar** es el nombre para mostrar del equipo. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del equipo en el centro de administración de Microsoft Teams. </li> <li>**Privacidad** hace referencia a si el equipo es un equipo privado o equipo público.</li> <li>**Usuarios activos** es el número de usuarios activos en el equipo en el período de tiempo especificado.</li><li>**Los invitados** es el número de invitados en el equipo en el período de tiempo especificado.</li> </li> </ul>Para ver la información que desee incluir en la tabla, asegúrese de agregar las columnas a la tabla. |
-|**6**   |Seleccione **Editar columnas** para agregar o quitar columnas de la tabla. 
-|**7**   |Seleccione **˙˙˙**y, a continuación, el **gráfico de impresión** para imprimir el gráfico. |
+|**3**   |<ul><li>En el gráfico, el eje X es el intervalo de fechas seleccionado para el informe específico.</li> <li> El eje Y es el número de elementos activos o actividad.</li> </ul>Mueva el puntero sobre el punto que representa un elemento o actividad en una fecha determinada para ver el número de instancias de ese elemento o actividad en esa fecha.|
+|**4**   |Puede filtrar lo que aparece en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haga clic en **Usuarios activos totales**, **Usuarios activos de Equipos y canales**, **Canales activos** o **Mensajes** para ver solo la información relacionada con cada uno. Al cambiar esta selección no se cambia la información de la tabla. |
+|**5**   |La tabla le proporciona un desglose del uso por equipo. <ul><li>**Nombre para mostrar** es el nombre para mostrar del equipo. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del equipo en el centro de administración de Microsoft Teams. </li> <li>**Privacidad** hace referencia a si es un equipo privado o público.</li> <li>**Usuarios activos** es el número de usuarios activos en el equipo en el período de tiempo especificado.</li><li>**Invitados** es el número de invitados en el equipo en el período de tiempo especificado.</li> </li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. 
+|**7**   |Seleccione **˙˙˙** y luego **Imprimir gráfico** para imprimir el gráfico. |
 
 ## <a name="related-topics"></a>Temas relacionados
-- [Informes y análisis de los equipos](teams-reporting-reference.md)
+- [Análisis e informes de Teams](teams-reporting-reference.md)
 - [Informe de actividad de usuario de Teams](user-activity-report.md)
 - [Informe de uso de dispositivos de Teams](device-usage-report.md)
