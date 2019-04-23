@@ -1,5 +1,5 @@
 ---
-title: Empezar a trabajar con los equipos para las organizaciones de salud
+title: Introducción a Teams para organizaciones sanitarias
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,15 +12,15 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Empezar a trabajar con los equipos para las organizaciones de salud
-ms.openlocfilehash: 9e9d43d5bd4b7f2f0b15727a2f5c52bda6bb7afb
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Introducción a Teams para organizaciones sanitarias
+ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013790"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959429"
 ---
-# <a name="get-started-with-teams-for-healthcare-organizations"></a>Empezar a trabajar con los equipos para las organizaciones de salud
+# <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
 Microsoft Teams ofrece una serie de características útiles para hospitales y otras organizaciones de asistencia sanitarios. Características de los equipos se encuentran en desarrollo para ayudar a hospitales con:
 
@@ -58,4 +58,5 @@ Microsoft Teams se integra con Firstline de trabajo, que se puede utilizar para 
  Vea los siguientes artículos:
 
 - [Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams](../shifts/move-staffhub-teams-to-shifts-in-teams.md)
+
 - [Administrar la aplicación Turnos para su organización en Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md)

@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver detalles de uso de RTC de conferencia de Audio incluido el costo de la llamada para que pueda comprender su uso y llamar a los detalles de facturación para determinar el uso dentro de la organización.
-ms.openlocfilehash: 9522cf7919808d059146e977de35a5590a05286f
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.openlocfilehash: 2a0db39852169cbb4c1dacab178d2f5b3b96dc7e
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993552"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -34,7 +34,7 @@ Revise la [información general de informes](https://support.office.com/article/
 Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad incluyendo llamar al uso en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Cómo acceder al informe Detalles de uso de RTC de Skype Empresarial
 
@@ -98,6 +98,9 @@ Este es el aspecto del informe.
 ***
 > [!NOTE]
 > También es posible que vea "no hay datos" en algunos campos. "No hay datos" significa que el campo no es aplicable para el tipo de llamada o la capacidad. 
+***
+> [!NOTE]
+> Si dispone de un plan llamado Telstra, no podrá ver ninguno registros detallados de llamadas en el informe de uso de RTC. Póngase en contacto con Telstra para sus necesidades informes. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas.
  ***

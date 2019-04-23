@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
 description: 'Resumen: Implementar la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype se utiliza con Skype para la empresa.'
-ms.openlocfilehash: 7fabbbbd279e2f72f3468fbe73a55b86e532f6cf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: c974ff9d202c56b0a32c9983706a60b5d73c4de6
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531548"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959563"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Implementar a los clientes que se pueden descargar de Web en Skype para Business Server
 
 **Resumen:** Implemente el Skype para profesionales de 2015 Web App y aplicación de las reuniones de Skype se utiliza con Skype para Business Server.
 
-Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para la aplicación empresarial de Web o aplicación de las reuniones de Skype.
+Skype para la aplicación empresarial de Web es un cliente de web de Internet Information Services (IIS) que está instalado en el servidor que ejecuta Skype para Business Server y de forma predeterminada se implementa a petición a los usuarios de reunión que ya no tienen la Skype para clientes empresariales. Estos usuarios de reuniones son más frecuentes que los casos de usuarios que no se conectan desde fuera de la red. Cada vez que un usuario hace clic en una dirección URL de la reunión, pero no tiene el Skype para Business client instalado, se presenta al usuario con la opción para unirse a la reunión mediante el uso de la versión más reciente de Skype para aplicación empresarial de Web, aplicación de las reuniones de Skype o Skype para la empresa para Mac.
 
 Las características de la voz, vídeo y uso compartida en Skype para la aplicación empresarial de Web requieren un control ActiveX de Microsoft que se usa como un complemento en el explorador del usuario. Puede instalar el control ActiveX de antemano o permitir a los usuarios que lo instale cuando se le solicite, lo que ocurre la primera vez que usa Skype para la aplicación empresarial de Web o la primera vez que tienen acceso a una característica que requiere el control ActiveX.
 
@@ -31,7 +31,7 @@ Las características de la voz, vídeo y uso compartida en Skype para la aplicac
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Habilitar la autenticación multifactor para Skype para la aplicación empresarial de Web
 <a name="MFA"> </a>
 
-El Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype admiten la autenticación multifactor. Además de nombre de usuario y contraseña, puede requerir que los métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unan a las redes externas cuando inician sesión Skype para reuniones de negocios. Puede habilitar la autenticación multifactor mediante la implementación de servidor de federación de servicios de federación de Active Directory (AD FS) y la habilitación de autenticación pasiva en Skype para Business Server. Después de configurar AD FS, los usuarios externos que intenten unirse a Skype para reuniones de negocios se presentan con una página Web de autenticación multifactor de AD FS que contiene el nombre de usuario y contraseña desafiar junto con los métodos de autenticación adicionales ha configurado.
+Skype para la aplicación empresarial de Web, aplicación de las reuniones de Skype y Skype para la empresa para Mac admiten la autenticación multifactor. Además de nombre de usuario y contraseña, puede requerir que los métodos de autenticación adicionales, como tarjetas inteligentes o PIN, para autenticar a los usuarios que se unan a las redes externas cuando inician sesión Skype para reuniones de negocios. Puede habilitar la autenticación multifactor mediante la implementación de servidor de federación de servicios de federación de Active Directory (AD FS) y la habilitación de autenticación pasiva en Skype para Business Server. Después de configurar AD FS, los usuarios externos que intenten unirse a Skype para reuniones de negocios se presentan con una página Web de autenticación multifactor de AD FS que contiene el nombre de usuario y contraseña desafiar junto con los métodos de autenticación adicionales ha configurado.
 
 > [!IMPORTANT]
 > A continuación, se incluyen algunas consideraciones importantes para planear la configuración de AD FS para la autenticación multifactor:
@@ -121,7 +121,7 @@ Este procedimiento es opcional y se aplica a Skype para Business Server 2015 CU5
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Habilitar el método simplificado para unirse a las reuniones y la aplicación Reuniones de Skype
 
-1. Al habilitar el acceso a la red de entrega de contenido (CDN), los usuarios tendrán la capacidad para conectarse a CDN en línea y obtener la aplicación de las reuniones de Skype y usará el simplificada experiencia de unirse a la reunión.
+1. Al habilitar el acceso a la red de entrega de contenido (CDN), los usuarios tendrán la capacidad de conectarse a CDN en línea y obtener la aplicación de las reuniones de Skype (en Windows) y Skype para la empresa para Mac (Mac) en y usará el simplificada experiencia de unirse a la reunión.
 
    ```
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
@@ -133,7 +133,7 @@ Este procedimiento es opcional y se aplica a Skype para Business Server 2015 CU5
    Set-CsWebServiceConfiguration -MeetingUxEnableTelemetry $True
    ```
 
-    La información que se envía a Microsoft cumple rigurosamente con las [prácticas de recopilación de datos de Skype Empresarial](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
+    Información que se envía a Microsoft es en cumplimiento estricto con [Skype para prácticas de recopilación de datos de negocio](https://docs.microsoft.com/skypeforbusiness/legal-and-regulatory/data-collection-practices).
 
 3. Establecer el tiempo de espera antes de retroceso a la Skype hospedado localmente para la experiencia de la aplicación Web de negocio si CDN no está disponible. El valor predeterminado es 6 segundos. En caso de que fuese 0, no habría tiempo de espera.
 

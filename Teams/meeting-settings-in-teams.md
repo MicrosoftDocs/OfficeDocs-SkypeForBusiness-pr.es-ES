@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración para las reuniones de los equipos que los usuarios programar en la organización.
-ms.openlocfilehash: ec43fe9c436de612440bbec687868dc4de749191
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494256"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959540"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -100,6 +100,6 @@ Tipo de tráfico de medios| Intervalo de puertos de origen de cliente\* |Protoco
 
 \*Los intervalos de puertos que asigna no se pueden superponer y deben ser adyacentes entre sí.
 
-Establecer los intervalos de puertos para tipos de tráfico diferentes es sólo un paso en el control multimedia en tiempo real, vea [Calidad de servicio (QoS) en los equipos](qos-in-teams.md) para mucho más detalle. Si habilita o cambiar la configuración en el centro de administración de equipos, necesitará para [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y los dispositivos de la red interna para implementar completamente los cambios realizados en QoS en los equipos.
+Establecer los intervalos de puertos para tipos de tráfico diferentes es sólo un paso en el control multimedia en tiempo real; vea [Calidad de servicio (QoS) en los equipos](qos-in-teams.md) para mucho más detalle. Si habilita o cambiar la configuración en el centro de administración de Microsoft Teams, necesitará para [aplicar la configuración correspondiente a todos los dispositivos de usuario](QoS-in-Teams-clients.md) y los dispositivos de la red interna para implementar completamente los cambios realizados en QoS en los equipos.
 
 Después de haber QoS en uso durante un tiempo, tendrá la información sobre el uso de la demanda de cada una de estas tres cargas de trabajo, y puede elegir qué cambios hacer según sus necesidades concretas. [Panel de calidad de llamadas](turning-on-and-using-call-quality-dashboard.md) le serán útiles con eso.

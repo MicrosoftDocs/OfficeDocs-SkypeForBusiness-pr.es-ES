@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2ce14fee8e9039f538d39c61ef4436c69160b222
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640949"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959524"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 
@@ -117,7 +117,7 @@ Los equipos proporciona capacidades granulares para controlar mensajería, convo
 
 Para obtener listas detalladas de todas las configuraciones, incluido orientación técnica acerca de cómo implementarlos para su organización, consulte los siguientes artículos:
 
--   [Administrar las características de Microsoft Teams en su organización de Office 365](enable-features-office-365.md)
+-   [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 -   [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 -   [Administrar las directivas de reunión en los equipos](meeting-policies-in-teams.md)
 

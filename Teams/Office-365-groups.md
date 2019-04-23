@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/29/2018
+ms.date: 04/16/2019
 ms.topic: conceptual
 ms.service: msteams
 description: Aprenda cómo funcionan los grupos y las pertenencias a grupos de Office 365 con Microsoft Teams.
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a456e0777d354585eddf3676f2fdcae56ae9485
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890097"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959279"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================
@@ -31,6 +31,8 @@ ms.locfileid: "30890097"
 Grupos de Office 365 es el servicio de pertenencia entre aplicaciones de Office 365. En el nivel básico, un grupo de Office 365 es un objeto de Azure Active Directory con una lista de miembros y un acoplamiento flexible para cargas de trabajo relacionados, incluidos un sitio de grupo de SharePoint, el grupo de Yammer, comparte recursos de buzón de correo de Exchange, organizador, Power BI y OneNote. Puede agregar o quitar personas al grupo como lo haría con cualquier otro objeto de seguridad basadas en grupos de Active Directory.
 
 Un administrador de Office 365 puede definir un grupo de Office 365, agregar a miembros y beneficiarse de las características, como un intercambio shared buzón de correo, biblioteca de documentos de SharePoint, grupo de Yammer y así sucesivamente. Para obtener más información acerca de los grupos de Office 365, vea [obtener información acerca de los grupos de Office 365](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
+
+No se pierda el póster [grupos en Microsoft 365 para arquitectos de TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365).
 
 <a name="how-office-365-groups-work"></a>Cómo funcionan los grupos de Office 365
 --------------------------

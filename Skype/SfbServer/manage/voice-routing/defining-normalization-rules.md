@@ -9,12 +9,12 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para las reglas de normalización de Business Server usar expresiones regulares de .NET Framework para convertir los números de teléfono marcado al formato E.164; en otras palabras, reglas de normalización toman el número de teléfono marcado por un usuario y conversión a ese número en el formato usado internamente por Skype para Business Server. Cada plan de marcado debe tener asignadas una o más reglas de normalización.
-ms.openlocfilehash: 8e32ac485763c626d7d4347bb194fb4c4f3dba44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a1157e9cf435fdd655e9d1772294fa3f57acf3f4
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993518"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definición de reglas de normalización en Skype para Business Server
 
@@ -36,7 +36,7 @@ Complete los siguientes pasos si desea crear o modificar una regla de normalizac
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para obtener información detallada, vea [delegar permisos de instalación](https://technet.microsoft.com/en-us/library/gg412735(v=ocs.15).aspx).
 2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Panel de Control. Para obtener información detallada sobre los distintos métodos que puede usar para iniciar el Skype para el Panel de Control, consulte [Install and open herramientas administrativas](../../management-tools/install-and-open-administrative-tools.md).
-3. (Opcional) Siga los pasos de [crear un plan de marcado](GET LINK AFTER MIGRATION) a través de paso 11 o [modificar un plan de marcado](GET LINK AFTER MIGRATION) hasta el paso 10. 
+3. (Opcional) Siga los pasos de [crear un plan de marcado](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-create-a-dial-plan) a través de paso 11 o [modificar un plan de marcado](https://docs.microsoft.com/skypeforbusiness/deploy/deploy-enterprise-voice/dial-plans#to-modify-a-dial-plan) hasta el paso 10. 
 4. En **Nueva regla de normalización** o **Editar regla de normalización**, escriba un nombre que describa el patrón numérico que se normalizará en **Nombre** (por ejemplo, **5DigitExtension**).
 5. (Opcional) En **Descripción**, escriba una descripción de la regla de normalización (por ejemplo, "Convierte extensiones de 5 dígitos").
 6. En **Generar regla de normalización**, escriba valores en los siguientes campos:

@@ -15,12 +15,12 @@ description: Las tareas y actividades necesarias para la administración de serv
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47628a52d91c3a9d0492accf9bcb8bce926f3649
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765184"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959239"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -480,7 +480,7 @@ Después de que se ha implementado el servicio de Microsoft Teams, debe realizar
 ### <a name="service-administration"></a>Administración del servicio
 
 El servicio de los equipos tiene varias opciones que se pueden configurar todo el inquilino.
-Los cambios realizados en la configuración de inquilino afecta a todos los usuarios que han sido habilitados para los equipos. Para obtener una lista detallada de estas configuraciones, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
+Los cambios realizados en la configuración de inquilino afecta a todos los usuarios que han sido habilitados para los equipos. Para obtener una lista detallada de estas configuraciones, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administración de usuarios
 

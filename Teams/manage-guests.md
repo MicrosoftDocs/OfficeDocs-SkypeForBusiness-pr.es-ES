@@ -1,5 +1,5 @@
 ---
-title: Administrar el acceso de invitado a Microsoft Teams
+title: Administrar el acceso de invitado en Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -14,19 +14,19 @@ search.appverid: MET150
 description: Los administradores de TI pueden agregar invitados en el nivel de inquilino, configurar y administrar permisos y directivas de usuarios invitados, determinar qué usuarios pueden invitar y extraer informes sobre la actividad de los usuarios invitados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5be03fb6e28519c53457b6eaabd050a5d9a6bb3b
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: 601582953136b982245bc7f4b2976c64d37424e7
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493944"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959247"
 ---
-<a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado a Microsoft Teams
+<a name="manage-guest-access-in-microsoft-teams"></a>Administrar el acceso de invitado en Microsoft Teams
 ======================================
 
 **Invitado** es un tipo de licencia de usuario o en Microsoft Teams que se incluye con todas las suscripciones a Office 365 Business Premium, Office 365 Enterprise y Office 365 educación. No se necesita ninguna otra licencia de Office 365. El acceso de invitado de Teams es una configuración a nivel de inquilino y se encuentra desactivada de forma predeterminada. Para obtener información detallada acerca de cómo habilitar el acceso de invitado, vea [Activar o desactivar el acceso de invitado a los equipos de Microsoft](set-up-guests.md).
 
-Después de que el tipo de licencia de usuario o **invitado** está activado, puede establecer la configuración para invitados a través de los controles que describen en [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md) y [administrar equipos durante la transición a la nueva Microsoft Centro de administración de equipos](manage-teams-skypeforbusiness-admin-center.md).     
+Después de que el tipo de licencia de usuario o **invitado** está activado, puede establecer la configuración para invitados a través de los controles que describen en [y la [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md) administrar equipos durante la transición a la nueva Teams Microsoft Centro de administración de](manage-teams-skypeforbusiness-admin-center.md).     
     
 Los administradores de TI pueden agregar invitados en el nivel de inquilino, establecer y administrar los permisos y las directivas de usuario de invitado y extracción informa sobre la actividad de usuario de invitado. Estos controles están disponibles a través del centro de administración de Microsoft Teams. Las actividades y el contenido de los usuarios invitados están protegidos con el mismo cumplimiento de normativas y auditorías que el resto de Office 365.
 
@@ -39,7 +39,7 @@ Puede usar el portal de Azure Active Directory para administrar los invitados y 
 > [!NOTE]
 > Microsoft Teams siempre respeta la configuración externa de Azure Active Directory para permitir o evitar adiciones de usuario de invitado para el inquilino. Para obtener más información, vea [autorizar el acceso de invitado en los equipos de Microsoft](Teams-dependencies.md).
   
-## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -57,7 +57,7 @@ Los equipos no limita el número de invitados que se puede agregar. Sin embargo,
 
 ## <a name="guest-access-latencies"></a>Latencias de acceso de invitado
 
-La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" al intentar agregar un invitado a su equipo, es probable que todavía no se ha habilitado la característica de invitado o que la configuración no es efectiva todavía.
+La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con su administrador" cuando intenta agregar un invitado a su equipo, es muy probable que la característica de invitado no esté habilitada o que la configuración no haya entrado aún en vigor.
 
 ## <a name="more-information"></a>Más información
 

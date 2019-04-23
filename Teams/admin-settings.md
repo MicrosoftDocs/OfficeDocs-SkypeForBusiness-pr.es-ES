@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1caac1d6d96b93f686e4eb0fe71e39248da30f11
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749672"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959159"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================
@@ -49,8 +49,6 @@ Por ejemplo, puede usar las directivas de permisos de aplicación para:
 Para obtener más información, vaya a [administrar las directivas de permisos de aplicación en los equipos](teams-app-permission-policies.md).
 
 ## <a name="app-setup-policies"></a>Directivas del programa de instalación de aplicaciones
-
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
 Las directivas de aplicación del programa de instalación le permiten personalizar la experiencia de la aplicación para los usuarios. Elija las aplicaciones que desea anclar a la barra de aplicaciones en los clientes de los equipos y el orden en que aparecen, en clientes móviles, de escritorio y web.
 

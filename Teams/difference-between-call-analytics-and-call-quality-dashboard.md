@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: 057d74a5c0dcda70119eb16eed3a048b459c087c
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: c85bcecd31c978616e5394740efac6bb5c28c07c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993657"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -77,7 +77,7 @@ Con la Ayuda de informes de Location-Enhanced del CQD, se pueden evaluar la cali
 ![Captura de pantalla de informes de mejorado a la ubicación del panel de calidad de llamada. Las fichas que se muestran son información general, los edificios - cableada, los edificios - WiFi y Mobile (LTE). Se aplica un filtro para ver las secuencias dentro de un edificio específico.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image4.png)
 
 > [!NOTE]
-> Para habilitar las vistas específicas de creación en CQD, un administrador debe [cargar información de creación](turning-on-and-using-call-quality-dashboard.md#BKMKBuildingInformationUpload) de página del CQD inquilino la carga de datos.
+> Para habilitar las vistas de edificio o específico para el extremo en CQD, un administrador debe [cargar información de creación o extremo](turning-on-and-using-call-quality-dashboard.md#upload-tenant-data-information) en página de carga de datos de inquilinos del CQD. 
 
 Si desea que no son de administrador, como agentes de departamento de soporte técnico, para usar el panel de calidad de llamadas, puede asignar a los usuarios la función de **Ingeniero de soporte técnico de los equipos de comunicaciones**, **Especialista en soporte técnico de comunicaciones de los equipos**o **Lector de informes** . Los usuarios con las siguientes funciones de pueden tener acceso a los paneles de calidad de llamadas:
 

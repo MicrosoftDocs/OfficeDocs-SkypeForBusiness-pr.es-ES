@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e31cfcecf519489f21a99e9e68c14d92639a624c
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.openlocfilehash: b9c95e8eea5081be4b26732914cff7618b415021
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494168"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959389"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -64,7 +64,7 @@ Líderes ejecutivos son responsables de éxito de la empresa; Asegúrese de mant
 
 <a name="step-2"></a>
 
-## <a name="step-2-prepare-your-organization-for-teams"></a>Paso 2. Preparar la organización de los equipos
+## <a name="step-2-prepare-your-organization-for-teams"></a>Paso 2. Preparar su organización para Teams
 
 *(Aproximadamente cuatro a seis semanas antes de la actualización)*
 
@@ -78,7 +78,7 @@ Equipos ofrece Skype compatible para la funcionalidad empresarial — como mensa
 - [Información general sobre Microsoft Teams](Teams-overview.md)
 - [Obtenga información sobre los equipos y canales](teams-channels-overview.md)
 - [Completar planeación técnica](deploy-chat-teams-channels-microsoft-teams-landing-page.md)
-- [Administración de sistemas de salón de Skype](https://aka.ms/srsdocs)
+- [Administrar Salas de Microsoft Teams](https://aka.ms/MTRDocs)
 
 [Volver al principio](#about-upgrade-basic)
 
@@ -113,7 +113,7 @@ Siempre que se le dará reserve aviso a los usuarios les tiempo para familiariza
 
 **Recursos:**
 
-- [Administrar las características de los equipos en la organización](enable-features-office-365.md)
+- [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md)
 - [Ejemplo de correo electrónico: anuncio a los usuarios acerca de Skype para la empresa](upgrade-emails-surveys.md#step-4-email)
 
 [Volver al principio](#about-upgrade-basic)
@@ -164,7 +164,7 @@ Se recomienda que después de que todos los usuarios se han actualizado, envíe 
 
 **Recursos:**
 
-- [Establecer la coexistencia y la configuración de actualizaciones](setting-your-coexistence-and-upgrade-settings.md)
+- [Establecer la coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md)
 - [Ejemplo de correo electrónico: dar la bienvenida a los usuarios de los equipos](upgrade-emails-surveys.md#step-7-email)
 
 [Volver al principio](#about-upgrade-basic)

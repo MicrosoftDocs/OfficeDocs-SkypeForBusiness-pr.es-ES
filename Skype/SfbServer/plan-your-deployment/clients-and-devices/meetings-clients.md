@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 31e95e16-f79f-46c6-b123-973fa56a824e
 description: 'Resumen: Los profesionales de TI deben revisar los requisitos de soporte técnico para la Skype para la aplicación empresarial de Web y aplicación de las reuniones de Skype durante la planeación de Skype para Business Server. En este artículo no está pensada para los usuarios de estas aplicaciones.'
-ms.openlocfilehash: 6b0b8df34530005e7baf14cef4aa38c4536d4673
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.openlocfilehash: 6006bf1ca4b8ce63a662a1c55c79865097c86b18
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26531508"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959318"
 ---
 # <a name="plan-for-meetings-clients-web-app-and-meetings-app"></a>Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)
  
@@ -38,12 +38,12 @@ Más adelante en, esos usuarios pueden crear reuniones e invitar a los usuarios 
   
 De forma predeterminada, el servidor que hospeda la reunión dirige al usuario para descargar e instalar Skype para Business Web App para unirse a la reunión. El Skype para la aplicación empresarial de Web se almacena en el servidor Front-End y obtiene envían asistentes a la reunión. 
   
-Para Skype para Business Server, aplicación de las reuniones de Skype está disponible como un reemplazo de Skype para el principio de la aplicación Web de negocio con CU5, pero que proporciona la aplicación de las reuniones de Skype requiere la configuración adicional que se describen en [Habilitar la aplicación de las reuniones Skype para reemplazar Skype para la aplicación Web empresarial de (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si está habilitada la aplicación de las reuniones de Skype, los usuarios descargarán la versión más reciente de la aplicación desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para aplicaciones de negocio servidor 2019 Skype reuniones es la única opción.
+Para Skype para Business Server, la aplicación de las reuniones de Skype (en Windows) y Skype para la empresa para Mac (Mac) en están disponibles como reemplazos para Skype para el principio de la aplicación Web de negocio con CU5, pero proporcionar el reemplazo de aplicaciones requiere la configuración adicional se describe en [Habilitar aplicación de las reuniones de Skype para reemplazar Skype para la aplicación empresarial de Web (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable).  Si están habilitada la aplicación de las reuniones de Skype y Skype para la empresa para Mac, los usuarios descargarán la versión más reciente de las aplicaciones desde el Office 365 entrega red contenido (CDN), en lugar de su Skype para Business server. Para Skype para Business Server 2019, el uso de la aplicación de las reuniones de Skype y Skype para la empresa para Mac es la única opción.
   
-Aplicación de las reuniones de Skype ofrece una experiencia de explorador simplificada para la descarga e instalación de la aplicación y unirse a reuniones, incluida la participación de un solo clic a los usuarios de Internet Explorer. Aplicación de las reuniones de Skype también tiene muchas mejoras a través de theSkype para la aplicación empresarial de Web para confiabilidad y la experiencia de reunión. 
+Aplicación de las reuniones de Skype ofrece una experiencia de explorador simplificada para la descarga e instalación de la aplicación y unirse a reuniones, incluida la participación de un solo clic a los usuarios de Internet Explorer. Aplicación de las reuniones de Skype también tiene muchas mejoras a través de la Skype para aplicación empresarial de Web para la confiabilidad y la experiencia de reunión. 
   
 > [!NOTE]
-> A partir de Skype para Business Server 2015 CU5 o posterior, a las reuniones mediante Skype para profesionales en línea no volverá a enviar un usuario la Skype para la aplicación empresarial de Web, en su lugar se enviarán aplicación de las reuniones de Skype. A partir de Skype para Business Server 2015 CU5 o posterior, si se [Habilitar aplicación de las reuniones de Skype para reemplazar Skype para la aplicación empresarial de Web (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), los usuarios sin cliente se puede enviar aplicación de las reuniones de Skype en lugar de Skype para la aplicación empresarial de Web. 
+> A partir de Skype para Business Server 2015 CU5 o posterior, a las reuniones mediante Skype para profesionales en línea no volverá a enviar un usuario la Skype para la aplicación empresarial de Web, en su lugar se enviarán App de las reuniones de Skype (en Windows) o Skype para la empresa para Mac (Mac) en. A partir de Skype para Business Server 2015 CU5 o posterior, si [Habilitar la aplicación de las reuniones Skype para reemplazar Skype para la aplicación empresarial de Web (opcional)](../../deploy/deploy-clients/deploy-web-downloadable-clients.md#SMA_Enable), los usuarios ser enviado Skype reuniones aplicación o Skype para la empresa para Mac en lugar de Skype para la aplicación empresarial de Web. 
   
 ## <a name="software-requirements"></a>Requisitos de software
 <a name="OS-Browser"> </a>
@@ -54,14 +54,14 @@ Para usar el Skype para la aplicación empresarial de Web, un usuario debe haya 
 
 | Sistema operativo | Perimetral | Internet Explorer 11 o posterior de 32 y 64 bits | Internet Explorer 10 o una versión posterior de 32 y 64 bits | Internet Explorer 9 o posterior de 32 y 64 bits | Versión de 32 bits y de 64 bits de Safari 6.2.8 - 11.X | Versión de cromo de 32 y 64 bits 18.X o posterior |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Windows 10  <br/> |Sí  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí & #x 2778; <br/> |
+|Windows 10  <br/> |Sí   <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí & #x 2778; <br/> |
 |Windows 8.1 & #x 2776; <br/> |N/D  <br/> |Sí  <br/> |N/D  <br/> |N/D  <br/> |N/D <br/> |Sí & #x 2778; <br/> |
 |Windows 8 (basado en Intel) & #x 2776; <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |N/D <br/> |N/D  <br/> |Sí & #x 2778; <br/> |
 |Windows 7 con SP1 & #x 2777; <br/> |N/D  <br/> |Sí  <br/> |No  <br/> |No  <br/> |N/D <br/>|Sí & #x 2778; <br/> |
-|Windows Server 2008 R2 con SP1 & #x 2777; <br/> |N/D  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |N/D <br/>|Sí & #x 2778; <br/> |
+|Windows Server 2008 R2 con SP1 & #x 2777; <br/> |N/D  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> |N/D <br/>|Sí & #x 2778; <br/> |
 |Mac OS 10,8 y versiones posteriores (basado en Intel) & #x 2777; <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |N/D  <br/> |Sí  <br/> |Sí <br/> |
    
-& #x 2776; El Skype para el complemento de explorador Web App de negocio requiere un complemento del uso compartido específico para usar basados en un equipo de voz, vídeo, uso compartido y visualización de uso compartido de pantalla continuada y otras características. Asistente a una reunión se le da la opción para instalar el complemento de uso compartido cuando se unan a la reunión o cuando inicia una de estas características. En Windows 8 y Windows 8.1, el complemento de uso compartido puede instalarse sólo si se está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no se encuentran disponibles con la versión de Internet Explorer 10 o Internet Explorer 11 que no es de escritorio. Tenga en cuenta que ya no se admite Firefox y Safari versión 12.0 y versiones posterior.
+& #x 2776; El Skype para el complemento de explorador Web App de negocio requiere un complemento del uso compartido específico para usar basados en un equipo de voz, vídeo, uso compartido y visualización de uso compartido de pantalla continuada y otras características. Asistente a una reunión se le da la opción para instalar el complemento de uso compartido cuando se unan a la reunión o cuando inicia una de estas características. En Windows 8 y Windows 8.1, el complemento de uso compartido puede instalarse sólo si se está ejecutando Internet Explorer 10 o Internet Explorer 11 para el escritorio. Estas características no están disponibles con las versiones de escritorio que no sean de Internet Explorer 10 y 11. Tenga en cuenta que ya no se admite Firefox y Safari versión 12.0 y versiones posterior.
   
 & #x 2777; En compatibles Windows 7, Windows Server 2008 R2 y sistemas operativos Macintosh, todas las características están disponibles incluidos basados en un equipo de voz, vídeo, visualización de aplicaciones, uso compartido de aplicaciones, escritorio visualización y uso compartido de escritorio. Para usar estas características, necesita instalar un complemento cuando se le indique. No olvide que la versión 10.7 de Mac OS X ya no es compatible.
   
@@ -72,12 +72,14 @@ Para usar el Skype para la aplicación empresarial de Web, un usuario debe haya 
   
 ### <a name="skype-meetings-app"></a>Aplicación Reuniones de Skype
 
-La aplicación de las reuniones de Skype se ejecuta como una aplicación en equipos con Windows 10, Windows 8.1, Windows 8, Windows 7, con 32 y 64 bits Internet Explorer 11 o posterior instalado. 
+Aplicación de las reuniones de Skype se ejecuta como una aplicación en equipos con Windows 10, Windows 8.1, Windows 8, Windows 7, con 32 y 64 bits Internet Explorer 11 o posterior instalado. 
   
-La aplicación también ejecuta en Mac OS sistemas operativos 10.10 o posterior con ninguna dependencia del explorador específico. 
+Para cualquier las dependencias, consulte [plataformas admitidas para la aplicación de las reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
   
-Para obtener información sobre cualquier otra dependencia, consulte [Plataformas compatibles con la aplicación Reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
-  
+### <a name="skype-for-business-for-mac"></a>Skype para la empresa para Mac
+
+Skype para la empresa para Mac se ejecuta en equipos con Mac OS versión 10,8 o posterior. 
+
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 <a name="OS-Browser"> </a>
 
@@ -95,16 +97,16 @@ Si el usuario está en una red que no está definida como se describe, es posibl
 
 En esta tabla se compara las características de reuniones disponibles para los usuarios de Skype para clientes empresariales, Skype para la aplicación empresarial de Web, aplicación de las reuniones de Skype y Lync Web App. Lync Web App está en la lista para fines de comparación de características: un usuario sólo se debería descargar y usar Lync Web App si la reunión se hospeda en un servidor de Lync 2013.
 
-| Característica / función | Skype para 2016 empresarial o cliente 2019 | Skype para la empresa en el cliente de Mac | Aplicación Reuniones de Skype | Aplicación web de Skype Empresarial | Lync Web App |
+| Característica/función | Skype para 2016 empresarial o cliente 2019 | Skype para la empresa en el cliente de Mac | Aplicación Reuniones de Skype | Aplicación web de Skype Empresarial | Lync Web App |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Agregar VoIP  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
+|Agregar audio de equipo  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
 |Agregar vídeo  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
 |Cambiar el audio a un teléfono para los participantes autenticados  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Cambiar el audio a un teléfono para los participantes de invitado  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|||
-|Ver un vídeo entre varios participantes (vista de galería)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Pantalla compartida basada en vídeo  <br/> |& #x 2714;|& #x 2714; <br/> |& #x2714;(View-only)  <br/> |||
+|Ver un vídeo entre varias partes (vista de galería)  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Pantalla compartida basada en vídeo  <br/> |& #x 2714;|& #x 2714; <br/> |&#x2714;(View-Only)  <br/> |||
 |Usar los controles de moderador en la reunión  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
-|Acceder a la lista de reuniones detallada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
+|Obtener acceso a lista de reuniones detallada  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Participar en mensajería instantánea para varios participantes  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Establecer mensajes de mensajería instantánea como de importancia alta  <br/> |& #x 2714;|||||
 |Compartir el escritorio (si se habilita)  <br/> |& #x 2714;|& #x 2714;|& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |& #x 2714; (requiere un complemento)  <br/> |
@@ -124,16 +126,16 @@ En esta tabla se compara las características de reuniones disponibles para los 
 |Agregar y editar las notas de reunión de OneNote  <br/> |& #x 2714;||Solo editar (no agregar)  <br/> |Solo editar (no agregar)  <br/> |Solo editar (no agregar)  <br/> |
 |Usar una pizarra  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Realizar sondeos  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Cargar archivos para compartirlos con otros usuarios  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
+|Cargar archivos para compartir con otros usuarios  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Programar una reunión o conferencia  <br/> |Outlook o Skype para el programador Web empresarial  <br/> |Outlook o Skype para el programador Web empresarial  <br/> |Skype para el programador Web empresarial  <br/> |Skype para el programador Web empresarial  <br/> |Skype para el programador Web empresarial  <br/> |
 |Q&amp;un administrador  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
-|Deshabilitar el vídeo de asistentes  <br/> |& #x 2714;|||||
+|Deshabilitar vídeo de asistentes  <br/> |& #x 2714;|||||
 |Deshabilitar la mensajería instantánea de la reunión  <br/> |& #x 2714;||& #x 2714;|& #x 2714;|& #x 2714;|
 |Silenciar destinatarios  <br/> |& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|& #x 2714;|
 |Convertir a todos en asistentes  <br/> |& #x 2714;|||||
 |Producir difusión de reunión de Skype  <br/> |& #x 2714;|||||
    
- & #x 2776;  Los participantes no pueden controlar los escritorios compartidos por Skype para la empresa para Mac, Lync para Mac 2011 o Communicator para Mac 2011 a los usuarios. Esto tampoco funcionará con la aplicación web de Skype Empresarial en Mac OS X.
+ & #x 2776;  Los participantes no pueden controlar los escritorios compartidos por Skype para la empresa para Mac, Lync para Mac 2011 o Communicator para Mac 2011 a los usuarios. También esto no funcionará para Skype para la aplicación empresarial de Web en Max OSX.
   
  & #x 2777;  Para Skype para profesionales en línea, esta característica requiere Microsoft RTC conferencia, mensajería unificada de Exchange, o un 3 º proveedor de conferencias de audio.
   

@@ -1,6 +1,6 @@
 ---
 title: Asignar licencias de Teams
-author: lolaj
+author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
 ms.date: 12/14/2018
@@ -14,12 +14,12 @@ ms.reviewer: mikedav
 description: Obtenga información sobre cómo asignar licencias para características como conferencias de Audio, el sistema de teléfono, y los planes de llamada.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c679a43262a5cd10756b0f5ea542f1341018b615
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 46966b7cad855ef6336b501564cde89dffd6b2b2
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993632"
 ---
 # <a name="assign-microsoft-teams-licenses"></a>Asignación de licencias de Microsoft Teams
 

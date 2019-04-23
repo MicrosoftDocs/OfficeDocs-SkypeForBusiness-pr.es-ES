@@ -1,9 +1,9 @@
 ---
 title: Estacionamiento y recuperación de llamadas en Microsoft Teams
 ms.author: lolaj
-author: lolaj
+author: LolaJacobsen
 manager: serdars
-ms.date: 01/16/2019
+ms.date: 04/12/2019
 ms.reviewer: srividhc
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Use estacionamiento y recuperación para realizar una llamada en espera en el servicio de los equipos en la nube.
-ms.openlocfilehash: 416458b1f7c134fca3294107bd82bbd0f2300abc
-ms.sourcegitcommit: 5ed00e911a151d3ab834528f121db8653c25dc12
+ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30747657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993505"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 
@@ -34,11 +34,11 @@ Estacionamiento y recuperación es una característica que permite a un usuario 
 Algunos de los escenarios comunes para el uso de estacionamiento de llamadas son: 
 
 - Un recepcionista aparca una llamada de alguien que trabaje en una fábrica. La recepcionista anuncia a continuación, la llamada y el número de código a través del sistema de dirección pública. El usuario que la llamada es para, a continuación, puede elegir un teléfono de los equipos en la fábrica y escriba el código para recuperar la llamada.
-- Un usuario aparca una llamada en un dispositivo móvil debido a que la batería del dispositivo se está quedando sin energía. El usuario puede, a continuación, escriba, a continuación, el código para recuperar la llamada desde un teléfono de escritorio de los equipos.
+- Un usuario aparca una llamada en un dispositivo móvil debido a que la batería del dispositivo se está quedando sin energía. El usuario, a continuación, puede escribir el código para recuperar la llamada desde un teléfono de escritorio de los equipos.
 - Un parques representante de soporte técnico un cliente de llamadas y envía un anuncio en un canal de los equipos de con un experto recuperar la llamada y ayudar al cliente. Con un experto entra en el código en los clientes de equipos para recuperar la llamada
 
 > [!IMPORTANT]
-> Esta característica solo está disponible en el modo de implementación sólo de los equipos. Para obtener más detalles sobre los modos de implementación de los equipos, vea [Descripción de los equipos de Microsoft y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Esta característica solo está disponible en el modo de implementación sólo de los equipos. Para obtener más información acerca de los modos de implementación de los equipos, vea [Descripción de los equipos de Microsoft y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Se requiere una licencia
 
@@ -52,13 +52,22 @@ Estacionamiento y recuperación es compatible actualmente con los siguientes cli
 |------------|---------------|---------------|----------------------|-----------------------------|----------------|-----------------------------|
 | Estacionar una llamada | Sí | Sí | Sí | Sí | Próximamente| No |
 | Recuperar una llamada estacionada | Sí | Sí | Sí | Sí | Próximamente| No |
-| Timbre de llamada reactivar recuperado atrás | Sí | Sí | Sí | Sí | Próximamente| No |
+| Timbre de llamada unretrieved atrás | Sí | Sí | Sí | Sí | Próximamente| No |
 
 ## <a name="configuring-call-park-and-retrieve"></a>Configuración de estacionamiento y recuperación
 
-Debe ser un administrador para configurar estacionamiento y recuperación, y la característica está deshabilitada de forma predeterminada. Puede habilitar para los usuarios y crear grupos de usuarios mediante la directiva de estacionamiento de llamada. Cuando se aplica la misma directiva a un conjunto de usuarios, podrán estacionar y recuperar las llamadas entre sí. Para configurar el estacionamiento de llamadas para los usuarios y crear grupos de usuarios de estacionamiento de llamada, siga el procedimiento siguiente.
+Debe ser un administrador para configurar estacionamiento y recuperación, y la característica está deshabilitada de forma predeterminada. Puede habilitar para los usuarios y crear grupos de usuarios mediante la directiva de estacionamiento de llamada. Cuando se aplica la misma directiva a un conjunto de usuarios, pueden estacionar y recuperar las llamadas entre sí. Para configurar el estacionamiento de llamadas para los usuarios y crear grupos de usuarios de estacionamiento de llamadas, siga el procedimiento de [asignación de una directiva de estacionamiento de llamada](#assign-a-call-park-policy) que aparece a continuación.
 
 Para obtener información acerca de cómo usar el estacionamiento de llamadas y recuperar característica, vea [estacionamiento una llamada en los equipos](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f).
+
+### <a name="enable-a-call-park-policy"></a>Habilitar una directiva de estacionamiento de llamada
+
+Siga estos pasos para habilitar una directiva de estacionamiento de llamada:
+
+1. Vaya al **Centro de administración de equipos de Microsoft** > **voz** > **las directivas de estacionamiento de llamadas**.
+2. Seleccione **nueva directiva**.
+3. Asigne un nombre a la directiva y, a continuación, cambiar **estacionamiento permitir llamadas** a **en**.
+4. Seleccione **Guardar**.
 
 ### <a name="assign-a-call-park-policy"></a>Asignar una directiva de estacionamiento de llamada
 

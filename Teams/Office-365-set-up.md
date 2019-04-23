@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1bf865f9efd7960e7c0df10859d6c821130990b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460927"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959151"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permiten a los equipos de la organización
 
@@ -32,7 +32,7 @@ ms.locfileid: "30460927"
 De forma predeterminada, Teams está activado para todas las organizaciones. Si ha usado Teams durante la fase preliminar, la configuración es la misma que se usó durante la versión preliminar de Teams. 
 
 
-Como administrador de la organización, puede asignar licencias de usuario para controlar el acceso individual a los equipos, y puede permitir o bloquear qué orígenes de contenido se pueden usar en los equipos. Para obtener más información, vea [administración de configuración para las aplicaciones en los equipos de Microsoft](admin-settings.md) o de [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md) . 
+Como administrador de la organización, puede asignar licencias de usuario para controlar el acceso individual a los equipos, y puede permitir o bloquear qué orígenes de contenido se pueden usar en los equipos. Para obtener más información, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md) o [administración de configuración para las aplicaciones en los equipos de Microsoft](admin-settings.md) . 
 
 
  

@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95053dbc4526ca3502ba986414c8e757d2cb7ad3
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bdb4184ed203994f1275c9c074371655a627b1fe
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993442"
 ---
 <a name="use-office-365-and-custom-connectors-in-microsoft-teams"></a>Usar Office 365 y conectores personalizados en Microsoft Teams
 =======================================================
 
-Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia. Con los conectores, los usuarios de Microsoft Teams pueden recibir actualizaciones de servicios populares como Twitter, Trello, Wunderlist, GitHub y VSTS en el flujo de chat de su equipo.
+Los conectores mantienen a su equipo al día al brindarles, directamente en un canal, contenido y actualizaciones de servicios que se utilizan con frecuencia. Con los conectores, los usuarios de Microsoft Teams pueden recibir actualizaciones de servicios populares como Twitter, Trello, Wunderlist, depósito y servicios de Azure DevOps dentro de la secuencia de chat en su equipo.
 
 Cualquier miembro de un equipo puede conectar su equipo a los servicios de nube populares con los conectores si permitir que los permisos del equipo, y todos los miembros del equipo reciben notificaciones de las actividades de ese servicio. Conectores seguirán funcionando incluso después de que el miembro que tiene inicialmente el programa de instalación que ha abandonado el conector. Cualquier miembro del equipo con los permisos para agregar o quitar puede modificar el programa de instalación de conectores por otros miembros.
 

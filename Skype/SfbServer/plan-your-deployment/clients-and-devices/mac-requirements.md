@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Leer este tema para obtener más información acerca de hardware, software y los requisitos de infraestructura para la ejecución de Skype para la empresa en un MAC.
-ms.openlocfilehash: 694f64933f4618b5c2157f7a35acdf9339d52919
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.openlocfilehash: bd8522684131d1119ce91c100a2aeeeec4797a70
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993560"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype para la empresa en los requisitos de cliente de Mac
  
@@ -27,7 +27,7 @@ Leer este tema para obtener más información acerca de hardware, software y los
   
 El [Skype para la empresa en el cliente de Mac](https://products.office.com/en-us/skype-for-business/download-app?tab=tabs-3#Mac) está disponible para su descarga.
   
-## <a name="hardware-and-software-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de hardware y software para Skype Empresarial para Mac
+## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Requisitos de hardware y software para Skype para la empresa en Mac
 
 El Skype para la empresa en el cliente de Mac requiere Mac OS X El capitán y superior y usa al menos 100MB de espacio en disco. Se admite el uso de todos los dispositivos de audio y vídeo integrados. Los dispositivos externos deben estar en la [Skype para el catálogo de soluciones de negocio](https://partnersolutions.skypeforbusiness.com/solutionscatalog). 
   
@@ -44,7 +44,7 @@ Skype para Business Server 2015 también admite a los siguientes clientes hereda
  
 Estos clientes no admiten por Skype para Business Server 2019.
    
-## <a name="infrastructure-requirements-for-skype-for-business-on-the-mac"></a>Requisitos de infraestructura de Skype Empresarial para Mac
+## <a name="infrastructure-requirements-for-skype-for-business-on-mac"></a>Requisitos de infraestructura para Skype para la empresa en Mac
 <a name="Infrastructure"> </a>
 
 El Skype para la empresa en el cliente de Mac aprovecha la plataforma de administración de comunicaciones unificadas (UCMP) así como la Unified Communications Web API (UCWA) que usan nuestros clientes de movilidad.
