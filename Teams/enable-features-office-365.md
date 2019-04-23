@@ -1,14 +1,14 @@
 ---
-title: Administrar características de Microsoft Teams en su organización de Office 365
+title: Administrar la configuración de Microsoft Teams para su organización
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/29/2018
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: ritikag
 search.appverid: MET150
-description: Aprenda a activar o desactivar las aplicaciones de Microsoft Teams en su organización de Office 365, incluidos los conectores, las fichas, los bots o cualquier combinación de los tres.
+description: Obtenga información sobre cómo activar o desactivar la configuración de toda la organización de Microsoft Teams para su organización, incluidas las aplicaciones, el acceso externo, el acceso de invitados, la configuración de Teams y las preferencias de actualización de Teams.
 localization_priority: Priority
 ms.custom:
 - NewAdminCenter_Update
@@ -17,20 +17,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a302d27884f92fb5cf17cc605cead6addbe98bfd
-ms.sourcegitcommit: 28dd9b8ca3de35a73e4d6923eff5546925435b8b
+ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30683895"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959271"
 ---
-# <a name="manage-microsoft-teams-features-in-your-office-365-organization"></a>Administrar características de Microsoft Teams en su organización de Office 365
+# <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
 Todas las configuraciones de Teams se migrarán pronto al nuevo Centro de administración de Microsoft Teams. La única característica de Teams que se administra en el Centro de administración de Microsoft 365 es Aplicaciones. 
 
 A menos que se indique lo contrario, el valor predeterminado para una opción es **Activado**.
 
-## <a name="tenant-wide-settings"></a>Configuración aplicable en todo el inquilino 
+## <a name="tenant-wide-settings-in-the-microsoft-365-admin-center"></a>Configuración de todo el espacio empresarial en el Centro de administración de Microsoft 365
 
 Puede activar o desactivar aplicaciones para Teams en **Configuración de todos los inquilinos** en el Centro de administración de Microsoft 365. 
 
@@ -62,13 +62,19 @@ Estas aplicaciones las proporcionan terceros. Es posible configurar las siguient
 
 Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md). 
 
-## <a name="teams-org-wide-settings"></a>Configuración de toda la organización de Teams
-
+## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams de toda la organización en el centro de administración de Microsoft Teams.
 Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
 
 ### <a name="external-access"></a>Acceso externo
 
 **Acceso externo** permite que los usuarios de Teams y Skype Empresarial se comuniquen con usuarios de fuera de la organización. Para configurar el acceso externo, vaya a [Permitir que los usuarios de Teams chateen y se comuniquen con usuarios de otra organización de Teams](let-your-teams-users-communicate-with-other-people.md).
+
+Para agregar o bloquear un dominio:
+
+1. Seleccione **Agregar un dominio**.
+2. En el panel Agregar un dominio, escriba el nombre del dominio y haga clic en la barra espaciadora para guardar el nombre.
+3. Seleccione **Permitido** o **Bloqueado**.
+4. Seleccione **Listo** para guardar los cambios. 
 
 ### <a name="guest-access"></a>Acceso de invitado
 
@@ -100,7 +106,7 @@ Esta configuración controla el comportamiento de la cuenta del recurso para los
 - **Establecer el PIN de contenido**: Requiera que los usuarios especifiquen este PIN para impedir el acceso no autorizado a los documentos. Con esto se impide que los usuarios no autorizados se unan a reuniones futuras y vean los datos adjuntos.
 - **Las cuentas de recursos pueden enviar mensajes**: **Active** esta opción para permitir que se envíen mensajes desde la cuenta del recurso de Surface Hub.
 
-#### <a name="search"></a>Búsqueda
+#### <a name="search-by-name"></a>Buscar por nombre
 
 La búsqueda de directorios enfocada de Microsoft Teams usa la directiva de libretas de direcciones (APB) de Exchange para permitir que las organizaciones puedan crear límites virtuales que controlen la forma en que los usuarios pueden encontrar a otros usuarios de la organización y comunicarse con ellos. Sería conveniente usar la búsqueda de directorios enfocada en estas situaciones:
 

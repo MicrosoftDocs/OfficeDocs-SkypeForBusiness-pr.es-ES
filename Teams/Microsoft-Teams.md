@@ -3,8 +3,8 @@ layout: HubPage
 hide_bc: true
 title: Documentación técnica de Microsoft Teams
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: lolaj
+author: lolajacobsen
 description: Documentación técnica de Microsoft Teams
 ms.topic: hub-page
 localization_priority: Priority
@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 4c62c045bde4492ac4035145d3460ea7f7eea5af
-ms.sourcegitcommit: 70d3a3b162fdbca1cf2c2713d6bce54c3cbad3bd
+ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31026045"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959143"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -44,43 +44,6 @@ ms.locfileid: "31026045"
                                             <div class="cardText">
                                                 <h3>Bienvenido a Teams</h3>
                                                 <P>Obtenga una visión general de Teams y busque la orientación técnica que necesita como administrador de Teams o profesional de TI</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li>
-                           <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/how-to-roll-out-teams"><div class="cardSize">
-                                <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/deploy-teams.svg" alt="Deploy" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Cómo implementar Teams</h3>
-                                                <P>Tanto si es una pequeña empresa como una empresa multinacional, empiece aquí para encontrar el camino correcto para implementar Teams</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </a>
-                            </li> 
-                            <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start">
-                                <div class="cardSize">
-                                    <div class="cardPadding">
-                                        <div class="card">
-                                            <div class="cardImageOuter">
-                                                <div class="cardImage">
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
-                                                </div>
-                                            </div>
-                                            <div class="cardText">
-                                                <h3>Introducción</h3>
-                                                <P>Use la Guía de inicio rápido para ponerse en marcha rápidamente con un par de equipos y canales</p>
                                             </div>
                                         </div>
                                     </div>
@@ -144,10 +107,85 @@ ms.locfileid: "31026045"
                                 </div>
                             </a>
                             </li>
+                            <li>
+                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/cloud-architecture2.svg" alt="Cloud architecture" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Carteles: arquitectura de Teams, soluciones de telefonía</h3>
+                                                <P>Obtenga ilustraciones imprimibles de la arquitectura de TI de Teams y soluciones de telefonía.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/expand-teams-across-your-organization-landing-page"><div class="cardSize">
+                                <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage">
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/icons/blocks-teams.svg" alt="Blocks" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Expandir Teams en toda la organización</h3>
+                                                <P>Encuentre soluciones personalizadas para su sector (sanidad, trabajadores de primera línea, comercio, gobierno y educación).</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            </li> 
 <li class="fullSpan">
                   <hr>
                   <br>
                   <ul class="cardsF panelContent singlePanelContent" style="display:flex!important;">
+                        <li>
+                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Comunidad técnica de Teams</h3>
+                                            <p>Únase a la Comunidad técnica de Teams para hacer preguntas, obtener respuestas y leer el blog de Teams.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="https://support.office.com/Teams">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage">
+                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/help.svg" alt="Help">
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>Ayudar de Teams para el usuario final</h3>
+                                            <p>Vaya a ayuda, aprendizaje y contenido de novedades para los usuarios finales</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </a>
+                                    </li>
                         <li>
                             <a href="https://docs.microsoft.com/microsoftteams/platform/overview">        
                             <div class="cardSize">
@@ -167,44 +205,6 @@ ms.locfileid: "31026045"
                             </div>
                             </a>
                         </li>
-                        <li>
-                            <a href="https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams" target="_blank" data-linktype="external">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/users-people.svg" alt="Community">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Comunidad técnica de Teams</h3>
-                                            <p>Únase a la Comunidad técnica de Teams para hacer preguntas, obtener respuestas y leer el blog de Teams</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            </a>
-                        </li> 
-                        <li>
-                            <a href="https://docs.microsoft.com/powershell/module/teams/?view=teams-ps">
-                            <div class="cardSize">
-                                <div class="cardPadding">
-                                    <div class="card">
-                                        <div class="cardImageOuter">
-                                            <div class="cardImage">
-                                                <img src="https://docs.microsoft.com/en-us/office/media/icons/settings-teams.svg" alt="Settings">
-                                            </div>
-                                        </div>
-                                        <div class="cardText">
-                                            <h3>Referencia del cmdlet de Powershell para Teams</h3>
-                                            <p>Obtener los módulos de PowerShell y los cmdlets para Teams</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        </a>
-                                    </li>
                               </ul>
                             </li>
                        </ul>

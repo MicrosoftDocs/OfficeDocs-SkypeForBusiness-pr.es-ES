@@ -1,7 +1,7 @@
 <!-- ============================================================ -->
 # [Le damos la bienvenida a Teams](teams-overview.md)
 # [Cómo implementar Teams](How-to-roll-out-teams.md)
-
+# [Carteles: arquitectura de Teams, soluciones de telefonía](teams-architecture-solutions-posters.md)
 #       
 #        
 
@@ -25,6 +25,7 @@
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
 ## [Comunicarse con usuarios de Teams de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
+## [Archivar o eliminar un equipo](archive-or-delete-a-team.md)
 
 
 
@@ -58,11 +59,12 @@
 ## [Acceso externo (federación)](manage-external-access.md)
 
 ## [Administrar Teams](using-admin-roles.md)
-### [Administrar características de Teams en su organización](enable-features-office-365.md)
+### [Administrar la configuración de Teams de su organización](enable-features-office-365.md)
 ### [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 ### [Administrar equipos en el Centro de administración de Microsoft Teams](manage-teams-in-modern-portal.md)
 ### [Administrar la versión gratuita de Microsoft Teams](manage-freemium.md)
 ### [Asignar miembros y propietarios de equipo en Teams](assign-roles-permissions.md)
+### [Editar la configuración de usuario de Teams de forma masiva](edit-user-settings-in-bulk.md)
 ### [Configurar la aplicación Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 ### [Comunicarse con usuarios de Teams de otras organizaciones](let-your-teams-users-communicate-with-other-people.md)
 ### [Usar la traducción de mensajes en línea](inline-message-translation-teams.md)
@@ -75,6 +77,7 @@
 
 
 ## Referencia
+
 ### Prepararse para implementar Teams
 #### [Comprobar la preparación del entorno para Teams](environment-readiness.md).
 #### [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
@@ -84,6 +87,8 @@
 #### [Herramientas para ayudar con la implementación de Teams](rollout-tools.md)
 #### [Plan para la administración del ciclo de vida en Teams](plan-teams-lifecycle.md)
 #### [Planificar el gobierno en Teams](plan-teams-governance.md)
+
+
 
 
 ### Interoperabilidad con Office 365
@@ -723,7 +728,7 @@
 #### [Clasificación de la secuencia en el Panel de calidad de llamadas](stream-classification-in-call-quality-dashboard.md)
 
 ## [Descripción de PowerShell para Teams](teams-powershell-overview.md)
-### [Referencia del cmdlet de Powershell para Teams](https://docs.microsoft.com/powershell/module/teams)
+### [Referencia del cmdlet de Powershell para Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps)
 
 ## [Documentación para desarrolladores de Teams](https://docs.microsoft.com/microsoftteams/platform)
 ## [Obtener ayuda en Microsoft Teams](get-help-in-microsoft-teams.md)
