@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6a4b0013e3e3ca31baea21e4e733a9606f3765c6
 ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 03/27/2019
 ms.locfileid: "30885286"
@@ -29,12 +29,12 @@ ms.locfileid: "30885286"
 
 Como administrador de Office 365, debe habilitar la característica de invitado antes de que usted o los usuarios de su organización (específicamente, los propietarios de los equipos) puedan agregar a invitados. 
 
-La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con el administrador" al intentar agregar un invitado a su equipo, es probable que todavía no se ha habilitado la característica de invitado o que la configuración no es efectiva todavía.
+La configuración de invitado se establece en Azure Active Directory. Los cambios tardan de 2 a 24 en ser efectivos en toda la organización de Office 365. Si un usuario ve el mensaje "Póngase en contacto con su administrador" cuando intenta agregar un invitado a su equipo, es muy probable que la característica de invitado no esté habilitada o que la configuración no haya entrado aún en vigor.
 
 > [!IMPORTANT]
 > Para habilitar la experiencia completa de la característica de acceso de invitado, es muy importante que conozca bien la dependencia de autorización principal entre Microsoft Teams, Azure Active Directory y Office 365. Para obtener más información, consulte [Autorizar el acceso de invitado en Microsoft Teams](Teams-dependencies.md).
 
-## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -42,40 +42,40 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
 
 1.  Inicie sesión en el centro de administración de Microsoft Teams.
 
-2.  Seleccione **configuración de toda la organización** > **acceso de invitado**.
+2.  Seleccione **Configuración de toda la organización** > **Acceso de invitado**.
 
-3. Configurar el conmutador de alternancia de **Permitir el acceso de invitado en los equipos de Microsoft** **activado**.
+3. Establezca **Permitir el acceso de invitado en Microsoft Teams** en **Activado**.
 
-    ![Permitir modificador de acceso de Invitado activado ](media/set-up-guests-image1.png)
+    ![Opción Permitir el acceso de invitado en Microsoft Teams activada ](media/set-up-guests-image1.png)
 
-4.  Establecer el alterna en **mensajería** , **reunión**y **llamada**a **activado** o **desactivado**, dependiendo de las capacidades que desea permitir para los usuarios invitados.
+4.  Establezca los botones en **Llamadas**, **Reunión** y **Mensajería** como **Activado** o **Desactivado**, según las funciones que quiera permitir para los usuarios invitados.
 
-    - **Realizar llamadas privadas** – activar esta opción **en** para permitir que los invitados realizar llamadas de punto a punto.
-    - **Permitir IP vídeo** - activar esta opción **en** para permitir que los invitados a usar vídeo en sus llamadas y las reuniones.
-    - **Modo de uso compartido de pantalla** : esta configuración controla la disponibilidad de pantalla de uso compartido para los usuarios invitados. 
-       - Habilite esta configuración a **deshabilitado** para quitar la capacidad de los invitados a compartir sus pantallas en los equipos. 
-       - Habilite esta configuración a **única aplicación** para permitir el uso compartido de aplicaciones individuales. 
-       - Habilite esta configuración a **pantalla completa** para permitir el uso compartido de pantalla completa.
-    - **Permitir Reunirse ahora** – activar esta opción **en** para permitir que los invitados a usar la característica Reunirse ahora en Microsoft Teams.
-    - **Editar los mensajes enviados** : activar esta opción **en** para permitir que los invitados editar los mensajes envió anteriormente.
-    - **Los invitados pueden eliminar los mensajes enviados** : activar esta opción **en** para permitir que los invitados eliminar los mensajes envió anteriormente.
-    - **Chat** – activar esta opción **en** para dar invitados de la capacidad de usar chat en los equipos.
-    - **Use Giphys en las conversaciones** – activar esta opción **en** para permitir que los invitados a usar Giphys en las conversaciones. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido.
-    - **Clasificación de contenido Giphy** – seleccionar una clasificación de la lista desplegable:
-       - **Permitir todo el contenido** - invitados podrán insertar todos los Giphys en los chats, independientemente de la clasificación del contenido.
-       - **Moderado** - invitados podrán insertar Giphys en los chats, pero se limitará moderadamente de contenido para adultos.
-       - **Strict** – invitados podrán insertar Giphys en los chats, pero se limitará estrictamente de inserción de contenido para adultos.
-    - **Use Memes en las conversaciones** - activar esta opción **en** para permitir que los invitados a usar Memes en las conversaciones.
-    - **Usar pegatinas en conversaciones** – activar esta opción **en** para permitir que los invitados a usar pegatinas en conversaciones. 
+    - **Realizar llamadas privadas**: cambie esta opción a **Activado** para permitir que los invitados realicen llamadas entre compañeros.
+    - **Permitir vídeo IP**: cambie esta opción a **Activado** para permitir que los invitados usen vídeo en sus llamadas y reuniones.
+    - **Modo de pantalla compartida**: esta configuración controla la disponibilidad de la pantalla compartida para los usuarios invitados. 
+       - Establezca esta opción como **Desactivado** para eliminar la posibilidad de que los invitados compartan sus pantallas en Teams. 
+       - Establezca esta opción como **Solicitud única** para permitir el uso compartido de aplicaciones individuales. 
+       - Establezca esta opción como **Pantalla completa** para permitir el uso de pantalla completa compartida.
+    - **Permitir Reunirse ahora**: establezca esta opción como **Activado** para permitir que los invitados usen la característica Reunirse ahora en Microsoft Teams.
+    - **Editar mensajes enviados**: establezca esta opción como **Activado** para permitir que los invitados editen los mensajes que han enviado anteriormente.
+    - **Los invitados pueden eliminar mensajes enviados**: establezca esta opción como **Activado** para permitir que los invitados eliminen los mensajes que han enviado anteriormente.
+    - **Chat**: establezca esta opción como **Activado** para permitir a los invitados usar el chat en Teams.
+    - **Usar Giphy en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen Giphy en conversaciones. Giphy es una base de datos en línea y un motor de búsqueda que permite a los usuarios buscar y compartir archivos GIF animados. A cada Giphy se le asigna una clasificación de contenido.
+    - **Clasificación de contenido Giphy**: seleccione una clasificación de la lista desplegable:
+       - **Permitir todo el contenido**: los invitados podrán insertar todos los Giphy en chats, independientemente de la clasificación de contenido.
+       - **Moderado**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma moderada.
+       - **Estricto**: los invitados pueden insertar imágenes Giphy en los chats, pero el contenido para adultos estará restringido de forma estricta.
+    - **Usar memes en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen memes en conversaciones.
+    - **Usar adhesivos en conversaciones**: establezca esta opción como **Activado** para permitir que los invitados usen adhesivos en conversaciones. 
 
 
-5.  Haga clic en **Guardar**.
+5.  Haga clic en **Guardar **.
 
-## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Uso de PowerShell para activar o desactivar el acceso de invitado
+## <a name="use-powershell-to-turn-guest-access-on-or-off"></a>Usar PowerShell para activar o desactivar el acceso de invitados
 
-1.  Descargar el Skype para el módulo de PowerShell en línea de negocio dehttps://www.microsoft.com/en-us/download/details.aspx?id=39366
+1.  Descargue el módulo de PowerShell de Skype Empresarial Online en https://www.microsoft.com/en-us/download/details.aspx?id=39366
  
-2.  Conectar una sesión de PowerShell para la Skype de extremo de negocio en línea.
+2.  Conecte una sesión de PowerShell al punto de conexión de Skype Empresarial Online.
 
     ```
     Import-Module SkypeOnlineConnector
@@ -83,7 +83,7 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     $CSSession = New-CsOnlineSession -Credential $Cred
     Import-PSSession -Session $CSSession
     ```
-3.  Compruebe la configuración y si `AllowGuestUser` es `$False`, use el cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para establecer en `$True`.
+3.  Compruebe la configuración y si `AllowGuestUser` es `$False`, use el cmdlet [Set-CsTeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps) para establecerlo en `$True`.
 
     ```
     Get-CsTeamsClientConfiguration
@@ -105,11 +105,11 @@ La configuración de invitado se establece en Azure Active Directory. Los cambio
     
     Set-CsTeamsClientConfiguration -AllowGuestUser $True -Identity Global
     ```
-Ahora puede tener los usuarios invitados en los equipos de la organización.
+Ahora puede tener usuarios invitados en Teams en su organización.
 
 ## <a name="more-information"></a>Más información
 
-Vea el siguiente vídeo para obtener más detalles sobre el acceso de invitado.
+Consulte el siguiente vídeo para obtener más detalles sobre el acceso de invitados:
 
 |  |  |
 |---------|---------|

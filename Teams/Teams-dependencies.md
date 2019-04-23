@@ -16,7 +16,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4e1c81d0c93505e98bdc2159d2fad7464c7c3aeb
 ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/08/2019
 ms.locfileid: "31516834"
@@ -31,7 +31,7 @@ Para satisfacer los requisitos de su organización, puede administrar las funcio
 - **Grupos de Office 365**: controla la experiencia de invitado en los Grupos de Office 365 y Microsoft Teams.
 - **SharePoint Online y OneDrive para la Empresa**: controla la experiencia de invitado en SharePoint Online, OneDrive para la Empresa, Grupos de Office 365 y Microsoft Teams.
 
-Estos niveles de autorización distintos proporcionan la flexibilidad necesaria para configurar el acceso de invitado para su organización. Por ejemplo, si no desea permitir que a los usuarios invitados de su Teams Microsoft pero desea permitir general de la organización, simplemente desactivar acceso de invitado en Microsoft Teams. Otro ejemplo: podría habilitar el acceso de invitado en los niveles de AAD, Teams y Grupos, pero deshabilitaría la adición de usuarios invitados en equipos seleccionados que tengan un criterio o varios en común, como que la clasificación de datos es igual a confidencial. SharePoint Online y OneDrive para la Empresa tienen su propia configuración de acceso de invitado que no depende de Grupos de Office 365. 
+Estos niveles de autorización distintos proporcionan la flexibilidad necesaria para configurar el acceso de invitado para su organización. Por ejemplo, si no quiere permitir usuarios invitados en su organización de Microsoft Teams pero sí en la organización en general, solo tiene que desactivar el acceso de invitado en Microsoft Teams. Otro ejemplo: podría habilitar el acceso de invitado en los niveles de AAD, Teams y Grupos, pero deshabilitaría la adición de usuarios invitados en equipos seleccionados que tengan un criterio o varios en común, como que la clasificación de datos es igual a confidencial. SharePoint Online y OneDrive para la Empresa tienen su propia configuración de acceso de invitado que no depende de Grupos de Office 365. 
 
 > [!NOTE]
 > Los invitados están sujetos a los límites de servicio de [Office 365](https://go.microsoft.com/fwlink/p/?linkid=282347) y [Azure Active Directory](https://go.microsoft.com/fwlink/p/?linkid=853019). 
@@ -40,49 +40,49 @@ En el siguiente diagrama se muestra cómo se concede y se integra la dependencia
 
 ![Diagrama de las dependencias de autorización para el acceso de invitado.](media/teams_dependencies_image1.png)
 
-El diagrama siguiente muestra, en un nivel alto, cómo funciona la experiencia del usuario con el modelo de permisos a través de un flujo de invitación y amortización de acceso de invitado típica.
+El siguiente diagrama muestra, de forma general, el funcionamiento de la experiencia del usuario con el modelo de permisos mediante una invitación de acceso de invitado y un flujo de aprobación comunes.
 
-![Diagrama de flujos de invitación y amortización de](media/authorize-guest-image1.png)
+![Diagrama de flujos de invitación y aceptación](media/authorize-guest-image1.png)
 
-Es importante tener en cuenta aquí que es posible que requieren su propio conjunto de permisos o específicos de la cuenta de usuario de consentimiento conectores, bots y aplicaciones. Estos es posible que deba concederse por separado. De forma similar, SharePoint puede imponer extra externos límites uso compartidos para un usuario específico, grupos de usuarios, o incluso en el nivel de sitio.
+Es importante destacar que conectores, bots y aplicaciones a veces requieren su propio conjunto de permisos o consentimiento específicos de la cuenta de usuario. Puede que necesiten concederse por separado. De la misma manera, SharePoint puede imponer límites adicionales de uso compartido externo para un usuario específico, grupos de usuarios o incluso en el nivel del sitio.
 
 Los dos diagramas anteriores también están disponibles en [Visio](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/media/teams_dependencies.vsdx?raw=true).
 
 ## <a name="control-guest-access-in-azure-active-directory"></a>Controlar el acceso de invitado en Azure Active Directory
 
-Use Azure AD para determinar si los colaboradores externos pueden ser invitados en el inquilino como invitados y de qué manera. Para obtener más información sobre el acceso de invitado B2B de Azure, vea [¿Qué es el acceso de usuarios invitado en Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/what-is-b2b). Para obtener información acerca de las funciones de Azure AD, consulte [concesión de permisos a los usuarios de las organizaciones asociadas en el inquilino de Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/add-guest-to-role).
+Use Azure AD para determinar si los colaboradores externos pueden invitarse a su espacio empresarial como invitados y de qué maneras. Para más información sobre el acceso de invitados de Azure B2B, consulte [¿Qué es el acceso de usuarios invitados en Azure Active Directory B2B?](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/what-is-b2b) Para obtener información acerca de las funciones de Azure AD, consulte [Conceder permisos a los usuarios de organizaciones asociadas en el espacio empresarial de Azure Active Directory](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/add-guest-to-role).
 
 La configuración de las invitaciones se aplica a nivel de inquilino y controla la experiencia de invitado a nivel de directorio, inquilino y aplicación. 
 
 ![Captura de pantalla de la configuración de usuario en el portal de Azure Active Directory.](media/teams_dependencies_image2.png)
 
-Azure AD incluye las siguientes opciones para configurar los usuarios externos:
+Azure AD incluye las siguientes opciones para configurar usuarios externos:
 
-- **Los permisos de usuario de invitado están limitados**: **Sí** significa que los invitados no tiene permiso para determinadas tareas de Active directory, como enumerar los usuarios, grupos u otros recursos de Active directory. Además, los invitados no se pueden asignar a las funciones administrativas en el directorio. **No** significa que los invitados tiene el mismo acceso a los datos de Active directory que tienen los usuarios regulares en el directorio.
-- **Pueden invitar los administradores y usuarios de la función de autor de la invitación de invitado**: **Sí** significa que los administradores y usuarios de la función "Autor de la invitación invitado" podrán invitar a personas para el inquilino. **No** significa que los administradores y los usuarios no pueden invitar a los invitados en el inquilino.
-- **Pueden invitar los miembros**: **Sí** significa que los miembros sin permisos de administrador del directorio de pueden invitar a los invitados puedan colaborar en recursos protegidos mediante la implementación de AD Azure, como sitios de SharePoint o los recursos de Azure. **No** significa que sólo los administradores pueden invitar a invitados a su directorio.</br>
+- **Los permisos de usuario invitado están limitados**: **Sí** significa que los invitados no tienen permiso para determinadas tareas de directorio, como enumerar los usuarios, grupos y otros recursos de directorio. Además, los invitados no se pueden asignar a las funciones administrativas en el directorio. **No** significa que los invitados tienen el mismo acceso a los datos que los usuarios normales en el directorio.
+- **Los administradores y los usuarios con el rol Invitador de usuarios pueden invitar**: **Sí** significa que los administradores y usuarios con la función "Invitador de usuarios" podrán añadir invitar a usuarios en el espacio empresarial. **No** significa que los administradores y usuarios no pueden invitar a usuarios en el espacio empresarial.
+- **Los miembros pueden invitar**: **Sí** significa que los usuarios que no sean administradores del directorio pueden invitar a usuarios a colaborar en recursos protegidos por Azure AD, como sitios de SharePoint o recursos de Azure. **No** significa que solo los administradores pueden invitar a usuarios al directorio.</br>
       
     > [!NOTE]
-    > Actualmente, los equipos no es compatible con el rol de autor de la invitación de invitado. como mínimo el **pueden invitar los miembros** de alternancia se debe establecer en **Sí** para el acceso de invitado para que funcionen en los equipos.
-- **Pueden invitar los invitados**: **Sí** significa que los invitados en el directorio pueden ellos mismos invitar a otros invitados a colaborar en recursos protegidos mediante la implementación de AD Azure, como sitios de SharePoint o los recursos de Azure. **No** significa que los invitados no puede invitar a otros invitados para colaborar con su organización.
+    > Actualmente, Teams no admite el rol de Invitador de usuarios. Como mínimo, la opción **Los miembros pueden invitar** debe establecerse en **Sí** para que el acceso de invitados funcione en Teams.
+- **Los invitados pueden invitar**: **Sí** significa que los invitados en el directorio pueden invitar a otros usuarios a colaborar en recursos protegidos por Azure AD, como sitios de SharePoint o recursos de Azure. **No** significa que los invitados no pueden invitar a otros invitados para colaborar con su organización.
  
-Para obtener más información acerca de cómo controlar quién puede invitar a los invitados, vea [las invitaciones de delegado para la colaboración B2B de Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/delegate-invitations)
+Para obtener más información acerca de cómo controlar quién puede invitar a invitados, consulte [Delegar invitaciones para la colaboración de Azure Active Directory B2B](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/delegate-invitations)
 
 > [!NOTE]
-> También puede administrar qué dominios se pueden invitar a su inquilino como invitados. Vea [Permitir o bloquear el acceso de invitado a los grupos de Office 365](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
+> También puede administrar los dominios que se pueden invitar a su espacio empresarial como invitados. Vea [Permitir o bloquear el acceso de invitado a los grupos de Office 365](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-group-access-to-office-365-groups). 
 
-Agregar la cuenta de usuario invitado manualmente a Azure AD B2B no es necesario, como la cuenta se agregará al directorio automáticamente cuando se agrega el invitado a los equipos. 
+No es necesario agregar la cuenta de usuario invitado manualmente en Azure AD B2B, ya que la cuenta se agregará al directorio automáticamente al agregar al invitado a Teams. 
 
-Licencias de Azure AD le permite agregar a hasta 5 invitados por licencia. Para obtener más información acerca de las licencias de Azure AD, vea la [orientación de licencias de colaboración de Azure Active Directory B2B](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance).
+Las licencias de Azure AD le permiten agregar hasta 5 invitados por licencia. Para obtener más información sobre las licencias de Azure AD, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/licensing-guidance).
 
-## <a name="control-guest-access-in-teams"></a>Controlar el acceso de invitado en los equipos
+## <a name="control-guest-access-in-teams"></a>Controlar el acceso de invitado en Teams
 
-En los equipos, puede controlar si la experiencia de invitado está habilitada o deshabilitada para su organización. La configuración está deshabilitada de forma predeterminada y solo se aplica en el nivel de inquilino para los equipos.
+En Teams, puede controlar si la experiencia de invitado está habilitada o deshabilitada en su organización. La configuración está deshabilitada de forma predeterminada y se aplica en el nivel de inquilino solo para Teams.
 
-Puede administrar la configuración de acceso de invitado de los equipos desde el centro de administración de Microsoft Teams. Si desea más información, consulte [Activar o desactivar el acceso de invitado para Microsoft Teams](set-up-guests.md). 
+Puede administrar la configuración del acceso de invitado de Teams desde el Centro de administración de Microsoft Teams. Para obtener más información, vea [Activar o desactivar el acceso de invitado a Microsoft Teams](set-up-guests.md). 
 
 
-## <a name="control-guest-access-in-office-365-groups"></a>Controlar el acceso de invitado en grupos de Office 365
+## <a name="control-guest-access-in-office-365-groups"></a>Controlar el acceso de invitados a Grupos de Office 365
 
 Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y el acceso de invitado a todos los grupos de Office 365 y Microsoft Teams en su organización.
 
@@ -94,15 +94,15 @@ Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y 
     
      ![Grupos de Office 365](media/authorize-guest-image2.png)
   
-4. En la página grupos de Office 365, establezca la alternancia para **activado** o **desactivado**, dependiendo de si desea permitir que los propietarios de equipo y grupo fuera de los grupos de acceso a Office 365 de la organización. Pulse o haga clic en el botón de alternancia, cambie a **Activado** junto a **Let group owners add people outside the organization to groups** (Permitir que los propietarios de grupo agreguen a los grupos personas externas a la organización). Si activa esta alternancia **activado**, verá otra opción para controlar si desea permitir que el grupo y los propietarios de equipo agregar personas externas a su organización a los grupos de Office 365 y los equipos de Microsoft. Establezca este alternancia **activado** si desea permitir que el grupo y los propietarios de equipo agregar los usuarios invitados. 
+4. En la página de Grupos de Office 365, configure el botón de alternancia en **Activado** o **Desactivado**, dependiendo de si quiere que los propietarios del equipo y el grupo que no pertenecen a la organización accedan a los grupos de Office 365. Haga clic o pulse el botón en para establecerlo como **Activado** junto a **Permitir que los propietarios del grupo agreguen usuarios de fuera de la organización a grupos**. Si cambia a **Activado** el botón de alternancia, verá otra opción para controlar si quiere que los propietarios de grupo y equipo puedan añadir personas externas a la organización a los grupos de Office 365 y Microsoft Teams. Establezca el botón de alternancia en **Activado** si desea que los propietarios de grupo y equipo agreguen usuarios invitados. 
  
    ![La captura de pantalla muestra el panel Grupos de Office 365 con las opciones activadas para permitir que los miembros del grupo externos a la organización accedan al contenido del grupo y para permitir que los propietarios del grupo agreguen a los grupos personas que no pertenecen a la organización.](media/authorize-guest-image3.png)
 
-Estas opciones se aplican en el nivel de inquilino y controlan la experiencia de invitado en grupos de Office 365 y Microsoft Teams.
+La configuración anterior se aplica a nivel de espacio empresarial y controla la experiencia de invitado en Grupos de Office 365 y Microsoft Teams.
 
-Para obtener más información sobre el acceso de invitado en grupos, incluido cómo funciona el acceso como invitado, cómo administrar el acceso de invitado y respuestas a las preguntas más frecuentes, consulte [invitado acceso en grupos de Office 365](https://support.office.com/en-us/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) .
+Vea [Acceso de invitado en Grupos de Office 365](https://support.office.com/es-ES/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6) para obtener más información sobre el acceso de invitado en Grupos, como su funcionamiento, cómo administrar el acceso de invitados y respuestas a las preguntas más frecuentes.
 
-## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Controlar el acceso de invitado a SharePoint Online y OneDrive para la empresa
+## <a name="control-guest-access-to-sharepoint-online-and-onedrive-for-business"></a>Controlar el acceso de invitado a SharePoint Online y OneDrive para la Empresa
 
 Microsoft Teams depende de SharePoint Online y OneDrive para la Empresa para almacenar archivos y documentos de canales y conversaciones de chat.  
    
@@ -110,16 +110,16 @@ Para habilitar toda la experiencia de acceso de invitado de Teams, los administr
 
 - En SharePoint Online: **Only allow sharing with external users already in the directory** (Permitir solo compartir con usuarios externos que ya estén en el directorio)
     
-    Para obtener más información, consulte [Administrar el uso compartido externo en su entorno de SharePoint Online](https://docs.microsoft.com/sharepoint/external-sharing-overview).
+    Para más información, vea [Administrar el uso compartido externo en su entorno de SharePoint Online](https://docs.microsoft.com/sharepoint/external-sharing-overview)
     
 - En los grupos de Office 365: **Let group owners add people outside the organization to groups** (Permitir que los propietarios de grupo agreguen a los grupos personas externas a la organización)
     
-    Para obtener más información, vea [controlar el acceso de invitado en Office 365 grupos](#control-guest-access-in-office-365-groups), anteriormente.
+    Para obtener más información, vea [Controlar el acceso de invitados a Grupos de Office 365](#control-guest-access-in-office-365-groups) más arriba.
   
-Estas opciones se aplican en el nivel de inquilino y controlan la experiencia de invitado en SharePoint Online, OneDrive para la empresa, Office 365 grupos y equipos.
+Esta configuración se aplica a nivel de espacio empresarial y controla la experiencia de invitado en SharePoint Online, OneDrive para la Empresa, Grupos de Office 365 y Teams.
 
 La configuración de usuarios externos de SharePoint Online se puede administrar para el sitio de equipos conectados a Teams. Si desea más detalles, vea [Administrar la configuración de su sitio de grupo de SharePoint](https://support.office.com/article/Manage-your-SharePoint-team-site-settings-8376034d-d0c7-446e-9178-6ab51c58df42).﻿
 
-## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
