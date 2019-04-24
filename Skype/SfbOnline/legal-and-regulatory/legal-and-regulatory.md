@@ -1,5 +1,5 @@
 ---
-title: Legales y normativos
+title: Normativa y regulaciones
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,10 +20,10 @@ ms.custom:
 - Legal
 description: 'Este es el contenido que se debe publicar para satisfacer los requisitos de la accesibilidad, cumplimiento y normativas de Skype para profesionales en línea en Francia. '
 ms.openlocfilehash: 1681bedf95938a9eddc5f9e65862855a1591fd0c
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23865557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199602"
 ---
-# <a name="legal-and-regulatory"></a><span data-ttu-id="a05e3-103">Legales y normativos</span><span class="sxs-lookup"><span data-stu-id="a05e3-103">Legal and regulatory</span></span>
+# <a name="legal-and-regulatory"></a><span data-ttu-id="a07fa-103">Normativa y regulaciones</span><span class="sxs-lookup"><span data-stu-id="a07fa-103">Legal and regulatory</span></span>
