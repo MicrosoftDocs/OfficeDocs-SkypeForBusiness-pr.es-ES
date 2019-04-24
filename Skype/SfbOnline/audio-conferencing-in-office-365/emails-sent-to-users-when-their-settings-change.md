@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de qué información se envía automáticamente a los usuarios por correo electrónico al cambia su configuración de conferencia de acceso telefónico en Skype para profesionales en línea. '
 ms.openlocfilehash: f3b4a530e204524dcf183ac671124c6d6ff8df03
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230908"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>Correos electrónicos enviados a los usuarios al cambia su configuración en Skype para profesionales en línea
 
@@ -86,7 +86,7 @@ De forma predeterminada, hay cuatro tipos de correo electrónico que se van a en
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Realizar cambios en los mensajes de correo electrónico que se les envían
 
-Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios incluidos en la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero se puede cambiar la dirección de correo electrónico y nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios, debe:
+Puede realizar cambios en el correo electrónico que se envía automáticamente a los usuarios incluidos en la dirección de correo electrónico y el nombre para mostrar que se incluye en la información *de* contacto. De forma predeterminada, será el remitente de los mensajes de correo electrónico de Office 365, pero se puede cambiar la dirección de correo electrónico y nombre para mostrar con Windows PowerShell y el cmdlet [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) . To make changes to the email address that is sending the email to the users, you must:
   
 - Puede realizar cambios en el correo electrónico que se envía de forma automática a los usuarios, como la dirección de correo electrónico real y el nombre para mostrar de la información de contacto del remitente. De manera predeterminada, el remitente de los mensajes será de Office 365, pero puede cambiar la dirección de correo electrónico y el nombre para mostrar con Windows PowerShell y el cmdlet _Set-CsOnlineDialInConferencingTenantSettings_. Para realizar cambios en la dirección de correo electrónico que envía el correo electrónico a los usuarios:
     
@@ -103,7 +103,7 @@ Set-CsOnlineDialInConferencingTenantSetting -SendEmailOverride $true -SendEmailF
 > [!NOTE]
 >  Si desea cambiar la información de dirección de correo electrónico, debe asegurarse de que las directivas de correo electrónico entrante de su entorno de permitir que los mensajes de correo electrónico que provienen de personalizados especificado a partir de la dirección. Si decide reemplazar la información *de* contacto, debe comprobar que los correos electrónicos se envían correctamente a los usuarios. Para ello, puede probar esto con un usuario de la organización.
   
-Si quiere cambiar la información de la dirección de correo electrónico, tendrá que asegurarse de que las directivas de correo electrónico de entrada de su organización permitan la recepción de mensajes enviados por la dirección de correo electrónico personalizada.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
   
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>¿Qué pasa si no desea que se les envíen correos electrónicos?
 
@@ -113,16 +113,16 @@ De forma predeterminada, los correos electrónicos se enviarán a los usuarios, 
  
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png)  **utilizando el Skype para el centro de administración de negocio**
     
-1. En el **centro de administración de Skype for Business**, en la navegación izquierda, vaya a **Audioconferencia** > **Configuración de puente de Microsof**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 2. En la página **configuración de puente de Microsoft** , active o desactive **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**. 
     
-3. Haga clic en **Guardar**. 
+3. Haga clic en **Guardar **. 
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
-**Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.**
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
 1. Ejecute las acciones siguientes para deshabilitar el envío de todos los correos electrónicos a sus usuarios:
     
@@ -130,13 +130,13 @@ De forma predeterminada, los correos electrónicos se enviarán a los usuarios, 
    Set-CsOnlineDialInConferencingTenantSetting -AutomaticallySendEmailsToUsers $false
    ```
 
-Si quiere cambiar la información de la dirección de correo electrónico, tendrá que asegurarse de que las directivas de correo electrónico de entrada de su organización permitan la recepción de mensajes enviados por la dirección de correo electrónico personalizada.
+You can use the [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=627285) cmdlet to manage other settings for your organization, including email.
   
 ## <a name="what-else-should-you-know-about-this-email"></a>¿Qué más debe saber sobre este correo electrónico?
 
 - Para más información sobre habilitar y deshabilitar el envío de correos electrónicos de forma automática a sus usuarios, vea [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md).
     
-- En ocasiones, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio a ellos. Puede hacerlo mediante el Skype para centro de administración de negocio y hacer clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de conferencia de audio para un usuario. Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de conferencia de audio.
+- En ocasiones, los usuarios pierden su información de audio y necesita poder enviarles toda su información de audio a ellos. Puede hacerlo mediante el Skype para centro de administración de negocio y hacer clic en **Enviar información de conferencia a través de correo electrónico** en las propiedades de conferencia de audio para un usuario. See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md). Sin embargo, esta información no incluye el PIN de conferencia de audio.
     
     Este es un ejemplo del correo electrónico que se les enviará:
     
@@ -163,7 +163,7 @@ Si quiere cambiar la información de la dirección de correo electrónico, tendr
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Habilitar o deshabilitar el envío de correos electrónicos cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md)
   

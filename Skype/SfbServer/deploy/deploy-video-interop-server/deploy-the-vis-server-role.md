@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 'Resumen: Implementar el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
 ms.openlocfilehash: 7919b9c02001f0851b3662baa989b0eed0b20225
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219712"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Implementar el rol de servidor de respecto de Skype para Business Server
  
@@ -33,6 +33,6 @@ Para configurar el servicio VISIBLES en el servidor que acaba de crear en el gen
 4. Seleccione **Iniciar servicios**.
     
 The software for this service is now installed and running. Puede abrir la herramienta de mmc de servicios para ver si se está ejecutando el servicio de **Skype para Business Server vídeo interoperabilidad Server** junto con otro Skype para servicios de Business Server. Next, you must configure the VIS server or pool.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el servidor de interoperabilidad vídeo en Skype para Business Server](configure-the-vis.md)

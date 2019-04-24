@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Puede mover a un único usuario o grupos de usuarios a su nuevo Skype Microsoft para la implementación de Business Server 2019 mediante los dos métodos siguientes: Skype para Panel de Control de servidor empresarial y Skype para Shell de administración de servidor empresarial. En los temas de esta sección se describen las tareas que debe completar durante la implementación piloto, así como antes de migrar la implementación de Skype para Business Server 2019 de una implementación piloto a una implementación de nivel de producción.'
 ms.openlocfilehash: 69278cb325209823136a21e03b9261baf680ab73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231563"
 ---
 # <a name="phase-4-move-test-users-to-the-pilot-pool"></a>Fase 4: Mover usuarios de prueba al grupo piloto
 

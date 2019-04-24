@@ -12,11 +12,11 @@ ms.assetid: 99443d60-e64a-4a8a-a7bf-95f790b0ad5c
 ms.collection: M365-voice
 description: Obtenga información acerca de cómo implementar del sistema de la sala de Skype, una reunión de solución de sala formado por integrada de hardware y software que está optimizado para unirse a Skype para reuniones de negocios.
 ms.openlocfilehash: 26ce5f6e50d26b408a8bce5d167e4e7b6046e514
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012570"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212729"
 ---
 # <a name="deployment-planning-for-skype-room-system-in-skype-for-business"></a>Planes de implementación de sistema de sala de Skype en Skype para la empresa
  
@@ -80,7 +80,7 @@ En la siguiente tabla indica la compatibilidad de cliente del sistema de salas d
 |**Exchange**|**Implementación local**|**Online**|**Híbrido**|
 |:-----|:-----|:-----|:-----|
 |Exchange 2010  <br/> |Sí (un solo bosque)  <br/> |N/D  <br/> |N/D  <br/> |
-|Exchange 2013  <br/> |Sí (compatibilidad con varios bosques disponible para Exchange 2013 CU6 y versiones posteriores)  <br/> |Sí  <br/> |Sí   <br/> |
-|Exchange 2016  <br/> |Sí (múltiples bosques soporte disponible)  <br/> |Sí   <br/> |Sí  <br/> |
+|Exchange 2013  <br/> |Sí (compatibilidad con varios bosques disponible para Exchange 2013 CU6 y versiones posteriores)  <br/> |Sí  <br/> |Sí  <br/> |
+|Exchange 2016  <br/> |Sí (múltiples bosques soporte disponible)  <br/> |Sí  <br/> |Sí  <br/> |
    
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lea este tema para revisar las consideraciones de planeación para la implementación de desvío de medios con la nube conector Edition versión 2.0 y versiones posterior. Para obtener información sobre la implementación de medios desvío, consulte Deploy medios de desvío en la nube conector Edition.
 ms.openlocfilehash: 6ddaec00925d5eea7d7c82d89f0324958c87abb9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238829"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Plan para la omisión de medios en Cloud Connector Edition
  
@@ -111,6 +111,6 @@ Por ejemplo, en el diagrama siguiente, los usuarios de Europa deben estar bien c
 
 Con la omisión de medios habilitada, el tráfico de los medios entre un cliente y un SBC o una puerta de enlace usará el códec G.711.  
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar el desvío de medios en la nube conector Edition](deploy-media-bypass-in-cloud-connector.md)

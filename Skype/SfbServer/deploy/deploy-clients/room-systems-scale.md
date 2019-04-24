@@ -14,11 +14,11 @@ ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lea este tema para obtener más información sobre la implementación de salas de equipos de Microsoft en las implementaciones de gran escala.
 ms.openlocfilehash: fe6ffee0c6ab86496204ab4e17b86cc84a70a2a7
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214922"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementación de salas de equipos de Microsoft con System Center Configuration Manager
 

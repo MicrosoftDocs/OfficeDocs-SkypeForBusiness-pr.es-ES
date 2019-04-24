@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Realizar una recuperación del sistema para que un Skype para servidor de grupo de servidores de Business Server probar el proceso de recuperación ante desastres documentado
 ms.openlocfilehash: 876470f0e4193f02efe0a2094be80f7bdf891fdd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214739"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Recuperación ante desastres pruebas en Skype para Business Server
 

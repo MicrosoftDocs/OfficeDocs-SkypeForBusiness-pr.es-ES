@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Proceso de implementación y los pasos para el grupo de respuesta en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 83438ec17bd78a60afbc08a1c72ef84469218652
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897938"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223051"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Proceso de implementación de grupo de respuesta en Skype para la empresa
 

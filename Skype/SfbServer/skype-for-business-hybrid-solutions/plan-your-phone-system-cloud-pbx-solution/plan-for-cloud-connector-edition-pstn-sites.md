@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lea este tema para aprender a planear los sitios en la nube conector Edition RTC para garantizar el enrutamiento de llamadas rentable y eficiente.
 ms.openlocfilehash: 4bf702314e46e1f8281ac6237dd8a7829900440e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237714"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Plan de sitios de RTC con Cloud Connector Edition
  

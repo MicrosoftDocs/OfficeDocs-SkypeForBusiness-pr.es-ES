@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
 description: La vista FileTransfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: a39e00becd772e74eb12de1a8ce5975e6626cffa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213091"
 ---
 # <a name="filetransfers-view"></a>Vista FileTransfers
  

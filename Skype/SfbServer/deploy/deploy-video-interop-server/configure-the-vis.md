@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: Configure el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
 ms.openlocfilehash: 1cdc03fea116b5c41eaca13b4349ffc340dbc061
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219610"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
  
@@ -84,6 +84,6 @@ Los cmdlets de Windows PowerShell para la configuración del tronco de vídeo qu
   
  **ForwardErrorCorrectionType** Este parámetro se usa para determinar si está desviar Error corrección (FEC) para las secuencias de vídeo que se aplique en la bifurcación entre el servidor de interoperabilidad de vídeo y una puerta de enlace de vídeo. Opción de configuración ForwardErrorCorrectionType en "None" desactiva FEC entre respecto y puerta de enlace de vídeo/VTC. Establecer ForwardErrorCorrectionType a "Cisco" permite FEC compatible con puertas de enlace de vídeo por Cisco, como Cisco Unified Communications Manager (CUCM). La opción predeterminada es **Ninguno**.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar CUCM para la interoperación con Skype para Business Server](configure-cucm-for-interoperation.md)

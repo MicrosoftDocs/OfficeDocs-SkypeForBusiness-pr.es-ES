@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223095"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -154,14 +154,14 @@ Use la tabla siguiente para capturar los detalles de los clientes y los extremos
 
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
-> | ¿Qué sistema operativo de escritorio están empleando los usuarios? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">10 de Windows <br/> <input type="checkbox">Mac (especificar la versión en la columna comentarios). <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
+> | ¿Son qué SO de escritorio utilizando los usuarios? | <input type="checkbox">Windows XP <br/> <input type="checkbox">Windows 7 <br/> <input type="checkbox">Windows 8 <br/> <input type="checkbox">10 de Windows <br/> <input type="checkbox">Mac (especificar la versión en la columna comentarios). <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
 > | ¿Qué versión de Microsoft Office se implementa <br>¿para estos dispositivos? | <input type="checkbox">Office 2003 <br/> <input type="checkbox">Office 2007 <br/> <input type="checkbox">Office 2010 <br/> <input type="checkbox">Office 2013 <br/> <input type="checkbox">Office 2016 <br/> <input type="checkbox">Office para Mac 2011 <br/> <input type="checkbox">Office para Mac 2016 <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
 > | Qué tecnología de implementación de Office está en uso <br>¿en su organización? | <input type="checkbox">MSI <br/> <input type="checkbox">Click-to-Run | |
-> | ¿Cuáles son los permitidos y admiten móviles <br>¿plataformas en uso? <br/>Seleccione todos los que se aplican. | <input type="checkbox">Windows <br/> <input type="checkbox"> Móvil <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
-> | ¿Cómo se proporcionan los dispositivos móviles <br/>Seleccione todos los que se aplican. | <input type="checkbox">Dispositivos corporativos <br/> <input type="checkbox">Traer su propio dispositivo | |
+> | ¿Cuáles son los permitidos y admiten móviles <br>¿plataformas en uso? <br/>Seleccione todos los que se aplican. | <input type="checkbox">Windows <br/> <input type="checkbox">Mobile <br/> <input type="checkbox">iOS <br/> <input type="checkbox">Android <br/> <input type="checkbox">Otros (tenga en cuenta los detalles en la columna comentarios). | |
+> | ¿Cómo se proporcionan los dispositivos móviles? <br/>Seleccione todos los que se aplican. | <input type="checkbox">Dispositivos corporativos <br/> <input type="checkbox">Traer su propio dispositivo | |
 > | ¿Qué dispositivos lo hacen los usuarios actualmente se usa para tener acceso a <br>Servicios de voz y conferencia <br>¿(los auriculares, auriculares, teléfonos, vídeo)? | | |
 
-## <a name="operations"></a>Operaciones
+## <a name="operations"></a>Operations
 
 Use la tabla siguiente para capturar los detalles de los aspectos operativos de su entorno.
 
@@ -173,22 +173,22 @@ Use la tabla siguiente para capturar los detalles de los aspectos operativos de 
 > | ¿Está siguiendo la [Metodología de calidad de llamadas](quality-of-experience-review-guide.md)? | <input type="checkbox">Sí <br/> <input type="checkbox">No | |
 > | ¿Ha asignado un individuo o equipo a la <br>Rol de campeones de calidad para la plataforma de colaboración <br>¿en uso? | <input type="checkbox">Sí <br/> <input type="checkbox">No ||
 > | Cómo supervisar el servidor de Lync, Skype para <br>¿Business Server u Office 365 implementación? | | |
-> | ¿Tiene problemas relacionados con la calidad de las llamadas? | <input type="checkbox">Sí<br/> <input type="checkbox">No | |
+> | ¿Experimenta problemas de calidad de llamada? | <input type="checkbox">Sí<br/> <input type="checkbox">No | |
 > | Cómo y cuándo proporcionar recursos de aprendizaje a su <br>¿departamento de soporte técnico en nuevas capacidades y servicios? | | |
 
 ## <a name="adoption-and-readiness"></a>Preparación y adopción
 
-Con la siguiente tabla, capture el estado actual de la adopción y el nivel de preparación de su organización.
+Use la tabla siguiente y capturar el estado actual de preparación y adopción de la organización.
 
 >
 > | Pregunta | Respuesta | Comentarios |
 > |---|---|---|
 > | ¿Cuál es su uso activo actual de <br>¿Skype para la empresa? | usuarios activos de **__** % total frente a usuarios habilitados | |
-> | Cómo usa la organización <br>¿Skype para la empresa? | Conversaciones uno a uno <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Mensajería instantánea <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De llamada <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De uso compartido<br> Reuniones <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Conferencia<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De uso compartido<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De llamada | |
+> | Cómo usa la organización <br>¿Skype para la empresa? | conversaciones de 1:1 <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Mensajería instantánea <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De llamada <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De uso compartido<br> Reuniones <br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> Conferencia<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De uso compartido<br>&nbsp;&nbsp; &nbsp; <input type="checkbox"> De llamada | |
 > | ¿Su organización tiene una adopción de usuario <br>¿y el equipo de administración de cambios? | <input type="checkbox">Sí<br/> <input type="checkbox">No | |
 > | ¿Cómo actualmente medir el éxito de tecnología <br>¿implantaciones como Skype para la empresa? | | |
 > | ¿Qué porcentaje de su base de usuarios diría que tiene <br>¿adoptadas Skype para la empresa? | | |
-> | ¿Cuál es la sensación de los usuarios en torno a Skype Empresarial? | <input type="checkbox">bien <br/> <input type="checkbox">Independiente del <br/> <input type="checkbox">Incorrecta | |
+> | ¿Qué es la opinión de los clientes de usuario alrededor de Skype para la empresa? | <input type="checkbox">bien <br/> <input type="checkbox">Independiente del <br/> <input type="checkbox">Incorrecta | |
 > | Cuál de las siguientes describe mejor la implantación <br>estrategia utilizada para su Skype para la empresa <br>¿despliegue? | <input type="checkbox">Mayor alcance: campaña con un correo electrónico <br>&nbsp;&nbsp; &nbsp;vínculos a recursos de aprendizaje <br/> <input type="checkbox">Ampliado: Mayor alcance además una gran variedad <br>&nbsp;&nbsp; &nbsp;de campañas de sensibilización (Pósteres, <br>&nbsp;&nbsp; &nbsp;eventos, Campeones) y recursos de aprendizaje <br>&nbsp;&nbsp; &nbsp;(vídeos, guías de usuario, en persona) <br/> <input type="checkbox">Adaptadas: Expandida, además de destino <br>&nbsp;&nbsp; &nbsp;de mensajería y recursos de aprendizaje por rol <br/> <input type="checkbox">Otro <br>&nbsp;&nbsp; &nbsp;(Tenga en cuenta los detalles en la columna comentarios). | |
 
 <table>

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0b129b54-a7a8-42a6-9279-0e08410c06ec
 description: tblSkippedAffiliations contiene las afiliaciones que no se podrían leer (generalmente debido a errores de acceso a los servicios de dominio de Active Directory).
 ms.openlocfilehash: 7072cf1d9ebef1040b78bc2fe93ccac02808099a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212610"
 ---
 # <a name="tblskippedaffiliations"></a>tblSkippedAffiliations
  

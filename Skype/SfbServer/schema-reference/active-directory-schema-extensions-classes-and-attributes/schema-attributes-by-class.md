@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: En esta sección se enumera los atributos de esquema que pueden estar incluidos en cada Skype para clase Business Server y las clases que pueden estar incluidas en otras clases. Para obtener una lista de todas las clases y sus descripciones, vea las clases de esquema y descripciones de Skype para Business Server. Para obtener una lista de todos los atributos y sus descripciones, vea atributos de esquema y descripciones de Skype para Business Server.
 ms.openlocfilehash: a2dc6ee09730c1245a3242f88ad25ad07f9b582a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213371"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Atributos de esquema por clase en Skype para Business Server
  

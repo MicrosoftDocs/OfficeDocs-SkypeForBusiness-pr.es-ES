@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: La vista ProgressReport almacena información sobre sesiones completadas. Informes de progreso se escribirá sólo para las llamadas y las sesiones que Lync Server 2013 determina podría ser útil con fines de diagnóstico. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212876"
 ---
 # <a name="progressreport-view"></a>Vista ProgressReport
  

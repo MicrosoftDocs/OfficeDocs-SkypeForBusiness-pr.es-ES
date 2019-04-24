@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
 description: Habilitar control de admisión de llamadas en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 7e4c444b5aa0b0e4d3c3517b9d242c839f6ecda5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212813"
 ---
 # <a name="enable-call-admission-control-in-skype-for-business-server"></a>Habilitar control de admisión de llamadas en Skype para Business Server
  
@@ -60,7 +60,7 @@ Después de configurar las opciones de red para la implementación del control d
   
 6. Haga clic en **Confirmar**. 
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsNetworkConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csnetworkconfiguration?view=skype-ps)
   

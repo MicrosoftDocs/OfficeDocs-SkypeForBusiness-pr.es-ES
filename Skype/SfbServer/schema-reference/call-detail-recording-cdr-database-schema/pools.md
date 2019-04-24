@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: En la tabla de grupos de servidores es una tabla de apoyo que almacena información sobre el grupo de servidores distintos. Cada registro de la tabla representa un grupo de servidores.
 ms.openlocfilehash: 4cf6f6141ea54b97471c43cad90ea7692e526f06
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212862"
 ---
 # <a name="pools-table"></a>Tabla Pools
  

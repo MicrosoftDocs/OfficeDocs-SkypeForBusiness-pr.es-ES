@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 549ec118-eee5-4333-9416-80929ec057e0
 description: Crear o modificar una tabla de intervalo de órbitas de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 23de2c42ff7b7e8bf3c020eaf3bb5050524b87d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212533"
 ---
 # <a name="create-or-modify-a-call-park-orbit-range-in-skype-for-business"></a>Creación o modificación de un intervalo de órbitas de estacionamiento de llamadas en Skype para la empresa
 
@@ -98,7 +98,7 @@ Use los siguientes procedimientos para crear o modificar un intervalo de órbita
    Set-CsCallParkOrbit -Identity "Redmond orbit 1" -NumberRangeStart 500 -NumberRangeEnd 699
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Nuevo-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

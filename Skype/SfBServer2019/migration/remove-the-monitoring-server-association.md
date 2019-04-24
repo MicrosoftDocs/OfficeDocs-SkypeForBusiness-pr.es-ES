@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Para quitar el servidor de supervisión, debe cambiar o borrar la dependencia en el grupo de Front-End asociado, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia. Para editar las propiedades del grupo de servidores Front-End, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia para quitar la dependencia. Después de desactivar la dependencia y eliminar el servidor en el generador, que se le notifique que también se eliminará el objeto de almacén de base de datos asociada en el generador de topología.
 ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231461"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Quitar la asociación del servidor de supervisión
 

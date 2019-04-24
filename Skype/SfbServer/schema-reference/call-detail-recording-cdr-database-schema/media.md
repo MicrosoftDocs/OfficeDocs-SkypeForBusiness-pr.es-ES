@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: Cada registro representa un tipo de medios utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios.
 ms.openlocfilehash: f0525b279fbef5cc7d4a1bc2ce0fce9212636a96
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212940"
 ---
 # <a name="media-table"></a>Tabla Media
  

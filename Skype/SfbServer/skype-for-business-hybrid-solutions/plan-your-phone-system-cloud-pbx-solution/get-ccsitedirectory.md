@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: El cmdlet Get-CcSiteDirectory muestra el directorio actual en el que se almacenan los archivos de configuración del nivel de sitio. La carpeta contiene el VHD base y los archivos de instalación de Skype Empresarial Cloud Connector Edition. Esta carpeta se debe compartir con todos los demás equipos de un sitio de conector en la nube.
 ms.openlocfilehash: d0869f3cbd1c43e523107a0ff8dce6fd769889a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233767"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  

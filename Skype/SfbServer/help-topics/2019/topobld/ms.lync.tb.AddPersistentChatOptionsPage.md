@@ -14,11 +14,11 @@ ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:'
 ms.openlocfilehash: 3ee219b69ef71b686aa92fda0a8e07de77f9832f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220807"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definir propiedades y opciones para grupo de servidores de chat persistente
 

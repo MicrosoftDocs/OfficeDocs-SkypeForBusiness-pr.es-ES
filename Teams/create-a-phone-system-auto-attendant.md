@@ -1,5 +1,5 @@
 ---
-title: Configurar un operador automático de la nube
+title: Configurar un operador automático en la nube
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar y probar a automáticos en la nube para administración de la organización eficaz de las llamadas.
 ms.openlocfilehash: 8ab3dd318e8ae4c815a78dcc8f7430b2b6d08b04
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218857"
 ---
-# <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático de la nube
+# <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
 Operadores automáticos permiten a las personas que llaman a su organización y navegue a un sistema de menús a obtienen al departamento de derecho, cola, persona o el operador de llamada. Puede crear a un operador automático para la organización mediante el centro de administración de Microsoft Teams. Para crear un nuevo operador automático de, vaya a **voz** en el panel de navegación izquierdo y, a continuación, seleccione **operadores automáticos** > **Agregar nuevo**.
 
@@ -371,6 +371,6 @@ Estos son los cmdlets que necesita para administrar un operador automático.
 
 [New-CsOrganizationalAutoAttendant](https://docs.microsoft.com/en-us/powershell/module/skype/new-csorganizationalautoattendant?view=skype-ps)  
 
-[¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md)
+[¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md)
 
 [Ejemplo de pequeña empresa: configurar un operador automático](https://docs.microsoft.com/skypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa)  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de salas de equipos de Microsoft.
 ms.openlocfilehash: c005f9c0bdd087c90746ff55a322a087da83032e
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214901"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 

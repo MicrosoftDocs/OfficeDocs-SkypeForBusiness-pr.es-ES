@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 61d704a97cf094aa77f3b33fab80d60ade499380
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220052"
 ---
 # <a name="test-voice-routing-test-cases"></a>Probar enrutamiento de voz: Pruebas
 

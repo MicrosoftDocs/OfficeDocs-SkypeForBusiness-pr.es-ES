@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumen: Información general de los métodos de instalación y las herramientas de Skype para la empresa.'
 ms.openlocfilehash: d6458c1ec81ea67162a53107582249f301102ebd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212715"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar la instalación de cliente de Windows en Skype para Business Server
  

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: tblEnumValue es una tabla que contiene los valores de visibilidad y el comportamiento de los atributos que se usan en la tabla Node.
 ms.openlocfilehash: 579b2747ea753b8a701d11dd806178427cbb27b3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212883"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -47,6 +47,6 @@ tblEnumValue es una tabla que contiene los valores de visibilidad y el comportam
 |5  <br/> |2  <br/> |auditorio  <br/> |
 |6  <br/> |1  <br/> |Abra  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [tblNode](tblnode.md)

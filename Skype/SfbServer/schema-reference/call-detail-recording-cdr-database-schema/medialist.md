@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La tabla MediaList es una tabla estática que almacena la lista de los diferentes tipos de medios.
 ms.openlocfilehash: 72ae6dbb145c3bb284f1090b01585591e4e773bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212911"
 ---
 # <a name="medialist-table"></a>Tabla MediaList
  

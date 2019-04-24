@@ -14,11 +14,11 @@ ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar las propiedades de un servidor de aplicaciones de confianza que ya se ha definido, siga estas instrucciones.
 ms.openlocfilehash: 66f82f4e6dadf39cbfcce77c46cafc2fedd3d168
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220638"
 ---
 # <a name="external-application-general-settings-expander"></a>Expansor de configuración general de aplicación externa
  

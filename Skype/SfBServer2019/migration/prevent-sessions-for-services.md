@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede usar el Panel de Control de las instalaciones heredadas para evitar sesiones nuevas en todos los servicios heredados que se ejecutan en un equipo específico o para evitar sesiones nuevas para un servicio específico de heredado.
 ms.openlocfilehash: 9f3f9bb301841d7e71c18f4d3ca052f3d0c74dce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875535"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231542"
 ---
 # <a name="prevent-sessions-for-services"></a>Impedir sesiones para servicios
 

@@ -1,5 +1,6 @@
 ---
-title: Habilitar a usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365
+title: Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz de Office 365
+ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,14 +17,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
-ms.openlocfilehash: 9f11e52a3992e484643cfea06d0720d12e3f0e77
-ms.sourcegitcommit: 7ca7f5cd38742b6a1967bd792113348dfe689850
+ms.openlocfilehash: f7ba1c4e259d68ab423ec2bde8aee3604035d125
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30657471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234257"
 ---
-# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar a usuarios para Enterprise Voice en línea y el sistema de teléfono en el correo de voz de Office 365
+# <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz de Office 365
  
 Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
   

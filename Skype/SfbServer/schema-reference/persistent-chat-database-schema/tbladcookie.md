@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
 description: tblADCookie contiene las cookies de protocolo ligero de acceso a directorios (LDAP) actuales.
 ms.openlocfilehash: 3e7eeeeae6623bbbb308f4e05c4ab8a4b9a7be50
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213161"
 ---
 # <a name="tbladcookie"></a>tblADCookie
  

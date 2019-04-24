@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: la tabla tblPrincipal contiene a todas las entidades, incluidos los usuarios, carpetas y grupos.
 ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212519"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

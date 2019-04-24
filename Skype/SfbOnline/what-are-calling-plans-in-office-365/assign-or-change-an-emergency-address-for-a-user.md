@@ -20,13 +20,13 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to set up an emergency address and phone number for each of your users that works with the Public Switched Telephone Network (PSTN).
+description: Aprenda cómo configurar una dirección de emergencia y un número de teléfono para cada uno de los usuarios que funcione con la red telefónica pública conmutada (RTC).
 ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233256"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
@@ -60,7 +60,7 @@ Para conseguir información sobre cómo obtener Planes de llamadas en Office 365
     
 ## <a name="related-topics"></a>Temas relacionados
 ## <a name="related-topics"></a>Temas relacionados
-[Agregar, cambiar o quitar una dirección de emergencia para la organización](add-or-remove-an-emergency-address-for-your-organization.md)
+[Agregar, cambiar o quitar una dirección de emergencia para su organización](add-or-remove-an-emergency-address-for-your-organization.md)
 
 [Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md)
 
@@ -70,7 +70,7 @@ Para conseguir información sobre cómo obtener Planes de llamadas en Office 365
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

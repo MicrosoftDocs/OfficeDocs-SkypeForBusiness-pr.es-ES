@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Quitar las bases de datos de Microsoft SQL Server y sesiones después de quitar los servidores que ejecutan son dependientes en ellos, o después de volver a configurar los servidores para usar otra base de datos. Debe realizar el procedimiento de este tema al retirar la versión actual de SQL Server o volver a configurar el servidor actual de forma que se representa las bases de datos obsoletos o no está disponible.
 ms.openlocfilehash: 531d4c06daa7dacd2a616244c13207b3e79dca4c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231507"
 ---
 # <a name="remove-sql-server-instances-and-databases-on-the-back-end-server"></a>Quitar instancias de SQL Server y bases de datos en el servidor back-end
 

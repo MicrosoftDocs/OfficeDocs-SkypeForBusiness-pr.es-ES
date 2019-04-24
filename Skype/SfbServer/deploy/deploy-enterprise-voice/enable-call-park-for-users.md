@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar a los usuarios para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212512"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar estacionamiento de llamadas para los usuarios de Skype para la empresa
  
@@ -63,7 +63,7 @@ Puede habilitar estacionamiento de llamadas en el ámbito global o en el ámbito
    Set-CsVoicePolicy -EnableCallPark $true
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

@@ -13,11 +13,11 @@ ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explica los preparativos de infraestructura para la implementación de salas de equipos de Microsoft.
 ms.openlocfilehash: ac1bcfc374350bde38d8e37f8870e1d3223a511c
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214501"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -38,7 +38,7 @@ Esta sección contiene información general sobre los pasos necesarios para prep
    - Si su red se ejecuta mediante un proxy, necesitará también la dirección del proxy o la información de script.
     
      > [!NOTE]
-     > Salones de los equipos de Microsoft no admite entrada HDCP, que se ha observado para provocar problemas con HDMI ingesta funcionalidad (vídeo, audio). Tenga cuidado para asegurarse de que los conmutadores conectados a las salas de los equipos de Microsoft tienen opciones HDCP desactivadas. 
+     > Sala de Microsoft Teams no admite la incorporación de HDCP, ya que se ha visto que provoca problemas con la funcionalidad de transmisión por HDMI (vídeo, audio). Asegúrese de que los conmutadores conectados a Sala de Microsoft Teams tienen desactivadas las opciones de HDCP. 
   
 3. Para poder mejorar su experiencia, Microsoft recopila información. Para recopilar información, necesitamos que estos sitios figuren en la lista de permitidos:
     
@@ -133,7 +133,7 @@ Paquetes de aprovisionamiento va a usar para autenticar al servidor de Exchange 
 Después de la unión a un dominio, puede usar la Directiva de grupo o la Administración del equipo local para configurar un Grupo de seguridad como administrador local, tal como lo haría para un PC con Windows en su dominio. Las personas que formen parte de ese grupo de seguridad podrán introducir sus credenciales y desbloquear Configuración.
   
 > [!NOTE]
-> Si su dispositivo de salas de equipos de Microsoft pierde la relación de confianza con el dominio (por ejemplo, si quita las salas de los equipos de Microsoft desde el dominio después de está unido al dominio), no podrá autenticar en el dispositivo y abrir seguridad de la configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
+> Si su dispositivo de Sala de Microsoft Teams pierde la confianza en el dominio (por ejemplo, si elimina Sala de Microsoft Teams del dominio tras haberse unido a él), no podrá autenticarse en el dispositivo ni abrir Configuración. La solución alternativa es iniciar sesión con la cuenta de administrador local. 
   
 ## <a name="local-accounts"></a>Cuentas locales
 
@@ -158,7 +158,7 @@ Mucho al igual que cualquier dispositivo de Windows, el nombre del equipo puede 
   
  Si desea cambiar el nombre del equipo después de unirse a un dominio, use el comando de PowerShell de cambio de nombre de equipo seguido por el nombre del equipo nuevo.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de salas de equipos de Microsoft](skype-room-systems-v2-0.md)
 
@@ -168,4 +168,4 @@ Mucho al igual que cualquier dispositivo de Windows, el nombre del equipo puede 
   
 [Configurar una consola de salas de equipos de Microsoft](../../deploy/deploy-clients/console.md)
   
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

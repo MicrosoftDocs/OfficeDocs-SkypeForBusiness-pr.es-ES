@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: El control de admisión de llamadas (CAC) es una solución que determina si puede establecerse una sesión en tiempo real según el ancho de banda disponible para impedir que los usuarios de redes congestionadas obtengan una calidad de audio y vídeo pobre.
 ms.openlocfilehash: 52fcedaab781e9ed76222afb32b56840a3b07c1c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223144"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Implementación de control de admisión de llamadas en Skype para Business Server
  

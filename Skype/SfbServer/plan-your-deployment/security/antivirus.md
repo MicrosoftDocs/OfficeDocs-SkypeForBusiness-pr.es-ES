@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Información general de interoperación del detector de virus con Skype para Business Server.
 ms.openlocfilehash: 377c9e8fb9de71187978fe541a23f43cc2282749
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895968"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213672"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Análisis de exclusiones para Skype para Business Server del antivirus
 

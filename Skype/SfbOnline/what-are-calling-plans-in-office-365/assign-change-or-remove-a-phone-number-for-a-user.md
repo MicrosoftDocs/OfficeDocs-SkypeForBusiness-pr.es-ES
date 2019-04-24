@@ -1,5 +1,5 @@
 ---
-title: Asignar, cambiar o quitar un número de teléfono de un usuario
+title: Asignar, cambiar o quitar un número de teléfono para un usuario
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,15 +20,15 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Learn how to assign, change, or remove a work phone number to your Skype for Business users so outside businesses and clients can call in.
+description: Aprenda a asignar, cambiar o quitar un número de teléfono de trabajo para sus usuarios de Skype for Business, de forma que los clientes y las empresas externas puedan llamar.
 ms.openlocfilehash: 0e354956d1077b2f81de7b889d8085f05db038c4
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235696"
 ---
-# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un número de teléfono de un usuario
+# <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un número de teléfono para un usuario
 
 Al configurar planes de llamada en Office 365, asignar a los números de teléfono a los usuarios. 
 
@@ -50,9 +50,9 @@ Cuando se establecen los usuarios para que puede realizar y recibir llamadas tel
 Para obtener información sobre cómo obtener planes de llamada en Office 365 y su coste, vea [Licencias complementarias de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
 > [!NOTE]
-> Una forma para ver si un usuario tiene una licencia asignada es yendo al **Skype para el centro de administración de negocio** > **voz** > **a los usuarios de voz** y seleccionar el usuario. Si se asigna una licencia, se va a tener en cuenta bajo **licencia asignada**. También puede usar el centro de administración de Office 365. 
+> One way to see whether a user has a license assigned is by going to **Skype for Business admin center** > **Voice** > **Voice users** and selecting the user. If a license is assigned, it will be noted under **Assigned license**. You also can use the Office 365 admin center. 
   
- ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
+ ## <a name="assign-a-phone-number-to-a-user"></a>Asignar a un número de teléfono a un usuario
  
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
  
@@ -80,7 +80,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 8. Después de asignar el número de teléfono y la ubicación de emergencia, haga clic en **Guardar**.
     
     > [!NOTE]
-    > Debido a la latencia entre Office 365 y Skype para profesionales en línea, posiblemente pueden tardar hasta 24 horas para los usuarios a habilitarse. Si después de 24 horas el número de teléfono no está asignado correctamente, [contacte al soporte técnico para productos de empresa: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Estamos aquí para ayudarle. 
+    > Because of the latency between Office 365 and Skype for Business Online, it can possibly take up to 24 hours for users to be enabled. If after 24 hours, if the phone number isn't assigned correctly, please [Contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). We're here to help! 
   
 
 
@@ -104,7 +104,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
     
 8. Para cambiar la dirección de emergencia asociada, haga clic en **cambiar la ubicación**y, a continuación, en **cambiar la dirección de emergencia a**, seleccione ya sea la ubicación de la lista o, si tiene muchas ubicaciones definidas, escriba el nombre de la ciudad en el cuadro de búsqueda y haga clic en **Búsqueda**.
     
-9. Haga clic en **Guardar**.
+9. Haga clic en **Guardar **.
     
 
 

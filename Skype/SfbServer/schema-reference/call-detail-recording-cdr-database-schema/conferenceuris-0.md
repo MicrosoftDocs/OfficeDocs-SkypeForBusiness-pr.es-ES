@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 9a3cdcea-426e-4b6b-9876-ba746a8de706
 description: La vista ConfernceUris almacena información acerca de los identificadores URI que han participado en las sesiones de conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: 7b049abd4a843df4c7fbc0d4b314ce71203e2938
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895729"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213238"
 ---
 # <a name="conferenceuris-view"></a>Vista ConferenceUris
  

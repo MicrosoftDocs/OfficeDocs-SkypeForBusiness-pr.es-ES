@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4810e98910186e3c4c5a9b2fb7e4cf62df6876c7
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222945"
 ---
 ![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Comenzar su viaje por la actualización")
 

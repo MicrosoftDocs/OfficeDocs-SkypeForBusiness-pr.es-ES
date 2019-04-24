@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 61370aa6-9708-4ff8-b531-b258a928806f
 description: 'Resumen: Lea este tema para obtener información sobre cómo usar el Skype para el Asistente para la implementación de Business Server para instalar Skype para los servicios y componentes de Business Server 2015.'
 ms.openlocfilehash: 78fb134ef8db5b0c47c890db9454858ff392a624
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222305"
 ---
 # <a name="install-persistent-chat-components-in-skype-for-business-server-2015"></a>Instalar los componentes del chat persistente en Skype Empresarial Server 2015
  

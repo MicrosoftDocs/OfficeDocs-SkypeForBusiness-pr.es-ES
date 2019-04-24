@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType es una tabla de búsqueda estática con tipos de rol y sus conjuntos de permisos asociados.
 ms.openlocfilehash: 6b5e545306c402fbfb89094a19799fe3ff6d2e34
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212414"
 ---
 # <a name="tblroletype"></a>tblRoleType
  

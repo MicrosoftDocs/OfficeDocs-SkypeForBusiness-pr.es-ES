@@ -14,11 +14,11 @@ ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 83d29695879fc5d931d4a8463941efe669d5158b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215307"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Directiva de PIN: Crear nuevos o editar los existentes
 

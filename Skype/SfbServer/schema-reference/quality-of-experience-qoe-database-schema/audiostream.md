@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Cada registro representa una secuencia de audio. Normalmente, una línea de medios de audio contiene dos secuencias de audio.
 ms.openlocfilehash: 7c1e7ae70a04aabc7db704aaaad873bc5b2100c9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212351"
 ---
 # <a name="audiostream-table"></a>Tabla AudioStream
  

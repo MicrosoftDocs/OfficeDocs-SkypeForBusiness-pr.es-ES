@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 542316cf-a6db-4d52-ab28-8bf6d27a3b48
 description: La tabla ClientVersions es una tabla de apoyo que almacena una lista de los distintos tipos de cliente y las versiones que han participado en sesiones registradas en la base de datos. Cada registro de la tabla representa una versión de cliente.
 ms.openlocfilehash: df80e907359297c9cdb518562fdeea54d31a2a47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898532"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213385"
 ---
 # <a name="clientversions-table-in-skype-for-business-server-2015"></a>Tabla ClientVersions en Skype para Business Server 2015
  

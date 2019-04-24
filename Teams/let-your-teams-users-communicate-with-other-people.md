@@ -19,11 +19,11 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
 ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222374"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
 
@@ -60,7 +60,7 @@ Siga estos pasos.
    
    4. Si desea limitar que las organizaciones pueden comunicarse con los usuarios de la organización puede permitir que todos los pero algunos dominios o permitir sólo las organizaciones específicas. Para permitir que todos los pero algunos dominios, agregue los dominios que desee bloquear, haga clic en **Agregar dominio**. En el panel **Agregar un dominio** , poner en el nombre de dominio, haga clic en **bloqueado** y, a continuación, en **Listo**. Para limitar las comunicaciones a organizatioins específica, añada esos dominios a la lista con un estado de **Alowed**. Una vez haya agregado cualquier dominio a la lista Permitir, communications a otras organizaciones se limitará a sólo esas organizaciones cuyos dominios se encuentran en la lista Permitir. 
    
-   5. Haga clic en **Guardar**. 
+   5. Haga clic en **Guardar **. 
 
    6. A continuación, asegúrese de que el Administrador de la organización de los equipos otros estos mismos pasos. Por ejemplo, en su lista de **permitidos dominios** , su administrador debe introducir el dominio para su negocio si limita a que las organizaciones pueden comunicarse con sus usuarios. 
 

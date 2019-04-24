@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 45fd8484-5837-44d2-85bb-45c83546607c
 description: la tabla tblPrincipalAffiliations contiene las afiliaciones principales que describen la pertenencia a grupos en ubicaciones, incluidos los grupos de seguridad de los servicios de dominio de Active Directory, en contenedores de Active Directory, en dominios.
 ms.openlocfilehash: c93edb552c63ebd4f7344926a7d43858b42506ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212505"
 ---
 # <a name="tblprincipalaffiliations"></a>tblPrincipalAffiliations
  

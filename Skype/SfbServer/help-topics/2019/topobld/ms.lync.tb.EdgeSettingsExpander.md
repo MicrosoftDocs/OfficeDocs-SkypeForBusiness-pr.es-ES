@@ -14,11 +14,11 @@ ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
 ms.openlocfilehash: 1125073d1f733959c9c0312fe3f0d36ad5369f8f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220547"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
@@ -59,7 +59,7 @@ Si decide que la organización va a usar una sola dirección IP y un solo nombre
 > [!IMPORTANT]
 > Si efectúa cambios en cualquiera de estas opciones, incluido el uso de FQDN y direcciones IP o puertos diferentes, necesita actualizar todos los demás servicios que dependan de los valores configurados inicialmente.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para más detalles sobre cómo definir y configurar las opciones de los servicios perimetrales, mire [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx).
 
