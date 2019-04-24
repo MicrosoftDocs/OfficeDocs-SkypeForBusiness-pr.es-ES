@@ -14,19 +14,19 @@ localization_priority: Normal
 ms.assetid: 93a17c91-816e-4de0-8065-7dec45203355
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 0b16940eafecc2177ca65fbebe7d818440549bd3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220280"
 ---
-# <a name="network-configuration-global-setting"></a><span data-ttu-id="68853-104">Configuración de red: Configuración global</span><span class="sxs-lookup"><span data-stu-id="68853-104">Network Configuration: Global Setting</span></span>
+# <a name="network-configuration-global-setting"></a><span data-ttu-id="9354b-104">Configuración de red: Configuración global</span><span class="sxs-lookup"><span data-stu-id="9354b-104">Network Configuration: Global Setting</span></span>
 
-<span data-ttu-id="68853-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="68853-105">What do you want to do?</span></span> <span data-ttu-id="68853-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="68853-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9354b-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="9354b-105">What do you want to do?</span></span> <span data-ttu-id="9354b-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="9354b-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="68853-107">Habilitar el Control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="68853-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
+- [<span data-ttu-id="9354b-107">Habilitar el Control de admisión de llamadas</span><span class="sxs-lookup"><span data-stu-id="9354b-107">Enabling Call Admission Control</span></span>](https://technet.microsoft.com/library/015f5c8f-2f90-4b9e-8149-b33767e90582.aspx)
 
-- [<span data-ttu-id="68853-108">Habilitar desvío de medios</span><span class="sxs-lookup"><span data-stu-id="68853-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
+- [<span data-ttu-id="9354b-108">Habilitar desvío de medios</span><span class="sxs-lookup"><span data-stu-id="9354b-108">Enabling Media Bypass</span></span>](https://technet.microsoft.com/library/95c4fa06-49d3-41ac-acdc-7dcda66e5508.aspx)
 
-<span data-ttu-id="68853-109">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="68853-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="9354b-109">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="9354b-109">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
 

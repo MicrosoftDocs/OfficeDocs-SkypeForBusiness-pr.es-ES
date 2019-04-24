@@ -14,19 +14,19 @@ ms.assetid: 6178d9e5-a919-4a7d-9633-d5f155556306
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: a4e6ab21ac1dc5b52bea4cd5e8d8c02fd642d8da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877793"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215522"
 ---
-# <a name="file-filter"></a><span data-ttu-id="3a757-104">Filtro de archivo</span><span class="sxs-lookup"><span data-stu-id="3a757-104">File Filter</span></span>
+# <a name="file-filter"></a><span data-ttu-id="61483-104">Filtro de archivo</span><span class="sxs-lookup"><span data-stu-id="61483-104">File Filter</span></span>
 
-<span data-ttu-id="3a757-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="3a757-105">What do you want to do?</span></span> <span data-ttu-id="3a757-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="3a757-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="61483-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="61483-105">What do you want to do?</span></span> <span data-ttu-id="61483-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="61483-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="3a757-107">Modificar el filtro de transferencia de archivos predeterminado</span><span class="sxs-lookup"><span data-stu-id="3a757-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
+- [<span data-ttu-id="61483-107">Modificar el filtro de transferencia de archivos predeterminado</span><span class="sxs-lookup"><span data-stu-id="61483-107">Modify the Default File Transfer Filter</span></span>](https://technet.microsoft.com/library/791774a2-0bb6-4b5b-aeb0-ff69abb170f4.aspx)
 
-- [<span data-ttu-id="3a757-108">Crear un nuevo filtro de transferencia de archivo para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="3a757-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
+- [<span data-ttu-id="61483-108">Crear un nuevo filtro de transferencia de archivo para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="61483-108">Create a New File Transfer Filter for a Specific Site</span></span>](https://technet.microsoft.com/library/d0006487-5217-491c-b730-e6c551cd9825.aspx)
 
 
 

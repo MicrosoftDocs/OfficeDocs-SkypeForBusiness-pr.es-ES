@@ -15,14 +15,14 @@ ms.assetid: 0f0a866a-b85d-4fb6-843b-90bb3c977498
 ROBOTS: NOINDEX, NOFOLLOW
 description: La característica de movilidad de Skype para Business Server 25 admite Skype para la funcionalidad empresarial en dispositivos móviles. Para obtener más información, consulte Planning for Mobility.
 ms.openlocfilehash: a940925d2d1a89a3ea4a158e041adf05f5263b8b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221021"
 ---
-# <a name="client-settings-planning-tool"></a><span data-ttu-id="83e58-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="83e58-104">Client Settings (Planning Tool)</span></span>
+# <a name="client-settings-planning-tool"></a><span data-ttu-id="8068d-104">Client Settings (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8068d-104">Client Settings (Planning Tool)</span></span>
 
-<span data-ttu-id="83e58-105">La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="83e58-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="83e58-106">Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span><span class="sxs-lookup"><span data-stu-id="83e58-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
+<span data-ttu-id="8068d-105">La característica de movilidad de Skype para Business Server admite Skype para la funcionalidad empresarial en dispositivos móviles.</span><span class="sxs-lookup"><span data-stu-id="8068d-105">The mobility feature in Skype for Business Server supports Skype for Business functionality on mobile devices.</span></span> <span data-ttu-id="8068d-106">Para obtener más información, consulte [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span><span class="sxs-lookup"><span data-stu-id="8068d-106">For details, see [Planning for Mobility](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx).</span></span>
 
 
