@@ -84,7 +84,6 @@
 #### [Servidores proxy para Skype Empresarial Online o Teams](proxy-servers-for-skype-for-business-online.md)
 #### [Especificaciones y límites de Teams](limits-specifications-teams.md)
 #### [Planificar Grupos de Office 365 al crear equipos en Teams](plan-office-365-groups.md)
-#### [Herramientas para ayudar con la implementación de Teams](rollout-tools.md)
 #### [Plan para la administración del ciclo de vida en Teams](plan-teams-lifecycle.md)
 #### [Planificar el gobierno en Teams](plan-teams-governance.md)
 
