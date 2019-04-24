@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203074"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -95,15 +95,15 @@ En la siguiente figura se indica el flujo de ingesta de las reuniones de los equ
 En lo que se refiere a las funciones de protección de información, las suscripciones de Office 365 y las licencias autónomas asociadas determinarán el conjunto de características disponible.
 
 
-| Funcionalidad de protección de información | Office 365 Business Essentials | Office 365 Business Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
+| Funcionalidad de protección de información | Office 365 Business Essentials | Office 365 Empresa Premium | Office 365 Enterprise E1 | Office 365 Enterprise E3/E4 | Office 365 Enterprise E5 |
 |-----------------------------------|--------------------------------|-----------------------------|--------------------------|-----------------------------|--------------------------|
-|              Archivo              |               -                |              -              |            -             |             Sí              |           Sí             |
-|        eDiscovery local        |               -                |              -              |            -             |             Sí              |           Sí             |
+|              Archivo              |               -                |              -              |            -             |             Sí             |           Sí            |
+|        eDiscovery local        |               -                |              -              |            -             |             Sí             |           Sí            |
 |        eDiscovery avanzado        |               -                |              -              |            -             |              -              |           Sí            |
-|            Suspensión legal             |               -                |              -              |            -             |             Sí              |           Sí             |
-|     Búsqueda de contenido de cumplimiento     |               -                |             Sí              |           Sí             |             Sí              |           Sí            |
-|      Auditoría y generación de informes       |              Sí               |             Sí              |           Sí             |             Sí              |           Sí             |
-|       Acceso condicional\*        |              Sí                |             Sí              |           Sí             |             Sí              |           Sí            |
+|            Suspensión legal             |               -                |              -              |            -             |             Sí             |           Sí            |
+|     Búsqueda de contenido de cumplimiento     |               -                |             Sí             |           Sí            |             Sí             |           Sí            |
+|      Auditoría y generación de informes       |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
+|       Acceso condicional\*        |              Sí               |             Sí             |           Sí            |             Sí             |           Sí            |
 
 > [!NOTE]
 > \*El acceso condicional requiere licencias adicionales

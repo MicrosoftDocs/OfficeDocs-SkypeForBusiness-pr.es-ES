@@ -14,11 +14,11 @@ ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 ROBOTS: NOINDEX, NOFOLLOW
 description: El FQDN de salto siguiente identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno. Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un Director o un grupo de servidores Front-End.
 ms.openlocfilehash: 8e9cbd2ea197f60c17b05ff2e0d6625d7a3d3ed0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201775"
 ---
 # <a name="legacy-merge-next-hop"></a>Próximo salto de combinación de información heredada
  

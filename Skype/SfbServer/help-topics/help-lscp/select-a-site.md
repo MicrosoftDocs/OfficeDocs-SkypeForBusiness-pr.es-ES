@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 description: Use el cuadro de diálogo Seleccionar un sitio para buscar los sitios disponibles en el entorno. Para usar un sitio existente, haga clic en un sitio de la lista y, a continuación, en Aceptar.
 ms.openlocfilehash: e9e82749d761a8a947ab6206f341d6508f3d8d80
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200593"
 ---
 # <a name="select-a-site"></a>Seleccionar un sitio
 

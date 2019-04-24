@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: cb51f2ef-0235-4b77-8b2c-e2b0d3ff3608
 description: El cuadro de diálogo Valores de configuración de voz no confirmados sirve para revisar todos los cambios realizados. Desplácese por el cuadro de diálogo para repasar todos los cambios sin confirmar o haga clic en las flechas para expandir o contraer las diferentes secciones. Cuando haya terminado, haga clic en Confirmar para confirmar todos los cambios, o bien haga clic en Cancelar para retroceder y modificar los cambios.
 ms.openlocfilehash: ad937912a2a2b0de13b8f9c86ab18791a3fcc767
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880885"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200467"
 ---
 # <a name="uncommitted-voice-configuration-settings-commit"></a>Valores de configuración de voz no confirmados: Confirmar
  

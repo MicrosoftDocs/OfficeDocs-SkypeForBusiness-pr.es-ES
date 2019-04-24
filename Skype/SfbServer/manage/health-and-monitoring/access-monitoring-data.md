@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 'Resumen: Obtenga información sobre los datos de supervisión usados en Skype para Business Server.'
 ms.openlocfilehash: 096a20119f0d7f368165aae53e2b3164cb817d63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197593"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Acceso a datos en Skype de supervisión para Business Server
  

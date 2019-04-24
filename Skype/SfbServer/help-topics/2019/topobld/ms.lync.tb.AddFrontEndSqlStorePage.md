@@ -14,11 +14,11 @@ ms.assetid: dace9561-3eb4-4647-83cb-56c246919ae1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una implementación de Standard Edition server instala automáticamente el software de base de datos de Microsoft SQL Server Express requerido y la base de datos de SQL Server. Por lo tanto, todas las opciones se rellena automáticamente y no se puede realizar cambios a la configuración predeterminada.
 ms.openlocfilehash: 5424325431867d6e7c2d1991f4a3152c89ac5ca1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202057"
 ---
 # <a name="add-front-end-sql-server-store"></a>Agregar almacén SQL Server front-end
 

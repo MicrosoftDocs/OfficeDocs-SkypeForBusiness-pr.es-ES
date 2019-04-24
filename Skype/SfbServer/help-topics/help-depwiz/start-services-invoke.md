@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: El panel de resumen en el panel de ejecución de comandos muestra el estado de las tareas emitido para iniciar los servicios para la Skype para servidor de funciones de Business Server 2015 que va a implementar. El resumen del panel de tareas no representa ninguna indicación en tiempo real de inicio del servicio. Algunas de las Skype para servicios de Business Server pueden tardar un tiempo extendido para comenzar el proceso de inicio. Las tareas indican al comando que se inicie, pero no esperan para determinar si el servicio se ha iniciado correctamente. Si debe supervisar el inicio y el estado de los servicios, se recomienda usar Windows Services Microsoft Management Console (MMC).
 ms.openlocfilehash: 48d94dabe5e584fed8bc10b7e7b19efd5b068a1c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201156"
 ---
 # <a name="start-services-invoke"></a>Iniciar servicios (invocar)
  

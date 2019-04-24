@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e9478bf4-4e1a-46a2-bf76-3ff08a193523
 description: Antes de que finalice la asignación de certificados, se presenta un resumen de la asignación de certificados que se enumeran los detalles del certificado que va a asignar. Revise la información para asegurarse de que el nombre de sujeto y el nombre alternativo de sujeto es correcto. Cuando haya terminado de revisar el resumen de certificados, haga clic en siguiente.
 ms.openlocfilehash: e864ca68fa9868423cdb3c5a1ddb2bb152b84890
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898595"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201498"
 ---
 # <a name="certificate-assignment-summary"></a>Asignación de certificados (resumen)
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: Use el cuadro de diálogo Seleccionar regiones para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en Aceptar.
 ms.openlocfilehash: c05ceff5d617817b4870cfdc8744559e91d6939f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200523"
 ---
 # <a name="select-regions"></a>Seleccionar regiones
  

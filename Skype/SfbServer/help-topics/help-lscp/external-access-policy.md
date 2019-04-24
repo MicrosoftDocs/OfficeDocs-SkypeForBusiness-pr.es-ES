@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: c40893ea59c702c88d51f3601253800a7bb83381
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234509"
 ---
 # <a name="external-access-policy"></a>Directiva de acceso externo
 

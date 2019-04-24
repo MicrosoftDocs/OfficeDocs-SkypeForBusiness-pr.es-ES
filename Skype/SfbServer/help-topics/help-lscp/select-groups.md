@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Las colas de grupo de respuesta contienen llamadas a grupos de respuesta hasta que un agente atiende la llamada. Colas han asignado a grupos de agentes. Al crear o editar una cola, utilice el cuadro de diálogo Seleccionar grupos para seleccionar uno o varios grupos de agentes que se asignará a la cola.
 ms.openlocfilehash: fc03bbc95c1604ef13380a52fa214f9fd65f35b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878525"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200558"
 ---
 # <a name="select-groups"></a>Seleccionar grupos
 

@@ -15,11 +15,11 @@ description: Aprenda a agregar el dominio SMTP de los equipos de Microsoft como 
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c4a1a94bec69b1c7953dea6802d62058b04700bb
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194174"
 ---
 <a name="add-the-microsoft-teams-smtp-domain-as-an-allowed-sender-domain-in-exchange-online"></a>Agregar el dominio SMTP de Microsoft Teams como un dominio de remitente permitido en Exchange Online 
 =============================================================================

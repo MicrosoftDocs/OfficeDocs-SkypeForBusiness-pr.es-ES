@@ -16,13 +16,13 @@ description: Llamar a la página de inicio del Plan
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211986"
 ---
-# <a name="phone-system-with-calling-plans"></a>Sistema telefónico con Planes de llamada 
+# <a name="phone-system-with-calling-plans"></a>Sistema telefónico con planes de llamada 
 
 Se ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido usar el sistema telefónico de Microsoft con el Plan para llamar a para conectarse a la red telefónica pública conmutada (RTC). 
 
@@ -33,7 +33,7 @@ En este artículo se describe la implementación las decisiones principales para
 
 Los artículos siguientes proporcionan más información sobre la implementación y uso de llamar a los planes de Microsoft:
 
-- [Sistema telefónico de Office 365](what-is-phone-system-in-office-365.md)
+- [Sistema telefónico en Office 365](what-is-phone-system-in-office-365.md)
 - [Planes de llamadas para Office 365](calling-plans-for-office-365.md)
 - [Configurar planes de llamadas](set-up-calling-plans.md)
 

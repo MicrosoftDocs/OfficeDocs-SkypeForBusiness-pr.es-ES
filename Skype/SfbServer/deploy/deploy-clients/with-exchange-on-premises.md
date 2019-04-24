@@ -13,11 +13,11 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos en un entorno híbrido con Exchange local.
 ms.openlocfilehash: 664f6d210858b42591dcbb4461b858646e5cb933
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31807986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207891"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Microsoft salones de los equipos con Exchange local
 
@@ -155,11 +155,11 @@ Si va a implementar Microsoft salones de los equipos con Exchange local, va a us
 3. Haga clic en la cuenta de salas de equipos de Microsoft y, a continuación, haga clic en el icono de lápiz para editar la información de cuenta.
 4. Haga clic en **Licencias**.
 5. En **Asignar licencias**, seleccione Skype Empresarial (plan 2) o Skype Empresarial (plan 3), según sus requisitos de licencia y de telefonía IP empresarial. Debe utilizar una licencia de planeación 3 si desea usar Enterprise Voice en sus salones de los equipos de Microsoft.
-6. Haga clic en **Guardar**.
+6. Haga clic en **Guardar **.
 
 Para la validación, debe usar cualquier Skype para clientes empresariales para iniciar sesión en esta cuenta.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar las cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md)
 
@@ -169,4 +169,4 @@ Para la validación, debe usar cualquier Skype para clientes empresariales para 
   
 [Configurar una consola de salas de equipos de Microsoft](console.md)
   
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Obtenga información sobre lo que los usuarios experimentan cuando un grupo de servidores Front-End conmuta por error o se produce un error durante la recuperación ante desastres en Skype para Business Server.
 ms.openlocfilehash: 9311078b0b987f4340fec671e559ca4430949a6b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206412"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia del usuario durante error de grupo de servidores en Skype para Business Server
  

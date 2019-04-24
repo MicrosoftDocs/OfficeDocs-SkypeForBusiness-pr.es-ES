@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType contiene los tipos de entidad de seguridad para clasificar lo que aparece en la tabla tblPrincipal.
 ms.openlocfilehash: ab2cb28971f0564a082e0caed01e7fc622c41201
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887442"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212442"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -50,6 +50,6 @@ tblPrincipalType contiene los tipos de entidad de seguridad para clasificar lo q
 |9  <br/> |Grupo  <br/> |Grupo de seguridad de Active Directory.  <br/> ||
 |10  <br/> |Carpeta  <br/> |Contenedor de Active Directory o la unidad organizativa.  <br/> ||
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [tblPrincipal](tblprincipal.md)

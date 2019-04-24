@@ -14,11 +14,11 @@ description: Aprenda a usar las funciones administrativas diferentes para admini
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 677249ba27c79352207a4fffa65480a0a7d484cd
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955017"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211811"
 ---
 # <a name="use-microsoft-teams-admin-roles-to-manage-teams"></a>Usar los roles de administrador de Microsoft Teams para administrar Teams
 

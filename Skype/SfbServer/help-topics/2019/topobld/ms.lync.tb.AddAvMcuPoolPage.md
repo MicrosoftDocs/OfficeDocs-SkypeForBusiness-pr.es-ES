@@ -14,11 +14,11 @@ ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Todos los servidores Enterprise Edition Front-End de un sitio central que no tienen un combinados A / servicio de conferencia A/v puede usar el mismo A independiente o grupo de servidores de conferencia A/v. Para cada A / grupo de servidores de conferencia A/v, debe especificar un nombre de dominio completo (FQDN) para el grupo de servidores y si va a tener solo un único / servidor de conferencia A/v o múltiple, con equilibrio de carga A / servidores de conferencia A/v.
 ms.openlocfilehash: f88476165ce6affe23e9e5cbb33e03a997c04971
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202306"
 ---
 # <a name="add-av-mcu-pool"></a>Agregar grupo de servidores MCU de A/V
  

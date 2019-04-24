@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Resumen: Elija la topología de Skype para Business Server. Obtenga información sobre la combinación de servidor de Skype para Business Server.'
 ms.openlocfilehash: 566d044defd69dd9ae79bc964c9a587332649b42
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205975"
 ---
 # <a name="topology-basics-for-skype-for-business-server"></a>Conceptos básicos de la topología de Skype para Business Server
 
@@ -297,6 +297,6 @@ El recurso compartido de archivos puede estar en un servidor separado o puede co
 
 - No se puede combinar ningún componente de mensajería unificada de Exchange ni SharePoint Server con cualquier Skype para el rol de servidor empresarial.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Topologías de referencia de Skype para Business Server](reference-topologies.md)

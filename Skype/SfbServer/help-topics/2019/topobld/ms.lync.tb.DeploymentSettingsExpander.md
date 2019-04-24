@@ -14,11 +14,11 @@ ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
 ms.openlocfilehash: b5e953f165c9e54fa2e7891b7562e840c78b3144
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201860"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 

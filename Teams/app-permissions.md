@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569649"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211111"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 
@@ -136,7 +136,7 @@ _Webhooks saliente_ se crean sobre la marcha por los propietarios del equipo o l
   </tr>
     <tr>
     <td valign="top">RECEIVE_MESSAGE, REPLYTO_MESSAGE. Puede recibir mensajes de los usuarios y responder a ellos.</td>
-    <td valign="top">Ninguno</td>
+    <td valign="top">Ninguna</td>
     <td valign="top"><ul><li>Webhooks salientes son similares a bots pero tiene menos privilegios. Debe ser explícitamente se ha mencionado, al igual que de bots.</li><li>Cuando se registra un webhook saliente, se genera un <em>secreto</em> , lo que permite el webhook saliente comprobar que el remitente es Microsoft Teams en contraposición a un atacante malintencionado. Este secreto debe permanecer un secreto; Microsoft Teams puede suplantar a cualquier persona que tiene acceso a ella. Si el secreto se ve comprometido, puede eliminarse y vuelve a crear la webhook saliente, y se generará un nuevo secreto.</li><li>Aunque it& #39; s posibles crear una webhook saliente que doesn& #39; t validar el secreto, no se recomienda.</li><li>Distinto de recibir y responder a mensajes, outgoing webhooks can& #39; t hacer mucho: se can& #39; t enviar mensajes, de forma proactiva can& #39; t enviar o recibir archivos, can& #39; t hacer nada más que puede hacer es bots recepción y responder a mensajes.</li></ul></td>
   </tr>
 </table>

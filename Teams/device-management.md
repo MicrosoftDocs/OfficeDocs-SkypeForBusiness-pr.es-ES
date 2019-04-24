@@ -18,11 +18,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541651"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199204"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
@@ -86,4 +86,4 @@ Use los perfiles de configuración para administrar la configuración y las cara
 
 2. Seleccione el **perfil de configuración**y, a continuación, en **asignado a** en el perfil que desea asignar, haga clic en el vínculo.  
 3. En el panel **asignar dispositivos a un perfil de configuración** , busque y seleccione los dispositivos que desee asignar.
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.

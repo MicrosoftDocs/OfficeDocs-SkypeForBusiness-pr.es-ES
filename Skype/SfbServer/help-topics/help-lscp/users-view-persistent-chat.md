@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Los miembros del rol CsPersistentChatAdministrator (administradores de Chat persistente) pueden conceder permisos y derechos de administrador de salón de chat a otros usuarios y a ellos mismos.
 ms.openlocfilehash: fda25be9d156c4f2c884fd76518dc09369be7487
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200400"
 ---
 # <a name="users-view-persistent-chat"></a>Usuarios: Ver chat persistente
 

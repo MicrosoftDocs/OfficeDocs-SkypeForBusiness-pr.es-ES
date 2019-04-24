@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 'Resumen: Obtenga información sobre cómo configurar la reunión página de participación en Skype para Business Server.'
 ms.openlocfilehash: 4f737bdab0586cb342d1271f348cf765ae093c5c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875549"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198035"
 ---
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Configuración de la reunión de la página de participación en Skype para Business Server
  

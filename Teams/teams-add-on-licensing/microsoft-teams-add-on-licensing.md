@@ -20,11 +20,11 @@ ms.custom:
 - LIL_Placement
 description: Obtenga información sobre las licencias de complemento, las características que se obtienen con cada licencia, cómo comprar un producto para el producto y cómo usar su operador de telefonía existente con ellos. Puede obtener información sobre precios y plan de detalles para Office 365, créditos de comunicación, y los planes de llamada.
 ms.openlocfilehash: 497881fc073297df36f0b26280e51694c69babcf
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013069"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204565"
 ---
 # <a name="microsoft-teams-add-on-licensing"></a>Licencias complementarias de Microsoft Teams
 
@@ -55,7 +55,7 @@ Según el plan que ya tiene, puede comprar licencias adicionales para las siguie
 |**Números de teléfono gratuitos para el acceso telefónico local a sus conferencias y la capacidad de realizar una llamada de salida desde una conferencia para agregar a alguien llamando a cualquier número de teléfono de todo el mundo** <br/> |Si agrega audioconferencias, se recomienda que [Configure los créditos de comunicaciones](../set-up-communications-credits-for-your-organization.md). <br/> |
 |**Sistema telefónico** <br/> |Un sistema PBX es un sistema telefónico en una empresa. Sistema de teléfono en Office 365 es un servicio hospedado de teléfono. Proporciona capacidades de PBX tradicionales e innovadoras, pero sin el equipamiento costoso y complejo. [Aquí es lo que obtiene con el sistema telefónico en Office 365](../here-s-what-you-get-with-phone-system.md).  <br/> Si busca cómo mucho los costos, vea [Sistema de teléfono](https://products.office.com/microsoft-teams/voice-calling).  <br/> |
 |**Planes de llamadas** <br/> |Las llamadas a otros usuarios de los equipos son gratuitas, pero si desea que los usuarios puedan llamar a los números de teléfono fuera de su negocio, obtener una [Planeación de la llamada](../calling-plans-for-office-365.md). Hay planes de llamadas nacionales y planes de llamadas nacionales e internacionales en Office 365.  <br/> Si busca cómo mucho los costos, vea [Llamar al Plan de precios](https://products.office.com/en-us/microsoft-teams/voice-calling).  <br/> |
-|**Salones de equipos de Microsoft** <br/> |No se trata de un complemento sino de una función que acerca el uso compartido de vídeos, audios y contenidos a las salas de conferencia. Vea [salones de equipos de Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
+|**Salas de Microsoft Teams** <br/> |No se trata de un complemento sino de una función que acerca el uso compartido de vídeos, audios y contenidos a las salas de conferencia. Vea [salones de equipos de Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2).  <br/> |
 
 [] ¿Necesita hablar con alguien acerca de los complementos opcionales? [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 
@@ -68,7 +68,7 @@ Las opciones de licencia de complemento disponibles depende de su plan de Office
 - [Office 365 Enterprise E1 o E3](office-365-enterprise-e1-e3.md)
 - [Office 365 Enterprise E5](office-365-enterprise-e5-with-audio-conferencing.md)
 - [Office 365 Enterprise E5 (sin audioconferencia)](office-365-enterprise-e5-without-audio-conferencing.md)
-- [Salones de equipos de Microsoft](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Salas de Microsoft Teams](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 - [Organizaciones gubernamentales, educativas y sin ánimo de lucro](gov-edu-and-nonprofit-organizations.md)
 
 ## <a name="how-to-see-prices-and-buy-add-on-licenses"></a>Cómo ver los precios y comprar licencias de complementos

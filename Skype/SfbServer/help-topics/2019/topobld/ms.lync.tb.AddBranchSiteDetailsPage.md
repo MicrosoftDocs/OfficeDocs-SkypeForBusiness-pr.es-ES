@@ -14,11 +14,11 @@ ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar los detalles de un sitio, haga lo siguiente:'
 ms.openlocfilehash: a9ba31fcbe5a8bfedfc722e6d822874b46336056
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202239"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sitio de sucursal
 

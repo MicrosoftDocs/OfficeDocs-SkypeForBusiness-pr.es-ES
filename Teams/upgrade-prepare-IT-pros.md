@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3524e28df5e24fa32655e694def1400db45c5953
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765208"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203941"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 
@@ -38,7 +38,7 @@ Los administradores de inquilinos de Office 365, técnicas y clientes potenciale
 Compartir los siguientes recursos con miembros de su personal de TI y confirmar que ya están listos para admitir usuarios antes de comenzar la actualización a los equipos:
 
 - [Formación de administradores para Microsoft Teams](itadmin-readiness.md)
-- [Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+- [Contactar con soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 - [Solucionar problemas de conectividad con el cliente de Microsoft Teams](connectivity-issues.md)
 - [Usar los archivos de registro para solucionar problemas en Microsoft Teams](log-files.md)
 

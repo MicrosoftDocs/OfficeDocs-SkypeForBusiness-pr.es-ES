@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 description: 'Este nodo muestra los puertos de escucha y las puertas de enlace de red telefónica conmutada (RTC) asociadas a este grupo de servidores de mediación. Puede efectuar las acciones siguientes:'
 ms.openlocfilehash: 192829c24bbfbd8263b2a6cb3263bb88b0da2c39
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200077"
 ---
 # <a name="mediation-server-scope-node"></a>Nodo de ámbito del servidor de mediación
  

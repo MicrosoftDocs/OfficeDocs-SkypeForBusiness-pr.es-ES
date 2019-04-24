@@ -12,11 +12,11 @@ ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
 description: Lea este tema para obtener información sobre cómo administrar las cuentas de Sistema de salas de Skype.
 ms.openlocfilehash: 4c276d4acf0cf15df7689fa5c11a0e6e2cde785b
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012527"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212624"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Administrar las cuentas del Sistema de salas de Skype
  

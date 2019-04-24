@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: Tbladupdate contiene los cambios de los servicios de dominio de Active Directory que aún no se han procesado por los pasos posteriores de sincronización de Active Directory.
 ms.openlocfilehash: 0e7bde110ad3d0495cb7ddea55e405eac21d96b4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899606"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212645"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  

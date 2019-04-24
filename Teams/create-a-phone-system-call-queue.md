@@ -22,13 +22,13 @@ ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas en la nube para dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
 ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914647"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199322"
 ---
-# <a name="create-a-cloud-call-queue"></a>Crear una cola de llamada de nube
+# <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
 Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera. Puede crear una o varias colas de llamadas para su organización.
   

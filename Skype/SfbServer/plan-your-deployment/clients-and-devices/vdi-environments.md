@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: En este tema se describe las consideraciones de planeación para el uso de Skype para la empresa mientras se conecta a un escritorio virtual remoto.
 ms.openlocfilehash: 0d24426ea661e5a2d445e4fd7ef90d6a41518692
-ms.sourcegitcommit: 2a34c9955d2cf54085dee527ea493ce991ef2e10
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207254"
 ---
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planificar Skype Empresarial en entornos de VDI
  
@@ -29,7 +29,7 @@ El entorno de Infraestructura de escritorio virtual (VDI) se utiliza en algunas 
   
 Existen tres soluciones disponibles para el componente de complemento de VDI, ofrecido por Microsoft, Citrix o VMWare. Para las implementaciones de nuevo, Microsoft recomienda el uso de la solución de Citrix HDX en tiempo real Optimization Pack o el paquete de virtualización de VMWare horizonte. El complemento de VDI de Lync original sigue siendo compatible con el resto de su ciclo de vida.
   
-- El **Complemento de VDI de Lync** se desarrolló para Lync 2013 y es compatible con el Lync 2013 o Skype para cliente 2015 empresariales que se ejecutan en un escritorio virtual. Es una aplicación independiente que se instala en el equipo local y permite usar dispositivos de audio y vídeo locales con un cliente en un escritorio virtual. El complemento no requiere un Skype para cliente empresarial esté instalado en el equipo local o un cliente ligero, que debe ejecutar sistemas operativos Windows 7, Windows 8 o Windows Server 2008. (Los dispositivos de cliente ligero con estos sistemas operativos y compatible con Microsoft: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, t610 de HP y HP t5740e.) Este complemento todavía se admite, pero planeados no hay actualizaciones en el futuro. Para los entornos virtuales basados en Citrix, se recomienda Citrix RealTime Optimization Pack.
+- El **Complemento de VDI de Lync** se desarrolló para Lync 2013 y es compatible con el Lync 2013 o Skype para cliente 2015 empresariales que se ejecutan en un escritorio virtual. It's a stand-alone application that installs on the local computer and allows the use of local audio and video devices with a client on a virtual desktop. El complemento no requiere un Skype para cliente empresarial esté instalado en el equipo local o un cliente ligero, que debe ejecutar sistemas operativos Windows 7, Windows 8 o Windows Server 2008. (Los dispositivos de cliente ligero con estos sistemas operativos y compatible con Microsoft: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, t610 de HP y HP t5740e.) Este complemento todavía se admite, pero planeados no hay actualizaciones en el futuro. For Citrix-based virtual environments, the Citrix RealTime Optimization Pack is recommended.
     
 - El **Paquete de optimización de Citrix en tiempo real** se basa en el complemento de VDI de Lync y funciona con Lync 2013 o Skype para clientes empresariales 2016 en un escritorio virtual. Se desarrolló de manera conjunta entre Citrix y Microsoft para mejorar a partir del complemento de VDI original. Puede instalarse en clientes con sistemas operativos Windows y distintos de Windows (incluidos Windows 10, Mac y Linux). Consta de dos componentes: el conector en tiempo real (que se instala en el escritorio virtual) y el motor de multimedia en tiempo real (que se instala en el equipo local del usuario final). Estos dos componentes de permitir que el equipo del usuario local que se usará el Skype para clientes empresariales que se ejecutan en el escritorio virtual con el / procesamiento V movido en el equipo local. Para los entornos de escritorio virtual basados en Citrix, se recomienda Citrix RealTime Optimization Pack y se prevé proporcionar mayor compatibilidad en el futuro.
     
@@ -47,9 +47,9 @@ Una lista completa de las características y tecnologías admitidas puede encont
   
 Consulte los siguientes vínculos para obtener más información:
   
-- Citrix [HDX RealTime Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
+- Citrix [HDX en tiempo real Optimization Pack 2.1](https://docs.citrix.com/en-us/hdx-optimization/2-1.mdl)
     
-- [Visión técnica general ](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
+- [Información general técnica](https://docs.citrix.com/en-us/hdx-optimization/2-1/about.mdl)
     
 - [CTX200279 Skype para compatibilidad con la característica empresarial](https://support.citrix.com/article/CTX200279)
     
@@ -91,9 +91,9 @@ Consulte los siguientes vínculos para obtener más información:
     
 - [Implementación del complemento Lync VDI con Skype para Business Server](../../deploy/deploy-clients/deploy-the-lync-vdi-plug-in.md)
     
-- Artículo del centro de conocimiento de Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
+- Artículo del centro de conocimientos de Citrix [CTX138408](https://support.citrix.com/article/CTX138408)
     
-El complemento Microsoft VDI está disponible en [Complemento Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) o [Complemento Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). Este complemento es compatible con la Skype para cliente empresarial 2015, a pesar del nombre.
+El complemento de VDI de Microsoft está disponible en el [complemento de Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) o el [complemento de VDI de Microsoft Lync 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454). Este complemento es compatible con la Skype para cliente empresarial 2015, a pesar del nombre.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Tecnologías de virtualización admitidas y limitaciones comunes
 <a name="Supported_virt"> </a>
@@ -104,7 +104,7 @@ El complemento de VDI Lync permite audio y vídeo de llamada de tecnologías de 
 
 El complemento de VDI Lync admite sesiones remotas escritorio completo en el escenario de escritorio virtual personal, pero no en el escenario de sesión de escritorio remoto. Estos entornos pueden describirse así:
   
-- **Admitido: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).** En esta situación, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio, que se conservan entre sesiones. Servicios de escritorio remoto de Microsoft y VMware horizonte vista son implementaciones de ejemplo que se han probado para su uso con Skype para profesionales de 2015. Otras implementaciones en etapa de validación incluyen Citrix XenDesktop. Para obtener información sobre entornos VDI específicos del proveedor y hardware del cliente que hayan sido probados por Microsoft, consulte [Infraestructura apta para Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
+- **Admitido: escritorios virtuales personalizados o infraestructura de escritorio virtual (VDI).** En esta situación, cada usuario inicia sesión en un escritorio virtual personalizable y puede guardar archivos en el escritorio, que se conservan entre sesiones. Servicios de escritorio remoto de Microsoft y VMware horizonte vista son implementaciones de ejemplo que se han probado para su uso con Skype para profesionales de 2015. Otras implementaciones en etapa de validación incluyen Citrix XenDesktop. Para obtener información acerca de los entornos de VDI específica del proveedor y el hardware de cliente que se han probado por Microsoft, vea [infraestructura compatibles con Microsoft Lync](https://go.microsoft.com/fwlink/?LinkID=313435).
     
 - **No admitido: sesiones de Escritorio remoto.** En esta situación, cada usuario inicia sesión en una sesión de escritorio virtual genérica que no puede personalizarse. Algunos ejemplos son las sesiones de escritorio remoto (RDSH) de Microsoft y Citrix XenApp combinar con Citrix receptor.
     
@@ -130,11 +130,11 @@ El equipo del usuario local debe cumplir los siguientes requisitos:
     
 - Si está usando Servicios de escritorio remoto, elija el 32 bits o 64 bits Lync VDI Plug-in para que coincida con el sistema operativo del equipo local. No se requiere que tanto el equipo local como la máquina virtual tengan sistemas operativos de 32 o 64 bits. Si utiliza otra solución o plataforma de virtualización, consulte los requisitos de su proveedor.
     
-- El equipo local debe ejecutar la [última versión del cliente de escritorio remoto](https://go.microsoft.com/fwlink/p/?LinkId=268032). Instale las últimas actualizaciones del cliente de los Servicios de Escritorio remoto de Microsoft o el último software de cliente de escritorio remoto del proveedor de soluciones de virtualización. 
+- El equipo local debe ejecutar la [versión más reciente del cliente de escritorio remoto](https://go.microsoft.com/fwlink/p/?LinkId=268032). Instale las últimas actualizaciones del cliente de los Servicios de Escritorio remoto de Microsoft o el último software de cliente de escritorio remoto del proveedor de soluciones de virtualización. 
     
 - En el equipo local, configure el cliente de escritorio remoto para que el audio se reproduzca en el equipo local y la grabación remota esté deshabilitada. Para configurar estas opciones de conexión a Escritorio remoto en Windows, vea la siguiente sección, "para configurar la conexión a Escritorio remoto." 
     
-El complemento Microsoft VDI está disponible en [Complemento Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) o [Complemento Microsoft Lync VDI 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
+El complemento de VDI de Microsoft está disponible en el [complemento de Microsoft Lync VDI 2013 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35457) o el [complemento de VDI de Microsoft Lync 2013 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=35454).
   
 #### <a name="known-feature-limitations"></a>Limitaciones comunes de la funciones
 <a name="VDI_prereq"> </a>

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c17f13f2-2e45-44d6-b56d-74ec8989eef1
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: bfb0a5cf30ac19e99c89482ae4cffbb2bb4d4762
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880056"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200453"
 ---
 # <a name="topology-view-simple-url"></a>Topología: Ver URL sencilla
 
