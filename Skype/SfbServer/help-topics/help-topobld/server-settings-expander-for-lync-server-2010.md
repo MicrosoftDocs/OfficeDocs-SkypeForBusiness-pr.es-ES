@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 'Para editar las propiedades de este equipo, realice lo siguiente:'
 ms.openlocfilehash: 4b05c52d92d3702c76afd6c7b682c1c9ffda7ab9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219208"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Expansor de configuración de servidor para Lync Server 2010
  

@@ -14,12 +14,12 @@ ms.collection:
 - M365-voice
 appliesto: Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: 202b25903a3e48b0a2a2f32853f061eb8ca73cc8
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.openlocfilehash: f23c0e9ef20b5fd06033b04dd611b76f530ef1c0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233518"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -44,7 +44,7 @@ Microsoft también ofrece soluciones de voz all-in-the-cloud, como la planeació
 - La organización requiere conexión a dispositivos analógicos de terceros, centros de llamadas y así sucesivamente. 
 - Su organización tiene un contrato existente con un operador de RTC.
 
-Enrutamiento directo también es compatible con los usuarios que tienen una licencia adicional para la planeación de una llamada a Microsoft. Para obtener más información, vea [Llamar a los planes en Office 365](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/what-are-calling-plans-in-office-365) y [licencias y otros requisitos](#licensing-and-other-requirements). 
+Enrutamiento directo también es compatible con los usuarios que tienen una licencia adicional para la planeación de una llamada a Microsoft. Para obtener más información, vea el [sistema telefónico y planes de llamada](calling-plan-landing-page.md). 
 
 Con el enrutamiento directo, cuando los usuarios participan en una conferencia programada, el número telefónico es proporcionado por el servicio de conferencia de Audio de Microsoft, que requiere licencia adecuada.  Al marcar, el servicio de conferencia de Audio de Microsoft coloca la llamada mediante las funciones de llamadas en línea, lo cual requiere licencia adecuada. (Tenga en cuenta que hacer llamadas no se enrutan a través de enrutamiento directo.) Para obtener más información, vea [Las reuniones en línea con los equipos](https://products.office.com/microsoft-teams/online-meeting-solutions). 
  
@@ -247,7 +247,7 @@ Los dispositivos que se han validado aparecen como certificado para el enrutamie
 Para obtener más información acerca de SBCs compatibles, vea la [lista de controladores de borde de sesión de certificados para el enrutamiento directo](direct-routing-border-controllers.md).
 
  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el enrutamiento directo](direct-routing-configure.md)
 

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'If you have more than 999 phone numbers to transferred to Skype for Business, learn how to submit a port order service request to get them moved. '
 ms.openlocfilehash: 7d6e8e6709a885e65888d330ef543556c5fa05b0
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958085"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229684"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Enviar una solicitud de servicio para una portabilidad de número local
 

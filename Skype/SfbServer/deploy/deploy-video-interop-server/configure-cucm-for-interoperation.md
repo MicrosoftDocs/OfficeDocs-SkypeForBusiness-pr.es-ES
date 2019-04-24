@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Resumen: Configure CUCM para que funcione con Skype para Business Server.'
 ms.openlocfilehash: 630ab5165c3c7bb3a64663d54ef750fe9275f932
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219662"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Configurar CUCM para la interoperación con Skype para Business Server
  
@@ -139,6 +139,6 @@ Llegado este punto, habrá configurado la puerta de enlace de vídeo de CUCM par
 > [!NOTE]
 > Para mejorar la resistencia, es posible que desee configurar esta puerta de enlace CUCM para que funcione con un segundo grupo de servidor de interoperabilidad de vídeo o con respecto. Mire [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para más información.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar un VTC para la interoperación con Skype para Business Server](configure-a-vtc-for-interoperation.md)

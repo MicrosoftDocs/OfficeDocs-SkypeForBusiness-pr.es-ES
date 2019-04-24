@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de Microsoft salones de los equipos de una manera integrada, end-to-end mediante el Monitor de Azure.
 ms.openlocfilehash: 599cbb7abce2b20dac27ffebacb041062a254905
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219532"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure
 
@@ -503,7 +503,7 @@ Monitor de Azure proporciona soluciones de administración integradas a través 
 > [!NOTE]
 > La solución de mantenimiento de agente puede ayudar a identificar a anticuados o rotos agentes Microsoft Monitoring dentro de su entorno y la solución de administración de alertas proporciona información detallada acerca de las alertas que se han desencadenado dentro de un período determinado.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de la administración de salas de equipos de Microsoft con el Monitor de Azure](../../plan-your-deployment/clients-and-devices/azure-monitor.md)
 

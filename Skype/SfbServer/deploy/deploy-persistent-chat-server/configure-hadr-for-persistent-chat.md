@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015.'
 ms.openlocfilehash: 7bc1ae0b71df3916c36acfdc7fabce91caa297e8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225451"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  

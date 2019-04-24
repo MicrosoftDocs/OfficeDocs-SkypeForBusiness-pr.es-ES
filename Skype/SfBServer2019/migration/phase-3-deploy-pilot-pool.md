@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f12b1517-fb56-4ded-8323-57aa9fc9ea48
 description: En esta sección se describe los pasos necesarios para implementar un grupo piloto de Skype para Business Server 2019. La implementación de Skype para Business Server 2019 requiere el uso de Topology Builder para definir la topología y los componentes que desea implementar, preparar su entorno para la implementación de la Skype para los componentes de Business Server 2019, publicar su topología diseño en el primer servidor Front-End y, a continuación, instalar y configurar Skype para Business Server 2019 software para los componentes para la implementación. Cuando complete, su Skype para la implementación del grupo piloto de Business Server 2019 coexiste con un grupo de servidores heredado existente.
 ms.openlocfilehash: 457b2daad926b3e2f15c1673cadea5cd249cf99f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231556"
 ---
 # <a name="phase-3-deploy-skype-for-business-server-2019-pilot-pool"></a>Fase 3: Implementar Skype para Business Server 2019 el grupo piloto
 

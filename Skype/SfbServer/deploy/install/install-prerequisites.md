@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumen: Obtenga información sobre los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32210483"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar los requisitos previos de Skype para Business Server
  

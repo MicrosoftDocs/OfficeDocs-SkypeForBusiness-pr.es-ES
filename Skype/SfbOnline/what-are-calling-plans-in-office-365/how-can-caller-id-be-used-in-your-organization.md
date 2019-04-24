@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
 ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229891"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
@@ -49,7 +49,7 @@ Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
   
 - El número de teléfono asignado al usuario, que es el valor predeterminado.
     
-- Un número de teléfono que está clasificado como un *servicio* y un número *gratuito* en el inventario de números de teléfono de Planes de llamadas de Office 365. Normalmente, se asigna a una cola de llamadas o de operador automático organizativos.
+- A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
 - Configurado como anónimo.
     
@@ -63,7 +63,7 @@ Para establecer la identificación de llamadas de salida, consulte [Establecer e
   
 ### <a name="end-user-control-of-outbound-caller-id"></a>Control de usuario final para la identificación de llamadas de salida
 
-El atributo EnableUserOverride permite a uno o varios usuarios cambiar su configuración de identificación de llamadas a **Anónimo**. Esto solo se aplica cuando una directiva de CallingLineIdentity se configura con un parámetro CallingIDSubstitute de LineURI o Substitute. El valor predeterminado de EnableUserOverride es False.
+The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
 Los usuarios finales pueden establecer su identificador de autor de la llamada a **anónimo** mediante la ficha **configuración** en el Skype para el cliente de escritorio empresarial, seleccione **llamadas a un usuario final** (si se habilita por admin), seleccione información del perfil y el número de **Ocultar Mi teléfono para todas las llamadas **.
   
@@ -78,7 +78,7 @@ Los usuarios finales pueden establecer su identificador de autor de la llamada a
    
 ## <a name="inbound-caller-id"></a>Identificación de llamadas de entrada
 
-El atributo BlockIncomingCallerID permite bloquear la identificación de llamadas en las llamadas RTC de entrada. Puede establecer este atributo, pero no está disponible para los usuarios finales en la página de configuración de usuario. En este momento está solo disponible con la conectividad con RTC en línea.
+The BlockIncomingCallerID attribute allows for blocking the caller ID on incoming PSTN calls. You can set this attribute, but it isn't available to your end users on the user settings page. And it is currently available only with Online PSTN connectivity.
   
 Para establecer la identificación de llamadas de salida, consulte [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md).
   

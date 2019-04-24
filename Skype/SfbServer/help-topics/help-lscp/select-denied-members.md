@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 description: Un administrador de Chat persistente puede crear y administrar categorías de salón de chat. Como parte de la creación y administración de categorías de salón de chat, un administrador de Chat persistente puede configurar entidades de seguridad (los servicios de dominio de Active Directory grupos/contenedores o usuarios) que tienen acceso a ser miembros o los creadores de salones de chat de una categoría determinada. Un administrador de Chat persistente también puede agregar DeniedMembers a una categoría y se convierten en exclusiones explícitas a la lista de permitidos. DeniedMembers reemplazar lo que aparece en AllowedMembers.
 ms.openlocfilehash: a4726710bcf331c940c73380dc43b98a6f422c66
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220210"
 ---
 # <a name="select-denied-members"></a>Seleccionar miembros denegados
 
@@ -41,6 +41,6 @@ En **pertenencia**, en la sección **miembros denegados** , agregue o quite usua
 
 Para obtener información detallada sobre las características de servidor de Chat persistente y funciones, consulte [Información general de Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) en la documentación de implementación y [administración de Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)

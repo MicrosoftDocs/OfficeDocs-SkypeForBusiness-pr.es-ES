@@ -19,16 +19,16 @@ search.appverid: MET150
 description: Obtenga información sobre las directivas de permisos de aplicación en Microsoft Teams y cómo usarlos para controlar qué aplicaciones están disponibles para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: 49200d597811d87ce27d94d9bb19577def6355c1
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 8c35871fde876e01bba1ad8a843cd25fa0174c8d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225161"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
-> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon.md)]
+> [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
 
 Como administrador, puede usar las directivas de permisos de aplicación para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams en su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas, publicadas por Microsoft, terceros y su organización. Cuando se bloquea una aplicación, los usuarios son no se puede instalar desde el almacén de aplicación de los equipos.
 
@@ -79,7 +79,7 @@ Si desea controlar las aplicaciones que están disponibles para distintos grupos
     1. Cuando haya elegido la lista de aplicaciones, haga clic en **Permitir**.
 
 6. De forma similar, si selecciona **bloquear aplicaciones específicas y permitir que todos los otros usuarios**, buscar y agregar las aplicaciones que desea bloquear.
-7. Haga clic en **Guardar**.
+7. Haga clic en **Guardar **.
 
 ## <a name="edit-an-app-permission-policy"></a>Editar una directiva de permisos de aplicación
 
@@ -88,7 +88,7 @@ Puede usar el centro de administración de Microsoft Teams para modificar una di
 1. En la izquierda el centro de administración de Microsoft Teams, vaya a la **aplicación de los equipos** > **las directivas de permisos**.
 2. Seleccione la directiva que desee editar.
 3. Desde aquí, realice los cambios que desee. Puede administrar la configuración según el publicador de la aplicación y agregar y quitar aplicaciones según la configuración de permitir o bloquear.
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
 
 ## <a name="assign-a-custom-app-permission-policy-to-users"></a>Asignar una directiva de permisos de aplicación personalizada a los usuarios
 
@@ -137,7 +137,7 @@ $members | ForEach-Object { Grant-CsTeamsAppPermissionPolicy -PolicyName "HR App
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="working-with-app-permission-policies"></a>Trabajar con directivas de permisos de aplicación
 

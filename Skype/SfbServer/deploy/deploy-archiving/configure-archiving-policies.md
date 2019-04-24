@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales de Skype para los usuarios de Business Server.'
 ms.openlocfilehash: 88840d10cbd7a71b32b5079a8600018b97e8b0c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233247"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configure las directivas de archivado para Skype para Business Server
  

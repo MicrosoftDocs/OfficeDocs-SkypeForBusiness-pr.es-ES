@@ -14,11 +14,11 @@ ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar al Asistente para la administración híbrida para llevar a cabo algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype para profesionales en línea. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, vea Configure your environment con el Asistente para la administración híbrida.
 ms.openlocfilehash: d0770e193d84337189cdd7a24fdb471faa275b9b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890779"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215566"
 ---
 # <a name="hybrid-manageability-wizard"></a>Asistente para la administración híbrida
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3172d85065f72d16df800d77e196632181c7d7bd
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30459711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218665"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
 
@@ -47,7 +47,7 @@ Un plan de preparación del usuario óptima incorpora cómo comunicarse con, ent
 <table>
 <tbody>
 <tr><th>¿Qué canales de comunicación aprovechará?</th><th>¿Qué canales de aprendizaje aprovechará?</th><th>¿Qué soporte canales realizarán usar?</th></tr>
-<tr><td><ul><li>Email<br><strong>Sugerencia:</strong> Use nuestra coexistencia piloto, ejemplo y actualizar los correos electrónicos para personalizar su campaña de correo electrónico.</li><li>Pósteres y señalización digital</li><li>Eventos de inicio</li><li>Directores de departamento</li><li>Expertos</li><li>Los equipos o canales</li><li>Gamification</li></ul></td><td><ul><li>Publicado de Microsoft online artículos y vídeos</li><li>Recursos:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Cambiar a los equipos de Skype para la empresa</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Aprendizaje de vídeo de los equipos</a></li></ul></li><li>Asistencia del producto (Ayuda)</li><li>Equipo de formación interna</li><li>Equipo de formación de socio</li></ul></td><td><ul><li>Departamento de soporte técnico interno</li><li>Servicio de soporte técnico externo</li><li>Sin intervención del administrador (sitio de intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ayuda y procedimientos de la Ayuda en línea</a></li><li>Floor andadores y Campeones</li><li>Bucle de comentarios (encuestas, las clasificaciones)</li></ul></td></tr>
+<tr><td><ul><li>Email<br><strong>Sugerencia:</strong> Use nuestra coexistencia piloto, ejemplo y actualizar los correos electrónicos para personalizar su campaña de correo electrónico.</li><li>Pósteres y señalización digital</li><li>Eventos de inicio</li><li>Directores de departamento</li><li>Expertos</li><li>Los equipos o canales</li><li>Gamification</li></ul></td><td><ul><li>Publicado de Microsoft online artículos y vídeos</li><li>Recursos:<ul><li><a href="https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964" data-raw-source="[Switch to Teams from Skype for Business](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964)">Cambiar a Teams desde Skype Empresarial</a></li><li><a href="https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home" data-raw-source="[Teams Video Training](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7?wt.mc_id=otc_home)">Aprendizaje de vídeo de los equipos</a></li></ul></li><li>Asistencia del producto (Ayuda)</li><li>Equipo de formación interna</li><li>Equipo de formación de socio</li></ul></td><td><ul><li>Departamento de soporte técnico interno</li><li>Servicio de soporte técnico externo</li><li>Sin intervención del administrador (sitio de intranet)</li><li><a href="https://support.office.com/teams" data-raw-source="[Online help and how-to](https://support.office.com/teams)">Ayuda y procedimientos de la Ayuda en línea</a></li><li>Floor andadores y Campeones</li><li>Bucle de comentarios (encuestas, las clasificaciones)</li></ul></td></tr>
 </tbody>
 </table>
 </div>

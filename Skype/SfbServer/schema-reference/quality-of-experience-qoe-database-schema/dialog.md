@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4d93424f-9072-43f5-83c2-3d539e3e9ca6
 description: La tabla diálogo es una tabla de apoyo; cada registro representa un cuadro de diálogo de protocolo de inicio de sesión (SIP).
 ms.openlocfilehash: 017da65154d12c89aeed63ea59269639d23b2129
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876630"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212575"
 ---
 # <a name="dialog-table"></a>Tabla Dialog
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 4d41c54a0ec68f7facc40a40ced9ca7abdb595ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219861"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Configuración de seguridad del servicio web: Crear nuevos o modificar los existentes
 

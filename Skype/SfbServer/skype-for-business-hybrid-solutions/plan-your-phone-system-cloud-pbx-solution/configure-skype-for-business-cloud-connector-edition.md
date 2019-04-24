@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: ce323f4b-24e4-4ddf-84a3-67da82bb0c87
 description: Obtenga información sobre cómo configurar Skype para Business Edition de conector de en la nube, una topología mínima local para habilitar la integración de la infraestructura de voz local con el sistema telefónico en los servicios de voz de Office 365 (en la nube PBX) de Skype para profesionales en línea.
 ms.openlocfilehash: 5d057a299e51bfb83bd6711fcf1fbe8b4ee98f02
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227918"
 ---
 # <a name="configure-and-manage-skype-for-business-cloud-connector-edition"></a>Configuración y administración de Skype Empresarial Cloud Connector Edition
  

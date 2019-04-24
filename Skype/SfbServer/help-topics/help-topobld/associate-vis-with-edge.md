@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
 ms.openlocfilehash: 82739e421ee2d4e7cbf8b09ff7c3a61ed6435016
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227371"
 ---
 # <a name="associate-vis-with-edge"></a>Asociar VIS con servidor perimetral
  
@@ -32,6 +32,6 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
  La configuración de un VTC que es necesario definir en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un respecto se describe en línea al [configurar un VTC para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planificar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015](../../plan-your-deployment/video-interop-server.md)

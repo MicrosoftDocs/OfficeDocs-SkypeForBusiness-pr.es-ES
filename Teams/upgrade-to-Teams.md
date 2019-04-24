@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 640ea739b91a8e4904d5ac93a73c533d980033c1
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218742"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
@@ -38,7 +38,7 @@ En este artículo forma parte de la fase de implementación y la implementación
 
 Elija su viaje por la actualización en función de la implementación actual de Skype para la empresa:
 
-- [Actualización de Skype para la empresa en línea a los equipos](https://aka.ms/SkypeToTeams-UpgradeOnline)
+- [Actualización de Skype Empresarial Online a Microsoft Teams](https://aka.ms/SkypeToTeams-UpgradeOnline)
 - [Actualización de Skype para entornos híbridos de negocio a los equipos](https://aka.ms/SkypeToTeams-UpgradeHybrid)
 - [Actualización de Skype para empresarial local a los equipos](https://aka.ms/SkypeToTeams-UpgradeOnPrem)
 

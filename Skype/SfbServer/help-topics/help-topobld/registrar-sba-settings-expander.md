@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
 ms.openlocfilehash: 118c7e3eda7fc8422483989880f7ae0b31b9842f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219194"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 
@@ -39,6 +39,6 @@ Editar la configuración de **resistencia** y configure las siguientes propiedad
 
   **Ayuda.** Abre esta pantalla de ayuda.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de resistencia de Enterprise Voice](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx)

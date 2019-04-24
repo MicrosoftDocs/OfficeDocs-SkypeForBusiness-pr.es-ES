@@ -14,11 +14,11 @@ ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 ROBOTS: NOINDEX, NOFOLLOW
 description: Creación y administración de salas de Chat persistente es mucho más sencillo con el uso correcto de las categorías. Un administrador de Chat persistente puede definir AllowedMembers y Creators para cada categoría y también puede definir la configuración predeterminada de salón de chat y comportamientos que se aplicará a todos los salones de chat creados en la categoría. Los administradores de charla persistentes crean y administran las categorías mediante el uso de Skype para cmdlets de Windows PowerShell o de Panel de Control de servidor empresarial.
 ms.openlocfilehash: df8092a77edd0d66563f1c963bdbc3906875d98a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215076"
 ---
 # <a name="select-creators"></a>Seleccionar creadores
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3d10abf2-d484-4fa0-8f10-4a5f9dfba4f5
 description: 'Resumen: Información general de los métodos de instalación de cliente de empresa de Skype para la empresa.'
 ms.openlocfilehash: 49eff64918deefe2ec169993557dd0f9dfbf6955
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012542"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212722"
 ---
 # <a name="deploy-clients-for-skype-for-business-server"></a>Implementar a clientes de Skype para Business Server
  
@@ -59,6 +59,6 @@ En los temas de esta sección se describen cómo utilizar y personalizar Windows
     
 - [Personalizar la experiencia del cliente de Mac en Skype Empresarial](customize-the-mac-client-experience.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar el Skype para cliente empresarial en Office 365](../../../SfbOnline/set-up-skype-for-business-online/deploy-the-skype-for-business-client-in-office-365.md)

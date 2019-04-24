@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Cuando una cuenta de usuario se mueve de a un Skype para Business Server 2019 server, se mueve la información siguiente con esa cuenta de usuario:'
 ms.openlocfilehash: bf10fa6b4ad4d555ce80dee5ec4e4a6584020ac7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231661"
 ---
 # <a name="migrate-existing-meetings-and-meeting-content"></a>Migración de reuniones existentes y contenido de reuniones
 

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede mover un usuario de su grupo heredado a su Skype para Business Server 2019 grupo piloto con Skype para el Panel de Control de Business Server 2019 o Skype para Shell de administración de Business Server 2019. En el ejemplo siguiente, en la columna grupo de registrador, pool01.contoso.net es el grupo heredado y todos los seis de estos usuarios están conectados a este grupo de servidores. Use los siguientes procedimientos para mover un usuario a su Skype para grupo de negocio Server 2019 mediante Skype para el Panel de Control de Business Server 2019 y Skype para Shell de administración de servidor empresarial.
 ms.openlocfilehash: 94896ce2ea05a3102d5a7643e3f26430e74bfe19
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231598"
 ---
 # <a name="move-a-single-user-to-the-pilot-pool"></a>Mover un usuario único para el grupo piloto
 

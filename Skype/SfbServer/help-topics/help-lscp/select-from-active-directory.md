@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 description: Use la seleccione desde el cuadro de diálogo de Active Directory para buscar los usuarios que desea habilitar para Skype para Business Server. Escriba en el cuadro de búsqueda la dirección SIP o nombre para mostrar del usuario que quiera localizar. Para recuperar todos los usuarios disponibles, deje vacío el cuadro de búsqueda.
 ms.openlocfilehash: c9f040c21dc84785a06558c0853cd4f4904c0486
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220174"
 ---
 # <a name="select-from-active-directory"></a>Seleccionar de Active Directory
  

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Puede configurar vínculos entre dos regiones de red como parte del control de admisión de llamadas (CAC). '
 ms.openlocfilehash: 4ea6ddcc72d2cadea32608288d1db93ba8505aee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246078"
 ---
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Vincular regiones de red en Skype Empresarial Server
 
@@ -129,7 +129,7 @@ Puede configurar vínculos entre dos regiones de red como parte del control de a
 6.  Haga clic en **Aceptar**.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkRegionLink](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegionLink)  
 

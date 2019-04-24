@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 57930738-0d43-4e2f-aaa1-bb0801e9ed32
 description: Utilice el asistente Editar usuarios para modificar las cuentas de usuario en la implementación. Para más información, consulte Use the Hybrid Manageability wizard.
 ms.openlocfilehash: d2ab65d40595828ba979f9d046ab584bad16d97c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885672"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220385"
 ---
 # <a name="hybrid-wizard-edit-users"></a>Asistente híbrido: Editar usuarios
 

@@ -15,11 +15,11 @@ ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para la herramienta de planeación de Business Server
 ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220979"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

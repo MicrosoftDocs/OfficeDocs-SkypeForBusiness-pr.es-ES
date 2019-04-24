@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: Lea este tema para obtener más información acerca de cómo implementar el sistema de sala de Skype en un entorno que tiene varias versiones de Skype para Business Server y Lync Server.
 ms.openlocfilehash: fef5e3e0a64fd1d533a53586b470584421a165ea
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219433"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Consideraciones acerca de la migración del Sistema de salas de Skype
  

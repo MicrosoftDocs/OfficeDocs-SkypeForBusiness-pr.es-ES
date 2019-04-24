@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el Skype para informe de grupos de servidores minuto RTC de negocio para ver el número de minutos consumidos durante el mes actual dentro de la organización.
 ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239902"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
@@ -37,7 +37,7 @@ Revise la [información general de informes](https://support.office.com/article/
 Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y realizar otras decisiones empresariales para su organización y para la configuración de [Comunicaciones de créditos](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo llegar a la Skype para informe de grupos de servidores minuto RTC de negocio
 

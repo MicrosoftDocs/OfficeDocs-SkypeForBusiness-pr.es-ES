@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Para editar las propiedades de una base de datos de SQL Server, debe cambiar la instancia de base de datos de SQL Server. No puede usar el cuadro de diálogo Editar propiedades para realizar tareas tales como mover la base de datos del servidor de archivado de un equipo a otro. Además, no puede usar el cuadro de diálogo Editar propiedades para cambiar la instancia de SQL Server que hospeda el almacén de Administración Central.
 ms.openlocfilehash: aab2797ccd0e96c01be33742faf7e00debbd76a8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219053"
 ---
 # <a name="sql-store-settings-expander"></a>Expansor de configuración de almacén SQL
  

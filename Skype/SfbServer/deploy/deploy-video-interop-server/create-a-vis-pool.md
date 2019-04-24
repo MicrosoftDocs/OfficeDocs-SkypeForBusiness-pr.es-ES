@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Resumen: Cree un grupo de servidores de interoperabilidad de vídeo en Skype para Business Server mediante el generador de topología.'
 ms.openlocfilehash: 484cb1c504680dde393d24ce65606e415d070edb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874112"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219639"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Crear un grupo de servidores con respecto de Skype para Business Server
  
@@ -63,7 +63,7 @@ ms.locfileid: "30874112"
     > Para mejorar la resistencia, es posible que desee configurar un segundo grupo de servidor de interoperabilidad de vídeo o con respecto, o un grupo de servidores Front-End copia de seguridad. Consulte [Resiliency mechanisms](../../plan-your-deployment/video-interop-server.md#resiliency) para más información.
   
 Todas las tareas realizadas con el Generador de topologías tendrían que finalizar aquí. Continúe con la instalación del software en el nuevo servidor o en los nuevos servidores VIS.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar el rol de servidor de respecto de Skype para Business Server](deploy-the-vis-server-role.md)
 

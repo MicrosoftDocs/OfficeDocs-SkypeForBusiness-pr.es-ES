@@ -1,5 +1,5 @@
 ---
-title: Lista de comprobación de incorporación para configurar el enrutamiento directa en Microsoft Teams
+title: Lista de comprobación de incorporación para configurar el enrutamiento directo en Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4e71ed6068c56ab6486e7b4d976ff82c325fe22a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228418"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar el enrutamiento directo en los equipos de Microsoft
 
@@ -37,7 +37,7 @@ ms.locfileid: "30465071"
 |7|Configurar SBCs|Microsoft sólo admite la SBCs certificadas para emparejar con el enrutamiento directo.<br><br>Configurar SBCs mediante instrucciones específicas del proveedor y las instrucciones que aparecen en el artículo en la columna de **información adicional** .||[Admite controladores de borde de sesión (SBCs)](https://docs.microsoft.com/microsoftteams/direct-routing-plan#supported-session-border-controllers-sbcs)|
 |8|SBCs par con el enrutamiento directo|SBCs en cada sitio deben estar emparejados con el enrutamiento directo para proporcionar capacidades llamadas de RTC y tono de marcado mediante sus propio troncos.<br><br>Validar la SBC en ese sitio específico ya se corresponde con el enrutamiento directo o configurar el par si no lleva a cabo antes de.<br><br>Microsoft admite sólo la certificadas SBC proceso para emparejar con el enrutamiento directo. Validar la SBC en ese sitio está certificado.||[Empareje la SBC para dirigir el servicio de enrutamiento del sistema de teléfono](https://docs.microsoft.com/microsoftteams/direct-routing-configure#pair-the-sbc-to-direct-routing-service-of-phone-system)|
 |9|Validar el emparejamiento SBC|Ejecute el `Get-CsOnlinePSTNGateway` cmdlet para cada SBC emparejada para el sitio específico y compruebe que el parámetro **Enabled** muestra el valor **True**.<br><br>Use la interfaz de administración de SBC para comprobar que obtiene el SBC **200 "OK"** las respuestas a las opciones de SIP saliente.|||
-| 10|Validar la configuración del usuario|Compruebe que las cuentas de usuario se crean directamente en Office 365 o se sincronizan en Office 365 mediante la sincronización de Active Directory.<br><br>Compruebe que se asignan las licencias necesarias a los usuarios.<br><br>Para la conectividad de RTC con el enrutamiento directo, los usuarios deben ser alojados en Skype para profesionales en línea y habilitados para Microsoft Teams.||[Habilitar a usuarios para el servicio de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
+|10|Validar la configuración del usuario|Compruebe que las cuentas de usuario se crean directamente en Office 365 o se sincronizan en Office 365 mediante la sincronización de Active Directory.<br><br>Compruebe que se asignan las licencias necesarias a los usuarios.<br><br>Para la conectividad de RTC con el enrutamiento directo, los usuarios deben ser alojados en Skype para profesionales en línea y habilitados para Microsoft Teams.||[Habilitar a usuarios para el servicio de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-users-for-direct-routing-service)|
 |11|Configurar números de teléfono de los usuarios|Todos los usuarios que están en el ámbito de enrutamiento directo deben asignarse sus números de teléfono y correo de voz.<br><br> Uso `Set-CsUser` cmdlet para habilitar el correo de voz y asignar los números de teléfono a los usuarios.||[Configurar el número de teléfono y habilitar correo de voz y telefonía IP empresarial](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail)|
 |12|Configurar enrutamiento de voz|Sistema telefónico tiene un mecanismo de enrutamiento que permite que una llamada se envíen a un SBC específico en función de:<ul><li>Patrón de número llamado<li>Patrón de número llamado + usuario específico que realiza la llamada</ul>Configurar enrutamiento de voz para los usuarios mediante la creación de:<ul><li>Las directivas de enrutamiento de voz<li>Usos de RTC<li>Rutas de voz<li>Puertas de enlace RTC en línea</ul>||[Configurar enrutamiento de voz](https://docs.microsoft.com/microsoftteams/direct-routing-configure#configure-voice-routing)|
 |13|Establecer Teams Microsoft como cliente llamado preferido para los usuarios|Antes de que un usuario puede ver la ficha **llamadas** en Microsoft Teams, tiene que habilitar **llamada privada** para el inquilino en Microsoft Teams y el cliente de los equipos debe configurarse como el **preferido llamar al cliente** para los usuarios.||[Habilitar las llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/direct-routing-configure#enable-calling-for-microsoft-teams)<br><br>[Establecer Teams Microsoft como cliente llamado preferido para los usuarios](https://docs.microsoft.com/microsoftteams/direct-routing-configure#set-microsoft-teams-as-the-preferred-calling-client-for-the-users)|

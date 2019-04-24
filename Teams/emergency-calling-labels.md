@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: Puede descargar estas etiquetas para llamada de emergencia cuando usa planes de llamada en Office 365.
 ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244440"
 ---
 # <a name="emergency-calling-labels"></a>Etiquetas de llamadas de emergencia
 
@@ -37,4 +37,4 @@ Se trata de emergencias al llamar a las etiquetas de declinación de responsabil
 
 [Diferentes tipos de números de teléfono que se usan para Planes de llamada](different-kinds-of-phone-numbers-used-for-calling-plans.md)
 
-[Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
+[Términos y condiciones de llamadas de emergencia](emergency-calling-terms-and-conditions.md)

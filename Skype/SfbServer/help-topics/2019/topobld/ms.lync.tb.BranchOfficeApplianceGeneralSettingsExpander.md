@@ -14,11 +14,11 @@ ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar la configuración de una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, le presentamos las secciones siguientes:'
 ms.openlocfilehash: 6d0b1bd829a347ae1a9c5c7d3f807bfab323fe4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220590"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 

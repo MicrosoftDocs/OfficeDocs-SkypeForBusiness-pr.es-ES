@@ -16,15 +16,16 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211439"
 ---
-# <a name="quality-of-experience-review-guide"></a>Calidad de experiencia consulte la Guía
+# <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
-<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->Esta guía es acerca de la fase de valor de unidad para Microsoft Teams y Skype para profesionales en línea. Puede [descargar una versión de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de esta guía.
+<!-- Note that this link to the Word doc is intentionally NOT the aka.ms/qerquide link -->
+Esta guía es acerca de la fase de valor de unidad para Microsoft Teams y Skype para profesionales en línea. Puede [descargar una versión de Word](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/quality-of-experience-review-guide.docx?raw=true) de esta guía.
 
 ## <a name="introduction"></a>Introducción
 
@@ -635,20 +636,20 @@ _Tabla 5: creación de la estructura de archivos_
 
 | Nombre de columna        | Tipo de datos | Ejemplo                   | Instrucciones    |
 |--------------------|-----------|---------------------------|-------------|
-| Red            | Cadena    | 192.168.1.0               | Requerido    |
-| NetworkName        | Cadena    | Estados Unidos/Seattle/SEATTLE-mar-1 | Requerido\*  |
-| NetworkRange       | Número    | 26                        | Requerido    |
-| BuildingName       | Cadena    | SEATTLE-MAR-1             | Requerido\*  |
-| OwnershipType      | Cadena    | Contoso                   | Opcional     |
-| BuildingType       | Cadena    | Terminación de TI            | Opcional     |
-| BuildingOfficeType | Cadena    | De ingeniería               | Opcional     |
-| Ciudad               | Cadena    | Seattle                   | Recomendado |
-| ZipCode            | Cadena    | 98001                     | Recomendado |
-| País            | Cadena    | NOSOTROS                        | Recomendado |
-| Estado              | Cadena    | WA                        | Recomendado |
-| Region             | Cadena    | MSUS                      | Recomendado |
-| InsideCorp         | Booleano      | 1                         | Requerido    |
-| ExpressRoute       | Booleano      | 0                         | Requerido    |
+| Red            | String    | 192.168.1.0               | Obligatorio    |
+| NetworkName        | String    | Estados Unidos/Seattle/SEATTLE-mar-1 | Obligatorio\*  |
+| NetworkRange       | Número    | 26                        | Obligatorio    |
+| BuildingName       | String    | SEATTLE-MAR-1             | Obligatorio\*  |
+| OwnershipType      | String    | Contoso                   | Opcional    |
+| BuildingType       | String    | Terminación de TI            | Opcional    |
+| BuildingOfficeType | String    | De ingeniería               | Opcional    |
+| Ciudad               | String    | Seattle                   | Recomendado |
+| ZipCode            | String    | 98001                     | Recomendado |
+| País            | String    | NOSOTROS                        | Recomendado |
+| Estado              | String    | WA                        | Recomendado |
+| Region             | String    | MSUS                      | Recomendado |
+| InsideCorp         | Booleano      | 1                         | Obligatorio    |
+| ExpressRoute       | Booleano      | 0                         | Obligatorio    |
 
 \*Si bien no es necesario por CQD, las plantillas están configuradas para mostrar la generación y red nombre.
 
@@ -1237,7 +1238,7 @@ Pueden encontrar los números de versión de Skype para la empresa a través de 
 
 -   [Información sobre actualizaciones de Office ProPlus la versión](https://docs.microsoft.com/officeupdates/release-notes-office365-proplus)
 -   [Historial de actualizaciones de Office 365 ProPlus](https://docs.microsoft.com/officeupdates/update-history-office365-proplus-by-date)
--   [Skype para la empresa, descargas y actualizaciones](/SkypeForBusiness/software-updates)
+-   [Descargas y actualizaciones de Skype Empresarial](/SkypeForBusiness/software-updates)
 
 ### <a name="devices"></a>Dispositivos
 
@@ -1316,14 +1317,14 @@ La calidad de medios en tiempo real (audio, vídeo y uso compartido de aplicacio
 
 _Tabla 12 - requisitos de rendimiento de red_
 
-| Métrica                            | Cliente a Microsoft Edge           | Perímetro de cliente a Microsoft Edge    |
+| Métrica                            | Cliente hasta el borde de Microsoft           | Borde de cliente hasta el borde de Microsoft    |
 |-----------------------------------|------------------------------------|------------------------------------|
 | Latencia (unidireccional)                 | \<50 ms                            | \<30 ms                            |
 | Latencia (RTT o tiempo de ida y vuelta) | \<100 ms                           | \<60 ms                            |
-| Pérdida de paquetes de ráfaga                 | \<10% durante un intervalo de 200 ms   | \<% 1 durante cualquier intervalo de 200 ms    |
+| Ráfagas de pérdida de paquetes                 | \<10% durante un intervalo de 200 ms   | \<% 1 durante cualquier intervalo de 200 ms    |
 | Pérdida de paquetes                       | \<% 1 durante cualquier intervalo de 15 segundos    | \<0,1% durante un intervalo de 15 segundos  |
-| Vibración entre llegadas de paquetes       | \<30 ms durante un intervalo de 15 segundos | \<15 ms durante un intervalo de 15 segundos |
-| Reordenamiento de paquetes                    | \<paquetes de salida de orden 0,05%       | \<paquetes de salida de orden 0,01%      |
+| Vibración de llegada entre granjas de paquetes       | \<30 ms durante un intervalo de 15 segundos | \<15 ms durante un intervalo de 15 segundos |
+| Reaprovisionamiento de paquetes                    | \<paquetes de salida de orden 0,05%       | \<paquetes de salida de orden 0,01%      |
 
 Para obtener más información, vea [este artículo acerca del rendimiento de red y de calidad de medios](https://aka.ms/performancerequirements) para los equipos y Skype para profesionales en línea.
 

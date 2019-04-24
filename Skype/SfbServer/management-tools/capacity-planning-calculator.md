@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumen: cómo usar la herramienta de calculadora de capacidad.'
 ms.openlocfilehash: 9ec15c4bdcfee98e2f018a443c84384ebde8aaeb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217855"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculadora de planeamiento de capacidad de Skype Empresarial Server
  

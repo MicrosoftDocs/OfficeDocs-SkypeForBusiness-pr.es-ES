@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lea este tema para obtener información acerca de las herramientas de administración para el sistema de salas de Skype.
 ms.openlocfilehash: 9be385030ad09e73608b461c5a0c05cea70987c0
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219405"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Administración y herramientas del Sistema de salas de Skype
  
@@ -51,7 +51,7 @@ Sistema de sala de Skype se pueden supervisar a través de System Center Operati
   - Skype para la herramienta de análisis de mantenimiento de negocio (Excel)    
   - Skype para analizador de conectividad empresarial 32 bits o 64 bits
     
-- Revise [Nuevas herramientas útiles de solución de problemas y análisis para Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que tienen un Skype para el grupo de negocio y un servidor de Office Web Apps y pueden compartir unas diapositivas de PowerPoint mediante el Skype para clientes empresariales.
+- Revise [la solución de problemas de nuevo de forma útil y herramientas de análisis para Office 365](https://blogs.technet.microsoft.com/educloud/2013/08/13/useful-new-troubleshooting-and-analysis-tools-for-office-365/). Confirme que tienen un Skype para el grupo de negocio y un servidor de Office Web Apps y pueden compartir unas diapositivas de PowerPoint mediante el Skype para clientes empresariales.
     
 - Si la sala de reuniones ya tiene un buzón de recursos, habilitarla para Skype para la empresa.
     

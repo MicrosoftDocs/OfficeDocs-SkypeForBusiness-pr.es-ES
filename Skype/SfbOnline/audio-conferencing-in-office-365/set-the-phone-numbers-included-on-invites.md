@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
 ms.openlocfilehash: c78a3fb140431dd46b3850e1d01e7fb29fb29210
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229418"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Establecer el teléfono los números incluidos en invitaciones en Skype para profesionales en línea
 
@@ -35,7 +35,7 @@ ms.locfileid: "25372824"
 Conferencias de audio en Office 365 permiten a los usuarios de la organización crear Skype para reuniones de negocios y, a continuación, permitir a los usuarios para conectarse a las reuniones utilizando un teléfono. En Office 365, tendrá la opción de utilizar un puente de conferencia de audio de Microsoft o un puente de conferencia de audio de terceros que está hospedado en un proveedor de conferencias de audio aprobadas (ACP).
   
 > [!NOTE]
-> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, utilice la **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar** , a continuación, **los nuevos números de servicio **. Use las listas de **País o región**, provincia o región de **** y **Ciudad** para filtrar la búsqueda. > también, si busca los números de teléfono de pago servicio gratuito, seleccione **gratuito** de la provincia o región **** lista.
+> No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia. Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, utilice la **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar** , a continuación, **los nuevos números de servicio **. Use las listas de **País o región**, provincia o región de **** y **Ciudad** para filtrar su search.> también, si busca los números de teléfono de pago servicio gratuito, seleccione **gratuito** de la provincia o región **** lista.
   
 Un puente de conferencia le proporciona un conjunto de números de teléfono de acceso telefónico para su organización. Todos ellos se pueden usar para unirse a las reuniones que ha creado un organizador de la reunión, pero puede seleccionar cuáles se incluirá en sus invitaciones de reunión.
   
@@ -145,6 +145,6 @@ De forma predeterminada, cuando se cambia la configuración de conferencia de un
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: El procedimiento de migración compatibles y recomendados para Skype para Business Server 2019 es migración en paralelo. En este tema se describe por qué debería usar la migración en paralelo y también se incluye información acerca de las pruebas de coexistencia.
 ms.openlocfilehash: e14226721cbc09bd1f0ac66b47dbd1710712eb17
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231619"
 ---
 # <a name="migration-process"></a>Proceso de migración
 

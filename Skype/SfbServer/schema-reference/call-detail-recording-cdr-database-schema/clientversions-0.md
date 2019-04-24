@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: La vista ClientVersions almacena información acerca de los diversos tipos de cliente y las versiones que han participado en sesiones registradas en la base de datos. Cada registro en la vista representa una versión de cliente. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: abf1436a2c3309e95bec8371b586c017e11b816d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213399"
 ---
 # <a name="clientversions-view"></a>Vista ClientVersions
  

@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 6a197ecf-b56b-45e0-8e7c-f532ec5164ff
 description: 'Resumen: Obtenga información sobre cómo configurar los proveedores de escenario para el servicio de registro centralizado en Skype para Business Server 2015.'
 ms.openlocfilehash: 36eb16eb1aea584e1ca28670ea75bd3a262ceb1a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217505"
 ---
 # <a name="configure-providers-for-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015
  
@@ -182,7 +182,7 @@ Donde cada proveedor definido con la directiva Add ya definida mediante el proce
     > El cmdlet **Remove-CsClsScenario** no solicitar confirmación. Se elimina el escenario, junto con los proveedores que se han asignado a él. Puede volver a crear el escenario volviendo a ejecutar los comandos usados para crearlo inicialmente. No hay ningún procedimiento de recuperación de los escenarios se han quitado o proveedores.
   
 Al quitar un escenario mediante el cmdlet **Remove-CsClsScenario** , quitar completamente el escenario del ámbito de aplicación. Para usar los escenarios que ha creado y los proveedores que formaran parte del escenario, crear nuevos proveedores y asignarlas a un nuevo escenario.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps)
   

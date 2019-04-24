@@ -15,11 +15,11 @@ ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un Director es un servidor que ejecuta Skype para software de comunicaciones de Business Server que se puede autenticar las solicitudes de usuario, pero no se encarga de las cuentas de usuario.
 ms.openlocfilehash: 63af64f9b922d1c96a177498d1d60aa3df171a0b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221126"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  

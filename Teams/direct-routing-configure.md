@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Obtenga información sobre cómo configurar el enrutamiento directo de Microsoft teléfono del sistema.
 ms.openlocfilehash: a26972e16758a00e2afc5d39029cfb1504b974c4
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517266"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233668"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -105,9 +106,9 @@ En la siguiente tabla se enumera los parámetros adicionales que puede usar en l
 
 |¿Obligatorio?|Nombre|Descripción|Valor predeterminado|Valores posibles|Tipo y restricciones|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Sí|FQDN|El nombre FQDN de la SBC |Ninguno|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
-|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguno|True<br/>False|Boolean|
-|Sí|SipSignallingPort |Puerto de escucha usado para la comunicación con los servicios de enrutamiento directa mediante el protocolo de seguridad de capa de transporte (TLS).|Ninguno|Cualquier puerto|0 a 65535 |
+|Sí|FQDN|El nombre FQDN de la SBC |Ninguna|Nombre de NoneFQDN, límite 63 caracteres|Cadena, lista de caracteres permitidos y no permitidos en [las convenciones de nomenclatura en Active Directory para equipos, dominios, sitios y unidades organizativas](https://support.microsoft.com/help/909264)|
+|No|MediaBypass |El parámetro reservado para uso futuro. Parámetro indicado de la SBC admite el desvío de medios y el administrador desea usarlo.|Ninguna|True<br/>False|Boolean|
+|Sí|SipSignallingPort |Puerto de escucha usado para la comunicación con los servicios de enrutamiento directa mediante el protocolo de seguridad de capa de transporte (TLS).|Ninguna|Cualquier puerto|0 a 65535 |
 |No|FailoverTimeSeconds |Cuando se establece en 10 (valor predeterminado), las llamadas salientes que no hay respondidas por la puerta de enlace dentro de 10 segundos se enrutan al siguiente tronco disponible; Si no hay ningún troncos adicionales, automáticamente se interrumpe la llamada. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente. El valor predeterminado es 10.|10|Número|Int|
 |No|ForwardCallHistory |Indica si la información del historial de llamadas se reenviará a través del tronco. Si se habilita, el Proxy de RTC de Office 365 envía dos encabezados: información de historial y remitido por. El valor predeterminado es **False** ($False). |False|True<br/>False|Boolean|
 |No|ForwardPAI|Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada. Si se habilita la privacidad: identificador también se enviará el encabezado. El valor predeterminado es **False** ($False).|False|True<br/>False|Boolean|
@@ -531,6 +532,6 @@ El resultado es que la directiva de voz que se aplican a las llamadas de John Wo
 Sólo enrutamiento directa enruta las llamadas a y desde los usuarios si utilizan al cliente de los equipos. Si su organización sólo usa los equipos, "Equipos sólo" modo en la directiva de actualización se recomienda establecer. Si su organización usa Skype para Business Server o Skype para profesionales en línea, consulte el siguiente artículo para obtener más información y seleccione la opción adecuada: [comprender la coexistencia y actualización de viaje para Skype para profesionales y los equipos](https://docs.microsoft.com/microsoftteams/migration-interop-guidance-for-teams-with-skype). 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planear el enrutamiento directo](direct-routing-plan.md)

@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: ab341060-3f2e-4a41-9be0-9ee8d29c35c5
 description: Skype para Business Server 2015 proporciona conectividad de RTC confiable y escalable mediante troncos SIP, conexiones SIP directas a una puerta de enlace RTC o conexiones SIP directas a un sistema PBX. Para obtener información detallada, vea Plan para la conectividad de RTC en Skype for Business Server 2015.
 ms.openlocfilehash: 2edde6f20edbfa91b652ef2dfdab501a7b753f71
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222621"
 ---
 # <a name="voice-infrastructure-planning-tool"></a>Voice Infrastructure (Planning Tool)
  

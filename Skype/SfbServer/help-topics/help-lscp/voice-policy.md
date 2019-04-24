@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 438dc39536a771e7670fd6d5e580850fb2df742e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219868"
 ---
 # <a name="voice-policy"></a>Directiva de voz
 

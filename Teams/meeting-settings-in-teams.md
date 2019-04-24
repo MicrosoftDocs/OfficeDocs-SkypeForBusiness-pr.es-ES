@@ -19,11 +19,11 @@ MS.collection:
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración para las reuniones de los equipos que los usuarios programar en la organización.
 ms.openlocfilehash: 4ded26dae69b5afef1d9fafb4819a73475c44898
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959540"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231903"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 

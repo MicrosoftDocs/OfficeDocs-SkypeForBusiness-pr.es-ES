@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: En la siguiente tabla se muestran los cmdlets de Skype Empresarial Cloud Connector Edition con una breve descripción y vínculos a más información.
 ms.openlocfilehash: aa8b8ebe4ffd7d1cb2c405eae5fe6604c5f4c378
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234264"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cloud Connector cmdlet reference
  

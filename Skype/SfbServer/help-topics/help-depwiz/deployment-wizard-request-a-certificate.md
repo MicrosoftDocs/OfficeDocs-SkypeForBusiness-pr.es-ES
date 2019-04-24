@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
 description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea instalar Skype para Business Server 2015.
 ms.openlocfilehash: 8adc283a2196b8bc1b86f39e6365bb112060203a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220575"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Asistente para la implementación: Solicitar un certificado
  

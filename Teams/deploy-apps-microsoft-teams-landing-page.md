@@ -15,12 +15,12 @@ localization_priority: Priority
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 00653ebb796f0b33fa1461327ad173378fed8e28
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: e182732647b79f5a3a2ae48940ce3423b157c61f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873172"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218041"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Conectores, bots y aplicaciones en Microsoft Teams
 
@@ -76,7 +76,7 @@ Los propietarios y los miembros del equipo pueden agregar pestañas adicionales 
 
 ### <a name="office-365-and-custom-connectors"></a>Conectores de Office 365 y personalizados
 
-Los conectores mantienen su equipo al día haciendo llegar contenido y actualizaciones de servicios que se usan con frecuencia directamente en un canal. Con conectores, los usuarios de Teams pueden recibir actualizaciones de servicios populares como Twitter, Trello, Wunderlist, GitHub y Visual Studio Team Services (VSTS) en sus chats de Teams.
+Los conectores mantienen su equipo al día haciendo llegar contenido y actualizaciones de servicios que se usan con frecuencia directamente en un canal. Con los conectores, los usuarios de Teams pueden recibir actualizaciones de servicios populares como Twitter, Trello, Wunderlist, GitHub y Azure DevOps Services en sus chats de Teams.
 
 | Pregúntese lo siguiente: | Acción |
 |--------------|--------|

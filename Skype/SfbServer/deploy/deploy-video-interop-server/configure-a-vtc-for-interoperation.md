@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
 description: 'Resumen: Configure los dispositivos VTC para que funcione con Skype para Business Server.'
 ms.openlocfilehash: 1a8422ddfa33652fa13d5aeb42b86a72b809126b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219677"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Configurar un VTC para la interoperación con Skype para Business Server
  

@@ -14,11 +14,11 @@ ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar rutas para buscar rutas de voz existentes que se pueden usar.
 ms.openlocfilehash: 2c2f1d34976ed1f709e948af74f83999a368933e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874461"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221161"
 ---
 # <a name="select-routes"></a>Seleccionar rutas
  

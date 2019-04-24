@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.collection: M365-voice
 description: Este artículo describen las mejoras acumulativas en salas de equipos de Microsoft.
 ms.openlocfilehash: 3d80c1c2e4aa2fcad241f566b832e8ddbc662120
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012901"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214494"
 ---
 # <a name="release-notes"></a>Notas de la versión 
 
@@ -216,9 +216,9 @@ Se introdujeron en esta actualización:
  
 
 <a name="See"> </a>  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
-[Ayuda de salas de equipos de Microsoft](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
+[Ayuda de Salas de Microsoft Teams](https://support.office.com/en-us/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
 [Preparar el entorno](srs-v2-prep.md)
 
@@ -228,4 +228,4 @@ Se introdujeron en esta actualización:
 
 [Plan para salas de equipos de Microsoft](skype-room-systems-v2-0.md)
 
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

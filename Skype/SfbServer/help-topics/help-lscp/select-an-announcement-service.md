@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: Use el seleccionar un cuadro de diálogo servicio de anuncio para seleccionar un servicio de anuncio que controlará las llamadas entrantes a un intervalo de números sin asignar.
 ms.openlocfilehash: 1d9f76f912892eccdaf54629aa4a2f1dc9376eca
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220203"
 ---
 # <a name="select-an-announcement-service"></a>Seleccionar servicio de anuncio
  

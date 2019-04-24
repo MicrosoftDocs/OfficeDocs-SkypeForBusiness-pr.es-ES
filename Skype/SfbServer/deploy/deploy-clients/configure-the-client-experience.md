@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 66867a96-ff00-497d-889c-2e908cc384ce
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la experiencia del cliente de Skype para los usuarios empresariales.'
 ms.openlocfilehash: b8d258236a5254aa1dab5e86edb9586ea514c689
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219603"
 ---
 # <a name="configure-the-client-experience-with-skype-for-business-2015"></a>Configurar la experiencia del cliente con Skype para profesionales de 2015
  

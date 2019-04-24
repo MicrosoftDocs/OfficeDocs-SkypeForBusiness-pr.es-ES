@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8412b6998e824c05ac4d7f394d2283c265f78b04
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225558"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================

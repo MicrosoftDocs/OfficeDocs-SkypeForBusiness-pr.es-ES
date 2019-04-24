@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Obtenga información sobre por qué necesita agregar a una persona autorizada que puede realizar cambios en la cuenta cuando se usa el Asistente para nuevo pedido de puerto número Local.
 ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233239"
 ---
 # <a name="authorized-person-on-the-account"></a>Persona autorizada en la cuenta
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
 description: 'Resumen: Descubra cómo conectar Skype para Business Server con Skype consumidor. También conocido como la conectividad de Skype.'
 ms.openlocfilehash: 3dd48661b230f4e780505be4aeb05bbe9ff82340
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874510"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219705"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Implementación de la conectividad de Skype en Skype para Business Server
  
@@ -232,7 +232,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
   
 |**Cliente**|**Agregar contactos y búsqueda en el directorio de Skype**|**Audio o vídeo de Skype, interoperabilidad de mensajería instantánea**|
 |:-----|:-----|:-----|
-|Skype Empresarial  <br/> |Sí   <br/> |Sí   <br/> |
+|Skype Empresarial  <br/> |Sí  <br/> |Sí  <br/> |
 |Skype Empresarial en Mac  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2013  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Web App: local y en línea  <br/> |N/D  <br/> |N/D  <br/> |
@@ -240,7 +240,7 @@ La tabla siguiente detalla el estado de la interoperabilidad entre la última ve
 |Lync Mobile: Android  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Lync Mobile: iOS  <br/> |Próximamente  <br/> |Sí  <br/> |
 |Sistema Lync Room  <br/> |Próximamente  <br/> |Sí  <br/> |
-|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí   <br/> |
+|Lync Modern App (Win 8.1)  <br/> |Sí  <br/> |Sí  <br/> |
 |Lync Mac 2011  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Desktop 2010  <br/> |Puede agregar (no buscar)  <br/> |Sí  <br/> |
 |Lync Phone Edition  <br/> |N/D  <br/> |N/D  <br/> |

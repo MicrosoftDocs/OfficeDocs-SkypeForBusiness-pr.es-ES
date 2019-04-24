@@ -14,11 +14,11 @@ ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para enviar una solicitud, la entidad de certificación (CA) puede requerir credenciales distintas de las del usuario que actualmente iniciado sesión como.
 ms.openlocfilehash: 71239d8b4648c08de12b0c425c5050c5c4f2e0ed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890216"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216392"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Solicitud de certificado (cuenta de entidad de certificación)
  

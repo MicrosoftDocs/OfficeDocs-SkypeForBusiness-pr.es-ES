@@ -14,11 +14,11 @@ ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar la página Directiva de chat persistente del grupo Chat persistente para administrar directivas en un nivel global, de grupo, de sitio o de usuario, además de configurar la directiva global predeterminada y crear una o varias directivas de sitio y usuario adicionales para su implementación. Si el servidor de Chat persistente está habilitado para un usuario mediante una directiva, el entorno de servidor de Chat persistente aparece en su cliente.
 ms.openlocfilehash: 96ac4afd1cfdde0430d98a7797e8c8ba69e920b8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215237"
 ---
 # <a name="persistent-chat-policy"></a>Directiva de chat persistente
 

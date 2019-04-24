@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: La vista de usuario almacena información acerca de los usuarios que han sido necesarios para las llamadas o las sesiones que tienen registros en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: 9e631c101660e8f14bca25f019f5d991a0d9aadd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213182"
 ---
 # <a name="user-view"></a>Vista de usuario
  

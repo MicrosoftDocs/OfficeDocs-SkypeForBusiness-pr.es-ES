@@ -14,11 +14,11 @@ ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
 description: Debe indicar que necesita crear los grupos universales en el bosque. La página ubicación de grupo Universal utiliza el dominio en el que el equipo que ha iniciado sesión es un miembro de como el valor predeterminado. Si prefiere para crear los grupos universales en un dominio diferente al dominio Local de forma predeterminada, seleccione el FQDN del dominio y escriba el nombre de dominio completo (FQDN) en el cuadro de texto. Proporcionar que un dominio alternativo es útil cuando se ejecuta la tarea de preparación del bosque de un dominio que no sea donde desea que los grupos universales crearse. Haga clic en siguiente para continuar.
 ms.openlocfilehash: c886ff701a1e66221f5fa75c50e847d33560b32e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216245"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Preparar bosque actual (ubicación de grupo universal)
  

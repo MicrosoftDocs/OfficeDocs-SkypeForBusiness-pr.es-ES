@@ -14,11 +14,11 @@ ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 9d877d8b63d8d7ebfd7f5e0bdae2f074822dc59d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215419"
 ---
 # <a name="quality-of-experience-qoe-data"></a>Datos referentes a la calidad de la experiencia (QoE)
  

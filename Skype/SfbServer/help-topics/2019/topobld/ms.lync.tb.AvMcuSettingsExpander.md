@@ -14,11 +14,11 @@ ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un / grupo de servidores de servidor de conferencia A/v que ya haya definido, haga lo siguiente:'
 ms.openlocfilehash: 60e5a5b8600dd82d4ec66c7f68581e1d32a182aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893472"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220729"
 ---
 # <a name="av-mcu-settings-expander"></a>Expansor de configuración MCU AV
  

@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aquí están disponibles para El Salvador los servicios de Office 365 para Skype para empresas y Microsoft Teams.
 ms.openlocfilehash: af82592374699397bc1b197a791f6899688bf37f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226287"
 ---
 # <a name="availability-in-el-salvador"></a>Disponibilidad en El Salvador
 

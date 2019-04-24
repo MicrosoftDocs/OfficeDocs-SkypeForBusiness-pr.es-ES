@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
 description: Skype para Business Server proporcione una alta disponibilidad con servidor de agrupación, recuperación ante desastres con el emparejamiento de grupo de servidores y varios modos de alta disponibilidad de servidor Back-End, incluidos los grupos de disponibilidad AlwaysOn, la creación de reflejo de base de datos y agrupación en clústeres de conmutación por error SQL.
 ms.openlocfilehash: bbd3c4092962e757a7565f1da054c82438a79ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876778"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225500"
 ---
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Implementar la alta disponibilidad y la recuperación ante desastres
  
@@ -31,7 +31,7 @@ En esta sección se explica cómo implementar estas características y también 
 
 [Planeación de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar un grupo de disponibilidad AlwaysOn en un servidor Back-End de Skype para Business Server](alwayson-availability-group.md)
 

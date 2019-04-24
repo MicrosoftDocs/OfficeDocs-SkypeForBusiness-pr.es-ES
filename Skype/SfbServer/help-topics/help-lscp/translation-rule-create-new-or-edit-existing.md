@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ff701979-9ea9-4ae8-a2da-91c4e1d97c25
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 5b1464e905ee413bbf2d206881c6fdaf5e1ce644
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878005"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219961"
 ---
 # <a name="translation-rule-create-new-or-edit-existing"></a>Regla de conversión: Crear nuevos o editar los existentes
 

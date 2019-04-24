@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 45de98935cdba03697c84172ba7a0c081b0811da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241823"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -465,7 +465,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 
-[Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+[Contactar con soporte técnico para productos empresariales: ayuda para administradores](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 
 [Soporte ampliado de contacto](https://support.microsoft.com/premier/contacts)
 

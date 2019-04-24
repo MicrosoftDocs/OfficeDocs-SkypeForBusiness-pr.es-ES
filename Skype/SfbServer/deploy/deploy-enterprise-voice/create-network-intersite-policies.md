@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
 description: Crear directivas entre sitios, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server de red.
 ms.openlocfilehash: 6619787bf071afe719c715de39e23b992d6e6ede
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223474"
 ---
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Crear directivas entre sitios de red en Skype para Business Server
  
@@ -44,7 +44,7 @@ En la topología de ejemplo de la región de Norteamérica, hay un vínculo dire
 
 3. Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
   

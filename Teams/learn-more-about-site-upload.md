@@ -19,11 +19,11 @@ f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222320"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================

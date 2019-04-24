@@ -12,12 +12,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: a33fc22f3a00d995c5399a99537508a769be9e89
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.openlocfilehash: 31ade1137987bc67e4f45ea2fe8b51a4501bcd7c
+ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "31993527"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -180,6 +180,25 @@ ms.locfileid: "30952382"
                                             <div class="cardText">
                                                 <h3>Teams para los trabajadores de primera línea</h3>
                                                 <p>Obtenga información sobre las capacidades de Teams para trabajadores de primera línea publicadas recientemente. (Público: usuarios finales)</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li> 
+                            <a href="https://aka.ms/TeamsForGov">
+                                <div class="cardSize">
+                                    <div class="cardPadding">
+                                        <div class="card">
+                                            <div class="cardImageOuter">
+                                                <div class="cardImage bgdAccent1"> 
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.png" alt="government" />
+                                                </div>
+                                            </div>
+                                            <div class="cardText">
+                                                <h3>Información general de Teams para la administración pública de Estados Unidos (GCC)</h3>
+                                                <p>Únase a nosotros para obtener una visión general interactiva de Teams en Office 365 GCC que muestra los procedimientos recomendados para colaborar.  (Público: profesionales de TI, usuarios finales)</p>
                                             </div>
                                         </div>
                                     </div>

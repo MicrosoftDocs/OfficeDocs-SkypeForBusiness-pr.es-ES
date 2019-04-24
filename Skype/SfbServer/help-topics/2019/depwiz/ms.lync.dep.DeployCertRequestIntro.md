@@ -14,11 +14,11 @@ ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para continuar con el proceso de solicitud de certificado, haga clic en siguiente. Para salir del proceso sin cambios en el sistema, haga clic en Cancelar.
 ms.openlocfilehash: 64e5cc83ca6706a7f9de3988d5f45550f933558a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216497"
 ---
 # <a name="certificate-request-intro"></a>Solicitud de certificado (introducción)
  

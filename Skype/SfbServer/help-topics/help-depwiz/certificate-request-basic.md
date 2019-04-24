@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 description: La página nombre y configuración de seguridad proporciona un cuadro de texto para definir un nombre descriptivo, una lista desplegable para la longitud en bits del par de claves público y privado y una casilla de verificación que le permite marcar la clave privada del certificado como exportable.
 ms.openlocfilehash: 4803feab68422217e268823bda6252d3103691b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235153"
 ---
 # <a name="certificate-request-basic"></a>Solicitud de certificado (básica)
  

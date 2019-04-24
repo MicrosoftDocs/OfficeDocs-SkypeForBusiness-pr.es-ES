@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 625f3ef560dd1c994afa0a566fedc3ad0fbe1143
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043408"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236073"
 ---
 # <a name="create-an-org-wide-team-in-microsoft-teams"></a>Crear un equipo que abarque toda la organización en Microsoft Teams
 
@@ -49,7 +49,7 @@ Reducir el ruido de canal por tener solo del equipo que los propietarios de entr
 ### <a name="remove-accounts-that-might-not-belong"></a>Quitar las cuentas que no es posible que pertenecen
 Aunque los miembros no pueden dejar un equipo de toda la organización, como propietario de un equipo, puede administrar la lista de participantes de equipo mediante la eliminación de las cuentas que no pertenecen. Asegúrese de que usar los equipos para quitar los usuarios de su equipo de toda la organización.  Si usa otra forma de quitar un usuario, como el centro de administración de Microsoft 365 o desde un grupo en Outlook, el usuario podría agregarse al equipo de toda la organización. 
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="is-there-a-way-to-create-an-org-wide-team-other-than-using-the-teams-client"></a>¿Hay alguna forma para crear un equipo de toda la organización que no sea mediante el cliente de los equipos? 
 

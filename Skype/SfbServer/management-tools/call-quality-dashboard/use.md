@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
 ms.openlocfilehash: 856035642d1d8a818abe5f0a106c90270d706516
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217722"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamada de Skype para Business Server
  

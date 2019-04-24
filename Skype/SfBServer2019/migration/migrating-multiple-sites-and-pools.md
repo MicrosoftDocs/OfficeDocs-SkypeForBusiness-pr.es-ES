@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Skype para Business Server 2019 es compatible con las implementaciones de varios sitios y grupo de varios servidores. El proceso de migración de varios grupos de servidores a Skype para Business Server 2019 requiere las siguientes consideraciones:'
 ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888664"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231640"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
 

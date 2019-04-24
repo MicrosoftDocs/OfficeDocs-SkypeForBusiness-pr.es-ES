@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Obtenga información sobre los factores a tener en cuenta antes de configurar los eventos en directo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c249c6e63b8342b524b54afc2a6d30be3e92b25
-ms.sourcegitcommit: 889295b507c77a93b10b3a5e826f2b0c79c31f75
+ms.openlocfilehash: 427a0dc26ef3c5b9901ddbe9cefe1288c905ccbb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "30771769"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223379"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Plan para eventos en directo en Microsoft Teams
 
@@ -44,7 +44,7 @@ El usuario debe tener:
 - Uso compartido de video habilitado en las reuniones de los equipos (*- AllowIPVideo TeamsMeetingPolicy el parámetro = True*).
 - Uso compartido de pantalla habilitado en las reuniones de los equipos (*ScreenSharingMode - TeamsMeetingPolicy el parámetro = EntireScreen*).
 - Live programación de eventos en los equipos habilitados (*AllowBroadcastScheduling - TeamsMeetingBroadcastPolicy el parámetro = True*).
-- Permisos para crear eventos en directo en Microsoft Stream (para [producción codificador externo](#production)).
+- Permisos para crear eventos en directo en Microsoft Stream (para producción de codificador externo).
 
 > [!IMPORTANT]
 > Invitados de Office 365, los usuarios federados y anónimos no pueden ser invitados como productores o moderadores en los equipos eventos en directo. Invitado de Office 365 y los usuarios federados pueden sólo verla eventos en directo forma anónima. 

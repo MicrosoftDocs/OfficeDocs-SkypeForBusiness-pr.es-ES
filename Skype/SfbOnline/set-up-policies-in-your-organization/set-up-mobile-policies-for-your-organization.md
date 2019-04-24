@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Puede configurar cómo los usuarios se conectan a Skype para profesionales en línea con el Skype para la aplicación empresarial en dispositivos móviles, como una característica que permite a los usuarios realizar y recibir llamadas telefónicas en su teléfono móvil mediante su número de teléfono de trabajo en lugar de su teléfono móvil NY Nú. Las directivas de movilidad también se pueden usar para requerir conexiones WiFi para hacer o recibir llamadas.
 ms.openlocfilehash: 73416cb6e0c9c349c58e26b70760f6490e283e4f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237464"
 ---
 # <a name="set-up-mobile-policies-for-your-organization"></a>Establecer directivas móviles en su organización
 

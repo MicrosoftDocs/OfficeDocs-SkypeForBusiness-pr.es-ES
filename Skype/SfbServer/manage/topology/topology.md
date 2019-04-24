@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.'
 ms.openlocfilehash: 783917822b2e89224bebd34c9d8234c2d58f7bd6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215069"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar la topología de Skype para Business Server 
  

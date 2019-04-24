@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Una vez completadas las preguntas iniciales de la entrevista, podrá editar las direcciones IP y el nombre de dominio completo (FQDN) del sitio. Para ello, en la página Topología global, haga doble clic en el sitio que desea editar.
 ms.openlocfilehash: 75f2bd04f09b6638071faff1aa70dc8870d11fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222789"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
@@ -79,7 +79,7 @@ Una vez completadas todas las modificaciones, guarde la topología. Para ello, s
 
 Para guardar el diseño de la herramienta de planeación, haga clic en **archivo**y, a continuación, haga clic en **Guardar topología** o **Guardar topología como**. Si aparece el cuadro de diálogo **Guardar herramienta de planeación como**, escriba el nombre del archivo en **Nombre de archivo** y haga clic en **Guardar**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Edit_Network_diagram"> </a>
 
 [Editing the Design](https://technet.microsoft.com/library/08f639ba-0e5f-4ae7-9191-c3d96c25b169.aspx)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En general, debe utilizar la herramienta administrativa que corresponde a la versión del servidor que desea administrar.
 ms.openlocfilehash: 235ceee4bfc3aa79022a97ab0e8be2edc46b8005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238785"
 ---
 # <a name="administering-servers-after-migration"></a>Administrar los servidores tras la migración
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.custom: httpsfix
 description: El siguiente tema proporciona instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son necesarios. Leer la documentación y determine qué procedimiento cómo dar de baja para usar.
 ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231514"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 

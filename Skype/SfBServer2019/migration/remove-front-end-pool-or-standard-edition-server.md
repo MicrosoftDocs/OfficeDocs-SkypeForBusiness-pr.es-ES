@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este tema le guiará en el proceso de eliminación de un grupo de servidores Front-End o un servidor estándar de edición de Front-End. Al quitar un grupo de servidores Front-End, quite cada servidor Front-End que pertenece al grupo de servidores como parte del proceso de eliminación de grupo de servidores. Cuando se quita una edición Standard servidor Front-End, debe quitar la definición de almacén SQL del generador.
 ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872720"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231549"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Quitar un grupo de servidores front-end o servidor Standard Edition
 

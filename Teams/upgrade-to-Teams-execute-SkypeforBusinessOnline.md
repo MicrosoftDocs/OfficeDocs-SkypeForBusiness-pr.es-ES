@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 82577b8e8102baca9ea9681bb94d4a0c73f8b01e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32218680"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
@@ -34,7 +34,7 @@ En este artículo forma parte de la fase de implementación y la implementación
 - [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
 - [Realiza una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
 
-# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Actualización de Skype para la empresa en línea a los equipos
+# <a name="upgrade-from-skype-for-business-online-to-teams"></a>Actualización de Skype Empresarial Online a Microsoft Teams
 
 Siga las instrucciones de este artículo si totalmente implementado Skype para profesionales en línea y desea actualizar los usuarios de Skype para la empresa a los equipos. Puede actualizar a los usuarios de forma selectiva o en función de la actualización, todo viaje que su organización ha decidido, mediante la asignación de la coexistencia adecuada y el modo de actualización a los usuarios.
 

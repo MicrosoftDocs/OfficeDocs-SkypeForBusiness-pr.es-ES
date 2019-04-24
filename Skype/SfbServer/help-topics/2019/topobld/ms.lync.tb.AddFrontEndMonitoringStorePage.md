@@ -14,11 +14,11 @@ ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
 ms.openlocfilehash: 2de5788c52f91a2ef2395aaa3c1f580170f1c765
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235451"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Página Agregar almacén de supervisión de front-end
  
@@ -46,6 +46,6 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Asociar un almacén de supervisión a un grupo de servidores Front-End en Skype para Business Server](../../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

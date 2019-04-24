@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este artículo describe cómo configurar los intervalos de puertos para clientes y la configuración de las directivas de calidad de servicio de Skype para Business Server para los clientes que se ejecutan en Windows 10.
 ms.openlocfilehash: 2e5328406634302a1b076eec8466e7f7b9245150
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219726"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype para Business Server
 
@@ -263,6 +263,6 @@ Si desea que los valores DSCP de etiqueta para todos los adaptadores de red en u
 
 Después de crear y configurar el nuevo valor del registro, debe reiniciar el equipo para que los cambios surtan efecto.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear un objeto de directiva de grupo en Windows 10](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)
