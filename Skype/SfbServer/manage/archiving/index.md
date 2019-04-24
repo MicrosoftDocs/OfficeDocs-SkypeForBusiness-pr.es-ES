@@ -1,9 +1,11 @@
 ---
-redirect_url: archiving
-redirect_document_id: ''
-ms.openlocfilehash: df5c170a47de65bb10c875ca158c9c8f6e46d29a
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 6dbe1aefe251e5f0fd94613e4a751ffa25caa108
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225989"
 ---

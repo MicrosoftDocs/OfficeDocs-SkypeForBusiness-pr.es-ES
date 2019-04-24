@@ -1,9 +1,11 @@
 ---
-redirect_url: license-options-based-on-your-plan
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 9255062d010f87ea5e1fc734bdf282369f0fd169
-ms.sourcegitcommit: 627d3108e3e2f232e911162d9d2db9558e8ead0c
+localization_priority: Normal
+ms.openlocfilehash: a710f2b0af24a80d3485e7cf8989d7286c2a250a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226104"
 ---

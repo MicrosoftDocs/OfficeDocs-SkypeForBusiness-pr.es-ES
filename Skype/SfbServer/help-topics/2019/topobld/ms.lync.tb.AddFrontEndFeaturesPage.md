@@ -14,29 +14,29 @@ ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Seleccione cada característica que desee habilitar para el grupo de servidores Front-End. Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular la selección. También tiene la opción de implementación de otras características, como conferencias, Enterprise Voice y control admisión de llamadas (CAC). Algunas características dependen de la topología.
 ms.openlocfilehash: 1657c85a4ee7361f7f1d2853ef14f60553eabd70
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202085"
 ---
-# <a name="add-front-end-features"></a><span data-ttu-id="c4f05-106">Agregar características front-end</span><span class="sxs-lookup"><span data-stu-id="c4f05-106">Add Front End Features</span></span>
+# <a name="add-front-end-features"></a><span data-ttu-id="16330-106">Agregar características front-end</span><span class="sxs-lookup"><span data-stu-id="16330-106">Add Front End Features</span></span>
 
-<span data-ttu-id="c4f05-107">Seleccione cada característica que desee habilitar para el grupo de servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="c4f05-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="c4f05-108">Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular la selección.</span><span class="sxs-lookup"><span data-stu-id="c4f05-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="c4f05-109">También tiene la opción de implementación de otras características, como conferencias, Enterprise Voice y control admisión de llamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="c4f05-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="c4f05-110">Algunas características dependen de la topología.</span><span class="sxs-lookup"><span data-stu-id="c4f05-110">Some features are dependent on your topology.</span></span>
+<span data-ttu-id="16330-107">Seleccione cada característica que desee habilitar para el grupo de servidores Front-End.</span><span class="sxs-lookup"><span data-stu-id="16330-107">Select each feature that you want to enable for the Front End pool.</span></span> <span data-ttu-id="16330-108">Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular la selección.</span><span class="sxs-lookup"><span data-stu-id="16330-108">At a minimum, you must deploy instant messaging (IM), which is always enabled and cannot be deselected.</span></span> <span data-ttu-id="16330-109">También tiene la opción de implementación de otras características, como conferencias, Enterprise Voice y control admisión de llamadas (CAC).</span><span class="sxs-lookup"><span data-stu-id="16330-109">You also have the option of deploying other features, such as conferencing, Enterprise Voice, and call admission control (CAC).</span></span> <span data-ttu-id="16330-110">Algunas características dependen de la topología.</span><span class="sxs-lookup"><span data-stu-id="16330-110">Some features are dependent on your topology.</span></span>
 
-- <span data-ttu-id="c4f05-111">Conferencias</span><span class="sxs-lookup"><span data-stu-id="c4f05-111">Conferencing</span></span>
+- <span data-ttu-id="16330-111">Conferencias</span><span class="sxs-lookup"><span data-stu-id="16330-111">Conferencing</span></span>
 
-- <span data-ttu-id="c4f05-112">Telefonía IP empresarial</span><span class="sxs-lookup"><span data-stu-id="c4f05-112">Enterprise Voice</span></span>
+- <span data-ttu-id="16330-112">Telefonía IP empresarial</span><span class="sxs-lookup"><span data-stu-id="16330-112">Enterprise Voice</span></span>
 
-- <span data-ttu-id="c4f05-113">Control de admisión de llamadas (CAC)</span><span class="sxs-lookup"><span data-stu-id="c4f05-113">Call Admission Control (CAC)</span></span>
+- <span data-ttu-id="16330-113">Control de admisión de llamadas (CAC)</span><span class="sxs-lookup"><span data-stu-id="16330-113">Call Admission Control (CAC)</span></span>
 
-- <span data-ttu-id="c4f05-114">Archivado</span><span class="sxs-lookup"><span data-stu-id="c4f05-114">Archiving</span></span>
+- <span data-ttu-id="16330-114">Archivado</span><span class="sxs-lookup"><span data-stu-id="16330-114">Archiving</span></span>
 
-- <span data-ttu-id="c4f05-115">Supervisión</span><span class="sxs-lookup"><span data-stu-id="c4f05-115">Monitoring</span></span>
+- <span data-ttu-id="16330-115">Supervisión</span><span class="sxs-lookup"><span data-stu-id="16330-115">Monitoring</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="c4f05-116">Si desea habilitar el CAC en su implementación, debe habilitar el CAC en exactamente un grupo de servidores por sitio central.</span><span class="sxs-lookup"><span data-stu-id="c4f05-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="c4f05-117">Se recomienda CAC si va a implementar características de voz o / conferencia A/v.</span><span class="sxs-lookup"><span data-stu-id="c4f05-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span>
+> <span data-ttu-id="16330-116">Si desea habilitar el CAC en su implementación, debe habilitar el CAC en exactamente un grupo de servidores por sitio central.</span><span class="sxs-lookup"><span data-stu-id="16330-116">If you would like to enable CAC in your deployment, you must enable CAC in exactly one pool per central site.</span></span> <span data-ttu-id="16330-117">Se recomienda CAC si va a implementar características de voz o / conferencia A/v.</span><span class="sxs-lookup"><span data-stu-id="16330-117">We recommend CAC if you are deploying voice features or A/V Conferencing.</span></span>
 
-<span data-ttu-id="c4f05-118">Para obtener información detallada acerca de cómo especificar las características de un grupo de servidores Enterprise Edition, consulte [definir y configurar un grupo de servidores Front-End](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="c4f05-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
+<span data-ttu-id="16330-118">Para obtener información detallada acerca de cómo especificar las características de un grupo de servidores Enterprise Edition, consulte [definir y configurar un grupo de servidores Front-End](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="16330-118">For details about specifying features for an Enterprise Edition pool, see [Define and Configure a Front End Pool](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx) in the Deployment documentation.</span></span>
 
 

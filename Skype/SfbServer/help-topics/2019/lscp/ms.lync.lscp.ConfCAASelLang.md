@@ -14,14 +14,14 @@ ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Seleccione los idiomas que quiera usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte Create or Modify a Dial-in Conferencing Access Number.
 ms.openlocfilehash: d1c2cfba13d80fa665b2994f308ec43328be9782
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216196"
 ---
-# <a name="select-languages"></a><span data-ttu-id="da05e-104">Seleccionar idiomas</span><span class="sxs-lookup"><span data-stu-id="da05e-104">Select Languages</span></span>
+# <a name="select-languages"></a><span data-ttu-id="05273-104">Seleccionar idiomas</span><span class="sxs-lookup"><span data-stu-id="05273-104">Select Languages</span></span>
 
-<span data-ttu-id="da05e-p102">Seleccione los idiomas que quiera usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="da05e-p102">Select the languages that you want to use for your dial-in conferencing access number. For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
+<span data-ttu-id="05273-p102">Seleccione los idiomas que quiera usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span><span class="sxs-lookup"><span data-stu-id="05273-p102">Select the languages that you want to use for your dial-in conferencing access number. For details, see [Create or Modify a Dial-in Conferencing Access Number](https://technet.microsoft.com/library/06f55c28-57f8-4d4e-8313-9740846796d9.aspx).</span></span>
 
 

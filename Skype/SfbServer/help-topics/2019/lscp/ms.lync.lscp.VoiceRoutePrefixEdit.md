@@ -14,15 +14,15 @@ ms.assetid: a6e63c33-7927-4813-81cc-9624c2098177
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para definir los prefijos o iniciar dígitos, agregar prefijos numéricos que debe controlar esta ruta, incluida la + si es necesario. Por ejemplo, puede hacer coincidir todos los números que empiezan con +123.
 ms.openlocfilehash: 99b445b02e36f162105ddaa91b543b85f9e05cb0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221204"
 ---
-# <a name="prefix-edit"></a><span data-ttu-id="798f1-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="798f1-104">Prefix Edit</span></span>
+# <a name="prefix-edit"></a><span data-ttu-id="c4f75-104">Edición de prefijo</span><span class="sxs-lookup"><span data-stu-id="c4f75-104">Prefix Edit</span></span>
  
-<span data-ttu-id="798f1-105">Para definir los prefijos o iniciar dígitos, agregar prefijos numéricos que debe controlar esta ruta, incluida la + si es necesario.</span><span class="sxs-lookup"><span data-stu-id="798f1-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="798f1-106">Por ejemplo, puede hacer coincidir todos los números que empiezan con +123.</span><span class="sxs-lookup"><span data-stu-id="798f1-106">For example, you can match all numbers starting with +123.</span></span>
+<span data-ttu-id="c4f75-105">Para definir los prefijos o iniciar dígitos, agregar prefijos numéricos que debe controlar esta ruta, incluida la + si es necesario.</span><span class="sxs-lookup"><span data-stu-id="c4f75-105">To define prefixes or starting digits, add number prefixes that this route should handle, including the + if necessary.</span></span> <span data-ttu-id="c4f75-106">Por ejemplo, puede hacer coincidir todos los números que empiezan con +123.</span><span class="sxs-lookup"><span data-stu-id="c4f75-106">For example, you can match all numbers starting with +123.</span></span>
   
  
   

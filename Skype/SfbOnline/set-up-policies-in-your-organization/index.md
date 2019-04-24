@@ -1,9 +1,11 @@
 ---
-redirect_url: set-up-policies-in-your-organization
-redirect_document_id: 
-ms.openlocfilehash: d7cb206699341bf68bd73d0e2db2321464d825b3
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 45b362b923ef8ef698ee293e14ea60e4b21eeb94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237512"
 ---

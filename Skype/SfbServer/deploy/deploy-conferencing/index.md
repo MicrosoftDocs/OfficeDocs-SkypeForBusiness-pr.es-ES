@@ -1,9 +1,11 @@
 ---
-redirect_url: deploy-conferencing
-redirect_document_id: ''
-ms.openlocfilehash: f8a7ae0364c4f470ab60aecbf805ba478af5f6df
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: e464b8d6edbdd7200d6c72f56e3aec29af7cc572
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223834"
 ---

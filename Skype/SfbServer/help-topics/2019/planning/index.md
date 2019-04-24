@@ -1,9 +1,11 @@
 ---
-redirect_url: help-planning
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 98354dbb2278ffbd67ff0add0b898312301b82f3
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+localization_priority: Normal
+ms.openlocfilehash: 65b9b384eba2c177cb73b3d4871d856b0c4a36b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221077"
 ---

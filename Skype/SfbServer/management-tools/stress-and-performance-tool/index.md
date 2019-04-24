@@ -1,9 +1,11 @@
 ---
-redirect_url: stress-and-performance-tool
-redirect_document_id: ''
-ms.openlocfilehash: 661f342f3bc3ae4423fb1ea473721c7987dfebd8
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: affb95ecb91faf933a68e370b6aa373a9263a4f0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239341"
 ---

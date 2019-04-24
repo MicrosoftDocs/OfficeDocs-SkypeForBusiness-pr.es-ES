@@ -1,9 +1,11 @@
 ---
-redirect_url: set-up-your-computer-for-windows-powershell
-redirect_document_id: 
-ms.openlocfilehash: 1d99e1843da20cd70f549099f3911a3ce92384b6
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: b07ac534eec794f832da42d93bc3fd170c4ad28f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224429"
 ---

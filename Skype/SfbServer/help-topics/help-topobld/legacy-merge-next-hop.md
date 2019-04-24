@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: El FQDN de salto siguiente identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno. Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un Director o un grupo de servidores Front-End.
 ms.openlocfilehash: 0e498a7181b77ec86b1f1b6d12d673feba372097
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200183"
 ---
-# <a name="legacy-merge-next-hop"></a><span data-ttu-id="e91f3-104">Próximo salto de combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="e91f3-104">Legacy Merge Next Hop</span></span>
+# <a name="legacy-merge-next-hop"></a><span data-ttu-id="dede6-104">Próximo salto de combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="dede6-104">Legacy Merge Next Hop</span></span>
  
-<span data-ttu-id="e91f3-105">El **FQDN de próximo salto** identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno.</span><span class="sxs-lookup"><span data-stu-id="e91f3-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="e91f3-106">Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un **grupo de servidores Front-End** o un **Director**.</span><span class="sxs-lookup"><span data-stu-id="e91f3-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
+<span data-ttu-id="dede6-105">El **FQDN de próximo salto** identifica el servidor del próximo salto al que el servidor perimetral heredado enruta el tráfico interno.</span><span class="sxs-lookup"><span data-stu-id="dede6-105">The **Next Hop FQDN** identifies the next hop server to which the legacy Edge Server routes internal traffic.</span></span> <span data-ttu-id="dede6-106">Escriba el nombre de dominio completo (FQDN) del servidor del próximo salto al que este servidor perimetral enruta el tráfico interno y, a continuación, seleccione si es un **grupo de servidores Front-End** o un **Director**.</span><span class="sxs-lookup"><span data-stu-id="dede6-106">Type the fully qualified domain name (FQDN) of the next hop server to which this Edge Server routes internal traffic, and then select whether it is a **Front End pool** or a **Director**.</span></span> 
   
 

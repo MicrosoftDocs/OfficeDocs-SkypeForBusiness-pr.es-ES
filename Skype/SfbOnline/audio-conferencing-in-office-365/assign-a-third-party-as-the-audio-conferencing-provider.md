@@ -22,14 +22,14 @@ f1keywords:
 - ms.lync.lac.DialInProvider
 ms.custom:
 - Audio Conferencing
-description: 'Learn how to set up a third-party as your dial-in conferencing provider with Skype for Business. '
+description: 'Descubra cómo establecer a un tercero como proveedor de conferencias de acceso telefónico con Skype Empresarial. '
 robots: noindex
 redirect_url: https://docs.microsoft.com/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider
 redirect_document_id: true
 ms.openlocfilehash: 9a01595ee8318dc1204b7fc94ae6b714e20c091e
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532857"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229208"
 ---

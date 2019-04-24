@@ -1,9 +1,11 @@
 ---
-redirect_url: legal-and-regulatory
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 2e17f3a8348c773af4b8421166996eff664b8e1d
-ms.sourcegitcommit: f942232d43fc4ad56b34dd400fdb4bca39013f5f
+localization_priority: Normal
+ms.openlocfilehash: 1d54233997e1a1e2b87e929c9101767b5928a787
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223857"
 ---

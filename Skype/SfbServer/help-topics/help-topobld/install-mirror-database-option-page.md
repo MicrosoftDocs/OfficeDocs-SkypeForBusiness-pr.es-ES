@@ -14,27 +14,27 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
 ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200232"
 ---
-# <a name="install-mirror-database-option-page"></a><span data-ttu-id="a2546-103">Página de opción instalar base de datos de reflejo</span><span class="sxs-lookup"><span data-stu-id="a2546-103">Install Mirror Database Option Page</span></span>
+# <a name="install-mirror-database-option-page"></a><span data-ttu-id="9abaa-103">Página de opción instalar base de datos de reflejo</span><span class="sxs-lookup"><span data-stu-id="9abaa-103">Install Mirror Database Option Page</span></span>
  
-<span data-ttu-id="a2546-104">Configurar **Configuración de base de datos reflejada** defina lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="a2546-104">You configure **Mirror Database Settings** by defining the following:</span></span>
+<span data-ttu-id="9abaa-104">Configurar **Configuración de base de datos reflejada** defina lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9abaa-104">You configure **Mirror Database Settings** by defining the following:</span></span>
   
-- <span data-ttu-id="a2546-105">Escriba la **ruta de acceso al archivo compartir** para definir la ubicación para los archivos de SQL Server de copia de seguridad de la base de datos que se está reflejando.</span><span class="sxs-lookup"><span data-stu-id="a2546-105">Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.</span></span>
+- <span data-ttu-id="9abaa-105">Escriba la **ruta de acceso al archivo compartir** para definir la ubicación para los archivos de SQL Server de copia de seguridad de la base de datos que se está reflejando.</span><span class="sxs-lookup"><span data-stu-id="9abaa-105">Type the **Path to file share** to define the location for the backup SQL Server files for the database being mirrored.</span></span>
     
     > [!NOTE]
-    > <span data-ttu-id="a2546-106">La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura para el recurso compartido de archivos que defina aquí.</span><span class="sxs-lookup"><span data-stu-id="a2546-106">The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here.</span></span> <span data-ttu-id="a2546-107">La instancia de SQL Server (instancia predeterminada o una instancia con nombre) reflejado debe tener permisos para el mismo recurso compartido de archivos de lectura.</span><span class="sxs-lookup"><span data-stu-id="a2546-107">The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share.</span></span> 
+    > <span data-ttu-id="9abaa-106">La instancia principal de SQL Server (instancia predeterminada o una instancia con nombre) debe tener permisos de escritura para el recurso compartido de archivos que defina aquí.</span><span class="sxs-lookup"><span data-stu-id="9abaa-106">The primary SQL Server instance (either named instance or default instance) must have write permissions to the file share you define here.</span></span> <span data-ttu-id="9abaa-107">La instancia de SQL Server (instancia predeterminada o una instancia con nombre) reflejado debe tener permisos para el mismo recurso compartido de archivos de lectura.</span><span class="sxs-lookup"><span data-stu-id="9abaa-107">The mirror SQL Server instance (either named instance or default instance) must have read permissions to the same file share.</span></span> 
   
-  <span data-ttu-id="a2546-108">**Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="a2546-108">**OK** Accepts and commits changes to the dialog.</span></span>
+  <span data-ttu-id="9abaa-108">**Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="9abaa-108">**OK** Accepts and commits changes to the dialog.</span></span>
   
-  <span data-ttu-id="a2546-109">**Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="a2546-109">**Cancel** Discards changes and closes the dialog.</span></span>
+  <span data-ttu-id="9abaa-109">**Cancelar.** Se descartan los cambios y se cierra el cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="9abaa-109">**Cancel** Discards changes and closes the dialog.</span></span>
   
-  <span data-ttu-id="a2546-110">**Ayuda.** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="a2546-110">**Help** Displays this help screen.</span></span>
+  <span data-ttu-id="9abaa-110">**Ayuda.** Abre esta pantalla de ayuda.</span><span class="sxs-lookup"><span data-stu-id="9abaa-110">**Help** Displays this help screen.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="a2546-111">Consulte también</span><span class="sxs-lookup"><span data-stu-id="a2546-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9abaa-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="9abaa-111">See also</span></span>
 
-[<span data-ttu-id="a2546-112">Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="a2546-112">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
+[<span data-ttu-id="9abaa-112">Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="9abaa-112">Deploy SQL mirroring for Back End Server high availability in Skype for Business Server 2015</span></span>](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

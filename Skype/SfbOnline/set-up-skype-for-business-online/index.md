@@ -1,9 +1,11 @@
 ---
-redirect_url: set-up-skype-for-business-online
-redirect_document_id: 
-ms.openlocfilehash: ab1bd6dc8c03c9847eb214e776e96d3d0bf9255b
-ms.sourcegitcommit: 85105cb4e42ae8eb6e7e76eaf6d4dd5b9568cf41
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: a614cb268920797be8b5dfda829347dac024564a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237339"
 ---

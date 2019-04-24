@@ -1,9 +1,11 @@
 ---
-redirect_url: deploy-high-availability-and-disaster-recovery
-redirect_document_id: ''
-ms.openlocfilehash: fb8df877db5eb39b0293d235bf86ac2554202697
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: ef3f69f81bbb6ec3534941ff9697c06d34db440f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222405"
 ---

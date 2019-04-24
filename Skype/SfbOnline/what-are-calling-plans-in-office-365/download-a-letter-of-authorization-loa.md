@@ -25,9 +25,9 @@ robots: noindex
 redirect_url: https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
 ms.openlocfilehash: fccd7b0af122d8585da87c69344dc18cdf4f12cf
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26532965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233148"
 ---

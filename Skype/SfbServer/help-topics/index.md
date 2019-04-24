@@ -1,9 +1,11 @@
 ---
-redirect_url: help-topics
-redirect_document_id: ''
-ms.openlocfilehash: e9749f81f4e51359ad922dc0d04f3b0e36a19be7
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: e596412e4d6c8c42e70e44ee8311895c30e99a3b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239893"
 ---

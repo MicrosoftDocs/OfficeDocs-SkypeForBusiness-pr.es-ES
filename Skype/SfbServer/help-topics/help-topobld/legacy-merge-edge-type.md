@@ -14,14 +14,14 @@ localization_priority: Normal
 ms.assetid: 47bedf17-25cb-4fc2-9e23-be695bd86fd0
 description: Para un solo servidor perimetral o con equilibrio de carga consolidada servidor perimetral, haga clic en siguiente para especificar información de configuración. Para un servidor perimetral expandido, configuración de cada servidor se debe cambiar a una configuración consolidada de perimetral antes de se puede combinar con Lync Server 2013.
 ms.openlocfilehash: c7bc67f8114eaaa37646e5d5c7dcc307217413a0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200204"
 ---
-# <a name="legacy-merge-edge-type"></a><span data-ttu-id="98351-104">Tipo de perímetro combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="98351-104">Legacy Merge Edge Type</span></span>
+# <a name="legacy-merge-edge-type"></a><span data-ttu-id="520a4-104">Tipo de perímetro combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="520a4-104">Legacy Merge Edge Type</span></span>
  
-<span data-ttu-id="98351-105">Para un servidor **Único servidor perimetral** o **con equilibrio de carga para topologías perimetrales consolidadas** , haga clic en **siguiente** para especificar información de configuración.</span><span class="sxs-lookup"><span data-stu-id="98351-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="98351-106">Para un **Borde expandida**, configuración de cada servidor se debe cambiar a una configuración consolidada de perimetral antes de se puede combinar con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="98351-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
+<span data-ttu-id="520a4-105">Para un servidor **Único servidor perimetral** o **con equilibrio de carga para topologías perimetrales consolidadas** , haga clic en **siguiente** para especificar información de configuración.</span><span class="sxs-lookup"><span data-stu-id="520a4-105">For a **Single Edge Server** or **Load-balanced consolidated Edge** server, click **Next** to specify configuration information.</span></span> <span data-ttu-id="520a4-106">Para un **Borde expandida**, configuración de cada servidor se debe cambiar a una configuración consolidada de perimetral antes de se puede combinar con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="520a4-106">For an **Expanded Edge**, each server's configuration must be changed to a consolidated Edge configuration before it can be merged with Lync Server 2013.</span></span> 
   
 
