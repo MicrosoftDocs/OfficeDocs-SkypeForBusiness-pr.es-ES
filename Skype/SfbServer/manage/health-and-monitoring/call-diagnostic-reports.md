@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Resumen: Conozca la multiusuario llamar a informes de diagnóstico usadas en Skype para Business Server.'
 ms.openlocfilehash: 9695331f5f586d97fb5c2de3680e2af5d2c34b03
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197782"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Llamar a informes de diagnóstico en Skype para Business Server
  

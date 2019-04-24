@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Resumen: Administrar el servicio de movilidad (Mcx) y la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
 ms.openlocfilehash: 79516ec6cf5371061a0287e70e6ed81f8b2a5395
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197502"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Supervisar el uso de servicio de movilidad y UCWA en Skype para Business Server
  
@@ -63,6 +63,6 @@ Además de los contadores del uso de la CPU y de la memoria, puede usar los sigu
 > [!NOTE]
 > Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Monitor de los límites de capacidad de memoria de servidor en Skype para Business Server](server-memory-capacity-limits.md)

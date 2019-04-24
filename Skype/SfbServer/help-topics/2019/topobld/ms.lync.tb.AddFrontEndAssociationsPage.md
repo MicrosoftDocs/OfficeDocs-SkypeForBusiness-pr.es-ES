@@ -14,11 +14,11 @@ ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede habilitar la compatibilidad de características específicas que requieren la implementación de otros servidores asociando ahora los roles de servidor con el grupo de servidores front-end. Asimismo, puede asociar roles de servidor con el grupo de servidores front-end en otro momento. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen los siguientes:'
 ms.openlocfilehash: 112c9c4d843e7b51ff52ccbb79eec0cd9df1bc40
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202078"
 ---
 # <a name="add-front-end-associations"></a>Agregar asociaciones front-end
 

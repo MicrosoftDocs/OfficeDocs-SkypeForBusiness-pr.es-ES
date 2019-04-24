@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Para delegar Skype para administración de Business Server, puede agregar permisos a especificado unidades organizativas (OU) para que los miembros de los grupos universales de RTC creados por la preparación del bosque pueden tener acceso a las unidades organizativas sin ser miembros del grupo de administradores de dominio.
 ms.openlocfilehash: 304f5d905f8839224013a2ce674b98405fd9ce8e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213707"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Cambios realizados por Grant-CsOUPermission en Skype para Business Server
  

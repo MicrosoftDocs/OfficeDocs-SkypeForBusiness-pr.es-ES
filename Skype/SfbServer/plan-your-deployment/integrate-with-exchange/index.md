@@ -1,9 +1,11 @@
 ---
-redirect_url: integrate-with-exchange
-redirect_document_id: ''
-ms.openlocfilehash: 1c53f595db3cdd99169da3726a6dbf389439c870
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 04a532c2187a02ad96778e17c870778007dbc7ce
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206391"
 ---

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumen: Obtenga información acerca de detalles de llamadas (CDR) en Skype para Business Server.'
 ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893001"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199753"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de valores de configuración de CDR de Skype para Business Server
  

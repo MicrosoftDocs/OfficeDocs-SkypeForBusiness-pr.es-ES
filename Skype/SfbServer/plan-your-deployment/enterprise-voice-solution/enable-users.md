@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
 description: Decisiones necesarias para la directiva de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice, incluido qué usuarios para habilitar y cómo admitir usuarios móviles.
 ms.openlocfilehash: 57a84d18bec0547f1179e62013c9b957afdd2c53
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206925"
 ---
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Habilitar a usuarios para E9-1-1 en Skype para Business Server
  

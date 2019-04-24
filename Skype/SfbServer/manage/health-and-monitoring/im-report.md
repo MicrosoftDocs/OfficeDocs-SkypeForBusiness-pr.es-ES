@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Resumen: Información sobre el informe de mensajería instantánea de punto a punto en Skype para Business Server.'
 ms.openlocfilehash: 89b5d7e76b476c112b1938d5fe9692625641214d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873432"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198604"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea de punto a punto en Skype para Business Server
  

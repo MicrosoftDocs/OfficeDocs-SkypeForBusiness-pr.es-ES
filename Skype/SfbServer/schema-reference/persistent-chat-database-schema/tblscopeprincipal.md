@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: la tabla tblScopePrincipal contiene ámbitos asignados a nodos.
 ms.openlocfilehash: e93b92280605dfe01f288435c7cb42b724c22064
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885627"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212400"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  

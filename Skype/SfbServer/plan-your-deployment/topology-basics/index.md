@@ -1,9 +1,11 @@
 ---
-redirect_url: topology-basics
-redirect_document_id: ''
-ms.openlocfilehash: 5b2f2be42a1397e849e03f5f4846761619b292b1
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 19ffc7c064aced82350e51751c63e9aeb5f98dcf
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205982"
 ---

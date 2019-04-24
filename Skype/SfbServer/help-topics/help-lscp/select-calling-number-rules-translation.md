@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: b9009c02-6628-4038-bc80-650c7a2b8741
 description: 'El cuadro de diálogo Seleccionar reglas de traducción de números de llamada muestra las reglas de traducción configuradas para su implementación. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
 ms.openlocfilehash: 4a9ac4b6c48f6d4faf30b9527c2e536fb0532caf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200551"
 ---
 # <a name="select-calling-number-rules-translation"></a>Seleccionar reglas de traducción de números de llamada
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Cada registro contiene un evento de cliente para uno de los extremos en una llamada de audio. Normalmente, una llamada tiene dos registros, uno para el autor de la llamada y otro para el destinatario de la llamada.
 ms.openlocfilehash: 307406446d71adf462cdc8a0345aa823129a8f99
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212323"
 ---
 # <a name="audioclientevent-table"></a>Tabla AudioClientEvent
  

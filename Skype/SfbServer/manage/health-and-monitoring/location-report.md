@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Resumen: Información sobre el informe de ubicación en Skype para Business Server.'
 ms.openlocfilehash: 0fa798bb9d0281c988d1e6c5f1cabbd8964764e3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197908"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Informe de ubicación en Skype para Business Server
  

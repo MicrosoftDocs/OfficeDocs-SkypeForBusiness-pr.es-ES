@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Resumen: Información sobre el informe de inventario de teléfono IP en Skype para Business Server.'
 ms.openlocfilehash: 02c98d9f3a1adbe7adf6810def04fcbffe2de3bd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197446"
 ---
 # <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Informe de inventario de teléfono IP en Skype para Business Server
  

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 description: 'Paso 3: Solicitar, instalar o asignar certificados inicia al Asistente para certificados cuando haga clic en ejecutar. Los certificados que se configuran mediante el asistente se basan en la definición de la Skype para topología empresarial Server 2015 que esté configurada y publicada por el generador de topología para el almacén de Administración Central. Para ejecutar correctamente el Asistente para certificados para una entidad de certificación en línea (CA) en su organización, debe iniciar sesión en el equipo como un usuario que sea miembro del grupo Administradores local del equipo. También debe ser un usuario autenticado de dominio en el dominio donde existen el equipo y la entidad de certificación. El Asistente para certificados ofrecen la posibilidad de especificar credenciales alternativas para el acceso de entidad emisora de certificados de su organización.'
 ms.openlocfilehash: 616e370663a2cee1b067b31cfd04ae2d1fc9e323
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201198"
 ---
 # <a name="request-install-or-assign-certificates"></a>Solicitar, instalar o asignar certificados
  

@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Legal
 description: Los clientes pueden usar el Plan de llamadas de Office 365 y el servicio de Audioconferencia de Office 365 según lo permitido en el contrato de licencia de volumen del Cliente y en los Términos de Uso de Servicios RTC de Skype Empresarial Online.
-ms.openlocfilehash: 4255df94166416a7743a1d9715b465164cdaf627
-ms.sourcegitcommit: 2731231f7e1cb518ce34c81bd00e619c3a1972e3
+ms.openlocfilehash: 2e71c5bc4172ea73f361f97a6c7796b9ab28f310
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "31875024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198366"
 ---
 # <a name="audio-conferencing-complimentary-dial-out-period"></a>Período gratuito para la realización de llamadas de Audioconferencia
 
@@ -41,7 +41,7 @@ A partir del 1 de diciembre de 2019, la capacidad de acceso telefónico de salid
 
 ### <a name="complimentary-dial-out-period-details"></a>Marcado complementario detalles período
 
-Para los clientes que adopten nuestro servicio de conferencia de Audio de Office 365, Microsoft proporciona una ventaja complementaria adicional relacionados con marcar un número de las reuniones organizadas por los usuarios asignados a una licencia de suscripción de conferencia de Audio de Office 365 a través de junio de 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados tal como se define en la configuración de directiva, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono que no sean premium en los países de "Zona" 44 enumerados a continuación de la reunión. Este beneficio es aplicable a las licencias de suscripción mensuales de conferencias de Audio y no se extiende a las licencias de pago por minuto de conferencias de Audio.
+Para los clientes que adopten nuestro servicio de conferencia de Audio de Office 365, Microsoft proporciona una ventaja complementaria adicional relacionados con marcar un número de las reuniones organizadas por los usuarios asignados a una licencia de suscripción de conferencia de Audio de Office 365 a través de noviembre 2019. Durante este período complementario, Microsoft permite a los organizadores de reuniones o asistentes autorizados tal como se define en la configuración de directiva, para realizar llamadas de salida desde dentro de la reunión a los números de teléfono que no sean premium en los países de "Zona" 44 enumerados a continuación de la reunión. Este beneficio es aplicable a las licencias de suscripción mensuales de conferencias de Audio y no se extiende a las licencias de pago por minuto de conferencias de Audio.
 
 Además, hay un límite de 900 cap minuto durante el marcado complementario período como tales:
 

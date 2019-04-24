@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Resumen: Información sobre el informe de actividad de conferencia usadas en Skype para Business Server.'
 ms.openlocfilehash: 09ad67452c9c24aff8e0f67998b654ade8d929fd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199916"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype para Business Server
  

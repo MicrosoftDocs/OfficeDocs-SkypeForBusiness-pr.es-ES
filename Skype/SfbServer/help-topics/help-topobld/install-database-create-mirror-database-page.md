@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
 ms.openlocfilehash: 77cf1b98fba80a3e2b7ffdbe256a5374148cf6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899592"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200326"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar página de creación de base de datos de reflejo de la base de datos
  
@@ -26,7 +26,7 @@ Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco 
   
 Si opta por no instalar las bases de datos de reflejo de SQL Server durante el proceso de publicación, instalarlos mediante **Instalar base de datos** en un derecho, haga clic en cualquier nodo en el generador de topología. Seleccione el almacén de reflejo para instalar. Haga clic en **configuración** para definir la configuración avanzada.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)
 

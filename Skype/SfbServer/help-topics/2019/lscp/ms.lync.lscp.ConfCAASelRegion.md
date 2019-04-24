@@ -14,11 +14,11 @@ ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar regiones para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en Aceptar.
 ms.openlocfilehash: fd2106e0329168a7626467f7dbd200b9143509c0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215804"
 ---
 # <a name="select-regions"></a>Seleccionar regiones
  

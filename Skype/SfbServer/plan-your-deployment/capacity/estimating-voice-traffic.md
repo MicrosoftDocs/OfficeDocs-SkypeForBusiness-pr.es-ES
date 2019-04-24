@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Puede usar la siguiente métrica para calcular el tráfico de usuario en cada sitio y el número de puertos que se requieren para admitir dicho tráfico.
 ms.openlocfilehash: 4475be7d233bbfa34c1d2aa8b62d578ebb985423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197677"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Estimar el tráfico y el uso de voz de Skype para Business Server
  

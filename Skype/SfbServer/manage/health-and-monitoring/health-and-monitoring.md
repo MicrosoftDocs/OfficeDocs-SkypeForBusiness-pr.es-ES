@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Resumen: Obtenga información acerca de las tareas de configuración de supervisión y mantenimiento en Skype para Business Server.'
 ms.openlocfilehash: 10b81a6950e0f30e74d9d47c59223952d41ee7d8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197488"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Administrar el estado y supervisión de Skype para Business Server
 
@@ -33,7 +33,7 @@ Temas de esta sección proporcionan procedimientos paso a paso para la supervisi
 
 - [Uso de informes de supervisión en Skype para Business Server](monitoring-reports.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 

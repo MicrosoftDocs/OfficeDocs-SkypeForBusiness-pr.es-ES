@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Seleccione cada una de las características que quiera habilitar para el grupo de servidores perimetrales. El grupo de servidores perimetrales admite de forma predeterminada usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de características del grupo de servidores perimetrales:'
 ms.openlocfilehash: 251796a18f7f2f6ff8402fb4ef50827e60221451
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246979"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 

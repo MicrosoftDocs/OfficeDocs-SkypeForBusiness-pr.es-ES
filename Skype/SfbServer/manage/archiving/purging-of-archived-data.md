@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Resumen: Obtenga información sobre cómo administrar el proceso de purga de los datos archivados de Skype para Business Server.'
 ms.openlocfilehash: 5483871d69932239f5d6e654c95edf1feac7b9d9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211035"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la purga de datos archivados de Skype para Business Server
 

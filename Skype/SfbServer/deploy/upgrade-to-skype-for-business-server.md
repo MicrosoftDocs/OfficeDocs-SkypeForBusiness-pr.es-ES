@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Resumen: Obtenga información sobre cómo realizar una actualización de Lync Server 2013 Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 0a09de79bd60917667dfb2e7ca33310da3b04ddd
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878192"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211638"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade to Skype for Business Server 2015
  
@@ -239,7 +239,7 @@ Revise el mensaje completo que aparece en la parte inferior de la pantalla para 
   
 Si la actualización en contexto se produce un error en la **comprobación de preparación de actualización** o **faltan requisitos previos de instalación**, asegúrese de que el servidor tiene todas las actualizaciones más recientes Windows Server, Lync Server y SQL Server aplicadas y todo el software requerido y roles son instalado. Para obtener una lista de lo que se requiere, vea [requisitos de servidor para Skype para Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) e [instalar los requisitos previos para Skype para Business Server 2015](install/install-prerequisites.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Plan to upgrade to Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   
@@ -247,4 +247,4 @@ Si la actualización en contexto se produce un error en la **comprobación de pr
   
 [Instalar requisitos previos para Skype Empresarial Server 2015](install/install-prerequisites.md)
   
-[Instalar Skype Empresarial Server 2015](install/install.md)
+[Instalar Skype Empresarial Server 2015](install/install.md)

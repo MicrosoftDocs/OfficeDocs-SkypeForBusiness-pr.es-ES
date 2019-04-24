@@ -1,9 +1,11 @@
 ---
-redirect_url: help-lscp
-redirect_document_id: ''
-ms.openlocfilehash: 8db638a7cdfdf991e66b26ac978d0787ff890eb6
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 96019de4495b8b1ff2cf17fa8fc7ab643165d8db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32196577"
 ---

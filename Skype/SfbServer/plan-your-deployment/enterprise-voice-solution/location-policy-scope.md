@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: Planear las directivas de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 0c39d0f464b7cde9521dbb69043411b964f74858
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892220"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206757"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Asignar el ámbito de directiva de ubicación en Skype para Business Server
  

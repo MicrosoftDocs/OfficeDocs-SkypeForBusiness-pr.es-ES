@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de implementar uno o más servidores perimetrales, debe habilitar a los tipos de dominio externo o acceso de proveedor, acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que se admite para su organización.
 ms.openlocfilehash: 8428815a0f3d89124d1b5e681b79924171916f6d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199923"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Administrae la configuración perimetral de acceso para su organización
 
