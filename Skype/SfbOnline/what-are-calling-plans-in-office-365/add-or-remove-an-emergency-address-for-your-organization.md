@@ -1,5 +1,5 @@
 ---
-title: Agregar, cambiar o quitar una dirección de emergencia para la organización
+title: Agregar, cambiar o quitar una dirección de emergencia para su organización
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Learn how to add an emergency address to your Skype for Business account. '
+description: 'Aprenda cómo agregar una dirección de emergencia a su cuenta de Skype for Business. '
 ms.openlocfilehash: b3fab8d41c1b6f59961feee09f5eae888d32b362
-ms.sourcegitcommit: 60e8365281ec6d780f1b2439bedef0bd71f002d8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30047742"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32170919"
 ---
-# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Agregar, cambiar o quitar una dirección de emergencia para la organización
+# <a name="add-change-or-remove-an-emergency-address-for-your-organization"></a>Agregar, cambiar o quitar una dirección de emergencia para su organización
 
 Una dirección de emergencia debe asociarse con un número de teléfono, pero cuando esto sucede puede variar entre países o regiones. Por ejemplo, en los Estados Unidos, debe asociar una dirección de emergencia al asignar el número de teléfono al usuario. En el Reino Unido, debe asociar una dirección de emergencia al número de teléfono al obtener los números de teléfono de Office 365 o transferir los números de teléfono de su proveedor de servicio actual.
   
-Independientemente del país o región en que se encuentre, es posible agregar una ubicación o ubicaciones a una dirección de emergencia o quitar una dirección de emergencia. Dependiendo del número de ubicaciones físicas en la organización, puede crear para los edificios, plantas y oficinas. Vea [¿Cuáles son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) para obtener algunos detalles.
+No matter which country/region you are in, it's possible to add a location or locations to an emergency address or remove an emergency address. Depending on the number of physical locations in your organization, you can create them for buildings, floors, and offices. See [What are emergency locations, addresses, and call routing?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing) for some details.
   
 Para obtener información sobre cómo obtener planes de llamadas y su coste, vea [Licencias de complementos de Skype for Business y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -73,7 +73,7 @@ Para obtener información sobre cómo obtener planes de llamadas y su coste, vea
 
 4. Realice los cambios y, a continuación, haga clic en **Validar**.
 
-5. Haga clic en **Guardar**.
+5. Haga clic en **Guardar **.
 
 ## <a name="remove-an-emergency-address"></a>Quitar una dirección de emergencia
 
@@ -120,7 +120,7 @@ Tenga en cuenta después de cambiar la dirección de emergencia, el estado del n
 
 [Términos y condiciones de las llamadas de emergencia](/microsoftteams/emergency-calling-terms-and-conditions)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

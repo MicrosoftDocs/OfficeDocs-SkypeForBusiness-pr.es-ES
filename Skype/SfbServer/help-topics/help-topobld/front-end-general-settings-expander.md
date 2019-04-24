@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Dispone de las siguientes secciones para editar la configuración de un grupo de servidores front-end o un servidor Standard Edition:'
 ms.openlocfilehash: 411dd91a47fc00a5f3233ae21e9bc97c4ddd6f73
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180403"
 ---
 # <a name="front-end-general-settings-expander"></a>Expansor de configuración general front-end
 

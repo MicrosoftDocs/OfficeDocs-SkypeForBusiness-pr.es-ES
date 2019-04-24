@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e68746631b6e30aedac347c8fb1c0c3c24d26675
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180132"
 ---
 # <a name="enable-teams-in-your-organization"></a>Permiten a los equipos de la organización
 

@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Para editar las propiedades del grupo de servidores Front-End o de servidor Front-End, edición o configurar los siguientes atributos. La página de configuración se divide en las secciones siguientes:'
 ms.openlocfilehash: 34f026b6e802bb83c550d2a81e5630a64765e27d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897419"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180378"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general front-end para Lync Server 2010
 
@@ -97,6 +97,6 @@ Haga clic en **Cancelar** para descartar los cambios y cerrar la **Editar propie
 
 Haga clic en **Ayuda** para leer este tema de ayuda.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Definir y configurar un servidor Standard Edition o grupo de servidores Front-End](https://technet.microsoft.com/library/713fc263-23dd-414a-b001-82932e4fe966.aspx)

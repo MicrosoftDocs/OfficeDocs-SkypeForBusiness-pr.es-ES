@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180267"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================

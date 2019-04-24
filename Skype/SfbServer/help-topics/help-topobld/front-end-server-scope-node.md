@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
 description: 'Este nodo muestra la información de configuración de este grupo de servidores front-end o servidor Standard Edition. Puede efectuar las acciones siguientes:'
 ms.openlocfilehash: 4c21a0f2d27c86f1b457105786e17876b26bee8e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32173187"
 ---
 # <a name="front-end-server-scope-node"></a>Nodo de ámbito del servidor front-end
  
