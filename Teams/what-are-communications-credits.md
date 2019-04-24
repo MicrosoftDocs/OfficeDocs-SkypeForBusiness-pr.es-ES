@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn what Communication Credits (PSTN Consumption) billing, how to find rates, and what services you get. '
-ms.openlocfilehash: d113731d9b2c8f387e543a8d1733abcee12b2fcf
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8fa06f22d1fb31f592f520ba3b1d17c8fcaf0ccb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211772"
 ---
 # <a name="what-are-communications-credits"></a>¿Qué son los Créditos de comunicaciones?
 
@@ -61,7 +61,7 @@ Para usar los números gratuitos en Skype para la empresa, Communications crédi
 > [!NOTE]
 > Debe configurar créditos de comunicaciones y, a continuación, asigna una licencia de créditos de comunicaciones para cada usuario en el **Centro de administración de Office 365** > **usuarios** > **Usuarios activos**. 
   
-Se recomienda evaluar cuidadosamente el uso del servicio de RTC de su organización con el fin de comprender la mejor configuración para créditos Communications. Puede ver más información acerca de los servicios de RTC mediante la lectura de [¿Cuáles son los planes de llamada en Office 365?](what-are-calling-plans-in-office-365.md) y [las preguntas más frecuentes de conferencias de Audio](Audio-Conferencing-common-questions.md).
+Se recomienda evaluar cuidadosamente el uso del servicio de RTC de su organización con el fin de comprender la mejor configuración para créditos Communications. Puede ver más información acerca de los servicios de RTC mediante la lectura de [sistema telefónico y llamar a los planes](calling-plan-landing-page.md) y [las preguntas más frecuentes de conferencias de Audio](Audio-Conferencing-common-questions.md).
   
 Puede configurar con una **única fondos** del saldo previo pago **o** mediante la configuración de una cantidad de **recarga de automático** ( **recomendado** ) con un saldo mínimo que se va a desencadenar una compra para dicho importe recarga de facturación de consumo. Al principio, se recomienda establecer importes de recarga automática que le permitan controlar el uso real para establecer los límites de recarga automática que se ajusten a sus necesidades y patrones de uso. Comunicaciones créditos deben supervisarse a través del tiempo y, a continuación, ajustar los importes de saldo y recarga mínimos según sea necesario para personalizarse para las necesidades de cada organización.
   

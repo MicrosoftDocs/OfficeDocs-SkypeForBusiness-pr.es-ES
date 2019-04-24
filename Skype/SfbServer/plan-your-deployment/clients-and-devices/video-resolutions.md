@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Resumen: Revise los requisitos de vídeo del cliente durante la planeación de Skype para Business Server.'
 ms.openlocfilehash: a17e3e269f24e74c5403c053723d544898560f34
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886693"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207240"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype para resoluciones de vídeo de cliente empresarial
  

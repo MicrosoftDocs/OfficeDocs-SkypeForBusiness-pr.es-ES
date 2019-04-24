@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Resumen: Configurar la autenticación de dos factores en Skype para Business Server.'
 ms.openlocfilehash: d9df5072e1d67e46c40e1fd82ec1d88354321577
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211000"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Configuración de autenticación de dos factores en Skype para Business Server
 
@@ -341,7 +341,7 @@ En los siguientes pasos, se describe cómo crear una configuración de proxy per
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación de dos factores en Skype para Business Server](two-factor-authentication.md)
 

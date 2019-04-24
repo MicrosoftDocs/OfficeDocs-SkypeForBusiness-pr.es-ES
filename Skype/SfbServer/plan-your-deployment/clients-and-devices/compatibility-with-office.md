@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
 description: Comprender las formas que se puede tener acceso a Skype para las características empresariales de Outlook y otras aplicaciones de Microsoft Office.
 ms.openlocfilehash: c5636b5c7e41b480a9c8aa5532a22523c3554a54
-ms.sourcegitcommit: b265545216ff36772d5dc2df381a9046bc71098e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207478"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype para la compatibilidad de negocio con aplicaciones de Office
  
@@ -36,14 +36,14 @@ En la siguiente tabla se describe la Skype para las características de negocio 
 |**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|**2016 de Office para Mac** & #x 2776; |
 |:-----|:-----|:-----|:-----|
 |**Características de Outlook** ||||
-|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí   |Sí|
+|Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí    |Sí|
 |Configurar la opción de reunión para silenciar el audio y el vídeo de los asistentes de manera predeterminada    |No    |Sí    |No    |
 |Almacén de contactos unificados para la administración de las listas de contactos a través de Office y Skype para la empresa    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
 |Imágenes de perfil de alta resolución    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
-|Estado de presencia en el Microsoft Outlook, en, campos y Cc    |Sí    |Sí    |Sí    |
+|Estado de presencia en el Microsoft Outlook, en, campos y Cc    |Sí     |Sí     |Sí    |
 |Responder con mensajería instantánea o llamar desde el menú de disponibilidad    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |
-|Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación    |Sí    |Sí    |No    |
-|Responder con mensajería instantánea o llamada desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí    |Sí    |Sí    |
+|Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación    |Sí     |Sí    |No    |
+|Responder con mensajería instantánea o llamada desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí     |Sí     |Sí    |
 |**Otras aplicaciones de Office**   ||||
 |Notas compartidas de OneNote    |No    |Sí    |No    |
 |Configuración integrada en el programa de configuración de Office    |No    |Sí    |No    |

@@ -14,11 +14,11 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225939"
 ---
 <div id="main" class="v2">
     <div class="container">

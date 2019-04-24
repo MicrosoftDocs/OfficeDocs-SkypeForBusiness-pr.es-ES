@@ -16,11 +16,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f4cd3af52b98bb80d7424b84be71416dbceb6250
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013061"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232811"
 ---
 # <a name="meetings--conferencing-in-microsoft-teams"></a>Reuniones y conferencias en Microsoft Teams
 

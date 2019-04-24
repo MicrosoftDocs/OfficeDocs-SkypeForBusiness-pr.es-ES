@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dfa33367df101436a47a8558e072dfbac19b3458
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232128"
 ---
 # <a name="how-to-roll-out-microsoft-teams"></a>Cómo implementar Microsoft Teams
 

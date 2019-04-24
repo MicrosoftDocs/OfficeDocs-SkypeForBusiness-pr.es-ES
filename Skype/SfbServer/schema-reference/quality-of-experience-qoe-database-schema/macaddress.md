@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: a32e68c5-3f95-4217-aff4-cb3d1cc70505
 description: En la tabla MacAddress es una tabla de apoyo. Cada registro representa una fuente.
 ms.openlocfilehash: 4df96baf0a964029f7cefb4288ea2b3c8e3a1f6a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888790"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212217"
 ---
 # <a name="macaddress-table"></a>Tabla MacAddress
  

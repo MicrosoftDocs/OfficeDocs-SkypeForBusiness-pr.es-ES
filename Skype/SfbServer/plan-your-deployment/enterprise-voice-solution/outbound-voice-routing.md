@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
 description: Obtenga información acerca del enrutamiento de voz salientes en Skype para Business Server Enterprise Voice, incluida la configuración de enrutamiento de llamadas, planes de marcado, reglas de normalización, las directivas de voz, registros de uso de RTC y rutas de voz.
 ms.openlocfilehash: 61e2721f2dac3ea6f49708213b1da9752300cbed
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206553"
 ---
 # <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Plan para el enrutamiento de voz salientes en Skype para Business Server
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a33ec637-9ac8-4cb7-b3b2-88d432efc078
 description: Planeación para llamar vía trabajo en Skype para Business Server, lo que permite la integración entre Skype para la empresa y el sistema de teléfono PBX, para que los usuarios pueden usar Skype para la empresa para controlar sus teléfonos PBX.
 ms.openlocfilehash: 3a2452f732d55f305d91cee9cd2b940f7bb3c88e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891667"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207247"
 ---
 # <a name="plan-for-call-via-work-in-skype-for-business-server"></a>Planeación de la llamada vía trabajo en Skype para Business Server
  
@@ -97,7 +97,7 @@ Llamar vía trabajo es una solución de voz que requiere poca el programa de ins
 
 Para habilitar a los usuarios para llamar vía trabajo, debe tener algunos requisitos previos en su lugar. Para obtener más información sobre estos requisitos previos y para obtener instrucciones acerca de cómo habilitar a los usuarios para llamar vía trabajo, vea [Implementar llamar vía trabajo en Skype para Business Server 2015](../../deploy/deploy-call-via-work.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Plan para el control remoto de llamadas en Skype para la empresa](remote-call-control.md)
   

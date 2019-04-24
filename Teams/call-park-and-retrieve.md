@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Use estacionamiento y recuperación para realizar una llamada en espera en el servicio de los equipos en la nube.
 ms.openlocfilehash: 798e53ef9a0638be659da8567419b7bd3d3c3555
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993505"
+ms.locfileid: "32211841"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Estacionamiento y recuperación de llamadas en Microsoft Teams
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 04e6bdd3-bbd1-47ca-8114-94a3db6beeeb
 description: Esta sección contiene consultas de ejemplo para la base de datos de calidad de la experiencia (QoE).
 ms.openlocfilehash: b521986e4a7b91f211788922b55067622b48dac5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212126"
 ---
 # <a name="sample-qoe-database-queries"></a>Consultas de base de datos de QoE de ejemplo
  

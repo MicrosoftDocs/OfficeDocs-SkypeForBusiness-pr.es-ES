@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lea este tema para obtener información acerca de cómo comprobar si tiene una licencia por volumen de software Skype Empresarial.
 ms.openlocfilehash: e4ba03dacdce0056cb130299f551921042a6790d
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207934"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Sistema de salas de Skype: licencia del software de Skype Empresarial
  
@@ -31,7 +31,7 @@ Desde un símbolo del sistema, ejecute:`nslookup -type=srv _vlmcs._tcp >%temp%\k
   
 Para obtener más información, vea [cómo detectar hosts de KMS de Windows y de Office a través de DNS y quitar instancias no autorizadas](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx). 
   
-Para configurar un KMS, consulte [Activación de KMS de Office 2013](https://technet.microsoft.com/library/ee624357.aspx) y [Claves de licencia por volumen genéricas para activar KMS y Active Directory en Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
+Para configurar un KMS, vea [activación de KMS de Office 2013](https://technet.microsoft.com/library/ee624357.aspx) y [Gvlk para la activación de KMS y Active Directory de Office 2013](https://technet.microsoft.com/library/dn385360.aspx)
   
 Clave de licencia de volumen Office 2013 genérico de Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (esta clave hace que el sistema de sala de Skype buscar un KMS en la red).
   
@@ -41,7 +41,7 @@ Si el cliente usa cualquier otro software de licencia por volumen, el departamen
   
 Un cliente con un VLA debe conocer sus credenciales de VLSC, que usará para administrar el contrato y obtener MAK. Si no sabe con seguridad, departamento de finanzas del cliente debe ser capaz de confirmar si el cliente ha pagado un VLA.
   
-Para obtener una MAK, acceda al Centro de servicios de licencias por volumen para ver los contratos y descargar claves de producto (MAK). Para obtener más información, vaya al [Centro de servicios de licencias por volumen](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
+Para obtener una MAK, acceda al Centro de servicios de licencias por volumen para ver los contratos y descargar claves de producto (MAK). Para obtener más información, vaya al [Centro de servicio de licencias por volumen](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-office-365-without-vlsc-access"></a>MAK para Office 365 sin acceso al VLSC
 

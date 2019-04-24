@@ -16,19 +16,19 @@ ms.custom: ''
 ms.assetid: fefd4fff-57cc-4019-b3eb-3535ad3729a8
 description: 'Resumen: Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características de Business Server 2015, servidores y topologías.'
 ms.openlocfilehash: bc0df4bb1cf4c10b915c181f7f76c2586cf001be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207793"
 ---
 # <a name="plan-for-your-skype-for-business-server-2015-deployment"></a>Planificar la implementación de Skype Empresarial Server 2015
  
 **Resumen:** Explore estos vínculos a información sobre cómo desarrollar conceptuales, lógicos y físicos diseños para configurar Skype para las características de Business Server 2015, servidores y topologías.
   
-Skype para Business Server ofrece mensajería instantánea (IM), presencia, conferencias, vídeo y soluciones de telefonía que pueden satisfacer los requisitos de colaboración de la empresa. Este tema proporciona vínculos a información acerca de cómo planear un Skype correcta para la implementación de Business Server. 
+Skype Empresarial Server ofrece soluciones de telefonía, vídeo, conferencias, presencia y mensajería instantánea (MI) que cumplen los requisitos de colaboración de la empresa. Este tema proporciona vínculos a información acerca de cómo planear un Skype correcta para la implementación de Business Server. 
   
-Los autores de los artículos los actualizan de forma continua a medida que se encuentra disponible nueva información y que los usuarios proporcionan comentarios. Esta página se actualiza con frecuencia, de modo que compruébela con regularidad.
+Los escritores actualizan los artículos constantemente a medida que aparece nueva información y los usuarios envían comentarios al respecto. Esta página se actualiza con frecuencia, de modo que compruébela con regularidad.
 ## <a name="visual-resources-about-how-to-plan-for-skype-for-business-server"></a>Recursos de Visual acerca de cómo planear Skype para Business Server
 
 Ver los siguientes recursos para obtener información acerca de cómo planear su Skype para la implementación de Business Server.
@@ -54,12 +54,12 @@ Los siguientes artículos acerca de cómo planear Skype para Business Server est
 |**[Planeación de la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json)**  ¿Tiene usuarios que están hospedados en local Skype para Business Server y Skype para profesionales en línea? If so, read about how you can set up a hybrid deployment that synchronizes both on-premises and online users across a single domain. <br/> ||
 |**[Planeación para las implementaciones de servidor perimetral de Skype para Business Server 2015](edge-server-deployments/edge-server-deployments.md)**  ¿La organización comunicarse con usuarios de fuera de la red interna? Si es así, lea acerca de cómo se puede implementar servidor perimetral para admitir comunicaciones a través de firewall de la organización. <br/> ||
    
-## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionales sobre la planeación de Skype para Business Server
+## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionales sobre la planeación de Skype Empresarial Server
 
-Los recursos siguientes sobre cómo planear Skype para Business Server están disponibles de otra expertos en la materia. 
+Los siguientes recursos sobre cómo planificar Skype Empresarial Server están disponibles por medio de otros expertos en la materia. 
   
 ||**Contenido**|**Descripción**|
 |:--- |:--- |:--- |
-|![Icono para documentos](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype para Business Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite el centro de recursos para el acceso a vídeos, sitios de la Comunidad, documentación, descargas y más.  <br/> |
-|![Icono de contenido de desarrollador](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Plataforma de desarrollador de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Busque recursos para desarrolladores Skype para Business Server, incluidos los SDK, aprendizaje y ejemplos de código.  <br/> |
-|![Icono de noticias, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración de cambios y adopción](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase informado con las noticias de los equipos que crean y documento Skype para Business Server.  <br/> |
+|![Icono de documentos](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype Empresarial Server para profesionales de TI](https://go.microsoft.com/fwlink/p/?LinkId=527960) <br/> |Visite el centro de recursos para obtener acceso a vídeos, sitios de la comunidad, documentación, descargas, etc.  <br/> |
+|![Icono de contenido de desarrollador](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|[Plataforma para desarrolladores de Skype](https://go.microsoft.com/fwlink/?LinkId=619775) <br/> |Busque recursos de desarrolladores para Skype Empresarial Server, como ejemplos de código, formación y SDK.  <br/> |
+|![Icono de noticias, blogs, etc.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Administración de cambios y adopción](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Blogs de Office](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Blog técnico de Office 365](https://go.microsoft.com/fwlink/p/?LinkId=532798.aspx) <br/> [Blog del equipo de Skype](https://go.microsoft.com/fwlink/p/?LinkId=532818) <br/> |Manténgase actualizado con las novedades que ofrecen los equipos que crean y documentan Skype Empresarial Server.  <br/> |

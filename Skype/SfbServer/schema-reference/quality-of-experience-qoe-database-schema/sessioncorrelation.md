@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 041705e1-7290-464f-95f8-96256cfa2e3e
 description: En la tabla SessionCorrelation es una tabla de apoyo. Cada registro representa una CorrelationID que se usa para correlacionar varias sesiones.
 ms.openlocfilehash: 8c41ab5c52c6b4d06a3c3953e8d969488680e8d3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212119"
 ---
 # <a name="sessioncorrelation-table"></a>Tabla SessionCorrelation
  

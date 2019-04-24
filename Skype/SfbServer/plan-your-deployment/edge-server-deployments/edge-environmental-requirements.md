@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
 description: 'Resumen: Obtenga información sobre los requisitos del entorno de servidor perimetral en Skype para Business Server.'
 ms.openlocfilehash: eaa6c1ac5b1d014f6c2bb54a342dabd4c6388c2e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878817"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207163"
 ---
 # <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Borde de requisitos de entorno de servidor en Skype para Business Server
  
@@ -80,9 +80,9 @@ Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen 
 |:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral consolidado simple con direcciones IP privadas y NAT  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |
 |Servidor perimetral consolidado simple con direcciones IP públicas  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |No  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí   <br/> |Sí   <br/> |Sí   <br/> |Yes&sup1;  <br/> |
-|Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí   <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP privadas y NAT (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
+|Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
    
 &sup1; Conmutación por error de usuarios remotos de mensajería unificada de Exchange (UM) con equilibrio de carga DNS requiere Exchange 2013 o más reciente.
   
