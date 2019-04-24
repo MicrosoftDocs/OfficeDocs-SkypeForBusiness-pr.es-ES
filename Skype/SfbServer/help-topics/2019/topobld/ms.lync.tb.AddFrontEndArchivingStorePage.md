@@ -14,11 +14,11 @@ ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 ROBOTS: NOINDEX, NOFOLLOW
 description: El archivado requiere una edición de 64 bits compatible del software de base de datos de Microsoft SQL Server para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que la base de datos de SQL Server se residan, además de la instancia de SQL Se servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
 ms.openlocfilehash: e43d7de6598a24306cc9622f24bea0b2b7e7cc25
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202092"
 ---
 # <a name="add-front-end-archiving-store"></a>Agregar almacén de archivado front-end
 

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 'Resumen: Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server.'
 ms.openlocfilehash: 9e79ca7e1b2f896746db998cc53983c04c6724ef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222754"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Crear directorios de conferencia en Skype para Business Server
  

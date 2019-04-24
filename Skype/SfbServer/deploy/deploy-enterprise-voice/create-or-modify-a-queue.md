@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Crear o modificar una cola de grupo de respuesta, en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: d564a40f8e650042fe23ff1db6262c6d1c5b93a1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895516"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223215"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Crear o modificar una cola en Skype para la empresa
  
@@ -199,7 +199,7 @@ Use uno de los procedimientos siguientes para crear o modificar una cola.
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsRgsQueue](https://docs.microsoft.com/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

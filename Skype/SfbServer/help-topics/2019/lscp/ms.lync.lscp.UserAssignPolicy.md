@@ -14,11 +14,11 @@ ms.assetid: f36a2699-5cf6-4995-9f6d-ec3519ca0903
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: a0fb0b2e9115bd8af78967e4e05a5d5f9953779b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214985"
 ---
 # <a name="users-assign-policies"></a>Usuarios: Asignar directivas
 

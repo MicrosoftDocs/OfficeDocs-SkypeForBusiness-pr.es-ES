@@ -19,11 +19,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c089aed27acb4f7864bf5dc1948b0b55a4643790
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203090"
 ---
 <a name="admin-settings-for-apps-in-microsoft-teams"></a>Configurar la administración para aplicaciones en Microsoft Teams
 ==========================================

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: Lea este tema para aprender a planear las directivas de ubicación para una implementación de servicios de emergencia mejorado (E9-1-1) en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 6717d6b7940ccf9cf7de403797d8bd4712f18144
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206764"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planeación de las directivas de ubicación de Skype para Business Server
  

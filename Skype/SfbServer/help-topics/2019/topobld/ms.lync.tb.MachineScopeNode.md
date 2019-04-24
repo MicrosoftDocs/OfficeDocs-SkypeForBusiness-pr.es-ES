@@ -14,11 +14,11 @@ ms.assetid: 337f5424-5bb4-45ef-83ca-117ada93498c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y la configuración de dirección IP de este servidor. Puede efectuar las acciones siguientes:'
 ms.openlocfilehash: bb17be142976a98374639af84f498955aef77379
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888412"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201789"
 ---
 # <a name="machine-scope-node"></a>Nodo de ámbito de equipo
  

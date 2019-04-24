@@ -1,9 +1,11 @@
 ---
-redirect_url: deploy-monitoring
-redirect_document_id: ''
-ms.openlocfilehash: 8e8afac5c9a1ee718931d2de071b1cee53979cec
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: e5bf8d4d8e1dac7d789c4af718f4314b00001bf3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222312"
 ---

@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Vea los pasos que hay que seguir en Microsoft Teams para asignar una licencia de conferencia de acceso telefónico local y un Id. de conferencia a un usuario y muchas otras opciones de la conferencia de acceso telefónico local. '
 ms.openlocfilehash: 201da13370852b6506fe7aa32f695d973bcc637a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202768"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-your-organization-in-microsoft-teams"></a>Administrar la configuración de Audioconferencia para su organización en Microsoft Teams
 
@@ -73,7 +73,7 @@ Puede que le resulte más sencillo ver todas las opciones de audioconferencias p
   
 Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
   
-## <a name="reset-the-meeting-conference-id"></a>Restablecer el id. de conferencia de reunión
+## <a name="reset-the-meeting-conference-id"></a>Reset the meeting conference ID
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
@@ -83,11 +83,11 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
 
 3. En la **Restablecer el identificador de conferencia?** ventana, haga clic en **Restablecer**. Se creará automáticamente un identificador de conferencia y un correo electrónico enviado al usuario con el nuevo identificador de conferencia si está habilitado el envío de correo electrónico a los usuarios. Está habilitada de forma predeterminada.
 
-Vea [Restablecer un id. de conferencia para un usuario](reset-a-conference-id-for-a-user-in-teams.md).
+See [Reset a conference ID for a user](reset-a-conference-id-for-a-user-in-teams.md).
   
-## <a name="reset-a-conference-organizers-pin"></a>Restablecer el PIN del organizador de una conferencia
+## <a name="reset-a-conference-organizers-pin"></a>Reset a conference organizer's PIN
 
-Se asignará un Id. de conferencia único a cada reunión que programe un usuario. Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar este y que desea establecer para un cierto número, o los usuarios no pueden recordar o han perdido su identificador de conferencia. 
+Se asignará un id. de conferencia único a cada reunión que programe un usuario. Si bien crea automáticamente un identificador de conferencia y se asigna a un usuario, puede haber ocasiones cuando un usuario no desea utilizar este y que desea establecer para un cierto número, o los usuarios no pueden recordar o han perdido su identificador de conferencia. 
 
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
 
@@ -108,9 +108,9 @@ Vea [Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pi
 2. En **Conferencias de Audio**, haga clic en **Enviar información de conferencia en el correo electrónico**. 
 
     > [!NOTE]
-    > Cuando hace esto, el PIN de audioconferencia no se envía al usuario. 
+    > When you do this, the audio conferencing PIN isn't sent to the user. 
 
-Después de completar esta acción, el PIN de conferencia de acceso telefónico local no se enviará al usuario.
+See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
   
 ## <a name="set-the-phone-numbers-included-on-invites"></a>Establecer los números de teléfono incluidos en las invitaciones
 
@@ -122,7 +122,7 @@ Después de completar esta acción, el PIN de conferencia de acceso telefónico 
  
 3. En el panel de **Conferencia de Audio** , puede establecer el **número de teléfono de pago** y, si se permite, el **número de teléfono gratuito**.
 
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
     
 Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites-in-teams.md).
   
@@ -145,12 +145,12 @@ Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-
 
     Si elige **los nombres o números de teléfono**, también puede elegir habilitar o deshabilitar **los autores de llamadas Ask para registrar su nombre antes de unirse a la reunión**. 
 
-5. Haga clic en **Guardar**.
+5. Haga clic en **Guardar **.
 
     
 Después de realizar los cambios, haga clic en [Guardar](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.**
+ Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
@@ -158,12 +158,12 @@ Después de realizar los cambios, haga clic en [Guardar](change-the-settings-for
 
 3. En el panel **configuración de puente** , escriba el número de dígitos que desee para el PIN en la lista de **longitud PIN** y, a continuación, haga clic en **Guardar**.
 
-    El PIN debe tener entre 4 y 12 dígitos. El valor predeterminado es 5.
+    The PIN must be between 4 and 12 digits. The default is 5.
 
     
-El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.[](change-the-settings-for-an-audio-conferencing-bridge.md)
+See [Change the settings for an Audio Conferencing bridge](change-the-settings-for-an-audio-conferencing-bridge.md).
   
- **Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.**
+ Vea **Cambiar la configuración de un puente de conferencias de acceso telefónico local de Microsoft**.
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**. 
 
@@ -171,11 +171,11 @@ El PIN solo puede tener de 4 a 12 dígitos. El valor predeterminado es 5.[](chan
 
 3. En el panel **configuración de puente** , habilitar o deshabilitar **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**.
 
-4. Haga clic en **Guardar**. 
+4. Haga clic en **Guardar **. 
  
     También puede enviar correo electrónico al usuario con la configuración de conferencias de audio, vaya a las propiedades del usuario conferencias de audio y haciendo clic en **Enviar información de conferencia en el correo electrónico**.
     
-    Si hace esto, se enviará un correo electrónico que incluye solo el Id. de conferencia y el número de teléfono de conferencia, pero no se incluirá el PIN.
+    If you do this, an email will be sent that only includes conference ID and conference phone number, but the PIN won't be included.
 
 See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md).
     
@@ -189,7 +189,7 @@ See [Send an email to a user with their Audio Conferencing information](send-an-
 
 3. Elija los idiomas que desee en **idioma predeterminado** e **idiomas alternativos (opcionales)**.
 
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
 
 
 También puede establecer el idioma principal y los idiomas secundarios compatibles al seleccionar Microsoft como proveedor de conferencias de acceso telefónico local. El orden que seleccione en las listas desplegables será el orden de los idiomas que se presentará a los autores de las llamadas.[](set-auto-attendant-languages-for-audio-conferencing-in-teams.md)
@@ -202,7 +202,7 @@ También puede establecer el idioma principal y los idiomas secundarios compatib
 
 2. Seleccione un número de teléfono de la lista y haga clic en **Editar**. Here you can:
     
-   - Vea los números de teléfono que ha establecido Office 365 para utilizar para Audioconferencia. 
+   - View the phone numbers that are set by Office 365 to be used for Audio Conferencing. 
     
    - Ver la ubicación y el idioma principal, que se utilizará en el operador automático de conferencia de Audio.
 

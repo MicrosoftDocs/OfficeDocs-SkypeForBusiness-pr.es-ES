@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server.'
 ms.openlocfilehash: c0126a483b97a1ede28e6fea450668a6921f4ffc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197887"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Informe de uso del grupo de respuesta en Skype para Business Server
 

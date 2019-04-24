@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Configurar una base de datos de origen (SLS) ubicación secundaria para E9-1-1 en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: d5ff35be38030cc6081224e11431463e30696e4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881116"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222987"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configuración de un servicio de información de ubicación secundario en Skype para Business Server
  
@@ -37,7 +37,7 @@ Skype para Business Server proporciona una interfaz de servicio web que se puede
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

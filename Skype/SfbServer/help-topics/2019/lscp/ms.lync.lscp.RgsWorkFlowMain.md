@@ -14,11 +14,11 @@ ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo de grupo de respuesta definen las acciones que se toman cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.
 ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215139"
 ---
 # <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
 

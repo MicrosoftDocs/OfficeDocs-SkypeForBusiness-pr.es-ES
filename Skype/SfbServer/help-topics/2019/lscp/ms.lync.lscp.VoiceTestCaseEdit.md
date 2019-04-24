@@ -14,11 +14,11 @@ ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
 ms.openlocfilehash: 4257df474f2e99cd8af287a60d2592211d841362
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221190"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Probar enrutamiento de voz: Crear nuevas o editar existentes situaciones de prueba
 

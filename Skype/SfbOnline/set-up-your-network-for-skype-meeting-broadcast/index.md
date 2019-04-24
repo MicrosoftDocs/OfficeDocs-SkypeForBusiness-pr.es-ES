@@ -1,9 +1,11 @@
 ---
-redirect_url: set-up-your-network-for-skype-meeting-broadcast
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 0625b7584217e7a5aaec0d60e89e67ae40d30261
-ms.sourcegitcommit: ddd923c871b5cd92499cd2bd4ac1f708aeae6467
-ms.translationtype: HT
+localization_priority: Normal
+ms.openlocfilehash: 669ab96c387921e5e0621f1d3036e702586318fd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219749"
 ---

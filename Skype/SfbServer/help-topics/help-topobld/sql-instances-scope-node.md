@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
 description: 'La instrucción SQL almacena listas de nodos las bases de datos de SQL Server en su topología. You can perform the following action:'
 ms.openlocfilehash: c9ff02ca1514d1b77d2d633aaff02a5269ca0693
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891226"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219081"
 ---
 # <a name="sql-instances-scope-node"></a>Nodo de ámbito de instancias SQL
  

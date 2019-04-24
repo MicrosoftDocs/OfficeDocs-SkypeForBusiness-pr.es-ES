@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Office 365 Empresa Premium '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 - LIL_Placement
 description: 'Obtenga información sobre cómo comprar Office 365 Business Premium planes, características y licencias adicionales. '
 ms.openlocfilehash: 25f4b7c7563a18f89c595cd4d5d1e748b6ff8c7b
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542402"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204596"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
 Si dispone de [Office 365 Business Premium](https://products.office.com/en/business/office-365-business-premium), puede usar Microsoft Teams para realizar llamadas a otras personas de su empresa que estén en su suscripción. Por ejemplo, si su empresa tiene 10 personas, se puede usar los equipos a llamadas y mensajería instantánea entre sí.
 

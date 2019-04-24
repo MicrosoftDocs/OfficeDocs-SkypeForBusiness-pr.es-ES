@@ -14,11 +14,11 @@ ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Skype para Business Server le permite configurar las direcciones IPv4 e IPv6 para cada interfaz para el servidor perimetral y el grupo de servidores perimetrales. Para ello, realice lo siguiente:'
 ms.openlocfilehash: 727a946c6e9992b9391e7bf77238fdb61910c830
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202141"
 ---
 # <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  

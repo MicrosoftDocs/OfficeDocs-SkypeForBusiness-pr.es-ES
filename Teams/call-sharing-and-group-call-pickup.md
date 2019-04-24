@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Uso compartido de llamadas y respuesta de llamadas en grupo permite a los usuarios compartir las llamadas entrantes con compañeros de trabajo para que las llamadas se pueden capturar cuando el usuario no está disponible.
 ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993584"
+ms.locfileid: "32211826"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 

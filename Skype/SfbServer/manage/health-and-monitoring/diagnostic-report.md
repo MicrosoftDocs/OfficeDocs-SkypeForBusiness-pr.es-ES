@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
 description: 'Resumen: Información sobre el informe de diagnóstico en Skype para Business Server.'
 ms.openlocfilehash: 21f5a15495c925f401442bd6443b42d1d0bdd16d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197923"
 ---
 # <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype para Business Server
  

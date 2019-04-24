@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
 description: Administración de la configuración de grupo de respuesta de nivel de la aplicación, como la configuración de música en espera y devolución de llamada, en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: ceb59b041918836f00f2a568ab8f93f638ecdac5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223037"
 ---
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Administración de la configuración de grupo de respuesta de nivel de la aplicación en Skype para la empresa
  
@@ -54,7 +54,7 @@ La música en espera predeterminada se reproduce cuando se pone una llamada en e
    Set-CsRgsConfiguration -Identity "service:ApplicationServer:redmond.contoso.com" -DefaultMusicOnHoldFile <$x>
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsRgsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csrgsconfiguration?view=skype-ps)
   

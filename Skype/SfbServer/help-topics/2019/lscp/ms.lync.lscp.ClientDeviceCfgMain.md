@@ -14,11 +14,11 @@ ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servicio Device Update Web crea automáticamente archivos de registro que registran la actividad de actualización de los dispositivos. Como parte de la estrategia de administración de datos de la organización, es posible que desee establecer umbrales en tamaño de caché de datos de registro, el tamaño del archivo de registro o el período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización. Si no desea que el servicio Device Update Web purgue los archivos de registro de forma automática, puede purgarlos manualmente según sea necesario. La configuración de registros se puede cambiar de forma global o por sitio.
 ms.openlocfilehash: 68e5e7d569f3a0436f80bb081b0785e5278bcb0d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216014"
 ---
 # <a name="device-log-configuration"></a>Configuración de registro de dispositivo
 
@@ -58,6 +58,6 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
 - **Actualizar** Puede actualizar la lista de configuración de registro de dispositivo para comprobar el estado de las opciones de configuración de registro de todos los dispositivos.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Modify Settings for Log Files of Device Update Activity](https://technet.microsoft.com/library/9b57f126-1853-43b3-bbd4-06401e6498bd.aspx)

@@ -14,11 +14,11 @@ ms.assetid: e7fe2522-1bd2-416a-9dbb-51cacea9c6e0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un servidor Front-End de este grupo. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo. Para obtener información detallada sobre cómo agregar un grupo de servidores Front-End a la topología, consulte definir y configurar un grupo de servidores Front-End en la documentación de implementación.
 ms.openlocfilehash: c93b109a10addb8e25015c6052e4cfde68c48682
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220944"
 ---
 # <a name="add-front-end-machine"></a>Agregar equipo front-end
 

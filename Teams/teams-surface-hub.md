@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: add4b7ece81fd2c4184453b03c889a27982c830b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 086edb4f7c949154dae49cb6a371a1d9d11bc43a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204464"
 ---
 <a name="deploy-microsoft-teams-for-surface-hub"></a>Implementar Microsoft Teams para Surface Hub
 ======================================
@@ -78,19 +78,19 @@ Los paquetes se pueden encontrar en esta [página de descarga](https://1drv.ms/f
 
 ### <a name="option-2-configure-via-mdm-such-as-intune"></a>Opción 2: Configurar a través de MDM como Intune 
 
-Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de Intune. Vea también el blog, [implementar los equipos de Microsoft para aplicación de concentrador de superficie con Intune](https://blogs.technet.microsoft.com/y0av/2018/07/16/97/).
+Use lo siguiente para configurar la directiva de aplicación predeterminada llamadas y reuniones a través de Intune. Vea también el blog, [implementar los equipos de Microsoft para aplicación de concentrador de superficie con Intune](https://y0av.me/2018/07/16/deploy-the-microsoft-teams-for-surface-hub-app-using-intune/).
 
 |Configuración   |Valor    |Descripción    |
 |----------|---------|---------|
 | Ruta de acceso      | ./Vendor/MSFT/SurfaceHub/Properties/SurfaceHubMeetingMode        |
 |Tipo de datos | entero (0-2)   |0 - aplicación preferida de Skype en la pantalla de inicio, las reuniones de los equipos disponibles<br>1 - equipos aplicación preferida en la pantalla de inicio, las reuniones de Skype disponibles<br>2 - equipos aplicación exclusivo en la pantalla de inicio (aplicación de Skype no está disponible) |
-|Operaciones| Obtener, establecer        |
+|Operations| Obtener, establecer        |
 
 |Configuración   |Valor    |
 |----------|---------|
 | Ruta de acceso      | ./Vendor/MSFT/SurfaceHub/Properties/VtcAppPackageId        |
 |Tipo de datos | ¡cadena - cadena de conjunto a los equipos el identificador del paquete de aplicación como **Microsoft.MicrosoftTeamsforSurfaceHub_8wekyb3d8bbwe! Los equipos** |
-|Operaciones| Obtener, establecer        |
+|Operations| Obtener, establecer        |
 
 Reinicie el dispositivo concentrador de superficie. Una vez reiniciado el dispositivo, debe ser capaz de iniciar la aplicación de los equipos desde la pantalla de inicio y unirse a una reunión desde el calendario.
 

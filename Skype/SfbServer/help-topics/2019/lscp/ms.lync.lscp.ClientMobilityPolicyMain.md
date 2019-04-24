@@ -14,11 +14,11 @@ ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Clientesdirectiva muestra las directivas de movilidad disponibles en su implementación.
 ms.openlocfilehash: 6aa41d784f59767c62f2dc0d67440b8098009457
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215825"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: directiva de movilidad
 
@@ -50,7 +50,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
 Para obtener información detallada acerca de cómo configurar las directivas de movilidad, vea [Configurar la directiva de movilidad](https://technet.microsoft.com/library/595536e0-9bb3-49a3-8d13-1a77351ebc62.aspx).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

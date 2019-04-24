@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 description: Puede crear nuevos roles de servidor en el nodo de Lync Server 2013 del generador de topología haciendo clic en con el botón secundario en Lync Server 2013, seleccione Nuevo y luego seleccione el rol de servidor que desea crear.
 ms.openlocfilehash: e15c2f326642903df7b1512009f56897f26ebec5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200098"
 ---
 # <a name="lync-server-2013-create-new-expander"></a>Lync Server 2013 Crear nuevo expansor
  

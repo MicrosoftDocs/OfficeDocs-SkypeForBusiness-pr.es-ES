@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Resumen: Obtenga información sobre cómo crear una configuración de Skype para Business Server de reunión.'
 ms.openlocfilehash: c154661e5e8b974e4a475c935b40749776e0499c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222803"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear una configuración de Skype para Business Server de reunión
  

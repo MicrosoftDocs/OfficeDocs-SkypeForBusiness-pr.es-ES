@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 17f49365-8778-4962-a41b-f96faf6902f1
 description: 'Resumen: Configure SharePoint Server para buscar datos archivados por el servidor de Exchange y Skype para Business Server.'
 ms.openlocfilehash: b9e08c5681b35b71ac7543115ee008a97e207bb7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216861"
 ---
 # <a name="configure-sharepoint-server-to-search-for-archived-skype-for-business-data"></a>Configurar SharePoint Server para buscar datos archivados de Skype Empresarial
  

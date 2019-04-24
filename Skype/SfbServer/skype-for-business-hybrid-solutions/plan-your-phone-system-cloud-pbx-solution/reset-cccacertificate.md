@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
 ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250878"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  

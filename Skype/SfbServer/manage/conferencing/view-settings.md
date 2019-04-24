@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Resumen: Obtenga información sobre cómo ver los valores de configuración de Skype para Business Server de la reunión.'
 ms.openlocfilehash: d7ef617050b31bd85732ee4a30d0faaed41f50d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197761"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Ver opciones de configuración en Skype para Business Server de reuniones
  

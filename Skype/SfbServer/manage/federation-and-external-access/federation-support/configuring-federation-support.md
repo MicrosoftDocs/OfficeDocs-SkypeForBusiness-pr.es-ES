@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'Si implementa Skype para la empresa en su organización, puede federar con los dominios de uno o más Skype para clientes empresariales en línea. '
 ms.openlocfilehash: 70eda58c5d01b09c9f3e00ef8f3ac0391a90ed07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899725"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199873"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Configuración de compatibilidad con la federación para un Skype para clientes empresariales en línea en Skype para Business Server 
 

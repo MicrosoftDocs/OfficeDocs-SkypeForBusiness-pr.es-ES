@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planeación de grupos de respuesta en Skype para Business Server Enterprise Voice, que le permite configurar el enrutamiento de llamadas a grupos de usuarios. Incluye requisitos para los archivos de audio.
 ms.openlocfilehash: 68a693715739d58488e134934416790641dd091e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206497"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planeación de la aplicación de grupo de respuesta en Skype para Business Server
 

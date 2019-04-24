@@ -14,11 +14,11 @@ ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar nuevas, quitar las ya existentes, o para cambiar las direcciones URL sencillas de la activa, haga lo siguiente:'
 ms.openlocfilehash: 4bfa9f558f355358bcdf956dddb4e2e7f3f9b796
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875682"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201541"
 ---
 # <a name="simple-url-settings-expander"></a>Expansor de configuración de dirección URL simple
 
@@ -46,7 +46,7 @@ Para editar o cambiar la dirección URL de acceso administrativo, edite la entra
 
 Una vez que haya terminado con todos los cambios en la página Editar propiedades, haga clic en **Aceptar** para guardar los cambios. Haga clic en **Cancelar** para descartar los cambios.
 
-###  <a name="see-also"></a>Consulte también
+###  <a name="see-also"></a>Vea también
 
 Para obtener información detallada, consulte [Planning for Simple URLs](https://technet.microsoft.com/library/20e4f4b6-b7ff-4297-b00d-d1211ee800ac.aspx)
 

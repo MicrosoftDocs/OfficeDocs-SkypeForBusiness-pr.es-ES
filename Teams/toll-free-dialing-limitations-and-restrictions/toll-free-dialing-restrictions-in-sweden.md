@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
 ms.openlocfilehash: 110f3d8095da4ac6e260db9293cc095b47bee89c
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569027"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204178"
 ---
 # <a name="toll-free-dialing-restrictions-in-sweden"></a>Restricciones de marcado de número gratuito en Suecia
 
@@ -44,7 +44,7 @@ ms.locfileid: "30569027"
 |Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
 |Disponibilidad de la línea con cable o fijo  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |No  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguno  <br/> |
+|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

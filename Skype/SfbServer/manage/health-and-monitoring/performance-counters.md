@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Resumen: Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad.'
 ms.openlocfilehash: 4d55dab133b7006f8a239560efb084fd2c61b917
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197656"
 ---
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de rendimiento de movilidad en Skype para Business Server
  

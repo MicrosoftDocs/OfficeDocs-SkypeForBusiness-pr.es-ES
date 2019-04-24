@@ -14,11 +14,11 @@ ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar el cuadro de diálogo Guardar información de caso de prueba de enrutamiento de voz para guardar un caso de prueba de enrutamiento de voz temporal. En Guardar información enrutamiento de voz caso de prueba, escriba el nombre que desea dar a este caso de prueba en nombre y, a continuación, haga clic en Aceptar.
 ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878143"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221514"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Guardar información de caso de prueba de enrutamiento de voz
  

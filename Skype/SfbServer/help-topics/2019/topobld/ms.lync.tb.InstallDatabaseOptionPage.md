@@ -14,11 +14,11 @@ ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar opciones avanzadas para la ubicación de archivos de registro y base de datos en SQL Server. Las opciones disponibles son:'
 ms.openlocfilehash: 4834a3b12b668f407b92770f8850646509fc6914
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892269"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201888"
 ---
 # <a name="install-database-options-page"></a>Página de opción Instalar base de datos
 
@@ -42,6 +42,6 @@ Configurar opciones avanzadas para la ubicación de archivos de registro y base 
 
  **Ayuda**: haga clic en el botón Ayuda para obtener acceso a esta página de ayuda.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Ubicación del archivo de registro y de datos de SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)

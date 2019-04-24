@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 363da62c378a60cb85a9544339dbf7ccd699b7c0
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: e62dd8a19e2207f6b40864cab19a3fda48d184fe
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204662"
 ---
 <a name="about-upgrade-basic"></a>
 
@@ -39,9 +39,9 @@ Depende de la funcionalidad disponible en los equipos en modo de coexistencia de
 
 |Modo eficaz del usuario|Experiencia de cliente de los equipos|
 |---|---|
-|Cualquier Skype para el modo de negocio|Llamadas y conversaciones<sup>1</sup> están deshabilitadas.|
+|Cualquier Skype para el modo de negocio|Llamadas y conversaciones están deshabilitadas.|
 |SfBWithTeamsCollabAndMeetings|Programación de la reunión está disponible|
-|SfBWithTeamsCollab o SfBOnly<sup>2</sup>|Programación de la reunión no está disponible|
+|SfBWithTeamsCollab o SfBOnly<sup>1</sup>|Programación de la reunión no está disponible|
 |||
 
 Las capturas de pantalla siguientes ilustran la diferencia entre el modo de TeamsOnly o islas y todos los demás modos. Tenga en cuenta que están disponibles los iconos de chat y llamar al método con TeamsOnly o Islas modo (captura de pantalla de la izquierda), pero no con los demás modos (captura de pantalla derecha):
@@ -50,10 +50,8 @@ Las capturas de pantalla siguientes ilustran la diferencia entre el modo de Team
 
 
  
-**Notas:**
-<sup>1</sup> chat de reunión sigue estando disponible.
-
-<sup>2</sup> por ahora, SfBwithTeamsCollab y SfBOnly comportan de la misma, pero la intención es para que el modo de SfBOnly deshabilitar también la funcionalidad de canales y los archivos en los equipos; Sin embargo, actualmente no hay ninguna opción que permite que esta funcionalidad en los equipos que va a deshabilitar.
+**Nota:**
+<sup>1</sup> por ahora, SfBwithTeamsCollab y SfBOnly se comportan de la misma, pero la intención es para que el modo de SfBOnly deshabilitar también la funcionalidad de canales y los archivos en los equipos; Sin embargo, actualmente no hay ninguna opción que permite que esta funcionalidad en los equipos que va a deshabilitar.
 
 
 ## <a name="impact-of-mode-on-other-policy-settings"></a>Impacto del modo en otras configuraciones de directiva
@@ -75,7 +73,7 @@ Los administradores necesitan *no* establecer explícitamente estas configuracio
 |SfBWithTeamsCollab o SfBOnly|Deshabilitado|Deshabilitado|Deshabilitado|Deshabilitado|
 ||||||
 
-En el futuro, el `Grant-CsTeamsUpgradePolicy` cmdlet comprobará la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si esa configuración va a ser reemplazada por TeamsUpgradePolicy y si es así, un mensaje informativo se proporciona en PowerShell.  Como se mencionó anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación es un ejemplo del aspecto qué la advertencia de PowerShell:
+Cuando se usa PowerShell, la `Grant-CsTeamsUpgradePolicy` cmdlet comprueba la configuración de los valores correspondientes en TeamsMessagingPolicy, TeamsCallingPolicy y TeamsMeetingPolicy para determinar si esa configuración podría ser reemplazada por TeamsUpgradePolicy y si es así, un mensaje informativo se proporciona en PowerShell.  Como se mencionó anteriormente, ya no es necesario establecer estas otras configuraciones de directiva. A continuación es un ejemplo del aspecto qué la advertencia de PowerShell:
 
 `Grant-CsTeamsUpgradePolicy -Identity user1@contoso.com -PolicyName SfBWithTeamsCollab`
 

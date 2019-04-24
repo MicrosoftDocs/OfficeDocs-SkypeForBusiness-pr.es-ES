@@ -14,11 +14,11 @@ ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Troncos con el botón secundario en el generador de topología para llevar a cabo lo siguiente:'
 ms.openlocfilehash: 40f125e88c93cf3090dff73dcadc07f6154d01f8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201597"
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  

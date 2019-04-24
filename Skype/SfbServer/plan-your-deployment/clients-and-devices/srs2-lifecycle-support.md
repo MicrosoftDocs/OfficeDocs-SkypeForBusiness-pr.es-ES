@@ -12,11 +12,11 @@ ms.collection: M365-voice
 localization_priority: Normal
 description: En este artículo se describe la compatibilidad de ciclo de vida para salas de equipos de Microsoft.
 ms.openlocfilehash: c73e40328721ce8ed4836829a62d4e765e75bf9e
-ms.sourcegitcommit: 920a7dbdc2a0ede94d0a4bd573c01a1ccd838b7e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 04/23/2019
-ms.locfileid: "31993497"
+ms.locfileid: "32214487"
 ---
 # <a name="microsoft-teams-room-app-version-support"></a>Compatibilidad con la versión de aplicación de salón de los equipos de Microsoft
  

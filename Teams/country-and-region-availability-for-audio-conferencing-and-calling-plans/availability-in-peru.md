@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aquí están disponibles para Perú los servicios de Office 365 para Skype para empresas y Microsoft Teams.
 ms.openlocfilehash: 1d7413a36ac7d4e3219e7f0d0a23643ad486a2b8
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199132"
 ---
 # <a name="availability-in-peru"></a>Disponibilidad en Perú
 

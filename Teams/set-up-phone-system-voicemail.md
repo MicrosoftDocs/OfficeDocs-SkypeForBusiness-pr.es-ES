@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
 ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517155"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204803"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 

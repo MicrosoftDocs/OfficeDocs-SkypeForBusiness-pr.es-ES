@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
 ms.openlocfilehash: bc26fc64f4b95c1a469908251781c4951c7d0a84
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211803"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -252,5 +252,5 @@ Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productiv
 
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
 
-## <a name="related-topics"></a>See also
-[Cambiar la configuración de un puente de audioconferencias](change-the-settings-for-an-audio-conferencing-bridge.md).
+## <a name="related-topics"></a>Temas relacionados
+[Cambiar la configuración de un puente de Audioconferencias](change-the-settings-for-an-audio-conferencing-bridge.md).

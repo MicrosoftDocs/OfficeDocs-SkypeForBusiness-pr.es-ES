@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Resumen: Obtenga información sobre cómo buscar y leer los registros de captura del servicio de registro centralizado en Skype para Business Server 2015.'
 ms.openlocfilehash: b1f049260eff7524e5a728852b3dcd99526d8742
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895890"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217470"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Buscar registros de captura creados por el servicio de registro centralizado en Skype Empresarial Server 2015
  

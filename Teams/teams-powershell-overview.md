@@ -14,11 +14,11 @@ description: Aprenda a usar los controles de PowerShell para administrar Microso
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204472"
 ---
 # <a name="teams-powershell-overview"></a>Información general de PowerShell de los equipos
 

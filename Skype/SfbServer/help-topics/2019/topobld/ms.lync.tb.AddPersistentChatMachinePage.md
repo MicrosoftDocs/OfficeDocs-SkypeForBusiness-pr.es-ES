@@ -14,11 +14,11 @@ ms.assetid: f87c3abb-d8b4-4e51-af84-9b579e3807c5
 ROBOTS: NOINDEX, NOFOLLOW
 description: Definir los equipos que va a formar parte de un grupo de servidores de Chat persistente escribiendo el nombre de dominio completo (FQDN) en el FQDN del equipo. Este nombre debe coincidir con el nombre del equipo que figura en los registros host (A o AAAA) del sistema de nombres de dominio (DNS).
 ms.openlocfilehash: 956fba56e1a14c90f7d535c5bce0ea8d1f49544a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220821"
 ---
 # <a name="define-computers-in-persistent-chat-pool"></a>Definir equipos en grupo de servidores de chat persistente
 

@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bdb998587eefd0eb15477b26799d487e041df220
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31516802"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180371"
 ---
 <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
 =========================================
@@ -40,9 +40,9 @@ En la siguiente tabla se ofrece información para usuarios con Exchange Online h
 | El buzón del usuario se hospeda en: | eDiscovery| Legal&nbsp;suspensión | Retención| Equipo y canal mgmt |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a los contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí |Sí|
-|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí |
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|No|Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|No|Sí|Sí |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos|Sí <sup>5|Sí |Sí |Sí |
+|**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí |Sí |Sí|
 
 <sup>1</sup> CU3 de 2016 admite exchange y por encima de  
 <sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre qué hacer si su operador de telefonía no aparece en Skype para la empresa. '
 ms.openlocfilehash: 638d222231ca0f092684ebde2fab74cc034af70c
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372834"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229656"
 ---
 # <a name="what-if-my-phone-carrier-isnt-listed-as-the-source-carrier"></a>¿Qué sucede si mi operador de telefonía no está incluido como operador de origen?
 

@@ -17,11 +17,11 @@ f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e3c1a3c4883705f5e9e5ded88cce94fc37da650b
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204757"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 

@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 38c7e34f5efb70dce5a81295f0145b539f8265aa
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32205385"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Crear sus primeros equipos en Microsoft Teams
 

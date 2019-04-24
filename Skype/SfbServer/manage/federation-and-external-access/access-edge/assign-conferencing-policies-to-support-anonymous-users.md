@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede controlar quién puede invitar a usuarios anónimos mediante la configuración de una directiva de conferencia para admitir usuarios anónimos y aplicar esa directiva de conferencia a usuarios específicos.
 ms.openlocfilehash: 62ff84b19fadbeaf0f26fa3e5869026254d28d1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197726"
 ---
 # <a name="assign-conferencing-policies-to-support-anonymous-users-in-skype-for-business-server"></a>Asignar directivas de conferencia para admitir usuarios anónimos en Skype para Business Server 
 

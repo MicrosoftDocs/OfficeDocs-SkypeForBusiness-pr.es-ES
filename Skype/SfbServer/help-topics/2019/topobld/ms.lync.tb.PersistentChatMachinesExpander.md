@@ -14,11 +14,11 @@ ms.assetid: 15bc1c8f-71bd-4d66-bba1-cac0f2fe90bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Activar o desactivar un servidor de Chat persistente de implementada o grupo de servidores de Chat persistente mediante el uso de los servidores o grupos de servidores que aparecen en la configuración de estado de equipo. Seleccione un servidor o un grupo de servidores en la lista y haga clic en el botón Establecer como activo para establecer un servidor o un grupo de servidores como activo.
 ms.openlocfilehash: dd061a643b5187222956e8b344da6c3a027bb2dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201646"
 ---
 # <a name="persistent-chat-machines-expander"></a>Expansor de equipos de chat persistente
 

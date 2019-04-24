@@ -14,11 +14,11 @@ ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de un nuevo Skype para servidor de rol de servidor empresarial, primero debe instalar al servidor SQL Server local que se va a hospedar el almacén de configuración local. El almacén de configuración local van a actuar como una réplica de sólo lectura de la Skype para el almacén de Administración Central de servidor empresarial (CMS).
 ms.openlocfilehash: 5030cb426582ca849b01cea7995401eca276021c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216133"
 ---
 # <a name="install-local-configuration-store"></a>Instalar almacén de configuración local
 

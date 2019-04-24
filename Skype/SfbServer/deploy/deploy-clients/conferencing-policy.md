@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: Lea este tema para obtener información acerca de cómo asignar directivas de conferencias para cuentas del Sistema de salas de Skype.
 ms.openlocfilehash: a56bf9f6b8ba70a4f9ec1f28e84dfa67b1e71aa9
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219468"
 ---
 # <a name="conferencing-policy-for-skype-room-system-accounts"></a>Directiva de conferencias para las cuentas del Sistema de salas de Skype
  
@@ -27,28 +27,28 @@ La directiva de conferencia asignada a la cuenta del sistema de salas de Skype d
   
 |Característica  <br/> |Valor  <br/> |Comment  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Debe ser true para el audio del sistema de salas de Skype  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Debe ser true para el audio del sistema de salas de Skype para que funcionen en sesiones de Pizarra (ad hoc) Reunirse ahora en el sistema de sala de Skype  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Permite Skype salón del sistema representar varias vistas, varias secuencias de vídeo  <br/> |
-|AllowParticipantControl  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowAnnotations  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowUserToScheduleMeetingsWithAppSharing  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSE  <br/> |Depende de si la cuenta es Enterprise Voice (EV) habilitado (vea las cuentas del sistema de salas de habilitar Skype para Skype para sección empresarial)  <br/> |
-|AllowAnonymousUsersToDialOut  <br/> |FALSE  <br/> |Depende de si la cuenta está habilitada para telefonía IP empresarial (EV)  <br/> |
-|AllowAnonymousParticipantsInMeetings  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowExternalUsersToSaveContent  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowExternalUserControl  <br/> |FALSE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowExternalUsersToRecordMeeting  <br/> |FALSE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowPolls  <br/> |TRUE  <br/> |N/a en Reunirse ahora las reuniones (ad hoc), pero el sistema de sala de Skype puede responder a sondeos en la pantalla en la parte delantera del salón  <br/> |
-|AllowSharedNotes  <br/> |TRUE  <br/> |N/a en Reunirse ahora las reuniones (ad hoc), pero el sistema de sala de Skype puede responder a sondeos en la pantalla en la parte delantera del salón  <br/> |
-|EnableDialInConferencing  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowIPAudio  <br/> |VERDADERO  <br/> |Debe ser true para el audio del sistema de salas de Skype  <br/> |
+|AllowIPVideo  <br/> |VERDADERO  <br/> |Debe ser true para el audio del sistema de salas de Skype para que funcionen en sesiones de Pizarra (ad hoc) Reunirse ahora en el sistema de sala de Skype  <br/> |
+|AllowMultiView  <br/> |VERDADERO  <br/> |Permite Skype salón del sistema representar varias vistas, varias secuencias de vídeo  <br/> |
+|AllowParticipantControl  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowAnnotations  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|DisablePowerPointAnnotations  <br/> |FALSO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowUserToScheduleMeetingsWithAppSharing  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowNonEnterpriseVoiceUsersToDialOut  <br/> |FALSO  <br/> |Depende de si la cuenta es Enterprise Voice (EV) habilitado (vea las cuentas del sistema de salas de habilitar Skype para Skype para sección empresarial)  <br/> |
+|AllowAnonymousUsersToDialOut  <br/> |FALSO  <br/> |Depende de si la cuenta está habilitada para telefonía IP empresarial (EV)  <br/> |
+|AllowAnonymousParticipantsInMeetings  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowExternalUsersToSaveContent  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowExternalUserControl  <br/> |FALSO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowExternalUsersToRecordMeeting  <br/> |FALSO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
+|AllowPolls  <br/> |VERDADERO  <br/> |N/a en Reunirse ahora las reuniones (ad hoc), pero el sistema de sala de Skype puede responder a sondeos en la pantalla en la parte delantera del salón  <br/> |
+|AllowSharedNotes  <br/> |VERDADERO  <br/> |N/a en Reunirse ahora las reuniones (ad hoc), pero el sistema de sala de Skype puede responder a sondeos en la pantalla en la parte delantera del salón  <br/> |
+|EnableDialInConferencing  <br/> |VERDADERO  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |EnableAppDesktopSharing  <br/> |Escritorio  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
-|AllowConferenceRecording  <br/> |FALSE  <br/> |No disponible para el sistema de salas de Skype. Si es TRUE, un asistente remoto podría realizar grabaciones  <br/> |
-|EnableP2PRecording  <br/> |FALSE  <br/> |No disponible para el sistema de salas de Skype. Si es TRUE, un asistente remoto podría realizar grabaciones  <br/> |
+|AllowConferenceRecording  <br/> |FALSO  <br/> |No disponible para el sistema de salas de Skype. Si es TRUE, un asistente remoto podría realizar grabaciones  <br/> |
+|EnableP2PRecording  <br/> |FALSO  <br/> |No disponible para el sistema de salas de Skype. Si es TRUE, un asistente remoto podría realizar grabaciones  <br/> |
 |EnableFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
 |EnableP2PFileTransfer  <br/> |TRUE  <br/> |N/D  <br/> |
-|EnableP2PVideo  <br/> |TRUE  <br/> |Permite que el cliente del sistema de salas de Skype participar en las sesiones de vídeo punto a punto  <br/> |
+|EnableP2PVideo  <br/> |VERDADERO  <br/> |Permite que el cliente del sistema de salas de Skype participar en las sesiones de vídeo punto a punto  <br/> |
 |AllowLargeMeetings  <br/> |FALSE  <br/> |N/D  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Afecta a Reunirse ahora las sesiones de Pizarra (ad hoc) en el sistema de sala de Skype  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Omite por Skype para Business Server, sistema de sala de Skype usa HD1080  <br/> |

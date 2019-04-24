@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Modificar la configuración para el servidor perimetral o grupo de servidores perimetrales mediante la configuración de las siguientes propiedades:'
 ms.openlocfilehash: a4ad88aa6ff565ac7c1ebb5134d476d34625418f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203133"
 ---
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Editar expansor de configuración perimetral para Lync Server 2010
  

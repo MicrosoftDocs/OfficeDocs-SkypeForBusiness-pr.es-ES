@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede eliminar cualquier directiva de sitio o de usuario que aparece en el Skype para el Panel de Control de Business Server en la página Directiva de acceso externo.
 ms.openlocfilehash: 24d26e8668d04f1c11a3039b4b524d25e209e619
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197747"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Eliminar un sitio o una directiva de usuario para el acceso de usuarios externos
 

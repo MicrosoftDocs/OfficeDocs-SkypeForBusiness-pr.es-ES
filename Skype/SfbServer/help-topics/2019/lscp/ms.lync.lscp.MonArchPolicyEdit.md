@@ -14,11 +14,11 @@ ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Use las directivas de archivado para controlar el archivado de comunicaciones internas y externas en su implementación para los usuarios que están hospedados en Skype para Business Server. Las directivas de archivado incluyen la directiva global y, de forma opcional, una o varias directivas de usuario y de sitio:'
 ms.openlocfilehash: c43992fe808abf3350fc07ff21b8cbd92a4047a6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215447"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Directiva de archivado: Crear nueva o editar existente
  

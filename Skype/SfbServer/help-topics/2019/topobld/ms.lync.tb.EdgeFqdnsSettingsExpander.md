@@ -14,11 +14,11 @@ ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para editar o especificar la configuración externa de los servidores perimetrales, primero debe determinar si va a usar direcciones IP diferentes para el acceso SIP, el servicio de servidor perimetral de conferencia web de y el servicio de servidor perimetral A/V.
 ms.openlocfilehash: 4eec45c01062ba13768dd62e59d7b285b6de2c01
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220687"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Expansor de configuración de FQDN del servidor perimetral
 

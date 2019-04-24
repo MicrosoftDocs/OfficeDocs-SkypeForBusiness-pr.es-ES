@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: La compatibilidad con la federación es necesaria habilitar a los usuarios que tienen una cuenta con una organización confianza de clientes o socios, incluidos los dominios asociados y los usuarios de los usuarios de proveedor (IM) que admite, para colaborar con los usuarios de mensajería instantánea pública su organización.
 ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892227"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199937"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Skype para Business Server
 

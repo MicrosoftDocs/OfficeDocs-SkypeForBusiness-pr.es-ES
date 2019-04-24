@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
 ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207779"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: Requisitos de recopilación para llamar al control de admisión de Skype para Business Server
 
@@ -124,9 +124,9 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
      | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
-     | Albuquerque  <br/> | Norteamérica  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
+     | Albuquerque  <br/> | Norteamérica  <br/> | 5 000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              |
      | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | Norteamérica  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | Norteamérica  <br/> | 5 000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              |
      | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
      | Chicago  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
      | Detroit  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       |
@@ -165,9 +165,9 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
    | **Sitio de red**   | **Región de red**   | **Límite de ancho de banda**      | **Límite de audio**   | **Límite de sesión de audio** | **Límite de vídeo**   | **Límite de sesión de vídeo** | **Subredes**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
-   | Albuquerque  <br/> | Norteamérica  <br/> | 5.000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
+   | Albuquerque  <br/> | Norteamérica  <br/> | 5 000  <br/>      | 2.000  <br/>      | 175  <br/>              | 1.400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
    | Reno  <br/>        | Norteamérica  <br/> | 10 000  <br/>     | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | Norteamérica  <br/> | 5.000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Portland  <br/>    | Norteamérica  <br/> | 5 000  <br/>      | 4.000  <br/>      | 175  <br/>              | 2.800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | Nueva York  <br/>    | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
@@ -229,7 +229,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
    |**Nombre del vínculo entre sitios**|**Primer sitio**|**Segundo sitio**|**Límite de ancho de banda**|**Límite de audio**|**Límite de sesión de audio**|**Límite de vídeo**|**Límite de sesión de vídeo**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5.000  <br/> |700  <br/> |
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20 000  <br/> |12 000  <br/> |175  <br/> |5 000  <br/> |700  <br/> |
 
 ### <a name="next-steps"></a>Pasos siguientes
 

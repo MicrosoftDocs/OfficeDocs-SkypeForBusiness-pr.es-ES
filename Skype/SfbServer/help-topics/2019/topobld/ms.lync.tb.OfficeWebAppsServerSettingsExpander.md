@@ -14,11 +14,11 @@ ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:'
 ms.openlocfilehash: 0ef79728f389bfd87078aef5f9bbaca8f45e18dc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899795"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201689"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 
@@ -32,6 +32,6 @@ Active la casilla **El servidor de Office Web Apps se implementa en una red exte
 
 ![Expansor de configuración de Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Components and Topologies for Conferencing](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)

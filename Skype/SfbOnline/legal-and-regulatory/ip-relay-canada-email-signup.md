@@ -1,5 +1,5 @@
 ---
-title: 'Regístrese IP Relay en Canadá:'
+title: 'Retransmisión IP en Canadá: registrarse'
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -19,24 +19,24 @@ ms.custom:
 hideEdit: true
 description: Cómo suspire una cuenta de retransmisión de IP para Canadá.
 ms.openlocfilehash: ce63d4fb99d44584d2628c9b5e891e4931814b12
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23862831"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194232"
 ---
-# <a name="ip-relay-in-canada---sign-up"></a>Regístrese IP Relay en Canadá:
+# <a name="ip-relay-in-canada---sign-up"></a>Retransmisión IP en Canadá: registrarse
 
 Para obtener una cuenta de retransmisión de IP configurada para Canadá, complete la información de la tabla siguiente y enviar por correo electrónico a [ptn@microsoft.com](mailto:ptn@microsoft.com).
 
 |||
 |:-----|:-----|
-|Nombre de la primera y última:||
+|Primer nombre de la última &:||
 |Nombre de dominio del inquilino de Office 365: <br/>(Ejemplo: Contoso.com)||
 |Número de teléfono del usuario de Office 365: <br/>Ejemplo: + 1 XXX XXX XXXX) ||
 |Contraseña (8 a 16 caracteres): ||
 |Dirección física más probable <br/>en el momento de una emergencia:||
-|Número de la calle & nombre:||
+|Calle número & nombre:||
 |Apartamento o conjunto de aplicaciones:||
 |Ciudad:||
 |Provincia o estado:||

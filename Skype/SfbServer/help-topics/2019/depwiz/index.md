@@ -1,9 +1,11 @@
 ---
-redirect_url: help-depwiz
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: f5d73542a6bb5a7319bc09769f37f7f68f9f9fc2
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+localization_priority: Normal
+ms.openlocfilehash: 4ebac8041fd1a358fb38d79b52b2dfe5ee04fc13
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217022"
 ---

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 6da93ddb-ca99-4b5d-9b33-3d70659730b2
 description: El cmdlet Set-CcApplianceDirectory establece el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio.
 ms.openlocfilehash: 16c9c858d770b7d4a74c9030ebdc760f5a9f25e9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888185"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250842"
 ---
 # <a name="set-ccappliancedirectory"></a>Set-CcApplianceDirectory
  

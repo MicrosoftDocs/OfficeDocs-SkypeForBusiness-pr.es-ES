@@ -14,11 +14,11 @@ ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir la puerta de enlace de telefónica conmutada (RTC) para una aplicación de sucursal con funciones de supervivencia en un sitio de sucursal, especifique lo siguiente:'
 ms.openlocfilehash: a5e3091807527382fdfdf2797065792cc23d2f44
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202285"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Agregar RTC de aplicación de sucursal con funciones de supervivencia
  

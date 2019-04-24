@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e29c76018f024559d90ff4d07b7dd102a0747b11
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194768"
 ---
 <a name="best-practices-for-user-feedback-methods-in-microsoft-teams"></a>Prácticas recomendadas de los métodos de comentarios de los usuarios en Microsoft Teams
 ===========================================================

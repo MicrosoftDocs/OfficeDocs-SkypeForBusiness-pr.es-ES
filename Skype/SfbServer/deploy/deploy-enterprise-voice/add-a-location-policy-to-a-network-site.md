@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
 description: Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 7a6930fddcadc9b9eb772d20c21ff1e13be6bef0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223799"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Agregar una directiva de ubicación a un sitio de red en Skype para Business Server
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
 description: Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 93cc6bea9a4f130bd4b2c0e455b979b477888eeb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222572"
 ---
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la configuración global de desvío de medios en Skype para Business Server usar la información de sitio y región
  
@@ -55,7 +55,7 @@ A continuación, agregue subredes al sitio de red, como se describe en [Associat
 > [!IMPORTANT]
 > Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación de la omisión de medios. Para obtener información detallada, consulte [Deploy regiones de red, sitios y las subredes de Skype para la empresa](deploy-network.md). 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets)
 

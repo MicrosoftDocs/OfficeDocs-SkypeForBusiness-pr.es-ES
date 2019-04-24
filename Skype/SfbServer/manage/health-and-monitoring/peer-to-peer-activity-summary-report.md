@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
 description: 'Resumen: Información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.'
 ms.openlocfilehash: 0502fc3880a4a04369f6717e67093d359c2b8af7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882575"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197831"
 ---
 # <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype para Business Server
  

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Selección de su proveedor de servicios para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: f79a6a6f8265580cc1b935c1ba491656b31cdc22
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894567"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207009"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Elegir un proveedor de servicios E9-1-1 en Skype Empresarial Server
  

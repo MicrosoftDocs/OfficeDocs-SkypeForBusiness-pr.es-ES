@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Resumen: Cómo instalar y probar la Skype para la empresa para la aplicación de iOS.'
 ms.openlocfilehash: 1bc8f876c8273d5c967701c283766abbb149bb39
-ms.sourcegitcommit: d3c3467320a2928d3bad14a1a44a31ee5a9a988c
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "25699710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219426"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Install and test Skype for Business for iOS
  

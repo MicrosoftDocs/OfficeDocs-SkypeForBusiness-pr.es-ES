@@ -1,9 +1,11 @@
 ---
-redirect_url: deploy-persistent-chat-server
-redirect_document_id: ''
-ms.openlocfilehash: dce75a264dc0ad4f379703e2408b7f72889ecdcd
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: ef8cca3c9e6d954e89cccdbb474b2564420ab5f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199767"
 ---

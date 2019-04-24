@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Resumen: Obtenga información sobre cómo implementar Enterprise Voice para Skype para Business Server en un sitio central.'
 ms.openlocfilehash: 463eb0a7fce174a33116bcb63f129aa59c8eba9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223123"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Implementación de Enterprise Voice en Skype para Business Server
 
@@ -58,7 +58,7 @@ En esta sección se incluye procedimientos para las implementaciones en que un s
 
 - [Implementar las características de administración de llamadas de Skype para la empresa](deploy-call-management-features.md)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 

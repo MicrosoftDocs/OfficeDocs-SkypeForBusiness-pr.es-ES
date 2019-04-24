@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Configurar uno o más directivas de acceso de usuarios externos para controlar si los usuarios remotos pueden colaborar con Skype interna para los usuarios de Business Server. Para controlar el acceso de usuarios remotos, puede configurar las directivas a nivel global, sitio y el nivel de usuario.
 ms.openlocfilehash: f6d316f022e671bc7f7e70ebbe2a801b0b3e312c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899536"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199894"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios remotos en Skype para Business Server
 

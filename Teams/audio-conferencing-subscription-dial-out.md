@@ -1,5 +1,5 @@
 ---
-title: Suscripción de conferencia de audio "Saliente" / "Llamada llamándome al" de beneficios
+title: Prestación del plan de audioconferencia «Llamada de salida»/«Llamarme al»
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Licensing
 description: 'Los clientes se han proporcionado una capacidad de salida complementaria que termina el 30 de noviembre de 2019.  A partir de 1 de diciembre de 2019, cada suscripción de conferencias de audio proporciona 60 minutos por usuario al mes a cualquiera de los países de la zona A tal como se describe en este documento. '
 ms.openlocfilehash: 890441987eb0f08d67afe8a7f231c9a534c59a7f
-ms.sourcegitcommit: 7fe8daf07013d7c532f128a3ae3bbf51d1b2aac9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/11/2019
-ms.locfileid: "31809434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198619"
 ---
-# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Suscripción de conferencia de audio "Saliente" / "Llamada llamándome al" de beneficios
+# <a name="audio-conferencing-subscription-dial-outcall-me-at-benefit"></a>Prestación del plan de audioconferencia «Llamada de salida»/«Llamarme al»
 
 ## <a name="microsoft-teams-and-skype-for-business-pstn-audio-conferencing"></a>Los equipos de Microsoft y Skype para conferencias de Audio de RTC de negocio
 

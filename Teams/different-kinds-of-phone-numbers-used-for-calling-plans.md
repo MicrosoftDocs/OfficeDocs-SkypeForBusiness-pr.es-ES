@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Skype para profesionales Online usa tipos de número de teléfono distinta según la finalidad para la que desea usar el número de teléfono.
 ms.openlocfilehash: e2a05e44cfe064736d906ec83195e02f6026bf3d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199189"
 ---
 # <a name="different-kinds-of-phone-numbers-used-for-calling-plans"></a>Diferentes tipos de números de teléfono que se usan para planes de llamadas
 

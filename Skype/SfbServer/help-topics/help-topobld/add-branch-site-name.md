@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 description: 'Para definir un nuevo sitio de sucursal, especifique lo siguiente:'
 ms.openlocfilehash: e0e1f44a86568bac80a06fecfd4c7c2b6bcb6d79
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32247210"
 ---
 # <a name="add-branch-site-name"></a>Agregar nombre de sitio de sucursal
 

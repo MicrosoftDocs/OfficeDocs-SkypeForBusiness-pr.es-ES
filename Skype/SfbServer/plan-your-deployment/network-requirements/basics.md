@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
 description: Windows Server 2016 tiene software integrada que puede proporcionar servicios DNS, por lo que es posible que desee revisar la documentación disponible, como la Guía de escenario de directiva de DNS. Puede elegir una solución de terceros si lo prefiere.
 ms.openlocfilehash: 2ba20c6aabd296f13ea5e84053d140123097f114
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886617"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213896"
 ---
 # <a name="dns-basics"></a>Conceptos básicos DNS
  

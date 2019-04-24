@@ -14,11 +14,11 @@ ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto de este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:'
 ms.openlocfilehash: 07f98e277cead81ee9ea636ceb247f490327776d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876037"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220533"
 ---
 # <a name="external-application-scope-node"></a>Nodo de ámbito de aplicación externa
  

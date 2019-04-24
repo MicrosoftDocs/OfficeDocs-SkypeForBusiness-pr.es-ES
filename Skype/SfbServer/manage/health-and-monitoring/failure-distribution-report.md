@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
 description: 'Resumen: Información sobre el informe de distribución de errores en Skype para Business Server.'
 ms.openlocfilehash: 6a8c5402555bc8334a9df36e2fff62ed2991bcff
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197649"
 ---
 # <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype para Business Server
  

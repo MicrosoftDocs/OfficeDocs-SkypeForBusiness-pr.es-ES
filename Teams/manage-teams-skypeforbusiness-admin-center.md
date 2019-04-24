@@ -20,11 +20,11 @@ appliesto:
 - Microsoft Teams
 - Skype for Business Online
 ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493695"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199570"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -66,14 +66,14 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |Las llamadas y las reuniones     |Permitir vídeos en las reuniones         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
 |Las llamadas y las reuniones     |Permitir el uso compartido en reuniones de pantalla         |[TeamsMeetingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)         |Usuario          |
 |Las llamadas y las reuniones     |Permitir llamadas privada         |[TeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)        |Usuario          |
-|Mensajes     |Habilitar Giphy, por lo que los usuarios pueden agregar archivos GIF a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Clasificación de contenido         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Habilitar memes que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Habilitar a pegatinas que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir que los propietarios de eliminar todos los mensajes         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir a los usuarios editar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permitir a los usuarios eliminar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
-|Mensajes     |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Habilitar Giphy, por lo que los usuarios pueden agregar archivos GIF a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Clasificación de contenido         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Habilitar memes que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Habilitar a pegatinas que los usuarios pueden editar y agregar a las conversaciones         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Permitir que los propietarios de eliminar todos los mensajes         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Permitir a los usuarios editar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Permitir a los usuarios eliminar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
+|Mensajería      |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
 
 <sup>1</sup> en desuso de invitado. Habilitación o deshabilitación de invitado ahora pueden administrarse en el centro de administración de Microsoft Teams. Habilitar o deshabilitar los equipos para profesionales de empresa, Edu estudiantes, y quedará obsoleto Edu profesores pronto. Esto debe administrarse mediante la asignación de licencias en el centro de administración de Office 365. Vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md).
 <br><br>
@@ -102,7 +102,7 @@ La siguiente tabla se muestra donde puede administrar las características duran
 |Configuración de los equipos   |    X    |      |       |
 |Configuración del acceso externo     |    X    |      |       |
 |Administración de usuarios    |         |         |    X     |    
-|Conferencias de audio     |    X     |    X     |         |
+|Audioconferencia     |    X     |    X     |         |
 |Planes de llamada     |         |    X     |         |
 |Sistema telefónico    |         |     X    |         |
 |Administración de números de teléfono     |         |   X      |         |

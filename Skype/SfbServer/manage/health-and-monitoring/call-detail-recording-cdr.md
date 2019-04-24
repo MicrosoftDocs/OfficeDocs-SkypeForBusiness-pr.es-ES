@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Resumen: Conozca los detalles de llamadas (CDR) los registros usados en Skype para Business Server.'
 ms.openlocfilehash: 11631acc14c47dfb10d33fa761bf6362d00ca049
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199774"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Detalles de llamadas (CDR) en Skype para Business Server
  
@@ -35,6 +35,6 @@ El registro detallado de llamadas (CDR) registra la información de uso y diagn�
     
 - [Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar los detalles de las llamadas y la configuración de calidad de la experiencia en Skype para Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

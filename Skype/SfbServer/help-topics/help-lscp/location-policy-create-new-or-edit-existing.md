@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 description: Puede configurar directivas de ubicación para determinar si 9-1-1 mejorado (E9-1-1) está habilitado y el modo de usarlo, así como el modo en que la información de ubicación se usa para usuarios y contactos.
 ms.openlocfilehash: 50769e3f6aec7d495ee5f9ea1c835c2e0849dc01
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883675"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200838"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Directiva de ubicación: Crear nueva o editar existente
 

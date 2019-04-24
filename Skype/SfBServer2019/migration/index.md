@@ -1,10 +1,11 @@
 ---
-redirect_url: migration
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 21d3aba9d9a79bbaadfcac9dedcbf112258999fb
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+localization_priority: Normal
+ms.openlocfilehash: 91bf709a3f98ca0ccdba235b02eec67fc0b6ae4f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25027924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238566"
 ---

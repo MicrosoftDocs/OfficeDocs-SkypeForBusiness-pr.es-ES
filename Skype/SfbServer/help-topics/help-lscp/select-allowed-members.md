@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 description: Creación y administración de salas de Chat persistente es mucho más sencillo con el uso correcto de las categorías. Un administrador de Chat persistente puede definir AllowedMembers y Creators para cada categoría y también se puede definir la configuración predeterminada de salón de chat y comportamientos que se aplicará a todos los salones de chat creados en la categoría. Los administradores de charla persistente crear y administrar las categorías mediante el panel de control o los cmdlets de Windows PowerShell.
 ms.openlocfilehash: cc35d1659dc7dc7cdc6ba77d17bbc3b439256c63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200635"
 ---
 # <a name="select-allowed-members"></a>Seleccionar los miembros permitidos
 
@@ -43,6 +43,6 @@ En **pertenencia**, en la sección **miembros permitidos** , agregue o quite usu
 
 Para obtener información detallada sobre las características de servidor de Chat persistente y funciones, consulte [Información general de Persistent Chat Server](https://technet.microsoft.com/library/23f7c886-304d-495a-ae70-3cbb44241acd.aspx) en la documentación de planeación. Para obtener información detallada sobre cómo trabajar con las configuraciones de servidor de Chat persistente, consulte [Configuring Persistent Chat Server](https://technet.microsoft.com/library/d90a4049-b268-4e8e-9f24-0cef08c8d9ed.aspx) en la documentación de implementación y [administración de Lync Server 2013, Persistent Chat Server](https://technet.microsoft.com/library/82befdc6-5d32-45f1-bfd7-aaedffed1ab8.aspx) en la documentación sobre operaciones.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Understanding Persistent Chat Membership](https://technet.microsoft.com/library/900392d6-6e9f-4dae-93d6-39d7474409ef.aspx)

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
 description: 'Resumen: Obtenga información sobre cómo instalar una actualización o revisión en un servidor Back-End en Skype para Business Server.'
 ms.openlocfilehash: 7919d437e5111d32f3f51fa19a1880714800666b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214816"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Una revisión o actualización de un servidor Back-End o servidor Standard Edition en Skype para Business Server
  

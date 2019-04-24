@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Resumen: Establecer telefónico un usuario PIN para Skype para Business Server.'
 ms.openlocfilehash: 62b38b8ef15aa2283b66fc18abf5ec0e84e64870
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877394"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217904"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Establecer telefónico un usuario PIN en Skype para Business Server
  

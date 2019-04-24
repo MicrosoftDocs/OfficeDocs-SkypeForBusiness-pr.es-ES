@@ -14,11 +14,11 @@ ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y los grupos de servidores asociados de este grupo de servidores de conferencias A/V. Puede efectuar las acciones siguientes:'
 ms.openlocfilehash: 6ae9471e7b6321e92bd141b90e49941f9f2d6cc1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201853"
 ---
 # <a name="av-mcu-scope-node"></a>Nodo de ámbito MCU AV
  

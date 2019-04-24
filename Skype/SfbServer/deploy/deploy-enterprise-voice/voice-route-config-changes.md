@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: ff941d0b-fb4b-47d2-b866-6d990ac66b81
 description: 'Resumen: Obtenga información sobre cómo revisar, publicar o cancelar los cambios de configuración enrutamiento de voz de Skype para Business Server mediante el Skype para el Panel de Control de servidor empresarial.'
 ms.openlocfilehash: 9878e719234a5d7eff2e7321fa71e30c094d489a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222460"
 ---
 # <a name="publish-pending-changes-to-the-voice-routing-configuration-in-skype-for-business"></a>Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa
  

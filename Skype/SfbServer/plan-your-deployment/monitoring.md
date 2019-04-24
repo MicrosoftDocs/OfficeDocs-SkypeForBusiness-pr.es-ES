@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Resumen: Revise este tema durante la planeación para el servicio de supervisión en Skype para Business Server.'
 ms.openlocfilehash: cfe5e0eb31ca2badb3c4610f33c0761a98972ce7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892514"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213917"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planeación de la supervisión en Skype para Business Server
 
@@ -109,7 +109,7 @@ Al supervisar los datos se puede compartir una instancia de SQL Server con otros
 
 En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, tendrá que configurar varias instancias de SQL Server.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Deploying Monitoring](https://technet.microsoft.com/library/117f4a3e-0670-4388-a553-b9854921145f.aspx)

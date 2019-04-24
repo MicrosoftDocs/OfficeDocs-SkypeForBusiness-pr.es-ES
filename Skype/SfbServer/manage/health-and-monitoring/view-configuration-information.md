@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Resumen: Obtenga información sobre cómo usar el registro de detalles de llamadas (CDR) de Skype para Business Server.'
 ms.openlocfilehash: edf3f719ed3d859ff6d7a6c4fcebbf22356277d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197475"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Información de configuración de CDR de vista en Skype para Business Server
  

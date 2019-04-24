@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Si un usuario tiene habilitado para Skype para Business Server, puede configurar la federación SIP, acceso de usuarios remotos e instantánea pública conectividad de mensajería (IM en el Skype) para el Panel de Control de servidor empresarial mediante la aplicación de las directivas apropiadas a usuarios específicos.
 ms.openlocfilehash: f07a407fee6f32f4cd4207c93ca19341e409ea78
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197635"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Asignar una directiva de acceso de usuarios externos a un Skype para usuarios de empresa habilitado
 

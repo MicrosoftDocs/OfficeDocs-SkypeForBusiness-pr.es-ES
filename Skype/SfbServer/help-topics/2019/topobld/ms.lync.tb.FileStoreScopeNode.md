@@ -14,11 +14,11 @@ ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos de servidores dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:'
 ms.openlocfilehash: c68e9dbfbcd5e97439bc1a274c470aef264a986f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897312"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220519"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivos
  

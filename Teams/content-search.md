@@ -14,11 +14,11 @@ description: Obtenga información acerca de la búsqueda de contenido en Microso
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1860f3e5f79cd1ff2a2a63a8b49bf0dcfd65638f
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30540619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194673"
 ---
 <a name="use-content-search-in-microsoft-teams"></a>Usar la búsqueda de contenido en Microsoft Teams
 =====================================

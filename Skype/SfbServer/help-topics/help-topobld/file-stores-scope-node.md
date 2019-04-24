@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 'El nodo Almacenes de archivos contiene los almacenes de archivos de la topología. You can perform the following action:'
 ms.openlocfilehash: f86bf9903b99604658d3b11f3f0bff71d3d5daae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194038"
 ---
 # <a name="file-stores-scope-node"></a>Nodo de ámbito de almacenes de archivos
  

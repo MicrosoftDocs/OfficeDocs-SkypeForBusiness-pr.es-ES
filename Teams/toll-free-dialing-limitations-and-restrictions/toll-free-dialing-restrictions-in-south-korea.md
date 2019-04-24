@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: bbd48199-0fe5-4458-b29b-d2b2f44e6e8e
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 9e73554d22af1a34067aa620cd0733e213db2dc2
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: bd26f0127ca634f226f6106045328f0c8f1939f3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204186"
 ---
 # <a name="toll-free-dialing-restrictions-in-south-korea"></a>Restricciones de marcado de número gratuito en Corea del Sur
 
@@ -44,7 +44,7 @@ ms.locfileid: "30463679"
 |Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
 |Disponibilidad de la línea con cable o fijo  <br/> |Sí  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguno  <br/> |
+|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

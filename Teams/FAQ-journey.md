@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32180591"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar desde Skype Empresarial a Microsoft Teams
 

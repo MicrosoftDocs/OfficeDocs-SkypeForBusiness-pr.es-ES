@@ -14,11 +14,11 @@ ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 ROBOTS: NOINDEX, NOFOLLOW
 description: El servidor de administración central se puede cambiar de un grupo de servidores front-end definido a otro. Para cambiar la ubicación del servidor de administración central, seleccione el grupo de servidores front-end de la lista desplegable en Servidor front-end en el que se instalará el servidor de administración central. Un servidor front-end puede pertenecer a un grupo de servidores front-end Enterprise Edition o ser un servidor front-end Standard Edition.
 ms.openlocfilehash: ab3178fb2ed2a25ad0909d9252a636082dfb1e47
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220582"
 ---
 # <a name="cms-settings-expander"></a>Expansor de configuración de CMS
  

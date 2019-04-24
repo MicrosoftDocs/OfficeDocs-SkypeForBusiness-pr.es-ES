@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Resumen: Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server.'
 ms.openlocfilehash: 99d91a4d3e9729da7b86f723f4a980a887d88b5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197775"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar la conferencia de acceso telefónico en Skype para Business Server
  

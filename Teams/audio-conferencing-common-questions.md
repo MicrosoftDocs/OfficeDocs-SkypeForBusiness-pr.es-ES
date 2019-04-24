@@ -1,10 +1,10 @@
 ---
-title: Preguntas comunes sobre Audioconferencia
+title: Preguntas frecuentes sobre Audioconferencia
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
-ms.topic: article
+ms.topic: conceptual
 ms.assetid: a90ea695-aabf-4f10-ae92-24b3f6b27c56
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -22,14 +22,14 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Las siguientes son algunas de las principales preguntas que recibimos de nuestros clientes que desean usar la conferencia de Audio.
-ms.openlocfilehash: 104f4affe4eb5459d8647174fea1801af4bff826
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e66b9d7abbed35cf73119b05d283aa0d408f3b8a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465223"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198779"
 ---
-# <a name="audio-conferencing-common-questions"></a>Preguntas comunes sobre Audioconferencia
+# <a name="audio-conferencing-common-questions"></a>Preguntas frecuentes sobre Audioconferencia
 
 Las siguientes son algunas de las principales preguntas que recibimos de nuestros clientes que desean usar la conferencia de Audio. 
   
@@ -147,7 +147,7 @@ Programar una reunión que se van a unir por todos los asistentes utilizando un 
 
 - **Opción #1**: de forma predeterminada, si el organizador de la reunión y todos los participantes se une a una reunión mediante un teléfono, el organizador de la reunión necesita introducir su PIN de conferencia de Audio para iniciarlo. Los autores de llamadas obtengan le pregunte si desea autenticar como el organizador de una reunión determinada cuando marque el número de teléfono de una reunión en línea. Todos los participantes que se unen a la reunión a través de acceso telefónico antes de que comienza el organizador se colocará en la sala de espera y escucha música en espera. Una vez que el organizador inicia introduciendo su PIN de conferencia de Audio, todos los participantes de la sala de espera automáticamente se unirá a la reunión.
 
-- **Opción #2**: si la opción "Permitir no autenticado a los autores de llamadas a ser el primer personas en una reunión" (deshabilitada de forma predeterminada) está habilitada para el organizador de una determinada, a continuación, todas las reuniones programadas por ese usuario podrán iniciarse sin tener el organizador de la entrada de datos es o su PIN de conferencia Audio. Cuando esta opción está habilitada, la reunión se iniciará tan pronto como el primer participante une a través de un número de teléfono de acceso telefónico y navegará no se colocarán en la sala de espera. Para obtener información adicional, vea [configuración de administración de conferencia de Audio para un usuario en los equipos de Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) o la [configuración de administración de conferencia de Audio para un usuario en Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
+- **Opción #2**: si la opción "Permitir no autenticado a los autores de llamadas a ser el primer personas en una reunión" (deshabilitada de forma predeterminada) está habilitada para el organizador de una determinada, a continuación, todas las reuniones programadas por ese usuario podrán iniciarse sin tener el organizador de su entrada o su PIN de conferencia Audio. Cuando esta opción está habilitada, la reunión se iniciará tan pronto como el primer participante une a través de un número de teléfono de acceso telefónico y navegará no se colocarán en la sala de espera. Para obtener información adicional, vea [configuración de administración de conferencia de Audio para un usuario en los equipos de Microsoft](manage-the-audio-conferencing-settings-for-a-user-in-teams.md) o la [configuración de administración de conferencia de Audio para un usuario en Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/manage-the-audio-conferencing-settings-for-a-user).
    
 ## <a name="related-topics"></a>Temas relacionados
 

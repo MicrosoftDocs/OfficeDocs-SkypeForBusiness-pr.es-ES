@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 18bab895-6cb1-4c07-a88d-ad0aed67293a
 description: 'La página ejecución de comandos muestra un resumen de tareas mientras se ejecutan. Revise la pantalla Resumen y asegúrese de que las tareas se realizaron correctamente y que no hay errores. Revise las advertencias para asegurarse de que se esperan. En el panel Resumen, debería ver el estado de la tarea: completado. En la lista desplegable, el archivo de registro de preparar el bosque debe ser visible. Si no es así, seleccione el archivo de registro y, a continuación, haga clic en Ver registro para revisar las acciones detalladas y el resultado de las tareas. Haga clic en Finalizar para completar la preparación del bosque.'
 ms.openlocfilehash: 856e7c3350c81ae14795591e49da7ec38a03615b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201205"
 ---
 # <a name="prepare-current-forrest-invoke"></a>Preparar bosque actual (invocar)
  

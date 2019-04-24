@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Obtenga información sobre qué son los operadores automáticos en la nube y cómo usarlas.
-ms.openlocfilehash: 1d9c72817b865b323b9d018710c9201b51bb56a3
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: 99310e44fbab43e16d0816acdb8a85815863b286
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914631"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32211696"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Cuáles son los operadores automáticos de la nube?
 
@@ -62,7 +62,7 @@ Para comenzar a utilizar operadores automáticos, es importante recordar que:
 > [!NOTE]
 > Operador automático de los números de servicio de enrutamiento directos para y colas de llamada se admiten para los agentes y los usuarios de Microsoft Teams sólo en el momento.
 
-> [!NOTE] 
+> [!NOTE]
 > Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como automáticos en la nube y las colas de llamadas, para ahora tiene que usar el modelo de licencias de usuario.
     
    > [!TIP]

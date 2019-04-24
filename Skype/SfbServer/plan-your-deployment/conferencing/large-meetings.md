@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Resumen: Lea este tema para obtener más información sobre los procedimientos recomendados para implementar y administrar reuniones grandes en Skype para Business Server.'
 ms.openlocfilehash: 4ef45f5393e389a3c6a1246041d058d1e0b387f1
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214375"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planeación de reuniones grandes en Skype para Business Server
  

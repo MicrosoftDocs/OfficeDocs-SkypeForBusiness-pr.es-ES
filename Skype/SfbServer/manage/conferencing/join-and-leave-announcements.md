@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Resumen: Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.'
 ms.openlocfilehash: 7311850f2504b84a862f809b17077b15ec022bf1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197986"
 ---
 # <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
  

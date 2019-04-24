@@ -1,10 +1,11 @@
 ---
-redirect_url: deploy-overview
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 9268bb6d57380ccd69f6c72cb6ab37ec36404ef6
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+localization_priority: Normal
+ms.openlocfilehash: a736795db2de6cb4d3eeb1f1ba4b0afe6a5e1612
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25029856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32195010"
 ---

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e8ab963b-fe1d-45b3-b9bd-66a5f44c1629
 description: Cada registro contiene eventos de cliente para uno de los extremos en una llamada de vídeo. Normalmente, una llamada tiene dos registros, uno para el autor de la llamada y otro para el destinatario de la llamada.
 ms.openlocfilehash: 314e4df9313a3d111d71b6eaa06565edcbb765d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891244"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212042"
 ---
 # <a name="videoclientevent-table"></a>Tabla VideoClientEvent
  

@@ -14,11 +14,11 @@ ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para agregar direcciones URL sencillas adicionales a la definición de la implementación, especifique la dirección URL de la nueva dirección URL simple.
 ms.openlocfilehash: 393f5b39ea19a156f814a4c3dc5b0a13aab35fce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898348"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201980"
 ---
 # <a name="add-simple-url"></a>Agregar dirección URL simple
  

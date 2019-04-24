@@ -14,11 +14,11 @@ ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: 'Resumen: Revise los escenarios de Skype para opciones de implementación de Business Server. Si desea que un servidor único o prefiere un grupo de servidores con DNS o HLB, en este tema debe ayudar a.'
 ms.openlocfilehash: e6619056d7c8a69f63fa22007a7702b41480719f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207184"
 ---
 # <a name="advanced-edge-server-dns-planning-for-skype-for-business-server"></a>Avanzada planeación DNS del servidor perimetral de Skype para Business Server
  

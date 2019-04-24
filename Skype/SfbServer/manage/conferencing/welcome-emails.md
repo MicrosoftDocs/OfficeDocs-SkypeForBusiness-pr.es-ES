@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Resumen: Obtenga información sobre cómo dar la bienvenida a los usuarios a la conferencia de acceso telefónico en Skype para Business Server.'
 ms.openlocfilehash: 51c4dbc04b44cb33e27cbe09f22608836485e9ad
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898497"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197740"
 ---
 # <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida para el marcado de los usuarios de Skype para Business Server
  

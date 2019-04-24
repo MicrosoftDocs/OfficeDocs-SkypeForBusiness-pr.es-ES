@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos con Skype para Business Server.
 ms.openlocfilehash: e5ba372a5990f7c63827f1f8b0426e67ae48b620
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32207877"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementación de salas de equipos de Microsoft con Skype para Business Server
   
@@ -116,7 +116,7 @@ Grant-CsVoicePolicy -PolicyName dk -Identity rigel1
 Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar las cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md)
 
@@ -126,4 +126,4 @@ Grant-CsDialPlan -PolicyName e15dp2.contoso.com -Identity rigel1
   
 [Configurar una consola de salas de equipos de Microsoft](console.md)
   
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

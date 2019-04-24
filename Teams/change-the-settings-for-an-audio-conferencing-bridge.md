@@ -1,5 +1,5 @@
 ---
-title: Cambiar la configuración de un puente de audioconferencias.
+title: Cambiar la configuración de un puente de Audioconferencias.
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -23,13 +23,13 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenga los pasos que necesarios para cambiar la configuración de un puente de conferencia que se usa para solicitar los autores de llamadas y recopilar los nombres y los PIN para los organizadores de reuniones cuando no utilizan Skype para las aplicaciones empresariales o Teams de Microsoft. '
 ms.openlocfilehash: 2f3f08254409086ee99b3c5f60d243f893fff4e6
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30633236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198567"
 ---
-# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de audioconferencias.
+# <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
 Cuando establece una conferencia con Audio en Office 365, recibirá los números de teléfono para los usuarios de lo que se denomina un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono. Estos números de teléfono se utilizan cuando los autores de llamadas llama a una reunión. El número de teléfono se incluye en la parte inferior de la Skype para la invitación a la reunión de negocio o Teams de Microsoft.
   
@@ -63,7 +63,7 @@ El puente de conferencia responde a una llamada y solicita el autor de la llamad
 5. Para especificar si desea enviar correo electrónico a los usuarios, habilitar o deshabilitar **Enviar automáticamente mensajes de correo electrónico a los usuarios si cambia su configuración de conferencias de audio**.
     Para obtener más información, vea [mensajes de correo electrónico se envían automáticamente a los usuarios al cambia su configuración de conferencias de Audio en los equipos de Microsoft](emails-sent-to-users-when-their-settings-change-in-teams.md) o [los correos electrónicos enviados a los usuarios al cambia su configuración en Skype para profesionales en línea](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) .
  
-6. Haga clic en **Guardar**. 
+6. Haga clic en **Guardar **. 
 
 
 ## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
@@ -134,6 +134,6 @@ Vea **Cambiar la configuración de un puente de conferencias de acceso telefóni
   
 ## <a name="related-topics"></a>Temas relacionados
 
-[Establecer una conferencia de Audio para Microsoft Teams](set-up-audio-conferencing-in-teams.md)
+[Configurar audioconferencias en Microsoft Teams](set-up-audio-conferencing-in-teams.md)
 
 [Configurar conferencias de Audio para Skype para profesionales en línea](/skypeforbusiness/audio-conferencing-in-office-365/set-up-audio-conferencing)

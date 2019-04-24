@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e72b4b4fdfdbe6d31ca3543d23b67cb515568e4f
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30494032"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194542"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en los equipos de Microsoft
 
@@ -47,7 +47,7 @@ En la mayoría de los casos, la red conectar su empresa a la nube será una red 
 
 ## <a name="verify-your-network-is-ready"></a>Compruebe que la red está preparada
 
-Si está pensando en una implementación de QoS, debe ya ha determinado los requisitos de ancho de banda y otros [requisitos de red](prepare-network.md). Los cálculos de ancho de banda para Microsoft Teams son complejos por lo que, para ayudar con esta tarea, se creó una calculadora. Para obtener acceso a la Calculadora, vaya al [Organizador de la red](https://aka.ms/bwcalc/) en MyAdvisor.
+Si está pensando en una implementación de QoS, debe ya ha determinado los requisitos de ancho de banda y otros [requisitos de red](prepare-network.md). Los cálculos de ancho de banda para Microsoft Teams son complejos y para ayudar a con esto, se ha creado una calculadora. Para obtener acceso a la Calculadora, vaya al [Organizador de la red](https://aka.ms/bwcalc/) en MyAdvisor.
   
   Congestión del tráfico a través de una red tendrá un impacto en gran medida calidad de los medios. Falta de ancho de banda tiene las siguientes consecuencias degradación del rendimiento y una experiencia de usuario deficiente. A medida que crece el uso y la adopción de los equipos, use de informes, [análisis de llamadas y llamar al panel de calidad](difference-between-call-analytics-and-call-quality-dashboard.md) para identificar posibles problemas y, a continuación, realice ajustes con QoS y adiciones de ancho de banda selectiva.
 

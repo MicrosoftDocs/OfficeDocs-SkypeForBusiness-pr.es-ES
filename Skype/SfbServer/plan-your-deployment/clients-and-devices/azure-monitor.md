@@ -12,11 +12,11 @@ ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection: M365-voice
 description: En este artículo se describe las consideraciones de planeación para usar el Monitor de Azure para administrar dispositivos de salas de equipos de Microsoft en su Skype para profesionales o los equipos de la implementación.
 ms.openlocfilehash: dfa65435da63eb9783422e1e7ee10e66ba33b891
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214578"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planeación de la administración de salas de equipos de Microsoft con el Monitor de Azure
  
@@ -60,7 +60,7 @@ Al usar el Monitor de Azure para administrar los dispositivos de salas de equipo
 
 - Comprender las alertas generadas por los salones de los equipos de Microsoft y cómo resolverlos (vea la sección titulada [comprender las entradas del registro](../../manage/skype-room-systems-v2/azure-monitor.md#understand-the-log-entries))
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure](../../deploy/deploy-clients/azure-monitor.md)
   

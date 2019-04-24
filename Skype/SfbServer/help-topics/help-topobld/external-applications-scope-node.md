@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 73b422d6-1582-4a76-aceb-690004fa02a3
 description: 'El nodo Servidores de aplicaciones de confianza contiene los grupos de aplicaciones de confianza de este sitio. Los grupos de servidores de aplicaciones de confianza contienen servidores que ejecuten las aplicaciones de confianza de comunicaciones unificadas de Microsoft, pero no ejecute Skype para funciones de servidor empresarial. You can perform the following action:'
 ms.openlocfilehash: 3554487210ed415e1a49c78194b4fb858cd1d20e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894040"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194045"
 ---
 # <a name="external-applications-scope-node"></a>Nodo de ámbito de aplicaciones externas
  

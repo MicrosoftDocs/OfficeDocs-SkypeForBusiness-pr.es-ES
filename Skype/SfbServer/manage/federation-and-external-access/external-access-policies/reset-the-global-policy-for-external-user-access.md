@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Completamente, no se puede eliminar una directiva global. Con la opción **Eliminar** en la directiva global, sólo restablece la directiva global para la configuración predeterminada, que no incluye compatibilidad con las opciones de acceso de usuarios externos.
 ms.openlocfilehash: 048d1f1aabd2e188cefa25358068ea6ec150b8f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197628"
 ---
 # <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Restablecer la directiva global para el acceso de usuarios externos en Skype para Business Server 
 

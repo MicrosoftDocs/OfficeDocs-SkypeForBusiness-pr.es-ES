@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Creación o eliminación de anuncios para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
 ms.openlocfilehash: cf6fc0ce754e30e4d52e968dc3a167bbe87a5a83
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223525"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype para Business Server
 
@@ -113,7 +113,7 @@ Para crear un anuncio, debe seguir estos pasos:
     > [!NOTE]
     > Para obtener información detallada acerca de las opciones más, vea [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear o eliminar un anuncio en Skype para Business Server](create-an-announcement.md)
 

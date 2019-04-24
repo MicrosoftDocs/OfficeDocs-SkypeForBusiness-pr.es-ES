@@ -14,11 +14,11 @@ ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la finalización de la publicación de la topología, se muestra la página completa del Asistente para publicar.
 ms.openlocfilehash: db236d0f30d68c9706430b72d44a514a876848af
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201625"
 ---
 # <a name="publish-topology-next-step"></a>Próximo paso para publicar la topología
 

@@ -14,11 +14,11 @@ ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 691114c25c65d992ed26c0d15d5b7eec066d39aa
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221253"
 ---
 # <a name="voice-policy"></a>Directiva de voz
 

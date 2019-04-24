@@ -19,12 +19,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Obtenga información sobre cómo comprar para planes de Office 365 Enterprise E1 y E3, características y licencias adicionales. '
-ms.openlocfilehash: 853cc90b8c0e6a0a5fd42a104ae9c972437995d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fc3dfc987a36f458f0480fbec03d340f730d51e3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541427"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32204518"
 ---
 # <a name="office-365-enterprise-e1-and-e3"></a>Office 365 Enterprise E1 y E3
 
@@ -35,7 +35,7 @@ Si ya ha adquirido el plan de [Office 365 Enterprise E1](https://products.office
 |Audioconferencia <br/> <br/> |Comprar el **complemento de conferencias de Audio**. <br/>Comprar licencias de conferencias de Audio 1 para cada persona que se va a programar o una reunión de marcado de host. Los asistentes no necesitan licencias.<br/> Una vez adquirida la licencia, Microsoft será su proveedor de audioconferencias. |
 |Números gratuitos para el acceso telefónico a las reuniones y la capacidad de marcar un número de una reunión para agregar a alguien mediante una llamada a cualquier número de teléfono en el mundo<br/> | Comprar [créditos Communications](../add-funds-and-manage-communications-credits.md).|
 |Sistema telefónico <br/> |<ol><li>Comprar el complemento de sistema telefónico de Office 365. </li><li>Adquirir un [Plan de llamada](../calling-plans-for-office-365.md) para Office 365.</li></ul>O bien, use el [servicio telefónico de su proveedor existente](microsoft-teams-add-on-licensing.md#bkmk_existing).  <br/> |
-|Correo de voz de Sistema telefónico<br/> |Planes de E1, comprar Exchange Online Plan 2. <br/>Alternativamente, cambie a una suite de Office que incluya Exchange Online Plan 2, como Office 365 E3. |
+|Correo de voz en la nube<br/> |Planes de E1, comprar Exchange Online Plan 2. <br/>Alternativamente, cambie a una suite de Office que incluya Exchange Online Plan 2, como Office 365 E3. |
 |Planes de llamadas<br/> |<ol><li>Compre el complemento del sistema telefónico.</li><li>Comprar una [Planeación de la llamada](../calling-plans-for-office-365.md): sólo puede comprar esto después de comprar el complemento del **Sistema telefónico** .</li></ol> <br/> |
    
   

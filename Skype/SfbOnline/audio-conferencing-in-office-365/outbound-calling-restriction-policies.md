@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
 ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229791"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -35,8 +35,8 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
 |Control|Descripción|Opciones de control|
 |:-----|:-----|:-----|
-|Llamadas de audio de conferencia RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro </br>reuniones organizadas por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguno|
-|Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguno|
+|Llamadas de audio de conferencia RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro </br>reuniones organizadas por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
+|Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
 
    > [!NOTE]
    > Una llamada se determina como nacionales si el número de teléfono llamada se encuentra en el mismo país como el país en el que se ha establecido en Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
@@ -56,7 +56,7 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
 4. En **permisos de acceso telefónico de salida de las reuniones**, seleccione la opción de salida de la restricción que desee.
 
-5. Haga clic en **Guardar**. 
+5. Haga clic en **Guardar **. 
 
 ![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
 
@@ -68,7 +68,7 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 
     ![Las restricciones a las opciones de marcado-outs](../images/restrictions-to-dial-outs.png)
 
-5. Haga clic en **Guardar**.
+5. Haga clic en **Guardar **.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

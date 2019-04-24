@@ -15,11 +15,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8071b248219d2e69465ef19e8dc966e87de58754
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198358"
 ---
 <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Configurar la aplicación Reuniones de Skype para trabajar con Teams
 ===================================================
@@ -41,9 +41,9 @@ Los usuarios que utilizan la aplicación de las reuniones de Skype con los equip
 - Los usuarios no tienen ninguna opción para cambiar el dispositivo de vídeo.
 - Después de que un usuario se actualiza a los equipos, si el usuario está en una reunión mediante la aplicación de las reuniones de Skype y, a continuación, recibe una llamada en los equipos, la reunión en aplicación de las reuniones de Skype no se pondrá en espera. En su lugar, el usuario está conectado a ambas llamadas.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener más información acerca de la aplicación de las reuniones de Skype, vea:
 
 - [¿Qué es la aplicación de las reuniones de Skype (Skype para la aplicación empresarial de Web)](https://support.office.microsoft.com/article/what-is-skype-meetings-app-skype-for-business-web-app-1ff3d412-718a-4982-8ff2-a4992608cdb5)
-- [Requisitos de red mínimos de la aplicación Reuniones de Skype](https://technet.microsoft.com/library/mt845808.aspx)
+- [Skype Meetings App minimum network requirements](https://technet.microsoft.com/library/mt845808.aspx) (Requisitos de red mínimos de la aplicación Reuniones de Skype)

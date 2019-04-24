@@ -14,11 +14,11 @@ ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Desde el generador de topología, puede modificar la configuración de puerto usada para ambos los servicios web internos y externos. Además, y si va a implementar el equilibrio de carga del sistema de nombres de dominio (DNS), puede usar el generador de topología para configurar el nombre de dominio completo (FQDN) del grupo de servidores que se resuelve en las direcciones IP físicas de todos los servidores de ese grupo.
 ms.openlocfilehash: 75d73a81ec649c97149fd03125887116c947144c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201462"
 ---
 # <a name="web-services-settings-expander"></a>Expansor de configuración de servicios web
  

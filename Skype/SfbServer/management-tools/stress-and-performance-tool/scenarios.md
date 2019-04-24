@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Tareas que necesitará realizar para configurar Skype para Business Server 2015 hacer pruebas de rendimiento y carga-, mediante la herramienta de rendimiento y esfuerzo.
 ms.openlocfilehash: 53504b714304b4b3cd18e44397ce0f06fcc59b63
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32194621"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Escenarios de rendimiento para el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
  

@@ -14,11 +14,11 @@ ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo almacén de SQL, lo que significa que se están especificando una base de datos basada en SQL Server y una instancia de SQL Server, una instancia predeterminada o una instancia con nombre: especifique lo siguiente.'
 ms.openlocfilehash: 5f362d66f7764c69e51a3d54c51ba251a93ae5f9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878234"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202001"
 ---
 # <a name="add-sql-store"></a>Agregar almacén SQL
 

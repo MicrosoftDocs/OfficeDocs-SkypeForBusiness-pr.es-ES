@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el Plan de desvío de medios en Skype para la empresa, Plan para llamar el control de admisión de Skype para Business Server), o un Plan de servicios de emergencia en Skype para Business Server en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206560"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
 
@@ -68,7 +68,7 @@ Cada subred de la red empresarial necesita asociarse a un sitio de red (es decir
 
 Para asociar subredes a sitios de red, puede usar la sección de **Configuración de red** de Skype para el Panel de Control de Business Server o puede usar el Skype para Shell de administración de servidor empresarial. Para obtener instrucciones, consulte [asociar una subred a un sitio de red](https://technet.microsoft.com/library/aa69e3ac-542a-4ba1-9582-2e6bee29f633.aspx) en la documentación de implementación o hacer referencia a la Skype para la documentación del Shell de administración de servidor empresarial.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de control de admisión de llamadas en Skype para Business Server](call-admission-control.md)
 

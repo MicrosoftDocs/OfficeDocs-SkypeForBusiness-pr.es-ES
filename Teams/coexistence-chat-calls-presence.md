@@ -15,11 +15,11 @@ appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de chat, el enrutamiento de llamadas y presencia entre los usuarios de los equipos y Skype para la empresa, en el inquilino y federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio del modo de TeamsUpgrade predeterminado de *heredado* a *Islas* y la retirada inminente de *heredado*.
 ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198787"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 

@@ -15,11 +15,11 @@ ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para conferencias de acceso telefónico Business Server permite a los usuarios unirse al audio de una Skype para conferencia de Business Server mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
 ms.openlocfilehash: 2e8e70f84358c1f5223149a8ad44be2e14156584
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899508"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221063"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

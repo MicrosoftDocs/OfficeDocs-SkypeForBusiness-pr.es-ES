@@ -14,11 +14,11 @@ ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar la sección Categoría de la página Chat persistente para configurar categorías. Una categoría de salón de Chat en grupo es una estructura lógica para la organización de los salones de chat. Una categoría define un conjunto predeterminado de listas de control de acceso (ACL) para controlar los usuarios y grupos de usuarios que se pueden crear o unir a salones de chat. Puede usar zonas de protección de datos confidenciales de imposición de categorías entre distintas subdivisiones en sus organizaciones.
 ms.openlocfilehash: 1c9f69bdc250b82c7841671ffef10d7620c15954
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215251"
 ---
 # <a name="persistent-chat-category-main-page"></a>Página principal de categoría de chat persistente
 

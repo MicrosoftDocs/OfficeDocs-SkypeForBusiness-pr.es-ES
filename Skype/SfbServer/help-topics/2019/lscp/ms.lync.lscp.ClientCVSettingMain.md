@@ -14,11 +14,11 @@ ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Además de especificar la versión de los clientes que desea admitir en su entorno, también puede especificar una acción predeterminada para los clientes que aún no tiene una directiva de versión que se haya definido. Esto le permite restringir qué versiones de cliente se usan en su entorno, que puede ayudar a controlar los costes asociados con el uso de varias versiones de cliente.
 ms.openlocfilehash: c83dc832d6ea866a7f29f0a98213ea25853cd2f7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215923"
 ---
 # <a name="client-version-configuration"></a>Configuración de versiones de cliente
 

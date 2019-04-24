@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Resumen: Obtenga información sobre el servicio de movilidad (Mcx) y la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
 ms.openlocfilehash: 476d03fa17cad163fa9426ca35853cfe29f87bb1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199731"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Movilidad de Monitor de rendimiento en Skype para Business Server
  

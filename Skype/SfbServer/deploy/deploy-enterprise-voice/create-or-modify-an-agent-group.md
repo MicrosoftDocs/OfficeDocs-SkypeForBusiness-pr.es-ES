@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Crear o modificar un grupo de agentes en el grupo de respuesta, en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223201"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype para la empresa
  
@@ -142,7 +142,7 @@ Use uno de los procedimientos siguientes para crear o modificar un grupo de agen
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Get-CsService](https://docs.microsoft.com/powershell/module/skype/get-csservice?view=skype-ps)
   

@@ -14,11 +14,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: público (IM) conectividad de mensajería instantánea permite a los usuarios de su organización utilizar la mensajería instantánea para comunicarse con los usuarios de servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública.
 ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32197614"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios públicos en Skype para Business Server
 

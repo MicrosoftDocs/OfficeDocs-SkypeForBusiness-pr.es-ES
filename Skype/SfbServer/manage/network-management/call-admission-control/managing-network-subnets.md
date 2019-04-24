@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En la mayoría de las implementaciones de Skype para Business Server donde se implementa el control de admisión de llamadas (CAC), habrá normalmente un gran número de subredes. Por este motivo, a menudo es mejor configurar subredes desde el Skype para Shell de administración de servidor empresarial.
 ms.openlocfilehash: 3b61ad1b4e1eb7f11d61b32c15e337bcd4ff77c8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899753"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198911"
 ---
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Administrar subredes de red en Skype Empresarial Server
 

@@ -17,11 +17,11 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 596edc9aa9adf3a12bac9ec4553e27beec82f648
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199212"
 ---
 # <a name="audio-conferencing-in-microsoft-teams"></a>Audioconferencia en Microsoft Teams
 

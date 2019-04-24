@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Resumen: Información sobre el informe de comparación de calidad de medios en Skype para Business Server.'
 ms.openlocfilehash: adf9e817c575766ad24b9e9253e9ae8d8e885824
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899501"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199746"
 ---
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad Media en Skype para Business Server
  

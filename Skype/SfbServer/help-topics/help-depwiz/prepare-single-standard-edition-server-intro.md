@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: fe11d380-54c9-47e7-a676-02b9a59dc93f
 description: Para comenzar la instalación de un Skype para servidor Business Server 2015 Standard Edition que contendrá el almacén de Administración Central y otros servicios combinados que seleccione, debe haber iniciado sesión como miembro del grupo Administradores local en el servidor que se va a se convierten en el servidor Standard Edition. En la página de preparación de un solo servidor Standard Edition se detallan los requisitos para la instalación inicial. El equipo debe ser miembro del dominio en el que se va a implementar, y el usuario debe haber completado correctamente la preparación del esquema, el bosque y el dominio para el bosque.
 ms.openlocfilehash: 0f3980ec0fc8e65b6737dcbaf2deff5dccaca5e4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201268"
 ---
 # <a name="prepare-single-standard-edition-server-intro"></a>Preparar un servidor único de Standard Edition (introducción)
  

@@ -14,11 +14,11 @@ ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Opciones de configuración que definen el tipo de conferencias (también calledmeetings) que los usuarios pueden crear y controlar cómo (o si) los usuarios anónimos y los usuarios de conferencia de acceso telefónico pueden unirse a estas conferencias. Estas opciones solo se aplican a las reuniones programadas. No se aplican a reuniones ad-hoc que se crean haciendo clic en la opción Reunirse ahora en el cliente.
 ms.openlocfilehash: 905d057adb0c914355d3237c3ec1771abe594de2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215692"
 ---
 # <a name="meeting-configuration"></a>Configuración de reuniones
 

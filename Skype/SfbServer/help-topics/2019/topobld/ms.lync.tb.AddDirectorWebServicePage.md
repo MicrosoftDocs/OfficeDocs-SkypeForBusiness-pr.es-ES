@@ -14,11 +14,11 @@ ms.assetid: 3ed3bdde-c3b5-4fe9-a96b-37099cbd6234
 ROBOTS: NOINDEX, NOFOLLOW
 description: La dirección URL base es la identidad de los servicios web para la dirección URL, sin la porción https://. Por ejemplo, si la dirección URL completa para los servicios Web del grupo de servidores es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.
 ms.openlocfilehash: 8da69fe55100f5704c3a96a7d2286148f1a4d73c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890272"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202218"
 ---
 # <a name="add-director-web-service"></a>Agregar servicio web director
  

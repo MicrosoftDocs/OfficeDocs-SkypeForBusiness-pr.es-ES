@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: Para abrir el asistente de Office Online, haga clic con el botón secundario en Servidores de Office Web Apps y seleccione Nuevo servidor de Office Web Apps.
 ms.openlocfilehash: f566f8f8f92335af66ee99cc4c96def7ad08439b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32219320"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nodo de ámbito de los servidores de Office Web Apps
 
@@ -30,6 +30,6 @@ Para abrir el asistente de Office Online, haga clic con el botón secundario en 
 
 - **Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuring Integration with Office Web Apps Server and Lync Server 2013](https://technet.microsoft.com/library/3370ab55-9949-4f32-b88b-5cffed6aaad8.aspx)

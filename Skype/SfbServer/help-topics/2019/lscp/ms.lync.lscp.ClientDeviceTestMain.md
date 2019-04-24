@@ -14,11 +14,11 @@ ms.assetid: a1ea564c-f403-4f61-a36b-5a429708e7ca
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede agregar un dispositivo de prueba a la página Dispositivo de prueba y, luego, usar este dispositivo para comprobar la funcionalidad de las actualizaciones nuevas antes de implementarlas en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno) o en un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando se agrega un dispositivo, aparece en la lista en la página dispositivo de prueba de la Skype para el Panel de Control de servidor empresarial.
 ms.openlocfilehash: 86c8320615ac4d194c33e455283a7b56fd5fb825
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876905"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215895"
 ---
 # <a name="test-device"></a>Dispositivo de la prueba
 
@@ -53,7 +53,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 - **Actualizar** Puede actualizar la lista de dispositivos de prueba para comprobar el estado de las opciones de todos los dispositivos de prueba.
 
 Para más detalles sobre cómo probar dispositivos, mire [Add a Device to Test Update Functionality](https://technet.microsoft.com/library/ce509fd1-17b3-4b78-b269-fe5d06fe2e1d.aspx) en la documentación de operaciones.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Dispositivo de prueba: Crear nuevo o editar existente](ms.lync.lscp.ClientDeviceTestEdit.md)
 

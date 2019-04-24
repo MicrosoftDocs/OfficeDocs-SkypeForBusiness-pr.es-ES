@@ -14,11 +14,11 @@ ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Puertas de enlace RTC contiene las puertas de enlace de red telefónica conmutada (RTC) de la topología. You can perform the following action:'
 ms.openlocfilehash: fe9c9167d13fb869786b68380e115cc0d6c190cb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235297"
 ---
 # <a name="pstn-gateways-scope-node"></a>Nodo de ámbito de puertas de enlace RTC
  

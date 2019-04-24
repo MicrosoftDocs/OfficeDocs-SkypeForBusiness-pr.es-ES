@@ -5,7 +5,7 @@ ms.author: lolaj
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
-ms.date: 01/28/2019
+ms.date: 04/18/2019
 ms.reviewer: LolaJ
 description: Busque el camino correcto para implementar Microsoft Teams en su organización. Obtenga información sobre la infraestructura de Teams y cómo usar Teams con Office 365.
 localization_priority: Priority
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0cb72d55b41edf6c44b84461d234c42782ee6873
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: cf50b6f7acba602ec001c340e2cbe999c610e693
+ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649287"
+ms.lasthandoff: 04/22/2019
+ms.locfileid: "31959231"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Bienvenido a Microsoft Teams
 Si es administrador de Microsoft Teams en su organización, ahora está en el lugar adecuado. Cuando esté listo para comenzar a usar Teams, empiece por [Cómo implementar Teams](How-to-roll-out-teams.md).
@@ -29,16 +29,20 @@ Si no está familiarizado con Teams y desea obtener más información, siga leye
 
 ## <a name="overview-of-teams"></a>Información general de Microsoft Teams
 
-Si es un nuevo usuario de Teams, vea este breve vídeo: [Bienvenido a Microsoft Teams](https://youtu.be/s3aQV3T0D6c). Teams está diseñado a partir de los grupos de Office 365, Office Graph y el mismo nivel empresarial de seguridad, cumplimiento y manejabilidad que el resto de Office 365. Teams aprovecha las identidades almacenadas en Azure Active Directory (Azure AD). Cuando se crea un equipo, esto es lo que se crea:
+Si es un nuevo usuario de Teams, vea este breve vídeo: [Bienvenido a Microsoft Teams](https://youtu.be/s3aQV3T0D6c). Teams está diseñado a partir de los grupos de Office 365, Office Graph y el mismo nivel empresarial de seguridad, cumplimiento y manejabilidad que el resto de Office 365. Teams aprovecha las identidades almacenadas en Azure Active Directory (Azure AD). Para ver dónde encaja Teams en el contexto de Microsoft 365, consulte este póster de arquitectura: [Teams como parte de Microsoft 365](teams-architecture-solutions-posters.md#teams-as-part-of-microsoft-365)
+
+Cuando se crea un equipo, esto es lo que se crea:
 - Un nuevo [grupo de Office 365](office-365-groups.md)
 - Un sitio de [SharePoint Online](sharepoint-onedrive-interact.md) y la biblioteca de documentos para almacenar los archivos del equipo
 - Un buzón y un calendario compartidos de [Exchange Online](exchange-teams-interact.md)
 - Un bloc de notas de OneNote
 - Relaciones con otras aplicaciones de Office 365, como Planner y Power BI
 
-Cuando se crea un equipo desde un grupo existente, la pertenencia del grupo, el sitio, el buzón y el bloc de notas se muestran en Teams. No se pierda el nuevo [equipo de toda la organización](create-an-org-wide-team.md), un tipo de equipo especial que incluye todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory a medida que los usuarios se unen a la organización o la dejan. 
+Cuando se crea un equipo desde un grupo existente, la pertenencia del grupo, el sitio, el buzón y el bloc de notas se muestran en Teams. Para obtener más información, consulte este póster: [Grupos en Microsoft 365 para arquitectos de TI](teams-architecture-solutions-posters.md#groups-in-microsoft-365)
 
-Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [aplicaciones, conectores y bots](deploy-apps-microsoft-teams-landing-page.md). Con Teams, puede incluir a personas de fuera de la organización [agregándolas como invitados](guest-access.md) a un equipo o un canal. Como parte de Office 365, Teams ofrece una sólida [plataforma de desarrollo](https://docs.microsoft.com/es-ES/microsoftteams/platform) para que pueda crear el hub para el trabajo en equipo que necesita en su organización. 
+No se pierda los nuevos [equipos de toda la organización](create-an-org-wide-team.md), un tipo de equipo especial que incluye todos los usuarios de la organización y mantiene la pertenencia al día con Active Directory a medida que los usuarios se unen a la organización o la dejan. 
+
+Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [aplicaciones, conectores y bots](deploy-apps-microsoft-teams-landing-page.md). Con Teams, puede incluir a personas de fuera de la organización [agregándolas como invitados](guest-access.md) a un equipo o un canal. Como parte de Office 365, Teams ofrece una sólida [plataforma de desarrollo](https://docs.microsoft.com/microsoftteams/platform) para que pueda crear el hub para el trabajo en equipo que necesita en su organización. 
 
 ![Aplicación de escritorio y aplicación móvil de Microsoft Teams](media/teams-overview-hub.png)
 
@@ -46,9 +50,10 @@ Para personalizar y ampliar Teams, agregue aplicaciones de terceros mediante [ap
 ## <a name="managing-teams"></a>Administración de Teams
 
 Como administrador, administrará Teams a través del centro de administración de Microsoft Teams. Para obtener más información:
+- [Usar roles de administrador para administrar Teams](using-admin-roles.md)
 - [Administrar equipos en el Centro de administración de Microsoft Teams](manage-teams-skypeforbusiness-admin-center.md)
 - [Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams](manage-teams-in-modern-portal.md)
-
+- [Habilitar características de Teams en su organización de Office 365](enable-features-office-365.md)
 
 Para estar al día de las próximas novedades de Teams y de otros productos y servicios de Office 365 en su organización, consulte el [Centro de mensajes](https://admin.microsoft.com/AdminPortal/Home#/MessageCenter) y el [mapa de ruta de Microsoft Teams](https://www.microsoft.com/microsoft-365/roadmap?rtc=1%26filters=Microsoft%20Teams%26searchterms=microsoft%2Cteams). Recibirá anuncios de las características nuevas y actualizadas, los cambios planificados y los problemas, de modo que siempre está bien informado y preparado. 
 

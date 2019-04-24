@@ -14,11 +14,11 @@ ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Un grupo de servidores front-end puede tener asociado un solo servidor perimetral o grupo de servidores perimetrales. Al habilitar el acceso de usuarios externos para un sitio, puede permitir el acceso a usuarios remotos. También puede permitir el acceso a usuarios federados, que pueden ser usuarios de determinados proveedores de conectividad para mensajería instantánea (como Windows Live), y a usuarios anónimos.
 ms.openlocfilehash: c1af7071f8db9d924f33326f5d88a17311897423
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32220708"
 ---
 # <a name="associate-front-end-with-edge"></a>Asociar front-end con servidor perimetral
 

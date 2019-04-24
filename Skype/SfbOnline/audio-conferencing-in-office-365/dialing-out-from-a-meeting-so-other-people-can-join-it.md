@@ -19,20 +19,20 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Learn what you need and how meeting organizers can call out to other people using Skype for Business.
+description: Obtenga más información sobre qué necesita y cómo los organizadores de una reunión pueden llamar a otras personas con Skype for Business.
 ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788951"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229539"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Marcar desde un Skype para la reunión de negocios por lo que otras personas pueden unirse a ella
 
 > [!NOTE]
 > Si está buscando información acerca de cómo llamar desde una reunión de Teams, vea [Llamar desde una reunión de Teams para que otras personas puedan unirse](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
-Como organizador de la reunión, puede marcar con el Skype para la aplicación empresarial para permitir que otra combinación de personas en la misma reunión con su teléfono. Aunque no es necesario, cuando llama a alguien se recomienda que llame al número completo, incluido el código de región o país. Para llamar al trabajo:
+As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
 - Puede de salida sólo si se une a una reunión mediante un Skype para la aplicación empresarial.
     
@@ -59,8 +59,8 @@ Dial-out is only available to some countries/regions. Para obtener una lista com
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
     
-- [Licencias complementarias de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+- [Licencias de complemento de Skype Empresarial](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 ## <a name="related-topics"></a>Temas relacionados
 
-[Instalar Skype Empresarial](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)
+[Instalar Skype for Business](https://support.office.com/en-us/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb)

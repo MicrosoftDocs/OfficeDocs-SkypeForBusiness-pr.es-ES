@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Resumen: Obtenga información sobre la supervisión de informes en Skype para Business Server.'
 ms.openlocfilehash: 11eb398d45102cb73fa02e61f63e0eda56e70200
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32199680"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Uso de informes de supervisión en Skype para Business Server 
  

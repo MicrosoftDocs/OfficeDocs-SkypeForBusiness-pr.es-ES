@@ -14,11 +14,11 @@ ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use esta página para especificar la dirección IP interna y el nombre de dominio completo interno (FQDN) para el servidor perimetral.
 ms.openlocfilehash: 94a74fd434f1fe9ae62925ddc7ee76f1114f46fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202183"
 ---
 # <a name="add-edge-machine-internal-ip"></a>Agregar IP interna de equipo perimetral
 

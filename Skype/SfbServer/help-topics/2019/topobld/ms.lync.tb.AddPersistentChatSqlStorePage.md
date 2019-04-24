@@ -14,11 +14,11 @@ ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 ROBOTS: NOINDEX, NOFOLLOW
 description: Configurar los almacenes de SQL Server que proporcionarán bases de datos para el servidor de Chat persistente o grupo de servidores de Chat persistente.
 ms.openlocfilehash: e80c024f35b839239177cc47bd2fc46e7c0f35fe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201994"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Agregar almacén SQL Server de chat persistente
 

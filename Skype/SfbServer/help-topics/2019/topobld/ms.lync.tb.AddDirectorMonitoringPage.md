@@ -14,11 +14,11 @@ ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
 ms.openlocfilehash: 4ba52c49cc9d851df9d6fa53220cf81d70967e75
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876686"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202313"
 ---
 # <a name="add-director-monitoring"></a>Agregar supervisión de director
  

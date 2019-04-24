@@ -14,11 +14,11 @@ ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos del servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
 ms.openlocfilehash: 7a4761beb798e52d848b7c0c42c3157f7a5da400
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235458"
 ---
 # <a name="add-front-end-file-store"></a>Agregar almacén de archivos front-end
 

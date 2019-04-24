@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'El nodo Sitios de sucursal contiene los sitios de sucursal asociados a este sitio central. You can perform the following action:'
 ms.openlocfilehash: 52d971b14f058a5284d84a710257f61794b5f091
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895163"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226875"
 ---
 # <a name="branch-offices-scope-node"></a>Nodo de ámbito de sucursales
  

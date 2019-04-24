@@ -14,11 +14,11 @@ ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: c588c76c9e84a8f384c404de5aaee6640b21f063
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215783"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de acceso telefónico local: Crear nuevo o editar existente
 

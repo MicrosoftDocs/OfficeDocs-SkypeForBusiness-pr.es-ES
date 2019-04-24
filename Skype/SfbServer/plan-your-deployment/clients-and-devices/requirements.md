@@ -13,11 +13,11 @@ ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resume los requisitos para admitir salones de los equipos de Microsoft.
 ms.openlocfilehash: aff26f2f69b134569b8792df79c2afa4e4a18318
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31012997"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214508"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de equipos de Microsoft
 
@@ -106,7 +106,7 @@ Salones de los equipos de Microsoft se pueden escalar a tamaños de sala diferen
 - Hasta dos pantallas 1080p con conexiones de HDMI. Cables HDMI de longitud adecuada.
 
     > [!NOTE]
-    > Una televisión de consumo usada como una parte delantera del salón de mostrar las necesidades de soporte técnico o habilitar la característica de Control de electrónica de consumidor (CEC) de HDMI para que puede cambiar automáticamente a un origen de vídeo activo de modo de espera. Esta característica no se admite en todos los televisores. 
+    > Si se usa un televisor como pantalla, debe ser compatible con la característica Control de electrónica de consumidor (CEC) de HDMI o habilitarla para que puede cambiar automáticamente a un origen de vídeo activo desde el modo de espera. Esta característica no es compatible con todos los televisores. 
 
 > [!NOTE]
 > Salones de los equipos de Microsoft no usa un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Un teclado o mouse USB se requerirán cuando el dispositivo Microsoft salones de los equipos de procesamiento de imágenes. 
@@ -143,7 +143,7 @@ Para crear su propia imagen de salas de equipos de Microsoft, siga las instrucci
 
 Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), que puede usar para aprovisionar las cuentas locales de los equipos de Microsoft.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Plan para salas de equipos de Microsoft](skype-room-systems-v2-0.md)
 
@@ -151,6 +151,6 @@ Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](h
 
 [Configurar una consola de salas de equipos de Microsoft](../../deploy/deploy-clients/console.md)
 
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
 
 [Licencias complementarias de Skype Empresarial](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

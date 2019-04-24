@@ -4,7 +4,7 @@ author: LolaJacobsen
 ms.author: Lolaj
 manager: serdars
 ms.reviewer: jastark
-ms.date: 12/07/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 757f023d5f988e5a4f45c6274358aa51f3417ce0
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d0434804e7d0ec57ff4470fd8e9af23b73f8179f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198406"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================
@@ -56,7 +56,7 @@ Para configurar el uso compartido de la pantalla, crear una nueva directiva de r
     - **Permitir Pizarra** – permite a los usuarios compartir una pizarra.
     - **Permitir notas compartidas** – permite a los usuarios tomar notas compartidas.
 
-6. Haga clic en **Guardar**.
+6. Haga clic en **Guardar **.
 
 ## <a name="use-powershell-to-configure-shared-desktop"></a>Uso de PowerShell para configurar el escritorio compartido
 

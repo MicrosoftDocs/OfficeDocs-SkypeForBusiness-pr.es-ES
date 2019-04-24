@@ -14,11 +14,11 @@ ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para comenzar la instalación de la base de datos que contendrá la copia local de sólo lectura del almacén de Administración Central, seleccione uno de recuperar la configuración definida publicada mediante Topology Builder desde la Central ya instalado y configurado Almacén de administración, o leer la configuración definida de otro medio. Para un equipo que se encuentra en la red interna de la organización, seleccione recuperar la configuración automáticamente en el almacén de Administración Central.
 ms.openlocfilehash: 21cf742be33ab79daa733cbc52aa557b6ccee145
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886271"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216056"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar invocación de almacén de configuración local (configurar)
  

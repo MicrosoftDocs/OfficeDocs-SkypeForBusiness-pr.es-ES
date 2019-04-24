@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.'
 ms.openlocfilehash: 8ff7eeb9c0abbd0482248f9b69db4013edda6495
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32198457"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server
  
 **Resumen:** Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.
   
-En este tema se describe cómo actualizar una instalación existente de administrador de estadísticas de Skype para Business Server — una eficaz herramienta que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento a través de cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio Web de estadísticas de administrador. 
+En este tema se describe cómo actualizar una instalación existente de administrador de estadísticas de Skype para Business Server — una eficaz herramienta que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas. 
   
 Para obtener más información acerca de las estadísticas de administrador y las nuevas características de la versión 2.0, vea [planear para el Administrador de estadísticas de Skype para Business Server](plan.md) e [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md).
   
@@ -102,10 +102,10 @@ Si, por algún motivo, se produce un error durante la actualización automática
 2. 	Instale las nuevas versiones de los componentes, incluidos los valores que guardó anteriormente cuando se le pidan. Para obtener más información acerca de cómo instalar los componentes, vea [Implementar el administrador de estadísticas](deploy.md#BKMK_Deploy).
 
     
-## <a name="for-more-information"></a>Para más información
+## <a name="for-more-information"></a>Más información
 <a name="BKMK_Fixed"> </a>
 
-Para obtener más información, consulte lo siguiente:
+Para obtener más información, vea los artículos siguientes:
   
 - [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     

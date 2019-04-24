@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aquí están disponibles para Hong Kong los servicios de Office 365 para Skype para empresas y Microsoft Teams.
 ms.openlocfilehash: d2596bdc923e341c969b588630c5d3d644601a9f
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569354"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203630"
 ---
 # <a name="availability-in-hong-kong"></a>Disponibilidad en Hong Kong
 

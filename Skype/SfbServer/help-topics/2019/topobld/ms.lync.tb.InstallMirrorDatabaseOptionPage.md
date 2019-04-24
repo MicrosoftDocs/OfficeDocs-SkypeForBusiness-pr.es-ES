@@ -14,11 +14,11 @@ ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
 ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896291"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201803"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  

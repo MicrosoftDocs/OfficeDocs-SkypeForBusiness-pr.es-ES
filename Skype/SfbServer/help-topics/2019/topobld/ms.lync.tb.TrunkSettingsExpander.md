@@ -14,11 +14,11 @@ ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
 ms.openlocfilehash: 7ebf0ff7b62a6715929d535eb17ba18ab6976dfe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201531"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 
@@ -41,7 +41,7 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accion
 
 ![Expansor de configuración de tronco](../../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Lista de comprobación para implementación de enlace troncal SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 

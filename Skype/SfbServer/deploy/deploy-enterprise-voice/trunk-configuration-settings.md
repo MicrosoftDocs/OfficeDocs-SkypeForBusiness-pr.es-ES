@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 4ebd710c-38cd-4cff-9a45-df029d424580
 description: 'Resumen: Obtenga información sobre cómo crear una nueva colección de tronco opciones de configuración mediante el uso de la Skype para el Panel de Control de servidor empresarial.'
 ms.openlocfilehash: 5f3fd6b704a99be13ab71153352b174f769a28cc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222705"
 ---
 # <a name="create-a-new-collection-of-trunk-configuration-settings-in-skype-for-business-server"></a>Crear opciones de configuración de una nueva colección de tronco en Skype para Business Server 
 

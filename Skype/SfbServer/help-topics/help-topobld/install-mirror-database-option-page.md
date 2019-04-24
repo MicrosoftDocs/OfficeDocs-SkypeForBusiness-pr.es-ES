@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
 ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32200232"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  
@@ -35,6 +35,6 @@ Configurar **Configuración de base de datos reflejada** defina lo siguiente:
   
   **Ayuda.** Abre esta pantalla de ayuda.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Implementar un reflejo de SQL para alta disponibilidad de servidores back-end en Skype Empresarial Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

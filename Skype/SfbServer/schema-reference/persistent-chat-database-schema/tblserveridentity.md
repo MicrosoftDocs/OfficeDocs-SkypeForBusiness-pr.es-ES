@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
 description: la tabla tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de Chat persistente.
 ms.openlocfilehash: 1f9455e4c35a3bc6061c1d44ad10cbd4778c6c1f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212421"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  

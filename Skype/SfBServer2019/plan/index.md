@@ -1,10 +1,11 @@
 ---
-redirect_url: plan-your-deployment-2019
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 5341c5f029bfe109c17731e66bbcdaaf84ad5bf9
-ms.sourcegitcommit: e9f277dc96265a193c6298c3556ef16ff640071d
+localization_priority: Normal
+ms.openlocfilehash: 14d67e24672bf8b3d367194e4abbfab022e28f18
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "25028918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231325"
 ---
