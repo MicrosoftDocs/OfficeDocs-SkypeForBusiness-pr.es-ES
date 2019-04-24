@@ -14,21 +14,21 @@ localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 'Para especificar las credenciales para el SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión, haga lo siguiente:'
 ms.openlocfilehash: 2572d2e4615987e92c46e10932b466cd92d362ab
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32201163"
 ---
-# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="77193-103">SQL Server Reporting Services (credenciales)</span><span class="sxs-lookup"><span data-stu-id="77193-103">SQL Server Reporting Services (Credentials)</span></span>
+# <a name="sql-server-reporting-services-credentials"></a><span data-ttu-id="20828-103">SQL Server Reporting Services (credenciales)</span><span class="sxs-lookup"><span data-stu-id="20828-103">SQL Server Reporting Services (Credentials)</span></span>
  
-<span data-ttu-id="77193-104">Para especificar las credenciales para el SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="77193-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
+<span data-ttu-id="20828-104">Para especificar las credenciales para el SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="20828-104">To specify the credentials for the SQL Server Reporting Services (SSRS) to access the Monitoring database, do the following:</span></span>
   
-<span data-ttu-id="77193-105">En la **Página de especificación de credenciales**, especifique las credenciales del usuario que desea utilizar para tener acceso a la base de datos de supervisión (QoEMetrics y LcsCDR).</span><span class="sxs-lookup"><span data-stu-id="77193-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
+<span data-ttu-id="20828-105">En la **Página de especificación de credenciales**, especifique las credenciales del usuario que desea utilizar para tener acceso a la base de datos de supervisión (QoEMetrics y LcsCDR).</span><span class="sxs-lookup"><span data-stu-id="20828-105">In the **Specify Credential Page**, specify the user credentials that you want to use to access the Monitoring database (QoEMetrics and LcsCDR).</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="77193-106">Para obtener información detallada, consulte "especificación de credenciales y conexión información de informe de orígenes de datos (SSRS)" en [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span><span class="sxs-lookup"><span data-stu-id="77193-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
+> <span data-ttu-id="20828-106">Para obtener información detallada, consulte "especificación de credenciales y conexión información de informe de orígenes de datos (SSRS)" en [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span><span class="sxs-lookup"><span data-stu-id="20828-106">For details, see "Specifying Credential and Connection Information for Report Data Sources (SSRS)" at [https://go.microsoft.com/fwlink/p/?LinkId=263431](https://go.microsoft.com/fwlink/p/?LinkId=263431).</span></span> 
   
-<span data-ttu-id="77193-107">Para obtener información detallada sobre la implementación de los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte [Instalar informes de supervisión en Skype para Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).</span><span class="sxs-lookup"><span data-stu-id="77193-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
+<span data-ttu-id="20828-107">Para obtener información detallada sobre la implementación de los informes de Reporting Services para el servidor que ejecuta la supervisión, consulte [Instalar informes de supervisión en Skype para Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).</span><span class="sxs-lookup"><span data-stu-id="20828-107">For details about deploying the Reporting Services reports for the server running Monitoring, see [Install Monitoring Reports in Skype for Business Server 2015](../../deploy/deploy-monitoring/install-monitoring-reports.md).</span></span>
   
 

@@ -1,6 +1,6 @@
 ---
-title: Salones de equipos de Microsoft
-ms.reviewer: null
+title: Salas de Microsoft Teams
+ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
@@ -12,9 +12,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de salas de equipos de Microsoft y cómo implementar y administrar el sistema.
+ms.openlocfilehash: 078554d7d480507f7966abe844ce9aa8eef8c851
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206200"
 ---
-
-<h2>Salones de equipos de Microsoft</h2>
+<h2>Salas de Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">
     <li>
         <div class="cardSize">

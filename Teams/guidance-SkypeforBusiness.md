@@ -16,9 +16,9 @@ redirect_document_id: true
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8668d82a2a3057686182381e4bdef63505c14996
-ms.sourcegitcommit: 14b0724058fc31ff92af9e2bcde4680796a04936
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "23965502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235026"
 ---

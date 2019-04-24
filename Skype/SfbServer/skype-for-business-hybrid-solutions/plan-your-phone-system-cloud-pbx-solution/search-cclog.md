@@ -12,68 +12,68 @@ localization_priority: Normal
 ms.assetid: bbae05f9-d8de-40dc-8968-d225dcde80e4
 description: El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.
 ms.openlocfilehash: e11e82ba105ed58efa6892165a19c6a4c4de0429
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892768"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32250918"
 ---
-# <a name="search-cclog"></a><span data-ttu-id="7eeb2-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="7eeb2-103">Search-CcLog</span></span>
+# <a name="search-cclog"></a><span data-ttu-id="93bb5-103">Search-CcLog</span><span class="sxs-lookup"><span data-stu-id="93bb5-103">Search-CcLog</span></span>
  
-<span data-ttu-id="7eeb2-104">El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
+<span data-ttu-id="93bb5-104">El cmdlet Search-CcLog busca los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo de Skype Empresarial Cloud Connector Edition.</span><span class="sxs-lookup"><span data-stu-id="93bb5-104">The Search-CcLog cmdlet searches the incoming and outgoing call logs in the Skype for Business Cloud Connector Edition appliance log directory.</span></span>
   
 ```
 Search-CcLog [[-StartTime] <datetime>] [[-EndTime] <datetime>] [[-FileName] <string>]
 ```
 
-## <a name="examples"></a><span data-ttu-id="7eeb2-105">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="7eeb2-105">Examples</span></span>
-<span data-ttu-id="7eeb2-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-106"></span></span>
+## <a name="examples"></a><span data-ttu-id="93bb5-105">Ejemplos</span><span class="sxs-lookup"><span data-stu-id="93bb5-105">Examples</span></span>
+<span data-ttu-id="93bb5-106"><a name="Examples"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-106"></span></span>
 
-### <a name="example-1"></a><span data-ttu-id="7eeb2-107">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="7eeb2-107">Example 1</span></span>
+### <a name="example-1"></a><span data-ttu-id="93bb5-107">Ejemplo 1</span><span class="sxs-lookup"><span data-stu-id="93bb5-107">Example 1</span></span>
 
-<span data-ttu-id="7eeb2-108">En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo mediante el nombre de archivo predeterminado:</span><span class="sxs-lookup"><span data-stu-id="7eeb2-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
+<span data-ttu-id="93bb5-108">En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes en el directorio de registros del dispositivo mediante el nombre de archivo predeterminado:</span><span class="sxs-lookup"><span data-stu-id="93bb5-108">The following example searches the incoming and outgoing call logs in the appliance log directory using the default file name:</span></span>
   
 ```
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM"
 ```
 
-### <a name="example-2"></a><span data-ttu-id="7eeb2-109">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="7eeb2-109">Example 2</span></span>
+### <a name="example-2"></a><span data-ttu-id="93bb5-109">Ejemplo 2</span><span class="sxs-lookup"><span data-stu-id="93bb5-109">Example 2</span></span>
 
-<span data-ttu-id="7eeb2-110">En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes mediante la ruta y el nombre de un archivo determinado:</span><span class="sxs-lookup"><span data-stu-id="7eeb2-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
+<span data-ttu-id="93bb5-110">En el siguiente ejemplo se buscan los registros de llamadas entrantes y salientes mediante la ruta y el nombre de un archivo determinado:</span><span class="sxs-lookup"><span data-stu-id="93bb5-110">The next example searches the incoming and outgoing call logs using the given file path and name:</span></span>
   
 ```
 Search-CcLog -StartTime "8/31/2012 8:00AM" -EndTime "8/31/2012 6:00PM" -FileName "C:\Log\LogFile.log"
 ```
 
-## <a name="detailed-description"></a><span data-ttu-id="7eeb2-111">Descripción detallada</span><span class="sxs-lookup"><span data-stu-id="7eeb2-111">Detailed Description</span></span>
-<span data-ttu-id="7eeb2-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-112"></span></span>
+## <a name="detailed-description"></a><span data-ttu-id="93bb5-111">Descripción detallada</span><span class="sxs-lookup"><span data-stu-id="93bb5-111">Detailed Description</span></span>
+<span data-ttu-id="93bb5-112"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-112"></span></span>
 
-<span data-ttu-id="7eeb2-113">El cmdlet Search-CsClsLogging ofrece una opción de línea de comandos para buscar los archivos de registro del servicio de registro centralizado.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
+<span data-ttu-id="93bb5-113">El cmdlet Search-CsClsLogging ofrece una opción de línea de comandos para buscar los archivos de registro del servicio de registro centralizado.</span><span class="sxs-lookup"><span data-stu-id="93bb5-113">The Search-CsClsLogging cmdlet provides a command line option for searching the log files generated by the centralized logging service.</span></span>
   
-## <a name="parameters"></a><span data-ttu-id="7eeb2-114">Parámetros</span><span class="sxs-lookup"><span data-stu-id="7eeb2-114">Parameters</span></span>
-<span data-ttu-id="7eeb2-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-115"></span></span>
+## <a name="parameters"></a><span data-ttu-id="93bb5-114">Parámetros</span><span class="sxs-lookup"><span data-stu-id="93bb5-114">Parameters</span></span>
+<span data-ttu-id="93bb5-115"><a name="DetailedDescription"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-115"></span></span>
 
-|<span data-ttu-id="7eeb2-116">**Parámetro**</span><span class="sxs-lookup"><span data-stu-id="7eeb2-116">**Parameter**</span></span>|<span data-ttu-id="7eeb2-117">**Requerida.**</span><span class="sxs-lookup"><span data-stu-id="7eeb2-117">**Required**</span></span>|<span data-ttu-id="7eeb2-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="7eeb2-118">**Type**</span></span>|<span data-ttu-id="7eeb2-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="7eeb2-119">**Description**</span></span>|
+|<span data-ttu-id="93bb5-116">**Parámetro**</span><span class="sxs-lookup"><span data-stu-id="93bb5-116">**Parameter**</span></span>|<span data-ttu-id="93bb5-117">**Requerida.**</span><span class="sxs-lookup"><span data-stu-id="93bb5-117">**Required**</span></span>|<span data-ttu-id="93bb5-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="93bb5-118">**Type**</span></span>|<span data-ttu-id="93bb5-119">**Descripción**</span><span class="sxs-lookup"><span data-stu-id="93bb5-119">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-|<span data-ttu-id="7eeb2-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="7eeb2-120">StartTime</span></span>  <br/> | <span data-ttu-id="7eeb2-121">Requerido</span><span class="sxs-lookup"><span data-stu-id="7eeb2-121">Required</span></span> <br/> |<span data-ttu-id="7eeb2-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="7eeb2-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="7eeb2-p101">Fecha y hora inicial de las entradas del registro que se buscarán. Se especifica en la zona horaria local.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
-|<span data-ttu-id="7eeb2-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="7eeb2-125">EndTime</span></span>  <br/> |<span data-ttu-id="7eeb2-126">Requerido</span><span class="sxs-lookup"><span data-stu-id="7eeb2-126">Required</span></span>  <br/> |<span data-ttu-id="7eeb2-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="7eeb2-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="7eeb2-p102">Fecha y hora final de las entradas del registro que se buscarán. Se especifica en la zona horaria local.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
-|<span data-ttu-id="7eeb2-130">FileName</span><span class="sxs-lookup"><span data-stu-id="7eeb2-130">FileName</span></span>  <br/> |<span data-ttu-id="7eeb2-131">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="7eeb2-131">Required</span></span>  <br/> |<span data-ttu-id="7eeb2-132">System.String</span><span class="sxs-lookup"><span data-stu-id="7eeb2-132">System.String</span></span>  <br/> |<span data-ttu-id="7eeb2-133">Especifica la ruta completa del archivo de texto que contiene los resultados de la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
+|<span data-ttu-id="93bb5-120">StartTime</span><span class="sxs-lookup"><span data-stu-id="93bb5-120">StartTime</span></span>  <br/> | <span data-ttu-id="93bb5-121">Requerido</span><span class="sxs-lookup"><span data-stu-id="93bb5-121">Required</span></span> <br/> |<span data-ttu-id="93bb5-122">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="93bb5-122">System.Datetime</span></span>  <br/> | <span data-ttu-id="93bb5-p101">Fecha y hora inicial de las entradas del registro que se buscarán. Se especifica en la zona horaria local.</span><span class="sxs-lookup"><span data-stu-id="93bb5-p101">Beginning date and time for the log entries to be searched. Specified in local time zone.</span></span> <br/> |
+|<span data-ttu-id="93bb5-125">EndTime</span><span class="sxs-lookup"><span data-stu-id="93bb5-125">EndTime</span></span>  <br/> |<span data-ttu-id="93bb5-126">Requerido</span><span class="sxs-lookup"><span data-stu-id="93bb5-126">Required</span></span>  <br/> |<span data-ttu-id="93bb5-127">System.Datetime</span><span class="sxs-lookup"><span data-stu-id="93bb5-127">System.Datetime</span></span>  <br/> |<span data-ttu-id="93bb5-p102">Fecha y hora final de las entradas del registro que se buscarán. Se especifica en la zona horaria local.</span><span class="sxs-lookup"><span data-stu-id="93bb5-p102">Ending date and time for the log entries to be searched. Specified in local time zone.</span></span>  <br/> |
+|<span data-ttu-id="93bb5-130">FileName</span><span class="sxs-lookup"><span data-stu-id="93bb5-130">FileName</span></span>  <br/> |<span data-ttu-id="93bb5-131">Obligatorio</span><span class="sxs-lookup"><span data-stu-id="93bb5-131">Required</span></span>  <br/> |<span data-ttu-id="93bb5-132">System.String</span><span class="sxs-lookup"><span data-stu-id="93bb5-132">System.String</span></span>  <br/> |<span data-ttu-id="93bb5-133">Especifica la ruta completa del archivo de texto que contiene los resultados de la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="93bb5-133">Specifies the full path of the text file containing the search results.</span></span>  <br/> |
    
-## <a name="input-types"></a><span data-ttu-id="7eeb2-134">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="7eeb2-134">Input Types</span></span>
-<span data-ttu-id="7eeb2-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-135"></span></span>
+## <a name="input-types"></a><span data-ttu-id="93bb5-134">Tipos de entrada</span><span class="sxs-lookup"><span data-stu-id="93bb5-134">Input Types</span></span>
+<span data-ttu-id="93bb5-135"><a name="InputTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-135"></span></span>
 
-<span data-ttu-id="7eeb2-p103">Ninguno. El cmdlet Search-CcLog acepta entradas canalizadas.</span><span class="sxs-lookup"><span data-stu-id="7eeb2-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
+<span data-ttu-id="93bb5-p103">Ninguno. El cmdlet Search-CcLog acepta entradas canalizadas.</span><span class="sxs-lookup"><span data-stu-id="93bb5-p103">None. The Search-CcLog cmdlet does not accept pipelined input.</span></span>
   
-## <a name="return-types"></a><span data-ttu-id="7eeb2-138">Tipos de valores devueltos</span><span class="sxs-lookup"><span data-stu-id="7eeb2-138">Return Types</span></span>
-<span data-ttu-id="7eeb2-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-139"></span></span>
+## <a name="return-types"></a><span data-ttu-id="93bb5-138">Tipos de valores devueltos</span><span class="sxs-lookup"><span data-stu-id="93bb5-138">Return Types</span></span>
+<span data-ttu-id="93bb5-139"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-139"></span></span>
 
-<span data-ttu-id="7eeb2-140">Ninguno</span><span class="sxs-lookup"><span data-stu-id="7eeb2-140">None</span></span>
+<span data-ttu-id="93bb5-140">Ninguno</span><span class="sxs-lookup"><span data-stu-id="93bb5-140">None</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="7eeb2-141">Consulte también</span><span class="sxs-lookup"><span data-stu-id="7eeb2-141">See also</span></span>
-<span data-ttu-id="7eeb2-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="7eeb2-142"></span></span>
+## <a name="see-also"></a><span data-ttu-id="93bb5-141">Consulte también</span><span class="sxs-lookup"><span data-stu-id="93bb5-141">See also</span></span>
+<span data-ttu-id="93bb5-142"><a name="ReturnTypes"> </a></span><span class="sxs-lookup"><span data-stu-id="93bb5-142"></span></span>
 
-[<span data-ttu-id="7eeb2-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="7eeb2-143">Start-CcLogging</span></span>](start-cclogging.md)
+[<span data-ttu-id="93bb5-143">Start-CcLogging</span><span class="sxs-lookup"><span data-stu-id="93bb5-143">Start-CcLogging</span></span>](start-cclogging.md)
   
-[<span data-ttu-id="7eeb2-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="7eeb2-144">Stop-CcLogging</span></span>](stop-cclogging.md)
+[<span data-ttu-id="93bb5-144">Stop-CcLogging</span><span class="sxs-lookup"><span data-stu-id="93bb5-144">Stop-CcLogging</span></span>](stop-cclogging.md)
   
 

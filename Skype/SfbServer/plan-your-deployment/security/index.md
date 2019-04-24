@@ -1,9 +1,11 @@
 ---
-redirect_url: security
-redirect_document_id: ''
-ms.openlocfilehash: 29d8f623bfd5d5611f04887c8f5985bd08df3e90
-ms.sourcegitcommit: 7d819bc9eb63bfd85f5dada09f1b8e5354c56f6b
+redirect_url: overview
+redirect_document_id: true
+localization_priority: Normal
+ms.openlocfilehash: 546ece5a925c6ab2c90b42494b76095df80f6512
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32206081"
 ---

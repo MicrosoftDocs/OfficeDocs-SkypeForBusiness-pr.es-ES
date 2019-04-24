@@ -1,9 +1,11 @@
 ---
-redirect_url: ms.lync.tb.None
+redirect_url: overview
 redirect_document_id: true
-ms.openlocfilehash: 35382efc07f9cf9b5e1ebbeb48043d0c66b7c4e4
-ms.sourcegitcommit: e577b4bdf3827fdfaf4482928adde177a64e4406
+localization_priority: Normal
+ms.openlocfilehash: 34907e010c1dba922fcf6c10442343118e2f23d4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32202437"
 ---

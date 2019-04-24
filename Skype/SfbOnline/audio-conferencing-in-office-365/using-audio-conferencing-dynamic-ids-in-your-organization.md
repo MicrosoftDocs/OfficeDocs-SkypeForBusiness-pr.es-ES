@@ -25,9 +25,9 @@ redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-
 redirect_document_id: true
 description: ''
 ms.openlocfilehash: adea717fe439dbe31b340726a74340ae0de2e0d0
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23885684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32203271"
 ---
