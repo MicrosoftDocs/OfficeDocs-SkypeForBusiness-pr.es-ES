@@ -1,7 +1,7 @@
 ---
 title: Agregar bots para chats privados y canales en Microsoft Teams
-author: LolaJacobsen
-ms.author: lolaj
+author: LolaJacobsen, DamienDoumer
+ms.author: lolaj, Damien
 manager: serdars
 ms.date: 12/05/2018
 ms.topic: article
@@ -14,19 +14,19 @@ ms.reviewer: lucarras
 description: Obtenga más información sobre cómo agregar bots en Microsoft Teams para chats privados y canales, crear bots personalizados y transferir localmente su propio bot para chats privados.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d2b651e627f2b9375023984883562b1eaa696b1c
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.openlocfilehash: a4e921ea668fc59b520fdb068355db82bfe24481
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959173"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298527"
 ---
 <a name="add-bots-for-private-chats-and-channels-in-microsoft-teams"></a>Agregar bots para chats privados y canales en Microsoft Teams
 ==========================================================
 > [!IMPORTANT]
 > [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
-Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Bots permiten a los usuarios interactuar con servicios de nube como administración de tareas, programación y sondeo a través de las conversaciones de chat en Microsoft Teams. Bots para Microsoft Teams se basan en el [Marco de trabajo de Microsoft Bot](https://go.microsoft.com/fwlink/?linkid=854370). Los bots que se desarrollan mediante este marco de trabajo se puede habilitar fácilmente para Microsoft Teams. Para obtener más información, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md).
+Los bots son programas automatizados que responden a las consultas o dan actualizaciones y notificaciones sobre detalles que puedan resultar interesantes para los usuarios o sobre los que quieran mantenerse informados. Bots permiten a los usuarios interactuar con servicios de nube como administración de tareas, programación y sondeo a través de las conversaciones de chat en Microsoft Teams. Bots para Microsoft Teams se basan en el [Marco de trabajo de Microsoft Bot](https://go.microsoft.com/fwlink/?linkid=854370). Los bots que se desarrollan mediante este marco de trabajo se puede habilitar fácilmente para Microsoft Teams. Para obtener más información, vea [Administrar la configuración de Microsoft Teams para su organización](enable-features-office-365.md).
 
 Actualmente, Microsoft Teams admite bots en chats privados y canales dentro de un equipo. Los administradores pueden controlar si el uso de bots está permitido o prohibido en el inquilino de Office 365.<span id="_T-Bot" class="anchor"></span>
 
@@ -64,8 +64,14 @@ Los bots se pueden probar con [emulador de Bot Framework](https://go.microsoft.c
 
 Si desea compartir su bot con sus compañeros, aquí es cómo agregar a los canales de diferentes equipos:
 
-1. Cuando haya [creado un paquete de aplicación para su bot](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/apps/apps-upload), abra equipos y busque el equipo en el que se podrá ser lado carga el robot.
-2. Seleccione **más** (...) junto al nombre del equipo.
-3. Seleccione **Administrar equipo** y, a continuación, seleccione la pestaña de **aplicaciones** .
-4. En la parte inferior derecha de la pantalla, seleccione **carga una aplicación personalizada**.
+1. Cuando haya [creado un paquete de aplicación para su bot](https://docs.microsoft.com/microsoftteams/platform/concepts/apps/apps-upload), abra equipos y busque el equipo en el que se podrá ser lado carga el robot.
+2. Agregar **[Aplicación Studio](https://docs.microsoft.com/microsoftteams/platform/get-started/get-started-app-studio)**, aplicación a los equipos de Microsoft.
+3. En aplicación Studio, seleccione la ficha **Editor del manifiesto** ![de manifiesto de la captura de pantalla de ficha del Editor.](media/Adding_Bot_To_Teams.png)
+4. Para agregar su bot, en funciones, seleccione bot y elegido agregar un componente existente, a continuación, se tiene la opción de seleccionar un componente existente en el de una lista o escriba el identificador de uno de los bots existentes.
+![Seleccione su bot ya creado.](media/Select_Existing_Bot.png)
 5. Vaya a la ubicación del paquete de aplicación, selecciónelo y, a continuación, haga clic en **Abrir**.
+6. Seleccione nombre de su bot (no olvide comprobar la casilla de verificación "Equipo" en la sección ámbito)
+7. Seleccione la prueba y distribuir la opción.
+8. Seleccione el equipo donde desea conectar su bot a en el cuadro de diálogo que aparece.
+
+Con esto, su bot estará disponible en el equipo de su Team Microsoft.

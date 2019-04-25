@@ -10,7 +10,8 @@ ms.service: msteams
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
 ms.audience: Admin
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 f1keywords:
@@ -18,12 +19,12 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo obtener el estado de sus pedidos de puerto y obtenga información sobre las diferentes acciones que puede realizar en ellos. '
-ms.openlocfilehash: d33b44c589a2dce5c27271622b01f06056919903
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 916c87dde0ea85c6286e075cd21d0348beee58e6
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211674"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298464"
 ---
 # <a name="whats-the-status-of-my-port-orders-in-teams"></a>¿Cuál es el estado de mis solicitudes de portabilidad en Teams?
 

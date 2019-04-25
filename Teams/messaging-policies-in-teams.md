@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: 20c1354f168b5476733c95b49d3344364b8a6008
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f0dd52dac1bd2563a0ef5c500714ab63eeadf84d
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231786"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298456"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -86,7 +86,7 @@ Para cambiar la directiva de mensajería global o crear una nueva directiva pers
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 - **Permitir a envolvente lector para la visualización de mensajes** Activar esta opción sesión en permiten a los usuarios ver los mensajes en Microsoft Reader envolvente. Lector envolvente es una herramienta de aprendizaje que proporciona una experiencia para aumentar la legibilidad del texto de lectura a pantalla completa.
-- **Los usuarios pueden enviar las notificaciones de prioridad** Si desactiva esta, los usuarios pueden indicar la prioridad del mensaje.
+- **Los usuarios pueden enviar las notificaciones de prioridad** Si desactiva esta, los usuarios pueden enviar un mensaje que usa las notificaciones de prioridad. Las notificaciones de prioridad notificar a los usuarios varias veces durante un período de 20 minutos o hasta que se recogen los mensajes y leen el destinatario, maximizar la probabilidad de que el mensaje se selecciona y se realiza una acción de manera oportuna.
 - **Creación del mensaje de voz** 
     - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de voz en chats y canales.
     - **Permitido en chats sólo** Esto significa que los usuarios pueden dejar mensajes de voz en los chats, pero no en los canales.

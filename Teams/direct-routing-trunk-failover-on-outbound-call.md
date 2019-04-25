@@ -12,14 +12,15 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-appliesto: Microsoft Teams
+appliesto:
+- Microsoft Teams
 description: Lea este tema para obtener información sobre cómo controlar las conmutaciones por error de tronco en las llamadas salientes desde los equipos para el controlador de borde de sesión (SBC).
-ms.openlocfilehash: 1a40cc3fa94bfba3c637769774f5f5b829d29ed4
-ms.sourcegitcommit: 59eda0c17ff39a3e6632810391d78bbadc214419
+ms.openlocfilehash: b2da454097fcb0f0af91aefad987d195e9e0f912
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "30351109"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298559"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Conmutación por error de tronco en llamadas salientes
 
