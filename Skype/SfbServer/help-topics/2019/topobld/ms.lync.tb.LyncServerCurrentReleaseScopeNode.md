@@ -14,14 +14,14 @@ ms.assetid: 13e95afe-87bc-43bf-b842-0e25b3fce2da
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede crear nuevos roles de servidor en el nodo de Lync Server 2013 del generador de topología haciendo clic en con el botón secundario en Lync Server 2013, seleccione Nuevo y luego seleccione el rol de servidor que desea crear.
 ms.openlocfilehash: aa53e7a373a95e8f264a64aaac82bbcab47b0dcc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235423"
 ---
-# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="1d7e1-103">Skype para Business Server crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="1d7e1-103">Skype for Business Server Create New Expander</span></span>
+# <a name="skype-for-business-server-create-new-expander"></a><span data-ttu-id="9435e-103">Skype para Business Server crear nuevo expansor</span><span class="sxs-lookup"><span data-stu-id="9435e-103">Skype for Business Server Create New Expander</span></span>
  
-<span data-ttu-id="1d7e1-104">Puede crear nuevos roles de servidor en el generador de topología, bien **Skype para Business Server**, seleccione **nuevo**y seleccione el rol de servidor para crear.</span><span class="sxs-lookup"><span data-stu-id="1d7e1-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
+<span data-ttu-id="9435e-104">Puede crear nuevos roles de servidor en el generador de topología, bien **Skype para Business Server**, seleccione **nuevo**y seleccione el rol de servidor para crear.</span><span class="sxs-lookup"><span data-stu-id="9435e-104">You can create new server roles in the Topology Builder by right-clicking **Skype for Business Server**, selecting **New**, and selecting the server role to create.</span></span>
   
 

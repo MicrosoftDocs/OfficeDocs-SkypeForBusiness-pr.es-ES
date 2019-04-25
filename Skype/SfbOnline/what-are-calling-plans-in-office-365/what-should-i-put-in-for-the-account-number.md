@@ -22,32 +22,32 @@ ms.custom:
 - Calling Plans
 description: 'Vea lo que se debe incluir como un número de cuenta en Skype para la empresa y donde puede encontrar. '
 ms.openlocfilehash: 3f539b886e16eaa106347fbff113763fb451ddb5
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958245"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229609"
 ---
-# <a name="what-should-i-put-in-for-the-account-number"></a><span data-ttu-id="5d88d-103">¿Qué debería poner para el número de cuenta?</span><span class="sxs-lookup"><span data-stu-id="5d88d-103">What should I put in for the account number?</span></span>
+# <a name="what-should-i-put-in-for-the-account-number"></a><span data-ttu-id="e8d88-103">¿Qué debería poner para el número de cuenta?</span><span class="sxs-lookup"><span data-stu-id="e8d88-103">What should I put in for the account number?</span></span>
 
-<span data-ttu-id="5d88d-104">Normalmente, puede encontrar el número de cuenta en cualquier lista o factura que tienen desde su proveedor de servicios o la portadora o se puede iniciar sesión en sitio Web de su operador de telefonía.</span><span class="sxs-lookup"><span data-stu-id="5d88d-104">Typically, you can find the account number on any bill or invoice you have from your service provider or carrier, or you can log on to your carrier's website.</span></span> <span data-ttu-id="5d88d-105">Si aún no sabe el número de cuenta, puede ponerse en contacto con su proveedor de servicios o un operador para obtenerlo.</span><span class="sxs-lookup"><span data-stu-id="5d88d-105">If you still don't know the account number, you can contact your service provider or carrier to get it.</span></span>
+<span data-ttu-id="e8d88-104">Normalmente, puede encontrar el número de cuenta en cualquier lista o factura que tienen desde su proveedor de servicios o la portadora o se puede iniciar sesión en sitio Web de su operador de telefonía.</span><span class="sxs-lookup"><span data-stu-id="e8d88-104">Typically, you can find the account number on any bill or invoice you have from your service provider or carrier, or you can log on to your carrier's website.</span></span> <span data-ttu-id="e8d88-105">Si aún no sabe el número de cuenta, puede ponerse en contacto con su proveedor de servicios o un operador para obtenerlo.</span><span class="sxs-lookup"><span data-stu-id="e8d88-105">If you still don't know the account number, you can contact your service provider or carrier to get it.</span></span>
   
 > [!CAUTION]
->  <span data-ttu-id="5d88d-106">Es importante que asegurarse de que no use espacios, guiones o guiones al introducir su número de cuenta de las compañías aéreas o proveedor de servicio.</span><span class="sxs-lookup"><span data-stu-id="5d88d-106">It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.</span></span>
+>  <span data-ttu-id="e8d88-106">Es importante que asegurarse de que no use espacios, guiones o guiones al introducir su número de cuenta de las compañías aéreas o proveedor de servicio.</span><span class="sxs-lookup"><span data-stu-id="e8d88-106">It's important that you make sure you don't use spaces, dashes, or hyphens when entering your service provider or carrier account number.</span></span>
   
- <span data-ttu-id="5d88d-107">**Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="5d88d-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
+ <span data-ttu-id="e8d88-107">**Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span><span class="sxs-lookup"><span data-stu-id="e8d88-107">**For complete step-by-step instructions, see [Transfer phone numbers to Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="5d88d-108">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="5d88d-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
+> <span data-ttu-id="e8d88-108">Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).</span><span class="sxs-lookup"><span data-stu-id="e8d88-108">If you need to get more telephone numbers than this, please [contact support for business products - Admin Help](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)</span></span>
   
-## <a name="related-topics"></a><span data-ttu-id="5d88d-109">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="5d88d-109">Related topics</span></span>
-[<span data-ttu-id="5d88d-110">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="5d88d-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
+## <a name="related-topics"></a><span data-ttu-id="e8d88-109">Temas relacionados</span><span class="sxs-lookup"><span data-stu-id="e8d88-109">Related topics</span></span>
+[<span data-ttu-id="e8d88-110">Preguntas comunes sobre la transferencia de números de teléfono</span><span class="sxs-lookup"><span data-stu-id="e8d88-110">Transferring phone numbers common questions</span></span>](/microsoftteams/transferring-phone-numbers-common-questions)
 
-[<span data-ttu-id="5d88d-111">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="5d88d-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
+[<span data-ttu-id="e8d88-111">Diferentes tipos de números de teléfono que se usan para Planes de llamada</span><span class="sxs-lookup"><span data-stu-id="e8d88-111">Different kinds of phone numbers used for Calling Plans</span></span>](/microsoftteams/different-kinds-of-phone-numbers-used-for-calling-plans)
 
-[<span data-ttu-id="5d88d-112">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="5d88d-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
+[<span data-ttu-id="e8d88-112">Términos y condiciones de las llamadas de emergencia</span><span class="sxs-lookup"><span data-stu-id="e8d88-112">Emergency calling terms and conditions</span></span>](/microsoftteams/emergency-calling-terms-and-conditions)
 
-<span data-ttu-id="5d88d-113">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="5d88d-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
+<span data-ttu-id="e8d88-113">[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span><span class="sxs-lookup"><span data-stu-id="e8d88-113">[Skype for Business Online: Emergency Calling disclaimer label](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)</span></span>
 
   
  
