@@ -1,1 +1,1 @@
-Actualizamos con frecuencia el modo en el que puede gestionar las características de Skype for Business Online, por lo que los pasos incluidos aquí pueden diferir ligeramente.
+Actualizamos con frecuencia los métodos que se siguen para administrar las características de Skype Empresarial Online, por lo que los pasos que se incluyen aquí pueden diferir ligeramente.

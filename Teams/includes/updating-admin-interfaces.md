@@ -1,1 +1,1 @@
-Con frecuencia estamos actualizando cómo pueden administrar características, por lo que los pasos aquí podrían ser un poco diferentes de lo que se ve.
+Actualizamos con frecuencia los métodos que se siguen para administrar las características, por lo que los pasos que se incluyen aquí pueden diferir ligeramente de lo que usted ve. 
