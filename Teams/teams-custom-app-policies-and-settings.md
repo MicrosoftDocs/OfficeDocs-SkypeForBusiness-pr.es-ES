@@ -18,11 +18,11 @@ localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo administrar las directivas de aplicación personalizadas y la configuración para controlar quién en la organización puede cargar aplicaciones personalizadas de Microsoft Teams.
 ms.openlocfilehash: 3cbd517cdfe8066eebff0164457c8e2e3aa37a5d
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224641"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
@@ -69,7 +69,7 @@ Puede modificar la configuración de la directiva de aplicación global del prog
 2. Seleccione **nueva directiva**.
 3. Activar o desactivar la opción **Permitir la carga de aplicaciones personalizadas**.
 4. Elija las demás opciones que desee para la directiva.
-5. Haga clic en **Guardar**.
+5. Haga clic en **Guardar **.
 
 ### <a name="team-custom-app-setting"></a>Configuración de aplicación personalizada de equipo
 

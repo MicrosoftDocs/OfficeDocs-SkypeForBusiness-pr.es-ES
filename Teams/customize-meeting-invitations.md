@@ -18,11 +18,11 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Obtenga información sobre cómo incluir el logotipo, exención de responsabilidad legal y otra información en las invitaciones a las reunión.
 ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236049"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar invitaciones a reuniones en Microsoft Teams
 

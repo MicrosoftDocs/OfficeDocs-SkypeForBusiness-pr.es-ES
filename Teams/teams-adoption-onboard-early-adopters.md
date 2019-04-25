@@ -5,7 +5,7 @@ ms.author: karuanag
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
-ms.topic: article
+ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 415726bbc78fbc98b5e3eefa3cb1455f3ddee483
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 0225f439f8a8ffef245e94f5536251fb2ad43e94
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227055"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Incorporar usuarios pioneros y recopilar comentarios para Microsoft Teams
 
@@ -39,7 +39,7 @@ Complete los siguientes pasos con estos primeros usuarios:
 
 Utilice los componentes de Office 365 para recopilar comentarios para el proyecto.
   
-![Icono de Punto de decisión.](media/teams-adoption-decision-icon.png) Decisión: Si su organización ya tiene una inversión en una red de Yammer, que puede usarla como un área de votaciones para su programa de adopción temprana. Si no es así y su programa de adopción temprana de tiene menos de 2500 miembros, crear un equipo en los equipos para recopilar opiniones y proporcionar recursos de aprendizaje.
+![Icono de Punto de decisión.](media/teams-adoption-decision-icon.png) Decisión: Si su organización ya tiene una inversión en una red de Yammer, que puede usarla como un área de votaciones para su programa de adopción temprana. Si no es así y su programa de adopción temprana de tiene menos de 5000 miembros, crear un equipo en los equipos para recopilar opiniones y proporcionar recursos de aprendizaje.
   
 > [!Note]
 > Algunas organizaciones combinará los canales para temprana adopción en el equipo de programa de campeones de trabajo en equipo. Esto es un buen método debido a que muchos de los primeros usuarios pueden resultar Campeones en el futuro y generará una comunidad más potente. 

@@ -1,5 +1,5 @@
 ---
-title: Turnos para los equipos
+title: Turnos para Teams
 description: Obtenga la orientación de administración que necesita para configurar y administrar turnos, la herramienta de administración de programación, en los equipos.
 layout: LandingPage
 ms.topic: landing-page
@@ -13,13 +13,13 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013204"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245911"
 ---
-# <a name="shifts-for-teams"></a>Turnos para los equipos
+# <a name="shifts-for-teams"></a>Turnos para Teams
 
 Los equipos ofrece a los trabajadores de Firstline en su organización las herramientas que necesitan para comunicarse y colaborar eficazmente y realice el mejor trabajo. Aquí encontrará las instrucciones de administración que necesita para configurar y administrar turnos, la herramienta de administración de programación, en los equipos.
 

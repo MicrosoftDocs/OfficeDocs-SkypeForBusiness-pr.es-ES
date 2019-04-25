@@ -19,11 +19,11 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e3b51b56b8cc8a1f08d756cdab245915a2ac6824
-ms.sourcegitcommit: 7ca70e8a2108462afd505258b455169ead30f33f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31041945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226658"
 ---
 # <a name="use-microsoft-teams-scoped-directory-search"></a>Usar la búsqueda de directorios enfocada de Microsoft Teams
 

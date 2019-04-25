@@ -1,5 +1,5 @@
 ---
-title: Editar la configuración de los usuarios de Microsoft Teams de forma masiva
+title: Editar en bloque la configuración de los usuarios de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: jastark
@@ -16,11 +16,11 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4c1dfba0bdaec642b0ea078d7f10ba022c8514da
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31988976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245085"
 ---
 # <a name="edit-microsoft-teams-user-settings-in-bulk"></a>Editar la configuración de usuario de Microsoft Teams de forma masiva
 

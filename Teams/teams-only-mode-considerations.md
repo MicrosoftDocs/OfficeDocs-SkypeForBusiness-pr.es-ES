@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: dd0bf20219b8d213c354f5fc239ae3924a0d21c0
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649391"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226642"
 ---
 # <a name="teams-only-mode-considerations"></a>Consideraciones del modo Teams solo
 

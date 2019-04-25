@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 2e20971ec2c1b2b493428b4f37466d673a9f013f
-ms.sourcegitcommit: 27621c3ba369d2a54b092a3fa007e22c8a5030ef
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31038559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235898"
 ---
 <a name="enhance-existing-office-365-groups-with-microsoft-teams"></a>Mejorar los grupos existentes de Office 365 con Microsoft Teams
 =======================================================

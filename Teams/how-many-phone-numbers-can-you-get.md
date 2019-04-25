@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: Al obtener números de teléfono para su organización, puede obtener más números de teléfono que los que le corresponden por las licencias que tiene asignadas. Sin embargo, esto depende de los tipos de números de teléfono y del tipo de licencias que ha adquirido y asignado. Puede hacer clic en distintos tipos de números de teléfono utilizados para llamar a los planes para obtener información acerca de los números de teléfono diferentes que se usan en Skype para profesionales en línea.
 ms.openlocfilehash: d2eba9d9d12610ed93b1da3e322c297fd93424d6
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30640957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245524"
 ---
 # <a name="how-many-phone-numbers-can-you-get"></a>¿Cuántos números de teléfono puede obtener?
 

@@ -25,12 +25,12 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 023b04b6d7826913fc0946ff88dda5c247db92c0
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 697a822b70a93fc14b6bf0309167e4fc4c6e6a34
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245045"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 
@@ -79,7 +79,7 @@ A continuación, asignar las licencias de complemento E5 de la empresa o **Siste
     
 - [Precios de Audioconferencia](https://go.microsoft.com/fwlink/?linkid=799762)
     
-## <a name="for-more-information"></a>Para más información
+## <a name="for-more-information"></a>Más información
 
 A continuación presentamos más artículos que explican cómo configurar los planes de llamada:
   
@@ -94,7 +94,7 @@ A continuación presentamos más artículos que explican cómo configurar los pl
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el buzón de voz del Sistema telefónico: ayuda para los administradores](set-up-phone-system-voicemail.md)
+- [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamadas](set-up-calling-plans.md)
     

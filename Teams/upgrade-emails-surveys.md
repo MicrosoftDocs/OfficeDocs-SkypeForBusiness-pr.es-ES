@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 4832be7a89bbfc337fc481e213c67f69b179935e
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30460255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227586"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Muestra mensajes de correo electrónico y encuestas para las comunicaciones de actualización básica
 
@@ -222,7 +222,7 @@ Indicar el grado se encuentra al realizar las siguientes actividades en los equi
 
 **¿Con qué probabilidad va a recomendar Teams Microsoft a un compañero o amigo? (0 = no es probable en absoluto... 10 = extremadamente probable)**
 
-| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 | ---| --- | ---|---|---|---|---|---|---|---|---|
 |&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; |
 

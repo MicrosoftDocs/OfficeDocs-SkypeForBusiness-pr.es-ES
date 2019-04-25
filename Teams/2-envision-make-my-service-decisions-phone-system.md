@@ -1,7 +1,7 @@
 ---
 title: 'Tomar decisiones relacionadas con el servicio de Sistema telefónico con planes de llamada: Microsoft Teams'
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 98a66e0335daf0e74c96d0a2dad18f89bd1f4c5f
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242420"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 
@@ -176,11 +176,11 @@ De forma predeterminada, todas las llamadas salientes utilizan el número de tel
 > 
 > |Usuario  |Habilitar el enmascaramiento de identificador de autor de la llamada saliente  |Tipo de enmascaramiento de identificador de autor de la llamada  |Permitir invalidación de usuario  | Habilitar el enmascaramiento de identificador de autor de la llamada entrante  |
 > |---------|---------|---------|---------|---------|
-> |Emily Braun|No|N/D|No|No|
+> |Emily Braun|No|N/D|Sí|No|
 > |Lidia Holloway|Sí|Número de servicio (OrgAA, + 44 20 7946 0000)|No|Sí|
-> |Louis Lahr|No|N/D|No|No|
+> |Louis Lahr|No|N/D|Sí|No|
 > |Marcel Beauchamp|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
-> |Rachelle Cormier|Sí|Definir como anónimo|No|No|
+> |Rachelle Cormier|Sí|Definir como anónimo|Sí|No|
 > |Isabell Potvin|Sí|Número de servicio (OrgAA, TBA)|No|Sí|
 
 <!--ENDOFSECTION-->

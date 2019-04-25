@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: bbffca6a4f02df62eef394d27adc8dc5a05bbde8
-ms.sourcegitcommit: 1bb3bf4b16394aaa1fdf9bab8d766afe040b9aac
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31922696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246009"
 ---
 # <a name="assignments-in-teams-for-education"></a>Asignaciones en los equipos para el ámbito educativo
 

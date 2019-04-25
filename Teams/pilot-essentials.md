@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: de8041bb9557ec224c2ab2b3a5fa4f92de1280cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463583"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236733"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 
@@ -33,7 +33,7 @@ En este artículo forma parte de la fase de implementación y la implementación
 - [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
 - [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
 
-# <a name="conduct-a-user-pilot"></a>Realice a un piloto de usuario
+# <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
 
 Mediante la implementación de nuevas tecnologías, su organización puede obtener el valor de negocio como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y la eficacia operativa, pero también puede afectar a la productividad y (de infraestructura organizativa de los usuarios la red). Antes de habilitar la nueva tecnología en toda la organización, realice a un piloto de usuario formal. Al igual que haría pintar una revisión pequeña de color en una pared antes de pintar el salón de todo, ¿para probar una amplia implantación en una escala menor, llevar a cabo una prueba piloto para validar técnica y preparación del usuario, identificar y mitigar los problemas de y ayudar a garantizar una correcta implementación de toda la organización.
 

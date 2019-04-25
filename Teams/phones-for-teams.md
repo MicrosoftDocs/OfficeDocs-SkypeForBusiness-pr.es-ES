@@ -17,11 +17,11 @@ ms.collection:
 localization_priority: Normal
 description: En este artículo, se explica la lista de teléfonos que están certificados para Microsoft Teams y las características admitidas en los teléfonos certificados para Microsoft Teams.
 ms.openlocfilehash: a5ac86ee1eb5e6ae87c25f9a2151efb092635323
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246680"
 ---
 # <a name="phones-for-microsoft-teams"></a>Teléfonos para Microsoft Teams
 
@@ -38,27 +38,27 @@ Un conjunto de alto nivel de características admitidas en los equipos certifica
 |Características |Teléfono de escritorio (modo de Personal) |Teléfono de la sala de conferencia (modo compartido)|
 |---------|---------|---------|
 |**Autenticación** | |  |
-|Inicio de sesión con las credenciales del usuario |  Sí  | Sí |
+|Inicio de sesión con las credenciales del usuario |  Sí  | Sí|
 |Inicio de sesión utilizando PC o Smartphone  | Sí  |Sí|
-|Autenticación moderna | Sí  |Sí  |
-|Bloqueo o desbloqueo de teléfono | No |No |
+|Autenticación moderna | Sí  |Sí |
+|Bloqueo o desbloqueo de teléfono | Sí |No |
 |**Llamar a** |  |  |
-|Llamadas de P2P entrante/saliente | Sí   |Sí  |
-|Los controles a través de la interfaz de usuario (silencio, espera o reanudar, transferencia, Finalizar llamada) en la llamada| Sí   |Sí  |
-|Llamadas de RTC| Sí   |Sí  |
-|Correo de voz visual | No | No |
-|compatibilidad con 911  | Sí   |Sí  |
+|Llamadas de P2P entrante/saliente | Sí   |Sí |
+|Los controles a través de la interfaz de usuario (silencio, espera o reanudar, transferencia, Finalizar llamada) en la llamada| Sí   |Sí |
+|Llamadas de RTC| Sí   |Sí |
+|Correo de voz visual | Sí | No |
+|compatibilidad con 911  | Sí   |Sí |
 |**Calendario y presencia**|   | |
-|Acceso al calendario y detalles de la reunión|Sí  |Sí |
-|Integración de presencia |Sí|Sí |
-|Integración de calendario de Exchange |Sí |Sí |
-|Integración de imagen de contacto  |Sí |Sí |
-|Acceso al directorio corporativo | Sí |Sí |
+|Acceso al calendario y detalles de la reunión|Sí  |Sí|
+|Integración de presencia |Sí|Sí|
+|Integración de calendario de Exchange |Sí |Sí|
+|Integración de imagen de contacto  |Sí |Sí|
+|Acceso al directorio corporativo | Sí |Sí|
 |**Reuniones**|   ||
-|Unirse a un solo clic para las reuniones  | Sí   |Sí  |
-|Unirse a Skype para reuniones de negocios | Sí   | Sí |
-|Controles de llamada de la reunión (poner/Quitar silencio, espera o reanudar, colgar, agregar o quitar participante)|Sí |Sí |
-|Detalles de la reunión|No|No|
+|Unirse a un solo clic para las reuniones  | Sí   |Sí |
+|Unirse a Skype para reuniones de negocios | Sí   | Sí|
+|Controles de llamada de la reunión (poner/Quitar silencio, espera o reanudar, colgar, agregar o quitar participante)|Sí |Sí|
+|Detalles de la reunión|Sí|No|
 
 Estamos trabajando para agregar características para ayudar a los usuarios mejorar su experiencia de los equipos en los teléfonos de forma continua. Las capturas de pantalla que aparece a continuación muestran algunas de las experiencias que admitimos hoy en día.
 
@@ -145,7 +145,7 @@ Licencias de Microsoft Teams se pueden adquirir como parte de sus [suscripciones
 
 Para obtener más información acerca de cómo obtener los equipos, desproteger [¿cómo se puede obtener acceso a Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Catálogo de soluciones de los equipos](http://office.com/teamsdevices)
 

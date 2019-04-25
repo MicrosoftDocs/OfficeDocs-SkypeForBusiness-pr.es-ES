@@ -17,11 +17,11 @@ description: Obtenga información sobre cómo utilizar los informes de actividad
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 34ae95d405e9ab1f35c81db0d61ee48ba18141cf
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32224480"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================
@@ -53,7 +53,7 @@ Puede obtener una vista en la actividad de usuario de los equipos mirando en los
 
 ![Captura de pantalla del informe de actividad de usuario de los equipos en el centro de administración de Office 365 con llamadas numerada.](media/teams-user-activity-report-with-callouts.png)
 
-|Llamada |Descripción  |
+|Globo |Descripción  |
 |--------|-------------|
 |**1**   |El informe de actividad de usuario de los equipos se puede ver para las tendencias durante los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un intervalo de tiempo concreto en el informe, en la tabla (7) mostrará datos durante 30 días, hasta la fecha (2) para cuando se generó el informe. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
@@ -77,7 +77,7 @@ Puede obtener una vista en el uso de dispositivos de los equipos mirando en los 
 
 ![Captura de pantalla del informe de uso de dispositivos de los equipos en el centro de administración de Office 365 con llamadas numerada.](media/teams-device-usage-report-with-callouts.png)
 
-|Llamada |Descripción  |
+|Globo |Descripción  |
 |--------|-------------|
 |**1**   |El informe de dispositivos de los equipos se puede ver para las tendencias durante los últimos 7 días, 30 días, 90 días o 180 días. Sin embargo, si hace clic en un intervalo de tiempo concreto en el informe, en la tabla (7) mostrará datos durante 30 días, hasta la fecha (2) para cuando se generó el informe. |
 |**2**   |Cada informe tiene la fecha del momento en que se generó. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |

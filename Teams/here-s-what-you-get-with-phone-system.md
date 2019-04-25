@@ -23,11 +23,11 @@ ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
 ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245532"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -44,7 +44,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |||
 |:-----|:-----|
 |**Sistema de teléfono en la característica de Office 365** <br/> |**Descripción** <br/> |
-|[¿Cuáles son los operadores automáticos de la nube?](what-are-phone-system-auto-attendants.md) <br/> |Operadores automáticos en la nube se pueden usar para crear un sistema de menús para la organización que permite externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
+|[¿Qué son los operadores automáticos en la nube?](what-are-phone-system-auto-attendants.md) <br/> |Operadores automáticos en la nube se pueden usar para crear un sistema de menús para la organización que permite externo y mover los autores de llamadas internas a través de un sistema de menús para localizar y colocar o transferir las llamadas a los usuarios de la compañía o los departamentos de la organización.  <br/> |
 |Iniciar/responder llamadas (por nombre y número)  <br/> |Conteste llamadas entrantes con un toque y realice llamadas salientes ya sea marcando el número completo o haciendo clic en un nombre en Skype Empresarial u Outlook.  <br/> |
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Realice o conteste llamadas en nombre de un administrador que usted admita. Las notificaciones permiten a los participantes ver claramente cuándo se contesta o realiza una llamada en nombre de otra persona.  <br/> |
 |[Desvío de llamadas y llamada simultánea](https://support.office.com/article/967d9aaf-3fed-448b-ab96-40bbc9a11a20) <br/> |Estas características permiten establecer las reglas de desvío para que sus llamadas puedan ir a cualquier parte, y usted pueda desviar llamadas a colegas o al correo de voz.  <br/> |
@@ -52,7 +52,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |Llamada en espera/recuperar llamada  <br/> | Use esta característica cuando se produzcan varias llamadas al mismo tiempo. Al contestar la siguiente llamada entrante o realizar una llamada saliente, la llamada actual entra en espera automáticamente. <br/> |
 |[Transferir una llamada de Skype Empresarial](https://support.office.com/article/f9f312a3-ccc9-4215-86e8-8928b2df1f97) <br/> |Transfiere llamadas a otra persona. O bien, si necesita salir de la oficina, pero desea continuar la conversación, puede transferir las llamadas desde su teléfono IP o de PC a su teléfono móvil o Tablet PC.  <br/> |
 |Identificador de llamada  <br/> |Las llamadas desde dentro de la empresa muestran un identificador de llamada detallado que toma información del directorio de su empresa, y le muestra una imagen y el puesto en lugar de tan solo un número de teléfono.  <br/> |
-|[Crear una cola de llamada de nube](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera.  <br/> |
+|[Crear una cola de llamadas en la nube](/skypeforbusiness/what-is-phone-system-in-office-365/create-a-phone-system-call-queue) <br/> |Colas de llamada de nube incluyen el saludo que se usa cuando alguien llama a un número de teléfono para su organización, la capacidad de poner automáticamente las llamadas en espera y la capacidad de búsqueda para el siguiente agente de llamada disponibles controlar la llamada mientras las personas que son de llamada escucha música en espera.  <br/> |
 |[Informar cuando cambie el estado de un usuario](https://support.office.com/article/042a13d8-c815-4101-8b41-1e141b6bf6e9) <br/> | Esta característica le permite etiquetar personas que no están disponibles actualmente y recibir una notificación cuando su presencia cambie y estén listas para tomar llamadas telefónicas. <br/> |
 |Clientes de PC, Mac y Mobile  <br/> | Esto le ofrece características de llamada en dispositivos, desde tabletas y teléfonos móviles para PC y teléfonos de escritorio IP. <br/> |
 |Cambio de dispositivo  <br/> |Le permite reproducir su llamada o reunión en otro dispositivo.  <br/> |

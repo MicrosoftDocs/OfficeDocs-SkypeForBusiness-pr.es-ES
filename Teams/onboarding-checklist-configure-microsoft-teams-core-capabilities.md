@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación de incorporación para configurar las funciones principales de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 1341d80028022569aea199de4f175de23c03a8a9
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225566"
 ---
 # <a name="configure-microsoft-teams-core-capabilities"></a>Configurar la funcionalidad básica de Microsoft Teams
 

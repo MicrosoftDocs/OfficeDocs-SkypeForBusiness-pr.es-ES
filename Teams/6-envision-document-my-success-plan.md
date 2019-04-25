@@ -1,7 +1,7 @@
 ---
 title: Documentar su plan de éxito de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568475"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241535"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 

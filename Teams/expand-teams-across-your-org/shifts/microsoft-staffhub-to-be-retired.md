@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fcd7fcbc2de14f5ecf90ceffdaaafccab8ce2fc
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
+ms.openlocfilehash: d5e9857a04d1499e7ca9527044a2a66320291ac8
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043416"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245877"
 ---
 # <a name="microsoft-staffhub-to-be-retired"></a>Se retirará Microsoft StaffHub
 
@@ -32,7 +32,7 @@ Estos cambios son parte de nuestros esfuerzos continuos para permitir que todos 
 
 #### <a name="when-will-staffhub-be-retired"></a>¿Cuándo deben retirarse StaffHub?
 
-A partir de la mitad de 2019 abril, Microsoft StaffHub ya no estará disponible para los inquilinos nuevos y ya no podrá tener acceso a la aplicación desde el selector de la aplicación de Office 365. Los usuarios actuales todavía podrá usar el servicio hasta octubre 1,2019, sin embargo no hay características adicionales estarán disponibles.
+A partir de la mitad de 2019 abril, Microsoft StaffHub ya no estará disponible para los inquilinos nuevos y ya no podrá tener acceso a la aplicación desde el selector de la aplicación de Office 365. Los usuarios actuales todavía podrán utilizar el servicio hasta 1 de octubre de 2019, características adicionales sin embargo no estarán disponibles.
 
 #### <a name="what-will-happen-once-staffhub-is-retired"></a>¿Qué ocurrirá una vez que se ha retirado StaffHub?
 
@@ -64,7 +64,7 @@ La aplicación de turnos en los equipos es una herramienta de administración de
 
 Turnos está disponible como parte de los equipos en los siguientes planes sin ningún costo adicional:
 
-- Office 365 Business Premium 
+- Office 365 Empresa Premium 
 - Office 365 Enterprise F1, E1, E3, E5
 - Office 365 para el ámbito educativo
 - Microsoft 365 F1, E1, E3, E5

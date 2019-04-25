@@ -14,11 +14,11 @@ appliesto:
 ms.reviewer: ''
 description: Introducción a Teams para organizaciones sanitarias
 ms.openlocfilehash: 4ba465c69477f3e9ff6d541ddeb55dc41100b7ec
-ms.sourcegitcommit: 3000a661ac420eecd825a8285bdac7b744bd25da
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31959429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245893"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 

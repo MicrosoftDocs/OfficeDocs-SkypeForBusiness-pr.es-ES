@@ -17,11 +17,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649279"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227656"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 

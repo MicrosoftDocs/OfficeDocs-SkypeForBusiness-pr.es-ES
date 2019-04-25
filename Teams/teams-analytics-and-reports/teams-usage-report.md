@@ -3,7 +3,7 @@ title: Informe de uso de Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 03/12/2019
+ms.date: 04/24/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ MS.collection:
 description: Aprenda a usar el informe de uso de Teams en el centro de administración de Microsoft Teams para obtener información general sobre la actividad de Teams en su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0307d0b0d8c0d2501aa8f61693c4c9c01d30cc07
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.openlocfilehash: 8915b544dd2f1b2e07eaac94ef17abbee93a8caa
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30569937"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298735"
 ---
 # <a name="microsoft-teams-usage-report"></a>Informe de uso de Microsoft Teams
 

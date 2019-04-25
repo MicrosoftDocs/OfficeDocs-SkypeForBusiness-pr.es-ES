@@ -1,7 +1,7 @@
 ---
 title: Implementación de servicios de voz de nube de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 05/16/2018
 ms.topic: conceptual
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30568467"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242016"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 

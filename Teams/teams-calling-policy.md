@@ -1,5 +1,5 @@
 ---
-title: Llamar a las directivas de Microsoft Teams
+title: Directivas de llamadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
@@ -17,42 +17,21 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20dc75dfeb39fbd7a00e6c389dc923617265cc0b
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869809"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225003"
 ---
-<a name="calling-policies-in-microsoft-teams"></a>Llamar a las directivas de Microsoft Teams
+<a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
 ==========================================
 
 En Microsoft Teams, llamar al control de las directivas que la llamada a y las características de desvío de llamadas están disponibles para los usuarios. Las directivas de la llamada a determinan si un usuario puede realizar llamadas privadas, use el desvío de llamadas o llamadas a otros usuarios o números de teléfono externos simultáneas, enrutar las llamadas al correo de voz, enviar las llamadas a grupos de llamadas, delegación para las llamadas entrantes y salientes, y así sucesivamente. Una directiva global predeterminada se crea automáticamente, pero los administradores también pueden crear y asignar directivas de llamada personalizadas.
 
-## <a name="calling-policy-settings"></a>Configuración de la directiva de llamada
-
-|Configuración de directiva de llamada | Descripción |
-|-----------------------|-------------|
-|Usuario puede realizar llamadas privadas | Controla todas las capacidades de llamada en los equipos. Desactivación de esto va a desactivar toda la funcionalidad de llamada en los equipos.|
-|Desvío de llamadas y las llamadas simultáneas a otros usuarios | Controla si las llamadas entrantes pueden transferirse a otros usuarios o pueden llamar a otra persona al mismo tiempo. |
-|Desvío de llamadas y las llamadas simultáneas a números de teléfono externos | Controla si las llamadas entrantes se pueden reenviar a un número externo o pueden llamar a un número externo al mismo tiempo.|
-|Correo de voz está disponible para enrutar las llamadas entrantes a los usuarios | Permite las llamadas entrantes que se envíen al correo de voz. Las opciones válidas son **siempre activado**, **siempre deshabilitado**o **controlado de usuario**. |
-|Se pueden redirigir las llamadas entrantes para llamar a grupos | Controla si se pueden reenviar las llamadas entrantes a un grupo de llamada.  |
-|Permitir la delegación de las llamadas entrantes y salientes | Permite las llamadas entrantes deben enrutarse a delegados; permite a los delegados realizar llamadas salientes en nombre de los usuarios para quienes se delega permisos. |
-|Evitar el desvío de pago y enviar las llamadas a través de la RTC | Si se establece en **** va a enviar las llamadas a través de RTC e incurrir en los cargos en lugar de pasar por la red y omitir el cuotas. |
-|No disponible en no disponible está disponible mientras se encuentre en una llamada.| Configura las llamadas entrantes cómo se controlan cuando un usuario ya está en una llamada o conferencia. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. |
-
-### <a name="busy-options-busy-on-busy-setting"></a>Opciones de disponibilidad (no disponible en la configuración no disponible)
-
-Opciones de disponibilidad es un nuevo valor en los equipos que se administran las directivas de llamada que le permite configurar las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o se realiza una llamada en espera. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. Puede habilitar las opciones de disponibilidad en un nivel de inquilino o en un nivel de usuario. 
-
-Independientemente de cómo se configuran las opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se les impide iniciar nuevas llamadas o conferencias.
-
-Puede usar la disponibilidad en ocupado opción de configuración de la directiva de llamada para configurar las opciones de disponibilidad. Esta opción está deshabilitada de forma predeterminada.
-
 ## <a name="create-a-custom-calling-policy"></a>Crear una directiva llamada personalizada
 
-Siga estos pasos para crear una nueva directiva llamada personalizada.
+Siga estos pasos para crear una directiva llamada personalizada.
 
 1. En el centro de administración de Microsoft Teams, seleccione **voz** > **Directiva de llamada**.
 2. Seleccione **nueva directiva**.
@@ -79,3 +58,44 @@ Siga estos pasos para asignar una directiva personalizada que llama a un usuario
 3. En el panel **Administrar usuarios** , buscar el nombre del usuario. (Debe escribir al menos tres caracteres).
 4. Seleccione el nombre del usuario y, a continuación, seleccione **Agregar**.
 5. Seleccione **Guardar**.
+
+## <a name="calling-policy-settings"></a>Configuración de la directiva de llamada
+
+Use la siguiente configuración para crear una directiva llamada personalizada.
+
+### <a name="user-can-make-private-calls"></a>Usuario puede realizar llamadas privadas
+
+Esta configuración controla todas las capacidades de llamada en los equipos. Desactivar para desactivar la opción toda la funcionalidad de llamada en los equipos.
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-other-users"></a>Desvío de llamadas y las llamadas simultáneas a otros usuarios
+
+Esta configuración controla si las llamadas recibidas pueden transferirse a otros usuarios o pueden llamar a otra persona al mismo tiempo. 
+
+### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Desvío de llamadas y las llamadas simultáneas a números de teléfono externos
+
+Esta configuración controla si las llamadas recibidas pueden transferirse a un número externo o pueden llamar a un número externo al mismo tiempo.
+
+### <a name="voicemail-is-available-for-routing-inbound-calls-to-users"></a>Correo de voz está disponible para enrutar las llamadas entrantes a los usuarios
+
+Esta configuración permite que las llamadas entrantes que se envíen al correo de voz. Las opciones válidas son:
+
+   - **Siempre habilitado** Correo de voz siempre está disponible para las llamadas entrantes. 
+   - **Siempre deshabilitado**  Correo de voz no está disponible para las llamadas entrantes. 
+   - **Controla el usuario**. Los usuarios pueden determinar si desean enviar correo de voz para que esté disponible.
+
+### <a name="inbound-calls-can-be-routed-to-call-groups"></a>Se pueden redirigir las llamadas entrantes para llamar a grupos 
+
+Esta configuración controla si se pueden reenviar las llamadas entrantes a un grupo de llamada.
+
+### <a name="allow-delegation-for-inbound-and-outbound-calls"></a>Permitir la delegación de las llamadas entrantes y salientes
+
+Esta configuración permite que las llamadas entrantes se enrutan a los delegados, permitir que los delegados realizar llamadas salientes en nombre de los usuarios para quienes se delega permisos. Para obtener más información, vea [compartir una línea telefónica con un delegado](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8).
+
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Evitar el desvío de pago y enviar las llamadas a través de la RTC 
+
+Si se establece en **** va a enviar las llamadas a través de la RTC e incurrir en los cargos en lugar de enviarlos a través de la red y omitir el cuotas.
+
+### <a name="busy-on-busy-is-available-while-in-a-call"></a>No disponible en no disponible está disponible mientras se encuentre en una llamada
+
+No disponible en no disponible (las opciones de disponibilidad)) es un nuevo valor en los equipos que se administran las directivas de llamada que le permite configurar las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada se pondrá en espera. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. Puede habilitar las opciones de disponibilidad en un nivel de inquilino o en un nivel de usuario. Independientemente de cómo se configuran las opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se les impide iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
+

@@ -23,11 +23,11 @@ ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de servicios de telefonía tradicional y cómo realizar una llamada. '
 ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32244458"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 

@@ -1,5 +1,5 @@
 ---
-title: Equipos de la infraestructura de escritorio virtualizado
+title: Teams para la infraestructura de escritorio virtualizada
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
@@ -16,13 +16,13 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c351e0cefc5e4de4ff74a175af4dee064bf96f3f
-ms.sourcegitcommit: 946c77b847c1b2c5c43802ecfb0a918fa4f562d9
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "31869833"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223427"
 ---
-# <a name="teams-for-virtualized-desktop-infrastructure"></a>Equipos de la infraestructura de escritorio virtualizado
+# <a name="teams-for-virtualized-desktop-infrastructure"></a>Teams para la infraestructura de escritorio virtualizada
 
 En este artículo se describen los requisitos y limitaciones para el uso de Microsoft Teams en un entorno virtualizado.
 
@@ -171,7 +171,7 @@ Con las diversas cargas de trabajo y las necesidades del usuario en un entorno v
 |---------|---------|
 |vCPU    |  2 núcleos       |
 |MEMORIA RAM     |  4 GB      |
-|Almacenamiento de información     | 8 GB       |
+|Almacenamiento     | 8 GB       |
 
 ### <a name="virtual-machine-operating-system-requirements"></a>Requisitos de sistema operativo de la máquina virtual
 

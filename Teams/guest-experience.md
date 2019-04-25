@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236424"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -56,19 +56,19 @@ En la siguiente tabla muestra las características llamadas y convocatorias de r
 
 | Característica de llamada | Invitado | Usuario E1 y E3 | Usuario E5 y EV |
 | --------------- | ----- | -------------- | -------------- |
-| Llamadas de VOIP | Sí | Sí  | Sí  |
-| Llamada de grupo | Sí | Sí  | Sí  |
-| Los controles de llamada principal compatible (suspensión, vídeo silencio, activado/desactivado, uso compartido de pantalla) | Sí | Sí  | Sí  |
-| Destino de transferencia | Sí | Sí  | Sí  |
-| Puede transferir una llamada | Sí | Sí  | Sí  |
-| Puede a transferencia con consulta | Sí | Sí  | Sí  |
-| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí  | Sí  |
+| Llamadas de VOIP | Sí | Sí | Sí |
+| Llamada de grupo | Sí | Sí | Sí |
+| Los controles de llamada principal compatible (suspensión, vídeo silencio, activado/desactivado, uso compartido de pantalla) | Sí | Sí | Sí |
+| Destino de transferencia | Sí | Sí | Sí |
+| Puede transferir una llamada | Sí | Sí | Sí |
+| Puede a transferencia con consulta | Sí | Sí | Sí |
+| Puede agregar otros usuarios a una llamada a través de VOIP | Sí | Sí | Sí |
 | Puede agregar usuarios por número de teléfono a una llamada | No | No | Sí |
-| Destino hacia delante | No | Sí | Sí  |
-| Destino de grupo de llamada | No | Sí | Sí  |
-| Destino no respondida | No | Sí | Sí  |
-| Puede ser el destino de una llamada federada | No | Sí | Sí  |
-| Puede realizar una llamada federada | No | Sí | Sí  |
+| Destino hacia delante | No | Sí | Sí |
+| Destino de grupo de llamada | No | Sí | Sí |
+| Destino no respondida | No | Sí | Sí |
+| Puede ser el destino de una llamada federada | No | Sí | Sí |
+| Puede realizar una llamada federada | No | Sí | Sí |
 | Inmediatamente se puede desviar sus llamadas | No | No | Sí |
 | Puede llamar simultáneamente a sus llamadas | No | No | Sí |
 | Puede enrutar sus llamadas no respondidas | No | No | Sí |
@@ -88,7 +88,7 @@ En la siguiente tabla muestra las características llamadas y convocatorias de r
 > [!NOTE]
 > Los administradores de Office 365 controlan las características que tienen a su disposición los invitados. 
  
-## <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+## <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
  
