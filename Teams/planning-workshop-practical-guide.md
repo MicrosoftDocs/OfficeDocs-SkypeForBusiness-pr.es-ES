@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04bee65e6d2c21b6e2857d44a50bae497b251d5b
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
+ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463959"
+ms.lasthandoff: 04/24/2019
+ms.locfileid: "32453518"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 
@@ -48,6 +48,6 @@ Descargue estas herramientas que le ayudarán en la planificación, la entrega y
 
 [Preparación de administradores de TI para Microsoft Teams](ITAdmin-readiness.md)
 
-[Herramientas para ayudar con el lanzamiento de Microsoft Teams](rollout-tools.md)
+[Herramientas para la adopción](adopt-tools-and-downloads.md)
 
 

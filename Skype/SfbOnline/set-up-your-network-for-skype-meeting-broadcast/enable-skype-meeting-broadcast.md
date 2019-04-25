@@ -17,17 +17,17 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Antes de que los miembros de su organización puedan usar Difusión de reunión de Skype, usted deberá habilitarla. Para llevar a cabo este paso, tiene que saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
+description: Antes de que las personas de su organización pueden usar Difundir presentación de reunión de Skype, debe habilitarlo. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
 ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226823"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
-[] Antes de que los miembros de su organización puedan usar Difusión de reunión de Skype, usted deberá habilitarla. Para llevar a cabo este paso, tiene que saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
+Antes de que las personas de su organización pueden usar Difundir presentación de reunión de Skype, debe habilitarlo. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
@@ -78,7 +78,7 @@ ms.locfileid: "25370867"
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Puede confirmar que la opción está habilitada volviendo a ejecutar  `Get-CsBroadcastMeetingConfiguration`.
+    Puede confirmar que la configuración está habilitada mediante la ejecución de `Get-CsBroadcastMeetingConfiguration` nuevo.
     
      ![Habilitar cmdlet de organización en una Difusión de reunión de Skype.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   
@@ -95,7 +95,7 @@ Si no tiene experiencia con la configuración del firewall, analice contratar un
   
 Para omitir este paso y, en su lugar, agregar otra empresa a su federación, siga los pasos en [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](../set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users.md). 
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

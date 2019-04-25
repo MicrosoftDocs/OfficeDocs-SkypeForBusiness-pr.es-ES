@@ -14,11 +14,11 @@ ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La página de estado de solicitud de certificado en línea presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificados de servidor empresarial. Si hace clic en Finalizar, el certificado se asignará automáticamente a Skype para Business Server con el fin de que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:'
 ms.openlocfilehash: 70868129dc759e19960d2f6d9e3a9a1dc3d2f941
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216371"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificado (devuelto)
  

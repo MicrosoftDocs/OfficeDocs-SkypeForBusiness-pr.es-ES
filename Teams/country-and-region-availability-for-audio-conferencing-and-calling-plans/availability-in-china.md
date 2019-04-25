@@ -26,11 +26,11 @@ ms.custom:
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para China.
 ms.openlocfilehash: fa2a73cfb3ae553dfae9d52b8f441c759ea904d6
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542994"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248178"
 ---
 # <a name="availability-in-china"></a>Disponibilidad en China
 

@@ -24,11 +24,11 @@ ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
 ms.openlocfilehash: 15f89c32e6ba2c6914ab7fe6d97e75a11459a7f3
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223356"
 ---
 # <a name="toll-free-dialing-restrictions-in-bosnia-and-herzegovina"></a>Restricciones de marcado de número gratuito en Bosnia y Herzegovina
 

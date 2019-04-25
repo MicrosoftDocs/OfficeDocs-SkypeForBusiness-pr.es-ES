@@ -14,11 +14,11 @@ ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
 ms.openlocfilehash: 004930723ab8376f9e0cc1c916d1814e3321594a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235283"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Publicar página de topología Crear base de datos de reflejo
  

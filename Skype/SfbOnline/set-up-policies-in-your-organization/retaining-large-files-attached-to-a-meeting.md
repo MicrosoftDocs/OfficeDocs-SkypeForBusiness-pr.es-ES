@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Puede adjuntar archivos a un Skype para la reunión de negocios, qué participantes, a continuación, pueden abrir y descargan. Archivos adjuntos a Skype para reuniones de negocios se conservan en los buzones de correo de cualquier participante cuyo buzón de correo se pondrá en suspensión por litigio, tiene aplicada una directiva de retención de Office 365 o se coloca en una espera asociada con un caso de exhibición de documentos electrónicos en la seguridad de Office 365 &amp; Centro de cumplimiento. Este contenido se guarda en las carpetas de elementos recuperables de los participantes en sus buzones de correo.
 ms.openlocfilehash: f9a18aaf556427ccc1fad2700b40f40ff057be6a
-ms.sourcegitcommit: baa4ecf69bdcf499b5b724246f3e9f45c6ca3b7b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/08/2018
-ms.locfileid: "25450460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237522"
 ---
 # <a name="retaining-large-files-attached-to-a-skype-for-business-meeting"></a>Conservación de grandes archivos adjuntos a un Skype para la reunión de negocios
 

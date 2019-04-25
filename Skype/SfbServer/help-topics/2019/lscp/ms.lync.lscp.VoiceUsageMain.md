@@ -14,11 +14,11 @@ ms.assetid: 08d7877d-0ef4-4630-b6b0-ee76cbe4ce25
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 304290dfcfe5d93c263887bb28327b44cf1de3d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221500"
 ---
 # <a name="pstn-usage"></a>Uso de RTC
 

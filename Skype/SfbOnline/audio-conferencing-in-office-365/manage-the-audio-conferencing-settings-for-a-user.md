@@ -21,18 +21,18 @@ ms.custom:
 - Audio Conferencing
 description: 'Como un administrador de Office 365, puede editar la configuración de Audioconferencia de Skype for Business Online, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. '
 ms.openlocfilehash: 06fd99987df725e235f308af20542fa45b0286fd
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23886405"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229629"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Administrar la configuración de conferencia de Audio para un usuario en Skype para profesionales en línea
 
 > [!Note]
 > Si desea administrar la configuración de usuario en Microsoft Teams, consulte [Administrar la configuración de conferencia de Audio para un usuario en los equipos de Microsoft](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams).
 
-Como un administrador de Office 365, puede editar la configuración de Audioconferencia, como por ejemplo el proveedor, el número gratuito o de pago predeterminado, el identificador de conferencia o el PIN, de un usuario individual en la organización. Si desea editar la configuración de la organización, vea [Administrar la configuración de conferencia de Audio de mi organización](manage-the-audio-conferencing-settings-for-my-organization.md).
+As an Office 365 admin, you can edit the Audio Conferencing settings—such as the provider, default toll or toll-free number, conference ID, or PIN—for an individual user in your organization. If you want to edit settings for your organization, see [Manage the Audio Conferencing settings for my organization](manage-the-audio-conferencing-settings-for-my-organization.md).
 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -48,12 +48,12 @@ Como un administrador de Office 365, puede editar la configuración de Audioconf
 |**Configuración**|**Descripción**|
 |:-----|:-----|
 |**Nombre del proveedor** <br/> |Elija su proveedor de la lista.  <br/><br/> **Nota:** Los demás valores de configuración de esta tabla se aplican solo si selecciona Microsoft como el proveedor de audioconferencia.           |
-|**Número de teléfono de pago predeterminado** (obligatorio) <br/> |Para los proveedores externos, estos números de teléfono son los que le proporcionó el proveedor de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
-|**Número de teléfono gratuito predeterminado** <br/> |Para los proveedores externos, estos números de teléfono son los que le proporcionó el proveedor de audioconferencia. Si el usuario utiliza Microsoft como proveedor de audioconferencia, estos serán los números establecidos en el puente de audioconferencia. Dar formato a los números tal como desea que aparezca en Skype para las convocatorias de reunión de Microsoft Teams y profesionales.  <br/> |
+|**Número de teléfono de pago predeterminado** (obligatorio) <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
+|**Número de teléfono gratuito predeterminado** <br/> |For a third-party providers, these phone numbers are the ones you received from the audio conferencing provider. If the user is using Microsoft as the audio conferencing provider, these will be numbers that are set on the audio conferencing bridge. Format the numbers as you want them to appear in Skype for Business and Microsoft Teams meeting requests.  <br/> |
 |**Permitir el uso de los números gratuitos en el puente de Microsoft de su organización para unirse a las reuniones de este usuario** <br/> |Seleccione esta opción si desea permitir el uso de números gratuitos para unirse a reuniones.  <br/> |
-|**Enviar información de conferencia a través de correo electrónico** <br/> |Haga clic en este vínculo solo si desea enviar inmediatamente un correo electrónico al usuario con su número de teléfono e Id. de conferencia. (Este correo electrónico no incluye el PIN). Vea [Enviar un correo electrónico a un usuario con su información de Audioconferencia](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
-|**Id. de conferencia** <br/> |Seleccione **Restablecer** si desea restablecer el Id. de conferencia para el usuario. Para obtener más información, consulte [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md).  <br/> |
-|**PIN** <br/> |Seleccione **Restablecer** si desea restablecer el PIN para el usuario. Para obtener más información, vea [Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin.md).  <br/> |
+|**Enviar información de conferencia a través de correo electrónico** <br/> |Click this link only if you want to immediately send an email to the user with his or her conference ID and phone number. (This email does not include the PIN.) See [Send an email to a user with their Audio Conferencing information](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
+|**Id. de conferencia** <br/> |Select **Reset** if you need to reset the conference ID for the user. For more information, see [Reset a conference ID for a user](reset-a-conference-id-for-a-user.md).  <br/> |
+|**anclar** <br/> |Select **Reset** if you need to reset the PIN for the user. For more information, see [Reset the Audio Conferencing PIN](reset-the-audio-conferencing-pin.md).  <br/> |
 |**Permitir que los autores de llamadas sin autenticar sean las primeras personas en una reunión** <br/> |Seleccione esta opción para permitir que los autores de llamadas sin autenticar sean los primeros en unirse a las reuniones.  <br/> |
 |**Restricciones al marcado de salida desde reuniones de este usuario** <br/> |Si desea restringir el marcado de salida solo a llamadas nacionales, o si desea impedir completamente el marcado de salida de las reuniones, seleccione una opción de la lista.  <br/> |
   

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype para profesionales de 2015 herramienta de esfuerzo y rendimiento preguntas más frecuentes (P+F), útiles para averiguar qué configuraciones de la herramienta son compatibles, solución de problemas de la herramienta y clarificar comportamientos que puede ver al que ejecute las herramientas de esfuerzo y rendimiento .
 ms.openlocfilehash: f71ff02d1bcb6bb858aa4e00144e55bf43c4cbd5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873453"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236126"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Preguntas más frecuentes para la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
  

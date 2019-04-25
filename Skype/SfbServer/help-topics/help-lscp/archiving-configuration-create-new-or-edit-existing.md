@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Las configuraciones de archivado sirven para controlar las opciones de archivado de su implementación. Las configuraciones de archivado constan de la configuración global y, de forma opcional, de una o varias configuraciones de sitio y grupo:'
 ms.openlocfilehash: 2167b0ccc65a9bfc6ae731add156fa0b0925eaf2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890665"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234848"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nueva o editar existente
  

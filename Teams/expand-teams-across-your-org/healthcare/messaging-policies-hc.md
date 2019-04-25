@@ -1,5 +1,5 @@
 ---
-title: Empezar a trabajar con mensajería segura para las organizaciones de salud
+title: Introducción a la mensajería segura para las organizaciones sanitarias
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -12,19 +12,19 @@ MS.collection: Teams_ITAdmin_PracticalGuidance
 appliesto:
 - Microsoft Teams
 ms.reviewer: ''
-description: Empezar a trabajar con mensajería segura para las organizaciones de salud
-ms.openlocfilehash: 58e19cd5f8e39e05b2b2178bcf4062260546e509
-ms.sourcegitcommit: 355bcdafa58b6349bb6bc771054f4c9c91387a81
+description: Introducción a la mensajería segura para las organizaciones sanitarias
+ms.openlocfilehash: 2de10ef2d36dce991e6f1cd122a624e17ff7a918
+ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013792"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33298687"
 ---
-# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Empezar a trabajar con mensajería segura para las organizaciones de salud
+# <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
 Las directivas de mensajería se usan para controlar qué chat y canal de características de mensajería están disponibles para los usuarios de Microsoft Teams y forman parte de la implementación general de mensajería segura para las organizaciones de salud como hospitales, clínicas u oficinas médicas, donde con un mensaje de recogida y actuar de manera oportuna es crucial, como es saber cuándo se leen los mensajes cruciales.
 
-Puede usar la directiva predeterminada o crear una o varias directivas de mensajería personalizadas para las personas de su organización. Después de crear una directiva, tendrá que asignarla a un usuario o grupos de usuarios de la organización. Por ejemplo, puede permitir que solo determinadas funciones de trabajo usar estas características (quizás médicos y enfermeras sólo) y otros trabajadores (al igual que el personal de Portería o cocinas) para obtener un conjunto más limitado de características. Decidir por sí mismo qué las necesidades de su organización tiene, como máximo, las instrucciones aquí son una sugerencia.
+Puede usar la directiva predeterminada o bien crear una o más directivas de mensajería personalizadas para los miembros de su organización. Después de crear una directiva, tendrá que asignarla a un usuario o grupos de usuarios de la organización. Por ejemplo, puede permitir que solo determinadas funciones de trabajo usar estas características (quizás médicos y enfermeras sólo) y otros trabajadores (al igual que el personal de Portería o cocinas) para obtener un conjunto más limitado de características. Decidir por sí mismo qué las necesidades de su organización tiene, como máximo, las instrucciones aquí son una sugerencia.
 
 Las directivas pueden administrarse fácilmente en el [Centro de administración de equipos de Microsoft](http://admin.teams.microsoft.com) , iniciar sesión con credenciales de administrador y elija **Las directivas de mensajería** en el panel de navegación izquierdo.
 
@@ -35,6 +35,8 @@ Para editar la directiva de mensajería predeterminado existente para su organiz
 ![Configuración de la directiva de mensajería de Healthcare](../../media/hc-message-policy.png)
 
 Los siguientes valores son de interés especial para aplicaciones de asistencia sanitaria y deben tenerse en cuenta al diseñar una directiva personalizada que se usa en el campo de asistencia sanitaria:
+
+## <a name="read-reciepts"></a>Cobro de lectura
 
 - ![número uno](../../media/sfbcallout1.png) confirmaciones de lectura de **las confirmaciones de lectura** permite al remitente de un mensaje de chat para saber cuándo su mensaje se ha leído el destinatario. Utilice esta opción para especificar si confirmaciones de lectura se usuario controlado, habilitado para todos los usuarios o deshabilitado para todos los usuarios. Mensaje leído confirmaciones son importantes en las organizaciones de salud debido a que también se quitan sin certeza sobre si se leyó un mensaje.
 
@@ -47,6 +49,8 @@ Los siguientes valores son de interés especial para aplicaciones de asistencia 
 
   *Ejemplo de uso con confirmaciones de lectura:* Jakob Roth, un paciente de alto riesgo, es admitido en el hospital.Sofía Krause es una enfermera trabajar como parte del equipo de entre granjas disciplinario (IDT) de los trabajadores del sector médico, incluyendo a especialistas diferentes, se asigna como el Coordinador de atención primaria encargado de este paciente.  Sofía inicia una conversación en grupo con un conjunto de los médicos y otros enfermeras que va a trabajar con el paciente para coordinar la atención y se inicia una evaluación de errores de emergencia.Los médicos y enfermeras comunican y colaboran en el plan de atención durante todo el proceso de coordinación de atención.  Importantes y urgentes los mensajes se envían a través de 1:1 y las conversaciones de chat de grupo. Sofía usa la funcionalidad de confirmaciones de lectura para determinar si puede enviar mensajes de solicitud de soporte técnico se entregan y leídos por el destino de los médicos o enfermeras. Los resultados del paciente Jakob son casi óptima y que va a particular antes debido a que su equipo de asistencia médica se comunica sin problemas.
 
+## <a name="priority-notifications"></a>Notificaciones de prioridad
+
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
 - ![número dos](../../media/sfbcallout2.png) **los usuarios pueden enviar las notificaciones de prioridad** Use esta opción para permitir a los usuarios enviar mensajes de chat de prioridad a otros usuarios. Esta característica ayuda a personal de alerta entre sí cuando un incidente crítico requiere su atención. A diferencia de los mensajes "importantes" regulares, las notificaciones de prioridad notificar a los usuarios varias veces durante un período de 20 minutos o hasta que se recogen los mensajes y leen el destinatario, maximizar la probabilidad de que el mensaje se selecciona y se realiza una acción de manera oportuna.
@@ -58,4 +62,4 @@ Los siguientes valores son de interés especial para aplicaciones de asistencia 
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Administrar directivas de mensajería de Teams](../../messaging-policies-in-teams.md)
-- [Empezar a trabajar con los equipos para las organizaciones de salud](teams-in-hc.md)
+- [Introducción a Teams para organizaciones sanitarias](teams-in-hc.md)

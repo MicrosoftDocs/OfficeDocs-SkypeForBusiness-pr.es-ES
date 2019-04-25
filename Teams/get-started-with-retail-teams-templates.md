@@ -1,5 +1,5 @@
 ---
-title: Introducción a las plantillas de equipos de venta por menor
+title: Introducción a las plantillas comerciales de Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
@@ -19,13 +19,13 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: e463061dca0633480124bbe91fb2e8e6f9f926f6
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245749"
 ---
-# <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas de equipos de venta por menor 
+# <a name="get-started-with-teams-templates-in-retail"></a>Introducción a las plantillas comerciales de Teams 
 
 Las plantillas de equipos permiten rápidamente y creación fácilmente los equipos, ya que proporciona una plantilla predefinida de configuración, canales y aplicaciones instaladas previamente.
 
@@ -58,7 +58,7 @@ La plantilla de administrador colaboración es otro una de las plantillas de los
 
 | Tipo de plantilla de base | baseTemplateId | Propiedades que se incluyen con esta plantilla de base |
 | ------------------ | -------------- | ----------------------------------------------------- |
-| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canales <ul><li>Operaciones\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar o eliminar canales </li><li>Puede agregar o quitar el aplicaciones </li><li>Puede crear/actualizar/quitar pestañas</li><li>Puede crear/actualizar/quitar conectores</li><ul>|
+| Venta por menor- <br>Almacén | `https://graph.microsoft.com/beta/`<br>`teamsTemplates('retailManagerCollaboration')`| Canales <ul><li>Operations\*</li><li>Recursos de aprendizaje\*</li></ul>\*Canales de automático favoritos<br><br>Propiedades de equipo <ul><li>Visibilidad de equipo establecida en privado</li></ul> <br>Permisos de miembro <ul><li>Puede crear, actualizar o eliminar canales </li><li>Puede agregar o quitar el aplicaciones </li><li>Puede crear/actualizar/quitar pestañas</li><li>Puede crear/actualizar/quitar conectores</li><ul>|
 ||||
 
 Se recomienda formas de personalizar la plantilla de colaboración de administrador para su organización:

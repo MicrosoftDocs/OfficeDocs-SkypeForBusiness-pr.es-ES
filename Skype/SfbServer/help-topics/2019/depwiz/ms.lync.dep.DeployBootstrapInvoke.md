@@ -14,11 +14,11 @@ ms.assetid: 1925db10-223e-4213-84cc-1de933878b28
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Los comandos ejecutar muestra un resumen de las tareas que se ejecutan para implementar la función de servidor que se está ejecutando. Una vez completadas las tareas: implementar y activar o desactivar y desinstalar un resumen se muestra. Además, en la lista desplegable, puede seleccionar cualquiera de los archivos de registro que se crean cuando se ejecutan los comandos. Use la lista desplegable para seleccionar el archivo de registro que desea ver y haga clic en Ver registro.'
 ms.openlocfilehash: 7cf9ba48be5cfe311dfd3c38046d8730942064a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216560"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components-invoke"></a>Instalar o quitar componentes de Skype Empresarial Server (invocar)
  

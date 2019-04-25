@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre los pasos para restablecer un usuario reunión de identificador de conferencia en Skype para profesionales en línea y get contiene vínculos a las herramientas de actualización y migración de la reunión. '
 ms.openlocfilehash: 748664ec8e6584adcbcb0630147f1bcd60be9482
-ms.sourcegitcommit: 17348a197c8ed76d587f3c3d0ff36c56414183f0
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30475799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229275"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-skype-for-business-online"></a>Restablecer un identificador de conferencia para un usuario en Skype para profesionales en línea
 
@@ -59,7 +59,7 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
     
 - El identificador de conferencia para un usuario para conferencias de audio se puede ver en la parte inferior del panel de acciones en **conferencias de Audio** cuando se selecciona el usuario en la página **usuarios** .
     
-- After a new conference ID is created, the old conference ID can't be used by callers. Debe notificar a los usuarios para que reprogramen sus invitaciones de reunión existentes para asegurarse de que se agrega a las invitaciones el nuevo Id. de conferencia. Los usuarios pueden utilizar Skype para la herramienta de reunión empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte:
+- After a new conference ID is created, the old conference ID can't be used by callers. You should notify users to reschedule their existing meeting invites to make sure the new conference ID is added to the invitations. Los usuarios pueden utilizar Skype para la herramienta de reunión empresarial para actualizar sus reuniones existentes. Para ver cómo descargar, instalar y ejecutar la Skype para la herramienta de actualización de reunión empresarial, consulte:
     
   - [Herramienta de actualización de reuniones para Skype y Lync](https://support.office.com/article/2b525fe6-ed0f-4331-b533-c31546fcf4d4)
     
@@ -83,6 +83,6 @@ Un identificador de conferencia dinámico se incluye en la parte inferior de las
     
   - [Usar Windows PowerShell para realizar tareas de administración comunes de Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525038)
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
-[Restablecer el PIN de conferencia de Audio](reset-the-audio-conferencing-pin.md)
+[Restablecer el PIN de Audioconferencia](reset-the-audio-conferencing-pin.md)

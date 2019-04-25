@@ -14,11 +14,11 @@ ms.assetid: 58bd0c10-f33a-451e-b131-bd251a1b8f50
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el cuadro de diálogo Editar directiva de movilidad, puede editar los detalles de una directiva de movilidad.
 ms.openlocfilehash: 0c10beff86078be294e39a32327b4562446d935d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893977"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215853"
 ---
 # <a name="edit-client-mobility-policy"></a>Editar directiva de movilidad de cliente
 
@@ -39,7 +39,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
 Para obtener información detallada acerca de las directivas de movilidad, vea [Directivas de movilidad](https://technet.microsoft.com/library/8caa5525-e16a-4e38-b3cd-acc0ae9ea375.aspx).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planeación de movilidad](https://technet.microsoft.com/library/12000359-09b5-48f0-986d-fab3a1487f9c.aspx)
 

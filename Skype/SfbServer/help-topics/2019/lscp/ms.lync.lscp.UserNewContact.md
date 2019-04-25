@@ -14,11 +14,11 @@ ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 ms.openlocfilehash: 4acb88c33ed914ff88971e05693235fe0f29a68c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876503"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214964"
 ---
 # <a name="users-new-contact-objects"></a>Usuarios: Nuevos objetos de contacto
 

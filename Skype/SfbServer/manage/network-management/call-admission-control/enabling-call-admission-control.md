@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: " Después de configurar la red de (CAC) del control de admisión de llamadas, debe habilitar el CAC para exigir la aplicación de las limitaciones de ancho de banda."
 ms.openlocfilehash: a683fe0f437fc1c3fa92784313135d094e43c8b1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32228410"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Habilitar el control de admisión de llamadas en Skype Empresarial Server
 
@@ -42,7 +42,7 @@ Al hacer clic en **Confirmar**, se ejecuta una prueba de la configuración. Cier
 
 Si realiza cambios en la configuración de red, puede ejecutar la comprobación de validación de nuevo abrir la configuración Global y haciendo clic en **Confirmar**. No es necesario deshabilitar el CAC en primer lugar: deje activada la casilla de verificación y haga clic en **Confirmar**. Puede hacerlo en cualquier momento, sin realizar ningún cambio de configuración.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planificar el servicio de control de admisión de llamadas](../../../plan-your-deployment/enterprise-voice-solution/call-admission-control.md) 
  

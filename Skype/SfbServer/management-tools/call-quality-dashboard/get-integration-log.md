@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 8856f6bc-5460-4f35-acf2-f7662f01579b
 description: 'Resumen: Obtenga información acerca de la operación obtener Log de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
 ms.openlocfilehash: e6d449a8ea973132b404e821f6a5d5f156e6ddd6
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897256"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217673"
 ---
 # <a name="get-integration-log"></a>Obtener integración de registro
  

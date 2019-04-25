@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5058347677b1c5baef6f01fefb1f8eca3ac4384
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461183"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246165"
 ---
-# <a name="microsoft-education-governance-faq-for-admins"></a>Gobierno de Microsoft Education preguntas más frecuentes para los administradores
+# <a name="microsoft-education-governance-faq-for-admins"></a>Preguntas frecuentes de la administración de Microsoft Education para administradores
 
 > [!Tip]
 > Vea la sesión siguiente para obtener más información acerca de más información acerca de la administración en Microsoft Teams: [gobierno, administración y ciclo de vida en los equipos de Microsoft](https://aka.ms/teams-governance)
@@ -113,7 +113,7 @@ La [API de Microsoft Graph (beta)](https://developer.microsoft.com/graph/docs/ap
 
 Sí. Puede utilizar directivas para controlar la mensajería específico, reunión, llamada y live funciones de eventos de a que los usuarios tienen acceso. Puede usar la configuración de todo el inquilino para aplicar la misma configuración a todos o aplicar directivas de nivel de usuario, si es necesario. 
 
-Para obtener más información acerca de las directivas de los equipos, vea [las características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
+Para obtener más información acerca de las directivas de los equipos, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md).
  
 ## <a name="can-i-control-what-external-parties-my-faculty-and-students-collaborate-with"></a>¿Puedo controlar qué partes externas Mis profesores y estudiantes colaboran con?
 

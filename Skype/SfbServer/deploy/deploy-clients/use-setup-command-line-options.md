@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 99878c3c-ff31-48e2-8424-580d7b07a7bf
 description: 'Resumen: Obtenga información sobre las operaciones de la línea de comandos de Setup.exe en el programa de instalación de Office.'
 ms.openlocfilehash: d3bf2b4d867fbbb43c346f2b9572de329ec66bdc
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880281"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214880"
 ---
 # <a name="use-setup-command-line-options-with-skype-for-business-clients"></a>Utilice las opciones de línea de comandos del programa de instalación con Skype para clientes empresariales
  

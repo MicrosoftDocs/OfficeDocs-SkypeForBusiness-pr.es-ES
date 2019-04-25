@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
 description: Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación. Para obtener más detalles, vea Plan para los medios de desvío en Skype para profesionales de 2015.
 ms.openlocfilehash: a361969e5054ed3ca4f659d45068e1affa563f68
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237147"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  

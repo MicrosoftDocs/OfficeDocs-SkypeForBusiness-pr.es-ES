@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Puede editar las propiedades de una implementación existente con las secciones siguientes:'
 ms.openlocfilehash: d9a42dffe3782a84b90b8cecbbc2af2835871732
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226853"
 ---
 # <a name="deployment-settings-expander"></a>Expansor de configuración de implementación
 
@@ -73,7 +73,7 @@ El servidor de administración central se puede cambiar de un grupo de servidore
 
 Para más detalles sobre cómo mover el Almacén de administración central, mire [Move-CsManagementServer](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps) en la referencia del cmdlet de Windows PowerShell.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para más detalles sobre cómo definir y configurar estas opciones, mire [Defining and Configuring the Topology](https://technet.microsoft.com/library/51d1601e-4f83-48d4-ad08-3b4d5e2003aa.aspx).
 

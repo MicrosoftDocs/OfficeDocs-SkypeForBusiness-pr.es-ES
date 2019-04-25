@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 4cec1b2d-80b4-4cc0-b250-19449c7b136b
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 119660d90d7a0ce334c989ec6f80ba6480201a31
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: d2e0b5f950a33cd8255a82991ee9ee5cfa981836
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30461119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223435"
 ---
 # <a name="toll-free-dialing-restrictions-in-indonesia"></a>Restricciones de marcado de número gratuito en Indonesia
 

@@ -18,11 +18,11 @@ description: Obtenga información sobre cómo formar a un equipo de campeones pa
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: f5f708ee518915c7462be7aa8c8494f72e7edd17
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227609"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 

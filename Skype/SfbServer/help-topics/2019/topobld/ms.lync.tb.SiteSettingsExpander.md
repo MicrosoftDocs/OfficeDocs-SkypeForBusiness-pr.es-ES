@@ -14,11 +14,11 @@ ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un sitio existente, realice lo siguiente:'
 ms.openlocfilehash: fdbcd5ddb62de7d4d4040e0b790e3475e20372c7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235223"
 ---
 # <a name="lync-server-site-settings-expander"></a>Expansor de configuración de sitio de Lync Server
 
@@ -41,7 +41,7 @@ Si se ha configurado la configuración de federación en el servidor perimetral 
 > [!CAUTION]
 > Esta configuración afectará a todos los sitios. Asegúrese de que la configuración que se va a configurar en este sitio es adecuada para todos los sitios.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener información detallada, vea [topologías para acceso de usuarios externos](https://technet.microsoft.com/library/25697446-b045-4d12-9b1c-47f694b4f224.aspx).
 

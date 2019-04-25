@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza, debe establecer el próximo salto para ser un Skype para el grupo de servidores de Business Server 2019. En un entorno mixto, el grupo heredado y el Skype para el grupo de servidores de Business Server 2019 aparecen en la lista desplegable. No se admite la selección del grupo heredado.
 ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238685"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicaciones de confianza
 

@@ -14,11 +14,11 @@ ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
 ms.openlocfilehash: f3031d14b6baf352ec761cf6b3ea1e97fa79a326
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221549"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 

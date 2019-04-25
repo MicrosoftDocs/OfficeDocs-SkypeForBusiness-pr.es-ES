@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Los siguientes requisitos son realmente importantes para garantizar el estado y el funcionamiento correcto a largo plazo de todas las características de Skype Empresarial Online que configure para su organización. Sabemos que algunos de nuestros usuarios son muy técnicos (y este documento es para ellos), pero hay algunos que no lo son tanto. Si necesita ayuda para configurar Skype Empresarial Online, lea este documento para familiarizarse con todo lo que debe tener en cuenta. También encontrará temas de los que podrá hablar cuando trabaje con el Centro de FastTrack de Microsoft, los equipos de servicios y cuentas de Microsoft, o los socios de Microsoft para averiguar cómo cumplir los requisitos.
 ms.openlocfilehash: aac6a85b78df7477a6e62ddbf766015182bb7a2b
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234532"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimizar la red para Skype Empresarial Online
 
@@ -58,7 +58,7 @@ Junto con esta información, hay otros recursos que pueden ayudarle a planificar
   
 - [Flujo de llamadas con ExpressRoute](call-flow-using-expressroute.md)
     
-- [ExpressRoute y QoS en Skype Empresarial Online](expressroute-and-qos-in-skype-for-business-online.md)
+- [ExpressRoute y calidad del servicio en Skype Empresarial Online](expressroute-and-qos-in-skype-for-business-online.md)
     
 - [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](media-quality-and-network-connectivity-performance.md)
     

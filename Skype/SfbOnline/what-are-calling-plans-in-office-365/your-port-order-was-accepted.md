@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
 ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229519"
 ---
 # <a name="your-port-order-was-accepted"></a>Se ha aceptado su solicitud de portabilidad
 

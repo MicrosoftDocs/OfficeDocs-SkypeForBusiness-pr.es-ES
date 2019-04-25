@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 description: 'El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:'
 ms.openlocfilehash: 71063adcf5e7a69210e0576851539e960c70a639
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886588"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226876"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  

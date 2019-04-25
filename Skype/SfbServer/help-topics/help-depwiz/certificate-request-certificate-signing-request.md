@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
 description: Para crear una solicitud sin conexión, primero debe crear un certificado (CSR) de la solicitud de firma. En el cuadro de texto Nombre de archivo, escriba la ruta de acceso y nombre de archivo para el CSR. Puede hacer clic en Examinar para elegir una ubicación para crear el CSR. Haga clic en siguiente para continuar.
 ms.openlocfilehash: aae9882d81c8772becac2eb93e66eddaf22fed37
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235094"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificado (solicitud de firma de certificado)
  

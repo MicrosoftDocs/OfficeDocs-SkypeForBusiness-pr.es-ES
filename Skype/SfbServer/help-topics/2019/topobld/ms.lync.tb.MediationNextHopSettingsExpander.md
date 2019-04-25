@@ -14,11 +14,11 @@ ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Especificar el grupo de servidores de mediación o próximo salto del servidor de mediación seleccionando el grupo definido de Front-End de Enterprise Edition o Standard Edition front-end de la lista desplegable. Un Director o el Director de grupo de servidores no es una selección válida para un grupo de servidores de mediación o el próximo salto del servidor de mediación y no aparecerán en la lista. Haga clic en Aceptar para guardar los cambios. Haga clic en Cancelar para descartar los cambios y salir de la página de propiedades.
 ms.openlocfilehash: fcb1c9151da69d222898335347aa04ee9c658a84
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876082"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235386"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Expansor de configuración de próximo salto de mediación
  

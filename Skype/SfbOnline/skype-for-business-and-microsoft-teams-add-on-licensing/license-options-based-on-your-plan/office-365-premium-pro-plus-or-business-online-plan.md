@@ -21,11 +21,11 @@ ms.custom:
 - LIL_Placement
 description: Obtenga información sobre cómo comprar para Office 365 ProPlus o Skype para profesionales en línea independientes Plan 2, características y licencias adicionales.
 ms.openlocfilehash: 79f2638f8c2da923846ac522752a3f2bc0a940ec
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238358"
 ---
 # <a name="office-365-proplus-or-skype-for-business-online-standalone-plan-2"></a>Office 365 ProPlus o Skype para Plan independiente en línea de negocio 2
 

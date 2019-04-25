@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Crear o modificar conjuntos de días festivos de grupo de respuesta, en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: cc34c7a2e3f03b99bc29852766926e6c63c2463f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883847"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225649"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para la empresa
  
@@ -53,7 +53,7 @@ La configuración de festivos define los días que un grupo de respuesta está c
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa](designing-and-creating-response-group-workflows.md)
 

@@ -21,25 +21,25 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo buscar los números de conferencia de acceso telefónico desde dentro de Skype para profesionales en línea. '
 ms.openlocfilehash: 557aef5e85cdd176e2d95e1cd946ed23e00764a0
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25372891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229228"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-skype-for-business-online"></a>Ver una lista de números de Audioconferencia de Skype for Business Online
 
 > [!NOTE]
 > Para obtener información acerca de los números de Audioconferencia en Microsoft Teams, consulte [Ver una lista de números de Audioconferencia en Microsof Teams](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams).
 
-When you set up Audio Conferencing for Skype for Business users, you can view the phone numbers that are available to them for audio conferencing. This list will have all of the audio conferencing phone numbers that are available to your organization.
+Cuando establece una Audioconferencia para usuarios de Skype for Business, puede ver los números de teléfono que están a su disposición para audioconferencias. Esta lista tendrá todos los números de teléfono de conferencia de audio que están disponibles para su organización.
   
- **Looking for prices?** See [Pricing for Audio Conferencing](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
+ **¿Busca los precios?** Vea [precios para conferencias de Audio](https://products.office.com/en-us/skype-for-business/audio-conferencing#Requirements).
   
 > [!IMPORTANT]
-> **There isn't a resource that contains a listing of all of the dial-in numbers for Audio Conferencing.** If you are looking to see if there are dial-in phone numbers available in your area or country/region, go to **Skype for Business admin center** > **Voice** > **Phone Numbers**, click **Add**, and then click **New Service Numbers**. Use the lists for **Country/Region**, **State/Region**, and **City** to filter your search. Also, if you are looking for toll-free service numbers, select **Toll-Free** from the **State/Region** list.
+> **No existe un recurso que incluya un listado con todos los números de acceso telefónico local de Audioconferencia.** Si está buscando para ver si hay números de teléfono de acceso telefónico disponibles en su área o país o región, vaya a **Skype para el centro de administración de negocio** > **voz** > **Los números de teléfono**, haga clic en **Agregar**y, a continuación, haga clic en nuevo servicio de ** Los números de**. Use las listas de **País o región**, **Estado o región** y **Ciudad** para filtrar la búsqueda. Además, si busca los números de teléfono gratuito de servicio, seleccione **gratuito** desde la provincia o región **** lista.
   
-If there is only one phone number available in your organization, it will be used as the default number for all of your users. When multiple phone numbers are available, you can select the default phone number for each user. This default number will be included in Skype for Business meeting invitations.
+Si solo hay un número de teléfono disponible en su organización, todos los usuarios lo usarán como número predeterminado. Cuando varios números de teléfono están disponibles, puede seleccionar el número de teléfono predeterminado para cada usuario. Este número predeterminado se incluirá en Skype para las invitaciones a reuniones de negocio.
   
 Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-included-on-invites.md) para cambiar el número de teléfono de acceso telefónico para un único usuario.
   
@@ -53,7 +53,7 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Inicie sesión en Office 365 con su cuenta profesional o educativa.**** > ****
+2. Vaya a **Centro de administración de Office 365** > **Skype Empresarial**.
     
 3. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > de**puente de Microsoft**y a continuación:
     
@@ -62,7 +62,7 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
    - También puede ver la ubicación y operador automático de los idiomas principales y secundarios que se utilizará en la conferencia de audio.
     
 > [!NOTE]
-> You can go to **Audio conferencing** > **Users** and select the user's properties to change the default number by choosing a new number from the list of available numbers in your organization. See [Set the phone numbers included on invites](set-the-phone-numbers-included-on-invites.md). 
+> Puede ir a la **conferencia de Audio** > **a los usuarios** y seleccione las propiedades del usuario para cambiar el valor predeterminado de número seleccionando un nuevo número de la lista de los números disponibles en su organización. Vea [el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md). 
 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>¿Desea saber cómo administrar con Windows PowerShell?
@@ -86,7 +86,7 @@ Puede ver [el teléfono invita los números incluidos en](set-the-phone-numbers-
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)
   

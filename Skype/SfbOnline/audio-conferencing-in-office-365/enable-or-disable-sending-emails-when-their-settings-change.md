@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
 ms.openlocfilehash: a9100de01fc835916af54d08b84dbd03a06ec1d6
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229821"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de los correos electrónicos cuando cambie la configuración de conferencias de Audio en Skype para profesionales en línea
 
@@ -66,7 +66,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
     
 1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, haga clic en **conferencias de Audio**.
     
-2. En la página **Configuración de puente de Microsoft**, seleccione o deseleccione **Enviar automáticamente correos electrónicos a los usuarios si la configuración de audioconferencia cambia**.
+2. On the **Microsoft bridge settings** page, select or clear the **Automatically send emails to users if their audio conferencing settings change**.
     
 3. Haga clic en **Guardar**.
     
@@ -76,7 +76,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-**Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.**
+Vea **Enviar un correo electrónico a un usuario con su información de conferencias de Audio**.
   
 - Ejecute el siguiente procedimiento para deshabilitar el envío de los correos electrónicos: 
     
@@ -86,7 +86,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
 
     Para obtener ayuda con este cmdlet, vea [Set-CsOnlineDialInConferencingTenantSettings](https://go.microsoft.com/fwlink/?LinkId=715757).
     
-## <a name="what-else-should-you-know"></a>¿Qué más tengo que saber?
+## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
 - Cuando están deshabilitados los correos electrónicos, puede desencadenar manualmente enviar un correo electrónico con el número de identificador y el teléfono de conferencia utilizando el Skype para el centro de administración de negocio. Sin embargo, si lo hace, no se incluirá el PIN. Si desea restablecer el PIN de conferencia de audio y enviar mensajes de correo electrónico está deshabilitado, debe enviar al usuario en otra forma.
     
@@ -121,7 +121,7 @@ Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de ac
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Correos electrónicos enviados a los usuarios cuando cambie su configuración de conferencias de Audio](emails-sent-to-users-when-their-settings-change.md)
 

@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumen: Ver la información de PIN de usuario en Skype para Business Server.'
 ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899697"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222824"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Vista de usuario información del PIN en Skype para Business Server
  
@@ -85,7 +85,7 @@ PinExpirationTime :
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsConferenceDisclaimer](https://docs.microsoft.com/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Establecer telefónico un usuario PIN en Skype para Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   

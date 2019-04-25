@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat contiene todos los mensajes de chat.
 ms.openlocfilehash: 54e19fe729d9f96afb04d22a917864118de75efe
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212652"
 ---
 # <a name="tblchat"></a>tblChat
  

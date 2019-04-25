@@ -21,11 +21,11 @@ ms.custom:
 - Phone System
 description: Obtenga información sobre los pasos de implementación para obtener el firmware correcto, actualizarlo si es necesario, asignar licencias y configurar las opciones de Skype para teléfonos en línea de negocio
 ms.openlocfilehash: 9bc2a4754560b6d6caaed349377039c0b257936e
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30664668"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32230439"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Implementación de teléfonos de Skype Empresarial Online
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: La vista FocusJoinsAndLeaves almacena información acerca de la combinación y deje la información de una conferencia. Cada conferencia se representa en esta vista por un objeto record escrito cada vez que un usuario se une a y abandona la conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
 ms.openlocfilehash: 4fa6a2ec043c5f9746a14d5214be9ad531159cd7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213679"
 ---
 # <a name="focusjoinsandleaves-view"></a>Vista FocusJoinsAndLeaves
  

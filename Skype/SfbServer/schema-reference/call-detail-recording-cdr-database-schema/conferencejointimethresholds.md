@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 3944d724-bdd8-4d1c-a2af-933ee8141529
 description: 'La tabla ConferenceJoinTimeThresholds contiene los límites de clasificación utilizados por el informe de resumen de tiempo unirse a conferencia. El informe de resumen de tiempo de unirse a conferencia resume la cantidad de tiempo necesario para que los usuarios correctamente unirse a una conferencia; Estos valores de tiempo se notifican como una media y en una de las siguientes categorías:'
 ms.openlocfilehash: d6fbae0d077719782b3e93c0fe008ee35ce3370e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213294"
 ---
 # <a name="conferencejointimethresholds-table-in-skype-for-business-server-2015"></a>Tabla taba en Skype para Business Server 2015
  

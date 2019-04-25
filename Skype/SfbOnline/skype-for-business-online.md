@@ -16,11 +16,11 @@ ms.topic: landing-page
 ms.author: tonysmit
 f1keywords: ms.teamsadmincenter.dashboard.helparticle.sfboadmindocumentation
 ms.openlocfilehash: 4ae0fdda230e02e0aa7c6c95dc91036e927a4b07
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238113"
 ---
 # <a name="skype-for-business-online-admin"></a>Administración de Skype for Business Online
 
@@ -110,7 +110,7 @@ Aprenda a administrar Skype for Business Online para su organización.
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Recorrido desde Skype Empresarial a Microsoft Teams</h3>
+                        <h3>Cambiar de Skype Empresarial a Teams</h3>
                     </div>
                 </div>
             </div>

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b1ef7ee44b1d6318b85461b5d6b9d4173cc8552
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.openlocfilehash: 9927da9aea89eeb4d5b1b71eac2818c5deb52925
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013212"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245943"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Administrar la aplicación Turnos para su organización en Microsoft Teams
 
@@ -58,8 +58,6 @@ Turnos está habilitado de forma predeterminada para todos los usuarios de los e
     ![Captura de pantalla de la sección de aplicaciones predeterminado] (../../media/firstline-worker-enable-disable-shifts.png "Captura de pantalla de la sección de aplicaciones predeterminado en el centro de administración de Microsoft 365, que muestra la lista de aplicaciones, como las aplicaciones de turnos")
 
 ### <a name="use-the-firstline-worker-app-setup-policy-to-pin-shifts-to-teams"></a>Usan la directiva del programa de instalación de aplicación Firstline trabajo a turnos de pin a los equipos
-
-> [!INCLUDE [Preview customer token](../../includes/preview-feature.md)]
 
 Las directivas de aplicación del programa de instalación le permiten personalizar equipos para resaltar las aplicaciones que son más importantes para los usuarios de su organización. Las aplicaciones que se establezca en una directiva se anclan a la barra de la aplicación&mdash;la barra en el lado del cliente de escritorio de los equipos y en la parte inferior de los clientes móviles de equipos&mdash;donde los usuarios pueden rápida y fácilmente tener acceso a ellas. 
  

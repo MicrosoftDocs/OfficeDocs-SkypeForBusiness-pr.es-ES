@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 6eacfa99-9759-4c13-aca3-8992c2ff2710
 description: Obtenga información sobre cómo preparar su dispositivo conector en la nube para la implementación y usar con el sistema telefónico en Office 365 (en la nube PBX).
 ms.openlocfilehash: 3716c7c4b9d4b8daa0a4995ed7e3d77b400b587f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887319"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240885"
 ---
 # <a name="prepare-your-cloud-connector-appliance"></a>Preparar el dispositivo de Cloud Connector
 

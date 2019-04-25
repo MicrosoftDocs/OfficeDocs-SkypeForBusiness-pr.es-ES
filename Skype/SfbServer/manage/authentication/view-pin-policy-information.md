@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Resumen: Ver información de directiva del NIP de un usuario de Skype para Business Server.'
 ms.openlocfilehash: 5fdd042f01c325bfffedbfa32fa14d9e667ef7be
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222859"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Ver información de directivas PIN de Skype para Business Server
  
@@ -62,6 +62,6 @@ MaximumLogonAttempts :
 
 Para obtener más información, vea el tema de ayuda para el cmdlet [Get-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/get-cspinpolicy?view=skype-ps) .
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear una nueva directiva PIN en Skype para Business Server](create-a-new-pin-policy.md)

@@ -15,11 +15,11 @@ ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
 ms.openlocfilehash: a59eb6c7a64de3c1b45cbd94bbbc0f3e26e8cea4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236239"
 ---
 # <a name="whats-new-in-skype-for-business-online"></a>Novedades de Skype para profesionales en línea
 

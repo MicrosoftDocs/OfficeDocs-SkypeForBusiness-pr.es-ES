@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de audio conferencia para un número de audioconferencia en Skype for Business Online.
 ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229218"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para audioconferencias en Skype for Business Online
 
@@ -34,7 +34,7 @@ ms.locfileid: "27788989"
 
 El operador automático de audioconferencias de Skype for Business puede saludar a los autores de llamadas de audioconferencias en un número de diferentes idiomas cuando se unan a una reunión.
   
-Elija un idioma principal y hasta cuatro idiomas secundarios. El idioma principal que ha configurado en primer lugar se va a usar y los idiomas secundarios utilizará el operador automático de forma que seleccione. 
+Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
 >  Sólo puede cambiar los idiomas de números de conferencia de audio de la categoría dedicada. No se puede cambiar los idiomas de número de conferencia de audio compartidos.
@@ -55,7 +55,7 @@ Debe ser un [administrador global de Office 365](https://support.office.com/arti
     > [!NOTE]
     > Se enumeran el idioma principal y los secundarios que son compatibles. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
   
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
     
 ## <a name="want-else-should-i-know"></a>¿Qué más debo saber?
 

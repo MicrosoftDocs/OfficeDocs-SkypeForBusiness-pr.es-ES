@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 0e0ad9f0-27d5-4975-ae88-0b8ff8a4c514
 ROBOTS: NOINDEX, NOFOLLOW
 ms.openlocfilehash: f7caab78838818362aa416a49ac8ef6142f7b844
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877356"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235430"
 ---
 # <a name="mediation-server-general-settings-expander"></a>Expansor de configuración general del servidor de mediación
  

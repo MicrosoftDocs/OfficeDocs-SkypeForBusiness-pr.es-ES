@@ -1,5 +1,5 @@
 ---
-title: Características de trabajador Firstline próximamente a Microsoft Teams
+title: Características Firstline Workers próximamente para Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 ms.reviewer: lisawu
@@ -14,13 +14,13 @@ MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c96510d0015e8ff026dee28567c7626196007fd6
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245819"
 ---
-# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Características de trabajador Firstline próximamente a Microsoft Teams
+# <a name="firstline-worker-features-coming-soon-to-microsoft-teams"></a>Características Firstline Workers próximamente para Microsoft Teams
 
 > [!IMPORTANT]
 > Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Capacidades de StaffHub que estamos creando en Microsoft Teams. En la actualidad, los equipos incluye la aplicación de turnos para la administración de programación y funciones adicionales se lleve a cabo a través del tiempo. StaffHub dejará de funcionar para todos los usuarios en el 1 de octubre de 2019. Cualquier persona que intenta abrir StaffHub se mostrará un mensaje que les dirige a descargar los equipos. Para obtener más información, vea [Microsoft StaffHub retirarse](microsoft-staffhub-to-be-retired.md).
@@ -50,4 +50,4 @@ Estamos comprometidos a la creación de capacidades para satisfacer las necesida
 ## <a name="related-topics"></a>Temas relacionados
 
 - [Se retirará Microsoft StaffHub](microsoft-staffhub-to-be-retired.md)
-- [Mover los equipos de Microsoft StaffHub a turnos en los equipos](move-staffhub-teams-to-shifts-in-teams.md)
+- [Mover los equipos de Microsoft StaffHub a Turnos en Teams](move-staffhub-teams-to-shifts-in-teams.md)

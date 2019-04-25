@@ -24,11 +24,11 @@ ms.custom:
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
 ms.openlocfilehash: bea5710917581953fac6da643c090aa1f389972e
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543106"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223467"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de teléfono a Office 365
 
@@ -115,7 +115,7 @@ Your port order request will be checked and updated daily and you will be notifi
 
 [Términos y condiciones de las llamadas de emergencia](emergency-calling-terms-and-conditions.md)
 
-[Skype for Business Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Skype Empresarial Online: Etiqueta de aviso de declinación de responsabilidades de las llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

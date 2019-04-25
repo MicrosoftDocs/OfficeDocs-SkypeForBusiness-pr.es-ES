@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: El servidor Front-End no puede existir como un equipo independiente. Debe definirse como un grupo de servidores Front-End, incluso si hay un único equipo en el grupo de servidores.
 ms.openlocfilehash: f026570f0dff377ba7ca0c28975a685e236a9e13
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231433"
 ---
 # <a name="remove-a-front-end-server-from-a-pool"></a>Quitar un servidor front-end de un grupo de servidores
 

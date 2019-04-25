@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
 ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371877"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229861"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar manualmente una solicitud de servicio personalizado
 
@@ -98,7 +98,7 @@ En algunos países o regiones, también tendrá que enviar manualmente una solic
 8. Revise la información y, a continuación, haga clic en **Submit request** (Enviar solicitud).
     
 > [!TIP]
-> El número de referencia se mostrará en la página **Solicitudes de servicio** del centro de administración de Office 365.
+> El número de referencia se mostrará en la página **Service requests** (Solicitudes de servicio) del Centro de administración de Office 365.
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más tiene que saber sobre la portabilidad de números?
 

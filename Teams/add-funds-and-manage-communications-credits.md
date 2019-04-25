@@ -30,11 +30,11 @@ ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo pagar créditos de comunicación (consumo de RTC) para Skype para servicios de negocios y vea los planes para mantener a los usuarios con acceso al sistema de teléfono continua. '
 ms.openlocfilehash: 0305e432534188f0dd8276fb29c9c764cc26bfeb
-ms.sourcegitcommit: 4e750efd107dfc9bfd8b09d64abd40e0e27734de
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30948344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231809"
 ---
 # <a name="add-funds-and-manage-communications-credits"></a>Agregar fondos y administrar los créditos de comunicaciones
 
@@ -84,7 +84,7 @@ Para ver una tabla con la licencia o licencias que necesitará para cada caracte
 
 - [Configurar Skype Empresarial Online](/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online)
     
-- [Configurar el correo de voz en la nube: Ayuda de administración](set-up-phone-system-voicemail.md)
+- [Configurar el Correo de voz en la nube. Ayuda para el administrador](set-up-phone-system-voicemail.md)
     
 - [Configurar planes de llamada](set-up-calling-plans.md) y [Planes de llamada de Office 365](calling-plans-for-office-365.md)
         

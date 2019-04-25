@@ -24,11 +24,11 @@ ms.custom:
 - LIL_Placement
 description: 'Aprenda a configurar su dominio, los usuarios, mensajería instantánea y presencia para su organización para instalar Skype para la empresa. También vea cómo configurar conferencias de audio, sistema telefónico y llamar a los planes y difusión de reunión de Skype. '
 ms.openlocfilehash: 2a968fa0f5b89351c2a7a2726052b1418f0ac213
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878688"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237828"
 ---
 # <a name="set-up-skype-for-business-online"></a>Configurar Skype Empresarial Online
 

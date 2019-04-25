@@ -1,5 +1,5 @@
 ---
-title: Lista de comprobación de acceso de invitado de Microsoft Teams
+title: Lista de comprobación para el acceso de invitado de Microsoft Teams
 author: somakbhattacharyya
 ms.author: sbhatta
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 68beeba403f6a64e194594d5bd40b985c8051dc6
-ms.sourcegitcommit: fba1151c968aa2c43d0c5b42b889b2cdd8dba3cd
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "30795589"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237551"
 ---
 <a name="teams-guest-access-checklist"></a>Lista de comprobación de acceso de invitado de los equipos
 ==========================================
@@ -42,7 +42,7 @@ La experiencia de invitado tiene limitaciones por diseño. Asegúrese de que com
 
 Para obtener más información, vea [¿Qué es la experiencia de invitado como](guest-experience.md) y [acceso de invitado en grupos de Office 365](https://support.office.com/article/guest-access-in-office-365-groups-bfc7a840-868f-4fd6-a390-f347bf51aff6).
 
-### <a name="guest-access-vs-external-access-federation"></a>Acceso de invitado frente a acceso externo (federación de)
+### <a name="guest-access-vs-external-access-federation"></a>Diferencias entre el acceso de invitados y el acceso externo (federación)
 
 [!INCLUDE [guest-vs-external-access](includes/guest-vs-external-access.md)]
 
@@ -96,7 +96,7 @@ Como mínimo, debe activar el acceso de invitado para Microsoft Teams en el **Ce
     ![Captura de pantalla muestra un ejemplo de un control de alternancia de configuración de los equipos](media/guest-access-checklist-set-up-guests-image1.png)
 
 3. En esta misma página, configure las demás opciones de invitado que necesita.
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
 
 Para obtener instrucciones detalladas, vea [Activar o desactivar el acceso de invitado a los equipos de Microsoft](set-up-guests.md).
 

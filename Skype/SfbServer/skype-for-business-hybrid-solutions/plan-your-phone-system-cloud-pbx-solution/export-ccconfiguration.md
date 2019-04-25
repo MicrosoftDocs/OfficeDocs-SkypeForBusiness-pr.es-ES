@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e3775bd6-682c-4f62-aafc-974fe3a65c61
 description: Exporta el Skype para la configuración del conector de nube Business Edition a un archivo local en el Skype para servidor de host de Business Edition de conector en la nube.
 ms.openlocfilehash: 8afca55e6727c84c579957de9e2010e84a72fb15
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894240"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234059"
 ---
 # <a name="export-ccconfiguration"></a>Export-CcConfiguration
  

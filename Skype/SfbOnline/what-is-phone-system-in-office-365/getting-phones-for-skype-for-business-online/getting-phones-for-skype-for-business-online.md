@@ -22,11 +22,11 @@ ms.custom:
 - Phone System
 description: 'Obtenga información sobre qué teléfonos funcionan con Skype for Business de Polycom, HP y Mitel, y las licencias necesarias. '
 ms.openlocfilehash: e79c942923e9a9d4d0df0bc18172eb10caff57bc
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952401"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229529"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Obtener teléfonos para Skype for Business Online
 
@@ -90,25 +90,25 @@ Para funciones y características del dispositivo completa, compruebe las guías
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Característica** <br/> |**3PIP de Polycom** <br/> |**3PIP de Yealink** <br/> |**3PIP de AudioCodes** <br/> |**LPE** <br/> |
-|Inicio de sesión con las credenciales del usuario  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Inicio de sesión con un equipo (emparejamiento), solo Windows  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** Comprobación de la matriz de compatibilidad en la Guía de implementación.           |Sí  <br/> |Sí  <br/> |Sí   <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Unirse a la reunión con un solo clic  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Clic para marcar (emparejamiento)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Controles de reunión  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Correo de voz visual  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Bloqueo de teléfono  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Actualización de dispositivo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Aprovisionamiento en banda  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|QoE  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan en el equipo de Microsoft Support solamente; acceso de cliente a los registros de teléfono aún no están disponibles.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
-|Autenticación moderna  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |
-|Varios números de emergencia  <br/> |No  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Sí  <br/> |
-|Integración con el calendario de Exchange*  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |Sí   <br/> <br/> **Nota:** Requiere siempre de PC           |
-|Integración de presencia  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |
+|Inicio de sesión con las credenciales del usuario  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Inicio de sesión con un equipo (emparejamiento), solo Windows  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Inicio de sesión con (inicio de sesión web)  <br/>  <br/> **Nota:** Comprobación de la matriz de compatibilidad en la Guía de implementación.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Unirse a la reunión con un solo clic  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Clic para marcar (emparejamiento)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Controles de reunión  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Correo de voz visual  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Bloqueo de teléfono  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Actualización de dispositivo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Aprovisionamiento en banda  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|QoE  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Carga de registros  <br/> <br/> **Nota:** Actualmente, todos los registros se cargan en el equipo de Microsoft Support solamente; acceso de cliente a los registros de teléfono aún no están disponibles.           |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Autenticación moderna  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Varios números de emergencia  <br/> |Sí  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Sí  <br/> |
+|Integración con el calendario de Exchange*  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |Sí  <br/> <br/> **Nota:** Requiere siempre de PC           |
+|Integración de presencia  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Directorio corporativo  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Delegación  <br/> |Sí  <br/> |Sí  <br/> |Sí   <br/> |No  <br/> |
-|Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |Compatibilidad para reuniones privadas con id. de conferencia de reunión dinámicos  <br/> |Sí  <br/> |
+|Delegación  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
+|Integración de imagen de contacto  <br/> |No  <br/> |Sí  <br/> |No  <br/> |Sí  <br/> |
 ||||||
 
      

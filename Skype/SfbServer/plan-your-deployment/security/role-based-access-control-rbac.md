@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d01fba36-eb7e-4de9-9bba-5102ae157820
 description: Skype para Business Server incluye los grupos de Control de acceso basado en roles (RBAC) para poder delegar tareas administrativas a la vez mantener altos estándares de seguridad. Estos grupos se crean durante la preparación del bosque. Para obtener información detallada sobre la preparación del bosque, vea Servicios de dominio de Active Directory para Skype for Business Server. Para obtener información detallada acerca de los grupos específicos creados por la preparación del bosque, vea cambios realizados por la preparación del bosque en Skype para Business Server en la documentación de implementación.
 ms.openlocfilehash: 461fa82809b16ccf6db1ac02e7c8d0e6698e2b61
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213588"
 ---
 # <a name="role-based-access-control-rbac-for-skype-for-business-server"></a>Control de acceso basado en roles (RBAC) para Skype para Business Server
  

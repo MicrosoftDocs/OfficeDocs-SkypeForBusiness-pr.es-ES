@@ -1,5 +1,5 @@
 ---
-title: Encuestas de comentarios del usuario en Microsoft Teams o Skype para la empresa
+title: Encuestas de opinión del usuario en Microsoft Teams o Skype Empresarial
 author: dearbeen
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 74594c81d86bf19b80cf40ad8292517705e7e690
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463879"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235890"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios del usuario 
 
@@ -57,13 +57,13 @@ Si opta por **algo en desacuerdo** o **totalmente en desacuerdo** para cualquier
 
 ¿Con qué probabilidad hay de que recomienda el uso de los equipos como un teléfono a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 
 ¿Con qué probabilidad va a recomendar del dispositivo telefónico a un amigo o compañero? (0 = no es probable en absoluto... 10 = extremadamente probable)  
 
-| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |  10 |
+| 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|
 |&nbsp; |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 

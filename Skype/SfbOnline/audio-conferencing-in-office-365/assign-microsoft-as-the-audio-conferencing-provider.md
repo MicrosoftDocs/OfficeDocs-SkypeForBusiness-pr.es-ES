@@ -22,11 +22,11 @@ ms.custom:
 - Audio Conferencing
 description: Learn how to assign Microsoft the dial-in conferencing provider for Skype for Business.
 ms.openlocfilehash: 0cbfe5fec234ab237bd0c6bf108cfaa968685f0f
-ms.sourcegitcommit: 31827526894ffb75d64fcb0a7c76ee874ad3c269
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "29753564"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229408"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar a Microsoft como proveedor de servicios de audioconferencia
 
@@ -39,7 +39,7 @@ Conferencia de Audio de Microsoft proporciona los números de teléfono de acces
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Asignar a Microsoft como proveedor de servicios de audioconferencia
 
-### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Usar el Centro de administración de Skype Empresarial
+### <a name="sfb-logo-30x30pngimagessfb-logo-30x30png-using-the-skype-for-business-admin-center"></a>![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) Using the Skype for Business admin center
 
 1. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
     
@@ -52,7 +52,7 @@ Conferencia de Audio de Microsoft proporciona los números de teléfono de acces
     > [!NOTE]
     > Debido a que está utilizando Microsoft como proveedor de conferencias de audio y hay varios números de teléfono, puede usar la lista desplegable de **número de teléfono de pago predeterminado** para seleccionar un número de audio predeterminada para el usuario.
   
-5. Haga clic en **Guardar**.
+5. Haga clic en **Guardar **.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: En este artículo se describe cómo configurar la consola de salas de equipos de Microsoft y sus periféricos.
-ms.openlocfilehash: 9027057314d405788e81d4d27f9ce4e5d5649a48
-ms.sourcegitcommit: a505869a3cc2fe6fe4ee18bcbe99bf980aa91a86
+ms.openlocfilehash: 2d3d9acdc3c72754232304364812fd2af9f3f6cb
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31520158"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212757"
 ---
 # <a name="configure-a-microsoft-teams-rooms-console"></a>Configurar una consola de salas de equipos de Microsoft
 
@@ -250,7 +250,7 @@ Utilizar la lista de comprobación siguiente mientras se hace una comprobación 
 |☐  <br/> |La base puede girar sin obstáculos.  <br/> |
 |☐  <br/> |El brillo de la pantalla es el adecuado para el entorno.  <br/> |
    
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Checklist"> </a>
 
 [Plan para salas de equipos de Microsoft](../../plan-your-deployment/clients-and-devices/skype-room-systems-v2-0.md)
@@ -259,4 +259,4 @@ Utilizar la lista de comprobación siguiente mientras se hace una comprobación 
   
 [Configurar una consola de salas de equipos de Microsoft](console.md)
   
-[Administrar las salas de equipos de Microsoft](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)
+[Administrar Salas de Microsoft Teams](../../manage/skype-room-systems-v2/skype-room-systems-v2.md)

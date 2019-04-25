@@ -1,5 +1,5 @@
 ---
-title: Comité de dirección de la implementación de voz en la nube de Microsoft Teams
+title: Comité directivo para la implementación de servicios de voz de nube de Microsoft Teams
 author: rmw2890
 ms.author: MyAdvisor
 manager: serdars
@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30464287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235379"
 ---
 # <a name="steering-committee"></a>Comité de dirección
 
@@ -71,7 +71,7 @@ Cada Comité directivo necesita liderazgo sólido y claramente funciones y respo
 | Maker(s) de toma de decisiones empresariales | Promuevan para el proyecto, asegúrese de que su dirección permanece en alineación con la visión de la organización | | |
 | Arquitecto | Asegúrese de que las decisiones de tecnología son factibles y se alinean a acordado en los resultados empresariales. | | |
 | Equipo del proyecto principal | Proporciona información detallada sobre cualquier componente específico, técnica o no técnica (por ejemplo, administración de cambios y adopción) | | |
-| Experto en calidad | Ser responsable de poner en marcha métricas de calidad. | | |
+| Campeón de calidad | Ser responsable de poner en marcha métricas de calidad. | | |
 | Jefe de programa o proyecto | Asumir la responsabilidad de la presentación y la recopilación de comentarios para incorporar en el proyecto. | | |
 | Equipo de cuentas de asociados | Envíe comentarios desde el punto de vista del socio desde una perspectiva más amplia, otras actividades de socio. | | |
 | Equipo de proyecto de socio | Envíe comentarios desde el punto de vista del socio con respecto a la entrega del proyecto | | |

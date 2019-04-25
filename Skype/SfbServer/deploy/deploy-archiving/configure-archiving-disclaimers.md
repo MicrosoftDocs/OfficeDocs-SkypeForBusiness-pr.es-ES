@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar una renuncia de archivado para Skype para Business Server.'
 ms.openlocfilehash: 9511dacb23773a4cd411844abd1d38216026019e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881754"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227562"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Configuración de declinación de responsabilidades de archivado para los usuarios externos en Skype para Business Server
  

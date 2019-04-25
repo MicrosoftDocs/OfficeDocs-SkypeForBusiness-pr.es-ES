@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: df92d228-de60-4025-b249-ad957130ef7b
 description: Dispone de tres opciones al configurar las direcciones IP en Skype para Business Server 2015. Puede configurar Skype para Business Server 2015 admitir sólo IP versión 4 (IPv4), sólo IP versión 6 (IPv6), o una combinación de ambos (conocido como una pila dual).
 ms.openlocfilehash: 7899718a02992756e730819cd1abd880b074758b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894967"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222628"
 ---
 # <a name="ip-version-planning-tool"></a>IP Version (Planning Tool)
  

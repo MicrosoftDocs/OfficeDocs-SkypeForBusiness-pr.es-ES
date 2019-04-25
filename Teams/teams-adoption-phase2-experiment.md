@@ -18,11 +18,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 23f1d842619ca8c7921eb14939182baa1b97ed9a
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647500"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226953"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 

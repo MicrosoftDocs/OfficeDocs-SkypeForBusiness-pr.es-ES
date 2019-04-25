@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Skype para profesionales en línea le permite crear directivas de acceso externo adicionales. A diferencia de las directivas de cliente o las conferencias, donde puede tener varias combinaciones de, hay tres directivas de acceso externo predefinidos que pueden cubrir la mayor parte de los escenarios.
 ms.openlocfilehash: b368c7d30e74225f7808f9f3728691040e75016f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237532"
 ---
 # <a name="create-custom-external-access-policies"></a>Crear directivas personalizadas de acceso externo
 

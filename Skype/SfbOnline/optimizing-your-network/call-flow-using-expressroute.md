@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: Con este artículo tratamos de explicar el flujo de llamadas básico para Skype Empresarial Online y ExpressRoute, y darle algunos ejemplos detallados de flujos de llamada para que pueda entenderlo y planificarlo correctamente.
 ms.openlocfilehash: 2406badc671fec8ede36039ebf230115a5920e97
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23861081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213027"
 ---
 # <a name="call-flow-using-expressroute"></a>Flujo de llamadas con ExpressRoute
 
@@ -62,7 +62,7 @@ A continuación puede ver cada segmento de red del que hablaremos.
 
  **La red** Éste es el segmento de red que forma parte de la red general que puede controla y administrar. Esto incluye todas las conexiones dentro de sus oficinas, si por cable o inalámbrica, entre edificios de oficinas, en centros de datos locales y las conexiones a proveedores de Internet o ExpressRoute socios.
 
-Normalmente, el borde de la red tiene uno o más DMZ con firewalls o servidores proxy, que aplicar directivas de seguridad de la organización y que sólo permiten determinado el tráfico de red que ha configurado y configurado. Debido a que administrar esta red, tienen un control directo sobre el rendimiento de la red y se recomienda complete las evaluaciones de red para validar el rendimiento tanto dentro de los sitios en la red y de la red de Skype para la empresa En línea. Para ver los requisitos de rendimiento, vea [calidad de los medios y el rendimiento de la conectividad de red en Skype para profesionales en línea](media-quality-and-network-connectivity-performance.md).
+Normalmente, el borde de la red tiene uno o más DMZ con firewalls o servidores proxy, que aplicar directivas de seguridad de la organización y que sólo permiten determinado el tráfico de red que ha configurado y configurado. Debido a que administrar esta red, tienen un control directo sobre el rendimiento de la red y se recomienda complete las evaluaciones de red para validar el rendimiento tanto dentro de los sitios en la red y de la red de Skype para la empresa en línea. Para ver los requisitos de rendimiento, vea [calidad de los medios y el rendimiento de la conectividad de red en Skype para profesionales en línea](media-quality-and-network-connectivity-performance.md).
 
  **Internet** Éste es el segmento de red que forma parte de la red general que se utilizan los usuarios que se va a conectar Skype para profesionales Online desde fuera de la red y se usan para todas las conexiones cuando no se ha configurado ExpressRoute. Internet y todas sus conexiones no están administrados por usted o por Microsoft, por lo que no se puede determinar el rendimiento y las rutas de acceso de enrutamiento, y esto tendrá el mayor impacto en el flujo de llamadas y calidad general.
 
@@ -231,7 +231,7 @@ Todos los usuarios que se conectarán a Cloud Connector Edition están alojados 
 |Llamada RTC  <br/> |Usuario en línea en su red con Cloud Connector Edition.  <br/> |Local  <br/> |Local  <br/> |[Llamada RTC con Skype Empresarial Cloud Connector Edition](call-flow-using-expressroute.md#bk_Figure6) <br/> ||
 |Llamada RTC  <br/> |Usuario en línea que usa Internet con Cloud Connector Edition.  <br/> |Internet  <br/> |Internet  <br/> |Combinación de [servidor perimetral local con Office 365 hospedados conferencias](call-flow-using-expressroute.md#bk_Figure5) y [RTC llamar con Skype para Business Edition de conector en la nube](call-flow-using-expressroute.md#bk_Figure6).  <br/> |Los usuarios de Internet se conectarán a través del servidor perimetral que se incluye en Cloud Connector y Cloud Connector se conectará a la red RTC.  <br/> |
 
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Documentación de ExpressRoute](https://go.microsoft.com/fwlink/?LinkId=690285)
 

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
 description: Antes de implementar y operar Skype para Business Server, debe preparar los servicios de dominio de Active Directory extendiendo el esquema. Las extensiones del esquema agregan las clases y atributos que se necesitan por Skype para Business Server.
 ms.openlocfilehash: ba76f57197e9cd812163c8abac5f51005933eace
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213357"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Cambios de esquema en Skype para Business Server
  
@@ -65,7 +65,7 @@ En la siguiente tabla se describe las clases de Active Directory que se modifica
   
 **Clases modificadas por Skype para Business Server**
 
-|**Clase**|**Cambio**|**Clase o atributo**|
+|**Clase**|**Change**|**Clase o atributo**|
 |:-----|:-----|:-----|
 |Usuario  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Contacto  <br/> |agregar: mayContain  <br/> agregar: mayContain  <br/> |ProxyAddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |

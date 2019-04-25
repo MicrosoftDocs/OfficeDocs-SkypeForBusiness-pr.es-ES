@@ -14,11 +14,11 @@ ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Botón secundario haga clic en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
 ms.openlocfilehash: 0ba093ca1988586b27fe63f661cc0232d59e2bb3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235364"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor de Office Web Apps
  

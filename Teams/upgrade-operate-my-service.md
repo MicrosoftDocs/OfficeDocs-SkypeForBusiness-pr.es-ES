@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 44a215c96c85c6681ba4dcfda82e7193a48b95c9
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233020"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -438,7 +438,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 4. **Visite la Comunidad de Microsoft Teams:** La [Comunidad de equipos de Microsoft](https://techcommunity.microsoft.com/t5/Microsoft-Teams/ct-p/MicrosoftTeams) ofrece espacios dedicados para los equipos. La Comunidad de equipos proporciona una lista de discusión, entradas de blog y anuncios centrados en los equipos. Puede registrar una pregunta o buscar conversaciones anteriores para soluciones para el problema.
 
-5. **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contacto admite para los equipos de Microsoft](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b). Para Premier a los clientes, compatibilidad con las solicitudes se pueden iniciar siguiendo las instrucciones en [póngase en contacto con soporte técnico para Microsoft Teams (Premier a los clientes)](https://support.microsoft.com/premier/contacts).
+5. **Póngase en contacto con soporte técnico de Microsoft:** Puede ponerse en contacto con Microsoft Support para problemas con los equipos en línea o por teléfono. Para obtener información, vea [contactos de soporte para productos de negocio](https://docs.microsoft.com/office365/admin/contact-support-for-business-products?toc=/microsoftteams/toc.json&bc=/microsoftteams/breadcrumb/toc.json). Para Premier a los clientes, compatibilidad con las solicitudes se pueden iniciar siguiendo las instrucciones en [póngase en contacto con soporte técnico para Microsoft Teams (Premier a los clientes)](https://support.microsoft.com/premier/contacts).
 
 ### <a name="dailyweeklymonthlyas-needed-tasks"></a>Tareas de diario o semanal o mensual/según sea necesario
 
@@ -462,7 +462,7 @@ Incluso si ha seguido las instrucciones anteriores, los usuarios de su organizac
 
 [Comprobar el estado del servicio para Microsoft Teams](service-health.md)
 
-[Póngase en contacto con el soporte de Office 365 para empresas: ayuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
+[Contactar con soporte técnico para productos empresariales: ayuda para administradores](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
 
 [Soporte ampliado de contacto](https://support.microsoft.com/premier/contacts)
 
@@ -477,7 +477,7 @@ Después de que se ha implementado el servicio de Microsoft Teams, debe realizar
 ### <a name="service-administration"></a>Administración del servicio
 
 El servicio de los equipos tiene varias opciones que se pueden configurar todo el inquilino.
-Los cambios realizados en la configuración de inquilino afecta a todos los usuarios que han sido habilitados para los equipos. Para obtener una lista detallada de estas configuraciones, vea [características de administración de equipos de Microsoft en su organización de Office 365](enable-features-office-365.md).
+Los cambios realizados en la configuración de inquilino afecta a todos los usuarios que han sido habilitados para los equipos. Para obtener una lista detallada de estas configuraciones, vea [configuración de administración de equipos de Microsoft para su organización](enable-features-office-365.md).
 
 ### <a name="user-administration"></a>Administración de usuarios
 

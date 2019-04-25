@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Resumen: Revise un tutorial y desarrollo ejemplos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
 ms.openlocfilehash: eb2e195a9eaac54b01af6d0da498fda6fafe374c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30887375"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232869"
 ---
 # <a name="cqd-development-samples"></a>Ejemplos de desarrollo de CQD
 

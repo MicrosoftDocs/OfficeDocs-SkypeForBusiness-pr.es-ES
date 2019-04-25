@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 026c4469-f471-4e4f-a77d-a7d22a925e5a
 description: 'Resumen: Obtenga información sobre cómo agregar más Skype para bases de datos de Business Server a un grupo existente de disponibilidad AlwaysOn y obtenga información sobre los pasos adicionales necesarios después de la revisión o actualizar un servidor Back-End que forma parte de un grupo de disponibilidad AlwaysOn en Skype para Business Server.'
 ms.openlocfilehash: 8d25e7d3aa1e840be7eb246e6aaa3065b65b7ff7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875414"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214697"
 ---
 # <a name="manage-databases-with-an-alwayson-availability-group-in-skype-for-business-server"></a>Administrar bases de datos con un grupo de disponibilidad AlwaysOn en Skype para Business Server
 

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo cambiar la ubicación de emergencia para los usuarios. Con un número ilimitado de ubicaciones, puede cambiar las ubicaciones de emergencia cuando los empleados cambien de plantas o edificios. '
 ms.openlocfilehash: 9e583cf7882b5a269378dd69dbda37311ad08e28
-ms.sourcegitcommit: c40ebb4095fae861295c01af0a518375f32988e1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31744284"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233212"
 ---
 # <a name="assign-or-change-the-emergency-location-for-a-user"></a>Asignar o cambiar la ubicación de emergencia de un usuario
 

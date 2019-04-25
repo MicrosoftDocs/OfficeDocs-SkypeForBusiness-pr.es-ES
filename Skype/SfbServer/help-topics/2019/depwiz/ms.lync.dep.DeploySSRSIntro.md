@@ -14,11 +14,11 @@ ms.assetid: f3cda686-6301-419c-af68-b49cc785e5fc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Cada grupo de servidores Front-End y aplicación de sucursal con funciones de supervivencia sólo pueden tener un que servidor de supervisión asociado con ella. Cuando está habilitada la supervisión para el sitio, el servidor de supervisión proporciona detalles de llamadas (CDR) y creación de informes y recopilación de datos de calidad de la experiencia (QoE).
 ms.openlocfilehash: 95a16d0d634f115a06e1fd48a105dbad45a29048
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216007"
 ---
 # <a name="sql-server-reporting-services-intro"></a>SQL Server Reporting Services (introducción)
  

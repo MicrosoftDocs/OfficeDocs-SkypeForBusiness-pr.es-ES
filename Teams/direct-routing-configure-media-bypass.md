@@ -1,5 +1,5 @@
 ---
-title: Configurar el desvío de medios con el enrutamiento directo
+title: Configurar el desvío de medios con enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -15,14 +15,14 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo configurar el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: 405f71fd0a1e0ea3e8fec6ee1061786c93fabf1b
-ms.sourcegitcommit: 260635a24b282fbdf4a4aeffdb0f4f9be5407ec6
+ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30631090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232701"
 ---
-# <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con el enrutamiento directo
+# <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 
 Antes de desvío de medios de configuración con el enrutamiento directo, asegúrese de que ha leído [Plan para los medios de desvío con el enrutamiento directo](direct-routing-plan-media-bypass.md).
 
@@ -53,19 +53,11 @@ Para obtener instrucciones sobre cómo configurar los troncos y realizar la migr
 - Cinta de opciones
 - TE-Systems (AnyNode)    
 
-En el momento de este anuncio, el siguientes SBCs completamente probados y certificados para que funcione con el desvío de medios:
-
-- AudioCodes 9000 V7.20A.204.222, AudioCodes M800B-SBC / V7.20A.250.003
-
--   Cinta de opciones
-    - 5210 v06.02.xx-xxx 
-    - v06.02.xx-xxx 5400,
-    - 5110, v06.02.xx-xxx
-
--   Sistema de TE AnyNode v 3.16.2 
+Para obtener una lista de controladores de borde de sesión (SBCs) certificados para el enrutamiento directo, vea la [lista de controladores de Broder sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md).
 
 
-## <a name="see-also"></a>Consulte también
+
+## <a name="see-also"></a>Vea también
 
 [Planear el desvío de medios con el enrutamiento directo](direct-routing-plan-media-bypass.md)
 

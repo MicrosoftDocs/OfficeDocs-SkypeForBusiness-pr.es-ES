@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Vea where asignar un plan de servicio válido para un usuario después de un Skype para el plan de servicio en línea de negocio no es error válido. '
 ms.openlocfilehash: a6e42e26b9a0257005d735b0e5cda13af6f11b67
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237197"
 ---
 # <a name="the-users-skype-for-business-online-service-plan-isnt-valid"></a>Skype del usuario para el plan de servicio en línea de Business no es válido
 

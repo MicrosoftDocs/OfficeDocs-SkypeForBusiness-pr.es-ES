@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Este tema contiene los pasos de implementación de cliente que se recomienda que debe seguir antes de migrar a Skype para Business Server 2019. Estos cambios de configuración deben realizarse en Lync Server 2013 o Skype para Business Server 2015.
 ms.openlocfilehash: 9e855907cc5be97e494195651ff48ce60004aeda
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238740"
 ---
 # <a name="configure-clients-for-migration"></a>Configuración de los clientes para la migración
 
@@ -26,7 +26,7 @@ Este tema contiene los pasos de implementación de cliente que se recomienda que
     
 2. En la versión anterior de Skype para Business Server, use el filtrado de versión de cliente para permitir que solo los clientes con las actualizaciones más recientes instaladas.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuración de nuevas y modificadas para Lync 2013](https://technet.microsoft.com/en-us/library/jj205204(v=ocs.15).aspx) 
  

@@ -22,11 +22,11 @@ ms.custom:
 - Calling Plans
 description: La validación de direcciones es una parte muy importante de la configuración de Planes de llamada en Office 365. Proporciona a un usuario de su organización una dirección para llamadas de emergencia que puedan usar los servicios de respuesta de emergencias.
 ms.openlocfilehash: 9e59b7372b0d998ea4a453d5e1b96c3ab9c4e98f
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25370723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227808"
 ---
 # <a name="why-is-number-activation-just-pending"></a>¿Por qué la activación del número está pendiente?
 

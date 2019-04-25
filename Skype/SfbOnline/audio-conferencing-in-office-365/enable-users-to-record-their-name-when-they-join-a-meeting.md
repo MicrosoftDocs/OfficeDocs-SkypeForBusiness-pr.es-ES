@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden registrar sus nombres unirse a una reunión en Skype para profesionales en línea.
 ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25371762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229305"
 ---
 # <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Skype para profesionales en línea
 
@@ -38,7 +38,7 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
 
 ## <a name="set-whether-callers-should-record-their-name"></a>Establecer si los autores de las llamadas tienen que grabar sus nombres
     
-1. En el **Centro de administración de Skype Empresarial**, en el panel de navegación de la izquierda, vaya a **Conferencia de acceso telefónico local** > **Configuración del puente de Microsoft**.
+1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
 2. En **Experiencia de unirse a la reunión**, vea que esté activa la casilla de verificación **Habilitar las notificaciones de entrada y salida de la reunión**.
     
@@ -72,6 +72,6 @@ El puente de conferencia responde a la llamada de un usuario que llama a una reu
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

@@ -17,11 +17,11 @@ appliesto:
 - Microsoft Teams
 description: Describe cómo los equipos utiliza flujos de Office 365 en varias topologías.
 ms.openlocfilehash: ecdeb6dc4e1e7219dc8c01c710877437661e0ceb
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31828940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232214"
 ---
 # <a name="microsoft-teams-call-flows"></a>Flujos de llamadas de Microsoft Teams
 

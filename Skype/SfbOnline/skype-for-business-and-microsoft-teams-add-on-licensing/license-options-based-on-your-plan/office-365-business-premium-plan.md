@@ -1,5 +1,5 @@
 ---
-title: 'Office 365 Business Premium '
+title: 'Office 365 Empresa Premium '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ ms.custom:
 - LIL_Placement
 description: 'Obtenga información sobre las licencias de complementos, características y cómo comprar planes de Office 365 Empresa Premium. '
 ms.openlocfilehash: 272039c0a7cf0f568efd523f94c42348cba743fd
-ms.sourcegitcommit: 27f1ecb730355dcfac2f4be3f5642f383d5532ad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "30120505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238938"
 ---
-# <a name="office-365-business-premium"></a>Office 365 Business Premium
+# <a name="office-365-business-premium"></a>Office 365 Empresa Premium
 
 Si dispone de [Office 365 Empresa Premium](https://products.office.com/en/business/office-365-business-premium), puede utilizar Skype Empresarial para realizar llamadas a otras personas de la empresa que disponen de suscripción. Por ejemplo, si la empresa tiene 10 personas, podrán llamarse y enviarse mensajes instantáneos mutuamente mediante Skype Empresarial.
 

@@ -21,11 +21,11 @@ ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo configurar los números de teléfono cuando instalarlas en Skype para la empresa. '
 ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25374091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229881"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>¿Cómo tengo que introducir los números de teléfono?
 
@@ -42,7 +42,7 @@ Al convertir los números de teléfono, debe escribir en el formato correcto.
     
   - Para un número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** se corregirán a **+14255550649**.
     
-  - Si hay 10 u 11 dígitos, se omitirá todas las etiquetas. Por ejemplo, ** \<div > 4255551234\</div >** será **+14255551234**.
+  - Si hay 10 u 11 dígitos, se omitirá todas las etiquetas. Por ejemplo, ** \<div> 4255551234\</div>** será **+14255551234**.
     
   - "-", se omitirá espacio y paréntesis. Por ejemplo:
     

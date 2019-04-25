@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 description: 'De forma predeterminada, el servidor de mediación se combina con el servidor Front-End. También se puede implementar el servidor de mediación en un grupo de servidores independiente por motivos de rendimiento o, si implementa el enlace troncal SIP, en cuyo caso el grupo de servidores independiente es muy recomendable. Colocación de Skype para las funciones de servidor de negocio al igual que lo hacía en Lync Server 2013. Para obtener más información, consulte los temas siguientes:'
 ms.openlocfilehash: 36456e49f62b308f0f1227db1b6730153abbc66b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235719"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Mediation Collocation (Planning Tool)
  

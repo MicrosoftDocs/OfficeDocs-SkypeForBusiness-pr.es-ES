@@ -19,16 +19,17 @@ search.appverid: MET150
 description: Obtenga información sobre directivas del programa de instalación de aplicaciones en Microsoft Teams y cómo usarlos para aplicaciones de pin para personalizar los equipos de los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: 7e4eaf604c075f8ab95cd40ec7588515c428360c
-ms.sourcegitcommit: 9bb2bfd09ca279752dbedf17911ea46568649c4a
+ms.openlocfilehash: b38a381e95855380e017050441885474934cbe8f
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/09/2019
-ms.locfileid: "31749752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227273"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
-> [!INCLUDE [preview-feature](includes/preview-feature.md)]
+> [!NOTE]
+> Si se habilita a la configuración de directiva de permisos de aplicación de toda la organización, **Permitir la interacción con aplicaciones personalizadas**, no es posible que vea directivas del programa de instalación de aplicaciones en el centro de administración de Microsoft Teams. Actualmente se van a implantar y estará disponible pronto en su organización.
 
 Como administrador, puede usar las directivas de aplicación del programa de instalación para personalizar Microsoft Teams para resaltar las aplicaciones que son más importantes para los usuarios. Elija las aplicaciones para anclar y establecer el orden en que aparecen. Las directivas de aplicación del programa de instalación le permiten showcase aplicaciones que necesitan los usuarios de su organización, las creadas por terceros o por los programadores de la organización incluidas. También puede usar las directivas de aplicación del programa de instalación para administrar las características integradas cómo aparecen.
 
@@ -40,12 +41,12 @@ Aplicaciones están ancladas a la barra de la aplicación. Se trata de la barra 
 
 Administrar directivas del programa de instalación de aplicaciones en el centro de administración de Microsoft Teams. Puede usar la directiva global de (valor predeterminado de toda la organización) o crear directivas personalizadas y asignarlos a los usuarios. Los usuarios de su organización obtendrá automáticamente la directiva global, a menos que se cree y asigne una directiva personalizada.
 
-Puede modificar la configuración de la directiva global para incluir las aplicaciones que desee. Si desea personalizar los equipos para distintos grupos de usuarios de la organización, cree y asigne una o varias directivas personalizadas.
+Puede modificar la configuración de la directiva global para incluir las aplicaciones que desee. Si desea personalizar los equipos para distintos grupos de usuarios de la organización, cree y asigne una o varias directivas personalizadas. Si un usuario se le asigna una directiva personalizada, esa directiva se aplica al usuario. Si un usuario no está asignado una directiva personalizada, se aplica la directiva global para el usuario.
 
 ![el programa de instalación-App-policies.png](media/app-setup-policies.png)
 
 > [!NOTE]
-> Si un usuario se le asigna una directiva personalizada, esa directiva se aplica al usuario. Si un usuario no está asignado una directiva personalizada, se aplica la directiva global para el usuario.
+> Si dispone de los equipos para el ámbito educativo, es importante saber que está anclada la aplicación de las asignaciones de forma predeterminada en la directiva global, aunque actualmente, no aparece en la directiva global. Será la aplicación cuarto en la lista de aplicaciones ancladas en los clientes de los equipos.
 
 ## <a name="create-a-custom-app-setup-policy"></a>Crear una directiva de aplicación personalizada del programa de instalación
 
@@ -70,7 +71,7 @@ Puede usar el centro de administración de Microsoft Teams para modificar una di
 1. En la izquierda el centro de administración de Microsoft Teams, vaya a **las aplicaciones de los equipos** > **las directivas de instalación**.
 2. Seleccione la directiva que desee editar. 
 3. Desde aquí, realice los cambios que desee. Puede agregar, quitar y cambiar el orden de las aplicaciones.
-4. Haga clic en **Guardar**.
+4. Haga clic en **Guardar **.
 
 ## <a name="assign-a-custom-app-setup-policy-to-users"></a>Asignar una directiva de aplicación personalizada del programa de instalación a los usuarios
 
@@ -118,7 +119,7 @@ $members | ForEach-Object { Grant-CsTeamsAppSetupPolicy -PolicyName "HR App Setu
 ``` 
 Según la cantidad de los miembros del grupo, este comando puede tardar varios minutos en ejecutarse.
 
-## <a name="faq"></a>Preguntas frecuentes
+## <a name="faq"></a>Preguntas más frecuentes
 
 ### <a name="working-with-app-setup-policies"></a>Trabajar con directivas del programa de instalación de aplicaciones
 

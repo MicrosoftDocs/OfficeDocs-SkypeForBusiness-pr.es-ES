@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Resumen: Obtenga información sobre cómo definir e implementar un servidor de mediación en el generador de Skype para Business Server.'
 ms.openlocfilehash: 558c1324b488d36f69f760a2dc0484f22586d93c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229107"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Implementar un servidor de mediación en el generador de Skype para Business Server
  

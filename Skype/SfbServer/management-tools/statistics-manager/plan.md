@@ -12,17 +12,17 @@ ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.'
 ms.openlocfilehash: 7e086dda9bfea755265d2c77413989f8cc634df7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893991"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236155"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planear el administrador de estadísticas para Skype Empresarial Server
 
 **Resumen:** Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.
 
- Administrador de estadísticas de Skype para Business Server es una herramienta eficaz que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento a través de cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio Web de estadísticas de administrador.
+ El administrador de estadísticas de Skype Empresarial Server es una eficaz herramienta que le permite ver los datos de mantenimiento y rendimiento de Skype Empresarial Server en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas.
 
 Puede usar el Administrador de estadísticas para identificar problemas de rendimiento en curso, ver los resultados de un cambio planeado a su entorno, realizar un seguimiento de resolución de interrupciones y mucho más. Fuera del cuadro, Administrador de estadísticas está configurado con los umbrales de indicador de estado de clave (KHI) y se puede personalizar para adaptarse a necesidades específicas de la implementación.
 
@@ -172,10 +172,10 @@ Se cifra todo el tráfico entre servidores.
 
 - El agente de comienza la transmisión de datos de rendimiento a través de la conexión con el agente de escucha.
 
-## <a name="for-more-information"></a>Para más información
+## <a name="for-more-information"></a>Más información
 <a name="BKMK_Security"> </a>
 
-Para obtener más información, consulte lo siguiente:
+Para obtener más información, vea los artículos siguientes:
 
 - [Implementar el administrador de estadísticas para Skype Empresarial Server](deploy.md)
 

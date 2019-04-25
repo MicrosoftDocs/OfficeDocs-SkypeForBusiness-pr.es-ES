@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: Enviar un correo electrónico con su información de conferencia de audio de los usuarios en Skype para profesionales en línea.
 ms.openlocfilehash: 80cfbd88b8c933e2b1e66d6348deff111a45f8e3
-ms.sourcegitcommit: dd37c12a0312270955755ab2826adcfbae813790
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25373621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229325"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Enviar un correo electrónico a un usuario con su información de conferencia de Audio en Skype para profesionales en línea
 
@@ -60,7 +60,7 @@ Este es un ejemplo del correo electrónico que se envía:
     
 3. Haga clic en **usuarios**y, a continuación, seleccione el usuario.
     
-4. Haga clic en **Usuarios de acceso telefónico local** y seleccione el usuario para el que quiera restablecer el PIN.
+4. En el panel de acciones, haga clic en **Enviar información de conferencia por correo electrónico**.
     
 > [!TIP]
 > También puede enviar correo electrónico al usuario con la configuración de conferencias de audio mediante la edición de las propiedades del usuario y, a continuación, haciendo clic en **conferencias de Audio** > **Enviar información de conferencia a través de correo electrónico**. 
@@ -121,6 +121,6 @@ Este es un ejemplo del correo electrónico que se envía:
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Probar o comprar Audioconferencia en Office 365](../audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365.md)

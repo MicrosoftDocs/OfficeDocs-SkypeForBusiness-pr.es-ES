@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Configuración de OAuth autenticación entre Exchange local y Skype para profesionales en línea permite la Skype para características empresariales y de integración de Exchange que se describen en compatibilidad con la característica.
 ms.openlocfilehash: 976aae8287c1d9f209975d53ebc64ac80033c591
-ms.sourcegitcommit: 42666cf15b37279244d205715016a10e01fc752e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/02/2019
-ms.locfileid: "31040019"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32216665"
 ---
 # <a name="configure-integration-between-skype-for-business-online-or-microsoft-teams-and-exchange-server"></a>Configurar la integración entre Skype para la empresa en línea o los equipos de Microsoft y Exchange Server 
 

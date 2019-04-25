@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.collection: ''
 description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2019.'
 ms.openlocfilehash: e5a0997fd30447792640364978fea8edefdfe3ed
-ms.sourcegitcommit: 004d9475aa704779f8f70adeaf2db9b36c6828cc
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31836851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240096"
 ---
 # <a name="skype-for-business-server-2019"></a>Skype Empresarial Server 2019
 

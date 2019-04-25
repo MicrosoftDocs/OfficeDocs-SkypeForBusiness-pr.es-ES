@@ -20,11 +20,11 @@ ms.custom:
 hideEdit: true
 description: "Microsoft Teams est l'outil de chat collaboratif automáticamente 365 qui intègre todas LECS personas, contenus et outils no votre équipe un preciso fluidez efectuarse plus impliquée et eficaz. "
 ms.openlocfilehash: 3c3d7f364f53e7317b90388642a5bd18d4c0cab2
-ms.sourcegitcommit: bc2b227b4ac0a9521993f808a1361b4f9bc7faad
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30569873"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231801"
 ---
 # <a name="en-301-549-dclaration-de-conformit-en-matire-daccessibilit"></a>EN 301 549 declaración de conformidad en materia d. ' accessibilité
 

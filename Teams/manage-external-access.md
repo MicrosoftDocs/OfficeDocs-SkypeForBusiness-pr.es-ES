@@ -15,11 +15,11 @@ description: El Administrador de TI puede configurar el acceso externo para otro
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 188c57e6b6c707edb694bb922556dea1c4724846
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "30955025"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32245588"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Administrar el acceso externo (federación) en Microsoft Teams
 ======================================================
@@ -36,17 +36,17 @@ Vea la siguiente tabla para obtener una comparación de externo y acceso a las c
 
 | Característica | Usuarios de acceso externo | Usuarios de acceso de invitado |
 |---------|-----------------------|--------------------|
-| Usuario puede hablar con una persona de otra empresa | Sí |Sí  |
-| Usuario puede llamar a alguien de otra compañía | Sí | Sí  |
+| Usuario puede hablar con una persona de otra empresa | Sí |Sí |
+| Usuario puede llamar a alguien de otra compañía | Sí | Sí |
 | Usuario puede ver si una persona de otra empresa está disponible para la llamada o chat | Sí | Sí<sup>1</sup> |
 | Puede buscar usuario para los usuarios en los inquilinos externos | Sí<sup>2</sup> | No |
 | Usuario puede compartir archivos | No | Sí |
 | Usuario puede tener acceso a los recursos de los equipos | No | Sí |
 | Usuario puede agregarse a una conversación en grupo | No | Sí |
-| Se puede agregar el usuario a una reunión | Sí | Sí  |
+| Se puede agregar el usuario a una reunión | Sí | Sí |
 | Se pueden agregar usuarios adicionales a una conversación con un usuario externo | No hay<sup>3</sup> | N/D |
-| Usuario se identifica como una parte externa | Sí | Sí  |
-| Se muestra la presencia | Sí | Sí  |
+| Usuario se identifica como una parte externa | Sí | Sí |
+| Se muestra la presencia | Sí | Sí |
 | Fuera de la oficina se muestra el mensaje | No | Sí |
 | Se puede bloquear un usuario individual | No | Sí |
 | se admiten @mentions | No | Sí |
@@ -68,7 +68,7 @@ Puede usar el & Teams Microsoft Skype para el centro de administración de negoc
 
      ![Captura de pantalla del modificador de acceso externo activado](media/manage-external-access-2.png).
 
-3. Haga clic en **Guardar**. 
+3. Haga clic en **Guardar **. 
 
 ## <a name="add-or-block-a-domain"></a>Agregar o bloquear un dominio
 
@@ -87,7 +87,7 @@ Siga estos pasos para agregar un dominio o desactivar el acceso externo para un 
 
 3. En **Agregar un dominio**, escriba el nombre del dominio; Por ejemplo, escriba Contoso.com.
 
-4. Seleccione **Permitir** o **Bloquear**. Puede cambiar esta configuración en cualquier momento.
+4. Seleccione **Permitido** o **Bloqueado**. Puede cambiar esta configuración en cualquier momento.
 
 2. Seleccione **Listo**.
 

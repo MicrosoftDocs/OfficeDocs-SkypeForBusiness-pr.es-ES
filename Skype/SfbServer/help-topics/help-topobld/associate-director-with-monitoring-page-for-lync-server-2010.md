@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4ad77291-832d-41ee-9ffc-61132691363b
 description: 'Para configurar un servidor de supervisión y asociarlo con el Director o el Director de grupo de servidores:'
 ms.openlocfilehash: d7be5cb4a53988f67d31c795c6ed7b408c9b65a7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895565"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227420"
 ---
 # <a name="associate-director-with-monitoring-page-for-lync-server-2010"></a>Asociar director con la página de supervisión para Lync Server 2010
  

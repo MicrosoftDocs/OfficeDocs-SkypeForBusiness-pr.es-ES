@@ -14,11 +14,11 @@ ms.assetid: ce6764ce-c88f-4050-895e-d1d886106972
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccione Exchange operador automático de UM para seleccionar a un Exchange operador automático de UM que controlará las llamadas entrantes a un intervalo de números sin asignar.
 ms.openlocfilehash: decb3023f6faa58d74331714f09ae5415817e966
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32221528"
 ---
 # <a name="select-exchange-um-auto-attendant"></a>Seleccionar Operador automático de MU de Exchange
 

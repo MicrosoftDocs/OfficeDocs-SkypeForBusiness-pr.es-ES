@@ -13,11 +13,11 @@ ms.collection: M365-voice
 ms.assetid: ''
 description: Administrar las actualizaciones de Windows para salas de equipos de Microsoft
 ms.openlocfilehash: 723ecf20fb835a3d942270e9de6d59416a9cd14a
-ms.sourcegitcommit: 4266c1fbd8557bf2bf65447557ee8d597f90ccd3
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31013105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214732"
 ---
 # <a name="manage-windows-updates"></a>Administrar las actualizaciones de Windows
 

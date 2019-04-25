@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 38e5f060-5e9b-4185-87b2-7ef61c4bb75f
 description: Informes de progreso se basan en los datos cargados por el cliente a la base de datos después de que se complete una llamada o una sesión. Informes de progreso se escribirá sólo para las llamadas y las sesiones de Skype para Business Server 2015 determina podría ser útil con fines de diagnóstico.
 ms.openlocfilehash: 6d638411f39956664c977e87785a1269ee788a5f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899760"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32212869"
 ---
 # <a name="progressreport-table"></a>Tabla ProgressReport
  

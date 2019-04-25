@@ -3,7 +3,7 @@ title: Administrar directivas de reunión
 author: tonysmit
 ms.author: tonysmit
 manager: serdars
-ms.date: 03/22/2019
+ms.date: 04/18/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua
@@ -21,12 +21,12 @@ f1keywords:
 - ms.teamsadmincenter.meetingpolicies.general
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 description: Obtenga información sobre cómo administrar la configuración de directivas en los equipos de la reunión.
-ms.openlocfilehash: a31f663a7714a0a5af09e6fddd9436e710582fa1
-ms.sourcegitcommit: 58fec9aebd80029e1f1e71376efe222f9abf707e
+ms.openlocfilehash: 01d4ec8265c069d5fdbd6d8bb64ab89ec991956a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31517203"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32231817"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Administrar las directivas de reunión en los equipos
 
@@ -84,7 +84,7 @@ Cuando seleccione una directiva existente en la página de **directivas de reuni
 
 <a name="bkgeneral"> </a>
 ### <a name="general"></a>General
-   - **Permitir Reunirse ahora** Activar esto le permitirá la característica Reunirse ahora para que esté disponible para los usuarios que se unen a las reuniones.
+   - **Permitir Reunirse ahora en canales** Activar esto le permitirá la característica Reunirse ahora para que esté disponible para los usuarios que se unan a las reuniones.
    - **Permitir que el complemento de Outlook** Activar esto le permitirá a los usuarios asignados a la directiva de tener el complemento de Outlook disponible al programar reuniones.
    - **Programación de reuniones de canal de permitir** Activar esto le permitirá programar reuniones de canal.
    - **Permitir programar reuniones privadas** Activar Esto permitirá a los usuarios que se unen a una reunión para programar reuniones privadas.
@@ -110,8 +110,13 @@ Cuando seleccione una directiva existente en la página de **directivas de reuni
 <a name="bkparticipantsandguests"> </a>
 
 ### <a name="participants--guests"></a>Invitados de & de los participantes
-   - **Permitir a las personas que acceso telefónico para iniciar una reunión** Puede activar o desactivar si desea permitir que las personas que aún no se ha autenticado porque ha marcado en usar su teléfono para iniciar una reunión.
-   - **Admitir automáticamente las personas** Determina qué tipos de participantes establece automáticamente agregarse a las reuniones organizadas por este usuario. Debe establecer en "Todos los usuarios de la organización" si le gustaría que las reuniones para colocar todos los usuarios externos en la sala de espera, pero permitir que a todos los usuarios de la compañía para unirse a la reunión inmediatamente. Debe establecer en "Todos" Si desea que admiten a usuarios anónimos de forma predeterminada. Debe establecer en "Todas las personas de su organización y de organizaciones federadas" si le gustaría que las reuniones para permitir que los usuarios federados puedan unirse al igual que los usuarios de su compañía, pero colocar todos los demás usuarios externos en una sala de espera.
+   - **Permitir a las personas que acceso telefónico para iniciar una reunión** Puede activar o desactivar si desea permitir que las personas que aún no se ha autenticado debido a que marcó en usar su teléfono para iniciar una reunión.
+   - **Admitir automáticamente las personas** Determina qué tipos de participantes establece automáticamente agregarse a las reuniones organizadas por este usuario. Establecer esto para **todos los usuarios de la organización** si le gustaría que las reuniones para colocar todos los usuarios externos en la sala de espera, pero permitir que a todos los usuarios de la compañía para unirse a la reunión inmediatamente. Establecer esto para **todos los usuarios** si desea que admiten a usuarios anónimos de forma predeterminada. Debe establecer **todas las personas de su organización y de organizaciones federadas** si le gustaría que las reuniones para permitir que los usuarios federados puedan unirse al igual que los usuarios de su compañía, pero colocar todos los demás usuarios externos en una sala de espera.
+   - **Permitir que los usuarios de acceso telefónico para el desvío de la sala de espera** Puede activar o desactivar si desea permitir que las personas que marcó usar su teléfono para el desvío de la sala de espera y unirse a la reunión.
+   - **Permitir que los organizadores para invalidar la configuración de la sala de espera** Activar esta opción para permitir que los organizadores de reuniones a pasar por alto la configuración de la sala de espera para admitir a los usuarios a las reuniones.
+   - **Permitir Reunirse ahora en las conferencias privadas** Activar esta opción para permitir a los asistentes de la reunión reunirse en privado a través de chat antes de que comience la reunión. 
+   - **Habilitar los títulos live** Habilite esta opción para mostrar los títulos de los idiomas admitidos durante una reunión. 
+   - **Permitir charla en las reuniones** Habilite esta opción para permitir charlas durante una reunión. Esto resulta útil si los usuarios tienen alguna pregunta o desean insertar un hipervínculo o una nota durante una discusión, pero no desean interrumpir la conversación.
 
 [Artículo completo](meeting-policies-in-teams.md)
 

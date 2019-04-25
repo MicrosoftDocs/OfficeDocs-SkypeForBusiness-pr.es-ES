@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Resumen: Obtenga información sobre cómo administrar el servidor de Chat persistente alta disponibilidad y recuperación ante desastres en Skype para Business Server 2015.'
 ms.openlocfilehash: b7c898be275a4a3642eae88412a14686b258130f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897482"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232685"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  

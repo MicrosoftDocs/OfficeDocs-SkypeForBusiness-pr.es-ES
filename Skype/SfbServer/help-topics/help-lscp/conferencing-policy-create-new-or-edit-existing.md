@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Una directiva de conferencia define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también denominada reunión)
 ms.openlocfilehash: 393ced559593f63068dd8cf0761096330b8c4544
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899571"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32234710"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Directiva de conferencia: Crear nueva o editar existente
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Configurar una aplicación SNMP para que funcione con E9-1-1 en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: f45666708b2f5bb3065631bbb4ab38ee88082517
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898602"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223693"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Configuración de una aplicación SNMP en Skype para Business Server
  
@@ -42,7 +42,7 @@ Si se instala una aplicación SNMP y se produce un error en el servicio de infor
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Set-CsWebServiceConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)
 

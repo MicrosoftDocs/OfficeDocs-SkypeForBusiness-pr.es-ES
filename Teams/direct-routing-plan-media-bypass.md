@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear el desvío de medios con el enrutamiento directo teléfono del sistema.
 ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
-ms.sourcegitcommit: 856793c99fc02fb016383d0b6f8411c386d78886
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31827884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32232803"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -287,7 +287,7 @@ Desvío de medios es compatible con todos los extremos de los equipos, excepto l
 
 Si los usuarios prefieren la aplicación Web de los equipos en Microsoft Edge, Google Chrome o Mozilla Firefox, debe desactivarse el desvío de medios para dichos usuarios. Se le presentarán llamadas utilizando un tronco habilitado el desvío de medios en el futuro.   
  
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar el desvío de medios con enrutamiento directo](direct-routing-configure-media-bypass.md)
 

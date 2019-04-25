@@ -4,7 +4,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.reviewer: mikedav, oscarr
-ms.topic: article
+ms.topic: reference
 ms.assetid: 576e0cc3-0a1a-43bf-a6fc-3a28e47ecd58
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: b383478d676d905b508b6640c98c04a4f721b92a
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: fdce6af00070c02a9559f8ead6610d7d875a52d2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30463455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223348"
 ---
 # <a name="toll-free-dialing-restrictions-in-mexico"></a>Restricciones de marcado de número gratuito en México
 
