@@ -3,7 +3,7 @@ title: Crear sus primeros equipos y canales en Microsoft Teams
 author: LanaChin
 ms.author: v-lanac
 manager: serdars
-ms.date: 11/06/2018
+ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: lolaj
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3870482a3c9d0322952c09815dc91aa0aebfd9ad
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30465231"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32246339"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear sus primeros equipos y canales en Microsoft Teams
 
@@ -49,7 +49,7 @@ Esta una sugerencia de estructura para el equipo.
 | Soporte técnico | Si algo no funciona según lo esperado, use este canal para obtener ayuda. ||
 
 ## <a name="get-your-first-teams-up-and-running"></a>Ponga en funcionamiento los primeros equipos
-Como administrador, puede crear y administrar equipos y canales en el cliente de Teams o en el centro de administración de Microsoft Teams. Puede crear los equipos como públicos o privados. También puede crear un equipo de toda la organización. Todos los usuarios de Teams de su organización pueden unirse a un grupo público. En los equipos privados, los propietarios del equipo administran los miembros del grupo. Y en un grupo de toda la organización, todas las personas de su organización se agregan automáticamente. 
+Como administrador, puede crear y administrar equipos y canales en el cliente de Teams o en el centro de administración de Microsoft Teams. Puede crear los equipos como públicos o privados. También puede crear un [equipo de toda la organización](create-an-org-wide-team.md). Todos los usuarios de Teams de su organización pueden unirse a un grupo público. En los equipos privados, los propietarios del equipo administran los miembros del grupo. Y en un grupo de toda la organización, todas las personas de su organización se agregan automáticamente. 
 
 Para empezar, se recomienda crear equipos privados y agregar otro propietario para administrar los miembros y la configuración de cada equipo. 
 
@@ -58,7 +58,7 @@ Para empezar, se recomienda crear equipos privados y agregar otro propietario pa
 
 ### <a name="create-a-team"></a>Crear un equipo
 
-En el lado izquierdo de Teams, haga clic en **Equipos** y, a continuación, en la parte inferior de la lista de equipos, haga clic EN **Unirse o crear un equipo**. En el icono **Crear un equipo**, haga clic en **Crear equipo**.
+En el lado izquierdo de Teams, haga clic en **Equipos**, en la parte inferior de la lista de equipos, haga clic en **Unirse o crear un equipo** y seleccione **Crear un nuevo equipo**.
 
 Una vez que haya creado el equipo, invite a personas a unirse a él. Puede agregar usuarios individuales, grupos e incluso un grupo entero de contactos (anteriormente conocido como "lista de distribución"). 
 
@@ -68,7 +68,7 @@ Una vez que haya creado el equipo, invite a personas a unirse a él. Puede agreg
 Busque el equipo que ha creado, haga clic en **Más opciones** > **Administrar equipo**. Después, vaya a la pestaña **Miembros**. Busque las personas que desea designar como propietarios del equipo. En **Rol**, haga clic en **Propietario**.
 
 ### <a name="create-a-channel-in-a-team"></a>Crear un canal en un equipo
-Busque el equipo que ha creado, haga clic en **Más opciones** > **Agregar canal**. También puede hacer clic en **Administrar equipo** y agregar un canal en la pestaña **Canales**. 
+Busque el equipo que ha creado, haga clic en **Más opciones ...** > **Agregar canal**. También puede hacer clic en **Administrar equipo** y agregar un canal en la pestaña **Canales**. 
 
 ![Agregar un canal a un equipo](media/get-started-with-teams-add-channel.png "captura de pantalla de la opción de Agregar canal, opción de Administrar equipo y otras opciones que están disponibles al hacer clic en Más opciones de un equipo") 
 
