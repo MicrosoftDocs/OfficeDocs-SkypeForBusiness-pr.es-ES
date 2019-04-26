@@ -7,7 +7,7 @@ ms.date: 12/26/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Empezar a actualizar Skype para la empresa a Microsoft Teams
+description: Introducción a la actualización de Skype Empresarial a Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -25,25 +25,25 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: a6fe072d3ffa8764b0c5f86347db4c187e18b046
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
-ms.translationtype: MT
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30649239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223073"
 ---
 # <a name="upgrade-to-teams"></a>Actualizar a Teams
 
-Le felicitamos por la actualización pendiente de Skype para la empresa a Microsoft Teams. Si está acaba de empezar con los equipos, ya está usando los equipos junto con Skype para la empresa, o listo para actualizar, queremos para asegurarse de que tiene todo lo necesario navegar por un viaje correcto a los equipos.  
+Enhorabuena por la actualización pendiente de Skype Empresarial a Microsoft Teams. Ya sea que recién comienza o que ya está usando Teams junto con Skype Empresarial o listo para mejorar, queremos asegurarle de que tiene todo lo necesario navegar por un existoso viaje a Teams.  
 
-[Empezar a trabajar con su Teams Microsoft actualizar](upgrade-start-here.md).
+[Introducción a la actualización de Microsoft Teams](upgrade-start-here.md).
 
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
 > [!Tip]
-> Ver las sesiones siguientes para obtener más información acerca de la actualización de Skype para la empresa a Microsoft Teams:
+> Vea las siguientes sesiones para obtener información sobre la Actualización de Skype Empresarial a Microsoft Teams:
 > - [Introducción a la actualización](https://aka.ms/teams-upgrade-intro)
-> - [Planear la actualización](https://aka.ms/teams-upgrade-plan)
-> - [Interoperabilidad y coexistencia](https://aka.ms/teams-upgrade-coexistence-interop)
+> - [Planificar la actualización](https://aka.ms/teams-upgrade-plan)
+> - [Coexistencia e interoperabilidad](https://aka.ms/teams-upgrade-coexistence-interop)
 > - [Experiencia del administrador](https://aka.ms/teams-upgrade-admin)
