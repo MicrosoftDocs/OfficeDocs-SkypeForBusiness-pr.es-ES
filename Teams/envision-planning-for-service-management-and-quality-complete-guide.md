@@ -1,7 +1,7 @@
 ---
 title: Plan para la guía de administración de servicios de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/16/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 29f8406eea943b86bf75a4dfeec6feb723bcb02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b2039409d2cfb63672f1c2bb4ae5cdf68323be2
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202632"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304848"
 ---
 # <a name="plan-for-service-management-and-quality"></a>Plan para la calidad y la administración de servicios
 
