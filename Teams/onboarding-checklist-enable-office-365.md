@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación de incorporación para habilitar el servicio de Office 365 para Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1bd03565507c8b32afc2415cde8ee6c2cf45c500
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62f5b3180a0153aa0600d4d80b90fe6c681af43e
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225550"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304528"
 ---
 # <a name="enable-office-365"></a>Habilitar Office 365
  

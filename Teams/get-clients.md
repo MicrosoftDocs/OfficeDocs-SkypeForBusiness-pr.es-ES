@@ -3,7 +3,7 @@ title: Obtener clientes para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 07/05/2018
+ms.date: 04/25/2019
 audience: Admin
 ms.topic: article
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 43344ac9ea00c15bcb4fb7518d727ccc9cff92de
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
-ms.translationtype: HT
+ms.openlocfilehash: 378abc8f49e15a0ef8cb4084ef7968fd8b3ed327
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934718"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304728"
 ---
 <a name="get-clients-for-microsoft-teams"></a>Obtener clientes para Microsoft Teams 
 ===========================
@@ -31,7 +31,9 @@ ms.locfileid: "30934718"
 Microsoft Teams tiene clientes disponibles para web, escritorio (Windows y Mac) y móvil (iOS y Android). Todos estos clientes requieren una conexión a Internet activa y no admiten el modo sin conexión.
 
 > [!NOTE]
-> A partir del 29 de noviembre de 2018, ya no podrá usar la aplicación de Microsoft Teams para Windows 10 S (versión preliminar), disponible en Microsoft Store. Le recomendamos que use una de las aplicaciones de Teams que se describen a continuación en este artículo después del 29 de noviembre.
+> A partir del 29 de noviembre de 2018, ya no podrá usar la aplicación de Microsoft Teams para Windows 10 S (versión preliminar), disponible en Microsoft Store. En su lugar, ahora puede descargar e instalar al cliente de escritorio de los equipos en los dispositivos que ejecutan el modo Windows 10 S. Para descargar el cliente de escritorio, vaya a [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754). Compilaciones MSI del cliente de escritorio de los equipos aún no están disponibles para los dispositivos que ejecutan el modo Windows 10 S.
+>
+> Para obtener más información sobre el modo de Windows 10 S, vea [Introducción a 10 de Windows en el modo de S](https://www.microsoft.com/windows/s-mode). 
 
 <a name="desktop-client"></a>Cliente de escritorio
 --------------
@@ -45,7 +47,7 @@ Los clientes de escritorio brindan asistencia en tiempo real para las comunicaci
 
 Los usuarios pueden descargar e instalar los clientes de escritorio directamente desde [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) si tienen los permisos locales adecuados (no se requieren derechos de administrador para instalar el cliente de Teams en PC, pero sí son necesarios para Mac).
 
-Los administradores de TI pueden elegir su método preferido para distribuir los archivos de instalación en los equipos de su organización, como System Center Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).
+Los administradores de TI pueden elegir su método preferido para distribuir los archivos de instalación en los equipos de su organización, como System Center Configuration Manager (Windows) o Jamf Pro (macOS). Para obtener el paquete de MSI de distribución de Windows, vea [Instalar Microsoft Teams con MSI](msi-deployment.md).  
 
 > [!NOTE]
 > La distribución del cliente a través de estos mecanismos es solo para la instalación inicial de los clientes de Microsoft Teams y no para futuras actualizaciones.
@@ -133,7 +135,7 @@ Las aplicaciones móviles se distribuyen y actualizan solo a través de la corre
 <a name="client-update-management"></a>Administración de actualizaciones del cliente
 ------------------------
 
-Actualmente, el servicio de Microsoft Teams actualiza los clientes en forma automática, sin que se necesite la intervención del administrador de TI. Si hay una actualización disponible, el cliente descargará automáticamente la actualización y, cuando la aplicación esté inactiva durante un tiempo, comenzará el proceso de actualización.
+Los clientes actualmente se se actualizan automáticamente por el servicio de Microsoft Teams sin intervención del Administrador de TI necesarios. Si hay disponible una actualización, el cliente descargue automáticamente la actualización y cuando la aplicación ha inactivos durante un período de tiempo, se iniciará el proceso de actualización.
 
 <a name="client-side-configurations"></a>Configuración del lado del cliente
 ---------------------------

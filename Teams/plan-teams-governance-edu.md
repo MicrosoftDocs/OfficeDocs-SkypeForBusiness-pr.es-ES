@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes de la administración de Microsoft Education para profesionales de TI - Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/10/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2be87b8d48970c9f33a4a49ae9970bee6fb3da3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 425dc91384dd97af1b61ab6c0a19d003e20330be
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246165"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304744"
 ---
 # <a name="microsoft-education-governance-faq-for-admins"></a>Preguntas frecuentes de la administración de Microsoft Education para administradores
 

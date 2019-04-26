@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b0a10f56c29ca2218d5dde2c98fb3285c3907b1d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9840b5c84e9d7ebf07106977112a249c580fd414
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241535"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304784"
 ---
 # <a name="document-my-success-plan"></a>Documentar el plan de éxito
 

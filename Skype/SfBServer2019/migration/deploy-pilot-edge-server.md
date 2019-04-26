@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: En este tema resalta las opciones de configuración que deben tener en cuenta antes de implementar su Skype para servidor perimetral de Business Server 2019. Los procesos de implementación y configuración de Skype para Business Server 2019 son muy similares a Skype para Business Server 2015. Esta sección resalta sólo puntos clave que debe tener en cuenta como parte de la implementación del grupo piloto. Para obtener instrucciones detalladas, vea implementar el acceso de usuarios externos en Skype para Business Server 2019 en la documentación de implementación, que se describe el proceso de implementación y también se proporciona información de configuración para el acceso de usuarios externos.
 ms.openlocfilehash: 5b755d0ba8802c47a176cb3375a87b6523f35fad
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239858"
 ---
 # <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
 

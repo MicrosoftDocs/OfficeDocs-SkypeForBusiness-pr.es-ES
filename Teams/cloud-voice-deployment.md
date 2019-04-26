@@ -1,13 +1,13 @@
 ---
 title: Implementar voz en la nube
 author: arachmanGitHub
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 08/21/2018
 ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
-ms.reviewer: MyAdvisor
+ms.reviewer: Rowille
 description: Guía práctica para implementar características de voz en la nube en Microsoft Teams.
 localization_priority: Normal
 MS.collection:
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d4089e0e9ff9ce0ecbff63e55a43d2dc9f2ca7d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6fecac31290cbf764212cfebb05c6178def42708
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194760"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304392"
 ---
 # <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 

@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lea este tema para obtener información sobre cómo planear para varios números de emergencias en Skype Business Server.
 ms.openlocfilehash: e3ecbc039dac510a1ebc5eb989773c1f32c3b6ac
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880766"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214162"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planeación de varios números de emergencias en Skype para Business Server
  

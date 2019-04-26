@@ -1,7 +1,7 @@
 ---
 title: 'Tomar decisiones relacionadas con el servicio de Audioconferencia: Microsoft Teams'
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 12/28/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b6bd854de7af09ebea6b66a6393beb751f11770
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3867f7f2f9dd2f093b71ced40b0c07b6c5395041
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241543"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304800"
 ---
 # <a name="make-my-service-decisions"></a>Tomar decisiones de mi servicio
 

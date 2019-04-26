@@ -1,7 +1,7 @@
 ---
 title: Comité directivo para la implementación de servicios de voz de nube de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 010d4e2b7a9f64ca57e38b185b013d92b4d7c1ca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67117c8cd6558437f70b5e26248072d4aae2568b
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235379"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304832"
 ---
 # <a name="steering-committee"></a>Comité de dirección
 

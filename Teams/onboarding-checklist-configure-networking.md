@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación de incorporación para configurar la red de Microsoft Teams
 author: rmw2890
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 188a4d162f31805484d3b491d32976662f4ddfd5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b716c47880a4a36ab58ebc4b6c506003362f36b9
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225574"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304536"
 ---
 # <a name="configure-networking"></a>Configuración de redes
 

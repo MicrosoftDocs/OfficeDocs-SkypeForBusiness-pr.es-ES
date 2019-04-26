@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ea80d3ba87a6499cba3bf52b5f70d45d0619c8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 397917e8e5e2fc2c2707e9bbad67e031d96c09dc
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32242016"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304384"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 072fc92184841be318e84e7891a204d1b7576215
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b4e6d7c647c619baf5a890b74b2e807dbc111ca0
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246173"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304752"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 

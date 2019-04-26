@@ -1,24 +1,24 @@
 ---
 title: Guía práctica para implementar Audioconferencia en Microsoft Teams.
 author: arachmanGitHub
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/12/2018
 ms.topic: article
 ms.service: msteams
-ms.reviewer: MyAdvisor, lolaj
+ms.reviewer: Rowille, lolaj
 description: Guía práctica para planificar, implementar y administrar Sistema telefónico con Planes de llamada en Microsoft Teams mediante el marco Enfoque (planificar), Incorporación (entregar), Nuevos valores (operar).
 localization_priority: Normal
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/cloud-voice-deployment
-ms.openlocfilehash: c5e9015bb13dd21ff503ac5767cce5b9704eef03
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8f7ef70bb7589facaec4cb131c3667464a658fbb
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205666"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304808"
 ---
 <a name="practical-guidance-for-audio-conferencing-in-microsoft-teams"></a>Guía práctica para implementar Audioconferencia en Microsoft Teams.
 ============================================================

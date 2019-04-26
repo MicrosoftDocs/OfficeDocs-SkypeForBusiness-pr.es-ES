@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para conferencias en Skype para Business Server.'
 ms.openlocfilehash: 3385395eb34e69fadcdce4ba4bf529a347a2979c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883931"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214396"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Requisitos de hardware y software para conferencias en Skype para Business Server
 

@@ -1,7 +1,7 @@
 ---
 title: Preparar a los usuarios para Microsoft Teams
 author: dearbeen
-ms.author: MyAdvisor
+ms.author: Rowille
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2231b8d9d80507be863d1aef64e8aa0d91cddeec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e0c87289e8b9ab43e161e7882604f88a86c6a031
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32241712"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304416"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 

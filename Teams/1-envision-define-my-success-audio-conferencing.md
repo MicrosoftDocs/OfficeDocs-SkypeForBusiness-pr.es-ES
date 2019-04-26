@@ -13,12 +13,12 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 redirect_url: https://docs.microsoft.com/MicrosoftTeams/1-envision-define-my-success-cloud-voice
-ms.openlocfilehash: 7c294b3ac75b92f7c6e2384f34497bc620478d29
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6eab81e69f279b521285aca7cb9c56d1e6810e8c
+ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32243781"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304432"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
