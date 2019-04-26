@@ -21,11 +21,11 @@ ms.custom:
 - Licensing
 description: 'Obtenga información sobre cómo asignar licencias de Skype Empresarial para el Sistema telefónico, las Audioconferencias, los Planes de llamadas y los Créditos de Comunicaciones. '
 ms.openlocfilehash: e81c4c4d2fc11202ac114912ca309d93b00f2062
-ms.sourcegitcommit: f9a9a7e4b7f6c821a3372f7dcb966a8a6d458752
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "30952469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226124"
 ---
 # <a name="assign-skype-for-business-licenses"></a>Asignar licencias de Skype Empresarial
 

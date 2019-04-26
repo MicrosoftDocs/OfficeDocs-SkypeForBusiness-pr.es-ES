@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
 ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237780"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 
@@ -37,7 +37,7 @@ Esto es lo que necesita:
 
 - Una cuenta con un proveedor de audioconferencias para Skype Empresarial Online.
 
-## <a name="what-do-you-want-to-do"></a>¿Qué desea hacer?
+## <a name="what-do-you-want-to-do"></a>¿Qué quiere hacer?
 
 > [Configurar cuentas de prueba](test-your-skype-for-business-online-installation.md#__toc328126910)
 > 

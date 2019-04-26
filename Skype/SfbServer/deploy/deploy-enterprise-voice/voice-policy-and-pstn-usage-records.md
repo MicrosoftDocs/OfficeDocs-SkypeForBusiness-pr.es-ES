@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Resumen: Crear o modificar directivas de voz y configurar registros de uso de RTC mediante la Skype para el Panel de Control de servidor empresarial.'
 ms.openlocfilehash: 9a7847e918be71b88a7ba32c986c18f7659905ee
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222522"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa
 
@@ -334,7 +334,7 @@ ms.locfileid: "30875577"
 
 12. (Opcional) Correo de voz Escape detecta que una llamada se respondió inmediatamente por correo de voz de teléfono móvil del usuario y desconecta de la llamada al correo de voz de teléfono móvil. Esto permite la llamada pasar a llamar en el usuario de otros extremos dar al usuario la oportunidad de responder a la llamada. Para obtener información detallada sobre cómo configurar una directiva de correo de voz, vea [Configure escape de correo de voz de Skype para la empresa](configure-voice-mail-escape.md).
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
 

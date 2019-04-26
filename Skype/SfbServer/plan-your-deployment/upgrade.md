@@ -16,11 +16,11 @@ ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Resumen: Conozca las cosas que debe tener en cuenta al planear una actualización a Skype para Business Server 2015. Descargue una versión de prueba gratuita de Skype para Business Server 2015 desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
 ms.openlocfilehash: 711b675c902824e6aab31ed64266a946a135b7fb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899168"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213497"
 ---
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planear la actualización a Skype Empresarial Server 2015
  
@@ -184,10 +184,10 @@ Al migrar una topología de Lync Server 2010 a Skype Empresarial Server 2015, de
   
 Para topologías de coexistencia de Lync Server 2010 y Lync Server 2013, alinear primero las recomendaciones realizadas en la sección 'Soporte técnico para la coexistencia con Lync Server 2013 y Lync Server 2010'.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="BKMK_PlanUpgradeFromLync2013"> </a>
 
-[Upgrade to Skype for Business Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
+[Actualizar a Skype Empresarial Server 2015](../deploy/upgrade-to-skype-for-business-server.md)
   
 [Environmental requirements for Skype for Business Server 2015](requirements-for-your-environment/environmental-requirements.md)
   

@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
+title: ¿Por qué estoy teniendo problemas al especificar Reino Unido ¿información de la dirección?
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -22,13 +22,13 @@ ms.custom:
 - Calling Plans
 description: A continuación presentamos algunas de las razones por qué puede que tenga problemas para obtener la dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
 ms.openlocfilehash: dafc6608f45393ccc0a39ecdb2c01e2479ec630b
-ms.sourcegitcommit: c5940ef2674a00281604045baf8b2a320c4b189d
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "24958285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227818"
 ---
-# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué estoy teniendo problemas cuando introduzco la información de dirección de Reino Unido?
+# <a name="why-am-i-having-problems-entering-uk-address-information"></a>¿Por qué estoy teniendo problemas al especificar Reino Unido ¿información de la dirección?
 
 A continuación presentamos algunas de las razones por qué puede que tenga problemas para obtener la dirección o direcciones para validar correctamente en el Reino Unido (Reino Unido).
   

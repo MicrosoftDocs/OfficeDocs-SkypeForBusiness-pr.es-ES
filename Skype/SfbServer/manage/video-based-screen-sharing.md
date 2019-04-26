@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
 ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215006"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Pantalla compartida basada en vídeo para Skype Empresarial Server 
  
@@ -190,7 +190,7 @@ Lo mejor es que, una vez que ha instalado el Skype para Business Server 2015 act
 > [!NOTE]
 > En un Skype varios participantes de la reunión de negocios, todos los extremos de cliente va a respetar la configuración de directiva para el organizador de la reunión. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Skype para Business Server 2015 actualización acumulativa KB3061064](https://www.microsoft.com/en-us/download/details.aspx?id=47690)
   

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Resumen: Lea este tema para obtener información sobre cómo crear directivas de usuario inicial para el servidor de Chat persistente en Skype para Business Server 2015. Las directivas de usuario de charla persistentes determinan si los usuarios pueden acceder a salones de chat.'
 ms.openlocfilehash: e082898d92e622827e2543316b07a8be224c56c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225458"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Configurar las directivas de usuario del chat persistente de Skype Empresarial Server 2015
  

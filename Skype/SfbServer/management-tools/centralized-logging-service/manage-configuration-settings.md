@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Resumen: Obtenga información sobre cómo recuperar, actualizar y crear opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
 ms.openlocfilehash: 1aab363f88b7639e2eb61f9101864bac20cc0aa0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217519"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 
@@ -180,7 +180,7 @@ Por ejemplo, para quitar una configuración del servicio de registro centralizad
 > Esta es la configuración nueva que se creó en el procedimiento "para"crear una nueva configuración de servicio de registro centralizado.
 
 Si decide quitar una configuración de sitio, el sitio usará la configuración global.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar proveedores para el servicio de registro centralizado en Skype Empresarial Server 2015](configure-providers.md)
 

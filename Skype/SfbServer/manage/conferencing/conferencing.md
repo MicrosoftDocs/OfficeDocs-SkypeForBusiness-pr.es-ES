@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Resumen: Obtenga información sobre cómo administrar las conferencias en Skype para Business Server.'
 ms.openlocfilehash: 683da834b6de82d9da857ad4ab0a07e2ac4a6731
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32222922"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Administrar las conferencias en Skype para Business Server
  

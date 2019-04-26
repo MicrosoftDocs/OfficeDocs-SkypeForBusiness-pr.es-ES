@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear su Skype para infraestructura de Business Server 2015 mediante el uso de la Skype para la herramienta de planeación de Business Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte de la infraestructura o el dominio donde va a instalar Skype para Business Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y uso de la herramienta. Se ha duplicado aquí una parte de la información del archivo Léame para mayor claridad.
 ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884135"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217302"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la Herramienta de planeación en Skype Empresarial Server 2015
 
@@ -106,7 +106,7 @@ La exportación del diseño a Microsoft Visio genera un diagrama para su uso en 
 
 - Diagrama de red: diagrama que detalla la configuración del servidor perimetral con direcciones IP y los nombres de dominio completos asociados de bordes. El equilibrio de carga de DNS y los equilibradores de carga de hardware también están incluidos. Además, los directores y el grupo de servidores Front-End o de servidor Front-End se muestran, con asociados kg de DNS o HLB y la dirección IP asignada (la herramienta de planeación es compatible con direcciones IPv4 e IPv6) y del FQDN.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="Optional_Software"> </a>
 
 [Installing the Planning Tool](https://technet.microsoft.com/library/ebdc9e26-4b22-4b02-85b9-7462bcfe7c93.aspx)

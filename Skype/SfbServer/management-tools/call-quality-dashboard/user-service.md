@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Resumen: Información sobre el servicio de usuario, que forma parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
 ms.openlocfilehash: 4ee4594e86b14655c94472b516b9e04da674e3f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30872884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217645"
 ---
 # <a name="user-service-for-cqd"></a>Servicio de usuario para CQD
  

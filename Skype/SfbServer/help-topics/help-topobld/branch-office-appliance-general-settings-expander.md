@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
 description: 'Para editar la configuración de una aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, le presentamos las secciones siguientes:'
 ms.openlocfilehash: 336d64edfac0bda730a289284075267d7e7984d5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884946"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227593"
 ---
 # <a name="branch-office-appliance-general-settings-expander"></a>Expansor de configuración general de aplicación de sucursal
 
@@ -72,7 +72,7 @@ Definir las puertas de enlace de RTC que están asociados con el servidor de med
 
 Si tiene más de una puerta de enlace asociada con un servidor de mediación, la primera puerta de enlace asociada será la puerta de enlace predeterminada. Si tiene que elegir otra puerta de enlace como predeterminada, seleccione la que quiera y, luego, haga clic en **Establecer como predeterminado**.
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 Para obtener información detallada sobre cómo definir y configurar las opciones de la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, consulte [Soluciones de resistencia de sitios de sucursal](https://technet.microsoft.com/library/1700f99b-709c-4e47-88eb-c0a5490e26e2.aspx).
 

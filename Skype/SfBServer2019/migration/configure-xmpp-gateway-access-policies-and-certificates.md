@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: 'La federación XMPP define una implementación externa en función de la mensajería eXtensible y el protocolo de presencia (XMPP). Una configuración de XMPP permite a los usuarios acceso a los usuarios de dominio XMPP por:'
 ms.openlocfilehash: 65ef8904660eaa75ddd10238a6561ea91b9f7278
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238664"
 ---
 # <a name="configure-xmpp-gateway-access-policies-and-certificates"></a>Configurar certificados y directivas de acceso por puerta de enlace XMPP
 

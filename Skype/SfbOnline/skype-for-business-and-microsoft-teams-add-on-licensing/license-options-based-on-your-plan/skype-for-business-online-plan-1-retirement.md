@@ -1,5 +1,5 @@
 ---
-title: 'Skype para retirada de negocio Online Plan 1 '
+title: 'Skype Empresarial Online Plan 1 jubilación '
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -20,13 +20,13 @@ ms.custom:
 - Licensing
 description: 'Se ha retirado la Skype para profesionales Online Plan 1. Sin embargo, si dispone de una suscripción actual a Skype para profesionales Online Plan 1, este cambio no afectará a se inmediatamente. Cuando esté preparado para pasar a un nuevo plan: ahora o durante la renovación, tendrá tres opciones.'
 ms.openlocfilehash: d8468fa2d070e98cb19a1f41fff6884ac7c3517e
-ms.sourcegitcommit: 6212645c485c41aafe1206bf7d39171ce35837b2
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "24968621"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248717"
 ---
-# <a name="skype-for-business-online-plan-1-retirement"></a>Skype para retirada de negocio Online Plan 1 
+# <a name="skype-for-business-online-plan-1-retirement"></a>Skype Empresarial Online Plan 1 jubilación 
 
 Se ha retirado la Skype para profesionales Online Plan 1. Sin embargo, si dispone de una suscripción actual a Skype para profesionales Online Plan 1, este cambio no afectará a se inmediatamente. Como un administrador global de Office 365, recibirá actualizaciones de correo electrónico y vea las entradas en el centro de mensajes (parte del centro de administración de Office 365) con información acerca de cuándo debe tomar medidas. Mientras tanto, se puede seguir usando su Skype existente para las licencias de negocio Online Plan 1.
 

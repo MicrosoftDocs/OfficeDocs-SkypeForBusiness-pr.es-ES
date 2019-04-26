@@ -14,11 +14,11 @@ ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede realizar las acciones siguientes:'
 ms.openlocfilehash: bef624564d8c6f20555d8a9b2f9bb5f3dba7a43c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878490"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235319"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace RTC
  

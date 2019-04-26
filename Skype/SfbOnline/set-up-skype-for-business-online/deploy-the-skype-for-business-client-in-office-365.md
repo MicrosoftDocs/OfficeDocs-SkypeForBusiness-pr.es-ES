@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo planear e implementar Skype para la empresa en organizaciones pequeñas, medianas y grandes y ponerlo a disposición de los usuarios. '
 ms.openlocfilehash: 6dccd022d82519c1dfdce13f767e5b0a2531eb10
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237696"
 ---
 # <a name="deploy-the-skype-for-business-client-in-office-365"></a>Implementar el Skype para cliente empresarial en Office 365
 

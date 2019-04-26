@@ -19,11 +19,11 @@ ms.custom:
 - SMB
 description: Desafortunadamente, hay algunas licencias de usuario que se bloquean cuando el usuario vaya a https://broadcast.skype.com y quiere usar Difundir presentación de reunión de Skype. Si un usuario ve este mensaje, tienen una de las licencias bloqueadas asignadas a ellos. Si aún desea usarlo, asígnele otra licencia de Office 365.
 ms.openlocfilehash: b20334a525aa7942af90439cf05add7c49fc1f8b
-ms.sourcegitcommit: 0458232441d3aed8dd578f41a13078aa379c9b00
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2019
-ms.locfileid: "27788969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226367"
 ---
 # <a name="blocked-user-licenses-for-hosting-skype-meeting-broadcast"></a>Bloquea las licencias de usuario para hospedar la difusión de reunión de Skype
 
@@ -58,7 +58,7 @@ Difundir presentación de reunión de Skype eventos de alojamiento se bloqueará
 - Ventajas de uso de Microsoft 365 A1 student
 
     
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
   

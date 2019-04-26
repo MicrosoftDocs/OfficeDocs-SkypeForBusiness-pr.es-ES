@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Puede mover varios usuarios de su grupo heredado a su Skype para Business Server 2019 grupo piloto con Skype para el Panel de Control de Business Server 2019 o Skype para Shell de administración de Business Server 2019.
 ms.openlocfilehash: c77598d531fa4640d64a61e22ace17e39d87b005
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32233970"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Mover varios usuarios al grupo piloto
 

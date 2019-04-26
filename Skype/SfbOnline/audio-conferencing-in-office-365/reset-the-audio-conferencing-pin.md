@@ -21,11 +21,11 @@ ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de cómo restablecer en Skype para profesionales en línea y lo que debe saber acerca de PIN. '
 ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 940cb253923e3537cb7fb4d7ce875ed9bfbb72db
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23882142"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32229255"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
 
@@ -44,7 +44,7 @@ Las reuniones se pueden iniciar cuando se une a un usuario autenticado mediante 
     
 3. Haga clic en **usuarios**, seleccione el usuario que desea restablecer el PIN para.
     
-4. En el panel Acción, en **PIN**, haga clic en **Restablecer**.
+4. In the Action pane, under **PIN**, click **Reset**.
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -69,7 +69,7 @@ Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablec
     
 - Cuando se habilita un usuario para conferencias de audio, de forma predeterminada se envían mensajes de correo electrónico que incluyen información de conferencia y su PIN. El usuario debe tener un buzón de Office 365, porque cuando se restablece un NIP, un nuevo NIP se van a enviar al usuario por correo electrónico a su dirección SMTP principal (alias) que se establece para el usuario.
     
-- Cuando se establece una conferencia con audio, establezca los dígitos que se requieren para el PIN en la organización. Los PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud PIN, la configuración se aplica solo a los PIN generados recientemente y no se aplica a la configuración de PIN para los usuarios existentes que están habilitados para conferencias de audio. Vea [establecer la longitud del eje para las reuniones de conferencia de Audio](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
+- Cuando se establece una conferencia con audio, establezca los dígitos que se requieren para el PIN en la organización. Los códigos PIN pueden tener de 4 a 12 dígitos (el valor predeterminado es 5). Si cambia la configuración de longitud PIN, la configuración se aplica solo a los PIN generados recientemente y no se aplica a la configuración de PIN para los usuarios existentes que están habilitados para conferencias de audio. Vea [establecer la longitud del eje para las reuniones de conferencia de Audio](Set-the-PIN-length-for-Audio-Conferencing-meetings.md).
     
 - El correo electrónico de forma predeterminada se establecerá en la dirección SMTP principal de Office 365 del usuario. Puede enviar un correo electrónico a una dirección que no sean Office 365, como Hotmail o la dirección de correo electrónico MSN. Puede invalidar la dirección de correo electrónico predeterminada mediante el uso de Windows PowerShell. Esto es útil si los usuarios no tienen un buzón de Exchange en Office 365.
     
@@ -91,9 +91,9 @@ Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablec
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplificidad y productividad respecto a utilizar únicamente el centro de administración de Office 365 como, por ejemplo, al realizar cambios de configuración para muchos usuarios en una única ubicación. Obtenga más información sobre estas ventajas en los temas siguientes:
+- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics:
     
-  - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
+  - [An introduction to Windows PowerShell and Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     
     [Usar Windows PowerShell para administrar Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525453)
     
@@ -102,6 +102,6 @@ Un usuario puede restablecer un PIN mediante el uso de la opción de **Restablec
     > [!NOTE]
     > El módulo Windows PowerShell para Skype Empresarial Online le permite crear una sesión de Windows PowerShell remota que se conecta con Skype Empresarial Online. Este módulo, que solo es compatible con equipos de 64 bits, se puede descargar desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online.](https://go.microsoft.com/fwlink/?LinkId=294688)
   
-## <a name="related-topics"></a>See also
+## <a name="related-topics"></a>Temas relacionados
 
 [Restablecer un Id. de conferencia para un usuario](reset-a-conference-id-for-a-user.md)

@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: En esta sección se describe la configuración global y objetos y los grupos universales de servicio y administración que se crean mediante el paso de preparación del bosque.
 ms.openlocfilehash: 27b8e183f4c76c7c5db71af1422ba9185206632a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213427"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del bosque en Skype para Business Server
 

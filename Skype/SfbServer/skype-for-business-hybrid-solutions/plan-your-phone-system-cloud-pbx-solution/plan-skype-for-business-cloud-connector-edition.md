@@ -19,11 +19,11 @@ ms.custom: ''
 ms.assetid: 6ce0e580-8c4a-45de-a54f-e39e438335d6
 description: Obtenga información sobre Skype Empresarial Cloud Connector Edition, un conjunto de máquinas virtuales (VM) empaquetadas que implementa la conectividad RTC local con el Sistema telefónico de Office 365 (PBX en la nube).
 ms.openlocfilehash: 21a37b40b0069df9043c69814e40853ced16ce7e
-ms.sourcegitcommit: 5b33cfc828906917f76b0d2a9ae402c9336388a1
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30934759"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32242100"
 ---
 # <a name="plan-for-skype-for-business-cloud-connector-edition"></a>Plan para Skype Empresarial Cloud Connector Edition
 
@@ -701,10 +701,10 @@ El mecanismo de supervisión y solución de problemas se instala automáticament
 
 Cloud Connector 2.1 y versiones posteriores admiten la supervisión de Cloud Connector mediante Operations Management Suite (OMS). Para obtener más información, vea [Monitor Cloud Connector using Operations Management Suite (OMS)](monitor-cloud-connector-using-operations-management-suite-oms.md).
 
-## <a name="for-more-information"></a>Para más información
+## <a name="for-more-information"></a>Más información
 <a name="BKMK_MoreInfo"> </a>
 
-Para obtener más información, consulte lo siguiente:
+Para obtener más información, vea los artículos siguientes:
 
 - [Soluciones de telefonía de Microsoft](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions)
 

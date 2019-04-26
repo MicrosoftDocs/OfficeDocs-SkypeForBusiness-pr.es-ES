@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Resumen: Obtenga información sobre cómo purgar manualmente los registros de CDR y las bases de datos de QoE usados por Skype para Business Server.'
 ms.openlocfilehash: 55582d28541e798e8ab1c488fb6eeed266bd29b9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879836"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225472"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Purgar manualmente los detalles de las llamadas y las bases de datos de calidad de la experiencia en Skype para Business Server
  

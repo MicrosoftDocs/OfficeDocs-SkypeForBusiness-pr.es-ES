@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Crear o modificar grupo de respuesta en horario laboral, en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: ba10f513495d21c7f94397350c1227cb77fe588b
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225742"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Grupo de respuesta de definir el horario en Skype para la empresa 
  
@@ -62,7 +62,7 @@ La configuración del horario comercial define cuándo está disponible el flujo
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   

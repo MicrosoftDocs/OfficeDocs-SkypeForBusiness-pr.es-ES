@@ -13,11 +13,11 @@ ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Resumen: Obtenga información sobre los componentes de servicio y opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
 ms.openlocfilehash: 6f1766e97c318a11095aa2f064cd09a0785c1562
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877758"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217596"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Servicio de registro centralizado en Skype Empresarial 2015
  

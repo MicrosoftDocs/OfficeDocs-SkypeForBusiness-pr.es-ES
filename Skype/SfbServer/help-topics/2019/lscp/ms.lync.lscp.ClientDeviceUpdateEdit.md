@@ -14,11 +14,11 @@ ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
 ms.openlocfilehash: ac8e30dced9c5383ab88068d27a6a44444312da1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890976"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215874"
 ---
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: Editar
  
@@ -51,6 +51,6 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
     
 - **Días para mantener los archivos de registro (1-365)** Puede especificar el número de días que se conservan los archivos de registro antes de purgarse. El valor predeterminado es 10 días.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuración de registro de dispositivo](ms.lync.lscp.ClientDeviceCfgMain.md)

@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Después de la implementación de Skype para 2019 de servidor empresarial, debe configurar una ruta de federación para su sitio. Para poder usar la ruta federada que está siendo utilizada por la instalación heredada, Skype para Business Server 2019 debe configurarse para utilizar esta ruta.
 ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238671"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conecte el grupo de servidores piloto a los servidores perimetrales heredados
 

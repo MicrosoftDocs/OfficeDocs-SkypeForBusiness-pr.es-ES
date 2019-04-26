@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Obtenga información sobre qué se puede y no se puede usar en Skype para el centro de administración de negocio y otras características cuando el servicio se está migrando a otro centro de datos de Microsoft. '
 ms.openlocfilehash: 57ffa6e37c18de8e87e5af00750eef276649f4f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885643"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226321"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>¿Por qué no puedo utilizar la Skype para el centro de administración de negocio en línea ahora mismo?
 

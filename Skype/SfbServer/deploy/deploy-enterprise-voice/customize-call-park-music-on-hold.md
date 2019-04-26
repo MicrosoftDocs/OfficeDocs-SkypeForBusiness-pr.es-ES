@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Personalizar el estacionamiento de música en espera en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: e3d1ccdf70278173bf5a3a448e5330a24879d117
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30895436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223187"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Personaliza la música de estacionamiento de llamadas en espera inSkype para la empresa
  
@@ -52,7 +52,7 @@ Puede especificar su propio archivo de música que se usará para la música en 
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Set-CsCallParkServiceMusicOnHoldFile](https://docs.microsoft.com/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   

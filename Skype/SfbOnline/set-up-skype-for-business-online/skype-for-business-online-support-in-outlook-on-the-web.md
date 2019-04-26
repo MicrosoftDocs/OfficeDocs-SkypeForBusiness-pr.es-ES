@@ -19,11 +19,11 @@ ms.custom:
 - Setup
 description: Outlook en la web (Outlook Web App) en Office 365 ofrece un cliente básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para los usuarios en línea cuyo administrador no ha configurado una dirección URL de cortesía para su organización de Office 365. Siempre y cuando la cuenta de usuario está en línea y no tiene una dirección URL mnemónica, seguirán viendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran ubicados en local. Los usuarios que dispongan de usuario cuentas locales (si tienen una dirección URL de personal o no) o son administrados por Microsoft verán la experiencia de Lync en Outlook web app.
 ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891041"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32237235"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Compatibilidad de Skype Empresarial Online en Outlook en la web
 

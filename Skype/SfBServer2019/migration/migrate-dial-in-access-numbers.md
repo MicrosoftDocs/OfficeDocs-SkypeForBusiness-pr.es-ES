@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Migrar números de acceso telefónico a Skype para Business Server 2019 requiere ejecutando el cmdlet Move-CsApplicationEndpoint para migrar los objetos de contacto. Durante la instalación heredado y Skype para el período de coexistencia de Business Server 2019, los números de acceso telefónico que creó en Skype para Business Server 2019 se comportan de forma similar a los números de acceso telefónico que se crean en la instalación heredada, tal como se describe en este sección.
 ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32239586"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrar los números de acceso telefónico
 

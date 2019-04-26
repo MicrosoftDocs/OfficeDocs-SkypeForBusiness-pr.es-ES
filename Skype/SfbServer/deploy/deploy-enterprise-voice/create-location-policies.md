@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: Lea este tema para aprender a configurar las directivas de ubicación de servicio de emergencia (E9-1-1) de Skype mejorado en Business Server Enterprise Voice.
 ms.openlocfilehash: 2e3c25586c09e8cb517f781ec9e9dc33c58d81da
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223532"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Crear directivas de ubicación en Skype para Business Server
 

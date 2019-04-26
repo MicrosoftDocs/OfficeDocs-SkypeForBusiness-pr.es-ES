@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la integración entre Office Web Apps Server y Skype para Business Server para habilitar las presentaciones de PowerPoint para las conferencias web.'
 ms.openlocfilehash: 69cdbd50387f2e3267a0fc2acb38e47260970578
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892578"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223827"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Configurar la integración con Office Web Apps Server en Skype para Business Server
  

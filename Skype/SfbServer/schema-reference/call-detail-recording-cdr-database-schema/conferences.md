@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: c3da6271-b3c6-4898-894f-10456ec794d0
 description: Cada registro de esta tabla contiene detalles de llamadas sobre una conferencia.
 ms.openlocfilehash: f0401c150f3835772ba0df20f8c02c64c9919921
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881956"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213266"
 ---
 # <a name="conferences-table-in-skype-for-business-server-2015"></a>Tabla de las conferencias en Skype para Business Server 2015
  

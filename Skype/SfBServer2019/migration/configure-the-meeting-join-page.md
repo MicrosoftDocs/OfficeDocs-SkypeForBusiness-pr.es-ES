@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Cuando un usuario hace clic en un vínculo de la reunión en una convocatoria de reunión, la reunión detecta de la página de participación de cliente que ya esté instalado en el equipo del usuario. Si ya está instalado un cliente, que el cliente se abre y se une a la reunión. Si un cliente no está instalado, de forma predeterminada que se abre la aplicación Web.
 ms.openlocfilehash: 88ae915318505efef6ae716a17217aaa1e7b12df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238719"
 ---
 # <a name="configure-the-meeting-join-page"></a>Configurar la página para unirse a la reunión
 

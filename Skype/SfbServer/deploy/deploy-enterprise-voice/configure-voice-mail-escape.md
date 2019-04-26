@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.'
 ms.openlocfilehash: 6c1c6977949eb45c28cce482f98be67295ee4eef
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223511"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar escape de correo de voz de Skype para la empresa
 
@@ -46,7 +46,7 @@ Set-CsVoicePolicy UserVoicePolicy -EnableVoiceMailEscapeTimer $true - PSTNVoicem
 Set-CsVoicePolicy -Identity site:SitePolicy -EnableVoiceMailEscapeTimer $true -PSTNVoicemailEscapeTimer 1500
 ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configuring Voice Policies and PSTN Usage Records to Authorize Calling Features and Privileges](https://technet.microsoft.com/library/63f22010-a3d7-4cbd-86e8-6fc0e13c2b84.aspx)
 

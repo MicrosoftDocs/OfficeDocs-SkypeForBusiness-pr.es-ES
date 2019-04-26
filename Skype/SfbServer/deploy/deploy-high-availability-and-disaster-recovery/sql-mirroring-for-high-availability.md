@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 70224520-b5c8-4940-a08e-7fb9b1adde8d
 description: 'Para poder implementar la creación de reflejo de SQL, los servidores deben ejecutar como mínimo SQL Server 2008 R2. Esta versión debe ejecutarse en todos los servidores implicados: principal, reflejo y testigo. Para obtener información detallada, vea acumulativa 9 de paquete de actualización para SQL Server 2008 Service Pack 1.'
 ms.openlocfilehash: ebf1d222bff572100fe7824e52acdef2ff85216d
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886278"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225521"
 ---
 # <a name="deploy-sql-mirroring-for-back-end-server-high-availability-in-skype-for-business-server-2015"></a>Implementar la creación de reflejos de SQL para el servidor Back-End una alta disponibilidad en Skype para Business server 2015
 

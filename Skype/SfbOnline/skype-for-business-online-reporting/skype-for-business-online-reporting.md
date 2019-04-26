@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: 'Use this reference guide to learn about Skype for Business Online reporting and what info is available. '
 ms.openlocfilehash: b6e7dd3d109dfd9fab169b1cb8ec37e28f35bbc0
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30453990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238145"
 ---
 # <a name="skype-for-business-online-reporting"></a>Creación de informes en Skype Empresarial Online
 

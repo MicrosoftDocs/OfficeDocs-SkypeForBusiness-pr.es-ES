@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 082daeac-e667-4e2d-b78d-8e0901f9f0e9
 description: Proceso de implementación y los pasos para el grupo de llamada recogida en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: 92dbb6ef4a96ed4972794a61814abcd31586ffb3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30884050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223065"
 ---
 # <a name="deployment-process-for-group-call-pickup-in-skype-for-business"></a>Proceso de implementación de grupo de llamada recogida en Skype para la empresa
  

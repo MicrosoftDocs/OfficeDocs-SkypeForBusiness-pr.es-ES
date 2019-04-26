@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Resumen: Obtenga información sobre cómo asociar los informes de supervisión con una base de datos reflejada usado por Skype para Business Server.'
 ms.openlocfilehash: ea087ad53466abd35f6ff221b8c9b2aec781922f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30885898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225528"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Asocie los informes de supervisión con una base de datos reflejada en Skype para Business Server 
  
@@ -65,7 +65,7 @@ Para que los informes de supervisión pasen automáticamente a la base datos ref
     
 8. Haga clic en **Aplicar**.
     
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Instalación de informes de supervisión en Skype para Business Server](install-monitoring-reports.md)
   

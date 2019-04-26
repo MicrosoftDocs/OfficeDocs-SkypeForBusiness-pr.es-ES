@@ -14,11 +14,11 @@ ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el seleccionar un cuadro de diálogo de la cola de desbordamiento para seleccionar una cola que se reenvíen las llamadas cuando una cola de grupo de respuesta está lleno.
 ms.openlocfilehash: 9c860533687a1742eb44855f29be3ce5d6746ff3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899105"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215181"
 ---
 # <a name="select-overflow-queue"></a>Seleccionar cola de desbordamiento
  

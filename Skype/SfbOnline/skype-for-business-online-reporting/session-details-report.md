@@ -19,11 +19,11 @@ ms.custom:
 - Reporting
 description: El nuevo panel Informes de Office 365 muestra la información general de actividad en los productos de Office 365 de su organización. Le permite explorar los informes de nivel de cada producto para obtener datos más pormenorizados sobre las actividades dentro de cada producto.
 ms.openlocfilehash: c4f3040c759deefc222c6243d80de393e18befe9
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454038"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240609"
 ---
 # <a name="session-details-report"></a>Informe de detalles de la sesión
 
@@ -34,7 +34,7 @@ Consulte [información general de informes](https://support.office.com/article/0
 Este informe, junto con los otro Skype para informes de negocios proporcionan detalles sobre actividad, incluidos los detalles de la sesión en toda la organización. Estos detalles son muy útiles cuando se investigar, planear y realizar otros profesionales las decisiones durante la para su organización y para la configuración de [comunicaciones créditos](/microsoftteams/what-are-communications-credits).
   
 > [!NOTE]
-> Podrá ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
+> Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
 ## <a name="how-to-get-to-the-skype-for-business-session-details-report"></a>Cómo llegar a la Skype para el informe de detalles de sesiones de negocio
 
@@ -99,7 +99,7 @@ Para cada sesión, hay una tabla sub con datos diferentes disponibles en funció
 ***
 ![Número 6](../images/sfbcallout6.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el mismo informe. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.  
    
-## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
+## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otro Skype para informes de negocio?
 
 - [Skype para informe de actividad de negocio](activity-report.md) Puede ver la cantidad de los usuarios están usando peer-to-peer, organizada y participó en las sesiones de conferencia.
     

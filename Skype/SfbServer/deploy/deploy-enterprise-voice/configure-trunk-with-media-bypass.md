@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Resumen: Configurar un tronco con desvío de medios habilitado para Skype para Business Server. Esto le permitirá minimizar el número de servidores de mediación, suponiendo que el proveedor de troncos SIP lo admite.'
 ms.openlocfilehash: e63ec28f863f93eed03eb4a1d2955c90434cc6ce
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892691"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223609"
 ---
 # <a name="configure-a-trunk-with-media-bypass-in-skype-for-business-server"></a>Configurar un tronco con desvío de medios en Skype para Business Server
 
@@ -182,7 +182,7 @@ Una configuración de tronco tal como se describe más abajo agrupa un conjunto 
     > Al crear o modificar la configuración de un tronco, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
 
 Una vez haya configurado el tronco, continúe configurando medios desvío eligiendo entre medios global Omitir opciones, tal como se describe en [el desvío de medios Deploy en Skype para Business Server](deploy-media-bypass.md) en la documentación de implementación.
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar un tronco sin desvío de medios en Skype para Business Server](configure-trunk-without-media-bypass.md)
 

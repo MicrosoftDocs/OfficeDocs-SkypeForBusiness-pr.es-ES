@@ -21,11 +21,11 @@ ms.custom:
 - Setup
 description: 'Obtenga información sobre cómo funcionan dentro de las limitaciones de Skype para la presentación de negocio en línea del Administrador de usuarios. '
 ms.openlocfilehash: 37ef56ff8301586fbdf22d21830e22ff235ca1df
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30896912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238018"
 ---
 # <a name="skype-for-business-online-admin-center-users-page-limitations"></a>Limitaciones de la página de Skype para los usuarios del centro de administración en línea de negocio
 

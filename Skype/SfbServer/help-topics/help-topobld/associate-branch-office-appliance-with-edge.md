@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
 description: Si tiene servidores perimetrales implementados y debe proporcionar servicios de medios para su uso externo, elija el servidor perimetral o grupo de servidores que se asociarán a la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia mediante la selección en la lista desplegable. Haga clic en siguiente para continuar.
 ms.openlocfilehash: 2e20b11ec58cbccca1acc625a0676675b9833219
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878539"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32227441"
 ---
 # <a name="associate-branch-office-appliance-with-edge"></a>Asociar la aplicación de la sucursal con el perímetro
  

@@ -11,11 +11,11 @@ localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumen: Lea este tema para obtener más información acerca de las características de conferencia y funcionalidades en Skype para Business Server.'
 ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32214382"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planeación de conferencia en Skype para Business Server
  

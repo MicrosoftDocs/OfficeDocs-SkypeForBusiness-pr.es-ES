@@ -20,11 +20,11 @@ ms.custom:
 - Optimization
 description: En este tema define el conjunto de requisitos de rendimiento de red de Skype para servicios en línea de negocio y cómo se puede optar por usar Internet o ExpressRoute para la conectividad entre la red y Skype para profesionales en línea en función de la evaluación de la red conectividad. Si ha decidido implementar ExpressRoute de Azure para la conectividad dedicada a Office 365, este documento también proporciona orientación sobre cómo planear las conexiones ExpressRoute en diferente Skype para escenarios de implementación empresarial en línea.
 ms.openlocfilehash: 00d77bc72cbfd99d496bf458e008cce3da7970c3
-ms.sourcegitcommit: 30620021ceba916a505437ab641a23393f55827a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "26533237"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32236927"
 ---
 # <a name="media-quality-and-network-connectivity-performance-in-skype-for-business-online"></a>Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online
 
@@ -54,13 +54,13 @@ Aunque la certificación dispositivos multimedia de audio y vídeo no son necesa
   
 Es importante recordar que los dispositivos de medios, Skype para clientes empresariales y Skype para servidores empresariales a través de qué flujos de medios en tiempo real, presentan cierta cantidad de latencia. El dispositivo y el software de procesamiento de latencia, junto con la latencia de red, tienen un gran impacto en y contribuyan a la latencia general-to-end y la experiencia del usuario final.
   
-#### <a name="environment"></a>Entorno de
+#### <a name="environment"></a>Entorno
 
 El entorno y el área que rodea el lugar donde los usuarios se reúnen y utilizan dispositivos de audio y vídeo es otro gran factor a tener en cuenta para la calidad de sonido e imagen. Si los usuarios llaman desde un entorno ruidoso, se generará un audio con ecos, apagado y difuminado. Los usuarios en un entorno oscuro o con poca luz generarán vídeo con poca luminosidad y claridad de imagen. Otra cuestión determinante en la calidad de la imagen y el sonido que recibirán los participantes es la ubicación del micrófono y el dispositivo de vídeo en entornos como salas de conferencias.
   
 Para obtener una imagen más clara de uso de la experiencia de audio y vídeo de un usuario la Skype para la aplicación empresarial de **las herramientas de** > **Opciones** > **Dispositivo de Audio** o **Dispositivo de vídeo** para realizar cambios en el dispositivo en uso y personalizar su configuración.
 
-#### <a name="network"></a>Network
+#### <a name="network"></a>Red
 
 La calidad de los medios en tiempo real a través de la red IP en gran medida se ve afectada por la calidad de la conectividad de red, pero especialmente por la cantidad de:
   
@@ -126,13 +126,13 @@ Para Skype óptima para la calidad de los medios empresariales, los destinos de 
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino ** <br/> |
-|Latencia (unidireccional)  <br/> |< 50 ms  <br/> |
-|Latencia (RTT o tiempo de ida y vuelta)  <br/> |< 100 ms  <br/> |
-|Pérdida de paquetes de ráfaga  <br/> |< 10% durante un intervalo de 200 ms  <br/> |
-|Pérdida de paquetes  <br/> |< 1% durante un intervalo de 15 s  <br/> |
-|Vibración entre llegadas de paquetes  <br/> |< 30 ms durante un intervalo de 15 s  <br/> |
-|Reordenamiento de paquetes  <br/> |< 0,05% paquetes sin ordenar  <br/> |
+|**Métrica** <br/> |**Target** <br/> |
+|Latencia (unidireccional)  <br/> |< 50 ms.  <br/> |
+|Latencia (RTT o tiempo de ida y vuelta)  <br/> |< 100 ms  <br/> |
+|Ráfagas de pérdida de paquetes  <br/> |<10% durante cualquier intervalo 200ms  <br/> |
+|Pérdida de paquetes  <br/> |<1% durante cualquier 15s intervalo  <br/> |
+|Vibración de llegada entre granjas de paquetes  <br/> |<30ms durante cualquier 15s intervalo  <br/> |
+|Reaprovisionamiento de paquetes  <br/> |paquetes de salida de orden <0.05%  <br/> |
    
  **Otros requisitos de destino de rendimiento:**
   
@@ -152,13 +152,13 @@ Los siguientes son los umbrales que son necesarios para la conexión entre la re
   
 |||
 |:-----|:-----|
-|**Métrica** <br/> |**Destino ** <br/> |
-|Latencia (unidireccional)  <br/> |< 30 ms  <br/> |
-|Latencia (RTT)  <br/> |< 60 ms  <br/> |
-|Pérdida de paquetes de ráfaga  <br/> |< 1% durante un intervalo de 200 ms  <br/> |
-|Pérdida de paquetes  <br/> |< 0,1% durante un intervalo de 15 s  <br/> |
-|Vibración entre llegadas de paquetes  <br/> |< 15 ms durante un intervalo de 15 s  <br/> |
-|Reordenamiento de paquetes  <br/> |< 0,01% paquetes sin ordenar  <br/> |
+|**Métrica** <br/> |**Target** <br/> |
+|Latencia (unidireccional)  <br/> |< 30ms  <br/> |
+|Latencia (RTT)  <br/> |< 60ms  <br/> |
+|Ráfagas de pérdida de paquetes  <br/> |% de <1 durante un intervalo de 200 ms  <br/> |
+|Pérdida de paquetes  <br/> |<0.1% durante cualquier 15s intervalo  <br/> |
+|Vibración de llegada entre granjas de paquetes  <br/> |<15ms durante cualquier 15s intervalo  <br/> |
+|Reaprovisionamiento de paquetes  <br/> |paquetes de salida de orden <0.01%  <br/> |
    
  **Otros requisitos de destino de rendimiento:**
   

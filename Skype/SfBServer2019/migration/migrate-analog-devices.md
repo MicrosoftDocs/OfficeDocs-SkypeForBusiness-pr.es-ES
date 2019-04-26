@@ -10,11 +10,11 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server proporciona compatibilidad con dispositivos analógicos. Específicamente, los dispositivos analógicos compatibles son teléfonos audioconferencias analógicos y equipos de fax analógicos. Puede configurar las puertas de enlace completa para admitir el uso de dispositivos analógicos en su Skype para el entorno de servidor empresarial. Después de migrar a Skype para Business Server 2019, también debe migrar los objetos de contacto asociados con los dispositivos analógicos. Usar Skype para Shell de administración de servidor empresarial para todos los recuperar primero objetos asociados con los dispositivos analógicos heredados de contacto y, a continuación, mover los objetos a la Skype para el grupo de servidores de Business Server 2019.
 ms.openlocfilehash: 80edf5b806ffd192d125bd5da27207a37f3074d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30889969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32238393"
 ---
 # <a name="migrate-analog-devices"></a>Migrar dispositivos analógicos
 

@@ -20,11 +20,11 @@ ms.custom:
 - SMB
 description: Puede habilitar la difusión de reunión de Skype y realizar cambios en la configuración y las directivas para las reuniones.
 ms.openlocfilehash: 7145f246ff7b3b6edbcae84f2ca2f5bc381ea501
-ms.sourcegitcommit: 2a6e499165424fe2d189ad140951e222c8ba9c81
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/07/2018
-ms.locfileid: "23851707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226278"
 ---
 # <a name="make-changes-to-skype-meeting-broadcast-settings-for-your-organization"></a>Realizar cambios en la configuración de la difusión de reunión de Skype para su organización
 

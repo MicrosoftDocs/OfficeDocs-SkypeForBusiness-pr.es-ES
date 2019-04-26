@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Resumen: Revise estos Pósteres según sea necesario durante la planeación, implementación o administración de Skype para Business Server.'
 ms.openlocfilehash: 8ab18ead860d84ecc4146eb29c49e7002c715ded
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30881447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241743"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technical diagrams for Skype for Business Server
 

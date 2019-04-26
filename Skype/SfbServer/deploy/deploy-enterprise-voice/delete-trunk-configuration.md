@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3b25f14d-884b-42dd-a866-460d276d3e43
 description: 'Resumen: Obtenga información sobre cómo eliminar una colección de configuraciones de tronco mediante el Skype para el Panel de Control de servidor empresarial.'
 ms.openlocfilehash: da86cbaf45afa47de580c02ab74e3b0b9bb344bf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30890553"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223158"
 ---
 # <a name="delete-an-existing-collection-of-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Eliminar una colección existente de opciones de configuración del tronco SIP en Skype para Business Server
  

@@ -21,15 +21,15 @@ ms.custom:
 - Security
 description: Guía de seguridad para Skype Empresarial Online <add description>
 ms.openlocfilehash: 555a7bd3e4a57c637c0375ea406caeca3c221be7
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32248009"
 ---
 # <a name="security-and-skype-for-business-online"></a>Seguridad y Skype para la empresa en línea
 
-Skype for Business Online (SfBO), as part of the Office 365 service, follows all the security best practices and procedures such as service-level security through defense-in-depth, customer controls within the service, security hardening and operational best practices. Para obtener información detallada, consulte el Center de Trust de Microsoft (https://microsoft.com/trustcenter).
+Skype Empresarial Online (SfBO, Skype for Business Online), como parte del servicio Office 365, sigue las mejores prácticas y procedimientos de seguridad, como la seguridad de nivel de servicio a través de la "defensa en profundidad", los controles de cliente en el servicio, el reforzamiento de la seguridad y las mejores prácticas operativas. Para obtener información detallada, consulte el Center de Trust de Microsoft (https://microsoft.com/trustcenter).
 
 ## <a name="trustworthy-by-design"></a>Fiabilidad basada en el diseño
 Skype for Business Online is designed and developed in compliance with the Microsoft Trustworthy Computing Security Development Lifecycle (SDL), which is described at https://www.microsoft.com/en-us/sdl/default.aspx. The first step in creating a more secure unified communications system was to design threat models and test each feature as it was designed. Multiple security-related improvements were built into the coding process and practices. Build-time tools detect buffer overruns and other potential security threats before the code is checked in to the final product. Of course, it is impossible to design against all unknown security threats. No system can guarantee complete security. However, because product development embraced secure design principles from the start, Skype for Business Online incorporates industry standard security technologies as a fundamental part of its architecture. 
@@ -55,7 +55,7 @@ The denial-of-service attack occurs when the attacker prevents normal network us
 SfBO mitiga estos ataques mediante la ejecución de protección de la red de Azure DDOS y mediante la limitación de solicitudes de cliente desde el mismos extremos, subredes y entidades federadas.
 
 ### <a name="eavesdropping"></a>Interceptación
-Eavesdropping can occur when an attacker gains access to the data path in a network and has the ability to monitor and read the traffic. This is also called sniffing or snooping. If the traffic is in plain text, the attacker can read the traffic when the attacker gains access to the path. An example is an attack performed by controlling a router on the data path. 
+La interceptación se produce cuando un atacante obtiene acceso a la ruta de datos en una red y puede supervisar y leer el tráfico. Este tipo de ataque también se denomina rastreo o espionaje. Si el tráfico se produce como texto sin formato, el atacante puede leerlo cuando obtiene acceso a la ruta. Un ejemplo es un ataque que se realiza al controlar un enrutador de la ruta de acceso a los datos. 
 
 SfBO uses mutual TLS (MTLS) for server communications within O365 and TLS from clients to the service, rendering this attack very difficult to impossible to achieve within the time period in which a given conversation could be attacked. TLS authenticates all parties and encrypts all traffic. This does not prevent eavesdropping, but the attacker cannot read the traffic unless the encryption is broken.
 
@@ -77,7 +77,7 @@ También se puede producir un ataque "Man in the middle" con tráfico de element
 A replay attack occurs when a valid media transmission between two parties is intercepted and retransmitted for malicious purposes. SfBO uses SRTP in conjunction with a secure signaling protocol that protects transmissions from replay attacks by enabling the receiver to maintain an index of already received RTP packets and compare each new packet with those already listed in the index.
 
 ### <a name="spim"></a>Mensajes instantáneos no deseados
-Spim is unsolicited commercial instant messages or presence subscription requests. While not by itself a compromise of the network, it is annoying in the least, can reduce resource availability and production, and can possibly lead to a compromise of the network. An example of this is users spimming each other by sending requests. Users can block each other to prevent this, but with federation, if a coordinated spim attack is established, this can be difficult to overcome unless you disable federation for the partner.
+El término inglés "spim" hace referencia a los mensajes instantáneos comerciales no deseados o a las solicitudes de suscripción de presencia no deseadas. Si bien estos mensajes por sí mismos no son un peligro para la seguridad de la red, son como mínimo molestos, pueden reducir la disponibilidad y la productividad de los recursos, y podrían llegar a poner en peligro la red. Un ejemplo de ello es el caso de usuarios que se envían solicitudes no deseadas entre sí. Los usuarios pueden bloquearse entre sí para evitarlo, pero con la federación, si se establece un ataque coordinado de este tipo, puede ser difícil de solucionar a menos que se deshabilite la federación para el asociado.
 
 ### <a name="viruses-and-worms"></a>Virus y gusanos
 Un virus es una unidad de código que tiene por objeto reproducir más unidades de código similares. Los virus necesitan un host, como un archivo, un correo electrónico o un programa, para poder funcionar. Al igual que un virus, un gusano es una unidad de código que está codificada para reproducir unidades de código adicionales similares, pero que, a diferencia de un virus, no necesita un host. Los virus y los gusanos suelen aparecer principalmente durante las transferencias de archivo entre clientes o cuando otros usuarios envían direcciones URL. Si hay un virus en su equipo, podrá, por ejemplo, usar su identidad y enviar mensajes instantáneos en su nombre. Las medidas estándar de seguridad de cliente como los análisis periódicos en busca de virus pueden mitigar este problema. 
@@ -118,7 +118,7 @@ SfBO has the potential to disclose information over a public network that might 
 
 <!-- end of table -->
 
-## <a name="security-framework-for-sfbo"></a>Marco de seguridad para SfBO
+## <a name="security-framework-for-sfbo"></a>Marco de seguridad de SfBO
 This section provides an overview of the fundamental elements that form the security framework for Microsoft SfBO. These elements are as follows:
 - Azure Active Directory (AAD) proporciona un único depósito de back-end de confianza para cuentas de usuario. 
 - Infraestructura de clave pública (PKI) utiliza certificados emitidos por entidades de certificación de confianza (CA) para autenticar los servidores y garantizar la integridad de los datos.
@@ -203,7 +203,7 @@ For media authentication, the ICE and TURN protocols also use the Digest challen
 Certificados de cliente proporcionan un método alternativo para los usuarios se autentiquen mediante SfBO. En lugar de proporcionar un nombre de usuario y una contraseña, los usuarios tienen un certificado y la clave privada correspondiente al certificado que es necesario para resolver un desafío cifrado. 
 
 ### <a name="windows-powershell-and-sfbo-management-tools"></a>Herramientas de administración de Windows PowerShell y SfBO
-En SfBO, los administradores de TI pueden administrar sus servicios a través del portal de administración de O365 o mediante el uso de Tenant Remote PowerShell (TRPS). Los administradores de inquilinos usan la autenticación moderna para autenticarse en TRPS.
+En SfBO, los administradores de TI pueden administrar sus servicios a través del portal de administración de O365 o mediante el uso de Tenant Remote PowerShell (TRPS). Los administradores de inquilinos utilizar autenticación moderno para autenticar a TRPS.
 
 ### <a name="configuring-access-to-sfbo-at-your-internet-boundary"></a>Configurar el acceso a SfBO en su límite de Internet
 Se permite para que SfBO funcione correctamente la necesidad de los clientes (los usuarios pueden unirse a reuniones, etc.), para configurar su acceso a internet de manera que el tráfico saliente UDP y TCP a los servicios en el SfBO en la nube. Para obtener más información, vea:https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_lyo 
@@ -237,7 +237,7 @@ Enabling external users and internal users to exchange media requires an Access 
 4. Entre el cliente y el / servidor de conferencia A/v, una conexión de medios se puede negociar y el programa de instalación a través de SRTP.
 5. A user receives an email containing an invitation to join an SfBO meeting. The email contains a conference key and a HTTP-based URL linking to the conference. Both the key and the URL are unique for a particular meeting.
 
-### <a name="federation-safeguards-for-sfbo"></a>Garantías de la federación para SfBO
+### <a name="federation-safeguards-for-sfbo"></a>Medidas de seguridad para la federación para SfBO
 La federación permite que su organización se comunique con otras organizaciones para compartir presencia y mensajería instantánea. En SfBO, la federación está activada de forma predeterminada. Sin embargo, los administradores de inquilinos pueden controlarla mediante el portal de administración de O365. Más información.
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Atajar amenazas a las conferencias de SfBO
@@ -252,12 +252,12 @@ Enabling external users to participate in SfBO meetings greatly increases the va
 - Anonymous, that is, unauthenticated, users who want to join a dial-in conference dial one of the conference access numbers and then they are prompted to enter the conference ID. Unauthenticated anonymous users are also prompted to record their name. The recorded name identifies unauthenticated users in the conference. Anonymous users are not admitted to the conference until at least one leader or authenticated user has joined, and they cannot be assigned a predefined role.
 
 ### <a name="participant-roles"></a>Roles de los participantes
-Los participantes de la reunión se dividen en tres grupos, cada uno con sus propios privilegios y restricciones:
+Participantes de la reunión se dividen en tres grupos, cada uno con sus propios privilegios y restricciones:
 - **Organizador** &nbsp; &nbsp;El usuario que crea una reunión, si improvisada o programada. El organizador debe ser un usuario autenticado de la organización y tiene control sobre todos los aspectos del usuario final de una reunión.
-- **Moderador** &nbsp; &nbsp;Un usuario que está autorizado para presentar información en una reunión, utilizando es compatible con independencia de los medios. Un organizador de reunión es, por definición, también un presentador y determina quién más puede ser un presentador. Un organizador puede determinar esto al programar la reunión o mientras la reunión está en curso.
+- **Moderador** &nbsp; &nbsp;Un usuario que está autorizado para presentar información en una reunión, utilizando es compatible con independencia de los medios. Organizador de una reunión es, por definición también un moderador y determina quién más puede ser un moderador. El organizador puede tomar esta decisión al programar una reunión o mientras está en marcha la reunión.
 - **ATTENDEE** &nbsp; &nbsp;Un usuario que ha sido invitado a asistir a una reunión pero que no está autorizado para actuar como moderador.
 
-Un presentador también puede promocionar a un asistente al rol de presentador durante la reunión.
+Un moderador también puede ascender a un asistente a la función de moderador durante la reunión.
 
 ### <a name="participant-types"></a>Tipos de participantes
 

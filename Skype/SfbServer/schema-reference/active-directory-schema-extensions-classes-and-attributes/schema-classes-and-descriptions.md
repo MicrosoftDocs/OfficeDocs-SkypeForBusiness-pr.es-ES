@@ -12,11 +12,11 @@ localization_priority: Normal
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
 description: Esta sección describe todas las clases de esquema que usa Skype para Business Server.
 ms.openlocfilehash: 0bb34a93ec23df67d19026e82e29769e0aeb9ab2
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30926563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213343"
 ---
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Las clases de esquema y descripciones de Skype para Business Server
  

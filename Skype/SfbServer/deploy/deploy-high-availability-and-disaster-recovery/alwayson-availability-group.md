@@ -12,11 +12,11 @@ ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
 ms.openlocfilehash: fcdae233e81f7c2dde3f1bdb4a79f06c95f640d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897160"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32225535"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  

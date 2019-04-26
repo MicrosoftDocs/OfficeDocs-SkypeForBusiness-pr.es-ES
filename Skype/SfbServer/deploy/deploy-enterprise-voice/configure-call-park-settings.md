@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
 ms.openlocfilehash: ab2fec9a0455316ea1b0fcba6a771b91f0d115d0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223686"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Configuración del estacionamiento de llamadas en Skype para la empresa
 
@@ -59,7 +59,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com
    ```
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Personalizar la música de espera para el estacionamiento de llamadas en Skype Empresarial 2015](customize-call-park-music-on-hold.md)
 

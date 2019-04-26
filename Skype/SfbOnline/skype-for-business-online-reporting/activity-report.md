@@ -20,11 +20,11 @@ ms.custom:
 - Reporting
 description: 'Learn how to get the Skype for Business Activity reports, what it contains, and how to interpret the data. '
 ms.openlocfilehash: 3d78d2e155c5364baf9c2650466022a27cc4ed9b
-ms.sourcegitcommit: d12a9f2d10093e24d4af54ce6044b512e7e3787e
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30454000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32241990"
 ---
 # <a name="activity-report"></a>Informe de actividad
 

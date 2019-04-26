@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Para editar las propiedades de la aplicación de sucursal con funciones de supervivencia o servidor de sucursal con funciones de supervivencia, en General, para configurar:'
 ms.openlocfilehash: fad751cc897c2ad9d8ebc02e02bc37cd10b00fbf
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877821"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32226931"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general de aplicación de sucursal para Lync Server 2010
  

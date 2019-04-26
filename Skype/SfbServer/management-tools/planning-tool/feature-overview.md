@@ -15,11 +15,11 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Herramienta de planeación de Skype Empresarial Server 2015
 ms.openlocfilehash: 5cd0b2f4cef61edf58fd7bff692f697df0f78f7a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32217309"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

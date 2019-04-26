@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Una vez haya completado los pasos para implementar y configurar Skype para Business Edition de conector en la nube, compruebe que puede realizar y recibir llamadas.
 ms.openlocfilehash: 7ea8e686c578941c2009465fc43ed6ae004dbb88
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32240777"
 ---
 # <a name="validate-your-cloud-connector-deployment"></a>Validate your Cloud Connector deployment
  

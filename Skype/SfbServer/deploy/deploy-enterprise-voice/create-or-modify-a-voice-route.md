@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el Skype para el Panel de Control de servidor empresarial.'
 ms.openlocfilehash: 166b9635d9ddb50ec65b7cbc4d55aa92c19b55e0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30888573"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223208"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz de Skype para la empresa
  
@@ -121,7 +121,7 @@ ms.locfileid: "30888573"
     > [!NOTE]
     > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
   

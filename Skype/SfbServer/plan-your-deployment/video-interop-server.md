@@ -13,11 +13,11 @@ localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con los dispositivos de terceros teleconferencia.'
 ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894255"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32213532"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planeación de servidor de interoperabilidad vídeo en Skype para Business Server
  
@@ -184,7 +184,7 @@ La compatibilidad para que los VTC se unan a reuniones en línea por medio del V
 
 La compatibilidad para que los VTC se unan a reuniones federadas por medio del VIS no es parte de Skype Empresarial.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 <a name="resiliency"> </a>
 
 [Implementar servidor de interoperabilidad vídeo en Skype para Business Server](../deploy/deploy-video-interop-server/deploy-video-interop-server.md)

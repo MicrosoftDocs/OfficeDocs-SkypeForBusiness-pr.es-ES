@@ -15,11 +15,11 @@ ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Resumen: Obtenga información sobre cómo definir una puerta de enlace RTC en el generador de Skype para Business Server.'
 ms.openlocfilehash: 036c6805ab2c4821ee1bb0544b75553ab40c7100
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876323"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32223180"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definir una puerta de enlace en el generador de Skype para Business Server
  

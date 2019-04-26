@@ -14,11 +14,11 @@ ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
 ms.openlocfilehash: 1c4d8418623b61d82a0ccb3b0bc942ebbc5f07f3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32215216"
 ---
 # <a name="response-groups-queue"></a>Cola de grupos de respuesta
 

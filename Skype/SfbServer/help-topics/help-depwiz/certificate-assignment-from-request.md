@@ -14,11 +14,11 @@ localization_priority: Normal
 ms.assetid: 5cd7cab0-1826-4d7f-aca6-d30054d2a9ae
 description: La página Asignación del certificado comienza el proceso de asignar un certificado a los usos solicitados en el rol de servidor. Haga clic en Ver detalles del certificado para ver el certificado. Puede seleccionar la ficha General, la ficha Detalles o en la ficha ruta de certificación. La ficha General mostrará información básica sobre el certificado, como la entidad de certificación y el estado de una clave privada. La ficha Detalles mostrará información sobre el certificado; por ejemplo, el nombre del sujeto, los nombres alternativos del sujeto, etcétera. La ficha ruta de certificación mostrará la certificatechain de trustfrom el certificado a través de las entidades de certificación emisora o intermedio (si están presentes) a la entidad de certificación raíz.
 ms.openlocfilehash: 544f101fa68c5dc5a66c522fd2cdbd19352d99d1
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32235167"
 ---
 # <a name="certificate-assignment-from-request"></a>Asignación de certificados (a partir de solicitud)
  
