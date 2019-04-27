@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga información sobre las opciones de alta disponibilidad de servidor Back-End admitidas en Skype para Business Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de la base de datos y agrupación en clústeres de conmutación por error SQL.
-ms.openlocfilehash: 5f95ea1a1a856db945e1d0fac5683b1fb8c4c02e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214106"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356221"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End alta disponibilidad del servidor en Skype para Business Server
  
@@ -50,7 +50,7 @@ Skype para Business Server admite la creación de reflejos con el software de ba
     
 
 > [!NOTE]
-> SQL Server 2016 es la única versión compatible con Skype para Business Server 2019.
+> La creación de reflejos de SQL está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. Los métodos de agrupación en clústeres de conmutación por error de grupos de disponibilidad AlwaysOn, instancias de clúster de conmutación por error (FCI) AlwaysOn y SQL son preferidos con Skype para Business Server 2019.
     
 La creación de reflejo de base de datos asincrónica no se admite para alta disponibilidad de servidor Back-End en Skype para Business Server. En lo que resta de este documento, la creación de reflejo de la base de datos implica la creación de reflejo de la base de datos sincrónica, a menos que se indique lo contrario. 
   

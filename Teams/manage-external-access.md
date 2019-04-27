@@ -14,17 +14,17 @@ search.appverid: MET150
 description: El Administrador de TI puede configurar el acceso externo para otros dominios (federación) permitir que los usuarios de esos dominios a participar en los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b04b125f5cb998c71f161bf31809a39097accf6c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 98dc47ec66861d2f0c77c0eff45851c09e8bc353
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245588"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33356191"
 ---
 <a name="manage-external-access-federation-in-microsoft-teams"></a>Administrar el acceso externo (federación) en Microsoft Teams
 ======================================================
 
-Con acceso externo de Microsoft Teams, los usuarios de otros dominios pueden participar en las charlas y las llamadas. También puede permitir que a los usuarios externos que todavía se están usando Skype para la empresa para participar. 
+Con acceso externo de Microsoft Teams, los usuarios de otros dominios pueden participar en las charlas y las llamadas. También puede permitir que a los usuarios externos que todavía se están utilizando la Skype para profesionales en línea o Skype para profesionales en prem a participar. 
 
 Acceso externo (federación) y el acceso de invitado son diferentes:
 
