@@ -21,6 +21,7 @@
 ## [Asignar miembros y propietarios de equipo en Microsoft Teams](assign-roles-permissions.md)
 ## [Procedimientos recomendados para organizar los equipos en Teams](best-practices-organizing.md)
 ## [Crear un equipo que abarque toda la organización en Teams](create-an-org-wide-team.md)
+## [Administrar la detección de equipos privados en Teams](manage-discovery-of-private-teams.md)
 ## [Administrar directivas de mensajería](messaging-policies-in-teams.md)
 ## [Información general sobre la pertenencia dinámica para los equipos](dynamic-memberships.md)
 ## [Presence](presence-admins.md)
