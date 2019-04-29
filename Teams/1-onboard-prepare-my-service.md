@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b800dc410eb6a6d506d3c3ad7ad4719485df84c2
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304824"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402255"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 

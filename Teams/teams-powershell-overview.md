@@ -13,12 +13,12 @@ ms.collection:
 description: Aprenda a usar los controles de PowerShell para administrar Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e85261b133d8f1562bcca7d79f83eb21e345be2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56783a4958038710440fc899081abfdd24f1dec
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204472"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401633"
 ---
 # <a name="teams-powershell-overview"></a>Información general de PowerShell de los equipos
 
@@ -43,6 +43,37 @@ Los cmdlets para crear y administrar los equipos se encuentran en el [módulo de
 Los equipos se realizan mediante grupos de O365, por lo que cuando se crea un equipo, para crear un grupo. Hay un conjunto de cmdlets proporcionados para el funcionamiento en el equipo principal y su configuración (``new-team``, ``get-team``, ``set-team``), administración de los usuarios del equipo (``add-teamuser``, ``remove-teamuser``), así como los cmdlets para la administración de los canales del equipo (``new-teamchannel``, ``remove-teamchannel``). Todos estos cmdlets se pueden ejecutar como los usuarios finales, pero que van a funcionar sólo en los equipos que posee o es un miembro de. Si es un administrador Global o administrador de servicio de los equipos, podrá actuar en todos los equipos de la organización.
 
 > **GroupId** usado en el módulo de cmdlets de PowerShell de los equipos de Microsoft es el mismo que la propiedad de **identidad** devuelta por ``Get-UnifiedGroup`` en el módulo de PowerShell de Exchange.
+
+### <a name="differences-between-preview-and-generally-available-microsoft-teams-powershell-module"></a>Diferencias entre la vista previa y módulo de PowerShell disponibles por lo general de los equipos de Microsoft
+
+Cuando se publican nuestra versión disponible de nuestro módulo de PowerShell, unos cmdlets se han dejado en el módulo solo beta tal como se describe en la tabla siguiente.
+
+| Cmdlet | Disponible en la vista previa | Disponible en 1.0 |
+|------- | -------------------- | ------------------------------ |
+| TeamUser agregar | Sí | Sí |
+| MicrosoftTeams conectar | Sí | Sí |
+| Desconectar-MicrosoftTeams | Sí | Sí |
+| Get-equipo | Sí | Sí |
+| Get-TeamChannel | Sí | Sí |
+| Get-TeamFunSettings | Antes de la 1.0 versión sólo | No |
+| Get-TeamGuestSettings | Antes de la 1.0 versión sólo | No |
+| Get-TeamHelp | Sí | Sí |
+| Get-TeamMemberSettings | Antes de la 1.0 versión sólo | No |
+| Get-TeamMessagingSettings | Antes de la 1.0 versión sólo | No |
+| Get-TeamUser | Sí | Sí |
+| Nuevo equipo | Sí | Sí |
+| Nueva TeamChannel | Sí | Sí |
+| Remove-equipo | Sí | Sí |
+| Remove-TeamChannel | Sí | Sí |
+| Remove-TeamUser | Sí | Sí |
+| Set-equipo | Sí | Sí |
+| Set-TeamChannel | Sí | Sí |
+| Set-TeamFunSettings | Antes de la 1.0 versión sólo | No |
+| Set-TeamGuestSettings | Antes de la 1.0 versión sólo | No |
+| Set-TeamMemberSettings | Antes de la 1.0 versión sólo | No |
+| Set-TeamMessagingSettings | Antes de la 1.0 versión sólo | No |
+| Set-TeamPicture | Sí | No, planeado |
+
 
 ## <a name="managing-policies-via-powershell"></a>Administración de directivas a través de PowerShell
 

@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b716c47880a4a36ab58ebc4b6c506003362f36b9
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304536"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402033"
 ---
 # <a name="configure-networking"></a>Configuración de redes
 

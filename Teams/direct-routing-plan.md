@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
 ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298575"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402465"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 

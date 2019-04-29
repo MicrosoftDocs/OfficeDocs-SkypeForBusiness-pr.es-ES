@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: b4e6d7c647c619baf5a890b74b2e807dbc111ca0
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401716"
 ---
 # <a name="plan-for-governance-in-teams"></a>Planificar el gobierno en Teams
 

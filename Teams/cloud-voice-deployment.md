@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 6fecac31290cbf764212cfebb05c6178def42708
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304392"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400721"
 ---
 # <a name="cloud-voice-deployment"></a>Implementar voz en la nube
 

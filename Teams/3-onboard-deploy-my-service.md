@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 397917e8e5e2fc2c2707e9bbad67e031d96c09dc
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304384"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400863"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 

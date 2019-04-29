@@ -16,11 +16,11 @@ appliesto:
 - Microsoft Teams
 description: Microsoft se asocia con proveedores SBC seleccionados para certificar que sus SBC pueden usarse con el Enrutamiento directo.
 ms.openlocfilehash: 06b626c034773d30e10699735d10d19178b4ecc6
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
-ms.translationtype: HT
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402041"
 ---
 # <a name="list-of-session-border-controllers-certified-for-direct-routing"></a>Lista de controladores de borde de sesión certificados para el enrutamiento directo
 

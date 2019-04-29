@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: 7974ce4ecd20793b3523a14f501247568d2962bc
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541963"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402550"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
@@ -63,6 +63,8 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 | Minutos disponibles para llamar a los planes.              | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto nacionales llamar a planear (la disponibilidad es limitada)</li><li>240 minuto nacionales llamar a planear (la disponibilidad es limitada)</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 3000 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> |
 | ¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/>                                                                                                                                                                                                                                                                                               |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
+> [!Note]
+> Las llamadas a Canadá se tratan como llamadas nacionales.
 
 >[!Note] 
 > Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.

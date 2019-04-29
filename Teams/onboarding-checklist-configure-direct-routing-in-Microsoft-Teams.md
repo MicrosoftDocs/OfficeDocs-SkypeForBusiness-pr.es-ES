@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: cd5badad4051072ff9a52a013f5701501ed8744d
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304768"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401902"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar el enrutamiento directo en los equipos de Microsoft
 

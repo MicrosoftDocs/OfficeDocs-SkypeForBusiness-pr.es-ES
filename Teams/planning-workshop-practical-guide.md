@@ -16,11 +16,11 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 3fe995522f1557ed18c8edc0713f3c219b626dcb
-ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "32453518"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400666"
 ---
 # <a name="tools-and-workshops-plan-deliver-and-adopt-microsoft-teams"></a>Herramientas y talleres: planificar, entregar y adoptar Microsoft Teams
 

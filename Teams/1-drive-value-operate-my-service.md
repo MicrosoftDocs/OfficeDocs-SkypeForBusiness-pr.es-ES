@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 340c61ab7013da769bdf422f2d2c43a767c5de03
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304456"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401052"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 

@@ -16,11 +16,11 @@ description: Página de destino de enrutamiento directo
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 59f7cf4f1249956f3c763d12fcd96bf5c10a9fac
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298655"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401838"
 ---
 # <a name="phone-system-direct-routing"></a>Enrutamiento directo del Sistema telefónico
 

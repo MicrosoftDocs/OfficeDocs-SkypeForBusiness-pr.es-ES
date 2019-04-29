@@ -16,11 +16,11 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.openlocfilehash: becf9e671507f121378a8361677254e2c3c51b69
-ms.sourcegitcommit: 16b3ee042e8f0efacc92811ff8be093b240df9fd
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33304959"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33401927"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
