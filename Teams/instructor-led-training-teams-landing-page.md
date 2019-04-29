@@ -13,11 +13,11 @@ ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
 ms.openlocfilehash: 268ce97b4c68b19223c0ab102ad8eba40e8c17e9
-ms.sourcegitcommit: fc18ad4fdc737f6208a2fbf9c98a680c47c0f582
+ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "32454466"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33402280"
 ---
 <div id="main" class="v2">
     <div class="container">
