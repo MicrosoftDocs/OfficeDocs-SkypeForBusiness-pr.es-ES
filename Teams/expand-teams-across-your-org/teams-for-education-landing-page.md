@@ -13,12 +13,12 @@ search.appverid: MET150
 f1keywords: ms.teamsadmincenter.assignments.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f44f5d5ad76da0385fa63203d61da3a82923047d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f20e186ac9ab0dc98dda503738160f09c4f55b07
+ms.sourcegitcommit: f82994504d8ca89f05c39eae5318475c5a5b09eb
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245725"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33472559"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams para el ámbito educativo
 
@@ -37,6 +37,24 @@ Con los equipos, los profesores y profesores pueden crear aulas de colaboración
                     </div>
                     <div class="cardText">
                         <h3>Inicio rápido: Administradores de Teams para el ámbito educativo</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </a>
+    </li>
+<li>
+        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/assignments-in-teams">
+        <div class="cardSize">
+            <div class="cardPadding">
+                <div class="card">
+                    <div class="cardImageOuter">
+                        <div class="cardImage">
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="sign up" />
+                        </div>
+                    </div>
+                    <div class="cardText">
+                        <h3>Asignaciones en los equipos para el ámbito educativo</h3>
                     </div>
                 </div>
             </div>
@@ -67,7 +85,7 @@ Con los equipos, los profesores y profesores pueden crear aulas de colaboración
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/sign-up-teams.svg" alt="tutorial" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="tutorial" />
                         </div>
                     </div>
                     <div class="cardText">
