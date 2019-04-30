@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f9f992b31dcdade2d5ba0dd85757ce99980fb80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3418de96bc08de90ce09faaba1b5d7ed9b959ec
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233020"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470597"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 
@@ -240,7 +240,7 @@ Revisión de uso con frecuencia antes de la implementación le ofrece la oportun
 
 Si uso no es lo que espera, puede deberse a un problema de implementación o el plan de adopción no se va a ejecutar correctamente, o en cualquier otro problema. Según el motivo real detrás del uso bajo, el administrador del servicio debe colaborar con los equipos relacionados para ayudar a eliminar las barreras de uso.
 
-### <a name="measuring-usage-with-the-office-365-admin-center"></a>Medir el uso con el centro de administración de Office 365
+### <a name="measuring-usage-with-the-microsoft-365-admin-center"></a>Medir el uso con el centro de administración de Microsoft 365
 
 Los datos de uso de los equipos están disponibles en el panel de informes. Datos de uso de los equipos pueden encontrarse en tres diferentes informes. El primer informe proporciona una vista de producto cruzado de cómo los usuarios comunicarán y colaboran mediante el uso de los distintos servicios de Office 365. Este informe se puede encontrar aquí: [informe de usuarios activos de Office 365](https://support.office.com/article/Office-365-Reports-in-the-Admin-Center-Active-Users-FC1CF1D0-CD84-43FD-ADB7-A4C4DFA8112D)
 
@@ -281,9 +281,9 @@ En primer lugar, determinar con precisión si se trata de un problema técnico o
 
 ### <a name="references"></a>Referencias
 
-[Acerca del centro de administración de Office 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
+[Acerca del centro de administración de Microsoft 365](https://support.office.com/article/About-the-Office-365-admin-center-758befc4-0888-4009-9f14-0d147402fd23)
 
-[Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
+[Informes de actividad en el centro de administración de Microsoft 365](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)
 
 <!--ENDOFSECTION-->
 

@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f1df731f7ff21d246f9b92e028fe3e7ae367509
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400942"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470648"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en los equipos de Microsoft
 
@@ -160,7 +160,7 @@ Para obtener información acerca de cómo configurar los puertos de firewall, va
 
 ## <a name="managing-source-ports-in-the-teams-admin-center"></a>Administración de puertos de origen en el centro de administración de equipos
 
-En los equipos, los puertos de origen de QoS usados por las diferentes cargas de trabajo deberían estar activamente administrado y ajustan según sea necesario. Hacer referencia a la tabla en [intervalos de puertos y marcados de DSCP](#port-ranges-and-dscp-markings), los intervalos de puertos están ajustables, pero las marcas DSCP no son configurables. Una vez que ha implementado estas configuraciones, es posible que encuentre que más o menos los puertos necesarios para un tipo de medio determinado. [Análisis de llamadas y panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md) debe usarse en tomar una decisión para ajustar los intervalos de puertos después de que los equipos se ha implementado y periódicamente conforme cambian las necesidades.
+En los equipos, los puertos de origen de QoS usados por las diferentes cargas de trabajo deberían estar activamente administrado y ajustan según sea necesario. Hacer referencia a la tabla en [Seleccione los intervalos de puerto inicial para cada tipo de medio](#choose-initial-port-ranges-for-each-media-type), los intervalos de puertos están ajustables, pero las marcas DSCP no son configurables. Una vez que ha implementado estas configuraciones, es posible que encuentre que más o menos los puertos necesarios para un tipo de medio determinado. [Análisis de llamadas y panel de calidad de llamada](difference-between-call-analytics-and-call-quality-dashboard.md) debe usarse en tomar una decisión para ajustar los intervalos de puertos después de que los equipos se ha implementado y periódicamente conforme cambian las necesidades.
 
 > [!NOTE]
 > Si ya ha configurado QoS en función de los intervalos de puertos de origen y de marcado de DSCP de Skype para profesionales en línea, se aplicará la misma configuración a los equipos y ninguna otra cliente o cambios en la red para la asignación se requerirán, aunque es posible que haya a [establecido los intervalos usado en el centro de administración de equipos de](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) para que coincida con lo que se configuró para Skype para profesionales en línea.

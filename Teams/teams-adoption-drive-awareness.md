@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60e6d6b02719bf1055b5f8e9faa3c31febdf0bcb
-ms.sourcegitcommit: a589b86520028d8751653386265f6ce1e066818b
+ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
+ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/16/2019
-ms.locfileid: "30647556"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33470672"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 
@@ -65,6 +65,6 @@ Como con cualquier communications y campaña de adopción, deseará identificar 
 
 Compartir el entendimiento de que obtener de los canales de comentarios con el hashtag #TeamsStories para facilitar la recuperación. Comparta una historia de #TeamsStory al mes en su intranet para resaltar qué empleados están adoptando el cambio para lograr aumentar la productividad y la colaboración en su entorno. También compartirlos con nosotros en nuestro foro que impulsa la adopción en la comunidad técnica de Microsoft. Uso compartido de estos ejemplos del mundo real desde dentro de su propia empresa es extremadamente valioso para darse cuenta sostenida cambiar con el tiempo con la Comunidad de usuarios.
 
-[Obtenga más información acerca de los informes de uso de Microsoft Teams en el centro de administración de Office 365.](teams-activity-reports.md)
+[Obtenga más información acerca de los informes de uso de Microsoft Teams en el centro de administración de Microsoft 365.](teams-activity-reports.md)
 
 ![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [revisa el estado del servicio de programación](teams-adoption-schedule-service-health-reviews.md)
