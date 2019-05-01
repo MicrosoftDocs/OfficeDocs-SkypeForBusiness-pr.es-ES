@@ -327,6 +327,7 @@
 #### [Qué son los operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)
 #### [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
 #### [Ejemplo de pequeña empresa: configurar un operador automático](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-org-aa?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
+#### [Ejemplo de pequeña empresa: configurar una cola de llamada](/SkypeForBusiness/what-is-phone-system-in-office-365/tutorial-cq?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 #### [Administrar cuentas de recursos en Microsoft Teams](manage-resource-accounts.md)
 #### [Crear una cola de llamadas en la nube](create-a-phone-system-call-queue.md)
 #### [Responder al operador automático y llamar a la cola de llamadas directamente desde Teams](answer-auto-attendant-and-call-queue-calls.md)
