@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de actividad de usuario de los equipos en el centro de administración de Microsoft Teams para ver cómo usa los equipos de los usuarios de su organización.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5ad6021f03b200e1f3216238a81cc3b691171fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dcb4511463a8866448739cafb1661c55481718b2
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225043"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495876"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Informe de actividad de usuario de Microsoft Teams
 
@@ -46,7 +46,7 @@ El informe de actividad de usuario de los equipos proporciona información sobre
 |**4**   |Puede filtrar lo que aparece en el gráfico haciendo clic en un elemento de la leyenda. Por ejemplo, haga clic en **llamadas de 1:1**, **los mensajes del canal**o **conversaciones de mensajes** para ver sólo la información relacionada con cada uno de ellos. Cambiar la selección no cambia la información de la tabla. |
 |**5**   |La tabla proporciona un desglose de uso por usuario.   <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams.</li><li>**las llamadas de 1:1** es el número de llamadas de 1:1 que el usuario participó en durante el período de tiempo especificado.</li><li>**Mensajes del canal** es el número de mensajes únicos que el usuario ha realizado en una charla de equipo durante el período de tiempo especificado.</li> <li>**Mensajes de chat** es el número de mensajes únicos que el usuario registrado en privado chat durante el período de tiempo especificado.</li>  <li>**Última actividad** es la última fecha (UTC) que el usuario participó en una actividad de los equipos.</li> </ul>Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla.
 |**6**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
-|**7**   |Seleccione **˙˙˙** y luego **Imprimir gráfico** para imprimir el gráfico. |
+|**7**   |Puede exportar el informe a un archivo CSV para su análisis sin conexión. Haga clic en **Exportar a Excel**y, a continuación, en la ficha de **descargas** , haga clic en **Descargar** para descargar el informe cuando está listo.<br>![Captura de pantalla de la ficha de descargas que muestra informes para descargar exportados](../media/teams-reports-export-to-csv.png)||
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Análisis e informes de Teams](teams-reporting-reference.md)

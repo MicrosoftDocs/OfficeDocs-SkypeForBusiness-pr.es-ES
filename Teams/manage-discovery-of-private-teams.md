@@ -17,14 +17,16 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo controlar si los equipos privados se pueden detectar los usuarios de Microsoft Teams a través de sugerencias en el equipo galería y resultados de búsqueda.
-ms.openlocfilehash: 70d5b81bba719a9e6cc6a51d38d58fd309e07a3b
-ms.sourcegitcommit: 9329d740a2060f9c055c5c0c03107a9268c0df5b
+ms.openlocfilehash: 3609a592c3c940e9f7cbec6ca5c58fd072322c46
+ms.sourcegitcommit: 0bb55cad74b15fc821ae916799aa8c0cb13dd31d
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "33262773"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497956"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Administrar la detección de los equipos privados en Microsoft Teams
+
+> [!INCLUDE [preview feature](includes/preview-feature.md)] 
 
 Los propietarios de los administradores y del equipo pueden controlar si se pueden detectar los equipos privados por los usuarios de Microsoft Teams en su organización. Una vez que se pueda detectar un equipo privado, se muestra en los resultados de búsqueda y se incluye en sugerencias en la Galería de equipo junto con los equipos públicos en los equipos. Esto facilita a los usuarios a buscar y encontrar los equipos privados que deseen unirse a. Los usuarios pueden solicitar para unirse a un equipo privado que el propietario de un equipo, a continuación, puede aprobar o denegar.
 
@@ -62,7 +64,7 @@ En los equipos, vaya al equipo privado, haga clic en **más ˙˙˙ opciones** > 
 
 ![configuración de detección de equipos privados existentes](media/private-team-discovery-existing-team.png)
 
-### <a name="using-powershell"></a>Uso de PowerShell
+### <a name="using-powershell-coming-soon"></a>Uso de PowerShell (próximamente)
 
 Use el cmdlet **Set-equipo** para activar o desactivar la opción de detección de un equipo privado existente. Este es un ejemplo de cómo hacer que un equipo que se pueda detectar:
 

@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo usar el informe de uso de dispositivos de los equipos en el centro de administración de Microsoft Teams para ver el modo en que los usuarios de su organización se conectan a los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c1cd1ec97732b851246e03f6fcd56382ccdedf59
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
+ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401415"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33495908"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
@@ -45,7 +45,7 @@ El informe de uso de dispositivos de los equipos en el centro de administración
 |**3**   |<ul><li>El eje X del gráfico representa los distintos dispositivos (**Windows**, **Mac**, **iOS**, **Teléfono Android**) que usa para conectarse a los equipos. </li><li>El eje Y es el número de usuarios con el dispositivo durante el período de tiempo seleccionado.</li> </ul>Mantenga el mouse sobre la barra que representa un dispositivo para ver el número de usuarios con el dispositivo para conectarse a los equipos.|
 |**4**   |La tabla proporciona un desglose de uso de dispositivos por usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li><li>**Windows** está seleccionada si el usuario estaba activo en el cliente de escritorio de los equipos en un equipo basado en Windows.</li><li>**Mac** se selecciona si el usuario estaba activo en el cliente de escritorio de los equipos en un equipo Mac OS. </li> <li>**iOS** se selecciona si el usuario estaba activo en el cliente móvil de los equipos para iOS.</li><li>**Teléfono Android** se selecciona si el usuario estaba activo en el cliente móvil de los equipos para Android. <li>**Última actividad** es la última fecha (UTC) que el usuario participó en una actividad de los equipos.</li> </ul> Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
-|**6**   |Seleccione **˙˙˙** y luego **Imprimir gráfico** para imprimir el gráfico. |
+|**6**   |Puede exportar el informe a un archivo CSV para su análisis sin conexión. Haga clic en **Exportar a Excel**y, a continuación, en la ficha de **descargas** , haga clic en **Descargar** para descargar el informe cuando está listo.<br>![Captura de pantalla de la ficha de descargas que muestra informes para descargar exportados](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Análisis e informes de Teams](teams-reporting-reference.md)
