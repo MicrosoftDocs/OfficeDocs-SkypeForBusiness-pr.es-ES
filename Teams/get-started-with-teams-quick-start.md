@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c8694abbec22e577983889bdf6cdc3d6038d3c80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
+ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245612"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33509687"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
@@ -44,7 +44,15 @@ Si es una pequeña empresa, puede usar estas instrucciones de introducción para
 
 ## <a name="before-you-get-started"></a>Antes de empezar
 
-Asegúrese de que tiene licencias de Teams para todos. Consulte [Comparar planes de Teams](https://products.office.com/microsoft-teams/free) y [Licencias de Office 365 para Teams](office-365-licensing.md). 
+Antes de empezar, deberá planificar la implementación de Teams revisando los siguientes elementos:
+
+- [Comprobación de la preparación del entorno para Teams](environment-readiness.md)
+- [Preparar la red de la organización para Microsoft Teams](prepare-network.md)
+- [Obtener información sobre las ventajas de instalar los clientes de escritorio, web y móvil](get-clients.md)
+
+También deberá asegurarse de que dispone de licencias de Teams para todos. Consulte [Comparar planes de Teams](https://products.office.com/microsoft-teams/free) y [Licencias de Office 365 para Teams](office-365-licensing.md). 
+
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [Crear los primeros equipos y canales](get-started-with-teams-create-your-first-teams-and-channels.md).
