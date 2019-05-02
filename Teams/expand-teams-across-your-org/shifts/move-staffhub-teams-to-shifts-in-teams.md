@@ -13,19 +13,19 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14f94428ddeba7b5a648b4b8dbd7bd5ef8fae0e4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
+ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246103"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33526859"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
 > [!IMPORTANT]
 > Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Capacidades de StaffHub que estamos creando en Microsoft Teams. En la actualidad, los equipos incluye la aplicación de turnos para la administración de programación y funciones adicionales se lleve a cabo a través del tiempo. StaffHub dejará de funcionar para todos los usuarios en el 1 de octubre de 2019. Cualquier persona que intenta abrir StaffHub se mostrará un mensaje que les dirige a descargar los equipos. Para obtener más información, vea [Microsoft StaffHub retirarse](microsoft-staffhub-to-be-retired.md).
 
-> Aún no se ha emitido la funcionalidad descrita en este artículo. Se ha anunciado y estará disponible próximamente, hacia el final de abril de 2019. Si usted es un administrador, puede saber cuándo estará disponible en el centro de mensajes (en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home)).
+> Aún no se ha emitido la funcionalidad descrita en este artículo. Se ha anunciado y estará disponible próximamente, hacia la mitad de mayo de 2019. Si usted es un administrador, puede saber cuándo estará disponible en el centro de mensajes (en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home)).
 
 La aplicación de turnos en los equipos proporciona un método sencillo para administración de programaciones y el flujo constante de MAYÚS permutaciones y cancelaciones que se producen en un diario. Los miembros del equipo pueden tener acceso a su programación y MAYÚS información directamente en la aplicación y a través de sus dispositivos para establecer sus preferencias, administrar sus programaciones y tiempo de la solicitud desactivado.
 
