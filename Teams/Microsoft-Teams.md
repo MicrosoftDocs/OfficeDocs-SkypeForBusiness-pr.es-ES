@@ -13,12 +13,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 71b751e66f2067c9131aceef13f87c7487495895
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4800ce2210c8208e9599f9fd42cf731084463294
+ms.sourcegitcommit: df90974b13701b302adab8f029cbf87aafc8db32
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225939"
+ms.lasthandoff: 05/01/2019
+ms.locfileid: "33519488"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -108,7 +108,7 @@ ms.locfileid: "32225939"
                             </a>
                             </li>
                             <li>
-                                <a href="https://review.docs.microsoft.com/en-us/MicrosoftTeams/teams-architecture-solutions-posters?branch=lolaj-architecture-poster-page">
+                                <a href="https://docs.microsoft.com/en-us/microsoftteams/teams-architecture-solutions-posters">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
