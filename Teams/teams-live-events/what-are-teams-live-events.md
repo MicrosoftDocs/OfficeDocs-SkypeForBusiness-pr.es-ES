@@ -14,12 +14,12 @@ description: Obtenga información sobre cómo live eventos permiten a los usuari
 f1keywords: ms.teamsadmincenter.liveevents.policies
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c2564cc3da4f9df551ee9c9e5155a4cb81e4a37
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 01dfa91c13625e1f1f18fdce5840cf6ba2baeb79
+ms.sourcegitcommit: 47e5f6a0440f646d67bc3ca7c232df9558f78040
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204710"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33641496"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>¿Qué son los eventos en directo de Microsoft Teams?
 
@@ -36,6 +36,9 @@ Eventos en directo se consideran la próxima versión de Difundir presentación 
 Por lo tanto, vamos a empezar. En primer lugar, eche un vistazo en el siguiente diagrama que muestra los componentes de nivel alto necesarios para Microsoft 365 eventos en directo y cómo se conectan. 
 
 ![Certificación de diagrama que muestra los componentes clave de eventos en directo, programación, de producción, secuencia de Microsoft plataforma, proveedores de terceros eCDN] (../media/teams-live-events.png  "Certificación de diagrama que muestra los componentes clave de eventos en directo, programación, de producción, secuencia de Microsoft plataforma, proveedores de terceros eCDN")
+
+### <a name="event-group-roles"></a>Roles de grupo (evento)
+Eventos en directo en los equipos permite a varios roles (Organizador, productor, moderador y attendee) para difundir correctamente y participar en un evento. Para obtener más información, consulte [roles de grupo de eventos](https://support.office.com/article/get-started-with-microsoft-teams-live-events-d077fec2-a058-483e-9ab5-1494afda578a?ui=en-US&rs=en-US&ad=US#bkmk_roles).
 
 ## <a name="key-components"></a>Componentes clave
 Por lo tanto, se puede ver en la imagen anterior, hay cuatro componentes principales que se usan con eventos en directo en los equipos.
