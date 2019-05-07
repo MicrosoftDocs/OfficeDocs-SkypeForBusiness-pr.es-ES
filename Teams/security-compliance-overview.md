@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 492055c80b844ba4a7aa0091da767214c55dc31a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85678529f25e46b7c75c08976d86870fc4566694
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203074"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632317"
 ---
 <a name="overview-of-security-and-compliance-in-microsoft-teams"></a>Información general de seguridad y cumplimiento en Microsoft Teams
 ======================================================
@@ -114,7 +114,7 @@ En lo que se refiere a las funciones de protección de información, las suscrip
 |![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
 |![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)    |Pasos siguientes         |Revise la licencia actual de la organización y confirme que cumple con todos los requisitos de negocio de cumplimiento y seguridad.         |
 
-Antes de habilitar cualquiera de estas características, asegúrese de que tener acceso a la & centro de cumplimiento de seguridad en el centro de administración de Office 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
+Antes de habilitar cualquiera de estas características, asegúrese de que tener acceso a la & centro de cumplimiento de seguridad en el centro de administración de Microsoft 365. De manera predeterminada, los administradores de inquilinos tienen acceso.
 
 Búsqueda de contenido y exhibición de documentos electrónicos no requieren activación en el centro de cumplimiento de seguridad &.
 
@@ -132,7 +132,7 @@ Para obtener más información en residencia de datos de Canadá para los equipo
 
 Para obtener más información sobre el lanzamiento de Australia y Japón residencia de datos para los equipos, Leer entrada de blog de Varun Sagar, [Microsoft equipos inicia Australia y Japón datos residencia ](https://go.microsoft.com/fwlink/?linkid=867773). 
 
-Para ver qué región contiene datos para el inquilino, vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home) > **configuración de** > **el perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
+Para ver qué región contiene datos para el inquilino, vaya al [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home) > **configuración de** > **el perfil de organización**. Desplácese hasta **Data location** (Ubicación de datos). 
 
 ![Captura de pantalla de la tabla de la ubicación de datos, incluidos los equipos, en el centro de administración de Office 365.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

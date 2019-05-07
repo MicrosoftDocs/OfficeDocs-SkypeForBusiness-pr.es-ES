@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Licensing
 description: 'Learn how to set up communication credits (PSTN Consumption) billing licenses for your users and organization. '
-ms.openlocfilehash: 48283d2c8ecaf121457197bf09ffb70afc59803b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e759fe9981728c97914c271dba69bfca6aebdd2b
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204718"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632253"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Configurar Créditos de comunicaciones para su organización
 
@@ -58,7 +58,7 @@ Para obtener más información, vea [licencias de complemento de equipos de Micr
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En la izquierda el centro de administración de Office 365, vaya a **facturación** > **suscripciones** > **Agregar suscripciones**.
+2. En la izquierda el centro de administración de Microsoft 365, vaya a **facturación** > **suscripciones** > **Agregar suscripciones**.
 
 3. Expanda **las suscripciones del complemento**y, a continuación, elija **Communications créditos** > **comprar ahora**.
     
@@ -91,7 +91,7 @@ Cuando está configurando créditos Communications, debe investigar el uso de la
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En la izquierda el centro de administración de Office 365, vaya a **los usuarios** > **usuarios activos**y, a continuación, seleccione un usuario o usuarios de la lista.
+2. En la izquierda el centro de administración de Microsoft 365, vaya a **los usuarios** > **usuarios activos**y, a continuación, seleccione un usuario o usuarios de la lista.
     
 3. En el panel de acciones, en **Licencias de productos**, haga clic en **Editar**.
     
@@ -110,7 +110,7 @@ Puede ver los planes y precios, visite uno de los siguientes vínculos:
     
 - [Planes de sistema de teléfono](https://go.microsoft.com/fwlink/?LinkId=799763)
     
-También puede ver información iniciando [sesión en el centro de administración de Office 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
+También puede ver información iniciando [sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y va a **facturación** > **suscripciones** > **Agregar suscripciones**.
   
 Para ver una tabla con la licencia o licencias que necesitará para cada característica, vea [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

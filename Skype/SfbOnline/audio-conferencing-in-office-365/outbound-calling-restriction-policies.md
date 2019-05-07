@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: 36f116acb62cd16863cb547a11fe5687457a8a4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
+ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229791"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33584227"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
@@ -39,7 +39,7 @@ Controles de llamada saliente se pueden aplicar por usuario y proporcionan los s
 |Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
 
    > [!NOTE]
-   > Una llamada se determina como nacionales si el número de teléfono llamada se encuentra en el mismo país como el país en el que se ha establecido en Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
+   > Una llamada se considera nacional si el número marcado está en el mismo país donde se ha configurado Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]

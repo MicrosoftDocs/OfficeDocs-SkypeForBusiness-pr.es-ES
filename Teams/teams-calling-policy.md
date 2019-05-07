@@ -3,7 +3,7 @@ title: Directivas de llamadas en Microsoft Teams
 author: LolaJacobsen
 ms.author: tonysmit
 manager: serdars
-ms.date: 04/15/2019
+ms.date: 05/06/2019
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: jastark
@@ -17,15 +17,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6e56f0c89859b940a82e76f8de35ff524a757ec9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 007bea10d8e452a2198c869ab545592b29c591c1
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225003"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632372"
 ---
 <a name="calling-policies-in-microsoft-teams"></a>Directivas de llamadas en Microsoft Teams
-==========================================
+===================================
 
 En Microsoft Teams, llamar al control de las directivas que la llamada a y las características de desvío de llamadas están disponibles para los usuarios. Las directivas de la llamada a determinan si un usuario puede realizar llamadas privadas, use el desvío de llamadas o llamadas a otros usuarios o números de teléfono externos simultáneas, enrutar las llamadas al correo de voz, enviar las llamadas a grupos de llamadas, delegación para las llamadas entrantes y salientes, y así sucesivamente. Una directiva global predeterminada se crea automáticamente, pero los administradores también pueden crear y asignar directivas de llamada personalizadas.
 
@@ -97,5 +97,8 @@ Si se establece en **** va a enviar las llamadas a través de la RTC e incurrir 
 
 ### <a name="busy-on-busy-is-available-while-in-a-call"></a>No disponible en no disponible está disponible mientras se encuentre en una llamada
 
-No disponible en no disponible (las opciones de disponibilidad)) es un nuevo valor en los equipos que se administran las directivas de llamada que le permite configurar las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada se pondrá en espera. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. Puede habilitar las opciones de disponibilidad en un nivel de inquilino o en un nivel de usuario. Independientemente de cómo se configuran las opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se les impide iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
+No disponible en no disponible (las opciones de disponibilidad)) es un nuevo valor en los equipos que se administran las directivas de llamada que le permite configurar las llamadas entrantes cuando un usuario ya está en una llamada o conferencia o tiene una llamada se pondrá en espera. Se pueden rechazar las llamadas entrantes o nuevo con una señal de ocupado. Puede habilitar las opciones de disponibilidad en el nivel de inquilino o en el nivel de usuario. Independientemente de cómo se configuran las opciones de disponibilidad, los usuarios de una llamada o conferencia o aquellos con una llamada en espera no se les impide iniciar nuevas llamadas o conferencias. Esta opción está deshabilitada de forma predeterminada.
 
+## <a name="see-also"></a>Vea también
+
+[Set-CSTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps)

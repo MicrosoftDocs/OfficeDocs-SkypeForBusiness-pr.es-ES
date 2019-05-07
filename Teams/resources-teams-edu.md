@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5737d7d93a3ae9c28bed70d18e726ac68c43a8ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65b8a2e29a2de9a659ba81650efa738449e7b2ac
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206701"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632245"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================
@@ -48,7 +48,7 @@ Crear mensajes de correo electrónico personalizado, Pósteres y prospectos con 
 ## <a name="call-to-action"></a>Llamada a la acción
 
 - Consulte nuestra [Demostración interactiva de Microsoft Teams](https://teamsdemo.office.com/) (se requieren 5 minutos para completarla)
-- Active Microsoft Teams en el [Centro de administración de Office 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (inicie sesión como administrador de Office 365)
+- Activar Microsoft Teams en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (inicio de sesión como un administrador de Office 365)
 - Descargue los clientes de Microsoft Teams: [Descargue Microsoft Teams en todos sus dispositivos](https://teams.microsoft.com/downloads)
 - Obtenga más información sobre Office 365 para el ámbito educativo en el [Centro de ayuda de Educación](https://support.office.com/education)
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e85d6e44c37b1b7a56b2b525d28fdbeab266d4b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0252a138fd34e26d6fd2f1237a2fdbfd9b5f5410
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211439"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632269"
 ---
 # <a name="quality-of-experience-review-guide"></a>Guía de revisión de la experiencia de calidad
 
@@ -74,7 +74,7 @@ Antes de usar a esta guía, asegúrese de que tiene el inquilino adecuados [role
 
 Como alternativa, puede asignar la siguiente función a una cuenta de usuario de Office 365 para permitir el acceso a sólo las características de informes.
 
--   **Lector de informes:** Puede ver todos los [informes de actividad](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración de Office 365, los informes desde el [paquete de contenido de Office 365 adopción](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e informes CQD.
+-   **Lector de informes:** Puede ver todos los [informes de actividad](https://support.office.com/article/activity-reports-0d6dfb17-8582-4172-a9a9-aed798150263) en el centro de administración de Office 365, los informes desde el [paquete de contenido de Microsoft 365 adopción](https://support.office.com/article/Office-365-Adoption-content-pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)e informes CQD.
 
 ## <a name="what-is-quality"></a>¿Qué es la calidad?
 
@@ -823,9 +823,9 @@ _Tabla 6 - alertas de diagnósticos_
 
 ### <a name="message-center"></a>Centro de mensajes
 
-El centro de mensajes de las alertas sobre nuevas actualizaciones, características o problemas. El centro de mensajes está disponible en el centro de administración de Office 365 a los administradores de servicios. Cada entrada proporciona una descripción general de cómo la actualización, la característica o el problema afecta a los usuarios y proporciona vínculos a información más detallada.
+El centro de mensajes de las alertas sobre nuevas actualizaciones, características o problemas. El centro de mensajes está disponible en el centro de administración de Microsoft 365 a los administradores de servicios. Cada entrada proporciona una descripción general de cómo la actualización, la característica o el problema afecta a los usuarios y proporciona vínculos a información más detallada.
 
-Para abrir el centro de mensajes, en el centro de administración de Office 365, vaya a **Mantenimiento** > **Centro de mensajes**, o seleccione la ficha del centro de mensaje en **el panel** . El panel muestra los tres últimos mensajes que se contabilizaron y vínculos a la página del centro de mensaje completo.
+Para abrir el centro de mensajes, en el centro de administración de Microsoft 365, vaya a **Mantenimiento** > **Centro de mensajes**, o seleccione la ficha del centro de mensaje en **el panel** . El panel muestra los tres últimos mensajes que se contabilizaron y vínculos a la página del centro de mensaje completo.
  
 
 ![La ficha del centro de mensajes muestra los tres últimos mensajes que se contabilizaron](media/qerguide-image-messagecentercard.png)

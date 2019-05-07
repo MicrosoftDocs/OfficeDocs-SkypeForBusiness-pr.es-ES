@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo enrutamiento directo de Microsoft teléfono del sistema le permite conectar un compatibles, proporcionado por el cliente sesión controlador de borde (SBC) para el sistema telefónico de Microsoft.
-ms.openlocfilehash: e2b09d4aef25569e1112983b5f62bf2ba3758387
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 3ed03225105e7c265687d6659cb98d162da85f91
+ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402465"
+ms.lasthandoff: 05/06/2019
+ms.locfileid: "33632213"
 ---
 # <a name="plan-direct-routing"></a>Planear el enrutamiento directo
 
@@ -207,6 +207,7 @@ En la tabla siguiente resume las relaciones entre centros de datos principal, se
 |||||
 
 ## <a name="media-traffic-port-ranges"></a>El tráfico de medios: intervalos de puertos
+Tenga en cuenta los siguientes requisitos se aplican si SEO implementar enrutamiento directo sin desvío de medios. Para requisitos de firewall para el desvío de medios, consulte [planeación de desvío de medios con el enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-plan-media-bypass)
 
 El tráfico de medios fluye hacia y desde un servicio independiente en el Microsoft Cloud. El intervalo de IP para el tráfico de medios:
 - 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
