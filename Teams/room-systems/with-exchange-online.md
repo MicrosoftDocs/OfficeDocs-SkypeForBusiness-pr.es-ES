@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos con Exchange Online.
-ms.openlocfilehash: 1dc4e73fea7376033d8914cd1814e1edeb68e7d5
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b00a4e09a74cabc7a47879eea3d075220245c704
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363038"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835301"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Implementar salones de equipos de Microsoft con Exchange Online
 
@@ -83,7 +83,10 @@ $sess= New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https:
 
 ### <a name="assign-an-office-365-license"></a>Asignar una licencia de Office 365
 
-1. En primer lugar, conéctese a Azure AD para aplicar algunas opciones de configuración de cuenta. Puede ejecutar este cmdlet para conectarse.
+1. En primer lugar, conéctese a Azure AD para aplicar algunas opciones de configuración de cuenta. Puede ejecutar este cmdlet para conectarse. Para obtener información detallada acerca de Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > No se admite [de Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
   ``` PowerShell
  Connect-MsolService -Credential $cred

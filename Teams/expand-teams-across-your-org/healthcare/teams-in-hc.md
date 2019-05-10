@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a Teams para organizaciones sanitarias
-ms.openlocfilehash: 7f68a21e835edb3b5ebcd8ff794f4fd3d0716bee
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632301"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835444"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
@@ -91,10 +91,13 @@ Mensajería admite colaboración segura dentro de los equipos sanitarios, inclui
 
 - Remitente de un mensaje puede establecer una prioridad especial para su mensaje, por lo que el destinatario se notificará repetidamente hasta que lea el mensaje.
 - Remitente de un mensaje puede solicitar una confirmación de lectura para que se le notifique cuando se leyó un mensaje que se envían por el destinatario del mensaje.
+- 
 
 Juntos, estas características permiten más rápida atención a los mensajes urgentes y confianza que el mensaje se recibió y leer. Los equipos sanitarios nuevo con estas características se pueden crear en una base por paciente. Estas características son basada en directivas y se pueden asignar a individuos o equipos completos.
 
 Para obtener más información, vea [Introducción a las directivas de mensajería segura para las organizaciones de salud](messaging-policies-hc.md) .
+
+También relacionados con para mensajería segura es la capacidad de tener otros inquilinos federados por las organizaciones de salud, lo que permite la comunicación entre inquilino más rica. (vea [Administrar acceso externo (federación) en los equipos de Microsoft](../../manage-external-access.md)).
 
 ## <a name="firstline-worker-integration"></a>Integración de trabajo Firstline
 

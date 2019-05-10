@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Resumen: Revise las consideraciones de componente de red a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: 338a2d273fbba2bd006c5ed5acdd878338333b8a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 631de0031a027ab8364f987f20b7e10e3f2e47f0
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206264"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33834976"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
@@ -128,6 +128,9 @@ El uso del ancho de banda de tráfico multimedia puede resultar difícil de calc
 |Banda ancha SILK  <br/> |Punto a punto  <br/> |26,0  <br/> |42,0  <br/> |54,0  <br/> |80,0  <br/> |
 |Banda ancha SILK  <br/> |Punto a punto  <br/> |20,0  <br/> |36,0  <br/> |48,0  <br/> |68,0  <br/> |
 |SEDA banda ancha/banda estrecha  <br/> |Punto a punto  <br/> |13,0  <br/> |29,0  <br/> |41,0  <br/> |54,0  <br/> |
+
+> [!NOTE]
+> Las llamadas RTC desde el Skype para clientes empresariales suelen utilizan el códec G.711, lo cual requiere un ancho de banda alto. Si no está disponible para dicho códec suficiente ancho de banda, a continuación, pueden producirse un error de las llamadas con un error similar al siguiente en los registros de medios: **al menos debe habilitarse uno códec, recursos humanos: c0042004**. Registros multimedia (archivos .blog) están cifrados y sólo pueden descodificar personal de soporte técnico de Microsoft.
 
 Las cantidades del ancho de banda de la tabla anterior se basan en los paquetes de 20 ms (50 paquetes por segundo) y para los códecs Siren y G.722 se incluyen las sobrecargas adicionales del protocolo de transporte seguro en tiempo real (SRTP) de los escenarios de conferencia y asumen que la secuencia está 100 % activa. La corrección de error de reenvío (FEC) se utiliza de forma dinámica cuando existe una pérdida de paquetes en el vínculo para ayudar a mantener la calidad de la secuencia de audio.
 

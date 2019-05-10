@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 6975d64de9353cb17817c96d18a0bc0c8440602c
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 6d00b1523e5ae4d98e18f492370d5a9a02174f00
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363047"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835293"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Microsoft salones de los equipos con Exchange local
 
@@ -102,7 +102,10 @@ Si va a implementar Microsoft salones de los equipos con Exchange local, va a us
 
 ### <a name="assign-an-office-365-license"></a>Asignar una licencia de Office 365
 
-1. Conectar con Azure Active Directory PowerShell. Para obtener instrucciones, vea [Conectar con Azure Active Directory PowerShell para el módulo de gráfico](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+1. Conectar con Azure Active Directory. Para obtener información detallada acerca de Active Directory, vea [Azure ActiveDirectory (MSOnline) 1.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-1.0). 
+
+   > [!NOTE]
+   > No se admite [de Azure Active Directory PowerShell 2.0](https://docs.microsoft.com/en-us/powershell/azure/active-directory/overview?view=azureadps-2.0) . 
 
 2. La cuenta del dispositivo debe tener una licencia válida de Office 365 o Exchange y Microsoft Teams no funcionará. Si dispone de la licencia, debe asignar una ubicación de uso para su cuenta de dispositivo: Esto determina qué SKU de las licencias están disponibles para su cuenta. Puede usar`Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> para recuperar una lista de SKU disponibles.
 

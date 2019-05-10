@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
 description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: a80d6977ff565d5d06f2487e5fb3ab8293b5e000
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240753"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864921"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
@@ -204,7 +204,11 @@ A continuación se muestran soluciones para problemas habituales:
     **Si se ve comprometidos certificados de entidades emisoras y hay un único dispositivo en el sitio,** realice los siguientes pasos:
     
 1. Ejecute el cmdlet Enter-CcUpdate para depurar los servicios y poner el dispositivo en modo de mantenimiento.
-    
+   
+   ```
+   Enter-CcUpdate
+   ```
+   
 2. Ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de la entidad de certificación y todos los certificados internos del servidor:
     
     Para las versiones en la nube conector antes de 2.0:
@@ -222,20 +226,37 @@ A continuación se muestran soluciones para problemas habituales:
     Update-CcServerCertificate 
     Remove-CcLegacyServerCertificate 
     ```
+    
+3. Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde el dispositivo y, a continuación, instale el certificado exportado a las puertas de enlace RTC. También es posible que requiera para volver a emitir el certificado en la puerta de enlace.
 
-3. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento.
-    
-4. Ejecute el cmdlet Export-CcRootCertificate en el archivo local file del dispositivo y después copie e instale el certificado exportado en sus puertas de enlace de RTC.
-    
+   ```
+   Export-CcRootCertificate
+   ```
+
+4. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento.
+
+   ```
+   Exit-CcUpdate
+   ```
+
+
     **Si se ve comprometidos certificados de entidades emisoras y hay varios dispositivos en el sitio,** realice la siguiente secuencia de pasos en cada dispositivo en el sitio.
     
     Microsoft recomienda que realice estos pasos durante las horas que no sean de máximo uso.
     
-   - En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar la entidad de certificación en los archivos de copia de seguridad la \<SiteRoot\> Active directory.
+1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar la entidad de certificación en los archivos de copia de seguridad la \<SiteRoot\> Active directory.
+
+     ```
+     Remove-CcCertificationAuthorityFile
+     ```
     
-   - Ejecute el cmdlet de entrar CcUpdate para purgar servicios y coloque cada dispositivo en el modo de mantenimiento.
+2. Ejecute el cmdlet de entrar CcUpdate para purgar servicios y coloque cada dispositivo en el modo de mantenimiento.
+
+     ```
+     Enter-CcUpdate
+     ```
     
-   - Ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de la entidad de certificación y todos los certificados internos del servidor:
+3. En el primer dispositivo, ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de entidad de certificación y todos los certificados de servidor interno:
     
      Para las versiones en la nube conector antes de 2.0:
     
@@ -253,15 +274,32 @@ A continuación se muestran soluciones para problemas habituales:
      Remove-CcLegacyServerCertificate 
      ```
 
-   - En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta. Más adelante, en todos los otros dispositivos en el mismo sitio, el cmdlet Reset-CcCACertificate consumirá automáticamente los archivos de copia de seguridad de la entidad emisora de certificados y dispositivos, usarán el mismo certificado raíz.
+4. En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta.
     
      ```
      Backup-CcCertificationAuthority
      ```
+   
+5. En todos los demás del dispositivo en el mismo sitio, ejecute los siguientes comandos para consumir los archivos de copia de seguridad de la entidad emisora de certificados, de modo que los dispositivos todos usan el mismo certificado raíz y, a continuación, solicitar certificados nuevos. 
+   
+     ```
+     Reset-CcCACertificate
+     Update-CcServerCertificate
+     Remove-CcLegacyServerCertificate 
+     ```
+     
+6. Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo en el sitio y, a continuación, instale el certificado exportado a las puertas de enlace RTC. También es posible que requiera para volver a emitir el certificado en la puerta de enlace.
+  
+     ```
+     Export-CcRootCertificate
+     ```
+     
+7. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
 
-   - Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
+     ```
+     Exit-CcUpdate
+     ```
     
-   - Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo en el sitio y, a continuación, instale el certificado exportado a las puertas de enlace RTC. 
     
 - **Problema: Recibe el mensaje de error siguiente en el registro de servicio de administración del conector en la nube, "C:\Program Files\Skype para profesionales en la nube conector Edition\ManagementService\CceManagementService.log": CceService Error: 0: excepción inesperada cuando informar del estado a online: System.Management.Automation.CmdletInvocationException: error de inicio de sesión para el usuario \<Global Administrador de inquilinos\>. Cree un nuevo objeto de credencial, asegurándose de que se han utilizado el nombre de usuario correcto y la contraseña. ---\>**
     

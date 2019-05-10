@@ -10,18 +10,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características se han quitado de Skype para Business Server 2019.'
-ms.openlocfilehash: bd7519e66632c005d81ff9fc110684f6c4854c41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198974"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835177"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019
 
 Obtenga información sobre las características y funciones que están en desuso en Skype para Business Server 2019. Para obtener información acerca de las nuevas características de Skype para Business Server 2019, consulte [Novedades en Skype para Business Server 2019](whats-new.md).
 
-Algunas características desaprovisionamiento emphasised se incluyen en Skype para Business Server 2019 para la compatibilidad con versiones anteriores del producto.
+Algunas características desaprovisionamiento enfatizados se incluyen en Skype para Business Server 2019 para la compatibilidad con versiones anteriores del producto.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Características desusadas en Skype para Business Server 2019 
 

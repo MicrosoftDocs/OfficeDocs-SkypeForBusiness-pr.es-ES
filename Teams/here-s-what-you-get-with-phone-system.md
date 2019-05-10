@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: a8660693fefdca2ecfdfe327927e89431d0fe5db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245532"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868675"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -66,6 +66,7 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envía sus llamadas al equipo ya sea de manera inmediata como después de establecer un período de tiempo.  <br/> |
 |[Realizar y recibir una videollamada con Skype Empresarial](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Puede ver el nombre de quien habla y la secuencia de vídeo en una pequeña ventana flotante para poder estar siempre listo para responder a cualquier pregunta. <br/> |
 |[Comprobar el correo de voz y las opciones de Skype Empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8) <br/> |Así es cómo funciona el correo de voz en la nube: cuando un usuario recibe un correo de voz, se entrega a sus buzones de correo como un correo electrónico con el mensaje de correo de voz como datos adjuntos. También podrán escuchar sus mensajes mediante un teléfono de escritorio certificado para Skype, todas las aplicaciones de Skype Empresarial o Lync para Mac 2011.  <br/> Correo de voz en la nube incluye saludo personalizado, el indicador de mensaje en espera y responder con llamada. Puede hacer que todo el correo de voz se deposite en buzones y se ponga a disposición a través de Skype Empresarial en su PC, dispositivo móvil y teléfono IP.  <br/> |
+|Música en espera | Disponible en junio de 2019, sistema telefónico se reproducirá música predeterminado definido por el servicio cuando se realiza una llamada externa de la red telefónica pública conmutada (RTC) en espera.  Esta característica funciona para las llamadas RTC a equipos uno a uno además de las llamadas realizadas a una cola de llamada. Esta característica proporciona paridad de notificación en espera con otras plataformas. (Todas las demás plataformas dar una indicación visual cuando un usuario se pone en espera, pero el autor de la llamada de RTC no ha tenido saber de ninguna manera).  En la primera versión, esta característica no es configurable por el administrador.| 
    
 ## <a name="plan-and-set-up-the-phone-system-in-office-365"></a>Planear y configurar el sistema telefónico en Office 365
 <a name="bkmk_setup"> </a>

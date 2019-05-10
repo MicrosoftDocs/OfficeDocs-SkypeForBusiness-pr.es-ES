@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explica los preparativos de infraestructura para la implementación de salas de equipos de Microsoft.
-ms.openlocfilehash: 4c46618da43b12b53b6b6e4ba99f7ddb408bc4da
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363013"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865017"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 
@@ -27,7 +27,7 @@ Esta sección contiene información general sobre los pasos necesarios para prep
     
 2. Asegúrese de que las conexiones de red y de Internet funcionen correctamente en el dispositivo que se va a utilizar.  
     
-   - Debe ser capaz de recibir una dirección IP mediante DHCP (Nota: salones de los equipos de Microsoft no se pueden configurar con una dirección IP estática en el primer inicio de unidad)
+   - Debe ser capaz de recibir una dirección IP mediante DHCP. (Salones de los equipos de Microsoft no se pueden configurar con una dirección IP estática en el primer inicio de unidad, pero posteriormente se puede configurar direcciones IP estáticas para el dispositivo en el dispositivo o en el enrutador o el modificador precede en la cadena).
     
    - Debe tener estos puertos abrir (además de abrir los puertos de medios normales):
     
@@ -57,7 +57,7 @@ Para que funcione correctamente, el dispositivo de salas de equipos de Microsoft
 - Tener acceso a su instancia de Active Directory o Azure Active Directory (Azure AD), así como a sus servidores de Microsoft Exchange y Skype Empresarial.
 - Tener acceso a un servidor que pueda proporcionar una dirección IP mediante DHCP. Salones de los equipos de Microsoft no se puede configurar con una dirección IP estática.
 - Tener acceso a los puertos HTTP 80 y 443.
-- Puertos TCP y UDP configurados como describen en [requisitos de protocolo y puerto para los servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) para in situ Skype para implementaciones empresariales o [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para Microsoft Teams o Skype para la empresa en línea implementaciones de.
+- Puertos TCP y UDP configurados como describen en [requisitos de protocolo y puerto para los servidores](/skypeforbusiness/plan-your-deployment/network-requirements/ports-and-protocols) para in situ Skype para las implementaciones de Business Server o [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US) para Microsoft Teams o Skype para la empresa en línea implementaciones de.
 
 > [!IMPORTANT]
 > Asegúrese de usar una conexión de red cableada de 1 Gbps para garantizar que dispondrá de la banda ancha necesaria. 

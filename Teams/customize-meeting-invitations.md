@@ -17,12 +17,12 @@ appliesto:
 f1keywords:
 - ms.teamsadmincenter.meetingpolicies.overview
 description: Obtenga información sobre cómo incluir el logotipo, exención de responsabilidad legal y otra información en las invitaciones a las reunión.
-ms.openlocfilehash: ab42ddbc427ec344b8e4cf0f85e11f1426a5c6c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cb6c535011e6ef1f6f7fe8fcd141646a34827e67
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236049"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868835"
 ---
 # <a name="customize-meeting-invitations-in-microsoft-teams"></a>Personalizar invitaciones a reuniones en Microsoft Teams
 
@@ -39,7 +39,7 @@ Como administrador, puede asegurarse de todos los Teams Microsoft las invitacion
 ## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones de reunión
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
-2. En el centro de administración de Office 365, elija **centros de administración** > **& equipos Skype**.
+2. En el centro de administración de Microsoft 365, elija **centros de administración** > **& equipos Skype**.
 3. En el centro de administración de Microsoft Teams, elija **reuniones** > **configuración de reunión**.
 4. Realice lo siguiente:
     - **Dirección URL del logotipo** - escriba la dirección URL donde está almacenado el logotipo. Recuerde que debe estar en formato JPG o PNG.

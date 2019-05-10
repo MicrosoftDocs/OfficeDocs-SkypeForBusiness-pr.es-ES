@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Obtenga información sobre cómo configurar un controlador de borde de sesión (SBC) para servir a varios inquilinos.
-ms.openlocfilehash: 5338046724cc3768929b41dceb060aec1cee0bd6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 83173a1972906629d7213d80e1290d789e021a87
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401491"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868659"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Configurar un controlador de borde de sesión para varios inquilinos
 
@@ -103,7 +103,7 @@ Para configurar la base y subdominios, siga los pasos descritos a continuación.
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-carrier-tenant"></a>Asegúrese de que tiene los derechos adecuados en el inquilino de operador
 
-Sólo se pueden agregar nuevos dominios si ha iniciado sesión el centro de administración de Office 365 como un administrador Global. 
+Sólo se pueden agregar nuevos dominios si ha iniciado sesión el centro de administración de Microsoft 365 como un administrador Global. 
 
 Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 (https://portal.office.com), vaya a **los usuarios** > **Usuarios activos**y, a continuación, compruebe que dispone de una función de administrador Global. 
 
@@ -144,7 +144,7 @@ Debe crear un nombre de subdominio único para cada cliente. En este ejemplo, cr
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Asegúrese de que tiene los derechos adecuados en el inquilino del cliente
 
-Sólo se pueden agregar nuevos dominios si ha iniciado sesión el centro de administración de Office 365 como un administrador Global. 
+Sólo se pueden agregar nuevos dominios si ha iniciado sesión el centro de administración de Microsoft 365 como un administrador Global. 
 
 Para validar el rol que tiene, inicie sesión en el centro de administración de Microsoft 365 (https://portal.office.com), vaya a **los usuarios** > **Usuarios activos**y, a continuación, compruebe que dispone de una función de administrador Global. 
 

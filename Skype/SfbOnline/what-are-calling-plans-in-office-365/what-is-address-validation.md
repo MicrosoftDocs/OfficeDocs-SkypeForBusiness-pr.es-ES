@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: 4ae8ab25f83eb97929706881f7f757ee3541284d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229639"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865000"
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 
 Cuando configura Planes de llamada en Office 365, tiene que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.
   
-Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia que sea correcta parcialmente (como un nombre de ciudad mal escrito) pase la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. De ser así, cambiará a validada y después se asignará a un número de teléfono.
+Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre de la ciudad, mal aún es posible que pasan la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. De ser así, cambiará a validada y después se asignará a un número de teléfono.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

@@ -13,12 +13,12 @@ localization_priority: Normal
 MS.collection: Strat_MT_TeamsAdmin
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8ca4249c88ce5793cd04eb2e2cc1ed3035915975
-ms.sourcegitcommit: 790ca37e2b12e4c8adcc526b1695017161749f51
+ms.openlocfilehash: 74a9b23479f5357c0014ef5ef88b3f5da03ace7f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33526859"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865057"
 ---
 # <a name="move-your-microsoft-staffhub-teams-to-shifts-in-microsoft-teams"></a>Mover los equipos de Microsoft StaffHub a turnos en Microsoft Teams
 
@@ -45,7 +45,15 @@ Detalles del usuario, la información de programación y datos de chat y de arch
 
 Cada equipo StaffHub necesita un grupo de 365 Office correspondiente. Si un equipo StaffHub no tiene un grupo de Office 365 asociados con ella, uno se crea automáticamente para que admitir la transición. Teniendo en cuenta la diferencia en el equipo y la asignación de nombres de grupo entre los equipos y StaffHub, es posible que vea un nombre de equipo diferente en los equipos.
 
-Como hacer la transición de los equipos de StaffHub a los equipos, los usuarios ya no tendrán acceso a sus programaciones en StaffHub y se redirigen a turnos en los equipos. Se recomienda que comunicarse este cambio en toda la organización para minimizar las interrupciones y para animar a los usuarios a adoptar y explorar los equipos.
+Como hacer la transición de los equipos de StaffHub a los equipos, los usuarios ya no tendrán acceso a sus programaciones en StaffHub y se redirigen a turnos en los equipos. Se recomienda que comunicarse este cambio en toda la organización para minimizar las interrupciones y para animar a los usuarios a adoptar y explorar los equipos. Si dispone de Azure AD Premium, se puede [ejecutar un informe](run-report-to-show-staffhub-usage.md) para obtener una lista de usuarios de StaffHub en la organización que necesitan saber acerca de este cambio.  
+
+No hay ninguna opción de reversión después de mover un equipo de StaffHub a los equipos.
+
+### <a name="user-experience-when-you-move-a-team"></a>Experiencia del usuario cuando se mueve un equipo
+
+Hay un tiempo de inactividad mínimo (menos de un segundo, si hay alguno en absoluto) para los usuarios cuando su equipo de StaffHub a turnos en los equipos. Los usuarios pueden seguir utilizando StaffHub hasta que se complete el movimiento a los equipos. Cuando se complete el movimiento, los miembros del equipo verán un mensaje para que sepan que necesitan para comenzar a usar turnos en los equipos para tener acceso a su programación de equipo. Este es un ejemplo del mensaje que ven los usuarios.
+
+![Ejemplo del mensaje que los usuarios ven en StaffHub después de que el equipo de StaffHub se mueve a los equipos.] (../../media/move-staffhub-teams-to-shifts-in-teams-message-to-users.png "Ejemplo del mensaje que los usuarios ven en StaffHub después de que el equipo de StaffHub se mueve a los equipos")
 
 ## <a name="prepare"></a>Preparar
 

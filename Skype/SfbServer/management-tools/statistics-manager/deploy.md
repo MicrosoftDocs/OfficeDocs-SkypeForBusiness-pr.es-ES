@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: 901720f87cf1c0bf78f558ed0d031bd41377799a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
-ms.translationtype: HT
+ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898261"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33864907"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  
@@ -118,7 +118,7 @@ Para validar la instalación, realice los siguientes pasos:
     
    - Si se muestra la página de comprobación de estado, la instalación del servicio de escucha se ha realizado correctamente.
     
-   - Si el valor de KnownServersCount es 1 o superior, se ha establecido la conexión con Redis.
+   - Si la KnownServerCount es 1 o superior, se establece la conexión con Redis.
     
    - Tras esperar unos minutos y después de instalar al menos un agente, compruebe si crece el valor de ValuesWritten.
     

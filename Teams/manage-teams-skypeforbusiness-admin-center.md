@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: ''
 search.appverid: MET150
-description: Entender cómo administrar todo el inquilino y configuración del usuario para los equipos durante la transición de los equipos de la experiencia en el centro de administración de Office 365 para el nuevo centro de administración de Microsoft Teams.
+description: Entender cómo administrar todo el inquilino y configuración del usuario para los equipos durante la transición de los equipos de la experiencia en el centro de administración de Microsoft 365 para el nuevo centro de administración de Microsoft Teams.
 localization_priority: Normal
 ms.custom:
 - NewAdminCenter_Update
@@ -19,12 +19,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 9f1adb47709d3e053bb2349d8a3e548bedc58d9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a89910c96a428b45d13b99725081d47d1cd7e245
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199570"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827799"
 ---
 <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Administrar Teams durante la transición al nuevo Centro de administración de Microsoft Teams
 ======================================================
@@ -42,7 +42,7 @@ La nueva experiencia del centro de administración le proporcionará una experie
 
 En la siguiente tabla identifica las secciones de la experiencia de los equipos que se han migrado y se muestran la relación entre la configuración actual y las directivas en el nuevo portal de administración.
 
-|Sección de los equipos en el centro de administración de Office 365  |Nombre de la configuración (nivel de inquilino)  |Directiva de centro de administración de Microsoft Teams   |Nivel: Usuario o inquilino   |
+|Sección de los equipos en el centro de administración de Microsoft 365  |Nombre de la configuración (nivel de inquilino)  |Directiva de centro de administración de Microsoft Teams   |Nivel: Usuario o inquilino   |
 |---------|---------|---------|---------|
 |General     |Mostrar Chat organizativa en perfil Personal        |  [TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)       |  Inquilino       |
 |General     |Usar Skype para la empresa para los destinatarios que no tienen los equipos         |[TeamsClientConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csteamsclientconfiguration?view=skype-ps)         |Inquilino         |
@@ -75,7 +75,7 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 |Mensajería      |Permitir a los usuarios eliminar sus propios mensajes de         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
 |Mensajería      |Permite a los usuarios a conversaciones en privado         |[TeamsMessagingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamsmessagingpolicy?view=skype-ps)         |Usuario         |
 
-<sup>1</sup> en desuso de invitado. Habilitación o deshabilitación de invitado ahora pueden administrarse en el centro de administración de Microsoft Teams. Habilitar o deshabilitar los equipos para profesionales de empresa, Edu estudiantes, y quedará obsoleto Edu profesores pronto. Esto debe administrarse mediante la asignación de licencias en el centro de administración de Office 365. Vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md).
+<sup>1</sup> en desuso de invitado. Habilitación o deshabilitación de invitado ahora pueden administrarse en el centro de administración de Microsoft Teams. Habilitar o deshabilitar los equipos para profesionales de empresa, Edu estudiantes, y quedará obsoleto Edu profesores pronto. Esto debe administrarse mediante la asignación de licencias en el centro de administración de Microsoft 365. Vea [administrar el acceso de usuarios a los equipos de Microsoft](user-access.md).
 <br><br>
 <sup>2</sup> Sideloading se divide de la siguiente manera:
 
@@ -85,15 +85,15 @@ En la siguiente tabla identifica las secciones de la experiencia de los equipos 
 <sup>3</sup> aplicaciones predeterminadas y aplicaciones externas pueden ser habilitadas y deshabilitadas en el nivel de usuario en TeamsAppPermissionPolicy. Además, las aplicaciones se pueden bloquear en el nivel de inquilino en la configuración de aplicaciones de toda la organización que invalida cualquier configuración de nivel de inquilino y usuario. 
 
 > [!NOTE]
-> Podrá continuar usar el panel de grupos en el centro de administración de Office 365 para la configuración relacionada con los equipos y los canales. Configuración de aplicaciones permanecerá en el área de los equipos del centro de administración de Office 365 y se van a migrar más adelante. 
+> Podrá continuar usar el panel de grupos en el centro de administración de Microsoft 365 para la configuración relacionada con los equipos y los canales. Configuración de aplicaciones permanecerá en el área de los equipos del centro de administración de Microsoft 365 y se van a migrar más adelante. 
 
 ## <a name="manage-settings-during-the-migration"></a>Administración de la configuración durante la migración
 
-Puede continuar modificar la configuración en el centro de administración de Office 365 y el Skype para el centro de administración de negocio hasta que se complete para el inquilino de migración para una sección. 
+Puede continuar modificar la configuración en el centro de administración de Microsoft 365 y el Skype para el centro de administración de negocio hasta que se complete para el inquilino de migración para una sección. 
 
 La siguiente tabla se muestra donde puede administrar las características durante la migración.
 
-|Característica  |Centro de administración de Microsoft Teams                      |Skype para el centro de administración empresarial (heredada)  |Centro de administración de Office 365  |
+|Característica  |Centro de administración de Microsoft Teams                      |Skype para el centro de administración empresarial (heredada)  |Centro de administración de Microsoft 365  |
 |---------|:---------:|:---------:|:---------:|
 |Los equipos de las directivas de mensajería, reuniones y eventos de Live Meeting     |     X    |         |         |
 |Directiva de actualización de los equipos     |    X     |         |         |

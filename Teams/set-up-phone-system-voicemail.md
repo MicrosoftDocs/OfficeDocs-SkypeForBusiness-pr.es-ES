@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: 3f8729c9737bcbf0e7731ac61b38d56d708e15dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a4d992ac4f42dca1bffe7a4c3d7ae01400b8e635
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204803"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865009"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -65,6 +65,9 @@ Es la siguiente información acerca de cómo configurar el correo de voz en la n
 > El Asistente de Exchange híbrida ejecución desde Exchange 2013 CU5 o mayor controlará los requisitos en los pasos 5 y 6 automáticamente. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
+
+> [!WARNING]
+> Deshabilitar el correo de voz a través de un Teams Microsoft directiva de llamada de Skype para los clientes empresariales, es posible que deshabilitar también el servicio de correo de voz para su Skype para usuarios profesionales.
 
 La transcripción de correo de voz está habilitada de forma predeterminada y el enmascaramiento de contenido ofensivo de transcripción está deshabilitado de forma predeterminada para todos los usuarios y organizaciones; sin embargo, puede controlarlos mediante los cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) y [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 

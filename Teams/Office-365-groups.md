@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 77c8125425bf7aaaf6f619edc9463b17967e4133
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a5e881d1c1d6631cd4b0660f5237aad088f9d1d
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180267"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868715"
 ---
 <a name="office-365-groups-and-microsoft-teams"></a>Office 365 grupos y equipos de Microsoft
 =====================================
@@ -50,6 +50,6 @@ Cuando se crea un equipo, en el back-end, está creando un grupo de Office 365 y
 <a name="group-membership"></a>Pertenencia a grupos
 ----------------
 
-Grupo características y funciones para los usuarios dependen de donde unidad pertenencia al grupo desde. Por ejemplo, si quita a un miembro de un equipo, se quitan del grupo así como Office 365. Eliminación del grupo inmediatamente quita el equipo y canales desde el cliente de los equipos. Si quita una persona de un grupo mediante el centro de administración de Office 365, ya no tendrán acceso a los otros aspectos de colaboración, como la biblioteca de documentos de SharePoint Online, Yammer grupo o compartida OneNote. Sin embargo, aún tendrán acceso a la funcionalidad de chat del grupo para aproximadamente dos horas.
+Grupo características y funciones para los usuarios dependen de donde unidad pertenencia al grupo desde. Por ejemplo, si quita a un miembro de un equipo, se quitan del grupo así como Office 365. Eliminación del grupo inmediatamente quita el equipo y canales desde el cliente de los equipos. Si quita una persona de un grupo mediante el centro de administración de Microsoft 365, ya no tendrán acceso a los otros aspectos de colaboración, como la biblioteca de documentos de SharePoint Online, Yammer grupo o compartida OneNote. Sin embargo, aún tendrán acceso a la funcionalidad de chat del grupo para aproximadamente dos horas.
 
-Como procedimiento recomendado para la administración de los miembros de los equipos, agregar y quitar a miembros desde el cliente de los equipos para asegurarse de que se aplica el control de acceso en cascada correcta a otras aplicaciones dependientes en la nube. Además, evitará un personas salir disjuntos experiencia con la impresión aún tienen acceso a los recursos que se solía (hasta que el próximo ciclo de sincronización agrega o revoca el acceso a un componente concreto del servicio). Si agrega o quita los integrantes del grupo fuera el cliente de los equipos (mediante el centro de administración de Office 365, Azure AD o Exchange Online PowerShell), puede tardar hasta dos horas para que los cambios se reflejan en los equipos.
+Como procedimiento recomendado para la administración de los miembros de los equipos, agregar y quitar a miembros desde el cliente de los equipos para asegurarse de que se aplica el control de acceso en cascada correcta a otras aplicaciones dependientes en la nube. Además, evitará un personas salir disjuntos experiencia con la impresión aún tienen acceso a los recursos que se solía (hasta que el próximo ciclo de sincronización agrega o revoca el acceso a un componente concreto del servicio). Si agrega o quita los integrantes del grupo fuera el cliente de los equipos (mediante el centro de administración de 365 Microsoft Azure AD o Exchange Online PowerShell), puede tardar hasta dos horas para que los cambios se reflejan en los equipos.

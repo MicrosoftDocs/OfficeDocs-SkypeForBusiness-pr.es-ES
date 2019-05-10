@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: 'Resumen: Estas características son nuevas en Skype para Business Server 2019.'
-ms.openlocfilehash: 770cfa8934f40e8ab847b7d77a60f18250c64842
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68b6a2c3e3115df58c44603817e2adfc0c83f67c
+ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239579"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33835242"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>¿Qué es en Skype para Business Server 2019
 
@@ -29,7 +29,7 @@ Nuevas características de Skype para Business Server 2019 incluyen lo siguiente
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Servicios de mensajería unificado: correo de voz en la nube
 
-Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento emphasised en favor de las características de correo de voz en la nube y operador automático de la nube.  
+Mensajería unificada de Exchange sigue estando disponible en Skype para Business Server 2019 al integrar Skype para la empresa 2019 con Exchange 2013 o 2016 de Exchange. Debido a los cambios en la compatibilidad en Exchange 2019, integración de mensajería unificada de Exchange se está desaprovisionamiento enfatizada en favor de las características de correo de voz en la nube y operador automático de la nube.  
 
 Correo de voz en la nube permite todas su Skype para profesionales 2019 users& #x 2014; si están hospedados en local o online& #x 2014; para tener acceso al mismo servicio de correo de voz en el Microsoft Cloud. Correo de voz en la nube proporciona las siguientes ventajas para los usuarios en línea y local:
 

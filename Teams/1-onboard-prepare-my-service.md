@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b800dc410eb6a6d506d3c3ad7ad4719485df84c2
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 27a3555443ecf1988a49c6002477e8ec2cb4680e
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402255"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868691"
 ---
 # <a name="prepare-my-service"></a>Preparar mis servicios
 
@@ -52,7 +52,7 @@ Aunque se recomienda que siga las listas de comprobación en orden, la secuencia
 Cuando se haya de incorporación a los usuarios en una base por sitio, se recomienda que use la [Guía de habilitación de sitio para voz (Guía)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) como una guía adicional a estas listas de comprobación.
 
 >[!NOTE]
->La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el centro de administración del centro de administración de Office 365 y Microsoft Teams para configurar esas opciones de configuración.
+>La mayoría de las opciones de configuración es comunes entre los equipos y Skype para profesionales en línea. Use el centro de administración del centro de administración de Microsoft 365 y Microsoft Teams para configurar esas opciones de configuración.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de supervisar la finalización de las listas de comprobación de incorporación?</li></ul></td></tr>
