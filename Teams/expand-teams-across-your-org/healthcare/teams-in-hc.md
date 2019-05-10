@@ -13,27 +13,28 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a Teams para organizaciones sanitarias
-ms.openlocfilehash: b2e7019183da06484b533fe66fd092c588c65e3f
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 0a169a61471e2c0c74024012b777fbf0bf2dc0cb
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835444"
+ms.locfileid: "33865033"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Introducción a Teams para organizaciones sanitarias
 
 Microsoft Teams ofrece una serie de características útiles para hospitales y otras organizaciones de asistencia sanitarios. Características de los equipos se encuentran en desarrollo para ayudar a hospitales con:
 
-- Coordinación de la atención
+- Coordinación de la atención y colaboración
 - Mensajería segura
-- Integración de presentación electrónica Healthcare registro (EHR)
-- Integración de trabajo Firstline
+- TeleHealth
+
+a través de la integración de registro de salud electrónicos (EHR) y la integración de sistema de trabajador Firstline además de otras capacidades básicas de Microsoft Teams, como las reuniones y llamadas y mensajería. 
 
 ## <a name="care-coordination---microsoft-teams-patients-app"></a>Aplicación de los pacientes de los equipos de coordinación de la atención - Microsoft
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Microsoft Teams ahora tiene una solución de coordinación de atención específica para las organizaciones de salud para ayudarles a cumplir su objetivo de proporcionar la mejor atención de pacientes. El punto más importante de la solución de coordinación de atención, la aplicación de los pacientes de los equipos de Microsoft, es la primera aplicación de ficha de terceros que se integra con los sistemas de (EHR) registros electrónicos de salud mediante una interfaz de Fast recursos de interoperabilidad de Healthcare ([FHIR](https://www.hl7.org/fhir/)) para incorporar valiosos información médica en Microsoft Teams.  
+Microsoft Teams ahora tiene una solución de coordinación de atención específica para las organizaciones de salud para ayudarles a cumplir su objetivo de proporcionar la mejor atención de pacientes. El punto más importante de la solución de coordinación de atención, la aplicación de los pacientes de los equipos de Microsoft, es la primera aplicación de ficha de terceros que se integra con los sistemas de (EHR) registros electrónicos de salud mediante una interfaz de Fast recursos de interoperabilidad de Healthcare ([FHIR](https://www.hl7.org/fhir/)) para incorporar valiosos información médica en Microsoft Teams en contexto para habilitar la comunicación y colaboración ensayos.  
 
 La solución de coordinación de atención puede interactuar con proveedores independientes de Software (ISV) que pueden conectarse a la aplicación de los pacientes a los sistemas EHR utilizando estándares de datos de estado existente como HL7v2 y FHIR. Microsoft está asociado con el siguiente líderes del sector para establecer la integración de registros de salud electrónicos con los equipos:
 

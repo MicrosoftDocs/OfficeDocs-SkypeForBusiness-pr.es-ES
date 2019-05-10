@@ -14,17 +14,17 @@ search.appverid: MET150
 description: Use PowerShell para permitir el acceso de invitado a los equipos de Microsoft Teams o bloquearlo.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7ca05e48d28986a944debe150d5dbf25129ca73c
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 0efb3a8054008d179b9d2e7e674b3482fe62a32c
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827672"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865093"
 ---
 <a name="use-powershell-to-control-guest-access-to-a-team"></a>Usar PowerShell para controlar el acceso de invitado a un equipo
 ================================================
 
-Además de usar el Centro de administración de Office 365 y el portal de Azure Active Directory, puede usar Windows PowerShell para controlar el acceso de invitado. Con PowerShell, puede hacer lo siguiente:
+Además de usar el centro de administración de Microsoft 365 y el portal de Azure Active Directory, puede usar Windows PowerShell para controlar el acceso de invitado. Con PowerShell, puede hacer lo siguiente:
   
 - Permitir o bloquear el acceso de invitado a todos los equipos y grupos de Office 365
     
