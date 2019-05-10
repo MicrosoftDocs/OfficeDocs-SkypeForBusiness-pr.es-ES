@@ -41,6 +41,7 @@
 ### [Usar pestañas integradas y personalizadas](built-in-custom-tabs.md)
 ### [Usar conectores de Office 365 y personalizados](Office-365-custom-connectors.md)
 ### [Publicar aplicaciones en el catálogo de aplicaciones de inquilinos de Teams](tenant-apps-catalog-teams.md)
+### [Certificación de aplicación](/teams-app-certification/all-apps?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ### [Configurar la aplicación Reuniones de Skype para trabajar con Teams](configure-skype-meetings-app-to-work-with-teams.md)
 
 
@@ -605,6 +606,9 @@
 ### [Introducción a Teams para organizaciones sanitarias](expand-teams-across-your-org/healthcare/teams-in-hc.md)
 ### [Introducción a las plantillas para las organizaciones sanitarias de Teams](expand-teams-across-your-org/healthcare/healthcare-templates.md)
 ### [Introducción a la mensajería segura para las organizaciones sanitarias](expand-teams-across-your-org/healthcare/messaging-policies-hc.md)
+### [Integración de registros sanitarios electrónicos en Microsoft Teams](expand-teams-across-your-org/healthcare/patients-app.md)
+#### [Especificación de la interfaz DSTU2](expand-teams-across-your-org/healthcare/dstu2-interface.md)
+#### [Especificación de la interfaz STU3](expand-teams-across-your-org/healthcare/stu3-interface.md)
 
 ## [Teams para el ámbito educativo](expand-teams-across-your-org/teams-for-education-landing-page.md)
 ### [Inicio rápido: Administradores de Teams para el ámbito educativo](teams-quick-start-edu.yml)
