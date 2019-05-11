@@ -1,8 +1,8 @@
 ---
 title: Seleccionar los miembros permitidos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.assetid: e9e6df4a-e58a-4104-9f72-2f5c818353e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Creación y administración de salas de Chat persistente es mucho más sencillo con el uso correcto de las categorías. Un administrador de Chat persistente puede definir AllowedMembers y Creators para cada categoría y también se puede definir la configuración predeterminada de salón de chat y comportamientos que se aplicará a todos los salones de chat creados en la categoría. Los administradores de charla persistente crear y administrar las categorías mediante el panel de control o los cmdlets de Windows PowerShell.
-ms.openlocfilehash: d47e60214b6f448b880e1eda646e6b4c936d192d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e4df978e3a2f3a3e66b46936c60fea97a60a43d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215601"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890987"
 ---
-# <a name="select-allowed-members"></a><span data-ttu-id="e36f1-105">Seleccionar los miembros permitidos</span><span class="sxs-lookup"><span data-stu-id="e36f1-105">Select Allowed Members</span></span>
+# <a name="select-allowed-members"></a><span data-ttu-id="13435-105">Seleccionar los miembros permitidos</span><span class="sxs-lookup"><span data-stu-id="13435-105">Select Allowed Members</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="e36f1-106">Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="e36f1-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="e36f1-107">La misma funcionalidad está disponible en los equipos.</span><span class="sxs-lookup"><span data-stu-id="e36f1-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="e36f1-108">Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="e36f1-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="e36f1-109">Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="e36f1-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
+> <span data-ttu-id="13435-106">Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019.</span><span class="sxs-lookup"><span data-stu-id="13435-106">Persistent chat is available in Skype for Business Server 2015 but is no longer supported in Skype for Business Server 2019.</span></span> <span data-ttu-id="13435-107">La misma funcionalidad está disponible en los equipos.</span><span class="sxs-lookup"><span data-stu-id="13435-107">The same functionality is available in Teams.</span></span> <span data-ttu-id="13435-108">Para obtener más información, consulte [actualización de Skype para la empresa a los equipos de Microsoft](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span><span class="sxs-lookup"><span data-stu-id="13435-108">For more information, see [Skype for Business to Microsoft Teams upgrade](https://docs.microsoft.com/MicrosoftTeams/journey-skypeforbusiness-teams).</span></span> <span data-ttu-id="13435-109">Si necesita usar chat en grupo, las opciones son migrar los usuarios que requieren esta funcionalidad a los equipos o continuar usando Skype para Business Server 2015.</span><span class="sxs-lookup"><span data-stu-id="13435-109">If you need to use Persistent chat, your choices are to either migrate users requiring this functionality to Teams or continue using Skype for Business Server 2015.</span></span>
