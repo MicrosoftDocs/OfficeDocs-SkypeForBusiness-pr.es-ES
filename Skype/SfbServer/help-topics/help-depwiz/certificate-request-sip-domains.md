@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (dominios SIP)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: En la página sobre configuración del dominio SIP en nombres alternativos de sujeto, debe seleccionar la casilla del dominio del protocolo de inicio de sesión (SIP) principal y cualquier otro dominio SIP si la infraestructura y la implementación reúnen los criterios enumerados.
-ms.openlocfilehash: b54ef02199700309f21ff792fa3754bbaccc3abf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2e117dc02042ad31c44c267ba74e158ca9eeb453
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201386"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911075"
 ---
-# <a name="certificate-request-sip-domains"></a><span data-ttu-id="e1990-103">Solicitud de certificado (dominios SIP)</span><span class="sxs-lookup"><span data-stu-id="e1990-103">Certificate Request (SIP Domains)</span></span>
+# <a name="certificate-request-sip-domains"></a><span data-ttu-id="0237f-103">Solicitud de certificado (dominios SIP)</span><span class="sxs-lookup"><span data-stu-id="0237f-103">Certificate Request (SIP Domains)</span></span>
  
-<span data-ttu-id="e1990-104">En la página sobre **configuración del dominio SIP en nombres alternativos de sujeto**, debe seleccionar la casilla del dominio del protocolo de inicio de sesión (SIP) principal y cualquier otro dominio SIP si la infraestructura y la implementación reúnen los criterios enumerados.</span><span class="sxs-lookup"><span data-stu-id="e1990-104">On the **SIP Domain setting on Subject Alternate Names (SANs)** page, you should select the check box for your primary Session Initiation Protocol (SIP) domain and any other SIP domains if your infrastructure and deployment meets the criteria listed.</span></span>
+<span data-ttu-id="0237f-104">En la página sobre **configuración del dominio SIP en nombres alternativos de sujeto**, debe seleccionar la casilla del dominio del protocolo de inicio de sesión (SIP) principal y cualquier otro dominio SIP si la infraestructura y la implementación reúnen los criterios enumerados.</span><span class="sxs-lookup"><span data-stu-id="0237f-104">On the **SIP Domain setting on Subject Alternate Names (SANs)** page, you should select the check box for your primary Session Initiation Protocol (SIP) domain and any other SIP domains if your infrastructure and deployment meets the criteria listed.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="e1990-p101">También puede optar por no seleccionar ninguno de los dominios SIP enumerados. No obstante, se recomienda seleccionar el dominio SIP principal que vaya a usar. Si opta por no seleccionar ninguno de los dominios SIP enumerados y cambian su configuración o sus requisitos, debe solicitar un nuevo certificado y seleccionar los dominios SIP necesarios para la nueva configuración.</span><span class="sxs-lookup"><span data-stu-id="e1990-p101">You can choose not to select any of the SIP domains listed. But we recommend that you select the primary SIP domain that you will use. If you choose not to select any of the listed SIP domains and your configuration or requirements change, you must request a new certificate and select the SIP domains that are required with the new configuration.</span></span> 
+> <span data-ttu-id="0237f-p101">También puede optar por no seleccionar ninguno de los dominios SIP enumerados. No obstante, se recomienda seleccionar el dominio SIP principal que vaya a usar. Si opta por no seleccionar ninguno de los dominios SIP enumerados y cambian su configuración o sus requisitos, debe solicitar un nuevo certificado y seleccionar los dominios SIP necesarios para la nueva configuración.</span><span class="sxs-lookup"><span data-stu-id="0237f-p101">You can choose not to select any of the SIP domains listed. But we recommend that you select the primary SIP domain that you will use. If you choose not to select any of the listed SIP domains and your configuration or requirements change, you must request a new certificate and select the SIP domains that are required with the new configuration.</span></span> 
   
 

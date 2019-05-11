@@ -1,8 +1,8 @@
 ---
 title: Ver certificado
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: bfc6db2d-141e-4395-819a-65ba4629ccca
 ROBOTS: NOINDEX, NOFOLLOW
 description: En la página Ver certificado, hay un panel que le permite seleccionar cualquier certificado válido en el almacén de certificados local. Puede seleccionar un certificado y, a continuación, haga clic en Ver detalles del certificado. El certificado se mostrará en un nuevo panel. En el panel de certificado, puede ver la información del certificado General. Haga clic en la ficha Detalles para mostrar información detallada sobre el certificado, como el nombre de sujeto y nombre alternativo del sujeto. La ruta de certificación se mostrará la ruta de acceso de thechain de confíaPor el certificado. Cuando haya terminado de revisar la información del certificado, haga clic en Aceptar.
-ms.openlocfilehash: 1fcd47ab6ae92ce8339ff4a551270e49df6f24d7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a56b68a8f1ba7a7d53c942cf82d436911a9e8f2b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217015"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894109"
 ---
-# <a name="view-certificate"></a><span data-ttu-id="81ff6-109">Ver certificado</span><span class="sxs-lookup"><span data-stu-id="81ff6-109">View Certificate</span></span>
+# <a name="view-certificate"></a><span data-ttu-id="245c0-109">Ver certificado</span><span class="sxs-lookup"><span data-stu-id="245c0-109">View Certificate</span></span>
  
-<span data-ttu-id="81ff6-110">En la página **Ver certificado** , hay un panel que le permite seleccionar cualquier certificado válido en el almacén de certificados local.</span><span class="sxs-lookup"><span data-stu-id="81ff6-110">On the **View Certificate** page, there is a pane that enables you to select any valid certificate in the local certificate store.</span></span> <span data-ttu-id="81ff6-111">Puede seleccionar un certificado y, a continuación, haga clic en **Ver detalles del certificado**.</span><span class="sxs-lookup"><span data-stu-id="81ff6-111">You can select a certificate, and then click **View Certificate Details**.</span></span> <span data-ttu-id="81ff6-112">El certificado se mostrará en un nuevo panel.</span><span class="sxs-lookup"><span data-stu-id="81ff6-112">The certificate will be displayed in a new pane.</span></span> <span data-ttu-id="81ff6-113">En el panel de **certificado** , puede ver la información del certificado General.</span><span class="sxs-lookup"><span data-stu-id="81ff6-113">In the **Certificate** pane, you can view the General certificate information.</span></span> <span data-ttu-id="81ff6-114">Haga clic en la ficha **Detalles** para mostrar información detallada sobre el certificado, como el nombre de sujeto y nombre alternativo del sujeto.</span><span class="sxs-lookup"><span data-stu-id="81ff6-114">Click the **Details** tab to display detailed information about the certificate, such as subject name and subject alternative name.</span></span> <span data-ttu-id="81ff6-115">La ruta de certificación se mostrará la ruta de acceso de la "cadena de confianza" para el certificado.</span><span class="sxs-lookup"><span data-stu-id="81ff6-115">The Certification Path will display the path of the "chain of trust" for the certificate.</span></span> <span data-ttu-id="81ff6-116">Cuando haya terminado de revisar la información del certificado, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="81ff6-116">When you are finished reviewing the certificate information, click **OK**.</span></span>
+<span data-ttu-id="245c0-110">En la página **Ver certificado** , hay un panel que le permite seleccionar cualquier certificado válido en el almacén de certificados local.</span><span class="sxs-lookup"><span data-stu-id="245c0-110">On the **View Certificate** page, there is a pane that enables you to select any valid certificate in the local certificate store.</span></span> <span data-ttu-id="245c0-111">Puede seleccionar un certificado y, a continuación, haga clic en **Ver detalles del certificado**.</span><span class="sxs-lookup"><span data-stu-id="245c0-111">You can select a certificate, and then click **View Certificate Details**.</span></span> <span data-ttu-id="245c0-112">El certificado se mostrará en un nuevo panel.</span><span class="sxs-lookup"><span data-stu-id="245c0-112">The certificate will be displayed in a new pane.</span></span> <span data-ttu-id="245c0-113">En el panel de **certificado** , puede ver la información del certificado General.</span><span class="sxs-lookup"><span data-stu-id="245c0-113">In the **Certificate** pane, you can view the General certificate information.</span></span> <span data-ttu-id="245c0-114">Haga clic en la ficha **Detalles** para mostrar información detallada sobre el certificado, como el nombre de sujeto y nombre alternativo del sujeto.</span><span class="sxs-lookup"><span data-stu-id="245c0-114">Click the **Details** tab to display detailed information about the certificate, such as subject name and subject alternative name.</span></span> <span data-ttu-id="245c0-115">La ruta de certificación se mostrará la ruta de acceso de la "cadena de confianza" para el certificado.</span><span class="sxs-lookup"><span data-stu-id="245c0-115">The Certification Path will display the path of the "chain of trust" for the certificate.</span></span> <span data-ttu-id="245c0-116">Cuando haya terminado de revisar la información del certificado, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="245c0-116">When you are finished reviewing the certificate information, click **OK**.</span></span>
   
 

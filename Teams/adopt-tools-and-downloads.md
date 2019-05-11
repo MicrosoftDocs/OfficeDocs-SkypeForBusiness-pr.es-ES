@@ -1,10 +1,10 @@
 ---
 title: Herramientas y descargas para la adopción
-ms.reviewer: ''
+ms.reviewer: karuanag
 description: Use estos recursos de adopción que le ayudarán a estimular la adopción de Microsoft Teams y otros servicios de Office 365.
 ms.topic: landing-page
-author: karuanag
-ms.author: karuanag
+author: kenwith
+ms.author: kenwith
 manager: serdars
 layout: LandingPage
 ms.date: 11/20/2018
@@ -16,12 +16,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c4bd35fc1e52ca8016330686711380b54cbe5e20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b32ef752923beeb2d38dfc25443a7d3a9ad4d195
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211089"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902852"
 ---
 # <a name="tools-for-driving-adoption"></a>Herramientas para conducir adopción 
 

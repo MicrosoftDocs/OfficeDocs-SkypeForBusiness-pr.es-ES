@@ -1,8 +1,8 @@
 ---
 title: Guardar información de caso de prueba de enrutamiento de voz
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar el cuadro de diálogo Guardar información de caso de prueba de enrutamiento de voz para guardar un caso de prueba de enrutamiento de voz temporal. En Guardar información enrutamiento de voz caso de prueba, escriba el nombre que desea dar a este caso de prueba en nombre y, a continuación, haga clic en Aceptar.
-ms.openlocfilehash: 7e1c3eb48930ac1a227c3ad95da5074de0cb9c3f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9cc5ee41c16004c6667a7e3ff999a8108b2a7610
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221514"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890777"
 ---
-# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="e13b3-104">Guardar información de caso de prueba de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="e13b3-104">Save Voice Routing Test Case Information</span></span>
+# <a name="save-voice-routing-test-case-information"></a><span data-ttu-id="1837d-104">Guardar información de caso de prueba de enrutamiento de voz</span><span class="sxs-lookup"><span data-stu-id="1837d-104">Save Voice Routing Test Case Information</span></span>
  
-<span data-ttu-id="e13b3-105">Puede usar el cuadro de diálogo **Información de caso de prueba de enrutamiento de voz de guardar** para guardar el caso de prueba de enrutamiento de voz de atemporary.</span><span class="sxs-lookup"><span data-stu-id="e13b3-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="e13b3-106">En **Guardar la información de caso de prueba de enrutamiento de voz**, escriba el nombre que desea dar a este caso de prueba en **nombre** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="e13b3-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
+<span data-ttu-id="1837d-105">Puede usar el cuadro de diálogo **Información de caso de prueba de enrutamiento de voz de guardar** para guardar el caso de prueba de enrutamiento de voz de atemporary.</span><span class="sxs-lookup"><span data-stu-id="1837d-105">You can use the **Save Voice Routing Test Case Information** dialog box to save atemporary voice routing test case.</span></span> <span data-ttu-id="1837d-106">En **Guardar la información de caso de prueba de enrutamiento de voz**, escriba el nombre que desea dar a este caso de prueba en **nombre** y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="1837d-106">In **Save Voice Routing Test Case Information**, type the name you want to give this test case in **Name** and then click **OK**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="e13b3-107">Cuando guarda un caso de prueba temporal, no se está guardando en el almacén de Administración Central.</span><span class="sxs-lookup"><span data-stu-id="e13b3-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="e13b3-108">En su lugar, convierte el caso de prueba disponible en la ficha **Probar enrutamiento de voz** de la página **Enrutamiento de voz** .</span><span class="sxs-lookup"><span data-stu-id="e13b3-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="e13b3-109">Aparecerá el caso de prueba con un estado de **Uncommitted**.</span><span class="sxs-lookup"><span data-stu-id="e13b3-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="e13b3-110">Para guardar el caso de prueba en el almacén de Administración Central, debe confirmar la configuración de voz, haga clic en **Confirmar todo** en cualquier menú **acción** dentro de la página **Enrutamiento de voz** .</span><span class="sxs-lookup"><span data-stu-id="e13b3-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
+> <span data-ttu-id="1837d-107">Cuando guarda un caso de prueba temporal, no se está guardando en el almacén de Administración Central.</span><span class="sxs-lookup"><span data-stu-id="1837d-107">When you save a temporary test case, you are not saving it to the Central Management store.</span></span> <span data-ttu-id="1837d-108">En su lugar, convierte el caso de prueba disponible en la ficha **Probar enrutamiento de voz** de la página **Enrutamiento de voz** .</span><span class="sxs-lookup"><span data-stu-id="1837d-108">Instead, it makes the test case available from the **Test Voice Routing** tab of the **Voice Routing** page.</span></span> <span data-ttu-id="1837d-109">Aparecerá el caso de prueba con un estado de **Uncommitted**.</span><span class="sxs-lookup"><span data-stu-id="1837d-109">The test case will appear with a state of **Uncommitted**.</span></span> <span data-ttu-id="1837d-110">Para guardar el caso de prueba en el almacén de Administración Central, debe confirmar la configuración de voz, haga clic en **Confirmar todo** en cualquier menú **acción** dentro de la página **Enrutamiento de voz** .</span><span class="sxs-lookup"><span data-stu-id="1837d-110">To save the test case to the Central Management store, you must commit the voice configuration by clicking **Commit All** from any **Action** menu within the **Voice Routing** page.</span></span>
   
  
   
