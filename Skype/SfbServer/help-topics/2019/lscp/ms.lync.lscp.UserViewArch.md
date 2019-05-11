@@ -1,8 +1,8 @@
 ---
 title: Los usuarios ver o configuración directiva de archivado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b1d6ec29-178e-4325-8901-ee6cf0e91759
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: cab2f22f110d312edb86ca4ebb542a958ad1d37f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9f0f1b48452757b1e3a69ebf16ff3f7b8612908c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32195489"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890959"
 ---
 # <a name="users-view-or-configure-archiving-policy"></a>Usuarios: Ver o configurar directiva de archivado
 

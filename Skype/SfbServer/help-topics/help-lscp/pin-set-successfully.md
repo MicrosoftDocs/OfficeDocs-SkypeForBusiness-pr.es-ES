@@ -1,8 +1,8 @@
 ---
 title: PIN establecido correctamente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6e210d1-bcac-4527-adc6-691a5723270c
 description: Para usar el correo electrónico para enviar el PIN para el usuario, haga clic en abrir mi aplicación de correo electrónico para enviar el nuevo PIN para el usuario. Para copiar el PIN en el mensaje de correo electrónico, seleccione Mostrar PIN.
-ms.openlocfilehash: 47d5bbe0252bbe473729dd792a5f647bfbe37bc6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 724bfa566b2d1bfa77c1069d0a1e52902b7c0c55
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200663"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896216"
 ---
 # <a name="pin-set-successfully"></a>PIN establecido correctamente
  

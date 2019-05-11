@@ -1,7 +1,7 @@
 ---
 title: Acceso de invitado en Microsoft Teams
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/25/2018
 ms.topic: conceptual
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae1f3149ca915e2fd5a9ddf59fdb0bfad2be2ca2
-ms.sourcegitcommit: a8f6b70fce1b5073f4743f7f413f7ce9fad8ead1
-ms.translationtype: HT
+ms.openlocfilehash: f6d77c44cb7d7d5ba5dd5fd3448b118c60c0d908
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/10/2019
-ms.locfileid: "31765152"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919027"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
@@ -37,7 +37,7 @@ El acceso de invitados es una de las características más solicitadas por los c
 
 El acceso de invitados permite que los equipos de su organización puedan colaborar con personas que no pertenecen a la organización al concederles acceso a equipos y canales en uno o más espacios empresariales. Todo contacto que tenga una cuenta de correo electrónico empresarial o de consumidor (como Outlook o Gmail) puede participar como invitado en Teams con acceso total a los chats, las reuniones y los archivos del equipo.
 
-El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación, sin necesidad de licencias adicionales. Puede tener un máximo de 5 invitados por licencia de usuario en su espacio empresarial. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/es-ES/azure/active-directory/b2b/licensing-guidance). 
+El acceso de invitado se incluye con todas las suscripciones de Office 365 Empresa Premium, Office 365 Enterprise y Office 365 Educación, sin necesidad de licencias adicionales. Puede tener un máximo de 5 invitados por licencia de usuario en su espacio empresarial. Para obtener más información sobre las licencias, consulte [Guía de concesión de licencias de colaboración B2B de Azure Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/b2b/licensing-guidance). 
 
 El acceso de invitado es una configuración a nivel de espacio empresarial de Microsoft Teams y se encuentra desactivada de forma predeterminada. El acceso de invitado está sujeto a los límites de servicio de Azure AD y de Office 365.
 

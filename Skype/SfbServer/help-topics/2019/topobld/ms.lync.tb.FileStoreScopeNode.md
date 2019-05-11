@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito del almacén de archivos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos de servidores dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: c68e9dbfbcd5e97439bc1a274c470aef264a986f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 217309016d0397f2e44aabf092bc2b4e988755fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220519"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912249"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivos
  

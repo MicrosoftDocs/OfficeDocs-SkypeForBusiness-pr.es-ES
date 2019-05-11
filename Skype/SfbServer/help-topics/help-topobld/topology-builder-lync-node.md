@@ -1,8 +1,8 @@
 ---
 title: Nodo Lync del Generador de topologías
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 20c61a2a-4955-42b9-897f-b180ffc226d6
-ms.openlocfilehash: b6df0c5c59007afa4a60c1a6db5403a38ea77caa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9a9578d01a193e3714ef76c7824f485fe54d2472
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219060"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903421"
 ---
 # <a name="topology-builder-lync-node"></a>Nodo Lync del Generador de topologías
  

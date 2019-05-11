@@ -1,8 +1,8 @@
 ---
 title: Planear la seguridad en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: cbc800db-35f6-45c0-b9f6-d8cee0c7e922
 description: Skype para el contenido de seguridad de Business Server.
-ms.openlocfilehash: ab6a32f6ff4699e258537377c6645dcaece5549e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 68ae0643f7336c47c0f86b5ae3de1bc6370d5bef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213539"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914117"
 ---
 # <a name="plan-for-security-in-skype-for-business-server"></a>Planear la seguridad en Skype para Business Server 
  

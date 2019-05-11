@@ -1,8 +1,8 @@
 ---
 title: Agregar colocación de servidor front-end 2010
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4d328bf4-85bc-4870-8d6f-008c0e46520e
 description: Para una implementación de Enterprise Edition, puede combinar cualquiera el A / servicio de conferencia A/v, el servidor de mediación o ambos en el grupo de servidores Front-End, o se pueden implementar cada uno de ellos como servidores independientes. Para una implementación de servidor Standard Edition, el servicio de conferencia A/v siempre se instala también si se habilita la conferencia.
-ms.openlocfilehash: 42fd773c8874ec1416ac8c161bc60b8baba52f0e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 1c2aab2f32a81724b8da649956e10e9a9ee5ae12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875344"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903813"
 ---
 # <a name="add-front-end-server-collocations-2010"></a>Agregar colocación de servidor front-end 2010
 

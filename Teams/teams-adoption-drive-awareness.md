@@ -1,7 +1,7 @@
 ---
 title: Darlo a conocer e implementar formación para Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f0337fb71e766b96f7648c15b46d665d846e1fb
-ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
+ms.openlocfilehash: 3eddb2789f33029b05f2cd593f21e03563cc4d05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33470672"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896297"
 ---
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Darlo a conocer e implementar formación para Microsoft Teams
 

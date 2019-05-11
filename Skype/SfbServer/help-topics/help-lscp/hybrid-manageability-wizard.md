@@ -1,8 +1,8 @@
 ---
 title: Asistente para la administración híbrida
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c8600c4e-dc54-4af2-a72e-c1b997d83443
 description: Puede usar al Asistente para la administración híbrida para llevar a cabo algunas de las tareas de configuración necesarias para configurar una implementación híbrida con Skype para profesionales en línea. Para obtener más información acerca de cómo configurar la implementación para entornos híbridos, vea Configure your environment con el Asistente para la administración híbrida.
-ms.openlocfilehash: eeaca5570141d091a13569ff0c6c304f6c769e95
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 21f5520d24008db2e784400666a7ea790d868301
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200760"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910963"
 ---
 # <a name="hybrid-manageability-wizard"></a>Asistente para la administración híbrida
 

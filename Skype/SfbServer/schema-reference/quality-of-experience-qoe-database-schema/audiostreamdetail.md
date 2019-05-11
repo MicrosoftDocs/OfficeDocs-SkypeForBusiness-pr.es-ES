@@ -1,8 +1,8 @@
 ---
 title: Vista AudioStreamDetail
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: La vista AudioStreamDetail almacena información acerca de cada secuencia de audio en la base de datos. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: c5078a0d936cce0dec29ddfee3813db7334aba71
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 770ccad50a6f48aa41e4ba2f105d1fc0d4879d87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212294"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920057"
 ---
 # <a name="audiostreamdetail-view"></a>Vista AudioStreamDetail
  

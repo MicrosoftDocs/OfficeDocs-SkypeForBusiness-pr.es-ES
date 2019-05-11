@@ -1,8 +1,8 @@
 ---
 title: Seleccionar un sitio
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Seleccionar un sitio para buscar los sitios disponibles en el entorno. Para usar un sitio existente, haga clic en un sitio de la lista y, a continuación, en Aceptar.
-ms.openlocfilehash: 930f6bb29e0fb175383cc868ccdfd4ae5ce98b33
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 457e2f146f6d0abf76c39f3acf68382b5d0d6271
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215055"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891085"
 ---
 # <a name="select-a-site"></a>Seleccionar un sitio
 

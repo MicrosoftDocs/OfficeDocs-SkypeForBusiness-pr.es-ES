@@ -1,7 +1,7 @@
 ---
 title: Implementación de salas de equipos de Microsoft con Skype para Business Server
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos con Skype para Business Server.
-ms.openlocfilehash: f047eceedba698d186490aa80646aa21b44c1e2d
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: f62006dc3f83d6f60c224f8e75ba4958ff0a7bfc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363034"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915800"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Implementación de salas de equipos de Microsoft con Skype para Business Server
   

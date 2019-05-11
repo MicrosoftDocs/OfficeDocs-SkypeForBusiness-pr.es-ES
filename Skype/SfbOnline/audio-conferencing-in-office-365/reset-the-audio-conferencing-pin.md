@@ -1,6 +1,6 @@
 ---
 title: Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: oscarr
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información acerca de cómo restablecer en Skype para profesionales en línea y lo que debe saber acerca de PIN. '
-ms.openlocfilehash: 257f59f59d4fc86c91aa5496fe3db42573269065
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b2c6ae7a26d23fbcb0f18da45886ba13853037f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229255"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906800"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Restablecer el PIN en Skype de conferencia de Audio para la empresa en línea
 

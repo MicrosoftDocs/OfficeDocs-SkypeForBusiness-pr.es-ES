@@ -1,8 +1,8 @@
 ---
 title: Personalizar la instalación de cliente de Windows en Skype para Business Server
 ms.reviewer: ''
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c1a85f1-5ebb-48fb-acb7-3bf46decbf80
 description: 'Resumen: Información general de los métodos de instalación y las herramientas de Skype para la empresa.'
-ms.openlocfilehash: d6458c1ec81ea67162a53107582249f301102ebd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bcf837a406f3e6a238a623b2f317dd3d4dedcbea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212715"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893479"
 ---
 # <a name="customize-windows-client-installation-in-skype-for-business-server"></a>Personalizar la instalación de cliente de Windows en Skype para Business Server
  

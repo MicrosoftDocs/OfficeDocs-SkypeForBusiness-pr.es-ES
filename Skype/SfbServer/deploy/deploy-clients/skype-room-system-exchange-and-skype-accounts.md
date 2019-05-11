@@ -1,7 +1,7 @@
 ---
 title: Aprovisionamiento de las cuentas de Skype y Exchange del Sistema de salas de Skype
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: Lea estos temas para obtener información sobre cómo aprovisionar cuentas de Exchange y Skype para el Sistema de salas de Skype.
-ms.openlocfilehash: 2da978d84ac763a27bba135e1899e83955b4fb53
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1e6674c869e69611bbb405112d5a781eae502084
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207898"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893340"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Aprovisionamiento de las cuentas de Skype y Exchange del Sistema de salas de Skype
  

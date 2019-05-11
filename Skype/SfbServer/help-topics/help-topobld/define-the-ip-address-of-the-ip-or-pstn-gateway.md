@@ -1,8 +1,8 @@
 ---
 title: Definir la dirección IP de la puerta de enlace RTC o IP
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
 description: Definir las direcciones IPv4 o IPv6 para la IP o teléfono telefónica conmutada (RTC) de red puerta de enlace mediante la selección de habilitar IPv4 o IPv6 habilitar. Puede elegir que cualquiera utilice todas las direcciones IP configuradas o limitar el uso del servicio a las direcciones IP seleccionadas.
-ms.openlocfilehash: 4def45565685b819fa587e61e1c7588a3664d225
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5dbae2c471c15b20da45cc6412f4bbabecff10ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226967"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915188"
 ---
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definir la dirección IP de la puerta de enlace RTC o IP
 
