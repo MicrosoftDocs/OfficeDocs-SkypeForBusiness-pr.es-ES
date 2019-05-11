@@ -1,8 +1,8 @@
 ---
 title: Agregar dominios SIP adicionales
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 description: Especifique el nombre de dominio de cada dominio adicional al que se desea admitir en su implementación. Por ejemplo, si ha especificado contoso.net como el dominio principal del protocolo de inicio de sesión (SIP) y también desea admitir fabrikam.net para el tráfico SIP en su implementación, especifique fabrikam.net como un dominio compatible adicionales.
-ms.openlocfilehash: 7094630ea507d6103c2a931f563ff0354d5e8a6e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6a70289a72f64eb874bc3912ef638e0e51aa7c02
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30897817"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886785"
 ---
-# <a name="add-additional-sip-domains"></a><span data-ttu-id="9b909-104">Agregar dominios SIP adicionales</span><span class="sxs-lookup"><span data-stu-id="9b909-104">Add Additional SIP Domains</span></span>
+# <a name="add-additional-sip-domains"></a><span data-ttu-id="09bf1-104">Agregar dominios SIP adicionales</span><span class="sxs-lookup"><span data-stu-id="09bf1-104">Add Additional SIP Domains</span></span>
  
-<span data-ttu-id="9b909-105">Especifique el nombre de dominio de cada dominio adicional al que se desea admitir en su implementación.</span><span class="sxs-lookup"><span data-stu-id="9b909-105">Specify the domain name of each additional domain that you want to support in your deployment.</span></span> <span data-ttu-id="9b909-106">Por ejemplo, si ha especificado contoso.net como el dominio principal del protocolo de inicio de sesión (SIP) y también desea admitir fabrikam.net para el tráfico SIP en su implementación, especifique fabrikam.net como un dominio compatible adicionales.</span><span class="sxs-lookup"><span data-stu-id="9b909-106">For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
+<span data-ttu-id="09bf1-105">Especifique el nombre de dominio de cada dominio adicional al que se desea admitir en su implementación.</span><span class="sxs-lookup"><span data-stu-id="09bf1-105">Specify the domain name of each additional domain that you want to support in your deployment.</span></span> <span data-ttu-id="09bf1-106">Por ejemplo, si ha especificado contoso.net como el dominio principal del protocolo de inicio de sesión (SIP) y también desea admitir fabrikam.net para el tráfico SIP en su implementación, especifique fabrikam.net como un dominio compatible adicionales.</span><span class="sxs-lookup"><span data-stu-id="09bf1-106">For example, if you have specified contoso.net as the primary Session Initiation Protocol (SIP) domain and you also want to support fabrikam.net for SIP traffic in your deployment, specify fabrikam.net as an additional supported domain.</span></span>
   
 

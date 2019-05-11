@@ -1,8 +1,8 @@
 ---
 title: Inicio de combinación de una implementación heredada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,15 +13,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 04f160cf-13c3-4d9d-80ab-78908fe86abe
 description: Para comenzar a combinar una implementación heredada con Skype para Business Server 2015, haga clic en siguiente.
-ms.openlocfilehash: 76de2bdfe42e36c4ef4a3557ed29320dc3284606
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 886466ee0d9ab104ab0d9a5506fb8cf3e3a5dbbd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200161"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888558"
 ---
-# <a name="legacy-merge-start"></a><span data-ttu-id="17293-103">Inicio de combinación de una implementación heredada</span><span class="sxs-lookup"><span data-stu-id="17293-103">Legacy Merge Start</span></span>
+# <a name="legacy-merge-start"></a><span data-ttu-id="9df2a-103">Inicio de combinación de una implementación heredada</span><span class="sxs-lookup"><span data-stu-id="9df2a-103">Legacy Merge Start</span></span>
  
-<span data-ttu-id="17293-104">Para comenzar a combinar una implementación heredada con Skype para Business Server 2015, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="17293-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
+<span data-ttu-id="9df2a-104">Para comenzar a combinar una implementación heredada con Skype para Business Server 2015, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="9df2a-104">To begin merging a legacy deployment with Skype for Business Server 2015, click **Next**.</span></span> 
   
 

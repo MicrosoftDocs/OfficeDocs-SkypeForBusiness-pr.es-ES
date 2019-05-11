@@ -1,8 +1,8 @@
 ---
 title: Agregar IPv6 externa de equipo perimetral
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: e901509e-f667-41ef-96f5-67251b05a167
 ROBOTS: NOINDEX, NOFOLLOW
 description: En dirección IPv6 externa, escriba la dirección IP externa que apunta al servicio perimetral de acceso, servicio perimetral de conferencia Web y A / servicio perimetral A/v.
-ms.openlocfilehash: cf87e6984e855fa31ee27c8dac64d15875dfe758
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 86959206ff6487c77f8a553baf460f5dbdb10167
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202197"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889104"
 ---
-# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="12d18-103">Agregar IPv6 externa de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="12d18-103">Add Edge Machine External IPv6</span></span>
+# <a name="add-edge-machine-external-ipv6"></a><span data-ttu-id="95003-103">Agregar IPv6 externa de equipo perimetral</span><span class="sxs-lookup"><span data-stu-id="95003-103">Add Edge Machine External IPv6</span></span>
  
-<span data-ttu-id="12d18-104">En **dirección IPv6 externa**, escriba la dirección IP externa que apunta al servicio perimetral de acceso, servicio perimetral de conferencia Web y A / servicio perimetral A/v.</span><span class="sxs-lookup"><span data-stu-id="12d18-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
+<span data-ttu-id="95003-104">En **dirección IPv6 externa**, escriba la dirección IP externa que apunta al servicio perimetral de acceso, servicio perimetral de conferencia Web y A / servicio perimetral A/v.</span><span class="sxs-lookup"><span data-stu-id="95003-104">In **External IPv6 address**, enter the external IP address that points to the Access Edge service, Web Conferencing Edge service, and A/V Edge service.</span></span>
   
 

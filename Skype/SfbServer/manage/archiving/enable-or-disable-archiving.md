@@ -1,8 +1,8 @@
 ---
 title: Habilitar o deshabilitar el archivado en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,38 +10,38 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
 description: 'Resumen: Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype para Business Server.'
-ms.openlocfilehash: b7f9ab424a9fc24c733fa61c75c1d4564b636941
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883028"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885034"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a><span data-ttu-id="eb7fa-103">Habilitar o deshabilitar el archivado en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="eb7fa-103">Enable or disable archiving in Skype for Business Server</span></span>
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a><span data-ttu-id="403c3-103">Habilitar o deshabilitar el archivado en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="403c3-103">Enable or disable archiving in Skype for Business Server</span></span>
 
-<span data-ttu-id="eb7fa-104">**Resumen:** Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-104">**Summary:** Learn how to enable or disable archiving in Skype for Business Server.</span></span>
+<span data-ttu-id="403c3-104">**Resumen:** Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="403c3-104">**Summary:** Learn how to enable or disable archiving in Skype for Business Server.</span></span>
   
-## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a><span data-ttu-id="eb7fa-105">Habilitar o deshabilitar el archivado con el Panel de control</span><span class="sxs-lookup"><span data-stu-id="eb7fa-105">Enable or disable archiving by using the Control Panel</span></span>
+## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a><span data-ttu-id="403c3-105">Habilitar o deshabilitar el archivado con el Panel de control</span><span class="sxs-lookup"><span data-stu-id="403c3-105">Enable or disable archiving by using the Control Panel</span></span>
 
-1. <span data-ttu-id="eb7fa-106">Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-106">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
+1. <span data-ttu-id="403c3-106">Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="403c3-106">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span> 
     
-2. <span data-ttu-id="eb7fa-107">Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-107">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
+2. <span data-ttu-id="403c3-107">Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.</span><span class="sxs-lookup"><span data-stu-id="403c3-107">Open a browser window, and then enter the Admin URL to open the Skype for Business Server Control Panel.</span></span> 
     
-3. <span data-ttu-id="eb7fa-108">En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-108">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+3. <span data-ttu-id="403c3-108">En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.</span><span class="sxs-lookup"><span data-stu-id="403c3-108">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
     
-4. <span data-ttu-id="eb7fa-109">Seleccione la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado, haga clic en **Editar** y en **Mostrar detalles**, y luego siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="eb7fa-109">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
+4. <span data-ttu-id="403c3-109">Seleccione la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado, haga clic en **Editar** y en **Mostrar detalles**, y luego siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="403c3-109">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-   - <span data-ttu-id="eb7fa-110">Para habilitar el archivado solo para las sesiones de mensajería instantánea (MI), haga clic en **Archivar sesiones de mensajería instantánea (MI)**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-110">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
+   - <span data-ttu-id="403c3-110">Para habilitar el archivado solo para las sesiones de mensajería instantánea (MI), haga clic en **Archivar sesiones de mensajería instantánea (MI)**.</span><span class="sxs-lookup"><span data-stu-id="403c3-110">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-   - <span data-ttu-id="eb7fa-111">Para habilitar el archivado para las sesiones de MI y de conferencia, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-111">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
+   - <span data-ttu-id="403c3-111">Para habilitar el archivado para las sesiones de MI y de conferencia, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.</span><span class="sxs-lookup"><span data-stu-id="403c3-111">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
     
-   - <span data-ttu-id="eb7fa-112">Para deshabilitar el archivado para la configuración, haga clic en **Deshabilitar archivado**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-112">To disable archiving for the configuration, click **Disable archiving**.</span></span>
+   - <span data-ttu-id="403c3-112">Para deshabilitar el archivado para la configuración, haga clic en **Deshabilitar archivado**.</span><span class="sxs-lookup"><span data-stu-id="403c3-112">To disable archiving for the configuration, click **Disable archiving**.</span></span>
     
-5. <span data-ttu-id="eb7fa-113">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-113">Click **Commit**.</span></span>
+5. <span data-ttu-id="403c3-113">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="403c3-113">Click **Commit**.</span></span>
     
-## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a><span data-ttu-id="eb7fa-114">Habilitar o deshabilitar el archivado con Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="eb7fa-114">Enable or disable archiving by using Windows PowerShell</span></span>
+## <a name="enable-or-disable-archiving-by-using-windows-powershell"></a><span data-ttu-id="403c3-114">Habilitar o deshabilitar el archivado con Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="403c3-114">Enable or disable archiving by using Windows PowerShell</span></span>
 
-<span data-ttu-id="eb7fa-115">También puede habilitar o deshabilitar el archivado con el cmdlet **Set-CsArchivingConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-115">You can also enable or disable archiving by using the **Set-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="eb7fa-116">Por ejemplo, el siguiente comando modifica todas las opciones de configuración de archivado de manera que solo se archivan las sesiones de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-116">For example, the following command modifies the all of the archiving configuration settings so that only IM sessions are archived.</span></span> <span data-ttu-id="eb7fa-117">El comando llama al cmdlet **Get-CsArchivingConfiguration** sin ningún parámetro para devolver todas las opciones de configuración de archivado que se están utilizando en la organización.</span><span class="sxs-lookup"><span data-stu-id="eb7fa-117">The command calls the **Get-CsArchivingConfiguration** cmdlet without any parameters in order to return all the archiving configuration settings currently in use in the organization.</span></span> <span data-ttu-id="eb7fa-118">A continuación, esa recopilación se canaliza al cmdlet **Where-Object**, que selecciona únicamente las opciones en las que la propiedad EnableArchiving es igual a (-eq) "ImAndWebConf".</span><span class="sxs-lookup"><span data-stu-id="eb7fa-118">This collection is then piped to the **Where-Object** cmdlet, which selects only those settings where the EnableArchiving property is equal to (-eq) "ImAndWebConf".</span></span> <span data-ttu-id="eb7fa-119">Luego, la recopilación filtrada se canaliza al cmdlet **Set-CsArchivingConfiguration**, que toma cada elemento en la colección y cambia el valor de EnableArchiving a "ImOnly":</span><span class="sxs-lookup"><span data-stu-id="eb7fa-119">The filtered collection is then piped to the **Set-CsArchivingConfiguration** cmdlet, which takes each item in the collection and changes the value of EnableArchiving to "ImOnly":</span></span>
+<span data-ttu-id="403c3-115">También puede habilitar o deshabilitar el archivado con el cmdlet **Set-CsArchivingConfiguration**.</span><span class="sxs-lookup"><span data-stu-id="403c3-115">You can also enable or disable archiving by using the **Set-CsArchivingConfiguration** cmdlet.</span></span> <span data-ttu-id="403c3-116">Por ejemplo, el siguiente comando modifica todas las opciones de configuración de archivado de manera que solo se archivan las sesiones de mensajería instantánea.</span><span class="sxs-lookup"><span data-stu-id="403c3-116">For example, the following command modifies the all of the archiving configuration settings so that only IM sessions are archived.</span></span> <span data-ttu-id="403c3-117">El comando llama al cmdlet **Get-CsArchivingConfiguration** sin ningún parámetro para devolver todas las opciones de configuración de archivado que se están utilizando en la organización.</span><span class="sxs-lookup"><span data-stu-id="403c3-117">The command calls the **Get-CsArchivingConfiguration** cmdlet without any parameters in order to return all the archiving configuration settings currently in use in the organization.</span></span> <span data-ttu-id="403c3-118">A continuación, esa recopilación se canaliza al cmdlet **Where-Object**, que selecciona únicamente las opciones en las que la propiedad EnableArchiving es igual a (-eq) "ImAndWebConf".</span><span class="sxs-lookup"><span data-stu-id="403c3-118">This collection is then piped to the **Where-Object** cmdlet, which selects only those settings where the EnableArchiving property is equal to (-eq) "ImAndWebConf".</span></span> <span data-ttu-id="403c3-119">Luego, la recopilación filtrada se canaliza al cmdlet **Set-CsArchivingConfiguration**, que toma cada elemento en la colección y cambia el valor de EnableArchiving a "ImOnly":</span><span class="sxs-lookup"><span data-stu-id="403c3-119">The filtered collection is then piped to the **Set-CsArchivingConfiguration** cmdlet, which takes each item in the collection and changes the value of EnableArchiving to "ImOnly":</span></span>
   
 ```
 Get-CsArchivingConfiguration | Where-Object {$_.EnableArchiving -eq "ImAndWebConf"} | Set-CsArchivingConfiguration -EnableArchiving "ImOnly"

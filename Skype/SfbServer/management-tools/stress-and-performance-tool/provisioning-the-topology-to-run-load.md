@@ -1,9 +1,10 @@
 ---
 title: Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 12/17/2015
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,45 +12,45 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype para aprovisionamiento o cambios en la topología empresarial Server 2015 para permitir a los usuarios ejecutar correctamente la herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: d578c0391d861a35a0c648ba322cb37053b96635
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 446c8d8154992540ffd8bfe18b07af7c54e864fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875787"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906644"
 ---
-# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a><span data-ttu-id="057ec-103">Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento</span><span class="sxs-lookup"><span data-stu-id="057ec-103">Provisioning the topology to run load in Stress and Performance scenarios</span></span>
+# <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a><span data-ttu-id="d3a6c-103">Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento</span><span class="sxs-lookup"><span data-stu-id="d3a6c-103">Provisioning the topology to run load in Stress and Performance scenarios</span></span>
  
-<span data-ttu-id="057ec-104">Skype para aprovisionamiento o cambios en la topología empresarial Server 2015 para permitir a los usuarios ejecutar correctamente la herramienta de esfuerzo y rendimiento.</span><span class="sxs-lookup"><span data-stu-id="057ec-104">Skype for Business Server 2015 topology changes or provisioning to allow users to successfully run the Stress and Performance tool.</span></span>
+<span data-ttu-id="d3a6c-104">Skype para aprovisionamiento o cambios en la topología empresarial Server 2015 para permitir a los usuarios ejecutar correctamente la herramienta de esfuerzo y rendimiento.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-104">Skype for Business Server 2015 topology changes or provisioning to allow users to successfully run the Stress and Performance tool.</span></span>
   
-<span data-ttu-id="057ec-105">Dependiendo de la configuración existente y la configuración para la implementación de Skype para Business Server 2015, es posible que necesite realizar algunos cambios en el entorno.</span><span class="sxs-lookup"><span data-stu-id="057ec-105">Depending on your existing settings and configuration for your deployment of Skype for Business Server 2015, you might need to make some changes in your environment.</span></span> <span data-ttu-id="057ec-106">La siguiente es una lista de los cambios:</span><span class="sxs-lookup"><span data-stu-id="057ec-106">The following is a list of those changes:</span></span>
+<span data-ttu-id="d3a6c-105">Dependiendo de la configuración existente y la configuración para la implementación de Skype para Business Server 2015, es posible que necesite realizar algunos cambios en el entorno.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-105">Depending on your existing settings and configuration for your deployment of Skype for Business Server 2015, you might need to make some changes in your environment.</span></span> <span data-ttu-id="d3a6c-106">La siguiente es una lista de los cambios:</span><span class="sxs-lookup"><span data-stu-id="d3a6c-106">The following is a list of those changes:</span></span>
   
-1. <span data-ttu-id="057ec-107">Establecer la directiva de ejecución de Windows PowerShell para Unrestricted.</span><span class="sxs-lookup"><span data-stu-id="057ec-107">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="057ec-108">Si no está seguro de qué es establecer en la actualidad, puede abrir el Skype para Shell de administración de servidor empresarial y ejecute este comando:</span><span class="sxs-lookup"><span data-stu-id="057ec-108">If you're not sure what it's set to currently, you can open the Skype for Business Server Management Shell and run this command:</span></span>
+1. <span data-ttu-id="d3a6c-107">Establecer la directiva de ejecución de Windows PowerShell para Unrestricted.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-107">Set the Windows PowerShell execution policy to Unrestricted.</span></span> <span data-ttu-id="d3a6c-108">Si no está seguro de qué es establecer en la actualidad, puede abrir el Skype para Shell de administración de servidor empresarial y ejecute este comando:</span><span class="sxs-lookup"><span data-stu-id="d3a6c-108">If you're not sure what it's set to currently, you can open the Skype for Business Server Management Shell and run this command:</span></span>
     
    ```
    Get-ExecutionPolicy
    ```
 
-   <span data-ttu-id="057ec-109">Si no se devuelve el valor Unrestricted, necesita ejecutar este a continuación:</span><span class="sxs-lookup"><span data-stu-id="057ec-109">If the value Unrestricted is not returned, you'll need to run this next:</span></span>
+   <span data-ttu-id="d3a6c-109">Si no se devuelve el valor Unrestricted, necesita ejecutar este a continuación:</span><span class="sxs-lookup"><span data-stu-id="d3a6c-109">If the value Unrestricted is not returned, you'll need to run this next:</span></span>
     
    ```
    Set-ExecutionPolicy -Unrestricted
    ```
 
-2. <span data-ttu-id="057ec-110">Para configurar de forma eficaz Skype para Business Server, necesitará:</span><span class="sxs-lookup"><span data-stu-id="057ec-110">To effectively configure Skype for Business Server, you'll need to:</span></span>
+2. <span data-ttu-id="d3a6c-110">Para configurar de forma eficaz Skype para Business Server, necesitará:</span><span class="sxs-lookup"><span data-stu-id="d3a6c-110">To effectively configure Skype for Business Server, you'll need to:</span></span>
     
-    - <span data-ttu-id="057ec-111">Estar familiarizado con su Skype para topología empresarial Server 2015 (por ejemplo, los nombres de equipo, instancias de servicio, los nombres de sitios y las directivas).</span><span class="sxs-lookup"><span data-stu-id="057ec-111">Be familiar with your Skype for Business Server 2015 topology (such as computer names, service instances, site names, and policies).</span></span>
+    - <span data-ttu-id="d3a6c-111">Estar familiarizado con su Skype para topología empresarial Server 2015 (por ejemplo, los nombres de equipo, instancias de servicio, los nombres de sitios y las directivas).</span><span class="sxs-lookup"><span data-stu-id="d3a6c-111">Be familiar with your Skype for Business Server 2015 topology (such as computer names, service instances, site names, and policies).</span></span>
     
-    - <span data-ttu-id="057ec-112">Asignar algunos de los usuarios que se crean a grupos, como grupo de respuesta (por ejemplo, los URI de SIP) de grupos de extensiones.</span><span class="sxs-lookup"><span data-stu-id="057ec-112">Assign some of the users that are created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
+    - <span data-ttu-id="d3a6c-112">Asignar algunos de los usuarios que se crean a grupos, como grupo de respuesta (por ejemplo, los URI de SIP) de grupos de extensiones.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-112">Assign some of the users that are created to groups, such as Response Group hunt groups (for example, SIP URIs).</span></span>
     
-3. <span data-ttu-id="057ec-113">Para ejecutar una secuencia de comandos desde la línea de comandos, puede usar:</span><span class="sxs-lookup"><span data-stu-id="057ec-113">To run a script from command line, you can use:</span></span>
+3. <span data-ttu-id="d3a6c-113">Para ejecutar una secuencia de comandos desde la línea de comandos, puede usar:</span><span class="sxs-lookup"><span data-stu-id="d3a6c-113">To run a script from command line, you can use:</span></span>
     
    ```
    PowerShell.exe -file <path to the file>
    ```
 
-4. <span data-ttu-id="057ec-114">Normalmente, una vez ejecutado una secuencia de comandos de este paquete, los seguimientos resultantes se almacenará en la misma ruta de acceso desde donde se ejecutó la secuencia de comandos en un archivo.</span><span class="sxs-lookup"><span data-stu-id="057ec-114">Typically, after you've run a script from this package, the resulting traces will be stored in a file in the same path from where the script was run.</span></span> <span data-ttu-id="057ec-115">No hay un formato de nomenclatura así, \<NombreDeSecuenciaDeComandos\>$h$m$s.txt.</span><span class="sxs-lookup"><span data-stu-id="057ec-115">There's a naming format as well, \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="057ec-116">Por lo que si ejecutó el ArchivingPolicy.ps1 a las 12:15 P.M., obtendrá un archivo de registro denominado ArchivingPolicy121500.txt.</span><span class="sxs-lookup"><span data-stu-id="057ec-116">So if you ran the ArchivingPolicy.ps1 at 12:15 PM, you'll get a log file named ArchivingPolicy121500.txt.</span></span>
+4. <span data-ttu-id="d3a6c-114">Normalmente, una vez ejecutado una secuencia de comandos de este paquete, los seguimientos resultantes se almacenará en la misma ruta de acceso desde donde se ejecutó la secuencia de comandos en un archivo.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-114">Typically, after you've run a script from this package, the resulting traces will be stored in a file in the same path from where the script was run.</span></span> <span data-ttu-id="d3a6c-115">No hay un formato de nomenclatura así, \<NombreDeSecuenciaDeComandos\>$h$m$s.txt.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-115">There's a naming format as well, \<scriptname\>$h$m$s.txt.</span></span> <span data-ttu-id="d3a6c-116">Por lo que si ejecutó el ArchivingPolicy.ps1 a las 12:15 P.M., obtendrá un archivo de registro denominado ArchivingPolicy121500.txt.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-116">So if you ran the ArchivingPolicy.ps1 at 12:15 PM, you'll get a log file named ArchivingPolicy121500.txt.</span></span>
     
-5. <span data-ttu-id="057ec-117">Mientras Adjuntamos estos ejemplos para la configuración del servidor, es le para modificar la configuración y para restaurar o deshaga el después de que haya terminado de ejecutar las pruebas de carga.</span><span class="sxs-lookup"><span data-stu-id="057ec-117">While we've provided these examples for your server configuration, it's up to you to both modify your configuration and restore or roll it back after you've finished running the load testing.</span></span>
+5. <span data-ttu-id="d3a6c-117">Mientras Adjuntamos estos ejemplos para la configuración del servidor, es le para modificar la configuración y para restaurar o deshaga el después de que haya terminado de ejecutar las pruebas de carga.</span><span class="sxs-lookup"><span data-stu-id="d3a6c-117">While we've provided these examples for your server configuration, it's up to you to both modify your configuration and restore or roll it back after you've finished running the load testing.</span></span>
     
 

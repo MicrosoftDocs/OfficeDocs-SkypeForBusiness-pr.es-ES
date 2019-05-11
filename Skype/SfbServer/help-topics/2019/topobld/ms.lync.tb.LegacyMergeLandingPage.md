@@ -1,8 +1,8 @@
 ---
 title: Destino de combinación de información heredada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Especificar configuración perimetral permite configurar la información de servidor perimetral heredada. Haga clic en Agregar para especificar la versión de servidor perimetral heredada de la implementación de Office Communications Server. Si no tiene ningún servidor perimetral en el entorno heredado, haga clic en siguiente para continuar.
-ms.openlocfilehash: 6d8b7dbbf6df7160d0b9537ea9bf639e5e5c5d38
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3d64426d37c758651a26bed4df16bca2c5052fef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235472"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906672"
 ---
-# <a name="legacy-merge-landing"></a><span data-ttu-id="41628-105">Destino de combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="41628-105">Legacy Merge Landing</span></span>
+# <a name="legacy-merge-landing"></a><span data-ttu-id="6c684-105">Destino de combinación de información heredada</span><span class="sxs-lookup"><span data-stu-id="6c684-105">Legacy Merge Landing</span></span>
  
-<span data-ttu-id="41628-106">La página **Especificar configuración perimetral** permite configurar la información de servidor perimetral heredada.</span><span class="sxs-lookup"><span data-stu-id="41628-106">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information.</span></span> <span data-ttu-id="41628-107">Haga clic en **Agregar** para especificar la versión de servidor perimetral heredada de la implementación de Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="41628-107">Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment.</span></span> <span data-ttu-id="41628-108">Si no tiene ningún servidor perimetral en el entorno heredado, haga clic en **siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="41628-108">If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
+<span data-ttu-id="6c684-106">La página **Especificar configuración perimetral** permite configurar la información de servidor perimetral heredada.</span><span class="sxs-lookup"><span data-stu-id="6c684-106">The **Specify Edge Setup** page enables you to configure your legacy Edge Server information.</span></span> <span data-ttu-id="6c684-107">Haga clic en **Agregar** para especificar la versión de servidor perimetral heredada de la implementación de Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="6c684-107">Click **Add** to specify the legacy Edge Server version of your Office Communications Server deployment.</span></span> <span data-ttu-id="6c684-108">Si no tiene ningún servidor perimetral en el entorno heredado, haga clic en **siguiente** para continuar.</span><span class="sxs-lookup"><span data-stu-id="6c684-108">If you do not have any Edge Servers in your legacy environment, click **Next** to continue.</span></span>
   
 

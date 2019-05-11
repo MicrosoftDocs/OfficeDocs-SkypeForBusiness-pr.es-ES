@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de aplicación externa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,29 +13,29 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto de este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: d1ae8f5f6bfb4d6d517c9889d730b98f7f5d2322
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b85cfc7b05f04197867aaceec276d2e6a469abb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194003"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910273"
 ---
-# <a name="external-application-scope-node"></a><span data-ttu-id="ad6ea-104">Nodo de ámbito de aplicación externa</span><span class="sxs-lookup"><span data-stu-id="ad6ea-104">External Application Scope Node</span></span>
+# <a name="external-application-scope-node"></a><span data-ttu-id="ae200-104">Nodo de ámbito de aplicación externa</span><span class="sxs-lookup"><span data-stu-id="ae200-104">External Application Scope Node</span></span>
  
-<span data-ttu-id="ad6ea-p102">Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto de este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p102">This node shows the pool fully qualified domain name (FQDN), replication setting, and next hop pool for this trusted application pool. You can perform the following actions:</span></span>
+<span data-ttu-id="ae200-p102">Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores, la opción de replicación y el grupo de servidores del próximo salto de este grupo de servidores de aplicaciones de confianza. Puede realizar las acciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="ae200-p102">This node shows the pool fully qualified domain name (FQDN), replication setting, and next hop pool for this trusted application pool. You can perform the following actions:</span></span>
   
-- <span data-ttu-id="ad6ea-p103">**Nuevo servidor**. Inicia el asistente **Definir nuevo servidor**, que sirve para agregar otro servidor a este grupo de servidores de aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another server to this trusted application pool.</span></span>
+- <span data-ttu-id="ae200-p103">**Nuevo servidor**. Inicia el asistente **Definir nuevo servidor**, que sirve para agregar otro servidor a este grupo de servidores de aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="ae200-p103">**New Server**. Starts the **Define New Server** wizard, which you can use to add another server to this trusted application pool.</span></span>
     
-- <span data-ttu-id="ad6ea-p104">**Editar propiedades**. Abre la página **Editar propiedades** de este servidor, donde puede cambiar el puerto y nombre de dominio completo del grupo de servidores externos e internos, habilitar y deshabilitar la federación y la traducción de direcciones de red (NAT) y especificar el próximo salto.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next hop pool.</span></span>
+- <span data-ttu-id="ae200-p104">**Editar propiedades**. Abre la página **Editar propiedades** de este servidor, donde puede cambiar el puerto y nombre de dominio completo del grupo de servidores externos e internos, habilitar y deshabilitar la federación y la traducción de direcciones de red (NAT) y especificar el próximo salto.</span><span class="sxs-lookup"><span data-stu-id="ae200-p104">**Edit Properties**. Opens the **Edit Properties** page for this server, where you can set the internal and external pool FQDN and port, enable and disable federation and network address translation (NAT), and specify the next hop pool.</span></span>
     
-- <span data-ttu-id="ad6ea-p105">**Eliminar**. Elimina el grupo de servidores de la topología.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p105">**Delete**. Deletes the pool from the topology.</span></span>
+- <span data-ttu-id="ae200-p105">**Eliminar**. Elimina el grupo de servidores de la topología.</span><span class="sxs-lookup"><span data-stu-id="ae200-p105">**Delete**. Deletes the pool from the topology.</span></span>
     
-<span data-ttu-id="ad6ea-113">Además de estas opciones, puede realizar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="ad6ea-113">In addition to these options, you can perform the following general tasks:</span></span>
+<span data-ttu-id="ae200-113">Además de estas opciones, puede realizar las tareas generales siguientes:</span><span class="sxs-lookup"><span data-stu-id="ae200-113">In addition to these options, you can perform the following general tasks:</span></span>
   
-- <span data-ttu-id="ad6ea-p106">**Topología**. Esta opción permite definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
+- <span data-ttu-id="ae200-p106">**Topología**. Esta opción permite definir una topología nueva, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos o quitar la implementación.</span><span class="sxs-lookup"><span data-stu-id="ae200-p106">**Topology**. You can use this option to define a new topology, open an existing topology, download the current topology, save a copy of the topology, publish the topology, install a database, or remove the deployment.</span></span>
     
-- <span data-ttu-id="ad6ea-p107">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
+- <span data-ttu-id="ae200-p107">**Ver**. Esta opción permite personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.</span><span class="sxs-lookup"><span data-stu-id="ae200-p107">**View**. You can use this option to customize the view of in Topology Builder by selecting the items to show and hide in the console tree views.</span></span>
     
-- <span data-ttu-id="ad6ea-p108">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="ad6ea-p108">**Help**. You can use this option to access Help for the active node.</span></span>
+- <span data-ttu-id="ae200-p108">**Ayuda**. Esta opción permite tener acceso a la Ayuda del nodo activo.</span><span class="sxs-lookup"><span data-stu-id="ae200-p108">**Help**. You can use this option to access Help for the active node.</span></span>
     
 
