@@ -1,7 +1,7 @@
 ---
 title: Plan para salas de equipos de Microsoft
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 5/10/2018
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explica las consideraciones de planeación relevantes para la implementación de salas de equipos de Microsoft, la próxima generación de sistemas de salón de Skype.
-ms.openlocfilehash: 9f1c6040e4e2811bb862def4d3f865f234f79792
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 213169d7cdb87474e5073b58e98c896616fd2ddd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363059"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916316"
 ---
 # <a name="plan-microsoft-teams-rooms"></a>Planeación de salas de equipos de Microsoft
 

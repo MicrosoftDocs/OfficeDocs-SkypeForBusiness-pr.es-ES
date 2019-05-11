@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de ruta de federación
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para establecer una asignación de ruta de federación de sitio, primero debe tener habilitada en el servidor perimetral o grupo de servidores perimetrales de federación. Si no está habilitada la federación en el servidor perimetral o grupo de servidores, la configuración de asignación de ruta de federación para el sitio no estará disponible para su modificación.
-ms.openlocfilehash: 49709f5c4a91e25efb14cc4b2c321c99fec89b68
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 37b3dc26b12ba1ddba336f8847e16d47124a5cca
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201902"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912025"
 ---
 # <a name="federation-route-settings-expander"></a>Expansor de configuración de ruta de federación
  

@@ -1,8 +1,8 @@
 ---
 title: Puerto SIP de combinación de implementación heredada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 19bf6b9b-d111-4285-9735-62fd9a04dc3b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El puerto SIP de Protocolo de control de transmisión (TCP) predeterminado para la comunicación con los clientes, servidores y grupos de servidores front-end es el 5061. Si no se usa el valor predeterminado, seleccione Puerto SIP para todos los servidores y grupos de servidores: y escriba el nuevo valor.'
-ms.openlocfilehash: 79bd3eb51aa94a3695f8341d89b7bb5895bcc4ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7a1f07834e31d12720ef109212b906b0ed6e2b5a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201740"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885507"
 ---
 # <a name="legacy-merge-sip-port"></a>Puerto SIP de combinación de implementación heredada
  

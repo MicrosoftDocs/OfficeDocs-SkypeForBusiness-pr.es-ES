@@ -1,8 +1,8 @@
 ---
 title: Administración de directivas de archivado en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/28/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 75ce32ba-eb82-4339-9c02-5df5f2c2ebd2
 description: 'Resumen: Obtenga información sobre cómo administrar las directivas de usuario para el archivado de Skype para Business Server.'
-ms.openlocfilehash: 289902ded6f1530c74f9c945517a3c853c99d364
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 78c2e9d565ce755c9c23bce97702575a5861a23a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211058"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884979"
 ---
 # <a name="manage-archiving-policies-in-skype-for-business-server"></a>Administración de directivas de archivado en Skype para Business Server
 

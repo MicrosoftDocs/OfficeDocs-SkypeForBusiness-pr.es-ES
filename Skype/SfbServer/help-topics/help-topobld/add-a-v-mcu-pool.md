@@ -1,8 +1,8 @@
 ---
 title: Agregar grupo de servidores MCU de A/V
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 description: Todos los servidores Enterprise Edition Front-End de un sitio central que no tienen un combinados A / servicio de conferencia A/v puede usar el mismo A independiente o grupo de servidores de conferencia A/v. Para cada A / grupo de servidores de conferencia A/v, debe especificar un nombre de dominio completo (FQDN) para el grupo de servidores y si va a tener solo un único / servidor de conferencia A/v o múltiple, con equilibrio de carga A / servidores de conferencia A/v.
-ms.openlocfilehash: c120504b56d159b40be7d7401f43ef39757f5253
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: a5f61e3bbf8def833163ea15b97e781c348191bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883626"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886799"
 ---
 # <a name="add-av-mcu-pool"></a>Agregar grupo de servidores MCU de A/V
  

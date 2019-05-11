@@ -1,8 +1,8 @@
 ---
 title: Agregar nombre de sitio de sucursal
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo sitio de sucursal, especifique lo siguiente:'
-ms.openlocfilehash: 5c85079c78bbd39b905f17eed8d7824f36190784
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a6af1fc549d908fcbff5a9701c5216932f7b21d5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202232"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889181"
 ---
 # <a name="add-branch-site-name"></a>Agregar nombre de sitio de sucursal
 

@@ -1,8 +1,8 @@
 ---
 title: Implementación de paneles de calidad de llamada de Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Resumen: Información sobre el proceso de implementación para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: ee67ddd0c0c9c3f2d169831c50dda49240d2ec7f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d048031ad7284b16f968d0f4641f0b31f9c984a9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883619"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887163"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Implementación de paneles de calidad de llamada de Skype para Business Server
  

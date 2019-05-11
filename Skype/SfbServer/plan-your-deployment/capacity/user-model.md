@@ -1,8 +1,8 @@
 ---
 title: Planificación de capacidad uso del modelo de usuario de Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
 description: En este artículo se proporciona orientación sobre cuántos servidores necesita en un sitio para el número de usuarios en ese sitio, según el uso descrito en modelos de usuario de Skype para Business Server.
-ms.openlocfilehash: 13c7a1bdbbfc20f13dec2c6d9999b80caf4078dd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a8d247fbe57e940f5950c0fafeba0a3a54c7983b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32228403"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910738"
 ---
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Planificación de capacidad uso del modelo de usuario de Skype para Business Server
 

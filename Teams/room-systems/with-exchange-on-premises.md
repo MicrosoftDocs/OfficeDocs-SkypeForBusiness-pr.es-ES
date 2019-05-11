@@ -1,7 +1,7 @@
 ---
 title: Implementar Microsoft salones de los equipos con Exchange local
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -12,12 +12,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 6d00b1523e5ae4d98e18f492370d5a9a02174f00
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835293"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916214"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Microsoft salones de los equipos con Exchange local
 

@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de director
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los puertos y el almacén de archivos asociado de este grupo de directores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: e69f2dfca8799ed8627fe7f1dc3f37db124185ba
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 671a869c357b67d5a8b4c9998ec0235f25745c2c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227532"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915363"
 ---
 # <a name="director-scope-node"></a>Nodo de ámbito de director
  

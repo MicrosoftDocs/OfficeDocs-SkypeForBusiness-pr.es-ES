@@ -1,8 +1,8 @@
 ---
 title: High Availability (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/8/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 description: El esquema principal de alta disponibilidad para la mayoría de roles de servidor de Skype para Business Server 2015 se basa en la redundancia de servidores a través de la agrupación. Si falla un servidor que está ejecutando un determinado rol de servidor, los demás servidores del grupo que estén ejecutando el mismo rol asumirán su carga.
-ms.openlocfilehash: 50cc5f371e4964555aae2a7f50ce3d1431f4f10c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d7b5f53f8cb0673a355af6206393ea6d070bdfcc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200277"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887205"
 ---
 # <a name="high-availability-planning-tool"></a>High Availability (Planning Tool)
  

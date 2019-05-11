@@ -1,8 +1,8 @@
 ---
 title: Archivo de uso compartido de alta disponibilidad en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Obtenga información sobre cómo asegurar una alta disponibilidad de los recursos compartidos de archivos en Skype para Business Server, el uso de DFS.
-ms.openlocfilehash: 0b5d2f577775635b95add15dd7b7576ca24c883f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90d67622c1c1fbd9567df69187519be63e812ac8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214071"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910217"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Archivo de uso compartido de alta disponibilidad en Skype para Business Server
  

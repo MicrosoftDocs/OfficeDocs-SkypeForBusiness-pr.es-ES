@@ -1,8 +1,8 @@
 ---
 title: Resultados de la combinación de la implementación heredada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 description: Para comenzar a combinar una implementación heredada con Skype para Business Server, haga clic en siguiente. Para obtener más información sobre cómo ejecutar el asistente para la combinación del Generador de topologías, consulte Merge Using Topology Builder Merge Wizard en la documentación sobre migración.
-ms.openlocfilehash: ab0dfc91b08f4ec1d2136647d616aad2d911e9f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f87dfde6c82e78f160bf748e7683ecd4a91be0a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200168"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888565"
 ---
 # <a name="legacy-merge-results"></a>Resultados de la combinación de la implementación heredada
 

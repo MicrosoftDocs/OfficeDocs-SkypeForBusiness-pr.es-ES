@@ -1,20 +1,20 @@
 ---
 title: Administración de regiones de red
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Región de red * son los concentradores de red o redes troncales utilizados en la configuración de desvío de medios, E9-1-1 y control de admisión llamada.
-ms.openlocfilehash: ea574fe981af679e4d841d786daf04460d1fb7c3
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c7559c8fa09d0f0d7fac4fa5067d2df91c52defe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877632"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913373"
 ---
 # <a name="managing-network-regions-in-skype-for-business-server"></a>Administrar regiones de red en Skype Empresarial Server
 
@@ -139,7 +139,7 @@ Una región de red interconexiones distintas partes de una red a través de vari
     > No se puede quitar una región de red si está asociada con un sitio de red. Si intenta quitar una región asociada con un sitio, recibirá un mensaje de error. Para ver si una región está asociada con todos los sitios, seleccione la región y, a continuación, haga clic en **Mostrar detalles** en el menú **Edición** .
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración de rutas de región de red](managing-network-region-routes.md)
 

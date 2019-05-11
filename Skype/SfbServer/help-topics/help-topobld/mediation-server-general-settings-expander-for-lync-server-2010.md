@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración general del servidor de mediación para Lync Server 2010
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e434c1-0c3c-4502-9441-c0a3c340f51f
 description: 'Para editar las propiedades de los servidores de mediación en este cuadro de diálogo. En el lado izquierdo es un conjunto de vínculos rápidos para pasar a la configuración para la configuración General, la configuración de próximo salto y la configuración de puerta de enlace de RTC. En cada sección son las siguientes opciones:'
-ms.openlocfilehash: a5af8e844c82d1af194e0c59fde67725c019ec99
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ed4ed6c1c480417850bbfe194702a04b9e3af75f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200091"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888460"
 ---
 # <a name="mediation-server-general-settings-expander-for-lync-server-2010"></a>Expansor de configuración general del servidor de mediación para Lync Server 2010
 

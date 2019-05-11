@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (información de la organización)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 description: El panel de información de la organización permite especificar el nombre de la organización y una unidad organizativa (OU) (normalmente, la división o departamento) que solicita el certificado. La información que se escribe en la organización y los cuadros de texto de la unidad organizativa aparece en el certificado y se usa para identificar que solicita el certificado, cuando el certificado se ve por otros usuarios.
-ms.openlocfilehash: ac5906177e6ae23bd1b703b7b79339bf9d54f866
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27fbbd711f7f1e4f920f4b59ac6a09f2760833bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201363"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911131"
 ---
 # <a name="certificate-request-organization-information"></a>Solicitud de certificado (información de la organización)
  

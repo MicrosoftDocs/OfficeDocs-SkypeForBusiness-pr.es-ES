@@ -1,8 +1,8 @@
 ---
 title: Publicar página CMS de selección de topología
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
 ROBOTS: NOINDEX, NOFOLLOW
 description: Publicar la topología que se ha configurado mediante el generador de topología. Le pedirá que seleccione en la lista que el grupo de servidores Front-End o de servidor Front-End asumirá la función de mantener el almacén de Administración Central. Un solo grupo de servidores Front-End o de servidor Front-End puede contener esta función en cualquier momento dado.
-ms.openlocfilehash: 0c80fa30721fe47fc3bc4725ca4f50f8a75f7009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e649629650bfa1fe168698984e3e8b0aaa5d2df4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201696"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888761"
 ---
 # <a name="publish-topology-select-cms-page"></a>Publicar página CMS de selección de topología
  

@@ -1,8 +1,8 @@
 ---
 title: Comprobar replicación de la preparación del bosque
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
 description: 'Para confirmar que la replicación del catálogo Global y la creación de objetos durante la preparación del bosque se ha realizado correctamente, haga lo siguiente:'
-ms.openlocfilehash: 113f3627f1d180ac8ccb63c97a606c5af6622767
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23e3aa84cd00c68ae126991c714c35b5fdf33536
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201261"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887282"
 ---
 # <a name="verify-replication-of-forest-preparation"></a>Comprobar replicación de la preparación del bosque
  

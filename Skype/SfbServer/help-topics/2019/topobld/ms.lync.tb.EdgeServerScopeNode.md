@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito del servidor perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y otras opciones de configuración básicas de este grupo de servidores perimetrales. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: 9df6d1c25c49024572dcdc7806053ccdeaa4a43b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5603b5efdc6172737f8027618fae1c7eacdfd15d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220526"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910801"
 ---
 # <a name="edge-server-scope-node"></a>Nodo de ámbito del servidor perimetral
  

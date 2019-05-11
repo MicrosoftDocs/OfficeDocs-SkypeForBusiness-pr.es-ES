@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de los servidores de supervisión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo servidores de supervisión muestra los servidores de supervisión en la topología. You can perform the following action:'
-ms.openlocfilehash: 6b44ddd868bb530e76849b2653306665ef785d24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9eea8011b68155bdc29d408b4e81f5f955386c3e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201710"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885529"
 ---
 # <a name="monitoring-servers-scope-node"></a>Nodo de ámbito de los servidores de supervisión
  

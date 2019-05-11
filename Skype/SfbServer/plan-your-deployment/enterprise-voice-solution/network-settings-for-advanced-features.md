@@ -1,8 +1,8 @@
 ---
 title: Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7f6de9e4-c8a4-44e4-8d14-21fe8c45283a
 description: Información sobre regiones de red, sitios de red y subredes IP. Todos estos deben configurarse para implementar el Plan de desvío de medios en Skype para la empresa, Plan para llamar el control de admisión de Skype para Business Server), o un Plan de servicios de emergencia en Skype para Business Server en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: a37cf9aea2ef400a61a0b457e1973b05d079ec74
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 979f90beb012bb0ff05077f7236dfdf39a74a69c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206560"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913683"
 ---
 # <a name="network-settings-for-the-advanced-enterprise-voice-features-in-skype-for-business-server"></a>Configuración de red para las características avanzadas de Enterprise Voice en Skype para Business Server
 

@@ -1,10 +1,11 @@
 ---
 title: Escenarios de servidor de bordes en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: conceptual
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Resumen: Revise estos escenarios para ayudarle a planear la topología de servidor perimetral de Skype para Business Server.'
-ms.openlocfilehash: 26bdb7e007c3ba0da6c5590db4c1e6953e43e701
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6072417fabeafe330a65887bc3f96d445c970541
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32208911"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885071"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Escenarios de servidor de bordes en Skype para Business Server
  

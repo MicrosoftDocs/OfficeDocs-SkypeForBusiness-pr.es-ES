@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de almacenes de archivos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Almacenes de archivos contiene los almacenes de archivos de la topología. You can perform the following action:'
-ms.openlocfilehash: 616a4e5aa61550842d68319da1e54b9048fb3a58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b29bc27afa154362a9bc92c21e2b47efb2f3516d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220490"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886848"
 ---
 # <a name="file-stores-scope-node"></a>Nodo de ámbito de almacenes de archivos
  

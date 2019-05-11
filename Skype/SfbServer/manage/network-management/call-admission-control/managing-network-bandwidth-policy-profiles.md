@@ -1,20 +1,20 @@
 ---
 title: Administración de perfiles de directivas de ancho de banda de red
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Use los procedimientos de este artículo para ver, crear, modificar o eliminar perfiles de directivas de ancho de banda de red.
-ms.openlocfilehash: d27e4df1b549afd3c176f8b54453c44bb97819f8
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: bc76af70002cc1f5b59b754cd8b86fe0d4c5327f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30878903"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888845"
 ---
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Administrar perfiles de directivas de ancho de banda de red en Skype Empresarial Server
 
@@ -138,7 +138,7 @@ Como parte del control de admisión de llamadas (CAC), una directiva de ancho de
     > No se puede eliminar un perfil de directiva de ancho de banda que está asociado con un sitio de red. En primer lugar debe quitar la asociación con el sitio de red antes de eliminar el perfil. 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administración de control de admisión de llamadas para sitios](managing-call-admission-control-for-sites.md)
  

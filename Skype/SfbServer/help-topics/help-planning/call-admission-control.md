@@ -1,8 +1,8 @@
 ---
 title: Call Admission Control (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/6/2016
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 description: El control de admisión de llamadas (CAC) determina, en base al ancho de banda de la red disponible, si está permitido establecer sesiones de comunicación en tiempo real, como son las llamadas de voz o vídeo.
-ms.openlocfilehash: 5341b3dda1e739c649ca859356d61712a7ec8d3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f975777cc30ee30e2f67a8e574f3e154fef07398
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215167"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886497"
 ---
 # <a name="call-admission-control-planning-tool"></a>Call Admission Control (Planning Tool)
  

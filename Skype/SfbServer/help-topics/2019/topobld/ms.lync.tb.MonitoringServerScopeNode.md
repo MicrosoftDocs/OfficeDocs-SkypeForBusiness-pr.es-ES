@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de supervisión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En el generador de topología, se pueden realizar las tareas relacionadas con un servidor individual que ejecuta la supervisión haciendo doble clic en el servidor que ejecuta la supervisión en el árbol de consola, haciendo clic en acción en la barra de herramientas, o haciendo clic en una tarea en el panel de acciones y, a continuación, haciendo clic en uno de las siguientes opciones para el servidor que ejecuta la supervisión:'
-ms.openlocfilehash: 2f156b660dc60a16c67ac9bdf54e8114ce17a0ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3e3b9079549b78b88c490f410f368883b56460bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235357"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885521"
 ---
 # <a name="monitoring-scope-node"></a>Nodo de ámbito de supervisión
  

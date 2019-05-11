@@ -1,8 +1,8 @@
 ---
 title: Agregar IP interna de servidor perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 ROBOTS: NOINDEX, NOFOLLOW
 description: La dirección IP interna es la dirección IP de la interfaz interna del servidor perimetral.
-ms.openlocfilehash: c9d7a454f5a318fac7507cadcbc0dc09577ccb2d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 237ca4e6c37e746c0f364223156abced2f08ed84
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202148"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889076"
 ---
 # <a name="add-edge-server-internal-ip"></a>Agregar IP interna de servidor perimetral
 

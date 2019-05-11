@@ -1,8 +1,8 @@
 ---
 title: Agregar servidor
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 61647eac-9062-4381-9c80-3cbf70b7db33
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para agregar un nuevo servidor a un grupo de servidores existente, donde el grupo de servidores es uno de los siguientes:'
-ms.openlocfilehash: 5db99c8cdd2a08722a27a9da437911dcf573d5bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 562dbc44641c5af72224dbcbb0df494b7c0346d9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220930"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888917"
 ---
 # <a name="add-server"></a>Agregar servidor
  

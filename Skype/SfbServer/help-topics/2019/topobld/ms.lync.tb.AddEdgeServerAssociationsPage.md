@@ -1,8 +1,8 @@
 ---
 title: Agregar asociaciones de servidor perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use esta página para seleccionar los grupos de servidores Front-End y servidores Standard Edition usará este grupo de servidores perimetrales para A y el tráfico A/v.
-ms.openlocfilehash: 79dfc08253f105b123a73c83bdf51d0ea0584bc0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 08d151be96fbc620e2e96d06c7f6732472dbdef9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202162"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889097"
 ---
 # <a name="add-edge-server-associations"></a>Agregar asociaciones de servidor perimetral
  

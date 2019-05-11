@@ -1,8 +1,8 @@
 ---
 title: Agregar compatibilidad de servidor perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede agregar compatibilidad para el acceso de usuarios externos al implementar una topología inicial o en un momento posterior. Para más detalles sobre cómo agregar servidores perimetrales a una topología existente, mire Define Your Edge Topology en la documentación de implementación de servidores perimetrales.
-ms.openlocfilehash: 78aab30b5fc0f1fefe2b42a5f1d04affcdb73244
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad12fa4ec2907f8cd9a7e847c30edbcb76f80036
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202134"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889034"
 ---
 # <a name="add-edge-server-support"></a>Agregar compatibilidad de servidor perimetral
 

@@ -1,8 +1,8 @@
 ---
 title: Plan para el archivado en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Resumen: Lea este tema para obtener información sobre cómo planear el archivado en Skype para Business Server.'
-ms.openlocfilehash: 164a3207153986e788a7db47b86014063e37e0e5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1f7577b16535c6186536e5ad9786a91069be2db4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236119"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885628"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Plan para el archivado en Skype para Business Server
  

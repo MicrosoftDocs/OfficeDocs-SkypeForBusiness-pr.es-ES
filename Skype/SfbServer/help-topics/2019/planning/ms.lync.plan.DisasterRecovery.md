@@ -1,8 +1,8 @@
 ---
 title: Disaster Recovery (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para Business Server incluye ante desastres medidas de recuperación, ya que permite a los grupos de servidores Front-End del par que se encuentran en dos centros de datos.
-ms.openlocfilehash: 6d5e14095504f20cfa8de5dd5c2258d713107df2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 02fad81c10a5fcc4b244ac28f59f6ea32a2b8a63
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221049"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889496"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Disaster Recovery (Planning Tool)
  

@@ -1,21 +1,22 @@
 ---
 title: Tema de Ayuda
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 ms.date: 1/1/1900
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c989f1-a717-400f-9974-932dbe5a1675
 description: Inserte la introducción aquí.
-ms.openlocfilehash: d9542a4adef48af5af996a5d95ad86e8a3eecc35
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3a6cdb6c6b57abdd09911431e332e05c91a97b06
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247292"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886778"
 ---
 # <a name="help-topics"></a>Tema de Ayuda
  
