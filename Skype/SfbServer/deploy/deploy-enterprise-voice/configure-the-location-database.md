@@ -1,8 +1,8 @@
 ---
 title: Configuración de la base de datos de ubicación en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223658"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893052"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Configuración de la base de datos de ubicación en Skype para Business Server
  

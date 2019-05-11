@@ -1,8 +1,8 @@
 ---
 title: Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Resumen: Obtenga información sobre cómo administrar los valores de configuración de servidor de conferencia en Skype para Business Server.'
-ms.openlocfilehash: a12226f9f7d56f9f8a61b6f820a2c0f9744121fc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5727fffa8651d16be010dd76584d51c447c34087
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222845"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919552"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
  

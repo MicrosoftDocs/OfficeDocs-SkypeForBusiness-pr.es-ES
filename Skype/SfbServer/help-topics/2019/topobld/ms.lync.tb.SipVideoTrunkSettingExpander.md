@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de tronco de vídeo SIP
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: 01b394a9bd8e3ba304e67b762e81750bddd3af1a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e709dc945221b1f9ce946d9194550efc9dd8d52b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201562"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911815"
 ---
 # <a name="sip-video-trunk-setting-expander"></a>Expansor de configuración de tronco de vídeo SIP
  

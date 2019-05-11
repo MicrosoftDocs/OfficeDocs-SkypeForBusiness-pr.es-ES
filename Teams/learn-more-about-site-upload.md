@@ -1,7 +1,7 @@
 ---
 title: Agregar y actualizar datos de ubicaciones
 author: tonysmit
-ms.author: lolaj
+ms.author: tonysmit
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -18,12 +18,12 @@ ms.custom:
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a84b022c7b5553a15ff8862a175ba5f856cdd149
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a9274952d74c3bf55943ed6b028fd630ab2078e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222320"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921285"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================

@@ -1,8 +1,8 @@
 ---
 title: Preparar esquema (invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página ejecución de comandos muestra un resumen de los comandos que se emiten para extender el esquema de Skype para Business Server.
-ms.openlocfilehash: 2a853daad9694e72dc6d983c37862fb074cbbee3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 41af6992c96a67f256ec5550b3ddad55a7823037
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215986"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892044"
 ---
 # <a name="prepare-schema-invoke"></a>Preparar esquema (invocar)
  

@@ -1,7 +1,7 @@
 ---
 title: Usar Config.xml para realizar tareas de instalación en Skype para clientes empresariales
-ms.author: chucked
-author: chuckedmonson
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: PhillipGarding
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
 description: 'Resumen: cómo usar el archivo Config.xml para especificar instrucciones de instalación adicionales.'
-ms.openlocfilehash: dfb6625146261b1bbf22e0f563717899c68beaae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 285792dbc753d8c16e6d31f83782d53f85c895f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214852"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895057"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Usar Config.xml para realizar tareas de instalación en Skype para clientes empresariales
 

@@ -1,8 +1,8 @@
 ---
 title: Probar enrutamiento de voz crear nuevos o editar casos de prueba existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e826fd4b-5c2c-4164-b352-c109f42810f9
 description: UNRESOLVED_TOKEN_VAL(»bigfin_UI_help_intro)
-ms.openlocfilehash: fbc06e91adc5dab65e37ae2b8d9d59338ddfd874
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 103b50cff52d94d654975315eb10954c65a23cf1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220090"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929493"
 ---
 # <a name="test-voice-routing-create-new-or-edit-existing-test-cases"></a>Probar enrutamiento de voz: Crear nuevas o editar existentes situaciones de prueba
 

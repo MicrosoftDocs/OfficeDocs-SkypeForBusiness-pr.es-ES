@@ -1,8 +1,8 @@
 ---
 title: Agregar servidor de supervisión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365f5b3a-ad1b-4145-bd5c-296c9a0aa482
 description: Para incorporar un servidor de supervisión en el diseño de la topología, debe especificar el nombre de dominio completo (FQDN) del servidor en el que desea implementar el servidor de supervisión. Antes de publicar una topología que incluye el servidor de supervisión e instalación de Skype para Business Server en el servidor, debe completar todos los requisitos previos para la implementación de supervisión. Para más información sobre estos requisitos previos, consulte Deploying Monitoring en la documentación sobre implementación.
-ms.openlocfilehash: 628eeb03abdf146fd92722528efbead313aab191
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d3f14e917839eb011dd884a5053ecedf1fffb86b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30876707"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897719"
 ---
 # <a name="add-monitoring-server"></a>Agregar servidor de supervisión
 

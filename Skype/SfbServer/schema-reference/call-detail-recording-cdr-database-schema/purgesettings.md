@@ -1,8 +1,8 @@
 ---
 title: Tabla PurgeSettings
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'La tabla PurgeSettings contiene información que especifica si (y cuando) registros de detalles de llamadas no actualizada se eliminarán automáticamente de la base de datos de CDR. Tenga en cuenta que la información relacionada con la depuración también puede obtenerse desde dentro de la Skype para Business Server 2015, ejecute el comando siguiente:'
-ms.openlocfilehash: 10dd9c6969f84453c880de130222b3b9d71db77a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1e982d50ab029ec2756e8fb4a92f5c01dc327b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212841"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930724"
 ---
 # <a name="purgesettings-table"></a>Tabla PurgeSettings
  

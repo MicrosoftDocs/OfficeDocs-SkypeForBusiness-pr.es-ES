@@ -1,8 +1,8 @@
 ---
 title: Detalle de URL sencilla de vista de topología
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: f6319e8860f411f24b566acb139e419546b9b0a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 220738b9d7305536ec6d0306715c0e704a164d9d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219982"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929115"
 ---
 # <a name="topology-view-simple-url-detail"></a>Topología: Ver detalle de URL sencilla
 

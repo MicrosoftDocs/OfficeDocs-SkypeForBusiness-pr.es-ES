@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: 6827f750f9e4161cc5747015bad2ce832497fcb9
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 325d25bf8019a1e58c62867d3e558769ddc64da8
+ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868675"
+ms.locfileid: "33882904"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -61,7 +61,6 @@ Mediante el uso del sistema de teléfono, su Skype para usuarios profesionales o
 |Enrutamiento de llamadas de calendario de empresa  <br/> |Enrutamiento de llamadas de calendario de empresa permite utilizar horario de su calendario de Exchange para habilitar o deshabilitar el desvío de llamadas y llamadas simultáneas en Skype para la empresa.  <br/> |
 |Teclado de marcado integrado  <br/> | Marque por nombre o número en cualquier lugar de la barra de búsqueda y en el teclado de marcado, y así acelerará el proceso de realizar llamadas salientes. <br/> |
 |[Usar su teléfono de escritorio para realizar una llamada de Skype Empresarial](https://support.office.com/article/6a316c11-a05e-460c-b969-32ff0ad848e6) <br/> |Cuando el teléfono de escritorio está configurado para registrar a Skype para profesionales en línea con sus credenciales de Office 365, puede llamar a otras personas en su organización mediante el teléfono de escritorio con el audio de la llamada que se va a través del teléfono.  <br/>  |
-|Música en espera  <br/> |Reproduzca música cuando ponga una llamada en espera para que quien llame sepa que todavía está allí y que la llamada no se interrumpió por accidente.  <br/> |
 |Skype y llamada federada  <br/> |Puede buscar cualquier persona en el directorio de Skype, a continuación, forma segura conectarse, comunicarse y colaborar con ellos.  <br/> |
 |[Configurar las opciones de desvío de llamadas en Skype Empresarial](https://support.office.com/article/1ec2e7fb-471c-4c35-bc90-a35991b3f532) <br/> |Envía sus llamadas al equipo ya sea de manera inmediata como después de establecer un período de tiempo.  <br/> |
 |[Realizar y recibir una videollamada con Skype Empresarial](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Puede ver el nombre de quien habla y la secuencia de vídeo en una pequeña ventana flotante para poder estar siempre listo para responder a cualquier pregunta. <br/> |

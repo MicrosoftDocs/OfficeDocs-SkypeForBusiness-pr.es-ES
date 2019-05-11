@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar una colección de valores de configuración de CDR de Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Resumen: Obtenga información acerca de detalles de llamadas (CDR) en Skype para Business Server.'
-ms.openlocfilehash: 563aeb37a0d6ae8cc10f73fe8d5d6808b9a051a9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2599e5fc221c8c19737e2f0ca3add665cceb6686
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199753"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926609"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de valores de configuración de CDR de Skype para Business Server
  

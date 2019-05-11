@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén de archivado front-end
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ce1723eb-7c93-424a-a622-9c888bf6d3bc
 description: El archivado requiere una edición de 64 bits compatible del software de base de datos de Microsoft SQL Server para almacenar los datos de archivado. Puede seleccionar una base de datos de SQL Server definido previamente que se usará para el archivado, o definir una nueva base de datos de SQL Server mediante la especificación de un nombre de dominio completo (FQDN) del servidor en el que la base de datos de SQL Server se residan, además de la instancia de SQL Se servidor que desea usar para la nueva base de datos de SQL Server (que puede ser la instancia predeterminada o una instancia con nombre que especifique).
-ms.openlocfilehash: bbdcd20333897078dea7deddc716d67dcca1b2f5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d366dd114bdfcf61b68971553eebdbf0f927ab35
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30873496"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886237"
 ---
 # <a name="add-front-end-archiving-store"></a>Agregar almacén de archivado front-end
 

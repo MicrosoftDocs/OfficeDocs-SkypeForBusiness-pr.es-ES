@@ -1,8 +1,8 @@
 ---
 title: Configurar un vínculo de región de red crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 561b557061b6ae52a4f2c84fc1459279c1bb37ce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: de00db71cbba83a63a6270d04ed506aa552c3121
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234738"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929150"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar un vínculo de región de red: Crear nuevos o editar los existentes
 

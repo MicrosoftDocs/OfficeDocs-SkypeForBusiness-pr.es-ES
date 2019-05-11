@@ -1,8 +1,8 @@
 ---
 title: Vista ProgressReport
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b49f3fc7-0e2f-498f-8505-aaaf54e435f9
 description: La vista ProgressReport almacena información sobre sesiones completadas. Informes de progreso se escribirá sólo para las llamadas y las sesiones que Lync Server 2013 determina podría ser útil con fines de diagnóstico. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 5f7cbba2580b83a65dbce00588f3c567317f4df4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4508b2f1772a3b21d51d561c310b31f00740973d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212876"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930633"
 ---
 # <a name="progressreport-view"></a>Vista ProgressReport
  

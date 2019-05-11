@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir las propiedades en configuración externa, configure lo siguiente:'
-ms.openlocfilehash: 3ebd98c17f7b32af72809375bd17e55514684e6d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 32ce06451d0cfe6aae5288ff4e6fdf32b7279724
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203126"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926834"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
  

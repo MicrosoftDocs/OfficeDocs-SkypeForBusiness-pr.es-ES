@@ -1,8 +1,8 @@
 ---
 title: Página principal de directiva de chat persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0dc18d5c-82d6-4d39-afb1-efdb3ae6d2c7
 description: Puede usar la página Directiva de chat persistente del grupo Chat persistente para administrar directivas en un nivel global, de grupo, de sitio o de usuario, además de configurar la directiva global predeterminada y crear una o varias directivas de sitio y usuario adicionales para su implementación. Si un usuario está habilitado para el servidor de Chat persistente mediante una directiva, el entorno de servidor de Chat persistente aparece en su cliente.
-ms.openlocfilehash: c44986a053fc891d7d8d956d21b12012fd62fc5c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 562de77408fea4f23beabf8b8ef70a3a6fc1caf0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220336"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929198"
 ---
 # <a name="persistent-chat-policy-main-page"></a>Página principal de directiva de chat persistente
  

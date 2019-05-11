@@ -1,8 +1,8 @@
 ---
 title: Habilitar o deshabilitar conferencias en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1f7cf91-8434-42ec-b09d-7d9d01e0b357
 description: 'Resumen: Obtenga información sobre cómo usar el Panel de Control o el Shell de administración para habilitar o deshabilitar conferencias en Skype para Business Server.'
-ms.openlocfilehash: 216973e8d3a887dcae308fc5efa6d67b2415493b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1392c67e2b432a6acc9bca805367083d311fd7d1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222831"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919804"
 ---
 # <a name="enable-or-disable-dial-in-conferencing-in-skype-for-business-server"></a>Habilitar o deshabilitar conferencias en Skype para Business Server
  

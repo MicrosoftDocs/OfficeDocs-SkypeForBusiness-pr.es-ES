@@ -1,8 +1,8 @@
 ---
 title: Certificado pendiente (invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página ejecución de comandos muestra el estado de los comandos que se va a recuperar el certificado pendiente. Cuando se complete la tarea, el archivo de registro de recuperar certificados pendientes está disponible. Haga clic en Ver registro para revisar el procesamiento y el estado de finalización de tarea. Haga clic en siguiente para continuar.
-ms.openlocfilehash: f9c22f5a427c289ebae2509ea56c6f1f2f2a7edc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a07a4c34c5e50030b60eb829fed4c3ff8662324a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216462"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893920"
 ---
 # <a name="pending-certificate-invoke"></a>Certificado pendiente (invocar)
  

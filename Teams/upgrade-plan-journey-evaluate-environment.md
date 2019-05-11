@@ -1,7 +1,7 @@
 ---
 title: Actualización de los equipos de Microsoft | Evaluación del entorno, preguntas de detección
-author: turgayo
-ms.author: turgayo
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8803c4f4135b620d0ab654415546a7419f9e4f1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 810daf5f63cc5c1e22bb8ed6d6a110621200c047
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223095"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895921"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
 

@@ -1,8 +1,8 @@
 ---
 title: Administrar servidores Front-End de Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
 description: 'Resumen: Obtenga información sobre cómo agregar, quitar, revisión o actualizar los servidores Front-End en Skype para Business Server.'
-ms.openlocfilehash: bfd090ab007523ff05795aff012e4a01da4a0175
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cac824de5747291a735ce36d624dad66fb32e10e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214711"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911801"
 ---
 # <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores Front-End de Skype para Business Server
  

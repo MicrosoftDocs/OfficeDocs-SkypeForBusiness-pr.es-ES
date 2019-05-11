@@ -1,8 +1,8 @@
 ---
 title: Tabla Registration
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Cada registro representa un evento de registro de usuario.
-ms.openlocfilehash: 1dd8f623799753e078d112d08de960076618dfac
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1a487a01b0f8b3f6a087099daa32da99b7007445
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212848"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930605"
 ---
 # <a name="registration-table"></a>Tabla Registration
  

@@ -1,8 +1,8 @@
 ---
 title: Clientes móviles crear o editar la configuración de notificaciones de inserción
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 ROBOTS: NOINDEX, NOFOLLOW
 description: Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.
-ms.openlocfilehash: 96c20e19444f275076b18830a89d74dba93df39b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9920029e657db4ed7d1c8da269593368d673d08a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215811"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891666"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvil: Crear o editar configuración de notificaciones de inserción
  

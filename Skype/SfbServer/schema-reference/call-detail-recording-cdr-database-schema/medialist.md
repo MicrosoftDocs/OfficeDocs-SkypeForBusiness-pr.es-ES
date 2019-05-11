@@ -1,8 +1,8 @@
 ---
 title: Tabla MediaList
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/12/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1f440590-c1bc-483e-b7bc-6cc763847768
 description: La tabla MediaList es una tabla estática que almacena la lista de los diferentes tipos de medios.
-ms.openlocfilehash: 72ae6dbb145c3bb284f1090b01585591e4e773bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3eaa40cb5ae03129edaa36effa7b40012fc38429
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212911"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930654"
 ---
 # <a name="medialist-table"></a>Tabla MediaList
  

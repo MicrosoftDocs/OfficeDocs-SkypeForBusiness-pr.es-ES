@@ -1,8 +1,8 @@
 ---
 title: Modificar las opciones de configuración del tronco SIP en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Resumen: Obtenga información sobre cómo modificar las opciones de configuración de troncos SIP mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 6fbae1279ec1734cd67269651c65dc7c278ca3a3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 04a381d0e3bd935eeef860bdfb6866b232812189
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223030"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892317"
 ---
 # <a name="modify-sip-trunk-configuration-settings-in-skype-for-business-server"></a>Modificar las opciones de configuración del tronco SIP en Skype para Business Server
  

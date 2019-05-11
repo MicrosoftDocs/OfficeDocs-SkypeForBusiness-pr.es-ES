@@ -2,7 +2,7 @@
 title: Preparar la red de la organización para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
-manager: lolaj
+manager: serdars
 ms.date: 03/25/2019
 ms.topic: reference
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf48da12ddd1088c499f9d0703dc229d5b5df605
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: de9092e9253ef93268d19fb8ff8e74261e4d44a1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236694"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898584"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Preparar la red de la organización para Microsoft Teams
 

@@ -1,8 +1,8 @@
 ---
 title: Asignar propiedades
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el cuadro de diálogo Asignar propiedades para especificar un identificador de sitio descripción y red en varias subredes a la vez. En Descripción, escriba la descripción que desea usar para las subredes que ha seleccionado. En el identificador de sitio de red, seleccione el identificador de sitio de red que desea asignar a las subredes que ha seleccionado. Para asignar estas propiedades a las subredes que ha seleccionado, haga clic en Aceptar.
-ms.openlocfilehash: af104b9bb86817690175c8c82ddef94d8b0431b9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dbee855e973ca0386a99094b17f8d8fd052285a3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215272"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891281"
 ---
 # <a name="assign-properties"></a>Asignar propiedades
  

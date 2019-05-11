@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar un grupo de agentes en Skype para la empresa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Crear o modificar un grupo de agentes en el grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 16dafbfc3157e08a187be5799c5901115d738b48
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 43d4abba518b99a52b67a1c3bfe22abdea28d679
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223201"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892905"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Crear o modificar un grupo de agentes en Skype para la empresa
  

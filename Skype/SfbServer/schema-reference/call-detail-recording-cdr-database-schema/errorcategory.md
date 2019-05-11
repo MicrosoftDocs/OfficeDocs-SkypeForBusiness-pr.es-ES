@@ -1,8 +1,8 @@
 ---
 title: Tabla de categoría de error de Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
 description: 'En la tabla de la categoría de error contiene el nombre descriptivo para cada Skype para la clasificación de diagnóstico Business Server 2015. De forma predeterminada, Skype para Business Server 2015 usa las siguientes clasificaciones:'
-ms.openlocfilehash: 70322d30b516d003fcac015a4eda7382a13cd2be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6226396302353b815138b41b7c19f170a0d6b4d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213119"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901090"
 ---
 # <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Tabla de categoría de error de Skype para Business Server 2015
  

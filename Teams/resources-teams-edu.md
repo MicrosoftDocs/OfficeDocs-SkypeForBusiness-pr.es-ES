@@ -4,9 +4,9 @@ author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
 ms.date: 07/26/2018
+ms.reviewer: ''
 ms.topic: reference
 ms.service: msteams
-ms.reviewer: ''
 description: Lista de los equipos recursos útiles para los administradores de TI en el ámbito educativo.
 localization_priority: Normal
 search.appverid: MET150
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 65b8a2e29a2de9a659ba81650efa738449e7b2ac
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 05f3d6f98c413b4f56be500f10339802fb5dca15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632245"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912371"
 ---
 <a name="microsoft-teams-resources-for-education-admins"></a>Recursos de Microsoft Teams para administradores de educación
 ==============================================

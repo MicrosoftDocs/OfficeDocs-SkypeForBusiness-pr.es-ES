@@ -1,8 +1,8 @@
 ---
 title: Directiva de PIN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 93b7aa02ebf850ba1b039769df4797832e50c72c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b2afb6ceb04af0e35a88d190ef4d20c248c449b8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200656"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888285"
 ---
 # <a name="pin-policy"></a>Directiva de PIN
 

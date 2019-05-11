@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén de SQL Server de copia de seguridad de cumplimiento del chat persistente
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 358b74bd-a97d-4f28-9bed-af633ea0099e
 description: Configurar el cumplimiento de normas de servidor de Chat persistente que almacenes de SQL Server o almacenes de SQL Server de cumplimiento de copia de seguridad que proporcionará bases de datos de copia de seguridad para el servidor de Chat persistente.
-ms.openlocfilehash: 2142ef6eba84d0f6645d735c1117b0be07a2a84f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 031a47974624a60f2732df1535d23d392d16b74d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875598"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897635"
 ---
 # <a name="add-persistent-chat-compliance-backup-sql-server-store"></a>Agregar almacén de SQL Server de copia de seguridad de cumplimiento del chat persistente
  
@@ -46,7 +46,7 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

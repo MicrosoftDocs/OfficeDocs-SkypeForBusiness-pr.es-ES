@@ -1,8 +1,8 @@
 ---
 title: Instalar almacén de configuración local
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/13/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 description: Para comenzar la instalación de un nuevo Skype para servidor de funciones de Business Server 2015, primero debe instalar al servidor SQL Server local que se va a hospedar el almacén de configuración local. El almacén de configuración local van a actuar como una réplica de sólo lectura de la Skype para el almacén de Administración Central de servidor empresarial (CMS). Necesita iniciar sesión en el servidor que ejecute el paso Instalar almacén de configuración local como administrador local en el equipo, además de ser miembro del grupo RTCUniversalServerAdmins o del grupo RTCUniversalGlobalReadOnlyGroup. Si la instalación se efectúa en un servidor perimetral, no hace falta ser miembro del grupo RTCUniversalServerAdmins ni del grupo RTCUniversalGlobalReadOnlyGroup. El documento de definición de generador de topología se leerán desde el documento exportado definición en lugar de desde el almacén de Administración Central. Para exportar el documento de definición de generador de topologías y ponerlo a disposición de los servidores perimetrales, vea el tema exportar la topología y copiar a medios externos para la instalación perimetral.
-ms.openlocfilehash: 758b32178dcb574e5e929c88bc5744d495b6420f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c5c06d47b0deb8e82505567750832762a21200e7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201254"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921030"
 ---
 # <a name="install-local-configuration-store"></a>Instalar almacén de configuración local
 

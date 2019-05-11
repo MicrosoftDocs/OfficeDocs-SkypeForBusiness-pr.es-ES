@@ -1,8 +1,8 @@
 ---
 title: Tabla Media
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
 description: Cada registro representa un tipo de medios utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios.
-ms.openlocfilehash: f0525b279fbef5cc7d4a1bc2ce0fce9212636a96
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 76441c350241415aacac150e1e5dec2638302075
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212940"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930647"
 ---
 # <a name="media-table"></a>Tabla Media
  

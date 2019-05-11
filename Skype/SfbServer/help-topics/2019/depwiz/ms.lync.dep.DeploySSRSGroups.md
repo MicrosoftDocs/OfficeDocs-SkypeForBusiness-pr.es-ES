@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (grupos)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 412d46cf-7b60-4b7f-a2e6-73b447d909df
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el grupo de Read-Only especificar, especifique el grupo al que desea conceder acceso de solo lectura a los informes de supervisión.
-ms.openlocfilehash: 50ff995c05d2096dbac12f36b7083f255db7ec3e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ce958ffdb368350dab7b5dd75d0f2bc3a6a6cc48
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216000"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892023"
 ---
 # <a name="sql-server-reporting-services-groups"></a>SQL Server Reporting Services (grupos)
 

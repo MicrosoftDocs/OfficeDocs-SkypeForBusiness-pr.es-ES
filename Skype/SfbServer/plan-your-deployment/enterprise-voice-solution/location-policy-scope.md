@@ -1,8 +1,8 @@
 ---
 title: Asignar el ámbito de directiva de ubicación en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e4c66517-c593-4253-b900-7b4dd8bddf2f
 description: Planear las directivas de ubicación para una implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 0c39d0f464b7cde9521dbb69043411b964f74858
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ef0e4d791645e03237fce0c86f582e9b9709ebf0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206757"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924202"
 ---
 # <a name="assign-location-policy-scope-in-skype-for-business-server"></a>Asignar el ámbito de directiva de ubicación en Skype para Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Topologías de Skype Empresarial compatibles con la autenticación moderna
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: 258430b0-574a-47fb-90b7-54ee8996b2ec
 description: En este artículo se indican las topologías en línea y locales que son compatibles con la autenticación moderna de Skype Empresarial, así como las características de seguridad que se aplican a cada topología.
-ms.openlocfilehash: 7fbcbcd68030bd3bbc933aef73101b4c7b984937
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca7c89ce8f7f7681463bbdc87518f42130bf310e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214036"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929058"
 ---
 # <a name="skype-for-business-topologies-supported-with-modern-authentication"></a>Skype for Business topologies supported with Modern Authentication
  

@@ -3,21 +3,22 @@ layout: HubPage
 hide_bc: true
 title: Formación dirigida por un instructor y vídeos para usuarios de Microsoft Teams
 ms.reviewer: ''
+manager: serdars
 description: Apúntese a las clases dirigidas por un instructor para aprender sobre Microsoft Teams.
 localization_priority: Priority
-author: dearbeen
+author: lanachin
 ms.topic: hub-page
-ms.author: dearbeen
+ms.author: v-lanac
 ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 268ce97b4c68b19223c0ab102ad8eba40e8c17e9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 74d4757cd6a05f8fa4b05a2a87557318670265a4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402280"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921277"
 ---
 <div id="main" class="v2">
     <div class="container">

@@ -1,8 +1,8 @@
 ---
 title: Tabla de MCU en Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 271b7963-8fd8-4d92-a701-1a62aaf895ee
 description: En la tabla de MCU es una tabla de apoyo. Cada registro almacena información acerca de un servicio de conferencia. Estos pueden incluir el servicio de conferencia de mensajería instantánea y el servicio de conferencias telefónicas (que se ejecutan como procesos en servidores front-end) y el servicio de conferencia Web y A / servicio de conferencia A/v.
-ms.openlocfilehash: e051af3a77d4f9b8231c122c596a3b6915f6f3e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6b5df793008fcf7586d62cab77a1b362848374ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212976"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930675"
 ---
 # <a name="mcus-table-in-skype-for-business-server-2015"></a>Tabla de MCU en Skype para Business Server 2015
  

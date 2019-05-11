@@ -1,8 +1,8 @@
 ---
 title: Configuración del tronco crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9591e691-63de-4c19-96a4-3bb394d1d4e2
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 37fb37b7355bdc7457f89d8904b6dabc4bcadb79
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ae070d24b7b1f6d47fbd8876f7669c47f0ca8dea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219975"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929479"
 ---
 # <a name="trunk-configuration-create-new-or-edit-existing"></a>Configuración del tronco: Crear nuevos o editar los existentes
 

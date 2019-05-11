@@ -1,8 +1,8 @@
 ---
 title: Agregar opciones IP de servidor perimetral
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Microsoft Lync Server 2013 le permite configurar las direcciones IPv4 e IPv6 para cada interfaz para el servidor perimetral y el grupo de servidores perimetrales. Para ello, realice lo siguiente:'
-ms.openlocfilehash: a78a1c31c31c0ebe9e271d2f00f2cb5c2e959270
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 3a9f11686d27d8b289de52df8541fa686f11d3af
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30877667"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886335"
 ---
 # <a name="add-edge-server-ip-options"></a>Agregar opciones IP de servidor perimetral
  

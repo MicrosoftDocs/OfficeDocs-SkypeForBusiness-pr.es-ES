@@ -1,8 +1,8 @@
 ---
 title: Vista ErrorReport
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
 description: La vista ErrorReport almacena información acerca de errores notificados. Cada registro es una ocurrencia de error. Los errores son capturado por el agente de CDR que se ejecuta en el servidor front-end o enviados desde el cliente. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 8d72ad73b5894e73b7d95b1b11bc10dffcabc5f7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d188972cfa806b162e8da251af045cc10c84b47d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213126"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901104"
 ---
 # <a name="errorreport-view"></a>Vista ErrorReport
  

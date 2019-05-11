@@ -1,8 +1,8 @@
 ---
 title: Comprobar la replicación de la partición del esquema
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para comprobar que la ampliación del esquema se han replicado correctamente en su bosque de los servicios de dominio de Active Directory, haga lo siguiente:'
-ms.openlocfilehash: dc621d82edc9133ce45b93e781799419e55efe38
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0837191d63bf3a851d1ff69884a0084c81280e7c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216084"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893612"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Comprobar la replicación de la partición del esquema
  

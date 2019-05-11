@@ -1,8 +1,8 @@
 ---
 title: Informe de tendencias de ubicación en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 61e2db3c-9f10-4411-8e7e-c6950faf8533
 description: 'Resumen: Información sobre el informe de tendencias de ubicación en Skype para Business Server.'
-ms.openlocfilehash: 078d82c6a7688575fd4be383fa53631e6126d92a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 0eeaeb27ea18932db2005a24ec202d05ea996c8b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30886264"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911878"
 ---
 # <a name="location-trend-report-in-skype-for-business-server"></a>Informe de tendencias de ubicación en Skype para Business Server
  

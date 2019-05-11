@@ -1,8 +1,8 @@
 ---
 title: Agregar almacén de archivos front-end
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 ROBOTS: NOINDEX, NOFOLLOW
 description: Debe especificar el recurso compartido de archivos que se debe usar como almacén de archivos del servidor Standard Edition o el grupo de servidores front-end Enterprise Edition. Para ello, use un recurso compartido de archivos ya creado o especifique uno nuevo indicando el nombre de dominio completo del servidor de archivos donde debe ubicarse el recurso compartido de archivos y un nombre de carpeta para dicho recurso.
-ms.openlocfilehash: 7a4761beb798e52d848b7c0c42c3157f7a5da400
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 451385fd6bc8785a43c3e88888e93e5a7218145a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235458"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897698"
 ---
 # <a name="add-front-end-file-store"></a>Agregar almacén de archivos front-end
 

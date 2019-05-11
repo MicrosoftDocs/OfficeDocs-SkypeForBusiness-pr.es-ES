@@ -1,8 +1,8 @@
 ---
 title: Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 description: 'Definir el tronco raíz para la dirección IP o red telefónica conmutada (RTC) debe configurar lo siguiente:'
-ms.openlocfilehash: 68eddb8a0e19970cc430b25ad876d6cc2a8c04e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7c5132bf070c060a72df9d7901cab4d662c10ffd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226862"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911851"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definir el tronco raíz para una nueva dirección IP o puerta de enlace RTC
 

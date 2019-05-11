@@ -1,8 +1,8 @@
 ---
 title: Establecer PIN
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Para generar el PIN del usuario, seleccione Generar automáticamente un PIN válido.
-ms.openlocfilehash: 18899e9a8fd5ec7b739f07cad2667460a51582ee
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a74daaa0c05b611dcb434609b5d2c614f6ecc61b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220097"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929143"
 ---
 # <a name="set-pin"></a>Establecer PIN
 

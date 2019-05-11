@@ -1,8 +1,8 @@
 ---
 title: Aplicación de servidor de la topología
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 description: 'La topología: Página de aplicación de servidor muestra las aplicaciones de servidor en su implementación.'
-ms.openlocfilehash: 8f49a587dc77de96e0097025e0bc493ca7d66132
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dacb978a0bed4a6e622fec66a74bcf3ce2448b66
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220066"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929486"
 ---
 # <a name="topology-server-application"></a>Topología: Aplicación de servidor
 

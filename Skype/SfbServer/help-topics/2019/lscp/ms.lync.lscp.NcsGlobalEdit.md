@@ -1,8 +1,8 @@
 ---
 title: Configuración de red de modificación de la configuración Global
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: abc2f59c-d21a-4d3f-bf23-6ac86effcd86
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6e8080c5dc70d5f6c9549be04b2ecbd8ad1d174f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3795704064df70dcd43278f578804dc3041da25d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215384"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891141"
 ---
 # <a name="network-configuration-edit-global-setting"></a>Configuración de red: Editar configuración global
 

@@ -1,8 +1,8 @@
 ---
 title: Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4d0c7306-e87e-464a-82ad-a5537f141500
 ROBOTS: NOINDEX, NOFOLLOW
 description: Bienvenido a la Skype para el Panel de Control de servidor empresarial, la interfaz de usuario basada en web para la administración y la administración de Skype para Business Server. Puede usar el Panel de control para acometer los tipos de tareas administrativas que se realizaban usando Microsoft Management Console en versiones anteriores.
-ms.openlocfilehash: fbd260679b7418535a7775b24b3ade98de790029
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e7538c82098abbd7a199cb699c0eeed6cee901aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215622"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891491"
 ---
 # <a name="first-run-checklist-for-skype-for-business-server-control-panel"></a>Lista de comprobación de la primera ejecución del Panel de control de Skype Empresarial Server
 

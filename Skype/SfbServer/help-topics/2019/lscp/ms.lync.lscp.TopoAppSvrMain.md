@@ -1,8 +1,8 @@
 ---
 title: Aplicación de servidor de la topología
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La topología: Página de aplicación de servidor muestra las aplicaciones de servidor en su implementación.'
-ms.openlocfilehash: bd438b535717b76cb02079e7be83403ef85f21d2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ba62f636400f83d2f96d37f9f9609809502e56b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215048"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890980"
 ---
 # <a name="topology-server-application"></a>Topología: Aplicación de servidor
 

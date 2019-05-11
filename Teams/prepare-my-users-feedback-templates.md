@@ -1,7 +1,7 @@
 ---
 title: Encuestas de opinión del usuario en Microsoft Teams o Skype Empresarial
-author: dearbeen
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4e4482d9de1903a07a75fa63fbc6fe813c426f8e
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 16a535701088afd4e094e2762e9b278b74cb1ee7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401762"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898581"
 ---
 # <a name="user-feedback-surveys"></a>Encuestas de comentarios del usuario 
 

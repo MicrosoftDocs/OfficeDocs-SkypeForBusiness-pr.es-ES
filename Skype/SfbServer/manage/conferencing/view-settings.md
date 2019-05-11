@@ -1,8 +1,8 @@
 ---
 title: Ver opciones de configuración en Skype para Business Server de reuniones
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Resumen: Obtenga información sobre cómo ver los valores de configuración de Skype para Business Server de la reunión.'
-ms.openlocfilehash: d7ef617050b31bd85732ee4a30d0faaed41f50d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 14f8f3902ae3bba6c98b3147bb3ffc5af2c96f4a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197761"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888054"
 ---
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Ver opciones de configuración en Skype para Business Server de reuniones
  

@@ -1,8 +1,8 @@
 ---
 title: Asociar un almacén de supervisión a un grupo de servidores Front-End en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Resumen: Obtenga información sobre cómo asociar grupos Front-End con un almacén de supervisión usado Skype para Business Server.'
-ms.openlocfilehash: 1156883202218dd536926f44f40e6ba774b17cb7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b6b30955b22fdd330f72f0aa9719e8b887663f2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225486"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894580"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Asociar un almacén de supervisión a un grupo de servidores Front-End en Skype para Business Server 
 **Resumen:** Obtenga información sobre cómo asociar grupos Front-End con un almacén de supervisión usado Skype para Business Server.

@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de servidores front-end
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El nodo Grupos de servidores front-end Enterprise Edition contiene los grupos de servidores front-end de este sitio y los nodos Servidores front-end Standard Edition, los servidores Standard Edition de este sitio. You can perform the following action:'
-ms.openlocfilehash: f4e02da68560537040855413618396b916a88b32
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 676bbbd74153842e4517a2acba667c2eeaa5cbac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201782"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919833"
 ---
 # <a name="front-end-servers-scope-node"></a>Nodo de ámbito de servidores front-end
  

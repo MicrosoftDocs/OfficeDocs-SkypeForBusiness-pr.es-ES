@@ -1,8 +1,8 @@
 ---
 title: Editar configuración del servidor Office Web Apps
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 8/19/2016
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 description: 'Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 163c2d8623175af0e41b69e2422734513835e2d3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b64060cd3e51dbe8fe8398137c3fc323cd9daa2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194017"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924433"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 

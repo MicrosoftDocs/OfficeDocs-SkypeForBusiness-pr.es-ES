@@ -1,8 +1,8 @@
 ---
 title: Seleccionar extensiones de tipo de archivo
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Use el cuadro de diálogo Seleccionar extensiones de tipo de archivo para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) extensiones de tipo de las casillas de verificación junto a las extensiones de archivo. Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría. Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.
-ms.openlocfilehash: a061bdbfb74ded31f9bd621f9a4d3062318c787d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2f62fc80b33330593f1014e3137f9e3cd4cc9c08
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200572"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924566"
 ---
 # <a name="select-file-type-extensions"></a>Seleccionar extensiones de tipo de archivo
  

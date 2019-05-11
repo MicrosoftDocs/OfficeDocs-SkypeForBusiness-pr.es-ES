@@ -1,8 +1,8 @@
 ---
 title: Directiva de conferencia
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Directiva de conferencia define las características y capacidades que los usuarios tendrán a su disposición durante una conferencia (también conocida como una reunión).
-ms.openlocfilehash: bb11290a0536f30767dcc979a6d21669ddbb04a3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7abd7e4081222fcf741ed7666d8062ea561a3eba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215860"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891599"
 ---
 # <a name="conferencing-policy"></a>Directiva de conferencia
 

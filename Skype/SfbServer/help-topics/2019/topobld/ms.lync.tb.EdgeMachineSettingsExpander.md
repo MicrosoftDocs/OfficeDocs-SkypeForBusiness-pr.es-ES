@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de equipo perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 747456dd-d237-44e6-9e64-63b0e7212a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar las propiedades de un servidor en un grupo de servidores perimetrales, haga lo siguiente:'
-ms.openlocfilehash: 5755e03c0d760ef61b8cd4322131316c1d80a4c3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2f96c5bde5d7ccc8efb078ea9c99f52d380a1985
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201895"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910858"
 ---
 # <a name="edge-machine-settings-expander"></a>Expansor de configuración de equipo perimetral
  

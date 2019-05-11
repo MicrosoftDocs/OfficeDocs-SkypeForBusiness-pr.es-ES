@@ -1,7 +1,7 @@
 ---
 title: Problemas conocidos
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 4/17/2018
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 description: En este artículo se comentan los problemas conocidos de Sala de Microsoft Teams por área de características.
-ms.openlocfilehash: d71b209784f4737ac4433e2eececb1f9ada3ebc8
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: c6ddaf11e0104c0de85c46b1369613ef365ede7d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363012"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916516"
 ---
 # <a name="known-issues"></a>Problemas conocidos 
  

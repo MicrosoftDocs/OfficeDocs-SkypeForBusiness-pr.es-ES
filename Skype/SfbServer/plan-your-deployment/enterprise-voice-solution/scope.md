@@ -1,8 +1,8 @@
 ---
 title: Definir el ámbito de la implementación de E9-1-1 de Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Decisiones necesarias para planear una implementación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 014ef9a07679341a7d5eada4ecbad382a9576b61
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fc1f567cd88f90490102c300c3151314a121acfd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206483"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913522"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definir el ámbito de la implementación de E9-1-1 de Skype para Business Server
 

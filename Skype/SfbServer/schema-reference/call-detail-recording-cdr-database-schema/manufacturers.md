@@ -1,8 +1,8 @@
 ---
 title: Tabla de los fabricantes de Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
 description: En la tabla de los fabricantes es una tabla de apoyo. Cada registro almacena información sobre el fabricante de un dispositivo (teléfono de escritorio).
-ms.openlocfilehash: e3eb920ee3f37124ed1f73d4256177cc4d662bf7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e5b05b87fb72e4a810b8c4073f000ec895ebed88
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212997"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930230"
 ---
 # <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabla de los fabricantes de Skype para Business Server 2015
  

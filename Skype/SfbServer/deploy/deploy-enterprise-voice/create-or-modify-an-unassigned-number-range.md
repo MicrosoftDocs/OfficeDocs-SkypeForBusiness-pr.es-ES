@@ -1,8 +1,8 @@
 ---
 title: Crear o modificar un intervalo de números sin asignar en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 9546e4caaab30ae7582866dbcefd680b04de33f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7e186facd0ef619846b027943dcb5f19e2e3edc6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223194"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892898"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype para Business Server
  

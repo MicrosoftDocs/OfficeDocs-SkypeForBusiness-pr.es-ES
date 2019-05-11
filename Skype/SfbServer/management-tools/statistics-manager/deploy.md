@@ -1,8 +1,8 @@
 ---
 title: Implementar el administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Resumen: lea este tema para obtener información sobre cómo implementar el administrador de estadísticas para Skype Empresarial Server.'
-ms.openlocfilehash: c70bb596914142fb03e87ccd7e2f1df606aac31f
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 8313a242cc2016f3155314d76dd36be486d4d6ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864907"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901763"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Implementar el administrador de estadísticas para Skype Empresarial Server
  

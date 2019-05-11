@@ -1,8 +1,8 @@
 ---
 title: Página Agregar almacén de supervisión de front-end
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Para definir el almacén de SQL Server de supervisión mediante la configuración de las siguientes propiedades:'
-ms.openlocfilehash: e68383ba75c89460ba599aa083e01db1151fdd2f
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d2af2ea26c15ec30e706eb67262745b977a8881c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30893956"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904177"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Página Agregar almacén de supervisión de front-end
  
@@ -46,6 +46,6 @@ Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asiste
   
 Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Asociación de un almacén de supervisión a un grupo de servidores front-end en Skype Empresarial Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f19d78de9b9227dcbc42073b177fffd9596e5ffb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 222973b0377e8a8568a5a170aca0a11e23ea2fd6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225051"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930383"
 ---
 # <a name="microsoft-teams-adoption-quick-start-checklist"></a>Lista de comprobación para el inicio rápido de la adopción de Microsoft Teams
 

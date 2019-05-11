@@ -1,7 +1,7 @@
 ---
 title: Cómo es la experiencia de invitado
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/26/18
 ms.topic: conceptual
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 041bd5db6f0579a21dbdff15136e91a70e5a8d21
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 674cd1c470371c7e6ef993c47a47460011bc2b0c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236424"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919328"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================

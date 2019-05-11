@@ -1,8 +1,8 @@
 ---
 title: Tabla ErrorReport en Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: En la tabla ErrorReport almacena información acerca de los errores que se han producido. Cada registro es una ocurrencia de error. Los errores son capturado por el agente de CDR que se ejecuta en el servidor front-end o enviados desde el cliente.
-ms.openlocfilehash: 99dcdc7aa78b20f555f94614ba94c80103b56211
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4cb3cebba59201daa6f2a601ec969ed976ec3167
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213133"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930251"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabla ErrorReport en Skype para Business Server 2015
  

@@ -1,8 +1,8 @@
 ---
 title: Los usuarios ver la directiva de movilidad
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 description: La vista - cuadro de diálogo Directiva de movilidad muestra las propiedades de la directiva de movilidad seleccionada.
-ms.openlocfilehash: 64db762f169b20de757e8759f445a7a1e7152a5e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27833337eb3aa73d2b388cf51f6e58bd9897c87c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219897"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924251"
 ---
 # <a name="users-view-mobility-policy"></a>Usuarios: Ver directiva de movilidad
 

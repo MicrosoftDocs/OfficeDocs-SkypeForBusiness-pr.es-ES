@@ -1,8 +1,8 @@
 ---
 title: Àmbito de puertas de enlace de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: 5340a9133818ff61f4a0aa456dbfd57074668340
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: be0a870854aa1c220094c8e9518ea2de5d01ad33
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219011"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903252"
 ---
 # <a name="video-gateways-scope"></a>Àmbito de puertas de enlace de vídeo
  

@@ -1,8 +1,8 @@
 ---
 title: Administrar asignación de claves para comandos DTMF en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Resumen: Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.'
-ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e90e51bfb3c7c66524e10f7e4428c5bfe36fdcc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198014"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919482"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar asignación de claves para comandos DTMF en Skype para Business Server
  

@@ -1,7 +1,7 @@
 ---
 title: Cómo se une un invitado a un equipo
-author: somakbhattacharyya
-ms.author: sbhatta
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/20/17
 ms.topic: conceptual
@@ -14,12 +14,12 @@ search.appverid: MET150
 description: Vea un breve resumen sobre cómo se invita a un invitado a que se una a un equipo en Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d8bc9eabb467479b0b33793ace9fc0b97d179f93
-ms.sourcegitcommit: 8e62025d630c511ffb0361b9643d46c762188102
-ms.translationtype: HT
+ms.openlocfilehash: f152b1f4d79e91b7b08f1996eafb8e76f0790ce5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "30640717"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919292"
 ---
 <a name="how-a-guest-joins-a-team"></a>Cómo se une un invitado a un equipo
 ========================

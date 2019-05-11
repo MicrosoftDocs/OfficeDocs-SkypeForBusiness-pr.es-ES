@@ -1,8 +1,8 @@
 ---
 title: Herramienta de planeación de Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Instrucciones sobre el uso de la Skype para la herramienta de planeación de Business Server 2015.
-ms.openlocfilehash: 7a2230344cc31a14fbd8898706973af5ed0e6d9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 674b4b9ef2825c2e8776cdfa32dc5b413f2962cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222642"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914180"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Herramienta de planeación de Skype Empresarial Server 2015
  

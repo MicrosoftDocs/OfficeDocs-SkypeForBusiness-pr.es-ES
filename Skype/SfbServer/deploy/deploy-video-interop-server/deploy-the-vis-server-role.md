@@ -1,8 +1,8 @@
 ---
 title: Implementar el rol de servidor de respecto de Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b6401e67-59fe-4419-a0ab-ffac88e67632
 description: 'Resumen: Implementar el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
-ms.openlocfilehash: 7919b9c02001f0851b3662baa989b0eed0b20225
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 109992482490a300125cad7177cc3e6070f2d02a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219712"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894587"
 ---
 # <a name="deploy-the-vis-server-role-in-skype-for-business-server"></a>Implementar el rol de servidor de respecto de Skype para Business Server
  

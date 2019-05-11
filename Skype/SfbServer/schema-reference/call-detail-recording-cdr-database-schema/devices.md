@@ -1,8 +1,8 @@
 ---
 title: Tabla de dispositivos en Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 532e2280-4bbc-4a6c-93da-45d9f80a30a0
 description: En la tabla de dispositivos es una tabla de apoyo. Cada registro almacena información acerca de un dispositivo (teléfono de escritorio).
-ms.openlocfilehash: f770f19fb94bf25bdb4c13e74dc41e05f6674788
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: efd0894a36e02948a3a8cd9f3465dcdbd30f3e2d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213168"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901097"
 ---
 # <a name="devices-table-in-skype-for-business-server-2015"></a>Tabla de dispositivos en Skype para Business Server 2015
  
