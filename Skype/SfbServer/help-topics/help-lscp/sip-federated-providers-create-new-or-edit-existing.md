@@ -1,8 +1,8 @@
 ---
 title: Proveedores federados SIP crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bf967ad7-c36b-4a8b-8e78-eb11f9365a47
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: fe601017823dd44f52004f95377fc897bcab71f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c37b7130cfaf5616202f15eddecf76dbbb00ff13
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200509"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929458"
 ---
-# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="6ba50-104">Proveedores federados SIP: Crear nuevo o editar existente</span><span class="sxs-lookup"><span data-stu-id="6ba50-104">SIP Federated Providers: Create New or Edit Existing</span></span>
+# <a name="sip-federated-providers-create-new-or-edit-existing"></a><span data-ttu-id="9ee75-104">Proveedores federados SIP: Crear nuevo o editar existente</span><span class="sxs-lookup"><span data-stu-id="9ee75-104">SIP Federated Providers: Create New or Edit Existing</span></span>
 
-<span data-ttu-id="6ba50-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="6ba50-105">What do you want to do?</span></span> <span data-ttu-id="6ba50-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="6ba50-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="9ee75-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="9ee75-105">What do you want to do?</span></span> <span data-ttu-id="9ee75-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="9ee75-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="6ba50-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="6ba50-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
+- [<span data-ttu-id="9ee75-107">Manage SIP Federated Providers for Your Organization</span><span class="sxs-lookup"><span data-stu-id="9ee75-107">Manage SIP Federated Providers for Your Organization</span></span>](https://technet.microsoft.com/library/c78d7e9b-c496-40c6-9249-06ced9cb87f3.aspx)
 
 
