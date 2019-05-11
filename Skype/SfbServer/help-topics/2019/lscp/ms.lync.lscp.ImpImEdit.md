@@ -1,8 +1,8 @@
 ---
 title: Filtro para direcciones URL crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 08071375327308da7660e0c225ad3a30408a81bf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8cf01a5ecccbd3bffe6137311f26ac8449d96824
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215720"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891225"
 ---
 # <a name="url-filter-create-new-or-edit-existing"></a>Filtro para direcciones URL: Crear nuevos o editar los existentes
 

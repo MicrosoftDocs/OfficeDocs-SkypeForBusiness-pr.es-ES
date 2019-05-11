@@ -1,8 +1,8 @@
 ---
 title: Calidad de los datos de la experiencia (QoE) crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 19d34703-be01-4969-9eae-9d107d7b3408
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0d7fb4208ba85f39d2d7ed91a9f1a0d98b40c6f3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 727073dc443452453f86b53b4618f770e67976e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215412"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891176"
 ---
 # <a name="quality-of-experience-qoe-data-create-new-or-edit-existing"></a>Datos referentes a la calidad de la experiencia (QoE): Crear nuevos o editar los existentes
  

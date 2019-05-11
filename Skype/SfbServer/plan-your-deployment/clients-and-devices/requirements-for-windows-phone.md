@@ -1,7 +1,7 @@
 ---
 title: Requisitos del sistema para Skype Empresarial para Windows Phone
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4bc0e45-7877-466c-b187-2c35c851a98d
 description: 'Resumen: Revise los requisitos de dispositivo de cliente del sistema durante la planeación de Skype para Business Server.'
-ms.openlocfilehash: 494b6ab9cbd962e8e03ac225ded5aaf248287317
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 47eab0a97a5615b8df32a51ab91dc2f0132fc42b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207296"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886462"
 ---
 # <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Requisitos del sistema para Skype Empresarial para Windows Phone
  

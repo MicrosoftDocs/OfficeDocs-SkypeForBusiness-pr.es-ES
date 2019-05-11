@@ -1,8 +1,8 @@
 ---
 title: Acceso a datos en Skype de supervisión para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 845385ca-5532-4fa2-91b9-51c6de6fec91
 description: 'Resumen: Obtenga información sobre los datos de supervisión usados en Skype para Business Server.'
-ms.openlocfilehash: 096a20119f0d7f368165aae53e2b3164cb817d63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 406e53512249b2aa5b2ed050a0332cfa43ca5957
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197593"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903147"
 ---
 # <a name="access-monitoring-data-in-skype-for-business-server"></a>Acceso a datos en Skype de supervisión para Business Server
  

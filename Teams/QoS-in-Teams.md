@@ -1,7 +1,7 @@
 ---
 title: Implementar Calidad de servicio en Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: Serdars
 ms.date: 12/17/2018
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bc8f7cf66d13f78b685505d41e9e5b1342931923
-ms.sourcegitcommit: fa7d93551f65b2e23f9407e10a33282f71982e85
+ms.openlocfilehash: 261d581582208a1bff94e16b35d06ab8e564a08b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33470648"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33885086"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar la calidad de servicio (QoS) en los equipos de Microsoft
 

@@ -5,20 +5,20 @@ ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
 ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Obtenga información sobre cómo configurar la admisión de proveedores federados de los usuarios de SIP.
-ms.openlocfilehash: 1259ae9d2dfd7d829caaa6dba714f0876b5500c4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64b5dcd657b72f03b25fe6de2ff6c0cda21b676d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197838"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903182"
 ---
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Administrar los proveedores federados SIP para su organización en Skype para Business Server
 
@@ -102,7 +102,7 @@ Utilice el procedimiento siguiente para crear o editar proveedores hospedados.
 7.  Cuando haya configurar las opciones, haga clic en **Confirmar** para guardar, o haga clic en **Cancelar** para descartar los cambios.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [Configurar directivas para controlar el acceso de usuarios públicos](../external-access-policies/configure-policies-to-control-public-user-access.md)

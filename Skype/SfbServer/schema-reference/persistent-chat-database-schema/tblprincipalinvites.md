@@ -1,8 +1,8 @@
 ---
 title: tblPrincipalInvites
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 548ec156-4d1a-469d-a804-62cff226e5c2
 description: tblPrincipalInvites contiene invitaciones para todos los usuarios aprovisionados para todos los nodos con invitación automática activada.
-ms.openlocfilehash: fbf61265f4970b57ffa95a52c8bafa395fb3a331
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5008158dcb1c62c766162595d9bffe1875d56514
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212470"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924426"
 ---
 # <a name="tblprincipalinvites"></a>tblPrincipalInvites
  

@@ -1,8 +1,8 @@
 ---
 title: Tabla UserAgent
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
 description: En la tabla UserAgent es una tabla de apoyo que almacena una lista de los distintos agentes de usuario que han participado en sesiones registradas en la base de datos. Cada registro de la tabla representa a un agente de usuario
-ms.openlocfilehash: 17cb395569e8a634925be27705b878b104a3b70a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 432f5ccc26d790aff07f221a7ef9912d16c49499
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212063"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907006"
 ---
 # <a name="useragent-table"></a>Tabla UserAgent
  

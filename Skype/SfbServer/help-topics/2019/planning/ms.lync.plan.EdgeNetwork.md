@@ -1,8 +1,8 @@
 ---
 title: Edge Network (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique, los componentes forman parte de los escenarios de servidor perimetral de Skype para Business Server y se encuentran en la red perimetral. Los componentes perimetrales engloban los siguientes:'
-ms.openlocfilehash: 0cd49ba3acc1b6943a1fdf9ae8ba8dc1a96727d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0b1c97062253099659f8812aa47082a575365670
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221007"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889510"
 ---
 # <a name="edge-network-planning-tool-in-skype-for-business"></a>Red perimetral (herramienta de planeación) en Skype para la empresa 
  

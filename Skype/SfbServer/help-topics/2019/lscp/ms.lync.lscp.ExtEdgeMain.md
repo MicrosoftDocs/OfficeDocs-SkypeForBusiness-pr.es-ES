@@ -1,8 +1,8 @@
 ---
 title: Configuración perimetral de acceso
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1bd49911-df70-4f96-85bc-1f005ea65163
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 3b6312b1d589db9204700ce9224ba11108c9a2a0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3ff5a04070cbf3b351ab5df967d7355ffe4d4954
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215965"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891631"
 ---
 # <a name="access-edge-configuration"></a>Configuración perimetral de acceso
 

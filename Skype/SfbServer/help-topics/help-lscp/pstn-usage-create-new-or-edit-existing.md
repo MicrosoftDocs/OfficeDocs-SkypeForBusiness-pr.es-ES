@@ -1,8 +1,8 @@
 ---
 title: Uso de RTC crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a40eb1f2369942aefbb6f7407ee105a59e168824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2531f182496a1a6370a72c821b76f3ec51cebec1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200649"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924265"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>Uso de RTC: Crear nuevos o editar los existentes
 

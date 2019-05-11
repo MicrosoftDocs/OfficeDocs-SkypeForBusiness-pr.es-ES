@@ -1,8 +1,8 @@
 ---
 title: Configuración de puerta de enlace de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8dcd4168-60ed-4787-b6de-2b04268d6d0f
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: 256691a7e98f2e4968939335b7735e0d1533032a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8a9cf52dc001d46e10f4c8b319757d8054869814
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219327"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903317"
 ---
 # <a name="video-gateway-setting"></a>Configuración de puerta de enlace de vídeo
  

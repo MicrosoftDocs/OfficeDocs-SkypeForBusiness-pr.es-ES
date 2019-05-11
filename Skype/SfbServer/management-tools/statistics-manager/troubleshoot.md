@@ -1,8 +1,8 @@
 ---
 title: Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: 33635c39086211e7e3e99b33268870c56704a367
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883809"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906686"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  
@@ -168,10 +168,10 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
   - La versión del producto se mostrará en los detalles de Descripción.
     
-## <a name="for-more-information"></a>Para más información
+## <a name="for-more-information"></a>Más información
 <a name="BKMK_Website"> </a>
 
-Para obtener más información, consulte lo siguiente:
+Para obtener más información, vea los artículos siguientes:
   
 - [Planear el administrador de estadísticas para Skype Empresarial Server](plan.md)
     

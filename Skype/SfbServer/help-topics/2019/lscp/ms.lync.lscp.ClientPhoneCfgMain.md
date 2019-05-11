@@ -1,8 +1,8 @@
 ---
 title: Configuración de dispositivo
 ms.reviewer: ''
-ms.author: SerdarS
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
 description: Una configuración de dispositivo es una colección de configuración que se utiliza para administrar Skype para dispositivos de negocio Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: 89050d6a2aaeeb94a6884dabc06bb01671809791
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4dd6bc44110cdd42628084f0b2422e3d3d31a6fe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215832"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891645"
 ---
 # <a name="device-configuration"></a>Configuración de dispositivo
  

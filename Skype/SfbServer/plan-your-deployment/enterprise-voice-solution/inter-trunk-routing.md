@@ -1,8 +1,8 @@
 ---
 title: Enrutamiento entre tronco en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Obtenga información sobre cómo Skype para Business Server Enterprise Voice admite enrutamiento troncal entre granjas.
-ms.openlocfilehash: 281e722898655e463c3db281014421ae224c2cec
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 60e91003e9b1b70393f99ef2ce6d8021fa2e5010
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207303"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924223"
 ---
 # <a name="inter-trunk-routing-in-skype-for-business-server"></a>Enrutamiento entre tronco en Skype para Business Server
  

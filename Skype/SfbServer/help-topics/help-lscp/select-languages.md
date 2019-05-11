@@ -1,8 +1,8 @@
 ---
 title: Seleccionar idiomas
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Seleccione los idiomas que quiera usar para el número de acceso para conferencia de acceso telefónico local. Para obtener información detallada, consulte Create or Modify a Dial-in Conferencing Access Number.
-ms.openlocfilehash: 797d63c760eeabe7bc3d80260522eb1ecf393371
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c62c4df4221ac151a3a65d15fa4152d41a05862
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200544"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924601"
 ---
 # <a name="select-languages"></a>Seleccionar idiomas
 
