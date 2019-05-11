@@ -1,8 +1,8 @@
 ---
 title: Instalar almacén de configuración local (invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,17 +13,17 @@ localization_priority: Normal
 ms.assetid: 6a3cb2e6-e253-4a3d-b1d7-2b93b3cfc36a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'El panel de ejecutar comandos muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central. Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos. Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran. Cuando las tareas son completadas, el estado de la tarea de mensaje: completado se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro. Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en Ver registro. Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.'
-ms.openlocfilehash: b7241a7cd7aeb7b01e762e31bebaa37fa1b90b58
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: efed7afa9943eb2682096be5216fbe7d9d42261d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216028"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893598"
 ---
-# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="c9079-108">Instalar almacén de configuración local (invocar)</span><span class="sxs-lookup"><span data-stu-id="c9079-108">Install Local Configuration Store (Invoke)</span></span>
+# <a name="install-local-configuration-store-invoke"></a><span data-ttu-id="e6362-108">Instalar almacén de configuración local (invocar)</span><span class="sxs-lookup"><span data-stu-id="e6362-108">Install Local Configuration Store (Invoke)</span></span>
  
-<span data-ttu-id="c9079-109">El panel de **Ejecutar comandos** muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central.</span><span class="sxs-lookup"><span data-stu-id="c9079-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="c9079-110">Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos.</span><span class="sxs-lookup"><span data-stu-id="c9079-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="c9079-111">Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran.</span><span class="sxs-lookup"><span data-stu-id="c9079-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="c9079-112">Cuando las tareas son completadas, el mensaje **estado de tarea: completado** se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro.</span><span class="sxs-lookup"><span data-stu-id="c9079-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="c9079-113">Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en **Ver registro**.</span><span class="sxs-lookup"><span data-stu-id="c9079-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="c9079-114">Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.</span><span class="sxs-lookup"><span data-stu-id="c9079-114">Review all log files for success, errors, and warning messages.</span></span>
+<span data-ttu-id="e6362-109">El panel de **Ejecutar comandos** muestra el estado de las tareas para la instalación de la réplica local de sólo lectura del almacén de Administración Central.</span><span class="sxs-lookup"><span data-stu-id="e6362-109">The **Execute Commands** pane displays the status of tasks for installing the local read-only replica of the Central Management store.</span></span> <span data-ttu-id="e6362-110">Mientras se ejecutan las tareas, el panel de tareas se actualiza cuando se ejecutan los comandos.</span><span class="sxs-lookup"><span data-stu-id="e6362-110">While the tasks are running, the task pane is updated as the commands are run.</span></span> <span data-ttu-id="e6362-111">Debe revisar el estado de la tarea y tenga en cuenta los errores o advertencias que se muestran.</span><span class="sxs-lookup"><span data-stu-id="e6362-111">You should review the task status and note any errors or warnings that are displayed.</span></span> <span data-ttu-id="e6362-112">Cuando las tareas son completadas, el mensaje **estado de tarea: completado** se muestra, y los nombres de los archivos de registro muestra la lista desplegable para los archivos de registro.</span><span class="sxs-lookup"><span data-stu-id="e6362-112">When the tasks are complete, the message **Task status: Completed** is displayed, and the drop-down list for the log files displays the names of the log files.</span></span> <span data-ttu-id="e6362-113">Para ver los archivos de registro que se crearon, elija un archivo de registro para ver y haga clic en **Ver registro**.</span><span class="sxs-lookup"><span data-stu-id="e6362-113">To view the log files that were created, choose a log file to view and click **View Log**.</span></span> <span data-ttu-id="e6362-114">Revise todos los archivos de registro para el éxito, errores y mensajes de advertencia.</span><span class="sxs-lookup"><span data-stu-id="e6362-114">Review all log files for success, errors, and warning messages.</span></span>
   
-<span data-ttu-id="c9079-115">Después de haber revisado los archivos de registro, haga clic en **Finalizar** para completar la instalación del almacén de configuración local.</span><span class="sxs-lookup"><span data-stu-id="c9079-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
+<span data-ttu-id="e6362-115">Después de haber revisado los archivos de registro, haga clic en **Finalizar** para completar la instalación del almacén de configuración local.</span><span class="sxs-lookup"><span data-stu-id="e6362-115">After you have reviewed the log files, click **Finish** to complete the installation of the local configuration store.</span></span>
   
 

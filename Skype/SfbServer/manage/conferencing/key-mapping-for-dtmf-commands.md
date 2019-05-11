@@ -1,8 +1,8 @@
 ---
 title: Administrar asignación de claves para comandos DTMF en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,36 +10,36 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Resumen: Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.'
-ms.openlocfilehash: 33ab031e6032b6246dd637bc55c9ec6b600f0c82
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e90e51bfb3c7c66524e10f7e4428c5bfe36fdcc9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198014"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919482"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a><span data-ttu-id="f5b01-103">Administrar asignación de claves para comandos DTMF en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="f5b01-103">Manage key mapping for DTMF commands in Skype for Business Server</span></span>
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a><span data-ttu-id="d75f5-103">Administrar asignación de claves para comandos DTMF en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="d75f5-103">Manage key mapping for DTMF commands in Skype for Business Server</span></span>
  
-<span data-ttu-id="f5b01-104">**Resumen:** Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="f5b01-104">**Summary:** Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server.</span></span>
+<span data-ttu-id="d75f5-104">**Resumen:** Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="d75f5-104">**Summary:** Learn how to manage key mapping of dual-tone multi-frequency (DTMF) commands in Skype for Business Server.</span></span>
   
-<span data-ttu-id="f5b01-p101">Los usuarios de conferencia de acceso telefónico local pueden presionar las teclas en el teclado numérico del teléfono para usar los comandos de tono de marcado de frecuencia múltiple (DTMF). Los comandos DTMF permiten a los usuarios que obtengan acceso telefónico local a una conferencia controlar la configuración de la conferencia (como activar o desactivar el audio propio o bloquear y desbloquear la conferencia) con el teclado numérico de su teléfono.</span><span class="sxs-lookup"><span data-stu-id="f5b01-p101">Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands. DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone.</span></span> 
+<span data-ttu-id="d75f5-p101">Los usuarios de conferencia de acceso telefónico local pueden presionar las teclas en el teclado numérico del teléfono para usar los comandos de tono de marcado de frecuencia múltiple (DTMF). Los comandos DTMF permiten a los usuarios que obtengan acceso telefónico local a una conferencia controlar la configuración de la conferencia (como activar o desactivar el audio propio o bloquear y desbloquear la conferencia) con el teclado numérico de su teléfono.</span><span class="sxs-lookup"><span data-stu-id="d75f5-p101">Dial-in conferencing users can press keys on the telephone keypad to perform dual-tone multi-frequency (DTMF) commands. DTMF commands enable users who dial in to a conference to control conference settings (such as muting and unmuting themselves or locking and unlocking the conference) by using the keypad on their telephone.</span></span> 
   
-<span data-ttu-id="f5b01-107">Para administrar las teclas usadas para los comandos DTMF, use la Skype para Shell de administración de servidor empresarial con **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**y \*\* Nuevo-CsDialinConferencingDtmfConfiguration\*\* cmdlets.</span><span class="sxs-lookup"><span data-stu-id="f5b01-107">To manage the keys used for the DTMF commands, use the Skype for Business Server Management Shell with the **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**, and **New-CsDialinConferencingDtmfConfiguration** cmdlets.</span></span>
+<span data-ttu-id="d75f5-107">Para administrar las teclas usadas para los comandos DTMF, use la Skype para Shell de administración de servidor empresarial con **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**y \*\* Nuevo-CsDialinConferencingDtmfConfiguration\*\* cmdlets.</span><span class="sxs-lookup"><span data-stu-id="d75f5-107">To manage the keys used for the DTMF commands, use the Skype for Business Server Management Shell with the **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**, and **New-CsDialinConferencingDtmfConfiguration** cmdlets.</span></span>
   
-<span data-ttu-id="f5b01-108">Cuando se crea una configuración de DTMF para sitios, la configuración de sitio prevalece por encima de la configuración global.</span><span class="sxs-lookup"><span data-stu-id="f5b01-108">When you create new DTMF settings for sites, the site settings take precedence over the global settings.</span></span> 
+<span data-ttu-id="d75f5-108">Cuando se crea una configuración de DTMF para sitios, la configuración de sitio prevalece por encima de la configuración global.</span><span class="sxs-lookup"><span data-stu-id="d75f5-108">When you create new DTMF settings for sites, the site settings take precedence over the global settings.</span></span> 
 
-### <a name="manage-the-key-mapping-of-dtmf-commands"></a><span data-ttu-id="f5b01-109">Administrar la asignación de teclas de comandos DTMF</span><span class="sxs-lookup"><span data-stu-id="f5b01-109">Manage the key mapping of DTMF commands</span></span>
+### <a name="manage-the-key-mapping-of-dtmf-commands"></a><span data-ttu-id="d75f5-109">Administrar la asignación de teclas de comandos DTMF</span><span class="sxs-lookup"><span data-stu-id="d75f5-109">Manage the key mapping of DTMF commands</span></span>
 
-1. <span data-ttu-id="f5b01-110">Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol Cs-ServerAdministrator o CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="f5b01-110">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
+1. <span data-ttu-id="d75f5-110">Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o bien como miembro del rol Cs-ServerAdministrator o CsAdministrator.</span><span class="sxs-lookup"><span data-stu-id="d75f5-110">Log on to the computer as a member of the RTCUniversalServerAdmins group, or as a member of the Cs-ServerAdministrator or CsAdministrator role.</span></span>
     
-2. <span data-ttu-id="f5b01-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="f5b01-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+2. <span data-ttu-id="d75f5-111">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="d75f5-111">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-3. <span data-ttu-id="f5b01-112">Para ver la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el siguiente comando en el símbolo del sistema:</span><span class="sxs-lookup"><span data-stu-id="f5b01-112">To view the DTMF settings used for dial-in conferencing, run the following command at the command prompt :</span></span>
+3. <span data-ttu-id="d75f5-112">Para ver la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el siguiente comando en el símbolo del sistema:</span><span class="sxs-lookup"><span data-stu-id="d75f5-112">To view the DTMF settings used for dial-in conferencing, run the following command at the command prompt :</span></span>
     
    ```
    Get-CsDialinConferencingDtmfConfiguration
    ```
 
-4. <span data-ttu-id="f5b01-113">Para modificar la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el cmdlet siguiente y especifique la tecla que se necesita presionar para cada una de las opciones que desea cambiar:</span><span class="sxs-lookup"><span data-stu-id="f5b01-113">To modify the DTMF settings used for dial-in conferencing, run the following cmdlet and specify the key to be pressed for each option that you want to change:</span></span>
+4. <span data-ttu-id="d75f5-113">Para modificar la configuración de DTMF usada para conferencias de acceso telefónico local, ejecute el cmdlet siguiente y especifique la tecla que se necesita presionar para cada una de las opciones que desea cambiar:</span><span class="sxs-lookup"><span data-stu-id="d75f5-113">To modify the DTMF settings used for dial-in conferencing, run the following cmdlet and specify the key to be pressed for each option that you want to change:</span></span>
     
    ```
    Set-CsDialinConferencingDtmfConfiguration [-Identity <global or site collection to be changed>]
@@ -49,14 +49,14 @@ ms.locfileid: "32198014"
    [-MuteUnmuteCommand <default key is 6>] [-PrivateRollCallCommand <default key is 3>]
    ```
 
-5. <span data-ttu-id="f5b01-114">(Opcional) Para crear conjuntos de comandos DTMF adicionales para sitios específicos, use el cmdlet **New-CsDialinConferencingDtmfConfiguration** con una identidad de sitio.</span><span class="sxs-lookup"><span data-stu-id="f5b01-114">(Optional) To create additional sets of DTMF commands for specific sites, use the **New-CsDialinConferencingDtmfConfiguration** cmdlet with a site identity.</span></span>
+5. <span data-ttu-id="d75f5-114">(Opcional) Para crear conjuntos de comandos DTMF adicionales para sitios específicos, use el cmdlet **New-CsDialinConferencingDtmfConfiguration** con una identidad de sitio.</span><span class="sxs-lookup"><span data-stu-id="d75f5-114">(Optional) To create additional sets of DTMF commands for specific sites, use the **New-CsDialinConferencingDtmfConfiguration** cmdlet with a site identity.</span></span>
     
-<span data-ttu-id="f5b01-p102">En este ejemplo se cambia la tecla que se presiona para habilitar o deshabilitar anuncios y la tecla que se presiona para activar o desactivar el audio de todos los participantes. Como no se ha especificado el parámetro Identity, estos cambios se aplican a la configuración de DTMF global:</span><span class="sxs-lookup"><span data-stu-id="f5b01-p102">The following example swaps the key that is pressed to enable or disable announcements and the key that is pressed to mute and unmute all participants. Because no Identity is specified, these changes apply to the global DTMF settings:</span></span>
+<span data-ttu-id="d75f5-p102">En este ejemplo se cambia la tecla que se presiona para habilitar o deshabilitar anuncios y la tecla que se presiona para activar o desactivar el audio de todos los participantes. Como no se ha especificado el parámetro Identity, estos cambios se aplican a la configuración de DTMF global:</span><span class="sxs-lookup"><span data-stu-id="d75f5-p102">The following example swaps the key that is pressed to enable or disable announcements and the key that is pressed to mute and unmute all participants. Because no Identity is specified, these changes apply to the global DTMF settings:</span></span>
   
 ```
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-<span data-ttu-id="f5b01-117">Para obtener más información, vea [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)y [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="f5b01-117">For more information, see [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps), and [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).</span></span>
+<span data-ttu-id="d75f5-117">Para obtener más información, vea [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)y [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d75f5-117">For more information, see [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps), and [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).</span></span>
   
 

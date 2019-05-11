@@ -1,8 +1,8 @@
 ---
 title: Configurar una ruta de región de red
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ localization_priority: Normal
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 762d9da3372b7b34754cc621a019b5f76dcc2082
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1c00a4d9a1dbd26a1c99c034af07c13476ffb284
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215286"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891365"
 ---
-# <a name="configure-a-network-region-route"></a><span data-ttu-id="9417b-104">Configurar una ruta de región de red</span><span class="sxs-lookup"><span data-stu-id="9417b-104">Configure a Network Region Route</span></span>
+# <a name="configure-a-network-region-route"></a><span data-ttu-id="99c54-104">Configurar una ruta de región de red</span><span class="sxs-lookup"><span data-stu-id="99c54-104">Configure a Network Region Route</span></span>
 
-<span data-ttu-id="9417b-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="9417b-105">What do you want to do?</span></span> <span data-ttu-id="9417b-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="9417b-106">Click the link to the task that you want to perform.</span></span>
+<span data-ttu-id="99c54-105">¿Qué desea hacer?</span><span class="sxs-lookup"><span data-stu-id="99c54-105">What do you want to do?</span></span> <span data-ttu-id="99c54-106">haga clic en el enlace de la tarea que desee llevar a cabo.</span><span class="sxs-lookup"><span data-stu-id="99c54-106">Click the link to the task that you want to perform.</span></span>
 
-- [<span data-ttu-id="9417b-107">Configuración de rutas de región de red</span><span class="sxs-lookup"><span data-stu-id="9417b-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
+- [<span data-ttu-id="99c54-107">Configuración de rutas de región de red</span><span class="sxs-lookup"><span data-stu-id="99c54-107">Configuring Network Region Routes</span></span>](https://technet.microsoft.com/library/76993daa-76c2-4cec-8363-de8aebef0145.aspx)
 
 
 

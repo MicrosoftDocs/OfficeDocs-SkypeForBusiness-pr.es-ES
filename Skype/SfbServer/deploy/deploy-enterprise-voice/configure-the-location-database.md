@@ -1,8 +1,8 @@
 ---
 title: Configuración de la base de datos de ubicación en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,138 +14,138 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ab97fae05a74f95e618cebacac9be5ac011eb921
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223658"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893052"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a><span data-ttu-id="9e8e6-103">Configuración de la base de datos de ubicación en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="9e8e6-103">Configure the location database in Skype for Business Server</span></span>
+# <a name="configure-the-location-database-in-skype-for-business-server"></a><span data-ttu-id="da173-103">Configuración de la base de datos de ubicación en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="da173-103">Configure the location database in Skype for Business Server</span></span>
  
-<span data-ttu-id="9e8e6-104">Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-104">Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="da173-104">Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="da173-104">Configure, populate, and publish the E9-1-1 location database in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="9e8e6-105">Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-105">To enable clients to automatically detect their location within a network, you first need to configure the location database.</span></span> 
+<span data-ttu-id="da173-105">Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-105">To enable clients to automatically detect their location within a network, you first need to configure the location database.</span></span> 
   
-<span data-ttu-id="9e8e6-106">Para configurar la base de datos de ubicaciones, deberá realizar las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="9e8e6-106">To configure the location database, perform the following tasks:</span></span>
+<span data-ttu-id="da173-106">Para configurar la base de datos de ubicaciones, deberá realizar las siguientes tareas:</span><span class="sxs-lookup"><span data-stu-id="da173-106">To configure the location database, perform the following tasks:</span></span>
   
-- <span data-ttu-id="9e8e6-107">Llene la base de datos con una búsqueda de elementos de red a las ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-107">Populate the database with a mapping of network elements to locations.</span></span> <span data-ttu-id="9e8e6-108">Si utiliza una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), debe incluir los ELIN en la \<CompanyName\> campo.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-108">If you use an Emergency Location Identification Number (ELIN) gateway, you need to include the ELIN in the \<CompanyName\> field.</span></span>
+- <span data-ttu-id="da173-107">Llene la base de datos con una búsqueda de elementos de red a las ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-107">Populate the database with a mapping of network elements to locations.</span></span> <span data-ttu-id="da173-108">Si utiliza una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), debe incluir los ELIN en la \<CompanyName\> campo.</span><span class="sxs-lookup"><span data-stu-id="da173-108">If you use an Emergency Location Identification Number (ELIN) gateway, you need to include the ELIN in the \<CompanyName\> field.</span></span>
     
-    <span data-ttu-id="9e8e6-109">Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-109">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
+    <span data-ttu-id="da173-109">Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.</span><span class="sxs-lookup"><span data-stu-id="da173-109">If you do not populate the location database, and the **Location Required** in the Location Policy is set to **Yes** or **Disclaimer**, the client will prompt the user to enter a location manually.</span></span>
     
-- <span data-ttu-id="9e8e6-110">Valide las direcciones comparándolas con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-110">Validate the addresses against the master street address guide (MSAG) that is maintained by the E9-1-1 service provider.</span></span>
+- <span data-ttu-id="da173-110">Valide las direcciones comparándolas con la Guía de calles maestra (MSAG) mantenida por el proveedor de servicios E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="da173-110">Validate the addresses against the master street address guide (MSAG) that is maintained by the E9-1-1 service provider.</span></span>
     
-- <span data-ttu-id="9e8e6-111">Publique la base de datos actualizada.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-111">Publish the updated database.</span></span>
+- <span data-ttu-id="da173-111">Publique la base de datos actualizada.</span><span class="sxs-lookup"><span data-stu-id="da173-111">Publish the updated database.</span></span>
     
-## <a name="populate-the-location-database"></a><span data-ttu-id="9e8e6-112">Rellenar la base de datos de ubicación</span><span class="sxs-lookup"><span data-stu-id="9e8e6-112">Populate the location database</span></span>
+## <a name="populate-the-location-database"></a><span data-ttu-id="da173-112">Rellenar la base de datos de ubicación</span><span class="sxs-lookup"><span data-stu-id="da173-112">Populate the location database</span></span>
 
-<span data-ttu-id="9e8e6-113">Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un diagrama de cableado de red, que asigna elementos de red a direcciones postales.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-113">To automatically locate clients within a network, you first need to populate the location database with a network wiremap, which maps network elements to civic (that is, street) addresses.</span></span> <span data-ttu-id="9e8e6-114">Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-114">You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
+<span data-ttu-id="da173-113">Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un diagrama de cableado de red, que asigna elementos de red a direcciones postales.</span><span class="sxs-lookup"><span data-stu-id="da173-113">To automatically locate clients within a network, you first need to populate the location database with a network wiremap, which maps network elements to civic (that is, street) addresses.</span></span> <span data-ttu-id="da173-114">Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.</span><span class="sxs-lookup"><span data-stu-id="da173-114">You can use subnets, wireless access points, switches, and ports to define the wiremap.</span></span>
   
-<span data-ttu-id="9e8e6-115">Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo .csv con los formatos de columna que se describen en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-115">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
+<span data-ttu-id="da173-115">Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo .csv con los formatos de columna que se describen en la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="da173-115">You can add addresses to the location database individually, or in bulk by using a CSV file that contains the column formats described in the following table.</span></span>
   
-<span data-ttu-id="9e8e6-p103">Si utiliza una puerta de enlace de Número de identificación de ubicación de emergencia (ELIN), incluya el ELIN en el campo **CompanyName** de cada ubicación. Puede incluir varios ELIN para cada ubicación, separándolos por un punto y coma.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-p103">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
+<span data-ttu-id="da173-p103">Si utiliza una puerta de enlace de Número de identificación de ubicación de emergencia (ELIN), incluya el ELIN en el campo **CompanyName** de cada ubicación. Puede incluir varios ELIN para cada ubicación, separándolos por un punto y coma.</span><span class="sxs-lookup"><span data-stu-id="da173-p103">If you use an Emergency Location Identification Number (ELIN) gateway, include the ELIN in the **CompanyName** field for each location. You can include multiple ELINs for each location, each separated by a semicolon.</span></span>
   
-|<span data-ttu-id="9e8e6-118">**Elemento de red**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-118">**Network Element**</span></span>|<span data-ttu-id="9e8e6-119">**Columnas obligatorias**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-119">**Required Columns**</span></span>|
+|<span data-ttu-id="da173-118">**Elemento de red**</span><span class="sxs-lookup"><span data-stu-id="da173-118">**Network Element**</span></span>|<span data-ttu-id="da173-119">**Columnas obligatorias**</span><span class="sxs-lookup"><span data-stu-id="da173-119">**Required Columns**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="9e8e6-120">**Punto de acceso inalámbrico**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-120">**Wireless access point**</span></span> <br/> |<span data-ttu-id="9e8e6-121">\<BSSID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="9e8e6-121">\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="9e8e6-122">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="9e8e6-122">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="9e8e6-123">**Subred**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-123">**Subnet**</span></span> <br/> |<span data-ttu-id="9e8e6-124">\<Subred\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="9e8e6-124">\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="9e8e6-125">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="9e8e6-125">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="9e8e6-126">**Puerto**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-126">**Port**</span></span> <br/> |<span data-ttu-id="9e8e6-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...</span><span class="sxs-lookup"><span data-stu-id="9e8e6-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…</span></span>  <br/> <span data-ttu-id="9e8e6-128">... \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\< País\></span><span class="sxs-lookup"><span data-stu-id="9e8e6-128">…\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
-|<span data-ttu-id="9e8e6-129">**Conmutador**</span><span class="sxs-lookup"><span data-stu-id="9e8e6-129">**Switch**</span></span> <br/> |<span data-ttu-id="9e8e6-130">\<ChassisID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="9e8e6-130">\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="9e8e6-131">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="9e8e6-131">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="da173-120">**Punto de acceso inalámbrico**</span><span class="sxs-lookup"><span data-stu-id="da173-120">**Wireless access point**</span></span> <br/> |<span data-ttu-id="da173-121">\<BSSID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="da173-121">\<BSSID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="da173-122">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="da173-122">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="da173-123">**Subred**</span><span class="sxs-lookup"><span data-stu-id="da173-123">**Subnet**</span></span> <br/> |<span data-ttu-id="da173-124">\<Subred\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="da173-124">\<Subnet\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="da173-125">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="da173-125">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="da173-126">**Puerto**</span><span class="sxs-lookup"><span data-stu-id="da173-126">**Port**</span></span> <br/> |<span data-ttu-id="da173-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...</span><span class="sxs-lookup"><span data-stu-id="da173-127">\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,…</span></span>  <br/> <span data-ttu-id="da173-128">... \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\< País\></span><span class="sxs-lookup"><span data-stu-id="da173-128">…\<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
+|<span data-ttu-id="da173-129">**Conmutador**</span><span class="sxs-lookup"><span data-stu-id="da173-129">**Switch**</span></span> <br/> |<span data-ttu-id="da173-130">\<ChassisID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...</span><span class="sxs-lookup"><span data-stu-id="da173-130">\<ChassisID\>,\<Description\>,\<Location\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,…</span></span>  <br/> <span data-ttu-id="da173-131">... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\></span><span class="sxs-lookup"><span data-stu-id="da173-131">…\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<City\>,\<State\>,\<PostalCode\>,\<Country\></span></span>  <br/> |
    
-### <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="9e8e6-132">Para agregar elementos de red a la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="9e8e6-132">To add network elements to the location database</span></span>
+### <a name="to-add-network-elements-to-the-location-database"></a><span data-ttu-id="da173-132">Para agregar elementos de red a la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="da173-132">To add network elements to the location database</span></span>
 
-1. <span data-ttu-id="9e8e6-133">Ejecute el cmdlet siguiente para agregar una ubicación de subred a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-133">Run the following cmdlet to add a subnet location to the location database.</span></span>
+1. <span data-ttu-id="da173-133">Ejecute el cmdlet siguiente para agregar una ubicación de subred a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-133">Run the following cmdlet to add a subnet location to the location database.</span></span>
     
    ```
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    <span data-ttu-id="9e8e6-p104">Para las puertas de enlace ELIN, escriba el ELIN en el campo CompanyName. Puede incluir más de un ELIN. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="9e8e6-p104">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
+    <span data-ttu-id="da173-p104">Para las puertas de enlace ELIN, escriba el ELIN en el campo CompanyName. Puede incluir más de un ELIN. Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="da173-p104">For ELIN gateways, put the ELIN in the CompanyName field. You can include more than one ELIN. For example:</span></span>
     
    ```
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    <span data-ttu-id="9e8e6-137">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de subred mediante un archivo denominado "subnets.csv".</span><span class="sxs-lookup"><span data-stu-id="9e8e6-137">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
+    <span data-ttu-id="da173-137">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de subred mediante un archivo denominado "subnets.csv".</span><span class="sxs-lookup"><span data-stu-id="da173-137">Alternately, you can run the following cmdlets and use a file named "subnets.csv" to bulk update subnet locations.</span></span>
     
    ```
    $g = Import-Csv subnets.csv
    $g | Set-CsLisSubnet
    ```
 
-2. <span data-ttu-id="9e8e6-138">Ejecute el cmdlet siguiente para agregar ubicaciones inalámbricas a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-138">Run the following cmdlet to add wireless locations to the location database.</span></span>
+2. <span data-ttu-id="da173-138">Ejecute el cmdlet siguiente para agregar ubicaciones inalámbricas a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-138">Run the following cmdlet to add wireless locations to the location database.</span></span>
     
    ```
    Set-CsLisWirelessAccessPoint -BSSID 0A-23-CD-16-AA-2E -Description "Wireless1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   <span data-ttu-id="9e8e6-139">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones inalámbricas mediante un archivo denominado "waps.csv".</span><span class="sxs-lookup"><span data-stu-id="9e8e6-139">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
+   <span data-ttu-id="da173-139">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones inalámbricas mediante un archivo denominado "waps.csv".</span><span class="sxs-lookup"><span data-stu-id="da173-139">Alternately, you can run the following cmdlets and use a file named "waps.csv" to bulk update wireless locations.</span></span>
     
    ```
    $g = Import-Csv waps.csv
    $g | Set-CsLisWirelessAccessPoint
    ```
 
-3. <span data-ttu-id="9e8e6-140">Ejecute el cmdlet siguiente para agregar ubicaciones de conmutador a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-140">Run the following cmdlet to add switch locations to the location database.</span></span>
+3. <span data-ttu-id="da173-140">Ejecute el cmdlet siguiente para agregar ubicaciones de conmutador a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-140">Run the following cmdlet to add switch locations to the location database.</span></span>
     
    ```
    Set-CsLisSwitch-ChassisID 0B-23-CD-16-AA-BB -Description "Switch1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-   <span data-ttu-id="9e8e6-141">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de conmutadores mediante un archivo denominado "switches.csv".</span><span class="sxs-lookup"><span data-stu-id="9e8e6-141">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
+   <span data-ttu-id="da173-141">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de conmutadores mediante un archivo denominado "switches.csv".</span><span class="sxs-lookup"><span data-stu-id="da173-141">Alternately, you can run the following cmdlets and use a file named "switches.csv" to bulk update switch locations.</span></span>
     
    ```
    $g = Import-Csv switches.csv
    $g | Set-CsLisSwitch
    ```
 
-4. <span data-ttu-id="9e8e6-142">Ejecute el cmdlet siguiente para agregar ubicaciones de puertos a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-142">Run the following cmdlet to add port locations to the location database</span></span>
+4. <span data-ttu-id="da173-142">Ejecute el cmdlet siguiente para agregar ubicaciones de puertos a la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-142">Run the following cmdlet to add port locations to the location database</span></span>
     
    ```
    Set-CsLisPort -ChassisID 0C-23-CD-16-AA-CC -PortID 0A-abcd -Description "Port1" -Location Location2 -CompanyName "Litware" -HouseNumber 2345 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Bellevue -State WA -PostalCode 99234 -Country US
    ```
 
-   <span data-ttu-id="9e8e6-p105">El valor predeterminado de PortIDSubType es LocallyAssigned. También se puede usar InterfaceAlias e InterfaceName</span><span class="sxs-lookup"><span data-stu-id="9e8e6-p105">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
+   <span data-ttu-id="da173-p105">El valor predeterminado de PortIDSubType es LocallyAssigned. También se puede usar InterfaceAlias e InterfaceName</span><span class="sxs-lookup"><span data-stu-id="da173-p105">The default for PortIDSubType is LocallyAssigned. You can also set it to InterfaceAlias or InterfaceName</span></span>
     
-   <span data-ttu-id="9e8e6-145">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de puertos mediante un archivo denominado "ports.csv".</span><span class="sxs-lookup"><span data-stu-id="9e8e6-145">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
+   <span data-ttu-id="da173-145">También es posible ejecutar los cmdlets siguientes para actualizar en una sola acción las ubicaciones de puertos mediante un archivo denominado "ports.csv".</span><span class="sxs-lookup"><span data-stu-id="da173-145">Alternately, you can run the following cmdlets and use a file named "ports.csv" to bulk update port locations.</span></span>
     
    ```
    $g = Import-Csv ports.csv
    $g | Set-CsLisPort
    ```
 
-## <a name="validate-addresses"></a><span data-ttu-id="9e8e6-146">Validar direcciones</span><span class="sxs-lookup"><span data-stu-id="9e8e6-146">Validate addresses</span></span>
+## <a name="validate-addresses"></a><span data-ttu-id="da173-146">Validar direcciones</span><span class="sxs-lookup"><span data-stu-id="da173-146">Validate addresses</span></span>
 
-### <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="9e8e6-147">Para validar direcciones ubicadas en la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="9e8e6-147">To validate addresses located in the location database</span></span>
+### <a name="to-validate-addresses-located-in-the-location-database"></a><span data-ttu-id="da173-147">Para validar direcciones ubicadas en la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="da173-147">To validate addresses located in the location database</span></span>
 
-1.  <span data-ttu-id="9e8e6-148">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-148">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1.  <span data-ttu-id="da173-148">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="da173-148">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="9e8e6-149">Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-149">Run the following cmdlets to configure the emergency service provider connection.</span></span>
+2. <span data-ttu-id="da173-149">Ejecute los cmdlets siguientes para configurar la conexión de proveedor de servicios de emergencia.</span><span class="sxs-lookup"><span data-stu-id="da173-149">Run the following cmdlets to configure the emergency service provider connection.</span></span>
     
    ```
    $pwd = Read-Host -AsSecureString <password>
    Set-CsLisServiceProvider -ServiceProviderName Provider1 -ValidationServiceUrl <URL provided by provider> -CertFileName <location of certificate provided by provider> -Password $pwd
    ```
 
-3. <span data-ttu-id="9e8e6-150">Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-150">Run the following cmdlet to validate the addresses in the location database.</span></span>
+3. <span data-ttu-id="da173-150">Ejecute el cmdlet siguiente para validar las direcciones en la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-150">Run the following cmdlet to validate the addresses in the location database.</span></span>
     
    ```
    Get-CsLisCivicAddress | Test-CsLisCivicAddress -UpdateValidationStatus
    ```
 
-   <span data-ttu-id="9e8e6-151">También puede usar el cmdlet **Test-CsLisCivicAddress** para validar direcciones individuales.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-151">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
+   <span data-ttu-id="da173-151">También puede usar el cmdlet **Test-CsLisCivicAddress** para validar direcciones individuales.</span><span class="sxs-lookup"><span data-stu-id="da173-151">You can also use the **Test-CsLisCivicAddress** cmdlet to validate individual addresses.</span></span>
     
-## <a name="publish-the-location-database"></a><span data-ttu-id="9e8e6-152">Publicar la base de datos de ubicación</span><span class="sxs-lookup"><span data-stu-id="9e8e6-152">Publish the location database</span></span>
+## <a name="publish-the-location-database"></a><span data-ttu-id="da173-152">Publicar la base de datos de ubicación</span><span class="sxs-lookup"><span data-stu-id="da173-152">Publish the location database</span></span>
 
-<span data-ttu-id="9e8e6-153">Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente hasta que no se publiquen.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-153">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
+<span data-ttu-id="da173-153">Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente hasta que no se publiquen.</span><span class="sxs-lookup"><span data-stu-id="da173-153">The new locations that you added to the location database will not be made available to the client until they have been published.</span></span>
   
-<span data-ttu-id="9e8e6-154">Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="9e8e6-154">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="9e8e6-155">Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-155">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="9e8e6-156">Póngase en contacto con el proveedor de RTC para obtener más información al respecto.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-156">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="9e8e6-157">Puede exportar los registros de la base de datos de servicio de información de ubicación y aplicarles formato según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-157">You can export the records from the Location Information service database and format them as required.</span></span>
+<span data-ttu-id="da173-154">Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="da173-154">If you use Emergency Location Identification Number (ELIN) gateways, you also need to upload the ELINs to your public switched telephone network (PSTN) carrier's Automatic Location Identification (ALI) database.</span></span> <span data-ttu-id="da173-155">Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN.</span><span class="sxs-lookup"><span data-stu-id="da173-155">Your PSTN carrier may require you to use a specific format for the ELIN records.</span></span> <span data-ttu-id="da173-156">Póngase en contacto con el proveedor de RTC para obtener más información al respecto.</span><span class="sxs-lookup"><span data-stu-id="da173-156">Contact your PSTN carrier for details.</span></span> <span data-ttu-id="da173-157">Puede exportar los registros de la base de datos de servicio de información de ubicación y aplicarles formato según sea necesario.</span><span class="sxs-lookup"><span data-stu-id="da173-157">You can export the records from the Location Information service database and format them as required.</span></span>
   
-### <a name="to-publish-the-location-database"></a><span data-ttu-id="9e8e6-158">Para publicar la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="9e8e6-158">To publish the location database</span></span>
+### <a name="to-publish-the-location-database"></a><span data-ttu-id="da173-158">Para publicar la base de datos de ubicaciones</span><span class="sxs-lookup"><span data-stu-id="da173-158">To publish the location database</span></span>
 
--  <span data-ttu-id="9e8e6-159">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-159">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+-  <span data-ttu-id="da173-159">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="da173-159">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-- <span data-ttu-id="9e8e6-160">Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="9e8e6-160">Run the following cmdlet to publish the location database.</span></span>
+- <span data-ttu-id="da173-160">Ejecute el cmdlet siguiente para publicar la base de datos de ubicaciones.</span><span class="sxs-lookup"><span data-stu-id="da173-160">Run the following cmdlet to publish the location database.</span></span>
     
   ```
   Publish-CsLisConfiguration

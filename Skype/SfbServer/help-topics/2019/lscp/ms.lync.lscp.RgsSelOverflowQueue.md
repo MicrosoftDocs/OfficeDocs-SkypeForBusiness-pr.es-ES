@@ -1,8 +1,8 @@
 ---
 title: Seleccionar cola de desbordamiento
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,19 +13,19 @@ localization_priority: Normal
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el seleccionar un cuadro de diálogo de la cola de desbordamiento para seleccionar una cola que se reenvíen las llamadas cuando una cola de grupo de respuesta está lleno.
-ms.openlocfilehash: 9c860533687a1742eb44855f29be3ce5d6746ff3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 63835f912273e54e33106d1a3c0096f62645f7db
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215181"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891064"
 ---
-# <a name="select-overflow-queue"></a><span data-ttu-id="0d643-103">Seleccionar cola de desbordamiento</span><span class="sxs-lookup"><span data-stu-id="0d643-103">Select Overflow Queue</span></span>
+# <a name="select-overflow-queue"></a><span data-ttu-id="c47d7-103">Seleccionar cola de desbordamiento</span><span class="sxs-lookup"><span data-stu-id="c47d7-103">Select Overflow Queue</span></span>
  
-<span data-ttu-id="0d643-104">Use el cuadro de diálogo **Seleccionar una cola de desbordamiento** para seleccionar una cola que se reenvíen las llamadas cuando una cola de grupo de respuesta está lleno.</span><span class="sxs-lookup"><span data-stu-id="0d643-104">Use the **Select an overflow queue** dialog box to select a queue where calls are forwarded when a response group queue is full.</span></span>
+<span data-ttu-id="c47d7-104">Use el cuadro de diálogo **Seleccionar una cola de desbordamiento** para seleccionar una cola que se reenvíen las llamadas cuando una cola de grupo de respuesta está lleno.</span><span class="sxs-lookup"><span data-stu-id="c47d7-104">Use the **Select an overflow queue** dialog box to select a queue where calls are forwarded when a response group queue is full.</span></span>
   
-<span data-ttu-id="0d643-105">En el cuadro Buscar, escriba todo o parte del nombre de la cola que desea usar.</span><span class="sxs-lookup"><span data-stu-id="0d643-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="0d643-106">Para devolver todas las colas disponibles, deje vacío el cuadro de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="0d643-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
+<span data-ttu-id="c47d7-105">En el cuadro Buscar, escriba todo o parte del nombre de la cola que desea usar.</span><span class="sxs-lookup"><span data-stu-id="c47d7-105">In the search box, type all or part of the name of the queue you want to use.</span></span> <span data-ttu-id="c47d7-106">Para devolver todas las colas disponibles, deje vacío el cuadro de búsqueda y haga clic en el icono de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="c47d7-106">To return all available queues, leave the search box empty and click the search icon.</span></span>
   
-<span data-ttu-id="0d643-107">En la lista de colas devueltas por la búsqueda, seleccione la cola que desea usar para reenviar las llamadas cuando una cola de grupo de respuesta está lleno.</span><span class="sxs-lookup"><span data-stu-id="0d643-107">In the list of queues returned by the search, select the queue you want to use to forward calls when a response group queue is full.</span></span>
+<span data-ttu-id="c47d7-107">En la lista de colas devueltas por la búsqueda, seleccione la cola que desea usar para reenviar las llamadas cuando una cola de grupo de respuesta está lleno.</span><span class="sxs-lookup"><span data-stu-id="c47d7-107">In the list of queues returned by the search, select the queue you want to use to forward calls when a response group queue is full.</span></span>
   
 

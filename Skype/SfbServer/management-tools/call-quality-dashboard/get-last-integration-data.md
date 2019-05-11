@@ -1,8 +1,8 @@
 ---
 title: Obtener últimos datos de integración
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,43 +11,43 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Resumen: Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 33681e38b2dfeac635d3e3c7bd05e67980e0a598
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 22a7382bfd861b3cade606cd087e17c007fb947b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874426"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930689"
 ---
-# <a name="get-last-integration-data"></a><span data-ttu-id="fb495-104">Obtener últimos datos de integración</span><span class="sxs-lookup"><span data-stu-id="fb495-104">Get Last Integration Data</span></span>
+# <a name="get-last-integration-data"></a><span data-ttu-id="77364-104">Obtener últimos datos de integración</span><span class="sxs-lookup"><span data-stu-id="77364-104">Get Last Integration Data</span></span>
  
-<span data-ttu-id="fb495-105">**Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad.</span><span class="sxs-lookup"><span data-stu-id="fb495-105">**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="fb495-106">Panel de calidad de llamada es una herramienta de Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="fb495-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
+<span data-ttu-id="77364-105">**Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad.</span><span class="sxs-lookup"><span data-stu-id="77364-105">**Summary:** Learn about the Get Last Integration Data operation, which is part of the Data API for Call Quality Dashboard.</span></span> <span data-ttu-id="77364-106">Panel de calidad de llamada es una herramienta de Skype para Business Server.</span><span class="sxs-lookup"><span data-stu-id="77364-106">Call Quality Dashboard is a tool for Skype for Business Server.</span></span>
   
-<span data-ttu-id="fb495-107">La operación de obtener datos de integración de última forma parte de la API de datos para el panel de calidad de llamadas.</span><span class="sxs-lookup"><span data-stu-id="fb495-107">The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.</span></span>
+<span data-ttu-id="77364-107">La operación de obtener datos de integración de última forma parte de la API de datos para el panel de calidad de llamadas.</span><span class="sxs-lookup"><span data-stu-id="77364-107">The Get Last Integration Data operation is part of the Data API for Call Quality Dashboard.</span></span>
   
-## <a name="get-last-integration-data"></a><span data-ttu-id="fb495-108">Obtener últimos datos de integración</span><span class="sxs-lookup"><span data-stu-id="fb495-108">Get Last Integration Data</span></span>
+## <a name="get-last-integration-data"></a><span data-ttu-id="77364-108">Obtener últimos datos de integración</span><span class="sxs-lookup"><span data-stu-id="77364-108">Get Last Integration Data</span></span>
 
-<span data-ttu-id="fb495-109">Operación de datos de integración último Get devuelve la lista de los últimos 5 éxito o error de archivado y el procesamiento del cubo.</span><span class="sxs-lookup"><span data-stu-id="fb495-109">Get Last Integration Data operation returns the list of last 5 success/failure of archiving and cube processing.</span></span>
+<span data-ttu-id="77364-109">Operación de datos de integración último Get devuelve la lista de los últimos 5 éxito o error de archivado y el procesamiento del cubo.</span><span class="sxs-lookup"><span data-stu-id="77364-109">Get Last Integration Data operation returns the list of last 5 success/failure of archiving and cube processing.</span></span>
   
-<span data-ttu-id="fb495-110">Esta característica está deshabilitada de forma predeterminada y debe habilitarse mediante la configuración de la API de datos.</span><span class="sxs-lookup"><span data-stu-id="fb495-110">This feature is disabled by default and it needs to be enabled by configuring the Data API.</span></span>
+<span data-ttu-id="77364-110">Esta característica está deshabilitada de forma predeterminada y debe habilitarse mediante la configuración de la API de datos.</span><span class="sxs-lookup"><span data-stu-id="77364-110">This feature is disabled by default and it needs to be enabled by configuring the Data API.</span></span>
   
 
-|<span data-ttu-id="fb495-111">**(Método)**</span><span class="sxs-lookup"><span data-stu-id="fb495-111">**Method**</span></span>|<span data-ttu-id="fb495-112">**URI de la solicitud**</span><span class="sxs-lookup"><span data-stu-id="fb495-112">**Request URI**</span></span>|<span data-ttu-id="fb495-113">**Versión de HTTP**</span><span class="sxs-lookup"><span data-stu-id="fb495-113">**HTTP Version**</span></span>|
+|<span data-ttu-id="77364-111">**(Método)**</span><span class="sxs-lookup"><span data-stu-id="77364-111">**Method**</span></span>|<span data-ttu-id="77364-112">**URI de la solicitud**</span><span class="sxs-lookup"><span data-stu-id="77364-112">**Request URI**</span></span>|<span data-ttu-id="77364-113">**Versión de HTTP**</span><span class="sxs-lookup"><span data-stu-id="77364-113">**HTTP Version**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="fb495-114">Obtener</span><span class="sxs-lookup"><span data-stu-id="fb495-114">GET</span></span>  <br/> |<span data-ttu-id="fb495-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span><span class="sxs-lookup"><span data-stu-id="fb495-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span></span>  <br/> |<span data-ttu-id="fb495-116">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="fb495-116">HTTP/1.1</span></span>  <br/> |
+|<span data-ttu-id="77364-114">Obtener</span><span class="sxs-lookup"><span data-stu-id="77364-114">GET</span></span>  <br/> |<span data-ttu-id="77364-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span><span class="sxs-lookup"><span data-stu-id="77364-115">https://\<portal\>/QoEDataService/IntegrationLog/Status</span></span>  <br/> |<span data-ttu-id="77364-116">HTTP/1.1</span><span class="sxs-lookup"><span data-stu-id="77364-116">HTTP/1.1</span></span>  <br/> |
    
- <span data-ttu-id="fb495-117">**Los parámetros URI** - ninguno.</span><span class="sxs-lookup"><span data-stu-id="fb495-117">**URI Parameters** - None.</span></span>
+ <span data-ttu-id="77364-117">**Los parámetros URI** - ninguno.</span><span class="sxs-lookup"><span data-stu-id="77364-117">**URI Parameters** - None.</span></span>
   
- <span data-ttu-id="fb495-118">**Encabezados de solicitud** - sin encabezados adicionales.</span><span class="sxs-lookup"><span data-stu-id="fb495-118">**Request Headers** - No additional headers.</span></span>
+ <span data-ttu-id="77364-118">**Encabezados de solicitud** - sin encabezados adicionales.</span><span class="sxs-lookup"><span data-stu-id="77364-118">**Request Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="fb495-119">**Cuerpo de la convocatoria** - ninguno.</span><span class="sxs-lookup"><span data-stu-id="fb495-119">**Request Body** - None.</span></span>
+ <span data-ttu-id="77364-119">**Cuerpo de la convocatoria** - ninguno.</span><span class="sxs-lookup"><span data-stu-id="77364-119">**Request Body** - None.</span></span>
   
- <span data-ttu-id="fb495-120">**Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.</span><span class="sxs-lookup"><span data-stu-id="fb495-120">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
+ <span data-ttu-id="77364-120">**Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.</span><span class="sxs-lookup"><span data-stu-id="77364-120">**Response** - The response includes an HTTP status code and a set of response headers.</span></span>
   
- <span data-ttu-id="fb495-121">**Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).</span><span class="sxs-lookup"><span data-stu-id="fb495-121">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
+ <span data-ttu-id="77364-121">**Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).</span><span class="sxs-lookup"><span data-stu-id="77364-121">**Status Code** - A successful operation returns status code 200 (OK).</span></span>
   
- <span data-ttu-id="fb495-122">**Encabezados de respuesta** - sin encabezados adicionales.</span><span class="sxs-lookup"><span data-stu-id="fb495-122">**Response Headers** - No additional headers.</span></span>
+ <span data-ttu-id="77364-122">**Encabezados de respuesta** - sin encabezados adicionales.</span><span class="sxs-lookup"><span data-stu-id="77364-122">**Response Headers** - No additional headers.</span></span>
   
- <span data-ttu-id="fb495-123">**Cuerpo de la respuesta** - a continuación es un estado de registro de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="fb495-123">**Response Body** - Below is a sample log status.</span></span>
+ <span data-ttu-id="77364-123">**Cuerpo de la respuesta** - a continuación es un estado de registro de ejemplo.</span><span class="sxs-lookup"><span data-stu-id="77364-123">**Response Body** - Below is a sample log status.</span></span>
   
 ```
 {

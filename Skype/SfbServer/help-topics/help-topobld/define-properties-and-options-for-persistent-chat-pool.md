@@ -1,8 +1,8 @@
 ---
 title: Definir propiedades y opciones para grupo de servidores de chat persistente
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,43 +13,43 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:'
-ms.openlocfilehash: 380a1e34e041368d4520cd5c8ecea5b18284ef51
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bfcd658ebf98f5447c218c37268d183b2b7bde39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226924"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930612"
 ---
-# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="e2fbe-103">Definir propiedades y opciones para grupo de servidores de chat persistente</span><span class="sxs-lookup"><span data-stu-id="e2fbe-103">Define Properties and Options for Persistent Chat Pool</span></span>
+# <a name="define-properties-and-options-for-persistent-chat-pool"></a><span data-ttu-id="e9b73-103">Definir propiedades y opciones para grupo de servidores de chat persistente</span><span class="sxs-lookup"><span data-stu-id="e9b73-103">Define Properties and Options for Persistent Chat Pool</span></span>
  
-<span data-ttu-id="e2fbe-104">Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="e2fbe-104">You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:</span></span>
+<span data-ttu-id="e9b73-104">Configurar opciones para el servidor de Chat persistente o grupo de servidores de Chat persistente mediante la definición de las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="e9b73-104">You configure options for your Persistent Chat Server or Persistent Chat Server pool by defining the following properties:</span></span>
   
- <span data-ttu-id="e2fbe-105">**Nombre para mostrar del grupo de Chat persistente**: una propiedad obligatoria que define un nombre descriptivo que se mostrará para este servidor de Chat persistente o grupo de servidores de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-105">**Display name of the Persistent Chat pool**: A required property that defines a user friendly name that will be displayed for this Persistent Chat Server or Persistent Chat Server pool.</span></span>
+ <span data-ttu-id="e9b73-105">**Nombre para mostrar del grupo de Chat persistente**: una propiedad obligatoria que define un nombre descriptivo que se mostrará para este servidor de Chat persistente o grupo de servidores de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e9b73-105">**Display name of the Persistent Chat pool**: A required property that defines a user friendly name that will be displayed for this Persistent Chat Server or Persistent Chat Server pool.</span></span>
   
- <span data-ttu-id="e2fbe-106">**Puerto de Chat persistente**: una propiedad obligatoria que definirá el puerto de número que este servidor de Chat persistente o grupo de servidores de Chat persistente escuchará en.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-106">**Persistent Chat port**: A required property that will define the port number that this Persistent Chat Server or Persistent Chat Server pool will listen on.</span></span>
+ <span data-ttu-id="e9b73-106">**Puerto de Chat persistente**: una propiedad obligatoria que definirá el puerto de número que este servidor de Chat persistente o grupo de servidores de Chat persistente escuchará en.</span><span class="sxs-lookup"><span data-stu-id="e9b73-106">**Persistent Chat port**: A required property that will define the port number that this Persistent Chat Server or Persistent Chat Server pool will listen on.</span></span>
   
- <span data-ttu-id="e2fbe-107">**Habilitar cumplimiento**: Active la casilla de verificación si tiene previsto implementar la característica de cumplimiento de normas de Chat persistente opcional y una base de datos.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-107">**Enable compliance**: Select the check box if you plan to deploy and implement the optional Persistent Chat compliance feature and database.</span></span>
+ <span data-ttu-id="e9b73-107">**Habilitar cumplimiento**: Active la casilla de verificación si tiene previsto implementar la característica de cumplimiento de normas de Chat persistente opcional y una base de datos.</span><span class="sxs-lookup"><span data-stu-id="e9b73-107">**Enable compliance**: Select the check box if you plan to deploy and implement the optional Persistent Chat compliance feature and database.</span></span>
   
- <span data-ttu-id="e2fbe-108">**Usar copia de seguridad de SQL Server almacena para habilitar la recuperación ante desastres**: seleccione esta casilla de verificación si tiene previsto implementar y la recuperación ante desastres de Persistent Chat SQL Server se almacena en un conjunto de copia de seguridad configurado de almacenes en otro servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-108">**Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server.</span></span> <span data-ttu-id="e2fbe-109">Para obtener información detallada, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span><span class="sxs-lookup"><span data-stu-id="e2fbe-109">For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span></span>
-  
-> [!NOTE]
-> <span data-ttu-id="e2fbe-110">Esta opción solamente está disponible para grupos de servidores con varios servidores.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-110">This option is available only for pools with multiple servers.</span></span> 
-  
- <span data-ttu-id="e2fbe-111">**Utilizar este grupo de servidores como predeterminado para el sitio \<sitio que este servidor o grupo de servidores se configura en\>**: seleccione esta casilla de verificación si se trata de la predeterminada del servidor de Chat persistente o grupo de servidores de Chat persistente para el sitio.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-111">**Use this pool as default for the site \<site that this server or pool is being configured in\>**: Select this check box if this will be the default Persistent Chat Server or Persistent Chat Server pool for the site.</span></span> <span data-ttu-id="e2fbe-112">Debe tener un servidor de Chat persistente predeterminado o pol por sitio.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-112">You must have one default Persistent Chat server or pol per site.</span></span>
+ <span data-ttu-id="e9b73-108">**Usar copia de seguridad de SQL Server almacena para habilitar la recuperación ante desastres**: seleccione esta casilla de verificación si tiene previsto implementar y la recuperación ante desastres de Persistent Chat SQL Server se almacena en un conjunto de copia de seguridad configurado de almacenes en otro servidor SQL Server.</span><span class="sxs-lookup"><span data-stu-id="e9b73-108">**Use backup SQL Server stores to enable disaster recovery**: Select this check box if you plan to deploy and implement disaster recovery of the Persistent Chat SQL Server stores from a configured backup set of stores on another SQL Server.</span></span> <span data-ttu-id="e9b73-109">Para obtener información detallada, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span><span class="sxs-lookup"><span data-stu-id="e9b73-109">For details, see [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="e2fbe-113">Si la topología incluye varios sitios, también aparecerá una casilla **Usar este grupo como predeterminado para todos los sitios**.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-113">If your topology includes multiple sites, a checkbox for **Use this pool as default for all sites** is also displayed.</span></span>
+> <span data-ttu-id="e9b73-110">Esta opción solamente está disponible para grupos de servidores con varios servidores.</span><span class="sxs-lookup"><span data-stu-id="e9b73-110">This option is available only for pools with multiple servers.</span></span> 
   
-<span data-ttu-id="e2fbe-114">Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-114">Click **Back** to go back to the previous pool definition dialog.</span></span>
+ <span data-ttu-id="e9b73-111">**Utilizar este grupo de servidores como predeterminado para el sitio \<sitio que este servidor o grupo de servidores se configura en\>**: seleccione esta casilla de verificación si se trata de la predeterminada del servidor de Chat persistente o grupo de servidores de Chat persistente para el sitio.</span><span class="sxs-lookup"><span data-stu-id="e9b73-111">**Use this pool as default for the site \<site that this server or pool is being configured in\>**: Select this check box if this will be the default Persistent Chat Server or Persistent Chat Server pool for the site.</span></span> <span data-ttu-id="e9b73-112">Debe tener un servidor de Chat persistente predeterminado o pol por sitio.</span><span class="sxs-lookup"><span data-stu-id="e9b73-112">You must have one default Persistent Chat server or pol per site.</span></span>
   
-<span data-ttu-id="e2fbe-115">Haga clic en **siguiente** cuando haya terminado de introducir las opciones de este grupo de servidores proceder con la definición de grupo de servidores de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-115">Click **Next** after you have finished entering the options for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
+> [!NOTE]
+> <span data-ttu-id="e9b73-113">Si la topología incluye varios sitios, también aparecerá una casilla **Usar este grupo como predeterminado para todos los sitios**.</span><span class="sxs-lookup"><span data-stu-id="e9b73-113">If your topology includes multiple sites, a checkbox for **Use this pool as default for all sites** is also displayed.</span></span>
   
-<span data-ttu-id="e2fbe-116">Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asistente **Definir nuevo grupo de chat persistente**.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-116">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+<span data-ttu-id="e9b73-114">Haga clic en **Atrás** para retroceder al cuadro de diálogo anterior de definición del grupo de servidores.</span><span class="sxs-lookup"><span data-stu-id="e9b73-114">Click **Back** to go back to the previous pool definition dialog.</span></span>
   
-<span data-ttu-id="e2fbe-117">Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.</span><span class="sxs-lookup"><span data-stu-id="e2fbe-117">Click **Help** to access context sensitive help, such as this page.</span></span>
+<span data-ttu-id="e9b73-115">Haga clic en **siguiente** cuando haya terminado de introducir las opciones de este grupo de servidores proceder con la definición de grupo de servidores de servidor de Chat persistente.</span><span class="sxs-lookup"><span data-stu-id="e9b73-115">Click **Next** after you have finished entering the options for this pool to proceed with the Persistent Chat Server pool definition.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="e2fbe-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="e2fbe-118">See also</span></span>
+<span data-ttu-id="e9b73-116">Haga clic en **Cancelar** para descartar todos los cambios y finalizar el asistente **Definir nuevo grupo de chat persistente**.</span><span class="sxs-lookup"><span data-stu-id="e9b73-116">Click **Cancel** to discard all changes and end the **Define New Persistent Chat Pool** wizard.</span></span>
+  
+<span data-ttu-id="e9b73-117">Haga clic en **Ayuda** para obtener acceso a la ayuda contextual, como esta página.</span><span class="sxs-lookup"><span data-stu-id="e9b73-117">Click **Help** to access context sensitive help, such as this page.</span></span>
+  
+## <a name="see-also"></a><span data-ttu-id="e9b73-118">Vea también</span><span class="sxs-lookup"><span data-stu-id="e9b73-118">See also</span></span>
 
-[<span data-ttu-id="e2fbe-119">Planificar el servidor de chat persistente en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e2fbe-119">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[<span data-ttu-id="e9b73-119">Planificar el servidor de chat persistente en Skype Empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e9b73-119">Plan for Persistent Chat Server in Skype for Business Server 2015</span></span>](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[<span data-ttu-id="e2fbe-120">Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e2fbe-120">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[<span data-ttu-id="e9b73-120">Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015</span><span class="sxs-lookup"><span data-stu-id="e9b73-120">Add Persistent Chat Server to your Skype for Business Server 2015 topology</span></span>](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
