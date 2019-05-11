@@ -1,8 +1,8 @@
 ---
 title: Certificado pendiente (devuelto)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,21 +13,21 @@ localization_priority: Normal
 ms.assetid: 3ee3f595-947a-41c4-acb8-036336b4f17e
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página de estado de la solicitud de certificado en línea, devuelve el estado actual del certificado. Si el certificado todavía está en un estado pendiente de aprobación con el Administrador de la entidad de certificación, que es, si no tiene todavía se ha aprobado, el estado se indicará que aún se está procesando el certificado.
-ms.openlocfilehash: 6ee8a4d49b6a15c60e86f5bd9e92f0e97a95337d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a24ee8713a37a87258bd6b1e2cfff29712f8b4e2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216441"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893983"
 ---
-# <a name="pending-certificate-returned"></a><span data-ttu-id="a76e3-104">Certificado pendiente (devuelto)</span><span class="sxs-lookup"><span data-stu-id="a76e3-104">Pending Certificate (Returned)</span></span>
+# <a name="pending-certificate-returned"></a><span data-ttu-id="ac5af-104">Certificado pendiente (devuelto)</span><span class="sxs-lookup"><span data-stu-id="ac5af-104">Pending Certificate (Returned)</span></span>
  
-<span data-ttu-id="a76e3-105">La página de **Estado de la solicitud de certificado en línea** , devuelve el estado actual del certificado.</span><span class="sxs-lookup"><span data-stu-id="a76e3-105">The **Online Certificate Request Status** page returns the current status of the certificate.</span></span> <span data-ttu-id="a76e3-106">Si el certificado todavía está en un estado pendiente de aprobación con el Administrador de la entidad de certificación, que es, si no tiene todavía se ha aprobado, el estado se indicará que aún se está procesando el certificado.</span><span class="sxs-lookup"><span data-stu-id="a76e3-106">If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
+<span data-ttu-id="ac5af-105">La página de **Estado de la solicitud de certificado en línea** , devuelve el estado actual del certificado.</span><span class="sxs-lookup"><span data-stu-id="ac5af-105">The **Online Certificate Request Status** page returns the current status of the certificate.</span></span> <span data-ttu-id="ac5af-106">Si el certificado todavía está en un estado pendiente de aprobación con el Administrador de la entidad de certificación, que es, si no tiene todavía se ha aprobado, el estado se indicará que aún se está procesando el certificado.</span><span class="sxs-lookup"><span data-stu-id="ac5af-106">If the certificate is still in a pending approval state with the certification authority administrator—that is, if it has not yet been approved—the status will indicate that the certificate is still being processed.</span></span>
   
-<span data-ttu-id="a76e3-107">Si se ha aprobado la solicitud pendiente y la recuperación del certificado es correcta, el estado indicará que se ha asignado un certificado para el almacén de certificados local, y el panel de estado también mostrará la huella digital del certificado.</span><span class="sxs-lookup"><span data-stu-id="a76e3-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
+<span data-ttu-id="ac5af-107">Si se ha aprobado la solicitud pendiente y la recuperación del certificado es correcta, el estado indicará que se ha asignado un certificado para el almacén de certificados local, y el panel de estado también mostrará la huella digital del certificado.</span><span class="sxs-lookup"><span data-stu-id="ac5af-107">If the pending request has been approved and the retrieval of the certificate is successful, the status will indicate that a certificate has been assigned to the local certificate store, and the status pane will also display the certificate thumbprint.</span></span>
   
-<span data-ttu-id="a76e3-108">Si el Administrador de la entidad de certificación deniega la solicitud de certificado, el panel de estado informará que se ha denegado la solicitud del certificado pendiente con un identificador dado (mantenido por la entidad de certificación).</span><span class="sxs-lookup"><span data-stu-id="a76e3-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
+<span data-ttu-id="ac5af-108">Si el Administrador de la entidad de certificación deniega la solicitud de certificado, el panel de estado informará que se ha denegado la solicitud del certificado pendiente con un identificador dado (mantenido por la entidad de certificación).</span><span class="sxs-lookup"><span data-stu-id="ac5af-108">If the certification authority administrator denies the certificate request, the status pane will report that the request of the pending certificate with a given ID (maintained by the certification authority) is denied.</span></span>
   
-<span data-ttu-id="a76e3-109">Haga clic en **Finalizar** para completar el procesamiento de certificado pendiente.</span><span class="sxs-lookup"><span data-stu-id="a76e3-109">Click **Finish** to complete the pending certificate processing.</span></span>
+<span data-ttu-id="ac5af-109">Haga clic en **Finalizar** para completar el procesamiento de certificado pendiente.</span><span class="sxs-lookup"><span data-stu-id="ac5af-109">Click **Finish** to complete the pending certificate processing.</span></span>
   
 
