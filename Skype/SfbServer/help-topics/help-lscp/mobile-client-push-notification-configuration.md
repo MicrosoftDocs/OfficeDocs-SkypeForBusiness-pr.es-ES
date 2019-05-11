@@ -1,8 +1,8 @@
 ---
 title: Configuración de notificación de inserción de clientes móviles
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 description: Para configurar las notificaciones de inserción de Microsoft y las notificaciones de inserción de Apple, debe crear una directiva para definir los tipos de notificaciones de inserción que requieren.
-ms.openlocfilehash: 0c36696e8dbc26616a7b17918c63f3f40ab36fab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d815bb271b35c93a9c8467a4d4ffa522834291ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220308"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911005"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Cliente móvil: Configuración de notificaciones de inserción
  

@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de servidores de archivado
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el Generador de topologías puede ejecutar tareas relacionadas con un determinado servidor de archivado. Para ello, haga clic con el botón secundario en Servidor de archivado en el árbol de consola, haga clic en Acción en la barra de herramientas o haga clic en una tarea del panel Acciones y, luego, haga clic en la siguiente opción de servidor de archivado.
-ms.openlocfilehash: e6233c42576b6346852146b9a58ccc06d0df4e25
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1bfbeb011db065a75914c5891938aae78f124da3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220722"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887149"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  

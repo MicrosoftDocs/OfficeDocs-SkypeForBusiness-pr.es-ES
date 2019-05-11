@@ -1,8 +1,8 @@
 ---
 title: Seleccionar regiones
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1b79b214-cc7b-4686-b7e2-f451910335fd
 description: Use el cuadro de diálogo Seleccionar regiones para buscar las regiones disponibles en su entorno. Para usar una región existente, haga clic en una región de la lista y, a continuación, en Aceptar.
-ms.openlocfilehash: c05ceff5d617817b4870cfdc8744559e91d6939f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b2db18147143b43aa07fd82fa5ab474012ac08c9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200523"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924678"
 ---
 # <a name="select-regions"></a>Seleccionar regiones
  

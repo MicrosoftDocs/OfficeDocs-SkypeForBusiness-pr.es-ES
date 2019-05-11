@@ -5,20 +5,20 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Obtenga información sobre cómo administrar y configurar los dominios SIP que se pueden federar con,
-ms.openlocfilehash: 83623b41e0d9adb1e4539958344214fd2ebe0db9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa793c5380c4baaa18876bfa2e2891a8260670dd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199836"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903176"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Administrar dominios federados SIP para su organización en Skype para Business Server
 
@@ -89,7 +89,7 @@ Para habilitar el acceso de usuarios federados, también debe habilitar la compa
 Además, debe configurar y aplicar la directiva a los usuarios que desea que puedan colaborar con los usuarios federados. Para obtener información detallada, vea [Configurar directivas de control de acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Configurar directivas para controlar el acceso de usuarios federados](../external-access-policies/configure-policies-to-control-federated-user-access.md)  
 

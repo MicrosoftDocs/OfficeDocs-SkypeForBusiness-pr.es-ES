@@ -1,8 +1,8 @@
 ---
 title: Vista ClientVersions
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: La vista ClientVersions almacena información acerca de los diversos tipos de cliente y las versiones que han participado en sesiones registradas en la base de datos. Cada registro en la vista representa una versión de cliente. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: abf1436a2c3309e95bec8371b586c017e11b816d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc4024a7e2644a177eb6962c8fdc7078fd6b397d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213399"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901525"
 ---
 # <a name="clientversions-view"></a>Vista ClientVersions
  

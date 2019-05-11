@@ -1,8 +1,8 @@
 ---
 title: Página de opción instalar base de datos de reflejo
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
-ms.openlocfilehash: 2a468333fff6cde69ce96eaf3d9170500bfb6648
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d6606b6fc69909297375529aebc48322cc51f959
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200232"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888621"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  

@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de registrador
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c7486ab3-61fd-45c6-9edc-a15535f273ff
 ROBOTS: NOINDEX, NOFOLLOW
 description: Resistencia proporciona una alta disponibilidad y recuperación ante desastres para el grupo de registrador. Al proporcionar un registrador de reserva en caso de que el registrador principal, la copia de seguridad puede adoptar el registrador para el registrador con errores, lo que permite a los usuarios iniciar sesión y comunicarse. Los usuarios pueden experimentar potencialmente funcionalidad reducida, dependiendo de lo que han producido un error de sistemas con el registrador principal.
-ms.openlocfilehash: dff7561a1e461283768601515a52207de1b4140b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0902c8490d650208c072ed7d2856738b9bd7f2c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235262"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906735"
 ---
 # <a name="registrar-settings-expander"></a>Expansor de configuración de registrador
  

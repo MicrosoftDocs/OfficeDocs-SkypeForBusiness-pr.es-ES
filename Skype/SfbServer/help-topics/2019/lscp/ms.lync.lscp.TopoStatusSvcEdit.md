@@ -1,8 +1,8 @@
 ---
 title: Topología Ver detalle del servicio
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0a5a0ce5-a191-42d1-acad-f8f17895305d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: ee014737833dda943a9ae451c6366a1aac7d06f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ec7005150f9a83d0aede94152ce03e2e4c9d2412
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215034"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891057"
 ---
 # <a name="topology-view-service-detail"></a>Topología: Ver detalle del servicio
 

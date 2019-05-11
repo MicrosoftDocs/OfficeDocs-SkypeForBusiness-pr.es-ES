@@ -1,8 +1,8 @@
 ---
 title: Flujo de trabajo de grupos de respuesta
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e4ee8abb-e1e5-413c-919d-cd3fb7193840
 ROBOTS: NOINDEX, NOFOLLOW
 description: Grupos de respuesta constan de grupos de agentes, colas y flujos de trabajo. Los flujos de trabajo de grupo de respuesta definen las acciones que se toman cuando la aplicación de grupo de respuesta recibe una llamada de teléfono.
-ms.openlocfilehash: fad6e7ac71e36f89df712054d1322f8150bc1083
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b223227ae91bf2cae19d4d46da2206e74a492a40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215139"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891043"
 ---
 # <a name="response-groups-workflow"></a>Flujo de trabajo de grupos de respuesta
 

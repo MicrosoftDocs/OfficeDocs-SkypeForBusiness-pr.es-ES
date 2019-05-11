@@ -1,8 +1,8 @@
 ---
 title: Agregar FQDN de puerta de enlace de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 268e718c-9b8c-458a-b3b9-853f49994e5b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: 3ea10d8368eb64d45badee9ef1722292a203b738
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ec0830585ce1cea00c7a180573e335e2d1871a31
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201966"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912179"
 ---
 # <a name="add-video-gateway-fqdn"></a>Agregar FQDN de puerta de enlace de vídeo
  

@@ -1,8 +1,8 @@
 ---
 title: Nueva regla de traducción de números de llamada
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede usar la nueva configuración de tronco: nueva regla de conversión de número de llamada para crear una nueva regla de conversión. Para obtener información detallada sobre las reglas de traducción, consulte los siguientes temas:'
-ms.openlocfilehash: d29630a847735cb631295da1ef926bea09c62926
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2d1212ef58ad430ba6bc493cc249f785592205f4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221154"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890378"
 ---
 # <a name="new-calling-number-translation-rule"></a>Nueva regla de traducción de números de llamada
 

@@ -1,8 +1,8 @@
 ---
 title: Eliminar una configuración de Skype para Business Server de reunión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Resumen: Obtenga información sobre cómo eliminar una configuración de Skype para Business Server de reunión.'
-ms.openlocfilehash: 47cde99751c90b71a52b70a0bde9aaf15acf0154
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2fbb278745eba392016b163be8f59a3abb07b47d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222761"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919384"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Eliminar una configuración de Skype para Business Server de reunión
  

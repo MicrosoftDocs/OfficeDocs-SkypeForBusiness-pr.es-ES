@@ -1,7 +1,7 @@
 ---
 title: Definir escenarios de uso para Microsoft Teams
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b809a2db9da32915ec9bade59b346a4874c2fa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4fdd30bb6e31b88af6099d28d17acbab61080b05
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227166"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896275"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definir escenarios de uso para Microsoft Teams
 

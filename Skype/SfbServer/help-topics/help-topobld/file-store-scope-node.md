@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito del almacén de archivos
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) y los grupos de servidores dependientes de este almacén de archivos. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: f793b7779486ea788f00780c697bf39e9a150a15
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 706f7442f32f2dcee341bb8f13b29b5dfaa22022
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194073"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911920"
 ---
 # <a name="file-store-scope-node"></a>Nodo de ámbito del almacén de archivos
  

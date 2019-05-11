@@ -1,8 +1,8 @@
 ---
 title: Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
 description: Para la recuperación ante desastres, Skype para Business Server ofrece el emparejamiento con conmutación por error en caso de funcionar un grupo de servidores del grupo de servidores.
-ms.openlocfilehash: 56108fe2187b37fd6f3094d68a8cc89bac436bea
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9d35ecde963cbee72bb23294f0e5b02dc1477b12
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214099"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910301"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
  

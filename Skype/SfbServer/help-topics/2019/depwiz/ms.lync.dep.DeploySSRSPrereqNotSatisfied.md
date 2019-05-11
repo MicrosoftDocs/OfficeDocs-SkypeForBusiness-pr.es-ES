@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (requisitos previos no satisfechos)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: b6be29df-b882-4ba8-ba40-8062eb3bb14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta página aparecerá si en la infraestructura no se ha implementado ningún servidor de supervisión. Eso indica que no se han cumplido los requisitos mínimos para implementar informes de servidores de supervisión.
-ms.openlocfilehash: 38766ec5d59df7777a0673c8ec447eda023218fb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 5364450f920df40450e3ae57e0a5eb87be84fc48
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215972"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892030"
 ---
 # <a name="sql-server-reporting-services-prerequisites-not-satisfied"></a>SQL Server Reporting Services (requisitos previos no satisfechos)
 

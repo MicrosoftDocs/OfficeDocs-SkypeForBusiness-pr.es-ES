@@ -1,8 +1,8 @@
 ---
 title: Instalar y configurar nodos de monitor
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/20/2015
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
 description: 'Resumen: Instale y configure los nodos de monitor para Skype para las transacciones sintéticas Business Server.'
-ms.openlocfilehash: 6abaf800d2ef99f8b7a8a487f20529ad76fb996e
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 5a4733175352af8c18cab20f7f8649c53275be7f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879430"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904205"
 ---
 # <a name="install-and-configure-watcher-nodes"></a>Instalar y configurar nodos de monitor
  

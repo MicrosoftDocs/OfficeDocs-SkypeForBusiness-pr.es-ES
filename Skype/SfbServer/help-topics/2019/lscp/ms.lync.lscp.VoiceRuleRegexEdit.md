@@ -1,8 +1,8 @@
 ---
 title: Tipo de regla de traducción una expresión Regular
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'En este campo de patrón de coincidencia, especifique el patrón que se usará para hacer coincidir los números que se va a traducir. En el campo regla de conversión, especifique un patrón para el formato de los números convertidos. '
-ms.openlocfilehash: d75bde018b0a16ab3fb8e505d5ae8d0bc2d4604f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 11b9d99e0e4899c17cdf91ed9f94c00dae94d43a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221507"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890448"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Regla de conversión: Escribir una expresión regular
  

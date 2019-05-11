@@ -1,8 +1,8 @@
 ---
 title: Àmbito de puertas de enlace de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a3adee56-819e-48a5-a5a8-673eca45ec16
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: a90b13d4d53187c6b9d898f79f918ed5357f68b3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a68fe879c0ddcc265101f98968bea666c987095f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201469"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921002"
 ---
 # <a name="video-gateways-scope"></a>Àmbito de puertas de enlace de vídeo
  

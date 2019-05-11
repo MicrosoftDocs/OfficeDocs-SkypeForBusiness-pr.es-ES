@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de los servidores de Office Web Apps
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
 description: Para abrir el asistente de Office Online, haga clic con el botón secundario en Servidores de Office Web Apps y seleccione Nuevo servidor de Office Web Apps.
-ms.openlocfilehash: f566f8f8f92335af66ee99cc4c96def7ad08439b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 062faabe4c3523fe2670d7009012eba0ff539988
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219320"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910900"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Nodo de ámbito de los servidores de Office Web Apps
 

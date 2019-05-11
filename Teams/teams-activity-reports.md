@@ -2,7 +2,7 @@
 title: Use los informes de actividades de Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
-manager: lolaj
+manager: serdars
 ms.date: 04/17/2018
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: Obtenga información sobre cómo utilizar los informes de actividad para ver cómo los usuarios de su organización usa Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ff7104a6991ad940ad4082e1b3d24c36c3392582
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 202e40439c874aec493b96f8707ff218423d2339
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632309"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894355"
 ---
 <a name="use-activity-reports-for-microsoft-teams"></a>Use los informes de actividades de Microsoft Teams 
 ========================================

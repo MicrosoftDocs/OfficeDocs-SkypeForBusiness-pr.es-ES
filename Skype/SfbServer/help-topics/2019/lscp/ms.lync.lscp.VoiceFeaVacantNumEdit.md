@@ -1,8 +1,8 @@
 ---
 title: Número de teléfono sin asignar crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 58903e40-6b93-40d6-88f8-1201743cd9be
 ROBOTS: NOINDEX, NOFOLLOW
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: 89990e7ec0de5f2f4423b4c2862518a8c46dae63
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+ms.openlocfilehash: 84db35252916a67e8bae8c0b3198928f60a6c4e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835315"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890665"
 ---
 # <a name="unassigned-phone-number-create-new-or-edit-existing"></a>Número de teléfono sin asignar: Crear nuevos o editar los existentes
 

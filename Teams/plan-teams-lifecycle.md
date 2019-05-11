@@ -1,7 +1,7 @@
 ---
 title: Plan para la administración del ciclo de vida en Teams - Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 09/26/2018
 ms.topic: reference
@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13bc149b14348e062cb370bf1fd88ddf7e0bdb8c
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 913ae5315a8b2adae8043584e3cf6621f3650ad3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402488"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902443"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Plan para la administración del ciclo de vida en Teams
 

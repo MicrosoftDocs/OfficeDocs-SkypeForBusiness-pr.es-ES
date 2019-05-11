@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de CMS
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4b882923-ed6f-44f3-ad9c-aabad5a3bc00
 description: El servidor de administración central se puede cambiar de un grupo de servidores front-end definido a otro. Para cambiar la ubicación del servidor de administración central, seleccione el grupo de servidores front-end de la lista desplegable en Servidor front-end en el que se instalará el servidor de administración central. Un servidor front-end puede pertenecer a un grupo de servidores front-end Enterprise Edition o ser un servidor front-end Standard Edition.
-ms.openlocfilehash: 2808f71bf0bef6cdcc3521f879e6755a8f540f5e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ad758859688f0e9880fff7bec5c845526b3ddf65
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226839"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903771"
 ---
 # <a name="cms-settings-expander"></a>Expansor de configuración de CMS
  

@@ -1,8 +1,8 @@
 ---
 title: Configuración del próximo salto del servidor de interoperabilidad de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: 9c10ac5f05fb88ce41699e890dd116013e78fde8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 831d6817375534dc8165c796bfa2b6f899bb12f1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235209"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33921037"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configuración del próximo salto del servidor de interoperabilidad de vídeo
  

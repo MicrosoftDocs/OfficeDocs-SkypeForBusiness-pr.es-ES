@@ -1,8 +1,8 @@
 ---
 title: Lista de certificados
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Para asignar un certificado, seleccione uno en el almacén de certificados local. Haga clic en Siguiente para continuar.
-ms.openlocfilehash: f48f65cae587b7fa0b2dfe278978649db37ccf95
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: db96d46537267feb0234e44eacccf78157629725
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216483"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893962"
 ---
 # <a name="certificate-list"></a>Lista de certificados
  

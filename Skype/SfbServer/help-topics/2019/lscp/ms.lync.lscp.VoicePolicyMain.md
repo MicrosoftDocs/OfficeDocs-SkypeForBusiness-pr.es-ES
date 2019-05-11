@@ -1,8 +1,8 @@
 ---
 title: Directiva de voz
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5c0bfce3-2ba0-4006-b5f2-415e03e54dbe
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 691114c25c65d992ed26c0d15d5b7eec066d39aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a9fed42fe6b126070bf024b71b9bd6b00b027d57
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221253"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890539"
 ---
 # <a name="voice-policy"></a>Directiva de voz
 

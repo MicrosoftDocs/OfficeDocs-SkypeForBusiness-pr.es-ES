@@ -1,8 +1,8 @@
 ---
 title: Instalar invocación de almacén de configuración local (configurar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92dccbca-7a5b-4064-9f2e-964b8e62433c
 description: Para comenzar la instalación de la base de datos que contendrá la copia local de sólo lectura del almacén de Administración Central, seleccione uno de recuperar la configuración definida publicada mediante Topology Builder desde la Central ya instalado y configurado Almacén de administración, o leer la configuración definida de otro medio. Para un equipo que se encuentra en la red interna de la organización, seleccione recuperar la configuración automáticamente en el almacén de Administración Central.
-ms.openlocfilehash: d8577e6eb18d57669657afb93ed07da37ffa31cd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e9a5744d9a73c1f7263a78f3852d5915f5703066
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235075"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910984"
 ---
 # <a name="install-local-configuration-store-invoke-configure"></a>Instalar invocación de almacén de configuración local (configurar)
  

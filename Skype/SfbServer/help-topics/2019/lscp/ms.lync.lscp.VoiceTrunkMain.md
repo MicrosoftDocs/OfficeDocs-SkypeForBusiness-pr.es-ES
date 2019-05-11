@@ -1,8 +1,8 @@
 ---
 title: Configuración del tronco
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 13c872500511004487d7072ed08e7ab7ca6b4ada
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 97da271a89c938e9c1af63f97ffaaa27965b44b4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221176"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890336"
 ---
 # <a name="trunk-configuration"></a>Configuración del tronco
 

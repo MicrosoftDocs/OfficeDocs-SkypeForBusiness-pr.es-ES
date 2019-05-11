@@ -1,8 +1,8 @@
 ---
 title: Dial-in Conferencing (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para conferencias de acceso telefónico Business Server permite a los usuarios unirse al audio de una Skype para conferencia de Business Server mediante el uso de un teléfono de telefónica conmutada (RTC) sin necesidad de un proveedor de conferencia de audio de terceros.
-ms.openlocfilehash: 2e8e70f84358c1f5223149a8ad44be2e14156584
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 769c117cf5cde412b7ca61280ca80257105b7849
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221063"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889531"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Dial-in Conferencing (Planning Tool)
  

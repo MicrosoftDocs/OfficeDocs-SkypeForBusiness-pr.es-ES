@@ -1,8 +1,8 @@
 ---
 title: Los usuarios ver o configuración directiva de versión de cliente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 446915b6-462e-4cc1-8584-9f59f7eb8cc8
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 1a9dfc14ea0d08f40e77a2251dbda9807c83637b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62ab173d3da0d49045cdfdb70b962a305b0c9194
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220167"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924293"
 ---
 # <a name="users-view-or-configure-client-version-policy"></a>Usuarios: Ver o configurar directiva de versión de clientes
 

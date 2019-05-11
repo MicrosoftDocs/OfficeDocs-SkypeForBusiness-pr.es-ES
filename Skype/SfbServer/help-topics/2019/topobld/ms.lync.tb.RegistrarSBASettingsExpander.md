@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración SBA de registrador
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Editar la configuración de resistencia y configure las siguientes propiedades:'
-ms.openlocfilehash: 35cff0566286f61a5d3dcedaf719da0e4e7eefcb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 48d5219d690a383ba46065a1287efbadcb455fef
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201611"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919797"
 ---
 # <a name="registrar-sba-settings-expander"></a>Expansor de configuración SBA de registrador
 

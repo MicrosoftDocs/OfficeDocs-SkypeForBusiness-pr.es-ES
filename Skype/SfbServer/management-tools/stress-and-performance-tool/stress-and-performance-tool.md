@@ -1,9 +1,10 @@
 ---
 title: Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 4/6/2016
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Se usa el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento durante la planeación de la capacidad y la optimización del rendimiento en entornos de prueba o que no sea de producción.
-ms.openlocfilehash: 801a18b4c2cb31cad52cf2d57a661361788844f0
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7705e92c8389e0377e805bd7d8e09aee454d9160
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30875028"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33904576"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
@@ -41,7 +42,7 @@ La herramienta de rendimiento y esfuerzo pueden simular estos tipos de carga de 
   
 |||
 |:-----|:-----|
-|Instant Messaging (IM) y presencia  <br/> |Conferencias de audio  <br/> |
+|Instant Messaging (IM) y presencia  <br/> |Audioconferencia  <br/> |
 |Uso compartido de aplicaciones  <br/> |Voz sobre IP (VoIP), incluida la red telefónica conmutada simulación (PTSN)  <br/> |
 |Conferencia de acceso cliente Web  <br/> |Operador automático de conferencia  <br/> |
 |Grupos de respuesta  <br/> |Expansión de la lista de distribución  <br/> |

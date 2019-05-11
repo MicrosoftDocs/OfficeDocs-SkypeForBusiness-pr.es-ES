@@ -1,8 +1,8 @@
 ---
 title: Configuración general del servidor de interoperabilidad de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5c508eab-0b08-4fb2-b2b2-eca2eaf2053a
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: b0d1bd0c558edd13a73ace8ba1fc11d274d610ce
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 187e5b5b4d3b02e6acf4d37de7f8007c25d85047
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219018"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903395"
 ---
 # <a name="video-interop-server-general-settings"></a>Configuración general del servidor de interoperabilidad de vídeo
  

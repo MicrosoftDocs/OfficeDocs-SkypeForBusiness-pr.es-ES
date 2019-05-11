@@ -1,8 +1,8 @@
 ---
 title: Tabla Pools
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e0632b8d-e23a-4365-8a7a-6ca0957a46a9
 description: En la tabla de grupos de servidores es una tabla de apoyo que almacena información sobre el grupo de servidores distintos. Cada registro de la tabla representa un grupo de servidores.
-ms.openlocfilehash: 4cf6f6141ea54b97471c43cad90ea7692e526f06
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7ee9679fff4bd2467f6ab6af70c9bf9418a43703
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212862"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33930563"
 ---
 # <a name="pools-table"></a>Tabla Pools
  

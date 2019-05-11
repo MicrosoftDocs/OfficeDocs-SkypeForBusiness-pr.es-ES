@@ -1,8 +1,8 @@
 ---
 title: Instalar los requisitos previos de Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/7/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Resumen: Obtenga información sobre los servidores y roles de servidor que debe configurar antes de instalar Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: 0efa8a7fb06c1577d1b55fe42bfe88ca238e485e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6a5b6728f65d1f541687cb55811157531c70456d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32210483"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891813"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Instalar los requisitos previos de Skype para Business Server
  

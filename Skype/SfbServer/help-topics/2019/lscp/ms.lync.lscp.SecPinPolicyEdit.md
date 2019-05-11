@@ -1,8 +1,8 @@
 ---
 title: Directiva de PIN crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 83d29695879fc5d931d4a8463941efe669d5158b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 09dbe2f0d8e817242c7edb6bf6ac1eb6bde1b486
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215307"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891036"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>Directiva de PIN: Crear nuevos o editar los existentes
 

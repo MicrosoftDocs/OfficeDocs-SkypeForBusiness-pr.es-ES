@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (resumen)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Resumen de solicitud de certificado muestra un resumen de todas las opciones y configuraciones del certificado. El resumen representa el contenido de la solicitud del certificado y, posteriormente, la forma en que se emitirá el certificado. Es conveniente examinar con atención el resumen para comprobar que sean correctas todas las entradas y opciones que seleccionó. Si las selecciones son correctas, haga clic en Siguiente para seguir generando la solicitud y prepararla para enviarla a la entidad de certificación.
-ms.openlocfilehash: da1d1ccaf7a3e998ee5365b7ed375eff9b8b8eae
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 043eea2040bd928448b3db93fa5727874d2fe16c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216308"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893821"
 ---
 # <a name="certificate-request-summary"></a>Solicitud de certificado (resumen)
  

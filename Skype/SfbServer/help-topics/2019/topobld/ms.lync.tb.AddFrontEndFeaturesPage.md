@@ -1,8 +1,8 @@
 ---
 title: Agregar características front-end
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
 ROBOTS: NOINDEX, NOFOLLOW
 description: Seleccione cada característica que desee habilitar para el grupo de servidores Front-End. Como mínimo, debe implementar la mensajería instantánea (mi), que siempre está habilitada y no se puede anular la selección. También tiene la opción de implementación de otras características, como conferencias, Enterprise Voice y control admisión de llamadas (CAC). Algunas características dependen de la topología.
-ms.openlocfilehash: 1657c85a4ee7361f7f1d2853ef14f60553eabd70
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 31d886d53db6fdfdd38f295233b55d6e96287f70
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32202085"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897726"
 ---
 # <a name="add-front-end-features"></a>Agregar características front-end
 

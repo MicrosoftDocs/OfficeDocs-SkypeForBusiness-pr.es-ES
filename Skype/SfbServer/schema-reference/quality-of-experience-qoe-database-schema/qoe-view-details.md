@@ -1,8 +1,8 @@
 ---
 title: Detalles de la vista QoE
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a658318-a317-4546-a44c-a9c473d8e86a
 description: Las vistas tratan los escenarios más comunes para devolver los datos de la base de datos SQL QoE. Se recomienda vistas usadas para generación de informes personalizados en lugar de obteniendo acceso directamente a las tablas de base de datos; Esto es debido a que las vistas son más probables mantener la compatibilidad con versiones futuras con versiones anteriores.
-ms.openlocfilehash: f384f75ecc0c8a0dfdb2cdaedacdcef81bdba9b4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2726900a1fc31c6e69571123c87137b3291a507e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212147"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924867"
 ---
 # <a name="qoe-view-details"></a>Detalles de la vista QoE
  

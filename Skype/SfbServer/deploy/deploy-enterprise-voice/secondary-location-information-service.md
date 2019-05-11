@@ -1,8 +1,8 @@
 ---
 title: Configuración de un servicio de información de ubicación secundario en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Configurar una base de datos de origen (SLS) ubicación secundaria para E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d5ff35be38030cc6081224e11431463e30696e4e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 047fd1a7dca0c4c2b76d01fd0c5d67230246441e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222987"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892296"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Configuración de un servicio de información de ubicación secundario en Skype para Business Server
  

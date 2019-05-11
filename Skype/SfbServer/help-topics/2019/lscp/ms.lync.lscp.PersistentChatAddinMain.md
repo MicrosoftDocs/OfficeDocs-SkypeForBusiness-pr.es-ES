@@ -1,8 +1,8 @@
 ---
 title: Página principal de complemento de chat persistente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede usar la sección de la página de Chat persistente para asociar las direcciones URL a salones de Chat persistente. Estas direcciones URL aparecen en el cliente, en el salón de chat, en el panel de extensibilidad de la conversación. Un administrador necesita agregar complementos a la lista de complementos registrados, y los administradores/creadores del salón de chat necesitan asociar los salones a uno de los complementos registrados para que los clientes puedan ver esta actualización en su cliente.
-ms.openlocfilehash: 3088e6294d94c20a8c5f568fabe9e0b326ed432d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90d29aad268187ad0ea4e7876f3f15e5ba24a020
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215454"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891386"
 ---
 # <a name="persistent-chat-add-in-main-page"></a>Página principal de complemento de chat persistente
 

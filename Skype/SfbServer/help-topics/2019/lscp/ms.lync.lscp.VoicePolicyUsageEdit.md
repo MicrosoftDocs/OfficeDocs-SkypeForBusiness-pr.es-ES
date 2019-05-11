@@ -1,8 +1,8 @@
 ---
 title: Directiva de voz crear nuevos o editar registro de uso de RTC existente
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 ROBOTS: NOINDEX, NOFOLLOW
 description: UNRESOLVED_TOKEN_VAL(¤bigfin_UI_help_intro)
-ms.openlocfilehash: 7dd8c61a27d4294b96e281a0f11eae33af6c32de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9c6eaacacb3d6556a274dc3ff514d44a2246ba0c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221232"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890574"
 ---
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>Directiva de voz: Crear nuevos o editar los existentes registros de uso de RTC
 

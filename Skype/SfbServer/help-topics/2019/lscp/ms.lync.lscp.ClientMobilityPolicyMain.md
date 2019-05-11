@@ -1,8 +1,8 @@
 ---
 title: Directiva de movilidad de clientes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 ROBOTS: NOINDEX, NOFOLLOW
 description: La página Clientesdirectiva muestra las directivas de movilidad disponibles en su implementación.
-ms.openlocfilehash: 6aa41d784f59767c62f2dc0d67440b8098009457
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 823fa8d4120841126c32ea6838086043ce18bcd2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215825"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891687"
 ---
 # <a name="clients-mobility-policy"></a>Clientes: directiva de movilidad
 

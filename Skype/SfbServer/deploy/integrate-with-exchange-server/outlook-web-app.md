@@ -1,8 +1,8 @@
 ---
 title: Configurar la integración entre local Skype para Business Server y Outlook Web App
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/7/2016
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Resumen: Integrar Skype para Business Server y Outlook Web App.'
-ms.openlocfilehash: 3bd5131fcdba3d3253021c711910b18f46e93ce4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 426dcb741e7e991e8ab06470f4b2e088aa0d866e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216651"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894228"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Configurar la integración entre local Skype para Business Server y Outlook Web App
 

@@ -1,9 +1,10 @@
 ---
 title: Planeación de movilidad de Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 2/17/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -11,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planeación de la implementación de movilidad de Skype para Business Server.
-ms.openlocfilehash: 6616560afbea5a2aed30fbf671035ae46d6ed8b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e981f7d9ac22739dc38bc48e574d96670536594b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213924"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907209"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planeación de movilidad de Skype para Business Server
  

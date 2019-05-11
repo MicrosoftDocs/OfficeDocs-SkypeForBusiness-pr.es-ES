@@ -1,7 +1,7 @@
 ---
 title: Crear una cola de llamada
-ms.author: jambirk
-author: jambirk
+ms.author: crowe
+author: CarolynRowe
 manager: serdars
 ms.reviewer: phans, wasseemh
 ms.topic: article
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Obtenga información sobre cómo configurar el sistema telefónico para las colas de llamadas en la nube para dar un saludo, música en espera, organizativas y redirigir las llamadas para llamar a los agentes en las listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: da178761658460812bc1d0330f3540be43c3e6e6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 844ea569da6f59def0ee4df7739456c1f10e7dff
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199322"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902874"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -66,7 +66,7 @@ Para comenzar a utilizar colas de llamadas, es importante recordar algunas cosas
 - Sólo debe obtener licencia para las cuentas de recursos con un número de teléfono que se les haya asignado. En una cola de llamada o de operador automático anidados, no es necesario para el resto de los operadores automáticos de licencia o colas de llamadas si no tienen números de teléfono asociados con ellos. 
 
 > [!NOTE] 
-> Operador automático de los números de servicio de enrutamiento directos para y colas de llamada se admiten para los agentes y los usuarios de Microsoft Teams sólo en el momento.
+> Números de servicio de enrutamiento directos para colas de operador y llamada automático se admiten para los usuarios de Microsoft Teams y sólo los agentes.
 
 > [!NOTE] 
 > Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como automáticos en la nube y las colas de llamadas, para ahora tiene que usar el modelo de licencias de usuario.

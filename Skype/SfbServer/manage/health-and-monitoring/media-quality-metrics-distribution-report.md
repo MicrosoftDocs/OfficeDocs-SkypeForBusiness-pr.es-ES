@@ -1,8 +1,8 @@
 ---
 title: El informe calidad de medios métricas distribución en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Resumen: Información sobre el informe calidad de medios métricas distribución en Skype para Business Server.'
-ms.openlocfilehash: 621619380db224faeadfb496e89ea6ec5337386c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65fc10e1adaa32c2538f49d7c41fe6ee45a51c1b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218969"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902274"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>El informe calidad de medios métricas distribución en Skype para Business Server 
  

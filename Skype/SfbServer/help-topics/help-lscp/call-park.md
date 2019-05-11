@@ -1,8 +1,8 @@
 ---
 title: Estacionamiento de llamadas
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/24/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Cuando una llamada está estacionada, se transfiere a un número temporal donde se mantiene la llamada hasta que alguien las recupera o se agota el tiempo. Debe configurar una tabla con los intervalos de números de extensión que desea reservar para llamadas estacionadas. Estas extensiones tienen que ser extensiones virtuales (es decir, extensiones que no tengan ningún usuario ni teléfono asignado). Cada grupo de servidores que se ejecuta la aplicación de estacionamiento de llamadas puede tener uno o más rangos de extensiones. Estos intervalos tienen que ser únicos en el nivel global en toda la implementación.
-ms.openlocfilehash: 2470d820b6536fdcd966e25d8719cd89903b4519
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 329b907c71c8125f3cfbf229d1f278f6807f3760
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197054"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912518"
 ---
 # <a name="call-park"></a>Estacionamiento de llamadas
 

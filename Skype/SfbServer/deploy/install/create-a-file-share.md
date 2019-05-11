@@ -1,8 +1,8 @@
 ---
 title: Crear un recurso compartido de archivos en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
 description: 'Resumen: Obtenga información sobre cómo crear un recurso compartido de archivos de Windows Server como parte de la instalación de Skype para Business Server. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: b92d85d375b76b43dcf65f01205c3826e5637905
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 36b965e829e3bd02e884f55127e202d1c27eff50
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238275"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891960"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Crear un recurso compartido de archivos en Skype para Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Implementar (instalar) un siempre en grupo de disponibilidad en su Skype para Business Server implementación.
-ms.openlocfilehash: fcdae233e81f7c2dde3f1bdb4a79f06c95f640d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f04c103d75f385d37804db3b7bf5786b1c14928d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225535"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894615"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Implementar un grupo de disponibilidad siempre en un servidor Back-End de Skype para Business Server
  

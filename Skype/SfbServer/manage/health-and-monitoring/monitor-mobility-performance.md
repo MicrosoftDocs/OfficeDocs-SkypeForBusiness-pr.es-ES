@@ -1,8 +1,8 @@
 ---
 title: Movilidad de Monitor de rendimiento en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Resumen: Obtenga información sobre el servicio de movilidad (Mcx) y la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
-ms.openlocfilehash: 476d03fa17cad163fa9426ca35853cfe29f87bb1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e2da6f073dc14268442e3c49273189b002eaadc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199731"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902836"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Movilidad de Monitor de rendimiento en Skype para Business Server
  

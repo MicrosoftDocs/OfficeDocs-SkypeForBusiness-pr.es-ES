@@ -1,8 +1,8 @@
 ---
 title: Comprobar replicación en el dominio
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/26/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 description: 'Para comprobar la replicación de la preparación del dominio lleva a cabo en el paso 1: preparar el esquema, es necesario ejecutar un cmdlet desde el Skype para Business Server Management Shell de Lync Server Management Shell. Para ejecutar el cmdlet de Windows PowerShell, inicie sesión en un equipo que sea miembro del dominio que ha preparado y como un miembro del grupo Administradores del dominio. Siga este procedimiento:'
-ms.openlocfilehash: 32a5a315566fcee07f7214c980843829ef8e229f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1fec5ece0bbc5372342ea12e43630f18cefbc440
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234876"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887107"
 ---
 # <a name="verify-replication-in-the-domain"></a>Comprobar replicación en el dominio
  

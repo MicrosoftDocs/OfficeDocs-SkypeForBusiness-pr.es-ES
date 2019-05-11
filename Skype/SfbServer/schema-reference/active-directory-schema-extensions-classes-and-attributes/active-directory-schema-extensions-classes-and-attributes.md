@@ -1,8 +1,8 @@
 ---
 title: Extensiones de esquema, clases y atributos de Active Directory
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2016
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Esta sección de referencia incluye la siguiente información:'
-ms.openlocfilehash: 37dee1a029a0d8872452082aebb9b8f0fcf2f072
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dc2d147791317134ee9abd3de723f1c53f8f625b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213406"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907120"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Extensiones de esquema, clases y atributos de Active Directory
  

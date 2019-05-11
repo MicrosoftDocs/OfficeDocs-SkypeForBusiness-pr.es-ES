@@ -1,8 +1,8 @@
 ---
 title: Implementar servidor de interoperabilidad vídeo en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bb7d2abd-d033-4d7d-b588-6d9228c3eccf
 description: 'Resumen: Implementación de la función de servidor de respecto de Skype para Business Server.'
-ms.openlocfilehash: 3f3c48279ba08ca124f11ac0fb90c457ae69ac9d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0576596d40def9470e46984c525a9add4423d1f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219632"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894566"
 ---
 # <a name="deploy-video-interop-server-in-skype-for-business-server"></a>Implementar servidor de interoperabilidad vídeo en Skype para Business Server
  

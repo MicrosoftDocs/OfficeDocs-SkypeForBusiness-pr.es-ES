@@ -1,8 +1,8 @@
 ---
 title: Informe de actividad de conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Resumen: Información sobre el informe de actividad de conferencia usadas en Skype para Business Server.'
-ms.openlocfilehash: 09ad67452c9c24aff8e0f67998b654ade8d929fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199916"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902779"
 ---
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype para Business Server
  

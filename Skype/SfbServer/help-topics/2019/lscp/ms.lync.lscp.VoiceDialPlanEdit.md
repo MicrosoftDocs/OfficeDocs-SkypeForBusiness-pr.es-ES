@@ -1,8 +1,8 @@
 ---
 title: Plan de marcado de crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 6ec36413e6e766618ab7b48e0fd8a674a4652cfa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b2846ca124c62cdfd23f82a5b0d16e4602eb4a4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221556"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33890833"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Plan de marcado: Crear nuevos o editar los existentes
 
