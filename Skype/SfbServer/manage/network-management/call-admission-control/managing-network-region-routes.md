@@ -1,20 +1,20 @@
 ---
 title: Administración de rutas de región de red
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Una ruta de región de red define la ruta entre un par de regiones de red. Cada par de regiones de red en su implementación de control de admisión de llamadas requiere una ruta de región de red.
-ms.openlocfilehash: 12e8d9072df3affdb6e47b6ddb0452e0ee5982a5
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 53b6383e08196fb22784f3fcd1e8d797c9b138de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898126"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33888852"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Administrar rutas de regiones de red en Skype Empresarial Server
 
@@ -134,7 +134,7 @@ Cada región dentro de una configuración de (CAC) del control de admisión de l
 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar regiones de red en Skype Empresarial Server](managing-network-regions.md)
 

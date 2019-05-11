@@ -1,8 +1,8 @@
 ---
 title: Planeación de conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 10add1ea-d693-406c-9dc9-853df0ab05da
 description: 'Resumen: Lea este tema para obtener más información acerca de las características de conferencia y funcionalidades en Skype para Business Server.'
-ms.openlocfilehash: cefd631f1750d7eaa4404a2fe2ffa8aa91675824
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a375976e0f2211e33270de6e7d36f1d6dcebcdbd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214382"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897404"
 ---
 # <a name="plan-for-conferencing-in-skype-for-business-server"></a>Planeación de conferencia en Skype para Business Server
  

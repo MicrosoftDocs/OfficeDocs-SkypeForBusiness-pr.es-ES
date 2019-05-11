@@ -1,8 +1,8 @@
 ---
 title: tblPrincipal
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 79a24502-b4ce-41f0-8979-8caddf535338
 description: la tabla tblPrincipal contiene a todas las entidades, incluidos los usuarios, carpetas y grupos.
-ms.openlocfilehash: adeb4e52ea9bd276de09d90945443431fb3be94f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c1b25cce9183a68a276dee6167052cdd068eecf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212519"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929885"
 ---
 # <a name="tblprincipal"></a>tblPrincipal
  

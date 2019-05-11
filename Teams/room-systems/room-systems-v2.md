@@ -1,7 +1,7 @@
 ---
 title: Implementación de salas de equipos de Microsoft
-ms.author: Turgayo
-author: Turgayo
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: Lea este artículo para obtener más información sobre la implementación de salas de equipos de Microsoft.
-ms.openlocfilehash: e17d607a18729cef23d98fbe9e9baf0144c50b3e
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 26a8a15f678c57e9e2f27b4aacde1577176a3840
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363023"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916554"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 

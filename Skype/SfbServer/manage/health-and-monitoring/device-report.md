@@ -1,8 +1,8 @@
 ---
 title: Informe de dispositivos en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Resumen: Información sobre el informe de dispositivos en Skype para Business Server.'
-ms.openlocfilehash: adb4293ec6d643d86f439e0458ae5352f1e49f3c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 27b67c75184a7c56e72c0d2ee5953f90e161f20d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199724"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926651"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Informe de dispositivos en Skype para Business Server
  

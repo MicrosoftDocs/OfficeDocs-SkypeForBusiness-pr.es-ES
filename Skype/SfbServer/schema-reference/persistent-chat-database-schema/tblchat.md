@@ -1,8 +1,8 @@
 ---
 title: tblChat
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat contiene todos los mensajes de chat.
-ms.openlocfilehash: 54e19fe729d9f96afb04d22a917864118de75efe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 77aa6ec803803a0f38e02c01167d0bbc5f090080
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212652"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929913"
 ---
 # <a name="tblchat"></a>tblChat
  

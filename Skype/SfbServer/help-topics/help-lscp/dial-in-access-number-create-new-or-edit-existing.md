@@ -1,8 +1,8 @@
 ---
 title: Número de acceso telefónico crear nuevos o editar los existentes
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/23/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: e43dcb15932da0ed973c093f16879832a90d7aa8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d2af5a39fa9ff3f113a1319ad81158eb8239bad7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200775"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913401"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de acceso telefónico local: Crear nuevo o editar existente
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar un vínculo de región de red
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a42d2185-efa5-4659-839b-5e67d80de2da
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 5391f96b49f0c3fe29da44781d5f51633de9d128
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 499b498fa4c7d0388aa62cfe4db74efafdf9b1c0
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234724"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929079"
 ---
 # <a name="configure-a-network-region-link"></a>Configurar un vínculo de región de red
 

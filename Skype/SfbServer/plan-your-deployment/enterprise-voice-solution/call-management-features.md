@@ -1,8 +1,8 @@
 ---
 title: Planeación de características de administración de llamadas de Skype para la empresa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Información general sobre las características de administración de llamadas admitidos de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 35e05a3b8c31efd21c8abb0e5d0a0f06a780cc66
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bc7e37034d61d9c5c6b8ab7a266382b8405fa6bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207044"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909270"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planeación de características de administración de llamadas de Skype para la empresa
 

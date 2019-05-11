@@ -1,7 +1,7 @@
 ---
 title: Actualización de Skype para empresarial local a los equipos de Microsoft | Implementar | Lync
-author: arachmanGitHub
-ms.author: arachman
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 78c69b8fb54a430269e63836ef430d63270841f8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a7c5c4bfe6cf1ecac0e37600854941741a837480
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211971"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911429"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
 

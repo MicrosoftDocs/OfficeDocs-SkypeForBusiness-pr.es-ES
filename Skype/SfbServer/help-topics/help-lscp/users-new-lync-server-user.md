@@ -1,8 +1,8 @@
 ---
 title: Los usuarios nuevo usuario de Lync Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: e6d6ce6995a10a2d3a13ca047bbdcc5d632c7822
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f717ff32d2ed7c6730602cf5d86784dd1a21ba5a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200418"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912137"
 ---
 # <a name="users-new-lync-server-user"></a>Usuarios: Nuevo usuario de Lync Server
 

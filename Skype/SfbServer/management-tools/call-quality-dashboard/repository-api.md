@@ -1,8 +1,8 @@
 ---
 title: API del depósito para el panel de calidad de llamada (CQD) en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Resumen: Obtenga información sobre la API del depósito para el panel de calidad de llamada. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 9181cd1454311bb5446bb18f51af56914387e7c3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: cc3e7709255ae8fce2821b6555b9bc230658565a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217659"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915272"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API del depósito para el panel de calidad de llamada (CQD) en Skype para Business Server
  

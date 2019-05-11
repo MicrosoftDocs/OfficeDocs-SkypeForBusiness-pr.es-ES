@@ -1,8 +1,8 @@
 ---
 title: Dominios federados creación nuevos o edición los existentes
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: ecfe5607b51fe8017b44ab5d22e400e948102d5d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d4a5793d20126df194820efe04abea98d9ff5f9d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216126"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891554"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Dominios federados: Crear nuevo o editar existente
 

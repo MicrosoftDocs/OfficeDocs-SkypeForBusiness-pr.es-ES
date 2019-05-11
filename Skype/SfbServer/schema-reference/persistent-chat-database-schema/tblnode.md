@@ -1,8 +1,8 @@
 ---
 title: tblNode
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 10/20/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a31d2961-aa83-4286-a12e-15d279c95f19
 description: tblNode contiene el árbol de objetos (con nodos de categoría o salón de chat) según se administra en el panel de control y los cmdlets administrativos.
-ms.openlocfilehash: c5028b138711b6f57c0e947ea41572fd9984b3fb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 333ea267c4e65f20d5c4dd15f115b40ec162e209
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212554"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929836"
 ---
 # <a name="tblnode"></a>tblNode
  

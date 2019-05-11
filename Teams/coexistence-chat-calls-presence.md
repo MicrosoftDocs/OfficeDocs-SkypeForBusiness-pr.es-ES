@@ -1,7 +1,7 @@
 ---
 title: Coexistencia con Skype Empresarial
-author: jambirk
-ms.author: francoid
+author: kenwith
+ms.author: kenwith
 manager: Serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -14,12 +14,12 @@ MS.collection:
 appliesto:
 - Microsoft Teams
 description: Este documento describe el comportamiento de chat, el enrutamiento de llamadas y presencia entre los usuarios de los equipos y Skype para la empresa, en el inquilino y federado, en función de los modos de TeamsUpgrade asignados. Incluye optimizaciones de enrutamiento, comportamiento de presencia, así como el cambio del modo de TeamsUpgrade predeterminado de *heredado* a *Islas* y la retirada inminente de *heredado*.
-ms.openlocfilehash: 44510afdf77510de447bcded2b8a2135b71557a1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3c88bd93805e6c2a33eb2f5c03ee04d4e7d55535
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198787"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929108"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Coexistencia con Skype Empresarial
 

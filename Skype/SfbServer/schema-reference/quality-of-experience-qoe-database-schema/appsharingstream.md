@@ -1,8 +1,8 @@
 ---
 title: Tabla AppSharingStream
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: En la tabla AppSharingStream contiene las métricas de calidad de la experiencia de las secuencias de red usadas para uso compartido de aplicaciones. En esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 8e01cc4d35269b34e3e6fba13fd331139e3f7ae7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e2a81cafb7c2e0ff0caffe19c6b4eaf7b5a8c94a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212344"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920050"
 ---
 # <a name="appsharingstream-table"></a>Tabla AppSharingStream
  

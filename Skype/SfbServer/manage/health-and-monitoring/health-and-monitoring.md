@@ -1,8 +1,8 @@
 ---
 title: Administrar el estado y supervisión de Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0b9b44c4-06ad-4b89-b87d-62448f936ab8
 description: 'Resumen: Obtenga información acerca de las tareas de configuración de supervisión y mantenimiento en Skype para Business Server.'
-ms.openlocfilehash: 10b81a6950e0f30e74d9d47c59223952d41ee7d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1cf8287549401c46dfa3b649c4ae4ddf63743fc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197488"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926616"
 ---
 # <a name="manage-health-and-monitoring-in-skype-for-business-server"></a>Administrar el estado y supervisión de Skype para Business Server
 

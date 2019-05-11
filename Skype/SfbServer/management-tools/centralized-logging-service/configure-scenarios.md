@@ -1,8 +1,8 @@
 ---
 title: Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Resumen: Obtenga información sobre cómo crear, modificar y eliminar los escenarios para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 453c9c593e53dca186b09e1ba835bc8f94bb7112
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 59821fd0feeed8895d4c0a201b6fdd3f5b4e62e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217680"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914978"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
  

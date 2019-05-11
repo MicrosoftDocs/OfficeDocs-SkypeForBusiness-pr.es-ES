@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (invocar)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4a4ba8d6-ba43-45b3-b834-372d092561e7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Después de proporcionar la información necesaria para la implementación del servidor de supervisión informa a Microsoft SQL Server 2008 R2 o para servicios de informe de Microsoft SQL Server 2012, la página ejecutar comandos muestra un resumen de los comandos que se emiten para instalar el informes de SQL Server Reporting Services.
-ms.openlocfilehash: 6457d17a3e8fff4d93aeedb5f7526c23ccc5b064
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4d0796a92e09f9bd067b2eb466ceef9c4a9846ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32216049"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892051"
 ---
 # <a name="sql-server-reporting-services-invoke"></a>SQL Server Reporting Services (invocar)
  

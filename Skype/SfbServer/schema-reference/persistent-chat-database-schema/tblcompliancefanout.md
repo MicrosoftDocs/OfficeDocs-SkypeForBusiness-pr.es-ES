@@ -1,8 +1,8 @@
 ---
 title: tblComplianceFanout
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f5d9f342-a7cb-4b54-baa6-e656256b75ad
 description: la tabla Compliancefanout contiene todos los servidores que procesan un evento de cumplimiento.
-ms.openlocfilehash: 7f24b1a78dab16b43036734e21d5a8a9b876ca7a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 002ffe3fd825dd90a5223dca06316ff3a60fddd9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212631"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929927"
 ---
 # <a name="tblcompliancefanout"></a>tblComplianceFanout
  

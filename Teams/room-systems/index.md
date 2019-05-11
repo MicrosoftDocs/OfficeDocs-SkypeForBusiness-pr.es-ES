@@ -1,8 +1,8 @@
 ---
 title: Salas de Microsoft Teams
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 layout: LandingPage
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Las consideraciones de planeación relevantes para la implementación de salas de equipos de Microsoft y cómo implementar y administrar el sistema.
-ms.openlocfilehash: 2a4f22f3520d2d0e27ef0aaf04bfd446da291be9
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 7a55b5ba8b682aed398daff1f373acba453110bc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363004"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916390"
 ---
 <h2>Salas de Microsoft Teams</h2>
 <ul class="panelContent cardsW cols cols2">

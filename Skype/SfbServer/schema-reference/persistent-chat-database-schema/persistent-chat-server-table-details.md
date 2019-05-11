@@ -1,8 +1,8 @@
 ---
 title: Detalles de la tabla del servidor de chat persistente
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de Chat persistente.
-ms.openlocfilehash: 5ee15bfab456f2e2e5c1ea535a1b521f9544a352
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c3ddebec52a05adcc05cc9f98c080c226b2b24ec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212673"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929899"
 ---
 # <a name="persistent-chat-server-table-details"></a>Detalles de la tabla del servidor de chat persistente
  

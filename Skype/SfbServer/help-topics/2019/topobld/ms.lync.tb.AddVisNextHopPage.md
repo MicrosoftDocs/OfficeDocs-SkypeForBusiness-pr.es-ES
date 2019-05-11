@@ -1,8 +1,8 @@
 ---
 title: Agregar próximo salto de VIS
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 8c25449d-375b-477b-b8d0-ed19e6775906
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: 683e1a7428a0ebb6ad268c5692efd1a6eb4566fd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: eeff799a8020bad5dcec8768a7baeed41cc57592
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220758"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906707"
 ---
 # <a name="add-vis-next-hop"></a>Agregar próximo salto de VIS
  

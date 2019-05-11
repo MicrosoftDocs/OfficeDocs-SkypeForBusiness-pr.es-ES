@@ -1,8 +1,8 @@
 ---
 title: Planeación de servidor de interoperabilidad vídeo en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con los dispositivos de terceros teleconferencia.'
-ms.openlocfilehash: 015f93496879e84c1959db7d6b46b765e0d286e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3012ef38a6d1abced7731b405d31b2a0be20be8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213532"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907132"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planeación de servidor de interoperabilidad vídeo en Skype para Business Server
  

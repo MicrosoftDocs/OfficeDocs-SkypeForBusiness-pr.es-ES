@@ -1,21 +1,22 @@
 ---
 title: Pantalla compartida basada en vídeo para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 2/20/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype para obtener información de planeación y configuración de Business Server para vídeo compartida basado en pantalla (VbSS)
-ms.openlocfilehash: d899e07fc478e33c4480cd235b3eb0cafd95ecba
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 90a497e4aaf38d04a55e26a924533eebe340d11d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215006"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911885"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Pantalla compartida basada en vídeo para Skype Empresarial Server 
  

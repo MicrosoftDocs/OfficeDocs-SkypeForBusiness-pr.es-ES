@@ -1,8 +1,8 @@
 ---
 title: Feature Overview (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype para la herramienta de planeación de Business Server
-ms.openlocfilehash: 8541167196f3940a1621e6bb843c81e82d212e46
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1065b64bb440b93f8b935d7a6422829f5a58f751
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220979"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33889384"
 ---
 # <a name="feature-overview-planning-tool"></a>Feature Overview (Planning Tool)
  

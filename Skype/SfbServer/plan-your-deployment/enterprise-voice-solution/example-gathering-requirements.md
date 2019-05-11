@@ -1,8 +1,8 @@
 ---
 title: Ejemplo de recopilación de requisitos de control de admisión de llamadas en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
-ms.openlocfilehash: b406db2a4ddf2b0ff25128774577407e0e3acaf6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c00c61377d3bbaca6539b2b3f3bd889ae723bd8e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207779"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924405"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: Requisitos de recopilación para llamar al control de admisión de Skype para Business Server
 

@@ -1,20 +1,20 @@
 ---
 title: Administración de control de admisión de llamadas para sitios
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Sitios de red son las oficinas o ubicaciones dentro de cada región de red de llamadas (CAC) el control de admisión, E9-1-1 y las implementaciones de desvío de medios.
-ms.openlocfilehash: 53140cf03110991f2c757e5d52e30a6c7db1d7de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7d554f6c85a40c084571813c88cc1d08661fa42
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199227"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913408"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Administrar el control de admisión de llamadas para sitios en Skype Empresarial Server
 
@@ -191,7 +191,7 @@ Sitios de red son las oficinas o las ubicaciones configuradas dentro de cada reg
     > No se puede quitar un sitio de red si está asociada con una subred de red. Si se intenta eliminar un sitio asociado con una subred recibirá un mensaje de error. Para ver si un sitio está asociado a las subredes, haga clic en el sitio y, a continuación, haga clic en **Mostrar detalles** en el menú **Edición** .
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 
 [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy) 

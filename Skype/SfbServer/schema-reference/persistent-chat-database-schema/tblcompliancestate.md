@@ -1,8 +1,8 @@
 ---
 title: tblComplianceState
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea82e56c-3cca-4d89-b4e6-6bcaeb1f2830
 description: tblComplianceState contiene información de estado de cumplimiento de todo el grupo de servidores.
-ms.openlocfilehash: 4e9f103ef019e743b5dfcb4ef554ff6a28c340b8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6f6b3891638fc3d769c0b0f4f4a42ca5f94a5a54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212638"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929850"
 ---
 # <a name="tblcompliancestate"></a>tblComplianceState
  

@@ -1,8 +1,8 @@
 ---
 title: Informe de ubicación en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Resumen: Información sobre el informe de ubicación en Skype para Business Server.'
-ms.openlocfilehash: 0fa798bb9d0281c988d1e6c5f1cabbd8964764e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f5ae0281913921d694d32532cd99d394fb49f5de
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197908"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897368"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Informe de ubicación en Skype para Business Server
  

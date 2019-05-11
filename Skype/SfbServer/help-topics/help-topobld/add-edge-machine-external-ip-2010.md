@@ -1,8 +1,8 @@
 ---
 title: Agregar IP externa de equipo perimetral 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Puede configurar las propiedades de esta página para apuntar el servidor perimetral a las ubicaciones externas del servicio perimetral de acceso, servicio perimetral de conferencia Web y / servicio perimetral A/v.
-ms.openlocfilehash: e37a5c43200d9e9d0bfd992e209e879912409add
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 3114ea5c22623b324095ea3d17b38b3fe7c7ede4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882943"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33886518"
 ---
 # <a name="add-edge-machine-external-ip-2010"></a>Agregar IP externa de equipo perimetral 2010
 

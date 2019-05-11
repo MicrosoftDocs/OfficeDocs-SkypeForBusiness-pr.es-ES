@@ -1,8 +1,8 @@
 ---
 title: Plan para el almacén de contactos unificados en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 6/8/2017
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d56e11be-43dd-45d4-8ac6-3adfb03f5d1a
 description: 'Resumen: Revise este tema cuando planee integrar Skype para Business Server con Exchange 2013.'
-ms.openlocfilehash: fd408466034646938d002c609a263e71077e5b94
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c69e4990a77ec56ec74f1a1ac8d37c0c25872696
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214134"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907204"
 ---
 # <a name="plan-for-unified-contact-store-in-skype-for-business-server-2015"></a>Planear el almacenamiento de contactos unificado en Skype Empresarial Server 2015
  

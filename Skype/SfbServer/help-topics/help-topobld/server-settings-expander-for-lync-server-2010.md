@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración de servidor para Lync Server 2010
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e2309ade-f9c7-4cd1-b135-45bf73b0441f
 description: 'Para editar las propiedades de este equipo, realice lo siguiente:'
-ms.openlocfilehash: 4b05c52d92d3702c76afd6c7b682c1c9ffda7ab9
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0db8f318f7c4381707869fe06ee7c492c78d63ac
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219208"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929542"
 ---
 # <a name="server-settings-expander-for-lync-server-2010"></a>Expansor de configuración de servidor para Lync Server 2010
  

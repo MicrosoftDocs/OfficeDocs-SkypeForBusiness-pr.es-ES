@@ -5,20 +5,20 @@ ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
 ms:contentKeyID: 48183343
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: público (IM) conectividad de mensajería instantánea permite a los usuarios de su organización utilizar la mensajería instantánea para comunicarse con los usuarios de servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública.
-ms.openlocfilehash: 3ed19bf692ccc7dfc39466e304b3b1371164758c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6cccef5de36b733e1af13092137bf0a35e843b4d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197614"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920442"
 ---
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios públicos en Skype para Business Server
 
@@ -69,6 +69,6 @@ Para habilitar el acceso de usuarios públicos, también debe habilitar la compa
 Si se trata de una directiva de usuario, también debe aplicar la directiva a los usuarios públicos que desea que puedan colaborar con los usuarios públicos. 
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar proveedores federados SIP para la organización](../sip-providers/manage-sip-federated-providers-for-your-organization.md)

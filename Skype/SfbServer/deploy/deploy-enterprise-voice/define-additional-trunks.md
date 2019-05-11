@@ -1,8 +1,8 @@
 ---
 title: Definición de troncos adicionales en el generador de Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Resumen: Obtenga información sobre cómo definir un tronco adicional entre un servidor de mediación y una puerta de enlace, del mismo nivel en el generador de Skype para Business Server.'
-ms.openlocfilehash: 874d32053f4c3d91f16818bd34dc11806de8692c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 308cd200af2ee046a3e2bcc84815d3755cea932f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223165"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892863"
 ---
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definición de troncos adicionales en el generador de Skype para Business Server
  
