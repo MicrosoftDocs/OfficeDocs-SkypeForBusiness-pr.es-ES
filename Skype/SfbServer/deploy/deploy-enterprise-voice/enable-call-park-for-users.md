@@ -1,8 +1,8 @@
 ---
 title: Habilitar estacionamiento de llamadas para los usuarios de Skype para la empresa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
 description: Habilitar a los usuarios para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 98b02294beb633e5d9a0147fcce7257a4497753d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 228ff5549487df04a264ed217bed43196d93ca8d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212512"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892471"
 ---
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Habilitar estacionamiento de llamadas para los usuarios de Skype para la empresa
  

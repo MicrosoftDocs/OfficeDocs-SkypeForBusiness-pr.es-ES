@@ -1,8 +1,8 @@
 ---
 title: Los usuarios nuevos objetos de contacto
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05e0d949-0cc6-4d3c-b935-a09a6ad52adc
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: a235289f81cf8c7b74d3db1b271c34e104d02680
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f4e2880b9457bd792a75b6e3f89c1a7f664d12b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219989"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33912088"
 ---
 # <a name="users-new-contact-objects"></a>Usuarios: Nuevos objetos de contacto
 

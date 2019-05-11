@@ -1,8 +1,8 @@
 ---
 title: Seleccionar cola de tiempo de espera
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 ROBOTS: NOINDEX, NOFOLLOW
 description: Use el seleccionar un cuadro de diálogo de la cola de tiempo de espera para seleccionar una cola que las llamadas se reenvíen cuando se agote el tiempo.
-ms.openlocfilehash: ef3c174bd5bab92975e26c1859fbd4ad792a2853
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 62570e3ce84d40d57a341083c0c16d907d351ed6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32215153"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33891092"
 ---
 # <a name="select-time-out-queue"></a>Seleccionar cola de tiempo de espera
  

@@ -1,8 +1,8 @@
 ---
 title: Tabla NetworkConnectionDetail
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b48cc9a6-5232-48b5-bd20-53b68229336b
 description: En la tabla NetworkConnectionDetail asigna tipos de conexión de red a los identificadores de conexión de red que se usan en la base de datos de calidad de la experiencia. En esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 6df2511c2dfee0158b4633be5dfa8549639cfc6d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a7095000cc996f2a6430ffcaf8411a2891872938
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212393"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919994"
 ---
 # <a name="networkconnectiondetail-table"></a>Tabla NetworkConnectionDetail
  

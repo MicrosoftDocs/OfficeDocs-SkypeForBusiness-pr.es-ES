@@ -1,8 +1,8 @@
 ---
 title: Persistent Chat (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: Servidor de Chat persistente permite a los usuarios participar en conversaciones entre varias partes, basado en el tema que persisten a lo largo del tiempo.
-ms.openlocfilehash: 076afe1f1322e8724ddd7d59c147d3ea34c05452
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 1be2c61e2a2b5516c2c7d9705faa4596fdd001e8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32235712"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914110"
 ---
 # <a name="persistent-chat-planning-tool"></a>Persistent Chat (Planning Tool)
  

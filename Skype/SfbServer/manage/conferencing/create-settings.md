@@ -1,8 +1,8 @@
 ---
 title: Crear una configuración de Skype para Business Server de reunión
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Resumen: Obtenga información sobre cómo crear una configuración de Skype para Business Server de reunión.'
-ms.openlocfilehash: c154661e5e8b974e4a475c935b40749776e0499c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ea75e133ab15f450a6316c9ee86ba2ded485f29a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222803"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919419"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Crear una configuración de Skype para Business Server de reunión
  

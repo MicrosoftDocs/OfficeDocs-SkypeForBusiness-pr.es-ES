@@ -1,8 +1,8 @@
 ---
 title: SQL Server Reporting Services (credenciales)
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 12/20/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 033906cd-385f-4b04-9607-376888ec414d
 description: 'Para especificar las credenciales para el SQL Server Reporting Services (SSRS) para tener acceso a la base de datos de supervisión, haga lo siguiente:'
-ms.openlocfilehash: 2572d2e4615987e92c46e10932b466cd92d362ab
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 645760cef7bb652120bcda0c10bed8341a3c911b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201163"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916038"
 ---
 # <a name="sql-server-reporting-services-credentials"></a>SQL Server Reporting Services (credenciales)
  

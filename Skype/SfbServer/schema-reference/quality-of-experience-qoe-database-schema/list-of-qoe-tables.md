@@ -1,8 +1,8 @@
 ---
 title: Lista de tablas de QoE
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/13/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: El esquema de base de datos consta de las siguientes tablas.
-ms.openlocfilehash: c3ab045e67f38082910f5a2870d4e8c0c8e595b4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e3e4ecb565e5a3a2f51d29ac77d4f1e87f3bf8eb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212224"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920085"
 ---
 # <a name="list-of-qoe-tables"></a>Lista de tablas de QoE
  

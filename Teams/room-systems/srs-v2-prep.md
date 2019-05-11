@@ -1,7 +1,7 @@
 ---
 title: Preparar el entorno
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 ms.collection: M365-voice
 description: En este artículo se explica los preparativos de infraestructura para la implementación de salas de equipos de Microsoft.
-ms.openlocfilehash: b1830ba68b61c322b6eeef95f29b1e72d2b93303
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 43c55e094fed4e5e1bca923b863c1cac1f4d894a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865017"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916361"
 ---
 # <a name="prepare-your-environment"></a>Preparar el entorno
 

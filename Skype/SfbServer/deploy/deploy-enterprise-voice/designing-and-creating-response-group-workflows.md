@@ -1,8 +1,8 @@
 ---
 title: Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Diseñar y crear flujos de trabajo de grupo de respuesta, en Skype para Business Server Enterprise Voice. Se cubren tanto los flujos de trabajo de grupo de extensiones como los flujos de trabajo interactivos.
-ms.openlocfilehash: efa77ffa0a1d7b8fda3720c3002c5364216af8eb
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9ae4a229c0b7ece3e9dbb858bc0491fea123e479
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207814"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892575"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa
 

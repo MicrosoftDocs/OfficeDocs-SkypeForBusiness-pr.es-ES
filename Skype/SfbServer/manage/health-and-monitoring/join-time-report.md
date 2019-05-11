@@ -1,8 +1,8 @@
 ---
 title: Informe de tiempo de unirse a conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
 description: 'Resumen: Obtenga información sobre la conferencia unirse a tiempo informe de resumen en Skype para Business Server.'
-ms.openlocfilehash: 8264ac8df7a6299484c88121ac1352401833ebe9
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30874210"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897649"
 ---
 # <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de unirse a conferencia en Skype para Business Server
  

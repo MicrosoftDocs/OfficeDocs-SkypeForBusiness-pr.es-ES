@@ -1,7 +1,7 @@
 ---
 title: Socios federados del Sistema de salas de Skype y de Skype Empresarial
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.reviewer: davgroom
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1cc20323-ecba-4e87-a861-e54193e64cf0
 description: Lea este tema para obtener información acerca de cómo configurar el Sistema de salas de Skype para socios federados de Skype Empresarial.
-ms.openlocfilehash: e954bf5d7586c651d9d045b2d428f86f01de8a30
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 30668641f2c43981485531722861647fdeffc710
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219391"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895022"
 ---
 # <a name="skype-room-system-and-skype-for-business-federated-partners"></a>Socios federados del Sistema de salas de Skype y de Skype Empresarial
  

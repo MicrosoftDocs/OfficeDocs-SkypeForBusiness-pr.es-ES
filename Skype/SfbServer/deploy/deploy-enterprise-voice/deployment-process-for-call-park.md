@@ -1,8 +1,8 @@
 ---
 title: Proceso de implementación de estacionamiento de llamadas en Skype para la empresa
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2000d672-a85f-4262-9d69-0bee9ae3709a
 description: Proceso de implementación y los pasos para el estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 470a8a2f918a69324a747fe667692c8ab36ee542
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b30f569ca44d4051638103e9a5d13280113916bb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223103"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33892611"
 ---
 # <a name="deployment-process-for-call-park-in-skype-for-business"></a>Proceso de implementación de estacionamiento de llamadas en Skype para la empresa
  

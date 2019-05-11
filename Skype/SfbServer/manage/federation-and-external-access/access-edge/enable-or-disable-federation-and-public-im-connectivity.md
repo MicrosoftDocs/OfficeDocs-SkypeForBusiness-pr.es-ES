@@ -5,20 +5,20 @@ ms:assetid: 8ec58f4b-9f6d-47b4-a187-d18a83fe4577
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182549(v=OCS.15)
 ms:contentKeyID: 48184813
 mtps_version: v=OCS.15
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: La compatibilidad con la federación es necesaria habilitar a los usuarios que tienen una cuenta con una organización confianza de clientes o socios, incluidos los dominios asociados y los usuarios de los usuarios de proveedor (IM) que admite, para colaborar con los usuarios de mensajería instantánea pública su organización.
-ms.openlocfilehash: c207f409164162f066d1ea49197cbd26fa50273b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d82833dcd4e477e2c332c01d3d4ba2fdca5123aa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199937"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896421"
 ---
 # <a name="enable-or-disable-federation-and-public-im-connectivity-in-skype-for-business-server"></a>Habilitar o deshabilitar la federación y conectividad de mensajería instantánea pública en Skype para Business Server
 
