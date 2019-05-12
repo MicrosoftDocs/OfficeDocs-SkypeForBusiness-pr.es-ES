@@ -1,8 +1,8 @@
 ---
 title: Fase certificados AV y OAuth en Skype para Business Server utilizando - Roll en Set-CsCertificate
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 22dec3cc-4b6b-4df2-b269-5b35df4731a7
 description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server.'
-ms.openlocfilehash: 859f4f1cd28eaa930f7cf3697e7ed5349f1bc966
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 793791ad882171e381eff751a6f57425de0c8ca7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218927"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919398"
 ---
 # <a name="stage-av-and-oauth-certificates-in-skype-for-business-server-using--roll-in-set-cscertificate"></a>Fase certificados AV y OAuth en Skype para Business Server utilizando - Roll en Set-CsCertificate
  

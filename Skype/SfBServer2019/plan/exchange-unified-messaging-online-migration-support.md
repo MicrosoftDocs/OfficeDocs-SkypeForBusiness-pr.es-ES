@@ -1,7 +1,7 @@
 ---
 title: Soporte de migración en línea de la mensajería unificada de Exchange
 ms.author: heidip
-author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: waseemh, dstrome, balinger
 ms.audience: ITPro
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft retira el servicio Exchange Unified Messaging en línea (ExchUMO) en febrero de 2020. En este artículo se resume qué afectados los clientes deben conocer y para planear su continuidad del negocio.
-ms.openlocfilehash: 703c51f3d42c9eea12964230693e602428454754
-ms.sourcegitcommit: 6949c957224949ccc6f5958d3c84294d382ee405
+ms.openlocfilehash: e7bb1f7f73406f6585cac7b95f98b57c48d9ab40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2019
-ms.locfileid: "31914680"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911406"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange  
 

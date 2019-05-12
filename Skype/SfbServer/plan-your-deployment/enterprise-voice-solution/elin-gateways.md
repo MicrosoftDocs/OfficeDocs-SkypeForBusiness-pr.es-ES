@@ -1,8 +1,8 @@
 ---
 title: Administración de ubicaciones para puertas de enlace ELIN en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con puertas de enlace ELIN, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 858493089c6c0e274a45616ea4b93a3fdf69e010
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9e01ab2c3d3d332f83f1c46329fef5b5c9cc45d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206939"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924741"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Administración de ubicaciones para puertas de enlace ELIN en Skype para Business Server
 

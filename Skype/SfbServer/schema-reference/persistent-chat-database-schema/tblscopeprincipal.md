@@ -1,8 +1,8 @@
 ---
 title: tblScopePrincipal
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: la tabla tblScopePrincipal contiene ámbitos asignados a nodos.
-ms.openlocfilehash: e93b92280605dfe01f288435c7cb42b724c22064
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f682c8a2235ef30cda365bc5950cbfb123840595
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212400"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924930"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  

@@ -1,7 +1,7 @@
 ---
 title: Actualizar Pro para equipos de Microsoft | Guía básica
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caec680997f4fd44582dbb19b90e5c56d2b9c5b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: e8b3a98513e9aab6a789dabe3ea8932869e16349
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218578"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33887381"
 ---
 # <a name="upgrade-pro"></a>Actualice Pro
 

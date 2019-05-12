@@ -1,8 +1,8 @@
 ---
 title: Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Resumen: Use la autenticación en dos fases con Skype para Business Server y Skype para la empresa.'
-ms.openlocfilehash: 0c66808f22655e3f78a23930adc84dcbc31af6bb
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: c1d67682f229a22f4674e5643ccf8d3a99a59f68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30894205"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919461"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Usar autenticación de dos factores con Skype para clientes empresariales y Skype para Business Server
  
@@ -141,7 +141,7 @@ Antes de usar su tarjeta inteligente por primera vez, se recomienda que haga cli
     > [!NOTE]
     > Si no se le asignó un número de PIN para la tarjeta inteligente, use el valor predeterminado, que es 12345678. 
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Administrar la autenticación de dos factores en Skype para Business Server](two-factor-authentication.md)
   

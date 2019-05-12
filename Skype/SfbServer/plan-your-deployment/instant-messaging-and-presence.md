@@ -1,8 +1,8 @@
 ---
 title: Planeación de la mensajería instantánea y presencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Resumen: Aprenda a planear para mensajería instantánea y presencia en Skype para Business Server.'
-ms.openlocfilehash: 8d26ad08242248f08e2e54ba7e46d2aa112e362a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f29464b9eaf725deb41c41cb9255a8b2f6737792
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214043"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33907167"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planeación de la mensajería instantánea y presencia en Skype para Business Server
  

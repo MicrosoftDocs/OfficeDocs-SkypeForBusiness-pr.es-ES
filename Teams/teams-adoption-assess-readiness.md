@@ -1,7 +1,7 @@
 ---
 title: ¿Hasta qué punto está preparada su organización para Microsoft Teams?
-author: karuanag
-ms.author: karuanag
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e7d82fbe132c4a63b4b300557837ce5ca4f6733
-ms.sourcegitcommit: 85c34280977fb2c15c8a43874a20e9492bdca57f
+ms.openlocfilehash: 490d08a6be547ca0a6bcbde73b202d4362a8c46b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "30462095"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33896312"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>¿Hasta qué punto está preparada su organización para Microsoft Teams?
 
@@ -89,7 +89,7 @@ Cada organización enfoques cambio de manera diferente, dependiendo de la regió
     > Adaptar el tipo y la cantidad de recursos de aprendizaje a la competencia y roles. Mantenga actualizado como nuevas características en línea de aprendizaje.
 
 3. ¿Además de esta implementación del servicio, se celebran en cuántos otros cambios? (*Adaptabilidad*) <br/>Cambios podrían incluir las actualizaciones de Office, Windows, traslados de oficina, fusiones, reorgs y así sucesivamente.
-    - Ninguno
+    - Ninguna
     - cambios de 1-3
     - Cambios más de 3
  

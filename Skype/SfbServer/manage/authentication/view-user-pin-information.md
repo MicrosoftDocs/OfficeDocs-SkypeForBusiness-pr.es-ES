@@ -1,8 +1,8 @@
 ---
 title: Vista de usuario información del PIN en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Resumen: Ver la información de PIN de usuario en Skype para Business Server.'
-ms.openlocfilehash: 2960e31a54dd531598254ccea41dda516e9f7335
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a2e9d7d3e2341590a8eb6a4779bbb1a9c5c26227
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222824"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919370"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Vista de usuario información del PIN en Skype para Business Server
  

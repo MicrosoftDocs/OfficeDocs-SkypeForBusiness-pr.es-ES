@@ -1,8 +1,8 @@
 ---
 title: Estado de la topología
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 5/21/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'La página Topología: Estado muestra el estado de los servidores de la topología de Skype Empresarial.'
-ms.openlocfilehash: 9e448dd4916671be04aa02b66f37a58d8735f962
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ede65ba61436eb7b2b815eda7e11517a56f1dd1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220024"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929591"
 ---
 # <a name="topology-status"></a>Topología: Estado
 

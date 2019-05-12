@@ -1,8 +1,8 @@
 ---
 title: Planeación de servicios de emergencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Obtenga información acerca de los servicios Enhanced 9-1-1 (E9-1-1) en Skype para Business Server Enterprise Voice, incluidas la adquisición de ubicación y enrutamiento de llamadas.
-ms.openlocfilehash: 4dba79c1c1b1b1fed0f60ea4f4c4a9a1d1baea92
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 65a8768aa42a8ae5528d5d8d16273c99df594687
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207646"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924734"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planeación de servicios de emergencia en Skype para Business Server
 

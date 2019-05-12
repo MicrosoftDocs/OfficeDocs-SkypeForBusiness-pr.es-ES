@@ -1,8 +1,8 @@
 ---
 title: Solicitud de certificado (devuelto)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/1/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'La página de estado de solicitud de certificado en línea presenta información importante que da como resultado de la creación correcta y la emisión de la solicitud de certificado en línea. Esta página proporciona la huella digital del certificado que identifica de forma exclusiva el certificado. De forma predeterminada, se selecciona la casilla de verificación asignar este certificado a Skype para usos de certificados de servidor empresarial. Si hace clic en Finalizar, el certificado se asignará automáticamente a Lync Server 2013 para los fines que ha definido en los pasos de creación de la solicitud de certificado. De forma predeterminada, con el fin de que se asignará el certificado es:'
-ms.openlocfilehash: 61e62216cd582a07b95a51d05033482699ca2f3d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: bedc5137085a36a296518048e5f0917e60dbe980
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201356"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911089"
 ---
 # <a name="certificate-request-returned"></a>Solicitud de certificado (devuelto)
  
