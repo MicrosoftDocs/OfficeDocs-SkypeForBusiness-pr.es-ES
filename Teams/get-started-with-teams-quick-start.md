@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ad250e133ebe3d9a203a1439f04a8f1f3cc41d9
-ms.sourcegitcommit: ceba3ec2d5618fceaa57e18f7ca6858e8d5d5ee5
+ms.openlocfilehash: 870dcc05d174dd7f2e7b14f05b4be56ad1ce86ea
+ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33509687"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "33827728"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Introducción a Microsoft Teams
 
