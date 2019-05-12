@@ -1,7 +1,7 @@
 ---
 title: Acerca del marco de actualización
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 12/18/2018
 ms.topic: conceptual
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf114075b4c35b19beeab9a4c28a1ade97330300
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4efb9788962ca1c5b76cd49a7158b0e0d181cb40
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227656"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920318"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 

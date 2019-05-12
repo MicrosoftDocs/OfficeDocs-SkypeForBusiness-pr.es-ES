@@ -1,8 +1,8 @@
 ---
 title: Configurar el desvío de medios en Skype para Business Server omitir siempre el servidor de mediación
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
 description: Habilitar desvío de medios omitir siempre el servidor de mediación en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 31ecb80df342ac68ba6bb28b20248648bd5808c8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ffefeb9850915f4ac8e4677f1bcf0202c4f29405
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223778"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893143"
 ---
 # <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar el desvío de medios en Skype para Business Server omitir siempre el servidor de mediación
  

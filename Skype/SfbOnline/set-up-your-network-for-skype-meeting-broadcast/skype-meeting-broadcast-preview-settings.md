@@ -1,6 +1,6 @@
 ---
 title: Configuración de vistas previas de Difundir presentación de reunión de Skype
-mms.author: tonysmit
+ms.author: tonysmit
 author: tonysmit
 manager: serdars
 ms.reviewer: micchan
@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - SMB
 description: El Skype para el programa de vista previa de los clientes empresariales proporciona un acceso rápido a los nuevos productos y características. Permite a su organización obtener una vista rápida novedades, probar las nuevas características en su propio entorno y proporcionar comentarios antes de que se suelte generaciones del producto al público en general. Para obtener más información, vea Skype para vista previa de negocio.
-ms.openlocfilehash: 1f563292e2e5927cf037e5d2a9b24405d0a336a2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0769d33885e3782a4e716797ef0c8995047f9659
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226148"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906573"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Configuración de vistas previas de Difundir presentación de reunión de Skype
 

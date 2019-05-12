@@ -1,8 +1,8 @@
 ---
 title: Agregar IP de puerta de enlace de vídeo
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/8/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: edc4cc21-7803-400d-8152-595228a3d27d
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador en línea en crear un grupo de servidores con respecto de Skype para Business Server 2015.
-ms.openlocfilehash: 5ab3858dbec58e53d27e1a1c50b1057ef97093ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: d0aa474c091f00bea2f99d04ed7c0efae1383de3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30882922"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897341"
 ---
 # <a name="add-video-gateway-ip"></a>Agregar IP de puerta de enlace de vídeo
  
@@ -32,6 +32,6 @@ Los pasos de configuración para un nuevo servidor de interoperabilidad de víde
   
  La configuración de un VTC que es necesario definir en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un respecto se describe en línea al [configurar un VTC para la interoperación con Skype para Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Planificar el servidor de interoperabilidad de vídeo en Skype Empresarial Server 2015](../../plan-your-deployment/video-interop-server.md)

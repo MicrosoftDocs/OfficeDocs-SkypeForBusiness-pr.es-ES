@@ -1,8 +1,8 @@
 ---
 title: Administración de ubicaciones para proveedores de servicios de tronco SIP en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Las decisiones necesarias para la planeación de una base de datos de información de la ubicación, o una base de datos externa similar, para una implementación de E9-1-1 con los proveedores de enlace troncal SIP, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 07b6c95ad36e740d5dec6bb882766f876da52626
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b92d0d13797e50cf4b538b6bd96e304658a7585e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32206729"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924174"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Administración de ubicaciones para proveedores de servicios de tronco SIP en Skype para Business Server
 

@@ -1,8 +1,8 @@
 ---
 title: Subinforme de resumen de conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2fc1d2bf-34f5-4093-a6e2-250ec1f1b004
 description: 'Resumen: Conozca el subinforme de resumen de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 4c4430c960ebcd296838ddca8d429d5d3ba73ca8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 44895a8ed8c88cdf91b10ccf919bb7e088fbe13e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32197516"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33926644"
 ---
 # <a name="conference-summary-subreport-in-skype-for-business-server"></a>Subinforme de resumen de conferencia en Skype para Business Server
  

@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
-ms.openlocfilehash: 1125073d1f733959c9c0312fe3f0d36ad5369f8f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32220547"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33910759"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 

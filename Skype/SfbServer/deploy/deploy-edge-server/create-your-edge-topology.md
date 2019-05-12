@@ -1,8 +1,8 @@
 ---
 title: Creación de la topología perimetral para Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Resumen: Obtenga información sobre cómo crear, publicar y exportar la topología de servidor perimetral de Skype para Business Server.'
-ms.openlocfilehash: 32273f7e0cf14b4ed5be3956eb69ef66a3b06fee
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: df6b663c05b27cc517ee6f5ea871197896f9caa2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223820"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33893276"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Creación de la topología perimetral para Skype para Business Server
  

@@ -1,20 +1,20 @@
 ---
 title: Administración de 9-1-1 mejorado y el servicio de ubicación
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 description: Skype para Business Server es compatible con Enhanced 9-1-1 (E9-1-1) de llamada de Skype para clientes empresariales. Al configurar Skype para Business Server para E9-1-1, las llamadas de emergencias realizadas desde Skype para la empresa incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos de servicio de información de ubicación.
-ms.openlocfilehash: 31e1d529c8fb60145bc1ab4a22a75660d9f3ef63
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: baf470708e2abe367f05b3abfc2353d710c33920
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200305"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919433"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Administración de 9-1-1 mejorado y el servicio de ubicación en Skype para Business Server
 
@@ -148,7 +148,7 @@ En Skype para Business Server, se puede invalidar la cantidad de tiempo entre la
     > No se puede eliminar la directiva de ubicación Global. Si se intenta eliminar la directiva Global, recibirá un mensaje de advertencia y esa directiva se restablecerán a sus valores predeterminados.
 
 
-## <a name="see-also"></a>Consulte también
+## <a name="see-also"></a>Vea también
 
 [Crear o modificar sitios de red](network-management/call-admission-control/managing-call-admission-control-for-sites.md#create-or-modify-network-sites)
 

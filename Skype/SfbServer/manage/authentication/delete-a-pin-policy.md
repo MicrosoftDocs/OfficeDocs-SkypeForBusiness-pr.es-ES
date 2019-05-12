@@ -1,8 +1,8 @@
 ---
 title: Eliminar una directiva de PIN en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7c378927-2e41-418e-9721-327021bd2e45
 description: 'Resumen: Eliminar telefónico un usuario PIN para Skype para Business Server.'
-ms.openlocfilehash: d8b8a901e15e0b301dcce149b3f55a27f8298af6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b281716c2e0560936ea2f94b773c8191f3e8987e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211028"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919650"
 ---
 # <a name="delete-a-pin-policy-in-skype-for-business-server"></a>Eliminar una directiva de PIN en Skype para Business Server
  

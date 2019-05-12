@@ -1,8 +1,8 @@
 ---
 title: tblActivePeers
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b50c3f4a-bab6-4cb9-b40e-016cf1a9c607
 description: tblActivePeers contiene las conexiones punto a punto actuales entre los servicios de chat.
-ms.openlocfilehash: e921d6faa4f7bcf3e3c6f6dc9859f4bd0db16bc5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7d7f995b878d6e47878636bee6f9c16ac142352e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212680"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929878"
 ---
 # <a name="tblactivepeers"></a>tblActivePeers
  

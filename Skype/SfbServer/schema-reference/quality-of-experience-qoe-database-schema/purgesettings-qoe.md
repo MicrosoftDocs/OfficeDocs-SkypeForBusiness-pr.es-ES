@@ -1,8 +1,8 @@
 ---
 title: Tabla PurgeSettings (QoE)
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/1/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
 description: 'La tabla PurgeSettings contiene información que especifica si (y cuando) los registros de calidad de la experiencia no actualizados se eliminarán automáticamente de la base de datos de QoE. Tenga en cuenta que información relacionada con la depuración también puede obtenerse desde dentro de la Skype para Shell de administración de Business Server, ejecute el comando siguiente:'
-ms.openlocfilehash: b9aaa8b5fd988e1fb1476ec75077507b55aaf9d1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2b78f066907d6d0763fab7faa9d378e51f3715fc
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212337"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924790"
 ---
 # <a name="purgesettings-table-qoe"></a>Tabla PurgeSettings (QoE)
  

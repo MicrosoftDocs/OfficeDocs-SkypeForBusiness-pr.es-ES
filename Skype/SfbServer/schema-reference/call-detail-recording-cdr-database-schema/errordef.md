@@ -1,8 +1,8 @@
 ---
 title: Tabla ErrorDef en Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6acf3b86-da61-4923-9812-300db6f66dec
 description: En la tabla ErrorDef almacena información acerca de cada tipo de error que puedan surgir. Cada registro es un tipo de error.
-ms.openlocfilehash: cec601dad24dda522477bfcd7b1e80d0efc45799
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f1edd4595cdd360c0da1e3cd76f5ed4b63ddf46d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213112"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901169"
 ---
 # <a name="errordef-table-in-skype-for-business-server-2015"></a>Tabla ErrorDef en Skype para Business Server 2015
  

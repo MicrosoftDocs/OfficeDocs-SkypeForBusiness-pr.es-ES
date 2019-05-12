@@ -1,8 +1,8 @@
 ---
 title: Planeación desactivar los métodos de autenticación Legacy interna y externamente a la red
 ms.reviewer: ''
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: En este artículo los cmdlets de esquemas que ofrecen a los administradores más control de métodos de autenticación usado interior y exterior, de una empresa. Los administradores pueden activar los métodos de autenticación o desactivada interna o externamente a su red.
-ms.openlocfilehash: 08f8b850fbde99f85f804494eab79a9a3531d009
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ab50913b2a8a784193f30b124f9a212da29fa5bf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213903"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33929206"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planeación desactivar los métodos de autenticación Legacy interna y externamente a su red.
 

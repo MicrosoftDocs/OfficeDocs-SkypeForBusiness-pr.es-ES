@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito del tronco
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/27/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Botón secundario haga clic en un tronco SIP existente en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: 881409acb5b45b1f6662d96bfda110cbf1381f2a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 6ac6d18e4d8ee06c78f68e1f897aed966bf0453b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219046"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33903407"
 ---
 # <a name="trunk-scope-node"></a>Nodo de ámbito del tronco
  

@@ -1,8 +1,8 @@
 ---
 title: Instalar la Herramienta de planeación en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 4/5/2016
 ms.audience: ITPro
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Antes de empezar a diseñar y planear su Skype para infraestructura de Business Server 2015 mediante el uso de la Skype para la herramienta de planeación de Business Server 2015, primero debe instalar la herramienta de planeación. La herramienta de planeación no necesita implementarse en una estación de trabajo o servidor que forma parte de la infraestructura o el dominio donde va a instalar Skype para Business Server 2015. El archivo Léame que acompaña a la herramienta de planeación detalla información importante sobre la instalación y uso de la herramienta. Se ha duplicado aquí una parte de la información del archivo Léame para mayor claridad.
-ms.openlocfilehash: 616cec026dfc5890cffc3975ea421d98ec13e412
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64d510eedc01149e7119e3ec92ea09cd9a6c842a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217302"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915027"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Instalar la Herramienta de planeación en Skype Empresarial Server 2015
 

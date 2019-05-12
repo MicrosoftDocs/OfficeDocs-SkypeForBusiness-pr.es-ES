@@ -1,8 +1,8 @@
 ---
 title: Configurar una aplicación de socio local para Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Resumen: Configurar una aplicación de socio local para Skype para Business Server.'
-ms.openlocfilehash: fe80ae08a730ad4765c366a77fd0c44daaa18899
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a13157d590d6cdd067ed2a0a717fd744adb9de4f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211014"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913380"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Configurar una aplicación de socio local para Skype para Business Server
  

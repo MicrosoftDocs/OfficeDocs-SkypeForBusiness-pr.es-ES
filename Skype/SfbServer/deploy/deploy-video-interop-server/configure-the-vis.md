@@ -1,8 +1,8 @@
 ---
 title: Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Resumen: Configure el rol de servidor de interoperabilidad de vídeo (VISIBLES) de Skype para Business Server.'
-ms.openlocfilehash: 1cdc03fea116b5c41eaca13b4349ffc340dbc061
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 64a3baa9374b819fc16a77a12a18a906c8e09225
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219610"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894531"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Configurar el servidor de interoperabilidad vídeo en Skype para Business Server
  

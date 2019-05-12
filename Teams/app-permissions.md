@@ -1,7 +1,7 @@
 ---
 title: Consideraciones y permisos de las aplicaciones de Microsoft Teams
-author: Lester-Hewett
-ms.author: lehewe
+author: rmw2890
+ms.author: rowille
 manager: serdars
 ms.date: 10/18/2018
 ms.topic: conceptual
@@ -10,17 +10,17 @@ MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 search.appverid: MET150
-ms.reviewer: lehewe
+ms.reviewer: rowille
 description: Vea qué datos y permisos están solicitando las aplicaciones de su organización.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2618f4ad5a09e6fff33580f9e9085d6d282797a6
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: dff53f079442da6c0430f66a679243d4268a5fb2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211111"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897306"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Consideraciones y permisos de las aplicaciones de Microsoft Teams
 

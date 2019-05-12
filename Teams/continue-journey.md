@@ -1,7 +1,7 @@
 ---
 title: Plan de adopción de usuario de los equipos de Microsoft | Procedimientos recomendados
-author: dearbeen
-ms.author: dearbeen
+author: kenwith
+ms.author: kenwith
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb457ff6f5ba40575a8a7fc35738d8dda1ce45f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32194979"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898504"
 ---
 ![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
 

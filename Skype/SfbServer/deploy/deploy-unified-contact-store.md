@@ -1,8 +1,8 @@
 ---
 title: 'Implementar el almacén de contactos unificados en Skype para Business Server '
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: get-started-article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Resumen: Habilitar el almacén de contactos unificados en Skype para Business Server.'
-ms.openlocfilehash: 5e7fb34d03459be5066d154e89fa8e27dc060757
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 725df8bf133e5b511e0004c161f9e661c5f9968d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219625"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33894524"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Implementar el almacén de contactos unificados en Skype para Business Server
  

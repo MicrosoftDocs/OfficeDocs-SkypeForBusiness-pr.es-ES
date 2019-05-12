@@ -1,8 +1,8 @@
 ---
 title: Conferencia de RTC informe resumen en Skype para Business Server
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Resumen: Información sobre el informe resumen de conferencia de RTC en Skype para Business Server.'
-ms.openlocfilehash: 3c78eb4597b1c6bb480049fd8f8cb2821f7dfd6a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30883283"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33925211"
 ---
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Conferencia de RTC informe resumen en Skype para Business Server
  

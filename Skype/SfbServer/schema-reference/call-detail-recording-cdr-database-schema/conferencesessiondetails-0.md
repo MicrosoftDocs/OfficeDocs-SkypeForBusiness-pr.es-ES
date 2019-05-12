@@ -1,8 +1,8 @@
 ---
 title: Tabla ConferenceSessionDetails en Skype para Business Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/15/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9eae6a54-69fd-4966-aa17-7ecee1297ad8
 description: Cada registro representa una sesión de conferencia, que podría ser la sesión con foco o la sesión con un servidor de conferencia específico.
-ms.openlocfilehash: ab51ff0c75ba5ea9c6164fdee00be65ff5538c73
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4b64745ef191e3ab7fcffc91bcc6588c5826fa8c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213259"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33901205"
 ---
 # <a name="conferencesessiondetails-table-in-skype-for-business-server-2015"></a>Tabla ConferenceSessionDetails en Skype para Business Server 2015
  

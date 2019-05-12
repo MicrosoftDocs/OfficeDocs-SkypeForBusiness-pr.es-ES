@@ -1,8 +1,8 @@
 ---
 title: Nodo de ámbito de troncos vídeo SIP
 ms.reviewer: ''
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: dfa881341b72ee70f62a70fbf538b15480de52de
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4e1ce4cd38edfadc6914980f9b3771818ef87908
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201618"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911983"
 ---
 # <a name="sip-video-trunks-scope-node"></a>Nodo de ámbito de troncos vídeo SIP
  

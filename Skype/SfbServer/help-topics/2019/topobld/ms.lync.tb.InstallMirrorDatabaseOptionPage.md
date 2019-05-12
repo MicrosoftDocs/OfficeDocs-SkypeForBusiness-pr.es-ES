@@ -1,8 +1,8 @@
 ---
 title: Página de opción instalar base de datos de reflejo
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Configurar configuración de base de datos reflejada defina lo siguiente:'
-ms.openlocfilehash: 5117686188b8259211c2f2b2539d54a62cf1dfdf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c6b2f416d2812632b3940d52fff3b72fd29e840c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32201803"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33906658"
 ---
 # <a name="install-mirror-database-option-page"></a>Página de opción instalar base de datos de reflejo
  

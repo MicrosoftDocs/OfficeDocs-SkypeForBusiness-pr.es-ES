@@ -1,8 +1,8 @@
 ---
 title: Plan para Opciones de disponibilidad para Skype Empresarial Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Lea acerca de la característica de opciones de disponibilidad de Skype para Business Server.
-ms.openlocfilehash: 41e34dbb4eaf4a264ba1cec3756cc53c78992611
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a95604c929cc2c73962f252584def364307dd425
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207079"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895548"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Plan para Opciones de disponibilidad para Skype Empresarial Server
  

@@ -1,10 +1,11 @@
 ---
 title: Requisitos del sistema del servidor de bordes en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.audience: ITPro
 ms.topic: conceptual
+manager: serdars
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection:
@@ -13,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Resumen: Obtenga información sobre los requisitos del sistema para el servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: 34114833b516f49fb36742cbde9361e1bb1d3be3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b32aa16699bd81047bdd019cc11fe700c841d208
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207128"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33895506"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Requisitos del sistema del servidor de bordes en Skype para Business Server
  

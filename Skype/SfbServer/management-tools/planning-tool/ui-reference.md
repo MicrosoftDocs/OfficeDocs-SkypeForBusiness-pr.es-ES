@@ -1,20 +1,21 @@
 ---
 title: Referencia de interfaz de usuario de la herramienta de planeación
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 ms.date: 12/20/2018
+manager: serdars
 ms.audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: a33a6aa66ac795723c72d65fdedc2c8d6b9da3be
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4b049b5e3f959ad2c34ce4b904efbd36fd5c4526
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217267"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914166"
 ---
 # <a name="planning-tool-ui-reference"></a>Referencia de interfaz de usuario de la herramienta de planeación
  
