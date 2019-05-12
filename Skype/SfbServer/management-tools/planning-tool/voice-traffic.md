@@ -1,8 +1,8 @@
 ---
 title: Voice Traffic (Planning Tool)
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -14,15 +14,15 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb3cd8ce-134a-4a3c-aeb1-34d284ad170c
 description: La herramienta de planeación utiliza información acerca del tráfico de usuario para determinar el número de puertos para usar en la implementación. Este número a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios. Para obtener información detallada, vea Estimating uso de voz y el tráfico de Skype para Business Server 2015.
-ms.openlocfilehash: b51cccfcc294755de91cb517c7bd0dbd7e098493
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: af853513199642e25022df24bdecee3a188cbaec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217890"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914145"
 ---
-# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="9bb24-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="9bb24-105">Voice Traffic (Planning Tool)</span></span>
+# <a name="voice-traffic-planning-tool"></a><span data-ttu-id="1fc9e-105">Voice Traffic (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="1fc9e-105">Voice Traffic (Planning Tool)</span></span>
  
-<span data-ttu-id="9bb24-106">La herramienta de planeación utiliza información acerca del tráfico de usuario para determinar el número de puertos para usar en la implementación.</span><span class="sxs-lookup"><span data-stu-id="9bb24-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="9bb24-107">Este número a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios.</span><span class="sxs-lookup"><span data-stu-id="9bb24-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="9bb24-108">Para obtener información detallada, vea [Estimating uso de voz y el tráfico de Skype para Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="9bb24-108">For details, see [Estimating voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
+<span data-ttu-id="1fc9e-106">La herramienta de planeación utiliza información acerca del tráfico de usuario para determinar el número de puertos para usar en la implementación.</span><span class="sxs-lookup"><span data-stu-id="1fc9e-106">The planning tool uses information about user traffic to determining the number of ports to use in the deployment.</span></span> <span data-ttu-id="1fc9e-107">Este número a su vez determina el número de servidores de mediación y puertas de enlace que serán necesarios.</span><span class="sxs-lookup"><span data-stu-id="1fc9e-107">This number in turn determines the number of Mediation Servers and gateways that will be required.</span></span> <span data-ttu-id="1fc9e-108">Para obtener información detallada, vea [Estimating uso de voz y el tráfico de Skype para Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span><span class="sxs-lookup"><span data-stu-id="1fc9e-108">For details, see [Estimating voice usage and traffic for Skype for Business Server 2015](../../plan-your-deployment/capacity/estimating-voice-traffic.md).</span></span>
   
 

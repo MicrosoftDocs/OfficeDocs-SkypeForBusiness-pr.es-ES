@@ -1,8 +1,8 @@
 ---
 title: Agregar FQDN de grupo de servidores de aplicaciones de confianza
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,24 +13,24 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 'Para definir un nombre de dominio completo del grupo de servidores de aplicaciones de confianza (FQDN), especifique lo siguiente:'
-ms.openlocfilehash: b10053abdb8abcb11aa1a69e1acfcb97a92c4a76
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6934b1a8e80c816bb9132968d31d79d88b6c1c97
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879972"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33897425"
 ---
-# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="d9f99-103">Agregar FQDN de grupo de servidores de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="d9f99-103">Add Trusted Application Pool FQDN</span></span>
+# <a name="add-trusted-application-pool-fqdn"></a><span data-ttu-id="6b5d6-103">Agregar FQDN de grupo de servidores de aplicaciones de confianza</span><span class="sxs-lookup"><span data-stu-id="6b5d6-103">Add Trusted Application Pool FQDN</span></span>
  
-<span data-ttu-id="d9f99-104">Para definir un nombre de dominio completo del grupo de servidores de aplicaciones de confianza (FQDN), especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="d9f99-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
+<span data-ttu-id="6b5d6-104">Para definir un nombre de dominio completo del grupo de servidores de aplicaciones de confianza (FQDN), especifique lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="6b5d6-104">To define a Trusted Applications pool fully qualified domain name (FQDN), specify the following:</span></span>
   
-<span data-ttu-id="d9f99-105">Un nombre de dominio completo del servidor o grupo de servidores que se va a hospedar las aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="d9f99-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
+<span data-ttu-id="6b5d6-105">Un nombre de dominio completo del servidor o grupo de servidores que se va a hospedar las aplicaciones de confianza.</span><span class="sxs-lookup"><span data-stu-id="6b5d6-105">An FQDN of the server or pool of servers that will host the trusted applications.</span></span>
   
-<span data-ttu-id="d9f99-106">Si va a implementar un grupo de servidores para las aplicaciones de confianza de equilibrio de carga y alta disponibilidad, o seleccione el **grupo de servidores de un solo equipo** si no necesita disponibilidad alta o equilibrio de carga, seleccione **el grupo de servidores de varios equipos** .</span><span class="sxs-lookup"><span data-stu-id="d9f99-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
+<span data-ttu-id="6b5d6-106">Si va a implementar un grupo de servidores para las aplicaciones de confianza de equilibrio de carga y alta disponibilidad, o seleccione el **grupo de servidores de un solo equipo** si no necesita disponibilidad alta o equilibrio de carga, seleccione **el grupo de servidores de varios equipos** .</span><span class="sxs-lookup"><span data-stu-id="6b5d6-106">Select **Multiple computer pool** if you are deploying a pool of servers for the trusted applications from load balancing and high availability, or select **Single computer pool** if you do not need load balancing or high availability.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="d9f99-107">Un único servidor de aplicaciones de confianza no se puede convertir a un grupo de servidores más adelante.</span><span class="sxs-lookup"><span data-stu-id="d9f99-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="d9f99-108">Si piensa que es posible que necesite un grupo de servidores en el futuro, puede implementar un grupo de servidores de varios que ahora contiene un único equipo y adición de servidores cuando es necesario.</span><span class="sxs-lookup"><span data-stu-id="d9f99-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
+> <span data-ttu-id="6b5d6-107">Un único servidor de aplicaciones de confianza no se puede convertir a un grupo de servidores más adelante.</span><span class="sxs-lookup"><span data-stu-id="6b5d6-107">A single Trusted Applications Server cannot be converted to a pool of servers later.</span></span> <span data-ttu-id="6b5d6-108">Si piensa que es posible que necesite un grupo de servidores en el futuro, puede implementar un grupo de servidores de varios que ahora contiene un único equipo y adición de servidores cuando es necesario.</span><span class="sxs-lookup"><span data-stu-id="6b5d6-108">If you think you may need a pool in the future, you can deploy a multiple server pool containing a single computer now, and add servers when needed.</span></span> 
   
-<span data-ttu-id="d9f99-109">Para obtener información detallada acerca de los grupos de servidores de aplicaciones de confianza, vea [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="d9f99-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
+<span data-ttu-id="6b5d6-109">Para obtener información detallada acerca de los grupos de servidores de aplicaciones de confianza, vea [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span><span class="sxs-lookup"><span data-stu-id="6b5d6-109">For details about Trusted Applications pools, see [New-CsTrustedApplicationPool](https://docs.microsoft.com/powershell/module/skype/new-cstrustedapplicationpool?view=skype-ps).</span></span>
   
 
