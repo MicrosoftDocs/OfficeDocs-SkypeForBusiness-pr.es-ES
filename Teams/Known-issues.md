@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Lista actual de problemas conocidos en la aplicación cliente de Microsoft Teams y en la experiencia de los administradores.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1be129edfbac1bff1120785596eb3fe8bcc8bb2f
-ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
+ms.openlocfilehash: 0f52ffd975d671b71f098cb15c6dd7c8661c082d
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970194"
+ms.locfileid: "33994156"
 ---
 # <a name="known-issues-for-microsoft-teams"></a>Problemas conocidos de Microsoft Teams
 
@@ -266,6 +266,10 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |:-----|:-----|:-----|:-----|
 |Función de búsqueda en la pestaña de lista de SharePoint  <br/> |Si se intenta abrir un archivo desde la función de búsqueda de la pestaña de lista de SharePoint, aparecerá un aviso "Necesitará una nueva aplicación para abrir este archivo" y el archivo no se abrirá. <br/> |Abra directamente desde la lista en lugar de la barra de búsqueda. <br/> |11/2/2019  <br/> |
 
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|Error de descarga de archivos <br/> |Intentar descargar un archivo cuando la ruta del archivo contiene un apóstrofo desencadenará un error "El archivo no se ha descargado" al usar al cliente de escritorio de Microsoft Teams. <br/> |Descargue el archivo desde el cliente web o en SharePoint Online <br/> |10/5/2019  <br/> |
+
 ## <a name="teams"></a>Microsoft Teams
 
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
@@ -303,3 +307,7 @@ En este artículo se indican los problemas conocidos de Microsoft Teams por áre
 |**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
 |El usuario no recibe el correo electrónico de bienvenida cuando se le agrega de forma administrativa  <br/> |Cuando se agrega a un miembro a un equipo con PowerShell o el centro de administración de Teams, este no recibe el mensaje de bienvenida de Microsoft Teams  <br/> |Agregar a un miembro directamente desde la interfaz de usuario de Teams enviará un correo electrónico. Actualmente, no hay ninguna solución alternativa a hacerlo de forma administrativa.  <br/> |12/2/19  <br/> |
+
+|**Título del problema**|**Comportamiento/síntoma**|**Solución conocida**|**Fecha de descubrimiento**|
+|:-----|:-----|:-----|:-----|
+|No pueden mover, eliminar o cambiar el nombre de archivos después de la edición  <br/> |No se puede mover, eliminar o cambiar el nombre de un archivo inmediatamente después de editarlo en MS Teams. <br/> |Esto es un problema conocido actualmente y la solución es esperar algún tiempo antes de realizar el cambio administrativo.  <br/> |12/03/19  <br/> |
