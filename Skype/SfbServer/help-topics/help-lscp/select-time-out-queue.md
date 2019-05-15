@@ -1,8 +1,8 @@
 ---
 title: Seleccionar cola de tiempo de espera
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 11/17/2018
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3ced887e-a8f2-4c77-9093-cdf0afc4cb97
 description: Use el seleccionar un cuadro de diálogo de la cola de tiempo de espera para seleccionar una cola que las llamadas se reenvíen cuando se agote el tiempo.
-ms.openlocfilehash: e8ed73e7d6988fcff48946785c0cfd2317f337c2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 2da7e2a01752fff28730ee09f89f34dde990665a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200516"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924650"
 ---
 # <a name="select-time-out-queue"></a>Seleccionar cola de tiempo de espera
  

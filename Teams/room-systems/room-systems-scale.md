@@ -1,7 +1,7 @@
 ---
 title: Implementación de salas de equipos de Microsoft con System Center Configuration Manager
-author: jambirk
-ms.author: jambirk
+author: lanachin
+ms.author: v-lanac
 ms.reviewer: Turgayo
 manager: serdars
 ms.date: 5/10/2018
@@ -13,12 +13,12 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 ms.collection: M365-voice
 description: Lea este tema para obtener más información sobre la implementación de salas de equipos de Microsoft en las implementaciones de gran escala.
-ms.openlocfilehash: f8770a98cb08e33676f7079aa1a60743ea68b1dd
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: ac016ff8a31ce9272c5766e1a994aeb7c0e9301f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363062"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916339"
 ---
 # <a name="deploy-microsoft-teams-rooms-by-using-system-center-configuration-manager"></a>Implementación de salas de equipos de Microsoft con System Center Configuration Manager
 

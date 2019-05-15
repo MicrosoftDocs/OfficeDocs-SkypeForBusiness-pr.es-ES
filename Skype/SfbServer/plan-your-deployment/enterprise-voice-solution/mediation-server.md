@@ -1,8 +1,8 @@
 ---
 title: Componente de servidor de mediación en Skype para Business Server
 ms.reviewer: ''
-ms.author: crowe
-author: CarolynRowe
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: 'Obtenga información acerca de los servidores de mediación en Skype para Business Server, incluidos sus topologías admitidas y sus relaciones de troncos m: n, el desvío de medios y control de admisión de llamadas.'
-ms.openlocfilehash: 237892f446250332e00616dcc8a08abf9c59d741
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ef6076fed4c254180837d6bcdd3e4954f9f94dec
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207485"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33913749"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Componente de servidor de mediación en Skype para Business Server
  

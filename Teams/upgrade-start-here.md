@@ -1,7 +1,7 @@
 ---
 title: Introducción a su actualización de Microsoft Teams
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 01/30/2019
 ms.topic: conceptual
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d35f146ee7c52aa6c32f44e5fcefdad855dfbd3e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 314bb9488b1ff503dea9c725054463e276e1b33c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218609"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33884960"
 ---
 # <a name="getting-started-with-your-microsoft-teams-upgrade"></a>Introducción a su actualización de Microsoft Teams
 

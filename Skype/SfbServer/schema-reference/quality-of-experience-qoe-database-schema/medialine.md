@@ -1,8 +1,8 @@
 ---
 title: Vista MediaLine
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/9/2015
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: La vista MediaLine almacena información acerca de cada línea de medios en la base de datos. Normalmente, una sesión de audio contiene una línea de medios de audio. Uno de audio y vídeo (A / V) sesión normalmente contiene una línea de medios de audio y una única línea de medios de vídeo. Sin embargo, la sesión puede contener dos líneas de medios de vídeo si se usa un dispositivo para conferencias o si se usa la vista de galería. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 04037bae4b2f04058667d42205a2e0b33abacb4f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4fcfa22c17cc47c37e33d1f68bdab9815840c332
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32212203"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33920141"
 ---
 # <a name="medialine-view"></a>Vista MediaLine
  

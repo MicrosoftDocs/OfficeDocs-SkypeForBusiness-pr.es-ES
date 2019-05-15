@@ -1,7 +1,7 @@
 ---
 title: Plantillas de correo electrónico de adopción del usuario para implementaciones de Microsoft Teams o Skype Empresarial
-author: dearbeen
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 891b8e87e5e907adf2d669a8c15a5f566f6ff6a3
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 85a4dbbbfa49642000c3badc6faaa15f18887d8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401439"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33898663"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Facilitar la adopción de usuario de su nuevo sistema de teléfono en línea
 

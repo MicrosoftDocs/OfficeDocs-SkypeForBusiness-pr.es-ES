@@ -1,8 +1,8 @@
 ---
 title: Ejecutar consulta
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Resumen: Obtenga información acerca de la operación de ejecutar la consulta, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 8a1bea338039914695e16d1294f28abfe1e4b559
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a979ea7d8202365e939e075c2628ca4f3987fa63
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32217484"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33914962"
 ---
 # <a name="run-query"></a>Ejecutar consulta
 

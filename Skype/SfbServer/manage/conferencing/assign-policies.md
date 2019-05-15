@@ -1,8 +1,8 @@
 ---
 title: Asignar directivas de conferencia en Skype para Business Server
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: article
@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
 description: 'Resumen: Obtenga información sobre cómo asignar directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 44e29842fd11d600aa5a692e98b5ddbb72149ade
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: f022c4b89f239d4b800df17315b07b10da985955
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222873"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33919510"
 ---
 # <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype para Business Server
  

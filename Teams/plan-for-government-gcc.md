@@ -1,7 +1,7 @@
 ---
 title: Plan para Microsoft 365 Administración Pública - Implementaciones de GCC - Microsoft Teams
 author: lolajacobsen
-ms.author: lehewe
+ms.author: lolaj
 manager: serdars
 ms.date: 01/03/2019
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45c3f16645755a2f459bd136aa439b2a68382f1e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 025a1f22552fa8c196e9eeb4bee6b7e6e19eebdf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32247056"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902458"
 ---
 # <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
 

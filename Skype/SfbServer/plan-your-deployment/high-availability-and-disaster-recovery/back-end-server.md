@@ -1,8 +1,8 @@
 ---
 title: Back-End alta disponibilidad del servidor en Skype para Business Server
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.audience: ITPro
 ms.topic: conceptual
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga información sobre las opciones de alta disponibilidad de servidor Back-End admitidas en Skype para Business Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de la base de datos y agrupación en clústeres de conmutación por error SQL.
-ms.openlocfilehash: b6a466c398e5b25793d7e07f9e07815ba5387140
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33356221"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916561"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End alta disponibilidad del servidor en Skype para Business Server
  

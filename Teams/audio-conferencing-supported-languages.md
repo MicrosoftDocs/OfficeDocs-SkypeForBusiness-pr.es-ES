@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Find the dial-in conferencing language for each country or region and the culture ID assigned (en-US, da-DK, de-DE, etc)
-ms.openlocfilehash: 32e2c93cc43d548e96c2cda7c2e501e3b94fab80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0f745cc88299db756f85a1f892fef22332e788df
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244304"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970295"
 ---
 # <a name="audio-conferencing-supported-languages"></a>Idiomas admitidos para Audioconferencia
 
@@ -99,7 +99,7 @@ Si busca determinados países o regiones que tienen los números de teléfono pa
     
   - [Las mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     
-- Windows PowerShell has many advantages in speed, simplicity, and productivity over only using the Office 365 admin center, such as when you are making settings changes for many users at one time. Learn about these advantages in the following topics: 
+- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre solo usa el centro de administración de Microsoft 365, como cuando desea realizar cambios en la configuración de muchos usuarios al mismo tiempo. Más información sobre estas ventajas en los temas siguientes: 
     
   - [Introducción a Windows PowerShell y Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=525039)
     

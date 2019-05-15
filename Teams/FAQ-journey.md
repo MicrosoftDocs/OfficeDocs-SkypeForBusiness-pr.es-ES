@@ -1,7 +1,7 @@
 ---
 title: Preguntas frecuentes de Microsoft Teams | Funcionalidades de reuniones, conferencias y llamadas
-author: dearbeen
-ms.author: dearbeen
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 069c7f067ee1d408ad92cb980d81b807bce0d880
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 19aa57453227edf366ea663b4d9fee01c6d8ed12
+ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32180591"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33868699"
 ---
 # <a name="faq---upgrading-from-skype-for-business-to-microsoft-teams"></a>Preguntas frecuentes: actualizar desde Skype Empresarial a Microsoft Teams
 
@@ -202,7 +202,7 @@ La primera versión de Sistemas de salas de Skype (o Sistemas de salas de Lync) 
 
 ### <a name="whats-planned-for-new-management-experiences"></a>¿Qué se ha planificado para las nuevas experiencias de administración?
 
-Microsoft ha lanzado el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) para los profesionales de TI en el Centro de administración de Office 365. Al igual que la consola de administración de Skype Empresarial, este nuevo portal se convertirá en el único lugar para administrar nuestras nuevas experiencias. La versión inicial del portal, pensada para el primer trimestre de 2018, se ha diseñado para realizar desde ahí toda la administración a través de un modelo de directivas pensadas para empresas, solo para clientes de Microsoft Teams, y reemplazará la interfaz de administración actual de Microsoft Teams. Con este portal, podremos crear directivas personalizadas de presencia, chat, aplicaciones, reuniones y voz, así como asignarlas a usuarios de Microsoft Teams.
+Microsoft ha lanzado el [Centro de administración de Microsoft Teams](https://admin.teams.microsoft.com/) para los profesionales de TI en el Centro de administración de Microsoft 365. Al igual que la consola de administración de Skype Empresarial, este nuevo portal se convertirá en el único lugar para administrar nuestras nuevas experiencias. La versión inicial del portal, pensada para el primer trimestre de 2018, se ha diseñado para realizar desde ahí toda la administración a través de un modelo de directivas pensadas para empresas, solo para clientes de Microsoft Teams, y reemplazará la interfaz de administración actual de Microsoft Teams. Con este portal, podremos crear directivas personalizadas de presencia, chat, aplicaciones, reuniones y voz, así como asignarlas a usuarios de Microsoft Teams.
 
 ## <a name="device-compatibility"></a>Compatibilidad de dispositivos
 

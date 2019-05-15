@@ -1,7 +1,7 @@
 ---
 title: Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure
-ms.author: jambirk
-author: jambirk
+ms.author: v-lanac
+author: lanachin
 ms.reviewer: Turgayo
 manager: serdars
 ms.audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
 description: En este artículo se explica cómo implementar la administración de dispositivos de Microsoft salones de los equipos de una manera integrada, end-to-end mediante el Monitor de Azure.
-ms.openlocfilehash: c9808e03a9f72ce016e4e16b06a277377832122b
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 36d454239ca7c44004f62ee365ac23178bf58fbf
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33363044"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33916501"
 ---
 # <a name="deploy-microsoft-teams-rooms-management-with-azure-monitor"></a>Implementar la administración de salas de equipos de Microsoft con el Monitor de Azure
 

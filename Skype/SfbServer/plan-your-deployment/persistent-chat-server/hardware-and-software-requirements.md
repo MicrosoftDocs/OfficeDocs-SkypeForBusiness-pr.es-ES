@@ -1,8 +1,8 @@
 ---
 title: Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: serdars
-author: SerdarSoysal
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 7/19/2018
 ms.audience: ITPro
@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
 description: 'Resumen: Lea este tema para obtener más información acerca de los requisitos de hardware y software para el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: e71aa64d776f8a6ce20008cc808e95ea913f0a43
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 26c434bd915ab7b19aa096e47e469f5b6c16dd6a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32213770"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33924454"
 ---
 # <a name="hardware-and-software-requirements-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Requisitos de hardware y software para el servidor de chat persistente en Skype Empresarial Server 2015
  

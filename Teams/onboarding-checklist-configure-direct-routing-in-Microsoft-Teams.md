@@ -1,7 +1,7 @@
 ---
 title: Lista de comprobación de incorporación para configurar el enrutamiento directo en Microsoft Teams
-author: rmw2890
-ms.author: Rowille
+author: lanachin
+ms.author: v-lanac
 manager: serdars
 ms.date: 06/07/2018
 ms.topic: article
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd5badad4051072ff9a52a013f5701501ed8744d
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: a69b71c4b55987b9495ebef149e8057fa6340775
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401902"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33902866"
 ---
 # <a name="configure-direct-routing-in-microsoft-teams"></a>Configurar el enrutamiento directo en los equipos de Microsoft
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e53ed44f4377d90ae0d43b8c8971f651d940b839
-ms.sourcegitcommit: ee3f79ce1b6da0885e1096f9fba894bcff1814da
+ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
+ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/25/2019
-ms.locfileid: "33298488"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "33865183"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Supervisar el uso y los comentarios en Microsoft Teams
 Es importante saber cómo los usuarios utilizan Teams y cuál es su experiencia con Teams. Los informes de uso pueden ayudarle a comprender mejor los patrones de uso y, junto con los comentarios de los usuarios, proporcionarle información para ampliar la implementación y saber en qué áreas debe dar prioridad a los esfuerzos de aprendizaje y comunicación.
@@ -51,10 +51,10 @@ Para ver estos informes, debe ser un administrador global de Office 365, adminis
 
 Para obtener más información, consulte [Análisis e informes de Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md). 
 
-### <a name="teams-activity-reports-office-365-admin-center"></a>Informes de actividades de Teams (Centro de administración de Office 365)
-También puede ver la actividad de Teams a través de los informes disponibles en el Centro de administración de Office 365. Estos informes forman parte de los informes de Office 365 en el Centro de administración de Office 365 y proporcionan información sobre el uso de dispositivos y la actividad de los usuarios. 
+### <a name="teams-activity-reports-microsoft-365-admin-center"></a>Informes de actividades de Teams (Centro de administración de Microsoft 365)
+También puede ver la actividad de Teams a través de los informes disponibles en el Centro de administración de Microsoft 365. Estos informes forman parte de los informes de Office 365 en el Centro de administración de Microsoft 365 y proporcionan información sobre el uso de dispositivos y la actividad de los usuarios. 
 
-Para ver estos informes, vaya al Centro de administración de Office 365, haga clic en **Informes** > **Uso**. En **Seleccionar un informe**, haga clic en **Microsoft Teams**. A continuación, elija el informe que quiera ver.
+Para ver estos informes, vaya al Centro de administración de Microsoft 365, haga clic en **Informes** > **Uso**. En **Seleccionar un informe**, haga clic en **Microsoft Teams**. A continuación, elija el informe que quiera ver.
 
 Para obtener más información, vaya a [Usar informes de actividad de Teams](teams-activity-reports.md).
 

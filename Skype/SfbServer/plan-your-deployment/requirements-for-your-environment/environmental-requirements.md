@@ -1,8 +1,8 @@
 ---
 title: Requisitos del entorno para Skype Empresarial Server 2015
 ms.reviewer: ''
-ms.author: heidip
-author: microsoftheidi
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 2/15/2018
 ms.audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Resumen: Configurar los requisitos de servidor que no sean de Skype para Business Server 2015. Hay una gran variedad de cosas que querrá configurado antes de realizar la implementación, incluidos Active Directory, DNS, certificados y uso compartido de archivos.'
-ms.openlocfilehash: a75301a6f6f26ac933841ead0192d707d0647897
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 71916081a9ea138d22f41fd4f2813834a74e941b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32207807"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33909081"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Environmental requirements for Skype for Business Server 2015
  

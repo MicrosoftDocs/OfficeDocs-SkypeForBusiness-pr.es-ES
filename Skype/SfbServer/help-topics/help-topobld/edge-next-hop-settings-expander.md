@@ -1,8 +1,8 @@
 ---
 title: Expansor de configuración del próximo salto perimetral
 ms.reviewer: ''
-ms.author: kenwith
-author: kenwith
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 ms.date: 3/25/2015
 ms.audience: ITPro
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 description: Para definir o modificar el grupo de servidores del próximo salto que los servidores perimetrales van a usar para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista. Sólo los directores o servidores Front-End que se han configurado en el generador de topología aparecen en la lista.
-ms.openlocfilehash: c5a5aae6818e662e5e4f47d26d73b4260a1494b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d74478a4925e511438f010d502a51fbaa3d03587
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203147"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33915237"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Expansor de configuración del próximo salto perimetral
 

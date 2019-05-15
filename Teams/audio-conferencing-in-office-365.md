@@ -21,12 +21,12 @@ localization_priority: Normal
 f1keywords: ms.teamsadmincenter.audioconferencing.overview
 ms.custom:
 - Audio Conferencing
-ms.openlocfilehash: 24a85ab6fced284fc264db5bcc394769e4a0bfca
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7213b3b8a8155e8b23b8f710d241af4425a8dbe4
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198597"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970303"
 ---
 # <a name="audio-conferencing-in-office-365"></a>Audioconferencia en Office 365
 Conferencias de audio en Office 365 permite a los usuarios llaman a las reuniones desde sus teléfonos. Conferencias de audio permite a hasta 250 asistentes de teléfono.
@@ -75,7 +75,7 @@ Para obtener más información, vea [los números de teléfono para conferencias
 Los números de teléfono de las conferencias de acceso telefónico local compartidos se asignan automáticamente a las organizaciones cuando estas están habilitadas para dicho tipo de conferencias. Cuando se asignan los números de teléfono, uno se asigna como el número de teléfono predeterminado del puente de conferencias. Este número será del país o la región de la organización.
   
 > [!NOTE]
-> La ubicación de país o región de la organización puede encontrarse, inicie sesión el **Centro de administración de Office 365** y debajo de **Perfil de organización**. 
+> La ubicación de país o región de la organización puede encontrarse, inicie sesión el **Centro de administración de Microsoft 365** y debajo de **Perfil de organización**. 
   
 > [!CAUTION]
 > Debido a la disponibilidad limitada de los números de teléfono de pago en Venezuela, Indonesia y Emiratos Árabes Unidos (EAU), las organizaciones de estos países o regiones no tienen un número de teléfono de pago de conferencias de Audio que se asignan automáticamente a ellos. Los números de teléfono gratuitos de estos lugares estarán disponibles según el inventario existente. 
