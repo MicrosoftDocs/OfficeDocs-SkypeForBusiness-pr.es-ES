@@ -4,7 +4,7 @@ ms.reviewer: ''
 description: Agregue una descripción breve
 services: skype-for-business-online-admin
 author: samanro
-manager: samanro
+manager: cartayl
 layout: LandingPage
 ms.assetid: ''
 ms.service: skype-for-business-online-admin
@@ -14,12 +14,12 @@ ms.devlang: na
 ms.topic: landing-page
 ms.date: 12/13/2017
 ms.author: samanro
-ms.openlocfilehash: a59eb6c7a64de3c1b45cbd94bbbc0f3e26e8cea4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: c06dcc373b2029bac39af25a72429877c4bbd833
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32236239"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "33911350"
 ---
 # <a name="whats-new-in-skype-for-business-online"></a>Novedades de Skype para profesionales en línea
 
