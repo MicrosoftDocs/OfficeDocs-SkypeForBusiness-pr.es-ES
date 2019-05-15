@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Utilice esta tabla para buscar información sobre la obtención y administración de los números de teléfono en Australia para Skype para profesionales en línea y Microsoft Teams.
-ms.openlocfilehash: b576aa51d3fa5d773b054b8fe8eeb44db3d2b520
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 23a1b5a3a672685d7e9cb78a5fcb69892f82ab42
+ms.sourcegitcommit: 85b135cf622c9e9eb1857ef953bc618dc2cdb51e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245540"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34036655"
 ---
 # <a name="phone-number-management-for-australia"></a>Administración de números de teléfono para Australia
 En Australia, nos hemos asociado con Telstra para la compra y aprovisionamiento de planes de llamada. Teltra vender planes de llamada y proporciona la compatibilidad para la administración de números de teléfono para números de usuario y servicio para operadores automáticos y colas de llamadas. Sin embargo, los números de servicio y licencias para audioconferencias aún las venderá y administrará Office 365.
@@ -44,7 +44,7 @@ Para obtener más información, vea [administrar los números de teléfono para 
 |Obtenga los números de teléfono que se transfiere a Office 365 para los usuarios, operadores automáticos y colas de llamadas.  <br/> |Póngase en contacto con [Lllamadas Telstra de Office 365](https://aka.ms/TelstraVoicePlan) para transferir los números de teléfono. A continuación, agregará los números a la organización.  <br/> |
 |Obtenga los números de teléfono que se transfiere a Office 365 para su uso con las conferencias de Audio.  |[Por favor, póngase en contacto con nosotros](mailto:ptnapac@microsoft.com) |
 |Cambie el direccionamiento de emergencia asignado a los usuarios que tienen un número de teléfono con plan de llamadas. |Póngase en contacto con [Telstra de llamada de Office 365](https://aka.ms/TelstraVoicePlan) para realizar cambios de dirección de emergencia. Pueden actualizar esta información por usted.|
-|Cambiar un número de usuario a un número de servicio. |Este servicio de tipo no se admite en Australia.
+|Cambiar un número de usuario a un número de servicio. |Se admite cuando se usa al llamar a Telstra para Office 365.
 
 ## <a name="related-topics"></a>Temas relacionados
 

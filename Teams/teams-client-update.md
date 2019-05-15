@@ -3,7 +3,7 @@ title: Proceso de actualización de los equipos
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 05/08/2019
+ms.date: 05/13/2019
 ms.topic: article
 ms.service: msteams
 MS.collection:
@@ -14,16 +14,16 @@ search.appverid: MET150
 description: Obtenga información sobre cómo se actualiza el cliente de escritorio de los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04b7d1e66905e7859139605b90b3093a48e8afbd
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 08381341903d21deb42ca83b3769c49f67d18b14
+ms.sourcegitcommit: 2449c6dbda4a63aefe5291558cfa41ad7ccf9e39
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33829099"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33970279"
 ---
 # <a name="teams-update-process"></a>Proceso de actualización de los equipos
 
-La aplicación Web de los equipos se actualiza semanalmente.
+La aplicación web de los equipos se actualiza semanalmente.
 
 Los equipos cliente de escritorio se lanzan las actualizaciones cada dos semanas después de realizar rigurosas pruebas interno y validación a través de nuestro programa de adopción de tecnología (TAP). Normalmente, esto lleva a cabo un martes. Si se requiere una actualización crítica, los equipos omitir esta programación y la actualización de la versión tan pronto como está disponible.
 

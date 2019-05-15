@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dbe0b72c03d8e85deff538924c17dac8f0d3773c
-ms.sourcegitcommit: daf65bf09ca57554da744602d2551db53caedde5
-ms.translationtype: HT
+ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "30512992"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33994138"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -40,7 +40,7 @@ El complemento para reunión de Microsoft Teams se instala automáticamente para
 Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 
 > [!NOTE]
-> El complemento para reunión de Microsoft Teams para Outlook no está disponible actualmente para usuarios de Mac.
+> El botón de reunión de los equipos en Outlook para Mac aparecerá en el de la cinta de opciones de Mac de Outlook si Outlook se está ejecutando compilación de producción 16.20 y versiones posteriores.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 

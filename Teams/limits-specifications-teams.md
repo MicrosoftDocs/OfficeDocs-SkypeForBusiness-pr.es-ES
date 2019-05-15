@@ -15,12 +15,12 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a151ca7e35f6b512064bc1554b754e9aefdef358
-ms.sourcegitcommit: c011e4ab6f936a9e26d304835634293b1cedc57d
-ms.translationtype: HT
+ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "31043360"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993867"
 ---
 <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 =============================================
@@ -86,6 +86,9 @@ La función de chat de Microsoft Teams funciona en un back-end de Microsoft Exch
 &dagger; Si el mensaje supera este límite, se genera un mensaje de vista previa y se pide al usuario ver o descargar el mensaje original desde el vínculo proporcionado.
 
 &Dagger; Si el número de datos adjuntos o imágenes supera este límite, el mensaje no se procesará y se enviará un correo electrónico NDR al remitente para informarle del error.
+
+> [!NOTE]
+> El tamaño del mensaje, archivos adjuntos y los límites de imágenes en línea son los mismos en todas las licencias de Office 365.
 
 Para más información, vea [Límites de Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 

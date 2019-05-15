@@ -1,9 +1,9 @@
 ---
-title: Barreras de información en la vista previa de Microsoft Teams
+title: Barreras de información en la versión preliminar de Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 04/30/2019
+ms.date: 05/14/2019
 ms.topic: article
 ms.service: msteams
 ms.collection: Teams_ITAdmin_Help
@@ -12,14 +12,14 @@ ms.reviewer: vikramju
 description: Obtenga información sobre las barreras de información y cómo afectan a los equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 71c547ac13f63c9357dfb6e8a0cbe34d748646d3
-ms.sourcegitcommit: b072148ea13f4d4f6035204a48bedd287fb90ebd
+ms.openlocfilehash: 5cf9891e44df3e656255da90dc495d8f0bda8c72
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "33827791"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33993924"
 ---
-# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreras de información en la vista previa de Microsoft Teams
+# <a name="information-barriers-in-microsoft-teams-preview"></a>Barreras de información en la versión preliminar de Microsoft Teams
 
 > [!INCLUDE [Preview feature](includes/preview-feature.md)]
 
@@ -27,7 +27,8 @@ Las barreras de información son las directivas que un administrador puede confi
 
 > [!NOTE]
 > - No se puede crear grupos de barrera de información a través de los inquilinos.
-> - No se admite el uso de bots para agregar usuarios para la versión 1.
+> - No se admite el uso de bots para agregar los usuarios en la versión 1.
+> - Versión de las barreras de información 1 no incluye compatibilidad con SharePoint y OneDrive para la empresa. Estamos trabajando acerca de cómo habilitar la característica en SharePoint y se va a comunicar una vez está disponible.
 
 Directivas de barrera de información también evitar que las búsquedas y detección. Esto significa que si se intenta comunicarse con alguien que no se comunica con, no encontrará que el usuario en el selector de personas.
 
