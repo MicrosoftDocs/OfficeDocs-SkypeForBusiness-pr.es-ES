@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: When you buy Audio Conferencing licenses, Microsoft is hosting your audio conferencing bridge for your organization. The audio conferencing bridge gives out dial-in phone numbers from different locations so meeting organizers and participants can use them to join Skype for Business or Microsoft Teams meetings using a phone.
-ms.openlocfilehash: bc26fc64f4b95c1a469908251781c4951c7d0a84
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a37e7d00123dee76b512bb9a20874301e84a8406
+ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211803"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "33995162"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Cambiar los números de teléfono de su puente de Audioconferencia
 
@@ -43,7 +43,7 @@ Además de los números de teléfono ya está asignados a su puente de conferenc
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Microsoft 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
 3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **asignar**.
 
@@ -57,7 +57,7 @@ Sólo un número de teléfono de pago de servicio se puede establecer como el n�
 
 1. Inicie sesión en Office 365 con su cuenta profesional.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **reuniones** > **Puentes de conferencia**.
+2. Vaya al **Centro de administración de Microsoft 365** > **centros de administración** > **& equipos Skype** > **reuniones** > **Puentes de conferencia**.
 
 3. Resalte el número de teléfono de pago de servicio que desea configurar como predeterminado.
 
@@ -69,7 +69,7 @@ Los números de teléfono predeterminado de un usuario son los que se incluyen e
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **conferencias de Audio** > **a los usuarios**y seleccione los usuarios en la lista.
+2. Vaya al **Centro de administración de Microsoft 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **conferencias de Audio** > **a los usuarios**y seleccione los usuarios en la lista.
 
 3. Haga clic en **Editar** en el panel de acciones.
 
@@ -133,11 +133,11 @@ Para obtener más información sobre el servicio de migración de reuniones, con
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 
-2. Vaya al **Centro de administración de Office 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
+2. Vaya al **Centro de administración de Microsoft 365** > **centros de administración** > **& equipos Skype** > **portal heredado** > **voz** > **los números de teléfono**.
 
-3. Seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**.
+3. Si el número de teléfono es un número de teléfono gratuito, seleccione el número de teléfono de la lista y, en el panel de acciones, haga clic en **Cancelar asignación**. Si el número de teléfono es un número de teléfono de pago, póngase en contacto con el [soporte técnico de Microsoft](https://go.microsoft.com/fwlink/?linkid=2091806) para que el número de teléfono sin asignar.
 
-4. En la ventana confirmación, haga clic en **Sí**.
+4. Si el número de teléfono es un número de teléfono de pago fre, haga clic en **Sí** en la ventana de confirmación.
 
    > [!IMPORTANT]
    > Una vez sin asignar un puente de conferencia de audio de un número de teléfono, el número de teléfono ya no estará disponible para los usuarios participar en reuniones nuevas o existentes.
@@ -216,7 +216,7 @@ Para ahorrar tiempo mediante la automatización de este proceso, puede usar el [
   ```
 
     > [!NOTE]
-    > La ubicación que se usa arriba debe coincidir con la información de contacto de los usuarios establecidos en el Centro de administración de Office 365.
+    > La ubicación que se usa por encima de las necesidades para que coincida con la información de contacto de los usuarios que se establece en el centro de administración de Microsoft 365.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 
@@ -244,7 +244,7 @@ Con Windows PowerShell puede administrar los usuarios y lo que pueden o no puede
 
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
 
-Windows PowerShell ofrece numerosas ventajas de velocidad, sencillez y productividad con respecto al uso exclusivo del Centro de administración de Office 365, como por ejemplo a la hora de realizar cambios de configuración para varios usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre sólo desde el centro de administración de Microsoft 365 como cuando desea realizar cambios en la configuración de muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
 
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
 
