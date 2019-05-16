@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: Obtenga información sobre el análisis de llamadas y, a continuación, llame al panel de calidad y cuándo usarlos para supervisar y solucionar los problemas de calidad de la llamada.
-ms.openlocfilehash: 410b8a55fb2e0860f9b888ffc7ec26513a2d91fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6165a4473e8770e20a595e368402ff1cf5bfe6e0
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902678"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082741"
 ---
 # <a name="call-analytics-and-call-quality-dashboard"></a>Análisis de llamadas y Panel de calidad de llamadas
 
@@ -82,6 +82,7 @@ Con la Ayuda de informes de Location-Enhanced del CQD, se pueden evaluar la cali
 Si desea que no son de administrador, como agentes de departamento de soporte técnico, para usar el panel de calidad de llamadas, puede asignar a los usuarios la función de **Ingeniero de soporte técnico de los equipos de comunicaciones**, **Especialista en soporte técnico de comunicaciones de los equipos**o **Lector de informes** . Los usuarios con las siguientes funciones de pueden tener acceso a los paneles de calidad de llamadas:
 
 - Administrador global
+- Lector global
 - Skype para el Administrador de negocio
 - Administrador de servicios de Teams
 - Administrador de comunicaciones de Teams

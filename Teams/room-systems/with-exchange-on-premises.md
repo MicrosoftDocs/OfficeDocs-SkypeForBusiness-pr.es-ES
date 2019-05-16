@@ -1,5 +1,5 @@
 ---
-title: Implementar Microsoft salones de los equipos con Exchange local
+title: Implementar Salas de Microsoft Teams con Exchange local
 ms.author: v-lanac
 author: lanachin
 manager: serdars
@@ -12,14 +12,14 @@ ms.custom: Strat_SB_Admin
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection: M365-voice
 description: Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos en un entorno híbrido con Exchange local.
-ms.openlocfilehash: 1c1dd5ad49cedb2aee41b036f71bbc6b840aed96
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7ab9a582e26db15159677343d9edddd6bd9c45f9
+ms.sourcegitcommit: 751035e1d35fc79a6b74955d7c6c46ecea0645e5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916214"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34082725"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Microsoft salones de los equipos con Exchange local
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Implementar Salas de Microsoft Teams con Exchange local
 
 Lea este tema para obtener información acerca de cómo implementar Microsoft salones de los equipos en un entorno híbrido con Exchange en local y Microsoft Teams o Skype para profesionales en línea.
   
@@ -62,7 +62,7 @@ Si va a implementar Microsoft salones de los equipos con Exchange local, va a us
     > [!NOTE]
     > Selección de **la contraseña nunca caduca** es un requisito para Skype para Business Server en salas de equipos de Microsoft. Es posible que las reglas de dominio prohíban las contraseñas que no expiran. Si es así, debe crear una excepción para cada cuenta de dispositivo de salas de equipos de Microsoft.
   
-4. Tras crear la cuenta, ejecute una sincronización de directorios. Una vez finalizada, vaya a la página de los usuarios en el centro de administración de Office 365 y compruebe que la cuenta creada en los pasos anteriores se combinado en línea.
+4. Tras crear la cuenta, ejecute una sincronización de directorios. Una vez finalizada, vaya a la página de los usuarios en el centro de administración de Microsoft 365 y compruebe que la cuenta creada en los pasos anteriores se combinado en línea.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Habilitar el buzón de correo remoto y establecer propiedades
 
