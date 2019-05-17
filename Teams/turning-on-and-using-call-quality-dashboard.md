@@ -23,12 +23,12 @@ f1keywords:
 ms.custom:
 - Reporting
 description: 'Vea cómo activar y usar el Skype para profesionales Online panel calidad de llamadas y obtener informes de resumen de calidad de las llamadas. '
-ms.openlocfilehash: 51e49d786f421777116e5c1d28ff8fcb7a11bcc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 44e51b8bcc72798b1c4b40a41383826de1a74291
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920464"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106295"
 ---
 # <a name="turning-on-and-using-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Activar y con el panel de calidad de llamadas para Microsoft Teams y Skype para profesionales en línea
 
@@ -36,8 +36,6 @@ Obtenga información sobre cómo configurar la organización de Office 365 para 
   
 El panel de calidad de llamadas (CQD) para Microsoft Teams y Skype para profesionales en línea permite obtener entendimiento de la calidad de las llamadas realizadas mediante Microsoft Teams y Skype para servicios de negocios. En este tema se describe los pasos que necesitará para llevar a cabo para iniciar la recopilación de datos.
   
-> [!NOTE]
-> El CQD detallado informes actualmente están disponibles como Tech Preview pero disponibles para todos los clientes. 
   
 ## <a name="latest-changes-and-updates"></a>Los cambios más recientes y actualizaciones
 
@@ -57,23 +55,6 @@ Hacer referencia a este artículo para obtener una lista de [las dimensiones y m
 ## <a name="activate-microsoft-call-quality-dashboard-cqd-summary-reports"></a>Activar los informes de resumen del panel (CQD) de calidad de llamada de Microsoft
 
 Antes de empezar a usar el CQD, debe activarlo para su organización de Office 365.
- 
-![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
- 
-1. Inicie sesión en la organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono de **administración** para abrir el centro de administración.
-    
-2. En el panel izquierdo, en **centros de administración**, seleccione Abrir el Skype para el centro de administración de negocio de **Skype para la empresa** .
-    
-3. En Skype para el centro de administración de negocio, seleccione **Herramientas** en el panel izquierdo y, a continuación, seleccione **Skype para profesionales Online panel calidad de llamadas**.
-    
-     ![Skype para herramientas de negocio](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
-  
-4. En la página que se abre, inicie sesión con su cuenta de administrador Global y, a continuación, proporcione las credenciales para la cuenta cuando se le solicite.
-    
-     ![Inicio de sesión de CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
-  
-Después de iniciar sesión, una vez activada, la CQD comenzará el procesamiento y recopilación de datos.
-
 ![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
  
 1. Inicie sesión en la organización de Office 365 con la cuenta de administrador del servicio de Microsoft Teams y, a continuación, seleccione el icono de **administración** para abrir el centro de administración.
@@ -90,6 +71,24 @@ Después de iniciar sesión, una vez activada, la CQD comenzará el procesamient
 Después de iniciar sesión, una vez activada, la CQD comenzará el procesamiento y recopilación de datos.  
 > [!NOTE]
 > Puede tardar un par de horas para procesar datos suficientes para mostrar resultados significativos en los informes. 
+
+![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+ 
+1. Inicie sesión en la organización de Office 365 con una cuenta de administrador y, a continuación, seleccione el icono de **administración** para abrir el centro de administración.
+    
+2. En el panel izquierdo, en **centros de administración**, seleccione Abrir el Skype para el centro de administración de negocio de **Skype para la empresa** .
+    
+3. En Skype para el centro de administración de negocio, seleccione **Herramientas** en el panel izquierdo y, a continuación, seleccione **Skype para profesionales Online panel calidad de llamadas**.
+    
+     ![Skype para herramientas de negocio](media/6cc7f80f-b8e2-4a9b-aab8-ac871d07a261.png)
+  
+4. En la página que se abre, inicie sesión con su cuenta de administrador Global y, a continuación, proporcione las credenciales para la cuenta cuando se le solicite.
+    
+     ![Inicio de sesión de CQD](media/ac4c1699-d8c1-4bda-af30-0fec35b5fd22.png)
+  
+Después de iniciar sesión, una vez activada, la CQD comenzará el procesamiento y recopilación de datos.
+
+
   
 ## <a name="features-of-the-call-quality-dashboard-for-microsoft-teams-and-skype-for-business-online"></a>Características del panel de calidad de llamada para los equipos de Microsoft y Skype para la empresa en línea 
 <a name="BKMKFeaturesOfTheCQD"> </a>

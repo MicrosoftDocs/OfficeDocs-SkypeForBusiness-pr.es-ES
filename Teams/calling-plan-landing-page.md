@@ -15,14 +15,14 @@ search.appverid: MET150
 description: Llamar a la página de inicio del Plan
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 412797a52e82c03937670e895fea7b42a3ce7b4a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: d85546df76b7699986d28152ff08003612df8331
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211986"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108758"
 ---
-# <a name="phone-system-with-calling-plans"></a>Sistema telefónico con planes de llamada 
+# <a name="which-calling-plan-is-right-for-you"></a>¿Llamar a planear qué es adecuada para usted? 
 
 Se ha completado la [Introducción](get-started-with-teams-quick-start.md). Ha implementado Teams con [chat, equipos, canales y aplicaciones](deploy-chat-teams-channels-microsoft-teams-landing-page.md) en toda la organización. Es posible que haya implementado [conferencia & de las reuniones](deploy-meetings-microsoft-teams-landing-page.md). Ahora está listo para agregar las cargas de trabajo de voz de la nube y ha decidido usar el sistema telefónico de Microsoft con el Plan para llamar a para conectarse a la red telefónica pública conmutada (RTC). 
 

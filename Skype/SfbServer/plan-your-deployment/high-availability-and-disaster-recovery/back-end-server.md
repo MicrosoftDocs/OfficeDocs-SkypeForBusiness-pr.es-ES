@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c559aacb-4e1d-4e78-9582-41f966ad418d
 description: Obtenga información sobre las opciones de alta disponibilidad de servidor Back-End admitidas en Skype para Business Server, incluidos los grupos de disponibilidad AlwaysOn, las instancias de clúster de conmutación por error de AlwaysOn, la creación de reflejo de la base de datos y agrupación en clústeres de conmutación por error SQL.
-ms.openlocfilehash: d40ceb237ff52434074de29363704fdb1de5b78c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: c200596ac43099d92b7fd37e850a524cf92a24ce
+ms.sourcegitcommit: ee05fe02fe68b5bd6ee38dd4a3ad69da3d37c492
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916561"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34106302"
 ---
 # <a name="back-end-server-high-availability-in-skype-for-business-server"></a>Back-End alta disponibilidad del servidor en Skype para Business Server
  
@@ -42,6 +42,8 @@ Si usa una alta disponibilidad de servidor Back-End en un grupo de servidores Fr
 
 Skype para Business Server admite la creación de reflejos con el software de base de datos siguientes:
   
+- SQL Server 2017, Enterprise Edition y Standard Edition
+
 - SQL Server 2016, Enterprise Edition y Standard Edition
 
 - SQL Server Enterprise Edition y Standard Edition de 2014
@@ -100,9 +102,29 @@ Si tanto el servidor back-end principal como el de reflejo fallan o si se produc
   
 ## <a name="alwayson-availability-groups-and-alwayson-failover-cluster-instances"></a>Grupos de disponibilidad AlwaysOn e instancias de clústeres de conmutación por error AlwaysOn
 
-Grupos de disponibilidad AlwaysOn y las instancias de clúster de conmutación por error AlwaysOn se admiten sólo en SQL Server 2014 Enterprise Edition y Enterprise Edition de SQL Server 2012. Skype para Business Server admite grupos de disponibilidad AlwaysOn sólo como activo/pasivo, no activo/activo. 
+Skype para Business Server admite grupos de disponibilidad AlwaysOn sólo como activo/pasivo, no activo/activo. 
   
 Para usar grupos de disponibilidad AlwaysOn o las instancias de clúster de conmutación por error de AlwaysOn, primero utilizar SQL Server para instalar y configurar la solución de alta disponibilidad. A continuación, puede usar el generador de topología para asociarlo a un grupo de servidores Front-End.
+
+Skype para Business Server admite AlwaysOn con el software de base de datos siguientes:
+
+- SQL Server 2017 Enterprise Edition
+
+- SQL Server 2017 Standard Edition con limitaciones, vea la nota siguiente
+
+- SQL Server 2016 Enterprise Edition
+
+- SQL Server 2016 Standard Edition con limitaciones, vea la nota siguiente
+
+- SQL Server 2014 Enterprise Edition
+    
+- Service Pack 2 SQL Server 2012 y CU2 Enterprise Edition
+
+> [!NOTE]
+> 2017 de SQL Server y SQL Server 2016 son las únicas versiones compatibles con Skype para Business Server 2019.
+
+> [!NOTE]
+> Siempre en grupos de disponibilidad es **no** se admite en SQL 2016 y las ediciones Standard de 2017 pero se pueden usar siempre en conmutación por error de las instancias de clúster. Vea [las ediciones y características compatibles de 2016 de SQL Server](https://docs.microsoft.com/sql/sql-server/editions-and-components-of-sql-server-2016?view=sql-server-2017) para obtener más información.
   
 > [!IMPORTANT]
 > Los nombres de instancia para varias instancias de grupo de disponibilidad AlwaysOn deben ser el mismo. 

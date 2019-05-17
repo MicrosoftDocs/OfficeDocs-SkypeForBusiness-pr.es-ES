@@ -21,14 +21,16 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar los teléfonos de área común para salas de espera, áreas de recepción y salas de conferencias '
-ms.openlocfilehash: 9e68d5bc4ef0355e80e1fe6359385c10a339c0fe
-ms.sourcegitcommit: cf2cb5b7e03385b33e34a5ff89719adb882525b1
+ms.openlocfilehash: 66f84cb1ce768cc86a7c31a6ac345f0fcc135726
+ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33632380"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34108750"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Configuración de la licencia de teléfono de área común de Microsoft Teams
+> [!NOTE]
+> Teléfonos de área común no son compatibles con correo de voz.
 
 Un teléfono de área común normalmente se coloca en un área como una sala de espera o a otra área que se encuentra disponible a varias personas para realizar una llamada; Por ejemplo, una recepción área, sala de espera o conferencia telefónica. Teléfonos de área común se configuran como dispositivos en lugar de los usuarios y pueden iniciar sesión automáticamente en una red.
 
