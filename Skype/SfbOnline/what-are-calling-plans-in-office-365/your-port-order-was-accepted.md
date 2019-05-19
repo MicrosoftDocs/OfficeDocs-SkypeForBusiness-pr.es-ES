@@ -21,26 +21,26 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'What it means when your port order has been accepted, and what you need to do next to finish your Skype for Business set up. '
-ms.openlocfilehash: 450781d2318b11e7f199c6c68041aaf6bc66b21c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 56656e85f23a4c6c7082bebff628c12aea9843b4
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229519"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34159188"
 ---
 # <a name="your-port-order-was-accepted"></a>Se ha aceptado su solicitud de portabilidad
 
-¡Se aprueba su orden de puerto! Busque los números de teléfono en el **Skype para el centro de administración de negocio** > **voz** > **los números de teléfono**.
+Tu solicitud de portabilidad está aprobada. Busque sus números de teléfono en los**** > **números de teléfono**de telefonía del **Centro** > de administración de Skype empresarial.
   
  **IMPORTANTE**: Para poder ver la opción **Voz** en el panel de navegación izquierdo del Centro de administración de Skype Empresarial, primero tiene que adquirir como mínimo una **licencia de Enterprise E5**, una licencia del complemento **Sistema telefónico** o una licencia del complemento **Audioconferencia**.
   
-Ahora que se aprueba y sus números de teléfono están listos, debe hacer un par de cosas que todo esté configurado.
+Ahora que está aprobado y que sus números de teléfono están listos, tendrá que hacer un par de cosas para configurar todo.
   
-- Asegúrese de que se [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Necesitará un **Sistema telefónico** y **Llamar a planear nacionales** o **Llamar a planificar internacional**.
+- Asegúrese de que dispone de [licencias complementarias de Skype empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md). Necesitarás un **sistema telefónico** y un plan de **llamadas nacionales** o un **plan de llamadas internacionales**.
     
-- Crear su [Agregar o quitar una emergencia de direcciones para su organización](add-or-remove-an-emergency-address-for-your-organization.md) y, si se desea, su[Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md) (en algunos países o regiones, obtendrá una dirección de emergencia con el número de teléfono).
+- Crear [o quitar una dirección de emergencia de su organización](add-or-remove-an-emergency-address-for-your-organization.md) y, si lo desea,[Agregar, cambiar o quitar una ubicación de emergencia para su organización](add-change-or-remove-an-emergency-location-for-your-organization.md) (en algunos países o regiones, recibirá una dirección de emergencia con el número de teléfono).
     
-- Seguir adelante y [asignar, cambiar o quitar un número de teléfono de un usuario](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Siga adelante y [asigne, cambie o quite el número de teléfono de un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

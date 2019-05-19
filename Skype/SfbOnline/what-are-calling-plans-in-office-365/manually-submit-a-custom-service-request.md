@@ -21,18 +21,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Learn the steps you need to do to submit a port order request when you have more than 999 phone numbers to Skype for Business. '
-ms.openlocfilehash: 7c44e6be750e4793083a0fa931874db2e6b09b80
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 73978d5cc01d2cde7739b6653fcd6c75e83950ec
+ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229861"
+ms.lasthandoff: 05/17/2019
+ms.locfileid: "34158977"
 ---
 # <a name="manually-submit-a-custom-service-request"></a>Enviar manualmente una solicitud de servicio personalizado
 
-Si dispone de los números de servicio para el puente de conferencia de acceso telefónico, operadores automáticos u otros números de servicio, teléfono gratuito números o tiene más de 999 números de teléfono del usuario (suscriptor) que necesita para transferir a Skype para la empresa, necesita para administrar [de teléfono los números de la organización](/microsoftteams/manage-phone-numbers-for-your-organization).
+Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuario (suscriptor) que necesita transferir a Skype empresarial, necesita administrar el [teléfono números de la organización](/microsoftteams/manage-phone-numbers-for-your-organization).
 
-En algunos países o regiones, también tendrá que enviar manualmente una solicitud de servicio personalizado si desea obtener números de teléfono, los números de la versión o cambiar las direcciones. Para ver lo que se requiere para cada país o región o más información sobre el número de trasladar, vea [administrar los números de teléfono para su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
+En algunos países o regiones, también tendrá que enviar manualmente una solicitud de servicio personalizada si desea obtener números de teléfono, liberar los números o cambiar las direcciones. Para ver lo que se requiere para cada país o región, o para obtener más información sobre la portabilidad de números, consulte [administrar números de teléfono de su organización](/microsoftteams/manage-phone-numbers-for-your-organization).
 
 
 ## <a name="if-you-need-to-create-and-submit-a-service-request-follow-these-steps"></a>Si necesita crear y enviar una solicitud de servicio, siga estos pasos:
@@ -102,9 +102,9 @@ En algunos países o regiones, también tendrá que enviar manualmente una solic
   
 ## <a name="what-else-should-you-know-about-number-porting"></a>¿Qué más tiene que saber sobre la portabilidad de números?
 
-- Para usar planes de llamada debe comprar y asignar licencias a los usuarios. [Skype para profesionales y los equipos de Microsoft complemento licencias](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
+- Para usar los planes de llamadas, debe comprar y asignar licencias a los usuarios. [Licencias complementarias de Skype empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
     
-- Debe asignar los nuevos números de teléfono que tiene a cada uno de los usuarios. [Asignar, cambiar o quitar un número de teléfono de un usuario](assign-change-or-remove-a-phone-number-for-a-user.md).
+- Debe asignar los nuevos números de teléfono que tiene a cada uno de los usuarios. [Asignar, cambiar o quitar un número de teléfono para un usuario](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
