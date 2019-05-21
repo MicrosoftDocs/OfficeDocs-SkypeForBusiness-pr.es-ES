@@ -8,44 +8,44 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Después de implementar uno o más servidores perimetrales, debe habilitar a los tipos de dominio externo o acceso de proveedor, acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que se admite para su organización.
-ms.openlocfilehash: ab6f1ac28b375e5fddf9b99226770d92d8236bac
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Después de implementar uno o varios servidores perimetrales, debe habilitar el acceso de los tipos de dominios externos o proveedores, el acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que serán compatibles con su organización.
+ms.openlocfilehash: b79560d2cb0e570ab2b4fcf061a5b91c6a74a8bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920692"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280197"
 ---
 # <a name="manage-access-edge-configuration-for-your-organization"></a>Administrae la configuración perimetral de acceso para su organización
 
-Después de implementar uno o más servidores perimetrales, debe habilitar a los tipos de dominio externo o acceso de proveedor, acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que se admite para su organización.
+Después de implementar uno o varios servidores perimetrales, debe habilitar el acceso de los tipos de dominios externos o proveedores, el acceso de usuarios remotos y el acceso de usuarios anónimos a las conferencias a través de los servidores perimetrales que serán compatibles con su organización.
 
-Estas opciones incluyen los siguientes tipos de acceso que se pueden configurar a través de la página de **Configuración perimetral de acceso** :
+Estas opciones incluyen los siguientes tipos de acceso que se pueden configurar a través de la página **configuración de Edge de Access** :
 
-  - **Habilitar la federación y la conectividad de mensajería instantánea pública**   habilite esta opción si desea admitir el acceso de usuarios para dominios de socio federado. Esta configuración se aplica a SIP federación configuradas para global, de sitio o de los ámbitos de usuario en la página **Directiva de acceso externo** . Para que la configuración de federación que se debe aplicar, debe configurar la compatibilidad con la federación en ambas páginas.
+  - **Habilitar Federación y conectividad**   de mensajería instantánea pública habilite esta opción si desea permitir el acceso de los usuarios a dominios federados de socios federados. Esta configuración se aplica a la Federación SIP configurada para el ámbito global, de sitio o de usuario en la página **Directiva de acceso externo** . Para que se aplique la configuración de Federación, debe configurar la compatibilidad de Federación en ambas páginas.
     
-    Existen dos opciones que son valores de configuración opcionales para cómo se detectan los socios federados y si la declinación de responsabilidades de archivado (notificación a los contactos asociados externos comunicarse con el que la implementación tiene habilitado el archivado y que las comunicaciones se archivarán detalles) se van a enviar a los contactos:
+    Existen dos opciones opcionales para la forma en que se detectan los socios federados, y si se archivan descargos de responsabilidad (notificación a los contactos federados con los que se comunica que su implementación tiene habilitado el archivado y que las comunicaciones los detalles que se archivarán se enviarán a los contactos:
     
-      - **Habilitar la detección de dominio de socio**   al seleccionar esta opción permite la detección automática de dominios que se pueden federar con. Skype para Business Server utiliza los registros del sistema de nombres de dominio (DNS) para intentar descubrir dominios no incluidos en la lista de dominios permitidos, evaluar el tráfico entrante de los socios federados detectados automáticamente y limitar o bloquear ese tráfico en función de confianza nivel, de la cantidad de tráfico y las configuraciones de administrador. Si no selecciona esta opción, está habilitado el acceso de usuario federado sólo para los usuarios en los dominios que incluyen en la lista de dominios permitidos. Si selecciona esta opción, puede especificar ese individuo dominios bloqueados o permitidos, incluida la restricción del acceso a servidores específicos que ejecutan el servicio de servidor perimetral de acceso en el dominio federado. Para obtener información detallada, vea [Configurar compatibilidad para dominios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
+      - **Habilitar la detección**   de dominios asociados al seleccionar esta opción se habilita la detección automática de dominios con los que se puede federar. Skype empresarial Server usa registros del sistema de nombres de dominio (DNS) para intentar descubrir dominios que no aparecen en la lista de dominios permitidos, evaluar automáticamente el tráfico entrante de socios federados descubiertos y limitar o bloquear ese tráfico en función de la confianza. nivel, cantidad de tráfico y configuración de administrador. Si no selecciona esta opción, acceso de usuarios federados solo se habilitará para los usuarios de los dominios que incluya en la lista de dominios permitidos. Independientemente de si selecciona esta opción, puede especificar que los dominios individuales se bloqueen o se permitan, incluido el acceso restringido a servidores específicos que ejecuten el servicio perimetral de acceso en el dominio federado. Para obtener más información, vea [configurar la compatibilidad de dominios externos permitidos](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server).
     
-      - **Envío de renuncia de archivado a los socios federados**   al seleccionar esta opción permite el envío de un mensaje de renuncia de archivado a los socios federados que le informa de ellos que se registran los detalles de las comunicaciones. Si archiva las comunicaciones externas con dominios de socios federados, debe habilitar la notificación de renuncia de archivado advertir a los socios que se van a archivar sus detalles de los mensajes y las comunicaciones por su implementación. Para obtener información detallada sobre el archivado, vea [Habilitar o deshabilitar el envío de una renuncia de archivado a socios federados](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
+      - **Enviar renuncia de archivado a socios**   federados la selección de esta opción permite el envío de un mensaje de renuncia de archivado a socios federados que les informa de que se registran los detalles de la comunicación. Si archiva comunicaciones externas con dominios federados de socios federados, debe habilitar la notificación de renuncia de archivado para avisar a los socios de que su implementación ha archivado sus mensajes y sus detalles de comunicaciones. Para obtener más información sobre el archivado, vea [habilitar o deshabilitar el envío de una renuncia de archivado a un socio federado](enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners.md).
 
-  - **Habilitar el acceso de usuarios remotos**   habilite esta opción si desea que los usuarios de la organización que están fuera del firewall, por ejemplo, los usuarios que están de viaje, que puedan conectarse a Skype para Business Server y los teletrabajadores. Para obtener información detallada, vea [Habilitar o deshabilitar el acceso de usuarios remotos](enable-or-disable-remote-user-access.md).
+  - **Habilitar el acceso**   de usuarios remotos habilite esta opción si quiere que los usuarios de su organización que estén fuera del firewall, como los teletrabajadores y los usuarios que viajan, puedan conectarse a Skype empresarial Server. Para obtener más información, consulte [habilitar o deshabilitar el acceso de usuarios remotos](enable-or-disable-remote-user-access.md).
 
-  - **Permitir a los usuarios anónimos obtener acceso a las conferencias**   habilite esta opción si desea que los usuarios internos invitar a usuarios anónimos externos a las conferencias que organizan. Si se habilita a esta opción, sólo permite a los usuarios anónimos para las conferencias.
+  - **Permitir el acceso de usuarios anónimos**   a las conferencias habilite esta opción si desea que los usuarios internos inviten a usuarios anónimos externos a conferencias que organizan. Habilitar esta opción solo permite usuarios anónimos en conferencias.
 
 > [!NOTE]  
-> Además de habilitar el acceso de usuarios externos de soporte, también configurar directivas para controlar el uso de acceso de usuarios remotos en su organización antes de cualquier tipo de acceso de usuarios externos está disponible para los usuarios. Para obtener información detallada sobre cómo crear, configurar y aplicar directivas para el acceso de usuarios externos, vea [Administrar la directiva de acceso externo para su organización](../external-access-policies/manage-external-access-policy-for-your-organization.md).
+> Además de habilitar la compatibilidad con el acceso de usuarios externos, también puede configurar directivas para controlar el uso del acceso de usuarios remotos de su organización antes de que los usuarios puedan tener acceso a cualquier tipo de acceso de usuario externo. Para obtener más información sobre cómo crear, configurar y aplicar directivas para el acceso de usuarios externos, vea [administrar la Directiva de acceso externo para su organización](../external-access-policies/manage-external-access-policy-for-your-organization.md).
 
-**Visualización de información de configuración del servidor perimetral de acceso mediante el uso de cmdlets de Windows PowerShell**
+**Ver la información de configuración perimetral de acceso mediante cmdlets de Windows PowerShell**
 
-  - Información de configuración de acceso perimetral puede verse mediante el uso de Windows PowerShell y el cmdlet **Get-CsAccessEdgeConfiguration** . Este cmdlet se puede ejecutar desde la Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. 
+  - La información de configuración perimetral de acceso se puede ver con Windows PowerShell y el cmdlet **Get-CsAccessEdgeConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. 
     
-    Para ver información acerca de todas las opciones de configuración de servidor perimetral de acceso, escriba el siguiente comando en el Skype para Shell de administración de servidor empresarial y, a continuación, presione ENTRAR:
+    Para ver la información acerca de todas las opciones de configuración de Edge de Access, escriba el siguiente comando en el shell de administración de Skype empresarial Server y, a continuación, presione ENTRAR:
     
      `Get-CsAccessEdgeConfiguration`
     

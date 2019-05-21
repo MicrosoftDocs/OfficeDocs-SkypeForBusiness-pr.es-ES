@@ -1,10 +1,10 @@
 ---
-title: Directiva de acceso externo crear nuevos o editar los existentes
+title: Directiva de acceso externo crear o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtPolicyEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 0fc4578704a5a681245ccfde2e35988054d5f1b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58c685b668cfe2068044731cc714dd344484f889
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891575"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287702"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Directiva de acceso externo: Crear nueva o editar existente
 

@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/20/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3600af8d-04de-4b9a-88ac-2491ca06494d
-description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de entidad de certificación en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para Business Edition de conector en la nube.
-ms.openlocfilehash: 52f3dc8642b9f3177b215b9cd102bbd50cd22fea
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio de entidad de certificación en la carpeta CA del directorio compartido del sitio de la edición Cloud Connector de Skype empresarial.
+ms.openlocfilehash: 3251c3f608b52d217e7db04d7b5081ff73c0b487
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30899627"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287093"
 ---
 # <a name="remove-cccertificationauthorityfile"></a>Remove-CcCertificationAuthorityFile
  
-El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad del servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido del sitio de Skype para la nube de Business Connector Edition. 
+El cmdlet Remove-CcCertificationAuthorityFile quita el archivo de copia de seguridad servicio&lt;de&gt;entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA en el directorio compartido del sitio para el conector para la nube de Skype empresarial Home. 
   
 ```
 Remove-CcCertificationAuthorityFile
@@ -35,7 +35,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se quita el archivo de copia de seguridad del servicio de autoridad de certificación "&lt;SiteRootDirectory&gt;\CA\SfB CCE Root.p12" en la carpeta de la entidad emisora de certificados en el directorio de recurso compartido de sitio:
+En el ejemplo siguiente se quita el archivo de copia de&lt;seguridad&gt;servicio de entidad emisora de certificados "SiteRootDirectory \CA\SfB CCE root. p12" en la carpeta CA en el directorio compartido del sitio:
   
 ```
 Remove-CcCertificationAuthorityFile

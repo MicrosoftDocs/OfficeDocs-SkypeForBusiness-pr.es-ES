@@ -1,31 +1,31 @@
 ---
-title: Informe de lista de errores en Skype para Business Server
+title: Informe lista de errores en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b6f3a605-e0c6-461e-b17a-41d8039ace9d
-description: 'Resumen: Información sobre el informe de lista de errores en Skype para Business Server.'
-ms.openlocfilehash: 67c02e9b0366bcf850139717eedf5c3946183988
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe lista de errores en Skype empresarial Server.'
+ms.openlocfilehash: 72637863d7a15d26ea997de8a9c3526279afc57f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926602"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305762"
 ---
-# <a name="failure-list-report-in-skype-for-business-server"></a>Informe de lista de errores en Skype para Business Server 
+# <a name="failure-list-report-in-skype-for-business-server"></a>Informe lista de errores en Skype empresarial Server 
  
-**Resumen:** Obtenga información sobre el informe de lista de errores en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe lista de errores en Skype empresarial Server.
   
 El informe de lista de errores proporciona información sobre los usuarios que participaron de una sesión punto a punto o de conferencia con errores. Esta información incluye el URI del usuario que experimentó el problema, además del código de respuesta SIP y el identificador de diagnóstico asociado al error.
   
 ## <a name="accessing-the-failure-list-report"></a>Obtener acceso al informe de lista de errores
 
-El informe de lista de errores se tiene acceso haciendo clic en cualquiera de las siguientes métricas en el [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md):
+Para obtener acceso al informe de la lista de errores, haga clic en cualquiera de las siguientes métricas en el [Informe de distribución de errores de Skype empresarial Server](failure-distribution-report.md):
   
 - Principales motivos del diagnóstico (sesiones)
     
@@ -43,7 +43,7 @@ El informe de lista de errores se tiene acceso haciendo clic en cualquiera de la
     
 - Principales agentes de remitente (sesiones)
     
-Desde el informe de lista de errores, puede acceder al [informe de detalles de la sesión de punto a punto en Skype para Business Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de todos los detalles de la sesión de una sesión de punto a punto. También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.
+En el informe de la lista de errores, puede obtener acceso al [informe detallado de la sesión de punto a punto en Skype empresarial Server](peer-to-peer-session-detail-report.md) haciendo clic en la métrica de detalles de la sesión para una sesión de punto a punto. También puede tener acceso al informe de detalles de conferencia si hace clic en la métrica Conferencia para una conferencia.
   
 ## <a name="making-the-best-use-of-the-failure-list-report"></a>Aprovechar al máximo el informe de lista de errores
 
@@ -51,7 +51,7 @@ En el informe de lista de errores, puede ver una descripción de cada código de
   
 Error interno del servidor al crear medios para el usuario.
   
-Es importante tener en cuenta que el informe de lista de errores no ofrece una manera directa de recuperar una lista de todos los usuarios que participaron de al menos una sesión con errores, ni tampoco permite determinar qué usuarios participaron con más frecuencia en sesiones con errores. (En primer lugar, el informe de lista de errores no tiene capacidad de filtrado). Sin embargo, si exporta los datos y, a continuación, se convierta en un archivo de valores separados por comas, se puede usar Windows PowerShell para encontrar las respuestas a preguntas como las. Por ejemplo, supongamos que guarda los datos en un archivo .CSV con el nombre C:\Data\Failure_List.csv. De acuerdo con los datos guardados en ese archivo, este comando muestra todos los usuarios que participaron de al menos una sesión con errores: 
+Es importante tener en cuenta que el informe de lista de errores no ofrece una manera directa de recuperar una lista de todos los usuarios que participaron de al menos una sesión con errores, ni tampoco permite determinar qué usuarios participaron con más frecuencia en sesiones con errores. (Por un elemento, el informe de la lista de errores no tiene funciones de filtrado). Sin embargo, si exporta los datos y, a continuación, los convierte en un archivo de valores separados por comas, puede usar Windows PowerShell para buscar las respuestas a preguntas como estas. Por ejemplo, supongamos que guarda los datos en un archivo .CSV con el nombre C:\Data\Failure_List.csv. De acuerdo con los datos guardados en ese archivo, este comando muestra todos los usuarios que participaron de al menos una sesión con errores: 
   
 ```
 $failures = Import-Csv -Path " C:\Data\Failure_List.csv"

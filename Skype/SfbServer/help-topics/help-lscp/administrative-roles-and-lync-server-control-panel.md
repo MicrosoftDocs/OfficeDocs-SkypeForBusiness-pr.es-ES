@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HomeRole
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7d1ff1e0-eb89-4703-be50-71e94329d8b2
-description: Para poder delegar tareas administrativas a la vez mantener altos estándares de seguridad, Skype para Business Server es compatible con control de acceso basado en roles (RBAC). Con RBAC, puede conceder privilegios administrativos asignando usuarios a roles administrativos predefinidos. Skype para Business Server incluye un amplio conjunto de funciones administrativas integradas y también le permite crear nuevos roles y especificar una lista personalizada de cmdlets para cada función de nuevo. También puede agregar scripts de cmdlets a las tareas permitidas de roles de RBAC tanto predefinidos como personalizados. Para obtener información detallada, incluidas las funciones administrativas predefinidas disponibles en Skype para Business Server, consulte Role-Based Access Control.
-ms.openlocfilehash: 6bdf3a7c7b7473aac9b532d046fea3913cb35c11
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para que pueda delegar las tareas administrativas a la vez que se mantienen los altos estándares de seguridad, Skype empresarial Server admite el control de acceso basado en roles (RBAC). Con RBAC, puede conceder privilegios administrativos asignando usuarios a roles administrativos predefinidos. Skype empresarial Server incluye un amplio conjunto de roles administrativos integrados y también le permite crear nuevos roles y especificar una lista personalizada de cmdlets para cada nuevo rol. También puede agregar scripts de cmdlets a las tareas permitidas de roles de RBAC tanto predefinidos como personalizados. Para obtener información detallada, incluidas las funciones administrativas predefinidas disponibles en Skype empresarial Server, consulte control de acceso basado en roles.
+ms.openlocfilehash: 2a983e3ae5dea5e6116ac6a6e9957e22c135765b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299886"
 ---
 # <a name="administrative-roles-and-lync-server-control-panel"></a>Roles administrativos y panel de control de Lync Server
 
-Para poder delegar tareas administrativas a la vez mantener altos estándares de seguridad, Skype para Business Server es compatible con control de acceso basado en roles (RBAC). Con RBAC, puede conceder privilegios administrativos asignando usuarios a roles administrativos predefinidos. Skype para Business Server incluye un amplio conjunto de funciones administrativas integradas y también le permite crear nuevos roles y especificar una lista personalizada de cmdlets para cada función de nuevo. También puede agregar scripts de cmdlets a las tareas permitidas de roles de RBAC tanto predefinidos como personalizados. Para obtener información detallada, incluidas las funciones administrativas predefinidas disponibles en Skype para Business Server, consulte [Role-Based Access Control](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).
+Para que pueda delegar las tareas administrativas a la vez que se mantienen los altos estándares de seguridad, Skype empresarial Server admite el control de acceso basado en roles (RBAC). Con RBAC, puede conceder privilegios administrativos asignando usuarios a roles administrativos predefinidos. Skype empresarial Server incluye un amplio conjunto de roles administrativos integrados y también le permite crear nuevos roles y especificar una lista personalizada de cmdlets para cada nuevo rol. También puede agregar scripts de cmdlets a las tareas permitidas de roles de RBAC tanto predefinidos como personalizados. Para obtener información detallada, incluidas las funciones administrativas predefinidas disponibles en Skype empresarial Server, consulte [control de acceso basado en roles](https://technet.microsoft.com/library/41204ba3-ce5b-41a8-a6c3-b444468fa328.aspx).
 
 

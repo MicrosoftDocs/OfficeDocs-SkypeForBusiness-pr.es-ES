@@ -1,25 +1,25 @@
 ---
-title: Informe de distribución de errores en Skype para Business Server
+title: Informe de distribución de errores en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Resumen: Información sobre el informe de distribución de errores en Skype para Business Server.'
-ms.openlocfilehash: 1517509de09cd99f03271dccf9a4c78ba1d2d5ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de distribución de errores en Skype empresarial Server.'
+ms.openlocfilehash: d9e7d2ac0ff10743c69bee665be3878ac9009933
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912081"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305699"
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype para Business Server
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Informe de distribución de errores en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de distribución de errores en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de distribución de errores en Skype empresarial Server.
   
 El Informe de distribución de errores clasifica las sesiones con error en las categorías siguientes:
   
@@ -45,13 +45,13 @@ Puede usar estas categorías para determinar dónde se está produciendo exactam
 
 Puede tener acceso al Informe de distribución de errores desde cualquiera de los informes siguientes haciendo clic en la métrica **Volumen de errores esperados** o **Volumen de errores inesperados**:
   
-- [Informe de errores principales en Skype para Business Server](top-failures-report.md)
+- [Informe de errores principales en Skype empresarial Server](top-failures-report.md)
     
-- [Informe de diagnósticos de conferencia en Skype para Business Server](conference-diagnostic-report.md)
+- [Informe de diagnóstico de conferencia en Skype empresarial Server](conference-diagnostic-report.md)
     
-- [Informe de diagnóstico de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-diagnostic-report.md)
+- [Informe de diagnóstico de actividad de punto a punto en Skype empresarial Server](peer-to-peer-activity-diagnostic-report.md)
     
-Desde el informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver el [Informe de lista de errores en Skype para Business Server](failure-list-report.md):
+En el informe de distribución de errores, puede hacer clic en cualquiera de las siguientes métricas para ver el [Informe de la lista de errores en Skype empresarial Server](failure-list-report.md):
   
 - Principales motivos del diagnóstico (sesiones)
     
@@ -128,9 +128,9 @@ La siguiente tabla enumera la información proporcionada en el informe de distri
 
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el grupo de registrador o servidor perimetral donde tuvo lugar la sesión.  <br/> |
-|**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo de registrador o servidor perimetral.  <br/> |
-|**Sesiones** <br/> |No  <br/> |Número total de sesiones con errores por grupo de registrador o servidor perimetral.  <br/> |
+|**Clasificación** <br/> |No  <br/> |Clasificación relativa de las sesiones erróneas basadas en el grupo de registradores o el servidor perimetral donde se realizó la sesión.  <br/> |
+|**Principales grupos de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral.  <br/> |
+|**Sesiones** <br/> |No  <br/> |Número total de sesiones erróneas por grupo de registradores o servidor perimetral.  <br/> |
    
 ## <a name="metrics-for-top-sources"></a>Métricas para fuentes destacadas
 
@@ -152,7 +152,7 @@ En la siguiente tabla se enumera la información proporcionada en el informe de 
 
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Clasificación** <br/> |No  <br/> |Clasificación relativa de sesiones con errores basándose en el componente (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
+|**Clasificación** <br/> |No  <br/> |Clasificación relativa de las sesiones fallidas basadas en el componente (por ejemplo, ExumRouting, GroupChat o MediationServer).  <br/> |
 |**Principales componentes** <br/> |No  <br/> |Nombre del componente que participó en la sesión con errores.  <br/> |
 |**Sesiones** <br/> |No  <br/> |Cantidad total de sesiones con errores por componente.  <br/> |
    

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,70 +23,70 @@ f1keywords:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 ms.custom:
 - Reporting
-description: Use Analytics llamada obtener información detallada sobre los dispositivos, redes y la conectividad para solucionar problemas de usuario con Microsoft Teams y Skype para reuniones y llamadas de trabajo.
-ms.openlocfilehash: e437401f759e92aa13c0d6680ef30eabd20ffc56
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Use los detalles de análisis de llamadas sobre dispositivos, redes y conectividad para solucionar problemas de los usuarios con Microsoft Teams y las llamadas y reuniones de Skype empresarial.
+ms.openlocfilehash: 2255afa0c2af8e1c672c2830009cfb34921ceed9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32218657"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288199"
 ---
 # <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Usar el Análisis de llamadas para solucionar problemas de mala calidad en las llamadas
 
-Análisis de llamada le ayudará a solucionar los problemas de conexión o llamada con Microsoft Teams y Skype para la empresa. Análisis de la llamada, muestran información detallada acerca de los dispositivos, redes y conectividad para las llamadas y las reuniones de cada usuario en su cuenta de Office 365. Si crear, del sitio y de inquilinos se ha agregado información para análisis de llamadas, también se mostrarán para cada llamada y la sesión. Información disponible a través de análisis de llamadas puede ayudar a averiguar por qué un usuario tuvo una llamada deficiente o experiencia de reunión. 
+El análisis de llamadas le ayuda a solucionar problemas de llamadas o de conexión con Microsoft Teams y Skype empresarial. El análisis de llamadas muestra información detallada sobre los dispositivos, las redes y la conectividad de las llamadas y reuniones de cada usuario en su cuenta de Office 365. Si la información de creación, sitio y espacio empresarial se ha agregado a análisis de llamadas, también se mostrará para cada llamada y sesión. La información que se ofrece a través de análisis de llamadas puede ayudarte a determinar por qué un usuario tenía una mala llamada o una experiencia de reunión. 
   
-## <a name="call-analytics-permissions"></a>Permisos de análisis de llamada
+## <a name="call-analytics-permissions"></a>Permisos de análisis de llamadas
 
-Como la administración, obtener acceso completo a todas las características de análisis de llamadas. Además, puede asignar funciones de Azure Active Directory para el personal de soporte técnico. Asignar la función de especialista de soporte de comunicaciones de los equipos a los usuarios que deben tener una vista limitada del análisis de llamadas. Asigne la función de ingeniero de soporte de comunicaciones de los equipos a los usuarios que necesitan tener acceso a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto del centro de administración de Microsoft Teams.
+Como administrador, tiene acceso total a todas las características de análisis de llamadas. Además, puede asignar roles de Azure Active Directory al personal de soporte técnico. Asigne el rol de especialista de soporte de comunicaciones de Teams a los usuarios que deban tener una vista limitada de análisis de llamadas. Asigne el rol de Ingeniero de soporte de comunicaciones de Teams a los usuarios que necesiten acceder a la funcionalidad completa de análisis de llamadas. Ambos niveles de permisos impiden el acceso al resto del centro de administración de Microsoft Teams.
 
-Especialistas en soporte técnico de comunicaciones controlan problemas básicos de calidad de la llamada. No investigar los problemas con las reuniones. En su lugar, puedan recopilan información relacionada y, a continuación, pasar a un ingeniero de soporte técnico de comunicaciones. Los ingenieros de soporte técnico de comunicaciones vea información en el registro de llamadas detallada que está oculta de communications especialistas en soporte técnico. En la siguiente tabla se proporciona una introducción a información disponible a ingenieros de soporte técnico comunicaciones y especialistas en soporte técnico de comunicaciones al usar análisis de llamadas.
+Los especialistas de soporte técnico de comunicaciones tratan problemas básicos de la calidad de la llamada. No investiguen los problemas de las reuniones. En su lugar, recopilan información relacionada y, a continuación, se comunican con un ingeniero de soporte de comunicaciones. Los ingenieros de soporte técnico de comunicaciones ven información en registros de llamadas detallados que están ocultos para los especialistas de soporte técnico de comunicaciones. En la tabla siguiente se ofrece una descripción general de la información que están disponibles para los especialistas de soporte técnico de comunicaciones y los ingenieros de soporte técnico de comunicaciones cuando usan análisis de llamadas.
 
-El nivel de permisos que se le han asignado determina qué tipo de información tiene acceso a llamar análisis de:
+El nivel de permisos que se le asigna determina el tipo de información a la que tiene acceso en el análisis de llamadas:
   
-- **Los equipos de servicio de administrador o administrador de comunicaciones de los equipos**: tener acceso a toda la información en análisis de llamadas y en el centro de administración de Microsoft Teams.
+- **Administrador de servicios de Teams o administrador de comunicaciones**de Teams: tiene acceso a toda la información de análisis de llamadas y del centro de administración de Microsoft Teams.
     
-- **Especialista en soporte de comunicaciones de los equipos**: vea un conjunto limitado de datos de análisis de llamadas. Puede solucionar problemas de las llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte de comunicaciones de los equipos. No tiene acceso al resto del centro de administración de Microsoft Teams.
+- **Especialista de soporte técnico de comunicaciones**de Teams: en el análisis de llamadas verá un conjunto limitado de datos. Puede solucionar problemas de llamadas, pero podrá entregar problemas con las reuniones a un ingeniero de soporte técnico de comunicaciones de Teams. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
-- **Ingeniero de soporte de los equipos de comunicaciones**: vea todos los datos disponibles en análisis de llamadas y puede ayudar a solucionar los problemas con las llamadas y las reuniones. No tiene acceso al resto del centro de administración de Microsoft Teams.
+- **Ingeniero de soporte técnico de comunicaciones**de Teams: puede ver todos los datos disponibles en el análisis de llamadas y puede ayudarle a solucionar problemas con las llamadas y las reuniones. No tiene acceso al resto del centro de administración de Microsoft Teams.
     
 > [!NOTE]
-> La función de especialista en soporte técnico de communications es equivalente a soporte técnico de nivel 1 y la función de ingeniero de soporte técnico de comunicaciones es equivalente a soporte técnico de nivel 2.
+> El rol de especialista en soporte técnico de comunicaciones es equivalente al soporte de nivel 1 y el rol de Ingeniero de soporte técnico de comunicaciones es equivalente al soporte técnico de nivel 2.
 
-Para obtener más información acerca de las funciones de administración de equipos, vea [roles de administrador de equipos de uso de Microsoft para administrar los equipos](using-admin-roles.md). Para obtener una comparación detallada de la compatibilidad con las comunicaciones de los equipos especialista y las comunicaciones de los equipos admite ingeniero de roles, vea [Configurar el análisis de llamadas](set-up-call-analytics.md#set-call-analytics-permissions) 
+Para obtener más información sobre los roles de administrador de Teams, consulte [usar los roles de administrador de Microsoft Teams para administrar Teams](using-admin-roles.md). Para obtener una comparación detallada de los roles de Ingeniero de soporte de comunicaciones de Teams y Team Communications support, consulte [configurar análisis de llamadas](set-up-call-analytics.md#set-call-analytics-permissions) 
   
-Si necesita ayuda con los permisos, vea sus equipos y Skype para administración empresarial.
+Consulte sus equipos y el administrador de Skype empresarial si necesita ayuda con los permisos.
   
-## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Solucionar los problemas de calidad de llamada mediante el análisis de llamadas
+## <a name="troubleshoot-call-quality-problems-using-call-analytics"></a>Solucionar problemas de calidad de llamadas con el análisis de llamadas
 
-1. Inicie sesión con su compatibilidad con las comunicaciones de los equipos o credenciales de administrador de equipos.
+1. Inicie sesión con el soporte técnico de comunicaciones de Teams o las credenciales de administrador de Teams.
 
-2. En el explorador web, vaya a *https://admin.teams.microsoft.com*.
+2. En el explorador Web, vaya *https://admin.teams.microsoft.com*a.
     
-3. En el **panel**, en la **Búsqueda de usuarios**, empiece a escribir el nombre o la dirección sip del usuario cuyas llamadas desea solucionar problemas o seleccione **Ver los usuarios** para ver una lista de los usuarios.
+3. En el **Panel**, en **búsqueda de usuario**, empiece a escribir el nombre o la dirección SIP del usuario cuyas llamadas desea solucionar o seleccione **Ver usuarios** para ver una lista de usuarios.
     
-    ![Captura de pantalla del cuadro de búsqueda de usuarios del análisis de llamadas en el centro de administración de Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
+    ![Captura de pantalla del cuadro de búsqueda de usuario de análisis de llamadas en el centro de administración de Microsoft Teams.](media/use-call-analytics-to-troubleshoot-image-1.png)
   
-4. Seleccione el usuario en la lista.
+4. Seleccione el usuario de la lista.
 
-5. Seleccione **historial de llamadas**y, a continuación, seleccione la llamada o reunión que va a solucionar problemas.
+5. Seleccione **historial de llamadas**y, a continuación, seleccione la llamada o la reunión que desea solucionar.
     
-    ![Captura de pantalla muestra la página de historial de llamadas para un usuario.](media/use-call-analytics-to-troubleshoot-image-2.png)
+    ![Captura de pantalla que muestra la página historial de llamadas de un usuario.](media/use-call-analytics-to-troubleshoot-image-2.png)
   
-6. Seleccione la ficha **Opciones avanzadas** y, a continuación, busque elementos de amarillos y rojos que indican problemas de calidad o conexión llamada deficiente.
+6. Seleccione la pestaña **avanzado** y, a continuación, busque los elementos amarillos y rojos que indican una mala calidad de la llamada o problemas de conexión.
     
-    En los detalles de la sesión para cada llamada o una reunión, problemas secundarias aparecen en amarillo. (Por ejemplo, en la siguiente captura de pantalla, los valores están en amarillo para vibración Media, la vibración de Max y la frecuencia de pérdida de paquetes promedio.) Si algo es el amarillo, está fuera del intervalo normal y puede contribuir al problema, pero es poco probable que sea la causa principal del problema. Si algo es rojo, es un problema importante, y es probable que es la causa principal de la calidad de llamadas deficientes para esta sesión. 
+    En los detalles de la sesión de cada llamada o reunión, los problemas secundarios aparecen en amarillo. (Por ejemplo, en la siguiente captura de pantalla, los valores están en amarillo para las vibraciones medias, la vibración máxima y la tasa de pérdida de paquetes promedio.) Si algo es amarillo, está fuera del rango normal y puede estar contribuyendo al problema, pero probablemente no sea la causa principal del problema. Si algo está rojo, es un problema importante y es probable que sea la causa principal de la mala calidad de la llamada para esta sesión. 
     
-    ![Captura de pantalla muestra la ficha Avanzadas del historial de llamadas de un usuario ](media/use-call-analytics-to-troubleshoot-image-3.png)
+    ![Captura de pantalla que muestra la pestaña avanzadas del historial de llamadas de un usuario ](media/use-call-analytics-to-troubleshoot-image-3.png)
   
-En algunos casos poco frecuentes, no se recibió calidad de experiencia de datos para las sesiones de audioconferencias. A menudo esto está causado por la llamada quitando y la conexión con el cliente de terminación. Cuando esto ocurre, la clasificación de la sesión no está **disponible**.
+En raras ocasiones, no se reciben datos sobre la calidad de la experiencia de las sesiones de audio. A menudo, esto se debe a la cancelación de la llamada y a la conexión con el cliente que finaliza. Cuando esto sucede, la clasificación de la sesión **no está disponible**.
   
-Para las sesiones de audioconferencias que tienen la calidad de los datos de la experiencia (QoE), en la siguiente tabla se describe los problemas principales que calificar una sesión como **deficiente**.
+En el caso de las sesiones de audio que tienen los datos de calidad de la experiencia (QoE), en la tabla siguiente se describen problemas importantes que califican una sesión como **mala**.
   
 |**Problema**|**Área**|**Descripción**|
 |:-----|:-----|:-----|
-|Programa de instalación de la llamada  <br/> |Sesión  <br/> |El código de error de que MS-diag 20-29 indica el error en la configuración de la llamada. El usuario no puede unirse a la llamada o reunión.  <br/> |
-|Red audio clasificados llamada deficiente  <br/> |Sesión  <br/> |Se encontraron problemas de calidad de red (por ejemplo, la pérdida de paquetes, vibración, degradación de NMOS, RTT o relación oculta). Para obtener más información acerca de las condiciones que se usan para clasificar las llamadas deficientes, vea esta [entrada de blog de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
-|Dispositivo no funciona  <br/> |Dispositivo  <br/> | Un dispositivo no está funcionando correctamente. Dispositivo no funciona proporciones es: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
+|Configuración de llamadas  <br/> |Sesión  <br/> |El código de error MS-Diag 20-29 indica que se produjo un error en la configuración de la llamada. El usuario no pudo unirse a la llamada o reunión.  <br/> |
+|Red de audio clasificada llamada deficiente  <br/> |Sesión  <br/> |Se encontraron problemas de calidad de red (como pérdida de paquetes, vibración, degradación NMOS, RTT o relación de ocultación). Para obtener más información sobre las condiciones que se usan para clasificar las llamadas incorrectas, vea esta [entrada de blog de Microsoft](https://go.microsoft.com/fwlink/p/?linkid=852133).  <br/> |
+|El dispositivo no funciona  <br/> |Dispositivo  <br/> | Un dispositivo no funciona correctamente. Las relaciones de dispositivo no funcionan: <br/>  DeviceRenderNotFunctioningEventRatio > = 0,005 <br/>  DeviceCaptureNotFunctioningEventRatio > = 0,005 <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar el Análisis de llamadas](set-up-call-analytics.md)

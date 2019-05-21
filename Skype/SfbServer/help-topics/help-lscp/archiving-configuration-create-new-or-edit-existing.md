@@ -1,11 +1,11 @@
 ---
-title: Configuración de archivado crear nuevos o editar los existentes
+title: Configuración de archivado crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.MonArchSettingEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 49096960-c442-4846-be8f-03c167acea41
 description: 'Las configuraciones de archivado sirven para controlar las opciones de archivado de su implementación. Las configuraciones de archivado constan de la configuración global y, de forma opcional, de una o varias configuraciones de sitio y grupo:'
-ms.openlocfilehash: d9c1d63b01afd472850a0c311ab8a001c1c80b95
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d40750069d34cb274342c1f5aab5d8191f90a334
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887212"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299879"
 ---
 # <a name="archiving-configuration-create-new-or-edit-existing"></a>Configuración de archivado: Crear nueva o editar existente
  
@@ -26,25 +26,25 @@ Las configuraciones de archivado sirven para controlar las opciones de archivado
   
 - **Configuración global** La configuración global se crea de forma predeterminada. La configuración global se puede editar, pero no eliminar. Si intenta eliminarla, todas las opciones se restablecerán a los valores predeterminados.
     
-- **Configuración de sitio (opcional)** Puede especificar uno o varios sitios las configuraciones de archivado, que cada uno de los cuales puede configurar para controlar las opciones de un sitio específico de archivado. Una configuración de sitio reemplaza a la configuración global, pero solo en los sitios especificados en las configuraciones de sitio de archivado. Las configuraciones de sitio se pueden editar o eliminar.
+- **Configuración del sitio (opcional)** Puede especificar una o más configuraciones de archivado de sitio, cada una de las cuales puede configurar para controlar las opciones de archivado de un sitio específico. Una configuración de sitio reemplaza a la configuración global, pero solo en los sitios especificados en las configuraciones de sitio de archivado. Las configuraciones de sitio se pueden editar o eliminar.
     
-- **Configuración de grupo de servidores (opcional)** Puede especificar uno o más del grupo las configuraciones de archivado, al control de las opciones para un grupo específico de archivado. Una configuración de grupo reemplaza a la configuración global y la configuración del sitio, pero solo en los grupos especificados en las configuraciones de grupo de archivado. Las configuraciones de grupo se pueden editar o eliminar.
+- **Configuración del grupo (opcional)** Puede especificar una o más configuraciones de archivado de grupo para controlar las opciones de archivado de un grupo específico. Una configuración de grupo reemplaza a la configuración global y la configuración del sitio, pero solo en los grupos especificados en las configuraciones de grupo de archivado. Las configuraciones de grupo se pueden editar o eliminar.
     
 > [!NOTE]
-> Las configuraciones de archivado se aplican a los usuarios hospedados en Skype para Business Server y, si habilita la opción de integración de Microsoft Exchange para usar Exchange 2013 para almacenar datos de archivado en Microsoft Exchange, para los usuarios alojados en Exchange 2013. Sin embargo, algunas de las opciones se implementan ligeramente diferente para los usuarios alojados en Exchange 2013, tal como se describe en la siguiente sección. 
+> Las configuraciones de archivado se aplican a los usuarios alojados en Skype empresarial Server y, si habilita la opción de integración de Microsoft Exchange para usar Exchange 2013 para almacenar los datos de archivado en Microsoft Exchange, para los usuarios alojados en Exchange 2013. Sin embargo, algunas opciones se implementan de forma ligeramente distinta para los usuarios alojados en Exchange 2013, tal y como se describe en la siguiente sección. 
   
 Especifique las siguientes opciones para configurar los ajustes de una nueva configuración de archivado o de una ya existente:
 - **Nombre** Cada configuración de archivado requiere un nombre. El nombre se determina por el tipo de configuración que está agregando o editando:
     
-  - **Configuración global** El nombre predeterminado es Global. Por ejemplo, Contoso norteamericanos organización.
+  - **Configuración global** El nombre predeterminado es global. Por ejemplo, organización de la Norteamérica de contoso.
     
-  - **Configuración de sitio** La lista contiene los sitios disponibles en su implementación. Haga clic en un único sitio para seleccionarlo. Por ejemplo, centro de datos de Redmond.
+  - **Configuración del sitio** La lista contiene los sitios disponibles en la implementación. Haga clic en un solo sitio para seleccionarlo. Por ejemplo, centro de datos de Redmond.
     
-  - **Configuración de grupo de servidores** Especifique un nombre adecuado, que puede ser el nombre del servidor Standard Edition o un grupo de servidores Front-End específico de la implementación. Por ejemplo, división de Marketing.
+  - **Configuración del grupo** Especifique un nombre apropiado, que puede ser el nombre de un grupo de servidores front-end específico o de un servidor Standard Edition en su implementación. Por ejemplo, División de marketing.
     
-- **Descripción** Esto es opcional. Usar para proporcionar información adicional, como el ámbito o el uso de la configuración. Por ejemplo, coordinarse con los departamentos Legal de otros sitios.
+- **Descripción** Esto es opcional. Utilícelo para proporcionar detalles adicionales, como el ámbito o el uso de la configuración. Por ejemplo, coordine con departamentos jurídicos de otros sitios.
     
-- **Configuración de archivado** Las opciones incluyen lo siguiente:
+- **Configuración** de archivado Entre las opciones se incluyen las siguientes:
     
   - **Archivar sesiones de mensajería instantánea (MI)**
     
@@ -52,24 +52,24 @@ Especifique las siguientes opciones para configurar los ajustes de una nueva con
     
   - **Deshabilitar archivado**
     
-- **Bloque de mensajería instantánea (IM) o sesiones de conferencia web si se produce un error de archivado** Errores incluyen lo siguiente:
+- **Bloquear sesiones de mensajería instantánea (mi) o conferencias web si falla** el archivado Entre los errores se incluyen los siguientes:
     
-  - **Mensajería instantánea** un error podría ser un problema con el servicio de almacenamiento o base de datos completa. En este caso, la mensajería instantánea se bloquea para los usuarios que tienen el archivado habilitado.
+  - **Mensaje instantáneo** un error puede ser una base de datos completa o un problema con el servicio de almacenamiento. En este caso, la mensajería instantánea se bloquea para los usuarios que tienen el archivado habilitado.
     
-  - **Conferencia** Un error podría ser un recurso compartido de archivo no está disponible o un problema con el servicio de almacenamiento. En este caso, todas las conferencias activas alojadas en el grupo de servidores en el momento del error se cambian al modo restringido y no se puede activar conferencias nuevas.
+  - **Conferencias** Un error podría ser un recurso compartido de archivos no disponible o un problema con el servicio de almacenamiento. En este caso, todas las conferencias activas alojadas en el grupo de servidores en el momento del error se cambian al modo restringido y no se puede activar conferencias nuevas.
     
     Tanto la mensajería instantánea como las conferencias se recuperan automáticamente después de que se corrigen los errores.
     
-- **Integración de Microsoft Exchange** Seleccione esta opción si tiene usuarios que están hospedados en Exchange 2013. Con esta opción, Exchange 2013 se usa para almacenar los datos de los usuarios, si sus buzones de correo se han colocado en suspensión en contexto. Si todos los usuarios están hospedados en Exchange 2013, no es necesario configurar bases de datos de SQL Server independientes para el almacenamiento de datos de archivado.
+- **Integración con Microsoft Exchange** Seleccione esta opción si tiene usuarios alojados en Exchange 2013. Con esta opción, Exchange 2013 se usa para almacenar datos para esos usuarios, si sus buzones se han colocado en una conservación local. Si todos los usuarios están alojados en Exchange 2013, no es necesario configurar bases de datos de SQL Server independientes para el almacenamiento de datos de archivado.
     
-- **Habilitar la depuración de datos de archivado** Seleccione esta opción para habilitar la depuración y especificar las opciones de depuración, que incluyen lo siguiente:
+- **Habilitar la purga de datos de archivado** Seleccione esta opción para habilitar la purga y especificar las opciones de purgado, entre las que se incluyen las siguientes:
     
   - Purgado después de un número específico de días que indique.
     
-  - Depuración después de los datos de archivado se han exportado (que incluye datos que se han cargado en Exchange, si habilita la integración de Microsoft Exchange).
+  - Purgar después de exportar los datos de archivado (que incluye los datos que se han cargado en Exchange, si se habilita la integración de Microsoft Exchange).
     
     > [!NOTE]
-    > Si habilita la integración de Microsoft Exchange, depuración para los usuarios alojados en Exchange 2013 y con sus buzones de correo que se colocan en suspensión en contexto se controla mediante Exchange. La única excepción es para los archivos de la conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
+    > Si habilita la integración de Microsoft Exchange, la depuración para usuarios alojados en Exchange 2013 y con sus buzones colocados en la conservación local está controlada por Exchange. La única excepción es para los archivos de conferencia, que se almacenan en el recurso compartido de archivos de Lync Server. These files are purged from the file share only after the files have been exported (uploaded to Exchange), if you select the option to purge data after the archiving data has been exported, or after the specified maximum number of days, if you specify a maximum number of days for retention. 
   
-Para obtener información detallada acerca de la característica de archivado y capacidades, que incluye la integración de Exchange, vea [Planear el archivado en Skype para Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [implementar el archivado de Skype para Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para 2015 empresariales de servidor](../../manage/archiving/archiving.md).
+Para obtener más información sobre las funciones y características de archivado, como la integración de Exchange, consulte [planear el archivado en Skype empresarial server 2015](../../plan-your-deployment/archiving/archiving.md), [implementar el archivado para Skype empresarial Server 2015](../../deploy/deploy-archiving/deploy-archiving.md)y [administrar el archivado en Skype para Business Server 2015](../../manage/archiving/archiving.md).
 

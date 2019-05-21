@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: Obtenga información sobre qué países y regiones tienen números de conferencia de marcado, y cómo asignarlos automáticamente.
-ms.openlocfilehash: 4ba3cea0b009ae91c2df1954cdee283397bf2037
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: daa2312350be038153db168517a1d0f5bd7023cf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229151"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299120"
 ---
 # <a name="phone-numbers-for-audio-conferencing-in-skype-for-business-online"></a>Números de teléfono para Audioconferencia en Skype for Business Online
 
@@ -48,7 +48,7 @@ When a Skype for Business Online user schedules a meeting in Outlook or Outlook 
   
 Para ver otros números de acceso telefónico local, haga clic en el vínculo **Buscar un número local** en la invitación a la reunión.
   
-## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico de establecer en un puente de conferencia de audio
+## <a name="dial-in-phone-numbers-set-on-an-audio-conferencing-bridge"></a>Números de teléfono de acceso telefónico local establecidos en un puente de audioconferencia
 
 Existen dos tipos de números de teléfono de conferencias de acceso telefónico local que se pueden asignar a su puente de conferencias: **compartido** y **dedicado**. Ambos tipos los puede usar cualquier persona que llame para unirse a reuniones de acceso telefónico local que se realicen en su organización.
   
@@ -63,7 +63,7 @@ Si bien el número de conferencia de acceso telefónico local que se asigna a un
 Los números de teléfono de las conferencias de acceso telefónico local compartidos se asignan automáticamente a las organizaciones cuando estas están habilitadas para dicho tipo de conferencias. Cuando se asignan los números de teléfono, uno se asigna como el número de teléfono predeterminado del puente de conferencias. Este número será del país o la región de la organización.
   
 > [!NOTE]
-> La ubicación de país o región de la organización puede encontrarse, inicie sesión el **Centro de administración de Office 365** y debajo de **Perfil de organización**. 
+> La ubicación del país o la región de su organización se puede encontrar iniciando sesión en el **centro de administración de Office 365** y buscando en Perfil de la **organización**. 
   
 > [!CAUTION]
 > Due to limited availability of toll phone numbers in Venezuela, Indonesia, and United Arab Emirates (UAE), organizations from these countries/regions won't have an Audio Conferencing toll number automatically assigned to them. Toll-free numbers from these locations are available depending on available inventory. 
@@ -74,7 +74,7 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
   
 ## <a name="what-else-should-you-know"></a>¿Qué más debe saber?
 
-- Para ver la lista de idiomas admitidos para conferencias de audio, vea [idiomas admitidos de conferencias de Audio](/MicrosoftTeams/audio-conferencing-supported-languages).
+- Para ver la lista de los idiomas admitidos para audioconferencia, consulte [idiomas compatibles con audioconferencia](/MicrosoftTeams/audio-conferencing-supported-languages).
     
 - Puede usar el cmdlet [Get-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617691) para ver los números de teléfono dedicados para conferencia de acceso telefónico local de su organización.
     
@@ -82,7 +82,7 @@ Para ver una lista de los países o regiones en los que se asignan automáticame
     
 - You can set up to four languages for each audio conferencing phone number - one primary and three secondary. And you can also set languages on a dedicated audio conferencing phone number.
     
-- Para establecer el número de teléfono de acceso telefónico para un usuario, vea [establecer el teléfono los números incluidos en invitaciones](set-the-phone-numbers-included-on-invites.md).
+- Para establecer el número de teléfono de acceso telefónico local de un usuario, vea [establecer los números de teléfono incluidos en los invitados](set-the-phone-numbers-included-on-invites.md).
     
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]
    

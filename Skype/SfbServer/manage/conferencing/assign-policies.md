@@ -1,29 +1,29 @@
 ---
-title: Asignar directivas de conferencia en Skype para Business Server
+title: Asignar directivas de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f384d19b-0950-4ec6-9d93-2c5958b83e71
-description: 'Resumen: Obtenga información sobre cómo asignar directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: f022c4b89f239d4b800df17315b07b10da985955
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a asignar directivas de conferencia en Skype empresarial Server.'
+ms.openlocfilehash: acd74262b51000a3f4af5668fb3c9271a8c0978d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919510"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289030"
 ---
-# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype para Business Server
+# <a name="assign-conferencing-policies-in-skype-for-business-server"></a>Asignar directivas de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo asignar directivas de conferencia en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo asignar directivas de conferencia en Skype empresarial Server.
   
-Puede asignar directivas de conferencia a los usuarios con Skype para Shell de administración de servidor empresarial y el cmdlet **Grant-CsConferencingPolicy** .
+Puede asignar directivas de conferencia a los usuarios mediante el shell de administración de Skype empresarial Server y el cmdlet **Grant-CsConferencingPolicy** .
   
-## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Asignar directivas de conferencia mediante Skype para Shell de administración de servidor empresarial
+## <a name="assign-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Asignar directivas de Conferencia mediante el shell de administración de Skype empresarial Server
 
 En el siguiente ejemplo, la directiva SalesConferencingPolicy se asigna al usuario con el parámetro Identity "Ken Myer":
   
@@ -37,6 +37,6 @@ En el siguiente ejemplo, la directiva de conferencia FinanceConferencingPolicy s
 Get-CsUser -OU "ou=Finance,dc=litwareinc,dc=com" | Grant-CsConferencingPolicy -PolicyName FinanceConferencingPolicy
 ```
 
-Para obtener más información, incluida la sintaxis completa y una lista de parámetros, vea [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
+Para obtener más información, incluida la sintaxis completa y una lista de parámetros, consulte [Grant-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csconferencingpolicy?view=skype-ps).
   
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddOfficeWebAppsServerPage
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8825dfb1-4b3d-4e01-ba4a-2bd800c6de3b
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El Asistente para definir nuevo Office Web Apps Server define una nueva de Office Web Apps Server en su implementación. Proporcione la información siguiente:'
-ms.openlocfilehash: 90e138771e0f4a7524d6c277e9b317778af5ff21
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'El asistente definir nuevo Office Web Apps Server define un nuevo servidor de Office Web Apps en su implementación. Proporcione la información siguiente:'
+ms.openlocfilehash: f5cf9c686ec7d42db6db15021e28493507f954b5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886876"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306167"
 ---
 # <a name="add-office-web-apps-server"></a>Agregar servidor Office Web Apps
 
-El Asistente para **Definir nuevo Office Web Apps Server** define una nueva de Office Web Apps Server en su implementación. Proporcione la información siguiente:
+El asistente **definir nuevo Office Web Apps Server** define un nuevo servidor de Office Web Apps en su implementación. Proporcione la información siguiente:
 
- **FQDN del servidor de Office Web Apps**: escriba el nombre de dominio completo del servidor que se va a hospedar el servidor de Office Web Apps
+ **FQDN de Office Web Apps Server**: escriba el nombre de dominio completo del servidor que hospedará el servidor de Office Web Apps.
 
- **Dirección URL de detección de Office Web Apps Server**: escriba el localizador de completa uniforme de recursos (URL) de Office Web Apps Server
+ **URL de detección de Office Web Apps Server**: escriba el localizador de recursos uniforme (URL) completo del servidor de Office Web Apps.
 
 > [!TIP]
-> Es el comportamiento predeterminado de la **dirección URL de detección de Office Web Apps Server** crear la dirección URL en función del FQDN de Office Web Apps Server en el formato: `https://<FQDN of the Office Web Apps Server/hosting/discovery` . En la mayoría de los casos no será necesario cambiar el formato predeterminado. Es posible que necesite cambiar el formato predeterminado en caso de que el servidor de Office Web Apps y la dirección URL de detección de Office Web Apps Server deben ser diferentes. Por ejemplo, el servidor de aplicaciones Web de Office se coloca en la red perimetral y tendrá una dirección URL diferente en función de la ubicación.
+> El comportamiento predeterminado de la **dirección URL de detección de Office Web Apps Server** es crear la dirección URL en función del FQDN de Office Web Apps Server con el `https://<FQDN of the Office Web Apps Server/hosting/discovery` formato:. En la mayoría de los casos no será necesario cambiar el formato predeterminado. Es posible que tenga que cambiar el formato predeterminado en caso de que el servidor de Office Web Apps y la dirección URL de detección de Office Web Apps Server deban ser diferentes. Por ejemplo, su servidor de Office Web Apps se coloca en la red perimetral y tendrá una dirección URL diferente en función de la ubicación.
 
- **Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)**: seleccione la casilla de verificación si su Office Web Apps Server se coloca fuera de su firewall interno, como la red perimetral, de red externa o de otra zona de red no es la misma que la red interna.
+ **Office Web Apps Server se implementa en una red externa (es decir, perimetral/Internet)**: Active la casilla si su servidor de Office Web Apps se coloca fuera de su firewall interno, como la red perimetral, la red externa u otra zona de red. eso no es lo mismo que su red interna.
 
 ## <a name="see-also"></a>Vea también
 

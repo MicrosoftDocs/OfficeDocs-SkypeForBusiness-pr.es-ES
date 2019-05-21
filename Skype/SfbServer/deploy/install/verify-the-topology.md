@@ -1,11 +1,11 @@
 ---
-title: Comprobar la topología de Skype para Business Server
+title: Comprobar la topología en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,57 +14,57 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
-description: 'Resumen: Obtenga información sobre cómo comprobar la Skype para la topología de servidor empresarial y los servidores de Active Directory funcionan según lo previsto. Descargue una versión de prueba gratuita de Skype para Business Server desde el Evaluation de Microsoft center en: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
-ms.openlocfilehash: fc0e3a4b76ab25a8b99a3c7d48d0527fc2a1f5ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a comprobar la topología de Skype empresarial Server y los servidores de Active Directory que funcionan de la forma esperada. Descargue una prueba gratuita de Skype empresarial Server en el centro de evaluación de Microsoft en https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server:.'
+ms.openlocfilehash: aad91c7bfb1e3187ace5d5caec4e3f18952a11d8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891785"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306594"
 ---
-# <a name="verify-the-topology-in-skype-for-business-server"></a>Comprobar la topología de Skype para Business Server
+# <a name="verify-the-topology-in-skype-for-business-server"></a>Comprobar la topología en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo comprobar la Skype para la topología de servidor empresarial y los servidores de Active Directory funcionan según lo previsto. Descargue una versión de prueba gratuita de Skype para Business Server desde el [Centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
+**Resumen:** Obtenga información sobre cómo comprobar si la topología de Skype empresarial Server y los servidores de Active Directory funcionan de la forma esperada. Descargue una prueba gratuita de Skype empresarial Server en el [centro de evaluación de Microsoft](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).
   
-Una vez que tenga la topología publicada y el Skype para los componentes del sistema de Business Server instalado en cada uno de los servidores de la topología, está listo para comprobar que la topología funciona según lo previsto. Esto incluye la comprobación de que la configuración se propaga a todos los servidores de Active Directory para que todo el dominio sepa que Skype para la empresa está disponible en el dominio. Se pueden realizar los pasos del 1 al 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden y después de los pasos del 1 al 5, tal como se indica en el diagrama. Comprobar la topología es el paso 8 de 8.
+Una vez publicada la topología y los componentes del sistema de Skype empresarial Server instalados en cada uno de los servidores de la topología, estará listo para comprobar que la topología funciona de la forma esperada. Esto incluye comprobar que la configuración se propagó a todos los servidores de Active Directory para que todo el dominio sepa que Skype empresarial está disponible en el dominio. Puede realizar los pasos 1 a 5 en cualquier orden. Sin embargo, debe realizar los pasos 6, 7 y 8 en orden, y después de los pasos 1 a 5, según se indica en el diagrama. Comprobar la topología es el paso 8 de 8.
   
 ![Diagrama de información general.](../../media/c8698b53-1282-4978-a9a6-ca3f7a778f60.png)
   
 ## <a name="test-the-front-end-pool-deployment"></a>Probar la implementación del grupo de servidores front-end
 
-Es el paso final probar el grupo de servidores Front-End y confirme que Skype para los clientes empresariales puede comunicarse entre sí. 
+El paso final es probar el grupo de servidores front-end y confirmar que los clientes de Skype empresarial pueden comunicarse entre sí. 
   
 ### <a name="add-users-and-verify-client-connectivity"></a>Agregar usuarios y comprobar la conectividad del cliente
 
-1. Use usuarios y equipos de Active Directory para agregar el objeto de usuario de Active Directory de la función de administrador para la Skype para la implementación de Business Server (en el que está instalado Skype para el Panel de Control de servidor empresarial) al grupo **CSAdministrator** .
+1. Use equipos y usuarios de Active Directory para agregar el objeto de usuario de Active Directory del rol de administrador de la implementación de Skype empresarial Server (en la que está instalado el panel de control de Skype empresarial Server) al grupo **CSAdministrator** .
     
     > [!IMPORTANT]
-    > Si no agrega los usuarios y grupos al grupo CsAdministors, recibirá un error cuando se abre Skype para el Panel de Control de servidor empresarial que lee, "no autorizado: acceso denegado debido a un error de autorización de acceso basado en roles (RBAC) de control ." 
+    > Si no agrega los usuarios y grupos adecuados al grupo CsAdministors, recibirá un error cuando abra el panel de control de Skype empresarial Server que dice "no autorizado: acceso denegado debido a un error de autorización de control de acceso basado en roles (RBAC). ." 
   
 2. Si actualmente el objeto de usuario ha iniciado sesión, cierre sesión y, luego, vuelva a iniciarla para registrar la nueva asignación de grupo.
     
     > [!NOTE]
-    > La cuenta de usuario no puede ser el administrador local de cualquier servidor que ejecute Skype para Business Server. 
+    > La cuenta de usuario no puede ser el administrador local de ningún servidor que ejecute Skype empresarial Server. 
   
-3. Use la cuenta administrativa para iniciar sesión en el equipo donde está instalado Skype para el Panel de Control de servidor empresarial.
+3. Use la cuenta administrativa para iniciar sesión en el equipo en el que está instalado el panel de control de Skype empresarial Server.
     
-4. Inicie Skype para el Panel de Control de servidor empresarial y, a continuación, proporcione las credenciales, si se le solicita. Skype para el Panel de Control de servidor empresarial muestra información sobre la implementación.
+4. Inicie el panel de control de Skype empresarial Server y, si se le solicita, proporcione las credenciales. El panel de control de Skype empresarial Server muestra información de implementación.
     
-5. En la barra de navegación izquierda, haga clic en **topología**y, a continuación, confirme que el estado del servicio muestra un equipo con una flecha verde y que es una marca de verificación verde para el estado de la replicación junto a cada Skype para el rol de servidor de negocio que se ha implementado y poner en línea. 
+5. En la barra de navegación izquierda, haga clic en **topología**y, a continuación, confirme que el estado del servicio muestra un equipo con una flecha verde y que una marca de verificación verde para el estado de replicación está junto a cada rol de servidor de Skype empresarial que se ha implementado y se ha puesto en conexión. 
     
 6. En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, haga clic en **Habilitar usuarios**. 
     
-7. En la página **Nuevo Skype para usuarios del servidor de empresa** , haga clic en **Agregar**.
+7. En la página **nuevo usuario de Skype empresarial Server** , haga clic en **Agregar**.
     
 8. Para definir parámetros de búsqueda de los objetos que quiera encontrar, en la página **Seleccionar de Active Directory**, seleccione **Buscar** y, si lo desea, haga clic en **Agregar filtro**. También puede seleccionar **Búsqueda LDAP** y especificar una expresión de LDAP para filtrar o limitar los objetos que se devolverán. Una vez establecidas las opciones de búsqueda, haga clic en **Buscar**.
     
 9. En el panel de resultados de la búsqueda, seleccione los usuarios que desea agregar y, luego, haga clic en **Aceptar**.
     
-10. En la página **Nuevo Skype para usuarios del servidor de empresa** , los usuarios seleccionados se encuentran en la visualización de **los usuarios** . In the **Assign users to a pool** list, select the server where the users should reside.
+10. En la **nueva página de usuario de Skype empresarial Server** , los usuarios que seleccionó aparecerán en la pantalla **usuarios** . In the **Assign users to a pool** list, select the server where the users should reside.
     
     Aquí presentamos una lista de opciones que puede usar para configurar los objetos.
     
-    - **Generar el URI de SIP del usuario**
+    - **Generar el URI del SIP del usuario**
     
     - **Telefonía**
     
@@ -84,7 +84,7 @@ Es el paso final probar el grupo de servidores Front-End y confirme que Skype pa
     
     - **Directiva de cliente**
     
-    Para probar la funcionalidad básica, seleccione la opción que prefiera para la configuración de **URI de SIP del usuario de generar** (las demás opciones en las configuraciones de uso predeterminado) y, a continuación, haga clic en **Habilitar**, tal como se muestra en la ilustración.
+    Para probar la funcionalidad básica, seleccione la opción que prefiera para la configuración de **URI de SIP del usuario** (el resto de opciones de configuración use la configuración predeterminada) y, a continuación, haga clic en **Habilitar**, como se muestra en la ilustración.
     
      ![Habilita a los usuarios del Panel de control.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
@@ -94,6 +94,6 @@ Es el paso final probar el grupo de servidores Front-End y confirme que Skype pa
   
 12. Es preciso que un usuario inicie sesión en un equipo integrado en el dominio y que otro usuario lo haga en otro equipo del dominio.
     
-13. Instalar Skype para clientes empresariales en cada uno de los dos equipos cliente y, a continuación, compruebe que los dos usuarios pueden iniciar sesión en Skype para Business Server y pueden enviar mensajes instantáneos a los otros.
+13. Instale el cliente de Skype empresarial en cada uno de los dos equipos cliente y, a continuación, compruebe que ambos usuarios pueden iniciar sesión en Skype empresarial Server y que pueden enviarse mensajes instantáneos entre sí.
     
 

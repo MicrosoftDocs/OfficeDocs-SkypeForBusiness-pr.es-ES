@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo seleccionar los idiomas operador automático de audio conferencia para un número de audioconferencia en Skype for Business Online.
-ms.openlocfilehash: 393ba3433ba7241ca5c992114de02191b7fb1044
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a05b393ac671447c0efe385bb1d562039aef32d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229218"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306382"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Establecer los idiomas de operador automático para audioconferencias en Skype for Business Online
 
@@ -37,7 +37,7 @@ El operador automático de audioconferencias de Skype for Business puede saludar
 Choose one primary language and up to four secondary languages. The primary language that you set will be used first and the secondary languages will be used by the auto-attendant in order that you select. 
   
 > [!NOTE]
->  Sólo puede cambiar los idiomas de números de conferencia de audio de la categoría dedicada. No se puede cambiar los idiomas de número de conferencia de audio compartidos.
+>  Solo puede cambiar los idiomas de los números de audioconferencia que son de la categoría dedicada. Los idiomas del número de audioconferencia compartido no se pueden cambiar.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -46,14 +46,14 @@ Choose one primary language and up to four secondary languages. The primary lang
 
 Debe ser un [administrador global de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) o [administrador de Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) para llevar a cabo este paso.
     
-1. En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya al **portal heredado**. Una vez en el portal heredado, seleccione **conferencias de Audio**y, a continuación, haga clic en **puente de Microsoft**.
+1. En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a **portal heredado**. Una vez en el portal heredado ****, seleccione audioconferencias y, a continuación, haga clic en **puente de Microsoft**.
     
-2. Seleccione el número de teléfono de conferencia de audio de la lista y, en el panel de acciones, haga clic en **conjunto de idiomas**. Sólo es posible cambiar los idiomas de números de conferencias de audio dedicada.  
+2. Seleccione el número de teléfono de audioconferencias en la lista y, en el panel de acciones, haga clic en **establecer idiomas**. Solo es posible cambiar los idiomas de los números de audioconferencias dedicados.  
     
-3. En la página **conjunto de idiomas** , haga clic en la lista **idioma principal** para ver la lista completa de idiomas disponibles. Si necesita, haga clic en cada una de las listas de **idiomas secundarios** para seleccionar idioma secundario.
+3. En la página **establecer idiomas** , haga clic en la lista **idioma principal** para ver la lista completa de idiomas disponibles. Si es necesario, haga clic en cada una de las listas de **idiomas secundarios** para seleccionar el idioma secundario.
     
     > [!NOTE]
-    > Se enumeran el idioma principal y los secundarios que son compatibles. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
+    > Se enumeran el idioma principal y los secundarios que son compatibles. El orden en que se seleccionan en las listas será el orden de los idiomas que se presentan a las personas que llaman. 
   
 4. Haga clic en **Guardar **.
     
@@ -67,9 +67,9 @@ Debe ser un [administrador global de Office 365](https://support.office.com/arti
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Para automatizar este paso, puede usar los cmdlets [Set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) y [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
+Para automatizar este paso, puede usar los cmdlets [set-CsOnlineDialInConferencingServiceNumber](https://go.microsoft.com/fwlink/?LinkId=617689) y [Get-CsOnlineDialInConferencingLanguagesSupported](https://go.microsoft.com/fwlink/?LinkId=617684) .
   
-Para obtener más información, vea [Uso de Windows PowerShell para hacer Skype comunes para las tareas de administración en línea de negocio](https://go.microsoft.com/fwlink/?LinkId=525038)
+Para obtener más información, vea [usar Windows PowerShell para realizar tareas comunes de administración de Skype empresarial online](https://go.microsoft.com/fwlink/?LinkId=525038)
   
 ## <a name="related-topics"></a>Temas relacionados
 

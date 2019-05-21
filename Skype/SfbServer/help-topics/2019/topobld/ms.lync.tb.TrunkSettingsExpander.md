@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunkSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para editar o modificar la configuración de un tronco SIP, efectúe las acciones siguientes:'
-ms.openlocfilehash: 6206a52930251681b197dbeea4e882a59da68787
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 55df4a410f4d052d6dc886f609ddfc979e1a9bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921058"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289072"
 ---
 # <a name="trunk-settings-expander"></a>Expansor de configuración de tronco
 
@@ -32,17 +32,17 @@ Para editar o modificar la configuración de un tronco SIP, efectúe las accion
 
  **Protocolo de transporte SIP**: el protocolo usado puede ser TCP o TLS. TLS es el valor predeterminado. Consulte la documentación del proveedor de la puerta de enlace para obtener información sobre la compatibilidad de la puerta de enlace. El valor predeterminado es TLS; si la puerta de enlace admite TLS, en principio es la opción más segura.
 
- **Servidor de mediación asociado**: seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco SIP.
+ **Servidor de mediación asociado**: Seleccione un servidor de mediación existente de la implementación para asociarlo con el tronco del SIP.
 
 > [!NOTE]
-> Únicamente el tronco raíz puede asociarse con un servidor de mediación.
+> Solo se puede asociar el tronco raíz con un servidor de mediación.
 
- **Puerto del servidor de mediación asociado**: un valor obligatorio, esto se establece en el valor que el servidor de mediación está configurado para escuchar en.
+ **Puerto de servidor de mediación asociado**: un valor obligatorio, se establece en el valor en el que el servidor de mediación está configurado para escuchar.
 
 ![Expansor de configuración de tronco](../../../media/Trunk_Settings_Expander.jpg)
 
 ## <a name="see-also"></a>Vea también
 
-[Lista de comprobación para implementación de enlace troncal SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
+[Lista de comprobación de implementación de Troncalización SIP](https://technet.microsoft.com/library/94f4f03e-19d5-4198-92be-e4076dbb959a.aspx)
 
-[Componentes y topologías para el enlace troncal SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)
+[Componentes y topologías para Troncalización SIP](https://technet.microsoft.com/library/8ed9a9d0-517e-4f36-a131-22cdafa257fa.aspx)

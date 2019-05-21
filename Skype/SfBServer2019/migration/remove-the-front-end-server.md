@@ -1,24 +1,24 @@
 ---
-title: Quitar el servidor Front-End Enterprise Edition o servidor Front-End de Standard Edition
+title: Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Los procedimientos descritos en este tema están diseñados para que le guían por el proceso de eliminación de un grupo de servidores Front-End de Enterprise Edition o una edición Standard servidor Front-End. Después de migrar a Skype para Business Server 2019, se trata de uno de los primeros pasos para retirar el entorno heredado.
-ms.openlocfilehash: cd21eff37bfd4f1b29597ee2a44ad3bafe2c104c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Los procedimientos descritos en este tema están diseñados para guiarlo a través del proceso de eliminación de un grupo de servidores front-end Enterprise Edition o un servidor de aplicaciones para el usuario Standard Edition. Después de migrar a Skype empresarial Server 2019, este es uno de los primeros pasos para dar de baja su entorno heredado.
+ms.openlocfilehash: 62e9552f8781d753e5e03e8aa4f23ad67d40dbce
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231440"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301107"
 ---
 # <a name="remove-the-front-end-server"></a>Eliminar el servidores front-end
 
-Los procedimientos descritos en esta sección están diseñados para que le guían por el proceso de eliminación de un grupo de servidores Front-End de Enterprise Edition o una edición Standard servidor Front-End. Después de migrar a Skype para Business Server 2019, se trata de uno de los primeros pasos para retirar el entorno heredado.
+Los procedimientos descritos en esta sección están diseñados para guiarlo a través del proceso de eliminación de un grupo de servidores front-end Enterprise Edition o un servidor de aplicaciones para el usuario Standard Edition. Después de migrar a Skype empresarial Server 2019, este es uno de los primeros pasos para dar de baja su entorno heredado.
   
 ## <a name="in-this-section"></a>En esta sección
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PublishTopologyResetPoolPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: de13aab5-ac3c-44ac-9484-f97cafcf203a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: f7a9b7fd81dee1e58daed55ce5e8b120628d300c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 58aa71ac8b5a9284fa979a6829ee8364e94a3eff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919882"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289163"
 ---
 # <a name="publish-topology-reset-pool-page"></a>Página Publicar topología - Restablecer grupos
  
@@ -28,4 +28,4 @@ Para agregar nuevos equipos a un grupo de servidores existente, debe reiniciar e
   
 ## <a name="see-also"></a>Vea también
 
-[Crear y publicar la nueva topología de Skype para Business Server](../../../deploy/install/create-and-publish-new-topology.md)
+[Crear y publicar una nueva topología en Skype empresarial Server](../../../deploy/install/create-and-publish-new-topology.md)

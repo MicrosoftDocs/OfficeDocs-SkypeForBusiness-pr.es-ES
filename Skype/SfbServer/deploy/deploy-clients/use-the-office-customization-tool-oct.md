@@ -1,44 +1,44 @@
 ---
-title: Use la herramienta de personalización de Office (OCT) en Skype para Business Server
+title: Usar la herramienta de personalización de Office (OCT) en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26647cb6-ba84-4ba7-8b6f-2cf86818e530
-description: 'Resumen: Cómo usar la herramienta de personalización de Office con el Skype para clientes empresariales.'
-ms.openlocfilehash: 7f7f3f15be3591b9bfac19ae4a70d887b1ad0f83
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Cómo usar la herramienta de personalización de Office con el cliente de Skype empresarial.'
+ms.openlocfilehash: a71ab8947d964dff90510257c4a8b2cbffb3be96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893320"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306205"
 ---
-# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Use la herramienta de personalización de Office (OCT) en Skype para Business Server
+# <a name="use-the-office-customization-tool-oct-in-skype-for-business-server"></a>Usar la herramienta de personalización de Office (OCT) en Skype empresarial Server
  
-**Resumen:** Cómo usar la herramienta de personalización de Office con el Skype para clientes empresariales.
+**Resumen:** Cómo usar la herramienta de personalización de Office con el cliente de Skype empresarial.
   
-La herramienta de personalización de Office (OCT) es parte del programa de instalación y es la herramienta recomendada para muchas personalizaciones. Mediante el uso de la herramienta OCT, personalización de Office y guardar las personalizaciones en un archivo .msp de personalización. Coloque el archivo en la carpeta actualizaciones del punto de instalación de red. Al instalar Office, el programa de instalación busca un archivo de personalización del programa de instalación en la carpeta actualizaciones y aplica las personalizaciones. La carpeta de actualizaciones se puede usar solo para implementar actualizaciones de software durante la instalación inicial de Office.
+La herramienta de personalización de Office (OCT) forma parte del programa de instalación y es la herramienta recomendada para muchas personalizaciones. Al usar la OCT, se personaliza Office y se guardan las personalizaciones en un archivo. MSP de personalización del programa de instalación. El archivo se coloca en la carpeta actualizaciones del punto de instalación de red. Al instalar Office, el programa de instalación busca un archivo de personalización de la configuración en la carpeta actualizaciones y aplica las personalizaciones. La carpeta actualizaciones solo se puede usar para implementar actualizaciones de software durante una instalación inicial de Office.
   
-La herramienta OCT forma parte del programa de instalación y sólo se utiliza para las versiones de licencia por volumen del producto. Ejecute la herramienta OCT escribiendo `setup.exe /admin` en la línea de comandos desde la raíz del punto de instalación de red que contiene la oficina de los archivos de origen. Por ejemplo, use lo siguiente:
+La OCT es parte de la configuración y solo se usa para las versiones con licencia por volumen del producto. Para ejecutar la OCT, escriba `setup.exe /admin` en la línea de comandos de la raíz del punto de instalación de red que contiene los archivos de origen de Office. Por ejemplo, use lo siguiente:
   
  ```
 \\server\share\Office15\setup.exe /admin
 ```
   
-Los administradores usan la herramienta OCT para crear un archivo .msp de personalización y puede personalizar las siguientes áreas:
+Los administradores usan la OCT para crear un archivo. MSP de personalización del programa de instalación y pueden personalizar las siguientes áreas:
   
-- **Programa de instalación** Se utiliza para especificar la ubicación de instalación predeterminada en el nombre de la organización de cliente y de forma predeterminada, los orígenes de instalación de red adicionales, clave de producto, contrato de licencia para el usuario final, mostrar el nivel de versiones anteriores de Office para quitar programas personalizados que se ejecutan durante instalación, configuración de seguridad y las propiedades del programa de instalación.
+- **Configuración** Se usa para especificar la ubicación de instalación predeterminada en el cliente y el nombre de la organización predeterminada, otras fuentes de instalación en red, la clave de producto, el contrato de licencia para el usuario final, el nivel de presentación, las versiones anteriores de Office que se deben quitar y los programas personalizados que se ejecutan durante instalación, configuración de seguridad y propiedades de configuración.
     
-- **Características** Se usa para establecer la configuración de usuario y para personalizar el modo en que se instalan las características de Office. Los administradores pueden usar la OCT para especificar los valores iniciales predeterminados de la aplicación de Office para los usuarios. Los usuarios pueden modificar la mayoría de las opciones después de la instalación.
+- **Características** Se usa para configurar las opciones de usuario y personalizar la instalación de las características de Office. Los administradores pueden usar la OCT para especificar los valores iniciales predeterminados de la aplicación de Office para los usuarios. Los usuarios pueden modificar la mayoría de las opciones después de la instalación.
     
 - **Contenido adicional** Se usa para agregar o quitar archivos, agregar o quitar entradas del registro y configurar accesos directos.
     
-- **Outlook** Usar para personalizar el perfil predeterminado de Outlook de un usuario, especificar la configuración de Exchange, agregar cuentas, quitar cuentas y exportar la configuración de y especificar grupos de envío o recepción.
+- **Outlook** Se usa para personalizar el perfil predeterminado de Outlook de un usuario, especificar la configuración de Exchange, agregar cuentas, quitar cuentas y exportar configuraciones, y especificar grupos de envío y recepción.
     
-Para obtener información acerca de la herramienta OCT, vea [utilizar la herramienta OCT para personalizar Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Tenga en cuenta que esta información también se aplica a las versiones posteriores de Office.
+Para obtener más información sobre la OCT, consulte [usar la Oct para personalizar Office 2013](https://docs.microsoft.com/previous-versions/office/office-2013-resource-kit/cc179132(v=office.15)). Tenga en cuenta que esta información también se aplica a versiones posteriores de Office.
   
 

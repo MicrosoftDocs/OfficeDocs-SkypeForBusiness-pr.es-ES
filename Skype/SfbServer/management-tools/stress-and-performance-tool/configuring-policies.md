@@ -1,29 +1,29 @@
 ---
-title: Configuración de directivas para el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
+title: Configuración de directivas para la herramienta de estrés y rendimiento de Skype empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 ms.date: 11/11/2015
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
-description: Configuración de directiva de Skype para Business Server 2015 herramienta de esfuerzo y rendimiento.
-ms.openlocfilehash: 330be860d4d18eb06c4c64ac225ed621ea712767
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configuración de directivas para la herramienta de estrés y rendimiento de Skype empresarial Server 2015.
+ms.openlocfilehash: 5c8e4c296d06c736519a12da5b5e34c6f48e9ee2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906602"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299754"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuración de directivas para el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Configuración de directivas para la herramienta de estrés y rendimiento de Skype empresarial Server 2015
  
-Configuración de directiva de Skype para Business Server 2015 herramienta de esfuerzo y rendimiento.
+Configuración de directivas para la herramienta de estrés y rendimiento de Skype empresarial Server 2015.
   
-Existen varias directivas y otras áreas que puede configurar en Skype para Business Server 2015, antes de ejecutar la herramienta de rendimiento y esfuerzo:
+Hay varias directivas y otras áreas que puede configurar en Skype empresarial Server 2015, antes de ejecutar la herramienta estrés and Performance:
   
 - [Directiva de archivado](configuring-policies.md#ArchivingPolicy)
     
@@ -31,9 +31,9 @@ Existen varias directivas y otras áreas que puede configurar en Skype para Busi
     
 - [Directiva de contactos](configuring-policies.md#ContactsPolicy)
     
-- [Directiva de federación](configuring-policies.md#FederationPolicy)
+- [Directiva de Federación](configuring-policies.md#FederationPolicy)
     
-- [Directiva de Control de admisión de llamadas](configuring-policies.md#CACPolicy)
+- [Directiva de control de admisión de llamadas](configuring-policies.md#CACPolicy)
     
 - [Reglas de enrutamiento de voz](configuring-policies.md#VoiceRoutingRules)
     
@@ -43,80 +43,80 @@ Existen varias directivas y otras áreas que puede configurar en Skype para Busi
     
 - [Llamadas de emergencia](configuring-policies.md#EmergencyCalls)
     
-- [Aplicación de configuración de grupo de respuesta](configuring-policies.md#ConfigResponseGroupApp)
+- [Configuración de la aplicación de grupo de respuesta](configuring-policies.md#ConfigResponseGroupApp)
     
 ## <a name="archiving-policy"></a>Directiva de archivado
 <a name="ArchivingPolicy"> </a>
 
-Si tiene un servidor de archivado implementado en su Skype para la topología de servidor empresarial, puede buscar en la secuencia de comandos ArchivingPolicy.ps1. Si necesita más ayuda, desproteger los cmdlets de archivado y conferencias Web.
+Si tiene un servidor de archivado implementado en su topología de servidor de Skype empresarial, puede consultar el script ArchivingPolicy. ps1. Si necesita más ayuda, consulte los cmdlets de archivado y conferencias web.
   
 ## <a name="conferencing-policy"></a>Directiva de conferencia
 <a name="ConferencingPolicy"> </a>
 
-Para las conferencias, tenemos el script MeetingPolicy.ps1. Si necesita más ayuda, desproteger los cmdlets de conferencias Web.
+Para las conferencias, tenemos el script MeetingPolicy. ps1. Si necesita más ayuda, consulte los cmdlets de conferencias web.
   
 ## <a name="contacts-policy"></a>Directiva de contactos
 <a name="ContactsPolicy"> </a>
 
-Secuencia de comandos de ContactsPolicy.ps1 será el ejemplo que necesitará para revisar. Los cmdlets de mensajería instantánea y presencia le ayudará a si necesita más referencias.
+El script ContactsPolicy. PS1 será el ejemplo que necesitarás revisar. Los cmdlets de presencia y mensajería instantánea le ayudarán si necesita más referencias.
   
-## <a name="federation-policy"></a>Directiva de federación
+## <a name="federation-policy"></a>Directiva de Federación
 <a name="FederationPolicy"> </a>
 
-El script de ejemplo para la federación es FederationPolicy.ps1. Los cmdlets para revisar, si necesita más insight, será el servidor perimetral, la federación y el acceso externo.
+El script de ejemplo para la Federación es FederationPolicy. ps1. Los cmdlets para revisar, si necesita más información, serán servidor perimetral, Federación y acceso externo.
   
-## <a name="call-admission-control-policy"></a>Directiva de Control de admisión de llamadas
+## <a name="call-admission-control-policy"></a>Directiva de control de admisión de llamadas
 <a name="CACPolicy"> </a>
 
-Puede hacer referencia a BandwidthPolicy.ps1 para esta directiva. Los cmdlets de Control de admisión de llamadas tendrá más información así como.
+Puede hacer referencia a BandwidthPolicy. PS1 para esta Directiva. Los cmdlets de control de admisión de llamadas también tendrán más información.
   
 ## <a name="voice-routing-rules"></a>Reglas de enrutamiento de voz
 <a name="VoiceRoutingRules"> </a>
 
-Necesitará el script de ejemplo RoutingRules.ps1 para el enrutamiento de voz. Cuando está configurando estas reglas, tome nota del contexto de teléfono (es decir, /Location perfil o /SimpleName) y códigos de área internas y externas, por lo que puede especificar al crear usuarios. También necesitará ellos durante la configuración de LyncPerfTool (específicamente para UC de RTC y UC-RTC).
+Necesitarás el script de ejemplo RoutingRules. PS1 para el enrutamiento de voz. Cuando configure estas reglas, tome nota del contexto de teléfono (es decir, perfil de/Location o/SimpleName) y códigos de área interna y externa para poder especificarlos al crear usuarios. También los necesitará durante la configuración de LyncPerfTool (específicamente para PSTN-UC y UC-PSTN).
   
-Por ejemplo, se debe usar el parámetro SimpleName en la llamada al cmdlet **New-CsDialPlan** en el ejemplo de RoutingRules.ps1 para el valor de LocationProfile en la siguiente ilustración de UserProfileGenerator.exe:
+Por ejemplo, el parámetro SimpleName en la llamada al cmdlet **New-CsDialPlan** en el ejemplo de RoutingRules. PS1 debe usarse para el valor LocationProfile de la siguiente ilustración de UserProfileGenerator. exe:
   
 ![Herramienta de configuración de carga de Skype Empresarial, ficha Escenarios de voz, Configuración avanzada para conversaciones.](../../media/59f42e4e-8f1e-4d43-9ae2-9e6026191951.png)
   
-Para obtener información detallada, puede revisar los cmdlets de Enterprise Voice.
+Para obtener información detallada, puede revisar los cmdlets de telefonía IP empresarial.
   
 ## <a name="conference-attendant-application"></a>Aplicación de operador de conferencia
 <a name="ConfAttendantApp"> </a>
 
-En primer lugar, revise la secuencia de comandos ConferenceAutoAttendantConfiguration.ps1. Desea tome nota del número de teléfono de ConferencingAutoAttendant (1121111111 de forma predeterminada), para que pueda escribir en la herramienta de configuración de LyncPerfTool para la generación de la configuración, como sigue:
+Primero revise el script ConferenceAutoAttendantConfiguration. ps1. Querrá tomar nota del número de teléfono ConferencingAutoAttendant (1121111111 de forma predeterminada), de modo que pueda introducirlo en la herramienta de configuración de LyncPerfTool para la generación de configuración, como se indica a continuación:
   
 ![Pestaña Escenarios de voz donde se muestra el número de teléfono y el nivel de Carga de conferencia.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
-Encontrará más detalles en la conferencia y conferencia de acceso telefónico cmdlets.
+Encontrará más información en los cmdlets conferencias y conferencias de acceso telefónico local.
   
 ## <a name="server-call-park-service"></a>Servicio de estacionamiento de llamadas de servidor
 <a name="ServerCallParkServ"> </a>
 
-Esto realmente está deshabilitada de forma predeterminada. Puede revisar el script de ejemplo CallParkConfiguration.ps1 si necesita probar esto. Además, desproteger los cmdlets de aplicación de estacionamiento de llamadas según sea necesario.
+En realidad, esto está deshabilitado de forma predeterminada. Puede revisar el script de ejemplo CallParkConfiguration. PS1 si necesita probarlo. Además, consulte los cmdlets de la aplicación Parque de llamadas según sea necesario.
   
 ## <a name="emergency-calls"></a>Llamadas de emergencia
 <a name="EmergencyCalls"> </a>
 
-Debe realizar los siguientes pasos para configurar de esfuerzo y pruebas de rendimiento para las llamadas de emergencia:
+Para configurar las pruebas de estrés y rendimiento para llamadas de emergencia, tendrá que realizar los siguientes pasos:
   
-1. Configurar una ruta de voz para llamadas de emergencia. Puede utilizar la secuencia de comandos RoutingRules.ps1 y comprobar bajo el comentario " **Ruta E911 a RTC** " para obtener un ejemplo de cómo configurar la ruta de voz.
+1. Configura una ruta de voz para llamadas de emergencia. Puede usar el script RoutingRules. PS1 y comprobar en el comentario " **Route E911 to RTC** " para obtener un ejemplo de cómo configurar esta ruta de voz.
     
     > [!CAUTION]
-    > El comando de ejemplo en RoutingRules.ps1 tiene un patrón de número que incluye la cantidad 119 en lugar de 911. Se debe evitar usar 911 (o su número de emergencia local real) para evitar que las llamadas accidentales a los operadores de emergencias locales durante las pruebas de carga. Recuerde, esta configuración es únicamente con fines de simulación! 
+    > El comando de ejemplo en RoutingRules. PS1 tiene un patrón de números que incluye el número 119 en lugar de 911. Debes evitar usar 911 (o tu número de emergencia local) para evitar llamadas accidentales a tus operadores de emergencia locales durante las pruebas de carga. Recuerde que esta configuración solo es para fines de simulación. 
   
-2. Configure las direcciones rellenar los valores en la ficha **Configuración del servicio de información de ubicación** en la UserProvisioningTool, tal como se muestra en la ilustración siguiente:
+2. Configure las direcciones rellenando los valores de la pestaña **Ubicación información de configuración del servicio** en la UserProvisioningTool, como se muestra en la siguiente ilustración:
     
      ![Herramienta Aprovisionamiento de usuarios donde se muestra el número de direcciones, subredes, conmutadores y puertos.](../../media/ebe85a0c-750f-4301-97d4-d158a40ea98a.png)
   
-3. Cuando todo lo que ha especificado en el UserProvisioningTool, haga clic en el botón **Generar archivos de configuración de LIS** .
+3. Cuando haya escrito todo en la UserProvisioningTool, haga clic en el botón **generar archivos de configuración Lis** .
     
-4. Ahora se generará archivos CSV para puertos, subredes, conmutadores y puntos de acceso inalámbrico (WAP), así como un archivo XML para la herramienta de esfuerzo y rendimiento. Puede usar los archivos CSV para entradas al configurar el servicio de información de ubicación (LIS) con la secuencia de comandos LisConfiguration.ps1. Para ello, debe mover el archivo Locations0.xml a la misma carpeta que la herramienta Stress and Performance ejecutable (LyncPerfTool.exe). Esto le permitirá ejecutar escenarios (plan de marcado) de perfil de ubicación.
+4. Ahora se generarán los archivos CSV para puertos, subredes, conmutadores y puntos de acceso inalámbrico (WAP), así como un archivo XML para la herramienta de carga y rendimiento. Puede usar los archivos CSV para entradas al configurar el servicio de información de ubicación (LIS) con el script LisConfiguration. ps1. Para ello, tendrá que mover el archivo Locations0. XML a la misma carpeta que el ejecutable de la herramienta de carga y rendimiento (LyncPerfTool. exe). Esto le permitirá ejecutar escenarios de Perfil de ubicación (plan de marcado).
     
-## <a name="configuring-response-group-application"></a>Aplicación de configuración de grupo de respuesta
+## <a name="configuring-response-group-application"></a>Configuración de la aplicación de grupo de respuesta
 <a name="ConfigResponseGroupApp"> </a>
 
-El script de ejemplo es ResponseGroupConfiguration.ps1. También hay cmdlets de aplicación de grupo de respuesta para revisar para obtener más información de configuración. En el siguiente diagrama se muestra algunos de los detalles de configuración:
+El script de ejemplo es ResponseGroupConfiguration. ps1. También hay cmdlets de aplicación de grupo de respuesta para revisar para obtener más información sobre la configuración. En el diagrama siguiente se mostrarán algunos de los detalles de configuración:
   
 ![Herramienta de configuración de grupo de respuesta donde se muestran los flujos de trabajo existentes para pruebas.](../../media/e218a345-4813-4332-8cff-b48de05017ef.jpg)
   

@@ -5,34 +5,34 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
-description: 'Para modificar la configuración General para el servidor de Chat persistente o grupo de servidores de Chat persistente, configure o defina estas propiedades:'
-ms.openlocfilehash: 873989177c9830b8fb55ec7b55ba05976a9b10b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para editar la configuración general del servidor de chat persistente o del grupo de servidores de chat persistente, configure o defina estas propiedades:'
+ms.openlocfilehash: c79ef61e2b7609aa344766c37cf38adaa195f23d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910514"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289976"
 ---
 # <a name="persistent-chat-general-settings-expander"></a>Expansor de configuración general del chat persistente
  
-Para modificar la configuración **General** para el servidor de Chat persistente o grupo de servidores de Chat persistente, configure o defina estas propiedades:
+Para editar la configuración **General** del servidor de chat persistente o del grupo de servidores de chat persistente, configure o defina estas propiedades:
   
  **General**
   
-- **FQDN**: modifique esta configuración para definir el nombre de dominio completo del servidor de Chat persistente o grupo de servidores de Chat persistente
+- **FQDN**: Edite esta configuración para definir el nombre de dominio completo del servidor de chat persistente o del grupo de servidores de chat persistente
     
-- **Nombre para mostrar del grupo de chat persistente**: defina esta configuración para indicar una configuración comprensible y fácil de usar del servidor o el grupo de servidores. Esta configuración hará sea más fácil para los usuarios asociar un determinado servidor de Chat persistente o grupo de servidores de Chat persistente según el nombre para mostrar en lugar de un más difícil de entender el nombre de dominio completo.
+- **Nombre para mostrar del grupo de chat persistente**: defina esta configuración para indicar una configuración comprensible y fácil de usar del servidor o el grupo de servidores. Esta configuración hará que sea más fácil para los usuarios asociar un servidor de chat persistente determinado o un grupo de servidores de chat persistente según el nombre para mostrar en lugar de un nombre de dominio completo más difícil de comprender.
     
 - **Puerto de chat persistente**: especifique el puerto que se necesita usar para el chat persistente.
     
-Modificar la configuración de **asociaciones** para el servidor de Chat persistente o grupo de servidores de Chat persistente, configure o defina estas propiedades:
+Para editar la configuración de las **asociaciones** del servidor de chat persistente o del grupo de servidores de chat persistente, configure o defina estas propiedades:
   
  **Asociaciones**
   
@@ -40,33 +40,33 @@ Modificar la configuración de **asociaciones** para el servidor de Chat persist
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Active la casilla de verificación **la creación de reflejo de almacén de habilitar SQL Server** si desea habilitar la creación de reflejo para el almacén principal de SQL Server.
+- Active la casilla habilitar el reflejo de la **tienda de SQL Server** si quiere habilitar la creación de reflejos para el almacén principal de SQL Server.
     
-    Si opta por habilitar la creación de reflejo del almacén de SQL Server, seleccione el almacén y la instancia en la lista **almacén de la creación de reflejos de SQL Server**.
+    Si decide habilitar la creación de reflejo de la tienda de SQL Server, seleccione la tienda y la instancia en la lista de la lista **reflejo de SQL Server**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Seleccione la casilla de verificación **usar SQL Server la creación de reflejos testigo para habilitar la conmutación por error automática** si desea que la conmutación por error automática del almacén de SQL Server principal.
+- Active la casilla **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** si quiere la conmutación automática por error del almacén principal de SQL Server.
     
-    Si opta por habilitar el testigo para habilitar la conmutación por error automática de reflejo de almacén de SQL Server, seleccione el almacén y la instancia de la lista.
+    Si decide habilitar el testigo de reflejo de la tienda de SQL Server para habilitar la conmutación automática por error, seleccione la tienda y la instancia de la lista.
     
     Haga clic en **Nuevo** para definir un nuevo almacén de SQL Server y una instancia opcional para el almacén testigo.
     
-- Seleccione la casilla de verificación **Usar copia de seguridad de almacenes de SQL Server para habilitar la recuperación ante desastres** si desea habilitar el uso de recuperación ante desastres de SQL Server
+- Si desea habilitar el uso de la recuperación de desastres de SQL Server, seleccione la casilla **usar la copia de seguridad de almacenes de SQL Server para habilitar** la recuperación de desastres
     
     Si optó por habilitar la recuperación ante desastres, seleccione un almacén y una instancia de la lista **Realizar copia de seguridad de almacén de SQL Server**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Active la casilla de verificación **la creación de reflejo de almacén de habilitar SQL Server** si desea habilitar la creación de reflejo para el almacén de la creación de reflejos de SQL Server de reserva.
+- Active la casilla habilitar el reflejo de la **tienda de SQL Server** si quiere habilitar la creación de reflejos para la copia de seguridad de la tienda de SQL Server.
     
-    Si opta por habilitar el reflejo del almacén de SQL Server copia de seguridad, seleccione el almacén y la instancia de la lista **reflejo del almacén de copia de seguridad de SQL Server**.
+    Si decide habilitar la creación de reflejos de la tienda SQL Server, seleccione la tienda y la instancia de la lista de copia de seguridad de la **tienda SQL Server**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Si desea que la conmutación por error automática del almacén de SQL Server de copia de seguridad, seleccione la casilla de verificación **usar SQL Server testigo para habilitar la conmutación por error automática la creación de reflejo** .
+- Active la casilla **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** si quiere la conmutación por error automática del almacén de SQL Server de copia de seguridad.
     
-    Si opta por habilitar el testigo para habilitar la conmutación por error automática de reflejo de almacén de SQL Server, seleccione el almacén y la instancia de la lista.
+    Si decide habilitar el testigo de reflejo de la tienda de SQL Server para habilitar la conmutación automática por error, seleccione la tienda y la instancia de la lista.
     
     Haga clic en **Nuevo** para definir un nuevo almacén de SQL Server y una instancia opcional para el almacén testigo.
     
@@ -76,15 +76,15 @@ Modificar la configuración de **asociaciones** para el servidor de Chat persist
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Active la casilla de verificación **la creación de reflejo de almacén de habilitar SQL Server** si desea habilitar la creación de reflejo para el almacén de SQL Server de cumplimiento.
+- Active la casilla habilitar el reflejo de la **tienda de SQL Server** si desea habilitar el reflejo para el almacén SQL Server de cumplimiento.
     
-    Si opta por habilitar el reflejo de almacén de SQL Server de cumplimiento, seleccione el almacén y la instancia de la lista **reflejo del almacén de SQL Server de cumplimiento**.
+    Si decide habilitar la creación de reflejo de la tienda SQL Server de cumplimiento, seleccione la tienda y la instancia en la lista de cumplimiento de la **tienda SQL Server**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Seleccione la casilla de verificación **usar SQL Server la creación de reflejos testigo para habilitar la conmutación por error automática** si desea que la conmutación por error automática del almacén de SQL Server de cumplimiento.
+- Active la casilla **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** si quiere la conmutación automática por error del almacén de SQL Server de cumplimiento.
     
-    Si opta por habilitar el testigo para habilitar la conmutación por error automática de reflejo de almacén de SQL Server, seleccione el almacén y la instancia de la lista.
+    Si decide habilitar el testigo de reflejo de la tienda de SQL Server para habilitar la conmutación automática por error, seleccione la tienda y la instancia de la lista.
     
     Haga clic en **Nuevo** para definir un nuevo almacén de SQL Server y una instancia opcional para el almacén testigo.
     
@@ -92,19 +92,19 @@ Modificar la configuración de **asociaciones** para el servidor de Chat persist
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Active la casilla de verificación **la creación de reflejo de almacén de habilitar SQL Server** si desea habilitar la creación de reflejo para el almacén de SQL Server de cumplimiento.
+- Active la casilla habilitar el reflejo de la **tienda de SQL Server** si desea habilitar el reflejo para el almacén SQL Server de cumplimiento.
     
-    Si opta por habilitar el reflejo de almacén de SQL Server de cumplimiento, seleccione el almacén y la instancia de la lista **reflejo del almacén de SQL Server de cumplimiento de copia de seguridad**.
+    Si decide habilitar el reflejo de la tienda SQL Server de cumplimiento, seleccione la tienda y la instancia de la lista de comprobación de cumplimiento de copia de seguridad de la **tienda SQL Server**.
     
     Haga clic en **Nuevo** para definir un nuevo almacén y una instancia de SQL Server opcional.
     
-- Si desea que la conmutación por error automática del almacén de SQL Server de cumplimiento de copia de seguridad, seleccione la casilla de verificación **usar SQL Server testigo para habilitar la conmutación por error automática la creación de reflejo** .
+- Active la casilla **usar el testigo de reflejo de SQL Server para habilitar la conmutación por error automática** si quiere la conmutación automática por error del almacén SQL Server de cumplimiento de la copia de seguridad.
     
-    Si opta por habilitar el testigo para habilitar la conmutación por error automática de reflejo de almacén de SQL Server, seleccione el almacén y la instancia de la lista.
+    Si decide habilitar el testigo de reflejo de la tienda de SQL Server para habilitar la conmutación automática por error, seleccione la tienda y la instancia de la lista.
     
     Haga clic en **Nuevo** para definir un nuevo almacén de SQL Server y una instancia opcional para el almacén testigo.
     
-- **Almacén de archivo** Seleccione una ubicación de almacén de archivos de la lista, o haga clic en **nuevo** para crear un nuevo almacén de archivos.
+- **Almacén de archivos** Seleccione una ubicación de almacén de archivos de la lista o haga clic en **nuevo** para crear un nuevo almacén de archivos.
     
   **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   
@@ -116,6 +116,6 @@ Modificar la configuración de **asociaciones** para el servidor de Chat persist
 
 [Planificar el servidor de chat persistente en Skype Empresarial Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
-[Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
+[Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   
 [Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)

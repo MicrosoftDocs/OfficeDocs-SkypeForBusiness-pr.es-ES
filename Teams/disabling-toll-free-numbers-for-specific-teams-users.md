@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar la forma en la que los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: 6fd415575110f9c6ae1dcf7b4fc006213a23cedd
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 423aab1c942850c94385f4df15a07d3218dbe2da
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232630"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290336"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-teams-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Teams
 
@@ -46,13 +46,13 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-Desde el **Centro de administración de equipos de Microsoft**:
+Desde el **centro de administración de Microsoft Teams**:
 
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. Junto a **Audioconferencia**, haga clic en **Editar**.
 
-3. **Incluir los números gratuitos en convocatorias de reunión de este usuario** se establece en **Off**. 
+3. Set **incluye números gratuitos en las convocatorias de reunión de este usuario** como **** deshabilitado. 
 
 4. Haga clic en **Guardar**. 
 

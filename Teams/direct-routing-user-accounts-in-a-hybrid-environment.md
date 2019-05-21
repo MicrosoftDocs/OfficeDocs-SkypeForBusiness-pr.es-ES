@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
 localization_priority: Normal
@@ -14,58 +14,58 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Obtenga información sobre diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no compatibles.
-ms.openlocfilehash: aaaf06fd0f4e697a1a4c371a9030510b9708f171
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Obtenga más información sobre las diferentes combinaciones de creación de usuarios y qué combinaciones son compatibles o no.
+ms.openlocfilehash: c8473fcaf6fb8b5b24f68d934cd3451ebeb8e038
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402457"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290344"
 ---
 # <a name="user-accounts-in-a-hybrid-environment-with-pstn-connectivity"></a>Cuentas de usuario en un entorno híbrido con conectividad RTC
 
 ## <a name="about-the-environment"></a>Acerca del entorno
 
-En este artículo se aplica a entornos tienen todas las opciones siguientes: 
+Este artículo se aplica a entornos en los que tiene todas las opciones siguientes: 
  
-- Skype para Business Server o Lync Server 2013 
+- Skype empresarial Server o Lync Server 2013 
 - Un inquilino de Office 365 
-- Conectividad híbrida configurada entre el Skype para Business Server y Skype para inquilino de negocio en línea o Teams de Microsoft 
-- Usuarios que están habilitados para realizar y recibir llamadas de red pública de telefónica conmutada (RTC) a y desde el cliente
+- Conectividad híbrida configurada entre Skype empresarial Server y Skype empresarial online o el inquilino de Microsoft Teams 
+- Usuarios que tienen habilitada la opción de realizar y recibir llamadas de red telefónica conmutada (RTC) a y desde el cliente
 
  
-Si tiene un entorno diferente (por ejemplo, Skype para Business Edition de conector en la nube), híbrida no está configurado o los usuarios no están habilitados para las llamadas de RTC, la matriz de compatibilidad de será diferente.  
+Si tiene un entorno diferente (como Skype empresarial Cloud Connector Edition), no está configurado para entornos híbridos o los usuarios no tienen habilitada la opción de llamadas RTC, la matriz de compatibilidad será diferente.  
 
 ## <a name="about-the-combinations-and-the-supportability-statement"></a>Acerca de las combinaciones y la declaración de compatibilidad  
 
-Un Skype para entornos híbridos, empresarial con conectividad RTC proporciona flexibilidad con respecto a donde se proporcionan los servicios de usuario y cómo se aprovisiona y administran las cuentas de usuario. Pero la gran cantidad de opciones es posible crear algunas combinaciones no compatibles. En esta sección se explica diferentes combinaciones de creación del usuario, seguido de una instrucción de compatibilidad.
+Un entorno híbrido de Skype empresarial con conectividad RTC proporciona flexibilidad en cuanto a la ubicación de los servicios de usuario y el aprovisionamiento y la administración de las cuentas de usuario. Pero la abundancia de opciones puede crear algunas combinaciones no admitidas. En esta sección se explican las distintas combinaciones de creación de usuarios, seguida de una declaración de compatibilidad.
 
 
-**Definiciones:**   
-- **Enterprise Voice:** Opción para proporcionar acceso a RTC para usuarios con Skype local para la cuenta de usuario de negocio. Skype local para el servidor de mediación de negocio proporciona interconectividad a RTC.  
-- **Conectividad de voz híbrida:** Opción para proporcionar acceso a RTC para usuarios con Skype para la cuenta en línea de negocio. Skype local para el servidor de mediación de negocio proporciona interconectividad a RTC. 
-- **Enrutamiento directo:** Opción para proporcionar acceso a RTC para usuarios con Skype en línea para la cuenta de empresa, licencia de Microsoft Teams, utilizando el cliente de Microsoft Teams. La SBC está conectado al Proxy SIP en Office 365 sin necesidad de cualquier software local de Microsoft.
+**Las**   
+- **Telefonía IP empresarial:** Opción para proporcionar acceso a RTC para usuarios con una cuenta de usuario local de Skype empresarial. El servidor de mediación de Skype para empresas local permite la interconectividad con RTC.  
+- **Conectividad de voz híbrida:** Opción para proporcionar acceso a RTC para usuarios con cuenta de Skype empresarial online. El servidor de mediación de Skype para empresas local permite la interconectividad con RTC. 
+- **Enrutamiento directo:** Opción para proporcionar acceso a RTC para los usuarios con una cuenta de Skype empresarial en línea, licencia de Microsoft Teams, con el cliente de Microsoft Teams. La SBC está conectada al proxy SIP en Office 365 sin necesidad de ningún software local de Microsoft.
 
   
-**El entorno es compatible con las siguientes combinaciones:**
-- **Escenario 1:** Usuario de cuenta de Skype para empresarial local y usará el Skype para clientes empresariales con Enterprise Voice
-- **Escenario 2:** Usuario de cuenta de Skype para la empresa en línea y usará el Skype para clientes empresariales con conectividad de voz híbrida
-- **Escenario 3:** Usuario de cuenta de Skype para la empresa en línea con licencia de Microsoft Teams y va a usar el cliente de los equipos
+**El entorno admite las siguientes combinaciones:**
+- **Escenario 1:** Cuenta de usuario en Skype empresarial local y usará el cliente de Skype empresarial con telefonía IP empresarial
+- **Escenario 2:** Cuenta de usuario en Skype empresarial online y usará el cliente de Skype empresarial con conectividad de voz híbrida
+- **Escenario 3:** Cuenta de usuario en Skype empresarial online con la licencia de Microsoft Teams y usará el cliente de Teams
  
-### <a name="supportability-matrix"></a>Matriz de compatibilidad
+### <a name="supportability-matrix"></a>Matriz de capacidad de soporte
 
 
-|**Objeto de usuario creado en**  |**Skype del usuario para el proveedor de servicios profesionales**|**Cliente del usuario**|**Opción de voz**|**Compatible**|
+|**Objeto de usuario creado en**  |**Proveedor de servicios de Skype empresarial del usuario**|**Cliente del usuario**|**Opción de voz**|**Compatible**|
 | ------------ | --------- | --------- | --------- | -------- |
-|En AD local| Implementación local |Skype Empresarial   | Telefonía IP empresarial   |Sí|
-|En AD local|Online| Skype Empresarial  | Conectividad de voz híbrida   |Sí |
-|En AD local|Online |Microsoft Teams |Enrutamiento directo  |Sí |
-|**Combinaciones admitidas**    | |         |         |      |
-|Azure AD| En local o en línea | Skype para los equipos de negocio y Microsoft|Enterprise Voice de voz híbrida enrutamiento conectividad/Direct  |No, debe crearse el objeto de usuario en AD local en primer lugar |
-|En AD local  |Implementación local| Microsoft Teams| Enterprise Voice de voz híbrida enrutamiento conectividad/Direct   |No, el cliente de Microsoft Teams no es compatible con Skype local para la empresa |     
-|En AD local  |Online |Skype Empresarial  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con Skype para cliente de negocio y usuario debe estar habilitado para Enterprise Voice en Skype para la empresa en primer lugar  |
+|ANUNCIO local| Implementación local |Skype Empresarial   | Telefonía IP empresarial   |Sí|
+|ANUNCIO local|Online| Skype Empresarial  | Conectividad de voz híbrida   |Sí |
+|ANUNCIO local|Online |Microsoft Teams |Enrutamiento directo  |Sí |
+|**Combinaciones no admitidas**    | |         |         |      |
+|Azure AD| Local o en línea | Skype empresarial/Microsoft Teams|Voz empresarial/conectividad híbrida de voz/enrutamiento directo  |No, el objeto de usuario debe crearse primero en un anuncio local |
+|ANUNCIO local  |Implementación local| Microsoft Teams| Voz empresarial/conectividad híbrida de voz/enrutamiento directo   |No, el cliente de Microsoft Teams no es compatible con Skype empresarial local |     
+|ANUNCIO local  |Online |Skype Empresarial  | Enrutamiento directo  |No, el enrutamiento directo no es compatible con el cliente de Skype empresarial y el usuario debe estar habilitado para telefonía IP empresarial en Skype empresarial en primer lugar.  |
 
 
-### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Instrucción de compatibilidad para el entorno híbrido con RTC
+### <a name="supportability-statement-for-the-hybrid-environment-with-pstn"></a>Declaración de compatibilidad para el entorno híbrido con RTC
 
-Para todos los usuarios, el usuario objeto **debe** crearse en el local AD y sincronizados con Azure AD mediante la herramienta de Azure Connect de AD. Habilitación de usuarios para los equipos y Skype para empresarial **no se admite** si se crea el objeto de usuario directamente en Azure AD en una configuración híbrida. Para nuevos usuarios, como un nuevo empleado, que se habilitará directamente para los equipos, el usuario debe estar habilitado para Skype para el uso empresarial local Skype para las herramientas de administración empresarial. Crear usuarios en Skype en línea de negocio o equipos sin habilitar ellos en el grupo de servidores local con Enterprise Voice **no se admite**. Para obtener más información, busque en la [Planeación de sistema telefónico en Office 365 con conectividad de RTC local en Skype para Business Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).
+Para todos los usuarios, el objeto de usuario **debe** crearse en el anuncio local y sincronizarse con Azure ad con la herramienta Azure ad Connect. **No se admite** la habilitación de usuarios para equipos o Skype empresarial si el objeto de usuario se crea directamente en Azure ad en una configuración híbrida. Para los nuevos usuarios, como un nuevo empleado, que se habilitará directamente para los equipos, el usuario debe estar habilitado para Skype empresarial mediante las herramientas de administración locales de Skype empresarial. **No es posible**crear usuarios en línea en Skype empresarial o Teams sin necesidad de habilitarlos en un grupo local con la telefonía IP empresarial. Para obtener más información, consulte [plan Phone System en Office 365 con conectividad RTC local en Skype empresarial Server](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity).

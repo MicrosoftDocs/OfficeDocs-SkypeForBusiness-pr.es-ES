@@ -5,77 +5,77 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 4/6/2016
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
-description: Se usa el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento durante la planeación de la capacidad y la optimización del rendimiento en entornos de prueba o que no sea de producción.
-ms.openlocfilehash: 7705e92c8389e0377e805bd7d8e09aee454d9160
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La herramienta de estrés y rendimiento de Skype empresarial Server 2015 se usa durante la planificación de la capacidad y en el ajuste del rendimiento en entornos ajenos a la producción o pruebas.
+ms.openlocfilehash: d82d5ed33e6dca1303aed9f49150dd6b56fc4e1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904576"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299519"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
-Se usa el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento durante la planeación de la capacidad y la optimización del rendimiento en entornos de prueba o que no sea de producción.
+La herramienta de estrés y rendimiento de Skype empresarial Server 2015 se usa durante la planificación de la capacidad y en el ajuste del rendimiento en entornos ajenos a la producción o pruebas.
   
-El Skype para Business Server 2015 herramienta de esfuerzo y rendimiento incluye herramientas que simplifican la capacidad de Skype para Business Server 2015. El Skype para Business Server 2015 herramienta de esfuerzo y rendimiento le ayudará a:
+La herramienta de estrés y rendimiento de Skype empresarial Server 2015 incluye herramientas que simplificarán la planificación de la capacidad de Skype empresarial Server 2015. La herramienta de estrés y rendimiento de Skype empresarial Server 2015 le ayudará a:
   
-- Simplificar el hardware de planeación de Skype para Business Server
+- Simplificar la planificación de hardware para Skype empresarial Server
     
-- Le proporcionan mayor conocimiento y procedimientos recomendados para el ajuste del rendimiento
+- Obtener un mayor conocimiento y procedimientos recomendados para ajustar el rendimiento
     
-- Medir el rendimiento de su Skype para las implementaciones de Business Server
+- Medir el rendimiento de las implementaciones de Skype empresarial Server
     
-Normalmente, deberá usar esta herramienta después de utilizar el [Skype para la herramienta de planeación de Business Server 2015](../../management-tools/planning-tool/planning-tool.md) para diseñar la topología y perfeccionamiento de la topología con el [Skype para Calculadora de planeación de capacidad de Business Server 2015](../../management-tools/capacity-planning-calculator.md). 
+Normalmente usaría esta herramienta después de usar la herramienta de [planeación de Skype empresarial Server 2015](../../management-tools/planning-tool/planning-tool.md) para diseñar la topología y refinar la topología con la calculadora de [planeación de capacidad de Skype empresarial 2015](../../management-tools/capacity-planning-calculator.md). 
 
 > [!NOTE]
-> Esta herramienta no se actualizarán para Skype para Business Server 2019.
+> Esta herramienta no se actualizará en Skype empresarial Server 2019.
   
 ## <a name="tests"></a>Pruebas
 
-La herramienta de rendimiento y esfuerzo pueden simular estos tipos de carga de usuarios:
+La herramienta estrés and performance puede simular estos tipos de carga de usuarios:
   
 |||
 |:-----|:-----|
-|Instant Messaging (IM) y presencia  <br/> |Audioconferencia  <br/> |
-|Uso compartido de aplicaciones  <br/> |Voz sobre IP (VoIP), incluida la red telefónica conmutada simulación (PTSN)  <br/> |
-|Conferencia de acceso cliente Web  <br/> |Operador automático de conferencia  <br/> |
+|Mensajería instantánea (mi) y presencia  <br/> |Audioconferencia  <br/> |
+|Uso compartido de aplicaciones  <br/> |Voz sobre IP (VoIP), incluida una simulación de red de telefonía pública conmutada (RTC)  <br/> |
+|Conferencia de cliente de Web Access  <br/> |Operador automático de la Conferencia  <br/> |
 |Grupos de respuesta  <br/> |Expansión de la lista de distribución  <br/> |
-|Descarga de la libreta de direcciones y consulta de la libreta de direcciones  <br/> |Enhanced 911 (E911) las llamadas y perfil de ubicación (plan de marcado)  <br/> |
-|MultiView  <br/> |Colaboración de datos.  <br/> |
+|Consulta de la libreta de direcciones y descarga de la libreta de direcciones  <br/> |Llamadas y perfiles de ubicación de 911 (E911) mejorados (plan de marcado)  <br/> |
+|Multivista  <br/> |Colaboración de datos.  <br/> |
 |Movilidad  <br/> ||
    
-## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Las aplicaciones y los archivos incluidos con la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento
+## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Aplicaciones y archivos incluidos con la herramienta de estrés y rendimiento de Skype empresarial Server 2015
 
-Estas aplicaciones son una parte de la Skype para Business Server Stress and Performance Tool:
+Estas aplicaciones forman parte de la herramienta de estrés y rendimiento de Skype empresarial Server:
   
-|**Herramienta**|**Descripción**|
+|**Utilidad**|**Descripción**|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |Esta herramienta se utiliza para crear usuarios y contactos.  <br/> |
-|UserProfileGenerator.exe  <br/> |Se usa para configurar las características de la carga del usuario que está simulando.  <br/> |
-|LyncPerfTool.exe  <br/> |La herramienta que simula la carga de usuarios.  <br/> |
-|Default.TMX  <br/> |Necesarios para usar el Skype para la herramienta de registro de Business Server 2015.  <br/> |
-|Ejemplos de scripts de aprovisionamiento  <br/> |Se usa para configurar la topología para la ejecución de las pruebas de carga, basadas en escenarios específicos. Es probable que necesitará modificarlos para que sean relevantes para su entorno particular.  <br/> |
+|UserProvisioningTool. exe  <br/> |Esta herramienta se usa para crear usuarios y contactos.  <br/> |
+|UserProfileGenerator. exe  <br/> |Se usa para configurar las características de la carga de usuarios que se está simulando.  <br/> |
+|LyncPerfTool. exe  <br/> |La herramienta que simula la carga de usuarios.  <br/> |
+|Default. TMX  <br/> |Necesario para usar la herramienta de registro de Skype empresarial Server 2015.  <br/> |
+|Ejemplos de scripts de aprovisionamiento  <br/> |Se usa para configurar la topología para ejecutar pruebas de carga, en función de escenarios específicos. Es probable que deba modificarlos para que sean relevantes para su entorno en particular.  <br/> |
    
 ## <a name="topics-in-this-section"></a>Temas de esta sección
 
-Si necesita saber más debe revisar los siguientes artículos:
+Debe revisar los artículos siguientes si necesita más información:
   
 - [Requisitos previos y configuración de la herramienta Stress and Performance de Skype Empresarial](prerequisites-and-setup.md)
     
-- [Escenarios de rendimiento para el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento](scenarios.md)
+- [Escenarios de rendimiento para la herramienta de estrés y rendimiento de Skype empresarial Server 2015](scenarios.md)
     
-  - [Aprovisionamiento de la topología para ejecutar la carga en escenarios de esfuerzo y rendimiento](provisioning-the-topology-to-run-load.md)
+  - [Aprovisionamiento de la topología para ejecutar la carga en escenarios de estrés y rendimiento](provisioning-the-topology-to-run-load.md)
     
-  - [Configuración de directivas para el Skype para Business Server 2015 herramienta de esfuerzo y rendimiento](configuring-policies.md)
+  - [Configuración de directivas para la herramienta de estrés y rendimiento de Skype empresarial Server 2015](configuring-policies.md)
     
-- [Uso de la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento](using-the-tool.md)
+- [Usar la herramienta de estrés y rendimiento de Skype empresarial Server 2015](using-the-tool.md)
     
-- [Preguntas más frecuentes para la Skype para Business Server 2015 herramienta de esfuerzo y rendimiento](faq.md)
+- [Preguntas más frecuentes sobre la herramienta de estrés y rendimiento de Skype empresarial Server 2015](faq.md)
     
 

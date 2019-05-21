@@ -3,7 +3,7 @@ title: Planear desvío de medios con enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service:
@@ -14,169 +14,169 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Lea este tema para obtener información sobre cómo planear el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: b3a31e23ef065840d830c111c64e0618d90aa71b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
+ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232803"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290464"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
-## <a name="about-media-bypass-with-direct-routing"></a>Acerca de la omisión de medios con el enrutamiento directo
+## <a name="about-media-bypass-with-direct-routing"></a>Acerca de la omisión de elementos multimedia con enrutamiento directo
 
-Desvío de medios le permite acortar la ruta de acceso del tráfico de medios y reducir el número de saltos en tránsito para mejorar el rendimiento. Con el desvío de medios, medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente en lugar de enviar a través del sistema de teléfono de Microsoft. Para configurar medios desvío, los SBC y el cliente deben ser en la misma ubicación o la red.
+La omisión de elementos multimedia le permite acortar la ruta de acceso al tráfico multimedia y reducir el número de saltos en tránsito para mejorar el rendimiento. Con la omisión de medios, los medios se mantienen entre el controlador de borde de sesión (SBC) y el cliente, en lugar de enviarlo a través del sistema telefónico de Microsoft. Para configurar la omisión de medios, la SBC y el cliente deben estar en la misma ubicación o red.
 
-Puede controlar el desvío de medios para cada SBC mediante el comando **Set-CSOnlinePSTNGateway** con el parámetro **- MediaBypass** establecido en true o false. Si habilita el desvío de medios, esto no significa que todo el tráfico de medios permanecerá en la red corporativa. En este artículo se describe el flujo de llamadas en distintos escenarios.    
+Puede controlar la omisión de elementos multimedia para cada SBC con el comando **set-CSOnlinePSTNGateway** con el parámetro **-MediaBypass** establecido en true o false. Si habilita la omisión de medios, esto no significa que todo el tráfico multimedia permanecerá dentro de la red corporativa. En este artículo se describe el flujo de llamadas en diferentes escenarios.    
 
-Los siguientes diagramas ilustran la diferencia en el flujo de llamadas con y sin desvío de medios.
+Los diagramas siguientes ilustran la diferencia en el flujo de llamadas con y sin omisión de medios.
 
-Sin desvío de medios, cuando un cliente realiza o recibe una llamada, señalización y medios fluyen entre la SBC, el sistema de teléfono de Microsoft y el cliente de los equipos, tal como se muestra en el siguiente diagrama:
+Sin omisión de medios, cuando un cliente realiza o recibe una llamada, tanto la señalización como el flujo de medios entre el SBC, el sistema telefónico de Microsoft y el cliente de equipos, tal y como se muestra en el siguiente diagrama:
 
-![Fluyen de muestra de señalización y medios sin desvío de medios](media/direct-routing-media-bypass-1.png)
-
-
-Pero supongamos que un usuario está en el mismo edificio o red como la SBC. Por ejemplo, supongamos que un usuario que se encuentra en un edificio en hace de Frankfurt una llamada a un usuario de RTC: 
-
-- **Sin medios de desvío**, medios fluirá a través de Ámsterdam o Dublin (donde se implementan los centros de datos de Microsoft) y volver a la SBC en Frankfurt. 
-
-  El centro de datos en Europa está seleccionado porque la SBC se encuentra en Europa, y Microsoft utiliza el centro de datos más cercano a la SBC. Aunque este método no afecta a la calidad de la llamada debido a la optimización del flujo de tráfico dentro de redes de Microsoft en la mayoría de ubicaciones geográficas, el tráfico tiene un bucle innecesario.     
-
-- **En discos de desvío**, se mantienen los medios directamente entre el usuario de los equipos y la SBC tal como se muestra en el siguiente diagrama:
-
-![Fluyen de muestra de señalización y medios con desvío de medios](media/direct-routing-media-bypass-2.png)
-
-Protocolos de aprovecha denominados establecimiento interactivo de conectividad (ICE) en el cliente de los equipos y ICE claro en la SBC el desvío de medios. Estos protocolos permiten el enrutamiento directo usar la ruta de medios más directa para una calidad óptima. HIELO y ICE Lite son los estándares de WebRTC. Para obtener información detallada acerca de estos protocolos, consulte RFC 5245.
+![Muestra el flujo de señales y medios sin omisión de medios](media/direct-routing-media-bypass-1.png)
 
 
-## <a name="call-flow-and-firewall-planning"></a>Flujo de llamadas y planeación de firewall
+Pero supongamos que un usuario está en el mismo edificio o en la misma red que la SBC. Por ejemplo, supongamos que un usuario de un edificio de Frankfurt hace una llamada a un usuario de la RTC: 
 
-Flujo de llamadas y planeación de firewall depende de si el usuario tiene acceso directo a la dirección IP pública de la SBC y, si el usuario está dentro o fuera de la red.
+- **Sin omisión de medios**, los medios se transmiten a través de Amsterdam o Dublín (donde se implementan los centros de datos de Microsoft) y de vuelta al SBC en Frankfurt. 
+
+  El centro de recursos de Europa está seleccionado porque SBC está en Europa y Microsoft usa el centro de la Datacenter más cercano a SBC. A pesar de que este enfoque no afecta la calidad de las llamadas debido a la optimización del flujo de tráfico dentro de las redes Microsoft en la mayoría de los lugares, el tráfico tiene un bucle innecesario.     
+
+- **Con la omisión de elementos multimedia**, los medios se mantienen directamente entre el usuario de los equipos y el SBC, tal y como se muestra en el siguiente diagrama:
+
+![Muestra el flujo de señales y medios con omisión de medios](media/direct-routing-media-bypass-2.png)
+
+La omisión de multimedia aprovecha los protocolos denominados establecimiento de conectividad interactiva (ICE) en el cliente de Teams y la luz de hielo en la SBC. Estos protocolos permiten el enrutamiento directo para usar la ruta de medios más directa para una calidad óptima. ICE y ICE Lite son estándares de WebRTC. Para obtener información detallada sobre estos protocolos, consulte RFC 5245.
+
+
+## <a name="call-flow-and-firewall-planning"></a>Planificación de flujo de llamadas y firewall
+
+El flujo de llamadas y el plan de Firewall depende de si el usuario tiene acceso directo a la dirección IP pública de SBC y si el usuario está dentro o fuera de la red.
 
 ### <a name="call-flow-if-the-user-has-direct-access-to-the-public-ip-address-of-the-sbc"></a>Flujo de llamadas si el usuario tiene acceso directo a la dirección IP pública de la SBC
 
-Si el usuario tiene acceso directo a la dirección IP pública de la SBC, el flujo de llamadas es como sigue:
+Si el usuario tiene acceso directo a la dirección IP pública de la SBC, el flujo de llamadas es el siguiente:
 
-- Desvío de medios, el cliente de los equipos debe tener acceso a la dirección IP pública de la SBC incluso desde una red interna. Si no se desean medios directa, pueden flujo de los medios a través de transmisiones de transporte.
+- Para la omisión de elementos multimedia, el cliente de Teams debe tener acceso a la dirección IP pública de SBC incluso desde una red interna. Si no desea usar medios directos, los medios pueden fluir a través de transmisiones de transporte.
 
-- Ésta es la solución recomendada cuando un usuario se encuentra en el mismo edificio o la red como la SBC: quitar componentes de Microsoft Cloud de la ruta de acceso de medios.
+- Esta es la solución recomendada cuando un usuario está en el mismo edificio o en la misma red que el SBC, quite los componentes de la nube de Microsoft de la ruta de medios.
 
-- Señalización siempre fluye a través de la nube de Microsoft.
+- La señalización siempre fluye a través de la nube de Microsoft.
 
-El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es interno y el cliente puede llegar a la dirección IP pública de la SBC (medios directas): 
+El siguiente diagrama muestra el flujo de llamadas cuando la omisión de elementos multimedia está habilitada, el cliente es interno y el cliente puede comunicarse con la dirección IP pública de la SBC (medios directos): 
 
-- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
+- Las flechas y los valores numéricos de los trazados se ajustan al artículo [flujos de llamada de Microsoft Teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
-- La señalización SIP siempre tiene las rutas de acceso 4 y 4' (dependiendo de la dirección del tráfico). Permanece local y toma 5b de la ruta de acceso de medios.
+- La señalización del SIP siempre tiene las rutas 4 y 4 (según la dirección del tráfico). El medio permanece local y toma la ruta de acceso 5B.
 
-![Muestra el flujo de llamadas con el desvío de medios habilitado, cliente es interno y puede llegar a la dirección IP pública del controlador de borde de sesión (medios directas)](media/direct-routing-media-bypass-3.png)
+![Muestra el flujo de llamadas con omisión de medios habilitado, el cliente es interno y puede comunicarse con la IP pública del controlador de borde de sesión (medios directos).](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flujo de llamadas si el usuario no tiene acceso a la dirección IP pública de la SBC
 
-A continuación describen flujo de llamada si el usuario no tiene acceso a la dirección IP pública de la SBC. 
+A continuación, se describe el flujo de llamadas si el usuario no tiene acceso a la dirección IP pública de la SBC. 
 
-Por ejemplo, suponga que el usuario es externo y el Administrador de inquilinos decidido no abrir la dirección IP pública de la SBC para todos los usuarios de Internet, pero sólo para el Microsoft Cloud. Los componentes internos de tráfico pueden transmitir a través de las transmisiones de transporte de los equipos. Esta es la configuración recomendada para los usuarios fuera de la red corporativa. Tenga en cuenta lo siguiente:
+Por ejemplo, supongamos que el usuario es externo y el administrador de inquilinos decidió no abrir la dirección IP pública de SBC a todos los usuarios de Internet, pero solo a la nube de Microsoft. Los componentes internos del tráfico pueden fluir a través de los transmisores de transporte de los equipos. Esta es la configuración recomendada para los usuarios de fuera de la red corporativa. Tenga en cuenta lo siguiente:
 
-- Se utilizan transmisiones de transporte de los equipos.
+- Se usan los transmisores de transporte de Teams.
 
-- Desvío de medios, Microsoft utiliza una versión de transmisiones de transporte que requiere la apertura de puertos 50 000 para 59 999 entre las transmisiones de transporte de los equipos y la SBC (en el futuro que se va a mover a la versión que requiere puertos sólo 3478 y 3479).
+- Para la omisión de medios, Microsoft usa una versión de los relés de transporte que requiere que se abran los puertos 50 000 a 59 999 entre los equipos de transporte de transporte y la SBC (en el futuro se planea ir a la versión que solo requiere puertos 3478 y 3479).
 
-- Por motivos de optimización de medios, Microsoft recomienda abriendo la dirección IP pública de la SBC únicamente a los equipos de transporte multifase. Para los clientes de fuera de la red corporativa, Microsoft recomienda el uso de transmisiones de transporte en lugar de llegar a la dirección IP pública de la SBC directamente.
+- Para fines de optimización de multimedia, Microsoft recomienda abrir la dirección IP pública de SBC solo para los grupos de transporte de transporte. Para los clientes fuera de la red corporativa, Microsoft recomienda usar relés de transporte en lugar de alcanzar directamente la dirección IP pública de SBC.
 
-El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es externo y el cliente no puede acceder a la dirección IP pública del controlador de borde de sesión (medios se retransmitan mediante la retransmisión de transporte de los equipos).
+El siguiente diagrama muestra el flujo de llamadas cuando la omisión de medios está habilitada, el cliente es externo y el cliente no puede comunicarse con la dirección IP pública del controlador de borde de la sesión (los medios son retransmitidos por la retransmisión de transporte de Teams).
 
-- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
+- Las flechas y los valores numéricos de los trazados se ajustan al artículo [flujos de llamada de Microsoft Teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
-- Medios se retransmiten a través de las rutas de acceso 3, 3', 4 y 4'
+- Los medios se retransmiten a través de las rutas 3, 3 ', 4 y 4 '.
 
-![Muestra el flujo de llamada si el usuario no tiene acceso a la dirección IP pública de la SBC)](media/direct-routing-media-bypass-4.png)
+![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC)](media/direct-routing-media-bypass-4.png)
 
 
-### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flujo de llamadas si un usuario está fuera de la red y tiene acceso a la dirección IP pública de la SBC
+### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flujo de llamadas si un usuario está fuera de la red y tiene acceso a la IP pública de la SBC
 
 > [!NOTE]
-> No es una configuración recomendada porque no permite aprovechar de transmisiones de transporte de los equipos. En su lugar, debe tener en cuenta el escenario anterior, donde el usuario no tiene acceso a la dirección IP pública de la SBC. 
+> Esta no es una configuración recomendada porque no aprovecha las retransmisiones de transporte de Teams. En su lugar, debe considerar el escenario anterior en el que el usuario no tiene acceso a la dirección IP pública de SBC. 
 
-El siguiente diagrama muestra el flujo de llamada cuando el desvío de medios está habilitado, el cliente es externo y el cliente puede llegar a la dirección IP pública de la SBC (medios directas).
+El siguiente diagrama muestra el flujo de llamadas cuando la omisión de elementos multimedia está habilitada, el cliente es externo y el cliente puede comunicarse con la dirección IP pública de la SBC (soporte directo).
 
-- Las flechas y los valores numéricos de las rutas de acceso son conformidad con el artículo [flujos de llamadas de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
+- Las flechas y los valores numéricos de los trazados se ajustan al artículo [flujos de llamada de Microsoft Teams](https://docs.microsoft.com/microsoftteams/microsoft-teams-online-call-flows) .
 
-- La señalización SIP siempre tiene 3 las rutas de acceso y 3' (dependiendo de la dirección del tráfico). Flujos de medios con la ruta de acceso de 2.
+- La señalización SIP siempre toma las rutas 3 y 3 ' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
-![Muestra el flujo de llamada si el usuario no tiene acceso a la dirección IP pública de la SBC)](media/direct-routing-media-bypass-5.png)
-
-
-## <a name="use-of-media-processors-and-transport-relays"></a>Uso de los procesadores de medios y retransmisiones de transporte
-
-Hay dos componentes en el Cloud Microsoft que puede estar en la ruta de acceso del tráfico de medios: procesadores de medios y retransmisiones de transporte. 
-
-- El procesador de medios es un componente de orientado al público que controla los medios en los casos sin desvío y controla los medios para aplicaciones de voz.
-
-   Procesadores de medios siempre están en la ruta de acceso para las llamadas que no sean pasó de usuario final, pero nunca en la ruta de acceso para las llamadas omitidas. Procesadores de medios siempre están en la ruta de acceso para todas las aplicaciones de voz, como estacionamiento de llamadas, organizativa operador automático y las colas de llamadas.
-
-- La retransmisión de transporte se usa para conectar con el servicio de transporte más cercano para enviar el tráfico en tiempo real.
-
-   Transmisiones de transporte podrían o es posible que no estén en la ruta de acceso de las llamadas omitidas--procedentes de o destinados a los usuarios finales--dependiendo de que el usuario es y cómo se configura la red.
-
-El siguiente diagrama muestra dos flujos de llamadas: uno con desvío de medios habilitado y el segundo con medios desvío deshabilitado. Nota el diagrama ilustra únicamente el tráfico procedente de--o destinado a--los usuarios finales.  
-- El controlador de medios es un microservice en Azure que asigna procesadores de medios y crea ofertas de protocolo de descripción de sesión (SDP).
-
-- El servidor Proxy SIP es un componente que traduce señalización de REST de HTTP usados en los equipos para SIP.    
-
-![Muestra dos flujos de llamadas: uno con desvío de medios habilitado y el segundo con desvío de medios deshabilitado)](media/direct-routing-media-bypass-6.png)
+![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC)](media/direct-routing-media-bypass-5.png)
 
 
-En la tabla siguiente se resume las diferencias entre los procesadores de medios y retransmisiones de transporte.
+## <a name="use-of-media-processors-and-transport-relays"></a>Uso de procesadores de medios y transmisiones de transporte
+
+Hay dos componentes en la nube de Microsoft que pueden estar en la ruta de tráfico de multimedia: procesadores de medios y transmisiones de transporte. 
+
+- El procesador multimedia es un componente público que controla los elementos multimedia en casos de no omisión y controla medios para las aplicaciones de voz.
+
+   Los procesadores multimedia siempre están en la ruta de acceso para las llamadas sin ignorar del usuario final, pero nunca en la ruta de acceso para las llamadas omitidas. Los procesadores de medios siempre están en la ruta de todas las aplicaciones de voz, como estacionamiento de llamadas, operador automático de la organización y colas de llamadas.
+
+- La retransmisión de transporte se usa para conectarse al servicio de transporte más cercano para enviar tráfico en tiempo real.
+
+   Los relés de transporte pueden estar o no en la ruta de acceso para las llamadas omitidas, que proceden de o se destinan a usuarios finales, en función de dónde se encuentra el usuario y de la configuración de la red.
+
+En el siguiente diagrama se muestran dos flujos de llamada: uno con la omisión de elementos multimedia habilitado y el segundo con omisión de medios deshabilitado. Nota el diagrama solo ilustra el tráfico que se origina en los usuarios finales o que se destinan a ellos.  
+- El controlador de medios es un microservicio en Azure que asigna procesadores de medios y crea ofertas de protocolo de descripción de sesiones (SDP).
+
+- El proxy SIP es un componente que traduce las señales de REST HTTP usadas en Teams a SIP.    
+
+![Muestra dos flujos de llamada: uno con omisión de medios habilitado y el segundo con omisión de medios deshabilitado.](media/direct-routing-media-bypass-6.png)
+
+
+En la tabla siguiente se resume la diferencia entre los procesadores multimedia y los relés de transporte.
 
 |    | Procesadores de medios | Transmisiones de transporte|
 | :--------------|:---------------|:------------|
-En la ruta de medios para las llamadas que no sean pasó para los usuarios finales | Siempre | Nunca | 
-En la ruta de medios para las llamadas omitidas para los usuarios finales | Nunca | Si el cliente no puede acceder a la SBC en la dirección IP pública | 
-En la ruta de medios para aplicaciones de voz | Siempre | Nunca | 
-Puede hacer transcodificación (B2BUA)\* | Sí | No, sólo retransmite audio entre extremos | 
-Número de instancias en todo el mundo y ubicación | 8 total: 2 en nosotros este y oeste; 2 en Ámsterdam y Dublin; 2 en Hong Kong y Singapur; 2 en Japón (que se agrega en Q1CY2019)  | Varios
+En la ruta multimedia de las llamadas no omitidas para usuarios finales | Constantemente | Sin | 
+En la ruta multimedia de las llamadas omitidas para usuarios finales | Sin | Si el cliente no puede alcanzar la SBC en la dirección IP pública | 
+En la ruta multimedia de las aplicaciones de voz | Constantemente | Sin | 
+Puede realizar transcodificación (B2BUA)\* | Sí | No, solo retransmite audio entre puntos de conexión | 
+Cantidad de instancias en todo el mundo y ubicación | 8 total: 2 en Oriente de EE. UU. y oeste; 2 en Amsterdam y Dublín; 2 en Hong Kong y Singapur; 2 en Japón (se agrega en Q1CY2019)  | Multiple
 
-El intervalo IP es 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254). 
+El intervalo IP es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254). 
 
 \*Explicación de transcodificación: 
 
-- Procesador de medios es B2BUA, lo que significa que puede cambiar un códecs (por ejemplo, SEDA desde el cliente de los equipos a MP y G.711 entre MP y SBC).
+- El procesador multimedia es B2BUA, lo que significa que puede cambiar un códec (por ejemplo, seda del cliente de Teams al panel de administración y G. 711 entre MP y SBC).
 
-- Transmisiones de transporte no son B2BUA, lo que significa que nunca se cambia el códec entre el cliente y el SBC--incluso si el tráfico fluye a través de retransmisiones.
+- Los relés de transporte no son B2BUA, lo que significa que el códec nunca cambia entre el cliente y SBC, aunque el tráfico fluya por medio de retransmisiones.
 
-### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Desvío de retransmisiones de transporte de los equipos de su uso en escenarios de escalación si tronco está configurado para los medios
+### <a name="use-of-teams-transport-relays-in-escalation-scenarios-if-trunk-is-configured-for-media-bypass"></a>Uso de los equipos de transporte de equipos en escenarios de escalado si el tronco está configurado para la omisión de medios
 
-Los equipos transporte multifase siempre están en la ruta de acceso de medios en los siguientes escenarios:
+Los transmisores de transporte de los equipos siempre están en la ruta multimedia en los siguientes escenarios:
 
-- Llamada se remite de 1:1 a una llamada de grupo
-- Llamada se va a un usuario federado de equipos
-- Llamada se reenvía o se transfiere a un Skype para usuarios de empresa
+- La llamada se transfiere de 1:1 a una llamada grupal
+- La llamada va a un usuario de equipos federados
+- La llamada se desvía o se transfiere a un usuario de Skype empresarial
 
-Asegúrese de que su SBC tiene acceso a las transmisiones de transporte, tal y como se describe a continuación.    
-
-
-## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Señalización SIP: Los puertos de firewall y los FQDN
-
-Para la señalización SIP, los requisitos de FQDN y el servidor de seguridad son los mismos que para los casos que no sean pasó. 
-
-Los puntos de conexión para el enrutamiento directo son los FQDN de tres los siguientes:
-
-- **sip.pstnhub.microsoft.com** – FQDN Global – debe intentar en primer lugar. Cuando la SBC envía una solicitud para resolver este nombre, los servidores DNS de Microsoft Azure devolución una dirección IP que apunta al centro de datos de Azure principal asignada a la SBC. La asignación se basa en las métricas de rendimiento de los centros de datos y la proximidad geográfica a la SBC. La dirección IP devuelta corresponde al FQDN principal.
-
-- **sip2.pstnhub.microsoft.com** – secundario FQDN – geográficamente se asigna a la segunda región de prioridad.
-
-- **sip3.pstnhub.microsoft.com** – terciario FQDN – geográficamente se asigna a la región de prioridad de terceros.
-
-Se deben colocar estos tres nombres de dominio completos con el fin:
-
-- Proporcionar una experiencia óptima (menos cargada y más cercana al centro de datos SBC asignada por consultar el primer nombre de dominio completo).
-
-- Proporcionar conmutación por error cuando se establece una conexión desde una SBC para un centro de datos que está experimentando un problema temporal. Para obtener más información, vea el mecanismo de conmutación por error que aparece a continuación.
+Asegúrese de que su SBC tenga acceso a los relés de transporte como se describe a continuación.    
 
 
-El **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**y **sip3.pstnhub.microsoft.com** de nombres de dominio completos se resolverá en una de las siguientes direcciones IP:
+## <a name="sip-signaling-fqdns-and-firewall-ports"></a>Señalización SIP: FQDN y puertos de Firewall
+
+Para las señales SIP, los requisitos de FQDN y firewall son los mismos que para los casos no omitidos. 
+
+Los puntos de conexión para el enrutamiento directo son los tres FQDN siguientes:
+
+- **SIP.pstnhub.Microsoft.com** (FQDN global) debe probarse en primer lugar. Cuando la SBC envía una solicitud para resolver este nombre, los servidores DNS de Microsoft Azure devuelven una dirección IP que apunta al centro de información principal de Azure asignado a SBC. La asignación se basa en las métricas de rendimiento de los centros de trabajo y la proximidad geográfica a la SBC. La dirección IP devuelta corresponde al FQDN principal.
+
+- **SIP2.pstnhub.Microsoft.com** : FQDN secundario: se asigna geográficamente a la segunda región prioritaria.
+
+- **sip3.pstnhub.Microsoft.com** – terciario FQDN: se asigna geográficamente a la tercera región prioritaria.
+
+Debe colocar estos tres FQDN para:
+
+- Proporciona una experiencia óptima (menos cargadas y más cercana al centro de proceso de la la de SBC asignado consultando el primer FQDN).
+
+- Proporcione conmutación por error cuando se establezca una conexión de SBC a un centro de información que esté experimentando un problema temporal. Para obtener más información, vea mecanismo de conmutación por error a continuación.
+
+
+Los FQDN **SIP.pstnhub.Microsoft.com**, **SIP2.pstnhub.Microsoft.com**y **sip3.pstnhub.Microsoft.com** se resolverán en una de las siguientes direcciones IP:
 - 52.114.148.0
 - 52.114.132.46
 - 52.114.75.24
@@ -184,108 +184,108 @@ El **sip.pstnhub.microsoft.com**, **sip2.pstnhub.microsoft.com**y **sip3.pstnhub
 - 52.114.7.24
 - 52.114.14.70
 
-Debe abrir los puertos para todas estas direcciones IP en el firewall para permitir el tráfico entrante y saliente a y desde las direcciones de señalización. Si el servidor de seguridad es compatible con nombres DNS, el FQDN del **sip all.pstnhub.microsoft.com** se resuelve en todas las direcciones IP anterior. Debe usar los siguientes puertos:
+Necesitará abrir puertos para todas estas direcciones IP en su firewall para permitir el tráfico entrante y saliente hacia y desde las direcciones para la señalización. Si el Firewall admite nombres DNS, el FQDN **SIP-ALL.pstnhub.Microsoft.com** se resuelve en todas las direcciones IP anteriores. Debe usar los siguientes puertos:
 
-| Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
+| Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-SIP/TLS| Proxy SIP | SBC | 1024 - 65535 | Definidos en la SBC |
-| SIP/TLS | SBC | Proxy SIP | Definidos en la SBC | 5061 |
+SIP/TLS| Proxy SIP | SBC | 1024-65535 | Definido en la SBC |
+| SIP/TLS | SBC | Proxy SIP | Definido en la SBC | 5061 |
 
 
-## <a name="media-traffic-ip-and-port-ranges"></a>El tráfico de medios: intervalos IP y puerto
+## <a name="media-traffic-ip-and-port-ranges"></a>Tráfico de medios: IP y intervalos de Puerto
 
-El tráfico de medios fluye entre el SBC y los equipos cliente si está disponible la conectividad directa o a través de los equipos de transporte multifase si el cliente no puede acceder a la SBC utilizando la dirección IP pública.
+El tráfico multimedia fluye entre el cliente de SBC y Teams si está disponible una conexión directa o a través de los equipos de transporte de transporte si el cliente no puede comunicarse con el SBC mediante la dirección IP pública.
 
-### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para el tráfico de medios directa (entre el cliente de los equipos y la SBC) 
+### <a name="requirements-for-direct-media-traffic-between-the-teams-client-and-the-sbc"></a>Requisitos para el tráfico de medios directos (entre el cliente de Teams y el SBC) 
 
-El cliente debe tener acceso a los puertos especificados (vea la tabla) en la dirección IP pública de la SBC. 
+El cliente debe tener acceso a los puertos especificados (vea la tabla) en la dirección IP pública de SBC. 
 
-Nota: Si el cliente está en una red interna, la comunicación se transmite a la dirección IP pública de la SBC. Puede configurar hairpinning en su dispositivo NAT para que tráfico nunca abandona el equipamiento de red de empresa.
+Nota: Si el cliente se encuentra en una red interna, los medios fluyen a la dirección IP pública de la SBC. Puede configurar hairpinning en su dispositivo NAT para que el tráfico nunca salga del equipo de red empresarial.
 
-| Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
+| Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definidos en la SBC |
-| UDP/SRTP | SBC | Cliente | Definidos en la SBC | 50 000 – 50 019  |
+UDP/SRTP | Cliente | SBC | 50 000 – 50 019  | Definido en la SBC |
+| UDP/SRTP | SBC | Cliente | Definido en la SBC | 50 000 – 50 019  |
 
 
-Nota: Si tiene un dispositivo de red que traduce los puertos de origen del cliente, por favor, asegúrese de que se abren puertos traducidos entre los equipos de la red y el SBC. 
+Nota: Si tiene un dispositivo de red que traduce los puertos de origen del cliente, asegúrese de que los puertos traducidos estén abiertos entre el equipo de red y el SBC. 
 
-### <a name="requirements-for-using-transport-relays"></a>Requisitos para el uso de transmisiones de transporte
+### <a name="requirements-for-using-transport-relays"></a>Requisitos para usar transmisiones de transporte
 
-Transmisiones de transporte se encuentran en el mismo intervalo que procesadores de medios (para casos sin desvío): 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
+Los relés de transporte están en el mismo intervalo que los procesadores de medios (para casos sin omisión): 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 
-El intervalo de puertos de las transmisiones de transporte de los equipos se muestra en la siguiente tabla:
+El intervalo de puertos de los transmisores de transporte de Teams se muestra en la tabla siguiente:
 
 
-| Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
+| Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Retransmisión de transporte | SBC | 50 000-59 999    | Definidos en la SBC |
-| UDP/SRTP | SBC | Retransmisión de transporte | Definidos en la SBC | 50 000 – 59 999, 3478, 3479     |
+UDP/SRTP | Retransmisión de transporte | SBC | 50 000-59 999    | Definido en la SBC |
+| UDP/SRTP | SBC | Retransmisión de transporte | Definido en la SBC | 50 000:59 999, 3478, 3479     |
 
 
-Nota: Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC. Debido a que Microsoft tiene dos versiones de transmisiones de transporte, se necesita lo siguiente:
+Nota: Microsoft recomienda al menos dos puertos por llamada simultánea en la SBC. Como Microsoft tiene dos versiones de transmisores de transporte, se requiere lo siguiente:
 
-- v4, que sólo puede trabajar con el intervalo de puertos 50 000 a 59 999
+- V4, que solo puede funcionar con el intervalo de puertos 50 000 a 59 999
 
-- V6, que funciona con puertos 3478, 3479
+- V6, que funciona con los puertos 3478, 3479
 
-En este momento, el desvío de medios sólo admite v4 versión de transmisiones de transporte. Soporte técnico de v6 se explicará en el futuro. 
+En este momento, la omisión de elementos multimedia solo admite la versión v4 de retransmisiones de transporte. Presentaremos la compatibilidad de V6 en el futuro. 
 
-Debe abrir los puertos 3478 y 3479 para realizar la transición. Cuando Microsoft introduce la compatibilidad con transmisiones de transporte v6 con desvío de medios, no necesitará volver a configurar los equipos de la red o SBCs. 
+Para realizar la transición, debe abrir los puertos 3478 y 3479. Cuando Microsoft introduce compatibilidad con los relés de transporte de V6 con omisión de medios, no tendrá que volver a configurar su equipo de red ni SBCs. 
 
-### <a name="requirements-for-using-media-processors"></a>Requisitos para el uso de procesadores de medios
+### <a name="requirements-for-using-media-processors"></a>Requisitos para usar procesadores multimedia
 
-Procesadores de medios siempre están en la ruta de acceso de medios para aplicaciones de voz. Los requisitos son los mismos que para la configuración sin desvío.
+Los procesadores de medios siempre están en la ruta multimedia de las aplicaciones de voz. Los requisitos son los mismos que para la configuración sin omisión.
 
 
-El intervalo IP para el tráfico de medios es 52.112.0.0 /14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
+El intervalo IP para el tráfico de medios es 52.112.0.0/14 (direcciones IP de 52.112.0.1 a 52.115.255.254).
 
-El intervalo de puertos de los procesadores de medios se muestra en la siguiente tabla:
+El intervalo de puertos de los procesadores multimedia se muestra en la tabla siguiente:
 
-| Tráfico | De | Hasta | Puerto de origen | Puerto de destino|
+| Transmisión | De | Hasta | Puerto de origen | Puerto de destino|
 | :-------- | :-------- |:-----------|:--------|:---------|
-UDP/SRTP | Procesador de medios | SBC | 49 152 – 53 247    | Definidos en la SBC |
-| UDP/SRTP | SBC | Procesador de medios | Definidos en la SBC | 49 152 – 53 247     |
+UDP/SRTP | Procesador de medios | SBC | 49 152 – 53 247    | Definido en la SBC |
+| UDP/SRTP | SBC | Procesador de medios | Definido en la SBC | 49 152 – 53 247     |
 
-## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Consideraciones sobre si tiene Skype para teléfonos de negocio en la red  
+## <a name="considerations-if-you-have-skype-for-business-phones-in-your-network"></a>Consideraciones si tiene teléfonos de Skype empresarial en su red  
 
-Si tiene cualquier Skype para puntos finales profesionales en la red que está utilizando enrutamiento directo--por ejemplo, un usuario puede tener un teléfono de 3PIP que se basa en Skype para clientes empresariales--los equipos de la omisión de medios en el tronco que sirve de estos usuarios debe desactivarse.
+Si tiene algún punto final de Skype empresarial en su red que usa enrutamiento directo, por ejemplo, un usuario de equipos puede tener un teléfono 3PIP basado en el cliente de Skype empresarial, la omisión de medios en el tronco que sirve a estos usuarios debe estar desactivada.
 
-Puede crear un tronco independiente para estos usuarios y asignar una directiva de enrutamiento de voz en línea.
+Puede crear un tronco separado para estos usuarios y asignarle una directiva de enrutamiento de voz en línea.
 
 Pasos de configuración de alto nivel:
 
-- Dividir los usuarios por tipo – dependiendo de si el usuario tiene un teléfono 3PIP o no.
+- Divida los usuarios por tipo (dependiendo de si el usuario tiene un teléfono de 3PIP o no).
 
-- Crear dos troncos independientes con diferentes nombres de dominio completos: uno habilitado el desvío de medios; los otro no. 
+- Cree dos troncos independientes con diferentes FQDN: uno habilitado para la omisión de medios; el otro no. 
 
-  Elija el mismo SBC ambos troncos. Los puertos para la señalización SIP TLS deben ser distintos. Los puertos de medios deben ser el mismo.
+  Ambos troncos apuntan a la misma SBC. Los puertos para la señalización TLS SIP deben ser diferentes. Los puertos para los medios deben ser los mismos.
 
-- Asignar el tronco correcto según el tipo de usuario en la directiva de enrutamiento de voz en línea.
+- Asigne el tronco correcto según el tipo de usuario de la Directiva de enrutamiento de voz en línea.
 
-En el ejemplo siguiente ilustra esta lógica.
+En el ejemplo siguiente se muestra esta lógica.
 
-| Conjunto de usuarios | Número de usuarios | Tronco FQDN asignado en OVRP | Desvío de medios habilitado |
+| Conjunto de usuarios | Número de usuarios | FQDN de tronco asignado en OVRP | Omisión de medios habilitado |
 | :------------ |:----------------- |:--------------|:--------------|
-Usuarios con los clientes de los equipos y los teléfonos de 3PIP | 20 | sbc1.contoso.com:5061 | falso | 
-Usuarios con sólo puntos finales los equipos (incluidos los nuevos teléfonos de certificados para los equipos) | 980 | sbc2.contoso.com:5060 | verdadero
+Usuarios con clientes de equipos y teléfonos 3PIP | veinte | sbc1.contoso.com:5061 | falso | 
+Usuarios con solo los puntos finales de los equipos (incluidos los nuevos teléfonos certificados para Teams) | 980 | sbc2.contoso.com:5060 | verdadero
 
-Ambos troncos pueden apuntar a la misma SBC con la misma dirección IP pública. La señalización de puertos en el SBC de TLS deben ser distintos, como se muestra en el siguiente diagrama. Tenga en cuenta que tendrá para asegurarse de que su certificado admite tanto los troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado de comodín.
+Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS en la SBC deben ser diferentes, tal como se muestra en el siguiente diagrama. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
 
 
-![Muestra que ambas troncos pueden apuntar a la misma SBC con la misma dirección IP pública)](media/direct-routing-media-bypass-7.png)
+![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública.](media/direct-routing-media-bypass-7.png)
 
-Para obtener información acerca de cómo configurar dos troncos en el mismo SBC, vea la documentación proporcionada por el proveedor SBC:
+Para obtener más información sobre cómo configurar dos troncos en el mismo SBC, consulte la documentación proporcionada por el proveedor de SBC:
 
 - AudioCodes
-- Cinta de opciones
+- Lazo
 - TE-Systems (Anynode)   
 
-## <a name="client-endpoints-supported-with-media-bypass"></a>El desvío de los extremos de cliente compatibles con medios
+## <a name="client-endpoints-supported-with-media-bypass"></a>Extremos de cliente compatibles con la omisión de medios
 
-Desvío de medios es compatible con todos los extremos de los equipos, excepto los clientes Web de los equipos hasta aviso aún más. 
+Los puntos de conexión de todos los equipos admiten la omisión de elementos multimedia, excepto los clientes Web de Teams hasta que se produzca un aviso más. 
 
-Si los usuarios prefieren la aplicación Web de los equipos en Microsoft Edge, Google Chrome o Mozilla Firefox, debe desactivarse el desvío de medios para dichos usuarios. Se le presentarán llamadas utilizando un tronco habilitado el desvío de medios en el futuro.   
+Si los usuarios prefieren Teams Web App en Microsoft Edge, Google Chrome o Mozilla Firefox, la omisión de medios para dichos usuarios debe estar desactivada. En el futuro, se introducirá una llamada con tronco de omisión de medios.   
  
 ## <a name="see-also"></a>Vea también
 

@@ -1,25 +1,25 @@
 ---
-title: Informe de comparación de calidad Media en Skype para Business Server
+title: Informe de comparación de calidad multimedia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
-description: 'Resumen: Información sobre el informe de comparación de calidad de medios en Skype para Business Server.'
-ms.openlocfilehash: bee5e5bc0e619f985d68e18e38aa95377296d2cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de comparación de calidad multimedia en Skype empresarial Server.'
+ms.openlocfilehash: d665c568bcda1be6124b30f5f2907447fa585343
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926872"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289310"
 ---
-# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad Media en Skype para Business Server
+# <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Informe de comparación de calidad multimedia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de comparación de calidad de medios en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de comparación de calidad multimedia en Skype empresarial Server.
   
 El informe de comparación de calidad de medios sirve para comparar los valores de calidad de diferentes tipos de llamadas de audio (por ejemplo, de las llamadas realizadas en una red inalámbrica frente a las que usan una conexión cableada).
   
@@ -50,7 +50,7 @@ En la tabla siguiente se muestra la información que recoge el informe de compar
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas.  <br/> |
-|**Degradación (MOS)** <br/> |No  <br/> |Cantidad promedio de degradación de MOS (puntuación de opinión Media) experimentada durante una llamada. Los valores de degradación pueden oscilar entre una baja de 0,0 y una alta de 5.0; un valor de 0,5 o menos representa degradación aceptable. Tradicionalmente, opinión Media se calculan haciendo que los usuarios valorar la calidad de una llamada en una escala del 1 al 5. Skype para Business Server usa un conjunto de algoritmos para predecir cómo los usuarios habría calificado una llamada.  <br/> Los valores elevados de degradación pueden ser producto de la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica, o la sobrecarga de un extremo o servidor multimedia. Una degradación elevada causa la distorsión o la pérdida del audio.  <br/> |
+|**Degradación (MOS)** <br/> |No  <br/> |Cantidad promedio de la degradación de la media (puntuación de opinión) durante una llamada. Los valores de degradación pueden oscilar entre un mínimo de 0,0 y un alto de 5,0. un valor de 0,5 o menos representa una degradación aceptable. Históricamente, los resultados de la media se calcularon haciendo que los usuarios calificaran la calidad de una llamada en una escala de 1 a 5. Skype empresarial Server usa un conjunto de algoritmos para predecir cómo los usuarios habrían calificado una llamada.  <br/> Los valores elevados de degradación pueden ser producto de la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica, o la sobrecarga de un extremo o servidor multimedia. Una degradación elevada causa la distorsión o la pérdida del audio.  <br/> |
 |**Porcentaje de llamadas deficientes** <br/> |No  <br/> |Cantidad total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella en la que al menos uno de los valores medidos supera el valor permitido (por ejemplo, una llamada con un exceso de vibraciones).  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |No  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 200 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.  <br/> |
 |**Pérdida de paquetes** <br/> |No  <br/> |Tasa media de pérdida de paquetes RTP (se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo utilizado para transmitir audio y vídeo a través de Internet, no llegan a su destino). Una tasa alta de pérdida se suele deber a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica o la sobrecarga de un servidor de medios. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |

@@ -1,27 +1,27 @@
 ---
-title: Crear directorios de conferencia en Skype para Business Server
+title: Crear directorios de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
-description: 'Resumen: Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 62e632126ab7fb5ac812593f78031c0825bb36ca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a crear directorios de conferencia en Skype empresarial Server.'
+ms.openlocfilehash: d2962e7e01ba5bb73ce82de9b5c0ff85550fbe99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919391"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306499"
 ---
-# <a name="create-conference-directories-in-skype-for-business-server"></a>Crear directorios de conferencia en Skype para Business Server
+# <a name="create-conference-directories-in-skype-for-business-server"></a>Crear directorios de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo crear directorios de conferencia en Skype para Business Server.
+**Resumen:** Aprenda a crear directorios de conferencia en Skype empresarial Server.
   
-Directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que usa un participante para unirse a una conferencia cuando se usa Skype para la empresa y el identificador de conferencia sólo numérico que usa un participante de la conferencia de acceso telefónico para unirse a la conferencia. 
+Los directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que un participante usa para unirse a una conferencia cuando se usa Skype empresarial y el identificador de conferencia de acceso telefónico local que usa un participante de conferencia de acceso telefónico local para unirse a la Conferencia. 
   
 ## <a name="create-a-conference-directory"></a>Crear un directorio de conferencia
 

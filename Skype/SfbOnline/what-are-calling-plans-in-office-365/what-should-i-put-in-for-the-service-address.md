@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoServiceAddress
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre qué es la dirección del servicio, cómo difiere de la dirección de facturación y donde puede encontrar. '
-ms.openlocfilehash: dfdbb46dcbba6707ae746b004f5d97cdb20c5776
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Sepa cuál es su dirección de servicio, cómo difiere de su dirección de facturación y dónde puede encontrarla. '
+ms.openlocfilehash: c476e388d531bd3737a871c23e90628a38047684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227838"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290729"
 ---
 # <a name="what-should-i-put-in-for-the-service-address"></a>¿Qué debería poner para la dirección de servicio?
 
-La dirección del servicio es diferente de la dirección de facturación o de emergencia que se hayan registrado con su proveedor de servicios de teléfono o el operador. Si no sabe esto, puede ponerse en contacto con su proveedor de servicios o un operador para averiguar la dirección del servicio que aparecen en su cuenta.
+La dirección de servicio es distinta de la dirección de facturación o de emergencia que ha registrado con el proveedor de servicios o el operador de telefonía. Si no lo conoce, puede ponerse en contacto con el proveedor de servicios o el operador para averiguar la dirección de servicio que aparece en su cuenta.
   
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obtener instrucciones paso a paso, consulte [transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

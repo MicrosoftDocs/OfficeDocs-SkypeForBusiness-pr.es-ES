@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,19 +19,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Puede descargar estas etiquetas para llamada de emergencia cuando usa planes de llamada en Office 365.
-ms.openlocfilehash: 2b88bfe984aed655a78f69a580fdd1d510f3d8e1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Puede descargar estas etiquetas para las llamadas de emergencia cuando esté usando planes de llamadas en Office 365.
+ms.openlocfilehash: 0a8476fbe671b55136db371b5a83f778c3ba22c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244440"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298886"
 ---
 # <a name="emergency-calling-labels"></a>Etiquetas de llamadas de emergencia
 
-Se trata de emergencias al llamar a las etiquetas de declinación de responsabilidades (911) o pegatinas para usar con las etiquetas de dirección Avery 5160 (1 "x 2 5/8") o se pueden ajustar el tamaño si desea usar otros tipos de etiquetas.
+Estas son etiquetas de renuncia de llamadas de emergencia (911) o adhesivos para usar con etiquetas de dirección Avery 5160 (1 x 2 5/8 ") o se pueden cambiar de tamaño si desea usar otros tipos de etiquetas.
 
-[Haga clic aquí para descargar un archivo .zip para las etiquetas de llamada de emergencia (en-us)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
+[Haga clic para descargar un archivo. zip para las etiquetas de llamadas de emergencia (en-es)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true).
 
 ## <a name="related-topics"></a>Temas relacionados
 

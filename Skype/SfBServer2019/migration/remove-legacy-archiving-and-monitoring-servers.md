@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Si su implementación heredada contenía un servidor de archivado o en un servidor de supervisión, después de migrar a Skype para Business Server 2019, esos servidores se pueden quitar del entorno heredado siempre que se han quitado todos los usuarios de cualquier grupo de servidores heredado restante. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito clave es que se han quitado todos los usuarios de cualquier grupo de servidores heredado restante.
-ms.openlocfilehash: 5a3a691c8f2e8a4ad3610ccf1ea947ce23b74111
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Si la implementación heredada contenía un servidor de archivado o un servidor de supervisión, después de migrar a Skype empresarial Server 2019, esos servidores se pueden quitar del entorno heredado siempre que todos los usuarios hayan sido eliminados de cualquier grupo heredado. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito clave es que se han quitado todos los usuarios de cualquier grupo heredado.
+ms.openlocfilehash: 918e04bb42853f0203ae8a2a56db5e640985af99
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231426"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301128"
 ---
 # <a name="remove-legacy-archiving-and-monitoring-servers"></a>Quitar los servidores de archivado y supervisión heredados
 
-Si su implementación heredada contenía un servidor de archivado o en un servidor de supervisión, después de migrar a Skype para Business Server 2019, esos servidores se puede quitarse del entorno heredado, proporcionado que se han quitado todos los usuarios de cualquier grupo de servidores heredado restante. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito clave es que se han quitado todos los usuarios de cualquier grupo de servidores heredado restante.
+Si la implementación heredada contenía un servidor de archivado o un servidor de supervisión, después de migrar a Skype empresarial Server 2019, esos servidores se pueden quitar del entorno heredado, siempre y cuando todos los usuarios hayan sido eliminados de cualquier grupo heredado. Puede quitar el servidor de archivado o el servidor de supervisión en cualquier secuencia. El requisito clave es que se han quitado todos los usuarios de cualquier grupo heredado.
   
-Puede mover los usuarios a Skype para Business Server 2019 siguiendo los procedimientos descritos en [fase 4: mover usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md).
+Puede mover usuarios a Skype empresarial Server 2019 siguiendo los procedimientos descritos en la [fase 4: mover usuarios de prueba a la agrupación piloto](phase-4-move-test-users-to-the-pilot-pool.md).
   
-Una vez que se ha confirmado que se han quitado todos los usuarios de cualquier de los grupos restantes, decommision el servidor y quitar roles. Una fecha, pero relevantes, el ejemplo es "Desinstalar Microsoft Lync Server y quitar Roles de servidor," que se puede descargar en [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).
+Una vez que haya confirmado que todos los usuarios se han quitado del grupo restante, decommision el servidor y quite roles. Un ejemplo de fecha, pero relevante es "desinstalar Microsoft Lync Server y quitar roles de servidor", que se puede descargar en [https://go.microsoft.com/fwlink/p/?linkId=246227](https://go.microsoft.com/fwlink/p/?linkId=246227).
   
 

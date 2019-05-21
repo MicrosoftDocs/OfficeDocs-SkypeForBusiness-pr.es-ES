@@ -1,10 +1,10 @@
 ---
-title: Configurar las cuentas para salas de equipos de Microsoft
+title: Configurar cuentas para salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 5/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -14,79 +14,79 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: ''
-description: Lea este tema para obtener más información sobre cómo configurar cuentas para salas de equipos de Microsoft en Exchange e Skype para la empresa.
-ms.openlocfilehash: 284f55b7902ed97b86ebbcedaee049626fb51a26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lea este tema para obtener información sobre cómo configurar cuentas para salas de Microsoft Teams en Exchange y Skype empresarial.
+ms.openlocfilehash: 2c826be24ab9051c3dd206e2f4bbc7bdc832e250
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916398"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305404"
 ---
-# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar las cuentas para salas de equipos de Microsoft
+# <a name="configure-accounts-for-microsoft-teams-rooms"></a>Configurar cuentas para salas de Microsoft Teams
  
-Lea este tema para obtener más información acerca de salas de equipos de Microsoft y cómo se integra con Exchange y Skype para la empresa.
+Lea este tema para obtener información sobre las salas de Microsoft Teams y sobre cómo se integra con Exchange y Skype empresarial.
   
-En este tema se explica cómo crear las cuentas usadas por salas de equipos de Microsoft en Microsoft Exchange y Skype para la empresa. Las instrucciones de implementación para dispositivos de salas de equipos de Microsoft se describe en [Configurar una consola de salas de equipos de Microsoft](console.md). Es probable que su infraestructura esté incluida en una de las siguientes configuraciones:
+En este tema se presenta cómo crear cuentas usadas por salas de Microsoft Teams en Microsoft Exchange y Skype empresarial. Las instrucciones de implementación para los dispositivos de salas de Microsoft Teams se tratan en [configurar una consola de salas de Microsoft Teams](console.md). Es probable que su infraestructura esté incluida en una de las siguientes configuraciones:
   
-- Implementación en línea: entorno de su organización se implementa completamente en Office 365. Para obtener más información, vea [Implementar Microsoft los equipos locales con Office 365](with-office-365.md).
+- Implementación en línea: el entorno de la organización se implementa completamente en Office 365. Para obtener más información, consulte [implementar salas de Microsoft Teams con Office 365](with-office-365.md).
     
-- Implementación local: su organización tiene servidores que controla, donde se hospedan Skype para Business Server, Exchange y Active Directory. Para obtener más información, vea [Implementar salones de los equipos de Microsoft con Skype para Business Server](with-skype-for-business-server-2015.md)
+- Implementación local: su organización tiene servidores que controla, en los que se hospedan Active Directory, Exchange y Skype empresarial Server. Para obtener más información, consulte [implementar salas de Microsoft Teams con Skype empresarial Server](with-skype-for-business-server-2015.md)
     
-- Las implementaciones híbridas: su organización tiene una mezcla de servicios, con algunas hospedado en local y algunas alojado en línea a través de Office 365. Con salas de equipos de Microsoft, se admiten los siguientes escenarios híbrida: 
+- Implementaciones híbridas: su organización tiene una combinación de servicios, algunos locales hospedados y algunos hospedados en línea a través de Office 365. Con las salas de Microsoft Teams, se admiten los siguientes escenarios híbridos: 
     
-  - Exchange Online con Skype para Business Server local. Para obtener más información, vea [Implementar salones de los equipos de Microsoft con Exchange Online (híbrido)](with-exchange-online.md).
+  - Exchange Online con Skype empresarial Server local. Para obtener más información, consulte [implementar salas de Microsoft Teams con Exchange Online (implementación híbrida)](with-exchange-online.md).
     
-  - Exchange local con Microsoft Teams o Skype para profesionales en línea. Para obtener más información, vea [Implementar salones de los equipos de Microsoft con Exchange local (híbrido)](with-exchange-on-premises.md).
+  - Exchange local con Microsoft Teams o Skype empresarial online. Para obtener más información, consulte [implementar salas de Microsoft Teams con Exchange local (híbrido)](with-exchange-on-premises.md).
     
 La configuración que tenga influirá en la forma de preparar la configuración del dispositivo.
   
-Salones de los equipos de Microsoft debe asignarse una "cuenta de dispositivo" en Active Directory, Exchange y Skype para la empresa. La cuenta se usa para tener acceso a su calendario de reuniones y establecer Microsoft Teams o Skype para la conectividad de negocio. Los usuarios pueden programar una reunión con esta cuenta y de esta manera reservarla. Salones de los equipos de Microsoft podrán unirse a esa reunión y proporcionar varias características a los asistentes a la reunión.
+Las salas de Microsoft Teams deben tener asignada una "cuenta de dispositivo" en Active Directory, Exchange y Skype empresarial. La cuenta se usa para acceder al calendario de reuniones y para establecer la conectividad de Microsoft Teams o Skype empresarial. Los usuarios pueden programar una reunión con esta cuenta y de esta manera reservarla. Las salas de Microsoft Teams podrán unirse a esa reunión y proporcionar diversas características a los asistentes de la reunión.
   
 > [!IMPORTANT]
-> Sin una cuenta de dispositivo, ninguna de estas características funcionarán. 
+> Sin una cuenta de dispositivo, no funcionará ninguna de estas características. 
   
-Cada cuenta de dispositivo es único a un único dispositivo de salas de equipos de Microsoft y requiere algunas el programa de instalación:
+Cada cuenta de dispositivo es única para un único dispositivo de salas de Microsoft Teams y requiere cierta configuración:
   
-- La cuenta del dispositivo debe configurarse correctamente.
+- La cuenta del dispositivo debe estar configurada correctamente.
     
-- La infraestructura debe configurarse para permitir que los salones de los equipos de Microsoft para validar la cuenta del dispositivo y ponerse en contacto con los servicios de Microsoft apropiados.
+- La infraestructura debe estar configurada para permitir que las salas de Microsoft Teams validen la cuenta del dispositivo y puedan comunicarse con los servicios de Microsoft apropiados.
     
 > [!IMPORTANT]
-> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. En entornos híbridos de la cuenta usada para salas de equipos de Microsoft debe tener habilitada en la sincronización de AAD debido a que la autenticación de salas de equipos de Microsoft requiere autenticación 365 0ffice la sincronización de contraseñas.
+> Es recomendable crear la cuenta mucho antes de instalar el hardware. Idealmente, la preparación de la cuenta debe comenzar de dos a tres semanas antes de la instalación. En entornos híbridos, la cuenta usada para salas de Microsoft Teams debe tener la sincronización de contraseña habilitada en AAD Sync porque la autenticación de salas de Microsoft Teams requiere autenticación de 0ffice 365.
   
-Una cuenta de dispositivo se puede considerar como la cuenta del recurso que personas reconocen como cuenta de una conferencia de la sala o reunión del espacio. Cuando desee programar una reunión en esa sala de conferencias, invitará a la cuenta a esa reunión. Para poder usar salones de los equipos de Microsoft de manera más eficaz, hace lo mismo con la cuenta del dispositivo que se asigna a cada uno de ellos.
+Puede pensar en una cuenta de dispositivo como la cuenta de recursos que las personas reconocen como una cuenta de sala de conferencias o de un espacio de reunión. Cuando desee programar una reunión en esa sala de conferencias, invitará a la cuenta a esa reunión. Para usar las salas de Microsoft Teams de manera más eficaz, haga lo mismo con la cuenta del dispositivo asignada a cada una de ellas.
   
-Si ya tiene una cuenta de buzón de recursos establecer para el espacio de reunión donde está instalando salones de los equipos de Microsoft, puede cambiar esa cuenta del recurso en una cuenta de dispositivo. Una vez que se realiza, todo lo que necesita hacer es agregar la cuenta del dispositivo a un dispositivo de salas de equipos de Microsoft. Consulte los ejemplos de dispositivo cuenta el programa de instalación proporcionados a continuación.
+Si ya tiene configurada una cuenta de buzón de recursos para el espacio de reunión en el que está instalando salas de Microsoft Teams, puede cambiar esa cuenta de recursos a una cuenta de dispositivo. Una vez que haya terminado, todo lo que tiene que hacer es agregar la cuenta de dispositivo a un dispositivo de salas de Microsoft Teams. Consulte los ejemplos de configuración de la cuenta de dispositivo proporcionados a continuación.
   
-Con una configuración adicional, es posible usar el Monitor de Azure de Microsoft como se describe en [administración de planeación de salas de equipos de Microsoft con el Monitor de Azure](azure-monitor-plan.md), [administración de implementación de salas de equipos de Microsoft con el Monitor de Azure](azure-monitor-deploy.md)y [administración remota Administrar dispositivos de salas de equipos de Microsoft con el Monitor de Azure](azure-monitor-manage.md). 
+Con la configuración adicional, la administración remota puede usar Microsoft Azure monitor tal como se describe en [planear la administración de salas de Microsoft Teams con Azure monitor](azure-monitor-plan.md), [implementar la administración de salas de Microsoft Teams con Azure monitor](azure-monitor-deploy.md)y [ Administrar dispositivos de salas de Microsoft Teams con el monitor de Azure](azure-monitor-manage.md). 
   
 ## <a name="basic-configuration"></a>Configuración básica
 
-Estas propiedades representan la configuración mínima para una cuenta de dispositivo para que funcione con Microsoft los equipos locales. Su cuenta de dispositivo puede ser necesario el programa de instalación.
+Estas propiedades representan la configuración mínima para que una cuenta de dispositivo funcione con salas de Microsoft Teams. Es posible que la cuenta del dispositivo requiera una configuración adicional.
   
 |**Propiedad**|**Finalidad**|
 |:-----|:-----|
-|Buzón de Exchange (Exchange 2013 SP1 o posterior, o Exchange Online)  <br/> |Habilitar la cuenta con un buzón de Exchange, la cuenta del dispositivo le proporciona la capacidad para recibir y enviar correo y las convocatorias de reunión y para mostrar un calendario de reuniones en el dispositivo de salas de equipos de Microsoft. El buzón de correo de salas de equipos de Microsoft debe ser un buzón de sala.  <br/> |
-|Skype para la empresa está habilitado  <br/> |Skype para la empresa debe estar habilitado para poder usar distintas características de conferencia, como las llamadas de vídeo, mensajería instantánea y uso compartido de pantalla. Skype para profesionales en línea y Skype para Business Server son compatibles.  <br/> |
-|Habilitada con contraseña  <br/> |La cuenta del dispositivo debe estar habilitada con una contraseña, o no se puede autenticar con Exchange o Skype para Business Server.  <br/> |
+|Buzón de Exchange (Exchange 2013 SP1 o posterior, o Exchange Online)  <br/> |Si habilita la cuenta con un buzón de Exchange, la cuenta del dispositivo tendrá la capacidad de recibir y enviar solicitudes de correo y de reunión, así como de mostrar un calendario de reuniones en el dispositivo de salas de Microsoft Teams. El buzón de Microsoft Team Rooms debe ser un buzón de sala.  <br/> |
+|Skype empresarial está habilitado  <br/> |Skype empresarial debe estar habilitado para poder usar varias características de conferencia, como las videollamadas, la mensajería instantánea y el uso compartido de pantalla. Se admiten tanto Skype empresarial online como Skype empresarial Server.  <br/> |
+|Habilitada con contraseña  <br/> |La cuenta del dispositivo debe estar habilitada con una contraseña o no se puede autenticar con Exchange ni con Skype empresarial Server.  <br/> |
    
 ## <a name="advanced-configuration"></a>Configuración avanzada
 
-Mientras que las propiedades para la configuración básica permitirá la cuenta del dispositivo a establecerse en un entorno simple, es posible que su entorno tiene otras restricciones en las cuentas de Active directory que se deben cumplir en orden para salas de equipos de Microsoft usar de forma correcta el cuenta del dispositivo.
+Aunque las propiedades de la configuración básica permiten configurar la cuenta del dispositivo en un entorno simple, es posible que el entorno tenga otras restricciones en las cuentas de directorio que deben cumplirse para que las salas de Microsoft Teams usen correctamente el cuenta del dispositivo.
   
 |**Propiedad**|**Finalidad**|
 |:-----|:-----|
-|Autenticación basada en certificados  <br/> |Los certificados pueden ser necesarios para Exchange y Skype para Business Server. Para implementar certificados, puede cargarlos cuando haya iniciado sesión como administrador.  <br/> |
+|Autenticación basada en certificados  <br/> |Es posible que se necesiten certificados para Exchange y Skype empresarial Server. Para implementar certificados, puede cargarlos cuando haya iniciado sesión como administrador.  <br/> |
    
-La forma más sencilla de configurar las cuentas de dispositivo es configurarlas mediante Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), una secuencia de comandos que le ayudarán a crear nuevas cuentas de dispositivo o validar cuentas de recursos existentes que tienen con el fin de ayudarle a convertirlas en cuentas de dispositivos compatibles con salas de equipos de Microsoft.
+La manera más fácil de configurar las cuentas de dispositivo es configurarlas con Windows PowerShell remoto. Microsoft proporciona [SkypeRoomProvisioningScript. PS1](https://go.microsoft.com/fwlink/?linkid=870105), un script que le ayudará a crear nuevas cuentas de dispositivos, o validar las cuentas de recursos existentes que tiene para ayudarle a convertirlas en cuentas de dispositivos de salas de Microsoft Teams compatibles.
   
-Si prefiere usar la interfaz de usuario de Office 365 a través de los cmdlets de Windows PowerShell, pueden realizar manualmente algunos pasos. Consulte [creación de una cuenta de dispositivo con Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
+Si prefiere usar la interfaz de usuario de Office 365 sobre cmdlets de Windows PowerShell, algunos pasos se pueden realizar manualmente. Vea [crear una cuenta de dispositivo con Office 365](https://docs.microsoft.com/surface-hub/create-a-device-account-using-office-365).
   
 ## <a name="see-also"></a>Vea también
 
-[Plan para salas de equipos de Microsoft](skype-room-systems-v2-0.md)
+[Plan para salas de Microsoft Teams](skype-room-systems-v2-0.md)
   
-[Configurar una consola de salas de equipos de Microsoft](console.md)
+[Configurar una consola de salas de Microsoft Teams](console.md)
   
 [Administrar Salas de Microsoft Teams](skype-room-systems-v2.md)
 

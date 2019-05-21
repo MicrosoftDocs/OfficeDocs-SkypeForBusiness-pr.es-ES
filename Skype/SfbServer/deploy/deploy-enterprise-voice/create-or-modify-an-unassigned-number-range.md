@@ -1,10 +1,10 @@
 ---
-title: Crear o modificar un intervalo de números sin asignar en Skype para Business Server
+title: Crear o modificar un intervalo de números sin asignar en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,37 +13,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
-description: Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 7e186facd0ef619846b027943dcb5f19e2e3edc6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Crear, modificar o eliminar rangos numéricos no asignados para la aplicación de anuncios en Skype empresarial Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
+ms.openlocfilehash: 5b9afa463d6eaff2f6ba3ed283d11556bd95bc03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892898"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286186"
 ---
-# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype para Business Server
+# <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Crear o modificar un intervalo de números sin asignar en Skype empresarial Server
  
-Crear, modificar o eliminar los intervalos numéricos sin asignar para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
+Crear, modificar o eliminar rangos numéricos no asignados para la aplicación de anuncios en Skype empresarial Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
   
-Skype para Business Server le permite que decir lo que ocurre con las llamadas entrantes a los números de teléfono que son válidas para su organización, pero no están asignados a un usuario o un teléfono. Para administrar las llamadas de este tipo, deberá configurar una tabla de números no asignados. Puede usar la tabla para enrutar las llamadas a una aplicación de anuncio o a un servidor de mensajería unificada de Exchange.
+Skype empresarial Server le permite decir lo que sucede con las llamadas entrantes a números de teléfono que son válidos para su organización, pero que no están asignados a un usuario o un teléfono. Para administrar las llamadas de este tipo, deberá configurar una tabla de números no asignados. Puede usar la tabla para enrutar las llamadas a una aplicación de anuncio o a un servidor de mensajería unificada de Exchange.
   
 La forma en que configure la tabla de números sin asignar depende de cómo desee usarla. Puede configurar la tabla con todas las extensiones válidas para la organización, con únicamente extensiones sin asignar o bien con una combinación de ambos tipos de números. La tabla de números sin asignar puede incluir tanto números asignados como sin asignar, pero solamente se invoca cuando un autor de llamadas marca un número que no está asignado en esos momentos. Si incluye todas las extensiones válidas en la tabla de números sin asignar, puede especificar la acción que va a tener lugar siempre que alguien abandone la organización, sin necesidad de volver a configurar la tabla. Si incluye extensiones sin asignar en la tabla, puede personalizar la acción que va a tener lugar respecto a números específicos. Por ejemplo, si cambia la extensión del departamento de soporte interno, puede incluir el número antiguo de este departamento en la tabla y asignarlo a un anuncio que comunique el número nuevo.
   
 ## <a name="configure-unassigned-phone-numbers"></a>Configuración de números de teléfono sin asignar
 
-Use uno de los siguientes procedimientos para configurar los intervalos numéricos sin asignar para la aplicación de anuncio.
+Use uno de los procedimientos siguientes para configurar intervalos numéricos no asignados para la aplicación de anuncios.
   
 > [!IMPORTANT]
-> Antes de configurar la tabla de números sin asignar, el sistema debe tener anuncios definidos o configurar un operador automático de mensajería unificada de Exchange (UM). 
+> Antes de configurar la tabla de números sin asignar, el sistema ya debe tener anuncios definidos o un operador automático de mensajería unificada (UM) de Exchange configurado. 
   
 > [!TIP]
-> Cuando alguien llama a un número sin asignar, Skype para Business Server busca en la tabla de números sin asignar de arriba a abajo y usa el primer rango coincidente. Por consiguiente, si quiere que se lleve a cabo una acción determinada como último recurso, deberá especificarla para el último intervalo en la tabla. 
+> Cuando alguien llama a un número no asignado, Skype empresarial Server busca la tabla de números sin asignar de arriba abajo y usa el primer intervalo coincidente. Por consiguiente, si quiere que se lleve a cabo una acción determinada como último recurso, deberá especificarla para el último intervalo en la tabla. 
   
-### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Usar Skype para el Panel de Control de Business Server para configurar los números de teléfono sin asignar
+### <a name="to-use-skype-for-business-server-control-panel-to-configure-unassigned-phone-numbers"></a>Para usar el panel de control de Skype empresarial Server para configurar números de teléfono no asignados
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Características de voz** y, a continuación, en **Número sin asignar**.
     
@@ -62,7 +62,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
     
    - Si el número inicial o final del intervalo incluye un número de extensión, ambos números del intervalo deben incluir la extensión y el número de extensión debe ser igual al número inicial y final del intervalo.
     
-   - El número debe coincidir con la expresión regular (tel:) ? (\+) ? [1-9] \d{0,17}(; ext = [1-9] \d{0,9}) ?. Esto significa que el número de puede comenzar con la cadena tel: (si no se especifica dicha cadena, se agregará automáticamente para usted), un signo más (+) y un dígito del 1 al 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ext= y el número de extensión.
+   - El número debe coincidir con la expresión regular (Tel:)\+? () ? [1-9{0,17}] \d (; ext = [1-9{0,9}] \d) ?. Esto significa que el número puede comenzar con la cadena Tel: (si no especifica esa cadena, se agregará automáticamente), un signo más (+) y un dígito de 1 a 9. El número de teléfono puede tener hasta 17 dígitos y puede estar seguido de una extensión en formato ext= y el número de extensión.
     
 6. En **Servicio de anuncio**, lleve a cabo uno de los siguientes procedimientos: 
     
@@ -72,7 +72,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
     
 7. Si en el paso anterior ha hecho clic en **Anuncio**, proceda de la siguiente manera:
     
-    a. En el **FQDN del servidor de destino**, haga clic en **Seleccionar**, haga clic en el identificador de servicio de la aplicación que se ejecuta la aplicación de anuncio que controlará las llamadas entrantes a este intervalo de números sin asignar y, a continuación, haga clic en **Aceptar**.
+    a. En **FQDN del servidor de destino**, haga clic en **seleccionar**, haga clic en el identificador de servicio del servicio de aplicación que ejecuta la aplicación de anuncio que controlará las llamadas entrantes a este rango de números sin asignar y, a continuación, haga clic en **Aceptar**.
     
     b. En **Anuncio**, haga clic en el anuncio que se va a reproducir para este intervalo de números sin asignar.
     
@@ -83,13 +83,13 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
 10. En la página **Número sin asignar**, asegúrese de que los intervalos de números sin asignar se disponen según el orden que le interesa. Para cambiar la posición de un intervalo en la tabla, haga clic en uno o más nombres consecutivos en la lista de intervalos y, a continuación, haga clic en la flecha arriba o abajo.
     
     > [!TIP]
-    > Skype para Business Server busca en la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
+    > Skype empresarial Server busca la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Si tiene intervalos superpuestos y un intervalo especifica una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista. 
   
 11. Cuando haya ordenado el intervalo de números sin asignar según su conveniencia, haga clic en **Confirmar todo**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Usar Skype para Business Server Management Shell para configurar los números de teléfono sin asignar
+### <a name="to-use-skype-for-business-server-management-shell-to-configure-unassigned-phone-numbers"></a>Para usar el shell de administración de Skype empresarial Server para configurar números de teléfono sin asignar
 
-1. Inicie sesión en el equipo donde está instalado Skype para Shell de administración de servidor empresarial como un miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegar permisos de instalación**.
+1. Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.
     
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
@@ -132,11 +132,11 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
 
 ## <a name="delete-an-unnasigned-number-range"></a>Eliminar un intervalo de números sin asignar
 
-### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Usar Skype para el Panel de Control de servidor empresarial para eliminar un intervalo de números sin asignar
+### <a name="to-use-skype-for-business-server-control-panel-to-delete-an-unassigned-number-range"></a>Para usar el panel de control de Skype empresarial Server para eliminar un intervalo de números no asignado
 
 1.  Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins o como miembro del rol CsVoiceAdministrator, CsServerAdministrator o CsAdministrator. Para más información, consulte **Delegate Setup Permissions**.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Características de voz** y, a continuación, en **Número sin asignar**.
     
@@ -146,9 +146,9 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
     
 6. Haga clic en **Confirmar todo**.
     
-### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Usar Skype para Shell de administración de servidor empresarial para eliminar un intervalo de números sin asignar
+### <a name="to-use-skype-for-business-server-management-shell-to-delete-an-unassigned-number-range"></a>Para usar el shell de administración de Skype empresarial Server para eliminar un intervalo de números sin asignar
 
-1. Inicie sesión en el equipo donde está instalado Skype para Shell de administración de servidor empresarial como un miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegar permisos de instalación**.
+1. Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.
     
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
@@ -165,7 +165,7 @@ Use uno de los siguientes procedimientos para configurar los intervalos numéric
    ```
 
     > [!NOTE]
-    > Para obtener información detallada acerca de las opciones más, vea [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
+    > Para obtener más información sobre más opciones, consulte [Remove-CsCallParkOrbit](https://docs.microsoft.com/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
 ## <a name="see-also"></a>Vea también
 

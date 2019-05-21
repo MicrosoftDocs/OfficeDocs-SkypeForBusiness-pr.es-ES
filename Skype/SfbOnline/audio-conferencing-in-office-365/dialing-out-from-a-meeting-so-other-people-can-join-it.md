@@ -1,5 +1,5 @@
 ---
-title: Marcar desde un Skype para la reunión de negocios por lo que otras personas pueden unirse a ella
+title: Llamar desde una reunión de Skype empresarial para que otras personas puedan unirse
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,25 +20,25 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Obtenga más información sobre qué necesita y cómo los organizadores de una reunión pueden llamar a otras personas con Skype for Business.
-ms.openlocfilehash: 49130a14391e014d1e7aea21c62abaf2385296d8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 4f46315c7817ad7e8e529fabff9a3a333527a266
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229539"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306124"
 ---
-# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Marcar desde un Skype para la reunión de negocios por lo que otras personas pueden unirse a ella
+# <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Skype empresarial para que otras personas puedan unirse
 
 > [!NOTE]
 > Si está buscando información acerca de cómo llamar desde una reunión de Teams, vea [Llamar desde una reunión de Teams para que otras personas puedan unirse](/MicrosoftTeams/dialing-out-from-a-teams-meeting-so-other-people-can-join-it).
 
 As the meeting organizer, you can dial out using the Skype for Business app to let other people join the same meeting using their phone. Although it's not required, when you are dialing out to someone, it's recommended that you dial the full number, including the country/region code. To get dial-out to work:
   
-- Puede de salida sólo si se une a una reunión mediante un Skype para la aplicación empresarial.
+- Solo puede hacer una llamada si se une a una reunión con una aplicación de Skype empresarial.
     
 - Como organizador de la reunión, está habilitado para las conferencias de acceso telefónico local.
 
-Para agregar a otros participantes a través de acceso telefónico de salida a las reuniones de la organización, se requiere al menos un usuario autenticado de la misma organización que el Organizador (su organización) debe estar presente en la reunión con el fin de permitir la adición de los demás participantes a través de acceso telefónico de salida. 
+Para agregar a otros participantes a través de la llamada de acceso telefónico a las reuniones de su organización, debe estar presente al menos un usuario autenticado de la misma organización que el organizador (su organización) en la reunión para poder agregar otros participantes por aceptación de llamada. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -53,7 +53,7 @@ Para agregar a otros participantes a través de acceso telefónico de salida a l
   
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 
-Dial-out is only available to some countries/regions. Para obtener una lista completa, vea [disponibilidad de país y región para las conferencias de Audio y planes de llamada](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
+Dial-out is only available to some countries/regions. Para obtener una lista completa, consulte [disponibilidad de países y regiones para las conferencias de audio y los planes de llamadas](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans).
   
 ## <a name="want-to-know-more-about-audio-conferencing"></a>¿Desea saber más sobre las conferencias de acceso telefónico local?
 

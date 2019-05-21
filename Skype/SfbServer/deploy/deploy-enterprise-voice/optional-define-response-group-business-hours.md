@@ -1,33 +1,33 @@
 ---
-title: (Opcional) Grupo de respuesta de definir el horario en Skype para la empresa
+title: Faculta Definir las horas de trabajo del grupo de respuesta en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
-description: Crear o modificar grupo de respuesta en horario laboral, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e98bfcf07b48811957c659fc865edda930f33da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Crear o modificar el horario laboral de un grupo de respuesta en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: 9f00e89bede48af8c36de93da951df9b69a692e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894643"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306336"
 ---
-# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Opcional) Grupo de respuesta de definir el horario en Skype para la empresa 
+# <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>Faculta Definir las horas de trabajo del grupo de respuesta en Skype empresarial 
  
-Crear o modificar grupo de respuesta en horario laboral, en Skype para Business Server Enterprise Voice.
+Crear o modificar el horario laboral de un grupo de respuesta en Skype empresarial Server Enterprise Voice.
   
 ## <a name="defining-business-hours"></a>Definir el horario comercial
 
 La configuración del horario comercial define cuándo está disponible el flujo de trabajo para responder a las llamadas y especifica las acciones que deben efectuarse para responder a llamadas fuera del horario comercial. Los administradores de los grupos de respuesta usan el cmdlet **New-CsRgsHoursOfBusiness** crear programaciones predefinidas que se pueden usar para cualquier cantidad de grupos de respuesta.
   
 > [!TIP]
-> Cuando cree o modifique un flujo de trabajo, especifique un programa personalizado que se aplique solo a ese flujo de trabajo. Para obtener información detallada, vea [diseñar y crear flujos de trabajo de grupo en Skype para la empresa de respuesta](designing-and-creating-response-group-workflows.md). 
+> Cuando cree o modifique un flujo de trabajo, especifique un programa personalizado que se aplique solo a ese flujo de trabajo. Para obtener más información, consulte [diseñar y crear flujos de trabajo de grupos de respuesta en Skype empresarial](designing-and-creating-response-group-workflows.md). 
   
 > [!NOTE]
 > Si un flujo de trabajo se ha definido como flujo de trabajo administrado, cualquier usuario que tenga asignado el rol CsResponseGroupManager puede establecer y modificar el horario comercial de los flujos de trabajo que administra. 
@@ -64,6 +64,6 @@ La configuración del horario comercial define cuándo está disponible el flujo
 
 ## <a name="see-also"></a>Vea también
 
-[New-CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
+[Nuevo: CsRgsTimeRange](https://docs.microsoft.com/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   
-[Nueva CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)
+[Nuevo: CsRgsHoursOfBusiness](https://docs.microsoft.com/powershell/module/skype/new-csrgshoursofbusiness?view=skype-ps)

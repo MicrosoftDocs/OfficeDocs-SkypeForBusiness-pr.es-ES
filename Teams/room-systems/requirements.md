@@ -1,88 +1,88 @@
 ---
-title: Requisitos de salas de equipos de Microsoft
+title: Requisitos de salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
-description: En este artículo se resume los requisitos para admitir salones de los equipos de Microsoft.
-ms.openlocfilehash: a24ffdb21bb510a0ba973f1cff8174d505c00e91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
+ms.openlocfilehash: 364ed7ee3027e05753dee65a896f50024e7572b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916428"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305479"
 ---
-# <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de equipos de Microsoft
+# <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
-En este artículo se resume los requisitos para admitir salones de los equipos de Microsoft. 
+En este artículo se resumen los requisitos para admitir salas de Microsoft Teams. 
 
-Creación de cuentas como se describe en [Implementar salones de los equipos de Microsoft](room-systems-v2.md) y la configuración de una consola de reunión tal como se describe en [Configurar una consola de salas de equipos de Microsoft](console.md), implicará la implementación. 
+La implementación incluirá la creación de la cuenta tal como se describe en [implementar salas de Microsoft Teams](room-systems-v2.md) y configurar una consola de reunión, tal como se describe en [configurar una consola de salones de Microsoft Teams](console.md). 
 
-También es posible que necesite hacer referencia a:
+También es posible que tengas que hacer referencia a:
 
 - [Licencias de complemento de Skype Empresarial](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [En función del plan de opciones de licencia: salones de los equipos de Microsoft](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Opciones de licencia basadas en su plan: salas de Microsoft Teams](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
 
 > [!NOTE]
-> Salones de los equipos de Microsoft está pensada para su uso con Microsoft Teams, Skype para Business Server 2019, Skype para Business Server 2015 o Skype para profesionales en línea. <br><br>No se espera plataformas anteriores al igual que Lync Server 2013 para trabajar con salas de equipos de Microsoft.
+> Las salas de Microsoft Teams se han diseñado para su uso con Microsoft Teams, Skype empresarial Server 2019, Skype empresarial Server 2015 o Skype empresarial online. <br><br>Las plataformas anteriores como Lync Server 2013 no se esperan para trabajar con salas de Microsoft Teams.
 
 > [!NOTE]
-> Si usa un servidor de Exchange en prem, salones de los equipos de Microsoft requiere el uso de Exchange Server 2013 SP1 o posterior.
+> Si usa un servidor de Exchange local, las salas de Microsoft Teams requieren el uso de Exchange Server 2013 SP1 o posterior.
 
 ## <a name="hardware-requirements"></a>Requisitos de hardware
 
-Salones de los equipos de Microsoft se pueden escalar a tamaños de sala diferente a través de accesorios según periféricos de audio y vídeos. El hardware que aparecen en este artículo es compatible con los modos de reunión de Skype y los equipos.  Conectan periféricos de audio y vídeos a las salas de los equipos de Microsoft a través de una conexión USB o HDMI en el dispositivo de acoplamiento. También necesitará:
+Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a través de accesorios, en función de los periféricos de audio y vídeo. El hardware que se muestra en este artículo admite los modos de reunión de Skype y de equipos.  Los periféricos de audio y vídeo se conectan a las salas de Microsoft Teams a través de una conexión USB o HDMI en el dispositivo de acoplamiento. También necesitará:
 
-- Un 32GB o mayor disco USB que se configurará como medio de instalación de Windows de arranque para Windows 10 Enterprise. 
+- Un disco USB de 32 GB o superior que configurará como medio de instalación de Windows 10 de arranque para Windows 10 Enterprise. 
 
-- Uno de los siguientes tabletas o consolas:
+- Una de las siguientes tabletas o consolas:
 
 **Tabletas compatibles**
 
-|Tablet PC|Procesador|MEMORIA RAM|Disco|
+|Lápiz|Processor|MEMORIAS|Disco|
 |:-----|:-----|:-----|:-----|
-|Surface Pro 6          |I5 principales  |16GB o 8GB |128GB o más  |
-|Surface Pro (5 º generación)  |I5 principales  |8GB o 4GB  |128GB o más  |
-|Surface Pro 4          |I5 principales  |8GB o 4GB  |128GB o más  |
+|Surface Pro 6          |Núcleo de i5  |16 GB o 8 GB |128 GB o más  |
+|Surface Pro (5º gen)  |Núcleo de i5  |8 GB o 4 GB  |128 GB o más  |
+|Surface Pro 4          |Núcleo de i5  |8 GB o 4 GB  |128 GB o más  |
 
 > [!NOTE]
-> No se admiten los procesadores de núcleo M3.
+> No se admiten los procesadores m3 principales.
 
-**Consolas compatibles**
+**Consolas admitidas**
 
-|Consola|Procesador|MEMORIA RAM|Disco|
+|Consola|Processor|MEMORIAS|Disco|
 |:-----|:-----|:-----|:-----|
-|[Lenovo ThinkSmart concentrador 500](https://www3.lenovo.com/us/en/hub500) |I5 principales  |8GB  |128GB  |  
-|[HP sector Elite para G2 de salas de reuniones](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |I5 principales  |8GB  |128GB  |  
+|[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5  |GB  |GB  |  
+|[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5  |GB  |GB  |  
 
-- Una de las siguientes opciones de estación de acoplamiento para proteger una tableta a la reunión de la sala tabla. 
+- Una de las siguientes opciones de estación de acoplamiento para proteger una tableta de la tabla sala de reuniones. 
 
   - [Logitech SmartDock](https://partnersolutions.skypeforbusiness.com/solutionscatalog/all/logitech-smart-dock)
 
-  - [SR Crestron](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
+  - [Crestron SR](http://www.crestron.com/products/line/sr-for-skype-for-business-room-system )
 
-  - [Serie de Polycom MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
+  - [Serie MSR MSR](http://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.html)
 
 
 
-**Certificado de las versiones de firmware para periféricos USB de audio y vídeos**
+**Versiones de firmware certificadas para periféricos de audio y vídeo USB**
 
-|Periféricos de salas de equipos de Microsoft|Versión de firmware certificada para salas de equipos de Microsoft|
+|Periféricos de Microsoft Teams Rooms|Versión de firmware certificada para salas de Microsoft Teams|
 |:-----|:-----|
 |[Logitech BRIO](https://www.logitech.com/en-us/product/brio) <br/> |v240|
-|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio - 1.0.172  <br/> Vídeo - 1.0.156  <br/> |
-|[Logitech ConferenceCam conectar](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
-|[Grupo de Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
-|[Logitech 930e](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
+|[Logitech MeetUp](http://www.logitech.com/en-us/product/meetup-conferencecam) <br/> |Audio: 1.0.172  <br/> Vídeo: 1.0.156  <br/> |
+|[Conexión Logitech ConferenceCam](http://www.logitech.com/en-us/product/conferencecam-connect) <br/> |1.1.248.0  <br/> 1.1.684  <br/> |
+|[Grupo Logitech](http://www.logitech.com/en-us/product/conferencecam-group) <br/> |8.5.778  <br/> |
+|[Logitech 930E](http://www.logitech.com/en-us/product/c930e-webcam) <br/> | 8.0.914 <br/> |
 |[Logitech PTZ Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro) <br/> | 1.1.219 <br/> |
-|[Logitech PTZ 2 Pro](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
+|[Logitech PTZ Pro 2](http://www.logitech.com/en-us/product/conferencecam-ptz-pro2) <br/> |
 |[Polycom RealPresence trío](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4,7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> |  1.2.0.70232 <br/> |
@@ -93,63 +93,63 @@ Salones de los equipos de Microsoft se pueden escalar a tamaños de sala diferen
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810) <br/> |1.2.23  <br/> |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/) <br/> |100c  <br/> |
 
-- **Extender USB**:
+- **Extensores de USB**:
 
-  - Puertos USB en lo acopla tablet son 3.0 USB compatible. Puede utilizar un extensor de 2.x USB, pero al hacerlo por lo que le limitarán a velocidades de 2.x USB en el extremo y si lo hace por lo que no se recomienda para periféricos USB 3.0.
+  - Los puertos USB de los acoplamientos de Tablet PC son compatibles con USB 3,0. Puede usar un extensor USB 2, pero si lo hace, se limitará a las velocidades de USB 2. x en el extremo del lejano y no se recomienda para los periféricos USB 3,0.
 
-  - Un objeto extender debe cumplir con USB 2.0 o especificaciones más reciente.
+  - Un extensor debe cumplir con las especificaciones de USB 2,0 o posterior.
 
-  - Lo acopla Tablet admite al menos dos etapas de extensión de concentrador USB externo. Si necesidad de conectar más de dos concentradores USB en serie, deberá consultar con el fabricante de muelle para confirmar si lo hace por lo que es compatible.
+  - Los acoplamientos de Tablet PC admiten al menos dos fases de extensión de concentrador USB externo. Si necesita conectar más de dos concentradores USB en serie, tendrá que consultar con el fabricante del Dock para confirmar que es compatible.
 
-- Conexión por cable de GbE en la sala. Cable Ethernet de una longitud adecuada.
+- Conexión GbE por cable en el salón. Cable Ethernet de una longitud adecuada.
 
-- Hasta dos pantallas 1080p con conexiones de HDMI. Cables HDMI de longitud adecuada.
+- Hasta dos pantallas de 1080p con conexiones HDMI. Cables HDMI de longitud adecuada.
 
     > [!NOTE]
     > Si se usa un televisor como pantalla, debe ser compatible con la característica Control de electrónica de consumidor (CEC) de HDMI o habilitarla para que puede cambiar automáticamente a un origen de vídeo activo desde el modo de espera. Esta característica no es compatible con todos los televisores. 
 
 > [!NOTE]
-> Salones de los equipos de Microsoft no usa un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Un teclado o mouse USB se requerirán cuando el dispositivo Microsoft salones de los equipos de procesamiento de imágenes. 
+> Las salas de Microsoft Teams no usan un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Al crear imágenes del dispositivo de salas de Microsoft Teams, se necesitará un teclado o un mouse USB. 
 
-En las tablas siguientes se proporcionan recomendaciones para periféricos según el tamaño de la sala:
+En las siguientes tablas se proporcionan recomendaciones para los periféricos basados en el tamaño de la sala:
 
-**Salas de equipos de Microsoft certificadas periféricos de Audio**
+**Microsoft Teams salones de audio certificados**
 
 |Tipo de sala|Cantidad de personas|Distancia máxima recomendada desde el micrófono hasta la persona que habla|Dispositivo por tamaño máximo de la sala|Comentarios|
 |:-----|:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Los dispositivos Logitech conectar incluyen una cámara de modo que deberá estar situado en la parte frontal de la sala (no el centro de la tabla) para capturar los asistentes a la reunión local.  <br/> |
-|**Pequeña** <br/> 16' x 16'  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |El volumen de reproducción puede estar limitado para salas más grandes.  <br/> |
-|**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000  <br/> |El Logitech MeetUp incluye una cámara por lo que deberá estar situado en la parte frontal de la sala (no el centro de la tabla para capturar los asistentes a la reunión local).  <br/> En general, salones con tablas durante cuánto tiempo rectangulares o en forma de u es posible que se benefician de micrófonos de satélite adicionales.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
-|**Grande** <br/> 15' x 32 º  <br/> |12-16  <br/> |3m  <br/> Esta distancia también se aplica al área cubierta por cada micrófono satelital adicional conectado al dispositivo de audio en cuestión.   <br/> |Grupo de Logitech + micrófonos de satélite  <br/> Micrófonos de satélite Polycom Trio +  <br/> Polycom CX5100 + micrófonos de satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000 + micrófonos de satélite  <br/> |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital.  <br/> CX5100 incluye una cámara integrada de 360 grados de manera que el dispositivo puede situarse en el centro de la mesa.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
+|**Foco** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |1.5m   <br/> |Logitech Connect  <br/> |Los dispositivos Logitech Connect incluyen una cámara, por lo que debe situarse en la parte delantera de la sala (no en el centro de la tabla) para capturar a los asistentes de la reunión.  <br/> |
+|**Pequeña** <br/> 16 x 16  <br/> |4-6  <br/> |2.0m  <br/> |Jabra 510  <br/> Sennheiser SP20  <br/> |El volumen de reproducción puede estar limitado para salas más grandes.  <br/> |
+|**Media** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |2.4m  <br/> |Jabra 710  <br/> Jabra 810  <br/> Logitech MeetUp  <br/> Logitech Group  <br/> Polycom Trio  <br/> Polycom CX5100   <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-1000Md  <br/> |Logitech MeetUp incluye una cámara para que se coloque en la parte delantera del salón (no en el centro de la tabla para capturar asistentes de reunión locales).  <br/> En general, los salones con tablas largas rectangulares o con forma de u pueden beneficiarse de micrófonos satélite adicionales.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
+|**Grande** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |3m  <br/> Esta distancia también se aplica al área cubierta por cada micrófono satelital adicional conectado al dispositivo de audio en cuestión.   <br/> |Grupo Logitech + satélite micrófonos  <br/> Micrófonos de Polycom trío + satélite  <br/> Micrófonos de Polycom CX5100 + satélite  <br/> Sennheiser SP 220 MS  <br/> Yamaha YVC-y micrófonos satélite  <br/> |Todos los dispositivos de audio que se enumeran en esta fila admiten opciones de micrófono satelital.  <br/> CX5100 incluye una cámara integrada de 360 grados de manera que el dispositivo puede situarse en el centro de la mesa.  <br/> SP 220 MS se debe usar con la configuración de cadena de margarita.  <br/> |
 
-**Salas de equipos de Microsoft certificadas periféricos vídeo**
+**Microsoft Teams salones de video certificados**
 
-|Tipo de sala|Cantidad de personas|Dispositivo por el tamaño de la sala óptimo|Comentarios|
+|Tipo de sala|Cantidad de personas|Dispositivo con un tamaño de sala óptimo|Comentarios|
 |:-----|:-----|:-----|:-----|
-|**Foco** <br/> 10' x 9'  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
-|**Pequeña** <br/> 16' x 16'  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro suele incluirse con grupo de Logitech  <br/> |
-|**Media** <br/> 18' x 20'  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> ||
-|**Grande** <br/> 15' x 32 º  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> MSR de Polycom  <br/> Polycom CX5100   <br/> ||
+|**Foco** <br/> 10 ' x 9 '  <br/> |2-4  <br/> |Logitech Connect  <br/> Logitech MeetUp  <br/> Polycom CX5100   <br/> ||
+|**Pequeña** <br/> 16 x 16  <br/> |4-6  <br/> |Logitech C930e  <br/> Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> |Logitech PTZ Pro suele estar incluido con Logitech Group  <br/> |
+|**Media** <br/> 18 ' x 20 '  <br/> |6-12  <br/> |Logitech MeetUp  <br/> Logitech BRIO  <br/> Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
+|**Grande** <br/> 15 ' x 32 '  <br/> |12-16  <br/> |Logitech PTZ Pro  <br/> Polycom MSR  <br/> Polycom CX5100   <br/> ||
 
  > [!NOTE]
- > Parte frontal de la resolución de pantalla de la sala debe establecerse en no superior a 1920x1080p.
+ > El anverso de la resolución de pantalla de la habitación debe ser mayor que 1920x1080p.
 
-## <a name="required-software-downloads"></a>Descargas de software requerido
+## <a name="required-software-downloads"></a>Descargas de software necesarias
 
-Para crear su propia imagen de salas de equipos de Microsoft, siga las instrucciones de [Configurar una consola de salas de equipos de Microsoft](console.md). Las instrucciones le guiará por el proceso de descarga de todo el software necesario para el proceso de instalación. 
+Para crear su propia imagen de salones de Microsoft Teams, siga las instrucciones de [configurar una consola de salas de Microsoft Teams](console.md). Estas instrucciones lo guiarán a través de la descarga del software necesario para el proceso de instalación. 
 
 > [!NOTE]
-> LOS profesionales de TI tendrá acceso a los archivos de Windows 10 Enterprise ISO a través de su contrato de licencia por volumen.
+> Los profesionales de ti necesitarán acceder a los archivos de ISO de Windows 10 Enterprise a través de su contrato de licencias por volumen.
 
-Además, deseará probablemente una copia de [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105), que puede usar para aprovisionar las cuentas locales de los equipos de Microsoft.
+Además, probablemente querrá una copia de [SkypeRoomProvisioningScript. PS1](https://go.microsoft.com/fwlink/?linkid=870105), que puede usar para aprovisionar las cuentas de salas de Microsoft Teams.
 
 ## <a name="see-also"></a>Vea también
 
-[Plan para salas de equipos de Microsoft](skype-room-systems-v2-0.md)
+[Plan para salas de Microsoft Teams](skype-room-systems-v2-0.md)
 
-[Implementación de salas de equipos de Microsoft](room-systems-v2.md)
+[Implementar salas de Microsoft Teams](room-systems-v2.md)
 
-[Configurar una consola de salas de equipos de Microsoft](console.md)
+[Configurar una consola de salas de Microsoft Teams](console.md)
 
 [Administrar Salas de Microsoft Teams](skype-room-systems-v2.md)
 

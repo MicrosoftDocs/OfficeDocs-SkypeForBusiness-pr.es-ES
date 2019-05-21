@@ -1,35 +1,35 @@
 ---
-title: Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
+title: Administrar las opciones de configuración del servidor de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
-description: 'Resumen: Obtenga información sobre cómo administrar los valores de configuración de servidor de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 5727fffa8651d16be010dd76584d51c447c34087
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar la configuración de la configuración del servidor de conferencias en Skype empresarial Server.'
+ms.openlocfilehash: 190cd78e3c81f98859c40fe386fae2c4fd934a8e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919552"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289002"
 ---
-# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Administrar los valores de configuración de servidor de conferencia en Skype para Business Server
+# <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Administrar las opciones de configuración del servidor de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar los valores de configuración de servidor de conferencia en Skype para Business Server.
+**Resumen:** Aprenda a administrar la configuración de la configuración del servidor de conferencias en Skype empresarial Server.
   
-En este tema se describe cómo administrar opciones de configuración de conferencia. Para obtener más información acerca de cómo planear e implementar una conferencia, vea [Plan para las conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencias en Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+En este tema se describe cómo administrar opciones de configuración de conferencia. Para obtener más información sobre cómo planear e implementar conferencias, consulte [planear la Conferencia en Skype empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) e [implementar conferencias en Skype empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Determinación de la configuración de conferencia elementos tales como el tamaño máximo permitido para el contenido de las reuniones y los documentos; cantidad máxima de ancho de banda para el servicio de conferencia de uso compartido de la aplicación; límites de almacenamiento y períodos de expiración; descargas de las direcciones URL internas y externas del cliente compatible; punteros a las direcciones URL internas y externas donde los usuarios pueden obtener ayuda de conferencia y recursos; y los puertos usados para el uso compartido de aplicaciones, audio de cliente, las transferencias de archivos y el tráfico de medios. Esta configuración le permite administrar los servidores reales. Estas opciones de configuración se pueden establecer mediante el uso de Skype para Shell de administración de servidor empresarial.
+Las opciones de configuración de conferencias determinan aspectos como el máximo permitido para el contenido y los documentos de la reunión; cantidad máxima de ancho de banda para el servicio de conferencias de uso compartido de aplicaciones; límites de almacenamiento y períodos de expiración; las direcciones URL de las descargas internas y externas del cliente compatible. punteros a direcciones URL internas y externas donde los usuarios pueden obtener ayuda y recursos de conferencias; y los puertos que se usan para compartir aplicaciones, audio de cliente, transferencias de archivos y tráfico de medios. Esta configuración le permite administrar los servidores reales. Esta configuración se puede establecer mediante el shell de administración de Skype empresarial Server.
   
-Al instalar Skype para Business Server, el sistema proporciona una única colección de conferencia de opciones de configuración (la recopilación global). Si necesita crear una configuración personalizada para un sitio o servicio, puede hacerlo con el cmdlet **New-CsConferencingConfiguration**. Tenga en cuenta que las configuraciones nuevas solo se pueden aplicar al ámbito de sitio o servicio; no puede crear una colección global de opciones de configuración de conferencia, pero puede modificar la colección global con el cmdlet **Set-CsConferencingConfiguration**. Además, ningún sitio ni servicio puede hospedar más de una colección de opciones de configuración. Si intenta crear una configuración para el sitio de Redmond y el sitio ya tiene hospedada una colección de opciones de configuración de conferencia, el comando no se completará.
+Al instalar Skype empresarial Server, el sistema le proporciona un único conjunto de parámetros de configuración de la Conferencia (la colección global). Si necesita crear una configuración personalizada para un sitio o servicio, puede hacerlo con el cmdlet **New-CsConferencingConfiguration**. Tenga en cuenta que las configuraciones nuevas solo se pueden aplicar al ámbito de sitio o servicio; no puede crear una colección global de opciones de configuración de conferencia, pero puede modificar la colección global con el cmdlet **Set-CsConferencingConfiguration**. Además, ningún sitio ni servicio puede hospedar más de una colección de opciones de configuración. Si intenta crear una configuración para el sitio de Redmond y el sitio ya tiene hospedada una colección de opciones de configuración de conferencia, el comando no se completará.
   
-## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Administrar la configuración de conferencia mediante el uso de Skype para Shell de administración de servidor empresarial
+## <a name="manage-conferencing-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Administrar las opciones de configuración de conferencias con el shell de administración de Skype empresarial Server
 
-Para administrar la configuración de conferencia mediante el uso de Skype para Shell de administración de servidor empresarial, use los cmdlets siguientes:
+Para administrar los parámetros de configuración de conferencias con el shell de administración de Skype empresarial Server, use los siguientes cmdlets:
   
 **Opciones de configuración de conferencia**
 

@@ -1,31 +1,31 @@
 ---
-title: Crear o modificar una colección de valores de configuración de CDR de Skype para Business Server
+title: Crear o modificar una colección de opciones de configuración de CDR en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
-description: 'Resumen: Obtenga información acerca de detalles de llamadas (CDR) en Skype para Business Server.'
-ms.openlocfilehash: 2599e5fc221c8c19737e2f0ca3add665cceb6686
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la grabación de detalles de llamadas (CDR) en Skype empresarial Server.'
+ms.openlocfilehash: c0a54835fe74a32a92996874cb6fd895fd49fafc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926609"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305838"
 ---
-# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de valores de configuración de CDR de Skype para Business Server
+# <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Crear o modificar una colección de opciones de configuración de CDR en Skype empresarial Server
  
-**Resumen:** Obtenga información acerca de detalles de llamadas (CDR) en Skype para Business Server.
+**Resumen:** Obtenga más información sobre la grabación de detalles de llamadas (CDR) en Skype empresarial Server.
   
 El registro detallado de llamadas (CDR) permite realizar un seguimiento del uso de aspectos como las sesiones de mensajería instantánea de punto a punto, llamadas telefónicas de voz sobre IP (VoIP) y llamadas de conferencia. Estos datos de uso contienen información sobre quién llamó a quién, cuándo se realizó la llamada y su duración.
   
-Al instalar Skype para Business Server un único, se crea la colección global de opciones de configuración de CDR para usted. Los administradores también tienen la posibilidad de crear opciones personalizadas en el ámbito del sitio. Cuando estas opciones de ámbito de sitio se usan, tienen prioridad frente a la configuración global. Así, por ejemplo, si crea opciones de ámbito de sitio para el sitio de Redmond, serán las opciones que se usen (y no la configuración global) para administrar el CDR en Redmond.
+Al instalar Skype empresarial Server, se crea una única colección global de opciones de configuración de CDR. Los administradores también tienen la posibilidad de crear opciones personalizadas en el ámbito del sitio. Cuando estas opciones de ámbito de sitio se usan, tienen prioridad frente a la configuración global. Así, por ejemplo, si crea opciones de ámbito de sitio para el sitio de Redmond, serán las opciones que se usen (y no la configuración global) para administrar el CDR en Redmond.
   
-Puede crear opciones de configuración de CDR mediante cualquiera Skype para el Panel de Control de servidor empresarial o el cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Puede usar Skype para el Panel de Control de servidor empresarial o el cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) para modificar la configuración existente. Si usa Skype para el Panel de Control de servidor empresarial para crear o modificar la configuración, las siguientes opciones estarán disponibles para usted:
+Puede crear parámetros de configuración de CDR con el panel de control de Skype empresarial Server o con el cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) . Puede usar el panel de control de Skype empresarial Server o el cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) para modificar la configuración existente. Si está usando el panel de control de Skype empresarial Server para crear o modificar parámetros, las siguientes opciones estarán disponibles:
   
 |**Valor de interfaz de usuario**|**Parámetro de PowerShell**|**Descripción**|
 |:-----|:-----|:-----|
@@ -36,29 +36,29 @@ Puede crear opciones de configuración de CDR mediante cualquiera Skype para el 
 |Conservar los datos de los informes de errores durante el período de duración máximo (días)  <br/> |KeepErrorReportForDays  <br/> |Indica la cantidad de días que se conservarán los informes de errores del CDR. Cualquier informe con una antigüedad superior a la cantidad de días especificado se eliminará automáticamente. Los informes de errores del CDR son informes de diagnóstico que se cargan desde las aplicaciones cliente.  <br/> |
    
 > [!NOTE]
-> Los cmdlets New-CsCdrConfiguration y Set-CsCdrConfiguration incluyen las opciones adicionales de no está disponibles en Skype para el Panel de Control de servidor empresarial. Vea el [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) y los temas de Ayuda de [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) para obtener más información.
+> Los cmdlets New-CsCdrConfiguration y set-CsCdrConfiguration incluyen opciones adicionales que no están disponibles en el panel de control de Skype empresarial Server. Para obtener más información, consulta los temas de ayuda [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) y [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) .
   
-### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear opciones de configuración de CDR mediante Skype para el Panel de Control de servidor empresarial
+### <a name="to-create-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para crear la configuración de CDR con el panel de control de Skype empresarial Server
 
-1. Skype para el Panel de Control de Business Server haga clic en **supervisión y archivado**.
+1. En el panel de control de Skype empresarial Server, haga clic en **supervisión y archivado**.
     
-2. En la ficha **Detalles de llamadas** , haga clic en **nuevo**.
+2. En la pestaña **grabar detalles** de la llamada, haga clic en **nuevo**.
     
 3. En el cuadro de diálogo **Seleccionar un sitio**, seleccione el sitio donde desea crear los nuevos valores de configuración. Si el cuadro de diálogo está vacío, significa que ya se han asignado valores de configuración del CDR a todos los sitios (cada sitio solo puede tener una colección de valores). En tal caso, elimine o vuelva a crear la configuración, o simplemente modifique la configuración actual.
     
 4. En el cuadro de diálogo **Nueva configuración de registro detallado de llamadas (CDR)**, elija las opciones que desee y haga clic en **Confirmar**.
     
-### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para modificar la configuración de configuración de CDR existente mediante el uso de Skype para el Panel de Control de servidor empresarial
+### <a name="to-modify-existing-cdr-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Para modificar la configuración de CDR existente con el panel de control de Skype empresarial Server
 
-1. Skype para el Panel de Control de Business Server haga clic en **supervisión y archivado**.
+1. En el panel de control de Skype empresarial Server, haga clic en **supervisión y archivado**.
     
-2. Haga doble clic en la colección de valores que desea modificar o seleccione la colección y haga clic en **Editar** y en **Mostrar detalles**. Tenga en cuenta que solo puede modificar una colección a la vez. Para realizar los mismos cambios en varias colecciones, use la Skype para Shell de administración de servidor empresarial en su lugar.
+2. Haga doble clic en la colección de valores que desea modificar o seleccione la colección y haga clic en **Editar** y en **Mostrar detalles**. Tenga en cuenta que solo puede modificar una colección a la vez. Para realizar los mismos cambios en varias colecciones, use el shell de administración de Skype empresarial Server en su lugar.
     
 3. En el cuadro de diálogo **Editar configuración de registro detallado de llamadas (CDR)**, elija las opciones que desee y haga clic en **Confirmar**.
     
-## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de opciones de configuración de CDR mediante Cmdlets de Windows PowerShell
+## <a name="creating-cdr-configuration-settings-by-using-windows-powershell-cmdlets"></a>Creación de opciones de configuración de CDR con cmdlets de Windows PowerShell
 
-Puede crear la configuración de CDR configuración también pueden crearse mediante el uso de Windows PowerShell y el cmdlet **New-CsCdrConfiguration** . Se puede ejecutar este cmdlet, ya sea desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
+Puede crear la configuración de CDR también puede crearse con Windows PowerShell y el cmdlet **New-CsCdrConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
   
 ### <a name="to-create-a-new-collection-of-cdr-configuration-settings"></a>Para crear una nueva colección de valores de configuración del CDR:
 
@@ -84,6 +84,6 @@ Puede crear la configuración de CDR configuración también pueden crearse medi
   New-CsCdrConfiguration -Identity "site:Redmond" -KeepCallDetailForDays 30 -KeepErrorReportForDays 90
   ```
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) .
+Para obtener más información, vea el tema de ayuda sobre el cmdlet [New-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) .
   
 

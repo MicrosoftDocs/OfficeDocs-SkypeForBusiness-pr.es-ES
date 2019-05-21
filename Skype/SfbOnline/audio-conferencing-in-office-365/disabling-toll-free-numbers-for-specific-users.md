@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,12 +19,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Los administradores pueden controlar cómo los organizadores pueden usar los números gratuitos para sus reuniones.
-ms.openlocfilehash: f553cc3abad8f4490d06099554c188881ef47e24
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 541398a760f41effc37e802cafde1141acca2d57
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229285"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306093"
 ---
 # <a name="disabling-toll-free-numbers-for-specific-skype-for-business-online-users"></a>Deshabilitar los números gratuitos para usuarios específicos de Skype for Business Online
  
@@ -48,20 +48,20 @@ Cuando se deshabilitan los números gratuitos para un organizador determinado:
 
 ## <a name="disabling-toll-free-numbers-for-specific-users"></a>Deshabilitar los números gratuitos para usuarios específicos 
 
-Desde el **Centro de administración de equipos de Microsoft**:
+Desde el **centro de administración de Microsoft Teams**:
 
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
-2. Junto a **Conferencias de Audio**, haga clic en **Editar**.
+2. Junto a **audioconferencia**, haga clic en **Editar**.
 
-3. **Incluir los números gratuitos en convocatorias de reunión de este usuario** se establece en **Off**. 
+3. Set **incluye números gratuitos en las convocatorias de reunión de este usuario** como **** deshabilitado. 
 
 4. Haga clic en **Guardar.** 
  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
  
-**Uso de PowerShell**  
+**Usar PowerShell**  
 
 Puede usar el parámetro AllowTollFreeDialIn del cmdlet Set-CsOnlineDialInConferencingUser para habilitar o deshabilitar este control. Por ejemplo: 
 

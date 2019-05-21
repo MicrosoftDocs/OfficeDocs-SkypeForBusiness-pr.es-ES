@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -20,30 +20,30 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Descubra cómo se puede ver una lista de usuarios de su organización que estén habilitados para la conferencia de acceso telefónico local desde Microsoft Teams. '
-ms.openlocfilehash: 2e1c74ccd856f32e8ff577ed7f718715e9e3c1b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 15eda1623438138b688da38a862fefa17d2d3ec4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204997"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305351"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Consultar una lista de usuarios que se han habilitado para Audioconferencia en Microsoft Teams
 
-Después de haber habilitado a los usuarios de Microsoft Teams en su organización para conferencias de Audio, puede ver la lista de los usuarios que han sido habilitados. 
+Una vez que haya habilitado a los usuarios de Microsoft Teams en su organización para la audioconferencia, puede ver la lista de los usuarios que se han habilitado. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Ver una lista de los usuarios
 
-- En el centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **usuarios**.
+- En el centro de administración de Microsoft Teams, en el navegación de la izquierda, haga clic en **usuarios**.
 
 
 ## <a name="what-else-should-i-know"></a>¿Qué más debo saber?
 
-- Al ver la lista de usuarios que están habilitadas, puede seleccionar un usuario de la lista para modificar la configuración de conferencia de audio para ese usuario.
+- Cuando ve la lista de usuarios que están habilitados, puede seleccionar un usuario de la lista para editar la configuración de la audioconferencia para ese usuario.
     
-- Cuando se selecciona un único usuario, puede ver el número de teléfono predeterminado asignado al usuario y a las demás opciones de conferencia de audio relevantes.    
+- Al seleccionar un solo usuario, puede ver el número de teléfono predeterminado asignado al usuario y cualquier otra configuración de audioconferencia relevante.    
    
 - Puede usar el botón Buscar para buscar un usuario individual en la lista.
     

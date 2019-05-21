@@ -1,9 +1,9 @@
 ---
-title: Implementación de salas de equipos de Microsoft
+title: Implementar salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
@@ -13,204 +13,204 @@ ms.collection:
 - M365-voice
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
-description: Lea este artículo para obtener más información sobre la implementación de salas de equipos de Microsoft.
-ms.openlocfilehash: 26a8a15f678c57e9e2f27b4aacde1577176a3840
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lea este artículo para obtener información sobre la implementación de salas de Microsoft Teams.
+ms.openlocfilehash: c60d9a1ff3c00c62a14573b8b7e1d26b92e865d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916554"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305396"
 ---
 # <a name="deployment-overview"></a>Introducción general a la implementación
 
-Implementación de salones de los equipos de Microsoft básicamente se divide en fases:
+La implementación de salas de Microsoft Teams se divide esencialmente en fases:
 
-- Para confirmar que las ubicaciones de implementación (salones) cumplen las dependencias de implementación
-- Creación de Microsoft Teams o Skype para cuentas empresariales y de Exchange y asignarlos a los dispositivos de consola (vea [Configurar cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md))
-- Restaurar Microsoft Surface tabletas para que funcionen como consolas de salas de equipos de Microsoft (vea [Configure una consola de salas de equipos de Microsoft](console.md) o la [Guía de implementación de masa de implementar salones de los equipos de Microsoft](room-systems-scale.md))
-- (Opcional) Configuración de conjunto de aplicaciones de administración de operaciones de Microsoft para los sistemas (consulte [administración de implementación de salas de equipos de Microsoft con el Monitor de Azure](azure-monitor-deploy.md)
-- Configuración de consolas en las salas de reuniones y conectar los dispositivos periféricos que necesita (consulte la documentación de OEM para el conjunto de dispositivos)
+- Confirmar que las ubicaciones de implementación (salas) cumplen las dependencias de implementación
+- Crear cuentas de Microsoft Teams o Skype empresarial y de Exchange y asignarlos a los dispositivos de consola (consulte [configurar cuentas para salas de Microsoft Teams](room-systems-v2-configure-accounts.md))
+- Volver a Imaging Microsoft Surface tablets para trabajar como consolas de salas de Microsoft Teams (consulte [configurar una consola de salas de Microsoft Teams](console.md) o implementar la [Guía de implementación masiva de salones de Microsoft](room-systems-scale.md)Teams)
+- Faculta Configuración de Microsoft Operations Management Suite para sus sistemas (consulte implementación de la [Administración de salas de Microsoft Teams con Azure monitor](azure-monitor-deploy.md)
+- Configurar consolas en salas de reuniones y conectar los dispositivos periféricos que necesita (consulte la documentación de OEM de su conjunto de dispositivos)
 
-Técnicos de AV se pueden usar para la última tarea, pero la organización necesita hacer las demás partes del proceso de departamento de TI. 
+Se pueden usar Tech Techs para la última tarea, pero el Departamento de TI de su organización tendrá que realizar las otras partes del proceso. 
 
 
-## <a name="site-readiness"></a>Preparación del sitio 
+## <a name="site-readiness"></a>Disponibilidad del sitio 
 
-Mientras se entregan los dispositivos ordenados en su organización, trabajar con su red y las instalaciones y equipos de AV para asegurarse de que se cumplen las dependencias de implementación y cada sitio y sala está listo en términos de alimentación, redes y mostrar. Además, asegúrese de que se cumplen los requisitos de instalación física. Las consideraciones de instalación física, visite el sitio del proveedor y sacar provecho de la experiencia de su equipo de AV al instalar y pantallas de montaje y ejecuta cableado.
+Mientras los dispositivos ordenados se entreguen a su organización, trabaje con su equipo de redes e instalaciones y equipos de AV para asegurarse de que se cumplan las dependencias de implementación y de que todos los sitios y salas estén listos en términos de energía, redes y pantalla. Además, asegúrese de que se cumplan los requisitos de instalación física. Para tener en cuenta las consideraciones de instalación física, visite el sitio del proveedor y aproveche la experiencia de su equipo antivirus al instalar y montar pantallas y cableado.
 
-Puede encontrar más información acerca de estas dependencias en los siguientes vínculos planeación instrucciones:
+Puede obtener más información sobre estas dependencias en los vínculos de la guía de planificación a continuación:
 
 -   [Comprobar la disponibilidad de red](srs-v2-prep.md#check-network-availability) 
 -   [Certificados](srs-v2-prep.md#certificates)
 -   [Proxy](srs-v2-prep.md#proxy)
 
-**Sugerencia pro** - si va a utilizar los servidores proxy para proporcionar acceso a Microsoft Teams o Skype de negocio en línea, primero [Revise este artículo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Tenga en cuenta que cuando se trata de Skype para el tráfico de negocios a través de servidores proxy, se recomienda no usar servidores proxy por completo. Skype para el tráfico de negocio ya está cifrada, por lo que los servidores proxy no que sea más seguro. Como parte de la implementación más amplia, se recomienda que siga las instrucciones en [evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) de ancho de banda de planeación y evaluación de idoneidad de su red para el tráfico en tiempo real. Para todo el planeamiento de ancho de banda, use el [Organizador de la red de MyAdvisor](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner). (Se recomienda crear un rol de salas de equipos de Microsoft para reflejar el uso previsto de salas de equipos de Microsoft [vídeo, uso compartido de la pantalla, audio] y asignar a un número de usuarios que coincide con el número de unidades locales de los equipos de Microsoft se implemente en cada sitio). 
+**Sugerencia** : Si tiene previsto usar servidores proxy para proporcionar acceso a Microsoft Teams o a Skype empresarial online, primero [revise este artículo](https://docs.microsoft.com/skypeforbusiness/optimizing-your-network/proxy-servers-for-skype-for-business-online). Tenga en cuenta que cuando se trata de tráfico de Skype empresarial por servidores proxy, se recomienda omitir los servidores proxy por completo. El tráfico de Skype empresarial ya está cifrado, por lo que los servidores proxy no lo hacen más seguro. Como parte de su implementación más amplia, le recomendamos que siga las instrucciones de [evaluar mi entorno](https://docs.microsoft.com/MicrosoftTeams/3-envision-evaluate-my-environment#network-readiness) para planear el ancho de banda y evaluar la idoneidad de su red para el tráfico en tiempo real. Para todos los planes de ancho de banda, use el planificador de [redes](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner)de (Se recomienda crear un rol Microsoft Teams Rooms para que refleje el uso de salas de Microsoft Teams previsto [video, pantalla compartida, audio] y asignar varios usuarios que coincidan con el número de unidades de salas de Microsoft teams que se van a implementar en cada sitio). 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que los sitios cumplen los requisitos claves para salas de equipos de Microsoft.</li><li>Confirme que ha proporcionado suficiente ancho de banda para cada sitio.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empezar a planear la configuración y la implementación de dispositivos.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Confirme que sus sitios cumplen los requisitos clave para salas de Microsoft Teams.</li><li>Confirme que ha proporcionado suficiente ancho de banda para cada sitio.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación y la configuración del dispositivo.</li></ul>| 
 
-**Sugerencia Pro-** Desde una perspectiva de planeación de sitio por sitio, que podrían resultarle útiles los siguientes activos. Deben cubren algo más que los salones de los equipos de Microsoft y se pueden usar en una implementación completa de Skype para empresarial en línea:
+**Sugerencia de Pro** Desde una perspectiva de planeación sitio a sitio, es posible que le resulten útiles los siguientes activos. Cubren más que solo salas de Microsoft Teams y se puede usar en una implantación completa de Skype empresarial online:
 
--   [Guía de entrega de planeación implantación y migración del sitio](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
+-   [Guía de entrega de migración/distribución de sitios](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_24)
 
--   [Sitio de implantación y planificación de la migración - guía](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
+-   [Implementación de sitios y planeamiento de la migración: Guía](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_16)
 
     > [!NOTE]
-    > En la guía, complete las tareas en la sección "4.3 – > salas de conferencias" en la hoja de "4-extremos" para cada sitio donde va a implementar dispositivos de salas de equipos de Microsoft. Esto le permitirá usar la cuenta de forma masiva script más adelante en el proceso de aprovisionamiento. 
+    > En la guía, complete las tareas de la sección "4,3-> Conference Rooms" en la hoja de "4 puntos de conexión" para cada sitio en el que vaya a implementar los dispositivos de salas de Microsoft Teams. Esto le permitirá usar el script de aprovisionamiento de cuentas masivas más adelante en el proceso. 
 
 ## <a name="service-readiness"></a>Preparación del servicio
 
-Para prepararse para la implementación de salas de equipos de Microsoft, realice la siguiente clave, tareas centrales:
+Para prepararse para la implementación de salas de Microsoft Teams, haga lo siguiente:
 
--   Defina las funciones de cuenta de servicio de salas de equipos de Microsoft.
--   Preparar una unidad organizativa y grupo de Active Directory para mantener el equipo de salas de equipos de Microsoft y las cuentas de servicio y, opcionalmente, preparar objetos de directiva de grupo (GPO) para habilitar la comunicación remota de PowerShell.
+-   Defina las características de la cuenta de servicio salas de Microsoft Teams.
+-   Prepare una unidad organizativa y un grupo de Active Directory para almacenar las cuentas de equipo y de servicio de Microsoft Teams y, opcionalmente, preparar objetos de directiva de grupo (GPO) para habilitar la comunicación remota de PowerShell.
 
-### <a name="define-microsoft-teams-rooms-service-account-features"></a>Definir las características de cuenta de servicio de salas de equipos de Microsoft 
+### <a name="define-microsoft-teams-rooms-service-account-features"></a>Definir las características de la cuenta de servicio salas de Microsoft Teams 
 
-En función de los escenarios de colaboración que ha decidido habilitar con la implementación de salas de equipos de Microsoft, deberá determinar las características y capacidades que asignar a cada cuenta de servicio de salas de equipos de Microsoft que se habilite.
+En función de los escenarios de colaboración que haya decidido habilitar con la implementación de salas de Microsoft Teams, tendrá que determinar las características y capacidades que asigne a cada cuenta de servicio salas de Microsoft teams que habilite.
 
-| **Escenario** | **Descripción** | **Característica de cuenta de servicio de salas de equipos de Microsoft** |
+| **Escenario** | **Descripción** | **Característica de cuenta de servicio de salas de Microsoft Teams** |
 |---------- |------------- | --- |
-| Reuniones interactivas            | Uso de voz, vídeo y uso compartido de pantalla; hacer que las salas de los equipos de Microsoft un recurso bookable                     | Habilitado para Skype para la empresa, habilitado para Exchange (buzón de recursos) |
-| Conferencia de acceso telefónico local            | Habilitar reuniones iniciarse *directamente* desde la consola de salas de equipos de Microsoft con las coordenadas de la conferencia de acceso telefónico | Habilitado para conferencias de Audio                                          |
-| Llamar a RTC de salida o entrada | Habilitar la consola de salas de equipos de Microsoft para realizar y recibir llamadas de RTC                                         | Habilitado para el sistema telefónico                                                |
+| Reuniones interactivas            | Usar la voz, el vídeo y la pantalla compartida; Cómo convertir las salas de Microsoft Teams en un recurso de bookable                     | Habilitado para Skype empresarial, habilitado para Exchange (buzón de recursos) |
+| Conferencia de acceso telefónico local            | Habilitar reuniones iniciadas *directamente* desde la consola de salas de Microsoft Teams con las coordenadas de conferencia de acceso telefónico local | Habilitado para conferencias de audio                                          |
+| Llamadas RTC entrantes o salientes | Habilitar la consola de salones de Microsoft Teams para realizar y recibir llamadas RTC                                         | Habilitado para el sistema telefónico                                                |
 
-Para obtener más información acerca de las cuentas locales de los equipos de Microsoft, consulte [Configurar cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md).
+Para obtener más información sobre las cuentas de salas de Microsoft Teams, vea [configurar cuentas para salas de Microsoft Teams](room-systems-v2-configure-accounts.md).
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir qué escenarios se admiten e identificar requisitos de licencia para las cuentas de servicio de salas de equipos de Microsoft.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Preparación para hospedar la máquina y las cuentas de servicio.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida qué escenarios admitirá e identifique los requisitos de licencias para las cuentas de servicio de salas de Microsoft Teams.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Prepararse para hospedar cuentas de equipo y de servicio.</li></ul>| 
 
 
-_Cuenta de servicio de ejemplo salones de los equipos de Microsoft planeación de tabla_
+_Ejemplo de tabla de planeación de cuentas de servicio de salones de Microsoft Teams_
 
-| **Sitio**  | **Nombre del salón** | **Tipo de salón** | **Capacidades de sala futuras**                                                 | **Características de la cuenta de salas de equipos de Microsoft**                                                                                         |
+| **Sitio**  | **Nombre del salón** | **Tipo de habitación** | **Capacidades de la sala en el futuro**                                                 | **Características de la cuenta salas de Microsoft Teams**                                                                                         |
 |-----------|---------------|---------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| HQ de Londres | Curie         | Medio        | 1 pantalla, audio y vídeo plus presentación <br>Acceso telefónico<br> Acceso de RTC  | Habilitado para Skype para la empresa, habilitado para Exchange (buzón de recursos) <br>Habilitado para conferencias de Audio <br>Habilitado para el sistema telefónico |
-| HQ Sidney | Hill          | Grande         | 2 pantallas, audio y vídeos plus presentación<br>Acceso telefónico<br> Acceso de RTC  | Habilitado para Skype para la empresa, habilitado para Exchange (buzón de recursos)<br> Habilitado para conferencias de Audio <br>Habilitado para el sistema telefónico |
+| HQ de Londres | Curie         | Medio        | 1 Presentación de pantalla, audio y vídeo <br>Acceso a conferencias de acceso telefónico local<br> Acceso a través de RTC  | Habilitado para Skype empresarial, habilitado para Exchange (buzón de recursos) <br>Habilitado para conferencias de audio <br>Habilitado para el sistema telefónico |
+| HQ de Sydney | Arrancar          | Grande         | 2 pantallas, presentación de audio y vídeo Plus<br>Acceso a conferencias de acceso telefónico local<br> Acceso a través de RTC  | Habilitado para Skype empresarial, habilitado para Exchange (buzón de recursos)<br> Habilitado para conferencias de audio <br>Habilitado para el sistema telefónico |
 
 
-### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Preparación para hospedar la máquina de salas de equipos de Microsoft y (opcionales) de las cuentas de servicio
+### <a name="prepare-to-host-microsoft-teams-rooms-machine-and-service-accounts-optional"></a>Prepararse para hospedar las cuentas de servicio y máquina de las salas de Microsoft Teams (opcional)
 
-Para poder administrar e informar sobre sus salones de los equipos de Microsoft cuentas de servicio y equipos, preparar su local de Active Directory o Azure Active Directory (AD Azure). 
+Para habilitar la administración y el informe de las cuentas de servicio y del equipo de las salas de Microsoft Teams, prepare su Active Directory local o Azure Active Directory (Azure AD). 
 
-Definir un grupo de Active Directory o Azure AD local para agregar todas las cuentas de servicio (usuario) de salas de equipos de Microsoft a y, a continuación, crear informes de uso mediante el cmdlet Get-CSUserSession PowerShell a través de la implementación de salas de equipos de Microsoft. Por ejemplo, cree un grupo denominado SkypeRoomSystemsv2 cuentas de servicio. 
+Defina un Active Directory local o un grupo de Azure AD para agregar todas las cuentas del servicio de salones de Microsoft Teams (usuario) a y, a continuación, cree informes de uso mediante el cmdlet de PowerShell Get-CSUserSession en la implementación de Microsoft Teams Rooms. Por ejemplo, cree un grupo denominado SkypeRoomSystemsv2-Service-accounts. 
 
 
-Defina una unidad organizativa en la jerarquía de Active Directory o Azure AD local para contener todas las cuentas de máquina de salas de equipos de Microsoft (si se está unido al dominio) y una unidad organizativa para que contenga todas las cuentas de usuario de salas de equipos de Microsoft. Si crea una unidad organizativa para las cuentas de máquina de salas de equipos de Microsoft, considere la posibilidad de deshabilitar la herencia para asegurarse de que se aplican sólo a las directivas pensado para aplicar a las salas de los equipos de Microsoft unido a un dominio. 
+Defina una unidad organizativa en su jerarquía de Active Directory o de Azure AD local para mantener las cuentas de equipo de las salas de Microsoft Teams (si se han unido al dominio) y una unidad organizativa que contenga todas las cuentas de usuario de salas de Microsoft Teams. Si crea una unidad organizativa para las cuentas de equipos de las salas de Microsoft Teams, considere la posibilidad de deshabilitar la herencia para asegurarse de que aplica solo las directivas que pretendías aplicar a las salas de Microsoft Teams Unidas al dominio. 
 
-Crear un objeto de directiva de grupo asignado a la unidad organizativa que contiene las cuentas de equipo de salas de equipos de Microsoft. Utilice esta página para: 
+Cree un objeto de directiva de grupo asignado a la unidad de la organización que contiene las cuentas de equipo de las salas de Microsoft Teams. Use esta para: 
 
--   [Establecer la energía y la configuración de la cuenta local](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
--   Habilitar la actualización de Windows.
--   Habilitar la comunicación remota de PowerShell. Puede configurar un script de inicio para ejecutar una secuencia de comandos simple: Enable-PSRemoting - Force
+-   [Establecer la configuración de la cuenta local y de la energía](room-systems-v2-operations.md#configuring-group-policy-for-microsoft-teams-rooms).
+-   Habilitar Windows Update.
+-   Habilitar la comunicación remota de PowerShell. Puede configurar un script de inicio para que ejecute un script simple: enable-PSRemoting-Force
 
-Puede usar PowerShell para llevar a cabo un número de actividades de administración remota, incluidas la obtención y definición de información de configuración. Comunicación remota de PowerShell debe ser habilitado *antes de* cualquier PowerShell administración remota puede tardar colocar y se deben considerar como parte de los procesos de implementación o configurados a través de directiva de grupo. Para obtener más información acerca de estas funciones y permitirles, vea [operaciones y mantenimiento](room-systems-v2-operations.md#remote-management-using-powershell). 
+Puede usar PowerShell para realizar una serie de actividades de administración remota, entre las que se incluye la obtención y configuración de la información de configuración. La comunicación remota de PowerShell debe habilitarse *antes* de que se pueda realizar la administración remota de PowerShell y debe considerarse como parte de los procesos de implementación o configurarse mediante la Directiva de grupo. Para obtener más información sobre estas funciones y habilitarlas, consulte [mantenimiento y operaciones](room-systems-v2-operations.md#remote-management-using-powershell). 
 
 
 ## <a name="configuration-and-deployment"></a>Configuración e implementación 
 
-Planeación de configuración e implementación trata las siguientes áreas clave:
+La planificación de la configuración y la implementación abarca las siguientes áreas clave:
 
--   Aprovisionamiento de cuentas
--   Instalación de software de dispositivo
+-   Aprovisionamiento de la cuenta
+-   Instalación del software del dispositivo
 -   Implementación de dispositivos
--   Aplicación de salas de equipos de Microsoft y la configuración de dispositivo periférico
+-   Configuración de dispositivos periféricos y aplicaciones de salas de Microsoft Teams
 -    Pruebas
 -   Administración de activos
 
-### <a name="account-provisioning"></a>Aprovisionamiento de cuentas 
+### <a name="account-provisioning"></a>Aprovisionamiento de la cuenta 
 
-Cada dispositivo de salas de equipos de Microsoft requiere una cuenta de recurso dedicado y únicos que debe estar habilitada para Microsoft Teams o Skype para empresas y Exchange. Esta cuenta debe tener un buzón de sala hospedado en Exchange y estar habilitada como una sala de reuniones en los equipos o Skype para la implementación de la empresa. En el lado de Exchange, debe configurarse el procesamiento del calendario para que el dispositivo puede aceptar automáticamente convocatorias de reunión entrantes. Para obtener más información acerca de cómo crear estas cuentas, vea [Configurar cuentas para salas de equipos de Microsoft](room-systems-v2-configure-accounts.md). 
+Cada dispositivo de salas de Microsoft Teams necesita una cuenta de recursos exclusiva y exclusiva que deba habilitarse para Microsoft Teams o Skype empresarial y Exchange. Esta cuenta debe tener un buzón de sala hospedado en Exchange y habilitarse como sala de reuniones en la implementación de Teams o Skype empresarial. En el lado de Exchange, el procesamiento del calendario se debe configurar para que el dispositivo pueda aceptar automáticamente las convocatorias de reunión entrantes. Para obtener más información sobre la creación de estas cuentas, vea [configurar cuentas para salas de Microsoft Teams](room-systems-v2-configure-accounts.md). 
 
-**Sugerencia pro** – Asegúrese de nombres de la presentación para estas cuentas descriptivo y fácil de entender. Estos son los nombres que los usuarios verán cuando busca y adición de sistemas de salas de equipos de Microsoft a las reuniones. Algunas organizaciones utilizan la convención de *sitio*-*Nombre del salón*(*Capacidad de la sala Max*)-RS, por ejemplo Curie — una sala de conferencias de 12-persona en Londres, podría tener el nombre para mostrar LON CURIE (12)-RS. 
+**Sugerencia Pro** : haga que los nombres para mostrar de estas cuentas sean descriptivos y sean fáciles de comprender. Estos son los nombres que los usuarios verán al buscar y agregar sistemas de salas de Microsoft Teams a reuniones. Algunas organizaciones usan el*nombre del salón*de *sitio*-de la Convención (*capacidad máxima*de la sala)-RS, por lo que, por ejemplo Curie, un salón de conferencia de 12 personas en Londres, puede tener el nombre para mostrar Lon-Curie (12)-RS. 
 
-Si su organización tiene muchos salas de conferencias que requieren varios, aprovisionadas cuentas, es posible que desea utilizar [Skype salón de sistemas de cuentas de aprovisionamiento de secuencias de comandos](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para aprovisionar de forma masiva varias cuentas de servicio de forma automática.
+Si su organización tiene muchas salas de conferencias que requieren varias cuentas aprovisionadas, es posible que desee usar [las cuentas de sistemas de salas de Skype para configurar las secuencias de comandos de aprovisionamiento](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_2_0_4,5_2_0_5) para realizar un aprovisionamiento masivo de varias cuentas de servicio de manera automatizada.
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir la convención de nomenclatura para las cuentas locales de los equipos de Microsoft.</li><li>Decidir si podrá crear cuentas individuales o usar los scripts de aprovisionamiento de forma masiva.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empezar a planear la implementación de dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura para sus cuentas de salas de Microsoft Teams.</li><li>Decida si va a crear cuentas individuales o usar scripts de aprovisionamiento masivo.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar la implementación del dispositivo.</li></ul>| 
 
 
-### <a name="device-software-installation"></a>Instalación de software de dispositivo 
+### <a name="device-software-installation"></a>Instalación del software del dispositivo 
 
-Al planear la implementación de salas de equipos de Microsoft, tienen un número de opciones que se deben considerar al instalar el software requerido. En la siguiente tabla se describen los escenarios y los enfoques comunes. 
+Al planear la implementación de salas de Microsoft Teams, dispone de varias opciones para instalar el software requerido. En la tabla siguiente se describen los escenarios y métodos comunes. 
 
-| **Escenario**            | **Enfoque**         |
+| **Escenario**            | **Llegando**         |
 |-------------------------|-----------------------|   
-|Implementación de un número reducido de dispositivos de salas de equipos de Microsoft (<10). | Si usa Surface Pro basado en salas de equipos de Microsoft, siga las [instrucciones de instalación para un dispositivo por instalación](console.md). [En este vídeo práctico le guiará por el proceso.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si utiliza una solución integrada, implementar mediante el uso de la imagen del proveedor y configuración según sea necesario. |
-| Implementación de entre 10 y 50 dispositivos desde un único proveedor.     | Crear una imagen de WIM, pausa después del [paso 6 en la guía](console.md)y capturar una imagen de distribución para usarse con la tecnología de clonación de distribución.    |
-| Implementación de más de 50 dispositivos de salas de equipos de Microsoft, implementación de los dispositivos de más de un proveedor o que requieren a los agentes específicos de la organización como parte de la implementación. | Use una tarea basada en el secuenciador de compilación y distribución plataforma de software, como [System Center Configuration Manager](room-systems-scale.md).  |
+|Implementar un pequeño número de dispositivos de salas de Microsoft Teams (<10). | Si usa salas de Microsoft Teams basadas en Surface Pro, siga las [instrucciones de instalación para una instalación por dispositivo](console.md). [Este práctico vídeo le guiará a través del proceso.](https://content.cloudguides.com/guides/Configure%20the%20Skype%20Room%20Systems%20console) Si usa una solución integrada, implemente con la imagen del proveedor y configure las opciones según sea necesario. |
+| Implementar entre 10 y 50 dispositivos de un solo proveedor.     | Cree una imagen basada en WIM, PAUSE después del [paso 6 de la guía](console.md)y Capture una imagen de distribución para usarla con su tecnología de distribución de clonación.    |
+| Implementar más de 50 dispositivos de salas de Microsoft Teams, implementar dispositivos de más de un proveedor o requerir agentes específicos de la organización como parte de la implementación. | Usar una plataforma de creación y distribución de software basada en secuencia de tareas, como [System Center Configuration Manager](room-systems-scale.md).  |
 
-**Sugerencia pro** - Each salones de los equipos de Microsoft debe tener un nombre de equipo válido y único en la red. Muchos de supervisión y alertas de sistemas muestran el nombre del equipo como un identificador de clave, por lo que es importante desarrollar una convención de nomenclatura para las implementaciones locales de los equipos de Microsoft que permite que el personal de soporte técnico localizar fácilmente las salas de los equipos de Microsoft que se ha marcado como la necesidad de realizar una acción. Un ejemplo que esté utilizando un patrón de MTR*sitio*-*Nombre del salón* (MTR-LON-CURIE). 
+**Sugerencia Pro** : cada sala de Microsoft Teams debe tener un nombre de equipo válido y único en su red. Muchos sistemas de supervisión y alerta muestran el nombre de la máquina como un identificador de clave, por lo que es importante desarrollar una Convención de nomenclatura para las implementaciones de salas de Microsoft teams que permita al personal de soporte localizar fácilmente las salas de Microsoft teams que se han marcado como requerir una acción. Un ejemplo podría estar usando un patrón de MTR-*site*-*Room Name* (MTR-Lon-Curie). 
 
-Como parte de la implementación, también necesitará tener en cuenta su estrategia para administrar y configurar las [cuentas locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) que se crean mediante el instalador de la aplicación de salas de equipos de Microsoft.
+Como parte de la implementación, también debe considerar su estrategia para administrar y configurar las [cuentas locales](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/skype-room-systems-v2-0#local-accounts) creadas por el instalador de la aplicación salas de Microsoft Teams.
 
-Se proporcionan instrucciones sobre cómo usar el [Monitor de Microsoft Azure](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para supervisar la implementación de salas de equipos de Microsoft e informar sobre disponibilidad, errores de hardware y software y versión de la aplicación de salas de equipos de Microsoft. Si decide utilizar el paquete de administración de operaciones de Microsoft, debe instalar al agente de conjunto de aplicaciones de administración de operaciones como parte del proceso de instalación de software y configurar la información de conexión de área de trabajo para el área de trabajo. 
+Le proporcionamos instrucciones sobre cómo usar [Microsoft Azure monitor](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/clients-and-devices/azure-monitor) para supervisar la implementación de salas de Microsoft Teams y el informe sobre disponibilidad, errores de hardware y software, y versión de la aplicación salas de Microsoft Teams. Si decide usar Microsoft Operations Management Suite, debe instalar el agente de Operations Management Suite como parte del proceso de instalación del software y configurar la información de conexión del área de trabajo para su área de trabajo. 
 
-Una consideración adicional es que si las salas de los equipos de Microsoft dejará de estar unido a un dominio. Información acerca de las ventajas de unirse a dominio puede encontrarse en [Consideraciones unirse de dominio del sistema de sala de Skype](domain-joining-considerations.md). 
+Otra consideración es si las salas de Microsoft Teams se unen al dominio. Puede encontrar información sobre las ventajas de las uniones de dominios en las [consideraciones relativas al dominio del sistema Room de Skype](domain-joining-considerations.md). 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir la convención de nomenclatura de dispositivo de salas de equipos de Microsoft que se usará durante la implementación.</li><li>Decidir si podrá unirse a dispositivos de salas de equipos de Microsoft para su dominio y cómo administrar y configurar las cuentas locales. </li><li>Decidir si debe usar el conjunto de aplicaciones de administración de operaciones para supervisar la implementación de salas de equipos de Microsoft.</li><li>Decidir qué método utilizará para implementar el software y los agentes en el sistema de salas de equipos de Microsoft en la preparación para la implementación de dispositivos. </li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Empezar a planear el método de implementación de dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida la Convención de nomenclatura de dispositivos de Microsoft Team Rooms que se utilizará durante la implementación.</li><li>Decida si unirá los dispositivos de salas de Microsoft Teams a su dominio y cómo administrar y configurar cuentas locales. </li><li>Decida si va a usar Operations Management Suite para supervisar la implementación de salas de Microsoft Teams.</li><li>Decida qué método usará para implementar el software y los agentes en el sistema de salas de Microsoft Teams en preparación para la implementación del dispositivo. </li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Comience a planificar el método de implementación de dispositivos.</li></ul>| 
 
 
 ### <a name="device-deployment"></a>Implementación de dispositivos
 
-Una vez que haya implementado el software de las unidades locales de los equipos de Microsoft, cree el plan a se suministran los dispositivos y los dispositivos periféricos asignados a los salones y, a continuación, continúe con la instalación y configuración. 
+Una vez que haya implementado el software en las unidades de salas de Microsoft Teams, cree su plan para enviar los dispositivos y sus dispositivos periféricos asignados a sus salas y, a continuación, proceda con la instalación y la configuración. 
 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir quién va a administrar la implementación de sitio por sitio.</li><li> Identificar los recursos que van a instalar los dispositivos de salas de equipos de Microsoft en el sitio y realizar la configuración y las pruebas.</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Iniciar las pruebas de dispositivo.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir quién administrará la implementación sitio a sitio.</li><li> Identifique los recursos que instalarán los dispositivos de salas de Microsoft Teams en el sitio y lleven a cabo la configuración y las pruebas.</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Inicie las pruebas del dispositivo.</li></ul>| 
 
-_Tabla de ejemplo de implementación_
+_Tabla de implementación de ejemplo_
 
-| **Sitio**  | **Nombre del salón** | **Tipo de salón** | **Sistema de salas de equipos de Microsoft**  | **Dispositivos periféricos**  | **Nombre del equipo de salas de equipos de Microsoft**  | **Cuenta del recurso salones de los equipos de Microsoft**  |
+| **Sitio**  | **Nombre del salón** | **Tipo de habitación** | **Sistema de salas de Microsoft Teams**  | **Dispositivos periféricos**  | **Nombre del equipo de las salas de Microsoft Teams**  | **Cuenta de recursos de salas de Microsoft Teams**  |
 |-----------|---------------|---------------|-----------------------------------|------------------|------------------------------------------|---------------------------------------------|
 | HQ de Londres | Curie         | Medio        |                                   |                  |                                          |                                             |
-| HQ Sidney | Hill          | Grande         |                                   |                  |                                          |                                             |
+| HQ de Sydney | Arrancar          | Grande         |                                   |                  |                                          |                                             |
 
-### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Aplicación de salas de equipos de Microsoft y la configuración de dispositivo periférico 
+### <a name="microsoft-teams-rooms-application-and-peripheral-device-configuration"></a>Configuración de dispositivos periféricos y aplicaciones de salas de Microsoft Teams 
 
-Después de cada salones de los equipos de Microsoft se ha implementado físicamente sistema y los dispositivos periféricos compatibles conectados, que necesitará para configurar la aplicación de salas de equipos de Microsoft para asignar la cuenta del recurso salones de los equipos de Microsoft y la contraseña que creó anteriormente , para habilitar el sistema de salas de equipos de Microsoft iniciar sesión en Microsoft Teams o Skype para empresas y Exchange. Clave de TI para aprovechar certificados periféricos de audio y vídeos de USB vinculados en otro lugar del documento. De no hacerlo, se puede producir un comportamiento inesperado. 
+Una vez que se haya implementado físicamente cada sistema de salas de Microsoft Teams y los dispositivos periféricos compatibles estén conectados, tendrá que configurar la aplicación salas de Microsoft Teams para asignar la cuenta de recursos de las salas de Microsoft Teams y la contraseña creada anteriormente. , para habilitar el sistema Microsoft Teams Rooms para iniciar sesión en Microsoft Teams o Skype empresarial y Exchange. Es clave para aprovechar los periféricos de audio y vídeo USB certificados que se encuentran en otra parte del documento. Si no lo hace, puede provocar un comportamiento impredecible. 
 
-Puede configurar manualmente cada sistema de salas de equipos de Microsoft. Como alternativa, puede usar un almacenada centralmente, salas de equipos por Microsoft: archivo de configuración XML para administrar la configuración de la aplicación y sacar provecho de una secuencia de comandos de GPO de inicio para volver a aplicar la configuración que desea, cada vez que se inicia el sistema de salas de equipos de Microsoft. 
+Puede configurar manualmente cada sistema de salas de Microsoft Teams. Como alternativa, puede usar un archivo de configuración XML de las salas de almacenamiento centralizado por Microsoft Teams para administrar la configuración de la aplicación y aprovechar un script de inicio de sesión de GPO para volver a aplicar la configuración que desee cada vez que se inicie el sistema de salas de Microsoft Teams. 
 
-Para obtener más información acerca de cómo usar el archivo de configuración XML, consulte [administrar una configuración de la consola Microsoft salones de los equipos de forma remota con un archivo de configuración XML](xml-config-file.md). 
+Para obtener más información sobre cómo usar el archivo de configuración XML, consulte [administrar de forma remota la configuración de la consola de salas de Microsoft Teams con un archivo de configuración XML](xml-config-file.md). 
 
-Puede usar [PowerShell remoto](room-systems-v2-operations.md#remote-management-using-powershell) para la configuración de salas de equipos de Microsoft para las necesidades de informes de extracción. 
+Puede usar [PowerShell remoto](room-systems-v2-operations.md#remote-management-using-powershell) para extraer la configuración de salas de Microsoft Teams para informar de las necesidades. 
 
 |    |     |
 |-----------|------------|
-| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si podrá configurar cada sistema de salas de equipos de Microsoft manualmente o usar un archivo XML central (una por dispositivo de salas de equipos de Microsoft).</li></ul>| 
-| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Definir el enfoque de administración remota.</li></ul>| 
+| ![](../media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si va a configurar manualmente cada sistema de salas de Microsoft Teams o usar un archivo XML central (uno por dispositivo de salas de Microsoft Teams).</li></ul>| 
+| ![](../media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Defina su enfoque de administración remota.</li></ul>| 
 
 ### <a name="testing"></a> Pruebas
 
-Después de que se ha implementado el sistema de salas de equipos de Microsoft, debe ponerlo a prueba. Compruebe que las capacidades que aparece en la [Ayuda de salas de equipos de Microsoft](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) están trabajando en el dispositivo implementado. Se recomienda encarecidamente que el equipo de implementación de comprobar que las salas de los equipos de Microsoft es registro al conjunto de aplicaciones de administración de operaciones de Microsoft (si se utiliza). También es importante que realice un número de llamadas de prueba y las reuniones para comprobar la calidad. Para obtener más información, consulte esta [lista de comprobación de implementación útiles](console.md#microsoft-teams-rooms-deployment-checklist).
+Después de implementar el sistema de salas de Microsoft Teams, debe probarlo. Compruebe que las funciones que se enumeran en la [ayuda de Microsoft Teams Rooms](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) estén trabajando en el dispositivo implementado. Recomendamos encarecidamente que el equipo de implementación Verifique que las salas de Microsoft Teams estén iniciando sesión en Microsoft Operations Management Suite (si se usa). También es importante que realices una serie de llamadas y reuniones de prueba para comprobar la calidad. Para obtener más información, consulte esta [útil lista de comprobación de implementación](console.md#microsoft-teams-rooms-deployment-checklist).
 
-Se recomienda que como parte de los equipos general o Skype para la implantación de negocio, configurar los archivos de creación para el panel de calidad de llamadas (CQD), supervisar las tendencias de calidad y participar en el proceso de revisión de calidad de experiencia. Para obtener más información, consulte la [Guía de revisión de calidad de experiencia](https://aka.ms/qerguide). 
+Le recomendamos que, como parte de los equipos generales o de la implementación de Skype empresarial, configure los archivos de compilación para el panel de calidad de llamadas (CQD), tendencias de calidad del monitor y participe en el proceso de revisión de la calidad de la experiencia. Para obtener más información, consulta la [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide). 
 
-**Sugerencia pro** – la [Matriz de pruebas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) disponible desde [MyAdvisor](https://myadvisor.fasttrack.microsoft.com/) contiene una ficha con un número de pruebas de salones de los equipos de Microsoft que se debe revisar con como parte de las pruebas. 
+**Sugerencia Pro** la [matriz de pruebas](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Downloads?SelectedIDs=5_1_0_21) disponible en el [Asistente](https://myadvisor.fasttrack.microsoft.com/) contiene una ficha con varias pruebas de salas de Microsoft teams que debe revisar como parte de las pruebas. 
 
 ### <a name="asset-management"></a>Administración de activos 
 
-Como parte de la implementación, querrá actualizar el registro de activos con el nombre del salón, el nombre de dispositivo de salas de equipos de Microsoft, la cuenta del recurso ha iniciado sesión salones de los equipos de Microsoft y asignado dispositivos periféricos (y qué puertos USB usan). 
+Como parte de la implementación, deseará actualizar el registro de activos con el nombre del salón, el nombre del dispositivo de las salas de Microsoft Teams, la cuenta de recursos de salas de Microsoft Teams en la que ha iniciado sesión y los dispositivos periféricos asignados (y los puertos USB que usan). 
 
-_Tabla de ejemplo de activos_
+_Tabla de activos de ejemplo_
 
-| **Sitio**  | **Nombre del salón** | **Tipo de salón** | **Salones de los equipos de Microsoft no en serie.**  | **Dispositivos periféricos / serie Nº / puertos**  | **Nombre del equipo de salas de equipos de Microsoft**  | **Cuenta de servicio de salas de equipos de Microsoft**  | **Fecha de implementada** |
+| **Sitio**  | **Nombre del salón** | **Tipo de habitación** | **Número de serie de salas de Microsoft Teams**  | **Dispositivos periféricos/números de serie/puertos serie**  | **Nombre del equipo de las salas de Microsoft Teams**  | **Cuenta de servicio de salones de Microsoft Teams**  | **Fecha de implementación** |
 |-----------|---------------|---------------|------------------------------------------|------------------------------------------|------------------------------------------|--------------------------------------------|-------------------|
 | HQ de Londres | Curie         | Medio        |                                          |                                          |                                          |                                            |                   |
-| HQ Sidney | Hill          | Grande         |                                          |                                          |                                          |                                            |                   |
+| HQ de Sydney | Arrancar          | Grande         |                                          |                                          |                                          |                                            |                   |
 
 

@@ -1,34 +1,34 @@
 ---
-title: Ver opciones de configuración en Skype para Business Server de reuniones
+title: Ver la configuración de la reunión en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
-description: 'Resumen: Obtenga información sobre cómo ver los valores de configuración de Skype para Business Server de la reunión.'
-ms.openlocfilehash: 14f8f3902ae3bba6c98b3147bb3ffc5af2c96f4a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre cómo ver la configuración de la reunión en Skype empresarial Server.'
+ms.openlocfilehash: 13d91bc4c0335d8c069e0b0d9bc41efd8714f112
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888054"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280372"
 ---
-# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Ver opciones de configuración en Skype para Business Server de reuniones
+# <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Ver la configuración de la reunión en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo ver los valores de configuración de Skype para Business Server de la reunión.
+**Resumen:** Obtenga información sobre cómo ver la configuración de la reunión en Skype empresarial Server.
   
-Puede ver opciones de configuración de la reunión mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
+Puede ver la configuración de la reunión con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
   
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Ver opciones de configuración de la reunión mediante el uso de Skype para el Panel de Control de servidor empresarial
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-control-panel"></a>Ver la configuración de la reunión con el panel de control de Skype empresarial Server
 <a name="BKMK_ViewJoinSettings"> </a>
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2.  Abra el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
     
@@ -36,11 +36,11 @@ Puede ver opciones de configuración de la reunión mediante el uso de Skype par
     
 5. En **Editar filtro de archivo**, active la casilla **Mostrar detalles**.
     
-    **Editar configuración de reunión - \<directiva\> ** se abre mostrando la configuración para la directiva seleccionada.
+    **Editar la configuración de \<la\> reunión:** se abre la Directiva que muestra la configuración de la Directiva seleccionada.
     
-    Para obtener información detallada acerca de cómo configurar la configuración, vea [crear una configuración de Skype para Business Server de reunión](create-settings.md).
+    Para obtener más información sobre cómo configurar las opciones, consulte [crear opciones de configuración de reunión en Skype empresarial Server](create-settings.md).
     
-## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Ver opciones de configuración de la reunión mediante el uso de Skype para Shell de administración de servidor empresarial
+## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Ver la configuración de la reunión mediante el shell de administración de Skype empresarial Server
 <a name="BKMK_ViewJoinSettings"> </a>
 
 Para ver información sobre todas las configuraciones de reuniones, use el cmdlet **Get-CsMeetingConfiguration**:
@@ -66,6 +66,6 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-Para obtener más información, incluida una lista completa de los parámetros, vea [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
+Para obtener más información, incluida una lista completa de parámetros, vea [Get-CsMeetingConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps).
   
 

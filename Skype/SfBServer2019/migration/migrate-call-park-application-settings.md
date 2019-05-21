@@ -4,21 +4,21 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'La migración de la aplicación incluye la Skype para grupo de negocio Server 2019 con cualquier personalizado de música en espera los archivos que se han cargado en la instalación heredada de aprovisionamiento de estacionamiento de llamadas, al restaurar la configuración de nivel de servicio y redirección de estacionamiento todas las órbitas a la Skype para el grupo de servidores de Business Server 2019. Si se han configurado en el grupo de archivos de música en espera personalizados, estos archivos deben copiarse a la nueva Skype para el grupo de servidores de Business Server 2019. Además, se recomienda que se haga una copia de seguridad de cualquier estacionamiento personalizado los archivos de música en espera de a otro destino para mantener una copia de seguridad independiente de cualquier archivo personalizado de música en espera que se han cargado del estacionamiento de llamadas. Los archivos de música en espera personalizados para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo de servidores. Para copiar los archivos de audio desde un almacén de archivos de grupo de servidores a un Skype Business Server 2019 almacén de archivos, utilice el comando Xcopy con los siguientes parámetros:'
-ms.openlocfilehash: 3d9c2904d66ac5d35bdd94631ec23c67288a5c3a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'La migración de la aplicación de estacionamiento de llamadas incluye el aprovisionamiento del grupo de servidores de Skype empresarial 2019 con cualquier música personalizada en los archivos que se hayan cargado en la instalación heredada, la restauración de la configuración del nivel de servicio y la redestinación de todas las opciones de estacionamiento de la Grupo de servidores de Skype empresarial 2019. Si se han configurado archivos de música en espera personalizados en el grupo, estos archivos deben copiarse en el nuevo grupo de servidores de Skype empresarial 2019. Además, se recomienda que haga una copia de seguridad de todos los archivos de música en espera personalizados de la llamada en espera para mantener una copia de seguridad separada de los archivos de música personalizada que se hayan cargado en el parque de llamadas. Los archivos de música personalizada habilitada para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo. Para copiar los archivos de audio de un grupo de almacenamiento de archivos en un almacén de archivos de Skype empresarial Server 2019, use el comando xcopy con los siguientes parámetros:'
+ms.openlocfilehash: aa4ac3cfbe6802b8853a8ec8886f8fffe1a20a51
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238376"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280835"
 ---
 # <a name="migrate-call-park-application-settings"></a>Migrar la configuración de la aplicación de estacionamiento de llamadas
 
-La migración de la aplicación de estacionamiento de llamadas incluye la Skype para el grupo de servidores de Business Server 2019 de aprovisionamiento con cualquier archivo de música en espera personalizado que se han cargado en la instalación heredada, al restaurar la configuración de nivel de servicio e identificación de volver a todas las órbitas de estacionamiento de llamadas para Skype para el grupo de servidores de Business Server 2019. Si se han configurado en el grupo de archivos de música en espera personalizados, estos archivos deben copiarse a la nueva Skype para el grupo de servidores de Business Server 2019. Además, se recomienda que se haga una copia de seguridad de cualquier estacionamiento personalizado los archivos de música en espera a otro destino para mantener una copia de seguridad independiente de cualquier archivo personalizado de música en espera que se han cargado del estacionamiento de llamadas. Los archivos de música en espera personalizados para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo de servidores. Para copiar los archivos de audio desde un almacén de archivos de grupo de servidores a un Skype Business Server 2019 almacén de archivos, utilice el comando **Xcopy** con los siguientes parámetros: 
+La migración de la aplicación de estacionamiento de llamadas incluye el aprovisionamiento del grupo de servidores de Skype empresarial 2019 con cualquier archivo de música personalizada que se haya cargado en la instalación heredada, la restauración de la configuración de nivel de servicio y la redestinación de todas las órbitas de estacionamiento de llamadas al grupo de servidores de Skype empresarial 2019. Si se han configurado archivos de música en espera personalizados en el grupo, estos archivos deben copiarse en el nuevo grupo de servidores de Skype empresarial 2019. Además, le recomendamos que haga una copia de seguridad de los archivos de música en espera personalizados de un parque a otro destino para mantener una copia de seguridad separada de los archivos de música personalizada que se hayan cargado para la llamada en espera. Los archivos de música personalizada habilitada para la aplicación de estacionamiento de llamadas se almacenan en el almacén de archivos del grupo. Para copiar los archivos de audio de un grupo de almacenamiento de archivos en un almacén de archivos de Skype empresarial Server 2019, use el comando **xcopy** con los siguientes parámetros: 
 
 ```
 Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business Server 2019 Pool CPS File Store Path>
@@ -28,40 +28,40 @@ Xcopy <Source: legacy Pool CPS File Store Path> <Destination: Skype for Business
 Example usage:  Xcopy "<legacy File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\"  "<Skype for Business Server 2019 File Store Path>\OcsFileStore\coX-ApplicationServer-X\AppServerFiles\CPS\" 
 ```
 
-Cuando se han copiado todos los archivos de audioconferencias personalizados a la Skype Business Server 2019 almacén de archivos, la configuración de la aplicación de estacionamiento de llamadas de la Skype para Business Server 2019 se debe configurar el grupo de servidores y el estacionamiento de llamadas órbita rangos que están asociados con el grupo de servidores heredado debe asignarse a la Skype para el grupo de servidores de Business Server 2019.
+Cuando todos los archivos de audio personalizados se han copiado en el almacén de archivos de Skype empresarial Server 2019, la configuración de la aplicación estacionamiento de llamadas del grupo de Skype empresarial Server 2019 debe estar configurada y los intervalos de la órbita del parque de llamadas asociados con el grupo heredado. debe reasignarse al grupo de servidores de Skype empresarial 2019.
 
-La configuración de la aplicación de estacionamiento de llamadas incluye el umbral de tiempo de espera pickup, habilitar o deshabilitar la música en espera, los intentos de recogida máximo de llamadas y la solicitud de tiempo de espera. Debe administrar configuración de la aplicación de estacionamiento de llamadas mediante el Skype para Business Server Management Shell para ejecutar el cmdlet **Set-CsCpsConfiguration** . No se puede administrar la configuración de la aplicación de estacionamiento de llamadas mediante el Skype para el Panel de Control de servidor empresarial. 
+La configuración de la aplicación estacionamiento de llamadas incluye el umbral de tiempo de espera de la recogida, la habilitación o deshabilitación de música en espera, los intentos de recopilación de llamadas máximas y la solicitud de tiempo de espera. Debe administrar la configuración de la aplicación de estacionamiento de llamadas con el shell de administración de Skype empresarial Server para ejecutar el cmdlet **set-CsCpsConfiguration** . No puede administrar la configuración de la aplicación de estacionamiento de llamadas con el panel de control de Skype empresarial Server. 
 
-## <a name="reconfigure-the-call-park-service-settings"></a>Volver a configurar la configuración del servicio de estacionamiento de llamadas
+## <a name="reconfigure-the-call-park-service-settings"></a>Cambiar la configuración del servicio de estacionamiento de llamadas
 
-1. De Skype para profesionales de 2019 Front-End Server, abra el Skype para Shell de administración de servidor empresarial.
+1. Desde el servidor front-end de Skype empresarial Server 2019, abra el shell de administración de Skype empresarial Server.
 
 2. En la línea de comandos, escriba:
 
     > [!NOTE]
-    > Si su Skype para la configuración de la aplicación de estacionamiento de llamadas de Business Server 2019 es idéntica a la configuración heredada, puede omitir este paso. Si la configuración de la aplicación de estacionamiento de llamadas es diferentes para la Skype para Business Server 2019 y entornos heredados, use el cmdlet a continuación como una plantilla para actualizar dichos cambios. 
+    > Si la configuración de la aplicación de Skype para empresas Server 2019 es idéntica a la configuración heredada, puede omitir este paso. Si la configuración de la aplicación de estacionamiento de llamadas es diferente para los entornos de Skype empresarial Server 2019 y los antiguos, use el cmdlet que se muestra a continuación como una plantilla para actualizar esos cambios. 
 
    ```
    Set-CsCpsConfiguration -Identity "<LS2013 Call Park Service ID>" -CallPickupTimeoutThreshold "<LS2010 CPS TimeSpan>" -EnableMusicOnHold "<LS2010 CPS value>" -MaxCallPickupAttempts "<LS2010 CPS pickup attempts>" -OnTimeoutURI "<LS2010 CPS timeout URI>"
    ```
 
-Para reasignar todos los intervalos de órbitas de estacionamiento de llamadas del grupo heredado para la Skype para Business Server 2019 grupo, puede usar el Skype para el Panel de Control de servidor empresarial o el Skype para Shell de administración de servidor empresarial. 
+Para reasignar todos los intervalos de llamadas de la órbita de la agrupación heredada al grupo de servidores de Skype empresarial 2019, puede usar el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Reasignar todos los intervalos de órbitas de estacionamiento de llamadas mediante Skype para el Panel de Control de servidor empresarial
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-control-panel"></a>Reasignar todos los intervalos órbitas del parque de llamadas con el panel de control de Skype empresarial Server
 
-1. Abra Skype para el Panel de Control de servidor empresarial.
+1. Abra el panel de control de Skype empresarial Server.
 
-2. En el panel izquierdo, seleccione **Las características de voz**.
+2. En el panel izquierdo, seleccione **características de voz**.
 
-3. Seleccione la pestaña **Estacionamiento de llamadas** . 
+3. Seleccione la pestaña **detener llamada** . 
 
-4. Para cada intervalo de órbitas de estacionamiento de llamadas asignado a un grupo de servidores heredado, edite la configuración del **FQDN del servidor de destino** y seleccione el Skype para grupo de negocio Server 2019 que procesará las solicitudes de estacionamiento de llamadas. 
+4. Para cada rango de la órbita de la llamada que se asigna a una agrupación heredada, edite el **FQDN del servidor de destino** y seleccione el grupo de servidores de Skype empresarial 2019 que procesarán las solicitudes de estacionamiento. 
 
-5. Seleccione **Confirmar** para guardar los cambios. 
+5. Seleccione **confirmar** para guardar los cambios. 
 
-## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Reasignar todos los intervalos de órbitas de estacionamiento de llamadas mediante Skype para Shell de administración de servidor empresarial
+## <a name="reassign-all-call-park-orbit-ranges-using-skype-for-business-server-management-shell"></a>Reasignar todos los intervalos órbitas del parque de llamadas con el shell de administración de Skype empresarial Server
 
-1. Abra Skype para Shell de administración de servidor empresarial.
+1. Abra el shell de administración de Skype empresarial Server.
 
 2. En la línea de comandos, escriba:
 
@@ -69,14 +69,14 @@ Para reasignar todos los intervalos de órbitas de estacionamiento de llamadas d
    Get-CsCallParkOrbit
    ```
 
-    Este cmdlet enumera todos los intervalos de órbitas de estacionamiento de llamadas en la implementación. Se deben reasignar todas las órbitas de estacionamiento de llamadas que tienen los parámetros **CallParkServiceId** y **CallParkServerFqdn** establecido como el grupo heredado. 
+    Este cmdlet muestra todos los intervalos de la órbita de estacionamiento de llamadas en la implementación. Todas las órbitas de estacionamiento de llamadas que tienen los parámetros **CallParkServiceId** y **CallParkServerFqdn** establecidos como el grupo heredado se deben reasignar. 
 
-    Para volver a asignar la órbita de estacionamiento de llamadas heredada intervalos a la Skype para Business Server 2019 grupo de servidores, en la línea de comandos, escriba lo siguiente:
+    Para reasignar los intervalos de la órbita del parque de llamadas heredadas al grupo de Skype empresarial Server 2019, en la línea de comandos, escriba lo siguiente:
 
    ```
    Set-CsCallParkOrbit -Identity "<Call Park Orbit Identity>" -CallParkService "service:ApplicationServer:<Skype for Business Server 2019 Pool FQDN>"
    ```
 
-Después de reasignar todos los intervalos de órbitas de estacionamiento de llamadas a la Skype para el grupo de servidores de Business Server 2019, se completará el proceso de migración de la aplicación de estacionamiento de llamadas y el Skype para el grupo de servidores de Business Server 2019 controlará todas las solicitudes futuras de estacionamiento de llamadas.
+Después de reasignar todos los intervalos de la gira de llamadas al grupo de servidores de Skype empresarial 2019, se completará el proceso de migración de la aplicación de estacionamiento de llamadas y el grupo de Skype empresarial Server 2019 administrará todas las solicitudes de estacionamiento de llamadas futuras.
 
 

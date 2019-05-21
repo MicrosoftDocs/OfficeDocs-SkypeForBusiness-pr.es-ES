@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aeca610b-db0a-45cf-95b9-ae9a6bbccb45
-description: El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube.
-ms.openlocfilehash: 0b790b9f2edab9fade2738c3c95348be864f9017
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+description: El cmdlet restore CC-Credentials restaura todas las credenciales de la implementación actual de Skype empresarial Cloud Connector Edition.
+ms.openlocfilehash: efa1bcda9af6abccd2ced0faf1e772e779a4483f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30891471"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287086"
 ---
 # <a name="restore-cccredentials"></a>Restore-CcCredentials
  
-El cmdlet Restore Cc-credenciales restaura todas las credenciales de la actual Skype para la implementación de Business Edition de conector en la nube. 
+El cmdlet restore CC-Credentials restaura todas las credenciales de la implementación actual de Skype empresarial Cloud Connector Edition. 
   
-Este cmdlet se aplica a Skype para conector Edition 2.1 de negocio en la nube.
+Este cmdlet se aplica a Skype empresarial Cloud Connector Edition 2,1.
   
 ```
 Restore-CcCredentials 
@@ -30,15 +30,15 @@ Restore-CcCredentials
 
 ## <a name="detailed-description"></a>Descripción detallada
 
-El cmdlet Restore-CcCredentials limpia todas las credenciales y le pregunta si desea volver a escribir todas las credenciales usadas para el actual Skype para la implementación de nube de Business Connector.
+El cmdlet restore-CcCredentials limpia todas las credenciales y le pide que vuelva a escribir todas las credenciales utilizadas para la implementación actual de Skype empresarial Connector.
   
 ## <a name="parameters"></a>Parámetros
 
-Ninguno
+Ninguna
   
 ## <a name="input-types"></a>Tipos de entrada
 
-Ninguno. El cmdlet Restore-CcCredentials no acepta entradas transferidas.
+Ninguno. El cmdlet restore-CcCredentials no acepta la entrada canalizada.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 
@@ -46,7 +46,7 @@ Ninguno.
   
 ## <a name="example"></a>Ejemplo
 
-En el ejemplo siguiente se restaura todas las credenciales de la implementación actual de conector en la nube:
+En el siguiente ejemplo se restauran todas las credenciales de la implementación del conector de nube actual:
   
 ```
     PS C:\>Restore-CcCredentials

@@ -1,25 +1,25 @@
 ---
-title: Informe de detalles de conferencia en Skype para Business Server
+title: Informe detallado de la Conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
-description: 'Resumen: Información sobre el informe de detalles de conferencia usadas en Skype para Business Server.'
-ms.openlocfilehash: 46181c403a115367d7c2f8c030205ae2a9437c41
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de detalles de conferencia usado en Skype empresarial Server.'
+ms.openlocfilehash: 5b88ae62c7d06437b3502bd72dd965fc26fbfcb6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926560"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305790"
 ---
-# <a name="conference-detail-report-in-skype-for-business-server"></a>Informe de detalles de conferencia en Skype para Business Server
+# <a name="conference-detail-report-in-skype-for-business-server"></a>Informe detallado de la Conferencia en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre el informe de detalles de conferencia usadas en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de detalles de la Conferencia usado en Skype empresarial Server.
 
 El Informe de detalles de conferencia proporciona información detallada sobre todos los usuarios que participaron en una conferencia. Por ejemplo, puede ver información como la fecha y hora en que un usuario se conectó a la conferencia, la fecha y hora en la que el usuario se desconectó de la conferencia y el agente del usuario del extremo que se utilizó para conectar a ese usuario a la conferencia. También puede ver información sobre el rol del usuario en cada conferencia (por ejemplo, moderador o asistente). Quizás lo más importante, puede ver rápidamente qué usuarios se conectan satisfactoriamente y finalizan la conferencia y qué usuarios no pudieron conectarse satisfactoriamente ni finalizar la conferencia.
 
@@ -33,7 +33,7 @@ Es posible obtener acceso al Informe de detalles de conferencia a partir de los 
 
 - El [User Activity Report](call-diagnostic-reports-per-user.md) (haciendo clic en la métrica URI de conferencia)
 
-Desde el informe de detalles de conferencia puede tener acceso a la búsqueda de [Diagnóstico de inform](diagnostic-report.md) haciendo clic en la métrica informe de diagnósticos (detalle).
+En el informe de detalles de la Conferencia, puede acceder al [repositorio](diagnostic-report.md) de diagnósticos haciendo clic en la métrica de informe de diagnóstico (detalles).
 
 ## <a name="filters"></a>Filtros
 
@@ -65,10 +65,10 @@ La siguiente tabla muestra la información brindada en la sección Participació
 |**Conectividad** <br/> |Conectividad de red (normalmente Desde conexión interna o Desde conexión externa) del participante.  <br/> |
 |**Hora de conexión** <br/> |Fecha y hora en que el participante se unió a la conferencia.  <br/> |
 |**Hora de desconexión** <br/> |Fecha y hora en que el participante abandonó la conferencia.  <br/> |
-|**Agente de usuario** <br/> |Identificador del software del extremo del participante.  <br/> |
+|**Agente de usuario** <br/> |Identificador del software usado por el punto final del participante.  <br/> |
 |**Informes de diagnósticos** <br/> |Proporciona información de diagnóstico y resolución de problemas. Por ejemplo, códigos de respuesta SIP, encabezados de diagnóstico, horarios de conexión a conferencias e identificadores de diagnóstico para sesiones fallidas.  <br/> |
 
-En la siguiente tabla se enumera la información proporcionada en la sección modalidades de conferencia del informe de detalles de conferencia.
+En la tabla siguiente se enumera la información proporcionada en la sección modalidades de conferencia del informe detalles de la Conferencia.
 
 **Métricas de Modalidades de conferencia**
 

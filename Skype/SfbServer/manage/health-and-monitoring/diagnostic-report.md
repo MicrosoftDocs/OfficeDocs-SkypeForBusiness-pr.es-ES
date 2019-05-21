@@ -1,25 +1,25 @@
 ---
-title: Informe de diagnóstico en Skype para Business Server
+title: Informe de diagnóstico en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b389dbd9-f2e8-4184-93d0-2e504796ac16
-description: 'Resumen: Información sobre el informe de diagnóstico en Skype para Business Server.'
-ms.openlocfilehash: b50be1733eb085bc8a3323cf3fcad028e2f0c6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de diagnóstico en Skype empresarial Server.'
+ms.openlocfilehash: d71906f2407a0daadc04417ab60a23c86f5eeb52
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926567"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305776"
 ---
-# <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype para Business Server
+# <a name="diagnostic-report-in-skype-for-business-server"></a>Informe de diagnóstico en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de diagnóstico en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de diagnóstico en Skype empresarial Server.
   
 El informe de diagnóstico ofrece información de diagnóstico y solución de problemas para las sesiones con errores. Esta información incluye el identificador de diagnóstico y el encabezado de diagnóstico que se notificaron cuando se produjo el error en la sesión. El identificador de diagnóstico es un identificador único (con formato de encabezado ms-diagnostics) que se adjunta a un mensaje SIP, mientras que el encabezado de diagnóstico proporciona una descripción que acompaña al identificador de diagnóstico. El informe también puede contener detalles valiosos sobre la solución de problemas conocidos por el componente del informe. Por ejemplo:
   
@@ -31,7 +31,7 @@ El informe de diagnóstico ofrece información de diagnóstico y solución de pr
     
 ## <a name="accessing-the-diagnostic-report"></a>Obtener acceso al informe de diagnóstico
 
-El informe de diagnóstico puede tener acceso haciendo clic en la métrica informe de diagnósticos (detalle) en el [informe de detalles de la sesión de punto a punto en Skype para Business Server](peer-to-peer-session-detail-report.md) o el informe de detalles de conferencia.
+Para obtener acceso al informe de diagnóstico, haga clic en la métrica informe de diagnóstico (detalles) en el [informe detallado de sesión de punto a punto de Skype empresarial Server o en](peer-to-peer-session-detail-report.md) el informe de detalles de conferencia.
   
 ## <a name="filters"></a>Filtros
 
@@ -58,6 +58,6 @@ En la siguiente tabla se detalla la información proporcionada en el informe de 
 |**Tiempo en unirse a conferencia (ms)** <br/> |No  <br/> |Cantidad de tiempo (en milisegundos) que tardó el usuario en unirse a la conferencia.  <br/> |
 |**Encabezado de diagnóstico** <br/> |No  <br/> |Descripción del identificador de diagnóstico.  <br/> |
    
-Una lista de errores de diagnósticos puede encontrarse en la [página de encabezado Ms-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
+Puede encontrar una lista de errores de diagnóstico en la [Página de encabezado de MS-Diagnostics](https://msdn.microsoft.com/en-us/library/gg132446%28v=office.12%29.aspx).
   
 

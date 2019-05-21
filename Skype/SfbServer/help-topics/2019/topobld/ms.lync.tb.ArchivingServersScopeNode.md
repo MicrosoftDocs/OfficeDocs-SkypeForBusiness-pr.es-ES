@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.ArchivingServersScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: En el Generador de topologías puede ejecutar tareas relacionadas con un determinado servidor de archivado. Para ello, haga clic con el botón secundario en Servidor de archivado en el árbol de consola, haga clic en Acción en la barra de herramientas o haga clic en una tarea del panel Acciones y, luego, haga clic en la siguiente opción de servidor de archivado.
-ms.openlocfilehash: 1bfbeb011db065a75914c5891938aae78f124da3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 643c471bd9ef56ec86d797fccabd0d9b4c9beddd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887149"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281391"
 ---
 # <a name="archiving-servers-scope-node"></a>Nodo de ámbito de servidores de archivado
  
@@ -27,11 +27,11 @@ En el Generador de topologías puede ejecutar tareas relacionadas con un determi
 - **Nuevo servidor de archivado**. Inicia el asistente **Definir nuevo servidor de archivado**, donde se especifican las opciones de configuración de un servidor de archivado nuevo, como el nombre de dominio completo (FQDN), la base de datos de SQL Server de archivado, el almacén de archivos de archivado y la asociación de grupos de servidores.
     
 > [!NOTE]
-> El nodo Servidores de archivado contiene un servidor de archivado si anteriormente ya se ha agregado un servidor de archivado a la topología en el Generador de topologías. Sin embargo, mensajería instantánea o conferencias web (mensajería) no se pueden archivar hasta que también configurar el servidor de archivado, que incluye la instalación de Skype para Business Server en el servidor que desea usar como un servidor de archivado y configurar la compatibilidad con el archivado. 
+> El nodo Servidores de archivado contiene un servidor de archivado si anteriormente ya se ha agregado un servidor de archivado a la topología en el Generador de topologías. Sin embargo, los mensajes instantáneos o las conferencias web (mensajes) no se pueden archivar hasta que también se configure el servidor de archivado, lo que incluye la instalación de Skype empresarial Server en el servidor que desea usar como servidor de archivado y la configuración de soporte técnico para archivado. 
   
 Además de las opciones del servidor de archivado que se han descrito en este tema, en el nodo Servidores de archivado hay opciones generales que también se encuentran en otros nodos del árbol de consola. Se trata de las opciones siguientes:
   
-- **Topología**. Use esta opción para definir una nueva topología, abrir una topología existente, descargue la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
+- **Topología**. Use esta opción para definir una nueva topología, abrir una topología existente, descargar la topología actual, guardar una copia de la topología, publicar la topología, instalar una base de datos, combinar componentes o quitar la implementación.
     
 - **Ver**. Use esta opción personalizar la vista del Generador de topologías seleccionando los elementos que desea que se muestren y los que desea que queden ocultos en las vistas del árbol de la consola.
     

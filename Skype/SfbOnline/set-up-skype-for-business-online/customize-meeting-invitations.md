@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,58 +19,58 @@ f1keywords:
 - ms.teamsadmincenter.meetingsettings.invitationurls
 ms.custom:
 - Setup
-description: 'Personalizar las invitaciones a reuniones de Skype con logotipos gráficos, ayuda y direcciones URL legales y texto de pie de página. '
-ms.openlocfilehash: 3d01d23172d7c187d09930c644390bdbf7a273b2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Personalice las invitaciones a reuniones de Skype con logotipos gráficos, URL de ayuda y oficio y texto de pie de página. '
+ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237894"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285298"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 
-Como administrador, puede asegurarse de que todos los Skype para las invitaciones a reuniones de negocios incluyen información útil a los usuarios es posible que necesite, como vínculos a su sitio Web de soporte técnico y renuncia de responsabilidad legal, el logotipo de su compañía y otro texto que desee incluir. 
+Como administrador, puede asegurarse de que todas las invitaciones a reuniones de Skype empresarial incluyan información útil, como vínculos a su sitio web de soporte técnico y renuncia legal, el logotipo de su empresa y otro texto que desee incluir. 
   
-## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para la creación de un logotipo para las invitaciones a reuniones
+## <a name="tips-for-creating-a-logo-for-meeting-invitations"></a>Sugerencias para crear un logotipo para invitaciones a reuniones
 <a name="__top"> </a>
 
-1. Crear una imagen que es no más de 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeña).
+1. Crear una imagen que no supere los 188 píxeles de ancho por 30 píxeles de alto (es bastante pequeño).
     
 2. Guarde la imagen en formato JPG.
     
-3. Almacenar la imagen en una ubicación central que pueden obtener acceso todas las personas de su empresa, por ejemplo, un recurso compartido de red, compartida OneDrive para la carpeta de trabajo, lista desplegable, etcetera.
+3. Almacene la imagen en una ubicación central a la que tengan acceso todos los usuarios de su empresa, como un recurso compartido de red, una carpeta compartida de OneDrive para la empresa, Dropbox, etc.
     
-    Ahora puede agregar las invitaciones a reuniones. Vea los siguientes pasos.
+    Ahora puede agregarlo a las invitaciones a reuniones. Consulte los pasos siguientes.
     
-## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones de reunión
+## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
 <a name="__top"> </a>
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. En el centro de administración de Office 365, elija **centros de administración** > **Skype para la empresa**.
+2. En el centro de administración de Office 365, seleccione **centros** > de administración**Skype**empresarial.
     
-3. En Skype para el centro de administración de negocio, elija **las reuniones en línea**. 
+3. En el centro de administración de Skype empresarial, elija **reuniones en línea**. 
     
 4. Complete los siguientes cuadros:
     
-    ![Aquí es el aspecto que podría tener al igual que cuando se complete el formulario para personalizar las invitaciones de reunión.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
+    ![Este es el aspecto que tendría al completar el formulario para personalizar las invitaciones a reuniones.](../images/b0a7c3c6-0d86-41c6-b116-331143bbe398.png) 
 
-   **Dirección URL del logotipo:** Escriba la dirección URL donde está almacenado el logotipo. ¡Recuerde que debe estar en formato JPG! 
+   **Dirección URL del logotipo:** Escriba la dirección URL donde se encuentra almacenado el logotipo. Recuerde que debe tener el formato JPG. 
  
-   **Dirección URL de ayuda:** Si su organización tiene un sitio Web de soporte técnico que desee personas para ir a si tienen problemas, escriba la dirección URL aquí. 
+   **Dirección URL de ayuda:** Si su organización tiene un sitio web de soporte técnico al que desea que los usuarios tengan problemas, escriba la dirección URL aquí. 
 
-   **Dirección URL legal:** Si su organización tiene un sitio Web legal que desea que las personas para ir a si tienen problemas legales, escriba la dirección URL aquí.
+   **Dirección URL legal:** Si su organización tiene un sitio web legal al que desea que los usuarios tengan dudas legales, escriba aquí la dirección URL.
     
-   **Texto de pie de página:** Escriba una nota de al pie de sólo texto que va a ser apropiada para los usuarios.  
+   **Texto del pie de página:** Escriba una nota al pie de texto que sea adecuada para los usuarios.  
   
    
 5. Elija **Guardar**.
     
-6. Tiempo de espera una hora o modo, para que los cambios se llenan en todos los servicios de Office 365. A continuación, vaya a Outlook y programar una reunión de Skype para ver el aspecto de los cambios. 
+6. Espere una hora o para que los cambios se rellenen en todos los servicios de Office 365. Después, vaya a Outlook y programe una reunión de Skype para ver el aspecto de los cambios. 
     
-    ![Este es el aspecto de una invitación personalizada, se sin el gráfico](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![Este es el aspecto de una invitación personalizada sin el gráfico](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Temas relacionados
 <a name="__top"> </a>

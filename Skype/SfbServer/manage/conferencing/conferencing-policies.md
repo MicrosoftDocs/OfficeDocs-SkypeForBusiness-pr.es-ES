@@ -1,27 +1,27 @@
 ---
-title: Administrar las directivas de conferencia en Skype para Business Server
+title: Administrar directivas de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 34ec5e41-6fe6-450b-81b0-0d17b9989839
-description: 'Resumen: Obtenga información sobre cómo administrar las directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 1bfe046f4d46617880d1a6bff34391bbb0b8837c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar directivas de conferencia en Skype empresarial Server.'
+ms.openlocfilehash: d835c4760ef3e77bc36f21e64cb80aeb618526ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919405"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289058"
 ---
-# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Administrar las directivas de conferencia en Skype para Business Server
+# <a name="manage-conferencing-policies-in-skype-for-business-server"></a>Administrar directivas de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar las directivas de conferencia en Skype para Business Server.
+**Resumen:** Aprenda a administrar directivas de conferencia en Skype empresarial Server.
   
-En este tema se describe cómo administrar directivas de conferencia. Para obtener más información acerca de cómo planear e implementar una conferencia, vea [Plan para las conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencias en Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+En este tema se describe cómo administrar directivas de conferencia. Para obtener más información sobre cómo planear e implementar conferencias, consulte [planear la Conferencia en Skype empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) e [implementar conferencias en Skype empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Las directivas de conferencia le permiten definir una amplia variedad de opciones de programación y participación, que van desde si una reunión puede incluir audio y vídeo IP hasta la cantidad máxima de personas que pueden asistir. Puede usar directivas de conferencia para administrar la seguridad, el ancho de banda y los aspectos jurídicos de las reuniones.
   
@@ -29,19 +29,19 @@ Puede definir la directiva de conferencias en tres niveles: ámbito global, ámb
   
 Existe una directiva global predeterminada, de modo que no puede crear una nueva directiva global. Tampoco puede eliminar la directiva global existente, pero puede cambiar la directiva global para personalizar la configuración predeterminada.
   
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Administrar las directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Administrar directivas de conferencia con el panel de control de Skype empresarial Server
 
-Para administrar las directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial:
+Para administrar las directivas de conferencia con el panel de control de Skype empresarial Server:
   
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2.  Abra el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
     
-## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Administrar las directivas de conferencia mediante el uso de Skype para Shell de administración de servidor empresarial
+## <a name="manage-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Administrar directivas de conferencia con el shell de administración de Skype empresarial Server
 
-Para administrar las reuniones mediante el uso de Skype para Shell de administración de servidor empresarial, use los cmdlets siguientes:
+Para administrar las reuniones con el shell de administración de Skype empresarial Server, use los siguientes cmdlets:
   
 **Configuración de la directiva de conferencia**
 

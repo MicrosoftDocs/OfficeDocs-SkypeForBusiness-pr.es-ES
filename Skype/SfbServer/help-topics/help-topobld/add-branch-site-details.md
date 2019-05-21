@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchSiteDetailsPage
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 description: 'Para especificar los detalles de un sitio, haga lo siguiente:'
-ms.openlocfilehash: 0c2956a71781531d0de8f21d79e5755010515eca
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a0b528a054c1cd2a378bda951593340c6e4fa2ee
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886610"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304866"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sitio de sucursal
 

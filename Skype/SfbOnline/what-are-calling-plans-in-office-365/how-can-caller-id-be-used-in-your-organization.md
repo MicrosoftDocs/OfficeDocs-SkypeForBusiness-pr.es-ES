@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
-ms.openlocfilehash: df6c7c053b5dce4ffb1d121a1adbf829efda9943
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: La identificación de llamadas se puede controlar tanto para llamadas entrantes como salientes de usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
+ms.openlocfilehash: 9d15d51d0044ae15b04572f0b64a21912cea720a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229891"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305437"
 ---
 # <a name="how-can-caller-id-be-used-in-your-organization"></a>Cómo se puede usar la identificación de llamadas en su organización
 
-Identificador de autor de la llamada se puede controlar mediante el uso de una directiva denominada CallingLineIdentity para las llamadas entrantes y salientes para los usuarios del sistema telefónico.
+La identificación de llamadas se puede controlar tanto para llamadas entrantes como salientes de usuarios del sistema telefónico mediante una directiva denominada CallingLineIdentity.
   
-La funcionalidad de identificador de autor de la llamada está disponible para todos los usuarios del sistema telefónico independientemente de la conectividad de RTC:
+La funcionalidad de identificación de llamadas está disponible para todos los usuarios del sistema telefónico con independencia de la conectividad RTC:
   
 - Conectividad con RTC en línea
     
@@ -47,7 +47,7 @@ La funcionalidad de identificador de autor de la llamada está disponible para t
 
 Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
   
-- El número de teléfono asignado al usuario, que es el valor predeterminado.
+- El número de teléfono asignado al usuario, que es el predeterminado.
     
 - A telephone number that is classified as a *service* and *toll-free* number in your Calling Plans in Office 365 telephone number inventory. It is usually assigned to an organizational auto attendant or call queue.
     
@@ -55,7 +55,7 @@ Hay tres opciones disponibles para la identificación de llamadas RTC de salida:
     
 Sin embargo, no es posible asignar estos tipos de números de teléfono al identificador de llamadas de salida:
   
-- Los números de teléfono que se clasifican como un *usuario* en su teléfono de planes de llamar al número de inventario
+- Números de teléfono que se clasifican como un *usuario* en el inventario de números de teléfono de los planes de llamadas
     
 - Un número de teléfono de Skype Empresarial Server local.
     
@@ -65,7 +65,7 @@ Para establecer la identificación de llamadas de salida, consulte [Establecer e
 
 The EnableUserOverride attribute enables single or multiple users to change their Caller ID setting to **Anonymous**. This only applies when a CallingLineIdentity policy is configured with a CallingIDSubstitute parameter of either LineURI or Substitute. The default value of EnableUserOverride is False.
   
-Los usuarios finales pueden establecer su identificador de autor de la llamada a **anónimo** mediante la ficha **configuración** en el Skype para el cliente de escritorio empresarial, seleccione **llamadas a un usuario final** (si se habilita por admin), seleccione información del perfil y el número de **Ocultar Mi teléfono para todas las llamadas **.
+Los usuarios finales pueden establecer su identificador de llamada en **anónimo** mediante la pestaña **configuración** del cliente de escritorio de Skype empresarial, seleccionar **llamadas a un usuario final** (si lo habilita el administrador), seleccionar **ocultar mi número de teléfono y la información del perfil para todas las llamadas **.
   
 ||||
 |:-----|:-----|:-----|

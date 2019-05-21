@@ -11,7 +11,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Optimization
 description: Descubra cómo se clasifica la calidad de la transmisión en el panel de calidad de llamadas para Microsoft Teams y Skype for Business Online.
-ms.openlocfilehash: b3b63ff8ac89ed0ad1d88893913fa89af769e078
-ms.sourcegitcommit: 3014331fff89a0842c4db0b9adf0ef32f9728ade
+ms.openlocfilehash: ad18b15019ed82d629a4c32c27544d052cd2bc92
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "30641037"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298635"
 ---
 # <a name="stream-classification-in-call-quality-dashboard"></a>Clasificación de la transmisión en el panel de calidad de llamadas
 
@@ -45,7 +45,7 @@ Una transmisión de audio se marca como mala si se cumplen una o más de las con
 |Round Trip|>500|Tiempo medio de ida y vuelta en la propagación de red que se calcula como se especifica en RFC3550 en milisegundos.|
 |Packet Loss Rate|>0,1|Porcentaje medio de pérdida de paquetes en la transmisión.|
 |Vibración|>30|Vibración media producida en la transmisión en milisegundos.|
-|Ratio Concealed Samples Avg|> 0,07|Relación media del número de marcos de audioconferencias con muestras ocultas generadas por la pérdida de resolución de problemas y el número total de marcos de audioconferencias.|
+|Ratio Concealed Samples Avg|> 0,07|Relación media entre el número de marcos de audio con muestras ocultas generada por la recuperación de pérdida de paquetes para el número total de marcos de audio.|
 
 ### <a name="video-classifier"></a>Clasificador de vídeo
 
@@ -55,7 +55,7 @@ Una transmisión de vídeo se marca como buena o mala según el valor de la prim
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Continúe con el paso 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|< 7|Poor|Good|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
-|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|Tasa de pérdida de paquetes después de que se ha aplicado FEC agregados a través de todas las secuencias de vídeo y códecs.|
+|3|Video Post FECPLR|> 0,15|Poor|Good|Unclassified|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
 
 ### <a name="vbss-classifier"></a>Clasificador de VBSS
 
@@ -65,7 +65,7 @@ Una transmisión de VBSS se marca como buena o mala según el valor de la primer
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |1|Video Local Frame Loss Percentage Avg|> 50% |Poor|Good|Continúe con el paso 2|Average percentage of video frames lost as displayed to the user. This includes frames recovered from network losses.|
 |2|Video Frame Rate Avg|<2|Poor|Good|Continúe con el paso 3|Media de fotogramas por segundo que se reciben en una transmisión de vídeo, calculada a lo largo de la sesión.|
-|3|Video Post FECPLR|>  0.15|Poor|Good|Unclassified|Tasa de pérdida de paquetes después de que se ha aplicado FEC agregados a través de todas las secuencias de vídeo y códecs.|
+|3|Video Post FECPLR|>  0.15|Poor|Good|Unclassified|La tasa de pérdida de paquetes después de que se haya aplicado FEC en todas las transmisiones y códecs de vídeo.|
 
 ### <a name="application-sharing-classifier"></a>Clasificador de uso compartido de aplicaciones
 
@@ -76,7 +76,7 @@ Una transmisión de uso compartido de aplicaciones se marca como mala si se cump
 |:-----------------------------------------------|:--------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Spoiled Tile Percent Total                     | > 36          | Percentage of tiles that are discarded instead of being sent to a remote peer (for example, from the MCU to a viewer). Discarded (or spoiled) tiles may be caused by bandwidth restrictions between client and server. |
 | AppSharing RDP Tile Processing Latency Average | > 400         | Latencia media en milisegundos en el procesamiento de ventanas en la pila de RDP del servidor de conferencias.                                                                                                                          |
-| AppSharing Relative OneWay Average             | > 1,75        | Retraso medio de relativa unidireccional entre los extremos en segundos para el uso compartido de secuencias de aplicaciones.                                                                                                                       |
+| AppSharing Relative OneWay Average             | > 1,75        | Promedio de retraso relativo promedio entre los puntos de conexión en segundos para las transmisiones de uso compartido de aplicaciones.                                                                                                                       |
 
 ## <a name="unclassified-streams"></a>Transmisiones sin clasificar
 

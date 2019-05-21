@@ -1,31 +1,31 @@
 ---
-title: Informe de mensajería instantánea de punto a punto en Skype para Business Server
+title: Informe de mensajería instantánea de punto a punto en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
-description: 'Resumen: Información sobre el informe de mensajería instantánea de punto a punto en Skype para Business Server.'
-ms.openlocfilehash: 8937f9b0342613ae0253fc75b1c54962bd670ed8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de mensajería instantánea de punto a punto en Skype empresarial Server.'
+ms.openlocfilehash: abe6321f6c4432270ecec325a94608d2e3117954
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926588"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305657"
 ---
-# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea de punto a punto en Skype para Business Server
+# <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Informe de mensajería instantánea de punto a punto en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de mensajería instantánea de punto a punto en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de mensajería instantánea de punto a punto en Skype empresarial Server.
   
 El informe de mensajería instantánea punto a punto ofrece información de tendencias sobre las sesiones de mensajería instantánea (MI) punto a punto, desglosadas por grupo de servidores y por tipo de autenticación. El informe puede mostrar la cantidad total de sesiones mantenidas durante el período de tiempo especificado (por ejemplo, día a día u hora a hora) o bien, puede mostrar la cantidad total de mensajes instantáneos enviados durante ese período de tiempo.
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Obtener acceso al informe de mensajería instantánea de punto a punto
 
-Puede obtener acceso el informe de mensajería instantánea de punto a punto sólo por abrir el [informe de resumen de actividad punto a punto en Skype para Business Server](peer-to-peer-activity-summary-report.md) y, a continuación, haciendo clic en cualquiera de las métricas siguientes:
+Puede obtener acceso al informe de mensajería instantánea de punto a punto solo si abre el [Informe de Resumen de actividad punto a punto en Skype empresarial Server](peer-to-peer-activity-summary-report.md) y, a continuación, hace clic en cualquiera de las siguientes métricas:
   
 - Total de sesiones de mensajería instantánea de punto a punto
     
@@ -56,7 +56,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registrador o servidor perimetral.  <br/> |
+|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha y hora en las que tuvo lugar la sesión.  <br/> |
 |**Total** <br/> |No  <br/> |Cantidad total de sesiones o recuento total de mensajes.  <br/> |
    

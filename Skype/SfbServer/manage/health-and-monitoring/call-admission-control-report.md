@@ -1,25 +1,25 @@
 ---
-title: Informe de Control de admisión de llamadas en Skype para Business Server
+title: Informe de control de admisión de llamadas en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
-description: 'Resumen: Obtenga información sobre los informes de Control de admisión de llamadas usadas en Skype para Business Server.'
-ms.openlocfilehash: f6f68e74c584496de0256b0fad8e2deae7dcc253
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los informes de control de admisión de llamadas que se usan en Skype empresarial Server.'
+ms.openlocfilehash: efa632aa4a7fb5793694363d958a31e8a066a9b5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902699"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289437"
 ---
-# <a name="call-admission-control-report-in-skype-for-business-server"></a>Informe de Control de admisión de llamadas en Skype para Business Server
+# <a name="call-admission-control-report-in-skype-for-business-server"></a>Informe de control de admisión de llamadas en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre los informes de Control de admisión de llamadas usadas en Skype para Business Server.
+**Resumen:** Obtenga más información sobre los informes de control de admisión de llamadas que se usan en Skype empresarial Server.
   
 El Informe de control de admisión de llamadas ofrece información sobre las sesiones de punto a punto y de conferencia que se han llevado a cabo con restricciones definidas por el Control de admisión de llamadas. El Control de admisión de llamadas proporciona a los administradores la forma de permitir (o no) las sesiones de comunicación en función de las restricciones del ancho de banda. Por ejemplo, los administradores pueden crear directivas que impongan un límite a la cantidad de ancho de banda disponible para las llamadas de voz y vídeo. Si se alcanza ese límite de ancho de banda, no se podrán realizar nuevas llamadas de voz o vídeo hasta que finalice alguna de las llamadas en curso y se liberen los recursos de red necesarios.
   
@@ -27,9 +27,9 @@ El Informe de control de admisión de llamadas ofrece información sobre las ses
 
 Al Informe de control de admisión de llamadas se obtiene acceso desde la página de inicio de Informes de supervisión. Desde el Informe de control de admisión de llamadas, puede obtener acceso a cualquiera de los informes siguientes:
   
-- Informe de detalles de conferencia - para acceder a este informe, haga clic en la métrica detalles desde una sesión de conferencia. 
+- Informe detallado de la Conferencia: para acceder a este informe, haga clic en la métrica de detalles de una sesión de conferencia. 
     
-- Informe de detalles de sesión Peer-to-Peer - para acceder a este informe, haga clic en la métrica detalles para una sesión de punto a punto.
+- Informe de detalles de sesión de punto a punto: para acceder a este informe, haga clic en la métrica de detalles de una sesión de punto a punto.
     
 ## <a name="making-the-best-use-of-the-call-admission-control-report"></a>Cómo hacer el mejor uso del Informe de control de admisión de llamadas
 
@@ -76,7 +76,7 @@ En la siguiente tabla se muestra la información proporcionada por el Informe de
 
 En la siguiente tabla se muestra información proporcionada en el Informe de control de admisión de llamadas para las sesiones de conferencia (es decir, sesiones con tres o más participantes).
   
-**Métricas de las sesiones de conferencia**
+**Métricas para sesiones de conferencia**
 
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|

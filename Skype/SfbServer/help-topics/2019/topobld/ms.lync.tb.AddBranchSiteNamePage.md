@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchSiteNamePage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para definir un nuevo sitio de sucursal, especifique lo siguiente:'
-ms.openlocfilehash: a6af1fc549d908fcbff5a9701c5216932f7b21d5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af992a56f96b86e3fe260080b7688fb53be01d8b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889181"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306271"
 ---
 # <a name="add-branch-site-name"></a>Agregar nombre de sitio de sucursal
 
