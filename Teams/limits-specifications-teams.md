@@ -3,7 +3,7 @@ title: Límites y especificaciones para Microsoft Teams
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 10/05/2018
+ms.date: 05/07/2019
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: karuanag
@@ -15,20 +15,18 @@ MS.collection:
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 514348d0f861ae2bda4d146de4851f788b703444
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 5c71b789684d6d40ab9eb67e0464f8dc46ae0e96
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993867"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299684"
 ---
-<a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
-=============================================
+# <a name="limits-and-specifications-for-microsoft-teams"></a>Límites y especificaciones para Microsoft Teams
 
-Este artículo describe algunos de los límites, especificaciones y otros requisitos que se aplican a Teams. 
+Este artículo describe algunos de los límites, especificaciones y otros requisitos que se aplican a Teams.
 
-<a name="teams-and-channels"></a>Equipos y canales 
-------------------
+## <a name="teams-and-channels"></a>Equipos y canales 
 
 |Característica    | Límite máximo |
 |-----------|---------------|
@@ -36,21 +34,23 @@ Este artículo describe algunos de los límites, especificaciones y otros requis
 |Número de miembros de un equipo | 5 000       |
 |Número de miembros de un [equipo de toda la organización](create-an-org-wide-team.md) | 5 000       |
 |Número de equipos que un administrador global puede crear        |  500 000   |
-|Número de equipos que puede tener un espacio empresarial de Office 365    | 500 000     |
-|Número de canales por equipo    | 200 (incluye canales eliminados)         |
+|Número de equipos que puede tener un espacio empresarial de Office 365    | 500, 000&sup2;     |
+|Número de canales por equipo    | 200 (incluye canales eliminados) &sup3;         |
 
 &sup1;Cualquier objeto de directorio en Azure Active Directory cuenta para este límite. Los administradores globales están exentos de este límite, al igual que las aplicaciones que llaman a Microsoft Graph mediante [permisos de aplicación](https://docs.microsoft.com/graph/permissions-reference).
 
-<a name="meetings-and-calls"></a>Reuniones y llamadas 
-------------------
+&sup2; Este límite incluye equipos archivados.
+
+&sup3; los canales eliminados se pueden restaurar en un plazo de 30 días. Durante estos 30 días, un canal eliminado continúa contando con el canal de 200 por límite de equipo. Después de los 30 días, un canal eliminado y su contenido se eliminan permanentemente y el canal ya no se cuenta en los canales 200 por límite de equipo.
+
+## <a name="meetings-and-calls"></a>Reuniones y llamadas 
 
 |Característica     | Límite máximo |
 |------------|---------------|
 |Número de personas en una reunión  | 250    |
 |Número de usuarios en un chat privado  | 50    |
 
-<a name="storage"></a>Almacenamiento
--------
+## <a name="storage"></a>Almacenamiento
 
 Cada equipo de Microsoft Teams tiene un sitio de grupo en SharePoint Online y cada canal de un equipo tiene una carpeta dentro de la biblioteca de documentos del sitio de grupo predeterminado. Los archivos compartidos en un chat se agregan automáticamente a la biblioteca de documentos y los permisos y opciones de seguridad configurados en SharePonit se reflejan automáticamente en Microsoft Teams.
 
@@ -70,8 +70,7 @@ Cada pestaña Archivos en Teams se ejecuta en un back-end de SharePoint Online, 
 
 Para obtener más información, vea [Límites de SharePoint Online](https://support.office.com/article/SharePoint-Online-limits-8f34ff47-b749-408b-abc0-b605e1f6d498).
 
-<a name="messaging"></a>Mensajería 
----------
+## <a name="messaging"></a>Mensajería 
 
 Los usuarios que participan en conversaciones que forman parte de la lista de Chat en Microsoft Teams deben tener un buzón de Exchange Online (en la nube) para que un administrador busque conversaciones de chat. Esto sucede porque las conversaciones que son parte de la lista de Chat se almacenan en los buzones basados en la nube de los participantes del chat. Si un participante del chat no tiene un buzón de Exchange Online, el administrador no podrá buscar o establecer una suspensión en las conversaciones de chat. Por ejemplo, en una implementación híbrida de Exchange, los usuarios con buzones locales podrían participar en conversaciones que forman parte de la lista de Chat en Microsoft Teams. Pero en este caso, el contenido de estas conversaciones no se puede buscar y no se puede colocar en espera, ya que los usuarios no tienen buzones en la nube. (Para obtener más información, vea [Interacción entre Exchange y Microsoft Teams](exchange-teams-interact.md)).
 
@@ -80,7 +79,7 @@ La función de chat de Microsoft Teams funciona en un back-end de Microsoft Exch
 |Característica  |Office 365 Enterprise E1  |Office 365 Enterprise E3  |Office 365 Enterprise E5  |Office 365 Enterprise F1  |
 |---------|---------|---------|---------|---------|
 |Límite de tamaño de mensaje &dagger;  |25 KB   |25 KB   |25 KB   |25 KB   |
-|Límite de datos adjuntos &Dagger;  |10     |10     |10     |10    |
+|Límite de datos adjuntos &Dagger;  |base10     |base10     |base10     |base10    |
 |Límite de imágenes en línea &Dagger; |50   |50   |50   |50   |
 
 &dagger; Si el mensaje supera este límite, se genera un mensaje de vista previa y se pide al usuario ver o descargar el mensaje original desde el vínculo proporcionado.
@@ -88,18 +87,14 @@ La función de chat de Microsoft Teams funciona en un back-end de Microsoft Exch
 &Dagger; Si el número de datos adjuntos o imágenes supera este límite, el mensaje no se procesará y se enviará un correo electrónico NDR al remitente para informarle del error.
 
 > [!NOTE]
-> El tamaño del mensaje, archivos adjuntos y los límites de imágenes en línea son los mismos en todas las licencias de Office 365.
+> El tamaño de los mensajes, los datos adjuntos y los límites de las imágenes en línea son los mismos en todas las licencias de Office 365.
 
 Para más información, vea [Límites de Exchange Online](https://technet.microsoft.com/library/exchange-online-limits.aspx).
 
-<a name="browsers"></a>Exploradores 
---------
+## <a name="browsers"></a>Exploradores
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-<a name="operating-systems"></a>Sistemas operativos
------------------
+## <a name="operating-systems"></a>Sistemas operativos
 
 Para obtener información sobre los requisitos del sistema operativo, consulte [Obtener clientes para Microsoft Teams](get-clients.md).
-
-

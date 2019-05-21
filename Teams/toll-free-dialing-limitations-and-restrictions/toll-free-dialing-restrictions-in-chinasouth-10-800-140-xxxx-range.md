@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 51cea911ba4b6b21ea0a7b01b2c460e8b4096d5b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: 33c1a5f7f0ca491c0ec2160c320434d690c74db9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204386"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300844"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Restricciones de marcado de número gratuito en China - Sur (intervalo 10 800 140 XXXX)
 
-[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> | 10 800 140 XXXX <br/> |
+|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
+|Formato (s) de marcado  <br/> | 10 800 140 XXXX <br/> |
 |Código ISO de país o región  <br/> |CN  <br/> |
-|Isla/territorio que abarque  <br/> |Sur de China / solo red de China Netcom  <br/> |
-|Isla o territorio que no están cubierta  <br/> |Norte de China  <br/> |
-|Disponibilidad de la línea con cable o fijo  <br/> |Solo de China Telecom  <br/> |
+|Isla/territorio cubierta  <br/> |Sur de China / solo red de China Netcom  <br/> |
+|Isla/territorio no cubierto  <br/> |Norte de China  <br/> |
+|Disponibilidad de línea fija/por cable  <br/> |Solo de China Telecom  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |No se puede acceder desde teléfonos públicos.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |No se puede acceder desde teléfonos públicos.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

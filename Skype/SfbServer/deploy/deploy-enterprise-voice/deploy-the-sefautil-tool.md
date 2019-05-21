@@ -1,10 +1,10 @@
 ---
-title: Implementar la herramienta SEFAUtil en Skype para la empresa
+title: Implementar la herramienta SEFAUtil en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
-description: Implementación de la herramienta de SEFAUtil de Skype para Business Server.
-ms.openlocfilehash: 0122c2f118bc04cbdc8631e50c688982df16d99a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Implementar la herramienta SEFAUtil en Skype empresarial Server.
+ms.openlocfilehash: 74b9ca6fa10237760e84f859baad5188436ac80e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892639"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303822"
 ---
-# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype para la empresa
+# <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Implementar la herramienta SEFAUtil en Skype empresarial
  
-Implementación de la herramienta de SEFAUtil de Skype para Business Server.
+Implementar la herramienta SEFAUtil en Skype empresarial Server.
   
-Para implementar y administrar recogida de llamadas de grupo, debe usar el Skype para la versión de la herramienta SEFAUtil Business Server. 
+Para implementar y administrar la recogida de llamadas grupales, debes usar la versión de Skype para empresas Server de la herramienta SEFAUtil. 
   
 > [!IMPORTANT]
-> Tiempo de ejecución de Microsoft Unified Communications Managed API (UCMA) 5 debe estar instalado en cualquier equipo donde va a ejecutar la herramienta SEFAUtil. Descargarlo aquí: [Unified Communications Managed API 5.0 en tiempo de ejecución](https://www.microsoft.com/en-us/download/details.aspx?id=47344). También puede descargar el SDK de 5 de UCMA, que incluye el tiempo de ejecución, aquí: [UCMA 5.0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
+> El tiempo de ejecución de la API administrada de comunicaciones unificadas de Microsoft (UCMA) 5 debe instalarse en cualquier equipo en el que tenga previsto ejecutar la herramienta SEFAUtil. Descárguela aquí: [API administrada de comunicaciones unificadas de 5,0 Runtime](https://www.microsoft.com/en-us/download/details.aspx?id=47344). También puede descargar el SDK de UCMA 5, que incluye el tiempo de ejecución, aquí: [UCMA 5,0 SDK](https://www.microsoft.com/en-us/download/details.aspx?id=47345).
   
-Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front-End en su implementación. Para ejecutar la herramienta SEFAUtil debe ejecutar los pasos 1, 2 y 3 de la Skype para el Asistente para la implementación empresarial en el equipo de aplicación de confianza. SEFAUtil requiere estar presente en el almacén de configuración local, así como un certificado.
+Puede ejecutar la herramienta SEFAUtil en cualquier grupo de servidores front-end de su implementación. Para ejecutar la herramienta SEFAUtil, debe ejecutar los pasos 1, 2 y 3 del asistente de implementación de Skype empresarial en el equipo de aplicaciones de confianza. SEFAUtil requiere que el almacén de configuración local esté presente, así como un certificado.
   
 > [!NOTE]
-> Para obtener más información acerca de cómo ejecutar SEFAUtil, vea el artículo del blog, "[cómo obtener SEFAutil ejecutando?](https://go.microsoft.com/fwlink/?LinkId=278940)". 
+> Para obtener más información sobre cómo ejecutar SEFAUtil, consulte el artículo del blog, "[Cómo obtener SEFAUtil Running](https://go.microsoft.com/fwlink/?LinkId=278940)". 
   
 ### <a name="to-deploy-sefautil"></a>Para implementar SEFAUtil
 
-1. Inicie sesión en el equipo donde está instalado Skype para Shell de administración de servidor empresarial como un miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegar permisos de instalación**.
+1. Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.
     
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-3. La herramienta SEFAUtil solo se puede ejecutar en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, definir un grupo de servidores de aplicaciones de confianza para el grupo de servidores Front-End donde va a ejecutar SEFAUtil. En la línea de comandos, ejecute:
+3. La herramienta SEFAUtil solo se puede ejecutar en un equipo que forme parte de un grupo de aplicaciones de confianza. Si es necesario, defina un grupo de aplicaciones de confianza para el grupo de servidores front-end en el que tiene previsto ejecutar SEFAUtil. En la línea de comandos, ejecute:
     
    ```
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > FQDN del grupo: El FQDN del servidor o grupo de servidores que se va a hospedar la aplicación de SEFAUtil (normalmente un Skype para servidor Front-End de negocio o grupo de servidores).
-    > FQDN del registrador del grupo de servidores: El FQDN de la Skype para servidor Front-End de negocio o grupo asociado con este grupo de aplicaciones.
-    > Sitio de grupo de servidores: El identificador de sitio del sitio en el que está hospedado en este grupo de servidores.
+    > FQDN del Grupo: el nombre completo del servidor o grupo de servidores que va a hospedar la aplicación de SEFAUtil (generalmente un servidor o grupo de servidores front-end de Skype empresarial).
+    > FQDN del registrador de grupos: el FQDN del servidor front-end de Skype empresarial o del grupo de servidores asociado a este grupo de aplicaciones.
+    > Sitio de Grupo: el identificador de sitio del sitio en el que se aloja este grupo.
 
 4. Defina la herramienta SEFAUtil como aplicación de confianza. En la línea de comandos, ejecute:
     
@@ -66,7 +66,7 @@ Puede ejecutar la herramienta de SEFAUtil de cualquier grupo de servidores Front
    Enable-CsTopology
    ```
 
-6. Si no lo ha hecho ya, descargue el Skype para la versión de la herramienta SEFAUtil Business Server desde [esta ubicación](https://www.microsoft.com/en-us/download/details.aspx?id=52631)e instale en el grupo de aplicaciones de confianza que creó en el paso 3.
+6. Si todavía no lo ha hecho, descargue la versión de Skype empresarial Server de la herramienta SEFAUtil desde [esta ubicación](https://www.microsoft.com/en-us/download/details.aspx?id=52631)e instálela en el grupo de aplicaciones de confianza que creó en el paso 3.
     
 7. Compruebe que la herramienta SEFAUtil funcione correctamente, tal como se indica: 
     

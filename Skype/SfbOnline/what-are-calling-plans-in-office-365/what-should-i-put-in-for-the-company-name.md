@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,19 +20,19 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoCompanyName
 ms.custom:
 - Calling Plans
-description: 'Qué se debe colocar para la compañía en Skype para la empresa, y dónde se puede encontrar. '
-ms.openlocfilehash: 49b26c5fce7cd11ad5cb2cbdf15f32144198898f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Qué poner para la empresa en Skype empresarial y dónde puede encontrarla. '
+ms.openlocfilehash: 8e85ee977093675a3571315249765cf716c6f7ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229599"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290749"
 ---
 # <a name="what-should-i-put-in-for-the-company-name"></a>¿Qué debería poner para el nombre de la empresa?
 
-Esto es el nombre de su compañía u organización. El nombre de la empresa está limitado a 25 caracteres, lo que incluye espacios. El nombre de la empresa no se usa para procesar la solicitud de orden puerto; se usa en el caso de un litigio o si algo es incorrecto cuando los números de teléfono se que se pongan en puerto. Si no se puede ajustar el nombre completo de la compañía en el cuadro, no retrasar o se cancele el pedido de puerto.
+Este es el nombre de su empresa u organización. El nombre de la empresa tiene un límite de 25 caracteres, que incluye espacios. El nombre de la empresa no se usa para procesar la solicitud de portabilidad. se usa en caso de una disputa o si algo es incorrecto cuando se transfieren los números de teléfono. Si no puede ajustar el nombre completo de la compañía en el cuadro, esta no retrasará ni cancelará la solicitud de portabilidad.
   
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obtener instrucciones paso a paso, consulte [transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
  
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

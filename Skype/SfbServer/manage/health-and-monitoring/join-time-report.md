@@ -1,25 +1,25 @@
 ---
-title: Informe de tiempo de unirse a conferencia en Skype para Business Server
+title: Informe de tiempo de combinación en conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-description: 'Resumen: Obtenga información sobre la conferencia unirse a tiempo informe de resumen en Skype para Business Server.'
-ms.openlocfilehash: 91e1c58d5718f0012e59e5ce2bfb6c53dbfd9c01
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe Resumen de tiempo de combinación de conferencia en Skype empresarial Server.'
+ms.openlocfilehash: a6ded5dad2d55c6c629cd61809c803ee40de862a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897649"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305643"
 ---
-# <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de unirse a conferencia en Skype para Business Server
+# <a name="conference-join-time-report-in-skype-for-business-server"></a>Informe de tiempo de combinación en conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre la conferencia unirse a tiempo informe de resumen en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de Resumen de tiempo de combinación de conferencia en Skype empresarial Server.
   
 El Resumen del tiempo de incorporación a la conferencia permite determinar cuánto tardan los usuarios en unirse a una conferencia. El informe muestra el tiempo de unión promedio (en milisegundos), así como un desglose que permite saber cuántos usuarios pudieron unirse a una conferencia en 2 o menos segundos, cuántos usuarios necesitaron entre 2 y 5 segundos para unirse a la conferencia, etc.
   

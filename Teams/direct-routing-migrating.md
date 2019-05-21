@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: msteams
 localization_priority: Normal
@@ -14,65 +14,65 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-description: Obtenga información sobre lo que necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y perspectiva de la configuración de los equipos.
-ms.openlocfilehash: 995883bd6f62607cd156f82e2c86255bab182303
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Obtenga más información sobre lo que se necesita para migrar a enrutamiento directo desde una perspectiva de configuración de Skype empresarial online y Teams.
+ms.openlocfilehash: c9c8cafdf6e49dc127dee4cb76a92dae13b5c0b9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33401950"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290426"
 ---
 # <a name="migrate-to-direct-routing"></a>Migrar a enrutamiento directo
 
-Este artículo describe lo que se necesita para migrar a enrutamiento directo desde un Skype para profesionales en línea y Microsoft Teams perspectiva de la configuración. En este artículo se trata la migración entre las siguientes opciones: 
+Este artículo describe qué se necesita para migrar al enrutamiento directo desde una perspectiva de configuración de Skype empresarial online y Microsoft Teams. Este artículo trata de la migración de lo siguiente: 
  
-- Planes de sistema de teléfono de Office 365 con llamada (para los equipos y Skype para la empresa en línea) 
-- Sistema de teléfono de Office 365 con conectividad de RTC local en Skype para Business Server (para Skype para la empresa en línea)  
-- Sistema de teléfono de Office 365 con conectividad de RTC local mediante el uso de la edición de conector en la nube (por Skype para profesionales en línea)
+- Sistema telefónico de Office 365 con planes de llamadas (para equipos y Skype empresarial online) 
+- Sistema telefónico de Office 365 con conectividad RTC local en Skype empresarial Server (para Skype empresarial online)  
+- Sistema telefónico de Office 365 con conectividad RTC local con la edición Cloud Connector (para Skype empresarial online)
 
   
-Además de estos pasos de configuración, configuración también es necesario en el controlador de borde de sesión (SBC) para enrutar las llamadas a la nueva ruta. Que está fuera del ámbito de este documento. Para obtener más información, vea la documentación del proveedor SBC.  
+Además de estos pasos de configuración, también se necesita la configuración en el controlador de borde de sesión (SBC) para enrutar las llamadas a la nueva ruta. Que está fuera del ámbito de este documento. Para obtener más información, consulte la documentación del proveedor de SBC.  
 
-## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Estado final de distintas opciones de conectividad de RTC de aprovisionamiento de usuarios 
+## <a name="user-provisioning-end-state-for-various-pstn-connectivity-options"></a>Aprovisionamiento de usuario del estado final de varias opciones de conectividad RTC 
 
-En la siguiente tabla se muestra el estado final para un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el sistema telefónico de Office 365. Se muestran sólo los atributos relevantes para voz.
+En la tabla siguiente se muestra el estado final de un usuario aprovisionado para las opciones de conectividad RTC seleccionadas con el sistema telefónico de Office 365. Solo se muestran los atributos relevantes para la voz.
 
-|Atributos de objeto de usuario |Sistema telefónico con planes de llamada|Phone sistema con local conectividad RTC a través de Skype para Business Server|Sistema de teléfono con local conectividad RTC a través del conector en la nube|Sistema de teléfono con local conectividad RTC a través de enrutamiento directo|
+|Atributos del objeto de usuario |Sistema telefónico con planes de llamadas|Sistema telefónico con conectividad RTC local a través de Skype empresarial Server|Sistema telefónico con conectividad RTC local a través de un conector de nube|Sistema telefónico con conectividad RTC local a través de enrutamiento directo|
 |---|---|---|---|---|
-|Cliente|Skype para profesionales o equipos |Skype Empresarial |Skype Empresarial |Microsoft Teams|
-|Licencias|Profesionales de Skype en línea</br>Plan 2</br></br>MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)</br></br></br>Planes de llamadas</br>Microsoft Teams|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan en línea de negocio de Skype 2 (MCOProfessional o MCOSTANDARD</br></br></br>Sistema telefónico (MCOEV)</br></br>Microsoft Teams|
-OnPremLineURI |N/D|El número de teléfono debe ser sincronizado desde el local AD. |El número de teléfono se puede administrar en Active Directory local o en Active Directory de Azure.|El número de teléfono se puede administrar en Active Directory local o en Active Directory de Azure. Sin embargo, si la organización tiene Skype local para la empresa, el número debe ser sincronizado desde Active Directory local.|
-|LineURI|Número de teléfono de llamada de RTC|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|
+|Cliente|Skype empresarial o Teams |Skype Empresarial |Skype Empresarial |Microsoft Teams|
+|License|Skype empresarial online</br>Plan 2</br></br>MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)</br></br></br>Planes de llamadas</br>Microsoft Teams|Plan 2 de Skype empresarial online (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan 2 de Skype empresarial online (MCOProfessional o MCOSTANDARD)</br></br></br>Sistema telefónico (MCOEV)|Plan 2 de Skype empresarial online (MCOProfessional o MCOSTANDARD</br></br></br>Sistema telefónico (MCOEV)</br></br>Microsoft Teams|
+OnPremLineURI |N/D|El número de teléfono debe sincronizarse desde el anuncio local. |El número de teléfono puede administrarse en Active Directory local o en Azure Active Directory.|El número de teléfono puede administrarse en Active Directory local o en Azure Active Directory. Sin embargo, si la organización tiene Skype empresarial local, el número debe sincronizarse desde Active Directory local.|
+|LineURI|Número de teléfono de llamadas RTC|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|Establecer automáticamente desde el parámetro OnPremLineURI|
 |EnterpriseVoiceEnabled|True|True|True|True|
 |HostedVoiceMail |True|True|True|True|
 |VoicePolicy|BusinessVoice|HybridVoice|HybridVoice|HybridVoice|
-|Hostedvoicemailpolicy, que |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
+|HostedVoiceMailPolicy |BusinessVoice|BusinessVoice|BusinessVoice|BusinessVoice|
 |VoiceRoutingPolicy|Tiene un valor|Tiene un valor|Tiene un valor|N/D|
 |OnlineVoiceRoutingPolicy|$Null|$Null|$Null|Tiene un valor|
-|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly o Islas|$Null|$Null|Islas o TeamsOnly|
-|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient: lea la nota a continuación.|Los equipos o SfB |SfB|SfB|Microsoft Teams|
+|TeamsUpgradePolicy<sup>1</sup>|TeamsOnly, SfBOnly o islas|$Null|$Null|Islas o TeamsOnly|
+|TeamsInterPolicy<sup>2</sup></br>CallingDefaultClient: Lee la nota a continuación.|Teams o SfB |SfB|SfB|Microsoft Teams|
 |TeamsCallingPolicy</br>AllowPrivateCalling|True|N/D|N/D|True|
 |TeamsCallingPolicy</br>AllowGroupCalling|True|N/D|N/D|True|
 ||||||
 
-<sup>1</sup> Elegir el modo de derecho de la TeamsUpgradePolicy depende del escenario. Lea acerca de la experiencia de voz en diferentes modos de [migración e interoperabilidad instrucciones para las organizaciones con equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md).
+<sup>1</sup> Elegir el modo adecuado de la TeamsUpgradePolicy depende del escenario. Obtenga más información sobre la experiencia de voz en diferentes modos de [migración e instrucciones de interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
-<sup>2</sup> Como se ha anunciado anteriormente, TeamsInteropPolicy se deben retirarse (dirigido para el fin de T3) y su funcionalidad se consolidan en TeamsUpgradePolicy. Interoperabilidad y migración se administrarán utilizando "modo de coexistencia" según lo determinado por TeamsUpgradePolicy, que ahora está disponible. Selección del modo de usuario tendrán prioridad ambos enrutamiento de charlas y las llamadas entrantes y en el cliente que el usuario puede iniciar charlas y las llamadas o programar reuniones. Mientras se deben retirarse TeamsInteropPolicy, aún debe establecerse en paralelo con TeamsUpgradePolicy durante el phaseout.  
+<sup>2</sup> Tal como se anunció anteriormente, TeamsInteropPolicy se retirará (se dirigirá al final del tercer trimestre) y su funcionalidad se consolidará en TeamsUpgradePolicy. La interoperabilidad y la migración se administrarán con "modo de coexistencia", según lo determina TeamsUpgradePolicy, que ya está disponible. La selección del modo de usuario regirá el enrutamiento de las llamadas entrantes y los chats y en qué cliente puede iniciar conversaciones y llamar o programar reuniones. Aunque TeamsInteropPolicy se retirará, aún debe estar establecido en paralelo con TeamsUpgradePolicy durante la PhaseOut.  
 
-Como parte de este esfuerzo, Microsoft actualizado recientemente el "Centro de administración de Microsoft Teams" (también conocido como Portal moderno) para reflejar el nuevo modelo de administración en función de los modos de coexistencia. En Portal moderno, configurar TeamsUpgradePolicy realizarán ahora automáticamente también establezca TeamsInteropPolicy en valor coherente, por lo que TeamsInteropPolicy ya no se expone en la interfaz de usuario. Sin embargo, los administradores con PowerShell aún deben establecer TeamsUpgradePolicy tanto TeamsInteropPolicy juntos para garantizar el enrutamiento correcto. Una vez finalizada la transición a TeamsUpgradePolicy, ya no será necesario establecer también TeamsInteropPolicy.
+Como parte de este esfuerzo, Microsoft actualizó recientemente el "centro de administración de Microsoft Teams" (también conocido como portal moderno) para reflejar el nuevo modelo de administración en función de los modos de coexistencia. En el portal moderno, la configuración de TeamsUpgradePolicy ahora también establecerá automáticamente TeamsInteropPolicy en un valor coherente, por lo que TeamsInteropPolicy ya no se expone en la interfaz de usuario. Sin embargo, los administradores que usen PowerShell deben establecer juntos TeamsUpgradePolicy y TeamsInteropPolicy para garantizar el enrutamiento adecuado. Una vez completada la transición a TeamsUpgradePolicy, ya no será necesario establecer TeamsInteropPolicy.
 
-Para obtener más información, consulte [migración e interoperabilidad instrucciones para las organizaciones que utilizan los equipos junto con Skype para la empresa](migration-interop-guidance-for-teams-with-skype.md).
+Para obtener más información, consulte la [Guía de migración e interoperabilidad para las organizaciones que usan Teams junto con Skype empresarial](migration-interop-guidance-for-teams-with-skype.md).
 
-## <a name="migrating-from-calling-plans"></a>Migrar de planes de llamada
+## <a name="migrating-from-calling-plans"></a>Migrar desde planes de llamadas
 
-Para obtener más información sobre la migración de los planes de llamada, vea:
+Para obtener más información sobre cómo migrar desde planes de llamadas, consulte:
 
 - [Configurar planes de llamadas](https://docs.microsoft.com/skypeforbusiness/what-are-calling-plans-in-office-365/set-up-calling-plans)
 - [Set-CsOnlineVoice usuario](https://docs.microsoft.com/powershell/module/skype/Set-CsOnlineVoiceUser?view=skype-ps)
 - [Get-CsOnlineLisLocation](https://docs.microsoft.com/powershell/module/skype/get-csonlinelislocation?view=skype-ps)  
  
  
-Se recomienda que quite información del plan de licencias previouslycconfigured como se indica a continuación:
+Se recomienda quitar la información del plan de licencias de previouslycconfigured de la siguiente manera:
  
 ```
 $companyname = “contoso” 
@@ -81,27 +81,27 @@ $lic2 = $companyname + “:MCOPSTN2”
 Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic1 
 Set-MsolUserLicense -UserPrincipalName <UPN> -RemoveLicenses $lic2 
 ```
-## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Migrar desde el sistema telefónico de Office 365 con conectividad de RTC local en Skype para Business Server
+## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Migración de un sistema telefónico de Office 365 con conectividad RTC local en Skype empresarial Server
 
-Para obtener más información acerca de la migración desde el sistema telefónico con conectividad de RTC local en Skype para Business Server, consulte lo siguiente:
+Para obtener más información sobre cómo migrar desde un sistema telefónico con conectividad RTC local en Skype empresarial Server, consulte lo siguiente:
 
 - [Planeación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-phone-system-with-on-premises-pstn-connectivity)
-- [Implementación de](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
+- [Implementar](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system) 
 
-Se recomienda que quite voz configurado previamente información de enrutamiento de la siguiente manera:
+Se recomienda quitar la información de enrutamiento de voz configurada anteriormente de la siguiente manera:
 
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
 ```
-## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migración desde el sistema telefónico de Office 365 con conectividad de RTC local a través de la nube conector Edition 
+## <a name="migrating-from-office-365-phone-system-with-on-premises-pstn-connectivity-via-cloud-connector-edition"></a>Migración de un sistema telefónico de Office 365 con conectividad RTC local a través de la edición de la nube para Cloud 
 
-Para obtener más información acerca de la migración desde el sistema telefónico con conectividad de RTC local a través del conector en la nube, consulte lo siguiente:
+Para obtener más información sobre cómo migrar desde un sistema telefónico con conectividad RTC local a través del conector de nube, consulte lo siguiente:
 
 - [Planeación](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-skype-for-business-cloud-connector-edition)  
-- [Implementación de](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
+- [Implementar](https://docs.microsoft.com/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-users-for-phone-system)
 - [Configuración de usuario](https://docs.microsoft.com/powershell/module/skype/set-csuserpstnsettings?view=skype-ps) 
 
-Se recomienda que quite voz configurado previamente información de enrutamiento de la siguiente manera:
+Se recomienda quitar la información de enrutamiento de voz configurada anteriormente de la siguiente manera:
  
 ```
 Grant-CsVoiceRoutingPolicy -PolicyName $NULL -Identity <UPN> 
@@ -113,11 +113,11 @@ Set-CsUserPstnSettings -Identity <UPN> -AllowInternationalCalls $false -HybridPS
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](migration-interop-guidance-for-teams-with-skype.md)
 
-[GRANT CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
+[Grant-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csteamsupgradepolicy)
 
 [Get-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Get-CsTeamsUpgradePolicy)
 
-[Nueva CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
+[Nuevo: CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/New-CsTeamsUpgradePolicy)
 
 [Remove-CsTeamsUpgradePolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsTeamsUpgradePolicy)
 

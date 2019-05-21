@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: b597dc28888e4e4f1610d5f095d5df5f757c7c9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: afec19b4d2c4447e3280ac0cb575dd8b904d8cb5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223260"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301505"
 ---
 # <a name="toll-free-dialing-restrictions-in-romania"></a>Restricciones de marcado de número gratuito en Rumania
 
-[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> | 0 800 XXX XXX <br/> |
+|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
+|Formato (s) de marcado  <br/> | 0 800 XXX XXX <br/> |
 |Código ISO de país o región  <br/> |RO  <br/> |
-|Isla/territorio que abarque  <br/> |No aplicable  <br/> |
-|Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
-|Disponibilidad de la línea con cable o fijo  <br/> |Solo de Romtelecom.  <br/> |
+|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
+|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de línea fija/por cable  <br/> |Solo de Romtelecom.  <br/> |
 |Disponibilidad de red móvil  <br/> |Sí. Disponible con tarifa Premium.  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

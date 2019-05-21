@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
@@ -13,22 +13,22 @@ localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente.
-ms.openlocfilehash: c017abec4c71573ba468b2a3fab1c9844e7fe63b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 42390f18bef702b5e7546d170aaa1a83e8394e0e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891855"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300534"
 ---
 # <a name="client-version-policy"></a>Directiva de versión de clientes
 
-Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para que el mayor uso de las características incluidas en Skype para Business Server y para mejorar la experiencia global del usuario, puede usar el filtro de versiones de cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
+Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para aprovechar al máximo las características incluidas en Skype empresarial Server y mejorar la experiencia general del usuario, puede usar el filtro de versión del cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
 En la página **Directiva de versión de cliente** puede realizar las siguientes tareas:
 
-- Editar la directiva de versión de cliente predeterminada ( **Global**).
+- Edite la Directiva de versión de cliente predeterminada ( **global**).
 
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
 
@@ -41,7 +41,7 @@ En la página **Directiva de versión de cliente** puede realizar las siguientes
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
 
-- **Nuevo** Puede crear uno o varios de cada una de las siguientes directivas de versión de cliente:
+- **Nuevo** Puede crear una o varias de las siguientes directivas de versión de cliente:
 
   - Directiva de sitio
 
@@ -55,9 +55,9 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
   - **Seleccionar todo** Esta opción selecciona todas las directivas de versión de cliente de la lista.
 
-  - **Eliminar** Esta opción elimina todas las directivas de versión de cliente seleccionada.
+  - **Eliminar** Esta opción elimina todas las directivas de versión de cliente seleccionadas.
 
 - **Actualizar** Puede actualizar la lista de directivas de versión de cliente para comprobar el estado de las opciones de todas las directivas de versión de cliente.
 
-Para obtener información detallada acerca de la interoperabilidad entre clientes y versiones de cliente, consulte [Interoperabilidad del cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para más detalles sobre cómo trabajar con las directivas de versión de cliente, mire [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) en la documentación de operaciones.
+Para obtener más información sobre la interoperabilidad entre los clientes y las versiones de cliente, consulte interoperabilidad de [cliente](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planificación. Para más detalles sobre cómo trabajar con las directivas de versión de cliente, mire [Specify the Client Versions Supported in Your Organization](https://technet.microsoft.com/library/d256a581-9a48-4d1a-82cc-2e1f520d7d2e.aspx) en la documentación de operaciones.
 

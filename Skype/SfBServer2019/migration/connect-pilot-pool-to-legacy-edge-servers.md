@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Después de la implementación de Skype para 2019 de servidor empresarial, debe configurar una ruta de federación para su sitio. Para poder usar la ruta federada que está siendo utilizada por la instalación heredada, Skype para Business Server 2019 debe configurarse para utilizar esta ruta.
-ms.openlocfilehash: 5a3498041b4af762d184cd56e3883a90612b13e0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Después de implementar Skype empresarial Server 2019, debe configurar una ruta de Federación para el sitio. Para poder usar la ruta federada que usa la instalación heredada, Skype empresarial Server 2019 debe estar configurado para usar esta ruta.
+ms.openlocfilehash: 20aacda86c6c49b319859d6f1c175ce6258caddb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238671"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288631"
 ---
 # <a name="connect-pilot-pool-to-legacy-edge-servers"></a>Conecte el grupo de servidores piloto a los servidores perimetrales heredados
 
-Después de la implementación de Skype para 2019 de servidor empresarial, debe configurar una ruta de federación para su sitio. Para poder usar la ruta federada que está siendo utilizada por la instalación heredada, Skype para Business Server 2019 debe configurarse para utilizar esta ruta. 
+Después de implementar Skype empresarial Server 2019, debe configurar una ruta de Federación para el sitio. Para poder usar la ruta federada que usa la instalación heredada, Skype empresarial Server 2019 debe estar configurado para usar esta ruta. 
   
-Para habilitar la Skype para Business Server 2019 sitios usar el Director y el servidor perimetral de la implementación heredada, use el generador de topología para asociar el grupo de servidores perimetrales heredado.
+Para permitir que el sitio de Skype empresarial Server 2019 use el director y el servidor perimetral de la implementación heredada, use el generador de topología para asociar el grupo perimetral heredado.
   
-### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para asociar el grupo de servidores perimetrales heredado mediante el generador de topología
+### <a name="to-associate-the-legacy-edge-pool-by-using-topology-builder"></a>Para asociar el grupo perimetral heredado mediante el generador de topología
 
-1. Abra el generador de topología. 
+1. Abra el generador de topologías. 
     
-2. Seleccione su sitio, que se encuentra justo debajo del nodo de **Skype para Business Server** . 
+2. Seleccione su sitio, que se encuentra directamente debajo del nodo **de Skype empresarial Server** . 
     
 3. En el menú **acciones** , haga clic en **Editar propiedades**.
     
-4. En el panel izquierdo, seleccione **ruta de federación**.
+4. En el panel de la izquierda, seleccione **ruta de Federación**.
     
-5. En **asignación de ruta de federación de sitio**, seleccione **Habilitar federación SIP**y, a continuación, seleccione el Director heredado o el servidor perimetral heredado si se muestra ningún Director.
+5. En **asignación**de la ruta de Federación de sitios, seleccione **Habilitar Federación SIP**y, a continuación, seleccione el director heredado o el servidor perimetral heredado si no se muestra ningún director.
   
 6. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** . 
     
-7. En el generador, bajo el Skype para Business Server 2019 nodo, desplácese hasta el **servidor Standard Edition** o **grupos de servidores Front-End de Enterprise Edition**, (ratón) en el grupo de servidores y, a continuación, haga clic en **Editar propiedades**.
+7. En el generador de topologías, en el nodo de Skype empresarial Server 2019, vaya a los grupos de servidores **Standard Edition** o **Enterprise Edition**, haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.
     
-8. En **asociaciones**, active la casilla de verificación situada junto a **grupo de servidores perimetrales asociados (para componentes multimedia)**. 
+8. En **asociaciones**, active la casilla situada junto a **asociar grupo perimetral (para componentes multimedia)**. 
     
 9. En la lista, seleccione el servidor perimetral heredado. 
   
 10. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** . 
     
-11. En **El generador de topología**, seleccione el nodo de nivel superior, **Skype para Business Server**.
+11. En el **generador**de topologías, seleccione el nodo de nivel superior, **Skype empresarial Server**.
     
-12. En el menú **acción** , haga clic en **Publicar topología**y, a continuación, haga clic en **siguiente**.
+12. En el menú **acción** , haga clic en **publicar topología**y, a continuación, haga clic en **siguiente**.
     
-13. Cuando se complete el **Asistente para la publicación** , haga clic en **Finalizar**.
+13. Cuando finalice el **Asistente para la publicación** , haga clic en **Finalizar**.
     
 

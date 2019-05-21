@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 'Resumen: Revise las consideraciones de componente de red a continuación antes de implementar Skype para Business Server.'
-ms.openlocfilehash: edb7e416eb2e841c910a8073611bf259194747fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Revise las consideraciones del componente de red a continuación antes de implementar Skype empresarial Server.'
+ms.openlocfilehash: 56e8b00a4b662d19fd928b439ae8fafb7bcbdb3d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916850"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297039"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Plan network requirements for Skype for Business
 
-**Resumen:** Revise las consideraciones de componente de red a continuación antes de implementar Skype para Business Server.
+**Resumen:** Revise las consideraciones del componente de red a continuación antes de implementar Skype empresarial Server.
 
-La información en estos temas también se describe en las notas del producto [Planificación de red, supervisión y solucionar problemas con Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) con detalles adicionales y profundidad. Mientras que el contenido se refiere explícitamente a Lync 2010 y Lync 2013, las consideraciones de Skype para Business Server son sin cambios.
+La información de estos temas también se trata en el informe sobre la [planificación, la supervisión y la solución de problemas de la red de Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido se refiere explícitamente a Lync 2010 y a Lync 2013, las consideraciones para Skype empresarial Server no cambian.
 
-[Del mismo modo, si trata de la red wi-fi, así como acceso por cable, las notas del producto ofrecer Lync 2013 en tiempo real comunicaciones a través de Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) es una buena referencia y es igualmente aplicable a Skype para Business Server.
+Del mismo modo, si su red incluye Wi-Fi y acceso por cable, el artículo técnico que [ofrece las comunicaciones en tiempo real de Lync 2013 a través de Wi-Fi](https://www.microsoft.com/en-us/download/details.aspx?id=36494) es una buena referencia y también se aplica a Skype empresarial Server.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -35,45 +35,45 @@ Network performance and needs are directly linked to the traffic load placed on 
 ## <a name="server-hardware"></a>Hardware de servidor
 <a name="S_hard"> </a>
 
-El adaptador de red de cada servidor en el Skype para la topología de Business Server debe admitir al menos 1 gigabit por segundo (Gbps). En general, debería conectar todas las funciones de servidor dentro de la Skype para topología Business Server usando una baja latencia y ancho de banda alto red local (LAN). El tamaño de la LAN depende del tamaño de la topología:
+El adaptador de red de cada servidor de la topología de Skype empresarial Server debe admitir al menos 1 Gigabit por segundo (Gbps). En general, debe conectar todos los roles de servidor dentro de la topología de servidor de Skype empresarial con una red de área local (LAN) de baja latencia y ancho de banda alto. El tamaño de la LAN depende del tamaño de la topología:
 
-- En las topologías de Standard Edition, los servidores deberían estar en una red que admita Ethernet de 1 Gbps o equivalente.
+- En las topologías de Standard Edition, los servidores deben estar en una red que admita 1 Gbps de Ethernet o equivalente.
 
-- En las topologías de Enterprise Edition, la mayoría de los servidores debería estar en una red que admita más de 1 Gbps, especialmente cuando se admiten audio y vídeo (A / V) conferencia y uso compartido de aplicaciones.
+- En las topologías de Enterprise Edition, la mayoría de los servidores deberían estar en una red que admita más de 1 Gbps, especialmente cuando se admiten conferencias de audio/vídeo (A/V) y uso compartido de aplicaciones.
 
 Para la integración de la red telefónica conmutada (RTC), puede usar líneas T1/E1 o enlaces troncales SIP.
 
 ## <a name="audiovideo-network-requirements"></a>Requisitos de red para el audio y vídeo
 <a name="AV_req"> </a>
 
-Requisitos de red para audio y vídeo (A / V) en un Skype para Business Server implementación incluyen los siguientes:
+Entre los requisitos de red para audio/vídeo (A/V) en una implementación de Skype empresarial Server se incluyen los siguientes:
 
-- Si va a implementar un solo servidor perimetral o un grupo perimetral mediante el equilibrio de carga de DNS, puede configurar el firewall _externo_ para realizar la traducción de direcciones de red (NAT). No puede configurar el firewall _internal_ para llevar a cabo NAT. Para obtener información detallada, vea [planeación de firewall y puerto](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
+- Si implementa un único servidor perimetral o un grupo de límites mediante el equilibrio de carga de DNS, puede configurar el Firewall _externo_ para realizar la traducción de direcciones de red (NAT). No puede configurar el firewall _internal_ para llevar a cabo NAT. Para obtener más información, consulte [planificación de puertos y firewalls](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
-    > Si tiene un grupo de servidores perimetrales y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en los servidores perimetrales y no se puede utilizar NAT para los servidores o el grupo de servidores en su dispositivo compatible con NAT (por ejemplo, un dispositivo de firewall o cambiar de LAN. Para obtener más información, vea [escenarios de servidor perimetral de Skype para Business Server](../edge-server-deployments/scenarios.md).
+    > Si tiene un grupo perimetral y usa un equilibrador de carga de hardware, debe usar direcciones IP públicas en los servidores perimetrales y no puede usar NAT para los servidores o el grupo en el dispositivo compatible con NAT (por ejemplo, un dispositivo de firewall o un conmutador LAN. Para obtener más información, consulte [escenarios de servidores perimetrales en Skype empresarial Server](../edge-server-deployments/scenarios.md).
 
 - Si la organización usa una infraestructura QoS (Calidad de servicio), el subsistema de medios estará diseñado de modo que funcione con esta infraestructura existente.
 
-- Si usa el protocolo de seguridad de Internet (IPsec), recomendamos deshabilitar IPsec en los intervalos de puertos usados para el tráfico de audio y vídeo. Para obtener más información, vea [excepciones de IPsec](#ipsec-exceptions).
+- Si usa el protocolo de seguridad de Internet (IPsec), recomendamos deshabilitar IPsec en los intervalos de puertos usados para el tráfico de audio y vídeo. Para obtener más información, consulte [excepciones de IPSec](#ipsec-exceptions).
 
 Para proporcionar una calidad óptima de los medios, siga este procedimiento:
 
-- Aprovisione los vínculos de red para admitir un rendimiento de 65 kilobits por segundo (Kbps) por secuencia de audio y 500 Kbps por secuencia de vídeo (en caso de estar habilitados) durante los períodos de uso máximo. Una sesión bidireccional de audio o de vídeo usa dos secuencias, por lo que una conexión de audio o de vídeo necesitará 130 Kbps para cubrir cada secuencia. Vídeo del mismo modo usará 1000 Kbps total para llevar a cabo una conexión ascendente y descendente.
+- Aprovisione los vínculos de red para admitir un rendimiento de 65 kilobits por segundo (Kbps) por secuencia de audio y 500 Kbps por secuencia de vídeo (en caso de estar habilitados) durante los períodos de uso máximo. Una sesión bidireccional de audio o de vídeo usa dos secuencias, por lo que una conexión de audio o de vídeo necesitará 130 Kbps para cubrir cada secuencia. El vídeo también usará el total de 1000 kbps para transportar una conexión de entrada y salida.
 
-- Para afrontar los picos inesperados en el tráfico y aumentar el uso con el tiempo, Skype para los extremos de medios de Business Server puede adaptarse a las diferentes condiciones de red y compatibilidad con tres veces el rendimiento de audio y vídeo al tiempo que mantiene una calidad aceptable. Pero, no se puede dar por sentado que esta capacidad de adaptación enmascarará el problema cuando una red esté mal aprovisionada. En una red aprovisionada bajo, se reduce la capacidad de la Skype para los extremos de medios de Business Server abordar los problemas dinámicamente con condiciones de red variables (por ejemplo, pérdida de paquetes alta temporal).
+- Para hacer frente a picos inesperados en el tráfico y aumentar el uso a lo largo del tiempo, los puntos de conexión multimedia de Skype empresarial Server pueden adaptarse a condiciones de red variables y admitir tres veces el rendimiento de audio y vídeo sin perder calidad aceptable. Pero, no se puede dar por sentado que esta capacidad de adaptación enmascarará el problema cuando una red esté mal aprovisionada. En una red de aprovisionamiento desproporcionado, la capacidad de los puntos de conexión multimedia de Skype empresarial Server para tratar dinámicamente con diversas condiciones de la red (por ejemplo, pérdida de paquetes temporales elevadas) se ha reducido.
 
-- En el caso de los vínculos de red en los que el aprovisionamiento resulta muy costoso y difícil, puede que se vea obligado a considerar un aprovisionamiento para un volumen de tráfico menor. En este escenario, permiten la elasticidad de la Skype para los extremos de medios de Business Server absorber la diferencia entre el volumen de tráfico y el nivel de tráfico máximo, a costa de algunos de reducción de la calidad de voz. También habrá una disminución en el margen que normalmente está disponible para absorber los picos de tráfico repentinos.
+- En el caso de los vínculos de red en los que el aprovisionamiento resulta muy costoso y difícil, puede que se vea obligado a considerar un aprovisionamiento para un volumen de tráfico menor. En este escenario, deje que la elasticidad de los puntos de conexión multimedia de Skype empresarial Server absorba la diferencia entre el volumen de tráfico y el nivel de tráfico máximo, a costa de reducir la calidad de la voz. También habrá una disminución en el margen que normalmente está disponible para absorber los picos de tráfico repentinos.
 
 - En el caso de los vínculos que no se pueden aprovisionar correctamente a corto plazo (por ejemplo, un sitio con vínculos WAN de muy poca calidad), considere la posibilidad de deshabilitar el vídeo para algunos usuarios.
 
-- Aprovisione la red para asegurar un retraso máximo de un extremo a otro (latencia) de 150 milisegundos (ms) con carga máxima. La latencia es el deterioro de una red que no se puede reducir Skype para componentes multimedia de Business Server y es importante buscar y eliminar los puntos débiles.
+- Aprovisione la red para asegurar un retraso máximo de un extremo a otro (latencia) de 150 milisegundos (ms) con carga máxima. Latencia es el posible deterioro de la red que los componentes multimedia de Skype empresarial Server no pueden reducir y es importante buscar y eliminar los puntos débiles.
 
-- Para los servidores que ejecutan software antivirus, incluir todos los servidores que ejecutan Skype para Business Server en la lista de excepciones para proporcionar un rendimiento óptimo y una calidad de audio.
+- En el caso de los servidores que ejecutan software antivirus, incluya todos los servidores que ejecutan Skype empresarial Server en la lista de excepciones para proporcionar un rendimiento óptimo y una calidad de audio.
 
 ## <a name="ipsec-exceptions"></a>Excepciones de IPsec
 
-Para las redes empresariales donde la seguridad de protocolo Internet (IPsec) (vea IETF RFC 4301-4309) se ha implementado, IPsec debe estar deshabilitado en el intervalo de puertos utilizado para la entrega de audio, vídeo y vídeo panorámico. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios por la negociación de IPsec.
+En el caso de redes empresariales en las que se ha implementado la seguridad de protocolo de Internet (consulte IETF RFC 4301-4309), debe deshabilitarse IPsec en el rango de puertos que se usan para la entrega de video de audio, vídeo y panorámica. Esta recomendación se fundamenta en la necesidad de evitar retrasos en la asignación de los puertos de medios por la negociación de IPsec.
 
 En la siguiente tabla se detalla la configuración de las excepciones de IPsec recomendadas.
 
@@ -102,17 +102,17 @@ En la siguiente tabla se detalla la configuración de las excepciones de IPsec r
 ## <a name="conferencing-network-requirements"></a>Requisitos de red de la conferencia
 <a name="Conf_req"> </a>
 
-El ancho de banda usado para descargar el contenido de la conferencia desde el servidor de Internet Information Services (IIS) depende del tamaño del contenido. Puede optar por supervisar el uso real y ajustar la planeación del ancho de banda según convenga.
+El ancho de banda que se usa para descargar el contenido de la Conferencia del servidor de Internet Information Services (IIS) depende del tamaño del contenido. Puede optar por supervisar el uso real y ajustar la planeación del ancho de banda según convenga.
 
 ## <a name="network-bandwidth-requirements-for-media-traffic"></a>Requisitos de ancho de banda de red para el tráfico multimedia
 <a name="Conf_req"> </a>
 
-Una parte importante de la planeación de la red es asegurarse de que su red puede controlar el tráfico de medios generado por Skype para Business Server. Esta sección le ayudará a planear dicho tráfico multimedia.
+Una parte importante de la planificación de la red es asegurarse de que la red puede controlar el tráfico multimedia generado por Skype empresarial Server. Esta sección le ayudará a planear dicho tráfico multimedia.
 
 ### <a name="media-traffic-network-usage"></a>Uso de red de tráfico de medios
 <a name="Net_req"> </a>
 
-El uso del ancho de banda de tráfico multimedia puede resultar difícil de calcular por la cantidad de variables distintas, como el uso de códecs, la resolución y los niveles de actividad. El uso del ancho de banda es una función del códec usado y la actividad de la secuencia, y ambos pueden variar entre escenarios. En la siguiente tabla se enumera los códecs de audio que se suelen usados en Skype para escenarios de Business Server.
+El uso del ancho de banda de tráfico multimedia puede resultar difícil de calcular por la cantidad de variables distintas, como el uso de códecs, la resolución y los niveles de actividad. El uso del ancho de banda es una función del códec usado y la actividad de la secuencia, y ambos pueden variar entre escenarios. En la siguiente tabla se enumeran los códecs de audio que se usan normalmente en escenarios de Skype empresarial Server.
 
 **Ancho de banda del códec de audio**
 
@@ -127,10 +127,10 @@ El uso del ancho de banda de tráfico multimedia puede resultar difícil de calc
 |Banda ancha SILK  <br/> |Punto a punto  <br/> |36,0  <br/> |52,0  <br/> |64,0  <br/> |100,0  <br/> |
 |Banda ancha SILK  <br/> |Punto a punto  <br/> |26,0  <br/> |42,0  <br/> |54,0  <br/> |80,0  <br/> |
 |Banda ancha SILK  <br/> |Punto a punto  <br/> |20,0  <br/> |36,0  <br/> |48,0  <br/> |68,0  <br/> |
-|SEDA banda ancha/banda estrecha  <br/> |Punto a punto  <br/> |13,0  <br/> |29,0  <br/> |41,0  <br/> |54,0  <br/> |
+|Banda ancha/banda estrecha de seda  <br/> |Punto a punto  <br/> |13,0  <br/> |29,0  <br/> |41,0  <br/> |54,0  <br/> |
 
 > [!NOTE]
-> Las llamadas RTC desde el Skype para clientes empresariales suelen utilizan el códec G.711, lo cual requiere un ancho de banda alto. Si no está disponible para dicho códec suficiente ancho de banda, a continuación, pueden producirse un error de las llamadas con un error similar al siguiente en los registros de medios: **al menos debe habilitarse uno códec, recursos humanos: c0042004**. Registros multimedia (archivos .blog) están cifrados y sólo pueden descodificar personal de soporte técnico de Microsoft.
+> Las llamadas RTC desde el cliente de Skype empresarial suelen usar el códec G. 711, que requiere un ancho de banda alto. Si no hay suficiente ancho de banda disponible para ese códec, las llamadas pueden fallar con un error similar al siguiente en los registros de medios: al **menos un códec debe estar habilitado, HR: c0042004**. Los registros de medios (archivos. blog) están cifrados y solo pueden ser descodificados el personal de soporte técnico de Microsoft.
 
 Las cantidades del ancho de banda de la tabla anterior se basan en los paquetes de 20 ms (50 paquetes por segundo) y para los códecs Siren y G.722 se incluyen las sobrecargas adicionales del protocolo de transporte seguro en tiempo real (SRTP) de los escenarios de conferencia y asumen que la secuencia está 100 % activa. La corrección de error de reenvío (FEC) se utiliza de forma dinámica cuando existe una pérdida de paquetes en el vínculo para ayudar a mantener la calidad de la secuencia de audio.
 
@@ -140,27 +140,27 @@ La versión estéreo del códec G.722 se utiliza en los sistemas basados en el s
 
 |**Códec de vídeo**|**Resolución y relación de aspecto**|**Velocidad de bits máxima de carga de vídeo (Kbps)**|**Velocidad de bits mínima de carga de vídeo (Kbps)**|
 |:-----|:-----|:-----|:-----|
-|H.264  <br/> |320 x 180 (16:9)  <br/> 212 x 160 (4:3)  <br/> |250  <br/> |15  <br/> |
-|H.264/RTVideo  <br/> |424 x 240 (16:9)  <br/> 320 x 240 (4:3)  <br/> |350  <br/> |100  <br/> |
+|H.264  <br/> |320 x 180 (16:9)  <br/> 212 x 160 (4:3)  <br/> |250  <br/> |4,5  <br/> |
+|H.264/RTVideo  <br/> |424x240 (16:9)  <br/> 320 x 240 (4:3)  <br/> |350  <br/> |100  <br/> |
 |H.264  <br/> |480 x 270 (16:9)  <br/> 424 x 320 (4:3)  <br/> |450  <br/> |200  <br/> |
 |H.264/RTVideo  <br/> |640 x 360 (16:9)  <br/> 640 x 480 (4:3)  <br/> |800  <br/> |300  <br/> |
 |H.264  <br/> |848 x 480 (16:9)  <br/> |1500  <br/> |400  <br/> |
 |H.264  <br/> |960 x 540 (16:9)  <br/> |2000  <br/> |500  <br/> |
 |H.264/RTVideo  <br/> |1280 x 720 (16:9)  <br/> |2500  <br/> |700  <br/> |
 |H.264  <br/> |1920 x 1080 (16:9)  <br/> |4000  <br/> |1500  <br/> |
-|H.264/RTVideo  <br/> |960 x 144 (20:3)  <br/> |500  <br/> |15  <br/> |
+|H.264/RTVideo  <br/> |960 x 144 (20:3)  <br/> |500  <br/> |4,5  <br/> |
 |H.264  <br/> |1280 x 192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920 x 288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
-Para el vídeo, el códec predeterminado es el estándar de codificación de vídeo avanzado H.264/MPEG-4 Parte 10, junto con sus extensiones de codificación de vídeo escalable. Para mantener la interoperabilidad con los clientes heredados, el códec de RTVideo aún se usa para las llamadas de punto a punto entre Skype para Business Server y los clientes heredados. En las sesiones de conferencia con ambos Skype para Business Server y los clientes heredados el Skype para Business Server extremo puede codificar el vídeo con ambos códecs de vídeo y enviar la secuencia de bits H.264 para el Skype para los clientes de Business Server y la secuencia de bits RTVideo a heredado clientes.
+Para el vídeo, el códec predeterminado es el estándar de codificación de vídeo avanzado H.264/MPEG-4 Parte 10, junto con sus extensiones de codificación de vídeo escalable. Para mantener la interoperabilidad con clientes heredados, el códec RTVideo se usa para llamadas de punto a punto entre Skype empresarial Server y clientes heredados. En sesiones de conferencia con Skype empresarial Server y clientes heredados, el punto de conexión de Skype empresarial Server puede codificar el video con ambos códecs de vídeo y enviar el H. 264 Bitstream a los clientes de Skype empresarial Server y el RTVideo Bitstream a Legacy cliente.
 
 El ancho de banda necesario depende de la resolución, la calidad, la velocidad de fotogramas y los movimientos o cambios de la imagen. Para cada resolución existen dos secuencias de bits interesantes:
 
-- **Velocidad de bits de carga máximo** Se trata de la velocidad de bits que un extremo usará para la resolución a la velocidad de fotogramas máxima. Es el valor que permite la máxima calidad de vídeo y de sonido.
+- **Tasa de bits de carga máxima** Esta es la velocidad de bits que un extremo usará para la resolución a la velocidad máxima de fotogramas. Es el valor que permite la máxima calidad de vídeo y de sonido.
 
-- **Velocidad de bits de carga mínimo** Se trata de la velocidad de bits por debajo del cual un Skype para extremo Business Server cambiará a la siguiente resolución más baja. Para garantizar una determinada resolución, la velocidad de bits de carga de vídeo disponible no tiene que ser menor que esta velocidad de bits mínima para dicha resolución. Este valor le ayuda a comprender el valor mínimo posible en los casos en los que la velocidad de bits máxima no está disponible o no resulta práctica. Para algunos usuarios, esta baja velocidad de bits de vídeo puede considerarse una experiencia de vídeo no aceptable, por lo que aconsejamos precaución al considerar estas velocidades de bits mínimas de vídeo. Tenga en cuenta que en las escenas de vídeo estáticas o invariables, la velocidad de bits real puede descender temporalmente por debajo de la velocidad de bits mínima.
+- **Tasa mínima de bits de carga** Esta es la tarifa de bits por debajo de la cual un extremo de Skype empresarial Server cambiará a la siguiente resolución más baja. Para garantizar una determinada resolución, la velocidad de bits de carga de vídeo disponible no tiene que ser menor que esta velocidad de bits mínima para dicha resolución. Este valor le ayuda a comprender el valor mínimo posible en los casos en los que la velocidad de bits máxima no está disponible o no resulta práctica. Para algunos usuarios, esta baja velocidad de bits de vídeo puede considerarse una experiencia de vídeo no aceptable, por lo que aconsejamos precaución al considerar estas velocidades de bits mínimas de vídeo. Tenga en cuenta que en las escenas de vídeo estáticas o invariables, la velocidad de bits real puede descender temporalmente por debajo de la velocidad de bits mínima.
 
-Skype para Business Server admite muchas resoluciones. Esto permite Skype para Business Server para que se ajuste al ancho de banda de red distinta y recepción de las capacidades del cliente. La relación de aspecto predeterminada de Skype para Business Server es de 16:9. La relación de aspecto 4:3 heredado sigue siendo compatible con cámaras Web que no permite la captura en la relación de aspecto 16:9.
+Skype empresarial Server admite numerosas soluciones. Esto permite que Skype empresarial Server se ajuste a diferentes anchos de banda de red y funciones de cliente de recepción. La relación de aspecto predeterminada de Skype empresarial Server es 16:9. La relación de aspecto de 4:3 heredada aún se admite para cámaras Web que no permiten la captura en la relación de aspecto de 16:9.
 
 La FEC de vídeo siempre se incluye en la velocidad de bits de carga de vídeo cuando se usa para que no existan valores independientes con la FEC de vídeo y sin esta.
 
@@ -182,7 +182,7 @@ En un escenario de conferencias:
 
 - Si se utiliza el vídeo, los participantes pueden recibir hasta cinco secuencias de vídeo de recepción y una panorámica (por ejemplo, con una relación de aspecto de 20:3). De forma predeterminada, las cinco secuencias de vídeo de recepción se basan en el historial de hablantes activos, pero los usuarios también pueden seleccionar de forma manual los participantes de los que desean recibir una secuencia de vídeo. Si el multivídeo está habilitado, los requisitos de resolución y de ancho de banda de cada secuencia de vídeo serán menores.
 
-- Cada participante que activa el usuario enviar la secuencia de vídeo enviará una o varias secuencias de vídeo. Skype para Business Server tiene la capacidad de enviar secuencias de vídeo hasta cinco para optimizar la calidad de vídeo para todos los clientes receptora. La cantidad real de secuencias de vídeo que se envía automáticamente está determinado por quien envía, según la capacidad de la CPU, ancho de banda ascendente disponible y la cantidad de recibir clientes que solicitan cierta secuencia de vídeo. El caso más común es el de H.264 y una secuencia de vídeo de RTVideo se envían en caso de que un cliente heredado se una a la conferencia. Otro escenario común es que varias secuencias de vídeo H.264 (por ejemplo, con resoluciones de vídeo diferente) se envían para acomodar diferentes solicitudes de receptor.
+- Cada participante que enciende la secuencia de envío de vídeo del usuario enviará una o varias transmisiones de vídeo. Skype empresarial Server tiene la capacidad de enviar hasta cinco videollamadas para optimizar la calidad de video para todos los clientes receptores. La cantidad real de secuencias de vídeo que se envía automáticamente está determinado por quien envía, según la capacidad de la CPU, ancho de banda ascendente disponible y la cantidad de recibir clientes que solicitan cierta secuencia de vídeo. El caso más común es el de H.264 y una secuencia de vídeo de RTVideo se envían en caso de que un cliente heredado se una a la conferencia. Otro escenario común es que varias secuencias de vídeo H.264 (por ejemplo, con resoluciones de vídeo diferente) se envían para acomodar diferentes solicitudes de receptor.
 
 Además del ancho de banda necesario para el tráfico del protocolo de transporte seguro en tiempo real (RTP) para los medios de audio o vídeo, el ancho de banda es necesario para el protocolo de control de transporte en tiempo real (RTCP). El RTCP se utiliza para informar de estadísticas y del control fuera de banda de la secuencia RTP. Para la planificación, use los números del ancho de banda de la tabla siguiente para el tráfico RTCP. Estos valores representan el ancho de banda máximo usado para RTCP y difieren entre las secuencias de audio y vídeo por las diferencias en los datos de control.
 
@@ -191,16 +191,16 @@ Además del ancho de banda necesario para el tráfico del protocolo de transport
 |**Media**|**Ancho de banda máximo RTCP (Kbps)**|
 |:-----|:-----|
 |Audio  <br/> |5  <br/> |
-|Vídeo (solo se envía/recibe H.264 o RTVideo)  <br/> |10  <br/> |
-|Vídeo (se envía/recibe H.264 y RTVideo)  <br/> |15  <br/> |
+|Vídeo (solo se envía/recibe H.264 o RTVideo)  <br/> |base10  <br/> |
+|Vídeo (se envía/recibe H.264 y RTVideo)  <br/> |4,5  <br/> |
 
 Para la planeación de la capacidad, las dos estadísticas siguientes son de interés:
 
-- **Ancho de banda máximo sin FEC** El ancho de banda máximo que consumirá una secuencia. Esto incluye la actividad típicos de la secuencia y el códec típico que se usa en el escenario sin esta. Esto es el ancho de banda cuando la secuencia está en actividad del 100% y no hay ninguna pérdida de paquetes desencadenar el uso de esta. Esto es útil para calcular cuánto ancho de banda debe ser asignado para permitir que el códec para usarse en un escenario determinado. FEC no se espera que un requisito en una red administrada.
+- **Ancho de banda máximo sin FEC** El ancho de banda máximo que consumirá una secuencia. Esto incluye la actividad típica de la secuencia y el códec típico que se usa en el escenario sin FEC. Este es el ancho de banda cuando la transmisión está al 100% de actividad y no hay pérdida de paquetes que activen el uso de FEC. Esto es útil para calcular la cantidad de ancho de banda que se debe asignar para permitir que el códec se use en un escenario determinado. No se espera que FEC sea un requisito en una red administrada.
 
-- **Ancho de banda máximo con FEC** El ancho de banda máximo que consume una secuencia. Esto incluye la actividad típicos de la secuencia y el códec típico que se usa en el escenario con esta. Esto es el ancho de banda cuando la secuencia está en actividad del 100% y hay desencadenar el uso de FEC para mejorar la calidad de pérdida de paquetes. Esto es útil para calcular cuánto ancho de banda debe ser asignado para permitir que el códec para usarse en un escenario determinado y permitir el uso de FEC para conservar la calidad en condiciones de pérdida de paquetes.
+- **Ancho de banda máximo con FEC** El ancho de banda máximo que consume una secuencia. Esto incluye la actividad típica de la secuencia y el códec típico que se usa en el escenario con FEC. Este es el ancho de banda cuando la transmisión está al 100% de actividad y se produce una pérdida de paquetes al activar el uso de FEC para mejorar la calidad. Esto es útil para calcular la cantidad de ancho de banda que se debe asignar para permitir que el códec se use en un escenario determinado y permitir el uso de FEC para preservar la calidad en condiciones de pérdida de paquetes.
 
-Las siguientes tablas incluyen también un valor de ancho de banda adicional, **ancho de banda típico**. Este es el ancho de banda medio que consume una secuencia. Esto incluye la actividad típicos de la secuencia y el códec típico que se usa en el escenario. Este ancho de banda puede usarse para aproximar cuánto ancho de banda consumida por el tráfico de medios en un momento determinado, pero no debe usarse para planear la capacidad, debido a que las llamadas individuales superan este valor cuando el nivel de actividad es mayor que el promedio. El ancho de banda de secuencia de vídeo típica en las tablas siguientes se basa en una combinación de diferentes resoluciones de vídeo observada en los datos de cliente medido, y las instalaciones más pequeñas están probables que tienen números reales que difieren de la tabla de datos. Por ejemplo, en las sesiones de punto a punto que mayoría de los usuarios usaría el vídeo predeterminado representar ventana mientras que algunos porcentaje de usuarios debería aumentar o maximizar la Skype para aplicación Business Server permitir una mejor resoluciones de vídeo.
+En las siguientes tablas también se muestra un valor de ancho de banda adicional, un **ancho de banda típico**. Este es el ancho de banda medio que consume una secuencia. Esto incluye la actividad típica de la secuencia y el códec típico que se usa en el escenario. Este ancho de banda se puede usar para aproximar cuánto ancho de banda se está consumiendo por el tráfico multimedia en un momento específico, pero no se debe usar para planear la capacidad, porque las llamadas individuales superarán este valor cuando el nivel de actividad es mayor que el promedio. El ancho de banda de la secuencia de vídeo típica de las tablas siguientes se basa en una combinación de diferentes resoluciones de video, como se observa en los datos medidos de los clientes, y es probable que las instalaciones más pequeñas tengan números reales que difieran de los datos de la tabla. Por ejemplo, en sesiones de punto a punto, la mayoría de los usuarios usaría la ventana de representación de video predeterminada, mientras que un cierto porcentaje de usuarios aumentaría o maximizaría la aplicación de Skype empresarial Server para permitir mejores resoluciones de video.
 
 En las siguientes tablas se proporcionan los valores para los distintos escenarios.
 
@@ -211,10 +211,10 @@ En las siguientes tablas se proporcionan los valores para los distintos escenari
 |Audio  <br/> |Banda ancha de RTAudio  <br/> |39,8  <br/> |62  <br/> |91  <br/> |
 |Audio  <br/> |Banda estrecha de RTAudio  <br/> |29,3  <br/> |44,8  <br/> |56,6  <br/> |
 |Audio  <br/> |Banda ancha SILK  <br/> |44,3  <br/> |69  <br/> |105  <br/> |
-|Vídeo principal al llamar a Skype para extremos de Business Server  <br/> |H.264  <br/> |460  <br/> |4010 (para una resolución máxima de 1920 x 1080)  <br/> |Ya incluido  <br/> |
-|Video principal al llamar a los extremos de Lync 2010 u Office Communicator 2007 R2  <br/> |RTVideo  <br/> |460  <br/> |2510 (para una resolución máxima de 1920 x 720)  <br/> |Ya incluido  <br/> |
-|Video principal al llamar a Skype para extremos de Business Server  <br/> |H.264  <br/> |190  <br/> |2010 (para una resolución máxima de 1920 x 288)  <br/> |Ya incluido  <br/> |
-|Video principal al llamar a los extremos de Lync 2010  <br/> |RTVideo  <br/> |190  <br/> |510 (para una resolución máxima de 1920 x 144)  <br/> |Ya incluido  <br/> |
+|Vídeo principal al llamar a puntos de conexión de Skype empresarial Server  <br/> |H.264  <br/> |460  <br/> |4010 (para una resolución máxima de 1920 x 1080)  <br/> |Ya incluido  <br/> |
+|Vídeo principal al llamar a los puntos de conexión de Lync 2010 o de Office Communicator 2007 R2  <br/> |RTVideo  <br/> |460  <br/> |2510 (para una resolución máxima de 1920 x 720)  <br/> |Ya incluido  <br/> |
+|Vídeo panorámico al llamar a puntos de conexión de Skype empresarial Server  <br/> |H.264  <br/> |190  <br/> |2010 (para una resolución máxima de 1920 x 288)  <br/> |Ya incluido  <br/> |
+|Vídeo panorámico al llamar a puntos de conexión de Lync 2010  <br/> |RTVideo  <br/> |190  <br/> |510 (para una resolución máxima de 1920 x 144)  <br/> |Ya incluido  <br/> |
 
 **Planificación de la capacidad de audio/vídeo para conferencias**
 
@@ -227,13 +227,13 @@ En las siguientes tablas se proporcionan los valores para los distintos escenari
 |Recepción de vídeo panorámico  <br/> |H.264 y RTVideo  <br/> |190  <br/> |2010 (para una resolución máxima de 1920 x 288)  <br/> |No aplicable  <br/> |
 |Envío de vídeo panorámico  <br/> |H.264 y RTVideo  <br/> |190  <br/> |2515 ²  <br/> |No aplicable  <br/> |
 
-1. Además, se envía el vídeo RT a H.264 cuando los clientes de Lync 2010 están conectados a la conferencia.
+1. El vídeo RT se envía además de H. 264 cuando los clientes de Lync 2010 se conectan a la Conferencia.
 
-2. Si hay varias secuencias, dinámicamente comparten el ancho de banda asignado.
+2. Si hay varias secuencias, el ancho de banda asignado se comparte dinámicamente.
 
 Para el vídeo principal, el ancho de banda de secuencia típico es el ancho de banda agregado sobre todas las secuencias de vídeo recibidas, mientras que la secuencia máxima es el ancho de banda sobre todas las secuencias de vídeo enviadas. Aun con varias secuencias de vídeo, el ancho de banda típico para vídeo es más pequeño que en el escenario punto a punto, ya que muchas conferencias de vídeo utilizan el uso compartido de contenidos, que hace que las ventanas de vídeo sean más pequeñas y, por lo tanto, las resoluciones de vídeo son inferiores. El ancho de banda máximo de carga de vídeo agregada compatible es de 8000 Kbps para las secuencias de envío y de recepción que se utilizarían (por ejemplo, si hay dos secuencias de vídeo entrantes de 1920 x 1080 p). Los valores máximos se ven con poca frecuencia en las implementaciones reales.
 
-Cuando la creación de una conferencia con varios participantes que usa la característica de vista Galería, utilización de ancho de banda aumenta inicialmente como unirse a los participantes, a continuación, disminuye a medida que se eliminan resoluciones para ajustarse a la máxima.
+Al crear una conferencia de varias partes que usa la característica de vista de galería, la utilización del ancho de banda aumenta inicialmente a medida que se unen los participantes, y después disminuye a medida que las resoluciones se ajustan al máximo.
 
 ||**2 participantes**|**3 participantes**|**4 participantes**|**5 participantes**|**6 participantes**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
@@ -247,7 +247,7 @@ El ancho de banda de secuencia típico para los vídeos panorámicos se basa en 
 
 |**Media**|**Códec típico**|**Ancho de banda de secuencia típica (Kbps)**|**Ancho de banda de secuencia máximo sin FEC**|**Ancho de banda de secuencia máximo con FEC**|
 |:-----|:-----|:-----|:-----|:-----|
-|Audio  <br/> |G.711 (Esto incluye a los participantes de RTC en las conferencias)  <br/> |64,8  <br/> |97  <br/> |161  <br/> |
+|Audio  <br/> |G. 711 (esto incluye a los participantes de la RTC en conferencias)  <br/> |64,8  <br/> |97  <br/> |161  <br/> |
 |Audio  <br/> |Banda estrecha de RTAudio  <br/> |30,9  <br/> |44,8  <br/> |56,6  <br/> |
 
 Las cifras de ancho de banda de red de estas tablas representan solamente tráfico unidireccional; incluyen 5 Kpbs para sobrecarga de tráfico RTPC de cada secuencia.
@@ -258,25 +258,25 @@ Las cifras de ancho de banda de red de estas tablas representan solamente tráfi
 La calidad de servicio (QoS) es una tecnología de red que usan algunas organizaciones para ofrecer una experiencia de usuario final óptima para las comunicaciones de audio y vídeo. QoS se usa principalmente en las redes en las que el ancho de banda es limitado. Como hay una gran cantidad de paquetes de red compitiendo por una cantidad relativamente pequeña de ancho de banda disponible, la calidad de servicio permite a los administradores asignar prioridades más altas a los paquetes que contienen datos de audio o vídeo. Al asignar una prioridad más alta a estos paquetes, las comunicaciones de audio y vídeo probablemente se completen con mayor rapidez y con menos interrupciones que las sesiones de red que incluyen transferencias de archivos, exploración web o copias de seguridad de bases de datos. Esto se debe a que se asigna una prioridad de "mejor esfuerzo" a los paquetes de red usados para las transferencias de archivos o las copias de seguridad de bases de datos.
 
 > [!NOTE]
-> Como regla general, la QoS se aplica solamente a las sesiones de comunicación de la red interna. Al implementar la QoS necesita configurar los servidores y los enrutadores para que admitan el marcado de paquetes de un modo especial que puede que no se admita en Internet o en otras redes. Incluso si se admite la calidad de servicio en otras redes, no hay ninguna garantía de que se configurarán QoS de la misma manera que configuró el servicio. Si utiliza MPLS tendrá que colaborar junto con su proveedor de MPLS.
+> Como regla general, la QoS se aplica solamente a las sesiones de comunicación de la red interna. Al implementar la QoS necesita configurar los servidores y los enrutadores para que admitan el marcado de paquetes de un modo especial que puede que no se admita en Internet o en otras redes. Incluso si la calidad de servicio es compatible con otras redes, no hay garantía de que QoS se configure de la misma manera en que se configuró el servicio. Si utiliza MPLS tendrá que colaborar junto con su proveedor de MPLS.
 
-Skype para Business Server no requiere QoS, pero se recomienda encarecidamente. Si experimenta problemas de pérdida de paquetes en la red las soluciones disponibles son para agregar más ancho de banda o para implementar QoS. Si no puede agregar más ancho de banda, la implementación de la QoS puede ser la única solución al problema.
+Skype empresarial Server no requiere QoS, pero se recomienda encarecidamente. Si experimenta problemas de pérdida de paquetes en la red, las soluciones disponibles son agregar más ancho de banda o implementar QoS. Si no puede agregar más ancho de banda, la implementación de la QoS puede ser la única solución al problema.
 
-Skype para Business Server ofrece compatibilidad total con QoS: que significa que las organizaciones que ya está usando la QoS fácilmente pueden integrar Skype para Business Server en su infraestructura de red existente. Para ello, es necesario llevar a cabo los siguientes pasos:
+Skype empresarial Server ofrece compatibilidad completa con QoS, lo que significa que las organizaciones que ya usan QoS pueden integrar fácilmente Skype empresarial Server en su infraestructura de red existente. Para ello, es necesario llevar a cabo los siguientes pasos:
 
-- [Habilitar QoS en Skype para Business Server para los dispositivos que no están basados en Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). De forma predeterminada, la QoS está deshabilitada en los equipos y otros dispositivos (como iPhone) que ejecutan otros sistemas operativos. Aunque puede usar Skype para Business Server para habilitar y deshabilitar la calidad de servicio para los dispositivos, normalmente no se puede usar el producto para modificar los códigos DSCP utilizados por estos dispositivos.
+- [Habilitar QoS en Skype empresarial Server para dispositivos que no se basan en Windows](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). De forma predeterminada, la QoS está deshabilitada en los equipos y otros dispositivos (como iPhone) que ejecutan otros sistemas operativos. Aunque puede usar Skype empresarial Server para habilitar y deshabilitar la calidad de servicio para los dispositivos, normalmente no puede usar el producto para modificar los códigos de DSCP usados por estos dispositivos.
 
-- [Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencia, aplicación y mediación](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Es preciso reservar un conjunto único de puertos para distintos tipos de paquetes, como paquetes de audio y vídeo. Mediante el uso de Skype para Business Server no habilitar o deshabilitar QoS estableciendo el valor de una propiedad en True o en False. En su lugar, la calidad de servicio se habilita al configurar intervalos de puertos y al crear y aplicar posteriormente una directiva de grupo. Si más adelante decide no usar QoS puede "Deshabilitar" QoS mediante la eliminación de los objetos de directiva de grupo adecuados.
+- [Configurar intervalos de puertos y una directiva de calidad de servicio para los servidores de conferencias, aplicaciones y mediación](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Es preciso reservar un conjunto único de puertos para distintos tipos de paquetes, como paquetes de audio y vídeo. Al usar Skype empresarial Server, no se habilita ni deshabilita QoS al establecer un valor de propiedad en verdadero o falso. En su lugar, la calidad de servicio se habilita al configurar intervalos de puertos y al crear y aplicar posteriormente una directiva de grupo. Si más tarde decide no usar QoS, puede "Deshabilitar" QoS si quita los objetos de directiva de grupo apropiados.
 
-- [Configurar intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores. Configuración de una directiva de QoS sólo realizará el lado interno de los servidores perimetrales. Eso es porque QoS está diseñado para su uso en la red interna y no en Internet.
+- [Configurar intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Aunque no es un requisito, puede configurar los servidores perimetrales para que usen los mismos intervalos de puertos que los otros servidores. La configuración de una directiva de QoS solo se realiza para el lado interno de los servidores perimetrales. Esto se debe a que QoS está diseñado para su uso en su red interna y no en Internet.
 
-- [Configurar intervalos de puertos y una directiva de calidad de servicio para los clientes en Skype para Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Estos intervalos de puertos solo se aplican a equipos cliente y, por lo general, no son los mismos que los intervalos de puertos configurados en los servidores. Tenga en cuenta que Skype para Business Server no es compatible con QoS para sistemas operativos Windows que no sea Windows 10.
+- [Configurar intervalos de puertos y una directiva de calidad de servicio para sus clientes en Skype empresarial Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Estos intervalos de puertos solo se aplican a equipos cliente y, por lo general, no son los mismos que los intervalos de puertos configurados en los servidores. Tenga en cuenta que Skype empresarial Server no es compatible con QoS para sistemas operativos Windows que no sean Windows 10.
 
 
 > [!NOTE]
-> Si usa Windows Server 2012 o Windows Server 2012 R2 podría estar interesado en el nuevo conjunto de cmdlets de Windows PowerShell disponibles para la administración de QoS en esa plataforma. Para obtener más información, vea [QoS Cmdlets de red en Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
+> Si usa Windows Server 2012 o Windows Server 2012 R2, es posible que esté interesado en el nuevo conjunto de cmdlets de Windows PowerShell disponibles para administrar QoS en esa plataforma. Para obtener más información, consulte [cmdlets QoS de red en Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=285379).
 
-QoS también se explica en el artículo técnico de [Planificación de red, supervisión y solucionar problemas con Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) con detalles adicionales y profundidad. Mientras que el contenido se refiere explícitamente a Lync 2010 y Lync 2013, las consideraciones de Skype para Business Server son sin cambios.
+La calidad de servicios también se trata en el informe sobre la [planificación, la supervisión y la solución de problemas de la red de Lync Server](https://www.microsoft.com/en-us/download/details.aspx?id=39084) con detalles y profundidad adicionales. Aunque el contenido se refiere explícitamente a Lync 2010 y a Lync 2013, las consideraciones para Skype empresarial Server no cambian.
 
 ## <a name="see-also"></a>Vea también
 <a name="man_QOS"> </a>
@@ -285,4 +285,4 @@ QoS también se explica en el artículo técnico de [Planificación de red, supe
 
 [Requisitos del equilibrio de carga para Skype Empresarial](load-balancing.md)
 
-[Requisitos de DNS de Skype para Business Server](dns.md)
+[Requisitos de DNS para Skype empresarial Server](dns.md)

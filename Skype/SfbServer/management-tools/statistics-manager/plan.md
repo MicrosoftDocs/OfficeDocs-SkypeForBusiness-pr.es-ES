@@ -4,35 +4,35 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
-description: 'Resumen: Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: 97c169b9350801f805672549d8cc68bfa37ce14d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre statistic Manager para Skype empresarial Server.'
+ms.openlocfilehash: a58ca8ea8ed2d612e00a0705bb28e8d6fe95eb45
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906616"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299740"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planear el administrador de estadísticas para Skype Empresarial Server
 
-**Resumen:** Lea este tema para obtener más información acerca del Administrador de estadísticas de Skype para Business Server.
+**Resumen:** Lea este tema para obtener información sobre statistic Manager para Skype empresarial Server.
 
  El administrador de estadísticas de Skype Empresarial Server es una eficaz herramienta que le permite ver los datos de mantenimiento y rendimiento de Skype Empresarial Server en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas.
 
-Puede usar el Administrador de estadísticas para identificar problemas de rendimiento en curso, ver los resultados de un cambio planeado a su entorno, realizar un seguimiento de resolución de interrupciones y mucho más. Fuera del cuadro, Administrador de estadísticas está configurado con los umbrales de indicador de estado de clave (KHI) y se puede personalizar para adaptarse a necesidades específicas de la implementación.
+Puede usar Statistics Manager para identificar problemas de rendimiento continuo, ver los resultados de un cambio planificado en su entorno, realizar un seguimiento de la resolución de las interrupciones y mucho más. El administrador de estadísticas está configurado con los umbrales del indicador de mantenimiento de clave (KHI), y se puede personalizar según las necesidades exclusivas de su implementación.
 
-Puede implementar las estadísticas de administrador en una implementación local en la que un único servidor hospeda todos los componentes de estadísticas administrador del servidor. Para obtener más información sobre la implementación de las estadísticas de administrador, vea [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md). Si ya tiene una implementación existente de las estadísticas de administrador, pero aún no ha actualizado a la versión 2.0, vea [¿Qué es nuevo en la versión 2.0](plan.md#BKMK_WhatsNew) y [Actualizar las estadísticas de administrador de Skype para Business Server](upgrade.md).
+Puede implementar el administrador de estadísticas en una implementación local en la que un solo servidor hospede todos los componentes del administrador de estadísticas del servidor. Para obtener más información sobre cómo implementar statistic Manager, consulte [implementar el administrador de estadísticas para Skype empresarial Server](deploy.md). Si ya tiene una implementación existente de Statistics Manager, pero aún no ha actualizado a la versión 2,0, consulte [novedades de la versión 2,0](plan.md#BKMK_WhatsNew) y al [Administrador de estadísticas de actualización para Skype empresarial Server](upgrade.md).
 
 Este tema incluye las secciones siguientes:
 
-- [Características y funciones](plan.md#BKMK_Features)
+- [Características y capacidades](plan.md#BKMK_Features)
 
-- [¿Qué es nuevo en la versión 2.0](plan.md#BKMK_WhatsNew)
+- [Novedades de la versión 2,0](plan.md#BKMK_WhatsNew)
 
 - [Componentes](plan.md#BKMK_Components)
 
@@ -42,135 +42,135 @@ Este tema incluye las secciones siguientes:
 
 - [Consideraciones de seguridad](plan.md#BKMK_Security)
 
-## <a name="features-and-capabilities"></a>Características y funciones
+## <a name="features-and-capabilities"></a>Características y capacidades
 <a name="BKMK_Features"> </a>
 
-Administrador de estadísticas le permite:
+Statistic Manager le permite:
 
-- Ver datos sin procesar para todos los servidores en tiempo real. (Datos se muestrea a una tasa muy alta y enviados al sitio Web en menos de un segundo.)
+- Ver datos sin procesar de todos los servidores en tiempo real. (Los datos se muestrean a una tasa muy alta y se envían al sitio web en menos de un segundo).
 
-- Ver los datos que se agregan a un rol específico; Por ejemplo, servidor Front-End, el servidor de mediación, servidor perimetral y así sucesivamente.
+- Ver datos agregados para un rol específico; por ejemplo, el servidor front-end, el servidor de mediación, el servidor perimetral, etc.
 
-- Explorar en profundidad datos de vista para sitios específicos, grupos de servidores específicos dentro del sitio y servidores específicos, a continuación, dentro del grupo.
+- Desplácese hacia abajo para ver los datos de sitios específicos, agrupaciones específicas dentro del sitio y, a continuación, servidores específicos dentro de la agrupación.
 
-- Crear gráficos personalizados para que elegido contadores se muestran de forma predeterminada.
+- Crear gráficos personalizados para que se muestren los contadores elegidos de forma predeterminada.
 
-- Zoom y panorámica en ambos los ejes x e y- o en el eje x únicamente.
+- Zoom y panorámica en los ejes x e y o solo en el eje x.
 
-- Usar los intervalos de fechas o puntos en el tiempo para filtrar los datos.
+- Use intervalos de fechas o puntos en el tiempo para filtrar datos.
 
-- Ver el rendimiento del servidor en función de indicadores clave de estado establecido (KHIs). KHIs representan una colección de contadores de rendimiento con un rango definido correcto.
+- Ver el rendimiento del servidor basado en indicadores de estado clave establecidos (KHIs). KHIs representa una colección de contadores de rendimiento con un rango correcto definido.
 
-- Ver las métricas detalladas de cada contador.
+- Ver métricas detalladas de cada contador.
 
-- Comparar datos en varios servidores o poblaciones.
+- Comparar datos entre varios poblaciones o servidores.
 
-- Visualización de informes de contador latente para identificar a los agentes que no son informes de datos actuales para el servicio de panel.
+- Ver los informes latentes para identificar agentes que no están notificando los datos actuales al servicio de panel.
 
-- Guardar una instancia determinada de los datos del gráfico en un archivo.
+- Guardar una instancia determinada de datos del gráfico en un archivo.
 
-- Vista KHIs en tiempo real, incluidas las actualizaciones. Si está habilitada la vista Historial, se muestran sólo los errores de nuevo.
+- Ver KHIs en tiempo real, incluidas las actualizaciones. Si la vista historial está habilitada, solo se muestran los errores nuevos.
 
   - Ver todos los KHIs a la vez
 
   - Ver KHIs por servidor (vista horizontal)
 
-  - Definiciones de vista KHI
+  - Ver definiciones de KHI
 
-## <a name="whats-new-in-release-20"></a>¿Qué es nuevo en la versión 2.0
+## <a name="whats-new-in-release-20"></a>Novedades de la versión 2,0
 <a name="BKMK_WhatsNew"> </a>
 
-El siguiente describe cuáles son las novedades en la versión 2.0. Si tiene una implementación existente del Administrador de estadísticas y aún no se ha realizado la actualización, vea [Actualizar administrador de estadísticas de Skype para Business Server](upgrade.md).
+A continuación se describen las novedades de la versión 2,0. Si ya tiene una implementación de Statistics Manager y aún no la ha actualizado, consulte actualizar el [Administrador de estadísticas para Skype empresarial Server](upgrade.md).
 
-- Se han agregado las vistas de escenario para medios perimetrales, estado de Fabric, conmutación por error y escenarios de registro.
+- Se han agregado vistas de escenario para los escenarios de los extremos, la Health, la conmutación por error y el registro.
 
-- Muchos contadores nuevos se han agregado servidores SQL Server, más Skype para contadores de uso empresarial y así sucesivamente.
+- Se han agregado muchos contadores nuevos para servidores SQL, más contadores de uso de Skype empresarial, etc.
 
-- Integración de nodo de monitor para el agente de administrador de estadísticas - si el agente está instalado en un nodo de monitor, informará de las estadísticas de transacciones sintéticas como contadores de vuelta al administrador de estadísticas.
+- Integración del nodo de monitor para el agente del administrador de estadísticas: Si el agente está instalado en un nodo de supervisor, notificará las estadísticas de transacción sintéticas a los contadores como recuentos al administrador de estadísticas.
 
-- Numerosas mejoras de rendimiento y confiabilidad.
+- Numerosas mejoras de confiabilidad y rendimiento.
 
-Para comprobar la versión del sitio Web de estadísticas de administrador está ejecutando:
+Para comprobar la versión del sitio web de statistic Manager que está ejecutando:
 
-- En el Explorador de archivos, abra (directorio predeterminado) C:\Program Files\Skype para Business Server StatsMan WebSite\bin
+- En el explorador de archivos, abra (directorio predeterminado) C:\Archivos de Files\Skype para Business Server StatsMan WebSite\bin
 
-- Haga clic con el botón secundario en StatsManHubWebSite.dll y ver sus propiedades
+- Haga clic con el botón secundario en StatsManHubWebSite. dll y vea sus propiedades
 
 - La versión del producto se mostrará en los detalles de Descripción.
 
 ## <a name="components"></a>Components
 <a name="BKMK_Components"> </a>
 
-Administrador de estadísticas consta de los siguientes componentes:
+Statistics Manager consta de los siguientes componentes:
 
-- **Agente.** Un agente ligero que se ejecuta en cada servidor supervisado. El agente permite sondeo configurable alta tasa de contadores de rendimiento con agregación local.
+- **Transportista.** Un agente liviano que se ejecuta en cada servidor supervisado. El agente permite sondeo configurable de alta tasa de contadores de rendimiento con agregación local.
 
-- **Agente de escucha.** La API de lado servidor que recibe los datos de todos los agentes y agrega datos a través de poblaciones.
+- **Escucha.** La API del servidor que recibe datos de todos los agentes y agrega datos entre los mismos.
 
-- **Concentrador.** Actúa como la API de cliente para el sistema, se ejecuta en los servidores web y proporciona las actualizaciones de datos en tiempo real a los clientes conectados a través del sitio Web. (El concentrador se instala automáticamente como parte del sitio Web msi).
+- **Perimetral.** Actúa como la API de cliente para el sistema, se ejecuta en los servidores web y proporciona actualizaciones de datos en tiempo real a clientes conectados a través del sitio Web. (El concentrador se instala automáticamente como parte del MSI del sitio web).
 
-- **Sitio Web.** Una interfaz de usuario que reúne todas las características disponibles en el sistema.
+- **Página.** Una interfaz de usuario que reúne todas las características disponibles en el sistema.
 
-Además, el Administrador de estadísticas requiere **Redis**, un servidor de estructura de datos de origen para abrir para almacenar en caché en memoria. Para obtener más información acerca de cómo descargar Redis, vea [Implementar el Administrador de estadísticas](deploy.md#BKMK_Deploy) .
+Además, statistic Manager requiere **Redis**, un servidor de estructura de datos de código abierto para la caché en memoria. Para obtener más información sobre cómo descargar Redis, consulte [implementar el administrador de estadísticas](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Implementación local
 <a name="BKMK_DeploymentOptions"> </a>
 
-En una implementación local, un único servidor hospeda todos los componentes de estadísticas administrador del servidor.
+En una implementación local, un único servidor hospeda todos los componentes del administrador de estadísticas del servidor.
 
-En el siguiente diagrama se muestra una implementación local, en el que se hospedan el sitio Web del Administrador de estadísticas, concentrador, agente de escucha y Redis almacenamiento en memoria caché del sistema en un solo equipo. Administrador de estadísticas está supervisando tres Skype para servidores empresariales, cada uno de los cuales tiene un único agente de transmisión de datos a la escucha. Los usuarios se conectan a un solo sitio Web para ver todos los datos agregados por el Administrador de estadísticas:
+En el siguiente diagrama se muestra una implementación local en la que el sitio web del administrador de estadísticas, Hub, escucha y sistema de caché en Redis se hospedan en un solo equipo. Statistic Manager está supervisando tres servidores de Skype empresarial, cada uno de los cuales transmite los datos de un único agente a la escucha. Los usuarios se conectan a un solo sitio web para ver todos los datos agregados por statistic Manager:
 
 ![Implementación local del administrador de estadísticas](../../media/c7c9d0b5-a70b-4d8c-aec4-0128a29b90b6.png)
 
 ## <a name="requirements"></a>Requisitos
 <a name="BKMK_Requirements"> </a>
 
-Debe tener en cuenta los siguientes requisitos de hardware, redes y software antes de implementar las estadísticas de administrador.
+Antes de implementar statistic Manager, tendrá que tener en cuenta los siguientes requisitos de software, de red y de hardware.
 
 ### <a name="software-requirements"></a>Requisitos de software
 
 - Windows Server 2016 y 2019
 
-- IIS (instalados automáticamente)
+- IIS (instalado automáticamente)
 
 - Redis
 
-- Servicios de administrador de estadísticas (instalados automáticamente)
+- Servicios de administración de estadísticas (instalados automáticamente)
 
-- PSExec - necesario para realizar la implementación de agentes remotos
+- PSExec: se necesita para realizar la implementación de agentes remotos
 
-- .NET 4.5 (incluido con 2012 R2) - necesario para los agentes y componentes de servidor
-- Descargar el [Skype para Business Server, el Administrador de estadísticas en tiempo real (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
+- .NET 4,5 (incluido con 2012 R2): necesario para los agentes y componentes del servidor
+- Descargar [Skype empresarial Server, administrador de estadísticas en tiempo real (64 bits)](https://www.microsoft.com/en-in/download/details.aspx?id=57518)
 
 ### <a name="networking-requirements"></a>Requisitos de red
 
 
-|**Servidor de hospedaje**|**Agentes.**|**Agente de escucha**|
+|**Servidor de hospedaje**|**Agentes.**|**Escucha**|
 |:-----|:-----|:-----|
-|La red de gigabit mínimo dúplex completo.  <br/> |Puerto TCP saliente 8443 (número de puerto personalizable) para comunicarse con el agente de escucha.  <br/> |El puerto de escucha debe ser el mismo en todos los servidores.  <br/> |
-|El puerto TCP 80 o 443 abierto para hospedar el sitio Web de entrada.  <br/> |||
-|El puerto TCP 8443 (número de puerto personalizable) de entrada para que los agentes para comunicarse con él.  <br/> |||
+|Una red Gigabit dúplex completa mínima.  <br/> |Puerto TCP saliente 8443 (número de Puerto personalizable) para comunicarse con el agente de escucha.  <br/> |El puerto de escucha debe ser el mismo en todos los servidores.  <br/> |
+|Puerto TCP entrante 80 o 443 abierto para hospedar el sitio Web.  <br/> |||
+|Puerto TCP entrante 8443 (número de Puerto personalizable) para que los agentes se comuniquen con él.  <br/> |||
 
-Durante la instalación, se crean automáticamente los puertos de firewall para el agente de escucha y el sitio Web. Para los agentes, la instalación se da por supuesto que se permiten las conexiones TCP salientes de forma predeterminada.
+Durante la instalación, se crean automáticamente puertos de Firewall para el agente de escucha y el sitio Web. Para los agentes, la instalación supone que las conexiones TCP salientes están permitidas de forma predeterminada.
 
 ### <a name="hardware-requirements"></a>Requisitos de hardware
 
-En una implementación local, en la que un único servidor hospeda todos los componentes de administrador de las estadísticas del servidor, un servidor con 16 GB de RAM y 4 de la CPU debe ser capaz de admitir aproximadamente 150 muestras por segundo en promedio. Para determinar cuántos contadores/agentes puede admitir, use el siguiente cálculo:
+En una implementación local, en la que un único servidor hospeda a todos los componentes del administrador de estadísticas del servidor, un servidor con 16 GB de RAM y 4 CPU debe poder admitir aproximadamente 150 muestras por segundo por segundo. Para determinar cuántos contadores/agentes puede admitir, use el siguiente cálculo:
 
-100 servidores \*contadores de 80 \* 1 ejemplo por minuto de cada agente / 60 segundos = ~ 133 muestras por segundo.
+100 servidores \*80 contadores \* 1 ejemplo por minuto de cada agente/60 segundos = ~ 133 muestras por segundo.
 
 ## <a name="security-considerations"></a>Consideraciones de seguridad
 <a name="BKMK_Security"> </a>
 
-Se cifra todo el tráfico entre servidores.
+Todo el tráfico entre los servidores está cifrado.
 
-- Tráfico HTTPS cifrado se enviarán a través del puerto 8443 (de forma predeterminada) del agente de en el servidor de agente de escucha.
+- El tráfico HTTPS cifrado se enviará a través del puerto 8443 (de forma predeterminada) desde el agente al servidor de escucha.
 
-- El agente de comprobará si la huella digital SSL en el servidor para asegurarse de que el servidor de agente de escucha es el destinatario previsto. Tenga en cuenta que el agente usa verificación de certificados por huella digital (en lugar de verificación en cadena). No realizará la validación de certificados completa, porque es posible utilizar certificados autofirmados.
+- El agente verificará la huella digital SSL en el servidor para asegurarse de que el servidor de escucha sea el destinatario esperado. Tenga en cuenta que el agente usa verificación de certificados por huella digital (en lugar de verificación en cadena). No realizará la validación de certificados completa, porque es posible utilizar certificados autofirmados.
 
-- Después de que el agente esté satisfecho el agente de escucha es auténtico, se le presentará una contraseña por el agente que, a continuación, se comprueba el agente de escucha.
+- Una vez que el agente está satisfecho, el oyente es auténtico, el agente que comprueba la contraseña será presentado por el agente de escucha.
 
-- El agente de comienza la transmisión de datos de rendimiento a través de la conexión con el agente de escucha.
+- El agente comienza a transmitir datos de rendimiento a través de la conexión a la escucha.
 
 ## <a name="for-more-information"></a>Más información
 <a name="BKMK_Security"> </a>

@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En este tema le guiará en el proceso de eliminación de un grupo de servidores Front-End o un servidor estándar de edición de Front-End. Al quitar un grupo de servidores Front-End, quite cada servidor Front-End que pertenece al grupo de servidores como parte del proceso de eliminación de grupo de servidores. Cuando se quita una edición Standard servidor Front-End, debe quitar la definición de almacén SQL del generador.
-ms.openlocfilehash: 394edcd6f5c89478ed98abebe0be29720d009107
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este tema le guiará a través del proceso de eliminación de un grupo de servidores front-end o de un servidor front-end Standard Edition. Al quitar un grupo de servidores front-end, se quita cada servidor front-end que pertenece al grupo como parte del proceso de eliminación de la agrupación. Al quitar un servidor front-end Standard Edition, debe quitar la definición de la tienda SQL del generador de topología.
+ms.openlocfilehash: fd43682fca67b961ac93c01813ca6ea9e702b644
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231549"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301135"
 ---
 # <a name="remove-front-end-pool-or-standard-edition-server"></a>Quitar un grupo de servidores front-end o servidor Standard Edition
 
-En este artículo le guiará por el proceso de eliminación de un grupo de servidores Front-End o un servidor estándar de edición de Front-End. Al quitar un grupo de servidores Front-End, quite cada servidor Front-End que pertenece al grupo de servidores como parte del proceso de eliminación de grupo de servidores. Cuando se quita una edición Standard servidor Front-End, debe quitar la definición de almacén SQL del generador.
+Este artículo le guiará a través del proceso de eliminación de un grupo de servidores front-end o de un servidor front-end Standard Edition. Al quitar un grupo de servidores front-end, se quita cada servidor front-end que pertenece al grupo como parte del proceso de eliminación de la agrupación. Al quitar un servidor front-end Standard Edition, debe quitar la definición de la tienda SQL del generador de topología.
   
-## <a name="to-remove-a-front-end-server-pool"></a>Para quitar un grupo de servidor Front-End
+## <a name="to-remove-a-front-end-server-pool"></a>Para quitar un grupo de servidores front-end
 
-1. Abra el generador de topología.
+1. Abra el generador de topologías.
     
 2. Vaya al nodo heredado.
     
-3. Expanda **grupos de servidores Front-End de Enterprise Edition**, expanda el grupo de servidores Front-End, haga clic en el grupo de servidores Front-End que desea quitar y, a continuación, haga clic en **Eliminar**.
+3. Expanda agrupaciones **front end de Enterprise Edition**, expanda el grupo de servidores front-end, haga clic con el botón secundario en el grupo de servidores front-end que desee quitar y, a continuación, haga clic en **eliminar**.
     
-4. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute al Asistente para la implementación heredada según sea necesario. 
+4. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute el Asistente para la implementación heredada según sea necesario. 
     
-## <a name="to-remove-a-standard-edition-front-end-server"></a>Para quitar un servidor Front-End de Standard Edition
+## <a name="to-remove-a-standard-edition-front-end-server"></a>Para quitar un servidor front-end Standard Edition
 
-1. Abra el generador de topología.
+1. Abra el generador de topologías.
     
-2. Desplácese hasta el nodo de instalaciones heredadas.
+2. Vaya al nodo instalaciones heredadas.
     
-3. Expanda **servidores Front-End de Standard Edition**, haga clic en el servidor Front-End que desea quitar y, a continuación, haga clic en **Eliminar**.
+3. Expanda **servidores front-end Standard Edition**, haga clic con el botón secundario en el servidor front-end que desee quitar y, a continuación, haga clic en **eliminar**.
     
-4. Expanda **almacenes SQL**, haga clic en la base de datos de SQL Server que está asociada con la edición Standard servidor Front-End y, a continuación, haga clic en **Eliminar**.
+4. Expanda **almacenes SQL**, haga clic con el botón secundario en la base de datos de SQL Server asociada al servidor front-end Standard Edition y, después, haga clic en **eliminar**.
     
     > [!IMPORTANT]
-    > Debe quitar la definición de las bases de datos de SQL Server instaladas de la edición Standard servidor Front-End. 
+    > Debe quitar la definición de las bases de datos de SQL Server en el servidor front-end Standard Edition. 
   
-5. Publique la topología, compruebe el estado de replicación y, a continuación, ejecute al Asistente para la implementación según sea necesario. 
+5. Publique la topología, compruebe el estado de la replicación y, a continuación, ejecute el Asistente para la implementación según sea necesario. 
     
 

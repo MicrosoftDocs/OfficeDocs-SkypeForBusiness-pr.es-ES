@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchOfficeAppliancePstnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7c55a43d-2589-48f9-972b-1e48a3dca52a
-description: 'Para definir la puerta de enlace de telefónica conmutada (RTC) para una aplicación de sucursal con funciones de supervivencia en un sitio de sucursal, especifique lo siguiente:'
-ms.openlocfilehash: da7144d9674bd7a02ef5ca144d20dcd419ad9ae4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para definir la puerta de enlace de red de telefonía pública conmutada (RTC) para un equipo de sucursales con la mayoría de las sucursales, especifique lo siguiente:'
+ms.openlocfilehash: 3a146a5bf9b879681b0d490a1d03198853c72305
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897481"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303669"
 ---
 # <a name="add-survivable-branch-appliance-pstn"></a>Agregar RTC de aplicación de sucursal con funciones de supervivencia
  
-Para definir la puerta de enlace de telefónica conmutada (RTC) para una aplicación de sucursal con funciones de supervivencia en un sitio de sucursal, especifique lo siguiente: 
+Para definir la puerta de enlace de red de telefonía pública conmutada (RTC) para un equipo de sucursales con la mayoría de las sucursales, especifique lo siguiente: 
   
-- Un nombre de dominio completo (FQDN) o la dirección IP para el mismo nivel de puerta de enlace que la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia está asociado con para el enrutamiento de entrada y salida llamadas RTC.
+- Un nombre de dominio completo (FQDN) o una dirección IP para la puerta de enlace del mismo nivel a la que se asocia la aplicación de la sucursal o el servidor de sucursal con la supervivencia para enrutar llamadas RTC entrantes y salientes.
     
     > [!IMPORTANT]
-    > Si está definiendo una aplicación de sucursal con funciones de supervivencia, esta es la puerta de enlace al que se conectará el servidor de mediación dentro de la aplicación de sucursal con funciones de supervivencia para la conectividad de RTC. 
+    > Si está definiendo un dispositivo de sucursal que funciona bien, esta es la puerta de enlace a la que se conectará el servidor de mediación de la aplicación de la sucursal con la que se puede obtener conectividad RTC. 
   
 - El puerto de escucha que debe usarse para los mensajes del Protocolo de inicio de sesión (SIP). De forma predeterminada, los puertos son 5066 para el protocolo de control de transmisión (TCP) y 5067 para seguridad de la capa de transporte (TLS) en una puerta de enlace, central de conmutación (PBX) o controlador del borde de sesión (SBC). En una aplicación de sucursal con funciones de supervivencia de una sucursal, los puertos predeterminados son 5081 para TCP y 5082 para Seguridad de la capa de transporte (TLS).
     
-- Por motivos de seguridad, se recomienda encarecidamente usar TLS. Si está definiendo una aplicación de sucursal con funciones de supervivencia, consulte la documentación del proveedor de aplicación de sucursal con funciones de supervivencia para comprobar que la aplicación de sucursal con funciones de supervivencia admite el protocolo TLS.
+- Por motivos de seguridad, se recomienda encarecidamente usar TLS. Si está definiendo un dispositivo de sucursal que es reviviente, consulte la documentación del proveedor de su equipo de sucursales que sea superviviente para verificar que su equipo de sucursales con la supervivencia es compatible con el protocolo TLS.
     
     > [!IMPORTANT]
     > Por motivos de seguridad, se recomienda encarecidamente implementar una puerta de enlace que pueda usar TLS. 

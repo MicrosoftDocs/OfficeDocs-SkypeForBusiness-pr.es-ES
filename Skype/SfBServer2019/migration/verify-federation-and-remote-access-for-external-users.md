@@ -4,32 +4,32 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Después de trasladar la ruta de federación para el Skype para servidor perimetral de Business Server 2019, debe realizar algunas pruebas funcionales para comprobar que la federación funciona del modo esperado. Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos cualquiera o todas las opciones siguientes.
-ms.openlocfilehash: 3a520b39d76ab93f4ec7fcaacd139b3f83a3326a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Después de la transición de la ruta de Federación al servidor perimetral de Skype empresarial Server 2019, debe realizar algunas pruebas funcionales para comprobar que la Federación se ejecuta según lo previsto. Las pruebas de acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos algunos de los siguientes elementos o todos ellos.
+ms.openlocfilehash: a07cbfc8596cfd49760af1fcee7df90eca362229
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231353"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292175"
 ---
 # <a name="verify-federation-and-remote-access-for-external-users"></a>Comprobar la federación y el acceso remoto de usuarios externos
 
-Después de trasladar la ruta de federación para el Skype para servidor perimetral de Business Server 2019, debe realizar algunas pruebas funcionales para comprobar que la federación funciona del modo esperado. Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos cualquiera o todas las opciones siguientes.
+Después de la transición de la ruta de Federación al servidor perimetral de Skype empresarial Server 2019, debe realizar algunas pruebas funcionales para comprobar que la Federación se ejecuta según lo previsto. Las pruebas de acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos algunos de los siguientes elementos o todos ellos.
   
-### <a name="test-connectivity-of-external-users-and-external-access"></a>Probar la conectividad de los usuarios externos y acceso externo
+### <a name="test-connectivity-of-external-users-and-external-access"></a>Probar la conectividad de usuarios externos y acceso externo
 
-- Instalación de los usuarios al menos un dominio federado, un usuario interno de Skype para Business Server 2019 y un usuario en el heredado. Probar la mensajería instantánea (IM), presencia, audio y vídeo (A / V) y uso compartido de escritorio.
+- Usuarios de al menos un dominio federado, un usuario interno de Skype empresarial Server 2019 y un usuario en la instalación heredada. Prueba la mensajería instantánea (mi), la presencia, el audio/vídeo (A/V) y el uso compartido del escritorio.
     
-- Los usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para la que se ha completado el aprovisionamiento) comunicarse con un usuario de Skype para Business Server 2019 y un usuario de la instalación heredado. 
+- Los usuarios de cada proveedor de servicios de mensajería instantánea pública que su organización admita (y para el que se haya completado el aprovisionamiento) se comuniquen con un usuario de Skype empresarial Server 2019 y de un usuario en la instalación heredada. 
     
-- Compruebe que los usuarios anónimos se pueden unir a las conferencias.
+- Comprobar que los usuarios anónimos pueden unirse a conferencias.
     
-- Un usuario hospedado en el heredado instalar con acceso de usuarios remotos (registro i nPara Lync Server/Skype para la empresa desde fuera de la intranet, pero sin VPN) con un usuario de Skype para Business Server 2019 y un usuario en la instalación heredado. Mensajería instantánea, presencia, de prueba de un uso compartido V y escritorio.
+- Un usuario alojado en la instalación heredada con acceso de usuarios remotos (inicio de sesión, prensi Lync Server/Skype empresarial desde fuera de la intranet pero sin VPN) con un usuario de Skype empresarial Server 2019 y un usuario en la instalación heredada. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
     
-- Un usuario hospedado en Skype para Business Server 2019 con acceso de usuarios remotos (inicio de sesión en Skype para Business Server 2019 desde fuera de la intranet, pero sin VPN) con un usuario de Skype para Business Server 2019 y un usuario de la instalación heredado. Mensajería instantánea, presencia, de prueba de un uso compartido V y escritorio.
+- Un usuario hospedado en Skype empresarial Server 2019 con acceso de usuario remoto (iniciar sesión en Skype empresarial Server 2019 desde fuera de la intranet pero sin VPN) con un usuario en Skype empresarial Server 2019 y un usuario en la instalación antigua. Prueba la mensajería instantánea, la presencia, la A/V y el uso compartido del escritorio.
     
 

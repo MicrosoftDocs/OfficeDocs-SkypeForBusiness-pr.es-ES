@@ -5,37 +5,37 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c44736-71ba-4fc5-82c7-1df65bf6261c
-description: La vista VoIPDetails almacena información acerca de las sesiones de punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 6fb1dede975e59c0ae56fe9872472310c914f685
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La vista VoIPDetails almacena información sobre sesiones de punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se presentó en Microsoft Lync Server 2013.
+ms.openlocfilehash: 7f5f1e3cf1540e1a12a9365753e494ff2d8a371e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930032"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295667"
 ---
 # <a name="voipdetails-view"></a>Vista VoIPDetails
  
-La vista VoIPDetails almacena información acerca de las sesiones de punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista VoIPDetails almacena información sobre sesiones de punto a punto, donde al menos un usuario es un usuario de VoIP. Esta vista se presentó en Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vista VoIPDetails contiene todos los de las columnas de la [SessionDetails view](sessiondetails-0.md) además las columnas enumeradas a continuación.
+> La vista VoIPDetails contiene todas las columnas de la [vista SessionDetails](sessiondetails-0.md) además de las columnas que se muestran a continuación.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**FromPhone** <br/> |nvarchar(450)  <br/> |URI de teléfono del usuario que inició la sesión.  <br/> |
-|**ToPhone** <br/> |nvarchar(450)  <br/> |URI de teléfono del usuario que ha iniciado la sesión.  <br/> |
-|**DisconnectedByUri** <br/> |nvarchar(450)  <br/> |URI del usuario que ha desconectado la sesión.  <br/> |
-|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que ha desconectado la sesión. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
-|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario que ha desconectado la sesión.  <br/> |
-|**DisconnectedByPhone** <br/> |nvarchar(450)  <br/> |URI de teléfono del usuario que ha desconectado la sesión.  <br/> |
+|**FromPhone** <br/> |nvarchar (450)  <br/> |URI de teléfono del usuario que inició la sesión.  <br/> |
+|**Teléfono** <br/> |nvarchar (450)  <br/> |URI de teléfono del usuario que se unió a la sesión.  <br/> |
+|**DisconnectedByUri** <br/> |nvarchar (450)  <br/> |URI del usuario que desconectó la sesión.  <br/> |
+|**DisconnectedByUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que ha desconectado la sesión. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
+|**DisconnectedByTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario que desconectó la sesión.  <br/> |
+|**DisconnectedByPhone** <br/> |nvarchar (450)  <br/> |URI de teléfono del usuario que desconectó la sesión.  <br/> |
 |**FromMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediación usado por el usuario que inició la sesión.  <br/> |
-|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediación usado por el usuario que ha iniciado la sesión.  <br/> |
+|**ToMediationServer** <br/> |nvarchar(256)  <br/> |Servidor de mediación usado por el usuario que se unió a la sesión.  <br/> |
 |**FromGateway** <br/> |nvarchar(256)  <br/> |Puerta de enlace usada por el usuario que inició la sesión.  <br/> |
-|**ToGateway** <br/> |nvarchar(256)  <br/> |Puerta de enlace usada por el usuario que ha iniciado la sesión.  <br/> |
+|**ToGateway** <br/> |nvarchar(256)  <br/> |Puerta de enlace usada por el usuario que se unió a la sesión.  <br/> |
    
 

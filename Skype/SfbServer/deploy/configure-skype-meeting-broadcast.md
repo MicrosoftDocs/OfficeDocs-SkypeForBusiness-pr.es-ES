@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,33 +14,33 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
-description: 'Resumen: Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.'
-ms.openlocfilehash: 4eb117715905a9d371b725c8da7a992b9fdee6b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los pasos que debe realizar para configurar la difusión de reunión de Skype para su implementación híbrida local de Skype empresarial Server.'
+ms.openlocfilehash: b744ae55fe9c866b2f65c816e471ed077312df13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894207"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291668"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Configure your on-premises deployment for Skype Meeting Broadcast
  
-**Resumen:** Obtenga información sobre los pasos que necesarios para llevar a cabo para configurar Difundir presentación de reunión de Skype para su Skype local para la implementación híbrida de Business Server.
+**Resumen:** Obtenga más información sobre los pasos que debe realizar para configurar la difusión de reunión de Skype para su implementación híbrida de Skype empresarial Server local.
   
-Difundir presentación de reunión de Skype es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype para Business Server local y desea usar Difundir presentación de reunión de Skype en su entorno, debe seguir los pasos de configuración en este tema. Antes de empezar, el entorno debe configurarse para la implementación híbrida con Skype para profesionales en línea. Para más información, vea [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) y [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
+Difusión de reunión de Skype es un servicio en línea que forma parte de Office 365. Si está ejecutando Skype empresarial Server local y desea usar difusión de reunión de Skype en su entorno, tendrá que seguir los pasos de configuración de este tema. Antes de empezar, debe configurar su entorno para que sea híbrido con Skype empresarial online. Para más información, vea [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/plan-hybrid-connectivity.md?toc=/SkypeForBusiness/sfbhybridtoc/toc.json) y [Deploy hybrid connectivity between Skype for Business Server and Skype for Business Online](../skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity.md).
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar su entorno híbrido para difundir presentación de reunión de Skype
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Configurar el entorno híbrido para difusión de reunión de Skype
 
-Debe hacer lo siguiente para preparar su entorno para difundir presentación de reunión de Skype:
+Tendrá que seguir estos pasos para preparar el entorno para la difusión de reunión de Skype:
   
-- Configurar la federación con Skype para recursos en línea de negocio
+- Configurar la Federación con recursos de Skype empresarial online
     
 - Configurar los dominios federados SIP
     
-### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurar la federación con Skype para recursos en línea de negocio
+### <a name="configure-federation-with-skype-for-business-online-resources"></a>Configurar la Federación con recursos de Skype empresarial online
 
-Para habilitar la federación con Skype para recursos en línea de negocio, debe configurar el acceso externo para un proveedor SIP federado. Para llevar a cabo mediante el uso de la Skype para el Panel de Control de Business Server, siga estos pasos:
+Para habilitar la Federación con recursos de Skype empresarial online, debe configurar el acceso externo para un proveedor federado de SIP. Para hacerlo con el panel de control de Skype empresarial Server, siga estos pasos:
   
-1. Inicie el Skype para el Panel de Control de servidor empresarial y seleccione **Acceso externo** a la izquierda.
+1. Inicie el panel de control de Skype empresarial Server y seleccione **acceso externo** a la izquierda.
     
 2. Seleccione **Proveedores federados SIP** y haga clic en **Nuevo**.
     
@@ -53,7 +53,7 @@ Para habilitar la federación con Skype para recursos en línea de negocio, debe
 |**Servicio perimetral de acceso (FQDN):** <br/> |sipfed.resources.lync.com  <br/> |
 |**Nivel de verificación predeterminado:** <br/> |Permita a los usuarios comunicarse con todos los usuarios con este proveedor.  <br/> |
    
-También puede habilitar la federación con Skype para recursos en línea de negocio ejecutando el siguiente cmdlet en el Skype para Shell de administración de servidor empresarial:
+También puede habilitar la Federación con recursos de Skype empresarial online ejecutando el siguiente cmdlet en el shell de administración de Skype empresarial Server:
   
 ```
 New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.lync.com -VerificationLevel AlwaysVerifiable -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $True -IsLocal $False
@@ -61,9 +61,9 @@ New-CsHostingProvider -Identity LyncOnlineResources -ProxyFqdn sipfed.resources.
 
 ### <a name="configure-sip-federated-domains"></a>Configurar los dominios federados SIP
 
-A continuación, deberá agregar dominios federados SIP a la lista de dominios permitidos. Repita estos pasos para cada uno de los dominios enumerados, mediante la creación de 4 nuevos dominios federados SIP. Incluyen estos dominios son para los datos regionales centros usados en Skype para profesionales en línea.
+A continuación, debe agregar dominios federados SIP a la lista de dominios permitidos. Repita estos pasos para cada uno de los dominios enumerados, mediante la creación de 4 nuevos dominios federados SIP. Estos dominios incluyen los centros de datos regionales que se usan en Skype empresarial online.
   
-1. Inicie el Skype para el Panel de Control de servidor empresarial y seleccione **Acceso externo** a la izquierda.
+1. Inicie el panel de control de Skype empresarial Server y seleccione **acceso externo** a la izquierda.
     
 2. Seleccione **Dominios federados SIP** y haga clic en **Nuevo**.
     
@@ -77,7 +77,7 @@ A continuación, deberá agregar dominios federados SIP a la lista de dominios p
     
    - resources.lync.com
     
-También puede configurar el acceso externo para los dominios federados SIP mediante la ejecución de los siguientes cmdlets en el Skype para Shell de administración de servidor empresarial:
+También puede configurar el acceso externo para los dominios federados de SIP ejecutando los siguientes cmdlets en el shell de administración de Skype empresarial Server:
   
 ```
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -86,6 +86,6 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Una vez que haya completado estos pasos de configuración puede empezar a usar Difundir presentación de reunión de Skype en su implementación. Para obtener más información acerca de la difusión de reunión de Skype, vea [¿Qué es una reunión de Skype difusión?](https://go.microsoft.com/fwlink/?LinkId=617071) y [Guía de administración de Difundir presentación de Skype reunión](https://go.microsoft.com/fwlink/?LinkId=617075).
+Una vez que haya completado estos pasos de configuración, puede empezar a usar difusión de reunión de Skype en su implementación. Para obtener más información sobre la difusión de reunión de Skype, vea [¿Qué es una difusión de reunión de Skype? y la](https://go.microsoft.com/fwlink/?LinkId=617071) [Guía de administrador de difusión de reunión de Skype](https://go.microsoft.com/fwlink/?LinkId=617075).
   
 

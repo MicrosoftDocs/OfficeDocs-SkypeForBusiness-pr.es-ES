@@ -3,33 +3,33 @@ title: Aprovisionamiento de cuentas del Sistema de salas de Skype en Office 365
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lea este tema para obtener información acerca del aprovisionamiento de cuentas de Sistema de salas de Skype en Office 365.
-ms.openlocfilehash: 658b5c29cd357bb8e7828b17f8722d5d017de24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 87643d04879888d59739c997e37108c6c7403101
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895253"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301543"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-office-365"></a>Aprovisionamiento de cuentas del Sistema de salas de Skype en Office 365
  
 Lea este tema para obtener información acerca del aprovisionamiento de cuentas de Sistema de salas de Skype en Office 365.
   
-En la siguiente sección, se explica la cuenta del sistema de salas de Skype aprovisionamiento para un inquilino de Office 365.
+La siguiente sección cubre el aprovisionamiento de la cuenta del sistema de salas de Skype para un inquilino de Office 365.
   
 ## <a name="office-365-prerequisites"></a>Requisitos previos de Office 365
 
 El inquilino en línea debe cumplir los siguientes requisitos:
   
-- El plan de Office 365 debe incluir Skype para 2 Plan en línea de negocio, o Office 365 E1, E3 o E5. <br/>Para obtener información detallada en Skype para planes de negocios de en línea, vea la [Skype para la descripción de servicio en línea de negocio](https://technet.microsoft.com/library/jj822172.aspx).
+- El plan de Office 365 debe incluir Skype empresarial online plan 2 u Office 365 E1, E3 o E5. <br/>Para obtener más información sobre los planes de Skype empresarial online, consulte la [Descripción del servicio de Skype empresarial online](https://technet.microsoft.com/library/jj822172.aspx).
     
-- El inquilino debe tener la capacidad de conferencia de Skype para la empresa habilitado.
+- Su inquilino debe tener habilitada la función de conferencia de Skype empresarial.
     
 - El inquilino debe tener Exchange Online habilitado. 
     
@@ -37,29 +37,29 @@ El inquilino en línea debe cumplir los siguientes requisitos:
     
   - Acceso remoto a PowerShell de Exchange
     
-  - Skype para el acceso de PowerShell remoto en línea de negocio
+  - Acceso remoto a PowerShell de Skype empresarial online
     
-  - Windows Azure Active Directory módulo para Windows PowerShell para acceso al directorio de acceso a Office 365
+  - Módulo Windows Azure Active Directory para Windows PowerShell para obtener acceso al directorio de Office 365
     
 Para la cuenta de Salas de Skype, se necesita la siguiente licencia:
   
-- Se requiere un Skype para profesionales Online Plan 2 o Office 365 E1 o E3 licencia para habilitar las reuniones de Skype.
+- Para habilitar las reuniones de Skype, es necesario disponer de una licencia de Skype empresarial online plan 2 u Office 365 E1 o E3.
     
-- Para dar derecho a la sala con la capacidad de Enterprise Voice, por lo que se puede habilitar la sala con un número de teléfono, un Skype para Online Plan 2 de negocio con la licencia del sistema de teléfono o E5 de Office 365 es necesaria (1).
+- Para asignar un número de teléfono a la sala con la funcionalidad de telefonía IP empresarial de modo que se pueda habilitar la sala con un número de teléfono, se requiere un plan 2 de Skype empresarial online con la licencia de sistema telefónico u Office 365 E5 (1).
     
-- Si necesita capacidades de marcado de una reunión, necesitará una conferencia de audio y la licencia del sistema telefónico.  Si necesita las capacidades de acceso telefónico de salida de una reunión, necesitará un nacionales o nacional e internacional de llamada Plan. 
+- Si necesita capacidades de acceso telefónico desde una reunión, necesitará una licencia de audioconferencia y sistema telefónico.  Si necesita poder llamar desde una reunión, necesitará un plan de llamadas nacionales o nacionales e internacionales. 
     
 - No se necesita una licencia de Exchange Online para la cuenta de Salas de Skype porque la cuenta debería configurarse como una cuenta de buzón del recurso.
     
 ## <a name="provisioning-overview"></a>Información general de aprovisionamiento
 
-En el siguiente diagrama proporciona una visión general de la cuenta del sistema de salas de Skype aprovisionamiento flujo en Office 365.
+El siguiente diagrama ofrece una descripción general del flujo de aprovisionamiento de cuentas del sistema de salas de Skype en Office 365.
   
 ![Pasos de aprovisionamiento del sistema de salas de Skype para O365](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identificar una nueva sala de conferencias
 
-Es posible que ya tiene un buzón de sala de recursos de Exchange que proporciona la característica de programación, o puede crear un buzón de recursos por primera vez facilitar la implementación del sistema de salas de Skype. En cualquier caso, debe identificar una cuenta de sala para que la use el inquilino. El aprovisionamiento de Exchange Online y Skype para las secciones de aprovisionamiento de negocio proporcionan instrucciones para ambos tipos de cuentas. Por ejemplo, supongamos que tiene los siguientes dos salas y que le gustaría implementar del sistema de sala de Skype para ambos tipos de ellos:
+Es posible que ya tenga un buzón de sala de recursos en Exchange que proporcione la característica de programación o que cree un buzón de recursos por primera vez para facilitar la implementación de sistemas de salas de Skype. En cualquier caso, debe identificar una cuenta de sala para que la use el inquilino. Las secciones de provisiones de Exchange Online y de Skype empresarial proporcionan orientación para ambos tipos de cuentas. Por ejemplo, supongamos que tiene las dos salas siguientes y le gustaría implementar el sistema de salas de Skype para ambos:
   
 - Cuenta existente de buzón de recursos: confrm1@contoso.onmicrosoft.com
     
@@ -67,9 +67,9 @@ Es posible que ya tiene un buzón de sala de recursos de Exchange que proporcion
     
 ## <a name="exchange-online-provisioning"></a>Aprovisionamiento de Exchange Online
 
-En primer lugar, se conecte a Exchange Online PowerShell siguiendo las instrucciones que aparecen en el tema, [Connect to Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
+En primer lugar, conéctese a Exchange Online PowerShell siguiendo las instrucciones de este tema, [Conéctese a Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=396554).
   
-Para establecer una cuenta de buzón de sala de recurso existente de Skype salón de sistema, ejecute los siguientes comandos en Exchange Online PowerShell:
+Para configurar una cuenta de buzón de sala de recursos existente para el sistema de salas de Skype, ejecute los siguientes comandos en Exchange Online PowerShell:
   
 ```
 $rm="confrm1@contoso.onmicrosoft.com"
@@ -77,7 +77,7 @@ $newpass='pass@word1'
 Set-Mailbox -Identity $rm  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Para crear una nueva cuenta de buzón de recursos de Exchange para el sistema de sala de Skype, ejecute los siguientes comandos en Exchange Online PowerShell:
+Para crear una cuenta nueva de buzón de recursos de Exchange para el sistema de salas de Skype, ejecute los siguientes comandos en Exchange Online PowerShell:
   
 ```
 $rm="confrm2@contoso.onmicrosoft.com"
@@ -85,21 +85,21 @@ $newpass='pass@word1'
 New-Mailbox -Name "Conf Room 2" -MicrosoftOnlineServicesID $rm -Room  -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString $newpass -AsPlainText -Force)
 ```
 
-Los comandos anteriores configuración o creación una nueva cuenta de buzón de recursos de Exchange para uso del sistema de salas de Skype mediante la habilitación de la cuenta.
+Los comandos anteriores para configurar o crear una cuenta nueva de buzón de recursos de Exchange para el uso del sistema de salas de Skype habilitando la cuenta.
   
-Después de crear el buzón de correo, puede usar el cmdlet Set-CalendarProcessing en Exchange Online PowerShell para configurar el buzón de correo. Haga referencia a los pasos 3 a 6 en implementaciones locales de bosque único para obtener más información.
+Después de crear el buzón de correo, puede usar el cmdlet Set-CalendarProcessing en Exchange Online PowerShell para configurarlo. Haga referencia a los pasos 3 a 6 en implementaciones locales de bosque único para obtener más información.
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Asignar una licencia de Skype Empresarial Online
 
-Ahora puede asignar un Skype para profesionales Online (Plan 2) o de Skype para licencia empresarial en línea (planeación de 3) mediante el portal administrativo de Office 365, tal como se describe en [asignar o quitar licencias de Office 365 para profesionales](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en [Skype para el complemento de Business concesión de licencias](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
+Ahora puede asignar una licencia de Skype empresarial online (plan 2) o Skype empresarial online (Plan 3) mediante el portal administrativo de Office 365 según se describe en [asignar o quitar licencias de office 365 para empresas](https://support.office.com/en-us/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) o en el [complemento de Skype empresarial licencias](https://support.office.com/en-US/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
-Después de asignar una licencia de Skype para profesionales en línea, podrá iniciar sesión y validar que la cuenta está activa con cualquier Skype para clientes empresariales.
+Después de asignar una licencia para Skype empresarial online, podrá iniciar sesión y validar que la cuenta esté activa con cualquier cliente de Skype empresarial.
   
 ## <a name="skype-for-business-online-provisioning"></a>Aprovisionamiento de Skype Empresarial Online
 
-Después de una sala de recurso se ha creado y habilitado tal y como se ha mostrado anteriormente cuenta de buzón de correo y la cuenta tiene licencia para Skype para profesionales en línea la cuenta se sincronizarán desde el bosque de Exchange Online a Skype para el bosque en línea de negocio mediante la Bosque de Active Directory de Windows Azure. Los siguientes pasos son necesarios para aprovisionar la cuenta del sistema de salas de Skype en el Skype para un grupo de servidores en línea de negocio. Estos pasos son los mismos para una cuenta de buzón de recursos existente o una cuenta recién creada (confrm1 o confrm2), porque una vez que están habilitados en Exchange Online, ambas cuentas se sincronizarán con Skype para profesionales en línea de la misma manera:
+Una vez que se ha creado y habilitado una cuenta de buzón de sala de recursos como se ha mostrado anteriormente, y se ha autorizado la cuenta para Skype empresarial online, la cuenta se sincronizará desde el bosque de Exchange Online a un bosque de Skype empresarial online con el Bosque de Windows Azure Active Directory. Para aprovisionar la cuenta del sistema de salas de Skype en el grupo de Skype empresarial online, debe seguir estos pasos. Estos pasos son los mismos para una cuenta de buzón de recursos existente o una cuenta recién creada (confrm1 o confrm2), porque una vez que se habilitan en Exchange Online, estas dos cuentas se sincronizarán con Skype empresarial online de la misma manera:
   
-1. Cree una sesión remota de PowerShell. Tenga en cuenta que necesitará descargar Skype para el módulo del conector de negocio en línea y Microsoft Asistente en línea de servicios de inicio de sesión y asegúrese de que el equipo está configurado. Para obtener más información, vea [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+1. Cree una sesión remota de PowerShell. Tenga en cuenta que tendrá que descargar el módulo del conector de Skype empresarial online y el ayudante para el inicio de sesión de Microsoft Online Services y asegurarse de que su equipo está configurado. Para obtener más información, vea [configurar el equipo para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
     
    ```
    Import-Module LyncOnlineConnector
@@ -107,13 +107,13 @@ Después de una sala de recurso se ha creado y habilitado tal y como se ha mostr
    Import-PSSession $cssess -AllowClobber
    ```
 
-2. Para habilitar una cuenta de sistema de salas de Skype para Skype para la empresa, ejecute el siguiente comando:
+2. Para habilitar una cuenta de sistema de Skype Room para Skype empresarial, ejecute el siguiente comando:
     
    ```
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Puede obtener el RegistrarPool devuelve la dirección donde están hospedados su Skype para los usuarios empresariales de una de las cuentas existentes mediante el comando siguiente para esta propiedad:
+    Puede obtener la dirección de RegistrarPool en la que los usuarios de Skype empresarial estén alojados desde una de sus cuentas existentes con el siguiente comando para que devuelva esta propiedad:
     
    ```
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*
@@ -122,7 +122,7 @@ Después de una sala de recurso se ha creado y habilitado tal y como se ha mostr
   
 ## <a name="password-expiration"></a>Caducidad de la contraseña
 
-En Office 365, la directiva de caducidad de la contraseña predeterminada de todas las cuentas de usuario es de 90 días a no ser que configure una directiva de caducidad de la contraseña diferente. Para las cuentas del sistema de salas de Skype, puede seleccionar la contraseña nunca caduca configuración con los siguientes pasos.
+En Office 365, la directiva de caducidad de la contraseña predeterminada de todas las cuentas de usuario es de 90 días a no ser que configure una directiva de caducidad de la contraseña diferente. Para las cuentas del sistema de salas de Skype, puede seleccionar la opción la contraseña nunca vence con los pasos siguientes.
   
 1. Cree una sesión en Windows Azure Active Directory mediante el uso de las credenciales de administrador global de inquilinos.
     
@@ -131,15 +131,15 @@ En Office 365, la directiva de caducidad de la contraseña predeterminada de tod
     Connect-MsolService -Credential $cred
     ```
 
-2. Establecer la contraseña nunca caduca la configuración de la cuenta de sala del sistema de salas de Skype creada anteriormente mediante el comando siguiente:
+2. Establezca la configuración de la contraseña nunca vence para la cuenta de sala del sistema de salas de Skype creada anteriormente con el siguiente comando:
     
    ```
    Set-MsolUser -UserPrincipalName confrm1@skypelrs.onmicrosoft.com -PasswordNeverExpires $true
    ```
 
-Para obtener más información, vea [Configurar el equipo de Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
+Para obtener más información, vea [configurar el equipo para Windows PowerShell](https://docs.microsoft.com/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell).
   
-## <a name="validate"></a>Validar
+## <a name="validate"></a>Valide
 
-Para la validación, debe usar cualquier Skype para clientes empresariales para iniciar sesión en la cuenta que creó.
+Para la validación, debe poder usar cualquier cliente de Skype empresarial para iniciar sesión en la cuenta que ha creado.
 

@@ -1,10 +1,10 @@
 ---
-title: Ver información sobre los troncos SIP individuales en Skype para Business Server
+title: Ver información sobre los troncos SIP individuales en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: adfacb74-7ea5-4c53-934e-ba7ec59879eb
-description: 'Resumen: Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server.'
-ms.openlocfilehash: a7cf290bf245092e08babcaa86c642dd0f0a4265
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a ver información sobre los troncos SIP en Skype empresarial Server.'
+ms.openlocfilehash: a8cb5559b1431987adeef7c50b7810b7e9b4adc7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892240"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300919"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype para Business Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo ver información acerca de troncos SIP en Skype para Business Server.
+**Resumen:** Aprenda a ver información sobre los troncos SIP en Skype empresarial Server.
   
-Troncos SIP se utilizan para conectar Skype para Business Server voz a través de la red de teléfono IP con la red telefónica pública conmutada (RTC). En la versión anterior del producto, los enlaces troncales se usaban para enrutar las llamadas salientes de un servidor de mediación a una puerta de enlace RTC, y cada puerta de enlace estaba limitada a un único enlace troncal. Como resultado, la puerta de enlace RTC y el enlace troncal SIP eran básicamente idénticos. Para los administradores, eso significaba que podían ver información sobre un enlace troncal SIP individual al ver información sobre la puerta de enlace RTC asociada.
+Los troncos SIP se usan para conectar la red telefónica de voz a través de IP de Skype empresarial Server con la red de telefonía pública conmutada (RTC). En la versión anterior del producto, los enlaces troncales se usaban para enrutar las llamadas salientes de un servidor de mediación a una puerta de enlace RTC, y cada puerta de enlace estaba limitada a un único enlace troncal. Como resultado, la puerta de enlace RTC y el enlace troncal SIP eran básicamente idénticos. Para los administradores, eso significaba que podían ver información sobre un enlace troncal SIP individual al ver información sobre la puerta de enlace RTC asociada.
   
-En Skype para Business Server, sin embargo, varios troncos ahora se pueden asignar a una única puerta de enlace de RTC; Esto significa que las puertas de enlace y troncos ya no son el mismos. A su vez, eso significa que los administradores deben usar el cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) nueva con el fin de ver información sobre un tronco SIP individual.
+Sin embargo, en Skype empresarial Server, ahora se pueden asignar varios troncos a una sola puerta de enlace PSTN; Esto significa que las puertas de enlace y los troncos ya no están en el mismo. A su vez, esto significa que los administradores deben usar el nuevo cmdlet [Get-CsTrunk](https://docs.microsoft.com/powershell/module/skype/get-cstrunk?view=skype-ps) para ver información sobre un tronco SIP individual.
   
 ### <a name="to-view-information-for-all-your-sip-trunks"></a>Para ver información sobre todos los enlaces troncales SIP
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.MediationServerScopeNode
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 3bad9844-2d3c-4ac7-adde-5b382f02d18d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Este nodo muestra los puertos de escucha y las puertas de enlace de red telefónica conmutada (RTC) asociadas a este grupo de servidores de mediación. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: f432f744bef234e73fea2a30a290fee279b645b3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ec3a58d9868788010a653effa022b73320434b5d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885594"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299205"
 ---
 # <a name="mediation-server-scope-node"></a>Nodo de ámbito del servidor de mediación
  

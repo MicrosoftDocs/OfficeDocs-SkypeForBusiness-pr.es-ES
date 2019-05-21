@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: In addition to getting phone numbers for your users from Office 365, you can search and acquire toll or toll-free phone numbers for services such as audio conferencing (for conference bridges), auto attendants, and call queues (also called service numbers). Service phone numbers have a higher concurrent calling capacity than user or subscriber phone numbers.
-ms.openlocfilehash: e1f4020e7062066451eebd626832da8d4a633069
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ca00db8882837bc748dee89a100b2e7d9dd2d04f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32227878"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297975"
 ---
 # <a name="getting-service-phone-numbers"></a>Obtener números de teléfono de servicio
 
@@ -35,29 +35,29 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 > [!NOTE]
 > Office 365 Communications Credits must be set up first in order to acquire toll-free numbers. See [Set up Communications Credits for your organization](/microsoftteams/set-up-communications-credits-for-your-organization). 
   
-Tiene dos maneras de obtener números de servicio, por lo que puede usar con Skype para empresas y Microsoft Teams:
+Tiene dos formas de obtener números de servicio para poder usarlos con Skype empresarial y Microsoft Teams:
   
-- Obtenga los nuevos números de Office 365.
+- Obtener números nuevos de Office 365.
     
-- El puerto o transferir los números existentes de su proveedor de servicios o el operador de teléfono para Office 365.
+- Porte o transfiera sus números existentes de su proveedor de servicios u operador telefónico a Office 365.
     
     > [!NOTE]
-    > Cuando se transfiere sus números de servicio, se recomienda que en contacto con el [soporte técnico de Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para asegurarse de que la mayor capacidad llamada simultánea se consideran y configurada correctamente.
+    > Al transferir sus números de servicio, se recomienda encarecidamente que se comunique con el [soporte técnico de Microsoft](https://support.office.com/en-us/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) para asegurarse de que se considere y configure correctamente la capacidad de llamadas simultáneas más altas.
   
 ## <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de** > **equipos y Skype** > **Skype heredado Admin**.
+2. Vaya a los equipos del **Centro** > de administración**y** > al**Administrador heredado**de Skype Skype.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono** > **Agregar nuevo número**y, a continuación, haga clic en **los números de servicio nueva**.
+3. En el navegación de la izquierda, vaya a**números** > de teléfono de **voz** > ,**agregue nuevo número**y, después, haga clic en **nuevos números de servicio**.
     
     > [!IMPORTANT] 
-    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .
     
-4. En la página **Agregar nuevos números de servicio** , elija lo siguiente:
+4. En la página **agregar nuevos números de servicio** , elija lo siguiente:
     
    - **País o región**
     

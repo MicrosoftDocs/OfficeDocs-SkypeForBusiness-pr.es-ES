@@ -1,10 +1,10 @@
 ---
-title: Requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server
+title: Requisitos previos de seguridad y configuración de telefonía IP empresarial en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
-description: 'Resumen: Obtenga información sobre los requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server.'
-ms.openlocfilehash: 3cd6bcd6215790d2f36a49669bc5d7b78c1bcc29
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los requisitos previos de seguridad y configuración de telefonía IP empresarial en Skype empresarial Server.'
+ms.openlocfilehash: b3fced9ecac9020da9601c2ab6831769b34ae00a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892387"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294161"
 ---
-# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server
+# <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Requisitos previos de seguridad y configuración de telefonía IP empresarial en Skype empresarial Server
  
-**Resumen:** Obtenga información acerca de los requisitos previos de configuración y seguridad para Enterprise Voice en Skype para Business Server.
+**Resumen:** Obtenga más información sobre la seguridad y la configuración de los requisitos previos de telefonía IP empresarial en Skype empresarial Server.
   
-Antes de implementar Enterprise Voice, compruebe que su infraestructura cumple la siguiente seguridad, configuración de usuario y los requisitos previos de hardware específico del escenario. 
+Antes de implementar la telefonía IP empresarial, compruebe que su infraestructura cumpla con los requisitos previos de hardware, configuración de usuario y seguridad específicos de escenarios. 
   
 ## <a name="administrative-rights-and-certificate-infrastructure"></a>Derechos administrativos e infraestructura de certificados
 
 Antes de implementar, compruebe lo siguiente:
   
-- Los administradores que implementen Enterprise Voice deben ser miembros del grupo RTCUniversalServerAdmins.
+- Los administradores que implementen la telefonía IP empresarial deben ser miembros del grupo RTCUniversalServerAdmins.
     
 - Los administradores encargados de las tareas de configuración deben poseer los derechos apropiados:
     
@@ -44,23 +44,23 @@ Antes de implementar, compruebe lo siguiente:
 - Hay implementada y configurada una infraestructura de clave administrada (MKI) con una infraestructura de entidad de certificación (CA) de Microsoft o de otro fabricante.
     
     > [!NOTE]
-    > Para obtener información detallada sobre los requisitos de certificado en Skype para Business Server, vea [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
+    > Para obtener más información sobre los requisitos de certificado de Skype empresarial Server, consulte [requisitos ambientales para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para skype empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md). 
   
 ## <a name="user-configuration"></a>Configuración de usuario
 
-Si instala el servidor de mediación con cada grupo de servidores Front-End o servidor Standard Edition durante la implementación de Front-End, la configuración de usuario necesarios para Enterprise Voice se configuraron automáticamente durante la instalación de los archivos para esas funciones de servidor.
+Si ha colocado el servidor de mediación con cada grupo de servidores front-end o servidor Standard Edition durante la implementación front end, la configuración de usuario necesaria para la telefonía IP empresarial se configuró automáticamente durante la instalación de los archivos de esos roles de servidor.
   
-Si va a implementar recién la carga de trabajo de Enterprise Voice en este momento, antes de comenzar el proceso de implementación, designar un número de teléfono principal de cada usuario que va a habilitar para Enterprise Voice. En tanto que administrador, es responsable de asegurarse de que este número sea único. Antes de la implementación, todos los principales de teléfono se deben normalizar los números (el formato correcto) y copiado en propiedad de **URI de línea** de cada usuario mediante Skype para el Panel de Control de servidor empresarial.
+Si ha implementado recientemente la carga de trabajo de telefonía IP empresarial en este momento, antes de comenzar el proceso de implementación, designe un número de teléfono principal para cada usuario que tenga previsto habilitar para telefonía IP empresarial. En tanto que administrador, es responsable de asegurarse de que este número sea único. Antes de la implementación, todos los números de teléfono principales deben normalizarse (formateados correctamente) y copiarse en la propiedad del URI de la **línea** de cada usuario con el panel de control de Skype empresarial Server.
   
 > [!NOTE]
 > Si desea ver ejemplos de números de teléfono principales necesarios en una implementación de Telefonía IP empresarial, consulte [Sample Normalization Rules](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules). 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Pasos siguientes: Instalar archivos o configurar la conectividad RTC
 
-Después de comprobar el software y los requisitos previos para Enterprise Voice puede:
+Después de verificar el software y los requisitos previos del entorno de telefonía IP empresarial, puede:
   
-- Instalar al servidor de mediación, tal y como se describe en [implementar un servidor de mediación en el generador de Skype para Business Server](deploy-a-mediation-server.md), pero sólo si desea implementar un servidor de mediación o grupo de servidores independiente, ya que los servidores de mediación se instalan como parte de Front-End proceso de implementación de Standard Edition server cuando combinado o grupo de servidores.
+- Instale el servidor de mediación, como se describe en [implementar un servidor de mediación en el generador de topologías de Skype empresarial Server](deploy-a-mediation-server.md), pero solo si desea implementar un servidor de mediación o un grupo de mediación independiente, ya que los servidores de mediación están instalados como parte del front-end el proceso de implementación del grupo o del servidor Standard Edition cuando se colocaba.
     
-- O bien, puede empezar a configurar opciones para enrutar las llamadas para los usuarios de Enterprise Voice, tal como se describe en [Configurar troncos en Skype para Business Server](configure-trunks.md).
+- También puede empezar a configurar las opciones para enrutar llamadas para usuarios de Enterprise Voice, como se describe en [configurar los troncos de Skype empresarial Server](configure-trunks.md).
     
 

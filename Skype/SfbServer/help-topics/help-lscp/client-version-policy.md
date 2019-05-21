@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para que el mayor uso de las características incluidas en Skype para Business Server 2015 y para mejorar la experiencia global del usuario, puede usar el filtro de versiones de cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
-ms.openlocfilehash: 6398c833609f799935148a4dab39810d46f178eb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para aprovechar al máximo las características incluidas en Skype empresarial Server 2015 y para mejorar la experiencia general del usuario, puede usar el filtro de versión del cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
+ms.openlocfilehash: 50687531fe9622240b8caeb75a61c3ac705fe84a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887247"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300010"
 ---
 # <a name="client-version-policy"></a>Directiva de versión de clientes
 
-Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para que el mayor uso de las características incluidas en Skype para Business Server 2015 y para mejorar la experiencia global del usuario, puede usar el filtro de versiones de cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
+Puede especificar la versión de los clientes que se admiten en su entorno. Cuando dos clientes que ejecutan versiones diferentes interactúan entre sí, las características disponibles para cualquiera de esos clientes pueden verse limitadas por las funciones del otro cliente. Para aprovechar al máximo las características incluidas en Skype empresarial Server 2015 y para mejorar la experiencia general del usuario, puede usar el filtro de versión del cliente para restringir las versiones de cliente que se usan en su entorno. Mediante el filtro de versiones de cliente también puede ayudar a reducir los costes asociados al uso de varias versiones de cliente.
 
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
 En la página **Directiva de versión de cliente** puede realizar las siguientes tareas:
 
-- Editar la directiva de versión de cliente predeterminada ( **Global**).
+- Edite la Directiva de versión de cliente predeterminada ( **global**).
 
 - Crear directivas de versión de cliente para un grupo o sitio concreto.
 
@@ -41,7 +41,7 @@ En la página **Directiva de versión de cliente** puede realizar las siguientes
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
 
-- **Nuevo** Puede crear uno o varios de cada una de las siguientes directivas de versión de cliente:
+- **Nuevo** Puede crear una o varias de las siguientes directivas de versión de cliente:
 
   - Directiva de sitio
 
@@ -55,7 +55,7 @@ En las siguientes listas se describen los menús, comandos, campos y propiedades
 
   - **Seleccionar todo** Esta opción selecciona todas las directivas de versión de cliente de la lista.
 
-  - **Eliminar** Esta opción elimina todas las directivas de versión de cliente seleccionada.
+  - **Eliminar** Esta opción elimina todas las directivas de versión de cliente seleccionadas.
 
 - **Actualizar** Puede actualizar la lista de directivas de versión de cliente para comprobar el estado de las opciones de todas las directivas de versión de cliente.
 

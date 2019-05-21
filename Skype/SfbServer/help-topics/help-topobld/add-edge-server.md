@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
-description: Para incorporar un servidor perimetral o un grupo de servidores perimetrales al diseño de la topología, se necesita indicar el nombre de dominio completo del servidor en el que se quiere implementar el servidor perimetral o el grupo de servidores perimetrales. Antes de publicar una topología que incluye el servidor perimetral o grupo de servidores perimetrales e instalación de Skype para Business Server, debe haber completado todos los requisitos previos para la implementación de acceso de usuarios externos. Para más detalles sobre estos requisitos previos, mire Preparing for Installation of Servers in the Perimeter Network en la documentación de implementación.
-ms.openlocfilehash: fe699dc3cd658b5f41738f2c7c5d2122a7d5cd5e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para incorporar un servidor perimetral o un grupo de servidores perimetrales al diseño de la topología, se necesita indicar el nombre de dominio completo del servidor en el que se quiere implementar el servidor perimetral o el grupo de servidores perimetrales. Antes de publicar una topología que incluye el servidor perimetral o el grupo de servidores perimetrales e instalar Skype empresarial Server, debe haber completado todos los requisitos previos para implementar el acceso de usuarios externos. Para más detalles sobre estos requisitos previos, mire Preparing for Installation of Servers in the Perimeter Network en la documentación de implementación.
+ms.openlocfilehash: db38c01b87c0595f9157da93c91ec24de256029b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886251"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302813"
 ---
 # <a name="add-edge-server"></a>Agregar servidor perimetral
 
-Para incorporar un servidor perimetral o un grupo de servidores perimetrales al diseño de la topología, se necesita indicar el nombre de dominio completo del servidor en el que se quiere implementar el servidor perimetral o el grupo de servidores perimetrales. Antes de publicar una topología que incluye el servidor perimetral o grupo de servidores perimetrales e instalación de Skype para Business Server, debe haber completado todos los requisitos previos para la implementación de acceso de usuarios externos. Para más detalles sobre estos requisitos previos, mire [Preparing for Installation of Servers in the Perimeter Network](https://technet.microsoft.com/library/5e6c457a-f964-4ef7-a709-97abda9c673a.aspx) en la documentación de implementación.
+Para incorporar un servidor perimetral o un grupo de servidores perimetrales al diseño de la topología, se necesita indicar el nombre de dominio completo del servidor en el que se quiere implementar el servidor perimetral o el grupo de servidores perimetrales. Antes de publicar una topología que incluye el servidor perimetral o el grupo de servidores perimetrales e instalar Skype empresarial Server, debe haber completado todos los requisitos previos para implementar el acceso de usuarios externos. Para más detalles sobre estos requisitos previos, mire [Preparing for Installation of Servers in the Perimeter Network](https://technet.microsoft.com/library/5e6c457a-f964-4ef7-a709-97abda9c673a.aspx) en la documentación de implementación.
 
 > [!IMPORTANT]
 > El nombre que especifique necesita ser idéntico al nombre del equipo configurado en el servidor. Un equipo no incorporado a un dominio tiene un nombre corto de forma predeterminada, no un nombre de dominio completo. El Generador de topologías usa nombres de dominio completos, no nombres cortos. Así pues, necesita configurar un sufijo del Sistema de nombres de dominio (DNS) en el nombre del equipo para poder implementarlo como servidor perimetral no incorporado a un dominio.
 
 > [!TIP]
-> Si tiene previsto implementar un grupo de servidores perimetrales más adelante, seleccione **Grupo de servidores de varios equipos**. Aunque un grupo de servidores se defina como dos o más equipos con equilibrio de carga, puede crear un grupo de servidores de un solo equipo y un nombre de dominio completo de grupo de servidores para ese único equipo. Cuando esté listo para agregar más equipos al grupo de servidores más adelante, debe generador de nuevo para definir al nuevo integrante de grupo de servidores, publique la nueva topología y, a continuación, configurar el nuevo integrante de grupo de servidores de servidor perimetral a través de la Skype para el Asistente para la implementación de servidor de negocio. Asimismo, necesita agregar el nuevo miembro del grupo de servidores al correspondiente equilibrador de carga, equilibrio de carga DNS o equilibradores de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa necesitan usar el mismo tipo de equilibrio de carga. No se puede usar equilibrio de carga DNS en una interfaz perimetral y equilibrio de carga de hardware en la otra. Compruebe que el nuevo servidor miembro se agrega al equilibrador de carga adecuado.
+> Si tiene previsto implementar un grupo de servidores perimetrales más adelante, seleccione **Grupo de servidores de varios equipos**. Aunque un grupo de servidores se defina como dos o más equipos con equilibrio de carga, puede crear un grupo de servidores de un solo equipo y un nombre de dominio completo de grupo de servidores para ese único equipo. Cuando esté listo para agregar más equipos al grupo más adelante, debe volver a crear el generador de topologías para definir el nuevo miembro del grupo, publicar la nueva topología y, a continuación, configurar el miembro del grupo de servidores perimetrales mediante el Asistente para la implementación de Skype empresarial Server. Asimismo, necesita agregar el nuevo miembro del grupo de servidores al correspondiente equilibrador de carga, equilibrio de carga DNS o equilibradores de carga de hardware. La interfaz perimetral interna y la interfaz perimetral externa necesitan usar el mismo tipo de equilibrio de carga. No se puede usar equilibrio de carga DNS en una interfaz perimetral y equilibrio de carga de hardware en la otra. Compruebe que el nuevo servidor miembro se agrega al equilibrador de carga adecuado.
 
 Puede permitir que los usuarios externos tengan acceso al implementar la topología inicial o más adelante. Para más detalles sobre cómo agregar servidores perimetrales o un grupo de servidores perimetrales a una topología ya existente, mire [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación de implementación de servidores perimetrales.
 

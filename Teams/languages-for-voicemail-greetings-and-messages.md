@@ -1,7 +1,7 @@
 ---
 title: Idiomas para los mensajes y los saludos de los correos de voz
-author: CarolynRowe
-ms.author: crowe
+author: dstrome
+ms.author: dstrome
 manager: serdars
 ms.reviewer: wasseemh
 ms.topic: article
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Descubra cuáles son los idiomas que puede configurar en Skype Empresarial para los mensajes predeterminados del sistema. '
-ms.openlocfilehash: eb16bc3e8826cb38727258db64ac061bf969479f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ecd8d9f5b87b67b8ac57f0d0917ea315f264374d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245241"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299915"
 ---
 # <a name="languages-for-voicemail-greetings-and-messages"></a>Idiomas para los mensajes y los saludos de los correos de voz
 
@@ -37,7 +37,7 @@ Para modificar el idioma que Skype Empresarial utiliza para los saludos del corr
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**Idioma** <br/> |**País o región** <br/> |**Código del idioma** <br/> |**¿Está disponible para que un usuario lo vea en el correo electrónico?** <br/> |**¿Está disponible cuando el usuario llama?** <br/> |**¿La transcripción está disponible?** <br/> |
-|Árabe <br/> |Egipto  <br/> |ar-EG  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Árabe <br/> |Egipto  <br/> |ar: EG  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Catalán  <br/> |Catalán  <br/> |ca-ES  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Chino (simplificado)  <br/> |China  <br/> |zh-hans  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |China (RAE de Hong Kong)  <br/> |China  <br/> |zh-hk  <br/> |Sí, pero se utiliza chino (tradicional) (zh-hant).  <br/> | Sí <br/> |Sí, pero se utiliza chino (tradicional) (zh-hant).  <br/> |
@@ -74,7 +74,7 @@ Para modificar el idioma que Skype Empresarial utiliza para los saludos del corr
 |Sueco  <br/> |Suecia  <br/> |sv-SE  <br/> |Sí  <br/> |Sí  <br/> |No  <br/> |
 |Tailandés <br/> |Tailandia  <br/> |th-TH  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
 |Turco  <br/> |Turquía  <br/> |tr-TR  <br/> |Sí   <br/> |Sí  <br/> |No  <br/> |
-|Vietnamita <br/> |Vietnam  <br/> |vi-VN  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
+|Vietnamita <br/> |Vietnam  <br/> |VI-VN  <br/> |Sí   <br/> |Sí   <br/> |Sí  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)

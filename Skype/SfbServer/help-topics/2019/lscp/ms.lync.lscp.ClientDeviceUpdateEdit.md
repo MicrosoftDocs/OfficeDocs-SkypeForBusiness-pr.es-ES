@@ -1,10 +1,10 @@
 ---
-title: Edición de configuración del registro de dispositivo
+title: Edición de configuración de registro de dispositivo
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientDeviceUpdateEdit
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
-description: Puede agregar una configuración de registro de dispositivo a la página Editar configuración de registro que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
-ms.openlocfilehash: a17f10a93fa3743db32dbfa9271dd2f4477ac595
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Puede Agregar una configuración de registro de dispositivo a la página de Editar configuración de registro, que determina el tamaño máximo de la caché de registro, el tamaño máximo de archivo de registro o la cantidad de tiempo que se guarda un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de la organización.
+ms.openlocfilehash: 22eb2c37bb0403cf9abf94da8f2e1460d3757b44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891890"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300445"
 ---
 # <a name="device-log-configuration-edit"></a>Configuración de registro de dispositivo: Editar
  
-Puede agregar una configuración de registro de dispositivo a la página **Editar configuración de registro** que determina el tamaño máximo del registro de la caché, el tamaño del archivo de registro máximo o período de tiempo que se mantiene un archivo de registro antes de que se elimina. Puede cambiar esta configuración según los requisitos de su organización.
+Puede Agregar una configuración de registro de dispositivo a la página de **Editar configuración de registro** , que determina el tamaño máximo de la caché de registro, el tamaño máximo de archivo de registro o la cantidad de tiempo que se guarda un archivo de registro antes de que se purgue. Puede cambiar esta configuración según los requisitos de la organización.
   
 > [!CAUTION]
 > Al depurar los archivos, estos desaparecen para siempre del sistema de archivos. Tras depurar un archivo, no podrá recuperarlo. 
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
-Puede realizar las siguientes tareas en la página **Editar configuración de registro** :
+Puede realizar las siguientes tareas en la página **Editar Registro** :
   
-- Agregar una configuración de registro de dispositivo de forma global o para un sitio concreto.
+- Agregue una configuración de registro de dispositivo globalmente o para un sitio en particular.
     
 - Modificar las opciones para una configuración de registro de dispositivo existente.
     
@@ -39,17 +39,17 @@ Puede realizar las siguientes tareas en la página **Editar configuración de re
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-- **Ámbito** Identifica el ámbito (Global o sitio) de la configuración de registro de dispositivo.
+- **Ámbito** Identifica el ámbito (global o de sitio) de la configuración del registro del dispositivo.
     
-- **Nombre** Puede agregar o modificar el nombre de la configuración de registro de dispositivo.
+- **Nombre** Puede Agregar o modificar el nombre de la configuración del registro del dispositivo.
     
-- **Tamaño máximo de archivo (bytes)** Puede especificar el tamaño máximo de un archivo de registro puede convertirse en antes que se elimine. El valor predeterminado es 1.024.000 bytes (1 MB).
+- **Tamaño máximo de archivo (bytes)** Puede especificar el tamaño máximo que puede tener un archivo de registro antes de purgarlo. El valor predeterminado es 1.024.000 bytes (1 MB).
     
-- **Tamaño máximo de caché (bytes)** Puede especificar la cantidad máxima de información (en bytes) que se puede almacenar en la memoria caché de archivos de registro antes de que se debe borrar la memoria caché y los datos se escriben en un archivo de registro. El valor predeterminado es 512.000 bytes (0,5 MB).
+- **Tamaño máximo de la caché (bytes)** Puede especificar la cantidad máxima de información (en bytes) que se puede mantener en la memoria caché de archivos de registro antes de que se pueda borrar la caché y los datos se escriban en un archivo de registro. El valor predeterminado es 512.000 bytes (0,5 MB).
     
-- **Minutos para vaciar la memoria caché (1-60)** Puede especificar la frecuencia con la información almacenada en la memoria caché de archivos de registro se escribe en el archivo de registro real. Después de que se registran los datos, se borra la memoria caché. El valor predeterminado es de cinco minutos.
+- **Minutos para vaciar la caché (1-60)** Puede especificar la frecuencia con la que se almacena la información almacenada en la memoria caché del archivo de registro en el archivo de registro real. Una vez registrados los datos, la caché se borra. El valor predeterminado es de cinco minutos.
     
-- **Días para mantener los archivos de registro (1-365)** Puede especificar el número de días que se conservan los archivos de registro antes de purgarse. El valor predeterminado es 10 días.
+- **Días para conservar los archivos de registro (1-365)** Puede especificar el número de días que se conservan los archivos de registro antes de que se purguen. El valor predeterminado es de 10 días.
     
 ## <a name="see-also"></a>Vea también
 

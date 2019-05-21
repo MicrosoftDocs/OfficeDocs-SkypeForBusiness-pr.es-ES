@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1c2a3cf2-dc05-472e-8097-a31f3a1aafcb
-description: En la tabla UserSite es una tabla de apoyo. Cada registro representa un sitio de usuario definido en la opción de configuración de red.
-ms.openlocfilehash: 519cedc35c03fd9bcb5479ea3cecf75ec617917c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La tabla UserSite es una tabla de soporte. Cada registro representa un sitio de usuario definido en la configuración de red.
+ms.openlocfilehash: 21f60afdb1690024f85dc74e11f856642413e6a8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906956"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294575"
 ---
 # <a name="usersite-table"></a>Tabla UserSite
  
-En la tabla UserSite es una tabla de apoyo. Cada registro representa un sitio de usuario definido en la opción de configuración de red.
+La tabla UserSite es una tabla de soporte. Cada registro representa un sitio de usuario definido en la configuración de red.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**UserSiteKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica el sitio del usuario.  <br/> |
-|**UserSiteName** <br/> |nvarchar (128)  <br/> |Único  <br/> |Nombre del sitio de usuario.  <br/> |
-|**RegionKey** <br/> |int  <br/> |Externa  <br/> |Referencia de la [tabla de región](region.md).  <br/> |
+|**UserSiteName** <br/> |nvarchar(128  <br/> |Solo  <br/> |Nombre del sitio del usuario.  <br/> |
+|**RegionKey** <br/> |int  <br/> |Extranjero  <br/> |[Tabla de regiones](region.md)a la que se hace referencia.  <br/> |
    
 

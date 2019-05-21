@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-description: 'Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede realizar las acciones siguientes:'
-ms.openlocfilehash: e0a19371b251f7d253b69d47294752d8a11df552
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado y otra información básica sobre esta puerta de enlace de red de telefonía pública conmutada (RTC). Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 52c328f082d29bca4a3253daf665ddcc7fadf4b8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910570"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289878"
 ---
 # <a name="pstn-gateway-scope-node"></a>Nodo de ámbito de puerta de enlace RTC
  
-Nodo muestra el nombre de dominio completo (FQDN), asociado de servidor de mediación y otra información básica acerca de esta puerta de enlace de telefónica conmutada (RTC). Puede efectuar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN), el servidor de mediación asociado y otra información básica sobre esta puerta de enlace de red de telefonía pública conmutada (RTC). Puede efectuar las acciones siguientes:
   
 - **Editar propiedades**. Abre la página **Editar propiedades** de esta puerta de enlace, en la que se puede cambiar su FQDN (si la topología no se ha publicado ya), puerto de escucha, protocolo de transporte y dirección IP de medios alternativa.
     

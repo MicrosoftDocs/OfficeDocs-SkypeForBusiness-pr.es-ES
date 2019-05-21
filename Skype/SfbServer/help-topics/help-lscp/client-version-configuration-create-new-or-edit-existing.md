@@ -1,28 +1,28 @@
 ---
-title: Configuración de la versión de cliente crear nuevos o editar los existentes
+title: Configuración de la versión de cliente crear nueva o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
-description: Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
-ms.openlocfilehash: ce7d24c7671fcf26e3ce6766020d41488078f132
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente global se instala con Skype empresarial Server y se usa para habilitar o deshabilitar el control de versiones de cliente para toda la implementación del servidor. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
+ms.openlocfilehash: 1a42f2a355ead1d98e7e8031b43db879f271dced
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916368"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300059"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Configuración de versiones de cliente: Crear nueva o editar existente
 
-Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente Global se instala con Skype para Business Server y se usa para habilitar o deshabilitar el control de la versión de cliente para la implementación de servidores completa. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
+Los ajustes de configuración de versión de cliente se usan para activar o desactivar el control de versiones de cliente. La configuración de la versión de cliente global se instala con Skype empresarial Server y se usa para habilitar o deshabilitar el control de versiones de cliente para toda la implementación del servidor. Si la configuración Global está habilitada, las directivas de versión de cliente que tenga activas tendrán efecto cuando los usuarios intenten iniciar sesión. Puede deshabilitar la configuración de versión de cliente Global si no desea que se produzca ningún control de versiones de cliente.
 
 También puede crear configuraciones de versión de cliente específicas del sitio, lo que le permite habilitar o deshabilitar el control de versiones de cliente por sitio. Las configuraciones específicas del sitio prevalecen sobre la configuración Global.
 
@@ -40,23 +40,23 @@ En las páginas **Nueva configuración de versión de cliente** o **Editar confi
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
 
-- **Ámbito** Identifica el ámbito (Global o sitio) de la configuración de la versión de cliente.
+- **Ámbito** Identifica el ámbito (global o de sitio) de la configuración de versión del cliente.
 
-- **Nombre** Puede agregar o modificar el nombre de la configuración de la versión de cliente.
+- **Nombre** Puede Agregar o modificar el nombre de la configuración de la versión del cliente.
 
-- **Habilitar control de versiones** Puede habilitar o deshabilitar el control de la versión de cliente globalmente o para el sitio, según el ámbito de la configuración.
+- **Habilitar el control de versiones** Puede habilitar o deshabilitar el control de versiones de cliente globalmente o para el sitio, según el ámbito de la configuración.
 
-- **Acción predeterminada** Puede seleccionar la acción predeterminada que se aplicará cuando un usuario intenta iniciar sesión con una aplicación de cliente para el que no hay ninguna directiva de versión de cliente específico. Tiene las siguientes opciones:
+- **Acción predeterminada** Puede seleccionar la acción predeterminada que se aplicará cuando un usuario intente iniciar sesión con una aplicación cliente para la que no haya ninguna directiva de versión de cliente específica. Tiene las siguientes opciones:
 
-  - **Permitir** Permite que el cliente inicie la sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente.
+  - **Permitir** Permite al cliente iniciar sesión si la versión del cliente no coincide con ningún filtro de la lista de directivas de versión del cliente.
 
-  - **Bloque** Impide que el cliente de inicio de sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente.
+  - **Bloquear** Impide que el cliente inicie sesión si la versión del cliente no coincide con ningún filtro de la lista de directivas de versión del cliente.
 
-  - **Bloquear con dirección URL** Impide que el cliente de inicio de sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
+  - **Bloque con dirección URL** Impide que el cliente inicie sesión si la versión del cliente no coincide con ningún filtro de la lista de directivas de versión del cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
 
-  - **Permitir con dirección URL** Permite que el cliente inicie la sesión si la versión de cliente no coincide con ningún filtro de la lista de directivas de versión de cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
+  - **Permitir con URL** Permite al cliente iniciar sesión si la versión del cliente no coincide con ningún filtro de la lista de directivas de versión del cliente e incluye un mensaje de error que contiene una dirección URL donde se puede descargar un cliente más reciente.
 
-  - **Dirección URL** Si ha seleccionado **Bloquear con dirección URL** o **Permitir con dirección URL**, puede especificar la dirección URL de descarga de cliente para incluir en el mensaje de error.
+  - **Dirección URL** Si ha seleccionado **bloquear con URL** o **permitir con URL**, puede especificar la dirección URL de descarga del cliente que se incluirá en el mensaje de error.
 
 Para más detalles sobre la interoperabilidad entre clientes y versiones de clientes, mire [Client Interoperability in Lync 2013 Preview](https://technet.microsoft.com/library/0f126571-91a2-45d5-855c-1e4ddb45fc04.aspx) en la documentación de planeación. Para más detalles sobre cómo trabajar con configuraciones de versiones de clientes, mire [Modify the Default Action for Clients Not Explicitly Supported or Restricted](https://technet.microsoft.com/library/548dd0f5-62fe-4c3f-8952-2b9fd4c5fff3.aspx) en la documentación de operaciones.
 

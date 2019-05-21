@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 83d39e43149e6da2f624122b398de693097aa509
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: efb6fbcb7650b8da2159ae1c8d27861da0a6ecd5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204354"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300652"
 ---
 # <a name="toll-free-dialing-restrictions-in-honduras"></a>Restricciones de marcado de número gratuito en Honduras
 
-[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> |800 XXXX XXXX  <br/> |
+|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
+|Formato (s) de marcado  <br/> |800 XXXX XXXX  <br/> |
 |Código ISO de país o región  <br/> |HN  <br/> |
-|Isla/territorio que abarque  <br/> |No aplicable  <br/> |
-|Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
-|Disponibilidad de la línea con cable o fijo  <br/> |Solo de Hondutel.  <br/> |
+|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
+|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de línea fija/por cable  <br/> |Solo de Hondutel.  <br/> |
 |Disponibilidad de red móvil  <br/> | Solo de Tigo. <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Ninguna  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

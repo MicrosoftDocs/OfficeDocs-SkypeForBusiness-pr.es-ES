@@ -11,90 +11,90 @@ ms.service: msteams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
-description: Vea cómo configurar los equipos para permitir a los usuarios comunicarse con usuarios de otra organización.
-ms.openlocfilehash: c3faf65dd3f36c193a75e74e73d90bf5e9be11df
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Vea cómo configurar Teams para permitir que los usuarios se comuniquen con los usuarios de otra organización.
+ms.openlocfilehash: f34bd66b018d84a759c2bfbd5a61b6e112245abc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32222374"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299946"
 ---
-# <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
+# <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir a los usuarios de su equipo conversar y comunicarse con los usuarios de otra organización de Teams
 
 Siga los pasos de este artículo cuando:
   
-- Tienen los usuarios en diferentes dominios en su negocio. Por ejemplo, Rob@ContosoEste.com y Ann@ContosoOeste.com.
+- Tiene usuarios en diferentes dominios de su empresa. Por ejemplo, Rob@ContosoEste.com y Ann@ContosoOeste.com.
     
-- Las personas que desee en la organización para usar los equipos ponerse en contacto con las personas de empresas específicas fuera de la organización.
+- Quiere que las personas de su organización usen Teams para ponerse en contacto con personas de empresas específicas de fuera de su organización.
     
-- Cualquier persona que desee en el mundo que usa los equipos que puedan buscar y ponerse en contacto con usted, utilizando su dirección de correo electrónico. Si usted y otro usuario tanto habilitación el acceso externo y permitir que los demás dominios, esto funcionará. Si no funciona, el otro usuario, debe asegurarse de que su o su configuración no esté bloqueando su dominio.
+- Desea que cualquier persona del mundo que use Teams pueda encontrarse y ponerse en contacto con usted, usando su dirección de correo electrónico. Si usted y otro usuario habilitan el acceso externo y permiten los dominios de cada uno, esto funcionará. Si no funciona, el otro usuario debe asegurarse de que su configuración no esté bloqueando su dominio.
 
-Esto le permitirá a los usuarios buscar, llamar y enviar mensajes instantáneos, así como configurar reuniones con usted. Si desea que los usuarios externos tengan acceso a los equipos y los canales, acceso de invitado podría ser una mejor manera para ir. Siga los pasos descritos en este artículo y asegúrese de que al [activar el acceso de invitado](set-up-guests.md) para que los usuarios puedan comunicarse.
+Esto permitirá a los usuarios buscar, llamar y enviar mensajes instantáneos, así como configurar reuniones contigo. Si quiere que los usuarios externos tengan acceso a los equipos y los canales, el acceso de invitados puede ser una mejor manera de hacerlo. Siga los pasos que se indican en este artículo y asegúrese de [activar el acceso de invitado](set-up-guests.md) para que los usuarios puedan comunicarse.
 
 > [!IMPORTANT]
-> Para poder federar actualmente el cliente de Microsoft Teams a un usuario externo fuera de la organización que actualmente no es un invitado de su inquilino de AAD, debe estar correctamente el programa de instalación para la implementación híbrida y movido a Skype para profesionales en línea. A partir de 25/2/2019, los equipos aún no admite federación nativa sin que el usuario del perfil SIP que se hospedados en Skype para profesionales en línea. Para obtener más información sobre la configuración de su cuenta de seguridad para entornos híbridos y, a continuación, se mueven a los equipos, consulte [Actualización de Skype para su implementación híbrida empresarial en los equipos](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
+> Para federarse en este momento dentro del cliente de Microsoft Teams a un usuario externo fuera de su organización que no es actualmente invitado de su AAD/inquilino, debe estar configurado correctamente para un híbrido y pasar a Skype empresarial online. A partir de 2/25/2019, Teams aún no es compatible con la Federación nativa sin que el usuario del perfil SIP se haya alojado en Skype empresarial online. Para obtener más información sobre cómo configurar su cuenta para entornos híbridos y después migrada a Teams, consulte [actualizar la implementación híbrida de Skype empresarial a teams](https://docs.microsoft.com/en-us/microsoftteams/upgrade-to-teams-execute-skypeforbusinesshybrid).
 
-## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir que el chat de los usuarios de los equipos y comunicarse con los usuarios de otra organización de los equipos
+## <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir a los usuarios de su equipo conversar y comunicarse con los usuarios de otra organización de Teams
 
 Siga estos pasos.
 
-### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Paso 1: asegúrese de configurar los puertos y direcciones URL que son necesarios.
+### <a name="step-1---make-sure-to-set-up-the-ports-and-urls-that-are-needed"></a>Paso 1: Asegúrese de configurar los puertos y las direcciones URL que se necesitan.
 
 **El problema más común que se encuentran los usuarios al configurar la comunicación entre empresas es [URL de Office 365 e intervalos de direcciones IP](https://docs.microsoft.com/microsoftteams/office-365-urls-ip-address-ranges) correctamente.**
 
-### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Paso 2: habilitar la organización para comunicarse con otra organización de los equipos
+### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Paso 2: permitir que su organización se comunique con otra organización de Teams
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
 
-   1. En el panel de navegación izquierdo, vaya a **configuración de toda la organización** > **acceso externo**. 
+   1. En el navegación de la izquierda, vaya a **configuración** > de**acceso externo**de la organización. 
 
-   2. En la parte superior de la página de **acceso externo** , haga clic en **acceso externo** a **en**. 
+   2. En la parte superior de la página **acceso externo** , haga clic en **acceso externo** a **activado**. 
 
-   3. Si desea permitir que todas las organizaciones de los equipos para comunicarse con los usuarios de su organización, vaya al paso 5. 
+   3. Si desea permitir que todas las organizaciones de Teams se comuniquen con los usuarios de su organización, vaya al paso 5. 
    
-   4. Si desea limitar que las organizaciones pueden comunicarse con los usuarios de la organización puede permitir que todos los pero algunos dominios o permitir sólo las organizaciones específicas. Para permitir que todos los pero algunos dominios, agregue los dominios que desee bloquear, haga clic en **Agregar dominio**. En el panel **Agregar un dominio** , poner en el nombre de dominio, haga clic en **bloqueado** y, a continuación, en **Listo**. Para limitar las comunicaciones a organizatioins específica, añada esos dominios a la lista con un estado de **Alowed**. Una vez haya agregado cualquier dominio a la lista Permitir, communications a otras organizaciones se limitará a sólo esas organizaciones cuyos dominios se encuentran en la lista Permitir. 
+   4. Si desea limitar las organizaciones que pueden comunicarse con los usuarios de su organización, puede permitir todos los dominios excepto algunos, o solo permitir organizaciones específicas. Para permitir todos los dominios excepto algunos, agregue los dominios que desea bloquear haciendo clic en **Agregar dominio**. En el panel **Agregar un dominio** , escriba el nombre de dominio, haga clic en **bloqueado** y luego en **listo**. Para limitar las comunicaciones a organizatioins específicos, agregue esos dominios a la lista con un estado **** de retengo. Una vez que haya agregado cualquier dominio a la lista de permitidos, las comunicaciones con otras organizaciones se limitarán a las organizaciones cuyos dominios estén en la lista de permitidos. 
    
    5. Haga clic en **Guardar **. 
 
-   6. A continuación, asegúrese de que el Administrador de la organización de los equipos otros estos mismos pasos. Por ejemplo, en su lista de **permitidos dominios** , su administrador debe introducir el dominio para su negocio si limita a que las organizaciones pueden comunicarse con sus usuarios. 
+   6. A continuación, asegúrese de que el administrador de la organización de otros equipos realiza estos mismos pasos. Por ejemplo, en su lista de **dominios permitidos** , su administrador debe entrar en el dominio de su empresa si limita las organizaciones que pueden comunicarse con sus usuarios. 
 
-### <a name="step-3---test-it"></a>Paso 3: ponerlo a prueba
-Para probar el programa de instalación, necesita un usuario de los equipos que no está detrás de un firewall.
+### <a name="step-3---test-it"></a>Paso 3: pruébelo
+Para probar la configuración, necesita un usuario de teams que no esté detrás de su firewall.
   
-   1. Después de que usted y el Administrador de la organización han cambiado la configuración del **acceso externo** , debe proceder.
+   1. Después de que usted y el administrador de la organización hayan cambiado la configuración de **acceso externo** , debe estar listo.
     
-   2. En la aplicación de los equipos, buscar por dirección de correo electrónico a esa persona y enviar una solicitud de conversaciones.
+   2. En la aplicación de Teams, busque la persona por dirección de correo electrónico y envíe una solicitud a una conversación.
     
-   3. Pida a su contacto de los equipos para enviar una solicitud de conversaciones. Si no recibe la solicitud, quiere decir que el problema se encuentra en la configuración de su firewall (siempre que haya confirmado que la configuración de su firewall es correcta).
+   3. Pídale al contacto de su equipo que le envíe una solicitud para chatear. Si no recibe la solicitud, quiere decir que el problema se encuentra en la configuración de su firewall (siempre que haya confirmado que la configuración de su firewall es correcta).
     
-   4. Otra forma de comprobar si el problema es el servidor de seguridad es vaya a una ubicación de wifi no detrás de un firewall, como un cibercafé y use los equipos para enviar una solicitud a su contacto para conversaciones. Si el mensaje se envía en ese momento, pero no sucede lo mismo cuando está en el trabajo, quiere decir que el problema está en el firewall.
+   4. Otra forma de comprobar si el problema es el Firewall es ir a una ubicación WiFi que no esté detrás de su firewall, como una cafetería, y usar Teams para enviar una solicitud a su contacto para conversar. Si el mensaje se envía en ese momento, pero no sucede lo mismo cuando está en el trabajo, quiere decir que el problema está en el firewall.
 
-## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Comunicarse con usuarios en un Skype para la organización empresarial en línea
+## <a name="communicate-with-users-in-a-skype-for-business-online-organization"></a>Comunicarse con los usuarios en una organización de Skype empresarial online
 
-Si se establecer para permitir que la búsqueda de los usuarios de los equipos y contacto a los usuarios que se encuentran en un Skype para la organización de empresa que limita quién puede ponerse en contacto con sus usuarios, le pedirá la administración de esa organización que se deben seguir estos pasos.
+Si está configurando para permitir que los usuarios de su equipo encuentren y se pongan en contacto con usuarios que están en una organización de Skype empresarial y que limitan quién puede comunicarse con sus usuarios, deberá pedirle al administrador de esa organización que siga estos pasos.
 
-![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **Uso de Skype para el centro de administración de negocio** 
+![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial** 
 
-Tener la administración en que la organización siga estos pasos:
+Haga que el administrador de la organización Realice estos pasos:
     
-1. En el centro de administración de Office 365, vaya a **Centros de administrador de** > **& equipos Skype** > **portal heredado**.
+1. En el centro de administración de Office 365, vaya a **centros** > de administración**equipo & de Skype** > **Legacy**.
   
-2. En el **Skype para el centro de administración de negocio**, elija **organización** > **comunicaciones externas**.
+2. En el **centro de administración de Skype empresarial**, elija**comunicaciones externas**de la **organización** > .
     
-3. Para establecer la comunicación con un negocio específicos o con los usuarios en otro dominio, en el cuadro de lista desplegable, elija **sólo para permitido dominios**.
+3. Para configurar la comunicación con una empresa específica o con usuarios de otro dominio, en el cuadro desplegable, elija **activado solo para los dominios permitidos**.
     
-    O bien, si desea habilitar la comunicación con todos los demás en el mundo que tiene abierto Skype para las directivas de negocio, elija **en excepto dominios bloqueados**. Esta es la configuración que se aplica normalmente.
+    O, si desea permitir la comunicación con cualquier persona del mundo que tenga abiertas las directivas de Skype empresarial, elija **activado excepto para los dominios bloqueados**. Esta es la configuración que se aplica normalmente.
     
-4. En **dominios permitidos o bloqueados**, elija **+** y agregue el nombre del dominio que desea permitir. Asegúrese de que el administrador en la otra organización estos mismos pasos. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
+4. En **dominios bloqueados o**permitidos **+** , elija y agregue el nombre del dominio que desea permitir. Asegúrese de que el administrador de la otra organización realiza estos mismos pasos. Por ejemplo, en su lista de **dominios permitidos**, el otro administrador tendrá que especificar el dominio de la empresa de la que usted forma parte.
     
 ### <a name="related-topics"></a>Temas relacionados
 
-[Inicie sesión en Microsoft Teams](sign-in-teams.md)
-[recursos de aprendizaje para los equipos de usuario final](enduser-training.md)
+[Iniciar sesión en Microsoft Teams](sign-in-teams.md)
+[aprendizaje para usuarios finales para equipos](enduser-training.md)
 

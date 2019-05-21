@@ -5,18 +5,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 05ff9dd3-1aaa-4af0-bd69-8789fb8eaeb3
 description: Cada registro representa un evento de registro de usuario.
-ms.openlocfilehash: 1a487a01b0f8b3f6a087099daa32da99b7007445
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7dcf96c5cb5b140711590943eb7ae5d2be8704b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930605"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295863"
 ---
 # <a name="registration-table"></a>Tabla Registration
  
@@ -24,26 +24,26 @@ Cada registro representa un evento de registro de usuario.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Principal, externa  <br/> |Hora de la solicitud de sesión. Se utiliza en forma conjunta con **SessionIdSeq** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Principal, externa  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con **SessionIdTime** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**UserId** <br/> |int  <br/> |Externa  <br/> |El identificador de usuario. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**Valor EndpointId** <br/> |uniqueidentifier  <br/> ||Un GUID para identificar un extremo de registro. Normalmente, el evento de registro desde el mismo equipo del mismo usuario tendrá el mismo identificador de extremo. Equipos diferentes tienen un identificador de extremo diferente.  <br/> |
-|**EndpointEra** <br/> |uniqueIdentifier  <br/> ||Identificador que se usa para diferenciar los registros con el mismo usuario y el mismo extremo.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**ClientVersionId** <br/> |int  <br/> |Externa  <br/> |Versión de cliente del usuario actual. Consulte la [tabla ClientVersions en Skype para Business Server 2015](clientversions.md) para obtener más información. <br/> |
-|**RegistrarId** <br/> |int  <br/> |Externa  <br/> |Identificador del servidor de registrador que se utilizan para el registro. Consulte la [tabla de servidores](servers.md) para obtener más información. <br/> |
-|**PoolId** <br/> |int  <br/> |Externa  <br/> |Identificador del grupo de servidores en el que se ha capturado la sesión. Vea la [tabla de grupos de servidores](pools.md) para obtener más información. <br/> |
-|**EdgeServerId** <br/> |int  <br/> |Externa  <br/> |Servidor perimetral el registro se va a través de. Consulte la [tabla EdgeServers en Skype para Business Server 2015](edgeservers.md) para obtener más información. <br/> |
-|**IsInternal** <br/> |Bit  <br/> ||Si el usuario se registra desde interna o no.  <br/> |
-|**IsUserServiceAvailable** <br/> |bit  <br/> ||Si UserService está disponible o no.  <br/> |
-|**IsPrimaryRegistrar** <br/> |bit  <br/> ||Si registrar con el registrador principal o no.  <br/> |
-|**IsPrimaryRegistrarCentral** <br/> |bit  <br/> ||Indica si el usuario está registrado con una aplicación de sucursal con funciones de supervivencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Principal, extranjero  <br/> |Hora de la solicitud de sesión. Se usa en conjunción con **SessionIdSeq** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Principal, extranjero  <br/> |Número de identificación para identificar la sesión. Se usa en conjunción con **SessionIdTime** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**Iddeusuario** <br/> |int  <br/> |Extranjero  <br/> |El identificador de usuario. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**EndpointId** <br/> |identificador  <br/> ||Un GUID para identificar un extremo de registro. Normalmente, el evento Register del mismo equipo del mismo usuario tendrá el mismo identificador de punto de conexión. Diferentes equipos tienen un identificador de extremo diferente.  <br/> |
+|**EndpointEra** <br/> |Identificador  <br/> ||IDENTIFICADOR usado para diferenciar los registros que implican el mismo usuario y el mismo punto de conexión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**ClientVersionId** <br/> |int  <br/> |Extranjero  <br/> |Versión de cliente del usuario actual. Para obtener más información, consulte la [tabla ClientVersions en Skype empresarial Server 2015](clientversions.md) . <br/> |
+|**RegistrarId** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del servidor del registrador usado para el registro. Para obtener más información, consulte la [tabla servidores](servers.md) . <br/> |
+|**PoolId** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del grupo en el que se capturó la sesión. Para obtener más información, consulte la [tabla grupos](pools.md) . <br/> |
+|**EdgeServerId** <br/> |int  <br/> |Extranjero  <br/> |Servidor perimetral en el que se está realizando la inscripción. Para obtener más información, consulte la [tabla EdgeServers en Skype empresarial Server 2015](edgeservers.md) . <br/> |
+|**IsInternal** <br/> |Algo  <br/> ||Si el usuario ha iniciado sesión desde dentro o no.  <br/> |
+|**IsUserServiceAvailable** <br/> |bit  <br/> ||Si el UserService está disponible o no.  <br/> |
+|**IsPrimaryRegistrar** <br/> |bit  <br/> ||Si se registra en el registrador principal o no.  <br/> |
+|**IsPrimaryRegistrarCentral** <br/> |bit  <br/> ||Indica si el usuario está registrado o no en un equipo de sucursal con la supervivencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
 |**RegisterTime** <br/> |datetime  <br/> ||Hora de registro.  <br/> |
-|**DeRegisterTime** <br/> |datetime  <br/> ||Anulación del registro tiempo.  <br/> |
+|**DeRegisterTime** <br/> |datetime  <br/> ||Hora de Desregistro.  <br/> |
 |**ResponseCode** <br/> |int  <br/> ||Código de respuesta de la solicitud de registro.  <br/> |
-|**DiagnosticId** <br/> |int  <br/> ||Identificador de diagnóstico de la solicitud de registro. Esto indica que ese tipo de información de diagnóstico.  <br/> |
-|**DeviceId** <br/> |int  <br/> |Externa  <br/> |El dispositivo que proviene la solicitud de registro. Consulte la [tabla de dispositivos en Skype para Business Server 2015](devices.md) para obtener más información. <br/> |
-|**DeRegisterTypeId** <br/> |tinyint  <br/> |Externa  <br/> |La razón de de-register, como 'iniciada por el usuario', 'registro expirado', 'error de cliente' y mucho más. Consulte la [tabla DeRegisterType en Skype para Business Server 2015](deregistertype.md) para obtener más información. <br/> |
-|**IPAddress** <br/> |nvarchar(256)  <br/> ||Dirección IP del extremo del usuario registrado con. Esto puede ser una dirección IPv4 o una dirección IPv6.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**LastModifiedTime** <br/> |Fecha y hora  <br/> ||Para uso interno por el servicio de supervisión.  <br/> Este campo se introdujo en Skype para Business Server 2015.  <br/> |
+|**DiagnosticId** <br/> |int  <br/> ||IDENTIFICADOR de diagnóstico de la solicitud de registro. Indica que el tipo de información de diagnóstico.  <br/> |
+|**ID** <br/> |int  <br/> |Extranjero  <br/> |El dispositivo del que procede la solicitud de registro. Para obtener más información, consulte la [tabla dispositivos en Skype empresarial Server 2015](devices.md) . <br/> |
+|**DeRegisterTypeId** <br/> |tinyint  <br/> |Extranjero  <br/> |El motivo de la anulación del registro, como "Iniciado por el usuario", "registro expirado", "error del cliente" y más. Para obtener más información, consulte la [tabla DeRegisterType en Skype empresarial Server 2015](deregistertype.md) . <br/> |
+|**IPAddress** <br/> |nvarchar(256)  <br/> ||Dirección IP del extremo con el que el usuario registró el registro. Puede ser una dirección IPv4 o una dirección IPv6.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**LastModifiedTime** <br/> |Fechas  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype empresarial Server 2015.  <br/> |
    
 

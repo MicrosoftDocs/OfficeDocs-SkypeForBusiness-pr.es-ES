@@ -5,19 +5,19 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 12/20/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Requisitos o requisitos previos de la herramienta Stress and Performance de Skype Empresarial Server 2015. Cómo se instala o se configura la herramienta Stress and Performance.
-ms.openlocfilehash: 51e83736ecc3d8f18937dee8e9fdbb5244662a2a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 37aa89a0e6158b4623711ded8752eab2eb9d77ab
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906588"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299733"
 ---
 # <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Requisitos previos y configuración de la herramienta Stress and Performance de Skype Empresarial
  
@@ -55,11 +55,11 @@ Los sistemas operativos compatibles con la herramienta Stress and Performance so
     
 Además, los equipos deben cumplir los siguientes requisitos de software:
   
-- Tendrá que tener instalado Microsoft .NET 4.5 Framework. [Descargar la 4.5 de .net Framework aquí.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
+- Tendrá que tener instalado Microsoft .NET 4.5 Framework. [Descarga el .net 4,5 Framework aquí.](https://www.microsoft.com/en-us/download/details.aspx?id=30653)
     
 - Deberá tener habilitada la característica Experiencia de escritorio en Windows.
     
-- Tendrá que tener instalado Microsoft Visual C++ 2013 (x64). [Descargar aquí 2013 de Visual C++](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
+- Tendrá que tener instalado Microsoft Visual C++ 2013 (x64). [Descargar Visual C++ 2013 aquí](https://www.microsoft.com/en-us/download/details.aspx?id=40784)
     
 - Va a necesitar que Skype Empresarial Server 2015 esté correctamente implementado.
     
@@ -81,6 +81,6 @@ Para que la herramienta Stress and Performance se ejecute correctamente, necesit
 
 La instalación no podía ser más sencilla. Tiene que ejecutar el archivo de Windows Installer, **CapacityPlanningTool.msi**, en cada equipo cliente que vaya a usar para simular el tráfico de usuarios y en el servidor front-end de cada grupo donde vaya a crear usuarios y contactos.
   
-Para descargar el archivo .msi, junto con las secuencias de comandos de ejemplo que se mencionan en nuestros otros artículos, vaya al vínculo Centro de descarga: [Skype para Business Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
+Para descargar el. msi, junto con los scripts de ejemplo mencionados en nuestros otros artículos, vaya al vínculo centro de descarga: [Skype empresarial Server 2015, herramienta de estrés y rendimiento](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

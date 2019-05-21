@@ -1,10 +1,10 @@
 ---
-title: Configuración de la base de datos de ubicación en Skype para Business Server
+title: Configurar la base de datos de ubicación en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-description: Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: e5f25cfcda35d4a78a369a2a5103f7bcd5b06a40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice.
+ms.openlocfilehash: 82182a27c1459005d19c8a50d0a1babc83b178c9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893052"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301079"
 ---
-# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configuración de la base de datos de ubicación en Skype para Business Server
+# <a name="configure-the-location-database-in-skype-for-business-server"></a>Configurar la base de datos de ubicación en Skype empresarial Server
  
-Configurar, rellenar y publicar la base de datos de ubicación de E9-1-1 en Skype para Business Server Enterprise Voice. 
+Configurar, rellenar y publicar la base de datos de ubicaciones E9-1-1 en Skype empresarial Enterprise Voice. 
   
 Para habilitar clientes de modo que detecten automáticamente su ubicación dentro de una red, primero tiene que configurar la base de datos de ubicaciones. 
   
 Para configurar la base de datos de ubicaciones, deberá realizar las siguientes tareas:
   
-- Llene la base de datos con una búsqueda de elementos de red a las ubicaciones. Si utiliza una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), debe incluir los ELIN en la \<CompanyName\> campo.
+- Llene la base de datos con una búsqueda de elementos de red a las ubicaciones. Si usa una puerta de enlace de número de identificación de ubicación de emergencia (ELIN), tendrá que incluir \<la\> Elin en el campo NombreCompañía.
     
     Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.
     
@@ -47,10 +47,10 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
   
 |**Elemento de red**|**Columnas obligatorias**|
 |:-----|:-----|
-|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
-|**Subred** <br/> |\<Subred\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
-|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<PreDirectional\>,\<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\< País\>  <br/> |
-|**Conmutador** <br/> |\<ChassisID\>,\<descripción\>,\<ubicación\>,\<CompanyName\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<PreDirectional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<PostDirectional\>,\<Ciudad\>,\<estado\>,\<PostalCode\>,\<país\>  <br/> |
+|**Punto de acceso inalámbrico** <br/> |\<BSSID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
+|**Subred** <br/> |\<Subred\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
+|**Puerto** <br/> |\<ChassisID\>,\<PortIDSubType\>,\<PortID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\< HouseNumberSuffix\>,...  <br/> ... \<Predireccionales\>,\<StreetName\>,\<StreetSuffix\>,\<posdireccionales\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\< Tercer\>  <br/> |
+|**Conmutador** <br/> |\<ChassisID\>,\<Descripción\>,\<ubicación\>,\<NombreCompañía\>,\<HouseNumber\>,\<HouseNumberSuffix\>,\<predireccional\>,...  <br/> ... \<StreetName\>,\<StreetSuffix\>,\<posdireccional\>,\<ciudad\>,\<estado\>,\<CódigoPostal\>,\<país\>  <br/> |
    
 ### <a name="to-add-network-elements-to-the-location-database"></a>Para agregar elementos de red a la base de datos de ubicaciones
 
@@ -139,7 +139,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 Las nuevas ubicaciones agregadas a la base de datos de ubicaciones no estarán disponibles para el cliente hasta que no se publiquen.
   
-Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para obtener más información al respecto. Puede exportar los registros de la base de datos de servicio de información de ubicación y aplicarles formato según sea necesario.
+Si usa puertas de enlace de número de identificación de ubicación de emergencia (ELIN), cargue también los ELIN en la base de datos de identificación de ubicación automática (ALI) del proveedor de la red telefónica conmutada (RTC). Probablemente el proveedor de RTC le solicite que use un formato específico para los registros de ELIN. Póngase en contacto con el proveedor de RTC para obtener más información al respecto. Puede exportar los registros de la base de datos de servicios de información de ubicación y darles formato según sea necesario.
   
 ### <a name="to-publish-the-location-database"></a>Para publicar la base de datos de ubicaciones
 

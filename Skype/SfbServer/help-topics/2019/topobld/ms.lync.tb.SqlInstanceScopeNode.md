@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.SqlInstanceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: d234826338ce6add18302a12df4d9788021ba1cd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, así como los servidores o servidores que usan este SQL Server. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: ff32b59235dfb4ff38b8ea0fcd4c34a0be9baa97
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896444"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303105"
 ---
 # <a name="sql-instance-scope-node"></a>Nodo de ámbito de instancia SQL
  
-Este nodo muestra el nombre de dominio completo (FQDN) de este servidor de Microsoft SQL Server y la instancia de SQL Server en ese servidor y los grupos de servidores o que usan este servidor SQL Server. Puede realizar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN) de este Microsoft SQL Server y la instancia de SQL Server en ese servidor, así como los servidores o servidores que usan este SQL Server. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Se abre la página **Editar propiedades** para este servidor, donde puede cambiar el FQDN del servidor (si ya no está publicada la topología) y la instancia de SQL Server que se usará.
+- **Editar propiedades**. Abre la página **Editar propiedades** de este servidor, donde puede cambiar el FQDN del servidor (si la topología no está ya publicada) y la instancia de SQL Server que se va a usar.
     
 - **Eliminar**. Elimina el servidor de la topología.
     

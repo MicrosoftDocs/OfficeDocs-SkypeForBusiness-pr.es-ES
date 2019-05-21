@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestOrgInfo
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1ca030ad-82bd-40b2-9b2a-67d80e516f9c
 ROBOTS: NOINDEX, NOFOLLOW
-description: El panel de información de la organización permite especificar el nombre de la organización y una unidad organizativa (OU) (normalmente, la división o departamento) que solicita el certificado. La información que se escribe en la organización y los cuadros de texto de la unidad organizativa aparece en el certificado y se usa para identificar que solicita el certificado, cuando el certificado se ve por otros usuarios.
-ms.openlocfilehash: 6b2c944cfee475847430af44e77e5289a7afb3df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: El panel de información de la organización le permite especificar el nombre de la organización y de una unidad organizativa (por lo general, la división o el Departamento) que solicita el certificado. La información que escriba en los cuadros de texto organización y unidad organizativa aparece en el certificado y se usa para identificar quién solicitó el certificado cuando lo ven otros usuarios.
+ms.openlocfilehash: b4d448fb99c98371e364d15bb18c16a91ab0f3d5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893808"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292818"
 ---
 # <a name="certificate-request-organization-information"></a>Solicitud de certificado (información de la organización)
  
-El panel de **Información de la organización** permite especificar el nombre de la organización y una unidad organizativa (OU) (normalmente, la división o departamento) que solicita el certificado. La información que se escribe en la **organización** y los cuadros de texto de la **Unidad organizativa** aparece en el certificado y se usa para identificar que solicita el certificado, cuando el certificado se ve por otros usuarios.
+El panel de información de la **organización** le permite especificar el nombre de la organización y de una unidad organizativa (por lo general, la división o el Departamento) que solicita el certificado. La información que escriba en los cuadros de texto **organización** y **unidad organizativa** aparece en el certificado y se usa para identificar quién solicitó el certificado cuando lo ven otros usuarios.
   
 > [!NOTE]
-> El nombre de la unidad organizativa en un certificado no es necesariamente el mismo que una unidad organizativa en servicios de dominio de Active Directory. Dependiendo de cómo ha configurado Active Directory, el nombre que usar puede o no ser el mismo. 
+> El nombre de UO de un certificado no es necesariamente el mismo que una unidad organizativa de los servicios de dominio de Active Directory. En función de cómo haya configurado Active Directory, el nombre que use puede ser el mismo o no. 
   
 

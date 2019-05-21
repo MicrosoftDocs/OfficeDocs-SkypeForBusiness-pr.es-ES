@@ -1,25 +1,25 @@
 ---
-title: Crear una nueva directiva de archivado en Skype para Business Server
+title: Crear una nueva Directiva de archivado en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
-description: 'Resumen: Obtenga información sobre cómo crear una nueva directiva de archivado para Skype para Business Server.'
-ms.openlocfilehash: e01655c5d144dd558b545bcaeaaf6a09ca4fbba3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a crear una nueva Directiva de archivado para Skype empresarial Server.'
+ms.openlocfilehash: d6bf33254feece1fe9f1a4fe848b2601e758faf3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885018"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299975"
 ---
-# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Crear una nueva directiva de archivado en Skype para Business Server
+# <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Crear una nueva Directiva de archivado en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo crear una nueva directiva de archivado para Skype para Business Server.
+**Resumen:** Aprenda a crear una nueva Directiva de archivado para Skype empresarial Server.
   
 Puede crear directivas de archivado por medio del Panel de control o por medio de los cmdlets de Windows PowerShell.
   
@@ -29,7 +29,7 @@ Para crear una directiva de archivado con el Panel de control:
   
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
@@ -52,11 +52,11 @@ Para crear una directiva de archivado con el Panel de control:
 6. Haga clic en **Confirmar**.
     
     > [!IMPORTANT]
-    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener información detallada, vea [aplicar una directiva de archivado para los usuarios de Skype para Business Server](apply-a-policy-to-users.md). 
+    > La configuración de una directiva de usuario únicamente se aplica a los usuarios y grupos de usuarios específicos a los que aplica la directiva. Para obtener más información, vea [aplicar una directiva de archivado a los usuarios en Skype empresarial Server](apply-a-policy-to-users.md). 
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Crear una directiva de archivado con Windows PowerShell
 
-Puede también crear una directiva de archivado con el cmdlet de Windows PowerShell **New-CsArchivingPolicy**. Para obtener más información, vea el tema de ayuda para el cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
+Puede también crear una directiva de archivado con el cmdlet de Windows PowerShell **New-CsArchivingPolicy**. Para obtener más información, vea el tema de ayuda sobre el cmdlet [New-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csarchivingpolicy?view=skype-ps) .
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>Crear una directiva de archivado en el ámbito de sitio
 

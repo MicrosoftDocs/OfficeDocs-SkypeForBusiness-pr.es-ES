@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
 localization_priority: Normal
@@ -15,73 +15,73 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo.
-ms.openlocfilehash: e21d3e020f477fd1518017e0d6fc484e7ea10344
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: b4d53ad566cd0c31696ce688044ce1587d771a7d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402449"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290411"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Supervisar y solucionar problemas de enrutamiento directo
 
 En este artículo se describe cómo supervisar y solucionar problemas de la configuración de enrutamiento directo. 
 
-La capacidad de realizar y recibir llamadas mediante el uso de enrutamiento directo implica los siguientes componentes: 
+La capacidad de realizar y recibir llamadas mediante enrutamiento directo incluye los siguientes componentes: 
 
 - Controladores de borde de sesión (SBCs) 
-- Componentes de enrutamiento directos en el Microsoft Cloud 
-- Troncos de telecomunicaciones 
+- Componentes de enrutamiento directo en la nube de Microsoft 
+- Troncos de telecomunicación 
 
-Si tiene dificultades para solución de problemas, abra un caso de soporte con el proveedor SBC o Microsoft. 
+Si tiene dificultades para solucionar problemas, abra un caso de soporte técnico con su proveedor de SBC o Microsoft. 
 
-Microsoft está trabajando en proporcionar más herramientas de supervisión y solución de problemas. Compruebe la documentación de forma periódica para obtener actualizaciones. 
+Microsoft está trabajando en proporcionar más herramientas para la solución de problemas y la supervisión. Consulta la documentación periódicamente para obtener las actualizaciones. 
 
-## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Supervisar la disponibilidad de controladores de borde de sesión mediante mensajes de las opciones de protocolo de inicio de sesión (SIP)
+## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Supervisión de la disponibilidad de los controladores de borde de sesión mediante mensajes de opciones de protocolo de inicio de sesión (SIP)
 
-Enrutamiento directo usa opciones de SIP enviadas por los controladores de borde de sesión para supervisar el estado SBC. No hay ninguna acción necesaria desde el Administrador de inquilinos para habilitar la supervisión de las opciones de SIP. La información recopilada se toma en cuenta cuando se toman las decisiones de enrutamiento. 
+El enrutamiento directo usa las opciones SIP enviadas por los controladores de borde de la sesión para supervisar el estado de SBC. El administrador de inquilinos no necesita acciones para habilitar la supervisión de las opciones del SIP. La información recopilada se toma en consideración cuando se toman decisiones de enrutamiento. 
 
-Por ejemplo, si, para un usuario específico, hay varias SBCs disponibles para enrutar una llamada, el enrutamiento directo considera que la información de opciones de SIP recibida desde cada SBC para determinar el enrutamiento. 
+Por ejemplo, si, para un usuario específico, hay varios SBCs disponibles para enrutar una llamada, enrutamiento directo tiene en cuenta la información de opciones SIP recibida de cada SBC para determinar el enrutamiento. 
 
-En el siguiente diagrama muestra un ejemplo de la configuración: 
+En el siguiente diagrama se muestra un ejemplo de la configuración: 
 
 ![Ejemplo de configuración de opciones de SIP](media/sip-options-config-example.png)
 
-Cuando un usuario realiza una llamada al número +1 425 \<cualquier digits> siete, enrutamiento directo da como resultado la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Ambos SBCs tienen la misma prioridad en la ruta. Antes de seleccionar un SBC, el mecanismo de enrutamiento, se evalúa como el mantenimiento de la SBCs según cuando la SBC envía las opciones de SIP por última vez. 
+Cuando un usuario llama a Number + 1 425 \<, los siete digits>, el enrutamiento directo evalúa la ruta. Hay dos SBCs en la ruta: sbc1.contoso.com y sbc2.contoso.com. Tanto SBCs tienen la misma prioridad en la ruta. Antes de elegir un SBC, el mecanismo de enrutamiento evalúa el estado de SBCs según el momento en que la SBC envió las opciones de SIP la última vez. 
 
-Un SBC se considera correcto si las estadísticas en el momento del envío de la llamada se muestran que el SBC envía las opciones en un intervalo regular.  
+Un SBC se considera saludable si las estadísticas en el momento de enviar la llamada muestran que SBC envía opciones de forma regular.  
 
-Enrutamiento directo calcula intervalos regulares siguiendo dos veces el promedio cuando la SBC envía opciones antes de realizar la llamada y adición de cinco minutos. 
+El enrutamiento directo calcula intervalos regulares al tomar dos veces el promedio cuando el SBC envía opciones antes de hacer la llamada y agregar cinco minutos. 
 
-Por ejemplo, se supone lo siguiente: 
+Por ejemplo, supongamos lo siguiente: 
 
-- Un SBC está configurado enviar las opciones de cada minuto. 
-- Se ha emparejado el SBC a las 11:00 de la AM.  
-- La SBC envía las opciones de 11.01 AM, 11.02 AM y así sucesivamente.  
-- En 11.15, un usuario realiza una llamada y el mecanismo de enrutamiento selecciona este SBC. 
+- Una SBC está configurada para enviar opciones cada minuto. 
+- La SBC fue emparejada a 11,00 A.M.  
+- El SBC envía las opciones en 11,01 A.M., 11,02 A.M., etc.  
+- En 11,15, un usuario realiza una llamada y el mecanismo de enrutamiento selecciona esta SBC. 
 
-Se aplica la lógica siguiente: dos veces el intervalo promedio cuando la SBC envía opciones (de un minuto más de un minuto = dos minutos) plus cinco minutos = siete minutos. Éste es el valor del intervalo regular para la SBC.
+Se aplica la siguiente lógica: dos veces el intervalo medio cuando el SBC envía opciones (un minuto más un minuto = dos minutos) más cinco minutos = siete minutos. Este es el valor del intervalo normal para la SBC.
  
-Si la SBC en nuestro ejemplo envía las opciones en cualquier período entre 11:08 A.M. y 11:15 A.M. (el tiempo que se realizó la llamada), se considera correcto. En caso contrario, se degradará la SBC desde la ruta. 
+Si el SBC de nuestro ejemplo envió opciones en cualquier período comprendido entre 11,08 AM y 11,15 AM (el momento en que se realizó la llamada), se considerará saludable. De lo contrario, se degradará la SBC de la ruta. 
 
-Disminución de nivel significa que la SBC no se intentará en primer lugar. Por ejemplo, tenemos sbc1.contoso.com y sbc2.contoso.com con la misma prioridad.  
+La degradación significa que la SBC no se intentará en primer lugar. Por ejemplo, tenemos sbc1.contoso.com y sbc2.contoso.com con la misma prioridad.  
 
-Si sbc1.contoso.com no envía las opciones de SIP en un intervalo regular como se describió anteriormente, se degrada. A continuación, se intenta sbc2.contoso.com para la llamada. Si sbc2.contoso.con no puede entregar la llamada, el sbc1.contoso.com (cuyo nivel ha disminuido) se volverá a intentar antes de que se genere un error. 
+Si sbc1.contoso.com no envía las opciones de SIP a un intervalo regular según se describe anteriormente, se degradará. A continuación, sbc2.contoso.com intenta la llamada. Si sbc2. contoso. con no puede entregar la llamada, se intentará de nuevo el sbc1.contoso.com (degradado) antes de que se genere un error. 
 
-## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Supervise el panel de análisis de calidad de llamadas y los registros SBC 
+## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Supervisar los registros del panel de análisis de calidad de llamadas y de SBC 
  
-En algunos casos, especialmente durante el emparejamiento inicial, puede haber problemas relacionados con una configuración incorrecta de la SBCs o el servicio de enrutamiento directo. 
+En algunos casos, especialmente durante el emparejamiento inicial, es posible que haya problemas relacionados con la configuración indebido de la configuración de SBCs o del servicio de enrutamiento directo. 
 
 Puede usar las siguientes herramientas para supervisar la configuración:  
  
 - Panel de calidad de llamadas 
-- Registros SBC 
+- Registros de SBC 
 
-El servicio de enrutamiento directo tiene códigos de error muy descriptivo que se notifiquen al análisis de llamadas o los registros de SBC. 
+El servicio de enrutamiento directo tiene códigos de error muy descriptivos que se han notificado a análisis de llamadas o a los registros de SBC. 
 
-El panel de calidad de llamadas proporciona información acerca de la calidad de la llamada y la confiabilidad. Para obtener más información acerca de cómo solucionar problemas con el análisis de llamadas, vea [activar y con el panel de calidad de llamadas para los equipos de Microsoft y Skype para profesionales en línea](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) y [Análisis de uso de llamadas para solucionar problemas de calidad de la llamada deficiente](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
+El panel de calidad de llamadas proporciona información sobre la calidad de las llamadas y la fiabilidad. Para obtener más información sobre cómo solucionar problemas con el análisis de llamadas, consulte [activar y usar el panel de calidad de llamadas para Microsoft Teams y Skype empresarial online](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) y [usar el análisis de llamadas para solucionar problemas de baja calidad de las llamadas](https://docs.microsoft.com/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality). 
 
-En el caso de errores de llamadas, llamada análisis proporciona códigos de SIP estándar para ayudarle a solucionar problemas. 
+En caso de que se produzcan errores en las llamadas, el análisis de llamadas proporciona códigos SIP estándar para ayudarle a solucionar problemas. 
 
-![Código de error de llamada SIP de ejemplo](media/failed-response-code.png)
+![Código SIP de ejemplo para error de llamada](media/failed-response-code.png)
 
-Sin embargo, solo puede ayudar llamar análisis cuando las llamadas llegar a los componentes internos de enrutamiento directo y se producirá un error. En caso de problemas con el emparejamiento SBC o donde se rechazó SIP "Invitar" (por ejemplo, el nombre del tronco que FQDN está mal configurado), no le ayudará llamar a análisis. En este caso, consulte los registros de SBC. Enrutamiento directo envía una descripción detallada de los problemas a la SBCs; estos problemas se pueden leer desde los registros de SBC. 
+Sin embargo, el análisis de llamadas solo puede ayudar cuando las llamadas llegan a los componentes internos del enrutamiento directo y producen errores. En caso de problemas con el emparejamiento de SBC o problemas en los que se rechazó el "invitar" SIP (por ejemplo, el nombre del FQDN de tronco está configurado incorrectamente), el análisis de llamadas no le servirá. En este caso, consulta los registros de SBC. El enrutamiento directo envía una descripción detallada de los problemas al SBCs; estos problemas se pueden leer desde los registros de SBC. 

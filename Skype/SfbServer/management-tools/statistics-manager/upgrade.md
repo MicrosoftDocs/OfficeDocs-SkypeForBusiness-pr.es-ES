@@ -4,33 +4,33 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
-description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.'
-ms.openlocfilehash: 1349d3e67481b2f0dd8c354c01b70a33969ed51d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre cómo actualizar statistic Manager para Skype empresarial Server.'
+ms.openlocfilehash: 70826776e9dfacdef75c7084a9aba6f4eede940a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906721"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299726"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Actualizar el administrador de estadísticas para Skype Empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo actualizar las estadísticas de administrador de Skype para Business Server.
+**Resumen:** Lea este tema para obtener información sobre cómo actualizar statistic Manager para Skype empresarial Server.
   
-En este tema se describe cómo actualizar una instalación existente de administrador de estadísticas de Skype para Business Server — una eficaz herramienta que le permite ver Skype para los datos de estado y rendimiento de servidor empresarial en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas. 
+En este tema se describe cómo actualizar una instalación existente de statistic Manager para Skype empresarial Server, una eficaz herramienta que le permite ver los datos de estado y rendimiento de Skype empresarial en tiempo real. Puede sondear los datos de rendimiento en cientos de servidores cada pocos segundos y ver los resultados al instante en el sitio web del administrador de estadísticas. 
   
-Para obtener más información acerca de las estadísticas de administrador y las nuevas características de la versión 2.0, vea [planear para el Administrador de estadísticas de Skype para Business Server](plan.md) e [Implementar el Administrador de estadísticas de Skype para Business Server](deploy.md).
+Para obtener más información sobre statistic Manager y las nuevas características de la versión 2,0, consulte [Plan for Statistics Manager for Skype for Business Server](plan.md) e implantar [Statistics Manager para Skype empresarial Server](deploy.md).
   
 Existen dos métodos para actualizar:
   
-- **Actualización automática**. Este método usa una secuencia de comandos automatizada. Es el método más sencillo y deberán ser aplicable a todos los escenarios de actualización.
+- **Actualización automática**. Este método usa un script automatizado. Es el método más sencillo y debe ser aplicable a todos los escenarios de actualización.
     
-- **Actualización manual**. Este método se proporciona como un plan de copia de seguridad en el caso poco habitual que se produce un error en la actualización automática.
+- **Actualización manual**. Este método se proporciona como un plan de copia de seguridad en el caso inusual de que se produzca un error en la actualización automática.
     
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -46,7 +46,7 @@ Antes de realizar la actualización, asegúrese de que tiene la siguiente inform
 
 El script recopilará la información del certificado actual y la contraseña de escucha, desinstalará la versión anterior del producto y, a continuación, instalará la nueva versión del producto. La instancia Redis instalada en el servidor no se tocará, de modo que los datos almacenados en la caché se conservarán durante el proceso de actualización.
   
-1. Coloque los archivos MSI para la nueva versión del agente, el agente de escucha y sitio Web junto con la secuencia de comandos de actualización StatsMan.ps1 en una sola carpeta en el equipo de agente de escucha.
+1. Coloque los archivos MSI de la nueva versión del agente, agente de escucha y sitio web, junto con el script Update-StatsMan. ps1, en una sola carpeta del equipo de escucha.
     
 2. Abra una ventana administrativa de PowerShell. Actualice el componente de escucha:
     
@@ -55,11 +55,11 @@ El script recopilará la información del certificado actual y la contraseña de
    ```
 
 > [!NOTE]
-> La contraseña del servicio Administrador de estadísticas se mostrará en texto no cifrado en la línea de comandos tal como se pasa para el programa de instalación. Asegúrese de blindar el monitor según sea necesario. 
+> La contraseña del servicio de administrador de estadísticas se mostrará en texto no cifrado en la línea de comandos mientras se pasa al instalador. Asegúrese de blindar el monitor según sea necesario. 
   
 1. Al ejecutar el script, se le pedirá que desinstale la versión anterior del producto. Responda Sí.
     
-2. Si el servicio de escucha se está ejecutando, se le pedirá que cierre la aplicación antes de continuar. Permitir que la aplicación se cierre (la escucha de las estadísticas de administrador se detendrá el servicio).
+2. Si el servicio de escucha se está ejecutando, se le pedirá que cierre la aplicación antes de continuar. Permitir que se cierre la aplicación (el servicio de escucha del administrador de estadísticas se detendrá).
     
 3. Continúe el proceso de instalación. Verá que la contraseña de servicio y la huella digital del certificado se han rellenado previamente. Si no es así, agregue los valores que guardó antes de continuar.
     
