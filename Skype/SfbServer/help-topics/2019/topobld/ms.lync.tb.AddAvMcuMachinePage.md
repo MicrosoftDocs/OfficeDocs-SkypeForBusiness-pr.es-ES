@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuMachinePage
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 56f6f46e-7482-45dc-87dc-c2b30e3ec67f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un / servidor de conferencia A/v en este o grupo de servidores de conferencia A/v. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo.
-ms.openlocfilehash: 51c70f590173b28fd1cc4ead9a95ed391630e7ef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como un servidor de conferencia A/V en este grupo de conferencia A/V. Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología. Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN.
+ms.openlocfilehash: dfb224cab237daa4fd50161d561039f6f3015552
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889349"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304117"
 ---
-# <a name="add-av-mcu-machine"></a><span data-ttu-id="2fd78-105">Agregar equipo MCU A/V</span><span class="sxs-lookup"><span data-stu-id="2fd78-105">Add A/V MCU Machine</span></span>
+# <a name="add-av-mcu-machine"></a><span data-ttu-id="354ec-105">Agregar equipo MCU A/V</span><span class="sxs-lookup"><span data-stu-id="354ec-105">Add A/V MCU Machine</span></span>
  
-<span data-ttu-id="2fd78-106">Especifique el nombre de dominio completo (FQDN) de cada equipo que desea agregar como un / servidor de conferencia A/v en este o grupo de servidores de conferencia A/v.</span><span class="sxs-lookup"><span data-stu-id="2fd78-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool.</span></span> <span data-ttu-id="2fd78-107">Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="2fd78-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="2fd78-108">Después de publicar la topología, el cambio del FQDN requiere eliminar el servidor en el generador de topología y, a continuación, agregar un nuevo servidor al grupo de servidores con el FQDN nuevo.</span><span class="sxs-lookup"><span data-stu-id="2fd78-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
+<span data-ttu-id="354ec-106">Especifique el nombre de dominio completo (FQDN) de cada equipo que quiera agregar como un servidor de conferencia A/V en este grupo de conferencia A/V.</span><span class="sxs-lookup"><span data-stu-id="354ec-106">Specify the fully qualified domain name (FQDN) of each computer that you want to add as an A/V Conferencing Server in this A/V Conferencing pool.</span></span> <span data-ttu-id="354ec-107">Tras haber agregado un equipo a la lista, puede actualizar el nombre de dominio completo del equipo o quitarlo del grupo de servidores en cualquier momento antes de publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="354ec-107">After adding a computer to the list, you can update the FQDN of the computer or remove it from the pool at any time prior to publishing the topology.</span></span> <span data-ttu-id="354ec-108">Después de publicar la topología, cambiar el FQDN requiere que se elimine el servidor en el generador de topología y que, después, se agregue un nuevo servidor al grupo con el nuevo FQDN.</span><span class="sxs-lookup"><span data-stu-id="354ec-108">After you publish the topology, changing the FQDN requires deleting the server in Topology Builder and then adding a new server to the pool with the new FQDN.</span></span> 
   
 

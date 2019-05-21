@@ -1,25 +1,25 @@
 ---
-title: Tabla syndicators
+title: Tabla de sindicación
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 98739cb8-829e-4baf-90f4-597cb894521e
-description: El SyndicatorsTable es sólo para uso interno. En esta tabla se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 0833485f45a589a1f21b1da932f84343d1569bb3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: El SyndicatorsTable es solo para uso interno. Esta tabla se introdujo en Microsoft Lync Server 2013.
+ms.openlocfilehash: f6681283fe2d5daedc97f642483621dccd708ad2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930265"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295828"
 ---
-# <a name="syndicators-table"></a><span data-ttu-id="5c08d-104">Tabla syndicators</span><span class="sxs-lookup"><span data-stu-id="5c08d-104">Syndicators table</span></span>
+# <a name="syndicators-table"></a><span data-ttu-id="bb26a-104">Tabla de sindicación</span><span class="sxs-lookup"><span data-stu-id="bb26a-104">Syndicators table</span></span>
  
-<span data-ttu-id="5c08d-105">El SyndicatorsTable es sólo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="5c08d-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="5c08d-106">En esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="5c08d-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
+<span data-ttu-id="bb26a-105">El SyndicatorsTable es solo para uso interno.</span><span class="sxs-lookup"><span data-stu-id="bb26a-105">The SyndicatorsTable is for internal use only.</span></span> <span data-ttu-id="bb26a-106">Esta tabla se introdujo en Microsoft Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="bb26a-106">This table was introduced in Microsoft Lync Server 2013.</span></span>
   
 

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,10 +24,10 @@ ms.custom:
 redirect_url: https://docs.microsoft.com/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user
 redirect_document_id: true
 description: ''
-ms.openlocfilehash: adea717fe439dbe31b340726a74340ae0de2e0d0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 25344430267eab53f1de284bcbebd7d751f7eb55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203271"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302754"
 ---
