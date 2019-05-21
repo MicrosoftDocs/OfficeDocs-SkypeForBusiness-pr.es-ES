@@ -5,29 +5,29 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
-description: Use el cuadro de diálogo Seleccionar extensiones de tipo de archivo para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) extensiones de tipo de las casillas de verificación junto a las extensiones de archivo. Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría. Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.
-ms.openlocfilehash: 2f62fc80b33330593f1014e3137f9e3cd4cc9c08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use el cuadro de diálogo Seleccionar extensiones de tipo de archivo para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir seleccionando (para bloquear) o desactivando (para permitir) las casillas junto a las extensiones de extensiones de tipo de archivo. Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo de esa categoría. Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de la categoría.
+ms.openlocfilehash: e3efb425d70ec5497b53af1d43336b7e304d6c53
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924566"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294048"
 ---
-# <a name="select-file-type-extensions"></a><span data-ttu-id="76098-105">Seleccionar extensiones de tipo de archivo</span><span class="sxs-lookup"><span data-stu-id="76098-105">Select File Type Extensions</span></span>
+# <a name="select-file-type-extensions"></a><span data-ttu-id="93937-105">Seleccionar extensiones de tipo de archivo</span><span class="sxs-lookup"><span data-stu-id="93937-105">Select File Type Extensions</span></span>
  
-<span data-ttu-id="76098-106">Use el cuadro de diálogo **Seleccionar extensiones de tipo de archivo** para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir activando (para bloquear) o desactivando (para permitir) las casillas de verificación junto a las extensiones de **extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="76098-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="76098-107">Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo para esa categoría.</span><span class="sxs-lookup"><span data-stu-id="76098-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="76098-108">Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de categoría.</span><span class="sxs-lookup"><span data-stu-id="76098-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
+<span data-ttu-id="93937-106">Use el cuadro de diálogo **seleccionar extensiones de tipo de archivo** para seleccionar las extensiones de tipo de archivo que desea bloquear o permitir seleccionando (para bloquear) o desactivando (para permitir) las casillas junto a las extensiones de **extensiones de tipo de archivo**.</span><span class="sxs-lookup"><span data-stu-id="93937-106">Use the **Select File Type Extensions** dialog box to select the file type extensions that you want to block or allow by selecting (to block) or clearing (to allow) the check boxes next to the extensions under **File type extensions**.</span></span> <span data-ttu-id="93937-107">Haga clic en la flecha para expandir una categoría y ver todas las extensiones de tipo de archivo de esa categoría.</span><span class="sxs-lookup"><span data-stu-id="93937-107">Click the arrow to expand a category and view all of the file type extensions for that category.</span></span> <span data-ttu-id="93937-108">Si desea seleccionar todas las extensiones de tipo de archivo para una categoría, seleccione el nombre de la categoría.</span><span class="sxs-lookup"><span data-stu-id="93937-108">If you want to select all of the file type extensions for a category, select the category name.</span></span> 
   
-<span data-ttu-id="76098-109">Si no ve la extensión para un tipo de archivo que desea para seleccionar que aparecen en **las extensiones de tipo de archivo**, escriba la extensión en el cuadro de texto en **Agregar nuevas extensiones de archivo a la lista**y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="76098-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
+<span data-ttu-id="93937-109">Si no ve la extensión de un tipo de archivo que desea seleccionar en **las extensiones de tipo de archivo**, escriba la extensión en el cuadro de texto en **Agregar nuevas extensiones de archivo a la lista**y, a continuación, haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="93937-109">If you do not see the extension for a file type that you want to select listed in **File type extensions**, type the extension in the text box under **Add new file extensions to the list**, and then click **Add**.</span></span> 
   
-<span data-ttu-id="76098-110">Después de agregar todas las extensiones de tipo de archivo que desee a la lista de **extensiones de tipo de archivo seleccionados** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="76098-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
+<span data-ttu-id="93937-110">Una vez que haya agregado todas las extensiones de tipo de archivo que desee a la lista de **extensiones de tipos de archivos** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="93937-110">After you have added all of the file type extensions that you want to the **Selected file type extensions** list, click **OK**.</span></span>
   
-<span data-ttu-id="76098-111">Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="76098-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
+<span data-ttu-id="93937-111">Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).</span><span class="sxs-lookup"><span data-stu-id="93937-111">For details about the different procedures that you can perform by using the Skype for Business Server Control Panel, see [Manage Skype for Business Server 2015](../../manage/manage.md).</span></span>
   
 

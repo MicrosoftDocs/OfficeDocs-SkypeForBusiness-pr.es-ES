@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 48b87c7d3a30ed2b2c4afa5c6f999e25da9f80ed
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Edite las propiedades del servidor de Office Web Apps configurado. Pueden modificarse las siguientes propiedades:'
+ms.openlocfilehash: 61110a5db604d6fb3cbe89c0da428428820917a2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906700"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303280"
 ---
-# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="6a5a7-104">Editar configuración del servidor Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="6a5a7-104">Edit Office Web Apps Server Settings</span></span>
+# <a name="edit-office-web-apps-server-settings"></a><span data-ttu-id="ab899-104">Editar configuración del servidor Office Web Apps</span><span class="sxs-lookup"><span data-stu-id="ab899-104">Edit Office Web Apps Server Settings</span></span>
 
-<span data-ttu-id="6a5a7-105">Para editar las propiedades de Office Web Apps Server configurada.</span><span class="sxs-lookup"><span data-stu-id="6a5a7-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="6a5a7-106">Pueden modificarse las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="6a5a7-106">The following properties are available to edit:</span></span>
+<span data-ttu-id="ab899-105">Edite las propiedades del servidor de Office Web Apps configurado.</span><span class="sxs-lookup"><span data-stu-id="ab899-105">You edit the properties of the configured Office Web Apps Server.</span></span> <span data-ttu-id="ab899-106">Pueden modificarse las siguientes propiedades:</span><span class="sxs-lookup"><span data-stu-id="ab899-106">The following properties are available to edit:</span></span>
 
- <span data-ttu-id="6a5a7-107">**FQDN del servidor de Office Web Apps**: esta propiedad define el nombre de dominio completo de Office Web Apps Server y debe coincidir con un sistema de nombres de dominio (DNS) host A o AAAA (si se utiliza IPv6) registro.</span><span class="sxs-lookup"><span data-stu-id="6a5a7-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
+ <span data-ttu-id="ab899-107">**FQDN de Office Web Apps Server**: esta propiedad define el nombre de dominio completo del servidor de Office Web Apps y debe coincidir con un registro del sistema de nombres de dominio (DNS) host a o AAAA (si está usando IPv6).</span><span class="sxs-lookup"><span data-stu-id="ab899-107">**Office Web Apps Server FQDN**: This property defines the fully qualified domain name of the Office Web Apps Server and should match a domain name system (DNS) host A or AAAA (if IPv6 is being used) record.</span></span>
 
- <span data-ttu-id="6a5a7-108">**Dirección URL de detección de Office Web Apps Server**: el localizador uniforme de recursos (URL) para el acceso de cliente a Office Web Apps Server, es posible que necesite editar esta dirección desde su valor predeterminado si el servidor se coloca en otra zona de red que no sea la red interna para su despliegue.</span><span class="sxs-lookup"><span data-stu-id="6a5a7-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
+ <span data-ttu-id="ab899-108">**Dirección URL de detección de Office Web Apps Server**: localizador de recursos uniforme (URL) para el acceso de clientes al servidor de Office Web Apps, es posible que tenga que modificar esta dirección de forma predeterminada si el servidor se encuentra en otra zona de red que no sea la red interna de su implementación.</span><span class="sxs-lookup"><span data-stu-id="ab899-108">**Office Web Apps Server discovery URL**: The uniform resource locator (URL) for client access to the Office Web Apps Server, you may need to edit this address from its default if the server is placed in another network zone other than the internal network for your deployment.</span></span>
 
-<span data-ttu-id="6a5a7-109">Active la casilla **El servidor de Office Web Apps se implementa en una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="6a5a7-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
+<span data-ttu-id="ab899-109">Active la casilla **El servidor de Office Web Apps se implementa en una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="ab899-109">Select the check box **Office Web Apps Server is deployed in an external network** if this server is deployed in your perimeter network or other network zone that is outside of your internal firewall separating the perimeter network, less trusted networks, and the Internet from your internal deployment.</span></span>
 
 ![Expansor de configuración de Office Web Apps](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a><span data-ttu-id="6a5a7-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="6a5a7-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab899-111">Vea también</span><span class="sxs-lookup"><span data-stu-id="ab899-111">See also</span></span>
 
-[<span data-ttu-id="6a5a7-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="6a5a7-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
+[<span data-ttu-id="ab899-112">Components and Topologies for Conferencing</span><span class="sxs-lookup"><span data-stu-id="ab899-112">Components and Topologies for Conferencing</span></span>](https://technet.microsoft.com/library/eb83052a-3360-4ba1-a6a0-6ee419942809.aspx)
