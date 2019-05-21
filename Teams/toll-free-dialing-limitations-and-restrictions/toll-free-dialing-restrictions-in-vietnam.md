@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -22,29 +22,29 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 33928993983b06c07cec5e88d7e01d419ec5efaf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: b00c1617d17dbd468a58adb8f62d3d9f98fbd86a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204125"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304522"
 ---
 # <a name="toll-free-dialing-restrictions-in-vietnam"></a>Restricciones de marcado de número gratuito en Vietnam
 
-[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
 
 
 | **Detalles**                                      | **Descripción**                                                                                                                                                                                                                                                                                                                                                                                           |
 |:-------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ¿Es gratuito de llamada disponibles?  <br/>           | Sí  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
-| Formatos de marcado  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: formato ya no está disponible <br/>                                                                                                                                                                                                                                                                                                                            |
+| ¿Hay disponible una llamada gratuita?  <br/>           | Sí  <br/>                                                                                                                                                                                                                                                                                                                                                                                                |
+| Formato (s) de marcado  <br/>                         | 120-11-3XX <br/>  122-XXX-XX <br/>  1800 XXXX: ya no se proporciona formato <br/>                                                                                                                                                                                                                                                                                                                            |
 | Código ISO de país o región  <br/>                   | VN  <br/>                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Isla/territorio que abarque  <br/>                  | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
-| Isla o territorio que no están cubierta  <br/>              | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
-| Disponibilidad de la línea con cable o fijo  <br/>             | Parcial. Ver comentarios.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
+| Isla/territorio cubierta  <br/>                  | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| Isla/territorio no cubierto  <br/>              | No aplicable  <br/>                                                                                                                                                                                                                                                                                                                                                                                     |
+| Disponibilidad de línea fija/por cable  <br/>             | Parcial. Ver comentarios.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
 | Disponibilidad de red móvil  <br/>               | Parcial. Ver comentarios.  <br/>                                                                                                                                                                                                                                                                                                                                                                             |
-| Comentarios, las restricciones y problemas de acceso  <br/> | El formato de número XX XXX 120 trabajarán desde internacional de telecomunicaciones de Vietnam (VTI) y redes móviles y fijas de VNPT (Vietnam Post y telecomunicaciones). <br/> <br/> A partir de junio de 2018, el formato de número XX XXX 120 no se puede llamar desde la red móvil del Mobifone. <br/> <br/>**Nota:** Mobifone &amp; Vinaphone forman parte de VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Según el Ministerio Vietnam de telecomunicaciones, la duración máxima de llamada permitido es 2 horas. |
+| Comentarios, restricciones y problemas de acceso  <br/> | El formato de número 120 XX XXX funcionará desde Vietnam Telecom International (VTI) y VNPT (publicaciones Vietnam y telecomunicaciones) fijos y móviles. <br/> <br/> Desde el 2018 de junio, no se puede llamar al formato de número 120 XX XXX desde la red móvil de Mobifone. <br/> <br/>**Nota:** Mobifone &amp; Vinaphone forman parte de VNPT. The number format 122 XXX XX network coverage: Viettel (fixed and mobile). Según el Ministerio de telecomunicaciones de Vietnam, la duración máxima permitida de la llamada es de 2 horas. |
    
 ## <a name="related-topics"></a>Temas relacionados
 

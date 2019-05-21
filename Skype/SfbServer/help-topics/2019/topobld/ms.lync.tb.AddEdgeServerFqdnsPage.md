@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerFqdnsPage
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 ROBOTS: NOINDEX, NOFOLLOW
-description: Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el uso de un FQDN único &amp; opción de dirección IP en la seleccionar las características de página, también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
-ms.openlocfilehash: e5cb3d2f6f7c321f60d6987fff7e5f4b7f88a49b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Debe especificar un nombre de dominio completo (FQDN) para el servicio perimetral de acceso. Si no seleccionó la opción usar una única dirección &amp; IP de FQDN en la página seleccionar características, también debe especificar un FQDN para el servicio perimetral de conferencias web y para el servicio perimetral a/V.
+ms.openlocfilehash: 39f3c1531dc20879f51ef9cfa2550e4838597ee1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889055"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303801"
 ---
 # <a name="add-edge-server-fqdn"></a>Agregar FQDN de servidor perimetral
  
-Debe especificar un nombre de dominio completo (FQDN) para el servicio de servidor perimetral de acceso. Si no seleccionó el **utilizar un FQDN único &amp; dirección IP** opción en la página **Seleccionar características** , también debe especificar un FQDN para el servicio perimetral de conferencia Web y en lugar de A / servicio perimetral A/v.
+Debe especificar un nombre de dominio completo (FQDN) para el servicio perimetral de acceso. Si no seleccionó la opción **usar una única dirección &amp; IP de FQDN** en la página **seleccionar características** , también debe especificar un FQDN para el servicio perimetral de conferencias web y para el servicio perimetral a/V.
   
-Además, si ha seleccionado la **utilizar un FQDN único &amp; dirección IP** opción, debe especificar un número de puerto diferente para cada uno de los Servicios perimetrales (puerto configuración recomendada: 444 para el servidor perimetral de acceso de servicio, 8057 para el servicio de servidor perimetral de conferencia Web y 443 para un / V Servicio perimetral). Si no ha seleccionado la opción, puede usar el mismo número de puerto (por ejemplo, 443) para todos los tres servicios.
+Además, si seleccionaste la opción **usar una única &amp; dirección IP de FQDN** , deberás especificar un número de puerto diferente para cada uno de los servicios perimetrales (configuración de Puerto recomendada: 444 para el servicio perimetral de Access, 8057 para el servicio perimetral de conferencias web y 443 para a/V Servicio perimetral). Si no seleccionaste la opción, puedes usar el mismo número de puerto (como 443) para los tres servicios.
   
 

@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8ee3ee95-fb78-4d4e-bcdd-6ce5a0a23b44
-description: La vista ConferenceMessageCount almacena información acerca de la cantidad de mensajes enviados por un usuario a una conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: ce94cd13637b70b87a92fd688ca8ce8aefd2c69e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La vista ConferenceMessageCount almacena información acerca de cuántos mensajes envió un usuario a una conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
+ms.openlocfilehash: 890a5912c6f828f614fbff89627c94c4e12ba7e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901418"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296493"
 ---
 # <a name="conferencemessagecount-view"></a>Vista ConferenceMessageCount
  
-La vista ConferenceMessageCount almacena información acerca de la cantidad de mensajes enviados por un usuario a una conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista ConferenceMessageCount almacena información acerca de cuántos mensajes envió un usuario a una conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vista ConferenceMessageCount todas las columnas en la [vista ConferenceSessionDetails](conferencesessiondetails.md) contiene además en las columnas enumeradas a continuación.
+> La vista ConferenceMessageCount contiene todas las columnas de la [vista ConferenceSessionDetails](conferencesessiondetails.md) además de las columnas que se muestran a continuación.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**UserUri** <br/> |nvarchar(450)  <br/> |URI del usuario que envió el mensaje.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que envía los mensajes. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
-|**UserTenant** <br/> |uniqueidentifier  <br/> |Inquilino del usuario que envió los mensajes. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |Identificador URI del usuario que envió el mensaje.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario que envió los mensajes. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
+|**UserTenant** <br/> |identificador  <br/> |Espacio empresarial del usuario que envió los mensajes. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
 |**UserMessageCount** <br/> |smallint  <br/> |Número de mensajes enviados por el usuario durante la sesión de conferencia.  <br/> |
    
 

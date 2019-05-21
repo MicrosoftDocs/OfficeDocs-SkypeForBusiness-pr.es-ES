@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Aprenda cómo configurar una dirección de emergencia y un número de teléfono para cada uno de los usuarios que funcione con la red telefónica pública conmutada (RTC).
-ms.openlocfilehash: 4778009ddcd004f37c5ed0f0566d64dae6648997
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 884dd4051ef15cb29d6ab125989edf990980f722
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233256"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299538"
 ---
 # <a name="assign-or-change-an-emergency-address-for-a-user"></a>Asignar o cambiar la dirección de emergencia de un usuario
 
-Cuando configure un Plan de llamadas en Office 365, deberá asignar una dirección de emergencia a cada usuario o número de teléfono. En Europa, la dirección de emergencia se asocia con el número de teléfono cuando se obtiene desde Office 365 o cuando se transfiere a través de un número de teléfono para Office 365. En los Estados Unidos, la dirección de emergencia se asocia con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si se mueve a una nueva ubicación el usuario al que está asignada. Para obtener más información acerca de las direcciones de emergencias y ubicaciones, consulte [¿Cuáles son las ubicaciones de emergencia, direcciones y enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
+Cuando configure un Plan de llamadas en Office 365, deberá asignar una dirección de emergencia a cada usuario o número de teléfono. En Europa, la dirección de emergencia se asocia con el número de teléfono cuando se obtiene desde Office 365 o cuando se transfiere a través de un número de teléfono para Office 365. En los Estados Unidos, la dirección de emergencia se asocia con el número de teléfono cuando se asigna al usuario. La dirección de emergencia se puede cambiar si se mueve a una nueva ubicación el usuario al que está asignada. Para obtener más información sobre las direcciones y ubicaciones de emergencia, vea [¿Qué son las ubicaciones de emergencia, las direcciones y el enrutamiento de llamadas?](/microsoftteams/what-are-emergency-locations-addresses-and-call-routing)
   
 Para conseguir información sobre cómo obtener Planes de llamadas en Office 365 y su coste, consulte [Licencias de complementos de Skype Empresarial y Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
   
@@ -38,25 +38,25 @@ Para conseguir información sobre cómo obtener Planes de llamadas en Office 365
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
+2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
     
-3. En el panel de navegación izquierdo vaya a **voz**, a continuación, haga clic en **usuarios de voz**.
+3. En el navegación de la izquierda, vaya a **voz**y, a continuación, haga clic en **usuarios de voz**.
     
     > [!IMPORTANT]
-    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.
+    > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .
     
 4. En la página **Usuarios de voz**, busque y seleccione el usuario cuya dirección de emergencia quiere cambiar.
     
 5. En el panel de acciones, en **Ubicación de emergencia**, haga clic en **Cambiar**.
     
     > [!IMPORTANT]
-    > Solo se puede cambiar una dirección de emergencia que ya esté validada. Para cambiar una dirección de emergencia que no se ha validado, eliminarla y crear otra dirección de emergencia. 
+    > Solo se puede cambiar una dirección de emergencia que ya esté validada. Para cambiar una dirección de emergencia que no se ha validado, elimínela y cree otra dirección de emergencia. 
   
 6. En la página **Asignar un número**, haga clic en **Cambiar ubicación**.
     
-7. En **Cambiar dirección de emergencia a**, escriba el nombre de la ciudad y haga clic en **Buscar**.
+7. En **cambiar dirección de emergencia a**, escriba el nombre de la ciudad y haga clic en **Buscar**.
     
-8. Seleccione la dirección de emergencia desde la lista desplegable de direcciones y, a continuación, haga clic en **Guardar**. 
+8. Seleccione la dirección de emergencia de la lista desplegable dirección y, a continuación, haga clic en **Guardar**. 
     
 ## <a name="related-topics"></a>Temas relacionados
 ## <a name="related-topics"></a>Temas relacionados

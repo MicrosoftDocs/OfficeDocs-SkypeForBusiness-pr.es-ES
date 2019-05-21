@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,61 +20,61 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: 'Obtenga información sobre cómo configurar el correo de voz en la nube para los usuarios. '
-ms.openlocfilehash: 827c52bf526ba84e4f571102354a096e2dc8e2f4
-ms.sourcegitcommit: a46dad8dfc685534d81bb011f3c099c6f59ce2e0
+description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
+ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33882872"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298674"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
-En este artículo es para la [administración de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de correo de voz en la nube para todos los usuarios en la empresa.
+Este artículo es para el [Administrador de Office 365](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) que desea configurar la característica de buzón de voz de la nube para todos los usuarios de la empresa.
 
 > [!NOTE]
-> Correo de voz en la nube admite depositar los mensajes de correo de voz sólo en un buzón de Exchange y no es compatible con los sistemas de correo electrónico de otro fabricante. 
+> El buzón de voz de nube admite el depósito de mensajes de voz solo en un buzón de Exchange y no es compatible con ningún sistema de correo de terceros. 
 
-## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Entornos de nube: configurar el correo de voz en la nube
+## <a name="cloud-only-environments-set-up-cloud-voicemail"></a>Entornos solo de nube: configurar el buzón de voz en la nube
 
-Para Skype para los usuarios en línea de negocio y planes de llamada, correo de voz en la nube se configuran automáticamente y aprovisionar para los usuarios después de asignar una licencia de **Sistema telefónico** y un número de teléfono a ellos.
+Para los usuarios de Skype empresarial online y planes de llamadas, el buzón de voz de nube se configura y se aprovisiona automáticamente para los usuarios después de asignarle una licencia de **sistema telefónico** y un número de teléfono.
   
-1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También es posible que necesite comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . Es posible que también necesite comprar una licencia de Exchange Online. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
+2. [Asignar o quitar licencias de Office 365 para empresas](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias para asignar Microsoft Teams](assign-teams-licenses.md)y las licencias de Exchange Online para los usuarios de su empresa. Después de hacerlo, podrán recibir mensajes del correo de voz.
     
-3. Compatibilidad con transcripción de correo de voz se ha agregado a partir de marzo de 2017 y está habilitada de forma predeterminada para todos los usuarios y las organizaciones. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
+3. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
 ## <a name="phone-system-with-on-premises-environments"></a>Sistema telefónico con entornos locales
 
-Es la siguiente información acerca de cómo configurar el correo de voz en la nube para trabajar con entornos de planeación de llamada local.
+La siguiente información está relacionada con la configuración del buzón de voz de la nube para trabajar con entornos de plan de llamadas locales.
   
-1. Si la característica del sistema de teléfono no está incluida en el plan, debe comprar licencias de complemento de **Sistema telefónico** . También necesitará comprar una licencia de Exchange Online. Vea [las licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+1. Si la característica del sistema telefónico no está incluida en su plan, es posible que tenga que comprar licencias de complemento de **sistema telefónico** . También necesita comprar una licencia de Exchange Online. Consulte [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
     
-2. [Asignar o quitar licencias de Office 365 para profesionales](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias de asignar los equipos de Microsoft](assign-teams-licenses.md)y las licencias de Exchange Online a las personas de su empresa.
+2. [Asignar o quitar licencias de Office 365 para empresas](http://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc), las [licencias para asignar Microsoft Teams](assign-teams-licenses.md)y las licencias de Exchange Online para los usuarios de su empresa.
     
-3. Siga las instrucciones que coincidan con RTC local al llamar a la solución de implementada para los usuarios. Edition de conector en la nube, siga las instrucciones que aparecen en la sección **Permitir que los usuarios de servicios de voz y correo de voz del sistema de teléfono** de la [Configuración de Skype para guía de Business Edition de conector en la nube](https://technet.microsoft.com/library/mt605228.aspx). Para llamar a con Skype para Business Server de RTC, siga [Habilitar a los usuarios para Enterprise Voice en local](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para el enrutamiento directo de los equipos, siga la sección **Configurar el número de teléfono y habilitar enterprise voice y correo de voz** de [Configurar el enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
+3. Siga las instrucciones que correspondan a la solución de llamadas RTC locales implementada para los usuarios. Para la edición de Cloud Connector, siga las instrucciones de la sección **habilitar los usuarios de voz del sistema telefónico y los servicios de buzón** de voz de la [Guía de configuración de Skype empresarial para la nube](https://technet.microsoft.com/library/mt605228.aspx). Para las llamadas RTC con Skype empresarial Server, siga [habilitando a los usuarios de Enterprise Voice on local](https://docs.microsoft.com/en-us/skypeforbusiness/skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/enable-the-users-for-enterprise-voice-on-premises). Para el enrutamiento directo de Teams, siga las secciones **configurar el número de teléfono y habilitar la telefonía IP empresarial y el buzón de voz** de [configurar el enrutamiento directo](https://docs.microsoft.com/en-us/microsoftteams/direct-routing-configure#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail).
 
-4. Compatibilidad con transcripción de correo de voz se ha agregado a partir de marzo de 2017 y está habilitada de forma predeterminada para todos los usuarios y las organizaciones. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
+4. Se ha agregado la ayuda para la transcripción del buzón de voz a partir del 2017 de marzo y está habilitada de forma predeterminada para todas las organizaciones y todos los usuarios. Puede deshabilitar la transcripción para su organización utilizando Windows PowerShell y siguiendo los pasos que se indican a continuación.
 
-5. Los mensajes de correo de voz se envían al buzón de Exchange de los usuarios a través de SMTP que se enrutan a través de Exchange Online Protection. Para habilitar la entrega de estos mensajes se realizó correctamente, asegúrese de que los conectores de Exchange se han configurado correctamente entre los servidores de Exchange y Exchange Online Protection. [Usar conectores para configurar el flujo de correo](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
+5. Los mensajes de voz se entregan al buzón de Exchange de los usuarios mediante SMTP enrutado a través de Exchange Online Protection. Para habilitar la entrega correcta de estos mensajes, asegúrese de que los conectores de Exchange están configurados correctamente entre los servidores de Exchange y Exchange Online Protection. [Use conectores para configurar el flujo de correo](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow).
 
-6. Para habilitar las características de correo de voz como personalizar el saludo y correo de voz visual en Skype para clientes empresariales, se requiere conectividad de Office 365 para el buzón de correo de Exchange server a través de servicios Web de Exchange. Para habilitar esta conectividad debe configurar el nuevo Oauth de Exchange se describe el protocolo de autenticación de [OAuth de configurar la autenticación entre organizaciones de Exchange y Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
+6. Para habilitar características de buzón de voz, como la personalización de saludos y el buzón de voz en Skype empresarial, se requiere conectividad de Office 365 al buzón de Exchange Server a través de los servicios Web de Exchange. Para habilitar esta conectividad, debe configurar el nuevo protocolo de autenticación OAuth de Exchange describir en [configurar la autenticación OAuth entre Exchange y las organizaciones de Exchange Online](https://technet.microsoft.com/en-us/library/dn594521(v=exchg.150).aspx) 
 
 > [!NOTE]
-> El Asistente de Exchange híbrida ejecución desde Exchange 2013 CU5 o mayor controlará los requisitos en los pasos 5 y 6 automáticamente. 
+> El Asistente de implementación híbrida de Exchange, que se ejecuta desde Exchange 2013 CU5 o superior, se ocupará automáticamente de los requisitos de los pasos 5 y 6. 
 
 ## <a name="setting-voicemail-policies-in-your-organization"></a>Configuración de directivas de correo de voz en su organización
 
 > [!WARNING]
-> Deshabilitar el correo de voz a través de un Teams Microsoft directiva de llamada de Skype para los clientes empresariales, es posible que deshabilitar también el servicio de correo de voz para su Skype para usuarios profesionales.
+> Para los clientes de Skype empresarial, deshabilitar el buzón de voz a través de una directiva de llamadas de Microsoft Teams también puede deshabilitar el servicio de buzón de voz para los usuarios de Skype empresarial.
 
 La transcripción de correo de voz está habilitada de forma predeterminada y el enmascaramiento de contenido ofensivo de transcripción está deshabilitado de forma predeterminada para todos los usuarios y organizaciones; sin embargo, puede controlarlos mediante los cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) y [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
 
 > [!IMPORTANT]
-> No se puede crear una nueva instancia de directiva para transcripción y contenido ofensivo de transcripción de transparencias con el cmdlet **New-CsOnlineVoiceMailPolicy** y no se puede quitar una instancia de directiva existente con el cmdlet **Remove-CsOnlineVoiceMailPolicy** .
+> No puede crear una nueva instancia de directiva para transcripción y máscaras de blasfemias por transcripción con el cmdlet **New-CsOnlineVoiceMailPolicy** y no puede quitar una instancia de directiva existente mediante el cmdlet **Remove-CsOnlineVoiceMailPolicy** .
 
-Puede administrar la configuración de la transcripción para sus usuarios con las directivas del correo de voz. Para ver todas las instancias de la directiva de correo de voz disponibles, puede usar el cmdlet [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) .
+Puede administrar la configuración de la transcripción para sus usuarios con las directivas del correo de voz. Para ver todas las instancias disponibles de la Directiva del buzón de voz, puede usar el cmdlet [Get-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx) .
 
  **PS C:\\> Get-CsOnlineVoicemailPolicy**
   
@@ -82,7 +82,7 @@ Puede administrar la configuración de la transcripción para sus usuarios con l
   
 ### <a name="turning-off-transcription-for-your-organization"></a>Desactivar la transcripción para su organización
 
-Debido a que el valor predeterminado de transcripción está activada para la organización, desea deshabilitar mediante el uso de [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Para ello, ejecute:
+Dado que la configuración predeterminada de transcripción está activada para su organización, es posible que desee deshabilitarla mediante [set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx). Para ello, ejecute:
 
 ```
 Set-CsOnlineVoicemailPolicy -EnableTranscription $false
@@ -98,7 +98,7 @@ Set-CsOnlineVoicemailPolicy -EnableTranscriptionProfanityMasking $true
 
 ### <a name="turning-off-transcription-for-a-user"></a>Desactivar la transcripción para un usuario
 
-Las directivas de usuarios se evalúan antes que la configuración predeterminada de la organización. Por ejemplo, si está habilitada la transcripción de correo de voz para todos los usuarios, puede asignar una directiva para deshabilitar transcripción para un usuario específico mediante el cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) .
+Las directivas de usuarios se evalúan antes que la configuración predeterminada de la organización. Por ejemplo, si la transcripción del buzón de voz está habilitada para todos los usuarios, puede asignar una directiva para deshabilitar la transcripción para un usuario específico mediante el cmdlet [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798309.aspx) .
 
 Para deshabilitar la transcripción para un único usuario, ejecute:
 
@@ -121,9 +121,9 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="help-your-users-learn-skype-for-business-voicemail-features"></a>Ayudar a los usuarios a aprender acerca de las características del correo de voz de Skype Empresarial
 
-Disponemos de información de recursos de aprendizaje y artículos para ayudar a los usuarios a tener éxito con Skype para correo de voz empresarial. Pídales que consulten los siguientes artículos:
+Tenemos información de aprendizaje y artículos que ayudan a los usuarios a tener éxito con el buzón de voz de Skype empresarial. Pídales que consulten los siguientes artículos:
 
-- [Comprobación de Skype para opciones y correo de voz empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): en este artículo se explica cómo escuchar el correo de voz de Skype para la empresa, cambiar el saludo del correo de voz, cambiar la configuración del correo de voz y escuchar el correo de voz a diferentes velocidades.
+- [Consulta el buzón de voz y las opciones de Skype empresarial](https://support.office.com/article/2deea7f8-831f-4e85-a0d4-b34da55945a8): en este artículo se explica cómo escuchar el buzón de voz en Skype empresarial, cambiar el saludo del correo de voz, cambiar la configuración del buzón de voz y escuchar el buzón de voz a velocidades diferentes.
 
 - [Aprendizaje de Skype Empresarial 2016](https://support.office.com/article/eb2081bc-fd0a-4eda-94da-5a39f369ee74)
 

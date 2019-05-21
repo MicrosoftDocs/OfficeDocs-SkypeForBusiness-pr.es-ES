@@ -1,82 +1,82 @@
 ---
-title: Detalles de la tabla CDR en Skype para Business Server 2015
+title: Detalles de la tabla de CDR en Skype empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de llamada detalles registros (CDR).
-ms.openlocfilehash: 2165651737180465a7e5c045199d850862c09993
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de la base de datos Records Records Records (CDR).
+ms.openlocfilehash: 13f8fe7cb9c1335160f3a9bc401bfee36eb2803f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924783"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296549"
 ---
-# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla CDR en Skype para Business Server 2015
+# <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Detalles de la tabla de CDR en Skype empresarial Server 2015
  
-En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de base de datos de llamada detalles registros (CDR).
+En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de la base de datos Records Records Records (CDR).
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Tabla de la aplicación en Skype para Business Server 2015](application.md)
+- [Tabla de aplicaciones en Skype empresarial Server 2015](application.md)
     
-- [Tabla CallPriorities en Skype para Business Server 2015](callpriorities.md)
+- [Tabla CallPriorities en Skype empresarial Server 2015](callpriorities.md)
     
-- [Tabla CallType en Skype para Business Server 2015](calltype.md)
+- [Tabla CallType en Skype empresarial Server 2015](calltype.md)
     
-- [Tabla ClientVersions en Skype para Business Server 2015](clientversions.md)
+- [Tabla ClientVersions en Skype empresarial Server 2015](clientversions.md)
     
-- [Tabla taba en Skype para Business Server 2015](conferencejointimethresholds.md)
+- [Tabla ConferenceJoinTimeThresholds en Skype empresarial Server 2015](conferencejointimethresholds.md)
     
-- [Tabla ConferenceMessageCount en Skype para Business Server 2015](conferencemessagecount.md)
+- [Tabla ConferenceMessageCount en Skype empresarial Server 2015](conferencemessagecount.md)
     
-- [Tabla de las conferencias en Skype para Business Server 2015](conferences.md)
+- [Tabla conferencias en Skype empresarial Server 2015](conferences.md)
     
-- [Tabla ConferenceSessionDetails en Skype para Business Server 2015](conferencesessiondetails-0.md)
+- [Tabla ConferenceSessionDetails en Skype empresarial Server 2015](conferencesessiondetails-0.md)
     
-- [Tabla ConferenceUris en Skype para Business Server 2015](conferenceuris.md)
+- [Tabla ConferenceUris en Skype empresarial Server 2015](conferenceuris.md)
     
-- [Tabla ContentTypes de Skype para Business Server 2015](contenttypes.md)
+- [Tabla ContentTypes en Skype empresarial Server 2015](contenttypes.md)
     
-- [Tabla DeRegisterType en Skype para Business Server 2015](deregistertype.md)
+- [Tabla DeRegisterType en Skype empresarial Server 2015](deregistertype.md)
     
-- [Tabla de dispositivos en Skype para Business Server 2015](devices.md)
+- [Tabla dispositivos de Skype empresarial Server 2015](devices.md)
     
-- [Tabla de cuadros de diálogo en Skype para Business Server 2015](dialogs.md)
+- [Tabla de cuadros de diálogo en Skype empresarial Server 2015](dialogs.md)
     
-- [Tabla EdgeServers en Skype para Business Server 2015](edgeservers.md)
+- [Tabla EdgeServers en Skype empresarial Server 2015](edgeservers.md)
     
-- [Tabla de categoría de error de Skype para Business Server 2015](errorcategory.md)
+- [Tabla ErrorCategory en Skype empresarial Server 2015](errorcategory.md)
     
-- [Tabla ErrorDef en Skype para Business Server 2015](errordef.md)
+- [Tabla ErrorDef en Skype empresarial Server 2015](errordef.md)
     
-- [Tabla ErrorReport en Skype para Business Server 2015](errorreport.md)
+- [Tabla ErrorReport en Skype empresarial Server 2015](errorreport.md)
     
-- [Tabla FileTransfers en Skype para Business Server 2015](filetransfers-0.md)
+- [Tabla FileTransfers en Skype empresarial Server 2015](filetransfers-0.md)
     
-- [Tabla FocusJoinsAndLeaves en Skype para Business Server 2015](focusjoinsandleaves.md)
+- [Tabla FocusJoinsAndLeaves en Skype empresarial Server 2015](focusjoinsandleaves.md)
     
-- [Tabla FrontEnd en Skype para Business Server 2015](frontend.md)
+- [Tabla de FrontEnd en Skype empresarial Server 2015](frontend.md)
     
-- [Tabla de puertas de enlace de Skype para Business Server 2015](gateways.md)
+- [Tabla de puertas de enlace en Skype empresarial Server 2015](gateways.md)
     
-- [Tabla HardwareVersions en Skype para Business Server 2015](hardwareversions.md)
+- [Tabla HardwareVersions en Skype empresarial Server 2015](hardwareversions.md)
     
-- [Tabla IMReportSummary en Skype para Business Server 2015](imreportsummary.md)
+- [Tabla IMReportSummary en Skype empresarial Server 2015](imreportsummary.md)
     
-- [Tabla de ubicaciones de Skype para Business Server 2015](locations.md)
+- [Tabla localidades en Skype empresarial Server 2015](locations.md)
     
-- [Tabla de los fabricantes de Skype para Business Server 2015](manufacturers.md)
+- [Tabla de fabricantes en Skype empresarial Server 2015](manufacturers.md)
     
-- [Tabla McuJoinsAndLeaves en Skype para Business Server 2015](mcujoinsandleaves.md)
+- [Tabla McuJoinsAndLeaves en Skype empresarial Server 2015](mcujoinsandleaves.md)
     
-- [Tabla de MCU en Skype para Business Server 2015](mcus.md)
+- [Tabla MCU en Skype empresarial Server 2015](mcus.md)
     
 - [Tabla Media](media.md)
     
@@ -104,7 +104,7 @@ En los temas siguientes se detallan las columnas de cada una de las tablas de es
     
 - [Tabla SIPResponseMetaData](sipresponsemetadata.md)
     
-- [Tabla syndicators](syndicators.md)
+- [Tabla de sindicación](syndicators.md)
     
 - [Tabla SyndicatorsTenantMap](syndicatorstenantmap.md)
     

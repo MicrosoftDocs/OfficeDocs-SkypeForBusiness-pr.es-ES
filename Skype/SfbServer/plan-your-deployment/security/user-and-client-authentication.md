@@ -1,38 +1,38 @@
 ---
-title: Autenticación de usuario y el cliente para Skype para Business Server
+title: Autenticación de usuarios y clientes para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Un usuario de confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
-ms.openlocfilehash: 6d6a796f521ce79fe3c78c7becb48a495eafd473
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Un usuario de confianza es aquel cuyas credenciales han sido autenticadas por un servidor de confianza en Skype empresarial Server. Este servidor suele ser un servidor Standard Edition, Enterprise Edition o director. Skype empresarial Server depende de los servicios de dominio de Active Directory como el único repositorio back-end de confianza de las credenciales de usuario.
+ms.openlocfilehash: 35d1c6861ba8863e308939997fd802d4abcea404
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885464"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296871"
 ---
-# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuario y el cliente para Skype para Business Server
+# <a name="user-and-client-authentication-for-skype-for-business-server"></a>Autenticación de usuarios y clientes para Skype empresarial Server
  
-Un usuario de confianza es aquel cuyas credenciales se han autenticado por un servidor de confianza en Skype para Business Server. Este servidor suele ser un servidor Standard Edition, Director o servidor Front-End de Enterprise Edition. Skype para Business Server se basa en los servicios de dominio de Active Directory como el repositorio back-end confianza único de credenciales de usuario.
+Un usuario de confianza es aquel cuyas credenciales han sido autenticadas por un servidor de confianza en Skype empresarial Server. Este servidor suele ser un servidor Standard Edition, Enterprise Edition o director. Skype empresarial Server depende de los servicios de dominio de Active Directory como el único repositorio back-end de confianza de las credenciales de usuario.
   
-La autenticación consiste en proporcionar credenciales de usuario a un servidor de confianza. Skype para Business Server utiliza los siguientes protocolos de autenticación, según el estado y la ubicación del usuario.
+La autenticación consiste en proporcionar credenciales de usuario a un servidor de confianza. Skype empresarial Server usa los siguientes protocolos de autenticación, según el estado y la ubicación del usuario.
   
-- **Protocolo de MIT Kerberos versión 5 seguridad** para los usuarios internos con credenciales de Active Directory. Kerberos requiere la conectividad del cliente a los servicios de dominio de Active Directory, que es la razón por la que no se puede usar para autenticar clientes ubicados fuera del firewall corporativo.
+- **Protocolo de seguridad MIT Kerberos versión 5** para usuarios internos con credenciales de Active Directory. Kerberos requiere conectividad de cliente con los servicios de dominio de Active Directory, motivo por el cual no se puede usar para autenticar clientes fuera del firewall de la empresa.
     
-- **Protocolo NTLM** para los usuarios con credenciales de Active Directory que se conectan desde un extremo ubicado fuera del firewall corporativo. El servicio de servidor perimetral de acceso pasa las solicitudes de inicio de sesión a un Director, si está presente, o un servidor Front-End para la autenticación. El propio servicio de servidor perimetral de acceso no realiza la autenticación.
+- **Protocolo NTLM** para usuarios con credenciales de Active Directory que se conectan desde un extremo fuera del Firewall corporativo. El servicio perimetral de acceso pasa las solicitudes de inicio de sesión a un director, si está presente, o a un servidor front-end para la autenticación. El servicio perimetral de acceso en sí no realiza ninguna autenticación.
     
     > [!NOTE]
-    > El protocolo NTLM ofrece una protección contra ataques más débil que la de Kerberos, por lo que algunas organizaciones minimizan el uso de NTLM. Como resultado, acceso a Skype para Business Server puede estar restringido a interno o los clientes conectan a través de una conexión VPN o DirectAccess. 
+    > El protocolo NTLM ofrece una protección contra ataques más débil que la de Kerberos, por lo que algunas organizaciones minimizan el uso de NTLM. Como resultado, es posible que el acceso a Skype empresarial Server esté restringido a los clientes internos o a los que se conectan a través de una conexión VPN o DirectAccess. 
   
 - **Protocolo de autenticación** implícita para los usuarios denominados anónimos. Los usuarios anónimos son usuarios externos que no tienen credenciales de Active Directory reconocidas, pero que han recibido una invitación a una conferencia local y tienen una clave de conferencia válida. La autenticación implícita no se utiliza para otras interacciones del cliente.
     
-Skype para autenticación de servidor empresarial consta de dos fases:
+La autenticación de Skype empresarial Server consta de dos fases:
   
 1. Se establece una asociación de seguridad entre el cliente y el servidor.
     
@@ -44,11 +44,11 @@ Los usuarios con credenciales válidas emitidas por un socio federado son de con
   
 Los protocolos ICE y TURN también usan el desafío de autenticación implícita que se describe en la RFC del IETF referente a TURN.
   
-Certificados de cliente proporcionan un método alternativo para que los usuarios se autentiquen mediante Skype para Business Server. En vez de proporcionar un nombre de usuario y una contraseña, los usuarios cuentan con un certificado y una clave privada correspondiente al certificado necesario para resolver un desafío criptográfico. (Este certificado debe tener un nombre de sujeto o nombre alternativo del sujeto que identifica al usuario y debe ser emitido por una entidad de certificación raíz que sea de confianza por los servidores que ejecutan Skype para Business Server, estar dentro del período de validez del certificado y no ha sido revocado.) Para ser autenticados, los usuarios sólo tiene que escribir un número de identificación personal (PIN). Los certificados son particularmente útiles en el caso de teléfonos fijos, teléfonos móviles y otros dispositivos donde resulta complicado escribir un nombre de usuario y una contraseña.
+Los certificados de cliente proporcionan una forma alternativa para que los usuarios puedan ser autenticados por Skype empresarial Server. En vez de proporcionar un nombre de usuario y una contraseña, los usuarios cuentan con un certificado y una clave privada correspondiente al certificado necesario para resolver un desafío criptográfico. (Este certificado debe tener un nombre de asunto o un nombre alternativo de asunto que identifique al usuario y debe ser emitido por una entidad de certificación raíz en la que confíen los servidores con Skype empresarial Server, estar dentro del período de validez del certificado y no haberse revocado). Para ser autenticado, los usuarios solo tienen que escribir un número de identificación personal (PIN). Los certificados son particularmente útiles en el caso de teléfonos fijos, teléfonos móviles y otros dispositivos donde resulta complicado escribir un nombre de usuario y una contraseña.
   
-### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos de cifrado debido a ASP .NET 4.5 
+### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Requisitos criptográficos debido a la 4,5 de ASP.net 
 
-A partir de Skype para Business Server 2015 CU5, AES no es compatible con ASP.NET 4.6 y esto puede causar la aplicación de las reuniones de Skype que se inicie. Si un cliente usa AES como el valor de la clave de validación de máquina debe restablecer el valor de clave de máquina a SHA-1 u otro algoritmo compatible en el nivel de sitio de la aplicación de las reuniones de Skype en IIS. Si es necesario, vea [Administración de la configuración de ASP.NET de IIS 8.0](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
+A partir de Skype empresarial Server 2015 CU5, AES no es compatible con ASP.NET 4,6 y esto puede provocar errores en la aplicación reuniones de Skype. Si un cliente usa AES como valor de validación de clave de equipo, tendrá que restablecer el valor de la clave de equipo a SHA-1 u otro algoritmo admitido en el nivel de sitio de la aplicación reuniones de Skype en IIS. Si es necesario, consulte la administración de la [configuración de IIS 8,0 ASP.net](https://docs.microsoft.com/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management) para obtener instrucciones.
   
 Otros valores admitidos son:
   
@@ -58,5 +58,5 @@ Otros valores admitidos son:
     
 - HMACSHA512
     
-  Los valores de MD5, 3DES y AES son ya no se permite, tal como se administraban una vez en ASP.NET 4. [Mejoras criptográficas en ASP.NET 4.5, pt 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) tiene información más detallada.
+  Ya no se permiten los valores AES, 3DES y MD5, ya que cuando se encontraban en ASP.NET 4. Las [mejoras en el cifrado de ASP.NET 4,5, PT. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) más detalles.
   

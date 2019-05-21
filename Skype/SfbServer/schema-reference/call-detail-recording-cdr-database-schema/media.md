@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1e1b427f-59b5-4564-bde5-1002a80439ee
-description: Cada registro representa un tipo de medios utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios.
-ms.openlocfilehash: 76441c350241415aacac150e1e5dec2638302075
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cada registro representa un tipo de medio usado en una sesión de punto a punto. Una sesión estaría representada por varios registros de la tabla, si se usa más de un tipo de medio.
+ms.openlocfilehash: 181a78a9fc3fabe8c166f4cdc8c452b5a16b016b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930647"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296010"
 ---
 # <a name="media-table"></a>Tabla Media
  
-Cada registro representa un tipo de medios utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios.
+Cada registro representa un tipo de medio usado en una sesión de punto a punto. Una sesión estaría representada por varios registros de la tabla, si se usa más de un tipo de medio.
   
 > [!NOTE]
-> En la tabla de medios no debe usarse para calcular la duración media de una sesión. Esta tabla contiene los detalles de señalización de intercambio de medios en una sesión. Intercambio de medios se realiza mediante la solicitud INVITE y StartTime indica la hora en que se envió la invitación de la. El tiempo de invitar no significa necesariamente los medios de inicio de tiempo, debido a que los medios se inicia sólo después de la sessionee acepta la sesión. La hora de finalización normalmente significa que la hora de finalización de esta sesión. 
+> La tabla de medios no se debe usar para calcular la duración multimedia de una sesión. Esta tabla contiene los detalles de señalización de intercambio de medios en una sesión. El intercambio de medios se realiza mediante la solicitud INVITE y StartTime indica el momento en que se envió la invitación. La hora de la invitación no significa necesariamente la hora de inicio del medio, porque los elementos multimedia solo se inician después de que la sesión acepte la sesión. La EndTime normalmente significa la hora de finalización de esta sesión. 
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Principal, externa  <br/> |Hora de la solicitud de sesión. Se utiliza en forma conjunta con **SessionIdSeq** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Principal, externa  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con **SessionIdTime** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**MediaId** <br/> |tinyint  <br/> |Principal, externa  <br/> |Número único que identifica este tipo de medio. Consulte la [tabla MediaList](medialist.md) para obtener más información. <br/> |
-|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Esta es la hora en que se ha enviado una solicitud de medios, no los medios reales y hora de inicio. **StartTime** incluye el tiempo de preparación de la sesión. <br/> |
-|**EndTime** <br/> |datetime  <br/> ||Se trata de la hora de finalización de la sesión.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Principal, extranjero  <br/> |Hora de la solicitud de sesión. Se usa en conjunción con **SessionIdSeq** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Principal, extranjero  <br/> |Número de identificación para identificar la sesión. Se usa en conjunción con **SessionIdTime** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**MediaId** <br/> |tinyint  <br/> |Principal, extranjero  <br/> |Número único que identifica este tipo de medio. Para obtener más información, consulte la [tabla](medialist.md) de la información. <br/> |
+|**StartTime** <br/> |datetime  <br/> |Primary  <br/> |Este es el tiempo que se envió una solicitud de medios, no la hora real de inicio de medios. **StartTime** incluye la hora de configuración de la sesión. <br/> |
+|**EndTime** <br/> |datetime  <br/> ||Esta es la hora de finalización de la sesión.  <br/> |
    
 

@@ -5,56 +5,56 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
-description: Cada registro representa las métricas de señal de audio de un extremo. Normalmente, cada llamada tiene dos registros, uno es para el autor de la llamada, y uno es para el destinatario de la llamada.
-ms.openlocfilehash: 676a66cda3c87f5e16c956d23624b28af4b4357f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cada registro representa las métricas de señal de audio de un extremo. Normalmente, cada llamada tiene dos registros, uno para la persona que llama y el otro es para el destinatario de la llamada.
+ms.openlocfilehash: f8d617e96fe3427493bcb9e4cc70008fedae72e7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920253"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295079"
 ---
 # <a name="audiosignal-table"></a>Tabla AudioSignal
  
-Cada registro representa las métricas de señal de audio de un extremo. Normalmente, cada llamada tiene dos registros, uno es para el autor de la llamada, y uno es para el destinatario de la llamada. 
+Cada registro representa las métricas de señal de audio de un extremo. Normalmente, cada llamada tiene dos registros, uno para la persona que llama y el otro es para el destinatario de la llamada. 
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
-|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Referencia de la [tabla MediaLine](medialine-0.md).  <br/> |
+|**ConferenceDateTime** <br/> |datetime  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |tinyint  <br/> |Primary  <br/> |Se hace referencia a ella desde la [tabla MediaLine](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |bit  <br/> |Primary  <br/> |0: datos del destinatario de la llamada  <br/> 1: datos del autor de la llamada  <br/> |
-|**SendSignalLevel** <br/> |int  <br/> | <br/> |Representa el nivel de Control de ganancia analógica posteriores a la señal de audio. La unidad de esta métrica es dBmo. Para una calidad aceptable, debería ser al menos 30 dBmo. Esta métrica no se notifica el / los teléfonos IP o servidor de conferencia A/v.  <br/> |
-|**RecvSignalLevel** <br/> |int  <br/> | <br/> |Consulte SendSignalLevel.  <br/> |
-|**SendNoiseLevel** <br/> |int  <br/> | <br/> |Representa el nivel de ruido de audio de Control de ganancia posterior a la analógica. La unidad de esta métrica es dBmo. Para una calidad aceptable, debe ser inferior a 35 dBmo. Esta métrica no se notifica el / los teléfonos IP o servidor de conferencia A/v.  <br/> |
-|**RecvNoiseLevel** <br/> |int  <br/> | <br/> |Consulte SendNoiseLevel.  <br/> |
-|**EchoReturn** <br/> |int  <br/> | <br/> |Métrica de mejora de pérdida de eco devolver. La unidad para que esta métrica es la base de datos. Los valores más bajos representan menos eco. Esta métrica no se notifica el / los teléfonos IP o servidor de conferencia A/v.  <br/> |
-|**AudioSpeakerGlitchRate** <br/> |int  <br/> | <br/> |Problemas técnicos promedio por cinco minutos para la representación de altavoz. De buena calidad, debe ser menor que uno por cada cinco minutos. No informa A / teléfonos IP, los servidores de mediación o servidores de conferencia A/v.  <br/> |
-|**AudioMicGlitchRate** <br/> |int  <br/> | <br/> |Problemas técnicos promedio por cinco minutos para la captura del micrófono. De buena calidad debe ser menor que uno por cada cinco minutos. No informa A / teléfonos IP, los servidores de mediación o servidores de conferencia A/v.  <br/> |
-|**AudioTimestampDriftRateMic** <br/> |decimal(9,2)  <br/> | <br/> |Micrófono dispositivo desfase del reloj del, con respecto al reloj de la CPU.  <br/> |
-|**AudioTimestampDriftRateSpk** <br/> |decimal(9,2)  <br/> | <br/> |Altavoz dispositivo desfase del reloj del, con respecto al reloj de la CPU.  <br/> |
-|**AudioTimestampErrorMicMs** <br/> |decimal(9,2)  <br/> | <br/> |Altavoz dispositivo desfase del reloj del, con respecto al reloj de la CPU.  <br/> Promedio de micrófono captura errores tiempo de secuencia marca, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
-|**AudioTimestampErrorSpkMs** <br/> |decimal(9,2)  <br/> | <br/> |Presentación del altavoz promedio errores de marca de tiempo de secuencia, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
-|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |Modificador de voz es un modo de dúplex con capacidad de reducción de las interrupciones. Causas de entrada de conmutador de voz:  <br/> ENTER_VS_BADTS 0 X 01  <br/> ENTER_VS_ECHO 0 X 02  <br/> ENTER_VS_FORCEORCONVERGENCE 0 X 04  <br/> ENTER_VS_DNLP 0 X 08  <br/> La causa puede ser una combinación de causas individuales. ENTER_VS_FORCEORCONVERGENCE sólo se puede habilitar mediante la clave del registro para el propósito de la prueba.  <br/> El tipo de datos para esta columna se cambió en Microsoft Lync Server 2013.  <br/> |
-|**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |Causas de un evento de eco:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0 X 01  <br/> ECHO_EVENT_POSTAEC_ECHO 0 X 02  <br/> ECHO_EVENT_ANLP 0 X 04  <br/> ECHO_EVENT_DNLP 0 X 08  <br/> ECHO_EVENT_MIC_CLIPPING 0 X 10  <br/> ECHO_EVENT_BAD_STATE 0 X 20  <br/> La causa puede ser una combinación de causas individuales.  <br/> |
-|**EchoPercentMicIn** <br/> |decimal(5,2)  <br/> | <br/> |Porcentaje de tiempo para la detección del eco en la secuencia de captura del micrófono. En general, los valores son bajos para auriculares, y altos para altavoces de teléfono o independientes. En el caso de dispositivos que son compatibles con la cancelación del eco acústico incorporada, los valores altos indican filtraciones de eco. En otros dispositivos, esta métrica no debe utilizarse para evaluar la calidad del dispositivo.  <br/> |
-|**EchoPercentSend** <br/> |decimal(5,2)  <br/> ||Porcentaje de tiempo cuando se detecta el eco en secuencia enviado. Porcentaje de eco alta en enviar secuencias de una indicación de pérdida de eco.  <br/> |
-|**RxAGCSignalLevel** <br/> |int  <br/> | <br/> |Recibido el nivel de señal en el servidor de mediación de la puerta de enlace; Esto se aplica sólo al servidor de mediación. La unidad de esta métrica es dBoV. De buena calidad, el intervalo aceptable debe ser [-30 a -18] dBoV.  <br/> |
-|**RxAGCNoiseLevel** <br/> |int  <br/> | <br/> |Nivel de señal recibida en el servidor de mediación desde la puerta de enlace. Esto se aplica sólo al servidor de mediación. La unidad de esta métrica es dBoV. De buena calidad, el intervalo aceptable debe ser menor que-50 dBoV.  <br/> |
-|**RxAvgAGCGain** <br/> |int  <br/> | <br/> |Control (AGC) en el lado del servidor de mediación de ganancia automático.  <br/> |
-|**InitialSignalLevelRMS** <br/> |float  <br/> | <br/> |El valor cuadrático (RMS) de la señal entrante de los primeros 30 segundos de la llamada.  <br/> |
-|**RecvSignalLevelCh1** <br/> |int  <br/> ||Nivel de señal según se recibe en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**RecvSignalLevelCh2** <br/> |int  <br/> ||Nivel de señal según se recibe en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**RecvNoiseLevelCh1** <br/> |int  <br/> ||Nivel de ruido según se recibe en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**RecvNoiseLevelCh2** <br/> |int  <br/> ||Nivel de ruido según se recibe en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SendSignalLevelCh1** <br/> |int  <br/> ||Nivel de señal según se envía en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SendSignalLevelCh2** <br/> |int  <br/> ||Nivel de señal según se envía en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SendNoiseLevelCh1** <br/> |int  <br/> ||Nivel de ruido según se envía en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SendNoiseLevelCh2** <br/> |int  <br/> ||Nivel de ruido según se envía en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Nivel en dBFS de la señal se envía para el altavoz para la reproducción. Cuentas para los ajustes de ganancia realizadas a la señal recibida. <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |   
-|**RenderNoiseLevel** <br/> |int  <br/> ||Nivel de dBFS del contenido de ruido de la señal se envía para el altavoz de reproducción <br/> |
+|**SendSignalLevel** <br/> |int  <br/> | <br/> |Representa el nivel de señal de audio de control de ganancia posterior analógico. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe tener al menos 30 dBmo. El servidor de conferencia A/V o los teléfonos IP no han informado de esta métrica.  <br/> |
+|**RecvSignalLevel** <br/> |int  <br/> | <br/> |Consulta SendSignalLevel.  <br/> |
+|**SendNoiseLevel** <br/> |int  <br/> | <br/> |Representa el nivel de ruido de audio del control de ganancia posterior analógico. La unidad para esta métrica es dBmo. Para obtener una calidad aceptable, debe ser menor que 35 dBmo. El servidor de conferencia A/V o los teléfonos IP no han informado de esta métrica.  <br/> |
+|**RecvNoiseLevel** <br/> |int  <br/> | <br/> |Consulta SendNoiseLevel.  <br/> |
+|**EchoReturn** <br/> |int  <br/> | <br/> |Métrica de mejora de pérdida de eco. La unidad para esta métrica es dB. Los valores más bajos representan menos eco. El servidor de conferencia A/V o los teléfonos IP no han informado de esta métrica.  <br/> |
+|**AudioSpeakerGlitchRate** <br/> |int  <br/> | <br/> |Promedio de problemas por cinco minutos para el procesamiento de altavoz. Para obtener una buena calidad, debe ser inferior a un período de 5 minutos. No se han notificado por servidores de conferencia A/V, servidores de mediación o teléfonos IP.  <br/> |
+|**AudioMicGlitchRate** <br/> |int  <br/> | <br/> |Promedio de problemas por cinco minutos para la captura del micrófono. Para obtener una buena calidad, debe ser inferior a uno por cinco minutos. No se han notificado por servidores de conferencia A/V, servidores de mediación o teléfonos IP.  <br/> |
+|**AudioTimestampDriftRateMic** <br/> |decimal (9; 2)  <br/> | <br/> |Velocidad de desplazamiento del reloj del dispositivo de micrófono, relativa al reloj de la CPU.  <br/> |
+|**AudioTimestampDriftRateSpk** <br/> |decimal (9; 2)  <br/> | <br/> |Velocidad de desplazamiento del reloj del dispositivo de altavoz, relativa al reloj de la CPU.  <br/> |
+|**AudioTimestampErrorMicMs** <br/> |decimal (9; 2)  <br/> | <br/> |Velocidad de desplazamiento del reloj del dispositivo de altavoz, relativa al reloj de la CPU.  <br/> Error de marca de tiempo de captura de micrófono promedio, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
+|**AudioTimestampErrorSpkMs** <br/> |decimal (9; 2)  <br/> | <br/> |El altavoz promedio representa el error de marca de tiempo de la secuencia, en milisegundos, en los últimos 20 segundos de la llamada.  <br/> |
+|**VsEntryCauses** <br/> |smallint  <br/> | <br/> |El cambio de voz es un modo de dúplex medio con una capacidad de interrupción reducida. Causas de la entrada de conmutación de voz:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> La causa puede ser una combinación de estas causas individuales. La clave de permiso solo puede habilitarse ENTER_VS_FORCEORCONVERGENCE para fines de prueba.  <br/> El tipo de datos de esta columna se modificó en Microsoft Lync Server 2013.  <br/> |
+|**EchoEventCauses** <br/> |tinyint  <br/> | <br/> |Causas de un evento de eco:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> La causa puede ser una combinación de estas causas individuales.  <br/> |
+|**EchoPercentMicIn** <br/> |decimal (4,5)  <br/> | <br/> |Porcentaje de tiempo para la detección del eco en la secuencia de captura del micrófono. En general, los valores son bajos para auriculares, y altos para altavoces de teléfono o independientes. En el caso de dispositivos que son compatibles con la cancelación del eco acústico incorporada, los valores altos indican filtraciones de eco. En otros dispositivos, esta métrica no debe utilizarse para evaluar la calidad del dispositivo.  <br/> |
+|**EchoPercentSend** <br/> |decimal (4,5)  <br/> ||Porcentaje de tiempo durante el que se detecta eco en el flujo enviado. Porcentaje de eco alto en secuencias de envío indica una pérdida de eco.  <br/> |
+|**RxAGCSignalLevel** <br/> |int  <br/> | <br/> |Nivel de señal recibido en el servidor de mediación de la puerta de enlace; Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el rango aceptable debe ser [-30 a-18] dBoV.  <br/> |
+|**RxAGCNoiseLevel** <br/> |int  <br/> | <br/> |Nivel de señal recibido en el servidor de mediación de la puerta de enlace. Esto solo se aplica al servidor de mediación. La unidad de esta métrica es dBoV. Para obtener una buena calidad, el rango aceptable debe ser menor que-50 dBoV.  <br/> |
+|**RxAvgAGCGain** <br/> |int  <br/> | <br/> |Control automático de ganancia (AGC) en el servidor de mediación.  <br/> |
+|**InitialSignalLevelRMS** <br/> |float  <br/> | <br/> |El cuadrado de la media raíz (RMS) de la señal entrante de hasta los primeros 30 segundos de la llamada.  <br/> |
+|**RecvSignalLevelCh1** <br/> |int  <br/> ||Nivel de señal como recibido en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**RecvSignalLevelCh2** <br/> |int  <br/> ||Nivel de señal como recibido en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**RecvNoiseLevelCh1** <br/> |int  <br/> ||Nivel de ruido recibido en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**RecvNoiseLevelCh2** <br/> |int  <br/> ||Nivel de ruido recibido en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SendSignalLevelCh1** <br/> |int  <br/> ||Nivel de señal enviado en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SendSignalLevelCh2** <br/> |int  <br/> ||Nivel de señal enviado en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SendNoiseLevelCh1** <br/> |int  <br/> ||Nivel de ruido enviado en el canal 1.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SendNoiseLevelCh2** <br/> |int  <br/> ||Nivel de ruido enviado en el canal 2.  <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**RenderLoopbackSignalLevel** <br/> |int  <br/> ||Nivel en dBFS de la señal enviada al altavoz para la reproducción. Cuenta los ajustes de ganancia realizados en la señal recibida. <br/> Esta columna se introdujo en Microsoft Lync Server 2013.  <br/> |   
+|**RenderNoiseLevel** <br/> |int  <br/> ||Nivel en dBFS del contenido de ruido en la señal enviada al altavoz para su reproducción <br/> |
 

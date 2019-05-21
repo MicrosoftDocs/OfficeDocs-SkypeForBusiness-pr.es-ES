@@ -4,25 +4,25 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
-description: 'Resumen: Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.'
-ms.openlocfilehash: dbdf536b43006f5619330e93de0b8aba5024a1ab
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para solucionar problemas de implementación de Statistics Manager para Skype empresarial Server.'
+ms.openlocfilehash: b85ee6593413cce0aa5b7c76901dbbc6099107fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33906686"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299698"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Solucionar problemas del administrador de estadísticas para Skype Empresarial Server
  
-**Resumen:** Lea este tema para solucionar problemas de la implementación del Administrador de estadísticas de Skype para Business Server.
+**Resumen:** Lea este tema para solucionar problemas de implementación de Statistics Manager para Skype empresarial Server.
   
-En este tema se describe cómo solucionar problemas de la implementación del Administrador de estadísticas mediante la descripción de eventos, es posible que vea en el registro de eventos de aplicación y las acciones adecuadas que puede tardar para corregir el evento. Este tema contiene las siguientes secciones:
+En este tema se describe cómo solucionar problemas de la implementación del administrador de estadísticas mediante la descripción de los eventos que se pueden ver en el registro de eventos de la aplicación y las acciones apropiadas que se pueden llevar a cabo para rectificar el evento. Este tema contiene las siguientes secciones:
   
 - [Eventos del agente](troubleshoot.md#BKMK_Agent)
     
@@ -35,7 +35,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
 
 - **1000**: no se puede configurar el limitador de procesador (objeto de trabajo). Motivo desconocido
     
-- **1001** : limitar el proceso no se permite en el proceso (probablemente ya dentro de un objeto de trabajo)
+- **1001** : no se permite la limitación del proceso en el proceso (probablemente ya esté dentro de un objeto de trabajo).
     
     El agente se ejecuta en un objeto de trabajo de Windows para limitar automáticamente su superficie de memoria. Si el agente no se inicia y estas entradas de evento se encuentran en el registro de eventos, no se puede crear una instancia del objeto de trabajo en el servidor. Para evitar este problema, se puede quitar el límite de memoria superior cambiando un valor en el archivo de configuración:
     
@@ -43,14 +43,14 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
   C:\Program Files\Skype for Business Server StatsMan Agent\PerfAgent.exe.config
   ```
 
-    Buscar "MaxProcessMemoryMB" y cambie el valor a "0" como se muestra:
+    Busque "MaxProcessMemoryMB" y cambie el valor a "0", como se muestra a continuación:
     
   ```
   <setting name="MaxProcessMemoryMB" serializeAs="String"> <value>300</value> </setting>
   ```
 
     > [!NOTE]
-    > Si se realiza este cambio, el agente sigue generalmente consumirá \< 100 MB de memoria, sin embargo no será forzosamente limitado a 300 MB como es el valor predeterminado. Si se realiza este cambio, se recomienda estrechamente supervisar el uso de memoria para garantizar al agente no consumir una gran cantidad de memoria en el equipo host. 
+    > Si se realiza este cambio, el agente generalmente consumirá \< 100 MB de memoria, pero no se verá limitado a 300 MB como valor predeterminado. Si se realiza este cambio, recomendamos la supervisión minuciosa de la memoria para garantizar que el agente no consuma una gran cantidad de memoria en su equipo host. 
   
 - **2000**: error en la inicialización del cliente
     
@@ -60,17 +60,17 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
 1. Garantice que el servicio de escucha se esté ejecutando en el equipo de escucha. Si no, asegúrese de que Redis se esté ejecutando en ese servidor y, a continuación, reinicie el servicio de escucha.
     
-    Compruebe el registro de eventos de estadísticas administrador en el equipo de agente de escucha para no asegurarse de que no haya ningún problema con el propio servicio de agente de escucha de las estadísticas de administrador.
+    Compruebe el registro de eventos del administrador de estadísticas en el equipo de escucha para asegurarse de que no hay ningún problema con el servicio de escucha del administrador de estadísticas.
     
 2. Use una herramienta de conectividad como telnet para comprobar la conectividad desde el equipo del agente al de escucha en el puerto correcto.
     
-    Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de agente de escucha no está unido a un dominio, la red puede aparecer como pública y en ese caso no se aplicarán las reglas de firewall que se instalan con el Administrador de estadísticas de forma predeterminada.
+    Si no, asegúrese de que la regla de firewall entrante esté habilitada en el equipo de escucha para el tipo de red al que está conectado el equipo de escucha (privado/público/dominio). Si el equipo de escucha no se une a un dominio, la red puede aparecer como pública y, en ese caso, las reglas de Firewall instaladas con statistic Manager no se aplicarán de forma predeterminada.
     
 - **4000**: error al descargar información del servidor desde la escucha (motivo desconocido)
     
   - **4001**: no se encuentra el servidor en la topología de escucha
     
-    Se producirá este error si el servidor se conecta correctamente al agente de escucha, pero el servidor no se ha agregado a la topología en memoria caché del agente de escucha. Opciones de resolución:
+    Este error ocurrirá si el servidor se conecta correctamente al agente de escucha, pero el servidor no se agregó a la topología en la caché de la escucha. Opciones de resolución:
     
   - 	Asegúrese de que ha seguido las instrucciones para importar la topología. Consulte [Importar la topología](deploy.md#BKMK_ImportTopology).   
     
@@ -90,7 +90,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
   - Si la conexión se realiza mediante proxy, compruebe la configuración de proxy.
     
-  - Comprobar el registro de StatsMan del equipo de agente de escucha para problemas con su configuración.
+  - Compruebe el registro de StatsMan del equipo del agente de escucha para ver si hay problemas con su configuración.
     
   - **4005**: no se pudo deserializar el XML
     
@@ -141,7 +141,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
     
     Se registra cada vez que se inicia la escucha.
     
-- **22000** : inicialización del Administrador de estadísticas de agente se ha realizado correctamente.
+- **22000** : se completó la inicialización del agente del administrador de estadísticas.
     
 - **23000**: EventLogQueryManager se ha inicializado correctamente (primera vez o después de un error)
     
@@ -158,7 +158,7 @@ En este tema se describe cómo solucionar problemas de la implementación del Ad
 ## <a name="website-issues"></a>Problemas de sitio web
 <a name="BKMK_Website"> </a>
 
-- Inicio de sesión repetitiva solicita en cromo - era un error que se ha resuelto en la versión 1.1. Asegúrese de que haber actualizado a la versión más reciente del Administrador de estadísticas si está viendo solicitudes de inicio de sesión repetidas en el Explorador de cromo. Para comprobar la versión del sitio web en el que se está ejecutando:
+- Solicitudes de inicio de sesión repetitivas en Chrome: este es un error que se ha resuelto en la versión 1,1. Asegúrese de haber actualizado a la última versión de statistic Manager si está viendo solicitudes de inicio de sesión repetidas en el explorador Chrome. Para comprobar la versión del sitio web en el que se está ejecutando:
     
   - 	En el Explorador de archivos, abra (directorio predeterminado)
     

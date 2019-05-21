@@ -5,40 +5,40 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta contiene las entidades de seguridad que se deben actualizar desde los servicios de dominio de Active Directory.
-ms.openlocfilehash: a13fdcf705075188ae4febd5a2e0c3bc93a4738f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblPrincipalMeta contiene las entidades de identidad que deben actualizarse desde los servicios de dominio de Active Directory.
+ms.openlocfilehash: 9cff5b2515613ac3540d82e545862bf4fdb58b94
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924545"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295261"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
-tblPrincipalMeta contiene las entidades de seguridad que se deben actualizar desde los servicios de dominio de Active Directory.
+tblPrincipalMeta contiene las entidades de identidad que deben actualizarse desde los servicios de dominio de Active Directory.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|prinID  <br/> |int, no es nulo  <br/> |Identificador de entidad de seguridad.  <br/> |
-|prinAffiliationsDirty  <br/> |bit, no es nulo  <br/> |Es True si la entidad de seguridad afiliaciones tienen que se va a actualizar.  <br/> |
-|prinAttributesDirty  <br/> |bit, no es nulo  <br/> |Es True si la entidad de seguridad atributos tienen que actualizar.  <br/> |
-|prinDeleted  <br/> |bit, no es nulo  <br/> |Es True si se ha eliminado la entidad de seguridad.  <br/> |
-|tryCount  <br/> |int  <br/> |Número de intentos de actualización de la entidad de seguridad de AD DS que han sucedido hasta ahora.  <br/> |
-|lastTry  <br/> |datetime  <br/> |Marca de tiempo del último intento de actualizar la entidad de seguridad. Puede ser null si no se ha intentado ninguna actualización todavía.  <br/> |
-|nextTry  <br/> |datetime  <br/> |Marca de tiempo para la próxima actualización programada. Puede ser null si no se ha programado la actualización.  <br/> |
+|prinID  <br/> |int, not null  <br/> |IDENTIFICADOR principal.  <br/> |
+|prinAffiliationsDirty  <br/> |bit, not null  <br/> |True si es necesario actualizar las afiliaciones principales.  <br/> |
+|prinAttributesDirty  <br/> |bit, not null  <br/> |True si es necesario actualizar los atributos de principal.  <br/> |
+|prinDeleted  <br/> |bit, not null  <br/> |True si el principal se ha eliminado.  <br/> |
+|tryCount  <br/> |int  <br/> |Número de intentos de actualizar el principal de AD DS que se ha producido hasta el momento.  <br/> |
+|lastTry  <br/> |datetime  <br/> |Marca de tiempo del último intento de actualizar la entidad de la identidad. Puede ser null si aún no se ha intentado ninguna actualización.  <br/> |
+|nextTry  <br/> |datetime  <br/> |Marca de tiempo de la siguiente actualización programada. Puede ser null si no se ha programado ninguna actualización adicional.  <br/> |
    
-**Claves**
+**Sus**
 
 |**Columna**|**Descripción**|
 |:-----|:-----|
 |prinID  <br/> |Clave principal.  <br/> |
-|prinID  <br/> |Clave externa con búsqueda en la tabla tblPrincipal.prinID.  <br/> |
+|prinID  <br/> |Clave externa con la búsqueda en la tabla tblPrincipal. prinID.  <br/> |
    
 

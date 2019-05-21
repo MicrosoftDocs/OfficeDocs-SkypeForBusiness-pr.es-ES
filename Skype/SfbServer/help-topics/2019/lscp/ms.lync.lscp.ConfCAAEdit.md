@@ -1,10 +1,10 @@
 ---
-title: Número de acceso telefónico crear nuevos o editar los existentes
+title: Número de acceso telefónico local crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ConfCAAEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 97a2b794-77da-40c0-9f9a-3c5fe6cc683d
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 96d4597c3b147474f79935a11bfcc112248aea3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f64f380463889185a00630b103b0dcc99b85b93c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891624"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300311"
 ---
 # <a name="dial-in-access-number-create-new-or-edit-existing"></a>Número de acceso telefónico local: Crear nuevo o editar existente
 

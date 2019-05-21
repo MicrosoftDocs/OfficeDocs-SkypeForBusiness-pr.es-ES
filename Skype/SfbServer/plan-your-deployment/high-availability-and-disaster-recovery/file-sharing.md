@@ -1,32 +1,32 @@
 ---
-title: Archivo de uso compartido de alta disponibilidad en Skype para Business Server
+title: Alta disponibilidad del uso compartido de archivos en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
-description: Obtenga información sobre cómo asegurar una alta disponibilidad de los recursos compartidos de archivos en Skype para Business Server, el uso de DFS.
-ms.openlocfilehash: 90d67622c1c1fbd9567df69187519be63e812ac8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Obtenga más información sobre cómo asegurar la alta disponibilidad de los recursos compartidos de archivos en Skype empresarial Server con DFS.
+ms.openlocfilehash: 56a6e1008935bc0d38d65e2355826634709aed27
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910217"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297480"
 ---
-# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Archivo de uso compartido de alta disponibilidad en Skype para Business Server
+# <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Alta disponibilidad del uso compartido de archivos en Skype empresarial Server
  
-Obtenga información sobre cómo asegurar una alta disponibilidad de los recursos compartidos de archivos en Skype para Business Server, el uso de DFS.
+Obtenga más información sobre cómo asegurar la alta disponibilidad de los recursos compartidos de archivos en Skype empresarial Server con DFS.
   
-Para asegurar una alta disponibilidad para compartir archivos en su Skype para la implementación de Business Server, puede usar el sistema de archivos distribuido (DFS). DFS admite la conmutación por error de un servidor de archivos a otro dentro del mismo centro de datos. Para una implementación de gran escala, te recomendamos usar servidores de archivos dedicados que se emparejan con DFS. Para obtener más información acerca de DFS en Windows Server 2012, consulte [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384). Para obtener información acerca de DFS en Windows Server 2008, consulte [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385).
+Para garantizar la alta disponibilidad del uso compartido de archivos en su implementación de Skype empresarial Server, puede usar el sistema de archivos distribuido (DFS). DFS admite la conmutación por error de un servidor de archivos a otro dentro del mismo centro de datos. Para una implementación de gran escala, te recomendamos usar servidores de archivos dedicados que se emparejan con DFS. Para obtener más información sobre DFS en Windows Server 2012, [https://go.microsoft.com/fwlink/?LinkId=524384](https://go.microsoft.com/fwlink/?LinkId=524384)consulte. Para obtener información sobre DFS en Windows Server 2008, [https://go.microsoft.com/fwlink/p/?LinkId=524385](https://go.microsoft.com/fwlink/p/?LinkId=524385)consulte.
   
-Dependiendo del tamaño de su red y la cantidad de resistencia que desee, puede usar un par de servidores para hospedar todos los recursos compartidos de archivos en un sitio o usar un par por grupo de servidores Front-End.
+Según el tamaño de la red y la cantidad de resistencia que desee, puede usar un par de servidores para hospedar todos los recursos compartidos de archivos en un sitio o usar un par por grupo de servidores front-end.
   
-DFS es un mecanismo de replicación de archivos de mejor esfuerzo, sin ningún compromiso de objetivo de tiempo de recuperación (RTO) ni de objetivo de punto de recuperación (RPO) publicado. Una conmutación por error entre servidores DFS debe realizarse rápidamente, pero el retraso de replicación de datos puede impedir que los usuarios puedan continuar el trabajo en curso cuando se produce la conmutación por error.
+DFS es un mecanismo de replicación de archivos de mejor esfuerzo, sin ningún compromiso de objetivo de tiempo de recuperación (RTO) ni de objetivo de punto de recuperación (RPO) publicado. La conmutación por error entre servidores DFS debe completarse rápidamente, pero el retraso de replicación de datos puede evitar que los usuarios puedan continuar trabajando en curso cuando se produzca la conmutación por error.
   
 Si usa DFS y el almacén de datos en el recurso compartido de archivos es crítico, necesita realizar una copia de seguridad de los recursos compartidos de archivos con frecuencia, por ejemplo cada 4 u 8 horas. Si un recurso compartido de archivos deja de estar operativo y la replicación no está actualizada, puede usar la copia de seguridad para restaurar el contenido del servidor que ha fallado en el otro servidor que está emparejado con el servidor que ahora no está disponible.
   

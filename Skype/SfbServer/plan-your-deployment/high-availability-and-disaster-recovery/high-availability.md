@@ -4,31 +4,31 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: Obtenga información acerca de la administración de grupo de servidores Front-End en Skype para Business Server, incluida la administración de grupos de servidores, pérdida de quórum y pasos especiales para grupos de servidores con sólo dos servidores Front-End.
-ms.openlocfilehash: bab9d4b40132665719a1e9d019b8f34e2d96622d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Obtenga más información sobre la administración de grupos de servidores front-end en Skype empresarial Server, como la administración de grupos, pérdida de quórum y pasos especiales para grupos de servidores con tan solo dos servidores front-end.
+ms.openlocfilehash: debc0700a142789f542e4b4357da4427ce74c050
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910231"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297473"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Alta disponibilidad y administración del grupo de servidores front-end
  
-Obtenga información acerca de la administración de grupo de servidores Front-End en Skype para Business Server, incluida la administración de grupos de servidores, pérdida de quórum y pasos especiales para grupos de servidores con sólo dos servidores Front-End.
+Obtenga más información sobre la administración de grupos de servidores front-end en Skype empresarial Server, como la administración de grupos, pérdida de quórum y pasos especiales para grupos de servidores con tan solo dos servidores front-end.
   
-En Skype para Business Server, la arquitectura de grupos de servidores Front-End usa un modelo de sistemas distribuidos, con los datos de cada usuario mantenidos hasta tres servidores Front-End del grupo de servidores. Se recomienda que todos los grupos de Front-End de Enterprise Edition incluyen al menos tres servidores Front-End. 
+En Skype empresarial Server, la arquitectura de los grupos front-end usa un modelo de sistemas distribuidos, con los datos de cada usuario en un máximo de tres servidores front-end en el grupo. Recomendamos que todos los grupos de servidores front-end Enterprise Edition incluyan al menos tres servidores frontales. 
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planear la administración de grupos de servidores front-end
 
- Skype para Business Server usa un modelo de sistemas distribuidos basado en Windows Fabric. En este modelo, los datos importantes para cada usuario y la conferencia se almacenan en tres servidores de Front-End de un grupo de servidores Front-End. Estos tres servidores de almacenamiento de un determinado conjunto de datos son calledreplicas.
+ Skype empresarial Server usa un modelo de sistemas distribuidos basado en Windows fabric. En este modelo, los datos importantes de cada usuario y Conferencia se almacenan en tres servidores front-end en un grupo de servidores front-end. Estos tres servidores que almacenan un determinado conjunto de datos son calledreplicas.
   
-Con el modelo distribuido para grupos de servidores Front-End, debe ejecutar un determinado número de servidores de un grupo de servidores para el grupo de servidores a la función. Hay dos modos de pérdida de un grupo de servidores.
+Con el modelo distribuido para los grupos de servidores front-end, debe estar ejecutándose un determinado número de servidores de un grupo para que el grupo funcione. Hay dos modos de pérdida para un grupo.
   
 - Pérdida de cuórum en el grupo de enrutamiento, provocada por una cantidad insuficiente de servidores de réplicas para un determinado grupo de enrutamiento. Un grupo de enrutamiento es un conjunto de usuarios hospedados en el grupo. Cada grupo de enrutamiento tiene tres réplicas en el grupo: una principal y dos secundarias.
     
@@ -46,22 +46,22 @@ La primera vez que inicia un nuevo grupo de servidores front-end, es fundamental
 |5  <br/> |4  <br/> |
 |6  <br/> |5  <br/> |
 |7  <br/> |5  <br/> |
-|8  <br/> |6  <br/> |
-|9  <br/> |7  <br/> |
-|10  <br/> |8  <br/> |
-|11  <br/> |9  <br/> |
-|12  <br/> |10  <br/> |
+|4,8  <br/> |6  <br/> |
+|99,999  <br/> |7  <br/> |
+|base10  <br/> |4,8  <br/> |
+|once  <br/> |99,999  <br/> |
+|2007  <br/> |base10  <br/> |
    
-Cada vez subsiguiente que se inicie el grupo, es preciso iniciar el 85 % de los servidores (tal como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores de modo que no se encuentra en pérdida de quórum del grupo de servidores), puede usar el `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` cmdlet para habilitar el grupo de servidores para recuperarse de esta pérdida de quórum de nivel de grupo de enrutamiento y realizar el progreso. Para obtener más información acerca de cómo usar este cmdlet, consulte <link Reset-CsPoolRegistrarState>.
+Cada vez subsiguiente que se inicie el grupo, es preciso iniciar el 85 % de los servidores (tal como se muestra en la tabla anterior). Si no se puede iniciar este número de servidores (pero se pueden iniciar suficientes servidores para que no se encuentre en pérdida de quórum en el nivel de grupo), `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` puede usar el cmdlet para permitir que el grupo se recupere de esta pérdida de quórum en el nivel de grupo de enrutamiento y realice el progreso. Para obtener más información sobre cómo usar este cmdlet, consulte <link Reset-CsPoolRegistrarState>.
   
 > [!NOTE]
-> En los grupos de servidores con una cantidad par de servidores, Skype Empresarial Server usa la base de datos SQL principal como testigo. En un grupo como este, si apaga la base de datos principal, cambia a la copia reflejada y apaga una cantidad suficiente de servidores front-end para que no haya los suficientes en ejecución de acuerdo con la tabla anterior, todo el grupo de servidores quedará inactivo. Para obtener más información, vea [El testigo de la creación de reflejo de base de datos](https://go.microsoft.com/fwlink/?LinkId=393672). 
+> En los grupos de servidores con una cantidad par de servidores, Skype Empresarial Server usa la base de datos SQL principal como testigo. En un grupo como este, si apaga la base de datos principal, cambia a la copia reflejada y apaga una cantidad suficiente de servidores front-end para que no haya los suficientes en ejecución de acuerdo con la tabla anterior, todo el grupo de servidores quedará inactivo. Para obtener más información, consulte [testigo de creación de reflejo de base de datos](https://go.microsoft.com/fwlink/?LinkId=393672). 
   
 #### <a name="pool-level-quorum-loss"></a>Pérdida de cuórum en el grupo de servidores
 
-Para que un grupo de servidores Front-End funcionar en absoluto, no puede ser en pérdida de quórum del grupo de servidores. Si la cantidad de servidores en ejecución está por debajo del nivel de funcionamiento (tal como se muestra en la tabla siguiente), los servidores restantes del grupo detendrán todos los servicios de Skype Empresarial Server. Tenga en cuenta que los números en la tabla siguiente se suponen que se están ejecutando los servidores Back-End del grupo de servidores.
+Para que un grupo de servidores front-end funcione, no puede estar en pérdida de quórum en el nivel de grupo. Si la cantidad de servidores en ejecución está por debajo del nivel de funcionamiento (tal como se muestra en la tabla siguiente), los servidores restantes del grupo detendrán todos los servicios de Skype Empresarial Server. Tenga en cuenta que los números de la tabla siguiente suponen que los servidores de servicios de fondo del grupo se están ejecutando.
   
-|Número total de servidores Front-End del grupo de servidores  <br/> |Cantidad de servidores que es preciso que estén en ejecución para que el grupo funcione  <br/> |
+|Número total de servidores front-end en el grupo  <br/> |Cantidad de servidores que es preciso que estén en ejecución para que el grupo funcione  <br/> |
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3-4  <br/> |2 cualesquiera  <br/> |
@@ -70,31 +70,31 @@ Para que un grupo de servidores Front-End funcionar en absoluto, no puede ser en
 |8-9  <br/> |4 cualesquiera de los primeros 7 servidores  <br/> |
 |10-12  <br/> |5 cualesquiera de los primeros 9 servidores  <br/> |
    
-En la tabla anterior, "servidores primera" son los que se han de la mano de copia de seguridad en primer lugar, cronológico, cuando se inició el grupo de servidores por primera vez. Para determinar estos servidores, puede usar el `Get-CsComputer` cmdlet con la ` -PoolFqdn` opción. Este cmdlet le mostrará los servidores en el orden en el que aparecen en la topología; los que se encuentran en la parte superior de la lista son los primeros servidores.
+En la tabla anterior, los "primeros servidores" son los servidores que se pusieron en primer lugar, cronológicamente, cuando el grupo se inició por primera vez. Para determinar estos servidores, puede usar el `Get-CsComputer` cmdlet con la ` -PoolFqdn` opción. Este cmdlet le mostrará los servidores en el orden en el que aparecen en la topología; los que se encuentran en la parte superior de la lista son los primeros servidores.
   
 #### <a name="additional-steps-to-ensure-pools-are-functional"></a>Pasos adicionales para comprobar si los grupos de servidores son funcionales
 
 Es necesario tener en cuenta algunos otros factores a fin de asegurarse de que los grupos de servidores front-end sigan siendo funcionales.
   
-- Al mover los usuarios al grupo de servidores por primera vez, asegúrese de al menos que tres de los servidores Front-End se ejecutan.
+- Al mover usuarios al grupo por primera vez, asegúrese de que al menos tres de los servidores front-end se estén ejecutando.
     
-- Si establece una relación de emparejamiento entre este grupo de servidores y otro con fines de recuperación ante desastres, después de establecer dicha relación, necesitará asegurarse de que este grupo tiene tres servidores front-end ejecutándose simultáneamente en algún momento para sincronizar correctamente los datos con el servidor de copia de seguridad. Para obtener más información sobre las funciones de recuperación ante desastres y el emparejamiento de grupo de servidores, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](high-availability-and-disaster-recovery.md). 
+- Si establece una relación de emparejamiento entre este grupo de servidores y otro con fines de recuperación ante desastres, después de establecer dicha relación, necesitará asegurarse de que este grupo tiene tres servidores front-end ejecutándose simultáneamente en algún momento para sincronizar correctamente los datos con el servidor de copia de seguridad. Para obtener más información sobre el emparejamiento de pools y las características de recuperación de desastres, consulte [Plan for Disaster Availability and Disaster Recovery in Skype empresarial Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Grupos de servidores front-end con dos servidores front-end
 
-No se recomienda implementar un grupo de servidores Front-End que contiene sólo dos servidores Front-End. Este grupo pequeño no ofrecerá una solución de alta disponibilidad sólida como lo haría un grupo más grande y requerirá más atención en su administración. Además, si el servidor Back-End de un grupo de servidores de dos servidores se detuvieron, al propio grupo todo debería es probable que pronto conducir hacia abajo también. Si desea implementar uno o dos servidores que ejecuta Skype para Business Server, se recomienda que implementar como servidores Standard Edition.
+No se recomienda implementar un grupo de servidores front-end que contenga solo dos servidores front-end. Este grupo pequeño no ofrecerá una solución de alta disponibilidad sólida como lo haría un grupo más grande y requerirá más atención en su administración. Además, si el servidor back-end de un grupo de dos servidores se desactivara, todo el grupo sería muy probable que pronto se desactivara. Si desea implementar solo uno o dos servidores que ejecuten Skype empresarial Server, le recomendamos que los implemente como servidores Standard Edition.
   
-Si alguna vez necesita implementar un grupo de servidores con dos servidores Front-End, siga estas instrucciones:
+Si alguna vez necesita implementar un grupo con dos servidores front-end, siga estas pautas:
   
-- Si uno de los dos servidores de Front-End deja de funcionar, debe intentar conectar el servidor con errores copia de seguridad tan pronto como sea posible. Del mismo modo, si necesita actualizar uno de los dos servidores, vuelva a ponerlo en línea tan pronto como termine la actualización.
+- Si uno de los dos servidores de solicitudes de cliente deja de funcionar, debe intentar volver a ponerlo en marcha tan pronto como pueda. Del mismo modo, si necesita actualizar uno de los dos servidores, vuelva a ponerlo en línea tan pronto como termine la actualización.
     
 - Si, por algún motivo, necesita detener los dos servidores en algún momento, realice lo siguiente cuando termine el tiempo de inactividad del grupo:
     
-  - El procedimiento recomendado consiste en reiniciar ambos servidores Front-End al mismo tiempo. 
+  - Lo mejor es reiniciar ambos servidores front-end al mismo tiempo. 
     
   - Si no se pueden reiniciar los dos servidores al mismo tiempo, será necesario ponerlos en funcionamiento nuevamente en el orden inverso al orden en que se detuvieron.
     
-  - Si no puede ponerlos copia de seguridad en ese orden, a continuación, use el siguiente cmdlet antes de poner el grupo de copia de seguridad:`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
+  - Si no puede hacer una copia de seguridad en ese orden, use el siguiente cmdlet antes de volver a poner el grupo de servidores:`Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery -PoolFQDN <FQDN>`
     
 ## <a name="front-end-pool-configuration-failures-and-changes"></a>Cambios y errores de configuración en el grupo de servidores front-end
 
@@ -104,6 +104,6 @@ Siempre que realice un cambio de configuración en un grupo de servidores front-
   
 - Después de publicar una topología nueva, necesita reiniciar cada uno de los servidores front-end del grupo. Reinícielos de uno en uno.
     
-- Si el grupo entero ha estado inactivo durante el cambio de configuración, a continuación, ejecute el siguiente cmdlet después de publica la nueva topología:`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
+- Si se ha desactivado todo el grupo durante el cambio de configuración, ejecute el siguiente cmdlet una vez publicada la nueva topología:`Reset-CsPoolRegistrarState -PoolFQDN <PoolFQDN> -ResetType ServiceReset`
     
 

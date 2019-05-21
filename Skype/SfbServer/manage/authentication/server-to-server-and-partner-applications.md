@@ -1,67 +1,67 @@
 ---
-title: Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server
+title: Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socios en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 38848373-c8c6-4097-bf7f-699fe471348d
-description: 'Resumen: Administrar aplicaciones de OAuth y socio de Skype para Business Server.'
-ms.openlocfilehash: 6e12b6fb36375fe89301b79065e11ad8a1c0d48a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: administre aplicaciones de socios y OAuth en Skype empresarial Server.'
+ms.openlocfilehash: 37c2af8a089bcae4b974761616e1ecd67c9e500b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919580"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297571"
 ---
-# <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones asociadas en Skype para Business Server
+# <a name="manage-server-to-server-authentication-oauth-and-partner-applications-in-skype-for-business-server"></a>Administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socios en Skype empresarial Server
  
-**Resumen:** Administrar aplicaciones de OAuth y socio de Skype para Business Server.
+**Resumen:** Administre aplicaciones de socios y OAuth en Skype empresarial Server.
   
-Skype para Business Server debe ser capaz de forma segura y sin ningún problema, comunicarse con otras aplicaciones y productos de servidor. Por ejemplo, puede configurar Skype para Business Server por lo ponerse en contacto con datos o datos de archivado se almacena en Microsoft Exchange Server 2013; Sin embargo, esto sólo es posible si Skype para Business Server y Exchange es capaces de forma segura comunicarse entre sí. Del mismo modo, puede programar una Skype para conferencia de Business Server desde dentro de Office Web Apps Server; una vez más, esto sólo es posible si confían en los dos servidores (SharePoint y Skype para Business Server) entre sí. Aunque es posible usar un mecanismo de autenticación para la comunicación entre Skype para Business Server y Exchange, pero un mecanismo independiente para Skype para la comunicación de Business Server y SharePoint, un enfoque mejor y más eficiente consiste en usar un método estándar para todos los de autorización y autenticación de servidor a servidor.
+Skype empresarial Server debe poder comunicarse de manera segura y sin problemas con otras aplicaciones y productos de servidor. Por ejemplo, puede configurar Skype empresarial Server para que los datos de los contactos o los datos de archivado se almacenen en Microsoft Exchange Server 2013; sin embargo, esto solo se puede hacer si Skype empresarial Server y Exchange pueden comunicarse con seguridad entre sí. Del mismo modo, puede programar una conferencia de Skype empresarial Server desde Office Web Apps Server; de nuevo, esto solo se puede hacer si los dos servidores (SharePoint y Skype empresarial Server) confían entre sí. Aunque es posible usar un mecanismo de autenticación para la comunicación entre Skype empresarial Server y Exchange, pero un mecanismo separado para Skype empresarial Server y la comunicación de SharePoint, un enfoque mejor y más eficaz es usar una método estándar para todas las autenticaciones y autorizaciones de servidor a servidor.
   
-Mediante una sola, el método estándar para la autenticación de servidor a servidor es el enfoque tomado por Skype para Business Server. Introducción a los servidores de Office 2013 versión, Skype para Business Server (así como otros productos de Microsoft Server, incluido Exchange Server y SharePoint Server) admite el protocolo OAuth (Open Authorization) para la autenticación de servidor a servidor y autorización. Con OAuth, un protocolo de autorización estándar utilizado por un número de sitios Web principales, las credenciales de usuario y contraseñas no se pasan de un equipo a otro. En su lugar, autenticación y autorización se basa en el intercambio de tokens de seguridad; Estos tokens conceden acceso a un conjunto específico de recursos para un período de tiempo específico.
+Usar un único método estándar para la autenticación de servidor a servidor es el enfoque que toma Skype empresarial Server. A partir de la versión 2013 de Office servers, Skype empresarial Server (así como otros productos de Microsoft Server, incluidos Exchange Server y SharePoint Server) admiten el protocolo OAuth (Open Authorization) para la autenticación de servidor a servidor y autorización. Con OAuth, un protocolo de autorización estándar usado por varios sitios web grandes, las credenciales de usuario y las contraseñas no pasan de un equipo a otro. En su lugar, la autenticación y la autorización se basan en el intercambio de tokens de seguridad; Estos tokens conceden acceso a un conjunto de recursos específico durante un período de tiempo específico.
   
-Normalmente, la autenticación de OAuth implica tres partes: un servidor único de autorización y los dos dominios que necesitan comunicarse entre sí. (Se puede hacer autenticación de servidor a servidor sin usar un servidor de autorización, un proceso que se tratarán más adelante en este documento.) Los tokens de seguridad emitidos por el servidor de autorización (también conocido como un servidor token de seguridad) a los dos dominios que necesitan comunicarse; Estos tokens comprobación que las comunicaciones que se originan desde un territorio deben ser de confianza por el otro dominio. Por ejemplo, el servidor de autorización podría emitir tokens que comprobación que los usuarios de un Skype específico para el dominio Kerberos de Business Server tienen acceso a un dominio Kerberos de Exchange especificado y viceversa.
+Por lo general, la autenticación de OAuth implica tres partes: un único servidor de autorización y los dos territorios que necesitan comunicarse entre sí. (También puede realizar la autenticación de servidor a servidor sin usar un servidor de autorización, un proceso que se tratará más adelante en este documento). El servidor de autorización emite los tokens de seguridad (también conocido como servidor de token de seguridad) a los dos territorios que necesitan comunicarse; Estos tokens verifican que el otro dominio confía en las comunicaciones que se originan en un dominio. Por ejemplo, es posible que el servidor de autorización emita tokens que comprueben que los usuarios de un territorio específico de Skype empresarial Server pueden obtener acceso a un dominio específico de Exchange y viceversa.
   
 > [!NOTE]
-> Un dominio es un contenedor de seguridad. De forma predeterminada, Skype para Business Server usa su dominio SIP de forma predeterminada como su territorio OAuth. Se agregan espacios de nombres SIP a la lista Nombre alternativo del sujeto en el certificado OAuth. 
+> Un dominio es un contenedor de seguridad. De forma predeterminada, Skype empresarial Server usa su dominio SIP predeterminado como su territorio OAuth. Se agregan espacios de nombres SIP a la lista Nombre alternativo del sujeto en el certificado OAuth. 
   
-Skype para Business Server es compatible con tres escenarios de autenticación de servidor a servidor. Con Skype para Business Server, se puede:
+Skype empresarial Server admite tres escenarios de autenticación de servidor a servidor. Con Skype empresarial Server, puede hacer lo siguiente:
   
-- Configurar la autenticación de servidor a servidor entre una instalación local de Skype para Business Server y una instalación local de Exchange o del servidor de SharePoint.
+- Configure la autenticación de servidor a servidor entre una instalación local de Skype empresarial Server y una instalación local de Exchange o de SharePoint Server.
     
-- Configurar la autenticación de servidor a servidor entre un par de componentes de Office 365 (por ejemplo, entre Microsoft Exchange Server y Skype para Business Server, o entre Skype para Business Server y SharePoint).
+- Configure la autenticación de servidor a servidor entre un par de componentes de Office 365 (por ejemplo, entre Microsoft Exchange Server y Skype empresarial Server, o entre Skype empresarial Server y SharePoint).
     
-- Configurar la autenticación de servidor a servidor en un entorno entre locales (es decir, autenticación de servidor a servidor entre un servidor local y un componente de Office 365).
+- Configurar la autenticación de servidor a servidor en un entorno entre locales (es decir, la autenticación de servidor a servidor entre un servidor local y un componente de Office 365).
     
-Tenga en cuenta, en este momento, sólo Exchange 2013, SharePoint Server, Lync Server 2013, Skype para Business Server 2015 y Skype para profesionales 2019 admiten la autenticación de servidor a servidor; Si no está ejecutando uno de estos servidores, no podrá implementar completamente la autenticación de OAuth.
+Tenga en cuenta que, en este momento, solo Exchange 2013, SharePoint Server, Lync Server 2013, Skype empresarial Server 2015 y Skype empresarial 2019 son compatibles con la autenticación de servidor a servidor; Si no está ejecutando uno de estos servidores, no podrá implementar completamente la autenticación de OAuth.
   
-Debe también se señaló ese servidor a servidor autenticación es opcional: si Skype para Business Server no es necesario para comunicarse con otros servidores (por ejemplo, Exchange), a continuación, se puede omitir totalmente autenticación de servidor a servidor. Si la autenticación de servidor a servidor ya está configurada para Lync Server 2013 y otras aplicaciones, no es necesario para volver a hacerlo por Skype para Business Server. 
+También se debe señalar que la autenticación de servidor a servidor es opcional: si Skype empresarial Server no necesita comunicarse con otros servidores (como Exchange), la autenticación de servidor a servidor se puede omitir por completo. Si la autenticación de servidor a servidor ya está configurada para Lync Server 2013 y otras aplicaciones, no es necesario volver a realizarla en Skype empresarial Server. 
   
-Sin embargo, se requiere autenticación de servidor a servidor si desea utilizar algunas de las características de Skype para Business Server, como "almacén de contactos unificados." Con el almacén de contactos unificados, Skype para obtener información de contacto de Business Server se almacena en Exchange en lugar de hacerlo en Skype para Business Server; Esto permite a los usuarios tener un único conjunto de contactos es accesible desde dentro de Skype para profesionales, Outlook o Outlook Web Access. Debido a que el almacén de contactos unificados requiere Skype para Business Server compartir información con Exchange, debe usar la autenticación de servidor a servidor para poder implementar la característica. Autenticación de servidor a servidor también es necesaria si decide utilizar el intercambio de archivado, en la que se guardan las transcripciones de sesiones de mensajería instantánea como mensajes de correo electrónico de Exchange, en lugar de como registros de la base de datos individual.
+Sin embargo, se necesita la autenticación de servidor a servidor si desea usar algunas de las características de Skype empresarial Server, como "almacén de contactos unificado". Con el almacenamiento de contactos unificado, la información de contacto de Skype empresarial Server se almacena en Exchange en lugar de en Skype empresarial Server; Esto permite a los usuarios tener un único conjunto de contactos con acceso fácil desde dentro de Skype empresarial, Outlook o Outlook Web Access. Debido a que el almacén de contactos unificado requiere Skype empresarial Server para compartir información con Exchange, debe usar la autenticación de servidor a servidor para implementar la característica. También se necesita la autenticación de servidor a servidor si elige usar el archivado de Exchange, en el que las transcripciones de las sesiones de mensajería instantánea se guardan como correos electrónicos de Exchange en lugar de como registros de la base de datos individual.
   
-Para la versión de Office 365 de Skype para Business Server para comunicarse con su homólogo de Exchange, Skype para Business Server debe obtener un token de seguridad desde el servidor de autorización. Skype para Business Server usa, a continuación, ese token de seguridad que se identifique a Exchange. La versión de Office 365 de Exchange debe pasar por el mismo proceso para que pueda comunicarse con Skype para Business Server.
+Para que la versión de Office 365 de Skype empresarial Server se comunique con su equivalente de Exchange, Skype empresarial Server primero debe obtener un token de seguridad del servidor de autorización. Después, Skype empresarial Server usa ese token de seguridad para identificarse en Exchange. La versión de Office 365 de Exchange debe pasar por el mismo proceso para poder comunicarse con Skype empresarial Server.
   
-Sin embargo, para una autenticación de servidor a servidor local entre dos servidores Microsoft, no es necesario usar ningún servidor de tokens de otro proveedor. Productos de servidor como Skype para Business Server y Exchange dispone de un servidor de token integrado que se puede usar con fines de autenticación con otros servidores de Microsoft (por ejemplo, SharePoint Server) que admiten la autenticación de servidor a servidor. Por ejemplo, Skype para Business Server puede emitir y firmar un token de seguridad por sí mismo, a continuación, utilizar ese token para comunicarse con Exchange. En este caso, no es necesario usar ningún servidor de tokens de un tercero.
+Sin embargo, para una autenticación de servidor a servidor local entre dos servidores Microsoft, no es necesario usar ningún servidor de tokens de otro proveedor. Los productos de servidor, como Skype empresarial Server y Exchange, tienen un servidor de tokens integrado que se puede usar para fines de autenticación con otros servidores de Microsoft (como SharePoint Server) que admiten la autenticación de servidor a servidor. Por ejemplo, Skype empresarial Server puede emitir e iniciar por sí mismo un token de seguridad y, a continuación, usar ese token para comunicarse con Exchange. En este caso, no es necesario usar ningún servidor de tokens de un tercero.
   
-Con el fin de configurar la autenticación de servidor a servidor para una implementación local de Skype para Business Server, debe hacer dos cosas:
+Para configurar la autenticación de servidor a servidor para una implementación local de Skype empresarial Server, debe hacer dos cosas:
   
-- Asignar un certificado a la Skype integrado para el emisor de tokens de Business Server.
+- Asigne un certificado al emisor de tokens integrado de Skype empresarial Server.
     
-- Configurar el servidor que se Skype para Business Server se comunican con como "aplicación de socio". Por ejemplo, si necesita Skype para Business Server para comunicarse con Exchange, necesitará configurar Exchange para que sea una aplicación de socio.
+- Configure el servidor con el que se comunicará Skype empresarial Server para que sea una "aplicación asociada". Por ejemplo, si Skype empresarial Server necesita comunicarse con Exchange, tendrá que configurar Exchange para que sea una aplicación de socio.
     
 > [!NOTE]
-> Una "aplicación de socio" es cualquier aplicación que Skype para Business Server puede intercambiar directamente tokens de seguridad, sin tener que pasar por un servidor de token de seguridad de otros fabricantes. 
+> Una "aplicación asociada" es cualquier aplicación en la que Skype empresarial Server pueda intercambiar directamente tokens de seguridad con, sin tener que pasar por un servidor de token de seguridad de terceros. 
   
 Tenga en cuenta que OAuth es una parte fundamental del producto y no se puede desactivar ni eliminar.
   
 ## <a name="see-also"></a>Vea también
 
-[Asignar un certificado de autenticación de servidor a servidor a Skype para Business Server](assign-a-server-to-server-certificate.md)
+[Asignar un certificado de autenticación de servidor a servidor a Skype empresarial Server](assign-a-server-to-server-certificate.md)
   
-[Configuración de un entorno híbrido en Skype para Business Server](configure-a-hybrid-environment.md)
+[Configurar un entorno híbrido en Skype empresarial Server](configure-a-hybrid-environment.md)

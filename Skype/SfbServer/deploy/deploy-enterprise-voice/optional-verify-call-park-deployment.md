@@ -1,33 +1,33 @@
 ---
-title: (Opcional) Comprobación de la implementación de estacionamiento de llamadas en Skype para la empresa
+title: Faculta Comprobar la implementación del parque de llamadas en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
-description: Comprobación de la implementación de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: da53d351acef3eb2fc7fcc1b59e24a83d0cb2495
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Comprobar la implementación de el parque de llamadas en la telefonía IP empresarial de Skype empresarial.
+ms.openlocfilehash: 94d230491c0207c05016545de3c45cf0582ca496
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894671"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292846"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Opcional) Comprobación de la implementación de estacionamiento de llamadas en Skype para la empresa
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>Faculta Comprobar la implementación del parque de llamadas en Skype empresarial
  
-Comprobación de la implementación de estacionamiento de llamadas en Skype para Business Server Enterprise Voice. 
+Comprobar la implementación de el parque de llamadas en la telefonía IP empresarial de Skype empresarial. 
   
-Después de instalar y configurar el estacionamiento de llamadas, debe comprobar la configuración para asegurarse de que de estacionamiento y recuperación de llamadas funciona según lo previsto. Como mínimo, compruebe los elementos siguientes:
+Después de instalar y configurar el parque de llamadas, debe comprobar la configuración para asegurarse de que el aparcamiento y la recuperación de llamadas funciona según lo esperado. Como mínimo, compruebe los elementos siguientes:
   
-- Llamar a un usuario que tenga habilitado estacionamiento de llamadas y haga que Estacione la llamada.
+- Llamar a un usuario que tiene habilitada la opción estacionamiento de llamadas y hacer que el usuario aparca la llamada.
     
     > [!NOTE]
-    > Si se habilita el estacionamiento de llamadas en la directiva de voz justo antes de realizar esta prueba, el usuario que es estacionar la llamada debe cerrar la sesión de Skype para la empresa y, a continuación, inicie sesión en, podrá ver la opción de estacionamiento de llamadas en la transferencia de la lista de llamadas. 
+    > Si habilitó el parque de llamadas en la Directiva de voz justo antes de realizar esta prueba, el usuario que está aparcando la llamada necesita cerrar la sesión de Skype empresarial y, a continuación, volver a iniciarla, para poder ver la opción estacionamiento de llamadas en la lista de llamadas de transferencia. 
   
 - Marque el número de órbita para recuperar la llamada.
     

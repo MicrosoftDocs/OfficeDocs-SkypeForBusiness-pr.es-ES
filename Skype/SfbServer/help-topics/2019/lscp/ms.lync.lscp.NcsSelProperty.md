@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsSelProperty
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 ROBOTS: NOINDEX, NOFOLLOW
-description: Use el cuadro de diálogo Asignar propiedades para especificar un identificador de sitio descripción y red en varias subredes a la vez. En Descripción, escriba la descripción que desea usar para las subredes que ha seleccionado. En el identificador de sitio de red, seleccione el identificador de sitio de red que desea asignar a las subredes que ha seleccionado. Para asignar estas propiedades a las subredes que ha seleccionado, haga clic en Aceptar.
-ms.openlocfilehash: dbee855e973ca0386a99094b17f8d8fd052285a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use el cuadro de diálogo asignar propiedades para especificar una descripción y un identificador de sitio de red para varias subredes a la vez. En descripción, escriba la descripción que desea usar para las subredes seleccionadas. En identificador de sitio de red, seleccione el identificador de sitio de red que desee asignar a las subredes seleccionadas. Para asignar estas propiedades a las subredes seleccionadas, haga clic en Aceptar.
+ms.openlocfilehash: a5648456ef72afc6549e76219f524c3a9ef65878
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891281"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34291859"
 ---
 # <a name="assign-properties"></a>Asignar propiedades
  
-Use el cuadro de diálogo **Asignar propiedades** para especificar un identificador de sitio descripción y red en varias subredes a la vez. En **Descripción**, escriba la descripción que desea usar para las subredes que ha seleccionado. En el **identificador de sitio de red**, seleccione el identificador de sitio de red que desea asignar a las subredes que ha seleccionado. Para asignar estas propiedades a las subredes que ha seleccionado, haga clic en **Aceptar**.
+Use el cuadro de diálogo **asignar propiedades** para especificar una descripción y un identificador de sitio de red para varias subredes a la vez. En **Descripción**, escriba la descripción que desea usar para las subredes seleccionadas. En **identificador de sitio de red**, seleccione el identificador de sitio de red que desee asignar a las subredes seleccionadas. Para asignar estas propiedades a las subredes seleccionadas, haga clic en **Aceptar**.
   
  
   

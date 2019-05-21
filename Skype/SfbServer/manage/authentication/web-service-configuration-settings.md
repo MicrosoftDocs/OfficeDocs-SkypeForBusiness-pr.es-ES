@@ -1,36 +1,36 @@
 ---
-title: Administrar la configuración de configuración del servicio Web en Skype para Business Server
+title: Administrar la configuración de los servicios web en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: f3f04d81-8a1f-427f-bd0f-fb659024e096
-description: 'Resumen: Administrar opciones de configuración del servicio Web en Skype para Business Server.'
-ms.openlocfilehash: 4a930fcae92be54f5a617190a6472e9ffcb590d4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: administrar las opciones de configuración del servicio Web en Skype empresarial Server.'
+ms.openlocfilehash: b2a7f287c9386c89d132e03e96aa25e9472f7008
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919426"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297578"
 ---
-# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de configuración del servicio Web en Skype para Business Server
+# <a name="manage-web-service-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de los servicios web en Skype empresarial Server
  
-**Resumen:** Administrar opciones de configuración del servicio Web en Skype para Business Server.
+**Resumen:** Administrar la configuración de los servicios web en Skype empresarial Server.
   
-Puede usar la página **Servicio Web** para configurar los métodos de autenticación para obtener acceso a Skype para Business Server relacionados con servidores web y servicios Web.
+Puede usar la página de **servicio Web** para configurar los métodos de autenticación para acceder a servidores web y servicios web relacionados con Skype empresarial Server.
   
 Siga estos pasos para crear una nueva directiva de servicios web.
   
 ### <a name="to-create-new-web-service-configuration-settings"></a>Para crear opciones de configuración nuevas para un servicio web
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad**y, a continuación, en **Servicio web**.
     
@@ -54,15 +54,15 @@ Siga estos pasos para crear una nueva directiva de servicios web.
     
 ## <a name="modify-existing-web-service-configuration-settings"></a>Modificar opciones de configuración de un servicio web existente
 
-Puede usar la página **Servicio Web** para configurar los métodos de autenticación para obtener acceso a Skype para Business Server relacionados con servidores web y servicios Web.
+Puede usar la página de **servicio Web** para configurar los métodos de autenticación para acceder a servidores web y servicios web relacionados con Skype empresarial Server.
   
 Siga estos pasos para modificar una directiva de servicio web existente.
   
 ### <a name="to-modify-existing-web-service-configuration-settings"></a>Para modificar opciones de configuración de un servicio web existente
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad**y, a continuación, en **Servicio web**.
     
@@ -86,9 +86,9 @@ Siga estos pasos para eliminar opciones de configuración de un servicio web.
   
 ### <a name="to-delete-web-service-configuration-settings"></a>Para eliminar opciones de configuración de un servicio web existente
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad**y, a continuación, en **Servicio web**.
     
@@ -98,9 +98,9 @@ Siga estos pasos para eliminar opciones de configuración de un servicio web.
     
 6. Haga clic en **Aceptar**.
     
-## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminación de opciones de configuración del servicio Web mediante el uso de Cmdlets de Windows PowerShell
+## <a name="deleting-web-service-configuration-settings-by-using-windows-powershell-cmdlets"></a>Eliminar las opciones de configuración del servicio Web mediante cmdlets de Windows PowerShell
 
-Puede eliminar la configuración del servicio web mediante el uso de Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration** . Puede ejecutar este cmdlet desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
+Puede eliminar las opciones de configuración del servicio Web mediante Windows PowerShell y el cmdlet **Remove-CsWebServiceConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
   
 ### <a name="to-delete-a-specific-collection-of-web-service-configuration-settings"></a>Para eliminar una colección específica de valores de configuración de los servicios web:
 

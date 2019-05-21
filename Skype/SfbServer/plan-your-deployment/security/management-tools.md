@@ -1,34 +1,34 @@
 ---
-title: Windows PowerShell y Skype para herramientas de administración de Business Server
+title: Herramientas de administración de Windows PowerShell y Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
-description: 'En Skype para Business Server, las herramientas de administración se implementan mediante Windows PowerShell. Windows PowerShell incluye un entorno de línea de comandos, comandos específicos del producto y un lenguaje de scripting completo. Skype para las herramientas de Business Server que se implementan mediante Windows PowerShell se incluyen los siguientes:'
-ms.openlocfilehash: 158664b4c0f83b7619c6a739046247bfdf495f37
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'En Skype empresarial Server, las herramientas de administración se implementan con Windows PowerShell. Windows PowerShell incluye un entorno de línea de comandos, comandos específicos de productos y un lenguaje de scripting completo. Entre las herramientas de Skype empresarial que se implementan con Windows PowerShell se incluyen las siguientes:'
+ms.openlocfilehash: 3eb156e002603378ec77fbbcbde4772870aad907
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897397"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296885"
 ---
-# <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Windows PowerShell y Skype para herramientas de administración de Business Server
+# <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Herramientas de administración de Windows PowerShell y Skype empresarial
  
-En Skype para Business Server, las herramientas de administración se implementan mediante Windows PowerShell. Windows PowerShell incluye un entorno de línea de comandos, comandos específicos del producto y un lenguaje de scripting completo. Skype para las herramientas de Business Server que se implementan mediante Windows PowerShell se incluyen los siguientes: 
+En Skype empresarial Server, las herramientas de administración se implementan con Windows PowerShell. Windows PowerShell incluye un entorno de línea de comandos, comandos específicos de productos y un lenguaje de scripting completo. Entre las herramientas de Skype empresarial que se implementan con Windows PowerShell se incluyen las siguientes: 
   
-- **Generador de topología**. Use el generador de topología para crear, ajustar y publicar su topología planeada y valida la topología antes de comenzar las instalaciones de servidor. Al instalar Skype para Business Server en servidores individuales, los servidores leen la topología publicada como parte del proceso de instalación, y el programa de instalación implementa el servidor como se indica en la topología. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
+- **Generador de topología**. El generador de topología se usa para crear, ajustar y publicar su topología planeada, y valida su topología antes de empezar con las instalaciones del servidor. Al instalar Skype empresarial Server en servidores individuales, los servidores leen la topología publicada como parte del proceso de instalación y el programa de instalación implementa el servidor tal como se indica en la topología. After setup, configuration information is automatically replicated to all servers. Components can be added to your deployment only by using Topology Builder.
     
-- **Skype para Shell de administración de servidor empresarial**. Puede usar Skype para Shell de administración de servidor empresarial para administración de línea de comandos de su implementación.
+- **Consola de administración de Skype empresarial Server**. Puede usar el shell de administración de Skype empresarial Server para la administración de la línea de comandos completa de su implementación.
     
-- **Skype para el Panel de Control de servidor empresarial**. Puede usar el Skype para la interfaz de usuario del Panel de Control de servidor empresarial para administrar las tareas más comunes en la implementación.
+- **Panel de control de Skype empresarial Server**. Puede usar la interfaz de usuario del panel de control de Skype empresarial Server para administrar las tareas más comunes en su implementación.
     
-Estas herramientas usar cmdlets de Windows PowerShell para la administración de la implementación, incluidos cerca de 550 cmdlets específicos de cada producto. Los cmdlets de seguridad incluidos en Skype para Business Server se usan principalmente para administrar la autenticación y derechos de usuario y los permisos. Hay una gran variedad de cmdlets para administrar la autenticación, por ejemplo cmdlets para certificado y autenticación del PIN. Además, un número de cmdlets permiten usar la nueva característica de Control de acceso basado en roles (RBAC) para delegar el control administrativo de Skype para Business Server. Para obtener información detallada sobre la Skype para Business Server cmdlets, consulte [Skype para Shell de administración de servidor empresarial](../../manage/management-shell.md).
+Estas herramientas usan cmdlets de Windows PowerShell para administrar su implementación, incluidos los cmdlets específicos de 550 de producto. Los cmdlets de seguridad incluidos en Skype empresarial Server se usan principalmente para administrar la autenticación y los permisos y derechos de los usuarios. Hay una gran variedad de cmdlets para administrar la autenticación, por ejemplo cmdlets para certificado y autenticación del PIN. Además, varios cmdlets permiten usar la nueva característica de control de acceso basado en roles (RBAC) para delegar el control administrativo de Skype empresarial Server. Para obtener más información sobre los cmdlets de Skype empresarial Server, consulte [Shell de administración de Skype empresarial Server](../../manage/management-shell.md).
   
-Las características de seguridad de scripts de Windows PowerShell están diseñadas específicamente para ayudar a evitar algunos de los problemas de seguridad relacionados con scripts de tecnologías antiguas, incluido Microsoft Visual Basic Scripting Edition (VBScript). Las características de seguridad de Windows PowerShell están diseñadas para crear un entorno en el que los usuarios no pueden fácilmente o sin darse cuenta ejecutar secuencias de comandos. De forma predeterminada, se habilitan las características de seguridad de Windows PowerShell. Puede modificar el estado de esas características para adaptarlo a sus necesidades de scripting y a una amplia variedad de objetivos de seguridad. Eso no significa que el shell impida a los usuarios ejecutar scripts. Lo que hace (de forma predeterminada) es que resulte difícil que los usuarios ejecuten scripts sin darse cuenta de que lo están haciendo. Para obtener más información, vea [Seguridad de secuencia de comandos de Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=213145).
+Las características de seguridad de scripts de Windows PowerShell están diseñadas específicamente para ayudar a evitar algunos de los problemas de seguridad relacionados con scripts de tecnologías antiguas, incluido Microsoft Visual Basic Scripting Edition (VBScript). Las características de seguridad de Windows PowerShell se han diseñado para crear un entorno en el que los usuarios no pueden ejecutar scripts de manera sencilla o sin problemas. De forma predeterminada, las características de seguridad de Windows PowerShell están habilitadas. Puede modificar el estado de esas características para adaptarlo a sus necesidades de scripting y a una amplia variedad de objetivos de seguridad. Eso no significa que el shell impida a los usuarios ejecutar scripts. Lo que hace (de forma predeterminada) es que resulte difícil que los usuarios ejecuten scripts sin darse cuenta de que lo están haciendo. Para obtener más información, consulte Seguridad de scripts de [Windows PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=213145).
   
 

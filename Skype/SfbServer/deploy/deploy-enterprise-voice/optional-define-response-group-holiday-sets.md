@@ -1,26 +1,26 @@
 ---
-title: (Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para la empresa
+title: Faculta Definir conjuntos de días festivos de grupos de respuesta en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
-description: Crear o modificar conjuntos de días festivos de grupo de respuesta, en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d78eaeee9b447dfd0c9f4f7250b6f34aee298594
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Crear o modificar conjuntos de días festivos de grupos de respuesta en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: cd277412a9cef2c474b8ba60459e216482f2d872
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894708"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304492"
 ---
-# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Opcional) Días festivos de definir grupo de respuesta se establecen en Skype para la empresa
+# <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>Faculta Definir conjuntos de días festivos de grupos de respuesta en Skype empresarial
  
-Crear o modificar conjuntos de días festivos de grupo de respuesta, en Skype para Business Server Enterprise Voice.
+Crear o modificar conjuntos de días festivos de grupos de respuesta en Skype empresarial Server Enterprise Voice.
   
 La configuración de festivos define los días que un grupo de respuesta está cerrado para negocios y especifica la acción que se va a realizar en esos días. Un conjunto de festivos es la colección de festivos que se aplican a un grupo de respuesta.
   
@@ -55,8 +55,8 @@ La configuración de festivos define los días que un grupo de respuesta está c
 
 ## <a name="see-also"></a>Vea también
 
-[Diseñar y crear flujos de trabajo de grupo de respuesta en Skype para la empresa](designing-and-creating-response-group-workflows.md)
+[Diseñar y crear flujos de trabajo de grupos de respuesta en Skype empresarial](designing-and-creating-response-group-workflows.md)
 
-[New-CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
+[Nuevo: CsRgsHoliday](https://docs.microsoft.com/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 
 [New-CsRgsHolidaySet](https://docs.microsoft.com/powershell/module/skype/new-csrgsholidayset?view=skype-ps)

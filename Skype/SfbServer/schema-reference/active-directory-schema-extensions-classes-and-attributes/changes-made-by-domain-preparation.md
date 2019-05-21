@@ -1,48 +1,48 @@
 ---
-title: Cambios realizados por la preparación del dominio en Skype para Business Server
+title: Cambios realizados por la preparación del dominio en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
-description: En la siguiente tabla se enumera las entradas de control de acceso (ACE) que crea la preparación del dominio en la raíz del dominio. Todas las ACE se heredan, a menos que se indique lo contrario.
-ms.openlocfilehash: ccb05f122e60c66bccefa3e8504e60639612cba0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En la siguiente tabla se enumeran las entradas de control de acceso (ACE) que crea la preparación del dominio en la raíz del dominio. A menos que se indique lo contrario, se heredan todas las ACE.
+ms.openlocfilehash: afd6747590e09b0b86b42119ad34eb26eaf9d8db
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33907146"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296717"
 ---
-# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del dominio en Skype para Business Server
+# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Cambios realizados por la preparación del dominio en Skype empresarial Server
  
-En la siguiente tabla se enumera las entradas de control de acceso (ACE) que crea la preparación del dominio en la raíz del dominio. Todas las ACE se heredan, a menos que se indique lo contrario.
+En la siguiente tabla se enumeran las entradas de control de acceso (ACE) que crea la preparación del dominio en la raíz del dominio. A menos que se indique lo contrario, se heredan todas las ACE.
   
 **Entradas ACE agregadas a la raíz del dominio**
 
-|**as**|**Grupo de UserReadOnly RTCUniversal**|**Grupo de ServerReadOnly RTCUniversal**|**RTCUniversal UserAdmins**|**Servicios de RTCHSUniversal**|**Usuarios autenticados**|
+|**ENTRADA**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|**RTCUniversal-UserAdmins**|**RTCHSUniversal-servicios**|**Autenticados: usuarios**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Contenedor de lectura (no heredado)  <br/> |**Sí** <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Leer el usuario restricciones de cuentas de usuario de PropertySet  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Usuario PropertySet Personal-Information de lectura  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Usuario PropertySet General-Information de lectura  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Usuario PropertySet Public-Information de lectura  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Leer PropertySet RTCUserSearchProperty-conjunto de usuarios  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |
-|Usuario PropertySet RTCPropertySet de lectura  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
-|Escribir direcciones de Proxy de usuario (propiedad)  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
-|Escribir PropertySet RTCUserSearchProperty-conjunto de usuarios  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
-|Usuario PropertySet RTCPropertySet de escritura  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
-|Lectura PropertySet DS-Replication-Get-Changes de todos los objetos de Active Directory  <br/> |No  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |
+|Leer contenedor (no heredado)  <br/> |**Sí** <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Leer usuario de la PropertySet de la cuenta de usuario-restricciones  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Leer usuario PropertySet información personal  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Leer usuario de la petición general-información  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Leer usuario PropertySet Public-Information  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Leer usuario PropertySet RTCUserSearchProperty-set  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |
+|Leer el usuario PropertySet RTCPropertySet  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |No  <br/> |No  <br/> |
+|Escribir propiedad de usuario proxy: direcciones  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
+|Escribir el usuario de la RTCUserSearchProperty  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
+|Escribir el usuario PropertySet RTCPropertySet  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |No  <br/> |
+|Lea el complemento de DS-replicación-obtener-cambios de todos los objetos de Active Directory  <br/> |No  <br/> |No  <br/> |No  <br/> |**Sí** <br/> |No  <br/> |
    
-En la siguiente tabla se enumera las ACE que crea la preparación del dominio en los tres contenedores integrados: los usuarios, equipos y controladores de dominio. Todas las ACE se heredan, a menos que se indique lo contrario.
-**Entradas ACE agregadas a los contenedores integrados**
+En la tabla siguiente se enumeran las ACE que crea el dominio de preparación en los tres contenedores integrados: usuarios, equipos y controladores de dominio. A menos que se indique lo contrario, se heredan todas las ACE.
+**Entradas ACE agregadas a contenedores integrados**
 
-|**as**|**Grupo de UserReadOnly RTCUniversal**|**Grupo de ServerReadOnly RTCUniversal**|
+|**ENTRADA**|**RTCUniversal-UserReadOnly-Group**|**RTCUniversal-ServerReadOnly-Group**|
 |:-----|:-----|:-----|
-|Contenedor de lectura (no heredado)  <br/> |**Sí** <br/> |**Sí** <br/> |
+|Leer contenedor (no heredado)  <br/> |**Sí** <br/> |**Sí** <br/> |
    
 

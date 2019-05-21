@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5411c9bc-b0b3-41fc-8b7e-fa71cccd770b
-description: la tabla tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de Chat persistente.
-ms.openlocfilehash: d780c2153b2e7f9f1ed5aad20217228e44f29504
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
+ms.openlocfilehash: b35960bd1deef5470724f580bce2375b2e034cb9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924811"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295191"
 ---
 # <a name="tblserveridentity"></a>tblServerIdentity
  
-la tabla tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de Chat persistente.
+tblServerIdentity contiene los servidores de chat activos en el grupo de servidores de chat persistente.
   
 **Columnas**
 
 |**Columna**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|
-|serverID  <br/> |int, no es nulo  <br/> |Identificador de servidor. Se corresponde con un identificador de instancia de almacén de Administración Central.  <br/> |
-|serverAddress  <br/> |nvarchar (256), no es nulo  <br/> |Dirección de servidor con la dirección de Windows Communication Foundation.  <br/> |
-|serverLastPingTime  <br/> |datetime  <br/> |La última vez que el servidor de canal actualizó esta fila para probar que se está ejecutando.  <br/> |
+|serverID  <br/> |int, not null  <br/> |IDENTIFICADOR de servidor. Corresponde al identificador de instancia del almacén de administración central.  <br/> |
+|serverAddress  <br/> |nvarchar (256), not null  <br/> |Dirección del servidor con la dirección de Windows Communication Foundation.  <br/> |
+|serverLastPingTime  <br/> |datetime  <br/> |La última vez que el servidor de canal actualizó esta fila para proporcionar evidencia de que se está ejecutando.  <br/> |
    
 **Clave**
 

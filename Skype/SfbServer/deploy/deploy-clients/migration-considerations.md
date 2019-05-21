@@ -3,60 +3,60 @@ title: Consideraciones acerca de la migración del Sistema de salas de Skype
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: davgroom
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: Lea este tema para obtener más información acerca de cómo implementar el sistema de sala de Skype en un entorno que tiene varias versiones de Skype para Business Server y Lync Server.
-ms.openlocfilehash: f5e33c36b0c6a58d83f22e5c18f4de34ffb9d648
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lea este tema para obtener información sobre cómo implementar el sistema de salas de Skype en un entorno con varias versiones de Skype empresarial Server y Lync Server.
+ms.openlocfilehash: 35dd7cff34134791ebaf62bf4d0fcd1cf3b83a4c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895219"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293525"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Consideraciones acerca de la migración del Sistema de salas de Skype
  
-Lea este tema para obtener más información acerca de cómo implementar el sistema de sala de Skype en un entorno que tiene varias versiones de Skype para Business Server y Lync Server.
+Lea este tema para obtener información sobre cómo implementar el sistema de salas de Skype en un entorno con varias versiones de Skype empresarial Server y Lync Server.
   
 ## <a name="migration-considerations"></a>Consideraciones acerca de la migración
 
-En esta sección se proporciona instrucciones si va a implementar el sistema de sala de Skype en un entorno de grupo de varios servidores que incluya las diferentes versiones de Skype para Business Server o Lync Server. 
+Esta sección le proporciona instrucciones si va a implementar el sistema de salas de Skype en un entorno de varios grupos que incluye distintas versiones de Skype empresarial Server o Lync Server. 
   
-El componente Replicador de usuario (UR) de Lync Server obtiene objetos de usuario de Active Directory y los coloca en la base de datos de SQL Server del back-end de Lync Server. Sólo el Replicador de usuarios en Lync Server 2013 está al tanto de objetos del sistema de salas de Skype. En anteriores versiones de Lync Server y Office Communications, el replicador de usuario no detecta los atributos de Active Directory que designan los objetos LRS y, por consiguiente, no los reconoce. 
+El componente Replicador de usuario (UR) de Lync Server obtiene objetos de usuario de Active Directory y los coloca en la base de datos de SQL Server del back-end de Lync Server. Solo el UR de Lync Server 2013 tiene constancia de los objetos de sistema de la sala de Skype. En anteriores versiones de Lync Server y Office Communications, el replicador de usuario no detecta los atributos de Active Directory que designan los objetos LRS y, por consiguiente, no los reconoce. 
   
-Si una cuenta de sistema de salas de Skype intenta iniciar sesión en Lync y realiza la detección automática en función de registro SRV o el aspecto de registro DNS A copia de seguridad, y si los puntos de esas cuentas a una versión anterior de Lync Server u Office Communications Server, LRS recibirá una respuesta 404 no se encuentra en  el grupo heredado. El grupo heredado no podrán redirigir del sistema de sala de Skype a su grupo de servidores principal de Lync Server 2013. 
+Si una cuenta del sistema de Skype Room intenta iniciar sesión en Lync y realiza un descubrimiento automático basado en un registro SRV o DNS búsqueda de registros, y si esas cuentas apuntan a una versión anterior de Lync Server o de Office Communications Server, LRS recibirá una respuesta 404 no encontrada de  Grupo heredado. El grupo heredado no podrá redirigir el sistema de la sala de Skype a su grupo de inicio de Lync Server 2013. 
   
 Puede abordar este problema con las siguientes opciones: 
   
 - Señale el registro SRV de detección automática (_sipinternaltls._tcp.contoso.com) en el grupo de Lync Server 2013.
     
-- Si la primera opción no es posible, debe configurar LRS manualmente y proporcione la dirección de grupo de servidores de Lync Server 2013 mediante su configuración directamente en la aplicación de consola del sistema de salas de Skype. 
+- Si la primera opción no es posible, debe configurar manualmente LRS y proporcionar la dirección de la agrupación de Lync Server 2013, configurándolo directamente en la aplicación de consola del sistema de salas de Skype. 
     
-- Si el sistema de sala de Skype se implementa fuera de la red corporativa y un servidor perimetral de Lync ha implementado y configurado para que apunte a un grupo de servidores heredado o director, un sitio secundario del servidor perimetral es necesario, que apunta al grupo de servidores de Lync Server 2013. Consulte la documentación de la implementación del servidor perimetral si desea obtener más información acerca de la implementación de un servidor perimetral secundario. 
+- Si el sistema de salas de Skype se implementa fuera de la red corporativa y se ha implementado y configurado un servidor perimetral de Lync para apuntar a un grupo o director heredado, se necesita un sitio de servidor perimetral secundario, que apunta al grupo de 2013 de Lync Server. Consulte la documentación de la implementación del servidor perimetral si desea obtener más información acerca de la implementación de un servidor perimetral secundario. 
     
-## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Interoperabilidad del sistema de salas de Skype con un grupo de servidores de Lync Server 2010
+## <a name="skype-room-system-interoperability-with-a-lync-server-2010-pool"></a>Interoperabilidad de sistemas de salas de Skype con un grupo de 2010 de Lync Server
 
-Durante la migración, si un usuario alojado en un grupo de servidores de Lync Server 2010 programa una reunión y se invita a la cuenta del sistema de salas de Skype, el cliente del sistema de salas de Skype tendrán una funcionalidad limitada al asistir a la reunión. 
+Durante la migración, si un usuario alojado en un grupo de servidores de Lync Server 2010 programa una reunión e invita a la cuenta del sistema de salas de Skype, el cliente del sistema de la sala de Skype dispondrá de una funcionalidad limitada mientras asiste a la reunión. 
   
-Cuando el cliente del sistema de salas de Skype se une a una llamada de conferencia programada que se ha organizado por un usuario alojado en Lync Server 2010, sistema de sala de Skype tiene las siguientes limitaciones en la reunión: 
+Cuando el cliente del sistema de salas de Skype se une a una llamada de conferencia programada que ha sido organizada por un usuario alojado en Lync Server 2010, el sistema de salas de Skype tiene las siguientes limitaciones de la reunión: 
   
-- Sistema de sala de Skype no se puede mostrar la Galería de vídeo de varias vista.
+- El sistema de salas de Skype no puede mostrar la galería de vídeos de varias vistas.
     
-- Si el cliente del sistema de salas de Skype es el moderador, no se aplican bloqueo de vídeo en los participantes.
+- Si el cliente del sistema de Skype Room es el moderador, no puede aplicar el bloqueo de video a los participantes.
     
-- Sistema de sala de Skype no se puede mostrar la resolución de vídeo de 1080p (entrante o saliente), incluso si la directiva de conferencia de Lync Server 2013 lo permite, debido a lo siguiente: 
+- El sistema de salas de Skype no puede mostrar resolución de video 1080p (entrante o saliente), incluso si la Directiva de conferencia de Lync Server 2013 lo permite, debido a lo siguiente: 
     
-  - Lync Server 2010 no es compatible con resolución 1080p.
+  - Lync Server 2010 no admite la resolución de 1080p.
     
-  - Sistema de sala de Skype siempre está limitado por la directiva del organizador de la conferencia para la resolución de vídeo. Por lo tanto, incluso si el grupo de servidores de Lync 2010 es compatible con la resolución 720p, sistema de sala de Skype no podrán aprovechar las ventajas de resolución 720p como la directiva del organizador no lo admite. 
+  - El sistema de salas de Skype siempre está limitado por la política de conferencia del organizador para la resolución de video. Por lo tanto, incluso si el grupo de Lync 2010 admite la resolución 720p, el sistema de salas de Skype no podrá aprovechar la resolución de 720p mientras la Directiva del organizador no lo admita. 
     
 - Los clientes de Lync 2013 detectan la presencia de LRS en la sala de reunión y desactivan el audio automáticamente para evitar eco en la sala de reunión física. Esta característica no funciona en reuniones hospedadas en Lync Server 2010.
     
 - Existen limitaciones en el rendimiento de escritorio compartido para reuniones hospedadas en Lync Server 2010.
     
-- Los usuarios no podrán unirse a privada reuniones (restringidas) a las que se hospedan en Lync 2010 con el sistema de sala de Skype.
+- Los usuarios no podrán unirse a reuniones privadas (restringidas) hospedadas en Lync 2010 con el sistema de salas de Skype.
     
 

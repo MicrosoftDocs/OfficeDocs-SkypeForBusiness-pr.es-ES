@@ -4,18 +4,18 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.reviewer: qingy
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 description: Proporciona a los profesionales de TI vínculos a la información más reciente acerca de las actualizaciones para las versiones perpetuas de los clientes de Skype Empresarial 2016, Skype Empresarial 2015 y Lync 2013.
-ms.openlocfilehash: b7dadb5b302a1f8221d5fac05d28bfc2b696eb1d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 2de8e4a1b27388e6951aa1fb3cf0380b6173fa45
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924440"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294568"
 ---
 # <a name="latest-updates-for-versions-of-skype-for-business-that-use-windows-installer-msi"></a>Actualizaciones más recientes de las versiones de Skype Empresarial que usan Windows Installer (MSI)
 
@@ -42,14 +42,14 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:---  |:---  |:---  |
-|Actualización de Skype Empresarial 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | Abril de 2019|
-|Actualización de Skype Empresarial 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | Marzo de 2019|
-|Actualización de Skype Empresarial 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | Febrero de 2019|
-|Actualización de Skype Empresarial 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | Enero de 2019|
-|Actualización de Skype Empresarial 2016 |[KB 4461545](https://support.microsoft.com/kb/4461545/) | Diciembre de 2018|
-|Actualización de seguridad de Skype Empresarial Server 2016 |[KB 4461473](https://support.microsoft.com/kb/4461473/) | Noviembre de 2018|
-|Actualización de Skype Empresarial 2016 |[KB 4092445](https://support.microsoft.com/kb/4092445/) | Octubre de 2018|
-|Actualización de Skype Empresarial 2016 |[KB 4032255](https://support.microsoft.com/kb/4032255/) | Agosto de 2018|
+|Actualización de Skype Empresarial 2016 |[KB 4462234](https://support.microsoft.com/kb/4462234/) | 2019 de abril|
+|Actualización de Skype Empresarial 2016 |[KB 4462190](https://support.microsoft.com/kb/4462190/) | 2019 de marzo|
+|Actualización de Skype Empresarial 2016 |[KB 4462114](https://support.microsoft.com/kb/4462114/) | 2019 de febrero|
+|Actualización de Skype Empresarial 2016 |[KB 4461586](https://support.microsoft.com/kb/4461586/) | 2019 de enero|
+|Actualización de Skype Empresarial 2016 |[KB 4461545](https://support.microsoft.com/kb/4461545/) | 2018 de diciembre|
+|Actualización de seguridad de Skype Empresarial Server 2016 |[KB 4461473](https://support.microsoft.com/kb/4461473/) | 2018 de noviembre|
+|Actualización de Skype Empresarial 2016 |[KB 4092445](https://support.microsoft.com/kb/4092445/) | 2018 de octubre|
+|Actualización de Skype Empresarial 2016 |[KB 4032255](https://support.microsoft.com/kb/4032255/) | 2018 de agosto|
 |Actualización de seguridad de Skype Empresarial Server 2016 |[KB 4022221](https://support.microsoft.com/kb/4022221) | Julio de 2018 |
 |Actualización de Skype Empresarial 2016 |[KB 4022155](https://support.microsoft.com/en-us/help/4022155) | Junio de 2018|
 |Actualización de Skype Empresarial 2016 |[KB 4018367](https://support.microsoft.com/kb/4018367) | Mayo de 2018|
@@ -87,12 +87,12 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 |Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Abril de 2019 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Enero de 2019 |
-|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Noviembre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Octubre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| Septiembre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| Agosto de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| 2019 de abril |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| 2019 de enero |
+|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| 2018 de noviembre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| 2018 de octubre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| 2018 de septiembre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| 2018 de agosto |
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225) | Julio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4022170](https://support.microsoft.com/kb/4022170) | Junio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4018377](https://support.microsoft.com/kb/4018377) | Mayo de 2018 |
@@ -145,12 +145,12 @@ La compatibilidad de Skype Empresarial con Office 365 y el entorno local depende
 
 Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |:--- |:--- |:--- |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| Abril de 2019 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| Enero de 2019 |
-|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| Noviembre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| Octubre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| Septiembre de 2018 |
-|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| Agosto de 2018 |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4462207](https://support.microsoft.com/kb/4462207/)| 2019 de abril |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461557](https://support.microsoft.com/kb/4461557/)| 2019 de enero |
+|Actualización de seguridad de Skype Empresarial 2015/Lync 2013 |[KB 4461487](https://support.microsoft.com/kb/4461487/)| 2018 de noviembre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4461446](https://support.microsoft.com/kb/4461446/)| 2018 de octubre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4092457](https://support.microsoft.com/kb/4092457/)| 2018 de septiembre |
+|Actualización de Skype Empresarial 2015/Lync 2013 |[KB 4032250](https://support.microsoft.com/kb/4032250/)| 2018 de agosto |
 |Actualización de seguridad de Skype Empresarial/Lync 2013 |[KB 4022225](https://support.microsoft.com/kb/4022225)| Julio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 4022170](https://support.microsoft.com/kb/4022170) | Junio de 2018 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 4018377](https://support.microsoft.com/kb/4018377) | Mayo de 2018 |
@@ -192,23 +192,23 @@ Nombre de paquete|Número de KB|Fecha de lanzamiento|
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3085500](https://support.microsoft.com/kb/3085500) | Septiembre de 2015 |
 |Actualización de Skype Empresarial 2015/Lync 2013|[KB 3054791](https://support.microsoft.com/kb/3054791) | Junio de 2015 |
 |Actualización de seguridad de Skype Empresarial 2015/Lync 2013|[KB 3039779](https://support.microsoft.com/kb/3039779) | Mayo de 2015 |
-|Actualización de Skype Empresarial 2015/Lync 2013 | [KB 2889923](http://support.microsoft.com/kb/2889923) <br> [KB 2889853](http://support.microsoft.com/kb/2889853) | Abril de 2015  |
-|Actualización para Lync 2013 | [KB 2956174](http://support.microsoft.com/kb/2956174) | Marzo de 2015 |
+|Actualización de Skype Empresarial 2015/Lync 2013 | [KB 2889923](http://support.microsoft.com/kb/2889923) <br> [KB 2889853](http://support.microsoft.com/kb/2889853) | 2015 de abril  |
+|Actualización para Lync 2013 | [KB 2956174](http://support.microsoft.com/kb/2956174) | 2015 de marzo |
 |Actualización para Lync 2013 | [KB 2920744](http://support.microsoft.com/kb/2920744) | Febrero de 2015 |
-|Actualización para Lync 2013 | [KB 2899507](http://support.microsoft.com/kb/2899507) | Noviembre de 2014 |
-|Actualización para Lync 2013 | [KB 2889929](http://support.microsoft.com/kb/2889929) | Octubre de 2014 |
-|Actualización para Lync 2013 | [KB 2889860](http://support.microsoft.com/kb/2889860) | Septiembre de 2014 |
-|Actualización para Lync 2013 | [KB 2881083](http://support.microsoft.com/kb/2881083) | Agosto de 2014 |
-|Actualización para Lync 2013 | [KB 2881070](http://support.microsoft.com/kb/2881070) | Agosto de 2014 |
+|Actualización para Lync 2013 | [KB 2899507](http://support.microsoft.com/kb/2899507) | 2014 de noviembre |
+|Actualización para Lync 2013 | [KB 2889929](http://support.microsoft.com/kb/2889929) | 2014 de octubre |
+|Actualización para Lync 2013 | [KB 2889860](http://support.microsoft.com/kb/2889860) | 2014 de septiembre |
+|Actualización para Lync 2013 | [KB 2881083](http://support.microsoft.com/kb/2881083) | 2014 de agosto |
+|Actualización para Lync 2013 | [KB 2881070](http://support.microsoft.com/kb/2881070) | 2014 de agosto |
 |Actualización de seguridad para Lync 2013 | [KB 2881013](http://support.microsoft.com/kb/2881013) | Junio de 2014 |
 |Actualización para Lync 2013 | [KB 2850074](http://support.microsoft.com/kb/2850074) | Junio de 2014 |
-|Actualización para Lync 2013 | [KB 2880980](http://support.microsoft.com/kb/2880980) | Mayo de 2014 |
+|Actualización para Lync 2013 | [KB 2880980](http://support.microsoft.com/kb/2880980) | 2014 de mayo |
 |Actualización para Lync 2013 | [KB 2880474](http://support.microsoft.com/kb/2880474) | Abril de 2014  |
 |Actualización para Lync 2013 | [KB 2863908](http://support.microsoft.com/kb/2863908) | Marzo de 2014  |
 |Actualización de seguridad para Lync 2013 | [KB 2850057](http://support.microsoft.com/kb/2850057) | Septiembre de 2013  |
-|Actualización para Lync 2013 | [KB 2817630](http://support.microsoft.com/kb/2817630) | Diciembre de 2013  |
+|Actualización para Lync 2013 | [KB 2817630](http://support.microsoft.com/kb/2817630) | 2013 de diciembre  |
 |Actualización para Lync 2013 | [KB 2817465](http://support.microsoft.com/kb/2817465) | Julio de 2013  |
-|Actualización para Lync 2013 | [KB 2768004](http://support.microsoft.com/kb/2768004) | Mayo de 2013  |
+|Actualización para Lync 2013 | [KB 2768004](http://support.microsoft.com/kb/2768004) | 2013 de mayo  |
 |Actualización para Lync 2013 | [KB 2760556](http://support.microsoft.com/kb/2760556) | Marzo de 2013  |
 |Actualización para Lync 2013 | [KB 2812461](http://support.microsoft.com/kb/2812461) | Febrero de 2013  |
 
@@ -305,8 +305,8 @@ Nombre de paquete|Número de KB|Fecha de lanzamiento|
 
 | **Nombre de paquete/vínculo**                                                                       | Fecha de lanzamiento  |
 |:--------------------------------------------------------------------------------------------|:--------------|
-| [Versión de evaluación de Lync 2010 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | Noviembre de 2010 |
-| [Versión de evaluación de Lync 2010 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | Noviembre de 2010 |
+| [Versión de prueba de Lync 2010 (32 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=5484)  | Noviembre de 2010 |
+| [Versión de prueba de Lync 2010 (64 bits)](https://www.microsoft.com/en-us/download/details.aspx?id=10400) | Noviembre de 2010 |
 
 ## <a name="related-topics"></a>Temas relacionados
 

@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
-description: Documenta el esquema de la base de datos de Chat persistente en Skype para Business Server.
-ms.openlocfilehash: 5e10f47a7eeb04de08766bae2957773db35d88f0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Esto documenta el esquema de la base de datos de chat persistente en Skype empresarial Server.
+ms.openlocfilehash: 9a3e09a03f764f8866865e08259cbaac12a1c554
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930011"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295618"
 ---
 # <a name="persistent-chat-database-schema"></a>Esquema de la base de datos de chat persistente
  
-Documenta el esquema de la base de datos de Chat persistente en Skype para Business Server.
+Esto documenta el esquema de la base de datos de chat persistente en Skype empresarial Server.
   
-La base de datos de Chat persistente hace referencia a la base de datos correspondiente a la Skype para funciones de servidor de Business Server Back-End **PersistentChatStore** (correspondiente a la base de datos de CGM) y **PersistentChatComplianceStore** (correspondiente a la base de datos de mgccomp). El objetivo de este esquema de publicación es que le permite generar consultas y obtener algunos entendimiento de creación de informes útiles alrededor de uso de chat, salones de activos, Pósteres superiores y así sucesivamente.
+La base de datos de chat persistente se refiere a la base de datos correspondiente a las funciones del servidor back-end de Skype empresarial Server **PersistentChatStore** (correspondiente a la base de datos MGC) y **PersistentChatComplianceStore** (correspondiente al base de datos mgccomp). El objetivo de publicar este esquema es permitirle crear consultas y obtener información útil para crear informes útiles sobre el uso de la conversación, las salas activas, los pósteres principales, etc.
   
 > [!IMPORTANT]
-> Nos reservamos el derecho a evolucionar este esquema. Microsoft no realiza ninguna garantía para mantener la compatibilidad con versiones anteriores completa con este esquema publicado. 
+> Nos reservamos el derecho de desarrollar este esquema. Microsoft no ofrece ninguna garantía de mantener la compatibilidad total con este esquema publicado. 
   
 Siga estos procedimientos recomendados:
   
-- No seleccione\* / / se admite porque la lista de columnas puede crecer.
+- No se\* admite Select//porque la lista de columnas puede crecer.
     
-- No se admiten modificaciones del esquema generados por el usuario.
+- No se admiten modificaciones de esquema generadas por el usuario.
     
-- No hay ninguna operación de escritura se admite.
+- No se admiten las operaciones de escritura.
     
-- Pruebe las consultas que genere sobre bases de datos de tamaño representativo para asegurarse de que las consultas se pueden realizar a un nivel para satisfacer sus necesidades.
+- Pruebe las consultas que cree en bases de datos de tamaño representativas para asegurarse de que las consultas pueden realizarse en un nivel que satisfaga sus necesidades.
     
 ## <a name="in-this-section"></a>En esta sección
 
 - [Lista de tablas de servidores de chat persistente](list-of-persistent-chat-server-tables.md)
     
-- [Lista de tablas de cumplimiento del servidor de Chat persistente en Skype para Business Server](list-of-persistent-chat-server-compliance-tables.md)
+- [Lista de tablas de cumplimiento del servidor de chat persistente en Skype empresarial Server](list-of-persistent-chat-server-compliance-tables.md)
     
 - [Detalles de la tabla del servidor de chat persistente](persistent-chat-server-table-details.md)
     

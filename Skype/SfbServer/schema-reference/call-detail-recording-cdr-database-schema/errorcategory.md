@@ -1,38 +1,38 @@
 ---
-title: Tabla de categoría de error de Skype para Business Server 2015
+title: Tabla ErrorCategory en Skype empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 10/20/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0fde3b73-9a2f-44dd-b8dc-6df512303ff1
-description: 'En la tabla de la categoría de error contiene el nombre descriptivo para cada Skype para la clasificación de diagnóstico Business Server 2015. De forma predeterminada, Skype para Business Server 2015 usa las siguientes clasificaciones:'
-ms.openlocfilehash: b6226396302353b815138b41b7c19f170a0d6b4d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'La tabla ErrorCategory contiene el nombre descriptivo de cada clasificación de diagnóstico de Skype empresarial Server 2015. De forma predeterminada, Skype empresarial Server 2015 usa las siguientes clasificaciones:'
+ms.openlocfilehash: bafeb75ee9e6ae0f96b08e26909828f1b36f7e7b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901090"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296290"
 ---
-# <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Tabla de categoría de error de Skype para Business Server 2015
+# <a name="errorcategory-table-in-skype-for-business-server-2015"></a>Tabla ErrorCategory en Skype empresarial Server 2015
  
-En la tabla de la categoría de error contiene el nombre descriptivo para cada Skype para la clasificación de diagnóstico Business Server 2015. De forma predeterminada, Skype para Business Server 2015 usa las siguientes clasificaciones:
+La tabla ErrorCategory contiene el nombre descriptivo de cada clasificación de diagnóstico de Skype empresarial Server 2015. De forma predeterminada, Skype empresarial Server 2015 usa las siguientes clasificaciones:
   
-- 0--correcto
+- 0---correcto
     
-- 1--error esperado
+- 1: error esperado
     
-- 2 - Error inesperado
+- 2-Error inesperado
     
-En esta tabla se introdujo en Microsoft Lync Server 2013.
+Esta tabla se introdujo en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**CategoryId** <br/> |tinyint  <br/> |Primary  <br/> |Identificador único para la clasificación.  <br/> |
-|**Nombre.** <br/> |nvarchar(256)  <br/> || Valor y nombre descriptivo asignado a la clasificación. Los valores permitidos son: <br/>  0--correcto <br/>  1--error esperado <br/>  2 - Error inesperado <br/> |
+|**IdCategoría** <br/> |tinyint  <br/> |Primary  <br/> |Identificador único de la clasificación.  <br/> |
+|**Nombre.** <br/> |nvarchar(256)  <br/> || Valor y nombre descriptivo asignados a la clasificación. Los valores permitidos son: <br/>  0---correcto <br/>  1: error esperado <br/>  2-Error inesperado <br/> |
    
 

@@ -4,45 +4,45 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Para quitar el servidor de supervisión, debe cambiar o borrar la dependencia en el grupo de Front-End asociado, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia. Para editar las propiedades del grupo de servidores Front-End, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia para quitar la dependencia. Después de desactivar la dependencia y eliminar el servidor en el generador, que se le notifique que también se eliminará el objeto de almacén de base de datos asociada en el generador de topología.
-ms.openlocfilehash: 854e95969d08d14d626bb374073091ae4ae39630
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Para quitar el servidor de supervisión, debe cambiar o borrar la dependencia en el grupo front-end, el servidor front-end, el equipo de la sucursal y el servidor de la sucursal supervivientes relacionados. Edite las propiedades del grupo de servidores front-end, el servidor front-end, el equipo de sucursales con la supervivencia y el servidor de sucursal con la supervivencia para quitar la dependencia. Después de borrar la dependencia y eliminar el servidor en el generador de topología, se le notificará que el objeto de almacén de base de datos asociado en el generador de topología también se eliminará.
+ms.openlocfilehash: 366bb67815df99542b893e9ced79c1fc1f0e3e9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231461"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301100"
 ---
 # <a name="remove-the-monitoring-server-association"></a>Quitar la asociación del servidor de supervisión
 
-Para quitar el servidor de supervisión, debe cambiar o borrar la dependencia en el grupo de servidores, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia de Front-End asociado. Editar las propiedades del grupo de servidores Front-End, servidor Front-End, aplicación de sucursal con funciones de supervivencia y un servidor de sucursal con funciones de supervivencia para quitar la dependencia. Después de desactivar la dependencia y eliminar el servidor en el generador, que se le notifique que también se eliminará el objeto de almacén de base de datos asociada en el generador de topología.
+Para quitar el servidor de supervisión, debe cambiar o borrar la dependencia en el grupo front-end, el servidor front-end, el dispositivo de la sucursal que puede ser superviviente y el servidor de sucursal con la supervivencia. Edite las propiedades del grupo de servidores front-end, el servidor front-end, el equipo de sucursales con la supervivencia y el servidor de sucursal con la supervivencia para quitar la dependencia. Después de borrar la dependencia y eliminar el servidor en el generador de topología, se le notificará que el objeto de almacén de base de datos asociado en el generador de topología también se eliminará.
   
-### <a name="to-remove-the-monitoring-server-association"></a>Para quitar la asociación del servidor de supervisión
+### <a name="to-remove-the-monitoring-server-association"></a>Para quitar la Asociación de servidor de supervisión
 
-1. En Skype para profesionales de 2019 Front-End Server, abra el generador de topología.
+1. En el servidor front-end de Skype empresarial Server 2019, abra Topology Builder.
     
-2. Desplácese hasta el nodo de instalaciones heredadas.
+2. Vaya al nodo instalaciones heredadas.
     
-3. En el generador de topologías, expanda **grupos de servidores Front-End de Enterprise Edition**, **Standard Edition servidor front-end**o **sitios de sucursal**, dependiendo de dónde se haya definido el servidor de supervisión.
+3. En el generador de topología, expanda las **agrupaciones front end de Enterprise Edition**, **los servidores de aplicaciones para el usuario Standard Edition**o los **sitios de sucursales**, según dónde se defina el servidor de supervisión.
     
-4. Si tiene un servidor de sucursal con funciones de supervivencia asociado, expanda **sitios de sucursal**, expanda el nombre del sitio de sucursal y, a continuación, expanda **Aplicaciones de sucursal con funciones de supervivencia**.
+4. Si tiene asociado un servidor de sucursal, expanda **sitios de sucursales**, expanda el nombre del sitio de la sucursal y, a continuación, expanda **aplicaciones de sucursales**reutilizables.
     
     > [!NOTE]
-    > **Aplicaciones de sucursal con funciones de supervivencia** en la interfaz de usuario se aplica a un servidor de sucursal con funciones de supervivencia y aplicación de sucursal con funciones de supervivencia. 
+    > Los **dispositivos** de la interfaz de usuario que son supervivientes se aplican a los servidores de sucursal con supervivencia y con la aplicación de rama superviviente. 
   
-5. Haga clic en el grupo de servidores, servidor o dispositivo que está asociada con el servidor de supervisión y, a continuación, haga clic en **Editar propiedades**.
+5. Haga clic con el botón secundario en el grupo, servidor o dispositivo asociado al servidor de supervisión y, a continuación, haga clic en **Editar propiedades**.
     
-6. En **Editar propiedades**, en **General** > **asociaciones**, desactive la casilla de verificación de **Asociar el servidor de supervisión** y, a continuación, haga clic en **Aceptar**.
+6. En **Editar propiedades**, en **** > **asociaciones**generales, desactive la casilla **asociar servidor de supervisión** y, a continuación, haga clic en **Aceptar**.
     
-7. Repita el paso anterior para cualquier otro grupo de servidores, servidor o dispositivo asociado con el servidor de supervisión.
+7. Repita el paso anterior para cualquier otro grupo, servidor o dispositivo asociado al servidor de supervisión.
     
-8. Haga clic en el servidor de supervisión y, a continuación, haga clic en **Eliminar**. 
+8. Haga clic con el botón secundario en el servidor de supervisión y luego haga clic en **eliminar**. 
     
-9. En **Eliminar almacenes dependientes**, haga clic en **Aceptar**.
+9. En **eliminar almacenes**dependientes, haga clic en **Aceptar**.
     
-10. Publique la topología, compruebe el estado de replicación y ejecute la Skype para el Asistente para la implementación de Business Server según sea necesario. 
+10. Publique la topología, compruebe el estado de la replicación y ejecute el Asistente para la implementación de Skype empresarial Server según sea necesario. 
     
 

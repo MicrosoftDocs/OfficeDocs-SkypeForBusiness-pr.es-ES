@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,32 +16,32 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
-description: 'Resumen: Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad de RTC local.'
-ms.openlocfilehash: 489e4988d21d7d22f4bcfe0756c4f0d462a1906e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Resumen: Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad RTC local.'
+ms.openlocfilehash: 0d310378b77c09b427836f0d9bceb60a14982071
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234456"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294435"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Asignar una directiva de enrutamiento de voz
  
-**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad de RTC local. 
+**Resumen:** Lea este tema para obtener información sobre cómo asignar una directiva de voz para los usuarios que usan el sistema telefónico en Office 365 con conectividad RTC local. 
   
-Una vez que un usuario esté en Skype para profesionales en línea y usar el sistema telefónico en Office 365 con conectividad de RTC local, dos directivas de voz se aplicarán a ellos. Uno es una directiva de enrutamiento de voz local que se va a asignar en local. Esta directiva puede ser global o específica del usuario y define qué registros de uso de RTC están asociados con el usuario. En este tema se explica cómo asignar esta directiva.
+Una vez que un usuario está en Skype empresarial online y usa un sistema telefónico en Office 365 con conectividad RTC local, se le aplicarán dos directivas de voz. Uno es una directiva de enrutamiento de voz local que asignará en local. Esta Directiva puede ser global o específica de usuario y define qué registros de uso de RTC están asociados con el usuario. En este tema se explica cómo asignar esta directiva.
   
-La otra directiva de voz define qué características de llamada están disponibles para el usuario; Esta directiva de voz está definida por Microsoft y es idéntica para todos los sistema telefónico en Office 365 con usuarios de conectividad RTC local. Se asigna automáticamente al sistema de teléfono en los usuarios de Office 365.
+La otra política de voz define qué características de llamadas están disponibles para el usuario. esta directiva de voz está definida por Microsoft y es idéntica para todos los sistemas telefónicos en Office 365 con usuarios de conectividad RTC locales. Se asigna automáticamente al sistema telefónico en los usuarios de Office 365.
   
-||**Usuario local**|**Sistema telefónico en Office 365 con el usuario de conectividad RTC local**|
+||**Usuario local**|**Sistema telefónico en Office 365 con usuario de conectividad RTC local**|
 |:-----|:-----|:-----|
-|Características de llamadas definidas en  <br/> |Directiva de voz  <br/> |Definido previa a la directiva de voz, asignada automáticamente cuando el usuario tiene licencia para el sistema telefónico en Office 365.  <br/> |
+|Características de llamadas definidas en  <br/> |Directiva de voz  <br/> |Directiva de voz predefinida, asignada automáticamente cuando el usuario tiene licencia para el sistema telefónico en Office 365.  <br/> |
 |Registros de uso de RTC asociados con  <br/> |Directiva de voz  <br/> |Directiva de enrutamiento de voz, asignada cuando el usuario aún está hospedado de forma local.  <br/> |
    
-Realice los pasos siguientes con la implementación local, mientras que el usuario aún está hospedado en la implementación local.
+Lleve a cabo los siguientes pasos con la implementación local, mientras el usuario sigue alojado en la implementación local.
   
 ## <a name="using-a-global-voice-routing-policy"></a>Usar una directiva de enrutamiento de voz global
 
-Antes de utilizar una directiva de enrutamiento de voz global para el sistema telefónico en Office 365 con los usuarios de conectividad de RTC local, debe agregar registros de uso de RTC a la directiva.
+Antes de usar una directiva de enrutamiento de voz global para su sistema telefónico en Office 365 con usuarios de conectividad RTC local, debe agregar los registros de uso de RTC a la Directiva.
   
 ### <a name="to-assign-pstn-usage-records-to-the-global-voice-routing-policy"></a>Para asignar registros de uso de RTC a la directiva de enrutamiento de voz global
 
@@ -49,7 +49,7 @@ Antes de utilizar una directiva de enrutamiento de voz global para el sistema te
     
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-3. Agregar los registros de uso de RTC a la directiva:
+3. Agregue los registros de uso de RTC a la Directiva:
     
    ```
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
@@ -107,6 +107,6 @@ Siga estos pasos para asignar la directiva a un usuario, independientemente de s
 
 En este ejemplo, se asigna el usuario con el nombre para mostrar Guillermo Rodarte a la directiva de voz creada anteriormente con el nombre HybridVoice.
   
-Para obtener más información acerca de las directivas de enrutamiento de voz, vea [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para profesionales de 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Para obtener más información sobre las directivas de enrutamiento de voz, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)y [Grant-CsVoicePolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
   
 

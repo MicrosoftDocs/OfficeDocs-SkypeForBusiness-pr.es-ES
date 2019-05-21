@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,34 +23,34 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 description: Learn what you need to know and do before porting phone numbers to Skype for Business, and how to create a port order to transfer them.
-ms.openlocfilehash: bea5710917581953fac6da643c090aa1f389972e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 7b61ff671814e0c4ce46cb8492930ada73a8e5fe
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32223467"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298231"
 ---
 # <a name="transfer-phone-numbers-to-office-365"></a>Transferir números de teléfono a Office 365
 
 Es fácil transferir sus números de teléfono desde su proveedor de servicios actual a Skype Empresarial. Después de realizar la portabilidad de sus números de teléfono a Skype Empresarial, Microsoft se convertirá en su proveedor de servicios y le facturará por esos números de teléfono.
   
-Antes de iniciar la transferencia de los números de teléfono, se recomienda que revise la información de [preguntas habituales de los números de teléfono de transferir](transferring-phone-numbers-common-questions.md). Si dispone de los números de servicio para el puente de conferencia de acceso telefónico, operadores automáticos u otros números de servicio, teléfono gratuito números o tiene más de 999 números de teléfono del usuario (suscriptor) que necesita para transferir a Skype para la empresa, vea [administrar números de teléfono para la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para descargar los formularios correctos y enviarlos para nosotros.
+Antes de empezar a transferir números de teléfono, le recomendamos que revise la información para [transferir las preguntas más frecuentes](transferring-phone-numbers-common-questions.md)de los números de teléfono. Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuario (suscriptor) que necesita transferir a Skype empresarial, consulte [administrar números de teléfono para tu organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) descargar los formularios correctos y enviarlos a nosotros.
 
   > [!NOTE]
-  > Proceso de pedidos de puerto para la transferencia de los números de teléfono sólo en días laborables de Estados Unidos y no en los días festivos o fines de semana. 
+  > Procesamos los pedidos de los puertos para la transferencia de números de teléfono solo en días laborables de Estados Unidos y no en días festivos ni fines de semana. 
   
 ## <a name="how-to-create-a-port-order-and-transfer-your-phone-numbers-to-skype-for-business"></a>Cómo crear una solicitud de portabilidad y transferir sus números de teléfono a Skype Empresarial
 <a name="bk_LNPcountries_1"> </a>
 
   > [!NOTE]
-  > Si dispone de los números de servicio para el puente de conferencia de acceso telefónico, operadores automáticos u otros números de servicio, teléfono gratuito números o tiene más de 999 números de teléfono del usuario (suscriptor) que necesita para transferir a Skype para la empresa, vea [administrar números de teléfono para la organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para seleccionar el país o región correctos y descargar los formularios correctos y enviarles para nosotros.
+  > Si tiene números de servicio para puentes de conferencias de acceso telefónico local, operadores automáticos u otros números de servicio, números de teléfono gratuitos o más de 999 números de teléfono de usuario (suscriptor) que necesita transferir a Skype empresarial, consulte [administrar números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para seleccionar el país o la región correcta y descargar los formularios correctos y enviarlos.
  
-![logotipo-sfb-30x30.png](media/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
+2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
     
 3. En el panel de navegación izquierdo, vaya a **Voz** > **Solicitudes de portabilidad** y haga clic en **Agregar**.
     
@@ -78,7 +78,7 @@ Antes de iniciar la transferencia de los números de teléfono, se recomienda qu
     
    - **Ciudad**, **estado** y **código postal** de la dirección del servicio.
     
-6. En la página **Números**, escriba los números de teléfono que quiera transferir en formato E.164. Por ejemplo, para un número de Norteamérica, utilice el formato +1XXXYYYZZZZ. Utilice una coma para separar varios números de teléfono.
+6. En la página **Números**, escriba los números de teléfono que quiera transferir en formato E.164. Por ejemplo, para un número de Norteamérica, utilice el formato +1XXXYYYZZZZ. Use una coma para separar varios números de teléfono.
     
     > [!NOTE]
     > Si está realizando una portabilidad completa, tendrá que incluir el número de teléfono de facturación (BTN) del servicio en la lista. Si está realizando una portabilidad parcial, no incluya el número de teléfono de facturación (BTN) del servicio en la lista. 
@@ -87,7 +87,7 @@ Antes de iniciar la transferencia de los números de teléfono, se recomienda qu
     
 7. Haga clic en **Continuar**.
     
-8. En la página de **fecha de transferencia** , en la lista desplegable del **día** , seleccione la fecha y en la lista desplegable de **hora de inicio** , seleccione el tiempo (EST) y, a continuación, haga clic en **siguiente**.
+8. En la página **fecha de transferencia** , en la lista desplegable **día** , seleccione la fecha y, en la lista desplegable **hora de inicio** , seleccione la hora (EST) y, a continuación, haga clic en **siguiente**.
     
 9. On the **Letter of authorization** page, check each of the following boxes. Then under the **Signature** box, type the person that is authorized to make changes to the account. This is the same name that is used on the **Account Information** page > **Authorizing person**. Then click **Next**.
     

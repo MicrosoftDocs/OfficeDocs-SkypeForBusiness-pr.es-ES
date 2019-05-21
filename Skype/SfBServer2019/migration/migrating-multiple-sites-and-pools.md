@@ -4,34 +4,34 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Skype para Business Server 2019 es compatible con las implementaciones de varios sitios y grupo de varios servidores. El proceso de migración de varios grupos de servidores a Skype para Business Server 2019 requiere las siguientes consideraciones:'
-ms.openlocfilehash: 5e369adb51bf95f4e3c3d12688d1e39611aa5692
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Skype empresarial Server 2019 admite implementaciones de varios sitios y de varios grupos. El proceso de migración de varios grupos a Skype empresarial Server 2019 requiere las siguientes consideraciones:'
+ms.openlocfilehash: 05a94cb47568b9dfc3834f65f960353ad2933b03
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231640"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298186"
 ---
 # <a name="migrating-multiple-sites-and-pools"></a>Migrar múltiples sitios y grupos de servidores
 
-Skype para Business Server 2019 es compatible con las implementaciones de varios sitios y grupo de varios servidores. El proceso de migración de varios grupos de servidores a Skype para Business Server 2019 requiere las siguientes consideraciones: 
+Skype empresarial Server 2019 admite implementaciones de varios sitios y de varios grupos. El proceso de migración de varios grupos a Skype empresarial Server 2019 requiere las siguientes consideraciones: 
   
-1. Después de implementar un Skype para Business Server 2019 el grupo piloto, debe definir un subconjunto de usuarios pilotos que se moverán a la Skype una metodología para validar la funcionalidad de los usuarios y de grupo de servidores de Business Server 2019. Por ejemplo, después de mover un usuario al grupo piloto, compruebe que la directiva del usuario conferencia ha movido a Skype para Business Server 2019. 
+1. Después de implementar un grupo piloto de Skype empresarial Server 2019, debe definir un subconjunto de usuarios piloto que se moverá al grupo de Skype empresarial Server 2019 y una metodología para validar la funcionalidad de los usuarios. Por ejemplo, después de mover un usuario a la agrupación piloto, compruebe que la Directiva de conferencia del usuario se ha movido a Skype empresarial Server 2019. 
     
-2. Después de implementar un servidor perimetral en el grupo piloto, debe comprobar que los usuarios externos pueden comunicarse con el Skype para el grupo de servidores de Business Server 2019.
+2. Después de implementar un servidor perimetral en la agrupación piloto, debe validar que los usuarios externos puedan comunicarse con el grupo de servidores de Skype empresarial 2019.
 
-3. Chat en grupo, la creación de reflejos de SQL y la funcionalidad XMPP están en desuso en Skype para Business Server 2019 y ya no están disponibles como Skype para las características de Business Server 2019, pero puede continuar en un entorno de coexistencia si anteriormente se implementan en un entorno heredado. Si desea seguir utilizando estas características, debe planear continuar con un entorno de coexistencia, donde permanecerá determinados usuarios en grupos de servidores heredados.
+3. Las funcionalidades chat persistente, reflejo SQL y XMPP han quedado obsoletas en Skype empresarial Server 2019 y ya no están disponibles como características de Skype empresarial Server 2019, pero se pueden continuar en un entorno de coexistencia si se han implementado previamente en un entorno heredado. Si desea seguir usando estas características, debe planear la continuación de un entorno de coexistencia en el que determinados usuarios permanecerán en agrupaciones heredadas.
     
-4. Después de trasladar los servidores perimetrales de las rutas federadas para el piloto Skype para los servidores perimetrales de Business Server 2019, debe comprobar que los usuarios federados pueden comunicarse con el Skype para el grupo de servidores de Business Server 2019.
+4. Después de realizar la transición de los servidores perimetrales de las rutas federadas a los servidores perimetrales de Skype empresarial Server 2019, debe validar que los usuarios federados puedan comunicarse con el grupo de servidores de Skype empresarial 2019.
     
-5. Después de mover todos los usuarios y objetos de contacto que no sean usuarios, deberá validar que el grupo heredado está vacío.
+5. Después de mover todos los usuarios y los objetos de contacto que no son de usuario, debe validar que el grupo heredado esté vacío.
     
-6. Después de comprobar que el grupo heredado está vacío, a continuación, puede desactivar el grupo de servidores. 
+6. Después de verificar que el grupo heredado está vacío, puede desactivar el grupo. 
     
-    Para obtener información detallada acerca de cómo desactivar los servidores y el grupo de servidores heredado, vea [fase 8: retirar grupos heredados](phase-8-decommission-legacy-pools.md).
+    Para obtener más información sobre cómo desactivar el grupo de servidores y los servidores heredados, consulte [Phase 8: retiro pools heredados](phase-8-decommission-legacy-pools.md).
     
 

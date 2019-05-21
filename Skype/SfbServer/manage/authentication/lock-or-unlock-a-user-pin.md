@@ -1,34 +1,34 @@
 ---
-title: Bloquear o desbloquear un usuario PIN en Skype para Business Server
+title: Bloquear o desbloquear un PIN de usuario en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
-description: 'Resumen: Bloquear o desbloquear telefónico PIN de la conferencia un usuario de Skype para Business Server.'
-ms.openlocfilehash: 36d25ad681136a88953535a902ef1d3580ff7a1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: bloquear o desbloquear el PIN de conferencias de acceso telefónico local de un usuario para Skype empresarial Server.'
+ms.openlocfilehash: 600ddcb507c7cb0074a651580c684590fa283602
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919903"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294285"
 ---
-# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear o desbloquear un usuario PIN en Skype para Business Server
+# <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Bloquear o desbloquear un PIN de usuario en Skype empresarial Server
  
-**Resumen:** Bloquear o desbloquear telefónico un usuario PIN para Skype para Business Server.
+**Resumen:** Bloquear o desbloquear el PIN de conferencias de acceso telefónico local de un usuario para Skype empresarial Server.
   
-Puede bloquear o desbloquear un PIN de usuario de la sección **usuarios** de Skype para el Panel de Control de servidor empresarial.
+Puede bloquear o desbloquear el PIN de un usuario desde la sección **usuarios** del panel de control de Skype empresarial Server.
   
-### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Para bloquear el PIN de un usuario en Skype para el Panel de Control de servidor empresarial
+### <a name="to-lock-a-users-pin-in-skype-for-business-server-control-panel"></a>Para bloquear el PIN de un usuario en el panel de control de Skype empresarial Server
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -51,15 +51,15 @@ Puede bloquear o desbloquear un PIN de usuario de la sección **usuarios** de Sk
     > [!TIP]
     > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en **Agregar filtro**. 
   
-   e. Haga clic en **Buscar**.
+   &. Haga clic en **Buscar**.
     
    f. Haga clic en el usuario, en **Acción** y, a continuación, haga clic en **Bloquear PIN**.
     
-### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Para desbloquear un PIN de usuario en Skype para el Panel de Control de servidor empresarial
+### <a name="to-unlock-a-users-pin-in-skype-for-business-server-control-panel"></a>Para desbloquear el PIN de un usuario en el panel de control de Skype empresarial Server
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -82,17 +82,17 @@ Puede bloquear o desbloquear un PIN de usuario de la sección **usuarios** de Sk
     > [!TIP]
     > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en **Agregar filtro**. 
   
-   e. Haga clic en **Buscar**.
+   &. Haga clic en **Buscar**.
     
    f. Haga clic en el usuario, en **Acción** y, a continuación, haga clic en **Desbloquear PIN**.
     
-## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Bloquear y Desbloquear PIN de usuario mediante el uso de Cmdlets de Windows PowerShell
+## <a name="locking-and-unlocking-user-pins-by-using-windows-powershell-cmdlets"></a>Bloquear y desbloquear los pin de usuario mediante cmdlets de Windows PowerShell
 
-Puede bloquear y Desbloquear PIN de usuario mediante el uso de Windows PowerShell y los cmdlets Lock-CsClientPin y Unlock-CsClientPin. Se puede ejecutar estos cmdlets, ya sea desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
+Puede bloquear y desbloquear los pin de usuario mediante Windows PowerShell y los cmdlets Lock-CsClientPin y Unlock-CsClientPin. Puede ejecutar estos cmdlets desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
   
 ### <a name="to-lock-a-user-pin"></a>Para bloquear el PIN de un usuario
 
-- Para bloquear un PIN de usuario, use el cmdlet Lock-CsClientPin. Por ejemplo:
+- Para bloquear el PIN de un usuario, use el cmdlet Lock-CsClientPin. Por ejemplo:
     
   ```
   Lock-CsClientPin -Identity "Ken Myer"
@@ -100,10 +100,10 @@ Puede bloquear y Desbloquear PIN de usuario mediante el uso de Windows PowerShel
 
 ### <a name="to-unlock-a-user-pin"></a>Para desbloquear el PIN de un usuario
 
-- Para desbloquear un PIN de usuario, use el cmdlet Unlock-CsClientPin. Por ejemplo:
+- Para desbloquear el PIN de un usuario, use el cmdlet Unlock-CsClientPin. Por ejemplo:
     
   ```
   Unlock-CsClientPin -Identity "Ken Myer"
   ```
 
-Para obtener más información, vea el tema de Ayuda de los cmdlets [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) y [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .
+Para obtener más información, consulte el tema de ayuda para los cmdlets [Lock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/lock-csclientpin?view=skype-ps) y [Unlock-CsClientPin](https://docs.microsoft.com/powershell/module/skype/unlock-csclientpin?view=skype-ps) .

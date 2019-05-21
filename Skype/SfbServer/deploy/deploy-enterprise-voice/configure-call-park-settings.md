@@ -1,10 +1,10 @@
 ---
-title: Configuración del estacionamiento de llamadas en Skype para la empresa
+title: Configurar la configuración de estacionamiento de llamadas en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
-description: Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 2f833e956f09213f1dfa3da440a6c6d9b17fa6b2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Modificar la configuración de la llamada en el parque en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: c456a519fc9f567bdef812adc533adaf03c4360a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893073"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303393"
 ---
-# <a name="configure-call-park-settings-in-skype-for-business"></a>Configuración del estacionamiento de llamadas en Skype para la empresa
+# <a name="configure-call-park-settings-in-skype-for-business"></a>Configurar la configuración de estacionamiento de llamadas en Skype empresarial
 
-Modificar la configuración de estacionamiento de llamadas en Skype para Business Server Enterprise Voice.
+Modificar la configuración de la llamada en el parque en Skype empresarial Server Enterprise Voice.
 
-Si no desea usar la configuración predeterminada de estacionamiento de llamadas, puede personalizarlos. Cuando se instala la aplicación de estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
+Si no desea usar la configuración de Parque de llamadas predeterminada, puede personalizarla. Al instalar la aplicación de estacionamiento de llamadas, la configuración global se configura de forma predeterminada. Puede modificar esta configuración global y, además, puede especificar opciones de configuración específicas del sitio. Use el cmdlet **New-CsCpsConfiguration** para crear una nueva configuración específica del sitio. Use cmdlet **Set-CsCpsConfiguration** para modificar la configuración existente.
 
 > [!NOTE]
 > Como mínimo, se recomienda configurar la opción **OnTimeoutURI** para el destino de reserva que se usará cuando el tiempo de espera de una llamada estacionada se agote y deje de sonar.
@@ -40,7 +40,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 | **MaxCallPickupAttempts** <br/>      | El número de veces que una llamada estacionada vuelve a sonar en el teléfono en que se respondió antes de transferirla al identificador uniforme de recursos (URI) de reserva que se especifique para **OnTimeoutURI**. El valor predeterminado es 1.<br/>                                                                                                                         |
 | **OnTimeoutURI** <br/>               | La dirección SIP del usuario o grupo de respuesta al que se enruta una llamada estacionada que no se responda cuando se supera el valor de **MaxCallPickupAttempts**. <br/> El valor debe ser un URI de SIP que comience por sip:. Por ejemplo, sip:bob@contoso.com. El valor predeterminado corresponde a sin dirección de transferencia.<br/>                                                   |
 
-### <a name="to-configure-call-park-settings"></a>Para configurar las opciones de estacionamiento de llamadas
+### <a name="to-configure-call-park-settings"></a>Para configurar la configuración del parque de llamadas
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -51,7 +51,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
    ```
 
    > [!TIP]
-   > Use el cmdlet **Get-CsSite** para identificar el sitio. Para obtener información detallada, vea Skype para la documentación del Shell de administración de servidor empresarial.
+   > Use el cmdlet **Get-CsSite** para identificar el sitio. Para obtener más información, consulte la documentación del shell de administración de Skype empresarial Server.
 
     Por ejemplo:
 
@@ -63,7 +63,7 @@ Use el cmdlet **New-CsCpsConfiguration** o el cmdlet **Set-CsCpsConfiguration** 
 
 [Personalizar la música de espera para el estacionamiento de llamadas en Skype Empresarial 2015](customize-call-park-music-on-hold.md)
 
-[Nueva CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
+[Nuevo: CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/new-cscpsconfiguration?view=skype-ps)
 
 [Set-CsCpsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-cscpsconfiguration?view=skype-ps)
 

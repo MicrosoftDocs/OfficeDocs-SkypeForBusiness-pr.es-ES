@@ -1,42 +1,42 @@
 ---
-title: Migración a Skype para Business Server 2019
+title: Migración a Skype empresarial Server 2019
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En los temas de esta sección le guían por el proceso de migración a Skype para Business Server 2019.
-ms.openlocfilehash: 32babd6fedd5defc756f73bbf001716c7c0b8a72
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Los temas de esta sección le guían a través del proceso de migración a Skype empresarial Server 2019.
+ms.openlocfilehash: bd1513e5ca2a33449f982394e4abc15b9616393b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231612"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298151"
 ---
-# <a name="migration-to-skype-for-business-server-2019"></a>Migración a Skype para Business Server 2019
+# <a name="migration-to-skype-for-business-server-2019"></a>Migración a Skype empresarial Server 2019
 
-En los temas de esta sección le guían por el proceso de migración a Skype para Business Server 2019. Este artículo describen migración Lync Server 2013 o Skype para Business Server 2015 para Skype para Business Server 2019.
+Los temas de esta sección le guían a través del proceso de migración a Skype empresarial Server 2019. En este artículo se describe la migración de Lync Server 2013 o Skype empresarial 2015 a Skype empresarial Server 2019.
 
 > [!IMPORTANT]
-> En todo el contenido, usamos el término de *heredado* para hacer referencia a la heredados Lync Server 2013 o Skype para Business Server 2015 que va a migrar a Skype para Business Server 2019.
+> En todo el contenido, usamos el término *heredado* para referirse a los sistemas de Lync Server 2013 o Skype empresarial Server 2015 que está migrando a Skype empresarial Server 2019.
   
 > [!IMPORTANT]
-> Esta guía describe los pasos que se requieren normalmente para llevar a cabo cada fase de migración. No se trata cada topología de implementación heredada posibles o cada escenario de migración posibles. Por lo tanto, es posible que no necesite realizar cada paso del proceso que se describen, o es posible que necesite realizar pasos adicionales, dependiendo de la implementación. Esta guía también proporciona ejemplos de los pasos de verificación. Se proporcionan estos pasos de comprobación que le ayudarán a comprender lo que necesita buscar para asegurarse de que cada fase se realiza correctamente a medida que avance a través de la migración. Adaptar estos pasos de comprobación para el proceso de migración específicos. 
+> En esta guía, se describen los pasos necesarios para llevar a cabo cada fase de la migración. No se trata de todas las topologías de implementación heredadas o de todos los escenarios posibles de migración. Por lo tanto, es posible que no tenga que realizar cada paso descrito, o puede que tenga que realizar algunos pasos adicionales, en función de su implementación. Esta guía también proporciona ejemplos de pasos de verificación. Estos pasos de verificación se proporcionan para ayudarle a comprender lo que debe buscar para asegurarse de que cada fase se complete correctamente a medida que avanza en la migración. Adapte estos pasos de verificación a su proceso de migración específico. 
   
-Esta guía proporciona información específica para actualizar la implementación existente. No se explica cómo cambiar la topología existente. Esta guía no aborda la implementación de nuevas características. Cuando un procedimiento detallado está documentado en otro lugar, esta guía le dirige a la sección de artículo o el artículo. 
+Esta guía proporciona información específica para actualizar la implementación existente. No se explica cómo cambiar la topología existente. Esta guía no cubre la implementación de nuevas características. Cuando se documenta un procedimiento detallado en otra parte, esta guía le dirige a la sección de artículo o artículo. 
   
-En este artículo se define los términos tal como se especifica en la siguiente lista.
+En este artículo se definen los términos según se especifica en la siguiente lista.
   
-**migración:** Mover la implementación de producción de Lync Server 2013 o Skype para Business Server 2015 a Skype para Business Server 2019.
+**migración:** Mover la implementación de producción de Lync Server 2013 o Skype empresarial 2015 a Skype empresarial Server 2019.
     
-**coexistencia:** El entorno temporal que se produce durante la migración cuando alguna funcionalidad se ha migrado a Skype para Business Server 2019 y otra funcionalidad sigue aún en una versión anterior.
+**coexistencia:** El entorno temporal que existe durante la migración cuando se ha migrado cierta funcionalidad a Skype empresarial Server 2019 y otras funciones siguen en una versión anterior.
     
 **interoperabilidad:** La capacidad de la implementación para funcionar correctamente durante el período de coexistencia.
 
-**heredado:** El sistema va a migrar desde, lo que es Lync Server 2013 o Skype para Business Server 2015.
+**heredado:** El sistema desde el que se está migrando, que es Lync Server 2013 o Skype empresarial Server 2015.
     
 ## <a name="in-this-section"></a>En esta sección
 
@@ -48,7 +48,7 @@ En este artículo se define los términos tal como se especifica en la siguiente
     
 - [Fase 3: Implementar un grupo de servidores piloto](phase-3-deploy-pilot-pool.md)
     
-- [Fase 4: Mover usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md)
+- [Fase 4: mover los usuarios de prueba al grupo piloto](phase-4-move-test-users-to-the-pilot-pool.md)
     
 - [Fase 5: Agregar un servidor perimetral al grupo de servidores piloto](phase-5-add-edge-server-to-pilot-pool.md)
     

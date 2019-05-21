@@ -5,32 +5,32 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: La vista de elementos multimedia almacena información acerca de un tipo de medio utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 83caf609efae4e97961e7c62c3a1ed6c6004e8e8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La vista multimedia almacena información sobre un tipo de medio usado en una sesión de punto a punto. Una sesión estaría representada por varios registros de la tabla, si se usa más de un tipo de medio. Esta vista se presentó en Microsoft Lync Server 2013.
+ms.openlocfilehash: 044a31381d4e1e48c465f7ee6de89acab10ab54e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930696"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296003"
 ---
 # <a name="media-view"></a>Vista de elementos multimedia
  
-La vista de elementos multimedia almacena información acerca de un tipo de medio utilizado en una sesión de punto a punto. Una sesión estaría representada por varios registros en la tabla, si se usa más de un tipo de medios. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista multimedia almacena información sobre un tipo de medio usado en una sesión de punto a punto. Una sesión estaría representada por varios registros de la tabla, si se usa más de un tipo de medio. Esta vista se presentó en Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vista de elementos multimedia no debe usarse para calcular la duración media de una sesión. Esta vista contiene los detalles de señalización de intercambio de medios en una sesión. Intercambio de medios se realiza mediante la solicitud INVITE y StartTime indica la hora en que se envió la invitación de la. El tiempo de invitar no significa necesariamente los medios de inicio de tiempo, debido a que los medios se inicia sólo después de la sesión se acepta. 
+> La vista de elementos multimedia no debe usarse para calcular la duración multimedia de una sesión. Esta vista contiene los detalles de señalización de intercambio de medios en una sesión. El intercambio de medios se realiza mediante la solicitud INVITE y StartTime indica el momento en que se envió la invitación. La hora de la invitación no significa necesariamente la hora de inicio del medio, porque los medios solo se inician una vez que se acepta la sesión. 
   
-La vista de elementos multimedia todas las columnas en la [vista SessionDetails](sessiondetails-0.md) contiene además de los que aparecen a continuación.
+La vista de elementos multimedia contiene todas las columnas de la [vista SessionDetails](sessiondetails-0.md) , además de las que se enumeran a continuación.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**Media** <br/> |nvarchar(256)  <br/> |Tipo de medio. Consulte la [tabla MediaList](medialist.md) para obtener más información. <br/> |
-|**MediaStartTime** <br/> |datetime  <br/> |Hora en que se ha enviado una solicitud de medios.  <br/> |
+|**Media** <br/> |nvarchar(256)  <br/> |Tipo de medio. Para obtener más información, consulte la [tabla](medialist.md) de la información. <br/> |
+|**MediaStartTime** <br/> |datetime  <br/> |Hora en que se envió una solicitud de medios.  <br/> |
 |**MediaEndTime** <br/> |datetime  <br/> |Hora de finalización de la sesión.  <br/> |
    
 

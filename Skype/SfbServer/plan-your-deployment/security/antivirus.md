@@ -1,42 +1,42 @@
 ---
-title: Análisis de exclusiones para Skype para Business Server del antivirus
+title: Exclusiones de detección antivirus para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
-description: Información general de interoperación del detector de virus con Skype para Business Server.
-ms.openlocfilehash: 13b6b7af9003a24f0932eb1c61cef8e11326adf1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Información general sobre la interacción del escáner antivirus con Skype empresarial Server.
+ms.openlocfilehash: 9ec13b31328744bb154c9eb5e09dff7665c4b540
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888103"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296976"
 ---
-# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Análisis de exclusiones para Skype para Business Server del antivirus
+# <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Exclusiones de detección antivirus para Skype empresarial Server
 
-Información general de interoperación del detector de virus con Skype para Business Server.
+Información general sobre la interacción del escáner antivirus con Skype empresarial Server.
 
-En este artículo se incluyen recomendaciones que pueden ayudar a un administrador a determinar la causa del potencial de inestabilidad en un equipo que está ejecutando una versión compatible de Microsoft Windows cuando se usa con el software antivirus en un dominio de Active Directory entorno o en un entorno empresarial administrada.
+Este artículo contiene recomendaciones que pueden ayudar a un administrador a determinar la causa de la posible inestabilidad en un equipo que ejecute una versión compatible de Microsoft Windows cuando se use con software antivirus en un dominio de Active Directory entorno o en un entorno empresarial administrado.
 
-Se recomienda que aplicar temporalmente estos procedimientos para evaluar un sistema. Si el rendimiento del sistema o la estabilidad se ha mejorado por las recomendaciones que se realizan en este artículo, póngase en contacto con su proveedor de software antivirus para obtener instrucciones o para una versión actualizada del software antivirus.
+Le recomendamos que aplique temporalmente estos procedimientos para evaluar un sistema. Si se han mejorado el rendimiento o la estabilidad del sistema siguiendo las recomendaciones que se hacen en este artículo, póngase en contacto con el proveedor del software antivirus para obtener instrucciones o para obtener una versión actualizada del software antivirus.
 
-Este artículo contiene información que muestra cómo ayudar a reducir la configuración de seguridad o cómo desactivar temporalmente las características de seguridad en un equipo. Puede realizar estos cambios para comprender la naturaleza de un problema específico. Antes de realizar estos cambios, le recomendamos que evalúe los riesgos asociados con la implementación de esta solución en su entorno concreto. Si decide implementar esta solución alternativa, tome las medidas adicionales oportunas para ayudar a proteger el equipo para los archivos que ya no se examina el software antivirus.
+Este artículo contiene información que muestra cómo ayudar a reducir la configuración de seguridad o desactivar temporalmente las características de seguridad en un equipo. Puede realizar estos cambios para comprender la naturaleza de un problema específico. Antes de realizar estos cambios, le recomendamos que evalúe los riesgos asociados a la implementación de esta solución en su entorno particular. Si implementas esta solución alternativa, toma las medidas adicionales oportunas para ayudar a proteger el equipo para los archivos que ya no han analizado el software antivirus.
 
-Para asegurarse de que el detector antivirus no interfiere con el funcionamiento de Skype para Business Server, debe excluir directorios y procesos específicos para cada Skype para un servidor Business Server o rol de servidor en el que ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
+Para asegurarse de que el detector antivirus no interfiera con el funcionamiento de Skype empresarial Server, debe excluir los procesos y directorios específicos de cada rol de servidor o servidor de Skype empresarial Server en el que ejecute un detector de virus. Es necesario excluir los siguientes procesos y directorios:
 
 > [!NOTE]
-> Las ubicaciones de archivos y carpetas enumeradas a continuación son las ubicaciones predeterminadas de Skype para Business Server. Si no usó los valores predeterminados para algunas ubicaciones, excluya esas ubicaciones especificadas para su organización en lugar de las ubicaciones predeterminadas especificadas en este tema.
+> Las ubicaciones de carpetas y archivos que se enumeran a continuación son las ubicaciones predeterminadas de Skype empresarial Server. Si no usó los valores predeterminados para algunas ubicaciones, excluya esas ubicaciones especificadas para su organización en lugar de las ubicaciones predeterminadas especificadas en este tema.
 
 > [!IMPORTANT]
 > Tenga en cuenta que es posible que algunos programas antivirus necesiten rutas de acceso absolutas (no relativas) para su lista de exclusión.
 
-- Skype para los procesos del servidor empresarial:
+- Procesos de Skype empresarial Server:
 
   - ABServer.exe
 
@@ -60,7 +60,7 @@ Para asegurarse de que el detector antivirus no interfiere con el funcionamiento
 
   - IMMCUSvc.exe
   
-  - LyncBackupService.exe
+  - LyncBackupService. exe
 
   - LysSvc.exe
 
@@ -130,7 +130,7 @@ Para asegurarse de que el detector antivirus no interfiere con el funcionamiento
   - %systemroot%\Microsoft.NET\assembly\GAC_MSIL
 
     > [!NOTE]
-    > Tenga en cuenta que estas rutas de acceso son específicos de Skype para la versión de Business Server.
+    > Tenga en cuenta que estas rutas son específicas de la versión de Skype empresarial Server.
 
   - %programfiles%\Skype Empresarial Server 2015
 
@@ -146,6 +146,6 @@ Para asegurarse de que el detector antivirus no interfiere con el funcionamiento
 
   - Datos y archivos de registro de SQL Server, incluidos los relacionados con la base de datos back-end, el almacén de usuarios, el almacén de archivado, el almacén de supervisión y el almacén de aplicaciones. Las bases de datos y los archivos de registro se pueden especificar en el Generador de topologías. Para más información sobre los datos y los archivos de registro de cada base de datos (incluidos los nombres predeterminados), vea [SQL Server Data and Log File Placement](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx) en la documentación de implementación.
 
-  - SQL Server datos y archivos de registro, los referentes a la base de datos front-end, Skype para almacén empresariales y almacén de RtcDatabase incluidos. Normalmente, se encuentran en %localdrive%\CSData.
+  - Archivos de datos y de registro de SQL Server, incluidos los de la base de datos front-end, la tienda de Skype empresarial y la tienda RtcDatabase. Normalmente, se encuentran en %localdrive%\CSData.
 
 

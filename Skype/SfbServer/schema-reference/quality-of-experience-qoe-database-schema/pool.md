@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 92ded8fd-d0ad-4f8a-9e6f-2e8a690fda3a
-description: En la tabla de grupo de servidores es una tabla de apoyo que almacena información acerca de los distintos grupos de Front-End. Cada registro de la tabla representa un grupo de servidores.
-ms.openlocfilehash: c4451f274e9afadbb7903e4095be22120c430689
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La tabla Pool es una tabla de soporte que almacena información sobre los distintos grupos de aplicaciones para el usuario. Cada registro de la tabla representa un grupo.
+ms.openlocfilehash: c101a10d40292c89c29e108739195a97fa22e5c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920069"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34294806"
 ---
 # <a name="pool-table"></a>Tabla Pool
  
-En la tabla de grupo de servidores es una tabla de apoyo que almacena información acerca de los distintos grupos de Front-End. Cada registro de la tabla representa un grupo de servidores.
+La tabla Pool es una tabla de soporte que almacena información sobre los distintos grupos de aplicaciones para el usuario. Cada registro de la tabla representa un grupo.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**PoolKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica a este grupo de servidores.  <br/> |
-|**PoolName** <br/> |nvarchar(256)  <br/> |Único  <br/> |FQDN del grupo.  <br/> |
+|**PoolKey** <br/> |int  <br/> |Primary  <br/> |Número único que identifica este grupo.  <br/> |
+|**Nombredegrupo** <br/> |nvarchar(256)  <br/> |Solo  <br/> |FQDN del grupo.  <br/> |
    
 

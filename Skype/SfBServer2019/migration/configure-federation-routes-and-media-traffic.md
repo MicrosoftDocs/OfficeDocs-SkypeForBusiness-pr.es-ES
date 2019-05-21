@@ -4,177 +4,177 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: La federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de red. Después de migrar a su grupo piloto, necesitará para la transición desde la ruta de federación de las versiones anteriores de los servidores perimetrales para la ruta de federación de su Skype para los servidores perimetrales de Business Server 2019.
-ms.openlocfilehash: 607d98c3c831ae9fd911b9fd2782490dcfb0e4f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: La Federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de la red. Después de migrar a su grupo piloto, debe realizar una transición de la ruta de Federación de sus servidores perimetrales de versiones anteriores a la ruta de Federación de sus servidores perimetrales de Skype empresarial Server 2019.
+ms.openlocfilehash: 6b76932c8b988dbed61cba1470f32a51f6585536
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238747"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298322"
 ---
 # <a name="configure-federation-routes-and-media-traffic"></a>Configurar las rutas de federación y el tráfico multimedia
 
-La federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de red. Después de migrar a su grupo piloto, necesitará para la transición desde la ruta de federación de los servidores perimetrales de la versión anterior a la ruta de federación de su Skype para los servidores perimetrales de Business Server 2019.
+La Federación es una relación de confianza entre dos o más dominios SIP que permite a los usuarios de organizaciones independientes comunicarse a través de los límites de la red. Después de migrar a su grupo piloto, debe realizar una transición de la ruta de Federación de los servidores perimetrales de la versión anterior a la ruta de Federación de sus servidores perimetrales de Skype empresarial Server 2019.
   
-Use los siguientes procedimientos para realizar la transición de la ruta de federación y la ruta de tráfico de medios de servidor perimetral y Director de la versión anterior a su Skype para servidor perimetral de Business Server 2019, para una implementación de sitio único.
-  
-> [!IMPORTANT]
-> Cambiar la ruta de federación y la ruta de tráfico multimedia requiere programar el tiempo de inactividad de mantenimiento para la Skype para Business Server 2019 y los servidores perimetrales de versión anterior. Este proceso de transición completa también significa que acceso federado dejarán de estar disponible para la duración de la interrupción del servicio. Debe programar el tiempo de inactividad durante un tiempo cuando se espera actividad mínima del usuario. También debe proporcionar suficiente notificación a los usuarios finales. Planear en consecuencia para esta interrupción y el conjunto adecuado las expectativas dentro de la organización. 
+Use los procedimientos siguientes para realizar la transición de la ruta de Federación y la ruta de tráfico multimedia desde el servidor perimetral y el director de la versión anterior de Skype 2019 empresarial para una implementación de sitio único.
   
 > [!IMPORTANT]
-> Si su servidor perimetral heredado está configurado para usar el mismo FQDN para el servicio de servidor perimetral de acceso, servicio perimetral de conferencia Web y el servicio perimetral A/v, los procedimientos descritos en esta sección no son compatibles. Si los Servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios luego dé de baja el servidor perimetral de versiones anteriores antes de habilitar la federación en el Skype para servidor perimetral de Business Server 2019. 
+> El cambio de la ruta de Federación y el tráfico de multimedia requiere que programe el tiempo de inactividad de mantenimiento de los servidores de Skype empresarial Server 2019 y versiones anteriores. Todo este proceso de transición también significa que el acceso federado no estará disponible durante la interrupción. Debe programar el tiempo de inactividad para una hora en la que espera una actividad mínima de usuario. También debe proporcionar una notificación suficiente a los usuarios finales. Planee en consecuencia para esta interrupción y establezca las expectativas apropiadas dentro de su organización. 
   
 > [!IMPORTANT]
-> Si la federación XMPP se enruta a través de un Skype para servidor perimetral de Business Server 2019, los usuarios en la versión anterior no podrán comunicarse con el socio federado XMPP hasta que todos los usuarios se han movido a Skype para Business Server 2019, directivas de XMPP y se han configurado los certificados, se ha configurado el socio federado XMPP en Skype para Business Server 2019 y, por último, se han actualizado las entradas DNS. 
+> Si el servidor perimetral heredado está configurado para usar el mismo FQDN para el servicio perimetral de acceso, el servicio perimetral de conferencia web y el servicio perimetral a/V, no se admiten los procedimientos de esta sección. Si los servicios perimetrales heredados están configurados para usar el mismo FQDN, primero debe migrar todos los usuarios y luego retirar el servidor perimetral de las versiones anteriores antes de habilitar la Federación en el servidor perimetral de Skype empresarial Server 2019. 
   
-## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a>Para quitar la asociación de federación heredada de Skype para sitios de Business Server 2019
+> [!IMPORTANT]
+> Si la Federación de XMPP se dirige a través de un servidor perimetral de Skype empresarial Server 2019, los usuarios de la versión anterior no podrán comunicarse con el socio de XMPP federado hasta que todos los usuarios hayan pasado a Skype empresarial Server 2019, directivas XMPP y se han configurado certificados, el socio de XMPP federado se ha configurado en Skype empresarial Server 2019 y, por último, se han actualizado las entradas DNS. 
+  
+## <a name="to-remove-the-legacy-federation-association-from-skype-for-business-server-2019-sites"></a>Para quitar la Asociación de Federación heredada de sitios de Skype empresarial Server 2019
 
-1. En Skype para servidor Front-End de Business Server 2019, abra la topología existente en el generador de topología. 
+1. En el servidor front-end de Skype empresarial Server 2019, abra la topología existente en el generador de topologías. 
     
-2. En el panel izquierdo, desplácese hasta el nodo del sitio, que se encuentra justo debajo de **Skype para Business Server**.
+2. En el panel de la izquierda, vaya al nodo del sitio, que se encuentra directamente debajo **de Skype empresarial Server**.
     
-3. Haga clic en el sitio y, a continuación, haga clic en **Editar propiedades**.
+3. Haga clic con el botón secundario en el sitio y luego haga clic en **Editar propiedades**.
     
-4. En el panel izquierdo, seleccione **ruta de federación**. 
+4. En el panel de la izquierda, seleccione **ruta de Federación**. 
     
-5. En **asignación de ruta de federación de sitio**, desactive la casilla de verificación **Habilitar federación SIP** para deshabilitar la ruta de federación a través del entorno heredado. 
+5. En **asignación de ruta de Federación de sitios**, desactive la casilla **Habilitar Federación SIP** para deshabilitar la ruta de Federación a través del entorno heredado. 
   
 6. Haga clic en **Aceptar** para cerrar la página Editar propiedades. 
     
-7. En **El generador de topología**, seleccione el nodo superior **Skype para Business Server**.
+7. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**.
     
-8. En el menú **acción** , haga clic en **Publicar topología**.
+8. En el menú **acción** , haga clic en **publicar topología**.
     
-9. Haga clic en **siguiente** para completar el proceso de publicación y, a continuación, haga clic en **Finalizar** cuando haya finalizado el proceso de publicación. 
+9. Haga clic en **siguiente** para completar el proceso de publicación y, a continuación, haga clic en **Finalizar** cuando se haya completado el proceso de publicación. 
     
-## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar el servidor perimetral heredado como un servidor perimetral no federado
+## <a name="to-configure-the-legacy-edge-server-as-a-non-federating-edge-server"></a>Para configurar el servidor perimetral heredado como servidor perimetral de no Federación
 
-1. En el panel izquierdo, desplácese al nodo instalar heredado y, a continuación, en el nodo de **perimetral grupos de servidores** . 
+1. En el panel de la izquierda, navegue hasta el nodo instalación heredada y, a continuación, al nodo contornos de **borde** . 
     
-2. Haga clic en el servidor perimetral y, a continuación, haga clic en **Editar propiedades**.
+2. Haga clic con el botón secundario en el servidor perimetral y luego haga clic en **Editar propiedades**.
     
-3. Seleccione **General** en el panel izquierdo. 
+3. Seleccione **General** en el panel de la izquierda. 
     
-4. Desactive la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** y seleccione **Aceptar** para cerrar la página. 
+4. Desactive la casilla **Habilitar Federación para este grupo perimetral (puerto 5061)** y seleccione **Aceptar** para cerrar la página. 
   
-5. En el menú **acción** , seleccione **Publicar topología**y, a continuación, haga clic en **siguiente**.
+5. En el menú **acción** , seleccione **publicar topología**y, a continuación, haga clic en **siguiente**.
     
-6. Cuando se complete el **Asistente para la publicación** , haga clic en **Finalizar** para cerrar al asistente. 
+6. Cuando finalice el Asistente para la **publicación** , haga clic en **Finalizar** para cerrar el asistente. 
     
-7. Compruebe que está deshabilitada la federación para el servidor perimetral heredado en el generador de topología.
+7. Compruebe que la Federación del servidor perimetral heredado está deshabilitada en el generador de topología.
   
 ## <a name="to-configure-certificates-on-the-legacy-edge-server"></a>Para configurar certificados en el servidor perimetral heredado
 
-1. Exporte el certificado externo del Proxy de acceso, con la clave privada, desde el servidor perimetral heredado. 
+1. Exporte el certificado del proxy de acceso externo, con la clave privada, desde el servidor perimetral heredado. 
     
-2. En el Skype para servidor perimetral de Business Server 2019 e importar el Proxy de acceso externo de certificados desde el paso anterior.
+2. En el servidor perimetral de Skype empresarial Server 2019 e importe el certificado externo del proxy de acceso del paso anterior.
     
-3. Asignar el certificado externo del Proxy de acceso a la Skype para Business Server 2019 la interfaz externa del servidor perimetral.
+3. Asigne el certificado externo del proxy de acceso a la interfaz externa de Skype empresarial Server 2019 del servidor perimetral.
     
-4. El certificado de la interfaz interna de la Skype para servidor perimetral de Business Server 2019 debe solicitar a una CA de confianza y asignarse. 
+4. El certificado de interfaz interno del servidor perimetral de Skype empresarial Server 2019 debe solicitarse a una entidad de certificación de confianza y asignarse. 
     
-## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Para cambiar la ruta de federación de la versión anterior para usar Skype para servidor perimetral de Business Server 2019
+## <a name="to-change-the-previous-versions-federation-route-to-use-skype-for-business-server-2019-edge-server"></a>Para cambiar la ruta de Federación de la versión anterior para usar Skype empresarial Server 2019 Edge Server
 
-1. En Topology Builder, en el panel izquierdo, desplácese al nodo de **Skype para Business Server 2019** y, a continuación, en el nodo de **grupos de servidores perimetrales** . 
+1. Desde el generador de topologías, en el panel izquierdo, vaya al nodo **de Skype empresarial Server 2019** y, a continuación, al nodo de **grupos de límites** . 
     
-2. Haga clic en el servidor perimetral y, a continuación, haga clic en **Editar propiedades**.
+2. Haga clic con el botón secundario en el servidor perimetral y luego haga clic en **Editar propiedades**.
     
-3. Seleccione **General** en el panel izquierdo. 
+3. Seleccione **General** en el panel de la izquierda. 
     
-4. Seleccione la casilla de verificación para **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** y, a continuación, haga clic en **Aceptar** para cerrar la página. 
+4. Active la casilla **Habilitar Federación para este grupo perimetral (puerto 5061)** y, a continuación, haga clic en **Aceptar** para cerrar la página. 
   
-5. En el menú **acción** , seleccione **Publicar topología**y, a continuación, haga clic en **siguiente**.
+5. En el menú **acción** , seleccione **publicar topología**y, a continuación, haga clic en **siguiente**.
     
-6. Cuando se complete el **Asistente para la publicación** , haga clic en **Finalizar** para cerrar al asistente. 
+6. Cuando finalice el Asistente para la **publicación** , haga clic en **Finalizar** para cerrar el asistente. 
     
-7. Compruebe que **federación (puerto 5061)** se establece en **habilitado** en el generador de topología.
+7. Compruebe que la **Federación (puerto 5061)** está **habilitada** en el generador de topología.
     
   
-## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Para actualizar Skype para el próximo salto de federación de servidor perimetral de Business Server 2019
+## <a name="to-update-skype-for-business-server-2019-edge-server-federation-next-hop"></a>Para actualizar el próximo salto de la Federación de Skype empresarial Server 2019 Edge Server
 
-1. En Topology Builder, en el panel izquierdo, desplácese al nodo de **Skype para Business Server 2019** y, a continuación, en el nodo de **grupos de servidores perimetrales** . 
+1. Desde el generador de topologías, en el panel izquierdo, vaya al nodo **de Skype empresarial Server 2019** y, a continuación, al nodo de **grupos de límites** . 
     
-2. Expanda el nodo, haga clic en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**. 
+2. Expanda el nodo, haga clic con el botón secundario en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**. 
     
-3. En la página **General** , en **selección de próximo salto**, seleccione en la lista desplegable el Skype para el grupo de servidores de Business Server 2019.
+3. En la página **General** , en **selección del próximo salto**, seleccione de la lista desplegable el grupo de servidores de Skype empresarial 2019.
   
 4. Haga clic en **Aceptar** para cerrar la página Editar propiedades. 
     
-5. En **El generador de topología**, seleccione el nodo superior **Skype para Business Server**. 
+5. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**. 
     
-6. En el menú **acción** , haga clic en **Publicar topología** y complete el asistente. 
+6. En el menú **acción** , haga clic en **publicar topología** y complete el asistente. 
     
-## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a>Para configurar Skype para la ruta de acceso de servidor perimetral de Business Server 2019 medios de salida
+## <a name="to-configure-skype-for-business-server-2019-edge-server-outbound-media-path"></a>Para configurar la ruta multimedia de salida de Skype empresarial Server 2019 Edge Server
 
-1. En Topology Builder, en el panel izquierdo, desplácese al nodo **Skype para Business Server 2019** y, a continuación, en el grupo de servidores por debajo de **Standard Edition servidor front-end** o **grupos de servidores Front-End de Enterprise Edition**.
+1. Desde el generador de topologías, en el panel izquierdo, vaya al nodo **de Skype empresarial Server 2019** y, a continuación, a la sección de **servidores de aplicaciones para usuario de la versión Standard Edition** o a la de las **agrupaciones front-end Enterprise Edition**.
     
-2. Haga clic en el grupo de servidores y, a continuación, haga clic en **Editar propiedades**.
+2. Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.
     
-3. En la sección **asociaciones** , active la casilla de verificación de **grupo de servidores perimetrales asociados (para componentes multimedia)** . 
+3. En la sección **asociaciones** , active la casilla **asociar grupo perimetral (para componentes multimedia)** . 
   
-4. En el cuadro de lista desplegable, seleccione el Skype para servidor perimetral de Business Server 2019.
+4. En el cuadro desplegable, seleccione el servidor perimetral de Skype empresarial Server 2019.
     
 5. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** . 
     
-## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Para activar Skype para la federación del servidor perimetral de Business Server 2019
+## <a name="to-turn-on-skype-for-business-server-2019-edge-server-federation"></a>Para activar la Federación de servidores perimetrales de Skype empresarial Server 2019
 
-1. En Topology Builder, en el panel izquierdo, desplácese al nodo de **Skype para Business Server 2019** y, a continuación, en el nodo de **grupos de servidores perimetrales** . 
+1. Desde el generador de topologías, en el panel izquierdo, vaya al nodo **de Skype empresarial Server 2019** y, a continuación, al nodo de **grupos de límites** . 
     
-2. Expanda el nodo, haga clic en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**. 
+2. Expanda el nodo, haga clic con el botón secundario en el servidor perimetral que aparece y, a continuación, haga clic en **Editar propiedades**. 
     
     > [!NOTE]
-    > Sólo se puede habilitar la federación para un único grupo de servidores perimetrales. Si tiene varios grupos de servidores perimetrales, seleccione una nueva para usarla como el grupo de servidores perimetrales federación. 
+    > La Federación solo se puede habilitar para un único grupo de borde. Si tiene varios grupos de límites, seleccione uno para usarlo como el grupo de servidores perimetrales de Federación. 
   
-3. En la página **General** , compruebe que está activada la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** . 
+3. En la página **General** , compruebe que la casilla **de verificación Habilitar la Federación para este grupo perimetral (puerto 5061)** está activada. 
   
 4. Haga clic en **Aceptar** para cerrar la página Editar propiedades. 
     
 5. Vaya al nodo del sitio. 
     
-6. Haga clic en el sitio y, a continuación, haga clic en **Editar propiedades**.
+6. Haga clic con el botón secundario en el sitio y luego haga clic en **Editar propiedades**.
     
-7. En el panel izquierdo, haga clic en **ruta de federación**.
+7. En el panel de la izquierda, haga clic en **ruta de Federación**.
     
-8. En **asignación de ruta de federación de sitio**, seleccione **Habilitar federación SIP**y, a continuación, en la lista Seleccione la Skype para Business Server 2019 perimetral Server enumerados. 
+8. En **asignación de ruta de Federación de sitios**, seleccione **Habilitar Federación SIP**y, a continuación, en la lista, seleccione el servidor perimetral de Skype empresarial Server 2019. 
   
 9. Haga clic en **Aceptar** para cerrar la página **Editar propiedades** . 
     
-     Para las implementaciones de varios sitios, complete este procedimiento en cada sitio. 
+     Para implementaciones de varios sitios, complete este procedimiento en cada sitio. 
     
-## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar los cambios de configuración del servidor perimetral
+## <a name="to-publish-edge-server-configuration-changes"></a>Para publicar cambios en la configuración del servidor perimetral
 
-1. En **El generador de topología**, seleccione el nodo superior **Skype para Business Server**. 
+1. En el **generador**de topologías, seleccione el nodo principal de **Skype empresarial Server**. 
     
-2. En el menú **acción** , seleccione **Publicar topología** y complete el asistente. 
+2. En el menú **acción** , seleccione **publicar topología** y complete el asistente. 
     
-3. Espere a que la replicación de Active Directory que se produzca a todos los grupos de servidores en la implementación.
+3. Espere a que se produzca la replicación de Active Directory en todos los grupos de la implementación.
     
     > [!NOTE]
-    > Es posible que aparezca el siguiente mensaje: **Advertencia: la topología contiene más de un servidor perimetral federados. Esto puede ocurrir durante la migración a una versión más reciente del producto. En ese caso, un solo servidor perimetral se usaría activamente para la federación. Compruebe que el registro SRV de DNS externo señala al servidor perimetral correcto. Si desea implementar varios federación servidor perimetral para ser al mismo tiempo activo (es decir, no un escenario de migración), compruebe que todos los socios federados usa Skype para Business Server. Compruebe que el registro SRV de DNS externo enumera todos los servidores perimetrales de federación habilitada.** Se espera y se puede omitir esta advertencia. 
+    > Es posible que vea el siguiente mensaje: **ADVERTENCIA: la topología contiene más de un servidor perimetral federado. Esto puede ocurrir durante la migración a una versión más reciente del producto. En ese caso, solo se usaría activamente un servidor perimetral para la Federación. Compruebe que el registro SRV de DNS externo apunta al servidor perimetral correcto. Si desea implementar varios servidores perimetrales de Federación de forma simultánea (es decir, no un escenario de migración), compruebe que todos los socios federados usen Skype empresarial Server. Compruebe que el registro SRV de DNS externo muestra todos los servidores perimetrales habilitados para la Federación.** Esta advertencia es esperada y puede ignorarse de forma segura. 
   
-## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Para configurar Skype para servidor perimetral de Business Server 2019
+## <a name="to-configure-skype-for-business-server-2019-edge-server"></a>Para configurar el servidor EDGE 2019 de Skype empresarial Server
 
-1. Conecte todos los de la Skype para los servidores perimetrales de Business Server 2019 en línea. 
+1. Conecte todos los servidores perimetrales de Skype empresarial Server 2019. 
     
-2. Actualizar las reglas de enrutamiento de firewall externo o la configuración de equilibrador de carga de hardware para enviar el tráfico SIP para el acceso externo (normalmente el puerto 443) y federación (normalmente el puerto 5061) a la Skype para Business Server 2019 perimetral Server, en lugar del servidor perimetral heredado.
+2. Actualice las reglas de enrutamiento del firewall externo o la configuración del equilibrador de carga de hardware para enviar el tráfico SIP para acceso externo (generalmente el puerto 443) y la Federación (normalmente, el puerto 5061) al servidor perimetral de Skype empresarial Server 2019, en lugar del servidor perimetral heredado.
     
     > [!NOTE]
-    > Si no es necesario un equilibrador de carga de hardware, debe actualizar el registro A DNS para la federación resolver en el nuevo Skype para servidor perimetral de acceso de servidor empresarial. Para hacerlo con una interrupción mínima, reducir el valor TLL para el Skype externo de Business Server acceso perimetral FQDN para que cuando se actualiza DNS para que apunte a la nueva Skype para el servidor perimetral de acceso de servidor empresarial, la federación y el acceso remoto se actualizarán rápidamente. 
+    > Si no tiene un equilibrador de carga de hardware, tendrá que actualizar el registro a de DNS para que la Federación se resuelva en el nuevo servidor perimetral de acceso de Skype empresarial Server. Para lograr esto con una interrupción mínima, reduzca el valor de TLL para el FQDN del perímetro externo de acceso de Skype empresarial Server de modo que, cuando se actualice DNS para que apunte al nuevo servidor perimetral de acceso de Skype empresarial, la Federación y el acceso remoto se actualizarán rápidamente. 
   
-3. Detener la **Skype para el servidor perimetral de acceso de servidor empresarial** desde cada equipo servidor perimetral. 
+3. Detenga el **acceso perimetral de Skype empresarial Server** desde cada equipo servidor perimetral. 
     
-4. En cada equipo servidor perimetral heredado, abra el subprograma **Servicios** desde las **Herramientas administrativas**.
+4. Desde cada equipo servidor perimetral heredado, abra el applet **servicios** de las **herramientas administrativas**.
     
-5. En la lista de servicios, busque **Skype para el servidor perimetral de acceso de servidor empresarial**.
+5. En la lista servicios, busque la **tecnología perimetral de acceso de Skype empresarial Server**.
     
-6. Haga clic en el nombre de los servicios y, a continuación, seleccione **Detener** para detener el servicio. 
+6. Haga clic con el botón secundario en el nombre de servicios y, a continuación, seleccione **detener** para detener el servicio. 
     
-7. Establezca el tipo de inicio en **deshabilitado**. 
+7. Establezca el tipo de inicio **** en deshabilitado. 
     
-8. Haga clic en **Aceptar** para cerrar la ventana **Propiedades** . 
+8. Haga clic en **Aceptar** para cerrar la ventana **propiedades** . 
     
 
