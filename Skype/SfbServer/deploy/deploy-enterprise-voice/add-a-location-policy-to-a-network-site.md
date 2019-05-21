@@ -1,10 +1,10 @@
 ---
-title: Agregar una directiva de ubicación a un sitio de red en Skype para Business Server
+title: Agregar una directiva de ubicación a un sitio de red en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,49 +13,49 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d30f9295b633ccfa7439e697931b13bd92b1cc0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Asignar directivas de ubicación E9-1-1 a los sitios de red en la telefonía IP empresarial de Skype empresarial.
+ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306877"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="5f0cc-103">Agregar una directiva de ubicación a un sitio de red en Skype para Business Server</span><span class="sxs-lookup"><span data-stu-id="5f0cc-103">Add a location policy to a network site in Skype for Business Server</span></span>
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a><span data-ttu-id="e7e09-103">Agregar una directiva de ubicación a un sitio de red en Skype empresarial Server</span><span class="sxs-lookup"><span data-stu-id="e7e09-103">Add a location policy to a network site in Skype for Business Server</span></span>
  
-<span data-ttu-id="5f0cc-104">Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
+<span data-ttu-id="e7e09-104">Asignar directivas de ubicación E9-1-1 a los sitios de red en la telefonía IP empresarial de Skype empresarial.</span><span class="sxs-lookup"><span data-stu-id="e7e09-104">Assign E9-1-1 location policies to network sites in Skype for Business Server Enterprise Voice.</span></span> 
   
-<span data-ttu-id="5f0cc-105">Los siguientes ejemplos muestran cómo agregar la directiva de ubicación de **Redmond** definida en [las directivas de ubicación de crear de Skype para Business Server](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que usa la directiva de ubicación de **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="5f0cc-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
+<span data-ttu-id="e7e09-105">En los siguientes ejemplos se muestra cómo agregar la Directiva de ubicación de **Redmond** definida en [crear directivas de ubicación en Skype empresarial Server](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que use la Directiva de ubicación de **Redmond** .</span><span class="sxs-lookup"><span data-stu-id="e7e09-105">The following examples show how to add the **Redmond** location policy defined in [Create location policies in Skype for Business Server](create-location-policies.md) to an existing network site and how to create a new network site that uses the **Redmond** location policy.</span></span>
   
-<span data-ttu-id="5f0cc-106">Para obtener información detallada sobre cómo trabajar con sitios de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:</span><span class="sxs-lookup"><span data-stu-id="5f0cc-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+<span data-ttu-id="e7e09-106">Para obtener más información sobre cómo trabajar con sitios de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="e7e09-106">For details about working with network sites, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
   
-- <span data-ttu-id="5f0cc-107">**New-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="5f0cc-107">**New-CsNetworkSite**</span></span>
+- <span data-ttu-id="e7e09-107">**New-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="e7e09-107">**New-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="5f0cc-108">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="5f0cc-108">**Get-CsNetworkSite**</span></span>
+- <span data-ttu-id="e7e09-108">**Get-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="e7e09-108">**Get-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="5f0cc-109">**Set-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="5f0cc-109">**Set-CsNetworkSite**</span></span>
+- <span data-ttu-id="e7e09-109">**Set-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="e7e09-109">**Set-CsNetworkSite**</span></span>
     
-- <span data-ttu-id="5f0cc-110">**Remove-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="5f0cc-110">**Remove-CsNetworkSite**</span></span>
+- <span data-ttu-id="e7e09-110">**Remove-CsNetworkSite**</span><span class="sxs-lookup"><span data-stu-id="e7e09-110">**Remove-CsNetworkSite**</span></span>
     
-### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="5f0cc-111">Para asignar una directiva de ubicación a un sitio de red existente</span><span class="sxs-lookup"><span data-stu-id="5f0cc-111">To assign a location policy to an existing network site</span></span>
+### <a name="to-assign-a-location-policy-to-an-existing-network-site"></a><span data-ttu-id="e7e09-111">Para asignar una directiva de ubicación a un sitio de red existente</span><span class="sxs-lookup"><span data-stu-id="e7e09-111">To assign a location policy to an existing network site</span></span>
 
-1. <span data-ttu-id="5f0cc-112">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="e7e09-112">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="e7e09-112">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="5f0cc-113">Ejecute los siguientes cmdlets para modificar un sitio de red existente.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-113">Run the following cmdlets to modify an existing network site.</span></span>
+2. <span data-ttu-id="e7e09-113">Ejecute los siguientes cmdlets para modificar un sitio de red existente.</span><span class="sxs-lookup"><span data-stu-id="e7e09-113">Run the following cmdlets to modify an existing network site.</span></span>
     
-    <span data-ttu-id="5f0cc-114">Asigne la directiva de ubicación con la etiqueta **Redmond** a un sitio de red existente denominado **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
+    <span data-ttu-id="e7e09-114">Asigne la directiva de ubicación con la etiqueta **Redmond** a un sitio de red existente denominado **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="e7e09-114">Assign the **Redmond** tagged Location policy to an existing network site named **Redmond**.</span></span>
     
    ```
    Set-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
    ```
 
-### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="5f0cc-115">Para asignar una directiva de ubicación a un nuevo sitio de red</span><span class="sxs-lookup"><span data-stu-id="5f0cc-115">To assign a location policy to a new network site</span></span>
+### <a name="to-assign-a-location-policy-to-a-new-network-site"></a><span data-ttu-id="e7e09-115">Para asignar una directiva de ubicación a un nuevo sitio de red</span><span class="sxs-lookup"><span data-stu-id="e7e09-115">To assign a location policy to a new network site</span></span>
 
-1. <span data-ttu-id="5f0cc-116">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
+1. <span data-ttu-id="e7e09-116">Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.</span><span class="sxs-lookup"><span data-stu-id="e7e09-116">Start the Skype for Business Server Management Shell: Click **Start**, click **All Programs**, click **Skype for Business 2015**, and then click **Skype for Business Server Management Shell**.</span></span>
     
-2. <span data-ttu-id="5f0cc-117">Ejecute el siguiente cmdlet para crear un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-117">Run the following cmdlet to create a new network site.</span></span>
+2. <span data-ttu-id="e7e09-117">Ejecute el siguiente cmdlet para crear un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="e7e09-117">Run the following cmdlet to create a new network site.</span></span>
     
-    <span data-ttu-id="5f0cc-118">Cree el sitio de red en la región de red y asígnele la directiva de ubicación con la etiqueta **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="5f0cc-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
+    <span data-ttu-id="e7e09-118">Cree el sitio de red en la región de red y asígnele la directiva de ubicación con la etiqueta **Redmond**.</span><span class="sxs-lookup"><span data-stu-id="e7e09-118">Create a new network site in the network region and assign the **Redmond** tagged Location policy.</span></span>
     
    ```
    New-CsNetworkSite -Identity "Redmond" -NetworkRegionID "NorthAmerica" -LocationPolicy "Redmond"
