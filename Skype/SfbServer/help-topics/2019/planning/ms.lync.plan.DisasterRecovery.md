@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.DisasterRecovery
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype para Business Server incluye ante desastres medidas de recuperación, ya que permite a los grupos de servidores Front-End del par que se encuentran en dos centros de datos.
-ms.openlocfilehash: 02fad81c10a5fcc4b244ac28f59f6ea32a2b8a63
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Skype empresarial Server incluye medidas de recuperación ante desastres que le permiten emparejar grupos de aplicaciones para el usuario que se encuentran en dos centros de datos.
+ms.openlocfilehash: be4bbcce1f746d1e28e8753e3f89d66fea9ff524
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889496"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281634"
 ---
-# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="68f5c-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="68f5c-103">Disaster Recovery (Planning Tool)</span></span>
+# <a name="disaster-recovery-planning-tool"></a><span data-ttu-id="8cc4a-103">Disaster Recovery (Planning Tool)</span><span class="sxs-lookup"><span data-stu-id="8cc4a-103">Disaster Recovery (Planning Tool)</span></span>
  
-<span data-ttu-id="68f5c-104">Skype para Business Server incluye ante desastres medidas de recuperación, ya que permite a los grupos de servidores Front-End del par que se encuentran en dos centros de datos.</span><span class="sxs-lookup"><span data-stu-id="68f5c-104">Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
+<span data-ttu-id="8cc4a-104">Skype empresarial Server incluye medidas de recuperación ante desastres que le permiten emparejar grupos de aplicaciones para el usuario que se encuentran en dos centros de datos.</span><span class="sxs-lookup"><span data-stu-id="8cc4a-104">Skype for Business Server includes disaster recovery measures by enabling you to pair Front End pools located in two data centers.</span></span>
   
-<span data-ttu-id="68f5c-105">Para obtener información detallada acerca de cómo preparar el entorno de recuperación ante desastres, consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="68f5c-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
+<span data-ttu-id="8cc4a-105">Para obtener detalles sobre la preparación del entorno para la recuperación ante desastres, consulte [planear la alta disponibilidad y la recuperación ante desastres en Skype empresarial Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="8cc4a-105">For details about preparing your environment for disaster recovery, see [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).</span></span>
   
 
