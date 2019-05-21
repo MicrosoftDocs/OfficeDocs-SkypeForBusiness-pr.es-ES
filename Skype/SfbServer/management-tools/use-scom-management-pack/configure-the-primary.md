@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
-description: 'Resumen: Configurar el servidor de administración principal, instalar a System Center Operations Manager e Importar módulos de administración para Skype para Business Server 2015.'
-ms.openlocfilehash: 141a0e3470bcdad4a0fea3e67ae9a1dbdbf32bcd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: configure el servidor de administración principal, instale System Center Operations Manager e importe los paquetes de administración para Skype empresarial Server 2015.'
+ms.openlocfilehash: a89ee8ca7c7f5601d9219ef49643adc2ebf99883
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904212"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277674"
 ---
 # <a name="configure-the-primary-management-server"></a>Configurar el servidor de administración principal
 
-**Resumen:** Configurar el servidor de administración principal, instalar a System Center Operations Manager e Importar módulos de administración para Skype para Business Server 2015.
+**Resumen:** Configurar el servidor de administración principal, instalar System Center Operations Manager e importar paquetes de administración para Skype empresarial Server 2015.
 
-Para aprovechar al máximo la nueva de supervisión de mantenimiento funcionalidades incluidas en Skype para Business Server 2015, primero debe designar un equipo para que actúe como el servidor de administración principal. A continuación, debe instalar System Center Operations Manager 2012 SP1 o R2 o System Center Operations Manager 2007 R2 en dicho equipo. Además, primero debe instalar una versión compatible de SQL Server para funcionar como la base de datos de back-end de Operations Manager.
+Para aprovechar al máximo las nuevas capacidades de supervisión de estado incluidas en Skype empresarial Server 2015, primero debe designar un equipo que actúe como servidor de administración principal. Debe instalar System Center Operations Manager 2012 SP1 o R2 o System Center Operations Manager 2007 R2 en ese equipo. Además, primero debe instalar una versión compatible de SQL Server para que funcione como la base de datos back-end de Operations Manager.
 
-Al instalar System Center Operations Manager, debe instalar todos los componentes de ese producto, incluidos:
+Cuando instale System Center Operations Manager, tendrá que instalar todos los componentes de ese producto, entre los que se incluyen:
 
 - Base de datos operativa
 
@@ -42,7 +42,7 @@ Al instalar System Center Operations Manager, debe instalar todos los componente
 - Almacén de datos
 
 > [!IMPORTANT]
-> El "[Paquete redistribuible de Microsoft informe Viewer 2010](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" debe instalarse antes de instalar System Center Operations Manager 2012.
+> El "[paquete redistribuible 2010 de Microsoft Report Viewer](https://www.microsoft.com/en-us/download/details.aspx?id=6442)" debe instalarse antes de instalar System Center Operations Manager 2012.
 
 Para obtener más información sobre estos productos y su instalación, consulte los siguientes vínculos:
 
@@ -50,18 +50,18 @@ Para obtener más información sobre estos productos y su instalación, consulte
 
 - [System Center Operations Manager 2007](https://technet.microsoft.com/en-us/library/bb735860.aspx)
 
-Tenga en cuenta que puede tener un solo servidor de administración raíz por Skype para la implementación de Business Server.
+Tenga en cuenta que solo puede tener un servidor de administración raíz por implementación de Skype empresarial Server.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importación de los paquetes de administración de Skype Empresarial Server 2015
 
-Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración: software que puede supervisar indica qué elementos de System Center Operations Manager, cómo deben supervisarse esos elementos y cómo se deben desencadenar alertas y notifiquen. Skype para Business Server 2015 incluye dos paquetes de administración de System Center Operations Manager que proporcionan las siguientes capacidades:
+Puede ampliar las capacidades de System Center Operations Manager mediante la instalación de paquetes de administración, es decir, el software que determina qué elementos puede supervisar System Center Operations Manager, cómo se deben supervisar esos elementos y cómo se deberían desencadenar alertas y registrados. Skype empresarial Server 2015 incluye dos módulos de administración de System Center Operations Manager que proporcionan las siguientes características:
 
-- **El componente y el módulo de administración de usuario** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) realiza un seguimiento de Skype para Business Server problemas registrados en los registros de eventos, registrado por los contadores de rendimiento o registrados en los registros de detalles de llamadas (CDR) o las bases de datos de calidad de la experiencia (QoE). Para problemas críticos, System Center Operations Manager puede configurarse para notificar inmediatamente a los administradores a través de correo electrónico, mensaje instantáneo o SMS de mensajería. (SMS o servicio de mensajes cortos, es la tecnología que se utiliza para enviar mensajes de texto desde un dispositivo móvil a otro).
+- **El paquete de administración de componentes y usuarios** (Microsoft.LS.2015.Monitoring.ComponentAndUser.mp) realiza un seguimiento de los problemas de Skype empresarial Server registrados en registros de eventos, registrados por contadores de rendimiento o registrados en las bases de datos de registros de detalles de llamadas (CDRs) o de calidad de la experiencia (QoE). En el caso de problemas críticos, System Center Operations Manager se puede configurar para que notifiquen inmediatamente a los administradores por correo electrónico, mensajes instantáneos o mensajes SMS. (SMS o servicio de mensajes cortos es la tecnología que se usa para enviar mensajes de texto desde un dispositivo móvil a otro).
 
     > [!NOTE]
-    >  Para obtener información detallada sobre la configuración de notificación de Operations Manager, vea [Configuración de las notificaciones](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
+    >  Para obtener más información sobre cómo configurar las notificaciones de Operations Manager, vea [configurar notificaciones](https://go.microsoft.com/fwlink/p/?LinkID=268785&amp;amp;clcid=0x409).
 
-- **El módulo de administración de supervisión activa** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) proactivamente pruebas clave Skype para los componentes de servidor empresarial, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o realizar llamadas a un teléfono que se encuentra en la red telefónica conmutada (RTC ). Estas pruebas se llevan a cabo mediante el uso de la Skype para cmdlets de transacciones sintéticas Business Server. Por ejemplo, se usa el cmdlet **Test-CsIM** para simular una conversación entre un par de usuarios de prueba de mensajería instantánea. Si se produce un error en esta conversación simulada, se genera una alerta.
+- **El módulo de administración de supervisión activa** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) prueba de forma proactiva los componentes de Skype empresarial clave, como iniciar sesión en el sistema, intercambiar mensajes instantáneos o hacer llamadas a un teléfono que se encuentra en la red de telefonía pública conmutada (RTC). ). Estas pruebas se realizan mediante los cmdlets de transacciones sintéticas de Skype empresarial Server. Por ejemplo, el cmdlet **Test-CsIM** se usa para simular una conversación de mensajería instantánea entre dos usuarios de prueba. Si esta conversación simulada falla, se genera una alerta.
 
 Importar los paquetes de administración es un paso fundamental. Si los módulos de administración no se importan, no podrá usar Operations Manager para supervisar los eventos de Skype Empresarial Server ni para ejecutar transacciones sintéticas de Skype Empresarial Server.
 
@@ -72,17 +72,17 @@ El módulo de componentes y administración de usuario se usa solo para supervis
 
 Puede usar una de las siguientes herramientas para importar los paquetes de administración:
 
-- **System Center Operations Manager** Con este método, se utiliza el Administrador de operaciones para agregar supervisión para Skype para Business Server.
+- **System Center Operations Manager** Con este método, se usa el Operations Manager para agregar la supervisión de Skype empresarial Server.
 
-- **Shell de Operations Manager** Puede usar el Shell de Operations Manager para importar directamente o a solucionar los problemas que surgen al importar módulos de administración mediante el uso de la consola de System Center Operations Manager.
+- **Shell de Operations Manager** Puede usar el shell de Operations Manager para importar directamente o para solucionar cualquier problema que encuentre al importar paquetes de administración mediante la consola de System Center Operations Manager.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importación de los módulos de administración mediante System Center Operations Manager
 
 1. Descargue SkypeForBusiness2015ManagementPacks.msi desde la web de descargas de Microsoft e instala el archivo msi.
 
-2. En System Center Operations Manager, haga clic en **administración**.
+2. En System Center Operations Manager, haga clic en **Administración**.
 
-3. En el panel de administración, haga clic en **Los paquetes de administración**y, a continuación, haga clic en **Importar módulos de administración**.
+3. En el panel administración, haga clic con el botón secundario en **módulos**de administración y luego haga clic en **importar módulos de administración**.
 
 4. En el cuadro de diálogo **Seleccionar módulos de administración**, haga clic en **Agregar** y luego en **Agregar desde el disco**.
 

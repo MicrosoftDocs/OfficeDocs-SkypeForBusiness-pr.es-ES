@@ -1,57 +1,57 @@
 ---
-title: Recuperación ante desastres pruebas en Skype para Business Server
+title: Pruebas de recuperación ante desastres en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Realizar una recuperación del sistema para que un Skype para servidor de grupo de servidores de Business Server probar el proceso de recuperación ante desastres documentado
-ms.openlocfilehash: 55398b95be1cf5cec2cafa3a91a36536df92200e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Realizar una recuperación del sistema de un servidor del grupo de servidores de Skype empresarial para probar el proceso de recuperación ante desastres documentado
+ms.openlocfilehash: d65f8bfa512a3954728e09d659b571335d32a379
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924818"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279217"
 ---
-# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Recuperación ante desastres pruebas en Skype para Business Server
+# <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Pruebas de recuperación ante desastres en Skype empresarial Server
 
-Realizar una recuperación del sistema para que un Skype para servidor de grupo de servidores de Business Server probar el proceso de recuperación ante desastres documentado. Esta prueba para simular un error de hardware completo para un solo servidor y le ayudará a garantizar que los recursos, los planes y los datos están disponibles para la recuperación. Trate de variar cada mes el objeto de esta simulación, de modo que su organización vaya poniendo a prueba distintos servidores u otros elementos. 
+Realice una recuperación del sistema de un servidor del grupo de servidores de Skype empresarial para probar el proceso de recuperación ante desastres documentado. Esta prueba simulará un error de hardware completo para un servidor y le ayudará a garantizar que los recursos, los planes y los datos estén disponibles para la recuperación. Trate de variar cada mes el objeto de esta simulación, de modo que su organización vaya poniendo a prueba distintos servidores u otros elementos. 
 
 Tenga en cuenta que el programa mediante el cual las organizaciones realizan pruebas de recuperación ante desastres puede variar. Es muy importante no ignorar o descuidar estas pruebas. 
 
-Exportar su Skype para la topología, las directivas y opciones de configuración de Business Server a un archivo. Entre otras cosas, este archivo podrá usarse para restaurar esta información en el Almacén de administración central después de una actualización, un error de hardware o cualquier otro problema que resulte en la pérdida de datos.
+Exporte la topología, las directivas y los parámetros de configuración de Skype empresarial Server a un archivo. Entre otras cosas, este archivo podrá usarse para restaurar esta información en el Almacén de administración central después de una actualización, un error de hardware o cualquier otro problema que resulte en la pérdida de datos.
 
-Importar su Skype para la topología de servidor empresarial, directivas y opciones de configuración en el almacén de Administración Central o en el equipo local, tal como se muestra en los siguientes comandos: 
+Importe la topología, las directivas y las opciones de configuración de Skype empresarial Server en el almacén de administración central o en el equipo local, tal y como se muestra en los siguientes comandos: 
 
 `Import-CsConfiguration -ByteInput <Byte[]> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]`
 
 `Import-CsConfiguration -FileName <String> [-Force <SwitchParameter>] [-LocalStore <SwitchParameter>]` 
 
-Para realizar una copia de seguridad de los datos de producción:
+Para hacer una copia de seguridad de los datos de producción:
 
-- Copia de seguridad de las bases de datos RTC y LCSLog mediante el estándar SQL Server de copia de seguridad proceso a fin de volcado de la base de datos a un dispositivo de volcado de archivo o una cinta.
+- Haga una copia de seguridad de las bases de datos RTC y LCSLog con el proceso de copia de seguridad estándar de SQL Server para volcar la base de datos en un dispositivo de volcado de archivo o cinta.
 - Use una aplicación de terceros para realizar en un archivo o cinta una copia de seguridad de los datos.
 - Use el cmdlet Export-CsUserData para crear una exportación XML de toda la base de datos RTC.
-- Usar la copia de seguridad de archivos del sistema o una copia de seguridad de terceros para realizar una copia de seguridad de registros de contenido y cumplimiento de normas de la reunión.
-- Use la herramienta de línea de comandos de Export-CsConfiguration para hacer una copia de seguridad de Skype para la configuración de Business Server.
+- Use la copia de seguridad del sistema de archivos o la copia de seguridad de terceros para realizar copias de seguridad de contenido y registros de cumplimiento.
+- Use la herramienta de línea de comandos Export-CsConfiguration para realizar copias de seguridad de la configuración de Skype empresarial Server.
 
 El primer paso en el procedimiento de conmutación por error incluye el traslado forzoso de los usuarios desde el grupo de producción al grupo de recuperación ante desastres. Se trata de un traslado forzoso porque el grupo de producción no estará disponible para aceptar la reubicación de los usuarios.
 
-El Skype para el proceso de usuario de movimiento de Business Server es realmente un cambio en un atributo en el objeto de cuenta de usuario además de una actualización de registro en la base de datos de SQL de RTC. Estos datos pueden restaurarse desde el dispositivo de volcado de copia de seguridad original de la producción SQL Server utilizando el proceso de restauración de SQL Server standard, o un tercero copia de seguridad y restauración utilidad.
+El proceso para mover usuarios de Skype empresarial Server es en realidad un cambio en un atributo en el objeto de cuenta de usuario, además de una actualización de registro en la base de datos de SQL de RTC. Estos datos se pueden restaurar desde el dispositivo de volcado de la copia de seguridad original desde el servidor SQL de producción mediante el proceso de restauración estándar de SQL Server o mediante una herramienta de copia de seguridad y restauración de terceros.
 
-Una vez se hayan restaurado los datos, los usuarios eficazmente pueden conectarse al grupo de servidores de recuperación ante desastres y funcionan como de costumbre. Para habilitar a los usuarios conectarse al grupo de servidores de recuperación ante desastres, se necesitarán un cambio de registro de DNS.
+Una vez que se hayan restaurado estos datos, los usuarios podrán conectarse al grupo de recuperación de desastres y funcionar de la forma habitual. Para permitir que los usuarios se conecten al grupo de recuperación de desastres, será necesario un cambio de registro DNS.
 
-La producción Skype para grupo de negocio se indicará por los clientes mediante la configuración automática y los registros DNS SRV:
+Los clientes hará referencia al grupo de producción de Skype empresarial mediante la configuración automática y los registros SRV de DNS de:
 
-- SRV: _sip._tls. \<domain> /CNAME: SIP. \<domain>
-- CNAME: SIP. \<domain> /cvc-pool-1. \<domain>
+- SRV: _ SIP. _ TLS. \<domain>/CNAME: SIP. \<domain>
+- CNAME: SIP. \<domain>/CVC-Pool-1. \<domain>
 
 Para facilitar la conmutación por error, este registro CNAME debe actualizarse para que haga referencia al FQDN DROCSPool:
 
-- CNAME: SIP.<domain> / DROCSPool. \<domain>
+- CNAME: SIP.<domain> /DROCSPool. \<domain>
 - SIP. \<domain>
 - AV.\<domain>
-- webconf. \<domain>
+- WebConf. \<domain>

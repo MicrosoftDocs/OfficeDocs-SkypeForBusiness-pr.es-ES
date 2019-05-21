@@ -5,46 +5,46 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 2/1/2018
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Resumen: cómo usar la herramienta de calculadora de capacidad.'
-ms.openlocfilehash: bdf3437ab044b7081d1f9f0ccb5ffa41a41e1545
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 24e268c6ecc3cc48fbfb4405f1e5e6b008639944
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914936"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274460"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Calculadora de planeamiento de capacidad de Skype Empresarial Server
  
 **Resumen:** cómo usar la herramienta de calculadora de capacidad.
 
 > [!NOTE]
-> En este artículo se hace referencia a Skype para descargas de Business Server 2015, pero se aplica al:
-> - Skype para Business Server 2019.
-> - Skype para Business Server 2015.
+> Este artículo hace referencia a descargas de Skype empresarial 2015, pero se aplica a:
+> - Skype empresarial Server 2019.
+> - Skype empresarial Server 2015.
   
-El [Skype para Calculadora de capacidad de Business Server 2015](https://www.microsoft.com/en-us/download/details.aspx?id=51196) y [Skype para Calculadora de capacidad de Business Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57509) aumentan la [Skype para la herramienta de planeación de negocio](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación de implementación ([Plan para su Skype para la empresa Implementación de servidor 2015](../plan-your-deployment/plan-your-deployment.md) y [planear su Skype para la implementación empresarial Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) respectivamente). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
+La calculadora de capacidad de [2015 de Skype empresarial Server](https://www.microsoft.com/en-us/download/details.aspx?id=51196) y de [skype empresarial Server 2019](https://www.microsoft.com/en-us/download/details.aspx?id=57509) amplía la [herramienta de planificación de Skype empresarial](https://www.microsoft.com/en-us/download/details.aspx?id=50357) y la documentación de implementación ([plan para Skype empresarial Server 2015 implementación](../plan-your-deployment/plan-your-deployment.md) y [planeación de la implementación de Skype empresarial Server 2019](../../SfBServer2019/plan/plan-your-deployment-2019.md) , respectivamente). Use la calculadora después de que haya revisado la guía y haya creado una topología recomendada mediante el uso de la Herramienta de planeación.
   
-El Skype para ayuda a la calculadora de capacidad de servidor empresarial se determinar los requisitos de servidor en función del número de usuarios y las herramientas de comunicación que usa la organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
+La calculadora de capacidad de Skype empresarial Server le ayuda a determinar los requisitos del servidor en función del número de usuarios y las herramientas de comunicación que use su organización. Tras determinar el perfil de usuario y las funciones que desea habilitar para los usuarios, use la calculadora para determinar el número de servidores, la memoria y el ancho que necesitará. Esta versión de la calculadora no ofrece instrucciones sobre los requisitos de I/O de disco.
   
 Para sacar el máximo partido de la calculadora necesitará información precisa y detallada sobre el perfil de usuario específico. Por ejemplo, datos como el porcentaje de usuarios habilitados para voz, la media de llamadas por usuario por hora, la duración de las llamadas y el porcentaje de usuarios simultáneos en las conferencias pueden suponer una gran diferencia en cuanto a requisitos de servidor. La precisión de las recomendaciones de la calculadora dependerá de la precisión de la información que se le suministre.
   
-Una vez que ha usado la herramienta de planeación y la calculadora de capacidad de planeación, debe simular la carga propuesta y planeada para asegurarse de que se va a aprovisionar adecuadamente Skype para Business Server. Para realizar pruebas en una carga simulada de esfuerzo, use el [Skype para Business Server Stress and Performance Tool](https://www.microsoft.com/en-us/download/details.aspx?id=50367) documentadas en [Skype para Business Server Stress and Performance Tool](https://technet.microsoft.com/en-us/library/mt631400.aspx).
+Una vez que haya usado la herramienta de planeación y la calculadora de planeación de capacidad, debe simular su carga propuesta y planeada para asegurarse de que Skype empresarial Server se aprovisionará de manera adecuada. Para realizar pruebas de estrés en una carga simulada, use la [herramienta de rendimiento y estrés de Skype](https://www.microsoft.com/en-us/download/details.aspx?id=50367) empresarial que se describe en la [herramienta de estrés y rendimiento de Skype empresarial Server](https://technet.microsoft.com/en-us/library/mt631400.aspx).
   
 ## <a name="using-the-capacity-calculator"></a>Uso de la calculadora de capacidad
 
-La calculadora es una hoja de cálculo de Microsoft Excel. Las celdas que escribe se colorean de naranja. Los valores predeterminados se escriben en las celdas (de Skype para Business Server 2015, 80.000 usuarios en un grupo de servidores con doce servidores Front-End, mientras que para Skype para Business Server 2019, 106,000 a los usuarios en un grupo de servidores con dieciséis servidores Front-End), pero debe cambiar estos valores para coincidir con las necesidades de su organización.
+La calculadora es una hoja de cálculo de Microsoft Excel. Las celdas que escribe se colorean de naranja. Los valores predeterminados se escriben en las celdas (para los usuarios de Skype empresarial Server 2015, 80.000 en un grupo con doce servidores front-end, mientras que Skype empresarial Server 2019, 106.000 usuarios en un mismo grupo con dieciséis servidores frontales), pero deberías cambiar estos valores a coincida con las necesidades de su organización.
   
 El modelo de uso contiene las secciones siguientes. Para calcular los requisitos de capacidad, escriba los datos tal y como se describen a partir de la parte superior de la hoja y siguiendo hacia abajo fila por fila: 
   
  **Mensajería instantánea y presencia**
   
-- Bajo **Número de usuarios**, escriba el número de usuarios que iniciarán sesión a la vez. Por lo general, este número asciende al 80 % del número total de usuarios especificado. En muchas ocasiones, el 100 % de los usuarios simultáneos estarán habilitados para mensajería instantánea y presencia. El valor predeterminado es 80.000 para Skype para Business Server 2015 y 106,000 a los usuarios de Skype para Business Server 2019.
+- Bajo **Número de usuarios**, escriba el número de usuarios que iniciarán sesión a la vez. Por lo general, este número asciende al 80 % del número total de usuarios especificado. En muchas ocasiones, el 100 % de los usuarios simultáneos estarán habilitados para mensajería instantánea y presencia. El valor predeterminado es 80.000 para Skype empresarial Server 2015 y 106.000 usuarios de Skype empresarial Server 2019.
     
 - **El número medio de contactos de la Lista de contactos** es el número de contactos que deberá usar para validar los requisitos del sistema. Este número es fijo y no debería modificarse.
     
@@ -56,7 +56,7 @@ El modelo de uso contiene las secciones siguientes. Para calcular los requisitos
     
 - En **Porcentaje de llamadas que usan el desvío de medios**, escriba el porcentaje de llamadas realizadas por sus usuarios que desviarán el Servidor de mediación. El valor predeterminado es del 65 % pero podría ser más bajo si se encuentran repartidos geográficamente o si tiene un porcentaje más grande de usuarios que trabajan desde casa.
     
-- En el **porcentaje de usuarios de voz que participan en llamadas UC-RTC**, escriba el porcentaje de llamadas de la organización que son llamadas de teléfono UC-RTC. El valor predeterminado es el 60 %.
+- En **porcentaje de usuarios de voz implicados en las llamadas UC-RTC**, escriba el porcentaje de las llamadas de su organización que son llamadas telefónicas UC-RTC. El valor predeterminado es el 60 %.
     
 - **Porcentaje de usuarios de voz en llamadas de UC a UC** muestra el porcentaje de usuarios habilitados para Telefonía IP empresarial que solo podrán realizar llamadas de UC a UC. Este número se calcula en función del dato que se ha especificado en **Porcentaje de usuarios de voz en llamadas de UC a RTC**. 
     
@@ -74,15 +74,15 @@ El modelo de uso contiene las secciones siguientes. Para calcular los requisitos
     
   - Si el 20 % de las conferencias incluirán también vídeos en vista múltiple, active la casilla **Incluye vista múltiple**.
     
-  - Si el 50% de las conferencias de voz también se incluye el uso compartido de aplicaciones, seleccione la casilla de verificación **incluido el uso compartido de aplicaciones** .
+  - Si el 50% de las conferencias de voz también incluirá el uso compartido de aplicaciones, active la casilla **incluir uso compartido de aplicaciones** .
     
   - Si el 20 % de las conferencias de voz incluirán también cargas de datos, como las presentaciones de PowerPoint, active la casilla **Incluye conferencia web**.
     
   **Movilidad**
   
-- En **porcentaje de los usuarios habilitados para movilidad**, escriba el porcentaje de los usuarios que se habilitará para conectarse a Skype para Business Server mediante dispositivos móviles. El valor predeterminado es el 40 %. 
+- En **porcentaje de usuarios habilitados para la movilidad**, escriba el porcentaje de usuarios que se habilitarán para conectarse a Skype empresarial Server mediante dispositivos móviles. El valor predeterminado es el 40 %. 
     
-Cuando se especifique toda la información necesaria, la calculadora de capacidad calculará los requisitos. Las celdas en amarillas, muestran valores calculados de CPU, memoria y requisitos de ancho de banda en función de pruebas realizadas en Skype para laboratorios de rendimiento de Business Server. Las cifras se ofrecen a título orientativo (no se han comprobado y validado todas las variaciones individuales posibles). Se han calculado los valores siguientes: 
+Cuando se especifique toda la información necesaria, la calculadora de capacidad calculará los requisitos. Las celdas amarillas muestran valores calculados para los requisitos de CPU, memoria y ancho de banda según las pruebas realizadas en los laboratorios de rendimiento de Skype empresarial Server. Las cifras se ofrecen a título orientativo (no se han comprobado y validado todas las variaciones individuales posibles). Se han calculado los valores siguientes: 
   
 - **Front-end CPU**: porcentaje de uso de la CPU si la carga completa se estaba controlando mediante un servidor front-end de las mismas especificaciones que el servidor que se usó en las pruebas (consulte la descripción al final de este artículo).
     
@@ -92,7 +92,7 @@ Cuando se especifique toda la información necesaria, la calculadora de capacida
     
 Las celdas verdes contienen recomendaciones para el modelo de uso que se ha especificado. 
   
-- **Total servidores Front-End**: el número de servidores físicos requeridos se basa en servidores dedicados que ejecuten Skype para Business Server 2015 con procesador dual, seis núcleos, con 2,260 megaciclos o Skype para Business Server 2019 con Intel Xeon E5-2673 v3, dual seis núcleos de procesador.
+- **Total de servidores front-end**: el número de servidores físicos necesarios se basa en servidores dedicados que ejecutan Skype empresarial Server 2015 con doble procesador, HEX-Core, con 2.260 megaciclos o Skype empresarial Server 2019 con Intel Xeon E5-2673 V3, dual procesador, HEX-Core.
     
     Tenga en cuenta que se recomienda habilitar el hyperthreading ya que se ha demostrado que mejora el rendimiento de los servidores compatibles con audio o vídeo.
     
@@ -112,7 +112,7 @@ En la fila situada junto a Número total de servidores front-end, también se fa
     
 ### <a name="adjusting-for-your-processors"></a>Ajustar para sus procesadores
 
-Todas las cifras de uso de CPU en la hoja de cálculo se suponen que cada Skype para Business Server 2015 server tiene un procesador dual, seis núcleos con 2,26 GHz, al menos 32 GB de memoria, y libre de unidades de disco duro 8 o más de 10.000 RPM con al menos 72 GB de espacio en disco. Para cada Skype para server Business Server 2019, todas las cifras de uso de CPU en la hoja de cálculo se suponen que cada servidor tiene un procesador dual, seis núcleos con Intel Xeon E5-2673 v3, al menos 64 GB de memoria, y unidades de disco duro 8 o más de 10.000 RPM con al menos 72 GB libre de disco s ritmo.
+Todas las cifras de uso de la CPU de la hoja de cálculo suponen que cada servidor de Skype empresarial Server 2015 tiene un procesador doble, HEX-Core con 2,26 GHz, al menos 32 GB de memoria y unidades de disco duro de 8 o más 10.000-RPM con un mínimo de 72 GB de espacio libre en disco. Para cada servidor de Skype empresarial Server 2019, todas las cifras de uso de la CPU de la hoja de cálculo suponen que cada servidor tiene un procesador doble, HEX-Core con Intel Xeon E5-2673 V3, al menos 64 GB de memoria, y 8 o más unidades de disco duro 10.000-RPM con al menos 72 GB de disco libres supera.
   
 Si los servidores tienen distintos procesadores, puede ajustar las cifras a las de su hardware.
   

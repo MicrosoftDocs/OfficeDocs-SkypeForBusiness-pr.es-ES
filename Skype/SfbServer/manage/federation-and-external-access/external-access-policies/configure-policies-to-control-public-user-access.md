@@ -8,65 +8,65 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: público (IM) conectividad de mensajería instantánea permite a los usuarios de su organización utilizar la mensajería instantánea para comunicarse con los usuarios de servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública.
-ms.openlocfilehash: 6cccef5de36b733e1af13092137bf0a35e843b4d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: ublic conectividad de mensajería instantánea (mi) permite a los usuarios de su organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores de servicios de mensajería instantánea pública.
+ms.openlocfilehash: 230c3405a9d0a551758bee63fae8f927fdc5af19
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920442"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280162"
 ---
-# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios públicos en Skype para Business Server
+# <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios públicos en Skype empresarial Server
 
-Conectividad de mensajería instantánea pública permite a los usuarios de su organización utilizar la mensajería instantánea para comunicarse con los usuarios de servicios de mensajería instantánea proporcionados por los proveedores de servicios de mensajería instantánea pública. Configurar uno o más directivas de acceso de usuarios externos para controlar si los usuarios públicos pueden colaborar con Skype interna para los usuarios de Business Server. Conectividad de mensajería instantánea pública es una función de agregado que se basa en la configuración de su implementación y los usuarios. También depende el aprovisionamiento del servicio en el proveedor de mensajería instantánea pública. 
+La conectividad de mensajería instantánea pública (mi) permite a los usuarios de la organización usar la mensajería instantánea para comunicarse con los usuarios de los servicios de mensajería instantánea proporcionados por proveedores de servicios de mensajería instantánea pública. Configure una o más directivas de acceso de usuarios externos para controlar si los usuarios públicos pueden colaborar con usuarios internos de Skype empresarial Server. La conectividad de mensajería instantánea pública es una característica agregada que se basa en la configuración de la implementación y los usuarios. También depende del suministro del servicio en el proveedor de mensajería instantánea pública. 
 
-Para controlar el acceso de usuarios públicos, puede configurar las directivas a nivel global, sitio y el nivel de usuario. Skype para la configuración de directiva de Business Server que se aplican en un nivel de directiva puede invalidar la configuración que se aplica en el nivel de directiva de otra. Skype para la prioridad de la directiva de Business Server es: directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva Global (menos influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
+Para controlar el acceso de los usuarios públicos, puede configurar directivas en el nivel global, de sitio y de usuario. La configuración de directiva de Skype empresarial Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de servidor de Skype empresarial es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
 
-En el caso de las invitaciones de mensajería instantánea, la respuesta depende del software cliente. Se acepta la solicitud a menos que los remitentes externos queden explícitamente bloqueados por una regla configurada por el usuario (es decir, la configuración en el cliente del usuario **Permitir** y las listas de **bloqueados** ). Además, las invitaciones de mensajería instantánea se pueden bloquear si un usuario decide bloquear todos los mensajes Instantáneos de los usuarios que no están en su lista **Permitir** .
+En el caso de las invitaciones de mensajería instantánea, la respuesta depende del software de cliente. La solicitud se acepta a menos que los remitentes externos se bloquean explícitamente mediante una regla configurada por el usuario (es decir, la configuración de las listas **permitir** o **bloquear** del cliente del usuario). Además, las invitaciones de mensajería instantánea se pueden bloquear si un usuario decide bloquear todos los mensajes instantáneos de usuarios que no estén **** en su lista de permitidos.
 
 
 
 > [!NOTE]  
-> Puede configurar directivas para controlar el acceso de usuarios públicos, incluso si no ha habilitado la federación para su organización. Sin embargo, las directivas que configurar entren en vigor sólo cuando tenga federación habilitada para su organización. Para obtener información detallada acerca de cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md). Además, si se especifica una directiva de usuario para controlar el acceso de usuarios públicos, la directiva se aplica sólo a los usuarios que están habilitados para Skype para Business Server y configurados para utilizar la directiva. Para obtener información detallada acerca de cómo especificar los usuarios públicos que pueden iniciar sesión en Skype para Business Server, vea [asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
+> Puede configurar directivas para controlar el acceso de usuarios públicos, incluso si no ha habilitado la Federación de su organización. Sin embargo, las directivas que configure solo estarán vigentes cuando tenga habilitada la Federación de su organización. Para obtener más información sobre cómo habilitar la Federación, consulte [habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md). Además, si especifica una directiva de usuario para controlar el acceso de los usuarios públicos, la Directiva solo se aplica a los usuarios que están habilitados para Skype empresarial Server y que se han configurado para usar la Directiva. Para obtener detalles sobre cómo especificar usuarios públicos que pueden iniciar sesión en Skype empresarial Server, consulte [asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
 
 
-Use el siguiente procedimiento para configurar una directiva para admitir el acceso a los usuarios de uno o varios proveedores de mensajería instantánea pública.
+Use el procedimiento siguiente para configurar una directiva que admita el acceso de usuarios de uno o más proveedores de mensajería instantánea pública.
 
 ## <a name="to-configure-an-external-access-policy-to-support-public-user-access"></a>Para configurar una directiva de acceso externo para admitir el acceso de usuarios públicos
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Acceso de usuarios externos**y, a continuación, haga clic en **Directiva de acceso externo**.
+3.  En la barra de navegación izquierda, haga clic en **acceso de usuarios externos**y, después, en **Directiva de acceso externo**.
 
-4.  En la página **Directiva de acceso externo** , realice una de las siguientes:
+4.  En la página **Directiva de acceso externo** , realice una de las siguientes acciones:
     
-      - Para configurar la directiva global para permitir el acceso de usuarios públicos, haga clic en la directiva global, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
+      - Para configurar la directiva global para admitir el acceso de usuarios públicos, haga clic en la directiva global, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
     
-      - Para crear una nueva directiva de sitio, haga clic en **nuevo**y, a continuación, haga clic en **Directiva de sitio**. En **Seleccionar un sitio**, haga clic en el sitio apropiado de la lista y, a continuación, haga clic en **Aceptar**.
+      - Para crear una nueva Directiva de sitio, haga clic en **nueva**y, a continuación, haga clic en **Directiva del sitio**. En **seleccionar un sitio**, haga clic en el sitio adecuado de la lista y, a continuación, haga clic en **Aceptar**.
     
-      - Para crear una nueva directiva de usuario, haga clic en **nuevo**y, a continuación, haga clic en **Directiva de usuario**. En la **Nueva directiva de acceso externo**, cree un nombre único en el campo **nombre** que indica qué usuario cubiertos por la directiva (por ejemplo, **EnablePublicUsers** para una directiva de usuario que se habilita la comunicación de los usuarios públicos).
+      - Para crear una nueva Directiva de usuario, haga clic en **nueva**y, a continuación, haga clic en **Directiva de usuario**. En **nueva Directiva de acceso externo**, cree un nombre único en el campo **nombre** que indique lo que cubre la Directiva de usuario (por ejemplo, **EnablePublicUsers** para una directiva de usuario que permita la comunicación para usuarios públicos).
     
       - Para cambiar una directiva existente, haga clic en la directiva correspondiente que aparece en la tabla, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  (Opcional) Si desea agregar o editar una descripción, especifique la información de la directiva en **Descripción**.
+5.  Faculta Si desea agregar o editar una descripción, especifique la información de la Directiva en **Descripción**.
 
 6.  Siga uno de estos pasos:
     
-      - Para habilitar el acceso de usuarios públicos para la directiva, active la casilla de verificación **Habilitar las comunicaciones con los usuarios públicos** .
+      - Para habilitar el acceso de usuarios públicos para la Directiva, active la casilla **Habilitar comunicaciones con usuarios públicos** .
     
-      - Para deshabilitar el acceso de usuarios públicos para la directiva, desactive la casilla de verificación **Habilitar las comunicaciones con los usuarios públicos** .
+      - Para deshabilitar el acceso de usuarios públicos para la Directiva, desactive la casilla **Habilitar comunicaciones con usuarios públicos** .
 
 7.  Haga clic en **Confirmar**.
 
-Para habilitar el acceso de usuarios públicos, también debe habilitar la compatibilidad para la federación en la organización. Para obtener información detallada, vea [federados de configurar directivas para controlar el acceso de usuarios de Skype para Business Server](configure-policies-to-control-federated-user-access.md).
+Para habilitar el acceso de usuarios públicos, también debe habilitar la compatibilidad con la Federación de su organización. Para obtener más información, consulte [configurar directivas para controlar el acceso de usuarios federados en Skype empresarial Server](configure-policies-to-control-federated-user-access.md).
 
-Si se trata de una directiva de usuario, también debe aplicar la directiva a los usuarios públicos que desea que puedan colaborar con los usuarios públicos. 
+Si se trata de una directiva de usuario, también debe aplicar la Directiva a los usuarios públicos que desee que puedan colaborar con los usuarios públicos. 
 
 
 ## <a name="see-also"></a>Vea también

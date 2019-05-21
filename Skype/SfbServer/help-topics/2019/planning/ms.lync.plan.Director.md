@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.Director
@@ -13,22 +13,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
 ROBOTS: NOINDEX, NOFOLLOW
-description: Un Director es un servidor que ejecuta Skype para software de comunicaciones de Business Server que se puede autenticar las solicitudes de usuario, pero no se encarga de las cuentas de usuario.
-ms.openlocfilehash: 9ba73f88ba58abd25cdbd11b2efa5129b0322cfd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Un director es un servidor que ejecuta el software de comunicaciones de Skype empresarial Server y que puede autenticar solicitudes de usuario, pero no aloja ninguna cuenta de usuario.
+ms.openlocfilehash: fa81954e59577ab15edd2a8190e556f4e8e66d47
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889503"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275916"
 ---
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  
-Un Director es un servidor que ejecuta Skype para software de comunicaciones de Business Server que se puede autenticar las solicitudes de usuario, pero no se encarga de las cuentas de usuario. 
+Un director es un servidor que ejecuta el software de comunicaciones de Skype empresarial Server y que puede autenticar solicitudes de usuario, pero no aloja ninguna cuenta de usuario. 
   
-Este rol es opcional, que decide implementar un Director en los dos escenarios siguientes:
+Este rol es opcional y debería elegir implementar un director en los siguientes dos escenarios:
   
-- Si habilita el acceso de usuarios externos mediante la implementación de los servidores perimetrales, también debe implementar un Director. En este escenario, el Director autentica a los usuarios externos y, a continuación, pasa el tráfico de sesión en los servidores internos. Cuando se usa un Director para autenticar a los usuarios externos, se liberan los servidores del grupo de servidores Front-End de la sobrecarga de realizar la autenticación de estos usuarios. También ayuda a aislar los grupos de Front-End internos de tráfico malintencionado como ataques de denegación de servicio. Si la red se desborda con el tráfico externo no válido en este tipo de ataque, este tráfico termina en el Director.
+- Si habilita el acceso de usuarios externos mediante la implementación de servidores perimetrales, también debe implementar un director. En este escenario, el director autentica a los usuarios externos y, a continuación, pasa su tráfico a los servidores internos. Cuando se usa un director para autenticar usuarios externos, libera servidores de grupo de servidores front-end de la sobrecarga de realizar la autenticación de estos usuarios. También ayuda a aislar grupos internos de aplicaciones para el usuario contra tráfico malintencionado, como ataques de denegación de servicio. Si la red se inunda con tráfico externo no válido en tal ataque, este tráfico finaliza en el director.
     
-- Si implementa varios grupos de servidores Front-End en un sitio central, mediante la adición de un Director para ese sitio puede optimizar las solicitudes de autenticación y mejorar el rendimiento. En este escenario, todas las solicitudes van primeros al Director, que enruta al grupo de servidores Front-End correcto.
+- Si implementa varios grupos front-end en un sitio central agregando un director a ese sitio, podrá optimizar las solicitudes de autenticación y mejorar el rendimiento. En este escenario, todas las solicitudes se dirigen al Director, que a su vez las enruta al grupo de servidores front-end correcto.
     
 

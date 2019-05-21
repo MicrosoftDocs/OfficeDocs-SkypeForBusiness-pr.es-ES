@@ -1,10 +1,10 @@
 ---
-title: Planear el desvío de medios en Skype para la empresa
+title: Plan de omisión de multimedia en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
-description: Las decisiones necesarias para la planeación para los medios de omisión de Skype Business Server Enterprise Voice. Incluye interoperación con el control de admisión de llamadas (CAC).
-ms.openlocfilehash: 11631fb92d8e1763bb4e7d090caf54385527c984
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Decisiones necesarias para la planificación de la omisión de medios en la voz empresarial de Skype empresarial Server. Incluye interoperación con el control de admisión de llamadas (CAC).
+ms.openlocfilehash: 9db3d9aec6af0cccec951faa3b103d7660a6944b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924160"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276708"
 ---
-# <a name="plan-for-media-bypass-in-skype-for-business"></a>Planear el desvío de medios en Skype para la empresa
+# <a name="plan-for-media-bypass-in-skype-for-business"></a>Plan de omisión de multimedia en Skype empresarial
 
-Las decisiones necesarias para la planeación para los medios de omisión de Skype Business Server Enterprise Voice. Incluye interoperación con el control de admisión de llamadas (CAC).
+Decisiones necesarias para la planificación de la omisión de medios en la voz empresarial de Skype empresarial Server. Incluye interoperación con el control de admisión de llamadas (CAC).
 
-Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación.
+La omisión de elementos multimedia hace referencia a quitar el servidor de mediación de la ruta multimedia siempre que sea posible para las llamadas cuya señalización atraviese el servidor de mediación.
 
-La omisión de medios puede mejorar la calidad de la voz al reducir la latencia, la conversión innecesaria, la posibilidad de la pérdida de paquetes y la cantidad de puntos de errores potenciales. Puede mejorar la escalabilidad debido a que la eliminación de medios de procesamiento para las llamadas omitidas reduce la carga en el servidor de mediación. Esta reducción de carga complementa la capacidad del servidor de mediación para controlar varias puertas de enlace.
+La omisión de medios puede mejorar la calidad de la voz al reducir la latencia, la conversión innecesaria, la posibilidad de la pérdida de paquetes y la cantidad de puntos de errores potenciales. La escalabilidad puede mejorarse, ya que la eliminación del procesamiento de medios para llamadas omitidas reduce la carga en el servidor de mediación. Esta reducción de carga complementa la capacidad del servidor de mediación para controlar varias puertas de enlace.
 
- Cuando una sucursal sin un servidor de mediación está conectada a un sitio central por uno o más vínculos WAN con ancho de banda restringido, el desvío de medios reduce el requisito de ancho de banda permitiendo medios desde un cliente en un sitio de sucursal a flujo directamente a su puerta de enlace local sin en primer lugar tener que fluyen a través de la WAN vincular a un servidor de mediación en el sitio central y realizar una copia.
+ Cuando un sitio de sucursal sin un servidor de mediación se conecta a un sitio central mediante uno o varios vínculos WAN con ancho de banda restringido, la omisión de medios disminuye el requisito de ancho de banda permitiendo que los medios de un cliente de un sitio de sucursal fluyan directamente a su puerta de enlace local sin en primer lugar, debe transmitirse a través del vínculo WAN a un servidor de mediación del sitio central y viceversa.
 
-Al evitar al procesamiento de medios en el servidor de mediación, el desvío de medios puede reducir también el número de servidores de mediación que necesita una infraestructura de Enterprise Voice. Como regla general, habilita la omisión de medios siempre que sea posible.
+Al aliviar el servidor de mediación del procesamiento multimedia, la omisión de medios también puede reducir el número de servidores de mediación que requiere una infraestructura de telefonía IP empresarial. Como regla general, habilita la omisión de medios siempre que sea posible.
 
 La siguiente figura muestra las rutas de señalización y los medios básicos en las topologías con omisión de medios y sin ella.
 
@@ -39,13 +39,13 @@ La siguiente figura muestra las rutas de señalización y los medios básicos en
 
 ![Aplicación de la conexión de desvío de medios del control de admisión de llamadas de voz](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-Desvío de medios es útil cuando desea minimizar el número de servidores de mediación implementados. Normalmente, un grupo de servidores de mediación se implementará en un sitio central y controlará las puertas de enlace en sitios de sucursal. Habilitar la omisión de medios permite que las llamadas de la red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Skype para rutas de llamadas salientes de Business Server y las directivas de Enterprise Voice debe estar correctamente configurado para que las llamadas de RTC de clientes en un sitio de sucursal se enrutan a la puerta de enlace apropiada.
+La omisión de elementos multimedia es útil cuando desea minimizar el número de servidores de mediación implementados. Normalmente, un grupo de servidores de mediación se implementará en un sitio central y controlará las puertas de enlace en los sitios de sucursales. Habilitar la omisión de medios permite que las llamadas de la red telefónica conmutada (RTC) desde clientes en sitios de sucursal se dirijan directamente a través de las puertas de enlace a esos sitios. Las rutas de llamadas salientes de Skype empresarial Server y las directivas de voz empresarial deben configurarse correctamente para que las llamadas RTC de clientes de un sitio de sucursal se enruten a la puerta de enlace adecuada.
 
 Las redes Wi-Fi suelen tener más pérdidas de paquetes que las redes por cable. En general, las puertas de enlace no pueden asumir la recuperación de la pérdida de paquetes. Por lo tanto, antes de decidir si necesitas habilitar la omisión de medios para una subred inalámbrica, te recomendamos evaluar la calidad de una red Wi-Fi. La reducción de latencia presenta una contrapartida respecto a la recuperación de la pérdida de paquetes que también necesitas tener en cuenta. RTAudio, un códec disponible para llamadas que no omiten el servidor de mediación, es más apropiado para la gestión de la pérdida de paquetes.
 
-## <a name="planning-your-media-bypass-deployment"></a>Planear la implementación de desvío de medios
+## <a name="planning-your-media-bypass-deployment"></a>Planear la implementación de omisión de medios
 
-Una vez la estructura de Enterprise Voice, planear el desvío de medios es sencillo.
+Una vez que la estructura de telefonía empresarial está en vigor, la planeación de la omisión de elementos multimedia es sencilla.
 
 - Si tienes una topología centralizada sin vínculos WAN a sitios de sucursal, puedes habilitar la omisión de medios global porque no se necesita control de ajustes.
 
@@ -59,11 +59,11 @@ Una vez la estructura de Enterprise Voice, planear el desvío de medios es senci
 
 Al habilitar la omisión de medios, se genera automáticamente un identificador de omisión único para una región de red y para todos los sitios de red que no tengan restricciones de ancho de banda en dicha región. A los sitios con restricciones de ancho de banda dentro de la región y a los sitios conectados a la región a través de vínculos WAN con restricciones de ancho de banda se les asignan sus propios identificadores de omisión únicos.
 
-Cuando un usuario realiza una llamada a la RTC, el servidor de mediación se compara el identificador de desvío de la subred del cliente con el identificador de desvío de la subred de puerta de enlace. Si los dos identificadores de omisión coinciden, se usará la omisión de medios para la llamada. Si el desvío de identificadores no coinciden, debe flujo multimedia para la llamada a través del servidor de mediación.
+Cuando un usuario realiza una llamada a la RTC, el servidor de mediación compara el identificador de omisión de la subred del cliente con el identificador de omisión de la subred de la puerta de enlace. Si los dos identificadores de omisión coinciden, se usará la omisión de medios para la llamada. Si los identificadores de omisión no coinciden, el medio para la llamada debe fluir por el servidor de mediación.
 
-Cuando un usuario recibe una llamada desde la RTC, el cliente del usuario compara su identificador de desvío a la de la puerta de enlace de RTC. Si los dos omitir la coincidencia de los identificadores, se transmite directamente desde la puerta de enlace para el cliente, sin pasar por el servidor de mediación.
+Cuando un usuario recibe una llamada de la RTC, el cliente del usuario compara su identificador de omisión con el de la puerta de enlace PSTN. Si los dos identificadores de omisión coinciden, los medios fluyen directamente de la puerta de enlace al cliente, omitiendo el servidor de mediación.
 
-Sólo Lync 2010 o más reciente los clientes y dispositivos admiten interacciones de desvío de medios con un servidor de mediación.
+Solo los clientes y dispositivos de Lync 2010 o versiones posteriores admiten interacciones de omisión de contenido multimedia con un servidor de mediación.
 
 > [!IMPORTANT]
 > Además de habilitar la omisión de medios de manera global, necesitas habilitar la omisión de medios en cada tronco RTC de forma individual. Si la omisión se habilita globalmente, pero no se habilita en un determinado tronco RTC, no se invocará la omisión de medios en ninguna de las llamadas en las que intervenga ese tronco RTC. Asimismo, si la omisión de medios se define en **Usar información de región y sitio**, todas las subredes que se pueden redirigir necesitan asociarse con los sitios en los que se ubican. Si en un sitio hay subredes que se pueden redirigir en las que no se desea habilitar la omisión, dichas subredes necesitan agruparse en un sitio nuevo antes de habilitar la omisión de medios. Esta acción asegurará que las subredes que no se pueden redirigir tengan asignado un identificador de omisión diferente.
@@ -90,7 +90,7 @@ El servicio de control de admisión de llamadas (CAC) y la omisión de medios fu
 
 - Tanto el CAC como la omisión de medios están habilitados. La omisión de medios necesita estar configurada con **Usar información de sitio y región**. La información de sitio y región es la misma que la usada para el CAC.
 
-    Si habilita el CAC, no puede seleccionar **Siempre el desvío**y viceversa, debido a que las dos configuraciones son mutuamente excluyentes. Es decir, sólo uno de los dos se aplicará a cualquier llamada de RTC determinado. En primer lugar, se realiza una comprobación para determinar si el desvío de medios se aplica a la llamada. Si lo hace, no se usa el CAC. Esto tiene sentido, porque si tiene derecho para el desvío de una llamada, es por definición utilizando una conexión donde CAC no es necesario. Si el desvío de no se puede aplicar a la llamada (es decir, si el desvío del cliente y la puerta de enlace no coinciden los identificadores), a continuación, se aplica el CAC a la llamada.
+    Si habilita CAC, no puede seleccionar **omitir siempre**y viceversa, porque las dos configuraciones se excluyen mutuamente. Es decir, solo una de las dos se aplicará a una llamada RTC. En primer lugar, se realiza una comprobación para determinar si se aplica la omisión de elementos multimedia a la llamada. Si es así, no se utiliza CAC. Esto tiene sentido, ya que si una llamada es apta para la omisión, se realiza por definición mediante una conexión en la que no es necesario CAC. Si no se puede aplicar el omisión a la llamada (es decir, si los identificadores de omisión del cliente y el gateway no coinciden), se aplica CAC a la llamada.
 
 - CAC no habilitado y la omisión de medios configurada con **Omitir siempre**.
 
@@ -98,7 +98,7 @@ El servicio de control de admisión de llamadas (CAC) y la omisión de medios fu
 
 - CAC no habilitado y la omisión de medios configurada con **Usar información de sitio y región**.
 
-    Cuando **Usar información de sitio y región** está habilitado, la determinación de omisión funciona básicamente del mismo modo, independientemente de si el CAC está habilitado o no. Es decir, para cualquier llamada de RTC determinada, la subred del cliente está asignada a un sitio concreto y se extrae el identificador de desvío para esa subred. De forma similar, subred de la puerta de enlace se asigna a un sitio determinado, y se extrae el identificador de desvío para esa subred. La omisión de la llamada solo se producirá si los dos identificadores de omisión son idénticos. Si no es así, la omisión de medios no tendrá lugar.
+    Cuando **Usar información de sitio y región** está habilitado, la determinación de omisión funciona básicamente del mismo modo, independientemente de si el CAC está habilitado o no. Es decir, para cualquier llamada RTC, la subred del cliente se asigna a un sitio en particular y se extrae el identificador de derivación de esa subred. De forma similar, la subred de la puerta de enlace se asigna a un sitio en particular y se extrae el identificador de derivación de esa subred. La omisión de la llamada solo se producirá si los dos identificadores de omisión son idénticos. Si no es así, la omisión de medios no tendrá lugar.
 
     Incluso aunque el CAC esté deshabilitado globalmente, es necesario definir la directiva de ancho de banda para cada uno de los sitios y vínculos si deseas usar una configuración de sitio y región para controlar la decisión de omisión. El valor real de la restricción de ancho de banda o su modalidad no importa. El objetivo final es hacer que el sistema calcule automáticamente diferentes identificadores de omisión para asociarse con diferentes configuraciones regionales que no tienen una buena conexión. La definición de una restricción de ancho de banda significa por definición que un vínculo no tiene una buena conexión.
 
@@ -106,14 +106,14 @@ El servicio de control de admisión de llamadas (CAC) y la omisión de medios fu
 
 ## <a name="technical-requirements"></a>Requisitos técnicos
 
-Para cada llamada a la RTC, el servidor de mediación determina si se pueden enviar medios desde la Skype de extremo de negocio de origen directamente a un elemento del mismo nivel de servidor de mediación sin cruzar el servidor de mediación. El componente del mismo nivel puede ser una puerta de enlace RTC, una IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet (ITSP) asociado con el tronco entre el servidor de mediación hacia el que se ha redirigido la llamada.
+Para cada llamada a la RTC, el servidor de mediación determina si los medios del extremo de origen de Skype empresarial se pueden enviar directamente a un servidor de mediación del mismo nivel sin atravesar el servidor de mediación. El componente del mismo nivel puede ser una puerta de enlace RTC, una IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía por Internet (ITSP) asociado con el tronco entre el servidor de mediación hacia el que se ha redirigido la llamada.
 
 Puede emplearse la omisión de medios cuando se reúnen los siguientes requisitos:
 
-- Un par de servidor de mediación debe admitir las capacidades necesarias para el desvío de medios, el más importantes que se va a la capacidad para manejar varias respuestas bifurcadas (conocidas como "de diálogos iniciales"). Ponte en contacto con el fabricante de tu puerta de enlace o PBX, o con tu ITSP, para obtener el valor de la cantidad máxima de diálogos iniciales que la puerta de enlace, la PBX o el SBC pueden aceptar.
+- Un servidor de mediación debe admitir las capacidades necesarias para la omisión de elementos multimedia, la más importante es la capacidad de controlar varias respuestas bifurcadas (conocidas como "cuadros de diálogo temprano"). Ponte en contacto con el fabricante de tu puerta de enlace o PBX, o con tu ITSP, para obtener el valor de la cantidad máxima de diálogos iniciales que la puerta de enlace, la PBX o el SBC pueden aceptar.
 
-- El par de servidor de mediación debe aceptar el tráfico de medios directamente desde Skype para los extremos de negocio. Muchas ITSPs permitir que sus SBC recibir tráfico sólo desde el servidor de mediación. Póngase en contacto con el protocolo para determinar si su SBC acepta el tráfico de medios directamente desde Skype para los extremos de negocio.
+- El servidor de mediación del mismo nivel debe aceptar el tráfico de medios directamente desde los puntos de conexión de Skype empresarial. Muchas ITSPs permiten que su SBC reciba únicamente el tráfico del servidor de mediación. Póngase en contacto con su ITSP para determinar si su SBC acepta tráfico de medios directamente desde los puntos de conexión de Skype empresarial.
 
-- Skype para clientes empresariales y un servidor de mediación par debe estar bien conectado, lo que significa que se encuentran ya sea en la misma región de red o en la red de sitios que se conectan a la región a través de WAN vínculos que no tienen restricciones de ancho de banda
+- Los clientes de Skype empresarial y un servidor de mediación deben estar conectados correctamente, lo que significa que se encuentran en la misma región de red o en sitios de red que se conectan a la región a través de vínculos WAN que no tienen restricciones de ancho de banda
 
 

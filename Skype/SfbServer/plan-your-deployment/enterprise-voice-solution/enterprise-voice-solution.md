@@ -1,10 +1,10 @@
 ---
-title: Planear la solución de Enterprise Voice en Skype para Business Server
+title: Planear la solución de voz empresarial en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,43 +13,43 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
-description: 'Resumen: Obtenga información sobre las opciones para la planeación de una solución de comunicaciones de voz y unificada en Skype para Business Server.'
-ms.openlocfilehash: 100fbd2e3f8f51e3c9f5ad8cfd48951b664dabd3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre las opciones para planear una solución de voz y comunicaciones unificada en Skype empresarial Server.'
+ms.openlocfilehash: 7d9df9b8b5997a08a04ddcc802914b0dc01a23c0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924384"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276876"
 ---
-# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución de Enterprise Voice en Skype para Business Server
+# <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planear la solución de voz empresarial en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre las opciones para la planeación de una solución de comunicaciones de voz y unificada en Skype para Business Server.
+**Resumen:** Obtenga más información sobre las opciones para planear una solución de comunicaciones y voz unificada en Skype empresarial Server.
   
-Skype para Business Server ofrece dos local opciones de telefonía IP empresarial: Enterprise Voice y llamar vía trabajo — le permite integrar el sistema de teléfono de la organización con su Skype para la implementación de servidor empresarial, realizar para un verdadero de comunicaciones unificadas solución. Ambas opciones permiten a los usuarios usar su Skype para clientes empresariales para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de la organización.
+Skype empresarial Server ofrece dos opciones de telefonía a empresas locales: voz y llamadas empresariales, para que usted integre el sistema telefónico de su organización con su implementación de Skype empresarial Server, lo que permite una auténtica comunicación unificada. Luci. Ambas opciones permiten a los usuarios usar su cliente de Skype empresarial para iniciar llamadas de voz con otros usuarios, tanto dentro como fuera de su organización.
   
-También puede aprovechar las ventajas de servicios de PBX de nube de Microsoft, incluidos los servicios de PBX y llamada de RTC, mediante la conexión de la infraestructura de telefonía local a los servicios proporcionados por Skype para profesionales en línea. Para obtener más información, vea [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
+También puede aprovechar los servicios de PBX en la nube de Microsoft, incluidos los servicios PBX y las llamadas RTC, mediante la conexión de su infraestructura de telefonía local con los servicios proporcionados por Skype empresarial online. Para obtener más información, vea [planear el sistema telefónico en la solución de Office 365 (PBX en la nube)](../../skype-for-business-hybrid-solutions/plan-your-phone-system-cloud-pbx-solution/plan-your-phone-system-cloud-pbx-solution.md).
   
-También puede utilizar Enterprise Voice y llamar vía trabajo juntos.
+También puedes usar la telefonía IP empresarial y la llamada a través del trabajo en conjunto.
   
-- La telefonía IP empresarial es la oferta de voz más completa. Es una solución de voz sobre IP (VoIP) de software que brinda un conjunto de características muy completo, que incluye la integración enriquecida con Exchange y Outlook, así como también muchas potentes características, como los grupos de respuesta, el estacionamiento de llamadas, las llamadas de equipo, la respuesta de llamadas en grupo y el soporte para la emergencia E9-1-1 mejorado. Con Enterprise Voice, los usuarios utilizan un dispositivo de audio como unos auriculares con su equipo, o un teléfono habilitado para VoIP, en lugar de una RTC tradicional o teléfono PBX.
+- La telefonía IP empresarial es la oferta de voz más completa. Es una solución de voz sobre IP (VoIP) de software que brinda un conjunto de características muy completo, que incluye la integración enriquecida con Exchange y Outlook, así como también muchas potentes características, como los grupos de respuesta, el estacionamiento de llamadas, las llamadas de equipo, la respuesta de llamadas en grupo y el soporte para la emergencia E9-1-1 mejorado. Con la telefonía IP empresarial, los usuarios usan un dispositivo de audio, como los auriculares con micrófono o un teléfono con VoIP, en lugar de un teléfono tradicional RTC o PBX.
     
-- Llamar vía trabajo ofrece una forma de integrar su Skype para soluciones de negocio con los sistemas de teléfono PBX existentes. Hacer clic en un usuario habilitado para llamar vía trabajo en Skype para la empresa llamar a otro usuario, ya sea dentro de la implementación o un usuario externo. La llamada se completa al utilizar el teléfono PBX del usuario. Además, estos usuarios pueden haga clic en Skype para la empresa para unirse a conferencias.
+- La llamada a través del trabajo le ofrece una manera de integrar su solución de Skype empresarial con sus sistemas telefónicos PBX existentes. Un usuario habilitado para la llamada a través del trabajo puede hacer clic en Skype empresarial para llamar a otro usuario, ya sea dentro de la implementación o de un usuario externo. La llamada se completa al utilizar el teléfono PBX del usuario. Además, estos usuarios pueden hacer clic en Skype empresarial para unirse a conferencias.
     
-    Implementación de llamar vía trabajo, también es una ventaja para los usuarios que todavía tienen teléfonos PBX, pero se va a la transición a Enterprise Voice, ya que permite a estos usuarios para que se está utilizando su Skype para clientes empresariales para controlar sus llamadas telefónicas.
+    La implementación de llamadas a través del trabajo también es una ventaja para los usuarios que aún tienen teléfonos PBX, pero que se están transformando en telefonía IP empresarial, ya que permite a estos usuarios usar su cliente de Skype empresarial para controlar sus llamadas telefónicas.
     
-     Llamar vía trabajo ofrece un conjunto más limitado de características de voz thanEnterprise voz. Por ejemplo, no admite la delegación, llamada de equipo, grupo de respuesta o E9-1-1 mejorado.
+     Llamadas a través del trabajo ofrece un conjunto más limitado de características de voz thanEnterprise voz. Por ejemplo, no admite la delegación, la llamada de equipo, el grupo de respuesta ni E9-1-1.
     
-Por supuesto, puede tener algunos de los usuarios habilitados para Enterprise Voice, mientras que otros usuarios están utilizando teléfonos PBX. Además, mientras que la transición a una solución completa de Enterprise Voice, puede habilitar a los usuarios que todavía tienen teléfonos PBX para Enterprise Voice. Estos usuarios pueden usar su teléfono PBX mientras que a su escritorio y también usar Enterprise Voice para realizar o recibir llamadas con los dispositivos de VoIP mientras que en otras ubicaciones. Si estos usuarios están habilitados para llamar vía trabajo, su Skype para clientes empresariales pueden utilizar para controlar su teléfono PBX mientras que a su escritorio.
+Por supuesto, puede tener algunos usuarios habilitados para telefonía IP empresarial mientras otros usuarios usan teléfonos PBX. Además, mientras pasas a una solución de voz empresarial completa, puedes habilitar a los usuarios que todavía tienen teléfonos PBX para telefonía IP empresarial. Estos usuarios pueden usar su teléfono PBX mientras se encuentra en su escritorio y también utilizan la telefonía IP empresarial para realizar o recibir llamadas usando dispositivos VoIP en otras ubicaciones. Si estos usuarios están habilitados para llamar por trabajo, pueden usar su cliente de Skype empresarial para controlar el teléfono PBX mientras se encuentra en su escritorio.
   
 > [!NOTE]
-> Control remoto de llamadas era una característica ofrecida en versiones anteriores de Lync Server, lo que permite a los usuarios utilizar su Skype para cliente de negocio para realizar y recibir llamadas telefónicas en sus teléfonos PBX. Para los usuarios no se admite el control remoto de llamadas hospedados en Skype para servidores Business Server, pero se admite para los usuarios con Skype para clientes empresariales que todavía están hospedados en servidores que ejecutan Lync Server 2013. 
+> El control remoto de llamadas era una característica que se ofrecía en versiones anteriores de Lync Server, lo que permite a los usuarios usar su cliente de Skype empresarial para realizar y recibir llamadas telefónicas en sus teléfonos PBX. El control remoto de llamadas no es compatible con los usuarios alojados en servidores de Skype empresarial, pero es compatible con los usuarios de Skype empresarial que siguen alojados en servidores que ejecutan Lync Server 2013. 
   
 ## <a name="see-also"></a>Vea también
 
 
-[Planeación de Enterprise Voice en Skype para Business Server](enterprise-voice.md)
+[Planear la telefonía IP empresarial en Skype empresarial Server](enterprise-voice.md)
   
-[Planeación de la llamada vía trabajo en Skype para Business Server](call-via-work.md)
+[Plan de llamadas por trabajo en Skype empresarial Server](call-via-work.md)
   
-[Plan para el control remoto de llamadas en Skype para la empresa](remote-call-control.md)
+[Planear el control remoto de llamadas en Skype empresarial](remote-call-control.md)
 

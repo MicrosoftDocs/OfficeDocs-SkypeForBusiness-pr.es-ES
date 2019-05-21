@@ -1,10 +1,10 @@
 ---
-title: Planeación de varios números de emergencias en Skype para Business Server
+title: Planear varios números de emergencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,98 +13,98 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Lea este tema para obtener información sobre cómo planear para varios números de emergencias en Skype Business Server.
-ms.openlocfilehash: f44c8397bb03c014a51ffd3b2bbc30e64b3f2ebe
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lea este tema para obtener información sobre cómo planear varios números de emergencia en Skype empresarial Server.
+ms.openlocfilehash: 43214e42e4fd998aef673ad8d0fbd57ec2d3b498
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919349"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276848"
 ---
-# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planeación de varios números de emergencias en Skype para Business Server
+# <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planear varios números de emergencia en Skype empresarial Server
  
-Lea este tema para obtener información sobre cómo planear para varios números de emergencias en Skype Business Server.
+Lea este tema para obtener información sobre cómo planear varios números de emergencia en Skype empresarial Server.
   
-Skype para Business Server ahora admite la configuración de varios números de emergencias para un cliente. Varios números de emergencia es una característica nueva que se introdujo en el de 2016 junio actualización acumulativa. Mientras que los Estados Unidos tiene un único número de emergencia, 911, muchos países admiten varios números de emergencias. El Reino Unido, por ejemplo, admite 999, el número de emergencia específico para el Reino Unido y 112, el número de emergencia para la Unión Europea. 
+Skype empresarial Server ahora es compatible con la configuración de varios números de emergencia para un cliente. Varios números de emergencia es una nueva característica introducida en la actualización acumulativa de 2016 de junio. Mientras que Estados Unidos tiene un único número de emergencia, 911, muchos países admiten varios números de emergencia. Por ejemplo, el Reino Unido admite 999, el número de emergencia específico para el Reino Unido y 112, el número de emergencia de la Unión Europea. 
   
-Esta característica también es útil para los proveedores de atención médica dentro de Estados Unidos que desean tener compatibilidad con movilidad para varios números de emergencia código azul.
+Esta característica también es útil para proveedores de atención de la salud dentro de los Estados Unidos que deseen tener soporte de itinerancia para números de emergencia de código azul.
   
-## <a name="multiple-emergency-numbers-and-location-policies"></a>Varios números de emergencias y las directivas de ubicación
+## <a name="multiple-emergency-numbers-and-location-policies"></a>Varios números de emergencia y políticas de ubicación
 
-Configurar la llamada de emergencia mediante la creación de la ubicación de las directivas que definen las llamadas de emergencia cómo se implementarán. Usar la directiva de ubicación para definir qué número constituye una llamada de emergencia, por ejemplo, 911 en los Estados Unidos; 999 y 112 en el Reino Unido. La directiva de ubicación determina si un usuario está habilitado para llamadas de emergencia y, si es así, ¿qué es el comportamiento de una llamada de emergencia. También puede definir si se debe notificar automáticamente seguridad corporativa y cómo se debe enrutar la llamada.
+Para configurar las llamadas de emergencia, puede crear directivas de ubicación que definan cómo se implementarán las llamadas de emergencia. Usted usa la política de ubicación para definir qué número constituye una llamada de emergencia, por ejemplo, 911 en los Estados Unidos; 999 y 112 en el Reino Unido. La Directiva de ubicación determina si un usuario está habilitado para realizar llamadas de emergencia y, si es así, cuál es el comportamiento de una llamada de emergencia. También puede definir si se debe notificar automáticamente la seguridad corporativa y cómo debe dirigirse la llamada.
   
-Para obtener más información sobre cómo definir y modificar una directiva de ubicación, vea [Planear las directivas de ubicación para Skype para Business Server](location-policies.md) y [crear directivas de ubicación en Skype para Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). En estos temas se describen los conceptos acerca de las directivas de ubicación; Sin embargo, debe seguir las instrucciones de [configuración de varios números de emergencias en Skype para la empresa](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar varios números de emergencias.
+Para obtener más información sobre cómo definir y modificar una directiva de ubicación, consulte [planificar directivas de ubicación para Skype empresarial Server](location-policies.md) y [crear directivas de ubicación en Skype empresarial Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). Estos temas describen conceptos acerca de las directivas de ubicación; sin embargo, debe seguir las instrucciones de [configurar varios números de emergencia en Skype empresarial](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) para configurar varios números de emergencia.
   
-Al planear para varios números de emergencias, tenga en cuenta lo siguiente:
+Cuando planee varios números de emergencia, tenga en cuenta lo siguiente:
   
-- Con la de 2016 junio actualización acumulativa, puede definir hasta 5 números de emergencias para una directiva de ubicación determinada. Con la noviembre de 2016 actualización acumulativa, este número aumenta hasta 100.
+- Con la actualización acumulativa de junio de 2016, puedes definir hasta 5 números de emergencia para una política de ubicación determinada. Con la actualización acumulativa de noviembre de 2016, este número aumenta a 100.
     
     > [!NOTE]
-    > Si aún no ha actualizado a la noviembre de 2016 actualización acumulativa, vea [actualizaciones de Skype para Business Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Si aún no ha actualizado a la actualización acumulativa de noviembre de 2016, consulte [actualizaciones de Skype empresarial Server 2015](https://support.microsoft.com/en-us/help/3061064/updates-for-skype-for-business-server-2015). 
   
-- Para cada número de emergencia, puede especificar cero o más máscaras de marcado de emergencia, que son exclusivas de una directiva de ubicación determinada.
+- Para cada número de emergencia, puedes especificar cero o más máscaras de marcado de emergencia, que son exclusivas de una política de ubicación determinada.
     
-    Una máscara de acceso telefónico es un número que se va a traducir en el valor del valor del número marcado de emergencia cuando se marca. Por ejemplo, suponga escribe un valor de 212 en este campo y el campo número de marcado de emergencia tiene un valor de 911. Cuando un usuario marca 212, el número se traducirá a 911. Esto permite que los números de emergencias alternativos se debe marcar y seguir teniendo la llamada llegar a los servicios de emergencia (por ejemplo, si alguien de un país o región con un número diferente de emergencia intenta marcar que país o región del número en vez del número de la país o región que se encuentran actualmente en). Puede definir varias máscaras de marcado de emergencia, separe los valores con punto y coma. Por ejemplo, 212; 414. El límite de cadena para una máscara de acceso telefónico es de 100 caracteres. Cada carácter debe ser un dígito de 0 a 9.
+    Una máscara de marcado es un número que desea traducir en el valor del valor de número de marca de emergencia cuando se marca. Por ejemplo, supongamos que escribe un valor de 212 en este campo y el campo número de marca de emergencia tiene un valor de 911. Cuando un usuario marca 212, el número se convierte en 911. Esto permite que se marquen números de emergencia alternativos y siga haciendo que las llamadas lleguen a servicios de emergencia (por ejemplo, si alguien de un país o región con un número de emergencia diferente intenta marcar el número de ese país o región en lugar del número de la país o región en el que se encuentran actualmente). Puede definir varias máscaras de marcado de emergencia si separa los valores con signos de punto y coma. Por ejemplo, 212; 414. El límite de cadenas para una máscara de marcado es de 100 caracteres. Cada carácter debe ser un dígito del 0 al 9.
     
-- Cada directiva de ubicación tiene un uso de único telefónica conmutada (RTC) que se utiliza para determinar qué ruta de voz se usa para enrutar las llamadas de emergencia desde clientes que usen esta directiva. El uso puede tener una ruta única por número de emergencia.
+- Cada política de ubicación tiene un uso de una sola red telefónica conmutada (RTC) que se usa para determinar qué ruta de voz se usa para enrutar llamadas de emergencia de clientes que usen esta Directiva. El uso puede tener una ruta única por número de emergencia.
     
-- Si tiene una directiva de ubicación los parámetros EmergencyNumbers y DialString definidos tanto el cliente es compatible con varios números de emergencias, a continuación, la emergencia número tiene prioridad. Si el cliente no es compatible con varios números de emergencias, a continuación, se utiliza la cadena de marcado de emergencia.
+- Si una directiva de ubicación tiene definidos los parámetros EmergencyNumbers y DialString, y el cliente admite varios números de emergencia, tendrá prioridad el número de emergencia. Si el cliente no admite varios números de emergencia, se usa la cadena de marcado de emergencia.
     
-- Para obtener información acerca de qué Skype para empresas y Lync clientes de admitir la recepción de varios números de emergencias, máscaras y usos de telefónica conmutada (RTC) de red de marcado, consulte [Client admitir](multiple-emergency-numbers.md#BKMK_Clients).
+- Para obtener información sobre qué clientes de Skype empresarial y de Lync admiten la recepción de varios números de emergencia, máscaras de marcado y usos de la red telefónica conmutada (RTC), consulte [compatibilidad con clientes](multiple-emergency-numbers.md#BKMK_Clients).
     
 > [!NOTE]
-> No se pueden configurar varios números de emergencias mediante el Skype para el Panel de Control. Debe usar PowerShell para configurar varios números de emergencias. 
+> No puedes configurar varios números de emergencia con el panel de control de Skype para empresas. Debe usar PowerShell para configurar varios números de emergencia. 
   
-Antes de configurar varios números de emergencias, tenga en cuenta lo siguiente:
+Antes de configurar varios números de emergencia, tenga en cuenta lo siguiente:
   
-- Para configurar varios números de emergencias, debe usar el cmdlet New-CsEmergencyNumber, y debe definir las directivas de ubicación que admiten más de un número de emergencia al especificar el parámetro EmergencyNumbers con el [New-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) y Cmdlets [Set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
+- Para configurar varios números de emergencia, debe usar el cmdlet New-CsEmergencyNumber y debe definir directivas de ubicación que admitan más de un número de emergencia especificando el parámetro EmergencyNumbers con el [nuevo-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/new-cslocationpolicy?view=skype-ps) y Cmdlet [set-CsLocationPolicy](https://docs.microsoft.com/powershell/module/skype/set-cslocationpolicy?view=skype-ps) .
     
-- Si ha definido números de existentes con el cmdlet Set-CsLocationPolicy o New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask, los valores especificados con la EmergencyNumbers parámetro tendrá prioridad sobre el antiguo valores. Es decir, se omitirán los valores de los parámetros EmergencyDialString y EmergencyDialMask.
+- Si tiene números definidos con el cmdlet Set-CsLocationPolicy o New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask, los valores especificados con el parámetro EmergencyNumbers tendrán prioridad sobre el antiguo los. Es decir, se ignorarán los valores de los parámetros EmergencyDialString y EmergencyDialMask.
     
-- Si ha definido mediante el Set-CsLocationPolicy o el cmdlet New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask, *y no configure nuevos números de emergencias* , los números existentes se seguirán los números existentes se puede usar.
+- Si tiene números definidos con el cmdlet Set-CsLocationPolicy o New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask, *y no configura nuevos números de emergencia* , los números existentes continuarán usarse.
     
-- Para que funcione la característica números de emergencia varios, las versiones del cliente que está ejecutando deben ser capaces de admitir la nueva característica. Los clientes más antiguos seguirán usando los valores anteriores especificados por los cmdlets Set-CsLocationPolicy o New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask. 
+- Para que la característica de varios números de emergencia funcione, las versiones de cliente que esté ejecutando deben poder admitir la nueva característica. Los clientes más antiguos seguirán usando los valores antiguos especificados por los cmdlets Set-CsLocationPolicy o New-CsLocationPolicy con los parámetros EmergencyDialString y EmergencyDialMask. 
     
-- Si los usuarios estará marcando un número que coincida con la cadena de marcado, no se requiere ninguna máscara de acceso telefónico. Por ejemplo, si marca el número de un usuario es 911, a continuación, la cadena de marcado es 911 y ninguna máscara es obligatorio. 
+- Si los usuarios van a marcar un número que coincide con la cadena de marcación, no es necesaria ninguna máscara de marcado. Por ejemplo, si el número al que un usuario marca es 911, la cadena de marcado es 911 y no se necesita ninguna máscara. 
     
-Para obtener más información acerca de cómo configurar varios números de emergencias, consulte [Configurar números de emergencia varios de Skype para la empresa](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
+Para obtener más información sobre cómo configurar varios números de emergencia, consulte [configurar varios números de emergencia en Skype empresarial](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
-La siguiente tabla muestra las directivas de ubicación de ejemplo (para el ejemplo, se muestran los atributos no todas):
+En la tabla siguiente se muestran las directivas de ubicación de ejemplo (para los fines del ejemplo, no se muestran todos los atributos):
   
 
-|**Nombre de la directiva de ubicación**|**E911 habilitado**|**Cadena de marcado de emergencia**|**Máscara de acceso telefónico**|**Números de emergencia**|**Uso de RTC**|**Ubicación obligatoria**|
+|**Nombre de la Directiva de ubicación**|**E911 habilitado**|**Cadena de marcado de emergencia**|**Máscara de marcado**|**Números de emergencia**|**Uso de RTC**|**Ubicación requerida**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
 |Estados Unidos  <br/> |Sí  <br/> |911  <br/> | 112; 999 <br/> ||USEmergency  <br/> |Sí  <br/> |
-|Hospital de Estados Unidos  <br/> |Sí  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sí  <br/> |
-|Londres  <br/> |Sí  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112 911; 117; 118  <br/> |GBEmergency  <br/> |No  <br/> |
+|Estados Unidos-Hospital  <br/> |Sí  <br/> |911  <br/> |450  <br/> |911  <br/> 450  <br/> |SeattleEmergency  <br/> |Sí  <br/> |
+|Londres  <br/> |Sí  <br/> |999  <br/> |144  <br/> |999-144  <br/> 112-911; 117; 118  <br/> |GBEmergency  <br/> |No  <br/> |
 |India  <br/> |Sí  <br/> |||100-911  <br/> 101  <br/> 102  <br/> |IndiaEmergency  <br/> |No  <br/> |
    
- **Estados Unidos** : no hay ningún requisito para varios números de emergencias. En los Estados Unidos, utilice las configuraciones de cadena de marcado de emergencia y máscara de acceso telefónico antiguo.
+ **Estados Unidos** : no hay necesidad de varios números de emergencia. En los Estados Unidos, se usan las antiguas cadenas de marcado de emergencia y configuraciones de máscara de marcado.
   
- **Hospital de Estados Unidos** : hay un requisito no para enmascarar "450". Para los clientes que todavía no se admiten varios números de emergencias, puede usar las configuraciones de cadena de marcado de emergencia y máscara de acceso telefónico antiguo. Para los clientes que admiten varios números de emergencias, puede definir un número de emergencia para "911" y "450" en lugar de transparencias 450.
+ **Estados Unidos-Hospital** : hay un requerimiento de no enmascarar "450". Para los clientes que aún no admiten varios números de emergencia, puede usar las antiguas cadenas de marcado de emergencia y configuraciones de máscaras de marcado. Para los clientes que admiten varios números de emergencia, puede definir un número de emergencia para "911" y "450" en lugar de enmascarar 450.
   
- **Londres** : para los clientes que todavía no se admiten varios números de emergencias, puede usar las configuraciones de cadena de marcado de emergencia y máscara de acceso telefónico antiguo. Para los clientes que admiten varios números de emergencias, puede definir un número de emergencia para "999" y "112" con máscaras para cada uno.
+ **Londres** : para los clientes que aún no admiten varios números de emergencia, puede usar las antiguas cadenas de marcado de emergencia y configuraciones de máscaras de marcado. Para los clientes que admiten varios números de emergencia, puede definir un número de emergencia para "999" y "112" con máscaras para cada uno.
   
- **India** : todos los clientes implementados admiten varios números de emergencias. En la India, sólo necesita configurar varios números de emergencias.
+ **India** : todos los clientes implementados admiten varios números de emergencia. En India, solo necesitas configurar varios números de emergencia.
   
 ## <a name="client-support"></a>Compatibilidad con clientes
 <a name="BKMK_Clients"> </a>
 
-En la siguiente tabla muestra la compatibilidad de cliente para varios números de emergencias. Microsoft seguirá probar y soporte técnico para los clientes adicionales de la versión. Compruebe con frecuencia.
+En la tabla siguiente se muestra la compatibilidad de clientes para varios números de emergencia. Microsoft continuará probando y liberando soporte técnico para clientes adicionales. Inténtalo de nuevo a menudo.
 
 |**Windows**|**Versión**|
 |:-----|:-----|
-|**Hacer clic y ejecutar** <br/> |CC (canal actual) publicado en 10 de mayo de 2016 - versión 1604 (compilación 6868.2062)  <br/> |
-||FRDC (primera versión actual canal) publicado en 14 de junio de 2016 - versión 1605 (compilación 6965.2058)  <br/> |
-||DC (canal aplazado) publicado en el 11 de octubre de 2016 - versión 1605 (compilación 6965.2092)  <br/> |
-|**MSI** <br/> |Actualización de 7 de junio-[https://support.microsoft.com/en-us/kb/3115087](https://support.microsoft.com/en-us/kb/3115087) <br/> |
+|**Hacer clic y ejecutar** <br/> |CC (canal actual) publicado el 10 de mayo de 2016-versión 1604 (compilación 6868,2062)  <br/> |
+||FRDC (primer lanzamiento del canal actual) publicado el 14 de junio de 2016-versión 1605 (compilación 6965,2058)  <br/> |
+||DC (canal diferido) publicado el 11 de octubre de 2016-versión 1605 (compilación 6965,2092)  <br/> |
+|**MSI** <br/> |Actualización del 7 de junio-[https://support.microsoft.com/en-us/kb/3115087](https://support.microsoft.com/en-us/kb/3115087) <br/> |
 |**Mac y iOS** <br/> |**Versión** <br/> |
-||Skype para Mac versión de cliente 16,9 de negocio  <br/> Skype para profesionales iOS versión 6.16 del cliente  <br/> |
+||Cliente para Mac de Skype empresarial versión 16,9  <br/> Cliente iOS de Skype empresarial versión 6,16  <br/> |
 |**Android** <br/> |**Versión** <br/> |
-||Skype para profesionales Android versión de cliente 6.17  <br/> |
+||Cliente Android de Skype empresarial versión 6,17  <br/> |
 |**Lync Phone Edition** <br/> |**Versión** <br/> |
-|| Aastra 6721ip y Aastra 6725ip teléfonos - septiembre de 2016 acumulativa actualizan (compilación 7577.4512)-[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
-|| HP 4110 y HP 4120 teléfonos - septiembre de 2016 la actualización acumulativa (compilación 7577.4512)-[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
-||Teléfonos Polycom CX500, Polycom CX600 y Polycom CX3000 - septiembre de 2016 la actualización acumulativa (compilación 7577.4512)-[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |
+|| Aastra 6721ip y Aastra 6725ip teléfonos: actualización acumulativa de septiembre de 2016 (compilación 7577,4512):[https://support.microsoft.com/en-us/kb/3194831](https://support.microsoft.com/en-us/kb/3194831) <br/> |
+|| HP 4110 y HP 4120 teléfonos: actualización acumulativa de septiembre de 2016 (compilación 7577,4512):[https://support.microsoft.com/en-us/kb/3194832](https://support.microsoft.com/en-us/kb/3194832) <br/> |
+||Polycom CX500, Polycom CX600 y Polycom CX3000 teléfonos, actualización acumulativa de septiembre de 2016 (compilación 7577,4512):[https://support.microsoft.com/en-us/kb/3194833](https://support.microsoft.com/en-us/kb/3194833) <br/> |
    
 

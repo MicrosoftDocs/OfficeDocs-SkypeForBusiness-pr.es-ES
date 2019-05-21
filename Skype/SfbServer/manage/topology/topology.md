@@ -1,27 +1,27 @@
 ---
-title: Administrar la topología de Skype para Business Server
+title: Administrar su topología en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
-description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.'
-ms.openlocfilehash: 3d82a60590e7d54d397752567d16c6e6e9ee3cec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los pasos necesarios para administrar su topología en Skype empresarial Server.'
+ms.openlocfilehash: 402e8e725aeb92d7b80f87c9b9d1c6f7d66fc807
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911844"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275118"
 ---
-# <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar la topología de Skype para Business Server 
+# <a name="manage-your-topology-in-skype-for-business-server"></a>Administrar su topología en Skype empresarial Server 
  
-**Resumen:** Obtenga información sobre los pasos necesarios para administrar la topología de Skype para Business Server.
+**Resumen:** Obtenga más información sobre los pasos para administrar su topología en Skype empresarial Server.
   
-Los temas siguientes proporcionan instrucciones paso a paso en tareas relacionadas con la administración de su Skype para la topología de servidor empresarial y los servidores Front-End.
+En los siguientes temas se proporcionan instrucciones paso a paso sobre las tareas relacionadas con la administración de la topología de Skype empresarial Server y los servidores front-end.
   
 - [Administrar los servidores front-end](manage-front-end-servers.md)
     

@@ -1,47 +1,47 @@
 ---
-title: Administrar servidores Front-End de Skype para Business Server
+title: Administrar servidores front-end en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ab748733-6bad-4c93-8dda-db8d5271653d
-description: 'Resumen: Obtenga información sobre cómo agregar, quitar, revisión o actualizar los servidores Front-End en Skype para Business Server.'
-ms.openlocfilehash: cac824de5747291a735ce36d624dad66fb32e10e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a agregar, quitar, aplicar revisiones o actualizar servidores front-end en Skype empresarial Server.'
+ms.openlocfilehash: 13af9198dfb83d14ad1d86885419fc9add29e07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911801"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275160"
 ---
-# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores Front-End de Skype para Business Server
+# <a name="manage-front-end-servers-in-skype-for-business-server"></a>Administrar servidores front-end en Skype empresarial Server
  
-En este artículo se explica cómo agregar o quitar servidores Front-End y cómo aplicar las actualizaciones o revisiones a servidores Front-End.
+En este artículo se explica cómo agregar o quitar servidores front-end y cómo aplicar actualizaciones o revisiones a los servidores front-end.
 
-## <a name="add-or-remove-front-end-servers"></a>Agregar o quitar servidores Front-End
+## <a name="add-or-remove-front-end-servers"></a>Agregar o quitar servidores front-end
   
-Al agregar un servidor Front-End a un grupo de servidores, o quitar un servidor Front-End de un grupo de servidores, debe reiniciar el grupo de servidores. 
+Al agregar un servidor front-end a un grupo o quitar un servidor front-end de un grupo, debe reiniciar el grupo. 
   
 > [!IMPORTANT]
 > Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial. 
   
-Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.
+Puede usar el siguiente procedimiento al agregar o quitar un servidor front-end.
   
 > [!NOTE]
 > Si agrega nuevos servidores al grupo, actualice los nuevos servidores del grupo para que estén en el mismo nivel de actualización acumulativa que los servidores existentes del grupo. 
   
-### <a name="to-add-or-remove-front-end-servers"></a>Para agregar o quitar servidores Front-End
+### <a name="to-add-or-remove-front-end-servers"></a>Para agregar o quitar servidores front-end
 
-1. Si va a quitar los servidores Front-End, en primer lugar detenga nuevas conexiones a esos servidores. Para ello, puede usar el siguiente cmdlet:
+1. Si va a quitar los servidores front-end, primero detenga las conexiones nuevas a esos servidores. Para ello, puede usar el siguiente cmdlet:
     
    ```
    Stop-CsWindowsService -Graceful
    ```
 
-2. Abra el generador de topologías y agregar o quitar los servidores necesarios. 
+2. Abra el generador de topologías y agregue o quite los servidores necesarios. 
     
 3. Publique la topología.
     
@@ -49,9 +49,9 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.
     > Cuando agregue o quite un servidor de un grupo en su topología y después publique la topología actualizada, todos los servidores del grupo se reiniciarán al mismo tiempo. Mientras se reinician los servidores, el grupo está sin conexión, lo que interrumpirá el servicio para aquellos usuarios que estén conectados a dicho grupo. Para evitar cualquier interrupción de servicio para los usuarios, planifique que la publicación de la topología con el nuevo servidor del grupo se lleve a cabo durante el horario no comercial. 
   
   > [!NOTE]
-> También, al agregar o quitar un servidor al grupo de servidores, debe ejecutar el Skype para el Asistente para la implementación empresarial Server en cada equipo agregado o quitado, para obtener más información, vea [Instalar Skype para Business Server en servidores de la topología](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
+> Además, cuando agregue o quite un servidor a la agrupación, debe ejecutar el Asistente para la implementación de Skype empresarial Server en cada uno de los equipos agregados o eliminados, para obtener más información, consulte [instalar Skype empresarial Server en servidores de la topología](https://docs.microsoft.com/skypeforbusiness/deploy/install/install-skype-for-business-server)
   
-4. Si ha cambiado el número de servidores en el grupo de servidores Front-End en cualquiera de las siguientes maneras, a continuación, restablecer el grupo de servidores con escribiendo el siguiente cmdlet: Reset-CsPoolRegistrarState - ResetType FullReset - PoolFqdn 
+4. Si ha cambiado el número de servidores en el grupo de servidores front-end de cualquiera de las siguientes maneras, restablezca el grupo con el siguiente cmdlet: RESET-CsPoolRegistrarState-ResetType FullReset-PoolFqdn 
     
    ```
     Reset-CsPoolRegistrarState -ResetType FullReset -PoolFqdn  <PoolFQDN>
@@ -73,7 +73,7 @@ Puede usar el siguiente procedimiento al agregar o quitar un servidor Front-End.
 
 ## <a name="patch-or-update-front-end-servers"></a>Aplicar parches a servidores front-end o actualizarlos
 
-Revisión en los servidores de un grupo de servidores Front-End, se realiza por lo que un servidor a la vez. 
+Cuando se revisan los servidores de un grupo de servidores front-end, lo hace de un servidor a la vez. 
   
 ### <a name="to-apply-an-upgrade-to-the-front-end-servers-in-a-pool"></a>Para aplicar una actualización a los servidores front-end de un grupo de servidores
 
@@ -95,7 +95,7 @@ Revisión en los servidores de un grupo de servidores Front-End, se realiza por 
    Invoke-CsComputerFailOver -ComputerName <Front End Server to be patched>
    ```
 
-    Este cmdlet mueve todos los servicios a otros servidores Front-End del grupo de servidores y desconecta este servidor.
+    Este cmdlet mueve todos los servicios a otros servidores front-end del grupo y desconecta este servidor.
     
 3. Aplique la actualización o revisión en el servidor desconectado.
     

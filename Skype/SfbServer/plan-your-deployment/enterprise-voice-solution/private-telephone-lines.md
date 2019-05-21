@@ -1,10 +1,10 @@
 ---
-title: Planeación de líneas de teléfono privadas con Skype para la empresa
+title: Planear líneas telefónicas privadas con Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
-description: Planeación de las líneas de teléfono (secundario) privada de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 527ebc75311fdab280d258c0fd7f331f78056717
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planificación de líneas de teléfono privadas (secundarias) en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: 38dd81bb0fae9f7edd062e111db462d264dda1d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913603"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276563"
 ---
-# <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planeación de líneas de teléfono privadas con Skype para la empresa
+# <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planear líneas telefónicas privadas con Skype empresarial
  
-Planeación de las líneas de teléfono (secundario) privada de Skype para Business Server Enterprise Voice.
+Planificación de líneas de teléfono privadas (secundarias) en Skype empresarial Server Enterprise Voice.
   
-Skype para Business Server le permite conceder a los usuarios una línea de teléfono en segundo lugar, privada además de su línea de teléfono principal. Las líneas de teléfono privadas suelen asignarse a ejecutivos y a otros usuarios que desean un número de teléfono privado en el que se les pueda contactar directamente.
+Skype empresarial Server le permite dar a los usuarios una segunda línea telefónica privada, además de la línea telefónica principal. Las líneas de teléfono privadas suelen asignarse a ejecutivos y a otros usuarios que desean un número de teléfono privado en el que se les pueda contactar directamente.
   
-Líneas de teléfono privadas sólo pueden configurarse con el Skype para Shell de administración de servidor empresarial. No se puede configurar líneas de teléfono privadas con el Skype para el Panel de Control de servidor empresarial. Líneas de teléfono privadas deben configurarse únicamente en las implementaciones de Skype para Business Server y no en implementaciones mixtas.
+Las líneas de teléfono privadas solo se pueden configurar con el shell de administración de Skype empresarial Server. No puede configurar líneas telefónicas privadas con el panel de control de Skype empresarial Server. Las líneas de teléfono privadas solo se deben configurar en implementaciones de Skype empresarial Server y no en implementaciones mixtas.
   
 ## <a name="characteristics-of-private-telephone-lines"></a>Características de las líneas de teléfono privadas
 
-Aunque el concepto de una línea de teléfono en segundo lugar, privada es fundamentalmente simple, es importante comprender las características de líneas privadas y las formas en que son similares a y diferente de las líneas de teléfono principal de los usuarios.
+A pesar de que el concepto de una segunda línea telefónica privada es fundamentalmente simple, es importante comprender las características de las líneas privadas y las formas en las que son similares a las líneas de teléfono principales de los usuarios y las diferencias entre ellas.
   
 ### <a name="general-characteristics-of-private-telephone-lines"></a>Características generales de las líneas de teléfono privadas
 
@@ -41,7 +41,7 @@ Aunque el concepto de una línea de teléfono en segundo lugar, privada es funda
     
 - Los usuarios con una línea de teléfono privada no disponen de una segunda dirección SIP y una segunda línea de teléfono privada no proporciona al usuario una segunda presencia en la red (como una segunda identidad de mensajería instantánea). 
     
-- Las líneas de teléfono privadas solo están disponibles para implementaciones locales. No están disponibles con implementaciones hospedadas de Skype para Business Server.
+- Las líneas de teléfono privadas solo están disponibles para implementaciones locales. No están disponibles con implementaciones hospedadas de Skype empresarial Server.
     
 ### <a name="how-private-telephone-lines-differ-from-primary-telephone-lines"></a>Diferencias entre las líneas de teléfono privadas y las líneas de teléfono principales
 
@@ -53,19 +53,19 @@ Aunque el concepto de una línea de teléfono en segundo lugar, privada es funda
     
 - Las llamadas realizadas a la línea de teléfono privada siempre suenan. No siguen las reglas de "no molestar".
     
-- Las líneas de teléfono privadas son solo entrantes y no pueden usarse para realizar llamadas salientes. Cuando un usuario con una línea de teléfono privada realiza una llamada, la llamada se origina desde la línea de teléfono principal del usuario y no oculta el nombre del usuario o número de teléfono principal del usuario de la persona que llama.
+- Las líneas de teléfono privadas son solo entrantes y no pueden usarse para realizar llamadas salientes. Cuando un usuario con una línea telefónica privada hace una llamada, la llamada se origina desde la línea de teléfono principal del usuario y no oculta el nombre del usuario o el número de teléfono principal del usuario de la persona a la que llama.
     
 ### <a name="how-private-telephone-lines-are-similar-to-primary-telephone-lines"></a>Similitudes entre las líneas de teléfono privadas y las líneas de teléfono principales
 
 - Las llamadas no respondidas realizas a una línea de teléfono privada se redirigen a la misma bandeja de entrada de correo de voz de la línea telefónica principal (si el correo de voz está habilitado).
     
-- Estacionamiento y atención de llamadas funcionan con líneas de teléfono privadas exactamente la misma manera como lo hacen con la línea de teléfono principal del usuario.
+- El servicio de llamada y la recogida de llamadas funcionan con líneas de teléfono privadas exactamente de la misma manera que lo hacen con la línea de teléfono principal del usuario.
     
-- Cuando las llamadas simultáneas está habilitada en la línea de teléfono principal de un usuario, también está habilitada en la línea de teléfono privada.
+- Cuando se habilitan las llamadas simultáneas en la línea telefónica principal de un usuario, también se habilita en la línea telefónica privada.
     
-- El número de teléfono para una línea de teléfono privada se registra en el registro de detalles de llamadas en la misma manera que el número de teléfono de la línea de teléfono principal de un usuario, pero con una indicación de que es un número de teléfono privado.
+- El número de teléfono de una línea telefónica privada se registra en el registro de detalles de la llamada de la misma manera que el número de teléfono de la línea telefónica principal de un usuario, pero con una indicación de que es un número de teléfono privado.
     
-- Después de que un usuario respuestas que una llamada en una línea de teléfono privadas, la llamada es el mismo tratan como una llamada en la línea de teléfono principal del usuario. Por ejemplo, si un usuario que recibe una llamada en una línea de teléfono privada reenvía la llamada o invita a otras personas a una llamada de conferencia, el nombre del usuario aparece en Skype para la empresa y el número de teléfono de la línea de teléfono principal del usuario aparece en el autor de la llamada identificador.
+- Después de que un usuario responde a una llamada en una línea telefónica privada, la llamada se trata de la misma forma que una llamada en la línea de teléfono principal del usuario. Por ejemplo, si un usuario que recibe una llamada en una línea telefónica privada reenvía la llamada o invita a otras personas a una llamada de conferencia, el nombre del usuario aparece en Skype empresarial y el número de teléfono de la línea de teléfono principal del usuario aparece en la identificación de llamadas.
     
 - Los usuarios pueden desviar una llamada de la línea de teléfono privada (redirigir la llamada a otro destino, como un teléfono móvil o un teléfono particular, antes de responder) de la misma forma que con una línea de teléfono principal. 
     
@@ -73,7 +73,7 @@ Aunque el concepto de una línea de teléfono en segundo lugar, privada es funda
     > Cuando una llamada a una línea privada se redirige a un número de teléfono alternativo, el número de teléfono de la línea de teléfono privada se pone a disposición del número de teléfono alternativo y puede mostrarse en los registros de dicho número. 
   
     > [!NOTE]
-    > Llamadas desde una conferencia a la línea de teléfono privada no tendrán una indicación *línea a privada* en la notificación entrante del sistema.
+    > Las llamadas desde una conferencia a la línea telefónica privada no tendrán una indicación de *línea privada* en la notificación del sistema entrante.
   
 ## <a name="administering-private-telephone-lines"></a>Administración de líneas de teléfono privadas
 
@@ -84,16 +84,16 @@ Además de los aspectos técnicos de la creación y administración de líneas d
   
 ### <a name="assigning-telephone-numbers"></a>Asignar números de teléfono
 
- Las cuentas para los nuevos usuarios que necesitan líneas de teléfono privadas se crean de la misma manera que las cuentas sin líneas de teléfono privadas, mediante Skype para el Panel de Control de servidor empresarial o Skype para Shell de administración de servidor empresarial.
+ Las cuentas de los nuevos usuarios que necesiten líneas de teléfono privadas se crean de la misma manera que las cuentas sin líneas de teléfono privadas, mediante el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial.
   
-Use el cmdlet **Set-CsUser** en el Skype para Shell de administración de servidor empresarial para asignar un número de teléfono a una línea telefónica privada de un usuario, por ejemplo, **Set-CsUser-Identity "sip:joe@contoso.com" - PrivateLine "Tel: + 14255551212"**.
+Use el cmdlet **set-CsUser** en el shell de administración de Skype empresarial Server para asignar un número de teléfono a una línea telefónica privada para un usuario, por ejemplo, **set-CsUser-Identity "SIP:Joe@contoso.com"-PrivateLine "Tel: + 14255551212"**.
   
-Números de teléfono de líneas de teléfono privadas puede estar comprendido entre 3 y 15 números de longitud y deben ir precedidos con el "TEL:" prefijo. Pueden tener cualquier código de área y de país, siempre que la organización disponga de llamada directa a la extensión para dicho código de área y de país o región. 
+Los números de teléfono de las líneas telefónicas privadas pueden tener entre 3 y 15 números de longitud y deben ir precedidos del prefijo "TEL:". Pueden tener cualquier código de área y de país, siempre que la organización disponga de llamada directa a la extensión para dicho código de área y de país o región. 
   
-Para obtener información detallada acerca de los cmdlets y Skype para Shell de administración de servidor empresarial, vea el Skype para la documentación del Shell de administración de servidor empresarial.
+Para obtener más información sobre los cmdlets y el shell de administración de Skype empresarial Server, consulte la documentación del shell de administración de Skype empresarial.
   
 ### <a name="private-telephone-lines-in-mixed-deployments"></a>Líneas de teléfono privadas en implementaciones combinadas
 
-Líneas de teléfono privadas deben configurarse sólo para las implementaciones de Skype para Business Server o Lync Server 2013. En una implementación en la que hay servidores que ejecutan versiones anteriores de Lync Server, cuando un usuario de la versión anterior intenta llamar a una línea telefónica privada, el enrutamiento de la llamada se produce un error debido a que el servidor no puede realizar una búsqueda inversa de números en una línea de teléfono privada.
+Las líneas de teléfono privadas solo deben configurarse para implementaciones de Skype empresarial Server o Lync Server 2013. En una implementación en la que hay servidores que ejecutan versiones anteriores de Lync Server, cuando un usuario de una versión anterior intenta llamar a una línea telefónica privada, se produce un error en el enrutamiento de la llamada porque el servidor no puede realizar una búsqueda de números invertidas en una línea telefónica privada.
   
 

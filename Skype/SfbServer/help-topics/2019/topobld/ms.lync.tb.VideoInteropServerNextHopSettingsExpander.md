@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.VideoInteropServerNextHopSettingsExpander
@@ -12,26 +12,26 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5a161404-b294-47fa-ad62-0e12bffcd8e4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Se describen los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador de topología en línea en crear un grupo de servidores con respecto de Skype para Business Server.
-ms.openlocfilehash: 831d6817375534dc8165c796bfa2b6f899bb12f1
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en crear un grupo VIS en Skype empresarial Server.
+ms.openlocfilehash: f2848b9745d089eb207970552f045f3eb4d0d535
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921037"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306982"
 ---
 # <a name="video-interop-server-next-hop-settings"></a>Configuración del próximo salto del servidor de interoperabilidad de vídeo
  
-Los pasos necesarios para definir un nuevo frente o puerta de enlace de vídeo en el generador se describen en línea en [crear un grupo de servidores con respecto de Skype para Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
+Los pasos necesarios para definir una nueva puerta de enlace de VIS o video en el generador de topología se describen en línea en [crear un grupo VIS en Skype empresarial Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md).
   
-Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea al [implementar el rol de servidor de respecto de Skype para Business Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md)
+Los pasos necesarios para asignar un rol de servidor de interoperabilidad de vídeo en un servidor con Windows PowerShell se describen en línea en [la implementación del rol de servidor VIS en Skype empresarial Server](../../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) .
   
-Los pasos de configuración para un nuevo servidor de interoperabilidad de vídeo con Windows PowerShell se describen en línea en [Configuración del servidor de interoperabilidad de vídeo en Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
+Los pasos de configuración para un nuevo servidor de interoperabilidad de vídeo con Windows PowerShell se describen en línea en [configurar el servidor de interoperabilidad de vídeo en Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-the-vis.md).
   
- La configuración de una puerta de enlace de vídeo que se deben establecer en la GUI de Cisco para la interoperación con un respecto se describe en línea al [Configurar CUCM para la interoperación con Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
+ La configuración de una puerta de enlace de vídeo que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperabilidad con un VIS se describe en on [Configure CUCM para la interoperabilidad con Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-cucm-for-interoperation.md).
   
- La configuración de un VTC que es necesario definir en la GUI de Cisco para la interoperación con una puerta de enlace de vídeo y un respecto se describe en línea al [configurar un VTC para la interoperación con Skype para Business Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
+ La configuración de una VTC que debe establecerse en la interfaz gráfica de usuario de Cisco para la interoperabilidad con una puerta de enlace de video y una VIS se describe en Internet en [configurar un VTC para interoperabilidad con Skype empresarial Server](../../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md).
   
 ## <a name="see-also"></a>Vea también
 
-[Planeación de servidor de interoperabilidad vídeo en Skype para Business Server](../../../plan-your-deployment/video-interop-server.md)
+[Planear el servidor de interoperabilidad de vídeo en Skype empresarial Server](../../../plan-your-deployment/video-interop-server.md)

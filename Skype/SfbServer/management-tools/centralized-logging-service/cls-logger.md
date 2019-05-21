@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
-description: 'Resumen: Obtenga información sobre cómo usar el servicio de registro centralizado (CLS) registrador de Skype para Business Server 2015.'
-ms.openlocfilehash: 9edaf9d8528e03577fa54bb02f876aac017a4146
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a usar el registrador del servicio de registro centralizado (CLS) en Skype empresarial Server 2015.'
+ms.openlocfilehash: 496f30bdcedeb491bd5bfa211f08c04853b49bf8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915006"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274467"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>Registrador de CLS para Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo usar el servicio de registro centralizado (CLS) registrador de Skype para Business Server 2015.
+**Resumen:** Aprenda a usar el registrador del servicio de registro centralizado (CLS) en Skype empresarial Server 2015.
   
 CLS Logger es una herramienta que ayuda en la administración de los registros que genera el servicio de registro centralizado.
   
@@ -37,7 +37,7 @@ A fin de utilizar CLS Logger correctamente, es preciso asegurarse de lo siguient
 
 Use el siguiente comando para comprobar el estado de registro:
   
-1. En la ficha "Iniciar/detener escenarios", seleccione una agrupación de los grupos de servidores o de equipos en la vista de árbol de la topología.
+1. En la pestaña "escenarios de inicio/parada", seleccione una agrupación de grupos o equipos en la vista de árbol de topología.
     
 2. Haga clic en el botón Estado de registro.
     
@@ -47,7 +47,7 @@ Use el siguiente comando para comprobar el estado de registro:
 
 Para iniciar un escenario existente:
   
-1. En la ficha "Iniciar/detener escenarios", seleccione un escenario existente desde el menú desplegable de escenarios.
+1. En la pestaña "escenarios de inicio/parada", seleccione un escenario existente en el menú desplegable escenarios.
     
 2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
     
@@ -61,7 +61,7 @@ Para iniciar un escenario existente:
 
 Para detener un escenario existente:
   
-1. En la ficha "Iniciar/detener escenarios", seleccione un escenario existente desde el menú desplegable de escenarios.
+1. En la pestaña "escenarios de inicio/parada", seleccione un escenario existente en el menú desplegable escenarios.
     
 2. Seleccione una agrupación de equipos o grupos de servidores en la vista del árbol de la topología.
     
@@ -73,7 +73,7 @@ Para detener un escenario existente:
   
 ## <a name="search-for-logs"></a>Buscar registros
 
-Con el fin de buscar los registros, seleccione la ficha "Registros de CLS de búsqueda" y haga clic en el botón "Registros de búsqueda" después de rellenar los campos que se muestran tal y como se describe a continuación:
+Para buscar registros, seleccione la ficha "buscar registros de CLS" y haga clic en el botón "buscar registros" después de rellenar los campos mostrados como se describe a continuación:
   
 > **Carpeta de archivos de registros** La carpeta para guardar los resultados de la búsqueda de registros. (Necesaria)
 > 
@@ -111,7 +111,7 @@ Con el fin de buscar los registros, seleccione la ficha "Registros de CLS de bú
   
 ## <a name="create-a-scenario"></a>Crear un escenario
 
-1. En la ficha **Editar escenarios** , haga clic en el botón **Crear escenario** .
+1. En la pestaña **Editar escenarios** , haga clic en el botón **crear escenario** .
     
     > [!NOTE]
     > Crear un escenario clonará la configuración del escenario que esté seleccionado en ese momento. Si hace clic en **Borrar los ajustes** antes de crear un escenario empezará sin elementos ni marcas seleccionados.

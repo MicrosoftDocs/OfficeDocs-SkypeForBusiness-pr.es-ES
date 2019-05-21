@@ -1,53 +1,53 @@
 ---
-title: Integrar Skype para Business Server con Exchange Server
+title: Integrar Skype empresarial Server con Exchange Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: 'Resumen: Revise los pasos de integración de Exchange Server 2016 o Exchange Server 2013 y Skype para Business Server.'
-ms.openlocfilehash: e5e33e77c60aa4be0ae28f21945d9ce5dccddfc4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Revise los pasos de integración de Exchange Server 2016 o de Exchange Server 2013 y Skype empresarial Server.'
+ms.openlocfilehash: 25b2260805cf4e42bc15d1ae5607baa3f830fba6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891715"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277989"
 ---
-# <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype para Business Server con Exchange Server
+# <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrar Skype empresarial Server con Exchange Server
 
-**Resumen:** Revise los pasos de integración de Exchange Server 2013 o posterior y Skype para Business Server.
+**Resumen:** Revise los pasos de integración de Exchange Server 2013 o posterior y Skype empresarial Server.
 
-Exchange Server 2013 o posterior y Skype para Business Server son compatibles y se integran correctamente. Por ejemplo, se puede notificar Skype para obtener información de presencia de usuario empresarial en Microsoft Outlook; del mismo modo, Skype para la empresa puede tener acceso a calendario de Outlook de un usuario, tenga en cuenta que el usuario tiene una reunión programada y mostrar la presencia del usuario como no disponible durante la reunión. Aunque no es necesario que ejecutar el servidor de Exchange para la ejecución de Skype para Business Server (o viceversa) de los dos productos juntos con el fin de mejorar la experiencia del usuario del otro.
+Exchange Server 2013 o posterior y Skype empresarial Server son compatibles y se integran correctamente. Por ejemplo, se puede informar de la información de presencia de los usuarios de Skype empresarial en Microsoft Outlook. de forma similar, Skype empresarial puede acceder al calendario de Outlook de un usuario, observar que el usuario tiene una reunión programada y mostrar la presencia del usuario como ocupado durante la reunión. Aunque no es necesario ejecutar Exchange Server para poder ejecutar Skype empresarial Server (o viceversa), los dos productos mejoran la experiencia del usuario de cada uno.
 
-Esta documentación proporciona información sobre la integración de Skype para Business Server y Exchange Server 2016 o Exchange Server 2013, pero se supone que la instalación inicial y la configuración de estos dos productos que ya se ha realizado. Para obtener información detallada sobre la implementación de Skype para Business Server vea la [Skype para Business Server Tech Center](https://go.microsoft.com/fwlink/p/?LinkId=246127). Para obtener información detallada sobre la implementación de Exchange Server, consulte la documentación de implementación para su versión de Exchange.
+Esta documentación proporciona información sobre la integración de Skype empresarial Server y Exchange Server 2016 o Exchange Server 2013, pero supone que ya se ha producido la configuración y la configuración iniciales de estos dos productos. Para obtener detalles sobre la implementación de Skype empresarial Server, consulte el [Centro Tecnológico de Skype empresarial Server](https://go.microsoft.com/fwlink/p/?LinkId=246127). Para obtener más información sobre la implementación de Exchange Server, consulte la documentación de implementación de su versión de Exchange.
 
-Si va a integrar una instalación local en de Skype para Business Server con Microsoft Exchange Online, vea [Configurar la integración entre local Skype para Business Server y Outlook Web App](outlook-web-app.md).
+Si está integrando una instalación local de Skype empresarial Server con Microsoft Exchange Online, consulte Configurar la [integración entre Skype empresarial Server local y Outlook Web App](outlook-web-app.md).
 
-Si va a integrar Skype para profesionales en línea con el servidor de Exchange local, vea [Configurar OAuth entre Skype para profesionales en línea y de Exchange local](oauth-with-online-and-on-premises.md).
+Si está integrando Skype empresarial online con Exchange Server local, consulte [configurar OAuth entre Skype empresarial online y Exchange local](oauth-with-online-and-on-premises.md).
 
 ## <a name="in-this-section"></a>En esta sección
 
-[Configuración de las aplicaciones asociadas en Skype para Business Server y Exchange Server](configure-partner-applications.md)
+[Configurar aplicaciones de socio en Skype empresarial Server y Exchange Server](configure-partner-applications.md)
 
-[Configuración de Skype para Business Server usar el archivado de Exchange Server](use-exchange-archiving.md)
+[Configurar Skype empresarial Server para usar el archivado de Exchange Server](use-exchange-archiving.md)
 
 [Configurar SharePoint Server para buscar datos archivados de Skype Empresarial](sharepoint-to-search-for-archived-data.md)
 
 [Configurar Skype Empresarial Server para usar el almacenamiento de contactos unificado](use-the-unified-contact-store.md)
 
-[Configurar el uso de fotografías de alta resolución en Skype para Business Server](high-resolution-photos.md)
+[Configurar el uso de fotos de alta resolución en Skype empresarial Server](high-resolution-photos.md)
 
 [Configurar la mensajería unificada de Exchange Server para el correo de voz de Skype Empresarial Server](exchangeunified-messaging-for-voice-mail.md)
 
-[Integración de Skype para Business Server y Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
+[Integración de Skype empresarial Server y Microsoft Outlook Web App 2013](https://technet.microsoft.com/library/513d4cc7-aa87-4f68-b99d-d58b63bdf242.aspx)
 
-[Configurar el almacén de contactos personales en los equipos cliente de Skype para Business Server](personal-contacts-store.md)
+[Configurar el almacén de contactos personales en equipos cliente para Skype empresarial Server](personal-contacts-store.md)
 
 ## <a name="see-also"></a>Vea también
 

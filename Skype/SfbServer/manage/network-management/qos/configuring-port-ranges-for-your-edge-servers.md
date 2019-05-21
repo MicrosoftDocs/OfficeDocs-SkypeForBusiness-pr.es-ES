@@ -8,27 +8,27 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En este artículo se describe cómo configurar intervalos de puertos para los servidores perimetrales y cómo configurar una directiva de calidad de servicio para el o los servidores perimetrales A/v.
-ms.openlocfilehash: 38fb71f995b1e4569b1bae11cc809ff0c5b358cc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En este artículo se describe cómo configurar intervalos de puertos para servidores perimetrales y cómo configurar una directiva de calidad de servicio para los servidores perimetrales A/V.
+ms.openlocfilehash: e918dfd371b007741b73312c20033ab911422529
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913079"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279469"
 ---
-# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales en Skype para Business Server
+# <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Configuración de intervalos de puertos y una directiva de calidad de servicio para los servidores perimetrales en Skype empresarial Server
 
-En este artículo se describe cómo configurar intervalos de puertos para los servidores perimetrales y cómo configurar una directiva de calidad de servicio para el o los servidores perimetrales A/v.
+En este artículo se describe cómo configurar intervalos de puertos para servidores perimetrales y cómo configurar una directiva de calidad de servicio para los servidores perimetrales A/V.
 
 ## <a name="configure-port-ranges"></a>Configurar intervalos de puertos
 
-Con los servidores perimetrales, no es necesario configurar los intervalos de puerto independiente de audio, vídeo y uso compartido de aplicaciones; del mismo modo, los intervalos de puertos utilizados para los servidores perimetrales no es necesario para que coincida con los intervalos de puertos se utiliza con los servidores de mediación, conferencia y aplicaciones. Antes de continuar con nuestro ejemplo, es importante destacar que mientras existe esta opción, se recomienda no cambiar los intervalos de puertos, como esto puede afectar negativamente a algunos escenarios de mover fuera del intervalo de 50000 puerto.
+Con los servidores perimetrales no es necesario configurar intervalos de puertos independientes para el audio, el vídeo y el uso compartido de aplicaciones. del mismo modo, los intervalos de puertos usados para los servidores perimetrales no tienen que coincidir con los intervalos de puertos que se usan en los servidores de conferencias, aplicaciones y mediación. Antes de continuar con nuestro ejemplo, es importante resaltar que, aunque esta opción existe, le recomendamos que no cambie los intervalos de puertos, ya que esto puede afectar negativamente a algunos escenarios si sale del intervalo de puertos 50000.
 
-Por ejemplo, suponga que ha configurado los servidores de mediación, conferencia y aplicaciones para usar estos intervalos de puertos:
+Por ejemplo, supongamos que ha configurado los servidores de conferencias, aplicaciones y mediación para que usen estos intervalos de puertos:
 
 
 <table>
@@ -40,7 +40,7 @@ Por ejemplo, suponga que ha configurado los servidores de mediación, conferenci
 <thead>
 <tr class="header">
 <th>Tipo de paquete</th>
-<th>Puerto inicial</th>
+<th>Puerto de inicio</th>
 <th>Número de puertos reservados</th>
 </tr>
 </thead>
@@ -69,88 +69,88 @@ Por ejemplo, suponga que ha configurado los servidores de mediación, conferenci
 </table>
 
 
-Como puede ver, los intervalos de puertos de audio, vídeo y uso compartido de inicio en el puerto 40803 de aplicaciones y abarcar un total de 24732 puertos. Si lo prefiere, puede configurar un servidor perimetral determinado para utilizar estos valores de puerto general mediante la ejecución de un comando similar a este desde dentro de la Skype para Shell de administración de servidor empresarial:
+Como puede ver, los intervalos de puertos para el audio, el vídeo y el uso compartido de aplicaciones comienzan en el puerto 40803 y abarcan un total de 24732 puertos. Si lo prefiere, puede configurar un servidor perimetral determinado para usar estos valores de Puerto generales ejecutando un comando similar al siguiente en el shell de administración de Skype empresarial Server:
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-O bien, use el siguiente comando para configurar simultáneamente todos los servidores perimetrales de la organización:
+O bien, use el comando siguiente para configurar simultáneamente todos los servidores perimetrales de su organización:
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Puede comprobar la configuración de puerto actual para los servidores perimetrales mediante el uso de este Skype para el comando de Shell de administración de servidor empresarial:
+Puede comprobar la configuración actual del puerto de los servidores perimetrales con este comando de Shell de administración de Skype empresarial Server:
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
 
-Una vez más, mientras que podamos proporcionar estas opciones, se recomienda encarecidamente que dejar las cosas que se utilizan para la configuración del puerto.
+De nuevo, si bien proporcionamos estas opciones, le recomendamos encarecidamente que deje las cosas como están para la configuración del puerto.
 
-## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurar una directiva de QoS para el o los servidores perimetrales A/v
+## <a name="configure-a-qos-policy-for-your-av-edge-servers"></a>Configurar una directiva de QoS para los servidores perimetrales A/V
 
-Además de crear las directivas de QoS para los servidores de conferencia, aplicación y mediación, también debe crear las directivas de audioconferencias y vídeo para el lado interno de su A / servidores perimetrales A/v. Sin embargo, las directivas que se usa en los servidores perimetrales son diferentes de las directivas que se usa en los servidores de mediación, conferencia y aplicaciones. Para los servidores de conferencia, aplicación y mediación, ha especificado un intervalo de puerto de origen; con los servidores perimetrales, debe especificar un intervalo de puerto de destino. Por este motivo, simplemente no se puede aplicar las directivas de QoS de servidor de mediación, conferencia y aplicaciones a los servidores perimetrales: estas directivas simplemente no funcionarán. En su lugar, debe crear nuevas directivas y aplicar estas directivas a los servidores perimetrales sólo.
+Además de crear directivas de QoS para los servidores de conferencias, aplicaciones y mediación, también debe crear directivas de audio y vídeo para el lado interno de los servidores perimetrales A/V. Sin embargo, las directivas que se usan en los servidores perimetrales son distintas de las que se usan en los servidores de conferencia, aplicación y mediación. Para los servidores de conferencia, aplicación y mediación, especificó un intervalo de puertos de origen; con los servidores perimetrales, debe especificar un intervalo de puertos de destino. Por ello, no puede simplemente aplicar las directivas QoS del servidor de conferencia, aplicación y media a los servidores perimetrales: estas directivas simplemente no funcionan. En su lugar, debe crear directivas nuevas y aplicarlas solo a los servidores perimetrales.
 
-El siguiente procedimiento describe el proceso de creación de objetos de directiva de grupo de Active Directory que se pueden usar para administrar la calidad de servicio en los servidores perimetrales. Por supuesto, es posible que los servidores perimetrales son servidores independientes que no tienen cuentas de Active Directory. Si ese es el caso, puede usar la directiva de grupo local en lugar de directiva de grupo de Active Directory: la única diferencia es que se deben crear estas directivas locales mediante el Editor de directivas de grupo Local y debe crear individualmente el mismo conjunto de directivas en cada servidor perimetral. Para iniciar el Editor de directivas de grupo Local en un servidor perimetral, haga lo siguiente:
+El procedimiento siguiente describe el proceso de creación de objetos de directiva de grupo de Active Directory que se pueden usar para administrar la calidad de servicio en servidores perimetrales. Por supuesto, es posible que los servidores perimetrales sean servidores independientes que no tengan cuentas de Active Directory. Si ese es el caso, puede usar una directiva de grupo local en lugar de una directiva de grupo de Active Directory: la única diferencia es que debe crear estas directivas locales con el editor de directivas de grupo local y debe crear de forma individual el mismo conjunto de directivas en cada servidor perimetral. Para iniciar el editor de directivas de grupo local en un servidor perimetral, haga lo siguiente:
 
 1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
 
-2.  En el cuadro de diálogo **Ejecutar** , escriba **gpedit.msc**y, a continuación, presione ENTRAR.
+2.  En el cuadro de diálogo **Ejecutar** , escriba **gpedit. msc**y, a continuación, presione Entrar.
 
-Si va a crear directivas basadas en Active Directory, debe iniciar sesión en un equipo donde se ha instalado Administración de directivas de grupo. En ese caso, abra Administración de directivas de grupo (haga clic en **Inicio**, elija **Herramientas administrativas**y, a continuación, haga clic en **Administración de directivas de grupo**) y, a continuación, complete los siguientes pasos:
+Si va a crear directivas basadas en Active Directory, debe iniciar sesión en un equipo en el que se haya instalado administración de directivas de grupo. En ese caso, abra Administración de directivas de grupo (haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **Administración de directivas de grupo**) y siga los pasos siguientes:
 
-1.  En administración de directivas de grupo, busque el contenedor donde se debe crear la nueva directiva. Por ejemplo, si todos los su Skype para equipos Business Server se encuentra en una unidad organizativa denominada Skype para Business Server, se debe crear la nueva directiva en el Skype para la unidad organizativa de servidor empresarial.
+1.  En administración de directivas de grupo, busque el contenedor en el que se debe crear la nueva Directiva. Por ejemplo, si todos los equipos de Skype empresarial Server se encuentran en una unidad organizativa denominada Skype empresarial Server, la nueva Directiva debe crearse en la OU de Skype empresarial Server.
 
-2.  Haga clic en el contenedor adecuado y, a continuación, haga clic en **crear un GPO en este dominio y vincularlo aquí**.
+2.  Haga clic con el botón secundario en el contenedor correspondiente y, después, haga clic en **crear un GPO en este dominio y vincúlelo aquí**.
 
-3.  En el cuadro de diálogo **Nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo en el cuadro **nombre** (por ejemplo, **Skype para Audio del servidor empresarial**) y, a continuación, haga clic en **Aceptar**.
+3.  En el cuadro de diálogo **nuevo GPO** , escriba un nombre para el nuevo objeto de directiva de grupo en el cuadro **nombre** (por ejemplo, **audio de Skype empresarial Server**) y, a continuación, haga clic en **Aceptar**.
 
-4.  Haga clic en la directiva recién creada y, a continuación, haga clic en **Editar**.
+4.  Haga clic con el botón secundario en la Directiva recién creada y, después, haga clic en **Editar**.
 
 Desde aquí el proceso es idéntico independientemente de si está creando una directiva de Active Directory o una directiva local:
 
-1.  En el Editor de administración de directiva de grupo o el Editor de directivas de grupo Local, expanda **Configuración del equipo**, expanda **directivas**, expanda **Configuración de Windows**, haga clic en **QoS basada en directiva de**y, a continuación, haga clic en **Crear nueva directiva**.
+1.  En el editor de administración de directivas de grupo o el editor de directivas de grupo local, expanda **configuración del equipo**, **directivas**, **configuración de Windows**, haga clic con el botón secundario en **QoS basada en directivas**y, a continuación, haga clic en **crear nueva Directiva**.
 
-2.  En el cuadro de diálogo de **QoS basada en directiva** , en la página de apertura, escriba un nombre para la nueva directiva (por ejemplo, **Skype para Audio del servidor empresarial**) en el cuadro **nombre** . Seleccione **Especificar el valor de DSCP** y establezca el valor **46**. Deje **Especificar velocidad de aceleración saliente** no está seleccionada y, a continuación, haga clic en **siguiente**.
+2.  En el cuadro de diálogo **QoS basado en directivas** , en la página de apertura, escriba un nombre para la nueva Directiva (por ejemplo, el **audio de Skype empresarial Server**) en el cuadro **nombre** . Seleccione **especificar valor de DSCP** y establezca el valor en **46**. Deje la **tasa de límite saliente** desactivada y, a continuación, haga clic en **siguiente**.
 
-3.  En la página siguiente, asegúrese de que **todas las aplicaciones** está activada y, a continuación, haga clic en **siguiente**. Esta opción indica a la red para buscar todos los paquetes con un marcado DSCP 46, no sólo de paquetes de creados mediante una aplicación específica.
+3.  En la página siguiente, asegúrese de que **todas las aplicaciones** está seleccionada y, a continuación, haga clic en **siguiente**. Esta configuración instruye a la red para que busque todos los paquetes con un marcado de DSCP de 46, no solo los paquetes creados por una aplicación específica.
 
-4.  En la tercera página, asegúrese de que **cualquier dirección IP de origen** y **cualquier dirección IP de destino** están seleccionados y, a continuación, haga clic en **siguiente**. Estos dos valores Asegúrese de que se administrarán los paquetes independientemente de qué equipo (dirección IP) enviado esos paquetes y qué equipo (dirección IP) recibirán los paquetes.
+4.  En la tercera página, asegúrese de que **todas las direcciones IP de origen** y **cualquier dirección IP de destino** estén seleccionadas y, a continuación, haga clic en **siguiente**. Estas dos opciones de configuración garantizan que los paquetes se administrarán independientemente del equipo (dirección IP) que hayan enviado esos paquetes y qué equipo (dirección IP) recibirá esos paquetes.
 
-5.  En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **Seleccione el protocolo que se aplica esta directiva de QoS** . TCP (Protocolo de Control de transmisión) y UDP (Protocolo de datagramas de usuario) son los dos protocolos de red más utilizados por Skype para Business Server y sus aplicaciones de cliente.
+5.  En la cuarta página, seleccione **TCP y UDP** en la lista desplegable **seleccionar el protocolo de esta directiva de QoS** . TCP (Protocolo de control de transmisión) y UDP (Protocolo de datagrama de usuario) son los dos protocolos de red más usados por Skype empresarial Server y sus aplicaciones cliente.
 
-6.  Bajo el encabezado, **Especifique el número de puerto de destino**, seleccione **desde este intervalo o el puerto de destino**. En el cuadro de texto que lo acompaña, escriba el intervalo de puertos reservado para las transmisiones de audioconferencias. Por ejemplo, si ha reservado puertos 49152 a través de puertos 57500 para el tráfico de audio, escriba el intervalo de puertos con este formato: **49152:57500**. Haga clic en **Finalizar**.
+6.  En el encabezado, **especifique el número de puerto de destino**, seleccione **desde este intervalo o puerto de destino**. En el cuadro de texto que acompaña, escriba el intervalo de puertos reservado para las transtransmisións de audio. Por ejemplo, si ha reservado los puertos 49152 a través de los puertos 57500 para el tráfico de audio, escriba el intervalo de puertos con este formato: **49152:57500**. Haga clic en **Finalizar**.
 
-Después de haber creado la directiva de QoS para el tráfico de audio, debe crear una segunda directiva para el tráfico de vídeo. Para crear una directiva para el vídeo, siga el mismo procedimiento básico seguido al crear la directiva de audio, realizar las siguientes sustituciones:
+Después de crear la directiva QoS para el tráfico de audio, debe crear una segunda Directiva para el tráfico de vídeo. Para crear una directiva para el vídeo, siga el mismo procedimiento básico que siguió al crear la Directiva de audio y realizar estas sustituciones:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype para vídeo de servidor empresarial**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **vídeo de Skype empresarial Server**).
 
-  - Establezca el valor DSCP a **34** en lugar de 46. (Tenga en cuenta que no es necesario usar un valor DSCP de 34. El único requisito es usar un valor DSCP diferente para el vídeo que se utiliza para el audio.)
+  - Establezca el valor de DSCP en **34** en lugar de 46. (Tenga en cuenta que no es necesario usar un valor de DSCP de 34. El único requisito es que use un valor de DSCP diferente para el vídeo que el que usó para el audio.
 
-  - Usar el intervalo de puerto configurado anteriormente para el tráfico de vídeo. Por ejemplo, si lo ha reservado puertos 57501 y 65535 para vídeo, establezca el intervalo de puertos a la siguiente: **57501:65535**. Una vez más, esto debe configurarse como el intervalo de puertos de destino.
+  - Use el intervalo de puertos configurado previamente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 57501 a 65535 para el vídeo, establezca el intervalo de puertos en: **57501:65535**. De nuevo, debe estar configurado como el intervalo de puertos de destino.
 
-Si decide crear una directiva para administrar el tráfico de uso compartido de aplicaciones, debe crear una tercera Directiva, sustituyendo lo siguiente:
+Si decide crear una directiva para administrar el tráfico de uso compartido de aplicaciones, debe crear una tercera Directiva y realizar las siguientes sustituciones:
 
-  - Use un nombre de directiva diferente (y único) (por ejemplo, **Skype para compartir aplicaciones de servidor de negocio**).
+  - Use un nombre de directiva diferente (y único) (por ejemplo, **uso compartido de aplicaciones de Skype empresarial Server**).
 
-  - Establezca el valor de DSCP en **24** en lugar de 46. (De nuevo, no es necesario usar un valor DSCP de 24. El único requisito es que usar un valor DSCP diferente para uso compartido de aplicaciones que usa para el audio o de vídeo.)
+  - Establezca el valor de DSCP en **24** en lugar de 46. (Nuevamente, no es necesario usar un valor de DSCP de 24. El único requisito es que use un valor de DSCP diferente para el uso compartido de aplicaciones que el que usó para el audio o el vídeo.
 
-  - Usar el intervalo de puerto configurado anteriormente para el tráfico de vídeo. Por ejemplo, si lo ha reservado puertos 40803 y 49151 para uso compartido de aplicaciones, puede establecer el intervalo de puertos a la siguiente: **40803:49151**.
+  - Use el intervalo de puertos configurado previamente para el tráfico de vídeo. Por ejemplo, si ha reservado los puertos 40803 a 49151 para el uso compartido de aplicaciones, establezca el intervalo de puertos en: **40803:49151**.
 
-Las nuevas directivas que ha creado no tendrán efecto hasta que se ha actualizado la directiva de grupo en los servidores perimetrales. Aunque la directiva de grupo se actualiza periódicamente por sí misma, se puede forzar una actualización inmediata si se ejecuta el siguiente comando en cada equipo en el que se tenga que actualizar la directiva de grupo:
+Las nuevas directivas que ha creado no tendrán efecto hasta que se actualice la Directiva de grupo en los servidores perimetrales. Aunque la directiva de grupo se actualiza periódicamente por sí misma, se puede forzar una actualización inmediata si se ejecuta el siguiente comando en cada equipo en el que se tenga que actualizar la directiva de grupo:
 
     Gpudate.exe /force
 
-Este comando se puede ejecutar desde dentro de la Skype para Business Server o desde cualquier ventana de comandos que se ejecuta con credenciales de administrador. Para abrir una ventana de comandos con las credenciales del administrador, haga clic en **Inicio**, haga clic con el botón derecho en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**. Tenga en cuenta que es posible que necesite reiniciar el servidor perimetral incluso después de ejecutar Gpudate.exe.
+Este comando se puede ejecutar desde el servidor de Skype para empresas o desde cualquier ventana de comandos que se ejecute con credenciales de administrador. Para abrir una ventana de comandos con las credenciales del administrador, haga clic en **Inicio**, haga clic con el botón derecho en **Símbolo del sistema** y, a continuación, haga clic en **Ejecutar como administrador**. Tenga en cuenta que es posible que tenga que reiniciar el servidor perimetral incluso después de ejecutar Gpudate. exe.
 
-Para ayudar a garantizar que los paquetes de red están marcados con el valor DSCP adecuado, también debe crear una nueva entrada del registro en cada equipo completando el procedimiento siguiente:
+Para asegurarse de que los paquetes de red estén marcados con el valor de DSCP adecuado, también debe crear una nueva entrada de registro en cada equipo completando el procedimiento siguiente:
 
 1.  Haga clic en  **Inicio ** y en  **Ejecutar **.
 
-2.  En el cuadro de diálogo **Ejecutar** , escriba **regedit**y, a continuación, presione ENTRAR.
+2.  En el cuadro de diálogo **Ejecutar** , **** escriba regedit y, a continuación, presione Entrar.
 
-3.  En el Editor del registro, expanda **HKEY\_LOCAL\_máquina**, expanda **SYSTEM**, expanda **CurrentControlSet**, expanda **Servicios**y, a continuación, expanda **Tcpip**.
+3.  En el editor del registro, expanda el **equipo local\_\_HKEY**, expanda **sistema**, expanda **CurrentControlSet**, expanda **Services**y, a continuación, expanda **TCPIP**.
 
-4.  Secundario **Tcpip**, elija **nuevo**y, a continuación, haga clic en **clave**. Una vez creada la nueva clave del registro, escriba **QoS**y, a continuación, presione ENTRAR para cambiar el nombre de la clave.
+4.  Haga clic con el botón derecho en **TCPIP**, seleccione **nuevo**y, a continuación, haga clic en **clave**. Después de crear la nueva clave del registro, escriba **QoS**y, a continuación, presione Entrar para cambiar el nombre de la clave.
 
-5.  Secundario **QoS**, elija **nuevo**y, a continuación, haga clic en **Valor de tipo String**. Una vez creado el nuevo valor del registro, escriba **no use NLA**y, a continuación, presione ENTRAR para cambiar el nombre del valor.
+5.  Haga clic con el botón derecho en **QoS**, seleccione **nuevo**y, a continuación, haga clic en **valor de cadena**. Después de crear el nuevo valor del registro, escriba **no use NLA**y, a continuación, presione Entrar para cambiar el nombre del valor.
 
-6.  Haga doble clic en **no utilizan NLA**. En el cuadro de diálogo **Editar cadena** , escriba **1** en el cuadro **datos de valor** y, a continuación, haga clic en **Aceptar**.
+6.  Haga doble clic en **no usar NLA**. En el cuadro de diálogo **Editar cadena** , escriba **1** en el cuadro **datos del valor** y, a continuación, haga clic en **Aceptar**.
 
-7.  Cierre el Editor del registro y reinicie el equipo.
+7.  Cierre el editor del registro y reinicie el equipo.

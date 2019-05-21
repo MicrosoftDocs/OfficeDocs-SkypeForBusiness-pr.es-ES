@@ -1,26 +1,26 @@
 ---
-title: Usar el panel de calidad de llamada de Skype para Business Server
+title: Usar el panel de calidad de llamadas para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
-description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 91df986e985a9ccfafd17d3fc082e6786ad52657
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre cómo usar el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: b89f766cfcbfbc9fe2c700162f3c0b4e69a7e6bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915013"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274558"
 ---
-# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamada de Skype para Business Server
+# <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Usar el panel de calidad de llamadas para Skype empresarial Server
  
-**Resumen:** Obtenga información acerca de cómo usar el panel de calidad de llamadas. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Más información sobre cómo usar el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
 El panel de calidad de llamadas permite a los profesionales de TI usar datos de agregados para identificar áreas en su entorno que estén experimentando problemas en la calidad de los medios. También les permite comparar estadísticas de diferentes grupos de usuarios, e identificar tendencias y patrones. No se centra en la solución de problemas con llamadas individuales, sino en la identificación de problemas y soluciones aplicables a muchos usuarios dentro de un entorno.
   
@@ -34,33 +34,33 @@ Cuando un usuario visita el panel de calidad de llamadas verá lo siguiente:
   
 ![Usar el CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
   
-1. El panel de resumen de"" es donde se puede encontrar el contexto de la "informe Set" (a la derecha). 
+1. El "panel Resumen" es donde puede encontrarse el contexto para el "conjunto de informes" (a la derecha). 
     
-2. Informe de propiedades de nivel de conjunto (incluido el alto del eje y) se pueden establecer haciendo clic en "Editar" en el panel Resumen.
+2. Las propiedades del nivel de conjunto de informes (incluido el alto del eje Y) se pueden configurar haciendo clic en "Editar" en el panel de resumen.
     
 3. La barra de ruta de navegación ayuda a los usuarios a identificar su ubicación actual dentro de la jerarquía del conjunto de informes.  
     
 4. Los informes que contienen subinformes se muestran con un vínculo azul. Al hacer clic en él se verán los detalles de los informes secundarios.  
     
-Al pasar el mouse sobre los gráficos de barras y las líneas de tendencia se mostrarán los valores detallados. El informe que tiene el foco mostrará el menú Acción: "Editar", "Clonar", "Eliminar" y "Descargar". 
+Al pasar el mouse sobre los gráficos de barras y las líneas de tendencia se mostrarán los valores detallados. El informe que tiene el foco mostrará el menú de acciones: "Editar", "clonar", "eliminar" y "Descargar". 
   
 ### <a name="default-reports"></a>Informes predeterminados
 
 La primera vez que un usuario obtiene acceso al portal del panel de calidad de llamadas, se crea de forma automática un conjunto predeterminado de informes (que a veces reciben la denominación de "informes del sistema"). Los usuarios pueden modificar o eliminar libremente estos informes y normalmente los amplían creando nuevos informes del mismo nivel o informes secundarios.  
   
-En el nivel superior, el informe de "Audio secuencias mensual tendencias" muestra la tendencia mensual para todas las secuencias de audioconferencias. Mover el mouse sobre las barras en un gráfico de barras, se mostrará una vista más detallada de los datos representados por el gráfico de barras. Al hacer clic en el título del informe de tendencias mensual de secuencias de Audio navegará al informe "Administrado frente a secuencias de Audio no administrado", donde los informes se dividen entre administrado y no administradas llamadas. Las llamadas administradas son las llamadas realizadas desde dentro del firewall corporativo a través de conexiones por cable. Las llamadas no administradas incluyen las llamadas realizadas desde fuera del firewall corporativo, así como todas las llamadas realizadas a través de Wi-Fi.
+En el nivel superior, el informe "la tendencia mensual de las secuencias de audio" muestra la tendencia mensual para todas las transmisiones de audio. Si mueve el mouse sobre las barras de un gráfico de barras, se mostrará una vista más detallada de los datos representados por el gráfico de barras. Al hacer clic en el título del informe de tendencia mensual de secuencias de audio, se desplazará al informe "administrado vs unmanageed audio streams", donde los informes se dividen entre llamadas administradas y no administradas. Las llamadas administradas son llamadas realizadas desde dentro del Firewall corporativo a través de conexiones cableadas. Las llamadas no administradas incluyen llamadas realizadas desde fuera del Firewall corporativo, así como todas las llamadas realizadas a través de Wi-Fi.
   
-El otro informe de nivel superior se denomina "Indicado por el usuario llamada calidad clasificación histograma." Las valoraciones de la calidad de las llamadas son los números que proporcionan los usuarios de Skype Empresarial al final de una llamada para indicar su calidad. Los números van del 1 al 5, siendo 1 la peor valoración y 5 la mejor. El histograma muestra la cantidad de llamadas de audio que tuvieron la valoración indicada en el plazo de un mes. 
+El otro informe de nivel superior se denomina "histograma de la calidad de las llamadas notificadas por el usuario". Las valoraciones de la calidad de las llamadas son los números que proporcionan los usuarios de Skype Empresarial al final de una llamada para indicar su calidad. Los números van del 1 al 5, siendo 1 la peor valoración y 5 la mejor. El histograma muestra la cantidad de llamadas de audio que tuvieron la valoración indicada en el plazo de un mes. 
   
 Por lo general, al hacer clic en el título de cualquiera de los informes se le redirigirá a los informes con filtros adicionales en los datos. En los informes del sistema, cada informe secundario muestra un subconjunto de los datos disponibles en su informe primario. De esta forma se proporciona un modelo conceptualmente sencillo para solucionar problemas, pues puede acotar el ámbito del problema investigando a qué subinforme están limitados los datos o la tendencia problemáticos. La capacidad de crear subinformes nuevos permite que los usuarios puedan investigar sus propias hipótesis sobre el origen de tendencias de datos específicas.
   
 ### <a name="creating-and-editing-reports"></a>Crear y editar informes
 
-Al hacer clic en "Editar" en el menú Acción de un informe, los usuarios verán el Editor de informes. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de informes es una interfaz de usuario para editar dichas consultas, así como las opciones de visualización del informe. Cuando un usuario abre el editor de consultas ve lo siguiente:
+Al hacer clic en "Editar" en el menú de acciones de un informe, los usuarios verán el editor de informes. Cada informe está respaldado por una consulta dentro del cubo. Un informe es una visualización de los datos devueltos por su consulta. El editor de informes es una interfaz de usuario para editar dichas consultas, así como las opciones de visualización del informe. Cuando un usuario abre el editor de consultas ve lo siguiente:
   
 ![Usar el CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
   
-1. Las dimensiones, las medidas y los filtros se eligen en el panel de la izquierda. Colocar el puntero sobre uno de los valores existentes, se mostrará un botón "x" que permite que el valor que se va a quitar. Al hacer clic en el botón "más" junto al encabezado se abrirá el cuadro de diálogo para agregar una nueva dimensión, medida o un filtro. 
+1. Las dimensiones, las medidas y los filtros se eligen en el panel de la izquierda. Al mantener el puntero sobre uno de los valores existentes, se mostrará un botón "x" que permite quitar el valor. Al hacer clic en el botón "suma" junto a un título, se abrirá el cuadro de diálogo para agregar una nueva dimensión, medida o filtro. 
     
 2. Las opciones para personalizar los gráficos se visualizan en la parte superior.
     
@@ -74,7 +74,7 @@ Si se agrega el mes de inicio como dimensión y los datos se representan como te
   
 ![Usar el CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
   
-En el orden de los gráficos de barras y los minigráficos que aparezca, la casilla de verificación "Mostrar minigráficos" en la parte superior del Editor de informe debe estar protegido. Esto se seleccione la opción de tendencias y Bajar mes a ser la última dimensión, que también se puede hacer haciendo clic en el mes y utilizando la arriba y abajo para desplazar StartDate.Month hacia arriba o hacia abajo. 
+Para que aparezcan los gráficos de barras y los minigráficos, se debe activar la casilla "Mostrar minigráficos" en la parte superior del editor de informes. De esta forma, se selecciona la opción tendencia y se mueve el mes hacia abajo para que sea la última dimensión, que también se puede realizar haciendo clic en el mes y usando las flechas arriba y abajo para desplazar StartDate. mes hacia arriba o hacia abajo. 
   
 ### <a name="settings"></a>Configuración
 
@@ -82,9 +82,9 @@ En la esquina superior derecha del panel se encuentra el menú de configuración
   
 ![Usar el CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
   
-Si o no mostrar descripciones y marcas de tiempo depende de los usuarios individuales, y estas opciones sólo afectan a versión del individuo del panel, no modifique el informe de establece o vean ¿qué otros usuarios. Borrar la memoria caché hace que todas las consultas volver a cargar los datos del cubo, mientras que restaurar los valores predeterminados elimina todos los informes creados por el usuario o modificados y vuelve a crear el conjunto de informes del sistema, lo que se ve un usuario cuando inicien la sesión por primera vez.
+Si desea o no mostrar descripciones y marcas de tiempo a usuarios individuales, esta configuración solo afecta a la versión del panel de la persona, no modifica el conjunto de informes ni lo que ven otros usuarios. Borrar la caché hace que todas las consultas vuelvan a cargar sus datos desde el cubo, mientras que al restaurar valores predeterminados, se eliminan todos los informes creados o modificados por el usuario y se vuelve a crear el conjunto de informes del sistema: lo que vería un usuario al iniciar sesión por primera vez.
   
-El Vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios del CQD y examinar sus informes. Si desea compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártalo con otro usuario del CQD. Este vínculo será el mismo uno otros usuarios pueden ver en la página de vínculo de escritorio de los usuarios en el nombre del usuario.
+El Vínculo del panel de usuarios muestra una página en la que los usuarios pueden ver otros usuarios del CQD y examinar sus informes. Si desea compartir un conjunto de informes, copie el vínculo en la barra de direcciones URL y compártalo con otro usuario del CQD. Este vínculo será el mismo que el que otros usuarios verían en la página de vínculo del panel de usuarios debajo del nombre de usuario.
   
 ### <a name="supplying-subnet-information"></a>Suministrar información de subred
 
@@ -129,7 +129,7 @@ El esquema para dichas tablas se define del siguiente modo:
 |BuildingKey  <br/> |int  <br/> |Sí  <br/> |Clave externa; necesita coincidir con una de las entradas de la tabla CqdBuilding.  <br/> |
 |UpdatedDate  <br/> |datetime  <br/> |No  <br/> |Fecha y hora de la última actualización de la entrada.  <br/> |
    
-De manera predeterminada en esta tabla siguiente tiene una entrada (0, 'Desconocido').
+De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ').
   
 **CqdBuildingType**
 
@@ -138,7 +138,7 @@ De manera predeterminada en esta tabla siguiente tiene una entrada (0, 'Desconoc
 |BuildingTypeId  <br/> |int  <br/> |No  <br/> |Clave principal para la tabla CqdBuildingType.  <br/> |
 |BuildingTypeDesc  <br/> |char(18)  <br/> |No  <br/> |Descripción del tipo de edificio.  <br/> |
    
-De manera predeterminada, esta tabla siguiente tiene una entrada (0, 'desconocido', 0, null).
+De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ', 0, null).
   
 **CqdBuildingOwnershipType**
 
@@ -149,7 +149,7 @@ De manera predeterminada, esta tabla siguiente tiene una entrada (0, 'desconocid
 |LeaseInd  <br/> |tinyint  <br/> |Sí  <br/> |Índice que hace referencia a otra fila de la tabla CqdBuildingOwnershipType, que se usa para identificar edificios alquilados.  <br/> |
 |Owner  <br/> |varchar(50)  <br/> |Sí  <br/> |Propietario del edificio.  <br/> |
    
-De manera predeterminada, esta tabla siguiente tiene una entrada (0, 'desconocido', 0, null).
+De forma predeterminada, la siguiente tabla tiene una entrada (0, ' unknown ', 0, null).
   
 **CqdBssid**
 
@@ -167,7 +167,7 @@ Las secuencias del CQD se identifican como buenas, deficientes o sin clasificar.
   
 - Una secuencia de deficiente es cualquier combinación de métricas de llamada deficientes que superan el umbral.
     
-- Cuando una secuencia en una llamada es deficiente, ambas secuencias de la llamada están marcados deficientes. En las conferencias, cada participante se cuenta como una única llamada y se notifica de manera independiente de todos los demás.
+- Cuando una secuencia de una llamada es mala, ambas secuencias de la llamada se marcan como deficientes. En las conferencias, cada participante se cuenta como una llamada única y se registra de forma independiente de todos los demás.
     
 - Las secuencias sin clasificar son aquellas que no tienen métricas de calidad (como las transacciones sintéticas o las llamadas de corta duración).
     
@@ -189,7 +189,7 @@ Definición de JPDR = definición de llamada deficiente menos RatioConcealedSamp
   
 ## <a name="where-is-callercallee"></a>¿Dónde está el autor/destinatario de la llamada?
 
-CQD no utilice los campos de autor de la llamada y el destinatario. Estos han sido cambió de nombre "First" y "Segundo" porque hay pasos intermedios entre el autor de la llamada y el destinatario de la llamada.
+El CQD no usa los campos llamador y destinatario. Se les ha cambiado el nombre a "First" y "Second" porque hay pasos que intervienen entre quien llama y quien llama.
   
  **Primero**: siempre será el extremo del servidor (p. ej., AV MCU; servidor de mediación) si hay un servidor implicado en la secuencia.
   
@@ -203,11 +203,11 @@ CQD no utilice los campos de autor de la llamada y el destinatario. Estos han si
 |2 (AVMCU)   <br/> |1 (mMediationServer)   <br/> |Extremo 2  <br/> |Extremo 1  <br/> |
 |4 (Skype Empresarial)  <br/> |4 (Skype Empresarial)   <br/> |El autor de la llamada en MediaLine   <br/> |El destinatario de la llamada en MMediaLine  <br/> |
    
-Si los dos extremos son del mismo tipo, el CQD registrará la entrada del autor de la llamada como Primero y el destinatario como Segundo. Consulte [este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) para obtener más información.
+Si los dos extremos son del mismo tipo, el CQD registrará la entrada del autor de la llamada como Primero y el destinatario como Segundo. Para obtener más información, consulta [este blog](https://blogs.technet.com/b/jenstr/archive/2015/05/22/call-quality-dashboard-tips-and-tricks.aspx) .
   
 ## <a name="accounting-for-vpn"></a>Preparación para VPN
 
-Si se conoce la solución VPN para establecer con precisión la marca VPN, está todos los conjunto. De lo contrario, utilice uno de los métodos siguientes:
+Si se sabe que la solución VPN está configurada correctamente, está todo listo. De lo contrario, utilice uno de los métodos siguientes:
   
 - Cree un tipo de red llamado VPN (recomendado) y asocie las subredes VPN con el nuevo tipo de red "VPN".
     

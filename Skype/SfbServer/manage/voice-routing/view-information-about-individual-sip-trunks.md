@@ -1,26 +1,26 @@
 ---
-title: Ver información sobre los troncos SIP individuales en Skype para Business Server
+title: Ver información sobre los troncos SIP individuales en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En Skype para Business Server, se pueden asignar varios troncos a una única puerta de enlace de RTC; Esto significa que las puertas de enlace y troncos no son el mismos, y los administradores deben usar el cmdlet Get-CsTrunk para ver información sobre un tronco SIP individual.
-ms.openlocfilehash: bf9229dba17b7b2e49eb9a05d9469f42c0b9b998
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En Skype empresarial Server, se pueden asignar varios troncos a una sola puerta de enlace PSTN; Esto significa que las puertas de enlace y los troncos no son uno y el mismo, y los administradores deben usar el cmdlet Get-CsTrunk para ver información sobre un tronco SIP individual.
+ms.openlocfilehash: f9199936dd4c9580c95c8b9708df04dcac13e1e8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930823"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274880"
 ---
-# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype para Business Server
+# <a name="view-information-about-individual-sip-trunks-in-skype-for-business-server"></a>Ver información sobre los troncos SIP individuales en Skype empresarial Server
 
-En Skype para Business Server, se pueden asignar varios troncos a una única puerta de enlace de RTC; Esto significa que las puertas de enlace y troncos no son el mismos, y que los administradores deben usar el cmdlet [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) para ver información sobre un tronco SIP individual.
+En Skype empresarial Server, se pueden asignar varios troncos a una sola puerta de enlace PSTN; Esto significa que las puertas de enlace y los troncos no son una y la misma y que los administradores deben usar el cmdlet [Get-CsTrunk](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTrunk) para ver información sobre un tronco SIP individual.
 
-El cmdlet Get-CsTrunk se puede ejecutar desde la Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell.
+El cmdlet Get-CsTrunk se puede ejecutar desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell.
 
 **Para ver información sobre todos los enlaces troncales SIP**
 
@@ -34,7 +34,7 @@ Este comando devuelve información solamente para el enlace troncal SIP con el v
 
 `Get-CsTrunk -Identity "PstnGateway:192.168.0.240"`
 
-**Visualización de información de todos los enlaces troncales SIP asignados a un grupo de servidores**
+**Ver información de todos los troncos SIP asignados a un grupo**
 
 En este ejemplo, se devuelve información para todos los enlaces troncales SIP asignados al grupo atl-cs-001.litwareinc.com:
 

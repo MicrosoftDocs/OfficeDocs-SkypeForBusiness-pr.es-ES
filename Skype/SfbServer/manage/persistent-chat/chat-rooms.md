@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
-description: 'Resumen: Obtenga información sobre cómo administrar Persistent Chat Server salones de chat de Skype para Business Server 2015.'
-ms.openlocfilehash: 01d3f53cc3b13d0cb3708d0a1f889a22511fd7fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar salones de chat del servidor de chat persistente en Skype empresarial Server 2015.'
+ms.openlocfilehash: 91e8a2888a7c83e30f80160d8c2c1fbc2af542fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910238"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279350"
 ---
 # <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar salones de chat en el servidor de chat persistente en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo administrar Persistent Chat Server salones de chat de Skype para Business Server 2015.
+**Resumen:** Aprenda a administrar salones de chat del servidor de chat persistente en Skype empresarial Server 2015.
   
-Con el uso correcto de las categorías, es mucho más fácil crear y administrar los salones de chat. Una categoría define quién puede crear o unirse a los salones de chat. Antes de intentar administrar salones de chat, asegúrese de leer [las categorías de chat persistente, salones de chat y funciones de usuario de Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) y [Administrar categorías en el servidor de Chat persistente en Skype para Business Server 2015](categories.md).
+Con el uso correcto de las categorías, es mucho más fácil crear y administrar los salones de chat. Una categoría define quién puede crear o unirse A los salones de chat. Antes de intentar administrar los salones de chat, asegúrese de leer las [categorías de chat persistentes, los salones de chat y los roles de usuario en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) y [administrar las categorías en el servidor de chat persistente en skype empresarial Server 2015](categories.md).
   
 > [!NOTE]
-> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
 
-Puede configurar y administrar salones de chat mediante el uso de la interfaz de línea de comandos de Windows PowerShell, o mediante el Skype para clientes empresariales si usted es un miembro del salón de chat. En este tema se describe cómo administrar salones de chat mediante el uso de la interfaz de línea de comandos de Windows PowerShell. Si desea administrar los salones de chat mediante el Skype para clientes empresariales, vea la Ayuda del cliente. 
+Puede configurar y administrar salones de chat con la interfaz de línea de comandos de Windows PowerShell o con el cliente de Skype empresarial si es miembro del salón de chat. En este tema se describe cómo administrar los salones de chat con la interfaz de línea de comandos de Windows PowerShell. Si desea administrar salones de chat con el cliente de Skype empresarial, consulte la ayuda del cliente. 
   
-Salones de chat puede ser uno de los dos tipos: Normal y tipo auditorio. Un salón de chat Normal permite que todos los miembros publicar y leer los mensajes. Un tipo de auditorio es un tipo de salón de chat donde sólo los moderadores pueden publicar, pero todos los usuarios pueden leer.
+Los salones de chat pueden ser de dos tipos: normal y Auditorio. Un salón de chat normal permite a todos los miembros publicar y leer mensajes. Un auditorio es un tipo de salón de chat en el que solo pueden publicar los moderadores, pero todo el mundo puede leer.
   
 El acceso a los salones de chat y su administración dependen de los roles de usuario, de esta manera:
   
@@ -41,7 +41,7 @@ El acceso a los salones de chat y su administración dependen de los roles de us
     
 - Los usuarios finales, incluidos los autores de los mensajes, no pueden eliminar contenido de ningún salón de chat.
     
-- Administradores de salones de chat pueden realizar cambios a todas las propiedades de salón de chat, incluida la deshabilitación de salas. Los administradores no se pueden, sin embargo, se eliminar una sala o cambiar la categoría de un salón de. 
+- Los administradores de salones de chat pueden realizar cambios en todas las propiedades de los salones de chat, incluyendo la deshabilitación de salas. Sin embargo, los administradores no pueden eliminar una sala o cambiar la categoría de una sala. 
     
 - Solo los administradores pueden eliminar un salón de chat una vez creado.
     
@@ -52,24 +52,24 @@ Puede configurar y administrar los salones de chat por medio de los siguientes c
 |:-----|:-----|
 |New-CsPersistentChatRoom  <br/> |Crea un salón de chat  <br/> |
 |Set-CsPersistentChatRoom  <br/> |Configura las opciones de un salón existente; asigna usuarios y grupos de usuarios al salón  <br/> |
-|Get-CsPersistentChatRoom  <br/> |Recuperar información acerca de los salones  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Recuperar información sobre salas  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Borra un salón o los mensajes de un salón  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Quita un salón  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Quita mensajes de un salón  <br/> |
    
 Con el cmdlet **New-CsPersistentChatRoom** puede crear salones de chat y con **Set-CsPersistentChatRoom** puede configurar un salón de chat existente, incluso agregar usuarios al salón de chat. Puede configurar los siguientes parámetros del salón de chat:
   
-- Disabled. Le permite deshabilitar o habilitar un salón de chat. 
+- Disabled. Te permite deshabilitar o habilitar un salón de chat. 
     
 - Invitaciones. Permite habilitar o deshabilitar las invitaciones de los salones de chat, que se usan para informar a los usuarios cuando se los agregó como miembros de un salón de chat. La configuración predeterminada para las invitaciones es la heredada, por lo que el salón de chat adopta las opciones de configuración de la invitación configuradas en la categoría al que pertenece. Al configurar las opciones de las invitaciones en False en el salón de chat, se cambia la configuración de la categoría. 
     
-- Privacidad. Permite especificar si un salón de chat está abierto, cerrado o secreto. Salones abiertos puedan buscar y tener acceso a todos los usuarios. Salones de cerrado se pueden buscar por cualquier usuario, pero se pueden tener acceso sólo por los miembros. Secretas salones puedan buscar y tener acceso a sólo los miembros de la sala. De forma predeterminada, cada nueva sala se configura inicialmente como cerrado.
+- Declaración. Le permite especificar si un salón de chat está abierto, cerrado o secreto. Cualquier persona puede buscar y acceder a las salas abiertas. Las salas cerradas pueden ser buscadas por cualquier persona, pero solo las pueden acceder los miembros. Solo los miembros del salón pueden buscar en ellas las salas de secretos. De forma predeterminada, cada nueva sala está configurada inicialmente como cerrada.
     
-- Type. Permite especificar si un salón de chat es un salón Normal, que acepta mensajes enviados por cualquier miembro o un salón de tipo auditorio, que acepta mensajes expuestos sólo por un moderador.
+- Type. Permite especificar si un salón de chat es un salón normal, que acepta los mensajes publicados por cualquier miembro, o una sala de auditorio, que acepta los mensajes publicados solo por un moderador.
     
 - Addin. Permite asociar complementos previamente configurados con un salón de chat, por lo que los miembros pueden ver el contenido URL mientras participan.
     
-Además de los parámetros anteriores, el cmdlet **Set-CsPersistentChatRoom** permite asignar a usuarios al salón de chat de la siguiente manera:
+Además de los parámetros anteriores, el cmdlet **set-CsPersistentChatRoom** le permite asignar usuarios al salón de chat de la siguiente manera:
   
 - Members. Configura la pertenencia del salón de chat. Puede agregar o quitar miembros individuales o varios miembros con un único cmdlet al especificar la dirección SIP de los usuarios. Para permitir la adición en masa de usuarios, puede especificar también grupos de distribución o unidades organizativas de Active Directory.
     
@@ -87,9 +87,9 @@ Puede crear un salón con el cmdlet **New-CsPersistentChatRoom**. Por ejemplo, e
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"
 ```
 
-**Nota:** PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes opciones: 
+**Nota:** PersistentChatPoolFqdn no es necesario si una de las siguientes condiciones es cierta: 
   
-- Hay un solo grupo de servidores de Chat persistente.
+- Solo hay un grupo de servidores de chat persistente.
     
 - Proporciona un FQDN del grupo de servidores a la categoría.
     
@@ -97,7 +97,7 @@ New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.
     
 ## <a name="configure-an-existing-room"></a>Configurar un salón existente
 
-Puede configurar un salón existente mediante el cmdlet **Set-CsPersistentChatRoom** . Por ejemplo, el comando siguiente asigna user1 como un miembro y moderador y user2 como un administrador de la sala de auditorio testCat:
+Puede configurar una sala existente con el cmdlet **set-CsPersistentChatRoom** . Por ejemplo, el siguiente comando asigna user1 como miembro y moderador, y usuario2 como director, de la sala testCat de auditorio:
   
 ```
 Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
@@ -119,13 +119,13 @@ Set-CsPersistentChatRoom -PersistentChatPoolFqdn "atl-cs-001.contoso.com\NorthAm
 
 ## <a name="disable-or-enable-a-room"></a>Habilitar o deshabilitar un salón
 
-Si el tema de un salón de Chat en grupo ya no es relevante, puede que el salón de chat a no esté disponible para los usuarios deshabilitando el programa. Cuando un salón de chat está deshabilitado, todos los miembros inmediatamente están desconectados de la sala. Después de un salón de chat está deshabilitado, los usuarios no se pueden volver a unirse a él o buscar en las búsquedas de salón de chat.
+Si el tema de un salón de chat persistente ya no es relevante, puede deshabilitarlo para hacer que el salón de chat no esté disponible para los usuarios. Cuando un salón de chat está deshabilitado, todos los miembros se desconectan inmediatamente del salón. Después de deshabilitar un salón de chat, los usuarios no pueden volver a unirse o encontrarlo en las búsquedas del salón de chat.
   
-Si continúa el historial del salón de chat, el contenido se conserva cuando se deshabilita el salón de chat. Pero, dicho contenido no aparecerá en las búsquedas mientras el salón de chat permanezca deshabilitado. Si vuelve a habilitar el salón de chat, los usuarios podrán buscar mensajes publicados antes de que se deshabilitara el salón de chat. Para obtener información acerca de cómo configurar el historial de salones de chat, vea [Administrar categorías en el servidor de Chat persistente en Skype para Business Server 2015](categories.md). 
+Si el historial del salón de chat continúa, el contenido se conserva cuando el salón de chat está deshabilitado. Pero, dicho contenido no aparecerá en las búsquedas mientras el salón de chat permanezca deshabilitado. Si vuelve a habilitar el salón de chat, los usuarios podrán buscar mensajes publicados antes de que se deshabilitara el salón de chat. Para obtener información sobre cómo configurar el historial del salón de chat, consulte [administrar categorías en el servidor de chat persistente en Skype empresarial server 2015](categories.md). 
   
 Si un salón de chat se encuentra deshabilitado, se conservan su lista de pertenencia y otras opciones de configuración. Como administrador, puede habilitar un salón que se ha deshabilitado y no es necesario que vuelva a establecer la configuración de forma manual.
   
-Puede deshabilitar un salón mediante el cmdlet **Set-CsPersistentChatRoom** y establecer el parámetro deshabilitado en True:
+Para deshabilitar un salón, use el cmdlet **set-CsPersistentChatRoom** y establezca el parámetro disabled en true:
   
 ```
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $True
@@ -137,7 +137,7 @@ Para habilitar un salón de chat, establezca el parámetro Disabled en False:
 Set-CsPersistentChatRoom -Identity "atl-cs-001.contoso.com\ITChatRoom" -Disabled $False
 ```
 
-## <a name="get-information-about-rooms"></a>Obtener información acerca de los salones
+## <a name="get-information-about-rooms"></a>Obtener información sobre salas
 
 Para obtener información sobre los salones configurados para su organización, puede usar el cmdlet **Get-CsPersistentChatRoom**.
   

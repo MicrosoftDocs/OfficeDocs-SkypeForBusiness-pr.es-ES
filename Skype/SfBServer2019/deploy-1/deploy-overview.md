@@ -1,11 +1,11 @@
 ---
-title: Implementación de Skype para Business Server 2019
+title: Implementar Skype empresarial Server 2019
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
 ms.date: 7/9/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,17 +14,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ''
-description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2019.'
-ms.openlocfilehash: 8ff29f37fb63f5e174d1811d291fa282f7e67695
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Resumen: Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype empresarial Server 2019.'
+ms.openlocfilehash: 0c2779b3ab553dac5eabc2f345b904a1cf6ebe56
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32214190"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278143"
 ---
-# <a name="deploy-skype-for-business-server-2019"></a>Implementación de Skype para Business Server 2019
+# <a name="deploy-skype-for-business-server-2019"></a>Implementar Skype empresarial Server 2019
  
-**Resumen:** Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype para Business Server 2019 y migración desde versiones anteriores.
+**Resumen:** Explore estos vínculos para obtener información sobre cómo instalar y configurar Skype empresarial Server 2019 y cómo realizar la migración desde versiones anteriores.
   
 Skype Empresarial Server ofrece soluciones de telefonía, vídeo, conferencias, presencia y mensajería instantánea (MI) que cumplen los requisitos de colaboración de la empresa. En este tema se proporcionan vínculos a la información sobre cómo implementar y configurar Skype Empresarial Server. 
   
@@ -36,15 +36,15 @@ Los siguientes artículos sobre cómo instalar y configurar Skype Empresarial Se
   
 ||Contenido|Descripción|
 |:-----|:-----|:-----|
-|![Icono de documentación](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Requisitos del sistema para Skype para Business Server 2019](../plan/system-requirements.md)  <br/> |Obtenga más información sobre los requisitos del entorno y del servidor para Skype Empresarial Server.  <br/> |
-|![Icono de documentación](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Conceptos básicos de la topología de Skype para Business Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Obtenga más información sobre las opciones y los escenarios de combinación de servidores para Skype Empresarial Server.  <br/> |
+|![Icono de documentación](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Requisitos del sistema para Skype empresarial Server 2019](../plan/system-requirements.md)  <br/> |Obtenga más información sobre los requisitos del entorno y del servidor para Skype Empresarial Server.  <br/> |
+|![Icono de documentación](https://docs.microsoft.com/office/media/icons/paragraph-writing-blue.svg)|[Conceptos básicos sobre la topología de Skype empresarial Server](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) <br/> |Obtenga más información sobre las opciones y los escenarios de combinación de servidores para Skype Empresarial Server.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Instalar Skype Empresarial Server](../../SfbServer/deploy/install/install.md)<br/> |Obtenga más información sobre cómo instalar Skype Empresarial Server en varias topologías, en entornos tanto físicos como virtuales.  <br/> |
-|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Migración a Skype para Business Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Obtenga información sobre cómo migrar desde versiones anteriores de Skype para empresariales o de Lync Server.  <br/> |
+|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Migración a Skype empresarial Server 2019](../migration/migration-to-skype-for-business-server-2019.md) <br/> |Aprenda a migrar desde versiones anteriores de Skype empresarial o Lync Server.  <br/> |
 |![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)|[Configure the client experience with Skype for Business](../../SfbServer/deploy/deploy-clients/configure-the-client-experience.md) <br/> |Obtenga más información sobre cómo configurar la experiencia del cliente.  <br/> |
-|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar la conectividad híbrida entre Skype para Business Server y Skype para profesionales en línea](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Obtenga más información sobre cómo configurar los requisitos previos para una implementación híbrida y, luego, configure la implementación para administrar a los usuarios entre Skype Empresarial Server local y Skype Empresarial Online.  <br/> |
-|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implemente servidores perimetrales en Skype para Business Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Si los usuarios en su organización se comunican con usuarios externos que no inician sesión en la red interna, posiblemente le interese implementar el servidor perimetral.  <br/> |
-|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementación de Enterprise Voice en Skype para Business Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Obtenga más información sobre cómo implementar una solución de telefonía IP empresarial de voz sobre IP (VoIP) completa, que proporciona la integración enriquecida con Outlook y Exchange y muchas funciones eficaces, como los grupos de respuesta, el estacionamiento de llamadas, la llamada de equipo, la atención de llamadas grupales y la asistencia de E9-1-1 de emergencia mejorada.  <br/> |
-| ![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementar servidor de interoperabilidad vídeo en Skype para Business Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Si desea admitir la interoperabilidad de vídeo, lea sobre cómo implementar el servidor de interoperabilidad de vídeo (VIS).  <br/> |
+|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Configurar la conectividad híbrida entre Skype empresarial Server y Skype empresarial online](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md) <br/> |Obtenga más información sobre cómo configurar los requisitos previos para una implementación híbrida y, luego, configure la implementación para administrar a los usuarios entre Skype Empresarial Server local y Skype Empresarial Online.  <br/> |
+|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementar servidores perimetrales en Skype empresarial Server](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md) <br/> |Si los usuarios en su organización se comunican con usuarios externos que no inician sesión en la red interna, posiblemente le interese implementar el servidor perimetral.  <br/> |
+|![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementar la telefonía IP empresarial en Skype empresarial Server](../../SfbServer/deploy/deploy-enterprise-voice/deploy-enterprise-voice.md) <br/> |Obtenga más información sobre cómo implementar una solución de telefonía IP empresarial de voz sobre IP (VoIP) completa, que proporciona la integración enriquecida con Outlook y Exchange y muchas funciones eficaces, como los grupos de respuesta, el estacionamiento de llamadas, la llamada de equipo, la atención de llamadas grupales y la asistencia de E9-1-1 de emergencia mejorada.  <br/> |
+| ![Icono de procedimiento numérico](https://docs.microsoft.com/office/media/icons/list-123-blue.svg)| [Implementar el servidor de interoperabilidad de vídeo en Skype empresarial Server](../../SfbServer/deploy/deploy-video-interop-server/deploy-video-interop-server.md) <br/> |Si desea admitir la interoperabilidad de vídeo, lea sobre cómo implementar el servidor de interoperabilidad de vídeo (VIS).  <br/> |
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Recursos adicionales sobre la planeación de Skype Empresarial Server
 

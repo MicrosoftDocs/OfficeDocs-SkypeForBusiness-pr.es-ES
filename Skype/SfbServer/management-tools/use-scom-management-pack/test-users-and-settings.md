@@ -5,36 +5,36 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
-description: 'Resumen: Configure cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.'
-ms.openlocfilehash: f1f80632c20212a1aa9a78bc272a8bc6340c9366
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: configurar las opciones de las cuentas de usuario y del nodo de monitor para las transacciones sintéticas de Skype empresarial Server.'
+ms.openlocfilehash: 02c24d4f23b59dfa8ddab68e1c4a992312916b3a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33904170"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277660"
 ---
 # <a name="configure-watcher-node-test-users-and-settings"></a>Configurar los usuarios y las opciones de configuración de la prueba del nodo de monitor
  
-**Resumen:** Configurar cuentas de usuario de prueba y configuración de nodo de Monitor de Skype para las transacciones sintéticas Business Server.
+**Resumen:** Configure las cuentas de usuario y la configuración del nodo de monitor para las transacciones sintéticas de Skype empresarial Server.
   
 Después de configurar el equipo que funcionará como nodo de monitor, debe hacer lo siguiente:
   
-1. [Configurar cuentas de usuario de prueba](test-users-and-settings.md#testuser) que va a usar estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet **Set-CsTestUserCredential** para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
+1. [Configure las cuentas de usuario de prueba](test-users-and-settings.md#testuser) que usarán estos nodos de monitor. Si usa el método de autenticación Negotiate, también debe usar el cmdlet **Set-CsTestUserCredential** para habilitar estas cuentas de prueba para su uso en el nodo de monitor.
     
 2. Actualizar las opciones de configuración del nodo de monitor.
     
 ## <a name="configure-test-user-accounts"></a>Configurar cuentas de usuario de prueba
 <a name="testuser"> </a>
 
-Cuentas de prueba no es necesario representar personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype para Business Server, deben tener direcciones SIP válidas y que se debe habilitar para que Enterprise Voice (usar la transacción sintética Test-CsPstnPeerToPeerCall). 
+Las cuentas de prueba no necesitan representar personas reales, pero deben ser cuentas de Active Directory válidas. Además, estas cuentas deben estar habilitadas para Skype empresarial Server, deben tener direcciones SIP válidas y deben estar habilitadas para telefonía IP empresarial (para usar la transacción sintética CsPstnPeerToPeerCall). 
   
-Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar a al menos dos usuarios de prueba para cada grupo de servidores que desea probar. Si está utilizando el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el Skype para Shell de administración de servidor empresarial para habilitar estas cuentas para trabajar con las transacciones sintéticas de prueba. Hacer esto mediante la ejecución de un comando similar al siguiente (estos comandos se suponen que se han creado las dos cuentas de usuario de Active Directory y que estas cuentas estén habilitadas para Skype para Business Server):
+Si está usando el método de autenticación TrustedServer, solamente debe asegurarse de que estas cuentas existen y configurarlas como se ha indicado. Debe asignar al menos dos usuarios de prueba para cada grupo de servidores que desee probar. Si usa el método de autenticación Negotiate, también debe usar el cmdlet Set-CsTestUserCredential y el shell de administración de Skype empresarial Server para habilitar estas cuentas de prueba para que funcionen con las transacciones sintéticas. Para ello, ejecute un comando similar al siguiente (estos comandos suponen que se han creado las dos cuentas de usuario de Active Directory y que estas cuentas están habilitadas para Skype empresarial Server):
   
 ```
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 
 Debe incluir no solo la dirección SIP, sino también el nombre de usuario y una contraseña. Si no incluye la contraseña, el cmdlet Set-CsTestUserCredential le pedirá que la escriba. El nombre de usuario se pueden especificar con el formato nombre de dominio\nombre de usuario que se muestra en el bloque de código anterior.
   
-Para comprobar que se han creado las credenciales de usuario de prueba, ejecute estos comandos desde la Skype para Shell de administración de servidor empresarial:
+Para comprobar que se crearon las credenciales de usuario de prueba, ejecute estos comandos desde el shell de administración de Skype empresarial Server:
   
 ```
 Get-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com"
@@ -52,9 +52,9 @@ Get-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com"
 
 Se debería devolver información similar a la siguiente para cada usuario:
   
-|**nombre de usuario**|**Contraseña**|
+|**Nombre**|**Contraseña**|
 |:-----|:-----|
-|Litwareinc\watcher1  <br/> |System.Security.SecureString  <br/> |
+|Litwareinc\watcher1  <br/> |System. Security. SecureString  <br/> |
    
 ### <a name="configure-a-basic-watcher-node-with-the-default-synthetic-transactions"></a>Configurar un nodo de monitor básico con las transacciones sintéticas predeterminadas
 
@@ -64,7 +64,7 @@ Una vez creados los usuarios, puede crear un nodo de monitor con un comando simi
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"}
 ```
 
-Este comando crea un nodo de monitor nuevo que usa la configuración predeterminada y ejecuta el conjunto predeterminado de transacciones sintéticas. El nuevo nodo de Monitor también usa la prueba de los usuarios watcher1@litwareinc.com y watcher2@litwareinc.com. Si el nodo de Monitor usa la autenticación de TrustedServer, las cuentas de dos prueba pueden ser cualquier cuentas de usuario válidas habilitadas para Active Directory y Skype para Business Server. Si el nodo de monitor usa el método de autenticación Negotiate, estas cuentas de usuario también deben estar habilitadas para el nodo de monitor con el cmdlet Set-CsTestUserCredential.
+Este comando crea un nodo de monitor nuevo que usa la configuración predeterminada y ejecuta el conjunto predeterminado de transacciones sintéticas. El nuevo nodo de monitor también usa la watcher1@litwareinc.com de usuario de prueba y watcher2@litwareinc.com. Si el nodo de monitor usa la autenticación TrustedServer, las dos cuentas de prueba pueden ser cualquier cuenta de usuario válida habilitada para Active Directory y Skype empresarial Server. Si el nodo de monitor usa el método de autenticación Negotiate, estas cuentas de usuario también deben estar habilitadas para el nodo de monitor con el cmdlet Set-CsTestUserCredential.
   
 Para validar que la detección automática de grupo de servidores de destino para el inicio de sesión se ha configurado correctamente en lugar de que esté destinado a un grupo directamente, siga estos pasos:
   
@@ -83,7 +83,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Tenga en cuenta que los resultados de este comando se deben almacenar en una variable. En este ejemplo, se trata de una variable denominada $pstnTest. 
   
-A continuación, puede usar el cmdlet **New-CsWatcherNodeConfiguration** para asociar el tipo de prueba (almacenado en la variable $pstnTest) a un Skype para grupo de servidores empresariales. Por ejemplo, el siguiente comando crea una nueva configuración de nodo de monitor para el grupo de servidores atl-cs-001.litwareinc.com, adición de los dos usuarios de prueba creados anteriormente, y agregar la RTC tipo de prueba:
+A continuación, puede usar el cmdlet **New-CsWatcherNodeConfiguration** para asociar el tipo de prueba (almacenado en la variable $pstnTest) a un grupo de servidores de Skype empresarial. Por ejemplo, el siguiente comando crea una nueva configuración de nodo de monitor para el grupo atl-cs-001.litwareinc.com, agregando los dos usuarios de prueba creados anteriormente y agregando el tipo de prueba RTC:
   
 ```
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -93,7 +93,7 @@ Tenga en cuenta que el comando anterior no se ejecutará correctamente si no ins
   
 Para probar varias directivas de voz, puede crear una prueba extendida para cada directiva con el cmdlet **New-CsExtendedTest**. Los usuarios siempre se deben configurar con las directivas de voz deseadas. Las pruebas extendidas se pasan al cmdlet **New-CsWatcherNodeConfiguration** con delimitadores de coma, como, por ejemplo:
   
--ExtendedTests @{agregar = pstnTest1$, pstnTest2$, pstnTest3$}
+-ExtendedTests @ {Add = $pstnTest 1, $pstnTest 2, $pstnTest 3}
   
 Dado que el cmdlet **New-CsWatcherNodeConfiguration** se ha invocado sin usar el parámetro Tests, para el nodo de monitor solo se habilitarán las transacciones sintéticas predeterminadas (y la transacción sintética extendida especificada). Por lo tanto, el nodo de monitor probará estos componentes:
   
@@ -127,7 +127,7 @@ Los siguientes componentes no se probarán de manera predeterminada:
     
 - JoinLauncher
     
-- MCXP2PIM (mensajería instantánea de dispositivo móvil heredado)
+- MCXP2PIM (mensajería instantánea de dispositivos móviles heredados)
     
 - P2PVideoInteropServerSipTrunkAV
     
@@ -185,7 +185,7 @@ Get-CsWatcherNodeConfiguration -Identity "atl-cs-001.litwareinc.com" | Select-Ob
 
 El comando anterior devolverá información similar a la siguiente, según las transacciones sintéticas que se hayan asignado al nodo:
   
-Registro mensajería instantánea GroupIM P2PAV AvConference presencia PersistentChatMessage DataConference
+Registro de mensajes instantáneos de GroupIM P2PAV AvConference Presence PersistentChatMessage congresos
 > [!TIP]
 > Para ver las transacciones sintéticas en orden alfabético, use este comando en su lugar: 
   
@@ -205,7 +205,7 @@ Identidad: atl-cs-001.litwareinc.com <br/>
 TestUsers: {sip:watcher1@litwareinc.com, sip:watcher2@litwareinc.com...}<br/>
 ExtendedTests : {TestUsers=IList<System.String>;Name=PSTN Test; Te...}<br/>
 TargetFqdn: atl-cs-001.litwareinc.com<br/>
-PortNumber: 5061<br/>
+NúmeroDePuerto: 5061<br/>
 
 Para comprobar que se haya configurado correctamente el nodo de monitor, escriba el siguiente comando desde el Shell de administración de Skype Empresarial Server:
   
@@ -215,13 +215,13 @@ Test-CsWatcherNodeConfiguration
 
 Este comando probará cada nodo de monitor de la implementación y confirmará si se han completado las siguientes acciones:
   
-- Se instala el rol de registrador necesario.
+- El rol del registrador requerido está instalado.
     
-- Se crea la clave del registro necesaria (completado cuando ejecutó el cmdlet Set-CsWatcherNodeConfiguration).
+- La clave del registro requerida se crea (completa cuando se ejecutó el cmdlet Set-CsWatcherNodeConfiguration).
     
-- Los servidores ejecutan la versión correcta de Skype para Business Server.
+- Los servidores ejecutan la versión correcta de Skype empresarial Server.
     
-- Los puertos se han configurado correctamente.
+- Tus puertos están configurados correctamente.
     
 - Los usuarios de prueba asignados tienen las credenciales necesarias.
     
@@ -249,7 +249,7 @@ Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabl
 Remove-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com"
 ```
 
-Con este comando se elimina toda la configuración de nodo de monitor del equipo en cuestión, lo que evita que se ejecuten transacciones sintéticas automáticamente. Sin embargo, el comando no desinstala el Skype para los archivos del sistema de Business Server o los archivos del agente System Center.
+Con este comando se elimina toda la configuración de nodo de monitor del equipo en cuestión, lo que evita que se ejecuten transacciones sintéticas automáticamente. Sin embargo, el comando no desinstala los archivos del agente de System Center ni los archivos de sistema de Skype empresarial Server.
   
 Cuando realizan pruebas, los nodos de monitor usan de forma predeterminada las direcciones URL externas de una organización, aunque se pueden configurar para que usen las direcciones URL internas. Esto permite que los administradores comprueben el acceso a la dirección URL de los usuarios de dentro de la red perimetral. Para configurar un nodo de monitor para que use direcciones URL internas en lugar de externas, establezca la propiedad UseInternalWebURls en True ($True):
   
@@ -325,13 +325,13 @@ Para ejecutar esta transacción sintética, se debe configurar lo siguiente:
     
 - Números de llamada directa a la extensión (DID) de cada cuenta de usuario.
     
-- Rutas de voz y las directivas de VoIP que permiten llamadas al número del receptor para llegar a la puerta de enlace de RTC.
+- Directivas de VoIP y rutas de voz que permiten que las llamadas al número del receptor lleguen a la puerta de enlace PSTN.
     
-- Una puerta de enlace de RTC que acepta la llamada y los medios que se usará para enrutar las llamadas a grupo de servidores principales de un receptor, en función del número marcado.
+- Una puerta de enlace RTC que acepta llamadas y medios que van a enrutar las llamadas al grupo de servidores principales de un destinatario, según el número marcado.
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Transacción sintética de almacén de contactos unificados
 
-La transacción sintética de almacén de contactos unificados comprueba la capacidad de Skype para Business Server recuperar los contactos en nombre de un usuario de Exchange.
+La transacción sintética de tienda de contactos unificada verifica la capacidad de Skype empresarial Server para recuperar contactos en nombre de un usuario de Exchange.
   
 Para ejecutar esta transacción, se deben cumplir las siguientes condiciones:
   
@@ -339,13 +339,13 @@ Para ejecutar esta transacción, se deben cumplir las siguientes condiciones:
     
 - Los usuarios de prueba deben tener un buzón de Exchange válido.
     
-Después de que se cumplen estas condiciones, puede ejecutar el siguiente cmdlet de Windows PowerShell para migrar las listas de contactos de los usuarios de prueba a Exchange:
+Después de que se cumplan estas condiciones, puede ejecutar el siguiente cmdlet de Windows PowerShell para migrar las listas de contactos de los usuarios de prueba a Exchange:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer -Setup
 ```
 
-El proceso de migración de las listas de contactos de los usuarios de prueba a Exchange puede tardar un tiempo. Para supervisar el progreso de la migración, la misma línea de comandos se puede ejecutar sin la - marca el programa de instalación:
+El proceso de migración de las listas de contactos de los usuarios de prueba a Exchange puede tardar un tiempo. Para supervisar el progreso de la migración, se puede ejecutar la misma línea de comandos sin la marca-Setup:
   
 ```
 Test-CsUnifiedContactStore -TargetFqdn pool0.contoso.com -UserSipAddress sip:testUser1@contoso.com -RegistrarPort 5061 -Authentication TrustedServer
@@ -363,18 +363,18 @@ Para habilitar la transacción sintética XMPP, se debe incluir un parámetro Xm
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
 ```
 
-En este ejemplo, un Skype para regla Business Server tendrá que existen para enrutar los mensajes de litwareinc.com a una puerta de enlace XMPP.
+En este ejemplo, tendrá que existir una regla de Skype empresarial Server para enrutar mensajes para litwareinc.com a una puerta de enlace XMPP.
 
 > [!NOTE]
-> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Transacción sintética de Video Interop Server (VIS)
 
-La transacción de servidor de interoperabilidad de vídeo (VISIBLES) requiere que descargue e instale los archivos de soporte técnico de transacciones sintéticas ([VISSTSupportPackage.msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
+La transacción sintética del servidor de interoperabilidad de vídeo requiere que descargue e instale los archivos de compatibilidad con transacciones sintéticas ([VISSTSupportPackage. msi](https://www.microsoft.com/en-us/download/details.aspx?id=46921)). 
   
-Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo .msi instala todos los archivos en la ruta de acceso siguiente: "%ProgramFiles%\VIS paquete de compatibilidad con transacciones sintéticas".
+Para instalar VISSTSupportPackage.msi, asegúrese de que las dependencias (en los requisitos del sistema) para el archivo msi ya estén instaladas. Ejecute VISSTSupportPackage.msi para realizar una instalación sencilla. El archivo. msi instala todos los archivos en la siguiente ruta de acceso: "paquete de compatibilidad con la transacción sintética de%ProgramFiles%\VIS".
   
-Para obtener más información acerca de cómo realizar la transacción sintética respecto, consulte la documentación para el cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
+Para obtener más información sobre cómo ejecutar la transacción sintética, consulte la documentación del cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV](https://technet.microsoft.com/en-us/library/dn985894.aspx) .
   
 ## <a name="changing-the-run-frequency-for-synthetic-transactions"></a>Cambiar la frecuencia de ejecución para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
@@ -385,15 +385,15 @@ Si es conveniente ejecutar transacciones sintéticas más a menudo, deberá redu
   
 Para cambiar la frecuencia de ejecución de las transacciones, siga estos pasos:
   
-1. Abrir System Center Operations Manager. Haga clic en la sección de creación. Haga clic en la sección reglas (debajo de creación).
+1. Abra System Center Operations Manager. Haga clic en la sección creación. Haga clic en la sección reglas (en creación).
     
-2. En la sección reglas, busque la regla con el nombre "Main sintéticas transacciones corredor colección regla de rendimiento".
+2. En la sección reglas, busque la regla con el nombre "regla principal de colección de rendimiento del Ejecutor de transacciones sintéticas".
     
-3. Haga clic con el botón secundario del mouse en la regla, seleccione reemplazos selecciona Anular la regla y, a continuación, seleccione "para todos los objetos de clase: Monitor de grupo de servidores".
+3. Haga clic con el botón derecho en la regla y seleccione reemplazos, seleccione invalidar la regla y, a continuación, seleccione "para todos los objetos de clase: monitor de grupo".
     
-4. En la ventana Propiedades de reemplazar, seleccione el nombre del parámetro "Frecuencia" y establezca el valor de reemplazar a la que desee.
+4. En la ventana Propiedades de reemplazo, seleccione nombre de parámetro "frecuencia" y establezca el valor de invalidación en el valor que desee.
     
-5. En la misma ventana, seleccione el módulo de administración a la que debe aplicarse este reemplazo.
+5. En la misma ventana, seleccione el módulo de administración en el que se debe aplicar este reemplazo.
     
 ## <a name="using-rich-logging-for-synthetic-transactions"></a>Uso de registro enriquecido para transacciones sintéticas
 <a name="special_synthetictrans"> </a>
@@ -408,7 +408,7 @@ Por este motivo, las transacciones sintéticas proporcionan registros enriquecid
     
 - La acción que se ha realizado (por ejemplo, crear, unirse o abandonar una conferencia, iniciar sesión en Skype Empresarial Server o enviar mensaje instantáneo).
     
-- Advertencia informativas, o mensajes de error generados cuando se ejecutó la actividad.
+- Mensajes de información, detallados, de advertencia o de error generados cuando se ejecutó la actividad.
     
 - Mensajes de registro SIP.
     
@@ -425,13 +425,13 @@ Test-CsRegistration -TargetFqdn atl-cs-001.litwareinc.com -OutLoggerVariable Reg
 ```
 
 > [!NOTE]
-> No anteponga el nombre de variable con el carácter $. Use, por ejemplo, el nombre de variable RegistrationTest, no $RegistrationTest. 
+> No anteponga el carácter $ al nombre de la variable. Use, por ejemplo, el nombre de variable RegistrationTest, no $RegistrationTest. 
   
 Cuando ejecute este comando, verá una salida similar a esta:
   
-Fqdn de destino: atl-cs-001.litwareinc.com resultado: error de latencia: 00:00:00 mensaje de Error: este equipo no tiene ningún certificado asignado. Diagnóstico: puede tener acceso a información mucho más detallada de este error que acaba el mensaje de error que se muestra aquí.
+FQDN de destino: atl-cs-001.litwareinc.com resultado: latencia de error: 00:00:00 mensaje de error: este equipo no tiene ningún certificado asignado. Diagnóstico: puede obtener acceso a información mucho más detallada sobre este error que solo el mensaje de error que se muestra aquí.
 
-Para obtener acceso a esta información en formato HTML, use un comando similar a éste para guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
+Para acceder a esta información en formato HTML, use un comando similar a este para guardar la información almacenada en la variable RegistrationTest en un archivo HTML:
   
 ```
 $RegistrationTest.ToHTML() | Out-File C:\Logs\Registration.html
@@ -445,7 +445,7 @@ $RegistrationTest.ToXML() | Out-File C:\Logs\Registration.xml
 
 Puede ver estos archivos con Windows Internet Explorer, Microsoft Visual Studio o con cualquier otra aplicación capaz de abrir archivos HTML/XML.
   
-Transacciones sintéticas que se ejecute desde dentro de System Center Operations Manager generará automáticamente estos archivos de registro de errores. Estos registros no se generarán si se produce un error en la ejecución antes de que Skype Empresarial Server PowerShell pueda cargar y ejecutar la transacción sintética. 
+Las transacciones sintéticas ejecutadas desde dentro de System Center Operations Manager generarán automáticamente estos archivos de registro por si se producen errores. Estos registros no se generarán si se produce un error en la ejecución antes de que Skype Empresarial Server PowerShell pueda cargar y ejecutar la transacción sintética. 
   
 > [!IMPORTANT]
-> De forma predeterminada, Skype para Business Server guarda los archivos de registro en una carpeta que no se comparte. Para hacer que estos registros fácilmente accesible, deben compartir esta carpeta. Por ejemplo: \\atl-watcher-001.litwareinc.com\WatcherNode. 
+> De forma predeterminada, Skype empresarial Server guarda los archivos de registro en una carpeta que no está compartida. Para que estos registros sean fácilmente accesibles, debe compartir esta carpeta. Por ejemplo: \\ATL-watcherer-001. litwareinc. com\WatcherNode. 

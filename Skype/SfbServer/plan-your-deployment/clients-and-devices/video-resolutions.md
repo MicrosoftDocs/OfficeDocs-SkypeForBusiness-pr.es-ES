@@ -1,11 +1,11 @@
 ---
-title: Skype para resoluciones de vídeo de cliente empresarial
+title: Resoluciones de video para clientes de Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
-description: 'Resumen: Revise los requisitos de vídeo del cliente durante la planeación de Skype para Business Server.'
-ms.openlocfilehash: ccd3d342aed39169b0eebd7c2a47b2c51fd6d601
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Revise los requisitos de video para el cliente mientras planea Skype empresarial Server.'
+ms.openlocfilehash: 15fd424f7ad2e11d473e49e271c7fbf1db83b45c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886455"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277282"
 ---
-# <a name="skype-for-business-client-video-resolutions"></a>Skype para resoluciones de vídeo de cliente empresarial
+# <a name="skype-for-business-client-video-resolutions"></a>Resoluciones de video para clientes de Skype empresarial
  
-**Resumen:** Revise los requisitos de vídeo del cliente durante la planeación de Skype para Business Server.
+**Resumen:** Revise los requisitos de video para el cliente mientras planea Skype empresarial Server.
   
-En este artículo se describe la compatibilidad de hardware de vídeo para Skype para las llamadas de vídeo empresarial y se describen los procedimientos para determinar la calidad de vídeo esperada para diversas equipo, tableta y las configuraciones de dispositivos móviles. 
+Este artículo describe la compatibilidad de hardware de vídeo para las videollamadas de Skype empresarial y describe cómo determinar la calidad de video prevista para varias configuraciones de equipos, tabletas y dispositivos móviles. 
   
-LOS profesionales de TI encontrarán esta información útil en la evaluación de la idoneidad de equipos portátiles ya está en uso en su organización, o en consideración para su uso. Asimismo, puede buscar el [Catálogo de soluciones](https://partnersolutions.skypeforbusiness.com/solutionscatalog) para obtener información sobre dispositivos específicos.
+Los profesionales de ti encontrarán esta información útil para evaluar la idoneidad de los equipos portátiles que ya están en uso en su organización o en consideración para su uso. También pueden buscar información en el [Catálogo de soluciones](https://partnersolutions.skypeforbusiness.com/solutionscatalog) sobre dispositivos específicos.
   
-## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Escritorio de Windows, Mac y tablet requisitos de vídeo y capacidades
+## <a name="windows-desktop-mac-and-tablet-video-requirements-and-capabilities"></a>Requisitos y capacidades de vídeo de escritorio de Windows, Mac y tableta
 
-Skype para la empresa utiliza la aceleración de hardware de vídeo de codificación y descodificación basada en el estándar H.264, MPEG-4 parte 10 avanzada codificación de vídeo. Esto permite que los equipos con velocidades de reloj de CPU inferiores para codificar y descodificar vídeo mayor resolución. Los requisitos de hardware de vídeo varían en función de la configuración del equipo y de la resolución de vídeo que se desea.
+Skype empresarial usa la aceleración de hardware para la codificación y descodificación de video basadas en el estándar de codificación de video avanzado H. 264/MPEG-4, parte 10. Esto permite que los equipos con menor velocidad de reloj de la CPU codifiquen y descodifiquen video de alta resolución. Los requisitos de hardware de vídeo varían en función de la configuración del equipo y de la resolución de vídeo que se desea.
   
-Vea también [los requisitos de hardware de Windows y Mac](https://products.office.com/en-us/office-system-requirements).
+Consulte también [los requisitos de hardware de Windows y Mac](https://products.office.com/en-us/office-system-requirements).
   
 ### <a name="video-hardware-requirements"></a>Requisitos de hardware de vídeo
 
 |**Característica**|**Requisito**|
 |:-----|:-----|
-|Descodificación H.264 acelerada por hardware mediante DirectX Video Acceleration (DXVA)  <br/> |• Tarjeta de gráficos debe admitir DirectX 9.0 y debe exponer el modo de decodificación DXVA2_ModeH264_VLD_NoFGT y la API de DirectX 9.  <br/> • Debe estar instalado el controlador más reciente de la tarjeta de gráficos.  <br/> |
-|Codificación H.264 acelerada por hardware: requisitos del conjunto de chips  <br/> |Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware Intel:  <br/> • Segunda y tercera generación Intel HD Graphics 2000, 2500, 3000 y 4000 conjuntos de chips (o versiones posteriores) con codificadores de vídeo de hardware integrados. Se requiere la instalación del controlador Intel HD Graphics 15.28.9.2884 o el controlador más reciente que contenga lo siguiente:  <br/> Controlador de pantalla • 9.17.10.2884 o el controlador más reciente  <br/> • Foundation de medios de hardware transformar versión (HMFT) 3.12.10.31 o la HMFT más reciente  <br/> Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware AMD:  <br/> • Motor de códec de vídeo de AMD, que está disponible en varias tarjetas gráficas independientes y en integrada acelerada por unidades de procesamiento de procesadores AMD una serie de acelerado. El controlador del motor de códec de vídeo de AMD 9.12.0.0 o superior debe estar instalado.  <br/> |
-|Codificación H.264 acelerada por hardware: requisitos de la cámara  <br/> |Cámaras de vídeo USB con codificador de hardware H.264 integrado que cumplan la especificación USB Video Class (UVC) versión 1.5.  <br/> **Nota:** Skype para la empresa es compatible con cámaras de 1,5 UVC con Windows 8 o Windows 8.1, que incluye compatibilidad con UVC 1,5. Debido a que Windows 7 no incluye compatibilidad con 1,5 UVC, Skype para la empresa trata UVC 1,5 cámaras como cámaras regulares sin compatibilidad con la codificación de hardware. <br/> |
+|Descodificación H.264 acelerada por hardware mediante DirectX Video Acceleration (DXVA)  <br/> |• La tarjeta gráfica debe admitir DirectX 9,0 y debe exponer el modo de descodificación de DXVA2_ModeH264_VLD_NoFGT y la API de DirectX 9.  <br/> • El controlador de la tarjeta gráfica más reciente debe estar instalado.  <br/> |
+|Codificación H.264 acelerada por hardware: requisitos del conjunto de chips  <br/> |Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware Intel:  <br/> • Chipsets Intel HD de segunda y tercera generación 2000, 2500, 3000 y 4000 (o versiones posteriores) con codificadores de vídeo de hardware integrados. Se requiere la instalación del controlador Intel HD Graphics 15.28.9.2884 o el controlador más reciente que contenga lo siguiente:  <br/> • 9.17.10.2884 de controlador de vídeo o el controlador más reciente  <br/> • Hardware Media Foundation Transform (HMFT) versión 3.12.10.31 o la última HMFT  <br/> Se admiten las siguientes soluciones de codificación de vídeo acelerada por hardware AMD:  <br/> • Procesador AMD de códecs de video, disponible en varias tarjetas de gráficos independientes y en unidades de procesamiento aceleradas integradas de procesadores acelerados AMD A-Series. Debe instalarse el controlador del motor de códecs de vídeo AMD 9.12.0.0 o versiones posteriores.  <br/> |
+|Codificación H.264 acelerada por hardware: requisitos de la cámara  <br/> |Cámaras de vídeo USB con codificador de hardware H.264 integrado que cumplan la especificación USB Video Class (UVC) versión 1.5.  <br/> **Nota:** Skype para empresas admite cámaras UVC 1,5 con Windows 8 o Windows 8,1, que incluye compatibilidad con UVC 1,5. Debido a que Windows 7 no incluye compatibilidad con UVC 1,5, Skype para empresas trata las cámaras de UVC 1,5 como cámaras normales sin compatibilidad con la codificación de hardware. <br/> |
    
 ### <a name="determining-h264-video-encoding-and-decoding-capabilities"></a>Determinación de las capacidades de codificación y descodificación de vídeo H.264
 
@@ -97,7 +97,7 @@ Las siguientes tres tablas explican la capacidad máxima de codificación y desc
    
 ## <a name="mobile-device-video-capabilities"></a>Capacidades de vídeo de dispositivos móviles
 
-En la siguiente tabla se describe las resoluciones de vídeo máximas disponibles en dispositivos móviles compatibles. Para obtener más información acerca de la compatibilidad de dispositivos móviles, [comparación de características de cliente móvil de Skype para la empresa](mobile-feature-comparison.md).
+En la siguiente tabla se describen las resoluciones de video máximas disponibles en los dispositivos móviles compatibles. Para obtener más información sobre la compatibilidad de dispositivos móviles, [comparación de características de clientes móviles para Skype empresarial](mobile-feature-comparison.md).
   
 |**Característica**|**Windows Phone**|**iPhone**|**iPad**|**Android**|
 |:-----|:-----|:-----|:-----|:-----|

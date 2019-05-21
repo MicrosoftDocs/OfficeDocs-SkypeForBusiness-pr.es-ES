@@ -1,25 +1,25 @@
 ---
-title: Probar la conferencia de acceso telefónico en Skype para Business Server
+title: Probar las conferencias de acceso telefónico local en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
-description: 'Resumen: Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: 410cbaa9319130dcf4a98c23360362211869e52f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a probar las conferencias de acceso telefónico local en Skype empresarial Server.'
+ms.openlocfilehash: cd1192950ff7c8b609655d78bbc57dfdbc4c1710
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924888"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280365"
 ---
-# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar la conferencia de acceso telefónico en Skype para Business Server
+# <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Probar las conferencias de acceso telefónico local en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo probar la conferencia de acceso telefónico en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo probar las conferencias de acceso telefónico local en Skype empresarial Server.
   
 Como comprobación final de la configuración de las conferencias de acceso telefónico local, puede buscar planes de marcado que tengan una región de conferencia de acceso telefónico local que no sea usada por ningún número de acceso, así como números de acceso que no tengan asignada una región de conferencia de acceso telefónico local. También debe comprobar que la página web Configuración de la conferencia de acceso telefónico local y los números de acceso telefónico local funcionan correctamente.
   
@@ -78,7 +78,7 @@ Para comprobar que la página web Configuración de la conferencia de acceso tel
    Test-CsDialInConferencing -UserSipAddress sip:testuser1@contoso.com -UserCredential $credentials -TargetFqdn <serverName>.<domainName>.com -Verbose
    ```
 
-    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. -Verbose marca proporciona más información detallan sobre el acceso de cuántas se han encontrado números y detalles acerca de ellos.
+    El informe resultante indica si hay errores, junto con la información de diagnóstico específica. La marca-verbose proporciona información más detallada sobre cuántos números de acceso se han encontrado y detalles sobre ellos.
     
 Para obtener más información, consulte [Test-CsDialInConferencing](https://docs.microsoft.com/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
   

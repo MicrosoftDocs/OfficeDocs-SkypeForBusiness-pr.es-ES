@@ -1,29 +1,29 @@
 ---
-title: Planeación de conferencias en Skype para Business Server
+title: Plan para conferencias de acceso telefónico local en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
-description: 'Resumen: Lea este tema para obtener más información acerca de la planeación para conferencias de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: 6df8e06ecbbf6da67d34b7b6332ed2f2ca93e50c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre la planificación de conferencias de acceso telefónico local en Skype empresarial Server.'
+ms.openlocfilehash: e5c058f614ca7201815cb623d45fd28c18520b85
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885514"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277331"
 ---
-# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planeación de conferencias en Skype para Business Server
+# <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Plan para conferencias de acceso telefónico local en Skype empresarial Server
  
-**Resumen:** Lea este tema para obtener más información acerca de la planeación para conferencias de acceso telefónico en Skype para Business Server.
+**Resumen:** Lea este tema para obtener información sobre la planificación de conferencias de acceso telefónico local en Skype empresarial Server.
   
-Conferencia de acceso telefónico es una característica opcional de Skype para servidor empresarial que permite a los asistentes a la reunión para unirse a la parte de audio de una reunión mediante una llamada de la reunión desde un teléfono. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional. En este tema se describe lo que necesita considerar antes de la implementación de la conferencia de acceso telefónico local en la organización. 
+Las conferencias de acceso telefónico local son una característica opcional de Skype empresarial Server que permite a los asistentes a la reunión unirse a la parte de audio de una reunión llamando a la reunión desde un teléfono. La conferencia de acceso telefónico local es un subconjunto de la conferencia de audio y requiere configuración adicional. En este tema se describe lo que necesita considerar antes de la implementación de la conferencia de acceso telefónico local en la organización. 
   
-Algunos de los componentes necesarios para conferencias de acceso telefónico son específicos a la conferencia de acceso telefónico y algunos son componentes de Enterprise Voice. Aunque la conferencia de acceso telefónico local usa algunos de los mismos componentes que usa la telefonía IP empresarial, puede implementar la conferencia de acceso telefónico local aunque no implemente la telefonía IP empresarial. En esta sección se describen los componentes que se necesitan para las conferencias de acceso telefónico local. Para obtener más información acerca de cómo planear una solución completa de Enterprise Voice, vea [Planear la solución de Enterprise Voice en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
+Algunos de los componentes necesarios para las conferencias de acceso telefónico local son específicos de las conferencias de acceso telefónico local y otros son componentes de voz de empresa. Aunque la conferencia de acceso telefónico local usa algunos de los mismos componentes que usa la telefonía IP empresarial, puede implementar la conferencia de acceso telefónico local aunque no implemente la telefonía IP empresarial. En esta sección se describen los componentes que se necesitan para las conferencias de acceso telefónico local. Para obtener más información sobre cómo planear una solución de voz empresarial completa, consulte [planear la solución de voz empresarial en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 La conferencia de acceso telefónico local requiere que proporcione conectividad a la red telefónica conmutada (RTC) al implementar un servidor de mediación. Además de implementar un servidor de mediación, necesita tener en cuenta los siguientes puntos para permitir la conferencia de acceso telefónico local en la organización:
   
@@ -38,7 +38,7 @@ La conferencia de acceso telefónico local requiere que proporcione conectividad
 - Asistencia para usuarios de empresa y anónimos
     
 > [!NOTE]
-> Si implementa la conferencia de acceso telefónico, debe implementarlo en cada grupo de servidores donde implementar Skype para conferencias de Business Server. No es necesario que asigne números de acceso (los números a los que llaman los participantes para unirse a una conferencia) en cada uno de los grupos de servidores, pero necesitará implementar la característica de acceso telefónico local en todos ellos. Este requisito es compatible con la característica de nombre grabado cuando un usuario llama a un número de acceso de un grupo de servidores para unirse a una Skype para conferencia de Business Server en un grupo de servidores diferente. 
+> Si implementa las conferencias de acceso telefónico local, debe implementarlas en todos los grupos donde implementará las conferencias de Skype empresarial Server. No es necesario que asigne números de acceso (los números a los que llaman los participantes para unirse a una conferencia) en cada uno de los grupos de servidores, pero necesitará implementar la característica de acceso telefónico local en todos ellos. Este requisito admite la característica de nombre grabado cuando un usuario llama a un número de acceso desde un grupo para unirse a una conferencia de Skype empresarial Server en un grupo diferente. 
   
 ## <a name="plan-for-pstn-connectivity"></a>Planificar la conectividad con RTC
 
@@ -48,7 +48,7 @@ Puede implementar un servidor de mediación en un sitio central o en un sitio de
   
 Puede implementar una puerta de enlace RTC en un sitio central o en un sitio de sucursal. En un sitio de sucursal, la puerta de enlace RTC puede ser independiente o un componente de la aplicación de sucursal con funciones de supervivencia.
   
-Para obtener información detallada sobre el servidor de mediación y requisitos de puerta de enlace de RTC, consulte [componente del servidor de mediación en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implementar un servidor de mediación en el generador de Skype para Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)y [definir una puerta de enlace de topología Generador de Skype para Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
+Para obtener más información sobre los requisitos del servidor de mediación y la puerta de enlace RTC, consulte [componente servidor de mediación en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md), [implementar un servidor de mediación en el generador de topología en Skype empresarial Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)y [definir una puerta de enlace en la topología Generador en Skype empresarial Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Plan para los planes de marcado, números de acceso y las regiones de conferencia
 
@@ -76,19 +76,19 @@ Antes de configurar los planes de marcado, es importante planear qué nombres de
     
 - De forma predeterminada, todos los números de acceso telefónico local de la región se incluyen en la invitación a la reunión.
     
-- Es importante asignar un nombre a las regiones de modo que puedan reconocerse claramente. El usuario puede usar los nombres de las regiones para cambiar una región de una reunión de modo que los distintos números de acceso se incluyan en la invitación. (Cuando los usuarios utilizar Outlook para programar una reunión, el usuario usa el complemento de reunión en línea para Skype para la empresa para cambiar la región).
+- Es importante asignar un nombre a las regiones de modo que puedan reconocerse claramente. El usuario puede usar los nombres de las regiones para cambiar una región de una reunión de modo que los distintos números de acceso se incluyan en la invitación. (Cuando los usuarios usan Outlook para programar una reunión, el usuario usa el complemento de reunión en línea para Skype empresarial para cambiar la región).
     
 - Las regiones necesitan asignarse de tal modo que cualquier invitado que quiera obtener acceso a una conferencia pueda ver un número de acceso local en la invitación a la misma.
     
-- Puede configurar el orden en que el acceso números dentro de una región aparecen en la página Configuración de conferencia de acceso telefónico (y, por lo tanto, el orden en que aparecen en la invitación a la conferencia) mediante el uso de Skype para los cmdlets del Shell de administración de servidor empresarial.
+- Puede configurar el orden en el que aparecen los números de acceso dentro de una región en la página Configuración de conferencia de acceso telefónico local (y, por tanto, el orden en el que aparecen en la invitación a la Conferencia) con los cmdlets del shell de administración de Skype empresarial Server.
     
 - Cualquier usuario puede llamar al número de acceso telefónico local que desee para unirse a una conferencia desde cualquier ubicación.
     
-Para obtener más información acerca de cómo crear un plan de marcado, consulte [crear o modificar un plan de marcado de Skype para Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear o modificar una regla de normalización en Skype para la empresa](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
+Para obtener más información sobre cómo crear un plan de marcado, consulte [crear o modificar un plan de marcado en Skype empresarial Server](../../deploy/deploy-enterprise-voice/dial-plans.md) y [crear o modificar una regla de normalización en Skype empresarial](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planificar directorios de conferencia
 
-Directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que usa un participante para unirse a una conferencia cuando se usa Skype para la empresa y el identificador de conferencia sólo numérico que usa un participante de la conferencia de acceso telefónico para unirse a la conferencia. El formato del identificador de conferencia es el siguiente:
+Los directorios de conferencia mantienen una asignación entre el identificador de reunión alfanumérico que un participante usa para unirse a una conferencia cuando se usa Skype empresarial y el identificador de conferencia de acceso telefónico local que usa un participante de conferencia de acceso telefónico local para unirse a la Conferencia. El formato del identificador de conferencia es el siguiente:
   
 ```
 <housekeeping digit (1 digit)><conference directory (usually 1-2 digits)><conference number (variable number of digits><check digit (1 digit)>
@@ -98,7 +98,7 @@ Si crea varios directorios de conferencia, se asegurará de que los Id. de confe
   
 ## <a name="plan-for-a-conferencing-policy-that-allows-dial-in-access"></a>Planificar una directiva de conferencia que permite acceso telefónico local
 
-Las conferencias deben habilitarse para acceso telefónico al configurar las directivas de conferencia. De forma predeterminada, las conferencias habilitadas para el acceso telefónico local incluyen la siguiente información en la invitación a la conferencia:
+Las conferencias deben estar habilitadas para el acceso telefónico al configurar las directivas de conferencia. De forma predeterminada, las conferencias habilitadas para el acceso telefónico local incluyen la siguiente información en la invitación a la conferencia:
   
 - Un identificador de conferencia numérico que identifica la conferencia
     
@@ -106,16 +106,16 @@ Las conferencias deben habilitarse para acceso telefónico al configurar las dir
     
 - Un vínculo a una página de Configuración de conferencias de acceso telefónico local, que contiene una lista completa de números de acceso con sus idiomas asociados; un lugar para crear, restablecer o desbloquear números de identificación personal (PIN); y otra información, como, por ejemplo, los controles de tono de marcado de frecuencia múltiple (DTMF)
     
-Para obtener más información acerca de las directivas de conferencia, vea [Configure telefónico en Skype para Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) y [administrar las directivas de conferencia en Skype para Business Server](../../manage/conferencing/conferencing-policies.md).  
+Para obtener más información sobre las directivas de conferencia, consulte [configurar conferencias de acceso telefónico local en Skype empresarial Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) y [Administrar directivas de conferencia en Skype empresarial Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Asistencia para usuarios de empresa y anónimos
 
-Las conferencias de acceso telefónico local admiten tanto a usuarios de empresa como a usuarios anónimos. Los usuarios de empresa tienen las credenciales de los servicios de dominio de Active Directory y Skype para las cuentas de Business Server dentro de su organización. Los usuarios anónimos no tienen credenciales de empresa en la organización. En el contexto de la conferencia de acceso telefónico, un usuario en una organización asociada externa que utiliza la RTC para conectarse a una conferencia se trata como un usuario anónimo. A diferencia de lo que ocurre en otros contextos, los usuarios federados no se autentican para la conferencia de acceso telefónico local.
+Las conferencias de acceso telefónico local admiten tanto a usuarios de empresa como a usuarios anónimos. Los usuarios empresariales tienen credenciales de servicios de dominio de Active Directory y cuentas de Skype empresarial Server dentro de su organización. Los usuarios anónimos no tienen credenciales de empresa en la organización. En el contexto de conferencias de acceso telefónico local, un usuario de la organización de un socio federado que usa la RTC para conectarse a una conferencia se trata como un usuario anónimo. A diferencia de lo que ocurre en otros contextos, los usuarios federados no se autentican para la conferencia de acceso telefónico local.
   
 Los usuarios de empresa o coordinadores de la conferencia que se unen a una conferencia habilitada para el acceso telefónico local, marcan uno de los números de acceso a la conferencia y, luego, se les pide que escriban el identificador de la conferencia. Si todavía no se ha unido a la reunión ningún coordinador, los usuarios pueden escribir su extensión (o número de teléfono completo) de comunicaciones unificadas (UC) y el PIN, o bien esperar a que un coordinador les admita. El organizador de la reunión puede unirse a la reunión como coordinador escribiendo solo el PIN. El servidor front-end usa la combinación de la extensión o número de teléfono completo y el PIN para asignar únicamente usuarios de empresa a sus credenciales de Active Directory. Como resultado, los usuarios de empresa se pueden autenticar e identificar por su nombre en la conferencia. Los usuarios de empresa también pueden asumir un rol de conferencia definido previamente por el organizador.
   
 > [!NOTE]
-> Los usuarios de empresa que se conectan desde un teléfono IP de office o de Skype para Business Server Attendant no se les pide su número de teléfono porque ya se autentican. 
+> Los usuarios empresariales que llamen desde un teléfono de Office IP o desde el operador de Skype empresarial Server no tienen el mensaje de su número de teléfono porque ya están autenticados. 
   
 Los usuarios anónimos que deseen unirse a una conferencia de acceso telefónico local, necesitan marcar uno de los números de acceso a la conferencia y, luego, se les pedirá que escriban el identificador de la conferencia. A los usuarios anónimos sin autenticar también se les pide que registren su nombre. El nombre grabado identifica a los usuarios sin autenticar en la conferencia. No se admiten usuarios anónimos en la conferencia hasta que se haya unido a ella al menos un coordinador o un usuario autenticado, y no se les puede asignar un rol definido previamente.
   

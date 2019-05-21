@@ -1,29 +1,29 @@
 ---
-title: Administrar la purga de datos archivados de Skype para Business Server
+title: Administrar la purga de datos archivados en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
-description: 'Resumen: Obtenga información sobre cómo administrar el proceso de purga de los datos archivados de Skype para Business Server.'
-ms.openlocfilehash: e6bc7cf077a17a3f4f6eaaf9f3026d170ddacfbd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar la purga de datos archivados en Skype empresarial Server.'
+ms.openlocfilehash: 193e17791290b384552542129d8d89c20296f109
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902843"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278394"
 ---
-# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la purga de datos archivados de Skype para Business Server
+# <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Administrar la purga de datos archivados en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo administrar el proceso de purga de los datos archivados de Skype para Business Server.
+**Resumen:** Aprenda a administrar la purga de datos archivados para Skype empresarial Server.
   
-La base de datos de archivado no está pensada para la retención a largo plazo y Skype para Business Server no proporciona una solución de exhibición de documentos electrónicos (búsqueda) para los datos archivados, por lo que necesitan datos va a mover a otro almacén. Skype para Business Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados en transcripciones que admite búsquedas. Es preciso que defina cuándo purgar los datos archivados y exportados. 
+La base de datos de archivado no está pensada para la retención a largo plazo, y Skype empresarial Server no proporciona una solución de detección electrónica (búsqueda) para los datos archivados, por lo que es necesario mover los datos a otro almacenamiento. Skype empresarial Server proporciona una herramienta de exportación de sesión que puede usar para exportar datos archivados en transcripciones que se pueden buscar. Es preciso que defina cuándo purgar los datos archivados y exportados. 
   
-Para obtener más información acerca de la exportación de datos mediante el cmdlet **Export-CsArchivingData** , vea [Exportar datos archivados en Skype para Business Server](export-archived-data.md).
+Para obtener más información sobre cómo exportar datos mediante el cmdlet **Export-CsArchivingData** , consulte [exportar datos archivados en Skype empresarial Server](export-archived-data.md).
   
 ## <a name="manage-purging-of-data-by-using-the-control-panel"></a>Administrar la purga de datos con el Panel de control
 
@@ -31,7 +31,7 @@ Para administrar la purga de datos archivados con el Panel de control:
   
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
     
@@ -55,7 +55,7 @@ Puede administrar la purga de datos archivados con los siguientes cmdlets de Win
     
 - **Invoke-CsArchivingDatabasePurge** permite purgar los registros de forma manual desde la base de datos de archivado.
     
-Por ejemplo, el siguiente comando permite la purga de todos los datos archivados. Después de ejecuta este comando, Skype para Business Server depurará todos los registros de archivado más antiguos que el valor especificado para el parámetro KeepArchivingDataForDays. 
+Por ejemplo, el siguiente comando permite la purga de todos los datos archivados. Después de ejecutar este comando, Skype empresarial Server purgará todos los registros de archivado anteriores al valor especificado para el parámetro KeepArchivingDataForDays. 
   
 ```
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
@@ -67,7 +67,7 @@ El siguiente comando limita la purga de los registros archivados que se han expo
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Después de ejecuta este comando, Skype para Business Server depurará sólo los registros de archivado que cumplan dos criterios: 1) son más antiguos que el valor especificado para el parámetro KeepArchivingDataForDays; y, 2) se hayan exportado mediante el cmdlet **Export-CsArchivingData** .
+Después de ejecutar este comando, Skype empresarial Server solo purgará los registros de archivado que cumplan con dos criterios: 1) son anteriores al valor especificado para el parámetro KeepArchivingDataForDays. y 2) se han exportado con el cmdlet **Export-CsArchivingData** .
   
 Para deshabilitar la purga automatizada de los registros de archivado, establezca el parámetro EnablePurging en False ($False):
   
@@ -75,7 +75,7 @@ Para deshabilitar la purga automatizada de los registros de archivado, establezc
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 ```
 
-En el ejemplo siguiente se usa el cmdlet **Invoke-CsArchivingDatabasePurge** para purgar todos los registros de más de 24 horas de antigüedad de la base de datos de archivado en atl-sql-001.contoso.com. Para asegurarse de que se eliminan todos los registros, incluidos los registros que no se han exportado, el parámetro PurgeExportedArchivesOnly se establece en False ($False).
+En el ejemplo siguiente se usa el cmdlet **Invoke-CsArchivingDatabasePurge** para purgar todos los registros con más de 24 horas de antigüedad de la base de datos de archivado en ATL-SQL-001.contoso.com. Para asegurarse de que se eliminan todos los registros, incluidos los registros que no se han exportado, el parámetro PurgeExportedArchivesOnly se establece en False ($False).
   
 ```
 Invoke-CsArchivingDatabasePurge -Identity "service:ArchivingDatabase:atl-sql-001.contoso.com" -PurgeArchivingDataOlderThanHours 24 -PurgeExportedArchivesOnly $False

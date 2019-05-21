@@ -1,54 +1,54 @@
 ---
-title: API de datos para el panel de calidad de llamada (CQD) en Skype para Business Server
+title: API de datos para el panel de calidad de llamadas (CQD) en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
-description: 'Resumen: Obtenga información sobre la API de Rata para el panel de calidad de llamada. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: e1143752031406885a77e5afab975463d5732220
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la API rata para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: f74f581a3d46ba7cf75daf92df5ade16dab510d0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930703"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274803"
 ---
-# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de datos para el panel de calidad de llamada (CQD) en Skype para Business Server
+# <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>API de datos para el panel de calidad de llamadas (CQD) en Skype empresarial Server
  
-**Resumen:** Obtenga información acerca de la API de Rata para el panel de calidad de llamada. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Más información sobre la API rata para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La API de datos proporciona acceso mediante programación para llamar al panel de calidad de Skype para Business Server.
+La API de datos proporciona acceso mediante programación para el panel de calidad de llamadas de Skype empresarial Server.
   
-## <a name="data-api-for-call-quality-dashboard"></a>API de datos para el panel de calidad de llamada
+## <a name="data-api-for-call-quality-dashboard"></a>API de datos para el panel de calidad de llamadas
 
-La API de datos ofrece una interfaz de consulta para el cubo de QoE. La API de datos es una API de REST para trabajar con la base de datos multidimensional que proporciona agregadas métricas de QoE en función de los filtros y las dimensiones especificadas.
+La API de datos ofrece una interfaz de consulta al cubo de QoE. La API de datos es una API de REST para trabajar con bases de datos multidimensionales que proporcionan métricas de QoE agregadas basadas en las dimensiones y filtros especificados.
   
-Las operaciones de REST se incluyen en la siguiente tabla.
+Las operaciones de REST se incluyen en la tabla siguiente.
   
 
 |**Operación**|**Descripción**|
 |:-----|:-----|
-|[Obtener cubo](get-cube.md) <br/> |Obtener la lista de dimensiones disponibles y las medidas.  <br/> |
-|[Obtener miembros de dimensión](get-dimension-members.md) <br/> |Operación de obtención de miembros de dimensión, devuelve la lista de miembros de una dimensión específica. También proporcionan la capacidad de filtrar la lista de miembros y obtener un subconjunto, para reducir el costo de transferencia de cable.  <br/> |
-|[Ejecutar consulta](run-query.md) <br/> |Ejecutar consulta operación proporciona la capacidad de ejecutar una consulta en el cubo en función de los filtros, las medidas y dimensiones especificadas y volver atrás los datos.  <br/> |
-|[Borrar caché](clear-cache.md) <br/> |Operación de caché borrado elimina la memoria caché en el servidor de consultas y los datos. Esto restablecerá la memoria caché y se va a obtener datos actualizados desde QoE cubo más adelante para nuevas solicitudes.  <br/> |
-|[Obtener integración de registro](get-integration-log.md) <br/> |Obtenga la operación devuelve una lista de entradas de registro que describe las actividades en el cubo de QoE de procesamiento de registro de integración.  <br/> |
+|[Obtener cubo](get-cube.md) <br/> |Obtener la lista de dimensiones y medidas disponibles.  <br/> |
+|[Obtener miembros de dimensión](get-dimension-members.md) <br/> |Operación de obtención de miembros de dimensión devuelve la lista de miembros de una dimensión específica. También ofrece la posibilidad de filtrar la lista de miembros y obtener un subconjunto, para reducir el coste de la transferencia bancaria.  <br/> |
+|[Ejecutar consulta](run-query.md) <br/> |Ejecutar la operación de consulta proporciona la capacidad de ejecutar una consulta en el cubo basándose en las dimensiones, medidas y filtros especificados y devolver los datos.  <br/> |
+|[Borrar caché](clear-cache.md) <br/> |Operación de borrar caché elimina la caché del servidor de consultas y datos. Esto restablecerá la memoria caché y recibirá datos nuevos de la actualización del cubo de QoE después para solicitudes nuevas.  <br/> |
+|[Obtener integración de registro](get-integration-log.md) <br/> |La operación obtener registro de integración devuelve una lista de entradas de registro que describen las actividades en el procesamiento del cubo QoE.  <br/> |
 |[Obtener últimos datos de integración](get-last-integration-data.md) <br/> |Obtenga los últimos datos de integración del cubo.  <br/> |
    
- **Recursos de origen cruzado (CORS) compatibilidad con API de datos de uso compartido**
+ **Compatibilidad con el uso compartido de recursos entre orígenes (CORS) para la API de datos**
   
-API de datos admite el uso compartido de recursos de origen cruzado (CORS). CORS es una característica HTTP que permite a una aplicación web que se ejecuta en un dominio tener acceso a recursos en otro dominio. Los exploradores Web implementan una restricción de seguridad que se conoce como directiva del mismo origen de [Directiva del mismo origen](https://www.w3.org/Security/wiki/Same_Origin_Policy) que impide que una página web de llamar a las API en un dominio diferente. CORS proporciona una forma segura para permitir que un dominio (el dominio de origen) para llamar a las API en otro dominio. Vea la [especificación de CORS](https://www.w3.org/TR/cors/) para obtener información detallada en CORS.
+La API de datos admite el uso compartido de recursos de origen cruzado (CORS). CORS es una característica HTTP que permite que una aplicación web que se ejecuta en un dominio tenga acceso a los recursos de otro dominio. Los exploradores Web implementan una restricción de seguridad conocida como una directiva de mismo origen de la [Directiva](https://www.w3.org/Security/wiki/Same_Origin_Policy) de mismo origen que impide que una página web llame a las API de otro dominio. CORS ofrece una manera segura de permitir que un dominio (el dominio de origen) llame a las API de otro dominio. Consulta la [especificación de CORS](https://www.w3.org/TR/cors/) para obtener más información sobre CORS.
   
  **Habilitar CORS para la API de datos**
   
- El siguiente es un fragmento del archivo web.config de API de datos, que muestra dos dominios incluidos en la configuración de la aplicación corsTrustedOrigin. Todas las solicitudes realizadas por los scripts que se cargan desde estos servidores son de confianza mediante la API de datos.
+ A continuación se muestra un extracto de la API de datos Web. config, que muestra dos dominios que aparecen en la configuración de la aplicación de corsTrustedOrigin. Todas las solicitudes realizadas por los scripts cargados desde estos servidores son de confianza para la API de datos.
   
-No olvide incluir el protocolo exacta, el nombre de host y el puerto (si hay alguno). No para colocar cualquiera diagonal carácter (/) al final. Pueden especificarse varias entradas, separe con comas.
+Recuerde incluir el protocolo, el nombre de host y el puerto exactos (si corresponde). No coloque ningún carácter de barra diagonal (/) al final. Se pueden especificar varias entradas separándolas con comas.
   
 ```
 <configuration>

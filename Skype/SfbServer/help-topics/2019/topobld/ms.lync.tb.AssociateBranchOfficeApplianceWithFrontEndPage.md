@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AssociateBranchOfficeApplianceWithFrontEndPage
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 607709a0-1617-44f3-bf68-fec1129250a4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Para asociar la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia a un grupo de servidores Front-End o un servidor Standard Edition, en la página Seleccionar el Front-End del grupo, seleccione el grupo de servidores Front-End o un servidor Standard Edition en la lista desplegable grupo de Front-End. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 0cbcfc2e4f5c0d6f4badfffd2491d7b0d95445bd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para asociar la aplicación de rama superviviente o el servidor de sucursal que puede mantenerse con un grupo de servidores front-end o un servidor Standard Edition, en la página seleccionar el grupo de servidores front-end, seleccione el grupo de servidores front-end o un servidor Standard Edition en la lista desplegable grupo de servidores front-end. Haga clic en siguiente para continuar.
+ms.openlocfilehash: ad928089aef3609948485b8bdae837a58c0d90d3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887233"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281342"
 ---
 # <a name="associate-branch-office-appliance-with-front-end"></a>Asociar aplicación de sucursal con front-end
  
-Para asociar la aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia a un grupo de servidores Front-End o un servidor Standard Edition, en la página **Seleccionar el grupo de servidores Front-End** , seleccione el grupo de servidores Front-End o un servidor Standard Edition en el **grupo de servidores Front-End** lista desplegable. Haga clic en **Siguiente** para continuar.
+Para asociar la aplicación de sucursal reactivable o el servidor de sucursal con la supervivencia con un grupo de servidores front-end o un servidor Standard Edition, en la página **seleccionar el grupo de servidores Front** -end, seleccione el grupo de servidores front-end o un servidor Standard Edition en el **grupo de servidores front-end** lista desplegable. Haga clic en **Siguiente** para continuar.
   
 

@@ -1,10 +1,10 @@
 ---
-title: Planeación de características de administración de llamadas de Skype para la empresa
+title: Planear las características de administración de llamadas en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
-description: Información general sobre las características de administración de llamadas admitidos de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: bc7e37034d61d9c5c6b8ab7a266382b8405fa6bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Información general de las características de administración de llamadas admitidas en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: 9c1bdc73ea4656fa2e0d352988f61d6db428a80c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33909270"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277065"
 ---
-# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planeación de características de administración de llamadas de Skype para la empresa
+# <a name="plan-for-call-management-features-in-skype-for-business"></a>Planear las características de administración de llamadas en Skype empresarial
 
-Información general sobre las características de administración de llamadas admitidos de Skype para Business Server Enterprise Voice.
+Información general de las características de administración de llamadas admitidas en Skype empresarial Server Enterprise Voice.
 
-Llamada de Enterprise Voice las características de administración controlan cómo las llamadas entrantes se enrutan y se responde. Skype para Business Server proporciona características de administración de la siguiente llamada:
+Las características de administración de llamadas de telefonía de empresa controlan cómo se enrutan y responden las llamadas entrantes. Skype empresarial Server proporciona las siguientes características de administración de llamadas:
 
-- **Estacionamiento de llamadas**: permite a los usuarios de voz estacionar temporalmente una llamada y recuperarla desde el mismo o a otro teléfono.
+- **Parque de llamadas**: permite a los usuarios de voz detener temporalmente una llamada y, a continuación, retomarla del mismo o de otro teléfono.
 
-- **Recogida de grupo**: permite a los usuarios de voz recoger las llamadas que suenan para otros usuarios de voz que se asignan a grupos de recogida de llamadas.
+- **Recogida de grupos**: permite a los usuarios de voz atender llamadas que están sonando para otros usuarios de voz que están asignados a grupos de recogida de llamadas.
 
-- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos y respuestas o preguntas de voz interactiva (IVR) de respuesta de búsqueda.
+- **Grupo de respuesta**: enruta las llamadas entrantes a grupos de agentes mediante el uso de grupos de extensiones o preguntas y respuestas interactivas de respuesta de voz (IVR).
 
 - **Anuncio**: reproduce un mensaje para las llamadas realizadas a un número no asignado, redirige la llamada a otro lugar, o realiza ambas acciones.
 

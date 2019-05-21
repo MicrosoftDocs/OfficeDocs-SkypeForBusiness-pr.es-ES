@@ -1,10 +1,10 @@
 ---
-title: Configurar el desvío de medios en Skype para Business Server omitir siempre el servidor de mediación
+title: Configurar la omisión de elementos multimedia en Skype empresarial Server para omitir siempre el servidor de mediación
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-description: Habilitar desvío de medios omitir siempre el servidor de mediación en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: ffefeb9850915f4ac8e4677f1bcf0202c4f29405
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Habilitar omisión de elementos multimedia para omitir siempre el servidor de mediación en Skype empresarial Server Enterprise Voice.
+ms.openlocfilehash: 0e45f8ede38411974f9433c17ccd0a0946b427ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893143"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275881"
 ---
-# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar el desvío de medios en Skype para Business Server omitir siempre el servidor de mediación
+# <a name="configure-media-bypass-in-skype-for-business-server-to-always-bypass-the-mediation-server"></a>Configurar la omisión de elementos multimedia en Skype empresarial Server para omitir siempre el servidor de mediación
  
-Habilitar desvío de medios omitir siempre el servidor de mediación en Skype para Business Server Enterprise Voice. 
+Habilitar omisión de elementos multimedia para omitir siempre el servidor de mediación en Skype empresarial Server Enterprise Voice. 
   
- Si usa los pasos descritos en este tema para establecer la configuración global para los medios de desvío, es de la suposición de que dispone de buena conectividad entre Skype para los extremos de negocio y cualquier elemento del mismo nivel para los que ha configurado el desvío de medios en la conexión del tronco.
+ Si usa los pasos de este tema para establecer la configuración global para la omisión de medios, se supone que tiene una buena conectividad entre los puntos de conexión de Skype empresarial y cualquier otro elemento del mismo nivel para el que haya configurado el bypass de medios en la conexión troncal.
   
-Si no se dispone de buena conectividad entre Skype para los extremos de negocio y todos los elementos del mismo nivel para el servidor de mediación cuyas conexiones de tronco respectivos han sido habilitadas para el desvío de medios, debe establecer la configuración de desvío de medios global para usar información de sitio y región Cuando el desvío de medios que emplean. Esto permite más control sobre la determinación de cuándo medios omiten el servidor de mediación. Para ello, utilice los pasos descritos en [la configuración global en Skype para Business Server usar la información de sitio y región de desvío de medios de configurar](use-site-and-region-information.md) y [asociar una subred a un sitio de red](deploy-network.md#BKMK_AssociateSubnets) en su lugar.
+Si no tiene buena conectividad entre los puntos de conexión de Skype empresarial y todos los elementos del servidor de media cuyas conexiones troncales se hayan habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región. al emplear la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, use los pasos de [configurar la configuración global de omisión de medios en Skype empresarial Server para usar la información del sitio y de la región](use-site-and-region-information.md) y asociar [una subred con un sitio de red](deploy-network.md#BKMK_AssociateSubnets) .
   
 ### <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Para habilitar globalmente el desvío de medios para que omita siempre el servidor de mediación
 
-1. Abra Skype para el Panel de Control de servidor empresarial.
+1. Abra el panel de control de Skype empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -45,7 +45,7 @@ Si no se dispone de buena conectividad entre Skype para los extremos de negocio 
     
 ## <a name="see-also"></a>Vea también
 
-[Planear el desvío de medios en Skype para la empresa](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
+[Plan de omisión de multimedia en Skype empresarial](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md)
   
-[Implementar el desvío de medios en Skype para Business Server](deploy-media-bypass.md)
+[Implementación de omisión de contenido multimedia en Skype empresarial Server](deploy-media-bypass.md)
 

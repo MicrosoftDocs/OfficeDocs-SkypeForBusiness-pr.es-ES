@@ -1,78 +1,78 @@
 ---
-title: ¿Qué está en desuso de Skype para Business Server 2019
+title: Qué es en desuso de Skype empresarial Server 2019
 ms.reviewer: ''
 ms.author: jambirk
 author: jambirk
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: 'Resumen: Estas características se han quitado de Skype para Business Server 2019.'
-ms.openlocfilehash: 0dd7edda344ec41cc37e5013d18755c29d16c9a9
-ms.sourcegitcommit: c997490cf7239d07e2fd52a4b03bec464b3d192b
+description: 'Resumen: estas características se han eliminado de Skype empresarial Server 2019.'
+ms.openlocfilehash: a342f98d1a3191064d1678190a0d4b743b40a37f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33835177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278115"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>¿Qué está en desuso de Skype para Business Server 2019
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Qué es en desuso de Skype empresarial Server 2019
 
-Obtenga información sobre las características y funciones que están en desuso en Skype para Business Server 2019. Para obtener información acerca de las nuevas características de Skype para Business Server 2019, consulte [Novedades en Skype para Business Server 2019](whats-new.md).
+Obtenga más información sobre las características y funcionalidades que ya no se usan en Skype empresarial Server 2019. Para obtener información sobre las nuevas características de Skype empresarial Server 2019, consulte [novedades de Skype empresarial server 2019](whats-new.md).
 
-Algunas características desaprovisionamiento enfatizados se incluyen en Skype para Business Server 2019 para la compatibilidad con versiones anteriores del producto.
+Algunas características desacentuadas están incluidas en Skype empresarial Server 2019 por compatibilidad con versiones anteriores del producto.
 
-## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Características desusadas en Skype para Business Server 2019 
+## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Características desusadas en Skype empresarial Server 2019 
 
     The following features and functionality have been deprecated in Skype for Business Server 2019.
 
-### <a name="xmpp-gateways-for-skype-for-business-server"></a>Puertas de enlace XMPP de Skype para Business Server
+### <a name="xmpp-gateways-for-skype-for-business-server"></a>Puertas de enlace XMPP para Skype empresarial Server
 
-Skype para Business Server 2015 y sus predecesoras permite configurar un proxy de mensajería Extensible y protocolo de presencia (XMPP) en el servidor perimetral y una puerta de enlace de XMPP en el grupo de servidores Front-End o de servidor Front-End. Esta funcionalidad ya no está disponible en Skype para Business Server 2019.
+Skype empresarial Server 2015 y sus antecesores le permiten configurar un proxy protocolo de presencia y mensajería extensible (XMPP) en el servidor perimetral y una puerta de enlace XMPP en el servidor front-end o en el grupo front-end. Esta funcionalidad ya no está disponible en Skype empresarial Server 2019.
 
-### <a name="persistent-chat-for-skype-for-business-server"></a>Persistent Chat de Skype para Business Server
+### <a name="persistent-chat-for-skype-for-business-server"></a>Chat persistente para Skype empresarial Server
 
-Persistent Chat Server es un rol opcional que permite a varios usuarios de la organización participar en conversaciones de salón de chat que persisten a lo largo del tiempo. Chat en grupo no se puede implementar con Skype para Business Server 2019. Esta función de servidor se ha quitado el generador de topología, así como desde el código. 
+El servidor de chat persistente es un rol opcional que permite que varios usuarios de su organización participen en las conversaciones del salón de chat que se mantienen a lo largo del tiempo. El chat persistente no se puede implementar con Skype empresarial Server 2019. Este rol de servidor se ha quitado de Topology Builder, así como del código. 
 
-La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams).
+La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams).
 
-### <a name="sql-mirroring-for-skype-for-business-server"></a>Creación de reflejos SQL para Skype para Business Server
+### <a name="sql-mirroring-for-skype-for-business-server"></a>Reflejo de SQL para Skype empresarial Server
 
-La creación de reflejos de SQL no se puede implementar con Skype para Business Server 2019. Aún se admiten otras opciones para proporcionar alta disponibilidad y recuperación ante desastres y debe elegir entre ellos. Consulte [Plan de alta disponibilidad y recuperación ante desastres en Skype para Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) para revisar las opciones.
+No se puede implementar la creación de reflejos de SQL con Skype empresarial Server 2019. Aún se admiten otras opciones para ofrecer una alta disponibilidad y recuperación ante desastres y debe elegir entre ellas. Consulte [planear la alta disponibilidad y la recuperación ante desastres en Skype empresarial Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) para revisar las opciones.
 
-### <a name="in-place-upgrades"></a>Actualizaciones en contexto 
+### <a name="in-place-upgrades"></a>Actualizaciones locales 
 
-Las actualizaciones en contexto estaban disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. En paralelo se admite la actualización y coexistencia, consulte [migración de Skype para Business Server 2019](migration/migration-to-skype-for-business-server-2019.md) para obtener más información.
+Las actualizaciones locales estaban disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. La actualización en paralelo y la coexistencia son compatibles, consulte [migración a Skype empresarial Server 2019](migration/migration-to-skype-for-business-server-2019.md) para obtener más información.
 
-### <a name="mobility-service-mcx"></a>Servicio de movilidad (Mcx)
+### <a name="mobility-service-mcx"></a>Servicio de movilidad (MCX)
 
-Compatibilidad con el servicio movilidad usado por los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Anteriormente se presentó en Skype para Business Server 2015.
+El soporte de servicio de movilidad usado por clientes móviles heredados ya no está disponible en Skype empresarial Server 2019. Esto fue anunciado anteriormente en Skype empresarial Server 2015.
 
-Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con Mcx necesitará actualizar a un cliente actual.
+Todos los clientes móviles actuales de Skype empresarial ya usan la API Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea, la presencia y los contactos. Los usuarios con clientes heredados que usen MCX deberán actualizar a un cliente actual.
 
-Para obtener más detalles, vea [planear para movilidad de Skype para Business Server](../SfbServer/plan-your-deployment/mobility.md) y la [comparación de características de cliente móvil de Skype para la empresa](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
+Para obtener más información, consulte [plan de movilidad para Skype empresarial Server](../SfbServer/plan-your-deployment/mobility.md) y la [comparación de características de cliente móvil para Skype empresarial](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Herramientas
 
-Las siguientes herramientas no estará disponibles para su uso en la versión inicial de Skype para Business Server 2019:
+Las siguientes herramientas no estarán disponibles para su uso en la versión inicial de Skype empresarial Server 2019:
 
 - Calculadora de planeamiento de capacidad de Skype Empresarial Server
-- Skype para herramientas de depuración de Business Server
-- Skype para (algunas herramientas se quitará) de herramientas del Kit de recursos de servidor empresarial
+- Herramientas de depuración de Skype empresarial Server
+- Herramientas del kit de recursos de Skype empresarial Server (se quitarán algunas herramientas)
     - Call Parkometer (Estacionamiento de llamadas)
-    - Consola de usuario de búsqueda
-    - Migración de anuncio de número sin asignar
+    - Consola de búsqueda de usuarios
+    - Migración del anuncio de número no asignado
 
-Las siguientes herramientas no son compatibles con Skype para Business Server 2019:
+Las siguientes herramientas no son compatibles con Skype empresarial Server 2019:
 
-- Metodología de calidad de llamadas (pero no llamar al panel de calidad)
-- Cuadro de mandos de metodología de calidad de llamada de Microsoft, v1.5
+- Metodología de calidad de las llamadas (pero no panel de calidad de las llamadas)
+- Cuadro de mandos de metodología de llamadas de Microsoft, v 1.5
 - Herramienta de planeación de Skype Empresarial Server 2015
 - Skype for Business Server 2015 Stress and Performance Tool
 
 ### <a name="see-also"></a>Vea también
 
-[¿Qué es una novedad de Skype para Business Server 2019](whats-new.md)
+[Novedades de Skype empresarial Server 2019](whats-new.md)
 
 [Migrar la federación XMPP](migration/migrating-xmpp-federation.md)

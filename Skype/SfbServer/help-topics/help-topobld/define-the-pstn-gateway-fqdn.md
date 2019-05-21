@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayFqdnPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
-description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).
-ms.openlocfilehash: bda2ed98fbb5a68e935bdc4614ae92dff3a96d8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de red de telefonía pública conmutada (RTC) que conectará sus componentes de voz de empresa a una central de conmutación (PBX) RTC o privado.
+ms.openlocfilehash: cfb82d7e2eefb6c3edcbf8bd53c1e5b1c508956e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896654"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306835"
 ---
 # <a name="define-the-pstn-gateway-fqdn"></a>Definir el FQDN de puerta de enlace de RTC
 
-Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).
+Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de red de telefonía pública conmutada (RTC) que conectará sus componentes de voz de empresa a una central de conmutación (PBX) RTC o privado.
 
-Para obtener información detallada, vea [componentes de conectividad de RTC en Skype para Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
+Para obtener más información, consulte [componentes de conectividad RTC en Skype empresarial Server 2015](../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)
 
 ## <a name="see-also"></a>Vea también
 
-[Opciones de implementación de puerta de enlace de RTC](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[Opciones de implementación de la puerta de enlace RTC](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)

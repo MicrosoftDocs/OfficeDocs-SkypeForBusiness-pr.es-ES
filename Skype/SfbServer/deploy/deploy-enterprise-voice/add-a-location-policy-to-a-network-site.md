@@ -1,10 +1,10 @@
 ---
-title: Agregar una directiva de ubicación a un sitio de red en Skype para Business Server
+title: Agregar una directiva de ubicación a un sitio de red en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: d30f9295b633ccfa7439e697931b13bd92b1cc0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Asignar directivas de ubicación E9-1-1 a los sitios de red en la telefonía IP empresarial de Skype empresarial.
+ms.openlocfilehash: 3653811298e7ce5659d4d416798010b3ac427732
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893178"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306877"
 ---
-# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Agregar una directiva de ubicación a un sitio de red en Skype para Business Server
+# <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Agregar una directiva de ubicación a un sitio de red en Skype empresarial Server
  
-Asignar directivas de ubicación de E9-1-1 a los sitios de red de Skype para Business Server Enterprise Voice. 
+Asignar directivas de ubicación E9-1-1 a los sitios de red en la telefonía IP empresarial de Skype empresarial. 
   
-Los siguientes ejemplos muestran cómo agregar la directiva de ubicación de **Redmond** definida en [las directivas de ubicación de crear de Skype para Business Server](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que usa la directiva de ubicación de **Redmond** .
+En los siguientes ejemplos se muestra cómo agregar la Directiva de ubicación de **Redmond** definida en [crear directivas de ubicación en Skype empresarial Server](create-location-policies.md) a un sitio de red existente y cómo crear un nuevo sitio de red que use la Directiva de ubicación de **Redmond** .
   
-Para obtener información detallada sobre cómo trabajar con sitios de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
+Para obtener más información sobre cómo trabajar con sitios de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
   
 - **New-CsNetworkSite**
     

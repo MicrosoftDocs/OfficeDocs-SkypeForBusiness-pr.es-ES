@@ -1,27 +1,27 @@
 ---
-title: Informe de rendimiento del servidor en Skype para Business Server
+title: Informe de rendimiento del servidor en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
-description: 'Resumen: Información sobre el informe de rendimiento de servidor en Skype para Business Server.'
-ms.openlocfilehash: a326af691d461d64f0dcbc1fe4f6451db9b34cdd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe rendimiento del servidor de Skype empresarial Server.'
+ms.openlocfilehash: c2956910384c1e48fc9d38a9084bf1a4afe48539
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887226"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279791"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype para Business Server
+# <a name="server-performance-report-in-skype-for-business-server"></a>Informe de rendimiento del servidor en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de rendimiento de servidor en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de rendimiento del servidor en Skype empresarial Server.
   
-El informe de rendimiento de servidor proporciona una lista de Skype para servidores Business Server donde se han producido el porcentaje más alto de llamadas deficientes. El informe desglosa los servidores por tipo de servidor y notifica diferentes estadísticas para los siguientes tipos:
+El informe de rendimiento del servidor proporciona una lista de servidores de Skype empresarial que han experimentado el porcentaje más alto de llamadas inadecuadas. El informe desglosa los servidores por tipo de servidor y notifica diferentes estadísticas para los siguientes tipos:
   
 - Servidor de mediación
     
@@ -37,11 +37,11 @@ El informe de rendimiento de servidor proporciona una lista de Skype para servid
     
 - Uso compartido de aplicaciones (incluye métricas de uso compartido de aplicaciones para servidores de conferencia A/V y servidores perimetrales A/V)
     
-Es importante tener en cuenta la clasificación que se muestra en este informe como las clasificaciones relativas. Por ejemplo, supongamos que el servidor con el peor rendimiento tuvo una llamada deficiente entre las 1000 llamadas realizadas. Eso supone un porcentaje más que aceptable del 0,1 %. Pero, si es el servidor de peor rendimiento (es decir, todos los demás servidores tienen un porcentaje de llamadas deficientes incluso inferior al 0,1 %), aparecerá en el informe de rendimiento del servidor.
+Es importante tener en cuenta que la clasificación mostrada en este informe como clasificaciones relativas. Por ejemplo, supongamos que el servidor con el peor rendimiento tuvo una llamada deficiente entre las 1000 llamadas realizadas. Eso supone un porcentaje más que aceptable del 0,1 %. Pero, si es el servidor de peor rendimiento (es decir, todos los demás servidores tienen un porcentaje de llamadas deficientes incluso inferior al 0,1 %), aparecerá en el informe de rendimiento del servidor.
   
 ## <a name="accessing-the-server-performance-report"></a>Acceso al informe de rendimiento del servidor
 
-El informe de acceso del servidor es accesible desde la página principal de informes de supervisión. Puede navegar hasta el [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) haciendo clic en cualquiera de las métricas siguientes:
+El informe de acceso del servidor es accesible desde la página principal de informes de supervisión. Puede explorar en profundidad el [Informe de la lista de llamadas en Skype empresarial Server](call-list-report-0.md) haciendo clic en una de las siguientes métricas:
   
 - Volumen de llamadas
     
@@ -67,11 +67,11 @@ En la siguiente tabla se muestran los filtros que se pueden usar en el informe d
 |:-----|:-----|
 |**De** <br/> |Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
 |**Hasta** <br/> |Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:  <br/> 07/07/2015 13:00  <br/> Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:  <br/> 07/07/2015  <br/> Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):  <br/> 03/07/2015  <br/> Las semanas siempre van del domingo al sábado.  <br/> |
-|**Tipo de servidor** <br/> |Indica el tipo de servidor cuyo rendimiento necesita notificarse. Seleccione una de las opciones siguientes:  <br/> [All] Servidor de mediación A / servidor de conferencia A/v un servidor perimetral A/v |
-|**Superior N** <br/> |Indica la cantidad de servidores (en función de su escaso porcentaje de llamadas) que se va a mostrar en cada categoría. Por ejemplo, si selecciona **5**, aparecerán los cinco servidores con peor rendimiento. Seleccione una de las opciones siguientes:<br/> 10 de 5 [all] |
-|**Tipo de acceso** <br/> |Indica si el cliente había iniciado sesión en la red interna o en la externa cuando se realizó la llamada. Seleccione una de las siguientes opciones:  <br/> [All] Internos externos |
-|**Tipo de red** <br/> |Indica el tipo de red al que estaba conectado el cliente cuando realizó la llamada. Seleccione una de las siguientes opciones:  <br/> [All] Cable e inalámbrica |
-|**VPN** <br/> |Indica si un cliente externo estaba utilizando una conexión de red privada virtual (VPN) cuando se realizó la llamada. Seleccione una de las siguientes opciones:  <br/> [All] VPN distinta de VPN |
+|**Tipo de servidor** <br/> |Indica el tipo de servidor cuyo rendimiento necesita notificarse. Seleccione una de las opciones siguientes:  <br/> Las Servidor de mediación de conferencia A/V servidor perimetral A/V |
+|**Superior N** <br/> |Indica la cantidad de servidores (en función de su escaso porcentaje de llamadas) que se va a mostrar en cada categoría. Por ejemplo, si selecciona **5**, aparecerán los cinco servidores con peor rendimiento. Seleccione una de las opciones siguientes:<br/> [All] 5 10 |
+|**Tipo de acceso** <br/> |Indica si el cliente había iniciado sesión en la red interna o en la externa cuando se realizó la llamada. Seleccione una de las siguientes opciones:  <br/> Las Externa interna |
+|**Tipo de red** <br/> |Indica el tipo de red al que estaba conectado el cliente cuando realizó la llamada. Seleccione una de las siguientes opciones:  <br/> Las Cable inalámbrico |
+|**VPN** <br/> |Indica si un cliente externo estaba utilizando una conexión de red privada virtual (VPN) cuando se realizó la llamada. Seleccione una de las siguientes opciones:  <br/> Las VPN sin VPN |
    
 ## <a name="metrics"></a>Métricas
 
@@ -85,7 +85,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas realizadas.  <br/> |
 |**Porcentaje de llamadas deficientes** <br/> |No  <br/> |Cantidad total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella durante la que al menos uno de los valores medidos supera el valor permitido, por ejemplo, una llamada con un exceso de vibraciones.  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |Sí  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.  <br/> |
-|**Degradación (MOS)** <br/> |Sí  <br/> |Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada. Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0. Un valor de 0,5 o menos constituye una degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. En Skype para Business Server, el servidor de supervisión usa un conjunto de algoritmos para predecir cómo los usuarios habría calificado una llamada.  <br/> Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.  <br/> |
+|**Degradación (MOS)** <br/> |Sí  <br/> |Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada. Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0. Un valor de 0,5 o menos constituye una degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. En Skype empresarial Server, el servidor de supervisión usa un conjunto de algoritmos para predecir cómo los usuarios habrían calificado una llamada.  <br/> Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.  <br/> |
 |**Pérdida de paquetes** <br/> |Sí  <br/> |Tasa media de pérdida de paquetes RTP (se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo utilizado para transmitir audio y vídeo a través de Internet, no llegan a su destino). Una tasa alta de pérdida se suele deber a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica o la sobrecarga de un servidor de medios. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |
 |**Vibración (ms)** <br/> |Sí  <br/> |Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una forma de medir la "inestabilidad" de una llamada). Los valores altos de vibración suelen deberse a la congestión o a una sobrecarga del servidor multimedia y dan lugar a la distorsión o pérdida del audio.  <br/> |
 |**Tasa de recuperación de muestras ocultas** <br/> |Sí  <br/> |Tasa media de muestras de audio ocultas respecto a la cantidad total de muestras. Una muestra de audio oculta es una técnica que se emplea para suavizar la transición brusca que normalmente supondría la pérdida de paquetes de red. Los valores elevados indican niveles igualmente elevados de aplicación de ocultación de pérdidas a causa de la pérdida de paquetes o de las vibraciones, y dan lugar a la distorsión o pérdida del audio.  <br/> |
@@ -105,7 +105,7 @@ En la tabla siguiente se muestra la información que recoge el informe de rendim
 |**Velocidad de bits media (Kbits/s)** <br/> |No  <br/> |Velocidad de bits de vídeo media (en kilobits por segundo).  <br/> |
 |**% de velocidad de bits baja** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja.  <br/> |
 |**Pérdida de paquetes de salida** <br/> |No  <br/> |Pérdida de paquetes de salida del Protocolo de transporte en tiempo real (RTP). (La pérdida de paquetes se produce cuando los paquetes de RTP, un protocolo usado para transmitir audio y vídeo a través de Internet, no llegan a su destino). Las altas tasas de pérdidas suelen estar causadas por congestión, falta de ancho de banda, congestión inalámbrica o interferencias, o un servidor de medios sobrecargado. La pérdida de paquetes suele producir distorsión o pérdida de audio.  <br/> |
-|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de marcos "inmovilizados". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
+|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de fotogramas "inmovilizados". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
 |**Velocidad de fotogramas media de salida** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de salida durante la llamada.  <br/> |
 |**Velocidad de fotogramas media de entrada** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de entrada durante la llamada.  <br/> |
 |**% de velocidad de fotogramas baja de entrada** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja para el vídeo de entrada.  <br/> |

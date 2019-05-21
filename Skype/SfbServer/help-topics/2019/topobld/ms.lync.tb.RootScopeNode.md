@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.RootScopeNode
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nodo Lync Server enumera los sitios centrales en su topología. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 6641128f4eb3a33041b206e424440e94f8a2e6fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'El nodo de Lync Server enumera los sitios centrales de su topología. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: ab055210f70395d426b56cb11aae824944e3d0e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885556"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277814"
 ---
 # <a name="skype-for-business-server-root-scope-node"></a>Nodo de ámbito raíz de Skype Empresarial Server
  
-El nodo **Lync Server** enumera los sitios centrales en su topología. Puede realizar las acciones siguientes:
+El nodo de **Lync Server** enumera los sitios centrales de su topología. Puede realizar las acciones siguientes:
   
 - **Nuevo sitio central**. Inicia el asistente Definir nuevo sitio central, que permite agregar un nuevo sitio central a la topología.
     
@@ -34,13 +34,13 @@ El nodo **Lync Server** enumera los sitios centrales en su topología. Puede rea
     
 - **Descargar topología**. Carga la topología implementada actualmente del Almacén de administración central. Si ya ha definido una topología y ha establecido el Almacén de administración central, conviene seleccionar siempre esta opción para cargar la topología.
     
-- **Guardar una copia de la topología como**. Guarda la topología actual a un archivo que se puede cargar más tarde en el generador de topología.
+- **Guardar una copia de la topología como**. Guarda la topología actual en un archivo que puede cargar más tarde en el generador de topologías.
     
 - **Publicar topología**. Use esta opción para publicar esta topología en el Almacén de administración central, de modo que pueda empezar a implementar los servidores.
     
 - **Instalar base de datos**. Permite crear las bases de datos necesarias para la implementación.
     
-- **Combinar topología de Office Communications Server 2007 R2**. Inicia el asistente para la combinación del Generador de topologías. Esta herramienta recopila información sobre el entorno anterior de Office Communications Server, incluida la información de servidor perimetral y esa información publica en una base de datos compartida. 
+- **Combinar topología de Office Communications Server 2007 R2**. Inicia el asistente para la combinación del Generador de topologías. Esta herramienta recopila información sobre el entorno anterior de Office Communications Server, incluida la información del servidor perimetral, y publica esa información en una base de datos compartida. 
     
 - **Quitar implementación**. Inicia el asistente para quitar la implementación, que permite empezar a quitar la implementación completa.
     

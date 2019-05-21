@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceFeaVacantNumMain
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
 description: Los números sin asignar son números de teléfono válidos en la organización, pero que no se han asignado a un usuario o teléfono. En la tabla de números sin asignar se identifica cómo desea que se traten las llamadas a números sin asignar.
-ms.openlocfilehash: fc182388af06d75c6a9f7762127c74daf7cd4f0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 88852088b4b664665750ef0e6167ba98b506a501
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33929044"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307199"
 ---
 # <a name="unassigned-phone-number"></a>Número de teléfono sin asignar
 
@@ -47,38 +47,38 @@ En la página **Número no asignado** puede realizar las siguientes tareas:
 
 En la siguiente lista se describen los comandos de la página.
 
-- **Nuevo** Inicia un nuevo intervalo numérico sin asignar.
+- **Nuevo** Inicia un nuevo intervalo de números sin asignar.
 
-- **Editar** Se abre el intervalo numérico sin asignar seleccionado para su edición, selecciona todos los intervalos numéricos sin asignar de la lista o elimina el intervalo numérico sin asignar seleccionado.
+- **Editar** Abre el intervalo de números seleccionado sin asignar para editar, selecciona todos los intervalos de números sin asignar de la lista o elimina el intervalo de números sin asignar seleccionado.
 
-- **Mover hacia arriba** Mueve el intervalo numérico sin asignar seleccionado copia de seguridad en la lista de modo que Skype para Business Server encuentra antes y aplica la acción especificada antes de aplicar las acciones especificadas para otros rangos de la lista.
+- **Subir** Mueve el intervalo de número no asignado seleccionado hacia arriba en la lista para que Skype empresarial Server lo encuentre antes de aplicar las acciones especificadas para otros rangos de la lista.
 
     > [!NOTE]
-    > Skype para Business Server busca en la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
+    > Skype empresarial Server busca la tabla de números sin asignar de arriba a abajo y usa el primer rango que coincida con el número sin asignar. Por ejemplo, si tiene un intervalo que especifique una acción de último recurso, asegúrese de que ese intervalo se encuentra en último lugar en la lista.
 
-- **Mover hacia abajo** Mueve el intervalo numérico sin asignar seleccionado hacia abajo en la lista.
+- **Bajar** Mueve el intervalo de número no asignado seleccionado hacia abajo en la lista.
 
-- **Confirmar todos** Guarda todos los cambios realizados a intervalos numéricos sin asignar.
+- **Confirmar todo** Guarda todos los cambios realizados en intervalos de números sin asignar.
 
     > [!IMPORTANT]
     > Este comando guarda todos los cambios realizados en las páginas **Nuevo número sin asignar** y **Editar número sin asignar**.
 
-- **Actualizar** Actualiza la lista de intervalos numéricos sin asignar.
+- **Actualizar** Actualiza la lista de intervalos de números no asignados.
 
 En la siguiente lista se describen los campos de la página.
 
-- **Nombre** El nombre único que identifica el intervalo de números sin asignar.
+- **Nombre** Nombre único que identifica el intervalo de números sin asignar.
 
-- **Estado** Muestra qué intervalos numéricos se han guardado en la base de datos y cuáles no.
+- **Estado** Muestra los intervalos de números que se han guardado en la base de datos y cuáles no.
 
-- **Intervalo de inicio** El número inicial del intervalo numérico sin asignar.
+- **Intervalo de inicio** El número inicial del intervalo de números sin asignar.
 
-- **Intervalo de finalización** El número final del intervalo numérico sin asignar.
+- **Finalizar rango** El número final del intervalo de números sin asignar.
 
-- **Destino** El identificador de servicio de la aplicación que hospeda la aplicación de anuncio que controlará las llamadas entrantes a este intervalo de números sin asignar.
+- **Destino** El identificador de servicio del servicio de aplicación que hospeda la aplicación de anuncio que controlará las llamadas entrantes a este intervalo de números no asignados.
 
-- **Anuncio** El anuncio que se reproducirá para este intervalo de números sin asignar.
+- **Anuncio** El anuncio que se reproducirá para este rango de números no asignados.
 
-Para obtener información detallada sobre las capacidades y características de anuncio, consulte [Plan para la aplicación de anuncio en Skype para 2015 empresarial](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planeación. Para más detalles sobre cómo trabajar con intervalos de números sin asignar, mire [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
+Para obtener más información sobre las características y capacidades del anuncio, consulte [planear la aplicación de anuncios en Skype empresarial 2015](../../plan-your-deployment/enterprise-voice-solution/announcement.md) en la documentación de planificación. Para más detalles sobre cómo trabajar con intervalos de números sin asignar, mire [Configure Routing of Unassigned Phone Numbers](https://technet.microsoft.com/library/a0650659-dce7-455f-8977-02454bbfa400.aspx) en la documentación de operaciones.
 
 

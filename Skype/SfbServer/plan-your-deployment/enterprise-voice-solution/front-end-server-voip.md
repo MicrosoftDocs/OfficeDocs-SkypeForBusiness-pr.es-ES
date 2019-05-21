@@ -1,10 +1,10 @@
 ---
-title: Componentes de Front-End Server VoIP para Skype para Business Server
+title: Componentes de VoIP del servidor front-end para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: Obtenga información sobre los componentes de Enterprise Voice que se encuentran en servidores Front-End en Skype para Business Server, incluido el servicio de traducción automática y diversos componentes de enrutamiento.
-ms.openlocfilehash: 7262f15d5763fa4a22b6bc6bb56fdc600f48bab2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Obtenga más información sobre los componentes de voz de empresa que se encuentran en los servidores front-end de Skype empresarial Server, incluido el servicio de traducción y diversos componentes de enrutamiento.
+ms.openlocfilehash: d28beb809e172ea5d778e0cf8273cb232b7cf67c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924244"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276855"
 ---
-# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes de Front-End Server VoIP para Skype para Business Server
+# <a name="front-end-server-voip-components-for-skype-for-business-server"></a>Componentes de VoIP del servidor front-end para Skype empresarial Server
 
-Obtenga información sobre los componentes de Enterprise Voice que se encuentran en servidores Front-End en Skype para Business Server, incluido el servicio de traducción automática y diversos componentes de enrutamiento.
+Obtenga más información sobre los componentes de voz de empresa que se encuentran en los servidores front-end de Skype empresarial Server, incluido el servicio de traducción y diversos componentes de enrutamiento.
 
-Los componentes VoIP ubicados en servidores Front-End son los siguientes:
+Los componentes de VoIP que se encuentran en los servidores front-end son los siguientes:
 
 - Servicio de conversión
 
@@ -37,7 +37,7 @@ Los componentes VoIP ubicados en servidores Front-End son los siguientes:
 
 - Componente de enrutamiento entre clústeres
 
-- [Componente de servidor de mediación en Skype para Business Server](mediation-server.md)
+- [Componente de servidor de mediación en Skype empresarial Server](mediation-server.md)
 
 ## <a name="translation-service"></a>Servicio de conversión
 
@@ -45,19 +45,19 @@ El servicio de conversión es el componente del servidor que se encarga de conve
 
 ## <a name="inbound-routing-component"></a>Componente de enrutamiento de entrada
 
-El componente de enrutamiento de entrada administra las llamadas entrantes en gran medida de acuerdo con las preferencias especificadas por los usuarios en sus clientes de Enterprise Voice. También facilita las llamadas delegadas y las llamadas simultáneas, si el usuario las configura. Por ejemplo, los usuarios especifican si las llamadas sin contestar se reenvían o simplemente se registran para su notificación. Si el desvío de llamadas está habilitado, los usuarios pueden especificar si se deben reenviar las llamadas no respondidas a otro número o a un servidor de mensajería unificada de Exchange que se ha configurado para proporcionar el contestador automático. El componente de enrutamiento de entrada se instala de forma predeterminada en todos los servidores Standard Edition y servidores Front-End.
+El componente de enrutamiento entrante gestiona las llamadas entrantes en gran medida según las preferencias especificadas por los usuarios en sus clientes de telefonía empresarial. También facilita las llamadas delegadas y las llamadas simultáneas, si el usuario las configura. Por ejemplo, los usuarios especifican si las llamadas sin contestar se reenvían o simplemente se registran para su notificación. Si el desvío de llamadas está habilitado, los usuarios pueden especificar si las llamadas no contestadas deben desviarse a otro número o a un servidor de mensajería unificada de Exchange configurado para proporcionar respuesta a llamadas. El componente de enrutamiento entrante se instala de forma predeterminada en todos los servidores Standard Edition y servidores front-end.
 
 ## <a name="outbound-routing-component"></a>Componente de enrutamiento de salida
 
-El componente de enrutamiento de salida redirige las llamadas a destinos PBX o RTC. Se aplica las reglas de autorización de llamada, como se define mediante una directiva de voz del usuario, a los autores de llamadas y determina la puerta de enlace de RTC óptima para redirigir cada llamada. El componente de enrutamiento de salida se instala de forma predeterminada en todos los servidores Standard Edition y servidores Front-End.
+El componente de enrutamiento de salida redirige las llamadas a destinos PBX o RTC. Aplica reglas de autorización de llamadas, definidas por la Directiva de voz del usuario, a las personas que llaman y determina la puerta de enlace RTC óptima para enrutar cada llamada. El componente de enrutamiento de salida se instala de forma predeterminada en todos los servidores Standard Edition y servidores front-end.
 
 La lógica de enrutamiento que utiliza el componente de enrutamiento de salida la configuran, en gran medida, los administradores de red o de telefonía de acuerdo con los requisitos de sus organizaciones.
 
 ## <a name="exchange-um-routing-component"></a>Componente de enrutamiento de mensajería unificada (UM) de Exchange
 
-El componente de enrutamiento mensajería unificada de Exchange administra el enrutamiento entre Skype para Business Server y los servidores que ejecutan Exchange mensajería unificada (UM), para integrar Skype para Business Server con características de mensajería unificada.
+El componente enrutamiento de mensajería unificada de Exchange controla el enrutamiento entre Skype empresarial Server y los servidores que ejecutan mensajería unificada (UM) de Exchange para integrar Skype empresarial Server con características de mensajería unificada.
 
-El componente de enrutamiento mensajería unificada de Exchange también administra reenrutamiento de correo de voz a través de la RTC si los servidores de mensajería unificada de Exchange no están disponibles. Si tiene usuarios de Enterprise Voice en sitios de sucursal que no tienen una WAN resistente vincular a un sitio central, la aplicación de sucursal con funciones de supervivencia que implemente en el sitio de sucursal proporciona las funciones de supervivencia de correo de voz para usuarios de sucursal durante una interrupción de la WAN. Cuando el vínculo WAN no está disponible, la aplicación de sucursal con funciones de supervivencia hace lo siguiente:
+El componente de enrutamiento de MU de Exchange también controla el redireccionamiento del correo de voz a través de la RTC si los servidores de mensajería unificada de Exchange no están disponibles. Si tiene usuarios de Enterprise Voice en sitios de sucursales que no tienen un vínculo WAN resistente a un sitio central, el dispositivo de sucursal con la que se realiza el despliegue en el sitio de la sucursal ofrece la supervivencia del correo de voz durante una interrupción de la WAN. Cuando el vínculo WAN no está disponible, el equipo con la aplicación con supervivencia hace lo siguiente:
 
 - Desvía las llamadas no respondidas a través de la RTC al servidor de mensajería unificada de Exchange del sitio central.
 
@@ -65,22 +65,22 @@ El componente de enrutamiento mensajería unificada de Exchange también adminis
 
 - Pone en cola las notificaciones de las llamadas perdidas y, luego, las carga en el servidor de mensajería unificada (UM) de Exchange cuando el vínculo WAN se restaura.
 
-Para habilitar el desvío de correo de voz, se recomienda que el Administrador de Exchange configure Exchange UM operador automático (AA) para que únicamente acepte mensajes.
+Para habilitar el redireccionamiento del correo de voz, recomendamos que el administrador de Exchange configure el operador automático de MU de Exchange (AA) para que solo acepte mensajes.
 
 Para obtener más información sobre estas características, mira [On-Premises Exchange Unified Messaging Integration](https://technet.microsoft.com/library/e7c63a71-2d99-4aa9-b649-36c1a431bdf1.aspx) y [Planning for Enterprise Voice Resiliency](https://technet.microsoft.com/library/ca116700-1055-4ca5-9b87-4c7f380c3655.aspx), respectivamente.
 
 ## <a name="intercluster-routing-component"></a>Componente de enrutamiento entre clústeres
 
-El componente de enrutamiento entre clústeres es responsable de enrutar las llamadas a grupo de registrador principal el destinatario de la llamada. Si no está disponible, el componente enruta la llamada a grupo de registrador de copia de seguridad del destinatario de la llamada. Si los grupos de registrador principales y de copia de seguridad del destinatario de la llamada no puedo acceder son través de la red IP, el componente de enrutamiento entre clústeres vuelve a enrutar la llamada a través de la RTC a número de teléfono del usuario.
+El componente de enrutamiento entre clústeres es responsable de dirigir las llamadas al grupo de registrador principal de la persona que llama. Si no está disponible, el componente enruta la llamada al grupo de registro de la copia de seguridad de la persona que llama. Si los grupos principal y de registro de la copia de seguridad de la llamada son inaccesibles a través de la red IP, el componente de enrutamiento entre clústeres redirige la llamada a través de la RTC al número de teléfono del usuario.
 
 ## <a name="other-front-end-server-components-required-for-voip"></a>Otros componentes de servidor front-end necesarios para VoIP
 
-Otros componentes que residen en el servidor Front-End o un Director que proporcionan soporte para VoIP, pero no son ellos mismos componentes VoIP, son los siguientes:
+Otros componentes que residen en el servidor front-end o director que proporcionan compatibilidad esencial para VoIP, pero que no son componentes de VoIP, incluyen lo siguiente:
 
-- **Servicios de usuario.** Este componente realiza una búsqueda inversa de números en el número de teléfono de destino de cada llamada entrante y asocia ese número al URI de SIP del usuario de destino. Con esta información, el componente de enrutamiento de entrada distribuye la llamada a los extremos SIP registrados de dicho usuario. Servicios de usuario es un componente básico de todos los servidores Front-End y directores.
+- **Servicios de usuario.** Este componente realiza una búsqueda inversa de números en el número de teléfono de destino de cada llamada entrante y asocia ese número al URI de SIP del usuario de destino. Con esta información, el componente de enrutamiento entrante distribuye la llamada a los puntos de conexión SIP registrados de ese usuario. Servicios de usuario es un componente fundamental en todos los servidores y directores de front-end.
 
-- **Replicador de usuarios.** Extrae los números de teléfono del usuario de los servicios de dominio de Active Directory y los escribe en las tablas de la base de datos RTC, donde están disponibles para servicios de usuario y el servidor de la libreta de direcciones. Replicador de usuarios es un componente básico de todos los servidores Front-End.
+- **Replicador de usuarios.** Extrae números de teléfono de los usuarios de servicios de dominio de Active Directory y los escribe en las tablas de la base de datos RTC, donde estarán disponibles para los servicios de usuario y el servidor de la libreta de direcciones. El replicador de usuarios es un componente fundamental en todos los servidores de aplicaciones para el usuario.
 
-- **Servidor de libreta de direcciones.** Proporciona información sobre la lista global de direcciones de los servicios de dominio de Active Directory a Skype para los clientes de Business Server. También se recupera información de usuario y contacto de la base de datos RTC, escribe la información en los archivos de libreta de direcciones y, a continuación, almacena los archivos en una carpeta compartida donde se descargan por Skype para clientes empresariales. El servidor de la libreta de direcciones se escribe la información en la base de datos RTCAb, que se usa el servicio de consulta Web de libreta de direcciones para responder a las consultas de búsqueda de usuario de Skype para la empresa móvil. Opcionalmente, normaliza los números de teléfono de usuario de empresa que se escriben en la base de datos RTC con el fin de aprovisionamiento de los contactos del usuario en Skype para la empresa. El servicio de libreta de direcciones se instala de forma predeterminada en todos los servidores Front-End. El servicio de consulta Web de libreta de direcciones se instala de forma predeterminada con los servicios Web en cada servidor front-end.
+- **Servidor de libreta de direcciones.** Proporciona información de la lista global de direcciones de los servicios de dominio de Active Directory a clientes de Skype empresarial Server. También recupera información de usuarios y contactos de la base de datos RTC, escribe la información en los archivos de la libreta de direcciones y, a continuación, almacena los archivos en una carpeta compartida en la que los clientes de Skype empresarial los descargan. El servidor de la libreta de direcciones escribe la información en la base de datos RTCAb, que es utilizada por el servicio de consultas Web de la libreta de direcciones para responder a las consultas de búsqueda de usuario de Skype empresarial Mobile. Opcionalmente, normaliza los números de teléfono de los usuarios de la empresa que se escriben en la base de datos RTC con el fin de aprovisionar los contactos de los usuarios en Skype empresarial. El servicio de libreta de direcciones se instala de forma predeterminada en todos los servidores de aplicaciones para el usuario. El servicio de consultas Web de la libreta de direcciones se instala de forma predeterminada con los servicios web en cada servidor front-end.
 
 

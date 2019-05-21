@@ -4,86 +4,86 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que necesite realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en el entorno heredado:'
-ms.openlocfilehash: 728ae97270cd8451178c6ef962f05e0351118119
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que tenga que realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en su entorno heredado:'
+ms.openlocfilehash: 4263ae5bff60859cc9606a3683a3a03b0d2d4c35
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238427"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307122"
 ---
 # <a name="migrate-address-book"></a>Migrar la libreta de direcciones
 
-En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que necesite realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en el entorno heredado: 
+En general, la libreta de direcciones se migra junto con el resto de la topología. Sin embargo, es posible que tenga que realizar algunos pasos posteriores a la migración si ha personalizado lo siguiente en su entorno heredado: 
 
-- Puede personalizar las reglas de normalización de la libreta de direcciones.
+- Personalizar las reglas de normalización de la libreta de direcciones.
 
-- Cambiar el valor predeterminado para el parámetro **UseNormalizationRules** en False. 
+- Cambió el valor predeterminado del parámetro **UseNormalizationRules** a false. 
 
 
- **Reglas de normalización de la libreta de direcciones**
+ **Reglas de normalización de libreta de direcciones**
 
-Si ha personalizado las reglas de normalización de la libreta de direcciones en el entorno heredado, debe migrar las reglas personalizadas a su grupo piloto. Si no personalizó las reglas de normalización de la libreta de direcciones, deberá nothing para migrar para el servicio de libreta de direcciones. Las reglas de normalización de forma predeterminada para Skype para Business Server 2019 son los mismos que las reglas predeterminadas para la instalación heredada. Siga el procedimiento más adelante en esta sección para migrar reglas de normalización personalizadas.
+Si ha personalizado las reglas de normalización de la libreta de direcciones en el entorno heredado, debe migrar las reglas personalizadas a su grupo piloto. Si no ha personalizado las reglas de normalización de la libreta de direcciones, no tiene nada que migrar para el servicio de libreta de direcciones. Las reglas de normalización predeterminadas para Skype empresarial Server 2019 son las mismas que las reglas predeterminadas para la instalación heredada. Siga el procedimiento más adelante en esta sección para migrar reglas de normalización personalizadas.
 
 > [!NOTE]
-> Si su organización utiliza control remoto de llamadas y ha personalizado las reglas de normalización de la libreta de direcciones, debe realizar el procedimiento de este tema para poder usar el control remoto de llamadas. El procedimiento, es necesario pertenecer al grupo RTCUniversalServerAdmins o derechos equivalentes. 
+> Si su organización usa el control remoto de llamadas y ha personalizado las reglas de normalización de la libreta de direcciones, debe realizar el procedimiento de este tema antes de poder usar el control remoto de llamadas. El procedimiento requiere ser miembro del grupo RTCUniversalServerAdmins o derechos equivalentes. 
 
- **UseNormalizationRules en False**
+ **UseNormalizationRules establecido en falso**
 
-Si establece el valor de **UseNormalizationRules** en False para que los usuarios pueden usar los números de teléfono tal y como están definidos en los servicios de dominio de Active Directory sin necesidad de Skype para Business Server 2019 se aplican las reglas de normalización, debe establecer el ** UseNormalizationRules** y los parámetros de **IgnoreGenericRules** en True. Siga el procedimiento descrito más adelante en esta sección para establecer estos parámetros en True. 
+Si establece el valor de **UseNormalizationRules** en false para que los usuarios puedan usar números de teléfono a medida que se definen en servicios de dominio de Active Directory sin tener Skype empresarial Server 2019 aplicar reglas de normalización, debe establecer la ** **Los parámetros UseNormalizationRules y **IgnoreGenericRules** son true. Siga el procedimiento más adelante en esta sección para establecer estos parámetros en true. 
 
-## <a name="to-migrate-address-book-customized-normalization-rules"></a>Para migrar la libreta de direcciones personalizadas de reglas de normalización
+## <a name="to-migrate-address-book-customized-normalization-rules"></a>Para migrar reglas de normalización personalizadas de la libreta de direcciones
 
-1. Busque el archivo Company_Phone_Number_Normalization_Rules.txt en la raíz de la carpeta compartida de la libreta de direcciones y cópielo a la raíz de la carpeta compartida de la libreta de direcciones en su Skype para el grupo piloto Business Server 2019.
+1. Busque el archivo Company_Phone_Number_Normalization_Rules. txt en la raíz de la carpeta compartida de la libreta de direcciones y cópielo en la raíz de la carpeta compartida de la libreta de direcciones en el repositorio piloto de Skype empresarial Server 2019.
 
     > [!NOTE]
-    > Las reglas de normalización de ejemplo Libreta de direcciones se han instalado en el directorio de archivos de componente Web ABS. Es la ruta de acceso **$installedDriveLetter: \Program Skype para Business Server 2019\Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules.txt**. Este archivo se puede copiar a cambiar el nombre como **Company_Phone_Number_Normalization_Rules.txt** al directorio raíz de la carpeta Libreta de direcciones compartida. Por ejemplo, la libreta de direcciones compartida en **$serverX**, la ruta de acceso será similar a: ** \\$serverX \SkypeForBusiness-FileShare\2-WebServices-1\ABFiles**. 
+    > Las reglas de normalización de libreta de direcciones de muestra se han instalado en el directorio de archivos de ABS web Component. La ruta de acceso es **$installedDriveLetter: \Archivos de Programa\microsoft Skype for Business Server 2019 \ Web Components\Address Book Files\Files\ Sample_Company_Phone_Number_Normalization_Rules. txt**. Este archivo se puede copiar y cambiar de nombre como **Company_Phone_Number_Normalization_Rules. txt** para el directorio raíz de la carpeta compartida de la libreta de direcciones. Por ejemplo, la libreta de direcciones compartida en **$serverX**, la ruta de acceso será similar a: ** \\$serverX \SkypeForBusiness-FileShare\2-webservices-1\ABFiles**. 
 
-2. Use un editor de texto, como el Bloc de notas para abrir el archivo Company_Phone_Number_Normalization_Rules.txt.
+2. Use un editor de texto, como el Bloc de notas, para abrir el archivo Company_Phone_Number_Normalization_Rules. txt.
 
-3. Ciertos tipos de entradas no funcionarán correctamente en Skype para Business Server 2019. Examine el archivo para los tipos de entradas descritos en este paso, editarlos según sea necesario y guardar los cambios en la carpeta compartida de la libreta de direcciones en el grupo piloto.
+3. Ciertos tipos de entradas no funcionarán correctamente en Skype empresarial Server 2019. Busque en el archivo los tipos de entradas que se describen en este paso, edítelo según sea necesario y guarde los cambios en la carpeta compartida de la libreta de direcciones del grupo piloto.
 
-    Cadenas que incluyen requiere espacio en blanco o signos de puntuación causa reglas de normalización se lleve a cabo debido a que estos caracteres se eliminan fuera de la cadena que es la entrada a las reglas de normalización. Si dispone de las cadenas que incluyen el espacio en blanco obligatorio ni signos de puntuación, debe modificar las cadenas. Por ejemplo, la siguiente cadena hará que la regla de normalización se lleve a cabo:
+    Las cadenas que incluyen el espacio en blanco o la puntuación obligatorios producen errores en las reglas de normalización, ya que estos caracteres se eliminan de la cadena introducida en las reglas de normalización. Si tiene cadenas que incluyen el espacio en blanco o la puntuación necesarios, debe modificar las cadenas. Por ejemplo, la siguiente cadena haría que la regla de normalra fallara:
 
    ```
    \s*\(\s*\d\d\d\s*\)\s*\-\s*\d\d\d\s*\-\s*\d\d\d\d
    ```
 
-    La siguiente cadena no hará que la regla de normalización se lleve a cabo:
+    La cadena siguiente no provocará errores en la regla de normalización:
 
    ```
    \s*\(?\s*\d\d\d\s*\)?\s*\-?\s*\d\d\d\s*\-?\s*\d\d\d\d
    ```
 
-## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>Para establecer UseNormalizationRules e IgnoreGenericRules en true
+## <a name="to-set-usenormalizationrules-and-ignoregenericrules-to-true"></a>Para establecer UseNormalizationRules y IgnoreGenericRules en true
 
-1. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server 2019**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+1. Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Skype empresarial Server 2019**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**.
 
 2. Siga uno de estos pasos:
 
-   - Si la implementación incluye solo Skype para Business Server 2019, ejecute el siguiente cmdlet en el nivel global para cambiar los valores de **UseNormalizationRules** e **IgnoreGenericRules** a True: 
+   - Si su implementación solo incluye Skype empresarial Server 2019, ejecute el siguiente cmdlet en el nivel global para cambiar los valores de **UseNormalizationRules** y **IgnoreGenericRules** a verdadero: 
 
    ```
    Set-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-   - Si la implementación incluye una combinación de Skype para Business Server 2019 y una instalación heredada, ejecute el siguiente cmdlet y asígnelo a cada Skype para Business Server 2019 grupo de servidores en la topología:
+   - Si su implementación incluye una combinación de Skype empresarial Server 2019 y una instalación heredada, ejecute el siguiente cmdlet y asígnelo a cada grupo de Skype empresarial Server 2019 en la topología:
 
    ```
    New-CsAddressBookConfiguration -identity <XdsIdentity> -UseNormalizationRules=$true -IgnoreGenericRules=$true
    ```
 
-3. Espere a que se producen en todos los grupos de la replicación de almacén de Administración Central.
+3. Espere a que se produzca la replicación del almacén central de administración en todos los grupos.
 
-4. Modifique el archivo de reglas de normalización de teléfono, "Company_Phone_Number_Normalization_Rules.txt", para la implementación borrar el contenido. El archivo está en el recurso compartido de archivos de cada Skype para el grupo de servidores de Business Server 2019. Si el archivo no está presente, a continuación, cree un archivo vacío denominado "Company_Phone_Number_Normalization_Rules.txt".
+4. Modifique el archivo de reglas de normalización de teléfono, "Company_Phone_Number_Normalization_Rules. txt", para que su implementación borre el contenido. El archivo se encuentra en el recurso compartido de archivos de cada grupo de servidores de Skype empresarial 2019. Si el archivo no está presente, cree un archivo vacío denominado "Company_Phone_Number_Normalization_Rules. txt".
 
-5. Espere varios minutos para todos los grupos de servidores Front-End leer los nuevos archivos.
+5. Espere unos minutos hasta que todos los grupos de servidores front-end lean los nuevos archivos.
 
-6. Ejecute el siguiente cmdlet en cada Skype para grupo de negocio Server 2019 en su implementación:
+6. Ejecute el siguiente cmdlet en cada grupo de servidores de Skype empresarial 2019 de su implementación:
 
    ```
    Update-CsAddressBook

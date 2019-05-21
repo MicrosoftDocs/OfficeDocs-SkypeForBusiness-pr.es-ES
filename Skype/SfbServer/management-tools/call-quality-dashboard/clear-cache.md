@@ -4,47 +4,47 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 08648b16-7a64-41d8-9577-5000a20fce46
-description: 'Resumen: Obtenga información acerca de la operación Borrar caché, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 918709d87545289e46c6bef49aafb0f1d37b2950
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación Borrar caché, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 38648e1a910f93a30bd6da8807321acad0330e62
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930808"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274838"
 ---
 # <a name="clear-cache"></a>Borrar caché
  
-**Resumen:** Obtenga información acerca de la operación Borrar caché, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga información sobre la operación Borrar caché, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación Borrar caché es parte de la API de datos para llamar al panel de calidad.
+La operación Borrar caché es parte de la API de datos para el panel de calidad de llamadas.
   
 ## <a name="clear-cache"></a>Borrar caché
 
-Operación de caché borrado elimina la memoria caché en el servidor de consultas y los datos. Esto restablecerá la memoria caché y se va a obtener datos actualizados desde QoE cubo más adelante para nuevas solicitudes.
+Operación de borrar caché elimina la caché del servidor de consultas y datos. Esto restablecerá la memoria caché y recibirá datos nuevos de la actualización del cubo de QoE después para solicitudes nuevas.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
 |Exponer  <br/> |https://\<portal\>/QoEDataService/ClearCache  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - ninguno.
+ **Cuerpo** de la respuesta: ninguno.
   
 

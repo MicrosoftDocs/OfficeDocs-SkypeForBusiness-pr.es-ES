@@ -1,33 +1,33 @@
 ---
-title: Modificar las directivas de conferencia en Skype para Business Server
+title: Modificar directivas de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b40ba905-e74a-4456-ac94-65471bc2d66d
-description: 'Resumen: Obtenga información sobre cómo modificar las directivas de conferencia en Skype para Business Server.'
-ms.openlocfilehash: 0ca232398c9133c3340cbae909ac43d44ba641dd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a modificar directivas de conferencia en Skype empresarial Server.'
+ms.openlocfilehash: b2c192948f0119a70f031c1c2bbe5de8e776c2f3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911990"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280414"
 ---
-# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar las directivas de conferencia en Skype para Business Server
+# <a name="modify-conferencing-policies-in-skype-for-business-server"></a>Modificar directivas de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo modificar las directivas de conferencia en Skype para Business Server.
+**Resumen:** Aprenda a modificar directivas de conferencia en Skype empresarial Server.
   
-Puede modificar las directivas de conferencia mediante el uso de Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial.
+Puede modificar las directivas de conferencia con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server.
   
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Modificar las directivas de conferencia mediante Skype para el Panel de Control de servidor empresarial
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-control-panel"></a>Modificar directivas de conferencia con el panel de control de Skype empresarial Server
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2.  Abra el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Directiva de conferencia**.
     
@@ -37,9 +37,9 @@ Puede modificar las directivas de conferencia mediante el uso de Skype para el P
     
 6. Haga clic en **Confirmar**.
     
-## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar las directivas de conferencia mediante Skype para Shell de administración de servidor empresarial
+## <a name="modify-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Modificar directivas de conferencia con el shell de administración de Skype empresarial Server
 
-Para modificar las directivas de conferencia, use el cmdlet **Set-CsConferencingPolicy** .
+Para modificar las directivas de conferencia, use el cmdlet **set-CsConferencingPolicy** .
   
 El siguiente ejemplo modifica un valor de propiedad de la directiva de conferencia SalesConferencingPolicy. El comando establece el valor de la propiedad AllowConferenceRecording en False:
   
@@ -47,6 +47,6 @@ El siguiente ejemplo modifica un valor de propiedad de la directiva de conferenc
 Set-CsConferencingPolicy -Identity SalesConferencingPolicy -AllowConferenceRecording $False
 ```
 
-Para obtener más información, incluida la sintaxis completa y una lista de parámetros, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Para obtener más información, incluida la sintaxis completa y una lista de parámetros, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

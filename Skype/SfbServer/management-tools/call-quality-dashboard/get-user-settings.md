@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
-description: 'Resumen: Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: cef6eef88f4fa7a7410f4967ad698972f98d7c5f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación obtener configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 8d1bb1da9e9a186cbc10f0c8ba36275348bb7267
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930591"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274621"
 ---
 # <a name="get-user-settings"></a>Obtener configuración de usuario
  
-**Resumen:** Obtenga información acerca de la operación de obtener la configuración de usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la operación obtener configuración del usuario, que es parte del servicio de configuración de usuario. El servicio de configuración de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación de obtener la configuración de usuario es parte del servicio de configuración de usuario de la API de repositorio para llamar al panel de calidad.
+La operación obtener configuración del usuario es parte del servicio de configuración de usuario en la API del repositorio para el panel de calidad de llamadas.
   
 ## <a name="get-user-settings"></a>Obtener configuración de usuario
 
-Configuración del usuario Get devuelve una lista de valores para un usuario especificado.
+Obtener configuración de usuario devuelve una lista de opciones de configuración para un usuario especificado.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/usuario / {userId} / configuración  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoERepositoryService/Repository/User/{userId}/setting  <br/> |HTTP/1.1  <br/> |
    
- **Parámetros URI**
+ **Parámetros de URI**
   
-- *eficaz* - opcional. Este parámetro aplica sólo cuando se usa el valor predeterminado de identificador de usuario especiales. En otros casos, se omitirá. `True`Devuelve la configuración de usuario eficaz y `false` devuelve la configuración del usuario (valor predeterminado).
+- *eficaz* : opcional. Este parámetro solo se aplica cuando se usa el identificador de usuario especial predeterminado. En otros casos, se omitirá. `True`Devuelve la configuración de usuario `false` eficaz y devuelve solo la configuración del usuario (valor predeterminado).
     
-  **Encabezados de solicitud** - sin encabezados adicionales.
+  **Solicitar encabezados** : no hay encabezados adicionales.
   
-  **Cuerpo de la convocatoria** - ninguno.
+  **Solicitar cuerpo** : ninguno.
   
-  **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+  **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
-  **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
+  **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
   
-  **Encabezados de respuesta** - sin encabezados adicionales.
+  **Encabezados de respuesta** : no hay encabezados adicionales.
   
-  **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
+  **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
 ```
 [{

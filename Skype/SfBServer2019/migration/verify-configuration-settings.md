@@ -4,22 +4,22 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Puede validar la replicación de la información de configuración para el servidor perimetral mediante la ejecución de la Skype para cmdlet Business Server 2019 Get-CsManagementStoreReplicationStatus en el equipo interno en que se encuentra el almacén de Administración Central, o en cualquier equipo en el que está instalado Skype para 2019 principales componentes (OcsCore.msi) de Business Server unido a un dominio.
-ms.openlocfilehash: 1b64569ffbdce3d7f41e7f6c54815d051848cfd1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Puede validar la replicación de la información de configuración en el servidor perimetral ejecutando el cmdlet Get-CsManagementStoreReplicationStatus de Skype empresarial Server 2019 en el equipo interno en el que se encuentra el almacén central de administración o en cualquier equipo unido al dominio en el que está instalado el componente principal de Skype empresarial Server 2019 (OcsCore. msi).
+ms.openlocfilehash: 0ea966652972a97dac3e807cef42ddeaa5136322
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231360"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34307038"
 ---
 # <a name="verify-configuration-settings"></a>Comprobación de los parámetros de configuración
 
-Puede validar la replicación de la información de configuración para el servidor perimetral mediante la ejecución de la Skype para el cmdlet **Get-CsManagementStoreReplicationStatus** de Business Server 2019 en el equipo interno en el que se encuentra, el almacén de Administración Central o en cualquier equipo unido a un dominio en el que está instalado Skype para Business Server 2019 principales componentes (OcsCore.msi). 
+Puede validar la replicación de la información de configuración en el servidor perimetral ejecutando el cmdlet **Get-CsManagementStoreReplicationStatus** de Skype empresarial Server 2019 en el equipo interno en el que se encuentra el almacén central de administración, o bien en cualquier equipo unido a un dominio en el que estén instalados los componentes básicos de Skype empresarial Server 2019 (OcsCore. msi). 
   
-Resultados iniciales pueden indicar el estado como "False" en lugar de "True" para la replicación. Si es así, ejecute el cmdlet **Invoke-CsManagementStoreReplication** y permita que la replicación se complete antes de ejecutar de nuevo el **Get-CsManagementStoreReplicationStatus** . 
+Los resultados iniciales pueden indicar que el estado es "false" en lugar de "true" para la replicación. En ese caso, ejecuta el cmdlet **Invoke-CsManagementStoreReplication** y deja tiempo para que se complete la replicación antes de volver a ejecutar **Get-CsManagementStoreReplicationStatus** . 
   
 

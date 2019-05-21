@@ -8,66 +8,66 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Al configurar directivas para admitir comunicaciones con los socios federados, las directivas se aplican a los usuarios de dominios federados. '
-ms.openlocfilehash: 81eced8db10c9ffd017b5b79a54980b773b300bb
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Al configurar directivas para admitir las comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. '
+ms.openlocfilehash: 00552dfd6e2cb92d1bd50cb851bfb8324122c5ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920661"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280169"
 ---
-# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios federados en Skype para Business Server
+# <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Configurar directivas para controlar el acceso de usuarios federados en Skype empresarial Server
 
-Al configurar directivas para admitir comunicaciones con los socios federados, las directivas se aplican a los usuarios de dominios federados. Puede configurar uno o más directivas de acceso de usuarios externos para controlar si los usuarios de dominios federados puedan colaborar con su Skype para los usuarios de Business Server. Para controlar el acceso de usuarios federados, puede configurar las directivas a nivel global, sitio y el nivel de usuario. Skype para la configuración de directiva de Business Server que se aplican en un nivel de directiva puede invalidar la configuración que se aplica en el nivel de directiva de otra. Skype para la prioridad de la directiva de Business Server es: directiva de usuario (más influencia) reemplaza una directiva de sitio y, a continuación, una directiva de sitio invalida una directiva Global (menos influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
+Al configurar directivas para admitir las comunicaciones con socios federados, las directivas se aplican a los usuarios de dominios federados. Puede configurar una o más directivas de acceso de usuarios externos para controlar si los usuarios de dominios federados pueden colaborar con los usuarios de Skype empresarial Server. Para controlar el acceso de usuarios federados, puede configurar directivas en el nivel global, de sitio y de usuario. La configuración de directiva de Skype empresarial Server que se aplica a un nivel de Directiva puede invalidar la configuración que se aplica a otro nivel de directiva. La prioridad de la Directiva de servidor de Skype empresarial es: la Directiva de usuario (más influencia) reemplaza a una directiva de sitio y, después, una directiva de sitio invalida una directiva global (menor influencia). Esto significa que, cuanto más cercana es la configuración de directiva al objeto al que la directiva afecta, mayor es la influencia que ejerce sobre el objeto.
 
 
 > [!NOTE]  
-> Puede configurar directivas para controlar el acceso de usuarios federados, incluso si no ha habilitado la federación para su organización. Sin embargo, las directivas que configurar entren en vigor sólo cuando tenga federación habilitada para su organización. Para obtener información detallada acerca de cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md).  Además, si se especifica una directiva de usuario para controlar el acceso de usuarios federados, la directiva se aplica sólo a los usuarios que están habilitados para Skype para Business Server y configurados para utilizar la directiva.
+> Puede configurar directivas para controlar el acceso de usuarios federados, incluso si no ha habilitado la Federación de su organización. Sin embargo, las directivas que configure solo estarán vigentes cuando tenga habilitada la Federación de su organización. Para obtener más información sobre cómo habilitar la Federación, consulte [habilitar o deshabilitar el acceso de usuarios remotos](../access-edge/enable-or-disable-remote-user-access.md).  Además, si especifica una directiva de usuario para controlar el acceso de usuarios federados, la Directiva solo se aplica a los usuarios que están habilitados para Skype empresarial Server y que se han configurado para usar la Directiva.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
 
-3.  En la barra de navegación izquierda, haga clic en **Acceso de usuarios externos**y, a continuación, haga clic en **Directiva de acceso externo**.
+3.  En la barra de navegación izquierda, haga clic en **acceso de usuarios externos**y, después, en **Directiva de acceso externo**.
 
-4.  En la página **Directiva de acceso externo** , realice una de las siguientes:
+4.  En la página **Directiva de acceso externo** , realice una de las siguientes acciones:
     
       - Para configurar la directiva global para admitir el acceso de usuarios federados, haga clic en la directiva global, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
     
-      - Para crear una nueva directiva de sitio, haga clic en **nuevo**y, a continuación, haga clic en **Directiva de sitio**. En **Seleccionar un sitio**, haga clic en el sitio apropiado de la lista y, a continuación, haga clic en **Aceptar**.
+      - Para crear una nueva Directiva de sitio, haga clic en **nueva**y, a continuación, haga clic en **Directiva del sitio**. En **seleccionar un sitio**, haga clic en el sitio adecuado de la lista y, a continuación, haga clic en **Aceptar**.
     
-      - Para crear una nueva directiva de usuario, haga clic en **nuevo**y, a continuación, haga clic en **Directiva de usuario**. En la **Nueva directiva de acceso externo**, cree un nombre único en el campo **nombre** que indica qué usuario cubiertos por la directiva (por ejemplo, **EnableFederatedUsers** para una directiva de usuario que permite a comunicaciones para los usuarios de dominio federado).
+      - Para crear una nueva Directiva de usuario, haga clic en **nueva**y, a continuación, haga clic en **Directiva de usuario**. En **nueva Directiva de acceso externo**, cree un nombre único en el campo **nombre** que indique lo que cubre la Directiva de usuario (por ejemplo, **EnableFederatedUsers** para una directiva de usuario que permita las comunicaciones de usuarios de dominios federados).
     
       - Para cambiar una directiva existente, haga clic en la directiva correspondiente que aparece en la tabla, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  (Opcional) Si desea agregar o editar una descripción, especifique la información de la directiva en **Descripción**.
+5.  Faculta Si desea agregar o editar una descripción, especifique la información de la Directiva en **Descripción**.
 
 6.  Siga uno de estos pasos:
     
-      - Para habilitar el acceso de usuarios federados para la directiva, active la casilla de verificación **Habilitar las comunicaciones con los usuarios federados** .
+      - Para habilitar el acceso de usuarios federados para la Directiva, active la casilla **Habilitar comunicaciones con usuarios federados** .
     
-      - Para deshabilitar el acceso de usuarios federados para la directiva, desactive la casilla de verificación **Habilitar las comunicaciones con los usuarios federados** .
+      - Para deshabilitar el acceso de usuarios federados para la Directiva, desactive la casilla **Habilitar comunicaciones con usuarios federados** .
 
 7.  Haga clic en **Confirmar**.
 
-Para habilitar el acceso de usuarios federados, también debe habilitar la compatibilidad para la federación en la organización. Para obtener información detallada, vea [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
+Para habilitar el acceso de usuarios federados, también debe habilitar la compatibilidad con la Federación de su organización. Para obtener más información, vea [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
-Si se trata de una directiva de usuario, también debe aplicar la directiva a los usuarios que desea que puedan colaborar con los usuarios federados. Para obtener información detallada, vea [asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
+Si se trata de una directiva de usuario, también debe aplicar la Directiva a los usuarios que desee que puedan colaborar con los usuarios federados. Para obtener más información, consulte [asignar una directiva de acceso de usuarios externos](assign-an-external-user-access-policy.md).
 
-## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente con Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para configurar una directiva existente mediante Windows PowerShell para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Iniciar el Skype para Shell de administración de negocios Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Skype para Business Server**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+2.  Inicie el shell de administración de Skype para Business Server: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Skype empresarial Server**y, a continuación, haga clic en **consola de administración de Skype empresarial**.
 
-3.  Escriba lo siguiente en el Skype para Shell de administración de servidor empresarial:
+3.  Escriba lo siguiente en el shell de administración de Skype empresarial Server:
     
     ```
     Set-CsExternalAccessPolicy -Identity <name of global, site or user policy - policy must exist when using Set-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAcess <$true, $false> -EnablePublicCloudAudioVideoAcess <$true, $false> -EnableOutsideAcess <$true, $false>
@@ -75,37 +75,37 @@ Si se trata de una directiva de usuario, también debe aplicar la directiva a lo
        
 
     > [!TIP]  
-    > El parámetro "EnablePublicCloudAudioVideoAccess" no tiene una selección correspondiente en el Skype para el Panel de Control de servidor empresarial
+    > El parámetro "EnablePublicCloudAudioVideoAccess" no tiene una selección correspondiente en el panel de control de Skype empresarial Server.
 
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva directiva de uso de Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para crear una nueva directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+2.  Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft Skype empresarial Server**y, por último, haga clic en **consola de administración de Skype empresarial Server**.
 
-3.  Escriba lo siguiente en el Skype para Shell de administración de servidor empresarial:
+3.  Escriba lo siguiente en el shell de administración de Skype empresarial Server:
     
     ```
     New-CsExtenalAccessPolicy -Identity <name of site or user policy - you cannot create a new global policy using New-CsExternalAccessPolicy > -Description <descriptive name for policy> -EnableFederationAccess <$true, $false> -EnableXmppAccess <$true, $false> -EnablePublicCloudAccess <$true, $false> -EnablePublicCloudAudioVideoAccess <$true, $false> -EnableOutsideAccess <$true, $false>
     ```
     
-    Un ejemplo de creación de una nueva directiva de sitio:
+    Un ejemplo de creación de una nueva Directiva de sitio:
     
     ```
     New-CsExternalAccessPolicy -Identity site:Redmond -EnableFederationAccess $true -EnableXmppAccess $true -EnableOutsideAccess $true -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
     ```
 
 
-## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una directiva de uso de Windows PowerShell para admitir el acceso de usuarios de dominios federados
+## <a name="to-delete-or-reset-a-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>Para eliminar o restablecer una directiva con Windows PowerShell para admitir el acceso de usuarios de dominios federados
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Escriba lo siguiente en el Skype para Shell de administración de servidor empresarial
+2.  Escriba lo siguiente en el shell de administración de Skype empresarial Server
     
     `Remove-CsExternalAccessPolicy -Identity <name of global, site or user policy>`
     
-    Un ejemplo de restablecimiento de la directiva global (la directiva global sólo puede tener su configuración se ha quitado. La directiva no se puede eliminar):
+    Un ejemplo de restablecimiento de la directiva global (la directiva global solo puede tener su configuración desinstalada). No se puede eliminar la Directiva):
     
     `Remove-CsExternalAccessPolicy -Identity global`
     
@@ -113,7 +113,7 @@ Si se trata de una directiva de usuario, también debe aplicar la directiva a lo
     
     `Remove-CsExternalAccessPolicy -Identity site:Redmond` 
     
-    Elimina la directiva de sitio Redmond. Para eliminar una directiva de usuario denominada UserEAPPolicy, escriba:
+    Elimina la Directiva de sitio de Redmond. Para eliminar una directiva de usuario denominada UserEAPPolicy, escriba:
     
     `Remove-CsExternalAccessPolicy -Identity UserEAPPolicy`
 
@@ -130,7 +130,7 @@ Si se trata de una directiva de usuario, también debe aplicar la directiva a lo
 [Administrar proveedores federados SIP para la organización](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 [Set-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExternalAccessPolicy)  
-[Nueva CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
+[Nuevo: CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExternalAccessPolicy)  
 [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)  
 [Remove-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExternalAccessPolicy)  
 [Grant-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsExternalAccessPolicy)  

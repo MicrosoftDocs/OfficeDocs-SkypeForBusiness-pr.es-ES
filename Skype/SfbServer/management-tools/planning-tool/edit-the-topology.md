@@ -5,45 +5,45 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/5/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Una vez completadas las preguntas iniciales de la entrevista, podrá editar las direcciones IP y el nombre de dominio completo (FQDN) del sitio. Para ello, en la página Topología global, haga doble clic en el sitio que desea editar.
-ms.openlocfilehash: 9dcc8f2f69843de5d824ad3df614631ea0d50c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 91a7ad51c66d810255fcc3239d25298bd370501f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915062"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274292"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Edit the topology in Skype for Business Server 2015
 
 Una vez completadas las preguntas iniciales de la entrevista, podrá editar las direcciones IP y el nombre de dominio completo (FQDN) del sitio. Para ello, en la página **Topología global**, haga doble clic en el sitio que desea editar.
 
-La herramienta de planeación muestra la topología de sitios para el sitio seleccionado. En la parte inferior de la página del sitio hay cuatro pestañas:
+La herramienta de planeación muestra la topología del sitio seleccionado. En la parte inferior de la página del sitio hay cuatro pestañas:
 
 ![Herramienta de planeación - Topología del sitio](../../media/Planning_Tool_Site_Topology.png)
 
-- Topología de sitio: la página mostrada actualmente con una descripción general visual de la topología recomendada.
+- Topología de sitio: la página que se muestra actualmente con una información general visual de la topología recomendada.
 
-- Diagrama de red perimetral - la página de diagrama de red perimetral es donde el diseñador realiza la mayor parte del trabajo de la herramienta de planeación. El diagrama muestra la configuración de red para una Skype recomendada para la topología empresarial Server 2015, con entradas modificables para IP direcciones y del sistema de nombres de dominio (DNS) y los FQDN de los servidores, grupo de servidores y tanto hardware equilibradores de carga.
+- Diagrama de red perimetral: la página de diagrama de red perimetral es el lugar donde el diseñador realiza la mayor parte del trabajo en la herramienta de planeación. El diagrama muestra la configuración de red para una topología recomendada de Skype empresarial Server 2015, con entradas editables para direcciones IP y FQDN para servidores, grupos y equilibradores de carga de hardware y de sistema de nombres de dominio (DNS).
 
-- Informe de administración perimetral - el informe de administración perimetral contiene un total de cuatro informes:
+- Informe de administración perimetral: el informe de administración perimetral contiene un total de cuatro informes:
 
      ![Página Informe de administración de servidores perimetrales](../../media/Planning_Tool_Summary_Report.png)
 
-  - Informe de resumen - un informe general de configuración para la configuración de red perimetral. Si modifica los valores de la página **Diagrama de red perimetral** por los valores de TCP/IP y FQDN de la topología que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, se mostrará el texto predeterminado.
+  - Informe de Resumen: un informe general de la configuración de la configuración de la red perimetral. Si modifica los valores de la página **Diagrama de red perimetral** por los valores de TCP/IP y FQDN de la topología que se usarán en la implementación real, esas direcciones y nombres se representarán aquí. De lo contrario, se mostrará el texto predeterminado.
 
-  - Informe de certificado - el informe de certificado se enumerará el nombre de sujeto y nombre alternativo de sujeto para los certificados que son necesarios para la topología.
+  - Informe de certificado: el informe de certificados mostrará el nombre del asunto y los nombres alternativos de asunto de los certificados necesarios para la topología.
 
-  - Informe de firewall - del informe de firewall enumera la información necesaria para configurar servidores de seguridad perimetrales en la infraestructura. Esto incluye las direcciones IP (ya sea los valores predeterminados o los modificados), el rol de servidor, el puerto y la IP de origen, el puerto y la IP de destino, el protocolo de transporte, el protocolo de aplicación y las notas relevantes.
+  - Informe de Firewall: el informe de Firewall muestra la información necesaria para configurar los firewalls perimetrales en la infraestructura. Esto incluye las direcciones IP (ya sea los valores predeterminados o los modificados), el rol de servidor, el puerto y la IP de origen, el puerto y la IP de destino, el protocolo de transporte, el protocolo de aplicación y las notas relevantes.
 
-  - Informe de DNS - del informe de DNS enumera información relevante para las entradas DNS que debe crear. También se incluye el tipo de registro, el FQDN, la dirección IP y los comentarios necesarios para obtener un funcionamiento correcto.
+  - Informe de DNS: el informe DNS muestra información relevante para las entradas DNS que debe crear. También se incluye el tipo de registro, el FQDN, la dirección IP y los comentarios necesarios para obtener un funcionamiento correcto.
 
-- Resumen del sitio - el resumen del sitio presenta una visión general de las selecciones realizadas por responder a las preguntas de la entrevista inicial o rellenar los valores de **Diseño de sitios**. También se muestra información sobre la capacidad.
+- Resumen del sitio: el resumen del sitio presenta una descripción general de las selecciones que realizó al contestar las preguntas iniciales de la entrevista o rellenar los valores de los **sitios de diseño**. También se muestra información sobre la capacidad.
 
     > [!NOTE]
     > La información de la página Resumen del sitio está personalizada para cada diseño y puede que no contenga todas las secciones o toda la información que se indica aquí.
@@ -51,11 +51,11 @@ La herramienta de planeación muestra la topología de sitios para el sitio sele
 ## <a name="edit-the-network-configuration-diagram"></a>Editar el diagrama de la configuración de red
 <a name="Edit_Network_diagram"> </a>
 
-La mayoría del trabajo que hace un diseñador en la Skype para la herramienta de planeación de Business Server 2015 consiste en definir las entradas para las direcciones IP y nombres de dominio completo (FQDN) para las entradas en el diagrama de red. La información que se especifica en esta página se traduce en los informes y otra información contenida en la herramienta de planeación.
+La mayoría del trabajo que un diseñador hace en la herramienta de planeación de Skype empresarial Server 2015 consiste en definir las entradas de las direcciones IP y los nombres de dominio completos (FQDN) de las entradas del diagrama de red. La información que se introduce en esta página se repite en los informes y otra información de la herramienta de planificación.
 
 ![Diagrama de red de la Herramienta de planeación](../../media/Planning_Tool_Network_Diagram.png)
 
-La herramienta de planeación, se crea un diagrama de red con texto predeterminado para las direcciones IP y nombres de dominio completos.
+La herramienta de planeación crea un diagrama de red con texto predeterminado para las direcciones IP y FQDN.
 
 Para editar el diagrama de red y los valores de entrada:
 

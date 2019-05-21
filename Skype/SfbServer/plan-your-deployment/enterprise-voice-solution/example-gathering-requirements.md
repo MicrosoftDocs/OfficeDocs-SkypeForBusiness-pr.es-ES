@@ -1,10 +1,10 @@
 ---
-title: Ejemplo de recopilación de requisitos de control de admisión de llamadas en Skype para Business Server
+title: Ejemplo de recopilación de requisitos para el control de admisión de llamadas en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,31 +13,31 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
-ms.openlocfilehash: c00c61377d3bbaca6539b2b3f3bd889ae723bd8e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Proporciona un ejemplo detallado de la planificación de control de admisión de llamadas en Skype empresarial Server Enterprise Voice, incluida la recopilación de información sobre los sitios, las regiones y el ancho de banda de la red.
+ms.openlocfilehash: 73a1a75f8619877d2c9228f910aa747aee36a8e0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924405"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276883"
 ---
-# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: Requisitos de recopilación para llamar al control de admisión de Skype para Business Server
+# <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Ejemplo: recopilación de requisitos para el control de admisión de llamadas en Skype empresarial Server
 
-Proporciona un ejemplo detallado de la planeación para el control de admisión de llamadas en Skype para Business Server Enterprise Voice, incluida la recopilación de información acerca de sitios, regiones y ancho de banda de la red.
+Proporciona un ejemplo detallado de la planificación de control de admisión de llamadas en Skype empresarial Server Enterprise Voice, incluida la recopilación de información sobre los sitios, las regiones y el ancho de banda de la red.
 
 Este ejemplo muestra cómo planificar e implementar el servicio de control de admisión de llamadas (CAC). De forma general, esto consta de las siguientes actividades:
 
 1. Identifica todos los concentradores de red y redes troncales (llamados regiones de red).
 
-2. Identificar el Skype para sitio central Business Server que administrará el CAC para cada región de red.
+2. Identifique el sitio central de Skype empresarial Server que administrará CAC para cada región de la red.
 
 3. Identifica y define los sitios de red que están conectados a cada región de red.
 
-4. Para cada sitio de red cuya conexión a la red WAN está limitada por el ancho de banda, se describe la capacidad de ancho de banda de la conexión WAN y los límites de ancho de banda que al administrador de red ha establecido para Skype para el tráfico de medios Business Server, si procede. No necesitas incluir sitios cuya conexión a la red WAN no tiene ancho de banda restringido.
+4. Para cada sitio de red cuya conexión a la WAN tenga limitaciones de ancho de banda, describa la capacidad de ancho de banda de la conexión WAN y los límites de ancho de banda que se han establecido en el administrador de la red para el tráfico multimedia de Skype empresarial Server, si procede. No necesitas incluir sitios cuya conexión a la red WAN no tiene ancho de banda restringido.
 
 5. Asocia cada subred de la red a un sitio de red.
 
-6. Asigna los vínculos entre las regiones de red. Para cada vínculo, describir su capacidad de ancho de banda y los límites que el Administrador de red ha colocado en Skype para el tráfico de medios de Business Server.
+6. Asigna los vínculos entre las regiones de red. Para cada vínculo, describa su capacidad de ancho de banda y los límites que el administrador de la red haya puesto en el tráfico multimedia de Skype empresarial Server.
 
 7. Define una ruta entre cada par de regiones de red.
 
@@ -51,20 +51,20 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
     Nuestra topología de ejemplo tiene tres regiones de red: Norteamérica, EMEA y APAC. Una región de red incluye una colección de sitios de red. Trabaja con el administrador de la red para definir las regiones de red de tu empresa.
 
-2. Identificar el sitio central de cada región de red asociado. Un sitio central contiene al menos un servidor Front-End y el Skype para la implementación de Business Server que administrará el CAC para todo el tráfico de medios que pasa a través de la conexión WAN de la región de red.
+2. Identifique el sitio central asociado de cada región de red. Un sitio central contiene al menos un servidor front-end y es la implementación de Skype empresarial Server que administrará CAC para todo el tráfico multimedia que pasa por la conexión WAN de la región de la red.
 
    **Una red de empresa de ejemplo dividida en tres regiones de red**
 
      ![Ejemplo de topología de red con 3 regiones de red](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Una red de conmutación de etiquetas multiprotocolo (MPLS) necesita representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener información detallada, vea [componentes y topologías para llamar al control de admisión de Skype para la empresa](components-and-topologies.md). 
+    > Una red de conmutación de etiquetas multiprotocolo (MPLS) necesita representarse como una región de red en la que cada ubicación geográfica tiene un sitio de red correspondiente. Para obtener más información, consulte [componentes y topologías para el control de admisión de llamadas en Skype empresarial](components-and-topologies.md). 
 
-    En el anterior ejemplo de topología de red, hay tres regiones de red, cada uno con un Skype para sitio central Business Server que administra el CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles. 
+    En el ejemplo anterior topología de red, hay tres regiones de red, cada una con un sitio central de Skype empresarial Server que administra CAC. El sitio central adecuado para una región de red se elige por la proximidad geográfica. Como el tráfico de medios será mayor dentro de las regiones de red, la propiedad por proximidad geográfica lo hace independiente y seguirá siendo funcional aunque otros sitios centrales dejen de estar disponibles. 
 
-    En este ejemplo, un Skype para la implementación de empresa denominada a Chicago es el sitio central para la región de América del Norte.
+    En este ejemplo, una implementación de Skype empresarial denominada Chicago es el sitio central de la región de Norteamérica.
 
-    Todos los Skype para los usuarios de negocio en Norteamérica están hospedados en servidores de la implementación de Chicago. En la tabla siguiente se muestran los sitios centrales de las tres regiones de red.
+    Todos los usuarios de Skype empresarial de Norteamérica están alojados en servidores de la implementación de Chicago. En la tabla siguiente se muestran los sitios centrales de las tres regiones de red.
 
     **Regiones de red y sus sitios centrales asociados**
 
@@ -75,7 +75,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
     |APAC  <br/> |Pekín  <br/> |
 
     > [!NOTE]
-    > Según su Skype de topología de servidores de negocio, el mismo sitio central puede asignarse a varias regiones de red. 
+    > Según la topología de su servidor de Skype empresarial, se puede asignar el mismo sitio central a varias regiones de la red. 
 
 3. En cada región de red, identifica todos los sitios de red (oficinas o ubicaciones) cuyas conexiones WAN no tienen ancho de banda restringido. Como estos sitios no tienen ancho de banda restringido, no necesitas aplicarles directivas de ancho de banda de CAC.
 
@@ -111,11 +111,11 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
 5. Para cada vínculo WAN de ancho de banda restringido, determina lo siguiente:
 
-   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
    - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
 
-   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
    - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
 
@@ -148,7 +148,7 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
     **Nivel**: 2
 
-    **Descripción**: las subredes de las siguientes direcciones IP: \<lista de direcciones IP\> no son está configurada o las subredes no están asociadas a un sitio de red. 
+    **Descripción**: las subredes de las siguientes direcciones IP: \<la lista de direcciones\> IP no está configurada o las subredes no están asociadas a un sitio de red. 
 
     **Causa**: las subredes de las correspondientes direcciones IP faltan en las opciones de configuración de la red o las subredes no están asociadas a un sitio de red. 
 
@@ -173,13 +173,13 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
    | Detroit  <br/>     | Norteamérica  <br/> | (sin límite)  <br/> | (sin límite)  <br/> | (sin límite)  <br/>       | (sin límite)  <br/> | (sin límite)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
 
 
-7. En Skype para el control de admisión de llamadas de Business Server, las conexiones entre regiones de red se denominan vínculos de región. Para cada vínculo de región, determina lo siguiente, tal como has hecho para los sitios de red:
+7. En Skype empresarial Server Call Admission Control, las conexiones entre regiones de red se denominan vínculos de región. Para cada vínculo de región, determina lo siguiente, tal como has hecho para los sitios de red:
 
-   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
    - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
 
-   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+   - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
    - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
 
@@ -213,11 +213,11 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
 9. Para cada par de sitios de red que estén conectados directamente por un solo vínculo (denominado vínculo entre sitios), determina lo siguiente:
 
-     - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+     - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de audio. Si una nueva sesión de audio hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
      - Límite de ancho de banda que deseas establecer para cada sesión individual de audio. El límite predeterminado de ancho de banda para CAC es de 175 kbps, pero el administrador puede modificarlo.
 
-     - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de vídeo hará que este límite que se supere, Skype para Business Server no permite la sesión iniciar.
+     - Límite general de ancho de banda que deseas establecer para todas las sesiones simultáneas de vídeo. Si una nueva sesión de video hace que se supere este límite, Skype empresarial Server no permite que se inicie la sesión.
 
      - Límite de ancho de banda que deseas establecer para cada sesión individual de vídeo. El límite predeterminado de ancho de banda para CAC es de 700 kbps, pero el administrador puede modificarlo.
 
@@ -233,9 +233,9 @@ Para preparar el servicio de control de admisión de llamadas, recopila la infor
 
 ### <a name="next-steps"></a>Pasos siguientes
 
-Una vez recopilada la información necesaria, puede realizar la implementación de CAC mediante el Skype para Shell de administración de servidor empresarial o Skype para el Panel de Control de servidor empresarial.
+Una vez recopilada la información necesaria, puede realizar la implementación CAC con el shell de administración de Skype empresarial Server o el panel de control de Skype empresarial Server.
 
 > [!NOTE]
-> Si bien puede realizar la mayoría de las tareas de configuración de red mediante el uso de Skype para el Panel de Control de servidor empresarial, para crear subredes y vínculos entre sitios, debe usar Skype para Shell de administración de servidor empresarial. Si necesita información detallada, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
+> Aunque puede realizar la mayoría de las tareas de configuración de red con el panel de control de Skype empresarial Server, para crear subredes y vínculos entre sitios, debe usar el shell de administración de Skype empresarial Server. Si necesita información detallada, consulte [New-CsNetworkSubnet](https://docs.microsoft.com/powershell/module/skype/new-csnetworksubnet?view=skype-ps) y [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps). 
 
 

@@ -1,39 +1,39 @@
 ---
-title: Informe de resumen de actividad punto a punto en Skype para Business Server
+title: Informe de Resumen de actividad de punto a punto en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e829a21e-9dfa-46ba-9b5b-077c175d6586
-description: 'Resumen: Información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.'
-ms.openlocfilehash: 9b0ef6cdb430fcd6c1fdf278e31133b9ba22ef9f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de Resumen de actividad punto a punto en Skype empresarial Server.'
+ms.openlocfilehash: dd11e5d998c8aef779b98cc0a74ba83a4dc70d84
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925218"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279899"
 ---
-# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de resumen de actividad punto a punto en Skype para Business Server
+# <a name="peer-to-peer-activity-summary-report-in-skype-for-business-server"></a>Informe de Resumen de actividad de punto a punto en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de resumen de actividad punto a punto en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de Resumen de actividad punto a punto en Skype empresarial Server.
   
-El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión de punto a punto normalmente implica a sólo dos usuarios y no requiere el uso de la Skype para servicios de conferencia de Business Server. En comparación, una conferencia normalmente implica a más de dos usuarios y requiere el uso de Skype para servicios de conferencia de Business Server. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
+El Informe de resumen de actividad punto a punto proporciona una vista general de las sesiones de comunicación punto a punto. Una sesión de punto a punto normalmente implica solo dos usuarios, y no requiere el uso de los servicios de conferencia de Skype empresarial Server. En comparación, una conferencia suele implicar a más de dos usuarios y requiere el uso de los servicios de conferencia de Skype empresarial Server. La actividad de la conferencia se notifica en el Informe de resumen de conferencia.
   
 Con el Informe de resumen de actividad punto a punto le será más fácil responder a preguntas como la siguiente:
   
 - ¿Cuántos mensajes instantáneos de punto a punto envían habitualmente mis usuarios en un día normal?
     
-- ¿Alguno de Mis usuarios realmente a aprovechar el Skype para las capacidades de transferencia de archivos y uso compartido de aplicaciones Business Server?
+- ¿Alguno de mis usuarios aprovecha realmente las capacidades de uso compartido de aplicaciones y transferencia de archivos de Skype empresarial Server?
     
 - Los usuarios se han estado quejando de que en determinados momentos del día, parece que la red va más lenta. ¿Cuántos minutos se dedican a las sesiones de audio o vídeo en esos períodos de tiempo?
     
 ## <a name="accessing-the-peer-to-peer-activity-summary-report"></a>Obtener acceso al Informe de resumen de actividad punto a punto
 
-Obtenga acceso al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Abra el [informe de mensajería instantánea de punto a punto en Skype para Business Server](im-report.md) haciendo clic en cualquiera de las métricas siguientes:
+Obtenga acceso al Informe de resumen de actividad punto a punto desde la página inicial de los informes de supervisión. Para abrir el [Informe de mensajería instantánea de punto a punto en Skype empresarial Server](im-report.md) , haga clic en una de las siguientes métricas:
   
 - Total de sesiones de mensajería instantánea de punto a punto
     

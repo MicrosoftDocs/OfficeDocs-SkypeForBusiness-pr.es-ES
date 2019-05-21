@@ -5,7 +5,7 @@ author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 6/4/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,35 +14,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
-description: 'Resumen: Información para las organizaciones que no utilizan Office 365 y necesita tener acceso a reuniones hospedadas por las organizaciones que realizan.'
-ms.openlocfilehash: 6dafdb57db2ce3609b4fa97dba44ebe6b70a9373
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: información para organizaciones que no usan Office 365 y necesitan tener acceso a reuniones hospedadas por organizaciones que sí lo hacen.'
+ms.openlocfilehash: 1017c81fc3432fbd409077b89809d725b2b0e2cc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926110"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277485"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Requisitos de red mínimos de la aplicación Reuniones de Skype
  
-**Resumen:**  Información de las organizaciones que no utilizan Office 365 y necesita tener acceso a reuniones hospedadas por las organizaciones que realizan. En este artículo no está pensada para los usuarios de estas aplicaciones.
+**Resumen:**  Información para organizaciones que no usan Office 365 y necesitan tener acceso a reuniones hospedadas por organizaciones que sí lo hacen. Este artículo no está dirigido a los usuarios de estas aplicaciones.
   
-Para permitir a los usuarios a usar la aplicación de las reuniones de Skype para asistir a reuniones hospedadas en Skype para profesionales en línea, los administradores de red de las organizaciones que no utilizan Office 365 deben lista blanca o en caso contrario, hacer disponible los nombres de dominio completos, IP y los puertos que se mencionan a continuación.
+Para permitir a los usuarios usar la aplicación reuniones de Skype para asistir a reuniones hospedadas en Skype empresarial online, los administradores de red de las organizaciones que no usan Office 365 deberían hacer la lista blanca o, de lo contrario, hacer que estén disponibles los FQDN, IPs y puertos que se mencionan a continuación.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Requisitos para la conectividad de la aplicación Reuniones de Skype
 
-La información que se muestra aquí es un subconjunto de [los intervalos de direcciones IP y URL de Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), que proporciona más profundidad y siempre será el más actualizado.
+La información que se muestra aquí es un subconjunto de [direcciones URL e intervalos de direcciones IP de Office 365](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US), lo que proporciona más profundidad y siempre será el más actualizado.
                     
  
 |Aplicación |FQDN de destino  |Direcciones IP  |Puertos  |
 |---|---------|---------|---------|
-|**Aplicación Reuniones de Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*difusión<span></span>. officeapps.live.com <br/>\*PowerPoint<span></span>. officeapps.live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Estas direcciones IP se actualizan con frecuencia.  Vea [Skype para rangos IP empresarial](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , así como [Rangos de IP de Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
-|**Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Estas direcciones IP se actualizan con frecuencia.  Vea [Skype para rangos IP empresarial](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , así como [Rangos de IP de Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478-3481
+|**Aplicación Reuniones de Skype** | \*. lync.com <br/>\*. infra.lync.com<br/>\*. pipe.aria.microsoft.com<br/>\*. sfbassets.com<br/>\*. msecnd.net<br/>\*difusión<span></span>. officeapps.Live.com <br/>\*PowerPoint<span></span>. officeapps.Live.com <br/>\*. office.live.com<br/>\*. cdn.office.net<br/>*.s-microsoft.com<br/>        |   Estas direcciones IP se actualizan con frecuencia.  Ver los [intervalos IP de Skype empresarial](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , así como los [intervalos IP de Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)         |TCP: 80 &amp; 443<br/>UDP: 3478-3481<br/>
+|**Teams**    | \*<span></span>. microsoft.com <br/>\*<span></span>. skype.com | Estas direcciones IP se actualizan con frecuencia.  Ver los [intervalos IP de Skype empresarial](https://support.office.com/en-us/article/office-365-urls-and-ip-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;rs=en-US&amp;ad=US#bkmk_sfb_ip) , así como los [intervalos IP de Office Online](https://support.office.com/en-us/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2?ui=en-US&amp;amp;rs=en-US&amp;amp;ad=US)      |TCP: 443 <br/> UDP: 3478-3481
 
 ## <a name="see-also"></a>Vea también
 <a name="BKMK_Conferencing"> </a>
 
-[Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](meetings-clients.md)
+[Planear clientes de reuniones (aplicación web y aplicación reuniones)](meetings-clients.md)
 
-[Implementar a los clientes que se pueden descargar de Web en Skype para Business Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
+[Implementar clientes descargables en Internet en Skype empresarial Server](../../deploy/deploy-clients/deploy-web-downloadable-clients.md)
 
-[Plataformas admitidas para la aplicación de las reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
+[Plataformas compatibles con la aplicación reuniones de Skype](https://support.office.com/en-US/client/results?Shownav=true&amp;lcid=1033&amp;ns=SKFBWA&amp;version=15&amp;omkt=en-US&amp;ver=15&amp;HelpID=SfBWebApp4001)
