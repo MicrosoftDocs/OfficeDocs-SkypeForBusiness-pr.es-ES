@@ -5,41 +5,41 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
-description: La vista FocusJoinsAndLeaves almacena información acerca de la combinación y deje la información de una conferencia. Cada conferencia se representa en esta vista por un objeto record escrito cada vez que un usuario se une a y abandona la conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: 3565a9bfbcfd735e4ba6b16facd8e0c88abd4a13
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La vista FocusJoinsAndLeaves almacena información acerca de la Unión y la información de salida de una conferencia. Cada conferencia se representa en esta vista por un registro que se escribe cada vez que un usuario se une y sale de la Conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
+ms.openlocfilehash: f739ae390b636913d96b49dd516d2618c72515e6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901183"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296220"
 ---
 # <a name="focusjoinsandleaves-view"></a>Vista FocusJoinsAndLeaves
  
-La vista FocusJoinsAndLeaves almacena información acerca de la combinación y deje la información de una conferencia. Cada conferencia se representa en esta vista por un objeto record escrito cada vez que un usuario se une a y abandona la conferencia. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista FocusJoinsAndLeaves almacena información acerca de la Unión y la información de salida de una conferencia. Cada conferencia se representa en esta vista por un registro que se escribe cada vez que un usuario se une y sale de la Conferencia. Esta vista se presentó en Microsoft Lync Server 2013.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Hora de la instancia de conferencia. Se utiliza en forma conjunta con SessionIdSeq para identificar de forma exclusiva una instancia de la conferencia. Consulte la [tabla de las conferencias en Skype para Business Server 2015](conferences.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Número de identificador para identificar la instancia de conferencia. Se utiliza junto con SessionIdTime para identificar de forma exclusiva una instancia de la conferencia. Consulte la [tabla de las conferencias en Skype para Business Server 2015](conferences.md) para obtener más información. <br/> |
-|**UserUri** <br/> |nvarchar(450)  <br/> |URI del usuario incorporación/abandono información que se ha capturado.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario incorporación/abandono información que se ha capturado. Consulte la [tabla UriTypes](uritypes.md) para obtener más información. <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Inquilino del usuario incorporación/abandono información que se ha capturado. Consulte la [tabla de los inquilinos](tenants.md) para obtener más información. <br/> |
-|**UserEndpointId** <br/> |uniqueidentifier  <br/> |Identificador único del usuario incorporación/abandono información que se ha capturado.  <br/> |
-|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versión del cliente usado por el usuario incorporación/abandono información que se ha capturado.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Cliente usado por el usuario incorporación/abandono información que se ha capturado. Para obtener más información, consulte [tabla UserAgentDef](useragentdef.md) . <br/> |
-|**UserClientCategory** <br/> |nvarchar(64)  <br/> |Nombre de la categoría del cliente usado por el usuario incorporación/abandono información que se ha capturado.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Hora de la instancia de conferencia. Se usa junto con SessionIdSeq para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, consulte la [tabla conferencias en Skype empresarial Server 2015](conferences.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Número de identificación para identificar la instancia de la Conferencia. Se usa junto con SessionIdTime para identificar de forma exclusiva una instancia de conferencia. Para obtener más información, consulte la [tabla conferencias en Skype empresarial Server 2015](conferences.md) . <br/> |
+|**UserUri** <br/> |nvarchar (450)  <br/> |URI del usuario en el que se capturó la información de unión o salida de la Conferencia.  <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Tipo de URI del usuario cuya información de unión o salida de conferencia se capturó. Para obtener más información, consulte la [tabla UriTypes](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Espacio empresarial del usuario cuya información de unión o salida de conferencia fue capturada. Para obtener más información, consulte la [tabla](tenants.md) de inquilinos. <br/> |
+|**UserEndpointId** <br/> |identificador  <br/> |Identificador único del usuario cuya información de unión o salida de conferencia se capturó.  <br/> |
+|**UserClientVersion** <br/> |nvarchar(256)  <br/> |Versión del cliente usada por el usuario cuya información de unión o salida de conferencia ha sido capturada.  <br/> |
+|**UserClientType** <br/> |int  <br/> |Cliente usado por el usuario cuya información de unión o salida de conferencia fue capturada. Para obtener más información, consulta la [tabla UserAgentDef](useragentdef.md) . <br/> |
+|**UserClientCategory** <br/> |nvarchar (64)  <br/> |Nombre de la categoría del cliente usada por el usuario cuya información de unión o salida de conferencia fue capturada.  <br/> |
 |**FocusUserInstance** <br/> |int  <br/> ||
 |**IsuserInternal** <br/> |bit  <br/> |Bit que representa si el usuario es un usuario interno o no.  <br/> |
-|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se utiliza en forma conjunta con SessionIdSeq para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**DialogSessionIdSeq** <br/> |int  <br/> |Si un usuario inicia sesión en varios equipos o dispositivos a la vez, UserInstance se usa para identificar de forma única la combinación usuario/dispositivo.  <br/> |
-|**DialogId** <br/> |varchar(775)  <br/> |Identificador del cuadro de diálogo SIP de la sesión. El formato es: cuadro de diálogo; de etiqueta; para la etiqueta.  <br/> |
-|**UserJoinTime** <br/> |datetime  <br/> |Tiempo que el usuario se unió a la conferencia.  <br/> |
-|**UserLeaveTime** <br/> |datetime  <br/> |Hora en que el usuario abandonó la conferencia.  <br/> |
-|**UserRole** <br/> |nvarchar(256)  <br/> |Rol del usuario en la conferencia, por ejemplo moderador o asistente.  <br/> |
+|**DialogSessionIdTime** <br/> |datetime  <br/> |Hora de la solicitud de sesión. Se usa en conjunción con SessionIdSeq para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**DialogSessionIdSeq** <br/> |int  <br/> |Si un usuario ha iniciado sesión en varios equipos o dispositivos al mismo tiempo, UserInstance se usa para identificar de forma inequívoca la combinación de usuario y dispositivo.  <br/> |
+|**DialogId** <br/> |VARCHAR (775)  <br/> |IDENTIFICACIÓN del cuadro de diálogo SIP de la sesión. El formato es: diálogo; de-etiqueta; to-TAG.  <br/> |
+|**UserJoinTime** <br/> |datetime  <br/> |El momento en que el usuario se unió a la Conferencia.  <br/> |
+|**UserLeaveTime** <br/> |datetime  <br/> |Tiempo que el usuario abandonó la Conferencia.  <br/> |
+|**UserRole** <br/> |nvarchar(256)  <br/> |Función del usuario en la Conferencia, como moderador o asistente.  <br/> |
    
 

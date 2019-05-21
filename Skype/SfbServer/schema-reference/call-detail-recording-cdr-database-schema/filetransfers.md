@@ -5,33 +5,33 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/9/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e52c3ad0-152e-4a18-af1c-1aff0d205151
-description: La vista FileTransfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
-ms.openlocfilehash: aa238d11a88b8259427619271171adcf6f1c3e42
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La vista FileTransfer almacena información sobre las sesiones de transferencia de archivos de punto a punto. Esta vista se presentó en Microsoft Lync Server 2013.
+ms.openlocfilehash: 303a8cf624b19f9701cabbd491fcb7b08dfba25d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33901190"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296241"
 ---
 # <a name="filetransfers-view"></a>Vista FileTransfers
  
-La vista FileTransfer almacena información acerca de las sesiones de transferencia de archivos de punto a punto. Esta vista se introdujo en Microsoft Lync Server 2013.
+La vista FileTransfer almacena información sobre las sesiones de transferencia de archivos de punto a punto. Esta vista se presentó en Microsoft Lync Server 2013.
   
 > [!NOTE]
-> La vista FileTransfers contiene todos los de las columnas de la [SessionDetails view](sessiondetails-0.md) además las columnas enumeradas a continuación.
+> La vista FileTransfers contiene todas las columnas de la [vista SessionDetails](sessiondetails-0.md) además de las columnas que se muestran a continuación.
   
 |**Columna**|**Tipo de datos**|**Detalles**|
 |:-----|:-----|:-----|
 |**FileName** <br/> |nvarchar(256)  <br/> |Nombre del archivo transferido.  <br/> |
-|**Galleta** <br/> |nvarchar (128)  <br/> |Se usa para identificar todos los mensajes de seguimiento que están asociadas con éste.  <br/> |
-|**FileIdentity** <br/> |uniqueidentifier  <br/> |Identificador único para distinguir entre las transferencias de archivos que implican el mismo nombre de archivo.  <br/> |
-|**Aceptar** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es TRUE, a continuación, rechazar y cancelar será NULL.  <br/> |
-|**Rechazar** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es TRUE, a continuación, Aceptar y cancelar será NULL.  <br/> |
-|**Cancelar.** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es TRUE, a continuación, Aceptar y rechazar será NULL.  <br/> |
+|**Ésta** <br/> |nvarchar(128  <br/> |Se usa para identificar cada mensaje de seguimiento como asociado con este.  <br/> |
+|**FileIdentity** <br/> |identificador  <br/> |Identificador único para distinguir entre transferencias de archivos que impliquen el mismo nombre de archivo.  <br/> |
+|**Aceptable** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es verdadero, rechazar y cancelar será nulo.  <br/> |
+|**Rechace** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es verdadero, aceptar y cancelar será nulo.  <br/> |
+|**Cancelar.** <br/> |bit  <br/> |Puede ser TRUE o NULL. Si es verdadero, aceptar y rechazar serán NULOs.  <br/> |
    
 

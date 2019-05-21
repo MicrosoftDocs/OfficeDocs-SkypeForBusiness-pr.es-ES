@@ -1,27 +1,27 @@
 ---
-title: Implementación Asistente para solicitar un certificado
+title: Asistente para la implementación de solicitudes de certificados
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequest
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 68c2046d-c988-4411-bd8b-b3096b4f4f3e
-description: Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea instalar Skype para Business Server 2015.
-ms.openlocfilehash: 3d2a0dcbdaade34c17ae1ebc689cf4529a693d70
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server 2015, consulte instalar Skype empresarial Server 2015.
+ms.openlocfilehash: b8ea35dd1ba5e7539848afdc27b63470a20d02a7
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921114"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34301851"
 ---
 # <a name="deployment-wizard-request-a-certificate"></a>Asistente para la implementación: Solicitar un certificado
  
-Para obtener información detallada acerca de cómo utilizar el Asistente para la implementación para instalar Skype para Business Server 2015, vea [Instalar Skype para Business Server 2015](../../deploy/install/install.md).
+Para obtener más información sobre cómo usar el Asistente para la implementación para instalar Skype empresarial Server 2015, consulte [instalar Skype empresarial server 2015](../../deploy/install/install.md).
   
 

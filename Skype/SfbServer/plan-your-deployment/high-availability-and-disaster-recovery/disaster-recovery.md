@@ -1,28 +1,28 @@
 ---
-title: Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
+title: Recuperación ante desastres del grupo de servidores front-end en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Para la recuperación ante desastres, Skype para Business Server ofrece el emparejamiento con conmutación por error en caso de funcionar un grupo de servidores del grupo de servidores.
-ms.openlocfilehash: 9d35ecde963cbee72bb23294f0e5b02dc1477b12
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para la recuperación ante desastres, Skype empresarial Server ofrece el emparejamiento de grupo con failover en caso de que se produzca un regrupo.
+ms.openlocfilehash: 15df85790cd7959b88126c5e6bb0e7fd99b836e1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910301"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297508"
 ---
-# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Front-recuperación de desastres de grupo de servidores de final en Skype para Business Server
+# <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Recuperación ante desastres del grupo de servidores front-end en Skype empresarial Server
  
-Para la recuperación ante desastres, Skype para Business Server ofrece el emparejamiento con conmutación por error en caso de funcionar un grupo de servidores del grupo de servidores.
+Para la recuperación ante desastres, Skype empresarial Server ofrece el emparejamiento de grupo con failover en caso de que se produzca un regrupo.
   
-Para el más sólidas opciones recuperación ante desastres en Skype para Business Server, implemente pares de grupos de servidores Front-End entre dos sitios geográficamente dispersos. Cada sitio tiene un grupo de servidores front-end que se empareja con un grupo de servidores front-end correspondiente en otro sitio. Ambos sitios se encuentran activos, y el servicio de copia de seguridad proporciona la replicación de datos en tiempo real a fin de mantener los grupos sincronizados. Si desea implementar el emparejamiento de grupo de servidores Front-End, consulte [Deploy emparejada grupos de Front-End para la recuperación ante desastres en Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) .
+Para obtener las opciones de recuperación ante desastres más eficaces de Skype empresarial Server, implemente pares de grupos de servidores front-end en dos sitios dispersos geográficamente. Cada sitio tiene un grupo de servidores front-end que se empareja con un grupo de servidores front-end correspondiente en otro sitio. Ambos sitios se encuentran activos, y el servicio de copia de seguridad proporciona la replicación de datos en tiempo real a fin de mantener los grupos sincronizados. Consulte [implementar grupos front-end emparejados para la recuperación ante desastres en Skype empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) si desea implementar el emparejamiento de la agrupación frontal.
   
 ![Muestra grupos de servidores front-end en dos sitios distintos, emparejados entre sí](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
@@ -42,9 +42,9 @@ Al planificar qué grupos de servidores vas a emparejar, necesitas tener en cuen
     
 Ni el generador de topologías ni la validación de topología prohibirán el emparejamiento de dos grupos de servidores de un modo que no siga estas recomendaciones. Por ejemplo, el generador de topologías permite emparejar un grupo de servidores Enterprise Edition con un grupo de servidores Standard Edition. En realidad, estos tipos de emparejamientos no se admiten.
   
-## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Copia de seguridad de relaciones entre registradores y aplicaciones de sucursal con funciones de supervivencia
+## <a name="backup-registrar-relationships-and-survivable-branch-appliances"></a>Relaciones del registrador de copia de seguridad y equipos de sucursales
 
-Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí. Cada grupo de servidores puede ser la copia de seguridad para un solo otros servidores Front-End.
+Además de proporcionar la capacidad de recuperación ante desastres, dos grupos de servidores emparejados sirven como registradores de copia de seguridad entre sí. Cada grupo puede ser la copia de seguridad solo de un grupo de servidores front-end.
   
 Aunque las relaciones de copia de seguridad entre dos grupos de servidores front-end necesitan ser 1:1 y simétricas, cada grupo de servidores front-end puede continuar siendo el registrador de copia de seguridad para cualquier cantidad de aplicaciones de sucursal con funciones de supervivencia.
   
@@ -54,13 +54,13 @@ Ten en cuenta que Skype Empresarial no amplía el soporte de la recuperación an
 
 Para la conmutación por error y por recuperación del grupo de servidores, el objetivo de ingeniería para el objetivo de tiempo de recuperación (RTO) es de 15 a 20 minutos. Este es el tiempo necesario para que tenga lugar la conmutación por error, una vez que los administradores hayan determinado que se ha producido un desastre e inicien los procedimientos de conmutación por error. No incluye el tiempo necesario para que los administradores evalúen la situación y tomen una decisión, como tampoco el tiempo necesario para que los usuarios vuelvan a iniciar sesión una vez que finalice la conmutación por error.
   
-Para el grupo de servidores de conmutación por error y conmutación por recuperación del grupo de servidores, el destino de ingeniería para objetivo de punto de recuperación (RPO) es de 5 minutos. Esto representa la medida de tiempo de datos que se podrían perder debido a del desastre, debido a la latencia de replicación del servicio de copia de seguridad. Por ejemplo, si un grupo de servidores deja de funcionar a las 10:00 A.M., y el RPO es de 5 minutos, los datos escritos en el grupo de servidores entre 9:55 A.M. y .might 10:00 A.M. no se ha replicado en el grupo de copia de seguridad y se perderán.
+Para la conmutación por error de grupo y la conmutación por recuperación de grupos, el objetivo de ingeniería para objetivo de punto de recuperación (RPO) es de 5 minutos. Esto representa la medida de tiempo de los datos que se podrían perder debido al desastre, debido a la latencia de replicación del servicio de copia de seguridad. Por ejemplo, si un grupo se baja a las 10:00 A.M. y el RPO es de 5 minutos, los datos se escriben en el grupo entre 9:55 A.M. y 10:00 a. M es posible que no se haya replicado en el grupo de copia de seguridad y se perdería.
   
 Para todas las cantidades de RTO y RPO de este documento se asume que los dos centros de datos se encuentran en la misma región del mundo con un transporte de alta velocidad y baja latencia entre los dos sitios. Estas cantidades se miden para un grupo de 40 000 usuarios activos simultáneamente y 200 000 usuarios habilitados para Lync con respecto a un modelo de usuario predefinido en el que no hay trabajo pendiente en la replicación de datos. Están sujetas a cambios a partir de las pruebas de rendimiento y validación.
   
 ## <a name="central-management-store-failover"></a>Conmutación por error del almacén de administración central
 
-El almacén de administración central contiene datos de configuración sobre los servidores y los servicios de tu implementación. Cada Skype para la implementación de Business Server incluye un almacén de Administración Central, que está hospedado en el servidor Back-End de un grupo de servidores Front-End.
+El almacén de administración central contiene datos de configuración sobre los servidores y los servicios de tu implementación. Cada implementación de Skype empresarial Server incluye un almacén de administración central, que se hospeda en el servidor back-end de un grupo de servidores front-end.
   
 Si emparejas el grupo que hospeda al almacén de administración central, se configura una base de datos del almacén de administración central en el grupo de copia de seguridad. En todo momento, una de las dos bases de datos del almacén de administración central está activa y la otra en modo de espera. El servicio de copia de seguridad replica el contenido desde la base de datos activa a la que se encuentra en modo de espera.
   
@@ -76,17 +76,17 @@ Los objetivos de ingeniería para la conmutación por error del almacén de admi
 
 De forma continua, los servicios de copia de seguridad transfieren datos de usuario y contenido de conferencias entre dos grupos de servidores front-end emparejados. Los datos de usuario incluyen URI de SIP, así como también programas de conferencias, configuraciones y listas de contactos. El contenido de conferencias incluye cargas de Microsoft PowerPoint, además de pizarras utilizadas en conferencias.
   
-Desde el grupo de origen, estos datos se exportan desde el almacenamiento local, en archivos comprimidos y, luego, se transfieren al grupo de destino, donde se descomprimen e importan al almacenamiento local. El servicio de copia de seguridad supone que el vínculo de comunicación entre los dos centros de datos se encuentra dentro de la red corporativa y que se protege de Internet. No cifra los datos transferidos entre los dos centros de datos, ni encapsula los datos de forma nativa en un protocolo de seguridad (como HTTPS). Por lo tanto, es posible un ataque de man-in-the-middle desde personal interno dentro de la red corporativa.
+Desde el grupo de origen, estos datos se exportan desde el almacenamiento local, en archivos comprimidos y, luego, se transfieren al grupo de destino, donde se descomprimen e importan al almacenamiento local. El servicio de copia de seguridad supone que el vínculo de comunicación entre los dos centros de datos se encuentra dentro de la red corporativa y que se protege de Internet. No cifra los datos transferidos entre los dos centros de datos, ni encapsula los datos de forma nativa en un protocolo de seguridad (como HTTPS). Por lo tanto, es posible que haya un ataque entre el personal interno dentro de la red corporativa.
   
-Cualquier empresa que implementa Skype para Business Server en varios centros de datos y usa la característica de recuperación ante desastres debe asegurarse de que el tráfico entre los centros de datos está protegido por su Intranet corporativa. Las empresas que tienen en cuenta la protección frente a ataques internos necesitan proteger los vínculos de comunicación entre los centros de datos. Este es un requisito estándar que también ayuda a proteger muchos más tipos de datos confidenciales corporativos que se transfieren entre los centros de datos.
+Cualquier empresa que implemente Skype empresarial Server en varios centros de datos y use la característica de recuperación de desastres debe garantizar que el tráfico entre los centros de datos esté protegido por su intranet corporativa. Las empresas que tienen en cuenta la protección frente a ataques internos necesitan proteger los vínculos de comunicación entre los centros de datos. Este es un requisito estándar que también ayuda a proteger muchos más tipos de datos confidenciales corporativos que se transfieren entre los centros de datos.
   
 Si bien el riesgo de ataques de tipo "Man in the middle" dentro de la red corporativa es real, es relativamente limitado en comparación con la exposición del tráfico en Internet. Concretamente, los datos de usuario que expone el servicio de copia de seguridad (como los URI de SIP) suelen estar disponibles para todos los empleados de la compañía a través de otros medios, como la libreta de direcciones global de Exchange u otro software de directorio. Por ello, necesitas centrarte en proteger la WAN entre los dos centros de datos cuando se usa el servicio de copia de seguridad para copiar datos entre los dos grupos de servidores emparejados.
   
 ### <a name="mitigating-security-risks"></a>Reducir los riesgos de seguridad
 
-Posiblemente cuentes con varias maneras de mejorar la protección de seguridad para el tráfico del servicio de copia de seguridad. Estas maneras varían desde restringir el acceso a los centros de datos hasta proteger el transporte de WAN entre los dos centros de datos. En la mayoría de los casos, las empresas la implementación de Skype para Business Server que ya tenga la infraestructura de seguridad necesarios en su lugar. Para aquellas empresas que necesitan una guía, Microsoft brinda una solución como un ejemplo de cómo desarrollar una infraestructura de TI segura. Para obtener información detallada, consulte [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544). 
+Posiblemente cuentes con varias maneras de mejorar la protección de seguridad para el tráfico del servicio de copia de seguridad. Estas maneras varían desde restringir el acceso a los centros de datos hasta proteger el transporte de WAN entre los dos centros de datos. En la mayoría de los casos, es posible que las empresas que implementan Skype empresarial Server ya dispongan de la infraestructura de seguridad necesaria. Para aquellas empresas que necesitan una guía, Microsoft brinda una solución como un ejemplo de cómo desarrollar una infraestructura de TI segura. Para obtener más información [https://go.microsoft.com/fwlink/p/?LinkId=268544](https://go.microsoft.com/fwlink/p/?LinkId=268544), consulte. 
   
-No se implica que es la única solución ni se implica que es la solución preferida para Skype para Business Server. Recomendamos que los clientes empresariales elijan la solución que se ajuste a sus necesidades específicas, de acuerdo con los requisitos y la infraestructura de TI que posean. El ejemplo de Microsoft emplea IPSec y directivas de grupo para el servidor y el aislamiento de dominios.
+No implicamos que sea la única solución, ni que sea la solución preferida para Skype empresarial Server. Recomendamos que los clientes empresariales elijan la solución que se ajuste a sus necesidades específicas, de acuerdo con los requisitos y la infraestructura de TI que posean. El ejemplo de Microsoft emplea IPSec y directivas de grupo para el servidor y el aislamiento de dominios.
   
 Otra posible solución consiste en usar IPsec solamente para que proteger los datos enviados por el propio servicio de copia de seguridad sea más fácil. Si eliges este método, necesitarás configurar las reglas IPsec del protocolo SMB para los siguientes servidores, donde los grupos A y B son dos grupos de servidores front-end emparejados.
   
@@ -95,8 +95,8 @@ Otra posible solución consiste en usar IPsec solamente para que proteger los da
 - El servicio SMB (TCP/445) de cada servidor front-end del grupo B al almacén de archivos que usa el grupo A.
     
 > [!CAUTION]
->  IPsec no está pensado para reemplazar la seguridad de la aplicación, como SSL/TLS. Una ventaja de utilizar IPsec es que puede ofrecer seguridad de tráfico de red para las aplicaciones existentes sin necesidad de cambiarlas. Las empresas que desean proteger sólo el transporte entre los dos centros de datos deben consultar sus respectivos proveedores de hardware de red acerca de las formas para configurar las conexiones WAN seguras mediante el uso de equipamiento del proveedor.
+>  IPsec no está pensado para reemplazar la seguridad de la aplicación, como SSL/TLS. Una ventaja de utilizar IPsec es que puede ofrecer seguridad de tráfico de red para las aplicaciones existentes sin necesidad de cambiarlas. Las empresas que deseen simplemente proteger el transporte entre los dos centros de datos deben consultar a sus respectivos proveedores de hardware de redes acerca de las formas de configurar conexiones WAN seguras con el equipo del proveedor.
   
 ## <a name="see-also"></a>Vea también
 
-[Implementación de grupos de servidores Front-End emparejados para la recuperación ante desastres en Skype para Business Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)
+[Implementar grupos front-end emparejados para recuperación ante desastres en Skype empresarial Server](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md)

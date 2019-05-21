@@ -1,33 +1,33 @@
 ---
-title: Informe de actividad de conferencia en Skype para Business Server
+title: Informe de actividad de conferencia en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
-description: 'Resumen: Información sobre el informe de actividad de conferencia usadas en Skype para Business Server.'
-ms.openlocfilehash: 10327c002e8c3b320593d252b7401f990adeeafc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de actividad de conferencia usado en Skype empresarial Server.'
+ms.openlocfilehash: 790a9d5076a371dda7c8862a74f253fdb8508296
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902779"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303883"
 ---
-# <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype para Business Server
+# <a name="conference-activity-report-in-skype-for-business-server"></a>Informe de actividad de conferencia en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de actividad de conferencia usadas en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de actividad de conferencia usado en Skype empresarial Server.
   
-El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Informes de un vistazo rápido a la actividad de conferencia, podrían sugerir uno de los motivos posible: se ha programado la mucho más conferencias entre las 10:00 A.M. y las 2:00 P.M., a continuación, en cualquier otro momento.
+El informe de actividad de conferencia le facilita que responda a preguntas como cuántas conferencias se están celebrando cada día y cuántas se celebran. La información como esta no es solo útil por sí misma sino también como herramienta de solución de problemas. Por ejemplo, supongamos que los usuarios se están quejando de que la red parece particularmente lenta a mitad del día. Un vistazo rápido a los informes de actividad de conferencia puede sugerir una posible causa: muchas más conferencias se programan entre las horas de 10:00 AM y 2:00 PM, en cualquier otro momento.
   
 Si la red lenta está causando problemas, puede animar a los usuarios a reprogramar algunas de sus conferencias durante las horas de menor tráfico del día.
   
 ## <a name="accessing-the-conference-activity-report"></a>Acceso al informe de actividad de conferencia
 
-El informe de actividad de conferencia se obtiene acceso desde el [Informe de resumen de conferencia en Skype para Business Server](conference-summary-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Para obtener acceso al informe de actividad de conferencia desde el [Informe de Resumen de conferencia en Skype empresarial Server](conference-summary-report.md) , haga clic en una de las siguientes métricas:
   
 - Total de conferencias
     

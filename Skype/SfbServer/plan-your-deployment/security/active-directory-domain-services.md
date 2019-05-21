@@ -1,38 +1,38 @@
 ---
-title: Servicios de dominio de Active Directory para Skype para Business Server
+title: Servicios de dominio de Active Directory para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Los servicios de dominio de Active Directory funciona como el servicio de directorio para las redes de Windows Server 2003, Windows Server 2008, Windows Server 2012 y Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirve como la base en la que se basa el Skype para la infraestructura de seguridad de Business Server. El propósito de esta sección es describir cómo Skype para Business Server utiliza los servicios de dominio de Active Directory para crear un entorno de confianza para la mensajería instantánea, conferencia Web, medios y voz. Para obtener información detallada sobre la preparación de su entorno para los servicios de dominio de Active Directory, vea instalar Skype for Business Server en la documentación de implementación. Para obtener información detallada acerca de la función de los servicios de dominio de Active Directory en redes de Windows Server, vea la documentación de la versión del sistema operativo que se está utilizando.
-ms.openlocfilehash: ba37ffb806951a6726478b5404c7ff756a9f9522
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Los servicios de dominio de Active Directory funcionan como el servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y redes Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirven como la base en la que se ha creado la infraestructura de seguridad de Skype empresarial Server. El propósito de esta sección es describir cómo Skype empresarial Server usa los servicios de dominio de Active Directory para crear un entorno digno de confianza para mensajería instantánea, conferencias web, multimedia y voz. Para obtener detalles sobre cómo preparar el entorno para los servicios de dominio de Active Directory, consulte instalar Skype empresarial Server en la documentación de implementación. Para obtener más información sobre el rol de los servicios de dominio de Active Directory en las redes de Windows Server, consulte la documentación de la versión del sistema operativo que está usando.
+ms.openlocfilehash: 4458d49bf2f57284ac29c68bb40f3979761d5c50
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888082"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297011"
 ---
-# <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype para Business Server
+# <a name="active-directory-domain-services-for-skype-for-business-server"></a>Servicios de dominio de Active Directory para Skype empresarial Server
  
-Los servicios de dominio de Active Directory funciona como el servicio de directorio para las redes de Windows Server 2003, Windows Server 2008, Windows Server 2012 y Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirve como la base en la que se basa el Skype para la infraestructura de seguridad de Business Server. El propósito de esta sección es describir cómo Skype para Business Server utiliza los servicios de dominio de Active Directory para crear un entorno de confianza para la mensajería instantánea, conferencia Web, medios y voz. Para obtener información detallada sobre la preparación de su entorno para los servicios de dominio de Active Directory, vea [Instalar Skype para Business Server](../../deploy/install/install.md) en la documentación de implementación. Para obtener información detallada acerca de la función de los servicios de dominio de Active Directory en redes de Windows Server, vea la documentación de la versión del sistema operativo que se está utilizando.
+Los servicios de dominio de Active Directory funcionan como el servicio de directorio para Windows Server 2003, Windows Server 2008, Windows Server 2012 y redes Windows Server 2012 R2. Los servicios de dominio de Active Directory también sirven como la base en la que se ha creado la infraestructura de seguridad de Skype empresarial Server. El propósito de esta sección es describir cómo Skype empresarial Server usa los servicios de dominio de Active Directory para crear un entorno digno de confianza para mensajería instantánea, conferencias web, multimedia y voz. Para obtener detalles sobre cómo preparar el entorno para los servicios de dominio de Active Directory, consulte [instalar Skype empresarial Server](../../deploy/install/install.md) en la documentación de implementación. Para obtener más información sobre el rol de los servicios de dominio de Active Directory en las redes de Windows Server, consulte la documentación de la versión del sistema operativo que está usando.
   
-Skype para Business Server utiliza los servicios de dominio de Active Directory para almacenar:
+Skype empresarial Server usa los servicios de dominio de Active Directory para almacenar:
   
-- Configuración global que requieren todos los servidores que ejecuta Skype para Business Server en un bosque.
+- Configuración global que necesitan todos los servidores que ejecutan Skype empresarial Server en un bosque.
     
-- Información de servicio que identifica las funciones de todos los servidores que ejecutan Skype para Business Server en un bosque.
+- Información de servicio que identifica los roles de todos los servidores que ejecutan Skype empresarial Server en un bosque.
     
 - Algunas configuraciones de usuario.
     
 ## <a name="active-directory-infrastructure"></a>Infraestructura de Active Directory
 
-Requisitos de infraestructura para Active Directory incluyen lo siguiente:
+Entre los requisitos de infraestructura para Active Directory se incluyen los siguientes:
   
 - Requisitos del sistema operativo para los controladores de dominio
     
@@ -40,42 +40,42 @@ Requisitos de infraestructura para Active Directory incluyen lo siguiente:
     
 - Requisitos del dominio del catálogo global
     
-Para obtener información detallada, vea [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+Para obtener más información, consulte [requisitos ambientales para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos de servidor para skype empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md).
   
 ## <a name="universal-groups"></a>Grupos universales
 
-Durante la preparación del bosque, Skype para Business Server crea varios grupos universales dentro de servicios de dominio de Active Directory que tienen permiso para tener acceso y administrar los servicios y la configuración global. Entre estos grupos universales se incluyen:
+Durante la preparación del bosque, Skype empresarial Server crea varios grupos universales dentro de los servicios de dominio de Active Directory que tienen permiso para acceder y administrar la configuración global y los servicios. Entre estos grupos universales se incluyen:
   
-- **Grupos administrativos**. Estos grupos definen los roles de administrador fundamental para un Skype para red Business Server. Durante la preparación del bosque, se agregan estos grupos administrativos a Skype para grupos de infraestructura de Business Server.
+- **Grupos administrativos**. Estos grupos definen los roles de administrador fundamentales para una red de Skype empresarial Server. Durante la preparación del bosque, estos grupos de administradores se agregan a los grupos de infraestructura de Skype empresarial Server.
     
-- **Grupos de servicio**. Estos grupos son cuentas de servicio que requieren acceso a diversos servicios proporcionados por Skype para Business Server.
+- **Grupos de servicio**. Estos grupos son cuentas de servicio necesarias para acceder a diversos servicios proporcionados por Skype empresarial Server.
     
-- **Grupos de infraestructura**. Estos grupos proporcionan permiso para tener acceso a áreas específicas de la Skype para infraestructura de Business Server. Funcionan como componentes de los grupos administrativos y no deben modificarse ni se deben agregar directamente usuarios a esos grupos. Durante la preparación del bosque, se añaden grupos de servicio y administración específicos a los grupos de infraestructura correspondientes.
+- **Grupos de infraestructura**. Estos grupos proporcionan permiso para acceder a áreas específicas de la infraestructura de Skype empresarial Server. Funcionan como componentes de los grupos administrativos y no deben modificarse ni se deben agregar directamente usuarios a esos grupos. Durante la preparación del bosque, se añaden grupos de servicio y administración específicos a los grupos de infraestructura correspondientes.
     
-Para obtener información detallada acerca de los grupos universales específicos creados cuando preparación de AD para Skype para Business Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, vea [los cambios realizados por la preparación del bosque en Skype para la empresa Servidor](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación.
+Para obtener más información sobre los grupos universales específicos que se han creado al preparar AD para Skype empresarial Server, así como los grupos de servicio y administración que se agregan a los grupos de infraestructura, consulte [cambios realizados por la preparación del bosque en Skype empresarial Servidor](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación de implementación.
   
 > [!NOTE]
-> Skype para Business Server es compatible con los grupos universales en el Windows Server 2012, así como los sistemas operativos de Windows Server 2003 para controladores de dominio. Los miembros de grupos universales pueden incluir otros grupos y cuentas de cualquier dominio en el árbol de dominio o bosque, y se les pueden asignar permisos en cualquier dominio en el árbol de dominio o bosque. Compatibilidad de grupo universal, combinada con la delegación de administrador, simplifica la administración de una Skype para la implementación de Business Server. Por ejemplo, no es necesario agregar un dominio a otro para que un administrador pueda administrar ambos. 
+> Skype empresarial Server es compatible con los grupos universales de Windows Server 2012, así como con los sistemas operativos Windows Server 2003 para controladores de dominio. Los miembros de grupos universales pueden incluir otros grupos y cuentas de cualquier dominio en el árbol de dominio o bosque, y se les pueden asignar permisos en cualquier dominio en el árbol de dominio o bosque. La compatibilidad con los grupos universales, junto con la delegación de administrador, simplifica la administración de una implementación de Skype empresarial Server. Por ejemplo, no es necesario agregar un dominio a otro para que un administrador pueda administrar ambos. 
   
 ## <a name="role-based-access-control"></a>Control de acceso basado en roles
 
-Además de crear grupos universales de servicio y administración y añadir grupos de servicio y administración a los grupos universales correspondientes, la preparación del bosque también crea grupos de control de acceso basado en roles (RBAC). Para obtener más información sobre los grupos RBAC específicos creados por la preparación del bosque, consulte [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación sobre implementación. Para obtener más información acerca de los grupos RBAC, vea [control de acceso basado en roles (RBAC) para Skype para Business Server](role-based-access-control-rbac.md).
+Además de crear grupos universales de servicio y administración y añadir grupos de servicio y administración a los grupos universales correspondientes, la preparación del bosque también crea grupos de control de acceso basado en roles (RBAC). Para obtener más información sobre los grupos RBAC específicos creados por la preparación del bosque, consulte [Changes made by forest preparation in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) en la documentación sobre implementación. Para obtener más información sobre los grupos RBAC, consulte [control de acceso basado en roles (RBAC) para Skype empresarial Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Entradas de control de acceso (ACE) y herencia
 
-La preparación del bosque crea ACE privadas y públicas, y añade ACE en los grupos universales que crea. Crea entradas ACE privadas específicas en el contenedor de configuración global utilizado por Skype para Business Server. Este contenedor se utiliza sólo por Skype para Business Server y se encuentra en el contenedor de configuración o en el contenedor del sistema en el dominio raíz, dependiendo de dónde almacenar la configuración global.
+La preparación del bosque crea ACE privadas y públicas, y añade ACE en los grupos universales que crea. Crea ACE privadas específicas en el contenedor de configuración global usado por Skype empresarial Server. Este contenedor solo lo usa Skype empresarial Server y se encuentra en el contenedor configuración o en el contenedor del sistema en el dominio raíz, según dónde almacene la configuración global.
   
 El paso de preparación del dominio agrega las entradas de control de acceso (ACE) necesarias a los grupos universales que conceden permisos para hospedar y administrar los usuarios dentro del dominio. La preparación del dominio crea entradas ACE en la raíz del dominio y tres contenedores integrados: usuarios, equipos y controladores de dominio.
   
-Para obtener información detallada acerca de las entradas ACE públicas creadas y añadidas la preparación del bosque y la preparación del dominio, vea [cambios realizados por la preparación del bosque en Skype para Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) y [los cambios realizaron por la preparación del dominio en Skype para Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) en el Documentación de implementación.
+Para obtener detalles sobre las ACE públicas creadas y agregadas por la preparación del bosque y la preparación del dominio, consulte [los cambios realizados por la preparación del bosque en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) y [los cambios realizados por la preparación del dominio en Skype empresarial Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) en el Documentación de implementación.
   
-Las organizaciones bloquean a menudo los servicios de dominio de Active Directory (AD DS) para ayudar a mitigar los riesgos de seguridad. Sin embargo, un entorno de Active Directory bloqueado puede limitar los permisos que necesita Skype para Business Server. Puede incluir la eliminación de ACE de contenedores y unidades organizativas y la deshabilitación de la herencia de permisos en los objetos User, Contact, InetOrgPerson o Computer. En un bloqueo hacia abajo el entorno de Active Directory, se deben establecer permisos manualmente en contenedores y unidades organizativas que les exige.
+Las organizaciones suelen bloquear los servicios de dominio de Active Directory (AD DS) para ayudar a mitigar los riesgos de seguridad. Sin embargo, un entorno de Active Directory bloqueado puede limitar los permisos que requiere Skype empresarial Server. Puede incluir la eliminación de ACE de contenedores y unidades organizativas y la deshabilitación de la herencia de permisos en los objetos User, Contact, InetOrgPerson o Computer. En un entorno de Active Directory bloqueado, los permisos deben establecerse manualmente en contenedores y unidades organizativas que los requieran.
   
 ## <a name="server-information"></a>Información sobre el servidor
 
-Durante la activación, Skype para Business Server publica información de servidor en las tres ubicaciones siguientes en los servicios de dominio de Active Directory:
+Durante la activación, Skype empresarial Server publica la información del servidor en las tres siguientes ubicaciones de los servicios de dominio de Active Directory:
   
-- Una conexión de servicio punto (SCP) de cada objeto de equipo de Active Directory correspondiente a un equipo físico en el que está instalado Skype para Business Server.
+- Un punto de conexión de servicio (SCP) en cada objeto de equipo de Active Directory correspondiente a un equipo físico en el que está instalado Skype empresarial Server.
     
 - Objetos de servidor creados en el contenedor de la clase **msRTCSIP-Pools**.
     
@@ -83,25 +83,25 @@ Durante la activación, Skype para Business Server publica información de servi
     
 ## <a name="service-connection-points"></a>Puntos de conexión de servicio
 
-Cada Skype para objeto Business Server en servicios de dominio de Active Directory tiene un SCP denominado Servicios de RTC, que a su vez contiene un número de atributos que identifican cada equipo y especificar los servicios que proporciona. Entre la SCP más importante atributos son *serviceDNSName* , *conexión* , *serviceClassname* y *serviceBindingInformation* . Las aplicaciones de administración de activos de otro fabricante pueden recuperar la información de servidor de una implementación consultando estos y otros atributos de los SCP.
+Cada objeto de Skype empresarial Server de los servicios de dominio de Active Directory tiene un SCP denominado servicios de RTC, que a su vez contiene una serie de atributos que identifican cada equipo y especifican los servicios que proporciona. Entre los atributos SCP más importantes están *serviceDNSName* , *serviceDNSNameType* , *serviceClassname* y *serviceBindingInformation* . Las aplicaciones de administración de activos de otro fabricante pueden recuperar la información de servidor de una implementación consultando estos y otros atributos de los SCP.
   
 ## <a name="active-directory-server-objects"></a>Objetos de servidor de Active Directory
 
-Cada Skype para el rol de servidor de Business Server tiene un Active Directory correspondiente objeto cuyos atributos definen los servicios proporcionados por dicha función. Además, cuando se activa un servidor Standard Edition o cuando se crea un grupo de servidores Enterprise Edition, Skype para Business Server crea un nuevo objeto **msRTCSIP-Pool** en el contenedor **msRTCSIP-Pools** . La clase **msRTCSIP-Pool** especifica el nombre de dominio completo (FQDN) del grupo, junto con la asociación entre los componentes front-end y back-end del grupo de servidores. (Un servidor Standard Edition se considera como un grupo de servidores lógico cuyo front y back-end se combina en un único equipo).
+Cada rol de servidor de Skype empresarial Server tiene un objeto de Active Directory correspondiente cuyos atributos definen los servicios proporcionados por ese rol. Además, cuando se activa un servidor Standard Edition o cuando se crea un grupo de servidores Enterprise Edition, Skype empresarial Server crea un nuevo objeto **msRTCSIP-Pool** en el contenedor **msRTCSIP-pools** . La clase **msRTCSIP-Pool** especifica el nombre de dominio completo (FQDN) del grupo, junto con la asociación entre los componentes front-end y back-end del grupo de servidores. (Un servidor Standard Edition se considera un grupo lógico cuyos extremos frontal y posterior se colocan en un solo equipo).
   
 ## <a name="trusted-servers"></a>Servidores de confianza
 
-En Skype para Business Server, servidores de confianza son los que se especifica al ejecutar el generador de topología y publicar su topología. La topología publicada, incluida toda la información del servidor, se almacena en el almacén de administración central. Solo los servidores definidos en el almacén de administración central son de confianza. En Skype para Business Server, un servidor de confianza es uno que cumple los criterios siguientes:
+En Skype empresarial Server, los servidores de confianza son los que se especifican al ejecutar Topology Builder y publicar su topología. La topología publicada, incluida toda la información del servidor, se almacena en el almacén de administración central. Solo los servidores definidos en el almacén de administración central son de confianza. En Skype empresarial Server, un servidor de confianza es aquel que cumple los siguientes criterios:
   
 - El FQDN del servidor se produce en la topología almacenada en el almacén de administración central.
     
-- El servidor presenta un certificado válido de una CA de confianza. Para obtener información detallada, vea [requisitos de entorno para Skype para Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos del sistema para Skype para Business Server 2019](../../../SfBServer2019/plan/system-requirements.md).
+- El servidor presenta un certificado válido de una CA de confianza. Para obtener más información, consulte [requisitos ambientales para Skype empresarial server 2015](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) o [requisitos del sistema para skype empresarial Server 2019](../../../SfBServer2019/plan/system-requirements.md).
     
-Si no se cumple alguno de estos criterios, el servidor no se considera de confianza y se rechaza la conexión con dicho servidor. Este requisito doble evita que un ataque posible, aunque poco probable, en el que un servidor no autorizado intenta adoptar el FQDN de un servidor válido.
+Si no se cumple alguno de estos criterios, el servidor no se considera de confianza y se rechaza la conexión con dicho servidor. Este doble requisito evita un ataque posible, si no lo es improbable, en el que un servidor malicioso intenta tomar el control de nombre completo de un servidor válido.
   
-Además, para habilitar las implementaciones de Microsoft Office Communications Server 2007 R2 y Microsoft Office Communications Server 2007 para comunicarse con Skype para servidores Business Server, Skype para Business Server crea contenedores durante la preparación del bosque para las listas de servidores de confianza para las versiones anteriores. La siguiente tabla describe los contenedores creados para habilitar la compatibilidad con implementaciones anteriores.
+Además, para permitir que las implementaciones de Microsoft Office Communications Server 2007 R2 y Microsoft Office Communications Server 2007 se comuniquen con los servidores de Skype empresarial, Skype empresarial Server crea contenedores durante la preparación del bosque para almacenar listas de servidores de confianza para versiones anteriores. La siguiente tabla describe los contenedores creados para habilitar la compatibilidad con implementaciones anteriores.
   
-**Listas de servidores y sus contenedores de Active Directory de confianza para la compatibilidad con versiones anteriores**
+**Listas de servidores de confianza y sus contenedores de Active Directory para la compatibilidad con versiones anteriores**
 
 |**Listas de servidores de confianza**|**Contenedor de Active Directory**|
 |:-----|:-----|
@@ -109,9 +109,9 @@ Además, para habilitar las implementaciones de Microsoft Office Communications 
 |Servidores de conferencia  <br/> |Servicio RTC/MCU de confianza  <br/> |
 |Servidores de componentes web  <br/> |Servicio RTC/Servidores de componentes web de confianza  <br/> |
 |Servidores de mediación y servidores de Communicator Web Access, Servidor de aplicaciones, Registrador con QoE, Servicio de conferencia A/V (también servidores SIP de otros fabricantes)  <br/> |Servicio RTC/Servicios de confianza  <br/> |
-|Servidores proxy  <br/> |Skype para Business Server no admite la compatibilidad con versiones anteriores de los servidores proxy  <br/> |
+|Servidores proxy  <br/> |Skype empresarial Server no admite compatibilidad con versiones anteriores para servidores proxy  <br/> |
    
 
 ## <a name="see-also"></a>Vea también
 
-[Preparar Active Directory para Skype para Business Server](../../deploy/install/prepare-active-directory.md)
+[Preparar Active Directory para Skype empresarial Server](../../deploy/install/prepare-active-directory.md)

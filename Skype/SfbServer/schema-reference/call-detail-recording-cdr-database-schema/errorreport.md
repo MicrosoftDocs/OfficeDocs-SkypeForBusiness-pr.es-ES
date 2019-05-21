@@ -1,47 +1,47 @@
 ---
-title: Tabla ErrorReport en Skype para Business Server 2015
+title: Tabla ErrorReport en Skype empresarial Server 2015
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 7/15/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
-description: En la tabla ErrorReport almacena información acerca de los errores que se han producido. Cada registro es una ocurrencia de error. Los errores son capturado por el agente de CDR que se ejecuta en el servidor front-end o enviados desde el cliente.
-ms.openlocfilehash: 4cb3cebba59201daa6f2a601ec969ed976ec3167
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La tabla ErrorReport almacena información sobre los errores que se han producido. Cada registro es una aparición de error. Los errores se capturan mediante el agente CDR que se ejecuta en el servidor front-end o se envían desde el cliente.
+ms.openlocfilehash: 80a6106bd7c6b87a7519bca6ce5cc72f45147ad6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930251"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34296269"
 ---
-# <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabla ErrorReport en Skype para Business Server 2015
+# <a name="errorreport-table-in-skype-for-business-server-2015"></a>Tabla ErrorReport en Skype empresarial Server 2015
  
-En la tabla ErrorReport almacena información acerca de los errores que se han producido. Cada registro es una ocurrencia de error. Los errores son capturado por el agente de CDR que se ejecuta en el servidor front-end o enviados desde el cliente.
+La tabla ErrorReport almacena información sobre los errores que se han producido. Cada registro es una aparición de error. Los errores se capturan mediante el agente CDR que se ejecuta en el servidor front-end o se envían desde el cliente.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
 |**ErrorTime** <br/> |datetime  <br/> |Primary  <br/> |Fecha y hora en que se produjo el error.  <br/> |
-|**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |Número de identificador para identificar el informe de errores. Se utiliza junto con **ErrorTime** para identificar de forma única un informe de errores. <br/> |
-|**Identificador del error** <br/> |int  <br/> |Externa  <br/> |Identificador único del tipo de error. Consulte la [tabla ErrorDef en Skype para Business Server 2015](errordef.md) para obtener más información. <br/> |
-|**FromUserId** <br/> |int  <br/> |Externa  <br/> |Usuario que ha originado la solicitud que provocó el error. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**ToUserId** <br/> |int  <br/> |Externa  <br/> |Usuario de destino para la solicitud que provocó el error. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**ConferenceUriId** <br/> |int  <br/> |Externa  <br/> |URI de conferencia relacionada con el error. Consulte la [tabla ConferenceUris en Skype para Business Server 2015](conferenceuris.md) para obtener más información. Normalmente, si ConferenceUriId no es nulo, a continuación, FromUserId o ToUserId será null. <br/> |
-|**SessionIdTime** <br/> |datetime  <br/> |Externa  <br/> |Se utiliza en forma conjunta con **SessionIdSeq** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Externa  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con **SessionIdTime** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**SourceId** <br/> |int  <br/> |Externa  <br/> |Servidor que ha enviado el informe de errores (si el informe se envía desde un componente de servidor). Consulte la [tabla de servidores](servers.md) para obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**ApplicationId** <br/> |int  <br/> |Externa  <br/> |Servidor que ha enviado el informe de errores (si el informe se envía desde un componente de servidor). Consulte la [tabla de la aplicación en Skype para Business Server 2015](application.md) para obtener más información. <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**MsDiagHeader** <br/> |imagen  <br/> | <br/> |Obtener más información sobre el error.  <br/> Estos datos pueden convertirse a formato de texto con esta sintaxis:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
-|**ClientVersionId** <br/> |int  <br/> |Externa  <br/> |La versión de cliente de extremo que envía el informe de errores. Consulte la [tabla ClientVersions en Skype para Business Server 2015](clientversions.md) para obtener más información. <br/> |
-|**IsCapturedByServer** <br/> |bit  <br/> ||El informe de errores es capturado por el agente de CDR que se ejecuta en el servidor front-end o enviado por el cliente.  <br/> |
-|**Marca** <br/> |smallint  <br/> ||Reservado para uso futuro.  <br/> |
-|**TelemetryId** <br/> |uniqueIdentifier  <br/> ||Identificador único que correlaciona la información de hora para los diferentes componentes que participan en una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**SessionSetupTime** <br/> |int  <br/> ||Tiempo (en milisegundos) necesario para que un componente específico para unirse a una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**ServerId** <br/> |int  <br/> |Externa  <br/> |Representa el nombre de dominio completo del servidor que generó el informe de errores.  <br/> |
-|**PoolId** <br/> |int  <br/> |Externa  <br/> |Representa el nombre de dominio completo del grupo de servidores donde se generó el informe de errores.  <br/> |
-|**LastModifiedTime** <br/> |Fecha y hora  <br/> ||Para uso interno por el servicio de supervisión.  <br/> Este campo se introdujo en Skype para Business Server 2015.  <br/> |
+|**ErrorReportSeq** <br/> |int  <br/> |Primary  <br/> |Número de identificación para identificar el informe de errores. Se usa en conjunción con **ErrorTime** para identificar de manera exclusiva un informe de errores. <br/> |
+|**ErrorId** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR único del tipo de error. Para obtener más información, consulte la [tabla ErrorDef en Skype empresarial Server 2015](errordef.md) . <br/> |
+|**FromUserId** <br/> |int  <br/> |Extranjero  <br/> |Usuario que originó la solicitud que causó el error. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**ToUserId** <br/> |int  <br/> |Extranjero  <br/> |Usuario de destino de la solicitud que causó el error. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**ConferenceUriId** <br/> |int  <br/> |Extranjero  <br/> |URI de conferencia relacionado con el error. Para obtener más información, consulte la [tabla ConferenceUris en Skype empresarial Server 2015](conferenceuris.md) . Normalmente, si ConferenceUriId no es null, FromUserId o ToUserId será null. <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Extranjero  <br/> |Se usa en conjunción con **SessionIdSeq** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Extranjero  <br/> |Número de identificación para identificar la sesión. Se usa en conjunción con **SessionIdTime** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**SourceId** <br/> |int  <br/> |Extranjero  <br/> |Servidor que ha enviado el informe de errores (si el informe se está enviando desde un componente de servidor). Para obtener más información, consulte la [tabla servidores](servers.md) . <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**ApplicationId** <br/> |int  <br/> |Extranjero  <br/> |Servidor que ha enviado el informe de errores (si el informe se está enviando desde un componente de servidor). Para obtener más información, consulte la [tabla de aplicaciones en Skype empresarial Server 2015](application.md) . <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**MsDiagHeader** <br/> |imagen  <br/> | <br/> |Más información sobre el error.  <br/> Estos datos se pueden convertir a formato de texto con esta sintaxis:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
+|**ClientVersionId** <br/> |int  <br/> |Extranjero  <br/> |La versión de cliente del extremo que envía el informe de errores. Para obtener más información, consulte la [tabla ClientVersions en Skype empresarial Server 2015](clientversions.md) . <br/> |
+|**IsCapturedByServer** <br/> |bit  <br/> ||Es el informe de errores capturado por el agente CDR que se ejecuta en el servidor front-end o enviado por el cliente.  <br/> |
+|**Fdisableautoindexingonschemaupdate** <br/> |smallint  <br/> ||Reservado para uso futuro.  <br/> |
+|**TelemetryId** <br/> |Identificador  <br/> ||Identificador único que correlaciona información de tiempo de Unión para los distintos componentes implicados en una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**SessionSetupTime** <br/> |int  <br/> ||Tiempo (en milisegundos) necesario para que un componente específico se una a una conferencia.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**ServerId** <br/> |int  <br/> |Extranjero  <br/> |Representa el nombre de dominio completo del servidor que ha generado el informe de errores.  <br/> |
+|**PoolId** <br/> |int  <br/> |Extranjero  <br/> |Representa el nombre de dominio completo del grupo en el que se generó el informe de errores.  <br/> |
+|**LastModifiedTime** <br/> |Fechas  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype empresarial Server 2015.  <br/> |
    
 

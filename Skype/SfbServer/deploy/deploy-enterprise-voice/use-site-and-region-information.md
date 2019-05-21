@@ -1,10 +1,10 @@
 ---
-title: Configurar la configuración global de desvío de medios en Skype para Business Server usar la información de sitio y región
+title: Configurar la configuración global de omisión de medios en Skype empresarial Server para usar la información del sitio y de la región
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,28 +13,28 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice.
-ms.openlocfilehash: 42f6e9406fdb3a33124c5cfb7abba638dd7fa4b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Configurar la omisión de elementos multimedia para usarlos solo en determinados sitios y regiones de la telefonía IP empresarial de Skype empresarial Server.
+ms.openlocfilehash: 3a9dc907dd516151e8b6ddd509a43b49c87e3b9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892275"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34300933"
 ---
-# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la configuración global de desvío de medios en Skype para Business Server usar la información de sitio y región
+# <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Configurar la configuración global de omisión de medios en Skype empresarial Server para usar la información del sitio y de la región
  
-Configurar el desvío de medios que se usará para sólo ciertos sitios y regiones en Skype para Business Server Enterprise Voice. 
+Configurar la omisión de elementos multimedia para usarlos solo en determinados sitios y regiones de la telefonía IP empresarial de Skype empresarial Server. 
   
- Si usa el desvío de los pasos descritos en este tema para establecer la configuración global para los medios, la suposición es que no tienen una buena conectividad entre todos los Skype para los extremos de negocio y cualquier elemento del mismo nivel para los que ha configurado el desvío de medios en la conexión del tronco.
+ Si usa los pasos de este tema para establecer la configuración global de omisión de medios, se supone que no tiene una buena conectividad entre todos los puntos de conexión de Skype empresarial y cualquier elemento del mismo nivel para el cual haya configurado el bypass de medios en la conexión troncal.
   
 > [!NOTE]
 > La información de región de red y sitio de red se comparte entre las características de Enterprise Voice avanzadas del control de admisión de llamadas y el desvío de medios cuando ambos están habilitados. Por consiguiente, si ya ha configurado el control de admisión de llamadas, no es necesario que realice el siguiente procedimiento para editar la información de región y sitio específica para la omisión de medios. Siga los pasos de este procedimiento si todavía no ha configurado los sitios y regiones de red para el control de admisión de llamadas y desea cambiar las opciones del omisión de medios. 
   
-El desvío de medios para que funcione correctamente debe haber coherencia entre un sitio como se define en el generador de topología y tal y como se define al configurar regiones de red y sitios de red. Por ejemplo, si tiene un sitio de sucursal que definido en el generador con sólo una puerta de enlace RTC implementada, a continuación, ese sitio de sucursal debe estar configurado con una directiva de Enterprise Voice que permite a los usuarios del sitio de sucursal tiene sus llamadas RTC se enrutan a través de la RTC puerta de enlace en el sitio de sucursal.
+Para que la omisión de elementos multimedia funcione correctamente, debe ser coherente entre un sitio definido en el generador de topologías y se define al configurar las regiones de red y los sitios de red. Por ejemplo, si tiene un sitio de sucursal que ha definido en el generador de topología y tiene una puerta de enlace RTC implementada, ese sitio de sucursal debe estar configurado con una directiva de telefonía IP empresarial que permita a los usuarios de la sucursal enrutar las llamadas RTC a través de la RTC. puerta de enlace en el sitio de la sucursal.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>Configurar la información de sitio y región para el desvío de medios
 
-1. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+1. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     
@@ -53,7 +53,7 @@ El desvío de medios para que funcione correctamente debe haber coherencia entre
     
 A continuación, agregue subredes al sitio de red, como se describe en [Associate a subnet with a network site](deploy-network.md#BKMK_AssociateSubnets). Cuando haya asociado todas las subredes a sitios de red, la implementación de la omisión de medios habrá finalizado.
 > [!IMPORTANT]
-> Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación de la omisión de medios. Para obtener información detallada, consulte [Deploy regiones de red, sitios y las subredes de Skype para la empresa](deploy-network.md). 
+> Si todavía no ha creado regiones de red y sitios de red, deberá crearlos en primer lugar para poder continuar con la implementación de la omisión de medios. Para obtener más información, consulte [implementar regiones, sitios y subredes de la red en Skype empresarial](deploy-network.md). 
   
 ## <a name="see-also"></a>Vea también
 

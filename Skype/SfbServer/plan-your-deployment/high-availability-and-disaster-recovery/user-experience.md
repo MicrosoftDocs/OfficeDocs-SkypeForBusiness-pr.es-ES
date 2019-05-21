@@ -1,28 +1,28 @@
 ---
-title: Experiencia del usuario durante error de grupo de servidores en Skype para Business Server
+title: Experiencia de usuario durante la falla de un grupo de servidores de Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Obtenga información sobre lo que los usuarios experimentan cuando un grupo de servidores Front-End conmuta por error o se produce un error durante la recuperación ante desastres en Skype para Business Server.
-ms.openlocfilehash: de272ec6bc45a005a56c3e16385f7bcc292c8a1a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Obtenga más información sobre lo que experimentan los usuarios cuando un grupo de servidores front-end conmuta por error o vuelve a producirse durante la recuperación ante desastres en Skype empresarial Server.
+ms.openlocfilehash: cc8ea8c51bebcffdbf0873f2f1a355cd648b6df0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903050"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34297235"
 ---
-# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia del usuario durante error de grupo de servidores en Skype para Business Server
+# <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Experiencia de usuario durante la falla de un grupo de servidores de Skype empresarial
  
-Obtenga información sobre lo que los usuarios experimentan cuando un grupo de servidores Front-End conmuta por error o se produce un error durante la recuperación ante desastres en Skype para Business Server.
+Obtenga más información sobre lo que experimentan los usuarios cuando un grupo de servidores front-end conmuta por error o vuelve a producirse durante la recuperación ante desastres en Skype empresarial Server.
   
-Si se produce una conmutación por error en un grupo, se obliga a todos los usuarios del grupo afectado a cerrar sesión y, luego, a iniciar sesión en el grupo de copia de seguridad. Durante un período breve los usuarios que inicien sesión en el grupo de copia de seguridad pueden encontrarse en modo de resistencia. En modo de resistencia, los usuarios son lleven a cabo las tareas que hará que un cambio persistente en Skype para Business Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden utilizar todos los servicios del grupo de copia de seguridad.
+Si se produce una conmutación por error en un grupo, se obliga a todos los usuarios del grupo afectado a cerrar sesión y, luego, a iniciar sesión en el grupo de copia de seguridad. Durante un período breve los usuarios que inicien sesión en el grupo de copia de seguridad pueden encontrarse en modo de resistencia. En el modo de resistencia, los usuarios no pueden realizar tareas que provocarían un cambio continuo en Skype empresarial Server, como agregar un contacto. Una vez finalizada la conmutación por error, todos los usuarios pueden utilizar todos los servicios del grupo de copia de seguridad.
   
 Cuando se produce un error en el grupo, se interrumpen todas las llamadas, las reuniones y las conversaciones, y el usuario debe volver a establecer estas sesiones tras la conmutación por error.
   

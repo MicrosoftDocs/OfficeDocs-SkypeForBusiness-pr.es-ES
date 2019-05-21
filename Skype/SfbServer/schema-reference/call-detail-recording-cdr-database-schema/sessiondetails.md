@@ -5,64 +5,64 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/1/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 783d2508-e31f-4b54-be0c-63aa5ec21c04
-description: Cada registro representa una sesión de punto a punto, que podría ser una llamada de teléfono VoIP-VoIP, sesión de mensajería instantánea entre dos participantes u otro tipo de sesión. Puede realizar una combinación de tabla con la tabla de medios para encontrar los detalles de cada medios implicados en esta sesión.
-ms.openlocfilehash: bd4603811dd699bfe856f7151841c5f8021c2703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cada registro representa una sesión de punto a punto, que puede ser una llamada de teléfono VoIP-VoIP, una sesión de mi de dos partes u otro tipo de sesión. Puede realizar una combinación de tabla con la tabla multimedia para buscar los detalles de cada elemento multimedia implicado en esta sesión.
+ms.openlocfilehash: d6c0d68cf5b8efd83cc764e74a56621cdd591ac1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888047"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34295807"
 ---
 # <a name="sessiondetails-table"></a>Tabla SessionDetails
  
-Cada registro representa una sesión de punto a punto, que podría ser una llamada de teléfono VoIP-VoIP, sesión de mensajería instantánea entre dos participantes u otro tipo de sesión. Puede realizar una combinación de tabla con la [tabla de medios](media.md) para encontrar los detalles de cada medios implicados en esta sesión.
+Cada registro representa una sesión de punto a punto, que puede ser una llamada de teléfono VoIP-VoIP, una sesión de mi de dos partes u otro tipo de sesión. Puede realizar una combinación de tabla con la [tabla multimedia](media.md) para buscar los detalles de cada elemento multimedia implicado en esta sesión.
   
-Tenga en cuenta que el IsUser1IntegratedWithDeskPhone y los campos de IsUser2IntegratedWithDeskPhone se han quitado de la tabla SessionDetails utilizada en Skype para Business Server 2015.
+Observe que los campos IsUser1IntegratedWithDeskPhone y IsUser2IntegratedWithDeskPhone se han quitado de la tabla SessionDetails que se usa en Skype empresarial Server 2015.
   
 |**Columna**|**Tipo de datos**|**Clave o índice**|**Detalles**|
 |:-----|:-----|:-----|:-----|
-|**SessionIdTime** <br/> |datetime  <br/> |Principal, externa  <br/> |Hora de la solicitud de sesión. Se utiliza en forma conjunta con **SessionIdSeq** para identificar de forma exclusiva una sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |Principal, externa  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con **SessionIdTime** para identificar de forma única un session.*, vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**CorrelationId** <br/> |uniqueidentifier  <br/> ||Un GUID para correlacionar varias sesiones.  <br/> |
-|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Externa  <br/> |Número de identificador para identificar el cuadro de diálogo que se ha sustituido por la sesión actual. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Externa  <br/> |Número de identificador para identificar la sesión. Se utiliza junto con **ReplacesDialogIdTime** para identificar de forma exclusiva una sesión que se ha reemplazado por esta sesión. Vea la [tabla en Skype para Business Server 2015 Dialogs](dialogs.md) para obtener más información. <br/> |
-|**User1Id** <br/> |int  <br/> |Externa  <br/> |Identificador de un usuario en la sesión. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**User2Id** <br/> |int  <br/> |Externa  <br/> |Identificador del otro usuario en la sesión. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**User1EndpointId** <br/> |uniqueIdentifier  <br/> ||GUID que identifica el extremo utilizado por el primer usuario en la sesión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**User2EndpointId** <br/> |uniqueIdentifier  <br/> ||GUID que identifica el extremo que utilizó el segundo usuario en la sesión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**TargetUserId** <br/> |int  <br/> |Externa  <br/> |El original al URI del usuario en la solicitud SIP. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**SessionStartedById** <br/> |int  <br/> |Externa  <br/> |Identificador del usuario que inició la sesión. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**OnBehalfOfId** <br/> |int  <br/> |Externa  <br/> |Indica el identificador del usuario de quién es el autor de la llamada en nombre. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**ReferredById** <br/> |int  <br/> |Externa  <br/> |Identificador del usuario por la que se conoce la llamada. Consulte la [tabla de los usuarios](users.md) para obtener más información. <br/> |
-|**ServerId** <br/> |int  <br/> |Externa  <br/> |Identificador del servidor front-end que se usará para esta sesión. Consulte la [tabla de servidores](servers.md) para obtener más información. <br/> |
-|**PoolId** <br/> |int  <br/> |Externa  <br/> |Identificador del grupo de servidores en el que se ha capturado la sesión. Vea la [tabla de grupos de servidores](pools.md) para obtener más información. <br/> |
-|**ContentTypeID** <br/> |int  <br/> |Externa  <br/> |Tipo de contenido utilizado en la sesión. Vea la [tabla ContentTypes de Skype para Business Server 2015](contenttypes.md) para obtener más información. <br/> |
-|**User1ClientVerId** <br/> |int  <br/> |Externa  <br/> |Versión de cliente que usa User1. Consulte la [tabla ClientVersions en Skype para Business Server 2015](clientversions.md) para obtener más información. <br/> |
-|**User2ClientVerId** <br/> |int  <br/> |Externa  <br/> |Versión de cliente usado por el usuario 2. Consulte la [tabla ClientVersions en Skype para Business Server 2015](clientversions.md) para obtener más información. <br/> |
-|**User1EdgeServerid** <br/> |int  <br/> |Externa  <br/> |Servidor perimetral que usa User1. Consulte la [tabla EdgeServers en Skype para Business Server 2015](edgeservers.md) para obtener más información. <br/> |
-|**User2EdgeServerid** <br/> |int  <br/> |Externa  <br/> |Servidor perimetral que usa el usuario 2. Consulte la [tabla EdgeServers en Skype para Business Server 2015](edgeservers.md) para obtener más información. <br/> |
-|**IsUser1Internal** <br/> |bit  <br/> ||Si User1 ha iniciado sesión desde interna o no.  <br/> |
-|**IsUser2Internal** <br/> |bit  <br/> ||Si el usuario 2 ha iniciado sesión desde interna o no.  <br/> |
-|**InviteTime** <br/> |datetime  <br/> ||Hora de la primera solicitud INVITE. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO). Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
-|**ResponseTime** <br/> |datetime  <br/> ||Hora de la respuesta para el primer mensaje invitar. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
-|**ResponseCode** <br/> |int  <br/> ||Código de respuesta SIP a la invitación a la sesión. Este campo se rellena normalmente por datos generados a partir del mensaje INVITE inicial en la sesión. Si no hay ningún mensaje de invitar a continuación, se rellena el campo con la fecha y hora de la primer mensaje SIP relevante (BYE, Cancelar, mensaje o INFO).  <br/> |
-|**DiagnosticId** <br/> |int  <br/> ||Identificador de diagnóstico capturado del encabezado SIP.  <br/> |
-|**CallPriority** <br/> |int  <br/> |Externa  <br/> |Prioridad de llamada. Consulte la [tabla CallPriorities en Skype para Business Server 2015](callpriorities.md) para obtener más información. <br/> |
-|**User1MessageCount** <br/> |int  <br/> ||Número de mensajes que envió el usuario 1 durante la sesión.  <br/> |
-|**User2MessageCount** <br/> |int  <br/> ||Número de mensajes enviados por el usuario 2 durante la sesión.  <br/> |
-|**SessionEndTime** <br/> |datetime  <br/> ||Tiempo al final de la sesión.  <br/> |
-|**MediaTypes** <br/> |int  <br/> ||Un bit establecido indica el tipo de medio de esta sesión. Enumerados son las definiciones de los tipos:  <br/> 1: MENSAJERÍA INSTANTÁNEA  <br/> 2 - FILE_TRANSFER  <br/> 4 - REMOTE_ASSISTANCE  <br/> 8 - APP_SHARING  <br/> 16 - AUDIO  <br/> 32 - VÍDEO  <br/> 64 - APP_INVITE  <br/> |
-|**User1Flag** <br/> |smallint  <br/> ||Un bit establecido indica los atributos de User1. Aparecen las siguientes definiciones de atributo:  <br/> 0 x 01 - integrado con el teléfono de escritorio  <br/> |
-|**User2Flag** <br/> |smallint  <br/> ||Un bit establecido indica los atributos de usuario 2. Aparecen las siguientes definiciones de atributo:  <br/> 0 x 01 - integrado con el teléfono de escritorio  <br/> |
-|**CallFlag** <br/> |smallint  <br/> ||Un bit establecido indica los atributos de llamada. Aparecen las siguientes definiciones de atributo:  <br/> 0 x 01 - reintento de sesión  <br/> 0 x 02 - una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |
-|**Procesar** <br/> |bit  <br/> ||Para uso interno por el servicio de supervisión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
-|**LastModifiedTime** <br/> |Fecha y hora  <br/> ||Para uso interno por el servicio de supervisión.  <br/> Este campo se introdujo en Skype para Business Server 2015.  <br/> |
+|**SessionIdTime** <br/> |datetime  <br/> |Principal, extranjero  <br/> |Hora de la solicitud de sesión. Se usa en conjunción con **SessionIdSeq** para identificar de forma única una sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |Principal, extranjero  <br/> |Número de identificación para identificar la sesión. Se usa junto con **SessionIdTime** para identificar una sesión de forma única. * Consulte la [tabla de cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) para obtener más información. <br/> |
+|**CorrelationId** <br/> |identificador  <br/> ||Un GUID para correlacionar varias sesiones.  <br/> |
+|**ReplaceDialogIdTime** <br/> |datetime  <br/> |Extranjero  <br/> |Número de identificación para identificar el cuadro de diálogo que se reemplazó por la sesión actual. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Extranjero  <br/> |Número de identificación para identificar la sesión. Se usa junto con **ReplacesDialogIdTime** para identificar de forma única una sesión que se reemplaza por esta sesión. Para obtener más información, consulte la [tabla cuadros de diálogo en Skype empresarial Server 2015](dialogs.md) . <br/> |
+|**User1Id** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR de un usuario de la sesión. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**User2Id** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del otro usuario de la sesión. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**User1EndpointId** <br/> |Identificador  <br/> ||GUID que identifica el extremo utilizado por el primer usuario de la sesión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**User2EndpointId** <br/> |Identificador  <br/> ||GUID que identifica el extremo usado por el segundo usuario de la sesión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**TargetUserId** <br/> |int  <br/> |Extranjero  <br/> |El URI del usuario original para la solicitud SIP. para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**SessionStartedById** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del usuario que inició la sesión. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**OnBehalfOfId** <br/> |int  <br/> |Extranjero  <br/> |Indica el identificador del usuario de la persona que llama en nombre. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**ReferredById** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del usuario al que hace referencia la llamada. Para obtener más información, consulte la [tabla usuarios](users.md) . <br/> |
+|**ServerId** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del servidor front-end usado para esta sesión. Para obtener más información, consulte la [tabla servidores](servers.md) . <br/> |
+|**PoolId** <br/> |int  <br/> |Extranjero  <br/> |IDENTIFICADOR del grupo en el que se capturó la sesión. Para obtener más información, consulte la [tabla grupos](pools.md) . <br/> |
+|**ContentTypeID** <br/> |int  <br/> |Extranjero  <br/> |Tipo de contenido usado en la sesión. Para obtener más información, consulte la [tabla contentTypes en Skype empresarial Server 2015](contenttypes.md) . <br/> |
+|**User1ClientVerId** <br/> |int  <br/> |Extranjero  <br/> |Versión de cliente usada por el usuario1. Para obtener más información, consulte la [tabla ClientVersions en Skype empresarial Server 2015](clientversions.md) . <br/> |
+|**User2ClientVerId** <br/> |int  <br/> |Extranjero  <br/> |Versión de cliente usada por usuario2. Para obtener más información, consulte la [tabla ClientVersions en Skype empresarial Server 2015](clientversions.md) . <br/> |
+|**User1EdgeServerid** <br/> |int  <br/> |Extranjero  <br/> |Servidor perimetral usado por el usuario1. Para obtener más información, consulte la [tabla EdgeServers en Skype empresarial Server 2015](edgeservers.md) . <br/> |
+|**User2EdgeServerid** <br/> |int  <br/> |Extranjero  <br/> |Servidor perimetral usado por usuario2. Para obtener más información, consulte la [tabla EdgeServers en Skype empresarial Server 2015](edgeservers.md) . <br/> |
+|**IsUser1Internal** <br/> |bit  <br/> ||Si user1 está conectado desde interno o no.  <br/> |
+|**IsUser2Internal** <br/> |bit  <br/> ||Si usuario2 está conectado desde interno o no.  <br/> |
+|**InviteTime** <br/> |datetime  <br/> ||La hora de la primera solicitud de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información). Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
+|**ResponseTime** <br/> |datetime  <br/> ||La hora de la respuesta al primer mensaje de invitación. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
+|**ResponseCode** <br/> |int  <br/> ||Código de respuesta SIP a la invitación de la sesión. Por lo general, este campo se rellena con los datos generados desde el mensaje de invitación inicial de la sesión. Si no hay ningún mensaje de invitación, el campo se rellena con la fecha y la hora del primer mensaje SIP pertinente (BYE, cancelar, mensaje o información).  <br/> |
+|**DiagnosticId** <br/> |int  <br/> ||IDENTIFICACIÓN de diagnóstico capturada del encabezado de SIP.  <br/> |
+|**CallPriority** <br/> |int  <br/> |Extranjero  <br/> |Prioridad de la llamada. Para obtener más información, consulte la [tabla CallPriorities en Skype empresarial Server 2015](callpriorities.md) . <br/> |
+|**User1MessageCount** <br/> |int  <br/> ||Número de mensajes enviados por el usuario1 durante la sesión.  <br/> |
+|**User2MessageCount** <br/> |int  <br/> ||Número de mensajes enviados por usuario2 durante la sesión.  <br/> |
+|**SessionEndTime** <br/> |datetime  <br/> ||Hora de finalización de la sesión.  <br/> |
+|**MediaTypes** <br/> |int  <br/> ||Un conjunto de bits que indica el tipo de medio de esta sesión. En la lista se muestran las definiciones de los tipos:  <br/> 1-MI  <br/> 2-FILE_TRANSFER  <br/> 4-REMOTE_ASSISTANCE  <br/> 8-APP_SHARING  <br/> 16-AUDIO  <br/> 32-VIDEO  <br/> 64-APP_INVITE  <br/> |
+|**User1Flag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos del Usuario1. Se muestran las siguientes definiciones de atributos:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
+|**User2Flag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos de usuario2. Se muestran las siguientes definiciones de atributos:  <br/> 0x01: integrado con un teléfono de escritorio  <br/> |
+|**CallFlag** <br/> |smallint  <br/> ||Un conjunto de bits que indica los atributos de la llamada. Se muestran las siguientes definiciones de atributos:  <br/> 0x01-reintento de sesión  <br/> 0x02: una llamada realizada por el agente en nombre de un grupo de respuesta  <br/> |
+|**Procesar** <br/> |bit  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Microsoft Lync Server 2013.  <br/> |
+|**LastModifiedTime** <br/> |Fechas  <br/> ||Para uso interno del servicio de supervisión.  <br/> Este campo se introdujo en Skype empresarial Server 2015.  <br/> |
    
-\*Para la mayoría de las sesiones, SessionIdSeq tendrá el valor de 1. Si iniciar varias sesiones al mismo tiempo, la SessionIdSeq para uno será 1, para otro va a ser 2 y así sucesivamente.
+\*Para la mayoría de las sesiones, SessionIdSeq tendrá el valor 1. Si varias sesiones comienzan exactamente al mismo tiempo, la SessionIdSeq para una será 1, la otra será 2, y así sucesivamente.
   
 

@@ -4,56 +4,56 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Después de que los usuarios se mueven a Skype para grupos de negocio Server 2019, puede migrar los grupos de respuesta. Respuesta migrar grupos incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada a la Skype para el grupo de servidores de Business Server 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta son resueltos por la aplicación de grupo de respuesta en el Skype para el grupo de servidores de Business Server 2019. Las llamadas a grupos de respuesta ya no se controlan mediante el grupo heredado.
-ms.openlocfilehash: 17ba19be3b574436f3a175457264654d8c28ebd0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Después de mover los usuarios a los grupos de servidores de Skype empresarial 2019, puede migrar los grupos de respuesta. La migración de grupos de respuesta incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada al grupo de servidores de Skype empresarial 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta se controlan mediante la aplicación de grupo de respuesta en el grupo de servidores de Skype empresarial 2019. Las llamadas a grupos de respuesta ya no son controladas por el grupo heredado.
+ms.openlocfilehash: cba50526748ca15c04513013e484b0e279410c1e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231654"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298207"
 ---
 # <a name="migrate-response-groups"></a>Migrar grupos de respuesta
 
-Después de que los usuarios se mueven a Skype para grupos de negocio Server 2019, puede migrar los grupos de respuesta. Respuesta migrar grupos incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada a la Skype para el grupo de servidores de Business Server 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta son resueltos por la aplicación de grupo de respuesta en el Skype para el grupo de servidores de Business Server 2019. Las llamadas a grupos de respuesta ya no se controlan mediante el grupo heredado.
+Después de mover los usuarios a los grupos de servidores de Skype empresarial 2019, puede migrar los grupos de respuesta. La migración de grupos de respuesta incluye copiar grupos de agentes, colas, flujos de trabajo, archivos de audio y mover los objetos de contacto del grupo de respuesta de la implementación heredada al grupo de servidores de Skype empresarial 2019. Después de migrar los grupos de respuesta heredados, las llamadas a los grupos de respuesta se controlan mediante la aplicación de grupo de respuesta en el grupo de servidores de Skype empresarial 2019. Las llamadas a grupos de respuesta ya no son controladas por el grupo heredado.
   
 > [!NOTE]
-> Aunque puede migrar grupos de respuesta antes de mover todos los usuarios a la Skype para Business Server 2019 grupo de servidores, se recomienda que mueva todos los usuarios en primer lugar. En particular, los usuarios que sean los agentes del grupo de respuesta no tendrán una funcionalidad completa de las nuevas características hasta que se mueven a la Skype para el grupo de servidores de Business Server 2019. 
+> Aunque puede migrar grupos de respuesta antes de mover todos los usuarios al grupo de servidores de Skype empresarial 2019, le recomendamos que mueva todos los usuarios en primer lugar. En particular, los usuarios que sean agentes de grupo de respuesta no tendrán la funcionalidad completa de las nuevas características hasta que se muevan al grupo de servidores de Skype empresarial 2019. 
   
-Antes de migrar grupos de respuesta, debe haber implementado un Skype para Business Server 2019 del grupo que incluye la aplicación de grupo de respuesta. La aplicación de grupo de respuesta se instala y activa de forma predeterminada al implementar Enterprise Voice. Asegúrese de que está instalada la aplicación de grupo de respuesta ejecutando el cmdlet **Get-CsService-ApplicationServer** . 
+Antes de migrar grupos de respuesta, debe haber implementado un grupo de servidores de Skype empresarial 2019 que incluya la aplicación de grupo de respuesta. La aplicación de grupo de respuesta se instala y activa de forma predeterminada al implementar la telefonía IP empresarial. Para asegurarse de que la aplicación de grupo de respuesta se instala, ejecute el cmdlet **Get-CsService-ApplicationServer** . 
   
 > [!NOTE]
-> Puede crear nuevas Skype Business Server 2019 grupos de respuesta en el Skype para el grupo de servidores de Business Server 2019 antes de migrar los grupos de respuesta heredados. 
+> Puede crear nuevos grupos de respuesta de Skype empresarial 2019 en el grupo de Skype empresarial 2019 antes de migrar los grupos de respuesta heredados. 
   
-Para migrar grupos de respuesta de un grupo de servidores heredado a la Skype para Business Server 2019, ejecute el cmdlet **Move-CsRgsConfiguration** . 
+Para migrar grupos de respuesta de un grupo heredado a la 2019 de Skype empresarial Server, ejecute el cmdlet **Move-CsRgsConfiguration** . 
   
 > [!IMPORTANT]
-> El cmdlet de migración de grupo de respuesta mueve a la configuración de grupo de respuesta para todo el grupo. No puede seleccionar grupos específicos, colas o flujos de trabajo para migrar. 
+> El cmdlet de migración de grupo de respuesta mueve la configuración del grupo de respuesta para todo el grupo. No puede seleccionar grupos, colas o flujos de trabajo específicos para migrar. 
   
-Después de migrar los grupos de respuesta, debe usar Skype para el Panel de Control de servidor empresarial o Skype para los cmdlets del Shell de administración de servidor empresarial para comprobar que todos los grupos de agentes, colas y flujos de trabajo se hayan migrado correctamente. 
+Después de migrar los grupos de respuesta, debe usar el panel de control de Skype empresarial Server o los cmdlets del shell de administración de Skype empresarial para comprobar que todos los grupos de agentes, las colas y los flujos de trabajo se han movido correctamente. 
   
-Cuando se migran grupos de respuesta, no se quitan los grupos de respuesta heredados. Al administrar grupos de respuesta después de la migración mediante el uso de ambos Skype para el Panel de Control de servidor empresarial o Skype de consola de administración de servidor empresarial, puede ver los grupos de respuesta heredados y la Skype Business Server 2019 grupos de respuesta. Se deben aplicar las actualizaciones sólo a la Skype Business Server 2019 grupos de respuesta. Los grupos de respuesta heredados se conservan únicamente con fines de reversión. 
+Al migrar grupos de respuesta, los grupos de respuesta heredados no se quitan. Al administrar grupos de respuesta después de la migración mediante el panel de control de Skype empresarial Server o el shell de administración de Skype empresarial, puede ver los grupos de respuesta heredados y los grupos de respuesta de Skype empresarial Server 2019. Solo debe aplicar actualizaciones a los grupos de respuesta 2019 de Skype empresarial Server. Los grupos de respuesta heredados solo se conservan con fines de desinstalación. 
   
 > [!CAUTION]
-> Después de la migración se ha completado y se han creado los nuevos grupos de respuesta, el Skype para el Panel de Control de servidor empresarial y la Skype para Shell de administración de Business Server mostrará el heredado y Skype para Business Server 2019 versiones de cada respuesta grupo. No use Skype para Panel de Control de servidor empresarial o Skype para Business Server Management Shell para quitar los grupos de respuesta heredados. Si quita uno, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta heredados se quitan cuando se dé de baja el grupo heredado. 
+> Una vez que se haya completado la migración y se hayan creado los nuevos grupos de respuesta, el panel de control de Skype empresarial Server y el shell de administración de Skype empresarial Server mostrarán las versiones del servidor de Skype heredado y de Skype empresarial 2019 de cada respuesta mesa. No use el panel de control de Skype empresarial Server ni el shell de administración de Skype empresarial para quitar los grupos de respuesta heredados. Si quita uno, el grupo de respuesta correspondiente que se creó durante la migración dejará de funcionar. Los grupos de respuesta heredados se quitarán al retirar el grupo heredado. 
   
 > [!IMPORTANT]
-> Se recomienda que no quite los datos de la implementación anterior hasta que se dé de baja el grupo de servidores. Además, se recomienda exportar grupos de respuesta inmediatamente después de migrar. Si debe obtener quitar un grupo de respuesta heredados, a continuación, puede restaurar los grupos de respuesta desde la copia de seguridad para obtener Skype para volver a ejecutar los grupos de respuesta Business Server 2019. 
+> Le recomendamos que no elimine ningún dato de la implementación anterior hasta que no represente el grupo. Además, le recomendamos encarecidamente que exporte los grupos de respuesta inmediatamente después de la migración. Si un grupo de respuesta heredado debe quitarse, puede restaurar los grupos de respuesta de la copia de seguridad para que los grupos de respuesta de Skype empresarial Server 2019 vuelvan a ejecutarse. 
   
-Skype para Business Server 2019 presenta una nueva característica de grupo de respuesta denominada **Tipo de flujo de trabajo**. **Tipo de flujo de trabajo** puede ser **administrado** o **no administrado**. Todos los grupos de respuesta se migran con el **Tipo de flujo de trabajo** establecido como **no administrados** y con una lista vacía en Administrador. 
+Skype empresarial Server 2019 presenta una nueva característica de grupo de respuesta llamada **tipo de flujo de trabajo**. El tipo de flujo **** de **trabajo** se puede administrar o **no administrar**. Todos los grupos de respuesta se migran con el **tipo de flujo de trabajo** establecido en **no administrado** y con una lista vacía de administrador. 
   
-Cuando se ejecuta el cmdlet **Move-CsRgsConfiguration** , los grupos de agentes, colas, flujos de trabajo y los archivos de audio permanecen en el grupo heredado para la reversión. Sin embargo, si es necesario revertir al grupo de servidores heredado, necesario ejecutar el cmdlet **Move-CsApplicationEndpoint** para mover objetos de contacto de vuelta al grupo de servidores heredado. 
+Al ejecutar el cmdlet **Move-CsRgsConfiguration** , los grupos de agentes, las colas, los flujos de trabajo y los archivos de audio permanecen en el grupo heredado para fines de desinstalación. Sin embargo, si necesita volver al grupo heredado, debe ejecutar el cmdlet **Move-CsApplicationEndpoint** para mover los objetos de contacto de nuevo al grupo heredado. 
   
-El siguiente procedimiento para migrar las configuraciones de grupo de respuesta se da por supuesto que tiene una relación de uno a uno entre los grupos heredados y la Skype para grupos de negocio Server 2019. Si tiene previsto consolidar o dividir los grupos de servidores durante la migración y la implementación, debe plan qué grupo heredado que se asigna a qué Skype para el grupo de servidores de Business Server 2019.
+El siguiente procedimiento para migrar la configuración de un grupo de respuesta supone que tiene una relación uno a uno entre los grupos heredados y los grupos de 2019 de Skype empresarial Server. Si tiene previsto consolidar o dividir las agrupaciones durante la migración y la implementación, debe planear los mapas de agrupaciones heredados en los que el grupo de servidores de Skype empresarial 2019.
   
-## <a name="to-migrate-response-group-configurations"></a>Para migrar las configuraciones de grupo de respuesta
+## <a name="to-migrate-response-group-configurations"></a>Para migrar las configuraciones de grupos de respuesta
 
-1. Inicie sesión en el equipo con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o que tenga permisos y derechos de administrador equivalentes.
+1. Inicie sesión en el equipo con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o que tenga derechos y permisos de administrador equivalentes.
     
-2. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server 2019**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+2. Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Skype empresarial Server 2019**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**.
     
 3. Ejecute:
     
@@ -67,29 +67,29 @@ El siguiente procedimiento para migrar las configuraciones de grupo de respuesta
    Move-CsRgsConfiguration -Source skype-old.contoso.net -Destination skype-new.contoso.net
    ```
 
-4. Después de migrar los grupos de respuesta y los agentes a la Skype para el grupo de servidores de Business Server 2019, la dirección URL que los agentes que se utilizan para iniciar y cerrar la sesión es un Skype para Business Server 2019 URL y está disponible en el menú **Herramientas** . Recuerde a los agentes para actualizar las referencias, como marcadores, a la nueva dirección URL. 
+4. Después de migrar grupos de respuesta y agentes al grupo de servidores de Skype empresarial 2019, la dirección URL que los agentes usan para iniciar y cerrar sesión es una URL de Skype empresarial Server 2019 y está disponible en el menú **herramientas** . Recuerde a los agentes que actualicen cualquier referencia, como marcadores, a la nueva dirección URL. 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>Para comprobar la migración de grupo de respuesta mediante el uso de Skype para el Panel de Control de servidor empresarial
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-control-panel"></a>Para comprobar la migración de grupos de respuesta con el panel de control de Skype empresarial Server
 
-1. Inicie sesión en el equipo con una cuenta que sea miembro del grupo RTCUniversalReadOnlyAdmins o, como mínimo, es un miembro del rol CsViewOnlyAdministrator.
+1. Inicie sesión en el equipo con una cuenta que sea miembro de RTCUniversalReadOnlyAdmins grupo o que sea, al menos, miembro de la función CsViewOnlyAdministrator.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. Para obtener información detallada sobre los distintos métodos que puede usar para iniciar Skype para el Panel de Control de servidor empresarial, vea [Open Skype para las herramientas administrativas de Business Server 2019](https://technet.microsoft.com/en-us/library/gg195741(v=ocs.15).aspx). 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Skype empresarial Server, consulte [abrir las herramientas administrativas 2019 de Skype empresarial Server](https://technet.microsoft.com/en-us/library/gg195741(v=ocs.15).aspx). 
     <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
-3. En el panel de navegación izquierdo, haga clic en **Grupos de respuesta**.
+3. En el panel de navegación izquierdo, haga clic en **grupos de respuesta**.
     
-4. En la ficha **flujo de trabajo** , compruebe que todos los flujos de trabajo del entorno heredado se encuentran en la lista. 
+4. En la pestaña **flujo de trabajo** , compruebe que todos los flujos de trabajo de su entorno heredado estén incluidos en la lista. 
     
-5. Haga clic en la pestaña **cola** y compruebe que todas las colas del entorno heredado se encuentran en la lista. 
+5. Haga clic en la pestaña **cola** y compruebe que todas las colas de su entorno heredado estén incluidas en la lista. 
     
-6. Haga clic en la ficha de **grupo** y compruebe que todos los grupos de agentes del entorno heredado se encuentran en la lista. 
+6. Haga clic en la pestaña **Grupo** y compruebe que todos los grupos de agentes de su entorno heredado estén incluidos en la lista. 
     
-## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>Para comprobar la migración de grupo de respuesta mediante el uso de Skype para Shell de administración de servidor empresarial
+## <a name="to-verify-response-group-migration-by-using-skype-for-business-server-management-shell"></a>Para comprobar la migración de grupos de respuesta con el shell de administración de Skype empresarial Server
 
-1. Inicie sesión en el equipo con una cuenta que sea miembro del grupo RTCUniversalReadOnlyAdmins o, como mínimo, es un miembro del rol CsViewOnlyAdministrator.
+1. Inicie sesión en el equipo con una cuenta que sea miembro de RTCUniversalReadOnlyAdmins grupo o que sea, al menos, miembro de la función CsViewOnlyAdministrator.
     
-2. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server 2019**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+2. Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Skype empresarial Server 2019**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**.
     
-    Para obtener información detallada sobre los siguientes cmdlets, ejecute:
+    Para obtener más información sobre los siguientes cmdlets, ejecute:
     
    ```
    Get-Help <cmdlet name> -Detailed
@@ -101,7 +101,7 @@ El siguiente procedimiento para migrar las configuraciones de grupo de respuesta
    Get-CsRgsAgentGroup
    ```
 
-4. Compruebe que todos los grupos de agentes del entorno heredado se encuentran en la lista.
+4. Verifique que todos los grupos de agentes de su entorno heredado estén incluidos en la lista.
     
 5. Ejecute:
     
@@ -109,7 +109,7 @@ El siguiente procedimiento para migrar las configuraciones de grupo de respuesta
    Get-CsRgsQueue
    ```
 
-6. Compruebe que todas las colas del entorno heredado se encuentran en la lista.
+6. Verifique que todas las colas de su entorno heredado estén incluidas en la lista.
     
 7. Ejecute:
     
@@ -117,6 +117,6 @@ El siguiente procedimiento para migrar las configuraciones de grupo de respuesta
    Get-CsRgsWorkflow
    ```
 
-8. Compruebe que todos los flujos de trabajo del entorno heredado se encuentran en la lista.
+8. Verifique que todos los flujos de trabajo de su entorno heredado estén incluidos en la lista.
     
 
