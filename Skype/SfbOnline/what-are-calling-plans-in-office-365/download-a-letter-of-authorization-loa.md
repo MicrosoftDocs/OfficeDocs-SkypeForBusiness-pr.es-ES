@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,10 +24,10 @@ description: La Carta de autorización (LOA) nos concede permiso para solicitar 
 robots: noindex
 redirect_url: https://docs.microsoft.com/SkypeForBusiness/what-are-calling-plans-in-office-365/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization
 redirect_document_id: true
-ms.openlocfilehash: fccd7b0af122d8585da87c69344dc18cdf4f12cf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3f312a400eaae2a7a1ff66fb501f12bc0f483ae4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233148"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287930"
 ---
