@@ -3,7 +3,7 @@ title: Configurar el desvío de medios con enrutamiento directo
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service:
@@ -14,52 +14,52 @@ search.appverid: MET150
 ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
-description: Lea este tema para obtener información sobre cómo configurar el desvío de medios con el enrutamiento directo teléfono del sistema.
-ms.openlocfilehash: 459ebd80a175fbf2c213a016436a2bf130ae9982
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Lea este tema para aprender a configurar la omisión de medios con enrutamiento directo de sistema telefónico.
+ms.openlocfilehash: a9769e921ff493e67614cf903ca9206f6f50bac8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232701"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290456"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Configurar el desvío de medios con enrutamiento directo
 
-Antes de desvío de medios de configuración con el enrutamiento directo, asegúrese de que ha leído [Plan para los medios de desvío con el enrutamiento directo](direct-routing-plan-media-bypass.md).
+Antes de configurar la omisión de medios con enrutamiento directo, asegúrese de que tiene un [plan de lectura de multimedia con enrutamiento directo](direct-routing-plan-media-bypass.md).
 
-Para activar el desvío de medios, se deben cumplir las siguientes condiciones:
+Para activar la omisión de elementos multimedia, se deben cumplir las condiciones siguientes:
 
-1.  Asegúrese de que su proveedor de controlador de borde de sesión (SBC) de elección es compatible con el desvío de medios y proporciona instrucciones acerca de cómo configurar el desvío en el SBC. Consulte la página de certificación para obtener más información acerca de SBCs, el desvío de los medios de soporte técnico, y para obtener instrucciones.
+1.  Asegúrese de que el proveedor del controlador de borde (SBC) de la sesión que elija admita la omisión de medios y proporciona instrucciones sobre cómo configurar el omisión en la SBC. Consulte la página de certificación para obtener información sobre SBCs, que admiten la omisión de elementos multimedia y para obtener instrucciones.
 
-2.  Debe activar el desvío de medios en el tronco mediante el siguiente comando: **Set-CSOnlinePSTNGateway-<sbc_FQDN> Identity - MediaBypass $true**.
+2.  Para activar la omisión de elementos multimedia en el tronco, use el siguiente comando: **set-CSOnlinePSTNGateway-Identity <sbc_FQDN>-MediaBypass $true**.
 
-3.  Asegúrese de que se abren los puertos requeridos. 
+3.  Asegúrese de que los puertos necesarios estén abiertos. 
 
 
-## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migración de troncos no pasó a habilitados para el desvío de troncos
+## <a name="migrate-from-non-bypassed-trunks-to-bypass-enabled-trunks"></a>Migrar desde troncos no omitidos a troncos habilitados para omitir
 
-Puede cambiar todos los usuarios a la vez o puede implementar por fases lleva a cabo (recomendado).
+Puede cambiar todos los usuarios a la vez o puede implementar un enfoque por fases (recomendado).
 
-- **Cambiar todos los usuarios a la vez.** Si se cumplen todas las condiciones, puede activar el modo de omisión. Sin embargo, todos los usuarios de producción cambiará al mismo tiempo. Debido a que podrían experimentar algunos problemas inicialmente al configurar troncos y puertos, la experiencia de usuario de producción podría verse afectada. 
+- **Cambiar todos los usuarios a la vez.** Si se cumplen todas las condiciones, puede activar el modo de omisión. Sin embargo, todos los usuarios de producción se cambiarán al mismo tiempo. Dado que es posible que al principio experimente algunos problemas al configurar los troncos y los puertos, su experiencia con el usuario de producción podría verse afectada. 
 
-- Enfoque de **Phased. (Recomendado)**.  Crear un nuevo tronco para la misma SBC (con un puerto diferente), ponerlo a prueba y cambiar la directiva de enrutamiento de voz en línea para los usuarios para que apunte al nuevo tronco. 
+- **Enfoque por fases. (Recomendado)**.  Cree un nuevo tronco para el mismo SBC (con un puerto diferente), pruébelo y cambie la Directiva de enrutamiento de voz en línea para que los usuarios apunten al nuevo tronco. 
 
-  Éste es el enfoque recomendado porque permite una transición más suave y la experiencia del usuario sin interrupciones. Este método requiere la configuración de la SBC, un nuevo nombre FQDN y la configuración del servidor de seguridad. Tenga en cuenta que tendrá para asegurarse de que su certificado admite tanto los troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado de comodín.
+  Este es el método recomendado porque permite una transición más fluida y una experiencia de usuario ininterrumpida. Este enfoque requiere la configuración de SBC, un nuevo nombre FQDN y la configuración del firewall. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
 
-![Migración de troncos no pasó a habilitados para el desvío de troncos)](media/direct-routing-media-bypass-8.png)
+![Migrar desde troncos no omitidos a troncos habilitados para omitir)](media/direct-routing-media-bypass-8.png)
 
-Para obtener instrucciones sobre cómo configurar los troncos y realizar la migración, consulte la documentación de su proveedor de SBC:
+Para obtener instrucciones sobre cómo configurar los troncos y realizar la migración, consulte la documentación del proveedor de SBC:
 
 - AudioCodes
-- Cinta de opciones
+- Lazo
 - TE-Systems (AnyNode)    
 
-Para obtener una lista de controladores de borde de sesión (SBCs) certificados para el enrutamiento directo, vea la [lista de controladores de Broder sesión certificados para el enrutamiento directo](direct-routing-border-controllers.md).
+Para obtener una lista de los controladores de borde de sesión (SBCs) certificados para enrutamiento directo, consulte [List of Session borde Controllers Certified for Direct Routing](direct-routing-border-controllers.md).
 
 
 
 ## <a name="see-also"></a>Vea también
 
-[Planear el desvío de medios con el enrutamiento directo](direct-routing-plan-media-bypass.md)
+[Planear la omisión de medios con enrutamiento directo](direct-routing-plan-media-bypass.md)
 
 
 

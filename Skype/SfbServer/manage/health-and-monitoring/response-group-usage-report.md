@@ -1,27 +1,27 @@
 ---
-title: Informe de uso del grupo de respuesta en Skype para Business Server
+title: Informe de uso de grupo de respuesta en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
-description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype para Business Server.'
-ms.openlocfilehash: 0638c6d6ab6718e3974a41701c75b21b2600504e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la aplicación de grupo de respuesta en Skype empresarial Server.'
+ms.openlocfilehash: 6154a1e2d2407f3e7fe6f8eaf9527567724220fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897600"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279847"
 ---
-# <a name="response-group-usage-report-in-skype-for-business-server"></a>Informe de uso del grupo de respuesta en Skype para Business Server
+# <a name="response-group-usage-report-in-skype-for-business-server"></a>Informe de uso de grupo de respuesta en Skype empresarial Server
 
-**Resumen:** Obtenga información acerca de la aplicación de grupo de respuesta en Skype para Business Server.
+**Resumen:** Obtenga más información sobre la aplicación de grupo de respuesta en Skype empresarial Server.
 
-La aplicación de grupo de respuesta proporciona una manera de Skype para Business Server responder y enrutar las llamadas de teléfono según el número que se ha marcado y, opcionalmente, de las respuestas del autor de la llamada a una serie de preguntas. Normalmente, las llamadas de grupo de respuesta no se enrutan a una persona individual, pero, en su lugar, se enrutan a un equipo de personas que se conoce como un grupo de agentes. Por ejemplo, si alguien llama al número de teléfono para el servicio de asistencia, Skype para Business Server puede enrutar automáticamente esa llamada al primer agente de escritorio de ayuda disponibles. Como alternativa, Skype para Business Server podría pedir una serie de preguntas ("Presione 1 si tiene problemas de hardware. Presione 2 si tiene problemas de software. Presione 3 si tiene problemas de red."), y, a continuación, enrutar la llamada al agente de asistencia al cliente ayuda más adecuado en función de la respuesta a estas preguntas.
+La aplicación de grupo de respuesta ofrece una manera de que Skype empresarial Server responda y enrute llamadas telefónicas en función del número que haya marcado y, opcionalmente, de las respuestas de las personas que llaman a una serie de preguntas. Normalmente, las llamadas a grupos de respuesta no se dirigen a una persona individual, sino que se dirigen a un equipo de personas a las que se hace referencia como grupo de agentes. Por ejemplo, si alguien llama al número de teléfono de su Departamento de soporte técnico, Skype empresarial Server puede enrutar automáticamente la llamada al primer agente del servicio de asistencia disponible. Como alternativa, Skype empresarial Server podría formular una serie de preguntas ("Presione 1 si tiene problemas de hardware. Pulse 2 Si tiene problemas de software. Pulse 3 Si tiene problemas de red. ") y, a continuación, enrute la llamada al agente de asistencia al cliente más adecuado en función de la respuesta a esas preguntas.
 
 El Informe de uso del grupo de respuesta ofrece una perspectiva detallada del número de llamadas de teléfono que se han recibido en todos los flujos de trabajo de grupo de respuesta y, luego, separa dichas llamadas en categorías finitas como, por ejemplo, Llamadas ofrecidas, Llamadas contestadas o Llamadas abandonadas.
 
@@ -45,7 +45,7 @@ El Informe de uso del grupo de respuesta permite filtrar URI de flujos de trabaj
 
 ## <a name="accessing-the-response-group-usage-report"></a>Acceso al Informe de uso del grupo de respuesta
 
-Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede desglosar la [Respuesta grupo Call List Report en Skype para Business Server](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
+Es posible tener acceso al Informe de uso del grupo de respuesta desde la página de inicio de informes de supervisión. Puede explorar en profundidad el [Informe de la lista de llamadas del grupo de respuesta en Skype empresarial Server](call-list-report.md) haciendo clic en cualquiera de las siguientes métricas:
 
 - Llamadas recibidas
 
@@ -62,13 +62,13 @@ Es posible tener acceso al Informe de uso del grupo de respuesta desde la págin
 Uno de los usos más interesantes del Informe de uso del grupo de respuesta puede no resultar obvio a primera vista: la capacidad para recuperar información sobre el uso de un único flujo de trabajo de grupo de respuesta.
 
 > [!CAUTION]
-> Un flujo de trabajo de grupo de respuesta es básicamente un conjunto de instrucciones que determina lo que hace Skype para Business Server cuando un usuario marca un número de teléfono particular. Para ello, cada flujo de trabajo está asociado a un único número de teléfono. Cuando alguien llama a dicho número, el flujo de trabajo determina cómo se administrará la llamada. Por ejemplo, el flujo de trabajo puede enrutar la llamada a través de una serie de preguntas de respuesta de voz interactiva (IVR) que indican al autor de la llamada que necesita especificar información adicional ("Presione 1 si necesita asistencia para hardware. Presione 2 si necesita asistencia para software"). De forma alternativa, el flujo de trabajo también puede poner la llamada en cola y mantener al autor de la llamada en espera hasta que haya un agente disponible para atender la llamada. La disponibilidad de los agentes para responder a llamadas también está determinada por el flujo de trabajo: los flujos de trabajo se usan para configurar el horario laboral (días de la semana y horas del día en que los agentes están disponibles para responder a llamadas) y los festivos (días en los que no hay agentes disponibles para responder a llamadas). Cuando realiza llamadas a números de teléfono que pertenecen a una aplicación de grupo de respuesta, básicamente está llamando a un flujo de trabajo de grupo de respuesta. 
+> Un flujo de trabajo de grupo de respuesta es básicamente un conjunto de instrucciones que determinan lo que hace Skype empresarial Server cuando un usuario marca un número de teléfono determinado. Para ello, cada flujo de trabajo está asociado a un único número de teléfono. Cuando alguien llama a dicho número, el flujo de trabajo determina cómo se administrará la llamada. Por ejemplo, el flujo de trabajo puede enrutar la llamada a través de una serie de preguntas de respuesta de voz interactiva (IVR) que indican al autor de la llamada que necesita especificar información adicional ("Presione 1 si necesita asistencia para hardware. Presione 2 si necesita asistencia para software"). De forma alternativa, el flujo de trabajo también puede poner la llamada en cola y mantener al autor de la llamada en espera hasta que haya un agente disponible para atender la llamada. La disponibilidad de los agentes para responder a llamadas también está determinada por el flujo de trabajo: los flujos de trabajo se usan para configurar el horario laboral (días de la semana y horas del día en que los agentes están disponibles para responder a llamadas) y los festivos (días en los que no hay agentes disponibles para responder a llamadas). Cuando realiza llamadas a números de teléfono que pertenecen a una aplicación de grupo de respuesta, básicamente está llamando a un flujo de trabajo de grupo de respuesta. 
 
 Aunque los URI de los flujos de trabajo no se muestran en el Informe de uso del grupo de respuesta, pueden verse las estadísticas de uso de un flujo de trabajo determinado, cosa que a menudo es de gran utilidad. Por ejemplo, supongamos que ha lanzado una nueva campaña publicitaria y tiene curiosidad por saber si se están registrando llamadas para obtener información sobre el producto. Si tiene un flujo de trabajo de grupo de respuesta asociado al número de teléfono de la campaña publicitaria, podrá comprobar fácilmente cuántas personas están llamando a dicho número.
 
 Puede utilizar un enfoque similar para evaluar el número de llamadas atendidas por su servicio de asistencia interno o por el departamento de atención al cliente.
 
-Para revisar las estadísticas de uso de un flujo de trabajo determinado, escriba el URI del flujo de trabajo en el cuadro URI de flujo de trabajo. Tal como se ha mencionado, los URI de flujos de trabajo (dirección SIP asociada a un flujo de trabajo) no se muestran en el informe. Esto implica que necesitará buscar otra forma de determinar el URI de un flujo de trabajo. Una manera de hacerlo consiste en usar Windows PowerShell y el Skype para Shell de administración de servidor empresarial. Por ejemplo, este comando devuelve los URI de todos los flujos de trabajo de grupo de respuesta:
+Para revisar las estadísticas de uso de un flujo de trabajo determinado, escriba el URI del flujo de trabajo en el cuadro URI de flujo de trabajo. Tal como se ha mencionado, los URI de flujos de trabajo (dirección SIP asociada a un flujo de trabajo) no se muestran en el informe. Esto implica que necesitará buscar otra forma de determinar el URI de un flujo de trabajo. Una forma de hacerlo es usar Windows PowerShell y el shell de administración de Skype empresarial Server. Por ejemplo, este comando devuelve los URI de todos los flujos de trabajo de grupo de respuesta:
 
 ```
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri

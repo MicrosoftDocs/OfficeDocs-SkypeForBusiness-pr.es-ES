@@ -1,10 +1,10 @@
 ---
-title: Implementar vía trabajo en Skype para Business Server
+title: Implementación de llamadas mediante el trabajo en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -12,47 +12,47 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
-description: 'Resumen: Obtenga información sobre cómo implementar llamar vía trabajo en Skype para Business Server para algunos o todos los usuarios.'
-ms.openlocfilehash: 3518d5a4d2977ae976450dff4e028365bebe0703
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a implementar llamadas mediante el trabajo en Skype empresarial Server para algunos o todos los usuarios.'
+ms.openlocfilehash: a2d4783f39ca19fd751295f4725f686d843f8d5b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893528"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286393"
 ---
-# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implementar vía trabajo en Skype para Business Server
+# <a name="deploy-call-via-work-in-skype-for-business-server"></a>Implementación de llamadas mediante el trabajo en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo implementar llamar vía trabajo en Skype para Business Server para algunos o todos los usuarios.
+**Resumen:** Aprenda a implementar llamadas mediante el trabajo en Skype empresarial Server para algunos o todos los usuarios.
   
-Siga estos pasos para implementar llamadas vía trabajo para los usuarios. Se describen las consideraciones de planeación en [Plan para llamar vía trabajo en Skype para Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). En versiones anteriores de llamada remota de Lync Server control era una característica que habilita a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype para Business Server, esta característica se ha reemplazado con llamar vía trabajo. 
+Siga estos pasos para implementar llamadas por trabajo para sus usuarios. Las consideraciones de planeación se tratan en [plan para llamar mediante el trabajo en Skype empresarial Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md). En versiones anteriores de Lync Server, el control remoto de llamadas era una característica que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype empresarial Server, esta característica se ha sustituido por una llamada por trabajo. 
   
-## <a name="prerequisites-for-call-via-work"></a>Requisitos previos para la llamada vía trabajo
+## <a name="prerequisites-for-call-via-work"></a>Requisitos previos para llamar por trabajo
 
-Llamar vía trabajo usa Unified Communications Web API (UCWA), que se instala automáticamente en Skype todos los servidores Front-End de Business Server. Para habilitar a los usuarios para llamar vía trabajo, también debe tener los siguientes requisitos previos en su lugar: 
+La llamada a través del trabajo usa la API Web de comunicaciones unificadas (UCWA), que se instala automáticamente en todos los servidores front-end de Skype empresarial Server. Para habilitar a los usuarios para que realicen llamadas por trabajo, también debe disponer de los siguientes requisitos previos: 
   
-- Debe tener un servidor de mediación implementados, ya sea como parte de un servidor Front-End o como una función independiente. Además, necesita implementar una puerta de enlace IP-PBX.
+- Debe tener un servidor de mediación implementado, ya sea como parte de un servidor front-end o como un rol independiente. Además, necesita implementar una puerta de enlace IP-PBX.
     
-- Todos los usuarios que va a estar habilitados para llamar vía trabajo deben tener una llamada directa (DID) en el sistema de teléfono PBX. 
+- Todos los usuarios que vayan a estar habilitados para realizar llamadas a través del trabajo deben tener un marcado directo (en el sistema telefónico PBX). 
     
-- Debe habilitar a todos los usuarios de llamar vía trabajo para Enterprise Voice. En este caso, debe configurar el Skype para número DID empresarial para cada usuario al número DID correspondiente para el sistema de teléfono PBX correspondiente. 
+- Debe habilitar todas las llamadas a través de usuarios del trabajo para telefonía IP empresarial. Al hacerlo, debe configurar el número de Skype empresarial realizado para cada usuario en el número de ha correspondiente al sistema telefónico PBX correspondiente. 
     
-- Todos los usuarios que van a usar llamar vía trabajo deben tener **La configuración automática** seleccionado en su opción de **Conexiones avanzadas** en su Skype para clientes empresariales. Esto permite que el cliente descubrir las direcciones URL de UCWA. La selección predeterminada es **Configuración automática**.
+- Todos los usuarios que vayan a usar las llamadas a través del trabajo deben tener la **configuración automática** seleccionada en la opción **conexiones avanzadas** en el cliente de Skype empresarial. Esto permite al cliente descubrir las direcciones URL de UCWA. La selección predeterminada es **Configuración automática**.
     
-- Para cada usuario llamar vía trabajo, habilitar el desvío de llamadas y llamadas simultáneas. 
+- Para cada llamada a través de usuario del trabajo, habilitar el desvío de llamadas y las llamadas simultáneas. 
     
-- Para cada usuario llamar vía trabajo, asegúrese de que estén habilitadas las conferencias telefónicas y salida de conferencia. Esto permite a estos usuarios obtener y desconectarse de Skype para conferencias de empresa.
+- Para cada llamada a través de usuario del trabajo, asegúrese de que la opción de conferencia de acceso telefónico local está habilitada. Esto permite a estos usuarios entrar y salir de las conferencias de Skype empresarial.
     
-- Asegúrese de que la delegación, llamada de equipo y grupo de respuesta se deshabilitan para todos los usuarios llamar vía trabajo.
+- Asegúrese de que la delegación, la llamada de equipo y el grupo de respuesta estén deshabilitadas para cada llamada por usuario del trabajo.
     
 ## <a name="deploy-call-via-work"></a>Implementar Vía trabajo
 
 Una vez que se cumplan los requisitos previos, haga lo siguiente:
   
-- Crear un número de teléfono globales para la implementación que Skype para la empresa que se muestra en el identificador de autor de la llamada de la PBX de los usuarios que se va a realizar llamadas de llamar vía trabajo. 
+- Cree un número de teléfono global para su implementación en el que se muestra Skype empresarial en la identificación de llamadas de PBX de los usuarios que hacen llamadas a través del trabajo. 
     
-- Crear una o varias directivas de llamar vía trabajo
+- Crear una o más llamadas a través de directivas de trabajo
     
-- Asignar una directiva de llamada vía trabajo a cada usuario que va a estar habilitada para llamar vía trabajo
+- Asignar una llamada a través de la Directiva de trabajo a cada usuario que se habilitará para realizar llamadas por trabajo
     
 ### <a name="create-the-call-via-work-global-phone-number"></a>Crear el número de teléfono global de Vía trabajo
 
@@ -76,13 +76,13 @@ Una vez que se cumplan los requisitos previos, haga lo siguiente:
   New-CsCallViaWorkPolicy [-Identity] <XdsIdentity> [-Tenant <guid>] [-Enabled <bool>] [-UseAdminCallbackNumber  <bool>] [-AdminCallbackNumber <string>] [-InMemory] [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
   ```
 
-    Por ejemplo, el siguiente cmdlet crea una directiva de llamada vía trabajo denominada ContosoUser1CvWP, requiere que el usuario usar un número de devolución de llamada de administración y establece ese número de devolución de llamada a 1-555-789-1234.
+    Por ejemplo, el siguiente cmdlet crea una llamada a través de la Directiva de trabajo denominada ContosoUser1CvWP, requiere que el usuario Use un número de devolución de llamada de administrador y establece ese número de devolución de llamada en 1-555-789-1234.
     
   ```
   New-CsCallViaWorkPolicy -Identity Tag:ContosoUser1CvWP -Enabled $true -UseAdminCallbackNumber $true -AdminCallbackNumber +15557891234
   ```
 
-### <a name="assign-a-call-via-work-policy-to-a-user"></a>Asignar una directiva de llamada vía trabajo a un usuario
+### <a name="assign-a-call-via-work-policy-to-a-user"></a>Asignar una llamada a través de la Directiva de trabajo a un usuario
 
 - Escriba el siguiente cmdlet
     
@@ -90,7 +90,7 @@ Una vez que se cumplan los requisitos previos, haga lo siguiente:
   Grant-CsCallViaWorkPolicy -Identity <UserName> -PolicyName Tag:<PolicyName>
   ```
 
-    Por ejemplo, el siguiente cmdlet asigna la directiva de llamada vía trabajo "ContosoUser1CvWP" al usuario denominado **ContosoUser1**.
+    Por ejemplo, el siguiente cmdlet asigna la llamada a través de la Directiva de trabajo "ContosoUser1CvWP" al usuario denominado **ContosoUser1**.
     
   ```
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
@@ -98,5 +98,5 @@ Una vez que se cumplan los requisitos previos, haga lo siguiente:
 
 ## <a name="see-also"></a>Vea también
 
-[Planeación de la llamada vía trabajo en Skype para Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
+[Plan de llamadas por trabajo en Skype empresarial Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

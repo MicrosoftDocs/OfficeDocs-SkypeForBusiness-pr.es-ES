@@ -1,5 +1,5 @@
 ---
-title: Administrar Skype para las organizaciones empresariales en línea
+title: Administrar las organizaciones de Skype empresarial online
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,45 +10,45 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - PowerShell
-description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información acerca de su Skype para inquilino en línea de negocio.
-ms.openlocfilehash: b71c89967ab34909fa461f71fc5f67c1cf99a408
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Use Windows PowerShell y los cmdlets Get-CsTenant y Get-CsTenantLicensingConfiguration para obtener información sobre su inquilino de Skype empresarial online.
+ms.openlocfilehash: 768ee4e0724bd04d38e9ce77b94372bdad498ecd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32224449"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284694"
 ---
-# <a name="manage-skype-for-business-online-organizations"></a>Administrar Skype para las organizaciones empresariales en línea
+# <a name="manage-skype-for-business-online-organizations"></a>Administrar las organizaciones de Skype empresarial online
 
-Puede encontrar información sobre su Skype para inquilino en línea de negocio mediante el uso de los cmdlets **Get-CsTenant** y **Get-CsTenantLicensingConfiguration** .
+Puede encontrar información sobre su inquilino de Skype empresarial online con los cmdlets **Get-CsTenant** y **Get-CsTenantLicensingConfiguration** .
   
-## <a name="manage-skype-for-business-online-tenants"></a>Administración de Skype de inquilinos en línea de negocio
+## <a name="manage-skype-for-business-online-tenants"></a>Administrar inquilinos de Skype empresarial online
 
-Para devolver información acerca de su Skype para inquilino empresarial en línea, llame al cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sin ningún parámetro adicional.
+Para obtener información sobre el inquilino de Skype empresarial online, llame al cmdlet [Get-CsTenant](https://go.microsoft.com/fwlink/p/?linkid=849599) sin ningún parámetro adicional.
   
 ```
 Get-CsTenant
 ```
 
-Para devolver a sólo el inquilino nombre y el identificador, use este comando.
+Para devolver solo el identificador y el nombre de inquilino, use este comando.
   
 ```
 Get-CsTenant | Select-Object Name, TenantID
 ```
 
-El valor del parámetro _TenantID_ se requiere al ejecutar los cmdlets como [Set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) y [Set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).
+El valor del parámetro _TenantID_ es necesario cuando se ejecutan cmdlets como [set-CsTenantPublicProvider](https://go.microsoft.com/fwlink/p/?linkid=849602) y [set-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994080.aspx).
   
-Para obtener información acerca de si la información de licencias para el inquilino especificado está disponible en el Skype para el centro de administración de negocio en línea, use el cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
+Para buscar información sobre si la información de licencias del inquilino especificado está disponible en el centro de administración de Skype empresarial online, use el cmdlet [Get-CsTenantLicensingConfiguration](https://go.microsoft.com/fwlink/p/?linkid=849606) .
   
 ## <a name="related-topics"></a>Temas relacionados
-[Configurar el equipo para Skype para la administración en línea de negocio con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
+[Configurar el equipo para la administración de Skype empresarial online con Windows PowerShell](set-up-your-computer-for-windows-powershell.md)
 
   
  

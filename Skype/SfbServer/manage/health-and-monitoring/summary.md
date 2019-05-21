@@ -1,29 +1,29 @@
 ---
-title: Calidad de medios informe resumen en Skype para Business Server
+title: Informe Resumen de calidad de medios en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8bd59ad6-3087-49c8-b692-5573fe2ffcd8
-description: 'Resumen: Información sobre el informe resumen de calidad de medios en Skype para Business Server.'
-ms.openlocfilehash: 3091b89d959552d54bc01a3adc62b8ee32efda92
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe Resumen de calidad de medios en Skype empresarial Server.'
+ms.openlocfilehash: 49c4aba8e5eb69c50282f4c9a1c77027f1a0210d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888173"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279756"
 ---
-# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Calidad de medios informe resumen en Skype para Business Server
+# <a name="media-quality-summary-report-in-skype-for-business-server"></a>Informe Resumen de calidad de medios en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe resumen de calidad de medios en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe Resumen de calidad de medios en Skype empresarial Server.
   
 El Informe de resumen de calidad de medios es, quizás, la mejor opción para analizar la calidad de las llamadas en su organización: este informe proporciona métricas de llamadas de calidad de la experiencia (QoE) detalladas y desglosadas en las siguientes categorías:
   
-- Llamadas de punto a punto de UC (por ejemplo, un Skype para la empresa a Skype para llamada de negocio)
+- Llamadas de par a par de UC (como una llamada de Skype empresarial a Skype empresarial)
     
 - Sesiones de conferencia de UC
     
@@ -37,15 +37,15 @@ El Informe de resumen de calidad de medios es, quizás, la mejor opción para an
     
 - Otros tipos de llamada
     
-Al abrir el informe por primera vez, se ve la información de resumen de cada una de estas categorías. Sin salir del informe, puede expandir cada categoría que se busca en subcategorías, como las llamadas realizadas desde Office Communicator 2007 R2 a Skype para la empresa. A su vez, puede profundizar en esas subcategorías para ver detalles sobre cada llamada realizada dentro de esa subcategoría.
+Al abrir el informe por primera vez, se ve la información de resumen de cada una de estas categorías. Sin salir del informe, puede expandir cada categoría para ver subcategorías, como las llamadas realizadas desde Office Communicator 2007 R2 a Skype empresarial. A su vez, puede profundizar en esas subcategorías para ver detalles sobre cada llamada realizada dentro de esa subcategoría.
   
-En Skype para Business Server aún más el informe de resumen de calidad de medios divide los datos en tres tipos de llamada: las llamadas de audio, las llamadas de vídeo y uso compartido de las llamadas de aplicaciones. Cada tipo de llamada tiene su propia sección en el informe y su propio conjunto personalizado de métricas de llamada.
+En Skype empresarial Server, el informe Resumen de la calidad de los medios también divide los datos en tres tipos de llamadas: llamadas de audio, videollamadas y llamadas de uso compartido de aplicaciones. Cada tipo de llamada tiene su propia sección en el informe y su propio conjunto personalizado de métricas de llamada.
   
 El Informe de resumen de calidad de medios también permite aplicar filtros para poder comparar la calidad de las llamadas: llamadas por cable frente a inalámbricas, llamadas internas frente a externas y llamadas de VPN frente a llamadas distintas de VPN.
   
 ## <a name="accessing-the-media-quality-summary-report"></a>Acceso al Informe de resumen de calidad de medios
 
-Al Informe de resumen de calidad de medios se obtiene acceso desde la página principal de Informes de supervisión. Puede navegar hasta el [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) haciendo clic en cualquiera de las métricas siguientes:
+Al Informe de resumen de calidad de medios se obtiene acceso desde la página principal de Informes de supervisión. Puede explorar en profundidad el [Informe de la lista de llamadas en Skype empresarial Server](call-list-report-0.md) haciendo clic en una de las siguientes métricas:
   
 - Volumen de llamadas
     
@@ -98,7 +98,7 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 |**Volumen de llamadas (llamada VPN)** <br/> |No  <br/> |Cantidad total de llamadas que ha empleado una conexión VPN.  <br/> |
 |**Volumen de llamadas (llamada externa)** <br/> |No  <br/> |Cantidad de llamadas que ha empleado una conexión externa, es decir, una conexión fuera de la red interna.  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |No  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de protocolo de transporte en tiempo real (RTP) llegue a otro extremo y vuelva. Los tiempos de ida y vuelta de 100 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor multimedia y causan dificultades en las conversaciones de audio bidireccionales en tiempo real.  <br/> |
-|**Degradación (MOS)** <br/> |No  <br/> |Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada. Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0. Un valor de 0,5 o menos constituye una degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. En Skype para un conjunto de algoritmos de Business Server predecir cómo los usuarios habría calificado una llamada.  <br/> Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.  <br/> |
+|**Degradación (MOS)** <br/> |No  <br/> |Cantidad media de degradación de la puntuación de opinión media (MOS) experimentada durante la llamada. Los valores de degradación oscilan entre un mínimo de 0,0 y un máximo de 5,0. Un valor de 0,5 o menos constituye una degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. En Skype empresarial Server, un conjunto de algoritmos predice cómo los usuarios habrían calificado una llamada.  <br/> Los valores altos de degradación pueden ser producto de la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia o servidor de extremo. Una degradación alta causa la distorsión o la pérdida del audio.  <br/> |
 |**Pérdida de paquetes** <br/> |No  <br/> |Tasa media de pérdida de paquetes RTP. Se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo que se usa para transmitir audio y vídeo a través de Internet, no llegan a su destino. Una tasa alta de pérdida suele deberse a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica, o la sobrecarga de un servidor multimedia. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |
 |**Vibración (ms)** <br/> |No  <br/> |Valor medio de las vibraciones detectadas entre la llagada de paquetes RTP. (La vibración es una forma de medir la "inestabilidad" de una llamada). Los valores altos de vibración suelen deberse a la congestión o a una sobrecarga del servidor multimedia y dan lugar a la distorsión o pérdida del audio.  <br/> |
 |**Tasa de recuperación de muestras ocultas** <br/> |No  <br/> |Tasa media de muestras de audio ocultas respecto a la cantidad total de muestras. Una muestra de audio oculta es una técnica que se emplea para suavizar la transición brusca que normalmente supondría la pérdida de paquetes de red. Los valores elevados indican niveles igualmente elevados de aplicación de ocultación de pérdidas a causa de la pérdida de paquetes o de las vibraciones, y dan lugar a la distorsión o pérdida del audio.  <br/> |
@@ -118,7 +118,7 @@ En la tabla siguiente se muestra la información que recoge el informe de resume
 |**Velocidad de bits media (Kbits/s)** <br/> |No  <br/> |Velocidad de bits de vídeo media (en kilobits por segundo).  <br/> |
 |**% de velocidad de bits baja** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja.  <br/> |
 |**Pérdida de paquetes de salida** <br/> |No  <br/> |Pérdida de paquetes del Protocolo de transporte en tiempo real (RTP) correspondiente a los paquetes salientes (se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo que se usa para transmitir audio y vídeo a través de Internet, no llegan a su destino). Una tasa alta de pérdida se suele deber a la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica o la sobrecarga de un servidor de medios. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |
-|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de marcos "inmovilizados". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
+|**% fotogramas congelados** <br/> |No  <br/> |Porcentaje de fotogramas "inmovilizados". En un fotograma congelado, el vídeo detiene su avance mientras que la parte de audio de la llamada continúa.  <br/> |
 |**Velocidad de fotogramas media de salida** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de salida durante la llamada.  <br/> |
 |**Velocidad de fotogramas media de entrada** <br/> |No  <br/> |Velocidad de fotogramas media para las transmisiones de entrada durante la llamada.  <br/> |
 |**% de velocidad de fotogramas baja de entrada** <br/> |No  <br/> |Porcentaje de la llamada con una velocidad de bits baja para el vídeo de entrada.  <br/> |

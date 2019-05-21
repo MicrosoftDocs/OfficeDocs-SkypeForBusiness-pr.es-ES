@@ -1,31 +1,31 @@
 ---
-title: Peer-to-Peer informe de voz y vídeo en Skype para Business Server
+title: Informe de voz y vídeo de punto a punto en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
-description: 'Resumen: Conozca el Peer-to-Peer voz y vídeo informe en Skype para Business Server.'
-ms.openlocfilehash: 74ab2f5056c66bbd819834a573a307bd8cf82773
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de voz y vídeo de punto a punto en Skype empresarial Server.'
+ms.openlocfilehash: 8ba665886e91371373358f98f69fa15b8d62a9dd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898041"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279637"
 ---
-# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Peer-to-Peer informe de voz y vídeo en Skype para Business Server
+# <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Informe de voz y vídeo de punto a punto en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el Peer-to-Peer voz y vídeo informe en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de voz y vídeo de punto a punto en Skype empresarial Server.
   
 El Informe de voz y vídeo punto a punto da una visión detallada de la distribución de las llamadas de voz y de las videollamadas en un período de tiempo especificado (por ejemplo, llamadas por hora o llamadas por día). El informe también da la opción de visualizar todas las llamadas de voz y videollamadas que se efectuaron, o de visualizar únicamente las llamadas correctas o las erróneas. Los informes muestran la información de las llamadas desglosadas en las agrupaciones siguientes:
   
 - Llamadas por grupo de servidores
     
-- Llamadas por tipo (por ejemplo, un Skype para la empresa a Skype para llamada de negocio frente a un Skype para llamada de negocio a una persona en la red RTC)
+- Llamadas por tipo de llamada (por ejemplo, una llamada de Skype empresarial con Skype empresarial en comparación con una llamada de Skype empresarial a una persona en la red RTC)
     
 - Llamadas por tipo de acceso (los usuarios que iniciaron sesión en la red interna comparados con los usuarios que iniciaron sesión en la red externa)
     
@@ -70,7 +70,7 @@ En la siguiente tabla se enumera la información provista en el Informe de voz y
 
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
-|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registrador o servidor perimetral utilizado para la llamada.  <br/> |
+|**Grupo de servidores** <br/> |No  <br/> |Nombre del grupo de registradores o del servidor perimetral usado para la llamada.  <br/> |
 |**Fecha y hora** <br/> |No  <br/> |Fecha/hora en que se produjo la llamada.  <br/> |
 |**Total** <br/> |No  <br/> |Cantidad total de sesiones o recuento total de mensajes.  <br/> |
    
@@ -100,7 +100,7 @@ En la siguiente tabla se enumera la información proporcionada en el Informe de 
    
 ## <a name="metrics-for-peer-to-peer-voice-and-video-activity-by-mediation-server"></a>Métricas de actividad de voz y vídeo punto a punto por servidor de mediación
 
-En la siguiente tabla se enumera la información proporcionada en el informe de vídeo y voz de punto a punto para cada servidor de mediación.
+En la siguiente tabla se enumera la información proporcionada en el informe de voz y vídeo de punto a punto para cada servidor de mediación.
   
 **Métricas de actividad de voz y vídeo punto a punto por servidor de mediación**
 

@@ -1,11 +1,11 @@
 ---
-title: Editar configuración de acceso perimetral
+title: Editar la configuración del perímetro de Access
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtEdgeEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: ece2603a-dce5-46ef-b476-7da136465efc
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 79c3e4604d605211ef2666fdc861940e5978dcb7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6a400ea2be3126c556abb40b93d782e8a949262e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33887240"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284767"
 ---
 # <a name="access-edge-configuration-edit"></a>Configuración perimetral de acceso: Editar
 

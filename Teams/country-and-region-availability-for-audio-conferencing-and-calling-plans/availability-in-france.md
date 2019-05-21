@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 883a6e7119a27871a93830783d6eae4bd68d1ad3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Francia.
+ms.openlocfilehash: 6aa19380d26e48990801fdaf5487c6e333b75a94
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226340"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282973"
 ---
 # <a name="availability-in-france"></a>Disponibilidad en Francia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Francia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Francia.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> París</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> París</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -60,8 +60,8 @@ Aquí están disponibles para Francia los servicios de Office 365 para Skype par
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 1200 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> 
-|¿Puede realizar llamadas salientes a los números de francés premium? <br/> | Sí, totalmente compatibles cuando se usa Communications créditos pagando por minuto. <br/> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li></li> 
+|¿Puede hacer llamadas salientes a números premium de Francia? <br/> | Sí, totalmente compatible con créditos de comunicaciones para pagar por minuto. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios

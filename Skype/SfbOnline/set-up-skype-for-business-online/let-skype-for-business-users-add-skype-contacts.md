@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,20 +19,20 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'See how to  let people who are using Skype for Business contact Skype for Business users from outside your organization and add them to their list of contacts. '
-ms.openlocfilehash: 212393154cb2b730ce18f5be9b03495e747e207c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a3470e627bf8a3512df65604aa99351fc9f6551b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238036"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285278"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Permitir que los usuarios de Skype Empresarial agreguen contactos de Skype
 
 Con Skype Empresarial, los usuarios pueden buscar a todos los que usen la aplicación gratuita de Skype (la aplicación gratuita) y comunicarse con ellos con mensajería instantánea. En este artículo se explica lo que necesita hacer para que puedan agregar contactos de Skype. 
   
-Debe tener [permisos de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Office 365 para ello.
+Para ello, debe tener [permisos de administrador](https://support.office.com/en-us/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) en Office 365.
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
   
 1. Inicie sesión con su cuenta de administrador de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage).
     
@@ -40,7 +40,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
     
     ![Choose the Skype for Business admin center.](../images/376a7a45-e6e3-4716-be09-d2f294d885a2.png)
   
-3. En el **Skype para el centro de administración de negocio**, elija **organización** > **comunicaciones externas**. 
+3. En el **centro de administración de Skype empresarial**, elija**comunicaciones externas**de la **organización** > . 
     
 4. De forma predeterminada, sus usuarios se pueden comunicar con el resto de personas del mundo que usen Skype Empresarial (siempre que su firewall se haya configurado para permitirlo). 
     
@@ -54,7 +54,7 @@ Debe tener [permisos de administrador](https://support.office.com/en-us/article/
     
 6.  Si usa el Firewall de Windows, Skype Empresarial abre automáticamente los puertos solicitados.
     
-    Si su organización usa otra solución para restringir la capacidad de los equipos de la red que se conectan a Internet, asegúrese de que los equipos cliente tienen acceso a todas las [direcciones IP y URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para la conectividad de Skype y búsqueda en el directorio Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
+    Si su organización usa otra solución para impedir que los equipos de su red se conecten a Internet, asegúrese de que los equipos cliente pueden acceder a todas las [direcciones IP y direcciones URL](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2) para conectividad de Skype y búsqueda en el directorio de Skype. Esto puede requerir agregar estas direcciones a la lista de permitidos de salida en la configuración de infraestructura de proxy o firewall.
     
 7. **AGUARDE HASTA 24 HORAS PARA LA PRUEBA**. Cada vez que modifica la configuración de comunicaciones externas, los cambios pueden demorar hasta 24 horas en completarse en todos los centros de datos.
     
@@ -72,7 +72,7 @@ Para probar su instalación, necesita un contacto en Skype que no esté bloquead
   
 3. En Skype Empresarial, busque su contacto en Skype y envíe una solicitud para chatear. 
     
-    Si recibe el mensaje que se han podido enviar debido a la directiva de la compañía, debe comprobar la [configuración de firewall](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
+    Si recibes el mensaje no se pudo enviar debido a la Directiva de la empresa, deberás comprobar la [configuración del firewall](https://support.office.com/en-us/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2). 
     
 4. Otro método para comprobar si el problema es del firewall consiste en ir a un lugar que tenga una conexión WiFi que no esté bloqueada por este, como una cafetería, y utilizar Skype Empresarial para enviar una solicitud para chatear a su contacto de Skype. 
     
@@ -84,15 +84,15 @@ Para probar su instalación, necesita un contacto en Skype que no esté bloquead
 
 - **Skype Empresarialpara Mac** no permite buscar contactos de Skype ni comunicarse con ellos.
     
-- Cuando está habilitada la búsqueda en el directorio, puede buscar y encontrar Skype y Skype para los usuarios empresariales. Si por algún motivo que no puede encontrar buscando el directorio, puede enviarles una solicitud de contacto y tener, a continuación, inicie sesión en Skype y aceptarla, por lo que puede mensajería instantánea con ellos. 
+- Cuando la búsqueda de directorio está habilitada, puede buscar y buscar usuarios de Skype y Skype empresarial. Si, por algún motivo, no puedes encontrarlos en el directorio, puedes enviarles una solicitud de autorización y, después, pedirles que inicien sesión en Skype y que lo acepten para que puedas enviar mensajes instantáneos con ellos. 
     
 - No es posible permitir la conectividad de mensajería instantánea con otros proveedores de mensajería instantánea como Google o Facebook. No puede utilizar Skype Empresarial para enviar mensajes de texto a teléfonos móviles.
 
-- No es posible grabar audio o vídeo llamadas entre un contacto de Skype y Skype para contacto profesional.
+- No es posible grabar llamadas de audio o vídeo entre un contacto de Skype y un contacto de Skype empresarial.
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>¿Cuáles son las características disponibles al agregar contactos de Skype?
 
-Los contactos de Skype que inicia sesión con su cuenta de Microsoft (anteriormente Windows Live ID) pueden obtener algunas, pero no todas, las características cuando están hablando con su Skype para los usuarios empresariales.
+Los contactos de Skype que hayan iniciado sesión con su cuenta Microsoft (anteriormente, Windows Live ID) pueden obtener algunas de las características, pero no todas, cuando se comuniquen con los usuarios de Skype empresarial.
   
 |**Disponible con los contactos de Skype**|**No disponible con los contactos de Skype**|
 |:-----|:-----|

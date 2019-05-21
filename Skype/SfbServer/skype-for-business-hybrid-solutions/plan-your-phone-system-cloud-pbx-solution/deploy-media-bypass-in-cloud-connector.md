@@ -1,11 +1,11 @@
 ---
-title: Implementar el desvío de medios en la nube conector Edition
+title: Implementación de omisión de medios en Cloud Connector Edition
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,27 +13,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
-description: Lea este tema para obtener información acerca de los pasos para implementar el desvío de medios con la nube conector Edition versión 2.0 y versiones posterior.
-ms.openlocfilehash: f4ea5449e7a324ae206241af25d12ecabf9c5259
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Lea este tema para obtener información sobre los pasos para implementar los elementos multimedia con la versión 2,0 y posteriores de Cloud Connector Edition.
+ms.openlocfilehash: 6f3ad140d25d5f1d03196e576ac57dc56e905d44
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234087"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287548"
 ---
-# <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementar el desvío de medios en la nube conector Edition
+# <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Implementación de omisión de medios en Cloud Connector Edition
  
-Lea este tema para obtener información acerca de los pasos para implementar el desvío de medios con la nube conector Edition versión 2.0 y versiones posterior. 
+Lea este tema para obtener información sobre los pasos para implementar los elementos multimedia con la versión 2,0 y posteriores de Cloud Connector Edition. 
   
-Desvío de medios permite que un cliente enviar medios directamente en el próximo salto pública red de telefónica conmutada (RTC): una puerta de enlace o el controlador de borde de sesión (SBC) — y eliminar el componente de edición de conector en la nube desde la ruta de acceso de medios. Vea también [Plan para los medios de desvío en la nube conector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
+La omisión de elementos multimedia permite a un cliente enviar archivos directamente al próximo salto de la red telefónica conmutada (RTC), una puerta de enlace o un controlador de borde de sesión (SBC), y eliminar el componente Cloud Connector Edition de la ruta multimedia. Consulte también el [plan de omisión de medios en Cloud Connector Edition](plan-for-media-bypass-in-cloud-connector-edition.md).
   
 ## <a name="enable-media-bypass"></a>Habilitar omisión de medios
 
-Para habilitar la omisión de medios, debe configurar el nombre DNS del servicio web de omisión de medios y activar la omisión de medios en la configuración de inquilinos. El servicio web de omisión de medios se implementa automáticamente en cada servidor de mediación. Un administrador de inquilinos debe elegir un nombre para un servicio de voz híbrida (sitio) y este nombre debe provenir de un dominio SIP registrado para la voz híbrida. El nombre del servicio debe ser el mismo en todos los dispositivos de conector en la nube y todos los sitios de RTC, independientemente de la ubicación del cliente. El servicio web solo debe estar disponible internamente en la red.
+Para habilitar la omisión de medios, debe configurar el nombre DNS del servicio web de omisión de medios y activar la omisión de medios en la configuración de inquilinos. El servicio web de omisión de medios se implementa automáticamente en cada servidor de mediación. Un administrador de inquilinos debe elegir un nombre para un servicio de voz híbrida (sitio) y este nombre debe provenir de un dominio SIP registrado para la voz híbrida. El nombre del servicio debe ser el mismo en todos los dispositivos de conexión en la nube y en todos los sitios RTC, independientemente de la ubicación del cliente. El servicio web solo debe estar disponible internamente en la red.
   
-Un administrador de inquilinos debe configurar un registro DNS A en el Active Directory de producción interna. Si tiene un entorno complejo de varios sitio, vea el ejemplo en [ejemplo: registros DNS del sitio web en entornos de varios sitios complejos de desvío de medios](deploy-media-bypass-in-cloud-connector.md#Example). El registro DNS solo debe resolver la situación en el caso de clientes de red internos, no para clientes de red externos.
+Un administrador de inquilinos debe configurar un registro DNS A en el Active Directory de producción interna. Si tiene un entorno complejo con varios sitios, vea el ejemplo en [ejemplo: multimedia omitir los registros DNS de un sitio web en entornos complejos con varios sitios](deploy-media-bypass-in-cloud-connector.md#Example). El registro DNS solo debe resolver la situación en el caso de clientes de red internos, no para clientes de red externos.
   
-Tras configurar DNS, conecte Skype Empresarial Online mediante el PowerShell remoto con las credenciales del administrador de Skype Empresarial. Para obtener más información, vea [Configurar el equipo de Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
+Tras configurar DNS, conecte Skype Empresarial Online mediante el PowerShell remoto con las credenciales del administrador de Skype Empresarial. Para obtener más información, vea [configurar el equipo para Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 En la sesión de PowerShell, introduzca los siguientes comandos para habilitar la omisión de medios:
   
@@ -43,7 +43,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration -AlwaysBypass $true -Enable
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-El proceso para habilitar la omisión de medios consta de dos pasos. El cmdlet New-CsNetworkMedia no guarda la nueva configuración inmediatamente; solo la crea en la memoria. El objeto que crea este cmdlet se debe guardar en una variable y después se debe asignar a la propiedad MediaBypassSettings de la configuración de red. Para obtener más información, vea [ejemplo: registros DNS del sitio web en entornos de varios sitios complejos de desvío de medios](deploy-media-bypass-in-cloud-connector.md#Example).
+El proceso para habilitar la omisión de medios consta de dos pasos. El cmdlet New-CsNetworkMedia no guarda la nueva configuración inmediatamente; solo la crea en la memoria. El objeto que crea este cmdlet se debe guardar en una variable y después se debe asignar a la propiedad MediaBypassSettings de la configuración de red. Para obtener más información, vea [ejemplo: multimedia omitir los registros DNS de un sitio web en entornos complejos con varios sitios](deploy-media-bypass-in-cloud-connector.md#Example).
   
 La replicación entre los componentes locales y en línea puede tardar hasta 24 horas, por lo que Microsoft recomienda que ejecute los comandos necesarios antes de habilitar usuarios.
   
@@ -51,20 +51,20 @@ La replicación entre los componentes locales y en línea puede tardar hasta 24 
 
 La configuración de la omisión de medios se puede comprobar de la siguiente manera.  
   
-Para comprobar la replicación en línea al grupo de servidores de inquilinos, ejecute el siguiente comando en PowerShell remoto:
+Para comprobar la replicación en línea en el grupo de inquilinos, ejecute el siguiente comando en PowerShell remoto:
   
 ```
 Get-CsTenantHybridConfiguration -LocalStore
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Para comprobar la replicación local, conectarse a los servidores de mediación de conector en la nube, ejecute el siguiente comando en PowerShell y confirme que Enabled = True y AlwaysBypass = True
+Para comprobar la replicación local, conéctese a los servidores de media de los conectores de nube, ejecute el siguiente comando en PowerShell y confirme que Enabled = true y AlwaysBypass = true
   
 ```
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Para comprobar la configuración del cliente, desconectarse de la Skype para clientes empresariales, vuelva a iniciarla y confirme que el cliente ha recibido la dirección URL del servicio como se indica a continuación:
+Para comprobar la configuración del cliente, cierre sesión en el cliente de Skype empresarial, vuelva a iniciar sesión y confirme que el cliente ha recibido la dirección URL del servicio de la siguiente manera:
   
 1. Abra %appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog. 
     
@@ -90,7 +90,7 @@ $mediabypass = New-CsNetworkMediaBypassConfiguration  -Enabled $false
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass
 ```
 
-Tras hacer el cambio, es posible que pase algún tiempo hasta que los cambios se repliquen en todas las instancias de Cloud Connector. Para comprobar el estado de replicación, ejecute el siguiente cmdlet de PowerShell en los servidores de mediación de conector en la nube: 
+Tras hacer el cambio, es posible que pase algún tiempo hasta que los cambios se repliquen en todas las instancias de Cloud Connector. Para comprobar el estado de la replicación, ejecute el siguiente cmdlet en PowerShell en los servidores de mediación del conector en la nube: 
   
 ```
 Get- CsNetworkConfiguration -LocalStore
@@ -108,20 +108,20 @@ Set-CsTenantHybridConfiguration -HybridConfigServiceInternalUrl  $null
 Set-CsNetworkConfiguration -MediaBypassSettings $mediabypass 
 ```
 
-Un administrador también tendrá que quitar las direcciones web para la omisión de medios de los servidores DNS internos. Después de realizar el cambio, podría tardar algún tiempo para que los cambios en replicarse a todos los dispositivos de conector en la nube. 
+Un administrador también tendrá que quitar las direcciones web para la omisión de medios de los servidores DNS internos. Después de realizar el cambio, los cambios pueden tardar algún tiempo en replicarse en todos los dispositivos de conexión en la nube. 
   
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Ejemplo: Los registros DNS del sitio web de omisión de medios en entornos complejos de varios sitios
 <a name="Example"> </a>
 
-Los clientes recibirán la dirección web del servicio web de omisión de medios desde un servidor DNS interno. El nombre del servicio web será el mismo en todos los dispositivos de conector en la nube y sitios de RTC de conector en la nube. En un entorno complejo de varios sitios, recomendamos que utilice la directiva DNS de Windows 2016 para la administración del tráfico basado en la geolocalización, de manera que se pueda redirigir a los clientes al servicio web que sea local para la red. 
+Los clientes recibirán la dirección web del servicio web de omisión de medios desde un servidor DNS interno. El nombre del servicio Web será el mismo en todos los equipos conector de nube y en los sitios RTC del conector de nube. En un entorno complejo de varios sitios, recomendamos que utilice la directiva DNS de Windows 2016 para la administración del tráfico basado en la geolocalización, de manera que se pueda redirigir a los clientes al servicio web que sea local para la red. 
   
-Para obtener más información acerca de las directivas de DNS de Windows 2016, vea [Use la directiva de DNS para la administración de tráfico en función de ubicación geográfica con servidores principales](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
+Para obtener más información sobre las directivas DNS de Windows 2016, consulte [usar la Directiva DNS para la administración de tráfico basada en la ubicación geográfica con los servidores principales](https://docs.microsoft.com/windows-server/networking/dns/deploy/primary-geo-location).
   
 A continuación se muestra un ejemplo de configuración para un empresa con varios sitios mediante la directiva DNS de Windows 2016 para la geolocalización basada en la administración del tráfico.
   
-El nombre para el servicio de desvío es 'hybridvoice.adatum.biz'.
+El nombre del servicio de derivación es ' hybridvoice.adatum.biz '.
   
-El sitio en Ámsterdam tiene cuatro dispositivos de conector en la nube que se implementan con las siguientes direcciones IP de servidor de mediación:
+El sitio de Amsterdam tiene cuatro dispositivos de conexión de nube implementados con las siguientes direcciones IP de servidor de mediación:
   
 - 192.168.1.45
     
@@ -131,7 +131,7 @@ El sitio en Ámsterdam tiene cuatro dispositivos de conector en la nube que se i
     
 - 192.168.1.48
     
-El sitio de Seattle tiene tres dispositivos de conector en la nube que implementan con las siguientes direcciones IP de servidor de mediación:
+El sitio de Seattle tiene tres dispositivos de conexión en la nube implementados con las siguientes direcciones IP del servidor de mediación:
   
 - 10.10.1.8
     
@@ -182,7 +182,7 @@ Con la geolocalización basada en la administración del tráfico, los servidore
 En este punto, los clientes que hagan consultas de DNS desde la subred de Ámsterdam para hybridvoice.adatum.biz devolverán las direcciones 192.168.1.45, 192.168.1.46, 192.168.1.47 y 192.168.1.48, mientras que los clientes que hagan la misma consulta desde Seattle devolverán 10.10.1.8, 10.10.1.9 y 10.10.1.10.
 
 > [!NOTE]
-> Si el dispositivo CCE no parece que se puede obtener la configuración actualizada, compruebe si el dispositivo es capaz de ponerse en contacto con el inquilino a través de PowerShell remoto. Puede usar PowerShell remoto para comprobar el estado del dispositivo con Get-CsHybridPSTNAppliance o usar PowerShell en el host CCE para comprobar el estado con Get-CcApplianceStatus.
+> Si el dispositivo de CCE no parece estar recibiendo la configuración actualizada, compruebe si el dispositivo puede ponerse en contacto con el inquilino a través de PowerShell remoto. Puede usar PowerShell remoto para comprobar el estado del equipo con get-CsHybridPSTNAppliance o usar PowerShell en el host de CCE para comprobar el estado con get-CcApplianceStatus.
 
   
 ## <a name="see-also"></a>Vea también

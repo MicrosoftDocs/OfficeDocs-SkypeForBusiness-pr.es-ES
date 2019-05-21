@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerOptionsPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Seleccione cada una de las características que quiera habilitar para el grupo de servidores perimetrales. El grupo de servidores perimetrales admite de forma predeterminada usuarios remotos de la organización que inician sesión desde fuera del firewall mediante una red privada virtual (VPN). También tiene las siguientes opciones de características del grupo de servidores perimetrales:'
-ms.openlocfilehash: f6c49e384463b42bfbd525c1b0c629ff3791ab35
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: e7ec8e7b20c63e9842957373206130d000944b40
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889027"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278548"
 ---
 # <a name="add-edge-server-options"></a>Agregar opciones de servidor perimetral
 

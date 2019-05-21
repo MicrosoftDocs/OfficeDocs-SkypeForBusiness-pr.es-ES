@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 2/15/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 90490c65-0e40-4e85-96e1-751f27897e25
-description: Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior.
-ms.openlocfilehash: abe7d9be6ec0ae48ff8cbac09475c6a41bf2a49f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Siga los pasos que se indican en este tema para modificar la configuración de una implementación existente de Skype empresarial Cloud Connector Edition 1.4.1 o posterior.
+ms.openlocfilehash: 7e46d614a5aaf3c34d9401e2ec53ba72e8adba71
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237612"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287051"
 ---
 # <a name="modify-the-configuration-of-an-existing-cloud-connector-deployment"></a>Modify the configuration of an existing Cloud Connector deployment
  
-Siga los pasos descritos en este tema para modificar la configuración de un Skype existente de conector de nube de Business Edition 1.4.1 o implementación posterior. 
+Siga los pasos que se indican en este tema para modificar la configuración de una implementación existente de Skype empresarial Cloud Connector Edition 1.4.1 o posterior. 
   
 ## <a name="modify-the-configuration-of-a-single-site"></a>Modificar la configuración de un único sitio
 <a name="BKMK_SIngleSite"> </a>
@@ -44,7 +44,7 @@ Si solo hay una aplicación en el sitio, cuando desee cambiar la configuración 
 
 3. Actualice el archivo CloudConnector.ini en el directorio de la aplicación.
     
-4. Ejecute el cmdlet siguiente para actualizar la configuración: (este paso sólo es aplicable para la versión 2; para las versiones anteriores, vaya al paso siguiente).
+4. Ejecute el siguiente cmdlet para actualizar la configuración: (este paso solo se aplica a la versión 2; para versiones anteriores, vaya al paso siguiente).
     
    ```
    Import-CcConfiguration 
@@ -78,7 +78,7 @@ Si hay más de un dispositivo en el sitio, tendrá que seguir estos pasos, modif
 
 3. Actualice el archivo CloudConnector.ini en el directorio de la aplicación.
     
-4. Ejecute el cmdlet siguiente para actualizar la configuración: (este paso sólo es aplicable para la versión 2; para las versiones anteriores, vaya al paso siguiente).
+4. Ejecute el siguiente cmdlet para actualizar la configuración: (este paso solo se aplica a la versión 2; para versiones anteriores, vaya al paso siguiente).
     
    ```
    Import-CcConfiguration 
@@ -96,7 +96,7 @@ Si hay más de un dispositivo en el sitio, tendrá que seguir estos pasos, modif
    Publish-CcAppliance
    ```
 
-7. Ejecute el cmdlet siguiente para volver a implementar el conector de nube en el dispositivo actual:
+7. Ejecute el siguiente cmdlet para volver a implementar el conector de nube en el dispositivo actual:
     
    ```
    Install-CcAppliance
@@ -105,14 +105,14 @@ Si hay más de un dispositivo en el sitio, tendrá que seguir estos pasos, modif
 ## <a name="modify-the-configuration-of-multiple-sites"></a>Modificar la configuración de varios sitios
 <a name="BKMK_MultipleSites"> </a>
 
-Para modificar la configuración para varios sitios en una implementación, siga los pasos de un solo sitio, actualizar un sitio a la vez.
+Para modificar la configuración de varios sitios en una implementación, siga los pasos correspondientes a un solo sitio y actualice un sitio a la vez.
   
 ## <a name="modify-the-configuration-of-your-office-365-tenant-to-enable-automatic-updates"></a>Modificar la configuración de su inquilino de Office 365 para habilitar las actualizaciones automáticas
 <a name="BKMK_MultipleSites"> </a>
 
-Para habilitar las actualizaciones automáticas de sistema operativo y las actualizaciones automáticas de Bits, debe usar el Skype para la cuenta de administrador de inquilinos empresarial para la administración en línea y usar PowerShell remoto de inquilinos como se indica a continuación.
+Para habilitar las actualizaciones automáticas del sistema operativo y las actualizaciones automáticas de bits, debe usar la cuenta de administrador de inquilinos de Skype empresarial para la administración en línea y usar PowerShell remoto de inquilino de la siguiente manera.
   
-Si deshabilita las actualizaciones automáticas de sistema operativo o las actualizaciones automáticas de Bits, el host y la máquina virtual es posible que se pierda importantes actualizaciones de Windows y en la nube conector no se actualiza automáticamente a la nueva versión. Las actualizaciones automáticas son altamente recomendables.
+Si deshabilitó las actualizaciones automáticas del sistema operativo o las actualizaciones automáticas de bits, es posible que el host y la máquina virtual pierdan las actualizaciones importantes de Windows y que el conector de nube no se actualice automáticamente a la nueva versión. Las actualizaciones automáticas son altamente recomendables.
   
 1. La propiedad EnableAutoUpdate del sitio debe establecerse en true (el valor predeterminado). Ejecute el siguiente cmdlet para asegurarse de que EnableAutoUpdate esté establecida en true:
     
@@ -148,9 +148,9 @@ Si deshabilita las actualizaciones automáticas de sistema operativo o las actua
    New-CsTenantUpdateTimeWindow -Identity MidDayOfMonth -Monthly -DayOfMonth 15 -StartTime 0:00 -Duration 1.00:00
    ```
 
-   - Asignar tiempo de actualización de windows para el sitio. 
+   - Asigne ventanas de tiempo de actualización al sitio. 
     
-     Los intervalos de actualización de Bits y del sistema operativo se configuran por separado. A ambos se les puede asignar un solo intervalo o varios. Además, cada intervalo se puede asignar a distintos sitios y distintos fines (actualización de Bits o del sistema operativo). Ejecute el cmdlet siguiente para establecer la ventana de tiempo para el sitio: 
+     Los intervalos de actualización de Bits y del sistema operativo se configuran por separado. A ambos se les puede asignar un solo intervalo o varios. Además, cada intervalo se puede asignar a distintos sitios y distintos fines (actualización de Bits o del sistema operativo). Ejecute el siguiente cmdlet para establecer la ventana de tiempo para el sitio: 
     
    ```
    Set-CsHybridPSTNSite -Identity <SiteName> -BitsUpdateTimeWindow @{add="MidDayOfMonth","WeekdayNight"} -OsUpdateTimeWindow @{replace="Night"}
@@ -159,9 +159,9 @@ Si deshabilita las actualizaciones automáticas de sistema operativo o las actua
 ## <a name="update-the-dedicated-tenant-admin-credentials"></a>Actualizar las credenciales de administrador de inquilinos dedicado 
 <a name="BKMK_MultipleSites"> </a>
 
-Se realizan cambios administrativos en el inquilino de Office 365 para el conector de nube desde una cuenta con los permisos necesarios. En las versiones de conector en la nube antes de 2.0, esa cuenta es una cuenta de administrador de inquilinos global dedicado. En las versiones 2.0 y versiones posteriores de conector en la nube, esa cuenta puede ser una cuenta de Office 365 con Skype para derechos de administrador empresarial.
+Los cambios administrativos en el inquilino de Office 365 para Cloud Connector se realizan desde una cuenta con los permisos necesarios. En las versiones del conector en la nube antes 2,0, esa cuenta es una cuenta de administrador de inquilinos global dedicada. En la versión 2,0 y posteriores de conector de la nube, esa cuenta puede ser una cuenta de Office 365 con derechos de administrador de Skype empresarial.
   
-Si cambian sus credenciales de cuenta de administrador en Office 365, debe actualizar las credenciales en caché local en la nube Connector ejecutando el siguiente comando de PowerShell de administrador en cada dispositivo de conector en la nube que haya implementado:
+Si las credenciales de su cuenta de administrador cambian en Office 365, también tendrá que actualizar las credenciales locales almacenadas en caché en el conector de nube ejecutando el siguiente comando de administrador de PowerShell en cada dispositivo conector de nube que haya implementado:
   
 ```
 Set-CcCredential -AccountType TenantAdmin
@@ -171,11 +171,11 @@ Set-CcCredential -AccountType TenantAdmin
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> En esta sección es aplicable a la versión 2.0 de conector en la nube y versiones posteriores. 
+> Esta sección es aplicable a la versión 2,0 y posteriores del conector de la nube. 
   
-Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
+Todas las credenciales del conector de nube se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
   
-Para actualizar las credenciales almacenadas localmente en el dispositivo de conector en la nube, use los cmdlets [Get-CcCredential](get-cccredential.md) y [Set-CcCredential](set-cccredential.md) y siga estos pasos:
+Para actualizar las credenciales almacenadas localmente en el equipo del conector de nube, use los cmdlets [Get-CcCredential](get-cccredential.md) y [set-CcCredential](set-cccredential.md) y siga estos pasos:
   
 1. Ejecute los siguientes comandos para recuperar las contraseñas que necesitará más adelante:   
     
@@ -189,9 +189,9 @@ Para actualizar las credenciales almacenadas localmente en el dispositivo de con
     
 3. Reinicie el servidor host.
     
-4. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+4. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-5. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Asegúrese de introducir la misma contraseña que usó antes para la implementación de Cloud Connector.
+5. Inicie una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-local" para volver a escribir las contraseñas que siguen a la descripción. Asegúrese de introducir la misma contraseña que usó antes para la implementación de Cloud Connector.
     
 De forma predeterminada, VmAdmin y DomainAdmin usan la misma contraseña que CceService. Si las contraseñas de DomainAdmin, VMAdmin y CceService que se devolvieron en el paso 1 son diferentes, debe realizar los siguientes pasos:
   
@@ -211,21 +211,21 @@ De forma predeterminada, VmAdmin y DomainAdmin usan la misma contraseña que Cce
 <a name="BKMK_UpdatePassword"> </a>
 
 > [!NOTE]
-> En esta sección es aplicable a la versión 2.0.1 de conector en la nube y versiones posteriores. 
+> Esta sección es aplicable a Cloud Connector versión 2.0.1 y posteriores. 
   
-El servicio de conector en la nube ejecuta el servicio de administración del conector en la nube. La cuenta de CceService se creados durante la implementación en la nube conector Edition y se almacena en los siguientes archivos: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml "y"% SystemDrive%\Programdata\Cloudconnector\credentials... CceService.xml".
+El servicio de conector de nube ejecuta el servicio de administración de conector de nube. La cuenta CceService se crea durante la implementación de Cloud Connector Edition y se almacena en los siguientes archivos: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml "y"%SystemDrive%\Programdata\Cloudconnector\credentials.. CceService. xml ".
   
-Para asegurarse de que todos los dispositivos pueden obtener acceso el recurso compartido de directorio de sitios, la contraseña de la cuenta de CceService debe ser el mismo en todos los dispositivos que se implementan en el sitio. Tenga en cuenta lo siguiente:
+Para asegurarse de que todos los dispositivos tengan acceso al recurso compartido de directorio de sitios, la contraseña de la cuenta de CceService debe ser la misma en todos los dispositivos instalados dentro del sitio. Tenga en cuenta lo siguiente:
   
-- De forma predeterminada, la cuenta de CceService se configura como "La contraseña nunca caduca". Al actualizar la contraseña, Microsoft recomienda mantener esta configuración.
+- De forma predeterminada, la cuenta CceService está configurada como "la contraseña nunca expira". Cuando actualice la contraseña, Microsoft recomienda mantener esta configuración.
     
-- Debe actualizar la contraseña durante períodos de uso máximo que no sean internos y externos a las ventanas de tiempo de actualización automática para bits o actualizaciones de Windows. Al actualizar la contraseña, el dispositivo debe vaciar y reiniciar, que tarda algún tiempo. Reiniciar el dispositivo se interrumpen las operaciones de actualización automática. 
+- Debe actualizar la contraseña durante períodos de uso no máximo y fuera de las ventanas de tiempo de actualización automática para bits o actualizaciones de Windows. Cuando actualiza la contraseña, es necesario que el dispositivo se vacíe y se reinicie, lo cual tardará algún tiempo. Reiniciar el dispositivo interrumpirá las operaciones de actualización automática. 
     
-- Cuando se cambia la contraseña de la cuenta CceService, debe especificar todas las credenciales y actualizarlos en el archivo almacenado localmente. 
+- Cuando cambie la contraseña de la cuenta CceService, tendrá que especificar todas las credenciales y actualizarlas en el archivo almacenado de forma local. 
     
-Para cada dispositivo que pertenece al mismo sitio de RTC, debe especificar lo siguiente: 
+Para cada dispositivo que pertenezca al mismo sitio de la RTC, tendrá que especificar lo siguiente: 
   
-1. Ejecute los comandos siguientes para recuperar los nombres de cuenta y contraseñas que va a usar más adelante:
+1. Ejecute los siguientes comandos para recuperar los nombres y las contraseñas de cuenta que usará más adelante:
     
    ```
    Get-CcCredential -AccountType TenantAdmin -DisplayPassword
@@ -239,15 +239,15 @@ Para cada dispositivo que pertenece al mismo sitio de RTC, debe especificar lo s
    Get-CcCredential -AccountType DomainAdmin -DisplayPassword
    ```
 
-2. Ejecute el cmdlet de entrar CcUpdate para purgar el dispositivo y mover en modo de mantenimiento manual.
+2. Ejecute el cmdlet Enter-CcUpdate para purgar el dispositivo y moverlo al modo de mantenimiento manual.
     
-3. Actualizar la contraseña de la cuenta de CceService en el servidor host.
+3. Actualice la contraseña de la cuenta CceService en el servidor host.
     
 4. Reinicie el servidor host.
     
-5. Ejecute el cmdlet Restore-CcCredentials para volver a escribir las contraseñas que sigue a la descripción. 
+5. Ejecute el cmdlet restore-CcCredentials para volver a escribir las contraseñas que siguen a la descripción. 
     
-    Asegúrese de que escribir la misma contraseña que escribió antes de la implementación de nube conector excepto para la cuenta de CceService. Para la cuenta de CceService, escriba la nueva contraseña. Asegúrese de que la nueva contraseña para la cuenta de CceService es el mismo para todos los dispositivos en el sitio de RTC.
+    Asegúrese de escribir la misma contraseña que escribió antes para la implementación de Cloud Connector, excepto para la cuenta CceService. Para la cuenta CceService, escriba la nueva contraseña. Asegúrese de que la nueva contraseña de la cuenta de CceService es la misma para todos los dispositivos del sitio de la RTC.
     
 6. De forma predeterminada, VmAdmin y DomainAdmin usan la misma contraseña que CceService. Si las contraseñas de DomainAdmin, VMAdmin y CceService que se devolvieron en el paso 1 son diferentes, debe realizar los siguientes pasos:
     
@@ -263,28 +263,28 @@ Para cada dispositivo que pertenece al mismo sitio de RTC, debe especificar lo s
     
    - Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña que devolvió la contraseña de VmAdmin en el paso 1.  
     
-9. Ejecute el cmdlet de Exit CcUpdate para mover el dispositivo del modo de mantenimiento manual.
+9. Ejecute el cmdlet Exit-CcUpdate para sacar el dispositivo del modo de mantenimiento manual.
     
-10. Después de completar estos pasos en todos los dispositivos en el mismo sitio de RTC, elimine los archivos siguientes en el directorio raíz del sitio:
+10. Después de completar estos pasos en todos los dispositivos del mismo sitio de RTC, elimine los siguientes archivos en el directorio raíz del sitio:
     
     - CcLockFile
     
-    - Site_\<fqdn del grupo de servidores Sip externo perimetrales\>
+    - FQDN\<del grupo de SIP externo de Site_ Edge\>
     
-    - Tenant_\<fqdn del grupo de servidores Sip externo perimetrales\>
+    - FQDN\<del grupo de SIP externo de Tenant_ Edge\>
     
-    - TenantConfigLock_\<fqdn del grupo de servidores Sip externo perimetrales\>
+    - FQDN\<del grupo de SIP externo de TenantConfigLock_ Edge\>
     
 ## <a name="add-a-new-sip-domain"></a>Agregar un nuevo dominio SIP 
 <a name="BKMK_UpdatePassword"> </a>
 
-Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación existente de conector en la nube, haga lo siguiente:
+Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación del conector en la nube existente, haga lo siguiente:
   
-1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información sobre cómo configurar su dominio en Office 365, vea [Agregar un dominio a office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
-2. Actualizar el archivo de configuración del conector en la nube con el nuevo dominio SIP o dominios.
+2. Actualice el archivo de configuración del conector de nube con el nuevo dominio o dominios SIP.
     
-3. Solicitar un nuevo certificado externo de borde con nombres de SAN adicionales para SIP.dominio para cada dominio SIP definido en la configuración del conector en la nube. 
+3. Solicite un nuevo certificado externo de borde con nombres SAN adicionales para SIP. dominio para cada dominio SIP definido en la configuración del conector de la nube. 
     
 4. Establezca la ruta de acceso del nuevo certificado perimetral externo como sigue:
     
@@ -299,13 +299,13 @@ Para agregar un nuevo dominio SIP (o varios dominios SIP) a la implementación e
 ## <a name="modify-the-primary-sip-domain"></a>Modificar el dominio SIP principal
 <a name="BKMK_UpdatePassword"> </a>
 
-Si necesita cambiar el dominio SIP principal en la implementación del conector de la nube, haga lo siguiente:
+Si necesita cambiar el dominio SIP principal en la implementación de Cloud Connector, haga lo siguiente:
   
-1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información acerca de cómo configurar el dominio en Office 365, vea [Agregar un dominio a Office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
+1. Asegúrese de haber completado los pasos para actualizar el dominio en Office 365 y de tener la capacidad para agregar registros DNS. Para obtener más información sobre cómo configurar su dominio en Office 365, vea [Agregar un dominio a office 365](https://support.office.com/en-us/article/Add-a-domain-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611).
     
-2. Actualice el archivo de configuración del conector en la nube con el nuevo dominio SIP.
+2. Actualice el archivo de configuración del conector de nube con el nuevo dominio SIP.
     
-3. Solicitar un nuevo certificado externo de borde con nombres de SAN adicionales para SIP.dominio para cada dominio SIP definido en la configuración del conector en la nube. 
+3. Solicite un nuevo certificado externo de borde con nombres SAN adicionales para SIP. dominio para cada dominio SIP definido en la configuración del conector de la nube. 
     
 4. Establezca la ruta de acceso del nuevo certificado perimetral externo como sigue:
     
@@ -315,7 +315,7 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 
 5. 
     
-    Quitar el registro del inquilino para cada dispositivo en un sitio ejecutando el siguiente cmdlet en Administrador de PowerShell en la nube conector:
+    Elimine el registro de inquilinos de cada dispositivo de un sitio ejecutando el siguiente cmdlet en el administrador PowerShell en el conector en la nube:
     
    ```
    Unregister-CcAppliance
@@ -331,7 +331,7 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 
 7. 
     
-    Desinstalación de cada dispositivo ejecutando el siguiente cmdlet en Administrador de PowerShell en la nube conector:
+    Desinstale cada dispositivo ejecutando el siguiente cmdlet en el administrador de PowerShell en el conector de nube:
     
    ```
    Uninstall-CcAppliance
@@ -339,7 +339,7 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 
 8. 
     
-     Registrar cada dispositivo ejecutando el siguiente cmdlet en Administrador de PowerShell en la nube conector:
+     Para registrar cada equipo, ejecute el siguiente cmdlet en el administrador de PowerShell del conector de nube:
     
    ```
    Register-ccAppliance
@@ -347,18 +347,18 @@ Si necesita cambiar el dominio SIP principal en la implementación del conector 
 
 9. 
     
-     Instalar cada dispositivo, uno por uno, ejecutando el siguiente cmdlet en Administrador de PowerShell en la nube conector:
+     Instale cada dispositivo, uno por uno, ejecutando el siguiente cmdlet en el administrador de PowerShell en el conector de nube:
     
    ```
    Install-CcAppliance
    ```
 
-## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Reemplazar el certificado externo del borde con un nuevo certificado
+## <a name="replace-the-external-edge-certificate-with-a-new-certificate"></a>Reemplazar el certificado de borde externo por un certificado nuevo
 <a name="BKMK_UpdatePassword"> </a>
 
-Cuando se necesita reemplazar el certificado externo del borde en los dispositivos de conector en la nube, debe obtener un nuevo certificado de servidor perimetral, preparar el archivo PFX que contiene la clave privada y la cadena de certificados completa y, a continuación, realice lo siguiente en cada dispositivo:
+Si necesita reemplazar el certificado de borde externo en los dispositivos de su conexión en la nube, tendrá que obtener un nuevo certificado perimetral, preparar el archivo PFX que contiene la clave privada y la cadena de certificados completa y, a continuación, hacer lo siguiente en cada dispositivo:
   
-1. Coloque el dispositivo en modo de mantenimiento mediante el cmdlet ENTRAR CcUpdate.
+1. Coloque el dispositivo en el modo de mantenimiento con el cmdlet Enter-CcUpdate.
     
 2. Ejecute el siguiente comando: 
     
@@ -368,8 +368,8 @@ Cuando se necesita reemplazar el certificado externo del borde en los dispositiv
 
 3. 
     
-    Si la contraseña del certificado nuevo es el mismo que el anterior, la importación se completará correctamente. Si la contraseña es diferente, recibirá un error que la contraseña es incorrecta, y tendrá que restablecer la contraseña ejecutando el cmdlet Register-CcAppliance con el parámetro - Local, y de repetición, a continuación, el paso 2. 
+    Si la contraseña del nuevo certificado es la misma que la antigua, la importación se realizará correctamente. Si la contraseña es diferente, recibirá un error que le informará de que la contraseña es incorrecta y tendrá que restablecer la contraseña ejecutando el cmdlet Register-CcAppliance con el parámetro-local y repite el paso 2. 
     
-4. Tomar el dispositivo del modo de mantenimiento mediante el cmdlet Exit - CcUpdate.
+4. Salga del dispositivo del modo de mantenimiento con el cmdlet Exit-CcUpdate.
     
 

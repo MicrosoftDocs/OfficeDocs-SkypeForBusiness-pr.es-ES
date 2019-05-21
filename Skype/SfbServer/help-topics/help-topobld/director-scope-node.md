@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.DirectorScopeNode
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
 description: 'Este nodo muestra el nombre de dominio completo (FQDN), los puertos y el almacén de archivos asociado de este grupo de directores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 671a869c357b67d5a8b4c9998ec0235f25745c2c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d3f2517ad21e1e2a6df926a5668d2a7e00c6df9f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915363"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302353"
 ---
 # <a name="director-scope-node"></a>Nodo de ámbito de director
  

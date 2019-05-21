@@ -1,10 +1,10 @@
 ---
-title: Crear o modificar una ruta de voz de Skype para la empresa
+title: Crear o modificar una ruta de voz en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
-description: 'Resumen: Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: 1057d1f167b8a664919c293504381d9f7a6381a3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a crear o modificar una ruta de voz en Skype empresarial Server mediante el panel de control de Skype empresarial Server.'
+ms.openlocfilehash: f79e672b45f68e09391489da55023dceb3b0dd93
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892912"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286214"
 ---
-# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz de Skype para la empresa
+# <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Crear o modificar una ruta de voz en Skype empresarial
  
-**Resumen:** Obtenga información sobre cómo crear o modificar una ruta de voz de Skype para Business Server mediante el uso de la Skype para el Panel de Control de servidor empresarial.
+**Resumen:** Para obtener más información sobre cómo crear o modificar una ruta de voz en Skype empresarial Server, use el panel de control de Skype empresarial Server.
   
-### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Para crear una ruta de voz mediante el Skype para el Panel de Control de servidor empresarial
+### <a name="to-create-a-voice-route-by-using-the-skype-for-business-server-control-panel"></a>Para crear una ruta de voz con el panel de control de Skype empresarial Server
 
 1. Inicie sesión en el equipo como miembro del grupo RTCUniversalServerAdmins, o como miembro del rol administrativo **CsVoiceAdministrator**, **CsServerAdministrator** o **CsAdministrator**.
     
-2. Abra Skype para el Panel de Control de servidor empresarial.
+2. Abra el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz**.
     
@@ -45,36 +45,36 @@ ms.locfileid: "33892912"
     
    - Para usar la herramienta **Crear un patrón de coincidencia** con el fin de generar una expresión regular, especifique valores como se indica a continuación. Puede especificar dos tipos de patrón de coincidencia:
     
-   - **Dígitos iniciales para números que quiera permitir**: introduzca los valores de prefijo que debe incluir esta ruta (incluso el signo + inicial, si fuera necesario). Por ejemplo, escriba +425 y, a continuación, haga clic en **Agregar**. Repita el procedimiento para cada valor de prefijo que desee incluir en la ruta.
+   - **Dígitos iniciales para números que quiera permitir**: introduzca los valores de prefijo que debe incluir esta ruta (incluso el signo + inicial, si fuera necesario). Por ejemplo, escriba + 425 y, a continuación, haga clic en **Agregar**. Repita el procedimiento para cada valor de prefijo que desee incluir en la ruta.
     
-   - **Excepciones**: si desea especificar una o más excepciones para un valor de prefijo, resalte el prefijo y haga clic en **Excepciones**. Escriba en uno o más valores para la coincidencia de patrones que desee *no* esto enrutar para dar cabida a hacer. Por ejemplo, para excluir los números con +425237 desde la ruta inicial, escriba un valor de + 425237 en el campo de **excepciones** y, a continuación, haga clic en **Aceptar**.
+   - **Excepciones**: si desea especificar una o más excepciones para un valor de prefijo, resalte el prefijo y haga clic en **Excepciones**. Escriba uno o más valores para los patrones de coincidencia que *no* desea que se adapten a este enrutamiento. Por ejemplo, para excluir números que empiecen por + 425237 de la ruta, escriba un valor de + 425237 en el campo **excepciones** y, a continuación, haga clic en **Aceptar**.
     
-   - Para definir manualmente el patrón coincidente, haga clic en **Editar** en la herramienta **Crear un patrón de coincidencia** y, a continuación, escriba una expresión regular de .NET Framework para especificar el patrón coincidente correspondiente a los números de teléfono de destino a los que se va a aplicar la ruta. Para obtener información detallada sobre cómo escribir expresiones regulares, consulte ["expresiones regulares de .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Para definir manualmente el patrón coincidente, haga clic en **Editar** en la herramienta **Crear un patrón de coincidencia** y, a continuación, escriba una expresión regular de .NET Framework para especificar el patrón coincidente correspondiente a los números de teléfono de destino a los que se va a aplicar la ruta. Para obtener más información sobre cómo escribir expresiones regulares, vea ["expresiones regulares de .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-9. Si no desea que el identificador de la que realiza la llamada saliente que aparezca para el destinatario de la llamada de teléfono, seleccione **identificador de autor de la llamada de suprimir** . Si selecciona esta opción, debe especificar un **identificador de autor de la llamada alternativas** que aparecerá en el autor de la llamada del destinatario para mostrar del identificador.
+9. Seleccione **suprimir la identificación de llamadas** si no desea que el identificador del teléfono que hace la llamada saliente aparezca al destinatario de la llamada. Si selecciona esta opción, debe especificar un identificador de **llamada alternativo** que aparecerá en la pantalla de identificación de llamadas del destinatario.
     
 10. Para asociar uno o más troncos a la ruta de voz, haga clic en **Agregar** y, a continuación, seleccione una puerta de enlace o un tronco SIP en la lista.
     
 11. Para asociar uno o más registros de uso de la red de telefonía conmutada (RTC) con la ruta de voz, haga clic en **Seleccionar** y elija un registro en la lista de registros de uso de RTC que se hayan definido para la implementación de Telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
   
-12. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
+12. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     
     > [!NOTE]
-    > A diferencia de una directiva de voz, donde el orden en que se enumeran los registros de uso de RTC es importante, el orden en que RTC se muestran los registros de uso en la ruta de voz es insignificante. Sin embargo, se recomienda que organice la lista por frecuencia de uso. Por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype para Business Server recorre la lista desde la parte superior hacia abajo.) 
+    > En contraste con una directiva de voz, donde el orden en el que se muestran los registros de uso de RTC es importante, el orden en que aparecen los registros de uso de RTC en la ruta de voz es inimportante. Sin embargo, le recomendamos que organice la lista según la frecuencia de uso. Por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype empresarial Server recorre la lista desde arriba hacia abajo). 
   
 13. (Opcional) Escriba un valor en el campo **Introducir un número para probarlo** y haga clic en **Ir**. Los resultados de la prueba se muestran en el campo.
     
 14. Haga clic en **Aceptar** para guardar la ruta de voz.
     
     > [!IMPORTANT]
-    > Al crear una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md). 
+    > Al crear una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, vea [publicar cambios pendientes en la configuración del enrutamiento de voz en Skype empresarial](voice-route-config-changes.md). 
   
 ### <a name="to-modify-a-voice-route"></a>Para modificar una ruta de voz
 
-1. Abra Skype para el Panel de Control de servidor empresarial.
+1. Abra el panel de control de Skype empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Ruta**.
     
@@ -94,23 +94,23 @@ ms.locfileid: "33892912"
     
    - **Dígitos iniciales para números que quiera permitir**: introduzca los valores de prefijo que debe incluir esta ruta (incluso el signo + inicial, si fuera necesario). Por ejemplo, escriba +425 y, a continuación, haga clic en **Agregar**. Repita el procedimiento para cada valor de prefijo que desee incluir en la ruta.
     
-   - **Excepciones**: si desea especificar una o más excepciones para un valor de prefijo, resalte el prefijo y haga clic en **Excepciones**. Escriba en uno o más valores para la coincidencia de patrones que desee *no* esto enrutar para dar cabida a hacer. Por ejemplo, para excluir los números con +425237 desde la ruta inicial, escriba un valor de + 425237 en el campo de **excepciones** y, a continuación, haga clic en **Aceptar**.
+   - **Excepciones**: si desea especificar una o más excepciones para un valor de prefijo, resalte el prefijo y haga clic en **Excepciones**. Escriba uno o más valores para los patrones de coincidencia que *no* desea que se adapten a este enrutamiento. Por ejemplo, para excluir números que empiecen por + 425237 de la ruta, escriba un valor de + 425237 en el campo **excepciones** y, a continuación, haga clic en **Aceptar**.
     
-   - Para definir el patrón coincidente de forma manual, haga clic en **Editar** en la herramienta de **creación de un patrón para que coincida con** y, a continuación, escriba en una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a la que se aplica la ruta. Para obtener información detallada sobre cómo escribir expresiones regulares, consulte ["expresiones regulares de .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
+   - Para definir el patrón de coincidencia de forma manual, haga clic en **Editar** en la herramienta **crear un patrón para coincidir** y, a continuación, escriba una expresión regular de .NET Framework para especificar el patrón coincidente para los números de teléfono de destino a los que se aplica la ruta. Para obtener más información sobre cómo escribir expresiones regulares, vea ["expresiones regulares de .NET Framework"](https://go.microsoft.com/fwlink/p/?linkId=140927). 
     
-7. Seleccione **Suprimir identificador de autor de la llamada** si no desea que el identificador del teléfono que está realizando la llamada saliente que aparezca para el destinatario de la llamada. Si selecciona esta opción, debe especificar un **identificador de autor de la llamada alternativas** que aparecerá en el autor de la llamada del destinatario para mostrar del identificador.
+7. Seleccione **suprimir la identificación de llamadas** si no desea que el identificador del teléfono que hace la llamada saliente aparezca al destinatario de la llamada. Si selecciona esta opción, debe especificar un identificador de **llamada alternativo** que aparecerá en la pantalla de identificación de llamadas del destinatario.
     
 8. Para asociar uno o más troncos de red telefónica conmutada (RTC) a la ruta de voz, haga clic en **Agregar** y, a continuación, seleccione una puerta de enlace o un tronco SIP en la lista.
     
-9. Para asociar uno o varios usos de RTC con la ruta de voz, haga clic en **Seleccionar** y elija un registro de la lista de registros de uso de RTC que se han definido para la implementación de Enterprise Voice.
+9. Para asociar uno o más usos de RTC con la ruta de voz, haga clic en **seleccionar** y elija un registro de la lista de registros de uso de RTC que se han definido para la implementación de telefonía IP empresarial.
     
     > [!NOTE]
-    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, vea [los registros de uso de RTC de vista en Skype para la empresa](view-pstn-usage-records.md). > para crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md). 
+    > Para ver las propiedades de cada uno de los registros de uso de RTC disponibles, consulte [ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md). > crear o editar registros de uso de RTC, consulte [crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md). 
   
-10. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre de registro y haga clic en arriba o flecha abajo.
+10. Organice los registros de uso de RTC para lograr un rendimiento óptimo. Para cambiar la posición de un registro en la lista, resalte el nombre del registro y haga clic en la flecha arriba o abajo.
     
     > [!NOTE]
-    > Al contrario de lo que sucede con las directivas de voz donde el orden en el que aparecen los registros de uso de RTC es importante, en una ruta de voz, el orden carece de importancia. Sin embargo, recomendamos ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype para Business Server recorre la lista desde la parte superior hacia abajo.) 
+    > Al contrario de lo que sucede con las directivas de voz donde el orden en el que aparecen los registros de uso de RTC es importante, en una ruta de voz, el orden carece de importancia. Sin embargo, recomendamos ordenar la lista por frecuencia de uso, por ejemplo: RedmondLocal, RedmondLongDist, RedmondInternational, RedmondBackup. (Skype empresarial Server recorre la lista desde arriba hacia abajo). 
   
 11. (Opcional) Escriba un valor en el campo **Introducir un número para probarlo** y haga clic en **Ir**. Los resultados de la prueba se muestran en el campo.
     
@@ -119,13 +119,13 @@ ms.locfileid: "33892912"
 13. En la página **Ruta**, haga clic en **Confirmar** y, a continuación, en **Confirmar todo**. 
     
     > [!NOTE]
-    > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, consulte [Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md) en la documentación sobre operaciones.
+    > Al crear o modificar una ruta de voz, debe ejecutar el comando **Confirmar todo** para publicar el cambio de configuración. Para obtener más información, vea [publicar cambios pendientes en la configuración de enrutamiento de voz en Skype empresarial](voice-route-config-changes.md) en la documentación de operaciones.
   
 ## <a name="see-also"></a>Vea también
 
-[Ver registros de uso de RTC de Skype para la empresa](view-pstn-usage-records.md)
+[Ver los registros de uso de RTC en Skype empresarial](view-pstn-usage-records.md)
   
-[Crear o modificar una directiva de voz y configurar registros de uso de RTC en Skype para la empresa](voice-policy-and-pstn-usage-records.md)
+[Crear o modificar una directiva de voz y configurar los registros de uso de RTC en Skype empresarial](voice-policy-and-pstn-usage-records.md)
   
-[Publicar cambios pendientes en la configuración de enrutamiento de voz de Skype para la empresa](voice-route-config-changes.md)
+[Publicar los cambios pendientes en la configuración del enrutamiento de voz en Skype empresarial](voice-route-config-changes.md)
 

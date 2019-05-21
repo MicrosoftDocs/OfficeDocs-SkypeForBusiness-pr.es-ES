@@ -1,31 +1,31 @@
 ---
-title: Habilitar o deshabilitar el archivado en Skype para Business Server
+title: Habilitar o deshabilitar el archivado en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d5aed328-e89d-4a7b-b603-15ae5c33c5dd
-description: 'Resumen: Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype para Business Server.'
-ms.openlocfilehash: 27cb7aab08c6a85f21e058848963bb42de6e1635
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a habilitar o deshabilitar el archivado en Skype empresarial Server.'
+ms.openlocfilehash: 0e4ef4dde27ffa5856f2b73b69ffbadc24399c59
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885034"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286147"
 ---
-# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Habilitar o deshabilitar el archivado en Skype para Business Server
+# <a name="enable-or-disable-archiving-in-skype-for-business-server"></a>Habilitar o deshabilitar el archivado en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo habilitar o deshabilitar el archivado en Skype empresarial Server.
   
 ## <a name="enable-or-disable-archiving-by-using-the-control-panel"></a>Habilitar o deshabilitar el archivado con el Panel de control
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
     

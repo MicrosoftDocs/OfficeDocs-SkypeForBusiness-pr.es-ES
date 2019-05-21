@@ -4,24 +4,24 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
-description: 'Resumen: Obtenga información sobre cómo configurar el PIN-menor opción de unión en Skype para Business Server de la reunión.'
-ms.openlocfilehash: c865d234b58b29890957a2c895a91d84b9a31bb0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a configurar la opción de unión de reunión sin PIN en Skype empresarial Server.'
+ms.openlocfilehash: ecd1d2bf184dd6b9e1ff78e16c2ca1eb8da73ef9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888110"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280386"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Configurar unión a la reunión sin PIN para Skype Empresarial Server
  
-**Resumen:** Obtenga información sobre cómo configurar el PIN-menor opción de unión en Skype para Business Server de la reunión.
+**Resumen:** Obtenga información sobre cómo configurar la opción de unión de reunión sin PIN en Skype empresarial Server.
   
-Cuando un autor de la llamada telefónico intenta unirse a una reunión, el servicio de operador automático de conferencia (CAA) coloca el autor de la llamada en una pluma de explotación que es diferente de la & de la sala de espera #x 2014; Si un moderador no está ya en una llamada y el autor de marcado en la llamada no ha entrado un responsable de PIN. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
+Cuando una persona que llama de acceso telefónico intenta unirse a una reunión, el servicio operador automático de la Conferencia (CAA) coloca al autor de la llamada en un lápiz que es diferente del de la sala de espera & # x2014; Si un moderador ya no está en una llamada, y la persona que llama no ha entrado en un PIN de relleno. La opción de unión a una reunión sin PIN permite que los autores de llamadas de acceso telefónico local puedan unirse a una reunión sin indicar un PIN de líder incluso si son la primera persona en una llamada. 
   
 Tenga en cuenta lo siguiente al configurar esta característica:
   
@@ -39,11 +39,11 @@ Tenga en cuenta lo siguiente al configurar esta característica:
     
   - **Cualquier persona (sin restricciones) con autores de llamada entran directamente** (Este es el valor predeterminado).
     
-- Al configurar la habilitación de la unión sin pin, el servicio CAA solicitará un PIN de líder. Los usuarios pueden unirse a la reunión dispongan o no del PIN. Sin embargo, conservar la capacidad de escribir un PIN de coordinador permite que un llamador telefónico autenticar como coordinador y administrar la reunión si es necesario.
+- Al configurar la habilitación de la unión sin pin, el servicio CAA solicitará un PIN de líder. Los usuarios pueden unirse a la reunión dispongan o no del PIN. Sin embargo, mantener la posibilidad de introducir un PIN de relleno permite a una persona que llama de acceso telefónico autenticar como un líder y administrar la reunión si es necesario.
     
 ## <a name="configure-pin-less-meeting-join"></a>Configurar la unión a reuniones sin PIN
 
-Para habilitar la participación en la reunión de menor de PIN para los usuarios, utilice el cmdlet [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) con el parámetro AllowAnonymousPstnActivation como se indica a continuación:
+Para habilitar la combinación de reuniones sin PIN para los usuarios, use el cmdlet [set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) con el parámetro AllowAnonymousPstnActivation de la siguiente manera:
   
 ```
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -61,6 +61,6 @@ Por motivos de seguridad, cuando se activa la unión a reuniones sin PIN, es pos
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Para obtener más información, consulte [Set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
+Para obtener más información, consulte [set-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
   
 

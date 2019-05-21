@@ -5,24 +5,24 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 8/8/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: b2b5aefb-a08d-4bec-9204-76597d413849
 description: 'The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment. '
-ms.openlocfilehash: 651190f31ad44e0bb2375bbf4a70951c2011e1a7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 87dd3934767a4be7afb57889fd0641e8507fba13
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233998"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287338"
 ---
 # <a name="get-cccredential"></a>Get-CcCredential
  
 The Get-CcCredential cmdlet returns the credential of the current Skype for Business Cloud Connector Edition deployment.  
   
-Con la versión 2.0 y versiones posteriores, también puede usar el parámetro - DisplayPassword para mostrar las contraseñas para TenantAdmin, Administrador de dominio y VMAdmin.
+Con la versión 2,0 y posteriores, también puede usar el parámetro-DisplayPassword para mostrar las contraseñas de TenantAdmin, esusuario y VMAdmin.
   
 ```
 Get-CcCredential [[-AccountType] <string> {VmAdmin | DomainAdmin | SafeModeAdmin | ExternalCert | TenantAdmin}]
@@ -62,7 +62,7 @@ Write-Host $text
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-| AccountType <br/> |Requerido  <br/> | System.String <br/> | AccountType value can be one of the following: <br/>  VmAdmin: el administrador local de las máquinas virtuales de conector en la nube. <br/>  DomainAdmin: Domain administrator of Cloud Connector virtual machine domain. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
+| AccountType <br/> |Requerido  <br/> | System.String <br/> | AccountType value can be one of the following: <br/>  VmAdmin: el administrador local de máquinas virtuales del conector en la nube. <br/>  DomainAdmin: Domain administrator of Cloud Connector virtual machine domain. <br/>  SafeModeAdmin: SafeModeAdmin del controlador de dominio de la máquina virtual de Cloud Connector. <br/>  ExternalCert: cuenta del certificado interno instalado en el servidor perimetral. <br/>  TenantAdmin: administrador del inquilino de O365. <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

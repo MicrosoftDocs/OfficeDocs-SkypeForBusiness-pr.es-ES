@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestCSRFile
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f0541273-92b4-41d6-aa24-34ee5c549db8
-description: Para crear una solicitud sin conexión, primero debe crear un certificado (CSR) de la solicitud de firma. En el cuadro de texto Nombre de archivo, escriba la ruta de acceso y nombre de archivo para el CSR. Puede hacer clic en Examinar para elegir una ubicación para crear el CSR. Haga clic en siguiente para continuar.
-ms.openlocfilehash: 28b8ce9868c7468cfe7fb723d96ddded10f43c3d
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para crear una solicitud sin conexión, primero debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto nombre de archivo. Puede hacer clic en examinar para elegir una ubicación donde crear el CSR. Haga clic en siguiente para continuar.
+ms.openlocfilehash: 0918776a9ed04ea76a9344678b0f8ddd16d52052
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911159"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302061"
 ---
 # <a name="certificate-request-certificate-signing-request"></a>Solicitud de certificado (solicitud de firma de certificado)
  
-Para crear una solicitud sin conexión, primero debe crear un certificado (CSR) de la solicitud de firma. En el cuadro de texto **Nombre de archivo** , escriba la ruta de acceso y nombre de archivo para el CSR. Puede hacer clic en **Examinar** para elegir una ubicación para crear el CSR. Haga clic en **Siguiente** para continuar.
+Para crear una solicitud sin conexión, primero debe crear una solicitud de firma de certificado (CSR). Escriba la ruta de acceso y el nombre de archivo del CSR en el cuadro de texto **nombre de archivo** . Puede hacer clic en **examinar** para elegir una ubicación donde crear el CSR. Haga clic en **Siguiente** para continuar.
   
-Haga clic en **Atrás** para retroceder a la pantalla anterior. Haga clic en **Cancelar** para salir sin realizar cambios en el sistema.
+Haga clic en **atrás** para volver a la pantalla anterior. Haga clic en **Cancelar** para salir sin realizar cambios en el sistema.
   
 > [!IMPORTANT]
-> El archivo que se crea en este paso se envía a la entidad de certificación pública (CA), la entidad de certificación sin conexión interna, o enviado a su administrador de la entidad emisora de certificados para el procesamiento. Tenga en cuenta la ubicación del archivo y el nombre para que pueda recuperar y enviar el CSR a la entidad de certificación. La ubicación predeterminada es el directorio de documentos de la persona que ejecuta al Asistente para certificados. 
+> El archivo que se crea en este paso se envía a su entidad de certificación pública (CA), a la entidad emisora de certificados interna sin conexión o se envía al administrador de la entidad emisora para su procesamiento. Anote la ubicación y el nombre del archivo para poder recuperarlo y enviar al representante de la entidad emisora de certificados. La ubicación predeterminada es el directorio documentos de la persona que ejecuta el Asistente para certificados. 
   
 

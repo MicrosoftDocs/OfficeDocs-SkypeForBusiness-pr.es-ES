@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3d516e65-fb9b-4a0b-8296-969fc9eda334
 description: El cmdlet Unregister-CcAppliance anula el registro del dispositivo actual de Skype Empresarial Cloud Connector Edition de un sitio RTC en la configuración del inquilino en línea.
-ms.openlocfilehash: 6ee21f66c2b189aff8c8aa7d831369536618b18c
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: fafe374371cd01b2ec7c67ade89dd2a905e16d18
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892007"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286876"
 ---
 # <a name="unregister-ccappliance"></a>Unregister-CcAppliance
  
@@ -58,7 +58,7 @@ Unregister-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Igual que con el cmdlet Register-CcAppliance, la combinación de SiteName con el FQDN externo del servidor perimetral en el archivo CloudConnector.ini file se considera una identidad de sitio RTC. Del mismo modo, la combinación de ApplianceName con el FQDN del servidor de mediación en el archivo CloudConnector.ini se considera una identidad de dispositivo.
   
-Después de que el dispositivo se anula el registro, reinicie el servicio de administración de conector en la nube e inicie sesión como la cuenta de NetworkService.
+Una vez que el dispositivo no esté registrado, reinicie el servicio de administración de conector de nube e inicie sesión como la cuenta NetworkService.
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>

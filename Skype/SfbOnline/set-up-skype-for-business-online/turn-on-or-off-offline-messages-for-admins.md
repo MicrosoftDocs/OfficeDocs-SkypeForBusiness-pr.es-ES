@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,26 +18,26 @@ f1keywords: None
 ms.custom:
 - Setup
 description: Learn how to send Skype for Business instant messages even when your contacts aren't signed in using PowerShell.
-ms.openlocfilehash: 3992c2b4be9cbaaee5f7e7c9648f90d8034bc6aa
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 9f7786e636ba49d6327486a11683e26799c01cfc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226008"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284938"
 ---
 # <a name="turn-on-or-off-offline-messages-for-admins"></a>Activar o desactivar los mensajes sin conexión para administradores
 
-Puede enviar Skype para mensajes instantáneos de negocio a sus contactos, incluso si no están firmadas. Esta característica le permite a sus contactos saber que ha intentado hablar con ellos. No tiene que esperar hasta que alguien esté en línea para poder enviarle un mensaje.
+Puede enviar mensajes instantáneos de Skype empresarial a sus contactos incluso si no han iniciado sesión. Esta característica le permite a sus contactos saber que ha intentado hablar con ellos. No tiene que esperar hasta que alguien esté en línea para poder enviarle un mensaje.
 
 Información importante sobre los mensajes sin conexión:
 
 - Los mensajes sin conexión no se archivan en el buzón del usuario.
 
-- Se van a enviar los mensajes sin conexión para el buzón del usuario y se notificará al usuario cuando inicie sesión Skype para la empresa.
+- Los mensajes sin conexión se enviarán al buzón del usuario y el usuario recibirá una notificación cuando inicie sesión en Skype empresarial.
 
-- Si el estado del destinatario del mensaje se establece en **No molestar** o **presentar**, recibirán un mensaje perdido que se envía desde Skype el destinatario para clientes empresariales.
+- Si el estado del destinatario del mensaje es **no molestar** o **presentando**, recibirá un mensaje perdido enviado desde el cliente de Skype empresarial del destinatario.
 
-Para obtener más información, vea [uso sin conexión de mensajería en Skype para la empresa](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
+Para obtener más información, consulte [usar mensajería sin conexión en Skype empresarial](https://support.office.com/article/ffdc6a43-71a1-40ee-bfcc-640d21324a3d).
 
 ## <a name="to-get-you-started"></a>Para empezar
 
@@ -74,14 +74,14 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
   Import-PSSession $session
   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Configurar el equipo de Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 ## <a name="turning-on-or-off-offline-im"></a>Activar o desactivar la mensajería instantánea sin conexión
 
 > [!NOTE]
-> Los mensajes sin conexión están **sólo** disponibles en la versión más reciente de la Skype Click-to-Run para cliente empresarial y no están disponibles cuando se usa un Skype de Click-to-Run anterior para la empresa o un archivo *.msi se usó para instalar el Skype para clientes empresariales.
+> Los mensajes sin conexión **solo** están disponibles en la última versión del cliente de Skype empresarial de hacer clic y ejecutar y no están disponibles cuando se usa un antiguo hacer clic y ejecutar de Skype empresarial o se usó un archivo *. msi para instalar el cliente de Skype empresarial.
 
-Para habilitar o deshabilitar sin conexión mensajes enviar mensajes sin conexión para los usuarios de su organización, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, se establece en `True`.
+Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para los usuarios de `True` su `False`organización, establezca _EnableIMAutoArchiving_ en o. De forma predeterminada, esta opción está `True`establecida en.
 
 Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
 
@@ -89,7 +89,7 @@ Para desactivarlo, use el cmdlet **Set-CsClientPolicy** y ejecute:
 Set-CsClientPolicy -Identity Global -EnableIMAutoArchiving $False
 ```
 
-Para habilitar o deshabilitar el envío de mensajes sin conexión sin conexión, los mensajes para un usuario, establezca _EnableIMAutoArchiving_ en `True` o `False`. De forma predeterminada, esta opción está establecida en  `True`. Puede usar una directiva existente o crear uno al igual que en el ejemplo siguiente.
+Para habilitar o deshabilitar los mensajes sin conexión, envíe mensajes sin conexión para un `True` usuario `False`, establezca _EnableIMAutoArchiving_ en o. De forma predeterminada, esta opción está establecida en  `True`. Puede usar una directiva existente o crear una como en el ejemplo siguiente.
 
 
   ```

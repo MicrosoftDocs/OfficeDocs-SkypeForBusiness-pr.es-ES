@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,16 +21,16 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Obtenga información sobre cómo crear planes de marcado de llamada (planes de marcado de llamada RTC) en Office 365 y cómo administrarlos. '
-ms.openlocfilehash: 3fa6e29486ed4943a54cc537106fa67a6f513620
-ms.sourcegitcommit: ca7a22da082ac5336f31ffd76f3d4aef6c76285b
+ms.openlocfilehash: 10a05c9d4c16f7c5681f0c7c6fcc931e041426f3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2019
-ms.locfileid: "33868827"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281835"
 ---
 # <a name="create-and-manage-dial-plans"></a>Crear y administrar planes de marcado
 
-Después de que ha planeado los planes de marcado para su organización y descubrió todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, debe usar Windows PowerShell para crear planes de marcado y realice los cambios de configuración.
+Una vez que haya planeado los planes de marcado de su organización y haya averiguado todas las reglas de normalización que deben crearse para el enrutamiento de llamadas, tendrá que usar Windows PowerShell para crear los planes de marcado y realizar todos los cambios de configuración.
   
 > [!NOTE]
 > Los planes de marcado no se pueden crear y administrar en el centro de administración de Skype Empresarial. 
@@ -66,7 +66,7 @@ Si necesita más información, consulte [Conectarse a todos los servicios de Off
 >     Import-PSSession $session
 >   ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Connecting to Skype para profesionales en línea mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [conectarse a Skype empresarial online mediante Windows PowerShell](https://technet.microsoft.com/en-us/library/dn362795%28v=ocs.15%29.aspx).
   
 ## <a name="creating-and-managing-your-dial-plans"></a>Crear y administrar sus planes de marcado
 
@@ -178,14 +178,14 @@ Ejecute esto para buscar todos los usuarios a los que se les ha garantizado el p
 Get-CsOnlineuser | where-Object {$_.TenantDialPlan -eq "RedmondDialPlan"}
 ```
 
-Ejecute esta opción para eliminar policyname para todos los usuarios que tienen HostingProvider sipfed.online.lync.com.
+Ejecútelo para eliminar el PolicyName de todos los usuarios que tengan Hostingprovider manda sipfed.online.lync.com.
 ```
 Get-CsOnlineUser -Filter {HostingProvider -eq “sipfed.online.lync.com”} | Grant-CsTenantDialPlan -policyname $null
 ```
 
-Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Debe primero guardar el local plan a un archivo .xml de marcado y, a continuación, usarla para crear el nuevo plan de marcado de inquilinos.
+Ejecute estos para agregar el plan de marcado local existente denominado OPDP1 como un plan de marcado inquilino para su organización. Primero debe guardar el plan de marcado local en un archivo. XML y, a continuación, usarlo para crear el nuevo plan de marcado de inquilino.
   
-Ejecute para guardar el plan de marcado local en el archivo .xml.
+Ejecute esto para guardar el plan de marcado local en el archivo. Xml.
   
 ```
 $DPName = "OPDP1"
@@ -207,7 +207,7 @@ $NormRules += $nr2
 }
 New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.ExternalAccessPrefix -Description $dp.Description -OptimizeDeviceDialing $dp.OptimizeDeviceDialing -SimpleName $dp.SimpleName -NormalizationRules $NormRules
 ```
-## <a name="want-to-know-more-about-windows-powershell"></a>¿Desea saber más acerca de Windows Powershell?
+## <a name="want-to-know-more-about-windows-powershell"></a>¿Quiere saber más sobre Windows PowerShell?
 
 - Windows PowerShell se centra en la administración de usuarios y en las acciones que se les está permitido o no realizar. Con Windows PowerShell, puede administrar Office 365 y Skype Empresarial Online con un único punto de administración que puede simplificar su trabajo diario si tiene que realizar varias tareas. Para empezar con Windows PowerShell, vea estos temas:
     
@@ -215,7 +215,7 @@ New-CsTenantDialPlan -Identity $dp.SimpleName -ExternalAccessPrefix $dp.External
     
   - [Seis motivos por los que posiblemente quiera usar Windows PowerShell para administrar Office 365](https://go.microsoft.com/fwlink/?LinkId=525041)
     
-- Windows PowerShell tiene muchas ventajas en velocidad, simplicidad y productividad sobre sólo desde el centro de administración de Microsoft 365 como cuando desea realizar cambios en la configuración de muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
+- Windows PowerShell tiene muchas ventajas en cuanto a velocidad, simplicidad y productividad en lugar de usar únicamente el centro de administración de Microsoft 365, como cuando se hacen los cambios de configuración para muchos usuarios a la vez. Más información sobre estas ventajas en los siguientes temas:
     
   - [Mejores formas de administrar Office 365 con Windows PowerShell](https://go.microsoft.com/fwlink/?LinkId=525142)
     

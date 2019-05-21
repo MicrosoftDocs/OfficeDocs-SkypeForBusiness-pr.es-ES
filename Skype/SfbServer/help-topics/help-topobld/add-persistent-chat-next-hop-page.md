@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/14/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPersistentChatNextHopPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a47c824d-a76a-413b-9335-bfe5ffef15db
-description: Use esta página para definir el próximo salto desde el servidor de servidor de Chat persistente en su implementación. Para obtener más información acerca de cómo implementar servidores de Chat persistente, vea Implementar servidor de Chat persistente en Skype para Business Server 2015.
-ms.openlocfilehash: d211e2405ddb1b94a5c3cab622f7b306e60663c7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use esta página para definir el siguiente salto desde el servidor del servidor de chat persistente en su implementación. Para obtener más información sobre cómo implementar un servidor de chat persistente, consulte implementar un servidor de chat persistente en Skype empresarial Server 2015.
+ms.openlocfilehash: 9b50e462fae2f9623067e135b3477ae387663c0c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897488"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302276"
 ---
 # <a name="add-persistent-chat-next-hop-page"></a>Página Agregar el próximo salto del chat persistente
  
-Use esta página para definir el próximo salto desde el servidor de servidor de Chat persistente en su implementación. Para obtener más información acerca de cómo implementar servidores de Chat persistente, vea [Implementar servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+Use esta página para definir el siguiente salto desde el servidor del servidor de chat persistente en su implementación. Para obtener más información sobre cómo implementar un servidor de chat persistente, consulte [implementar un servidor de chat persistente en Skype empresarial server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
   
 

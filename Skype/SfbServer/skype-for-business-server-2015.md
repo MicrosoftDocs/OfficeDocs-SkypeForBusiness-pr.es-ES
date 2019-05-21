@@ -6,23 +6,23 @@ author: lanachin
 manager: serdars
 layout: LandingPage
 ms.date: 1/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: landing-page
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 7bf70a49-a6db-4c93-bcbf-182e171a98e6
-description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype para Business Server 2015.'
-ms.openlocfilehash: 38faabfeb22fde3762bbbc606252dfe116ea0417
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Explore estos vínculos para obtener información sobre cómo implementar Skype empresarial Server 2015.'
+ms.openlocfilehash: 33512dab400d207842d7d548ac217c8d00d923b4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902232"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286813"
 ---
 # <a name="skype-for-business-server-2015"></a>Skype Empresarial Server 2015
 
-Skype para la empresa es una plataforma de comunicaciones y colaboración que reúne una experiencia de cliente inspiración por Skype con control, cumplimiento y seguridad de nivel empresarial. Skype para la empresa ofrece características que incluyen la presencia, mensajería instantánea, voz y llamadas de vídeo y reuniones en línea. 
+Skype empresarial es una plataforma de comunicaciones y colaboración que reúne una experiencia de cliente inspirada en Skype con seguridad, cumplimiento y control de grado empresarial. Skype empresarial ofrece características como presencia, mensajería instantánea, llamadas de voz y videollamadas, y reuniones en línea. 
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -126,7 +126,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Descargar desde la Skype para el centro de evaluación de negocio</h3>
+                        <h3>Descargar desde el centro de evaluación de Skype empresarial</h3>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
             <div class="cardPadding">
                 <div class="card">
                     <div class="cardText">
-                        <h3>Instalación y administración</h3>
+                        <h3>Instalar y administrar</h3>
                         <p><a href="/SkypeForBusiness/deploy/install/install" data-raw-source="[Install Skype for Business Server](/SkypeForBusiness/deploy/install/install)">Instalar Skype Empresarial Server</a></p>
                         <p><a href="/SkypeForBusiness/manage/manage" data-raw-source="[Manage Skype for Business Server](/SkypeForBusiness/manage/manage)">Administrar Skype Empresarial Server</a></p>
                      </div>
@@ -186,7 +186,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                     <div class="cardText">
                         <h3>Difusión de reunión de Skype</h3>
                         <p><a href="https://support.office.com/article/what-is-a-skype-meeting-broadcast-c472c76b-21f1-4e4b-ab58-329a6c33757d">¿Qué es?</a></p>
-                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configurar la implementación local para difundir presentación de reunión de Skype</a>
+                        <p><a href="/SkypeForBusiness/deploy/configure-skype-meeting-broadcast" data-raw-source="[Configure your on-premises deployment for Skype Meeting Broadcast](/SkypeForBusiness/deploy/configure-skype-meeting-broadcast)">Configurar la implementación local para difusión de reunión de Skype</a>
                     </div>
                 </div>
             </div>
@@ -198,7 +198,7 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                 <div class="card">
                     <div class="cardText">
                         <h3>Soluciones híbridas</h3>
-                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planeación de la conectividad híbrida</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity?toc=/SkypeForBusiness/sfbhybridtoc/toc.json" data-raw-source="[Plan hybrid connectivity](/SkypeForBusiness/skype-for-business-hybrid-solutions/plan-hybrid-connectivity)">Planear la conectividad híbrida</a></p>
                                        </div>
                 </div>
             </div>
@@ -210,9 +210,9 @@ Skype para la empresa es una plataforma de comunicaciones y colaboración que re
                 <div class="card">
                     <div class="cardText">
                         <h3>Otros recursos</h3>
-                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Skype para la serie de preparación de negocio</a></p>
-                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Skype para la documentación de Business Server 2019</a></p>
-                        <p><a href="/lyncserver/microsoft-lync-server-2013">Documentación de Lync Server 2013</a></p>
+                        <p><a href="https://infopedia.eventbuilder.com/?landingpageid=7p1c8p">Serie de preparación para Skype empresarial</a></p>
+                        <p><a href="/SkypeForBusiness/skype-for-business-server-2019">Documentación de 2019 de Skype empresarial Server</a></p>
+                        <p><a href="/lyncserver/microsoft-lync-server-2013">Documentación de 2013 de Lync Server</a></p>
                     </div>
                 </div>
             </div>

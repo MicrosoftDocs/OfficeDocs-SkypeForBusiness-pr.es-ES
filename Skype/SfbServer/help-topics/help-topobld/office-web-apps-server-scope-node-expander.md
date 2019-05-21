@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Botón secundario haga clic en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
-ms.openlocfilehash: d749d6c0c34c2151f294fa7c55f4e57cde09f3b6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Haga clic con el botón secundario en los servidores de Office Web Apps en el generador de topología para realizar lo siguiente:'
+ms.openlocfilehash: e861cc8ab134c7d11dd55730a3ea58d63d4ef38b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910914"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289969"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Expansor de nodo de ámbito del servidor de Office Web Apps
  
-Botón secundario haga clic en **Los servidores de Office Web Apps** en el generador de topología para realizar lo siguiente:
+Haga clic con el botón secundario en **los servidores de Office Web Apps** en el generador de topología para realizar lo siguiente:
   
-- **Nuevo Office Web Apps Server**: inicia el asistente **Definir nuevo Office Web Apps Server** se usa para definir un nuevo servidor de aplicaciones Web de Office.
+- **Nuevo Office Web Apps Server**: inicia el Asistente para **definir nuevo Office Web Apps Server** que se usa para definir un nuevo servidor de Office Web Apps.
     
-Además de la opción nuevo Office Web Apps Server, puede realizar las tareas generales siguientes:
+Además de la nueva opción de Office Web Apps Server, puede realizar las siguientes tareas generales:
   
 ![Nodo de ámbito del servidor de Office Web Apps](../../media/OfficeWebApps_Server_Scope_Node.jpg)
   

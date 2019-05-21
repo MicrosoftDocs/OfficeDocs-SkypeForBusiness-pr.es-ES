@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: El cmdlet Convert-CcIsoToVhdx crea un archivo de disco duro virtual base (VHDX) mediante un archivo ISO de Windows Server 2012 R2 proporcionado por el cliente. El archivo VHDX se usará durante la implementación de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: 181d1af762d1f8c9c8f3e65a4411b317ab36ce4a
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 7b1426fe3180576e28780aeae96ee8e4913bb399
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30898490"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287541"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -47,7 +47,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Ejemplo 2
 
-Si se produce un error en el cmdlet Convert-CcIsoToVhdx durante Windows update, es probable que sea debido a una configuración incorrecta o proxy de la red. Puede seguir las instrucciones del mensaje de error e iniciar sesión en la máquina virtual base para corregir el problema y actualizar Windows manualmente. Después de completar las tareas manuales, ejecute el cmdlet de nuevo con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes: 
+Si se produce un error en el cmdlet Convert-CcIsoToVhdx durante la actualización de Windows, probablemente se deba a una configuración incorrecta de la red o el proxy. Puede seguir las instrucciones del mensaje de error e iniciar sesión en la máquina virtual base para corregir el problema y actualizar Windows manualmente. Después de completar las tareas manuales, ejecute el cmdlet de nuevo con el parámetro -GeneralizeOnly para que finalicen los trabajos restantes: 
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly
@@ -55,7 +55,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Gene
 
 ### <a name="example-3"></a>Ejemplo 3
 
-Si se requiere la configuración manual para actualizar Windows, puede usar el parámetro -PauseBeforeUpdate. Con este parámetro, el conector de nube hará una pausa antes de que el proceso de actualización de las ventanas. Después podrá completar la configuración manual y reanudar el proceso de conversión de la siguiente manera:
+Si se requiere la configuración manual para actualizar Windows, puede usar el parámetro -PauseBeforeUpdate. Con este parámetro, Cloud Connector se detendrá antes del proceso de Windows Update. Después podrá completar la configuración manual y reanudar el proceso de conversión de la siguiente manera:
   
 ```
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -PauseBeforeUpdate 
@@ -64,7 +64,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -Paus
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Convert-CcIsoToVhdx crea una base de que máquina virtual en primer lugar, instala algunos componentes básicos que depende de conector en la nube y, a continuación, instala actualizaciones de Windows. Por último, generaliza la máquina virtual (sysprep) para obtener un archivo VHDX base que se utilizará en las máquinas virtuales de un dispositivo de conector en la nube. 
+El cmdlet Convert-CcIsoToVhdx crea en primer lugar una VM básica, instala algunos componentes básicos de los que depende Cloud Connector y, después, instala actualizaciones de Windows. Por último, generaliza la máquina virtual (Sysprep) para obtener un archivo VHDX básico que las máquinas virtuales de un dispositivo de conector de nube usarán. 
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

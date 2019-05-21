@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 385453cd-3a96-4837-8bb4-513aa97a256b
 description: 'El cmdlet Install-CcAppliance instala el dispositivo de Skype Empresarial Cloud Connector Edition, incluidas las máquinas virtuales de AD, del almacén de administración central, del servidor de mediación y del servidor perimetral en el servidor host. '
-ms.openlocfilehash: 8f1a8b7d99a555006c1d69ee52f2403e9bf0a874
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 01c689c4a4639c12292d59def6b698281f402299
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30880217"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287275"
 ---
 # <a name="install-ccappliance"></a>Install-CcAppliance
  
@@ -33,7 +33,7 @@ Install-CcAppliance [-ShowStepsOnly]  [<CommonParameters>]
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se instala un nuevo dispositivo de conector en la nube en el servidor host:
+El siguiente ejemplo instala un nuevo dispositivo de conector de nube en el servidor host:
   
 ```
 Install-CcAppliance
@@ -41,7 +41,7 @@ Install-CcAppliance
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En el ejemplo siguiente se actualiza en la nube conector a la versión más reciente:
+En el ejemplo siguiente se actualiza la versión más reciente del conector de nube:
   
 ```
 Install-CcAppliance -Upgrade
@@ -49,7 +49,7 @@ Install-CcAppliance -Upgrade
 
 ### <a name="example-3"></a>Ejemplo 3
 
-El ejemplo siguiente quita todas las credenciales de conector en la nube en caché en el servidor host, solicita al usuario que especifique toda la información de credenciales de nuevo y, a continuación, instala el conector de la nube:
+En el ejemplo siguiente se quitan todas las credenciales del conector de nube en caché en el servidor host, se pide al usuario que especifique nuevamente toda la información de credenciales y, a continuación, se instala el conector de nube:
   
 ```
 Install-CcAppliance -UpdateAllCredentials
@@ -67,7 +67,7 @@ El parámetro -ShowStepsOnly solo se usa para solucionar problemas.
   
 ### <a name="example-5"></a>Ejemplo 5
 
-En el siguiente ejemplo se generan los archivos de configuración de cada paso de implementación en el servidor host. Los archivos de configuración se guardan en el \<ApplianceRoot\>\Instances\\<Version\>-default\ExportedConfig de carpeta en el servidor host:
+En el siguiente ejemplo se generan los archivos de configuración de cada paso de implementación en el servidor host. Los archivos de configuración se guardan\>en\\la\> \<ApplianceRoot \Instances <Version-default\ExportedConfig en el servidor host:
   
 ```
 Install-CcAppliance -PrepareOnly
@@ -95,11 +95,11 @@ Install-CcAppliance -ShowStepsOnly
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Install-CcAppliance se usa para implementar el conector de la nube a un equipo nuevo o para actualizar un dispositivo existente a la versión más reciente.
+El cmdlet install-CcAppliance se usa para implementar el conector de nube en un nuevo equipo o para actualizar un dispositivo existente a la versión más reciente.
   
 Si tiene un dispositivo nuevo, asegúrese antes de leer Preparar el entorno para Cloud Connector, ejecute el cmdlet Register-CcAppliance para registrar el dispositivo y después ejecute el cmdlet Install-CcAppliance. Para obtener más información, consulte [Deploy a single site in Cloud Connector](deploy-a-single-site-in-cloud-connector.md) y [Deploy multiple sites in Cloud Connector](deploy-multiple-sites-in-cloud-connector.md). 
   
-Si tiene una implementación existente de conector en la nube y que desea actualizar, siga las instrucciones de [actualización a una nueva versión del conector en la nube](upgrade-to-a-new-version-of-cloud-connector.md).
+Si tiene una implementación existente del conector de nube y quiere actualizar, siga las instrucciones de [actualizar a una nueva versión de Cloud Connector](upgrade-to-a-new-version-of-cloud-connector.md).
   
 ## <a name="parameters"></a>Parámetros
 <a name="DetailedDescription"> </a>
@@ -111,7 +111,7 @@ Si tiene una implementación existente de conector en la nube y que desea actual
 |SkipExistingObjects  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Este parámetro se debe usar junto con el parámetro Steps. Este parámetro solo se usa para solucionar problemas.  <br/> |
 |Steps  <br/> |Opcional  <br/> |System.Array  <br/> |Se ejecutan los pasos de la implementación. Este parámetro solo se usa para solucionar problemas.  <br/> |
 |Upgrade  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Cloud Connector se actualiza a la última versión.  <br/> |
-|UpdateAllCredentials  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Quitar todas las credenciales del conector en la nube en la memoria caché. Se solicita al usuario que especifique toda la información de las credenciales nuevas para la instalación.  <br/> |
+|UpdateAllCredentials  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Quite todas las credenciales de conector de nube en la memoria caché. Se solicita al usuario que especifique toda la información de las credenciales nuevas para la instalación.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

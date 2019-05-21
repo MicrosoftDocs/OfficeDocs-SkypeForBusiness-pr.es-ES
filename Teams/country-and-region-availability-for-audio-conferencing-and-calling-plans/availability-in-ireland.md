@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para (Irlanda) los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cd500943eb6844997a77222d4b33bd4e9f1767f0
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Irlanda.
+ms.openlocfilehash: c9e5139cac48740c510991857c584c9a14f9b8f6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226376"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282885"
 ---
 # <a name="availability-in-ireland"></a>Disponibilidad en Irlanda
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para (Irlanda) los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Irlanda.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Dublín</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Dublín</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -60,8 +60,8 @@ Aquí están disponibles para (Irlanda) los servicios de Office 365 para Skype p
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
-|Minutos disponibles para llamar a los planes. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>1200 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 1200 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> 
-|¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/> |
+|Minutos disponibles para planes de llamadas. |Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 1200 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 1200 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li></li> 
+|¿Puede hacer llamadas salientes a números especiales? <br/> | No es compatible en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios

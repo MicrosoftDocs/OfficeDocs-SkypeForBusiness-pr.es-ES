@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,21 +21,21 @@ ROBOTS: NOINEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre cómo los servicios de emergencia (911) difieren de servicios de telefonía tradicional y cómo realizar una llamada. '
-ms.openlocfilehash: 8b67f1ef79d3c0782caa5316e88e5a1549e00b2e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Descubre cómo los servicios de emergencia (911) difieren de los servicios telefónicos tradicionales y cómo hacer una llamada. '
+ms.openlocfilehash: 64e500246138fc7f0ed8d2d1a6c4869b6e3b679e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32244458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279036"
 ---
 # <a name="emergency-calling-terms-and-conditions"></a>Términos y condiciones de las llamadas de emergencias
 
 ## <a name="important-information"></a>INFORMACIÓN IMPORTANTE
 
-Llamar a los servicios de emergencia funciona de forma diferente con una llamada a los planes en Office 365 que en servicios de telefonía tradicional. Es importante que entienda estas diferencias y comunicarlas a todos los usuarios con una llamada a los planes en Office 365. Usted acepta y confirma que ha leído y comprender las diferencias de nuestros servicios de emergencia de llamada y este aviso se proporcionará a cada usuario con una llamada a los planes en Office 365.
+Las llamadas a servicios de emergencia funcionan de manera diferente en los planes de llamadas de Office 365 que en los servicios telefónicos tradicionales. Es importante que comprenda estas diferencias y las comunique a todos los usuarios con planes de llamadas en Office 365. Usted reconoce y acepta que ha leído y entendido las diferencias en nuestros servicios de emergencia y lo proporcionará a cada usuario con planes de llamadas en Office 365.
   
-Las diferencias de nuestros servicios de emergencia al llamar a funciones incluyen los siguientes: (i) Skype para profesionales y los equipos no puede conocer la ubicación real de un autor de la llamada que hace una llamada de los servicios de emergencia, lo que podría provocar la llamada se enruta a la emergencia incorrecta Centro de llamadas de servicios o servicios de emergencia que se envía a una ubicación incorrecta; (ii) si el dispositivo del usuario no tiene electricidad, está experimentando un corte de alimentación o, por cualquier motivo, no en caso contrario, tiene acceso a Internet, el usuario no puede realizar una llamada de los servicios de emergencia a través de planes de llamada en Office 365; y (iii) aunque llamar a los planes en Office 365 puede usarse en cualquier parte del mundo donde una conexión a Internet está disponible, los usuarios no deben realizar una llamada de los servicios de emergencia desde una ubicación fuera de su país o región particular debido a que la llamada es probable que no se van a enrutar a el centro de llamadas adecuada en ese país o región.
+Las diferencias en nuestras capacidades de llamadas a servicios de emergencia incluyen lo siguiente: (i) es posible que Skype empresarial y Teams no conozcan la ubicación real de una llamada de servicios de emergencia, lo que puede provocar que la llamada se dirija a una emergencia incorrecta. El centro de llamadas de servicios o los servicios de emergencia se envían a una ubicación incorrecta; (II) si el dispositivo del usuario no tiene energía, experimenta un corte del suministro eléctrico o, por cualquier motivo, no puede acceder a Internet de otra manera, el usuario no puede hacer una llamada de servicios de emergencia a través de planes de llamadas en Office 365. y (III) aunque los planes de llamadas en Office 365 se pueden usar en cualquier lugar del mundo donde esté disponible una conexión a Internet, los usuarios no deberían hacer una llamada de servicios de emergencia desde una ubicación fuera de su país o región, porque es probable que la llamada no se dirija a el centro de llamadas adecuado de ese país o región.
   
 ## <a name="related-topics"></a>Temas relacionados
 [Preguntas comunes sobre la transferencia de números de teléfono](transferring-phone-numbers-common-questions.md)
@@ -44,7 +44,7 @@ Las diferencias de nuestros servicios de emergencia al llamar a funciones incluy
 
 [Administrar los números de teléfono para su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-[Etiqueta de declinación de responsabilidades de emergencia llamada](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
+[Etiqueta de renuncia para llamadas de emergencia](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
   
  

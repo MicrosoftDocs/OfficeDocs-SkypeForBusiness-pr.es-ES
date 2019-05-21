@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PstnGatewaySettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Modifique los siguientes campos para editar o modificar la configuración de una puerta de enlace de la red telefónica conmutada (RTC):'
-ms.openlocfilehash: 1965251b3748de6a4d1366173561c8dec88bddce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 80e3f6b0f6e0afa4b28b384cfe9a64ac8bbd6ebc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919854"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302185"
 ---
 # <a name="pstn-gateway-settings-expander"></a>Expansor de configuración de puerta de enlace RTC
  
@@ -30,6 +30,6 @@ El protocolo de transporte de SIP puede ser el Protocolo de control de transmisi
   
 Seleccione si desea habilitar IPv4 e IPv6 para la puerta de enlace.
   
-La **dirección IP de medios alternativa** es una definición para el servidor de mediación para los que la puerta de enlace RTC implementada tiene una dirección IP diferente para el tráfico de medios que la dirección IP predeterminado configurado, que normalmente está dedicado para el tráfico SIP. Si este parámetro se define, la puerta de enlace RTC admite una ruta de acceso o una interfaz de red distintas para el medio. Si esta dirección se deja en blanco, la puerta de enlace RTC no admitirá la ruta de acceso alternativa para el medio.
+La **dirección IP de medios alternativos** es una definición para el servidor de mediación para la que la puerta de enlace RTC implementada tiene una dirección IP diferente para el tráfico de medios que la dirección IP configurada predeterminada, que normalmente se dedica al tráfico SIP. Si este parámetro se define, la puerta de enlace RTC admite una ruta de acceso o una interfaz de red distintas para el medio. Si esta dirección se deja en blanco, la puerta de enlace RTC no admitirá la ruta de acceso alternativa para el medio.
   
 

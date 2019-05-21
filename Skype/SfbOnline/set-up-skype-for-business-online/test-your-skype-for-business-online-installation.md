@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to save time, support calls and increase satisfaction by setting up test accounts and computers, and testing dial-in conferencing, online features such as person-to-person calls, conferencing, and sign in and out. '
-ms.openlocfilehash: 2cdb08634ce16b3ba6e09148daee57191e8c6988
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b7bce3818de3ae2a096330b11a7bb779bb62ec10
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237780"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285078"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Probar la instalación de Skype Empresarial Online
 
@@ -50,7 +50,7 @@ Esto es lo que necesita:
 ## <a name="set-up-test-accounts"></a>Configurar cuentas de prueba
 <a name="__toc328126910"> </a>
 
-1. Vaya a **administración** > **Office 365** > **a los usuarios y grupos**y, a continuación, seleccione agrega![agregar](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) y escriba la información necesaria.
+1. Vaya a **Administrador** > de**Office 365** > **usuarios y grupos**y, a continuación![,](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) seleccione Agregar agregar y escriba la información requerida.
 
 2. Cuando llegue al Paso 4 (correo electrónico), escriba su propia dirección de correo electrónico. Tendrá entonces un registro del nombre y la contraseña del nuevo usuario.
 
@@ -78,7 +78,7 @@ Después de configurar los usuarios para las audioconferencias, estos reciben un
 
  **Para agregar información de audioconferencias a la cuenta de uno de los usuarios de prueba**
 
-1. Haga clic en **conferencias de Audio** > **a los usuarios**.
+1. Haga clic en**usuarios**de **conferencias** > de audio.
 
 2. Haga clic en los nombres de los usuarios que desea configurar para conferencias de acceso telefónico y, a continuación, haga clic en **Editar**![Editar](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
 

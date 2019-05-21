@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddBranchSiteDetailsPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 5eab6090-094e-4260-b501-61309f1cff67
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Para especificar los detalles de un sitio, haga lo siguiente:'
-ms.openlocfilehash: 6a7c13c81c3106bfe7aca5ce32e3da86c1a5203f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d7a77990f7a0dd9e6b97f7d385327b67d232e711
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889195"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304066"
 ---
 # <a name="add-branch-site-details"></a>Agregar detalles de sitio de sucursal
 

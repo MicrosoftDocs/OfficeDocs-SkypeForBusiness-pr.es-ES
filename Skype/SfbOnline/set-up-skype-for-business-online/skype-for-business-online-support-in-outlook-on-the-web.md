@@ -10,26 +10,26 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: Outlook en la web (Outlook Web App) en Office 365 ofrece un cliente básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para los usuarios en línea cuyo administrador no ha configurado una dirección URL de cortesía para su organización de Office 365. Siempre y cuando la cuenta de usuario está en línea y no tiene una dirección URL mnemónica, seguirán viendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran ubicados en local. Los usuarios que dispongan de usuario cuentas locales (si tienen una dirección URL de personal o no) o son administrados por Microsoft verán la experiencia de Lync en Outlook web app.
-ms.openlocfilehash: 0d98d2490510b54ec0aabd4fefb7ed4137b449b7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Outlook en la web (Outlook Web App) en Office 365 ofrece un cliente básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para los usuarios en línea cuyo administrador no ha configurado una dirección URL de cortesía para su organización de Office 365. Siempre que la cuenta del usuario esté conectada y no tenga una dirección URL de cortesía, la persona seguirá viendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran en el modo local. Los usuarios que tienen cuentas de usuario locales (ya tengan una dirección URL de cortesía o no) o que administra Microsoft verán la experiencia de Lync en Outlook Web App.
+ms.openlocfilehash: 3a985bd8ad0a04198501ca8d1ec780496c59f561
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237235"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285088"
 ---
 # <a name="skype-for-business-online-support-in-outlook-on-the-web"></a>Compatibilidad de Skype Empresarial Online en Outlook en la web
 
-[] Outlook en la web (Outlook Web App) en Office 365 ofrece un cliente básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para los usuarios en línea cuyo administrador no ha configurado una dirección URL de cortesía para su organización de Office 365. Siempre y cuando la cuenta de usuario está en línea y no tiene una dirección URL mnemónica, seguirán viendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran ubicados en local. Los usuarios que dispongan de usuario cuentas locales (si tienen una dirección URL de personal o no) o son administrados por Microsoft verán la experiencia de Lync en Outlook web app.
+[] Outlook en la web (Outlook Web App) en Office 365 ofrece un cliente básico de Skype Empresarial en la barra de navegación. Este cliente básico está disponible para los usuarios en línea cuyo administrador no ha configurado una dirección URL de cortesía para su organización de Office 365. Siempre que la cuenta del usuario esté conectada y no tenga una dirección URL de cortesía, la persona seguirá viendo la experiencia incluso si su organización tiene algunas cuentas de usuario que se encuentran en el modo local. Los usuarios que tienen cuentas de usuario locales (ya tengan una dirección URL de cortesía o no) o que administra Microsoft verán la experiencia de Lync en Outlook Web App.
   
-En la siguiente tabla se resume las diferentes configuraciones que es posible que tenga y el cliente web que se usa.
+En la tabla siguiente se resumen las distintas configuraciones que puede tener y el cliente web que se usa.
   
 ||||
 |:-----|:-----|:-----|
@@ -40,8 +40,8 @@ En la siguiente tabla se resume las diferentes configuraciones que es posible qu
 |Híbrida pero hospedada en línea  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
 |Híbrida pero hospedada localmente  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
 |Híbrida pero hospedada localmente  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
-|Puro en prem  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
-|Puro en prem  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
+|Local puro  <br/> |No  <br/> |Experiencia web de Lync  <br/> |
+|Local puro  <br/> |Sí  <br/> |Experiencia web de Lync  <br/> |
    
 
 ## <a name="related-topics"></a>Temas relacionados

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainMain
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 46482d408eb2a85f2403fac55591bca6d09e244b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 07e7554951d7bed06e98e98cd7ec828910c2d329
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891540"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287771"
 ---
 # <a name="federated-domains"></a>Dominios federados
 

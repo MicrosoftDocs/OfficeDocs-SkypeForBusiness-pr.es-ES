@@ -1,10 +1,10 @@
 ---
-title: Configurar escape de correo de voz de Skype para la empresa
+title: Configurar el escape del correo de voz en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
-description: 'Resumen: Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.'
-ms.openlocfilehash: 29d8f03a23ba562cdb6636cd2aa7f3166e17404c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a configurar el escape del correo de voz en Skype empresarial Server mediante el shell de administración de Skype empresarial Server.'
+ms.openlocfilehash: 89c449f538fee2f5230cb66a664317cada723220
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893045"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289086"
 ---
-# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar escape de correo de voz de Skype para la empresa
+# <a name="configure-voice-mail-escape-in-skype-for-business"></a>Configurar el escape del correo de voz en Skype empresarial
 
-**Resumen:** Obtenga información sobre cómo configurar escape de correo de voz de Skype para Business Server mediante el Skype para Shell de administración de servidor empresarial.
+**Resumen:** Obtenga información sobre cómo configurar el escape del correo de voz en Skype empresarial Server mediante el shell de administración de Skype empresarial Server.
 
-Cuando un usuario configura las llamadas simultáneas a un teléfono móvil, un autor de la llamada normalmente se enrutan al correo de voz personal del usuario si el teléfono móvil está desactivado, fuera de la energía de la batería o fuera del intervalo. Con Skype para Business Server, los usuarios pueden optar por hacer relacionados con el negocio llamadas enrutadas a su sistema de correo de voz corporativo. Específicamente, puede configurarse un temporizador, y si la llamada se ha atendido por correo de voz del proveedor dentro del intervalo de tiempo definido, Skype para Business Server se desconectará del sistema de correo de voz del proveedor (y correo de voz personal del usuario), mientras el usuario los extremos restantes en el sistema corporativo continuarán llamar a. De este modo, el autor de la llamada se enruta automáticamente al correo de voz corporativa del usuario.
+Cuando un usuario configura la llamada simultánea a un teléfono móvil, normalmente se redirigirá al correo de voz personal del usuario si el teléfono móvil está apagado, agotado la batería o está fuera de alcance. Con Skype empresarial Server, los usuarios pueden optar por hacer que las llamadas relacionadas con el negocio se dirijan a su sistema de correo de voz empresarial. En concreto, se puede configurar un temporizador y, si el correo de voz del transportista responde a la llamada dentro del intervalo de tiempo definido, Skype empresarial Server se desconectará del sistema de correo de voz del transportista (y del correo de voz personal del usuario) mientras el usuario los puntos de conexión restantes en el sistema corporativo continúan sonando. De esta manera, la persona que llama se dirige automáticamente al correo de voz corporativo del usuario.
 
-Esta configuración se realiza mediante la Skype para cmdlet del Shell de administración de servidor empresarial, **Set-CsVoicePolicy**, en el nivel de directiva de voz, con los siguientes parámetros.
+Esta configuración se realiza con el cmdlet del shell de administración de Skype empresarial, **set-CsVoicePolicy**, en el nivel de la Directiva de voz, con los siguientes parámetros.
 
 ### <a name="to-configure-voice-mail-escape"></a>Para configurar el escape de correo de voz
 

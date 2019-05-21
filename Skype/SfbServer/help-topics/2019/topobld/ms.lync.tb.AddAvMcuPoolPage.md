@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddAvMcuPoolPage
@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
-description: Todos los servidores Enterprise Edition Front-End de un sitio central que no tienen un combinados A / servicio de conferencia A/v puede usar el mismo A independiente o grupo de servidores de conferencia A/v. Para cada A / grupo de servidores de conferencia A/v, debe especificar un nombre de dominio completo (FQDN) para el grupo de servidores y si va a tener solo un único / servidor de conferencia A/v o múltiple, con equilibrio de carga A / servidores de conferencia A/v.
-ms.openlocfilehash: dd2dd53ae2d3b66da88d39567b4d20e0960633e2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Todos los servidores de aplicaciones para el usuario de Enterprise Edition de un sitio central que no dispongan de un servicio de conferencia A/V, pueden usar el mismo grupo independiente de conferencias A/V. Para cada grupo de conferencias A/V, debe especificar un nombre de dominio completo (FQDN) para el grupo y si tendrá un único servidor de conferencia A/V o varios servidores de conferencia A/V con equilibrio de carga.
+ms.openlocfilehash: dfd1fd056e015ed4d6ed1344384efa485e65f318
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889324"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304059"
 ---
 # <a name="add-av-mcu-pool"></a>Agregar grupo de servidores MCU de A/V
  
-Todos los servidores Enterprise Edition Front-End de un sitio central que no tienen un combinados A / servicio de conferencia A/v puede usar el mismo A independiente o grupo de servidores de conferencia A/v. Para cada A / grupo de servidores de conferencia A/v, debe especificar un nombre de dominio completo (FQDN) para el grupo de servidores y si va a tener solo un único / servidor de conferencia A/v o múltiple, con equilibrio de carga A / servidores de conferencia A/v.
+Todos los servidores de aplicaciones para el usuario de Enterprise Edition de un sitio central que no dispongan de un servicio de conferencia A/V, pueden usar el mismo grupo independiente de conferencias A/V. Para cada grupo de conferencias A/V, debe especificar un nombre de dominio completo (FQDN) para el grupo y si tendrá un único servidor de conferencia A/V o varios servidores de conferencia A/V con equilibrio de carga.
   
 > [!IMPORTANT]
-> No se puede convertir un grupo de servidores de un único servidor a un grupo de varios servidores. Si más adelante decide que la organización necesita un grupo de servidores de varios servidores, debe eliminar el grupo de servidores de un solo servidor y, a continuación, agregue el grupo de servidores de varios servidores. 
+> No se puede convertir un grupo de un solo servidor en un grupo de varios servidores. Si más tarde decide que su organización necesita un grupo de varios servidores, debe eliminar el grupo de servidores únicos y, a continuación, agregar el grupo de varios servidores. 
   
 > [!TIP]
-> Si tiene previsto implementar un grupo de servidores de conferencia A/v en el futuro, seleccione **el grupo de servidores de varios equipos**. Aunque un grupo de servidores se defina como dos o más equipos con equilibrio de carga, puede crear un grupo de servidores de un solo equipo y un nombre de dominio completo de grupo de servidores para ese único equipo. Cuando esté listo para agregar más equipos al grupo de servidores más adelante, debe generador de nuevo para definir el nuevo integrante de grupo de servidores, publique la nueva topología y, a continuación, configurar el nuevo grupo de conferencia A/v miembro a través de la Skype para el Asistente para la implementación de servidor de Business. A los grupos de servidores de servidor de conferencia A/v son únicos en que no necesitan equilibradores de carga para crear un grupo de servidores. A los grupos de servidores de conferencia A/v equilibrar la carga internamente y no es necesario hardware adicional. 
+> Si piensa implementar un grupo de conferencias A/V en el futuro, seleccione **varios grupos de equipos**. Aunque un grupo de servidores se defina como dos o más equipos con equilibrio de carga, puede crear un grupo de servidores de un solo equipo y un nombre de dominio completo de grupo de servidores para ese único equipo. Cuando esté listo para agregar más equipos al grupo más adelante, debe volver a crear el generador de topología para definir el nuevo miembro del grupo, publicar la nueva topología y, a continuación, configurar el nuevo miembro del grupo de conferencias a/V mediante el Asistente para la implementación de Skype empresarial Server. Los grupos de servidores de conferencia a/V son únicos, ya que no necesitan equilibradores de carga para crear un grupo. Los grupos de conferencia A/V realizan un equilibrio de carga interno y no necesitan hardware adicional. 
   
 

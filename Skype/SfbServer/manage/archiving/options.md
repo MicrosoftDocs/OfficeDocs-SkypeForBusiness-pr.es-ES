@@ -1,25 +1,25 @@
 ---
-title: Administrar las opciones de archivado en Skype para Business Server
+title: Administrar las opciones de archivado en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
-description: 'Resumen: Obtenga información sobre cómo configurar las opciones de archivado para Skype para Business Server.'
-ms.openlocfilehash: 77e9d8469d3c99ee0f45e97a002d371481d81299
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre cómo configurar las opciones de archivado para Skype empresarial Server.'
+ms.openlocfilehash: c7353c305125e8e35523c573150471821f53301e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885020"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278422"
 ---
-# <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar las opciones de archivado en Skype para Business Server
+# <a name="manage-archiving-options-in-skype-for-business-server"></a>Administrar las opciones de archivado en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo configurar las opciones de archivado para Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo configurar las opciones de archivado para Skype empresarial Server.
   
 Configura inicialmente el archivado en la implementación, pero puede cambiar, agregar o eliminar la configuración tras la implementación. Las opciones de archivado determinan si: 
   
@@ -37,13 +37,13 @@ Configura inicialmente el archivado en la implementación, pero puede cambiar, a
     
 Puede especificar las opciones de configuración en los siguientes niveles:
   
-- Configuración de nivel global que se crea de forma predeterminada al implementar Skype para Business Server
+- Configuración de nivel global que se crea de forma predeterminada al implementar Skype empresarial Server
     
 - En la configuración de sitio opcional, que especifica cómo se implementa el archivado para un sitio específico
     
-- Configuraciones opcionales de nivel de grupo de servidores que especifican cómo se implementa el archivado para un grupo de servidores específico
+- Configuraciones de nivel de grupo opcionales que especifican cómo se implementa el archivado para un grupo específico
     
-Es posible eliminar una configuración de sitio o de grupo, pero no puede eliminar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener información detallada acerca de cómo se implementan las configuraciones de archivado y la jerarquía de directivas, consulte [Plan para el archivado en Skype para Business Server](../../plan-your-deployment/archiving/archiving.md).
+Es posible eliminar una configuración de sitio o de grupo, pero no puede eliminar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados. Para obtener detalles sobre cómo se implementan las configuraciones de archivado y la jerarquía de las configuraciones de archivado, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Configurar las opciones de archivado con el Panel de control
 
@@ -51,13 +51,13 @@ Puede configurar las opciones de archivado con el Panel de control de esta maner
   
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Configuración de archivado**.
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Configurar las opciones de archivado con Windows PowerShell
 
-También puede configurar las opciones de archivado con los cmdlets de Windows PowerShell que se enumeran en la tabla siguiente. Para obtener información detallada sobre la sintaxis, incluidos todos los parámetros disponibles, vea [Skype para Shell de administración de servidor empresarial](../management-shell.md).
+También puede configurar las opciones de archivado con los cmdlets de Windows PowerShell que se enumeran en la tabla siguiente. Para más información sobre la sintaxis, incluidos todos los parámetros disponibles, consulte [Shell de administración de Skype empresarial Server](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|

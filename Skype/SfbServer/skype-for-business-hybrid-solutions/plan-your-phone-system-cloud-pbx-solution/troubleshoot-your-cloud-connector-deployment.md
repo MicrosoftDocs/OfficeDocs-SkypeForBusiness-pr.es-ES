@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 12/5/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,68 +13,68 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e6cf58cc-dbd9-4f35-a51a-3e2fea71b5a5
-description: Solución de problemas de la implementación de nube conector Edition.
-ms.openlocfilehash: b9ade46f46898d22bab862c3044e045de441b007
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+description: Solucionar problemas de la implementación de la edición en la nube.
+ms.openlocfilehash: 1049ec2f8f3b85c71c7b9203916b79764e9be161
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864921"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286726"
 ---
 # <a name="troubleshoot-your-cloud-connector-deployment"></a>Solución de problemas con la implementación de Cloud Connector
  
-Solución de problemas de la implementación de nube conector Edition.
+Solucionar problemas de la implementación de la edición en la nube.
   
 En este tema se describen soluciones a problemas comunes con las implementaciones de Cloud Connector Edition. Si tiene problemas con las llamadas en los dos sentidos de la red telefónica conmutada (RTC), puede investigar el problema siguiendo las soluciones que se describen en este tema.
   
-En la nube conector proporciona mecanismos integrados para resolver algunos problemas de automáticamente. Un proceso de detección automática busca posibles problemas con los dispositivos de conector en la nube y, si es posible, realiza una acción correctiva para resolver estos problemas sin necesidad de intervención del administrador. El proceso de detección funciona de la siguiente manera:
+El conector de nube proporciona mecanismos integrados para resolver algunos problemas automáticamente. Un proceso de detección automática busca posibles problemas con los dispositivos de conexión en la nube y, si es posible, toma medidas correctivas para resolver esos problemas sin necesidad de que intervenga el administrador. El proceso de detección funciona de la siguiente manera:
   
-- **Secuencia de detección:** El servicio de administración del conector en la nube ejecuta un proceso de cada 60 segundos para detectar si un dispositivo está inactivo. En el conector en la nube versión 2.0 y versiones posterior, el proceso de detección usa el Skype para modificador Corpnet empresarial para realizar conexiones de PowerShell para las máquinas de conector en la nube; para las versiones anteriores a 2.0, el proceso de detección usa el modificador de administración del conector de la nube.
+- **Secuencia de detección:** El servicio de administración de conector de nube ejecuta un proceso cada 60 segundos para detectar si un dispositivo está desactivado. En la versión 2,0 y posteriores del conector de la nube, el proceso de detección usa el conmutador de CorpNet de Skype empresarial para establecer conexiones de PowerShell con las máquinas de los conectores de nube; en las versiones anteriores a 2,0, el proceso de detección usa el conmutador de administración del conector de nube.
     
     > [!NOTE]
-    > Para que la recuperación automática se realice correctamente, debe haber conectividad de red entre el host y máquinas virtuales a través del conmutador de red de host. Asegúrese de comprobar la conectividad de red para asegurarse de que la detección automática y recuperación puede tener éxito. 
+    > Para que la recuperación automática se realice correctamente, debe haber conectividad de red entre el host y las máquinas virtuales a través del conmutador de red de hospedaje. Asegúrese de comprobar la conectividad de red para asegurarse de que la detección y recuperación automáticas pueda realizarse correctamente. 
   
-- **Supervisión:** Los siguientes servicios se supervisan en la nube Connector versión 2.0 y versiones posterior:
+- **Supervisión:** Los siguientes servicios se supervisan en la versión 2,0 y posteriores del conector de la nube:
     
-  - Las máquinas virtuales no están conectadas a la nube conector corporativo o modificadores virtuales de Internet
+  - Las máquinas virtuales no están conectadas a los conmutadores virtuales de Internet o de la organización del conector de nube
     
-  - Las máquinas virtuales se encuentran en un estado detenido o guardado
+  - Las máquinas virtuales se encuentran en estado guardado o detenido
     
-  - Servicios de servidor de administración centrales: réplica, patrón
+  - Servicios del servidor de administración central: réplica, maestra
     
-  - Servicios de servidor de mediación: réplica, RTCSRV y MEDSVC
+  - Servicios del servidor de mediación: REPLICA, RTCSRV y MEDSVC
     
-  - Servicios de servidores perimetrales: réplica, RTCSRV, RTCDATAPROXY, RTCMRAUTH, RTCMEDIARELAY
+  - Servicios del servidor perimetral: REPLICA, RTCSRV, RTCDATAPROXY, RTCMRAUTH, RTCMEDIARELAY
     
-  - Las reglas están deshabilitadas para RTCSRV CS en servidor perimetral, CS RTCMEDSRV en el servidor de mediación de firewall de entrada
+  - Las reglas de Firewall entrante están deshabilitadas para CS RTCSRV en el servidor perimetral, CS RTCMEDSRV en el servidor de mediación
     
-    En el conector en la nube versión 1.4.2, se supervisan únicamente los servicios siguientes:
+    En el conector de nube versión 1.4.2, solo se supervisan los siguientes servicios:
     
-  - Servicios de servidor de mediación: RTCSRV y MEDSVC
+  - Servicios del servidor de mediación: RTCSRV y MEDSVC
     
   - Servicio de servidor perimetral: RTCSRV
     
-- **Proceso de recuperación:** Si todos los servicios supervisados están inactivos, un dispositivo se marca hacia abajo, y servicios se ha detenido y marcados manuales hasta que se pueden resolver todos los problemas. Esto evita que las llamadas de enrutamiento a un dispositivo que puede causar errores de llamadas.
+- **Proceso de recuperación:** Si algún servicio supervisado está desactivado, un dispositivo se marca y los servicios se detienen y marcan como manual hasta que se puedan resolver todos los problemas. Esto evitará que las llamadas se enruten a un dispositivo que pueda causar errores en las llamadas.
     
-    El servicio de administración del conector en la nube se volverá a intentar la recuperación automática de manera
+    El servicio de administración de conector de nube volverá a intentar la recuperación automática de la siguiente manera
     
-  - El intervalo de reintento inicial es cada diez segundos con un tiempo de intervalo máximo de una hora.
+  - El intervalo de reintento inicial es cada diez segundos, con un tiempo de intervalo máximo de una hora.
     
-  - Para los intentos de tres en primer lugar recuperación, el intervalo de tiempo es de 10 segundos. A partir del cuarto reintento, aumenta el intervalo de tiempo por dos veces el anterior intervalo de tiempo. Por ejemplo, el cuarto reintento se se producen en 20 segundos, la quinta en 40 segundos y así sucesivamente. 
+  - Para los tres primeros intentos de recuperación, el tiempo de intervalo es de 10 segundos. A partir del cuarto reintento, el intervalo de tiempo aumenta en dos veces el intervalo de tiempo anterior. Por ejemplo, el cuarto reintento se realizará en 20 segundos, el quinto de 40 segundos, y así sucesivamente. 
     
-  - Cuando se alcanza el intervalo máximo de tiempo de una hora, reintentos continuará una vez cada hora.
+  - Cuando se alcanza el tiempo de intervalo máximo de una hora, los reintentos continuarán una vez cada hora.
     
-  - Cuando la recuperación es correcta, se establecen los recuentos de intervalo e inténtelo de nuevo en sus valores iniciales.
+  - Cuando la recuperación se realiza correctamente, el intervalo y los reintentos se establecen en sus valores iniciales.
     
-  - Si se reinicia el servicio de administración, se restablecen los recuentos de intervalo e inténtelo de nuevo a sus valores iniciales.
+  - Si el servicio de administración se reinicia, el intervalo y los recuentos de reintentos se restablecen a sus valores iniciales.
     
 ## <a name="troubleshooting"></a>Solución de problemas
 
-A continuación se muestran soluciones para problemas habituales:
+A continuación se muestran algunas soluciones a los problemas más frecuentes:
   
 - **Problema: la implementación presenta un error o deja de responder cuando se ejecutan los scripts de implementación. Después de iniciar sesión en cada máquina virtual, falta la dirección IP o esta es incorrecta para la NIC externa, interna o de administración.**
     
-    **Resolución:** No se puede resolver este problema automáticamente. NIC no se puede agregar a las máquinas virtuales mientras se están ejecutando. Por favor, apagar y quitar estas máquinas virtuales en el Administrador de hyper-v, a continuación, ejecutar los cmdlets siguientes:
+    **Solución:** Este problema no se puede resolver automáticamente. No se pueden agregar NICs a las VMs mientras se ejecutan. Cierre y quite estas máquinas virtuales en Hyper-v Manager y, a continuación, ejecute los siguientes cmdlets:
     
   ```
   Uninstall-CcAppliance
@@ -94,16 +94,16 @@ A continuación se muestran soluciones para problemas habituales:
     
   - Inicie sesión en el servidor CMS o de mediación, y compruebe en el NIC de red corporativa que se haya asignado una dirección IP válida y que estén configurados un DNS y una IP estática válidos como la dirección IP del servidor de AD.
     
-  - Inicie sesión en el servidor de mediación/CMS y abra un símbolo del sistema. Asegúrese de poder hacer ping a la dirección IP y el FQDN del servidor de Active Directory. Si no puede, es posible que haya un conflicto con la dirección IP. Intente asignar una nueva IP para Active Directory y actualice en consecuencia el DNS en el servidor CMS o de mediación.
+  - Inicie sesión en el servidor CMS o de mediación y abra un símbolo del sistema. Asegúrese de poder hacer ping a la dirección IP y el FQDN del servidor de Active Directory. Si no puede, es posible que haya un conflicto con la dirección IP. Intente asignar una nueva IP para Active Directory y actualice en consecuencia el DNS en el servidor CMS o de mediación.
     
-- **Problema: Recibe el siguiente mensaje de error "Remove-VMSwitch: error al eliminar la conmutación de Ethernet virtual. El modificador virtual 'Administración del conector en la nube cambiar' no pueden eliminarse porque está siendo utilizado mediante la ejecución de máquinas virtuales ni asignado a los grupos de servidores secundarios."**
+- **Problema: recibe el siguiente mensaje de error: "Remove-VMSwitch: error al quitar el conmutador Ethernet virtual. El conmutador virtual ' conmutador de administración del conector en la nube ' no se puede eliminar porque está siendo usado por máquinas virtuales en ejecución o asignado a grupos secundarios. "**
     
-    **Resolución:** No se ha eliminado el "conmutador de administración de conector en la nube" después de la implementación. Si presiona la tecla este error, vaya al administrador de Hyper-v y compruebe que haya no sigue una máquina virtual que sigue conectada a ella. Si hay máquinas virtuales que sigue conectadas, desconectar ellos y elimine el modificador de administración. Si aún no se puede eliminar el modificador de administración, reinicie el servidor de host e inténtelo de nuevo.
+    **Solución:** El "conmutador de administración del conector de nube" no se eliminó después de la implementación. Si ha encontrado este error, vaya al administrador de Hyper-v y compruebe que aún no hay una máquina virtual aún conectada a ella. Si hay máquinas virtuales aún conectadas, desconéctate y elimina el conmutador de administración. Si el conmutador de administración aún no se puede eliminar, reinicie el servidor host e inténtelo de nuevo.
     
-- **Problema: Recibe el mensaje de error siguiente, "servicio RTCMRAUTH no se pudo iniciar. Compruebe que el servicio no está deshabilitado."**
+- **Problema: recibe el siguiente mensaje de error "no se pudo iniciar el servicio de RTCMRAUTH. Asegúrese de que el servicio no está deshabilitado.**
     
     > [!NOTE]
-    > Este problema solo se aplica a las versiones del conector de nube anteriores a 1.4.2. 
+    > Este problema solo se aplica a versiones del conector de nube anteriores a la versión 1.4.2. 
   
     La imposibilidad de iniciar también puede deberse a que el servidor front-end se haya conmutado previamente por error (mediante una conmutación por error del equipo), en cuyo caso debería invocar una conmutación por recuperación (mediante una conmutación por recuperación del equipo).
     
@@ -139,17 +139,17 @@ A continuación se muestran soluciones para problemas habituales:
     
     **Problema: cuando se realiza una llamada desde el cliente de Skype Empresarial con un número de RTC, la llamada no puede escalarse a conferencia invitando a otro número de RTC.**
     
-    **Resolución:** Para resolver este problema, vea [Configure online híbrido configuración del servidor de mediación](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
+    **Solución:** Para resolver este problema, vea [configurar la configuración del servidor de mediación híbrida en línea](configure-cloud-connector-integration-with-your-office-365-tenant.md#BKMK_ConfigureMediationServer).
     
 - **Problema: se muestra un mensaje de advertencia sobre Windows Update al instalar un servidor de Active Directory: "La actualización automática de Windows no está habilitada. Para asegurarse de que la característica o el rol recién instalados se actualicen automáticamente, active Windows Update en el Panel de control".**
     
-    **Resolución:** Iniciar una sesión de PowerShell remoto inquilino con Skype para credenciales de administrador de inquilinos de negocio y, a continuación, ejecute el siguiente cmdlet para comprobar la configuración de _EnableAutoUpdate_ del sitio:
+    **Solución:** Inicie una sesión de PowerShell remoto de inquilino con credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar la configuración de _EnableAutoUpdate_ de su sitio:
     
   ```
   Get-CsHybridPSTNSite
   ```
 
-    Si _EnableAutoUpdate_ está establecida en **True**, puede ignorar este mensaje de advertencia debido a que el servicio CCEManagement controlará la descarga e instalación de actualizaciones de Windows para las máquinas virtuales y el servidor host. Si _EnableAutoUpdate_ está establecida en **False**, ejecute siguiente cmdlet para establecer en **True**.
+    Si _EnableAutoUpdate_ se establece en **true**, puede pasar por alto este mensaje de advertencia sin riesgos porque el servicio CCEManagement se encargará de descargar e instalar las actualizaciones de Windows tanto para las máquinas virtuales como para el servidor host. Si _EnableAutoUpdate_ se establece en **false**, ejecute el cmdlet siguiente para establecerla en **true**.
     
   ```
   Set-CsHybridPSTNSite -EnableAutoUpdate $true
@@ -157,15 +157,15 @@ A continuación se muestran soluciones para problemas habituales:
 
     Puede también comprobar si existen actualizaciones e instalarlas manualmente. Consulte la siguiente sección.
     
-- **Problema: Recibe un mensaje de error: no se puede registrar el dispositivo debido a que la configuración actual de entrada/ \<SiteName\> o \<ApplianceName\> o \<el FQDN del servidor de mediación\> o \<dirección IP de servidor de mediación \> entra en conflicto con appliance(s) existente. Quitar dispositivo de conflicto o actualizar la información de configuración de entrada y, a continuación, vuelva a registrar. ' cuando se ejecuta Register-CcAppliance para registrar el dispositivo actual a en línea.**
+- **Problema: recibe un mensaje de error: no se puede registrar el dispositivo porque el nombre \<\> de\> usuario \<y\> la \<configuración actuales del siteName \<o ApplianceName o de la dirección IP del servidor de mediación \> conflictos con dispositivos existentes. Quitar el dispositivo de conflicto o actualizar la información de entrada/configuración y vuelva a registrarse. ' cuando se ejecute Register-CcAppliance para registrar el equipo actual en Internet.**
     
-    **Resolución:** Los valores para la \<ApplianceName\>, \<el FQDN del servidor de mediación\> y \<dirección IP de servidor de mediación\> debe ser único y sólo utilizan para el registro de un dispositivo. De forma predeterminada, \<ApplianceName\> proviene del nombre de host. \<FQDN del servidor de mediación\> y \<dirección IP de servidor de mediación\> definido en el archivo de configuración de ini.
+    **Solución:** Los valores para \<la\>dirección \<\> IP del servidor\> de \<mediación de FQDN y mediación de ApplianceName debe ser único y solo se pueden usar para el registro de un dispositivo. De forma predeterminada \<,\> ApplianceName viene del nombre de host. \<FQDN\> del servidor de \<mediación dirección\> IP del servidor de mediación definida en el archivo ini de configuración.
     
     Por ejemplo, se usa (ApplianceName= MyserverNew, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10) para el registro en SiteName=MySite, pero si hay un dispositivo registrado (ApplianceName= Myserver, Mediation Server FQDN=ms.contoso.com, Mediation Server IP Address=10.10.10.10), experimentará el conflicto.
     
-    En primer lugar, compruebe el archivo CloudConnector.ini en la sección de directorio ApplianceRoot. Obtendrá \<SiteName\>, \<el FQDN del servidor de mediación\> y \<dirección IP de servidor de mediación\> valores en el archivo. \<ApplianceName\> es el nombre del servidor host.
+    En primer lugar, verifica el archivo CloudConnector. ini en la sección ApplianceRoot Directory. \<Obtendrá los valores de\>dirección \<\> IP del servidor\> de \<nombres, FQDN y servidor de mediación en el archivo. \<ApplianceName\> es el nombre del servidor host.
     
-    En segundo lugar, inicio inquilino PowerShell remoto con su Skype para credenciales de administrador de inquilinos de negocio, a continuación, ejecute el siguiente cmdlet para comprobar la appliance(s) registrados.
+    En segundo lugar, inicie PowerShell remoto de inquilino con sus credenciales de administrador de inquilinos de Skype empresarial y, a continuación, ejecute el siguiente cmdlet para comprobar los dispositivos registrados.
     
   ```
   Get-CsHybridPSTNAppliance
@@ -178,15 +178,15 @@ A continuación se muestran soluciones para problemas habituales:
   ```
 
     
-- **Problema: El cmdlet Get-CcRunningVersion devuelve un valor vacío si no hay un dispositivo implementado que se ejecutan en el host.**
+- **Problema: el cmdlet Get-CcRunningVersion devuelve un valor vacío si hay un dispositivo implementado ejecutándose en el host.**
     
-  **Resolución:** Esto puede ocurrir cuando se actualiza desde 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el archivo .msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance`va a migrar el archivo module.ini desde %UserProfile%\CloudConnector a % ProgramData%\CloudConnector. Si se lo haya perdido, un module.ini nueva se creará en la carpeta %ProgramData%\CloudConnector y reemplace la información de versión de copia de seguridad o ejecución para 1.3.4 o 1.3.8.
+  **Solución:** Esto puede ocurrir al actualizar de 1.3.4 o 1.3.8 a 1.4.1. Después de instalar la versión 1.4.1 con el. msi, debe ejecutar `Register-CcAppliance` antes de ejecutar cualquier otro cmdlet. `Register-CcAppliance`migrará el archivo Module. ini de%UserProfile%\CloudConnector a%ProgramData%\CloudConnector. Si lo ha perdido, se creará un nuevo Module. ini en la carpeta%ProgramData%\CloudConnector y reemplazará la información de la versión de ejecución o de copia de seguridad para 1.3.4 o 1.3.8.
     
-  Compare los archivos module.ini files en la carpeta %perfilusuario%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo module.ini en %ProgramData%\CloudConnector y volver a ejecutar `Register-CcAppliance`. También puede modificar el archivo manualmente a la ejecución correcta y la versión de copia de seguridad.
+  Compare los archivos module.ini files en la carpeta %perfilusuario%\CloudConnector y %ProgramData%\CloudConnector. Si hay diferencias, elimine el archivo Module. ini en%ProgramData%\CloudConnector y vuelva `Register-CcAppliance`a ejecutar. También puede modificar el archivo de forma manual para la versión correcta de ejecución y copia de seguridad.
     
-- **Problema: Después de ejecutar el cmdlet CcVersion de modificador para cambiar a una versión anterior que es diferente de la versión actual de secuencia de comandos, no hay ninguna compatibilidad de alta disponibilidad para esta versión anterior.**
+- **Problema: después de ejecutar el cmdlet switch-CcVersion para cambiar a una versión anterior que es diferente de la versión actual del script, no hay compatibilidad de alta disponibilidad para esta versión anterior.**
     
-    **Resolución:** Por ejemplo, ha actualizado desde 1.4.1 a 1.4.2. La versión actual de secuencia de comandos, que se puede determinar mediante la ejecución de `Get-CcVersion`y la versión que se está ejecutando, que se puede determinar mediante la ejecución de `Get-CcRunningVersion` son ambos 1.4.2. En este momento, si ejecuta `Switch-CcVersion` para la versión que se está ejecutando volver a 1.4.1, a continuación, no habrá ningún soporte de alta disponibilidad para esta versión anterior.
+    **Solución:** Por ejemplo, ha actualizado de 1.4.1 a 1.4.2. La versión actual de la secuencia de comandos, que se `Get-CcVersion`puede determinar al ejecutarse, y la versión en ejecución, `Get-CcRunningVersion` que se puede determinar mediante la ejecución, son 1.4.2. En este momento, si se ejecuta `Switch-CcVersion` para cambiar la versión de ejecución a 1.4.1, no habrá compatibilidad de alta disponibilidad para esta versión antigua.
     
     Para obtener compatibilidad total con alta disponibilidad, vuelva a 1.4.2 para que la versión en ejecución y la versión del script sean las mismas. Si está experimentando problemas con su implementación de 1.4.2, desinstálela y vuelva a instalarla tan pronto como sea posible.
     
@@ -195,13 +195,13 @@ A continuación se muestran soluciones para problemas habituales:
     **Resolución:** los certificados de la entidad de certificación de Skype Empresarial son válidos durante cinco años. Los certificados internos emitidos al almacén de administración central, al servidor de mediación y al servidor perimetral son válidos durante dos años.
     
     > [!NOTE]
-    > En el conector en la nube versión 2.0 y versiones posterior, el cmdlet renovar CcServerCertificate ha cambiado a CcServerCertificate de actualización y el cmdlet renovar CcCACertificate ha cambiado a CcCACertificate de actualización. 
+    > En el conector de nube versión 2,0 y posteriores, el cmdlet Renew-CcServerCertificate ha cambiado a Update-CcServerCertificate y el cmdlet Renew-CcCACertificate ha cambiado a Update-CcCACertificate. 
   
-    Si los certificados internos emitidos para el almacén de Administración Central, el servidor de mediación y el servidor perimetral están cerca de expiración o ve comprometida, ejecutan el renovar CcServerCertificate o el cmdlet Update-CcServerCertificate para renovar los certificados.
+    Si los certificados internos emitidos para el almacén central de administración, el servidor de mediación y el servidor perimetral están cerca de la expiración o están comprometidos, ejecute el cmdlet Renew-CcServerCertificate o Update-CcServerCertificate para renovar los certificados.
     
-    Si los certificados de entidad de certificación son cerca de expiración, ejecute el cmdlet renovar CcCACertificate o CcCACertificate de actualización para renovar sus certificados.
+    Si los certificados de la entidad de certificación están cercanos, ejecute el cmdlet Renew-CcCACertificate o Update-CcCACertificate para renovar los certificados.
     
-    **Si se ve comprometidos certificados de entidades emisoras y hay un único dispositivo en el sitio,** realice los siguientes pasos:
+    **Si los certificados de la entidad emisora de certificados se ven comprometidos y solo hay un dispositivo en el sitio,** realice los siguientes pasos:
     
 1. Ejecute el cmdlet Enter-CcUpdate para depurar los servicios y poner el dispositivo en modo de mantenimiento.
    
@@ -211,7 +211,7 @@ A continuación se muestran soluciones para problemas habituales:
    
 2. Ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de la entidad de certificación y todos los certificados internos del servidor:
     
-    Para las versiones en la nube conector antes de 2.0:
+    Para las versiones de conector de nube antes 2,0:
     
     ```
     Reset-CcCACertificate 
@@ -219,7 +219,7 @@ A continuación se muestran soluciones para problemas habituales:
     Remove-CcLegacyServerCertificate 
     ```
 
-    O bien, para la versión de conector en la nube 2.0 y versiones posterior:
+    O para el conector de nube versión 2,0 y posteriores:
     
     ```
     Reset-CcCACertificate 
@@ -227,30 +227,30 @@ A continuación se muestran soluciones para problemas habituales:
     Remove-CcLegacyServerCertificate 
     ```
     
-3. Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde el dispositivo y, a continuación, instale el certificado exportado a las puertas de enlace RTC. También es posible que requiera para volver a emitir el certificado en la puerta de enlace.
+3. Si se usa TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde el dispositivo y, a continuación, instale el certificado exportado en las puertas de enlace RTC. Es posible que también se le solicite volver a emitir el certificado en la puerta de enlace.
 
    ```
    Export-CcRootCertificate
    ```
 
-4. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento.
+4. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento.
 
    ```
    Exit-CcUpdate
    ```
 
 
-    **Si se ve comprometidos certificados de entidades emisoras y hay varios dispositivos en el sitio,** realice la siguiente secuencia de pasos en cada dispositivo en el sitio.
+    **Si los certificados de la entidad emisora de certificados se ven comprometidos y hay varios dispositivos en el sitio,** realice los siguientes pasos secuenciales en cada dispositivo del sitio.
     
-    Microsoft recomienda que realice estos pasos durante las horas que no sean de máximo uso.
+    Microsoft recomienda que realice estos pasos durante los períodos de uso no máximo.
     
-1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar la entidad de certificación en los archivos de copia de seguridad la \<SiteRoot\> Active directory.
+1. En el primer dispositivo, ejecute el cmdlet Remove-CcCertificationAuthorityFile para limpiar los archivos de copia de seguridad de \<la\> entidad emisora en el directorio SiteRoot.
 
      ```
      Remove-CcCertificationAuthorityFile
      ```
     
-2. Ejecute el cmdlet de entrar CcUpdate para purgar servicios y coloque cada dispositivo en el modo de mantenimiento.
+2. Ejecute el cmdlet Enter-CcUpdate para drenar servicios y poner cada dispositivo en modo de mantenimiento.
 
      ```
      Enter-CcUpdate
@@ -258,7 +258,7 @@ A continuación se muestran soluciones para problemas habituales:
     
 3. En el primer dispositivo, ejecute los siguientes cmdlets para restablecer y crear nuevos certificados de entidad de certificación y todos los certificados de servidor interno:
     
-     Para las versiones en la nube conector antes de 2.0:
+     Para las versiones de conector de nube antes 2,0:
     
      ```
      Reset-CcCACertificate
@@ -266,7 +266,7 @@ A continuación se muestran soluciones para problemas habituales:
      Remove-CcLegacyServerCertificate 
      ```
 
-     O bien, para la versión de conector en la nube 2.0 y versiones posterior:
+     O para el conector de nube versión 2,0 y posteriores:
     
      ```
      Reset-CcCACertificate
@@ -274,13 +274,13 @@ A continuación se muestran soluciones para problemas habituales:
      Remove-CcLegacyServerCertificate 
      ```
 
-4. En el primer dispositivo, ejecute el siguiente cmdlet para realizar una copia de seguridad de los archivos de la entidad emisora de certificados para la \<SiteRoot\> carpeta.
+4. En el primer dispositivo, ejecute el cmdlet siguiente para realizar la copia de seguridad de los \<archivos\> de CA en la carpeta SiteRoot.
     
      ```
      Backup-CcCertificationAuthority
      ```
    
-5. En todos los demás del dispositivo en el mismo sitio, ejecute los siguientes comandos para consumir los archivos de copia de seguridad de la entidad emisora de certificados, de modo que los dispositivos todos usan el mismo certificado raíz y, a continuación, solicitar certificados nuevos. 
+5. En todos los demás dispositivos del mismo sitio, ejecute los siguientes comandos para consumir los archivos de copia de seguridad de la entidad emisora, de modo que todos los dispositivos usen el mismo certificado raíz y, a continuación, solicite certificados nuevos. 
    
      ```
      Reset-CcCACertificate
@@ -288,46 +288,46 @@ A continuación se muestran soluciones para problemas habituales:
      Remove-CcLegacyServerCertificate 
      ```
      
-6. Si se utiliza TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo en el sitio y, a continuación, instale el certificado exportado a las puertas de enlace RTC. También es posible que requiera para volver a emitir el certificado en la puerta de enlace.
+6. Si se usa TLS entre la puerta de enlace y el servidor de mediación, ejecute el cmdlet Export-CcRootCertificate desde cualquier dispositivo del sitio y, a continuación, instale el certificado exportado en las puertas de enlace RTC. Es posible que también se le solicite volver a emitir el certificado en la puerta de enlace.
   
      ```
      Export-CcRootCertificate
      ```
      
-7. Ejecute el cmdlet de Exit CcUpdate para iniciar servicios y salir del modo de mantenimiento. 
+7. Ejecute el cmdlet Exit-CcUpdate para iniciar los servicios y salir del modo de mantenimiento. 
 
      ```
      Exit-CcUpdate
      ```
     
     
-- **Problema: Recibe el mensaje de error siguiente en el registro de servicio de administración del conector en la nube, "C:\Program Files\Skype para profesionales en la nube conector Edition\ManagementService\CceManagementService.log": CceService Error: 0: excepción inesperada cuando informar del estado a online: System.Management.Automation.CmdletInvocationException: error de inicio de sesión para el usuario \<Global Administrador de inquilinos\>. Cree un nuevo objeto de credencial, asegurándose de que se han utilizado el nombre de usuario correcto y la contraseña. ---\>**
+- **Problema: recibe el siguiente mensaje de error en el registro del servicio de administración del conector de nube, "C:\Archivos de Files\Skype para Business Cloud Connector Edition\ManagementService\CceManagementService.log": error de CceService: excepción inesperada cuando informar del estado a conectado: System. Management. Automation. CmdletInvocationException: error de inicio de \<sesión para el\>administrador de inquilinos global de usuario. Cree un nuevo objeto de credencial, asegurándose de que ha usado el nombre de usuario y la contraseña correctos. ---\>**
     
-    **Resolución:** Las credenciales de administración de Office 365 inquilino global se han cambiado desde que se registró el dispositivo conector en la nube. Para actualizar las credenciales almacenadas localmente en el dispositivo de conector en la nube, ejecute lo siguiente desde el Administrador de PowerShell en el dispositivo de host:
+    **Solución:** Las credenciales de administrador de inquilinos globales de Office 365 se han cambiado desde que se registró el equipo del conector en la nube. Para actualizar las credenciales almacenadas de forma local en el dispositivo de conector de nube, ejecute lo siguiente de administrador de PowerShell en el dispositivo de hospedaje:
     
   ```
   Set-CcCredential -AccountType TenantAdmin
   ```
 
-- **Problema: Después de cambiar la contraseña de la cuenta del servidor de host utilizados para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: especificar la clave no es válido para su uso en estado." en %ProgramFiles%\Skype para la nube de Business Connector Edition\ManagementService\CceManagementService.log o mientras se ejecuta el cmdlet Get-CcCredential.**
+- **Problema: después de cambiar la contraseña de la cuenta de servidor host que usó para la implementación, recibirá el siguiente mensaje de error: "ConvertTo-SecureString: clave no válida para usarla en el estado especificado". en%ProgramFiles%\Skype para Business Cloud Connector Edition\ManagementService\CceManagementService.log o al ejecutar el cmdlet Get-CcCredential.**
     
-    **Resolución:** Todas las credenciales del conector en la nube se almacenan en el siguiente archivo: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
+    **Solución:** Todas las credenciales del conector de nube se almacenan en el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ". Cuando se modifica la contraseña en el servidor host, tendrá que actualizar las credenciales que hay almacenadas localmente.
     
     **Si ejecuta la versión 1.4.2 de Cloud Connector,** vuelva a generar todas las contraseñas de Cloud Connector mediante estos pasos:
     
   1. Reinicie el servidor host.
     
-  2. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  2. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-  3. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. Introduzca las mismas contraseñas que usó antes para la implementación de Cloud Connector.
+  3. Inicie una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-local" para volver a escribir las contraseñas que siguen a la descripción. Introduzca las mismas contraseñas que usó antes para la implementación de Cloud Connector.
     
-     **Si está ejecutando en la nube conector versión 2.0 o posterior,** vuelva a generar todas las contraseñas de conector en la nube, siga estos pasos:
+     **Si está ejecutando Cloud Connector versión 2,0 o posterior,** regenere todas las contraseñas de conector de nube siguiendo estos pasos:
     
   4. Reinicie el servidor host.
     
-  5. Elimine el archivo siguiente: "% SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>.xml ".
+  5. Elimine el siguiente archivo: "%SystemDrive%\Programdata\Cloudconnector\credentials. \<CurrentUser\>. xml ".
     
-  6. Iniciar una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-Local" para volver a escribir las contraseñas que sigue a la descripción. 
+  6. Inicie una consola de PowerShell como administrador y, a continuación, ejecute "Register-CcAppliance-local" para volver a escribir las contraseñas que siguen a la descripción. 
     
      Si el archivo de contraseñas almacenadas en caché se generó con la versión 1.4.2 de Cloud Connector, use la contraseña de VMAdmin para la contraseña de CceService cuando se le solicite. Introduzca la misma contraseña que usó antes para la implementación de Cloud Connector de todas las otras cuentas.
     
@@ -339,7 +339,7 @@ A continuación se muestran soluciones para problemas habituales:
     
   9. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de DomainAdmin que usó antes.
     
-     Si se ha generado el archivo de contraseña almacenada en caché con el conector de nube versión 2.0 o posterior, de forma predeterminada, VmAdmin y Administrador de dominio usan la misma contraseña como CceService. Si ha cambiado las contraseñas de DomainAdmin y VMAdmin, debe realizar los siguientes pasos:
+     Si el archivo de contraseñas almacenadas en caché se generó con la versión 2,0 o posterior del conector en la nube, de forma predeterminada, VmAdmin y ID. Si ha cambiado las contraseñas de DomainAdmin y VMAdmin, debe realizar los siguientes pasos:
     
   10. Ejecute Set-CcCredential -AccountType DomainAdmin como sigue:
     
@@ -353,31 +353,31 @@ A continuación se muestran soluciones para problemas habituales:
     
        2. Cuando se soliciten las credenciales de cuenta nuevas, introduzca la contraseña para la contraseña de VmAdmin que usó antes.  
     
-- **Problema: Con la nube conector versión 2.1 y versiones posterior, cuando se ejecuta registrar CcAppliance u otros cmdlets en el dispositivo, recibirá un mensaje de error como: "para cada objeto: la propiedad 'Comunes' no se encuentra en este objeto. Compruebe que existe la propiedad. En C:\Program Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 char: 14 "**
+- **Problema: con el conector de nube versión 2,1 y posteriores, cuando se ejecuta Register-CcAppliance u otros cmdlets en el dispositivo, recibe un mensaje de error como: "para cada objeto: no se puede encontrar la propiedad ' Common ' en este objeto. Compruebe que la propiedad existe. En C:\Archivos de Files\WindowsPowerShell\Modules\CloudConnector\Internal\MtHostCommon.ps1:681 Car: 14 "**
     
-    **Resolución:** En la nube conector 2.1 y posterior requiere .NET Framework 4.6.1 o posterior. Por favor, actualice .NET Framework en el dispositivo a la versión 4.6.1 o posterior y vuelva a ejecutar la cmdlet(s).
+    **Solución:** El conector para la nube 2,1 y versiones posteriores requieren .NET Framework 4.6.1 o posterior. Actualiza .NET Framework en el dispositivo a la versión 4.6.1 o posterior y vuelve a ejecutar el cmdlet (s).
 
-- **Problema: Con la nube conector Edition 2.1, al ejecutar Install-CcAppliance, recibirá un mensaje de error como: "no se pudo instalar la nueva instancia con error: no se puede establecer el"Estado"porque sólo cadenas se pueden utilizar como valores para establecer las propiedades de XmlNode"**
+- **Problema: con Cloud Connector Edition 2,1, cuando se ejecuta install-CcAppliance, recibe un mensaje de error como: "error al instalar una nueva instancia con error: no se puede establecer" State "porque solo se pueden usar cadenas como valores para establecer las propiedades de XmlNode"**
 
-   **Resolución:** En Cloudconnector.ini, en la sección [Common], agregue la configuración de "Estado" como sigue: CountryCode = US estado = ciudad WA = Redmond
+   **Solución:** En Cloudconnector. ini, en la sección [Common], agregue la configuración "State" como se muestra a continuación: CountryCode = Estados Unidos = WA City = Redmond
 
-   No es obligatorio para la línea de "Estado" tiene valor, sin embargo, la línea de "Estado" no se puede quitar el archivo Cloudconnector.ini.
+   No es obligatorio que la línea "State" tenga valor; sin embargo, la línea "State" no se puede quitar del archivo Cloudconnector. ini.
 
-- **Problema: Recibe el siguiente mensaje de error "Dismount-WindowsImage: no se pudo Dismount-WindowsImage. Código de error = 0xc1550115 "al instalar o actualizar la edición de conector en la nube.**
+- **Problema: recibe el siguiente mensaje de error "dimount-WindowsImage: dimount-WindowsImage. Código de error = 0xc1550115 "al instalar o actualizar Cloud Connector Edition.**
     
-    **Resolución:** Iniciar una consola de PowerShell como administrador, ejecute "DISM-Cleanup-Wim'". Esto va a limpiar todas las imágenes con problemas. Vuelva a ejecutar Install-CcAppliance o espere a que los bits actualizar automáticamente.
+    **Solución:** Inicie una consola de PowerShell como administrador, ejecute "DISM-Cleanup-Wim" ". De esta forma, se limpiarán todas las imágenes con problemas. Ejecute install-CcAppliance de nuevo o espere a que los bits se actualicen automáticamente.
     
-- **Problema: Implementación del primer dispositivo conector en la nube en un entorno de alta disponibilidad se produce un error**
+- **Problema: no se puede implementar el primer dispositivo del conector de nube en un entorno de alta disponibilidad**
     
-    **Resolución:** Los pasos que seguir dependen de la razón del error en la implementación:
+    **Solución:** Los pasos que realice dependerán del motivo por el que se produjo el error de implementación:
     
-  - Si se produce un error en el primer dispositivo de conector en la nube y no puede determinar el motivo del error, debe instalar de nuevo el dispositivo hasta que la implementación se realizó correctamente y, a continuación, instale los demás dispositivos.
+  - Si se produce un error en el primer dispositivo del conector de nube y no puede determinar la causa del error, debe instalar el dispositivo de nuevo hasta que la implementación sea correcta y, a continuación, instalar los otros dispositivos.
     
-  - Si se produce un error en el primer dispositivo de conector en la nube con un problema menor, por ejemplo, un problema de certificado externo, es posible que pueda solucionar el problema sin tener que volver a instalar el dispositivo. Se puede, a continuación, el uso de inquilinos PowerShell remoto para marcar la implementación como correcta de la siguiente manera. (También puede usar los siguientes pasos si la finalización correcta de la primera implementación, pero, por algún motivo, el conector de la nube se produce un error informar de la implementación como un éxito.)
+  - Si el primer equipo con el conector de nube falla con un problema leve, como un problema de certificado externo, es posible que pueda solucionar el problema sin volver a instalar el dispositivo. Después, puede usar PowerShell remoto de inquilino para marcar la implementación como correcta de la siguiente manera. (También puede usar los siguientes pasos si la primera implementación se realizó correctamente, pero, por algún motivo, el conector de nube no puede informar de la implementación como un éxito).
     
-  - Para obtener la identidad (GUID) del primer dispositivo conector en la nube, ejecute el cmdlet Get-CsHybridPSTNAppliance.
+  - Para obtener la identidad (GUID) del primer dispositivo de conector de nube, ejecute el cmdlet Get-CsHybridPSTNAppliance.
     
-  - Para marcar el dispositivo implementado como correctamente, ejecute el Set-CsCceApplianceDeploymentStatus como sigue:
+  - Para marcar el dispositivo como implementado correctamente, ejecute Set-CsCceApplianceDeploymentStatus de la siguiente manera:
     
   ```
   Set-CsCceApplianceDeploymentStatus -Identity <Appliance Identity GUID> -Action Deploy -Status Finished
@@ -393,38 +393,38 @@ A continuación se muestran soluciones para problemas habituales:
     
    Para obtener información sobre cómo actualizar manualmente su implementación de Cloud Connector, consulte la siguiente sección.
     
-- **Problema: Al conector de la nube se actualiza a una nueva compilación, cmdlets de conector en la nube no se actualizan.** En ocasiones, esto ocurre si una ventana de PowerShell se deja abierta cuando se produzca la actualización automática.
+- **Problema: cuando el conector de nube se actualiza a una nueva compilación, los cmdlets de conector de nube no se actualizan.** Esto sucede a veces si se deja abierta una ventana de PowerShell cuando se produce la actualización automática.
     
-  **Resolución:** Para cargar los cmdlets actualizados, puede hacer lo siguiente:
+  **Solución:** Para cargar los cmdlets actualizados, puede realizar cualquiera de los pasos siguientes:
     
-   - Cierre de PowerShell en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.
+   - Cierre PowerShell en el dispositivo de conector de nube y, a continuación, vuelva a abrir PowerShell.
     
-     - O bien, puede ejecutar Import-Module CloudConnector-Force. 
+     - También puede ejecutar Import-Module CloudConnector-Force. 
  
--   **Problema: "el término 'Stop-CsWindowsService' no se reconoce como el nombre de un cmdlet, función, archivo de secuencia de comandos o programa ejecutable." error al intentar ejecutar el cmdlet CcUpdate de ENTRAR.**
+-   **Problema: "el término ' Stop-CsWindowsService ' no se reconoce como el nombre de un cmdlet, una función, un archivo de script o un programa ejecutable". error al intentar ejecutar el cmdlet Enter-CcUpdate.**
 
-    **Resolución:** Elimine el archivo de HOME\AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache $.
-PowerShell crea este archivo como una memoria caché de los cmdlets de los módulos que se encuentre por lo que no es necesario que volver a analizar cada vez como de todos los módulos que puedan hacer cosas realmente lento. Probablemente, hubo algunos daños en el archivo que proporcionan resultados engañosos para PowerShell cuando estaba leyendo de la memoria caché.
+    **Solución:** Elimine el archivo $HOME \AppData\Local\Microsoft\Windows\PowerShell\ModuleAnalysisCache.
+PowerShell crea este archivo como una caché de cmdlets de los módulos que encuentra, de modo que no es necesario volver a analizar todos los módulos cada vez, ya que esto ralentizaría la velocidad. Lo más probable es que haya daños en los archivos que proporcionaron resultados engañosos a PowerShell cuando se leían de esa caché.
 
--   **Problema: "Import-Module CloudConnector" genera error "Import-Module: el módulo especificado"CloudConnector"no se cargó porque se encontró ningún archivo de módulo válido en cualquier directorio module"**
+-   **Problema: "Import-Module CloudConnector" genera el error "Import-Module: el módulo especificado" CloudConnector "no se cargó porque no se encontró ningún archivo de módulo válido en ningún directorio de módulo"**
 
-    **Solución:**
-    - Validar que en realidad el módulo CloudConnector existe en c:\Program Files\WindowsPowerShell\Modules
+    **Solution**
+    - Valide que el módulo CloudConnector exista bajo C:\Archivos de Files\WindowsPowerShell\Modules
     
-    - Después de validar ese módulo CloudConnector existe en esta ubicación, se puede cambiar la variable de entorno PSModulePath almacenar la ruta de acceso a las ubicaciones de los módulos:
+    - Después de validar que el módulo CloudConnector existe en esta ubicación, la variable de entorno PSModulePath que almacena la ruta de acceso a las ubicaciones de los módulos se puede cambiar:
     
-     a. Cambio temporal: inicio Powershell como administrador y ejecute el comando siguiente: $env: PSModulePath = $env: PSModulePath + "; C:\Program Files\WindowsPowerShell\Modules\"
+     a. Cambio temporal: inicie PowerShell como administrador y ejecute el siguiente comando: $env:P SModulePath = $env:P SModulePath + ". C:\Archivos de Files\WindowsPowerShell\Modules\"
         
-     b. Para cambiar persistente, inicie PowerShell como administrador y ejecutar los siguientes comandos, uno a uno: $CurrentValue = [Environment]:: GetEnvironmentVariable("PSModulePath", "Machine") SetEnvironmentVariable("PSModulePath", $CurrentValue + "; C:\Program Files\WindowsPowerShell\Modules","Equipo")
+     b. Para que el cambio sea persistente, inicie PowerShell como administrador y ejecute los siguientes comandos, uno por uno: $CurrentValue = [Environment]:: GetEnvironmentVariable ("PSModulePath", "Machine") SetEnvironmentVariable ("PSModulePath", $CurrentValue + "; C:\Archivos de Files\WindowsPowerShell\Modules "," equipo ")
 
     
-## <a name="install-windows-updates-manually"></a>Instalar manualmente las actualizaciones de Windows
+## <a name="install-windows-updates-manually"></a>Instalar actualizaciones de Windows manualmente
 
-Si no quiere usar actualizaciones automáticas en su entorno, siga estos pasos para comprobar si existen actualizaciones de Windows y aplicarlas manualmente. Puede ser necesario reiniciar el servidor para la comprobación e instalación de actualizaciones de Windows. Cuando se reinicia un servidor de host, los usuarios no podrán utilizar el conector de la nube para realizar o recibir llamadas. Puede comprobar si existen actualizaciones e instalarlas de forma manual a fin de controlar en qué momento deben producirse, y después reiniciar las máquinas según la necesidad durante los tiempos que usted elija para evitar interrupciones de los servicios.
+Si no quiere usar actualizaciones automáticas en su entorno, siga estos pasos para comprobar si existen actualizaciones de Windows y aplicarlas manualmente. Puede ser necesario reiniciar el servidor para la comprobación e instalación de actualizaciones de Windows. Cuando se reinicia un servidor host, los usuarios no podrán usar el conector de nube para realizar o recibir llamadas. Puede comprobar si existen actualizaciones e instalarlas de forma manual a fin de controlar en qué momento deben producirse, y después reiniciar las máquinas según la necesidad durante los tiempos que usted elija para evitar interrupciones de los servicios.
   
-Para comprobar manualmente si existen actualizaciones, conecte cada servidor host y abra el **Panel de control**. Seleccione **sistema y seguridad \>Windows Update**y, a continuación, administrar las actualizaciones y se reinicia según corresponda para su entorno de servidor.
+Para comprobar manualmente si existen actualizaciones, conecte cada servidor host y abra el **Panel de control**. Seleccione **Windows Update System \>and Security**y, a continuación, administre las actualizaciones y los reinicios del servidor según corresponda para su entorno.
   
-- Si existe solo un dispositivo en el sitio, conecte cada máquina virtual y abra el **Panel de control**. Seleccione **sistema y seguridad \>Windows Update**y, a continuación, configurar las actualizaciones y el servidor se reinicia según corresponda.
+- Si existe solo un dispositivo en el sitio, conecte cada máquina virtual y abra el **Panel de control**. Seleccione **Windows Update System \>and Security**y, a continuación, configure las actualizaciones y los reinicios del servidor según corresponda.
     
 - Si hay más de un dispositivo en el sitio, los usuarios no pueden acceder a la instancia que se actualiza y reinicia durante las actualizaciones. Estos se conectarán con otras instancias de la implementación hasta que todas las máquinas virtuales y todos los servicios de Skype Empresarial se inicien en las máquinas virtuales después de completadas las actualizaciones. Para evitar cualquier posible interrupción en el servicio, puede quitar la instancia de HA mientras aplica las actualizaciones y restaurarla cuando se completen. Para ello, realice lo siguiente:
     
@@ -448,20 +448,20 @@ Para comprobar manualmente si existen actualizaciones, conecte cada servidor hos
 
 Para implementaciones de varios sitios, siga los pasos destinados a un único sitio para cada sitio de la implementación aplicando las actualizaciones de a uno por vez.
   
-## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>Sugerencias al instalar el software antivirus en el equipo host de conector en la nube
+## <a name="tips-when-installing-anti-virus-software-on-the-cloud-connector-host-machine"></a>Sugerencias al instalar el software antivirus en el equipo host del conector de nube
 
-Si necesita instalar un software antivirus en el equipo host de conector en la nube, debe agregar las exclusiones siguientes:
+Si necesita instalar software antivirus en el equipo host del conector de nube, debe agregar las siguientes exclusiones:
   
-- Directorio de dispositivo local en cada equipo.
+- Directorio local del equipo en cada equipo.
     
-- Directorio de sitio remoto en cada equipo.
+- Directorio de sitios remotos en cada equipo.
     
-- Directorio de sitio local en el equipo hospeda la carpeta raíz del sitio compartido.
+- El directorio de sitios locales del equipo hospeda la carpeta raíz del sitio compartido.
     
-- %ProgramFiles%\Skype para Business Edition de conector en la nube
+- %ProgramFiles%\Skype para Business Cloud Connector Edition
     
 - %ALLUSERSPROFILE%\CloudConnector
     
 - %ProgramFiles%\WindowsPowerShell\Modules\CloudConnector
     
-- El proceso de Microsoft.Rtc.CCE.ManagementService.exe.
+- El proceso Microsoft. RTC. CCE. ManagementService. exe.

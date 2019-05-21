@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01b62253-2aaf-43ed-9d63-804e31edc522
 description: 'El cmdlet Start-CcLogging genera el registro de llamadas entrantes y salientes de un dispositivo de Skype Empresarial Cloud Connector Edition. '
-ms.openlocfilehash: 2a7d859851ae8433bde0b86f797e257de29f74f4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 6e77ff347ca72a9aa31ad7bcb5a0330a8ea17a9a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892507"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286925"
 ---
 # <a name="start-cclogging"></a>Start-CcLogging
  
@@ -44,7 +44,7 @@ Start-CcLogging
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Start-CcLogging proporciona una manera para que los administradores empezar a registrar las llamadas entrantes y salientes en un dispositivo de conector en la nube. De manera predeterminada, el registro se detendrá automáticamente después de cuatro horas.
+El cmdlet Start-CcLogging permite a los administradores iniciar el registro de llamadas entrantes y salientes en un dispositivo de conector de nube. De manera predeterminada, el registro se detendrá automáticamente después de cuatro horas.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

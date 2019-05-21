@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
-ms.openlocfilehash: a4ce2c9ab578111cb261d2857c65d3264e9dd436
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 27df8977f9651ac363493d57a306c4355da3aebb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888587"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284308"
 ---
 # <a name="install-database-create-mirror-database-page"></a>Instalar página de creación de base de datos de reflejo de la base de datos
  
 Esta documentación es preliminar y está sujeta a cambios. Los temas en blanco que se incluyen actúan como marcadores de posición.
   
-Si opta por no instalar las bases de datos de reflejo de SQL Server durante el proceso de publicación, instalarlos mediante **Instalar base de datos** en un derecho, haga clic en cualquier nodo en el generador de topología. Seleccione el almacén de reflejo para instalar. Haga clic en **configuración** para definir la configuración avanzada.
+Si decide no instalar las bases de datos reflejadas de SQL Server durante el proceso de publicación, puede instalarlas con **instalar base de datos** desde el botón secundario del mouse en cualquier nodo del generador de topologías. Seleccione el almacén de reflejo que desea instalar. Haga clic en **configuración** para definir cualquier configuración avanzada.
   
 ## <a name="see-also"></a>Vea también
 

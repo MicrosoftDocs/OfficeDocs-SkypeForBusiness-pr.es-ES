@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Vea cómo se seleccionan los idiomas del operador automático de audioconferencias para un número de audioconferencia en Microsoft Teams.
-ms.openlocfilehash: ce0462dd1e855402aee424a5f677e37efba1a7e3
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 67a542743c05c8042626d0bb0b52830e07305827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204891"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34305304"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Establecer los idiomas del operador automático para Audioconferencia en Microsoft Teams
 
@@ -35,23 +35,23 @@ El operador automático de audioconferencias para Microsoft Teams puede saludar 
 Elija un idioma principal y hasta cuatro idiomas secundarios. El operador automático usará el idioma principal que configure en primer lugar y los idiomas secundarios, en el orden que seleccione. 
   
 > [!NOTE]
->  Sólo puede cambiar los idiomas de números de conferencia de audio de la categoría dedicada. No se puede cambiar los idiomas de número de conferencia de audio compartidos.
+>  Solo puede cambiar los idiomas de los números de audioconferencia que son de la categoría dedicada. Los idiomas del número de audioconferencia compartido no se pueden cambiar.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Configurar la conferencia de idiomas de operador automático
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
+![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, vaya a **Reuniones** > **Puentes de conferencia**.
 
-2. Seleccione un número de teléfono de conferencia de audio **dedicadas** de la lista y, en la parte superior de la página, haga clic en **Editar**. Sólo es posible cambiar los idiomas de números de conferencias de audio dedicada. La opción **Editar** sólo se muestra cuando se selecciona un número de conferencia de audio dedicada.
+2. Seleccione un número de teléfono de conferencias de audio **dedicado** de la lista y, en la parte superior de la página, haga clic en **Editar**. Solo es posible cambiar los idiomas de los números de audioconferencias dedicados. La opción **Editar** solo se muestra cuando se selecciona un número de conferencia de audio dedicado.
 
-3. En el panel de la derecha, seleccione el idioma predeterminado que desee y los idiomas alternativos. 
+3. En el panel de la derecha, elija el idioma predeterminado que desee y cualquier otro idioma alternativo. 
  
     > [!NOTE]
-    > Se enumeran los predeterminados y los idiomas alternativos que se admiten. El orden en que los seleccione en las listas de será el orden de los idiomas que se presentan a los autores de llamadas. 
+    > Se enumeran los idiomas alternativos y predeterminados que se admiten. El orden en que se seleccionan en las listas será el orden de los idiomas que se presentan a las personas que llaman. 
 
 4. Haga clic en **Guardar **.
 
@@ -66,7 +66,7 @@ Elija un idioma principal y hasta cuatro idiomas secundarios. El operador autom�
     
 ## <a name="want-to-use-windows-powershell"></a>¿Desea usar Windows PowerShell?
 
-Vea la [referencia de PowerShell de los equipos de Microsoft](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) para obtener más información.
+Para obtener más información, vea la [referencia de Microsoft Teams PowerShell](https://docs.microsoft.com/powershell/module/teams/?view=teams-ps) .
   
 ## <a name="related-topics"></a>Temas relacionados
 

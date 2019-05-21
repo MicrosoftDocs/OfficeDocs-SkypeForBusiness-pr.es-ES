@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/27/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
-description: 'Troncos con el botón secundario en el generador de topología para llevar a cabo lo siguiente:'
-ms.openlocfilehash: c3cf204f8f646e1727df9869c4177d22f1dae085
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Haga clic con el botón derecho en los troncos del generador de topología para realizar lo siguiente:'
+ms.openlocfilehash: b774ceb4bb38f419234f86f84d06db86e0bf5e66
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33903435"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282213"
 ---
 # <a name="trunks-scope-node"></a>Nodo de ámbito de troncos
  
-**Troncos** de clic con botón secundario en el generador de topología para llevar a cabo lo siguiente:
+Haga clic con el botón derecho en los **troncos** del generador de topología para realizar lo siguiente:
   
 - **Nuevo tronco**: inicia el asistente **Definir nuevo tronco**, que sirve para definir un nuevo tronco SIP.
     

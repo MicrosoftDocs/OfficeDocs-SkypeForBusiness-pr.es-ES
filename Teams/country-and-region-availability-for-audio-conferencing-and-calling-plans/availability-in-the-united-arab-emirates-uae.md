@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: b6d16763a3d491a7addfdcce25b969c882a96db9
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para los Emiratos Árabes Unidos.
+ms.openlocfilehash: e4fe196503217dbefac7e55d5e23962c6207bd98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541387"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281934"
 ---
 # <a name="availability-in-the-united-arab-emirates-uae"></a>Disponibilidad en Emiratos Árabes Unidos
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Emiratos Árabes Unidos los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para los Emiratos Árabes Unidos.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

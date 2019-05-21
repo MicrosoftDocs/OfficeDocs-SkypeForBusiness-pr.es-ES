@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddFrontEndAssociationsPage
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 95620425-defd-47fd-a5c0-e4a283d812a5
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Puede habilitar la compatibilidad de características específicas que requieren la implementación de otros servidores asociando ahora los roles de servidor con el grupo de servidores front-end. Asimismo, puede asociar roles de servidor con el grupo de servidores front-end en otro momento. Los roles de servidor que se pueden asociar con un grupo de servidores front-end incluyen los siguientes:'
-ms.openlocfilehash: ceda767cbc72da052e158d9bf2e2d733833127e3
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: f095d4a7498c34b3d107377c06ba95fa90effa77
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912032"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303700"
 ---
 # <a name="add-front-end-associations"></a>Agregar asociaciones front-end
 

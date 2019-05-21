@@ -1,27 +1,27 @@
 ---
-title: Conferencia de RTC informe resumen en Skype para Business Server
+title: Informe Resumen de la Conferencia RTC en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
-description: 'Resumen: Información sobre el informe resumen de conferencia de RTC en Skype para Business Server.'
-ms.openlocfilehash: 29395fe2cbaf8bf82d89c7d1fae50542c5917e39
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de Resumen de la Conferencia RTC en Skype empresarial Server.'
+ms.openlocfilehash: 8b8b108243e257c414e9d6bb101e69fc9701d82e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925211"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279987"
 ---
-# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Conferencia de RTC informe resumen en Skype para Business Server
+# <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Informe Resumen de la Conferencia RTC en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe resumen de conferencia de RTC en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe Resumen de la Conferencia RTC en Skype empresarial Server.
   
-En Skype para Business Server, una conferencia de RTC es cualquier conferencia en la que al menos un participante se conecta a la parte de audio mediante el uso de un teléfono RTC (red telefónica conmutada). (Un teléfono RTC es un teléfono "fijo", un teléfono móvil o cualquier otro número de teléfono que no hace uso de la voz sobre IP.) Aunque se conoce como de conferencias RTC en los informes de supervisión, estas conferencias, posiblemente, se conocen con más frecuencia como conferencias de acceso telefónico.
+En Skype empresarial Server, una conferencia RTC es cualquier conferencia en la que al menos un participante llama a la parte de audio mediante un teléfono con RTC (red de telefonía pública conmutada). (Un teléfono PSTN es un "teléfono fijo", un teléfono móvil o cualquier otro teléfono que no use voz por IP). A pesar de que se conocen como conferencias de RTC en los informes de supervisión, es posible que estas conferencias sean más conocidas como conferencias de acceso telefónico.
   
 El informe de resumen de conferencias RTC proporciona información sobre todas las conferencias RTC mantenidas en su organización (es decir, todas las conferencias en las que hubo al menos un usuario de acceso telefónico). El informe incluye información sobre la cantidad total de conferencias RTC, la cantidad total de personas que participaron en dichas conferencias y, quizás lo más importante, la cantidad total de usuarios de acceso telefónico (métrica Total de participantes RTC).
   
@@ -31,9 +31,9 @@ El informe de resumen de conferencias RTC solo es accesible desde la página pri
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Optimización del uso del informe de resumen de conferencias RTC
 
-Para determinar el porcentaje de todas las conferencias que incluyen usuarios con acceso telefónico, compare el valor de la métrica de conferencias RTC Total con la métrica Total de conferencias que se encuentra en el [Informe de resumen de conferencia en Skype para Business Server](conference-summary-report.md).
+Para determinar el porcentaje de todas las conferencias que incluyen usuarios de acceso telefónico, compare el valor de la métrica total de conferencias RTC con la métrica total de conferencias que se encuentra en el [Informe de Resumen de conferencia en Skype empresarial Server](conference-summary-report.md).
   
-Si no ve la cantidad de conferencias RTC que esperaba ver, tenga en cuenta que la capacidad para organizar una conferencia que admita usuarios de acceso telefónico depende de la directiva de conferencias que se haya asignado a un usuario; si muy pocos usuarios pueden organizar conferencias RTC, obviamente verá pocas conferencias RTC. Para comprobar rápidamente cuál de las directivas de conferencia (si hay alguno) permiten a los usuarios programar conferencias RTC ejecutando el siguiente comando desde dentro de la Skype de consola de administración de servidor empresarial:
+Si no ve la cantidad de conferencias RTC que esperaba ver, tenga en cuenta que la capacidad para organizar una conferencia que admita usuarios de acceso telefónico depende de la directiva de conferencias que se haya asignado a un usuario; si muy pocos usuarios pueden organizar conferencias RTC, obviamente verá pocas conferencias RTC. Puede comprobar rápidamente cuáles de las directivas de conferencia (si hay alguna) permite a los usuarios programar conferencias RTC ejecutando el siguiente comando desde el shell de administración de Skype empresarial Server:
   
 ```
 Get-CsConferencingPolicy | Select-Object Identity, EnableDialInConferencing

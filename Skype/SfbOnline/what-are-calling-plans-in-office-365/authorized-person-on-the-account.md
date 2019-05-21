@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,22 +20,22 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfoAuthorizingPerson
 ms.custom:
 - Calling Plans
-description: Obtenga información sobre por qué necesita agregar a una persona autorizada que puede realizar cambios en la cuenta cuando se usa el Asistente para nuevo pedido de puerto número Local.
-ms.openlocfilehash: 0220e999a2454cd4fb80fadd19678e9108e4707b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Obtenga información sobre por qué necesita agregar una persona autorizada que pueda realizar cambios en la cuenta cuando use el Asistente para la solicitud de portabilidad de nuevo número local.
+ms.openlocfilehash: 58348e1220d0534f2c8ec282c65496d71707a35c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233239"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34303865"
 ---
 # <a name="authorized-person-on-the-account"></a>Persona autorizada en la cuenta
 
-En el Asistente para **Nuevo pedido de puerto número Local** , debe escribir el nombre de la persona que está autorizado para realizar cambios en la cuenta con el proveedor de servicios o un operador. El nombre no se usa para procesar el orden de puerto, pero se usa en el caso de un litigio, o si algo es incorrecta cuando se transfieren los números. Esta persona será responsable de la carta de autorización (LOA) para un pedido de puerto.
+En el Asistente para **nueva solicitud de portabilidad de número local** , debe escribir el nombre de la persona autorizada para realizar cambios en la cuenta con el proveedor de servicios u operador. El nombre no se usa para procesar el orden de los puertos, pero se usa en caso de una disputa, o si algo es incorrecto cuando se transportan los números. Esta persona será responsable de la carta de autorización (LOA) de una solicitud de portabilidad.
   
 > [!NOTE]
-> No debe tener el nombre completo, debido a que el cuadro está limitado a 15 caracteres (espacios incluidos), no retrasar o cancelar el orden de puerto. 
+> No tiene el nombre completo, porque el cuadro está limitado a 15 caracteres (incluidos los espacios), no retrasará ni cancelará el pedido de los puertos. 
   
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obtener instrucciones paso a paso, consulte [transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

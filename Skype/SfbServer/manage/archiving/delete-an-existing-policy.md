@@ -1,33 +1,33 @@
 ---
-title: Eliminar una directiva en Skype de archivado para Business Server existente
+title: Eliminar una directiva de archivado existente en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
-description: 'Resumen: Obtenga información sobre cómo eliminar una directiva de archivado para Skype para Business Server.'
-ms.openlocfilehash: ca78224b485cb842fe8c794a2975a418239d9583
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a eliminar una directiva de archivado para Skype empresarial Server.'
+ms.openlocfilehash: 04ea9db10a2f95ba5010471f262d58c269c173d1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885041"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278415"
 ---
-# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Eliminar una directiva en Skype de archivado para Business Server existente
+# <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Eliminar una directiva de archivado existente en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo eliminar una directiva de archivado para Skype para Business Server.
+**Resumen:** Aprenda a eliminar una directiva de archivado para Skype empresarial Server.
   
-Puede eliminar una directiva de usuario o de sitio, pero no puede eliminar una directiva global. Si se elimina la directiva global, Skype para Business Server restablece automáticamente la directiva a los valores predeterminados.
+Puede eliminar una directiva de usuario o de sitio, pero no puede eliminar una directiva global. Si elimina la directiva global, Skype empresarial Server restablece automáticamente la Directiva a los valores predeterminados.
   
 ## <a name="delete-a-policy-by-using-the-control-panel"></a>Eliminar una directiva con el Panel de control
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
@@ -57,4 +57,4 @@ Este comando quita todas las directivas de archivado donde se deshabilitó el ar
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) .
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove-CsArchivingPolicy](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) .

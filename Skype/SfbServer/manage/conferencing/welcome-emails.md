@@ -1,29 +1,29 @@
 ---
-title: Enviar correo electrónico de bienvenida para el marcado de los usuarios de Skype para Business Server
+title: Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico local en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
-description: 'Resumen: Obtenga información sobre cómo dar la bienvenida a los usuarios a la conferencia de acceso telefónico en Skype para Business Server.'
-ms.openlocfilehash: 4cf05349e7539a4bd5d1551a19a59f839feb41f8
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre cómo hacer que los usuarios tengan conferencias de acceso telefónico local en Skype empresarial Server.'
+ms.openlocfilehash: db2e8bd84fa6a03bad845a87f7fb3c1532ae7ec2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924916"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280309"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida para el marcado de los usuarios de Skype para Business Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Enviar correo electrónico de bienvenida a los usuarios de acceso telefónico local en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo dar la bienvenida a los usuarios a la conferencia de acceso telefónico en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo hacer que los usuarios tengan conferencias de acceso telefónico local en Skype empresarial Server.
   
 Después de configurar la conferencia de acceso telefónico local y de comprobar que funciona correctamente, necesita definir números de identificación personal (PIN) iniciales para usuarios e informar a los usuarios sobre la disponibilidad de la característica. Puede incluir instrucciones introductorias como el PIN inicial y el vínculo a la página web de configuración de conferencia de acceso telefónico local. 
   
-Normalmente, use el cmdlet **Set-CsClientPin** para restablecer el PIN, pero puede usar el procedimiento de este tema si desea enviar un correo electrónico de bienvenida introductorio con la información de PIN. SI no quiere enviar el correo electrónico, puede usar **Set-CsClientPin**.
+Normalmente, use el cmdlet **set-CsClientPin** para restablecer los pin, pero puede usar el procedimiento de este tema si desea enviar un mensaje de correo electrónico de bienvenida de presentación con la información del PIN. SI no quiere enviar el correo electrónico, puede usar **Set-CsClientPin**.
   
 Puede usar el script **Set-CsPinSendCAWelcomeMail** para establecer el PIN y enviar un mensaje de bienvenida a un único usuario. De forma predeterminada, el script no restablece un PIN si ya está establecido, pero puede usar el parámetro Force para imponer el restablecimiento del PIN. El mensaje de correo electrónico se envía mediante el Protocolo simple de transferencia de correo (SMTP).
   
@@ -52,9 +52,9 @@ Puede crear un script que ejecute repetidamente el script **Set-CsPinSendCAWelco
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** De forma predeterminada, la secuencia de comandos utiliza el valor de la variable entorno reservadas **$PSEmailServer** para este parámetro. Si la variable **$PSEmailServer** no está establecida, debe especificar este parámetro.
+**SmtpServer** De forma predeterminada, la secuencia de comandos usa el valor de la variable de entorno reservada **$PSEmailServer** para este parámetro. Si la variable **$PSEmailServer** no está establecida, debe especificar este parámetro.
     
-**Credenciales** De forma predeterminada, la secuencia de comandos usa las credenciales del usuario actual. Si el usuario actual no tiene permisos para enviar un mensaje de correo electrónico en nombre de la dirección que aparece en "Desde" (From) especificada, debe especificar este parámetro. Como regla general, especifique este parámetro si no especifica su dirección de correo electrónico como la dirección que aparece en "Desde" (From).
+**Credencial** De forma predeterminada, la secuencia de comandos usa las credenciales del usuario actual. Si el usuario actual no tiene permisos para enviar un mensaje de correo electrónico en nombre de la dirección que aparece en "Desde" (From) especificada, debe especificar este parámetro. Como regla general, especifique este parámetro si no especifica su dirección de correo electrónico como la dirección que aparece en "Desde" (From).
     
 En este ejemplo se crea un PIN y después se envía un mensaje de correo electrónico de bienvenida de Marco a Bob. Usa el texto del mensaje de la plantilla predeterminada y crea el mensaje de correo electrónico en formato HTML. El asunto (Subject) predeterminado es "Bienvenida a la conferencia de acceso telefónico local".
   

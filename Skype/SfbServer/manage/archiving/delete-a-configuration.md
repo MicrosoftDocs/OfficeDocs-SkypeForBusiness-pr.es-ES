@@ -1,25 +1,25 @@
 ---
-title: Eliminar una configuración de archivado en Skype para Business Server
+title: Eliminar una configuración de archivado en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
-description: 'Resumen: Obtenga información sobre cómo eliminar una configuración de archivado en Skype para Business Server.'
-ms.openlocfilehash: 3b6f79247a03beae4abc917d38a6844d67324082
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a eliminar una configuración de archivado en Skype empresarial Server.'
+ms.openlocfilehash: e2a79949da21c9b3b8e94019375ea0e1f0887353
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33884983"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286200"
 ---
-# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Eliminar una configuración de archivado en Skype para Business Server
+# <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Eliminar una configuración de archivado en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo eliminar una configuración de archivado en Skype para Business Server.
+**Resumen:** Aprenda a eliminar una configuración de archivado en Skype empresarial Server.
   
 Es posible eliminar una configuración de sitio o de grupo, pero no puede eliminar la configuración global. Si elimina la configuración global, esta se restablece automáticamente a sus valores predeterminados.
   
@@ -29,7 +29,7 @@ Para eliminar la configuración de archivado con el Panel de control:
   
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna. 
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
     
@@ -68,4 +68,4 @@ También puede usar el cmdlet **Remove-CsArchivingConfiguration** para restablec
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Para obtener más información, vea el tema de ayuda para el cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) .

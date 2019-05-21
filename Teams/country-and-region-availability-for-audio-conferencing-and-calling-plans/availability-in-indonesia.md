@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Indonesia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 1bed52cc61f745249ce72bc913a8227a1e1a4358
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Indonesia.
+ms.openlocfilehash: 9a8dd9a6b6f38f47224090579da332cdd0ce7074
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248106"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282925"
 ---
 # <a name="availability-in-indonesia"></a>Disponibilidad en Indonesia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Indonesia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Indonesia.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

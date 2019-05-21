@@ -1,5 +1,5 @@
 ---
-title: Servidores proxy para los equipos o Skype para profesionales en línea
+title: Servidores proxy para equipos o Skype empresarial online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 search.appverid: MET150
 ms.collection: M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -18,27 +18,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
-description: En este artículo se proporciona información acerca del uso de un servidor proxy con los equipos o Skype para la empresa.
-ms.openlocfilehash: a09a1bf53fe4d1a38742856c051a80e5928f36ef
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este artículo proporciona información sobre el uso de un servidor proxy con Teams o Skype empresarial.
+ms.openlocfilehash: e0733393a40c2d2c2fd62d986a4b4d66d0c2c35f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246121"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34304373"
 ---
-# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para los equipos o Skype para profesionales en línea
+# <a name="proxy-servers-for-teams-or-skype-for-business-online"></a>Servidores proxy para equipos o Skype empresarial online
 
-En este artículo se proporcionan instrucciones sobre el uso de un servidor proxy con los equipos o Skype para la empresa.
+Este artículo proporciona instrucciones sobre cómo usar un servidor proxy con Teams o Skype empresarial.
   
 ## <a name="not-using-a-proxy-server-is-recommended"></a>Se recomienda no usar un servidor proxy
 
-Cuando se trata de los equipos o Skype para el tráfico de negocios a través de los servidores proxy, Microsoft recomienda no usar servidores proxy. Los servidores proxy no realiza los equipos o Skype para la empresa más seguro debido a que el tráfico ya está cifrado.
+Cuando se trata de equipos o de Skype empresarial por proxy, Microsoft recomienda omitir los servidores proxy. Los servidores proxy no hacen que los equipos ni Skype empresarial sean más seguros porque el tráfico ya está cifrado.
   
-Y tener un proxy puede provocar problemas. Se pueden introducir problemas relacionados con el rendimiento en el entorno a través de latencia y pérdida de paquetes. Cuestiones como éstas dará como resultado una experiencia negativa en dichas equipos o Skype para escenarios empresariales como audio y vídeo, donde las secuencias en tiempo real son esenciales.
+Y tener un proxy puede causar problemas. Los problemas relacionados con el rendimiento pueden introducirse en el entorno a través de la latencia y la pérdida de paquetes. Problemas como estos provocarán una experiencia negativa en esos equipos o escenarios de Skype empresarial como audio y vídeo, donde las transmisiones en tiempo real son esenciales.
   
 ## <a name="if-you-need-to-use-a-proxy-server"></a>Si necesita usar un servidor proxy
 
-Algunas organizaciones no tienen ninguna opción para omitir a un servidor proxy para los equipos o Skype para el tráfico de negocio. Si ese es su caso, hay que tener en cuenta los problemas mencionados anteriormente.
+Algunas organizaciones no tienen la opción de omitir un proxy para el tráfico de equipos o de Skype empresarial. Si ese es su caso, hay que tener en cuenta los problemas mencionados anteriormente.
   
 Microsoft también recomienda:
   
@@ -48,7 +48,7 @@ Microsoft también recomienda:
     
 - Permitir el tráfico UDP
     
-- Sigue las otras recomendaciones de nuestras pautas de redes:
+- Siguiendo el resto de recomendaciones de nuestras directrices de redes:
     
   - [Calidad de medios y rendimiento de conectividad de la red en Skype Empresarial Online](https://support.office.com/en-us/article/Media-Quality-and-Network-Connectivity-Performance-in-Skype-for-Business-Online-5fe3e01b-34cf-44e0-b897-b0b2a83f0917)
     

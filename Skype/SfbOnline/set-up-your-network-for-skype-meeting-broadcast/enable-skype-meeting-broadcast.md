@@ -10,35 +10,35 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - SMB
-description: Antes de que las personas de su organización pueden usar Difundir presentación de reunión de Skype, debe habilitarlo. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: 699b82af07b263331ee5508326bf3e7ed015848e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
+ms.openlocfilehash: bd633b919bc916c1e64620d008e2ec9081656041
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226823"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280807"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
-Antes de que las personas de su organización pueden usar Difundir presentación de reunión de Skype, debe habilitarlo. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
+Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un [socio de Microsoft](https://go.microsoft.com/fwlink/?linkid=391089) para que lleve a cabo este paso por usted.
 
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     
 2. En el Centro de administración de Office 365, vaya a **Centros de administración** > **Skype Empresarial**.
     
-3. En el **Skype para el centro de administración de negocio**, vaya a **las reuniones en línea** > **difundir las reuniones**y, a continuación, seleccione **Habilitar la difusión de reunión de Skype**.
+3. En el **centro de administración de Skype empresarial**, vaya a reuniones de > **difusión**de **reuniones en línea**y, a continuación, seleccione **Habilitar difusión de reunión de Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar la Difusión de reunión de Skype mediante PowerShell
 
@@ -52,7 +52,7 @@ Antes de que las personas de su organización pueden usar Difundir presentación
     
 5. También necesitará instalar el módulo Windows PowerShell para Skype Empresarial Online que le permite crear una sesión remota de Windows PowerShell que se conecta a Skype Empresarial Online. Este módulo, que solo se admite en equipos de 64 bits, puede descargarse desde el Centro de descarga de Microsoft en [Módulo de Windows PowerShell para Skype Empresarial Online](https://go.microsoft.com/fwlink/?LinkId=294688). Reinicie el equipo cuando se le solicite.
     
-6. En el **Menú Inicio**, elija **Windows PowerShell**.
+6. En el **menú Inicio**, elija **Windows PowerShell**.
     
 7. En la ventana de **Windows PowerShell** y conéctese a su organización de Office 365 ejecutando el siguiente comando:
     
@@ -78,7 +78,7 @@ Antes de que las personas de su organización pueden usar Difundir presentación
    Set-CsBroadcastMeetingConfiguration -EnableBroadcastMeeting $True
    ```
 
-    Puede confirmar que la configuración está habilitada mediante la ejecución de `Get-CsBroadcastMeetingConfiguration` nuevo.
+    Puede confirmar que la configuración está habilitada ejecutando `Get-CsBroadcastMeetingConfiguration` otra vez.
     
      ![Habilitar cmdlet de organización en una Difusión de reunión de Skype.](../images/788515f0-32c9-415a-9235-6bfbe095e6f3.png)
   

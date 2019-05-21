@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 0aaacc05-3430-4579-acbf-d7c7670c3864
 description: El cmdlet Export-CcConfigurationSampleFile exporta un archivo de configuración (.ini) de muestra de Skype Empresarial Cloud Connector Edition al directorio de dispositivo de un dispositivo de Cloud Connector. Puede modificar y cambiar el nombre del archivo que se usará en la implementación.
-ms.openlocfilehash: 3154ff3492899de244c3033e4e35345132d04f20
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 440253bc6b9c4e980a6f7ac4aae0c82ebad05660
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233991"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287387"
 ---
 # <a name="export-ccconfigurationsamplefile"></a>Export-CcConfigurationSampleFile
  
@@ -37,7 +37,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se descarga un archivo de configuración de ejemplo desde el sitio de Microsoft y los escribe en el directorio de dispositivo del dispositivo conector en la nube:
+En el ejemplo siguiente se descarga un archivo de configuración de ejemplo del sitio de Microsoft y se escribe en el directorio del equipo del dispositivo de conector de nube:
   
 ```
 Export-CcConfigurationSampleFile
@@ -46,9 +46,9 @@ Export-CcConfigurationSampleFile
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-La versión actual del conector en la nube, es necesario proporcionar varios parámetros en el archivo .ini; Por ejemplo, parámetros, como las direcciones IP de máquinas virtuales para los componentes de los conectores de la nube, nombres de componente, parámetros de puerta de enlace y así sucesivamente.
+La versión actual del conector de nube requiere que proporcione varios parámetros en el archivo. ini; por ejemplo, parámetros como las direcciones IP de las máquinas virtuales para los componentes del conector de nube, los nombres de componentes, los parámetros de puerta de enlace, etc.
   
-Este cmdlet, cuando se ejecuta en el equipo host del conector en la nube, descarga un archivo .ini de ejemplo con ejemplos de la configuración del sitio de Microsoft. El cmdlet escribe el archivo en el directorio de dispositivo del dispositivo conector en la nube. El directorio de dispositivos se especifica con el cmdlet Set-CcApplianceDirectory.
+Este cmdlet, cuando se ejecuta en la máquina host del conector de nube, descarga un archivo. ini de ejemplo con ejemplos de configuración del sitio de Microsoft. El cmdlet escribe el archivo en el directorio del equipo del dispositivo de conector de nube. El directorio de dispositivos se especifica con el cmdlet Set-CcApplianceDirectory.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

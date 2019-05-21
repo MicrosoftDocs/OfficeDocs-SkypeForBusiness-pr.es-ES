@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,18 +20,18 @@ f1keywords:
 ms.custom:
 - Calling Plans
 description: 'Descubra qué es la validación de direcciones, por qué es importante y de qué forma está relacionada con los servicios y las direcciones de emergencia. '
-ms.openlocfilehash: 85a24cff6f73bc6caaabab6a0efb436105de3a55
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: 8ff704a5702023990b33fe56d840e588c942b2fd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865000"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34302564"
 ---
 # <a name="what-is-address-validation"></a>¿Qué es la validación de direcciones?
 
 Cuando configura Planes de llamada en Office 365, tiene que asignar un número de teléfono y una dirección de emergencia a cada uno de los usuarios.
   
-Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre de la ciudad, mal aún es posible que pasan la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. De ser así, cambiará a validada y después se asignará a un número de teléfono.
+Para validar una dirección postal o civil es necesario comprobar que sea legítima y que tenga el formato correcto. Es posible que una dirección de emergencia parcialmente correcta, como un nombre escrito de la ciudad, pueda seguir pasando la validación. El proceso de validación usa todas las partes de una dirección específica para determinar si contiene suficiente información para redirigir la llamada al centro de emergencias apropiado. De ser así, cambiará a validada y después se asignará a un número de teléfono.
 
 > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

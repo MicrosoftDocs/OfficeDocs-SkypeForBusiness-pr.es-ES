@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:'
-ms.openlocfilehash: 95e736bb9c49fdddfa960ae08d32431348257f8c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Este nodo muestra el nombre de dominio completo (FQDN), los grupos y los servidores asociados, y la información de resistencia de este equipo con la sucursal superviviente. Puede realizar las acciones siguientes:'
+ms.openlocfilehash: 0a3128a18fe663ecef040ef774c873c5e8bd1d07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33916010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275902"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Nodo de ámbito de aplicación de sucursal
  
-El nombre de dominio completo (FQDN), muestra el nodo asociado de información de resistencia acerca de esta aplicación de sucursal con funciones de supervivencia y servidores y grupos de servidores. Puede realizar las acciones siguientes:
+Este nodo muestra el nombre de dominio completo (FQDN), los grupos y los servidores asociados, y la información de resistencia de este equipo con la sucursal superviviente. Puede realizar las acciones siguientes:
   
-- **Editar propiedades**. Se abre la página **Editar propiedades** para esta aplicación de sucursal con funciones de supervivencia, donde puede cambiar el nombre de dominio completo (si ya no está publicada la topología), las asociaciones y la configuración de la resistencia.
+- **Editar propiedades**. Abre la página **Editar propiedades** de este dispositivo de sucursal superviviente, donde puede cambiar el FQDN (si la topología no está ya publicada), las asociaciones y la configuración de resistencia.
     
 - **Eliminar**. Elimina el servidor de la topología.
     
