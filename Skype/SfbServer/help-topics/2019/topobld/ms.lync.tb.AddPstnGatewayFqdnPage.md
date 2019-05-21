@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddPstnGatewayFqdnPage
@@ -12,20 +12,20 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c6135e2a-5d44-4046-bd53-fac4fdf52238
 ROBOTS: NOINDEX, NOFOLLOW
-description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).
-ms.openlocfilehash: 1ac5ed481e61680a37425cdb9a7f3c4f93e96335
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de red de telefonía pública conmutada (RTC) que conectará sus componentes de voz de empresa a una central de conmutación (PBX) RTC o privado.
+ms.openlocfilehash: ef1c4bd1e74b043bb9331398fa125f8692ad64c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33912413"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34306115"
 ---
-# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="bd29a-103">Definir el FQDN de puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="bd29a-103">Define the PSTN Gateway FQDN</span></span>
+# <a name="define-the-pstn-gateway-fqdn"></a><span data-ttu-id="e4e8a-103">Definir el FQDN de puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="e4e8a-103">Define the PSTN Gateway FQDN</span></span>
 
-<span data-ttu-id="bd29a-104">Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de telefónica conmutada (RTC) que conectará los componentes de Enterprise Voice a una RTC o una central de conmutación (PBX).</span><span class="sxs-lookup"><span data-stu-id="bd29a-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
+<span data-ttu-id="e4e8a-104">Especifique el nombre de dominio completo (FQDN) de la puerta de enlace de red de telefonía pública conmutada (RTC) que conectará sus componentes de voz de empresa a una central de conmutación (PBX) RTC o privado.</span><span class="sxs-lookup"><span data-stu-id="e4e8a-104">You specify the fully qualified domain name (FQDN) of the public switched telephone network (PSTN) gateway that will connect your Enterprise Voice components to a PSTN or private branch exchange (PBX).</span></span>
 
-<span data-ttu-id="bd29a-105">Para obtener información detallada, vea [componentes de conectividad de RTC en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span><span class="sxs-lookup"><span data-stu-id="bd29a-105">For details, see [PSTN connectivity components in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
+<span data-ttu-id="e4e8a-105">Para obtener más información, consulte [componentes de conectividad RTC en Skype empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md) .</span><span class="sxs-lookup"><span data-stu-id="e4e8a-105">For details, see [PSTN connectivity components in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/pstn-connectivity.md)</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="bd29a-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="bd29a-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e4e8a-106">Vea también</span><span class="sxs-lookup"><span data-stu-id="e4e8a-106">See also</span></span>
 
-[<span data-ttu-id="bd29a-107">Opciones de implementación de puerta de enlace de RTC</span><span class="sxs-lookup"><span data-stu-id="bd29a-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
+[<span data-ttu-id="e4e8a-107">Opciones de implementación de la puerta de enlace RTC</span><span class="sxs-lookup"><span data-stu-id="e4e8a-107">PSTN Gateway Deployment Options</span></span>](https://technet.microsoft.com/library/d1ab4f74-18aa-40c7-a8cf-ec806cf6e28a.aspx)
