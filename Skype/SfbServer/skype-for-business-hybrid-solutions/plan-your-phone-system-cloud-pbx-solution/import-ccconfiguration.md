@@ -5,22 +5,22 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 10/11/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 461361a0-9aa9-469d-ace0-dc70b95cd4a3
-description: Importa el Skype para la configuración del conector de nube Business Edition desde un archivo local en el servidor de host de conector en la nube.
-ms.openlocfilehash: 497568f45fad6b4363581785bf0be95eabfeaebf
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Importa la configuración de Skype empresarial Cloud Connector Edition de un archivo local al servidor host del conector de nube.
+ms.openlocfilehash: 3e165250b5158513aa683770d5eb1768c0e1e29c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233774"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287282"
 ---
 # <a name="import-ccconfiguration"></a>Import-CcConfiguration
  
-Importa el Skype para la configuración del conector de nube Business Edition desde un archivo local en el servidor de host de conector en la nube.
+Importa la configuración de Skype empresarial Cloud Connector Edition de un archivo local al servidor host del conector de nube.
   
 ```
 Import-CcConfiguration [-Force] [<CommonParameters>]
@@ -31,7 +31,7 @@ Import-CcConfiguration [-Force] [<CommonParameters>]
 
 ### <a name="example-1"></a>Ejemplo 1
 
-El siguiente ejemplo copia la CloudConnector.ini desde el directorio de dispositivo de la instancia del conector en la nube al directorio %SystemDrive%\ProgramData\CloudConnector:
+En el ejemplo siguiente se copia el CloudConnector. ini del directorio del dispositivo de la instancia de Cloud Connector en el directorio%SystemDrive%\ProgramData\CloudConnector:
   
 ```
 Import-CcConfiguration
@@ -40,19 +40,19 @@ Import-CcConfiguration
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="Examples"> </a>
 
-Este cmdlet copia la CloudConnector.ini desde el directorio de dispositivo del dispositivo conector en la nube en el directorio %SystemDrive%\ProgramData\CloudConnector. El directorio de dispositivos se especifica con el cmdlet Set-CcApplianceDirectory. El cmdlet sobrescribirá los archivos existentes en % SystemDrive%\ProgramData\CloudConnector. Este comando se aplica a la nube conector Edition versión 2.0.1 y versiones posteriores.
+Este cmdlet copia el CloudConnector. ini desde el directorio del equipo del dispositivo del conector de nube en el directorio de%SystemDrive%\ProgramData\CloudConnector. El directorio de dispositivos se especifica con el cmdlet Set-CcApplianceDirectory. El cmdlet sobrescribirá cualquier archivo existente en%SystemDrive%\ProgramData\CloudConnector. Este comando se aplica a la versión 2.0.1 de Cloud Connector Edition y posteriores.
   
 ## <a name="parameters"></a>Parámetros
 <a name="Examples"> </a>
 
 |**Parámetro**|**Requerida.**|**Tipo**|**Descripción**|
 |:-----|:-----|:-----|:-----|
-|Force  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Sobrescribir archivo existente en %SystemDrive%\ProgramData\CloudConnector sin notificación.  <br/> |
+|Force  <br/> |Opcional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Sobrescribir el archivo existente en%SystemDrive%\ProgramData\CloudConnector sin notificación.  <br/> |
    
 ## <a name="input-types"></a>Tipos de entrada
 <a name="Examples"> </a>
 
-Ninguno. El cmdlet Import-CcConfiguration no acepta entradas transferidas.
+Ninguno. El cmdlet Import-CcConfiguration no acepta la entrada canalizada.
   
 ## <a name="return-types"></a>Tipos de valores devueltos
 <a name="Examples"> </a>

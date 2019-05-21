@@ -5,22 +5,22 @@ ms.author: v-lanac
 author: lanachin
 ms.date: 1/1/1900
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d90fce21-d7ff-4a9a-bc20-68021a37dca4
-description: Temas de Panel de control
-ms.openlocfilehash: 9c8f7e2553d34b5ae85e55b24ec778216fe414fc
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Temas del panel de control
+ms.openlocfilehash: e35ca30e0800eeee99ab1f0ad4eaf072fc974e5e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911061"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285732"
 ---
 # <a name="help-lscp"></a>Help-LSCP
  
-En los temas de este nodo proporcionan ayuda para la Skype para el Panel de Control de servidor empresarial.
+Los temas de este nodo proporcionan ayuda para el panel de control de Skype empresarial Server.
   
 
 

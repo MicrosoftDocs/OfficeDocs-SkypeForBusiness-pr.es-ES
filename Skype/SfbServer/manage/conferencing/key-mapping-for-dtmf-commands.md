@@ -1,29 +1,29 @@
 ---
-title: Administrar asignación de claves para comandos DTMF en Skype para Business Server
+title: Administrar la asignación de teclas de los comandos de DTMF en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
-description: 'Resumen: Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.'
-ms.openlocfilehash: e90e51bfb3c7c66524e10f7e4428c5bfe36fdcc9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar la asignación de claves de los comandos de multifrecuencia de tono dual (DTMF) en Skype empresarial Server.'
+ms.openlocfilehash: 713c72941a8cc147b751c82b9dbbfbc2c2d16837
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919482"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283763"
 ---
-# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar asignación de claves para comandos DTMF en Skype para Business Server
+# <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Administrar la asignación de teclas de los comandos de DTMF en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar la asignación de teclas de comandos de multifrecuencia de tono dual (DTMF) en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo administrar la asignación de claves de los comandos multifrecuencia de tono dual (DTMF) en Skype empresarial Server.
   
 Los usuarios de conferencia de acceso telefónico local pueden presionar las teclas en el teclado numérico del teléfono para usar los comandos de tono de marcado de frecuencia múltiple (DTMF). Los comandos DTMF permiten a los usuarios que obtengan acceso telefónico local a una conferencia controlar la configuración de la conferencia (como activar o desactivar el audio propio o bloquear y desbloquear la conferencia) con el teclado numérico de su teléfono. 
   
-Para administrar las teclas usadas para los comandos DTMF, use la Skype para Shell de administración de servidor empresarial con **Get-CsDialinConferencingDtmfConfiguration**, **Set-CsDialinConferencingDtmfConfiguration**y ** Nuevo-CsDialinConferencingDtmfConfiguration** cmdlets.
+Para administrar las claves usadas para los comandos DTMF, use el shell de administración de Skype empresarial Server con **Get-CsDialinConferencingDtmfConfiguration**, **set-CsDialinConferencingDtmfConfiguration**y ** Cmdlets New-CsDialinConferencingDtmfConfiguration** .
   
 Cuando se crea una configuración de DTMF para sitios, la configuración de sitio prevalece por encima de la configuración global. 
 
@@ -57,6 +57,6 @@ En este ejemplo se cambia la tecla que se presiona para habilitar o deshabilitar
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Para obtener más información, vea [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [Set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)y [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
+Para obtener más información, vea [Get-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps), [set-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)y [New-CsDialInConferencingDtmfConfiguration](https://docs.microsoft.com/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).
   
 

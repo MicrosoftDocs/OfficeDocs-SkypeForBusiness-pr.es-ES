@@ -4,37 +4,37 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Después de migrar a Microsoft Skype para Business Server 2019, debe completar algunas tareas para configurar Skype para Business Server 2019 trabajar con System Center Operations Manager.
-ms.openlocfilehash: 80ef737c57006550111331db7f46fd607f7cf1ed
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Después de migrar a Microsoft Skype empresarial Server 2019, debe completar algunas tareas para configurar la 2019 de Skype empresarial Server para que funcione con System Center Operations Manager.
+ms.openlocfilehash: 141154a8bd678f15fcc919b2dd70a50ca9d4dcca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238726"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284504"
 ---
 # <a name="configure-scom-monitoring"></a>Configurar la supervisión SCOM
 
-Después de migrar a Skype para Business Server 2019, debe completar algunas tareas para configurar Skype para Business Server 2019 trabajar con System Center Operations Manager.
+Después de migrar a Skype empresarial Server 2019, debe completar algunas tareas para configurar la 2019 de Skype empresarial Server para que funcione con System Center Operations Manager.
   
-- Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.
+- Aplicar actualizaciones a un servidor elegido para administrar la lógica de detección centralizada.
     
-- Actualizar la clave del registro de detección central candidato server.
+- Actualice la clave del registro del candidato de detección central.
     
-- Configure el servidor de administración de System Center Operations Manager principal para invalidar el nodo de detección central candidato.
+- Configure el servidor de administración principal de System Center Operations Manager para que invalide el nodo de detección central candidato.
     
-A continuación se proporcionan instrucciones para llevar a cabo cada una de estas tareas.
+A continuación se proporcionan instrucciones para llevar a cabo estas tareas.
   
-### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Aplique las actualizaciones a un servidor elegido para administrar la lógica de detección central.
+### <a name="apply-updates-to-a-server-elected-to-manage-the-central-discovery-logic"></a>Aplicar actualizaciones a un servidor elegido para administrar la lógica de detección centralizada.
 
-1. Elija a un servidor que tiene System Center Operations Manager archivos del agente se instala y se configura como un nodo de detección candidato. 
+1. Elija un servidor que tenga instalados los archivos del agente System Center Operations Manager y esté configurado como un nodo de detección candidato. 
     
-2. Aplicar actualizaciones a este servidor. Vea el tema [aplicar actualizaciones](apply-updates.md).
+2. Aplicar actualizaciones a este servidor. Vea el tema sobre cómo [aplicar actualizaciones](apply-updates.md).
     
-### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Actualizar la clave del registro de detección central candidato server.
+### <a name="update-the-central-discovery-candidate-server-registry-key"></a>Actualice la clave del registro del candidato de detección central.
 
 1. En el servidor elegido para administrar la lógica de detección central, abra una ventana de comandos de Windows PowerShell. 
     
@@ -49,18 +49,18 @@ A continuación se proporcionan instrucciones para llevar a cabo cada una de est
    ```
 
     > [!NOTE]
-    > Cada vez que edite el registro, puede experimentar un error que el comando no se pudo si ya existe la clave del registro. Si sucede esto, puede ignorar el error. 
+    > Siempre que edite el registro, es posible que se produzca un error en el comando si la clave del registro ya existe. Si tiene esto, puede ignorar el error sin riesgos. 
   
-### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configurar el servidor principal de administración de System Center Operations Manager para invalidar el nodo de Monitor de detección central candidato.
+### <a name="configure-your-primary-system-center-operations-manager-management-server-to-override-the-candidate-central-discovery-watcher-node"></a>Configure su servidor de administración principal de System Center Operations Manager para invalidar el nodo de supervisor de detección central candidato.
 
-1. En un equipo donde se ha instalado la consola de System Center Operations Manager, expanda **Objetos del módulo de administración** y, a continuación, seleccione **Detecciones de objetos**.
+1. En un equipo en el que se haya instalado la consola de System Center Operations Manager, expanda los **objetos del módulo de administración** y seleccione descubrimientos de **objetos**.
     
-2. Haga clic en **Cambiar ámbito**
+2. Haga clic en **cambiar ámbito** .
     
-3. En la página **Objetos del módulo de administración de ámbito** , seleccione **Candidato de detección de LS**.
+3. En la página **objetos del módulo de administración del ámbito** , seleccione candidato de detección de **LS**.
     
-4. Reemplazar el **Valor efectivo de candidato de detección de LS** en el nombre de servidor candidato elegido en el procedimiento anterior. 
+4. Invalide el **valor efectivo candidato** a la detección de LS al nombre del servidor candidato elegido en el procedimiento anterior. 
     
-Para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de System Center Operations Manager raíz.
+Para finalizar los cambios, reinicie el servicio de mantenimiento en el servidor de administración de raíz de System Center Operations Manager.
   
 

@@ -5,26 +5,26 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainDomainPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: bfcb37ca-34eb-4d0d-9694-6edd2e7fe0f3
-description: 'Para preparar un dominio a los servidores host que ejecuta Skype para Business Server 2015 o Skype para los usuarios de Business Server, debe completar el paso 5: Preparar dominio actual, como se describe en el tema mediante el programa de instalación para ejecutar la preparación del dominio. Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:'
-ms.openlocfilehash: 80ee047bd6c5f8ca7b153beb5c45efea953af6ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Para preparar un dominio de modo que aloje servidores que ejecuten Skype empresarial Server 2015 o usuarios de Skype empresarial Server, debe completar el paso 5: preparar el dominio actual, como se describe en el tema usar el programa de instalación para ejecutar la preparación del dominio. Para completar este paso, debe haber iniciado sesión como miembro del grupo de administradores del dominio en el dominio que está preparando o como miembro del grupo administradores de empresa del bosque al que pertenece el dominio. Para preparar el dominio:'
+ms.openlocfilehash: 93fef28bdcaa720f1adcf893ec634dbe8f373780
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888831"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283881"
 ---
 # <a name="prepare-current-domain"></a>Preparar dominio actual
 
-Para preparar un dominio a los servidores host que ejecuta Skype para Business Server 2015 o Skype para los usuarios de Business Server, debe completar **paso 5: preparar el dominio actual**, tal como se describe en el tema [Uso de programa de instalación para ejecutar la preparación del dominio](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para completar el paso, debe haber iniciado sesión como miembro del grupo Administradores del dominio en el dominio que va a preparar o como miembro del grupo Administradores de organización del bosque al que pertenece el dominio. Para preparar el dominio:
+Para preparar un dominio de modo que aloje servidores que ejecuten Skype empresarial Server 2015 o usuarios de Skype empresarial Server, debe completar el **paso 5: preparar el dominio actual**, como se describe en el tema [usar el programa de instalación para ejecutar la preparación del dominio](https://technet.microsoft.com/library/95dab800-1f2c-4506-b36c-99986643b149.aspx). Para completar este paso, debe haber iniciado sesión como miembro del grupo de administradores del dominio en el dominio que está preparando o como miembro del grupo administradores de empresa del bosque al que pertenece el dominio. Para preparar el dominio:
 
-1. De Skype para medio o la carpeta de instalación de Business Server 2015, ejecute Setup.exe para iniciar la Skype para el Asistente para la implementación de servidor de negocio.
+1. Desde la carpeta o los medios de instalación de Skype empresarial Server 2015, ejecute setup. exe para iniciar el Asistente para la implementación de Skype empresarial Server.
 
 2. Haga clic en **Preparar Active Directory** y espere hasta que se determine el estado de implementación.
 
@@ -32,9 +32,9 @@ Para preparar un dominio a los servidores host que ejecuta Skype para Business S
 
 4. En la página **Ejecución de comandos**, busque **Estado de la tarea: completado** y, a continuación, haga clic en **Ver registro**.
 
-5. En la columna **acción** , expanda **Preparar el dominio**, busque un ** \<éxito\> ** resultado de ejecución al final de cada tarea para comprobar que la preparación del dominio se realizó correctamente, cierre el registro de y, a continuación, haga clic en **Finalizar**.
+5. En la columna **acción** , expanda **preparar el dominio**, busque un ** \<\> ** resultado de ejecución correcta al final de cada tarea para comprobar que la preparación del dominio se completó correctamente, cierre el registro y, a continuación, haga clic en **Finalizar**.
 
 > [!TIP]
-> Si necesita revisar los archivos de registro que se crean mediante la Skype para el Asistente para la implementación de Business Server, se puede encontrar en el equipo donde se ejecutó el Asistente para la implementación en el directorio de usuarios del usuario de los servicios de dominio de Active Directory que se ejecutó el paso. Por ejemplo, si el usuario iniciado sesión como administrador de dominio en el dominio Contoso.net, los archivos de registro se encuentran en: C:\Users\Administrator.Contoso\AppData\Local\Temp.
+> Si necesita revisar los archivos de registro creados por el Asistente para la implementación de Skype empresarial Server, puede encontrarlos en el equipo donde se ejecutó el Asistente para la implementación en el directorio de usuarios del usuario de los servicios de dominio de Active Directory que ejecutó el paso. Por ejemplo, si el usuario ha iniciado sesión como administrador del dominio Contoso.net, los archivos de registro se encuentran en: C:\Users\Administrator.Contoso\AppData\Local\Temp.
 
 

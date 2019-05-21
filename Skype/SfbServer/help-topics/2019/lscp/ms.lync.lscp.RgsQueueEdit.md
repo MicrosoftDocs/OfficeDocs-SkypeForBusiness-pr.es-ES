@@ -1,10 +1,10 @@
 ---
-title: Cola de grupos de respuesta crear nuevos o editar los existentes
+title: Cola de grupos de respuesta crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.RgsQueueEdit
@@ -12,17 +12,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
-description: Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
-ms.openlocfilehash: cb1777a87e32baac6d2bbb13a692abcf59da5931
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Las colas de grupos de respuesta contienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
+ms.openlocfilehash: 20a2066cbbece953e8f050919d8531f887f676ff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891393"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34292608"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Cola de grupos de respuesta: Crear nueva o editar existente
 
-Las colas de grupo de respuesta contienen las llamadas a un grupo de respuesta hasta que un agente atiende la llamada.
+Las colas de grupos de respuesta contienen llamadas a un grupo de respuesta hasta que un agente responde a la llamada.
 
 ## <a name="ui-reference"></a>Referencia de interfaz de usuario
 
@@ -34,42 +34,42 @@ En la siguiente lista se describen los campos de la página.
 
 - **Grupos** Seleccione los grupos de agentes que desea asignar a la cola. Haga clic en **Seleccionar** para agregar grupos de agentes a la lista. Haga clic en **Quitar** para eliminar el grupo de agentes seleccionado de la lista.
 
-    Las flechas arriba y abajo mover un grupo de agentes seleccionado hacia arriba y hacia abajo en la lista. El orden de los grupos de agentes afecta al orden en el que Skype para Business Server busca un agente disponible. Es decir, el primer grupo de la lista se busca en primer lugar un agente disponible, seguido del segundo grupo y así sucesivamente.
+    Las flechas arriba y abajo mueven un grupo de agentes seleccionado hacia arriba y hacia abajo en la lista. El orden de los grupos de agentes afecta al orden en el que Skype empresarial Server busca un agente disponible. Es decir, el primer grupo de la lista se busca primero en un agente disponible, seguido del segundo grupo y así sucesivamente.
 
-- **Habilitar tiempo de espera de cola** Active esta casilla de verificación para especificar un período máximo de tiempo para un autor de la llamada que se debe esperar en espera antes de que un agente atiende la llamada. Si selecciona esta opción, tendrá que especificar también lo siguiente:
+- **Habilitar el tiempo de espera de la cola** Seleccione esta casilla para especificar un período máximo de tiempo para que la persona que llama espere en espera antes de que un agente responda a la llamada. Si selecciona esta opción, tendrá que especificar también lo siguiente:
 
-  - **Período de tiempo de espera (segundos)** Seleccione o escriba el número máximo de segundos que un autor de la llamada puede esperar antes de que un agente atiende la llamada.
+  - **Período de tiempo de espera (segundos)** Selecciona o escribe el número máximo de segundos que una persona que llama puede esperar antes de que un agente responda a la llamada.
 
-  - **Acción de llamadas** Seleccione la acción que se produce cuando se agota el tiempo de espera de una llamada. Las opciones son:
+  - **Acción llamar** Seleccione la acción que se produce cuando se agota el tiempo de espera de una llamada. Las opciones son:
 
   - **Desconectar**
 
-  - **Desviar a correo de voz** Si selecciona esta opción, en la **dirección SIP**, escriba una dirección de correo de voz en el formato sip:<username> @ <domainname> (por ejemplo, sip:bob@contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP**, escriba una dirección de correo de voz en el formato SIP<username> @ <domainname> : (por ejemplo, SIP:Bob@contoso.com).
 
-  - **Desviar a número de teléfono** Si selecciona esta opción, en la **dirección SIP** escriba el número de teléfono en el formato sip:<number> @ <domainname> (por ejemplo, sip:+14255550121@contoso.com).
+  - **Desviar al número de teléfono** Si selecciona esta opción, en **dirección SIP** , escriba el número de teléfono con el formato SIP<number> @ <domainname> : (por ejemplo, SIP:+14255550121@contoso.com).
 
-  - **Desviar a dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En la **dirección SIP**, escriba el URI del usuario en el formato sip:<username>@<domainname>.
+  - **Desviar a dirección SIP** Seleccione esta opción para desviar la llamada a otro usuario. En **dirección SIP**, escriba el URI para el usuario con el formato SIP:<username>@<domainname>.
 
-  - **Desviar a otra cola** Si selecciona esta opción, desplácese hasta la cola que va a recibir las llamadas cuando el tiempo de espera de las llamadas.
+  - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que recibirá las llamadas cuando se agote el tiempo de espera de las llamadas.
 
-- **Habilitar desbordamiento de cola** Active esta casilla de verificación para especificar un número máximo de llamadas que puede contener la cola. Si selecciona esta opción, tendrá que especificar también lo siguiente:
+- **Habilitar desbordamiento de cola** Seleccione esta casilla para especificar un número máximo de llamadas que la cola puede contener. Si selecciona esta opción, tendrá que especificar también lo siguiente:
 
   - **Número máximo de llamadas** Seleccione o escriba el número máximo de llamadas que puede contener la cola.
 
-  - **Reenviar la llamada** Seleccione qué llamada se realizará la acción cuando se alcanza el umbral de desbordamiento de cola.
+  - **Desviar la llamada** Seleccione la llamada que debe tomarse cuando se cumpla el umbral de desbordamiento de la cola.
 
-  - **Acción de llamadas** Seleccione la acción que se produce cuando se alcanza el umbral de desbordamiento de cola. Las opciones son:
+  - **Acción llamar** Seleccione la acción que se produce cuando se alcanza el umbral de desbordamiento de la cola. Las opciones son:
 
   - **Desconectar**
 
-  - **Desviar a correo de voz** Si selecciona esta opción, en la **dirección SIP**, escriba una dirección de correo de voz en el formato sip:<username> @ <domainname> (por ejemplo, sip:bob@contoso.com).
+  - **Reenviar al correo de voz** Si selecciona esta opción, en **dirección SIP**, escriba una dirección de correo de voz en el formato SIP<username> @ <domainname> : (por ejemplo, SIP:Bob@contoso.com).
 
-  - **Desviar a número de teléfono** Si selecciona esta opción, en la **dirección SIP** escriba el número de teléfono en el formato sip:<number> @ <domainname> (por ejemplo, sip:+14255550121@contoso.com).
+  - **Desviar al número de teléfono** Si selecciona esta opción, en **dirección SIP** , escriba el número de teléfono con el formato SIP<number> @ <domainname> : (por ejemplo, SIP:+14255550121@contoso.com).
 
-  - **Desviar a dirección SIP** Seleccione esta opción para reenviar la llamada a otro usuario. En la **dirección SIP**, escriba el URI del usuario en el formato sip:<username>@<domainname>.
+  - **Desviar a dirección SIP** Seleccione esta opción para desviar la llamada a otro usuario. En **dirección SIP**, escriba el URI para el usuario con el formato SIP:<username>@<domainname>.
 
-  - **Desviar a otra cola** Si selecciona esta opción, desplácese hasta la cola que va a recibir las llamadas cuando se alcanza el umbral de desbordamiento de cola.
+  - **Reenviar a otra cola** Si selecciona esta opción, vaya a la cola que va a recibir llamadas cuando se cumpla el umbral de desbordamiento de la cola.
 
-Para obtener información detallada sobre las características de grupo de respuesta y funciones, consulte [Plan para la aplicación de grupo de respuesta en Skype para Business Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planeación. Para más información sobre cómo trabajar con colas, mire [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación de operaciones.
+Para obtener más información sobre las funciones y características de grupos de respuesta, consulte [planear la aplicación de grupo de respuesta en Skype empresarial Server](../../../plan-your-deployment/enterprise-voice-solution/response-group.md) en la documentación de planificación. Para más información sobre cómo trabajar con colas, mire [Managing Response Group Queues](https://technet.microsoft.com/library/1e91720c-ab67-4dfb-b30c-0ef2a8012310.aspx) en la documentación de operaciones.
 
 

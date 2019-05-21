@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.VoiceTrunkMain
@@ -13,24 +13,24 @@ localization_priority: Normal
 ms.assetid: 499b6966-25f4-4b90-a225-d6be48ddab19
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 97da271a89c938e9c1af63f97ffaaa27965b44b4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02b4a33566de9ea1d10babd4bd14a1bf72407ef8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33890336"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290801"
 ---
 # <a name="trunk-configuration"></a>Configuración del tronco
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 
-- [Configurar un tronco con desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
+- [Configurar un tronco con la omisión de medios en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 
-- [Configurar un tronco sin desvío de medios en Skype para Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
+- [Configurar un tronco sin omisión de medios en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/configure-trunk-without-media-bypass.md)
 
-- [Crear o modificar una regla de conversión para llamado presentación del identificador de Skype para Business Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
+- [Crear o modificar una regla de traducción para la presentación de identificador llamada en Skype empresarial Server](../../../deploy/deploy-enterprise-voice/called-id-presentation-rules.md)
 
-- [Crear o modificar una regla de conversión manualmente](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
+- [Crear o modificar una regla de traducción de forma manual](https://technet.microsoft.com/library/049d1db3-af58-48c5-be89-52e1d068a4bd.aspx)
 
 
 

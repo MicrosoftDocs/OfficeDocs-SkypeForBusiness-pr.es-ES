@@ -1,10 +1,10 @@
 ---
-title: Plan para el control remoto de llamadas en Skype para la empresa
+title: Planear el control remoto de llamadas en Skype empresarial
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,35 +13,35 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-description: Control remoto de llamadas era una característica en versiones anteriores de Lync Server que habilita a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype para Business Server, esta característica se ha reemplazado con llamar vía trabajo. En las versiones de cliente de Skype para Business Server 2015 y continuas de llamadas hacia delante remoto control ya no está disponible para configurar en el cliente y se ha quitado para su uso.
-ms.openlocfilehash: 5362e7401faea9a583bac540f073ce0b56f06c20
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: El control remoto de llamadas era una característica de versiones anteriores de Lync Server que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype empresarial Server, esta característica se ha sustituido por una llamada por trabajo. En las versiones de cliente de Skype empresarial Server 2015 y en adelante, el control remoto de llamadas ya no está disponible para su configuración en el cliente y se ha eliminado para su uso.
+ms.openlocfilehash: e98bcbd7e1feb91b31994d2ece2770c911547882
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913558"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276493"
 ---
-# <a name="plan-for-remote-call-control-in-skype-for-business"></a>Plan para el control remoto de llamadas en Skype para la empresa
+# <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planear el control remoto de llamadas en Skype empresarial
  
-Control remoto de llamadas era una característica en versiones anteriores de Lync Server que habilita a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype para Business Server, esta característica se ha reemplazado con llamar vía trabajo.  *En las versiones de cliente de Skype para Business Server 2015 y continuas de llamadas hacia delante remoto control ya no está disponible para configurar en el cliente y se ha quitado para su uso.* 
+El control remoto de llamadas era una característica de versiones anteriores de Lync Server que permitía a los usuarios controlar sus teléfonos PBX con Lync Server. En Skype empresarial Server, esta característica se ha sustituido por una llamada por trabajo.  *En las versiones de cliente de Skype empresarial Server 2015 y en adelante, el control remoto de llamadas ya no está disponible para su configuración en el cliente y se ha eliminado para su uso.* 
   
- Usuarios de control remoto de llamadas de la organización que están hospedados en los servidores Front-End que ejecutan Lync Server pueden seguir usando el control remoto de llamadas, incluso si están utilizando un Skype para clientes empresariales. Sin embargo, para los usuarios alojados en Skype para Business Server, no se admite el control remoto de llamadas. Consulte la siguiente tabla para ver las combinaciones de servidor o cliente y si admiten el control remoto de llamadas o Vía trabajo.
+ El control remoto de llamadas los usuarios de su organización que estén alojados en servidores front-end que ejecuten Lync Server pueden continuar usando el control remoto de llamadas, incluso si usan un cliente de Skype empresarial. Sin embargo, para los usuarios alojados en Skype empresarial Server, no se admite el control remoto de llamadas. Consulte la siguiente tabla para ver las combinaciones de servidor o cliente y si admiten el control remoto de llamadas o Vía trabajo.
   
-||**Skype para profesionales cliente con Skype la interfaz de usuario habilitado**|**Skype para profesionales cliente con Lync la interfaz de usuario habilitado**|**Skype para profesionales de 2016 cliente**|**Cliente de Lync 2013**|**Lync 2010 Client**|
+||**Cliente de Skype empresarial con la interfaz de usuario de Skype habilitada**|**Cliente de Skype empresarial con IU de Lync habilitada**|**Cliente de Skype empresarial 2016**|**Cliente de Lync 2013**|**Lync 2010 Client**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
 | Skype Empresarial Server <br/> |Vía trabajo  <br/> |1 <br/> |Vía trabajo  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |1 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |
-| Lync Server 2010 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |1 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |
+| Lync Server 2013 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |uno <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |
+| Lync Server 2010 <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |uno <br/> |Control remoto de llamadas  <br/> |Control remoto de llamadas  <br/> |
    
-1. Se admite ninguna característica.
+1. Ninguna característica es compatible.
   
-Para obtener más información, vea [Control remoto de llamadas](https://go.microsoft.com/fwlink/p/?LinkId=530208) en la documentación de Lync Server 2013.
+Para obtener más información, consulte [control remoto de llamadas](https://go.microsoft.com/fwlink/p/?LinkId=530208) en la documentación de 2013 de Lync Server.
   
 ## <a name="see-also"></a>Vea también
 
-[Planeación de la llamada vía trabajo en Skype para Business Server](call-via-work.md)
+[Plan de llamadas por trabajo en Skype empresarial Server](call-via-work.md)
   
-[Comparación de características de cliente de escritorio de Skype para la empresa](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
+[Comparación de características de cliente de escritorio para Skype empresarial](../../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md)
 
-[Realizar una Skype para llamada de negocio pero usar su teléfono de escritorio PBX para audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
+[Realizar una llamada de Skype empresarial, pero con un teléfono PBX de escritorio para el audio](https://support.office.com/en-us/article/Make-a-Skype-for-Business-call-but-use-your-PBX-desk-phone-for-audio-6a316c11-a05e-460c-b969-32ff0ad848e6)
 

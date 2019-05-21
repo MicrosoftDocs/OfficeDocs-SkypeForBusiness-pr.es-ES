@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/21/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -14,21 +14,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6356aad4-700d-495c-8fc8-58eb1d4f6f18
-description: Leer este tema para obtener información sobre cómo planear la apariencia de línea Shared (SLA) en Skype para Business Server 2015, de noviembre de 2015 actualización acumulativa.
-ms.openlocfilehash: fa0d8923c234773e3b21ec43bca4c4d7aafde4df
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Lea este tema para obtener información sobre cómo planear la apariencia de líneas compartidas (SLA) en Skype empresarial Server 2015, actualización acumulativa de noviembre de 2015.
+ms.openlocfilehash: 966c9f32a27ba936e880bdb51690bcefed4ffbe4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913458"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276450"
 ---
 # <a name="plan-for-shared-line-appearance-in-skype-for-business-server-2015"></a>Plan para apariencia de línea compartida en Skype Empresarial Server 2015
  
-Leer este tema para obtener información sobre cómo planear la apariencia de línea Shared (SLA) en Skype para Business Server 2015, de noviembre de 2015 actualización acumulativa. 
+Lea este tema para obtener información sobre cómo planear la apariencia de líneas compartidas (SLA) en Skype empresarial Server 2015, actualización acumulativa de noviembre de 2015. 
   
-Apariencia de línea compartida es una característica de Skype para la empresa para el tratamiento de varias llamadas en un número específico de llamar a un número compartido. SLA puede configurar cualquier enterprise voice habilitado Skype para usuarios de empresa como un número compartido con varias líneas para responder a varias llamadas. En realidad, las llamadas no se reciben en el número compartido, sino que se desvían a usuarios que actúan como delegados para el número compartido. Cualquiera de estos delegados puede responder a la llamada mientras el resto de los delegados recibe una notificación en su teléfono sobre el usuario que respondió a la llamada y la línea que está ocupada como resultado. El número de líneas y los delegados se pueden configurar para un número compartido en SLA. Además, también se pueden configurar otras opciones avanzadas para un número compartido, como BusyOption (que se produce cuando todas las líneas están ocupadas) y MissedCallOption (si ninguno de los delegados responde a una llamada).
+La apariencia de las líneas compartidas es una característica de Skype empresarial para administrar varias llamadas en un número específico denominado número compartido. SLA puede configurar cualquier usuario de Skype empresarial habilitado para telefonía empresarial como un número compartido con varias líneas para responder a varias llamadas. En realidad, las llamadas no se reciben en el número compartido, sino que se desvían a usuarios que actúan como delegados para el número compartido. Cualquiera de estos delegados puede responder a la llamada mientras el resto de los delegados recibe una notificación en su teléfono sobre el usuario que respondió a la llamada y la línea que está ocupada como resultado. El número de líneas y los delegados se pueden configurar para un número compartido en SLA. Además, también se pueden configurar otras opciones avanzadas para un número compartido, como BusyOption (que se produce cuando todas las líneas están ocupadas) y MissedCallOption (si ninguno de los delegados responde a una llamada).
   
-SLA sólo se admite en los siguientes dispositivos de teléfono (no se admite para Skype para clientes empresariales en equipos, teléfonos móviles o en otros dispositivos): 
+El SLA solo se admite en los siguientes dispositivos telefónicos (no es compatible con los clientes de Skype empresarial en equipos, teléfonos móviles u otros dispositivos): 
   
 - Polycom VVX300 con actualización de firmware 5.4.1
     
@@ -38,7 +38,7 @@ SLA sólo se admite en los siguientes dispositivos de teléfono (no se admite pa
     
 - Polycom VVX600 con actualización de firmware 5.4.1
     
-SLA es una característica nueva de Skype para Business Server, de noviembre de 2015 actualización acumulativa. 
+SLA es una nueva característica de Skype empresarial Server, actualización acumulativa de noviembre de 2015. 
   
 Para obtener información sobre la implementación de SLA, vea [Deploy Shared Line Appearance in Skype for Business Server 2015](../../deploy/deploy-enterprise-voice/deploy-shared-line-appearance.md).
   

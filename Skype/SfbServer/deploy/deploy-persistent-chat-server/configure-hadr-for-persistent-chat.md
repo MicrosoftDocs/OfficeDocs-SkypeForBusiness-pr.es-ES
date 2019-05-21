@@ -5,56 +5,56 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/7/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: ccdaefe4c040cc75f16ebe054864c65046f89325
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype empresarial Server 2015.'
+ms.openlocfilehash: 152797229dc02bfcd1991a9ac6f67370c9154593
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894520"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282297"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype Empresarial Server 2015
  
-**Resumen:** Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype empresarial Server 2015.
   
-Skype para Business Server admite varios modos de alta disponibilidad para los servidores Back-End, incluidas la creación de reflejo de base de datos. Para más información, vea [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Skype empresarial Server admite varios modos de alta disponibilidad para los servidores back-end, incluyendo la creación de reflejos de bases de datos. Para más información, vea [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
   
 > [!NOTE]
-> Grupos de disponibilidad AlwaysOn no son compatibles con servidores de Chat persistente. 
+> Los grupos de disponibilidad AlwaysOn no son compatibles con los servidores de chat persistentes. 
 
 > [!NOTE] 
-> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015.
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015.
   
-Antes de configurar la implementación de Chat persistente de alta disponibilidad y recuperación ante desastres, asegúrese de que está familiarizado con los conceptos de [planeación de alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solución de recuperación ante desastres para servidor de Chat persistente que se describen en estos temas se basa en un grupo de servidores de Chat persistente. El contenido de planeación describe los requisitos de recursos y la topología de grupo de servidores expandida que permite una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente, incluido el uso de la creación de reflejos de SQL Server de alta disponibilidad y para de trasvase de registros de SQL Server recuperación ante desastres.
+Antes de configurar la implementación de chat persistente para una alta disponibilidad y recuperación ante desastres, asegúrese de que está familiarizado con los conceptos de [plan de alta disponibilidad y recuperación ante desastres para el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md). La solución de recuperación ante desastres para el servidor de chat persistente que se describe en estos temas se ha creado en un grupo de servidores de chat persistente ampliado. En el contenido de planeación se describen los requisitos de recursos y la topología de grupo expandida que permite una alta disponibilidad y recuperación ante desastres para el servidor de chat persistente, incluyendo el reflejo de SQL Server para una mayor disponibilidad y el trasvase de registros de SQL Server para recuperación ante desastres.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Usar el Generador de topologías para configurar la alta disponibilidad y la recuperación ante desastres
 
 En el Generador de topologías, haga lo siguiente para configurar la alta disponibilidad y la recuperación ante desastres del servidor de chat persistente.
   
-1. Agregue las bases de datos de reflejo y el registro trasvase de registros base de datos secundaria que almacenes de SQL Server.
+1. Agregue las bases de datos reflejadas y de trasvase de registros que SQL Server almacena.
     
-2. Editar las propiedades del servicio servidor de Chat persistente para:
+2. Edite las propiedades del servicio del servidor de chat persistentes en:
     
     a. Habilite la creación de reflejo para la base de datos principal.
     
     b. Agregue el almacén de SQL Server de reflejo principal.
     
-    c. Habilitar la base de datos de trasvase de registros de SQL Server.
+    c. Habilite la base de datos de trasvase de registros de SQL Server.
     
-    d. Agregue el almacén de SQL Server secundario trasvase de registros de SQL Server.
+    d. Agregue el almacén de SQL Server secundario de trasvase de registros de SQL Server.
     
-    e. Agregar el reflejo del almacén de SQL Server para la base de datos secundaria.
+    &. Agregue el reflejo de la tienda SQL Server para la base de datos secundaria.
     
     f. Publique la topología.
     
 ## <a name="set-up-sql-server-log-shipping-for-the-persistent-chat-server-primary-database"></a>Configurar el trasvase de registros de SQL Server para la base de datos principal del servidor de chat persistente
 
-Con SQL Server Management Studio, conéctese a la instancia de trasvase de registros secundaria de base de datos de servidor de Chat persistente y asegúrese de que el Agente SQL Server se está ejecutando. A continuación, conéctese a la instancia de base de datos principal de Chat persistente y realice los pasos siguientes:
+Con SQL Server Management Studio, conéctese a la instancia de base de datos de trasvase de registros secundaria del servidor de chat persistente y asegúrese de que el Agente SQL Server se esté ejecutando. A continuación, conéctese a la instancia principal de la base de datos de chat persistente y realice los siguientes pasos:
   
 1. Haga clic con el botón secundario en la base de datos mgc y, luego, haga clic en **Propiedades**.
     
@@ -69,17 +69,17 @@ Con SQL Server Management Studio, conéctese a la instancia de trasvase de regis
 6. Si la carpeta de copia de seguridad está ubicada en el servidor principal, escriba la ruta de acceso local a dicha carpeta en el cuadro **Si la carpeta de copia de seguridad está ubicada en el servidor principal, escriba una ruta de acceso local a la carpeta (por ejemplo: c:\backup)**. (Si la carpeta de copia de seguridad no está ubicada en el servidor principal, puede dejar vacío este cuadro).
     
     > [!IMPORTANT]
-    > Si la cuenta de servicio de SQL Server en el servidor principal se ejecuta bajo la cuenta sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta. 
+    > Si la cuenta de servicio de SQL Server del servidor principal se ejecuta en la cuenta del sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta. 
   
 7. Configure los parámetros **Eliminar archivos con más de** y **Mostrar una alerta si no se produce una copia de seguridad tras**.
     
-8. Consulte la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programar**y ajustar la programación del Agente SQL Server según sea necesario.
+8. Consulte la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario.
     
 9. En **Compresión**, seleccione **Usar la configuración de servidor predeterminada** y, luego, haga clic en **Aceptar**.
     
 10. En **Instancias de servidores secundarios y bases de datos**, haga clic en **Agregar**.
     
-11. Haga clic en **Conectar** y conéctese a la instancia de SQL Server que ha configurado como servidor secundario.
+11. Haga clic en **conectar** y conéctese a la instancia de SQL Server que haya configurado como servidor secundario.
     
 12. En el cuadro **Base de datos secundaria**, seleccione la base de datos de **mgc** de la lista.
     
@@ -87,7 +87,7 @@ Con SQL Server Management Studio, conéctese a la instancia de trasvase de regis
     
 14. En la pestaña **Copiar archivos**, en el cuadro **Carpeta de destino de los archivos copiados**, escriba la ruta de acceso de la carpeta en la que es preciso copiar las copias de seguridad de los registros de transacciones. Esa carpeta suele encontrarse en el servidor secundario.
     
-15. Tenga en cuenta la programación de copia enumerada en el cuadro **Programación** en **Trabajo de copia**. Para personalizar la programación de la instalación, haga clic en **programar**y ajustar la programación del Agente SQL Server según sea necesario. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
+15. Tenga en cuenta la programación de copia enumerada en el cuadro **Programación** en **Trabajo de copia**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server según sea necesario. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
     
 16. En la pestaña **Restaurar**, en **Estado de la base de datos al restaurar copias de seguridad**, elija la opción **Modo sin recuperación**.
     
@@ -95,19 +95,19 @@ Con SQL Server Management Studio, conéctese a la instancia de trasvase de regis
     
 18. Elija un umbral de alerta en **Mostrar una alerta si no se produce una restauración tras**.
     
-19. Observe la programación de restauración incluida en el cuadro **Programación** en **Trabajo de restauración**. Para personalizar la programación de la instalación, haga clic en **programar**, ajuste la programación del Agente SQL Server según sea necesario y haga clic en **Aceptar**. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
+19. Observe la programación de restauración incluida en el cuadro **Programación** en **Trabajo de restauración**. Para personalizar la programación de la instalación, haga clic en **programación**, ajuste la programación del Agente SQL Server según sea necesario y haga clic en **Aceptar**. Esta programación necesita ser aproximadamente la misma que la programación de copia de seguridad.
     
 20. En el cuadro de diálogo **Propiedades de la base de datos**, haga clic en **Aceptar** para empezar el proceso de configuración.
     
 ## <a name="set-up-sql-server-log-shipping-between-the-primary-mirror-and-the-secondary-database"></a>Configurar el trasvase de registros de SQL Server entre el reflejo principal y la base de datos secundaria
 
-Realice los pasos siguientes para el trasvase de registros para continuar si la base de datos principal de Chat persistente se conmuta por error a su base de datos reflejada.
+Siga estos pasos para que el trasvase de registros continúe si la base de datos de chat principal persistente se conmuta por error a su base de datos reflejada.
   
-1. Conmutación por error manual la base de datos de Chat persistente principal del reflejo. Esto se realiza mediante la Skype para el cmdlet **Invoke-CsDatabaseFailover** y el Shell de administración de servidor de negocio.
+1. Failover manual de la base de datos principal de chat persistente en el reflejo. Esto se realiza mediante el shell de administración de Skype empresarial Server y el cmdlet **Invoke-CsDatabaseFailover** .
     
-2. Uso de SQL Server Management Studio, conéctese a la instancia de reflejo principal de servidor de Chat persistente.
+2. Con SQL Server Management Studio, conéctese a la instancia principal de reflejo del servidor de chat persistente.
     
-3. Asegúrese de que el Agente SQL Server se está ejecutando.
+3. Asegúrese de que el Agente SQL Server se esté ejecutando.
     
 4. Haga clic con el botón secundario en la base de datos mgc y, luego, haga clic en **Propiedades**.
     
@@ -122,11 +122,11 @@ Realice los pasos siguientes para el trasvase de registros para continuar si la 
 9. Si la carpeta de copia de seguridad está ubicada en el servidor principal, escriba la ruta de acceso local a dicha carpeta en el cuadro **Si la carpeta de copia de seguridad está ubicada en el servidor principal, escriba una ruta de acceso local a la carpeta**. (Si la carpeta de copia de seguridad no está ubicada en el servidor principal, puede dejar vacío este cuadro).
     
     > [!IMPORTANT]
-    > Si la cuenta de servicio de SQL Server en el servidor principal se ejecuta bajo la cuenta sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta. 
+    > Si la cuenta de servicio de SQL Server del servidor principal se ejecuta en la cuenta del sistema local, debe crear la carpeta de copia de seguridad en el servidor principal y especificar una ruta de acceso local a esa carpeta. 
   
 10. Configure los parámetros **Eliminar archivos con más de** y **Mostrar una alerta si no se produce una copia de seguridad tras**.
     
-11. Consulte la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programar**y ajustar la programación del Agente SQL Server, según sea necesario.
+11. Consulte la programación de copia de seguridad incluida en el cuadro **Programación** en **Trabajo de copia de seguridad**. Para personalizar la programación de la instalación, haga clic en **programación**y ajuste la programación del Agente SQL Server, según sea necesario.
     
     > [!IMPORTANT]
     > Use la misma configuración que usa para la base de datos principal. 
@@ -147,13 +147,13 @@ Realice los pasos siguientes para el trasvase de registros para continuar si la 
     
 19. En la nueva ventana de consulta, en **Propiedades de la base de datos**, haga clic en **Aceptar** para empezar el proceso de configuración.
     
-20. Seleccione y ejecute la primera mitad de la consulta (consulte el paso 18) copia de seguridad a la línea:-- \* \* \* \* \* \* End: secuencia de comandos que se ejecutará en el principal: \* \* \* \* \* \*.
+20. Seleccione y ejecute la primera mitad de la consulta (vea el paso 18) hasta la línea:-- \* \* \* \* \* \* end: script \* \* \* \* \* \*que se ejecutará en Primary:.
     
     > [!IMPORTANT]
-    > Es necesario ejecutar manualmente este script, debido a que SQL Server Management Studio no admite varias bases de datos principales en una configuración de trasvase de registros de SQL Server. 
+    > La ejecución manual de este script es necesaria porque SQL Server Management Studio no admite varias bases de datos principales en una configuración de trasvase de registros de SQL Server. 
   
 21. Seleccione **Cancelar** para cerrar el panel de configuración del trasvase de archivos de registros y establecer una configuración de trabajo que implemente correctamente el trasvase de archivos de registros a la base de datos principal y reflejada (en caso de conmutación por error). 
     
-22. Manualmente conmutar por recuperación la base de datos de Chat persistente principal a la principal. Esto se realiza mediante la Skype para Shell de administración de servidor empresarial y el cmdlet **Invoke-CsDatabaseFailover** .
+22. Failback manual de la base de datos principal de chat persistente al principal. Esto se realiza mediante el shell de administración de Skype empresarial Server y el cmdlet **Invoke-CsDatabaseFailover** .
     
 

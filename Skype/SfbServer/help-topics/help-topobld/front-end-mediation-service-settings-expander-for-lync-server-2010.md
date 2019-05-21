@@ -5,31 +5,31 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.FeMediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 37166b87-8a43-42a6-a2aa-5a45bed8a6f3
-description: 'Para editar las propiedades de la configuración de puerta de enlace de RTC del servidor de mediación en este cuadro de diálogo. Defina las opciones siguientes:'
-ms.openlocfilehash: acf671e8fd3d980e2050221be884b628d24bcbef
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Edite las propiedades de la configuración de la puerta de enlace RTC del servidor de mediación en este diálogo. Defina la siguiente configuración:'
+ms.openlocfilehash: b57ca675d3681886ea2a2853aa1357b394fda4c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888663"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284392"
 ---
 # <a name="front-end-mediation-service-settings-expander-for-lync-server-2010"></a>Expansor de configuración del servicio de mediación front-end para Lync Server 2010
  
-Para editar las propiedades de la configuración de **puerta de enlace RTC del servidor de mediación** en este cuadro de diálogo. Defina las opciones siguientes:
+Edite las propiedades de la configuración de la **puerta de enlace RTC del servidor** de mediación en este diálogo. Defina la siguiente configuración:
   
-- Seleccione el **servidor de mediación combinado habilitado** si desea instalar el servidor de mediación con este servidor Front-End o Front-End de grupos de servidores.
+- Seleccione el **servidor** de mediación agrupado habilitado si desea Collocate el servidor de mediación con este servidor front-end o grupos front-end.
     
-- **Puertos de escucha**: definir los puertos de escucha en el servidor de mediación. Puede definir un puerto para la seguridad de la capa de transporte o de **TLS** o **TCP**, o protocolo de control de transporte. Para el puerto de entrada para TCP para que esté disponible, debe seleccionar la casilla de verificación para **Habilitar el puerto TCP**. 
+- **Puertos de escucha**: defina los puertos en los que escuchará el servidor de mediación. Puede definir un puerto para **TLS** o para la seguridad de la capa de transporte, **TCP**o protocolo de control de transporte. Para que la entrada de puerto para TCP esté disponible, debe activar la casilla de **Habilitar puerto TCP**. 
     
     > [!IMPORTANT]
-    > Hacer referencia a la configuración de documentación y la configuración de la puerta de enlace de telefónica conmutada (RTC) para determinar si necesita habilitar y definir valores de puerto TLS, TCP o ambos. TLS es un protocolo más seguro, uso de certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace de RTC. No todas las puertas de enlace de RTC admiten TLS. 
+    > Consulte la documentación y la configuración de la puerta de enlace de la red de telefonía pública conmutada (RTC) para determinar si necesita habilitar y definir los valores de los puertos TLS, TCP o ambos. TLS es un protocolo más seguro, que usa certificados para cifrar el tráfico entre el servidor de mediación y la puerta de enlace PSTN. No todas las puertas de enlace RTC admiten TLS. 
   
 - Lista del **Tronco** (es decir, troncos SIP), **Puertas de enlace** (puerta de enlace RTC o IP-PBX) y **Sitio** (sitio configurado para el tronco y la puerta de enlace) existentes y actualmente asociados.
     

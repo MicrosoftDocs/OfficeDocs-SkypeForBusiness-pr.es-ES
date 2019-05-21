@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployAIOInvoke
@@ -12,19 +12,19 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5da0aa73-8bf8-41f3-81e7-94f955cda541
 ROBOTS: NOINDEX, NOFOLLOW
-description: En la página de comandos de ejecución, se pueden ver las tareas de instalación de SQL Server Express y configuración para actuar como el almacén de Administración Central en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server denominada RTC. También se crean las reglas de Firewall para permitir el acceso de entrada y salido para servidores y clientes para comunicarse con la base de datos y la instancia. Una vez finalizada la tarea, puede seleccionar el archivo de registro de la lista desplegable. El archivo de registro se denomina secuencia de inicio del equipo local. Después de seleccionar el archivo de registro, haga clic en Ver registro. Revise el archivo de registro para los errores y advertencias. Cuando esté listo para continuar, haga clic en Finalizar. Ahora debe definir la topología con Topology Builder si aún no lo ha hecho.
-ms.openlocfilehash: 8031f1d1bceb81e0aadf8df2756ff1ad47f8d369
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En la página comandos en ejecución, las tareas de instalación de SQL Server Express y la configuración para actuar como almacén de administración central se pueden ver en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server llamada RTC. También se crean reglas de Firewall para permitir el acceso entrante y saliente a los servidores y clientes para que se comuniquen con la base de datos y la instancia. Una vez completada la tarea, puede seleccionar el archivo de registro en la lista desplegable. El archivo de registro se denomina bootstrap local Machine. Después de seleccionar el archivo de registro, haga clic en Ver registro. Revise el archivo de registro en busca de errores y advertencias. Cuando esté listo para continuar, haga clic en finalizar. Ahora debe definir su topología con Topology Builder si todavía no lo ha hecho.
+ms.openlocfilehash: 59118511ef8631e06214c9262e64c95125182963
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894039"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275712"
 ---
 # <a name="prepare-single-standard-edition-server-invoke"></a>Preparar un servidor único de Standard Edition (invocar)
  
-En la página **ejecutar comandos** , se pueden ver las tareas de instalación de SQL Server Express y configuración para actuar como el almacén de Administración Central en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server denominada RTC. También se crean las reglas de Firewall para permitir el acceso de entrada y salido para servidores y clientes para comunicarse con la base de datos y la instancia. Una vez finalizada la tarea, puede seleccionar el archivo de registro de la lista desplegable. El archivo de registro se denomina **secuencia de inicio del equipo local**. Después de seleccionar el archivo de registro, haga clic en **Ver registro**. Revise el archivo de registro para los errores y advertencias. Cuando esté listo para continuar, haga clic en **Finalizar.** Ahora debe definir la topología con Topology Builder si aún no lo ha hecho.
+En la página **comandos en ejecución** , las tareas de instalación de SQL Server Express y la configuración para actuar como almacén de administración central se pueden ver en el panel de tareas. De forma predeterminada, se crea una instancia de una base de datos basada en SQL Server llamada RTC. También se crean reglas de Firewall para permitir el acceso entrante y saliente a los servidores y clientes para que se comuniquen con la base de datos y la instancia. Una vez completada la tarea, puede seleccionar el archivo de registro en la lista desplegable. El archivo de registro se denomina **bootstrap local Machine**. Después de seleccionar el archivo de registro, haga clic en **Ver registro**. Revise el archivo de registro en busca de errores y advertencias. Cuando esté listo para continuar, haga clic en **Finalizar.** Ahora debe definir su topología con Topology Builder si todavía no lo ha hecho.
   
 > [!IMPORTANT]
-> La instalación de SQL Server Express puede tardar algún tiempo en completarse. Durante la instalación, no hay ningún progreso visible en la pantalla o el panel de tareas. Para supervisar la instalación, debe usar el Administrador de tareas de Windows y busque los procesos MSIExec y los archivos del programa de instalación para SQL Server. De este modo, puede ver el estado de la instalación y asegúrese de que se está realizando la instalación. Dependiendo de los factores más allá del alcance de este tema de ayuda, puede tardar hasta 15 minutos o más para la instalación del servidor SQL Server instancia para completar. 
+> La instalación de SQL Server Express puede tardar algún tiempo en completarse. Durante la instalación, no se muestra ningún progreso en la pantalla o en el panel de tareas. Para supervisar la instalación, debe usar el administrador de tareas de Windows y buscar los procesos de MSIExec y los archivos de instalación de SQL Server. De esta manera, puede ver el estado de la instalación y asegurarse de que la instalación se está realizando. En función de los factores ajenos al ámbito de este tema de ayuda, puede demorar hasta 15 minutos o más para que se complete la instalación de la instancia de SQL Server. 
   
 

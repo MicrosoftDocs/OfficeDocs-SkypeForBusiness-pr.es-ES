@@ -1,27 +1,27 @@
 ---
-title: Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
+title: Administrar la combinación de conferencia y dejar anuncios en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
-description: 'Resumen: Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.'
-ms.openlocfilehash: ace07fdc3325d97e443297265892e7bcc4bce562
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar la combinación de conferencia y a abandonar anuncios en Skype empresarial Server.'
+ms.openlocfilehash: 3d9a14e36dfe6b8df51e5ee91dd329ce34452cda
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919524"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283798"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar unirse a conferencia y dejar anuncios en Skype para Business Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Administrar la combinación de conferencia y dejar anuncios en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar unirse a conferencia y dejar anuncios en Skype para Business Server.
+**Resumen:** Obtenga información sobre cómo administrar la combinación de conferencia y abandonar anuncios en Skype empresarial Server.
   
-Cuando los usuarios de acceso telefónico unirse o abandonar una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salir de reproducir un tono o diciendo sus nombres. Puede cambiar el funcionan de los anuncios mediante el uso de Skype para Shell de administración de servidor empresarial y el cmdlet **Set-CsDialinConferencing** con los siguientes parámetros:
+Cuando los usuarios de acceso telefónico se unen o salen de una conferencia, la aplicación de anuncio de conferencia puede anunciar su entrada o salida reproduciendo un tono o diciendo sus nombres. Puede cambiar el funcionamiento de los anuncios con el shell de administración de Skype empresarial Server y el cmdlet **set-CsDialinConferencing** con los siguientes parámetros:
   
 - EnableNameRecording: determina si se pedirá a los participantes anónimos que graben su nombre antes de unirse a la conferencia. El valor predeterminado es "$true," lo que significa que se pide a los participantes anónimos que indiquen su nombre cuando se unen a una conferencia. (Los participantes autenticados no graban su nombre porque se usa el nombre para mostrar).
     
@@ -44,7 +44,7 @@ Puede configurar estas opciones en el ámbito global o en el ámbito del sitio. 
    Get-CsDialinConferencingConfiguration
    ```
 
-Este cmdlet recupera información acerca de si los participantes deben grabar su nombre al unirse a una conferencia y cómo Skype para Business Server responde cuando los participantes unirse o abandonar una conferencia de acceso telefónico.
+Este cmdlet recupera información sobre si los participantes deben grabar su nombre al unirse a una conferencia y cómo responde Skype empresarial Server cuando un participante se une a una conferencia de acceso telefónico local o sale de ella.
     
 4. Ejecute los siguientes comandos en símbolo del sistema:
     
@@ -64,6 +64,6 @@ Set-CsDialinConferencingConfiguration -Identity site:Redmond
 -EntryExitAnnouncementsType ToneOnly
 ```
 
-Para obtener más información, incluida la sintaxis y una lista completa de los parámetros, consulte [Set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
+Para obtener más información, incluida la sintaxis y una lista completa de parámetros, consulte [set-CsDialInConferencingConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps).
   
 

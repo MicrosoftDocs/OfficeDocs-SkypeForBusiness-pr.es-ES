@@ -1,36 +1,36 @@
 ---
-title: Crear una nueva directiva PIN en Skype para Business Server
+title: Crear una nueva Directiva de PIN en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
-description: 'Resumen: Cree una nueva directiva de PIN en Skype para Business Server.'
-ms.openlocfilehash: 69a9028cbe54f4832e251663d0664c051843bbe0
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: cree una nueva Directiva de PIN en Skype empresarial Server.'
+ms.openlocfilehash: aaedcbfe28cb8e64b4adf7a302eef8c0d3d08a1f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919811"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283822"
 ---
-# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Crear una nueva directiva PIN en Skype para Business Server
+# <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Crear una nueva Directiva de PIN en Skype empresarial Server
  
-**Resumen:** Crear una nueva directiva PIN en Skype para Business Server.
+**Resumen:** Crear una nueva Directiva de PIN en Skype empresarial Server.
   
-Puede usar la página **Directiva de PIN** para proporcionar autenticación de identificación personal numérica (PIN) a los usuarios que se conectan a Skype para la empresa con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
+Puede usar la página **Directiva de PIN** para proporcionar autenticación de número de identificación personal (PIN) a los usuarios que se conectan a Skype empresarial con teléfonos IP. Para usar la autenticación de PIN, asegúrese de que la opción **Habilitar autenticación de PIN** esté seleccionada en la configuración del servicio web.
   
 Siga estos pasos para crear una directiva de PIN de nivel de usuario o de nivel de sitio. 
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>Para crear una directiva de PIN de usuario o sitio
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tiene derechos de usuario equivalentes), o asignados a la función CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que se encuentra en la red en el que implementa Skype para Business Server .
+1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Skype empresarial Server. .
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Seguridad** y, a continuación, en **Directiva de PIN**.
     

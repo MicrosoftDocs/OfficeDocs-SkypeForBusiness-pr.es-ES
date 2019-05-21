@@ -5,28 +5,28 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/19/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.OfficeWebAppsServerSettingsExpander
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
-description: 'Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:'
-ms.openlocfilehash: 8b64060cd3e51dbe8fe8398137c3fc323cd9daa2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Edite las propiedades del servidor de Office Web Apps configurado. Pueden modificarse las siguientes propiedades:'
+ms.openlocfilehash: 103a8dd42833fe66e0c439d441427d4fb67c6f8b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924433"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284553"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Editar configuración del servidor Office Web Apps
 
-Para editar las propiedades de Office Web Apps Server configurada. Pueden modificarse las siguientes propiedades:
+Edite las propiedades del servidor de Office Web Apps configurado. Pueden modificarse las siguientes propiedades:
 
- **FQDN del servidor de Office Web Apps**: esta propiedad define el nombre de dominio completo de Office Web Apps Server y debe coincidir con un sistema de nombres de dominio (DNS) host A o AAAA (si se utiliza IPv6) registro.
+ **FQDN de Office Web Apps Server**: esta propiedad define el nombre de dominio completo del servidor de Office Web Apps y debe coincidir con un registro del sistema de nombres de dominio (DNS) host a o AAAA (si está usando IPv6).
 
- **Dirección URL de detección de Office Web Apps Server**: el localizador uniforme de recursos (URL) para el acceso de cliente a Office Web Apps Server, es posible que necesite editar esta dirección desde su valor predeterminado si el servidor se coloca en otra zona de red que no sea la red interna para su despliegue.
+ **Dirección URL de detección de Office Web Apps Server**: localizador de recursos uniforme (URL) para el acceso de clientes al servidor de Office Web Apps, es posible que tenga que modificar esta dirección de forma predeterminada si el servidor se encuentra en otra zona de red que no sea la red interna de su implementación.
 
 Active la casilla **El servidor de Office Web Apps se implementa en una red externa** si este servidor está implementado en su red perimetral o en otra zona de red que se encuentra fuera del firewall interno que separa la red perimetral, las redes de poca confianza e Internet de la implementación interna.
 

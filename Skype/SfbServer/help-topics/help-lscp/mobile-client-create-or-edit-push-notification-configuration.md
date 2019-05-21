@@ -1,11 +1,11 @@
 ---
-title: Clientes móviles crear o editar la configuración de notificaciones de inserción
+title: Cliente móvil crear o editar la configuración de notificaciones push
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/24/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPushNotificationCfgEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Las notificaciones de inserción y el centro de enrutamiento de notificaciones de inserción (PNCH) son dos partes esenciales de la característica de movilidad. La notificación de inserción es el proceso por el cual un mensaje se envía al PNCH. El mensaje se mantiene allí hasta que puede enviarse al cliente móvil o hasta que el tiempo de espera se agota.
-ms.openlocfilehash: 6100c32038b28dec0259ab8224abae696724b20f
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5c7d78174ca4cfe180742fa73a801704cb85997c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33911033"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293434"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Cliente móvil: Crear o editar configuración de notificaciones de inserción
  
@@ -36,9 +36,9 @@ Haga lo siguiente para habilitar las notificaciones de inserción:
   
 2. Seleccione qué servicios de notificación de inserción desea habilitar activando la casilla correspondiente:
     
-   - **Notificación de inserción de habilitar Microsoft** habilitará la notificación de inserción a la de PNCH basada en la nube para Windows Phone con la Skype para la aplicación empresarial
+   - **Habilitar la notificación de inserción de Microsoft** habilitará la notificación de inserción en el PNCH basado en la nube para Windows Phone con la aplicación Skype empresarial
     
-   - **Notificación de inserción de Apple habilitar** habilitará la notificación de inserción para PNCH de Apple para dispositivos que ejecutan iOS de Apple (por ejemplo, iPhone, iPad) y usan el Skype para la aplicación empresarial
+   - **Habilitar la notificación push de Apple** habilitará la notificación push en el Apple PNCH para dispositivos que ejecuten iOS de Apple (por ejemplo, iPhone, iPad) y la aplicación Skype empresarial.
     
 3. Una vez editada la directiva, haga clic en **Confirmar** para guardar los cambios. Si prefiere eliminar los cambios realizados, seleccione **Cancelar**. No se guardará ningún cambio en la directiva.
     

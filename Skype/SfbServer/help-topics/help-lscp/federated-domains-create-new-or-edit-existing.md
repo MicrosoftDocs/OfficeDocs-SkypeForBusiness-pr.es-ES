@@ -1,11 +1,11 @@
 ---
-title: Dominios federados creación nuevos o edición los existentes
+title: Dominios federados crear nuevos o editar existentes
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ExtDomainEdit
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 90979ccd-7439-4a66-b82d-222df1554d66
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: 29f95b5c4ef166e383165f1799e1316c8fb912d9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 83d4275f395ea2cc1135a75877ca58fe6e0df728
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920267"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285816"
 ---
 # <a name="federated-domains-create-new-or-edit-existing"></a>Dominios federados: Crear nuevo o editar existente
 

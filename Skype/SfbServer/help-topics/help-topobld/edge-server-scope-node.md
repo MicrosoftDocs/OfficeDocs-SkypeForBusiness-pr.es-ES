@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/25/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeServerScopeNode
@@ -13,12 +13,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Este nodo muestra el nombre de dominio completo (FQDN) del grupo de servidores y otras opciones de configuración básicas de este grupo de servidores perimetrales. Puede efectuar las acciones siguientes:'
-ms.openlocfilehash: b200021b175852b0211602b068bf2d0f100ea607
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 515502b12ce4cc59f854f7266fa27d792ecf9518
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926897"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282571"
 ---
 # <a name="edge-server-scope-node"></a>Nodo de ámbito del servidor perimetral
  

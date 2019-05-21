@@ -1,11 +1,11 @@
 ---
-title: Asistente de híbrida iniciar sesión en Office 365
+title: Asistente de implementación híbrida iniciar sesión en Office 365
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 2/8/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.HybridSignIntoO365
@@ -16,17 +16,17 @@ ms.collection:
 - IT_Skype16
 - IT_Skype4B_Hybrid
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
-description: Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.
-ms.openlocfilehash: 1e0a9e87e4ddeb32223fbc9b5c7d92ab4210e1ad
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar un entorno híbrido con Skype empresarial online.
+ms.openlocfilehash: 1729699fdce96549bf1d3e485a6346960c4cc5ed
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910928"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34293490"
 ---
 # <a name="hybrid-wizard-sign-in-to-office-365"></a>Asistente híbrido: Inicio de sesión en Office 365
 
-Use el Skype para el Asistente para la capacidad de administración de negocio servidor híbrido que le ayudarán a configurar su entorno para la implementación híbrida con Skype para profesionales en línea.
+Use el Asistente de administración híbrida de Skype empresarial Server como ayuda para configurar un entorno híbrido con Skype empresarial online.
 
 ## <a name="sign-in-to-office-365"></a>Iniciar sesión en Office 365
 

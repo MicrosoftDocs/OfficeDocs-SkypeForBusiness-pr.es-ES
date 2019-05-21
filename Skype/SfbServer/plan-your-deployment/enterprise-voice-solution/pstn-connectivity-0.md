@@ -1,10 +1,10 @@
 ---
-title: Plan para la conectividad de RTC en Skype para Business Server
+title: Planear la conectividad RTC en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,21 +13,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
-description: Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: aa3449746c539e7b7bf8fe5332fa4313f80fa555
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Planear la conectividad RTC en telefonía empresarial en Skype empresarial Server.
+ms.openlocfilehash: f0b6aa6b43562fea91885b0d55d75fd234ab97de
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913573"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276500"
 ---
-# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Plan para la conectividad de RTC en Skype para Business Server
+# <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planear la conectividad RTC en Skype empresarial Server
  
-Plan para la conectividad de RTC en Enterprise Voice en Skype para Business Server.
+Planear la conectividad RTC en telefonía empresarial en Skype empresarial Server.
   
-Una solución VoIP empresarial necesita proporcionar llamadas entrantes y salientes a la red telefónica conmutada (RTC) sin que la calidad de servicio (QoS) se vea afectada. Los usuarios que realizar y reciban llamadas no deben tener en cuenta la tecnología subyacente: desde la perspectiva del usuario, una llamada entre la infraestructura de Enterprise Voice y la RTC debe parecer exactamente igual que otra llamada de teléfono.
+Una solución VoIP empresarial necesita proporcionar llamadas entrantes y salientes a la red telefónica conmutada (RTC) sin que la calidad de servicio (QoS) se vea afectada. Los usuarios que realicen y reciban llamadas no deben ser conscientes de la tecnología subyacente: desde el punto de vista del usuario, una llamada entre la infraestructura de telefonía IP empresarial y la RTC debe parecer simplemente otra llamada telefónica.
   
-Skype para Business Server ofrece una conectividad de RTC confiable y escalable mediante el uso de las siguientes opciones:
+Skype empresarial Server proporciona conectividad RTC confiable y escalable con las siguientes opciones:
   
 - **Troncos SIP** a un proveedor de servicios de telefonía por Internet (ITSP)
     
@@ -39,14 +39,14 @@ Según cuál sea el tamaño, la cobertura geográfica y la infraestructura de vo
   
 ## <a name="in-this-section"></a>En esta sección
 
-- [Enlace troncal SIP en Skype para Business Server](sip-trunking.md)
+- [Troncalización SIP en Skype empresarial Server](sip-trunking.md)
     
-- [Conexiones SIP directas en Skype para Business Server](direct-sip.md)
+- [Conexiones SIP directas en Skype empresarial Server](direct-sip.md)
     
-- [Tronco m: n en Skype para Business Server](m-n-trunk.md)
+- [M:N troncal en Skype empresarial Server](m-n-trunk.md)
     
-- [Reglas de conversión de Skype para Business Server](translation-rules.md)
+- [Reglas de traducción en Skype empresarial Server](translation-rules.md)
     
-- [Plan para el enrutamiento de voz salientes en Skype para Business Server](outbound-voice-routing.md)
+- [Planear el enrutamiento de voz saliente en Skype empresarial Server](outbound-voice-routing.md)
     
 

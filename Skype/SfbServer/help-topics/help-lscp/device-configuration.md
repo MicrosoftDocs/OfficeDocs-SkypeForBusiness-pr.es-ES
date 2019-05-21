@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: Una configuración de dispositivo es una colección de configuración que se utiliza para administrar Skype para dispositivos de negocio Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: b5cc6760bf49e02f969dc4f6b081348eaad150fd
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Una configuración de dispositivo es una colección de opciones que se usa para administrar los dispositivos de Skype empresarial Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
+ms.openlocfilehash: d84d3749e46636f1ff5b1a141fd96808462851a0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913960"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285956"
 ---
 # <a name="device-configuration"></a>Configuración de dispositivo
  
-Una configuración de dispositivo es una colección de configuración que se utiliza para administrar Skype para dispositivos de negocio Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad. 
+Una configuración de dispositivo es una colección de opciones que se usa para administrar los dispositivos de Skype empresarial Phone Edition, ya sea de forma global o dentro de un sitio. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad. 
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -36,21 +36,21 @@ En la página **Configuración de dispositivo** puede realizar las siguientes ta
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-- **Nuevo** Puede agregar una nueva configuración de dispositivo con el siguiente ámbito:
+- **Nuevo** Puede Agregar una nueva configuración de dispositivo con el siguiente ámbito:
     
   - Global
     
   - Sitio
     
-- **Editar** Puede cambiar las opciones de configuración de un dispositivo en la lista. Al usar esta opción, puede hacer lo siguiente:
+- **Editar** Puede cambiar las opciones de una configuración de dispositivo de la lista. Al usar esta opción, puede hacer lo siguiente:
     
-  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones para una configuración de dispositivo.
+  - **Mostrar detalles** Esta opción abre un cuadro de diálogo en el que puede cambiar las opciones para la configuración de un dispositivo.
     
-  - **Seleccionar todo** Esta opción selecciona todas las configuraciones de dispositivos de la lista.
+  - **Seleccionar todo** Esta opción selecciona todas las configuraciones de dispositivo de la lista.
     
-  - **Eliminar** Esta opción elimina todas las configuraciones de dispositivo seleccionado.
+  - **Eliminar** Esta opción elimina todas las configuraciones de dispositivo seleccionadas.
     
-- **Actualizar** Puede actualizar la lista de configuración de dispositivo para comprobar el estado de las opciones de todas las configuraciones de dispositivo.
+- **Actualizar** Puede actualizar la lista de configuración de dispositivos para comprobar el estado de las opciones de todas las configuraciones de dispositivos.
     
 ## <a name="see-also"></a>Vea también
 
