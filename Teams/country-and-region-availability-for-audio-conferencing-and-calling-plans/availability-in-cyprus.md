@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para chipriota los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 5998a834226d8e63eeed237342abdb7e52e6bfdd
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Chipre.
+ms.openlocfilehash: 1703b4ba0b91cec9acc75a58b7e1d764b11236ca
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542338"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283061"
 ---
 # <a name="availability-in-cyprus"></a>Disponibilidad en Chipre
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para chipriota los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft teams que están disponibles para Chipre.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Nicosia</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Nicosia</ul> Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

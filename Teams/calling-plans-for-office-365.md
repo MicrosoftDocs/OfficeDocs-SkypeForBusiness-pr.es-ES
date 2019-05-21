@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,53 +25,53 @@ ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Learn about Calling Plan (PSTN Calling plan) for Skype for business options and how to get licenses for your organization. '
-ms.openlocfilehash: 3b534a67002d4da54d6d9058577fdc7b32cf6ad2
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: 8cc1bc8a1a510bfa6353fe2d65e1253b738011bf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33993705"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283474"
 ---
 # <a name="calling-plans-for-office-365"></a>Planes de llamadas para Office 365
 
-Llamadas a otro Skype para los usuarios profesionales y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos normales y ya no tiene un proveedor de servicios para realizar llamadas de voz, necesita adquirir un Plan de llamada. Para obtener más información, vea el [sistema telefónico y planes de llamada](calling-plan-landing-page.md).
+Las llamadas a otros usuarios de Skype empresarial y Microsoft Teams son gratuitas, pero si desea que los usuarios puedan llamar a teléfonos tradicionales y aún no tiene un proveedor de servicios para realizar llamadas de voz, debe comprar un plan de llamadas. Para obtener más información, consulta [planes de llamadas y sistema telefónico](calling-plan-landing-page.md).
   
-Éstas son las opciones de planes de llamada:
+Estas son las opciones de planes de llamada:
   
-- **Llamar a planear nacionales**: los usuarios con licencia pueden destacar a los números que se encuentra en el país o región donde se les asignaron en Office 365.
+- **Plan de llamadas nacionales**: los usuarios con licencia pueden llamar a números que se encuentren en el país o la región donde están asignados en Office 365.
     
-- **Nacionales y llamar a planear internacional**: los usuarios con licencia pueden destacar a los números que se encuentra en el país o región donde su licencia de Office 365 se asigna al usuario en función de la ubicación del usuario y a los números de internacionales en [196 países o regiones ](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
+- **Plan de llamadas nacionales e internacionales**: los usuarios con licencia pueden llamar a números que se encuentran en el país o la región donde se asigna la licencia de Office 365 en función de la ubicación del usuario y de números internacionales en [196 países o regiones ](country-and-region-availability-for-audio-conferencing-and-calling-plans/users-can-make-outbound-calls-to-these-countries-and-regions.md).
     
-Minutos mensuales para cada organización y cada país o región se encuentran [aquí](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
+Los minutos mensuales disponibles para cada organización y cada país o región se encuentran [aquí](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md).
   
 > [!IMPORTANT]
-> El país o región se basa en la ubicación de la licencia del usuario en el **Centro de administración de Microsoft 365** > **usuarios activos** y **no** la dirección de facturación enumeradas en el **Perfil de organización** en el Administrador de **Microsoft 365 Centro de**.   
+> El país o la región se basa en la ubicación de la licencia del usuario en **el centro** > de administración de Microsoft 365**usuarios activos** y **no** en la dirección de facturación que aparece en el perfil de la **organización** en el **Administrador de Microsoft 365 Centro**.   
 ![Ubicación de la licencia del usuario](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
-Para obtener información detallada acerca de los límites de uso y condiciones de uso, vea [conferencias de Audio del período complementario de salida](complimentary-dial-out-period.md).
+Para obtener información detallada sobre los límites de uso y las condiciones de uso, consulte [período de llamada complementario de conferencias de audio](complimentary-dial-out-period.md).
   
-## <a name="how-to-buy-a-calling-plan"></a>Cómo comprar un Plan de llamada
+## <a name="how-to-buy-a-calling-plan"></a>Cómo comprar un plan de llamadas
 
-1. <strong>En primer lugar debe adquirir un ** sistema telefónico</strong> licencia adicional para<strong>. Para ello, [inicie sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y elija ** facturación</strong> > **Servicios de compra** > **suscripciones complemento** > **comprar ahora**.
+1. <strong>Primero debes comprar una</strong> licencia de complemento de * * Phone<strong>. Para ello, [inicie sesión en el centro de administración de Microsoft 365](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) y elija * *</strong>planes de facturación > del**complemento de** > **servicios** > de compras**ahora**.
     
-    ![Cuando comprar las licencias de PBX en la nube, verá una opción para adquirir una plan de llamada de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
+    ![Cuando compre las licencias de PBX en la nube, verá una opción para comprar un plan de llamadas de voz.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > En función de su plan, deberá comprar más complementos antes de que puede comprar licencias del sistema de teléfono. Para obtener más información, consulte "Opciones de licencia en función del plan" en [licencias de complemento de equipos de Microsoft](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > En función de su plan, es posible que tenga que comprar más complementos para poder comprar licencias de sistema telefónico. Para obtener más información, consulte "opciones de licencia basadas en su plan" en [licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Después de adquirir licencias del sistema de teléfono, puede comprar el Plan de llamar a iniciando sesión en el **Centro de administración de Microsoft 365**, elija **facturación** > **Servicios de compra** > **suscripciones de complemento**y, a continuación, haga clic en **comprar ahora **. Verá la llamada planes de no existe.
+2. Después de comprar las licencias del sistema telefónico, puede comprar el plan de llamadas iniciando sesión en el **centro de administración de Microsoft 365**, seleccionando suscripciones del**complemento****servicios** > de compra de **facturación** > y, a continuación, haciendo clic en **comprar ahora **. Verá los planes de llamadas allí.
     
-    ![Después de adquirir una licencia de PBX en la nube, puede comprar planes de llamada de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
+    ![Después de comprar una licencia de PBX en la nube, puede comprar planes de llamadas de voz.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
   
-Puede comprar y asignar distintos planes de llamada a los usuarios diferentes, según las necesidades de su organización. Después de seleccionar el llamar al Plan que necesita, ir a la caja. Asignar un plan para cada usuario en el centro de administración de Microsoft 365. Para obtener más información, vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
+Puede comprar y asignar diferentes planes de llamadas a diferentes usuarios, en función de las necesidades de su organización. Después de seleccionar el plan de llamadas que necesita, continúe con la desprotección. Asigne un plan a cada usuario en el centro de administración de Microsoft 365. Para obtener información sobre cómo hacerlo, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
   
-## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>¿Tiene un proveedor de servicios que proporciona conectividad con RTC local para los usuarios de híbrida?
+## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>¿Tiene un proveedor de servicios que proporcione conectividad RTC local para los usuarios híbridos?
 
-Si es así, no es necesario adquirir un Plan de llamada. Office 365 E5 de la empresa incluye el complemento **Del sistema de teléfono** , por lo que puede continuar con la desprotección.
+Si es así, no es necesario que compre un plan de llamadas. Office 365 Enterprise E5 incluye el complemento de **sistema telefónico** para que pueda continuar con la desprotección.
   
-A continuación, asignar las licencias de complemento E5 de la empresa o **Sistema telefónico** a los usuarios en el centro de administración de Microsoft 365. Para obtener más información, vea [las licencias de asignar los equipos de Microsoft](assign-teams-licenses.md).
+A continuación, asigne las licencias de Enterprise E5 o el complemento **del sistema telefónico** a los usuarios en el centro de administración de Microsoft 365. Para obtener información sobre cómo hacerlo, consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md).
   
-## <a name="pricing-information"></a>Información de precios
+## <a name="pricing-information"></a>Información sobre precios
 
 - [Precios de planes de llamadas](https://go.microsoft.com/fwlink/?LinkId=799761)
     
@@ -81,13 +81,13 @@ A continuación, asignar las licencias de complemento E5 de la empresa o **Siste
     
 ## <a name="for-more-information"></a>Más información
 
-A continuación presentamos más artículos que explican cómo configurar los planes de llamada:
+Estos son más artículos en los que se explica cómo configurar los planes de llamadas:
   
 - [Configurar planes de llamadas](set-up-calling-plans.md)
     
 - [Licencias complementarias de Microsoft Teams](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
     
-- [Planear el sistema telefónico en la solución de Office 365 (en la nube PBX)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
+- [Planear el sistema telefónico en la solución Office 365 (PBX en la nube)](https://go.microsoft.com/fwlink/p/?LinkId=717926)
     
    
 ## <a name="related-topics"></a>Temas relacionados

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,29 +24,29 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Suiza los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: cda107fdd1b807d0df1f9f7c48548e4e14f9ecb5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Suiza.
+ms.openlocfilehash: 1586b0c538b8fb8ee87343d2fda2f5535e3bb6c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32221958"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282781"
 ---
 # <a name="availability-in-switzerland"></a>Disponibilidad en Suiza
 
 > [!NOTE]
-> Puede obtener los números de **servicio** en Suiza para su uso con la conferencia, el operador automático y las colas de llamadas, pero no se puede obtener los números de **usuario** en Suiza como planes de llamada no están disponibles.
+> Puede obtener números de **servicio** en Suiza para usarlos con conferencias, operador automático y colas de llamadas, pero no puede obtener números de **usuarios** en Suiza, ya que los planes de llamadas no están disponibles.
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Suiza los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Suiza.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li> Zurich</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por: <br/><ul><li> Zurich</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

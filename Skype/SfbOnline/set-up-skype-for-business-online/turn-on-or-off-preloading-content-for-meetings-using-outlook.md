@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,19 +18,19 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'See how to turn preloaded content on or off for Skype for Business meetings using files or attachments on an Outlook meeting invitation. '
-ms.openlocfilehash: 413610285a187fc85d7aa926a77f09cccbb15643
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 8b3b912526a44fb10cb685dd6ab9b3dea8f8eac4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32226018"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284928"
 ---
 # <a name="turn-on-or-off-allowing-content-to-be-preloaded-for-meetings-using-outlook"></a>Activar o desactivar la precarga de contenido con Outlook en las reuniones
 
-Los usuarios pueden cargar contenido, archivos o datos adjuntos que están asociados a una invitación de reunión de Outlook a un Skype para la reunión en línea de negocio, pero se la puede activar o desactivar. Está activado de forma predeterminada para todas las organizaciones que utilizan Skype para profesionales en línea. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
+Los usuarios pueden cargar previamente el contenido, los archivos o los datos adjuntos adjuntos a una invitación a una reunión de Outlook en una reunión de Skype empresarial online, pero puede activarlos o desactivarlos. Está activada de forma predeterminada en todas las organizaciones que usan Skype empresarial online. Vea información sobre cómo [Precargar datos adjuntos para una reunión de Skype Empresarial.](https://support.office.com/article/fd3d9f9d-b448-4754-b813-02e49393f251).
   
 > [!NOTE]
-> Actualmente, no hay ningún cmdlets disponibles en Skype para empresarial en línea para la configuración o la visualización de valores en línea para _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para implementaciones locales. Es importante saber que el contenido no se cargarán en una reunión si el contenido adjunto supera el _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
+> Por el momento, no hay ningún cmdlet disponible en Skype empresarial online para establecer o ver los valores de conexión de _MaxContentStorageMB_ y _MaxUploadFileMB_. Solo están disponibles para implementaciones locales. Es importante saber que el contenido no se cargará en una reunión si el contenido adjunto supera el _MaxUploadFileSizeMB_ o si se alcanza el límite de _MaxContentStorageMB_ .
   
 ## <a name="to-get-you-started"></a>Para empezar
 
@@ -66,14 +66,14 @@ $session = New-CsOnlineSession -Credential $credential
 Import-PSSession $session
 ```
 
-Si desea obtener más información acerca de cómo iniciar Windows PowerShell, vea [Conectar a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [Configurar el equipo de Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
+Si desea obtener más información sobre cómo iniciar Windows PowerShell, vea [conectarse a todos los servicios de Office 365 en una sola ventana de Windows PowerShell](https://technet.microsoft.com/EN-US/library/dn568015.aspx) o [configurar su equipo para Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
   
 ## <a name="turning-it-on-or-off"></a>Activación o desactivación
 
-Ser capaz de cargar de antemano contenido adjunto a una invitación de reunión de Outlook para Skype para reuniones en línea de negocio está activado de forma predeterminada, pero es posible que deba evitar que los usuarios de la organización de carga previa de contenido en sus reuniones.
+Poder cargar previamente el contenido adjunto a una invitación a una reunión de Outlook en las reuniones de Skype empresarial online está activado de forma predeterminada, pero es posible que no desee que los usuarios de su organización carguen previamente contenido en sus reuniones.
   
 > [!IMPORTANT]
-> Esta configuración sólo se puede activar o desactivar para toda la organización; no se puede activar o desactiva para un único usuario. 
+> Esta configuración solo se puede activar o desactivar para toda la organización; no puede activarlo o desactivarlo para un solo usuario. 
   
  **Para desactivarla, abra Windows PowerShell y haga lo siguiente:**
   

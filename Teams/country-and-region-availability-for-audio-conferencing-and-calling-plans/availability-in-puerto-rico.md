@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Puerto Rico los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 8a245f67e4542f532ec7282abaea429a0a3b95f5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Puerto Rico.
+ms.openlocfilehash: f92c35fa19c2464704c3d2827485cde6145f3b26
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32232709"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287968"
 ---
 # <a name="availability-in-puerto-rico"></a>Disponibilidad en Puerto Rico
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Puerto Rico los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Puerto Rico.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -61,7 +61,7 @@ Aquí están disponibles para Puerto Rico los servicios de Office 365 para Skype
 |:-----|:-----|
 |¿Los planes de llamada están disponibles para la compra?  <br/> |Sí  <br/> |
 |Minutos disponibles para Planes de llamada  <br/> |3000 minutos de llamadas nacionales o 600 minutos de llamadas internacionales (el límite al que se llegue antes cada mes). Las llamadas nacionales en los Estados Unidos incluyen las llamadas a los 50 estados de Estados Unidos y Puerto Rico. Los usuarios que tengan asignada la ubicación de uso de licencia de EE. UU. o Puerto Rico comparten el mismo grupo de minutos.  <br/> |
-|¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/> |
+|¿Puede hacer llamadas salientes a números especiales? <br/> | No es compatible en este momento. <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).  <br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: 6b90ae826c24bf3af3d05ba0f65a3208b54cee1c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 485a491acbce57b5ef1503f7d14ba60804fb43a6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32248204"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283173"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -43,7 +43,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -60,12 +60,12 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 | **Característica**                                        | **Detalles**                                                                                                                                                                                                                                                                 |
 |:---------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ¿Los planes de llamada están disponibles para la compra?  <br/>    | Sí  <br/>                                                                                                                                                                                                                                                                  |
-| Minutos disponibles para llamar a los planes.               | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto al llamar a planear nacionales </li><li>240 minuto al llamar a planear nacionales</li></li><li>3000 minuto al llamar a planear nacionales</li></li><li>Nacionales y llamar a planear internacional: 3000 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li>|
-| ¿Puede realizar llamadas salientes a los números de premium?  <br/> | No se admite en este momento.<br/>                                                                                                                                                                                                                                            |
+| Minutos disponibles para planes de llamadas.               | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos </li><li>Plan de llamadas nacionales de 240 minutos</li></li><li>Plan de llamadas nacionales de 3000 minutos</li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li>|
+| ¿Puede hacer llamadas salientes a números especiales?  <br/> | No es compatible en este momento.<br/>                                                                                                                                                                                                                                            |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                 | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                  |
 
 > [!Note]
-> Las llamadas a los Estados Unidos se tratan como llamadas nacionales.
+> Las llamadas a EE. UU. se tratan como llamadas nacionales.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 
@@ -78,7 +78,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
  Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
 
 > [!Note] 
-> Cuando una llamada planear (nacionales o nacional e internacional) usuario en los Estados Unidos marca un número de teléfono en Canadá se tratará como una llamada nacional. También es el caso cuando un usuario en Canadá va a realizar una llamada a un número de Estados Unidos.
+> Cuando un plan de llamadas (nacionales o nacionales e internacionales) en Estados Unidos marca un número de teléfono de Canadá, se tratará como una llamada nacional. Esto también sucede cuando un usuario de Canadá realiza una llamada a un número de Estados Unidos.
 
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

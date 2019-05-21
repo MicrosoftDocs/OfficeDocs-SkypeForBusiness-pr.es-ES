@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 6/22/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: El cmdlet Reset-CcCACertificate reinstala el servidor de AD del servicio de entidad de certificación para crear un nuevo certificado de CA raíz.
-ms.openlocfilehash: 1ed9aaa8b7caf1edd5324d082094fa247c858853
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 3cac8629a52d915df55408a44d8d31701106a5bd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32250878"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287072"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
@@ -46,7 +46,7 @@ Reset-CcCACertificate
 
 Si el certificado de CA raíz está en peligro o ya no es seguro, deberá actualizar este certificado y todos los certificados emitidos por la CA raíz. El cmdlet Reset-CcCACertificate revoca todos los certificados, desinstala y vuelve a instalar la entidad de certificación, y limpia todos los certificados relacionados con el servicio de la entidad de certificación antigua. 
   
-Para obtener más información, vea "Certificado certificados de entidad de certificación o interno certificados emitidos a CMS, el servidor de mediación, servidor perimetral están cerca de expiración o se ve comprometidos" la solución de problemas de la implementación del conector en la nube.
+Para obtener más información, consulte "los certificados de la entidad emisora de certificados o los certificados internos emitidos para CMS, servidor de mediación y servidor perimetral están cerca de la fecha de expiración o se han visto comprometidos" en solucionar problemas de implementación en la nube.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>
@@ -61,13 +61,13 @@ Ninguno.
 ## <a name="see-also"></a>Consulte también
 <a name="ReturnTypes"> </a>
 
-[CcCACertificate renovar](renew-cccacertificate.md) Versión 1.4.2
+[Renovar-CcCACertificate](renew-cccacertificate.md) Versión 1.4.2
   
-[CcServerCertificate renovar](renew-ccservercertificate.md) Versión 1.4.2
+[Renovar-CcServerCertificate](renew-ccservercertificate.md) Versión 1.4.2
   
-[Actualización de CcCACertificate](update-cccacertificate.md) Versión 2.0 y versiones posterior
+[Update-CcCACertificate](update-cccacertificate.md) Versión 2,0 y posteriores
   
-[CcServerCertificate renovar](renew-ccservercertificate.md) Versión 2.0 y versiones posterior
+[Renovar-CcServerCertificate](renew-ccservercertificate.md) Versión 2,0 y posteriores
   
 [Export-CcRootCertificate](export-ccrootcertificate.md)
   

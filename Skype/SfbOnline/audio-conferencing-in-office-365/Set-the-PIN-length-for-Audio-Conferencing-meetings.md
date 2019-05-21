@@ -1,5 +1,5 @@
 ---
-title: Establecer la longitud PIN para las reuniones de conferencia de Audio en Skype para profesionales en línea
+title: Establecer la longitud del PIN para las reuniones de audioconferencia en Skype empresarial online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -20,22 +20,22 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Learn the parameters for the length and requirements of a PIN and see how to set the length for meetings in Skype for Business.
-ms.openlocfilehash: c5add9cff2855fd969b76d96647f05e6e6dab290
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 95bc1c69e59e125d451a68eeee23ea15febd420f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229295"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283814"
 ---
-# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Establecer la longitud PIN para las reuniones de conferencia de Audio en Skype para profesionales en línea
+# <a name="set-the-pin-length-for-audio-conferencing-meetings-in-skype-for-business-online"></a>Establecer la longitud del PIN para las reuniones de audioconferencia en Skype empresarial online
 
 
 > [!NOTE]
-> Para obtener información acerca de cómo establecer la longitud PIN en Microsoft Teams, vea [establecer la longitud PIN para las reuniones de conferencia de Audio en los equipos de Microsoft](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
+> Para obtener información sobre la configuración de la longitud del PIN en Microsoft Teams, consulte [establecer la longitud del PIN para las reuniones de audioconferencia en Microsoft Teams](/en-us/MicrosoftTeams/Set-the-PIN-length-for-Audio-Conferencing-meetings-in-teams).
 
-Cuando se configure Servicios de audioconferencia por Skype para la empresa, obtendrá un puente de conferencia de audio. Un puente de conferencia puede contener uno o más números de teléfono. Establece el número de teléfono se incluirá en la reunión de invitaciones para la Skype para la aplicación empresarial.
+Al configurar las conferencias de audio para Skype empresarial, recibirá un puente de audioconferencia. Un puente de conferencia puede contener uno o más números de teléfono. El número de teléfono que establezca se incluirá en las invitaciones a reuniones para la aplicación de Skype empresarial.
   
-El puente de conferencia de audio responde a una llamada para las personas que llaman a una reunión mediante un teléfono. Atiende el autor de la llamada con mensajes de voz de un operador automático y, a continuación, dependiendo de la configuración, puede reproducir las notificaciones y pida a los autores de llamadas para registrar su nombre. **Configuración de puente de Microsoft** le permiten cambiar la configuración de las notificaciones de la reunión y experiencia al unirse a la reunión y establecer la longitud de los ejes que se usan por los organizadores de reuniones. Los organizadores de reuniones Utilice PIN para iniciar reuniones si no puede unirse a la reunión utilizando el Skype para la aplicación empresarial.
+El puente de conferencias de audio responde a una llamada para las personas que llaman a una reunión con un teléfono. Responde a la persona que llama con un operador automático y, en función de la configuración, puede reproducir notificaciones y pedir a quienes llaman que graben su nombre. La **configuración de Microsoft Bridge** le permite cambiar la configuración de las notificaciones de reunión y la experiencia de unirse a la reunión, y establecer la longitud de los PIN que usan los organizadores de reuniones. Los organizadores de reuniones usan PIN para iniciar reuniones si no pueden unirse a la reunión con la aplicación de Skype empresarial.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -44,16 +44,16 @@ El puente de conferencia de audio responde a una llamada para las personas que l
  
 1. In the **Skype for Business admin center**, in the left navigation, go to **Audio conferencing** > **Microsoft bridge settings**.
     
-2. En **seguridad** > **longitud PIN**, seleccione el número de dígitos que desee para el PIN y, a continuación, haga clic en **Guardar**.
+2. En **** > **longitud del PIN**de seguridad, seleccione el número de dígitos que desee para el PIN y, a continuación, haga clic en **Guardar**.
     
 > [!NOTE]
 > Un PIN no es lo mismo que un identificador de conferencia. Los autores de llamada usan los identificadores de conferencia al unirse a la reunión. Se utilizan para identificar la reunión. El PIN se usa para autenticar un autor de llamada como organizador de la reunión. 
 
-## <a name="want-to-know-more-about-pin-settings"></a>¿Desea saber más acerca de la configuración de NIP?
+## <a name="want-to-know-more-about-pin-settings"></a>¿Desea saber más sobre la configuración de PIN?
 
-- PIN pueden contener de 4 a 12 dígitos; el valor predeterminado es 5. En la creación de un PIN solo pueden usarse números. Por lo tanto, no pueden usarse letras ni caracteres especiales.
+- Los pin pueden estar entre 4 y 12 dígitos; el valor predeterminado es 5. En la creación de un PIN solo pueden usarse números. Por lo tanto, no pueden usarse letras ni caracteres especiales.
     
-- Un PIN sólo es necesaria para el organizador de la reunión cuando un Skype para usuarios de empresa ya no ha comenzado la reunión. Si todas las personas llaman a la reunión, se necesita el PIN para que el organizador de la reunión inicie la reunión.
+- Un PIN solo es necesario para el organizador de la reunión cuando un usuario de Skype empresarial ya no ha iniciado la reunión. Si todas las personas llaman a la reunión, se necesita el PIN para que el organizador de la reunión inicie la reunión.
     
 - La configuración de seguridad del PIN se aplica a todos los números de teléfono asociados a un puente de Microsoft, así como a todas las reuniones que usen los números de teléfono asociados a dicho puente. 
     

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Colombia.
-ms.openlocfilehash: 0c376f7474f5ea1b38937ee1d2afd984e45ce5d7
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+ms.openlocfilehash: 103ce0e0bbcd1391e255df05045379786a2442eb
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30541499"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283133"
 ---
 # <a name="availability-in-colombia"></a>Disponibilidad en Colombia
 
@@ -43,7 +43,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li> Bogotá</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Bogotá</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Requiere créditos de comunicación  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico

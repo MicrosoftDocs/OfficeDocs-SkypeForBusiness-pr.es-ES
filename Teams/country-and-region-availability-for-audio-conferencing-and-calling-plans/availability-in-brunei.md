@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 437c5f62eff5d1fd015185feae6b2a803ad7f63d
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Brunéi.
+ms.openlocfilehash: a1019c4ef5bb6bae7add322c5a0e52517c89a9e9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543202"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283221"
 ---
 # <a name="availability-in-brunei"></a>Disponibilidad en Brunéi
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Brunei los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Brunéi.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

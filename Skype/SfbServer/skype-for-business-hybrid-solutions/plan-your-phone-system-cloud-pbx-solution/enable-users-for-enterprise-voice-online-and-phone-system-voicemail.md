@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 9/25/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -16,27 +16,27 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
-description: Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
-ms.openlocfilehash: f7ba1c4e259d68ab423ec2bde8aee3604035d125
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Aprenda a habilitar el sistema telefónico en los servicios de voz de Office 365 para los usuarios de Skype empresarial.
+ms.openlocfilehash: 1305f4045d4de86a65e0286938d22490f577507c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32234257"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287506"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-in-office-365-voicemail"></a>Habilitar a los usuarios para telefonía IP empresarial en línea y Sistema telefónico en correo de voz de Office 365
  
-Obtenga información sobre cómo habilitar sistema telefónico en servicios de voz de Office 365 para su Skype para los usuarios empresariales.
+Aprenda a habilitar el sistema telefónico en los servicios de voz de Office 365 para los usuarios de Skype empresarial.
   
-El último paso de implementación del sistema de teléfono en Office 365 con conectividad de RTC local es permitir a los usuarios para el sistema telefónico en Office 365 y correo de voz. Para habilitar estas funciones, tiene que ser un usuario con el rol de administrador global de Office 365 y ser capaz de ejecutar PowerShell remoto. Solo tiene que seguir los pasos que se indican en este tema para las cuentas de usuario que no tengan habilitada la telefonía IP empresarial para Skype Empresarial Online.
+El paso final de la implementación del sistema telefónico en Office 365 con la conectividad RTC local es habilitar a los usuarios para el sistema telefónico en Office 365 y el buzón de voz. Para habilitar estas funciones, tiene que ser un usuario con el rol de administrador global de Office 365 y ser capaz de ejecutar PowerShell remoto. Solo tiene que seguir los pasos que se indican en este tema para las cuentas de usuario que no tengan habilitada la telefonía IP empresarial para Skype Empresarial Online.
   
-## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar sistema telefónico en servicios de voz de Office 365
+## <a name="enable-phone-system-in-office-365-voice-services"></a>Habilitar el sistema telefónico en los servicios de voz de Office 365
 
-Para habilitar a un usuario para el sistema telefónico en Office 365 voz y correo de voz, debe realizar algunos pasos iniciales, como la comprobación para ver si el Skype para Business Connector en línea se implementa en los servidores y permitir que los usuarios de correo de voz hospedado.
+Para habilitar un usuario para el sistema telefónico en Office 365 Voice y el buzón de voz, tendrá que realizar algunos pasos iniciales, como comprobar si el conector de Skype empresarial online está implementado en los servidores y habilitar a los usuarios para el buzón de voz hospedado.
   
-### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar a los usuarios para el sistema telefónico en correo de voz y voz de Office 365
+### <a name="to-enable-your-users-for-phone-system-in-office-365-voice-and-voicemail"></a>Para habilitar a los usuarios para el sistema telefónico en Office 365 voz y el buzón de voz
 
-1. Antes de comenzar, compruebe que la Skype para Business Connector en línea (módulo de Windows PowerShell) se implementa en los servidores Front-End. Si no es así, se puede descargar desde [el centro de descarga](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Puede encontrar más información acerca del uso de este módulo a la [configuración de su equipo para Skype para administración en línea de negocio](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
+1. Antes de empezar, compruebe que el conector de Skype empresarial online (módulo Windows PowerShell) está implementado en los servidores front-end. Si no lo está, puede descargarlo desde [el centro de descarga](https://www.microsoft.com/en-us/download/details.aspx?id=39366). Puede encontrar más información sobre cómo usar este módulo en [configuración del equipo para la administración de Skype empresarial online](https://technet.microsoft.com/en-us/library/dn362839%28v=ocs.15%29.aspx).
     
 2. Inicie Windows PowerShell como un administrador.
     
@@ -68,7 +68,7 @@ Para habilitar a un usuario para el sistema telefónico en Office 365 voz y corr
    Import-PSSession $Session -AllowClobber
    ```
 
-    Al ejecutar PowerShell en un Skype para Business Server, el local Skype para cmdlets empresarial ya están cargados cuando abra PowerShell. Debe especificar el parámetro - AllowClobber para permitir que los cmdlets en línea sobrescribir los cmdlets local con el mismo nombre.
+    Al ejecutar PowerShell en un servidor de Skype empresarial, los cmdlets de Skype empresarial locales ya se cargan al abrir PowerShell. Debe especificar el parámetro-AllowClobber para permitir que los cmdlets en línea sobrescriban los cmdlets locales con el mismo nombre.
     
 8. Use el cmdlet Set-CsUser para asignar las propiedades $EnterpriseVoiceEnabled y $HostedVoiceMail a su usuario del siguiente modo:
     
@@ -85,9 +85,9 @@ Para habilitar a un usuario para el sistema telefónico en Office 365 voz y corr
     > [!NOTE]
     > También puede especificar un usuario por su dirección SIP, nombre principal de usuario (UPN), nombre de dominio y nombre de usuario (dominio\nombre de usuario), y nombre para mostrar en Active Directory ("Guillermo Rodarte"). 
   
-## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Actualizar el URI de línea y de marcado de plan para los usuarios habilitados para el sistema telefónico en Office 365
+## <a name="update-the-line-uri-and-dial-plan-for-users-enabled-for-phone-system-in-office-365"></a>Actualice el URI de línea y el plan de marcado de los usuarios habilitados para el sistema telefónico en Office 365
 
-En esta sección se describe cómo actualizar el URI de línea y plan para los usuarios habilitados para el sistema telefónico en Office 365 de marcado. 
+En esta sección se describe cómo actualizar el URI de línea y el plan de marcado para los usuarios habilitados para el sistema telefónico en Office 365. 
   
 ### <a name="to-update-the-line-uri"></a>Para actualizar el URI de línea
 
@@ -108,7 +108,7 @@ En esta sección se describe cómo actualizar el URI de línea y plan para los u
     
 ## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Actualizar el plan de marcado con cmdlets locales de Windows PowerShell
 
-Puede asignar por usuario en los planes de marcado con Windows PowerShell y el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) . Se puede ejecutar este cmdlet, ya sea desde el Skype para Business Server 2015 o desde una sesión remota de Windows PowerShell.
+Puede asignar planes de marcado por usuario con Windows PowerShell y el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) . Puede ejecutar este cmdlet desde Skype empresarial Server 2015 o desde una sesión remota de Windows PowerShell.
   
 ### <a name="to-assign-a-per-user-dial-plan-to-a-single-user"></a>Para asignar un plan de marcado por usuario a un único usuario
 
@@ -120,7 +120,7 @@ Puede asignar por usuario en los planes de marcado con Windows PowerShell y el c
 
 ### <a name="to-assign-a-per-user-dial-plan-to-multiple-users"></a>Para asignar un plan de marcado por usuario a varios usuarios
 
-- El siguiente comando asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajen en la ciudad de Redmond. Para obtener más información en el parámetro LdapFilter que se usa en este comando, consulte la documentación para el cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
+- El siguiente comando asigna el plan de marcado por usuario RedmondDialPlan a todos los usuarios que trabajen en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter que se usa en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps) :
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsDialPlan -PolicyName "RedmondDialPlan"
@@ -131,7 +131,7 @@ Puede asignar por usuario en los planes de marcado con Windows PowerShell y el c
   
 ### <a name="to-unassign-a-per-user-dial-plan"></a>Para quitar la asignación de un plan de marcado por usuario
 
-- Use el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para cancelar la asignación de cualquier plan de marcado por usuario previamente asignada a Ken Myer. Una vez que se ha cancelado la asignación del plan de marcado por usuario, el usuario Ken Myer se administrará automáticamente mediante el plan de marcado global o el plan de marcado de ámbito de servicio asignado a su registrador o a su puerta de enlace RTC. Los planes de marcado de ámbito de servicio tienen prioridad sobre el plan de marcado global:
+- Use el cmdlet [Grant-CsDialPlan](https://docs.microsoft.com/powershell/module/skype/grant-csdialplan?view=skype-ps) para cancelar la asignación de cualquier plan de marcado por usuario previamente asignado a Ken Myer. Una vez que se ha cancelado la asignación del plan de marcado por usuario, el usuario Ken Myer se administrará automáticamente mediante el plan de marcado global o el plan de marcado de ámbito de servicio asignado a su registrador o a su puerta de enlace RTC. Los planes de marcado de ámbito de servicio tienen prioridad sobre el plan de marcado global:
     
   ```
   Grant-CsDialPlan -Identity "Ken Myer" -PolicyName $Null
@@ -141,14 +141,14 @@ Puede asignar por usuario en los planes de marcado con Windows PowerShell y el c
 
 En esta sección se describe cómo actualizar las directivas de enrutamiento de voz para los usuarios habilitados para el sistema telefónico en Office 365.
   
-Sistema telefónico en Office 365 a los usuarios debe tener una directiva de enrutamiento de voz asignada a ellos para las llamadas enrutar correctamente. Esto difiere de los usuarios de telefonía empresarial local que deben tener una directiva de voz asignada para permitir que las llamadas se enruten correctamente. La directiva de enrutamiento de voz debe contener los usos de RTC que definen llamadas autorizadas y rutas para el sistema telefónico en usuarios de Office 365. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
+Sistema telefónico en Office 365 los usuarios deben tener asignada una directiva de enrutamiento de voz para que las llamadas se enruten correctamente. Esto difiere de los usuarios de telefonía empresarial local que deben tener una directiva de voz asignada para permitir que las llamadas se enruten correctamente. La Directiva de enrutamiento de voz debe contener usos de RTC que definan las llamadas y rutas autorizadas para el sistema telefónico en los usuarios de Office 365. Puede copiar estos usos de RTC de las directivas de voz existentes a las nuevas directivas de enrutamiento de voz. Para obtener más información, vea [New-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Todos los sistema telefónico en Office 365 a los usuarios se asignan a la misma directiva de voz en línea denominado BusinessVoice que define las características de llamada permitidas; Por ejemplo, permitir que la llamada simultánea. 
+> A todos los sistemas telefónicos de los usuarios de Office 365 se les asigna la misma directiva de voz en línea denominada BusinessVoice que define las características de llamadas permitidas. por ejemplo, permitir llamadas simultáneas. 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>Para asignar una directiva de enrutamiento de voz por usuario a un solo usuario
 
-- Use el cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para asignar la directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy al usuario Ken Myer:
+- Use el cmdlet [Grant-CsVoiceRoutingPolicy](https://docs.microsoft.com/powershell/module/skype/grant-csvoiceroutingpolicy?view=skype-ps) para asignar la Directiva de enrutamiento de voz por usuario RedmondVoiceRoutingPolicy al usuario Ken Myer:
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName "RedmondVoiceRoutingPolicy"
@@ -167,7 +167,7 @@ Sistema telefónico en Office 365 a los usuarios debe tener una directiva de enr
   
 ### <a name="to-unassign-a-per-user-voice-routing-policy"></a>Para desasignar una directiva de enrutamiento de voz por usuario
 
-- Use el Grant-CsVoiceRoutingPolicy para cancelar la asignación de cualquier directiva de enrutamiento de voz por usuario previamente asignada a Ken Myer. Después de cancelar la asignación de la directiva de enrutamiento de voz por usuario, el usuario Ken Myer se administrará automáticamente mediante la directiva de enrutamiento de voz global.
+- Use la función Grant-CsVoiceRoutingPolicy para cancelar la asignación de cualquier directiva de enrutamiento de voz por usuario asignada previamente a Ken Myer. Después de cancelar la asignación de la directiva de enrutamiento de voz por usuario, el usuario Ken Myer se administrará automáticamente mediante la directiva de enrutamiento de voz global.
     
   ```
   Grant-CsVoiceRoutingPolicy -Identity "Ken Myer" -PolicyName $Null

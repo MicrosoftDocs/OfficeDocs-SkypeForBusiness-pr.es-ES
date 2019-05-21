@@ -1,29 +1,29 @@
 ---
-title: Administrar opciones de configuración en Skype para Business Server de la reunión
+title: Administrar la configuración de la reunión en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
-description: 'Resumen: Obtenga información sobre cómo administrar los valores de configuración de Skype para Business Server de la reunión.'
-ms.openlocfilehash: 2e4a3dae9eac83b94f6623faf07e5ee6e8e346db
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre cómo administrar la configuración de la reunión en Skype empresarial Server.'
+ms.openlocfilehash: d9ed049fe4873428729149e1ea624bf715bb81ac
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888180"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283742"
 ---
-# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar opciones de configuración en Skype para Business Server de la reunión
+# <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Administrar la configuración de la reunión en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre cómo administrar los valores de configuración de Skype para Business Server de la reunión.
+**Resumen:** Obtenga información sobre cómo administrar la configuración de la reunión en Skype empresarial Server.
   
-This topic describes how to manage meeting configuration settings. Para obtener más información acerca de cómo planear e implementar una conferencia, vea [Plan para las conferencias en Skype para Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencias en Skype para Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
+This topic describes how to manage meeting configuration settings. Para obtener más información sobre cómo planear e implementar conferencias, consulte [planear la Conferencia en Skype empresarial Server](../../plan-your-deployment/conferencing/conferencing.md) e [implementar conferencias en Skype empresarial Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
-Las opciones de configuración de reunión definen el tipo de reuniones que pueden crear los usuarios, además de controlar cómo (o, incluso, si) los usuarios de conferencias anónimos o de acceso telefónico local pueden participar en las reuniones. Tenga en cuenta que esta configuración sólo afecta a las reuniones programadas; no afectan a las reuniones de ad-hoc creadas haciendo clic en la opción Reunirse ahora en Skype para la empresa.
+Las opciones de configuración de reunión definen el tipo de reuniones que pueden crear los usuarios, además de controlar cómo (o, incluso, si) los usuarios de conferencias anónimos o de acceso telefónico local pueden participar en las reuniones. Tenga en cuenta que esta configuración solo afecta a las reuniones programadas; no afectan a las reuniones ad-hoc creadas al hacer clic en la opción reunirse ahora en Skype empresarial.
   
 Las opciones de configuración de reuniones definen lo siguiente:
   
@@ -35,23 +35,23 @@ Las opciones de configuración de reuniones definen lo siguiente:
     
 - Si los usuarios anónimos (sin autenticar) se admiten de forma predeterminada.
     
-Puede definir las características de las reuniones mediante Skype para el Panel de Control de servidor empresarial o mediante el uso de Skype para Shell de administración de servidor empresarial. 
+Puede definir las características de las reuniones con el panel de control de Skype empresarial Server o mediante el shell de administración de Skype empresarial Server. 
   
-Puede especificar opciones en el nivel global (creada de manera predeterminada) de la reunión, nivel de sitio o del nivel de grupo de servidores. De forma predeterminada, la configuración global define la experiencia de la reunión. Si crea una configuración a nivel de grupo, esa configuración se aplicará a todas las reuniones que ese grupo de servidores hospeda. Si no crea ninguna configuración a nivel de grupo, se aplicará la configuración a nivel de sitio, si existe. Si no define la configuración a nivel de sitio, se aplicará la configuración global a todas las reuniones.
+Puede especificar la configuración de la reunión en el nivel global (creado de forma predeterminada), en el nivel de sitio o en el nivel de grupo. De forma predeterminada, la configuración global define la experiencia de la reunión. Si crea una configuración a nivel de grupo, esa configuración se aplicará a todas las reuniones que ese grupo de servidores hospeda. Si no crea ninguna configuración a nivel de grupo, se aplicará la configuración a nivel de sitio, si existe. Si no define la configuración a nivel de sitio, se aplicará la configuración global a todas las reuniones.
   
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Administrar la configuración de reunión mediante el uso de Skype para el Panel de Control de servidor empresarial
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-control-panel"></a>Administrar la configuración de la reunión con el panel de control de Skype empresarial Server
 
-Para administrar la configuración de reunión mediante el uso de Skype para el Panel de Control de servidor empresarial:
+Para administrar la configuración de la reunión con el panel de control de Skype empresarial Server:
   
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2.  Abra Skype para el Panel de Control de servidor empresarial.
+2.  Abra el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
     
-## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Administrar la configuración de reunión mediante el uso de Skype para Shell de administración de servidor empresarial
+## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Administrar la configuración de la reunión con el shell de administración de Skype empresarial Server
 
-Para administrar las reuniones mediante el uso de Skype para Shell de administración de servidor empresarial, use los cmdlets siguientes:
+Para administrar las reuniones con el shell de administración de Skype empresarial Server, use los siguientes cmdlets:
   
 **Opciones de configuración de reuniones**
 

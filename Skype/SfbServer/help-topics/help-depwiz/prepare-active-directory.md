@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/26/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployMainADPrep
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: a8c96311-9e1c-4d39-9870-681fd4e272ff
-description: Para comenzar la instalación de Skype para Business Server 2015, debe preparar el esquema, bosque y dominios que se va a hospedar servidores y usuarios de los servicios de dominio de Active Directory. El Skype para el Asistente para la implementación de Business Server le guiará a través de los pasos necesarios para preparar Active Directory, comenzando con el esquema y, a continuación, en la preparación del bosque. Después de confirmar que la replicación de Active Directory es correcta, a continuación, preparar cada dominio que se va a hospedar los usuarios o servidores.
-ms.openlocfilehash: 4961292a87cc31ef37afd0cb0ea49753c9fae715
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Para comenzar la instalación de Skype empresarial Server 2015, debe preparar el esquema, el bosque y los dominios de los servicios de dominio de Active Directory que alojarán los servidores y los usuarios. El Asistente de implementación de Skype empresarial Server le guiará a través de los pasos necesarios para preparar Active Directory, empezando con el esquema y luego en la preparación del bosque. Después de confirmar que la replicación de Active Directory se realiza correctamente, prepare todos los dominios que hospedarán usuarios o servidores.
+ms.openlocfilehash: a7b908bb1c6194e1b6d9b12a90d250d09815ea5f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33918728"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283756"
 ---
 # <a name="prepare-active-directory"></a>Preparar Active Directory
 
-Para comenzar la instalación de Skype para Business Server 2015, debe preparar el esquema, bosque y dominios que se va a hospedar servidores y usuarios de los servicios de dominio de Active Directory. El Skype para el Asistente para la implementación de Business Server le guiará a través de los pasos necesarios para preparar Active Directory, comenzando con el esquema y, a continuación, en la preparación del bosque. Después de confirmar que la replicación de Active Directory es correcta, a continuación, preparar cada dominio que se va a hospedar los usuarios o servidores.
+Para comenzar la instalación de Skype empresarial Server 2015, debe preparar el esquema, el bosque y los dominios de los servicios de dominio de Active Directory que alojarán los servidores y los usuarios. El Asistente de implementación de Skype empresarial Server le guiará a través de los pasos necesarios para preparar Active Directory, empezando con el esquema y luego en la preparación del bosque. Después de confirmar que la replicación de Active Directory se realiza correctamente, prepare todos los dominios que hospedarán usuarios o servidores.
 
 > [!IMPORTANT]
 > Para preparar el esquema correctamente, debe iniciar sesión como miembro de los grupos Administradores de esquema y Administradores de organización. Para preparar el bosque, debe iniciar sesión como miembro del grupo Administradores de organización o como administrador en el dominio raíz del bosque. Para la preparación del dominio, debe iniciar sesión como miembro del grupo Admins. del dominio.

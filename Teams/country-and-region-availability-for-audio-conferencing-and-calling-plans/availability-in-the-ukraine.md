@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Ucrania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: a6fb2b0c48756afdf594a9f2ae091ef6706e3530
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Ucrania.
+ms.openlocfilehash: 5b987540ec0ba0bb02346bb21394740afa8cd09c
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30543098"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281958"
 ---
 # <a name="availability-in-the-ukraine"></a>Disponibilidad en Ucrania
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Ucrania los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Ucrania.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

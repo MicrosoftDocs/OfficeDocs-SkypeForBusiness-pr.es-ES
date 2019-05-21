@@ -4,68 +4,68 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: 'Cada dispositivo de sucursal con funciones de supervivencia (SBA) está asociado con un grupo de servidores Front-End que actúa como un registrador de reserva para la SBA. Cuando el Front-End de grupo de servidores se migra a Skype para Business Server 2019, la SBA debe estar asociado al grupo de servidores Front-End mientras se actualiza el grupo de servidores, una vez que el grupo de servidores se ha migrado a Skype para Business Server 2019, la SBA puede asociarse volver a la actualizada E front- grupo de servidores de ND. Esto implica la eliminación de la SBA de la topología heredada en el generador de topología y, a continuación, agregar la SBA a la Skype para topología empresarial Server 2019. Los usuarios alojados en el heredado que SBA en primer lugar debe moverse a otro grupo de servidores Front-End antes de quitar la SBA de la topología. Una vez que se agrega la SBA a la Skype para Business Server 2019 topología, los usuarios pueden, a continuación, volver a moverse a la SBA. A continuación se resumen estos pasos:'
-ms.openlocfilehash: e4917b20e9e680627e92935dcb10ebf06c2e3d2d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end que sirve como registrador de copias de seguridad de la SBA. Cuando el grupo de servidores front-end se migra a Skype empresarial Server 2019, SBA debe estar desvinculado del grupo front-end mientras se actualiza el grupo, una vez que el grupo se ha migrado a Skype empresarial Server 2019, la SBA se puede volver a asociar con la actualización frontal E Grupo ND. Esto implica eliminar la SBA de la topología heredada en el generador de topología y, a continuación, agregar el SBA a la topología de Skype empresarial Server 2019. Los usuarios alojados en el SBA heredado deben moverse primero a otro grupo de servidores front end antes de quitar SBA de la topología. Una vez agregada SBA a la topología de Skype empresarial Server 2019, esos usuarios podrán volver a la SBA. Estos pasos se resumen a continuación:'
+ms.openlocfilehash: 7cb933018d24dafb978464338f01f97b25e15539
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238657"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275548"
 ---
 # <a name="connect-a-survivable-branch-appliance"></a>Conectar una aplicación de sucursal con funciones de supervivencia
 
-Cada dispositivo de sucursal con funciones de supervivencia (SBA) está asociado con un grupo de servidores Front-End que actúa como un registrador de copia de seguridad para la SBA. Cuando el grupo de servidores Front-End se migra a Skype para Business Server 2019, la SBA debe estar asociada desde el grupo de servidores Front-End mientras se actualiza el grupo de servidores. Después de que el grupo de servidores se ha migrado a Skype para Business Server 2019, se puede volver a asociar con el grupo de servidores Front-End actualizado la SBA. Esto implica la eliminación de la SBA de la topología heredada en el generador de topología y, a continuación, agregar la SBA a la Skype para topología empresarial Server 2019. Los usuarios alojados en el heredado que SBA en primer lugar debe moverse a otro grupo de servidores Front-End antes de quitar la SBA de la topología. Después de agrega la SBA a la Skype para Business Server 2019 topología, los usuarios pueden volver a moverse a la SBA. A continuación se resumen estos pasos:
+Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end que sirve como registrador de copias de seguridad de la SBA. Cuando el grupo de servidores front-end se migra a Skype empresarial Server 2019, SBA debe estar desvinculado del grupo de servidores front-end mientras se actualiza el grupo. Una vez que el grupo se ha migrado a Skype empresarial Server 2019, SBA se puede volver a asociar al grupo de servidores front-end actualizado. Esto implica eliminar la SBA de la topología heredada en el generador de topología y, a continuación, agregar el SBA a la topología de Skype empresarial Server 2019. Los usuarios alojados en el SBA heredado deben moverse primero a otro grupo de servidores front end antes de quitar SBA de la topología. Después de agregar SBA a la topología de Skype empresarial Server 2019, esos usuarios se pueden mover de nuevo a SBA. Estos pasos se resumen a continuación:
   
-1. Mover los usuarios de sucursal hospedados en la SBA heredada a otro grupo de servidores Front-End.
+1. Mueva los usuarios alojados en el SBA heredado a otro grupo de servidores front-end.
     
-2. Quitar la SBA de la topología heredada para desconectar el grupo de servidores Front-End existente como un registrador de copia de seguridad.
+2. Quite SBA de la topología heredada para desconectar el grupo de servidores front-end existente como registrador de la copia de seguridad.
     
-3. Agregar la SBA a la Skype para Business Server 2019 topología y configuración de este nuevo grupo de servidores Front-End como registrador de reserva. 
+3. Agregue SBA a la topología de Skype empresarial Server 2019 y configúrela como registrador de la copia de seguridad. 
     
-4. Mover los usuarios de sucursal a la nueva Skype para Business Server 2019 SBA.
+4. Mueva a los usuarios de la sucursal al nuevo servidor de Skype empresarial 2019 SBA.
     
-### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Agregar el sitio de sucursal SBA heredado a la topología
+### <a name="add-legacy-sba-branch-site-to-your-topology"></a>Agregar el sitio de la sucursal de SBA heredado a su topología
 
-1. Abra **el generador de topología**.
+1. Abra el **generador**de topologías.
     
-2. En el panel izquierdo, haga clic en **sitios de sucursal**y, a continuación, haga clic en **Nuevo sitio de sucursal**.
+2. En el panel de la izquierda, haga clic con el botón secundario en **sitios de sucursales**y luego haga clic en **nuevo sitio de sucursal**.
     
-3. En el cuadro de diálogo **Definir nuevo sitio de sucursal** , haga clic en **nombre**y, a continuación, escriba el nombre de la sucursal.
+3. En el cuadro de diálogo **definir nuevo sitio de sucursal** , haga clic en **nombre**y, a continuación, escriba el nombre del sitio de la sucursal.
     
-4. (Opcional) Haga clic en **Descripción**y, a continuación, escriba una descripción significativa para el sitio de sucursal.
+4. Faculta Haga clic en **Descripción**y, a continuación, escriba una descripción para el sitio de la sucursal.
     
 5. Haga clic en **Siguiente**.
     
-6. (Opcional) En el siguiente cuadro de diálogo **Definir nuevo sitio de sucursal** , realice una de las siguientes opciones: 
+6. Faculta En el cuadro de diálogo **definir siguiente sitio de sucursal** , realice una de las siguientes acciones: 
     
-    1. Haga clic en **Ciudad**y, a continuación, escriba el nombre de la ciudad donde se encuentra el sitio de sucursal.
+    1. Haga clic en **ciudad**y, a continuación, escriba el nombre de la ciudad en la que se encuentra el sitio de la sucursal.
     
-    2. Haga clic en **provincia o región**y, a continuación, escriba el nombre de la provincia o la región en la que se ubica el sitio de sucursal.
+    2. Haga clic en **Estado o región**y, a continuación, escriba el nombre del estado o la región en la que se encuentra el sitio de la sucursal.
     
-    3. Haga clic en **El código de país**y, a continuación, escriba el código de llamada de dos dígitos para el país o región en el que se encuentra el sitio de sucursal.
+    3. Haga clic en **prefijo internacional**y escriba el código de la llamada de dos dígitos para el país o la región en la que se encuentra el sitio de la sucursal.
     
-7. Haga clic en **siguiente**y, a continuación, si se usa una aplicación de sucursal con funciones de supervivencia o servidor en este sitio, asegúrese de desactive la casilla de verificación **Abrir el Asistente nuevo con funciones de supervivencia cuando se cierre este asistente** . Haga clic en **Finalizar**.
+7. Haga clic en **siguiente**y, después, si está usando un dispositivo o servidor de sucursal con la mayor supervivencia en este sitio, asegúrese de desactivar la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** . Haga clic en **Finalizar**.
     
-8. Para asociar la SBA heredada a la Skype para el grupo de servidores Front-End de Business Server 2019:
+8. Para asociar SBA heredado al grupo front-end de Skype empresarial Server 2019:
     
-    1. Expanda el sitio de sucursal que se ha creado. 
+    1. Expanda el sitio de la sucursal que ha creado. 
     
-    2. Haga clic en la versión heredada y, a continuación, haga clic en **nuevo**.
+    2. Haga clic con el botón derecho en versión heredada y luego haga clic en **nuevo**.
     
-    3. Haga clic en **aplicación de sucursal con funciones de supervivencia**.
+    3. Haga clic en **equipo de rama superviviente**.
     
-9. Siga las instrucciones en el Asistente para la que se abre. Para obtener información acerca de los elementos del asistente, vea    
+9. Siga las instrucciones del asistente que se abre. Para obtener información sobre los elementos del asistente, consulte    
    <!-- [Define a Survivable Branch Appliance or Server in Lync 2013](https://technet.microsoft.com/en-us/library/gg398280(v=ocs.15).aspx). -->
    <!-- The above link points to un-rebranded 2013 content we will need to discuss rebrand or bring forward -->
     
     > [!NOTE]
-    > Una aplicación de sucursal con funciones de supervivencia sólo puede asociarse con un almacén de supervisión. 
+    > Un equipo de sucursal con la supervivencia solo puede asociarse con una tienda de supervisión. 
   
-10. Si no se usa un servidor o una aplicación de sucursal con funciones de supervivencia en este sitio, desactive la casilla de verificación **Abrir el Asistente nuevo con funciones de supervivencia cuando se cierre este asistente** y, a continuación, haga clic en **Finalizar**.
+10. Si no usa un equipo o servidor de sucursal con la supervivencia en este sitio, desactive la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** y, a continuación, haga clic en **Finalizar**.
     
 11. Repita los pasos anteriores para cada sitio de sucursal que desee agregar a la topología.
     

@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,27 +20,27 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre qué tipo de acceso telefónico al llamar a planes (planes de marcado de llamar a RTC) están disponibles con Office 365 y cómo elegir uno para la organización.  '
-ms.openlocfilehash: 8dc0bb49d37c2df1903332eb71809869d9ebf66a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Aprenda qué tipos de planes de llamadas de marcado (planes de marcado de llamadas RTC) están disponibles con Office 365 y cómo elegir uno para su organización.  '
+ms.openlocfilehash: 0439b1f18569ffb04fed7a0f2d00100fcbc7778e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211788"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288169"
 ---
 # <a name="what-are-dial-plans"></a>¿Qué son los planes de marcado?
 
 [] Un plan de marcado es un conjunto determinado de reglas de normalización que traducen los números de teléfono marcados por un usuario individual a un formato alternativo (generalmente E.164) para fines de autorización y enrutamiento de llamada.
 
-Un plan de marcado consta de una o varias reglas de normalización que definen cómo se traducen los números de teléfono expresados en diversos formatos a un formato alternativo. La misma cadena de marcado se puede interpretar y traducir de forma diferente en los planes de marcado diferentes, por lo que según el plan de marcado se asigna a un usuario determinado, el mismo marcado número puede traducir y se enrutan de forma distinta.
+Un plan de marcado consta de una o más reglas de normalización que definen cómo los números de teléfono expresados en varios formatos se traducen a un formato alternativo. La misma cadena de marcado puede interpretarse y traducirse de forma diferente en distintos planes de marcado, de modo que según el plan de marcado que se asigne a un usuario determinado, el mismo número marcado se puede traducir y enrutar de manera diferente.
 
-Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar planes de marcado de inquilinos.
+Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar planes de marcado de inquilino.
 
 ## <a name="tenant-dial-plan-scope"></a>Alcance de un plan de marcado inquilino
 
-El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes de en un Skype para la implementación de Business Server local. Los clientes obtienen el plan de marcado adecuado a través de la configuración de abastecimiento provista automáticamente cuando los usuarios se registran en Skype Empresarial Online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
+El alcance de un plan de marcado determina el nivel jerárquico en el que se puede aplicar. Los ámbitos son diferentes a los de una implementación local de Skype empresarial Server. Los clientes obtienen el plan de marcado adecuado a través de la configuración de abastecimiento provista automáticamente cuando los usuarios se registran en Skype Empresarial Online. Como administrador, usted puede gestionar y asignar niveles de alcance del plan de marcado con PowerShell remoto.
 
-En Skype para profesionales en línea, hay dos tipos de planes de marcado - servicio de ámbito e inquilino (que es para su organización) con ámbito. Un plan de marcado con ámbito de servicio se define para cada país o región donde está disponible el sistema de teléfono de Office 365. Cada usuario se asigna automáticamente el plan de marcado de país de servicio que coincida con la ubicación de uso de Office 365 asignados al usuario. No se puede cambiar el plan de marcado de país de servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado de país de servicio. Como los clientes se aprovisionan, obtienen un "plan de marcado eficaz", que es una combinación del plan de marcado de país de servicio y el plan de marcado del inquilino con ámbito de forma adecuada. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
+En Skype empresarial online, hay dos tipos de planes de marcado: ámbito de servicio y espacio empresarial (que es para su organización) en el ámbito. Se define un plan de marcado de ámbito de servicio para cada país o región donde esté disponible el sistema telefónico de Office 365. A cada usuario se le asigna automáticamente el plan de marcado por país del servicio que coincide con la ubicación de uso de Office 365 asignada al usuario. No puede cambiar el plan de marcado por país del servicio, pero puede crear planes de marcado con ámbito de inquilino, que aumentan el plan de marcado país del servicio. A medida que se aprovisionan clientes, obtienen un "plan de marcado efectivo", que es una combinación del plan de marcado por país del servicio y el plan de marcado de inquilino con ámbito adecuado. Por lo tanto, no es necesario definir todas las reglas de normalización de los planes de marcado de inquilino ya que es posible que existan en el plan de marcado del país de servicio.
 
 Los planes de marcado de inquilino se pueden dividir en dos alcances: el alcance de inquilino o el alcance de usuario. Si un inquilino define y asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado del usuario asignado. Si un inquilino define un plan de marcado de alcance de inquilino pero no asigna un plan de marcado de alcance de usuario, ese usuario recibirá un plan de marcado efectivo del plan de marcado del país de servicio del usuario y el plan de marcado de inquilino.
 
@@ -50,27 +50,27 @@ El siguiente es el modelo de herencia de los planes de marcado en Skype Empresar
 
 Los siguientes son los posibles planes de marcado efectivos:
 
- **País de servicio** Si no está definido ningún plan de marcado con ámbito de inquilino y ningún plan de marcado de inquilino con ámbito de usuario se asigna al usuario suministrado, el usuario recibirá un plan de marcado eficaz asignado al país de servicio asociado a su ubicación de uso de Office 365.
+ **País del servicio** Si no se define ningún plan de marcado con ámbito de inquilino y no se asigna al usuario preconfigurado un plan de marcado con ámbito de usuario, el usuario recibirá un plan de marcado eficaz asignado al país de servicio asociado a la ubicación de uso de Office 365.
 
- **Inquilino Global - país de servicio** Si un plan de marcado de usuario inquilino se define pero no asignado a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz que consta de un plan de marcado de inquilino combinado y el plan de marcado de país de servicio asociado a su ubicación de uso de Office 365.
+ **Arrendatario global-país del servicio** Si se define un plan de marcado de usuario de inquilino pero no se asigna a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz con un plan de marcado de inquilino combinado y el plan de marcado de país de servicio asociado a la ubicación de uso de Office 365.
 
- **Usuario inquilino - país de servicio** Si un plan de marcado de usuario inquilino está definido y asignado a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz formado por el plan de marcado de usuario inquilino combinado y el plan de marcado de país de servicio asociado a su ubicación de uso de Office 365.
+ **Usuario de inquilino: país del servicio** Si un plan de marcado de usuario de inquilino se define y se asigna a un usuario, el usuario aprovisionado recibirá un plan de marcado eficaz con el plan de marcado de usuario inquilino combinado y el plan de marcado de país de servicio asociado a la ubicación de uso de Office 365.
 
-Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear el inquilino de planes de marcado.
+Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear sus planes de marcado de inquilino.
 
 ## <a name="planning-for-tenant-dial-plans"></a>Diseño de planes de marcado de inquilino
 
 Para planificar los planes de marcado de inquilino siga estos pasos:
 
-- **Paso 1** Decidir si un personalizado de marcado es necesario plan para mejorar la experiencia de marcado de usuario. Normalmente, la necesidad de uno sería admitir el marcado que no sean E.164, como las extensiones o abrevia marcado nacional.
+- **Paso 1** Decidir si es necesario un plan de marcado personalizado para mejorar la experiencia de marcado del usuario. Por lo general, la necesidad de una es admitir el marcado no-E, 164, como las extensiones o el marcado nacional abreviado.
 
-- **Paso 2** Determinar si se necesitan inquilino global o los planes de marcado de usuario con ámbito de inquilino, o ambos. Los planes de marcado de alcance de usuario son necesarios y los usuarios tienen diferentes requisitos de marcado local.
+- **Paso 2** Determine si son necesarios los planes de marcado de ámbito de usuario de inquilino global o inquilino, o ambos. Los planes de marcado de alcance de usuario son necesarios y los usuarios tienen diferentes requisitos de marcado local.
 
 - **Paso 3** Identificar una cantidad válida de patrones para cada plan de marcado necesario. Únicamente son necesarios los patrones de números que no están definidos en los planes de marcado del país de nivel de servicios.
 
 - **Paso 4** Desarrollar un esquema a nivel de la organización para nombrar los planes de marcado. Al adoptar un esquema de denominación estándar se asegura la coherencia en una organización y se facilita el mantenimiento y las actualizaciones.
 
-El [FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) tiene recursos adicionales y los socios que pueden ayudarle con la implementación de los planes de marcado de inquilinos.
+[FastTrack](https://fasttrack.microsoft.com/microsoft365/capabilities?view=voice) tiene recursos y socios adicionales que pueden ayudarle a implementar planes de marcado de inquilino.
 
 ## <a name="creating-your-new-tenant-dial-plan"></a>Crear su nuevo plan de marcado de inquilino
 
@@ -78,7 +78,7 @@ Al crear un nuevo plan de marcado, debe ingresar la información que se solicita
 
 ### <a name="name-and-simple-name"></a>Nombre y nombre simple
 
-Planes de marcado del usuario, debe especificar un nombre descriptivo que identifica a los usuarios el plan de marcado se asignará. El Nombre simple del plan de marcado se completa previamente con una línea que se deriva del nombre del plan de marcado. El campo Nombre simple se puede editar, y esto le permite crear una convención de denominación más descriptiva para sus planes de marcado. El valor Nombre simple no puede estar en blanco y debe ser único. Es una buena práctica desarrollar una convención de denominación para toda su organización y usarla de manera coherente en todos los sitios y usuarios.
+Para los planes de marcado de usuario, debe especificar un nombre descriptivo que identifique a los usuarios a los que se asignará el plan de marcado. El Nombre simple del plan de marcado se completa previamente con una línea que se deriva del nombre del plan de marcado. El campo Nombre simple se puede editar, y esto le permite crear una convención de denominación más descriptiva para sus planes de marcado. El valor Nombre simple no puede estar en blanco y debe ser único. Es una buena práctica desarrollar una convención de denominación para toda su organización y usarla de manera coherente en todos los sitios y usuarios.
 
 ### <a name="description"></a>Descripción
 
@@ -94,13 +94,13 @@ Puede especificar un prefijo de acceso externo de hasta 4 caracteres (#, * y 0-9
 > [!NOTE]
 > Si especifica un prefijo de acceso externo, no es necesario crear una regla de normalización adicional para incorporar el prefijo. 
 
-Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear el inquilino de planes de marcado.
+Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear sus planes de marcado de inquilino.
 
 ## <a name="normalization-rules"></a>Reglas de normalización
 
 Las reglas de normalización definen cómo se traducen los números expresados en varios formatos. La misma línea de número se puede interpretar y traducir de diferentes maneras, según la ubicación desde la que se marca. Las reglas de normalización pueden ser necesarias y los usuarios deben tener la capacidad de marcar números internos y externos abreviados.
 
-Se debe asignar una regla de normalización o más al plan de marcado. Reglas de normalización se comparan de arriba a abajo, por lo que es importante el orden en que aparecen en un plan de marcado de inquilinos. Por ejemplo, si un plan de marcado inquilino tiene 10 reglas de normalización, se probará la lógica de coincidencia del número marcado a partir de la primera regla de normalización, luego pasará a la segunda, y así sucesivamente. Si se produce una coincidencia, se usará esa regla y no se intentará que coincida con las otras reglas definidas. Un plan de marcado inquilino determinado puede tener un máximo de 25 reglas de normalización.
+Se debe asignar una regla de normalización o más al plan de marcado. Las reglas de normalización se hacen coincidir de arriba abajo, por lo que el orden en que aparecen en un plan de marcado de inquilino es importante. Por ejemplo, si un plan de marcado inquilino tiene 10 reglas de normalización, se probará la lógica de coincidencia del número marcado a partir de la primera regla de normalización, luego pasará a la segunda, y así sucesivamente. Si se produce una coincidencia, se usará esa regla y no se intentará que coincida con las otras reglas definidas. Un plan de marcado inquilino determinado puede tener un máximo de 25 reglas de normalización.
 
 ### <a name="determining-the-required-normalization-rules"></a>Determinar las reglas de normalización necesarias
 
@@ -110,15 +110,15 @@ Como todo plan de marcado inquilino se combina efectivamente con un plan de marc
 
 Las reglas de normalización utilizan expresiones regulares de .NET Framework para especificar los patrones de coincidencia numérica que utiliza el servidor para traducir líneas de marcado a formato E.164 para realizar la búsqueda inversa de número. Las reglas de normalización se pueden crear al especificar la expresión habitual para la coincidencia y la traducción que se debe realizar al encontrarla. Al terminar puede ingresar un número de prueba para verificar que la regla de normalización funcione según lo esperado.
 
-Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea [Expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
+Para obtener información detallada sobre el uso de expresiones regulares de .NET Framework, vea [expresiones regulares de .NET Framework](https://go.microsoft.com/fwlink/p/?linkId=140927).
 
-Vea [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar de normalización reglas para el inquilino de planes de marcado.
+Consulte [crear y administrar planes de marcado](create-and-manage-dial-plans.md) para crear y administrar reglas de normalización para los planes de marcado de inquilino.
 
 ### <a name="sample-normalization-rules"></a>Reglas de normalización de muestra
 
 La siguiente tabla muestra reglas de normalización de muestra que se escriben como expresiones regulares de .NET Framework. Las muestras son meramente ejemplos y no sirven como referencia prescriptiva para crear sus propias reglas de normalización.
 
- **Reglas de normalización de uso de expresiones regulares de .NET Framework**
+ **Reglas de normalización con expresiones regulares de .NET Framework**
 
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
@@ -128,7 +128,7 @@ La siguiente tabla muestra reglas de normalización de muestra que se escriben c
 |7digitcallingRedmond  <br/> |Traduce números de 7 dígitos a números locales de Redmond.  <br/> |^(\\d{7})$  <br/> |+1425$1  <br/> |5550100 se traduce a +14255550100  <br/>|
 |RedmondOperator  <br/> |Traduce 0 a Operador de Redmond.  <br/> |^0$  <br/> |+14255550100  <br/> |0 se traduce a +14255550100  <br/> |
 |RedmondSitePrefix  <br/> |Traduce números con un prefijo de red (6) y el código de sitio de Redmond (222).  <br/> |^6222(\\d{4})$  <br/> |+1425555$1  <br/> |62220100 se traduce a +14255550100  <br/> |
-|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555$ 1 <br/> |54567 se traduce a +14255554567  <br/> |
+|5digitRange  <br/> |Traduce extensiones de 5 dígitos a partir del rango de dígitos entre 3 y 7 inclusive.  <br/> |^([3-7]\\d{4})$  <br/> |+ 142555 $1 <br/> |54567 se traduce a +14255554567  <br/> |
 |PrefixAdded  <br/> |Añade un prefijo de país delante de un número de 9 dígitos con restricciones en el primer y el tercer dígito.  <br/> |^([2-9]\\d\\d[2-9]\\d{6})$  <br/> |1$1  <br/> |4255554567 se traduce a 14255554567  <br/> |
 |No traducción  <br/> |Coinciden 5 dígitos pero no hay traducción.  <br/> |^(\\d{5})$  <br/> |$1  <br/> |34567 se traduce a 34567  <br/> |
 

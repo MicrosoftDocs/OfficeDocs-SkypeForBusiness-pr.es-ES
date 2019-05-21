@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Setup
 description: 'Learn to set up Skype for Business Online external communications for your users can communicate with external Skype contacts. '
-ms.openlocfilehash: b01d7b72ab0f3daf660fccf0bc78ac78e394e764
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: b6e555724c4be2f61f1ee7099901e29508900c22
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32225985"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284891"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Vídeo: Comunicaciones externas de Skype Empresarial Online
 
@@ -37,7 +37,7 @@ Configurar las comunicaciones externas de Skype Empresarial Online para que sus 
 ***
   
 ## <a name="related-topics"></a>Temas relacionados
-[Configurar Skype para comunicaciones externas en línea de negocio](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (tutorial guiado)
+[Configurar las comunicaciones externas de Skype empresarial online](https://support.microsoft.com/en-us/help/10041/set-up-lync-online-external-communications) (tutorial guiado)
 
 [Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md)
 

@@ -1,10 +1,10 @@
 ---
-title: Crear o modificar una regla de conversión para la presentación del identificador de autor de la llamada de Skype para Business Server
+title: Crear o modificar una regla de traducción para la presentación de identificación de llamadas en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,25 +13,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6a643961-a0a1-41d1-96ba-6c428a89d82e
-description: 'Resumen: Obtenga información sobre cómo configurar el identificador de autor de la llamada mediante el Skype para el Panel de Control de servidor empresarial.'
-ms.openlocfilehash: f8b870e855ee002b002cbe28756a95269559cea6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a configurar la identificación de llamadas con el panel de control de Skype empresarial Server.'
+ms.openlocfilehash: a305d420171fa10253f387e1fcbcfa2a50d72753
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893108"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284658"
 ---
-# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de conversión para la presentación del identificador de autor de la llamada de Skype para Business Server
+# <a name="create-or-modify-a-translation-rule-for-caller-id-presentation-in-skype-for-business-server"></a>Crear o modificar una regla de traducción para la presentación de identificación de llamadas en Skype empresarial Server
 
-**Resumen:** Obtenga información sobre cómo configurar el identificador de autor de la llamada mediante el Skype para el Panel de Control de servidor empresarial.
+**Resumen:** Obtenga información sobre cómo configurar la identificación de llamadas con el panel de control de Skype empresarial Server.
 
-Con Skype para Business Server, número de teléfono del receptor (es decir, el número de teléfono denominado) se puede traducir del formato E.164 al formato de marcado local que requiera el _mismo nivel del tronco_ (es decir, la puerta de enlace asociada, (exchange) central de conmutación PBX), o un tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
+Con Skype empresarial Server, el número de teléfono de la persona que llamó (es decir, el número de teléfono llamado) puede traducirse desde el formato E. 164 al formato de marcado local requerido por el _interlocutor troncal_ (es decir, la puerta de enlace asociada, la sucursal privada de intercambio ( PBX) o el tronco del SIP. Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
 
-Skype para Business Server también proporciona la opción de traducir también el número de teléfono de la persona que llama (es decir, el número de teléfono que el autor de la llamada está llamando desde) del formato E.164 a formato de marcado local requerido por el par de tronco. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
+Skype empresarial Server también le ofrece la opción de traducir el número de teléfono de la persona que llama (es decir, el número de teléfono desde el que llama el autor de la llamada) desde el formato E. 164 al formato de marcado local requerido por el interlocutor troncal. Por ejemplo, puede escribir una regla de conversión para quitar el prefijo +34 del principio de una cadena de llamada y sustituirlo por 0134.
 
-### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Para configurar el identificador de autor de la llamada mediante Skype para el Panel de Control de servidor empresarial
+### <a name="to-configure-caller-id-by-using-skype-for-business-server-control-panel"></a>Para configurar la identificación de llamadas con el panel de control de Skype empresarial Server
 
-1. Abra Skype para el Panel de Control de servidor empresarial.
+1. Abra el panel de control de Skype empresarial Server.
 
 2. En la barra de navegación izquierda, haga clic en **Enrutamiento de voz** y, a continuación, en **Configuración del tronco**.
 
@@ -39,9 +39,9 @@ Skype para Business Server también proporciona la opción de traducir también 
 
 4. Para configurar la presentación del identificador de llamada:
 
-   - Para elegir una o varias reglas de una lista de todas las reglas de conversión disponibles en su implementación de Enterprise Voice, haga clic en **Seleccionar**. En **Reglas de traducción de números de llamada**, haga clic en las reglas que quiera asociar al tronco y, después, haga clic en **Aceptar**.
+   - Para elegir una o más reglas de una lista de todas las reglas de traducción disponibles en la implementación de telefonía IP empresarial, haga clic en **seleccionar**. En **Reglas de traducción de números de llamada**, haga clic en las reglas que quiera asociar al tronco y, después, haga clic en **Aceptar**.
 
-   - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener información detallada sobre cómo definir una nueva regla, consulte [Definición de reglas de conversión](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
+   - Para definir una regla de conversión nueva y asociarla con el tronco, haga clic en **Nueva**. Para obtener más información sobre cómo definir una nueva regla, consulte [definición de reglas de traducción](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación de implementación.
 
    - Para editar una regla de conversión que ya esté asociada al tronco, haga clic en el nombre de la regla y, a continuación, haga clic en  **Mostrar detalles**. Para obtener más información, consulte  [Defining Translation Rules](https://technet.microsoft.com/library/4f6b975a-77e6-474c-9171-b139d84138c2.aspx) en la documentación sobre implementación.
 

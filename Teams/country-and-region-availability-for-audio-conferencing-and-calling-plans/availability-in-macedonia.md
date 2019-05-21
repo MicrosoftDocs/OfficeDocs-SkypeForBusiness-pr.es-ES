@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Macedonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 5d46dc7d23a2eefa99507201e4d077b0a67bbb05
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Macedonia.
+ms.openlocfilehash: 8d0b0f4a94524471271d470be20e6bb22d2455c4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32203620"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288065"
 ---
 # <a name="availability-in-macedonia"></a>Disponibilidad en Macedonia, ERY
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Macedonia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Macedonia.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

@@ -10,138 +10,138 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Setup
-description: En este artículo se explica cómo configurar y solucionar problemas de Skype para la delegación en línea de negocio. En este artículo se ofrece instrucciones para el programa de instalación recomendaciones, procedimientos recomendados y pasos para solucionar problemas.
-ms.openlocfilehash: 450aee07691a007b976aafffc05d34c3e7ef85f2
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: En este artículo se explica cómo configurar y solucionar problemas de delegación de Skype empresarial online. Este artículo le ofrece instrucciones para las recomendaciones de configuración, procedimientos recomendados y pasos de solución de problemas.
+ms.openlocfilehash: 0528bbb3dc25e085d38f86c040eb5129c9d039c1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237301"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285248"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Configurar y solucionar problemas relacionados con la delegación de Skype Empresarial Online
 
-En este artículo se explica cómo configurar y solucionar problemas de Skype para la delegación en línea de negocio. En este artículo se ofrece instrucciones para el programa de instalación recomendaciones, procedimientos recomendados y pasos para solucionar problemas.
+En este artículo se explica cómo configurar y solucionar problemas de delegación de Skype empresarial online. Este artículo le ofrece instrucciones para las recomendaciones de configuración, procedimientos recomendados y pasos de solución de problemas.
   
-## <a name="guidelines-and-requirements"></a>Instrucciones y requisitos
+## <a name="guidelines-and-requirements"></a>Pautas y requisitos
 
 ### <a name="guidelines-for-delegation"></a>Directrices para la delegación
 
-Configurar y obtención de delegación para que funcione correctamente dependen de seguir estas instrucciones:
+La configuración y la obtención de la delegación para funcionar correctamente depende de estas pautas:
   
-- Debe usar la Skype para todo el cliente de 2015 empresarial con las últimas actualizaciones o la Skype para todo el cliente de 2016 empresarial.
+- Debe usar el cliente completo de Skype empresarial 2015 con las actualizaciones más recientes o el cliente completo de Skype empresarial 2016.
     
 - Debe usar el cliente de Outlook 2013 con las actualizaciones más recientes o el cliente de Outlook 2016.
     
-- Asegúrese de que el usuario delegado y equipos de delegado tienen un perfil de correo de Outlook que es la principal o el perfil predeterminado. Ese perfil de correo debe contener únicamente una cuenta.
+- Asegúrese de que los delegados y los equipos delegados tienen un perfil de correo de Outlook que es el principal o el predeterminado. Ese perfil de correo debería contener solo una cuenta.
     
-- Skype para la empresa para el usuario delegado y el delegado debe ser usuarios en línea. Además, los buzones de Exchange Server para cada cuenta debe ser estar en línea o local.
+- Skype empresarial para el delegador y el delegado deben ser usuarios en línea. Además, los buzones de Exchange Server para cada cuenta deben estar conectados o ser locales.
     
-- El usuario delegado y el delegado deben usar la misma versión principal de Outlook.
+- Tanto el delegado como el delegado deben usar la misma versión principal de Outlook.
     
-- El valor del atributo **EnableExchangeDelegateSync** debe establecerse en **true** en la directiva de cliente. Puede comprobar esta configuración, ejecute el cmdlet **Get-CSClientPolicy** en la Skype para el módulo de PowerShell en línea de negocio.
+- El valor del atributo **EnableExchangeDelegateSync** debe establecerse en **true** en la Directiva de cliente. Puede comprobar esta configuración ejecutando el cmdlet **Get-ClientPolicy** en el módulo de PowerShell de Skype empresarial online.
     
-- El usuario delegado y el delegado deben haber iniciado sesión en Skype para profesionales y Outlook al mismo tiempo en diferentes estaciones de trabajo.
+- Tanto el delegado como el delegado deben haber iniciado sesión en Skype empresarial y Outlook al mismo tiempo en diferentes estaciones de trabajo.
     
-- Buzones compartidos no son compatibles para Skype para la delegación en línea de negocio. Esto es debido a que el buzón compartido no tiene la lista de control de acceso (ACL) de **sendonbehalf** .
+- Los buzones compartidos no son compatibles con la delegación de Skype empresarial online. Esto se debe a que el buzón de correo compartido no tiene la lista de control de acceso (ACL) **sendonbehalf** .
     
-### <a name="skype-for-business-client-version-support"></a>Skype para compatibilidad con la versión de cliente de negocio
+### <a name="skype-for-business-client-version-support"></a>Compatibilidad con versiones de cliente de Skype empresarial
 
 ||**Outlook 2013**|**Outlook 2016**|
 |:-----|:-----|:-----|
-|**Lync/Skype para cliente básico de negocio**| No se admite |No se admite
+|**Lync/Skype empresarial para clientes básicos**| No compatible |No compatible
 |**Skype Empresarial 2015**|Compatible| Compatible|
-|**Skype para profesionales de 2016**|Compatible| Compatible|
+|**Skype empresarial 2016**|Compatible| Compatible|
 
    
-### <a name="licensing-requirements"></a>Los requisitos de licencia
+### <a name="licensing-requirements"></a>Requisitos de licencias
 
-**Escenario de licencias E3 de empresa**
+**Escenario de licencias de Enterprise E3**
 
 |**Licencia**|**Clientes**|**Notas**|
 |:-----|:-----|:-----|
-|Enterprise E3  <br/> |Lync 2013 (Skype para profesionales de 2015) se utiliza con Outlook 2013 o Outlook 2016  <br/> Skype para 2016 empresarial se utiliza con Outlook 2013 o Outlook 2016  <br/> |Skype para cliente empresarial básica no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar las llamadas pero no las reuniones.  <br/> |
-|E3 de empresa con el sistema telefónico de Office 365 + xCalling Plan de Office 365  <br/> |Lync 2013 (Skype para profesionales de 2015) se utiliza con Outlook 2013 o Outlook 2016  <br/> Skype para 2016 empresarial se utiliza con Outlook 2013 o Outlook 2016  <br/> Lync para Mac 2011  <br/> |Skype para cliente empresarial básica no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar las llamadas pero no las reuniones.  <br/> |
+|Enterprise E3  <br/> |Lync 2013 (Skype empresarial 2015) se usa con Outlook 2013 u Outlook 2016  <br/> Skype empresarial 2016 se ha usado con Outlook 2013 o Outlook 2016  <br/> |El cliente básico de Skype empresarial no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar llamadas, pero no reuniones.  <br/> |
+|Enterprise E3 con Office 365 Phone System + Office 365 plan xCalling  <br/> |Lync 2013 (Skype empresarial 2015) se usa con Outlook 2013 u Outlook 2016  <br/> Skype empresarial 2016 se ha usado con Outlook 2013 o Outlook 2016  <br/> Lync para Mac 2011  <br/> |El cliente básico de Skype empresarial no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar llamadas, pero no reuniones.  <br/> |
    
-**Escenario de licencia Enterprise E5**
+**Escenario de licencias de Enterprise E5**
 
 |**Licencia**|**Clientes**|**Notas**|
 |:-----|:-----|:-----|
-|E5 de la empresa  <br/> |Lync 2013 (Skype para profesionales de 2015) se utiliza con Outlook 2013 o 2016 de Outlook.  <br/> Skype para 2016 empresarial se utiliza con Outlook 2013 o Outlook 2016  <br/> |Skype para cliente empresarial básica no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar las llamadas pero no las reuniones.  <br/> |
-|E5 Enterprise plus Plan de llamada de Office 365  <br/> |Skype para la empresa para Mac 2016  <br/> Lync 2013 (Skype para profesionales de 2015) se utiliza con Outlook 2013 o Outlook 2016  <br/> Skype para 2016 empresarial se utiliza con Outlook 2013 o Outlook 2016  <br/> Lync para Mac 2011  <br/> |Skype para cliente empresarial básica no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar las llamadas pero no las reuniones.  <br/> |
+|Enterprise E5  <br/> |Lync 2013 (Skype empresarial 2015) se usa con Outlook 2013 u Outlook 2016.  <br/> Skype empresarial 2016 se ha usado con Outlook 2013 o Outlook 2016  <br/> |El cliente básico de Skype empresarial no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar llamadas, pero no reuniones.  <br/> |
+|Enterprise E5 más plan de llamadas de Office 365  <br/> |Skype empresarial para Mac 2016  <br/> Lync 2013 (Skype empresarial 2015) se usa con Outlook 2013 u Outlook 2016  <br/> Skype empresarial 2016 se ha usado con Outlook 2013 o Outlook 2016  <br/> Lync para Mac 2011  <br/> |El cliente básico de Skype empresarial no es compatible con la delegación.  <br/> Para los clientes de Mac, puede delegar llamadas, pero no reuniones.  <br/> |
    
 ## <a name="set-up-and-verify-delegation"></a>Configurar y comprobar la delegación
 
-Para configurar Skype para la delegación en línea de negocio, siga estos pasos:
+Para configurar la delegación de Skype empresarial online, siga estos pasos:
   
-### <a name="for-windows-clients"></a>Para los clientes de Windows
+### <a name="for-windows-clients"></a>Para clientes de Windows
 
- **Ficha de desvío de llamadas**
+ **Ficha desvío de llamadas**
   
-1. Seleccione **Herramientas** > **Opciones de** > **configuración de desvío de llamadas**.
+1. Seleccione **herramientas** > **Opciones Opciones** > de**desvío de llamadas**.
     
-2. Seleccione **Editar a Mis miembros delegados**.
+2. Seleccione **Editar mis miembros**delegados.
     
-3. Seleccione **Agregar**, seleccione al delegado que desea agregar y, a continuación, seleccione **Aceptar**.
+3. Seleccione **Agregar**, seleccione el delegado que desea agregar y, a continuación, seleccione **Aceptar**.
     
- **Ninguna ficha de desvío de llamadas**
+ **Pestaña sin desvío de llamadas**
   
-1. En Outlook, seleccione **archivo** > **Configuración de la cuenta** > **Acceso delegado** > **Agregar**.
+1. En Outlook, seleccione **** > **configuración** > de la cuenta de archivo**delegar acceso** > **Add**.
     
-2. Busque y, a continuación, agregue el nombre de la persona que se va a ser el delegado.
+2. Busque y agregue el nombre de la persona que será el delegado.
     
 3. Seleccione el menú **calendario** y, a continuación, seleccione **Editor (puede leer, crear y modificar elementos)**.
     
-### <a name="for-mac-clients---lync"></a>Para los clientes de Mac - Lync
+### <a name="for-mac-clients---lync"></a>Para clientes Mac: Lync
 
- **Ficha de desvío de llamadas**
+ **Ficha desvío de llamadas**
   
-- Si el cliente no tiene una ficha de **Desvío de llamadas** que tiene el vínculo **Editar mis miembros a delegados** y el usuario delegado se encuentra en un equipo Mac, el usuario delegado debe iniciar sesión en un equipo basado en Windows con el fin de configurar la delegación. Esto es debido a que los clientes de Mac no pueden realizar conexiones de MAPI y es un requisito para establecer Skype para la delegación de negocio desde Outlook.
+- Si el cliente no tiene una ficha de **desvío de llamadas** que tiene el vínculo **Editar mis miembros del delegado** y el delegador se encuentra en un equipo Mac, el delegadodor debe iniciar sesión en un equipo basado en Windows para poder configurar la delegación. Esto se debe a que los clientes de Mac no pueden hacer conexiones MAPI, y esto es un requisito para establecer la delegación de Skype empresarial desde Outlook.
     
-### <a name="verify-success"></a>Compruebe el éxito
+### <a name="verify-success"></a>Comprobar el éxito
 
-Si el programa de instalación se realiza correctamente, el delegado debería ver la **ha sido agregado como delegado para < Name>** mensaje y también que se crea el grupo **de personas puedo administrar las llamadas para** . El usuario delegado debería ver que se ha creado el grupo de **delegados** .
+Si la configuración se realiza correctamente, el delegado debería ver lo **que se agregó como delegado de _LT_ Name>** mensaje y también se crean las personas a las que administro las **llamadas para** el grupo. El delegador debe ver que **** se crea el grupo delegados.
   
 > [!NOTE]
-> Permisos de delegación suelen aparecerán dentro de 30 minutos al proceso de instalación. Sin embargo, este proceso puede tardar hasta 24 horas para llevar a cabo. 
+> Los permisos de delegación suelen aparecer dentro de los 30 minutos del proceso de configuración. Sin embargo, este proceso puede demorar hasta 24 horas en completarse. 
   
 ## <a name="troubleshooting"></a>Solución de problemas
 
 ### <a name="common-issues"></a>Problemas comunes
 
-- > **Problema 1** La entrada de delegado sigue apareciendo en el grupo **de personas puedo administrar las llamadas para** una vez que el usuario delegado quite al delegado desde el cliente de Outlook.
+- > **Problema 1** La entrada de delegado continúa apareciendo en las **llamadas de grupo personas que administro** después de que el delegador haya eliminado el delegado del cliente de Outlook.
     
-  - > **Resolución 1** En Skype para clientes empresariales, secundario del delegado en el grupo de **delegados** y, a continuación, seleccione **quitar de grupo**.
+  - > **Solución 1** En el cliente de Skype empresarial, haga clic con el botón derecho en **** el delegado en el grupo delegados y, a continuación, seleccione **quitar del grupo**.
     
-- > **Problema 2** Una vez concedido el acceso de delegado a través del cliente de Outlook, ni en el mensaje de confirmación ni en el grupo **de personas puedo administrar las llamadas para** aparecen para el delegado.
+- > **Problema 2** Después de conceder acceso delegado a través del cliente de Outlook, no se muestra para el delegado ni el mensaje de confirmación ni las **personas que administro las llamadas para** el grupo.
     
-  - > **Resolución 2** Quitar la delegación desde el cliente de Outlook, espere unos 15 minutos para la replicación y, a continuación, vuelva a agregar al delegado.
+  - > **Solución 2** Quite la delegación del cliente de Outlook, espere aproximadamente 15 minutos para la replicación y, a continuación, vuelva a agregar el delegado.
     
 ### <a name="other-common-issues"></a>Otros problemas comunes
 
-- Delegación no funciona si se supera el umbral de 25 delegators y 25 delegados.
+- La delegación no funciona si se supera el umbral de 25 delegados y 25 delegados.
     
-- No se admite la Skype para cliente empresarial básico.
-    
-    > [!NOTE]
-    > Si instala el Skype para cliente empresarial básico, quitará y delegación de interrupción. 
-  
-- Si el valor de **Estado de MAPI** no es **Aceptar**, asegúrese de que coinciden con los valores de **SIP** y **SMTP** .
+- No se admite el cliente de Skype empresarial Basic.
     
     > [!NOTE]
-    > Puede tardar varios minutos para el estado MAPI mostrar como **Aceptar** después de iniciar en primer lugar Skype para profesionales y Outlook.
+    > Si instala el cliente de Skype empresarial Basic, se eliminará y interrumpirá la delegación. 
   
-- No se admiten la creación de un grupo de seguridad y agregar los permisos de delegación para ese grupo de seguridad.
+- Si el valor de **Estado de MAPI** no es **correcto**, asegúrese de que los valores **SIP** y **SMTP** coinciden.
     
-- MAPI no está disponible. Vea el [error de "MAPI no está disponible" de Skype para cliente de 2016 empresarial](https://support.microsoft.com/en-us/help/3147130).
+    > [!NOTE]
+    > El estado de MAPI puede tardar varios minutos en mostrarse como **correcto** después de iniciar Skype empresarial y Outlook.
+  
+- No se admite la creación de un grupo de seguridad ni la adición de permisos de delegación para ese grupo de seguridad.
     
-- El buzón de Exchange Online no está accesible a través de la Skype para clientes empresariales. Si esto ocurre, ejecute la [prueba de conectividad de Outlook](https://testconnectivity.microsoft.com/) para asegurarse de que se pasa.
+- MAPI no está disponible. Consulte el [error "MAPI unavailable" en el cliente de Skype empresarial 2016](https://support.microsoft.com/en-us/help/3147130).
+    
+- No se puede obtener acceso al buzón de Exchange Online a través del cliente de Skype empresarial. Si esto sucede, ejecute la [prueba de conectividad de Outlook](https://testconnectivity.microsoft.com/) para asegurarse de que pasa.
     
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

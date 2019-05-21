@@ -1,5 +1,5 @@
 ---
-title: No está habilitado en este Skype para la característica de negocio en línea
+title: Esta característica de Skype empresarial online no está habilitada
 ms.reviewer: ''
 ms.author: tonysmit
 author: tonysmit
@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,23 +19,23 @@ f1keywords:
 - ms.lync.lac.FeatureNotEnabled
 ms.custom:
 - Setup
-description: 'Busque las posibles causas y sugerencias de acción al obtener un Skype para características en línea de negocio no se encuentra errores habilitado. '
-ms.openlocfilehash: 0688bcc572c90c776bb1db6413825436f2ba8930
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Buscar posibles causas y sugerencias de acción cuando se recibe un error de la característica de Skype empresarial online no está habilitada. '
+ms.openlocfilehash: d819dacc777b4e6ef8f3adb9e6e7cab20a1be874
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237177"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285049"
 ---
-# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>No está habilitado en este Skype para la característica de negocio en línea
+# <a name="this-skype-for-business-online-feature-isnt-enabled"></a>Esta característica de Skype empresarial online no está habilitada
 
-Lo sentimos, parece que el usuario no se concede bajo licencia para esta característica.
+Lo sentimos, pero parece que el usuario no tiene licencia para esta característica.
   
 |**Causa posible**|**Acción sugerida**|
 |:-----|:-----|
-|Tienen licencias disponibles, pero aún no ha activado la característica para este usuario.  <br/> |Vaya al **Centro de administración de Office 365** > **usuarios activos** para obtener licencia para este usuario. <br/> |
-|El usuario está en una ubicación donde esta característica no está disponible.  <br/> |Si es posible, vaya a **Centro de administración de Office 365** > **usuarios activos** y asignar este usuario a una ubicación donde la característica está disponible. <br/> |
-|La característica no se ha activado para la organización.  <br/> |Vaya al **Centro de administración de Office 365** > **Skype para la empresa** y activar la característica para toda la organización. <br/> |
+|Tiene licencias disponibles, pero no ha activado la característica para este usuario.  <br/> |Vaya al **Centro** > de administración de Office 365**usuarios activos** para conceder licencia a este usuario. <br/> |
+|El usuario está en una ubicación donde esta característica no está disponible.  <br/> |Si es posible, vaya a > **usuarios activos** del **centro de administración de Office 365**y asigne este usuario a una ubicación donde la característica esté disponible. <br/> |
+|La característica no se ha activado para su organización.  <br/> |Vaya al **Centro** > de administración de Office 365**Skype empresarial** y active la característica para toda la organización. <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

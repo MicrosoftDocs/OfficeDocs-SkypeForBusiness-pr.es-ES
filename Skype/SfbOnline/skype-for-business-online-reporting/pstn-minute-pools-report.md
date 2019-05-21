@@ -10,87 +10,87 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Reporting
-description: El nuevo Skype para el área de informes del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el Skype para informe de grupos de servidores minuto RTC de negocio para ver el número de minutos consumidos durante el mes actual dentro de la organización.
-ms.openlocfilehash: 903ea97fa5cd187e49db89d0e4db32ad7b851a41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe de grupos de minutos RTC de Skype empresarial para ver el número de minutos consumidos durante el mes actual de su organización.
+ms.openlocfilehash: 81622eff6954fb19b9b16e278a19ed70c6183b2e
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239902"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287749"
 ---
 # <a name="pstn-minute-pools-report"></a>Informe de grupos de minutos de RTC
 
 >[!NOTE]
 >Este informe solo está disponible para obtener una vista previa de los clientes.
 
-El nuevo Skype para el área de **informes** del centro de administración empresarial muestra realiza la llamada y audio conferencia actividad en la organización. Permite profundizar en los informes para proporciona una idea más granular acerca de las actividades de cada usuario. Por ejemplo, puede usar el informe de **Skype para grupos de negocio RTC minutos** para ver el número de minutos consumidos durante el mes actual dentro de la organización.
+El nuevo área **informes** del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe de **grupos de minutos RTC de Skype empresarial** para ver el número de minutos consumidos durante el mes actual de su organización.
   
-Revise la [información general de informes](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) para obtener más informes que están disponibles.
+Consulte la [información general](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) de los informes para ver más informes que están disponibles.
   
-Este informe, junto con los otro Skype para los informes de negocio, proporciona detalles sobre la actividad en toda la organización. Estos detalles son muy útiles al investigar, planear y realizar otras decisiones empresariales para su organización y para la configuración de [Comunicaciones de créditos](/microsoftteams/what-are-communications-credits)
+Este informe, junto con los otros informes de Skype empresarial, le ofrece detalles sobre la actividad en toda su organización. Estos detalles son muy útiles para investigar, planear y tomar otras decisiones empresariales para su organización y para configurar créditos de [comunicaciones](/microsoftteams/what-are-communications-credits) .
   
 > [!NOTE]
 > Puede ver todos los informes de Skype Empresarial cuando inicie sesión como administrador en el Centro de administración de Office 365. 
   
-## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo llegar a la Skype para informe de grupos de servidores minuto RTC de negocio
+## <a name="how-to-get-to-the-skype-for-business-pstn-minute-pools-report"></a>Cómo acceder al informe de grupos de minutos RTC de Skype empresarial
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
-- Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para el centro de administración de negocio** > **informes** > **grupos minutos de RTC**.
+- Vaya al centro de administración de **Office 365**centro de > **Administración** > **de administración de Skype empresarial** > **informes** > de**grupos de minutos RTC**.
     
 > [!NOTE]
-> Dependiendo de la suscripción a Office 365 que tiene, es posible que no verá todos los mismos detalles que se muestran aquí. 
+> Según la suscripción de Office 365 que tenga, es posible que no vea todos los detalles que se muestran aquí. 
   
-## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretar el Skype para informe de grupos de servidores minuto RTC de negocio
+## <a name="interpret-the-skype-for-business-pstn-minute-pools-report"></a>Interpretar el informe de grupos de minutos RTC de Skype empresarial
 
-Puede obtener una vista en Skype del usuario para los grupos de negocio minutos mirando en cada una de las columnas que se muestran.
+Puede obtener una vista de los grupos de minutos de Skype para su usuario consultando cada una de las columnas que se muestran.
   
 Este es el aspecto del informe.
   
 ## 
 
-![Informe de grupos de servidores de Skype para minuto de RTC de negocio](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
+![Informe de grupos de minutos RTC de Skype empresarial](../images/f5da5ca9-3466-4234-8f33-ab50ac5eb781.png)
   
 ***
-![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de servidores minutos por licencia (capacidad) y la ubicación de uso. 
-*    **Capacidad** es el plan de licencia/servicio utilizado para la llamada. Los planes de licencia o servicio que puede ver en este informe se incluyen:
-     * MCOPSTN1 - nacionales llamar a planear (3000 minuto 1200/US-minuto UE planes
-     * MCOPSTN2 - nacionales & International llamar a planear desde la que podrá ver un grupo de servidores interno (3000 minuto Estados Unidos, Canadá/PR, 1200 minuto países de Europa) y un grupo de servidores internacional (600 minutos). Minuto cap se alcanza cada vez que se alcanza el cap OR internacional nacional dentro del mes del calendario. 
-     * MCOPSTN5 - nacionales llamar a Plan (plan llamada 120 minutos)
-     * MCOPSTN6 - nacionales llamar a Plan (plan de llamadas de 240 minutos)
-     * MCOMEETADD - conferencias de Audio
-*    **Descripción de la capacidad** es una descripción del tipo de licencia utilizado para la llamada.
-*    **Grupo de servidores de minuto de país** es la ubicación de uso de licencia de los usuarios que comparten el grupo de minuto. 
-*    **Usa minutos** es el número de minutos que se usa cada mes.
-*    **Total de minutos** es el número total de minutos disponibles para el mes. 
-*    **Porcentaje utilizado** es el porcentaje de minutos utilizados para el mes. 
+![Número 1](../images/sfbcallout1.png)<br/>La tabla muestra un desglose de los grupos de minutos por licencia (capacidad) y ubicación de uso. 
+*    **Capacidad** es el plan de servicio/licencia usado para la llamada. Los planes de servicio/licencia que puede ver en este informe son:
+     * Plan de llamadas MCOPSTN1-nacionales (3000-minutos planes de Europa de Estados Unidos/1.200 minutos
+     * Plan de llamadas internacionales de MCOPSTN2-& a partir del cual usted verá un grupo nacional (3000-minute Estados Unidos/Canadá/PR, 1200-minute países de Europa) y un pool Internacional (600-minutos). Se alcanza el límite de minutos cada vez que se alcanza el límite nacional o internacional en el mes del calendario. 
+     * Plan de llamadas MCOPSTN5-nacionales (plan de llamadas de 120 minutos)
+     * Plan de llamadas MCOPSTN6-nacionales (plan de llamadas de 240 minutos)
+     * MCOMEETADD: audioconferencia
+*    **Descripción** de la funcionalidad es una descripción del tipo de licencia que se usa para la llamada.
+*    **Grupo de minutos por país** es la ubicación de uso de licencias de los usuarios que comparten el grupo de minutos. 
+*    **Minutos usados** es el número de minutos que se usan cada mes.
+*    **Minutos totales** es el número total de minutos disponibles para el mes. 
+*    El **porcentaje usado** es el porcentaje de minutos utilizado para el mes. 
 ***
 ![Número 2](../images/sfbcallout2.png)<br/>Haga clic para arrastrar una columna a **Para agrupar por una columna concreta, arrastre y coloque el encabezado de columna aquí** si desea crear una vista que agrupe todos los datos de una o más columnas. 
 ***
-![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 a los usuarios, puede ordenar y filtrar dentro de la tabla en el informe de sí mismo. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
+![Número 3](../images/sfbcallout3.png)<br/>También puede exportar los datos del informe a un archivo .csv de Excel haciendo clic o tocando pulsando en el botón **Exportar a Excel**. <br/><br/> De esta forma se exportan los datos de todos los usuarios, a los que puede aplicar orden y filtros simples para realizar más análisis. Si tiene menos de 2000 usuarios, puede ordenar y filtrar dentro de la tabla en el informe en sí. Si tiene más de 2000 usuarios, para ordenar y filtrar tendrá que exportar los datos.
    
 ## <a name="want-to-see-other-skype-for-business-reports"></a>¿Desea ver otros informes de Skype Empresarial?
 
-- [Skype para informe de actividad de negocio](activity-report.md) Puede ver la cantidad de los usuarios están usando peer-to-peer, organizada y participó en las sesiones de conferencia.
+- [Informe de actividad de Skype empresarial](activity-report.md) Puede ver cuánto están usando las sesiones de conferencia punto a punto, organizada y de participación.
     
-- [Skype para el informe de uso del dispositivo de empresa](device-usage-report.md) Puede para ver los dispositivos incluidos los sistemas operativos basados en Windows y dispositivos móviles que tienen el Skype para la aplicación empresarial de instalan y están usando para la mensajería instantánea y reuniones.
+- [Informe de uso de dispositivos de Skype empresarial](device-usage-report.md) Puede ver los dispositivos que incluyen sistemas operativos basados en Windows y dispositivos móviles que tienen instalada la aplicación Skype empresarial y la usan para mensajería instantánea y reuniones.
     
-- [Skype para informe de actividad de organizador de conferencia empresarial](conference-organizer-activity-report.md) Puede ver cuánto los usuarios están organizar conferencias que utilizan la mensajería instantánea, audio y vídeo, compartir aplicaciones, Web, /dial out - 3rd fabricantes y /dial out - Microsoft.
+- [Informe de actividad de organizador de conferencias de Skype empresarial](conference-organizer-activity-report.md) Puede ver cuánto están organizando los usuarios las conferencias que usan la mensajería instantánea, el audio/vídeo, el uso compartido de aplicaciones, la web,/dial fuera de terceros y/dial, Microsoft.
     
-- [Skype para informe de actividad de participantes de conferencia empresarial](conference-participant-activity-report.md) Puede ver cuántos de mensajería instantánea, audio y vídeo, uso compartido de aplicaciones, Web y acceso telefónico a conferencias de audio que se están participó en.
+- [Informe de actividad de participantes de conferencias de Skype empresarial](conference-participant-activity-report.md) Puede ver el número de participantes de la mensajería instantánea, el audio/vídeo, el uso compartido de aplicaciones, la web y las conferencias de llamadas de llamada.
     
-- [Skype para informe de actividad de punto a punto de negocio](peer-to-peer-activity-report.md) Puede ver cuánto los usuarios utilizan mensajería instantánea, audio y vídeo, uso compartido de aplicaciones y transferencia de archivos.
+- [Informe de actividad punto a punto de Skype empresarial](peer-to-peer-activity-report.md) Puede ver cuánto usan los usuarios la mensajería instantánea, el audio/vídeo, el uso compartido de aplicaciones y la transferencia de archivos.
     
-- [Informe de bloqueados de Skype para usuarios profesionales](users-blocked-report.md) Puede ver los usuarios de la organización que se han bloqueado desde la realización de llamadas de RTC.
+- [Informe de usuarios bloqueados de Skype empresarial](users-blocked-report.md) Puede ver los usuarios de su organización que han sido bloqueados para realizar llamadas RTC.
 
-- [Skype para el informe de detalles de sesiones de negocio](session-details-report.md) Puede ver detalles acerca de las experiencias de llamada de usuario individual.
+- [Informe de detalles de sesión de Skype empresarial](session-details-report.md) Puede ver los detalles de las experiencias de llamadas de los usuarios individuales.
     
 ## <a name="related-topics"></a>Temas relacionados
 [Informes de actividades en el Centro de administración de Office 365](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

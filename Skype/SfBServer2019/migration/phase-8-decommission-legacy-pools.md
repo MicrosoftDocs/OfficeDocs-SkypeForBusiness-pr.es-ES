@@ -1,36 +1,36 @@
 ---
-title: Fase 8 retiro de grupos de servidores heredados
+title: Fase 8-retirar pools heredados
 ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.custom: httpsfix
-description: El siguiente tema proporciona instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son necesarios. Leer la documentación y determine qué procedimiento cómo dar de baja para usar.
-ms.openlocfilehash: 2363b90f1bcc71c3c8c1ee42d258101240bcacb7
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar.
+ms.openlocfilehash: 4110e45b2790204e96205dd9552e14fa9c359446
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231514"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273878"
 ---
 # <a name="phase-8-decommission-legacy-pools"></a>Fase 8: Retirar los grupos de servidores heredados
 
-El siguiente tema proporciona instrucciones para actualizar las entradas DNS, mover el servidor de administración de contenido, retirar grupos y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son necesarios. Leer la documentación y determine qué procedimiento cómo dar de baja para usar. 
+En el siguiente tema se proporcionan instrucciones para actualizar entradas DNS, mover el servidor de administración de contenido, retirar grupos de servidores y desactivar y quitar servidores y grupos de servidores de una implementación heredada. No todos los procedimientos enumerados en esta sección son obligatorios. Lea la documentación y determine qué procedimiento de retiro se debe usar. 
   
-Para un artículo con fecha pero exhaustivo acerca de cómo quitar servidores y roles de servidor y una guía paso a paso para retirar una implementación, descargue la [desinstalación de Microsoft Lync Server y quitar Roles de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227). 
+Para obtener un artículo de los servidores y los roles de servidor que se hayan exhausdo, y una guía paso a paso para dar de baja una implementación, descargue la desinstalación de [Microsoft Lync Server y la eliminación de roles de servidor](https://go.microsoft.com/fwlink/p/?linkId=246227). 
   
 > [!IMPORTANT]
-> Para obtener información sobre la migración y actualización de aplicaciones de Microsoft Unified Communications Managed API (UCMA), antes de retirar el entorno heredado, consulte [aplicaciones UCMA: escenarios de actualización, migración y coexistencia](https://go.microsoft.com/fwlink/p/?LinkId=269555).
+> Para obtener información sobre cómo migrar y actualizar aplicaciones de la API administrada de Microsoft Unified Communications (UCMA), antes de dar de baja el entorno heredado, consulte [aplicaciones de UCMA: escenarios de coexistencia, migración y actualización](https://go.microsoft.com/fwlink/p/?LinkId=269555).
   
 ## <a name="in-this-section"></a>En esta sección
 
 > [Actualizar registros SRV de DNS](update-dns-srv-records.md)
 > 
-> [Mover el servidor de Administración Central de instalación heredada a Skype para Business Server 2019](move-the-central-management-server.md)
+> [Mover el servidor de administración central de instalación heredada a Skype empresarial Server 2019](move-the-central-management-server.md)
 > 
 > [Mover directorios de conferencia](move-conference-directories.md)
 > 
@@ -38,7 +38,7 @@ Para un artículo con fecha pero exhaustivo acerca de cómo quitar servidores y 
 > 
 > [Quitar la asociación del servidor de supervisión](remove-the-monitoring-server-association.md)
 > 
-> [Quitar el servidor Front-End Enterprise Edition o servidor Front-End de Standard Edition](remove-the-front-end-server.md)
+> [Quitar el servidor front-end de Enterprise Edition o el servidor front-end Standard Edition](remove-the-front-end-server.md)
 > 
 > [Quitar instancias de SQL Server y bases de datos en el servidor back-end](remove-sql-server-instances-and-databases-on-the-back-end-server.md)
     

@@ -5,24 +5,24 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 07/23/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
-description: Buscar y administrar las actualizaciones de Skype para Business Server o Lync 2013. Use los vínculos para obtener más información y, a continuación, descargue las actualizaciones.
-ms.openlocfilehash: 4714446a4e9f123691668f9e916632f1b3270d26
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Busque y administre actualizaciones de Skype empresarial Server o Lync 2013. Use los vínculos para obtener más información y, a continuación, descargar las actualizaciones.
+ms.openlocfilehash: 8e0e7c2e42c6b778c219cb31dc3460ea8e220bb8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902260"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286799"
 ---
 # <a name="skype-for-business-downloads-and-updates"></a>Descargas y actualizaciones de Skype Empresarial
 
-Se ha retirado la página web de _Skype para profesionales descargas y actualizaciones_ que una vez fue en Technet. Se ha reorganizado el contenido en las páginas de cliente y servidor. Siga estos vínculos para el contenido que necesita:
+Se ha retirado la Página Web de _descargas y actualizaciones de Skype empresarial_ que se creó en TechNet. El contenido se reorganizó en las páginas del cliente y del servidor. Siga estos vínculos para obtener el contenido que necesita:
 
-- [Actualizaciones de Skype para clientes empresariales](sfb-client-updates.md) que contiene las secciones:
+- [Actualizaciones para clientes de Skype empresarial](sfb-client-updates.md) que contienen las secciones:
     - [Actualizaciones del cliente de Skype Empresarial 2016](sfb-client-updates.md#skype-for-business-2016-client-updates)
     - [Actualizaciones del cliente de Skype Empresarial 2015](sfb-client-updates.md#skype-for-business-2015-client-updates)
     - [Actualizaciones del cliente de Skype Empresarial en Mac](sfb-client-updates.md#skype-for-business-on-mac-client-updates)
@@ -35,7 +35,7 @@ Se ha retirado la página web de _Skype para profesionales descargas y actualiza
         - [Actualizaciones de Lync 2010 Attendant](sfb-client-updates.md#lync-2010-attendant-updates)
         - [Actualizaciones de Lync 2010 Attendee](sfb-client-updates.md#lync-2010-attendee-updates)
 
-- [Skype para actualizaciones de Business Server](sfb-server-updates.md) que contiene las secciones:
+- [Actualizaciones de Skype empresarial Server](sfb-server-updates.md) que contiene las secciones:
     - [Historial de actualizaciones de Skype Empresarial Server 2015](sfb-server-updates.md#skype-for-business-server-2015-update-history)
     - [Historial de actualizaciones de Lync Server 2013](sfb-server-updates.md#lync-server-2013-update-history)
         - [Herramientas de desarrollo de Lync Server 2013](sfb-server-updates.md#lync-server-2013-dev-tools)

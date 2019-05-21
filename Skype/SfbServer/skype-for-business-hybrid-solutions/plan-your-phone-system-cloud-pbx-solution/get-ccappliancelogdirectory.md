@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8f16d8ea-8161-4b07-9c79-d57e786b3e78
 description: El cmdlet Get-CcApplianceLogDirectory muestra el directorio actual en el que se almacenan los registros de un dispositivo de Skype Empresarial Cloud Connector Edition.
-ms.openlocfilehash: d1298454bb347356718fdf24d6761acfea1b71b1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 675e89f49c7c1384edc7cfa5944c8aee3f236c79
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233955"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287373"
 ---
 # <a name="get-ccappliancelogdirectory"></a>Get-CcApplianceLogDirectory
  
@@ -46,7 +46,7 @@ Get-CcApplianceLogDirectory
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Get-CcApplianceLogDirectory muestra el directorio actual donde se almacenan los registros de un dispositivo de conector en la nube. La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
+El cmdlet Get-CcApplianceLogDirectory muestra el directorio actual en el que se almacenan los registros para un dispositivo de conector de nube. La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\ApplianceRoot\Logs. 
   
 Puede cambiar el directorio con el cmdlet Set-CcApplianceDirectory.  
   

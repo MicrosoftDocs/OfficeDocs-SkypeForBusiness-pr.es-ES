@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Australia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 3035cd55a3fb255b143390bdd6d368d87f23ddbe
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Australia.
+ms.openlocfilehash: 0ced5fd869b54366b5b3214f76b9dee1f8f5782f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245003"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283357"
 ---
 # <a name="availability-in-australia"></a>Disponibilidad en Australia
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Australia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Australia.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -57,17 +57,17 @@ Aquí están disponibles para Australia los servicios de Office 365 para Skype p
 
 ## <a name="calling-plans"></a>Planes de llamadas
 > [!IMPORTANT]
-> Sólo está disponible a través de Telstra para los inquilinos en Australia. Para obtener más información, vea [Llamadas Telstra de Office 365](https://aka.ms/TelstraVoicePlan).
+> Solo disponible a través de Telstra para inquilinos de Australia. Para obtener más información, vea [Llamadas Telstra de Office 365](https://aka.ms/TelstraVoicePlan).
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
-|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, vea [Telstra de llamada de Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
-|Minutos disponibles para Planes de llamada  <br/> |Vea [llamar Telstra para Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
-|¿A qué números se pueden hacer llamadas salientes?  <br/> |Vea [llamar Telstra para Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|¿Los planes de llamada están disponibles para la compra?  <br/> |Sí, consulte [llamadas de Telstra para Office 365](https://aka.ms/TelstraVoicePlan).  <br/> |
+|Minutos disponibles para Planes de llamada  <br/> |Consulte [llamadas de Telstra para Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
+|¿A qué números se pueden hacer llamadas salientes?  <br/> |Consulte [llamadas de Telstra para Office 365](https://aka.ms/TelstraVoicePlan). <br/> |
 
 > [!IMPORTANT]
-> A los números de eliminar suscriptor australiano (proporcionados por Telstra) Póngase en contacto con Telstra directamente.
-> Para actualizar la información de dirección de emergencia para los números de suscriptor australiano (proporcionados por Telstra) Póngase en contacto con Telstra directamente.
+> Para eliminar los números de suscriptor de Australia (proporcionados por Telstra) comuníquese con Telstra directamente.
+> Para actualizar la información de la dirección de emergencia para números de suscriptor de Australia (proporcionada por Telstra) comuníquese con Telstra directamente.
 > Para obtener más información, vea [Llamadas Telstra de Office 365](https://aka.ms/TelstraVoicePlan).
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
@@ -78,7 +78,7 @@ Aquí están disponibles para Australia los servicios de Office 365 para Skype p
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
 
-Si desea obtener los números de teléfono gratuito y de pago para los operadores automáticos, llame a las colas o números de servicio de conferencias de audio, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
+Si desea obtener números de teléfono de pago y gratuitos para los operadores automáticos, las colas de llamadas o los números del servicio de audioconferencia, [póngase en contacto con nosotros](mailto:ptnapac@microsoft.com).
 
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 
