@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployCertRequestBasics
@@ -12,25 +12,25 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
 ROBOTS: NOINDEX, NOFOLLOW
-description: La página nombre y configuración de seguridad proporciona un cuadro de texto para definir un nombre descriptivo, una lista desplegable para la longitud en bits del par de claves público y privado y una casilla de verificación que le permite marcar la clave privada del certificado como exportable.
-ms.openlocfilehash: 7a2c166ff8e5949eea23a237b3d06d968565cb1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La página nombre y configuración de seguridad proporciona un cuadro de texto para definir un nombre descriptivo, una lista desplegable para la longitud en bits del par de claves privada y pública, y una casilla que le permite marcar la clave privada del certificado como exportable.
+ms.openlocfilehash: 4759b550c8e6aaa0c09b0ef44a6547ae3722a082
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893780"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34273776"
 ---
-# <a name="certificate-request-basic"></a><span data-ttu-id="4b370-103">Solicitud de certificado (básica)</span><span class="sxs-lookup"><span data-stu-id="4b370-103">Certificate Request (Basic)</span></span>
+# <a name="certificate-request-basic"></a><span data-ttu-id="f7273-103">Solicitud de certificado (básica)</span><span class="sxs-lookup"><span data-stu-id="f7273-103">Certificate Request (Basic)</span></span>
  
-<span data-ttu-id="4b370-104">La página **nombre y configuración de seguridad** proporciona un cuadro de texto para definir un **Nombre descriptivo**, una lista desplegable para la **longitud en bits** del par de claves público y privado y una casilla de verificación que permite a la clave privada **marca el certificado como exportable**.</span><span class="sxs-lookup"><span data-stu-id="4b370-104">The **Name and Security Settings** page provides a text box to define a **Friendly Name**, a drop-down list for the **Bit length** of the private and public key pair, and a check box that enables you to **Mark the certificate's private key as exportable**.</span></span>
+<span data-ttu-id="f7273-104">La página **nombre y configuración de seguridad** proporciona un cuadro de texto para definir un **nombre descriptivo**, una lista desplegable para la **longitud en bits** del par de clave privada y pública, y una casilla que le permite \*\*marcar la clave privada del certificado como \*\*exportable.</span><span class="sxs-lookup"><span data-stu-id="f7273-104">The **Name and Security Settings** page provides a text box to define a **Friendly Name**, a drop-down list for the **Bit length** of the private and public key pair, and a check box that enables you to **Mark the certificate's private key as exportable**.</span></span>
   
-<span data-ttu-id="4b370-105">El nombre descriptivo, o sencillo, de un certificado es un nombre fácilmente reconocible que permite que la persona que lo ve lo identifique más fácilmente.</span><span class="sxs-lookup"><span data-stu-id="4b370-105">The friendly, or simple, name on a certificate is an easily recognizable name that makes it easier for the person who views the certificate to identify it.</span></span>
+<span data-ttu-id="f7273-105">El nombre descriptivo, o sencillo, de un certificado es un nombre fácilmente reconocible que permite que la persona que lo ve lo identifique más fácilmente.</span><span class="sxs-lookup"><span data-stu-id="f7273-105">The friendly, or simple, name on a certificate is an easily recognizable name that makes it easier for the person who views the certificate to identify it.</span></span>
   
-<span data-ttu-id="4b370-106">La longitud de bits del par de claves pública y privada se puede seleccionar entre 1024, 2048 o 4096.</span><span class="sxs-lookup"><span data-stu-id="4b370-106">The Bit length of the private and public key pair can be selected as 1024, 2048, or 4096.</span></span>
+<span data-ttu-id="f7273-106">La longitud de bits del par de claves pública y privada se puede seleccionar entre 1024, 2048 o 4096.</span><span class="sxs-lookup"><span data-stu-id="f7273-106">The Bit length of the private and public key pair can be selected as 1024, 2048, or 4096.</span></span>
   
-<span data-ttu-id="4b370-107">Seleccionar la casilla de verificación para **marcar la clave privada del certificado como exportable** permite que el certificado y la clave privada se exportan y se muevan a otro servidor o equipo.</span><span class="sxs-lookup"><span data-stu-id="4b370-107">Selecting the check box for **Mark the certificate's private key as exportable** allows the certificate and private key to be exported and moved to another computer or server.</span></span> <span data-ttu-id="4b370-108">La única vez que se necesita activar es cuando se crea un grupo de servidores perimetrales para el servicio de autenticación relé multimedia (MRAS).</span><span class="sxs-lookup"><span data-stu-id="4b370-108">The only time that this is required is when you are creating a pool of Edge Servers for the media relay authentication service (MRAS).</span></span>
+<span data-ttu-id="f7273-107">Activar la casilla para **marcar la clave privada del certificado como** exportable permite que el certificado y la clave privada se exporten y muevan a otro equipo o servidor.</span><span class="sxs-lookup"><span data-stu-id="f7273-107">Selecting the check box for **Mark the certificate's private key as exportable** allows the certificate and private key to be exported and moved to another computer or server.</span></span> <span data-ttu-id="f7273-108">La única vez que se necesita activar es cuando se crea un grupo de servidores perimetrales para el servicio de autenticación relé multimedia (MRAS).</span><span class="sxs-lookup"><span data-stu-id="f7273-108">The only time that this is required is when you are creating a pool of Edge Servers for the media relay authentication service (MRAS).</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="4b370-109">Para ayudar a mantener la seguridad del certificado y el par de claves, debe seleccionar la marca de la clave privada del certificado como exportable opción sólo si es absolutamente necesario.</span><span class="sxs-lookup"><span data-stu-id="4b370-109">To help maintain the security of the certificate and the key pair, you should select the Mark the certificate's private key as exportable option only if it is absolutely necessary.</span></span> 
+> <span data-ttu-id="f7273-109">Para ayudar a mantener la seguridad del certificado y el par de claves, debe seleccionar la opción marcar la clave privada del certificado como exportable solo si es absolutamente necesario.</span><span class="sxs-lookup"><span data-stu-id="f7273-109">To help maintain the security of the certificate and the key pair, you should select the Mark the certificate's private key as exportable option only if it is absolutely necessary.</span></span> 
   
 
