@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 4/8/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.MediaBypass
@@ -13,16 +13,16 @@ f1_keywords:
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 4c6417ea-a87d-4524-ba46-20e6c895d14c
-description: Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación. Para obtener más detalles, vea Plan para los medios de desvío en Skype para profesionales de 2015.
-ms.openlocfilehash: 30e8c923e27df69b0b9cdcd1b2929eac52407d8b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: La omisión de elementos multimedia hace referencia a quitar el servidor de mediación de la ruta multimedia siempre que sea posible para las llamadas cuya señalización atraviese el servidor de mediación. Para obtener más información, vea planear la omisión de medios en Skype empresarial 2015.
+ms.openlocfilehash: bcc9ed69341e3f3c5ddd87c77313992361879b8d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910843"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278937"
 ---
 # <a name="media-bypass-planning-tool"></a>Media Bypass (Planning Tool)
  
-Desvío de medios hace referencia a quitar el servidor de mediación de la ruta de acceso de medios siempre que sea posible para las llamadas con señalización que atraviese el servidor de mediación. Para obtener más detalles, vea [Plan para los medios de desvío en Skype para profesionales de 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+La omisión de elementos multimedia hace referencia a quitar el servidor de mediación de la ruta multimedia siempre que sea posible para las llamadas cuya señalización atraviese el servidor de mediación. Para obtener más información, vea [planear la omisión de medios en Skype empresarial 2015](../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
   
 

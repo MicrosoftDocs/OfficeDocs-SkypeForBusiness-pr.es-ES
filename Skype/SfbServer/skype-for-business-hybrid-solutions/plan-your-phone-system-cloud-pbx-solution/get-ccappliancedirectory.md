@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c2fda202-db2f-4122-b630-7df11a697c5f
 description: 'El cmdlet Get-CcApplianceDirectory recupera el directorio de trabajo del servidor host de Skype Empresarial Cloud Connector Edition. Todos los archivos de implementación se almacenan en este directorio. '
-ms.openlocfilehash: bcd80018b2286865945638f66c13e4c5198346dc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: ada1b587b738d882f81557e61438d6642aa03fff
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32233977"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287394"
 ---
 # <a name="get-ccappliancedirectory"></a>Get-CcApplianceDirectory
  
@@ -37,7 +37,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-En el ejemplo siguiente se muestra la carpeta actual donde se almacenan los archivos de configuración y la máquina virtual de los componentes de conector en la nube:
+En el ejemplo siguiente se muestra la carpeta actual donde se almacenan los archivos de configuración y de máquina virtual de los componentes del conector en la nube:
   
 ```
 Get-CcApplianceDirectory
@@ -46,9 +46,9 @@ Get-CcApplianceDirectory
 ## <a name="detailed-description"></a>Descripción detallada
 <a name="DetailedDescription"> </a>
 
-El cmdlet Get-CcApplianceDirectory muestra donde se almacenan todos los archivos de configuración y la máquina virtual, los registros y los certificados externos para el dispositivo de conector en la nube.
+El cmdlet Get-CcApplianceDirectory muestra dónde se almacenan toda la configuración y los archivos de la máquina virtual, los registros y los certificados externos para el dispositivo de conector de nube.
   
-Cada dispositivo de conector en la nube tiene cuatro componentes: el servidor de mediación, el almacén de Administración Central, el servidor perimetral y un controlador de dominio. La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\ApplianceRoot. Puede cambiar esta carpeta usando el cmdlet Set-CCApplianceDirectory.
+Cada equipo conector de nube tiene cuatro componentes: servidor de mediación, almacén central de administración, servidor perimetral y un controlador de dominio. La carpeta predeterminada es C:\Users\%userprofile%\CloudConnector\ApplianceRoot. Puede cambiar esta carpeta usando el cmdlet Set-CCApplianceDirectory.
   
 ## <a name="input-types"></a>Tipos de entrada
 <a name="InputTypes"> </a>

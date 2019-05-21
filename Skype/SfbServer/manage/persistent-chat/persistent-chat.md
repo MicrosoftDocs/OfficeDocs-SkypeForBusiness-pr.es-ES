@@ -5,39 +5,39 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: c58ee4f4-563b-4d0c-be91-c62df886caa9
-description: 'Resumen: Obtenga información sobre cómo administrar el servidor de Chat persistente en Skype para Business Server 2015.'
-ms.openlocfilehash: 27405be6d209089c670aa117838e959bae64d9e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a administrar el servidor de chat persistente en Skype empresarial Server 2015.'
+ms.openlocfilehash: 17b9770d2cc3385eb797a1e868c7623f3f09a3ba
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910224"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279280"
 ---
 # <a name="manage-persistent-chat-server-in-skype-for-business-server-2015"></a>Administrar el servidor de chat persistente en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo administrar el servidor de Chat persistente en Skype para Business Server 2015.
+**Resumen:** Aprenda a administrar el servidor de chat persistente en Skype empresarial Server 2015.
   
-Al configurar servidor de Chat persistente para su organización, especifique la configuración durante la implementación inicial. Sin embargo, puede haber ocasiones cuando desea cambiar cómo implementar compatibilidad con servidor de Chat persistente. Por ejemplo es posible que necesite configurar la compatibilidad con servidor de Chat persistente y controles de forma diferente para un equipo específico o un grupo dentro de la organización. En esta sección se proporciona información y procedimientos que le ayudarán a personalizar la implementación del servidor de Chat persistente. Para obtener información detallada sobre las características y funciones que se pueden configurar para el servidor de Chat persistente, consulte [Plan for Persistent Chat Server en Skype para Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Para obtener información detallada sobre la implementación de servidor de Chat persistente, vea [Implementar servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
+Al configurar un servidor de chat persistente para su organización, debe especificar la configuración inicial durante la implementación. Sin embargo, puede haber ocasiones en las que desee cambiar el modo en que se implementa la compatibilidad con el servidor de chat. Por ejemplo, es posible que tenga que configurar la compatibilidad del servidor de chat persistente y los controles de forma diferente para un equipo o grupo específico de su organización. Esta sección proporciona información y procedimientos para ayudarle a personalizar la implementación del servidor de chat persistente. Para obtener más información sobre las características y funcionalidades que puede configurar para el servidor de chat persistente, consulte [planear el servidor de chat persistente en Skype empresarial server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md). Para obtener más información sobre cómo implementar el servidor de chat persistente, consulte [implementar un servidor de chat persistente en Skype empresarial server 2015](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md). 
 
 > [!NOTE]
-> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
   
-Puede administrar servidores de Chat persistente mediante el Panel de Control o mediante el uso de cmdlets de Windows PowerShell. 
+Puede administrar el servidor de chat persistente mediante el panel de control o mediante cmdlets de Windows PowerShell. 
   
 Para usar el Panel de control:
   
 1. Desde una cuenta de usuario que se asigne al rol CsPersistentChatAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Desde el menú **Inicio** , seleccione el Skype para el Panel de Control de servidor empresarial o abra una ventana del explorador y, a continuación, escriba la dirección URL de administración.
+2. En el menú **Inicio** , seleccione el panel de control de Skype empresarial Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.
     
-3. En la barra de navegación izquierda, haga clic en **Chat persistente**.
+3. En la barra de navegación izquierda, haga clic en **chat persistente**.
     
-En la siguiente tabla se resume los cmdlets de Windows PowerShell disponibles que le ayudarán a administrar el servidor de Chat persistente. Para detalles sobre la sintaxis, incluso todos los parámetros disponibles, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
+En la siguiente tabla se resumen los cmdlets de Windows PowerShell disponibles para ayudarle a administrar el servidor de chat persistente. Para detalles sobre la sintaxis, incluso todos los parámetros disponibles, consulte [Skype for Business Server 2015 Management Shell](../management-shell.md).
   
 
 |**Cmdlet**|**Descripción**|
@@ -48,7 +48,7 @@ En la siguiente tabla se resume los cmdlets de Windows PowerShell disponibles qu
 |Remove-CsPersistentChatCategory  <br/> |Quita una categoría  <br/> |
 |New-CsPersistentChatRoom  <br/> |Crea un salón de chat  <br/> |
 |Set-CsPersistentChatRoom  <br/> |Configura las opciones de un salón existente; asigna usuarios y grupos de usuarios al salón  <br/> |
-|Get-CsPersistentChatRoom  <br/> |Recupera información acerca de los salones  <br/> |
+|Get-CsPersistentChatRoom  <br/> |Recupera información sobre salas  <br/> |
 |Clear-CsPersistentChatRoom  <br/> |Borra un salón o los mensajes de un salón  <br/> |
 |Remove-CsPersistentChatRoom  <br/> |Quita un salón  <br/> |
 |Remove-CsPersistentChatMessage  <br/> |Quita mensajes de un salón  <br/> |

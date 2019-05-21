@@ -8,57 +8,57 @@ mtps_version: v=OCS.15
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En el momento en que implementan los servidores perimetrales y habilitado la federación para su organización, debe ha especificado si desea admitir la detección automática de dominios de socios federados.
-ms.openlocfilehash: cf12190b03df30f4a15f6ed5e0499aa97c66e576
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En el momento de implementar los servidores perimetrales y de habilitar la Federación de su organización, debe haber especificado si se debe admitir la detección automática de dominios federados de socios.
+ms.openlocfilehash: a5569639cf870d2a5da16ef81aa733724a6701b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33919517"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280260"
 ---
-# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar o deshabilitar la detección de los socios de federación de Skype para Business Server
+# <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Habilitar o deshabilitar la detección de socios de Federación en Skype empresarial Server
 
-En el momento en que implementan los servidores perimetrales y habilitado la federación para su organización, debe ha especificado si desea admitir la detección automática de dominios de socios federados. Use el procedimiento de este tema para cambiar dicha configuración.
+En el momento de implementar los servidores perimetrales y de habilitar la Federación de su organización, debe haber especificado si se debe admitir la detección automática de dominios federados de socios. Use el procedimiento de este tema para cambiar esa configuración.
 
 > [!NOTE]  
-> El siguiente procedimiento se supone que ya ha habilitado la federación para su organización. Para obtener información detallada acerca de cómo habilitar la federación, vea [Habilitar o deshabilitar el acceso de usuarios remotos](enable-or-disable-remote-user-access.md).
+> En el procedimiento siguiente se supone que ya ha habilitado la Federación de su organización. Para obtener más información sobre cómo habilitar la Federación, consulte [habilitar o deshabilitar el acceso de usuarios remotos](enable-or-disable-remote-user-access.md).
 
-## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>Para habilitar o deshabilitar la detección automática de dominios federados para la organización
+## <a name="to-enable-or-disable-automatic-discovery-of-federated-domains-for-your-organization"></a>Para habilitar o deshabilitar la detección automática de dominios federados para su organización
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
 
-3.  En la barra de navegación izquierda, haga clic en **Acceso de usuarios externos**, haga clic en **Configuración perimetral de acceso**.
+3.  En la barra de navegación izquierda, haga clic en **acceso de usuarios externos**, haga clic en **configuración del borde de Access**.
 
-4.  En la página **Configuración perimetral de acceso** , haga clic en **Global**, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
+4.  En la página **configuración de perímetro de Access** , haga clic en **global**, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  En **Editar configuración perimetral de acceso**, en **Habilitar las comunicaciones con los usuarios federados**, active o desactive la casilla de verificación **Habilitar la detección de dominio de socio** para habilitar o deshabilitar la detección automática de dominios de socios.
+5.  En **Editar configuración del límite de acceso**, en **habilitar las comunicaciones con usuarios federados**, Active o desactive la casilla **Habilitar la detección** de dominios asociados para habilitar o deshabilitar la detección automática de dominios asociados.
 
 6.  Haga clic en **Confirmar**.
 
-Para habilitar los usuarios federados puedan colaborar con los usuarios de su Skype para la implementación de Business Server, debe haber configurado también al menos una directiva de acceso externo para admitir el acceso de usuarios federados. Para obtener información detallada, vea [Habilitar o deshabilitar la federación y la conectividad de mensajería instantánea pública](enable-or-disable-federation-and-public-im-connectivity.md). Para obtener información detallada acerca de cómo controlar el acceso de dominios federados concretos, vea [Administrar SIP dominios federados](../sip-domains/manage-sip-federated-domains-for-your-organization.md) y [Administrar SIP proveedores federados](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
+Para permitir a los usuarios federados colaborar con los usuarios de su implementación de Skype empresarial Server, también debe haber configurado al menos una directiva de acceso externa para admitir el acceso de usuarios federados. Para obtener más información, vea [habilitar o deshabilitar la Federación y la conectividad de mensajería instantánea pública](enable-or-disable-federation-and-public-im-connectivity.md). Para obtener más información sobre cómo controlar el acceso a determinados dominios federados, consulte [administrar dominios federados SIP](../sip-domains/manage-sip-federated-domains-for-your-organization.md) y [administrar proveedores federados de SIP](../sip-providers/manage-sip-federated-providers-for-your-organization.md).
 
 
-## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la detección de socios federados mediante el uso de cmdlets de Windows PowerShell
+## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la detección de socios de Federación mediante cmdlets de Windows PowerShell
 
-Detección de socios federados se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet se puede ejecutar desde la Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. 
+El descubrimiento de los socios de la Federación se puede administrar mediante Windows PowerShell y el cmdlet Set-CsAccessEdgeConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. 
 
 
-## <a name="to-enable-discovery-of-federation-partners"></a>Para habilitar la detección de los socios federados
+## <a name="to-enable-discovery-of-federation-partners"></a>Para habilitar la detección de socios de Federación
 
-  - Para habilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en True ($True). Tenga en cuenta que debe habilitar DNS SRV enrutamiento con el fin de cambiar este valor de la propiedad.
+  - Para habilitar la detección de socios de Federación, establezca el valor de la propiedad **EnablePartnerDiscovery** en True ($true). Tenga en cuenta que debe habilitar el enrutamiento SRV de DNS para poder cambiar este valor de propiedad.
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $True
 
 
-## <a name="to-disable-discovery-of-federation-partners"></a>Para deshabilitar la detección de socios federados
+## <a name="to-disable-discovery-of-federation-partners"></a>Para deshabilitar la detección de socios de Federación
 
-  - Para deshabilitar la detección de socios federados, establezca el valor de la propiedad **EnablePartnerDiscovery** en False ($False):
+  - Para deshabilitar la detección de socios de Federación, establezca el valor de la propiedad **EnablePartnerDiscovery** en False ($false):
     
         Set-CsAccessEdgeConfiguration -UseDnsSrvRouting -EnablePartnerDiscovery $False
 

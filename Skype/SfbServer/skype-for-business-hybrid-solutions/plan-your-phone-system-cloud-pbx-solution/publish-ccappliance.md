@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 3/31/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e7d5b63e-ba7c-4757-8670-f96b2a91e646
 description: 'El cmdlet Publish-CcAppliance obtiene información de alta disponibilidad de la configuración de inquilino en línea y la publica en el dispositivo de Skype Empresarial Cloud Connector Edition en el servidor host. '
-ms.openlocfilehash: 119b5e816555eedf221d9db06be15e6a778936d4
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 2fd17e2afdceabc8fbfb44a808b7e6c9ce6bd894
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30879808"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287163"
 ---
 # <a name="publish-ccappliance"></a>Publish-CcAppliance
  
@@ -35,7 +35,7 @@ Ninguno
 
 ### <a name="example-1"></a>Ejemplo 1
 
-El siguiente ejemplo obtiene información de alta disponibilidad de la configuración de inquilino en línea y publica en el dispositivo de conector en la nube en el servidor host:
+En el ejemplo siguiente se obtiene información de alta disponibilidad de la configuración del inquilino en línea y se publica en el dispositivo de conector de nube en el servidor host:
   
 ```
 Publish-CcAppliance

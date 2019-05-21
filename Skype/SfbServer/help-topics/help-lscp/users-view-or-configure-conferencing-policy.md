@@ -1,11 +1,11 @@
 ---
-title: Los usuarios ver o configuración directiva de conferencia
+title: Los usuarios ven o configuran directivas de conferencia
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.UserViewConf
@@ -13,18 +13,18 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 112c77cf-3625-4a97-a1a4-be6f3234cd53
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: ed68701b7e944bd7040c2c21b753b7b74855661c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 15fd370cb5f421b1b3c01aac183f99498cc0153b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924307"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34275909"
 ---
 # <a name="users-view-or-configure-conferencing-policy"></a>Usuarios: Ver o configurar directiva de conferencia
 
 ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
 
-- [Asignar una directiva de conferencia para modificar una experiencia de usuario predeterminada reunión](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
+- [Asignar una directiva de conferencia para modificar la experiencia de reunión predeterminada de un usuario](https://technet.microsoft.com/library/72f12c72-65f7-44fe-ab81-0f57cb2f87d1.aspx)
 
-Para obtener información detallada sobre los distintos procedimientos que puede realizar mediante el uso de la Skype para el Panel de Control de servidor empresarial, vea [Administrar Skype para Business Server 2015](../../manage/manage.md).
+Para obtener más información sobre los distintos procedimientos que puede realizar con el panel de control de Skype empresarial Server, consulte [Manage Skype empresarial server 2015](../../manage/manage.md).
 

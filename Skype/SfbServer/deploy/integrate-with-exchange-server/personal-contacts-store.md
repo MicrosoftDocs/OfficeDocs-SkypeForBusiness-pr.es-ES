@@ -1,30 +1,30 @@
 ---
-title: Configurar el almacén de contactos personales en los equipos cliente de Lync 2010
+title: Configurar el almacén de contactos personales en equipos cliente de Lync 2010
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 1/29/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
-description: 'Resumen: Configurar el almacén de contactos personal utilizado por los clientes heredados.'
-ms.openlocfilehash: 5545f3c0f993b1974f59e90c0b6672f3ebd246e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: configure el almacén de contactos personal usado por clientes heredados.'
+ms.openlocfilehash: ba9cb7ee485f94162a642f8e877213a7bcd47c55
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894263"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278087"
 ---
-# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar el almacén de contactos personales en los equipos cliente de Lync 2010
+# <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Configurar el almacén de contactos personales en equipos cliente de Lync 2010
   
-Si va a integrar Skype para Business Server 2015 y 2016 de Exchange Server o Exchange Server 2013, a continuación, debe configurar el almacén de contactos personal utilizado por los clientes. En concreto, debe configurar Skype para la empresa utilizar Exchange como el almacén de contactos personal y, al mismo tiempo, garantizar que los usuarios no puedan reemplazar esa decisión. Puede hacerlo creando y configurando un valor del Registro en cada equipo cliente.
+Si está integrando Skype empresarial Server 2015 y Exchange Server 2016 o Exchange Server 2013, debe configurar el almacén de contactos personales usado por los clientes. En particular, debe configurar Skype empresarial para usar Exchange como el almacén personal de contactos y, al mismo tiempo, asegurarse de que los usuarios no pueden reemplazar esta decisión. Puede hacerlo creando y configurando un valor del Registro en cada equipo cliente.
   
 > [!NOTE]
-> El siguiente procedimiento sólo es necesario para los clientes mediante el cliente de Lync 2010 o una versión anterior. El cliente de Lync 2013 y todos los Skype para clientes empresariales no tendrán la opción de omitir la configuración de almacén de contactos.
+> El siguiente procedimiento solo es necesario para los clientes que usan el cliente de Lync 2010 o una versión anterior. El cliente de Lync 2013 y todos los clientes de Skype empresarial no tendrán la opción de reemplazar la configuración del almacén de contactos.
   
 Para configurar este valor en un solo equipo, siga este procedimiento:
   
@@ -35,5 +35,5 @@ Para configurar este valor en un solo equipo, siga este procedimiento:
 5. Tras crear el nuevo valor, escriba PersonalContactStoreOverride y presione ENTRAR para cambiar el nombre del valor.
 6. Compruebe que el valor de PersonalContactStoreOverride es 0 y, a continuación, cierre el Editor del Registro.
 
-Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener información detallada sobre cómo hacer esto en 10 de Windows, vea el artículo [crear un objeto de directiva de grupo](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) .
+Si necesita realizar este procedimiento en más de un equipo, cree un objeto Directiva de grupo personalizado. Para obtener más información sobre cómo hacerlo en Windows 10, consulte el artículo [crear un objeto de directiva de grupo](https://docs.microsoft.com/windows/security/threat-protection/windows-firewall/create-a-group-policy-object) .
   

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.plan.EdgeNetwork
@@ -13,17 +13,17 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d7f85abf-2045-4b08-ba29-c6211a3f6ff6
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique, los componentes forman parte de los escenarios de servidor perimetral de Skype para Business Server y se encuentran en la red perimetral. Los componentes perimetrales engloban los siguientes:'
-ms.openlocfilehash: 0b1c97062253099659f8812aa47082a575365670
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique lo contrario, los componentes forman parte de los escenarios de servidores perimetrales en Skype empresarial Server y están en la red perimetral. Los componentes perimetrales engloban los siguientes:'
+ms.openlocfilehash: 00cbadcd08e4c9b3df97c7f50e7ed7dfd46e562b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33889510"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34288332"
 ---
-# <a name="edge-network-planning-tool-in-skype-for-business"></a>Red perimetral (herramienta de planeación) en Skype para la empresa 
+# <a name="edge-network-planning-tool-in-skype-for-business"></a>Red perimetral (herramienta de planificación) en Skype empresarial 
  
-La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique, los componentes forman parte de [los escenarios de servidor perimetral de Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) y se encuentran en la red perimetral. Los componentes perimetrales engloban los siguientes:
+La mayoría de los componentes perimetrales se implementan en una red perimetral. Los siguientes componentes conforman la topología perimetral de una red perimetral. Excepto donde se indique lo contrario, los componentes forman parte de los [escenarios de servidores perimetrales en Skype empresarial Server](../../../plan-your-deployment/edge-server-deployments/scenarios.md) y están en la red perimetral. Los componentes perimetrales engloban los siguientes:
   
 - Servidores perimetrales
     
@@ -37,6 +37,6 @@ La mayoría de los componentes perimetrales se implementan en una red perimetral
     
 ## <a name="see-also"></a>Vea también
 
-[Plan para las implementaciones de servidor perimetral de Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
+[Plan para implementaciones de servidores perimetrales en Skype empresarial Server](../../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md)
   
-[Requisitos del sistema del servidor de bordes en Skype para Business Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)
+[Requisitos del sistema del servidor perimetral en Skype empresarial Server](../../../plan-your-deployment/edge-server-deployments/system-requirements.md)

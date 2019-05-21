@@ -1,10 +1,10 @@
 ---
-title: Conexiones SIP directas en Skype para Business Server
+title: Conexiones SIP directas en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,155 +13,155 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
-description: Se admiten conexiones SIP directas entre Skype para Business Server y las puertas de enlace RTC y IP-PBX en Enterprise Voice.
-ms.openlocfilehash: 8d7533b77612f21ed36e7ee3334c484fc4edd04c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Se admiten conexiones SIP directas entre Skype empresarial Server y las puertas de enlace RTC y IP-PBX en telefonía IP empresarial.
+ms.openlocfilehash: d70fa72032b86251870ebaf623679dedc782fe24
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33924993"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276967"
 ---
-# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype para Business Server
+# <a name="direct-sip-connections-in-skype-for-business-server"></a>Conexiones SIP directas en Skype empresarial Server
 
-Se admiten conexiones SIP directas entre Skype para Business Server y las puertas de enlace RTC y IP-PBX en Enterprise Voice.
+Se admiten conexiones SIP directas entre Skype empresarial Server y las puertas de enlace RTC y IP-PBX en telefonía IP empresarial.
 
-Puede usar conexiones SIP directas para conectar Skype para Business Server a cualquiera de las siguientes opciones:
+Puede usar las conexiones SIP directas para conectar Skype empresarial Server a una de las siguientes opciones:
 
-- Un sistema IP-PBX
+- Un IP-PBX
 
-- Una puerta de enlace de RTC
+- Una puerta de enlace RTC
 
-Para implementar una conexión directa de SIP, siga esencialmente los mismos pasos de implementación tal y como lo haría para implementar un tronco SIP. En ambos casos, se implementa la conexión mediante el uso de la interfaz externa de un servidor de mediación. La única diferencia es que se conectan troncos SIP a una entidad externa, como una puerta de enlace de protocolo, y conectar conexiones SIP directas a una entidad interna dentro de su red local, como un sistema IP-PBX o una puerta de enlace de telefónica conmutada (RTC).
+Para implementar una conexión SIP directa, debe seguir esencialmente los mismos pasos de implementación que para implementar un tronco de SIP. En ambos casos, la conexión se implementa con la interfaz externa de un servidor de mediación. La única diferencia es que los troncos SIP se conectan a una entidad externa, como una puerta de enlace ITSP, y se conectan conexiones SIP directas a una entidad interna de su red local, como un IP-PBX o una puerta de enlace de red telefónica conmutada (RTC).
 
 ## <a name="direct-sip-deployment-options"></a>Opciones de implementación SIP directa
 
-### <a name="skype-for-business-server-stand-alone"></a>Skype para Business Server independiente
+### <a name="skype-for-business-server-stand-alone"></a>Skype empresarial Server independiente
 <a name="BKMK_CommunicationsServerStand-Alone"> </a>
 
-Si su organización utiliza una de las implementaciones descritas en esta sección, puede usar Skype para Business Server como la única solución de telefonía para parte o la totalidad de una organización. En esta sección se describe las siguientes implementaciones en detalle:
+Si su organización usa una de las implementaciones descritas en esta sección, puede usar Skype empresarial Server como la única solución de telefonía para una parte o la totalidad de una organización. En esta sección se describen las siguientes implementaciones en detalle:
 
-- **Implementación incremental:** Esta opción se da por supuesto que dispone de una infraestructura central de conmutación (PBX) de exchange y que piensa introducir Enterprise Voice de forma incremental a grupos más pequeños o equipos dentro de su organización.
+- **Implementación incremental:** Esta opción supone que tiene una infraestructura de intercambio privado existente (PBX) y tiene previsto presentar la telefonía IP en forma incremental para grupos más pequeños o equipos de su organización.
 
-- **Implementación de solo VoIP:** esta opción, se da por supuesto que se está planteando la implementación de Enterprise Voice en un sitio que no tiene una infraestructura de telefonía tradicional.
+- **Implementación de solo VoIP:** esta opción supone que está considerando implementar una telefonía IP empresarial en un sitio que no tiene una infraestructura de telefonía tradicional.
 
 #### <a name="incremental-deployment"></a>Implementación incremental
 
-En una implementación incremental, Skype para Business Server es la única solución de telefonía para equipos individuales o departamentos, mientras que el resto de los usuarios de una organización seguirán usando un sistema PBX. Esta estrategia de implementación incremental proporciona una manera de introducir la telefonía IP en la empresa a través de programas piloto controlados. Grupos de trabajo cuya comunicación necesidades se satisfacen mejor con comunicaciones unificadas de Microsoft se mueven a Enterprise Voice, mientras que los demás usuarios permanecen en el sistema PBX existente. Grupos de trabajo adicional se pueden migrar a Enterprise Voice, según sea necesario.
+En la implementación incremental, Skype empresarial Server es la única solución de telefonía para equipos individuales o departamentos, mientras que el resto de los usuarios de una organización continúa usando un sistema PBX. Esta estrategia de implementación incremental proporciona una forma de introducir la telefonía IP en su empresa a través de programas piloto controlados. Los grupos de trabajo cuyas comunicaciones unificadas de Microsoft se sirven mejor a las comunicaciones unificadas de Microsoft se mueven a telefonía IP empresarial, mientras que otros usuarios permanecen en el PBX existente. Se pueden migrar grupos de trabajo adicionales a la telefonía IP empresarial, según sea necesario.
 
-Si se han definido claramente a grupos de usuarios que han requisitos de comunicación en común y que se prestan a la administración centralizada, se recomienda la opción incremental. Esta opción también es eficaz si tiene equipos o departamentos que están dispersos por amplias áreas geográficas, donde el ahorro en los gastos de llamadas de larga distancia puede ser significativo. De hecho, esta opción es útil para crear equipos virtuales cuyos miembros pueden estar dispersos por todo el mundo. Puede crear, modificar o disolver estos equipos en una respuesta rápida a los requisitos empresariales.
+Se recomienda usar la opción incremental si tiene definidos claramente grupos de usuarios que tienen requisitos de comunicación en común y que se prestan a una administración centralizada. Esta opción también es eficaz si tiene equipos o departamentos que están dispersos en áreas geográficas amplias, donde el ahorro en los cargos de larga distancia puede ser significativo. De hecho, esta opción es útil para crear equipos virtuales cuyos miembros pueden estar dispersos por todo el mundo. Puede crear, modificar o desintegrar esos equipos con rapidez para desplazarse por los requisitos empresariales.
 
-En la siguiente figura se muestra la topología genérica para la implementación de Enterprise Voice detrás de un sistema PBX. Esto es la topología recomendada para la implementación incremental.
+La siguiente ilustración muestra la topología genérica para la implementación de telefonía IP empresarial detrás de un sistema PBX. Esta es la topología recomendada para una implementación incremental.
 
 **Opción de implementación incremental**
 
 ![Diagrama de opción de migración departamental](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Si va a conectar su Skype para la implementación de Business Server a un asociado certificado de SIP directo, no es necesario una puerta de enlace de telefónica conmutada (RTC) de red entre el servidor de mediación y el sistema PBX. Para obtener una lista de socios certificados SIP directo, consulte el [Microsoft Unified Communications Open Interoperability Program](https://go.microsoft.com/fwlink/p/?linkId=203309).
+> Si va a conectar su implementación de Skype empresarial Server a un socio certificado SIP certificado, una puerta de enlace de red telefónica conmutada (RTC) entre el servidor de mediación y la PBX no es necesaria. Para obtener una lista de socios de SIP directos certificados, consulte el programa de interoperabilidad [abierta de comunicaciones unificadas de Microsoft](https://go.microsoft.com/fwlink/p/?linkId=203309).
 
 > [!NOTE]
-> La ruta de acceso de medios que se muestra en esta ilustración tiene habilitado el desvío de medios (la configuración recomendada). Si decide para deshabilitar el desvío de medios, la ruta de acceso de medios se enruta a través del servidor de mediación.
+> La ruta multimedia que se muestra en esta figura tiene habilitada la omisión de medios (configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de medios se redirige a través del servidor de mediación.
 
-En esta topología, determinados departamentos o grupos de trabajo están habilitados para Enterprise Voice. Una puerta de enlace RTC vincula el de voz a través del protocolo de Internet (VoIP)-habilitado para el grupo de trabajo al sistema PBX. Los usuarios habilitados para Enterprise Voice, incluidos los usuarios remotos, comunican a través de la red IP. Las llamadas por usuarios de Enterprise Voice a la RTC y a los compañeros de trabajo que no están habilitados para Enterprise Voice se enrutan a la puerta de enlace de RTC adecuada. Las llamadas de compañeros que están todavía en el sistema PBX o de autores de llamadas en la RTC se enrutan a la puerta de enlace RTC, que reenvía las llamadas a Skype para Business Server para el enrutamiento.
+En esta topología, los departamentos o grupos de trabajo seleccionados están habilitados para telefonía IP empresarial. Una puerta de enlace RTC vincula el grupo de trabajo habilitado para el protocolo de voz a través de Internet (VoIP) a la PBX. Los usuarios que están habilitados para telefonía IP empresarial, incluidos los trabajadores remotos, se comunican a través de la red IP. Las llamadas de los usuarios de Voice empresarial a la RTC y a los compañeros de trabajo que no están habilitados para telefonía IP empresarial se enrutan a la puerta de enlace PSTN correspondiente. Las llamadas de colegas que aún están en el sistema PBX, o de las personas que llaman en la RTC, se enrutan a la puerta de enlace PSTN, que reenvía las llamadas a Skype empresarial Server para su enrutamiento.
 
-Existen dos configuraciones recomendadas para conectar Enterprise Voice con una infraestructura PBX existente para la interoperabilidad: Enterprise Voice detrás del sistema PBX y Enterprise Voice delante del sistema PBX.
+Hay dos configuraciones recomendadas para conectar telefonía IP empresarial a una infraestructura PBX existente para la interoperabilidad: telefonía IP empresarial detrás de la PBX y la voz de empresa delante de la PBX.
 
-#### <a name="enterprise-voice-behind-the-pbx"></a>Enterprise Voice detrás del PBX
+#### <a name="enterprise-voice-behind-the-pbx"></a>Telefonía IP empresarial detrás de la PBX
 
-Cuando se implementa Enterprise Voice detrás del PBX, todas las llamadas desde la RTC llegan a la PBX, que enruta las llamadas a los usuarios de Enterprise Voice a una puerta de enlace RTC y llama a los usuarios de PBX al sistema PBX.
+Cuando se implementa la telefonía IP empresarial tras la PBX, todas las llamadas de la RTC llegan a la PBX, que dirige las llamadas a los usuarios de telefonía de la empresa a una puerta de enlace RTC y llama a los usuarios de PBX a la PBX.
 
-#### <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise Voice delante del sistema PBX
+#### <a name="enterprise-voice-in-front-of-the-pbx"></a>Voz empresarial delante de la PBX
 
-Cuando se implementa Enterprise Voice delante del sistema PBX, todas las llamadas llegan a la puerta de enlace RTC, que enruta las llamadas para que los usuarios de Enterprise Voice Skype para Business Server y las llamadas para usuarios de PBX al sistema PBX. Las llamadas a la RTC procedentes de usuarios de Enterprise Voice y PBX se enrutan a través de la red IP a la puerta de enlace de RTC más rentable. La siguiente tabla muestran las ventajas y desventajas de esta configuración.
+Cuando se implementa la telefonía IP empresarial delante del sistema PBX, todas las llamadas llegan a la puerta de enlace PSTN, que dirige las llamadas de los usuarios de telefonía a Skype empresarial a Skype empresarial y les llama a los usuarios de PBX. Las llamadas a la RTC desde los usuarios de Enterprise Voice y PBX se dirigen a través de la red IP a la puerta de enlace RTC más económica. En la tabla siguiente se muestran las ventajas y desventajas de esta configuración.
 
-**Ventajas y desventajas de la implementación de Enterprise Voice delante de PBX**
+**Ventajas y desventajas de implementar voz empresarial en la parte delantera de PBX**
 
-|**Ventajas**|**Desventajas**|
+|**Ofrece**|**Desventajas**|
 |:-----|:-----|
-|PBX sigue dando servicio a los usuarios no habilitados para Enterprise Voice.  <br/> |Puertas de enlace existentes no es posible que admitan las características o la capacidad que desee.  <br/> |
-|PBX administra todos los dispositivos anteriores.  <br/> |Requiere un tronco de puerta de enlace al sistema PBX y de la puerta de enlace para el servidor de mediación. Es posible que deba más troncos del proveedor de servicios.  <br/> |
-|Los usuarios de Enterprise Voice mantienen los mismos números de teléfono.  <br/> | <br/> |
+|PBX aún da servicio a los usuarios que no tienen habilitada la telefonía IP empresarial.  <br/> |Es posible que las puertas de enlace existentes no admitan las características o la capacidad que usted desee.  <br/> |
+|PBX controla todos los dispositivos anteriores.  <br/> |Requiere un tronco desde la puerta de enlace a la PBX y desde la puerta de enlace hasta el servidor de mediación. Es posible que necesites más troncos del proveedor de servicios.  <br/> |
+|Los usuarios de voz empresarial conservan los mismos números de teléfono.  <br/> | <br/> |
 
-#### <a name="voip-only-deployment"></a>Implementación de solo VoIP
+#### <a name="voip-only-deployment"></a>Implementación solo con VoIP
 
-Enterprise Voice proporciona nuevas empresas y también nuevos sitios de office para las empresas existentes, con la oportunidad de implementar una solución de VoIP completas sin tener que preocuparse acerca de la integración de PBX o incurrir en la implementación sustancial y el mantenimiento costos de una infraestructura de IP-PBX. Esta solución admite los trabajadores locales y remotos.
+Enterprise Voice ofrece nuevas empresas y también nuevos sitios de Office para empresas existentes, con la oportunidad de implementar una solución VoIP completa sin tener que preocuparse por la integración de PBX o incurrir en la implementación y el mantenimiento importantes. costos de una infraestructura IP-PBX. Esta solución es compatible tanto con trabajadores remotos como en el sitio.
 
-En esta implementación, todas las llamadas se enrutan a través de la red IP. Las llamadas a la RTC se enrutan a la puerta de enlace de RTC adecuada. Skype para empresariales o de Lync Phone Edition actúa como un softphone. Control remoto de llamadas es innecesarios y no está disponible porque no hay ningún teléfonos PBX para que los usuarios de control. Correo de voz y servicios de operador automático están disponibles a través de la implementación opcional de Exchange mensajería unificada (UM).
+En esta implementación, todas las llamadas se enrutan a través de la red IP. Las llamadas a la RTC se enrutan a la puerta de enlace PSTN adecuada. Skype empresarial o Lync Phone Edition funciona como softphone. El control remoto de llamadas no está disponible e innecesario porque no hay teléfonos PBX para que los usuarios puedan controlarlo. Los servicios de correo de voz y de operador automático están disponibles a través de la implementación opcional de mensajería unificada de Exchange (UM).
 
 > [!NOTE]
-> Además de la infraestructura de red que se requiere para admitir Skype para Business Server, una implementación de solo VoIP puede usar una puerta de enlace pequeña y cualificada para admitir dispositivos analógicos y equipos de fax.
+> Además de la infraestructura de red necesaria para admitir Skype empresarial Server, una implementación de solo VoIP puede usar una pequeña y certificada puerta de enlace para admitir equipos de fax y dispositivos analógicos.
 
-La siguiente ilustración muestra una topología típica para una implementación de VoIP.
+En la siguiente ilustración se muestra una topología típica para una implementación de solo VoIP.
 
-**Opción de implementación de solo VoIP**
+**Opción de implementación solo de VoIP**
 
 ![Opción de implementación en entorno virgen](../../media/Fig29_Greenfield_deployment_option.jpg)
 
 > [!NOTE]
-> La ruta de acceso de medios que se muestra en esta ilustración tiene habilitado el desvío de medios (la configuración recomendada). Si decide para deshabilitar el desvío de medios, la ruta de acceso de medios se enruta a través del servidor de mediación.
+> La ruta multimedia que se muestra en esta figura tiene habilitada la omisión de medios (configuración recomendada). Si opta por deshabilitar la omisión de medios, la ruta de medios se redirige a través del servidor de mediación.
 
-## <a name="pstn-gateway-deployment-options"></a>Opciones de implementación de puerta de enlace RTC
+## <a name="pstn-gateway-deployment-options"></a>Opciones de implementación de la puerta de enlace RTC
 
 ### <a name="pstn-gateways"></a>Puertas de enlace RTC
 
-Puertas de enlace de telefónica conmutada (RTC) son componentes de hardware de otro fabricante que convierten la señalización y los medios entre la infraestructura de Enterprise Voice y la RTC, ya sea directamente o a través de la conexión de troncos SIP. En cualquier topología, la puerta de enlace finaliza la RTC. La puerta de enlace se aísla en su propia subred y está conectado a la red de la empresa a través del servidor de mediación.
+Las puertas de enlace de red de telefonía pública conmutada (RTC) son componentes de hardware de terceros que traducen las señales y los medios entre la infraestructura de telefonía IP empresarial y la RTC, ya sea directamente o a través de una conexión a los troncos SIP. En cualquiera de las dos topologías, la puerta de enlace finaliza la RTC. La puerta de enlace está aislada en su propia subred y está conectada a la red de la empresa a través del servidor de mediación.
 
-Una empresa con varios sitios normalmente sería implementar uno o más puertas de enlace en cada sitio. Sitios de sucursal pueden conectarse a la RTC a través de una puerta de enlace, o a través de una aplicación de sucursal con funciones de supervivencia, que combina la puerta de enlace y los servidores en un solo cuadro. Si los sitios de sucursal utilizan una puerta de enlace, un registrador y el servidor de mediación se requieren en el sitio, a menos que el vínculo WAN es resistente. Uno o varios servidores de mediación, que se instalan en servidores Front-End, puede enrutar las llamadas para las puertas de enlace de uno o más en cada sitio. Se recomienda que el registrador, el servidor de mediación y la puerta de enlace requerido en el sitio se implementan como una aplicación de sucursal con funciones de supervivencia.
+Una empresa con varios sitios normalmente implementaría una o más puertas de enlace en cada sitio. Los sitios de sucursales se pueden conectar a la RTC a través de una puerta de enlace o a través de un equipo de sucursales con la supervivencia, que combina puerta de enlace y servidores en un único cuadro. Si los sitios de sucursal usan una puerta de enlace, se necesita un registrador y un servidor de mediación en el sitio, a menos que el vínculo WAN sea resistente. Uno o varios servidores de mediación, que se colocan en servidores front-end, pueden enrutar las llamadas de una o más puertas de enlace en cada sitio. Recomendamos que el registrador, el servidor de mediación y la puerta de enlace necesaria en el sitio se implementen como un equipo de sucursal con la supervivencia.
 
-Determinar el número, el tamaño y la ubicación de las puertas de enlace RTC es, posiblemente, la decisión más importante y costosa que debe tomar al planear la infraestructura de Enterprise Voice.
+Determinar el número, el tamaño y la ubicación de las puertas de enlace RTC es quizás la decisión más importante y costosa que debe tomarse al planear la infraestructura de voz empresarial.
 
-Aquí están las principales cuestiones a tener en cuenta. Tenga en cuenta que las respuestas a estas preguntas dependen todo
+Estas son las principales preguntas que debe tener en cuenta. Tenga en cuenta que las respuestas a estas preguntas son totalmente interdependientes
 
-- ¿Cuántas puertas de enlace RTC se necesitan? La respuesta depende del número de usuarios, el número previsto de llamadas simultáneas (carga de tráfico) y el número de sitios (cada sitio necesita uno).
+- ¿Cuántas puertas de enlace RTC se necesitan? La respuesta depende del número de usuarios, el número anticipado de llamadas simultáneas (carga de tráfico) y el número de sitios (cada sitio necesita uno).
 
-- ¿Qué tamaño deben tener las puertas de enlace? La respuesta depende del número de usuarios en el sitio y de la carga de tráfico.
+- ¿Qué tamaño deberían tener las puertas de enlace? La respuesta depende del número de usuarios del sitio y de la carga de tráfico.
 
-- ¿Dónde deben colocarse las puertas de enlace? La respuesta depende en parte de la topología y en parte de la distribución geográfica de su organización.
+- ¿Dónde se deben ubicar los gateways? La respuesta depende en parte de la topología y en parte de la distribución geográfica de su organización.
 
-  También debería considerar la puerta de enlace opciones de topología (para obtener información detallada, vea topologías de puerta de enlace más adelante en este tema).
+  También debe tener en cuenta las opciones de topología de la puerta de enlace (para obtener información detallada, vea topologías de puertas de enlace más adelante en este tema).
 
 #### <a name="mn-trunk-support"></a>Compatibilidad con troncos M:N
 
-Los servidores de mediación puede enrutar las llamadas a través de varias puertas de enlace, controladores de borde de sesión (SBCs) proporcionadas por proveedores de servicios de telefonía de Internet, o una combinación de ambas. Además, varios servidores de mediación en el grupo de servidores puede interactuar con varias puertas de enlace. La ruta lógica definida entre un servidor de mediación y la puerta de enlace se denomina un tronco. Cuando un usuario interno realiza una llamada de RTC, la lógica de enrutamiento saliente en el grupo de servidores Front-End elige qué tronco a enrutar a través de fuera de todas las combinaciones posibles que pueden estar disponibles para el enrutamiento de esa llamada concreta. Con equilibrio de carga DNS, si se produce un error en una llamada llegar a una puerta de enlace debido a un problema con un determinado servidor de mediación del grupo de servidores, la llamada se volverá a un servidor de mediación alternativo en el grupo de servidores.
+Los servidores de mediación pueden enrutar las llamadas a través de varias puertas de enlace, controladores de borde de sesión (SBCs) proporcionados por proveedores de servicios de telefonía por Internet o una combinación de ambos. Además, varios servidores de mediación en el grupo pueden interactuar con varias puertas de enlace. La ruta lógica definida entre un servidor de mediación y la puerta de enlace se denomina troncal. Cuando un usuario interno realiza una llamada RTC, la lógica de enrutamiento de salida en el grupo de servidores front-end elige el tronco que se va a enrutar sobre todas las combinaciones posibles que pueden estar disponibles para enrutar esa llamada en particular. Con el equilibrio de carga de DNS, si una llamada no logra alcanzar una puerta de enlace debido a un problema con un servidor de mediación en particular en el grupo, la llamada se volverá a intentar con un servidor de mediación alternativo en el grupo.
 
-Para obtener información detallada sobre la planeación de varias puertas de enlace, vea [tronco m: n en Skype para Business Server](m-n-trunk.md).
+Para obtener más información sobre cómo planear varias puertas de enlace, consulte [M:N troncal en Skype empresarial Server](m-n-trunk.md).
 
-Para obtener más información sobre otras mejoras de enrutamiento saliente, consulte [Rutas de llamadas](https://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
+Para obtener más información sobre otras mejoras de enrutamiento saliente, vea [llamar a rutas](https://technet.microsoft.com/library/a2ddf327-2ec4-407b-af0f-276f2b13eefd.aspx).
 
 #### <a name="gateway-topologies"></a>Topologías de puerta de enlace
 
-Cuando tenga en cuenta las preguntas fundamentales de implementación de la puerta de enlace, siga estos pasos:
+Cuando considere las preguntas fundamentales de la implementación de puertas de enlace, siga estos pasos:
 
-1. Recuento de los sitios a la que desea proporcionar conectividad RTC mediante el uso de Enterprise Voice.
+1. Contar los sitios en los que desea proporcionar conectividad RTC mediante telefonía IP empresarial.
 
-2. Estimar el tráfico en cada sitio (número de usuarios) y el número promedio de llamadas por hora y por usuario.
+2. Estimar el tráfico de cada sitio (número de usuarios y número promedio de llamadas por hora por usuario).
 
-3. Implementar una o más puertas de enlace en cada sitio para administrar el tráfico previsto.
+3. Implemente una o más puertas de enlace en cada sitio para controlar el tráfico anticipado.
 
-Con esta topología, las llamadas entre los trabajadores en cada sitio y entre sitios se enrutan a través de la intranet. Las llamadas a la RTC se enrutan a través de la red IP de empresa a las puertas de enlace que son más cercano a la ubicación de los números de destino. Pero ¿qué ocurre si la organización admite docenas o cientos o incluso miles de sitios distribuidos en uno o varios continentes, como hacen muchas entidades financieras y otras empresas grandes? En estos casos, no es práctico implementar una puerta de enlace independiente en cada sitio.
+Con esta topología, las llamadas entre los trabajadores de cada sitio y entre sitios se enrutan a través de la intranet. Las llamadas a la RTC se enrutan a través de la red IP de la empresa a las puertas de enlace que están más cerca de la ubicación de los números de destino. Pero, ¿qué sucede si su organización admite decenas, cientos o incluso miles de sitios distribuidos en uno o más continentes, ya que muchas instituciones financieras y otras grandes empresas sí lo hacen? En estos casos, no es práctico implementar una puerta de enlace independiente en cada sitio.
 
-Para solucionar este problema, muchas compañías grandes prefieren implementar uno o varios sitios centrales de telefonía de gran tamaño.
+Para solucionar este problema, muchas de las grandes empresas prefieren implementar uno o varios sitios centrales de telefonía grandes.
 
-En esta topología, se implementan varias puertas de enlace grandes suficientes para dar cabida a la carga de usuarios prevista en cada sitio central. Todas las llamadas a los usuarios de la empresa se transfieren por el proveedor de servicios de teléfono de la compañía a un sitio central. Lógica de enrutamiento en el sitio central determina si se debe enrutar la llamada a través de la intranet o a la RTC.
+En esta topología, se implementan varias puertas de enlace grandes suficientes para dar cabida a la carga de usuarios prevista en cada sitio central. El proveedor de servicios telefónicos de la empresa reenvía todas las llamadas a los usuarios de la empresa a un sitio central. La lógica de enrutamiento en el sitio central determina si la llamada se debe enrutar a través de la intranet o de la RTC.
 
 #### <a name="gateway-location"></a>Ubicación de la puerta de enlace
 
-Ubicación de la puerta de enlace también puede determinar los tipos de puertas de enlace que elija y cómo están configurados. Hay docenas de protocolos RTC, ninguno de los cuales es un estándar mundial. Si todas las puertas de enlace se encuentran en un único país o región, este no es un problema, pero si encuentra las puertas de enlace en varios países o regiones, cada uno de ellos debe configurarse según los estándares de RTC de ese país o región. Además, las puertas de enlace certificadas para la operación en, por ejemplo, Canadá, pueden no estar certificadas en India, Brasil o la Unión Europea.
+La ubicación de la puerta de enlace también puede determinar los tipos de puertas de enlace que elija y cómo se configuran. Hay docenas de protocolos de RTC, ninguno de los cuales es un estándar de todo el mundo. Si todas las puertas de enlace están ubicadas en un solo país o región, esto no es un problema, pero si encuentra puertas de enlace en varios países o regiones, cada una de ellas debe estar configurada de acuerdo con los estándares de la RTC de ese país o región. Además, las puertas de enlace que están certificadas para funcionar, por ejemplo, Canadá, pueden no estar certificadas en India, Brasil ni la Unión Europea.
 
 #### <a name="gateway-size-and-number"></a>Número y tamaño de la puerta de enlace
 
-Las puertas de enlace RTC que la mayoría de las organizaciones consideren la implementación de intervalo de tamaño de 2 a los puertos de 960 como máximo. (Hay puertas de enlace incluso más grandes, pero las usan principalmente por proveedores de servicio de teléfono). La hora de valorar el número de puertos que necesita su organización, use las siguientes instrucciones:
+Las puertas de enlace RTC que la mayoría de las organizaciones considerará para implementar intervalos de 2 a tan sólo puertos de 960. (Hay incluso puertas de enlace más grandes, pero las usan principalmente los proveedores de servicios de telefonía). Al estimar el número de puertos que necesita su organización, siga estas pautas:
 
-- Las organizaciones con un uso de telefonía claro (una llamada de RTC por usuario por hora) deben asignar un puerto por cada 15 usuarios. Por ejemplo, si tiene 20 usuarios, se necesitará una puerta de enlace con dos puertos.
+- Las organizaciones con uso de telefonía leve (una llamada de RTC por usuario por hora) deben asignar un puerto por cada 15 usuarios. Por ejemplo, si tiene 20 usuarios, necesitará una puerta de enlace con dos puertos.
 
-- Las organizaciones con un uso de telefonía moderadas (dos llamadas de RTC por usuario por hora) deben asignar un puerto por cada 10 usuarios. Por ejemplo, si tiene 100 usuarios, se necesitará un total de 10 puertos repartidos entre una o más puertas de enlace.
+- Las organizaciones con uso moderado de telefonía (dos llamadas RTC por usuario por hora) deben asignar un puerto por cada 10 usuarios. Por ejemplo, si tiene 100 usuarios, necesitará un total de 10 puertos asignados entre una o más puertas de enlace.
 
-- Las organizaciones con un uso de telefonía intensa (tres o más llamadas de RTC por usuario por hora) deben asignar un puerto por cada cinco usuarios. Por ejemplo, si hay 47.000 usuarios, necesitará un total de 9.400 puertos repartidos entre al menos 10 puertas de enlace grandes.
+- Las organizaciones con uso intensivo de telefonía (tres o más llamadas RTC por usuario por hora) deben asignar un puerto por cada cinco usuarios. Por ejemplo, si tiene 47.000 usuarios, necesitará un total de 9.400 puertos asignados entre al menos 10 puertas de enlace grandes.
 
-- Como el número de usuarios o la cantidad de tráfico en su organización aumenta, se pueden adquirir puertos adicionales.
+- Se pueden adquirir puertos adicionales a medida que aumenta el número de usuarios o la cantidad de tráfico de la organización.
 
-Para cualquier número determinado de usuarios que debe admitir, tiene la opción de implementar puertas de enlace menos, más grandes o pequeños. Como regla general, se recomienda un mínimo de dos puertas de enlace para una organización para mantener la disponibilidad si se produce un error en una puerta de enlace.
+Para cualquier número de usuarios que deba admitir, tiene la opción de implementar menos puertas de enlace, más grandes o más pequeñas. Como regla, se recomienda usar un mínimo de dos puertas de enlace para una organización para mantener la disponibilidad si una de ellas falla.
 
-Cada puerta de enlace de RTC que implemente debe tener al menos un servidor de mediación correspondiente.
+Cada puerta de enlace RTC que implemente debe tener al menos un servidor de mediación correspondiente.
 
 

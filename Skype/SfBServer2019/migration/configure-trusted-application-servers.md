@@ -4,41 +4,41 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza, debe establecer el próximo salto para ser un Skype para el grupo de servidores de Business Server 2019. En un entorno mixto, el grupo heredado y el Skype para el grupo de servidores de Business Server 2019 aparecen en la lista desplegable. No se admite la selección del grupo heredado.
-ms.openlocfilehash: 79f4de527008d2d9bf295fcb82eee433d04a1691
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza, debe configurar el grupo de próximos saltos para que sea un grupo de servidores de Skype empresarial 2019. En un entorno mixto, tanto el grupo heredado como el grupo de servidores de Skype empresarial 2019 aparecen en la lista desplegable. No se puede seleccionar el grupo heredado.
+ms.openlocfilehash: b0dfb9ba1e4744ba3e0ea0c376f67a224e70376a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32238685"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289602"
 ---
 # <a name="configure-trusted-application-servers"></a>Configurar servidores de aplicaciones de confianza
 
-En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza, debe establecer el próximo salto para ser un Skype para el grupo de servidores de Business Server 2019. En un entorno mixto, el grupo heredado y el Skype para el grupo de servidores de Business Server 2019 aparecen en la lista desplegable. No se admite la selección del grupo heredado.
+En un entorno mixto, si crea un nuevo servidor de aplicaciones de confianza, debe configurar el grupo de próximos saltos para que sea un grupo de servidores de Skype empresarial 2019. En un entorno mixto, tanto el grupo heredado como el grupo de servidores de Skype empresarial 2019 aparecen en la lista desplegable. No se puede seleccionar el grupo heredado.
   
 > [!IMPORTANT]
-> Si va a migrar un servidor de aplicaciones de confianza, también deberá actualizar la versión de UCMA está utilizando. Si se crea un nuevo grupo de aplicaciones de confianza para Skype para Business Server 2019, deberá actualizar UCMA a la versión que se incluye con Skype para Business Server 2019 o la versión más reciente disponible. 
+> Si va a migrar un servidor de aplicaciones de confianza, también debe actualizar la versión de UCMA que está usando. Si crea un nuevo grupo de aplicaciones de confianza para Skype empresarial Server 2019, debe actualizar UCMA a la versión que se incluye con Skype empresarial Server 2019 o a la versión más reciente disponible. 
   
-### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Seleccione Skype para Business Server 2019 como próximo salto al crear un servidor de aplicaciones de confianza
+### <a name="select-skype-for-business-server-2019-as-next-hop-when-creating-a-trusted-application-server"></a>Seleccione Skype empresarial Server 2019 como próximo salto al crear un servidor de aplicaciones de confianza
 
-1. Abra el generador de topología.
+1. Abra el generador de topologías.
     
-2. En el panel izquierdo, haga clic en **servidores de aplicaciones de confianza** y haga clic en **Nuevo grupo de aplicaciones de confianza**.
+2. En el panel izquierdo, haga clic con el botón secundario en **servidores de aplicaciones de confianza** y haga clic en **nuevo grupo de aplicaciones de confianza**.
     
-3. Escriba el **FQDN del grupo de servidores** del grupo de aplicaciones de confianza y seleccione si será un único servidor o varios servidores. 
+3. Escriba el **FQDN del grupo** del grupo de aplicaciones de confianza y seleccione si será de servidor único o de varios servidores. 
     
 4. Haga clic en **Siguiente**.
     
-5. En la página **Seleccionar el próximo salto** , en la lista, seleccione el Skype para el grupo de servidores Front-End de Business Server 2019. 
+5. En la página **seleccionar el próximo salto** , en la lista, seleccione el grupo front-end de Skype empresarial Server 2019. 
     
 6. Haga clic en **Finalizar**.
     
-7. Seleccione el nodo superior **Skype para Business Server**y, en el menú **acción** , seleccione **Publicar**.
+7. Seleccione el nodo superior **de Skype empresarial Server**y, en el menú **acción** , seleccione **publicar**.
     
-    Compruebe que el **Grupo de aplicaciones de confianza** se ha creado correctamente y está asociado con el grupo de servidores Front-End correcto. 
+    Compruebe que el **grupo de aplicaciones de confianza** se haya creado correctamente y que esté asociado al grupo de servidores front-end correcto. 
     
 

@@ -12,37 +12,37 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: 'Obtener una lista de problemas conocidos al usar Microsoft como su proveedor de conferencia de acceso telefónico, el estado y algunas soluciones alternativas. '
-ms.openlocfilehash: 997cc5007df35b307cb714b891bc60764bd4a645
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Obtenga una lista de los problemas conocidos al usar Microsoft como su proveedor de conferencias de acceso telefónico local, su estado y algunas soluciones alternativas. '
+ms.openlocfilehash: 9b70cfcdeeb80be43cd0ecc99ca7eced71bb9319
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229188"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289587"
 ---
 # <a name="audio-conferencing-troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos de Audioconferencia
 
- **En este artículo está dirigido Skype para los usuarios empresariales mediante Microsoft como su proveedor de conferencias de audio. No se aplica a los clientes que están usando un proveedor de servicios de audioconferencia (ACP).**
+ **Este artículo está destinado a usuarios de Skype empresarial que usan Microsoft como proveedor de servicios de audioconferencia. No se aplica a los clientes que usan un proveedor de servicios de audioconferencia (ACP) de terceros.**
   
 ## <a name="troubleshooting-and-known-issues"></a>Solución de problemas y problemas conocidos
 
-Conferencias de audio que usa Microsoft como el proveedor de conferencias de audio tiene problemas actuales que se realiza un seguimiento son activamente investigarse y se resolverán potencialmente cuando la característica se actualiza en futuras versiones de Office 365.
+Las conferencias de audio que usan Microsoft como el proveedor de servicios de audioconferencia tiene problemas actuales que se están rastreando e investigan activamente y se pueden resolver cuando la característica se actualiza en versiones futuras de Office 365.
   
-Por ahora, use esta clase como una referencia para solucionar posibles problemas con la introducción de conferencias de Audio configurado y trabajo para las personas con Skype para la empresa en su organización.
+Por ahora, use esto como una referencia al solucionar posibles problemas con la configuración de las conferencias de audio y el trabajo para las personas que usan Skype empresarial en su organización.
 
 |**Problema**|**Comportamiento/síntomas**|**Solución conocida**|**Fecha de descubrimiento**|
 |:-----|:-----|:-----|:-----|
-|Notificaciones de entrada y salida se activan cuando se inicia una reunión, pero están desactivados breve tras que comience la reunión.  <br/> |De forma predeterminada, las notificaciones de entrada y salida están deshabilitadas para las reuniones donde los participantes unirse desde ambos Skype para aplicaciones empresariales y cuando se conectan a. Puede habilitar los anuncios en las **Opciones de reunión de Skype** en el Skype para la aplicación empresarial. Para una reunión donde todos los participantes llaman y se unen a la reunión, las notificaciones de entrada y salida están habilitadas de forma predeterminada ya que el registro de participantes no está disponible para ninguno de ellos. Cuando se ha iniciado una reunión con sólo los participantes en la entrada de llamada y se activará las notificaciones de salir, pero cuando un participante combinaciones mediante el uso de un Skype para la aplicación empresarial, las notificaciones estará desactivada. Cuando se establecen en desactivado, se pueden habilitar las notificaciones mediante **Las opciones de reunión de Skype** en el Skype para la aplicación empresarial. <br/> |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
-|Si un usuario aprovisiona la primera vez que se asigna una licencia E5, es posible que para el correo electrónico de bienvenida conferencias de Audio no entregar al usuario si no está habilitado el buzón de correo.  <br/> |En este caso, siempre puede volver a enviar la información de conferencia de audio del usuario mediante la **conferencia de Audio** en el Skype para el centro de administración de negocio o uso de PowerShell. Vea [Habilitar o deshabilitar el envío por correo electrónico cuando cambie la configuración de conferencias de Audio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Nota:** Con el fin de volver a enviar el PIN de conferencia de audio para el usuario, el PIN tiene que se restablezca. También puede realizarse mediante la **conferencia de Audio** en el Skype para el centro de administración de negocio o mediante el uso de PowerShell.          |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
-|Las llamadas de conferencia de audio podrían tardar hasta 24 horas para mostrar en los informes de uso.  <br/> |Ya estamos deseando para realizar mejoras en esta área en servicio futuras actualizaciones.  <br/> |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
-|Cuando un autor de la llamada se conecta a un puente de conferencia después de la reunión ha sido bloqueada por un Skype para usuarios de empresa, no hay una notificación en el Skype para la aplicación de negocio que dice que el usuario está esperando en la sala de espera.  <br/> |Esto se ha hecho deliberadamente, pero hemos recibido los comentarios para agregar esta función en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |30/8/2017  <br/> |
+|Las notificaciones de entrada y salida se activan cuando se inicia una reunión, pero se desactivan poco después de que se inicie la reunión.  <br/> |De forma predeterminada, las notificaciones de entrada y salida están deshabilitadas para las reuniones en las que los participantes se unen desde las aplicaciones de Skype empresarial y cuando llaman. Puede habilitar los anuncios en las opciones de **reunión de Skype** en la aplicación Skype empresarial. Para una reunión donde todos los participantes llaman y se unen a la reunión, las notificaciones de entrada y salida están habilitadas de forma predeterminada ya que el registro de participantes no está disponible para ninguno de ellos. Cuando se inicia una reunión y solo los participantes llaman, se activan las notificaciones de entrada y salida, pero cuando un participante se une mediante una aplicación de Skype empresarial, se desactivan las notificaciones. Cuando se desactivan, las notificaciones se pueden volver a habilitar con **las opciones de reunión de Skype** en la aplicación de Skype empresarial. <br/> |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
+|Si se aprovisiona un usuario la primera vez mediante la asignación de una licencia de E5, es posible que el correo electrónico de bienvenida a la audioconferencia no se entregue al usuario si el buzón no está habilitado.  <br/> |Si esto sucede, siempre puede volver a enviar la información de las conferencias de audio del usuario mediante **audioconferencia** en el centro de administración de Skype empresarial o mediante PowerShell. Consulte [habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración de las conferencias de audio](enable-or-disable-sending-emails-when-their-settings-change.md).  <br/> **Nota:** Para volver a enviar el PIN de audioconferencia al usuario, debe restablecer el PIN. Esto también se puede realizar mediante **audioconferencia** en el centro de administración de Skype empresarial o mediante PowerShell.          |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
+|Las llamadas de audioconferencia pueden demorar hasta 24 horas en mostrar los informes de uso.  <br/> |Esperamos realizar mejoras en esta área en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
+|Cuando una persona llama a un puente de conferencia después de que un usuario de Skype empresarial haya bloqueado la reunión, no se produce una notificación en la aplicación de Skype empresarial que indica que el usuario está en la sala de espera.  <br/> |Esto se ha hecho deliberadamente, pero hemos recibido los comentarios para agregar esta función en actualizaciones futuras del servicio.  <br/> |No hay ninguna solución.  <br/> |8/30/2017  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 

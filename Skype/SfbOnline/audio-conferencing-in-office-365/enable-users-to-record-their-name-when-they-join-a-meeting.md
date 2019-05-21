@@ -1,5 +1,5 @@
 ---
-title: Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Skype para profesionales en línea
+title: Permitir que los usuarios graben su nombre al unirse a una reunión en Skype empresarial online
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -12,22 +12,22 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Obtenga información sobre cómo habilitar o deshabilitar si los usuarios pueden registrar sus nombres unirse a una reunión en Skype para profesionales en línea.
-ms.openlocfilehash: 7b28a038edf9b812532283ecaa766b86e2bc8de8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Obtenga información sobre cómo habilitar o deshabilitar a los usuarios para que puedan grabar sus nombres cuando se unan a una reunión en Skype empresarial online.
+ms.openlocfilehash: d12d03c11340694673986733c73f46a3e7fccb1a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229305"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34290104"
 ---
-# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Habilitar a los usuarios registrar su nombre cuando se unan a una reunión en Skype para profesionales en línea
+# <a name="enable-users-to-record-their-name-when-they-join-a-meeting-in-skype-for-business-online"></a>Permitir que los usuarios graben su nombre al unirse a una reunión en Skype empresarial online
 
 > [!Note]
 > Si desea permitir a los usuarios registren sus nombres en Teams, consulte [Habilitar a los usuarios para registrar su nombre cuando se unen a una reunión en Microsoft Teams](/MicrosoftTeams/enable-users-to-record-their-name-when-they-join-a-meeting-in-teams).

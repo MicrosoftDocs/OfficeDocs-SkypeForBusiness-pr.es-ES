@@ -4,29 +4,29 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Antes de las distintas maneras en que puede mover usuarios entre grupos de servidores de aprendizaje, primero debemos determinar lo que los usuarios existen en el grupo heredado. En la imagen siguiente, la columna grupo de registrador identifica seis los usuarios que están configurados para el grupo de servidores heredado. Estos son los usuarios de prueba que se moverán a la Skype para el grupo de servidores de Business Server 2019.
-ms.openlocfilehash: 980c3c48e026f929e95fcd9f9784b7d2a534c6cc
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Antes de aprender las distintas formas de mover usuarios entre grupos, primero debemos determinar qué usuarios existen en el grupo heredado. En la imagen de abajo, la columna registrar grupo de servidores identifica seis usuarios que están configurados para el grupo heredado. Estos son los usuarios de prueba que pasaremos al grupo de servidores de Skype empresarial 2019.
+ms.openlocfilehash: b0694ce5d6091ae1f9c03db696fe3525c4b906f1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32231318"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280607"
 ---
 # <a name="view-current-users-in-legacy-pool"></a>Ver los usuarios actuales del grupo de servidores heredado
 
-Antes de conocer las distintas maneras en que puede mover usuarios entre grupos de servidores, primero debemos determinar qué usuarios existen en el grupo heredado. En la imagen siguiente, la columna **grupo de registrador** identifica seis los usuarios que están configurados para el grupo de servidores heredado. Estos son los usuarios de prueba que se moverán a la Skype para el grupo de servidores de Business Server 2019.
+Antes de aprender las distintas formas de mover usuarios entre grupos, primero debemos determinar qué usuarios existen en el grupo heredado. En la imagen de abajo, la columna **registrar grupo** de servidores identifica seis usuarios que están configurados para el grupo heredado. Estos son los usuarios de prueba que pasaremos al grupo de servidores de Skype empresarial 2019.
   
-### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>Para ver la lista de usuarios en el grupo de servidores heredado
+### <a name="to-see-the-list-of-users-in-the-legacy-pool"></a>Para ver la lista de usuarios de la agrupación heredada
 
-1. Inicie sesión en el antiguo servidor de Front-End con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o un miembro del rol administrativo CsAdministrator o CsUserAdministrator.
+1. Inicie sesión en el servidor front-end heredado con una cuenta que sea miembro del grupo RTCUniversalServerAdmins o de un miembro del rol administrativo CsAdministrator o CsUserAdministrator.
     
-2. Abra **Skype para el Panel de Control de servidor empresarial**.
+2. Abra el **Panel de control de Skype empresarial Server**.
     
-3. Haga clic en **usuarios**, haga clic en **Buscar**y, a continuación, haga clic en **Buscar**.
+3. Haga clic en **usuarios**, en **Buscar**y, a continuación, en **Buscar**.
 
   
 

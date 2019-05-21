@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -20,55 +20,55 @@ f1keywords:
 - ms.lync.lac.PortOrderAccountInfo
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre qué información de cuenta que necesitará cuando se trabaja con un asistente nuevo pedido de puerto número Local. '
-ms.openlocfilehash: 404bef2ad18728de90ac0a296c213e841719984b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Obtenga información sobre la información de la cuenta que necesitará al trabajar con un nuevo Asistente para la solicitud de portabilidad de número local. '
+ms.openlocfilehash: 4d1ac6831287281b5e9dfa691e09807d2887aaf4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229851"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280710"
 ---
 # <a name="port-order-account-information"></a>Información de cuenta para la portabilidad
 
-Cuando se usa la página de **información de la cuenta** en el Asistente para **Nuevo pedido de puerto número Local** para enviar un pedido de puerto, necesitará casi todos de la misma información que deberá proporcionar en el LOA, incluidos:
+Cuando usa la página información de la **cuenta** en el Asistente para **nueva solicitud de portabilidad de número local** para enviar una solicitud de portabilidad, necesitará casi toda la información que proporcionaría en la Loa, lo cual incluye:
   
-- Número de cuenta para el proveedor de servicios o un operador
+- Número de cuenta del proveedor de servicios u operador
     
 - Número de teléfono de facturación (BTN)
     
-- PIN - si es necesario por el proveedor de servicio actual o el operador
+- PIN: si es necesario para su proveedor de servicios u operador actual
     
 - Nombre de la compañía
     
     > [!NOTE]
-    > Solo aceptará 25 caracteres, incluidos los espacios. Si el nombre de la compañía es superior a 25 caracteres, los primeros 25 caracteres del nombre se enviarán y la solicitud de portabilidad se seguirá procesando. 
+    > Esto solo aceptará 25 caracteres, incluidos los espacios. Si el nombre de la compañía es superior a 25 caracteres, los primeros 25 caracteres del nombre se enviarán y la solicitud de portabilidad se seguirá procesando. 
   
 - Nombre del usuario que realiza la autorización
     
     > [!NOTE]
-    > Solo aceptará 15 caracteres, incluidos los espacios. Si el nombre de la persona que realiza la autorización es superior a 15 caracteres, los primeros 15 caracteres del nombre se enviarán y la solicitud de portabilidad se seguirá procesando. 
+    > Esto solo acepta 15 caracteres, incluidos los espacios. Si el nombre de la persona que realiza la autorización es superior a 15 caracteres, los primeros 15 caracteres del nombre se enviarán y la solicitud de portabilidad se seguirá procesando. 
   
 - Dirección de servicio
     
 - Ciudad, estado y código postal de la dirección de facturación
     
     > [!NOTE]
-    > No es necesario firma de la persona que realiza la autorización. 
+    > No necesitará la firma de la persona que autoriza. 
   
-Para realizar el envío de la orden de puerto fácil y evitar errores, asegúrese de que se haga lo siguiente:
+Para facilitar el envío de la solicitud de portabilidad y evitar errores, asegúrese de hacer lo siguiente:
   
-- Quitar todas las características (como grupos de extensiones) asociadas con los números. Asegúrese de que hay ninguna característica de control avanzada de llamadas, como extensiones de llamadas o timbre distintivo, habilitado en estos números de teléfono.
+- Quite todas las características (como los grupos de captura) asociadas a los números. Asegúrese de que no hay características avanzadas de control de llamadas, como la búsqueda de llamadas o las llamadas distintivas, habilitadas en estos números de teléfono.
     
-- Asegúrese de que no ha realizado ningún pedido de servicio nueva o se desconecta con su proveedor de servicio actual.
+- Asegúrese de que no ha realizado ninguna nueva orden de servicio o desconexión con su proveedor de servicios actual.
     
 - Compruebe que todos los números sean del mismo operador y de la misma cuenta.
     
-- Compruebe que la información de la cuenta que proporcione coincida exactamente con la información registrada por su operador de telefonía. Información que no coinciden es la causa de los errores más comunes y pueden retrasar su orden de puerto.
+- Compruebe que la información de la cuenta que proporcione coincida exactamente con la información registrada por su operador de telefonía. La información no coincidente es la causa más común de los errores y puede retrasar la solicitud de portabilidad.
     
 > [!CAUTION]
 > **No desconecte sus servicios con su proveedor de servicios u operador.**> **Tiene que mantener su servicio anterior activo para poder transferir sus números de teléfono a Skype Empresarial Online.**> **No bloquee su cuenta con su proveedor de servicios u operador. Si bloquea la cuenta, no podrá realizar el cambio de operadores en la cuenta. El usuario autorizado tendrá que enviar una solicitud al operador actual para eliminar el bloqueo. Este proceso puede tardar de una a tres semanas en completarse, según el operador.**> 
   
- **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+ **Para obtener instrucciones paso a paso, consulte [transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
  > [!NOTE]
 > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

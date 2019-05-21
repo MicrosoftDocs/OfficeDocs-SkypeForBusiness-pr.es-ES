@@ -1,41 +1,41 @@
 ---
-title: Informe de errores principales en Skype para Business Server
+title: Informe de errores principales en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
-description: 'Resumen: Información sobre el informe de errores principales en Skype para Business Server.'
-ms.openlocfilehash: 71a97c9d01e079f59df2658bb137b27794fcb1d7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de errores principales en Skype empresarial Server.'
+ms.openlocfilehash: a1b3337a65e3193324b30f5d83f6858ef996111a
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33915384"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279721"
 ---
-# <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype para Business Server
+# <a name="top-failures-report-in-skype-for-business-server"></a>Informe de errores principales en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de errores principales en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de errores principales en Skype empresarial Server.
   
 El Informe de errores principales proporciona una presentación de los errores más frecuentes y las tendencias en el tiempo. Los errores se basan en una combinación de las dos métricas siguientes:
   
 - **Id. de diagnóstico**. Identificador único (en forma de un encabezado de ms-diagnostics) que se adjunta a un mensaje SIP. Los Id. de diagnóstico proporcionan información útil para la solución de problemas relacionados con la llamada.
     
-- **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores más sólo incluye los códigos de respuesta que se han enviado en respuesta a un error de llamada; Skype para Business Server no realizar un seguimiento de todos los códigos de respuesta emitidos durante el transcurso de una llamada.
+- **Código de respuesta**. Los códigos de respuesta se usan en las sesiones de comunicación SIP para responder a solicitudes SIP. Por ejemplo, supongamos que Ken envía la solicitud INVITE a Pilar Ackerman (es decir, supongamos que Ken Myer llama Pilar Ackerman). Si Pilar responde, su teléfono le enviará el código de respuesta 200 (OK), indicando al teléfono de Ken que Pilar ha respondido. El informe de errores principales solo incluye códigos de respuesta que se enviaron en respuesta a un error de llamada. Skype empresarial Server no realiza un seguimiento de todos los códigos de respuesta emitidos durante el transcurso de una llamada.
     
 No solo se proporciona información de la cantidad total de sesiones donde se produjo un error, sino también de la cantidad total de usuarios a los que afectó el error.
   
 ## <a name="accessing-the-top-failures-report"></a>Acceso al Informe de errores principales
 
-Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica de sesiones notificado le llevará al [Informe de distribución de errores en Skype para Business Server](failure-distribution-report.md).
+Desde la página Informes supervisión se obtiene acceso al Informe de errores principales. Al hacer clic en la métrica de las sesiones notificadas, se abrirá el [Informe de distribución de errores en Skype empresarial Server](failure-distribution-report.md).
   
 ## <a name="making-the-best-use-of-the-top-failures-report"></a>Hacer el mejor uso del Informe de errores principales
 
-El Informe de errores principales es inusual en un sentido: le permite filtrar a la vez hasta 5 Id. de diagnóstico. (Normalmente sólo puede filtrar en un elemento - como la dirección SIP de un usuario - a la vez.) Para filtrar en varios identificadores de diagnósticos, simplemente escriba cada identificador en el cuadro de los identificadores de diagnóstico, separando los identificadores con comas. (Si desea, puede dejar un espacio en blanco después de cada coma). Por ejemplo:
+El Informe de errores principales es inusual en un sentido: le permite filtrar a la vez hasta 5 Id. de diagnóstico. (Normalmente solo puedes filtrar por un elemento, como la dirección SIP de un usuario, a la vez). Para filtrar por varios identificadores de diagnóstico, solo tiene que escribir cada identificador en el cuadro de identificación de diagnóstico, separándolos con comas. (Si lo desea, puede dejar un espacio en blanco después de cada coma). Por ejemplo:
   
 1011, 2412, 1033, 52116, 1008
   

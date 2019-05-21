@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 ms.appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -18,25 +18,25 @@ ROBOTS: NOIDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Setup
-description: 'Este resumen de Skype para la configuración de usuario y organización empresarial que le ayudarán a obtener más información acerca de la conectividad de mensajería instantánea pública, las invitaciones a reuniones, grabación de llamadas y las reuniones y mucho más.  '
-ms.openlocfilehash: df16f6893da94e456bc873a74c8e0a1639eda3db
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Este Resumen de la configuración de organización y usuarios de Skype empresarial puede ayudarle a obtener más información sobre la conectividad de mensajería instantánea pública, invitaciones a reuniones, grabaciones y reuniones, entre otras.  '
+ms.openlocfilehash: b039a97aea20fb4914deb077bd4aa76dbf13c1b3
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237252"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285098"
 ---
 # <a name="skype-for-business-online-settings-summary"></a>Resumen de configuración de Skype Empresarial Online
 
-El **Skype para el centro de administración de negocio** incluye la configuración para toda la organización y para los usuarios individuales. 
+El **centro de administración de Skype empresarial** incluye la configuración de toda la organización y de los usuarios individuales. 
   
 > [!NOTE]
->  Es posible que, en función de su ubicación, no tenga acceso a todas las características de Skype Empresarial Online. Para obtener información detallada, vea [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
+>  Es posible que, en función de su ubicación, no tenga acceso a todas las características de Skype Empresarial Online. Para obtener más información, consulte [restricciones de licencia para Office 365](https://go.microsoft.com/fwlink/?LinkId=529483). 
   
 ## <a name="skype-for-business-online-organization-settings"></a>Configuración de Skype Empresarial Online para una organización:
 <a name="__top"> </a>
 
-|**Configuración**|**Descripción**|**Valor predeterminado**|**Más información**|
+|**Al**|**Descripción**|**Valor predeterminado**|**Más información**|
 |:-----|:-----|:-----|:-----|
 |Federación de dominios  <br/> |Establecer comunicación con otras organizaciones que usan Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
 |Conectividad de mensajería instantánea pública  <br/> |Establecer comunicación con usuarios de Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Permitir que los usuarios se pongan en contacto con usuarios externos de Skype Empresarial](allow-users-to-contact-external-skype-for-business-users.md) <br/> |
@@ -47,12 +47,12 @@ El **Skype para el centro de administración de negocio** incluye la configuraci
 ## <a name="skype-for-business-online-user-settings"></a>Configuración de Skype Empresarial Online para un usuario:
 <a name="__toc314837470"> </a>
 
-|**Configuración**|**Descripción**|**Valor predeterminado**|**Aprende más**|
+|**Al**|**Descripción**|**Valor predeterminado**|**Aprende más**|
 |:-----|:-----|:-----|:-----|
 |Audio y vídeo  <br/> |Mantener conversaciones de audio y vídeo con Skype Empresarial Online.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Grabación  <br/> |Grabar llamadas y reuniones.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
 |Llamada a asistentes anónimos  <br/> |Permitir que los asistentes anónimos a una reunión de Skype Empresarial Online se conecten tras recibir una llamada del proveedor de servicios de audioconferencia.  <br/> |Habilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
-|Deshabilitar características de no archivado  <br/> | Desactiva las características que no se capturan cuando la organización ha configurado una [Agregar contenido a un caso y lugar orígenes en espera en el centro de exhibición de documentos electrónicos](https://go.microsoft.com/fwlink/?LinkId=529482) en el centro de administración de Exchange: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/>  Active esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/> |Deshabilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
+|Deshabilitar características de no archivado  <br/> | Desactiva las características que no se capturan cuando la organización ha configurado [agregar contenido a un caso y poner orígenes en espera en el centro de eDiscovery](https://go.microsoft.com/fwlink/?LinkId=529482) en el centro de administración de Exchange: <br/>  Transferencia de archivos por mensajería instantánea <br/>  Páginas de OneNote compartidas <br/>  Anotaciones de PowerPoint <br/>  Active esta opción si tiene la obligación legal de conservar la información almacenada por medios electrónicos. <br/> |Deshabilitado  <br/> |[Administradores: Configurar Skype Empresarial para usuarios individuales](configure-skype-for-business-settings-for-individual-users.md) <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Configurar Skype Empresarial Online](set-up-skype-for-business-online.md)

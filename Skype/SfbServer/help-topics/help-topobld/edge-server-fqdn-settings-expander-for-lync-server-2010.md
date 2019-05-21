@@ -5,7 +5,7 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
@@ -13,31 +13,31 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Para definir las propiedades en configuración externa, configure lo siguiente:'
-ms.openlocfilehash: 32ce06451d0cfe6aae5288ff4e6fdf32b7279724
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b833e89a8e1288af9a203dd5f44201c253ff2f9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33926834"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282603"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Expansor de configuración FQDN de servidor perimetral para Lync Server 2010
  
 Para definir las propiedades en **configuración externa**, configure lo siguiente:
   
-Seleccione el **de dirección IP y FQDN independiente de habilitar para la conferencia web y / V** casilla de verificación si desea definir distintos IP y FQDN del grupo de direcciones para conferencias web y audio/vídeo.
+Seleccione las casillas de verificación **Habilitar FQDN e dirección IP para las conferencias web y a/V** si desea definir distintas direcciones IP y FQDN de grupo para conferencias web y audio/vídeo.
   
 > [!NOTE]
-> Si opta por no active la casilla de verificación para separe las direcciones IP y FQDN, debe proporcionar los puertos distintos para cada uno de los tres servicios proporcionados por el servidor perimetral. El nombre de dominio completo sólo que consiste en configurar es el FQDN asociado con el servicio de servidor perimetral de acceso. 
+> Si decide no activar la casilla de verificación de direcciones FQDN e IP separadas, debe proporcionar puertos distintos para cada uno de los tres servicios proporcionados por el servidor perimetral. El único nombre de dominio completo que debe configurarse es el FQDN asociado con el servicio perimetral de acceso. 
   
-Seleccione el **A / servicio perimetral A/v está habilitado para NAT** casilla de verificación si desea que el / servicio perimetral A/v para usar una red dirección dirección IP de traducción (NAT) y la configuración.
+Active la casilla de verificación el **servicio de borde a/v es NAT habilitado** si quiere que el servicio perimetral a/v use una configuración y una dirección IP de traducción de direcciones de red (NAT).
   
-Para los Servicios perimetrales habilitados, se escribe un **FQDN del grupo de servidores** y un puerto en **puertos**
+Para los servicios perimetrales habilitados, escriba un **FQDN de grupo** y un puerto en **puertos**
   
-- Definir el FQDN del grupo de **servicio de servidor perimetral de acceso** y un puerto que identifica el servicio.
+- Defina el FQDN del grupo de **servicio perimetral de Access** y un puerto que identifique de forma única el servicio.
     
-- Definir el FQDN del grupo de servidores de **servicio perimetral de conferencia Web** (si habilitar separar el FQDN y la dirección IP para la conferencia web y / V no está seleccionada) y un puerto que identifica el servicio.
+- Defina el FQDN del grupo de **servicios perimetrales de conferencia web** (si habilitar la dirección IP y el FQDN separados para conferencias web, y a/V no está seleccionada) y un puerto que identifique de manera única el servicio.
     
-- Definir la **A / servicio perimetral A/v** FQDN del grupo de servidores (si habilitar separar el FQDN y la dirección IP para la conferencia web y / V no está seleccionada) y un puerto que identifica el servicio.
+- Defina el FQDN del grupo de **servicios perimetrales a/V** (si habilitar el FQDN y la dirección IP separados para las conferencias web y no se selecciona a/V) y un puerto que identifique de forma única el servicio.
     
   **Aceptar.** Se aceptan y confirman los cambios en el cuadro de diálogo.
   

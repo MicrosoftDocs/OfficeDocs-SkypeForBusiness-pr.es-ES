@@ -1,25 +1,25 @@
 ---
-title: Servidor calidad informe de tendencias medios en Skype para Business Server
+title: Informe de tendencias de calidad de Media Server en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Resumen: Información sobre el servidor multimedia calidad informe de tendencias en Skype para Business Server.'
-ms.openlocfilehash: 0b488f9014fd6526599beed562425677f097c4b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de tendencia de calidad de Media Server en Skype empresarial Server.'
+ms.openlocfilehash: 0ed819c40088c03ca1882ed035b416bf1427e840
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897733"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279833"
 ---
-# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Servidor calidad informe de tendencias medios en Skype para Business Server
+# <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Informe de tendencias de calidad de Media Server en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el servidor multimedia calidad informe de tendencias en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de tendencias de calidad de Media Server en Skype empresarial Server.
   
 El Informe de tendencias de calidad de medios de servidores permite comparar de forma gráfica hasta cinco servidores según diversas métricas de Calidad de la experiencia, como volumen de llamadas, porcentaje de llamadas deficientes, pérdida de paquetes y vibración. De este modo, resulta fácil llevar a cabo ciertas tareas, como identificar los servidores cuyo funcionamiento es deficiente, los que no se aprovechan bastante o los que se utilizan demasiado.
   
@@ -27,15 +27,15 @@ El Informe de tendencias de calidad de medios de servidores permite comparar de 
 
 Se puede obtener acceso al Informe de tendencias de calidad de medios de servidores desde uno de los siguientes informes:
   
-- [Informe de rendimiento del servidor en Skype para Business Server](server-performance.md) (haciendo clic en la métrica tendencia)
+- [Informe de rendimiento del servidor en Skype empresarial Server](server-performance.md) (al hacer clic en la métrica de tendencia)
     
-- [Llamar al informe de detalles de Skype para Business Server](call-detail-report.md) (si hace clic en la métrica del servidor perimetral de A/v. Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo).
+- [Informe de detalles de llamadas en Skype empresarial Server](call-detail-report.md) (haciendo clic en la métrica del servidor perimetral A/V. Si el autor o el destinatario de la llamada es un servidor, también puede obtener acceso al Informe de tendencias de calidad de medios de servidores haciendo clic en el nombre del extremo).
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Uso óptimo del Informe de tendencias de calidad de medios de servidores
 
-Al hacer clic en la métrica de tendencias en el [Informe de rendimiento del servidor en Skype para Business Server](server-performance.md) para un servidor específico, se abrirá el informe de tendencias de calidad de medios de servidor. Pero, solamente verá una instancia vacía de ese informe; el servidor que seleccionó en el Informe de rendimiento del servidor no se mostrará en pantalla. Por el contrario, tendrá que seleccionar ese servidor en la lista desplegable Servidores. Observe, también, que la lista desplegable Servidores contiene la opción Seleccionar todo. Esta opción no funciona si tiene más de 5 servidores; el Informe de tendencias de calidad de medios de servidores solo puede mostrar datos de 5 servidores al mismo tiempo, como máximo.
+Al hacer clic en la métrica de tendencia en el [Informe rendimiento del servidor de Skype empresarial Server](server-performance.md) para un servidor específico, se abrirá el informe tendencia de calidad de medios de servidor. Pero, solamente verá una instancia vacía de ese informe; el servidor que seleccionó en el Informe de rendimiento del servidor no se mostrará en pantalla. Por el contrario, tendrá que seleccionar ese servidor en la lista desplegable Servidores. Observe, también, que la lista desplegable Servidores contiene la opción Seleccionar todo. Esta opción no funciona si tiene más de 5 servidores; el Informe de tendencias de calidad de medios de servidores solo puede mostrar datos de 5 servidores al mismo tiempo, como máximo.
   
-En los gráficos que se muestra en el informe de tendencias de calidad de medios de servidor, los puntos de una etiqueta de volumen de llamadas y porcentaje de llamada deficiente son vínculos activos; al hacer clic en un punto en el gráfico se abrirá una instancia del [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) que muestra el número total de llamadas (o llamadas deficientes) para el período de tiempo especificado.
+En los gráficos que muestra el informe de tendencias de calidad de Media Server, se hotlinksn los puntos con la etiqueta llamada de volumen y bajo porcentaje de llamada. al hacer clic en un punto del gráfico, se abrirá una instancia del informe de la [lista de llamadas en Skype empresarial Server en](call-list-report-0.md) la que se muestran las llamadas totales (o llamadas deficientes) durante el período de tiempo especificado.
   
 ## <a name="filters"></a>Filtros
 
@@ -63,7 +63,7 @@ En la tabla siguiente se muestra la información que recoge el Informe de tenden
 |**Nombre.**|**¿Se pueden ordenar los datos por este elemento?**|**Descripción**|
 |:-----|:-----|:-----|
 |**Volumen de llamadas** <br/> |No  <br/> |Cantidad total de llamadas.  <br/> |
-|**Degradación (MOS)** <br/> |No  <br/> |Cantidad promedio de degradación de MOS (Media opción puntuación) experimentada durante una llamada. Los valores de degradación pueden oscilar entre una baja de 0,0 y una alta de 5.0; un valor de 0,5 o menos representa degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. Skype para Business Server usa un conjunto de algoritmos para predecir cómo los usuarios habría calificado una llamada.  <br/> Los valores elevados de degradación pueden ser producto de la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica, o la sobrecarga de un extremo o servidor multimedia. Una degradación elevada causa la distorsión o la pérdida del audio.  <br/> |
+|**Degradación (MOS)** <br/> |No  <br/> |Cantidad promedio de la degradación de OP (puntuación de opción media) experimentada durante una llamada. Los valores de degradación pueden oscilar entre un mínimo de 0,0 y un alto de 5,0. un valor de 0,5 o menos representa una degradación aceptable. Históricamente, las puntuaciones de opinión media se calculaban haciendo que los usuarios puntuaran la calidad de una llamada en una escala del 1 al 5. Skype empresarial Server usa un conjunto de algoritmos para predecir cómo los usuarios habrían calificado una llamada.  <br/> Los valores elevados de degradación pueden ser producto de la congestión, la falta de ancho de banda, la congestión o las interferencias en una conexión inalámbrica, o la sobrecarga de un extremo o servidor multimedia. Una degradación elevada causa la distorsión o la pérdida del audio.  <br/> |
 |**Porcentaje de llamadas deficientes** <br/> |No  <br/> |Cantidad total de llamadas clasificadas como deficientes. Una llamada deficiente es aquella en la que al menos uno de los valores medidos supera el valor permitido (por ejemplo, una llamada con un exceso de vibraciones).  <br/> |
 |**Recorrido de ida y vuelta (ms)** <br/> |No  <br/> |Tiempo medio (en milisegundos) necesario para que un paquete de Protocolo de transporte en tiempo real (RTP) llegue a un extremo y vuelva. Los tiempos de ida y vuelta de 200 milisegundos o menos se consideran de calidad aceptable.  <br/> Los valores elevados en los tiempos del recorrido de ida y vuelta pueden deberse a que se trata de enrutamientos de llamadas internacionales, una configuración incorrecta del enrutamiento o a la sobrecarga en el servidor de medios y causan dificultades en las conversaciones de audio en tiempo real bidireccionales.  <br/> |
 |**Pérdida de paquetes** <br/> |No  <br/> |Tasa media de pérdida de paquetes RTP (se habla de pérdida de paquetes cuando los paquetes RTP, un protocolo utilizado para transmitir audio y vídeo a través de Internet, no llegan a su destino). Una tasa alta de pérdida se suele deber a la congestión, falta de ancho de banda, congestión o interferencias en una conexión inalámbrica o la sobrecarga de un servidor de medios. Generalmente, la pérdida de paquetes da lugar a la pérdida o la distorsión del audio.  <br/> |

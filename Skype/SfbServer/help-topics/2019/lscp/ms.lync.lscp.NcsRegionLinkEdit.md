@@ -1,10 +1,10 @@
 ---
-title: Configurar un vínculo de región de red crear nuevos o editar los existentes
+title: Configurar un vínculo región de red crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.NcsRegionLinkEdit
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: 4c4225d4-3a51-4f54-a6cb-c262e07c51fd
 ROBOTS: NOINDEX, NOFOLLOW
 description: ¿Qué desea hacer? haga clic en el enlace de la tarea que desee llevar a cabo.
-ms.openlocfilehash: f6eaa2b897ad0c280788ec8f6b4607fa29d0bb0b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ae0c17c84b479f50dd205f5df4d7b6d902a359c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33891127"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278951"
 ---
 # <a name="configure-a-network-region-link-create-new-or-edit-existing"></a>Configurar un vínculo de región de red: Crear nuevos o editar los existentes
 

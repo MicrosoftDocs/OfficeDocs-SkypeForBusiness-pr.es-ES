@@ -12,7 +12,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Egipto los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: 2634f879b3d03c454e024e3bafe443b25e9bf417
-ms.sourcegitcommit: 70d4d02a3cc894f2f197aeea459ac079cde63877
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Egipto.
+ms.openlocfilehash: ecec2b9323806113ec6bf314b91a771cbae36e93
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "30542874"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283037"
 ---
 # <a name="availability-in-egypt"></a>Disponibilidad en Egipto
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Egipto los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Egipto.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 

@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.EdgeSettingsExpander
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dispone de las siguientes secciones para editar la configuración de un servidor perimetral o un grupo de servidores perimetrales existente:'
-ms.openlocfilehash: 769633001beba3f4f982507155c788b8dd4896b7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02ee1db9019e6a12b9c166cbb766e8a90ac55da2
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910759"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281237"
 ---
 # <a name="edge-settings-expander"></a>Expansor de configuración perimetral
 
@@ -35,13 +35,13 @@ Dispone de las siguientes secciones para editar la configuración de un servidor
 
 Nombre de dominio completo (FQDN) de grupo interno del grupo de servidores perimetrales. Edite el FQDN del grupo de servidores para cambiar este parámetro.
 
-Seleccione la casilla de verificación **Habilitar la federación para este grupo de servidores perimetrales (puerto 5061)** si va a configurar la federación con un Skype para server Business Server 2015.
+Active la casilla **Habilitar la Federación de este grupo perimetral (puerto 5061)** si va a configurar la Federación con un servidor de Skype empresarial Server 2015.
 
 Indique el número de puerto del **Puerto interno de replicación de configuración (HTTPS)**.
 
 ## <a name="next-hop-selection-settings"></a>Configuración de la selección de próximo salto
 
-Para definir o modificar el **Grupo de servidores del próximo salto** que van a usar los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista desplegable. Sólo los directores o servidores front-end que se han configurado en el generador de topología aparecerán para la selección.
+Para definir o modificar el **Grupo de servidores del próximo salto** que van a usar los servidores perimetrales para comunicarse con la infraestructura interna, seleccione un director, un grupo de directores, un servidor front-end o un grupo de servidores front-end de la lista desplegable. Solo los directores o los clientes front-end que se hayan configurado en el generador de topología aparecerán para la selección.
 
 ## <a name="edge-server-configuration"></a>Configuración del servidor perimetral
 

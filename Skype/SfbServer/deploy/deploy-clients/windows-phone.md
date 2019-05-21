@@ -4,63 +4,63 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
-description: 'Resumen: Obtenga información sobre cómo instalar y probar Skype para la empresa en su Windows Phone.'
-ms.openlocfilehash: c6aead462e0f968cae33d5e59b6265c275c888ea
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a instalar y probar Skype empresarial en Windows Phone.'
+ms.openlocfilehash: 2796f1664ec20142bd8f9399830836c8c284ac67
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895029"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278287"
 ---
 # <a name="install-and-test-skype-for-business-for-windows-phone"></a>Install and test Skype for Business for Windows Phone
  
-**Resumen:** Obtenga información sobre cómo instalar y probar Skype para la empresa en su Windows Phone.
+**Resumen:** Obtenga información sobre cómo instalar y probar Skype empresarial en su Windows Phone.
   
-El Skype para la aplicación empresarial para Windows Phone aporta Skype para profesionales presencia, mensajería instantánea (IM) y voz y vídeo de llamada para dispositivos móviles de Windows. Los usuarios con Lync 2013 obtendrán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, en función de la configuración de usuario. Nuevos usuarios pueden descargarlo desde el [Marketplace de Windows Phone](https://go.microsoft.com/fwlink/p/?linkid=231901). El Skype para la aplicación empresarial para Windows Phone sólo está disponible en Windows Phone 8.1 y versiones posteriores.
+La aplicación de Skype empresarial para Windows Phone proporciona la presencia, la mensajería instantánea (mi) y las llamadas de voz y vídeo de Skype empresarial a dispositivos Windows Mobile. Los usuarios con Lync 2013 obtendrán la aplicación actualizada automáticamente o se les pedirá que la actualicen manualmente, en función de la configuración de usuario. Los nuevos usuarios pueden descargarla desde el [Marketplace de Windows Phone](https://go.microsoft.com/fwlink/p/?linkid=231901). La aplicación de Skype empresarial para Windows Phone solo está disponible en Windows Phone 8,1 y versiones posteriores.
   
-Antes de dirigir a los usuarios de la organización para descargar la aplicación, desea ejecutar las siguientes pruebas para asegurarse de que se integra correctamente en su entorno. 
+Antes de dirigir a los usuarios de su organización a descargar la aplicación, deseará ejecutar las siguientes pruebas para asegurarse de que está integrada correctamente en su entorno. 
   
-## <a name="install-skype-for-business-windows-phone-81"></a>Instalar Skype para profesionales de Windows Phone 8.1
+## <a name="install-skype-for-business-windows-phone-81"></a>Instalar Skype empresarial Windows Phone 8,1
 
-1. Vaya a [Windows Phone 8 actualizar central](https://www.windowsphone.com/en-us/how-to/wp8/update-central) para actualizar el teléfono para Windows Phone 8.1.
+1. Vaya a [Windows Phone 8 update central](https://www.windowsphone.com/en-us/how-to/wp8/update-central) para actualizar el teléfono a windows phone 8,1.
     
-2. Desde el teléfono, vaya a la **tienda**y buscar **Skype para la empresa**.
+2. Desde el teléfono, vaya a la **tienda**y busque **Skype empresarial**.
     
 3. Toque **Instalar**. 
     
 ## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Iniciar sesión en Skype Empresarial por primera vez
 
-1. En la pantalla de **Inicio** , haga pasar el dedo izquierda para ver las aplicaciones instaladas, buscar Skype para empresarial para Windows Phone y, a continuación, puntee en el icono para abrir la aplicación.
+1. En la pantalla **Inicio** , deslice el dedo hacia la izquierda para ver las aplicaciones instaladas, busque Skype empresarial para Windows Phone y, a continuación, pulse el icono para abrir la aplicación.
     
-2. Escriba su dirección de inicio de sesión (por ejemplo, user@domain.com) y la contraseña y, a continuación, puntee en **Listo**.
+2. Escriba su dirección de inicio de sesión (por ejemplo, user@domain.com) y la contraseña y, a continuación, pulse **hecho**.
     
-     Es posible que deba proporcionar un nombre de usuario y una dirección de inicio de sesión. El nombre de usuario es lo que se utiliza para iniciar sesión en la red de su organización, ya sea user@domain.com o dominio\nombre de usuario.
+     Es posible que deba proporcionar un nombre de usuario y una dirección de inicio de sesión. El nombre de usuario es lo que usted usa para iniciar sesión en la red de su organización, ya sea user@domain.com o dominio\nombredeusuario.
     
 3. En la pantalla **Programa para la mejora de la experiencia del usuario**, toque **Unirse** para enviar datos anónimos sobre los problemas con la aplicación y su uso a Microsoft o bien **No, gracias** si prefiere no participar.
     
-4. En la pantalla **No se pierda nunca sus llamadas del trabajo**, introduzca su número de teléfono móvil con los códigos de país o región. Cuando Skype para empresarial para Windows Phone no puede usar una red de conexión de datos o Wi-Fi para realizar una llamada de audio o vídeo, podrá ser automáticamente la llamada a este número y conectado a la parte de audio de la llamada.
+4. En la pantalla **No se pierda nunca sus llamadas del trabajo**, introduzca su número de teléfono móvil con los códigos de país o región. Cuando Skype empresarial para Windows Phone no pueda usar una red Wi-Fi o de datos móviles para realizar una llamada de audio o vídeo, se le llamará automáticamente a este número y se conectará a la parte de audio de la llamada.
     
-5. Puntee en **siguiente** y revise la notificación y la configuración de acceso de la libreta de teléfonos:
+5. Pulse **siguiente** y revise la notificación y la configuración de acceso de la agenda telefónica:
     
-   - **Notificaciones de inserción** Cuando reciba una llamada o un nuevo mensaje instantáneo, recibirá una alerta. Normalmente **Activado** (recomendado).
+   - **Notificaciones push** Recibe una alerta cuando recibas un nuevo mensaje instantáneo o una llamada. Normalmente **Activado** (recomendado).
     
      > [!IMPORTANT]
-     > Si activa esta opción desactivada, que no se le notifique de mensajes instantáneos, las llamadas u otro Skype para alertas de negocio para Windows Phone a menos que la aplicación está activa. 
+     > Si desactiva esta configuración, no recibirá notificaciones de mensajes instantáneos, llamadas u otras alertas de Skype empresarial para Windows Phone, a menos que la aplicación esté activa. 
   
-   - **Permitir el acceso de libreta de teléfonos** Buscar contactos en el teléfono móvil al buscar contactos en Skype para profesionales de Windows Phone.
+   - **Permitir acceso a la libreta de teléfonos** Busque contactos en su teléfono móvil cuando busque contactos en Skype empresarial para Windows Phone.
     
-6. Puntee en **siguiente** para comenzar a usar Skype para profesionales de Windows Phone.
+6. Pulse **siguiente** para empezar a usar Skype empresarial para Windows Phone.
     
     [¿Necesita ayuda para iniciar sesión?](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
 ## <a name="verify-mobile-client-installation"></a>Comprobar la instalación del cliente móvil
 
-Después de configurar al cliente e iniciar sesión correctamente, use las siguientes pruebas para comprobar que la instalación de Skype para empresarial para Windows Phone funciona correctamente en su dispositivo móvil.
+Después de configurar el cliente e iniciar sesión correctamente, use las siguientes pruebas para comprobar que la instalación de Skype empresarial para Windows Phone funciona correctamente en su dispositivo móvil.
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Buscar un contacto en el directorio corporativo
 
@@ -74,13 +74,13 @@ Después de configurar al cliente e iniciar sesión correctamente, use las sigui
 
 1. En la lista de contactos, pulse un contacto.
     
-2. En la tarjeta de contacto, puntee en la mensajería instantánea (mi) ![Icono para la mensajería instantánea en Skype Empresarial](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icono.
+2. En la tarjeta de contacto, pulse la mensajería instantánea (mi) ![Icono para la mensajería instantánea en Skype Empresarial](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)icono.
     
 3. Compruebe que aparece una ventana de mensajería instantánea y que puede escribir y enviar un mensaje.
     
 ### <a name="test-dial-out-conferencing"></a>Probar la conferencia saliente
 
-1. En Outlook, programe una Skype para la reunión de negocios.
+1. En Outlook, programe una reunión de Skype empresarial.
     
 2. En su Windows Phone, abra la invitación de la reunión.
     
@@ -92,23 +92,23 @@ Después de configurar al cliente e iniciar sesión correctamente, use las sigui
 
 1. Seleccione dos cuentas de usuario diferentes para esta prueba. 
     
-2. En del usuario de Windows Phone, inicie sesión en Skype para empresarial para Windows Phone con la cuenta del usuario.
+2. En el Windows Phone del usuario A, inicie sesión en Skype empresarial para Windows Phone con la cuenta del usuario A.
     
 3. Abra otra aplicación en el dispositivo.
     
-4. En un cliente distinto, como el cliente de escritorio, inicie sesión en Skype para la empresa con la cuenta del usuario B.
+4. En un cliente diferente, como el cliente de escritorio, inicie sesión en Skype empresarial con la cuenta del usuario B.
     
 5. Envíe un mensaje instantáneo del usuario B al usuario A.
     
-6. Compruebe que la notificación de mensajería instantánea aparece en el dispositivo móvil del usuario.
+6. Compruebe que la notificación de mi aparece en el dispositivo móvil del usuario A.
     
-## <a name="remove-skype-for-business-from-your-windows-phone"></a>Quitar Skype para la empresa de su Windows Phone
+## <a name="remove-skype-for-business-from-your-windows-phone"></a>Quitar Skype empresarial de Windows Phone
 
-Para quitar el Skype para la aplicación empresarial para Windows Phone desde su dispositivo móvil: 
+Para quitar la aplicación de Skype empresarial para Windows Phone de su dispositivo móvil: 
   
 1. En la pantalla de inicio, pase el dedo para ver la lista de aplicaciones. 
     
-2. Puntee y mantenga el Skype para aplicaciones de negocio para Windows Phone y, a continuación, seleccione **desinstalar**.
+2. Puntee y mantenga presionada la aplicación de Skype empresarial para Windows Phone y ****, a continuación, seleccione Desinstalar.
     
 
 

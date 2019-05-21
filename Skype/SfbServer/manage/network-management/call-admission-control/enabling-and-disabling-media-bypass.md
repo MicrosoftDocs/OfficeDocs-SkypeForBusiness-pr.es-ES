@@ -1,80 +1,80 @@
 ---
-title: Habilitar y deshabilitar el desvío de medios
+title: Habilitar y deshabilitar la omisión de medios
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Use los procedimientos de este artículo para habilitar o deshabilitar el desvío de medios mediante el uso de la Skype para el Panel de Control de servidor empresarial.
-ms.openlocfilehash: 57d0c601775861d948c950db4b429aca4d988da7
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios con el panel de control de Skype empresarial Server.
+ms.openlocfilehash: acfa963e71f3c3b89d0e79648d00871b1ab44616
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888439"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279588"
 ---
 # <a name="enabling-and-disabling-media-bypass-in-skype-for-business-server"></a>Habilitar y deshabilitar la omisión de medios en Skype Empresarial Server
 
-Use los procedimientos de este artículo para habilitar o deshabilitar el desvío de medios mediante el uso de la Skype para el Panel de Control de servidor empresarial.
+Use los procedimientos de este artículo para habilitar o deshabilitar la omisión de medios con el panel de control de Skype empresarial Server.
 
-## <a name="enable-network-media-bypass"></a>Habilitar desvío de medios de red 
+## <a name="enable-network-media-bypass"></a>Habilitar omisión de medios de red 
 
-Configuración de desvío de medios se aplica globalmente a través de un Skype para la implementación de Business Server. Desvío de medios permite que las llamadas a omitir el servidor de mediación. Para obtener más información acerca de cuándo se deben usar desvío de medios, vea [Plan para los medios de desvío](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
+La configuración de omisión de medios se aplica globalmente en una implementación de Skype empresarial Server. La omisión de medios permite que las llamadas omitan el servidor de mediación. Para obtener información sobre Cuándo usar la omisión de elementos multimedia, consulte [planear la omisión de medios](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md).
 
-Puede habilitar y configurar el desvío de medios desde el Skype para el Panel de Control de servidor empresarial.
+Puede habilitar y configurar la omisión de medios desde el panel de control de Skype empresarial Server.
 
 
-### <a name="to-enable-and-configure-media-bypass"></a>Para habilitar y configurar el desvío de medios
+### <a name="to-enable-and-configure-media-bypass"></a>Para habilitar y configurar la omisión de medios
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red**y, a continuación, haga clic en **Global**.
+3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, a continuación, en **global**.
 
-4.  En la página **Global** , haga clic en la configuración **Global** . Siempre hay sólo una configuración, y siempre se denomina Global.
+4.  En la página **global** , haga clic en la configuración **global** . Siempre hay una sola configuración y siempre se denomina global.
 
-5.  En el menú **Edición** , haga clic en **Ver detalles**.
+5.  En el menú **Editar** , haga clic en **Ver detalles**.
 
-6.  En la página **Editar configuración Global** , haga clic en la casilla de verificación **Habilitar el desvío de medios** .
+6.  En la página **Editar configuración global** , haga clic en la casilla de verificación **Habilitar omisión de medios** .
 
 7.  Seleccione una de las siguientes opciones:
     
-      - **Omitir siempre**   Seleccione esta opción para intentar medios desvío en todas las llamadas. Esta opción no estará disponible si está habilitado el control de admisión de llamadas (CAC). Si no está habilitado el CAC, seleccione esta opción en las siguientes situaciones:
+      - **Omitir siempre seleccione**   esta opción para intentar la omisión de medios en todas las llamadas. Esta opción no estará disponible si el control de admisión de llamada (CAC) está habilitado. Si CAC no está habilitado, seleccione esta opción en las siguientes situaciones:
         
-          - No es necesario para el control del ancho de banda.
+          - No es necesario el control del ancho de banda.
         
-          - No es necesario para una configuración específica para determinar cuándo debe producirse el desvío.
+          - No es necesario que la configuración específica determine Cuándo debe pasar el bypass.
         
-          - Existe plena conectividad entre las puertas de enlace y los clientes.
+          - Hay conectividad completa entre las puertas de enlace y los clientes.
     
-      - **Usar los sitios y configuración de la región**   CAC si está habilitado, esta opción está seleccionada de manera predeterminada y no se puede cambiar. Cuando se selecciona esta opción, se usará para determinar cuándo es posible desvío de medios regiones y sitios de la configuración de red. Si selecciona esta opción, puede elegir habilitar el desvío para sitios que no están asignados. Haga clic en la casilla de verificación **Habilitar el desvío para sitios sin asignar** sólo si tiene uno o más grandes sitios asociados con la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de sucursal asociadas con la misma región que tienen restricciones de ancho de banda. Cuando se habilita el desvío para sitios sin asignar, configuración se simplifica porque especificar sólo las subredes asociadas con los sitios de sucursal, en lugar de tener que especificar todas las subredes asociadas con todos los sitios. Se recomienda que no active la casilla de verificación **Habilitar el desvío para sitios sin asignar** si está habilitado el CAC.
+      - **Usar la configuración**   de sitios y regiones si CAC está habilitado, esta opción está seleccionada de forma predeterminada y no se puede cambiar. Cuando esta opción está seleccionada, se usarán regiones y sitios de configuración de red para determinar cuándo es posible la omisión de medios. Si selecciona esta opción, puede habilitar el omisión de sitios que no están asignados. Haga clic en la casilla **de verificación Habilitar el omisión de sitios no asignados** solo si tiene uno o varios sitios grandes asociados a la misma región que no tienen restricciones de ancho de banda (por ejemplo, un sitio central grande) y también tiene algunos sitios de rama asociados con el la misma región que tiene restricciones de ancho de banda. Cuando habilita el bypass para sitios no asignados, la configuración se simplifica porque especifica solo las subredes asociadas a las sucursales en lugar de tener que especificar todas las subredes asociadas a todos los sitios. Le recomendamos que no active la casilla **Habilitar omisión para sitios no asignados** si CAC está habilitado.
 
-8.  Haga clic en **Confirmar** para guardar los cambios.
-
-
-## <a name="disable-network-media-bypass"></a>Deshabilitar el desvío de medios de red
-
-Configuración de desvío de medios se aplica globalmente a través de un Skype para la implementación de Business Server. Desvío de medios permite que las llamadas a omitir el servidor de mediación. Para obtener más información acerca de cuándo se deben usar desvío de medios, vea [Plan para los medios de desvío](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Puede deshabilitar el desvío de medios desde el Skype para el Panel de Control de servidor empresarial. 
+8.  Haga clic en **confirmar** para guardar los cambios.
 
 
-### <a name="to-disable-media-bypass"></a>Para deshabilitar el desvío de medios
+## <a name="disable-network-media-bypass"></a>Deshabilitar omisión de medios de red
+
+La configuración de omisión de medios se aplica globalmente en una implementación de Skype empresarial Server. La omisión de medios permite que las llamadas omitan el servidor de mediación. Para obtener información sobre Cuándo usar la omisión de elementos multimedia, consulte [planear la omisión de medios](../../../plan-your-deployment/enterprise-voice-solution/media-bypass.md). Puede deshabilitar la omisión de medios desde el panel de control de Skype empresarial Server. 
+
+
+### <a name="to-disable-media-bypass"></a>Para deshabilitar la omisión de medios
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
 
-3.  En la barra de navegación izquierda, haga clic en **Configuración de red**y, a continuación, haga clic en **Global**.
+3.  En la barra de navegación izquierda, haga clic en **configuración de red**y, a continuación, en **global**.
 
-4.  En la página **Global** , haga clic en la configuración **Global** . Siempre hay sólo una configuración, y siempre se denomina Global.
+4.  En la página **global** , haga clic en la configuración **global** . Siempre hay una sola configuración y siempre se denomina global.
 
-5.  En el menú **Edición** , haga clic en **Ver detalles**.
+5.  En el menú **Editar** , haga clic en **Ver detalles**.
 
-6.  En la página **Editar configuración Global** , desactive la casilla de verificación **Habilitar el desvío de medios** .
+6.  En la página **Editar configuración global** , desactive la casilla **Habilitar omisión de medios** .
 
-7.  Haga clic en **Confirmar** para guardar los cambios.
+7.  Haga clic en **confirmar** para guardar los cambios.
 
   

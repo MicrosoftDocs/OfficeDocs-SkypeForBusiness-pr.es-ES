@@ -4,89 +4,89 @@ ms.reviewer: ''
 ms.author: kenwith
 author: kenwith
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
-description: Migrar números de acceso telefónico a Skype para Business Server 2019 requiere ejecutando el cmdlet Move-CsApplicationEndpoint para migrar los objetos de contacto. Durante la instalación heredado y Skype para el período de coexistencia de Business Server 2019, los números de acceso telefónico que creó en Skype para Business Server 2019 se comportan de forma similar a los números de acceso telefónico que se crean en la instalación heredada, tal como se describe en este sección.
-ms.openlocfilehash: 7f7aef113018a27e70b88e166d365195c07dce9c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: La migración de números de acceso telefónico local a Skype empresarial Server 2019 requiere ejecutar el cmdlet Move-CsApplicationEndpoint para migrar los objetos de contacto. Durante la instalación heredada y el período de coexistencia de Skype empresarial 2019, los números de acceso telefónico local creados en Skype empresarial Server 2019 se comportan de forma similar a los números de acceso telefónico local que se crean en la instalación heredada, como se describe en este sección.
+ms.openlocfilehash: 83cf8b75bcf9a8d4794ae0f95962f3627d8592c1
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32239586"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280815"
 ---
 # <a name="migrate-dial-in-access-numbers"></a>Migrar los números de acceso telefónico
 
-Migrar números de acceso telefónico a Skype para Business Server 2019 requiere ejecutando el cmdlet **Move-CsApplicationEndpoint** para migrar los objetos de contacto. Durante la instalación heredado y Skype para el período de coexistencia de Business Server 2019, los números de acceso telefónico que creó en Skype para Business Server 2019 se comportan de forma similar a los números de acceso telefónico que se crean en la instalación heredada, tal como se describe en este sección. 
+La migración de números de acceso telefónico local a Skype empresarial Server 2019 requiere ejecutar el cmdlet **Move-CsApplicationEndpoint** para migrar los objetos de contacto. Durante la instalación heredada y el período de coexistencia de Skype empresarial 2019, los números de acceso telefónico local creados en Skype empresarial Server 2019 se comportan de forma similar a los números de acceso telefónico local que se crean en la instalación heredada, como se describe en este sección. 
 
-Los números de acceso telefónico que creó en el heredado instalación pero movido a Skype para Business Server 2019 o que haya creado en Skype para Business Server 2019 antes, durante o después de la migración, tienen las siguientes características:
+Los números de acceso telefónico local que ha creado en la instalación heredada, pero que ha movido a Skype empresarial Server 2019, o que ha creado en Skype empresarial Server 2019 antes, durante o después de la migración, tienen las siguientes características:
 
-- No aparecen en las invitaciones a reuniones de Office Communications Server 2007 R2 y la página de números de acceso telefónico.
+- No aparecen en las invitaciones a reuniones de Office Communications Server 2007 R2 y la página de número de acceso telefónico local.
 
-- Aparecen en las invitaciones a reuniones de instalación heredados y la página de números de acceso telefónico.
+- Aparece en la página heredar las invitaciones a reuniones y el número de acceso telefónico local.
 
-- Aparecen en Skype para Business Server 2019 las invitaciones a reuniones y la página de números de acceso telefónico.
+- Aparece en las invitaciones a reuniones de Skype empresarial Server 2019 y la página de número de acceso telefónico local.
 
 - No se puede ver ni modificar en la herramienta administrativa de Office Communications Server 2007 R2.
 
-- Se pueden ver y modificar en el Panel de Control de instalación heredada y en el Shell de administración de instalar heredado.
+- Se puede ver y modificar en el panel de control de instalación heredado y en el shell de administración de instalación heredado.
 
-- Se pueden ver y modificar en la Skype para el Panel de Control de Business Server 2019 y en Skype para Shell de administración de Business Server 2019.
+- Se puede ver y modificar en el panel de control de Skype empresarial Server 2019 y en el shell de administración de Skype empresarial Server 2019.
 
-- Se pueden volver a secuenciar en la región mediante el cmdlet Set-CsDialinConferencingAccessNumber con el parámetro Priority.
+- Se puede volver a secuenciar dentro de la región mediante el cmdlet Set-CsDialinConferencingAccessNumber con el parámetro Priority.
 
-Debe finalizar la migración de los números de acceso telefónico que apuntan a la heredada instalan el grupo de servidores antes de retirar el grupo de instalación heredado. Si no completa la migración del número de acceso telefónico como se describe en el procedimiento siguiente, se producirá un error en las llamadas entrantes a los números de acceso.
+Debe finalizar la migración de los números de acceso telefónico local que apunten al grupo de instalación heredado antes de retirar el grupo de instalación heredado. Si no completa la migración de números de acceso telefónico, como se describe en el siguiente procedimiento, se producirán errores en las llamadas entrantes a los números de acceso.
 
 > [!IMPORTANT]
-> Debe realizar este procedimiento antes de retirar el grupo de instalación heredado. 
+> Debe realizar este procedimiento antes de dar de baja al grupo de instalación heredado. 
 
 > [!NOTE]
-> Se recomienda que mueva los números de acceso telefónico cuando el uso de la red sea bajo, en caso de que hay un período breve interrupción del servicio. 
+> Le recomendamos que mueva los números de acceso telefónico cuando el uso de la red sea bajo, en caso de que haya un breve período de tiempo de servicio. 
 
-## <a name="to-identify-and-move-dial-in-access-numbers"></a>Para identificar y mueva los números de acceso telefónico
+## <a name="to-identify-and-move-dial-in-access-numbers"></a>Para identificar y mover los números de acceso telefónico local
 
-1. Iniciar el Skype para Shell de administración de negocio Server: haga clic en **Inicio**, haga clic en **Todos los programas**, haga clic en **Microsoft Skype para Business Server 2019**y, a continuación, haga clic en **Skype para Shell de administración de servidor empresarial**.
+1. Inicie el shell de administración de Skype empresarial Server: haga clic en **Inicio**, haga clic en **todos los programas**, haga clic en **Microsoft Skype empresarial Server 2019**y, a continuación, haga clic en **consola de administración de Skype empresarial Server**.
 
-2. Para mover cada número de acceso telefónico a un grupo hospedado en Skype para Business Server 2019, desde la línea de comandos ejecute: 
+2. Para mover cada número de acceso de acceso telefónico local a un grupo hospedado en Skype empresarial Server 2019, ejecute: 
 
    ```
    Move-CsApplicationEndpoint -Identity <SIP URI of the access number to be moved> -Target <FQDN of the pool to which the access number is moving>
    ```
 
-3. Abra Skype para el Panel de Control de servidor empresarial.
+3. Abra el panel de control de Skype empresarial Server.
 
 4. En la barra de navegación izquierda, haga clic en **Conferencia**.
 
-5. Haga clic en la ficha **Número de acceso telefónico** . 
+5. Haga clic en la pestaña **número de acceso telefónico local** . 
 
-6. Compruebe que no queda ningún número de acceso telefónico para el grupo de servidores heredados de instalación desde la que va a migrar.
+6. Compruebe que no quedan números de acceso telefónico local para el grupo de instalación heredado desde el que va a migrar.
 
     > [!NOTE]
-    > Cuando elija el Skype para el grupo de servidores de Business Server 2019 todos los números de acceso telefónico, a continuación, puede dar de baja el grupo de instalación heredado. 
+    > Cuando todos los números de acceso telefónico local señalan al grupo de servidores de Skype empresarial 2019, puede desactivar el grupo de instalación heredado. 
 
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>Comprobar la migración de números de acceso telefónico con Skype para el Panel de Control de servidor empresarial
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-control-panel"></a>Comprobar la migración de números de acceso telefónico local con el panel de control de Skype empresarial Server
 
-1. Desde una cuenta de usuario que se asigna al rol **CsUserAdministrator** o **csadministrator** , inicie sesión en cualquier equipo en la implementación interna. 
+1. Desde una cuenta de usuario que tenga asignada la función **CsUserAdministrator** o el rol **CsAdministrator** , inicie sesión en cualquier equipo de su implementación interna. 
 
-2. Abra Skype para el Panel de Control de servidor empresarial.
+2. Abra el panel de control de Skype empresarial Server.
 
 3. En la barra de navegación izquierda, haga clic en **Conferencia**.
 
-4. Haga clic en la ficha **Número de acceso telefónico** . 
+4. Haga clic en la pestaña **número de acceso telefónico local** . 
 
-5. Compruebe que todos los números de acceso telefónico se migran al grupo de servidores hospedado en Skype para Business Server 2019.
+5. Compruebe que todos los números de acceso telefónico local se migran al grupo hospedado en Skype empresarial Server 2019.
 
-## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a>Comprobar la migración de números de acceso telefónico con Skype para Shell de administración de servidor empresarial
+## <a name="verify-the-dial-in-access-number-migration-using-skype-for-business-server-management-shell"></a>Comprobar la migración de números de acceso telefónico local con el shell de administración de Skype empresarial Server
 
-1. Abra Skype para Shell de administración de servidor empresarial.
+1. Abra el shell de administración de Skype empresarial Server.
 
-2. Para devolver todos los números de acceso telefónico migran, desde la línea de comandos que se ejecute:
+2. Para devolver todos los números de acceso de la Conferencia de acceso telefónico local migrados, desde la línea de comandos ejecute:
 
    ```
    Get-CsDialInConferencingAccessNumber -Filter {Pool -eq "<FQDN of the pool to which the access number is moved>"}
    ```
 
-3. Compruebe que todos los números de acceso telefónico se migran al grupo de servidores hospedado en Skype para Business Server 2019.
+3. Compruebe que todos los números de acceso telefónico local se migran al grupo hospedado en Skype empresarial Server 2019.
 
 

@@ -1,28 +1,28 @@
 ---
-title: Configuración de dispositivo crear nuevos o editar los existentes
+title: Configuración del dispositivo crear nuevo o editar existente
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/23/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
-description: En la página Configuración de dispositivo nuevo o editar configuración de dispositivo, puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
-ms.openlocfilehash: df5555a9cccb5cd09a07087674974a2008daa3a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: En la página Configuración de nuevo dispositivo o configuración de dispositivo de edición, puede crear o modificar una colección de configuraciones utilizadas para administrar Skype empresarial Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
+ms.openlocfilehash: 2af651846a70605b36a8481ee53a54c47901e258
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33913981"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285970"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Configuración de dispositivo: Crear nueva o editar existente
  
-En la página **Configuración de dispositivo nuevo** o **Editar configuración de dispositivo** , puede crear o modificar una colección de opciones que se usan para administrar Skype para Business Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
+En la página **configuración de nuevo dispositivo** o configuración de **dispositivo de edición** , puede crear o modificar una colección de configuraciones utilizadas para administrar Skype empresarial Phone Edition. Estos valores permiten configurar aspectos como el modo de seguridad necesario, el nivel de registro del dispositivo o los ajustes de calidad de servicio de voz (QoS), así como especificar si el teléfono se bloquea automáticamente después de un periodo especificado de inactividad.
   
 ## <a name="tasks-you-can-perform"></a>Tareas que puede realizar
 
@@ -36,29 +36,29 @@ En las páginas **Nueva configuración de dispositivo** o **Editar configuració
 
 En las siguientes listas se describen los menús, comandos, campos y propiedades de la página.
   
-- **Ámbito** Identifica el ámbito (Global o sitio) de la configuración de dispositivo.
+- **Ámbito** Identifica el ámbito (global o de sitio) de la configuración del dispositivo.
     
-- **Nombre** Puede agregar o modificar el nombre de la configuración de dispositivo.
+- **Nombre** Puede Agregar o modificar el nombre de la configuración del dispositivo.
     
-- **Seguridad SIP** Puede configurar los requisitos de transporte y autenticación de Skype para dispositivos Business Phone Edition. Puede seleccionar entre las siguientes opciones:
+- **Seguridad SIP** Puede configurar los requisitos de transporte y autenticación para los dispositivos de Skype empresarial Phone Edition. Puede seleccionar entre las siguientes opciones:
     
-  - **Baja** Permitir a cualquier tipo de autorización o transporte.
+  - **Bajo** Permitir cualquier tipo de autorización o transporte.
     
-  - **Medio** NTLM o Kerberos es necesario para la autenticación de usuario.
+  - **Medio** Se requiere NTLM o Kerberos para la autenticación de usuario.
     
-  - **Alta** NTLM o Kerberos es necesario para la autenticación de usuario y se requiere TLS para conexiones SIP.
+  - **Alto** Se requiere NTLM o Kerberos para la autenticación de usuario y la TLS es necesaria para las conexiones SIP.
     
-- **Nivel de registro** Puede habilitar el registro en el dispositivo de comunicaciones unificadas. Los valores válidos son: Desactivado, Bajo, Medio y Alto. El valor predeterminado es Desactivado.
+- **Nivel de registro** Puede habilitar el registro en el dispositivo UC. Los valores válidos son: Desactivado, Bajo, Medio y Alto. El valor predeterminado es Desactivado.
     
-- **Calidad de voz del servicio (QoS)** Puede especificar el valor DSCP asignado para el tráfico de voz procedentes de un Skype para dispositivo Business Phone Edition. El valor predeterminado es 40. Pero, 40 no es el valor usado normalmente para el tráfico de audio; en su lugar, el tráfico de audio se marca casi siempre con el código 46 de DSCP. Para mantener la coherencia en la red, necesita cambiar este valor a 46.
+- **Calidad de servicio (QoS) de voz** Puede especificar el valor de DSCP asignado al tráfico de voz que emana de un dispositivo de Skype empresarial Phone Edition. El valor predeterminado es 40. Pero, 40 no es el valor usado normalmente para el tráfico de audio; en su lugar, el tráfico de audio se marca casi siempre con el código 46 de DSCP. Para mantener la coherencia en la red, necesita cambiar este valor a 46.
     
-- **Bloqueo del teléfono** Puede especificar si o no teléfonos de comunicaciones unificadas se bloquearán de forma automática a sí mismos después de un período de inactividad especificado. A continuación se incluyen los valores que puede configurar:
+- **Bloqueo de teléfono** Puede especificar si los teléfonos de comunicaciones unificados se bloquearán automáticamente tras un período de inactividad especificado. A continuación se incluyen los valores que puede configurar:
     
-  - **Exigir el bloqueo de dispositivos** Puede aplicar el bloqueo mediante la selección de esta casilla de verificación del dispositivo.
+  - **Exigir bloqueo de dispositivo** Puede exigir el bloqueo de dispositivos activando esta casilla.
     
-  - **Longitud mínima de PIN** Puede especificar la longitud mínima para el número de identificación personal (PIN) que se utiliza para desbloquear el teléfono. La longitud del PIN puede oscilar entre cuatro y 15 dígitos. La longitud predeterminada es de seis dígitos.
+  - **Longitud mínima del PIN** Puede especificar la longitud mínima del número de identificación personal (PIN) que se usa para desbloquear el teléfono. La longitud del PIN puede oscilar entre cuatro y 15 dígitos. La longitud predeterminada es de seis dígitos.
     
-  - **Tiempo de espera de bloqueo de teléfono** Puede especificar la longitud mínima de tiempo antes de los bloqueos de teléfono propio. El intervalo para el tiempo de espera va de 0 a 60 minutos; el valor predeterminado es de 10 minutos. Especifique el valor con el formato HH:MM:SS.
+  - **Tiempo de espera de bloqueo telefónico** Puede especificar la cantidad mínima de tiempo antes de que el teléfono se bloquee por sí mismo. El intervalo para el tiempo de espera va de 0 a 60 minutos; el valor predeterminado es de 10 minutos. Especifique el valor con el formato HH:MM:SS.
     
 ## <a name="see-also"></a>Vea también
 

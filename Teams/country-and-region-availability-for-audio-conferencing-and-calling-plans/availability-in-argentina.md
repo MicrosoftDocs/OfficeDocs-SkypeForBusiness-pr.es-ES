@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: c87e8578597d9e185cec60f332af5ac758a3047c
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
+ms.openlocfilehash: 652fd1b734765243ac606507a08c23ce4e900294
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198428"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283349"
 ---
 # <a name="availability-in-argentina"></a>Disponibilidad en Argentina
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Argentina los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Argentina.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li>Buenos Aires</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> | Requiere créditos de comunicación <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
@@ -63,15 +63,15 @@ Aquí están disponibles para Argentina los servicios de Office 365 para Skype p
 |Minutos disponibles para Planes de llamada  <br/> |No aplicable  <br/> |
 |¿A qué números se pueden hacer llamadas salientes?  <br/> |No aplicable  <br/> |
    
-## <a name="toll-and-toll-free-numbers-for-services"></a>Teléfono de pago y gratuitos para servicios
+## <a name="toll-and-toll-free-numbers-for-services"></a>Números de pago y gratuitos para servicios
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿Para qué capitales o principales ciudades se pueden conseguir números de pago?   | <ul><li>Buenos Aires <li>Córdoba <li>La Plata <li>Mar del Plata <li>Mendoza <br/>  <li>San Miguel de Tucumán <br/> |
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
-|¿Están disponibles los números de teléfono de pago gratuita?  <br/> |Sí  <br/> |
+|¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
    
- Si desea obtener de pago y los números de teléfono gratuito de pago para conferencias de Audio, automáticos y colas de llamadas, vea [los números de teléfono del servicio de introducción de Skype para profesionales y los equipos de Microsoft](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Si desea obtener números de teléfono gratuitos y de pago para las conferencias de audio, los operadores automáticos y las colas de llamadas, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
   
 ## <a name="communications-credits"></a>Créditos de comunicaciones
 

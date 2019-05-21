@@ -5,18 +5,18 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 7/18/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 01eed3c5-af68-4db7-90b3-d28ebe7ffef1
 description: El cmdlet Register-CcAppliance registra la información de los dispositivos en un sitio RTC en una configuración de inquilinos en línea. Los dispositivos deben registrarse antes de que el servicio de administración de Skype Empresarial Cloud Connector Edition pueda implementarlos y administrarlos.
-ms.openlocfilehash: e753f92c84b880da6aac060b65726bda5f9ba1ae
-ms.sourcegitcommit: da8c037bb30abf5d5cf3b60d4b71e3a10e553402
+ms.openlocfilehash: 9e15d7b8227bf9ee657d197041056703505ca7c8
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30892276"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34287128"
 ---
 # <a name="register-ccappliance"></a>Register-CcAppliance
  
@@ -58,11 +58,11 @@ Register-CcAppliance -SiteName Site1 -ApplianceName Appliance1
 
 Deberá proporcionar el nombre y la contraseña de la cuenta de administrador de inquilinos. Use la cuenta que creó para la administración en línea de Cloud Connector. 
   
-En la versión 1.4.2 y versiones anteriores, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña de administrador de modo seguro, contraseña de administrador de dominio y contraseña de administrador de la máquina virtual. 
+En la versión 1.4.2 y anterior, siga las instrucciones para proporcionar la contraseña del certificado externo, la contraseña del administrador en el modo seguro, la contraseña del administrador del dominio y la contraseña de administrador de la VM. 
   
-En la versión 2.0 y versiones posteriores, siga las instrucciones para proporcionar la contraseña de certificado externo, contraseña CceService y CABackupFile.
+En la versión 2,0 y posteriores, siga las instrucciones para proporcionar la contraseña del certificado externo, CceService contraseña y CABackupFile contraseña.
   
-Al final del registro, reinicie el servicio de administración de conector en la nube y los servicios de inicio de sesión como cuenta de CceService.
+Al final del registro, reinicie el servicio de administración de conector de nube e inicie sesión en la cuenta servicios como CceService.
   
 El SiteName combinado con el FQDN externo del servidor perimetral en el archivo CloudConnector.ini file se considera la identidad del sitio RTC. Si no se han usado ni el SiteName ni el FQDN externo del servidor perimetral para registrar un sitio, se creará un sitio nuevo para este dispositivo en una configuración de inquilino en línea. Si se encuentra una identidad de sitio RTC, un sitio RTC usará esta identidad y el dispositivo se registrará en este sitio RTC.  
   

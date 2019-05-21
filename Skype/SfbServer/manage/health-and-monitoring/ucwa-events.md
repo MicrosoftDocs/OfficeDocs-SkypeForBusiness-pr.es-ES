@@ -1,27 +1,27 @@
 ---
-title: Eventos UCWA en Skype para Business Server
+title: Eventos de UCWA en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 26cb409d-f4e4-43c7-873f-b694702d491d
-description: 'Resumen: Obtenga información acerca de la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.'
-ms.openlocfilehash: f675c16903301412c0c78981b0c17bb9bcc7b24b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la API Web de comunicaciones unificadas (UCWA) en Skype empresarial Server.'
+ms.openlocfilehash: bbded70318190fb4fa68ab524a696183c97ff07d
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897992"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279700"
 ---
-# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos UCWA en Skype para Business Server
+# <a name="ucwa-events-in-skype-for-business-server"></a>Eventos de UCWA en Skype empresarial Server
  
-**Resumen:** Obtenga información acerca de la Web de comunicaciones unificadas (UCWA) de la API de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la API Web de comunicaciones unificadas (UCWA) en Skype empresarial Server.
   
-Skype para Business Server usa la API de Web de comunicaciones unificadas (UCWA) para una serie de propósitos, pueda tener acceso a Microsoft Exchange para las búsquedas de contactos a la actualización de presencia para los clientes móviles.
+Skype empresarial Server usa la API Web de comunicaciones unificadas (UCWA) para una serie de propósitos, desde el acceso a Microsoft Exchange para las búsquedas de contactos hasta la actualización de presencia para clientes móviles.
   
 UCWA escribirá los registros del comportamiento operativo como tipos de evento informativos, de advertencia y de error. En la siguiente tabla se describen los eventos que pueden escribir los componentes de UCWA.
   

@@ -1,34 +1,34 @@
 ---
-title: Contadores de rendimiento de movilidad en Skype para Business Server
+title: Contadores de rendimiento de movilidad en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
-description: 'Resumen: Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad.'
-ms.openlocfilehash: a529161b62cf47ad7666ace07cc2d030fc7922d2
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API Web de comunicaciones unificadas (UCWA) y el servicio de movilidad de Skype empresarial Server MCX.'
+ms.openlocfilehash: 91ca77b9719dc6b76ea9bb054856abf82bb3ebd4
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897642"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279910"
 ---
-# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de rendimiento de movilidad en Skype para Business Server
+# <a name="mobility-performance-counters-in-skype-for-business-server"></a>Contadores de rendimiento de movilidad en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad.
+**Resumen:** Obtenga más información sobre los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API Web de comunicaciones unificadas (UCWA) y el servicio de movilidad de Skype empresarial Server MCX.
   
-Las siguientes tablas enumeran los nombres y descripciones de los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API de Web de comunicaciones unificadas (UCWA) y la Skype Business Server Mcx servicio de movilidad. 
+En las siguientes tablas se enumeran los nombres y descripciones de los contadores de rendimiento que puede usar para supervisar los servidores que ejecutan la API Web de comunicaciones unificadas (UCWA) y el servicio de movilidad de Skype empresarial Server MCX. 
   
-El nombre de categoría para los contadores de la tabla UCWA es **LS:WEB - UCWA**.
+El nombre de la categoría de los contadores de la tabla de UCWA es **LS: Web-UCWA**.
   
 El nombre de categoría de los contadores de la tabla relativa al servicio de movilidad Mcx es **LS:WEB - Mobile Communication Service**.
 
 > [!NOTE]
-> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype empresarial Server 2019. Todos los clientes móviles actuales de Skype empresarial ya usan la API Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea, la presencia y los contactos. Los usuarios con clientes heredados que usen MCX deberán actualizar a un cliente actual.
   
 ## <a name="performance-counters-for-ucwa"></a>Contadores de rendimiento para UCWA
 
@@ -60,7 +60,7 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 |Cantidad de errores de recuperación de foto de Active Directory  <br/> |Cantidad total de errores en recuperar fotos de Active Directory  <br/> |
 |Cantidad de errores de búsqueda de contacto  <br/> |Cantidad total de errores de búsqueda de contactos en Exchange  <br/> |
 |Cantidad de errores de deserialización  <br/> |Cantidad total de errores de deserialización  <br/> |
-|Número de errores de Get HD Photo  <br/> |Cantidad total de errores en recuperar fotos HD de Exchange  <br/> |
+|Número de errores de obtención de fotos de alta definición  <br/> |Cantidad total de errores en recuperar fotos HD de Exchange  <br/> |
 |Exceso de número máximo de suscripciones por aplicación  <br/> |Cantidad de solicitudes de suscripción por encima del máximo permitido por aplicación  <br/> |
 |Exceso de número máximo de suscripciones por lote  <br/> |Cantidad de solicitudes de suscripción por encima del máximo permitido por lote  <br/> |
 |Errores de suscripción de presencia  <br/> |Cantidad de errores al suscribir la presencia  <br/> |
@@ -115,4 +115,4 @@ El nombre de categoría de los contadores de la tabla relativa al servicio de mo
 |Llamadas de voz salientes correctas totales  <br/> |Cantidad total de llamadas de voz salientes que se han realizado correctamente  <br/> |
    
 > [!NOTE]
-> Compatibilidad con MCX (servicio de movilidad) para los clientes móviles heredados ya no está disponible en Skype para Business Server 2019. Todos los Skype actual para los clientes móviles de negocio ya usa la API de Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea (IM), presencia y contactos. Los usuarios con los clientes heredados con MCX necesitará actualizar a un cliente actual.
+> La compatibilidad con MCX (Mobility Service) para clientes móviles heredados ya no está disponible en Skype empresarial Server 2019. Todos los clientes móviles actuales de Skype empresarial ya usan la API Web de comunicaciones unificadas (UCWA) para admitir la mensajería instantánea, la presencia y los contactos. Los usuarios con clientes heredados que usen MCX deberán actualizar a un cliente actual.

@@ -1,51 +1,51 @@
 ---
-title: Administrar las actualizaciones de Windows para salas de equipos de Microsoft
+title: Administrar actualizaciones de Windows para salas de Microsoft Teams
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
 ms.date: 10/10/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: M365-voice
 ms.assetid: ''
-description: Administrar las actualizaciones de Windows para salas de equipos de Microsoft
-ms.openlocfilehash: d9374fc00dcb5a19d2c15c91da18ce6c7d353033
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Administrar actualizaciones de Windows para salas de Microsoft Teams
+ms.openlocfilehash: 7ea7197752b42db788b2f67b9ae1c80cdad80177
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910308"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34279266"
 ---
-# <a name="manage-windows-updates"></a>Administrar las actualizaciones de Windows
+# <a name="manage-windows-updates"></a>Administrar actualizaciones de Windows
 
-Salones de los equipos de Microsoft se ejecuta en Windows 10 Enterprise IoT o Windows 10 Enterprise (VL) y recibe las compilaciones de actualizaciones de Windows y el sistema operativo mismas como un escritorio estándar.
+Salas de Microsoft Teams se ejecuta en Windows 10 Enterprise IoT o Windows 10 Enterprise (VL) y recibe las mismas actualizaciones de Windows y OS que un escritorio estándar.
 
-Actualizaciones de Windows se puede administrar de varias formas diferentes:
+Las actualizaciones de Windows se pueden administrar de varias maneras diferentes:
 
-## <a name="hands-off-approach"></a>Enfoque sin intervención 
-- Las actualizaciones se pueden descargar directamente desde las actualizaciones de Windows automáticamente e instalar horario de trabajo habitual. Si se realiza ningún cambio en la configuración de esto es el estado predeterminado.
-- Actualizaciones puede diferir no instalan automáticamente uno día del lanzamiento. 
-- Actualizaciones y controladores de calidad se descargue e instale día uno automáticamente. 
-- Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación. 
+## <a name="hands-off-approach"></a>Enfoque de manos libres 
+- Las actualizaciones se pueden descargar directamente desde actualizaciones de Windows e instalarse de forma automática fuera de horas. Si no se realiza ningún cambio en la configuración, este es el estado predeterminado.
+- Las actualizaciones no aplazables instalarán el día, una de las versiones automáticamente. 
+- Las actualizaciones y drivers de calidad descargarán e instalarán el día uno automáticamente. 
+- Actualizaciones de características. Consulte las notas adicionales a continuación. 
 
-## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Actualizaciones de Windows para la empresa](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
-- Las actualizaciones se descargan desde Windows Update o su WSUS pero con retrasos configurados más allá de la fecha de lanzamiento original de la KB. 
-- Combinar con varias unidades Organizativas o filtrados de las directivas, esto permite la creación de la implementación "anillos", donde los administradores pueden especificar qué dispositivos instalación actualizaciones de calidad en primer lugar y que los instalará más adelante. Esto permite la confiabilidad y el rendimiento de las pruebas en un subconjunto de sistemas antes de implementar actualizaciones en toda la implementación completa sin la sobrecarga de administrar las actualizaciones de Windows en SCCM por ejemplo.
-- WSUS y las actualizaciones de Windows para la empresa pueden ser [configurada al mismo tiempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si así lo desea administración de ancho de banda y el control de las actualizaciones de Windows para la empresa proporciona.
-- Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación.
+## <a name="windows-updates-for-businesshttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-wufb-gpo-or-intune"></a>[Actualizaciones de Windows para empresas](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb) (GPO o Intune)   
+- Las actualizaciones se descargan desde WU o WSUS, pero con retrasos configurados más allá de la fecha de lanzamiento original de KB. 
+- Combinado con varias unidades organizativas o directivas filtradas, permite la creación de "timbres" de implementación, donde los administradores pueden especificar qué dispositivos instalan primero las actualizaciones de calidad y cuáles se instalarán más adelante. Esto permite pruebas de confiabilidad y rendimiento en un subconjunto de sistemas antes de implementar las actualizaciones en toda la implementación sin la sobrecarga de administrar las actualizaciones de Windows en SCCM, por ejemplo.
+- Las actualizaciones de WSUS y Windows para empresas pueden configurarse [al mismo tiempo](https://docs.microsoft.com/windows/deployment/update/waas-integrate-wufb) si quiere tanto la administración del ancho de banda como el control que ofrece Windows Updates para empresas.
+- Actualizaciones de características. Consulte las notas adicionales a continuación.
 
-## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS O SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
-- Muy similar a Windows Update para la empresa, pero con la opción adicional de identificación específica KB dentro de cada "anillo" o toda la implementación. Cada actualización puede ser individualmente implementado y probado según se desee, en lugar de confiar en sólo un retraso. 
-- Actualizaciones de la característica. Consulte las notas adicionales que aparece a continuación.
+## <a name="wsussccmhttpsdocsmicrosoftcomwindowsdeploymentupdatewaas-manage-updates-configuration-manager"></a>[WSUS/SCCM](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
+- De manera muy similar a Windows Update para empresas, pero con la opción adicional de segmentar las KB específicas dentro de cada "timbre" o toda la implementación. Cada actualización se puede implementar y probar individualmente en la misma, en lugar de confiar únicamente en un retraso. 
+- Actualizaciones de características. Consulte las notas adicionales a continuación.
 
 
-### <a name="feature-updates"></a>Actualizaciones de característica
+### <a name="feature-updates"></a>Actualizaciones de características
 
-A diferencia de calidad y no Deferable actualizaciones, Windows 10 "Característica Actualizaciones" (versiones principales del sistema operativo) sólo se instalarán después de que Microsoft prueba y valida una funcionalidad determinada actualizaciones con Microsoft los equipos locales. Incluso si se publicadas hasta el punto y anuales del canal (o destino si tiene sistemas establecida en dicho canal para las pruebas) o incluso manualmente inserta por su propio intentos o las configuraciones, no le permitirá la instalación hasta que se quite el bloqueo en nuestro final.
+A diferencia de la calidad y las actualizaciones no aplazables, las actualizaciones de características de Windows 10 (versiones principales del sistema operativo) solo se instalarán después de que Microsoft pruebe y valide una funcionalidad de actualizaciones determinada con salas de Microsoft Teams. Aunque se publique para el canal semianual (o se destinan a los sistemas establecidos en ese canal para realizar pruebas) o incluso a la inserción manual por sus propios intentos o configuraciones, no se permitirá la instalación hasta que se elimine el bloqueo de nuestro extremo.
 
-Salón de los equipos de Microsoft "de fábrica", con las manos desactiva el enfoque, no va a instalar una actualización de Windows o un dispositivo se reinicie automáticamente debido a una actualización de Windows. Sin embargo, los sistemas pueden descargar una actualización y esperar el siguiente reinicio que lo instale. A menos que alguien reinicia manualmente, instalación debe producirse durante el reinicio automático por la noche. Actualizaciones de Windows debe ser transparentes en la sala, la interfaz de usuario nunca debe ser interrumpido por actualizaciones de Windows.
+La sala de Microsoft Teams "de uso no actualizado", con el método de manos libres, no instalará Windows Update ni reiniciará automáticamente un dispositivo debido a una actualización de Windows. Sin embargo, los sistemas pueden descargar una actualización y esperar a que se reinicie la próxima vez. A menos que alguien lo reinicie manualmente, la instalación debe realizarse durante el reinicio automático nocturno. Las actualizaciones de Windows deberían ser transparentes en el salón, mientras que las actualizaciones de Windows nunca las interrumpan.
 
-Si opta por unirse a un dominio, use SCCM o WSUS y preste especial atención a las directivas o acciones que pueden ocasionar que el dispositivo de instalar una actualización o forzar un reinicio durante la jornada laboral. Si tiene sistemas en la implementación de reinicio durante el uso o alertas acerca de las actualizaciones de Windows a través de la interfaz de usuario, desea buscar en la configuración.
+Si elige unirse a un dominio, use SCCM o WSUS y preste especial atención a las directivas o acciones que pueden provocar que el dispositivo Instale una actualización o que se reinicie durante el horario comercial. Si tiene sistemas en la implementación que se está reiniciando durante el uso o la alerta sobre actualizaciones de Windows a través de la interfaz de usuario, le interesará examinar la configuración.

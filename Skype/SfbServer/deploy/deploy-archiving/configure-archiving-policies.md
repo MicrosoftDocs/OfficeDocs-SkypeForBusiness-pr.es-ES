@@ -1,53 +1,53 @@
 ---
-title: Configure las directivas de archivado para Skype para Business Server
+title: Configurar directivas de archivado para Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
-description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales de Skype para los usuarios de Business Server.'
-ms.openlocfilehash: 83b929a01013fa96dbec9742d36d3cec0387d4ce
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales para los usuarios de Skype empresarial Server.'
+ms.openlocfilehash: 9d4fc7bd27440688f981ac9d05b1e47750ad7867
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895913"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286563"
 ---
-# <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configure las directivas de archivado para Skype para Business Server
+# <a name="configure-archiving-policies-for-skype-for-business-server"></a>Configurar directivas de archivado para Skype empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales de Skype para los usuarios de Business Server.
+**Resumen:** Lea este tema para obtener información sobre cómo configurar las directivas de archivado iniciales para los usuarios de Skype empresarial Server.
   
-En Skype para Business Server, use las directivas para habilitar y deshabilitar el archivado de comunicaciones internas y comunicaciones externas para los usuarios que están hospedados en Skype para Business Server. Entre estas directivas se incluyen:
+En Skype empresarial Server, se usan directivas para habilitar y deshabilitar el archivado de comunicaciones internas y comunicaciones externas para los usuarios alojados en Skype empresarial Server. Entre estas directivas se incluyen:
   
-- Una directiva global que se crea de forma predeterminada al implementar Skype para Business Server
+- Una directiva global que se crea de forma predeterminada al implementar Skype empresarial Server
     
 - Directivas de sitio opcionales, que especifican cómo se implementa el archivado para un sitio específico
     
-- Directivas opcionales de nivel de usuario que especifican cómo se implementa el archivado para usuarios específicos
+- Directivas de nivel de usuario opcionales que especifican cómo se implementa el archivado para usuarios específicos
     
-Las directivas de archivado se configuran inicialmente al implementar el archivado, pero es posible cambiar, agregar y eliminar directivas después de la implementación. En Skype para el Panel de Control de servidor empresarial, puede usar la página **Directiva de archivado** del grupo **de archivado y supervisión** para administrar las directivas a nivel global, sitio y los niveles de usuario.
+Las directivas de archivado se configuran inicialmente al implementar el archivado, pero es posible cambiar, agregar y eliminar directivas después de la implementación. En el panel de control de Skype empresarial Server, puede usar la página **Directiva** de archivado del grupo **archivado y supervisión** para administrar directivas en los niveles global, de sitio y de usuario.
   
 > [!NOTE]
-> Para controlar la implementación del archivado, es necesario especificar opciones, como por ejemplo, si archivar la mensajería instantánea (MI) o las conferencias, el uso del modo crítico y las opciones de purga. De manera predeterminada, no hay opciones habilitadas en la configuración del archivado global ni en ninguna otra configuración de archivado de sitio o de grupo. Es preciso especificar todas las opciones correspondientes antes de habilitar el archivado para las comunicaciones internas o externas. Para obtener información detallada, vea [Configurar opciones de Skype para Business Server de archivado](configure-archiving-options.md). 
+> Para controlar la implementación del archivado, es necesario especificar opciones, como por ejemplo, si archivar la mensajería instantánea (MI) o las conferencias, el uso del modo crítico y las opciones de purga. De manera predeterminada, no hay opciones habilitadas en la configuración del archivado global ni en ninguna otra configuración de archivado de sitio o de grupo. Es preciso especificar todas las opciones correspondientes antes de habilitar el archivado para las comunicaciones internas o externas. Para obtener más información, consulte [configurar opciones de archivado para Skype empresarial Server](configure-archiving-options.md). 
   
 > [!NOTE]
-> Si habilita la integración de Microsoft Exchange para la implementación, el control de las directivas de retención de Exchange local si el archivado está habilitado para los usuarios que están ubicados en Exchange y disponer sus buzones en suspensión en contexto. 
+> Si habilita la integración de Microsoft Exchange para su implementación, las directivas de retención local de Exchange controlan si el archivado está habilitado para los usuarios alojados en Exchange y si sus buzones se colocan en la retención local. 
   
-Para obtener información detallada acerca de las directivas de archivado cómo funciona, incluida la jerarquía para globales, de sitio y las directivas de usuario, consulte [Plan para el archivado en Skype para Business Server](../../plan-your-deployment/archiving/archiving.md). Para obtener información detallada sobre cómo administrar las directivas después de la implementación, vea [administrar las directivas de archivado en Skype para Business Server](../../manage/archiving/policies.md).
+Para obtener más información sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md). Para obtener detalles sobre cómo administrar directivas después de la implementación, consulte [Administrar directivas de archivado en Skype empresarial Server](../../manage/archiving/policies.md).
   
 ## <a name="global-policy"></a>Directiva global
 
-Al implementar los servidores Front-End, Skype para Business Server crea una directiva global para el archivado. De forma predeterminada, el archivado se deshabilita en la directiva global. La directiva global controla si el archivado está habilitado para las comunicaciones internas y externas de toda la implementación, a menos que la configuración de directivas de usuario o de sitio, que reemplaza la directiva global, o si utiliza la integración de Microsoft Exchange para algunos o todos los de los usuarios. Si utiliza la integración de Microsoft Exchange, la directiva global no se aplica a todos los usuarios que están ubicados en Exchange y disponer los buzones de correo en retención en contexto.
+Al implementar los servidores front-end, Skype empresarial Server crea una directiva global para el archivado. De forma predeterminada, el archivado se deshabilita en la directiva global. La directiva global controla si el archivado está habilitado para las comunicaciones internas y externas para toda la implementación, a no ser que Configure directivas de usuario o de sitio, que invaliden la directiva global, o si usa la integración de Microsoft Exchange para algunas o todas los usuarios. Si usa la integración de Microsoft Exchange, la directiva global no se aplica a los usuarios alojados en Exchange y tienen los buzones en conservación local.
   
-### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurar la directiva global para el archivado de Skype para bases de datos de archivado de Business Server
+### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Configurar la directiva global para archivar en bases de datos de archivado de Skype empresarial Server
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
@@ -57,7 +57,7 @@ Al implementar los servidores Front-End, Skype para Business Server crea una dir
     
    - En **Nombre**, si no desea usar el nombre predeterminado "global", especifique un nombre nuevo para la directiva global. 
     
-   - En **Descripción**, proporcione información acerca de la directiva (por ejemplo, la directiva Global para *divisionName* .
+   - En **Descripción**, proporcione información sobre lo que es la Directiva (por ejemplo, la directiva global para *divisionName* .
     
    - Para controlar el archivado de las comunicaciones internas de todos los usuarios y sitios que no se controlan específicamente por medio de una directiva de sitio o de usuario, active o desactive la casilla **Archivar comunicaciones internas**.
     
@@ -67,17 +67,17 @@ Al implementar los servidores Front-End, Skype para Business Server crea una dir
     
 ## <a name="site-policies"></a>Directivas de sitio
 
-Puede habilitar o deshabilitar el archivado de sitios específicos si crea y configura una directiva de archivado para cada uno de esos sitios. Las directivas de sitio invalidan las directivas globales, pero las directivas de usuario invalidan las directivas de sitio. Las directivas de archivado sólo se aplican si no utiliza la integración de Microsoft Exchange o, si utiliza la integración de Microsoft Exchange, pero han algunos usuarios que no están ubicados en Exchange y tengan sus buzones de correo, poner en suspensión en contexto.
+Puede habilitar o deshabilitar el archivado de sitios específicos si crea y configura una directiva de archivado para cada uno de esos sitios. Las directivas de sitio invalidan las directivas globales, pero las directivas de usuario invalidan las directivas de sitio. Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están alojados en Exchange y tienen sus buzones en conservación local.
   
 ### <a name="create-an-archiving-policy-for-a-site"></a>Crear una directiva de archivado para un sitio
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
-    Para obtener información detallada acerca de las directivas de archivado cómo funciona, incluida la jerarquía para globales, de sitio y las directivas de usuario, consulte [Plan para el archivado en Skype para Business Server](../../plan-your-deployment/archiving/archiving.md).
+    Para obtener más información sobre cómo funcionan las directivas de archivado, incluida la jerarquía para las directivas globales, de sitio y de usuario, consulte [planear el archivado en Skype empresarial Server](../../plan-your-deployment/archiving/archiving.md).
     
 4. Haga clic en **Nuevo** y en **Directiva de sitio**.
     
@@ -97,13 +97,13 @@ Puede habilitar o deshabilitar el archivado de sitios específicos si crea y con
     
 ## <a name="user-policies"></a>Directivas de usuario
 
-Puede habilitar o deshabilitar el archivado para determinados usuarios si crea y configura una directiva de archivado para usuarios y, después, aplica la directiva a usuarios o grupos de usuarios específicos. Las directivas de usuario invalidan las directivas de sitio o las directivas globales. Las directivas de archivado sólo se aplican si no utiliza la integración de Microsoft Exchange o, si utiliza la integración de Microsoft Exchange, pero han algunos usuarios que no están ubicados en Exchange y tengan sus buzones de correo, poner en suspensión en contexto.
+Puede habilitar o deshabilitar el archivado para determinados usuarios si crea y configura una directiva de archivado para usuarios y, después, aplica la directiva a usuarios o grupos de usuarios específicos. Las directivas de usuario invalidan las directivas de sitio o las directivas globales. Las directivas de archivado solo se aplican si no usa la integración de Microsoft Exchange o si usa la integración de Microsoft Exchange, pero tiene algunos usuarios que no están alojados en Exchange y tienen sus buzones en conservación local.
   
-### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurar una directiva de archivado para los usuarios alojados en Skype para Business Server
+### <a name="configure-an-archiving-policy-for-users-homed-on-skype-for-business-server"></a>Configurar una directiva de archivado para usuarios alojados en Skype empresarial Server
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Directiva de archivado**.
     
@@ -122,20 +122,20 @@ Puede habilitar o deshabilitar el archivado para determinados usuarios si crea y
 6. Haga clic en **Confirmar**.
     
 Una directiva de usuario solo se aplica a los usuarios a los que asigne la directiva.
-### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a>Aplicar un Skype para Business Server directiva a un usuario de archivado
+### <a name="apply-a-skype-for-business-server-archiving-policy-to-a-user"></a>Aplicar una directiva de archivado de Skype empresarial Server a un usuario
 
 1. Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial. 
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server. 
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios** y, luego, busque la cuenta de usuario que desea configurar.
     
 4. En la tabla donde se enumeran los resultados de la búsqueda, haga clic en la cuenta de usuario, en **Editar** y, luego, en **Mostrar detalles**.
     
-5. En **Editar Skype para usuario Business Server** en **Directiva de archivado**, seleccione la directiva de usuario de archivado que desea aplicar.
+5. En **editar el usuario de Skype empresarial Server** en **Directiva**de archivado, seleccione la Directiva de usuario de archivado que desea aplicar.
     
     > [!NOTE]
-    > La ** \<automática\> ** configuración aplica la configuración predeterminada de la instalación de servidor. El servidor aplica automáticamente esta configuración.
+    > La ** \<configuración\> automática** aplica la configuración predeterminada de la instalación del servidor. El servidor aplica automáticamente esta configuración.
   
 6. Haga clic en **Confirmar**.
     
