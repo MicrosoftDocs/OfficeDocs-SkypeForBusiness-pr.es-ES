@@ -4,7 +4,7 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.dep.DeployForestPrepGroupDomain
@@ -12,16 +12,16 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 1da76935-ab93-46e5-a862-3f2a77171760
 ROBOTS: NOINDEX, NOFOLLOW
-description: Debe indicar que necesita crear los grupos universales en el bosque. La página ubicación de grupo Universal utiliza el dominio en el que el equipo que ha iniciado sesión es un miembro de como el valor predeterminado. Si prefiere para crear los grupos universales en un dominio diferente al dominio Local de forma predeterminada, seleccione el FQDN del dominio y escriba el nombre de dominio completo (FQDN) en el cuadro de texto. Proporcionar que un dominio alternativo es útil cuando se ejecuta la tarea de preparación del bosque de un dominio que no sea donde desea que los grupos universales crearse. Haga clic en siguiente para continuar.
-ms.openlocfilehash: f8624d6a0168f4341d4bd8799aac54e7df6af769
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Debe indicar dónde necesita crear los grupos universales en el bosque. La página ubicación de grupo universal usa el dominio en el que el equipo en el que ha iniciado sesión es miembro como predeterminado. Si prefiere crear los grupos universales en un dominio que no sea el predeterminado, seleccione FQDN de dominio y escriba el nombre de dominio completo (FQDN) en el cuadro de texto. Proporcionar un dominio alternativo es útil cuando se ejecuta la tarea de preparación del bosque desde un dominio que no sea donde desea crear los grupos universales. Haga clic en siguiente para continuar.
+ms.openlocfilehash: 2416686172620933bb7c69d6140ff181e903a444
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893871"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34276382"
 ---
 # <a name="prepare-current-forest-universal-group-location"></a>Preparar bosque actual (ubicación de grupo universal)
  
-Debe indicar que necesita crear los grupos universales en el bosque. La página **Ubicación de grupo Universal** utiliza el dominio en el que el equipo que ha iniciado sesión es un miembro de como el valor predeterminado. Si prefiere para crear los grupos universales en un dominio distinto del **dominio Local**predeterminado, seleccione el **FQDN del dominio** y escriba el nombre de dominio completo (FQDN) en el cuadro de texto. Proporcionar que un dominio alternativo es útil cuando se ejecuta la tarea de preparación del bosque de un dominio que no sea donde desea que los grupos universales crearse. Haga clic en **Siguiente** para continuar.
+Debe indicar dónde necesita crear los grupos universales en el bosque. La página **Ubicación de grupo universal** usa el dominio en el que el equipo en el que ha iniciado sesión es miembro como predeterminado. Si prefiere crear los grupos universales en un dominio que no sea el predeterminado, **** seleccione **FQDN de dominio** y escriba el nombre de dominio completo (FQDN) en el cuadro de texto. Proporcionar un dominio alternativo es útil cuando se ejecuta la tarea de preparación del bosque desde un dominio que no sea donde desea crear los grupos universales. Haga clic en **Siguiente** para continuar.
   
 

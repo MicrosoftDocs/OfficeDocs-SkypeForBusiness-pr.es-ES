@@ -1,86 +1,86 @@
 ---
-title: Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015
+title: Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 3/28/2016
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
-description: 'Resumen: Lea este tema para obtener información sobre cómo agregar servidores de Chat persistente a su Skype para topología empresarial Server 2015.'
-ms.openlocfilehash: edd04ce781c3f91190b2c7baf9e0575f6dba5b1b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Lea este tema para obtener información sobre cómo agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server.'
+ms.openlocfilehash: c953b93d8ea20b8878269c8be0540ba8e032ce87
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33894503"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34282304"
 ---
-# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar servidor de Chat persistente a su Skype para topología empresarial Server 2015
+# <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server
  
-**Resumen:** Lea este tema para obtener información sobre cómo agregar servidores de Chat persistente a su Skype para topología empresarial Server 2015.
+**Resumen:** Lea este tema para obtener información sobre cómo agregar un servidor de chat persistente a su topología de 2015 de Skype empresarial Server.
   
-Después de instalar el software necesario como requisito previo en cada servidor en el que planea implementar servidor de Chat persistente, use el generador de topología para: 
+Después de instalar el software necesario en cada servidor en el que tiene previsto implementar un servidor de chat persistente, use el generador de topología para: 
   
 - Actualizar la topología para incluir el servidor de chat persistente
     
 - Publicar la topología actualizada
     
 > [!NOTE] 
-> Chat persistente está disponible en Skype para Business Server 2015, pero ya no se admite en Skype para Business Server 2019. La misma funcionalidad está disponible en los equipos. Para obtener más información, vea [viaje de Skype para la empresa a los equipos de Microsoft](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar chat en grupo, las opciones son para migrar los usuarios que requieren esta funcionalidad a los equipos, o para continuar usando Skype para Business Server 2015. 
+> Chat persistente está disponible en Skype empresarial Server 2015, pero ya no es compatible con Skype empresarial Server 2019. La misma funcionalidad está disponible en Teams. Para obtener más información, consulte Cómo desplazarse [de Skype empresarial a Microsoft Teams](/microsoftteams/journey-skypeforbusiness-teams). Si necesita usar una conversación persistente, puede elegir entre migrar los usuarios que tienen esta funcionalidad a teams o continuar usando Skype empresarial Server 2015. 
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Actualizar la topología para incluir el servidor de chat persistente
 
-Realice los pasos siguientes para instalar un único grupo de servidores de servidor de Chat persistente sin una configuración de recuperación ante desastres. Para configurar un grupo de servidores de Chat persistente de alta disponibilidad y recuperación ante desastres, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
+Siga estos pasos para instalar un único grupo de servidores de chat persistente sin una configuración de recuperación ante desastres. Para configurar un grupo de servidores de chat persistente ampliado para una alta disponibilidad y recuperación ante desastres, consulte [configurar la alta disponibilidad y la recuperación ante desastres para un servidor de chat persistente en Skype empresarial server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md).
   
-Para implementar varios grupos de servidores de Chat persistente, repita el mismo proceso para cada grupo de servidores.
+Para implementar varios grupos de servidores de chat persistentes, repita el mismo proceso para cada grupo.
   
-1. En un equipo que ejecuta Skype para Business Server o en el que el Skype para instaladas las herramientas administrativas de Business Server, inicie sesión con una cuenta que sea miembro del grupo local de usuarios (o una cuenta con derechos de usuario equivalentes).
+1. En un equipo que ejecuta Skype empresarial Server o en el que están instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
     
     > [!NOTE]
-    > Puede definir una topología mediante una cuenta que sea miembro del grupo de usuarios locales, pero para publicar una topología, que es necesario para instalar Skype para Business Server, debe usar una cuenta que sea miembro del grupo **Administradores** del dominio y el ** RTCUniversalServerAdmins** grupo y que tiene permisos de control total (leer, escribir y modificar) en el almacén de archivos que se va a usar para el almacén de archivos de servidor de Chat persistente (por lo que el generador de topología puede configurar las DACL necesarias), o una cuenta con derechos equivalentes.
+    > Puede definir una topología con una cuenta que sea miembro del grupo de usuarios locales, pero para publicar una topología necesaria para instalar Skype empresarial Server, debe usar una cuenta que sea miembro del grupo de **administradores de dominio** y el **grupo de administradores del dominio. Grupo RTCUniversalServerAdmins** y que tiene permisos de control total (lectura, escritura y modificación) en el almacén de archivos que va a usar para el almacén de archivos del servidor de chat persistente (para que el generador de topología pueda configurar las DACL requeridas) o una cuenta con derechos equivalentes.
   
 2. Iniciar el generador de topología.
     
-3. En el árbol de consola, navegue hasta el nodo **Grupos de servidores de Chat persistente** y expándalo para seleccionar un Skype para el grupo de servidores empresariales, o haga clic en el nodo y seleccione **Nuevo grupo de Chat persistente**. Debe definir el nombre del grupo de servidores de dominio completo (FQDN) e indicar si el grupo de servidores será un grupo de servidores de un solo servidor o la implementación del grupo de varios servidores.
+3. En el árbol de consola, vaya al nodo **grupos** de chats persistentes y expándalo para seleccionar un grupo de servidores de Skype empresarial, o haga clic con el botón derecho en el nodo y seleccione **nuevo grupo**de chats persistentes. Debe definir el nombre de dominio completo (FQDN) de la agrupación e indicar si el grupo será un grupo de un solo servidor o una implementación de grupo de varios servidores.
     
-    Puede elegir un **Grupo de varios equipos** o **Grupo de un solo equipo**. Elija los antiguos si planea tener más de un servidor Front-End de su grupo de servidores de Chat persistente. Realice esta elección ahora, porque después de crear un grupo de un solo equipo no le podrá agregar servidores adicionales más adelante. Si elige un grupo de varios equipos, escriba los nombres de la individuales servidores Front-End que conforman el grupo de servidores.
-    
-    > [!IMPORTANT]
-    > Si se va a instalar el rol de servidor de Chat persistente en un servidor Standard Edition, el FQDN debe coincidir con el FQDN del servidor Standard Edition. 
-  
-4. Definir un **Nombre para mostrar** sencillo para el grupo de servidores de Chat persistente. El nombre para mostrar se puede usar por los clientes personalizados, especialmente cuando hay varios grupos de servidores de Chat persistente para diferenciar los salones.
-    
-5. Definir el puerto usado por el servidor de Chat persistente para comunicarse con Skype para servidores Front-End de Business Server. El puerto predeterminado es 5041.
-    
-6. Si su organización requiere compatibilidad con el cumplimiento, seleccione la casilla **Habilitar cumplimiento**. Si selecciona esta opción, el servicio de cumplimiento de servidor de Chat persistente está instalado en el mismo equipo que el Persistent Chat Server servidor Front-End. Le pedirá que seleccione un servidor de SQL Server Back End para cumplimiento de servidor de Chat persistente más adelante.
-    
-7. Asignar afinidad de sitios para el grupo de servidores de Chat persistente. Seleccione el **utilizar este grupo de servidores como predeterminado para el sitio \<SiteName\> ** casilla de verificación o **utilizar este grupo de servidores como predeterminado para todos los sitios** para designar este grupo de servidores de servidor de Chat persistente como el grupo predeterminado para el sitio actual o todos los sitios. Cuando se usa el Skype para cliente de negocio para crear y administrar las salas, se usa el grupo predeterminado asociado con el sitio del usuario por la experiencia de creación y administración de salón para que pueden enrutar las operaciones de creación y administración de sala a ese grupo. Esto sólo se aplica cuando tiene varios grupos de servidores de Chat persistente implementados y desea usar las características de creación y administración de sala de servidor de Chat persistente.
+    Puede elegir un **Grupo de varios equipos** o **Grupo de un solo equipo**. Elija el primero si planea tener más de un servidor front-end en el grupo de servidores de chat persistente. Realice esta elección ahora, porque después de crear un grupo de un solo equipo no le podrá agregar servidores adicionales más adelante. Si elige un grupo de varios equipos, escriba los nombres de los servidores front-end individuales que componen el grupo.
     
     > [!IMPORTANT]
-    > Puede personalizar las características de creación y administración de sala utilizando la persistente Chat Server Software Development Kit (SDK). 
+    > Si el rol de servidor de chat persistente se instala en un servidor Standard Edition, el FQDN debe coincidir con el FQDN del servidor Standard Edition. 
   
-8. Defina el **almacén de SQL para la Persistent Chat Server Back-End (donde se almacena el contenido del salón de chat)** realizando una de las siguientes:
+4. Defina un **nombre para mostrar** simple para el grupo de servidores de chat persistente. El nombre para mostrar puede ser usado por clientes personalizados, especialmente cuando hay varios grupos de servidores de chat persistentes para diferenciar las habitaciones.
+    
+5. Defina el puerto que usa el servidor de chat persistente para comunicarse con los servidores front-end de Skype empresarial Server. El puerto predeterminado es 5041.
+    
+6. Si su organización requiere compatibilidad con el cumplimiento, seleccione la casilla **Habilitar cumplimiento**. Si se elige, el servicio de cumplimiento de servidor de chat persistente se instala en el mismo equipo que el servidor de front-end del servidor de chat persistente. Se le pedirá que seleccione un servidor Back End SQL Server para el cumplimiento del servidor de chat persistente más adelante.
+    
+7. Asigne afinidad de sitio para el grupo de servidores de chat persistente. Active la casilla de verificación **usar este grupo como \<predeterminado\> para el sitio siteName** o **use este grupo como predeterminado para que todos los sitios** designen este grupo de servidores de chat persistente como el grupo predeterminado para el sitio actual o todos los sitios. Cuando se usa el cliente de Skype empresarial para crear y administrar salas, la experiencia de creación y administración de la sala usa el grupo predeterminado asociado al sitio del usuario para que pueda dirigir las operaciones de administración y creación de salas a ese grupo. Esto solo se aplica cuando se han implementado varios grupos de servidores de chat persistentes y desea usar las características de creación y administración de la sala de un servidor de chat persistente.
+    
+    > [!IMPORTANT]
+    > Puede personalizar las características de creación y administración de la sala con el kit de desarrollo de software (SDK) del servidor de chat persistente. 
+  
+8. Defina el **almacén SQL para el back-end del servidor de chat persistente (donde se almacena el contenido del salón de chat)** mediante uno de los siguientes procedimientos:
     
    - Para usar un almacén de SQL Server existente, en la lista desplegable, haga clic en el nombre del almacén de SQL Server que desea usar.
     
-   - Para especificar una nueva base de datos de SQL Server, haga clic en **nuevo**y, en **Definir nuevo almacén SQL**, haga lo siguiente:
+   - Para especificar una nueva base de datos de SQL Server, haga clic en **nuevo**y, en **definir nueva tienda SQL**, realice lo siguiente:
     
-   - En **FQDN de SQL Server**, especifique el FQDN del servidor SQL en el que desea crear la nueva base de datos de SQL Server.
+   - En **FQDN de SQL Server**, especifique el nombre completo del servidor SQL Server en el que desea crear la nueva base de datos de SQL Server.
     
    - Puede seleccionar **Instancia predeterminada** para utilizar la instancia predeterminada, o bien, para especificar una instancia diferente, seleccione **Instancia con nombre** y, luego, especifique la instancia que desee utilizar.
     
      > [!NOTE]
-     > Para obtener información detallada sobre cómo configurar las bases de datos de copia de seguridad de SQL Server para la recuperación ante desastres, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+     > Para obtener más información sobre cómo configurar las bases de datos de copia de seguridad de SQL Server para recuperación ante desastres, consulte [configurar la alta disponibilidad y la recuperación ante desastres para el servidor de chat persistente en Skype empresarial server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
-9. Definir el almacén de cumplimiento de normas de SQL Server si habilitó cumplimiento.
+9. Defina el almacén de cumplimiento de SQL Server si ha habilitado la compatibilidad.
     
     > [!IMPORTANT]
-    > Para obtener información detallada sobre cómo configurar los espejos de SQL Server para una alta disponibilidad para la base de datos del servidor de Chat persistente y la base de datos de cumplimiento del servidor de Chat persistente, vea [Configure una alta disponibilidad y recuperación ante desastres para servidor de Chat persistente en Skype para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
+    > Para obtener más información sobre cómo configurar espejos de SQL Server para una alta disponibilidad de la base de datos del servidor de chat persistente y la base de datos de cumplimiento del servidor de chat persistente, consulte [configurar la alta disponibilidad y la recuperación ante desastres para servidores de chat persistentes en Skype. para Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md). 
   
-10. Defina el almacén de archivos. Un almacén de archivos es una carpeta en la que se almacena una copia de cualquier archivo cargado al repositorio de archivos (por ejemplo, el almacenamiento de datos adjuntos de archivos publicados en un salón de chat). En el caso de una topología de servidor de Chat persistente de varios servidores, debe ser una ruta de acceso de convención de nomenclatura Universal (UNC); y para una topología de servidor de Chat persistente de un único servidor, puede ser una ruta de acceso de archivo local.
+10. Defina el almacén de archivos. Un almacén de archivos es una carpeta en la que se almacena una copia de cualquier archivo cargado al repositorio de archivos (por ejemplo, el almacenamiento de datos adjuntos de archivos publicados en un salón de chat). En el caso de una topología de servidor de chat persistente de varios servidores, debe ser una ruta de acceso UNC (Convención de nomenclatura universal); para una topología de servidor de chat persistente de un solo servidor, puede ser una ruta de acceso de archivo local.
     
     Para utilizar un almacén de archivos existente, haga lo siguiente:
     
@@ -89,29 +89,29 @@ Para implementar varios grupos de servidores de Chat persistente, repita el mism
     - En **Recurso compartido de archivos**, especifique el almacén de archivos que desee utilizar.
     
       > [!IMPORTANT]
-      > Puede definir el almacén de archivos en el generador de topología antes de crear el almacén de archivos, pero debe crear el almacén de archivos en la ubicación definida que definir antes de publicar la topología. Si el almacén de archivos aún no existe, no se podrá publicar la topología. 
+      > Puede definir el almacén de archivos en el generador de topología antes de crear el almacén de archivos, pero debe crear el almacén de archivos en la ubicación definida que defina antes de publicar la topología. Si el almacén de archivos aún no existe, no se podrá publicar la topología. 
   
-11. Seleccione el grupo de servidor Front-End que se usará como próximo salto para este grupo de servidores de servidor de Chat persistente. Este es el grupo de servidor Front-End que podrá enrutar las solicitudes de servidor de Chat persistente a este grupo de servidores.
+11. Seleccione el grupo de servidores front-end que se usará como próximo salto para este grupo de servidores de chat persistente. Este es el grupo de servidores front-end que podrá enrutar solicitudes de servidor de chat persistentes a este grupo.
     
-12. Para guardar la configuración, haga clic en **Finalizar**. El grupo de servidores de Chat persistente aparece en el generador acompañadas de la configuración de grupo de servidores específico.
+12. Para guardar la configuración, haga clic en **Finalizar**. El grupo de servidores de chat persistente aparece en el generador de topología junto con la configuración específica de la agrupación.
     
-    Para publicar su topología actualizada a la que ha agregado el servidor de Chat persistente, consulte publicar la topología actualizada.
+    Para publicar la topología actualizada a la que ha agregado el servidor de chat persistente, vea publicar la topología actualizada.
     
     > [!NOTE]
-    > Con el generador de topología ya está abierto, puede continuar con el paso 3 en publicar la topología actualizada para empezar a publicar su topología actualizada. 
+    > Con el generador de topología ya abierto, puede continuar con el paso 3 en publicar la topología actualizada para empezar a publicar su topología actualizada. 
   
 ## <a name="publish-the-updated-topology"></a>Publicar la topología actualizada
 <a name="BKMK_PublishTopology"> </a>
 
-Después de actualizar la topología en Topology Builder, debe publicar la topología en el almacén de Administración Central antes de configurar y usar Skype para Business Server. Las copias de solo lectura de los datos se replican en todos los servidores de la topología para mantener todos los servidores sincronizados con los cambios en la topología y en otras opciones de configuración.
+Después de actualizar su topología en el generador de topología, debe publicarla en el almacén de administración central para poder configurar y usar Skype empresarial Server. Las copias de solo lectura de los datos se replican en todos los servidores de la topología para mantener todos los servidores sincronizados con los cambios en la topología y en otras opciones de configuración.
   
-Antes de publicar la topología, instale las bases de datos para el servidor de Chat persistente. Use el generador de topología para instalar las bases de datos mediante la selección de **acción** e **Instalar base de datos**.
+Antes de publicar su topología, instale las bases de datos para el servidor de chat persistente. Use el generador de topología para instalar bases de datos seleccionando **acción** e **instalar base de datos**.
   
-1. En un equipo que ejecuta Skype para Business Server o en el que el Skype para instaladas las herramientas administrativas de Business Server, inicie sesión con una cuenta que sea miembro del grupo **Administradores** del dominio y del grupo **RTCUniversalServerAdmins** , y que tiene permisos de control total (leer, escribir y modificar) en el almacén de archivos que se usará para el almacén de archivos de servidor de Chat persistente (de modo que el generador de topología puede configurar las listas de control de acceso discrecional (DACL)), o una cuenta de usuario equivalentes derechos.
+1. En un equipo que ejecuta Skype empresarial Server o en el que están instaladas las herramientas administrativas de Skype empresarial Server, inicie sesión con una cuenta que sea miembro del grupo administradores de **dominio** y del grupo **RTCUniversalServerAdmins** . y que tiene permisos de control total (lectura, escritura y modificación) en el almacén de archivos para usarse en el almacén de archivos del servidor de chat persistente (de modo que el generador de topología puede configurar las listas de control de acceso discrecional (DACL) obligatorias) o una cuenta con un usuario equivalente Rights.
     
 2. Iniciar el generador de topología. Seleccione **Abrir la topología desde un archivo local**, si la ha guardado de forma local.
     
-3. En el árbol de consola, secundario **Skype para Business Server 2015**y, a continuación, haga clic en **Publicar topología**.
+3. En el árbol de consola, haga clic con el botón secundario en **Skype empresarial Server 2015**y, a continuación, haga clic en **publicar topología**.
     
 4. En la página **Publicar la topología**, haga clic en **Siguiente**.
     

@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 0542eba9-3dda-40de-bba8-095d22825e4e
-description: 'Resumen: Obtenga información acerca de la operación obtener elementos secundarios, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 4d0e5c19a4bfb5d66db95738cab5b0c2eaf33985
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación de obtención de subelementos, que es parte del servicio de elementos. El servicio de artículo forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 7be427ed4ea90cd46c6f8cea4ffe3a97be98479b
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930682"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274663"
 ---
 # <a name="get-sub-items"></a>Obtener elementos secundarios
  
-**Resumen:** Obtenga información acerca de la operación obtener elementos secundarios, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la operación obtener subelementos, que es parte del servicio de artículos. El servicio de artículo forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación obtener elementos secundarios es parte del servicio de elemento de la API de repositorio para llamar al panel de calidad.
+La operación obtener subelementos es parte del servicio de elemento en la API del repositorio para el panel de calidad de llamadas.
   
 ## <a name="get-sub-items"></a>Obtener elementos secundarios
 
-Obtener elementos secundarios devuelve elementos secundarios de un elemento específico.
+Obtener subelementos devuelve los subelementos de un elemento específico.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/elemento / {itemId} / subelemento  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoERepositoryService/Repository/Item/{Itemid}/SubItem  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar). Si un usuario especificado que no se encuentra el identificador, devuelve el código de estado 404 (no encontrado).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto). Si no se encuentra un identificador de usuario especificado, devuelve el código de estado 404 (no se encontró).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
 > [!NOTE]
-> Se devuelve una matriz de objeto de elemento. 
+> Se devuelve una matriz de objetos de elemento. 
   
 ```
 [{
@@ -63,15 +63,15 @@ Obtener elementos secundarios devuelve elementos secundarios de un elemento espe
 }]
 ```
 
-El objeto de elemento devuelto por la operación de subelementos sólo contiene los siguientes tres campos. 
+El objeto de elemento devuelto por la operación SubItems solo contiene los tres campos siguientes. 
   
- *itemId* - identificador del elemento.
+ *Itemid* -ID del elemento.
   
- *userId* : identificador del usuario que es propietario de este elemento.
+ ** identificador de usuario del usuario que es el propietario de este elemento.
   
- *tipo* : el tipo de contenido. Este campo se establece por las aplicaciones.
+ *Type* : el tipo del contenido. Este campo lo establecen las aplicaciones.
   
 > [!NOTE]
->  `Content`y `subItems` campos no se incluyen en la respuesta a reducir la cantidad de datos que se transmiten a través de la red.
+>  `Content`y `subItems` los campos no se incluyen en la respuesta para reducir la cantidad de datos que se transmiten a través de la red.
   
 

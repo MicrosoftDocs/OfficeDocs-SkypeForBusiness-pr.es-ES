@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
-ms.openlocfilehash: fc08276fdea79dad4018f1bc829405046006317b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bielorrusia.
+ms.openlocfilehash: 4e6aa6e198c967665139729cdde63f51278ce684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32219180"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283293"
 ---
 # <a name="availability-in-belarus"></a>Disponibilidad en Belarús
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype para empresas y Microsoft Teams.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para Bielorrusia.
   
 ## <a name="audio-conferencing"></a>Audioconferencia
 
@@ -44,7 +44,7 @@ Aquí están disponibles para Bielorrusia los servicios de Office 365 para Skype
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |No  <br/> |
 |¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |No  <br/> |
-|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible con Communications créditos pago por minuto  <br/> |
+|Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible con créditos de comunicaciones pago por minuto  <br/> |
    
 ## <a name="phone-system"></a>Sistema telefónico
 

@@ -5,30 +5,30 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 12/20/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-description: 'Resumen: Obtenga información sobre cómo crear, modificar y eliminar los escenarios para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: 59821fd0feeed8895d4c0a201b6fdd3f5b4e62e5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a crear, modificar y quitar escenarios para el servicio de registro centralizado en Skype empresarial Server 2015.'
+ms.openlocfilehash: 89aa0c37dfb13f7614067b64e37ee9c9fb376331
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914978"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274439"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Configurar escenarios para el servicio de registro centralizado en Skype Empresarial Server 2015
  
-**Resumen:** Obtenga información sobre cómo crear, modificar y eliminar los escenarios para el servicio de registro centralizado en Skype para Business Server 2015.
+**Resumen:** Aprenda a crear, modificar y quitar escenarios para el servicio de registro centralizado en Skype empresarial Server 2015.
   
-Escenarios de definición el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores para usar en el servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si observa que debe modificarse para satisfacer la solución de problemas y registro de las necesidades de un escenario, el Skype para las herramientas de depuración de Business Server 2015 proporciona un módulo de Windows PowerShell denominado ClsScenarioEdit.psm1 que contiene una función namedEdit-CsClsScenario. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Descargue el Skype para [Herramientas de depuración](https://go.microsoft.com/fwlink/p/?LinkId=285257) de Business Server 2015 antes continuar cualquiera.
+Los escenarios definen el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores usar en el servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si encuentra que un escenario debe modificarse para satisfacer sus necesidades de registro y solución de problemas, las herramientas de depuración de Skype empresarial Server 2015 le proporcionan un módulo de Windows PowerShell denominado ClsScenarioEdit. psm1 que contiene una función namedEdit-CsClsScenario. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Descargue las [herramientas](https://go.microsoft.com/fwlink/p/?LinkId=285257) de depuración de Skype empresarial Server 2015 antes de continuar.
   
 > [!IMPORTANT]
-> Para cualquier ese ámbito: global, sitio, grupo o equipo, puede ejecutar un máximo de dos escenarios en un momento dado. Para determinar qué escenarios se están ejecutando actualmente, use Windows PowerShell y [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). Mediante el uso de Windows PowerShell y [Set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps), puede cambiar dinámicamente qué escenarios se están ejecutando. Puede modificar qué escenarios se ejecutan durante una sesión de registro para ajustar o restringir los datos que se va a recopilar y de los proveedores. 
+> Para cualquier ámbito determinado (sitio, global, grupo o equipo), puede ejecutar un máximo de dos escenarios en cualquier momento. Para determinar qué escenarios se están ejecutando actualmente, use Windows PowerShell y [Get-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/get-csclsscenario?view=skype-ps). Mediante Windows PowerShell y [set-CsClsScenario](https://docs.microsoft.com/powershell/module/skype/set-csclsscenario?view=skype-ps), puede cambiar dinámicamente qué escenarios se están ejecutando. Puede modificar qué escenarios se ejecutan durante una sesión de registro para ajustar o refinar los datos que está recopilando y de qué proveedores. 
   
-Para ejecutar las funciones de servicio de registro centralizado mediante el uso de la Skype para Shell de administración de servidor empresarial, debe ser un miembro de la CsAdministrator o los grupos de seguridad de CsServerAdministrator acceso basado en roles (RBAC) del control o un rol RBAC personalizado que contiene cualquiera de estos dos grupos. Para devolver una lista de todos los el RBAC roles que se ha asignado este cmdlet, incluidos los roles RBAC personalizados que haya creado, ejecutan el siguiente comando desde el Skype para Business Server Management Shell o el símbolo del sistema de Windows PowerShell:
+Para ejecutar las funciones de los servicios de registro centralizado mediante el shell de administración de Skype empresarial Server, debe ser miembro de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsAdministrator o CsServerAdministrator, o un rol de RBAC personalizado que contiene alguno de estos dos grupos. Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet, incluidos los roles RBAC que haya creado usted mismo, ejecute el siguiente comando desde el shell de administración de Skype empresarial Server o el símbolo del sistema de Windows PowerShell:
   
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
@@ -40,18 +40,18 @@ Por ejemplo:
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
-El resto de este tema se centra en cómo definir un escenario, modificarlo, recuperar los escenarios en ejecución, quitar un escenario y especificar qué contiene un escenario a fin de optimizar la solución de problemas. Puede usar el Skype para Shell de administración de servidor empresarial para emitir los comandos de Windows PowerShell. Cuando se usa Windows PowerShell, puede definir nuevos escenarios para su uso en las sesiones de registro.
+El resto de este tema se centra en cómo definir un escenario, modificarlo, recuperar los escenarios en ejecución, quitar un escenario y especificar qué contiene un escenario a fin de optimizar la solución de problemas. Puede usar el shell de administración de Skype empresarial Server para emitir comandos de Windows PowerShell. Al usar Windows PowerShell, puede definir nuevos escenarios para usarlos en sus sesiones de registro.
   
-Como se comentó en [Servicio de registro centralizado en Skype para profesionales de 2015](centralized-logging-service.md), los elementos de un escenario son:
+Como se ha introducido en el [servicio de registro centralizado en Skype empresarial 2015](centralized-logging-service.md), los elementos de un escenario son:
   
-- **Proveedores de** Si está familiarizado con OCSLogger, los proveedores son los componentes que elija para indicar a OCSLogger el motor de seguimiento de qué debe recopilar los registros de. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de roles de servidor que el servicio de registro centralizado puede recopilar los registros de. Para obtener información detallada sobre la configuración de proveedores, vea [Configurar proveedores de servicio de registro centralizado en Skype para Business Server 2015](configure-providers.md).
+- **Proveedores** Si está familiarizado con OCSLogger, los proveedores son los componentes que usted elige para indicar OCSLogger de qué debe recopilar los registros el motor de seguimiento. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos del rol de servidor de los que el servicio de registro centralizado puede recopilar registros. Para obtener más información sobre la configuración de proveedores, consulte [Configurar proveedores para el servicio de registro centralizado en Skype empresarial Server 2015](configure-providers.md).
     
-- **Identidad** El parámetro-Identity establece el ámbito y el nombre del escenario. Por ejemplo, podría establecer un ámbito de "global" e identificar el escenario con "LyssServiceScenario". Cuando se combinan las dos, definir la identidad (por ejemplo, "global/LyssServiceScenario").
+- **Identidad** El parámetro-Identity establece el ámbito y el nombre del escenario. Por ejemplo, podría establecer un ámbito de "global" e identificar el escenario con "LyssServiceScenario". Al combinar los dos, se define la identidad (por ejemplo, "global/LyssServiceScenario").
     
-    De forma opcional, puede usar los parámetros - nombre y - primario. Definir el parámetro Name para identificar de forma exclusiva el escenario. Si utiliza un nombre, también debe usar primario para agregar el escenario alguna global o sitio. 
+    De manera opcional, puede usar los parámetros-Name y-Parent. El parámetro name se define para identificar el escenario de forma exclusiva. Si usa Name, también debe usar Parent para agregar el escenario a global o a sitio. 
     
     > [!IMPORTANT]
-    > Si usa los parámetros Name y Parent, no se puede usar el **-Identity** parámetro.
+    > Si usa los parámetros Name y Parent, no puede usar el parámetro **-Identity** .
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>Para crear un escenario con el cmdlet New-CsClsScenario
 
@@ -73,7 +73,7 @@ Como se comentó en [Servicio de registro centralizado en Skype para profesional
    New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
    ```
 
-    El formato alternativo utilizando - Name y - Parent:
+    El formato alternativo con-Name y-Parent:
     
    ```
    New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
@@ -83,20 +83,20 @@ Como se comentó en [Servicio de registro centralizado en Skype para profesional
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Por cada ámbito puede haber un máximo de dos escenarios. Sin embargo, no está limitado a un número determinado de proveedores. En este ejemplo, se supone que hemos creado tres proveedores, y que desea asignar las tres para el escenario que se está definiendo. Los nombres de variable de proveedor son LyssProvider, ABServerProvider y SIPStackProvider. Para definir y asignar a varios proveedores para un escenario, escriba lo siguiente en un Skype para símbolo del Shell de administración de servidor empresarial o Windows PowerShell:
+2. Por cada ámbito puede haber un máximo de dos escenarios. Sin embargo, no está limitado a un número determinado de proveedores. En este ejemplo, suponga que hemos creado tres proveedores y desea asignar los tres al escenario que está definiendo. Los nombres de variable de proveedor son LyssProvider, ABServerProvider y SIPStackProvider. Para definir y asignar varios proveedores a un escenario, escriba lo siguiente en un shell de administración de Skype empresarial Server o en el símbolo del sistema de Windows PowerShell:
     
    ```
    New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
    ```
 
     > [!NOTE]
-    > Como se conoce en Windows PowerShell, la convención para la creación de una tabla hash de los valores con `@{<variable>=<value1>, <value2>, <value>…}` se conoce assplatting. Para obtener información detallada acerca de splatting en Windows PowerShell, consulte [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760). 
+    > Como se sabe en Windows PowerShell, la Convención para crear una tabla hash de valores mediante `@{<variable>=<value1>, <value2>, <value>…}` assplatting es conocida. Para obtener más información sobre splatting en Windows PowerShell [https://go.microsoft.com/fwlink/p/?LinkId=267760](https://go.microsoft.com/fwlink/p/?LinkId=267760), consulte. 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>Para modificar un escenario existente con el cmdlet Set-CsClsScenario
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
-2. Por cada ámbito puede haber un máximo de dos escenarios. Puede cambiar los escenarios que estén en ejecución en cualquier momento, incluso si hay una sesión de captura de registros en proceso. Si redefine los escenarios que están en ejecución, la sesión de registro actual dejará de usar el escenario que se haya quitado y empezará a usar el escenario nuevo. Pero, la información de registro que se capturó con el escenario quitado se mantendrá en los registros capturados. Para definir un nuevo escenario, haga lo siguiente (es decir, si la adición de un proveedor ya definido denominado "S4Provider"):
+2. Por cada ámbito puede haber un máximo de dos escenarios. Puede cambiar los escenarios que estén en ejecución en cualquier momento, incluso si hay una sesión de captura de registros en proceso. Si redefine los escenarios que están en ejecución, la sesión de registro actual dejará de usar el escenario que se haya quitado y empezará a usar el escenario nuevo. Pero, la información de registro que se capturó con el escenario quitado se mantendrá en los registros capturados. Para definir un escenario nuevo, haga lo siguiente (es decir, suponiendo que se agregue un proveedor ya definido denominado "S4Provider"):
     
    ```
    Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
@@ -148,7 +148,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
     > [!IMPORTANT]
-    > El módulo CClsScenarioEdit.psm1 se proporciona como una descarga web aparte. El módulo es parte de la Skype para las herramientas de depuración de Business Server 2015. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de programa\Skype Empresarial Server 2015\Herramientas de depuración. 
+    > El módulo CClsScenarioEdit.psm1 se proporciona como una descarga web aparte. El módulo es parte de las herramientas de depuración de Skype empresarial Server 2015. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de programa\Skype Empresarial Server 2015\Herramientas de depuración. 
   
 2. En Windows PowerShell, escriba:
     
@@ -157,7 +157,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > Carga correcta del módulo vuelve a la línea de comandos de Windows PowerShell. Para confirmar que el módulo se carga y que Edit-CsClsScenario está disponible, escriba `Get-Help Edit-CsClsScenario`. Tendría que ver una muestra general de la sintaxis de EditCsClsScenario. 
+    > La carga correcta del módulo le vuelve al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo está cargado y que editar-CsClsScenario está disponible, escriba `Get-Help Edit-CsClsScenario`. Tendría que ver una muestra general de la sintaxis de EditCsClsScenario. 
   
 3. Para descargar los módulos, escriba:
     
@@ -166,7 +166,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > Correcta descarga de las devoluciones de módulo, en el símbolo del sistema de Windows PowerShell. Para confirmar que se descarga el módulo, escriba `Get-Help Edit-CsClsScenario`. Windows PowerShell se intentará buscar la ayuda para el cmdlet y producirá un error. 
+    > La descarga correcta del módulo te vuelve al símbolo del sistema de Windows PowerShell. Para confirmar que se ha descargado el módulo, `Get-Help Edit-CsClsScenario`escriba. Windows PowerShell intentará ubicar la ayuda para el cmdlet y fallar. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>Para quitar un proveedor existente de un escenario con el módulo Edit-ClsController
 
@@ -179,7 +179,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    ```
 
     > [!TIP]
-    > Carga correcta del módulo vuelve a la línea de comandos de Windows PowerShell. Para confirmar que el módulo se carga y que Edit-CsClsScenario está disponible, escriba `Get-Help Edit-CsClsScenario`. Tendría que ver una muestra general de la sintaxis de EditCsClsScenario. 
+    > La carga correcta del módulo le vuelve al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo está cargado y que editar-CsClsScenario está disponible, escriba `Get-Help Edit-CsClsScenario`. Tendría que ver una muestra general de la sintaxis de EditCsClsScenario. 
   
 3. Para quitar un proveedor del escenario AlwaysOn, escriba:
     
@@ -199,7 +199,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    Edit-CsClsScenario AlwaysOn ChatServer -Remove
    ```
 
-   La colocación de posición de los valores de parámetro sólo aplica a - escenario y - proveedor. Es necesario definir explícitamente todos los demás parámetros.
+   La colocación posicional de los valores de parámetro solo se aplica a-Scenario y-Provider. Es necesario definir explícitamente todos los demás parámetros.
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>Para agregar un proveedor a un escenario con el módulo Edit-ClsController
 
@@ -217,7 +217,7 @@ El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los dat
    Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
    ```
 
-    Loglevel - puede ser del tipo de error grave, Error, advertencia, información, detallado, depurar o todos. -Flags pueden ser cualquiera de los indicadores que admite el proveedor, como TF_COMPONENT, TF_DIAG. -Flags también pueden ser de valor todos
+    -LogLevel puede ser de tipo grave, error, warning, info, verbose, Debug o ALL. -Las marcas pueden ser cualquiera de las marcas que admite el proveedor, como TF_COMPONENT, TF_DIAG. -LAS marcas también pueden ser de valor.
     
    El ejemplo anterior también se puede introducir usando la característica de colocación posicional del cmdlet. Por ejemplo, para agregar el proveedor ChatServer al escenario AlwaysOn, escriba:
     

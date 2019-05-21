@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,70 +19,70 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: ms.lync.lac.PortOrderNumbers
 ms.custom:
 - Calling Plans
-description: 'Obtenga información sobre cómo configurar los números de teléfono cuando instalarlas en Skype para la empresa. '
-ms.openlocfilehash: 62f9fb98378bfa7802013399d3d9b005047e663d
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Obtenga información sobre cómo configurar números de teléfono cuando los transporta a Skype empresarial. '
+ms.openlocfilehash: df9d82a6e785954a95a455f0e43aa0e077f40bcf
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32229881"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280534"
 ---
 # <a name="how-should-i-enter-the-phone-numbers"></a>¿Cómo tengo que introducir los números de teléfono?
 
-Al convertir los números de teléfono, debe escribir en el formato correcto. 
+Cuando transporta números de teléfono, debe escribirlos en el formato correcto. 
   
 > [!NOTE]
-> Cada número de teléfono o el intervalo de número de teléfono debe especificarse por separado en cada línea. 
+> Cada número de teléfono o rango de número de teléfono debe introducirse por separado en cada línea. 
   
-- Al escribir los números de teléfono único:
+- Cuando escribe números de teléfono únicos:
     
-  - Se pasará por alto todos los caracteres especiales (incluidos guión "-"). Por ejemplo:
+  - Se ignorarán todos los caracteres especiales (incluido el guión "-"). Por ejemplo:
     
-  - Para un número de 10 dígitos: ** &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649** se corregirán a **+14255550649**.
+  - Para un número de 10 dígitos: ** &amp; \*(425\*() (\*&amp;4&amp;\*()) (\*250649** se corregirá a **+ 14255550649**.
     
-  - Para un número de 11 dígitos: **1\*() (\*&amp;42&amp;\*() (\*&amp;55550649** se corregirán a **+14255550649**.
+  - Para un número de 11 dígitos: **1\*() (\*&amp;42&amp;\*()\*&amp;(55550649** se corregirá a **+ 14255550649**.
     
-  - Si hay 10 u 11 dígitos, se omitirá todas las etiquetas. Por ejemplo, ** \<div> 4255551234\</div>** será **+14255551234**.
+  - Si hay 10 u 11 dígitos, se ignorarán todas las etiquetas. Por ejemplo, ** \<div> 4255551234\</div>** será **+ 14255551234**.
     
-  - "-", se omitirá espacio y paréntesis. Por ejemplo:
+  - se omitirán "-", el espacio y los paréntesis. Por ejemplo:
     
-  - Para un número de 10 dígitos: **(425) 555-6776** se corregirán a **+14255556776**.
+  - Para un número de 10 dígitos: **(425) 555-6776** se corregirá a **+ 14255556776**.
     
-  - Para un número de 11 dígitos: se corregirán **1(425) 555-6776** a **+14255556776**.
+  - Para un número de 11 dígitos: **1 (425) 555-6776** se corregirá a **+ 14255556776**.
     
-  - Todas las letras se tratan como caracteres especiales y no tiene en cuenta si hay un número de teléfono de 10 dígitos o 11 dígitos. Por ejemplo:
+  - Todas las letras se tratarán como caracteres especiales y se pasarán por alto si hay un número de 10 dígitos o de 11 dígitos. Por ejemplo:
     
-  - Para un número de 10 dígitos: **14jaosia2reoij05jof55506ajfoj49isdjf** se corregirán a **+14255550649**.
+  - Para un número de 10 dígitos: **14jaosia2reoij05jof55506ajfoj49isdjf** se corregirá a **+ 14255550649**.
     
-  - Para un número de 11 dígitos: **1ade4jaoda2rfoij05ojof55506dsfoj49if** se corregirán a **+14255550649**.
+  - Para un número de 11 dígitos: **1ade4jaoda2rfoij05ojof55506dsfoj49if** se corregirá a **+ 14255550649**.
     
-  - Cualquier combinación de caracteres especiales, incluso en otros idiomas, se corregirán. Por ejemplo: 
+  - Se corregirá cualquier combinación de caracteres especiales, incluso en otros idiomas. Por ejemplo: 
     
-  - Para un número de 10 dígitos:**中文4中文2ajj5\*() (\*(5()... 551345** se corregirán a **+14555551345**.
+  - Para un número de 10 dígitos:**中文 4 中文2ajj5\*() (\*(5 ()... 551345** se corregirá a **+ 14555551345**.
     
-  - Para un número de 11 dígitos:**中文4中文2$ a5\*() (\*(5()... 55 (.1345** se corregirán a **+14555551345**.
+  - Para un número de 11 dígitos:**中文 4 中文 2 $ a5\*() (\*(5 ()... 55 (. 1345** se corregirá a **+ 14555551345**.
     
-  - Si los números contienen menos de 10 o más de 11 dígitos, se resaltará para que el usuario corregir:
+  - Si los números contienen menos de 10 dígitos o más de 11 dígitos, se resaltarán para que el usuario los corrija:
     
-  - \*\*5551245\* \* se resaltará y deberá corregirse.
+  - \*\*5551245\* \* se resaltará y tendrá que corregirse.
     
-  - **1234567891011** se resaltará y deberá corregirse.
+  - **1234567891011** se resaltará y tendrá que corregirse.
     
-  - Todos los números que son menos de 10 o más de 11 dígitos, con caracteres especiales, se resaltará sin que se corrigen automáticamente.
+  - Los números que tengan menos de 10 dígitos o más de 11 dígitos, con caracteres especiales, se resaltarán sin corregirse automáticamente.
     
-  - Para un número de 7 dígitos sin caracteres especiales que se introduce: **123456abcdefg7** se resaltará y es preciso corregir, pero no se pasa por alto las letras.
+  - Para un número de 7 dígitos sin caracteres especiales introducidos: **123456abcdefg7** se resaltará y tendrá que corregirse, pero las letras no se pasarán por alto.
     
-  - Para un número de 7 dígitos con caracteres especiales que se introduce: **12345!@#$%^&amp;\*()--@# $% ^&amp;\*() 7** se resaltará para corregirse. No se pasa por alto los caracteres especiales.
+  - Para un número de 7 dígitos con caracteres especiales introducidos: **12345! @ # $&amp;\*% ^ ()--@ # $% ^&amp;\*()** se resaltarán para corregirse. Los caracteres especiales no se tendrán en cuenta.
     
-- Cuando se introduce un intervalo de números de teléfono.
+- Cuando escribes un rango de números de teléfono.
     
-  - Se permiten sólo dos números de teléfono. El número menor debe ser el primer número del intervalo.
+  - Solo se permiten dos números de teléfono. El número menor debe ser el primer número del rango.
     
-  - Todos los caracteres especiales (excepto el guión "-") son tratar de la misma como números único. Por ejemplo, **(425) 555 0&amp;\*(123-(1425) 5557899nm** se corregirá **+ 14255550123 - +13202040659**.
+  - Todos los caracteres especiales (excepto el guión "-") se tratan de la misma forma que los números individuales. Por ejemplo, **(425) 555 0&amp;\*(123-(1425) 5557899nm** se corregirá a **+ 14255550123-+ 13202040659**.
     
-  - La "-" se usa para separar sólo los dos números. No se admite para incluir varios "-" en el intervalo de números. Por ejemplo, **(425) 555-0649-(425) 555-1115** debe especificarse como **(425) 5550649 - (425) 5551115**.
+  - El "-" se usa para separar solo los dos números. No se admite incluir varios "-" en el intervalo de números. Por ejemplo, **(425) 555-0649-(425) 555-1115** debe especificarse como **(425) 5550649-(425) 5551115**.
     
-  **Para obtener instrucciones paso a paso, vea [transferir los números de teléfono para Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
+  **Para obtener instrucciones paso a paso, consulte [transferir números de teléfono a Office 365](/microsoftteams/transfer-phone-numbers-to-office-365).**
 
   > [!NOTE]
   > Si necesita obtener más números de teléfono, [póngase en contacto con el soporte de productos para empresas: ayuda para administradores](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

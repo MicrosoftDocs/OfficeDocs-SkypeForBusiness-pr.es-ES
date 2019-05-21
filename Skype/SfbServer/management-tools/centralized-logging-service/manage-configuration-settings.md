@@ -5,38 +5,38 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 8/17/2015
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
-description: 'Resumen: Obtenga información sobre cómo recuperar, actualizar y crear opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.'
-ms.openlocfilehash: e3a800b515e8413b1e9138e6edef91d4c66494bf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Aprenda a recuperar, actualizar y crear parámetros de configuración para el servicio de registro centralizado en Skype empresarial Server 2015.'
+ms.openlocfilehash: e6c1f9c893d0b5e745e558ed37570429689259d9
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33914985"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274432"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Administrar las opciones de configuración del servicio de registro centralizado en Skype Empresarial Server 2015
 
-**Resumen:** Obtenga información sobre cómo recuperar, actualizar y crear opciones de configuración para el servicio de registro centralizado en Skype para Business Server 2015.
+**Resumen:** Obtenga información sobre cómo recuperar, actualizar y crear parámetros de configuración para el servicio de registro centralizado en Skype empresarial Server 2015.
 
-El servicio de registro centralizado se controla y configurado por la configuración y los parámetros que se crean y utilizan el centralizado registro de controlador del servicio (CLSController) para enviar comandos a (agente de servicio de registro centralizado) del equipo individuales Con CLSAgent). El agente procesa los comandos que le envían y (en el caso del comando Start) usa la configuración de los escenarios, los proveedores, la duración del seguimiento y las marcas para empezar a recopilar registros de seguimiento de acuerdo con la información de configuración facilitada.
+El servicio de registro centralizado es controlado y configurado por la configuración y los parámetros creados y usados por el controlador de servicio de registro centralizado (CLSController) para enviar comandos al agente del servicio de registro centralizado ( CLSAgent). El agente procesa los comandos que le envían y (en el caso del comando Start) usa la configuración de los escenarios, los proveedores, la duración del seguimiento y las marcas para empezar a recopilar registros de seguimiento de acuerdo con la información de configuración facilitada.
 
 > [!IMPORTANT]
->  No todos los cmdlets de Windows PowerShell enumerados para el servicio de registro centralizado están diseñados para su uso con Skype para las implementaciones locales de Business Server 2015. Aunque es posible que aparecen para que funcione, los cmdlets siguientes no están diseñados para funcionar con Skype para las implementaciones locales de 2015 de servidor empresarial:
+>  No todos los cmdlets de Windows PowerShell enumerados para el servicio de registro centralizado están pensados para usarlos con las implementaciones locales de Skype empresarial Server 2015. Aunque parezca que funcionen, los siguientes cmdlets no están diseñados para funcionar con las implementaciones locales de Skype empresarial Server 2015:
 
--  **Cmdlets de CsClsRegion:** [Get-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)y [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
--  **Cmdlets de CsClsSearchTerm:** [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) y [Set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
--  **Cmdlets de CsClsSecurityGroup:** [Get-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)y [Remove-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
+-  **Cmdlets de CsClsRegion:** [Get-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/get-csclsregion?view=skype-ps) ,[set-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/new-csclsregion?view=skype-ps)y [Remove-CsClsRegion](https://docs.microsoft.com/powershell/module/skype/remove-csclsregion?view=skype-ps).
+-  **Cmdlets de CsClsSearchTerm:** [Get-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/get-csclssearchterm?view=skype-ps) y [set-CsClsSearchTerm](https://docs.microsoft.com/powershell/module/skype/set-csclssearchterm?view=skype-ps).
+-  **Cmdlets de CsClsSecurityGroup:** [Get-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [set-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/set-csclssecuritygroup?view=skype-ps), [New-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)y [Remove-CsClsSecurityGroup](https://docs.microsoft.com/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
-La configuración definida en estos cmdlets no obstaculizar ni causar ningún comportamiento adversa, pero están diseñados para su uso con Microsoft Office 365 y no se producirán los resultados esperados en las implementaciones locales. Esto no significa que estos cmdlets no sirvan para las implementaciones locales, sino que lo cierto es que tienen un uso más avanzado que no se aborda en esta documentación.
+La configuración definida en estos cmdlets no obstaculizará ni provocará ningún comportamiento adverso, pero estará diseñado para usarse con Microsoft Office 365 y no producirá los resultados esperados en las implementaciones locales. Esto no significa que estos cmdlets no sirvan para las implementaciones locales, sino que lo cierto es que tienen un uso más avanzado que no se aborda en esta documentación.
 
-El servicio de registro centralizado se puede ejecutar en un ámbito que incluye un único equipo o un grupo de equipos, en un ámbito de sitio (es decir, un sitio definido como el sitio de Redmond que contiene una colección de equipo y grupos de servidores en la implementación) o en un ámbito global (es decir todos los equipos y grupos de servidores en la implementación).
+El servicio de registro centralizado se puede ejecutar en un ámbito que incluya un solo equipo o un grupo de equipos, en un ámbito de sitio (es decir, un sitio definido, como el sitio Redmond, que contiene una colección de equipos y grupos en su implementación), o en un ámbito global (es decir, , todos los equipos y grupos de su implementación).
 
-Para configurar el ámbito de servicio de registro centralizado mediante el uso de la Skype para Shell de administración de servidor empresarial, debe ser un miembro de la CsAdministrator o los grupos de seguridad de CsServerAdministrator acceso basado en roles (RBAC) del control o un rol RBAC personalizado que contiene cualquiera de estos dos grupos. Para devolver una lista de todas las funciones RBAC que se ha asignado este cmdlet para (incluidos los roles RBAC personalizados que haya creado), ejecute el siguiente comando desde el Skype para Business Server Management Shell o el símbolo del sistema de Windows PowerShell:
+Para configurar el ámbito del servicio de registro centralizado mediante el shell de administración de Skype empresarial Server, debe ser miembro de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsAdministrator o CsServerAdministrator, o un rol de RBAC personalizado que contiene alguno de estos dos grupos. Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet (incluidos los roles RBAC que haya creado usted mismo), ejecute el siguiente comando desde el shell de administración de Skype empresarial Server o el símbolo del sistema de Windows PowerShell:
 
 ```
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
@@ -49,19 +49,19 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Hay diferencias fundamentales entre los comandos de línea de comandos que se pueden ejecutar en Windows PowerShell o CLSController. Windows PowerShell proporciona un método enriquecido para configurar y definir escenarios y para volver a usar dichos escenarios de forma significativa para los escenarios de solución de problemas. Aunque CLSController ofrece una manera rápida y eficaz de emitir comandos y obtener resultados, el conjunto de comandos de CLSController se limita al número finito de comandos que hay disponibles en la línea de comandos. A diferencia de los cmdlets de Windows PowerShell, CLSController no se puede definir nuevos escenarios, administrar ámbito en un sitio o nivel global y muchas otras limitaciones de un conjunto de comandos limitado que no se puede configurar de forma dinámica. Mientras CLSController proporciona un medio para ejecución rápida, Windows PowerShell proporciona un medio para extender la funcionalidad del servicio de registro centralizado más allá de lo que es posible con CLSController.
+> Existen diferencias fundamentales entre los comandos de la línea de comandos que puede ejecutar en Windows PowerShell o CLSController. Windows PowerShell ofrece un método avanzado para configurar y definir escenarios, y para volver a usarlos de forma significativa para los escenarios de solución de problemas. Aunque CLSController ofrece una manera rápida y eficaz de emitir comandos y obtener resultados, el conjunto de comandos de CLSController se limita al número finito de comandos que hay disponibles en la línea de comandos. A diferencia de los cmdlets de Windows PowerShell, CLSController no puede definir nuevos escenarios, administrar el ámbito a nivel global o de sitio, y muchas otras limitaciones de un conjunto de comandos finito que no se pueden configurar dinámicamente. Si bien CLSController ofrece un medio para realizar una ejecución rápida, Windows PowerShell ofrece un medio para ampliar la funcionalidad del servicio de registro centralizado más allá de lo que es posible con CLSController.
 
-Ámbito de un único equipo puede definirse durante la ejecución de una [Búsqueda-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) y [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) comando con el - parámetro Computers. -Equipos parámetro acepta una lista separada por comas de nombres de dominio completo (FQDN) para el equipo de destino.
+Se puede definir un único ámbito de equipo durante la ejecución de una [búsqueda-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/search-csclslogging?view=skype-ps), [Show-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/show-csclslogging?view=skype-ps), [Start-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/start-csclslogging?view=skype-ps), [Stop-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/stop-csclslogging?view=skype-ps), [Sync-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/sync-csclslogging?view=skype-ps) y [Update-CsClsLogging](https://docs.microsoft.com/powershell/module/skype/update-csclslogging?view=skype-ps) comando con el parámetro-Computers. El parámetro-Computers acepta una lista separada por comas de nombres de dominio completos (FQDN) para el equipo de destino.
 
 > [!TIP]
-> También puede definir - grupos de servidores y una lista separada por comas de los grupos de servidores que se desean ejecutar los comandos de registro en.
+> También puede definir-pools y una lista separada por comas de las agrupaciones en las que desea ejecutar los comandos de registro.
 
-Los ámbitos de sitio y Global se definen en los cmdlets **New -**, **Set -** y **Remove -** servicio de registro centralizado. En los siguientes ejemplos se muestra cómo establecer un ámbito de sitio y un ámbito global.
+Los ámbitos globales y de sitio se definen en los cmdlets del servicio de registro **nuevo**, **set**y **Remove-** centralizados. En los siguientes ejemplos se muestra cómo establecer un ámbito de sitio y un ámbito global.
 
 > [!IMPORTANT]
-> Los comandos que se muestran pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo están diseñados para demostrar el uso de la **-Identity** parámetro para definir el ámbito y los demás parámetros se incluyen para más precisión y para especificar el ámbito. Para más información sobre los cmdlets de **Set-CsClsConfiguration**, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) en la documentación sobre operaciones.
+> Los comandos que se muestran pueden contener parámetros y conceptos tratados en otras secciones. Los comandos de ejemplo pretenden demostrar el uso del parámetro **-Identity** para definir el ámbito, y los otros parámetros se incluyen para completar y especificar el ámbito. Para más información sobre los cmdlets de **Set-CsClsConfiguration**, consulte [Set-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/set-csclsconfiguration?view=skype-ps) en la documentación sobre operaciones.
 
-### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar la configuración actual del servicio de registro centralizado
+### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>Para recuperar la configuración del servicio de registro centralizado actual
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -71,11 +71,11 @@ Los ámbitos de sitio y Global se definen en los cmdlets **New -**, **Set -** y 
    Get-CsClsConfiguration
    ```
 
-Use los cmdlets **New-CsClsConfiguration** y **Set-CsClsConfiguration** para crear una nueva configuración o para actualizar una configuración existente. Cuando se ejecuta **Get-CsClsConfiguration**, muestra información similar a la siguiente pantalla, donde la implementación tiene actualmente la configuración Global de forma predeterminada, pero no las configuraciones de sitios definidas:
+Use los cmdlets **New-CsClsConfiguration** y **set-CsClsConfiguration** para crear una nueva configuración o para actualizar una existente. Al ejecutar **Get-CsClsConfiguration**, se muestra información similar a la siguiente captura de pantalla, en la que la implementación tiene actualmente la configuración global predeterminada, pero no hay configuraciones de sitios definidas:
 
 ![Salida de ejemplo de Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
 
-### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar la configuración actual del servicio de registro centralizado desde el almacén del equipo local
+### <a name="to-retrieve-the-current-centralized-logging-service-configuration-from-the-computer-local-store"></a>Para recuperar la configuración del servicio de registro centralizado actual del almacén local del equipo
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -85,7 +85,7 @@ Use los cmdlets **New-CsClsConfiguration** y **Set-CsClsConfiguration** para cre
    Get-CsClsConfiguration -LocalStore
    ```
 
-Cuando se use en el primer ejemplo donde **Get-CsClsConfiguration** no se especifica ningún parámetro, las referencias de comando el almacén de Administración Central para los datos. Si se especifica el parámetro - LocalStore, el comando hace referencia a la LocalStore de equipo en lugar del almacén de Administración Central.
+Al usar el primer ejemplo, si **Get-CsClsConfiguration** no especifica ningún parámetro, el comando hace referencia al almacén de administración central de los datos. Si especifica el parámetro-LocalStore, el comando hace referencia al equipo LocalStore en lugar del almacén de administración central.
 ### <a name="to-retrieve-a-listing-of-scenarios-currently-defined"></a>Para recuperar la lista de los escenarios actualmente definidos
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
@@ -103,7 +103,7 @@ Cuando se use en el primer ejemplo donde **Get-CsClsConfiguration** no se especi
    ```
 
 El cmdlet **Get-CsClsConfiguration** siempre muestra los escenarios que forman parte de la configuración de un ámbito determinado. En la mayoría de los casos, no se muestran todos los escenarios y están truncados. El comando usado aquí enumera todos los escenarios e información parcial sobre los proveedores, la configuración y las marcas que se utilizan.
-### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para actualizar un ámbito global para el servicio de registro centralizado mediante el uso de Windows PowerShell
+### <a name="to-update-a-global-scope-for-the-centralized-logging-service-by-using-windows-powershell"></a>Para actualizar un ámbito global para el servicio de registro centralizado mediante Windows PowerShell
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -151,7 +151,7 @@ El comando indica a CLSAgent en cada equipo y grupo del sitio Redmond que establ
    ```
 
     > [!NOTE]
-    > New-CsClsConfiguration proporciona acceso a una gran cantidad de opciones de configuración opcionales. Para obtener información detallada acerca de las opciones de configuración, vea [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) y [Descripción centralizada de registro de la configuración del servicio](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
+    > New-CsClsConfiguration proporciona acceso a una gran cantidad de opciones de configuración opcionales. Para obtener más información sobre las opciones de configuración, vea [Get-CsClsConfiguration](https://docs.microsoft.com/powershell/module/skype/get-csclsconfiguration?view=skype-ps) y [comprender los parámetros de configuración del servicio de registro centralizado](https://technet.microsoft.com/library/3c34e600-0b91-43dc-b4cc-90b6a70ee12e.aspx).
 
 Por ejemplo, para crear una configuración que define una carpeta de red para archivos caché, el período de tiempo de sustitución para los archivos de registro y el tamaño de sustitución para los archivos de registro, escribiría:
 
@@ -160,7 +160,7 @@ Por ejemplo, para crear una configuración que define una carpeta de red para ar
   ```
 
 Debe planear cuidadosamente la creación de nuevas configuraciones y cómo definir nuevas propiedades para el servicio de registro centralizado. Hay que tener precaución a la hora de realizar cambios y asegurarse de que comprende cómo afectan a su capacidad para registrar correctamente escenarios de problemas. Es necesario realizar cambios en la configuración que mejoren su capacidad para administrar los registros y establecer un tamaño y un período de sustitución que permitan resolver el problema cuando se produzca.
-### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Para quitar una configuración existente del servicio de registro centralizado
+### <a name="to-remove-an-existing-centralized-logging-service-configuration"></a>Para quitar una configuración del servicio de registro centralizado existente
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -170,14 +170,14 @@ Debe planear cuidadosamente la creación de nuevas configuraciones y cómo defin
    Remove-CsClsConfiguration -Identity <scope and name>
    ```
 
-Por ejemplo, para quitar una configuración del servicio de registro centralizado que creó para aumentar el tiempo de conversión de archivo de registro, aumente el tamaño de archivo de registro de conversión y establezca la ubicación de memoria caché del archivo de registro en un recurso compartido de red de la siguiente manera:
+Por ejemplo, para quitar una configuración centralizada del servicio de registro que ha creado para aumentar el tiempo de sustitución del archivo de registro, aumente el tamaño del archivo de registro de sustitución y establezca la ubicación de la caché del archivo de registro en un recurso compartido de red de la siguiente manera:
 
   ```
   Remove-CsClsConfiguration -Identity "site:Redmond"
   ```
 
 > [!NOTE]
-> Esta es la configuración nueva que se creó en el procedimiento "para"crear una nueva configuración de servicio de registro centralizado.
+> Esta es la nueva configuración que se creó en el procedimiento "para crear una nueva configuración de servicio de registro centralizado".
 
 Si decide quitar una configuración de sitio, el sitio usará la configuración global.
 ## <a name="see-also"></a>Vea también

@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -24,26 +24,26 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
-ms.openlocfilehash: fff28a277df0513728463a1415ed3acedbf08910
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+description: Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para los Estados Unidos.
+ms.openlocfilehash: 4cb21a948fce9c419915a959eb92f73375fcded5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33402550"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281942"
 ---
 # <a name="availability-in-the-united-states-us"></a>Disponibilidad en Estados Unidos (EE. UU.)
 
 [Busque otro país o región](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), o bien obtenga más información sobre la disponibilidad de Audioconferencia y Planes de llamada en los países y regiones.
 
-Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Teams disponibles para los Estados Unidos.
+Estos son los servicios de Office 365 para Skype empresarial y Microsoft Teams disponibles para los Estados Unidos.
 
 ## <a name="audio-conferencing"></a>Audioconferencia
 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, para: <br/><ul><li> Chicago<li>Dallas<li>Los Ángeles<li>Ciudad de Nueva York</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por: <br/><ul><li> Chicago<li>Dallas<li>Los Ángeles<li>Ciudad de Nueva York</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -60,14 +60,14 @@ Aquí están los servicios de Office 365 para Skype para empresas y Microsoft Te
 | **Característica**                                       | **Detalles**                                                                                                                                                                                                                                                                                                                     |
 |:--------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ¿Los planes de llamada están disponibles para la compra?  <br/>   | Sí  <br/>                                                                                                                                                                                                                                                                                                                      |
-| Minutos disponibles para llamar a los planes.              | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>120 minuto nacionales llamar a planear (la disponibilidad es limitada)</li><li>240 minuto nacionales llamar a planear (la disponibilidad es limitada)</li></li><li>3000 minuto al llamar a planear nacionales </li></li><li>Nacionales y llamar a planear internacional: 3000 minutos de minutos de OR 600 nacionales de las llamadas internacionales (lo que se alcance primero en el mes del calendario)</li></li> |
-| ¿Puede realizar llamadas salientes a los números de premium? <br/> | No se admite en este momento. <br/>                                                                                                                                                                                                                                                                                               |
+| Minutos disponibles para planes de llamadas.              | Hay cuatro opciones de plan disponibles por mes del calendario: <ul><li>Plan de llamadas nacionales de 120 minutos (la disponibilidad es limitada)</li><li>Plan de llamadas nacionales de 240 minutos (la disponibilidad es limitada)</li></li><li>Plan de llamadas nacionales de 3000 minutos </li></li><li>Plan de llamadas nacionales e internacionales: 3000 minutos de llamadas nacionales o de 600 minutos de llamadas internacionales (lo que se haya alcanzado en primer lugar en el mes del calendario)</li></li> |
+| ¿Puede hacer llamadas salientes a números especiales? <br/> | No es compatible en este momento. <br/>                                                                                                                                                                                                                                                                                               |
 | ¿A qué números se pueden hacer llamadas salientes?  <br/>                | A 196 países, entre los que se incluyen [estos](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/>                                                                                                                                                                                                                      |
 > [!Note]
 > Las llamadas a Canadá se tratan como llamadas nacionales.
 
 >[!Note] 
-> Llamada nacional de Estados Unidos incluye llamadas a todos los Estados de Estados Unidos y Puerto Rico 50. Los usuarios asignados con la ubicación de uso de la licencia de Estados Unidos y Puerto Rico comparten el mismo conjunto de minutos.
+> Las llamadas nacionales a Estados Unidos incluyen llamadas a todos los Estados Unidos de 50 y Puerto Rico. Los usuarios asignados con la ubicación de uso de licencias de Estados Unidos y/o Puerto Rico comparten el mismo grupo de minutos.
 
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Números gratuitos y de pago para servicios
 

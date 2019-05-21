@@ -10,7 +10,7 @@ ms.tgt.pltfrm: cloud
 ms.service: skype-for-business-online
 search.appverid: MET150
 ms.collection: Adm_Skype4B_Online
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 localization_priority: Normal
@@ -19,39 +19,39 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Learn how to set up Skype for Business so you can see the availability of your co-workers. '
-ms.openlocfilehash: 5c8d30106397d18957c7866d9b4961cfa1409f83
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a22606beacd03bfefda2b3080c2ee345ccfef2fa
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32237750"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34285328"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Configurar la presencia en Skype Empresarial Online
 
-De forma predeterminada, cualquier persona que puede comunicarse con una de las personas de su organización mediante Skype para la empresa también puede ver si esa persona está en línea. Skype para la empresa muestra si una persona está disponible en línea, en una reunión, sin conexión, o de otro indicador.
+De forma predeterminada, cualquier persona que pueda comunicarse con una de las personas de su organización con Skype empresarial también puede ver si esa persona está conectada. Skype empresarial muestra si una persona está disponible en línea, en una reunión, sin conexión u otra indicación.
 
-![Un ejemplo de estado de conexión de una persona en Skype para la empresa.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
+![Ejemplo del estado de conexión de un usuario en Skype empresarial.](../images/f0849132-1ddb-480f-bca6-cfe9eaa0486d.png)
 
-Como **[Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** para todas las personas de su negocio, puede elegir quién ve su presencia en línea en Skype para la empresa.
+Como **[Administrador](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** de todas las personas de su empresa, puede elegir quién verá su presencia en línea en Skype empresarial.
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
-1. Vaya al **Centro de administración de Office 365** > **centros de administración** > **Skype para la empresa**.
+1. Vaya a **Office 365 administración centro** > de administración centro de**Administración** > **de Skype empresarial**.
 
-2. En el **Skype para el centro de administración de negocio**, elija la **organización**.
+2. En el **centro de administración de Skype empresarial**, elija **organización**.
 
-3. En el **modo de privacidad de presencia**, seleccione una de las siguientes opciones y, a continuación, elija **Guardar**.
+3. En **modo de privacidad de presencia**, seleccione una de las opciones siguientes y, a continuación, elija **Guardar**.
 
-|**Configuración**|**Quién puede ver la presencia de un usuario**|
+|**Al**|**Quién puede ver la presencia de un usuario**|
 |:-----|:-----|
-|**Mostrar información de presencia automáticamente** <br/> |Cualquier Skype para usuarios de empresa en su empresa que no se ha agregado a una persona **externa** o lista de **bloqueados** podrán ver la presencia en línea de esa persona. <br/> |
-|**Mostrar información de presencia únicamente para los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de una persona que no ha agregado a su lista de **bloqueados** o **externo** . <br/> Las personas pueden invalidar la configuración predeterminada en su Skype para la aplicación empresarial: **configuración** > **Herramientas** > **Opciones**. <br/> |
+|**Mostrar información de presencia automáticamente** <br/> |Cualquier usuario de Skype empresarial de su empresa que no se haya agregado a la lista **externa** o **bloqueada** de una persona podrá ver la presencia en línea de ese usuario. <br/> |
+|**Mostrar la información de presencia solo a los contactos de un usuario** <br/> |Cualquier persona de la lista de contactos de un usuario que no haya añadido a su lista **externa** o **bloqueada** . <br/> Los usuarios pueden invalidar la configuración predeterminada en la aplicación de Skype empresarial:**Opciones**de**herramientas** > de **configuración** > . <br/> |
 
-Para obtener información acerca de lo que los usuarios pueden cambiar en Skype para la empresa, vea estos artículos:
+Para obtener información sobre lo que los usuarios pueden cambiar en Skype empresarial, consulte estos artículos:
 
-- [Controlar el acceso a la información de presencia en Skype para la empresa](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
+- [Controlar el acceso a la información de presencia en Skype empresarial](https://support.office.com/en-us/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 
-- [Establecer las opciones de estado de Skype para la empresa](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
+- [Establecer las opciones de estado en Skype empresarial](https://support.office.com/en-us/article/efd25395-c8ef-4510-b9cb-6f70e2fff8a0)
 
 ## <a name="related-topics"></a>Temas relacionados
 

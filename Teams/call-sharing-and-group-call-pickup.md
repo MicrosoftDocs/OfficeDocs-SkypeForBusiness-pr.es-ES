@@ -12,48 +12,48 @@ search.appverid: MET150
 ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Phone System
-description: Uso compartido de llamadas y respuesta de llamadas en grupo permite a los usuarios compartir las llamadas entrantes con compañeros de trabajo para que las llamadas se pueden capturar cuando el usuario no está disponible.
-ms.openlocfilehash: e822d06e48f3d7df548f0fd0d04645e7e9328598
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: El uso compartido de llamadas y la recogida de llamadas de Grupo permiten a los usuarios compartir llamadas entrantes con colegas para que las llamadas se puedan capturar cuando el usuario no está disponible.
+ms.openlocfilehash: 02c6605f3a5ea1df3457eaadea9956727431a827
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32211826"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34283482"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Compartir llamadas y atender llamadas grupales en Microsoft Teams
 
-El uso compartido de llamada y el grupo de llamadas pickup características de recurso compartido de permiten a los usuarios de Microsoft Teams sus las llamadas entrantes con compañeros de trabajo para que los compañeros pueden responder a las llamadas que se producen mientras el usuario no está disponible.
+Las características uso compartido de llamadas y recogida de llamadas grupales de Microsoft Teams permiten a los usuarios compartir sus llamadas entrantes con colegas para que los colegas puedan responder a llamadas que se produzcan mientras el usuario no está disponible.
 
-Respuesta de llamadas en grupo es menos problemática para los destinatarios que otras formas de llamada de uso compartido (por ejemplo, el desvío de llamadas o las llamadas simultáneas) debido a que los usuarios pueden configurar la forma en que deseen recibir una notificación de una llamada entrante compartida (a través de notificación de audio y vídeo, solo, visual pancarta o en la aplicación de los equipos), y pueden decidir si se debe responder a la llamada.
+La recogida de llamadas grupales es menos disruptiva para los destinatarios que otras formas de uso compartido de llamadas (como el desvío de llamadas o el timbre simultáneo) porque los usuarios pueden configurar cómo desean recibir una notificación de una llamada compartida entrante (mediante una notificación de audio y vídeo, solo visual, o banner en la aplicación de Teams) y pueden decidir si desea contestarlos.
 
-Para compartir las llamadas con otros usuarios, un usuario crea un grupo de llamada y agrega a los usuarios que desean compartir sus llamadas con. A continuación, que elija una llamada simultánea o reenvían configuración. Para obtener información detallada, vea [llamar anillo desvío y simultánea en los equipos](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
+Para compartir llamadas con otras personas, un usuario crea un grupo de llamadas y agrega los usuarios con los que desean compartir sus llamadas. Luego, eligen una configuración de llamada simultánea o de reenvío. Para obtener más información [, consulta desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) .
 
 > [!IMPORTANT]
-> Los usuarios, el propietario del grupo de llamada y los miembros del grupo de llamada deben estar en modo de implementación sólo los equipos. Para obtener más detalles sobre los modos de implementación de los equipos, vea [Descripción de los equipos de Microsoft y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Los usuarios, el propietario del grupo de llamadas y los miembros del grupo de llamadas deben estar en el modo de implementación solo de Teams. Para obtener más información sobre los modos de implementación de Teams, consulte comprender la coexistencia y la interoperabilidad [de Microsoft Teams y Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
-## <a name="license-required"></a>Se requiere una licencia
+## <a name="license-required"></a>Licencia requerida
 
-Los usuarios deben ser Enterprise Voice está habilitado para configurar y uso compartido de llamada y respuesta de llamadas de grupo. Para obtener más información sobre el modelo de licencias, vea [licencias de Office 365 para equipos de Microsoft](office-365-licensing.md).
+Los usuarios deben tener habilitada la telefonía IP empresarial para configurar y usar el uso compartido de llamadas y la recogida de llamadas grupales. Para obtener más información sobre el modelo de licencias, consulte [licencias de Office 365 para Microsoft Teams](office-365-licensing.md).
 
-## <a name="configure-group-call-pickup"></a>Configurar respuesta de llamadas en grupo
+## <a name="configure-group-call-pickup"></a>Configurar la recogida de llamadas grupales
 
-Para configurar la respuesta de llamadas en grupo, un usuario en primer lugar configura un grupo de llamada (Esto no es lo mismo como un grupo de seguridad o un grupo de Office 365) y, a continuación, agrega los usuarios que desean compartir sus llamadas con. A continuación, se elige una llamada simultánea o configuración de reenvío de llamadas. Para obtener más información y procedimientos paso a paso, vea [llamada anillo desvío y simultánea en los equipos](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
+Para configurar la recogida de llamadas grupales, un usuario configura primero un grupo de llamadas (no es lo mismo que un grupo de seguridad o un grupo de Office 365) y, a continuación, agrega los usuarios con los que desea compartir las llamadas. Después, eligen una configuración de llamadas simultáneas o de desvío de llamadas. Para obtener más información y procedimientos paso a paso, consulte [desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e).
 
-Llamar a la creación del grupo y notificación preferencias son las características de controlado por el usuario; no es necesario que los administradores configurar estas características para sus usuarios. No se puede crear grupos de llamada de grupos de seguridad o grupos de Office 365; se deben crear en los equipos.
+Las preferencias de notificación y creación de grupos de llamadas son características dirigidas por el usuario; los administradores no tienen que configurar estas características para sus usuarios. No se pueden crear grupos de llamadas a partir de grupos de seguridad o grupos de Office 365; se deben crear en Teams.
 
-Los administradores deben habilitar grupos de llamada a través de la configuración de **TeamsCallingPolicy AllowCallGroups** para un usuario. Los administradores pueden controlar sólo si este usuario puede configurar los grupos de la llamada. Una vez que está establecido el bit a los administradores es true, no puede evitar que el usuario de configuración y la adición de los usuarios del grupo de llamada de su elección.
+Los administradores deben habilitar los grupos de llamadas a través de la configuración de **TeamsCallingPolicy AllowCallGroups** para un usuario. Los administradores solo pueden controlar si este usuario puede configurar grupos de llamadas. Una vez que el bit se establece en true, los administradores no pueden impedir que el usuario configure y agregue los usuarios del grupo de llamadas de su elección.
 
-## <a name="limitations"></a>Limitaciones
+## <a name="limitations"></a>Algunas
 
-Un inquilino puede contener un máximo de grupos de llamada 32.768. Puede haber un máximo de 5 usuarios en cada grupo de llamada. 
+Un inquilino puede contener un máximo de 32.768 grupos de llamadas. Puede haber un máximo de 5 usuarios en cada grupo de llamadas. 
 
 ## <a name="more-information"></a>Más información
 
-[Desvío de llamadas y la llamada simultánea en los equipos](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
+[Desvío de llamadas y llamadas simultáneas en Teams](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)

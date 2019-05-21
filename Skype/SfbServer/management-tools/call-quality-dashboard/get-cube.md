@@ -4,51 +4,51 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
-description: 'Resumen: Obtenga información acerca de la operación obtener cubo, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 3d6d1ceecb330219bdc563ca126bb13c49d1902b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación obtener cubo, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 970187ce9f95700185ab09bd7aadf9045575b393
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886883"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274775"
 ---
 # <a name="get-cube"></a>Obtener cubo
  
-**Resumen:** Obtenga información acerca de la operación obtener cubo, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga información sobre la operación obtener cubo, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación obtener Cube es parte de la API de datos para llamar al panel de calidad.
+La operación obtener cubo es parte de la API de datos para el panel de calidad de llamadas.
   
 ## <a name="get-cube"></a>Obtener cubo
 
-Operación de cubo Get devuelve la lista de dimensiones disponibles y las medidas.
+La operación obtener cubo devuelve la lista de dimensiones y medidas disponibles.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
 |Obtener  <br/> |https://\<portal\>/QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
 > [!NOTE]
-> En este ejemplo se muestra sólo dos primeros elementos de cada grupos de elementos de cubo. 
+> Este ejemplo solo muestra los dos primeros elementos de cada grupo de elementos de cubo. 
   
 ```
 {
@@ -91,10 +91,10 @@ Operación de cubo Get devuelve la lista de dimensiones disponibles y las medida
 }
 ```
 
- *Los KPI* - reservado La sección de KPI de una carga de solicitud permite el funcionamiento de ejecutar la consulta devolver los valores para los KPI definidos en el cubo. Ningún KPI aún existe en el cubo de QoE.
+ *KPI* : reservado. La sección KPI de una carga de solicitud permite que la operación ejecutar consulta devuelva valores para los KPI definidos en el cubo. Aún no existe ningún KPI en el cubo de calidad.
   
- *Dimensiones* - la lista de dimensiones que se puede usar en las secciones de filtros y las dimensiones de una carga de solicitud para la operación de ejecutar la consulta. Para usar una dimensión en una expresión de filtro, debe especificar a un miembro de dimensión, que puede obtenerse mediante la operación de obtener miembros de dimensión.
+ *Dimensiones* : la lista de dimensiones que se pueden usar en secciones de filtros y dimensiones de una solicitud de carga para la operación ejecutar consulta. Para usar una dimensión en una expresión de filtro, debe especificar un miembro de la dimensión, que se puede obtener con la operación de obtención de miembros de la dimensión.
   
- *Las medidas* : la lista de las medidas que pueden utilizarse en la sección de las medidas de una carga de solicitud para la operación de ejecutar la consulta.
+ *Medidas* : la lista de medidas que se pueden usar en la sección medidas de una carga de solicitud para la operación ejecutar consulta.
   
 

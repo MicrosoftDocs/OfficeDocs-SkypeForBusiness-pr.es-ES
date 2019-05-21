@@ -4,48 +4,48 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d39b1dbc-1514-43ec-8593-9f23b3fcae62
-description: 'Resumen: Obtenga información acerca de la operación obtener antecesores del elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 22672146ec9ab071041c85c31a466d766ffe31b9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación obtener elementos antecesores de elemento, que es parte del servicio de elemento. El servicio de artículo forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 77fb5f46ada278bcb172a51620317182fe5d61b0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930640"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274733"
 ---
 # <a name="get-item-ancestors"></a>Obtener predecesores del elemento
  
-**Resumen:** Obtenga información acerca de la operación obtener antecesores del elemento, que es parte del servicio de elemento. El servicio de elemento es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la operación obtener elementos antecesores de elemento, que es parte del servicio de elemento. El servicio de artículo forma parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación obtener elemento antecesores es parte del servicio de elemento de la API de repositorio para llamar al panel de calidad.
+La operación obtener elementos antecesores del elemento es parte del servicio de elemento en la API del repositorio para el panel de calidad de llamadas.
   
 ## <a name="get-item-ancestors"></a>Obtener predecesores del elemento
 
-Get elemento antecesores devuelve a un antecesores elementos específicos del repositorio.
+Obtener elementos antecesores del elemento devuelve los elementos antecesores específicos del repositorio.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/itemAncestors / {itemId}  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoERepositoryService/Repository/itemAncestors/{Itemid}  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar). Si un usuario especificado que no se encuentra el identificador, devuelve el código de estado 404 (no encontrado).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto). Si no se encuentra un identificador de usuario especificado, devuelve el código de estado 404 (no se encontró).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
 ```
 [{
@@ -60,10 +60,10 @@ Get elemento antecesores devuelve a un antecesores elementos específicos del re
 }]
 ```
 
- *Item1* - identificador del elemento.
+ *Item1* -ID del elemento.
   
- *Item2* - profundidad es la distancia desde el elemento. 0 es el objeto primario inmediato.
+ *Item2* -profundidad es la distancia desde el elemento. 0 es el elemento primario inmediato.
   
- *Item3* - título del elemento.
+ *Item3* : título del elemento.
   
 

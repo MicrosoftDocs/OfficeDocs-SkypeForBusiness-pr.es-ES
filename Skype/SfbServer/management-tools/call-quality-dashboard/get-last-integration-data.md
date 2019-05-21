@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
-description: 'Resumen: Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 22a7382bfd861b3cade606cd087e17c007fb947b
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación obtener datos de la última integración, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: d110bdc1fe88a9fe7f77abe7f7b9ed47a3324eb0
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930689"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274698"
 ---
 # <a name="get-last-integration-data"></a>Obtener últimos datos de integración
  
-**Resumen:** Obtenga información acerca de la operación Obtener última datos de integración, que es parte de la API de datos para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la operación obtener datos de la última integración, que forma parte de la API de datos para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación de obtener datos de integración de última forma parte de la API de datos para el panel de calidad de llamadas.
+La operación obtener datos de la última integración es parte de la API de datos para el panel de calidad de llamadas.
   
 ## <a name="get-last-integration-data"></a>Obtener últimos datos de integración
 
-Operación de datos de integración último Get devuelve la lista de los últimos 5 éxito o error de archivado y el procesamiento del cubo.
+Obtener la operación de datos de la última integración devuelve la lista de los 5 últimos resultados de archivado y procesamiento de cubo.
   
 Esta característica está deshabilitada de forma predeterminada y debe habilitarse mediante la configuración de la API de datos.
   
 
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoEDataService/IntegrationLog/status  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - a continuación es un estado de registro de ejemplo.
+ **Cuerpo de respuesta** : a continuación se muestra un ejemplo de registro.
   
 ```
 {

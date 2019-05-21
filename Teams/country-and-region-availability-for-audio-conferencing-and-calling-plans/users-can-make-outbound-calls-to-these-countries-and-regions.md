@@ -13,7 +13,7 @@ ms.collection:
 - Teams_ITAdmin_Help
 - M365-voice
 search.appverid: MET150
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Este tema contiene todos los países o regiones que los usuarios pueden realizar llamadas salientes a si tienen un Plan de llamada.
-ms.openlocfilehash: 70c0a0631f4f01ab87ef185b96b6c3fb00b14e6e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Este tema contiene todos los países o regiones en los que los usuarios pueden realizar llamadas salientes si tienen un plan de llamadas.
+ms.openlocfilehash: 3f6ff1f7bb3d9659ec9429b3eb48a8ae9968d636
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32200254"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281904"
 ---
 # <a name="users-can-make-outbound-calls-to-these-countries-and-regions"></a>Los usuarios pueden realizar llamadas a estos países y regiones
 
-### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Vea lo que los usuarios de países o regiones pueden realizar llamadas salientes a si el usuario tiene la licencia nacionales y llamar a planear internacional
+### <a name="see-what-countriesregions-users-can-make-outbound-calls-to-if-the-user-has-the-domestic-and-international-calling-plan-license"></a>Ver qué países o regiones los usuarios pueden hacer llamadas salientes si el usuario tiene la licencia del plan de llamadas nacionales e internacionales
 
-|**A - D**| **E - H**|**I - L**|**M - O**|**P - S**|**T - Z**|
+|**A-D**| **E-H**|**I-L**|**M-O**|**P-S**|**T-Z**|
 ---|---|---|---|---|---|
 |Afganistán|Ecuador |Islandia |Macao |Pakistán |Taiwán   |
 |Albania|Egipto |India |Macedonia |Palaos |Tayikistán   |
@@ -63,9 +63,9 @@ ms.locfileid: "32200254"
 |Bután |Guinea |Luxemburgo |Antillas Holandesas |Eslovaquia |Zambia  |
 |Bolivia |Guyana| |Nueva Caledonia |Eslovenia |Zimbabue |
 |Bosnia y Herzegovina |Haití ||Nueva Zelanda |Sudáfrica | 
-|Botsuana |Honduras ||Nicaragua |Sudán sur |
+|Botsuana |Honduras ||Nicaragua |Sudán del sur |
 |Brasil |Hong Kong ||Níger |España | 
-|Bunei Darussalam |Hungría ||Nigeria |Sri Lanka | 
+|BUNEI Darussalam |Hungría ||Nigeria |Sri Lanka | 
 |Bulgaria |||Islas Marianas del Norte |San Pedro y Miquelón |
 |Burkina Faso |||Noruega |Sudán |
 |Camboya |||Omán |Surinam | 

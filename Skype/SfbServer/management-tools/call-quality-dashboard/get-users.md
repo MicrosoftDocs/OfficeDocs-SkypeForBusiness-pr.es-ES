@@ -4,50 +4,50 @@ ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: 87d34baf-4c31-468d-b8f7-4faca0bc7a54
-description: 'Resumen: Obtenga información acerca de la operación obtener los usuarios, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.'
-ms.openlocfilehash: 4f3c1a00134cb0f8276d511d80ae7bc6f82f2d72
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre la operación obtener usuarios, que forma parte del servicio de usuario. El servicio de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.'
+ms.openlocfilehash: 22223c37dad39f171afc27eb9e0520b8b32335c5
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33897334"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34274649"
 ---
 # <a name="get-users"></a>Obtener usuarios
  
-**Resumen:** Obtenga información acerca de la operación obtener los usuarios, que es parte del servicio de usuario. El servicio de usuario es parte de la API de repositorio para llamar al panel de calidad. Panel de calidad de llamada es una herramienta de Skype para Business Server.
+**Resumen:** Obtenga más información sobre la operación obtener usuarios, que es parte del servicio de usuario. El servicio de usuario es parte de la API del repositorio para el panel de calidad de llamadas. El panel de calidad de llamadas es una herramienta para Skype empresarial Server.
   
-La operación de obtener los usuarios es parte del servicio de usuario de la API de repositorio para llamar al panel de calidad.
+La operación obtener usuarios forma parte del servicio de usuario en la API del repositorio para el panel de calidad de llamadas.
   
 ## <a name="get-users"></a>Obtener usuarios
 
-Obtener una lista de los usuarios de devuelve los usuarios en el repositorio.
+Obtener usuarios devuelve una lista de usuarios del repositorio.
   
-|**(Método)**|**URI de la solicitud**|**Versión de HTTP**|
+|**Método**|**Solicitar URI**|**Versión HTTP**|
 |:-----|:-----|:-----|
-|Obtener  <br/> |https://\<portal\>/QoERepositoryService/repository/user  <br/> |HTTP/1.1  <br/> |
+|Obtener  <br/> |https://\<portal\>/QoERepositoryService/Repository/User  <br/> |HTTP/1.1  <br/> |
    
- **Los parámetros URI** - ninguno.
+ **Parámetros de URI** : ninguno.
   
- **Encabezados de solicitud** - sin encabezados adicionales.
+ **Solicitar encabezados** : no hay encabezados adicionales.
   
- **Cuerpo de la convocatoria** - ninguno.
+ **Solicitar cuerpo** : ninguno.
   
- **Respuesta** : la respuesta incluye un código de estado HTTP y un conjunto de encabezados de respuesta.
+ **Respuesta** : la respuesta incluye un código de estado http y un conjunto de encabezados de respuesta.
   
- **Código de estado** - una operación correcta devuelve código de estado 200 (Aceptar).
+ **Código de estado** : una operación correcta devuelve el código de estado 200 (correcto).
   
- **Encabezados de respuesta** - sin encabezados adicionales.
+ **Encabezados de respuesta** : no hay encabezados adicionales.
   
- **Cuerpo de la respuesta** - a continuación es una carga de respuesta de ejemplo en JSON.
+ **Cuerpo de respuesta** : a continuación se muestra un ejemplo de carga de respuesta en JSON.
   
 > [!NOTE]
-> Se devuelve una matriz de objetos de usuario. Para obtener información detallada sobre el objeto de usuario, vea obtener el usuario. 
+> Se devuelve una matriz de objetos de usuario. Para obtener más información sobre el objeto de usuario, vea obtener usuario. 
   
 ```
 [{

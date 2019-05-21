@@ -12,7 +12,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: 'Vea cómo buscar números de teléfono que pueda asignar a los usuarios, por país/región, provincia/región o ciudad, y especificar la cantidad de números que necesita. '
-ms.openlocfilehash: eeae7ad4bcafea1f8a1f86d36e59d2f57a2edff1
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 42f678b81b34b145e086e413bb95a53eab054167
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32230063"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34280496"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Buscar números de teléfono para los usuarios
 
@@ -38,18 +38,18 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
   
 ## <a name="search-for-phone-numbers"></a>Buscar números de teléfono
 
- **Para buscar los números de teléfono para los usuarios**
+ **Para buscar números de teléfono para los usuarios**
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
   
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
-2. Vaya al **Centro de administración de equipos de Microsoft** > **portal heredado**.
+2. Vaya al > **portal heredado**del **centro de administración de Microsoft Teams**.
     
-3. En el panel de navegación izquierdo, vaya a **voz** > **los números de teléfono**y, a continuación, haga clic en **Agregar nuevo número** > **nuevos números de usuario**.
+3. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > y haga clic en **agregar nuevos** > **números de usuario**.
   
     > [!IMPORTANT]
-    > Para que pueda ver la opción de **voz** en la izquierda en la Skype para el centro de administración de negocio, primero debe comprar una licencia adicional para **Conferencias de Audio** , una licencia adicional para **El sistema de teléfono** o al menos una **licencia Enterprise E5**.  
+    > Para ver la opción de **voz** en el navegación izquierdo en el centro de administración de Skype empresarial, primero debe comprar al menos una **licencia de Enterprise E5**, una licencia de complemento de **sistema de teléfono** o una licencia de complemento de **audioconferencia** .  
     
     
 4. En la página **Agregar nuevos números de usuario**, haga clic en las listas**** de **País y Estado** para seleccionar el estado del que desea seleccionar números y, a continuación, seleccione el código de área de la ciudad de la lista **Ciudad**.
@@ -59,7 +59,7 @@ Si necesita ayuda con la introducción de los números de teléfono, puede ver [
     > [!NOTE]
     > Puede ver el número de números de teléfono, que se basa en el número de licencias, que aparecen junto a **Números de usuario totales que puede adquirir**. 
   
-6. You can click **Show numbers** to see the full list of phone numbers. Esto resulta útil si no desea para seleccionar un número de teléfono específico en la lista.
+6. You can click **Show numbers** to see the full list of phone numbers. Esto es útil si no deseas seleccionar un número de teléfono específico de la lista.
     
 7. Seleccione los números de teléfono que desee y haga clic en **Adquirir números**.
     

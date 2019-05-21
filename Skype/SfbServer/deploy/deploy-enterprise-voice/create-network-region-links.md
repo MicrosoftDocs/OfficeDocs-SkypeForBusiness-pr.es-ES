@@ -1,10 +1,10 @@
 ---
-title: Crear vínculos de región de red en Skype para Business Server
+title: Crear vínculos de región de red en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,23 +13,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server.
-ms.openlocfilehash: c3b0f24ffdeea1724c89951ffc88516aea4dffb5
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Crear o modificar vínculos de región de red, que usan los controles de admisión de llamadas de telefonía de empresa en Skype empresarial Server.
+ms.openlocfilehash: 60d4d6f1279e7f6ad3946a6b25fb32ecd589ab07
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33892961"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286273"
 ---
-# <a name="create-network-region-links-in-skype-for-business-server"></a>Crear vínculos de región de red en Skype para Business Server
+# <a name="create-network-region-links-in-skype-for-business-server"></a>Crear vínculos de región de red en Skype empresarial Server
  
-Crear o modificar vínculos de región de red, que se usan por el control de admisión de llamadas de Enterprise Voice en Skype para Business Server. 
+Crear o modificar vínculos de región de red, que usan los controles de admisión de llamadas de telefonía de empresa en Skype empresarial Server. 
   
 Las regiones de una red se vinculan mediante conexiones de red WAN físicas. Un vínculo de región de red crea un vínculo entre dos regiones configuradas para el control de admisión de llamadas (CAC) y establece los límites de ancho de banda en el tráfico de audio y vídeo entre estas regiones.
   
-La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región de está limitada por el ancho de banda de WAN, tal como se describe en la tabla de información de ancho de banda del vínculo de región en [ejemplo: recopilación de requisitos de control de admisión de llamadas en Skype para Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
+La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y APAC, y uno entre las regiones de EMEA y APAC. Cada uno de estos vínculos de región está limitado por el ancho de banda WAN, como se describe en la tabla información de ancho de banda de vínculos de región por [ejemplo: recopilación de requisitos para el control de admisión de llamadas en Skype empresarial Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md).
   
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para crear vínculos de región de red mediante el uso de Skype para Shell de administración de servidor empresarial
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>Para crear vínculos de región de red con el shell de administración de Skype empresarial Server
 
 1. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
     
@@ -43,9 +43,9 @@ La topología de ejemplo tiene un vínculo entre las regiones de Norteamérica y
    New-CsNetworkRegionLink -NetworkRegionLinkID EMEA-APAC-LINK -NetworkRegionID1 EMEA -NetworkRegionID2 APAC -BWPolicyProfileID 25Mb_Link
    ```
 
-### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Para crear vínculos de región de red mediante el uso de Skype para el Panel de Control de servidor empresarial
+### <a name="to-create-network-region-links-by-using-skype-for-business-server-control-panel"></a>Para crear vínculos de región de red con el panel de control de Skype empresarial Server
 
-1. Abra Skype para el Panel de Control de servidor empresarial.
+1. Abra el panel de control de Skype empresarial Server.
     
 2. En la barra de navegación izquierda, haga clic en **Configuración de red**.
     

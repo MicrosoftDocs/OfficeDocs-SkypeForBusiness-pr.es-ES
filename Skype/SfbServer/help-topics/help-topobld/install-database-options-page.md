@@ -5,43 +5,43 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
-description: 'Configurar opciones avanzadas para la ubicación de archivos de registro y base de datos en SQL Server. Las opciones disponibles son:'
-ms.openlocfilehash: 17453e97bf527390ed2dab561c3995711d7b1d07
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Configure las opciones avanzadas para la ubicación de la base de datos y los archivos de registro en SQL Server. Las opciones disponibles son las siguientes:'
+ms.openlocfilehash: 5a2aa6bffc5424c10ed752c7c3d2ac28cfba1684
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33888614"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34284280"
 ---
 # <a name="install-database-options-page"></a>Página de opción Instalar base de datos
 
-Configurar opciones avanzadas para la ubicación de archivos de registro y base de datos en SQL Server. Las opciones disponibles son:
+Configure las opciones avanzadas para la ubicación de la base de datos y los archivos de registro en SQL Server. Las opciones disponibles son las siguientes:
 
 > [!IMPORTANT]
-> Seleccione la opción que mejor se adapte a sus necesidades y directivas relacionadas con la ubicación de archivos de datos y de registro en los equipos de SQL Server.
+> Seleccione la opción que mejor se adapte a sus requisitos y políticas relativas a los datos y la ubicación del archivo de registro en los equipos SQL Server.
 
- **Determinar automáticamente la ubicación del archivo de base de datos**: la opción predeterminada usa un algoritmo que determina el espacio disponible en el servidor SQL Server y distribuye la base de datos y archivos de registro para un rendimiento óptimo.
+ **Determinar automáticamente la ubicación del archivo de base de datos**: la opción predeterminada usa un algoritmo que determina el espacio disponible en el servidor SQL Server y distribuye los archivos de registro y de base de datos para obtener un rendimiento óptimo.
 
- **Valores predeterminados de instancia de SQL Server de uso**: seleccione esta opción para colocar el archivo de base de datos y los archivos en función de la configuración de instancia de SQL Server de registro. Normalmente, las opciones son administradas y configuradas por el Administrador de base de datos.
+ **Usar valores predeterminados de instancia de SQL Server**: Seleccione esta opción para colocar archivos de base de datos y de registro basados en la configuración de la instancia de SQL Server. Las opciones las suele administrar y configurar el administrador de la base de datos.
 
- **Nos estos ruta de acceso en SQL Server de destino**: seleccione esta opción para definir sus propios rutas de acceso para los archivos de registro y base de datos de SQL Server, escriba la ruta de acceso completa a la unidad y la carpeta donde se colocará la base de datos y archivos de registro.
+ **Estas rutas en el servidor SQL Server de destino**: Seleccione esta opción para definir sus propias rutas para la base de datos y los archivos de registro de SQL Server escribiendo la ruta de acceso completa de la unidad y la carpeta donde se colocarán los archivos de registro y la base de datos.
 
 > [!IMPORTANT]
-> Las rutas de acceso que especifique se pueden modificar en función de los algoritmos de optimización del rendimiento en la instalación. Para obtener información detallada, vea [Base de datos de instalación de uso de Lync Server Management Shell](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
+> Las rutas de la sesión se pueden modificar en función de los algoritmos de optimización del rendimiento de la instalación. Para obtener más información, vea [instalación de bases de datos mediante el shell de administración de Lync Server](https://technet.microsoft.com/library/c90a6449-4dd5-4b18-b21c-ea2c2a64dc3c.aspx).
 
  **Aceptar**: haga clic en el botón Aceptar para confirmar los cambios.
 
- **Cancelar**: haga clic en Cancelar para descartar los cambios y volver a la pantalla de instalación de base de datos.
+ **Cancelar**: haga clic en Cancelar para descartar los cambios y volver a la pantalla instalar base de datos.
 
- **Ayuda**: haga clic en el botón Ayuda para obtener acceso a esta página de ayuda.
+ **Ayuda**: haga clic en el botón ayuda para acceder a esta página de ayuda.
 
 ## <a name="see-also"></a>Vea también
 
-[Ubicación del archivo de registro y de datos de SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
+[Ubicación de los archivos de datos y registro de SQL Server](https://technet.microsoft.com/library/67aa525b-8aa3-474f-827e-8e1d4697f30f.aspx)
