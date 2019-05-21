@@ -5,27 +5,27 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.PublishTopologySelectCmsPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: df447066-2840-431b-bc4e-acf8aa692d71
-description: Publicar la topología que se ha configurado mediante el generador de topología. Le pedirá que seleccione en la lista que el grupo de servidores Front-End o de servidor Front-End asumirá la función de mantener el almacén de Administración Central. Un solo grupo de servidores Front-End o de servidor Front-End puede contener esta función en cualquier momento dado.
-ms.openlocfilehash: 196749458bcae93e040e5ed9039a588d3959fb30
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Publique la topología que ha configurado con el generador de topología. Se le pedirá que seleccione de una lista en la que el servidor front-end o el grupo de servidores front-end asumirán la función de mantener el almacén de administración central. Solo un servidor front-end o un grupo de servidores front-end pueden mantener este rol en un momento dado.
+ms.openlocfilehash: 8f529f9b7fb303a7c5477bd28eea6d2881960937
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910451"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289850"
 ---
-# <a name="publish-topology-select-cms-page"></a><span data-ttu-id="fad08-105">Publicar página CMS de selección de topología</span><span class="sxs-lookup"><span data-stu-id="fad08-105">Publish Topology Select CMS Page</span></span>
+# <a name="publish-topology-select-cms-page"></a><span data-ttu-id="3590a-105">Publicar página CMS de selección de topología</span><span class="sxs-lookup"><span data-stu-id="3590a-105">Publish Topology Select CMS Page</span></span>
 
-<span data-ttu-id="fad08-106">Publicar la topología que se ha configurado mediante el generador de topología.</span><span class="sxs-lookup"><span data-stu-id="fad08-106">You publish the topology that you have configured using Topology Builder.</span></span> <span data-ttu-id="fad08-107">Le pedirá que seleccione en la lista que el grupo de servidores Front-End o de servidor Front-End asumirá la función de mantener el almacén de Administración Central.</span><span class="sxs-lookup"><span data-stu-id="fad08-107">You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store.</span></span> <span data-ttu-id="fad08-108">Un solo grupo de servidores Front-End o de servidor Front-End puede contener esta función en cualquier momento dado.</span><span class="sxs-lookup"><span data-stu-id="fad08-108">Only one Front End Server or Front End pool can hold this role at any given time.</span></span>
+<span data-ttu-id="3590a-106">Publique la topología que ha configurado con el generador de topología.</span><span class="sxs-lookup"><span data-stu-id="3590a-106">You publish the topology that you have configured using Topology Builder.</span></span> <span data-ttu-id="3590a-107">Se le pedirá que seleccione de una lista en la que el servidor front-end o el grupo de servidores front-end asumirán la función de mantener el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="3590a-107">You are asked to select from a list which Front End Server or Front End pool will assume the role of holding the Central Management store.</span></span> <span data-ttu-id="3590a-108">Solo un servidor front-end o un grupo de servidores front-end pueden mantener este rol en un momento dado.</span><span class="sxs-lookup"><span data-stu-id="3590a-108">Only one Front End Server or Front End pool can hold this role at any given time.</span></span>
 
-<span data-ttu-id="fad08-109">Para obtener más información sobre qué almacén de Administración Central es, consulte [mover el servidor de Administración Central de Lync Server 2010 a Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span><span class="sxs-lookup"><span data-stu-id="fad08-109">For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span></span>
+<span data-ttu-id="3590a-109">Para obtener más información sobre lo que es el almacén de administración central, vea [mover el servidor de administración central de Lync server 2010 a Lync server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span><span class="sxs-lookup"><span data-stu-id="3590a-109">For more information on what the Central Management store is, see [Move the Lync Server 2010 Central Management Server to Lync Server 2013](https://technet.microsoft.com/library/30cc98f2-1916-4dbe-99d0-8df5368ed3ec.aspx).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="fad08-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="fad08-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3590a-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="3590a-110">See also</span></span>
 
-[<span data-ttu-id="fad08-111">Move-CsManagementServer</span><span class="sxs-lookup"><span data-stu-id="fad08-111">Move-CsManagementServer</span></span>](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
+[<span data-ttu-id="3590a-111">Move-CsManagementServer</span><span class="sxs-lookup"><span data-stu-id="3590a-111">Move-CsManagementServer</span></span>](https://docs.microsoft.com/powershell/module/skype/move-csmanagementserver?view=skype-ps)
