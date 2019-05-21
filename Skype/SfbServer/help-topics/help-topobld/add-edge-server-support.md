@@ -5,23 +5,23 @@ ms.author: v-lanac
 author: lanachin
 manager: serdars
 ms.date: 11/17/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 f1_keywords:
 - ms.lync.tb.AddEdgeServerStartPage
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: f7f90070-fcdc-4ec5-9551-cc7da2ed271c
-description: Puede agregar compatibilidad para el acceso de usuarios externos al implementar una topología inicial o en un momento posterior. Para más detalles sobre cómo agregar servidores perimetrales a una topología existente, mire Define Your Edge Topology en la documentación de implementación de servidores perimetrales.
-ms.openlocfilehash: 1567ea849aea5d5086fe4b75590a145821d84a61
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Puede Agregar compatibilidad para el acceso de usuarios externos al implementar la topología inicial o posteriormente. Para más detalles sobre cómo agregar servidores perimetrales a una topología existente, mire Define Your Edge Topology en la documentación de implementación de servidores perimetrales.
+ms.openlocfilehash: 652befdc9f08bd49bd52bd6deccdb4bcf2515c95
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33886272"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34281069"
 ---
-# <a name="add-edge-server-support"></a><span data-ttu-id="db70e-104">Agregar compatibilidad de servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="db70e-104">Add Edge Server Support</span></span>
+# <a name="add-edge-server-support"></a><span data-ttu-id="1a317-104">Agregar compatibilidad de servidor perimetral</span><span class="sxs-lookup"><span data-stu-id="1a317-104">Add Edge Server Support</span></span>
 
-<span data-ttu-id="db70e-105">Puede agregar compatibilidad para el acceso de usuarios externos al implementar una topología inicial o en un momento posterior.</span><span class="sxs-lookup"><span data-stu-id="db70e-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="db70e-106">Para más detalles sobre cómo agregar servidores perimetrales a una topología existente, mire [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación de implementación de servidores perimetrales.</span><span class="sxs-lookup"><span data-stu-id="db70e-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
+<span data-ttu-id="1a317-105">Puede Agregar compatibilidad para el acceso de usuarios externos al implementar la topología inicial o posteriormente.</span><span class="sxs-lookup"><span data-stu-id="1a317-105">You can add support for external user access when you deploy your initial topology, or at a later time.</span></span> <span data-ttu-id="1a317-106">Para más detalles sobre cómo agregar servidores perimetrales a una topología existente, mire [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) en la documentación de implementación de servidores perimetrales.</span><span class="sxs-lookup"><span data-stu-id="1a317-106">For details about adding Edge Servers to an existing topology, see [Define Your Edge Topology](https://technet.microsoft.com/library/787b23f1-8fa0-4c37-abf2-c516c5dd66f0.aspx) in the Edge Server Deployment documentation.</span></span>
 
 
