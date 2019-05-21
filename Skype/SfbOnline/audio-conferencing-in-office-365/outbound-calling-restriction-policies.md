@@ -11,7 +11,7 @@ search.appverid: MET150
 ms.collection:
 - Adm_Skype4B_Online
 - Strat_SB_PSTN
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
@@ -19,76 +19,76 @@ localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Audio Conferencing
-description: Los administradores pueden controlar el tipo de audioconferencias llamadas de RTC de conferencia y el usuario final que pueden realizar los usuarios.
-ms.openlocfilehash: acd75df192211465071940148e35bc7e269c7976
-ms.sourcegitcommit: d1b14268efe334aa93a6889f25fcfe46e07d5daa
+description: Los administradores pueden controlar el tipo de conferencias de audio y llamadas RTC de usuarios finales que pueden realizar los usuarios.
+ms.openlocfilehash: e4589a2785d5debf4de6d6a146ede76b020cd2d6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33584227"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34299157"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Políticas de restricción de llamadas salientes para Audioconferencia y las llamadas RTC de usuario
 
 Como administrador, puede usar los controles de llamadas salientes para restringir el tipo de audioconferencias y llamadas RTC del usuario final que pueden realizar los usuarios de su organización. 
 
-Controles de llamada saliente se pueden aplicar por usuario y proporcionan los siguientes dos controles para restringir cada tipo de llamadas salientes de forma independiente. De forma predeterminada, ambos controles están configurados para permitir llamadas salientes nacionales e internacionales. 
+Los controles de llamadas salientes se pueden aplicar en cada usuario y proporcionan los dos controles siguientes para restringir de forma independiente cada tipo de llamada saliente. De forma predeterminada, ambos controles se establecen para permitir llamadas salientes internacionales y nacionales. 
 
 |Control|Descripción|Opciones de control|
 |:-----|:-----|:-----|
-|Llamadas de audio de conferencia RTC|Restringe el tipo de salida </br>llamadas que se permiten desde dentro </br>reuniones organizadas por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
-|Llamadas de RTC del usuario final|Restringe el tipo de llamadas </br>que puede ser realizados por un usuario.|Internacionales y nacionales (valor predeterminado)</br>Nacionales</br>Ninguna|
+|Llamadas RTC de audioconferencia|Restringe el tipo de salida </br>llamadas permitidas desde dentro de </br>reuniones organizadas por un usuario.|Internacional y nacional (predeterminado)</br>Nacionales</br>Ninguna|
+|Llamadas RTC de usuarios finales|Restringe el tipo de llamadas </br>que puede realizar un usuario.|Internacional y nacional (predeterminado)</br>Nacionales</br>Ninguna|
 
    > [!NOTE]
-   > Una llamada se considera nacional si el número marcado está en el mismo país donde se ha configurado Office 365 para el organizador de la reunión (en el caso de conferencias de audio) o el usuario final (en el caso de las llamadas de RTC de usuario final). 
+   > Una llamada se considera nacional si el número marcado se encuentra en el mismo país en el que se ha configurado Office 365 para el organizador de la reunión (en el caso de las conferencias de audio) o el usuario final (en el caso de llamadas RTC de usuario final). 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir las llamadas salientes de conferencias de audio 
+## <a name="restrict-audio-conferencing-outbound-calls"></a>Restringir llamadas salientes de conferencias de audio 
 
-![los equipos-logotipo-30x30.png](../images/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
+![Teams-logo-30x30. png](../images/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1. En el navegación de la izquierda, haga clic en **usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2. En la parte superior de la página, haga clic en **Editar**.
 
-3. Junto a **Conferencias de Audio**, haga clic en **Editar**.
+3. Junto a **audioconferencia**, haga clic en **Editar**.
 
-4. En **permisos de acceso telefónico de salida de las reuniones**, seleccione la opción de salida de la restricción que desee.
+4. En **permisos de acceso telefónico de las reuniones**, seleccione la opción de restricción de llamada saliente que desee.
 
 5. Haga clic en **Guardar **. 
 
-![logotipo-sfb-30x30.png](../images/sfb-logo-30x30.png) **utilizando el Skype para el centro de administración de negocio**
+![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
 
-1.  En el **Skype para el centro de administración de negocio**, en el panel de navegación izquierdo, vaya a la **conferencia de Audio** > **a los usuarios**y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
+1.  En el **centro de administración de Skype empresarial**, en el navegación de la izquierda, vaya a**usuarios**de **conferencias** > de audio y, a continuación, seleccione el usuario de la lista de usuarios disponibles.
 
 2.  En el panel de acciones, haga clic en **Editar**.
 
-3.  En **las restricciones de marcado-outs de reuniones de este usuario**, seleccione la opción de salida de la restricción que desee.
+3.  En **restricciones para las llamadas realizadas desde las reuniones de este usuario**, seleccione la opción de restricción de acceso telefónico que desee.
 
-    ![Las restricciones a las opciones de marcado-outs](../images/restrictions-to-dial-outs.png)
+    ![Las restricciones de las opciones de marcado](../images/restrictions-to-dial-outs.png)
 
 5. Haga clic en **Guardar **.
 
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
 
-**Uso de PowerShell**
+**Usar PowerShell**
 
-Restricciones de llamadas salientes se controlan mediante una sola directiva denominada OnlineDialOutPolicy que tiene un atributo de restricción para cada uno. No se puede personalizar la directiva, en su lugar hay instancias de directiva predefinidas para cada combinación de la configuración. 
+Las restricciones de llamadas salientes se controlan mediante una única directiva denominada OnlineDialOutPolicy que tiene un atributo de restricción para cada una de ellas. La Directiva no se puede personalizar, en lugar de que haya instancias de directiva predefinidas para cada combinación de configuración. 
 
-Puede usar el cmdlet Get-CSOnlineDialOutPolicy para ver las directivas llamadas salientes y asignar a los usuarios mediante el cmdlet Grant-CSDialOutPolicy. (Tenga en cuenta que el cmdlet Grant no contiene la palabra "En línea" al igual que el cmdlet Get.) 
+Puede usar el cmdlet Get-CSOnlineDialOutPolicy para ver las directivas de llamadas salientes y asignarlas a los usuarios mediante el cmdlet Grant-CSDialOutPolicy. (Tenga en cuenta que el cmdlet Grant no contiene la palabra "conectado" como lo hace el cmdlet Get). 
 
-En la siguiente tabla proporciona una visión general de cada directiva.
+En la tabla siguiente se proporciona una descripción general de cada Directiva.
 
 |||
 |:-----|:-----|
-|Identidad = 'etiqueta: DialoutCPCandPSTNInternational'    |    Números internacionales y nacionales puede marcar un usuario en la conferencia, y este usuario también puede efectuar llamadas salientes a números internacionales y nacionales.    |
-|Identidad = 'etiqueta: DialoutCPCDomesticPSTNInternational'  |    Usuario en la conferencia puede marcar un sólo a los números nacionales, y este usuario puede realizar llamadas a números internacionales y nacionales.    |
-|    Identidad = 'etiqueta: DialoutCPCDisabledPSTNInternational'    |    Usuario en la conferencia no puede realizar cualquier marcado. Este usuario puede realizar llamadas a números internacionales y nacionales.    |
-|    Identidad = 'etiqueta: DialoutCPCInternationalPSTNDomestic'    |    Números internacionales y nacionales puede marcar un usuario en la conferencia, y este usuario solo puede realizar llamadas salientes a número nacional de RTC.    |
-|    Identidad = 'etiqueta: DialoutCPCInternationalPSTNDisabled'    |    Números internacionales y nacionales puede marcar un usuario en la conferencia, y este usuario no puede realizar llamadas salientes al número de RTC además de los números de emergencias.    |
-|    Identidad = 'etiqueta: DialoutCPCandPSTNDomestic'    |    Usuario en la conferencia puede marcar un sólo a los números nacionales, y este usuario solo puede realizar llamadas salientes a los números de RTC nacionales.    |
-|    Identidad = 'etiqueta: DialoutCPCDomesticPSTNDisabled'    |    Usuario en la conferencia puede marcar un sólo a los números nacionales, y este usuario no puede realizar llamadas salientes al número de RTC además de los números de emergencias.    |
-|    Identidad = 'etiqueta: DialoutCPCDisabledPSTNDomestic'    |    Usuario en la conferencia no puede realizar cualquier llamadas salientes, y este usuario solo puede realizar llamadas salientes a los números de RTC nacionales.    |
-|    Identidad = 'etiqueta: DialoutCPCandPSTNDisabled'    |    Usuario en la conferencia no puede realizar cualquier llamadas salientes, y este usuario no puede realizar llamadas salientes al número de RTC además de los números de emergencias.    |
+|Identity = ' etiqueta: DialoutCPCandPSTNInternational '    |    El usuario de la Conferencia puede llamar a números nacionales y internacionales, y este usuario también puede hacer llamadas salientes a números nacionales y internacionales.    |
+|Identity = ' etiqueta: DialoutCPCDomesticPSTNInternational '  |    El usuario de la Conferencia solo puede llamar a números nacionales y este usuario puede hacer llamadas salientes a números nacionales e internacionales.    |
+|    Identity = ' etiqueta: DialoutCPCDisabledPSTNInternational '    |    El usuario de la Conferencia no puede hacer llamadas. Este usuario puede hacer llamadas salientes a números internacionales y nacionales.    |
+|    Identity = ' etiqueta: DialoutCPCInternationalPSTNDomestic '    |    El usuario de la Conferencia puede llamar a números nacionales y internacionales, y este usuario solo puede hacer llamadas salientes a un número de RTC nacional.    |
+|    Identity = ' etiqueta: DialoutCPCInternationalPSTNDisabled '    |    El usuario de la Conferencia puede llamar a números nacionales y internacionales, y este usuario no puede hacer llamadas salientes a un número RTC además de números de emergencia.    |
+|    Identity = ' etiqueta: DialoutCPCandPSTNDomestic '    |    El usuario de la Conferencia solo puede llamar a números nacionales y este usuario solo puede hacer llamadas salientes a números de RTC nacionales.    |
+|    Identity = ' etiqueta: DialoutCPCDomesticPSTNDisabled '    |    El usuario de la Conferencia solo puede llamar a números nacionales y este usuario no puede realizar llamadas salientes a números de RTC además de números de emergencia.    |
+|    Identity = ' etiqueta: DialoutCPCDisabledPSTNDomestic '    |    El usuario de la Conferencia no puede hacer llamadas, y este usuario solo puede hacer llamadas salientes a números RTC nacionales.    |
+|    Identity = ' etiqueta: DialoutCPCandPSTNDisabled '    |    El usuario de la Conferencia no puede hacer llamadas, y este usuario no puede hacer llamadas salientes a un número de RTC además de números de emergencia.    |

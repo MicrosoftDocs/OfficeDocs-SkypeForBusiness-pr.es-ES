@@ -1,5 +1,5 @@
 ---
-title: GOV, EDU y organizaciones sin fines de lucro
+title: Organizaciones gubernamentales, educativas y sin ánimo de lucro
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -10,29 +10,29 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-ms.audience: Admin
+audience: Admin
 appliesto:
 - Microsoft Teams
 localization_priority: Normal
 ms.custom:
 - Licensing
 - LIL_Placement
-description: 'Obtenga información sobre licencias adicionales y las características para GOV, EDU y planes de la organización sin fines de lucro. '
-ms.openlocfilehash: 3aa8cfc2f08f31f78aa830fb4c44a513a160e5c5
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: 'Obtenga más información sobre las licencias de complementos y las características de los planes de organización sin ánimo de lucro y de GOV, EDU. '
+ms.openlocfilehash: 1e9fc8f4cc7d658285e3e871700caa651736acfd
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204510"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34298590"
 ---
-# <a name="gov-edu-and-non-profit-organizations"></a>GOV, EDU y organizaciones sin fines de lucro
+# <a name="gov-edu-and-non-profit-organizations"></a>Organizaciones gubernamentales, educativas y sin ánimo de lucro
 
-La mayoría de las características de los equipos están disponibles para las organizaciones sin fines de lucro, educación y gobierno de Estados Unidos. Consulte la tabla siguiente para obtener información detallada.
+La mayoría de las características de Teams están disponibles para organizaciones gubernamentales, educativas y ONG. Para obtener más información, consulta la tabla siguiente.
 
-|**Característica de los equipos**|**Disponible para GOV (GCC)**|**Disponible para GOV (que no sean de GCC)**|**Disponible para edu.**|**Disponible para organizaciones sin ánimo de lucro**|
+|**Característica de Teams**|**Disponible para GOV (GCC)**|**Disponible para GOV (no GCC)**|**Disponible para EDU**|**Disponible para organizaciones sin ánimo de lucro**|
 |:-----|:-----|:-----|:-----|:-----|
 |Audioconferencia  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
 |Sistema telefónico de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
-|Plan de llamada de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
+|Plan de llamadas de Office 365  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |
    
 Vea la publicación de este blog: [Funciones avanzadas de Office 365 disponibles ahora para los clientes de la nube de la comunidad del gobierno de EE. UU.](https://www.microsoft.com/en-us/microsoft-365/blog/2017/01/17/advanced-office-365-capabilities-now-available-to-u-s-government-community-customers/).

@@ -1,27 +1,27 @@
 ---
-title: Informe de detalles de llamadas en Skype para Business Server
+title: Informe de detalles de llamadas en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 38862e35-3fec-41b9-a035-0b301942d446
-description: 'Resumen: Información sobre el informe de detalles de llamadas usadas en Skype para Business Server.'
-ms.openlocfilehash: 1dd32baa8efdf932232e71b42a0c0ffdd1d840ec
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre el informe de detalles de llamadas usado en Skype empresarial Server.'
+ms.openlocfilehash: 8ced1a93f32f5f62ad33563e295ec456303232fc
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902794"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289374"
 ---
-# <a name="call-detail-report-in-skype-for-business-server"></a>Informe de detalles de llamadas en Skype para Business Server
+# <a name="call-detail-report-in-skype-for-business-server"></a>Informe de detalles de llamadas en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre el informe de detalles de llamadas usadas en Skype para Business Server.
+**Resumen:** Obtenga más información sobre el informe de detalles de llamadas usado en Skype empresarial Server.
   
-El informe de detalles de llamadas proporciona una visión detallada de una llamada individual; el informe incluye casi todas la calidad de la experiencia métricas y las estadísticas recopiladas por Skype para Business Server, se divide en las secciones de informes, como:
+El informe de detalles de llamadas proporciona un aspecto detallado de una llamada individual. el informe incluye casi toda la calidad de la evaluación de la experiencia y las estadísticas recopiladas por Skype empresarial Server, divididas en secciones de informes como:
   
 - Información de llamada 
     
@@ -49,17 +49,17 @@ El Informe de detalles de llamadas resulta de gran utilidad para determinar exac
 
 Es posible tener acceso al Informe de detalles de llamadas desde cualquiera de los informes siguientes:
   
-- [Ubicación informe en Skype para Business Server (ubicación-report.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
+- El informe [ubicación en Skype empresarial Server (location-report.md) (haciendo clic en el volumen de la llamada o en el porcentaje de llamada deficiente)
     
-- El [Media Quality Summary Report en Skype para Business Server (summary.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
+- El informe Resumen de calidad de medios en Skype empresarial Server (summary.md) (haciendo clic en el volumen de la llamada o en una métrica de porcentaje de llamada deficiente)
     
-- El [Informe de comparación de calidad de medios en Skype para Business Server](comparison.md) (haciendo clic en el [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) y, a continuación, haga clic en la métrica detalles).
+- El [Informe de comparación de calidad multimedia en Skype empresarial Server (para](comparison.md) ello, haga clic en el [Informe de la lista de llamadas en Skype empresarial Server](call-list-report-0.md) y, a continuación, haga clic en la métrica de detalles).
     
-- El [Informe de rendimiento del servidor en Skype para Business Server](server-performance.md) (haciendo clic en el volumen de llamadas o la métrica porcentaje de llamadas deficientes)
+- El [Informe rendimiento del servidor de Skype empresarial Server](server-performance.md) (haciendo clic en el volumen de la llamada o en la métrica de porcentaje de llamada deficiente)
     
-- El [Informe de lista de llamadas en Skype para Business Server](call-list-report-0.md) (haciendo clic en la métrica detalles)
+- [Informe de la lista de llamadas en Skype empresarial Server](call-list-report-0.md) (haciendo clic en la métrica de detalles)
     
-Desde el informe de detalles de llamadas, puede acceder al [Informe de dispositivos en Skype para Business Server](device-report.md) haciendo clic en cualquiera de las métricas siguientes:
+Desde el informe de detalles de llamadas puede acceder al [Informe de dispositivos en Skype empresarial Server](device-report.md) haciendo clic en una de las siguientes métricas:
   
 - Dispositivo de captura
     
