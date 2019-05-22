@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Get the steps to create a default phone number for callers to join a Skype for Business Online meeting. '
-ms.openlocfilehash: 2f9d7c6960eb70cff28a941903e0646197bc4c4e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 53a733bf7874c507416c4cc54820cbebb4fbc844
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34306314"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329544"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Configurar los números de teléfono incluidos en los invitados en Skype empresarial online
 
@@ -74,7 +74,7 @@ Un puente de conferencia le ofrece un conjunto de números de teléfono de acces
    - **Microsoft es el proveedor**: usa el **número de pago predeterminado** y las listas de números gratuitos predeterminadas para seleccionar los números predeterminados para el usuario. ****
     
      > [!NOTE]
-     > Se debe asignar al menos un número gratuito al puente de conferencia antes de que se pueda establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número gratuito, consulte [obtener números de teléfono de servicio para Skype empresarial](../what-is-phone-system-in-office-365/getting-service-phone-numbers.md). 
+     > Se debe asignar al menos un número gratuito al puente de conferencia antes de que se pueda establecer como el número de teléfono gratuito predeterminado de un usuario. Para obtener un número gratuito, consulte [obtener números de teléfono de servicio para Skype empresarial](/microsoftteams/getting-service-phone-numbers). 
   
    - **Un tercero es el proveedor**: Use los campos **número de pago** y **número** gratuito para introducir los números del usuario.
 

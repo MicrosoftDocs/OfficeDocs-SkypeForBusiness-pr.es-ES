@@ -4,7 +4,6 @@ ms.author: v-lanac
 author: lanachin
 ms.reviewer: davgroom
 manager: serdars
-ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
@@ -12,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: 364ed7ee3027e05753dee65a896f50024e7572b8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305479"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329719"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -57,10 +56,14 @@ Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a trav
 
 **Consolas admitidas**
 
-|Consola|Processor|MEMORIAS|Disco|
-|:-----|:-----|:-----|:-----|
-|[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5  |GB  |GB  |  
-|[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5  |GB  |GB  |  
+|Consola|Processor|MEMORIAS|Disco|Versión de firmware|
+|:-----|:-----|:-----|:-----|:----|
+|[Crestron Flex M150](https://crestron.com/en-US/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M150-T)|Núcleo de i7|GB |GB|1.0.16.490|
+|[HP Elite Slice para salas de reuniones G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Núcleo de i5  |GB  |GB  | |
+|[Concentrador ThinkSmart de Lenovo 500](https://www3.lenovo.com/us/en/hub500) |Núcleo de i5  |GB  |GB  |  |
+|[Yealink MVC800](https://www.yealink.com/products_125.html)|Núcleo de i5|GB|GB|Audio: 92.10.0.15</br>Vídeo: 92.10.0.15|
+|
+ 
 
 - Una de las siguientes opciones de estación de acoplamiento para proteger una tableta de la tabla sala de reuniones. 
 
@@ -86,6 +89,7 @@ Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a trav
 |[Polycom RealPresence trío](http://www.polycom.com/voice-conferencing-solutions/conference-phones/realpresence-trio.mdl) <br/> |5.4.4,7511  <br/> |
 |[Polycom EagleEye IV](http://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.mdl) <br/> |1.0.0  <br/> |
 |[Polycom CX5100 ](http://www.polycom.com/products-services/products-for-microsoft/lync-optimized/cx5100-unified-conference-station.mdl) <br/> |  1.2.0.70232 <br/> |
+|[Directora de ojos Eagle de Polycom II](https://www.polycom.com/hd-video-conferencing/peripherals/eagleeye-director-ii.html)|2.1.0.10|
 |[Sennheiser SP 220 MS](http://no-no.sennheiser.com/dual-speakerphones-sp-220-ms-uc) <br/> |2.0.12.0  <br/> |
 |[Sennheiser SP20](http://en-us.sennheiser.com/sp-20-og-sp-20-ml) <br/> |1.2.15  <br/> |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK™-510_7510-209) <br/> |2.10.0  <br/> |

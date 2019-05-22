@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Obtenga información sobre cómo configurar las conferencias de acceso telefónico local o de audio para las personas de su empresa que necesitan usar un teléfono para unirse a llamadas en conferencia. '
-ms.openlocfilehash: 8702a41546eede73779247eb6816704e60225087
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 41a2d4288185d75bfed4d9882775ba054e2b3ccd
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305264"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329735"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Configurar audioconferencias en Microsoft Teams
 
@@ -63,7 +63,7 @@ Vaya a la [Disponibilidad de país y región para Audioconferencia y Planes de l
 
 En Audioconferencia, no puede usar números de teléfono para los usuarios; debe obtener números de servicio. Puede obtener números de pago o números gratuitos de servicio para el puente de conferencia. Hay tres formas de obtene números de servicio gratuitos y de pago: 
   
-- **Use el centro de administración de Microsoft Teams**. Para algunos países o regiones, puede obtener números de servicio para sus puentes de conferencia con el centro de administración de Microsoft Teams. Consulta [obtener números de teléfono de servicio](https://docs.microsoft.com/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json).
+- **Use el centro de administración de Microsoft Teams**. Para algunos países o regiones, puede obtener números de servicio para sus puentes de conferencia con el centro de administración de Microsoft Teams. Consulta [obtener números de teléfono de servicio](/microsoftteams/getting-service-phone-numbers).
     
 - **Porte los números de servicio existentes**. Para migrar o transferir números existentes de su proveedor de servicios actual u operador telefónico a Office 365. Consulte [Transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md) o [Administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para obtener más información que le ayude a hacer esto.  
   

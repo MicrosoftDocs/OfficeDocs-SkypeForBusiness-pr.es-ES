@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.autoattendants.overview
 ms.custom:
 - Phone System
 description: Aprenda Cuáles son los operadores automáticos de la nube y cómo usarlos.
-ms.openlocfilehash: 3dc96398cb2aa9ab3eafcc6e5d38ad2feb44b45b
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae5d959918240cec63c925eff77653c54294e99c
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299044"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330359"
 ---
 # <a name="what-are-cloud-auto-attendants"></a>¿Qué son los operadores automáticos en la nube?
 
@@ -236,7 +236,7 @@ Para configurar un operador automático y las opciones de menú, vaya a [configu
 
 Puede asignar un número de servicio de plan de llamadas de Microsoft o un número híbrido de enrutamiento directo a su operador automático. Consulte [planificar el enrutamiento directo](direct-routing-plan.md) para obtener más información.
 
-Para asignar un número de servicio, tendrá que obtener o transferir sus números de teléfono de pago o gratuitos existentes. Una vez que recibas los números de teléfono de pago o gratuitos, aparecerán en la <!-- validate nav path --> **** > **** > Los**números de teléfono**de telefonía del centro de administración de Skype empresarial y el tipo de **número** que aparece en la lista aparecerán como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers) , o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
+Para asignar un número de servicio, tendrá que obtener o transferir sus números de teléfono de pago o gratuitos existentes. Una vez que recibas los números de teléfono de pago o gratuitos, aparecerán en la <!-- validate nav path --> **** > **** > Los**números de teléfono**de telefonía del centro de administración de Skype empresarial y el tipo de **número** que aparece en la lista aparecerán como **servicio-** gratuito. Para obtener sus números de servicio, consulte [obtener números de teléfono de servicio de Skype empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers) , o bien, si desea transferir un número de servicio existente, consulte [transferir números de teléfono a Office 365](transfer-phone-numbers-to-office-365.md).
   
 > [!NOTE]
 > Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. Para ver cómo hacerlo, vaya a [administrar los números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) .
@@ -245,7 +245,7 @@ Para asignar un número de servicio, tendrá que obtener o transferir sus númer
 
 [Esto es lo obtiene con el Sistema telefónico de Office 365](here-s-what-you-get-with-phone-system.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

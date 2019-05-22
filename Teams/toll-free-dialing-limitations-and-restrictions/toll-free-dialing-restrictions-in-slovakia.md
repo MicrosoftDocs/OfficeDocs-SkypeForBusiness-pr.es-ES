@@ -23,12 +23,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
-ms.openlocfilehash: 54f3bdfe8725356a6f6d503939ef91aa224766e7
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: bc12601698e1eb4a0f113870c14dcfc995fda19e
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34289445"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34329983"
 ---
 # <a name="toll-free-dialing-restrictions-in-slovakia"></a>Restricciones de marcado de número gratuito en Eslovaquia
 
@@ -50,7 +50,7 @@ ms.locfileid: "34289445"
 
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

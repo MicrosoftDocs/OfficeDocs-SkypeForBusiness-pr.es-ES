@@ -21,34 +21,34 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1keywords: None
 ms.custom:
 - Calling Plans
-description: Esto le ayudará a encontrar información acerca de cómo marcar los números de pago libre en cada país o región. Después de seleccionar el país o región, le llevará a una página específica de país que contiene detalles específicos, las restricciones y límites para la disponibilidad del servicio gratuito donde está disponible un servicio gratuito. El formato de marcado o formatos mostrará los códigos de acceso necesarios dentro de cada país o región para marcar el número de teléfono gratuito.
-ms.openlocfilehash: 13c978d89007ec90cd8488cc3557a8e677959792
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Esto te ayudará a identificar números gratuitos en cada país o región. Después de seleccionar el país o la región, le llevará a una página específica del país que contiene detalles específicos, restricciones y límites de disponibilidad de servicio gratuito en los que está disponible el servicio gratuito. El formato o los formatos de marcado le mostrarán los códigos de acceso necesarios dentro de cada país o región para marcar el número gratuito.
+ms.openlocfilehash: 5226df97db101088e5a843b6a130dd36c16eb460
+ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32204322"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34334858"
 ---
 # <a name="toll-free-dialing-restrictions-in-india"></a>Restricciones de marcado de número gratuito en India
 
-[Buscar otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información acerca de las limitaciones de marcado gratuito y restricciones.
+[Busque otro país o región](../toll-free-dialing-limitations-and-restrictions.md), u obtenga más información sobre restricciones y limitaciones de marcado gratuitas.
 
 
 |**Detalles**|**Descripción**|
 |:-----|:-----|
-|¿Es gratuito de llamada disponibles?  <br/> |Sí  <br/> |
-|Formatos de marcado  <br/> |000 800 XXX XXXX  <br/> |
+|¿Hay disponible una llamada gratuita?  <br/> |Sí  <br/> |
+|Formato (s) de marcado  <br/> |000 800 XXX XXXX  <br/> |
 |Código ISO de país o región  <br/> |IND  <br/> |
-|Isla/territorio que abarque  <br/> |No aplicable  <br/> |
-|Isla o territorio que no están cubierta  <br/> |No aplicable  <br/> |
-|Disponibilidad de la línea con cable o fijo  <br/> |Parcial. Ver comentarios.  <br/> |
+|Isla/territorio cubierta  <br/> |No aplicable  <br/> |
+|Isla/territorio no cubierto  <br/> |No aplicable  <br/> |
+|Disponibilidad de línea fija/por cable  <br/> |Parcial. Ver comentarios.  <br/> |
 |Disponibilidad de red móvil  <br/> |Parcial. Ver comentarios.  <br/> |
-|Comentarios, las restricciones y problemas de acceso  <br/> |Acceso disponible en las siguientes redes: bucle Mobile, BSNL - fijo (todas las regiones, pero Bhopal), Vodafone, IDEA/SPICE (todas las regiones pero Punjab Spice), MTS India/Shyam (fijo), MTNL - fijo &amp; mobile, dependencia (todas las regiones, pero Ahmedabad, Bhopal, Bhuneswer Jaipur, Lucknow, Meerut), TTML &amp; TTSL (rol fijo de &amp; postpaid), Tata DoCoMo, HFCL Infotel/Ping Mobile, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-mobile, Bharti/Airtel red.  <br/> Access no está disponible desde las siguientes redes: TTSL (prepago), Etisalat DB telecomunicaciones y Jio.  <br/> |
+|Comentarios, restricciones y problemas de acceso  <br/> |Acceso disponible desde las siguientes redes: loop móvil, BSNL: corregido (todas las regiones, excepto Bhopal), Vodafone, IDEA o picante (todas las regiones pero Punjab picante), MTS India/Shyam (corregido), &amp; MTNL: móvil fijo, redependencia (todas las regiones excepto Ahmedabad, Bhopal, Bhuneswer , Jaipur, Lucknow, Meerut), TTML &amp; TTSL (devolución &amp; fija), Tata DoCoMo, HFCL Infotel/ping móvil, S-Tel Mobile, Uninor, Videocon Mobile, BSNL-Mobile, Bharti/Airtel Network.  <br/> Access no está disponible en las siguientes redes: TTSL (prepagar), Etisalat DB Telecom y Jio.  <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
 [Restricciones y limitaciones de marcado de número gratuito](../toll-free-dialing-limitations-and-restrictions.md)
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
   
  

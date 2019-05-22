@@ -22,12 +22,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Learn about the features, availability, and how to plan and set up a Phone System (Cloud PBX) for your business. '
-ms.openlocfilehash: cce1e7dcc3e6b44ad820451f0462a7419e25aeb5
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 081355404c834edf8e9fc108d68d8fb597d6c151
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299931"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34330543"
 ---
 # <a name="heres-what-you-get-with-phone-system-in-office-365"></a>Esto es lo obtiene con el Sistema telefónico de Office 365
 
@@ -100,7 +100,7 @@ Consulte estos artículos para planear y configurar el sistema telefónico en su
 | Funciona con todos los clientes MAC y PC compatibles en Office 365. <br/> [Instalar Skype Empresarial](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb) <br/> [Configurar Skype Empresarial para Mac 2011 para Office 365](https://support.office.com/article/ae3ebd0e-a1a7-48cf-9350-36b144dc5f88) <br/> | Tenemos clientes de Skype Empresarial para: <br/> [iOS](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=ios) <br/> [Android](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=android) <br/> [Windows Phone](https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb#os_type=windows_phone) <br/> |Elija entre una gran número de teléfonos de escritorio compatibles con Skype Empresarial. Consulte [Obtener teléfonos con Skype Empresarial Online](/skypeforbusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/getting-phones-for-skype-for-business-online). <br/> |
    
 ## <a name="related-topics"></a>Temas relacionados
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/skypeforbusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
 

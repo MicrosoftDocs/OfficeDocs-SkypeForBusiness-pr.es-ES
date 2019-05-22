@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: A continuación se indican los servicios de Office 365 para Skype Empresarial y Microsoft Teams que están disponibles para Canadá.
-ms.openlocfilehash: 485a491acbce57b5ef1503f7d14ba60804fb43a6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea09d8901f7659af5692739c0abbb1c30db3b5ca
+ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283173"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "34332087"
 ---
 # <a name="availability-in-canada"></a>Disponibilidad en Canadá
 
@@ -43,7 +43,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |**Característica**|**Detalles**|
 |:-----|:-----|
 |¿La audioconferencia está disponible para la compra?  <br/> |Sí  <br/> |
-|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).  <br/> |
+|¿Los números de teléfono se asignan automáticamente para la audioconferencia?  <br/> |Sí, por:<br/><ul><li> Toronto</ul>Si desea números de teléfono dedicados, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).  <br/> |
 |Capacidad de realizar llamadas mediante la característica Llamarme  <br/> |Disponible  <br/> |
 
 ## <a name="phone-system"></a>Sistema telefónico
@@ -75,7 +75,7 @@ A continuación se indican los servicios de Office 365 para Skype Empresarial y 
 |¿Hay números de pago disponibles?  <br/> |Sí  <br/> |
 |¿Hay números gratuitos disponibles?  <br/> |Sí  <br/> |
 
- Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers).
+ Si desea números de teléfono de pago o gratuitos para audioconferencia, operadores automáticos y colas de llamadas, consulte [Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers).
 
 > [!Note] 
 > Cuando un plan de llamadas (nacionales o nacionales e internacionales) en Estados Unidos marca un número de teléfono de Canadá, se tratará como una llamada nacional. Esto también sucede cuando un usuario de Canadá realiza una llamada a un número de Estados Unidos.
@@ -90,6 +90,6 @@ Si quiere configurarlos, consulte [Configurar Créditos de comunicaciones para s
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/SkypeForBusiness/what-is-phone-system-in-office-365/getting-service-phone-numbers)
+[Obtener números de teléfono de servicio para Skype Empresarial y Microsoft Teams](/microsoftteams/getting-service-phone-numbers)
 
 [Países y regiones donde Audioconferencia y Planes de llamada están disponibles](country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
