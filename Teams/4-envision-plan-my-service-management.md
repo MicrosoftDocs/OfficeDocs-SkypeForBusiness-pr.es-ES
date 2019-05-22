@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 892cbf094c2c523d7eaa18b1d77a2fb864a3a9c0
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400934"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344652"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -115,8 +115,8 @@ Se recomienda que designe al experto en calidad lo antes posible y, una vez lo h
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decida qué persona de su organización debe responder ante las operaciones de voz en la nube.</li></ol></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía completa para planificar la administración de servicios.</li><li>Descargue la Guía de revisión de la experiencia de calidad.</li><li>Revise toda la Guía de operaciones.</li><li>Ofrezca todas las guías a todos los miembros del equipo de operaciones para que las revisen y se familiaricen con los requisitos de cada operación.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida qué persona de su organización debe responder ante las operaciones de voz en la nube.</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Descargue la guía completa para planificar la administración de servicios.</li><li>Descargue la Guía de revisión de la experiencia de calidad.</li><li>Revise toda la Guía de operaciones.</li><li>Ofrezca todas las guías a todos los miembros del equipo de operaciones para que las revisen y se familiaricen con los requisitos de cada operación.</li></ol></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Con regularidad evaluar las oportunidades para mejorar el servicio de los equipos después de actualizar, supervisar la guía básica de los equipos para las mejoras de la característica interesante.
+description: Evalúe regularmente las oportunidades para mejorar el servicio de Teams después de la actualización, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,32 +15,32 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f23ff01a70e2aa65a6440b351d8abb1025bbb978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ff3b4f745fa80ecee1033d2ca1d708bdc01e49d6
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920494"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344864"
 ---
-![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
+![Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
-En este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza en cuanto se haya completado la actualización de Skype para la empresa a los equipos.
+Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 
-# <a name="get-the-most-out-of-teams-after-upgrading"></a>Obtener el máximo partido de los equipos tras la actualización
+# <a name="get-the-most-out-of-teams-after-upgrading"></a>Saque el máximo partido a teams después de actualizar
 
-En este artículo se proporciona una visión general de los requisitos para obtener el máximo partido de operativo los equipos después de la actualización. Mediante la supervisión de forma continua las capacidades de servicio de los equipos, puede estar seguro de que proporciona el máximo valor para su organización.
+Este artículo proporciona una descripción general de los requisitos para sacar el máximo provecho de los equipos operativos después de la actualización. Al supervisar continuamente las capacidades de servicio de Teams, puede asegurarse de que está ofreciendo el máximo valor para su organización.
 
-## <a name="enhance-your-service-overview"></a>Mejorar la introducción al servicio
+## <a name="enhance-your-service-overview"></a>Mejorar la información general del servicio
 
-Después de que ha implementado correctamente los equipos en su organización y está usando el servicio con calidad y confiabilidad, el siguiente paso consiste en evaluar con regularidad si tiene cualquier oportunidades para mejorar los servicios. Esto es una parte de planeación, es decir, un moderno estándar para la administración de servicio de nube de la mejora continua del servicio.
+Después de implementar correctamente Teams en su organización y de trabajar con la calidad y la confiabilidad, el siguiente paso consiste en evaluar regularmente si tiene alguna oportunidad para mejorar sus servicios. Esta es una parte del plan de mejora de servicio continuo que es un estándar moderno para la administración de servicios en la nube.
 
-Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365, recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes.
+Una excelente forma de asegurarse de que siempre obtenga el máximo provecho de sus servicios es supervisar los [planes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de los equipos para obtener nuevas características que pueden interesar a su organización. Si tiene acceso al portal de administración de Office 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiando características a través de nuestro centro de mensajes.
 
-Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar [Deploy chat, los equipos, los canales y aplicaciones en los equipos de Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
+Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelva a visitar [implementar chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplique la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
 
-Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Vuelva a visitar nuestro [fases de implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
+Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelve a visitar nuestras [fases de implementación](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplica la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir quién va a supervisar guías públicas y otros anuncios de servicio para las nuevas características o servicios que su organización puede beneficiarse.</li><li>Decide cuál será la cadencia en el que se va a informar de las nuevas características o servicios a las partes interesadas claves, a través de su Comité de dirección.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Implementar una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Mejoras en la unidad de servicio a través de un ciclo de vida completo del proyecto para asegurarse de que han determina correctamente el impacto que tienen en la implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién supervisará las guías públicas y otros anuncios de servicio para las nuevas características o servicios de los que su organización podría beneficiar.</li><li>Decidir el ritmo en el que se deben denunciar las nuevas características o servicios a los accionistas clave a través del Comité de dirección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Implemente una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Impulsar las mejoras del servicio a través de un ciclo de vida de proyecto completo para asegurarse de que se ha contabilizado correctamente el impacto que tiene en su implementación.</li></ul></td></tr>
 </table>

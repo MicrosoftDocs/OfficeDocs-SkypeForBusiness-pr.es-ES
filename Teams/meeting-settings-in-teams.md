@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: 9dab34c518b4c0c5c25e55d894a1dacf4e0a773e
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298122"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344880"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -33,7 +33,7 @@ Como administrador, debe usar la configuración de reuniones de Teams para contr
 
 Con la combinación anónima, cualquier persona puede unirse a la reunión como un usuario anónimo haciendo clic en el vínculo de la invitación a la reunión.
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **participantes**, Active **usuarios anónimos pueden unirse a una reunión**.
@@ -54,7 +54,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 ### <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **invitación por correo electrónico**, haga lo siguiente:
@@ -73,7 +73,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 
 Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar el tráfico de red, puede habilitar marcadores de QoS y establecer intervalos de puertos para cada tipo de tráfico de medios.
 
- ![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+ ![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **red**, haga lo siguiente:

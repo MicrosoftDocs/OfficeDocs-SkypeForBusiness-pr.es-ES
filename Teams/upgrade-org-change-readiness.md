@@ -1,12 +1,12 @@
 ---
-title: Skype para la empresa a los equipos de Microsoft | Preparación de cambio de usuario de actualización
+title: Skype empresarial para Microsoft Teams | Actualizar la preparación de los cambios de usuario
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Asegúrese de que su organización y los usuarios están listos para Microsoft Teams
+description: Asegurarse de que la organización y los usuarios están listos para Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,46 +15,46 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f5feaa83ed5a4ddb8ab9b37d42d1784c07aa2586
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 7c0376c97ed86bb3a34def70c25a81bc79104a27
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920391"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344479"
 ---
-![Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación del usuario")
+![Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario] (media/upgrade-banner-user-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación del usuario")
 
-En este artículo forma parte de la fase de preparación de usuarios de su viaje de actualización, una actividad completar en paralelo con la fase de preparación técnica. Antes de continuar, confirme que ha realizado estas actividades de fases anteriores:
+Este artículo forma parte de la fase de preparación del usuario de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación técnica. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
-- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
-- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
+- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 # <a name="assess-organizational-change-readiness"></a>Evaluar si la organización está preparada para el cambio
 
-Después de proteger su equipo de proyecto y define su visión, el ámbito y los objetivos, es el siguiente paso en su viaje por la actualización para asegurarse de que la organización y los usuarios están listos para equipos: una actividad que completar en paralelo de garantizar la disponibilidad de la técnica. Para obtener el valor de los equipos, los usuarios deben usarlo realmente. Permitir a los equipos no garantiza que logre su objetivo. Los usuarios tienen distintos casos de uso y diferentes estilos de aprendizaje y se adapten a la nueva tecnología a diferentes velocidades. La buena noticia es que administrar el cambio no es todo lo que complicado, pero tarda un esfuerzo reducido. Las discusiones guiadas que aparece a continuación están diseñadas para ayudarle a comprender la base de usuarios para que puede preparar el nivel adecuado de formación para facilitar y acelerar la adopción de usuario. Hay dos formas que debe mirar su base de usuarios:
+Una vez que haya asegurado el equipo del proyecto y haya definido su visión, alcance y metas, el siguiente paso del viaje de actualización es asegurarse de que la organización y los usuarios están listos para los equipos, una actividad que ha completado en paralelo con la garantía de su disponibilidad técnica. Para obtener valor de Teams, los usuarios deben usarlo. Solo habilitar Teams no garantiza que logres tu objetivo. Los usuarios tienen diferentes casos de uso y distintos estilos de aprendizaje, y se adaptan a nuevas tecnologías a velocidades diferentes. La buena noticia es que administrar el cambio no es tan complicado, pero tiene un esfuerzo prioritario. Las explicaciones guiadas a continuación se han diseñado para ayudarle a comprender a su base de usuarios de modo que pueda preparar el nivel adecuado de educación para facilitar y acelerar la adopción de usuarios. Hay dos maneras de mirar la base de usuarios:
 
-- **Organizativa cambiar preparación**: descripción de cómo rápidamente (o no) normalmente reaccionan a los usuarios para cambiar. Esta información le ayudará a informar a la cantidad de sensibilización, formación, y el valor de ventas es posible que deba hacer para estimular la adopción de usuario.
-- **Escenarios de trabajo en equipo**: descripción del funcionan de los usuarios le permitirá que se asignarán los equipos a sus actividades de trabajo, acelerar la adopción y facilitar el turno de Skype para la empresa.
+- **Preparación**de los cambios organizacionales: comprender la rapidez (o no) que los usuarios suelen reaccionar ante los cambios. Esta información le ayudará a informar de la cantidad de conciencia, capacitación y venta de valor que puede necesitar para impulsar la adopción por parte del usuario.
+- **Escenarios**de trabajo en equipo: comprender cómo los usuarios trabajan le permitirán asignar equipos a sus actividades laborales, acelerar la adopción y facilitar el cambio de Skype empresarial.
 
 > [!Note]
-> Puede adaptar las actividades de evaluación que se indican a continuación para cualquier iniciativa de cambio en la organización. Simplemente responda a las preguntas en función del ámbito del proyecto. En las explicaciones siguientes, "nueva solución" puede aplicar a una llamada a, conferencias de audio, o la actualización de Skype para la empresa a los equipos de audio.
+> Puede adaptar las actividades de evaluación que se indican a continuación a cualquier iniciativa de cambio de su organización. Simplemente solucione las preguntas basadas en el ámbito de su proyecto. En las siguientes discusiones, "nueva solución" puede aplicarse a las llamadas de audio, las conferencias de audio o la actualización de Skype empresarial a teams.
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué es la referencia cultural de la organización, lo que respecta al cambiar?</li><li>¿Cómo puede la nueva tecnología para optimizar el funcionamiento de los usuarios?</li><li>¿Los usuarios que están probable que requieren atención especial al obtienen para cambiar la manera en que trabajan?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use las instrucciones siguientes y actividades asociadas para capturar los perfiles de disponibilidad del usuario de la organización.</li></ul>|
+| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cuál es la referencia cultural de su organización cuando se trata de cambiar?</li><li>¿Cómo puede la nueva tecnología optimizar la manera en que trabajan los usuarios?</li><li>¿Qué usuarios probablemente necesitarán atención especial para poder cambiar la forma en que trabajan?</li></ul> |
+| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use las siguientes guías y actividades asociadas para capturar el perfil de disponibilidad de los usuarios de su organización.</li></ul>|
 
-## <a name="organizational-change-readiness"></a>Preparación de cambios en la organización
+## <a name="organizational-change-readiness"></a>Preparación de los cambios de organización
 
-Al evaluar la preparación de su organización, puede determinar lo dispuestos (o no) los usuarios suelen ser para cambiar la forma en que trabajan y adopción de nueva tecnología. Descripción de cómo reaccionan a los usuarios para cambiar permite a su organización a proactivamente solucionar problemas, ajustar el plan de implantación para obtener comprar óptima de identificar a los usuarios que realmente le ayudará a facilitar el cambio con sus colegas.
+Al evaluar la disponibilidad de su organización, puede determinar la forma en la que los usuarios pueden ser receptivos (o no), de modo que es probable que los usuarios cambien la forma en que trabajan y adoptan la nueva tecnología. Comprender cómo los usuarios reaccionan ante los cambios faculta a su organización para que solucione los problemas de manera proactiva, ajuste su plan de implementación para obtener un nivel de acceso óptimo e identifique a los usuarios que realmente le pueden ayudar a facilitar el cambio con sus colegas.
 
-### <a name="activity"></a>Actividad
+### <a name="activity"></a>Actividades
 
-Use los siguientes Kits de inicio de conversación para llevar a cabo una evaluación de la preparación de la organización y la referencia cultural de la organización de documentos, lo que respecta al cambiar. Esta información puede ayudar a informar a cuánto conocimiento del producto y recursos de aprendizaje podría ser necesario implementar para el proyecto. No se preocupe números exactos. En este ejercicio representa una visión general de la referencia cultural organizativa. Si necesita ayuda para empezar, simplemente evaluar una implantación últimas; Esto puede ayudar a prever cómo podrían reaccionar a los usuarios para cambiar y le ayudará a enfrentar proactivamente las reacciones que lo previsto.
+Use los siguientes iniciadores de conversación para realizar una evaluación de la preparación de la organización y documentar la cultura de su organización cuando se trate de cambiar. Esta información puede ayudar a informar sobre el conocimiento y la formación que puede necesitar implementar para el proyecto. No te preocupes por números exactos. Este ejercicio representa una comprensión general de la cultura de la organización. Si necesita ayuda para comenzar, simplemente evalúe una implementación pasada; Esto puede ayudarle a prever la forma en que los usuarios pueden reaccionar para cambiar y ayudarle a proactivar las reacciones que espera.
 
-#### <a name="what-percentage-of-users-fall-into-each-bucket"></a>¿Qué porcentaje de usuarios se dividen en cada depósito?
+#### <a name="what-percentage-of-users-fall-into-each-bucket"></a>¿Qué porcentaje de usuarios pertenecen a cada bucket?
 
 <!--
 | **Type of user** | **%** |
@@ -64,14 +64,14 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 | *Laggards* reject the solution, even when pushed into change. | |
 -->
 
-| Primeros usuarios | Usuarios informados | Rezagados |
+| Pioneros | Usuarios informados | Laggards |
 |----|----|---|
-| Estos usuarios solicitan la solución para que esté disponible. | Estos usuarios aceptan la solución tan pronto como se muestra su valor. | Estos usuarios rechazar la solución, incluso cuando se insertan en cambiar. |
+| Estos usuarios solicitan la solución antes de que esté disponible. | Estos usuarios aceptan la solución tan pronto como se muestra su valor. | Estos usuarios rechazan la solución, incluso cuando se pasa a cambio. |
 
 > [!Tip]
-> Dar de alta los primeros usuarios para las pruebas piloto además de servir como Campeones del mismo nivel. Campeones ayudan a clientes potenciales por ejemplo para mostrar cómo obtener valor de sus colegas y dé a conocer nueva tecnología. Para obtener más información acerca de cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Es posible que necesita sus rezagados convencer a más antes de que adopten una nueva tecnología. Si más de un 20 por ciento de la organización que entra en este cubo, dedicar más tiempo a comunicar el valor de mensajería e impartir adaptar recursos de aprendizaje. Además, compatibilidad de ellos mediante el cambio abriendo un bucle de comentarios para comprender mejor y sus hesitations de direcciones.
+> Dar de alta a los primeros usuarios en las pruebas piloto además de servir como campeones del mismo nivel. Los campeones ayudan a repartir la nueva tecnología y conducen al ejemplo para mostrar a sus colegas cómo apreciar el valor. Para obtener más información sobre cómo crear un programa de campeones formal, consulte la [Guía de adopción de Office](https://fto365dev.blob.core.windows.net/media/Default/DocResources/en-us/Office_365_Adoption_Guide.pdf). Es posible que su laggards necesite más convincente antes de que adopte una nueva tecnología. Si más de un 20 por ciento de su organización cae en este bucket, dedique más tiempo a comunicar el valor de la mensajería y a proporcionar formación adaptada. Además, puede proporcionarles asistencia a través del cambio abriendo un bucle de comentarios para comprender mejor y resolver sus vacilaciones.
 
-#### <a name="what-percentage-of-users-fall-into-each-competency"></a>¿Qué porcentaje de usuarios se dividen en cada competencia?
+#### <a name="what-percentage-of-users-fall-into-each-competency"></a>¿Qué porcentaje de usuarios se encuentra dentro de cada competencia?
 
 <!--
 | **Type of learner** | **%** |
@@ -81,74 +81,74 @@ Use los siguientes Kits de inicio de conversación para llevar a cabo una evalua
 | *Hand-holding* seekers expect “white glove” or one-on-one assistance. | |
 -->
 
-| Self-motivó | Reproductores de equipo | Solicitantes de explotación de mano |
+| Motivación automática | Reproductores de equipo | Pedir a los usuarios mano |
 |----|----|---|
-| Este tipo de alumnos seek recursos, obtenga información sobre la forma de hacerlo. | Estos usuarios disfrutan de grupo y entrenamiento interactivo; se irán junto con sus compañeros. | Estos usuarios esperan que proporcionó asistencia o "guante blanco". |
+| Estos aprendizajes buscan recursos, lo que aprende a hacerlo. | Estos usuarios disfrutan de formación grupal y interactiva. irán acompañadas de compañeros de trabajo. | Estos usuarios esperan "guante blanca" o ayuda única. |
 
 > [!Tip]
-> No todo el mundo aprende la misma manera. Para aquellos que son de hecho, elija los vídeos en línea y artículos de aprendizaje de Microsoft. Si un 20 por ciento o más son reproductores de equipo, dar de alta el equipo de recursos de aprendizaje o un socio para ofrecer aprendizaje interactivo (en persona o en línea). Normalmente, encontrará a los ejecutivos o dirigidas a roles en la categoría de explotación de mano. Esto es un grupo crítico que podría beneficiarse de las sesiones de aprendizaje personalizado, breve. Dar de alta los Campeones para ayudar a proporcionar recursos de aprendizaje a estos usuarios, para obtener una experiencia óptima.
+> No todos aprenden de la misma manera. Para aquellos que tengan una motivación propia, apunten a los vídeos en línea y los artículos de aprendizaje de Microsoft. Si el 20 por ciento o más son los reproductores de equipo, póngase en contacto con su equipo de aprendizaje o con un partner para que ofrezca aprendizaje interactivo en vivo (en persona o en línea). Normalmente, encontrarás ejecutivos o roles de destino en la categoría de retención manual. Este es un grupo fundamental que se beneficiaría de sesiones de aprendizaje personalizadas y cortas. Dé a sus campeones que le ayuden a proporcionar formación a estos usuarios para una experiencia óptima.
 
 ## <a name="assessing-teamwork-scenarios"></a>Evaluación de escenarios de trabajo en equipo
 
-Microsoft Teams amplía las capacidades de Skype para la empresa, que ofrece una solución completa de comunicación y colaboración. Diseñar el plan de actualización a los usuarios de Skype para la empresa a los equipos, tenga en cuenta cómo puede utilizar la eficacia de colaboración de trabajo en equipo para excitar a los usuarios y facilitar su transición de Skype para la empresa a los equipos.
+Microsoft Teams amplía las capacidades de Skype empresarial y ofrece una solución completa de comunicación y colaboración. Mientras diseña su plan de actualización de los usuarios de Skype empresarial a Teams, tenga en cuenta cómo puede usar la eficacia de la colaboración de trabajo en equipo para los usuarios de Excite y para facilitar su transición de Skype empresarial a teams.
 
-En esencia, trabajo en equipo es cómo personas trabajan juntos para hacer las cosas. Se trata de alinear las personas adecuadas con las herramientas correspondientes de forma que funcione para ellos. Los equipos reúne personas, conversaciones, archivos y proyectos en un área de trabajo, creación de un concentrador de true para el trabajo en equipo en su organización.
+En su centro, el trabajo en equipo es el modo en que las personas trabajan juntas para realizar las tareas. Se trata de alinear a las personas adecuadas con las herramientas pertinentes de la manera que funciona. Teams reúne a personas, conversaciones, archivos y proyectos en un único área de trabajo, creando así un concentrador para el trabajo en equipo de su organización.
 
-Descripción de cómo el trabajo de usuario y cómo reúnan pueden ayudar a los usuarios a visualizar cómo pueden usar los equipos, facilitar el turno de Skype para la empresa. Hay dos formas principales pensar acerca de los escenarios de trabajo en equipo: centradas en personas y centrado en el proyecto.
+Comprender cómo el trabajo del usuario y cómo se reúne puede ayudar a los usuarios a visualizar cómo pueden usar Teams, lo que facilita el cambio de Skype empresarial. Hay dos formas principales de pensar en los escenarios de trabajo en equipo: centrado en el proyecto y centrado en el proyecto.
 
-- Centros de **centrado en el proyecto de trabajo en equipo** en un determinado proyecto o iniciativa (por ejemplo, la planeación de un evento de lanzamiento del producto). Ámbito de planeación para la administración del presupuesto para los esfuerzos de marketing, centrado en el proyecto de trabajo en equipo ayuda a alinear secuencias de trabajo de proyecto, mantener a todos informados.
-- **El trabajo en equipo centradas en personas** gira en torno a las personas con responsabilidades o atributos similares que es posible que trabajan en el mismo equipo (por ejemplo, el equipo de ventas, itinerantes) o a través de los equipos (por ejemplo, Campeones de mismo nivel). Charla con un compañero para obtener una respuesta a una pregunta a participar en una reunión de equipo, actividades centradas en personas incluyen información de uso compartido y la creación de informe.
+- Centros de **trabajo centrados** en el proyecto en un proyecto o iniciativa específicos (por ejemplo, el planeamiento de un evento de lanzamiento de producto). Desde la planificación del ámbito hasta la administración presupuestaria y los esfuerzos de marketing, el trabajo en equipo centrado en el proyecto ayuda a alinear secuencias de trabajo
+- El equipo **de trabajo centrado en personas** gira alrededor de las personas con responsabilidades o atributos similares que pueden trabajar en el mismo equipo (por ejemplo, el equipo de ventas, la taegeuk de carretera) o entre equipos (por ejemplo, los campeones del mismo nivel). Desde conversar con un colega para obtener una respuesta a una pregunta para participar en una reunión de equipo, las actividades centradas en personas incluyen compartir información y crear Rapport.
 
-Para obtener el máximo partido de los equipos, crear una estrategia de trabajo en equipo que incluya ambos escenarios, ayudar a los usuarios a comprender cómo los equipos pueden trabajar para ellos.
+Para sacar el máximo provecho de Teams, cree una estrategia de trabajo en equipo que incluya ambos escenarios, ayudando a los usuarios a comprender cómo pueden trabajar los equipos.
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué escenarios relatable trabajo en equipo empleará para ayudar a acelerar la adopción de usuario de los equipos y facilitar la actualización de Skype para la empresa?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Utilice los ejemplos siguientes para ayudar a diseñar sus propios escenarios de trabajo en equipo. Documente en el [Libro de actualización](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios adicionales y ver ejemplos, vaya a la [Biblioteca de productividad](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
+| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Qué relatable escenarios de trabajo en equipo para ayudar a acelerar la adopción de equipos por parte de los usuarios y facilitar la actualización de Skype empresarial?</li></ul> |
+| ![Un icono que muestra los pasos siguientes](media/audio_conferencing_image9.png)<br/>Pasos siguientes|<ul><li>Use los siguientes ejemplos para ayudarle a diseñar sus propios escenarios de trabajo en equipo. Documente la actualización en el [libro](https://aka.ms/upgradesuccesskit).</li><li>Para escenarios y ejemplos adicionales, vaya a la [biblioteca de productividad](https://www.microsoft.com/en-us/microsoft-365/success/)</li></ul>|
 
 ### <a name="examples"></a>Ejemplos
 
-**El trabajo en equipo centrado en el proyecto: evento de lanzamiento del producto** (por ejemplo: su organización se está preparando iniciar un nuevo producto en el mercado y va a planear un evento promocional amplia para impulsar sensibilización, generar clientes potenciales y fomentar las ventas).
+**Trabajo en equipo centrado en el proyecto: evento de lanzamiento de producto** (por ejemplo: su organización está preparada para iniciar un nuevo producto en el mercado y está planeando un amplio evento promocional para impulsar el conocimiento, generar clientes potenciales y fomentar las ventas).
 
-| Consideración | Notas |
+| Examina | Notas |
 |----|---|
-| Atributos principales |<ul><li>Equipo de entre las partes interesadas con varias secuencias de trabajo de proyecto</li><li>Reuniones frecuentes de destinadas</li><li>Gran cantidad de piezas/personas procedentes de conjuntamente (presupuesto, programaciones, presentaciones, registro y así sucesivamente)</li></ul> |
-| En la actualidad los desafíos de trabajo en equipo |<ul><li>Secuencias de trabajo trabajan en silos con visibilidad limitada en estado global del proyecto o los esfuerzos entre equipos:<br><ul><li>Conversaciones desconectadas y la falta de "quién hace qué" </li><li>Realiza un seguimiento de información en diversos lugares con ninguna visibilidad entre equipos</li></ul><li>Pérdida de productividad de tiempo al poner un nuevo miembro en placa o ponerse al día de la falta de una reunión</li></ul>|
-| Requisitos de trabajo en equipo |<ul><li>Acceso rápido a la asignación de tareas y la programación del proyecto</li><li>Canal de la conversación ya abierta para mantener a todos en el tanto</li><li>Ubicación central para los archivos de presentación actual y otros recursos</li><li>Capacidad para que aparezca el nuevo proyecto de equipo de seguridad a velocidad de miembros rápidamente</li><li>Forma de fomentar y apoyar entre sí para mantener momentum</li></ul>|
-| Trabajo en equipo en los equipos |<ul><li>Equipo/canales para organizar el contenido de project y conversaciones encadenadas </li><li><sup>1</sup> los archivos de SharePoint para hospedar PPT</li><li>Organizador o Trello para asignar un proyecto individual sobre tareas y la de vencimiento, fechas<sup>1</sup></li><li>Equipos para las reuniones en línea</li><li>Aplicación móvil de los equipos para la conexión sobre la marcha</li></ul> |
+| Atributos básicos |<ul><li>Partes interesadas entre equipos con varias secuencias de trabajo del proyecto</li><li>Reuniones dirigidas frecuentemente</li><li>Muchas partes/personas que se adjuntan (presupuesto, programaciones, presentaciones, registro, etc.)</li></ul> |
+| Retos de trabajo en equipo hoy |<ul><li>Los flujos de trabajo están funcionando en silos con visibilidad limitada del estado general del proyecto o de los esfuerzos entre equipos:<br><ul><li>Conversaciones desconectadas y falta de "¿quién está haciendo qué"? </li><li>Se realiza un seguimiento de la información en varios lugares sin visibilidad entre equipos</li></ul><li>Pérdida de tiempo de productividad al poner a un miembro nuevo en el panel o al ponerse al día de que no haya una reunión</li></ul>|
+| Requisitos de trabajo en equipo |<ul><li>Acceso rápido a programación de proyectos y asignación de tareas</li><li>Abrir canal de conversación para que todos los usuarios sepan</li><li>Ubicación central de archivos de presentación actuales y otros recursos</li><li>Capacidad de poner a trabajar rápidamente a nuevos miembros del equipo del proyecto</li><li>Manera de alentar y apoyarse entre sí para mantener el impulso</li></ul>|
+| Trabajo en equipo en Teams |<ul><li>Equipo/canales para organizar el contenido del proyecto y las conversaciones encadenadas </li><li>SharePoint para hospedar archivos PPT<sup>1</sup></li><li>Planner/Trello para asignar tareas de proyecto individuales y fechas de vencimiento<sup>1</sup></li><li>Teams para reuniones en línea</li><li>Aplicación móvil de Teams para conectarse mientras se conecta</li></ul> |
 
-Integración de app Supporting <sup>1</sup> o la alineación en los equipos.
+<sup>1</sup> compatibilidad con la integración de aplicaciones o la alineación en Teams.
 
-**Centradas en personas trabajo en equipo: equipo de ventas** (por ejemplo: las ventas de ámbito regional dispersos necesidades para permanecer conectado de viaje, permanecerá alineada en la canalización de equipo y comprender ofertas clave y las iniciativas que pueden ayudar a unidad hacia los objetivos de cuota anual)
+**Equipo centrado en el trabajo: equipo de ventas** (por ejemplo: su equipo de ventas con dispersas regionales debe permanecer conectado de la carretera, permanecer alineado en la canalización, y comprender las ofertas y las iniciativas clave que pueden ayudar a impulsar los objetivos anuales de la cuota).
 
-| Consideración | Notas |
+| Examina | Notas |
 |----|---|
-| Atributos principales | <ul><li>Trabajar de forma remota (en carretera, hoteles, sitios de los clientes)</li><li>Centrada en relación – principal externo</li></ul> |
-| En la actualidad los desafíos de trabajo en equipo |<ul><li>Repetidas conversaciones con varios representantes de campo (chat, las llamadas, las reuniones, etcetera): no pueden obtener todos los usuarios conjuntamente a la vez</li><li>Perdidas oportunidades para aprender de ventas "wins" – word de otras personas sólo de uso compartido</li><li>Reestructurado constantemente entre aplicaciones:<ul><li>Canalización de ventas en Excel</li><li>Tendencias en Power BI</li><li>Material sobre venta en correo electrónico</li><li>Recursos de demostración de atención al cliente en SharePoint</li><li>chats de 1:1 y las reuniones de punto en el tiempo</li><li>Divulgación en la Comunidad de ventas de Yammer</li></ul></ul> |
-| Requisitos de trabajo en equipo |<ul><li>Acceso rápido a material sobre venta</li><li>Llegar rápidamente a con un experto</li><li>Activar Fast alrededor de preguntas y aprobaciones </li><li>Reuniones de ventas, revisiones de canalización</li><li>Recursos de aprendizaje de ventas</li><li>Administración de base de datos de cliente</li></ul> |
-| Trabajo en equipo en los equipos |<ul><li>Los equipos o canales por región o cliente diseñado para las conversaciones y contenido de foco</li><li>SharePoint para material publicitario y recursos<sup>1</sup></li><li>XLS/Power BI para bases de datos y canalización<sup>1</sup></li><li>Equipos para las reuniones en línea</li><li>Aplicación móvil de los equipos para la conexión sobre la marcha</li><li>Integración de la aplicación de los equipos con el sistema CRM<sup>1</sup></li><li>Yammer de conocimientos de amplio alcance SME y uso compartido de información *<sup>1</sup></li></ul>|
+| Atributos básicos | <ul><li>Trabajar de forma remota (en la calle, hoteles, sitios de clientes)</li><li>Relación centrada en relación: externa básica</li></ul> |
+| Retos de trabajo en equipo hoy |<ul><li>Conversaciones repetidas con varios representantes de campo (chat, llamadas, reuniones, etc.); no se puede reunir a todos a la vez</li><li>Oportunidades perdidas de aprender de las ventas "gana", solo para compartir palabras de la boca.</li><li>Shuffling continuamente entre las aplicaciones:<ul><li>Canalización de ventas en Excel</li><li>Tendencias en Power BI</li><li>Material de ventas en correo electrónico</li><li>Recursos de demostración para clientes en SharePoint</li><li>1:1 chats y reuniones puntuales</li><li>La comunidad de ventas se adparan en Yammer</li></ul></ul> |
+| Requisitos de trabajo en equipo |<ul><li>Acceso rápido a la documentación de ventas</li><li>Ponerse en contacto con un experto rápidamente</li><li>Turno rápido para preguntas y aprobaciones </li><li>Reuniones de ventas, revisiones de canalizaciones</li><li>Recursos de aprendizaje de ventas</li><li>Administración de bases de datos de clientes</li></ul> |
+| Trabajo en equipo en Teams |<ul><li>Equipos y canales por región o cliente diseñados para enfocar el contenido y las conversaciones</li><li>SharePoint para material adjunto/recursos<sup>1</sup></li><li>XLS/Power BI para canalizaciones y bases de datos<sup>1</sup></li><li>Teams para reuniones en línea</li><li>Aplicación móvil de Teams para conectarse mientras se conecta</li><li>Integración de aplicaciones de Teams con el sistema de CRM<sup>1</sup></li><li>Yammer para obtener información general sobre las perspectivas y compartir información *<sup>1</sup> de SME</li></ul>|
 
-Integración de app Supporting <sup>1</sup> o la alineación en los equipos.
+<sup>1</sup> compatibilidad con la integración de aplicaciones o la alineación en Teams.
 
-### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Sugerencias para la identificación de "mejor ajuste" para su estrategia de trabajo en equipo
+### <a name="tips-for-identifying-a-good-fit-for-your-teamwork-strategy"></a>Sugerencias para identificar un "buen ajuste" para su estrategia de trabajo en equipo
 
-Podría ser fácil dejarse llevar formando una estrategia de trabajo en equipo para todos los usuarios, cada equipo y todos los proyectos. No todos los proyectos o equipo requiere una estrategia de definido por completo el trabajo en equipo. A continuación presentamos algunos procedimientos recomendados para obtener una introducción:
+Puede ser fácil de llevar a cabo formando una estrategia de trabajo para todos los usuarios, todos los equipos y todos los proyectos. No todos los proyectos o equipos requieren una estrategia de trabajo completamente definida. Estos son algunos procedimientos recomendados para empezar:
 
-- Considere la posibilidad de proyectos entre equipos que están empezando o están próximas.
-  - Planificación de eventos – coordinación de varios equipos (presupuesto, logística, presentaciones y así sucesivamente)
-  - Nuevo producto piloto - compartir información, recopilar comentarios en un entorno controlado
+- Considere la posibilidad de que los proyectos entre equipos estén empezando o estén próximos.
+  - Planificación de eventos: coordinación de varios equipos (presupuesto, logística, presentaciones, etc.)
+  - Piloto de nuevo producto: información de uso compartido, recopilar comentarios en un entorno controlado
 
-- Identificar los roles de usuario y los grupos de trabajo principal, conectar las diversas formas en que interactúan entre sí en los equipos
+- Identificar a los usuarios y grupos de trabajo principales con las distintas formas en que interactúan entre sí en Teams
 
-  - Los equipos de ventas o regiones – itinerantes, recursos de fácil acceso, activar rápida alrededor de las respuestas
-  - Recursos humanos – procesos estandarizados a través de todas las divisiones, enfoque coherente para la contratación
-  - Los trabajadores Firstline: conexión a su colegas y administración, acceso a los procedimientos, NEO
+  - Equipos de ventas/regiones: taegeuk de carretera, recursos de fácil acceso, respuestas rápidas
+  - Procesos estandarizados de RRHH en todas las divisiones, enfoque coherente para la contratación
+  - Trabajadores de los Firstline: conexión con sus colegas/administración, acceso a procedimientos, NEO
 
 - Tenga en cuenta estas consideraciones:
 
-  - Comience con poco. Guardar proyectos más grandes y más complejos para después ha examinan el modelo de trabajo en equipo.
-  - Céntrese en los nuevos proyectos. Evite cambiar un proyecto existente que está bien en curso como esto puede interrumpir el flujo de trabajo.
-  - Considere la posibilidad de control de tiempo. Implantar una estrategia de trabajo en equipo nuevo para ventas al final del año fiscal no puede ser ideal.
-  - Realice una iteración. No hay necesidad de reinventar la rueda. Cuando encuentre una estructura de trabajo en equipo que funciona, repita con otros grupos de trabajo y proyectos. Defina un equipo de plantilla y establezca instrucciones para ayudar a los usuarios asimilar rápidamente en los equipos y proporcionar coherencia.
+  - Comience con poco. Guarde proyectos más grandes y complejos para después de haber vetted el modelo de trabajo en equipo.
+  - Céntrese en los nuevos proyectos. Evite cambiar un proyecto existente que esté bien en curso ya que esto puede interrumpir el flujo de trabajo.
+  - Considere la temporización. Es posible que no sea ideal implementar una nueva estrategia de trabajo en equipo para ventas al final de su año fiscal.
+  - Realizar. No es necesario reinventar la rueda. Cuando encuentre una estructura de trabajo en equipo que funcione, repítalo con otros grupos de trabajo y proyectos. Definir un equipo de plantillas y establecer directrices para ayudar a los usuarios a asimilar rápidamente en Teams y proporcionar coherencia.
 
-Use la información que ha recopilado anteriormente para informar a su [plan de preparación del usuario](https://aka.ms/UserReadinessPlan).
+Use la información que ha recopilado anteriormente para informar al [plan de preparación del usuario](https://aka.ms/UserReadinessPlan).

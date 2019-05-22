@@ -7,7 +7,7 @@ ms.date: 01/03/2019
 ms.topic: article
 ms.service: msteams
 ms.reviewer: daro
-description: Instrucciones para los profesionales de TI a las implementaciones de Office 365 de unidad en las entidades que controlan datos sujetas a regulación gubernamental de EE.
+description: Instrucciones para los profesionales de TI para impulsar implementaciones de Office 365 en entidades que controlan datos sujetos a la normativa del gobierno de Estados Unidos
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -16,152 +16,152 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 025a1f22552fa8c196e9eeb4bee6b7e6e19eebdf
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: d807ec23399da13a7ce2da9f3fdf425aeaebb0fd
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902458"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344367"
 ---
-# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Planeación de Microsoft 365 gobierno - implementaciones GCC
+# <a name="plan-for-microsoft-365-government---gcc-deployments"></a>Plan para implementaciones de Microsoft 365 administración pública-GCC
 
-Esta guía es para los profesionales de TI que están llevando a las implementaciones de Office 365 en federal de Estados Unidos, estado, las entidades de gobierno local, tribal o territoriales u otras entidades que controlan los datos que estén sujetos a reglamentaciones gubernamentales y los requisitos, donde el uso de Microsoft Gobierno 365 - GCC es adecuado para cumplir estos requisitos.
+Esta guía está orientada a los profesionales de ti que están implantando implementaciones de Office 365 en Estados Unidos federales, estatales, locales, tribal o territoriales entidades gubernamentales u otras entidades que administran datos que están sujetos a reglamentaciones y requisitos gubernamentales, donde el uso de Microsoft 365 gubernamental: GCC es adecuado para cumplir con estos requisitos.
 
 > [!NOTE]
-> Si su organización ya tiene cumplen el gobierno de 365 Microsoft - requisitos de idoneidad GCC y para aplicar y se han aceptado en el programa, puede omitir los pasos 1 y 2 y vaya directamente al paso 3. 
+> Si su organización ya cumple con los requisitos de idoneidad de Microsoft 365 Government-GCC y ha sido aplicado y ha sido aceptado en el programa, puede omitir los pasos 1 y 2 y ir directamente al paso 3. 
 
-## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Paso 1. Determinar si la organización necesita Microsoft 365 gobierno - GCC y que cumpla los requisitos de idoneidad. 
+## <a name="step-1-determine-whether-your-organization-needs-microsoft-365-government---gcc-and-meets-eligibility-requirements"></a>Paso 1. Determine si su organización necesita Microsoft 365 pública-GCC y cumple con los requisitos de elegibilidad. 
 
-El gobierno de Microsoft 365 - entorno GCC proporciona cumplimiento con US los requisitos de gobierno para servicios de nube, incluyendo FedRAMP moderadas y los requisitos de Justicia penal y sistemas de información de impuesto federal (tipos de datos CJI y FTI).
+El entorno Microsoft 365 Government-GCC ofrece cumplimiento de los requisitos del gobierno de los Estados Unidos para servicios en la nube, incluidos los FedRAMP moderados, y requisitos para los sistemas de información de la justicia y los impuestos federales (CJI y FTI tipos de datos).
 
-Además de disfrutar de las características y capacidades de Office 365, las organizaciones se benefician de las siguientes características que son exclusivas de Microsoft 365 gobierno - GCC:
+Además de disfrutar de las características y capacidades de Office 365, las organizaciones se benefician de las siguientes características que son exclusivas de Microsoft 365 administración pública-GCC:
 
--   Contenido de la organización del cliente se aísla lógicamente del contenido del cliente en los servicios de Office 365 comerciales de Microsoft.
--   Contenido de la organización del cliente se almacena dentro de Estados Unidos.
--   Acceso al contenido de la organización del cliente está restringido al personal de Microsoft protegido.
--   Gobierno de Microsoft 365 - GCC cumple con certificaciones y acreditaciones que son necesarios para clientes del Sector público con nosotros.
+-   El contenido del cliente de su organización se separa lógicamente del contenido del cliente en los servicios comerciales de Office 365 de Microsoft.
+-   El contenido de los clientes de su organización se almacena dentro de los Estados Unidos.
+-   El acceso al contenido de los clientes de su organización está restringido al personal de Microsoft de la pantalla.
+-   Microsoft 365 Government-GCC cumple con las certificaciones y acreditaciones necesarias para los clientes del sector público de los Estados Unidos.
 
-Puede encontrar más información sobre el gobierno de 365 Microsoft - GCC que ofrece para los clientes de gobierno de Estados Unidos en [que planes de gobierno de Office 365](https://products.office.com/government/compare-office-365-government-plans), incluidos [los requisitos de idoneidad](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
+Puede encontrar más información sobre la oferta de Microsoft 365 administración pública-GCC para clientes del gobierno de los Estados Unidos en [Office 365 planes gubernamentales](https://products.office.com/government/compare-office-365-government-plans), incluidos [los requisitos de elegibilidad](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements).
 
-La [Descripción del servicio de gobierno de Estados Unidos de Office 365](https://technet.microsoft.com/library/mt774581.aspx) describe las ventajas de la plataforma, que se centran en cumplimiento de requisitos dentro de los Estados Unidos.
+La [Descripción del servicio del gobierno de Office 365 Estados](https://technet.microsoft.com/library/mt774581.aspx) Unidos describe los beneficios de la plataforma, que se centran en los requisitos de cumplimiento de las reuniones de los Estados Unidos.
 
 > [!Tip]
-> Es posible que desee transferir las tablas de información en la descripción del servicio a un libro de Excel y agregue dos columnas: **pertinente para mi organización Y o N** y **satisfaga las necesidades de mi organización Y o N**. A continuación, puede revisar esta lista con sus compañeros para confirmar que este servicio satisface las necesidades de su organización.
+> Es posible que desee transferir las tablas de información de la descripción del servicio a un libro de Excel y agregar dos columnas: **relevante para mi organización y/n** y **satisface las necesidades de mi organización y/n**. Después, puede revisar esta lista con sus colegas para confirmar que este servicio cumple con las necesidades de su organización.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si Microsoft 365 gobierno - GCC es adecuada para su organización.</li><li>Confirme que la organización cumpla con los requisitos de idoneidad.</li></ul> |
+| ![Un icono que muestra puntos de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si Microsoft 365 Government-GCC es adecuado para su organización.</li><li>Confirme que su organización cumple con los requisitos de elegibilidad.</li></ul> |
 
 > [!Note]
-> Gobierno de Microsoft 365 - GCC sólo está disponible en los Estados Unidos. Los clientes de gobierno de los EE: no pueden elegir entre un número de [planes de gobierno de Office 365](https://products.office.com/en/government/compare-office-365-government-plans).
+> Microsoft 365 Government-GCC solo está disponible en los Estados Unidos. Los clientes que no sean Estados Unidos pueden elegir entre varios [planes de Office 365 administración pública](https://products.office.com/en/government/compare-office-365-government-plans).
 
 
-## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Paso 2. Aplicar para Microsoft 365 gobierno - GCC
+## <a name="step-2-apply-for-microsoft-365-government---gcc"></a>Paso 2. Solicitar Microsoft 365 administración pública-GCC
 
-Tener decidido que este servicio es el adecuado para su organización, iniciar el proceso de la [aplicación para este servicio aquí](https://products.office.com/government/eligibility-validation).
+Tras haber decidido que este servicio es adecuado para su organización, aquí tiene que iniciar el proceso de [solicitar este servicio](https://products.office.com/government/eligibility-validation).
 
-## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Paso 3. Descripción de Microsoft 365 gobierno - configuración de seguridad predeterminada GCC.
+## <a name="step-3-understand-microsoft-365-government---gcc-default-security-settings"></a>Paso 3. Comprender la configuración de seguridad predeterminada de Microsoft 365 Government-GCC.
 
-Se recomienda que tenga tiempo para revisar detenidamente la [configuración de administración y seguridad](enable-features-office-365.md) antes de modificarlos y considere la posibilidad de impactos en cumplimiento antes de realizar cualquier cambio en la configuración de seguridad predeterminada.
+Le recomendamos que tome el tiempo de revisar detenidamente la [configuración de administrador y seguridad](enable-features-office-365.md) antes de modificarla, y considere la posibilidad de repercusiones en el cumplimiento antes de realizar cambios en la configuración de seguridad predeterminada.
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si va modificar cualquiera del valor predeterminado de Microsoft 365 gobierno - configuración de seguridad GCC, resolver en primer lugar comprender el impacto de los cambios que es posible que realice.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si modificará cualquiera de los valores de seguridad predeterminados de Microsoft 365 administración pública-GCC y se resolverá para comprender primero el impacto de los cambios que puede realizar.</li></ul> |
 
-## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender las características que actualmente no están disponibles o deshabilitados de forma predeterminada. 
+## <a name="step-4-understand-which-capabilities-are-currently-unavailable-or-disabled-by-default"></a>Paso 4. Comprender qué características no están disponibles o deshabilitadas de forma predeterminada. 
 
-Para dar cabida a los requisitos de nuestros clientes de nube de gobierno, existen algunas diferencias entre Microsoft 365 gobierno - GCC y planes de empresa. Hacer referencia a la tabla siguiente para ver las características que están disponibles.
+Para cumplir con los requisitos de nuestros clientes gubernamentales en la nube, existen algunas diferencias entre los planes de Microsoft 365 gubernamentales-GCC y Enterprise. Consulte la tabla siguiente para ver qué características están disponibles.
 
 |                             | Característica                     | GCC            |
 |-----------------------------|-----------------------------|----------------|
-| Base | Inicio de sesión | Disponible |
+| Básica | Inicio de sesión | Disponible |
 | | Presencia | Disponible |
-| | Presencia unificada (Skype para profesionales y los equipos unificados) | Disponible |
-| Actividad | Fuente | Disponible |
+| | Presencia unificada (Skype empresarial y equipos unificados) | Disponible |
+| Actividades | Suministros | Disponible |
 |  | Mi actividad | Disponible |
-| Chat | Conversación | Disponible |
+| Chat | Llamada | Disponible |
 | | Archivos | Disponible |
 | | Organigrama | Disponible |
-| | Actividad | Disponible |
-| | Interoperabilidad (1:1 los equipos-Skype para chat empresarial) | Disponible |
+| | Actividades | Disponible |
+| | Interoperabilidad (1:1 equipos-conversación de Skype empresarial) | Disponible |
 | Microsoft Teams | Mensaje de canal | Disponible |
 | | Archivos de canal | Disponible |
-| | Ficha de OneNote | En el trabajo pendiente del gobierno |
-| | Un canal de correo electrónico | No disponible |
-| | Agregar miembros | Disponible |
+| | Pestaña OneNote | En el trabajo pendiente del gobierno |
+| | Enviar por correo electrónico un canal | No disponible |
+| | Agregar miembro | Disponible |
 | | Acceso de invitado | Disponible |
 | Reuniones | Programar reunión | Disponible |
 | | Unirse a la reunión | Disponible |
 | | Reunión de VoIP | Disponible |
 | | Compartir escritorio | Disponible |
-| | Dar y tomar control de uso compartido | Disponible |
-| | Conectar desde una sala de conferencias | Disponible |
-| | Unión anónima | Disponible |
-| | Grabación de nube | En el trabajo pendiente del gobierno |
+| | Conceder y tomar el control en el uso compartido | Disponible |
+| | Conectarse desde una sala de conferencias | Disponible |
+| | Unirse anónimamente | Disponible |
+| | Grabación en la nube | En el trabajo pendiente del gobierno |
 | | Notas de la reunión | Disponible |
-| | Difusión de presentaciones de reuniones | En el trabajo pendiente del gobierno |
+| | Reuniones de difusión | En el trabajo pendiente del gobierno |
 | | Reuniones federadas | Disponible |
-| | Compatibilidad de concentradores de superficie (vista previa) | En el trabajo pendiente del gobierno |
+| | Compatibilidad con Surface Hub (vista previa) | En el trabajo pendiente del gobierno |
 | Llamadas | Contactos | Disponible |
-| | Historial de | Disponible |
+| | Suprimi | Disponible |
 | | Correo de voz | Disponible |
 | | Llamada de VoIP | Disponible |
-| | Skype para la empresa - equipos de llamada | Disponible |
+| | Skype empresarial: llamadas de equipo | Disponible |
 | | Planes de llamadas | Disponible |
-| | Conferencias de audio (permitiendo que los participantes de la reunión para unirse a través de RTC) | Disponible |
-| | Enrutamiento directo de sistema telefónico de Microsoft | Disponible |
-| | Sala de espera para los autores de llamadas de RTC | Disponible |
-| | Cola de llamada | Disponible |
-| | Compatibilidad con el jefe y delegado | Disponible |
-| | Transferencia de consultoría y segura | Disponible |
-| | No molestar innovadora | Disponible |
+| | Audioconferencias (al permitir que los participantes de la reunión se unan a través de RTC) | Disponible |
+| | Enrutamiento directo de Microsoft Phone System | Disponible |
+| | Sala de llamadas RTC | Disponible |
+| | Cola de llamadas | Disponible |
+| | Soporte de los jefes y los delegados | Disponible |
+| | Las transferencias consultiva y segura | Disponible |
+| | No molestar en el avance | Disponible |
 | | Timbre distintivo | Disponible |
-| | 1:1 a la extensión de la llamada de grupo con los equipos de Skype para la empresa y los participantes de RTC | Disponible |
-| | Reenviar a grupo | Disponible |
-| | Transferir a la llamada de RTC | Disponible |
-| | Llamadas de emergencia - planes de llamada | Disponible |
-| | Soporte técnico para los teléfonos SIP certificados existentes | Disponible |
-| | USB HID | Disponible |
-| | exhibición de documentos electrónicos para las llamadas y las reuniones | Disponible |
-| | Operador automático de organización | Disponible |
-| | Consumidor de Skype - compatibilidad con llamadas de los equipos | Disponible |
+| | 1:1 a escalado de llamadas grupales con equipos, Skype empresarial y participantes de la RTC | Disponible |
+| | Reenviar al grupo | Disponible |
+| | Transferir a llamada RTC | Disponible |
+| | Planes de llamadas de emergencia | Disponible |
+| | Compatibilidad con los teléfonos SIP certificados existentes | Disponible |
+| | HID USB | Disponible |
+| | eDiscovery para las llamadas y las reuniones | Disponible |
+| | Operador automático de la organización | Disponible |
+| | Consumidor de Skype-asistencia para llamadas de equipo | Disponible |
 | Archivos | Recientes | Disponible |
 | | Microsoft Teams | Disponible |
-| Almacén | Tienda de aplicaciones | En el trabajo pendiente del gobierno |
+| Guarde | App Store | En el trabajo pendiente del gobierno |
 | Búsqueda | Mensajes | Disponible |
 | | Personas | Disponible |
 | | Archivos | Disponible |
 | | Comandos de barra diagonal | Disponible |
-| Cumplimiento de normas | Búsqueda de contenido de cumplimiento | Disponible |
-| | Retención | Disponible |
-| | Búsqueda de registro de auditoría | Disponible |
+| Respeto | Búsqueda de contenido de cumplimiento | Disponible |
+| | Policy | Disponible |
+| | Búsqueda de registros de auditoría | Disponible |
 | | Retención legal | Disponible |
 | | eDiscovery | Disponible |
 
 > [!Note]
 
-> Una vez que están completamente disponibles otras cargas de trabajo en la nube GCC, a continuación, estarán disponibles en los equipos cuando se complete todo el trabajo de integración adicional.
+> Una vez que otras cargas de trabajo estén completamente disponibles en la nube de GCC, estarán disponibles en Teams cuando se complete todo el trabajo de integración adicional.
 
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decidir si el conjunto de características de los equipos cumple las necesidades de su organización.</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Decida si el conjunto de características de Teams cumple con las necesidades de su organización.</li></ul> |
 
-## <a name="step-5-plan-for-governance"></a>Paso 5. Plan de gobierno
+## <a name="step-5-plan-for-governance"></a>Paso 5. Planear la gobernanza
 
-Determinar los requisitos para el gobierno y cómo puede cumplirlos. Para obtener más información, vaya a la [planeación de gobierno en los equipos](plan-teams-governance.md) .
+Determina los requisitos de gobierno y cómo puedes reunirse. Para obtener más información, vaya a [plan de gobierno en Teams](plan-teams-governance.md) .
 
 |    |     |
 |-----------|------------|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Determinar y documentar los requisitos de gobierno, siga las instrucciones en el [Plan de gobierno en los equipos](plan-teams-governance.md).</li></ul> |
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>Determine y documente sus requisitos de gobierno, siguiendo las pautas de [Plan for Governance in Teams](plan-teams-governance.md).</li></ul> |
 
-## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementación de los equipos para colaboración
+## <a name="step-6-deploy-teams-for-collaboration"></a>Paso 6. Implementar Teams para la colaboración
 
-Una vez que se ha estado onboarded a Microsoft 365 gobierno - GCC, puede seguir el enfoque de implementación estándar de usar [FastTrack](https://www.microsoft.com/fasttrack) y su socio elegido incorporado para el servicio.
+Después de que se haya incorporado a Microsoft 365 pública-GCC, puede seguir el método de implementación estándar de [FastTrack](https://www.microsoft.com/fasttrack) y el socio elegido para incorporar al servicio.
 
-Cuando esté listo, implemente los equipos para [Permitir la colaboración dentro de la organización a través de los equipos y los canales](teams-overview.md). Asegúrese de integrarse con su equipo de adopción y administración de cambios o Campeones de los equipos.
+Cuando esté listo, implemente Teams para [Habilitar la colaboración dentro de su organización a través de equipos y canales](teams-overview.md). Asegúrese de participar en el equipo de administración de cambios y de adopción o en los campeones de Teams.
 
-## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Paso 7. Implementación de los equipos para las reuniones y voz
+## <a name="step-7-deploy-teams-for-meetings-and-voice"></a>Paso 7. Implementar equipos para reuniones y voz
 
-También es un buen momento para usar los equipos con el grupo más amplio de los participantes para empezar a planear para implantar las reuniones y [las características de voz en la nube](cloud-voice-deployment.md).
+Este es también un buen momento para usar Teams con su grupo más amplio de participantes para empezar a planear la implementación de reuniones y [características de voz en la nube](cloud-voice-deployment.md).
 

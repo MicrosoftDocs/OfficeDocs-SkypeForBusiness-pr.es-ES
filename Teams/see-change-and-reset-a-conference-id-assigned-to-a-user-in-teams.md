@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Aprenda a asignar un Id. de conferencia a un usuario en Microsoft Teams y cuáles deben ser los parámetros del Id. de conferencia. '
-ms.openlocfilehash: 4e354f3f7c9f8b286647fc64b5c910b268c2a316
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: a41935e324a7ed167efc905bbe274f6ef7c85de5
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34305362"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344319"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Microsoft Teams
 
@@ -42,7 +42,7 @@ Se enviará un correo electrónico al usuario con el Id. de conferencia y los n�
 
 ### <a name="to-view-the-conference-id"></a>Para ver el Id. de conferencia
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
 
@@ -62,7 +62,7 @@ Vea la [referencia de PowerShell para Microsoft Teams](https://docs.microsoft.co
 
 El Id. de conferencia se puede restablecer para un usuario si, por ejemplo, se le olvida.
   
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
 1. En el panel de navegación izquierdo, haga clic en **Usuarios** y seleccione el usuario en la lista de usuarios disponibles.
 

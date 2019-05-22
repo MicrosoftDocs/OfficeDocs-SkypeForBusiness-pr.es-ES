@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Vea cómo configurar Teams para permitir que los usuarios se comuniquen con los usuarios de otra organización.
-ms.openlocfilehash: f34bd66b018d84a759c2bfbd5a61b6e112245abc
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299946"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343941"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir a los usuarios de su equipo conversar y comunicarse con los usuarios de otra organización de Teams
 
@@ -50,7 +50,7 @@ Siga estos pasos.
 
 ### <a name="step-2---enable-your-organization-to-communicate-with-another-teams-organization"></a>Paso 2: permitir que su organización se comunique con otra organización de Teams
 
-![Teams-logo-30x30. png](media/teams-logo-30x30.png) **con el centro de administración de Microsoft Teams**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
    1. En el navegación de la izquierda, vaya a **configuración** > de**acceso externo**de la organización. 
 

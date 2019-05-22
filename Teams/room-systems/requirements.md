@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection: M365-voice
 description: En este artículo se resumen los requisitos para admitir salas de Microsoft Teams.
-ms.openlocfilehash: 78fc934783c92909d50076eb0d4848ea919b205b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 6033b627918c4e5159dadd1307aacf2056df3b1f
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34329719"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344505"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Requisitos de salas de Microsoft Teams
 
@@ -109,8 +109,8 @@ Las salas de Microsoft Teams pueden escalar a diferentes tamaños de sala a trav
 
 - Hasta dos pantallas de 1080p con conexiones HDMI. Cables HDMI de longitud adecuada.
 
-    > [!NOTE]
-    > Si se usa un televisor como pantalla, debe ser compatible con la característica Control de electrónica de consumidor (CEC) de HDMI o habilitarla para que puede cambiar automáticamente a un origen de vídeo activo desde el modo de espera. Esta característica no es compatible con todos los televisores. 
+> [!NOTE]
+> Si se usa un televisor como pantalla, debe ser compatible con la característica Control de electrónica de consumidor (CEC) de HDMI o habilitarla para que puede cambiar automáticamente a un origen de vídeo activo desde el modo de espera. Esta característica no es compatible con todos los televisores. 
 
 > [!NOTE]
 > Las salas de Microsoft Teams no usan un teclado. En caso de necesitarlo, el administrador debe usar el teclado en pantalla. Al crear imágenes del dispositivo de salas de Microsoft Teams, se necesitará un teclado o un mouse USB. 

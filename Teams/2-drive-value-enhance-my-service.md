@@ -8,37 +8,37 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Con regularidad evaluar las oportunidades para mejorar el servicio de los equipos, supervisar la guía básica de los equipos para las mejoras de la característica interesante.
+description: Evalúe con regularidad las oportunidades para mejorar el servicio de Teams, supervise la guía básica de Teams para las mejoras de las características interesantes.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_PracticalGuidance
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fbc287254503c9c38f6a13bc77d747d91566b8d6
-ms.sourcegitcommit: 79ec789a22acf1686c33a5cc8ba3bd50049f94b8
+ms.openlocfilehash: d5a912556d5a88583d0ee7e2a4331be5f259a517
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400839"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344840"
 ---
 # <a name="enhance-my-service"></a>Mejorar mis servicios
 
-Este artículo proporciona una visión general de los requisitos para obtener el máximo partido de la nube de servicios de voz para su organización. Mediante la supervisión de forma continua las capacidades de servicio de voz en la nube, puede estar seguro de que proporciona el máximo valor para su organización.
+Este artículo proporciona una descripción general de los requisitos para sacar el máximo provecho de los servicios de voz en la nube para su organización. Al supervisar continuamente las capacidades del servicio de voz en la nube, puede asegurarse de que está ofreciendo el máximo valor para su organización.
 
-## <a name="enhance-my-service-overview"></a>Mejorar la información general de mi servicio
-Después de que ha implementado correctamente conferencias de Audio o sistema telefónico con planes de llamar a servicios en la organización y está usando el servicio con calidad y confiabilidad, el siguiente paso consiste en evaluar con regularidad si tiene cualquier oportunidades para mejorar los servicios. Esto es una parte de planeación, es decir, un moderno estándar para la administración de servicio de nube de la mejora continua del servicio. 
+## <a name="enhance-my-service-overview"></a>Información general sobre cómo mejorar mi servicio
+Una vez que haya implementado correctamente las conferencias de audio o el sistema telefónico con servicios de planes de llamadas a su organización y funcione el servicio con la calidad y la confiabilidad, el siguiente paso es evaluar regularmente si tiene alguna oportunidad para mejora tus servicios. Esta es una parte del plan de mejora de servicio continuo que es un estándar moderno para la administración de servicios en la nube. 
 
-Forma ideal para asegurarse de que siempre obtendrá el máximo partido de los servicios es supervisar las [guías públicas de los equipos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de nuevas mejoras de características que podrían ser de interés para la organización. Si dispone de acceso al portal de administración de Office 365 recibirá actualizaciones regulares de nosotros acerca de las características nuevas y cambiantes a través de nuestro centro de mensajes. 
+Una excelente forma de asegurarse de que siempre obtenga el máximo provecho de sus servicios es supervisar los [planes públicos](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams) de los equipos para obtener nuevas características que pueden interesar a su organización. Si tiene acceso al portal de administración de Office 365, recibirá actualizaciones periódicas de nosotros sobre nuevas y cambiando características a través de nuestro centro de mensajes. 
 
-Además, debido a que las organizaciones crecen y cambian, debe tomarse su tiempo para revisar y actualizar los casos de uso empresarial a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades de su organización actual.  Asegúrese de que va a obtener comentarios del mundo real de los usuarios y campeones internos mediante el establecimiento de canales de comentarios en la organización. Se pueden conversaciones informales, reuniones regulares o a través de los equipos de un canal o Yammer de la Comunidad. 
+Además, debido a que las organizaciones crecen y cambian, debe volver a visitar y actualizar los casos de uso de la empresa a intervalos regulares para asegurarse de que el servicio está configurado para satisfacer las necesidades actuales de su organización.  Asegúrese de que recibe los comentarios reales de los usuarios y de los expertos internos mediante el establecimiento de canales de comentarios en su organización. Esto puede ser una conversación informal, reuniones ordinarias o a través de un canal de Teams o una comunidad de Yammer. 
 
-Cuando vea las oportunidades para mejorar su servicio, tomarse el tiempo para hacerlo a la derecha. Revisar [Deploy chat, los equipos, los canales y aplicaciones en los equipos de Microsoft](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplicar la misma orientación de un extremo a otro. Cuando se realizan cambios pequeños e incrementales, es poco probable que necesitará para llevar a cabo todas las actividades y tareas en su totalidad, pero debe estar seguro de evaluar cada tarea a lo largo de la forma de proporcionar la mejor oportunidad en un resultado satisfactorio y la actividad.
+Cuando vea oportunidades para mejorar el servicio, dedique el tiempo adecuado. Vuelva a visitar [implementar chat, equipos, canales y aplicaciones en Microsoft Teams](deploy-chat-teams-channels-microsoft-teams-landing-page.md) y aplique la misma orientación de principio a fin. Cuando se realizan cambios incrementales pequeños, es improbable que sea necesario completar todas las actividades y todas las tareas, pero debe asegurarse de evaluar cada actividad y tarea en la forma de dar la mejor oportunidad a un resultado satisfactorio.
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir quién va a supervisar guías públicas y otros anuncios de servicio para las nuevas características o servicios que su organización puede beneficiarse.</li><li>Decide cuál será la cadencia en el que se va a informar de las nuevas características o servicios a las partes interesadas claves, a través de su Comité de dirección.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Implementar una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Mejoras en la unidad de servicio a través de un ciclo de vida completo del proyecto para asegurarse de que han determina correctamente el impacto que tienen en la implementación.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida quién supervisará las guías públicas y otros anuncios de servicio para las nuevas características o servicios de los que su organización podría beneficiar.</li><li>Decidir el ritmo en el que se deben denunciar las nuevas características o servicios a los accionistas clave a través del Comité de dirección.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Implemente una estrategia para mantenerse al día con los servicios para obtener el máximo valor para su organización.</li><li>Impulsar las mejoras del servicio a través de un ciclo de vida de proyecto completo para asegurarse de que se ha contabilizado correctamente el impacto que tiene en su implementación.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

@@ -1,5 +1,5 @@
 ---
-title: Preparar la red para Microsoft Teams |  Requisitos de Firewall del puerto
+title: Preparar la red para Microsoft Teams |  Requisitos del firewall del puerto
 author: lanachin
 ms.author: v-lanac
 manager: serdars
@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 13cdddb008b59a89598926185910f98e3d48fa08
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5454c8d4a95a6a9d1d695f74497ccf5c022d062b
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33910851"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344101"
 ---
 ![Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica](media/upgrade-banner-tech-readiness.png "Etapas del recorrido de la actualización, con énfasis en la etapa de preparación técnica")
 
@@ -32,31 +32,31 @@ Este artículo forma parte de la etapa de preparación técnica del recorrido de
 - [Ha elegido su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
 > [!Tip]
-> Vea la sesión siguiente para obtener más información cómo los equipos aprovecha la red y cómo planear mejor para la conectividad de red óptima: [Planeación de los equipos de red](https://aka.ms/teams-networking)
+> Vea la siguiente sesión para obtener información sobre cómo Teams aprovecha su red y sobre el mejor plan para una conectividad de red óptima: Planeación de [redes](https://aka.ms/teams-networking) de Teams
 
-# <a name="prepare-your-network-for-upgrading-to-teams"></a>Preparar la red para la actualización a los equipos
+# <a name="prepare-your-network-for-upgrading-to-teams"></a>Preparar la red para actualizar a teams
 
-Si va a implementar las reuniones, audio o vídeo, puede realizar algunos pasos adicionales para optimizar la red para que la funcionalidad. Los equipos utiliza audio y vídeo tecnología (códecs) que puede adaptarse a — y, por tanto, tener un mejor rendimiento en: más de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar la red para los equipos.
+Si está implementando audio, vídeo o reuniones, puede realizar algunos pasos adicionales para optimizar su red para esa funcionalidad. Teams usa tecnología de audio y vídeo (códecs) que puede adaptarse y, por lo tanto, funcionar mejor en la mayoría de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar su red para los equipos.
 
-![Diagrama que describe los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en la red.] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de calidad, y cómo administración de servicios superpone todos los tres componentes. Con un enfoque en la red.")
+![Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
 
-## <a name="why-should-you-prepare-your-network"></a>¿Por qué se debe preparar la red?
+## <a name="why-should-you-prepare-your-network"></a>¿Por qué debería preparar su red?
 
-Antes de estudiar los pasos que deben seguirse, es importante comprender lo que pueden afectar al rendimiento de los equipos y, desde allí, satisfacción y satisfacción del usuario. Tres áreas principales de riesgo pueden afectar a cómo los usuarios perciben la calidad de la red:
+Antes de ver los pasos que se deben realizar, es importante comprender lo que puede afectar al rendimiento de Teams y, por lo tanto, a la satisfacción y satisfacción del usuario. Tres de las principales áreas de riesgo pueden afectar al modo en que los usuarios perciben la calidad de la red:
 
-- No hay suficiente ancho de banda disponible
+- Ancho de banda insuficiente
 
-- Bloqueadores de elementos de Firewall y proxy
+- Firewalls y bloqueadores de proxy
 
-- Dificultades como vibración y pérdida de paquetes de red
+- Deficiencias de red, como la vibración y la pérdida de paquetes
 
-Los pasos descritos a continuación le ayudará a determinar que si su implementación podría verse afectada por cualquiera de estos factores y le ayudará a mover hacia una resolución. Con errores preparar la red probablemente llevarán a los usuarios insatisfechos y costosa, ad-hoc corrige. Mediante la preparación de su red y su organización: para los equipos, puede aumentar considerablemente sus posibilidades de éxito.
+Los pasos que se describen a continuación le ayudarán a determinar si su implementación podría verse afectada por alguno de estos factores y le ayudarán a desplazarse hacia una solución. Si no se prepara su red, es probable que se produzcan usuarios insatisfechos y costosas soluciones ad-hoc. Al preparar su red, y su organización, para Teams, puede aumentar enormemente sus posibilidades de éxito.
 
 <!--ENDOFSECTION-->
 
 ## <a name="bandwidth-planning"></a>Planeamiento del ancho de banda
 
-Teams Microsoft le ofrece la mejor audio, vídeo y uso compartido experiencia independientemente de las condiciones de red del contenido. Con códecs variables, se pueden negociar medios en entornos de ancho de banda limitado con un impacto mínimo. Pero donde ancho de banda no es una preocupación, experiencias pueden ser optimizadas para calidad, incluida una resolución de vídeo 1080p, hasta 30fps para vídeo y 15fps para contenido y audio de alta fidelidad.
+Microsoft Teams te ofrece la mejor experiencia de audio, vídeo y uso compartido de contenido, independientemente de las condiciones de tu red. Con los códecs variables, los medios se pueden negociar en entornos de ancho de banda limitados con un impacto mínimo. Pero donde el ancho de banda no es un problema, las experiencias se pueden optimizar para la calidad, incluida la resolución de video de 1080p, hasta 30 fps para video y 15fps para el contenido y el audio de alta fidelidad.
 
 [!INCLUDE [Bandwidth requirements](includes/bandwidth-requirements.md)]
 
@@ -68,59 +68,59 @@ El tráfico de transporte hacia atrás por la WAN aumenta la latencia y repercut
 
 Al optimizar la ruta de red a la red global de Microsoft, mejorará el rendimiento y, en última instancia, los usuarios disfrutarán de la mejor experiencia posible. Para obtener más detalles, vea la publicación del blog [Conseguir la mejor conectividad y el mejor rendimiento en Office 365](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694).
 
-Para obtener una experiencia óptima al usar multimedia en tiempo real dentro de Microsoft Teams, debe cumplir los requisitos de red para Office 365. Para obtener más información, vea [calidad de los medios y el rendimiento de la conectividad de red para Skype para profesionales en línea](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
+Para obtener una experiencia óptima en el uso de medios en tiempo real en Microsoft Teams, debe cumplir los requisitos de red para Office 365. Para obtener más información, consulte calidad de los [medios y rendimiento de conectividad de red para Skype empresarial online](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance).
 
-Los dos segmentos de red definen (cliente a Microsoft Edge) y borde de cliente a Microsoft Edge deben cumplir los siguientes requisitos:
+Los dos segmentos de red que se definen (del cliente al Microsoft Edge y del extremo del cliente a Microsoft Edge) deben cumplir los siguientes requisitos:
 
-|**Valor** |**Cliente hasta el borde de Microsoft** |**Borde de cliente hasta el borde de Microsoft** |
+|**Valor** |**Cliente a Microsoft Edge** |**Borde del cliente a Microsoft Edge** |
 |---|---|---|
 |**Latencia (unidireccional)** |< 50 ms |< 30 ms |
-|**Latencia (tiempo de ida y vuelta o RTT)** |< 100 ms |< ms 60 |
-|**Ráfagas de pérdida de paquetes** |% de <10 durante un intervalo de 200 ms |% de <1 durante un intervalo de 200 ms |
-|**Pérdida de paquetes** |% de <1 durante un intervalo de 15 segundos |<0.1% durante un intervalo de 15 segundos |
-|**Vibración de llegada entre granjas de paquetes** |<30 ms durante un intervalo de 15 segundos |<15 ms durante un intervalo de 15 segundos |
-|**Reaprovisionamiento de paquetes** |paquetes de salida de orden <0.05% |paquetes de salida de orden <0.01% |
+|**Latencia (tiempo de ida y vuelta o RTT)** |< 100 ms |< 60 ms |
+|**Pérdida de paquetes en ráfagas** |<10% durante cualquier intervalo de 200-ms |<1% durante cualquier intervalo de 200-ms |
+|**Pérdida de paquetes** |<1% durante cualquier intervalo de 15-sec |< 0,1% durante cualquier intervalo de 15-sec |
+|**Vibración de llegada entre paquetes** |<30 MS durante cualquier intervalo de 15-sec |<15 MS durante cualquier intervalo de 15-sec |
+|**Reordenación de paquetes** |< 0,05% de paquetes fuera de servicio |< de paquetes de un 0,01% de pedido |
 
-Para probar ambos segmentos de red, puede usar la [Herramienta de evaluación de la red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta se puede implementar en el cliente PC directamente y en un PC conectado hasta el borde de la red del cliente. La herramienta incluye documentación limitada, pero una documentación más profunda alrededor el uso de la herramienta se puede encontrar aquí: [Evaluación de preparación de la red](https://go.microsoft.com/fwlink/?linkid=855800). Mediante la ejecución de esta evaluación de disponibilidad de red, puede validar preparación de su red para ejecutar aplicaciones de multimedia en tiempo real, como Microsoft Teams.
+Para probar los dos segmentos de red, puede usar la [herramienta de evaluación de red](https://go.microsoft.com/fwlink/?linkid=855799). Esta herramienta se puede implementar tanto en el PC cliente directamente como en un equipo PC conectado al perímetro de la red del cliente. La herramienta incluye documentación limitada, pero una documentación más profunda sobre el uso de la herramienta puede encontrarse aquí: evaluación de la preparación para la [red](https://go.microsoft.com/fwlink/?linkid=855800). Al ejecutar esta evaluación de la disponibilidad de la red, puede validar la preparación de su red para ejecutar aplicaciones de medios en tiempo real, como Microsoft Teams.
 
 > [!NOTE]
-> Esto es lo mismo evaluación de disponibilidad de red que se recomienda ejecutar por los clientes que desean para implementar correctamente Skype para la empresa.
+> Esta es la misma evaluación de disponibilidad de red que recomendamos que ejecuten los clientes que desean implementar Skype empresarial correctamente.
 
 ### <a name="vpn"></a>VPN
 
-Las redes VPN ofrecen un servicio muy valioso a muchas organizaciones. Desafortunadamente, normalmente no diseñados o mientras está configurados para admitir multimedia en tiempo real. Algunas redes VPN también podrían no admitir UDP. Las redes privadas virtuales también presentan un nivel adicional de cifrado sobre el tráfico de medios que ya está cifrado. Además, la conectividad con el servicio de los equipos no sea eficaz debido a la fijación de cursor en forma de tráfico a través de un dispositivo VPN. Además, no están necesariamente diseñados desde una perspectiva de la capacidad para dar cabida a las cargas anticipadas que requieren los equipos.
+Las redes VPN ofrecen un servicio muy valioso a muchas organizaciones. Lamentablemente, generalmente no están diseñados o configurados para admitir medios en tiempo real. Algunas redes VPN también podrían no admitir UDP. Las redes privadas virtuales también introducen una capa adicional de cifrado sobre el tráfico de medios que ya está cifrado. Además, es posible que la conectividad con el servicio de los equipos no sea eficaz debido al tráfico de fijación de cabello a través de un dispositivo VPN. Además, no están diseñados necesariamente desde una perspectiva de capacidad para dar cabida a las cargas anticipadas que necesitará Teams.
 
-Lo que se recomienda es ofrecer una ruta alternativa que omita el VPN para el tráfico de Teams. Normalmente, esto se conoce como *división túnel VPN*. La división del túnel significa que el tráfico de Office 365 no atravesar la VPN pero vaya directamente a Office 365. Este cambio repercutirá positivamente en la calidad, pero también proporciona la ventaja secundaria que supone reducir la carga de los dispositivos VPN y la red de la organización.
+Lo que se recomienda es ofrecer una ruta alternativa que omita el VPN para el tráfico de Teams. Esto se conoce comúnmente como *VPN de túnel dividido*. Los túneles divididos hacen que el tráfico de Office 365 no atraviese la VPN, pero irá directamente a Office 365. Este cambio repercutirá positivamente en la calidad, pero también proporciona la ventaja secundaria que supone reducir la carga de los dispositivos VPN y la red de la organización.
 
 Para implementar un túnel dividido, consulte con su proveedor de VPN para los detalles de configuración.
 
 ### <a name="wi-fi"></a>Wi-Fi
 
-Al igual que VPN, redes Wi-Fi no están diseñadas necesariamente o configuradas para admitir multimedia en tiempo real. Planeación de, o la optimización de, una red Wi-Fi para equipos de soporte técnico es una consideración importante para una implementación de alta calidad.
+Al igual que VPN, las redes Wi-Fi no tienen por qué estar diseñadas o configuradas para admitir medios en tiempo real. La planeación o la optimización de una red Wi-Fi para admitir equipos es una consideración importante para una implementación de alta calidad.
 
-Hay varios factores que se precie para optimizar una red Wi-Fi:
+Hay varios factores que se deben tener en cuenta para optimizar una red Wi-Fi:
 
 - Implementar QoS o Wi-Fi Multimedia (WMM) para garantizar que el tráfico multimedia se priorice de forma acorde a través de redes Wi-Fi.
 
-- Planeación y optimización de la Wi-Fi bandas y el acceso de punto de colocación. El intervalo de 2,4 GHz podría proporcionar una experiencia adecuada según la posición del punto de acceso, pero los puntos de acceso a menudo se ven afectados por otros dispositivos del consumidor que operan en ese intervalo. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.
+- Planear y optimizar las bandas Wi-Fi y la ubicación de puntos de acceso. El intervalo de 2,4 GHz puede proporcionar una experiencia adecuada en función de la ubicación del punto de acceso, pero los puntos de acceso suelen verse afectados por otros dispositivos consumidores que operan en ese intervalo. El intervalo de 5 GHz es mejor para los medios en tiempo real, debido a su rango denso, pero requiere más puntos de acceso para conseguir suficiente cobertura. Los puntos de conexión también necesitan admitir esa gama y configurarlos para poder aprovechar esas bandas de forma adecuada.
 
-- Si se implementan redes Wi-Fi de doble banda, considere la posibilidad de implementar el control de banda. _El control de banda_ es una técnica de implementada por proveedores de Wi-Fi para influir en los clientes de banda dual para utilizar el intervalo de 5 GHz.
+- Si se implementan redes Wi-Fi de banda dual, considere la posibilidad de implementar la dirección de banda. El _manejo de bandas_ es una técnica implementada por los proveedores de Wi-Fi para que los clientes de banda dual usen el intervalo de 5 GHz.
 
-- Cuando los puntos de acceso del mismo canal están demasiado cerca pueden provocar la superposición de señal y compiten por equivocación, lo que resulta en una mala experiencia para el usuario. Asegurarse de que los puntos de acceso que están junto a otra en canales que no se superpongan.
+- Cuando los puntos de acceso del mismo canal están demasiado juntos, pueden provocar la superposición de señales y competir involuntariamente, lo que provoca una mala experiencia para el usuario. Asegúrese de que los puntos de acceso que se encuentran junto a los demás estén en canales que no se superponen.
 
 Cada proveedor inalámbrico tiene sus propias recomendaciones para implementar su solución inalámbrica. Le recomendamos que consulte con su proveedor para obtener las indicaciones concretas.
 
 <!--ENDOFSECTION-->
 
-## <a name="firewall-and-proxy-requirements"></a>Requisitos de Firewall y proxy
+## <a name="firewall-and-proxy-requirements"></a>Requisitos de firewall y proxy
 
-Microsoft Teams se conecta a Microsoft Online Services y necesita conectividad a internet para esto. Para que los equipos para que funcione correctamente, debe abrir los puertos TCP 80 y 443 desde los clientes a internet y los puertos UDP 3478 a través de 3481 desde los clientes a internet. Los puertos TCP se usan para conectarse a contenido basado en web, como Exchange Online, SharePoint Online y los servicios de conversaciones en los equipos. Plug-ins y conectores también se conectan a través de estos puertos TCP. Los cuatro puertos UDP se usan para los medios, como audio y vídeo, para asegurarse de que fluyen correctamente.
+Microsoft Teams se conecta a Microsoft Online Services y necesita conexión a Internet para esto. Para que los equipos funcionen correctamente, debe abrir los puertos TCP 80 y 443 de los clientes a Internet, y los puertos UDP 3478 a 3481 desde los clientes a Internet. Los puertos TCP se usan para conectarse a contenido basado en Web, como SharePoint Online, Exchange Online y los servicios de chat de Teams. Los complementos y conectores también se conectan a través de estos puertos TCP. Los cuatro puertos UDP se usan para medios como audio y vídeo, para garantizar que fluyen correctamente.
 
-Abrir estos puertos es esencial para una implementación de los equipos confiable. Bloqueo de estos puertos no es compatible y afectará a la calidad de los medios.
+La apertura de estos puertos es esencial para una implementación de equipos confiable. No se admite el bloqueo de estos puertos y afectará la calidad de los medios.
 
-Si su organización requiere que se especifican los intervalos de direcciones IP y dominios a los que se deben abrir estos puertos exacta, puede restringir los intervalos IP de destino y los dominios para estos puertos. Para obtener una lista de puertos exactas, protocolos y rangos IP, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Si elige restringir los intervalos de direcciones IP de destino y los dominios, debe asegurarse de mantener la lista de puertos y rangos actualizados porque puede cambiar. Puede suscribirse a [esta fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) a actualizarse cuando se producen cambios. También es una práctica recomendada para comprobar si se abren todos los puertos mediante la ejecución de la [Skype para la herramienta de evaluación de red empresarial](https://www.microsoft.com/download/details.aspx?id=53885) de forma regular. Puede encontrar más información acerca de la funcionalidad de esta herramienta en la siguiente sección.
+Si su organización requiere que especifique los intervalos de direcciones IP y los dominios exactos en los que se deben abrir estos puertos, puede restringir los dominios y los intervalos IP de destino para estos puertos. Para obtener una lista de los puertos, protocolos e intervalos de IP exactos, consulte [direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges). Si elige restringir los intervalos de direcciones IP de destino y los dominios, debe asegurarse de que mantiene actualizada la lista de puertos y intervalos porque pueden cambiar. Puede suscribirse a [esta fuente RSS](https://go.microsoft.com/fwlink/p/?linkid=236301) para que se actualice cuando se produzcan cambios. También es una buena práctica comprobar si todos los puertos se abren ejecutando la herramienta de [evaluación de redes de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=53885) de forma periódica. Puede obtener más información sobre la funcionalidad de esta herramienta en la siguiente sección.
 
-En el caso de un servidor proxy que se va a implementar, se recomienda que se pasan por alto el servidor proxy para todos los servicios de los equipos. Aunque es posible que funcione el uso de un servidor proxy, es muy probable que se reducirá la calidad debido a la del elemento multimedia que se ve obligado a usar TCP en lugar de UDP. Para obtener más información acerca de los servidores proxy y no usar, vea [las direcciones URL de Office 365 y los intervalos de direcciones IP](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
+En el caso de que se implemente un servidor proxy, le recomendamos que omita el servidor proxy para todos los servicios de Teams. Aunque el uso de un proxy puede funcionar, es muy probable que se reduzca la calidad debido a que los elementos multimedia se ven obligados a usar TCP en lugar de UDP. Para obtener más información sobre los servidores proxy y la omisión, consulte [direcciones URL e intervalos de direcciones IP de Office 365](https://docs.microsoft.com/MicrosoftTeams/office-365-urls-ip-address-ranges).
 
 <!--ENDOFSECTION-->
 
@@ -128,90 +128,90 @@ En el caso de un servidor proxy que se va a implementar, se recomienda que se pa
 
 ### <a name="external-name-resolution"></a>Resolución de nombres externos
 
-Asegúrese de que todos los equipos cliente que ejecutan al cliente de los equipos pueden resolver consultas DNS externas para descubrir los servicios proporcionados por Office 365.
+Asegúrese de que todos los equipos cliente que ejecutan el cliente de Teams puedan resolver consultas DNS externas para descubrir los servicios proporcionados por Office 365.
 
-### <a name="nat-pool-size"></a>Tamaño del grupo de servidores NAT
+### <a name="nat-pool-size"></a>Tamaño del grupo NAT
 
-Cuando varios usuarios y dispositivos de acceso a Office 365 mediante el uso de traducción de direcciones de red (NAT) o traducción de direcciones de puerto (PAT), debe asegurarse de que los dispositivos ocultos detrás de cada dirección IP enrutable públicamente no superen el número compatible.
+Cuando varios usuarios y dispositivos obtienen acceso a Office 365 mediante la traducción de direcciones de red (NAT) o la traducción de direcciones de puerto (PAT), debe asegurarse de que los dispositivos que se encuentran detrás de cada dirección IP enrutada públicamente no superen el número admitido.
 
-Para mitigar este riesgo, asegúrese de adecuada direcciones IP públicas se asignan a los grupos de NAT para evitar el agotamiento de puerto. Agotamiento del puerto hará que los usuarios finales internos y los dispositivos hacer frente a problemas al conectarse a los servicios de Office 365. Para obtener más información, vea [admitir NAT con Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
+Para mitigar este riesgo, asegúrese de que se asignan direcciones IP públicas adecuadas a los grupos NAT para evitar el agotamiento del puerto. El agotamiento del puerto provocará problemas a los usuarios finales internos y los dispositivos al conectarse a los servicios 365 de Office. Para obtener más información, consulte [compatibilidad de NAT con Office 365](https://docs.microsoft.com/office365/enterprise/nat-support-with-office-365).
 
-### <a name="intrusion-detection-and-prevention-guidance"></a>Instrucciones de detección y prevención de intrusiones
+### <a name="intrusion-detection-and-prevention-guidance"></a>Guía de detección y prevención de intrusiones
 
-Si su entorno tiene un sistema de detección de intrusiones o sistema de prevención de intrusiones implementado para obtener un nivel adicional de seguridad para las conexiones salientes, asegúrese de que todo el tráfico que tiene las direcciones URL de Office 365 como su destino está en la lista blanca.
+Si su entorno tiene un sistema de detección de intrusos o un sistema de prevención de intrusiones implementado para una capa adicional de seguridad para conexiones salientes, asegúrese de que el tráfico que tiene las direcciones URL de Office 365 como destino está en la lista blanca.
 
-## <a name="test-the-network"></a>La red de prueba
+## <a name="test-the-network"></a>Probar la red
 
-Una vez completada la preparación de la planeación y la red, incluida la actualización de ancho de banda y la apertura de puertos en el firewall: debe probar el rendimiento de la red. Los resultados de esta prueba pintan una imagen más clara de optimización de la red o corrección necesarios para el éxito de su implementación de los equipos.
+Una vez completada la planificación y la preparación de la red (incluida la actualización del ancho de banda y la apertura de puertos en el firewall), debe comprobar el rendimiento de la red. Los resultados de estas pruebas pintarán una imagen más nítida de cualquier optimización de red o corrección necesaria para el éxito de la implementación de Teams.
 
-Puede descargar el [Skype para la herramienta de evaluación de red empresarial](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar si está lista para los equipos de la red. La herramienta ofrece una funcionalidad dual: puede comprobar si se han abierto todos los puertos correctos, y puede probar de dificultades de red.
+Puede descargar la [herramienta de evaluación de redes de Skype empresarial](https://www.microsoft.com/download/details.aspx?id=53885) para comprobar si su red está lista para los equipos. La herramienta ofrece funcionalidad dual: puede comprobar si se han abierto todos los puertos correctos y puede probar las deficiencias de red.
 
-Después de descargar e instalar la herramienta, puede encontrar en los archivos de C:\Program (x86) \Microsoft Skype para la herramienta de evaluación de red empresarial. Una guía detallada de cómo usar la herramienta, Usage.docx, se incluye en ese directorio.
+Después de descargar e instalar la herramienta, puede encontrarla en C:\Archivos de programa (x86) \Microsoft Skype empresarial para la herramienta de evaluación de redes. En ese directorio se incluye una guía detallada sobre cómo usar la herramienta, Usage. docx.
 
-### <a name="test-for-opened-ports"></a>Prueba de puertos abiertos
+### <a name="test-for-opened-ports"></a>Probar los puertos abiertos
 
-Abra una ventana del símbolo del sistema y navegue hasta el directorio de la herramienta de evaluación de la red, escriba **cd archivos de C:\Program (x86) \Microsoft Skype para la herramienta de evaluación de red empresarial**. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool.exe /connectivitycheck**
+Abra una ventana del símbolo del sistema y navegue al directorio de la herramienta de evaluación de redes escribiendo **CD c:\Archivos de programa (x86) \Microsoft Skype empresarial herramienta de evaluación de redes**. En el símbolo del sistema, inicie la prueba de puertos abiertos escribiendo **networkassessmenttool. exe/connectivitycheck**
 
-Después de ejecutar las comprobaciones, la herramienta se muestre el mensaje "Las comprobaciones se terminó correctamente" o un informe sobre los puertos que se han bloqueado. También genera un archivo denominado Connectivity_results.txt, que contiene el resultado de la herramienta y lo almacena en la carpeta % userprofile %\\appdata\\local\\microsoft Skype para la herramienta de evaluación de red empresarial\\ Active directory.
+Después de ejecutar las comprobaciones, la herramienta mostrará el mensaje "comprobaciones completadas correctamente" o informe sobre los puertos bloqueados. También genera un archivo denominado Connectivity_results. txt, que contiene el resultado de la herramienta y lo almacena en el\\directorio de herramientas\\\\\\ de evaluación de redes locales de% userprofile% AppData de Microsoft Skype empresarial.
 
-Se recomienda ejecutar las comprobaciones de conectividad con regularidad para asegurarse de los puertos se han abierto y funcionan correctamente.
+Le recomendamos que ejecute las comprobaciones de conectividad de forma regular para asegurarse de que los puertos se hayan abierto y funcionen correctamente.
 
-### <a name="test-for-network-impairments"></a>Pruebas en busca de problemas de red
+### <a name="test-for-network-impairments"></a>Probar las deficiencias de red
 
-Para aumentar la satisfacción de los usuarios, debe limitar cualquier dificultades en la red. Las dificultades de red más comunes son retraso (latencia), pérdida de paquetes y vibración:
+Para aumentar la satisfacción del usuario, debe limitar cualquier deficiencia de la red. Los problemas de red más comunes son el retraso (latencia), la pérdida de paquetes y la vibración:
 
-- **Latencia:** Esto es el tiempo necesario para obtener un paquete IP de punto A punto b en la red. Este retraso de propagación de red básicamente está asociado a la distancia física entre los dos puntos y la velocidad de la luz, incluida una sobrecarga adicional realizada por los diversos enrutadores intermedios. Latencia se mide como el tiempo de ida y vuelta o unidireccional.
+- **Latencia:** Este es el tiempo que se tarda en obtener un paquete IP desde el punto a al punto B de la red. Este retraso de propagación de red está esencialmente unido a la distancia física entre los dos puntos y la velocidad de luz, incluida la sobrecarga adicional que realizan los distintos enrutadores entre. La latencia se mide como tiempo unidireccional o de ida y vuelta.
 
-- **Pérdida de paquetes**: a menudo se define como un porcentaje de paquetes que se pierden en una determinada ventana de tiempo. Pérdida de paquetes afecta directamente a la calidad de audio: desde pequeñas, individual los paquetes perdidos no tener casi afectar a las pérdidas de ráfagas opuesta que causa el audio para recortar completamente.
+- **Pérdida de paquetes**: suele definirse como un porcentaje de paquetes que se pierden en una ventana determinada de tiempo. La pérdida de paquetes afecta directamente a la calidad del audio, desde pequeños paquetes perdidos individuales sin apenas repercusiones en pérdidas de ráfagas en el fondo que hacen que el audio se recorte por completo.
 
-- **Vibración de llegada entre paquetes, o simplemente vibración:** Éste es el cambio promedio de retraso entre envíos sucesivos de paquetes. Puede adaptar el software más moderno de VoIP, incluidos Skype para la empresa, para algunos niveles de vibración a través de almacenamiento en búfer. Es sólo cuando la vibración supera el almacenamiento en búfer que un participante se tenga en cuenta los efectos de vibración.
+- **Vibración de llegada entre paquetes o simplemente vibración:** Este es el cambio medio en el retraso entre paquetes sucesivos. La mayoría de los programas de VoIP modernos, incluido Skype empresarial, pueden adaptarse a algunos niveles de vibración mediante el almacenamiento en búfer. Solo cuando la vibración supera el búfer que un participante observará de los efectos de la vibración.
 
-Los valores máximos de estas dificultades se describen en el [rendimiento de conectividad de red y calidad Media](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance). Cuando las pruebas para estas dificultades, podemos distinguir entre dos segmentos independientes:
+Los valores máximos de estos problemas se describen en la [calidad de los medios y](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance)en el rendimiento de conectividad de red. Al probar estas deficiencias, distinguimos entre dos segmentos diferentes:
 
-- El *segmento del borde* es el segmento en el que reside el enrutador. Éste es el segmento de red lógica más cercano conectado a internet en cada una de las ubicaciones. En la mayoría de los casos, es el punto de conexión del enrutador o, posiblemente, una red perimetral (también conocida como *DMZ*, *zona desmilitarizada*y *subred protegida*). No hay más tráfico que afecta a los dispositivos que no sean el enrutador debe producirse entre este segmento e internet.
+- El *segmento de borde* es el segmento en el que vive el router. Este es el segmento de red lógica más cercano conectado a Internet en cada una de sus ubicaciones. En la mayoría de los casos, este es el punto de conexión del enrutador o, posiblemente, una red perimetral (también conocida como *DMZ*, *zona desmilitarizada*y *subred filtrada*). No debe ocurrir más tráfico que afecte a dispositivos que no sean el router entre este segmento e Internet.
 
-- El *segmento del cliente* es el segmento de red lógica en la que residen los clientes.
+- El *segmento de cliente* es el segmento de red lógica en el que residen los clientes.
 
-Debe probar ambos segmentos mediante el uso de la herramienta de evaluación de la red. Para probar el segmento, navegue hasta el directorio y escriba **networkassessmenttool.exe** en el símbolo del sistema. Los resultados se escriben en un archivo denominado Results.tsv, y se puede comparar con los [requisitos](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) para cada segmento.
+Para probar ambos segmentos, use la herramienta Evaluación de red. Para probar el segmento, navegue hasta el directorio y escriba **networkassessmenttool. exe** en el símbolo del sistema. Los resultados se escriben en un archivo denominado resultados. TSV y puede compararlos con los [requisitos](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) de cada segmento.
 
-Tenga en cuenta que ambos segmentos deben cumplir los requisitos para una implementación de alta calidad. Se recomienda ejecutar la herramienta varias veces para una hora directamente para obtener una buena indicación de rendimiento de la red.
+Tenga en cuenta que ambos segmentos deben cumplir los requisitos para una implementación de alta calidad. Le recomendamos que ejecute la herramienta varias veces durante una hora directamente para obtener una buena indicación del rendimiento de su red.
 
 <!--ENDOFSECTION-->
 
 ## <a name="network-remediation"></a>Corrección de red
 
-Si los resultados de la planeación de ancho de banda, las pruebas de puerto o los requisitos de red para las pruebas muestran que su red actual necesita corrección antes de implementar los equipos, puede hacerlo de varias maneras:
+Si los resultados de las pruebas de planeación de ancho de banda, prueba de puertos o requisitos de red muestran que su red actual necesita corrección antes de implementar Teams, puede hacerlo de varias maneras:
 
-- Para el ancho de banda insuficiente, actualización conexiones de modo que puede flujo de tráfico a Office 365 no les afectan.
+- Para un ancho de banda insuficiente, actualice las conexiones para que el tráfico a Office 365 pueda fluir.
 
-- Para los puertos bloqueados, cambie las reglas de firewall y vuelva a probar los puertos.
+- Para los puertos bloqueados, cambie las reglas del firewall y pruebe de todos los puertos.
 
-- Para problemas de red, siempre que realice un análisis de causa de origen.
+- Para discapacidades de red, siempre realice un análisis de causa de origen.
 
-Calidad de servicio (QoS) puede usarse para auditiva batalla por orden de prioridad y separar el tráfico. Algunas organizaciones optan por implementar QoS para resolver los problemas de ancho de banda o restringir la cantidad de tráfico que fluyen. Esto no mejora la calidad y va a dar lugar a problemas nuevo. Siempre debe realizar un análisis de causa raíz cuando dificultades de red superan los requisitos. QoS puede ser una solución. Para obtener más información, vea [Calidad de servicio en los equipos de Microsoft](qos-in-teams.md).
+La calidad de servicio (QoS) se puede usar para luchar contra las dificultades al priorizar y separar el tráfico. Algunas organizaciones eligen implementar QoS para superar los problemas de ancho de banda o restringir la cantidad de tráfico que fluye. Esto no mejorará la calidad y provocará nuevos problemas. Un análisis de causa de origen debe realizarse siempre cuando las discapacidades de red superen los requisitos. QoS puede ser una solución. Para obtener más información, consulte [calidad de servicio en Microsoft Teams](qos-in-teams.md).
 
 >[!NOTE]
 >Muchas redes van evolucionando gracias a las actualizaciones, al ampliarlas o por otros requisitos de negocio. Asegúrese de contar con procesos operativos que ayuden a mantener estas áreas como parte de su planificación de administración de servicios.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será responsable de completar las evaluaciones de red adecuada en todos los segmentos de red y ubicaciones de la organización?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para ayudar a garantizar que la red está preparada para la implementación de Microsoft Teams. Para obtener más información, vea <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">Evaluación de preparación de la red</a>.</li><li>Realizar la corrección de red en función de los resultados de la evaluación de disponibilidad de red para cada segmento de red.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Puntos de decisión</td><td><ul><li>¿Quién será el responsable de realizar las evaluaciones de red apropiadas en todos los segmentos de red y ubicaciones de la organización?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Puede realizar una evaluación de red detallada para asegurarse de que su red está lista para su implementación de Microsoft Teams. Para obtener más información, consulte evaluación de la <a href="https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness" data-raw-source="[Network Readiness Assessment](https://myadvisor.fasttrack.microsoft.com/CloudVoice/Offers?pageState=NetworkReadiness)">disponibilidad de red</a>.</li><li>Realizar correcciones de red basadas en los resultados de la evaluación de disponibilidad de red para cada segmento de red.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
 
 ## <a name="key-takeaways"></a>Impresiones clave
 
-Estos son los principales puntos de esta guía. Debe:
+Estas son las principales impresiones de esta guía. Debes:
 
-- Abra los puertos TCP 80 y 443 saliente desde clientes que utilizarán los equipos.
+- Abra los puertos TCP 80 y 443 salientes de los clientes que usarán Teams.
 
-- Abra los puertos UDP 3478 a través de 3481 saliente desde clientes que utilizarán los equipos.
+- Abra los puertos UDP 3478 a 3481 salientes de los clientes que usarán Teams.
 
-- Asegúrese de que dispone de suficiente ancho de banda para la implementación de los equipos al completar el [Organizador de la red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
+- Asegúrese de tener el ancho de banda suficiente para implementar Teams completando el planificador de la [red](https://myadvisor.fasttrack.microsoft.com/CloudVoice/NetworkPlanner).
 
-- Ejecutar la [Herramienta de evaluación de la red](https://www.microsoft.com/download/details.aspx?id=53885) y asegúrese de que cumple con los requisitos descritos en el [rendimiento de conectividad de red y calidad Media](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) desde el segmento del borde y el segmento del cliente.
+- Ejecute la [herramienta de evaluación de redes](https://www.microsoft.com/download/details.aspx?id=53885) y asegúrese de que cumple con los requisitos descritos en [calidad de medios y rendimiento de conectividad de red](/SkypeForBusiness/optimizing-your-network/media-quality-and-network-connectivity-performance) tanto del segmento perimetral como del segmento de cliente.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-[Vídeo: Planeación de red](https://aka.ms/teams-networking)
+[Vídeo: planificación de red](https://aka.ms/teams-networking)

@@ -15,12 +15,12 @@ description: Tareas y actividades necesarias para la administración de servicio
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 660087ef2ac4bcf81d2c59606d9b4658182cd899
-ms.sourcegitcommit: a6d34297fd4e91e873372513b270f34e15cb8003
+ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34162577"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34343867"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -42,8 +42,8 @@ Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como 
 
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt=""/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de voz en la nube.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de voz en la nube está funcionando a su máxima capacidad.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Revise completa la guía de operaciones.</li><li>Implemente una estrategia de operaciones que se alinee con los objetivos de su organización para ofrecer la calidad y confiabilidad de las cargas de trabajo de voz en la nube.</li><li>Revise la guía de revisión de la calidad de la experiencia.</li><li> Implemente una estrategia de operaciones para realizar regularmente revisiones de la experiencia de la experiencia para asegurarse de que su implementación de voz en la nube está funcionando a su máxima capacidad.</li></ul></td></tr>
 </table>
 
 

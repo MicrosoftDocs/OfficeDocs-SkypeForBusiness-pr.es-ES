@@ -1,12 +1,12 @@
 ---
-title: Prueba piloto de equipos de Microsoft con Skype para la empresa | Implementar, adoptar implementar
+title: Microsoft Teams Pilot con Skype empresarial | Implementación, adopción de la implementación
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Instrucciones para iniciar un piloto de Microsoft Teams para todas las respuestas que los equipos explorar pueden ofrecen a su organización mientras sigue usar Skype para la empresa
+description: Instrucciones para iniciar un programa piloto de Microsoft Teams para explorar todos los equipos que pueden ofrecer a su organización mientras continúa usando Skype empresarial
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 search.appverid: MET150
@@ -15,99 +15,99 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb10808995cafe76056f4856a89b15b657e98ae9
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: b5e8ca2fd4067c8105ea9dce2e94729e20d835f7
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898678"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344157"
 ---
-![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
+![Etapas del viaje de actualización, con énfasis en la fase de implementación e] implementación (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
-En este artículo forma parte de la fase de implementación y la implementación de su viaje por la actualización y comparte conocimientos para la ejecución de un entorno de pruebas eficaz. Antes de continuar, confirme que ha realizado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización y comparte información para ejecutar un plan piloto eficaz. Antes de continuar, confirme que ha completado las siguientes actividades:
 
-- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
-- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
-- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
+- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
 
 # <a name="conduct-a-user-pilot"></a>Llevar a cabo un piloto del usuario
 
-Mediante la implementación de nuevas tecnologías, su organización puede obtener el valor de negocio como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y la eficacia operativa, pero también puede afectar a la productividad y (de infraestructura organizativa de los usuarios la red). Antes de habilitar la nueva tecnología en toda la organización, realice a un piloto de usuario formal. Al igual que haría pintar una revisión pequeña de color en una pared antes de pintar el salón de todo, ¿para probar una amplia implantación en una escala menor, llevar a cabo una prueba piloto para validar técnica y preparación del usuario, identificar y mitigar los problemas de y ayudar a garantizar una correcta implementación de toda la organización.
+Al implementar nuevas tecnologías, su organización puede obtener valor para el negocio, como ahorro de costos, cumplimiento de seguridad, satisfacción de los empleados y eficacia operativa, pero también puede afectar la productividad y la infraestructura de la organización de sus usuarios ( su red). Antes de habilitar una nueva tecnología en toda la organización, lleve a cabo un proyecto piloto formal. Tal y como lo harías con un pequeño parche de color en una pared antes de pintar toda la habitación, probaría una amplia distribución a una escala menor llevando a cabo un plan piloto para validar la preparación técnica y del usuario, identificar y mitigar problemas y ayudar a garantizar una exitosa implementación en toda la organización.
 
-Para conseguir los resultados más realistas, la prueba piloto debe implican usuarios reales, imitar cómo comunicarse y colaborar y compruebe experiencias técnico y de usuario. Si está considerando su organización ejecuta Skype para profesionales y los equipos en paralelo, la actualización a los equipos en el futuro, o implementar la nueva funcionalidad de dichas una llamada o conferencia, un piloto puede ayudar a identificar el derecha ruta para su organización. A veces se considera fase 1 de la distribución, la prueba piloto ideal aprovecha la preparación que ya ha iniciado e implementa el plan definido con un grupo de destino de los usuarios.
+Para lograr los resultados más realistas, la prueba piloto debe incluir a usuarios reales, imitar cómo se comunican y colaboran, y comprobar tanto las experiencias técnicas como para el usuario. Independientemente de si su organización está considerando ejecutar Skype empresarial y Teams en paralelo, actualizando a teams en el futuro o implementando nuevas funcionalidades como una llamada o conferencia, una prueba piloto puede ayudarle a identificar la ruta adecuada para su organización. A veces se considera la fase 1 de un despliegue, el piloto ideal aprovecha la preparación que ya ha iniciado e implementa su plan definido con un grupo de usuarios de destino.
 
 | | |
 |---|---|
-| ![](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo se usan una prueba piloto para informar a la dirección del proyecto?</li></ul> |
-| ![](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Use las instrucciones siguientes para diseñar y ejecutar a la prueba piloto formal.</li></ul>|
+| ![Un icono que muestra un punto de decisión](media/audio_conferencing_image7.png) <br/>Puntos de decisión|<ul><li>¿Cómo usará una prueba piloto para informarle sobre la dirección del proyecto?</li></ul> |
+| ![Un icono que muestra el siguiente paso](media/audio_conferencing_image9.png)<br/>Siguiente paso|<ul><li>Use las instrucciones a continuación para diseñar y ejecutar su piloto formal.</li></ul>|
 
 > [!Tip]
-> Utilice los [recursos pilotos](https://aka.ms/UpgradeSuccessKit) de ejemplo para ayudar a diseñar sus comunicaciones, plan y encuesta de comentarios de pruebas.
+> Use los [recursos piloto](https://aka.ms/UpgradeSuccessKit) de ejemplo para ayudar a diseñar las comunicaciones, el plan de pruebas y la encuesta de comentarios.
 
-## <a name="1-outline-pilot-logistics"></a>1. logística piloto de esquema
+## <a name="1-outline-pilot-logistics"></a>1. Resumen de la logística piloto
 
-Fechas de inicio y final y [claramente definido objetivos](upgrade-define-project-scope.md#project-goals) para medir el éxito, ha definido correctamente la prueba piloto. Estos objetivos deben alinear con el ámbito del proyecto más amplio, tal como se describe cuándo se [define el ámbito del proyecto](upgrade-define-project-scope.md)y se usa para informar a la ruta de acceso después de la prueba piloto es a través de. También debe asegurarse de que ha incluido a las partes interesadas derecha para la duración del proyecto. Querrá estar seguro permitir suficiente tiempo ejecutar la prueba piloto y evaluar su impacto: se recomienda un mínimo de 30 días.
+Una prueba piloto correcta define fechas de inicio y finalización, y [objetivos claramente definidos](upgrade-define-project-scope.md#project-goals) para medir el éxito. Estos objetivos deberían alinearse con el ámbito de su proyecto más amplio, tal y como se ha documentado cuando [definió el ámbito del proyecto](upgrade-define-project-scope.md), y se usarán para informar a su camino hacia delante después de que haya finalizado. También debe asegurarse de que ha incluido a las partes interesadas correctas durante la duración del proyecto. Querrá tener el tiempo suficiente para ejecutar la prueba piloto y evaluar su impacto: le recomendamos un mínimo de 30 días.
 
-Comience con poco y agregar a la prueba piloto según corresponda: si mediante la adición de las cargas de trabajo o características o más usuarios: realización de tiempo para evaluar los resultados y ajustar el piloto, tal y como realice una iteración. Incluso es posible que participar para ejecutar a las pruebas piloto siguientes como nuevas características de los equipos se liberan por la guía.
+Comience con poco y agregue a su piloto según corresponda, ya sea agregando cargas de trabajo o características, o usuarios adicionales, y tendrá tiempo para evaluar los resultados y ajustar su piloto mientras itera. Incluso puede optar por ejecutar pilotos posteriores a medida que se publican nuevas características de Teams en el plan.
 
-## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. seleccionar a los participantes pilotos y escenarios de prueba
+## <a name="2-select-your-pilot-participants-and-test-scenarios"></a>2. seleccionar los participantes de la prueba piloto y los escenarios de prueba
 
-Una de las tareas más importantes a la hora de planificar el programa piloto es hacer una selección meditada de los participantes. Recuerde que los equipos se optimiza para el trabajo en equipo, por lo que debe asegurarse de seleccionar los participantes pilotos no exclusivamente basado en roles o roles pero también según su proyecto y el trabajo del equipo de entre. Un buen sitio para iniciar solicita su las partes interesadas y los directores de departamento para proyectos reales que se pueden validar en los equipos. Un ejemplo de un proyecto basado en roles es posible usar los equipos con la organización de venta para asegurarse de que los representantes de campo pueden obtener acceso fácilmente a los recursos que necesitan y compartan conocimientos con otros miembros de campo. Un ejemplo de trabajo basado en proyectos es posible que la coordinación de un evento de lanzamiento del producto con el marketing, aprendizaje, relaciones públicas y equipos de planeación de evento. Sea cual sea el escenarios que seleccione, debe ampliar la prueba piloto a personas clave en TI, aprendizaje y su departamento de soporte técnico, por lo que puede validar exhaustivamente la solución se optimiza totalmente recursos de administración de project.
+Una de las tareas más importantes a la hora de planificar el programa piloto es hacer una selección meditada de los participantes. Recuerde que Teams está optimizado para trabajar en equipo, así que asegúrese de seleccionar a los participantes de la prueba piloto no únicamente en función de los roles o los roles, sino también de los proyectos y el trabajo entre equipos. Un excelente lugar para empezar es preguntar a los participantes y jefes de departamento sobre proyectos reales que puede validar en Teams. Un ejemplo de un proyecto basado en roles podría ser usar Teams con su organización de ventas para garantizar que los representantes de campo puedan acceder fácilmente a los recursos que necesitan y compartir información con otros miembros del campo. Un ejemplo de trabajo basado en proyectos puede estar coordinando un evento de lanzamiento de producto con los equipos de marketing, aprendizaje, relaciones públicas y planeamiento de eventos. Independientemente de los escenarios que seleccione, la prueba piloto debe extenderse a las personas clave de ti, la formación y el Departamento de soporte técnico, de modo que pueda validar la solución al completo mientras optimiza los recursos de administración de proyectos.
 
 > [!Tip]
-> Cuando la selección de los equipos de prueba piloto a los participantes del grupo, no olvide incluir usuarios principales de Skype para la empresa. Póngase en contacto con los usuarios a comprender cómo utilizan Skype para la empresa hoy mismo y, a continuación, crear un plan de pruebas para comprobar que los equipos pueden satisfacer sus necesidades actuales.
+> Cuando seleccione los participantes del grupo piloto de equipos, asegúrese de incluir los principales usuarios de Skype empresarial. Consulte a esos usuarios para saber cómo usan Skype empresarial hoy y, a continuación, cree un plan de prueba para comprobar que Teams puede cumplir con sus necesidades actuales.
 
-## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. diseño de la encuesta de comentarios y plan de prueba
+## <a name="3-design-your-test-plan-and-feedback-survey"></a>3. diseñar un plan de prueba y una encuesta de comentarios
 
-Para obtener una experiencia piloto correcta, a los participantes tareas claramente definidas para llevar a cabo junto con una forma para que puedan compartir sus comentarios. Agrupar tareas conjuntamente para ofrecer los escenarios para el mundo real a los usuarios, que muestran la relevancia de sus actividades diarias. Permiten el uso de planeación de los casos que haya definido en la Guía de [valoración organizativa cambiar preparación para](https://aka.ms/OrgReadiness) la prueba.
+Para que la experiencia piloto sea satisfactoria, proporcione a los participantes tareas claramente definidas para su finalización y una forma de compartir sus comentarios. Agrupe tareas en conjunto para ofrecer escenarios reales a sus usuarios, lo que muestra la relevancia para sus actividades diarias. Deje que los casos de uso que definió en evaluar la disponibilidad de la [organización de cambios](https://aka.ms/OrgReadiness) guían su plan de pruebas.
 
-Su organización puede optar por toda la funcionalidad de la prueba piloto a la vez, o utilizar un enfoque gradual, por ejemplo, piloto en primer lugar, colaboración, a continuación, a continuación, conversaciones en las reuniones y llamar a. Asegúrese de que dispone de un canal abierto de comentarios para realizar un seguimiento del progreso y medir los resultados. Usar una encuesta predefinida como una forma sencilla de capturar y evaluación de los resultados de la prueba piloto; el diseño de la encuesta debe basarse en los escenarios y características en su plan de pruebas.
+Su organización puede optar por realizar una prueba piloto de todas las funciones a la vez, o usar un enfoque gradual, por ejemplo, una colaboración piloto en primer lugar, después reuniones, chats y llamadas. Asegúrese de tener un canal de comentarios abierto para realizar un seguimiento del progreso y medir los resultados. Usar una encuesta predefinida como una forma sencilla de capturar y evaluar los resultados de la prueba piloto; el diseño de la encuesta debe basarse en los escenarios y características de su plan de pruebas.
 
 ## <a name="4-create-your-communications-plan"></a>4. crear un plan de comunicaciones
 
-Es crucial para el éxito de la prueba piloto que enseñar a los participantes pilotos en lo que sucede, cuándo y por qué, y lo que se espera de ellos. Para la unidad diversión y participación máxima, no olvide incluir el valor de usuario de mensajería además de vínculos a recursos de aprendizaje y soporte técnico donde los usuarios pueden obtener información adicional conforme avanzan a través de la prueba piloto. A continuación presentamos algunos recursos de ejemplo para obtener una introducción a su plan de comunicaciones piloto:
+Es crucial para el éxito de la prueba piloto que enseñe a los participantes de la prueba piloto qué sucede, Cuándo y por qué se espera. Para impulsar la diversión y la participación máxima, asegúrate de incluir la mensajería de valor de usuario además de vínculos a aprendizaje y asistencia donde los usuarios puedan obtener información adicional a medida que avanzan a través de la prueba piloto. A continuación se muestran algunos recursos que le ayudarán a empezar con su plan de comunicaciones piloto:
 
-- [Recursos piloto](https://aka.ms/UpgradeSuccessKit), incluidas las plantillas de correo electrónico y preguntas de la encuesta muestra comentarios
-- [Cambio a los equipos de Skype para la empresa](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), una guía de inicio rápido diseñada para ayudar a Skype para usuarios profesionales empezar a trabajar con los equipos
+- [Recursos piloto](https://aka.ms/UpgradeSuccessKit), incluidas las plantillas de correo electrónico y las preguntas de encuesta de comentarios de ejemplo
+- [Cambiar a teams desde Skype empresarial](https://support.office.com/article/Switch-to-Teams-from-Skype-for-Business-6295a0ae-4e8e-4bba-a100-64cc951cc964), una guía de inicio rápido diseñada para ayudar a los usuarios de Skype empresarial a comenzar a usar Teams
 
-## <a name="5-conduct-your-pilot"></a>5. llevar a cabo la prueba piloto
+## <a name="5-conduct-your-pilot"></a>5. realizar la prueba piloto
 
-Con la de logística en su lugar, ahora está listo para empezar a la prueba piloto. Realizar a pruebas piloto de incluye la comunicación con los usuarios, supervisar su red y uso para garantizar el rendimiento de la red y calidad de las llamadas permanecen correcto, recopilación de comentarios de los participantes, y revisar los vales del departamento de soporte técnico para preguntas relacionadas con Equipos.
+Con todas las logísticas instaladas, ya está listo para comenzar la prueba piloto. La realización de su piloto incluye comunicarse con sus usuarios, supervisar su red y uso para garantizar que el rendimiento de la red y la calidad de las llamadas permanezcan saludables, recopile comentarios de los participantes y revisando los vales del servicio de asistencia para preguntas relacionadas con Podrán.
 
-### <a name="tips-for-pilot-success"></a>Sugerencias para el éxito de piloto
+### <a name="tips-for-pilot-success"></a>Sugerencias para el éxito piloto
 
-Las sugerencias siguientes pueden ayudar a garantizar el éxito de la prueba piloto:
+Las siguientes sugerencias pueden ayudarle a garantizar el éxito de su prueba piloto:
 
-- Antes de iniciar el piloto, confirme que todos los participantes pilotos estén habilitados para la adecuada [modo de coexistencia]
-- (https://aka.ms/SkypeToTeams-SetCoexistence) que desea validar.
-- Semanal, a lo largo de la prueba piloto, cumplir con las partes interesadas de proyecto para revisar los comentarios del usuario, los datos de uso, datos de la red y los vales del departamento de soporte técnico para asegurarse de que la prueba piloto se ejecuta sin problemas. Realice los ajustes según sea necesario.
+- Antes de comenzar con la prueba piloto, confirme que todos los participantes de la prueba piloto están habilitados para el [modo de coexistencia] adecuado.
+- (https://aka.ms/SkypeToTeams-SetCoexistence) desea validar.
+- Semanalmente, en toda la prueba piloto, reúnase con los participantes del proyecto para revisar los comentarios de los usuarios, los datos de uso, los datos de red y los vales de asistencia para asegurarse de que su prueba funcione correctamente. Realice los ajustes necesarios.
 
 ### <a name="suggested-timeline"></a>Escala de tiempo sugerida
 
 A continuación se sugiere una escala de tiempo para un proyecto piloto de 30 días:
 
-- Una semana antes de la puesta en marcha piloto: enviar la comunicación inicial a los usuarios pilotos.
-- Día 1: Comunicación de puesta en marcha enviar a los usuarios pilotos.
-- Día 7: Mantenga la primera reunión de punto de comprobación de equipo de proyecto semanal.
-- Día 14: Enviar comunicaciones de punto medio a los usuarios del piloto, mantenga una reunión semanal de punto de comprobación de equipo de proyecto.
-- Día 21: Mantenga una reunión semanal de punto de comprobación de equipo de proyecto.
-- Día 30: Enviar comunicación final a los usuarios del piloto.
-- 31 – 45 días: evaluar los resultados de la prueba piloto y planificar para seguir estos pasos.
+- Una semana antes del lanzamiento de la prueba piloto: Envíe la comunicación inicial a los usuarios de la prueba.
+- Día 1: Envíe una comunicación de lanzamiento a los usuarios de la prueba.
+- Día 7: Mantenga la primera reunión semanal del punto de control del equipo de proyecto.
+- Día 14: envío de comunicaciones de punto medio a los usuarios de la prueba piloto y mantenga una reunión de puntos de control semanal del equipo del proyecto.
+- Día 21: Mantenga una reunión de puntos de control semanal del equipo del proyecto.
+- Día 30: enviar la comunicación final a los usuarios de la prueba piloto.
+- Días 31 a 45: evaluar resultados piloto y planear los siguientes pasos.
 
-## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. evaluar conocimientos y evaluar el plan de ir directa
+## <a name="6-assess-learnings-and-evaluate-your-go-forward-plan"></a>6. evaluar los aprendizajes y evaluar su plan de avance
 
-Una vez finalizada la prueba piloto, es el momento para recopilar todas las encuestas de comentarios, estadísticas de final de la red y admitir vales para análisis frente a los objetivos y determinar si se implementa el plan de ir directa. Es posible que su organización está preparada para una amplia implementación, o que desea extender al piloto a más usuarios o desea revisar a la prueba piloto en una fecha posterior después de que se han solucionado los problemas que ha identificado. Recuerde que la prueba piloto es una excelente manera de predecir técnica y los resultados de usuario en un entorno _controlado_ ; ser exhaustiva sobre saltar demasiado rápidamente.
+Una vez completada la prueba piloto, es el momento de recopilar todas las encuestas de comentarios, las estadísticas de redes finales y las incidencias de soporte técnico para el análisis de los objetivos y determinar si debe implementar su plan de avance. Es posible que la organización esté lista para una implementación amplia o que desee ampliar el piloto a más usuarios, o volver a visitar la prueba piloto más adelante, una vez que se hayan eliminado las preocupaciones que identificó. Recuerde que la prueba piloto es una excelente manera de predecir los resultados técnicos y del usuario en un entorno _controlado_ ; no te preocuparte demasiado rápidamente.
 
 Si los resultados indican:
 
-- **Se han logrado los objetivos pilotos (por ejemplo, la satisfacción del usuario y la calidad de la red)**, deberá estar preparado para continuar con la siguiente fase de su implantación. Función de los objetivos del proyecto, podría ser una de las siguientes:
-  - Ampliación de la prueba piloto a los participantes adicionales
-  - [Permitir a los equipos junto con Skype para la empresa (modo de**Islas** ) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
-  - [Actualización de los usuarios de Skype para la empresa a los equipos (**equipos sólo** modo) para algunos o todos los de su organización](https://aka.ms/SkypeToTeams-SetCoexistence)
-- **La prueba piloto no lograr los resultados que desea (por ejemplo, la satisfacción de los usuarios y la calidad de la red)**, tardar para realizar los ajustes adecuados para su plan y revisar la prueba piloto.
+- Se han **conseguido los objetivos de la prueba piloto (por ejemplo, la satisfacción del usuario y la calidad de la red)**; debe estar listo para continuar con la siguiente fase de su despliegue. En función de los objetivos del proyecto, puede ser uno de los siguientes:
+  - Ampliar el programa piloto a otros participantes
+  - [Habilitar Teams junto con Skype empresarial (modo**islas** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
+  - [Actualizar usuarios de Skype empresarial a Teams (modo de**solo equipos** ) para algunas o todas las organizaciones](https://aka.ms/SkypeToTeams-SetCoexistence)
+- **Su piloto no ha conseguido los resultados que deseaba (por ejemplo, la satisfacción de los usuarios y la calidad de la red)**, toma tiempo para realizar los ajustes apropiados en tu plan y vuelve a visitar la prueba piloto.
 
 > [!Tip]
-> Dar de alta a los participantes pilotos como Campeones del mismo nivel para ayudar a dé a conocer e incorporados nuevos usuarios para los equipos. Campeones del mismo nivel pueden estar relacionado con fácilmente a otros usuarios, uso compartido de sus propias experiencias y conocimientos y ofrece instrucciones y soporte técnico de sus compañeros. Obtenga más información acerca de [Campeones](https://go.microsoft.com/fwlink/?linkid=859068) y cómo se puede usar dentro de su propio implantación.
+> Inscriba a los participantes del programa piloto como expertos para ayudar a repartir e incorporar nuevos usuarios a teams. Los campeones del mismo nivel pueden relacionarse fácilmente con otros usuarios, compartir sus experiencias y aprendizajes, y ofrecer asistencia y orientación a sus colegas. Obtenga más información sobre los [campeones](https://go.microsoft.com/fwlink/?linkid=859068) y cómo puede usarlos en su propia implementación.

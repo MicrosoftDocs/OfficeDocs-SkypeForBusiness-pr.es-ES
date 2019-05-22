@@ -13,18 +13,17 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-- Microsoft Teams
 localization_priority: Normal
 f1keywords: None
 ms.custom:
 - Optimization
 description: Los siguientes requisitos son realmente importantes para garantizar el estado y el funcionamiento correcto a largo plazo de todas las características de Skype Empresarial Online que configure para su organización. Sabemos que algunos de nuestros usuarios son muy técnicos (y este documento es para ellos), pero hay algunos que no lo son tanto. Si necesita ayuda para configurar Skype Empresarial Online, lea este documento para familiarizarse con todo lo que debe tener en cuenta. También encontrará temas de los que podrá hablar cuando trabaje con el Centro de FastTrack de Microsoft, los equipos de servicios y cuentas de Microsoft, o los socios de Microsoft para averiguar cómo cumplir los requisitos.
-ms.openlocfilehash: 6aae90775aebd7384551d8e00dfe3d0dbe0c76fb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f81b2bebded33bf65ff391909dea4e6f638390fb
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34297830"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344554"
 ---
 # <a name="optimizing-your-network-for-skype-for-business-online"></a>Optimizar la red para Skype Empresarial Online
 

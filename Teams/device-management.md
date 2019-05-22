@@ -13,77 +13,77 @@ ms.collection:
 f1keywords:
 - ms.teamsadmincenter.devicemanagement.overview
 - ms.teamsadmincenter.managedevices.overview
-description: Obtenga información sobre cómo administrar dispositivos utilizados con los equipos de la organización.
+description: Obtenga información sobre cómo administrar dispositivos usados con equipos de su organización.
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 20798daf34c4759b91c4926b209847aa51ddd668
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 76692714bbf58dca7bd74461bed4da34abf55c58
+ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32199204"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34344644"
 ---
 # <a name="manage-your-devices-in-microsoft-teams"></a>Administrar sus dispositivos en Microsoft Teams
 
 ::: zone target="docs"
-Como administrador, puede administrar todos los dispositivos utilizados con los equipos de la organización desde el & Teams Microsoft Skype para el centro de administración de negocio. Puede ver y administrar el inventario de los dispositivos para su organización y realizar tareas como la actualización, reiniciar y diagnósticos de monitor para dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o grupos de dispositivos. 
+Como administrador, usted administra todos los dispositivos que se usan con los equipos de su organización desde el centro de administración de Skype empresarial & de Microsoft Teams. Puede ver y administrar el inventario de dispositivos de su organización y realizar tareas como actualizar, reiniciar y supervisar los diagnósticos de los dispositivos. También puede crear y asignar perfiles de configuración a un dispositivo o a grupos de dispositivos. 
 
-## <a name="what-devices-can-you-manage"></a>¿Qué dispositivos pueden administrar?
-Dispositivos deben ser certificados para los equipos e inscritos en los equipos. Un dispositivo está inscrito automáticamente la primera vez que un usuario inicia sesión en los equipos en el dispositivo. Para obtener una lista de los dispositivos certificados que se pueden administrar, consulte [teléfonos de conferencia](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) y [teléfonos de escritorio](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
+## <a name="what-devices-can-you-manage"></a>¿Qué dispositivos puede administrar?
+Los dispositivos deben estar certificados para equipos e inscritos en Teams. Un dispositivo se inscribe automáticamente la primera vez que un usuario inicia sesión en Teams en el dispositivo. Para obtener una lista de los dispositivos certificados que se pueden administrar, consulte [teléfonos de conferencia](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=16) y teléfonos de [escritorio](https://products.office.com/en-us/microsoft-teams/across-devices/devices/category?devicetype=34).
 
 > [!NOTE]
-> Si tiene Microsoft Intune, los dispositivos se inscriben automáticamente en Intune. Después de que un dispositivo está inscrito, se confirme el cumplimiento del dispositivo y se aplican las directivas de acceso condicional para el dispositivo. 
+> Si tiene Microsoft Intune, los dispositivos se inscriton automáticamente en Intune. Una vez que se ha inscrito un dispositivo, se confirma el cumplimiento del dispositivo y se aplican las directivas de acceso condicional al dispositivo. 
 
-## <a name="manage-devices-in-teams"></a>Administrar dispositivos en los equipos
+## <a name="manage-devices-in-teams"></a>Administrar dispositivos en Teams
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) **desde el centro de administración de equipos de Microsoft**
+![Un icono que muestra el logotipo](media/teams-logo-30x30.png) de Microsoft Teams **con el centro de administración de Microsoft Teams**
 
-1. En el panel de navegación izquierdo, vaya a **dispositivos** > **Administrar dispositivos**.
+1. En el navegación de la izquierda, vaya a **dispositivos** > **administrar dispositivos**.
 2. Seleccione **todos los dispositivos**.  
 
 ::: zone-end
 
- Desde aquí, puede ver y administrar todos los dispositivos que se inscriben en los equipos de la organización. La información que aparece para cada dispositivo incluye historial, fabricante, modelo, usuario, estado, acción, último visto y nombre del dispositivo. Puede personalizar la vista para mostrar la información que se ajuste a sus necesidades.
+ Desde aquí, puede ver y administrar todos los dispositivos inscritos en los equipos de su organización. La información que verás para cada dispositivo incluye el nombre del dispositivo, el fabricante, el modelo, el usuario, el estado, la acción, la última vista y el historial. Puede personalizar la vista para que muestre la información que se adapte a sus necesidades.
 
- Aquí tiene algunos ejemplos de cómo se pueden administrar dispositivos de los equipos de la organización.  
+ Estos son algunos ejemplos de cómo puede administrar los dispositivos de equipos de su organización.  
     
-|Para hacer esto...  |En este caso |
+|Para hacer esto...  |Haga esto |
 |---------|---------|
-|Cambiar la información de dispositivo   | Seleccione un > dispositivo **Editar**. Puede editar detalles como el nombre del dispositivo, la información de usuario, la etiqueta de activos y agregar notas.     |
-|Administrar las actualizaciones de software   |Seleccione una **actualización**de dispositivo >. Puede ver la lista de actualizaciones de software y firmware disponibles para el dispositivo y elija las actualizaciones para instalar.    |
-|Reiniciar un dispositivo   |Seleccione un > de dispositivo que se **reinicie**.          |
-|Ver el historial de dispositivo  | Seleccione un **historial**de dispositivo >. Puede ver el historial de actualización para el dispositivo.     |
-|Ver diagnósticos  | Seleccione un > dispositivo **Diagnósticos**.        |
+|Cambiar la información del dispositivo   | Seleccione un dispositivo > **Editar**. Puede editar detalles como el nombre del dispositivo, la información del usuario, la etiqueta de activos y agregar notas.     |
+|Administrar actualizaciones de software   |Seleccione una **actualización**de > dispositivo. Puede ver la lista de actualizaciones de software y firmware disponibles para el dispositivo y elegir las actualizaciones que desea instalar.    |
+|Reiniciar un dispositivo   |Seleccione un dispositivo > **reiniciar**.          |
+|Ver el historial del dispositivo  | Seleccione un dispositivo de > **historial**. Puede ver el historial de actualizaciones del dispositivo.     |
+|Ver diagnósticos  | Seleccione un dispositivo de ****> Diagnostics.        |
 
-## <a name="use-configuration-profiles-in-teams"></a>Usar los perfiles de configuración en los equipos
+## <a name="use-configuration-profiles-in-teams"></a>Usar perfiles de configuración en Teams
 
-Use los perfiles de configuración para administrar la configuración y las características de dispositivos de los equipos de la organización. Puede crear o cargar los perfiles de configuración para incluir la configuración y las características que desea habilitar o deshabilitar y, a continuación, asignar un perfil a un dispositivo o grupos de dispositivos. 
+Use perfiles de configuración para administrar la configuración y las características de los dispositivos de equipos de su organización. Puede crear o cargar perfiles de configuración para incluir opciones y características que desee habilitar o deshabilitar y, después, asignar un perfil a un dispositivo o a grupos de dispositivos. 
 
 ### <a name="create-a-configuration-profile"></a>Crear un perfil de configuración
 
 ::: zone target="docs"
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la & Teams Microsoft Skype para el centro de administración de negocio
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams & de Skype empresarial
 
-1. En el panel de navegación izquierdo, vaya a **dispositivos** > **Administrar dispositivos**.
+1. En el navegación de la izquierda, vaya a **dispositivos** > **administrar dispositivos**.
 
 ::: zone-end
 
-2. Seleccione **los perfiles de configuración**y, a continuación, seleccione **nuevo perfil de configuración**.
-3. Escriba un nombre para el perfil y si lo desea, agregue una descripción simplificada.
-4. Especificar la configuración que desee para el perfil y, a continuación, haga clic en **Guardar**.
+2. Seleccione **perfiles de configuración**y, después, seleccione **nuevo perfil de configuración**.
+3. Escriba un nombre para el perfil y, si lo desea, agregue una descripción.
+4. Especifique la configuración que desee para el perfil y, a continuación, haga clic en **Guardar**.
 
 ### <a name="assign-a-configuration-profile"></a>Asignar un perfil de configuración
 
 ::: zone target="docs"
 
-![los equipos-logotipo-30x30.png](media/teams-logo-30x30.png) Uso de la & Teams Microsoft Skype para el centro de administración de negocio
+![Un icono que muestra el logotipo de Microsoft Teams](media/teams-logo-30x30.png) Usar el centro de administración de Microsoft Teams & de Skype empresarial
 
-1. En el panel de navegación izquierdo, vaya a **dispositivos** > **Administrar dispositivos**.
+1. En el navegación de la izquierda, vaya a **dispositivos** > **administrar dispositivos**.
 
 ::: zone-end
 
-2. Seleccione el **perfil de configuración**y, a continuación, en **asignado a** en el perfil que desea asignar, haga clic en el vínculo.  
-3. En el panel **asignar dispositivos a un perfil de configuración** , busque y seleccione los dispositivos que desee asignar.
+2. Seleccione **Perfil de configuración**y, a continuación, en **asignada a** en el perfil que desea asignar, haga clic en el vínculo.  
+3. En el panel **asignar dispositivos a un perfil de configuración** , busque y seleccione los dispositivos que desea asignar.
 4. Haga clic en **Guardar **.
