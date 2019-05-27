@@ -13,12 +13,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 74d4757cd6a05f8fa4b05a2a87557318670265a4
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 15ce99720812bcb551f2e962316dbf0ea675e4cd
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921277"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433210"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -42,7 +42,7 @@ ms.locfileid: "33921277"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="An arrow pointing up and to the left next to a hand with the index finger pointing up" />
+                                                        <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image1.svg" alt="Icon depicting an upward arrow and a hand with finger pointing up" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -61,7 +61,7 @@ ms.locfileid: "33921277"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1"> 
-                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="a pedestrian symbol with an arrow pointing to a computer screen, tablet, and phone" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-GetStarted-400x140.svg" alt="Icon depicting a pedestrian and an arrow pointing to devices" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -80,7 +80,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="A call agent, a graduation cap, and a list symbol" data-linktype="external"/>
+                                                    <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/OneDrive-EndUser-400x140.svg" alt="Icon depicting a call agent, a graduation cap, and a list symbol" data-linktype="external"/>
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -99,7 +99,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="a roadmap with footsteps" />
+                                                    <img src="https://docs.microsoft.com/office/media/hub-tiles/MSTeams-Journey-400x140.svg" alt="Icon depicting a roadmap with footsteps" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -118,7 +118,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="teacher at a podium with students looking at a projector screen" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image4.svg" alt="Icon depicting a teacher standing at a podium in front of students" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -137,7 +137,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="graduation cap with tassle" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image3.svg" alt="Icon depicting a graduation cap with tassle" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -156,7 +156,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="successful meeting" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image8.svg" alt="Icon depicting a successful meeting" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -175,7 +175,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="mobile user" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="Icon depicting a mobile user" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
@@ -194,7 +194,7 @@ ms.locfileid: "33921277"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="government" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image10.svg" alt="Icon depicting a government building" />
                                                 </div>
                                             </div>
                                             <div class="cardText">
