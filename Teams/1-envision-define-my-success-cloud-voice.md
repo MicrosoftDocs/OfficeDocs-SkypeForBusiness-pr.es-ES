@@ -15,12 +15,12 @@ MS.collection:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e58bfdcff9b87d343de39f00e6ac45254203092b
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 96fb3a0031b27b331dbc6424650f101b0f0a34f3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343933"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433099"
 ---
 # <a name="define-my-success"></a>Definir mi éxito
 
@@ -94,8 +94,8 @@ Además de definir los casos de uso de la empresa, para establecer los límites 
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> |Puntos de decisión|<ul><li>¿Cuáles son todos los casos de uso empresarial de las conferencias de audio que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para planes de llamadas que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para el enrutamiento directo que puede identificar en su organización?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todos los casos de uso empresarial de las conferencias de audio de su organización.</li><li>Documente todos los casos de uso empresarial de los planes de llamadas de su organización.</li><li>Documente todos los casos de uso empresarial para el enrutamiento directo de su organización.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Puntos de decisión|<ul><li>¿Cuáles son todos los casos de uso empresarial de las conferencias de audio que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para planes de llamadas que puede identificar en su organización?</li><li>¿Cuáles son todos los casos de uso empresarial para el enrutamiento directo que puede identificar en su organización?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todos los casos de uso empresarial de las conferencias de audio de su organización.</li><li>Documente todos los casos de uso empresarial de los planes de llamadas de su organización.</li><li>Documente todos los casos de uso empresarial para el enrutamiento directo de su organización.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -129,8 +129,8 @@ Los casos de uso empresarial definidos en el paso anterior incluyen un ámbito o
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Quién rellenará cada rol de participante clave para su organización?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todas las partes clave y comunique las responsabilidades y las expectativas de la función a cada persona asignada.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Quién rellenará cada rol de participante clave para su organización?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente todas las partes clave y comunique las responsabilidades y las expectativas de la función a cada persona asignada.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -222,8 +222,8 @@ Debe identificar los riesgos empresariales como parte de este ejercicio y defini
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Cuáles son tus organization& OKRs y KSIs?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de audioconferencia en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de planes de llamadas en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos identificó relevantes para la implementación de enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente la OKRs y KSIs y establezca el registro de riesgos.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>¿Cuáles son tus organization& OKRs y KSIs?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de audioconferencia en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Cuáles son los riesgos que identificó relevantes para la implementación de planes de llamadas en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li><li>¿Qué riesgos identificó relevantes para la implementación de enrutamiento directo en su organización? ¿Cuáles son los planes de mitigación de los riesgos identificados?</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Documente la OKRs y KSIs y establezca el registro de riesgos.</li></ul>|
 
 <!--ENDOFSECTION-->
 
@@ -263,8 +263,8 @@ El Comité Directivo reúne un intervalo de repetición durante todo el período
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/>|Puntos de decisión|<ul><li>Decidir si es necesario un Comité de dirección para su organización.</li></ul>|
-|<img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/>|Pasos siguientes|<ul><li>Identifique a los miembros del Comité de dirección.</li><li>Programar reuniones en el Comité.</li><li>Prepararse para las reuniones del Comité Director.</li><li>Celebrar reuniones del Comité de dirección.</li><li>Tomar medidas según la entrada de la reunión del Comité Directivo.</li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Puntos de decisión|<ul><li>Decidir si es necesario un Comité de dirección para su organización.</li></ul>|
+|<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Pasos siguientes|<ul><li>Identifique a los miembros del Comité de dirección.</li><li>Programar reuniones en el Comité.</li><li>Prepararse para las reuniones del Comité Director.</li><li>Celebrar reuniones del Comité de dirección.</li><li>Tomar medidas según la entrada de la reunión del Comité Directivo.</li></ul>|
 
 Encontrará instrucciones detalladas adicionales sobre cómo manejar un Comité Directivo adecuado en la guía del [Comité Director](envision-steering-committee-complete-guide.md).
 

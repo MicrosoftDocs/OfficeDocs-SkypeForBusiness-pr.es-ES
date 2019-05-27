@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Más información sobre el sistema telefónico que puede hacer por usted. '
-ms.openlocfilehash: 7188a0d4573ce7bc935b60506371fbd2a4f1b6a8
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 3c2d1d910226b4597595f6dd55246f2f9c71049d
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299022"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432883"
 ---
 # <a name="what-is-phone-system-in-office-365"></a>¿Qué es el Sistema telefónico en Office 365?
 
@@ -49,7 +49,7 @@ Para habilitar las llamadas a teléfonos fijos y móviles, el sistema telefónic
 
 El uso de un plan de llamadas a un sistema telefónico en Office 365 habilita la conectividad RTC para las llamadas a teléfonos fijos y móviles de todo el mundo (según el nivel de servicio al que se concede la licencia). Los usuarios están alojados en la nube y están habilitados para el sistema telefónico con el complemento de plan de llamadas proporcionado por Microsoft. El uso de planes de llamadas no requiere una implementación de servidor local. Los planes de llamadas solo funcionan con el sistema telefónico en Office 365 y no se pueden usar planes de llamadas con otro sistema PBX.
 
-![Diagrama de topología que muestra Cloud PBX con Llamadas RTC, la solución de telefonía IP ubicada completamente en la nube.](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
+![Diagrama de topología que muestra PBX en la nube con llamadas RTC](media/3e847ec3-f441-4833-8616-c5ebab094e3e.png)
 
 Como los planes de llamadas operan dentro de Office 365, esta es una oferta completamente en la nube que no requiere una implementación de servidor local. Tiene la opción de usar un plan de llamadas nacionales o nacionales e internacionales, que se asigna a cada usuario al que desea hacer llamadas. [¿Quiere saber más?](calling-plan-landing-page.md).
   

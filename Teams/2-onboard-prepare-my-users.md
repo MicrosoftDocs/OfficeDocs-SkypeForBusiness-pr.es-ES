@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 614ea6276a0bbfb131d344ecfbcd57c70d198c8a
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 84e7dde2da777fbc0b3c5fd120d4ee88b1f98ea1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344720"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432616"
 ---
 # <a name="prepare-my-users"></a>Preparar a mis usuarios
 
@@ -48,8 +48,8 @@ La imagen siguiente es un ejemplo de una declaración a valor para un cliente qu
 ![Tabla de dos columnas que muestra la visión y el valor] (media/prepare-my-users-new-image1.png "Tabla de dos columnas con visión: ¿por qué estamos haciendo esto? (nivel de organización) a la izquierda y valor: ¿Qué es lo que me está buscando? (nivel de usuario) a la derecha")
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha articulado la ventaja y el valor para sus usuarios de una forma que gana su compra para esta nueva solución?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Cree sus declaraciones de visión y valor para el ámbito del proyecto actual, asegurándose de que se alineen con sus objetivos.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Ha articulado la ventaja y el valor para sus usuarios de una forma que gana su compra para esta nueva solución?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Cree sus declaraciones de visión y valor para el ámbito del proyecto actual, asegurándose de que se alineen con sus objetivos.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -59,8 +59,8 @@ La imagen siguiente es un ejemplo de una declaración a valor para un cliente qu
 La preparación de la organización ayuda a determinar la forma en la que los usuarios pueden estar cambiando su forma de trabajar. Conocer el modo en que los usuarios pueden reaccionar ante cambios permite que su organización solucione incorrectamente las preocupaciones, ajuste el plan de implementación para obtener una recepción óptima e identifique a los usuarios que pueden convertirse en sus campeones o embajadores para facilitar el cambio.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Los usuarios están listos y dispuestos a cambiar a la nueva solución?</li><li>¿Los usuarios tienen la capacidad o competencia para facilitar el cambio?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Use los siguientes iniciadores de conversación para comprender la cultura de su organización cuando se trata de cambiar. Esta información puede ayudar a informar sobre el conocimiento y la formación que puede necesitar implementar para el proyecto.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Los usuarios están listos y dispuestos a cambiar a la nueva solución?</li><li>¿Los usuarios tienen la capacidad o competencia para facilitar el cambio?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Use los siguientes iniciadores de conversación para comprender la cultura de su organización cuando se trata de cambiar. Esta información puede ayudar a informar sobre el conocimiento y la formación que puede necesitar implementar para el proyecto.
 </li></ul></td></tr>
 </table>
 
@@ -98,8 +98,8 @@ La preparación de la organización ayuda a determinar la forma en la que los us
 El análisis a nivel de personas le da conocimiento de sus personas, los cohorts y los casos de uso de los usuarios. Si toma tiempo para comprender quiénes son sus usuarios y cómo funcionan, puede asegurarse de que tienen lo que necesitan para ser correctos a medida que implementa el cambio. Esto puede incluir mensajería de destino, aprendizaje o incluso dispositivos como auriculares con micrófono y cámaras Web. Por ejemplo, un ejecutivo puede prever un aprendizaje uno a uno, mientras que los representantes de campo que viaja pueden beneficiarse de un vídeo de aprendizaje que pueden ver en su tiempo de ocio. Además, el análisis de nivel de personas puede ayudar a identificar quién debe comenzar a usar las nuevas funciones hoy en comparación con la espera.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Algunos usuarios o cohorts tienen una dependencia básica en esta solución para realizar su trabajo de manera eficaz?</li><li>¿Hay casos de uso específicos que se pueden facilitar con esta nueva solución?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Asignar personas a los usuarios. En primer lugar, Segmente su base de usuarios en grupos persona/COHORT (ejecutivos, Taegeuk de carretera, trabajadores de colaboración, comercio minorista, etc.). Para la administración, no enumere más de ocho grupos. (Para obtener más abajo, consulte más adelante). Use sus hallazgos para diseñar sus campañas de preparación de usuarios y segmentar los usuarios piloto de aquellos que podrían beneficiarse de la actualización posterior.
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Algunos usuarios o cohorts tienen una dependencia básica en esta solución para realizar su trabajo de manera eficaz?</li><li>¿Hay casos de uso específicos que se pueden facilitar con esta nueva solución?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Asignar personas a los usuarios. En primer lugar, Segmente su base de usuarios en grupos persona/COHORT (ejecutivos, Taegeuk de carretera, trabajadores de colaboración, comercio minorista, etc.). Para la administración, no enumere más de ocho grupos. (Para obtener más abajo, consulte más adelante). Use sus hallazgos para diseñar sus campañas de preparación de usuarios y segmentar los usuarios piloto de aquellos que podrían beneficiarse de la actualización posterior.
 </li><li>Asignar casos de uso. Una vez que haya identificado grupos de usuarios principales que se beneficien de esta nueva tecnología, considere su población general de usuarios. Al comprender los escenarios y casos de uso entre equipos, puede visualizar su organización trabajando con esta nueva tecnología. Además, agregar ejemplos de casos de uso a los planes de comunicación y aprendizaje realmente les ayuda a hacer que sean relevantes para los usuarios.</li></ul></td></tr>
 </table>
 
@@ -125,7 +125,7 @@ Para cada grupo de roles, explique lo siguiente con su equipo de proyecto:
 
 La imagen siguiente es un ejemplo de una tabla de roles.
 
-![Tabla en la que se enumeran los roles y las dependencias de la solución de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.] (media/prepare-my-users-image2.png "Tabla en la que se enumeran los roles y las dependencias de la solución de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
+![Tabla] en la que se muestran los detalles del rol (media/prepare-my-users-image2.png "Tabla en la que se enumeran los roles y las dependencias de la solución de comunicación y colaboración. El rol Ejecutivo está resaltado con detalles sobre el perfil (día en la vida) y las características, dispositivos y formación que necesita un ejecutivo.")
 
 Para cada caso de uso, comente lo siguiente con su equipo de proyecto:
 
@@ -145,8 +145,8 @@ Para obtener ejemplos de casos de uso, visite la [biblioteca de productividad de
 Después de comprender quiénes son los usuarios y cómo funcionan en la nueva solución, puede diseñar su plan de preparación. El plan de preparación de usuarios incorpora cómo se comunicará, entrenará y proporcionará soporte técnico a los usuarios durante la fase piloto, la incorporación y el funcionamiento de la nueva solución. Como ha descubierto en los pasos anteriores de este artículo, la disponibilidad no se ajusta a todo. Empiece con un conocimiento y un plan de aprendizaje de amplio alcance, que incorpore el valor de mensajería que definió al principio de este proceso. A continuación, adapte la mensajería, la formación y el soporte técnico a los roles o cohorts que haya definido, según corresponda. Su plan personalizado permitirá a los usuarios relacionarse con más rapidez con la nueva solución al tiempo que demuestre que comprende sus necesidades, lo que le ayudará a facilitar su transición.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Qué plan de preparación puede ofrecer para facilitar y acelerar la adopción de la nueva solución?</li><li>¿Tiene los conocimientos, la formación y los recursos de soporte técnico correctos que se alinean con la capacidad de los usuarios para manejar los cambios y los usuarios que haya definido?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Use la lista de la siguiente sección para generar ideas para su plan de preparación. Seleccione los más relevantes&mdash;o agregue los suyos&mdash;propios para diseñar un plan de preparación optimizado para su organización.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>¿Qué plan de preparación puede ofrecer para facilitar y acelerar la adopción de la nueva solución?</li><li>¿Tiene los conocimientos, la formación y los recursos de soporte técnico correctos que se alinean con la capacidad de los usuarios para manejar los cambios y los usuarios que haya definido?</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li>Use la lista de la siguiente sección para generar ideas para su plan de preparación. Seleccione los más relevantes&mdash;o agregue los suyos&mdash;propios para diseñar un plan de preparación optimizado para su organización.</li></ul></td></tr>
 </table>
 
 ### <a name="readiness-plan-ideas"></a>Ideas de planes de preparación

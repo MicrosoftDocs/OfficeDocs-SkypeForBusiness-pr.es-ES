@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar y probar operadores automáticos en la nube para una administración eficaz de las llamadas de su organización.
-ms.openlocfilehash: d4889f7a33306c970b73651bcaafe9f3e2c8009b
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 892285e2e720e300d9b935f017dedca96e45b411
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330927"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432899"
 ---
 # <a name="set-up-a-cloud-auto-attendant"></a>Configurar un operador automático en la nube
 
@@ -65,35 +65,35 @@ En el **centro de administración de Microsoft Teams**, haga clic en**operadores
 
 #### <a name="general-info-page"></a>Página de información general
 
-![New auto attendant page 1.](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
+![Captura de pantalla de la página mi operador automático](media/edacec94-9384-4a87-be0a-5c49a151287e.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 **Nombre** Escriba un nombre descriptivo para mostrar para el operador automático. El nombre es obligatorio, y puede contener hasta 64 caracteres, espacios incluidos. Se enumerará en la columna **Nombre** en la ficha **Operadores automáticos**.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 **Cuenta de recursos** Haga clic en este botón para seleccionar una o más cuentas de recursos para conectarse al nuevo operador automático. Es necesario que todos los operadores automáticos tengan una cuenta de recursos asociada. Una cuenta de recursos puede tener un número de teléfono asociado a la cuenta, pero es posible que no lo tenga. Un operador automático de nivel superior normalmente tiene una cuenta de recursos con un número de teléfono asignado, pero el operador automático anidado (usado como un menú de nivel 2 en el que se conecta el primer operador automático de nivel) podría no tener un número de teléfono asignado a su cuenta de recursos.
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
 
 **Zona horaria**: debe establecer la zona horaria para el operador automático, pero no es necesario que se corresponda con la zona horaria de la dirección principal que se muestra para su organización. Cada operador automático puede tener una zona horaria diferente, y el horario laboral establecido para el operador automático se ajustará en función de la zona horaria seleccionada.
 
 * * *
 
-![Número 4](media/sfbcallout4.png)
+![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
 **Idioma** Seleccione el idioma que desea usar para su operador automático en cualquiera de los idiomas disponibles en la lista. El idioma que estableces aquí es el idioma que el operador automático usará para interactuar con las personas que llaman a este operador automático y todas las solicitudes del sistema se reproducirán en este idioma.
 
 * * *
 
-![Número 5](media/sfbcallout5.png)
+![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
 **Operador**: este ajuste es opcional y no es necesario activarlo para el operador automático. Sin embargo, puede establecer la opción de **operador** para las personas que llaman para poder salir de los menús para hablar con una persona para ayudarle.
 
@@ -113,7 +113,7 @@ Puede elegir entre las siguientes opciones para designar un operador:
 
 * * *
 
-![Número 6](media/sfbcallout6.png)
+![Icono del número 6, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout6.png)
 
 **Habilitar las entradas de voz** El reconocimiento de voz está disponible si esta opción está seleccionada. Las personas que llaman pueden usar la entrada de voz en el [idioma que haya establecido](set-auto-attendant-languages-for-audio-conferencing-in-teams.md). Puede deshabilitar el reconocimiento de voz si solo quiere permitir que los usuarios usen el teclado del teléfono.
 
@@ -125,17 +125,17 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 
 De forma predeterminada, el horario laboral se establece en 9:00 a 17:00, de lunes a viernes.  Todas las horas que no se incluyan en el horario laboral se consideran no laborales. Puede hacer clic en **seleccionar 24/7** para hacer todas las horas de trabajo. A menos que seleccione la opción **seleccionar 24/7** , se usará la página de **configuración de llamadas** de poshorario para configurar el control de llamadas para el operador automático después del horario laboral.
 
-![New auto attendant Hours of operation.](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
+![Captura de pantalla de la página de horario comercial](media/61769547-cdb4-45c0-af5a-3d6e0731fbc6.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 De forma predeterminada, el horario laboral se establece de lunes a viernes, 9:00 a.m.-5:00 p.m. Seleccione **borrar todas las** horas para anular la selección de todas las horas de horas en la programación. Si selecciona **Restablecer valores**predeterminados, el horario laboral se restablecerá a lunes a viernes, 9:00 a.m.-5:00 p.m.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 Para cambiar el horario comercial, resalte el horario comercial que desea establecer con el calendario. El calendario le permite seleccionar el horario comercial en intervalos de 30 minutos, y el horario que seleccione aquí se basará en la zona horaria que haya configurado en la página **Información general**. Para configurar un descanso (almuerzo, por ejemplo), anule la selección o arrastre para anular la selección de la hora en el calendario. Puede establecer varios descansos dentro del horario comercial.
 
@@ -150,12 +150,12 @@ Cuando haya terminado con las selecciones, haga clic en **siguiente**.
 
 Puede configurar los saludos, los avisos y los menús que escucharán las personas que llaman al operador automático de su organización durante el horario laboral.
 
-![Administración de llamadas en horario laboral. ](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
-La administración de llamadas en horario laboral ![continuó.](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
+![Captura de pantalla de la página](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8.png)
+![de tratamiento de llamadas de horario comercial captura de pantalla de la sección acciones de la página de administración de llamadas en horario comercial](media/2a33b1f7-d362-47a7-bf32-ef702bc878e8b.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 **Saludo** Un saludo de horario laboral es opcional y puede configurarse como **sin saludo**. En este caso, la persona que llama no escuchará mensaje o saludo antes de que una de las acciones que seleccione represente la llamada. También puede cargar un archivo de audio (en formatos .wav, .mp3 o .wma), o crear un saludo personalizado usando texto a voz.
 
@@ -165,7 +165,7 @@ La administración de llamadas en horario laboral ![continuó.](media/2a33b1f7-d
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 Puede seleccionar lo que ocurre con las llamadas que se reciben durante el horario comercial. Puede elegir entre las siguientes acciones:
 
@@ -184,13 +184,13 @@ Puede seleccionar lo que ocurre con las llamadas que se reciben durante el horar
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
 
 **Texto del menú**: para crear un mensaje para el menú principal puede usar la característica Texto a voz o cargar un archivo de audio (.wav, .mp3 o .wma). Puede escribir el mensaje en el cuadro **establecer la navegación del menú para las personas que llaman** o grabar un archivo de audio y decir, por ejemplo: "para ventas, diga o presione o diga 1. Pulse o diga 2 para Servicios. Pulse o diga 3 para Atención al cliente. Para hablar con el operador, pulse o diga 0. Para escuchar este mensaje de nuevo, pulse la tecla de asterisco o diga Repetir". **Escribir un mensaje de bienvenida** Si ha elegido esta acción, debe introducir el texto que quiere que lea el sistema (hasta 1000 caracteres). **Cargar un archivo de audio**: si elige esta opción, deberá grabar el saludo y cargar el archivo de audio (en formato .wav, .mp3 o .wma).
 
 * * *
 
-![Número 4](media/sfbcallout4.png)
+![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
 **Configuración de opciones de menú** Las opciones de menú con botones de teclas del teclado numérico se pueden agregar o quitar. Para agregar una opción de menú, presione **+ asignar una tecla de marcado**. A continuación, aparece una fila de opciones correspondiente. Para eliminar una opción de menú, simplemente haga clic a la izquierda de la tecla correspondiente en el control del teclado y haga clic en el icono eliminar de arriba. Se quitará la fila de asignación de teclas.
 
@@ -223,7 +223,7 @@ Para configurar las opciones de menú, después de seleccionar las teclas de mar
 
 * * *
 
-![Número 5](media/sfbcallout5.png)
+![Icono del número 5, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout5.png)
 
 **Marcado por nombre** Si elige esta opción, los usuarios que llamen para buscar personas de su organización podrán usar la búsqueda en el directorio. Puede seleccionar qué personas se mostrarán como disponibles o no disponibles para el marcado por nombre mediante la configuración de esas opciones en la página **Ámbito de marcado**. Cualquier usuario en línea con una licencia de **sistema telefónico** o cualquier usuario hospedado localmente utilizando Skype for Business Server 2015 o Lync Server 2013, puede encontrarse con el marcado por nombre.
 
@@ -239,9 +239,9 @@ Puede agregar un máximo de 20 días festivos programados a cada operador autom�
 > [!TIP]
 > Puede ir a la pantalla a lo **ancho** > de la organización**días festivos** para crear días no laborables o puede crearlos como parte de la creación de un nuevo controlador de llamadas.
 
-![Configuración de días festivos en el operador automático](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
+![Captura de pantalla de la página de configuración de llamadas de vacaciones](media/50a5ce88-7f39-4210-808a-da7ced969854.png)
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 Si ya ha creado otros operadores automáticos, es posible que vea la opción que puede usar o modificar lo que necesita en esta lista. De lo contrario, tendrás que crear un nuevo controlador de llamadas.
 
@@ -249,19 +249,19 @@ Para agregar un nuevo controlador de llamadas, haz clic en el **controlador de l
 
 * * *
 
-![Configurar los días no laborables en el operador automático continuó](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
+![Captura de pantalla que muestra cómo agregar un nuevo controlador de llamadas](media/50a5ce88-7f39-4210-808a-da7ced969854b.png)
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 En la nueva ventana, escriba un nombre para el nuevo controlador de llamadas en la parte superior de la pantalla.
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 Si el nombre de tu día no laborable ya existe en la lista desplegable de **días festivos** , puedes usarlo. Si el nombre de la festividad que necesita aún no existe, seleccione **crear nuevo día festivo** en la lista desplegable y asigne un nombre y una fecha para el nuevo día festivo en la nueva pantalla que aparece. Haz clic en **Guardar** cuando esté listo.
 
 Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser únicos para el mismo operador automático. Por ejemplo, no puede tener dos días festivos denominados "Navidad" en el mismo operador automático.
 
-![Número 3](media/sfbcallout3.png)
+![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
 
 **Saludo** El saludo es opcional y puede configurarse como **sin saludo**. En este caso, el autor de la llamada no escuchará ningún mensaje o saludo antes de que la llamada se gestione mediante una de las opciones que seleccione. También puede cargar un archivo de audio (en formatos .wav, .mp3 o .wma), o crear un saludo personalizado usando texto a voz.
 
@@ -269,7 +269,7 @@ Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser 
 - **Cargar un archivo de audio** Si elige esta opción, grabe el saludo de las vacaciones y, a continuación, cargue el archivo de audio (en formato. wav,. mp3 o. WMA).
 - **Escribir un mensaje de bienvenida** Si elige esta opción, escriba el texto que quiere que lea el sistema (hasta 1000 caracteres). Por ejemplo, puede escribir "¡Feliz año nuevo! Nuestras oficinas están cerradas en este momento". en el cuadro **Escriba un mensaje de saludo** .
 
-![Número 4](media/sfbcallout4.png)
+![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
 **Acciones** Puede seleccionar qué sucede con las llamadas que llegan durante este día festivo. Puede elegir entre las siguientes opciones:
 
@@ -290,18 +290,18 @@ Los nombres de días festivos pueden constar de hasta 64 caracteres y deben ser 
 
 En esta página, puede configurar los usuarios de su organización que aparecerán en el directorio y que estarán disponibles para marcar por su nombre cuando sea una persona que llame a su organización.
 
-![Dial scope for searching with dial by name.](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
+![Captura de pantalla que muestra la página ámbito de marcado](media/1bcb185c-00db-43a7-b5c4-9b021c0627f7.png)
 
 * * *
 
-![Número 1](media/sfbcallout1.png) con la opción **incluir** , tiene dos opciones:
+![Icono del número 1, que hace referencia a una llamada en la](media/sfbcallout1.png) captura de pantalla anterior con la opción **incluir** , tiene dos opciones:
 
 - **Total de usuarios en línea**: esta opción le permite incluir a todas las personas de su organización en la búsqueda en directorios. Se enumerarán todos los usuarios en línea con una licencia de **sistema telefónico**, así como los usuarios hospedados localmente utilizando Skype for Business Server 2015 o Lync Server 2013 que tengan planes de llamada en Office 365.
 - **Grupo de usuarios personalizado** Si usa esta opción, puede buscar un grupo de Office 365, una lista de distribución o un grupo de seguridad que se haya creado en su organización y las personas que se han agregado a este grupo de Office 365, una lista de distribución o un grupo de seguridad que sean **usuarios conectados con un Licencia de sistema telefónico** o se ha hospedado de forma local con Skype empresarial server 2015 o Lync Server 2013. Puede agregar varios grupos de Office 365, listas de distribución y grupos de seguridad.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 Con la **** opción excluir tiene dos opciones:
 

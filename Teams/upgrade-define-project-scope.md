@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 41f53385cb343ad967651741f44c60b410766aaa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: eaba703faecb0d77db4cf6b858e10af5ba9231e2
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344636"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432939"
 ---
-![Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
+![Diagrama de viaje de actualización, resaltado de la fase de definición del proyecto] (media/upgrade-banner-project-definition.png "Etapas del viaje de actualización, con énfasis en la fase de definición del proyecto")
 
 Este artículo forma parte de la etapa de definición de proyecto del viaje de actualización, una actividad completada después de crear un Coalition de patrocinio y un equipo de proyecto de las partes que identificó son fundamentales para el éxito del proyecto. Antes de continuar, confirme que ha completado las siguientes actividades:
 

@@ -17,12 +17,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a61a9e31e2c1ba7c33da3a09d213e1ab0339756b
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 69b23cefcfa6329e95e3413d720b3033250dd504
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246071"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421998"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Administrar la configuración de Microsoft Teams para su organización
 
@@ -59,8 +59,6 @@ Estas aplicaciones las proporcionan terceros. Es posible configurar las siguient
 - **Permitir instalación de prueba de aplicaciones externas**: si quiere activar algunas aplicaciones externas y desactivar otras, desactive esta opción y, a continuación, en la lista de aplicaciones externas, desactive aquellas a las que no desea que accedan los usuarios. Cuando esta opción esté activada, los miembros y los propietarios de los equipos que tengan autorización para ello podrán transferir localmente aplicaciones a Teams. 
 
 - **Habilitar nuevas aplicaciones externas de manera predeterminada**: si esta opción se activa, los usuarios podrán activar nuevas aplicaciones en cuanto estas se agreguen al catálogo de aplicaciones de Teams. Desactive esta opción si quiere controlar las aplicaciones nuevas. Si la desactiva, deberá recordar revisar periódicamente las nuevas aplicaciones para que su organización no se pierda las nuevas aplicaciones de interés. 
-
-Para obtener más información, consulte [Configurar la administración de aplicaciones en Teams](admin-settings.md). 
 
 ## <a name="teams-org-wide-settings-in-the-microsoft-teams-admin-center"></a>Configuración de Teams de toda la organización en el centro de administración de Microsoft Teams.
 Puede controlar la configuración de usuario en toda la organización en el Centro de administración de Microsoft Teams. Para editar la configuración de toda la organización, vaya al Centro de administración de Microsoft Teams y, después, seleccione **Configuración de toda la organización**. Puede configurar las opciones siguientes.
@@ -128,7 +126,7 @@ Aquí puede elegir la aplicación que utilizarán los usuarios para unirse a las
 
 ## <a name="how-can-i-tell-which-features-are-available"></a>¿Cómo puedo saber qué características están disponibles?
 
-Lea el [Mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/en-us/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
+Lea el [Mapa de ruta de Microsoft 365](https://www.microsoft.com/en-us/microsoft-365/roadmap?rtc=1&filters=Microsoft%20Teams) para ver información sobre las nuevas características de Microsoft Teams. Para obtener más información acerca de las nuevas y las próximas características, vea la página de [Novedades](https://support.office.com/es-ES/article/what-s-new-in-microsoft-teams-d7092a6d-c896-424c-b362-a472d5f105de?ui=en-US&rs=en-US&ad=US) de Teams y el [blog de la comunidad tecnológica de Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/What-s-new-in-Teams-Microsoft-Ignite-Edition/ba-p/252531). 
 
 ## <a name="more-information"></a>Más información
 

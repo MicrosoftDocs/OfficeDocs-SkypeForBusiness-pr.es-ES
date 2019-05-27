@@ -5,7 +5,7 @@ ms.author: crowe
 author: CarolynRowe
 manager: serdars
 ms.date: 11/15/2017
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,67 +13,67 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: efbe25f2-faf5-41c7-8c95-dbc4a835a4a8
-description: Obtenga información acerca de cómo actualizar su implementación de edición de conector en la nube.
-ms.openlocfilehash: 5b3ca4b216bc376c9e23424fb978b5cd83e4aa41
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+description: Obtenga más información sobre cómo actualizar la implementación de Cloud Connector Edition.
+ms.openlocfilehash: c2613069f1626f8fc7e28b4fb5a246fc7647cf98
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32240665"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34286630"
 ---
 # <a name="upgrade-to-a-new-version-of-cloud-connector"></a>Upgrade to a new version of Cloud Connector
  
-Obtenga información acerca de cómo actualizar su implementación de edición de conector en la nube.
+Obtenga más información sobre cómo actualizar la implementación de Cloud Connector Edition.
   
 Si ha configurado una cuenta de inquilino de administración en línea y ha habilitado las actualizaciones automáticas, la implementación existente de Skype Empresarial Cloud Connector Edition se actualizará a la versión más reciente automáticamente de acuerdo con la configuración de tiempo de la actualización automática. También puede realizar una actualización manual.  
   
-En la nube de versiones de conector Edition 1.4.1 y posteriormente realicen actualizaciones automáticas de forma predeterminada. Si desea actualizar a la versión más reciente (2.1) manualmente, vea [actualizar un solo sitio a una nueva versión](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) más adelante en este tema.
+En la versión 1.4.1 y en la versión del conector en la nube se realizan actualizaciones automáticas de forma predeterminada. Si desea actualizar de forma manual la versión más reciente (2,1), vea [actualizar un único sitio a una nueva versión](upgrade-to-a-new-version-of-cloud-connector.md#BKMK_Upgrade) más adelante en este tema.
   
-Actualización automática requiere que se está ejecutando el servicio de conector en la nube. Los siguientes pasos describen el proceso de las actualizaciones automáticas:
+La actualización automática requiere que el servicio de conector de nube se esté ejecutando. Los siguientes pasos describen el proceso de las actualizaciones automáticas:
   
 - El proceso de actualización automática se ejecutará de acuerdo con el programa que haya configurado para las actualizaciones automáticas.
     
 - Tareas de actualización del sistema operativo
     
-  - Comprobar y descargar actualizaciones del sistema operativo en todas las máquinas virtuales de conector en la nube. 
+  - Comprobar y descargar actualizaciones del sistema operativo para todas las máquinas virtuales de Cloud Connector. 
     
-  - Instalar y actualizar todas las máquinas virtuales de conector en la nube uno por uno y reiniciar.
+  - Instale y actualice todas las máquinas virtuales de conector de nube una por una y reinicie.
     
-  - Después de reiniciar el conector en la nube, las máquinas virtuales, compruebe si es necesario reiniciar otra.
+  - Después de reiniciar la MV del conector de nube, compruebe si es necesario otro reinicio.
     
-  - Después de las máquinas virtuales de conector de nube haya correctamente revisado, repita el proceso para el equipo host de conector en la nube.
+  - Después de que se hayan revisado correctamente las máquinas virtuales del conector de nube, repita el proceso para el equipo host del conector de nube.
     
-  - Después de que el equipo host de conector en la nube se inicia correctamente copia de seguridad, se completan las tareas de actualización de sistema operativo pendientes.
+  - Una vez que el host del conector de nube se inicia correctamente, se completan las tareas pendientes de actualización del sistema operativo.
     
-- Las tareas de actualización del conector de nube
+- Tareas de actualización del conector en la nube
     
   - Descargue y compruebe el archivo de la versión desde el sitio de descargas.
     
   - Descargue el nuevo archivo .msi.  
     
-  - Desinstalar el archivo msi antiguo; Instale el nuevo archivo msi.
+  - Desinstale el archivo MSI antiguo; Instale el nuevo archivo MSI.
     
-  - Descargue la versión nueva de Skype para bits de negocio.
+  - Descargue la nueva versión de Skype for Business bits.
     
   - Registre el dispositivo llamando a Register-CcAppliance.
     
-  - Instalar la nueva versión de conector en la nube.
+  - Instale la nueva versión de conector de nube.
     
   - Depure el antiguo dispositivo y cambie la conexión de red al nuevo dispositivo.
     
 > [!NOTE]
->  Cuando se actualiza el conector en la nube para una nueva compilación, no es posible que actualizarse cmdlets de conector en la nube. Esto puede suceder, por ejemplo, si se queda abierta una ventana de PowerShell mientras se produce la actualización automática. Para cargar los cmdlets actualizados, puede realizar cualquiera de los PowerShell Close de pasos: > siguiente en el dispositivo de conector en la nube y, a continuación, vuelva a abrir PowerShell.> o, puede ejecutar Import-Module CloudConnector-Force.
+>  Cuando el conector de nube se actualiza a una nueva compilación, es posible que los cmdlets de conector de nube no se actualicen. Esto puede suceder, por ejemplo, si se deja abierta una ventana de PowerShell mientras se produce la actualización automática. Para cargar los cmdlets actualizados, puede realizar cualquiera de los pasos siguientes: > cierre PowerShell en el dispositivo Cloud Connector y, a continuación, vuelva a abrir PowerShell. > o bien, puede ejecutar Import-Module CloudConnector-Force.
   
 ## <a name="upgrade-a-single-site-to-a-new-version"></a>Actualizar un sitio único a una versión nueva
 <a name="BKMK_Upgrade"> </a>
 
 Si solo hay un dispositivo en el sitio que desea actualizar, realice lo siguiente:
   
-1. Desinstale la versión existente de conector en la nube en **el Panel de Control \> programas \> programas y características**.
+1. Desinstalar la versión del conector de nube existente en el **panel \> de control \> programas programas y características**.
     
-2. Instalar la nueva versión de CloudConnector.msi de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
+2. Instale la nueva versión de CloudConnector. msi de [https://aka.ms/CloudConnectorInstaller](https://aka.ms/CloudConnectorInstaller).
     
-3. Confirme que tiene el archivo CloudConnector.ini para la versión que va a instalar y que ha actualizado todos los valores requeridos para su entorno. No puede usar el archivo .ini de una versión anterior. Si va a actualizar el conector de la nube, por favor, consulte el tema [Prepare su dispositivo conector en la nube](prepare-your-cloud-connector-appliance.md) y asegúrese de que SiteName y EnableReferSupport se establecen en el valor correcto en el archivo CloudConnector.ini.
+3. Confirme que tiene el archivo CloudConnector.ini para la versión que va a instalar y que ha actualizado todos los valores requeridos para su entorno. No puede usar el archivo .ini de una versión anterior. Si está actualizando Cloud Connector, consulte el tema [preparar el dispositivo de conexión en la nube](prepare-your-cloud-connector-appliance.md) y asegúrese de que el valor de NombreDeSitio y EnableReferSupport está establecido en el valor correcto en el archivo CloudConnector. ini.
     
 4. Inicie una consola de PowerShell como administrador y ejecute el siguiente cmdlet para registrar el dispositivo actual:
     
@@ -101,7 +101,7 @@ Si solo hay un dispositivo en el sitio que desea actualizar, realice lo siguient
 
 Si hay más de un dispositivo en el sitio, siga los pasos anteriores para actualizar cada dispositivo de uno en uno.
   
-Si desea actualizar el Administrador de dominio, el Administrador de la máquina Virtual, el Administrador de modo seguro y credenciales de administrador de inquilinos, puede ejecutar el cmdlet con el parámetro _UpdateAllCredentials_ para restablecer todas las credenciales:
+Si desea actualizar el administrador de dominio, administrador de máquina virtual, credenciales de administrador de modo seguro y administrador de inquilinos, puede ejecutar el cmdlet con el parámetro _UpdateAllCredentials_ para restablecer todas las credenciales:
   
 ```
 Install-CcAppliance -UpdateAllCredentials

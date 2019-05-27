@@ -7,7 +7,7 @@ ms.date: 09/11/2018
 ms.topic: reference
 ms.service: msteams
 ms.reviewer: anach
-description: Lista actual de problemas conocidos de las directivas de retención de Microsoft Teams.
+description: Lista actual de problemas conocidos para las directivas de retención de Microsoft Teams.
 localization_priority: Normal
 search.appverid: MET150
 MS.collection:
@@ -15,25 +15,25 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dca7decd2c3c051c0d56a14e2a2d1485b777f92e
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 38fd76bff3309655cb7d2fa1f0acf18559f15220
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32205505"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433370"
 ---
 # <a name="known-issues-for-retention-policies-in-microsoft-teams"></a>Problemas conocidos para directivas de retención en Microsoft Teams
 
-Los siguientes son problemas conocidos que para las directivas de retención en los equipos que se va a realizar un seguimiento e investigarse.
+A continuación se muestran algunos problemas conocidos relacionados con las directivas de retención en Teams en los que se realiza el seguimiento e investigación.
 
-- Bajo Elija los equipos en la fila de ubicación de los mensajes de canal de los equipos, es posible que vea Office 365 grupos que están no también los equipos. Esto se solucionará en el futuro.
+- En elegir equipos en la fila ubicaciones de los mensajes del canal de Teams, es posible que vea Office 365 grupos que no son también equipos. Esto se corregirá en el futuro.
 
-- En Elegir usuarios en la fila de la ubicación de los equipos de Chat, es posible que vea invitados y los usuarios de buzones que no sean. Las directivas de retención no están pensadas para establecerse para invitados, y estamos trabajando para quitar estos elementos de la lista.
+- En elegir usuarios en la fila de ubicación de chats de equipos, es posible que vea invitados y usuarios que no son buzones de correo. Las directivas de retención no se deben configurar para los invitados y estamos trabajando para eliminarlas de la lista.
 
-- Asistente de ciclo de vida de Exchange (ELC) se ejecuta a diario, pero tiene un SLA de 7 días. Como resultado, es posible que, si tiene una directiva de retención de los equipos para eliminar los elementos de más de 60 días, pueden conservar estos elementos de 67 días. Esto no es una situación nueva - sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay ningún retraso.
+- El Asistente de ciclo de vida de Exchange (ELC) se ejecuta diariamente, pero tiene un SLA de 7 días. Como resultado, es posible que, si tiene una directiva de retención de equipos para eliminar elementos anteriores a 60 días, estos elementos podrían persistir durante un máximo de 67 días. Esta no es una nueva situación: sigue el modelo de Exchange. Por supuesto, en la mayoría de los casos, no hay demora.
 
 
 | | | |
 |---------|---------|---------|
-|![Icono de Punto de decisión.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
-|![Icono de Siguientes pasos.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Pasos siguientes         |Documentar las características de seguridad y cumplimiento de normas necesarias.         |
+|![Un icono que representa un punto de decisión](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image3.png)     |Puntos de decisión         |¿Qué características de seguridad y cumplimiento requiere su organización? ¿Su organización tiene las licencias necesarias para cumplir con los requisitos empresariales de seguridad y cumplimiento?         |
+|![Un icono que representa los pasos siguientes](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image4.png)     |Pasos siguientes         |Documente las características de seguridad y cumplimiento necesarias.         |

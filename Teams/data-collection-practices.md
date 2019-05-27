@@ -22,12 +22,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Microsoft recopila datos de recuento, uso y error para comprender cómo se usa Skype empresarial y dónde se encuentran los problemas. Los datos se usan para planear mejoras del producto.
-ms.openlocfilehash: bea3a508b91c83b009636aa8ee48a2add996b3ea
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 532cfe380a9f61043e38768c4c5d7d9c9fa8e9a6
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281866"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433394"
 ---
 # <a name="skype-for-business-and-microsoft-teams-data-collection-practices"></a>Prácticas de recopilación de datos de Skype empresarial y Microsoft Teams
 
@@ -103,10 +103,10 @@ El informe de errores requiere dos cosas:
 
 - La configuración de directiva de grupo DisableAutomaticSendTracing se establece en falso en el servidor o en el centro de administración de inquilinos (este es el estado predeterminado). Consulte [configurar directivas](/skypeforbusiness/deploy/deploy-clients/configure-client-bootstrapping-policies) de inicio de cliente para obtener más información.
     
-- Los usuarios finales pueden participar individualmente desde la ficha General (haga clic en ![el icono](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) de engranaje de icono de engranaje y, a continuación, se abre el cuadro de diálogo **Opciones** con la pestaña **General** en el cliente de Skype empresarial.
+- Los usuarios finales pueden participar individualmente desde la ficha General (haga clic en ![el icono de engranaje que representa ](media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) un engranaje y, a continuación, se abre el cuadro de diálogo **Opciones** con la pestaña **General** ) en el cliente de Skype empresarial.
     
  
-![Casilla de recopilación de datos de Skype empresarial en el cuadro de diálogo Opciones > general](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
+![Captura de pantalla de la casilla de recopilación de datos en el cuadro de diálogo Opciones](media/68bc8f77-deaa-478c-9977-a5259b88df3e.png)
   
 Para la aplicación reuniones de Skype, el MeetingUxEnableTelemetry también controla los informes de errores, aunque en el caso de bloqueos en Windows, el control de configuración de Watson está cargando información de bloqueo. No hay ninguna configuración de usuario para la aplicación reuniones de Skype como se ve en el cuadro de diálogo cliente de escritorio.
 

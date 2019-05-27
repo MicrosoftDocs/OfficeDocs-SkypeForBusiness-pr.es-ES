@@ -18,12 +18,12 @@ appliesto:
 localization_priority: Normal
 f1keywords: ms.teamsadmincenter.externalaccess.overview
 description: Vea cómo configurar Teams para permitir que los usuarios se comuniquen con los usuarios de otra organización.
-ms.openlocfilehash: 5da04eec6b8ce643f32639a014237ffe118aeabe
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: d974197f6daedab030124dfc1117610e3504ae32
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343941"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433194"
 ---
 # <a name="let-your-teams-users-chat-and-communicate-with-users-in-another-teams-organization"></a>Permitir a los usuarios de su equipo conversar y comunicarse con los usuarios de otra organización de Teams
 
@@ -79,7 +79,7 @@ Para probar la configuración, necesita un usuario de teams que no esté detrás
 
 Si está configurando para permitir que los usuarios de su equipo encuentren y se pongan en contacto con usuarios que están en una organización de Skype empresarial y que limitan quién puede comunicarse con sus usuarios, deberá pedirle al administrador de esa organización que siga estos pasos.
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial** 
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial con el **centro de administración de Skype empresarial** 
 
 Haga que el administrador de la organización Realice estos pasos:
     

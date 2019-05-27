@@ -1,10 +1,10 @@
 ---
-title: Crear o eliminar un anuncio en Skype para Business Server
+title: Crear o eliminar un anuncio en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: get-started-article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,17 +13,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Creación o eliminación de anuncios para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
-ms.openlocfilehash: 79298dbe415071d9d773375f524dff95516cc4fa
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Cree o elimine anuncios de la aplicación de anuncios en Skype empresarial Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
+ms.openlocfilehash: 6160631473a2ead839346e53f9f63294a7959289
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33893010"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34289079"
 ---
-# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype para Business Server
+# <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Crear o eliminar un anuncio en Skype empresarial Server
 
-Creación o eliminación de anuncios para la aplicación de anuncio en Skype para Business Server Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
+Cree o elimine anuncios de la aplicación de anuncios en Skype empresarial Enterprise Voice. Esto afecta a cómo se administran las llamadas a números sin asignar.
 
 Cuando configura anuncios, en realidad está configurando la forma en que desea administrar las llamadas a números no asignados. Reproduzca un mensaje, que puede tratarse de un archivo de audio o de un archivo de texto a voz (TTS), o bien transferir la llamada a un destino determinado sin reproducir ningún mensaje.
 
@@ -50,7 +50,7 @@ Para crear un anuncio, debe seguir estos pasos:
 
 1. Para mensajes de audio, cree el archivo de audio.
 
-2. Inicie sesión en el equipo donde está instalado Skype para Shell de administración de servidor empresarial como un miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegar permisos de instalación**.
+2. Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.
 
 3. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -82,13 +82,13 @@ Para crear un anuncio, debe seguir estos pasos:
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Para obtener más detalles acerca de estos cmdlets y para ver una lista de los códigos de idioma que usar en el parámetro **TextToSpeechPrompt** , consulte [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
+   Para obtener más información sobre estos cmdlets y para ver una lista de los códigos de idioma que se usan en el parámetro **TextToSpeechPrompt** , vea [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Eliminar un anuncio para números sin asignar
 
 ### <a name="to-delete-an-announcement"></a>Para eliminar un anuncio
 
-1. Inicie sesión en el equipo donde está instalado Skype para Shell de administración de servidor empresarial como un miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal como se describe en **Delegar permisos de instalación**.
+1. Inicie sesión en el equipo donde está instalado el shell de administración de Skype empresarial Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, como se describe en **permisos de configuración de delegado**.
 
 2. Inicie el Shell de administración de Skype Empresarial Server: haga clic en **Inicio**, **Todos los programas**, **Skype Empresarial Server 2015** y, después, en **Shell de administración de Skype Empresarial Server**.
 
@@ -111,15 +111,15 @@ Para crear un anuncio, debe seguir estos pasos:
    ```
 
     > [!NOTE]
-    > Para obtener información detallada acerca de las opciones más, vea [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
+    > Para obtener más información sobre más opciones, vea [Get-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/get-csannouncement?view=skype-ps) y [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps).
 
 ## <a name="see-also"></a>Vea también
 
-[Crear o eliminar un anuncio en Skype para Business Server](create-an-announcement.md)
+[Crear o eliminar un anuncio en Skype empresarial Server](create-an-announcement.md)
 
 [Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/import-csannouncementfile?view=skype-ps)
 
-[Nueva CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
+[Nuevo: CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/new-csannouncement?view=skype-ps)
 
 [Remove-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/remove-csannouncement?view=skype-ps)
 

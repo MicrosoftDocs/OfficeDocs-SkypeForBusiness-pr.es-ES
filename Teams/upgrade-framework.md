@@ -16,114 +16,114 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4efb9788962ca1c5b76cd49a7158b0e0d181cb40
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 9e9f72e9381d15778b46ef18e49d27bbda4cacd1
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33920318"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432979"
 ---
 # <a name="about-the-upgrade-framework"></a>Acerca del marco de actualización
 
-Para ayudar a las conjeturas su viaje por la actualización, nos hemos empleado un marco de trabajo probada para implementar el cambio. Tal y como se muestra a continuación, cada paso en el marco de trabajo se basa en el anterior paso y, para obtener resultados óptimos, se recomienda seguir los pasos en orden.  
+Para ayudarle a tomar las conjeturas de la actualización, hemos empleado un marco de trabajo probado para implementar el cambio. Como se muestra a continuación, cada paso del marco de trabajo se basa en el paso anterior y, para obtener resultados óptimos, recomendamos seguir los pasos en orden.  
 
-Comience por reunir a las partes interesadas derecha y definir el plan de actualización (ej.) ámbito, objetivos y escala de tiempo). Con un plan en su lugar, confirme que están listos para los equipos de su entorno técnico y los usuarios finales. A continuación, implementar la actualización en fases, pasar de un proyecto piloto a una actualización de toda la organización cuando esté listo. Una vez que la organización esté en los equipos, establecer un plan operativo que supervisa para la calidad y acelera la adopción de usuario.
+Empiece por reunir a las partes interesadas adecuadas y a definir su plan de actualización (por ejemplo, ámbito, objetivos y escala de tiempo). Con un plan en contexto, confirme su entorno técnico y los usuarios finales estarán listos para los equipos. Después, implemente la actualización por etapas y pase de un programa piloto a una actualización para toda la organización cuando esté listo. Una vez que su organización esté en Teams, establezca un plan operativo que supervise la calidad y acelere la adopción por el usuario.
 
-![Asegúrese de que el proyecto está configurado para el éxito con el equipo del proyecto derecho. Definir el ámbito del proyecto, las metas y escala de tiempo. Confirmar la preparación de técnico y de usuario. Ejecutar el plan de implantación. Mantener momentum para maximizar los resultados.] (media/upgrade-banner-main.png "Comenzar su viaje por la actualización")
+![Ilustración de la actualización del marco de viaje] (media/upgrade-banner-main.png "Asegúrese de que su proyecto está configurado para el éxito con el equipo del proyecto adecuado. Defina el ámbito del proyecto, los objetivos y la escala de tiempo. Confirmar la disponibilidad técnica y para el usuario. Ejecute el plan de implementación. Mantener el impulso para maximizar los resultados.")
 
-Busque este gráfico framework en páginas relacionadas para identificar dónde se encuentra en el proceso de actualización.
+Busque este gráfico de .NET Framework en las páginas relacionadas para identificar dónde se encuentre en el proceso de actualización.
 
-## <a name="sample-upgrade-timeline"></a>Escala de tiempo de actualización de ejemplo
+## <a name="sample-upgrade-timeline"></a>Ejemplo de escala de tiempo de actualización
 
-Su viaje actualización comienza cuando se inicia la planificación de los cambios. Aprovechar el marco de éxito como una directriz, a continuación es una escala de tiempo de ejemplo que se toman de la fase previa a la actualización donde va a planear y preparar la actualización, a través de la actualización y en la fase de explotación posteriores a la actualización, diseñada para mantener y ampliar la los resultados empresariales. 
+El viaje de actualización comienza al empezar a planificar el cambio. Para aprovechar el marco de éxito como directriz, a continuación encontrará una escala de tiempo de ejemplo que le llevará de la fase anterior a la actualización en la que planeará y preparará la actualización, a través de la actualización y de la fase operativa posterior a la actualización, diseñada para sostener y ampliar tus resultados. 
 
 > [!NOTE]
-> Se entiende que su viaje a los equipos podría incluir aprovechamiento de varios [modos de](https://aka.ms/skypetoteams-coexist) y actualización de grupos de usuarios en momentos diferentes, que le permiten controlar la experiencia de actualización de usuario que se mantiene momentum con los equipos.  
+> Sabemos que su viaje a teams puede implicar el aprovechamiento de varios [modos](https://aka.ms/skypetoteams-coexist) y la actualización de grupos de usuarios en diferentes momentos, lo que le permitirá controlar la experiencia de actualización de usuario y mantener el impulso con Teams.  
 
-Para ayudar a demostrar cómo es posible que se desdoblan su viaje por la actualización, hemos proporcionado un ejemplo de plan de debajo que define un viaje va de Skype para profesionales en línea a modo de islas a los equipos sólo. Además, el plan de ejemplo describe una organización que ha dividido sus usuarios en cuatro grupos de actualización o las cohortes. Uso de esto como una plantilla, personalizar el plan para abarcar su viaje específico para los equipos, la incorporación de los distintos [modos de](https://aka.ms/skypetoteams-coexist) que va a utilizar y el número de actualización grupos se podrá segmentar los usuarios en. 
+Para ayudar a demostrar cómo puede desdoblar su viaje de actualización, hemos proporcionado un plan de ejemplo que define un viaje pasando de Skype empresarial online al modo islas a teams. Además, el plan de ejemplo describe una organización que ha dividido a sus usuarios en cuatro grupos de actualización o cohorts. Con esta plantilla, personalice el plan para abarcar su viaje específico a Teams, incorporando los distintos [modos](https://aka.ms/skypetoteams-coexist) que va a usar y la cantidad de grupos de actualización a los que segmentar a los usuarios. 
 
-## <a name="pre-upgrade"></a>Previos a la actualización
+## <a name="pre-upgrade"></a>Antes de la actualización
 
-**Prepare la organización para los equipos**. Para ayudar a garantizar una correcta actualización a los equipos, es importante asignar tiempo suficiente para la preparación del. No sólo a su organización puedan iniciar rápidamente darse cuenta el valor de los equipos, podrá acelerar la actualización de Skype para la empresa tan pronto como está listo para los equipos. Si ya ha habilitado los equipos junto con Skype para la empresa, use estas actividades previa a la actualización como un punto de comprobación para validar la preparación de su organización antes de actualizar a los usuarios a los equipos. 
+**Prepare su organización para los equipos**. Para ayudar a garantizar una actualización correcta a Teams, es importante asignar tiempo adecuado para la preparación. Su organización no solo podrá empezar a alcanzar rápidamente el valor de Teams, sino que podrá acelerar la actualización de Skype empresarial tan pronto como se haya preparado el equipo para usted. Si ya ha habilitado Teams junto con Skype empresarial, use estas actividades previas a la actualización como punto de comprobación para validar la preparación de la organización antes de actualizar los usuarios a teams. 
 
 > [!TIP]
-> Descargue el [Kit de actualización de éxito](https://aka.ms/UpgradeSuccessKit) para materiales de preparación de usuario de plantilla, como las comunicaciones y encuestas de usuario, además de un ejemplo de plan de actualización del proyecto piloto de pruebas y plan. Los elementos que están disponibles en el kit se marcan con un asterisco (*) en las listas de abajo.
+> Descargue el [Kit](https://aka.ms/UpgradeSuccessKit) de actualización correcta para los materiales de preparación de usuarios de plantillas, como las comunicaciones y las encuestas de usuarios, además de un plan de actualización de proyecto y un plan de pruebas piloto. Los elementos que están disponibles en el kit están marcados con un asterisco (*) en las siguientes listas.
 
-### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: Crear un plan de actualización para ayudar a garantizar que su organización está configurada para el éxito a largo plazo
+### <a name="plan-create-your-upgrade-plan-to-help-ensure-your-organization-is-set-up-for-long-term-success"></a>Plan: crear el plan de actualización para asegurarse de que su organización está configurada para el éxito a largo plazo
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Definir las partes interesadas** | Asignar a los miembros del equipo responsables de dirigir actualización con éxito. | [Dar de alta las partes interesadas](upgrade-enlist-stakeholders.md) |
-| **2** | **Definir el ámbito y la visión del proyecto** | Diseñe su visión de "Panorama general" y el ámbito del proyecto actual para crear un blueprint para su viaje por la actualización. | [Visión del proyecto](upgrade-define-project-scope.md#project-vision) <br> <br>[Ámbito del proyecto](upgrade-define-project-scope.md#project-scope) |
-| **3** | **Definir los objetivos del proyecto** | Establecer los objetivos de destinados que permiten medir el progreso, así como el éxito del proyecto. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
-| **4** | **Identificar los riesgos y los planes de mitigación** | Establecer un plan de mitigación para asegurarse de que puede obtener rápidamente su proyecto en el camino si surgen problemas. | [Los riesgos y mitigación](upgrade-define-project-scope.md#risks-and-mitigation) |
-| **5** | **Definir la escala de tiempo** | Establecer una escala de tiempo y los hitos clave para ayudar a su proyecto a permanecer en el tiempo y dentro del presupuesto. | [línea de tiempo](upgrade-define-project-scope.md#timeline) <br><br> [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Definir el Skype adecuado para la estrategia de actualización y coexistencia empresariales y de los equipos** | Asignar su viaje para garantizar la mejor ruta de Skype para la empresa a los equipos para su organización. | [Descripción de Microsoft Teams y Skype para la interoperabilidad y coexistencia de negocio](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
+| **1** | **Definir las partes interesadas** | Asigne miembros del equipo del proyecto responsables de la actualización del éxito. | [Dar de alta a los participantes](upgrade-enlist-stakeholders.md) |
+| **2** | **Definir el ámbito y la visión del proyecto** | Diseñe su visión de "panorama general" y el alcance actual del proyecto para crear un plan para el viaje de actualización. | [Visión del proyecto](upgrade-define-project-scope.md#project-vision) <br> <br>[Ámbito del proyecto](upgrade-define-project-scope.md#project-scope) |
+| **3** | **Definir los objetivos del proyecto** | Establezca objetivos específicos que le permitan medir el progreso, así como el éxito del proyecto. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
+| **4** | **Identificar riesgos y planes de mitigación** | Establezca un plan de mitigación para asegurarse de que pueda volver a poner el proyecto rápidamente en el momento en que se produzcan problemas. | [Riesgos y mitigación](upgrade-define-project-scope.md#risks-and-mitigation) |
+| **5** | **Definir la escala de tiempo** | Establezca una escala de tiempo y los hitos clave para ayudar a que su proyecto permanezca a tiempo y esté de presupuesto. | [Escala](upgrade-define-project-scope.md#timeline) <br><br> [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **6** | **Definir la actualización adecuada de Skype empresarial y de equipos y la estrategia de coexistencia** | Asigne su viaje para garantizar el mejor camino de Skype empresarial a los equipos de su organización. | [Comprender Microsoft Teams y la coexistencia e interoperabilidad de Skype empresarial](teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br><br> [Elegir su recorrido de actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md) |
 
 
-### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Prepare: Evaluación de la preparación de su organización para los equipos
+### <a name="prepare-evaluate-your-organizations-readiness-for-teams"></a>Preparar: evaluar la preparación de su organización para los equipos
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Evaluar el entorno y completar la incorporación técnico de los equipos** | Asegúrese de que su entorno está preparado para los equipos ayudar a optimizar la experiencia del usuario y facilitar la actualización a través del tiempo. | [Evaluar el entorno antes de actualizar a los equipos](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar su servicio para la actualización a los equipos](upgrade-prepare-environment-prepare-service.md) |
-| **2** | **Optimizar el rendimiento de red de los equipos, especialmente para escenarios multimedia en tiempo real** | Si va a implementar las reuniones, audio o vídeo, lleve a cabo estos pasos adicionales para optimizar la red para que la funcionalidad. | [Preparar la red para la actualización a los equipos](upgrade-prepare-environment-prepare-network.md) |
-| **3** | **Evalúe la preparación de los cambios en la organización y definir escenarios de trabajo en equipo** | Comprender el usuario base para preparar el valor correcto de mensajería así como el nivel de educación para facilitar y acelerar la adopción de usuario. | [Preparación de cambios en la organización](upgrade-org-change-readiness.md#organizational-change-readiness) |
-| **4** | **Preparar un plan de preparación del usuario para definir cómo va a comunicarse, aprendizaje y admitir usuarios** | Personalice su plan de comunicaciones, aprendizaje y soporte técnico para garantizar receptiveness óptima para la nueva tecnología. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **Anunciar el lanzamiento de Microsoft Teams pendiente** | Comunicarse pronto para ayudar a los usuarios sientan, reducir la confusión y generar diversión. | [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **6** | **Preparar su personal de TI para los equipos** | Confirme su técnica y personal de soporte técnico tiene todo lo necesario para preparado y compatible con el entorno técnico para los equipos. | [Preparar su personal de TI para Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **1** | **Evaluar su entorno y completar la incorporación técnica de equipos** | Asegúrese de que su entorno está listo para que los equipos ayuden a optimizar la experiencia del usuario y a facilitar la actualización a lo largo del tiempo. | [Evalúe su entorno antes de actualizar a teams](upgrade-plan-journey-evaluate-environment.md).<br><br> [Preparar el servicio para la actualización a teams](upgrade-prepare-environment-prepare-service.md) |
+| **2** | **Optimizar la red para equipos, especialmente para escenarios de medios en tiempo real** | Si va a implementar audio, vídeo o reuniones, lleve a cabo estos pasos adicionales para optimizar su red para esa funcionalidad. | [Preparar la red para actualizar a teams](upgrade-prepare-environment-prepare-network.md) |
+| **3** | **Evaluar la preparación de los cambios organizativos y definir escenarios de trabajo en equipo** | Comprender la base de usuarios para preparar la mensajería de valor adecuado y el nivel de educación para facilitar y acelerar la adopción de usuarios. | [Preparación de los cambios de organización](upgrade-org-change-readiness.md#organizational-change-readiness) |
+| **4** | **Preparar un plan de preparación de usuarios para definir cómo se comunicarán, entrenarán y proporcionarán soporte técnico a los usuarios** | Personalice su plan de comunicaciones, aprendizaje y soporte para garantizar la accesibilidad óptima a la nueva tecnología. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md)<br><br>[Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **Anunciar el lanzamiento pendiente de Microsoft Teams** | Comunícate pronto para ayudar a los usuarios a incluir, reducir la confusión y generar entusiasmo. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **6** | **Preparar el personal de TI para Teams** | Confirme que el personal técnico y de soporte tenga todo lo necesario para preparar el entorno técnico de los equipos. | [Preparar el personal de TI para Microsoft Teams](upgrade-prepare-it-pros.md) <br><br> [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 
-### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Prueba piloto: Ejecutar una prueba piloto para confirmar que la organización está preparada y a informar a su viaje óptima para los equipos
+### <a name="pilot-run-a-pilot-to-confirm-that-your-organization-is-ready-and-inform-your-optimal-journey-to-teams"></a>Prueba piloto: ejecutar un programa piloto para confirmar que su organización está lista e informar a su óptimo viaje a los equipos
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Logística piloto de esquema** | Definir la logística piloto formal para ayudar a validar la preparación de su organización para actualizarlas o coexistir. | [Logística piloto de esquema](pilot-essentials.md#1-outline-pilot-logistics) |
-| **2** | **Seleccionar a los participantes pilotos y escenarios de prueba** | Identificar los usuarios que pueden ayudar a validar escenarios de trabajo en equipo y comprobar la preparación de los equipos. | [Seleccionar a los participantes pilotos y escenarios de prueba](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
-| **3** | **Diseño de la encuesta de comentarios y plan de prueba** | Identificar claramente definidas tareas para los participantes para llevar a cabo y una manera para que puedan compartir sus comentarios. | [Diseño de la encuesta de comentarios y plan de prueba](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey) |
-| **4** | **Crear un plan de comunicaciones piloto** | Instruya a los participantes pilotos en lo que sucede, cuándo y por qué, y lo que se espera de ellos. | [Crear un plan de comunicaciones](pilot-essentials.md#4-create-your-communications-plan)<br><br>[Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **5** | **Llevar a cabo la prueba piloto** | Iniciar al piloto, realizar un seguimiento del progreso y realice una iteración según sea necesario para optimizar los resultados de la prueba piloto. | [Llevar a cabo la prueba piloto](pilot-essentials.md#5-conduct-your-pilot) |
-| **6** | **Evaluar los conocimientos y evaluar el plan de ir directa** | Recopilar comentarios del usuario, estadísticas de la red y admitir vales para análisis frente a los objetivos y determinar el plan de ir directa. | [Evaluar los conocimientos y evaluar el plan de ir directa](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
+| **1** | **Resumen de la logística piloto** | Definir una logística piloto formal para ayudar a validar la disponibilidad de su organización para actualizarla o coexistir. | [Resumen de la logística piloto](pilot-essentials.md#1-outline-pilot-logistics) |
+| **2** | **Seleccionar los participantes de la prueba piloto y los escenarios de prueba** | Identifique los usuarios que pueden ayudarle a validar escenarios de trabajo en equipo y comprobar la preparación de los equipos. | [Seleccionar los participantes de la prueba piloto y los escenarios de prueba](pilot-essentials.md#2-select-your-pilot-participants-and-test-scenarios) |
+| **3** | **Diseñar el plan de prueba y la encuesta de comentarios** | Identifique tareas claramente definidas para que los participantes los completen y una forma de compartir sus comentarios. | [Diseñar el plan de prueba y la encuesta de comentarios](pilot-essentials.md#3-design-your-test-plan-and-feedback-survey) |
+| **4** | **Crear un plan de comunicaciones piloto** | Educar a los participantes de la fase piloto sobre lo que está ocurriendo, Cuándo y por qué se esperan. | [Crear un plan de comunicaciones](pilot-essentials.md#4-create-your-communications-plan)<br><br>[Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **5** | **Realizar la prueba piloto** | Inicie la prueba piloto, realice un seguimiento del progreso y recorra la iteración según sea necesario para optimizar los resultados de la prueba piloto. | [Realizar la prueba piloto](pilot-essentials.md#5-conduct-your-pilot) |
+| **6** | **Evaluar aprendizajes y evaluar su plan de avance** | Recopilar comentarios de los usuarios, estadísticas de redes y entradas de soporte técnico para analizarlos en función de sus objetivos y determinar su plan de avance. | [Evaluar aprendizajes y evaluar su plan de avance](pilot-essentials.md#6-assess-learnings-and-evaluate-your-go-forward-plan)
 
-### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Implementar: Ejecutar equipos en coexistencia con Skype para la empresa
+### <a name="deploy-run-teams-in-coexistence-with-skype-for-business"></a>Implementación: ejecute Teams en coexistencia con Skype empresarial
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Anunciar el lanzamiento oficial de los equipos** | Generar diversión y momentum mediante el envío de un anuncio del lanzamiento oficial cuando los equipos está listo. | [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **2** | **Habilitar el modo de coexistencia adecuados para los usuarios** | Siga los pasos para establecer los modos de coexistencia adecuada para su organización. | [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md) |
-| **3** | **Mantenerse informado acerca de la guía básica de los equipos** | Supervisar la guía básica de los equipos para identificar el momento adecuado para su organización mover a los equipos. | [Guía básica de los equipos](https://aka.ms/teamsroadmap) |
-| **4** | **Enviar comunicaciones adicionales e integrarse a campeones de los equipos a la diversión de unidad y la adopción de los equipos** | Fomentar la adopción de usuario y mantener diversión para los equipos con communications continuada y Campeones. | [Programa de campeones de Microsoft 365](https://aka.ms/O365Champions) |
+| **1** | **Anunciar el lanzamiento oficial de Teams** | Genera una presentación oficial del lanzamiento cuando Teams está listo para generar entusiasmo y impulso. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **2** | **Habilitar el modo de coexistencia adecuado para los usuarios** | Siga los pasos para establecer los modos de coexistencia correctos para su organización. | [Configurar su coexistencia y la configuración de actualización](setting-your-coexistence-and-upgrade-settings.md) |
+| **3** | **Manténgase informado acerca de la guía básica de Teams** | Supervise la hoja de ruta de Teams para identificar el momento adecuado para que su organización se traslade a teams. | [Guía básica de Teams](https://aka.ms/teamsroadmap) |
+| **4** | **Envía comunicaciones adicionales y contrata a los expertos de Teams para impulsar la diversión y la adopción de equipos** | Anime a la adopción por el usuario y mantenga la emoción de los equipos con comunicaciones y campeones continuos. | [Programa Microsoft 365 Champions](https://aka.ms/O365Champions) |
 
 ## <a name="upgrade"></a>Upgrade 
 
-**Realizar el movimiento oficial a los equipos**. Al actualizar a los usuarios, moverlas al modo de sólo los equipos. Los equipos se convierte en sus principales de la aplicación de chat, las reuniones, llamadas y colaboración y el acceso a la Skype para la aplicación empresarial está deshabilitado. Aunque los aspectos técnicos de esta fase son bastante sencillos, tenga en cuenta el efecto que podría tener sobre la experiencia de usuario en el cambio y se permita que los usuarios realizar la transición oficialmente sus actividades de Skype para la empresa a los equipos. Para reducir los usuarios tener distintas experiencias con distintos clientes, pruebe a limitar la ventana de actualización de end-to-end para 45 días o lo.
+**Haga que el funcionario se mueva a teams**. Cuando se actualizan los usuarios, se mueven al modo de solo equipos. Teams se convierte en la aplicación principal para conversaciones, reuniones, llamadas y colaboraciones, y el acceso a la aplicación de Skype empresarial está deshabilitado. Aunque los aspectos técnicos de esta fase son bastante sencillos, considere el efecto que el cambio puede tener en la experiencia del usuario y deje que los usuarios pasen oficialmente sus actividades de Skype empresarial a teams. Para reducir la necesidad de que los usuarios tengan experiencias diferentes con diferentes clientes, intenta limitar la ventana de actualización de un extremo a otro de 45 días.
 
-### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Actualización: Implementar la actualización de Skype para la empresa a los equipos
+### <a name="upgrade-implement-your-upgrade-from-skype-for-business-to-teams"></a>Actualización: implementar la actualización de Skype empresarial en Teams
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Confirme que ha completado las actividades previa a la actualización que se ha descrito anteriormente** | Ayudar a garantizar el éxito de actualización mediante la confirmación de finalización de todas las actividades de planeación y preparación. | Todas las anteriores |
-| **2** | **Iniciar comunicaciones a los usuarios en el primer grupo de actualización** | Notificar a los usuarios que va a iniciar las actualizaciones y mantenerlos informados durante todo el proceso. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md) <br><br> [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
-| **3** | **Habilitar el modo de coexistencia para equipos sólo para los usuarios de su primer grupo de actualización** | Siga los pasos correspondientes a su Skype para el entorno empresarial para llevar a cabo la migración de usuario técnica. | [Actualización de Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Actualizar desde Skype Empresarial híbrido o local a Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
-| **4** | **Repita las actividades de actualización anteriores para los grupos restantes de actualización en un ciclo sucesivo** | Seguir el plan de comunicaciones continuada de unidad y grupos de usuarios en función del plan de actualización. | |
-| **5** | **Enviar comentarios posteriores a la actualización encuestas a todos los usuarios** | Usar una encuesta de comentarios para capturar los comentarios y los conocimientos de los usuarios. | [Kit de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **1** | **Confirmar que ha completado las actividades anteriores a la actualización descritas anteriormente** | Ayudar a garantizar la actualización correcta al confirmar la finalización de todas las actividades de planificación y preparación. | Todas las anteriores |
+| **2** | **Iniciar comunicaciones para los usuarios en el primer grupo de actualización** | Notifique a los usuarios que las actualizaciones se están iniciando y Manténgales informados durante el proceso. | [Preparar un plan de preparación del usuario](upgrade-user-readiness.md) <br><br> [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
+| **3** | **Habilitar el modo de coexistencia para los equipos solo para los usuarios de su primer grupo de actualización** | Siga los pasos apropiados para su entorno de Skype empresarial para realizar la migración de usuarios técnicos. | [Actualización de Skype Empresarial Online a Microsoft Teams](upgrade-to-Teams-execute-SkypeforBusinessOnline.md) <br><br>[Actualizar desde Skype Empresarial híbrido o local a Teams](upgrade-to-Teams-execute-SkypeforBusinessHybridOnprem.md)
+| **4** | **Repetir las actividades de actualización anteriores para los grupos de actualización restantes en un ciclo sucesivo** | Continúe con los planes de comunicaciones y actualice los grupos de usuarios en función de su plan. | |
+| **5** | **Enviar encuestas posteriores a la actualización de comentarios a todos los usuarios** | Use una encuesta de comentarios para recopilar comentarios y perspectivas de los usuarios. | [Paquete de actualización correcta](https://aka.ms/UpgradeSuccessKit) |
 
-## <a name="post-upgrade"></a>Después de la actualización
+## <a name="post-upgrade"></a>Posterior a la actualización
 
-**Maximizar el valor de negocio con los equipos**. Después de la organización se actualice totalmente a los equipos, llevar tiempo para evaluar su grado de éxito de los objetivos e implementar un plan para continuar momentum hacia delante. 
+**Maximice el valor para empresas con Teams**. Una vez que su organización se haya actualizado completamente a Teams, dedique un tiempo para evaluar el éxito con sus objetivos e implementar un plan para continuar el impulso. 
 
-### <a name="operate-measure-the-success-of-your-upgrade"></a>Operar: Medir el éxito de la actualización
+### <a name="operate-measure-the-success-of-your-upgrade"></a>Operar: Mida el éxito de su actualización
 
-| Paso |  | Resumen | Recurso |
+| Paso |  | Resumen | Recursos |
 |------|--|---------|----------|
-| **1** | **Evaluar el éxito de la actualización inicial** | Evaluar el progreso en relación con los objetivos establecidos en la fase previa a la actualización. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
-| **2** | **Implementar un plan de mitigación para los objetivos que no están en el camino** | Definir mitigación o las estrategias de corrección de curso para que no se cumplan los objetivos. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
-| **3** | **Monitor de estado de la red y calidad** | Implementar una comprobación de la calidad y plan de supervisión para ayudar a garantizar un usuario positivo experiencia, así como reducir las llamadas de soporte técnico de su. | [Monitor de estado de la red y calidad](continue-journey.md#monitor-for-network-health-and-quality) |
-| **4** | **Unidad de usuario momentum y adopción** | Fomentar la adopción de usuario y mantener diversión para los equipos con un plan de adopción continuada. | [Unidad de usuario momentum y adopción](continue-journey.md#drive-user-momentum-and-adoption) |
-| **5** | **Preparación para la nueva funcionalidad** | Obtener el máximo valor mediante el establecimiento de un ciclo de cambio para nuevas innovaciones y mejoras del producto. | [Preparación para la nueva funcionalidad](continue-journey.md#prepare-for-new-functionality)
+| **1** | **Evaluar la actualización inicial correcta** | Evaluar el progreso con respecto a los objetivos establecidos en la fase anterior a la actualización. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
+| **2** | **Implementar un plan de mitigación para los objetivos que no se encuentran en el seguimiento** | Definir estrategias de corrección o de corrección de cursos para objetivos que no se cumplen. | [Objetivos del proyecto](upgrade-define-project-scope.md#project-goals) |
+| **3** | **Supervisar el estado y la calidad de la red** | Implemente un plan de control y control de calidad para ayudar a garantizar una experiencia de usuario positiva, así como para reducir las llamadas a su servicio de asistencia al cliente. | [Supervisar el estado y la calidad de la red](continue-journey.md#monitor-for-network-health-and-quality) |
+| **4** | **Impulsar el impulso y la adopción de usuarios** | Anime a la adopción por el usuario y mantenga el entusiasmo de los equipos con un plan de adopción continua. | [Impulsar el impulso y la adopción de usuarios](continue-journey.md#drive-user-momentum-and-adoption) |
+| **5** | **Prepararse para nuevas funcionalidades** | Obtener el máximo valor al establecer un ciclo de cambio para nuevas innovaciones y mejoras del producto. | [Prepararse para nuevas funcionalidades](continue-journey.md#prepare-for-new-functionality)
 
 
 > [!Note]
-> Nuestro contenido de actualización está en constante evolución. No olvide Eche un vistazo a las instrucciones más reciente y leer el [blog de los equipos](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog). 
+> Nuestro contenido de upgrade está evolucionado continuamente. Asegúrese de consultar las instrucciones más recientes y lea el [blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)de Teams. 
 
 > [!Important]
-> Si es administrador en el inquilino de Office 365, es posible que inicie vean las opciones de actualización en el cmdlet de PowerShell o el centro de administración de Microsoft Teams. Disponer de la opción para actualizar no significa necesariamente que su organización esté lista para hacerlo. Para una experiencia de usuario óptima, confirme que los equipos cumple los requisitos de colaboración y comunicación, validar que está lista para equipos de soporte técnico e implementar el plan de preparación del usuario antes de actualizar a los usuarios a los equipos de la red.
+> Si es administrador de su inquilino de Office 365, puede empezar a ver las opciones de actualización en el cmdlet de PowerShell o en el centro de administración de Microsoft Teams. Disponer de la opción para actualizar no significa necesariamente que su organización esté lista para hacerlo. Para mejorar la experiencia del usuario, confirme que Teams cumple con los requisitos de colaboración y comunicación, compruebe que su red está preparada para admitir equipos e implemente el plan de preparación de los usuarios antes de actualizar los usuarios a teams.
  

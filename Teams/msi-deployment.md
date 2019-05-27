@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4c009433696ac554114a2a06955b4f33beb6543f
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281620"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421951"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================
@@ -28,6 +28,8 @@ ms.locfileid: "34281620"
 > Vea la siguiente sesión para obtener información sobre las ventajas del cliente de escritorio de Windows, cómo se planea y cómo se implementa: [Teams cliente de escritorio de Windows](https://aka.ms/teams-clients)
 
 Para usar System Center Configuration Manager, una directiva de grupo o cualquier mecanismo de distribución de terceros para una implementación ampliada, Microsoft ha proporcionado archivos MSI (tanto [de 32](https://aka.ms/teams32bitmsi) bits como de [64](https://aka.ms/teams64bitmsi)bits) que los administradores pueden usar para la implementación masiva de equipos para seleccionar usuarios o equipos. Los administradores pueden usar estos archivos para implementar equipos de forma remota, de modo que los usuarios no tengan que descargar manualmente la aplicación de Teams. Cuando se implementa, Teams se iniciará automáticamente para todos los usuarios que inicien sesión en ese equipo. (Puede deshabilitar el inicio automático después de instalar la aplicación. [Consulte a continuación](#disable-auto-launch-for-the-msi-installer)). Le recomendamos que implemente el paquete en el equipo, de modo que todos los nuevos usuarios del equipo también se beneficien de esta implementación. 
+
+Los equipos también pueden incluirse con una implementación de Office 365 ProPlus. Para obtener más información, consulte [implementar Microsoft Teams con Office 365 ProPlus](https://docs.microsoft.com/deployoffice/teams-install).
  
 > [!Note] 
 > Para obtener más información sobre SCCM, consulte [Introducción a System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction).

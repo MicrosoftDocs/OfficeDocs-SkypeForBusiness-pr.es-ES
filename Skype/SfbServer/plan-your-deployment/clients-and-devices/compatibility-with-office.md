@@ -1,11 +1,11 @@
 ---
-title: Skype para la compatibilidad de negocio con aplicaciones de Office
+title: Compatibilidad de Skype empresarial con las aplicaciones de Office
 ms.author: v-lanac
 author: lanachin
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
@@ -13,37 +13,37 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: Comprender las formas que se puede tener acceso a Skype para las características empresariales de Outlook y otras aplicaciones de Microsoft Office.
-ms.openlocfilehash: f8f6f31e6b77b50178bf80210606ca5b92ea4e05
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: Comprender las formas en las que puede obtener acceso a las características de Skype empresarial desde Outlook y desde otras aplicaciones de Microsoft Office.
+ms.openlocfilehash: c24c6b08e21db357d52b1cc130e53f23b6123ff6
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33923858"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277436"
 ---
-# <a name="skype-for-business-compatibility-with-office-apps"></a>Skype para la compatibilidad de negocio con aplicaciones de Office
+# <a name="skype-for-business-compatibility-with-office-apps"></a>Compatibilidad de Skype empresarial con las aplicaciones de Office
  
-Comprender las formas que se puede tener acceso a Skype para las características empresariales de Outlook y otras aplicaciones de Microsoft Office.
+Comprender las formas en las que puede obtener acceso a las características de Skype empresarial desde Outlook y desde otras aplicaciones de Microsoft Office.
   
-En este tema se describe la compatibilidad de Skype para la empresa con distintas versiones de conjuntos de aplicaciones de Microsoft Office. 
+En este tema se describe la compatibilidad de Skype empresarial con varias versiones de los conjuntos de programas de Microsoft Office. 
   
-## <a name="office-and-skype-for-business"></a>Office y Skype para la empresa
+## <a name="office-and-skype-for-business"></a>Office y Skype empresarial
 
-En la siguiente tabla se describe la Skype para las características de negocio que son compatibles con las distintas versiones de Office una vez que Exchange se ha implementado e integrada tal como se describe en [Integrar Skype para Business Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
+En la siguiente tabla se describen las características de Skype empresarial compatibles con varias versiones de Office una vez implementado Exchange y integrado según se describe en [integrar Skype empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).
   
-**Skype para empresas y compatibilidad de Microsoft Office**
+**Compatibilidad de Skype empresarial y Microsoft Office**
 
-|**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|**2016 de Office para Mac** & #x 2776; |
+|**Característica**|**Microsoft Office 2010**|**Microsoft Office 2013, 2015 y 2016**|**Office 2016 para Mac** & # x2776; |
 |:-----|:-----|:-----|:-----|
 |**Características de Outlook** ||||
 |Personalizar invitaciones a reuniones de Outlook (agregar logotipo, URL de ayuda, declinación de responsabilidades, texto del pie de página)  |No  |Sí    |Sí|
 |Configurar la opción de reunión para silenciar el audio y el vídeo de los asistentes de manera predeterminada    |No    |Sí    |No    |
-|Almacén de contactos unificados para la administración de las listas de contactos a través de Office y Skype para la empresa    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
-|Imágenes de perfil de alta resolución    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
-|Estado de presencia en el Microsoft Outlook, en, campos y Cc    |Sí     |Sí     |Sí    |
-|Responder con mensajería instantánea o llamar desde el menú de disponibilidad    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |
+|Almacén de contactos unificado para administrar listas de contactos en Office y Skype empresarial    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
+|Imágenes de Perfil de alta resolución    |No    |Sí (requiere Exchange 2013 o posterior)    |Sí    |
+|Estado de presencia en los campos de Microsoft Outlook de, para y CC    |Sí     |Sí     |Sí    |
+|Responder con mensajes instantáneos o llamadas desde el menú de disponibilidad    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |Sí (desde la tarjeta de contacto)    |
 |Estado de presencia en una convocatoria de reunión en la pestaña Asistente para programación    |Sí     |Sí    |No    |
-|Responder con mensajería instantánea o llamada desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí     |Sí     |Sí    |
+|Responder con mi o llamar desde la barra de herramientas o la cinta de opciones en un mensaje de correo electrónico recibido    |Sí     |Sí     |Sí    |
 |**Otras aplicaciones de Office**   ||||
 |Notas compartidas de OneNote    |No    |Sí    |No    |
 |Configuración integrada en el programa de configuración de Office    |No    |Sí    |No    |
@@ -51,24 +51,24 @@ En la siguiente tabla se describe la Skype para las características de negocio 
 |Mensajería instantánea y presencia en los archivos de Microsoft Word y Microsoft Excel (etiquetas inteligentes habilitadas)    |Solo Microsoft Word    |Solo Microsoft Word    |No    |
 |Mensajería instantánea y presencia en los sitios de Microsoft SharePoint (debe instalarse Outlook)    |Sí    |Sí    |No    |
    
-& #x 2776; -Se da por supuesto que ha instalado y se está ejecutando actualmente una Skype para la empresa en el cliente de Mac o el Lync 2011 para cliente de Mac.
+&#x2776; : Supone que ha instalado y está ejecutando actualmente un cliente de Skype empresarial en Mac o el cliente de Lync 2011 para Mac.
   
-## <a name="exchange-server-and-skype-for-business"></a>Exchange Server y Skype para la empresa
+## <a name="exchange-server-and-skype-for-business"></a>Exchange Server y Skype empresarial
 
-En la siguiente tabla se describe Skype para soporte del negocio para las distintas versiones de Exchange Server. Outlook debe instalarse en el equipo cliente para administrar las llamadas extendidas de MAPI y algunas características requieren el uso de servicios Web Exchange (EWS).
+En la siguiente tabla se describe la compatibilidad de Skype empresarial para varias versiones de Exchange Server. Outlook debe instalarse en el equipo cliente para administrar las llamadas extendidas de MAPI y algunas características requieren el uso de servicios Web Exchange (EWS).
   
-**Skype para empresas y compatibilidad de Exchange Server**
+**Compatibilidad de Skype empresarial y Exchange Server**
 
-|**Versión de Exchange Server**|**Skype para soporte del negocio**|
+|**Versión de Exchange Server**|**Soporte técnico de Skype empresarial**|
 |:-----|:-----|
-|Exchange Server 2019 (Skype para Business Server 2019 sólo) |Igual que la compatibilidad con Exchange Server 2013    |
+|Exchange Server 2019 (solo Skype empresarial Server 2019) |Igual que la compatibilidad con Exchange Server 2013    |
 |Exchange Server 2016    |Igual que la compatibilidad con Exchange Server 2013  <br/> |
-|Exchange Server 2013  <br/> |Igual que el soporte técnico de Exchange Server 2010, con la incorporación de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificados  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener información detallada, vea [Integrar Skype para Business Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
-|Exchange Server 2010  <br/>(Skype para Business Server 2015 sólo) |Las siguientes características solo están disponibles mediante EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos en la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar información de libre/ocupado extendida y el asunto de la reunión y la ubicación  <br/>&bull;&nbsp;&nbsp;Sincronización de contactos de Exchange  <br/> Las carpetas públicas son opcionales en Exchange Server 2010.  <br/> |
+|Exchange Server 2013  <br/> |Igual que la compatibilidad de Exchange Server 2010, con la incorporación de  <br/>&bull;&nbsp;&nbsp;Almacén de contactos unificado  <br/>&bull;&nbsp;&nbsp;Imágenes de alta resolución  <br/>&bull;&nbsp;&nbsp;Integración de archivado  <br/> **Nota:** Para obtener más información, consulte [integrar Skype empresarial Server con Exchange Server](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md).  <br/> |
+|Exchange Server 2010  <br/>(Solo Skype empresarial Server 2015) |Las siguientes características solo están disponibles mediante EWS:  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de la carpeta Historial de conversaciones  <br/>&bull;&nbsp;&nbsp;Leer o eliminar elementos de correo de voz  <br/>&bull;&nbsp;&nbsp;Mostrar la información de disponibilidad extendida y la ubicación y el asunto de la reunión  <br/>&bull;&nbsp;&nbsp;Sincronización de contactos de Exchange  <br/> Las carpetas públicas son opcionales en Exchange Server 2010.  <br/> |
    
 ## <a name="see-also"></a>Vea también
  
-[Los requisitos de cliente de Windows y la compatibilidad de software](windows-requirements.md)
+[Requisitos del cliente de Windows y asistencia de software](windows-requirements.md)
   
-[Planeación de los clientes de las reuniones (Web App y aplicación de las reuniones)](meetings-clients.md)
+[Planear clientes de reuniones (aplicación web y aplicación reuniones)](meetings-clients.md)
 

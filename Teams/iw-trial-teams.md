@@ -3,7 +3,6 @@ title: Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 author: ChuckEdmonson
 ms.author: chucked
 manager: serdars
-ms.date: 04/23/2019
 ms.topic: reference
 audience: Admin
 ms.reviewer: annikaelias
@@ -16,20 +15,20 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 654db34de9160c0e858fd8972d00487291fd1653
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 933ea45cbcdc9e6af8c25dfdb67758d154731586
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921255"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404297"
 ---
 <a name="manage-the-microsoft-teams-commercial-cloud-trial-offer"></a>Administrar la oferta de prueba comercial en la nube de Microsoft Teams
 =======================================================
 
-Microsoft Teams es una excelente herramienta de colaboración para su organización. Permite a los usuarios y equipos debatir, innovar y compartir ideas mediante las características de Office 365. La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización.
+Microsoft Teams es una excelente herramienta de colaboración para su organización. Permite a los usuarios y equipos debatir, innovar y compartir ideas mediante las características de Office 365. La prueba comercial en la nube de Microsoft Teams permite a los usuarios existentes de Office 365 de su organización que no tienen una licencia de Microsoft Teams iniciar una prueba de 1 año del producto. Los administradores pueden activar o desactivar esta característica para los usuarios de su organización. 
 
 > [!IMPORTANT]
-> La prueba comercial en la nube de Microsoft Teams se ha actualizado para incluir los planes de servicio adicionales para una mayor funcionalidad de Teams y ahora su propietario y controlador es el Administrador de facturación de su organización. Esto facilita administrar la versión de prueba y es coherente con las demás ofertas de Microsoft 365. Los usuarios de la prueba comercial en la nube de Microsoft Teams existentes se migrarán al nuevo plan.
+> La prueba comercial en la nube de Microsoft Teams se ha actualizado para incluir los planes de servicio adicionales para una mayor funcionalidad de Teams y ahora su propietario y controlador es el Administrador de facturación de su organización. Esto facilita administrar la versión de prueba y es coherente con las demás ofertas de Microsoft 365. 
 
 ## <a name="whats-in-the-offer"></a>¿Qué incluye la oferta?
 
@@ -142,3 +141,11 @@ Para obtener más información, consulte [Licencias de Office 365 para Microsoft
 
 > [!NOTE]
 > Cuando termine el período de prueba y el usuario no se actualice inmediatamente a una suscripción que incluya Teams, los datos del usuario no se eliminarán. El usuario seguirá existiendo en Azure Active Directory y todos los datos dentro de Teams se conservarán. Cuando una nueva licencia se asigne al usuario para volver a habilitar las funciones de Teams, todo el contenido seguirá existiendo. 
+
+### <a name="remove-a-legacy-microsoft-teams-trial-license"></a>Quitar una licencia heredada de prueba de Microsoft Teams
+
+A partir del 22 de abril de 2019, los usuarios pueden comenzar a reclamar la licencia de prueba más reciente de Microsoft Teams Commercial Cloud. Si quiere mover a los usuarios de su organización de la licencia de prueba heredada a la más reciente, primero deberá eliminar la licencia de prueba de Microsoft Teams heredada de cada usuario. Una vez quitada la licencia heredada, todos los usuarios afectados pueden pedir la licencia de prueba de Microsoft Teams Commercial Cloud actualizada.
+
+- Si quiere quitar esta licencia mediante PowerShell, consulte: [Quitar licencias de las cuentas de usuario con Office 365 PowerShell](https://docs.microsoft.com/es-ES/office365/enterprise/powershell/remove-licenses-from-user-accounts-with-office-365-powershell)
+
+- Si quiere quitar esta licencia a través del portal de administración, vea: [Quitar licencias de usuarios en Office 365 para empresas](https://docs.microsoft.com/es-ES/office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide)

@@ -15,12 +15,12 @@ description: Tareas y actividades necesarias para la administración de servicio
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c15d497ec86dcb15e85fc45dda838b5f203c87e0
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34343867"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34432875"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -62,7 +62,7 @@ Asegúrese de que cada equipo contable tenga una buena comprensión de las activ
 Una vez que se haya implementado un contrato, los equipos correspondientes deberán comenzar a operar sus roles.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image9.png" alt=""/><br/>Pasos siguientes</td>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="Image depicting the next steps"/><br/>Pasos siguientes</td>
 <td><ul><li>Use este documento para facilitar el ejercicio de asignación de roles operativos.</li><li>Reunirse con los respectivos equipos de soporte técnico para asignar nombres a cada elemento de la lista de actividades necesarias.</li><li>Gana la aceptación o la aprobación de los roles asignados.</li><li>Asegúrese de que los equipos correspondientes tengan la formación, preparación y recursos adecuados para completar las actividades que necesiten.</li></ul></td></table>
 
 ### <a name="teams-service-dependencies"></a>Dependencias del servicio de Teams

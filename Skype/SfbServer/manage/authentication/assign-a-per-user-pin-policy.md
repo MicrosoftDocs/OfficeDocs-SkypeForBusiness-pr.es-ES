@@ -1,28 +1,28 @@
 ---
-title: Asignar una directiva de PIN por usuario en Skype para Business Server
+title: Asignar una directiva de PIN por usuario en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
 manager: serdars
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
-description: 'Resumen: Fase AV OAuth certificados y de Skype para Business Server.'
-ms.openlocfilehash: 777944be2a2db32e4662b8afecac0023bdd2ab91
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: haga una copia de los certificados de AV y OAuth para Skype empresarial Server.'
+ms.openlocfilehash: dafb70239552b9ee2c5e84e7624e881711e8ce6f
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902670"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34278359"
 ---
-# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Asignar una directiva de PIN por usuario en Skype para Business Server
+# <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Asignar una directiva de PIN por usuario en Skype empresarial Server
 
-**Resumen:** Fase AV y OAuth certificados para Skype para Business Server.
+**Resumen:** Ensayar los certificados de AV y OAuth para Skype empresarial Server.
   
-La directiva de conferencia de acceso telefónico identificación personal (PIN) de número es uno de los parámetros individuales de una cuenta de usuario que se pueden configurar en el Skype para el Panel de Control de servidor empresarial.
+La Directiva número de identificación personal (PIN) de la Conferencia de acceso telefónico local es una de las opciones de configuración individuales de una cuenta de usuario que se puede configurar en el panel de control de Skype empresarial Server.
   
 La implementación de una o más directivas de PIN por usuario es opcional. Asimismo, puede implementar solamente una directiva de PIN a nivel global o a nivel de sitio. Si implementa directivas por usuario, es preciso que las asigne explícitamente a un objeto de usuario, grupo o contacto. Los derechos y permisos de usuario para el uso de PIN de conferencia de acceso telefónico local pasan a ser, de forma predeterminada, los definidos en la directiva de PIN de nivel global cuando no se haya asignado una directiva específica de nivel de sitio o por usuario.
   
@@ -32,7 +32,7 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
 
 1. Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
     
-2. Abra una ventana del explorador y, a continuación, escriba la dirección URL de administración para abrir el Skype para el Panel de Control de servidor empresarial.  
+2. Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Skype empresarial Server.  
     
 3. En la barra de navegación izquierda, haga clic en **Usuarios**.
     
@@ -55,7 +55,7 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
     > [!TIP]
     > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en **Agregar filtro**. 
   
-   e. Haga clic en **Buscar**.
+   &. Haga clic en **Buscar**.
     
 6. Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y, a continuación, en **Asignar directivas**.
     
@@ -65,9 +65,9 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
 7. En **Asignar directivas**, en **Directiva de PIN**, realice uno de los procedimientos siguientes:
     
     > [!NOTE]
-    > Debido a que hay varias directivas que se pueden configurar mediante el cuadro de diálogo **Asignar directivas** , ** \<mantener tal como está\> ** está seleccionada de manera predeterminada para todas las directivas en el cuadro de diálogo. Para seguir usando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > Puesto que existen varias directivas que puede configurar mediante el cuadro de diálogo **asignar directivas** , ** \<\> ** la opción mantener está seleccionada de forma predeterminada para todas las directivas del cuadro de diálogo. Para seguir usando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
   
-   - Permitir Skype para Business Server elija automáticamente la directiva de nivel global o, si está definida, la directiva de nivel de sitio.
+   - Permitir que Skype empresarial Server elija automáticamente la Directiva de nivel global o, si está definida, la Directiva de nivel de sitio.
     
    - Haga clic en el nombre de una directiva de PIN por usuario que haya definido anteriormente en la página **Directiva de PIN**.
     
@@ -76,9 +76,9 @@ Tras crear al menos una directiva de PIN por usuario, emplee los procedimientos 
   
 8. Cuando haya terminado, haga clic en **Aceptar**.
     
-## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de PIN por usuario mediante Cmdlets de Windows PowerShell
+## <a name="assigning-a-per-user-pin-policy-by-using-windows-powershell-cmdlets"></a>Asignar una directiva de PIN por usuario mediante cmdlets de Windows PowerShell
 
-Puede asignar directivas de PIN por usuario mediante el uso de Windows PowerShell y el cmdlet **Grant-CsPinPolicy** . Puede ejecutar este cmdlet desde el Skype para Shell de administración de servidor empresarial o desde una sesión remota de Windows PowerShell. Para obtener información detallada acerca del uso de Windows PowerShell remoto para conectarse a Skype para Business Server, vea el artículo del blog ["rápido iniciar: administración de Microsoft Lync Server 2010 Using Remote PowerShell"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype para Business Server.
+Puede asignar directivas de PIN por usuario mediante Windows PowerShell y el cmdlet **Grant-CsPinPolicy** . Puede ejecutar este cmdlet desde el shell de administración de Skype empresarial Server o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Skype empresarial Server, consulte el artículo del blog ["Inicio rápido: administración de Microsoft Lync Server 2010 mediante PowerShell remoto"](https://go.microsoft.com/fwlink/p/?linkId=255876). El proceso es el mismo en Skype empresarial Server.
   
 ### <a name="to-assign-a-per-user-pin-policy-to-a-single-user"></a>Asignar una directiva de PIN por usuario a un único usuario
 
@@ -90,7 +90,7 @@ Puede asignar directivas de PIN por usuario mediante el uso de Windows PowerShel
 
 ### <a name="to-assign-a-per-user-pin-policy-to-multiple-users"></a>Asignar una directiva de PIN por usuario a varios usuarios
 
-- El comando siguiente asigna la directiva de PIN por usuario RedmondUsersPinPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener información detallada sobre el parámetro LdapFilter que se usa en este comando, vea [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
+- El comando siguiente asigna la directiva de PIN por usuario RedmondUsersPinPolicy a todos los usuarios que trabajan en la ciudad de Redmond. Para obtener más información sobre el parámetro LdapFilter que se usa en este comando, vea [Get-CsUser](https://docs.microsoft.com/powershell/module/skype/get-csuser?view=skype-ps).
     
   ```
   Get-CsUser -LdapFilter "l=Redmond" | Grant-CsPinPolicy -PolicyName "RedmondUsersPinPolicy"
@@ -104,8 +104,8 @@ Puede asignar directivas de PIN por usuario mediante el uso de Windows PowerShel
   Grant-CsPinPolicy -Identity "Ken Myer" -PolicyName $Null
   ```
 
-Para obtener información detallada, vea [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
+Para obtener más información, consulte [Grant-CsPinPolicy](https://docs.microsoft.com/powershell/module/skype/grant-cspinpolicy?view=skype-ps).
   
 ## <a name="see-also"></a>Vea también
 
-[Crear una nueva directiva PIN en Skype para Business Server](create-a-new-pin-policy.md)
+[Crear una nueva Directiva de PIN en Skype empresarial Server](create-a-new-pin-policy.md)

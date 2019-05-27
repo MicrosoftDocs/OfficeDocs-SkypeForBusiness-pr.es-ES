@@ -8,59 +8,59 @@ ms.date: 03/22/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Configurar una directiva de reunión para permitir a los usuarios compartir sus escritorios en chats de los equipos o las reuniones
+description: Configurar una directiva de reunión para permitir que los usuarios compartan sus escritorios en chats o reuniones de Teams
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d0434804e7d0ec57ff4470fd8e9af23b73f8179f
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 0bf213b919ee0bea344807f932e16240587b2b84
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32198406"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433242"
 ---
 <a name="configure-desktop-sharing-in-microsoft-teams"></a>Configurar Compartir escritorio en Microsoft Teams
 ============================================
 
-Uso compartido de escritorio permite a los usuarios presentar una pantalla o una aplicación durante una reunión o conversación. Los administradores pueden configurar el uso compartido en Microsoft Teams para permitir a los usuarios compartir una pantalla completa, una aplicación o un archivo de pantalla. Puede permitir a los usuarios conceder o solicitar el control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. También puede configurar si los usuarios anónimos o externos pueden solicitar el control de la pantalla compartida.
+El uso compartido de escritorio permite a los usuarios presentar una pantalla o una aplicación durante una reunión o un chat. Los administradores pueden configurar la pantalla compartida en Microsoft Teams para permitir que los usuarios compartan una pantalla completa, una aplicación o un archivo. Puede permitir a los usuarios asignar o solicitar el control, permitir el uso compartido de PowerPoint, agregar una pizarra y permitir notas compartidas. También puede configurar si usuarios anónimos o externos pueden solicitar el control de la pantalla compartida.
 
-Para configurar el uso compartido de la pantalla, crear una nueva directiva de reuniones y, a continuación, se asigna a los usuarios que desea administrar.
+Para configurar la pantalla compartida, debe crear una nueva Directiva de reuniones y, a continuación, asignarla a los usuarios que desee administrar.
 
 **En el centro de administración de Microsoft Teams**
 
-1. Seleccione **las reuniones** > **las directivas de reunión**.
+1. Seleccione **** > **políticas**de reuniones de reuniones.
 
-    ![Seleccione las directivas de reunión](media/configure-desktop-sharing-image1.png)
+    ![Captura de pantalla que muestra las directivas de reunión seleccionadas](media/configure-desktop-sharing-image1.png)
 
-2. En la página de **directivas de reunión** , seleccione **nueva directiva**.
+2. En la página directivas de la **reunión** , seleccione **nueva Directiva**.
 
-    ![Seleccione nueva directiva](media/configure-desktop-sharing-image2.png)
+    ![Captura de pantalla que muestra el mensaje directivas de la reunión](media/configure-desktop-sharing-image2.png)
 
-3. Asigne un título único a la directiva y escriba una descripción breve.
+3. Asigne un título único a la Directiva y escriba una descripción breve.
 
-4. En el **uso compartido de contenido**, elija un **modo de uso compartido de pantalla** de la lista desplegable:
+4. En **uso compartido de contenido**, seleccione un **modo de uso compartido de pantalla** de la lista desplegable:
 
-   - **Pantalla completa** – permite a los usuarios compartir su escritorio completo.
-   - **Única aplicación** – permite a los usuarios límite pantalla de uso compartido en una única aplicación activa.
-   - **Deshabilitado** : desactiva el uso compartido de la pantalla.
+   - **Pantalla completa** : permite que los usuarios compartan todo su escritorio.
+   - Una **sola aplicación** : permite que los usuarios limiten la pantalla compartida a una sola aplicación activa.
+   - **** Deshabilitado: desactiva la pantalla compartida.
 
-    ![Elija una modo de uso compartido de pantalla](media/configure-desktop-sharing-image3.png)
+    ![Captura de pantalla que muestra las opciones del modo de uso compartido](media/configure-desktop-sharing-image3.png)
 
-5. Activar o desactivar la los valores siguientes:
+5. Activar o desactivar la siguiente configuración:
 
-    - A **Permitir que un participante dar o solicitar el control** – permite a los miembros del equipo de dar o solicitar el control del escritorio del moderador o la aplicación.
-    - **Permitir que un participante externo a proporcionar o solicitar el control** – permite a los invitados y usuarios (federados) externos concesión o solicitar el control del escritorio del moderador o la aplicación.
-    - El **uso compartido de PowerPoint permitir** - permite a los usuarios crear reuniones que permiten presentaciones de PowerPoint cargar y compartir.
-    - **Permitir Pizarra** – permite a los usuarios compartir una pizarra.
-    - **Permitir notas compartidas** – permite a los usuarios tomar notas compartidas.
+    - **Permitir que un participante pueda ceder o solicitar el control** : permite a los miembros del equipo ceder o solicitar el control del escritorio o de la aplicación del moderador.
+    - **Permitir que un participante externo pueda ceder o solicitar el control** : permite a los invitados y a los usuarios externos (federados) ceder o solicitar el control del escritorio o de la aplicación del moderador.
+    - **Permitir el uso compartido de PowerPoint** : permite a los usuarios crear reuniones que permiten que las presentaciones de PowerPoint se carguen y compartan.
+    - **Permitir pizarra** : permite a los usuarios compartir una pizarra.
+    - **Permitir notas** compartidas: permite a los usuarios tomar notas compartidas.
 
 6. Haga clic en **Guardar **.
 
-## <a name="use-powershell-to-configure-shared-desktop"></a>Uso de PowerShell para configurar el escritorio compartido
+## <a name="use-powershell-to-configure-shared-desktop"></a>Usar PowerShell para configurar el escritorio compartido
 
-También puede usar el cmdlet [Set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar el uso compartido de escritorio. Establezca los siguientes parámetros:
+También puede usar el cmdlet [set-CsTeamsMeetingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) para controlar el uso compartido del escritorio. Establezca los siguientes parámetros:
 
 - Descripción
 - ScreenSharingMode

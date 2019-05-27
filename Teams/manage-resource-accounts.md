@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: f2c7b03f79a29b89c94266359f21571b1994e82a
-ms.sourcegitcommit: 4b8350e5bb2ef138dcc0204d764bdf85bae539ba
+ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34334930"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404305"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -49,14 +49,15 @@ Para empezar, es importante recordar algunas cosas:
 
 > [!NOTE]
 > Los números de servicio de enrutamiento directo asignados a cuentas de recursos para el operador automático y las colas de llamadas solo se admiten para usuarios y agentes de Microsoft Teams.
->
+
+> [!NOTE]
 > Microsoft está trabajando en un modelo de licencias adecuado para aplicaciones como los operadores automáticos de la nube y las colas de llamadas, por ahora es necesario usar el modelo de licencias de usuario.
->
-> Para redirigir las llamadas a las personas de su organización que estén conectadas en línea, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
->
-> Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos. Solo se pueden usar números de teléfono gratuitos o de pago.
->
-> Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. En su lugar, vaya a [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver cómo hacerlo desde fuera de los Estados Unidos.
+
+Para redirigir las llamadas a las personas de su organización que estén conectadas en línea, deben tener una licencia de **sistema telefónico** y estar habilitadas para telefonía IP empresarial o tener planes de llamadas de Office 365. Consulte [asignar licencias de Microsoft Teams](assign-teams-licenses.md). Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
+
+Los números de teléfono de usuario (suscriptor) no se pueden asignar a una cuenta de recursos. Solo se pueden usar números de teléfono gratuitos o de pago.
+
+Si está fuera de los Estados Unidos, no puede usar el centro de administración de Microsoft Teams para obtener los números de servicio. En su lugar, vaya a [administrar números de teléfono de su organización](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) para ver cómo hacerlo desde fuera de los Estados Unidos.
 
 ### <a name="phone-numbers"></a>Números de teléfono
 

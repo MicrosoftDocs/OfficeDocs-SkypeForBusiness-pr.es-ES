@@ -7,7 +7,7 @@ audience: Admin
 ms.date: 03/08/2019
 ms.topic: article
 ms.service: msteams
-ms.reviewer: ''
+ms.reviewer: sonua
 localization_priority: Normal
 search.appverid: MET150
 description: Microsoft Teams instala un complemento en Outlook que permite a los usuarios programar reuniones de Microsoft Teams desde Outlook.
@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 624e6a72daae12d0e40b351cea6039fbe5eb432b
-ms.sourcegitcommit: 9a99be1365df439f9443f31240aa5311782458df
+ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33994138"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404230"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -40,7 +40,7 @@ El complemento para reunión de Microsoft Teams se instala automáticamente para
 Si los usuarios no pueden ver el complemento de Microsoft Teams, pídales que cierren Outlook y Microsoft Teams, y que luego reinicien en primer lugar el cliente de Microsoft Teams y luego el de Outlook, específicamente en ese orden.
 
 > [!NOTE]
-> El botón de reunión de los equipos en Outlook para Mac aparecerá en el de la cinta de opciones de Mac de Outlook si Outlook se está ejecutando compilación de producción 16.20 y versiones posteriores.
+> El botón reunión de equipos de Outlook para Mac aparecerá en la cinta de opciones de Outlook para Mac si Outlook está ejecutando la compilación 16,20 y posteriores de producción.
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 
@@ -65,7 +65,6 @@ El cliente de Microsoft Teams determina si los usuarios necesitan la versión de
 ## <a name="other-considerations"></a>Otras consideraciones
 
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
-- Algunas características de reunión en línea, como la grabación, los sondeos y el uso de pizarras todavía no están disponibles.
 - Las opciones de reunión no están disponibles actualmente.
 - En estos momentos, solo es posible invitar a personas de su compañía, dado que los usuarios externos todavía no pueden unirse a las reuniones.
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams. Actualmente, el complemento para reunión de Microsoft Teams en Outlook solo está disponible para usuarios de Windows, pero próximamente será compatible con Mac.

@@ -11,12 +11,12 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 945fa50e86b03fe02a37432a86e3ae49f82481fb
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: 1e15b4b5e76a2ce3a16b068af6511218195e27fd
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34336413"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34404279"
 ---
 # <a name="teams-for-small-and-medium-business-smb"></a>Equipos para pequeñas y medianas empresas (PYME)
 
@@ -24,7 +24,7 @@ Teams...
 
 <ul class="panelContent cardsFTitle">
     <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/teams-in-hc">
+        <a href="#">
         <div class="cardSize">
             <div class="cardPadding">
                 <div class="card">
@@ -34,43 +34,7 @@ Teams...
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Introducción a Teams para organizaciones sanitarias</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/microsoftteams/expand-teams-across-your-org/healthcare/healthcare-templates">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introducción a las plantillas para las organizaciones sanitarias de Teams</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </a>
-    </li>
-    <li>
-        <a href="https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc">
-        <div class="cardSize">
-            <div class="cardPadding">
-                <div class="card">
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
-                        </div>
-                    </div>
-                    <div class="cardText">
-                        <h3>Introducción a la mensajería segura para las organizaciones sanitarias</h3>
+                        <h3>Introducción a Teams para pequeñas y medianas empresas</h3>
                     </div>
                 </div>
             </div>

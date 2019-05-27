@@ -1,9 +1,9 @@
 ---
-title: Borde de requisitos de entorno de servidor en Skype para Business Server
+title: Requisitos ambientales para servidores perimetrales en Skype empresarial Server
 ms.reviewer: ''
 ms.author: v-lanac
 author: lanachin
-ms.audience: ITPro
+audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
@@ -13,19 +13,19 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 67435465-b4d0-4e38-8e03-56a60b844a34
-description: 'Resumen: Obtenga información sobre los requisitos del entorno de servidor perimetral en Skype para Business Server.'
-ms.openlocfilehash: ab4f8ea78eaceff87d3c17ec4325776ad1d8a117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+description: 'Resumen: Obtenga información sobre los requisitos ambientales para el servidor perimetral en Skype empresarial Server.'
+ms.openlocfilehash: a154882e6fe78faee3b020830de4049827babf89
+ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33895622"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34277177"
 ---
-# <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Borde de requisitos de entorno de servidor en Skype para Business Server
+# <a name="edge-server-environmental-requirements-in-skype-for-business-server"></a>Requisitos ambientales para servidores perimetrales en Skype empresarial Server
  
-**Resumen:** Obtenga información sobre los requisitos del entorno de servidor perimetral en Skype para Business Server.
+**Resumen:** Obtenga más información sobre los requisitos ambientales para el servidor perimetral en Skype empresarial Server.
   
-Una gran cantidad de planeación y preparación debe llevarse a cabo fuera de la Skype para el entorno de servidor perimetral de Business Server propio. En este artículo, repasaremos qué preparativos tiene que realizar en el entorno de la organización, según la lista que se muestra abajo:
+Es necesario tener una gran cantidad de planeación y preparación fuera del entorno de servidor perimetral de Skype empresarial Server. En este artículo, repasaremos qué preparativos tiene que realizar en el entorno de la organización, según la lista que se muestra abajo:
   
 - [Topology planning](edge-environmental-requirements.md#TopoPlan)
     
@@ -38,32 +38,32 @@ Una gran cantidad de planeación y preparación debe llevarse a cabo fuera de la
 ## <a name="topology-planning"></a>Planificar la topología
 <a name="TopoPlan"> </a>
 
-Skype para topologías de servidor perimetral de Business Server son capaces de usar:
+Las topologías de servidor perimetral de Skype empresarial Server pueden usar:
   
 - Direcciones IP públicas enrutables.
     
 - Direcciones IP privadas no enrutables si se usa la traducción de direcciones de red (NAT) **simétrica**.
     
 > [!TIP]
-> El servidor perimetral puede configurarse para utilizar una sola dirección IP con puertos distintos para cada servicio, o puede usar distintas direcciones IP para cada servicio, pero usan el mismo puerto predeterminado (que, de forma predeterminada, será TCP 443). Hay más información en la sección de requisitos de las direcciones IP de abajo. 
+> El servidor perimetral puede configurarse para usar una única dirección IP con puertos distintos para cada servicio, o bien puede usar distintas direcciones IP para cada servicio, pero usar el mismo puerto predeterminado (que de forma predeterminada es TCP 443). Hay más información en la sección de requisitos de las direcciones IP de abajo. 
   
 Si elige direcciones IP privadas no enrutables con NAT, recuerde los siguientes puntos:
   
 - Tiene que usar direcciones IP privadas enrutables en las **tres** interfaces externas.
     
-- Tiene que configurar la NAT **simétrica** para el tráfico entrante y saliente. NAT simétrico es que el único admitido NAT puede usar con Skype para servidor perimetral de Business Server.
+- Tiene que configurar la NAT **simétrica** para el tráfico entrante y saliente. El NAT simétrico es el único NAT compatible que puede usar con el servidor perimetral de Skype empresarial Server.
     
-- Configure la NAT para que no cambie las direcciones de origen entrantes. El / servicio perimetral A/v debe poder recibir la dirección de origen entrante para buscar la ruta de medios óptima.
+- Configure la NAT para que no cambie las direcciones de origen entrantes. El servicio perimetral A/V debe poder recibir la dirección de origen entrante para encontrar la ruta de acceso de medios óptima.
     
-- Los servidores perimetrales necesita poder comunicarse entre sí desde sus pública / direcciones IP perimetrales de A/v. El firewall tiene que permitir este tráfico.
+- Los servidores perimetrales deben poder comunicarse entre sí desde su dirección IP de borde A/V pública. El firewall tiene que permitir este tráfico.
     
-- NAT puede **sólo** se utilizan para escalado los servidores perimetrales consolidados si usa equilibrio de carga DNS. Si usa el equilibrio de carga de hardware (HLB), tiene que usar direcciones IP enrutables públicamente **sin** NAT.
+- NAT **solo** se puede usar para servidores de vanguardia consolidados en escala si usas el equilibrio de carga de DNS. Si usa el equilibrio de carga de hardware (HLB), tiene que usar direcciones IP enrutables públicamente **sin** NAT.
     
-No tendrá que tienen problemas con su acceso, conferencia Web y / interfaces de servidor perimetral A/v detrás de un enrutador o firewall realiza NAT simétrica para escaladas y únicas consolidan topologías de servidor perimetral (siempre que no se utiliza el equilibrio de carga de hardware).
+No tendrá ningún problema con las interfaces de acceso, conferencia web y borde de a/V detrás de un router o firewall que realicen NAT simétricos para topologías de servidores perimetrales simples y escalables (siempre que no use el equilibrio de carga de hardware).
   
-### <a name="summary-of-edge-server-topology-options"></a>Resumen de las opciones de topología de servidor perimetral
+### <a name="summary-of-edge-server-topology-options"></a>Resumen de las opciones de topología de servidores perimetrales
 
-Tenemos varias opciones de topología disponibles para Skype para implementaciones de servidor perimetral de Business Server:
+Tenemos varias opciones de topología disponibles para las implementaciones del servidor perimetral de Skype empresarial Server:
   
 - Servidor perimetral consolidado simple con direcciones IP privadas y NAT
     
@@ -77,7 +77,7 @@ Tenemos varias opciones de topología disponibles para Skype para implementacion
     
 Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen de las opciones de cada topología:
   
-|**Topología**|**Alta disponibilidad**|**¿Registros DNS adicionales necesarios para el servidor perimetral externo en el grupo de servidores perimetrales?**|**Conmutación por error perimetral para Skype para las sesiones de Business Server**|**Conmutación por error perimetral para Skype para sesiones de federación Business Server**|
+|**Topología**|**Alta disponibilidad**|**¿Necesita registros DNS adicionales para el servidor perimetral externo en el grupo Edge?**|**Conmutación por error de perímetro en sesiones de Skype empresarial Server**|**Failover perimetral para sesiones de Federación de Skype empresarial Server**|
 |:-----|:-----|:-----|:-----|:-----|
 |Servidor perimetral consolidado simple con direcciones IP privadas y NAT  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |
 |Servidor perimetral consolidado simple con direcciones IP públicas  <br/> |No  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |Página de invitación a la reunión con números de teléfono de acceso telefónico predeterminados  <br/> |No  <br/> |
@@ -85,11 +85,11 @@ Para que le sea más fácil elegir una, la siguiente tabla le ofrece un resumen 
 |Servidor perimetral consolidado ampliado con direcciones IP públicas (con equilibrio de carga DNS)  <br/> |Sí  <br/> |Sí  <br/> |Sí  <br/> |Yes&sup1;  <br/> |
 |Servidor perimetral consolidado ampliado con equilibradores de carga de hardware  <br/> |Sí  <br/> |No (un registro A DNS por VIP)  <br/> |Sí  <br/> |Sí  <br/> |
    
-&sup1; Conmutación por error de usuarios remotos de mensajería unificada de Exchange (UM) con equilibrio de carga DNS requiere Exchange 2013 o más reciente.
+&sup1; La conmutación por error de usuario de mensajería unificada de Exchange (UM) con el equilibrio de carga de DNS requiere Exchange 2013 o posterior.
   
 ### <a name="ip-address-requirements"></a>Requisitos de direcciones IP
 
-En un nivel fundamental, tres servicios necesitan direcciones IP; Servicio de acceso perimetral, servicio perimetral de conferencia Web y / servicio perimetral A/v. Tiene la opción de usar tres direcciones IP, una para cada uno de los servicios, o puede usar uno y optar por poner cada servicio en un puerto diferente (puede comprobar la sección [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto). Para un entorno de servidor perimetral consolidado simple, es prácticamente todo.
+En un nivel fundamental, hay tres servicios que necesitan direcciones IP. Servicio perimetral de acceso, servicio perimetral de conferencias web y servicio perimetral A/V. Tiene la opción de usar tres direcciones IP, una para cada uno de los servicios, o puede usar uno y optar por poner cada servicio en un puerto diferente (puede comprobar la sección [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto). Para un entorno de servidor perimetral consolidado simple, es prácticamente todo.
   
 > [!NOTE]
 > Como se indica anteriormente, puede optar por tener una dirección IP para los tres servicios y ejecutarlos en diferentes puertos. Para ser claros, no lo recomendamos. Si sus clientes no pueden tener acceso a los puertos alternativos que usa en este escenario, tampoco pueden obtener acceso a la característica completa de su entorno perimetral. 
@@ -98,16 +98,16 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
   
 #### <a name="ip-address-requirements-for-scaled-consolidated-edge-ip-address-per-role"></a>Requisitos de dirección IP para servidor perimetral consolidado ampliado (dirección IP por rol)
 
-|**Número de servidores perimetrales por grupo de servidores**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
+|**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |6  <br/> |3 (1 por VIP) + 6  <br/> |
-|3  <br/> |9  <br/> |3 (1 por VIP) + 9  <br/> |
-|4  <br/> |12  <br/> |3 (1 por VIP) + 12  <br/> |
-|5  <br/> |15  <br/> |3 (1 por VIP) +15  <br/> |
+|3  <br/> |99,999  <br/> |3 (1 por VIP) + 9  <br/> |
+|4  <br/> |2007  <br/> |3 (1 por VIP) + 12  <br/> |
+|5  <br/> |4,5  <br/> |3 (1 por VIP) +15  <br/> |
    
 #### <a name="ip-address-requirements-for-scale-consolidated-edge-single-ip-address-for-all-roles"></a>Requisitos de dirección IP para servidor perimetral consolidado ampliado (dirección IP única para todos los roles)
 
-|**Número de servidores perimetrales por grupo de servidores**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
+|**Número de servidores perimetrales por grupo**|**Número de direcciones IP necesarias para el equilibrio de carga de DNS**|**Número de direcciones IP necesarias para el equilibrio de carga de hardware**|
 |:-----|:-----|:-----|
 |2  <br/> |2  <br/> |1 (1 por VIP) + 2  <br/> |
 |3  <br/> |3  <br/> |1 (1 por VIP) + 3  <br/> |
@@ -116,20 +116,20 @@ Puede ser un poco más complicado con topologías consolidadas ampliadas, por lo
    
 Veamos algunos asuntos adicionales en los que pensar durante la planeación.
   
-- **Alta disponibilidad**: si necesita una alta disponibilidad en su implementación, debe implementar al menos dos servidores perimetrales en un grupo de servidores. Merece la pena indicar que un único grupo de servidores perimetrales admitirá hasta 12 servidores perimetrales (aunque Topology Builder le permitirá agregar hasta 20, que no se ha probado o compatible, por lo que le recomendamos que no lo haga). Si necesita más de 12 servidores perimetrales, debe crear grupos de servidores perimetrales adicionales para ellos.
+- **Alta disponibilidad**: Si necesita una mayor disponibilidad en su implementación, debe implementar al menos dos servidores perimetrales en un grupo. Merece la pena tener en cuenta que un solo grupo puede admitir hasta 12 servidores perimetrales (aunque el generador de topología le permitirá sumar hasta 20, eso no está probado ni admitido, por lo que le recomendamos que no lo hace). Si necesita más de 12 servidores perimetrales, debe crear agrupaciones perimetrales adicionales para ellos.
     
-- **Equilibrio de carga de hardware**: se recomienda para la mayoría de los escenarios de equilibrio de carga de DNS. Equilibrio de carga de hardware también es compatible, por supuesto, pero en particular, es necesario para un escenario de único a través de equilibrio de carga de DNS:
+- **Equilibrio de carga de hardware**: se recomienda el equilibrio de carga de DNS en la mayoría de los escenarios. El equilibrio de carga de hardware también es compatible, por supuesto, pero es necesario para un escenario único sobre el equilibrio de carga de DNS:
     
-  - Acceso externo a Exchange 2007 o mensajería unificada de Exchange 2010 (con ningún SP) (UM).
+  - Acceso externo a Exchange 2007 o Exchange 2010 (sin SP) mensajería unificada (UM).
     
-- **Equilibrio de carga DNS**: para mensajería unificada, Exchange 2010 SP1 y son más reciente puede ser compatible con el equilibrio de carga DNS. Tenga en cuenta que si necesita ir con DNS equilibrio de carga para una versión anterior de Exchange, va a trabajar, pero todo el tráfico para esto se realizarán en el primer servidor en el grupo de servidores, y si no está disponible, ese tráfico posteriormente se producirá un error.
+- **Equilibrio de carga de DNS**: para um, Exchange 2010 SP1 y versiones posteriores pueden ser compatibles con el equilibrio de carga de DNS. Tenga en cuenta que si necesita ir con el equilibrio de carga de DNS para una versión anterior de Exchange, funcionará, pero todo el tráfico para ello irá al primer servidor del grupo y, si no está disponible, ese tráfico fallará posteriormente.
     
-    También se recomienda el equilibrio de carga DNS si está federar con compañías mediante:
-- Skype para Business Server 2015:
+    También se recomienda el equilibrio de carga de DNS si se va a federar con empresas mediante:
+- Skype empresarial Server 2015:
     - Lync Server 2010
     - Lync Server 2013
-    - Microsoft Office O365
-- Skype para Business Server 2019:
+    - O365 de Microsoft Office
+- Skype empresarial Server 2019:
     - Lync Server 2013
     - Skype Empresarial Server 2015
     - Microsoft Office 365.
@@ -137,58 +137,58 @@ Veamos algunos asuntos adicionales en los que pensar durante la planeación.
 ## <a name="dns-planning"></a>Planificación de DNS
 <a name="DNSPlan"> </a>
 
-Cuando se trata de Skype para la implementación de servidor perimetral de Business Server, es esencial para preparar correctamente para DNS. Con los registros correctos en su ubicación, la implementación será mucho más sencilla. Afortunadamente ha elegido una topología en la sección anterior, ya que realizaremos una descripción general y después enumeraremos algunas tablas que esquematicen los registros DNS para esos escenarios. También tendremos algunos [avanzada DNS de servidor perimetral de planeación de Skype para Business Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) para la lectura más detallada, si lo necesita.
+Cuando se trata de la implementación del servidor perimetral de Skype empresarial Server, es vital prepararse para DNS correctamente. Con los registros correctos en su ubicación, la implementación será mucho más sencilla. Afortunadamente ha elegido una topología en la sección anterior, ya que realizaremos una descripción general y después enumeraremos algunas tablas que esquematicen los registros DNS para esos escenarios. También tenemos un [plan DNS avanzado de servidor perimetral para Skype empresarial Server](../../plan-your-deployment/network-requirements/advanced-edge-server-dns.md) para una lectura más profunda, si así lo necesita.
   
-### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Registros DNS para un solo consolidada escenarios de servidor perimetral
+### <a name="dns-records-for-single-consolidated-edge-server-scenarios"></a>Registros DNS para escenarios de servidor perimetral único consolidado
 
-Se trata de los registros DNS que se va a necesitar para un servidor perimetral mediante ambos pública única IP o IP privada con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
+Estos serán los registros DNS que necesitará para un servidor perimetral único que use IPS público o IP privado con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
   
 - Adaptador de red interna: 172.25.33.10 (no hay ninguna puerta de enlace predeterminada asignada)
     
     > [!NOTE]
-    > Asegúrese de que existe una ruta desde la red que contiene la interfaz perimetral interna para todas las redes que contienen servidores que ejecutan Skype para los clientes de Business Server o Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 
+    > Asegúrese de que haya una ruta desde la red que contenga la interfaz interna perimetral a cualquier red que contenga servidores que ejecuten Skype empresarial Server o clientes de Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 
   
 - Adaptador de red externa:
     
   - IP públicas:
     
-  - Servidor perimetral de acceso: 131.107.155.10 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, ej: 131.107.155.1)
+  - Perimetral de acceso: 131.107.155.10 (es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, por ejemplo: 131.107.155.1)
     
-  - Servidor perimetral de conferencia Web: 131.107.155.20 (secundario)
+  - Borde de conferencias web: 131.107.155.20 (secundaria)
     
-  - A / perimetral A/v: 131.107.155.30 (secundario)
+  - Borde A/V: 131.107.155.30 (secundaria)
     
-  Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+  Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
     
   - IP privadas:
     
-  - Servidor perimetral de acceso: 10.45.16.10 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador, ej: 10.45.16.1)
+  - Perimetral de acceso: 10.45.16.10 (es el principal, con la puerta de enlace predeterminada establecida para el enrutador; por ejemplo: 10.45.16.1)
     
-  - Servidor perimetral de conferencia Web: 10.45.16.20 (secundario)
+  - Borde de conferencias web: 10.45.16.20 (secundaria)
     
-  - A / perimetral A/v: 10.45.16.30 (secundario)
+  - Borde A/V: 10.45.16.30 (secundaria)
     
-Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
   
 > [!TIP]
 >Hay otra configuración posible:
   
-- Puede usar una dirección IP en el adaptador de red externa. No se recomienda esto porque, a continuación, va a necesitar diferenciar entre los tres servicios que utilizan diferentes puertos (lo que puede hacer en Skype para Business Server) pero hay algunos servidores de seguridad que se pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externa. No recomendamos esto porque entonces tendrá que diferenciar entre los servicios que usan puertos diferentes (que puede hacer en Skype empresarial Server) pero hay algunos firewalls que pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
     
 - Puede tener tres adaptadores de red externa en lugar de uno y asignar una de las IP del servicio a cada uno. ¿Por qué? Se separarían los servicios y si algo va mal, facilitaría solucionar los problemas y dejar que otros servicios continuasen trabajando potencialmente mientras resuelve un problema.
     
 |**Ubicación**|**Tipo**|**Puerto**|**Registro FQDN o DNS**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**pública:** 131.107.155.10 <br/> **privada:** 10.45.16.10 <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Uno para cada dominio SIP con Skype que necesitará para los usuarios empresariales.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**pública:** 131.107.155.20 <br/> **privada:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencia Web.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |av.contoso.com  <br/> |**pública:** 131.107.155.30 <br/> **privada:** 10.45.16.30 <br/> |Una interfaz externa para pasar de una / servicio perimetral A/v.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesario para Skype para los clientes de Business Server, Lync Server 2013 y Lync Server 2010 trabajar externamente. Uno para cada dominio con Skype que necesitará para los usuarios empresariales.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. Uno para cada dominio con Skype que necesitará para los usuarios empresariales.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**público:** 131.107.155.10 <br/> **privado:** 10.45.16.10 <br/> |Una interfaz externa para tu servicio perimetral de acceso. Necesitará uno para cada dominio SIP con usuarios de Skype empresarial.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**público:** 131.107.155.20 <br/> **privado:** 10.45.16.20 <br/> |Una interfaz externa para el servicio perimetral de conferencias web.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |av.contoso.com  <br/> |**público:** 131.107.155.30 <br/> **privado:** 10.45.16.30 <br/> |Una interfaz externa para tu servicio perimetral A/V.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para tu servicio perimetral de acceso. Este registro SRV es necesario para que los clientes de Skype empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen de forma externa. Necesitará uno para cada dominio con usuarios de Skype empresarial.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para tu servicio perimetral de acceso. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. Necesitará uno para cada dominio con usuarios de Skype empresarial.  <br/> |
 |DNS interno  <br/> |Un registro  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10  <br/> |La interfaz interna para el servidor perimetral consolidado.  <br/> |
    
-### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para DNS escalada y escenarios de servidor perimetral de hardware
+### <a name="dns-records-for-scaled-dns-and-hardware-edge-server-scenarios"></a>Registros DNS para escenarios de servidor perimetral de hardware y DNS a escala
 
-Se trata de los registros DNS que se va a necesitar para un servidor perimetral mediante ambos pública única IP o IP privada con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
+Estos serán los registros DNS que necesitará para un servidor perimetral único que use IPS público o IP privado con NAT. Dado que estos son datos de ejemplo, le daremos IP de muestra para que pueda resolver sus propias entradas de forma más fácil:
   
 - Adaptador de red interna:
     
@@ -197,7 +197,7 @@ Se trata de los registros DNS que se va a necesitar para un servidor perimetral 
   - Nodo 2: 172.25.33.11 (no hay ninguna puerta de enlace predeterminada asignada)
     
     > [!NOTE]
-    > Asegúrese de que existe una ruta desde la red que contiene la interfaz perimetral interna para todas las redes que contienen servidores que ejecutan Skype para los clientes de Business Server o Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 
+    > Asegúrese de que haya una ruta desde la red que contenga la interfaz interna perimetral a cualquier red que contenga servidores que ejecuten Skype empresarial Server o clientes de Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0). 
   
 - Adaptador de red externa:
     
@@ -205,142 +205,142 @@ Se trata de los registros DNS que se va a necesitar para un servidor perimetral 
     
      - IP públicas:
     
-        - Servidor perimetral de acceso: 131.107.155.10 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, ej: 131.107.155.1)
+        - Perimetral de acceso: 131.107.155.10 (es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, por ejemplo: 131.107.155.1)
     
-        - Servidor perimetral de conferencia Web: 131.107.155.20 (secundario)
+        - Borde de conferencias web: 131.107.155.20 (secundaria)
     
-        - A / perimetral A/v: 131.107.155.30 (secundario)
+        - Borde A/V: 131.107.155.30 (secundaria)
     
-          Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+          Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
     
     - IP privadas:
     
-         - Servidor perimetral de acceso: 10.45.16.10 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador, ej: 10.45.16.1)
+         - Perimetral de acceso: 10.45.16.10 (es el principal, con la puerta de enlace predeterminada establecida para el enrutador; por ejemplo: 10.45.16.1)
     
-         - Servidor perimetral de conferencia Web: 10.45.16.20 (secundario)
+         - Borde de conferencias web: 10.45.16.20 (secundaria)
     
-         - A / perimetral A/v: 10.45.16.30 (secundario)
+         - Borde A/V: 10.45.16.30 (secundaria)
     
-      Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
     
   - Nodo 2
     
     - IP públicas:
     
-      - Servidor perimetral de acceso: 131.107.155.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, ej: 131.107.155.1)
+      - Perimetral de acceso: 131.107.155.11 (es el principal, con la puerta de enlace predeterminada establecida en el enrutador público, por ejemplo: 131.107.155.1)
     
-      - Servidor perimetral de conferencia Web: 131.107.155.21 (secundario)
+      - Borde de conferencias web: 131.107.155.21 (secundaria)
     
-      - A / perimetral A/v: 131.107.155.31 (secundario)
+      - Borde A/V: 131.107.155.31 (secundaria)
     
-      Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
     
   - IP privadas:
     
-    - Servidor perimetral de acceso: 10.45.16.11 (Esto es el principal, con la puerta de enlace predeterminada establecida en el enrutador, ej: 10.45.16.1)
+    - Perimetral de acceso: 10.45.16.11 (es el principal, con la puerta de enlace predeterminada establecida para el enrutador; por ejemplo: 10.45.16.1)
     
-    - Servidor perimetral de conferencia Web: 10.45.16.21 (secundario)
+    - Borde de conferencias web: 10.45.16.21 (secundaria)
     
-    - A / perimetral A/v: 10.45.16.31 (secundario)
+    - Borde A/V: 10.45.16.31 (secundaria)
     
-      Conferencia Web y direcciones IP públicas de servidor perimetral A/v son las direcciones IP adicionales (secundarias) en la sección Opciones avanzada de las propiedades del protocolo de Internet versión 4 (TCP/IPv4) y protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área Local en Windows Server.
+      Las direcciones IP públicas de las conferencias web y A/V son direcciones IP adicionales (secundarias) en la sección avanzadas de las propiedades del Protocolo de Internet versión 4 (TCP/IPv4) y el protocolo de Internet versión 6 (TCP/IPv6) de las propiedades de conexión de área local en Servidor de Windows.
     
 Hay otra configuración posible:
   
-- Puede usar una dirección IP en el adaptador de red externa. No se recomienda esto porque, a continuación, va a necesitar diferenciar entre los tres servicios que utilizan diferentes puertos (lo que puede hacer en Skype para Business Server) pero hay algunos servidores de seguridad que se pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
+- Puede usar una dirección IP en el adaptador de red externa. No recomendamos esto porque entonces tendrá que diferenciar entre los servicios que usan puertos diferentes (que puede hacer en Skype empresarial Server) pero hay algunos firewalls que pueden bloquear los puertos alternativos. Vea la sección de [Port and firewall planning](edge-environmental-requirements.md#PortFirewallPlan) para más información sobre esto.
     
 - Puede tener tres adaptadores de red externa en lugar de uno y asignar una de las IP del servicio a cada uno. ¿Por qué? Se separarían los servicios y si algo va mal, facilitaría solucionar los problemas y dejar que otros servicios continuasen trabajando potencialmente mientras resuelve un problema.
     
 |**Ubicación**|**Tipo**|**Puerto**|**Registro FQDN o DNS**|**Dirección IP o FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**público:** 131.107.155.10 y 131.107.155.11 <br/> **privadas:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Uno para cada dominio SIP con Skype que necesitará para los usuarios empresariales.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**público:** 131.107.155.20 y 131.107.155.21 <br/> **privadas:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencia Web.  <br/> |
-|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |av.contoso.com  <br/> |**público:** 131.107.155.30 y 131.107.155.31 <br/> **privadas:** 10.45.16.30 y 10.45.16.31 <br/> |Una interfaz externa para pasar de una / servicio perimetral A/v.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesario para Skype para los clientes de Business Server, Lync Server 2013 y Lync Server 2010 trabajar externamente. Necesitará una para cada dominio con Skype para la empresa.  <br/> |
-|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para el servicio de servidor perimetral de acceso. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. Necesitará una para cada dominio con Skype para la empresa.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |sip.contoso.com  <br/> |**público:** 131.107.155.10 y 131.107.155.11 <br/> **privado:** 10.45.16.10 y 10.45.16.11 <br/> |Una interfaz externa para tu servicio perimetral de acceso. Necesitará uno para cada dominio SIP con usuarios de Skype empresarial.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |webcon.contoso.com  <br/> |**público:** 131.107.155.20 y 131.107.155.21 <br/> **privado:** 10.45.16.20 y 10.45.16.21 <br/> |Una interfaz externa para el servicio perimetral de conferencias web.  <br/> |
+|DNS externo  <br/> |Un registro  <br/> |NA  <br/> |av.contoso.com  <br/> |**público:** 131.107.155.30 y 131.107.155.31 <br/> **privado:** 10.45.16.30 y 10.45.16.31 <br/> |Una interfaz externa para tu servicio perimetral A/V.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |443  <br/> |_sip._tls.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para tu servicio perimetral de acceso. Este registro SRV es necesario para que los clientes de Skype empresarial Server, Lync Server 2013 y Lync Server 2010 funcionen de forma externa. Necesitará uno para cada dominio con Skype empresarial.  <br/> |
+|DNS externo  <br/> |Registro SRV  <br/> |5061  <br/> |_sipfederationtls._tcp.contoso.com  <br/> |sip.contoso.com  <br/> |Una interfaz externa para tu servicio perimetral de acceso. Este registro SRV es necesario para la detección DNS automática de asociados federados denominada Dominios SIP permitidos. Necesitará uno para cada dominio con Skype empresarial.  <br/> |
 |DNS interno  <br/> |Un registro  <br/> |NA  <br/> |sfvedge.contoso.net  <br/> |172.25.33.10 y 172.25.33.11  <br/> |La interfaz interna para el servidor perimetral consolidado.  <br/> |
    
 ### <a name="dns-record-for-federation-all-scenarios"></a>Registro DNS para la federación (todos los escenarios)
 
-|**Ubicación**|**Tipo**|**Puerto**|**FQDN**|**Registro de host de FQDN**|**Notas**|
+|**Ubicación**|**Tipo**|**Puerto**|**NOMBRES**|**Registro de host de FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |La interfaz externa de servidor perimetral de acceso SIP requerida para la detección automática de DNS. Usada por otros posibles asociados de federación. También se conoce como "Permitir dominios SIP". Uno de los siguientes para cada dominio SIP con Skype que necesitará para los usuarios empresariales.  <br/><br/> **Nota:** Necesitará este registro SRV para movilidad y compensación de la notificación de inserción. <br/> |
+|DNS externo  <br/> |SRV  <br/> |5061  <br/> |_sipfederationtls_tcp.contoso.com  <br/> |sip.contoso.com  <br/> |La interfaz externa perimetral de acceso SIP necesaria para la detección automática de DNS. Usada por otros posibles asociados de federación. También se conoce como "Permitir dominios SIP". Necesitará uno de estos para cada dominio SIP con usuarios de Skype empresarial.  <br/><br/> **Nota:** Necesitará este registro SRV para la movilidad y el centro de enrutamiento de notificaciones de inserción. <br/> |
    
 ### <a name="dns-records-for-extensible-messaging-and-presence-protocol"></a>Registros DNS para el protocolo extensible de mensajería y presencia
 
-|**Ubicación**|**Tipo**|**Puerto**|**FQDN**|**Dirección IP o registro de host FQDN**|**Notas**|
+|**Ubicación**|**Tipo**|**Puerto**|**NOMBRES**|**Dirección IP o registro de host FQDN**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|DNS externo  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |La interfaz de proxy XMPP en el servicio de servidor perimetral de acceso o el grupo de servidores perimetrales. Debe repetir este según sea necesario para todos los dominios SIP internos con Skype para los usuarios de Business Server habilitado, que se permite en contacto con los contactos XMPP a través de:  <br/> • una directiva global  <br/> • una directiva de sitio donde el usuario del habilitado  <br/> • una directiva de usuario que se aplican a la Skype para Business Server usuario habilitado  <br/> Una directiva XMPP permitida también se tiene que configurar en la directiva de usuarios federados XMPP.  <br/> |
-|DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Dirección IP del servicio de servidor perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio Proxy XMPP  <br/> |Esto señala al servicio de servidor perimetral de acceso en el servidor perimetral o grupo de servidores perimetrales que hospeda el servicio Proxy XMPP. Por lo general, el registro SRV que crea apuntará a este registro de host (A o AAAA).  <br/> |
+|DNS externo  <br/> |SRV  <br/> |5269  <br/> |_xmpp-server._tcp.contoso.com  <br/> |xmpp.contoso.com  <br/> |La interfaz de proxy XMPP en el servicio perimetral de acceso o en el grupo perimetral. Debe repetir esta opción según sea necesario para todos los dominios SIP internos que tengan usuarios habilitados para Skype empresarial Server, en los que se permite el acceso a través de contactos XMPP:  <br/> • una política global  <br/> • una directiva de sitio en la que el usuario ha habilitado  <br/> • se aplica una directiva de usuario al usuario habilitado para Skype empresarial Server.  <br/> Una directiva XMPP permitida también se tiene que configurar en la directiva de usuarios federados XMPP.  <br/> |
+|DNS externo  <br/> |SRV  <br/> |A  <br/> |xmpp.contoso.com  <br/> |Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo perimetral que aloja el servicio de proxy XMPP  <br/> |Esto señala el servicio perimetral de acceso en el servidor perimetral o el grupo perimetral que hospeda el servicio de proxy XMPP. Por lo general, el registro SRV que crea apuntará a este registro de host (A o AAAA).  <br/> |
    
 > [!NOTE]
-> Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
+> Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
 ## <a name="certificate-planning"></a>Planificar certificado
 <a name="CertPlan"> </a>
 
-Skype para Business Server utiliza certificados para las comunicaciones seguras, cifradas entre los servidores y del servidor al cliente. Como cabría esperar, los certificados tendrán que tener registros DNS para sus servidores para que coincidan con cualquier nombre de sujeto (SN) y nombre alternativo de sujeto (SAN) en los certificados. Esto le llevará trabajo ahora, en la fase de planificación, para garantizar que tiene los FQDN correctos registrados en DNS para las entradas de SN y de SAN para los certificados.
+Skype empresarial Server usa certificados para comunicaciones cifradas y seguras entre servidores y desde el servidor al cliente. Como cabría esperar, los certificados tendrán que tener registros DNS para sus servidores para que coincidan con cualquier nombre de sujeto (SN) y nombre alternativo de sujeto (SAN) en los certificados. Esto le llevará trabajo ahora, en la fase de planificación, para garantizar que tiene los FQDN correctos registrados en DNS para las entradas de SN y de SAN para los certificados.
   
 Hablaremos de las necesidades de los certificados internos y externos por separado y después veremos una tabla que proporciona los requisitos para ambos.
   
 ### <a name="external-certificates"></a>Certificados externos
 
-Como mínimo, el certificado asignado a las interfaces de servidor perimetral externas deberá ser proporcionado por una entidad de certificación (CA) pública. No podemos recomendamos una entidad de certificación específico para usted, pero hemos desarrollado una lista de entidades de certificación de [los socios de certificados de comunicaciones unificadas](https://support.microsoft.com/en-us/kb/929395) que puede Eche un vistazo a ver si la entidad de certificación preferido aparece.
+Como mínimo, el certificado asignado a las interfaces del servidor perimetral externo debe proporcionarlo una entidad emisora de certificados (CA) pública. No se puede recomendar una entidad emisora de certificados específica, pero tenemos una lista de los [socios de certificados de comunicaciones unificadas](https://support.microsoft.com/en-us/kb/929395) que puede consultar para ver si su CA preferida aparece en la lista.
   
 ¿Cuándo tendrá que enviar una solicitud a una entidad de certificación para este certificado público y cómo lo tiene que hacer? Hay un par de formas de llevar esto a cabo:
   
-- Puede ir a través de la instalación de Skype para Business Server y, a continuación, en la implementación de servidor perimetral. El Skype para el Asistente para la implementación de Business Server tendrá un paso para generar una solicitud de certificado, a continuación, puede enviar a la entidad de certificación seleccionada.
+- Puede pasar por la instalación de Skype empresarial Server y, a continuación, la implementación del servidor perimetral. El Asistente para la implementación de Skype empresarial Server tendrá un paso para generar una solicitud de certificado, que podrá enviar a la entidad emisora elegida.
     
-- También puede usar comandos de Windows PowerShell para generar esta solicitud si está más en línea con su estrategia de implementación o necesidades de negocio.
+- También puede usar los comandos de Windows PowerShell para generar esta solicitud, si está más alineada con las necesidades de su empresa o su estrategia de implementación.
     
-- Por último, la entidad de certificación puede tener su propio proceso de envío, que también puede implicar Windows PowerShell u otro método. En ese caso, tendrá que basarse en su documentación, además de en la información proporcionada aquí para su consulta.
+- Por último, la entidad emisora de certificados puede tener su propio proceso de envío, que también puede incluir Windows PowerShell u otro método. En ese caso, tendrá que basarse en su documentación, además de en la información proporcionada aquí para su consulta.
     
-Una vez que ha llegado el certificado, necesitará a asignar a estos servicios en Skype para Business Server:
+Una vez que haya obtenido el certificado, tendrá que seguir adelante y asignarlo a estos servicios en Skype empresarial Server:
   
-- Interfaz de servicio de acceso perimetral
+- Interfaz de servicio perimetral de acceso
     
-- Interfaz de servicio de servidor perimetral de conferencia Web
+- Interfaz de servicio perimetral de conferencia Web
     
-- Servicio de autenticación de audio y vídeo (no se debe confundir esto con el servicio perimetral A/v, como los que no utilizar un certificado para cifrar las secuencias de audio y vídeos)
+- Servicio de autenticación de audio y vídeo (no confunda esta acción con el servicio de borde a/V, ya que no usa un certificado para cifrar secuencias de audio y vídeo)
     
 > [!IMPORTANT]
-> Todos los servidores perimetrales (si éstos pertenecen al mismo grupo de servidores perimetrales) necesita tener el mismo certificado exacto con la misma clave privada para el servicio de autenticación de retransmisión de medios. 
+> Todos los servidores perimetrales (si pertenecen al mismo grupo de servidores perimetrales) necesitan tener exactamente el mismo certificado con la misma clave privada para el servicio de autenticación de retransmisión multimedia. 
   
 ### <a name="internal-certificates"></a>Certificados internos
 
-Para la interfaz interna del servidor perimetral, puede usar un certificado público de una CA pública, o un certificado emitido por la entidad de certificación interna de la organización. Lo que hay que recordar sobre el certificado interno es que usa una entrada de SN y no entradas de SAN, de modo que no tiene que preocuparse por SAN en el certificado interno en absoluto.
+Para la interfaz de servidor perimetral interno, puede usar un certificado público de una entidad de certificación pública o un certificado emitido por la entidad de certificación interna de su organización. Lo que hay que recordar sobre el certificado interno es que usa una entrada de SN y no entradas de SAN, de modo que no tiene que preocuparse por SAN en el certificado interno en absoluto.
   
 ### <a name="required-certificates-table"></a>Tabla de certificados necesarios
 
 Aquí tenemos una tabla para ayudarle con las solicitudes. Las entradas de FQDN son solo para dominios de ejemplo. Tendrá que realizar solicitudes en función de sus propios dominios privados y públicos, pero esta es una guía sobre lo que hemos usado:
   
-- Contoso<span></span>.com: FQDN pública
+- Contoso<span></span>. com: FQDN público
     
-- Fabrikam<span></span>.com: segunda FQDN pública (agregado como una demostración de lo que se debe solicitar si tiene varios dominios SIP)
+- Fabrikam<span></span>. com: segundo FQDN público (agregado como una demostración de lo que debe solicitar si tiene varios dominios SIP)
     
 - Contoso<span></span>.net: dominio interno
     
 #### <a name="edge-certificate-table"></a>Tabla de certificado perimetral
 
-Independientemente de si está realizando un solo servidor perimetral o un grupo de servidores perimetrales, esto es lo que necesita para el certificado:
+Independientemente de si está haciendo un solo servidor perimetral o un grupo Edge, esto es lo que necesita para su certificado:
   
 |**Componente**|**Nombre de sujeto**|**Nombres alternativos del sujeto (SAN)/orden**|**Notas**|
 |:-----|:-----|:-----|:-----|
-|Servidor perimetral externo  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Este es el certificado que tiene que solicitar a una entidad de certificación pública. Tendrá que estar asignado a las interfaces perimetrales externas para lo siguiente:<br/> • Servidor perimetral de acceso  <br/> • Servidor perimetral de conferencia web  <br/> • Autenticación de audio y vídeo  <br/> <br/>La buena noticia es que SAN se agrega automáticamente a la solicitud de certificado y, por lo tanto, el certificado después de enviar la solicitud, según lo que haya definido para esta implementación en el generador de topología. Solo tiene que agregar las entradas de SAN para cualquier dominio SIP adicional u otras entradas que necesite admitir. ¿Por qué sip.contoso.com aparece duplicado en esta instancia? Esto se produce automáticamente y es necesario para que todo funcione correctamente.  <br/><br/> **Nota:** También se puede utilizar este certificado para la conectividad de mensajería instantánea pública. No tiene que hacer nada diferente con él, pero en versiones anteriores de esta documentación, se ha incluido como una tabla independiente, y ahora no lo es. <br/> |
+|Servidor perimetral externo  <br/> |sip.contoso.com  <br/> |sip.contoso.com  <br/> webcon.contoso.com  <br/> sip.fabrikam.com  <br/> |Este es el certificado que tiene que solicitar a una entidad de certificación pública. Tendrá que estar asignado a las interfaces perimetrales externas para lo siguiente:<br/> • Edge de acceso  <br/> • Borde de conferencias web  <br/> • Autenticación de audio y vídeo  <br/> <br/>La buena noticia es que las redes San se agregan automáticamente a su solicitud de certificado y, por lo tanto, su certificado después de enviar la solicitud, en función de lo que haya definido para esta implementación en el generador de topología. Solo tiene que agregar las entradas de SAN para cualquier dominio SIP adicional u otras entradas que necesite admitir. ¿Por qué sip.contoso.com aparece duplicado en esta instancia? Esto se produce automáticamente y es necesario para que todo funcione correctamente.  <br/><br/> **Nota:** Este certificado también puede usarse para la conectividad de mensajería instantánea pública. No tiene que hacer nada diferente con él, pero en versiones anteriores de esta documentación, se ha incluido como una tabla independiente, y ahora no lo es. <br/> |
 |Servidor perimetral interno  <br/> |sfbedge.contoso.com  <br/> |NA  <br/> |Puede obtener este certificado de una entidad de certificación pública o de una entidad de certificación interna. Tendrá que contener el EKU del servidor (uso mejorado de clave) y lo asignará a la interfaz interna del servidor perimetral.  <br/> |
    
 Si necesita un certificado para el protocolo extensible de mensajería y presencia (XMPP), tendrá un aspecto idéntico a las entradas del servidor perimetral externo de la tabla anterior, pero tendrá las siguientes dos entradas SAN adicionales:
   
-- XMPP. <span> </span>contoso<span></span>.com
+- XMPP. <span> </span>contoso<span></span>. com
     
-- \*.contoso<span></span>.com
+- \*. contoso<span></span>. com
     
-Recuerde que actualmente XMPP sólo se admite en Skype para Business Server para Google Talk, si desea o necesita usar para nada más, debe confirmar que la funcionalidad con el proveedor de terceros implicados.
+Recuerde que actualmente XMPP sólo es compatible con Skype empresarial Server para Google Talk, si lo desea o necesita usarlo para cualquier otra cosa, necesita confirmar la funcionalidad con el proveedor de terceros implicado.
   
 ## <a name="port-and-firewall-planning"></a>Planificación de puerto y de firewall
 <a name="PortFirewallPlan"> </a>
 
-Introducción a la planeación adecuado para los puertos y los firewalls de Skype para servidor perimetral de Business Server implementaciones pueden ahorrar días o semanas de solución de problemas y sobrecargar. Como resultado, enumeraremos un par de tablas que indicarán nuestro uso de protocolo y qué puertos necesita tener abiertos, entrantes y salientes, tanto para los escenarios de NAT y de IP pública. También le mostraremos tablas separadas para escenarios con equilibrio de carga de hardware (HLB) y alguna ayuda a mayores de esto. Para obtener más leerlo desde allí, también tenemos algunos [escenarios de servidor perimetral de Skype para Business Server](scenarios.md) puede desproteger para sus preocupaciones de implementación concreto.
+Obtener su plan adecuado para los puertos y los firewalls para las implementaciones del servidor perimetral de Skype empresarial Server puede ahorrarle días o semanas de solución de problemas y estrés. Como resultado, enumeraremos un par de tablas que indicarán nuestro uso de protocolo y qué puertos necesita tener abiertos, entrantes y salientes, tanto para los escenarios de NAT y de IP pública. También le mostraremos tablas separadas para escenarios con equilibrio de carga de hardware (HLB) y alguna ayuda a mayores de esto. Para obtener más información, también tenemos [escenarios de servidor EDGE en Skype empresarial Server](scenarios.md) que puede consultar para conocer las preocupaciones específicas de su implementación.
   
 ### <a name="general-protocol-usage"></a>Uso general de protocolo
 
@@ -349,44 +349,44 @@ Antes de ver las tablas de resumen para los firewall internos y externos, veamos
 |**Transporte de audio y vídeo**|**Uso**|
 |:-----|:-----|
 |UDP  <br/> |El protocolo de capa de transporte preferido para audio y vídeo.  <br/> |
-|TCP  <br/> |El protocolo de capa de transporte de reserva para audio y vídeo.  <br/> El protocolo de capa de transporte necesarios para la aplicación de uso compartido a Skype para Business Server, Lync Server 2013 y Lync Server 2010.  <br/> El protocolo de capa de transporte necesarios para la transferencia de archivo a Skype para Business Server, Lync Server 2013 y Lync Server 2010.  <br/> |
+|TCP  <br/> |El protocolo de capa de transporte de reserva para audio y vídeo.  <br/> El protocolo de capa de transporte requerido para compartir aplicaciones con Skype empresarial Server, Lync Server 2013 y Lync Server 2010.  <br/> El protocolo de nivel de transporte requerido para la transferencia de archivos a Skype empresarial Server, Lync Server 2013 y Lync Server 2010.  <br/> |
    
 ### <a name="external-port-firewall-summary-table"></a>Tabla de resumen de firewall del puerto externo
 
-La dirección IP de origen y la dirección IP de destino contendrán información para usuarios que estén usando direcciones IP privadas con NAT, así como las personas que usen direcciones IP públicas. Esto explicará todas las permutaciones en nuestra sección de [escenarios de servidor perimetral de Skype para Business Server](scenarios.md) .
+La dirección IP de origen y la dirección IP de destino contendrán información para usuarios que estén usando direcciones IP privadas con NAT, así como las personas que usen direcciones IP públicas. Esto cubrirá todas las permutaciones en los [escenarios de los servidores perimetrales de la sección de Skype empresarial Server](scenarios.md) .
   
 |**Rol o protocolo**|**TCP o UDP**|**Intervalo de puertos o puerto de destino**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> No se admite en Skype para Business Server 2019 |TCP  <br/> |5269  <br/> |Cualquiera  <br/> |Servicio Proxy XMPP (comparte una dirección IP con el servicio de servidor perimetral de acceso  <br/> |El servicio Proxy XMPP acepta tráfico desde contactos XMPP en federaciones XMPP definidas.  <br/> |
-|Acceso/HTTP  <br/> |TCP  <br/> |80  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Revocación de certificados y comprobación y recuperación de CRL.  <br/> |
-|Acceso/DNS  <br/> |TCP  <br/> |53  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Consulta DNS sobre TCP.  <br/> |
-|Acceso/DNS  <br/> |UDP  <br/> |53  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Consulta DNS sobre UDP.  <br/> |
-|Acceso/SIP (TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Tráfico SIP de cliente a servidor para el acceso de usuarios externos.  <br/> |
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
-|Conferencia web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de conferencia Web <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de conferencia Web de servidor perimetral <br/> |Medios de conferencias Web.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Skype para Business Server usada para determinar la versión del servidor perimetral se está comunicando con.  <br/> • Utilizado para el tráfico de medios entre los servidores perimetrales.  <br/> • Se necesita para federación con Lync Server 2010.  <br/> • Es necesario si se implementan varios grupos de servidores perimetrales dentro de la organización.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Cualquiera  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
+|XMPP  <br/> No es compatible con Skype empresarial Server 2019 |TCP  <br/> |5269  <br/> |Cualquiera  <br/> |Servicio de proxy XMPP (comparte una dirección IP con el servicio perimetral de acceso  <br/> |El servicio de proxy XMPP acepta el tráfico de los contactos XMPP en las federaciones XMPP definidas.  <br/> |
+|Acceso/HTTP  <br/> |TCP  <br/> |80  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Cualquiera  <br/> |Revocación de certificados y comprobación y recuperación de CRL.  <br/> |
+|Acceso/DNS  <br/> |TCP  <br/> |53  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Cualquiera  <br/> |Consulta DNS sobre TCP.  <br/> |
+|Acceso/DNS  <br/> |UDP  <br/> |53  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Cualquiera  <br/> |Consulta DNS sobre UDP.  <br/> |
+|Acceso/SIP (TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Tráfico SIP de cliente a servidor para el acceso de usuarios externos.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Cualquiera  <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
+|Conferencia web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servicio perimetral de conferencias web del servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de conferencias web del servidor perimetral <br/> |Medios de conferencias web.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Usado por Skype empresarial Server para determinar la versión del servidor perimetral con el que se comunica.  <br/> • Se usa para tráfico de medios entre servidores perimetrales.  <br/> • Necesario para la Federación con Lync Server 2010.  <br/> • Necesario si se implementan varios grupos perimetrales dentro de su organización.  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Cualquiera  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
    
 ### <a name="internal-port-firewall-summary-table"></a>Tabla de resumen de firewall del puerto interno
 
 |**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor de Front-End  <br/> • Grupo de Front-End  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecutan en el grupo de servidores Front-End o de servidor Front-End.  <br/> **Nota:** Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .|
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor de Front-End  <br/> • Grupo de Front-End  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico SIP saliente desde el Director, el grupo de servidores Director, servidor Front-End o Front-End del grupo de servidores a la interfaz interna del servidor perimetral.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interfaz interna del servidor perimetral  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor de Front-End  <br/> • Grupo de Front-End  <br/> |Tráfico SIP entrante al grupo de servidores Director, grupo de servidores de Director, servidor Front-End o Front-End de la interfaz interna del servidor perimetral.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor de Front-End  <br/> • Cada servidor Front-End  <br/>  en el grupo de servidores Front-End <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico de conferencia Web su servidor Front-End o en cada servidor Front-End (si tiene un grupo de servidores Front-End) a la interfaz interna del servidor perimetral.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Cualquier:  <br/> • Servidor de Front-End  <br/> • Grupo de Front-End  <br/> • Cualquier aplicación de sucursal con funciones de supervivencia con este servidor perimetral  <br/> • Cualquier uso de este servidor perimetral de un servidor de sucursal con funciones de supervivencia  <br/> |Interfaz interna del servidor perimetral  <br/> |Autenticación de A y los usuarios de V desde el grupo de servidores Front-End o de servidor Front-End, o su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, con el servidor perimetral.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Ruta preferida para una transferencia de multimedia entre los usuarios internos y externos y su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Interfaz interna del servidor perimetral  <br/> |Ruta de reserva para transferencia de multimedia entre los usuarios internos y externos y su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, si no funciona la comunicación UDP. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquier:  <br/> • Servidor Front-End que contiene el almacén de Administración Central  <br/> Grupo de servidores Front-End • que contiene el almacén de Administración Central  <br/> |Interfaz interna del servidor perimetral  <br/> |Replicación de los cambios realizados desde el almacén de Administración Central en el servidor perimetral.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .|
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico SIP saliente de su director, grupo de directores, servidor front-end o grupo front-end a la interfaz interna del servidor perimetral.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5061  <br/> |Interfaz interna de Edge Server  <br/> |Cualquier:  <br/> • Director  <br/> • Grupo de directores  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> |Tráfico SIP entrante a su director, grupo de directores, servidor front-end o grupo front-end de la interfaz interna de su servidor perimetral.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end  <br/>  en el grupo de servidores front-end <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de conferencias web de su servidor front-end o de cada servidor front-end (si tiene un grupo de servidores front-end) a la interfaz interna de su servidor perimetral.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Pool front-end  <br/> • Cualquier otro dispositivo de sucursal que use este servidor perimetral  <br/> • Cualquier servidor de sucursal con la que se use este servidor perimetral  <br/> |Interfaz interna de Edge Server  <br/> |Autenticación de usuarios de A/V de su servidor front-end o grupo de servidores front-end, o de su equipo de sucursal que sea reviviente o servidor de sucursal con la supervivencia, usando su servidor perimetral.  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Ruta de acceso preferida para la transferencia de medios A/V entre los usuarios internos y externos y el equipo de sucursal que tiene la supervivencia o el servidor de sucursal con la supervivencia.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Interfaz interna de Edge Server  <br/> |Ruta de reserva para la transferencia de medios A/V entre los usuarios internos y externos y su equipo de sucursal con la supervivencia o servidor de sucursal superviviente, si la comunicación UDP no funciona. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquier:  <br/> • Servidor front-end que contiene el almacén de administración central  <br/> • Grupo front-end que contiene el almacén de administración central  <br/> |Interfaz interna de Edge Server  <br/> |La replicación de los cambios desde la tienda de administración central en el servidor perimetral.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
    
 ### <a name="hardware-load-balancers-for-edge-port-tables"></a>Tablas de puerto de servidor perimetral para equilibradores de carga de hardware
 
@@ -394,60 +394,60 @@ Les estamos dando a los equilibradores de carga de hardware (HLB) y a los puerto
   
 #### <a name="external-port-firewall-summary-table"></a>Tabla de resumen de firewall del puerto externo
 
-La dirección IP de origen y la dirección IP de destino contendrán información para usuarios que estén usando direcciones IP privadas con NAT, así como las personas que usen direcciones IP públicas. Esto explicará todas las permutaciones en nuestra sección de [escenarios de servidor perimetral de Skype para Business Server](scenarios.md) .
+La dirección IP de origen y la dirección IP de destino contendrán información para usuarios que estén usando direcciones IP privadas con NAT, así como las personas que usen direcciones IP públicas. Esto cubrirá todas las permutaciones en los [escenarios de los servidores perimetrales de la sección de Skype empresarial Server](scenarios.md) .
   
 |**Rol o protocolo**|**TCP o UDP**|**Intervalo de puertos o puerto de destino**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Acceso/HTTP  <br/> |TCP  <br/> |80  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Revocación de certificados y comprobación y recuperación de CRL.  <br/> |
-|Acceso/DNS  <br/> |TCP  <br/> |53  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre TCP.  <br/> |
-|Acceso/DNS  <br/> |UDP  <br/> |53  <br/> |Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre UDP.  <br/> |
-|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Un servidor perimetral / dirección IP del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
-|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Skype para Business Server usada para determinar la versión del servidor perimetral se está comunicando con.  <br/> • Utilizado para el tráfico de medios entre los servidores perimetrales.  <br/> • Se necesita para federación.  <br/> • Es necesario si se implementan varios grupos de servidores perimetrales dentro de la organización.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Un servidor perimetral / dirección IP pública del servicio perimetral A/v  <br/> |Cualquiera  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
+|Acceso/HTTP  <br/> |TCP  <br/> |80  <br/> |Dirección IP pública del servicio perimetral de acceso al servidor perimetral  <br/> |Cualquiera  <br/> |Revocación de certificados y comprobación y recuperación de CRL.  <br/> |
+|Acceso/DNS  <br/> |TCP  <br/> |53  <br/> |Dirección IP pública del servicio perimetral de acceso al servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre TCP.  <br/> |
+|Acceso/DNS  <br/> |UDP  <br/> |53  <br/> |Dirección IP pública del servicio perimetral de acceso al servidor perimetral  <br/> |Cualquiera  <br/> |Consulta DNS sobre UDP.  <br/> |
+|A/V/RTP  <br/> |TCP  <br/> |50000-59999  <br/> |Dirección IP del servicio Edge del servidor perimetral A/V  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/RTP  <br/> |UDP  <br/> |50000-59999  <br/> |Dirección IP pública del servicio perimetral A/V del servidor perimetral  <br/> |Cualquiera  <br/> |Se usa para retransmitir tráfico multimedia.  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Dirección IP pública del servicio perimetral A/V del servidor perimetral  <br/> |Cualquiera  <br/> |3478 saliente:  <br/> • Usado por Skype empresarial Server para determinar la versión del servidor perimetral con el que se comunica.  <br/> • Se usa para tráfico de medios entre servidores perimetrales.  <br/> • Necesario para la Federación.  <br/> • Necesario si se implementan varios grupos perimetrales dentro de su organización.  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Dirección IP pública del servicio perimetral A/V del servidor perimetral  <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Dirección IP pública del servicio perimetral A/V del servidor perimetral  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Dirección IP pública del servicio perimetral A/V del servidor perimetral  <br/> |Cualquiera  <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
    
 #### <a name="internal-port-firewall-summary-table"></a>Tabla de resumen de firewall del puerto interno
 
 |**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor de Front-End  <br/> Grupo de Front-End • dirección VIP que ejecuta el servicio de puerta de enlace XMPP  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico XMPP saliente desde el servicio de puerta de enlace XMPP que se ejecutan en el grupo de servidores Front-End o de servidor Front-End.  <br/><br/> **Nota:** Las puertas de enlace XMPP y los servidores proxy están disponibles en Skype para Business Server 2015, pero ya no se admiten en Skype para Business Server 2019. Para obtener más información, vea [la federación XMPP migrar](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . |
-|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquier:  <br/> • Servidor Front-End que contiene el almacén de Administración Central  <br/> Grupo de servidores Front-End • que contiene el almacén de Administración Central  <br/> |Interfaz interna del servidor perimetral  <br/> |Replicación de los cambios realizados desde el almacén de Administración Central en el servidor perimetral.  <br/> |
-|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor de Front-End  <br/> • Cada servidor Front-End en el grupo de servidores Front-End  <br/> |Interfaz interna del servidor perimetral  <br/> |Tráfico de conferencia Web su servidor Front-End o en cada servidor Front-End (si tiene un grupo de servidores Front-End) a la interfaz interna del servidor perimetral.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquier:  <br/> • Servidor de Front-End  <br/> • Cada servidor Front-End en el grupo de servidores Front-End  <br/> |Interfaz interna del servidor perimetral  <br/> |Ruta preferida para una transferencia de multimedia entre los usuarios internos y externos y su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquier:  <br/> • Servidor de Front-End  <br/> • Cada servidor Front-End en el grupo de servidores  <br/> |Interfaz interna del servidor perimetral  <br/> |Ruta de reserva para transferencia de multimedia entre los usuarios internos y externos y su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, si no funciona la comunicación UDP. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50001  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50002  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
-|MTLS  <br/> |TCP  <br/> |50003  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Controlador de servicio de registro centralizado con Skype para los cmdlets del Shell de administración de Business Server y el servicio de registro centralizado, línea de comandos de ClsController (ClsController.exe) o comandos del agente (ClsAgent.exe) y colección de registro.  <br/> |
+|XMPP/MTLS  <br/> |TCP  <br/> |23456  <br/> |Cualquiera de los siguientes que ejecutan el servicio de puerta de enlace XMPP:  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end que ejecuta el servicio de puerta de enlace XMPP  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de salida XMPP desde el servicio de puerta de enlace XMPP que se ejecuta en el servidor front-end o en el grupo front-end.  <br/><br/> **Nota:** Las puertas de enlace y los servidores proxy XMPP están disponibles en Skype empresarial Server 2015, pero ya no son compatibles con Skype empresarial Server 2019. Para obtener más información, consulte migrar la [Federación XMPP](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . |
+|HTTPS  <br/> |TCP  <br/> |4443  <br/> |Cualquier:  <br/> • Servidor front-end que contiene el almacén de administración central  <br/> • Grupo front-end que contiene el almacén de administración central  <br/> |Interfaz interna de Edge Server  <br/> |La replicación de los cambios desde la tienda de administración central en el servidor perimetral.  <br/> |
+|PSOM/MTLS  <br/> |TCP  <br/> |8057  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end en el grupo de servidores front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico de conferencias web de su servidor front-end o de cada servidor front-end (si tiene un grupo de servidores front-end) a la interfaz interna de su servidor perimetral.  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end en el grupo de servidores front-end  <br/> |Interfaz interna de Edge Server  <br/> |Ruta de acceso preferida para la transferencia de medios A/V entre los usuarios internos y externos y el equipo de sucursal que tiene la supervivencia o el servidor de sucursal con la supervivencia.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquier:  <br/> • Servidor front-end  <br/> • Cada servidor front-end de su grupo  <br/> |Interfaz interna de Edge Server  <br/> |Ruta de reserva para la transferencia de medios A/V entre los usuarios internos y externos y su equipo de sucursal con la supervivencia o servidor de sucursal superviviente, si la comunicación UDP no funciona. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50001  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50002  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
+|MTLS  <br/> |TCP  <br/> |50003  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Controlador de servicio de registro centralizado con el shell de administración de Skype empresarial Server y cmdlets de servicio de registro centralizados, la línea de comandos de ClsController (ClsController. exe) o los comandos del agente (ClsAgent. exe) y la colección de registros.  <br/> |
    
 #### <a name="external-interface-virtual-ips"></a>IP virtuales de la interfaz externa
 
 |**Rol o protocolo**|**TCP o UDP**|**Intervalo de puertos o puerto de destino**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|XMPP  <br/> No se admite en Skype para Business Server 2019 |TCP  <br/> |5269  <br/> |Cualquiera  <br/> |Servicio Proxy XMPP (comparte una dirección IP con el servicio de servidor perimetral de acceso)  <br/> |El servicio Proxy XMPP acepta tráfico desde contactos XMPP en federaciones XMPP definidas.  <br/> |
-|XMPP  <br/>No se admite en Skype para Business Server 2019 |TCP  <br/> |5269  <br/> |Servicio Proxy XMPP (comparte una dirección IP con el servicio de servidor perimetral de acceso)  <br/> |Cualquiera  <br/> |El servicio Proxy XMPP envía el tráfico desde contactos XMPP en federaciones XMPP definidas.  <br/> |
-|Acceso/SIP (TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Tráfico SIP de cliente a servidor para el acceso de usuarios externos.  <br/> |
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de acceso <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de acceso de servidor perimetral <br/> |Cualquiera  <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
-|Conferencia web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Servicio de servidor perimetral de conferencia Web <br/> **IP públicas:** Dirección IP pública de servicio de servidor perimetral de conferencia Web de servidor perimetral <br/> |Medios de conferencias Web.  <br/> |
-|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
-|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privadas que usan NAT:** Un servidor perimetral o servicio perimetral A/v <br/> **IP públicas:** Un servidor perimetral / dirección IP pública del servicio perimetral A/v <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
+|XMPP  <br/> No es compatible con el servidor de Skype empresarial 2019 |TCP  <br/> |5269  <br/> |Cualquiera  <br/> |Servicio de proxy XMPP (comparte una dirección IP con el servicio perimetral de acceso)  <br/> |El servicio de proxy XMPP acepta el tráfico de los contactos XMPP en las federaciones XMPP definidas.  <br/> |
+|XMPP  <br/>No es compatible con el servidor de Skype empresarial 2019 |TCP  <br/> |5269  <br/> |Servicio de proxy XMPP (comparte una dirección IP con el servicio perimetral de acceso)  <br/> |Cualquiera  <br/> |El servicio Proxy XMPP envía tráfico de contactos XMPP en federaciones de XMPP definidas.  <br/> |
+|Acceso/SIP (TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Tráfico SIP de cliente a servidor para el acceso de usuarios externos.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquiera  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |**IP privada usando NAT:** Servicio perimetral de acceso al servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de acceso al servidor perimetral <br/> |Cualquiera  <br/> |Para la conectividad de MI pública y federada con SIP.  <br/> |
+|Conferencia web/PSOM(TLS)  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servicio perimetral de conferencias web del servidor perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral de conferencias web del servidor perimetral <br/> |Medios de conferencias web.  <br/> |
+|A/V/STUN.MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Negociación STUN/TURN de candidatos sobre UDP en el puerto 3478.  <br/> |
+|A/V/STUN.MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |**IP privada usando NAT:** Servidor perimetral A/V servicio perimetral <br/> **IP pública:** Dirección IP pública del servicio perimetral A/V del servidor perimetral <br/> |Negociación STUN/TURN de candidatos sobre TCP en el puerto 443.  <br/> |
    
 #### <a name="internal-interface-virtual-ips"></a>IP virtuales de la interfaz interna
 
 Nuestra guía aquí va a ser algo diferente. En realidad, en una situación HLB, ahora le recomendamos que solo tenga enrutamiento a través de un VIP interno en las siguientes circunstancias:
   
-- Si está usando Exchange 2007 o Exchange 2010 Unified Messaging (UM).
+- Si está usando Exchange 2007 o la mensajería unificada de Exchange 2010 (UM).
     
 - Si tiene clientes heredados con el servidor perimetral.
     
-En la siguiente tabla ofrece instrucciones para dichos escenarios, pero en caso contrario, debería poder dependen de almacén de Administración Central (CMS) para enrutar el tráfico al servidor perimetral individuales es tener en cuenta (Esto requiere que se mantengan actualizados CMS en servidor perimetral información, por supuesto).
+En la tabla siguiente se proporcionan instrucciones para estas situaciones, pero, de lo contrario, debería poder depender del almacén de administración central (CMS) para enrutar el tráfico al servidor perimetral individual que tiene constancia (esto requiere que CMS esté actualizado en el servidor perimetral). información, por supuesto).
   
 |**Protocolo**|**TCP o UDP**|**Puerto**|**Dirección IP de origen**|**Dirección IP de destino**|**Notas**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquier:  <br/> • Director  <br/> • Dirección VIP de grupo de directores  <br/> • Servidor de Front-End  <br/> Grupo de Front-End • dirección VIP  <br/> |Interfaz interna del servidor perimetral  <br/> |El tráfico SIP saliente desde el Director, la dirección VIP, servidor Front-End o VIP de grupo de servidores Front-End del grupo de directores de direcciones a la interfaz interna del servidor perimetral.  <br/> |
-|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interfaz VIP interna del servidor perimetral  <br/> |Cualquier:  <br/> • Director  <br/> • Dirección VIP de grupo de directores  <br/> • Servidor de Front-End  <br/> Grupo de Front-End • dirección VIP  <br/> |El Director, el tráfico SIP entrante dirección VIP de grupo de servidores de Director, servidor Front-End o dirección VIP de grupo de servidores de Front-End de la interfaz interna del servidor perimetral.  <br/> |
-|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Cualquier:  <br/> • Dirección de IP de servidor de Front-End  <br/> • Dirección de IP de grupo de servidores Front-End  <br/> • Cualquier aplicación de sucursal con funciones de supervivencia con este servidor perimetral  <br/> • Cualquier uso de este servidor perimetral de un servidor de sucursal con funciones de supervivencia  <br/> |Interfaz interna del servidor perimetral  <br/> |Autenticación de A y los usuarios de V desde el grupo de servidores Front-End o de servidor Front-End, o su aplicación de sucursal con funciones de supervivencia o un servidor de sucursal con funciones de supervivencia, con el servidor perimetral.  <br/> |
-|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Interfaz interna del servidor perimetral  <br/> |Ruta preferida para una transferencia de medios de A/V entre usuarios internos y externos.  <br/> |
-|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Interfaz VIP interna del servidor perimetral  <br/> |Ruta de acceso de reserva para la transferencia de medios de A/V entre los usuarios internos y externos si la comunicación UDP no funciona. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Cualquier:  <br/> • Director  <br/> • Dirección VIP del grupo de directores  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end  <br/> |Interfaz interna de Edge Server  <br/> |Tráfico SIP saliente de su director, la dirección VIP del grupo de directores, el servidor front-end o la dirección VIP del grupo de servidores front-end a la interfaz interna del servidor perimetral.  <br/> |
+|Acceso/SIP (MTLS)  <br/> |TCP  <br/> |5061  <br/> |Interfaz VIP interna de Edge Server  <br/> |Cualquier:  <br/> • Director  <br/> • Dirección VIP del grupo de directores  <br/> • Servidor front-end  <br/> • Dirección VIP del grupo de servidores front-end  <br/> |Tráfico SIP entrante al Director, la dirección VIP del grupo de directores, el servidor front-end o la dirección VIP del grupo de servidores front-end de la interfaz interna del servidor perimetral.  <br/> |
+|SIP/MTLS  <br/> |TCP  <br/> |5062  <br/> |Cualquier:  <br/> • Dirección IP del servidor front-end  <br/> • Dirección IP del grupo de servidores front-end  <br/> • Cualquier otro dispositivo de sucursal que use este servidor perimetral  <br/> • Cualquier servidor de sucursal con la que se use este servidor perimetral  <br/> |Interfaz interna de Edge Server  <br/> |Autenticación de usuarios de A/V de su servidor front-end o grupo de servidores front-end, o de su equipo de sucursal que sea reviviente o servidor de sucursal con la supervivencia, usando su servidor perimetral.  <br/> |
+|STUN/MSTURN  <br/> |UDP  <br/> |3478  <br/> |Cualquiera  <br/> |Interfaz interna de Edge Server  <br/> |Ruta preferida para una transferencia de medios de A/V entre usuarios internos y externos.  <br/> |
+|STUN/MSTURN  <br/> |TCP  <br/> |443  <br/> |Cualquiera   <br/> |Interfaz VIP interna de Edge Server  <br/> |Ruta de acceso de reserva para la transferencia de medios de A/V entre los usuarios internos y externos si la comunicación UDP no funciona. Entonces se usa TCP para las transferencias de archivos y el uso compartido de escritorio.  <br/> |

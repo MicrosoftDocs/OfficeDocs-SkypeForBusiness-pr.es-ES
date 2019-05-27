@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube para que le proporcione un saludo organizacional, música en espera y redirija las llamadas a agentes de llamadas en listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: e32ab12c63f20439d21c9c1829cd4b32bdd34d70
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
+ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344688"
+ms.locfileid: "34404313"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -181,6 +181,8 @@ Puede seleccionar hasta 200 agentes de llamadas pertenecientes a grupos o listas
  Para habilitar la Telefonía IP empresarial para sus usuarios, use Windows PowerShell. Por ejemplo, ejecute:  `Set-CsUser -identity "Amos Marble" -EnterpriseVoiceEnabled $true`
 
 - Usuarios en línea con una licencia de **Sistema telefónico** y un Plan de llamadas que se agregan a un grupo de Office 365, una lista de distribución habilitada para correo o un grupo de seguridad. Puede demorar hasta 3 horas en agregar un nuevo agente para una lista de distribución o un grupo de seguridad para empezar a recibir llamadas de una cola de llamadas. Una lista de distribución o un grupo de seguridad recién creados puede demorar 48 horas en estar disponible para usarse con las colas de llamadas. Los grupos de Office 365 que se acaban de crear están disponibles casi de forma inmediata.
+
+- Si los agentes usan la aplicación Microsoft Teams para recibir llamadas en la cola de llamadas, deben estar en modo TeamsOnly.
 
 ![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
 

@@ -18,12 +18,12 @@ MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 description: Obtenga información sobre cómo administrar la configuración de las reuniones de teams que los usuarios programan en su organización.
-ms.openlocfilehash: 1828d626261c97cf3514781a5c55dbecd59d7666
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: ff47c1315dd56369d9a00d0afad952b80520abf3
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344880"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433154"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Administrar la configuración de reuniones en Microsoft Teams
 
@@ -38,7 +38,7 @@ Con la combinación anónima, cualquier persona puede unirse a la reunión como 
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **participantes**, Active **usuarios anónimos pueden unirse a una reunión**.
 
-    ![Meeting-Settings-participants. png] (media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de los participantes para las reuniones en el centro de administración] (media/meeting-settings-participants.png "Captura de pantalla de la configuración de participantes de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
 Si no desea que los usuarios anónimos se unan a las reuniones programadas por los usuarios de su organización, desactive esta configuración.
 
@@ -59,7 +59,7 @@ Puede personalizar las invitaciones a reuniones de Teams para satisfacer las nec
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **invitación por correo electrónico**, haga lo siguiente:
 
-    ![Meeting-Settings-Invitation. png] (media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
+    ![Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar] (media/meeting-settings-invitation.png "Captura de pantalla de la configuración de la invitación a la reunión que puede personalizar para las reuniones de Teams")
 
     - **Dirección URL del logotipo** Escriba la dirección URL donde se encuentra almacenado el logotipo.
     - **Dirección URL legal** Si su organización tiene un sitio web legal al que desea que se vean los problemas legales, escriba la dirección URL aquí.
@@ -78,7 +78,7 @@ Si está usando la calidad de servicio [(QoS)](qos-in-teams.md) para priorizar e
 1. En el navegación de la izquierda, vaya a**configuración de reunión**de **reuniones** > .
 2. En **red**, haga lo siguiente:
 
-    ![Meeting-Settings-Network. png] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
+    ![Captura de pantalla de la configuración de red de las reuniones en el centro de administración] (media/meeting-settings-network.png "Captura de pantalla de la configuración de red de las reuniones de Teams en el centro de administración de Microsoft Teams")
 
     - Para permitir que los marcadores de DSCP se usen para QoS, Active **insertar marcadores de calidad de servicio (QoS) para el tráfico de medios en tiempo real**. Solo tiene la opción de usar marcadores o no. no puede establecer marcadores personalizados para cada tipo de tráfico. Para obtener más información sobre los marcadores de DSCP, vea [seleccionar un método de implementación de QoS](QoS-in-Teams.md#select-a-qos-implementation-method) .
     - Para especificar intervalos de puertos, junto a **seleccionar un intervalo de puertos para cada tipo de tráfico de medios en tiempo real**, seleccione **especificar intervalos de puertos**y, a continuación, escriba los puertos de inicio y de finalización para el audio, el vídeo y la pantalla compartida. Es necesario seleccionar esta opción para implementar QoS.
