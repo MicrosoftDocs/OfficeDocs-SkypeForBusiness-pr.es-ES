@@ -14,12 +14,12 @@ f1keywords:
 - ms.teamsadmincenter.dashboard.helparticle.teamsadmindocumentation
 - ms.teamsadmincenter.dashboard.widget.upgrade.complete
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
-ms.openlocfilehash: 5a591d1b513ad6f0e93167102cd0e9be96cfad59
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: a9adeadfd2b99d4ac4ce4e62f4ef26f018e4d3b1
+ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33885056"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34421943"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -52,7 +52,7 @@ ms.locfileid: "33885056"
                             </a>
                             </li>
                             <li>
-                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-introduction">
+                                <a href="https://docs.microsoft.com/MicrosoftTeams/upgrade-start-here">
                                 <div class="cardSize">
                                     <div class="cardPadding">
                                         <div class="card">
