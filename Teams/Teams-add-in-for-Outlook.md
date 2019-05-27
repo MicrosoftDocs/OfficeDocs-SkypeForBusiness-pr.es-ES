@@ -18,17 +18,15 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fb6ba92185d797e3925ad56c8747fd504f40dccd
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 801c4f43e9aafa7fe8331d85b601afd584505164
+ms.sourcegitcommit: e5cb24ad166268392e692d3d1b92125646e5d66e
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404230"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "34417446"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
-> [!IMPORTANT]
-> [!INCLUDE [new-teams-sfb-admin-center-notice](includes/new-teams-sfb-admin-center-notice.md)]
 
 El complemento para reunión de Microsoft Teams se instala automáticamente para los usuarios que tienen instalado Microsoft Teams y Office 2013 o 2016 en su equipo Windows. Los usuarios verán el complemento para reunión de Microsoft Teams en la cinta del Calendario de Outlook. 
 
@@ -53,7 +51,7 @@ Para obtener más información sobre cómo configurar la autenticación, consult
 
 ## <a name="enable-private-meetings"></a>Habilitar las reuniones privadas
 
-Para que se implemente el complemento, debe estar habilitado Permitir la programación de reuniones privadas en el Centro de administración de Microsoft Teams. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General**, habilite **Permitir la programación de reuniones privadas**).
+**Permitir la programación de reuniones privadas** debe estar habilitado en el centro de administración de Microsoft Teams para que se implemente el complemento. En el centro de administración, vaya a **Reuniones** > **Directivas de reunión** y, en la sección **General**, habilite **Permitir la programación de reuniones privadas**).
 
 ![Captura de pantalla de la configuración en el centro de administración de Microsoft Teams.](media/teams-add-in-for-outlook-image1.png)
 
@@ -65,6 +63,8 @@ El cliente de Microsoft Teams determina si los usuarios necesitan la versión de
 ## <a name="other-considerations"></a>Otras consideraciones
 
 El complemento para reunión de Microsoft Teams sigue en proceso de desarrollo para ampliar sus funcionalidades, por lo que le recomendamos que tenga en cuenta lo siguiente:
+- El sondeo aún no está disponible.
+- La pizarra comienza a implantar.
 - Las opciones de reunión no están disponibles actualmente.
 - En estos momentos, solo es posible invitar a personas de su compañía, dado que los usuarios externos todavía no pueden unirse a las reuniones.
 - Este complemento es para reuniones programadas con participantes específicos, no para reuniones en un canal. Las reuniones de canal se deben programar desde Microsoft Teams. Actualmente, el complemento para reunión de Microsoft Teams en Outlook solo está disponible para usuarios de Windows, pero próximamente será compatible con Mac.

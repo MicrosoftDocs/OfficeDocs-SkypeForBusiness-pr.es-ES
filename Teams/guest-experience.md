@@ -15,42 +15,42 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4caf7cad3e70b5472173b85bdbedec3d1be6d6ad
-ms.sourcegitcommit: bf7de2101862a154eb375c06bc89e6e0c4872119
+ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34381717"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433059"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
 
 Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de correo de bienvenida que incluye información sobre el equipo y qué puede esperar ahora que es miembro. El invitado debe canjear la invitación del mensaje de correo electrónico para poder acceder al equipo y sus canales.
     
-![Ejemplo de un mensaje de correo electrónico de bienvenida enviado por el propietario de un equipo en Microsoft Teams a un usuario invitado. El mensaje incluye texto que puede personalizar el propietario del equipo y breves descripciones de las características de Microsoft Teams, como el chat, las llamadas y las reuniones.](media/guest-experience-image1.png)
+![Captura de pantalla que muestra un ejemplo de un mensaje de correo electrónico de bienvenida](media/guest-experience-image1.png)
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla realizada en un equipo de muestra, un banner indica "Este equipo tiene invitados" y aparece una etiqueta "INVITADO" junto al nombre de cada invitado.
     
-![La captura de pantalla muestra una parte del canal de marketing para Northwind Traders, con la notificación en el banner superior que indica "Este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "INVITADO" junto a su nombre.](media/guest-experience-image2.png)
+! [Captura de pantalla que muestra los usuarios invitados de notificación de banner] Captura de pantalla media/Guest-Experience-image2. png que muestra una parte del canal de marketing de Northwind Traders, con la notificación en la pancarta superior en la que se indica "este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "invitado" junto a su nombre. ")
 
 En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está disponible para los miembros del equipo de una organización con la funcionalidad que está disponible para un usuario invitado del equipo.
 
 |**Funcionalidad en Microsoft Teams**|**Usuario de Microsoft Teams de la organización**|**Usuario invitado**|
 |:-----|:-----|:-----|
-|Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar en un chat privado  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Participar en una conversión del canal  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Publicar, eliminar y editar mensajes  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartir un archivo del canal  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
-|Compartir un archivo del chat  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Agregar aplicaciones (fichas, bots o conectores)  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear reuniones o programaciones de Access  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Crear un equipo  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Descubrir un equipo público y unirse a él  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
-|Ver el organigrama  <br/> |![marca de verificación](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear un canal  <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participar en un chat privado  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Participar en una conversión del canal  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Publicar, eliminar y editar mensajes  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Compartir un archivo del canal  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)|
+|Compartir un archivo del chat  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Agregar aplicaciones (fichas, bots o conectores)  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear reuniones o programaciones de Access  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Obtener acceso al almacenamiento de OneDrive para la empresa  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear directivas de acceso de invitados a equipos y canales para todos los inquilinos  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Invitar a un usuario que no pertenece al dominio de inquilino de Office 365 <br/>  *Los propietarios del equipo controlan este parámetro.*  <br/> <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Crear un equipo  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Descubrir un equipo público y unirse a él  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
+|Ver el organigrama  <br/> |![Un icono que muestra una marca de verificación ](media/5277fbec-0a8f-4bd0-b906-d6ddee85a46c.png)||
    
 En la tabla siguiente se muestran las características de llamadas y reuniones disponibles para los invitados.
 
