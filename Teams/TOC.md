@@ -101,6 +101,7 @@
 ## [Usar el complemento para reunión de Microsoft Teams en Outlook](teams-add-in-for-outlook.md)
 ## [Configuración del servicio de migración de reuniones (MMS)](/SkypeForBusiness/audio-conferencing-in-office-365/setting-up-the-meeting-migration-service-mms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json)
 ## [Salas de Microsoft Teams](room-systems/index.md)
+## [Administrar la pizarra en Teams](manage-whiteboard.md)
 
 
 ## Audioconferencia
