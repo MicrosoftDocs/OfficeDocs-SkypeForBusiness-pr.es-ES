@@ -287,7 +287,6 @@
 ### Identificador de llamada
 #### [Cómo se puede usar el identificador de llamada en su organización](how-can-caller-id-be-used-in-your-organization.md)
 #### [Establecer el identificador de llamada de un usuario](set-the-caller-id-for-a-user.md)
-#### [Más información sobre Identificadores de línea de la llamada entrante y nombres para mostrar a la persona que llama](more-about-calling-line-id-and-calling-party-name.md)
 ### Operadores automáticos y las colas de llamadas 
 #### [Qué son los operadores automáticos en la nube](what-are-phone-system-auto-attendants.md)
 #### [Configurar un operador automático en la nube](create-a-phone-system-auto-attendant.md)
