@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ca0cbc4e79e43eca70b46970196f30b91bbf43f4
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: 163dce83326e656454a29948ccfd3b19205dc79c
+ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32246339"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34433131"
 ---
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Crear sus primeros equipos y canales en Microsoft Teams
 
@@ -62,7 +62,7 @@ En el lado izquierdo de Teams, haga clic en **Equipos**, en la parte inferior de
 
 Una vez que haya creado el equipo, invite a personas a unirse a él. Puede agregar usuarios individuales, grupos e incluso un grupo entero de contactos (anteriormente conocido como "lista de distribución"). 
 
-![Crear un equipo](media/get-started-with-teams-create-team.png "captura de pantalla de un equipo \"Familiarizarse con Teams\" de ejemplo, que muestra el nombre del equipo y la descripción") 
+![Captura de pantalla de un equipo de ejemplo en el que se muestra el nombre del equipo y la descripción](media/get-started-with-teams-create-team.png "Captura de pantalla de un equipo de ejemplo Familiarizarse con Teams en el que se muestra el nombre y la descripción del equipo") 
 
 ### <a name="add-a-team-owner"></a>Agregar propietario del equipo
 Busque el equipo que ha creado, haga clic en **Más opciones** > **Administrar equipo**. Después, vaya a la pestaña **Miembros**. Busque las personas que desea designar como propietarios del equipo. En **Rol**, haga clic en **Propietario**.
@@ -70,7 +70,7 @@ Busque el equipo que ha creado, haga clic en **Más opciones** > **Administrar e
 ### <a name="create-a-channel-in-a-team"></a>Crear un canal en un equipo
 Busque el equipo que ha creado, haga clic en **Más opciones ...** > **Agregar canal**. También puede hacer clic en **Administrar equipo** y agregar un canal en la pestaña **Canales**. 
 
-![Agregar un canal a un equipo](media/get-started-with-teams-add-channel.png "captura de pantalla de la opción de Agregar canal, opción de Administrar equipo y otras opciones que están disponibles al hacer clic en Más opciones de un equipo") 
+![Captura de pantalla de las opciones disponibles al hacer clic en Más opciones](media/get-started-with-teams-add-channel.png "Captura de pantalla de la opción Agregar canal, Administrar equipo y otras opciones disponibles al hacer clic en Más opciones en un equipo") 
 
 De al canal un nombre descriptivo para que sea más fácil para los usuarios comprender el propósito del canal. 
 
@@ -78,7 +78,7 @@ Como propietario de un equipo, puede marcar canales favoritos automáticamente p
 
 Este es un ejemplo del canal "¿Cómo..." en el equipo "Familiarizarse con Teams", que muestra pestañas ancladas que vinculan a páginas web de Teams (vínculos de descarga de Teams, centro de ayuda de Teams y vídeos de aprendizaje de Teams). 
 
-![Anclar pestañas a un canal](media/get-started-with-teams-add-tabs.png "captura de pantalla de pestañas ancladas en el equipo de ejemplo \"Familiarizarse con Teams\".") 
+![Captura de pantalla de pestañas ancladas en el equipo de ejemplo](media/get-started-with-teams-add-tabs.png "Captura de pantalla de pestañas ancladas en el equipo de ejemplo \"Familiarizarse con Teams\".") 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vaya a [Incorporar primeros usuarios](get-started-with-teams-onboard-early-adopters.md).
