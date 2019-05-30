@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: bd633b919bc916c1e64620d008e2ec9081656041
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280807"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494039"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
@@ -32,7 +32,7 @@ Para que las personas de la organización puedan usar la difusión de reunión d
   
 ## <a name="enable-skype-meeting-broadcast-using-the-skype-for-business-admin-center"></a>Habilitar Difusión de reunión de Skype mediante el Centro de administración de Skype Empresarial
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
     

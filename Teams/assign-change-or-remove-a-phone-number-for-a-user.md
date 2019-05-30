@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo asignar, cambiar o quitar un número de teléfono del trabajo de sus equipos o de usuarios de Skype empresarial para que las empresas y los clientes puedan llamar.
-ms.openlocfilehash: f9792edf76d5d86a562516aa620bfbb62d26fdd9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ea2135a095a60d6da37ce4db0fb443f2e9a74154
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34286288"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493901"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Asignar, cambiar o quitar un teléfono móvil de un usuario
 
@@ -54,7 +54,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
   
  ## <a name="assign-a-phone-number-to-a-user"></a>Asignar un número de teléfono a un usuario
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -86,7 +86,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
  ## <a name="change-a-phone-number-for-a-user"></a>Cambiar el número de teléfono de un usuario
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     
@@ -110,7 +110,7 @@ Para obtener información sobre cómo obtener planes de llamada en Office 365 y 
 
  ## <a name="remove-a-phone-number-from-a-user"></a>Quitar un número de teléfono de un usuario
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
  
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

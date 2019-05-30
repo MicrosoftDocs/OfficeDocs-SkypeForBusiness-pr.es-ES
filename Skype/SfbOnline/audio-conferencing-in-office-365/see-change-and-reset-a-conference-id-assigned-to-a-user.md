@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Obtenga información sobre cómo asignar un identificador de conferencia a un usuario en Skype empresarial online y cuáles deben ser los parámetros de IDs de conferencia. '
-ms.openlocfilehash: 28d18b6a12fdfcb40fa43904b8cc8a0461977c38
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f7cfe83d77ce9d182eca0d28a0c2c37da5cccb16
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298925"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494220"
 ---
 # <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-skype-for-business-online"></a>Ver y restablecer un Id. de conferencia asignado a un usuario en Skype for Business Online
 
@@ -45,7 +45,7 @@ An email will be sent to the user with the conference ID and the default audio c
 
 ### <a name="to-view-the-conference-id"></a>Para ver el identificador de conferencia
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 Puede ver el Id. de conferencia y enviárselo a los usuarios.
 
@@ -75,7 +75,7 @@ You can use Windows PowerShell to view the conference ID for a user. To do so, r
 
 Puede restablecer un Id. de conferencia para un usuario si, por ejemplo, este lo olvida.
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 

@@ -6,7 +6,7 @@ manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Validar la disponibilidad de la red y el entorno antes de comenzar la actualización de Skype para la empresa a los equipos.
+description: Valide el entorno y la preparación de la red antes de empezar la actualización de Skype empresarial a teams.
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,30 +15,30 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f62117b0219250e527a8b98b6aed6c722b319de
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 3b1777aaadb1a4a141ec3c80936fa147cd44353d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33925148"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493845"
 ---
-![Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Fases de la actualización viaje, con especial hincapié en la fase de preparación técnica")
+![Actualizar el diagrama de viaje, enfatizando la fase de preparación técnica] (media/upgrade-banner-tech-readiness.png "Etapas del viaje de actualización, con énfasis en la fase de preparación técnica")
 
-En este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad completar en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha realizado estas actividades de fases anteriores:
+Este artículo forma parte de la fase de preparación técnica de su viaje de actualización, una actividad que ha completado en paralelo con la fase de preparación del usuario. Antes de continuar, confirme que ha completado estas actividades desde fases anteriores:
 
-- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
-- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
-- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
+- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para la actualización a los equipos
+# <a name="prepare-your-environment-for-upgrading-to-teams"></a>Preparar el entorno para la actualización a teams
 
-Para una actualización correcta de los equipos de unidad en la organización, es importante que valide su Skype actual para el entorno de negocios y la disponibilidad de la red. Preparación del entorno actual le ayudará a garantizar una experiencia de usuario de alta calidad ahora, además de mejorar la calidad del usuario experiencia en los equipos. Poner el tiempo a planear los pasos individuales puede ayudar a acelerar la implementación y asegúrese de que aún no pasan por alto los elementos de acción importante.
+Para impulsar una actualización correcta de los equipos de su organización, es importante que valide su entorno actual de Skype empresarial y su disponibilidad en la red. Preparar el entorno actual le ayudará a garantizar una experiencia de usuario de alta calidad ahora, además de mejorar la calidad de la experiencia de usuario en Teams. Tomarse el tiempo para planificar pasos individuales puede ayudarle a acelerar la implementación y a asegurarse de que no haya omitido ningún elemento importante de acción.
 
-Lleve a cabo estas actividades en paralelo con la preparación de preparación del usuario:
+Complete estas actividades en paralelo con la preparación de la preparación del usuario:
 
-- [Prepare su personal de TI](upgrade-prepare-IT-pros.md) para ayudar a garantizar que tienen lo que necesitan para un viaje de actualización correcto.
-- Compruebe que su entorno cumple todos los [requisitos previos](upgrade-plan-journey-prerequisites.md)y comprender las dependencias entre equipos y servicios de Office 365.
-- [Evaluar el entorno](upgrade-plan-journey-evaluate-environment.md) mediante la realización de descubrimiento del entorno mediante el uso de un cuestionario de ejemplo para confirmar la preparación de su organización para llevar a cabo un viaje de actualización correcto a los equipos.
-- [Preparar la red](upgrade-prepare-environment-prepare-network.md) a través de planeación, preparación y tomar los pasos de corrección necesarios para la red para admitir las cargas de trabajo de los equipos.
-- [Prepare su servicio](upgrade-prepare-environment-prepare-service.md) de implantación mediante el uso de listas de comprobación de incorporación para asegurarse de que la configuración de los equipos está preparada admitir la migración de los usuarios de Skype para la empresa a los equipos.
+- [Prepare su personal de ti](upgrade-prepare-IT-pros.md) para asegurarse de que tienen lo que necesitan para que el viaje de actualización se realice correctamente.
+- Compruebe que su entorno cumple con todos los [requisitos previos](upgrade-plan-journey-prerequisites.md)y comprenda las dependencias entre los servicios y equipos de Office 365.
+- [Evalúe el entorno](upgrade-plan-journey-evaluate-environment.md) mediante el descubrimiento ambiental con un cuestionario de ejemplo para confirmar que la disponibilidad de la organización lleva a cabo un viaje correcto de actualización a teams.
+- [Prepare su red mediante la](upgrade-prepare-environment-prepare-network.md) planeación, la preparación y la realización de los pasos de corrección necesarios para que la red admita las cargas de trabajo de Teams.
+- [Prepare su servicio](upgrade-prepare-environment-prepare-service.md) para el despliegue mediante listas de comprobación de incorporación para asegurarse de que la configuración de equipos está lista para permitir la migración de los usuarios de Skype empresarial a teams.

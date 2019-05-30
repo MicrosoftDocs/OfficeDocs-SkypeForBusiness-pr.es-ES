@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Aprenda todo lo que necesita y cómo los organizadores de reuniones pueden llamar a otras personas con Teams.
-ms.openlocfilehash: b02a395277762c4bbd731bd839fdedc395042502
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: f4eb5cd784af7bec6f8b2c19f50b7574745ef2b1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34281896"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548927"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Llamar desde una reunión de Microsoft Teams para que otras personas puedan unirse
 
@@ -43,10 +43,10 @@ Cuando llames a alguien, te recomendamos que lo uses con sus números de teléfo
 
 A continuación se explica cómo obtener acceso telefónico para trabajar:
 
- **Paso 1:** En la reunión, use la opción **Agregar personas** ![botón](media/add-people-button.png) agregar personas para llamar a un número de teléfono.
+ **Paso 1:** En la reunión, use la captura de pantalla **Agregar personas** ![de la](media/add-people-button.png) opción Agregar personas para llamar a un número de teléfono.
  **Paso 2:** Escribe el número de teléfono completo, incluido el código de país o región en el cuadro **invitar a alguien o marcar un número** .
   
-![Cuadro invitar a alguien o marcar un número](media/invite-someone-box.png)
+![Captura de pantalla del cuadro invitar a alguien o marcar un número](media/invite-someone-box.png)
     
 ## <a name="supported-countries-and-regions"></a>Países y regiones admitidas
 

@@ -16,12 +16,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e61a4456d926c8d939769e49968a79943c1138b4
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 377e5ca917db9a0f628e8b045e179e1925e524f1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433282"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493758"
 ---
 <a name="manage-user-access-to-microsoft-teams"></a>Administrar el acceso de los usuarios a Microsoft Teams
 =====================================
@@ -70,8 +70,8 @@ Para deshabilitar Teams para todos los usuarios que tengan una licencia activa p
 
 | | | |
 |---------|---------|---------|
-|![Icono de Punto de decisión.](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Teams en toda la organización?  (Piloto o abierto)</li></ul>         |
-|![Icono de Siguientes pasos.](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Teams.</li></ul>         |
+|![Un icono que representa un punto de decisión](media/Manage_user_access_to_Microsoft_Teams_image5.png)     |Punto de decisión         |<ul><li>¿Cuál es el plan de su organización para comenzar a usar Teams en toda la organización?  (Piloto o abierto)</li></ul>         |
+|![Un icono que representa los pasos siguientes](media/Manage_user_access_to_Microsoft_Teams_image6.png)     |Siguientes pasos         |<ul><li>Si realiza la adopción a través de Piloto, decida si desea hacerlo a través de licencias o comunicación dirigida.</li><li>Según su decisión, realice los pasos para asegurarse de que solo los usuarios piloto puedan acceder a Teams (si es necesario).</li><li>Documente qué usuarios tendrán (o no tendrán) acceso a Teams.</li></ul>         |
 
 ## <a name="manage-teams-at-the-office-365-tenant-level"></a>Administrar Teams en el nivel de espacio empresarial de Office 365
 [!INCLUDE [global-switch-expiry-note](includes/global-switch-expiry-note.md)]

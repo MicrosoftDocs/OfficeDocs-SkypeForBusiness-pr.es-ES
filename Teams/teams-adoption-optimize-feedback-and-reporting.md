@@ -10,50 +10,50 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo obtener los comentarios del usuario y usar el servicio de informe de mantenimiento en la adopción de los equipos.
+description: Obtenga información sobre cómo obtener comentarios de usuarios y cómo usar los informes de estado del servicio en la adopción de Teams.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 02c7958e37f93d254e6f10c09bccc225e8141978
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 89b4c292f17321878c66513f2d25f34c2deb186f
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930391"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494819"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimizar los comentarios y los informes sobre su adopción de Microsoft Teams
 
-Asegúrese de que obtiene señales de vuelta desde el servicio y sus empleados siguiendo nuestras mejores prácticas para los comentarios del usuario y el informe de mantenimiento de servicio.  En algunos casos, es posible que requieren derechos de administrador de Office 365 para tener acceso a determinados informes de uso y mantenimiento del servicio. Si no es el Administrador de Office 365 para su organización, trabajar con esa persona tener el rol de lector de informe en el centro de administración de Microsoft 365 para tener acceso a algunos de estos datos. 
+Asegúrese de recuperar las señales de su servicio y de sus empleados siguiendo nuestros procedimientos recomendados para los comentarios de los usuarios y los informes de estado del servicio.  En algunos casos, es posible que se necesiten derechos de administrador de Office 365 para acceder a determinados informes de uso y mantenimiento del servicio. Si no es el administrador de Office 365 de su organización, trabaje con esa persona para que se le otorgue la función lector de informes en el centro de administración de Microsoft 365 para obtener acceso a algunos de estos datos. 
 
-## <a name="incorporating-feedback"></a>Incorporación de comentarios 
+## <a name="incorporating-feedback"></a>Incorporar comentarios 
 
-A lo largo de la fase de experimento se captura información acerca de cómo personas han usado el producto y su experiencia. Utilice esta información ahora para ajustar el conocimiento del producto y los programas de recursos de aprendizaje al planear expandir su uso en las unidades de negocio. Es posible que algunos ejemplos de preguntas comunes:
+Durante toda la fase del experimento, capturará información sobre cómo los usuarios han usado el producto y su experiencia. Use esta información ahora para ajustar su conocimiento y programas de aprendizaje mientras planea expandir su uso en las unidades de negocio. Algunas preguntas comunes sobre el ejemplo podrían ser:
 
-- ¿Cuándo se puede usar esta nueva herramienta junto con la tecnología existente?
-- ¿Quién está aprobada para usar esta herramienta conmigo?
-- ¿Es seguro para la información confidencial? 
-- ¿Quién hablar con para obtener más información acerca de Microsoft Teams?
-- Algo que no funciona. ¿Cómo se puede obtener ayuda?
+- ¿Cuándo puedo usar esta nueva herramienta junto con mi tecnología existente?
+- ¿Quién está autorizado para usar esta herramienta conmigo?
+- ¿Es seguro para obtener información muy confidencial? 
+- ¿Con quién hablo para obtener más información sobre Microsoft Teams?
+- Algo no funciona. ¿Cómo puedo obtener ayuda?
 
-## <a name="invest-in-your-champions"></a>Invertir en sus Campeones
+## <a name="invest-in-your-champions"></a>Invierta en sus campeones
 
-Mientras se prepara para escalar el uso de Microsoft Teams, contratar a campeones adicionales en cada unidad de negocio o grupo a que está expandiendo. Inscribirse estas personas entusiastas en su programa de aprendizaje de servicio y estandarizar cómo y cuándo se cumplen con ellos.
+A medida que se prepara para escalar el uso de Microsoft Teams, reclutar más campeones en cada unidad de negocio o grupo al que se está expandiendo. Inscriba a estas personas entusiastas en el programa de formación de servicios y estandarizar cómo y cuándo reunirse con ellos.
  
-Sea claro en el diseño del programa de campeones lo van a conseguir sus empleados y qué son que quepa esperar a que dejen de estar Campeones. Requisitos comunes de programa son las horas de oficina programada, participación en todos los meses las llamadas de la Comunidad y la participación en las Comunidades en línea internas para admitir la transición a estas nuevas experiencias.  
+Sea claro en el programa de los campeones diseñe lo que recibirán sus empleados y lo que se espera que tengan si se convierten en campeones. Los requisitos de programas comunes son horas programadas de Office, participación en llamadas mensuales de la comunidad y participación en comunidades internas en línea para apoyar la transición a estas nuevas experiencias.  
 
-Procedimiento recomendado: Mantenga una reunión mensual de los equipos para sus campeones internos. Dividir la agenda entre las nuevas características de enseñanza, hacer frente a los comentarios y proporcionando herramientas de autoservicio para su comunidad de empleado.
+Procedimiento recomendado: Mantenga una reunión mensual de los equipos para sus expertos internos. Divida su agenda entre la enseñanza de nuevas características, la dirección de comentarios y la prestación de herramientas de autoservicio para la comunidad de empleados.
 
-Procedimiento recomendado: representantes de velocidad media de su departamento de soporte interno o el departamento de soporte técnico de TI unirse a su comunidad de campeones para mantenerse al día en la nueva información sobre el uso de los equipos. 
+Procedimiento recomendado: Ave representantes del Departamento de soporte interno o del servicio de asistencia al usuario de ti Únase a su comunidad de Campeones para mantenerse al día acerca de la nueva información sobre el uso de sus equipos. 
 
-## <a name="service-reporting"></a>Servicio de creación de informes
+## <a name="service-reporting"></a>Informes de servicio
 
-Hay tres tipos de informes deben revisar tal y como se implementa y adoptarán Microsoft Teams:
+Hay tres tipos de informes que debe revisar al implementar y adoptar Microsoft Teams:
 
-- [Estado del servicio](https://status.office365.com/) : Office 365 y el soporte de TI interno de departamento.
-- [Actividad de servicio](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : desde Office 365 ver los [informes en los equipos de Microsoft](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede utilizar la información de otros sistemas dentro de la organización.
-- Satisfacción del servicio: obtenida con los foros de la Comunidad interna y encuestas en experiencias específicas
+- [Estado del servicio](https://status.office365.com/) : tanto de Office 365 como de su departamento interno de soporte de ti.
+- [Actividad de servicio](https://docs.microsoft.com/en-us/office365/admin/activity-reports/activity-reports?redirectSourcePath=%252fen-us%252farticle%252fActivity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263&view=o365-worldwide) : desde Office 365 ver [informes en Microsoft Teams](https://docs.microsoft.com/en-us/office365/admin/activity-reports/microsoft-teams-user-activity?redirectSourcePath=%252farticle%252fOffice-365-Reports-in-the-Admin-Center-Microsoft-Teams-user-activity-07f67fc4-c0a4-4d3f-ad20-f40c7f6db524&view=o365-worldwide). También puede usar información de otros sistemas de su organización.
+- Satisfacción del servicio: recopilado de los foros internos de la comunidad y de las encuestas sobre experiencias específicas
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [unidad sensibilización e implementar recursos de aprendizaje](teams-adoption-drive-awareness.md)
+![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [impulsar el conocimiento e implementar aprendizaje](teams-adoption-drive-awareness.md)

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b49d3c1f602da63a7a29010193d66ae09b4feb45
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: c177ae45fdb0770b533c8725d0fb6970a80a5bc2
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344447"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494066"
 ---
 ![Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
@@ -42,7 +42,7 @@ La administración de servicios engloba todas las actividades y los procesos imp
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
-![Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos.] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
+![Un diagrama que muestra una lista de categorías de tareas y actividades] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decidir cómo se implementarán las operaciones para Teams.</li></ul></td></tr>
@@ -317,7 +317,7 @@ NPS es un índice comprendido entre-100 y 100 que mide la disposición de un cli
 
 - De 1 a 6 son elementos interactivos: clientes insatisfechos que pueden dañar tu servicio e impedir el crecimiento.
 
-![Un diagrama que muestra la escala de NPS, muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, y que los de 9 a 10 son promocionales.] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
+![Un diagrama que muestra la escala de NPS] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
 
 Aunque la cantidad básica de NPS es útil, obtendrá el máximo valor de analizar los comentarios de usuario. Le ayudarán a comprender por qué el usuario recomendaría (o no) equipos a otras personas. Estos comentarios pueden proporcionar valiosos comentarios para ayudar al equipo de administración de servicios o proyectos a comprender los ajustes necesarios para proporcionar un servicio de calidad.
 

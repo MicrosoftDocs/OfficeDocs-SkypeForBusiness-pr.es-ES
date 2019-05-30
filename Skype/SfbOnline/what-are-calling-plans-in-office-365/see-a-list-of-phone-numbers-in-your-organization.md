@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Calling Plans
 description: Obtenga información sobre cómo ver una lista de todos los números de teléfono de su organización, todos los números asignados a los usuarios y todos los números que se asignan a los usuarios de voz desde el centro de administración de Skype empresarial.
-ms.openlocfilehash: 9682e0473932337734828a13cf75a8c77e622938
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 33fc51206370c337bea849fac4d1bfa1ed37da56
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280472"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493910"
 ---
 # <a name="see-a-list-of-phone-numbers-in-your-organization"></a>Ver una lista de números de teléfono de su organización
 
@@ -34,7 +34,7 @@ Existen diferentes tipos de números de teléfono que puede asignar a los usuari
   
 ## <a name="to-see-a-list-of-all-phone-numbers-that-you-have-for-your-organization"></a>Para ver una lista de todos los números de teléfono de los que dispone para su organización
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -64,7 +64,7 @@ Existen diferentes tipos de números de teléfono que puede asignar a los usuari
     
 ## <a name="to-see-all-of-the-phone-numbers-that-are-assigned-to-users"></a>Para ver todos los números de teléfono asignados a los usuarios
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 
 Cuando configure usuarios, es posible que solo quiera ver la lista de los números de teléfono que ya se han asignado a los usuarios y los números de teléfono que se les pueden asignar.
@@ -88,7 +88,7 @@ Cuando configure usuarios, es posible que solo quiera ver la lista de los númer
     
 ## <a name="to-see-the-phone-numbers-that-are-assigned-to-voice-users"></a>Para ver los números de teléfono asignados a los usuarios de voz
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 
 Al configurar los usuarios de su organización para realizar y recibir llamadas telefónicas, deberá obtener primero los números de teléfono y después asignarlos a los usuarios. Después de obtener los números de teléfono, es posible que desee ver la lista de todos los usuarios que tienen números de teléfono asignados, los que no los tienen y si un usuario está alojado en línea o en las instalaciones.

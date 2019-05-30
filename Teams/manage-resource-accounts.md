@@ -18,12 +18,12 @@ localization_priority: Normal
 f1keywords:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 description: Más información sobre la administración de cuentas de recursos en Microsoft Teams
-ms.openlocfilehash: a136a91fc4667ac71f6c6798ce4a0953aa0c32a6
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: a5502ccfe4a464f96175127623d5d996b6ea4921
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404305"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548242"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Administrar cuentas de recursos en Microsoft Teams
 
@@ -82,21 +82,26 @@ Una cuenta de recursos que no requiera un número de teléfono puede omitir los 
 
 Una vez que haya comprado una licencia de sistema telefónico y un plan de llamadas, usando el centro de administración de Microsoft Teams, vaya a**cuentas de recursos** **de configuración** > de toda la organización. 
 
-![ASD](media/r-a-master.png)
+![Captura de pantalla de la página cuentas de recursos](media/r-a-master.png)
 
-![número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 Para crear una cuenta de recursos, haga clic en **+ nueva cuenta**. En la ventana emergente, rellene el nombre para mostrar y el nombre de usuario de la cuenta de recursos (el nombre de dominio debe llenarse automáticamente) y luego haga clic en **Guardar**.
 
-![cuenta de recursos](media/res-acct.png)
+![Captura de pantalla de las opciones de la nueva cuenta de recursos](media/res-acct.png)
 
 A continuación, aplique una licencia a la cuenta de recursos en el centro de administración de O365, como se describe en [asignar licencias a usuarios en Office 365 para empresas](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide)
 
+### <a name="edite-resource-account-name"></a>Editar nombre de cuenta de recursos
+![Icono del número 2, que hace referencia a una llamada en la](media/sfbcallout2.png) captura de pantalla anterior, puede editar el nombre para mostrar la cuenta de recursos mediante la opción **Editar** .  Haga clic en **Guardar** cuando haya terminado.
+![Captura de pantalla de la opción Editar cuenta de recursos](media/r-a-edit.png)
+
 ### <a name="assignunassign-phone-numbers-and-services"></a>Asignar o cancelar la asignación de números de teléfono y servicios
 
-![número 3](media/sfbcallout3.png) una vez que haya creado la cuenta de recursos y asignada la licencia, puede hacer clic en **asignar/anular asignación** para asignar un número de servicio de plan de llamadas a la cuenta de recursos o asignar la cuenta de recurso a una cola de llamadas o de operador automático que ya existe. La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si la cola de llamadas o el operador automático siguen necesitando crearse, puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
+![Icono del número 3, que hace referencia a una llamada en la](media/sfbcallout3.png) captura de pantalla anterior una vez que ha creado la cuenta de recurso y se le ha asignado la licencia, puede hacer clic en **asignar/anular asignación** para asignar un número de servicio de plan de llamadas a la cuenta de recursos o asignarle la cuenta de recursos a un operador automático o a una cola de llamadas que ya exista. La asignación de un número de enrutamiento directo puede realizarse solo con cmdlets. Si la cola de llamadas o el operador automático siguen necesitando crearse, puede vincular la cuenta de recursos mientras la crea. Haga clic en **Guardar** cuando haya terminado.
 
 Use el siguiente cmdlet para asignar un número de enrutamiento directo: 
+
 ``` Powershell
 Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhoneNumber +14250000000
 ```
@@ -104,10 +109,7 @@ Set-CsOnlineApplicationInstance -Identity appinstance01@contoso.com -OnpremPhone
 > [!IMPORTANT]
 > Si su inquilino no ha comprado una licencia de sistema telefónico y un plan de llamadas, una comprobación interna producirá un error cuando intente asignar el número de teléfono a la cuenta de recursos. No podrá asignar el número ni asociar la cuenta de recursos con un servicio.
 
-![asignación de cuentas de recursos](media/r-a-assign.png)
-
-![número 2](media/sfbcallout2.png) puede editar el nombre para mostrar de la cuenta de recursos con la opción **Editar** .  Haga clic en **Guardar** cuando haya terminado.
-![Editar cuenta de recursos](media/r-a-edit.png)
+![Captura de pantalla de las opciones de asignar/quitar asignación](media/r-a-assign.png)
 
 ## <a name="create-a-resource-account-in-powershell"></a>Crear una cuenta de recursos en PowerShell
 

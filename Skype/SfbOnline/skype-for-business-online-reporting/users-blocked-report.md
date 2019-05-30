@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: 'Este informe, junto con otros informes de Skype empresarial, ofrece detalles sobre la actividad, incluido el uso de RTC en toda la organizaci처n. '
-ms.openlocfilehash: b94245c3526011a10ddb417357bf2516968f7773
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 77ce7a5ff05c4302be875a16519c2dc1a3a994de
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299576"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494009"
 ---
 # <a name="users-blocked-report"></a>Informe de usuarios bloqueados
 
@@ -36,7 +36,7 @@ En el nuevo panel de **informes** de Skype empresarial, se muestra la informaci�
   
 ## <a name="how-to-get-to-the-skype-for-business-users-blocked-report"></a>C처mo acceder al informe de usuarios bloqueados de Skype empresarial
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administraci처n de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administraci처n de Skype empresarial**
 
 - Vaya al centro de administraci처n de **Office 365** > centro de administraci처n centro de**Administraci처n** > **de Skype empresarial** > **informes** > de**usuarios bloqueados**.
     

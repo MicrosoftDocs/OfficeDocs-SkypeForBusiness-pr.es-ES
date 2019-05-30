@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2b02b22ff6b38a432260b98fbfd79272448ed7a5
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: 972b997a7258ce4961fe4f94af37595846aac19b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433146"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548887"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementar calidad de servicio (QoS) en Microsoft Teams
 
@@ -70,7 +70,7 @@ Al implementar QoS, se definen varias colas con una de varias características d
 
 _Ilustración 2. Ejemplos de colas de QoS_
 
-![Ilustración de las colas de QoS] El (media/Qos-in-Teams-Image2.png "ancho de banda total disponible se divide entre varias colas (audio, vídeo y otros tipos de tráfico) a las que se les ha asignado prioridades diferentes.")
+![Ilustración de las colas de QoS y la división de ancho de banda] El (media/Qos-in-Teams-Image2.png "ancho de banda total disponible se divide entre varias colas (audio, vídeo y otros tipos de tráfico) a las que se les ha asignado prioridades diferentes.")
 
 Una analogía simple es que QoS crea "carriles de autousos" virtuales en su red de datos para que algunos tipos de datos nunca se encuentren con un retraso. Una vez que cree esos carriles, puede ajustar su tamaño relativo y, de forma más eficaz, el ancho de banda de la conexión que tiene, sin dejar de ofrecer experiencias empresariales para los usuarios de su organización.
 

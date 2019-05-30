@@ -17,16 +17,19 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Aprenda a administrar la configuración y las directivas de la aplicación personalizada para controlar qué usuarios de su organización pueden cargar aplicaciones personalizadas en Microsoft Teams.
-ms.openlocfilehash: 27123e6e943f7dc570098c36732fd0d1ba09e8af
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: c1aa7489761fb27f525fbb6eb8f2056ae3dd33c8
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34283714"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548664"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Administrar configuración y directivas de aplicación personalizadas en Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Para obtener el método de administración de aplicaciones actual en Microsoft Teams, vea [administrar la configuración de Microsoft Teams para su organización](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 Como administrador, puede usar la configuración y las directivas de la aplicación personalizadas para controlar qué usuarios de su organización pueden cargar aplicaciones personalizadas en Microsoft Teams. Los administradores deciden qué usuarios pueden cargar aplicaciones personalizadas, y los administradores y los propietarios del equipo pueden determinar si determinados equipos de su organización permiten agregar aplicaciones personalizadas a ellas.  
 
@@ -34,7 +37,7 @@ Como administrador, puede usar la configuración y las directivas de la aplicaci
 
 Los usuarios pueden agregar una aplicación personalizada a teams mediante la carga de un paquete de la aplicación (en un archivo. zip) directamente en un equipo o en el contexto personal. Esto es diferente de cómo se agregan las aplicaciones a través de la tienda de aplicaciones de Teams. Agregar una aplicación personalizada mediante la carga de un paquete de la aplicación, también conocido como una aplicación de prueba, le permite probar una aplicación a medida que se desarrolla, antes de que se pueda distribuir ampliamente. También le permite crear una aplicación solo para uso interno y compartirla con su equipo sin enviarla al catálogo de aplicaciones de Teams en la tienda de aplicaciones de Teams.
 
-![cargar una aplicación personalizada](media/teams-custom-app-policy-and-settings-upload-app.png)
+![Captura de pantalla que muestra la opción cargar una aplicación personalizada en la App Store](media/teams-custom-app-policy-and-settings-upload-app.png)
 
 ## <a name="custom-app-policy-and-settings"></a>Configuración y Directiva de aplicación personalizada
 
@@ -91,7 +94,7 @@ Si esta configuración está activada:
 2. Haga clic en **configuración**y, a continuación, expanda **permisos de miembro**.
 3. Active o desactive la casilla **permitir que los miembros carguen aplicaciones personalizadas** .
 
-    ![configuración de la aplicación personalizada del equipo](media/teams-custom-app-policy-and-settings-team.png)
+    ![Captura de pantalla que muestra la configuración de la aplicación personalizada del equipo](media/teams-custom-app-policy-and-settings-team.png)
 
 ### <a name="org-wide-custom-app-setting"></a>Configuración de la aplicación personalizada para toda la organización
 
@@ -103,7 +106,7 @@ La configuración de la aplicación personalizada para toda la organización, **
 2. Haga clic en **configuración de la aplicación en toda la organización**.
 3. En **aplicaciones personalizadas**, Active o desactive la **opción permitir la interacción con aplicaciones personalizadas**.
 
-    ![Configuración de la aplicación personalizada para toda la organización](media/teams-custom-app-policy-and-settings-org-wide.png)
+    ![Captura de pantalla que muestra la configuración de la aplicación personalizada para toda la organización](media/teams-custom-app-policy-and-settings-org-wide.png)
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Cómo funcionan conjuntamente las directivas y la configuración de la aplicación personalizada
 

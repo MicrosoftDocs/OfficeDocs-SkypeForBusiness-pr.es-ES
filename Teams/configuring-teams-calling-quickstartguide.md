@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd1e9484b522a657a92916815c1ae8940dcc2117
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6600513cf4491aed05598439987cff8d8e7232a1
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898526"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548107"
 ---
 <a name="quick-start-guide-configuring-calling-plans-in-microsoft-teams"></a>Guía de inicio rápido: Configurar Planes de llamada en Microsoft Teams
 ==============================================================
@@ -31,42 +31,42 @@ Esta guía le ayudará a poner en funcionamiento un conjunto de usuarios para qu
 Lea el anuncio del 12 de diciembre de 2017 sobre Planes de llamada en Microsoft Teams: [El avance de la comunicación inteligente con las llamadas en Microsoft Teams](https://aka.ms/ipyqus)
 
 > [!NOTE]
-> Se recomienda que, en paralelo con esta guía de inicio rápido, lea [Sistema telefónico con planes de llamada](calling-plan-landing-page.md) y [FastTrack](https://aka.ms/cloudvoice) para planear y unidad de una implementación correcta.
+> Le recomendamos que, en paralelo con esta guía de inicio rápido, lea el [sistema telefónico con los planes de llamadas](calling-plan-landing-page.md) y [FastTrack](https://aka.ms/cloudvoice) para planear y dirigir una correcta implantación.
 
 Ahora, al agregar Planes de llamada (una función de Office 365 con tecnología de Skype Empresarial), puede usar Microsoft Teams para hacer y recibir llamadas telefónicas a números nacionales y móviles o desde ellos a través de la red telefónica conmutada (RTC).
 
-![Llamar en Microsoft Teams](media/Calling_in_Teams.png)
+![Captura de pantalla que muestra la página contactos en Teams](media/Calling_in_Teams.png)
 ## <a name="prerequisites-for-enabling-the-calls-tab-in-teams"></a>Requisitos previos para habilitar la ficha **Llamadas** en Microsoft Teams.
-Para habilitar la ficha de **llamadas** en los equipos de los usuarios necesitan tener habilitada en los equipos de llamada y utilizando a un cliente de los equipos que admite una llamada a los equipos de 1:1 de 1:1. Para obtener información sobre cómo administrar las llamadas a 1:1 en los equipos, lea [Set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para obtener información sobre los clientes que admiten las llamadas, lea [los límites y las especificaciones de los equipos de Microsoft](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
+Para habilitar la pestaña **llamadas** en Teams, los usuarios deben tener habilitadas las llamadas de 1:1 en Teams y usar un cliente de teams que admita las llamadas de 1:1 equipos. Para obtener información sobre cómo administrar las llamadas de 1:1 en Teams, lea [set-CsTeamsCallingPolicy](https://docs.microsoft.com/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps). Para saber qué clientes son compatibles con las llamadas, lea [límites y especificaciones de Microsoft Teams](https://docs.microsoft.com/microsoftteams/limits-specifications-teams).
 
 > [!NOTE]
-> En la actualidad, correo de voz no estará disponible en la ficha llamadas a menos que el usuario está habilitado para las llamadas de RTC. 
+> En la actualidad, el buzón de voz no estará disponible en la ficha llamadas, a menos que el usuario tenga habilitada la opción de llamadas RTC. 
 
-## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Requisitos previos para habilitar el **Teclado de marcado** en los equipos
-Para habilitar la ficha de **Teclado de marcado** en los equipos y permitir que los usuarios a realizar y recibir llamadas de RTC debe abastecer a los usuarios para el sistema telefónico y planes de llamada. Para obtener información sobre cómo configurar planes de llamada, lea [Configurar planes de llamada](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
+## <a name="prerequisites-for-enabling-the-dial-pad-in-teams"></a>Requisitos previos para habilitar el **teclado de marcado** en Teams
+Para habilitar la pestaña **teclado de marcado** en Teams y permitir que los usuarios realicen y reciban llamadas RTC, necesitará aprovisionar usuarios para los planes de llamadas y del sistema telefónico. Para obtener información sobre cómo configurar planes de llamadas, consulte [configurar planes de llamadas](https://docs.microsoft.com/microsoftteams/set-up-calling-plans).
 
 > [!NOTE]
-> También puede usar el enrutamiento directo para permitir a los usuarios a realizar y recibir llamadas de RTC. Para obtener información sobre cómo configurar el enrutamiento directo, leer la [Configuración de enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
+> También puede usar el enrutamiento directo para permitir que los usuarios realicen y reciban llamadas RTC. Para obtener información sobre cómo configurar el enrutamiento directo, lea [configurar el enrutamiento directo](https://docs.microsoft.com/microsoftteams/direct-routing-configure).
 
-## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Uso de TeamsUpgradePolicy para control donde land llamadas
-Para controlar si las llamadas entrantes (y chats) land en los equipos o Skype para la empresa, los administradores usan TeamsUpgradePolicy, mediante cualquiera de [Centro de administración de equipos de Microsoft](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con el [Skype para la empresa](https://docs.microsoft.com/powershell/module/skype) cmdlets.
+## <a name="using-teamsupgradepolicy-to-control-where-calls-land"></a>Uso de TeamsUpgradePolicy para controlar dónde se encuentran las llamadas
+Para controlar si las llamadas (y chats) entrantes en Teams o Skype empresarial, los administradores usan TeamsUpgradePolicy, ya sea con el [centro de administración de Microsoft Teams](https://aka.ms/teamsadmincenter) o mediante una sesión remota de Windows PowerShell con [Skype empresarial](https://docs.microsoft.com/powershell/module/skype) . cmdlets.
 
 
-La configuración predeterminada de TeamsUpgradePolicy es el modo islas, que está diseñado para asegurarse de que los flujos de trabajo no se interrumpen durante una implementación de los equipos de negocio existentes. De forma predeterminada, VoIP, RTC y las llamadas a los usuarios federadas seguirán deben enrutarse a Skype para la empresa hasta que actualice la directiva para habilitar las llamadas entrantes a los equipos.  Cuando los destinatarios se encuentran en modo de islas:
+La configuración predeterminada de TeamsUpgradePolicy es el modo islas, que está diseñado para garantizar que los flujos de trabajo empresariales existentes no se interrumpan durante una implementación de Teams. De forma predeterminada, las llamadas VoIP, RTC y federadas a los usuarios se seguirán redirigiendo a Skype empresarial hasta que actualice la Directiva para habilitar las llamadas entrantes a teams.  Cuando los destinatarios se encuentran en el modo islas:
 
- - VOIP entrante llama a ese originadas en Skype para la empresa siempre land en Skype del destinatario para clientes empresariales.
- - VOIP entrante llama a se ha originado en el mundo de los equipos en los equipos, *Si el remitente y el destinatario se encuentran en el mismo arrendatario*.
- - Entrante federados VOIP (independientemente del cliente que se origina) y llamadas RTC siempre land en Skype del destinatario para clientes empresariales.
+ - Las llamadas de VOIP entrantes originadas en Skype empresarial siempre se encuentran en el cliente de Skype empresarial del destinatario.
+ - Llamadas VOIP entrantes originadas en Teams en los equipos, *si el remitente y el receptor están en el mismo inquilino*.
+ - La telefonía VOIP federada entrante (con independencia de qué cliente se origina) y las llamadas de RTC siempre se encuentran en el cliente de Skype empresarial del destinatario.
  
-Para asegurarse de que entrante VOIP y RTC llama siempre land en los equipos cliente de un usuario, actualizar el modo de coexistencia del usuario para que sea TeamsOnly (lo que significa que les asigne la instancia de "UpgradeToTeams" de TeamsUpgradePolicy.  Para obtener más información sobre los modos de coexistencia y TeamsUpgradePolicy, vea [migración e instrucciones de interoperabilidad para las organizaciones que utilizan los equipos junto con Skype para la empresa](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
+Para garantizar que las llamadas RTC y VOIP entrantes siempre se encuentran en el cliente de equipos de un usuario, actualice el modo de coexistencia del usuario para que sea TeamsOnly (lo que significa, asígneles la instancia "UpgradeToTeams" de TeamsUpgradePolicy.  Para obtener más información sobre los modos de coexistencia y TeamsUpgradePolicy, consulte [Guía de migración e interoperabilidad para las organizaciones que usan Teams conjuntamente con Skype empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-**NOTAS**
- - Skype para teléfonos IP empresarial va a recibir llamadas, incluso si el usuario está en modo de TeamsOnly.  
- - Usuarios que ya han aprovisionados con el sistema telefónico y llamar a los planes de licencias para su uso con Skype para profesionales en línea (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tendrá la ficha llamadas habilitada en los equipos y puede colocar las llamadas RTC salientes desde Equipos sin tener que realizar ninguna acción administrativa de los administradores.
+**Lotus**
+ - Los teléfonos IP de Skype empresarial recibirán llamadas, incluso si el usuario está en modo TeamsOnly.  
+ - Los usuarios que se han suministrado con el sistema telefónico y las licencias de planes de llamadas para su uso con Skype empresarial online (por ejemplo, se les ha asignado un valor de OnlineVoiceRoutingPolicy), tienen la ficha llamadas habilitada en Teams y pueden realizar llamadas RTC salientes desde Teams sin administradores tengan que realizar ninguna acción administrativa.
 
 
-### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar usuarios para recibir todos los entrantes VOIP y RTC llama en los equipos
-Para asegurarse de que los usuarios reciben todas las llamadas entrantes de VOIP y RTC en los equipos, establezca el modo de coexistencia del usuario como TeamsOnly en el centro de administración de Microsoft Teams o usar Skype para la sesión remota de Windows PowerShell de negocio para actualizar TeamsUpgradePolicy de la siguiente manera:
+### <a name="how-to-configure-users-to-receive-all-incoming-voip-and-pstn-calls-in-teams"></a>Cómo configurar los usuarios para que reciban todas las llamadas de VOIP y RTC entrantes en Teams
+Para asegurarse de que los usuarios reciban todas las llamadas de VOIP y RTC entrantes en Teams, establezca el modo de coexistencia del usuario en TeamsOnly en el centro de administración de Microsoft Teams o use la sesión de Windows PowerShell remota de Skype empresarial para actualizar TeamsUpgradePolicy de la siguiente manera:
 
     Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams -Identity user@contoso.com
 
@@ -76,7 +76,7 @@ Para asegurarse de que los usuarios reciben todas las llamadas entrantes de VOIP
 
 [Guía de migración e interoperabilidad para organizaciones que usan Teams y Skype Empresarial](https://docs.microsoft.com/MicrosoftTeams/migration-interop-guidance-for-teams-with-skype)
 
-[Sistema telefónico con planes de llamada](calling-plan-landing-page.md)
+[Sistema telefónico con planes de llamadas](calling-plan-landing-page.md)
 
-[Skype para referencia del cmdlet de PowerShell de negocio](https://docs.microsoft.com/powershell/module/skype)
+[Referencia del cmdlet de PowerShell de Skype empresarial](https://docs.microsoft.com/powershell/module/skype)
 

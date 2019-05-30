@@ -1,5 +1,5 @@
 ---
-title: Plan de adopción de usuario de los equipos de Microsoft | Procedimientos recomendados
+title: Plan de adopción de usuarios de Microsoft Teams | Procedimientos recomendados
 author: kenwith
 ms.author: kenwith
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: dearbeen
 search.appverid: MET150
-description: Instrucciones para continuar su viaje de Skype para la empresa a Microsoft Teams
+description: Instrucciones para continuar con el viaje de Skype empresarial a Microsoft Teams
 localization_priority: Normal
 ms.custom: Teams-upgrade-guidance
 MS.collection:
@@ -15,44 +15,44 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2c50bdc25cda1ce8c1ef742ab4141c753ca3a791
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 5a9bc092f458533c95e2431ac8f23ba98abd8bd7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33898504"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548091"
 ---
-![Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Fases de la actualización viaje, con especial hincapié en la fase de excelencia operativa")
+![Diagrama de viaje de actualización, énfasis en la fase de excelencia operativa] (media/upgrade-banner-op-excellence.png "Etapas del viaje de actualización, con énfasis en la fase de excelencia operativa")
 
-En este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza en cuanto se haya completado la actualización de Skype para la empresa a los equipos.
+Este artículo forma parte de la fase de excelencia operativa de su viaje de actualización, que comienza tan pronto como haya completado la actualización de Skype empresarial a teams.
 
-# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft los equipos de forma eficaz
+# <a name="how-to-use-microsoft-teams-effectively"></a>Cómo usar Microsoft Teams de forma eficaz
 
-Tecnología está dispuestos a un ritmo sin precedentes. Mantiene la actual y la habilitación de un entorno de trabajo moderno se ha convertido en un estándar de funcionan de las organizaciones. Medida se desdoblan Microsoft Teams, Microsoft 365 y visión de comunicación inteligente de Microsoft, disponer de un plan de funcionamiento de le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan de funcionamiento óptimo incluye la supervisión de su entorno para el mantenimiento y la calidad, continuar momentum de usuario para optimizar la adopción y la planeación de la nueva funcionalidad que seguirá al conectarse a través del tiempo.
+La tecnología está innovando a un ritmo sin precedentes. Mantener la actualidad y habilitar un entorno de trabajo moderno se ha convertido en un estándar de funcionamiento de las organizaciones. Puesto que Microsoft Teams, Microsoft 365 y la visión inteligente de la comunicación de Microsoft continúan unfolding, disponer de un plan operativo le ayudará a asegurarse de que su organización está configurada para el éxito a largo plazo. Un plan operativo óptimo incluye la supervisión de su entorno para la salud y la calidad, el continuo impulso del usuario para optimizar la adopción y la planificación de nuevas funcionalidades que continuarán conectando a través del tiempo.
 
-## <a name="monitor-for-network-health-and-quality"></a>Monitor de estado de la red y calidad
+## <a name="monitor-for-network-health-and-quality"></a>Supervisar el estado y la calidad de la red
 
-El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, gotas de llamada o de posposición tiempo al unirse a reuniones), correlacionan esto con la propia tecnología, dejarlas con la impresión de que no funciona la tecnología y apertura de la puerta para las aplicaciones no compatibles. Implementación de un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positivo además de reducir las llamadas al soporte técnico de su. Para obtener más información, vea los siguientes artículos:
+El estado de la red afecta a la experiencia del usuario. Cuando un usuario tiene una experiencia deficiente (por ejemplo, llamar a caídas o tiempos de posposición al unirse a reuniones), lo correlaciona con la tecnología en sí, lo que tiene la impresión de que la tecnología no funciona y abre la puerta de las aplicaciones no compatibles. Implementar un plan para supervisar y mitigar el estado de la red le ayudará a garantizar una experiencia de usuario positiva además de reducir las llamadas a su servicio de asistencia al cliente. Para obtener más información, vea los artículos siguientes:
 
 - [Ejecutar los servicios](upgrade-operate-my-service.md)
 - [Supervisar la calidad](upgrade-monitor-quality.md)
 - [Mejorar los servicios](upgrade-enhance-my-service.md)
 
-## <a name="drive-user-momentum-and-adoption"></a>Unidad de usuario momentum y adopción
+## <a name="drive-user-momentum-and-adoption"></a>Impulsar el impulso y la adopción de usuarios
 
-Para obtener el máximo beneficio y los resultados empresariales con los equipos, los usuarios deben usarlo realmente. Sin embargo, más animación inicial tiende a wane y a los usuarios reversión fácilmente a métodos antiguos de trabajo. Fomentar la adopción de usuario y mantener diversión para los equipos con un plan de adopción continuada, que puede incluir:
+Para obtener los máximos beneficios y resultados empresariales con Teams, los usuarios deben usarlos realmente. Sin embargo, el entusiasmo inicial tiende a Wane y los usuarios vuelven fácilmente a las formas de trabajar. Anime a la adopción por el usuario y mantenga el entusiasmo de los equipos con un plan de adopción continuo, que puede incluir:
 
-- Selecciona Campeones del mismo nivel para ayudar a dé a conocer y anime a los usuarios.
-- Comprobación de la [Guía de adopción de Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para obtener sugerencias sobre el aumento del compromiso y promoviendo la adopción.
-- Aprovechamiento del [Kit de éxito de los equipos cliente](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) para mejorar el conocimiento del producto y compartir las mejores prácticas.
-- Implementación de una [estrategia de administración de cambio y adopción](http://www.successwithteams.com/) formal para ayudar a mantener el crecimiento de adopción.
+- Inscripción a los expertos para ayudar a repartir y fomentar a otros usuarios.
+- Consultar la [Guía de adopción de Office 365](https://go.microsoft.com/fwlink/?linkid=859045) para conocer sugerencias sobre el aumento de la implicación y la adopción de impulsos.
+- Aprovechar el [Kit de éxito](https://download.microsoft.com/download/A/E/9/AE984CD4-CF4B-41E7-9ABD-6735E3F01897/MicrosoftTeamsCustomerSuccessKit.zip) de los equipos para mejorar el conocimiento y compartir las mejores prácticas.
+- Implementar una [adopción formal y una estrategia de administración de cambios](http://www.successwithteams.com/) para ayudar a sostener el crecimiento de la adopción.
 
-## <a name="prepare-for-new-functionality"></a>Preparación para la nueva funcionalidad
+## <a name="prepare-for-new-functionality"></a>Prepararse para nuevas funcionalidades
 
-El ciclo de vida de cualquier tecnología de determinado ha cambiado a un ciclo de crecimiento dinámico. Esto significa que los equipos y Microsoft 365 mapas de ruta seguirán se desdoblan, con la nueva funcionalidad de copia de seguridad de iluminación en una cadencia regular. Establecimiento de un ciclo de cambio dentro de la organización le permitirá garantizar la que estará listo administrar las mejoras de colaboración continua y obtener el valor máximo. Esto puede incluir:
+El ciclo de vida de cualquier tecnología dada se ha desplazado a un ciclo de crecimiento dinámico. Esto significa que los planes de equipos y los planes de Microsoft 365 seguirán unfoldándose, con nuevas funcionalidades que se iluminan con una cadencia normal. Establecer un ciclo de cambio en la organización le asegurará que está listo para administrar las mejoras de colaboración continuas y obtener el máximo valor. Esto puede incluir:
 
-- Supervisar la [Guía básica](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de los equipos.
-- Implementar un cambio en la planeación de formulario (como se muestra a continuación) para preparar e implementar la nueva funcionalidad. No olvide incluir las actividades de preparación técnico y de usuario.
+- Supervisar la [Guía básica](https://products.office.com/business/office-365-roadmap?filters=microsoft%20teams)de Teams.
+- Implemente un formulario de planificación de cambios (como se muestra a continuación) para preparar e implementar nuevas funcionalidades. Asegúrese de incluir las actividades de disponibilidad técnica y de usuario.
 
 
-![Ejemplo de formulario que muestra las fechas de lanzamiento esperado y notas acerca de la nueva funcionalidad, incluidos con los siguientes pasos y los propietarios de] (media/upgrade-change-plan-form.png "Ejemplo de formulario que muestra las fechas de lanzamiento esperado y notas acerca de la nueva funcionalidad, incluidos con los siguientes pasos y los propietarios de")
+![Formulario de ejemplo que muestra las fechas y notas de lanzamiento esperadas] (media/upgrade-change-plan-form.png "Formulario de ejemplo que muestra las fechas de lanzamiento previstas y notas acerca de la nueva funcionalidad, enumeradas con los siguientes pasos y propietarios")

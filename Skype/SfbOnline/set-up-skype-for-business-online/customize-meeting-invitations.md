@@ -20,12 +20,12 @@ f1keywords:
 ms.custom:
 - Setup
 description: 'Personalice las invitaciones a reuniones de Skype con logotipos gráficos, URL de ayuda y oficio y texto de pie de página. '
-ms.openlocfilehash: c8b31aa579edb62e9b6aec65bda5adde10726deb
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 6d16bf7f7d41f2706ccefd217b2d810c37a9d0f3
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34285298"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494123"
 ---
 # <a name="customize-meeting-invitations"></a>Personalizar invitaciones a reuniones
 
@@ -45,7 +45,7 @@ Como administrador, puede asegurarse de que todas las invitaciones a reuniones d
 ## <a name="customize-your-meeting-invitations"></a>Personalizar las invitaciones a reuniones
 <a name="__top"> </a>
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
     

@@ -10,49 +10,49 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre el el inicio, experimentar y habilitar las fases de adopción de Microsoft Teams.
+description: Obtenga más información sobre las fases de inicio, experimento y habilitar de la adopción de Microsoft Teams.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 500f414546b33b525043a2acb3ce7c0b7f8c9f56
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 02fc59d7f770d6c4070f67370533e30e4b657c98
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896342"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548784"
 ---
 # <a name="get-started-driving-adoption-of-microsoft-teams"></a>Comenzar a impulsar la adopción de Microsoft Teams
 
-Al impulsar la adopción de Microsoft Teams, puede ofrecer una experiencia de usuario excelente y mayor valor para el negocio dentro de su compañía. Nuestro objetivo es obtener que copia de seguridad y ejecutar rápidamente para que pueda comenzar su viaje con los equipos. Esta guía se centra en la adopción de usuario de los equipos y no tiene dependencias en preparación técnica de su entorno, que se trata en otras secciones de nuestra documentación.
+Al impulsar la adopción de Microsoft Teams, puede ofrecer una experiencia de usuario excelente y un aumento en el valor empresarial dentro de su empresa. Nuestro objetivo es ayudarte a comenzar rápidamente para que puedas comenzar tu viaje con Teams. Esta guía se centra en la adopción de equipos por el usuario y depende de la preparación técnica de su entorno, que se trata en otras secciones de nuestra documentación.
 
-## <a name="adoption-prerequisites"></a>Requisitos previos de adopción
+## <a name="adoption-prerequisites"></a>Requisitos previos para la adopción
 
-Antes de empezar, asegúrese de:
+Antes de empezar, asegúrese de que:
 
-- [Los equipos se instala](get-clients.md) y [se asignan las licencias](office-365-licensing.md) en su entorno. En un mínimo licencias deben asignarse al equipo de núcleo y a los primeros usuarios que vayan a participar en esta fase inicial del proyecto.
+- [Teams está instalado](get-clients.md) y [se asignan licencias](office-365-licensing.md) en su entorno. Se deben asignar licencias mínimas a su equipo central y a los primeros usuarios que participarán en esta fase inicial del proyecto.
 
-- Haber descargado las aplicaciones móviles y de escritorio. 
+- Has descargado las aplicaciones móviles y de escritorio. 
 
 ## <a name="office-365-adoption-framework"></a>Marco de adopción de Office 365
 
-Office 365 tiene un marco de trabajo de aprobación que se aplica a las cargas de trabajo principales en el servicio. Este framework soluciona los pasos básicos que cualquier organización debería seguir para admitir servicios de nube. Para obtener más información sobre el marco de adopción general, vea [recursos y la documentación de Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
+Office 365 tiene un marco de adopción que se aplica a las cargas de trabajo principales del servicio. Este marco de trabajo aborda los pasos básicos que una organización debe tomar para admitir los servicios en la nube. Para obtener más información sobre el marco general de adopción, consulte [documentación y recursos de Microsoft Enterprise](https://aka.ms/O365AdoptionHub). 
 
-En este plan de adopción de los equipos, hemos organizado los pasos en fases y proporciona recomendaciones específicas de los equipos, tal como se describe en [las fases de adopción](#adoption-phases), a continuación.
+En este plan de adopción de equipos, hemos organizado los pasos en fases y hemos ofrecido instrucciones específicas de Teams, como se describe en las [fases de adopción](#adoption-phases), a continuación.
 
 ## <a name="adoption-phases"></a>Fases de adopción 
 
-Todos los proyectos de adopción varían en tamaño y complejidad en función de su entorno, pero los pasos iniciales son idénticos en todos los ámbitos. Creemos que desglosar el proceso en tres fases distintas: inicio, experimento y habilitar: simplificar la adopción para todos los usuarios.  
+Cada proyecto de adopción varía en tamaño y complejidad según el entorno, pero los pasos iniciales son idénticos en todos los paneles. Creemos que dividir el proceso en tres fases distintas (Inicio, experimento y habilitar) optimizará la adopción para todos los usuarios.  
 
-- **Iniciar** - en esta primera fase, se podrá recopilar su equipo juntos, configurar sus equipos iniciales y utiliza los equipos para comenzar a planear la adopción de los equipos. Este enfoque aumentará su técnica familiaridad con el producto y le ayudarán a crear las habilidades necesarias para completar correctamente las fases posteriores. 
+- **Inicio** : en esta primera fase, tendrá que reunir a su equipo, configurar sus equipos iniciales y usar Teams para empezar a planear la adopción de Teams. Este enfoque aumentará su familiaridad técnica con el producto y le ayudará a desarrollar las habilidades necesarias para completar correctamente las fases posteriores. 
 
-- **Experimento** - en esta fase de crecimiento controlado, ofrezca su campeones internos y los primeros usuarios incorporado. Podrá hablar con los usuarios de negocio para identificar los escenarios que se benefician inmediatamente con las capacidades de colaboración y comunicaciones que proporciona los equipos. Podrá recopilar comentarios que le informará de la fase de adopción de gran escala y se podrán tomar decisiones de servicio acerca de la administración del ciclo de vida que se va a garantizar una correcta implementación y control.
+- **Experimento** : en esta fase de crecimiento controlado, pondrá a sus expertos internos y a los primeros usuarios que incorporan. Podrá hablar con sus usuarios empresariales para identificar escenarios que se beneficien inmediatamente de las capacidades de colaboración y comunicación que ofrece Teams. Recopilará comentarios que informarán a su fase de adopción a gran escala y que tomará decisiones de servicio sobre la administración del ciclo de vida y la gobernanza que garantizarán una correcta implementación.
 
-- **Escala** - esta es la fase de implementación a gran escala en el que podrá activar las capacidades de los equipos de todos los empleados. En esta fase, el tamaño de la organización determinará si se trata de un proyecto "go big" que se convertirá en los equipos de todos los empleados simultáneamente o si será enfoque por región, unidad de negocio u otro método de segmentación de la población de empleado. En esta fase moverá a un modelo de entrega continua. Empleados, responsables y unidades de negocio se desean que amplían el uso de los equipos y requerirán capacitación y su compromiso para aprender a usar mejor los equipos y otras características de Office 365.   
+- **Escala** : fase de implementación a escala amplia en la que se activan las capacidades de Teams para todos los empleados. En esta fase, el tamaño de la organización determinará si se trata de un proyecto "de gran tamaño" que activará Teams para todos los empleados de forma simultánea o si se aproximará a este proceso por región, unidad de negocio u otro método de segmentar la población de empleados. En esta fase, se desplazará a un modelo de entrega continua. Los empleados, los líderes y las unidades de negocio desearán ampliar su uso de Teams y necesitarán formación y su participación para comprender el mejor uso de Teams y otras características de Office 365.   
 
-Cada una de estas fases de adopción depende de la disponibilidad de la técnica y del entorno para los equipos. Vamos a empezar!
+Cada una de estas fases de adopción depende de la disponibilidad técnica y medioambiental de los equipos. Comencemos.
 
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [fase de adopción de Microsoft Teams 1: iniciar](teams-adoption-phase1.md)|
+![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [fase 1 de la adopción de Microsoft Teams: Inicio](teams-adoption-phase1.md)|

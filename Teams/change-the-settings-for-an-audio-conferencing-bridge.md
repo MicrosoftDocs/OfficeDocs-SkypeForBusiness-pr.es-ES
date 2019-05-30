@@ -22,12 +22,12 @@ f1keywords: ms.teamsadmincenter.audioconferencing.bridgesettings
 ms.custom:
 - Audio Conferencing
 description: 'Siga los pasos que necesita para cambiar la configuración de un puente de conferencia que se usa para avisar a las personas que llaman y recopilar nombres y PIN de los organizadores de reuniones cuando no usan las aplicaciones de Skype empresarial o Microsoft Teams. '
-ms.openlocfilehash: eaccf6b09499c819451aabd4c1785b326f98ac6d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 97c1439325e5a9a00cacfa26e97078d2c2a91014
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344872"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494565"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Cambiar la configuración de un puente de Audioconferencias.
 
@@ -66,7 +66,7 @@ El puente de conferencia responde a una llamada y le pide a la persona que llama
 6. Haga clic en **Guardar **. 
 
 
-## <a name="sfb-logo-30x30pngmediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![SFB-logo-30x30. png](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
+## <a name="an-icon-showing-the-skype-for-business-logomediasfb-logo-30x30png--using-the-skype-for-business-admin-center"></a>![Un icono que muestra el logotipo de Skype empresarial](media/sfb-logo-30x30.png)  Using the Skype for Business admin center
 
  **Configurar la experiencia de reunión cuando las personas que llaman se unen a una reunión**
     

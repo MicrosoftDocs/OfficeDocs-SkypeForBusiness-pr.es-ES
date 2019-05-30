@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 90f49b3da1aec6d5f81f43674db5bc8cdb3822aa
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 2c4652e27caf207b1af275ecc1fae0d0daa8598b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344704"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548369"
 ---
 # <a name="deploy-my-service"></a>Implementar mis servicios
 
@@ -64,7 +64,7 @@ El foco de la guía consiste en tratar los factores que influyen en la percepci�
 
 La [Guía de habilitación de sitios para voz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) es un libro de Microsoft Excel. Cada una de estas cinco áreas de enfoque es una hoja independiente en el libro, y cada tarea y actividad de implementación se agrupan en una de estas hojas.
 
-![Captura de pantalla de la guía] (media/deploy-my-service-image1.png "Captura de pantalla de la guía")
+![Captura de pantalla de la guía de habilitación de sitios] (media/deploy-my-service-image1.png "Captura de pantalla de la guía")
 
 > [!NOTE]
 > Creará una instancia independiente de la guía para cada sitio en el ámbito de la implementación de Teams.
@@ -88,8 +88,8 @@ Independientemente del tamaño y la complejidad de la ubicación, habilitar cada
 5. Revise cada actividad, lleve a cabo las acciones necesarias y actualice el estado a medida que recorra la escala de tiempo. El estado se representa de forma gráfica, como se describe a continuación:
   
    - ![Ilustración de una marca](media/deploy-my-service-image3.png) de verificación verde **sí o no aplicable (verde):** la actividad se ha completado, o no es aplicable para este sitio, y no se necesita ninguna otra acción.</li>
-    - ![Ilustración de un signo de exclamación](media/deploy-my-service-image4.png) amarillo <strong>la actividad no se ha completado aún (amarillo):</strong> la actividad aún no se ha completado y debe actualizarse a sí o no en su programación.</li>
-   - ![Ilustración de una X](media/deploy-my-service-image5.png) <strong>no roja (roja):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
+   - ![Ilustración de un signo de exclamación](media/deploy-my-service-image4.png) amarillo <strong>la actividad no se ha completado aún (amarillo):</strong> la actividad aún no se ha completado y debe actualizarse a sí o no en su programación.</li>
+   - ![Ilustración de una marca](media/deploy-my-service-image5.png) de X roja <strong>no (rojo):</strong> la actividad no se puede completar debido a un problema y debe llevarse a la reunión de estado del proyecto.</li></ul>
 
 6. El estado se resume dentro de cada sección y el título de la sección tiene el formato de uno de estos indicadores de estado. El **Estado semanal** también se actualiza automáticamente.
 
@@ -103,8 +103,8 @@ Independientemente del tamaño y la complejidad de la ubicación, habilitar cada
 Preste atención a las actividades que pueden tardar más tiempo del que planeó, como la portabilidad de números y las actividades de compra. Estas actividades pueden afectar negativamente a la escala de tiempo de la implementación del sitio. Asegúrese de revisar y actualizar la lista de actividades y la escala de tiempo asociada semanalmente y preséntelas en las [reuniones del Comité de dirección](https://docs.microsoft.com/MicrosoftTeams/envision-steering-committee-complete-guide) para asegurarse de que las partes interesadas conozcan el estado de cada sitio y las posibles desviaciones de la programación de implementación.
 
 <table>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="Icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si la guía de habilitación de sitios es necesaria para su implementación.</li><li>Decida quién será el responsable de personalizar la guía de habilitación del sitio de Microsoft Teams para cada sitio que vaya a implementar.</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="Icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue la guía de habilitación de sitios</a>.</li><li>Personalizar la guía de habilitación del sitio para su primer sitio.</li><li>Repita los pasos necesarios para los sitios adicionales.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Puntos de decisión</td><td><ul><li>Decida si la guía de habilitación de sitios es necesaria para su implementación.</li><li>Decida quién será el responsable de personalizar la guía de habilitación del sitio de Microsoft Teams para cada sitio que vaya a implementar.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Pasos siguientes</td><td><ul><li><a href="https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true" data-raw-source="[Download the Site Enablement Playbook](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true)">Descargue la guía de habilitación de sitios</a>.</li><li>Personalizar la guía de habilitación del sitio para su primer sitio.</li><li>Repita los pasos necesarios para los sitios adicionales.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->

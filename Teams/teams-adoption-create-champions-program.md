@@ -14,47 +14,47 @@ MS.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo formar a un equipo de campeones para promover la adopción de los equipos.
+description: Aprenda a formar a un equipo de expertos para promocionar la adopción de equipos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a077db0e49837bb575385c241877e0eedcbdec1c
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 4945688e5d1cdd68f4555406f3abfb7a6feefeaf
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896372"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548903"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Crear su programa para expertos para Microsoft Teams
 
-Campeones son esenciales para que manejan el conocimiento del producto, formación y adopción de la organización. Un experto es una persona, principalmente sobrepasar por ayudarle a otros usuarios, que está interesado en nuevas tecnologías (específicamente los equipos) y a otros empleados usar en alineación con los procedimientos recomendados. Según el tamaño de la organización puede tener esto como una parte del rol de la persona formal, pero a menudo los empleados tardar mucho en este rol de sí mismos debido a su motivación principal para ayudar a otras personas.
+Los campeones son esenciales para impulsar el conocimiento, la adopción y la educación de su organización. Un campeón es una persona, principalmente motivada por ayudar a otras personas, que están interesadas en una nueva tecnología (específicamente equipos) y de ayudar a otros empleados a usarla en la alineación de los procedimientos recomendados. Según el tamaño de su organización, es posible que sea parte formal de la función de la persona, pero a menudo los empleados toman esta función por su principal motivación para ayudar a otras personas.
 
-Campeones se ajustarán a su lanzamiento general de planeación en una variedad de formas tal como se muestra a continuación.
+Los campeones se adaptarán a su plan de lanzamiento general de varias maneras, como se muestra a continuación.
 
-![Campeones y planificación del lanzamiento](media/teams-adoption-champions.png)
+![Ilustración de los campeones iniciar planificación](media/teams-adoption-champions.png)
 
-Campeones deben:
+Los campeones deben:
 
-- Se capacitados formalmente para aumentar su profundidad y amplitud de conocimientos
-- Se recomienda y habilitadas para guía, enseñar y formar a sus colegas
-- Tener refuerzo coherente y positivo que indica el impacto de sus esfuerzos
+- Formación formal para aumentar su profundidad y amplitud de conocimiento
+- Sea alentado y capacitado para guiar, enseñar y entrenar a sus colegas
+- Tener un refuerzo positivo y coherente que determine el impacto de sus esfuerzos
 - Tener un plan claro para ejecutar
 
-Use nuestra [Guía del programa de campeones](https://go.microsoft.com/fwlink/?linkid=854665) para generar este programa en su organización. Nuestras mejores prácticas para esta comunidad son:
+Use la [Guía del programa](https://go.microsoft.com/fwlink/?linkid=854665) de nuestros campeones para crear este programa en su organización. Nuestros procedimientos recomendados para esta comunidad son:
 
-- Únase al programa de campeones de Office 365: asegúrese de que como mínimo los responsables del programa de campeones (y potencialmente todos los Campeones de compañía) son miembros del [Programa de Microsoft Office 365 de los pesos pesados](https://aka.ms/O365Champions). Esta llamada gratuita, mensual Comunidad proporcionará información valiosa para ejecutar su propio programa y obtener el máximo provecho de los equipos y otros servicios de Office 365. Materiales de programa se pueden volver a usar en su propio programa interno.
+- Únase al programa Office 365 Champions: Asegúrese de que, al menos, los líderes del programa Champion (y, posiblemente, todos los campeones de la compañía) son miembros del [programa de Microsoft Office 365 campeón](https://aka.ms/O365Champions). Esta llamada de la comunidad mensual gratuita le proporcionará información valiosa para ejecutar su propio programa y sacar el máximo provecho de Teams y otros servicios de Office 365. Los materiales del programa pueden reutilizarse en su propio programa interno.
 
-- Usar el equipo de trabajo en equipo campeón: sus Campeones deben usar el equipo tiene el programa de instalación para ellos para las comunicaciones, comentarios, de todos los programas y buscar recursos.  Al hacer esto que se convertirán en cada vez más familiarizados con el producto y sus ventajas.
+- Use el equipo de experto de trabajo en equipo: sus compañeros deberían usar el equipo que tiene configurado para todas las comunicaciones de programas, comentarios y para buscar recursos.  De esta manera, se verán cada vez más familiarizados con el producto y sus beneficios.
 
-- Celebrar reuniones periódicas con mensuales: promover entusiasmo y coherencia de la Comunidad manteniendo regulares reuniones mensuales. Pueden ser una combinación de en reuniones virtuales y la persona, pero su coherencia es clave para tener una comunidad de campeones próspera.
+- Guarda reuniones mensuales normales: promueve el entusiasmo y la cohesión de tu comunidad al celebrar reuniones mensuales normales. Pueden ser una combinación de reuniones en persona y virtual, pero su coherencia es fundamental para tener una comunidad de campeones próspero.
 
     > [!TIP]
-    > Para ayudar a crear las agendas, programar las reuniones para la semana después de la llamada de la comunidad pública. 
+    > Para ayudarle a crear sus agendas, programe sus reuniones durante la semana después de la llamada de comunidad pública. 
 
-- Sea claro sobre requisitos del programa: algunos programas Campeones requieren que los miembros asistir a las reuniones mensuales, mantenga las horas de oficina para el grupo de usuarios que admiten y proporcionan recursos de aprendizaje a los nuevos usuarios. Todo lo que los requisitos, asegúrese de que Campeones desactive acerca de cómo participar correctamente en el programa.
+- Más información sobre los requisitos del programa: algunos programas de experto requieren que los miembros asistan a las reuniones mensuales, mantenga horas de oficina para el grupo de usuarios que admiten y proporcione formación a nuevos usuarios. Independientemente de tus necesidades, asegúrate de que los campeones estén claros sobre cómo participar en el programa.
 
-- Forma visible recompensa sus Campeones: sus Campeones le proporcionará información importante acerca de los riesgos de progreso y el potencial de su proyecto. Recompensan a menudo para su participación. Gestos pequeñas mucho camino y, a menudo los empleados no busca ganancia monetario pero agradecemos reconocimiento por sus contribuciones. Encontrar formas de adecuado y divertido gracias a su comunidad. 
+- Recompensa de manera visible a tus campeones: tus campeones te proporcionarán información importante sobre el progreso y los riesgos potenciales de tu proyecto. Recompensarlas a menudo por su participación. Gestos pequeños va muy lejos y, a menudo, los empleados no buscan ganancias monetarias, pero aprecian reconocimiento por sus contribuciones. Encuentra formas adecuadas y divertidas de agradecerte a tu comunidad. 
 
-- Formar a campeones antes y con frecuencia: iniciar el programa y las reuniones mensuales se pueden usar para crear habilidades en la Comunidad de campeones. Use estas oportunidades para ponerlos a bordo, llevar a cabo su formación inicial, animarlos a asistir a nuestros cursos y asegúrese de que estén preparados para admitir a sus empleados a medida que avanzan en la fase de experimentación.  
+- Train Champions a la brevedad y a menudo: el lanzamiento de programas y las reuniones mensuales pueden usarse para crear habilidades en la comunidad de su experto. Use estas oportunidades para ponerlas en el tablero, realizar su aprendizaje inicial, alentarlos para que asistan a nuestros cursos y asegurarse de que estén listos para apoyar a sus empleados a medida que avanzan en la fase de experimentación.  
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [Complete el gobierno rápido inicio](teams-adoption-governance-quick-start.md)
+![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [completar el inicio rápido de gobierno](teams-adoption-governance-quick-start.md)
 

@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 94138e30f9b98b9671b53ce64bfe67dd98b3216f
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: b655a0b5507a1a4c89ff682b9abe5ac8fa994e83
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344728"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548385"
 ---
 # <a name="evaluate-my-environment"></a>Evaluar mi entorno
 
@@ -73,7 +73,7 @@ Use las siguientes consideraciones para evaluar la preparación de la organizaci
 
 Teams usa tecnología de audio y vídeo (códecs) que puede adaptarse y, por lo tanto, funcionar mejor en la mayoría de las condiciones de la red. Para garantizar un rendimiento óptimo y coherente, debe preparar su red para los equipos.
 
-![Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
+![Diagrama que describe los tres componentes de la calidad] (media/evaluate-my-environment-image1.png "Diagrama que describe los tres componentes de la calidad y cómo se superpone la administración de servicios de los tres componentes. Con un foco en la red.")
 
 ## <a name="key-takeaways"></a>Impresiones clave
 

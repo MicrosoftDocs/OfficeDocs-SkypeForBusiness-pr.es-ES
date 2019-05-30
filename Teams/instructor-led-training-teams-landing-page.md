@@ -13,12 +13,12 @@ ms.service: msteams
 ms.collection:
 - Teams_ITAdmin_Training
 - M365-collaboration
-ms.openlocfilehash: 15ce99720812bcb551f2e962316dbf0ea675e4cd
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: c5bdee072b36b455afa109113a143a472a10726d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433210"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548234"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -175,7 +175,7 @@ ms.locfileid: "34433210"
                                         <div class="card">
                                             <div class="cardImageOuter">
                                                 <div class="cardImage bgdAccent1"> 
-                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="Icon depicting a mobile user" />
+                                                    <img src="https://docs.microsoft.com/MicrosoftTeams/media/instructor-led-training-teams-landing-page-image9.svg" alt="An icon depicting a mobile user" />
                                                 </div>
                                             </div>
                                             <div class="cardText">

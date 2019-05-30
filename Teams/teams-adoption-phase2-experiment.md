@@ -10,31 +10,31 @@ ms.service: msteams
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo llevar a cabo la fase de experimento de adopción de los equipos.
+description: Obtenga información sobre cómo llevar a cabo la fase experimental de la adopción de Teams.
 ms.custom: Adopt
 MS.collection:
 - Teams_ITAdmin_Adopt
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 753cde4e440788f9cb59ccb2d00d2fc14f6a8cd6
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: af3644a89728d14070e1c8a2f6bd486d46523d4a
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33930399"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548712"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Fase 2 de la adopción de Microsoft Teams: Experimento
 
-Ahora se cuentan con un equipo de proyecto excelente y la información crítica acerca de la organización, y está listo para experimentar con los equipos. Se recomienda experimentar con proyectos de 2 y 3 para el mundo real dentro de un grupo que está a cargo de un participante con quien tiene una relación de positiva y en cuya organización hay un número suficiente de primeros usuarios proporcionar comentarios significativo. Si su organización es grande o pequeña, se recomienda completar esta fase para obtener información acerca de cómo los equipos pueden mejorar la colaboración más allá de sus conversaciones y características de almacenamiento de archivos.  
+Ahora ya está preparado para contar con un excelente equipo del proyecto e información crítica sobre su organización, y está listo para experimentar con Teams. Le recomendamos experimentar con 2 a 3 proyectos de mundo real dentro de un grupo liderado por un participante con quien tiene una relación positiva y en cuya organización hay un número suficiente de los primeros para proporcionar comentarios significativos. Independientemente de si su organización es grande o pequeña, le recomendamos que complete esta fase para conocer el modo en que Teams puede mejorar la colaboración más allá del uso de las características de almacenamiento de archivos y chats.  
 
-En esta fase llevará a cabo los siguientes pasos:
+Completará los siguientes pasos en esta fase:
 
-1. [Crear su programa de campeones](teams-adoption-create-champions-program.md).
-2. [Complete su gobierno rápido iniciar](teams-adoption-governance-quick-start.md).
+1. [Cree su programa de campeones](teams-adoption-create-champions-program.md).
+2. [Complete el inicio rápido de gobierno](teams-adoption-governance-quick-start.md).
 3. [Definir los casos de uso](teams-adoption-define-usage-scenarios.md).
-4. [Participantes del programa de adopción anticipados de Finalize](teams-adoption-onboard-early-adopters.md).
-5. [Configurar los canales de comentarios](teams-adoption-onboard-early-adopters.md#gather-feedback).
-6. [Traer su personal de soporte técnico a bordo](teams-adoption-onboard-support.md).
+4. [Finalización temprana](teams-adoption-onboard-early-adopters.md)de los participantes del programa.
+5. [Configura tus canales de comentarios](teams-adoption-onboard-early-adopters.md#gather-feedback).
+6. [Reúna a su personal de soporte técnico](teams-adoption-onboard-support.md).
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [crear su programa de campeones](teams-adoption-create-champions-program.md)
+![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [crear el programa de los campeones](teams-adoption-create-champions-program.md)

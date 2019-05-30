@@ -1,6 +1,6 @@
 ---
 title: Teams para sanidad
-description: Use estos recursos para obtener el máximo partido de los equipos en su organización de salud.
+description: Use estos recursos para sacar el máximo partido de los equipos de su organización de cuidado de la salud.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,16 +12,16 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d5033c7479a8b457a18395a9e8a8fae4740ba06a
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: fec61542c51870ce1482f964845e13d12a3a987d
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245702"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548258"
 ---
 # <a name="teams-for-healthcare"></a>Teams para sanidad
 
-Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una forma segura de comunicarse, coordinar la atención del paciente y mejorar la eficacia operativa. Aquí encontrará los recursos de administración que necesita para administrar los equipos de los equipos de asistencia sanitarios en su organización.
+Teams ofrece a los equipos de cuidados y profesionales de la salud una manera segura de comunicarse, coordinar el cuidado del paciente y mejorar la eficacia operativa. Aquí encontrará los recursos de administrador que necesita para administrar equipos de equipos de salud de su organización.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -31,7 +31,7 @@ Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una fo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Pointing hand icon with arrow, representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -49,7 +49,7 @@ Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una fo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="walkthrough" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-teams.svg" alt="Folded paper icon, representing templates" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -67,7 +67,7 @@ Los equipos le ofrece a los equipos sanitarios y profesionales sanitarios una fo
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="chat" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/chat.svg" alt="Chat bubble icon, representing messaging" />
                         </div>
                     </div>
                     <div class="cardText">

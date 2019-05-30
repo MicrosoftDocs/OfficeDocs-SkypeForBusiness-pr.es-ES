@@ -15,12 +15,12 @@ description: Tareas y actividades necesarias para la administración de servicio
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 293406bbc8fe8cb97917908bc14f83129ff1bb66
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: d40bbeaf0876071502d187826ecc702c9175b2da
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34432875"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494299"
 ---
 # <a name="operate-my-service"></a>Ejecutar mis servicios
 
@@ -38,7 +38,7 @@ La administración de servicios engloba todas las actividades y los procesos imp
 
 Las tareas y actividades de esta guía se agrupan en ocho categorías, tal como se muestra en el siguiente diagrama. Cada una de estas categorías se expandirá en las secciones siguientes.
 
-![Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
+![Un diagrama que muestra una lista de categorías de tareas y actividades] (media/operate-my-service-image1.png "Un diagrama que muestra una lista de las categorías de tareas y actividades que incluye la administración de servicios para los equipos. El diagrama también representa que la administración de servicios es en gran medida una tarea de cliente.")
 
 
 <table>
@@ -315,7 +315,7 @@ NPS es un índice, comprendido entre-100 y 100, que mide la disposición de un c
 
 -   De 1 a 6 son elementos interactivos: clientes insatisfechos que pueden dañar tu servicio e impedir el crecimiento.
 
-![Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
+![Un diagrama que muestra la escala de NPS] (media/operate-my-service-image2.png "Este diagrama muestra la escala de NPS. Muestra que las clasificaciones de 0 a 6 son elementos interactivos, entre 7 y 8, que son pasivas y de 9 a 10 son promocionales.")
 
 Aunque la cantidad básica de NPS es útil, obtendrá el máximo valor de analizar los comentarios de usuario. Le ayudarán a comprender por qué el usuario recomendaría (o no) equipos a otras personas. Estos comentarios pueden proporcionar valiosos comentarios para ayudar al equipo de administración de servicios o proyectos a comprender los ajustes necesarios para proporcionar un servicio de calidad.
 
@@ -551,7 +551,7 @@ De forma predeterminada, todos los usuarios con un buzón en Exchange Online tie
 
 La [Guía de revisión de la calidad de la experiencia](https://aka.ms/qerguide) incluye un conjunto de actividades que evalúan y proporcionan instrucciones de corrección en áreas clave que tienen el mayor impacto en la mejora de la experiencia del usuario, como se muestra a continuación.
 
-![Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.] (media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
+![Diagrama de las áreas que se deben examinar durante una revisión de la calidad de la experiencia] (media/plan-my-service-management-image2.png "Las áreas clave que debe examinar durante una revisión de la calidad de la experiencia: el audio, la fiabilidad y los resultados de la encuesta de usuarios.")
 
 Al evaluar y corregir continuamente las áreas descritas en la guía, puede reducir su potencial de afectar negativamente a la experiencia del usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 

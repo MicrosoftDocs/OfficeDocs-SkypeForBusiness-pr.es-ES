@@ -13,39 +13,39 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Obtenga información sobre cómo usar el informe de uso de dispositivos de los equipos en el centro de administración de Microsoft Teams para ver el modo en que los usuarios de su organización se conectan a los equipos.
+description: Obtenga información sobre cómo usar el informe de uso de dispositivos de Teams en el centro de administración de Microsoft Teams para ver cómo los usuarios de su organización se conectan a teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df5b912a9a4d76fd1be2947cea6dd2750ddbaa49
-ms.sourcegitcommit: f29c0c41dc40f7e968a675d2cf10ef17d7e784da
+ms.openlocfilehash: 4d1e1137903dbda86a7ec3beedae32f13d1f27eb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/30/2019
-ms.locfileid: "33495908"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548728"
 ---
 # <a name="microsoft-teams-device-usage-report"></a>Informe de uso de dispositivos de Microsoft Teams
 
-El informe de uso de dispositivos de los equipos en el centro de administración de Microsoft Teams proporciona información acerca de cómo los usuarios se conectan a los equipos. Puede usar el informe para ver los dispositivos que se usan en toda la organización, incluida la utilizan cuántos equipos desde sus dispositivos móviles cuando en Ir.  
+El informe de uso de dispositivos de Teams en el centro de administración de Microsoft Teams le proporciona información sobre cómo los usuarios se conectan a teams. Puede usar el informe para ver los dispositivos que se usan en toda la organización, incluido el número de equipos que usan sus dispositivos móviles cuando está en la marcha.  
 
-![Captura de pantalla del informe de uso de dispositivos de los equipos en el centro de administración de equipos de Microsoft] (../media/teams-reports-device-usage.png "Captura de pantalla del informe de uso de dispositivos de los equipos en el centro de administración de equipos de Microsoft")
+![Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración] (../media/teams-reports-device-usage.png "Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Microsoft Teams")
 
 ## <a name="view-the-report"></a>Ver el informe
 
-1. Vaya al centro de administración de Microsoft Teams, en el panel de navegación izquierdo, haga clic en **informes de & de análisis**y, a continuación, en el **informe**, seleccione **uso de dispositivos de los equipos**. 
+1. Vaya al centro de administración de Microsoft Teams, en el navegación de la izquierda, haga clic en **Analytics & informes**y, a continuación, en **Informe**, seleccione **uso de dispositivos**de Teams. 
 2. En **Intervalo de fechas**, seleccione un rango y haga clic en **Ejecutar informe**. 
 
 ## <a name="interpret-the-report"></a>Interpretar el informe
 
-![Captura de pantalla del informe de uso de dispositivos de los equipos en el centro de administración de equipos de Microsoft] (../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del informe de uso de dispositivos de los equipos en el centro de administración de equipos de Microsoft con llamadas numerada")
+![Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración] (../media/teams-reports-device-usage-with-callouts.png "Captura de pantalla del informe de uso de dispositivos de Teams en el centro de administración de Microsoft Teams con llamadas numeradas")
 
 |Globo |Descripción  |
 |--------|-------------|
-|**1**   |Puede verse el informe de uso de dispositivos de los equipos de tendencias a través de últimos 7 días o 28 días.  |
-|**2**   |Cada informe tiene una fecha para cuando se generó el informe. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
-|**3**   |<ul><li>El eje X del gráfico representa los distintos dispositivos (**Windows**, **Mac**, **iOS**, **Teléfono Android**) que usa para conectarse a los equipos. </li><li>El eje Y es el número de usuarios con el dispositivo durante el período de tiempo seleccionado.</li> </ul>Mantenga el mouse sobre la barra que representa un dispositivo para ver el número de usuarios con el dispositivo para conectarse a los equipos.|
-|**4**   |La tabla proporciona un desglose de uso de dispositivos por usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li><li>**Windows** está seleccionada si el usuario estaba activo en el cliente de escritorio de los equipos en un equipo basado en Windows.</li><li>**Mac** se selecciona si el usuario estaba activo en el cliente de escritorio de los equipos en un equipo Mac OS. </li> <li>**iOS** se selecciona si el usuario estaba activo en el cliente móvil de los equipos para iOS.</li><li>**Teléfono Android** se selecciona si el usuario estaba activo en el cliente móvil de los equipos para Android. <li>**Última actividad** es la última fecha (UTC) que el usuario participó en una actividad de los equipos.</li> </ul> Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
+|**1**   |El informe de uso de dispositivos de Teams se puede visualizar para las tendencias de los últimos 7 días o 28 días.  |
+|**2**   |Cada informe tiene una fecha en la que se generó el informe. Normalmente, el informe refleja una latencia de 24 a 48 horas desde el momento de actividad. |
+|**3**   |<ul><li>El eje X del gráfico representa los diferentes dispositivos (**Windows**, **Mac**, **iOS**, **teléfono Android**) que se usan para conectarse a teams. </li><li>El eje Y es el número de usuarios que usan el dispositivo durante el período de tiempo seleccionado.</li> </ul>Desplace el puntero sobre la barra que representa un dispositivo para ver el número de usuarios que usan el dispositivo para conectarse a teams.|
+|**4**   |La tabla ofrece un desglose del uso del dispositivo por parte del usuario. <ul><li>**Nombre para mostrar** es el nombre para mostrar del usuario. Puede hacer clic en el nombre para mostrar para ir a la página de configuración del usuario en el centro de administración de Microsoft Teams. </li><li>**Windows** se selecciona si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo basado en Windows.</li><li>**Mac** está seleccionado si el usuario ha estado activo en el cliente de escritorio de Teams en un equipo Mac OS. </li> <li>**iOS** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para iOS.</li><li>**Teléfono Android** está seleccionado si el usuario ha estado activo en el cliente móvil de Teams para Android. <li>**Última actividad** es la última fecha (UTC) en la que el usuario participó en una actividad de Teams.</li> </ul> Para ver la información que quiera en la tabla, asegúrese de agregar las columnas a la tabla. |
 |**5**   |Seleccione **Editar columnas** para agregar o quitar columnas en la tabla. |
-|**6**   |Puede exportar el informe a un archivo CSV para su análisis sin conexión. Haga clic en **Exportar a Excel**y, a continuación, en la ficha de **descargas** , haga clic en **Descargar** para descargar el informe cuando está listo.<br>![Captura de pantalla de la ficha de descargas que muestra informes para descargar exportados](../media/teams-reports-export-to-csv.png)|
+|**6**   |Puede exportar el informe a un archivo CSV para analizarlos sin conexión. Haga clic en **exportar a Excel**y, a continuación, en la pestaña **descargas** , haga clic en **Descargar** para descargar el informe cuando esté listo.<br>![Captura de pantalla de la pestaña descargas que muestra los informes exportados](../media/teams-reports-export-to-csv.png)|
 
 ## <a name="related-topics"></a>Temas relacionados
 - [Análisis e informes de Teams](teams-reporting-reference.md)

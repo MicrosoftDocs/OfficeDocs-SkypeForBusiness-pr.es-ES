@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b6f96b2f3dd7993d6cb3d5b732e0796a215ebae
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344652"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494421"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -35,7 +35,7 @@ Seguramente, el concepto de "administración de servicios" no es nuevo para la m
 En la administración de servicios se incluyen todas las actividades y procesos que se ven implicados en la administración de Microsoft Teams de un extremo a otro. Algunos de los componentes de la administración de servicios (los componentes de infraestructura de los que consta el mismo servicio de Office 365) son responsabilidad de Microsoft, mientras que el cliente debe responder ante sus clientes de la administración de diversos aspectos de Teams, la red y los puntos de conexión que se ofrecen.
 Para ver una descripción completa de la responsabilidad del cliente en la administración de servicios de Teams y cómo esto se relaciona con los componentes clave que respaldan la calidad de la experiencia del usuario, consulte [Plan para la calidad y la administración de servicios](https://docs.microsoft.com/MicrosoftTeams/envision-planning-for-service-management-and-quality-complete-guide).
 
-![Diagrama de los tres componentes de calidad (servicio de Office 365, red y puntos de conexión) y cómo estos tres componentes se superponen en la administración de servicios.](media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad (servicio de Office 365, red y puntos de conexión) y cómo estos tres componentes se superponen en la administración de servicios.")
+![Diagrama de los tres componentes de calidad] (media/plan-my-service-management-image1.png "Diagrama de los tres componentes de calidad--Office 365, servicio, red y puntos de conexión, y cómo la administración de servicios se superpone a los tres.")
 
 <!--ENDOFSECTION-->
 
@@ -92,7 +92,7 @@ Las tareas y las actividades que se asocian al rol también se explican en la Gu
 
 La Guía de revisión de la experiencia de calidad incluye un conjunto de actividades que se utilizan para evaluar y ofrecer acciones correctivas en áreas clave que influyen en gran medida en mejorar la experiencia de usuario, como se muestra en la figura siguiente.
 
-![Las áreas clave que se deben examinar durante una revisión de experiencia de calidad: audio, confiabilidad y resultados de las encuestas a los usuarios.](media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de experiencia de calidad: audio, confiabilidad y resultados de las encuestas a los usuarios.")
+![Ilustración de las áreas clave que se deben examinar durante una revisión de la experiencia de calidad] (media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de la experiencia de calidad: el audio, la fiabilidad y los resultados de la encuesta.")
 
 Al evaluar y corregir de forma continua las áreas que se describen en este documento, se reducen los posibles efectos negativos que puedan afectar a la experiencia de usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 

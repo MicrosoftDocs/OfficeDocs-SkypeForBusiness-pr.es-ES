@@ -10,14 +10,14 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: d959a4b3ff04a8f2de9182d0df9cc5f63941a5dd
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34280853"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494191"
 ---
-# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange  
+# <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
 En referencia al [anuncio](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) el 8 de febrero de 2019, Microsoft retira el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo ofrece un resumen de lo que los clientes afectados deberían saber y hacer para planificar su continuidad empresarial. 
  
@@ -30,9 +30,9 @@ El buzón de voz es principalmente una migración dirigida por Microsoft; es pos
 
 Los clientes que consumen cualquiera de las siguientes características del servicio en línea de mensajería unificada de Exchange se ven afectados:
 
-1. Servicio de buzón de voz 
-2. Servicio de operador automático 
-3. Integración de fax 
+- Servicio de buzón de voz
+- Servicio de operador automático
+- Integración de fax
 
 > [!Note]
 > Los clientes que usan cualquiera de los servidores de Exchange local con mensajería unificada no se ven afectados. 
@@ -56,7 +56,6 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
  
     Familiarícese con el [anuncio del blog](https://blogs.technet.microsoft.com/exchange/2019/02/08/retiring-unified-messaging-in-exchange-online/) y este artículo para planear una migración sin problemas para los usuarios. Consulte [comprobar el buzón de voz y las opciones de Skype empresarial](https://support.office.com/en-us/article/check-skype-for-business-voicemail-and-options-2deea7f8-831f-4e85-a0d4-b34da55945a8) para obtener más información sobre las funciones de buzón de voz en la nube.  
  
-
 2.  **Establecer una topología híbrida de Skype empresarial**
 
     Si no tiene establecida una topología híbrida de Skype empresarial, debe hacerlo para permitir una migración fluida de los usuarios del buzón de voz. Consulte [configurar la implementación híbrida de Skype empresarial](../../SfbHybrid/hybrid/configure-federation-with-skype-for-business-online.md) para obtener más información. 
@@ -82,21 +81,32 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
     > [!Note]
     > Si recibió una notificación con la escala de tiempo de la migración de los usuarios y desea posponer la migración por un motivo importante para la empresa, puede hacerlo poniéndose en contacto con el soporte técnico de Microsoft. Tenga en cuenta que no puede posponer la migración más allá de la fecha de retiro, 2020 de febrero. Para los clientes que pueden tener más preguntas, comuníquese con su equipo de cuenta o con el soporte técnico de Microsoft. Los clientes que ya usan Office 365 pueden enviar un caso de soporte técnico a través del portal de administración de Office 365. 
 
-6. **Puedes optar por no partir de mayo de 2019**
+6. **Considere la posibilidad de optar por una migración planeada**
 
-    Puede optar por una migración temprana del servicio de buzón de voz por 2019 de mayo (si no ha recibido una notificación de migración), para alinear su migración con una anualidad de licencia o vacaciones del personal de administración, o para evitar períodos críticos para el negocio. Los detalles sobre el proceso de participación se actualizarán en este artículo antes del 2019 de mayo.  
+    Puede optar por una migración de servicio de buzón de voz planificada a CVM. Antes de optar por, revise los detalles de este artículo, especialmente las secciones siguientes:
+
+    - Pasos de la migración (esta sección)
+    - Matriz de características de los servicios basados en la nube de ExchUMO y Azure
+    - Impacto de la experiencia del usuario
+
+    Tenga en cuenta que, al optar por una migración administrada, no recibirá una notificación de 30 días antes de la migración en el centro de mensajes del portal de administración de Microsoft 365.
+ 
+    Para participar en una migración planeada, envíe una solicitud de correo electrónico a [CVM@microsoft.com](mailto:cvm@microsoft.com)con la dirección de correo electrónico del administrador, con la siguiente información:
+
+    - Fecha preferida (martes): las ondas de migración se ejecutan todos los martes. Selecciona una fecha del martes que no esté más allá del 12/3/2019.
+ 
+    - IDENTIFICADOR de inquilino: 32 caracteres del número en este formato 0046728c-688a-4472-a38f-098fec60ac6x. Puede encontrar su identificador de inquilino en el portal de administración de Microsoft 365 en Azure Active Directory o ejecutando el siguiente cmdlet de PowerShell:`Get-CsTenant | Select ObjectId`
+ 
+    Recibirá una confirmación por correo electrónico una vez que el inquilino se haya migrado correctamente. 
 
 ## <a name="appendix"></a>Apéndice
 
-### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matriz de características de los servicios basados en la nube de ExchUMO y Azure 
-
-
-
+### <a name="exchumo-and-azure-cloud-based-services-feature-matrix"></a>Matriz de características de los servicios basados en la nube de ExchUMO y Azure
 
 | Service | Nivel de característica | Característica | Notas  | VM en la nube/AA  | ExUMO |
 |---------|-------|--------|----|--------|------|
 | MEDIO  | Características del servicio| Admitir PBX de terceros    | Incluye todas las características proporcionadas a PBX de terceros, como MWI (indicador de mensaje en espera) con mensajes de notificación SIP de la mensajería instantánea en línea de Exchange | N   | Y    |
-| MEDIO | Características del servicio  | Compatibilidad con Skype empresarial Server   |  | Y | S    |
+| MEDIO | Características del servicio  | Compatibilidad con Skype empresarial Server   |  | S | S    |
 | MEDIO | Características del servicio | Soporte técnico de Microsoft Teams|  | Y | N    |
 | MEDIO | Características del servicio | eDiscovery y retención  | Para la seguridad y el cumplimiento  | S | S    |
 | MEDIO | Características del servicio | Compatibilidad con las reglas de Exchange | Para la seguridad y el cumplimiento  | S | S    |
@@ -113,8 +123,8 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Características de usuario | Configuración de usuario para deshabilitar la transcripción |  | N | Y    |
 | MEDIO | Características de usuario | Cripciones  |  | S | S    |
 | MEDIO | Características de usuario | Buzón de voz visual en todos los puntos de conexión   | Con control de usuario para reproducir, eliminar, indicador de espera de mensaje y alternancia de estado, en todos los puntos de conexión compatibles  | S | S    |
-| MEDIO | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | S | S    |
-| MEDIO | Características de usuario | Control de reproducción de velocidad variable |  | S | S    |
+| MEDIO | Características de usuario | Formato de archivo de audio MP3 en Outlook    |  | Y | S    |
+| MEDIO | Características de usuario | Control de reproducción de velocidad variable |  | Y | S    |
 | MEDIO | Características de usuario | Reenviar un mensaje de voz  | Reenviar un mensaje de voz recibido a otros usuarios | Y | S    |
 | MEDIO | Características de usuario | Enviar un mensaje de voz a un grupo de usuarios  |Difusión del buzón de voz   | N | Y   |
 | MEDIO | Características de usuario | Notificación del buzón de voz con SMS    | Los usuarios pueden recibir un SMS cuando tienen un mensaje de voz nuevo    | N | Y    |
@@ -131,7 +141,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | MEDIO | Espacio empresarial-características de administración | Cambiar el tiempo de espera de detección de silencio    |  | N/D    | Y    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar número de error de entrada | CVM: codificado en 3 | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Cambiar el idioma predeterminado |  | Y | S    |
-| MEDIO | Espacio empresarial-características de administración | Deshabilitar/habilitar transcripción |  | Y | S    |
+| MEDIO | Espacio empresarial-características de administración | Deshabilitar/habilitar transcripción |  | S | S    |
 | MEDIO | Espacio empresarial-características de administración | Deshabilitar o habilitar la notificación de llamada perdida |  | N | Y    |
 | MEDIO | Espacio empresarial-características de administración | Ayudar a Microsoft a mejorar la vista previa del correo de voz    |  | S | S    |
 | MEDIO | Espacio empresarial-características de administración | Personalizar mensaje de texto para usuarios habilitados|  | N/D    | Y    |
@@ -162,8 +172,6 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | AA | Espacio empresarial-características de administración | Cmdlets de PowerShell  |  | S | S    |
 | Fax| Características del servicio | Integración de fax|  | N | Y    |
 
-
-
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de prueba sugerido y validación posterior a la migración para administradores
 
 Cuando pruebe la funcionalidad de buzón de voz una vez que los usuarios hayan migrado, asegúrese de tener en cuenta los siguientes escenarios:
@@ -173,7 +181,6 @@ Cuando pruebe la funcionalidad de buzón de voz una vez que los usuarios hayan m
 - Si su organización tiene un requisito legal o de cumplimiento para deshabilitar la transcripción para los usuarios, asegúrese de que está deshabilitada después de la migración. Para obtener más información, consulte [configurar el buzón de voz en la nube](/microsoftteams/set-up-phone-system-voicemail).
 - Si ha configurado previamente directivas y reglas de la máquina virtual de Exchange, asegúrese de que son eficaces.
 - Familiarícese con los cmdlets de PowerShell del servicio de buzón de voz en la nube para cambiar la configuración de usuario.  
-
 
 ### <a name="user-experience-impact"></a>Impacto de la experiencia del usuario
 

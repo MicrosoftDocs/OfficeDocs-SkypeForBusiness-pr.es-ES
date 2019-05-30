@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: f4dd1cac59cd15efa014aa2efbe83b0cb6e4f991
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e26dc18f056f3493f6fcbdea2edee747d8abfa0b
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34294020"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548824"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -37,13 +37,13 @@ Las aplicaciones se anclan a la barra de la aplicación. Esta es la barra en el 
 
 |Cliente de escritorio de Teams  |Cliente móvil de Teams |
 |---------|---------|
-|![App-Setup-Policies-Desktop-App-bar. png](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![App-Setup-Policies-Mobile-App-bar. png](media/app-setup-policies-mobile-app-bar.png)      |
+|![Captura de pantalla que muestra el cliente de escritorio de Teams](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Captura de pantalla que muestra el cliente móvil de Teams](media/app-setup-policies-mobile-app-bar.png)      |
 
 Las directivas de configuración de aplicaciones se administran en el centro de administración de Microsoft Teams. Puede usar la directiva global (opción predeterminada para toda la organización) o crear directivas personalizadas y asignarlas a los usuarios. Los usuarios de la organización obtendrán automáticamente la directiva global a menos que cree y asigne una directiva personalizada.
 
 Puede editar la configuración de la directiva global para incluir las aplicaciones que desee. Si desea personalizar Teams para diferentes grupos de usuarios de su organización, cree y asigne una o más directivas personalizadas. Si un usuario tiene asignada una directiva personalizada, esa Directiva se aplica al usuario. Si un usuario no tiene asignada una directiva personalizada, la política global se aplica al usuario.
 
-![App-Setup-Policies. png](media/app-setup-policies.png)
+![Captura de pantalla que muestra la página de directivas de configuración de la aplicación](media/app-setup-policies.png)
 
 > [!NOTE]
 > Si tiene equipos para el ámbito educativo, es importante que sepa que la aplicación asignaciones está anclada de forma predeterminada en la directiva global aunque, en este momento, no la verá en la directiva global. Será la cuarta aplicación de la lista de aplicaciones ancladas en los clientes de Teams.
@@ -58,11 +58,11 @@ Puede usar el centro de administración de Microsoft Teams para crear una direct
 4. Active o desactive la **opción permitir la carga de aplicaciones personalizadas**, en función de si desea permitir que los usuarios carguen aplicaciones personalizadas en Teams.
 5. En el panel **agregar aplicaciones ancladas** , busque las aplicaciones que desea agregar y, a continuación, haga clic en **Agregar**. También puede filtrar aplicaciones por directiva de permisos de aplicación. Cuando haya elegido la lista de aplicaciones, haga clic en **Agregar**.
 
-     ![App-Setup-Policies-Add-apps. png](media/app-setup-policies-add-apps.png)
+     ![Captura de pantalla que muestra el panel agregar aplicaciones ancladas](media/app-setup-policies-add-apps.png)
 
 6. Organice las aplicaciones en el orden en que desea que aparezcan en Teams y, a continuación, haga clic en **Guardar**.
 
-    ![App-Setup-Policies-New-Policy-Setup. png](media/app-setup-policies-new-policy-setup.png)
+    ![Captura de pantalla que muestra la sección aplicaciones ancladas](media/app-setup-policies-new-policy-setup.png)
 
 ## <a name="edit-an-app-setup-policy"></a>Editar una directiva de configuración de la aplicación
 
@@ -86,7 +86,7 @@ Puede usar el centro de administración de Microsoft Teams para asignar una dire
 2. Junto a **directivas asignadas**, elija **Editar**.
 3. En **Directiva de configuración de aplicaciones**de Teams, seleccione la Directiva de configuración de aplicaciones que desea asignar y, a continuación, elija **Guardar**.
 
-    ![App-Setup-Policies-Assign-Policy. png](media/app-setup-policies-assign-policy.png)
+    ![Captura de pantalla que muestra el panel editar directivas de usuario](media/app-setup-policies-assign-policy.png)
 
 También puede asignar una directiva de configuración de aplicaciones a uno o varios usuarios de la siguiente manera:
 
@@ -157,7 +157,7 @@ Para ver todas las aplicaciones que están ancladas a un usuario, es posible que
 |Cliente de escritorio de Teams |Cliente móvil de Teams |
 |---------|---------|
 |En la barra de la aplicación situada en el lateral de Teams, haga clic en **... Más aplicaciones**.| En la barra de la aplicación cerca de la parte inferior de Teams, deslice el dedo hacia arriba.|
-|![App-Setup-Policies-Desktop-More-apps. png](media/app-setup-policies-desktop-more-apps.png)<br>   |![App-Setup-Policies-Mobile-More-apps. png](media/app-setup-policies-mobile-more-apps.png)  
+|![Captura de pantalla que muestra más aplicaciones en el cliente de escritorio de Teams](media/app-setup-policies-desktop-more-apps.png)<br>   |![Captura de pantalla que muestra más aplicaciones en el cliente móvil de Teams](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>¿Qué debo saber sobre la experiencia móvil de Teams?
 

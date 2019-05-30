@@ -1,6 +1,6 @@
 ---
 title: Turnos para Teams
-description: Obtenga la orientación de administración que necesita para configurar y administrar turnos, la herramienta de administración de programación, en los equipos.
+description: Obtenga la guía de administración que necesita para configurar y administrar los turnos, la herramienta de administración de programación, en Teams.
 layout: LandingPage
 ms.topic: landing-page
 author: lanachin
@@ -12,18 +12,18 @@ ms.collection: Strat_MT_TeamsAdmin
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e1d8336719e8858819f81f6e174c20dac09aa429
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: aa060ac4707f223ea960bdda3c7bc53a8d134e80
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245911"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494509"
 ---
 # <a name="shifts-for-teams"></a>Turnos para Teams
 
-Los equipos ofrece a los trabajadores de Firstline en su organización las herramientas que necesitan para comunicarse y colaborar eficazmente y realice el mejor trabajo. Aquí encontrará las instrucciones de administración que necesita para configurar y administrar turnos, la herramienta de administración de programación, en los equipos.
+Teams proporciona a los trabajadores de los Firstline de su organización las herramientas que necesitan para comunicarse y colaborar de forma eficaz, y realizar su mejor trabajo. Aquí encontrará las instrucciones para administradores que necesita para configurar y administrar turnos, la herramienta de administración de programación, en Teams.
 
-### <a name="move-from-staffhub-to-shifts-in-teams"></a>Mover de StaffHub a turnos en los equipos
+### <a name="move-from-staffhub-to-shifts-in-teams"></a>Desplazarse de StaffHub a turnos en Teams
 
 <ul class="panelContent cardsFTitle">
  <li>
@@ -33,11 +33,11 @@ Los equipos ofrece a los trabajadores de Firstline en su organización las herra
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/get-started-teams.svg" alt="An icon depicting a pointing hand and arrow" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Obtenga información sobre StaffHub retirada y la transición a turnos en los equipos</h3>
+                        <h3>Obtener información sobre la jubilación de StaffHub y la transición a los cambios en Teams</h3>
                     </div>
                 </div>
             </div>
@@ -51,11 +51,11 @@ Los equipos ofrece a los trabajadores de Firstline en su organización las herra
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="Migration" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/migration-teams.svg" alt="An icon depicting migrating information" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Mover los equipos de StaffHub a turnos en los equipos</h3>
+                        <h3>Mover los equipos de StaffHub a los cambios en Teams</h3>
                     </div>
                 </div>
             </div>
@@ -69,11 +69,11 @@ Los equipos ofrece a los trabajadores de Firstline en su organización las herra
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="what's new" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/whats-new-megaphone-teams.svg" alt="A megaphone icon depicting what's new" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Características de trabajador Firstline dirigido a los equipos</h3>
+                        <h3>Las características de los trabajadores de los Firstline llegarán a teams</h3>
                     </div>
                 </div>
             </div>
@@ -92,11 +92,11 @@ Los equipos ofrece a los trabajadores de Firstline en su organización las herra
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="checklist" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/task-checklist-planning-teams.svg" alt="A checklist icon depicting managing shifts" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Administrar cambios en la organización</h3>
+                        <h3>Administrar los turnos de la organización</h3>
                     </div>
                 </div>
             </div>
@@ -110,11 +110,11 @@ Los equipos ofrece a los trabajadores de Firstline en su organización las herra
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/en-us/office/media/icons/Help.svg" alt="A question mark icon depicting help" />
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Ayuda para los trabajadores de Firstline se desplaza</h3>
+                        <h3>Desplaza la ayuda para los trabajadores de los Firstline</h3>
                     </div>
                 </div>
             </div>

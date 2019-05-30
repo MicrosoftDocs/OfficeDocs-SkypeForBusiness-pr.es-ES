@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: Aprenda a configurar el sistema telefónico para las colas de llamadas en nube para que le proporcione un saludo organizacional, música en espera y redirija las llamadas a agentes de llamadas en listas de distribución y grupos de seguridad. You can also set the maximum queue size, time out, and call handling options.
-ms.openlocfilehash: 3fc7dc69fad9e249c29758ae9bd0c30038520408
-ms.sourcegitcommit: d010c615ee530deb34d79a1a62815ef0a52a2086
+ms.openlocfilehash: 3c98f7c9b8bb96b4c3792e4ec5abe92628d8e914
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34404313"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34549014"
 ---
 # <a name="create-a-cloud-call-queue"></a>Crear una cola de llamadas en la nube
 
@@ -127,18 +127,18 @@ En el **centro de administración de Microsoft Teams**,**colas de llamadas**de *
 
 ### <a name="set-the-call-queue-display-name-and-resource-account"></a>Establecer el nombre para mostrar de la cola de llamadas y la cuenta de recursos
 
-![Setting up a call queue.](media/37ecc300-a108-4294-8463-fce570dfce72.png)
+![Captura de pantalla de una nueva cola de llamadas con llamadas numeradas](media/37ecc300-a108-4294-8463-fce570dfce72.png)
 
 * * *
 
-![](media/sfbcallout1.png)
-**Nombre** del número 1 Escriba un nombre descriptivo para mostrar para la cola de llamadas. Este campo es obligatorio y puede tener hasta 64 caracteres, espacios incluidos.
+![Icono del número 1, que hace referencia a una llamada en el](media/sfbcallout1.png)
+**nombre** de captura de pantalla anterior escriba un nombre descriptivo para la cola de llamadas. Este campo es obligatorio y puede tener hasta 64 caracteres, espacios incluidos.
 
  Este nombre se mostrará en la notificación de la llamada entrante.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 **Agregar cuentas** Seleccione una cuenta de recursos. La cuenta de recursos puede estar asociada o no a un número de teléfono gratuito de servicio o a un número de teléfono gratuito para la cola de llamadas, pero cada cola de llamadas requiere una cuenta de recursos asociada.
 
@@ -149,17 +149,17 @@ Si no hay ninguna lista, debe obtener números de servicio y asignarlos a una cu
 
 ### <a name="set-the-greeting-and-music-played-while-on-hold"></a>Establecer el mensaje de saludo y la música que se debe reproducir durante el tiempo en espera
 
-![Setting up a call queue.](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
+![Captura de pantalla de las opciones de saludo y música, con llamadas numeradas](media/1d395a93-7cab-4178-9295-12d5379e20de.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 **Saludo**: este campo es opcional. Este es el saludo que se reproduce para las personas que llaman al número de la cola de llamadas.
 
 Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 **Música en espera** Puede usar la música predeterminada en espera proporcionada con la cola de llamadas, o bien puede cargar un archivo de audio en formato. wav, MP3 o. WMA para usarlo como música personalizada en espera.
 
@@ -167,9 +167,9 @@ Puede cargar un archivo de audio (en formato. wav,. mp3 o. WMA).
 
 ### <a name="select-the-call-answering-options"></a>Selecciona las opciones de contestador automático
 
-![Muestra las opciones del método de distribución de la llamadas](media/5d249515-d532-4af2-90da-011404028b89.png)
+![Captura de pantalla de opciones de contestador automático con llamadas numeradas](media/5d249515-d532-4af2-90da-011404028b89.png)
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 Puede seleccionar hasta 200 agentes de llamadas pertenecientes a grupos o listas de distribución de correo especificados. Los agentes de llamadas deben ser:
 
@@ -184,9 +184,9 @@ Puede seleccionar hasta 200 agentes de llamadas pertenecientes a grupos o listas
 
 - Si los agentes usan la aplicación Microsoft Teams para recibir llamadas en la cola de llamadas, deben estar en modo TeamsOnly.
 
-![Set up call queues.](media/skype-for-business-add-agents-to-call-queue.png)
+![Captura de pantalla del panel agregar agentes de llamadas](media/skype-for-business-add-agents-to-call-queue.png)
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 **Método de enrutamiento** Puede elegir entre **operador**, **serie**o **Round Robin** para el método de distribución de la cola de llamadas. De manera predeterminada, todas las colas de llamadas nuevas y existentes tienen un enrutamiento a operador seleccionado. Cuando se usa el enrutamiento de operador, la primera llamada en la cola sonará a todos los agentes de llamadas al mismo tiempo. El primer agente de llamadas que atiende la llamada recibe la llamada.
 
@@ -198,11 +198,11 @@ Puede seleccionar hasta 200 agentes de llamadas pertenecientes a grupos o listas
 
 ### <a name="select-an-agent-opt-out-option"></a>Seleccionar una opción de no participación de agente
 
-![Muestra la casilla de verificación de no participación de agente](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
+![Captura de pantalla de las opciones de cancelación del agente, con llamadas numeradas](media/99279eff-db61-4acf-9b62-64be84b6414b.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 **Opción de no participación de agente** Puede elegir esta opción para permitir a los agentes de la cola de llamadas no participar en la recepción de llamadas procedentes de una cola determinada mediante la selección de **Opción de no participación de agente**.
 
@@ -217,8 +217,8 @@ Para obtener acceso a la opción de no participación, los agentes pueden hacer 
     > [!NOTE]
     > Los agentes que usen aplicaciones o extremos distintos del escritorio de Skype empresarial pueden acceder a la opción de cancelación del portal [https://aka.ms/cqsettings](https://aka.ms/cqsettings)de configuración de usuario.
 
-![Configuración de](media/sfbcallout2.png)
-**alertas del agente** número 2
+![Icono del número 2, que hace referencia a una llamada en la](media/sfbcallout2.png)
+**configuración de alerta del agente** de captura de pantalla anterior
 
 Esto define la duración de un agente de notificación de una llamada antes de que los métodos de enrutamiento de serie o de turnos pasen al siguiente agente.
 
@@ -228,17 +228,17 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 
 ### <a name="set-the-call-overflow-and-timeout-handling-options"></a>Establecer las opciones de desbordamiento de llamadas y administración de tiempo de espera
 
-![Set up a call queue.](media/3f018734-16fe-458b-827d-71fc25155cde.png)
+![Captura de pantalla de las opciones de control de desbordamiento con llamadas numeradas](media/3f018734-16fe-458b-827d-71fc25155cde.png)
   
 * * *
 
-![Número 1](media/sfbcallout1.png)
+![Icono del número 1, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout1.png)
 
 **Número máximo de llamadas en la cola**: use esta opción para establecer el número máximo de llamadas que pueden esperar en la cola al mismo tiempo. El valor predeterminado es 50, pero puede estar comprendido entre 0 y 200. Una vez alcanzado el límite, la llamada se administrará del modo que establezca en el ajuste **Cuando se alcanza el número máximo de llamadas**, que se describe a continuación.
 
 * * *
 
-![Número 2](media/sfbcallout2.png)
+![Icono del número 2, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout2.png)
 
 **Cuando se alcanza el número máximo de llamadas** Cuando la cola de llamadas alcanza su tamaño máximo (establecido mediante las **llamadas máximas en la configuración de la cola** ), puede elegir qué sucede con las llamadas entrantes nuevas.
 
@@ -253,13 +253,13 @@ La configuración predeterminada es de 30 segundos, pero se puede establecer has
 
 * * *
 
-![Número 3](media/sfbcallout3.png)
+![Icono del número 3, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout3.png)
 
 **Tiempo de espera de llamada: tiempo de espera máximo** También puede decidir cuánto tiempo puede estar en espera una llamada en la cola antes de que se agote el tiempo de espera y deba redirigirse o desconectarse. Adónde se redirigirá depende de cómo configure el ajuste **Cuando una llamada agota el tiempo de espera**. Puede establecer un intervalo de entre 0 y 45 minutos.
 
 El valor de tiempo de espera se puede establecer en segundos, en intervalos de 15 segundos. Esto permite manipular el flujo de llamadas con una granularidad más fina. Por ejemplo, puede especificar que las llamadas no contestadas por un agente en un plazo de 30 segundos vayan a un operador automático de búsqueda de directorios.
 
-![Número 4](media/sfbcallout4.png)
+![Icono del número 4, que hace referencia a una llamada en la captura de pantalla anterior](media/sfbcallout4.png)
 
 **Cuando la llamada supera el tiempo de salida** Cuando la llamada alcanza el límite establecido en el valor de **tiempo que puede esperar una llamada en la cola** , puede elegir lo que le sucede a esta llamada:
 

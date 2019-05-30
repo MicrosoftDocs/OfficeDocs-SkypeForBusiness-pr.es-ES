@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - Reporting
 description: El nuevo área informes del centro de administración de Skype empresarial muestra la actividad de llamadas y audioconferencias en su organización. Le permite profundizar en los informes para proporcionarle información más detallada sobre las actividades de cada usuario. Por ejemplo, puede usar el informe Detalles de uso de RTC de Skype Empresarial para ver el número de minutos dedicados a llamadas entrantes y salientes, así como el coste de dichas llamadas. Puede ver los detalles de uso de RTC de conferencias de audio, incluido el costo de la llamada, para que pueda comprender su uso y los detalles de facturación para determinar el uso dentro de su organización.
-ms.openlocfilehash: e1753915753c110a615edb108b2ff98efe237aa6
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: dafe072cb327cde15cf4a02ca9e1c71a30f4431b
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34287728"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493991"
 ---
 # <a name="pstn-usage-report"></a>Informe de uso de RTC
 
@@ -38,7 +38,7 @@ Este informe, junto con los otros informes de Skype empresarial, ofrece detalles
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Cómo acceder al informe Detalles de uso de RTC de Skype Empresarial
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 - Vaya al centro de administración de **Office 365** > **** > el centro > de administración centro**de administración de Skype empresarial****informa** > de los**detalles de uso de RTC**.
     

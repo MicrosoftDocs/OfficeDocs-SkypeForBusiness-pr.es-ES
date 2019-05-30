@@ -11,12 +11,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Información de planificación y configuración de Skype empresarial Server para la pantalla compartida basada en vídeo (VbSS)
-ms.openlocfilehash: 551f409ceed73591ad8184e421bb21fda58ef2c3
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ae2cc683148fdb2a2cb80e3fe3cf25a698a56c00
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34275055"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548998"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Pantalla compartida basada en vídeo para Skype Empresarial Server 
  
@@ -72,8 +72,8 @@ Si QoS está habilitado para los siguientes puertos multimedia y VbSS también s
 |AudioPortCount  <br/> |8348  <br/> |UDP  <br/> |
 |**VideoPortStart** <br/> |**57501** <br/> |UDP  <br/> |
 |**VideoPortCount** <br/> |**8034** <br/> |UDP  <br/> |
-|AppSharingPortStart  <br/> |40803  <br/> |UDP  <br/> |
-|AppSharingPortCount  <br/> |8348  <br/> |UDP  <br/> |
+|AppSharingPortStart  <br/> |40803  <br/> |TCP  <br/> |
+|AppSharingPortCount  <br/> |8348  <br/> |TCP  <br/> |
    
 ### <a name="capacity-planning"></a>Planificación de la capacidad
 

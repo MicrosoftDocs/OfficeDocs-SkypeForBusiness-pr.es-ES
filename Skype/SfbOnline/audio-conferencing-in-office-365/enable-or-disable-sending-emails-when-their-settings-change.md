@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Learn how to enable or disable Skype from sending emails to users when settings such as pin changes or the default conferencing number changes. '
-ms.openlocfilehash: 9581589dcc9b07ed5745069f56d6f2ba3561feae
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: ac3f6b94f0ddb4410d89ecd95aef346eb32c9ff1
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290124"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494230"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-skype-for-business-online"></a>Habilitar o deshabilitar el envío de correos electrónicos cuando cambia la configuración de las conferencias de audio en Skype empresarial online
 
@@ -62,7 +62,7 @@ Este es un ejemplo del correo electrónico que se envía a los usuarios cuando e
 Habilitar o deshabilitar el envío de correos electrónicos a los usuarios de acceso telefónico local
 
  
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
     
 1. En el **centro de administración de Skype empresarial**, en la barra de navegación izquierda, haga clic en **audioconferencia**.
     

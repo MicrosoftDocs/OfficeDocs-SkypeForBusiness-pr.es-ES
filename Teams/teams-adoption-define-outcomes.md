@@ -14,133 +14,133 @@ MS.collection:
 ms.reviewer: karuanag
 localization_priority: Normal
 search.appverid: MET150
-description: Obtenga información sobre cómo se va a medir los resultados empresariales y el éxito de la habilitación de gran escala de los equipos.
+description: Obtenga información sobre cómo medir los resultados y el éxito de su habilitación a escala general de Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 40d26bfe51bd4509485490ed816896b32a49245a
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: ad55031c06f114a8037715dff859d54f41b05a8c
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33896429"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548911"
 ---
 # <a name="define-outcomes-and-success-for-your-microsoft-teams-adoption"></a>Definir resultados y el éxito de su adopción de Microsoft Teams
 
-Para cada escenario de negocio o servicio que modernizar la, es fundamental para definir qué éxito el aspecto de su negocio. Habrá recopilada esa información para los escenarios de iniciales, tal y como se asignó en la fase anterior. Mientras se prepara para la implementación de escala, debe revisar y expanda estos criterios de éxito importante.
+Para cada escenario o servicio de negocios que modernice, es fundamental definir el éxito de su empresa. Usted habrá recopilado esa información para sus escenarios iniciales a medida que las asignó en su fase anterior. Mientras prepara para su implementación a escala, tendrá que volver a visitar y expandir estos importantes criterios de éxito.
   
-Lo que sigue es una estrategia recomendada para la asignación de estos criterios. Existen muchos enfoques válidos para este paso. Puede seguir a nuestra guía o siga a la Guía del socio de Microsoft con que puede estar trabajando. Independientemente del método que elija, asegúrese de que los resultados de su negocio son compatibles con la implementación técnica de los servicios y los objetivos generales de su organización.
+Lo que sigue es una estrategia recomendada para asignar estos criterios. Hay muchos enfoques válidos para este paso. Puede seguir nuestra guía o seguir la guía del socio de Microsoft con el que esté trabajando. Sea cual sea el método que elija, asegúrese de que los resultados de su empresa son compatibles con la implementación técnica de los servicios y los objetivos generales de su organización.
   
-Hay cuatro categorías de resultados que pueden prioriza para su negocio. Que están conectados entre sí y que conforman los cimientos de la modernización y transformación digital que experimentarán los empleados individuales.  
+Existen cuatro categorías de resultados que se pueden priorizar para tu empresa. Están interconectados y forman la base de la modernización y la transformación digital que experimentarán los empleados individuales.  
 
-![Cuatro categorías de resultado](media/teams-adoption-outcomes.png)
+![Gráfico que ilustra las cuatro categorías de resultados](media/teams-adoption-outcomes.png)
 
-Ejemplo de resultados en cada categoría son:
+Un ejemplo de los resultados de cada categoría son:
 
-- **Organizativa**
+- **Organización**
    - Transformación cultural
    - Retención de empleados
-   - Adquisición de talentos
-   - Compromiso sociales
+   - Adquisición de talento
+   - Compromiso social
    - Agilidad operativa 
 
-- **Culturales**
-   - Opinión de los clientes de empleado
-   - Recomendaciones de empleado
-   - Comentarios del cliente
-   - Medidas de innovación (por ejemplo, las contribuciones del foro de idea, hackathons, contrataciones de innovación de productos)
+- **Referencia**
+   - Opinión del empleado
+   - Recomendaciones de empleados
+   - Comentarios de los clientes
+   - Medidas de innovación (por ejemplo, contribuciones del Foro de ideas, hackathons, contrataciones de innovación de productos)
 
-- **Tangibles**
-   - Impactos de la experiencia del cliente (servicio más rápido, reducción de incidentes de servicio, participación en el programa cliente referencia/fidelidad)
+- **Entender**
+   - Impactos en la experiencia del cliente (servicio más rápido, reducción en incidentes de servicio, remisión de cliente/participación en el programa de lealtad)
    - Ahorro de costos
    - Generación de ingresos
    - Seguridad de los datos
-   - Simplificación de los procesos
-   - Retiro de sistemas heredados
+   - Simplificación del proceso
+   - Retirada de sistemas heredados
    
-- **individual**
-   - Uso de herramientas que desee
-   - Morale empleado
+- **Independiente**
+   - Uso de las herramientas deseadas
+   - Moral de los empleados
    - Productividad de los empleados
-   - Participación de los empleados
-   - Generación de idea
+   - Compromiso del empleado
+   - Generación de ideas
  
-En general, se debe considerar estas medidas de agregación para crear un cociente de cambio para la compañía de esta manera:
+En general, debe considerar que estas medidas se agregan para crear un cociente de cambio para su empresa de la siguiente manera:
 
-![Cociente de cambio](media/teams-adoption-change-quotient.png)
+![Medidas tangibles divididas por el valor de la Procien](media/teams-adoption-change-quotient.png)
 
-## <a name="select-a-service-enablement-strategy"></a>Seleccione una estrategia de habilitación de servicio
+## <a name="select-a-service-enablement-strategy"></a>Seleccionar una estrategia de habilitación de servicio
 
-Los equipos es una tecnología de transformación, así que, dependiendo del tamaño de la organización y sus tecnologías existentes, puede tardar enfoques diferentes. Tenga en cuenta estas estrategias:
+Teams es una tecnología de transformación, de modo que, según el tamaño de la organización y las tecnologías existentes, puede tomar diferentes enfoques. Considere estas estrategias:
 
-| En primer lugar los equipos | Los equipos principales | Los equipos vaya grandes | Al lado de Skype | Migración |
+| Teams First | Teams Core | Los equipos son importantes | Skype en paralelo | Migración |
 |------------ | ---------- | ------------ | ------------------ | --------- |
-| Implementación de clientes potenciales en la nube con los equipos | Habilitación de escenario de colaboración con los equipos de potenciales | Todos los empleados en los equipos y los equipos de toda la organización | Habilitar equipos y Skype para la empresa | Migrar usuarios de Skype para la empresa a los equipos |
-| -Aplicable a los clientes de uso bajo o nuevo Office 365 <br/>-Potenciales con los equipos en el escenario específico del cliente <br/>-Resaltado integrado experiencia del usuario y tiempo acelerado para valor para Office 365 <br/>-Realizar planeación habilitación de carga de trabajo para evitar la implementación en serie | -Permiten a los equipos junto con OneDrive y SharePoint Online <br/>-Crear una intranet de la compañía para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Combinación perfecta**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para los clientes con menos de 1000 puestos (limitación actual)<br/>-Habilitar la entre la organización de colaboración con un equipo para todas las<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar tácticas de núcleo de los equipos para acelerar la colaboración<br/>-Resaltado orientación de escenario basándose en tamaño y conjunto de características necesario de la reunión</br>-Usar Skype para la empresa para la llamada de empresa, interoperabilidad y escenarios híbridos<br/>-Usar guía pública para la planeación de capacidad. |-Move plan para los equipos de Skype para la empresa mediante la creación de guía básica de estrategia de servicio para el cliente<br/>-Adjunta a la programación de la versión de característica<br/>-Recomienda incluidos lado por lado y los equipos de núcleo para facilitar la transición
+| Implementación de nube de clientes potenciales con Teams | Habilitación del escenario de colaboración de clientes potenciales con Teams | Todos los empleados de Teams y de equipos de toda la organización | Habilitar Teams y Skype empresarial | Migrar usuarios de Skype empresarial a teams |
+| -Se aplica a los clientes de Office 365 de uso nuevo o de uso reducido <br/>-Liderar con Teams en un escenario específico del cliente <br/>-Resalte la experiencia de usuario integrada y el tiempo acelerado para el valor de Office 365 <br/>-Lleve a cabo la habilitación de la carga de trabajo de planificación para evitar la implementación en serie | -Habilitar Teams junto con OneDrive y SharePoint Online <br/>-Crear una intranet de empresa para compartir recursos de noticias y vídeo con Microsoft Stream<br/>**Mejor juntos**: <br/>Microsoft Teams<br/>SharePoint<br/>Yammer<br/>Planner<br/>PowerApps |-Para clientes con menos de 1000 asientos (limitación actual)<br/>-Habilitar la colaboración entre organizaciones con un equipo para todos los<br/>-Automatizar tareas comunes (solicitudes de vacaciones, encuestas de empleados, participación ejecutiva) |-Usar las tácticas básicas de Teams para acelerar la colaboración<br/>-Resaltar la orientación del escenario de reunión según el tamaño y el conjunto de características requerido</br>-Usar Skype empresarial para las llamadas empresariales, la interoperabilidad y los escenarios híbridos<br/>-Usar el plan público para planear la capacidad. |-Planear el cambio a los equipos desde Skype empresarial creando un plan de estrategia de servicio para el cliente<br/>-Adjuntar a programación de versión de características<br/>-Recomendar la transición de lado a lado y de Teams para facilitar la transición
 
-Los siguientes son nuestras recomendaciones para la mayoría de las organizaciones de atención al cliente. Sin embargo, hay excepciones. Para obtener instrucciones para cualquier escenario que no están cubierta aquí, formular sus preguntas en nuestra comunidad tiende a adopción o llegar a la FastTrack equipo o la red de socios de Microsoft.
+Estas son nuestras recomendaciones para la mayoría de las organizaciones de clientes. Sin embargo, hay excepciones. Para obtener más información sobre cualquier escenario no cubierto aquí, realice sus preguntas en nuestra comunidad de adopción de la adopción o póngase en contacto con el equipo de FastTrack o la red de Partners de Microsoft.
 
-- **Elija la primera de los equipos o equipos principales**: la mayoría de las organizaciones tienen una inversión existente en la tecnología de Microsoft. Es posible que a habilitar más de una carga de trabajo al mismo tiempo, como Exchange Online, OneDrive para la empresa o SharePoint. En estos casos, la selección de los equipos de primera o principales de los equipos es una buena elección. Habilitará a acostumbrarse a la experiencia de una colaboración mejorada de los equipos de los usuarios. A continuación, puede planear su equipo de proyecto de colaboración a implantar funciones adicionales y el aprendizaje y soporte necesario para que sean correctas. 
+- **Seleccione Teams First o Teams Core**: la mayoría de las organizaciones tienen una inversión existente en tecnología de Microsoft. Es posible que esté habilitando más de una carga de trabajo a la vez, como Exchange Online, OneDrive para la empresa o SharePoint. En estos casos, seleccionar Teams First o Teams Core es una buena opción. Permitirá a los usuarios usar la experiencia de colaboración mejorada de Teams. El equipo de su proyecto de colaboración puede planear la implantación de capacidades adicionales y la formación y soporte técnico necesarios para que tengan éxito. 
 
-- **Elija los equipos vaya gran medida**: en nuevas organizaciones de atención al cliente de Office 365 a menudo es mejor adoptar un enfoque equipos vaya Big a fin de minimizar la resistencia de cambio causado por la nueva tecnología de aprendizaje varias veces. Obtendrá el máximo beneficio permitir a los equipos para colaboración principales y las reuniones, SharePoint, OneDrive, organizador tanto otras cargas de trabajo y permitir que sus empleados obtener más información acerca de ellos en el contexto de la implementación de los equipos. 
+- **Elija Teams go Big**: en las nuevas organizaciones de clientes de Office 365, a menudo es mejor tomar el enfoque grande de los equipos para minimizar la fatiga de los cambios que provoca la formación de nuevas tecnologías varias veces. Obtendrá los mayores beneficios al habilitar Teams para la colaboración básica y las reuniones, SharePoint, OneDrive, Planner y otras cargas de trabajo, y permitir que los empleados obtengan información sobre ellos en el contexto de la implementación de Teams. 
 
-    Los equipos vaya Big también es la estrategia de habilitación preferido para las organizaciones en 1.000 empleados que desean simplificar sus comunicaciones de los empleados y compromiso. Con el equipo de toda la organización, puede llevar personas conjuntamente para revisar las tareas comunes y las iniciativas en cualquier dispositivo. 
+    La gran importancia de los equipos es también la estrategia de habilitación preferida para las organizaciones de empresas de 1.000 empleados que desean simplificar la comunicación y la participación de sus empleados. Usar el equipo de toda la organización puede reunir a las personas para revisar tareas e iniciativas comunes en cualquier dispositivo. 
 
-- **Elija en paralelo**: para las organizaciones que usan Skype para la empresa para conferencias de audio, soporte para dispositivos para salas de conferencia, o las funciones de voz en la nube, se recomienda que ejecutan los equipos y Skype en paralelo para que se familiarice sus empleados con la principales características de colaboración, cuando planee la migración fuera de Skype para la empresa en un momento en que es conveniente para su empresa. Tenga en cuenta que ejecuta a ambos clientes paralelo puede cometer confusiones a los usuarios acerca de qué herramienta utilizar, por lo que se recomienda mantener esta fase en su viaje por la adopción breve. 
+- **Elija en paralelo**: para las organizaciones que usan Skype empresarial para conferencias de audio, compatibilidad con dispositivos de salas de conferencias o capacidades de voz en la nube, recomendamos la ejecución de Teams y de Skype en paralelo para familiarizar a sus empleados con el características básicas de colaboración, a la vez que se planea la migración fuera de Skype empresarial en un momento adecuado para su empresa. Tenga en cuenta que la ejecución de ambos clientes en paralelo puede presentar la confusión de los usuarios sobre qué herramienta usar, por lo que le recomendamos que se mantenga esta fase en el camino de adopción. 
 
-- **Elija migración**: migración de Skype para empresarial a los equipos tiene componentes adicionales desde una perspectiva técnica, pero el viaje por la adopción de usuario tiene los mismos componentes que una implementación de los equipos vaya grande. Además, va a instruir a personas acerca de la experiencia de reunión de los equipos e interfaz, el nuevo comportamiento de chat persistente y otros elementos de la experiencia que son diferentes de Skype para la empresa.
+- **Elegir migración**: migrar desde Skype empresarial a teams tiene componentes adicionales desde un punto de vista técnico, pero el viaje de adopción de usuarios tiene los mismos componentes que una implementación importante de Teams. Además, estará enseñando a las personas sobre la experiencia y la interfaz de los equipos, el nuevo comportamiento de la conversación persistente y otros elementos de la experiencia que difieren de Skype empresarial.
 
-Para cada estrategia de habilitación, es fundamental para trabajar estrechamente con su equipo de preparación técnica para asegurarse de que su entorno ofrecerá una experiencia de empleado excelente. 
+Para cada estrategia de habilitación, es esencial trabajar estrechamente con su equipo de preparación técnica para asegurarse de que su entorno ofrezca una experiencia de empleado excelente. 
 
-![Icono de Punto de decisión.](media/teams-adoption-decision-icon.png) Decisión: Seleccione una estrategia de habilitación que mejor compatibilidad con que los resultados de su negocio para Microsoft Teams y que se pueden habilitar el equipo de implementación técnica. Esta es una decisión conjunta entre liderazgo de TI, responsables de la administración de programa y especialistas de adopción de usuario. Esta decisión a menudo se coloque con los participantes ejecutivos quién es el propietario de éxito final para Microsoft Teams o servicios de colaboración en la organización.
+![Un icono que representa puntos de decisión](media/teams-adoption-decision-icon.png) Decisión: Seleccione una estrategia de habilitación que se adapte mejor a los resultados de su negocio para Microsoft Teams y que el equipo de implementación técnica pueda habilitar. Esta es una decisión conjunta entre el liderazgo de ti, los responsables de la administración de programas y los especialistas en adopción de usuarios. Esta decisión a menudo se reproduce con el participante Ejecutivo que es el titular de éxito avanzado para Microsoft Teams o los servicios de colaboración de su organización.
 
-Procedimiento recomendado: Estrategias de habilitación pueden ser adecuadas para una fase determinada del proyecto o programa de implementación de departamento. Utilizar los roles claves y sus necesidades para realizar selecciones. Trabajan estrechamente con su equipo de implementación técnica para garantizar una experiencia de alta calidad para los usuarios.  
+Procedimiento recomendado: las estrategias de habilitación pueden ser apropiadas para una fase determinada de su programa de implementación de proyecto o de división. Use los roles clave y sus necesidades para hacer selecciones. Trabaje estrechamente con su equipo de implementación técnica para garantizar una experiencia de alta calidad para sus usuarios.  
 
-## <a name="engage-stakeholders"></a>Contratar a las partes interesadas
+## <a name="engage-stakeholders"></a>Atraer participantes
 
-Comunicación y administración de las expectativas son elementos clave en un proyecto de cambio correcto. Es importante comunicarse con regularidad su visión general y del progreso hacia ese objetivo a las partes interesadas y otros usuarios en su organización. 
+La comunicación y la administración de las expectativas son elementos clave en un proyecto de cambio con éxito. Es importante comunicar regularmente su visión general y su progreso hacia ese objetivo a sus partes interesadas y a otras personas de su organización. 
 
-![Icono de Punto de decisión.](media/teams-adoption-decision-icon.png) Decisión: Decidir su ritmo y un método para comunicarse con las partes interesadas en la alineación con la cultura de la compañía. Dirigir las comunicaciones a los distintos niveles de contratación y el interés en toda la organización. 
+![Un icono que representa puntos de decisión](media/teams-adoption-decision-icon.png) Decisión: decida su ritmo y método para comunicarse con los participantes y alinearlos con la cultura de su empresa. Dirija sus comunicaciones a los distintos niveles de compromiso e interés en toda su organización. 
 
-Opción: Para crear una base de conocimientos continuada de información acerca de su proyecto, considere el uso de páginas de noticias en el sitio de comunicación de SharePoint. La biblioteca de página de noticias (páginas del sitio en el sitio de SharePoint asociado con el equipo de planeación) puede estar pública por lo que se pueden compartir con todas las partes interesadas.
+Opción: para crear una base de información en curso sobre el proyecto, considere la posibilidad de usar páginas de noticias en su sitio de comunicación de SharePoint. La biblioteca de páginas de noticias (páginas de sitios del sitio de SharePoint asociada con su equipo de planeación) puede hacerse pública para que puedan compartirla con todas las partes interesadas.
 
-## <a name="expand-your-implementation-team"></a>Expanda su equipo de implementación
+## <a name="expand-your-implementation-team"></a>Expandir el equipo de implementación
 
-En una organización grande debe intentar incorporar muchas funciones diferentes en la fase de habilitación amplia. Esto puede incluir los patrocinadores del negocio adicionales, el personal de soporte de TI, miembros adicionales de la Comunidad de campeones y en algunos personal de administración o cursos de aprendizaje de cambio formal de los casos. En la ilustración siguiente muestra un equipo de adopción de gran escala que permite una separación de tareas.
+En una organización grande, debe intentar incorporar diferentes roles en su fase de habilitación amplia. Esto puede incluir otros patrocinadores empresariales, personal de soporte técnico de ti, miembros adicionales en la comunidad de su experto y, en algunos casos, personal de formación o de administración de cambios formal. La siguiente ilustración muestra un equipo de adopción de gran tamaño que permite una separación de tareas.
 
-![Modelo de equipo de adopción corporativos de gran escala](media/teams-adoption-large-scale-model.png)
+![Ilustración del modelo de equipo de adopción corporativa de gran escala](media/teams-adoption-large-scale-model.png)
 
-En una organización de tamaño reducido uno o varios de estos roles pueden realizarse por una persona, pero las habilidades necesarias siguen siendo los mismos.  Técnica, habilidades de comunicación y aprendizaje son importantes en un proyecto de cambio correcto. 
+En una organización pequeña, uno o varios de estos roles pueden ser realizados por una sola persona, pero las aptitudes necesarias siguen siendo las mismas.  Las habilidades técnicas, de comunicación y formación son importantes en un proyecto de cambio satisfactorio. 
 
-## <a name="expand-your-governance-and-information-management-policies"></a>Expanda las directivas de administración de información y gobierno
+## <a name="expand-your-governance-and-information-management-policies"></a>Expandir las directivas de administración de información y gobernanza
 
-Una vez que ha seleccionado la estrategia de habilitación estará listo para revisar y escalar las decisiones de gobierno realizados en la fase 1. Revisar las decisiones de 1 a 6 en el [Inicio rápido de gobierno](teams-adoption-governance-quick-start.md) para expandir estas directivas en alineación con los usuarios de negocio que va a utilizar los equipos. 
+Una vez que hayas seleccionado tu estrategia de habilitación, estarás listo para volver a visitar y escalar las decisiones de gobierno que hayas hecho en la fase 1. Vuelva a visitar las decisiones de 1 a 6 desde el [Inicio rápido de gobierno](teams-adoption-governance-quick-start.md) para expandir estas directivas en alineación con los usuarios empresariales que van a usar Teams. 
 
-| Nivel de equipo | Ámbito y propósito | Estándar de pertenencia | Duración |
+| Nivel de equipo | Ámbito/propósito | Pertenencia estándar | Duración |
 |----------- | ------------- | ------------------- | -------- |
-|Nivel 1 | El equipo de relevante para una división o unidad de negocio | Normalmente está restringido a los miembros oficiales de esta unidad de división | Para siempre para el mismo tiempo que la división existe (por ejemplo, el departamento de TI, recursos humanos, Marketing)|
-| Nivel 2 | Los equipos de proyecto, servicio o iniciativa con un ámbito más pequeño |  Entre organizaciones normalmente y pueden incluir los invitados | Para el mismo tiempo que dicho proyecto o el servicio se está trabajando en |
-| Nivel 3 | Elija en proyectos de tiempo | Estrecha tejer pequeños con ámbito individual; puede incluir los invitados | Ciclo de vida corto vinculadas a la entrega de núcleo |
+|Nivel 1 | El equipo autorizado para una división o unidad de negocio | Generalmente restringido a miembros oficiales de esta división o unidad | En perpetuidad durante el tiempo que exista la división (por ejemplo, Departamento de ti, recursos humanos, mercadotecnia)|
+| Nivel 2 | Equipos de proyecto, servicio o iniciativa con un ámbito más pequeño |  Normalmente entre organizaciones y pueden incluir invitados | Mientras se esté trabajando en ese proyecto o servicio |
+| Nivel 3 | Proyectos puntuales | Pequeño equipo de muy unido estrecho con alcance individual; puede incluir invitados | Ciclo de vida corto vinculado a la entrega principal |
 
-Ejemplo del equipo nivel aprovisionamiento y administración de procedimientos recomendados:
+Procedimientos recomendados para la administración y aprovisionamiento de equipos de ejemplo:
 
-|Nivel de equipo | ¿Quién crea? | Etiquetado y retención | Consideraciones |
+|Nivel de equipo | ¿Quién crea? | Lavels y retención | Consideraciones |
 | --------- | ------------ | -------------------- | -------------- |
-| Nivel 1 - departamento | TI o Campeones de ese grupo para asígnele el nombre correctamente | Información confidencial con la directiva de retención estándar aplicada y la directiva de renovación de 1 año | Piense como reservar un nombre de dominio. Desean tener un control de cómo se denominan los equipos de división y lo que ha incluido.  El equipo de diseño antes de agregar usuarios adicionales.|
-| Nivel 2 - proyecto o servicio | Propietario del proyecto o Campeón | Confidencial o altamente confidencial según contenido. Puede tener una directiva de retención. renovación de 6 meses. | Antes de crear esto, piense en acaba más allá del límite del proyecto o servicio en que está trabajando. ¿Lo que tenga más sentido para combinar fuerza con otro equipo? Hacer que todos los esfuerzos para minimizar el número de equipos de los usuarios individuales tienen que visitar cuando se trabaja en el mismo proyecto o servicio.|
-| Nivel 3: equipo de proyecto a petición pequeño | Cualquier persona de la organización | Etiqueta general con renovación estándar de retención y después de seis meses. Puede incluir la convención de nomenclatura (prefijo o sufijo)| Sin intervención del administrador en los equipos de propuestas. Aprovisionamiento sin dificultades. Estos facilitan la colaboración fluida y comunicaciones para equipos de proyecto pequeño para obtener valor inmediato de compañía que proporciona servicios. |
+| Nivel 1: divisional | TI o campeón para ese grupo para nombrarlo correctamente | Confidencialidad con política de retención estándar aplicada y política de renovación de 1 año | Considere esto como la reserva de un nombre de dominio. Desea controlar cómo se denominan los equipos de división y qué se incluye.  Diseñe el equipo antes de agregar usuarios adicionales.|
+| Nivel 2: proyecto o servicio | Responsable del proyecto o campeón | Confidencial o muy confidencial según el contenido. Puede tener una directiva de retención. renovación por 6 meses. | Antes de crearlo, piénselo más allá del límite del proyecto o servicio en el que está trabajando. ¿Tendría más sentido combinar las fuerzas con otro equipo? Realice todos los esfuerzos posibles para minimizar la cantidad de equipos que los usuarios individuales tienen que visitar al trabajar en el mismo proyecto o servicio.|
+| Nivel 3: equipo pequeño a petición del proyecto | Cualquier persona de la organización | Etiqueta general con retención estándar y renovación por 6 meses. Puede incluir la Convención de nomenclatura (prefijo o sufijo)| Equipos de autoservicio a petición. Aprovisionamiento inestable. Esto facilita la colaboración y las comunicaciones fluidas para pequeños equipos de proyectos que buscan obtener valor inmediato de los servicios proporcionados por la empresa. |
 
-## <a name="streamline-business-engagement"></a>Compromiso de negocio optimizada
+## <a name="streamline-business-engagement"></a>Simplificar el compromiso empresarial
 
-Una parte esencial de impulsa la transformación digital y uso de Microsoft Teams está trabajando con las unidades de negocio a comprender qué necesidades, las oportunidades y las dificultades que tienen. Aunque es similar a la tradicional TI conversación de negocio, debe ser su enfoque sobre lo que es necesario. Escuchar antes de pasar a los requisitos técnicos. En muchos casos, cerrar el cuadro de las características de los equipos va a satisfacer las necesidades de su organización.   
+Una parte esencial del impulso de la transformación digital y el uso de Microsoft Teams es trabajar con las unidades de negocio para comprender qué necesidades, oportunidades y dificultades tienen. A pesar de que es similar a la conversación de ti tradicional, el foco debe estar en lo que se necesita. Escucha antes de pasar a los requisitos técnicos. En muchos casos, las características de los equipos que están fuera de la caja se ajustan a las necesidades de su organización.   
 
-Práctica recomendada: antes de considerar el desarrollo de una solución personalizada, asegúrese de que su organización usa completamente fuera de las capacidades de cuadro de Office 365. Desarrollo de soluciones personalizadas siempre incurre costo a largo plazo de IT y los departamentos de soporte.
+Procedimiento recomendado: antes de considerar la posibilidad de desarrollar una solución personalizada, asegúrese de que su organización está usando las funciones de Office 365 de forma completa. El desarrollo de soluciones personalizadas siempre supone un costo a largo plazo para los departamentos de ti y de soporte técnico.
  
-Realice los siguientes pasos para optimizar el trabajo con unidades de negocio.  Reconoce que, en las empresas multinacionales, muy grandes, este proceso puede continuar durante cuánto tiempo después de la primera implementación de gran escala de Microsoft Teams:
+Siga estos pasos para simplificar su trabajo con las unidades de negocio.  Reconozca las grandes corporaciones multinacionales que este proceso puede prolongarse después de la primera implementación a gran escala de Microsoft Teams:
 
-1. Cumplir con las fuentes de influencia claves dentro de una unidad de negocio antes de enviar el ejecutivo para comprender en profundidad y alineación.
-2. Comprender sus soluciones actuales para los escenarios comunes (correo electrónico, SharePoint, Yammer y otros productos).
-3. Comience con poco mediante la selección de los escenarios que se asignan a alto impacto, dificultad bajo/medio como escala,
-4. Capturar los comentarios y desarrollar Campeones con conocimientos de unidad de negocio para admitir la transición
-5. Configurar puntos de verificación mensual para discutir progreso y dar prioridad a las solicitudes pendientes en proyectos adicionales.
+1. Reúnase con los principales influenciadores dentro de una unidad de negocio antes de poder contratar al Ejecutivo para obtener información y conocer la alineación.
+2. Comprender sus soluciones actuales para escenarios comunes (correo electrónico, SharePoint, Yammer y otros productos).
+3. Para empezar, seleccione escenarios que se ajusten a un impacto superior, problemas de baja o mediana medida,
+4. Capture comentarios y desarrolle campeones con conocimiento empresarial para apoyar la transición,
+5. Configure los puntos de comprobación mensuales para analizar el progreso y establecer prioridades en el trabajo pendiente de proyectos adicionales.
 
-![Icono de pasos siguiente](media/teams-adoption-next-icon.png) siguiente: [optimizar comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)
+![Un icono que representa el siguiente](media/teams-adoption-next-icon.png) paso: [optimizar comentarios e informes](teams-adoption-optimize-feedback-and-reporting.md)

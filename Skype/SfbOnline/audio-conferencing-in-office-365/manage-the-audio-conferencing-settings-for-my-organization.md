@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: 'Consulte los pasos de Skype empresarial online para asignar una licencia de conferencia de acceso telefónico local y un identificador de conferencia a un usuario y muchas otras opciones de la Conferencia de acceso telefónico local. '
-ms.openlocfilehash: 27d8ebbb524f5b03b0dc25f03b0380e5861034ac
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: e699cf51f3a9366cdd86004e48eeb18235849680
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34299177"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494250"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-my-organization-in-skype-for-business-online"></a>Administrar la configuración de Audioconferencia de mi organización en Skype for Business Online
 
@@ -58,7 +58,7 @@ Puede que le resulte más fácil ver toda la configuración de la audioconferenc
 
 ## <a name="enable-or-disable-emails-sent-to-audio-conferencing-users"></a>Enable or disable emails sent to audio conferencing users
 
-![SFB-logo-30x30. png](../images/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
 

@@ -1,12 +1,12 @@
 ---
-title: Actualización de Skype para la empresa en línea para los equipos de Microsoft | Implementar
+title: Actualizar Skype empresarial online a Microsoft Teams | Implement
 author: lanachin
 ms.author: v-lanac
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: dearbeen
-description: Consideraciones para actualizar a los equipos de Skype para profesionales en línea
+description: Consideraciones para actualizar a teams desde Skype empresarial online
 localization_priority: Normal
 search.appverid: MET150
 ms.custom: Teams-upgrade-guidance
@@ -15,87 +15,87 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6748397c354f9238282f9646388993fc0e9f7b88
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6b1cfb8302476983eeb5be180307bc143eb281dc
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33902728"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548512"
 ---
-![Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación] (media/upgrade-banner-deployment.png "Fases de la actualización viaje, con especial hincapié en la implementación y la fase de implementación")
+![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
-En este artículo forma parte de la fase de implementación y la implementación de su viaje por la actualización. Antes de continuar, confirme que ha realizado las siguientes actividades:
+Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
-- [Los participantes en el proyecto de alta](upgrade-enlist-stakeholders.md)
-- [Define el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
-- [Entiende coexistencia e interoperabilidad de Skype para profesionales y los equipos](https://aka.ms/SkypeToTeams-Coexist)
-- [Elegido su viaje por la actualización](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
-- [Preparar el entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
-- [Preparar la organización](https://aka.ms/SkypeToTeams-UserReadiness)
-- [Realiza una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
+- [Inventar a los participantes del proyecto](upgrade-enlist-stakeholders.md)
+- [Definió el ámbito del proyecto](https://aka.ms/SkypetoTeams-Scope)
+- [La coexistencia y la interoperabilidad de Skype para empresas y equipos](https://aka.ms/SkypeToTeams-Coexist)
+- [Eligió la actualización del viaje](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
+- [Preparado su entorno](https://aka.ms/SkypeToTeams-TechnicalReadiness)
+- [Preparado para su organización](https://aka.ms/SkypeToTeams-UserReadiness)
+- [Ha realizado una prueba piloto](https://aka.ms/SkypeToTeams-Pilot)
 
 # <a name="upgrade-from-skype-for-business-online-to-teams"></a>Actualización de Skype Empresarial Online a Microsoft Teams
 
-Siga las instrucciones de este artículo si totalmente implementado Skype para profesionales en línea y desea actualizar los usuarios de Skype para la empresa a los equipos. Puede actualizar a los usuarios de forma selectiva o en función de la actualización, todo viaje que su organización ha decidido, mediante la asignación de la coexistencia adecuada y el modo de actualización a los usuarios.
+Siga las instrucciones de este artículo si ha implementado totalmente Skype empresarial online y desea actualizar los usuarios de Skype empresarial a teams. Puede actualizar los usuarios de forma selectiva o todos en función del recorrido de actualización que su organización haya elegido, asignando el modo de coexistencia y actualización adecuado a los usuarios.
 
 > [!IMPORTANT]
 > [!INCLUDE [upgrade-disclaimer](includes/upgrade-disclaimer.md)]
 
-## <a name="assign-the-coexistence-and-upgrade-mode"></a>Asignar el modo de actualización y coexistencia
+## <a name="assign-the-coexistence-and-upgrade-mode"></a>Asignar el modo de coexistencia y actualización
 
-Puede actualizar a los usuarios a modo de TeamsOnly mediante la asignación de la instancia de UpgradeToTeams de TeamsUpgradePolicy, que se puede realizar mediante el centro de administración de Microsoft Teams o un Skype para la sesión remota de Windows Powershell de negocio. Puede hacerlo de forma individual por usuario, o en todo el inquilino si desea actualización el inquilino todo en un solo paso. 
+Puede actualizar los usuarios al modo de TeamsOnly asignando la instancia de UpgradeToTeams de TeamsUpgradePolicy, que se puede realizar mediante el centro de administración de Microsoft Teams o una sesión de Windows PowerShell remota de Skype empresarial. Puede hacer esto para cada usuario o a escala de inquilino si quiere ugprade todo el inquilino en un solo paso de tiempo. 
 
-Para obtener más información, vea [establecer la coexistencia y la configuración de actualizaciones](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de migración y coexistencia](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence).
+Para obtener más información, vea [configurar la coexistencia y la configuración de actualización](https://aka.ms/SkypeToTeams-SetCoexistence) y [TeamsUpgradePolicy: administración de la migración y](migration-interop-guidance-for-teams-with-skype.md#teamsupgradepolicy-managing-migration-and-co-existence)la coexistencia.
 
-## <a name="upgrade-all-users-to-teams-at-one-time"></a>Actualizar todos los usuarios a los equipos a la vez
+## <a name="upgrade-all-users-to-teams-at-one-time"></a>Actualizar todos los usuarios a teams a la vez
 
-Siga estos pasos para actualizar todos los usuarios a los equipos a la vez.
+Siga estos pasos para actualizar todos los usuarios a teams a la vez.
 
-### <a name="step-1-notify-the-users-of-the-change-optional"></a>Paso 1: Notificar a los usuarios el cambio (opcional)
+### <a name="step-1-notify-the-users-of-the-change-optional"></a>Paso 1: notificar a los usuarios el cambio (opcional)
 
-1. En el centro de administración de Microsoft Teams, seleccione **configuración de toda la organización** > **actualización de los equipos**.
-2. En **modo de coexistencia**, cambie el modificador de **Notificar a Skype para que esté disponible una actualización a los equipos de los usuarios empresariales** a **en**.
+1. En el centro de administración de Microsoft Teams, seleccione la actualización de la **configuración** > de**equipos**de la organización.
+2. En **modo**de coexistencia, cambie la opción notificar a **los usuarios de Skype empresarial que hay disponible una actualización a teams** . ****
 
-### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Paso 2: Establecer el modo de coexistencia en TeamsOnly para la organización
+### <a name="step-2-set-the-coexistence-mode-to-teamsonly-for-the-organization"></a>Paso 2: establecer el modo de coexistencia en TeamsOnly para la organización
 
 1. En el centro de administración de Microsoft Teams, seleccione **configuración de toda la organización**.
-2. Seleccione el modo de **Sólo los equipos** desde la lista desplegable **modo de coexistencia** .
+2. Seleccione el modo **solo** de Teams en la lista desplegable **modo** de coexistencia.
 
-## <a name="upgrade-users-in-stages"></a>Actualizar los usuarios por fases
+## <a name="upgrade-users-in-stages"></a>Actualizar usuarios por etapas
 
 Siga estos pasos si desea actualizar gradualmente los usuarios a TeamsOnly.
 
-### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Paso 1: Identificación de grupos de usuarios para la actualización
+### <a name="step-1-identify-groups-of-users-for-upgrade"></a>Paso 1: identificar los grupos de usuarios para la actualización
 
-A menudo, las organizaciones pueden optar por actualizar sus organizaciones en ondas de éxito de los usuarios.  Desea identificar estos usuarios en primer lugar, por lo que puede buscar fácilmente para ellos en el centro de administración de Microsoft Teams. Como alternativa, es posible que desea usar PowerShell para hacerlo de forma más eficaz. Una vez que haya identificado el conjunto de usuarios para una determinada onda de actualización, continúe con los pasos restantes.
+A menudo, las organizaciones pueden optar por actualizar sus organizaciones con las ondas de éxito de los usuarios.  Es posible que desee identificar estos usuarios en primer lugar para que pueda buscarlos fácilmente en el centro de administración de Microsoft Teams. Como alternativa, es posible que desee usar PowerShell para hacerlo de manera más eficaz. Una vez que haya identificado el conjunto de usuarios para una onda de actualización determinada, continúe con los pasos restantes.
 
-### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Paso 2: Configurar la notificación para los usuarios en la onda de actualización actual (opcional)
+### <a name="step-2-set-notification-for-the-users-in-the-current-ugprade-wave-optional"></a>Paso 2: establecer una notificación para los usuarios de la ola de ugprade actual (opcional)
 
-Si utiliza el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
-1. En el centro de administración de Microsoft Teams, seleccione **los usuarios**y buscar y selección múltiple de la casilla de verificación para los usuarios hasta 20 que debe actualizarse. 
-2. Seleccione **Editar la configuración** en la esquina superior izquierda de la vista de lista. 
-3. En el panel **Editar configuración** de la derecha, en **los equipos de actualización**, cambiar el modificador de **notificar el Skype para usuarios de empresa** **activado**. Nota: Si el valor del modo de coexistencia es "configuración de toda la organización uso", no verá este modificador, por lo que tendrá que primero establecer explícitamente el modo de coexistencia para estos usuarios a todo lo que es el valor predeterminado para el organigrama.
+Si usa el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
+1. En el centro de administración de Microsoft Teams, seleccione **usuarios**, busque y seleccione la casilla múltiple para un máximo de 20 usuarios que deberían actualizarse. 
+2. Seleccione **Editar configuración** en la esquina superior izquierda del ListView. 
+3. En el panel **Editar configuración** de la derecha, en la sección **Actualizar**de Teams, cambie notificar al **usuario de Skype empresarial** a **activado**. Nota: Si el valor de modo de coexistencia es "usar la configuración de toda la organización", no verá este modificador, por lo que tendrá que establecer explícitamente el modo de coexistencia de estos usuarios en el valor predeterminado de la organización.
 
-Como alternativa, es posible que encuentre más fácil habilitar las notificaciones para los grupos de usuarios a la vez mediante PowerShell. 
+Como alternativa, es posible que le resulte más fácil habilitar las notificaciones para grupos de usuarios a la vez mediante PowerShell. 
 
-### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Paso 3: Establecer el modo de coexistencia para que los usuarios sólo los equipos
+### <a name="step-3-set-the-coexistence-mode-for-users-to-teams-only"></a>Paso 3: establecer el modo de coexistencia para los usuarios solo para equipos
 
-Cuando esté listo para actualizar los usuarios de la onda actual para usar los equipos como su única aplicación, establezca el modo de coexistencia para que los usuarios sólo los equipos.
+Cuando esté listo para actualizar los usuarios de la onda actual para que use Teams como única aplicación, establezca el modo de coexistencia para los usuarios solo en Teams.
 
-Si utiliza el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
-1. En el centro de administración de Microsoft Teams, seleccione **los usuarios**y, a continuación, seleccione la casilla de verificación hasta 20 usuarios.
-2. Seleccione **Editar la configuración** en la esquina superior izquierda de la vista de lista.
-3. En el panel **Editar configuración** de la derecha, en la sección de **actualización de los equipos** , establezca el modo de coexistencia en **Los equipos sólo** en la lista desplegable.
+Si usa el centro de administración de Microsoft Teams, puede configurar TeamsUpgradePolicy para un máximo de 20 usuarios a la vez:
+1. En el centro de administración de Microsoft Teams, seleccione **usuarios**y, a continuación, seleccione la casilla de verificación para un máximo de 20 usuarios.
+2. Seleccione **Editar configuración** en la esquina superior izquierda del ListView.
+3. En el panel **Editar configuración** de la derecha, en la sección **actualización de equipos** , establezca el modo de coexistencia en Teams **solo** en la lista desplegable.
 
-Como alternativa, es posible que encuentre más sencillo actualizar grupos de usuarios a la vez mediante PowerShell. 
+Como alternativa, es posible que le resulte más fácil actualizar grupos de usuarios a la vez mediante PowerShell. 
 
-### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Paso 4: Repita los pasos del 1 al 3 para sucesivas de usuarios
+### <a name="step-4-repeat-steps-1-3-for-successive-waves-of-users"></a>Paso 4: Repita los pasos 1-3 para las ondas sucesivas de los usuarios
 
-Como validar la actualización al modo de sólo los equipos y esté listo para expandir, repita los pasos anteriores para aplicar TeamsOnly a más usuarios.  
+Mientras valida la actualización al modo solo para equipos y está listo para expandir, repita los pasos anteriores para aplicar TeamsOnly a más usuarios.  
 
 
-## <a name="phone-system-and-teams-upgrade"></a>Sistema telefónico y los equipos de actualización
+## <a name="phone-system-and-teams-upgrade"></a>Actualización de equipos y sistemas telefónicos
 
-Si su Skype para la implementación empresarial Online incluye sistema telefónico con planes de llamada y Microsoft es su proveedor de telefónica conmutada (RTC), actualizar a los usuarios a los equipos automáticamente transición RTC entrante a los equipos de llamada.
+Si su implementación de Skype empresarial online incluye sistemas telefónicos con planes de llamadas y Microsoft es su proveedor de redes de telefonía pública conmutada (RTC), la actualización de los usuarios a teams migrará automáticamente las llamadas RTC entrantes a teams.
 
-Si su Skype para la implementación empresarial Online incluye sistema telefónico con la edición de conector en la nube, consulte las [Consideraciones adicionales para el enrutamiento directo de teléfono del sistema](2-envision-make-my-service-decisions-direct-routing.md).
+Si su implementación de Skype empresarial online incluye el sistema telefónico con el conector para Cloud Edition, consulte las [consideraciones adicionales para el enrutamiento directo de sistema telefónico](2-envision-make-my-service-decisions-direct-routing.md).

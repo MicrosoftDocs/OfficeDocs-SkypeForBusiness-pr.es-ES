@@ -16,12 +16,12 @@ description: Obtenga información sobre cómo administrar la configuración de l
 f1keywords: ms.teamsadmincenter.liveevents.settings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74eafcd6b16fe6d4c4b4f82c3b3472879ba506eb
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 277f5b326a2c8c4427ae4cea740630d4d1e6f0c7
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344181"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548648"
 ---
 # <a name="configure-live-event-settings-in-microsoft-teams"></a>Configurar eventos en directo en Microsoft Teams
 
@@ -29,7 +29,7 @@ Use la configuración de eventos de Teams Live para establecer la configuración
 
 Puede administrar fácilmente esta configuración en el centro de administración de Microsoft Teams. En el navegación de la izquierda, vaya a**configuración de eventos en directo**de **reuniones** > . 
 
-![Live-Event-Settings. png] (../media/teams-live-events-settings.png "Captura de pantalla de la configuración de eventos de Teams Live que puede configurar en el centro de administración de Microsoft Teams") 
+![Captura de pantalla de la configuración de eventos de Teams Live] (../media/teams-live-events-settings.png "Captura de pantalla de la configuración de eventos de Teams Live que puede configurar en el centro de administración de Microsoft Teams") 
 
 ## <a name="set-up-event-support-url"></a>Configurar la dirección URL de compatibilidad de eventos
 
@@ -40,7 +40,7 @@ Esta dirección URL se muestra a los asistentes de eventos en directo. Agregue l
 1. En el navegación de la izquierda, vaya a la**configuración de eventos**de **reuniones** > en directo.
 2. En **dirección URL de soporte técnico**, escriba la dirección URL de soporte técnico de su organización. 
 
-    ![Configuración de la dirección URL de soporte técnico para eventos en directo en el centro de administración de Microsoft Teams] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de la configuración de URL de soporte técnico para los eventos de Teams Live")
+    ![Configuración de dirección URL de soporte técnico para eventos en directo en el centro de administración] (../media/teams-live-events-settings-supporturl.png "Captura de pantalla de la configuración de URL de soporte técnico para los eventos de Teams Live")
 
 ### <a name="using-windows-powershell"></a>Vea Enviar un correo electrónico a un usuario con su información de conferencias de Audio.
 Ejecute lo siguiente:
@@ -57,7 +57,7 @@ Si compró y configuró una solución de red definida por software (SDN) o una s
 1. En el navegación de la izquierda, vaya a la**configuración de eventos**de **reuniones** > en directo.
 2. En **proveedores de distribución de vídeo de terceros**, complete lo siguiente: 
 
-    ![Configuración de proveedores de distribución de video de terceros en el centro de administración de Microsoft Teams] (../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
+    ![Configuración del proveedor de distribución de vídeo de terceros en el centro de administración] (../media/teams-live-events-settings-distribution-provider.png "Captura de pantalla de la configuración del proveedor de distribución de vídeo de terceros para eventos en directo")
 
     - **Usar un proveedor de distribución de terceros** Active esta opción para habilitar el proveedor de distribución de vídeo de terceros.
     - **Nombre del proveedor de Sdn** Elija el proveedor que está usando.

@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Aprenda a configurar el sistema telefónico (PBX en la nube) para su organización. '
-ms.openlocfilehash: f46e0506bef53e28cd071606d9727024870f6b2d
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 3b81ad07d73b87a6635a15bc924ecd70758e12fb
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344205"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548951"
 ---
 # <a name="setting-up-phone-system-in-your-organization"></a>Configurar el Sistema telefónico en su organización
 
@@ -56,13 +56,13 @@ You must use the **Add new user numbers** page to see, search, acquire, and rese
 
 ### <a name="get-new-user-phone-numbers"></a>Obtener números de teléfono de usuario nuevos 
  
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 1. Inicie sesión en Microsoft 365 con su cuenta profesional o educativa.
 
 2. Vaya al **Centro** > de administración de Microsoft 365**Skype empresarial**.
     
-3. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > , haga clic en **Agregar nuevo** ![botón](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)agregar número y, después, haga clic en **nuevos números de usuario**.
+3. En el navegación de la izquierda, vaya a**números de teléfono**de **voz** > , haga clic en **Agregar nuevo número** ![el botón](media/c224fbd0-f0f5-46ce-a1a7-73adf4540ef7.png)agregar, que se muestra como un símbolo más y, a continuación, haga clic en **nuevos números de usuario**.
     
 ### <a name="get-new-numbers-that-arent-available-in-the-skype-for-business-admin-center"></a>Obtener números nuevos que no están disponibles en el centro de administración de Skype for Business
   
@@ -82,7 +82,7 @@ In addition to getting phone numbers for your users from Office 365, you can sea
 
 ### <a name="get-new-service-numbers"></a>Obtener nuevos números de servicio
 
-![SFB-logo-30x30. png](media/sfb-logo-30x30.png) **con el centro de administración de Skype empresarial**
+![Un icono que muestra el logotipo](media/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
 
 1. Inicie sesión en Office 365 con su cuenta profesional o educativa.
@@ -110,9 +110,9 @@ If you have been following the steps above, you have already bought and assigned
 
 1. En la página **Voz**, elija **Ubicaciones de emergencia** > **Agregar**.
 
-2. En el panel **Nueva dirección**, introduzca un nombre para la dirección y, a continuación, complete los cuadros restantes.
+2. En el panel **nueva dirección** , escriba un nombre para la dirección y, a continuación, rellene los cuadros restantes.
     
-     ![Al escribir una dirección de emergencia nueva, el formato del nombre de la calle puede provocar un error.](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
+     ![Captura de pantalla del panel nueva dirección](media/dc1c5ef3-0554-4fb7-9ab1-5ea3ac9e5eb5.png)
   
     > [!TIP]
     > Para los clientes que hablan inglés, si el nombre de la calle es un número, asegúrese de incluir "st" o "th" al final, como se muestra en la imagen anterior.
@@ -158,15 +158,15 @@ A continuación se explica cómo pueden ver ese número de teléfono en su aplic
     
 2. Elija **Configuración** > **Herramientas** > **Opciones**. 
     
-     ![Para ver su número de teléfono, vaya a Configuración > Herramientas > Opciones.](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
+     ![Captura de pantalla de opciones en el menú herramientas](media/20637117-91d7-4a7e-9f06-7abc634a9211.png)
   
 3. A continuación, elija **Teléfonos**. 
     
-    ![A user can see their assign number in the Skype for Business app by choosing Settings > Tools > Options > Phone.](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
+    ![Captura de pantalla de las opciones de teléfono de Skype empresarial](media/0128d667-2bf8-4165-b703-e9b78a15b63c.png)
  
 In **Microsoft Teams**, users can see their phone number by clicking **Calls** in the left navigation. The phone number is shown above the dial pad.
 
-![Un usuario puede ver su número en Microsoft Teams haciendo clic en Llamadas en el panel de navegación izquierdo.](media/teams-phone-number.png)
+![Captura de pantalla de las opciones disponibles después de hacer clic en llamadas](media/teams-phone-number.png)
 
 **Para obtener información más detallada acerca de todos los pasos necesarios para configurar un plan de llamadas, consulte [Configurar planes de llamadas](set-up-calling-plans.md).**
 

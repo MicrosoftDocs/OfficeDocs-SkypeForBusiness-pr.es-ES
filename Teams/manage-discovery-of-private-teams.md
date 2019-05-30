@@ -17,12 +17,12 @@ appliesto:
 localization_priority: Normal
 search.appverid: MET150
 description: Obtenga información sobre cómo controlar si los usuarios de Microsoft Teams pueden descubrir los equipos privados mediante sugerencias de la galería de equipos y resultados de la búsqueda.
-ms.openlocfilehash: 55f127ff4dc9e5e0926e606c141b78f65c799de0
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: faae4c53f4fa17668ea69a783211e7ebe01bd4d6
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34304405"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494629"
 ---
 # <a name="manage-discovery-of-private-teams-in-microsoft-teams"></a>Administrar la detección de equipos privados en Microsoft Teams
 
@@ -34,7 +34,7 @@ Los administradores y los propietarios del equipo pueden controlar si los usuari
 
 La mayoría de las organizaciones tienen los siguientes tipos de equipos: los equipos públicos, los equipos privados y los equipos privados que no se pueden descubrir.
 
-![Galería de equipos](media/private-team-discovery-team-gallery.png)
+![Captura de pantalla de la galería de equipos](media/private-team-discovery-team-gallery.png)
 
 ### <a name="public-teams"></a>Equipos públicos
 
@@ -52,7 +52,7 @@ Los equipos privados no detectables solo se pueden unir cuando el propietario de
 
 Cuando un propietario de equipo crea un equipo privado, puede elegir que sea reconocible configurando la configuración de detección del equipo. De forma predeterminada, los nuevos equipos privados se pueden buscar y descubrir. Si el propietario del equipo no desea que el equipo privado se muestre en los resultados de búsqueda y las sugerencias, puede desactivar la configuración seleccionando **Cambiar configuración** junto a **este equipo es buscable y reconocible**.
 
-![configuración de detección para nuevos equipos privados](media/private-team-discovery-new-team.png)
+![Captura de pantalla de la configuración de detección para nuevos equipos privados](media/private-team-discovery-new-team.png)
 
 ## <a name="set-whether-existing-private-teams-are-discoverable"></a>Establecer si los equipos privados existentes se pueden descubrir
 
@@ -62,7 +62,7 @@ Los propietarios de equipo pueden establecer la configuración de detección de 
 
 En Teams, vaya al equipo privado, haga clic en **más opciones ̇ ̇ ̇** > **Manage Team**. En la pestaña **configuración** , expanda descubrimiento de equipo y, a continuación, Active o desactive la casilla **de verificación Activar** el **descubrimiento**.
 
-![configuración de detección para equipos privados existentes](media/private-team-discovery-existing-team.png)
+![Captura de pantalla de la configuración de detección para equipos privados existentes](media/private-team-discovery-existing-team.png)
 
 ### <a name="using-powershell-coming-soon"></a>Usar PowerShell (próximamente)
 

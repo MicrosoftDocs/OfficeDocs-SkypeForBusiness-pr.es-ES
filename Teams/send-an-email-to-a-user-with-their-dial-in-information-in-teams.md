@@ -20,12 +20,12 @@ f1keywords: None
 ms.custom:
 - Audio Conferencing
 description: Envíe a sus usuarios un correo electrónico con la información de sus audioconferencias en Microsoft Teams.
-ms.openlocfilehash: 505684bb2a73b60d1027c6cca6bbd7a306f48862
-ms.sourcegitcommit: 30995da65ff6a9b33534c3818833cf0ae1952ab9
+ms.openlocfilehash: 95dd6d562400630c5848484bd0081deeb3092abc
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34344311"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34494743"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Enviar un correo electrónico a un usuario con su información de audioconferencia en Microsoft Teams
 
@@ -38,7 +38,7 @@ A veces, puede que los usuarios de Microsoft Teams necesiten que les envíe su i
    
 A continuación se muestra un ejemplo del correo electrónico que se envía:
   
-![Correo electrónico de conferencia de acceso telefónico local](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
+![Ejemplo de un mensaje de correo de conferencia de acceso telefónico local](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]

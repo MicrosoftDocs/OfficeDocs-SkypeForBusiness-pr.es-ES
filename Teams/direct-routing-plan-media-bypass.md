@@ -15,12 +15,12 @@ ms.collection: Teams_ITAdmin_Help
 appliesto:
 - Microsoft Teams
 description: Lea este tema para obtener información sobre cómo planear la omisión de medios con enrutamiento directo de sistema telefónico.
-ms.openlocfilehash: 7a26f14e0fb6fec8537f04f03b6f58c252f86966
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 704b129b3d6ba7fdffd5c01886b73970e0711e60
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290464"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493919"
 ---
 # <a name="plan-for-media-bypass-with-direct-routing"></a>Planear desvío de medios con enrutamiento directo
 
@@ -70,7 +70,7 @@ El siguiente diagrama muestra el flujo de llamadas cuando la omisión de element
 
 - La señalización del SIP siempre tiene las rutas 4 y 4 (según la dirección del tráfico). El medio permanece local y toma la ruta de acceso 5B.
 
-![Muestra el flujo de llamadas con omisión de medios habilitado, el cliente es interno y puede comunicarse con la IP pública del controlador de borde de sesión (medios directos).](media/direct-routing-media-bypass-3.png)
+![Muestra el flujo de llamadas con omisión de medios habilitado, el cliente es interno](media/direct-routing-media-bypass-3.png)
 
 
 ### <a name="call-flow-if-the-user-does-not-have-access-to-the-public-ip-address-of-the-sbc"></a>Flujo de llamadas si el usuario no tiene acceso a la dirección IP pública de la SBC
@@ -91,7 +91,7 @@ El siguiente diagrama muestra el flujo de llamadas cuando la omisión de medios 
 
 - Los medios se retransmiten a través de las rutas 3, 3 ', 4 y 4 '.
 
-![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC)](media/direct-routing-media-bypass-4.png)
+![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC](media/direct-routing-media-bypass-4.png)
 
 
 ### <a name="call-flow-if-a-user-is-outside-the-network-and-has-access-to-the-public-ip-of-the-sbc"></a>Flujo de llamadas si un usuario está fuera de la red y tiene acceso a la IP pública de la SBC
@@ -105,7 +105,7 @@ El siguiente diagrama muestra el flujo de llamadas cuando la omisión de element
 
 - La señalización SIP siempre toma las rutas 3 y 3 ' (según la dirección del tráfico). Los flujos multimedia usan la ruta 2.
 
-![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC)](media/direct-routing-media-bypass-5.png)
+![Muestra el flujo de llamadas si el usuario no tiene acceso a la IP pública de la SBC](media/direct-routing-media-bypass-5.png)
 
 
 ## <a name="use-of-media-processors-and-transport-relays"></a>Uso de procesadores de medios y transmisiones de transporte
@@ -125,7 +125,7 @@ En el siguiente diagrama se muestran dos flujos de llamada: uno con la omisión 
 
 - El proxy SIP es un componente que traduce las señales de REST HTTP usadas en Teams a SIP.    
 
-![Muestra dos flujos de llamada: uno con omisión de medios habilitado y el segundo con omisión de medios deshabilitado.](media/direct-routing-media-bypass-6.png)
+![Muestra los flujos de llamadas con omisión de medios habilitados y deshabilitados](media/direct-routing-media-bypass-6.png)
 
 
 En la tabla siguiente se resume la diferencia entre los procesadores multimedia y los relés de transporte.
@@ -273,7 +273,7 @@ Usuarios con solo los puntos finales de los equipos (incluidos los nuevos teléf
 Ambos troncos pueden apuntar al mismo SBC con la misma dirección IP pública. Los puertos de señalización TLS en la SBC deben ser diferentes, tal como se muestra en el siguiente diagrama. Nota tendrá que asegurarse de que su certificado admite ambos troncos. En SAN, debe tener dos nombres (**sbc1.contoso.com** y **sbc2.contoso.com**) o tener un certificado comodín.
 
 
-![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública.](media/direct-routing-media-bypass-7.png)
+![Muestra que ambos troncos pueden apuntar al mismo SBC con la misma IP pública](media/direct-routing-media-bypass-7.png)
 
 Para obtener más información sobre cómo configurar dos troncos en el mismo SBC, consulte la documentación proporcionada por el proveedor de SBC:
 
