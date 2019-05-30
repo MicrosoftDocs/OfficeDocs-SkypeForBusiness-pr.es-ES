@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 25f4bb41ed5aa5c99c6edbc3a8daf70af78e882d
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 2336a7ce0a5aa5d21a167cfe88d981c1a722845e
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494421"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548115"
 ---
 # <a name="plan-my-service-management"></a>Planificar la administración de mis servicios
 
@@ -92,7 +92,7 @@ Las tareas y las actividades que se asocian al rol también se explican en la Gu
 
 La Guía de revisión de la experiencia de calidad incluye un conjunto de actividades que se utilizan para evaluar y ofrecer acciones correctivas en áreas clave que influyen en gran medida en mejorar la experiencia de usuario, como se muestra en la figura siguiente.
 
-![Ilustración de las áreas clave que se deben examinar durante una revisión de la experiencia de calidad] (media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de la experiencia de calidad: el audio, la fiabilidad y los resultados de la encuesta.")
+![Ilustración de las áreas clave que se deben examinar durante la revisión de la experiencia] (media/plan-my-service-management-image2.png "Las áreas clave que se deben examinar durante una revisión de la experiencia de calidad: el audio, la fiabilidad y los resultados de la encuesta.")
 
 Al evaluar y corregir de forma continua las áreas que se describen en este documento, se reducen los posibles efectos negativos que puedan afectar a la experiencia de usuario. La mayoría de problemas que se encuentran en la experiencia de usuario de una implementación se pueden agrupar en las siguientes categorías:
 
