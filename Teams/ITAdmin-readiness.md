@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Vídeos de aprendizaje, presentaciones de PowerPoint y otros recursos para administradores sobre como planificar, implementar y ejecutar Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 14fea980b7f0cfbb3d8a8218c20ebe503387529a
-ms.sourcegitcommit: 89b866a3c383555f6f89dc77bebd74cddf9e40fb
-ms.translationtype: HT
+ms.openlocfilehash: 826d2751f1b00c3c556d8f3760b6b94666cff4f7
+ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2019
-ms.locfileid: "31003823"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "34493870"
 ---
 # <a name="admin-training-for-microsoft-teams"></a>Formación de administradores para Microsoft Teams
 
@@ -35,7 +35,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="An icon depicting a hand and an upward arrow" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -53,7 +53,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="success" />
+                            <img src="https://docs.microsoft.com/office/media/icons/success.svg" alt="An icon depicting a check mark" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +71,7 @@ Use los recursos de aprendizaje para aprender sobre Teams, enseñar a otros o re
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="Users people" />
+                            <img src="https://docs.microsoft.com/office/media/icons/users-people.svg" alt="An icon depicting users" />
                         </div>
                     </div>
                     <div class="cardText">

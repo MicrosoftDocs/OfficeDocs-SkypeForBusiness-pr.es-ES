@@ -16,12 +16,12 @@ description: Vídeos de aprendizaje, tutoriales y otros recursos para que los us
 f1keywords: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01246103d321e40316df01799c3c7f5a82940340
-ms.sourcegitcommit: f3b41e7abafc84571bd9e8267d41decc0fe78e4a
-ms.translationtype: HT
+ms.openlocfilehash: 43c0d202a333cdb441761e645aa86fc916798617
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "30493670"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548099"
 ---
 # <a name="end-user-training-for-microsoft-teams"></a>Formación del usuario final para Microsoft Teams
 
@@ -35,7 +35,7 @@ Use estos recursos de aprendizaje para ayudar a los usuarios de su organización
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="megaphone" />
+                            <img src="https://docs.microsoft.com/office/media/icons/whats-new-megaphone-blue.svg" alt="Megaphone icon representing an introduction" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -54,7 +54,7 @@ Vea este breve vídeo de presentación de Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="get started" />
+                            <img src="https://docs.microsoft.com/office/media/icons/get-started-blue.svg" alt="Pointing hand icon representing getting started" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -71,7 +71,7 @@ Vea este breve vídeo de presentación de Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Help" />
+                            <img src="https://docs.microsoft.com/office/media/icons/help.svg" alt="Question mark icon representing help" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -89,7 +89,7 @@ Vea este breve vídeo de presentación de Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="education tutorial" />
+                            <img src="https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg" alt="Mortarboard icon representing training videos" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -107,7 +107,7 @@ Vea este breve vídeo de presentación de Teams</h3>
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="video play" />
+                            <img src="https://docs.microsoft.com/office/media/icons/video-play.svg" alt="Play button icon representing YouTube videos" />
                         </div>
                     </div>
                     <div class="cardText">
