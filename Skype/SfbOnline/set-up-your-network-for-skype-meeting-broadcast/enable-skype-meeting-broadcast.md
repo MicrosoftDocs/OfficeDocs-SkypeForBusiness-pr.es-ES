@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - SMB
 description: Para que las personas de la organización puedan usar la difusión de reunión de Skype, debe habilitarla. Para ello, necesita saber cómo usar Windows PowerShell. Si no tiene experiencia con Windows PowerShell, analice contratar un socio de Microsoft para que lleve a cabo este paso por usted.
-ms.openlocfilehash: f1a672bc8d3b0ce957a32691270293551e1a1409
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 066aeb3d3217cb61ebcd0323b342c88d0b99caee
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494039"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591633"
 ---
 # <a name="enable-skype-meeting-broadcast"></a>Habilitar la Difusión de reunión de Skype
 
@@ -34,11 +34,11 @@ Para que las personas de la organización puedan usar la difusión de reunión d
 
 ![Un icono que muestra el logotipo](../images/sfb-logo-30x30.png) de Skype empresarial **con el centro de administración de Skype empresarial**
 
-1. Inicie sesión con su cuenta de administrador global de Office 365 en [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home).
+1. Inicie sesión con su cuenta de administrador global de Office 365 o su cuenta de administrador [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home)de Skype empresarial en.
     
-2. En el Centro de administración de Office 365, vaya a **Centros de administración** > **Skype Empresarial**.
+2. En el centro de administración de Office 365, vaya a**equipos**del centro de **Administración** > .
     
-3. En el **centro de administración de Skype empresarial**, vaya a reuniones de > **difusión**de **reuniones en línea**y, a continuación, seleccione **Habilitar difusión de reunión de Skype**.
+3. En el **centro de administración**de Teams, vaya a**reuniones de difusión**de **portal** > **en línea** > y, a continuación, seleccione **Habilitar difusión de reunión de Skype**.
     
 ## <a name="enable-skype-meeting-broadcast-using-powershell"></a>Habilitar la Difusión de reunión de Skype mediante PowerShell
 

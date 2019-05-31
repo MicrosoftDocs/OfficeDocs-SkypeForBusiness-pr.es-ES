@@ -14,18 +14,17 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dcdb6a687875aeab39585b44a8f6a9d3b6652b48
-ms.sourcegitcommit: d4b007b88469a820595ecdcf2a90854ecefe2809
+ms.openlocfilehash: 05c870dd953a0be959c59996820b3f11bf721521
+ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34108647"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "34591658"
 ---
-<a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams 
-=========================================
+# <a name="how-exchange-and-microsoft-teams-interact"></a>Interacción entre Exchange y Microsoft Teams
 
 > [!Tip]
-> Vea la sesión siguiente para obtener información sobre cómo los equipos interactúa con Azure Active Directory (AAD), grupos de Office 365, Exchange, SharePoint y OneDrive para la empresa: [Fundamentos de los equipos de Microsoft](https://aka.ms/teams-foundations)
+> Vea la siguiente sesión para obtener información sobre cómo Teams interactúa con Azure Active Directory (AAD), grupos de Office 365, Exchange, SharePoint y OneDrive para la empresa: [bases de Microsoft Teams](https://aka.ms/teams-foundations)
 
 Para disfrutar de la experiencia completa de Teams, los usuarios debe habilitarse en Exchange Online, SharePoint Online y la creación de grupos de Office 365.
 
@@ -35,46 +34,46 @@ Los usuarios hospedados en Exchange Online Dedicated (versión heredada) o Excha
 
 En la siguiente tabla se ofrece información para usuarios con Exchange Online hospedado en diversos entornos.
 
-**Acciones compatibles:** 
+**Acciones compatibles:**
 
-| El buzón del usuario se hospeda en: | eDiscovery| Legal&nbsp;suspensión | Retención| Equipo y canal mgmt |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a los contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
+| El buzón del usuario se hospeda en: | eDiscovery| Retención&nbsp;legal | Policy| Administración de equipos y canales |Crear y ver reuniones| Modificar la imagen de perfil de usuario | Historial de llamadas | Administrar contactos | Obtener acceso a contactos de Outlook | Correo de voz |Agregar y configurar conectores|Agregar y configurar fichas|Agregar y configurar bots| 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 |**Exchange Online**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí|Sí |Sí|
 |**Exchange Online Dedicated vNext**|Sí <sup>2</sup>|Sí <sup>2</sup>|Sí |Sí |Sí|Sí|Sí |Sí|Sí|Sí|Sí |Sí |Sí|
-|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>2,3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí |Sí |Sí|
-|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>2,3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange Online Dedicated – Versión heredada** (requiere sincronización con Azure AD)|Sí <sup>2</sup>|Sí <sup>, 2, 3</sup>|Sí <sup>4|Sí|No|No|Sí|Sí|No|Sí <sup>5|Sí |Sí |Sí|
+|**Exchange local** (requiere sincronización con Azure AD)|Sí <sup>2</sup>| Sí <sup>, 2, 3</sup> |Sí <sup>4|Sí|Sí (Exchange 2016 CU3 +)|Sí (Exchange 2016 CU3 +)|Sí |Sí|No|Sí <sup>5|Sí |Sí |Sí|
 
-<sup>1</sup> CU3 de 2016 admite exchange y por encima de  
-<sup>2</sup> de exhibición de documentos electrónicos y retención Legal para el cumplimiento de mensajes del canal es compatible con todas las opciones de hospedaje.  
-<sup>3</sup> mensajes de chat privado de los equipos aún de no admiten la suspensión Legal para esta opción de hospedaje.
+<sup>1</sup> Exchange 2016 CU3 y versiones posteriores son compatibles  
+<sup>2</sup> las opciones de hospedaje admiten EDiscovery y retención legal para el cumplimiento de los mensajes de canal.  
+los mensajes de chat privado de <sup>3</sup> equipos aún no son compatibles con la retención legal de esta opción de hospedaje.
 
-<sup>4</sup> retención va a usar un buzón de sombra para el usuario en línea para almacenar los mensajes. [Exhibición de documentos electrónicos es compatible con los equipos de Microsoft para el usuario de los equipos en un entorno de implementación híbrida de Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
+<sup>4</sup> la retención usará un buzón de sombra para que el usuario en línea almacene los mensajes. [Microsoft Teams es compatible con eDiscovery para usuarios de equipos en un entorno híbrido de Exchange](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-supports-eDiscovery-for-Teams-users-in-a/ba-p/200009).
 
-<sup>5</sup> usuarios de los equipos con locales buzón de Exchange puede usar el correo de voz con los equipos y recibir mensajes de correo de voz en Outlook, pero los mensajes de correo de voz no estarán disponibles para ver o reproducir el cliente de los equipos.
+<sup>5</sup> los usuarios de equipos con buzón de Exchange local pueden usar el correo de voz con Teams y recibir mensajes de voz en Outlook, pero los mensajes de voz no estarán disponibles para su visualización o reproducción en el cliente de Teams.
 
-Información adicional:
+## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Requisitos para sacar el máximo provecho de Microsoft Teams
 
--   Microsoft Teams no es compatible con SharePoint local.
+Microsoft Teams funciona con varios servicios de Office 365 para ofrecer a los usuarios una experiencia enriquecida. Para admitir esta experiencia, debe habilitar ciertas características o servicios y asignar licencias.
 
--   Para poder compartir y almacenar archivos en las conversaciones del equipo se requiere SharePoint Online.
+- Para poder compartir y almacenar archivos en las conversaciones del equipo se requiere SharePoint Online. Microsoft Teams no es compatible con SharePoint local.
 
--   Para poder compartir y almacenar archivos en chats privados se requiere OneDrive para la Empresa.
+- Los usuarios deben tener asignada una licencia de SharePoint Online si desean compartir archivos en chats. Si los usuarios no tienen asignada ni habilitada licencias de SharePoint Online, no tienen almacenamiento de OneDrive para la empresa en Office 365. El uso compartido de archivos seguirá funcionando en canales, pero los usuarios no podrán compartir archivos en chats sin el almacenamiento de OneDrive para la empresa en Office 365.
 
--   Si los usuarios no tienen habilitadas ni asignadas las licencias de SharePoint Online, no tendrán almacenamiento de OneDrive para la Empresa en Office 365. El uso compartido de archivos seguirá funcionando en canales, pero los usuarios no podrán compartir archivos en chats si no disponen de almacenamiento de OneDrive para la Empresa en Office 365.
+- Es necesario habilitar a los usuarios para que puedan crear grupos de Office 365 y así poder crear equipos en Microsoft Teams.
 
--   Es necesario habilitar a los usuarios para que puedan crear grupos de Office 365 y así poder crear equipos en Microsoft Teams.
+- Para permitir que Microsoft Teams funcione con Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange como se describe en [configurar la autenticación de OAuth entre Exchange y las organizaciones de Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help).
 
--   En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
+## <a name="additional-considerations"></a>Consideraciones adicionales
 
--   Para Exchange local, debe configurar el nuevo protocolo de autenticación de OAuth de Exchange como se describe en [Configurar OAuth autenticación entre organizaciones de Exchange y Exchange Online](https://docs.microsoft.com/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help). 
+A continuación se muestran algunas cosas que debe tener en cuenta al implementar Microsoft Teams en su organización.
 
--  Controlar y proteger la configuración de las directivas de cumplimiento de los equipos y Exchange mediante Access condicional. Para obtener más información, vea [¿cómo funcionan las directivas de acceso condicional para los equipos?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+- En Microsoft Teams, las características de seguridad y cumplimiento (como la exhibición de documentos electrónicos, la búsqueda de contenido, el archivo y la retención legal) funcionan mejor en los entornos de Exchange Online y SharePoint Online. Para las conversaciones del canal, se crea un diario con los mensajes en el buzón del grupo en Exchange Online, y así están disponibles para la exhibición de documentos electrónicos. Si SharePoint Online y OneDrive para la Empresa (usando una cuenta profesional o educativa) están habilitados en toda la organización y para los usuarios, estas características de cumplimiento están disponibles también para todos los archivos de Teams.
 
-> [!NOTE]
-> Por el momento, si su organización tiene ciertas normativas por las que se tienen que poder detectar todas las discusiones de las reuniones, debe deshabilitar las reuniones privadas si el organizador tiene un buzón de correo local de Exchange.
-> 
-> [!IMPORTANT]
-> En una implementación híbrida de Exchange, contenido de mensajes de chat es que admite búsquedo independientemente de si los participantes de chat tienen un buzón de correo basados en la nube o un buzón de correo local. Para obtener más información, lea [los buzones basados en la nube de búsqueda para los usuarios de Office 365 local](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información acerca de cómo buscar contenido en los equipos, lea la [Búsqueda de contenido en el centro de cumplimiento de seguridad de Office 365 &](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
-> 
+- Controlar y proteger la configuración de directivas de cumplimiento en Teams y Exchange mediante el acceso condicional. Para obtener más información, vea [¿Cómo funcionan las directivas de acceso condicional para Teams?](security-compliance-overview.md#how-do-conditional-access-policies-work-for-teams) .
+
+- Si su organización tiene requisitos de cumplimiento para garantizar que todas las discusiones de reuniones se descubran, debe deshabilitar las reuniones privadas si el organizador tiene un buzón local de Exchange.
+
+- En una implementación híbrida de Exchange, el contenido de los mensajes instantáneos se pueden buscar independientemente de si los participantes del chat tienen un buzón basado en la nube o un buzón local. Para obtener más información, lea [búsqueda de buzones de correo basados en la nube para usuarios locales en Office 365](https://docs.microsoft.com/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Para obtener información sobre la búsqueda de contenido en Teams, lea [búsqueda de contenido en el centro de cumplimiento de la & de seguridad de Office 365](https://docs.microsoft.com/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
+
 > [!TIP]
-> Para obtener información acerca de cómo usar Azure Connect de AD para sincronizar con Azure Active Directory, vea [integración de sus identidades local con Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
+> Para obtener más información sobre cómo usar Azure AD Connect para sincronizar con Azure Active Directory, consulte [integrar las identidades locales con Azure Active Directory](https://go.microsoft.com/fwlink/?linkid=854600).
