@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Administre las funcionalidades y las características de acceso de invitado de Microsoft Teams a través de cuatro niveles de autorización distintos.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9b66972ea4e0fe10ba19cdb96db0f0239ce63558
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 04dab0b303ddea640a690c5592f8e4bc9973d1b5
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34159169"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548856"
 ---
 <a name="authorize-guest-access-in-microsoft-teams"></a>Autorizar el acceso de invitado en Microsoft Teams
 ===========================================
@@ -91,11 +91,11 @@ Desde Grupos de Office 365, puede controlar la adición de usuarios invitados y 
     
 3. Seleccione **Grupos de Office 365**.
     
-     ![Grupos de Office 365](media/authorize-guest-image2.png)
+     ![Captura de pantalla de grupos de Office 365 en configuración](media/authorize-guest-image2.png)
   
 4. En la página de Grupos de Office 365, configure el botón de alternancia en **Activado** o **Desactivado**, dependiendo de si quiere que los propietarios del equipo y el grupo que no pertenecen a la organización accedan a los grupos de Office 365. Haga clic o pulse el botón en para establecerlo como **Activado** junto a **Permitir que los propietarios del grupo agreguen usuarios de fuera de la organización a grupos**. Si cambia a **Activado** el botón de alternancia, verá otra opción para controlar si quiere que los propietarios de grupo y equipo puedan añadir personas externas a la organización a los grupos de Office 365 y Microsoft Teams. Establezca el botón de alternancia en **Activado** si desea que los propietarios de grupo y equipo agreguen usuarios invitados. 
  
-   ![La captura de pantalla muestra el panel Grupos de Office 365 con las opciones activadas para permitir que los miembros del grupo externos a la organización accedan al contenido del grupo y para permitir que los propietarios del grupo agreguen a los grupos personas que no pertenecen a la organización.](media/authorize-guest-image3.png)
+   ![Captura de pantalla del panel Grupos de Office 365 con las opciones activadas](media/authorize-guest-image3.png)
 
 La configuración anterior se aplica a nivel de espacio empresarial y controla la experiencia de invitado en Grupos de Office 365 y Microsoft Teams.
 

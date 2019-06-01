@@ -12,49 +12,49 @@ search.appverid: MET150
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
-description: Obtenga información sobre cómo se carga a un sitio.
+description: Obtenga información sobre cómo cargar en un sitio.
 ms.custom:
 - NewAdminCenter_Update
 f1keywords: ms.teamsadmincenter.locations.overview
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8a9274952d74c3bf55943ed6b028fd630ab2078e
-ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.openlocfilehash: 6e7e9211b207c008de22fe86ae0c7bb6c9f9ac51
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/11/2019
-ms.locfileid: "33921285"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667485"
 ---
 <a name="adding-and-updating-locations-data"></a>Agregar y actualizar datos de ubicaciones
 ============================
 
-Las ubicaciones se usan en su organización para indicar las ubicaciones físicas de oficinas, edificios o sitios organizativos. La página ubicaciones de proporciona a los administradores de la capacidad de proporcionar un archivo de texto (.csv o .tsv) que contiene una lista de ubicaciones físicas y sus subredes de red asociados. Este archivo se usa en análisis de llamada y llame al panel de calidad para la generación de informes. Cuando los clientes cargar su asignación de subred, los informes proporcionados por estos servicios va a contener los nombres de ubicación, realizar más fácil de comprender y usar para solucionar los posibles problemas relativos a los informes.
+Las ubicaciones se usan en su organización para indicar las ubicaciones físicas de oficinas, edificios o sitios de la organización. La página ubicaciones proporciona a los administradores la posibilidad de proporcionar un archivo de texto (. csv o. TSV) que contiene una lista de ubicaciones físicas y sus subredes de red asociadas. Este archivo lo usa el análisis de llamadas y el panel de calidad de llamadas para generar informes. Cuando los clientes cargan su asignación de subred, los informes proporcionados por estos servicios también contendrán los nombres de ubicación, lo que facilitará la comprensión y el uso de los informes para corregir cualquier problema potencial.
 
-Los datos de ubicaciones que proporciona están una estructura de datos única: actualmente no hay ninguna interfaz disponible para realizar cambios individuales a los datos de ubicación. 
+Los datos de ubicaciones proporcionados son una única estructura de datos: actualmente no hay ninguna interfaz disponible para realizar ediciones individuales en datos de ubicación. 
 
-**Para editar la tabla de ubicaciones y subredes**
+**Para editar la tabla de subredes y ubicaciones**
 
 1. Haga clic en **reemplazar datos de ubicaciones**.
-2. En el panel **reemplazar datos de ubicación** , haga clic en **Seleccionar un archivo**y a continuación, busque y cargue su editado .csv o .tsv archivo. 
+2. En el panel **reemplazar datos de ubicación** , haga clic en **seleccionar un archivo**y, a continuación, busque y cargue el archivo. csv o. TSV editado. 
 3. Haga clic en **cargar**. 
 
 
 Puede descargar una plantilla de ejemplo [aquí](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true).
 
-Puede usar el siguiente ejemplo para ayudar a crear el archivo de datos. 
+Puede usar el ejemplo siguiente para ayudar a crear el archivo de datos. 
 
 > [!IMPORTANT]
-> El archivo de datos no debe contener encabezados de columna (por ejemplo, red, nombre de red, etcetera). Se utilizan aquí únicamente con fines informativos. </br>
+> El archivo de datos no debe contener encabezados de columna (como red, nombre de red, etc.). Se usan aquí solo con fines informativos. </br>
 
-|Red|Nombre de red|Intervalo de red|Nombre del edificio|Tipo de propiedad|Tipo de creación|Tipo de creación de Office|Ciudad|Código postal|País|Estado|Region|Corp interior|Ruta de Express|
+|Red|Nombre de red|Intervalo de red|Nombre del edificio|Tipo de propiedad|Tipo de edificio|Tipo de edificio de Office|Ciudad|Código postal|Tercer|Estado|Region|Inside Corp|Expressroute|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
-|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
-|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso conexión alquilada RE&F|Office|RE&F|Mountain View|94043|NOSOTROS|CA|NOSOTROS|1|1|
+|10.0.128.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.130.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.131.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
+|10.0.132.0 |SVC-1|32|USCAMTV001|Contoso alquilado RE&F|Office|RE&F|Vista de montaña|94043|DÉJEN|CA|DÉJEN|1|1|
 
 
-Para obtener más información sobre cómo dar formato a su archivo de datos, vea [formato y estructura de archivos de datos de creación de archivos de datos de inquilinos](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-building-data-file-structure).
+Para obtener más información sobre cómo dar formato a un archivo de datos, vea [formato del archivo de datos de inquilinos y creación de una estructura de archivo de datos](turning-on-and-using-call-quality-dashboard.md#tenant-data-file-format-and-structure).
 
 
 ## <a name="related-topics"></a>Temas relacionados

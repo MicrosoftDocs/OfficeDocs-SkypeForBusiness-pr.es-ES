@@ -15,19 +15,19 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 941869edabc171fdf73eb9f2d0a11a2d3dacb1fd
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 5e293cb89875bcaf15172b698735bba86c00635b
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548186"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667477"
 ---
 # <a name="location-of-data-in-microsoft-teams"></a>Ubicación de los datos en Microsoft Teams
 
 Los datos de Teams residen en la región geográfica asociada con su inquilino de Office 365. En la actualidad, Teams es compatible con las regiones Australia, Canadá, Francia, India, Japón, Reino Unido, continente y EMEA. 
 
 > [!IMPORTANT]
-> Actualmente, Teams ofrece residencia de datos en Australia, Canadá, Francia, India, Japón y el Reino Unido solo para los nuevos inquilinos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes de Australia, India y Japón seguirán teniendo los datos de sus equipos almacenados en la región de APAC. Los inquilinos existentes de Canadá seguirán teniendo sus datos almacenados en América. Francia y el Reino Unido tendrán sus datos almacenados en la región de EMEA.
+> Actualmente, Teams ofrece residencia de datos en Australia, Canadá, Francia, India, Japón y el Reino Unido solo para los nuevos inquilinos. Un inquilino nuevo se define como cualquier inquilino que no ha tenido ningún usuario desde el inicio de sesión del inquilino en Teams. Los inquilinos existentes de Australia, India y Japón seguirán teniendo los datos de sus equipos almacenados en la región de APAC. Los inquilinos existentes de Canadá seguirán teniendo sus datos almacenados en América. Los inquilinos existentes en Francia y el Reino Unido tendrán sus datos almacenados en la región de EMEA.
 
 Para obtener más información sobre el lanzamiento de la residencia de datos de India y Reino Unido para equipos, lea la entrada de blog de la suma de Acharya, [Microsoft Teams inicia la residencia de datos de India, otras GEOS disponibles próximamente](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-Launches-Australia-and-Japan-Data-Residency/ba-p/237827). 
 
@@ -39,5 +39,5 @@ Para obtener más información sobre el lanzamiento de la residencia de datos de
 
 Para ver qué región hospeda los datos de su inquilino, vaya al**perfil**de la organización**configuración** > del [Centro](https://portal.office.com/adminportal/home) > de administración de 365 de Microsoft. Desplácese hasta **Data location** (Ubicación de datos). 
 
-![Captura de pantalla de la tabla ubicación de datos que incluye equipos en el centro de administración](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
+![Captura de pantalla de la tabla de ubicación de datos que incluye equipos en el centro de administración](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
 

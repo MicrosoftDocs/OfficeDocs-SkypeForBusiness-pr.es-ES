@@ -18,14 +18,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0c750398a083eb55401a1a1150da4acc0cf525be
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 1aeefb4ed99e25b163cc91330e410b69c8d01282
+ms.sourcegitcommit: ff777b61573b9d90e2d49c49b41fad654eeb3af7
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548329"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34652757"
 ---
-![Diagrama de viaje de actualización, énfasis en la fase de implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
+![Actualizar diagrama de viaje, enfatizar implementación e implementación] (media/upgrade-banner-deployment.png "Etapas del viaje de actualización, con énfasis en la fase de implementación e") implementación
 
 Este artículo forma parte de la fase de implementación e implementación de su viaje de actualización. Antes de continuar, confirme que ha completado las siguientes actividades:
 
@@ -50,7 +50,7 @@ Cuando algunos de los usuarios están listos para usar solo equipos para las com
 
 Si no es factible que toda la organización se traslade a Teams, puede empezar por equipos de prueba piloto junto con Skype empresarial en modo de coexistencia de **islas** . Como los modos de coexistencia adicionales, (es decir, **Skype empresarial con la colaboración entre equipos** y **Skype empresarial con la colaboración y las reuniones**de Teams) están completamente disponibles en los próximos meses, también puede empezar a hacerlo por completo adoptar Teams como una solución de colaboración de grupo antes de mantener Skype empresarial como la solución de comunicaciones unificadas de su organización. Esta es la ruta recomendada por Microsoft para clientes que usan Skype empresarial Server (local o híbrida) y clientes con una gran complejidad cuya trayectoria a teams incluirá un período de coexistencia largo.
 
-![Captura de pantalla de actualización de los bloques de creación de Skype empresarial a teams] (media/upgrade_journeys_building_block.png "Captura de pantalla de la actualización de bloques de creación de Skype empresarial a equipos, que consta de Skype empresarial con&ndash;el modo solo de colaboración de Teams, Skype empresarial con el modo de colaboración y reuniones de Teams, modo islas, solo para equipos y Skype para Modo&ndash;de solo empresa.")
+![Captura de pantalla de actualización de bloques de creación de Skype empresarial a teams] (media/upgrade_journeys_building_block.png "Captura de pantalla de la actualización de bloques de creación de Skype empresarial a equipos, que consta de Skype empresarial con&ndash;el modo solo de colaboración de Teams, Skype empresarial con el modo de colaboración y reuniones de Teams, modo islas, solo para equipos y Skype para Modo&ndash;de solo empresa.")
 
 En la siguiente tabla se comparan los modos de coexistencia y actualización.
 

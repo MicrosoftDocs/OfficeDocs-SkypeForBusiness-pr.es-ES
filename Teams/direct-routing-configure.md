@@ -15,12 +15,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Aprenda a configurar el enrutamiento directo de Microsoft Phone System.
-ms.openlocfilehash: ce3fff5205a2cb78c1d409ae8595a50c73f70aaf
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 5835357a283c80c4dc5a99310ab2d527e55a8bdb
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34290448"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667501"
 ---
 # <a name="configure-direct-routing"></a>Configurar el enrutamiento directo
 
@@ -38,7 +38,7 @@ Le recomendamos que confirme que su SBC ya se ha configurado tal y como recomien
 
 Puede configurar el sistema de Microsoft Phone y permitir que los usuarios usen el enrutamiento directo y, a continuación, configurar Microsoft Teams como el cliente de llamadas preferido completando los siguientes procedimientos: 
 
-- [Emparejar el SBC con un sistema telefónico de Microsoft y validar el emparejamiento](#pair-the-sbc-to-direct-routing-service-of-phone-system)
+- [Emparejar el SBC con un sistema telefónico de Microsoft y validar el emparejamiento](#pair-the-sbc-to-the-direct-routing-service-of-phone-system)
 - [Habilitar a los usuarios para el servicio de enrutamiento directo](#enable-users-for-direct-routing-service)
 - [Asegúrese de que Microsoft Teams es el cliente de llamadas preferido para los usuarios](#set-microsoft-teams-as-the-preferred-calling-client-for-users) 
 
@@ -446,7 +446,7 @@ En la siguiente tabla se resumen las denominaciones de uso y las rutas de voz de
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |Solo para Estados Unidos|"Redmond 1"|^\\+ 1 (425\|206) (\d{7}) $|1|sbc1.contoso.biz<br/>sbc2.contoso.biz|Ruta activa para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
 |Solo para Estados Unidos|"Redmond 2"|^\\+ 1 (425\|206) (\d{7}) $|2|sbc3.contoso.biz<br/>sbc4.contoso.biz|Ruta de reserva para números de destinatarios + 1 425 XXX XX XX o + 1 206 XXX XX XX|
-|Solo para Estados Unidos|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso. BIZ|Ruta para números de la llamada + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
+|Solo para Estados Unidos|"Otros + 1"|^\\+ 1 (\d{10}) $|3|sbc5.contoso.biz<br/>sbc6>. contoso.biz|Ruta para números de la llamada + 1 XXX XXX XX XX (excepto + 1 425 XXX XX XX o + 1 206 XXX XX XX)|
 |International|International|\d +|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Ruta para cualquier patrón de números |
 
 

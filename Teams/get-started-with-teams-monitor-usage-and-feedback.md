@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0447e006bfb276858d2fcdf02524bb1d2f0f1227
-ms.sourcegitcommit: b2acf18ba6487154ebb4ee46938e96dc56cb2c9a
+ms.openlocfilehash: db4eaf68a2402281a32e10132b46ab461d1fed23
+ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33865183"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34548226"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Supervisar el uso y los comentarios en Microsoft Teams
 Es importante saber cómo los usuarios utilizan Teams y cuál es su experiencia con Teams. Los informes de uso pueden ayudarle a comprender mejor los patrones de uso y, junto con los comentarios de los usuarios, proporcionarle información para ampliar la implementación y saber en qué áreas debe dar prioridad a los esfuerzos de aprendizaje y comunicación.
@@ -40,14 +40,14 @@ Para ver estos informes, debe ser un administrador global de Office 365, adminis
 
 - **Informe de uso de Teams**: este informe proporciona información general sobre la actividad de uso en Teams, incluidos los canales y usuarios activos totales, y el número de usuarios activos, canales activos, invitados y mensajes en cada equipo. 
 
-    ![Informe de uso de Teams](media/teams-reports-teams-usage.png "captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams")     
+    ![Captura de pantalla del informe de uso de Teams](media/teams-reports-teams-usage.png "Captura de pantalla del informe de uso de Teams en el Centro de administración de Microsoft Teams")     
 - **Informe de actividad de usuarios de Teams**: este informe ofrece información sobre los tipos de actividades que llevan a cabo los usuarios, como cuántos usuarios se comunican mediante llamadas de uno a uno, mensajes en el canal y mensajes de chat privado. 
 
-    ![Informe de actividad de usuarios de Teams](media/teams-reports-user-activity.png "captura de pantalla del informe de actividad de Teams en el Centro de administración de Microsoft Teams") 
+    ![Captura de pantalla del informe de actividad de usuarios de Teams](media/teams-reports-user-activity.png "Captura de pantalla del informe de actividad de usuarios de Teams en el Centro de administración de Microsoft Teams") 
 `
 - **Informe de uso de dispositivos de Teams**: este informe muestra cómo los usuarios se conectan a Teams, incluida la cantidad de personas que utiliza Teams en sus dispositivos móviles cuando están fuera de la oficina. 
 
-    ![Informe de uso de dispositivos de Teams](media/teams-reports-device-usage.png "captura de pantalla del informe de uso de dispositivos de Teams en el Centro de administración de Microsoft Teams")
+    ![Captura de pantalla del informe de uso de dispositivos de Teams](media/teams-reports-device-usage.png "Captura de pantalla del informe de uso de dispositivos de Teams en el Centro de administración de Microsoft Teams")
 
 Para obtener más información, consulte [Análisis e informes de Microsoft Teams](teams-analytics-and-reports/teams-reporting-reference.md). 
 

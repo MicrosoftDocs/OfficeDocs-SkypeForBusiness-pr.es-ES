@@ -18,12 +18,12 @@ f1keywords: None
 ms.custom:
 - PowerShell
 description: Solución de problemas de creación de una sesión de PowerShell remota para conectarse a Skype empresarial online, incluidos los errores de módulo de importación, de Shell simultáneo, de Live ID y de permisos.
-ms.openlocfilehash: be3fc4d3597e00ae2274bc8793a5f99091384713
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 267580b8a78ce0c0002e6830ba06cc4ae031e42c
+ms.sourcegitcommit: 1336f6c182043016c42660d5f21632d82febb658
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34284871"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "34667386"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnosticar problemas de conexión con el conector de Skype Empresarial Online
 
@@ -42,10 +42,11 @@ Este tema proporciona información que le ayudará a diagnosticar y resolver pro
 - [El usuario no tiene permiso para administrar este inquilino.](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKUserPermission)
     
 - [La posibilidad de conectar con el inquilino se ha deshabilitado en Skype empresarial online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
-    
-- [Se ha superado el número máximo de shells simultáneos para este usuario en Skype empresarial online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMKMaxNumberShellsUser)
-    
-- [Se ha superado el número máximo de shells simultáneos para este inquilino en Skype empresarial online](diagnose-connection-problems-with-the-skype-for-business-online-connector.md#BKMK_MaxNumberShellsTenant)
+
+- [Se ha superado el número máximo de shells simultáneos para este usuario en Skype empresarial online](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+
+- [Se ha superado el número máximo de shells simultáneos para este inquilino en Skype empresarial online](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
+
     
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>Importación-error de módulo causado por la Directiva de ejecución de Windows PowerShell
 <a name="BKMKPowerShellExecutionPolicy"> </a>
