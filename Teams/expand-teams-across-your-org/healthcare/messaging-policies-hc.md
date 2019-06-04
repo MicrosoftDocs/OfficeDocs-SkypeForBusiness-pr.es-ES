@@ -13,12 +13,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ''
 description: Introducción a la mensajería segura para las organizaciones sanitarias
-ms.openlocfilehash: 957e92ec9676047d727ba26b3eb2c29d1c3db558
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 167021c475edd760bf9b56d550616ebb199f2fb5
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494557"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681908"
 ---
 # <a name="get-started-with-secure-messaging-for-healthcare-organizations"></a>Introducción a la mensajería segura para las organizaciones sanitarias
 
@@ -52,6 +52,8 @@ La siguiente configuración es de especial interés para las aplicaciones de cui
 ## <a name="priority-notifications"></a>Notificaciones prioritarias
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
+
+[!INCLUDE [pri-message-offer](../../includes/pri-message-offer.md)]
 
 - ![Icono del número 2, que hace referencia a una llamada en la](../../media/sfbcallout2.png) captura de pantalla anterior **los usuarios pueden enviar notificaciones prioritarias** usan esta configuración para permitir que los usuarios envíen mensajes con prioridad a otros usuarios. Esta característica ayuda al personal del hospital a avisar una vez cuando un incidente importante requiere su atención. A diferencia de los mensajes "importantes" normales, las notificaciones prioritarias notifican a los usuarios varias veces por un período de 20 minutos o hasta que el destinatario los recoja y lea, maximizando la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.
 

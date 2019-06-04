@@ -8,48 +8,55 @@ ms.date: 04/08/2019
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
-description: Obtenga información sobre cómo instalar y conectar con el módulo de Microsoft StaffHub PowerShell.
+description: Obtenga información sobre cómo instalar y conectar con el módulo de PowerShell de Microsoft StaffHub.
 localization_priority: Normal
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe419348d966d9ddfc5c16eee29d9a5005cd6db8
-ms.sourcegitcommit: 111bf6255fa877b3fce70fa8166e8ec5a6643434
+ms.openlocfilehash: a6eab331c8d8b2213225ad8c7ee216f9f6ec2b51
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32245919"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681884"
 ---
 # <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de Microsoft StaffHub
 
 > [!IMPORTANT]
-> Eficaces se deben retirarse el 1 de octubre de 2019, Microsoft StaffHub. Capacidades de StaffHub que estamos creando en Microsoft Teams. En la actualidad, los equipos incluye la aplicación de turnos para la administración de programación y funciones adicionales se lleve a cabo a través del tiempo. StaffHub dejará de funcionar para todos los usuarios en el 1 de octubre de 2019. Cualquier persona que intenta abrir StaffHub se mostrará un mensaje que les dirige a descargar los equipos. Para obtener más información, vea [Microsoft StaffHub retirarse](microsoft-staffhub-to-be-retired.md).  
+> A partir del 1 de octubre de 2019, Microsoft StaffHub se retirará. Estamos construyendo las capacidades de StaffHub en Microsoft Teams. En la actualidad, Teams incluye la aplicación de turnos para la administración de la programación, y las funciones adicionales se aplicarán a lo largo del tiempo. StaffHub dejará de funcionar para todos los usuarios el 1 de octubre de 2019. Cualquier persona que intente abrir StaffHub recibirá un mensaje para que pueda descargar Teams. Para obtener más información, consulte [Microsoft StaffHub para que se](microsoft-staffhub-to-be-retired.md)retirará.  
 
-Use los pasos de este artículo para instalar y conectar con el módulo de Microsoft StaffHub PowerShell. Necesitará esta para administrar StaffHub mediante el uso de PowerShell y para mover los equipos de StaffHub a Microsoft Teams.
+Siga los pasos que se indican en este artículo para instalar y conectar con el módulo de PowerShell de Microsoft StaffHub. Necesitará esto para administrar StaffHub mediante PowerShell y para mover los equipos de StaffHub a Microsoft Teams.
 
 ## <a name="install-the-microsoft-staffhub-powershell-module"></a>Instalar el módulo de PowerShell de Microsoft StaffHub
 
-1. Descargar el [módulo de StaffHub PowerShell](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
-2. Abra Windows PowerShell 3.0 o posterior como administrador. Para ello, haga clic en **Inicio**, escriba **Windows PowerShell**, haga clic en **Windows PowerShell**y, a continuación, seleccione **Ejecutar como administrador**.
+1. Descargue el [módulo de PowerShell de StaffHub](https://www.powershellgallery.com/packages/MicrosoftStaffHub/1.0.0-alpha). 
+2. Abra Windows PowerShell 3,0 o una versión posterior como administrador. Para ello, haga clic en **Inicio**, escriba **Windows PowerShell**, haga clic con el botón derecho en **Windows PowerShell**y, a continuación, seleccione **Ejecutar como administrador**.
 3. Ejecute lo siguiente:
 
     ```
     $ENV:PSModulePath
     ```
+    
 
-4. Compruebe la ruta de acceso de la carpeta en la salida y asegúrese de que todas las carpetas en la ruta de acceso existen en el equipo antes de pasar al paso siguiente. Si faltan carpetas, crearlos.
-5. Ejecute la siguiente, donde &lt;ruta de acceso&gt; es la ruta de acceso en el resultado del paso 2. Por ejemplo, es posible que la ruta de acceso aspecto C:\Users\User1\Documents\WindowsPowerShell\Modules.
+4. Compruebe la ruta de la carpeta en la salida y asegúrese de que todas las carpetas de la ruta de acceso existen en el equipo antes de continuar con el siguiente paso. Si faltan las carpetas, créelos.
+5. Ejecute lo siguiente para permitir la instalación del módulo de PowerShell de StaffHub:
+
+```
+Set-ExecutionPolicy RemoteSigned
+```
+
+6. Ejecute lo siguiente, donde &lt;rutaDeAcceso&gt; es la ruta de acceso del paso 2. Por ejemplo, la ruta de acceso podría ser similar a C:\Users\User1\Documents\WindowsPowerShell\Modules.
 
     ```
     Save-Module -Name PowerShellGet -Path <path> -RequiredVersion 1.6.6
     Install-Module -Name PowerShellGet -Force  -AllowClobber
-    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.2
-    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.2
+    Save-Module -Name MicrosoftStaffHub -Path <path> -RequiredVersion 1.0.5-alpha -AllowPrerelease
+    Install-Module -Name MicrosoftStaffHub -RequiredVersion 1.0.5-alpha -AllowPrerelease
     ```
 
-## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Conectar con el módulo de Microsoft StaffHub PowerShell
+## <a name="connect-to-the-microsoft-staffhub-powershell-module"></a>Conectarse al módulo de PowerShell de Microsoft StaffHub
 
 1. Ejecute lo siguiente:
 
@@ -57,9 +64,9 @@ Use los pasos de este artículo para instalar y conectar con el módulo de Micro
     Connect-StaffHub
     ```
 
-2. Cuando se le solicite, inicie sesión como un administrador global.
+2. Cuando se le solicite, inicie sesión como administrador global.
 
 ## <a name="related-topics"></a>Temas relacionados
 
-- [Referencia de Microsoft StaffHub PowerShell](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
+- [Referencia de PowerShell de Microsoft StaffHub](https://docs.microsoft.com/en-us/powershell/module/staffhub/?view=staffhub-ps)
 - [Mover los equipos de Microsoft StaffHub a Turnos en Teams](move-staffhub-teams-to-shifts-in-teams.md)

@@ -16,19 +16,23 @@ appliesto:
 - Microsoft Teams
 localization_priority: Normal
 search.appverid: MET150
+ROBOTS: NOINDEX, NOFOLLOW
 description: Obtenga más información sobre las directivas de permisos de aplicaciones en Microsoft Teams y cómo usarlas para controlar qué aplicaciones están disponibles para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.overview
-ms.openlocfilehash: d15346370015843eeb497cce7fa85928e77c96d9
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: fac559fb492155af9953beb74c2fac1526f01432
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298894"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681924"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Administrar directivas de permisos de aplicación en Microsoft Teams
 
 > [!INCLUDE [feature coming soon](includes/new-feature-coming-soon-article.md)]
+
+> [!NOTE]
+> Para obtener el método de administración de aplicaciones actual en Microsoft Teams, vea [administrar la configuración de Microsoft Teams para su organización](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365).
 
 Como administrador, puede usar las directivas de permisos de aplicaciones para controlar qué aplicaciones están disponibles para los usuarios de Microsoft Teams de su organización. Puede permitir o bloquear todas las aplicaciones o aplicaciones específicas publicadas por Microsoft, terceros y su organización. Cuando bloquea una aplicación, los usuarios no pueden instalarla desde la tienda de aplicaciones de Teams.
 

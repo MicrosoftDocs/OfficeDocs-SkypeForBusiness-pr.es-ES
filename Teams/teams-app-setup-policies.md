@@ -19,12 +19,12 @@ search.appverid: MET150
 description: Obtenga más información sobre las directivas de configuración de aplicaciones en Microsoft Teams y cómo usarlas para anclar aplicaciones para personalizar equipos para los usuarios de su organización.
 f1keywords:
 - ms.teamsadmincenter.apppolicies.setup
-ms.openlocfilehash: a7b0a9cf7e7ed4eee10d82882d2f17ca57939aa1
-ms.sourcegitcommit: e6ae322d96357fe4f9a7b447afca9d87563f4ba1
+ms.openlocfilehash: e7d508ef87825d93c2df2a7899f413ec9710f44b
+ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34592171"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34681978"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Administrar directivas de configuración de aplicación en Microsoft Teams
 
@@ -175,6 +175,4 @@ Asegúrese de seguir las pautas del logotipo antes de enviar la aplicación. Par
 
  ## <a name="related-topics"></a>Temas relacionados
 - [Configurar la administración para aplicaciones en Teams](admin-settings.md)
-- [Administrar directivas de permisos de aplicación en Teams](teams-app-permission-policies.md)
-- [Administrar configuración y directivas de aplicación personalizadas en Teams](teams-custom-app-policies-and-settings.md)
 - [Publicar una aplicación en el catálogo de aplicaciones de inquilino del cliente de Teams](tenant-apps-catalog-teams.md)
