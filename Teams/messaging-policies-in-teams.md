@@ -16,12 +16,12 @@ search.appverid: MET150
 f1keywords:
 - ms.teamsadmincenter.messagingpolicies.overview
 description: Descubra más cosas sobre las directivas de mensajería y cómo se pueden usar para controlar los mensajes de chats en Teams.
-ms.openlocfilehash: b3d1db5b89c88784761d5bcef3a5400eeabdabe5
-ms.sourcegitcommit: 55da03c85237b43b848e7ff9b427304c2d9e568f
+ms.openlocfilehash: 5b86f0790bc1e212126429afcfe030239c8e956c
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2019
-ms.locfileid: "34681900"
+ms.locfileid: "34702714"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Administrar directivas de mensajería de Teams
 
@@ -86,7 +86,7 @@ Use la siguiente configuración para cambiar la Directiva de mensajería global 
 - **Permitir vistas previas de URL** Use esta opción si desea activar o desactivar la visualización previa automática de direcciones URL en los mensajes.
 - **Permitir a los usuarios traducir mensajes** Active esta opción para que los usuarios pueden traducir automáticamente los mensajes de Teams en el idioma que se especifique en su configuración de idioma personal de Office 365.
 - **Permitir el lector inmersivo para ver mensajes** Active esta opción para permitir a los usuarios ver los mensajes en Microsoft inmersivo Reader. El lector inmersivo es una herramienta de aprendizaje que proporciona una experiencia de lectura de pantalla completa para aumentar la legibilidad del texto.
-- **Los usuarios pueden enviar notificaciones prioritarias** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios varias veces durante un período de 20 minutos o hasta que el destinatario recoja y lea los mensajes, maximizando la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna. [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
+- **Los usuarios pueden enviar notificaciones prioritarias** Si activa esta opción, los usuarios pueden enviar un mensaje que usa notificaciones de prioridad. Las notificaciones prioritarias notifican a los usuarios varias veces durante un período de 20 minutos o hasta que el destinatario recoja y lea los mensajes, maximizando la probabilidad de que el mensaje se recoja y esté accionado de manera oportuna.   [!INCLUDE [pri-message-offer](includes/pri-message-offer.md)]
 - **Creación de mensajes de voz** 
     - **Permitido en chats y canales** Esto significa que los usuarios pueden dejar mensajes de voz en los chats y en los canales.
     - **Permitido solo en chats** Esto significa que los usuarios pueden dejar mensajes de voz en los chats, pero no en los canales.

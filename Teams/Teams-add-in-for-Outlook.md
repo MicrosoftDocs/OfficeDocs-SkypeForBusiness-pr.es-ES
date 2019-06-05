@@ -18,12 +18,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c9a5a17f729c8899c5fb7f7f97a65f9bc36c3080
-ms.sourcegitcommit: e487637fc122727b41b37961f208ddc0d20a3fce
+ms.openlocfilehash: 43d830429d983947f43aa11119801aef803f03f9
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34591642"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694750"
 ---
 <a name="use-the-teams-meeting-add-in-in-outlook"></a>Usar el complemento para reunión de Microsoft Teams en Outlook
 =======================================
@@ -61,6 +61,14 @@ El botón reunión de equipos se muestra en las versiones más recientes de la a
 ![Captura de pantalla del complemento de reunión de Teams en Outlook Mobile](media/teams-meeting-add-in-mobile.png)
 
 Las coordenadas de la reunión (el vínculo de la unión entre equipos y los números de acceso telefónico) se agregarán a la invitación a la reunión después de que el usuario haga clic en **Enviar**.  
+
+## <a name="teams-meeting-add-in-in-and-findtime-for-outlook"></a>Complemento de reunión de Teams y FindTime para Outlook
+FindTime es un complemento para Outlook que ayuda a los usuarios a alcanzar un consenso en las reuniones de las empresas. Una vez que los invitados de la reunión han proporcionado sus horas preferidas, FindTime envía la invitación a la reunión en nombre del usuario. Si la opción **reunión en línea** está seleccionada en FindTime, FindTime programará una reunión de Skype empresarial o de Microsoft Teams. (FindTime usará la que su organización haya establecido como canal predeterminado de reuniones en línea).
+
+> [!NOTE]  
+> Si guardó una configuración de Skype empresarial en el [Panel de Findtime](https://findtime.microsoft.com/UserDashboard), Findtime la usará en lugar de Microsoft Teams. Si desea usar Microsoft Teams, elimine la configuración de Skype empresarial en el panel.
+
+Para obtener más información, vea [programar reuniones con FindTime](https://support.office.com/article/scheduling-meetings-with-findtime-4dc806ed-fde3-4ea7-8c5e-b5d1fddab4a6) .
 
 ## <a name="authentication-requirements"></a>Requisitos de autenticación
 

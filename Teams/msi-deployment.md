@@ -14,12 +14,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 42944baab0552d28877c4974510087d69df1b697
-ms.sourcegitcommit: 349df7248c168e629bc1bb633187e39a37b17ba5
+ms.openlocfilehash: e35c3d62ee43e3b3123993e29c17a8ec1e8f94f7
+ms.sourcegitcommit: c4827e9124ebfb62d8e5c93dc2652d24988bd811
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34421951"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34694732"
 ---
 <a name="install-microsoft-teams-using-msi"></a>Instalar Microsoft Teams con MSI
 =================================
@@ -48,7 +48,7 @@ Los equipos también pueden incluirse con una implementación de Office 365 ProP
 
 El MSI de Teams colocará un instalador en archivos de programa. Cada vez que un usuario inicie sesión en un nuevo perfil de usuario de Windows, se iniciará el instalador y se instalará una copia de la aplicación de Teams en la carpeta appdata del usuario. Si un usuario ya tiene la aplicación de Teams instalada en la carpeta appdata, el instalador MSI omitirá el proceso para ese usuario.
 
-No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte que hay una nueva versión disponible en el servicio. Para volver a implementar el último instalador, use el proceso de reimplementación de MSI que se describe a continuación.Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI desencadenará una actualización de la aplicación antes de que el usuario pueda usar Teams. 
+No use el MSI para implementar actualizaciones, ya que el cliente se actualizará automáticamente cuando detecte que hay una nueva versión disponible en el servicio. Para volver a implementar el último instalador, use el proceso de reimplementación de MSI que se describe a continuación.Si implementa una versión anterior del paquete MSI, el cliente se actualizará automáticamente (excepto en entornos de VDI) cuando sea posible para el usuario. Si se implementa una versión muy antigua, el MSI desencadenará una actualización de la aplicación antes de que el usuario pueda usar Teams. 
 
 > [!Important] 
 > No recomendamos que cambie las ubicaciones de instalación predeterminadas, ya que esto podría interrumpir el flujo de actualización. Tener una versión demasiado antigua impedirá que los usuarios tengan acceso al servicio. 
