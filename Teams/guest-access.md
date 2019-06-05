@@ -16,12 +16,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2d59413a2480458a00d84fddfe9a4368ca01a6cc
-ms.sourcegitcommit: d7c8d03883d4ae4e37af88625dd74ab037eac914
+ms.openlocfilehash: 81bfde91cb73ed6741138be390533d56dc2e60e3
+ms.sourcegitcommit: 3678dbbc8c36010fbf12c57b52281ef4fca9f065
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34159213"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34695952"
 ---
 <a name="guest-access-in-microsoft-teams"></a>Acceso de invitado en Microsoft Teams
 ======================================
