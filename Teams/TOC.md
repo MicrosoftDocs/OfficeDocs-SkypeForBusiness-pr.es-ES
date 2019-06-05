@@ -713,6 +713,7 @@
 ##### [Organizaciones gubernamentales, educativas y sin ánimo de lucro](teams-add-on-licensing/gov-edu-and-nonprofit-organizations.md)
 ### [Administrar la oferta de prueba comercial de Teams](iw-trial-teams.md)
 ### [Actualizar Microsoft Teams gratis a la versión de suscripción de Office 365](upgrade-freemium.md)
+### [Licencias de directivas de mensajería](teams-add-on-licensing/pri-message.md)
 
 
 ## Interoperabilidad con Office 365
