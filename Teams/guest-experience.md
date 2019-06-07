@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6af82e958d3a17c8eb2b3ef64339ae69c1d0871a
-ms.sourcegitcommit: b92b673e718e34b6ebda6de57ad69eb6651faa98
+ms.openlocfilehash: b8fa8b567e82e79fdd280e7f43147620e81ef8be
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34433059"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748383"
 ---
 <a name="what-the-guest-experience-is-like"></a>Cómo es la experiencia de invitado
 =================================
@@ -31,7 +31,7 @@ Cuando a un invitado se le ofrece unirse a un equipo, recibe un mensaje de corre
     
 Todos los miembros del equipo ven un mensaje en el hilo del canal en el que se anuncia que el propietario del equipo ha agregado a un invitado y da el nombre del invitado. Todos los miembros del equipo pueden identificar con facilidad quién es un invitado. Como se muestra en la siguiente captura de pantalla realizada en un equipo de muestra, un banner indica "Este equipo tiene invitados" y aparece una etiqueta "INVITADO" junto al nombre de cada invitado.
     
-! [Captura de pantalla que muestra los usuarios invitados de notificación de banner] Captura de pantalla media/Guest-Experience-image2. png que muestra una parte del canal de marketing de Northwind Traders, con la notificación en la pancarta superior en la que se indica "este equipo tiene invitados" y los usuarios que son invitados identificados con la palabra "invitado" junto a su nombre. ")
+![Captura de pantalla que muestra los usuarios invitados] de notificaciones (media/guest-experience-image2.png "Captura de pantalla que muestra una parte del canal de marketing de Northwind Traders, con la notificación en el banner superior en el que se indica que el equipo tiene invitados y los usuarios que son invitados se identifican con la palabra \"invitado\" junto a su nombre.")
 
 En la siguiente tabla se compara la funcionalidad de Microsoft Teams que está disponible para los miembros del equipo de una organización con la funcionalidad que está disponible para un usuario invitado del equipo.
 

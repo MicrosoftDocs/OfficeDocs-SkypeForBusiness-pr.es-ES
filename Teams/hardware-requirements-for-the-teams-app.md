@@ -4,7 +4,7 @@ ms.reviewer: ''
 author: LolaJacobsen
 ms.author: lolaj
 manager: serdars
-ms.date: 08/28/2018
+ms.date: 06/04/2019
 audience: Admin
 ms.topic: reference
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 123dd884f2cbb2e2085c76df9739fa41349a8f1a
-ms.sourcegitcommit: 2f8b9c7c8d20f2605d09cae4bbaeb10667f2ddea
+ms.openlocfilehash: ed73135210cd970e6ee489d0f2eb095e0ab65e0c
+ms.sourcegitcommit: 04c819504e23f9e3a618b57d54411ffb83888fb9
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "34330423"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34739962"
 ---
 # <a name="hardware-requirements-for-the-microsoft-teams-app"></a>Requisitos de hardware de la aplicación de Microsoft Teams
 
@@ -40,8 +40,8 @@ ms.locfileid: "34330423"
 |Versión de .NET    |  Requiere .NET 4,5 CLR o posterior       |
 |Vídeo    |  Cámara USB 2,0       |
 |Dispositivos    |   Cámara para equipos portátiles, micrófono y altavoces estándar    | 
-|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). |
-|Eventos de Teams Live | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware.  |
+|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de **difuminar mi** vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2). Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
+|Eventos de Teams Live | Si está generando un evento de Teams Live, le recomendamos que use un equipo con un procesador Core i5 Kaby Lake, 4,0 GB de RAM (o superior) y codificador de hardware. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos. |
 
 ## <a name="hardware-requirements-for-the-teams-desktop-app-on-a-mac"></a>Requisitos de hardware para la aplicación de escritorio de Teams en un equipo Mac
 
@@ -54,7 +54,7 @@ ms.locfileid: "34330423"
 |Sistema operativo  |    Mac OS X 10,11 el Capitan o posterior     |
 |Vídeo  |    Cámara web compatible     |
 |Voz    |  Micrófono y altavoces compatibles, auriculares con micrófono o dispositivo equivalente       |
-|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior.
+|Videollamadas y reuniones | Para una mejor experiencia con las videollamadas y las reuniones en línea, recomendamos usar un equipo que tenga un procesador de 2,0 GHz y 4,0 GB de RAM (o superior). El efecto de difuminar mi vídeo de fondo opcional requiere un procesador con compatibilidad con Advanced vector Extensions 2 (AVX2), compatible con la mayoría de los dispositivos Mac de 2013 última versión y posterior. Consulte las [recomendaciones de controlador descodificador y de hardware](hardware-decoders-and-encoders.md) para obtener una lista de descodificadores y codificadores no admitidos.|
 
 ## <a name="hardware-requirements-for-the-teams-app-on-mobile-devices"></a>Requisitos de hardware para la aplicación de Teams en dispositivos móviles
 

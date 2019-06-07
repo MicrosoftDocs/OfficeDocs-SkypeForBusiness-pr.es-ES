@@ -1,5 +1,5 @@
 ---
-title: La presencia del usuario en Teams
+title: Presencia de usuario en Teams
 author: jambirk
 ms.author: jambirk
 manager: serdars
@@ -15,14 +15,14 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fd6ac289df238d9f410266b1eca43a3a18f493e
-ms.sourcegitcommit: b5949233f8080a6cf0edb4b5e27272214feb1c22
+ms.openlocfilehash: 30b50972dd53300905f580c51a410d699ebb1bff
+ms.sourcegitcommit: 21a5550e3c0feafaa57dbcdc428ed13eedd276b8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34548528"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "34748446"
 ---
-# <a name="user-presence-in-teams"></a>La presencia del usuario en Teams
+# <a name="user-presence-in-teams"></a>Presencia de usuario en Teams
 
 La presencia es parte del perfil de un usuario en Microsoft Teams (y en todo el Office 365), e indica la disponibilidad y el estado actuales del usuario a otros usuarios de la organización. De forma predeterminada, cualquier persona de la organización que use Teams puede ver casi el tiempo casi real, tanto si otros usuarios están disponibles en línea como si no.
 
@@ -34,13 +34,13 @@ Los Estados de presencia de usuario disponibles en Teams son:
 |:--- |:---|
 | ![Marca CHEK verde sólido, que indica presencia disponible](media/Presence_Available.png) Disponible|![Marca CHEK verde sólido, que indica presencia disponible](media/Presence_Available.png) Disponible|
 || ![Marca de CHEK verde abierto, que indica el OOF disponible](media/Presence_Available_OOF.png) Disponible, fuera de la oficina |
-|  ![Círculo rojo sólido, que indica que está ocupado](media/Presence_Busy.png) Ocupado |  ![Ocupado](media/Presence_Busy.png) Ocupado  |
+|  ![Círculo rojo sólido, que indica que está ocupado](media/Presence_Busy.png) Ocupado |  ![Círculo rojo sólido, que indica que está ocupado](media/Presence_Busy.png) Ocupado  |
 || ![Círculo rojo sólido, que indica que está ocupado en una llamada](media/Presence_Busy.png) En una llamada|
 || ![Círculo rojo sólido, que indica que está ocupado en una reunión](media/Presence_Busy.png) En una reunión |
 || ![Abrir un círculo rojo, que indica un OOF ocupado](media/Presence_Busy_OOF.png) En una llamada, fuera de la oficina|
 |  ![Círculo rojo con línea blanca, que indica que no molestar](media/Presence_DND.png) No molestar ||
 || ![Círculo rojo con línea blanca, que indica la presentación](media/Presence_DND.png) Moderado|
-| ![Icono de reloj amarillo, que indica que está ausente](media/Presence_Away.png) Desaparece| ![desaparece](media/Presence_Away.png) Desaparece|
+| ![Icono de reloj amarillo, que indica que está ausente](media/Presence_Away.png) Desaparece| ![Icono de reloj amarillo, que indica que está ausente](media/Presence_Away.png) Desaparece|
 || ![Icono de reloj amarillo, que](media/Presence_Away.png) indica que se está alejando la *hora* de última vista|
 |![Icono de reloj amarillo, que indica que está ausente, volver al final](media/Presence_Away.png) Enseguida regreso| |
 || ![Icono de reloj amarillo, que indica que está ausente, trabajo](media/Presence_Away.png)  Descuento en el trabajo|
@@ -60,9 +60,9 @@ Los usuarios pueden especificar quién puede interrumpir (póngase en contacto c
 
 La siguiente configuración de administrador en Skype empresarial es diferente en Teams:
 - El uso compartido de presencia siempre está habilitado en Teams para los usuarios de la organización. La configuración de privacidad (decidir quién puede ver la presencia) no está disponible en Teams.
-- El uso compartido de presencia con todos los usuarios (incluidos los servicios federados) siempre está habilitado para los usuarios en Teams. Su lista de contactos (si tenía una en SfB) está visible en **chats > de contactos** o en **llamadas > contactos**.
+- El uso compartido de presencia con todos los usuarios (incluidos los servicios federados) siempre está habilitado para los usuarios en Teams. Su lista de contactos (si tenía una en Skype empresarial) está visible en **conversación > contactos** o en **llamadas > contactos**.
 - Las características de cliente no molestar y de avance siempre están habilitadas para los usuarios de Teams.
-- Calendario (incluye OOF & otra información del calendario) la integración siempre está habilitada para los usuarios de Teams si se integran con Outlook.
+- La integración de calendario (incluye fuera de oficina y otra información de calendario) siempre está habilitada para los usuarios de Teams si están integrados con Outlook.
 - La *última fecha* de presentación o de *ausencia* (si en un entorno dual con Skype empresarial) está siempre habilitada para los usuarios de Teams.
 
 > [!NOTE]
