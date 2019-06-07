@@ -10,12 +10,12 @@ ms.prod: skype-for-business-itpro
 localization_priority: Normal
 ms.collection: ''
 description: Microsoft está retirando el servicio en línea (ExchUMO) de mensajería unificada de Exchange hasta el 2020 de febrero. Este artículo resume lo que los clientes afectados deberían conocer y hacer para planear su continuidad empresarial.
-ms.openlocfilehash: ba9df18478057e9c32b0f2cea70a10c6c7ab36e8
-ms.sourcegitcommit: 75b2cd0d2d39c50dc1e1513860841e2ae3f84324
+ms.openlocfilehash: 785c80b435bfff5b8a9cda3fca17d57756d06091
+ms.sourcegitcommit: b9e7a11d8332a029a4f1cd4e396787f5a74f0a44
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/28/2019
-ms.locfileid: "34494191"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34702683"
 ---
 # <a name="exchange-unified-messaging-online-migration-support"></a>Soporte de migración en línea de la mensajería unificada de Exchange
 
@@ -48,7 +48,7 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 |---------|---------|---------|
 |Clientes que están listos para migrar<br><br>Características que se van a migrar:<br><ul><li>Correo de voz</ul>   |   Marzo: 2019 de mayo  |Acerca<ul><li>    Clientes con una sencilla implementación y uso del buzón de voz<li>Clientes que tienen todos los requisitos establecidos para que Microsoft ejecute la migración<ul>|
 |Clientes con requisitos previos<br><br>Características que se van a migrar:<br><ul><li>Correo de voz<li>Operador automático</ul> |  Mayo: 2019 de diciembre |Acerca <br><ul><li>La configuración híbrida no se ha establecido o completado<li>Los números de RTC híbridos no están configurados</ul>|
-|Clientes que requieren participación en el administrador & la inversión del cliente<br><br>Características que se van a migrar:<ul><li>Telefónica<li>Operador automático<li>Integración de fax</ul>| Por 2020 de febrero  | Acerca <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor de RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
+|Clientes que requieren la implicación del administrador & inversión en el cliente<br><br>Características que se van a migrar:<ul><li>Telefónica<li>Operador automático<li>Integración de fax</ul>| Por 2020 de febrero  | Acerca <br><ul><li>El servicio ExchUMO está consumido por PBX de terceros<li>Clientes con requisitos de acceso de suscriptor de RTC<li>Clientes de SFB 2010 (no admitido)<li>Integración de fax</ul> |
 
 ## <a name="migration-steps"></a>Pasos de la migración
 
@@ -173,6 +173,10 @@ Microsoft identificó diversas implementaciones de clientes que consumen caracte
 | Fax| Características del servicio | Integración de fax|  | N | Y    |
 
 ### <a name="suggested-test-plan-and-post-migration-validation-for-admins"></a>Plan de prueba sugerido y validación posterior a la migración para administradores
+
+Para comprobar que los usuarios se han migrado al buzón de voz en la nube, simplemente deje un mensaje de voz a un usuario y compruebe el cuerpo del mensaje en Outlook, los mensajes de voz de la nube tienen un pie de página adicional que indica:
+
+**Gracias por usar transcripción. Si no ve una transcripción anteriormente, se debe a que la calidad del audio no es lo suficientemente clara para transcribir.**
 
 Cuando pruebe la funcionalidad de buzón de voz una vez que los usuarios hayan migrado, asegúrese de tener en cuenta los siguientes escenarios:
 
