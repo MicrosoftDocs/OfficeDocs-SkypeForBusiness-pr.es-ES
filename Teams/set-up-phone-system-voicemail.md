@@ -21,12 +21,12 @@ f1keywords: None
 ms.custom:
 - Phone System
 description: 'Obtenga información sobre cómo configurar el buzón de voz en la nube para sus usuarios. '
-ms.openlocfilehash: bff4de7ed77ae7168e6daacf258e73dbc17a736a
-ms.sourcegitcommit: ab47ff88f51a96aaf8bc99a6303e114d41ca5c2f
+ms.openlocfilehash: 49f64f4b4cda9830bc189310efc26f39859009af
+ms.sourcegitcommit: 1764aa53441b9de5a8cfa37be344657176ee5703
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34298674"
+ms.lasthandoff: 06/09/2019
+ms.locfileid: "34808028"
 ---
 # <a name="set-up-cloud-voicemail"></a>Planear el Correo de voz en la nube
 
@@ -70,6 +70,8 @@ La siguiente información está relacionada con la configuración del buzón de 
 > Para los clientes de Skype empresarial, deshabilitar el buzón de voz a través de una directiva de llamadas de Microsoft Teams también puede deshabilitar el servicio de buzón de voz para los usuarios de Skype empresarial.
 
 La transcripción de correo de voz está habilitada de forma predeterminada y el enmascaramiento de contenido ofensivo de transcripción está deshabilitado de forma predeterminada para todos los usuarios y organizaciones; sin embargo, puede controlarlos mediante los cmdlets [Set-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798310.aspx) y [Grant-CsOnlineVoicemailPolicy](https://technet.microsoft.com/library/mt798311.aspx).
+
+Los mensajes de voz recibidos por los usuarios de su organización se transforman en la región donde se hospeda el inquilino de Office 365. Es posible que la región en la que se hospeda el inquilino no sea la misma región en la que se encuentra el usuario que recibe el mensaje de voz. Para ver la región donde se hospeda el inquilino, vaya a la página del perfil de la [organización](https://go.microsoft.com/fwlink/p/?linkid=2067339) y haga clic en **Ver detalles** junto a **Ubicación de datos**.
 
 > [!IMPORTANT]
 > No puede crear una nueva instancia de directiva para transcripción y máscaras de blasfemias por transcripción con el cmdlet **New-CsOnlineVoiceMailPolicy** y no puede quitar una instancia de directiva existente mediante el cmdlet **Remove-CsOnlineVoiceMailPolicy** .
