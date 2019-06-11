@@ -1,27 +1,61 @@
-﻿---
-title: 'Lync Server 2013: Compatibilidad con hardware cliente y de dispositivos'
-TOCTitle: Compatibilidad con hardware cliente y de dispositivos
-ms:assetid: f6aa1192-1bfe-44e0-8ea0-7b361632243d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413039(v=OCS.15)
-ms:contentKeyID: 48277221
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Compatibilidad con hardware cliente y de dispositivos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Client and device hardware support
+ms:assetid: f6aa1192-1bfe-44e0-8ea0-7b361632243d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413039(v=OCS.15)
+ms:contentKeyID: 48185851
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 75705b990638c6ce82384b861c2f7a357fd7496e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842559"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Compatibilidad con hardware cliente y de dispositivos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-01_
+# <a name="client-and-device-hardware-support-in-lync-server-2013"></a><span data-ttu-id="1f9e3-102">Compatibilidad con hardware cliente y de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f9e3-102">Client and device hardware support in Lync Server 2013</span></span>
 
-Los equipos cliente deben cumplir ciertos requisitos de hardware para ser compatibles con los clientes de Lync Server 2013 nm-ocs-14-1st-legal-desc. Es necesario realizar configuraciones adicionales del hardware antes de implementar teléfonos IP y dispositivos analógicos.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Compatibilidad de hardware del cliente Lync en Lync Server 2013](lync-server-2013-lync-client-hardware-support.md)
+<div id="mainBody">
 
-  - [Compatibilidad con hardware de dispositivos en Lync Server 2013](lync-server-2013-device-hardware-support.md)
+<span> </span>
 
-  - [Compatibilidad con la movilidad en Lync Server 2013](lync-server-2013-mobility-support.md)
+<span data-ttu-id="1f9e3-103">_**Última modificación del tema:** 2012-10-01_</span><span class="sxs-lookup"><span data-stu-id="1f9e3-103">_**Topic Last Modified:** 2012-10-01_</span></span>
+
+<span data-ttu-id="1f9e3-104">Los equipos cliente deben cumplir ciertos requisitos de hardware para admitir los clientes de su implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="1f9e3-104">Client computers must meet certain hardware requirements to support clients in your Lync Server 2013 deployment.</span></span> <span data-ttu-id="1f9e3-105">Debe haber configuraciones de hardware adicionales antes de implementar los teléfonos IP y los dispositivos analógicos.</span><span class="sxs-lookup"><span data-stu-id="1f9e3-105">Additional hardware configurations must be in place before you deploy IP phones and analog devices.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="1f9e3-106">En esta sección</span><span class="sxs-lookup"><span data-stu-id="1f9e3-106">In This Section</span></span>
+
+  - [<span data-ttu-id="1f9e3-107">Compatibilidad de hardware del cliente Lync en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f9e3-107">Lync client hardware support in Lync Server 2013</span></span>](lync-server-2013-lync-client-hardware-support.md)
+
+  - [<span data-ttu-id="1f9e3-108">Compatibilidad con hardware de dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f9e3-108">Device hardware support in Lync Server 2013</span></span>](lync-server-2013-device-hardware-support.md)
+
+  - [<span data-ttu-id="1f9e3-109">Compatibilidad con la movilidad en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1f9e3-109">Mobility support in Lync Server 2013</span></span>](lync-server-2013-mobility-support.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,119 +1,153 @@
-﻿---
-title: "Lync Server 2013 : Inf. sur la table des enr. des détails des appels"
-TOCTitle: Detalles de tablas CDR
-ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398693(v=OCS.15)
-ms:contentKeyID: 48275931
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Detalles de tablas CDR'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: CDR table details
+ms:assetid: 896198f5-672b-48ea-852f-0211c0c90857
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398693(v=OCS.15)
+ms:contentKeyID: 48184730
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f87e681cc25f9ed64509ff3bdb31abc5fd77101d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842675"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Detalles de tablas CDR en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-18_
+# <a name="cdr-table-details-in-lync-server-2013"></a><span data-ttu-id="2689f-102">Detalles de tablas CDR en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-102">CDR table details in Lync Server 2013</span></span>
 
-En los siguientes temas se detallan las columnas de cada una de las tablas de esquema de base de datos de los registros detallados de llamadas (CDR).
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Tabla Application en Lync Server 2013](lync-server-2013-application-table.md)
+<div id="mainBody">
 
-  - [Tabla CallPriorities en Lync Server 2013](lync-server-2013-callpriorities-table.md)
+<span> </span>
 
-  - [Tabla CallType en Lync Server 2013](lync-server-2013-calltype-table.md)
+<span data-ttu-id="2689f-103">_**Última modificación del tema:** 2012-10-18_</span><span class="sxs-lookup"><span data-stu-id="2689f-103">_**Topic Last Modified:** 2012-10-18_</span></span>
 
-  - [Tabla ClientVersions en Lync Server 2013](lync-server-2013-clientversions-table.md)
+<span data-ttu-id="2689f-104">En los temas siguientes se detallan las columnas de cada una de las tablas de esquema de la base de datos Records Records Records (CDR).</span><span class="sxs-lookup"><span data-stu-id="2689f-104">The following topics detail the columns in each of the call detail records (CDR) database schema tables.</span></span>
 
-  - [Tabla ConferenceJoinTimeThresholds en Lync Server 2013](lync-server-2013-conferencejointimethresholds-table.md)
+<div>
 
-  - [Tabla ConferenceMessageCount en Lync Server 2013](lync-server-2013-conferencemessagecount-table.md)
+## <a name="in-this-section"></a><span data-ttu-id="2689f-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="2689f-105">In This Section</span></span>
 
-  - [Tabla Conferences en Lync Server 2013](lync-server-2013-conferences-table.md)
+  - [<span data-ttu-id="2689f-106">Tabla Application en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-106">Application table in Lync Server 2013</span></span>](lync-server-2013-application-table.md)
 
-  - [Tabla ConferenceSessionDetails en Lync Server 2013](lync-server-2013-conferencesessiondetails-table.md)
+  - [<span data-ttu-id="2689f-107">Tabla CallPriorities en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-107">CallPriorities table in Lync Server 2013</span></span>](lync-server-2013-callpriorities-table.md)
 
-  - [Tabla ConferenceUris en Lync Server 2013](lync-server-2013-conferenceuris-table.md)
+  - [<span data-ttu-id="2689f-108">Tabla CallType en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-108">CallType table in Lync Server 2013</span></span>](lync-server-2013-calltype-table.md)
 
-  - [Tabla ContentTypes en Lync Server 2013](lync-server-2013-contenttypes-table.md)
+  - [<span data-ttu-id="2689f-109">Tabla ClientVersions en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-109">ClientVersions table in Lync Server 2013</span></span>](lync-server-2013-clientversions-table.md)
 
-  - [Tabla DeRegisterType en Lync Server 2013](lync-server-2013-deregistertype-table.md)
+  - [<span data-ttu-id="2689f-110">Tabla ConferenceJoinTimeThresholds en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-110">ConferenceJoinTimeThresholds table in Lync Server 2013</span></span>](lync-server-2013-conferencejointimethresholds-table.md)
 
-  - [Tabla Devices en Lync Server 2013](lync-server-2013-devices-table.md)
+  - [<span data-ttu-id="2689f-111">Tabla ConferenceMessageCount en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-111">ConferenceMessageCount table in Lync Server 2013</span></span>](lync-server-2013-conferencemessagecount-table.md)
 
-  - [Tabla Dialogs en Lync Server 2013](lync-server-2013-dialogs-table.md)
+  - [<span data-ttu-id="2689f-112">Tabla Conferences en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-112">Conferences table in Lync Server 2013</span></span>](lync-server-2013-conferences-table.md)
 
-  - [Tabla EdgeServers en Lync Server 2013](lync-server-2013-edgeservers-table.md)
+  - [<span data-ttu-id="2689f-113">Tabla ConferenceSessionDetails en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-113">ConferenceSessionDetails table in Lync Server 2013</span></span>](lync-server-2013-conferencesessiondetails-table.md)
 
-  - [Tabla Categoría de error en Lync Server 2013](lync-server-2013-errorcategory-table.md)
+  - [<span data-ttu-id="2689f-114">Tabla ConferenceUris en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-114">ConferenceUris table in Lync Server 2013</span></span>](lync-server-2013-conferenceuris-table.md)
 
-  - [Tabla ErrorDef en Lync Server 2013](lync-server-2013-errordef-table.md)
+  - [<span data-ttu-id="2689f-115">Tabla ContentTypes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-115">ContentTypes table in Lync Server 2013</span></span>](lync-server-2013-contenttypes-table.md)
 
-  - [Tabla ErrorReport en Lync Server 2013](lync-server-2013-errorreport-table.md)
+  - [<span data-ttu-id="2689f-116">Tabla DeRegisterType en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-116">DeRegisterType table in Lync Server 2013</span></span>](lync-server-2013-deregistertype-table.md)
 
-  - [Tabla FileTransfers en Lync Server 2013](lync-server-2013-filetransfers-table.md)
+  - [<span data-ttu-id="2689f-117">Tabla Devices en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-117">Devices table in Lync Server 2013</span></span>](lync-server-2013-devices-table.md)
 
-  - [Tabla FocusJoinsAndLeaves en Lync Server 2013](lync-server-2013-focusjoinsandleaves-table.md)
+  - [<span data-ttu-id="2689f-118">Tabla Dialogs en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-118">Dialogs table in Lync Server 2013</span></span>](lync-server-2013-dialogs-table.md)
 
-  - [Tabla FrontEnd en Lync Server 2013](lync-server-2013-frontend-table.md)
+  - [<span data-ttu-id="2689f-119">Tabla EdgeServers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-119">EdgeServers table in Lync Server 2013</span></span>](lync-server-2013-edgeservers-table.md)
 
-  - [Tabla Gateways en Lync Server 2013](lync-server-2013-gateways-table.md)
+  - [<span data-ttu-id="2689f-120">Tabla ErrorCategory en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-120">ErrorCategory table in Lync Server 2013</span></span>](lync-server-2013-errorcategory-table.md)
 
-  - [Tabla HardwareVersions en Lync Server 2013](lync-server-2013-hardwareversions-table.md)
+  - [<span data-ttu-id="2689f-121">Tabla ErrorDef en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-121">ErrorDef table in Lync Server 2013</span></span>](lync-server-2013-errordef-table.md)
 
-  - [Tabla IMReportSummary en Lync Server 2013](lync-server-2013-imreportsummary-table.md)
+  - [<span data-ttu-id="2689f-122">Tabla ErrorReport en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-122">ErrorReport table in Lync Server 2013</span></span>](lync-server-2013-errorreport-table.md)
 
-  - [Tabla Locations en Lync Server 2013](lync-server-2013-locations-table.md)
+  - [<span data-ttu-id="2689f-123">Tabla FileTransfers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-123">FileTransfers table in Lync Server 2013</span></span>](lync-server-2013-filetransfers-table.md)
 
-  - [Tabla Manufacturers en Lync Server 2013](lync-server-2013-manufacturers-table.md)
+  - [<span data-ttu-id="2689f-124">Tabla FocusJoinsAndLeaves en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-124">FocusJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-focusjoinsandleaves-table.md)
 
-  - [Tabla McuJoinsAndLeaves en Lync Server 2013](lync-server-2013-mcujoinsandleaves-table.md)
+  - [<span data-ttu-id="2689f-125">Tabla de FrontEnd en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-125">FrontEnd table in Lync Server 2013</span></span>](lync-server-2013-frontend-table.md)
 
-  - [Tabla Mcus en Lync Server 2013](lync-server-2013-mcus-table.md)
+  - [<span data-ttu-id="2689f-126">Tabla Gateways en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-126">Gateways table in Lync Server 2013</span></span>](lync-server-2013-gateways-table.md)
 
-  - [Tabla Media en Lync Server 2013](lync-server-2013-media-table.md)
+  - [<span data-ttu-id="2689f-127">Tabla HardwareVersions en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-127">HardwareVersions table in Lync Server 2013</span></span>](lync-server-2013-hardwareversions-table.md)
 
-  - [Tabla MediaList en Lync Server 2013](lync-server-2013-medialist-table.md)
+  - [<span data-ttu-id="2689f-128">Tabla IMReportSummary en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-128">IMReportSummary table in Lync Server 2013</span></span>](lync-server-2013-imreportsummary-table.md)
 
-  - [Tabla MediationServers en Lync Server 2013](lync-server-2013-mediationservers-table.md)
+  - [<span data-ttu-id="2689f-129">Tabla Locations en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-129">Locations table in Lync Server 2013</span></span>](lync-server-2013-locations-table.md)
 
-  - [Tabla MSMQProcessing en Lync Server 2013](lync-server-2013-msmqprocessing-table.md)
+  - [<span data-ttu-id="2689f-130">Tabla Manufacturers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-130">Manufacturers table in Lync Server 2013</span></span>](lync-server-2013-manufacturers-table.md)
 
-  - [Tabla Phones en Lync Server 2013](lync-server-2013-phones-table.md)
+  - [<span data-ttu-id="2689f-131">Tabla McuJoinsAndLeaves en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-131">McuJoinsAndLeaves table in Lync Server 2013</span></span>](lync-server-2013-mcujoinsandleaves-table.md)
 
-  - [Tabla Pools en Lync Server 2013](lync-server-2013-pools-table.md)
+  - [<span data-ttu-id="2689f-132">Tabla Mcus en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-132">Mcus table in Lync Server 2013</span></span>](lync-server-2013-mcus-table.md)
 
-  - [Tabla ProgressReport en Lync Server 2013](lync-server-2013-progressreport-table.md)
+  - [<span data-ttu-id="2689f-133">Tabla Media en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-133">Media table in Lync Server 2013</span></span>](lync-server-2013-media-table.md)
 
-  - [Tabla PurgeSettings en Lync Server 2013](lync-server-2013-purgesettings-table.md)
+  - [<span data-ttu-id="2689f-134">Tabla MediaList en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-134">MediaList table in Lync Server 2013</span></span>](lync-server-2013-medialist-table.md)
 
-  - [Tabla Registration en Lync Server 2013](lync-server-2013-registration-table.md)
+  - [<span data-ttu-id="2689f-135">Tabla MediationServers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-135">MediationServers table in Lync Server 2013</span></span>](lync-server-2013-mediationservers-table.md)
 
-  - [Tabla Roles en Lync Server 2013](lync-server-2013-roles-table.md)
+  - [<span data-ttu-id="2689f-136">Tabla MSMQProcessing en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-136">MSMQProcessing table in Lync Server 2013</span></span>](lync-server-2013-msmqprocessing-table.md)
 
-  - [Tabla Servers en Lync Server 2013](lync-server-2013-servers-table.md)
+  - [<span data-ttu-id="2689f-137">Tabla Phones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-137">Phones table in Lync Server 2013</span></span>](lync-server-2013-phones-table.md)
 
-  - [Tabla SessionDetails en Lync Server 2013](lync-server-2013-sessiondetails-table.md)
+  - [<span data-ttu-id="2689f-138">Tabla Pools en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-138">Pools table in Lync Server 2013</span></span>](lync-server-2013-pools-table.md)
 
-  - [Tabla SIPResponseMetaData en Lync Server 2013](lync-server-2013-sipresponsemetadata-table.md)
+  - [<span data-ttu-id="2689f-139">Tabla ProgressReport en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-139">ProgressReport table in Lync Server 2013</span></span>](lync-server-2013-progressreport-table.md)
 
-  - [Tabla Syndicators en Lync Server 2013](lync-server-2013-syndicators-table.md)
+  - [<span data-ttu-id="2689f-140">Tabla PurgeSettings en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-140">PurgeSettings table in Lync Server 2013</span></span>](lync-server-2013-purgesettings-table.md)
 
-  - [Tabla SyndicatorsTenantMap en Lync Server 2013](lync-server-2013-syndicatorstenantmap-table.md)
+  - [<span data-ttu-id="2689f-141">Tabla Registration en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-141">Registration table in Lync Server 2013</span></span>](lync-server-2013-registration-table.md)
 
-  - [Tabla de tareas en Lync Server 2013](lync-server-2013-task-table.md)
+  - [<span data-ttu-id="2689f-142">Tabla Roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-142">Roles table in Lync Server 2013</span></span>](lync-server-2013-roles-table.md)
 
-  - [Tabla Tenants en Lync Server 2013](lync-server-2013-tenants-table.md)
+  - [<span data-ttu-id="2689f-143">Tabla Servers en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-143">Servers table in Lync Server 2013</span></span>](lync-server-2013-servers-table.md)
 
-  - [Tabla UriTypes en Lync Server 2013](lync-server-2013-uritypes-table.md)
+  - [<span data-ttu-id="2689f-144">Tabla SessionDetails en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-144">SessionDetails table in Lync Server 2013</span></span>](lync-server-2013-sessiondetails-table.md)
 
-  - [Tabla Users en Lync Server 2013](lync-server-2013-users-table.md)
+  - [<span data-ttu-id="2689f-145">Tabla SIPResponseMetaData en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-145">SIPResponseMetaData table in Lync Server 2013</span></span>](lync-server-2013-sipresponsemetadata-table.md)
 
-  - [Tabla UserAgentDef en Lync Server 2013](lync-server-2013-useragentdef-table.md)
+  - [<span data-ttu-id="2689f-146">Tabla de sindicaciones en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-146">Syndicators table in Lync Server 2013</span></span>](lync-server-2013-syndicators-table.md)
 
-  - [Tabla UserStatistics en Lync Server 2013](lync-server-2013-userstatistics-table.md)
+  - [<span data-ttu-id="2689f-147">Tabla SyndicatorsTenantMap en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-147">SyndicatorsTenantMap table in Lync Server 2013</span></span>](lync-server-2013-syndicatorstenantmap-table.md)
 
-  - [Tabla VoipDetails en Lync Server 2013](lync-server-2013-voipdetails-table.md)
+  - [<span data-ttu-id="2689f-148">Tabla de tareas de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-148">Task table in Lync Server 2013</span></span>](lync-server-2013-task-table.md)
+
+  - [<span data-ttu-id="2689f-149">Tabla Tenants en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-149">Tenants table in Lync Server 2013</span></span>](lync-server-2013-tenants-table.md)
+
+  - [<span data-ttu-id="2689f-150">Tabla UriTypes en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-150">UriTypes table in Lync Server 2013</span></span>](lync-server-2013-uritypes-table.md)
+
+  - [<span data-ttu-id="2689f-151">Tabla Users en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-151">Users table in Lync Server 2013</span></span>](lync-server-2013-users-table.md)
+
+  - [<span data-ttu-id="2689f-152">Tabla UserAgentDef en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-152">UserAgentDef table in Lync Server 2013</span></span>](lync-server-2013-useragentdef-table.md)
+
+  - [<span data-ttu-id="2689f-153">Tabla UserStatistics en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-153">UserStatistics table in Lync Server 2013</span></span>](lync-server-2013-userstatistics-table.md)
+
+  - [<span data-ttu-id="2689f-154">Tabla VoipDetails en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="2689f-154">VoipDetails table in Lync Server 2013</span></span>](lync-server-2013-voipdetails-table.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

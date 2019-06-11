@@ -1,182 +1,264 @@
-﻿---
-title: Configuración de escenarios para el servicio de registro centralizado
-TOCTitle: Configuración de escenarios para el servicio de registro centralizado
-ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688085(v=OCS.15)
-ms:contentKeyID: 49889220
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de escenarios para el servicio de registro centralizado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring scenarios for the Centralized Logging Service
+ms:assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688085(v=OCS.15)
+ms:contentKeyID: 49733682
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: abc0be2ac6459c34546de41ee7e2c709e0d0c0f8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842183"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de escenarios para el servicio de registro centralizado
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="configuring-scenarios-for-the-centralized-logging-service-in-lync-server-2013"></a><span data-ttu-id="e19a8-102">Configuración de escenarios para el servicio de registro centralizado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e19a8-102">Configuring scenarios for the Centralized Logging Service in Lync Server 2013</span></span>
 
-Los escenarios definen el ámbito (que puede ser global o de un sitio, un grupo o un equipo) y los proveedores que se utilizarán en el Servicio de registro centralizado. Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia). Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto. Si cree que es necesario modificar un escenario para satisfacer sus necesidades de solución de problemas y de inicio de sesión, las herramientas de depuración de Lync Server 2013 le proporcionan un módulo de Windows PowerShell llamado *ClsController.psm1* que contiene la función *Edit-CsClsScenario*. La finalidad del módulo es editar las propiedades del escenario en cuestión. En este tema se muestran ejemplos del funcionamiento de este módulo. Las herramientas de depuración de Lync Server 2013 se pueden descargar en el siguiente vínculo: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e19a8-103">_**Última modificación del tema:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="e19a8-103">_**Topic Last Modified:** 2014-02-05_</span></span>
+
+<span data-ttu-id="e19a8-104">Los escenarios definen el ámbito (es decir, global, sitio, grupo o equipo) y qué proveedores usar en el servicio de registro centralizado.</span><span class="sxs-lookup"><span data-stu-id="e19a8-104">Scenarios define the scope (that is, global, site, pool, or computer) and what providers to use in the Centralized Logging Service.</span></span> <span data-ttu-id="e19a8-105">Al usar escenarios, puede habilitar o deshabilitar el seguimiento de proveedores (por ejemplo, S4, SIPStack, mensajería instantánea y presencia).</span><span class="sxs-lookup"><span data-stu-id="e19a8-105">By using scenarios, you enable or disable tracing on providers (for example, S4, SIPStack, IM, and Presence).</span></span> <span data-ttu-id="e19a8-106">Al configurar un escenario, puede agrupar a todos los proveedores de una colección lógica determinada que aborda una condición para un problema concreto.</span><span class="sxs-lookup"><span data-stu-id="e19a8-106">By configuring a scenario, you can group all of the providers for a given logical collection that address a specific problem condition.</span></span> <span data-ttu-id="e19a8-107">Si encuentra que un escenario debe modificarse para satisfacer sus necesidades de solución de problemas y registro, las herramientas de depuración de Lync Server 2013 le proporcionan un módulo de Windows PowerShell denominado *ClsController. psm1* que contiene una función denominada \*Edit-CsClsScenario \*.</span><span class="sxs-lookup"><span data-stu-id="e19a8-107">If you find that a scenario needs to be modified to meet your troubleshooting and logging needs, the Lync Server 2013 Debug Tools provides you a Windows PowerShell module named *ClsController.psm1* that contains a function named *Edit-CsClsScenario*.</span></span> <span data-ttu-id="e19a8-108">La finalidad del módulo es editar las propiedades del escenario en cuestión.</span><span class="sxs-lookup"><span data-stu-id="e19a8-108">The purpose of the module is to edit the properties of the named scenario.</span></span> <span data-ttu-id="e19a8-109">En este tema se muestran ejemplos del funcionamiento de este módulo.</span><span class="sxs-lookup"><span data-stu-id="e19a8-109">Examples of how this module works are provided in this topic.</span></span> <span data-ttu-id="e19a8-110">Las herramientas de depuración de Lync Server 2013 se descargan desde el siguiente vínculo:[http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)</span><span class="sxs-lookup"><span data-stu-id="e19a8-110">The Lync Server 2013 Debug Tools are downloaded from the following link: [http://go.microsoft.com/fwlink/?LinkId=285257](http://go.microsoft.com/fwlink/?linkid=285257)</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Para cualquiera de los ámbitos —global, de sitio, de grupo o de equipo—, puede ejecutar un máximo de dos escenarios al mismo tiempo. Para ver qué escenarios están en ejecución, utilice Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</a>. Con Windows PowerShell y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</a>, puede cambiar de forma dinámica los escenarios que están en ejecución: puede modificar los escenarios que se ejecutan durante una sesión de registro o bien ajustar o restringir los datos que se recopilan y sus proveedores.
+> <span data-ttu-id="e19a8-111">Para cualquier ámbito determinado (sitio, global, grupo o equipo), puede ejecutar un máximo de dos escenarios en cualquier momento.</span><span class="sxs-lookup"><span data-stu-id="e19a8-111">For any given scope—site, global, pool or computer—you can run a maximum of two scenarios at any given time.</span></span> <span data-ttu-id="e19a8-112">Para determinar qué escenarios se están ejecutando actualmente, use Windows PowerShell y <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>.</span><span class="sxs-lookup"><span data-stu-id="e19a8-112">To determine which scenarios are currently running, use Windows PowerShell and <A href="https://docs.microsoft.com/powershell/module/skype/Get-CsClsScenario">Get-CsClsScenario</A>.</span></span> <span data-ttu-id="e19a8-113">Mediante Windows PowerShell y <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">set-CsClsScenario</A>, puede cambiar dinámicamente qué escenarios se están ejecutando.</span><span class="sxs-lookup"><span data-stu-id="e19a8-113">By using Windows PowerShell and <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsClsScenario">Set-CsClsScenario</A>, you can dynamically change which scenarios are running.</span></span> <span data-ttu-id="e19a8-114">Puede modificar qué escenarios se ejecutan durante una sesión de registro para ajustar o refinar los datos que está recopilando y de qué proveedores.</span><span class="sxs-lookup"><span data-stu-id="e19a8-114">You can modify which scenarios are running during a logging session to adjust or refine the data you are collecting and from which providers.</span></span>
 
 
 
-Para ejecutar las funciones del Servicio de registro centralizado con el Shell de administración de Lync Server, es necesario que pertenezca a los grupos de seguridad de control de acceso basado en roles (RBAC) CsServerAdministrator o CsAdministrator, o bien a un rol RBAC personalizado que contenga alguno de estos dos grupos. Para obtener una lista de todos los roles RBAC a los que este cmdlet se asignó, incluidos los roles RBAC personalizados creados por usted, ejecute este comando desde el símbolo del sistema de Windows PowerShell o el Shell de administración de Lync Server:
+</div>
+
+<span data-ttu-id="e19a8-115">Para ejecutar las funciones de los servicios de registro centralizado mediante el shell de administración de Lync Server, debe ser miembro de los grupos de seguridad de control de acceso basado en roles (RBAC) de CsAdministrator o CsServerAdministrator, o un rol de RBAC personalizado que contenga cualquiera de los dos de estos dos grupos.</span><span class="sxs-lookup"><span data-stu-id="e19a8-115">To run the Centralized Logging Service functions by using the Lync Server Management Shell, you must be a member of either the CsAdministrator or the CsServerAdministrator role-based access control (RBAC) security groups, or a custom RBAC role that contains either of these two groups.</span></span> <span data-ttu-id="e19a8-116">Para devolver una lista de todos los roles RBAC a los que se ha asignado este cmdlet, incluidos los roles RBAC que haya creado usted mismo, ejecute el siguiente comando desde el shell de administración de Lync Server o el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="e19a8-116">To return a list of all the RBAC roles this cmdlet has been assigned to, including any custom RBAC roles you have created yourself, run the following command from the Lync Server Management Shell or the Windows PowerShell prompt:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Lync Server 2013 cmdlet"}
 
-Por ejemplo:
+<span data-ttu-id="e19a8-117">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="e19a8-117">For example:</span></span>
 
     Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 
-De aquí en adelante nos centraremos en cómo definir, modificar y quitar un escenario, cómo recuperar los escenarios en ejecución y cómo especificar el contenido de un escenario para optimizar la solución de problemas. Los comandos del Servicio de registro centralizado se pueden emitir de dos maneras: con CLSController.exe, que se encuentra, de forma predeterminada, en el directorio C:\\Archivos de programa\\Archivos comunes\\Microsoft Lync Server 2013\\CLSAgent, o bien con el Shell de administración de Lync Server para emitir comandos de Windows PowerShell. La diferencia principal es que al utilizar CLSController.exe en la línea de comandos, hay disponible un conjunto limitado de escenarios, mientras que con Windows PowerShell se pueden definir escenarios nuevos para usarlos en las sesiones de registro.
+<span data-ttu-id="e19a8-118">El resto de este tema se centra en cómo definir un escenario, modificarlo, recuperar los escenarios en ejecución, quitar un escenario y especificar qué contiene un escenario a fin de optimizar la solución de problemas.</span><span class="sxs-lookup"><span data-stu-id="e19a8-118">The remainder of this topic focuses on how to define a scenario, modify a scenario, retrieve what scenarios are running, remove a scenario, and specify what a scenario contains to optimize your troubleshooting.</span></span> <span data-ttu-id="e19a8-119">Hay dos formas de emitir comandos de servicio de registro centralizados.</span><span class="sxs-lookup"><span data-stu-id="e19a8-119">There are two ways to issue Centralized Logging Service commands.</span></span> <span data-ttu-id="e19a8-120">Puede usar el CLSController. exe, que se encuentra de forma predeterminada, en el directorio C:\\archivos de\\programa archivos\\comunes Microsoft Lync Server\\2013 CLSAgent.</span><span class="sxs-lookup"><span data-stu-id="e19a8-120">You can use the CLSController.exe that is located, by default, in the directory C:\\Program Files\\Common Files\\Microsoft Lync Server 2013\\CLSAgent.</span></span> <span data-ttu-id="e19a8-121">O bien, puede usar el shell de administración de Lync Server para emitir comandos de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e19a8-121">Or, you can use the Lync Server Management Shell to issue Windows PowerShell commands.</span></span> <span data-ttu-id="e19a8-122">La diferencia importante es que cuando usa CLSController. exe en la línea de comandos, hay una selección finita de escenarios disponibles.</span><span class="sxs-lookup"><span data-stu-id="e19a8-122">The important distinction is that when you use CLSController.exe at the command line there is a finite selection of scenarios available.</span></span> <span data-ttu-id="e19a8-123">Al usar Windows PowerShell, puede definir nuevos escenarios para usarlos en sus sesiones de registro.</span><span class="sxs-lookup"><span data-stu-id="e19a8-123">When you use Windows PowerShell, you can define new scenarios for use in your logging sessions.</span></span>
 
-Como se comentó en [Descripción general del servicio de registro centralizado](lync-server-2013-overview-of-the-centralized-logging-service.md), un escenario consta de los elementos siguientes:
+<span data-ttu-id="e19a8-124">Como se introdujo en [información general sobre el servicio de registro centralizado en Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), los elementos de un escenario son:</span><span class="sxs-lookup"><span data-stu-id="e19a8-124">As introduced in [Overview of the Centralized Logging Service in Lync Server 2013](lync-server-2013-overview-of-the-centralized-logging-service.md), the elements of a scenario are:</span></span>
 
-  - **Proveedores**   Si está familiarizado con OCSLogger, los proveedores son los componentes que elige para decirle a OCSLogger desde dónde debe recopilar registros el motor de seguimiento. Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger. Si no está familiarizado con OCSLogger, los proveedores son componentes específicos de rol del servidor desde los que el Servicio de registro centralizado puede recopilar registros. Para más información sobre la configuración de los proveedores, vea [Configurar proveedores para el servicio de registro centralizado](lync-server-2013-configuring-providers-for-centralized-logging-service.md).
+  - <span data-ttu-id="e19a8-125">**Proveedores**   si está familiarizado con OCSLogger, los proveedores son los componentes que usted elige para indicar OCSLogger de qué debe recopilar los registros el motor de seguimiento.</span><span class="sxs-lookup"><span data-stu-id="e19a8-125">**Providers**   If you are familiar with OCSLogger, providers are the components that you choose to tell OCSLogger what the tracing engine should collect logs from.</span></span> <span data-ttu-id="e19a8-126">Los proveedores son los mismos componentes y en muchos casos tienen los mismos nombres que los componentes de OCSLogger.</span><span class="sxs-lookup"><span data-stu-id="e19a8-126">The providers are the same components, and in many cases have the same name as the components in OCSLogger.</span></span> <span data-ttu-id="e19a8-127">Si no está familiarizado con OCSLogger, los proveedores son componentes específicos del rol de servidor de los que el servicio de registro centralizado puede recopilar registros.</span><span class="sxs-lookup"><span data-stu-id="e19a8-127">If you are not familiar with OCSLogger, providers are server role specific components that the Centralized Logging Service can collect logs from.</span></span> <span data-ttu-id="e19a8-128">Para más información sobre la configuración de proveedores, consulte [configuración de proveedores para el servicio de registro centralizado en Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).</span><span class="sxs-lookup"><span data-stu-id="e19a8-128">For details about the configuration of providers, see [Configuring providers for Centralized Logging Service in Lync Server 2013](lync-server-2013-configuring-providers-for-centralized-logging-service.md).</span></span>
 
-  - **Identidad**   El parámetro –Identity define el ámbito y el nombre del escenario. Por ejemplo, puede establecer un ámbito “global” e identificar el escenario como “LyssServiceScenario”. Cuando se combinan ambos, se define la identidad, que en este caso sería “global/LyssServiceScenario”.
+  - <span data-ttu-id="e19a8-129">**Identity**   el parámetro-Identity establece el ámbito y el nombre del escenario.</span><span class="sxs-lookup"><span data-stu-id="e19a8-129">**Identity**   The parameter –Identity sets the scope and name of the scenario.</span></span> <span data-ttu-id="e19a8-130">Por ejemplo, puede establecer un ámbito "global" e identificar el escenario como "LyssServiceScenario".</span><span class="sxs-lookup"><span data-stu-id="e19a8-130">For example, you could set a scope of “global” and identify the scenario with “LyssServiceScenario”.</span></span> <span data-ttu-id="e19a8-131">Cuando se combinan ambos, se define la identidad, que en este caso sería "global/LyssServiceScenario".</span><span class="sxs-lookup"><span data-stu-id="e19a8-131">When you combine the two, you define the Identity (for example, “global/LyssServiceScenario”).</span></span>
     
-    Si lo desea, puede usar los parámetros –Name y –Parent. Si utiliza el parámetro Name, que únicamente sirve para identificar el escenario, también deberá usar el parámetro Parent para agregar el escenario a "global" o a "site".
+    <span data-ttu-id="e19a8-p107">Si lo desea, puede usar los parámetros –Name y –Parent. Si utiliza el parámetro Name, que únicamente sirve para identificar el escenario, también tendrá que usar el parámetro Parent para agregar el escenario de forma global o en el sitio.</span><span class="sxs-lookup"><span data-stu-id="e19a8-p107">Optionally, you can use the –Name and –Parent parameters. You define the Name parameter to uniquely identify the scenario. If you use Name, you must also use Parent to add the scenario to either global or site.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Si usa los parámetros Name y Parent, no puede usar el parámetro <strong>–Identity</strong>.
+    > <span data-ttu-id="e19a8-135">Si usa los parámetros Name y Parent, no puede usar el parámetro <STRONG>–Identity</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e19a8-135">If you use the Name and Parent parameters, you cannot use the <STRONG>–Identity</STRONG> parameter.</span></span>
+
     
+    </div>
 
+<div>
 
-## Para crear un escenario con el cmdlet New-CsClsScenario
+## <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a><span data-ttu-id="e19a8-136">Para crear un escenario con el cmdlet New-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="e19a8-136">To create a new scenario with the New-CsClsScenario cmdlet</span></span>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+1.  <span data-ttu-id="e19a8-137">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-137">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-2.  Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsClsProvider) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato basado en el formato de archivo de registro de IIS). A continuación, defina Level y Flags tal como se definen en este tema los niveles de registro y las etiquetas, respectivamente.
+2.  <span data-ttu-id="e19a8-p108">Para crear un escenario para una sesión de registro, utilice [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) y defina el nombre del escenario (es decir, un nombre de identificación único). Elija un tipo de formato de registro de WPP (es decir, el preprocesador de seguimiento del software de Windows; es el predeterminado), EventLog (el formato de registro de eventos de Windows) o IISLog (el archivo de formato ASCII basado en el formato de archivo de registro de IIS). Luego, defina Level y Flags tal como se definen en este tema los niveles de registro y las marcas, respectivamente.</span><span class="sxs-lookup"><span data-stu-id="e19a8-p108">To create a new scenario for a logging session, use [New-CsClsProvider](https://docs.microsoft.com/powershell/module/skype/New-CsClsProvider) and define the name of the scenario (that is, how it will be uniquely identified). Choose a type of logging format from WPP (that is, Windows software tracing preprocessor and is the default), EventLog (that is, Windows event log format), or IISLog (that is, ASCII format file based on the IIS log file format). Next, define Level (as the defined under Logging Levels in this topic), and Flags (as defined under Flags in this topic).</span></span>
     
-    Para este escenario de muestra, utilizaremos LyssProvider como variable del proveedor.
+    <span data-ttu-id="e19a8-141">Para este escenario de ejemplo, utilizaremos LyssProvider como variable de ejemplo del proveedor.</span><span class="sxs-lookup"><span data-stu-id="e19a8-141">For this example scenario, we use LyssProvider as the example provider variable.</span></span>
     
-    Para crear un escenario con las opciones especificadas, escriba:
+    <span data-ttu-id="e19a8-142">Para crear un escenario con las opciones especificadas, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-142">To create a scenario using the options defined, type:</span></span>
     
         New-CsClsScenario -Identity <scope>/<unique scenario name> -Provider <provider variable>
     
-    Por ejemplo:
+    <span data-ttu-id="e19a8-143">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="e19a8-143">For example:</span></span>
     
         New-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider $LyssProvider
     
-    Formato alternativo en el que se usan –Name y –Parent:
+    <span data-ttu-id="e19a8-144">Formato alternativo en el que se usan –Name y –Parent:</span><span class="sxs-lookup"><span data-stu-id="e19a8-144">The alternate format using –Name and –Parent:</span></span>
     
         New-CsClsScenario -Name "LyssServiceScenario" -Parent "site:Redmond" -Provider $LyssProvider
 
-## Para crear un escenario con varios proveedores con el cmdlet New-CsClsScenario
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Por cada ámbito puede haber un máximo de dos escenarios. Sin embargo, el número de proveedores no está limitado. Para este ejemplo, supongamos que ha creado tres proveedores y que desea asignarlos al escenario que está definiendo. Los nombres de la variable "provider" son LyssProvider, ABServerProvider y SIPStackProvider. Para definir y asignar varios proveedores a un escenario, escriba lo siguiente en un símbolo del sistema de Windows PowerShell o el Shell de administración de Lync Server:
+## <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a><span data-ttu-id="e19a8-145">Para crear un escenario con varios proveedores por medio del cmdlet New-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="e19a8-145">To create a new scenario with multiple providers with the New-CsClsScenario cmdlet</span></span>
+
+1.  <span data-ttu-id="e19a8-146">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-146">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="e19a8-147">Por cada ámbito puede haber un máximo de dos escenarios.</span><span class="sxs-lookup"><span data-stu-id="e19a8-147">You are limited to two scenarios per scope.</span></span> <span data-ttu-id="e19a8-148">Sin embargo, no está limitado a un número determinado de proveedores.</span><span class="sxs-lookup"><span data-stu-id="e19a8-148">However, you are not limited to a set number of providers.</span></span> <span data-ttu-id="e19a8-149">En este ejemplo, suponga que hemos creado tres proveedores y desea asignar los tres al escenario que está definiendo.</span><span class="sxs-lookup"><span data-stu-id="e19a8-149">In this example, assume that we have created three providers, and you want to assign all three to the scenario you are defining.</span></span> <span data-ttu-id="e19a8-150">Los nombres de variable de proveedor son LyssProvider, ABServerProvider y SIPStackProvider.</span><span class="sxs-lookup"><span data-stu-id="e19a8-150">The provider variable names are LyssProvider, ABServerProvider, and SIPStackProvider.</span></span> <span data-ttu-id="e19a8-151">Para definir y asignar varios proveedores a un escenario, escriba lo siguiente en un shell de administración de Lync Server o en el símbolo del sistema de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="e19a8-151">To define and assign multiple providers to a scenario, type the following at a Lync Server Management Shell or Windows PowerShell command prompt:</span></span>
     
         New-CsClsScenario -Identity "site:Redmond/CollectDataScenario" -Provider @{Add=$LyssProvider, $ABServerProvider,  $SIPStackProvider}
     
+    <div>
+    
 
-    > [!NOTE]
-    > Al igual que en Windows PowerShell, la convención de crear una tabla hash de valores con <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> se conoce en inglés como <EM>splatting</EM>. Para más información sobre este proceso en Windows PowerShell, consulte <A href="http://go.microsoft.com/fwlink/?linkid=267760%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=267760&amp;clcid=0xC0A</A>.
+    > [!NOTE]  
+    > <span data-ttu-id="e19a8-152">Como se sabe en Windows PowerShell, la Convención para crear una tabla hash de valores usando <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> se conoce como <EM>splatting</EM>.</span><span class="sxs-lookup"><span data-stu-id="e19a8-152">As it is known in Windows PowerShell, the convention for creating a hash table of values using <CODE>@{&lt;variable&gt;=&lt;value1&gt;, &lt;value2&gt;, &lt;value&gt;...}</CODE> is known as <EM>splatting</EM>.</span></span> <span data-ttu-id="e19a8-153">Para obtener más información sobre splatting en Windows PowerShell <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>, consulte.</span><span class="sxs-lookup"><span data-stu-id="e19a8-153">For details about splatting in Windows PowerShell, see <A href="http://go.microsoft.com/fwlink/p/?linkid=267760">http://go.microsoft.com/fwlink/p/?LinkId=267760</A>.</span></span>
 
+    
+    </div>
 
+</div>
 
-## Para modificar un escenario existente con el cmdlet Set-CsClsScenario
+<div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a><span data-ttu-id="e19a8-154">Para modificar un escenario existente con el cmdlet Set-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="e19a8-154">To modify an existing scenario with the Set-CsClsScenario cmdlet</span></span>
 
-2.  Por cada ámbito puede haber un máximo de dos escenarios. Puede cambiar los escenarios que estén en ejecución en cualquier momento, incluso si hay una sesión de captura de registros en proceso. Si redefine los escenarios que se están ejecutándose, la sesión de registro actual dejará de usar el escenario que se haya quitado y comenzará a usar el escenario nuevo. No obstante, la información de registro que se capturó con el escenario que se haya quitado se mantendrá en los registros capturados. Para definir un escenario nuevo, introduzca lo siguiente (asumiendo que se definió un proveedor con el nombre “S4Provider”):
+1.  <span data-ttu-id="e19a8-155">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-155">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="e19a8-p111">Por cada ámbito puede haber un máximo de dos escenarios. Puede cambiar los escenarios que estén en ejecución en cualquier momento, incluso si hay una sesión de captura de registros en proceso. Si redefine los escenarios que están en ejecución, la sesión de registro actual dejará de usar el escenario que se haya quitado y empezará a usar el escenario nuevo. Pero, la información de registro que se capturó con el escenario quitado se mantendrá en los registros capturados. Para definir un escenario nuevo, haga lo siguiente (suponiendo que se agregó un proveedor ya definido con el nombre "S4Provider"):</span><span class="sxs-lookup"><span data-stu-id="e19a8-p111">You are limited to two scenarios per scope. You can change which scenarios are running at any time, even when a logging capture session is in process. If you redefine the running scenarios, the current logging session will stop using the scenario that was removed and then begin using the new scenario. However, the logging information that was captured with the removed scenario remains in the captured logs. To define a new scenario, do the following (that is, assuming the addition of an already defined provider named “S4Provider”):</span></span>
     
         Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Add=<new provider to add>}
     
-    Por ejemplo:
+    <span data-ttu-id="e19a8-161">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="e19a8-161">For example:</span></span>
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Add=$S4Provider}
     
-    Si desea reemplazar los proveedores, defina un único proveedor o bien una lista de proveedores separados entre sí por comas para cambiar el conjunto actual. Si solo desea reemplazar uno de los proveedores, agregue los proveedores actuales a los nuevos para crear un conjunto de proveedores distinto que contenga tanto los proveedores existentes como los nuevos. Para reemplazar todos los proveedores con un conjunto nuevo, escriba lo siguiente:
+    <span data-ttu-id="e19a8-p112">Si desea reemplazar los proveedores, defina un único proveedor o bien una lista de proveedores separados entre sí por comas para cambiar el conjunto actual. Si solo desea reemplazar uno de los proveedores, agregue los proveedores actuales a los nuevos para crear un conjunto de proveedores distinto que contenga tanto los proveedores existentes como los nuevos. Para reemplazar todos los proveedores con un conjunto nuevo, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="e19a8-p112">If you want to replace providers, define a single provider or a comma separated list of providers to replace the current set. If you only want to replace one of many providers, add the current providers with the new providers to create a new set of providers that contains both new providers and existing providers. To replace all providers with a new set, type the following:</span></span>
     
         Set-CsClsScenario -Identity <name of scope and scenario defined by New-CsClsScenario> -Provider @{Replace=<providers to replace existing provider set>}
     
-    Por ejemplo, para reemplazar el conjunto actual de $LyssProvider, $ABServerProvider y $SIPStackProvider con $LyssServiceProvider, el código sería:
+    <span data-ttu-id="e19a8-165">Por ejemplo, para reemplazar el conjunto actual de $LyssProvider, $ABServerProvider y $SIPStackProvider con $LyssServiceProvider:</span><span class="sxs-lookup"><span data-stu-id="e19a8-165">For example, to replace the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider:</span></span>
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider}
     
-    Para reemplazar solo el proveedor $LyssProvider del conjunto actual de $LyssProvider, $ABServerProvider y $SIPStackProvider con $LyssServiceProvider, escriba lo siguiente:
+    <span data-ttu-id="e19a8-166">Para reemplazar solo el proveedor $LyssProvider del conjunto actual de $LyssProvider, $ABServerProvider y $SIPStackProvider con $LyssServiceProvider, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="e19a8-166">To replace just the $LyssProvider provider from the current set of $LyssProvider, $ABServerProvider, and $SIPStackProvider with $LyssServiceProvider, type the following:</span></span>
     
         Set-CsClsScenario -Identity "site:Redmond/LyssServiceScenario" -Provider @{Replace=$LyssServiceProvider, $ABServerProvider, $SIPStackProvider}
 
-## Para quitar un escenario existente con el cmdlet Remove-CsClsScenario
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Si desea quitar un escenario que se definió previamente, escriba lo siguiente:
+## <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a><span data-ttu-id="e19a8-167">Para quitar un escenario existente con el cmdlet Remove-CsClsScenario</span><span class="sxs-lookup"><span data-stu-id="e19a8-167">To remove an existing scenario with the Remove-CsClsScenario cmdlet</span></span>
+
+1.  <span data-ttu-id="e19a8-168">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-168">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="e19a8-169">Si desea quitar un escenario que se definió previamente, escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="e19a8-169">If you want to remove a scenario that has been previously defined, type the following:</span></span>
     
         Remove-CsClsScenario -Identity <name of scope and scenario>
     
-    Por ejemplo, para reemplazar el escenario definido con site:Redmond/LyssServiceScenario, el código sería:
+    <span data-ttu-id="e19a8-170">Por ejemplo, para quitar el escenario definido site:Redmond/LyssServiceScenario:</span><span class="sxs-lookup"><span data-stu-id="e19a8-170">For example, to remove the defined scenario site:Redmond/LyssServiceScenario:</span></span>
     
         Remove-CsClsScenario -Identity "site:Redmond/LyssServiceScenario"
 
-El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los datos de seguimiento que se hayan capturado seguirán disponibles en los registros para su consulta.
+<span data-ttu-id="e19a8-171">El cmdlet **Remove-CsClsScenario** quita el escenario especificado, pero los datos de seguimiento que se hayan capturado seguirán disponibles en los registros para su consulta.</span><span class="sxs-lookup"><span data-stu-id="e19a8-171">The **Remove-CsClsScenario** cmdlet removes the specified scenario, but the traces that have been captured are still available in the logs for you to search on.</span></span>
 
-## Para cargar y descargar el cmdlet Edit-CsClsScenario con el módulo ClsController.psm1
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
+
+## <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clscontrollerpsm1-module"></a><span data-ttu-id="e19a8-172">Para cargar y descargar el cmdlet Edit-CsClsScenario con el módulo ClsController. psm1</span><span class="sxs-lookup"><span data-stu-id="e19a8-172">To load and unload the Edit-CsClsScenario cmdlet using the ClsController.psm1 module</span></span>
+
+1.  <span data-ttu-id="e19a8-173">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-173">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > El módulo ClsController.psm1, que forma parte de las herramientas de depuración de Lync Server 2013, se proporciona como una descarga web aparte. De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de programa\Lync Server 2013\Herramientas de depuración.
+    > <span data-ttu-id="e19a8-174">El módulo ClsController. psm1 se proporciona como una descarga web independiente.</span><span class="sxs-lookup"><span data-stu-id="e19a8-174">The ClsController.psm1 module is provided as a separate Web download.</span></span> <span data-ttu-id="e19a8-175">El módulo es parte de las herramientas de depuración de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="e19a8-175">The module is part of the Lync Server 2013 Debugging tools.</span></span> <span data-ttu-id="e19a8-176">De forma predeterminada, las herramientas de depuración se instalan en el directorio C:\Archivos de Files\Lync Server 2013 \ depuración.</span><span class="sxs-lookup"><span data-stu-id="e19a8-176">By default, the debugging tools are installed in the directory C:\Program Files\Lync Server 2013\Debugging Tools.</span></span>
+
     
+    </div>
 
-
-2.  En Windows PowerShell, escriba:
+2.  <span data-ttu-id="e19a8-177">En Windows PowerShell, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-177">From the Windows PowerShell, type:</span></span>
     
         Import-Module "C:\Program Files\Lync Server 2013\Debugging Tools\ClsController.psm1"
     
-    > [!TIP]  
-    > Si el módulo se carga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se cargó y que Edit-CsClsScenario está disponible, escriba <code>Get-Help Edit-CsClsScenario</code>. Debería ver una muestra general de la sintaxis de EditCsClsScenario.
+    <div>
     
 
+    > [!TIP]  
+    > <span data-ttu-id="e19a8-178">La carga correcta del módulo le vuelve al símbolo del sistema de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e19a8-178">Successful loading of the module returns you to the Windows PowerShell command prompt.</span></span> <span data-ttu-id="e19a8-179">Para confirmar que el módulo está cargado y que editar-CsClsScenario está disponible, escriba <CODE>Get-Help Edit-CsClsScenario</CODE>.</span><span class="sxs-lookup"><span data-stu-id="e19a8-179">To confirm that the module is loaded and that Edit-CsClsScenario is available, type <CODE>Get-Help Edit-CsClsScenario</CODE>.</span></span> <span data-ttu-id="e19a8-180">Tendría que ver una muestra general de la sintaxis de EditCsClsScenario.</span><span class="sxs-lookup"><span data-stu-id="e19a8-180">You should see the basic synopsis of the syntax for EditCsClsScenario.</span></span>
 
-3.  Para descargar los módulos, escriba:
+    
+    </div>
+
+3.  <span data-ttu-id="e19a8-181">Para descargar los módulos, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-181">To unload the modules, type:</span></span>
     
         Remove-Module ClsController
     
-    > [!TIP]  
-    > Si el módulo se descarga correctamente, se le llevará de nuevo al símbolo del sistema de Windows PowerShell. Para confirmar que el módulo se descargó, escriba <code>Get-Help Edit-CsClsScenario</code>. Windows PowerShell tratará de localizar la ayuda sobre el cmdlet y se suspenderá.
+    <div>
     
 
+    > [!TIP]  
+    > <span data-ttu-id="e19a8-182">La descarga correcta del módulo te vuelve al símbolo del sistema de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="e19a8-182">Successful unloading of the module returns you to the Windows PowerShell command prompt.</span></span> <span data-ttu-id="e19a8-183">Para confirmar que se ha descargado el módulo, <CODE>Get-Help Edit-CsClsScenario</CODE>escriba.</span><span class="sxs-lookup"><span data-stu-id="e19a8-183">To confirm that the module is unloaded, type <CODE>Get-Help Edit-CsClsScenario</CODE>.</span></span> <span data-ttu-id="e19a8-184">Windows PowerShell intentará ubicar la ayuda para el cmdlet y fallar.</span><span class="sxs-lookup"><span data-stu-id="e19a8-184">Windows PowerShell will attempt to locate the help for the cmdlet and fail.</span></span>
 
-## Para quitar un proveedor existente de un escenario con el módulo Edit-ClsController
+    
+    </div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+</div>
 
-2.  Para quitar un proveedor del escenario AlwaysOn, escriba:
+<div>
+
+## <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a><span data-ttu-id="e19a8-185">Para quitar un proveedor existente de un escenario con el módulo Edit-ClsController</span><span class="sxs-lookup"><span data-stu-id="e19a8-185">To remove an existing provider from a scenario with the Edit-ClsController module</span></span>
+
+1.  <span data-ttu-id="e19a8-186">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-186">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="e19a8-187">Para quitar un proveedor del escenario AlwaysOn, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-187">To remove a provider from the AlwaysOn scenario, type:</span></span>
     
         Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to remove> -Remove
     
-    Por ejemplo:
+    <span data-ttu-id="e19a8-188">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="e19a8-188">For Example:</span></span>
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Remove
     
-    ScenarioName y ProviderName son parámetros de posición (es decir, es necesario que se definan en una posición determinada en la línea de comandos). El nombre de los parámetros no tiene que definirse explícitamente si el nombre del escenario ocupa el segundo lugar y el proveedor ocupa el tercero tomando como referencia el nombre del cmdlet, que aparece en primer lugar. Teniendo en cuenta esta información, el comando anterior quedaría así:
+    <span data-ttu-id="e19a8-p116">ScenarioName y ProviderName son parámetros de posición (es decir, es necesario que se definan en una posición determinada en la línea de comandos). El nombre de los parámetros no tiene que definirse explícitamente si el nombre del escenario ocupa el segundo lugar y el proveedor ocupa el tercero tomando como referencia el nombre del cmdlet, que aparece en primer lugar. Teniendo en cuenta esta información, el comando anterior quedaría así:</span><span class="sxs-lookup"><span data-stu-id="e19a8-p116">The parameters ScenarioName and ProviderName are positional (that is, they must be defined in the expected position in the command line) parameters. The parameter name does not have to be explicitly defined if the scenario name is in position two and the provider is in position three, relative to the name of the cmdlet as position one. Using this information, the previous command would be typed as:</span></span>
     
         Edit-CsClsScenario AlwaysOn ChatServer -Remove
     
-    La colocación posicional de los valores de parámetro solo se aplica a –Scenario y –Provider. Todos los demás parámetros se deben definir explícitamente.
+    <span data-ttu-id="e19a8-p117">La colocación posicional de los valores de parámetro solo se aplica a –Scenario y –Provider. Es necesario definir explícitamente todos los demás parámetros.</span><span class="sxs-lookup"><span data-stu-id="e19a8-p117">The positional placing of the parameter values applies only to –Scenario and –Provider. All other parameters must be explicitly defined.</span></span>
 
-## Para agregar un proveedor a un escenario con el módulo Edit-ClsController
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Para agregar un proveedor al escenario AlwaysOn, escriba:
+## <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a><span data-ttu-id="e19a8-194">Para agregar un proveedor a un escenario con el módulo Edit-ClsController</span><span class="sxs-lookup"><span data-stu-id="e19a8-194">To add a provider to a scenario with the Edit-ClsController module</span></span>
+
+1.  <span data-ttu-id="e19a8-195">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e19a8-195">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="e19a8-196">Para agregar un proveedor al escenario AlwaysOn, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-196">To add a provider to the AlwaysOn scenario, type:</span></span>
     
         Edit-CsClsScenario -ScenarioName <string of the scenario to edit> -ProviderName <string of the provider to add> -Level <string of type level> -Flags <string of type flags>
     
-    Por ejemplo:
+    <span data-ttu-id="e19a8-197">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="e19a8-197">For Example:</span></span>
     
         Edit-CsClsScenario -ScenarioName AlwaysOn -ProviderName ChatServer -Level Info -Flags TF_COMPONENT
     
-    Los únicos tipos posibles de nivel de registro son: Fatal, Error, Warning, Info, Verbose, Debug o All. –Flags pueden ser cualquiera de las marcas que el proveedor admita, como TF\_COMPONENT, TF\_DIAG, o bien pueden contener el valor ALL.
+    <span data-ttu-id="e19a8-198">\-LogLevel puede ser de tipo grave, error, warning, info, verbose, Debug o ALL.</span><span class="sxs-lookup"><span data-stu-id="e19a8-198">\-Loglevel can be of the type Fatal, Error, Warning, Info, Verbose, Debug, or All.</span></span> <span data-ttu-id="e19a8-199">– Flags puede corresponder a cualquiera de las marcas admitidas por el proveedor\_, como TF\_Component, TF diag.</span><span class="sxs-lookup"><span data-stu-id="e19a8-199">–Flags can be any of the flags that the provider supports, such as TF\_COMPONENT, TF\_DIAG.</span></span> <span data-ttu-id="e19a8-200">: Los indicadores también pueden tener valor</span><span class="sxs-lookup"><span data-stu-id="e19a8-200">–Flags can also be of value ALL</span></span>
     
-    El ejemplo anterior también se puede introducir usando la característica de colocación posicional del cmdlet. Por ejemplo, para agregar el proveedor ChatServer al escenario AlwaysOn, el código quedaría así:
+    <span data-ttu-id="e19a8-p119">El ejemplo anterior también se puede introducir usando la característica de colocación posicional del cmdlet. Por ejemplo, para agregar el proveedor ChatServer al escenario AlwaysOn, escriba:</span><span class="sxs-lookup"><span data-stu-id="e19a8-p119">The previous example can also be typed using the positional feature of the cmdlet. For example, to add the provider ChatServer to the AlwaysOn scenario, type:</span></span>
     
         Edit-CsClsScenario AlwaysOn ChatServer -Level Info -Flags ALL
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

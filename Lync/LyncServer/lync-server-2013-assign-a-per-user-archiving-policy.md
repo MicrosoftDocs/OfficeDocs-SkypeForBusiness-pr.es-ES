@@ -1,114 +1,122 @@
-﻿---
-title: Asignación de una directiva de archivado por usuario
-TOCTitle: Asignación de una directiva de archivado por usuario
-ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182560(v=OCS.15)
-ms:contentKeyID: 48276167
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Asignación de una directiva de archivado por usuario
+title: 'Lync Server 2013: asignar una directiva de archivado por usuario'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assign a per-user archiving policy
+ms:assetid: a12ca483-b235-460f-b3fe-130fb3087264
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182560(v=OCS.15)
+ms:contentKeyID: 48185014
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f82b2398002a1c2536c9a57b18f9276a9d138903
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842758"
+---
+# <a name="assign-a-per-user-archiving-policy-in-lync-server-2013"></a><span data-ttu-id="60b62-102">Asignar una directiva de archivado por usuario en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60b62-102">Assign a per-user archiving policy in Lync Server 2013</span></span>
 
  
 
-_**Última modificación del tema:** 2013-02-22_
 
-La directiva de archivado es uno de los valores de configuración individuales de una cuenta de usuario que puede configurar en Panel de control de Lync Server 2013.
+<span data-ttu-id="60b62-103">La Directiva de archivado es una de las configuraciones individuales de una cuenta de usuario que puede configurar en el panel de control de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="60b62-103">The archiving policy is one of the individual settings of a user account that you can configure in the Lync Server 2013 Control Panel.</span></span>
 
-La implementación de una o más directivas de archivado por usuario es opcional. Asimismo, puede implementar solamente una directiva de archivado a nivel global o a nivel de sitio. Si no implementa directivas por usuario, es preciso que las asigne explícitamente a un objeto de usuario, grupo o contacto. Los requisitos de archivado toman automáticamente los valores predeterminados de aquellos definidos en la directiva de conferencia cuando no se asigna una directiva a nivel de sitio o por usuario específica.
+<span data-ttu-id="60b62-104">La implementación de una o más directivas de archivado por usuario es opcional.</span><span class="sxs-lookup"><span data-stu-id="60b62-104">Deploying one or more per-user archiving policies is optional.</span></span> <span data-ttu-id="60b62-105">También puede implementar una directiva de archivado de nivel global o una directiva de archivado de nivel de sitio.</span><span class="sxs-lookup"><span data-stu-id="60b62-105">You can also deploy only a global-level archiving policy or site-level archiving policy.</span></span> <span data-ttu-id="60b62-106">Si implementa directivas por usuario, es preciso que las asigne explícitamente a un objeto de usuario, grupo o contacto.</span><span class="sxs-lookup"><span data-stu-id="60b62-106">If you do deploy per-user policies, you must explicitly assign them to users, groups, or contact object.</span></span> <span data-ttu-id="60b62-107">Los requisitos de archivado se especifican de forma automática predeterminada para los definidos en la Directiva de conferencia global cuando no se ha asignado ninguna directiva específica de nivel de sitio o de usuario.</span><span class="sxs-lookup"><span data-stu-id="60b62-107">Archiving requirements automatically default to those defined in the global-level conferencing policy when no specific site-level or per-user policy is assigned.</span></span>
 
-Tras crear al menos una directiva de archivado por usuario, use los procedimientos en este tema para asignar la directiva que especifique adecuadamente si el servidor archivará las comunicaciones internas y externas de un usuario, o ambas.
+<span data-ttu-id="60b62-108">Después de crear al menos una directiva de archivado por usuario, use los procedimientos de este tema para asignar la Directiva que especifica correctamente si el servidor archivará las comunicaciones internas, las comunicaciones externas o ambas de un usuario en particular.</span><span class="sxs-lookup"><span data-stu-id="60b62-108">After creating at least one per-user archiving policy, use the procedures in this topic to assign the policy that appropriately specifies whether a particular user’s internal communications, external communications, or both, will be archived by the server.</span></span>
 
-Para obtener información detallada sobre la creación de directivas de archivado por usuario, consulte [Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).
+<span data-ttu-id="60b62-109">Para obtener más información sobre la creación de directivas de archivado por usuario, consulte [crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para determinados sitios o usuarios](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).</span><span class="sxs-lookup"><span data-stu-id="60b62-109">For details about creating per-user archiving policies, see [Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md).</span></span>
 
-## Para asignar una directiva de archivado por usuario
+## <a name="to-assign-a-per-user-archiving-policy"></a><span data-ttu-id="60b62-110">Para asignar una directiva de archivado por usuario</span><span class="sxs-lookup"><span data-stu-id="60b62-110">To assign a per-user archiving policy</span></span>
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+1.  <span data-ttu-id="60b62-111">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="60b62-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  <span data-ttu-id="60b62-112">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="60b62-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="60b62-113">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="60b62-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Usuarios**.
+3.  <span data-ttu-id="60b62-114">En la barra de navegación izquierda, haga clic en **Usuarios**.</span><span class="sxs-lookup"><span data-stu-id="60b62-114">In the left navigation bar, click **Users**.</span></span>
 
-4.  Utilice uno de los métodos siguientes para encontrar a un usuario:
+4.  <span data-ttu-id="60b62-115">Use uno de los métodos siguientes para encontrar a un usuario:</span><span class="sxs-lookup"><span data-stu-id="60b62-115">Use one of the following methods to locate a user:</span></span>
     
-      - En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.
+      - <span data-ttu-id="60b62-116">En el cuadro **Buscar usuarios**, escriba la primera porción del nombre para mostrar, el nombre, los apellidos, el nombre de la cuenta del Administrador de cuentas de seguridad (SAM), la dirección SIP o el identificador uniforme de recursos (URI) de la cuenta de usuario y, a continuación, haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="60b62-116">In the **Search users** box, type all or the first portion of the display name, first name, last name, Security Accounts Manager (SAM) account name, SIP address, or line Uniform Resource Identifier (URI) of the user account, and then click **Find**.</span></span>
     
-      - Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, utilice el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.
+      - <span data-ttu-id="60b62-117">Si ha guardado una consulta, haga clic en el icono **Abrir consulta**, use el cuadro de diálogo **Abrir** para recuperar la consulta (un archivo .usf) y, a continuación, haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="60b62-117">If you have a saved query, click the **Open query** icon, use the **Open** dialog box to retrieve the query (a .usf file), and then click **Find**.</span></span>
 
-5.  (Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:
+5.  <span data-ttu-id="60b62-118">(Opcional) Especificar criterios de búsqueda adicionales para restringir los resultados:</span><span class="sxs-lookup"><span data-stu-id="60b62-118">(Optional) Specify additional search criteria to narrow the results:</span></span>
     
-    1.  Haga clic en **Agregar filtro**.
+    1.  <span data-ttu-id="60b62-119">Haga clic en **Agregar filtro**.</span><span class="sxs-lookup"><span data-stu-id="60b62-119">Click **Add Filter**.</span></span>
     
-    2.  Especifique la propiedad de usuario; para ello, escríbala o haga clic en la flecha de la lista desplegable para seleccionar la propiedad.
+    2.  <span data-ttu-id="60b62-120">Especifique la propiedad de usuario. Para ello, escríbala o haga clic en la flecha de la lista desplegable para seleccionar la propiedad.</span><span class="sxs-lookup"><span data-stu-id="60b62-120">Enter the user property by typing it or by clicking the arrow in the drop-down list to select the property.</span></span>
     
-    3.  En la lista desplegable **Igual a**, haga clic en el operador (por ejemplo, **Igual a** o **No igual a**).
+    3.  <span data-ttu-id="60b62-121">En la lista desplegable **Igual a**, haga clic en el operador (por ejemplo, **Igual a** o **No igual a**).</span><span class="sxs-lookup"><span data-stu-id="60b62-121">In the **Equal to** drop-down list, click the operator (for example, **Equal to** or **Not equal to**).</span></span>
     
-    4.  En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee utilizar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.
+    4.  <span data-ttu-id="60b62-122">En función de la propiedad de usuario que haya seleccionado, especifique los criterios que desee utilizar para filtrar los resultados de búsqueda escribiendo o haciendo clic en la flecha de la lista desplegable.</span><span class="sxs-lookup"><span data-stu-id="60b62-122">Depending on the user property you selected, enter the criteria you want to use to filter the search results by typing it or by clicking the arrow in the drop-down list.</span></span>
         
+
         > [!TIP]  
-        > Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <strong>Agregar filtro</strong>.
-        
-    
-    5.  Haga clic en **Buscar**.
+        > <span data-ttu-id="60b62-123">Para agregar cláusulas de búsqueda adicionales a la consulta, haga clic en <STRONG>Agregar filtro</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="60b62-123">To add additional search clauses to your query, click <STRONG>Add Filter</STRONG>.</span></span>
 
-6.  Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y, a continuación, en **Asignar directivas**.
     
+    5.  <span data-ttu-id="60b62-124">Haga clic en **Buscar**.</span><span class="sxs-lookup"><span data-stu-id="60b62-124">Click **Find**.</span></span>
+
+6.  <span data-ttu-id="60b62-125">Haga clic en un usuario en los resultados de búsqueda, haga clic en **Acción** y, a continuación, en **Asignar directivas**.</span><span class="sxs-lookup"><span data-stu-id="60b62-125">Click a user in the search results, click **Action**, and then click **Assign policies**.</span></span>
+    
+
     > [!TIP]  
-    > Si desea que se aplique la misma directiva de archivado por usuario a múltiples usuarios, seleccione varios usuarios en los resultados de la búsqueda, a continuación, haga clic en <strong>Acciones</strong> y en <strong>Asignar directivas</strong>.
-    
+    > <span data-ttu-id="60b62-126">Si desea aplicar la misma directiva de archivado por usuario a varios usuarios, seleccione varios usuarios en los resultados de búsqueda, haga clic en <STRONG>acciones</STRONG>y, a continuación, haga clic en <STRONG>asignar directivas</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="60b62-126">If you want the same per-user archiving policy to apply to multiple users, select multiple users in the search results, then click <STRONG>Actions</STRONG>, and then click <STRONG>Assign policies</STRONG>.</span></span>
 
 
-7.  En **Asignar directivas**, en **Directiva de archivado**, realice uno de los procedimientos siguientes:
+
+7.  <span data-ttu-id="60b62-127">En **asignar directivas**, en **Directiva**de archivado, siga uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="60b62-127">In **Assign Policies**, under **Archiving policy**, do one of the following:</span></span>
     
 
-    > [!NOTE]
-    > Debido a que existen numerosas directivas que puede configurar mediante el cuadro de diálogo <STRONG>Asignar directivas</STRONG>, se selecciona <STRONG>&lt;Dejar tal cual&gt;</STRONG> de forma predeterminada para cada directiva del cuadro de diálogo. Para seguir utilizando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.
+    > [!NOTE]  
+    > <span data-ttu-id="60b62-128">Puesto que existen varias directivas que puede configurar mediante el cuadro de diálogo <STRONG>asignar directivas</STRONG> , <STRONG> &lt;&gt; </STRONG> la opción mantener está seleccionada de forma predeterminada para todas las directivas del cuadro de diálogo.</span><span class="sxs-lookup"><span data-stu-id="60b62-128">Because there are multiple policies that you can configure by using the <STRONG>Assign Policies</STRONG> dialog box, <STRONG>&lt;Keep as is&gt;</STRONG> is selected by default for every policy in the dialog box.</span></span> <span data-ttu-id="60b62-129">Para seguir usando la directiva asignada anteriormente al usuario, no efectúe cambios en esta configuración.</span><span class="sxs-lookup"><span data-stu-id="60b62-129">Continue using the policy previously assigned to the user by making no changes to this setting.</span></span>
 
     
-      - Permita que Lync Server 2013 elija automáticamente la directiva de nivel global o la directiva de nivel de sitio, si se hubiera definido.
+      - <span data-ttu-id="60b62-130">Permita Lync Server 2013 para elegir automáticamente la Directiva de nivel global o, si se ha definido, la Directiva de nivel de sitio.</span><span class="sxs-lookup"><span data-stu-id="60b62-130">Allow Lync Server 2013 to automatically choose either the global-level policy or, if defined, the site-level policy.</span></span>
     
-      - Haga clic en el nombre de una directiva de archivado por usuario que haya definido anteriormente en la página **Directiva de archivado**.
+      - <span data-ttu-id="60b62-131">Haga clic en el nombre de una directiva de archivado por usuario que haya definido previamente en la página **Directiva** de archivado.</span><span class="sxs-lookup"><span data-stu-id="60b62-131">Click the name of a per-user archiving policy you previously defined on the **Archiving Policy** page.</span></span>
         
+
         > [!TIP]  
-        > Para ayudarle a decidir la directiva que desea asignar, tras hacer clic en el nombre de una directiva, haga clic en <strong>Ver</strong> para ver los derechos y permisos de usuarios definidos en la directiva.
-        
+        > <span data-ttu-id="60b62-132">Para ayudarle a decidir la Directiva que desea asignar, después de hacer clic en un nombre de Directiva, haga clic en <STRONG>Ver</STRONG> para ver los derechos de usuario y permisos definidos en la Directiva.</span><span class="sxs-lookup"><span data-stu-id="60b62-132">To help you decide the policy that you want to assign, after you click a policy name, click <STRONG>View</STRONG> to view the user rights and permissions defined in the policy.</span></span>
 
 
-8.  Cuando haya terminado, haga clic en **Aceptar**.
 
-## Asignar una directiva de archivado por usuario mediante cmdlets de Windows PowerShell
+8.  <span data-ttu-id="60b62-133">Cuando haya terminado, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="60b62-133">When you are finished, click **OK**.</span></span>
 
-Las directivas de archivado por usuario también pueden asignarse mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy**. Este cmdlet puede ejecutarse bien desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="assigning-a-per-user-archiving-policy-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="60b62-134">Asignar una directiva de archivado por usuario mediante cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="60b62-134">Assigning a Per-User Archiving Policy by Using Windows PowerShell Cmdlets</span></span>
 
-## Asignar una directiva de archivado por usuario a un solo usuario
+<span data-ttu-id="60b62-135">Puede asignar directivas de archivado por usuario mediante Windows PowerShell y el cmdlet **Grant-CsArchivingPolicy** .</span><span class="sxs-lookup"><span data-stu-id="60b62-135">You can assign per-user archiving policies by using Windows PowerShell and the **Grant-CsArchivingPolicy** cmdlet.</span></span> <span data-ttu-id="60b62-136">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="60b62-136">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="60b62-137">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="60b62-137">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-  - El siguiente comando permite asignar la directiva de archivado por usuario RedmondArchivingPolicy al usuario Ken Myer.
+## <a name="to-assign-a-per-user-archiving-policy-to-a-single-user"></a><span data-ttu-id="60b62-138">Para asignar una directiva de archivado por usuario a un solo usuario</span><span class="sxs-lookup"><span data-stu-id="60b62-138">To assign a per-user archiving policy to a single user</span></span>
+
+  - <span data-ttu-id="60b62-139">El siguiente comando permite asignar la directiva de archivado por usuario RedmondArchivingPolicy al usuario Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="60b62-139">The following command assigns the per-user archiving policy RedmondArchivingPolicy to the user Ken Myer.</span></span>
     
         Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 
-## Asignar una directiva de archivado por usuario a varios usuarios
+## <a name="to-assign-a-per-user-archiving-policy-to-multiple-users"></a><span data-ttu-id="60b62-140">Para asignar una directiva de archivado por usuario a varios usuarios</span><span class="sxs-lookup"><span data-stu-id="60b62-140">To assign a per-user archiving policy to multiple users</span></span>
 
-  - Este comando asigna la directiva de archivado por usuario RedmondArchivingPolicy a todos los usuarios que tengan cuentas alojadas en el grupo de registradores en atl-cs-001.litwareinc.com. Para más información sobre el parámetro Filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUser).
+  - <span data-ttu-id="60b62-141">Este comando asigna el RedmondArchivingPolicy de directiva de archivado por usuario a todos los usuarios que tienen cuentas alojadas en el registro de la agrupación de atl-cs-001.litwareinc.com.</span><span class="sxs-lookup"><span data-stu-id="60b62-141">This command assigns the per-user archiving policy RedmondArchivingPolicy to all the users who have accounts homed on the Registrar pool atl-cs-001.litwareinc.com.</span></span> <span data-ttu-id="60b62-142">Para obtener más información sobre el parámetro de filtro usado en este comando, consulte la documentación del cmdlet [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="60b62-142">For more information on the Filter parameter used in this command, see the documentation for the [Get-CsUser](https://technet.microsoft.com/en-us/library/gg398125\(v=ocs.15\)) cmdlet.</span></span>
     
         Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.litwareinc.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
 
-## Desasignar una directiva de archivado por usuario
+## <a name="to-unassign-a-per-user-archiving-policy"></a><span data-ttu-id="60b62-143">Para cancelar la asignación de una directiva de archivado por usuario</span><span class="sxs-lookup"><span data-stu-id="60b62-143">To unassign a per-user archiving policy</span></span>
 
-  - Este comando desasigna cualquier directiva de archivado por usuario previamente asignada a Ken Myer. Una vez desasignada la directiva por usuario, Ken Myer pasará automáticamente a ser administrado mediante la directiva global (o, de existir, por la directiva de su sitio local). Las directivas de sitio tienen prioridad sobre la directiva global.
+  - <span data-ttu-id="60b62-144">El comando siguiente elimina la asignación de cualquier directiva de archivado por usuario previamente asignada a Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="60b62-144">The following command unassigns any per-user archiving policy previously assigned to Ken Myer.</span></span> <span data-ttu-id="60b62-145">Después de quitar la asignación de la directiva por usuario, se usará automáticamente la directiva global o la directiva del sitio local, si existe, para administrar a Ken Myer.</span><span class="sxs-lookup"><span data-stu-id="60b62-145">After the per-user policy is unassigned, Ken Myer will automatically be managed by using the global policy or, if one exists, his local site policy.</span></span> <span data-ttu-id="60b62-146">La directiva de sitio tiene prioridad sobre la directiva global.</span><span class="sxs-lookup"><span data-stu-id="60b62-146">A site policy takes precedence over the global policy.</span></span>
     
-        Grant-CsarchivingPolicy -Identity "Ken Myer" -PolicyName $Null
+        Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 
-Para obtener más información, consulte el tema de ayuda correspondiente al cmdlet [Grant-CsArchivingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Grant-CsArchivingPolicy).
+<span data-ttu-id="60b62-147">Para obtener más información, consulte el tema de ayuda para el cmdlet [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) .</span><span class="sxs-lookup"><span data-stu-id="60b62-147">For more information, see the help topic for the [Grant-CsArchivingPolicy](https://technet.microsoft.com/en-us/library/gg398475\(v=ocs.15\)) cmdlet.</span></span>
 
-## Vea también
+## <a name="see-also"></a><span data-ttu-id="60b62-148">Vea también</span><span class="sxs-lookup"><span data-stu-id="60b62-148">See Also</span></span>
 
-#### Tareas
 
-[Crear una directiva de archivado para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para sitios o usuarios específicos](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
+[<span data-ttu-id="60b62-149">Crear una directiva de archivado en Lync Server 2013 para habilitar o deshabilitar el archivado de las comunicaciones internas o externas para usuarios o sitios específicos</span><span class="sxs-lookup"><span data-stu-id="60b62-149">Creating an Archiving policy in Lync Server 2013 to enable or disable Archiving of Internal or external communications for specific sites or users</span></span>](lync-server-2013-creating-an-archiving-policy-to-enable-or-disable-archiving-of-internal-or-external-communications-for-specific-sites-or-users.md)  
 
-#### Otros recursos
 
-[Asignación de directivas por usuario](lync-server-2013-assigning-per-user-policies.md)
+[<span data-ttu-id="60b62-150">Asignación de directivas por usuario en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="60b62-150">Assigning per-user policies in Lync Server 2013</span></span>](lync-server-2013-assigning-per-user-policies.md)
 

@@ -1,43 +1,76 @@
-﻿---
-title: "Lync Server 2013 : Conf. du chiff. multimédia pour les fournisseurs publics"
-TOCTitle: Configurar el cifrado de medios para proveedores públicos
-ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205149(v=OCS.15)
-ms:contentKeyID: 48276304
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar el cifrado de medios para proveedores públicos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media encryption for public providers
+ms:assetid: a95814cf-c5a9-4652-8ffc-c469a2653153
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205149(v=OCS.15)
+ms:contentKeyID: 48185036
+ms.date: 12/13/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1496bda01456593066efd212241e3d930f1e2cc6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842348"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar el cifrado de medios para proveedores públicos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2014-12-12_
+# <a name="configure-media-encryption-for-public-providers-in-lync-server-2013"></a><span data-ttu-id="3c5ba-102">Configurar el cifrado de medios para proveedores públicos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3c5ba-102">Configure media encryption for public providers in Lync Server 2013</span></span>
 
-Para más información sobre los requisitos de licencia y sobre cómo completar el proceso de aprovisionamiento, consulte la guía de aprovisionamiento para la conectividad de mensajería instantánea pública en Microsoft Lync Server, Office Communications Server y Live Communications Server en [http://go.microsoft.com/fwlink/p/?linkId=155970](http://go.microsoft.com/fwlink/p/?linkid=155970)
+</div>
 
-Si va a implementar una federación de audio y vídeo (A/V) con Windows Live Messenger, debe modificar dos parámetros: el nivel de cifrado de Lync Server y la directiva EnablePublicCloudAccess. De forma predeterminada, el nivel de cifrado está configurado en Requerido. Debe cambiar esta opción a Compatible. Si la directiva EnablePublicCloudAccess está definida en falso, debe definirse en **Verdadero** . Puede hacerlo desde el Shell de administración de Lync Server.
+<div id="mainSection">
 
-> [!IMPORTANT]  
-> Más que nunca, Lync es una potente herramienta para la conexión entre organizaciones e individuos de todo el mundo. Aparte de la licencia de acceso de cliente (CAL) estándar de Lync, la federación con Windows Live Messenger no exige ninguna otra licencia de usuario o dispositivo adicional. El próximo año, la federación con Skype se agregará a esta lista, lo que les permitirá a los usuarios de Lync llegar a cientos de millones de personas con mensajería instantánea y telefonía.
+<div id="mainBody">
 
+<span> </span>
 
+<span data-ttu-id="3c5ba-103">_**Última modificación del tema:** 2014-12-12_</span><span class="sxs-lookup"><span data-stu-id="3c5ba-103">_**Topic Last Modified:** 2014-12-12_</span></span>
 
-## Configurar la federación para Windows Live
+<span data-ttu-id="3c5ba-104">Si está implementando la Federación de audio y vídeo (A/V) con Windows Live Messenger, hay dos parámetros que debe modificar: el nivel de cifrado de Lync Server y la Directiva EnablePublicCloudAccess.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-104">If you are implementing audio/video (A/V) federation with Windows Live Messenger, there are two parameters that you need to modify: the Lync Server encryption level and the EnablePublicCloudAccess policy.</span></span> <span data-ttu-id="3c5ba-105">De forma predeterminada, el nivel de cifrado se establece en requerido.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-105">By default, the encryption level is set to Required.</span></span> <span data-ttu-id="3c5ba-106">Debe cambiar esta configuración a compatible.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-106">You must change this setting to Supported.</span></span> <span data-ttu-id="3c5ba-107">Si la Directiva EnablePublicCloudAccess se establece en false, debe establecerse en **true**.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-107">If the EnablePublicCloudAccess policy is set to false, this needs to be set to **True**.</span></span> <span data-ttu-id="3c5ba-108">Puede hacerlo desde el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-108">You can do this from the Lync Server Management Shell.</span></span>
 
-1.  Inicie el Shell de administración de Lync Server en el servidor front-end: haga clic en **Inicio** , **Todos los programas** , **Microsoft Lync Server 2013** y **Shell de administración de Lync Server**.
+<div>
 
-2.  Desde el símbolo del sistema, escriba los siguientes comandos:
+## <a name="configure-federation-for-windows-live"></a><span data-ttu-id="3c5ba-109">Configurar la Federación para Windows Live</span><span class="sxs-lookup"><span data-stu-id="3c5ba-109">Configure Federation for Windows Live</span></span>
+
+1.  <span data-ttu-id="3c5ba-110">Inicie el shell de administración de Lync Server en el servidor front-end: haga clic en **Inicio**, haga clic en **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-110">Start the Lync Server Management Shell on the Front End server: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="3c5ba-111">En el símbolo del sistema, escriba los siguientes comandos:</span><span class="sxs-lookup"><span data-stu-id="3c5ba-111">From the command prompt, type the following commands:</span></span>
     
-    ```
-    Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
-    ```
-    ```
-    Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
-    ```
+       ```
+        Set-CsMediaConfiguration -EncryptionLevel SupportEncryption
+       ```
+    
+       ```
+        Set-CsExternalAccessPolicy Global -EnablePublicCloudAccess $true -EnablePublicCloudAudioVideoAccess $true
+       ```
+    
+    <div class=" ">
+    
 
-    > [!NOTE]
-    > Este es un paso necesario porque Windows Live Messenger no admite el cifrado de audio/vídeo. El comando configura su directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo. Los clientes que admiten el cifrado continúan usando el cifrado, como Lync 2013.
+    > [!NOTE]  
+    > <span data-ttu-id="3c5ba-112">Este es un paso obligatorio porque Windows Live Messenger no admite el cifrado de audio y vídeo.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-112">This is required step because Windows Live Messenger does not support encryption of audio/video.</span></span> <span data-ttu-id="3c5ba-113">El comando establece la directiva global en una configuración de cifrado compatible en lugar de requerir el cifrado de los datos de audio y vídeo.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-113">The command sets your global policy to a support encryption setting instead of requiring encryption of the audio/video data.</span></span> <span data-ttu-id="3c5ba-114">Los clientes que admiten el cifrado seguirán usando el cifrado, como Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="3c5ba-114">Clients that support encryption will still use encryption, such as Lync 2013.</span></span>
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

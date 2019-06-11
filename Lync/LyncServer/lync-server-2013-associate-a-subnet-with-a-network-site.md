@@ -1,72 +1,112 @@
-﻿---
-title: 'Lync Server 2013: Asociar una subred a un sitio de red'
-TOCTitle: Asociar una subred a un sitio de red
-ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412804(v=OCS.15)
-ms:contentKeyID: 48276311
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Asociar una subred a un sitio de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Associate a subnet with a network site
+ms:assetid: aa69e3ac-542a-4ba1-9582-2e6bee29f633
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412804(v=OCS.15)
+ms:contentKeyID: 48185043
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ec5a896af6312fecf53259ac10e72f99598d4a7e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842915"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asociar una subred a un sitio de red en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2014-10-20_
+# <a name="associate-a-subnet-with-a-network-site-in-lync-server-2013"></a><span data-ttu-id="31ae2-102">Asociar una subred a un sitio de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="31ae2-102">Associate a subnet with a network site in Lync Server 2013</span></span>
 
-Todas las subredes de la red deben estar asociadas con un sitio de red específico. Esto se debe a que la información de la subred se usa para determinar el sitio de red en el que reside un extremo mientras se inicia una nueva sesión. Cuando se conoce la ubicación de cada parte en una sesión, las características avanzadas de Telefonía IP empresarial pueden aplicar esta información para determinar cómo administrar la configuración o el enrutamiento de las llamadas.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="31ae2-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="31ae2-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="31ae2-104">Cada subred de su red debe estar asociada con un sitio de red específico, ya que la información de subred se usa para determinar el sitio de red en el que se encuentra un punto final mientras se inicia una nueva sesión.</span><span class="sxs-lookup"><span data-stu-id="31ae2-104">Every subnet in your network must be associated with a specific network site, because subnet information is used to determine the network site on which an endpoint is located while a new session is initiated.</span></span> <span data-ttu-id="31ae2-105">Cuando se conoce la ubicación de cada una de las partes de una sesión, las características de telefonía IP avanzada pueden aplicarla para determinar cómo manejar la configuración o el enrutamiento de las llamadas.</span><span class="sxs-lookup"><span data-stu-id="31ae2-105">When the location of each party in a session is known, advanced Enterprise Voice features can apply that information to determine how to handle the call setup or routing.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red. Estas direcciones IP se agregan como subredes con una máscara de 32. El sitio de red asociado debe corresponder con el sitio de red configurado adecuado. Por ejemplo, la dirección IP pública que corresponde a los servidores perimetrales A/V en el sitio central Chicago sería NetworkSiteID Chicago. Para más información sobre las direcciones IP públicas, consulte <a href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determinar los requisitos de los puertos y el firewall de A/V externos en Lync Server 2013</a> en la documentación sobre planeación.
+> <span data-ttu-id="31ae2-106">Todas las direcciones IP públicas de los servidores perimetrales de audio y vídeo en la implementación deben incluirse en los parámetros de configuración de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-106">All configured public IP addresses of the Audio/Video Edge Servers in your deployment must be added to your network configuration settings.</span></span> <span data-ttu-id="31ae2-107">Estas direcciones IP se agregan como subredes con una máscara de 32.</span><span class="sxs-lookup"><span data-stu-id="31ae2-107">These IP addresses are added as subnets with a mask of 32.</span></span> <span data-ttu-id="31ae2-108">El sitio de red asociado debe corresponder con el sitio de red configurado adecuado.</span><span class="sxs-lookup"><span data-stu-id="31ae2-108">The associated network site should correspond to the appropriate configured network site.</span></span> <span data-ttu-id="31ae2-109">Por ejemplo, la dirección IP pública que corresponde al servidor perimetral A/V en el sitio central de Chicago sería NetworkSiteID Chicago.</span><span class="sxs-lookup"><span data-stu-id="31ae2-109">For example, the public IP address that corresponds to the A/V Edge Server in central site Chicago would be NetworkSiteID Chicago.</span></span> <span data-ttu-id="31ae2-110">Para obtener detalles sobre las direcciones IP públicas, consulte <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">determinar el firewall externo a/V y los requisitos de puerto para Lync Server 2013</A> en la documentación de planeación.</span><span class="sxs-lookup"><span data-stu-id="31ae2-110">For details about public IP addresses, see <A href="lync-server-2013-determine-external-a-v-firewall-and-port-requirements.md">Determine external A/V firewall and port requirements for Lync Server 2013</A> in the Planning documentation.</span></span>
 
 
 
+</div>
 
-> [!NOTE]
-> Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red pero que no están asociadas a una subred, o bien la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de ocho horas. A continuación se ofrece la información de alerta relevante y un ejemplo:<BR><STRONG>Origen :</STRONG> Servicio de directivas de ancho de banda CS (núcleo)<BR><STRONG>Número de evento :</STRONG> 36034<BR><STRONG>Nivel :</STRONG> 2<BR><STRONG>Descripción :</STRONG> las subredes de las siguientes direcciones IP: &lt;La lista de direcciones IP&gt; no está configurada o las subredes no están asociadas a un sitio de red.<BR><STRONG>Causa :</STRONG> las subredes de las correspondientes direcciones IP faltan en las opciones de configuración de la red o las subredes no están asociadas a un sitio de red.<BR><STRONG>Solución :</STRONG> agregue subredes correspondientes a la lista de direcciones IP en los parámetros de configuración de red y asocie todas las subredes a un sitio de red.<BR>Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.226 y 10.121.249.20, estas direcciones IP no están asociadas a una subred o la subred a la que están asociadas no pertenece a un sitio de red. Si 10.121.248.0/24 y 10.121.249.0/24 son las subredes correspondientes a estas direcciones, este problema se puede resolver de la siguiente manera: 
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="31ae2-p103">Aparecerá una alerta de indicador de estado clave (KHI), que especifica una lista de direcciones IP que están incluidas en la red pero que no están asociadas a una subred, o bien la subred que incluye las direcciones IP no está asociada a un sitio de red. Esta alerta no aparecerá más que una vez en un período de ocho horas. A continuación se ofrece la información de alerta relevante y un ejemplo:</span><span class="sxs-lookup"><span data-stu-id="31ae2-p103">A Key Health Indicator (KHI) alert is raised, specifying a list of IP addresses that are present in your network but are either not associated with a subnet, or the subnet that includes the IP addresses is not associated with a network site. This alert will not be raised more than once within an 8-hour period. The relevant alert information and an example are as follows:</span></span><BR><span data-ttu-id="31ae2-114"><STRONG>Fuente:</STRONG> Servicio de directivas de ancho de banda CS (núcleo)</span><span class="sxs-lookup"><span data-stu-id="31ae2-114"><STRONG>Source:</STRONG> CS Bandwidth Policy Service (Core)</span></span><BR><span data-ttu-id="31ae2-115"><STRONG>Número de evento:</STRONG> 36034</span><span class="sxs-lookup"><span data-stu-id="31ae2-115"><STRONG>Event number:</STRONG> 36034</span></span><BR><span data-ttu-id="31ae2-116"><STRONG>Nivel:</STRONG> 2</span><span class="sxs-lookup"><span data-stu-id="31ae2-116"><STRONG>Level:</STRONG> 2</span></span><BR><span data-ttu-id="31ae2-117"><STRONG>Descripción:</STRONG> Las subredes de las siguientes direcciones IP: &lt;la lista de direcciones&gt; IP no está configurada o las subredes no están asociadas a un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-117"><STRONG>Description:</STRONG> The subnets for the following IP addresses: &lt;List of IP Addresses&gt; are either not configured or the subnets are not associated to a Network Site.</span></span><BR><span data-ttu-id="31ae2-118"><STRONG>Causa:</STRONG> Las subredes de las direcciones IP correspondientes no se encuentran en la configuración de red o las subredes no están asociadas a un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-118"><STRONG>Cause:</STRONG> The subnets for the corresponding IP addresses are missing from the network configuration settings or the subnets are not associated to a network site.</span></span><BR><span data-ttu-id="31ae2-119"><STRONG>Solución:</STRONG> Agregue subredes que correspondan a la lista de direcciones IP en la configuración de red y asocie cada subred a un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-119"><STRONG>Resolution:</STRONG> Add subnets corresponding to the list of IP addresses into the network configuration settings and associate every subnet to a network site.</span></span><BR><span data-ttu-id="31ae2-p104">Por ejemplo, si la lista de direcciones IP de la alerta especifica 10.121.248.226 y 10.121.249.20, estas direcciones IP no están asociadas a una subred o la subred a la que están asociadas no pertenece a un sitio de red. Si 10.121.248.0/24 y 10.121.249.0/24 son las subredes correspondientes a estas direcciones, este problema se puede resolver de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="31ae2-p104">For example, if the IP address list in the alert specifies 10.121.248.226 and 10.121.249.20, either these IP addresses are not associated with a subnet or the subnet they are associated with does not belong to a network site. If 10.121.248.0/24 and 10.121.249.0/24 are the corresponding subnets for these addresses, you can resolve this issue as follows:</span></span> 
 > <OL>
 > <LI>
-> <P>Asegúrese de que la dirección IP 10.121.248.226 está asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 está asociada a la subred 10.121.249.0/24.</P>
+> <P><span data-ttu-id="31ae2-122">Asegúrese de que la dirección IP 10.121.248.226 esté asociada a la subred 10.121.248.0/24 y la dirección IP 10.121.249.20 esté asociada a la subred 10.121.249.0/24.</span><span class="sxs-lookup"><span data-stu-id="31ae2-122">Be sure that IP address 10.121.248.226 is associated with the 10.121.248.0/24 subnet and IP address 10.121.249.20 is associated with the 10.121.249.0/24 subnet.</span></span></P>
 > <LI>
-> <P>Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 está asociada a un sitio de red.</P></LI></OL>
+> <P><span data-ttu-id="31ae2-123">Asegúrese de que cada una de las subredes 10.121.248.0/24 y 10.121.249.0/24 esté asociada a un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-123">Be sure that the 10.121.248.0/24 and 10.121.249.0/24 subnets are each associated with a network site.</span></span></P></LI></OL>
 
 
 
-Para más información sobre cómo trabajar con subredes de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
+</div>
 
-  - [New-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkSubnet)
+<span data-ttu-id="31ae2-124">Para obtener más información sobre cómo trabajar con subredes de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="31ae2-124">For details about working with network subnets, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [Get-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkSubnet)
+  - [<span data-ttu-id="31ae2-125">New-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="31ae2-125">New-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkSubnet)
 
-  - [Set-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkSubnet)
+  - [<span data-ttu-id="31ae2-126">Get-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="31ae2-126">Get-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkSubnet)
 
-  - [Remove-CsNetworkSubnet](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkSubnet)
+  - [<span data-ttu-id="31ae2-127">Set-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="31ae2-127">Set-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkSubnet)
+
+  - [<span data-ttu-id="31ae2-128">Remove-CsNetworkSubnet</span><span class="sxs-lookup"><span data-stu-id="31ae2-128">Remove-CsNetworkSubnet</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkSubnet)
+
+<div>
+
 
 > [!TIP]  
-> Si trabaja con un gran número de subredes, es aconsejable usar un archivo CSV (valores separados por comas) para asociar las subredes a los sitios. El archivo CSV debe tener las cuatro columnas siguientes: <strong>IPAddress</strong>, <strong>mask</strong>, <strong>description</strong>, <strong>NetworkSiteID</strong>.
+> <span data-ttu-id="31ae2-129">Si trabaja con un gran número de subredes, le recomendamos que use un archivo de valores separados por comas (CSV) para asociar las subredes a los sitios.</span><span class="sxs-lookup"><span data-stu-id="31ae2-129">If you are working with a large number of subnets, we recommend using a comma-separated values (CSV) file to associate the subnets to sites.</span></span> <span data-ttu-id="31ae2-130">El archivo CSV debe tener las cuatro columnas siguientes: <STRONG>IPAddress</STRONG>, <STRONG>Mask</STRONG>, <STRONG>Description</STRONG>, <STRONG>NetworkSiteID</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="31ae2-130">The CSV file must have the following four columns: <STRONG>IPAddress</STRONG>, <STRONG>mask</STRONG>, <STRONG>description</STRONG>, <STRONG>NetworkSiteID</STRONG>.</span></span>
 
 
 
-## Para asociar una subred a un sitio de red mediante el Shell de administración
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Ejecute el cmdlet **New-CsNetworkSubnet** para asociar una subred a un sitio de red:
+## <a name="to-associate-a-subnet-with-a-network-site-by-using-management-shell"></a><span data-ttu-id="31ae2-131">Para asociar una subred a un sitio de red mediante el shell de administración</span><span class="sxs-lookup"><span data-stu-id="31ae2-131">To associate a subnet with a network site by using Management Shell</span></span>
+
+1.  <span data-ttu-id="31ae2-132">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-132">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="31ae2-133">Ejecute el cmdlet **New-CsNetworkSubnet** para asociar una subred a un sitio de red:</span><span class="sxs-lookup"><span data-stu-id="31ae2-133">Run the **New-CsNetworkSubnet** cmdlet to associate a subnet with a network site:</span></span>
     
         New-CsNetworkSubnet -SubnetID <String> -MaskBits <Int32> -NetworkSiteID <String>
     
-    Por ejemplo:
+    <span data-ttu-id="31ae2-134">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="31ae2-134">For example:</span></span>
     
         New-CsNetworkSubnet -SubnetID 172.11.12.13 - MaskBits 20 -NetworkSiteID Chicago
     
-    En este ejemplo, ha creado una asociación entre la subred 172.11.12.13 y el sitio de red “Chicago”.
+    <span data-ttu-id="31ae2-135">En este ejemplo, ha creado una asociación entre la subred 172.11.12.13 y el sitio de red “Chicago”.</span><span class="sxs-lookup"><span data-stu-id="31ae2-135">In this example, you created an association between the subnet 172.11.12.13 and the network site “Chicago”.</span></span>
 
-3.  Repita el paso 2 para todas las subredes de la topología.
+3.  <span data-ttu-id="31ae2-136">Repita el paso 2 para todas las subredes de la topología.</span><span class="sxs-lookup"><span data-stu-id="31ae2-136">Repeat step 2 for all subnets in your topology.</span></span>
 
-## Para asociar subredes a sitios de red mediante la importación de un archivo CSV
+</div>
 
-1.  Cree un archivo CSV que incluya todas las subredes que quiera agregar. Por ejemplo, cree un archivo denominado **subnet.csv** con el contenido siguiente:
+<div>
+
+## <a name="to-associate-subnets-with-network-sites-by-importing-a-csv-file"></a><span data-ttu-id="31ae2-137">Para asociar subredes a sitios de red mediante la importación de un archivo CSV</span><span class="sxs-lookup"><span data-stu-id="31ae2-137">To associate subnets with network sites by importing a CSV file</span></span>
+
+1.  <span data-ttu-id="31ae2-p106">Cree un archivo CSV que incluya todas las subredes que quiera agregar. Por ejemplo, cree un archivo denominado   **subnet.csv** con el contenido siguiente:</span><span class="sxs-lookup"><span data-stu-id="31ae2-p106">Create a CSV file that includes all of the subnets you want to add. For example, create a file named **subnet.csv** with the following content:</span></span>
     
     `IPAddress, mask, description, NetworkSiteID`
     
@@ -78,37 +118,56 @@ Para más información sobre cómo trabajar con subredes de red, consulte la doc
     
     `172.11.15.0, 31, "EMEA:Subnet in Paris", Paris`
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+2.  <span data-ttu-id="31ae2-140">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-140">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
 
-3.  Ejecute el siguiente cmdlet para importar **subnet.csv** y almacene su contenido en el almacén de administración Lync Server:
+3.  <span data-ttu-id="31ae2-141">Ejecute el siguiente cmdlet para importar **subnet. csv**y, a continuación, almacene su contenido en el almacén de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="31ae2-141">Run the following cmdlet to import **subnet.csv**, and then store its contents in the Lync Server management store:</span></span>
     
-        import-csv subnet.csv | foreach {New-CsNetworkSubnet $_IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
+        import-csv subnet.csv | foreach {New-CSNCSSubnet  _.IPAddress -MaskBits $_.mask -Description $_.description -NetworkSiteID $_.NetworkSiteID}
 
-## Para asociar una subred a un sitio de red mediante el Panel de control de Lync Server
+</div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-2.  En la barra de navegación izquierda, haga clic en **Configuración de red** .
+## <a name="to-associate-a-subnet-with-a-network-site-by-using-lync-server-control-panel"></a><span data-ttu-id="31ae2-142">Para asociar una subred a un sitio de red mediante el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="31ae2-142">To associate a subnet with a network site by using Lync Server Control Panel</span></span>
 
-3.  Haga clic en el botón de navegación **Subred** .
+1.  <span data-ttu-id="31ae2-143">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="31ae2-143">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="31ae2-144">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="31ae2-144">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  Haga clic en **Nuevo** .
+2.  <span data-ttu-id="31ae2-145">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-145">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  En la página **Nueva subred** , haga clic en **Id. de subred** y escriba la primera dirección en el intervalo de direcciones IP definido mediante la subred que quiere asociar al sitio de red.
+3.  <span data-ttu-id="31ae2-146">Haga clic en el botón de navegación **Subred**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-146">Click the **Subnet** navigation button.</span></span>
 
-6.  Haga clic en **Máscara** y escriba la máscara de bits que quiere aplicar a la subred.
+4.  <span data-ttu-id="31ae2-147">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-147">Click **New**.</span></span>
 
-7.  Haga clic en **Id. de sitio de red** y seleccione el identificador de sitio del sitio al que agrega esta subred.
+5.  <span data-ttu-id="31ae2-148">En la página **Nueva subred**, haga clic en **Id. de subred** y escriba la primera dirección en el intervalo de direcciones IP definido mediante la subred que quiere asociar al sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-148">On the **New Subnet** page, click **Subnet ID**, and then type the first address in the IP address range defined by the subnet you want to associate with a network site.</span></span>
+
+6.  <span data-ttu-id="31ae2-149">Haga clic en **Máscara** y escriba la máscara de bits que quiere aplicar a la subred.</span><span class="sxs-lookup"><span data-stu-id="31ae2-149">Click **Mask**, and then type the bitmask to apply to the subnet.</span></span>
+
+7.  <span data-ttu-id="31ae2-150">Haga clic en **Id. de sitio de red** y seleccione el identificador de sitio del sitio al que agrega esta subred.</span><span class="sxs-lookup"><span data-stu-id="31ae2-150">Click **Network site ID**, and then select the site ID of the site to which you are adding this subnet.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si todavía no ha creado sitios de red, esta lista estará vacía. Consulte <A href="lync-server-2013-create-or-modify-a-network-site.md">Crear o modificar un sitio de red en Lync Server 2013</A> para ver más detalles sobre el procedimiento. También puede recuperar identificadores de sitio para su implementación mediante la ejecución del cmdlet <STRONG>Get-CsNetworkSite</STRONG>. Para más información, consulte la documentación de Shell de administración de Lync Server.
+    > [!NOTE]  
+    > <span data-ttu-id="31ae2-151">Si todavía no ha creado sitios de red, esta lista estará vacía.</span><span class="sxs-lookup"><span data-stu-id="31ae2-151">If you have not yet created network sites, this list will be empty.</span></span> <span data-ttu-id="31ae2-152">Para obtener más información sobre el procedimiento, consulte <A href="lync-server-2013-create-or-modify-a-network-site.md">crear o modificar un sitio de red en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="31ae2-152">For details about the procedure, see <A href="lync-server-2013-create-or-modify-a-network-site.md">Create or modify a network site in Lync Server 2013</A>.</span></span> <span data-ttu-id="31ae2-153">También puede recuperar identificadores de sitio para implementarlos ejecutando el cmdlet <STRONG>Get-CsNetworkSite</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="31ae2-153">You can also retrieve site IDs for your deployment by running the <STRONG>Get-CsNetworkSite</STRONG> cmdlet.</span></span> <span data-ttu-id="31ae2-154">Para obtener más información, consulte la documentación del shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="31ae2-154">For details, see the Lync Server Management Shell documentation.</span></span>
 
+    
+    </div>
 
+8.  <span data-ttu-id="31ae2-155">Si lo desea, haga clic en **Descripción** y escriba información adicional para describir esta subred.</span><span class="sxs-lookup"><span data-stu-id="31ae2-155">Optionally, click **Description**, and then type additional information to describe this subnet.</span></span>
 
-8.  Si lo desea, haga clic en **Descripción** y escriba información adicional para describir esta subred.
+9.  <span data-ttu-id="31ae2-156">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="31ae2-156">Click **Commit**.</span></span>
 
-9.  Haga clic en **Confirmar** .
+<span data-ttu-id="31ae2-157">Repita estos pasos para agregar otras subredes a un sitio de red.</span><span class="sxs-lookup"><span data-stu-id="31ae2-157">Repeat these steps to add other subnets to a network site.</span></span>
 
-Repita estos pasos para agregar otras subredes a un sitio de red.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
