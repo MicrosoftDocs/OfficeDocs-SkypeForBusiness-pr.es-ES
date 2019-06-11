@@ -1,23 +1,43 @@
-﻿---
+---
 title: 'Lync Server 2013: tblPrincipal'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: tblPrincipal
 ms:assetid: 79a24502-b4ce-41f0-8979-8caddf535338
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg558667(v=OCS.15)
-ms:contentKeyID: 48275752
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg558667(v=OCS.15)
+ms:contentKeyID: 48184571
+ms.date: 07/23/2014
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: c24f963b34ef6184675e724496d7d45ca1d40d27
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850483"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# tblPrincipal enn Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="tblprincipal-in-lync-server-2013"></a><span data-ttu-id="0d75b-102">tblPrincipal enn Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="0d75b-102">tblPrincipal in Lync Server 2013</span></span>
 
-La tabla tblPrincipal contiene todas las entidades de seguridad, incluidos usuarios, carpetas y grupos.
+</div>
 
-### Columnas
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="0d75b-103">_**Última modificación del tema:** 2012-09-12_</span><span class="sxs-lookup"><span data-stu-id="0d75b-103">_**Topic Last Modified:** 2012-09-12_</span></span>
+
+<span data-ttu-id="0d75b-104">tblPrincipal contiene todos los principales, incluidos los usuarios, las carpetas y los grupos.</span><span class="sxs-lookup"><span data-stu-id="0d75b-104">tblPrincipal contains all principals, including users, folders, and groups.</span></span>
+
+### <a name="columns"></a><span data-ttu-id="0d75b-105">Columnas</span><span class="sxs-lookup"><span data-stu-id="0d75b-105">Columns</span></span>
 
 <table>
 <colgroup>
@@ -27,111 +47,111 @@ La tabla tblPrincipal contiene todas las entidades de seguridad, incluidos usuar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columna</th>
-<th>Tipo</th>
-<th>Descripción</th>
+<th><span data-ttu-id="0d75b-106">Columna</span><span class="sxs-lookup"><span data-stu-id="0d75b-106">Column</span></span></th>
+<th><span data-ttu-id="0d75b-107">Tipo</span><span class="sxs-lookup"><span data-stu-id="0d75b-107">Type</span></span></th>
+<th><span data-ttu-id="0d75b-108">Descripción</span><span class="sxs-lookup"><span data-stu-id="0d75b-108">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>int, no NULL</p></td>
-<td><p>Identificador de la entidad de seguridad</p></td>
+<td><p><span data-ttu-id="0d75b-109">prinID</span><span class="sxs-lookup"><span data-stu-id="0d75b-109">prinID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-110">int, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-110">int, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-111">IDENTIFICADOR principal.</span><span class="sxs-lookup"><span data-stu-id="0d75b-111">Principal ID.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinGuid</p></td>
-<td><p>GUID, no NULL</p></td>
-<td><p>GUID de la entidad de seguridad. Se usa generalmente como clave principal alternativa, ya que su significado llega al espacio de Servicios de dominio de Active Directory (el GUID de una entidad de seguridad almacenada en la memoria caché es igual que el GUID del objeto de Active Directory correspondiente).</p></td>
+<td><p><span data-ttu-id="0d75b-112">prinGuid</span><span class="sxs-lookup"><span data-stu-id="0d75b-112">prinGuid</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-113">GUID, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-113">GUID, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-114">GUID principal.</span><span class="sxs-lookup"><span data-stu-id="0d75b-114">Principal GUID.</span></span> <span data-ttu-id="0d75b-115">Esto se usa ampliamente como una clave principal alternativa porque su significado pasa a ser el espacio de servicios de dominio de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="0d75b-115">This is broadly used as an alternate primary key because its meaning crosses over into the Active Directory Domain Services space.</span></span> <span data-ttu-id="0d75b-116">(El GUID de un principal en caché es igual al GUID de objeto de Active Directory correspondiente).</span><span class="sxs-lookup"><span data-stu-id="0d75b-116">(The GUID for a cached principal is equal to the corresponding Active Directory object GUID.)</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinUri</p></td>
-<td><p>nvarchar (256), no NULL</p></td>
-<td><p>URI de la entidad de seguridad. El esquema SIP se usa para los usuarios, mientras que ma-grp se usa para prácticamente todo lo demás.</p></td>
+<td><p><span data-ttu-id="0d75b-117">prinUri</span><span class="sxs-lookup"><span data-stu-id="0d75b-117">prinUri</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-118">nvarchar (256), not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-118">nvarchar (256), not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-119">URI principal.</span><span class="sxs-lookup"><span data-stu-id="0d75b-119">Principal URI.</span></span> <span data-ttu-id="0d75b-120">El esquema SIP se usa para los usuarios y el mA-GRP se usa para casi todos los demás.</span><span class="sxs-lookup"><span data-stu-id="0d75b-120">The SIP scheme is used for users, and ma-grp is used for almost everything else.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre común. Usado solo por los tipos de usuario.</p></td>
+<td><p><span data-ttu-id="0d75b-121">prinName</span><span class="sxs-lookup"><span data-stu-id="0d75b-121">prinName</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-122">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0d75b-122">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-123">Nombre común.</span><span class="sxs-lookup"><span data-stu-id="0d75b-123">Common name.</span></span> <span data-ttu-id="0d75b-124">Solo se usan los tipos de usuario.</span><span class="sxs-lookup"><span data-stu-id="0d75b-124">Used only by user types.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinDisplayName</p></td>
-<td><p>nvarchar (256)</p></td>
-<td><p>Nombre para mostrar. Usado solo por los tipos de usuario.</p></td>
+<td><p><span data-ttu-id="0d75b-125">prinDisplayName</span><span class="sxs-lookup"><span data-stu-id="0d75b-125">prinDisplayName</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-126">Nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0d75b-126">Nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-127">Nombre para mostrar.</span><span class="sxs-lookup"><span data-stu-id="0d75b-127">Display name.</span></span> <span data-ttu-id="0d75b-128">Solo se usan los tipos de usuario.</span><span class="sxs-lookup"><span data-stu-id="0d75b-128">Used only by user types.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinCompanyName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre de la compañía. Usado solo por los tipos de usuario.</p></td>
+<td><p><span data-ttu-id="0d75b-129">prinCompanyName</span><span class="sxs-lookup"><span data-stu-id="0d75b-129">prinCompanyName</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-130">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0d75b-130">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-131">Nombre de la empresa.</span><span class="sxs-lookup"><span data-stu-id="0d75b-131">Company name.</span></span> <span data-ttu-id="0d75b-132">Solo se usan los tipos de usuario.</span><span class="sxs-lookup"><span data-stu-id="0d75b-132">Used only by user types.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinEmail</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Correo electrónico. Usado solo por los tipos de usuario.</p></td>
+<td><p><span data-ttu-id="0d75b-133">prinEmail</span><span class="sxs-lookup"><span data-stu-id="0d75b-133">prinEmail</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-134">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0d75b-134">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-135">Correo electrónico.</span><span class="sxs-lookup"><span data-stu-id="0d75b-135">Email.</span></span> <span data-ttu-id="0d75b-136">Solo se usan los tipos de usuario.</span><span class="sxs-lookup"><span data-stu-id="0d75b-136">Used only by user types.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinADPath</p></td>
-<td><p>nvarchar(384)</p></td>
-<td><p>Nombre de dominio del objeto de Active Directory del que la entidad de seguridad es una versión en caché. Puede tener un valor NULL en los tipos que no sean objetos de Active Directory (por ejemplo, usuarios de sistema).</p></td>
+<td><p><span data-ttu-id="0d75b-137">prinADPath</span><span class="sxs-lookup"><span data-stu-id="0d75b-137">prinADPath</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-138">nvarchar (384)</span><span class="sxs-lookup"><span data-stu-id="0d75b-138">nvarchar (384)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-139">Nombre de dominio del objeto de Active Directory del que el principal es una versión almacenada en caché.</span><span class="sxs-lookup"><span data-stu-id="0d75b-139">Domain name of the Active Directory object that the principal is a cached version of.</span></span> <span data-ttu-id="0d75b-140">Puede ser null para los tipos que no son objetos de Active Directory (como usuarios del sistema).</span><span class="sxs-lookup"><span data-stu-id="0d75b-140">Can be Null for types that are not Active Directory objects (such as system users).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinADUserPrincipalName</p></td>
-<td><p>nvarchar(256)</p></td>
-<td><p>Nombre principal de usuario (UPN) del usuario. Usado solo por los tipos de usuario normales.</p></td>
+<td><p><span data-ttu-id="0d75b-141">prinADUserPrincipalName</span><span class="sxs-lookup"><span data-stu-id="0d75b-141">prinADUserPrincipalName</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-142">nvarchar (256)</span><span class="sxs-lookup"><span data-stu-id="0d75b-142">nvarchar (256)</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-143">Nombre principal de usuario (UPN) del usuario.</span><span class="sxs-lookup"><span data-stu-id="0d75b-143">User’s user principal name (UPN).</span></span> <span data-ttu-id="0d75b-144">Solo lo usan los tipos de usuario normales.</span><span class="sxs-lookup"><span data-stu-id="0d75b-144">Used only by regular user types.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinDisabled</p></td>
-<td><p>smallint, no NULL</p></td>
+<td><p><span data-ttu-id="0d75b-145">prinDisabled</span><span class="sxs-lookup"><span data-stu-id="0d75b-145">prinDisabled</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-146">smallint, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-146">smallint, not null</span></span></p></td>
 <td><ul>
-<li><p>0: la entidad de seguridad está activa.</p></li>
-<li><p>1: la entidad de seguridad está deshabilitada porque las funciones SIP del usuario están deshabilitadas.</p></li>
-<li><p>2: la entidad de seguridad se elimina porque el objeto de AD asociado se ha eliminado.</p></li>
+<li><p><span data-ttu-id="0d75b-147">0: la principal está activa.</span><span class="sxs-lookup"><span data-stu-id="0d75b-147">0: Principal is active.</span></span></p></li>
+<li><p><span data-ttu-id="0d75b-148">1: la entidad de la identidad está deshabilitada porque las funciones SIP del usuario están deshabilitadas.</span><span class="sxs-lookup"><span data-stu-id="0d75b-148">1: Principal is disabled because user’s SIP capabilities are disabled.</span></span></p></li>
+<li><p><span data-ttu-id="0d75b-149">2: se eliminó el capital porque el objeto de AD asociado se ha eliminado.</span><span class="sxs-lookup"><span data-stu-id="0d75b-149">2: Principal is deleted because associated AD object has been deleted.</span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p>prinTypeID</p></td>
-<td><p>smallint, no NULL</p></td>
-<td><p>Tipo de la entidad de seguridad (de la tabla tblPrincipalType).</p></td>
+<td><p><span data-ttu-id="0d75b-150">prinTypeID</span><span class="sxs-lookup"><span data-stu-id="0d75b-150">prinTypeID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-151">smallint, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-151">smallint, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-152">Tipo principal (de la tabla tblPrincipalType).</span><span class="sxs-lookup"><span data-stu-id="0d75b-152">Principal type (from tblPrincipalType table).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinPoolID</p></td>
-<td><p>Int</p></td>
-<td><p>Asignación de grupos de servidores de Lync para la entidad de seguridad.</p></td>
+<td><p><span data-ttu-id="0d75b-153">prinPoolID</span><span class="sxs-lookup"><span data-stu-id="0d75b-153">prinPoolID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-154">ENT</span><span class="sxs-lookup"><span data-stu-id="0d75b-154">Int</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-155">Asignación de grupo de Lync para la entidad de identidad.</span><span class="sxs-lookup"><span data-stu-id="0d75b-155">Lync pool assignment for the principal.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinPolicyID</p></td>
-<td><p>Int</p></td>
-<td><p>Directiva del Servidor de chat persistente para el usuario, si la directiva de tipo de etiqueta está presente.</p></td>
+<td><p><span data-ttu-id="0d75b-156">prinPolicyID</span><span class="sxs-lookup"><span data-stu-id="0d75b-156">prinPolicyID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-157">ENT</span><span class="sxs-lookup"><span data-stu-id="0d75b-157">Int</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-158">Valor de la Directiva del servidor de chat persistente para usuario, si la Directiva de tipo de etiqueta está presente.</span><span class="sxs-lookup"><span data-stu-id="0d75b-158">Persistent Chat Server policy value for user, if tag type policy is present.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinAddedBy</p></td>
-<td><p>Int</p></td>
-<td><p>Identificador de la entidad de seguridad del creador.</p></td>
+<td><p><span data-ttu-id="0d75b-159">prinAddedBy</span><span class="sxs-lookup"><span data-stu-id="0d75b-159">prinAddedBy</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-160">int</span><span class="sxs-lookup"><span data-stu-id="0d75b-160">int</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-161">IDENTIFICADOR principal del creador.</span><span class="sxs-lookup"><span data-stu-id="0d75b-161">Principal ID of the creator.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinAddedOn</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Marca de tiempo de la hora de creación.</p></td>
+<td><p><span data-ttu-id="0d75b-162">prinAddedOn</span><span class="sxs-lookup"><span data-stu-id="0d75b-162">prinAddedOn</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-163">BIGINT, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-163">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-164">Marca de tiempo de la hora de creación.</span><span class="sxs-lookup"><span data-stu-id="0d75b-164">Time stamp for the creation time.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinUpdatedBy</p></td>
-<td><p>Int</p></td>
-<td><p>Identificador de la entidad de seguridad que actualizó esto por última vez.</p></td>
+<td><p><span data-ttu-id="0d75b-165">prinUpdatedBy</span><span class="sxs-lookup"><span data-stu-id="0d75b-165">prinUpdatedBy</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-166">int</span><span class="sxs-lookup"><span data-stu-id="0d75b-166">int</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-167">IDENTIFICADOR de la entidad de identidad que la actualizó por última vez.</span><span class="sxs-lookup"><span data-stu-id="0d75b-167">ID of the principal that last updated this.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>prinUpdatedOn</p></td>
-<td><p>bigint, no NULL</p></td>
-<td><p>Marca de tiempo de la última actualización.</p></td>
+<td><p><span data-ttu-id="0d75b-168">prinUpdatedOn</span><span class="sxs-lookup"><span data-stu-id="0d75b-168">prinUpdatedOn</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-169">BIGINT, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-169">bigint, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-170">Marca de tiempo de la última actualización.</span><span class="sxs-lookup"><span data-stu-id="0d75b-170">Time stamp for the last update.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinVerifiedOn</p></td>
-<td><p>datetime, no NULL</p></td>
-<td><p>Fecha y hora de la última actualización de sincronización de Active Directory para la entidad de seguridad.</p></td>
+<td><p><span data-ttu-id="0d75b-171">prinVerifiedOn</span><span class="sxs-lookup"><span data-stu-id="0d75b-171">prinVerifiedOn</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-172">DateTime, not null</span><span class="sxs-lookup"><span data-stu-id="0d75b-172">datetime, not null</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-173">Fecha y hora de la última actualización de sincronización de Active Directory para la entidad de identidad.</span><span class="sxs-lookup"><span data-stu-id="0d75b-173">Date and time of the last Active Directory Sync refresh for the principal.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Teclas
+### <a name="keys"></a><span data-ttu-id="0d75b-174">Sus</span><span class="sxs-lookup"><span data-stu-id="0d75b-174">Keys</span></span>
 
 <table>
 <colgroup>
@@ -140,19 +160,30 @@ La tabla tblPrincipal contiene todas las entidades de seguridad, incluidos usuar
 </colgroup>
 <thead>
 <tr class="header">
-<th>Columna</th>
-<th>Descripción</th>
+<th><span data-ttu-id="0d75b-175">Columna</span><span class="sxs-lookup"><span data-stu-id="0d75b-175">Column</span></span></th>
+<th><span data-ttu-id="0d75b-176">Descripción</span><span class="sxs-lookup"><span data-stu-id="0d75b-176">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>prinID</p></td>
-<td><p>Clave principal.</p></td>
+<td><p><span data-ttu-id="0d75b-177">prinID</span><span class="sxs-lookup"><span data-stu-id="0d75b-177">prinID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-178">Clave principal.</span><span class="sxs-lookup"><span data-stu-id="0d75b-178">Primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>prinTypeID</p></td>
-<td><p>Clave externa con búsqueda en la tabla tblPrincipalType.ptypeID.</p></td>
+<td><p><span data-ttu-id="0d75b-179">prinTypeID</span><span class="sxs-lookup"><span data-stu-id="0d75b-179">prinTypeID</span></span></p></td>
+<td><p><span data-ttu-id="0d75b-180">Clave externa con la búsqueda en la tabla tblPrincipalType. ptypeID.</span><span class="sxs-lookup"><span data-stu-id="0d75b-180">Foreign key with lookup in tblPrincipalType.ptypeID table.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

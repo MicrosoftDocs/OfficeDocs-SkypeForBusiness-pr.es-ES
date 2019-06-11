@@ -1,75 +1,97 @@
-﻿---
-title: Visualización de informes en el Analizador de procedimientos recomendados
-TOCTitle: Visualización de informes en el Analizador de procedimientos recomendados
-ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg607690(v=OCS.15)
-ms:contentKeyID: 48275635
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: visualización de informes desde Best Practices Analyzer'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Viewing reports from Best Practices Analyzer
+ms:assetid: 7217a47b-36b1-4923-81ea-df754cff29bb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg607690(v=OCS.15)
+ms:contentKeyID: 48184465
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fb2c229d683ecd0dcf4fee94b456514527226152
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850059"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Visualización de informes en el Analizador de procedimientos recomendados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-21_
+# <a name="viewing-reports-from-best-practices-analyzer-in-lync-server-2013"></a><span data-ttu-id="8cadc-102">Ver informes de Best Practices Analyzer en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cadc-102">Viewing reports from Best Practices Analyzer in Lync Server 2013</span></span>
 
-Cuando utiliza el Analizador de procedimientos recomendados para examinar su entorno, debe especificar un nombre para el análisis. Una vez finalizado un análisis, el Analizador de procedimientos recomendados almacena los resultados en informes que guarda con el nombre del análisis. Tras el análisis, puede consultar los informes generados haciendo clic en **Ver un informe de este análisis BPA** directamente desde la página **Análisis completado**, aunque también es posible verlos en un momento posterior. Puede ver los informes en el equipo local en el que se ejecutaron los análisis, importar los resultados del análisis desde otro equipo o bien exportar los resultados para visualizar los informes en otro equipo en que el Analizador de procedimientos recomendados esté instalado.
+</div>
 
-Los resultados del análisis se presentan en estos tipos de informes:
+<div id="mainSection">
 
-  - Informes de lista
+<div id="mainBody">
 
-  - Informes ramificados
+<span> </span>
 
-  - Otros informes
+<span data-ttu-id="8cadc-103">_**Última modificación del tema:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="8cadc-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-En estos informes se incluye información sobre los errores y las advertencias, entre otros. Para más información sobre estos aspectos y sobre los tipos de informes, vea [Descripción general de los informes creados por el Analizador de procedimientos recomendados](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).
+<span data-ttu-id="8cadc-104">Al usar el analizador de procedimientos recomendados para explorar su entorno, especifica un nombre para el examen.</span><span class="sxs-lookup"><span data-stu-id="8cadc-104">When you use Best Practices Analyzer to scan your environment, you specify a name for the scan.</span></span> <span data-ttu-id="8cadc-105">Después de que el analizador de procedimientos recomendados complete un examen, almacena los resultados del análisis en informes y los guarda bajo el nombre de la búsqueda.</span><span class="sxs-lookup"><span data-stu-id="8cadc-105">After Best Practices Analyzer completes a scan, it stores the scan results in reports and saves them under the name of the scan.</span></span> <span data-ttu-id="8cadc-106">Una vez finalizado el análisis, puede ver los informes generados para ese análisis haciendo clic en **ver un informe de este examen de procedimientos recomendados** directamente desde la página **análisis finalizado** .</span><span class="sxs-lookup"><span data-stu-id="8cadc-106">Upon completion of the scan, you can view the reports generated for that scan by clicking **View a report of this Best Practices scan** directly from the **Scanning Completed** page.</span></span> <span data-ttu-id="8cadc-107">También puede ver los informes de ese análisis o análisis anteriores más adelante.</span><span class="sxs-lookup"><span data-stu-id="8cadc-107">You can also view the reports from that scan or previous scans at a later time.</span></span> <span data-ttu-id="8cadc-108">Puede ver informes en el equipo local en el que se ejecutó el examen, importar resultados del examen de otro equipo o exportar resultados del examen para ver los informes en otro equipo en el que está instalado Best Practices Analyzer.</span><span class="sxs-lookup"><span data-stu-id="8cadc-108">You can view reports on the local computer on which the scan was run, import scan results from another computer, or export scan results to view the reports on another computer on which Best Practices Analyzer is installed.</span></span>
 
-Use este procedimiento para visualizar los resultados de análisis que el Analizador de procedimientos recomendados generó previamente.
+<span data-ttu-id="8cadc-109">Los resultados del examen se presentan en los siguientes tipos de informes:</span><span class="sxs-lookup"><span data-stu-id="8cadc-109">Scan results are presented in the following types of reports:</span></span>
 
-## Para ver los informes de un análisis anterior
+  - <span data-ttu-id="8cadc-110">Informes de listas</span><span class="sxs-lookup"><span data-stu-id="8cadc-110">List reports</span></span>
 
-1.  Inicie sesión en un equipo en que el Analizador de procedimientos recomendados esté instalado con una cuenta que pertenezca a la cuenta de usuario local.
+  - <span data-ttu-id="8cadc-111">Informes de árbol</span><span class="sxs-lookup"><span data-stu-id="8cadc-111">Tree reports</span></span>
+
+  - <span data-ttu-id="8cadc-112">Otros informes</span><span class="sxs-lookup"><span data-stu-id="8cadc-112">Other reports</span></span>
+
+<span data-ttu-id="8cadc-113">Estos informes incluyen errores, advertencias y otra información.</span><span class="sxs-lookup"><span data-stu-id="8cadc-113">These reports include errors, warnings, and other information.</span></span> <span data-ttu-id="8cadc-114">Para obtener más información sobre cada uno de estos tipos de informes y problemas, vea información sobre los [informes creados por Best Practices Analyzer en Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span><span class="sxs-lookup"><span data-stu-id="8cadc-114">For details about each of these types of reports and issues, see [Understanding reports created by Best Practices Analyzer in Lync Server 2013](lync-server-2013-understanding-reports-created-by-best-practices-analyzer.md).</span></span>
+
+<span data-ttu-id="8cadc-115">Use el procedimiento siguiente para ver los resultados del examen generados previamente por el analizador de procedimientos recomendados.</span><span class="sxs-lookup"><span data-stu-id="8cadc-115">Use the following procedure to view scan results previously generated by Best Practices Analyzer.</span></span>
+
+<div>
+
+## <a name="to-view-reports-from-a-previous-scan"></a><span data-ttu-id="8cadc-116">Para ver los informes de un examen anterior</span><span class="sxs-lookup"><span data-stu-id="8cadc-116">To view reports from a previous scan</span></span>
+
+1.  <span data-ttu-id="8cadc-117">Inicie sesión en un equipo en el que se instale Best Practices Analyzer con una cuenta que sea miembro de la cuenta de usuario local.</span><span class="sxs-lookup"><span data-stu-id="8cadc-117">Log on to a computer on which Best Practices Analyzer is installed using an account that is a member of the local User account.</span></span>
     
+    > [!NOTE]  
+    > <span data-ttu-id="8cadc-118">Puede ver los resultados de un análisis con una cuenta que sea miembro del grupo de administradores locales, pero no puede ejecutar un examen a menos que tenga los derechos de usuario y permisos adecuados.</span><span class="sxs-lookup"><span data-stu-id="8cadc-118">You can view the results of a scan using an account that is a member of the local Administrators group, but you cannot run a scan unless you have appropriate user rights and permissions.</span></span> <span data-ttu-id="8cadc-119">Para obtener más información, consulte pertenencias <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">a grupos y requisitos de derechos de usuario para Best Practices Analyzer en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8cadc-119">For details, see <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Group memberships and user rights requirements for Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-    > [!NOTE]
-    > Se pueden ver los resultados de un análisis con una cuenta que pertenezca al grupo Administradores local, pero no se podrá ejecutar un análisis a menos que se disponga de los permisos y derechos adecuados para hacerlo. Para más información, consulte <A href="lync-server-2013-group-memberships-and-user-rights-requirements-for-best-practices-analyzer.md">Requisitos de pertenencias a grupo y de derechos de usuario para el Analizador de procedimientos recomendados</A>.
+2.  <span data-ttu-id="8cadc-120">Haga clic en **Inicio**, seleccione **todos los programas**, haga clic en **Microsoft Lync Server 2013**y, a continuación, haga clic en **Best Practices Analyzer**.</span><span class="sxs-lookup"><span data-stu-id="8cadc-120">Click **Start**, point to **All Programs**, click **Microsoft Lync Server 2013**, and then click **Best Practices Analyzer**.</span></span>
 
+3.  <span data-ttu-id="8cadc-121">En la pantalla de **bienvenida** , haga clic en **seleccionar los resultados del análisis que desea ver**.</span><span class="sxs-lookup"><span data-stu-id="8cadc-121">On the **Welcome** screen, click **Select the scan results to view**.</span></span>
 
-
-2.  Haga clic en **Inicio**, apunte a **Todos los programas**, haga clic en **Microsoft Lync Server 2013** y, después, en **Analizador de procedimientos recomendados**.
-
-3.  En la pantalla **Bienvenida**, haga clic en **Seleccionar los resultados de análisis para mostrar**.
-
-4.  En la página **Seleccionar un nuevo análisis BPA para mostrar**, realice uno de estos procedimientos:
+4.  <span data-ttu-id="8cadc-122">En la página **seleccionar el examen de procedimientos recomendados para ver** , realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="8cadc-122">On the **Select a Best Practices Scan to View** page, do one of the following:</span></span>
     
-      - Para ver informes desde la lista de resultados de análisis almacenados localmente, haga clic en el nombre del análisis y, después, en **Ver un informe de este análisis**.
+      - <span data-ttu-id="8cadc-123">Para ver los informes de la lista de resultados de exámenes almacenados de forma local, haga clic en el nombre de la exploración y, a continuación, haga clic en **ver un informe de este examen**.</span><span class="sxs-lookup"><span data-stu-id="8cadc-123">To view reports from the list of locally stored scan results, click the name of scan, and then click **View a report of this scan**.</span></span>
         
-
-        > [!NOTE]
-        > El Analizador de procedimientos recomendados crea la lista de archivos locales de la carpeta <EM>&lt;systemDrive&gt;</EM>\Documents and Settings\\<EM>&lt;user&gt;</EM>\Application Data\Microsoft\RtcBPA.
-
+        > [!NOTE]  
+        > <span data-ttu-id="8cadc-124">El Best Practices Analyzer crea la lista de archivos locales de la &lt;carpeta&gt;\\systemDrive Documents\\&lt;and&gt;Settings usuario \Datos de Data\Microsoft\RtcBPA.</span><span class="sxs-lookup"><span data-stu-id="8cadc-124">The Best Practices Analyzer creates the list of local files from the folder &lt;systemDrive&gt;\\Documents and Settings\\&lt;user&gt;\Application Data\Microsoft\RtcBPA.</span></span>
     
-      - Para ver los informes de resultados de un análisis que están almacenados en otra ubicación, haga clic en **Importar análisis**, busque el archivo que contiene los resultados del análisis y haga clic en **Abrir**.
+      - <span data-ttu-id="8cadc-125">Para ver los informes de los resultados de un examen guardado en otra ubicación, haga clic en **importar examen**, busque el archivo que contiene los resultados del análisis y, a continuación, haga clic en **abrir**.</span><span class="sxs-lookup"><span data-stu-id="8cadc-125">To view reports for results of a scan that are stored at another location, click **Import scan**, locate the file containing the scan results, and then click **Open**.</span></span>
         
+        > [!NOTE]  
+        > <span data-ttu-id="8cadc-126">Si la versión del analizador de procedimientos recomendados en este equipo no coincide con la versión que se usó para recopilar los datos en el archivo importado, es posible que la herramienta del equipo vuelva a analizar el archivo después de importarlo.</span><span class="sxs-lookup"><span data-stu-id="8cadc-126">If the version of Best Practices Analyzer on this computer does not match the version that was used to collect the data in the imported file, the tool on your computer might analyze the file again, after it is imported.</span></span>
 
-        > [!NOTE]
-        > Si la versión del Analizador de procedimientos recomendados del equipo no es la misma que la que se utilizó para recopilar los datos en el archivo importado, es posible que la herramienta del equipo con el que está trabajando vuelva a analizar el archivo después de importarlo.
-
-
-
-5.  En la página **Ver informe del Analizador de procedimientos recomendados**, siga uno de estos procedimientos:
+5.  <span data-ttu-id="8cadc-127">En la página **Ver informe de procedimientos recomendados** , realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="8cadc-127">On the **View Best Practices Report** page, do one of the following:</span></span>
     
-      - Para ver los informes en una lista organizada según el componente del servidor, haga clic en **Informes de lista** y, después, en la pestaña **Todos los problemas** o **Información detallada**.
+      - <span data-ttu-id="8cadc-128">Para ver los informes en una lista organizada por componente de servidor, haga clic en **informes de lista**y, a continuación, haga clic en la pestaña **todos los problemas** o en la pestaña **elementos de información** .</span><span class="sxs-lookup"><span data-stu-id="8cadc-128">To view reports in a list organized by server component, click **List Reports**, and then click either the **All Issues** tab or the **Informational Items** tab.</span></span>
     
-      - Para ver los informes como una lista jerárquica organizada según los tipos de resultados, haga clic en **Informes ramificados** y, después, en la pestaña **Vista detallada** o **Vista de resumen**.
+      - <span data-ttu-id="8cadc-129">Para ver los informes como una lista jerárquica organizada por tipos de resultados, haga clic en **informes de árbol**y, a continuación, haga clic en la pestaña **vista detallada** o en la pestaña **vista de Resumen** .</span><span class="sxs-lookup"><span data-stu-id="8cadc-129">To view reports as a hierarchical list organized by types of results, click **Tree Reports**, and then click either the **Detailed View** tab or the **Summary View** tab.</span></span>
     
-      - Para ver otro tipo de informes, haga clic en **Otros informes**.
+      - <span data-ttu-id="8cadc-130">Para ver otros informes, haga clic en **otros informes**.</span><span class="sxs-lookup"><span data-stu-id="8cadc-130">To view other reports, click **Other Reports**.</span></span>
     
+    > [!NOTE]  
+    > <span data-ttu-id="8cadc-131">Para obtener más información sobre los informes del analizador de procedimientos recomendados y los problemas que identifican, consulte <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">ver y trabajar con informes creados por Best Practices Analyzer en Lync Server 2013</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">analizar y resolver los problemas identificados por los procedimientos recomendados. Analyzer en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="8cadc-131">For details about the Best Practices Analyzer reports and the issues that they identify, see <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Viewing and working with reports created by Best Practices Analyzer in Lync Server 2013</A> and <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Analyzing and resolving issues identified by Best Practices Analyzer in Lync Server 2013</A>.</span></span>
 
-    > [!NOTE]
-    > Para más información sobre los informes del Analizador de procedimientos recomendados y sobre los problemas que identifican, vea <A href="lync-server-2013-viewing-and-working-with-reports-created-by-best-practices-analyzer.md">Visualización y uso de informes creados por el Analizador de procedimientos recomendados</A> y <A href="lync-server-2013-analyzing-and-resolving-issues-identified-by-best-practices-analyzer.md">Análisis y resolución de problemas identificados por el Analizador de procedimientos recomendados</A>.
+</div>
 
+</div>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,174 +1,236 @@
-﻿---
-title: 'Lync Server 2013: Configurar la federación XMPP'
-TOCTitle: Configurar la federación XMPP
-ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204939(v=OCS.15)
-ms:contentKeyID: 48275422
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar la federación XMPP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Setting up XMPP federation
+ms:assetid: 5fda6cb7-8d4d-495d-90c7-601f1036e085
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204939(v=OCS.15)
+ms:contentKeyID: 48184270
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cda79f7b80d6f1bbdf2163ecf987f4a05949bfc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850645"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar la federación XMPP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-12-03_
+# <a name="setting-up-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="9f9f8-102">Configurar la federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f9f8-102">Setting up XMPP federation in Lync Server 2013</span></span>
 
-Para implementar el proxy XMPP en el servidor perimetral, debe configurar el servidor perimetral para la federación de XMPP. Para ello, siga estos pasos.
+</div>
 
-## Configuración de federación XMPP
+<div id="mainSection">
 
-1.  Inicie sesión en el equipo donde se encuentre instalado el Asistente para la implementación de Lync Server como miembro del grupo de administradores del dominio y el grupo RTCUniversalServerAdmins.
+<div id="mainBody">
 
-2.  En el servidor front-end, abra al Asistente para implementación de Lync Server. Haga clic en Instalar o actualizar el sistema Lync Server y, a continuación, haga clic en Instalar o desinstalar componentes de Lync Server. Haga clic en Ejecutar de nuevo.
+<span> </span>
 
-3.  En Instalar componentes de Lync Server, haga clic en Siguiente. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez finalizada la implementación, haga clic en Ver registro para ver los archivos de registro disponibles. Haga clic en Finalizar para completar la implementación.
+<span data-ttu-id="9f9f8-103">_**Última modificación del tema:** 2012-12-03_</span><span class="sxs-lookup"><span data-stu-id="9f9f8-103">_**Topic Last Modified:** 2012-12-03_</span></span>
 
-4.  En el servidor perimetral, abra el asistente para la implementación de Lync Server. Haga clic en Instalar o en Actualizar Lync Server System y, a continuación, en Instalar o desinstalar componentes de Lync Server. Haga clic en Ejecutar nuevamente.
+<span data-ttu-id="9f9f8-104">Para implementar el proxy XMPP en el servidor perimetral, debe configurar el servidor perimetral para la Federación de XMPP.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-104">To deploy the XMPP Proxy on the Edge Server, you must configure the Edge Server for XMPP federation.</span></span> <span data-ttu-id="9f9f8-105">Para ello, siga estos pasos.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-105">To do this, you do the following steps.</span></span>
 
-5.  En Instalar componentes de Lync Server, haga clic en Siguiente. La pantalla de resumen mostrará las acciones a medida que se ejecuten. Una vez finalizada la implementación, haga clic en Ver registro para ver los archivos de registro disponibles. Haga clic en Finalizar para completar la implementación.
+<div>
 
-6.  En el Asistente para la implementación del servidor perimetral, junto a Paso 3: Solicitar, instalar o asignar certificados, haga clic en Ejecutar de nuevo.
+## <a name="setting-up-xmpp-federation"></a><span data-ttu-id="9f9f8-106">Configuración de la Federación XMPP</span><span class="sxs-lookup"><span data-stu-id="9f9f8-106">Setting Up XMPP Federation</span></span>
+
+1.  <span data-ttu-id="9f9f8-107">Inicie sesión en el equipo donde está instalado el Asistente para la implementación de Lync Server como miembro del grupo administradores de dominio y el grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-107">Log on to the computer where the Lync Server Deployment Wizard is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+
+2.  <span data-ttu-id="9f9f8-108">En el servidor front-end, abra el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-108">On the Front End server, open the Lync Server Deployment wizard.</span></span> <span data-ttu-id="9f9f8-109">Haga clic en instalar o actualizar el sistema Lync Server y, a continuación, haga clic en configurar o quitar los componentes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-109">Click Install or Update Lync Server System, then click Setup or Remove Lync Server Components.</span></span> <span data-ttu-id="9f9f8-110">Vuelva a hacer clic en ejecutar.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-110">Click Run Again.</span></span>
+
+3.  <span data-ttu-id="9f9f8-111">En instalación de los componentes de Lync Server, haga clic en siguiente.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-111">At Setup Lync Server components, click Next.</span></span> <span data-ttu-id="9f9f8-112">La pantalla resumen mostrará las acciones a medida que se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-112">The summary screen will show actions as they are executed.</span></span> <span data-ttu-id="9f9f8-113">Una vez que haya finalizado la implementación, haga clic en Ver registro para ver los archivos de registro disponibles.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-113">Once the deployment is done, click View Log to view available log files.</span></span> <span data-ttu-id="9f9f8-114">Haga clic en finalizar para completar la implementación.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-114">Click Finish to complete the deployment.</span></span>
+
+4.  <span data-ttu-id="9f9f8-115">En el servidor perimetral, abra el Asistente para la implementación de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-115">On the Edge server, open the Lync Server Deployment wizard.</span></span> <span data-ttu-id="9f9f8-116">Haga clic en instalar o actualizar el sistema Lync Server y, a continuación, haga clic en configurar o quitar los componentes de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-116">Click Install or Update Lync Server System, then click Setup or Remove Lync Server Components.</span></span> <span data-ttu-id="9f9f8-117">Vuelva a hacer clic en ejecutar.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-117">Click Run Again.</span></span>
+
+5.  <span data-ttu-id="9f9f8-118">En instalación de los componentes de Lync Server, haga clic en siguiente.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-118">At Setup Lync Server components, click Next.</span></span> <span data-ttu-id="9f9f8-119">La pantalla resumen mostrará las acciones a medida que se ejecutan.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-119">The summary screen will show actions as they are executed.</span></span> <span data-ttu-id="9f9f8-120">Una vez que haya finalizado la implementación, haga clic en Ver registro para ver los archivos de registro disponibles.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-120">Once the deployment is done, click View Log to view available log files.</span></span> <span data-ttu-id="9f9f8-121">Haga clic en finalizar para completar la implementación.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-121">Click Finish to complete the deployment.</span></span>
+
+6.  <span data-ttu-id="9f9f8-122">En el servidor perimetral, en el Asistente para la implementación, junto al paso 3: solicitar, instalar o asignar certificados, haga clic en ejecutar de nuevo.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-122">On the Edge Server, in the Deployment Wizard, next to Step 3: Request, Install, or Assign Certificates, click Run again.</span></span>
     
+    <div class=" ">
+    
+
     > [!TIP]  
-    > Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.
+    > <span data-ttu-id="9f9f8-123">Si está implementando el servidor perimetral por primera vez, verá ejecutar en lugar de volver a ejecutar.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-123">If you are deploying the Edge Server for the first time, you will see Run instead of Run Again.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="9f9f8-124">En la página Tareas de certificado disponibles, haga clic en Crear una nueva solicitud de certificado.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-124">On the Available Certificate Tasks page, click Create a new certificate request.</span></span>
+
+8.  <span data-ttu-id="9f9f8-125">En la página solicitud de certificado, haga clic en certificado de borde externo.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-125">On the Certificate Request page, click External Edge Certificate.</span></span>
+
+9.  <span data-ttu-id="9f9f8-126">En la página solicitud inmediata o demorada, active la casilla preparar la solicitud ahora pero enviarla más tarde.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-126">On the Delayed or Immediate Request page, select the Prepare the request now, but send it later check box.</span></span>
+
+10. <span data-ttu-id="9f9f8-127">En la página archivo de solicitud de certificado, escriba la ruta de acceso completa y el nombre del archivo en el que se va a guardar la solicitud (por\\ejemplo\_,\_c: CERT la Edge. cer).</span><span class="sxs-lookup"><span data-stu-id="9f9f8-127">On the Certificate Request File page, type the full path and file name of the file to which the request is to be saved (for example, c:\\cert\_exernal\_edge.cer).</span></span>
+
+11. <span data-ttu-id="9f9f8-128">En la página especificar plantilla de certificado alternativa, para usar una plantilla distinta de la plantilla predeterminada de WebServer, seleccione la casilla Usar plantilla de certificado alternativa para la entidad emisora de certificados seleccionada.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-128">On the Specify Alternate Certificate Template page, to use a template other than the default WebServer template, select the Use alternative certificate template for the selected certification authority check box.</span></span>
+
+12. <span data-ttu-id="9f9f8-129">En la página   Nombre y configuración de seguridad, siga este procedimiento:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-129">On the Name and Security Settings page, do the following:</span></span>
+    
+    1.  <span data-ttu-id="9f9f8-130">En nombre descriptivo, escriba un nombre para mostrar para el certificado.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-130">In Friendly name, type a display name for the certificate</span></span>
+    
+    2.  <span data-ttu-id="9f9f8-131">En longitud bit, especifique la longitud en bits (normalmente, el valor predeterminado de 2048).</span><span class="sxs-lookup"><span data-stu-id="9f9f8-131">In Bit length, specify the bit length (typically, the default of 2048)</span></span>
+    
+    3.  <span data-ttu-id="9f9f8-132">Compruebe que la casilla marcar clave privada de certificado como exportable está seleccionada</span><span class="sxs-lookup"><span data-stu-id="9f9f8-132">Verify that the Mark certificate private key as exportable check box is selected</span></span>
+
+13. <span data-ttu-id="9f9f8-133">En la página información de la organización, escriba el nombre de la organización y la unidad organizativa (por ejemplo, una división o un departamento).</span><span class="sxs-lookup"><span data-stu-id="9f9f8-133">On the Organization Information page, type the name for the organization and the organizational unit (for example, a division or department)</span></span>
+
+14. <span data-ttu-id="9f9f8-134">En la página información geográfica, especifique la información de ubicación</span><span class="sxs-lookup"><span data-stu-id="9f9f8-134">On the Geographical Information page, specify the location information</span></span>
+
+15. <span data-ttu-id="9f9f8-135">En la página nombre de sujeto/nombres alternativos de asunto, se muestra la información que el asistente rellenará automáticamente.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-135">On the Subject Name/Subject Alternate Names page, the information to be automatically populated by the wizard is displayed.</span></span> <span data-ttu-id="9f9f8-136">Si se necesitan nombres alternativos de asunto adicionales, debe especificarlos en los dos pasos siguientes.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-136">If additional subject alternative names are needed, you specify them in the next two steps</span></span>
+
+16. <span data-ttu-id="9f9f8-137">En la página Configuración del dominio SIP en la página de nombres alternativos de asunto (San), seleccione la casilla dominio para agregar un SIP. \<sipdomain\> entrada a la lista de nombres alternativos de asunto.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-137">On the SIP Domain Setting on Subject Alternate Names (SANs) page, select the domain check box to add a sip.\<sipdomain\> entry to the subject alternative names list.</span></span>
+
+17. <span data-ttu-id="9f9f8-138">En la página configurar otros nombres alternativos de asunto, especifique los nombres alternativos de asunto adicionales necesarios</span><span class="sxs-lookup"><span data-stu-id="9f9f8-138">On the Configure Additional Subject Alternate Names page, specify any additional subject alternative names that are required</span></span>
+    
+    <div class=" ">
     
 
-
-7.  En la página Tareas de certificado disponibles, haga clic en Crear una nueva solicitud de certificado.
-
-8.  En la página Solicitud de certificado, haga clic en Certificado perimetral externo.
-
-9.  En la página Solicitud retrasada o inmediata, active la casilla Prepare ahora la solicitud, pero enviarla más tarde.
-
-10. En la página Archivo de solicitud de certificados, escriba la ruta de acceso completa y el nombre del archivo en el que se guardará la solicitud (por ejemplo, c:\\cert\_exernal\_edge.cer).
-
-11. En la página Especificar plantilla de certificado alternativa, para usar una plantilla distinta a la plantilla predeterminada WebServer, active la casilla Usar plantilla de certificado alternativa para la entidad de certificación seleccionada.
-
-12. En la página Nombre y configuración de seguridad, siga este procedimiento:
-    
-    1.  En Nombre descriptivo, escriba un nombre para mostrar para el certificado
-    
-    2.  En Longitud de bits, especifique la longitud de bits (normalmente, el valor predeterminado es 2048)
-    
-    3.  Asegúrese de que la casilla de verificación Marcar la clave privada del certificado como exportable está seleccionada.
-
-13. En la página Información de la organización, escriba un nombre para la organización y la unidad organizativa (por ejemplo, una división o un departamento)
-
-14. En la página Información geográfica, escriba la información de ubicación
-
-15. En la página Nombre de sujeto/nombres alternativos de sujeto, la información se rellenará automáticamente gracias al asistente que se muestra. Si necesita otros nombres alternativos de sujeto, especifíquelos en los dos pasos siguientes
-
-16. En la página Configuración de dominio SIP en nombres alternativos de sujeto (SAN), active la casilla del dominio para agregar una entrada sip.\<dominiosip\> a la lista de nombres alternativos del firmante.
-
-17. En la página Configurar nombres alternativos de sujeto adicionales, especifique los nombres alternativos de sujeto adicionales que sean necesarios.
-    
     > [!TIP]  
-    > Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.
+    > <span data-ttu-id="9f9f8-139">Si el proxy XMPP está instalado, de forma predeterminada, el nombre de dominio (por ejemplo, contoso.com) se rellena en las entradas SAN.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-139">If the XMPP proxy is installed, by default the domain name (such as contoso.com) is populated in the SAN entries.</span></span> <span data-ttu-id="9f9f8-140">Si necesita más entradas, agréguelos en este paso.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-140">If you require more entries, add them in this step.</span></span>
+
+    
+    </div>
+
+18. <span data-ttu-id="9f9f8-141">En la página solicitar Resumen, revise la información del certificado que se va a usar para generar la solicitud.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-141">On the Request Summary page, review the certificate information to be used to generate the request.</span></span>
+
+19. <span data-ttu-id="9f9f8-142">Cuando termine de ejecutarse los comandos, puede ver el registro o hacer clic en siguiente para continuar.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-142">After the commands finish running, you can View Log, or click Next to continue.</span></span>
+
+20. <span data-ttu-id="9f9f8-143">En la página de archivo de solicitud de certificado, puede ver el archivo de solicitud de firma de certificado generado (CSR) haciendo clic en ver o salir del asistente de certificados haciendo clic en finalizar.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-143">On the Certificate Request File page, you can view the generated certificate signing request (CSR) file by clicking View or exit the Certificate Wizard by clicking Finish.</span></span>
+
+21. <span data-ttu-id="9f9f8-144">Copie el archivo de solicitud y envíelo a la entidad emisora de certificados pública.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-144">Copy the request file and submit to your public certification authority.</span></span>
+
+22. <span data-ttu-id="9f9f8-145">Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-145">After receiving, importing and assigning the public certificate, you must stop and restart the Edge Server services.</span></span> <span data-ttu-id="9f9f8-146">Esto se hace escribiendo en la consola de administración de Lync Server:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-146">You do this by typing in the Lync Server Management console:</span></span>
+    
+       ```
+        Stop-CsWindowsService
+       ```
+    
+       ```
+        Start-CsWindowsService
+       ```
+
+23. <span data-ttu-id="9f9f8-147">Para configurar DNS para la Federación XMPP, agregue el siguiente registro SRV a DNS externo:\_XMPP-Server. \_TCP. \<nombre\> de dominio el registro SRV se resolverá en el FQDN perimetral de acceso del servidor perimetral, con un valor de puerto de 5269.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-147">To configure DNS for XMPP federation, you add the following SRV record to external DNS:\_xmpp-server.\_tcp.\<domain name\> The SRV record will resolve to the access edge FQDN of the Edge server, with a port value of 5269.</span></span> <span data-ttu-id="9f9f8-148">Además, puede configurar un registro de host ' A ' (por ejemplo, xmpp.contoso.com) que apunte a la dirección IP del servidor perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-148">Additionally, you configure an ‘A’ host record (for example, xmpp.contoso.com) that points to the IP address of the Access Edge Server.</span></span>
+    
+    <div class=" ">
     
 
-
-18. En la página Resumen de la solicitud, revise la información del certificado que va a usar para generar la solicitud.
-
-19. Una vez que los comandos terminen de ejecutarse, puede Ver el registro o hacer clic en Siguiente para continuar.
-
-20. En la página Archivo de solicitud de certificados, puede ver el archivo de solicitud de firma de certificado (CSR) que se ha generado. Para ello, haga clic en Ver o haga clic en Finalizar para salir del Asistente para certificados.
-
-21. Copie el archivo de solicitud y envíelo a la entidad de certificación pública.
-
-22. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Para ello, escriba en la consola de administración de Lync Server:
-    
-    ```
-    Stop-CsWindowsService
-    ```
-    ```
-    Start-CsWindowsService
-    ```
-
-23. Para configurar DNS para la federación de XMPP, agregue el siguiente registro SRV al DNS externo\_xmpp-server.\_tcp.\<nombre de dominio\>. El registro SRV se resolverá en el FQDN perimetral de acceso del servidor perimetral con un valor de puerto de 5269. Además, configure un registro de host 'A' (por ejemplo, xmpp.contoso.com) que señale a la dirección IP del servidor perimetral de acceso.
-    
     > [!IMPORTANT]  
-    > Si tiene grupos de servidores perimetrales en varios sitios, conviene agregar varios registros SRV para la federación de XMPP. Agregue un registro SRV por cada grupo de servidores perimetrales que haya en la organización y asigne a cada uno de ellos una prioridad distinta. Cuando todos los grupos de servidores perimetrales estén ejecutándose, el que tenga la máxima prioridad se encargará de todas las solicitudes XMPP, pero si está inactivo, no será necesario agregar un nuevo registro SRV para recobrar la funcionalidad de federación de XMPP.
+    > <span data-ttu-id="9f9f8-149">Si tiene grupos de bordes en varios sitios, le recomendamos que agregue varios registros SRV para la Federación XMPP.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-149">If you have Edge pools in multiple sites, we recommend that you add multiple SRV records for XMPP federation.</span></span> <span data-ttu-id="9f9f8-150">Agregue un registro SRV para cada grupo perimetral de su organización y asigne una prioridad diferente a cada uno de los registros SRV.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-150">Add a SRV record for every Edge pool in your organization, and give each of those SRV records a different priority.</span></span> <span data-ttu-id="9f9f8-151">Cuando se ejecutan todos los grupos de bordes, las solicitudes XMPP se gestionarán en el grupo Edge con la primera prioridad, pero si ese grupo de Edge deja de funcionar, no tendrá que agregar un nuevo registro SRV para recuperar la funcionalidad de Federación de XMPP.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-151">When all Edge pools are running, XMPP requests will all be handled by the Edge pool with the first priority, but if that Edge pool goes down you won’t then have to add a new SRV record to regain XMPP federation functionality.</span></span>
+
+    
+    </div>
+
+24. <span data-ttu-id="9f9f8-152">Configure una nueva Directiva de acceso externo para habilitar a todos los usuarios abriendo el shell de administración de Lync Server en el front-end y escribiendo lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-152">Configure a new External Access Policy to enable all users by opening the Lync Server Management Shell on the Front End and typing:</span></span>
+    
+       ```
+        New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
+       ```
+    
+       ```
+        New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
+       ```
+    
+       ```
+        Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
+       ```
+    
+    <span data-ttu-id="9f9f8-153">Habilite el acceso XMPP para los usuarios externos escribiendo:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-153">Enable XMPP Access for External Users by typing:</span></span>
+    
+       ```
+        Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
+       ```
+    
+       ```
+        Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
+       ```
+
+25. <span data-ttu-id="9f9f8-154">En el servidor perimetral donde se implementa el proxy XMPP, abra un símbolo del sistema o una interfaz de línea de comandos de Windows PowerShell™ y escriba lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-154">On the Edge Server where the XMPP Proxy is deployed, open a Command Prompt or a Windows PowerShell™ command-line interface and type the following:</span></span>
+    
+       ```
+        Netstat -ano | findstr 5269
+       ```
+    
+       ```
+        Netstat -ano | findstr 23456
+       ```
+    
+    <span data-ttu-id="9f9f8-155">El comando **netstat – ano** es un comando de estadísticas de red, la solicitud de parámetros **– ano** que muestra que netstat muestra todas las conexiones y los puertos de escucha, la dirección y los puertos se muestran en un formato numérico, y que el identificador de proceso propietario está asociado con cada conexión.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-155">The command **netstat –ano** is a network statistics command, the parameters **–ano** request that netstat display all connections and listening ports, address and ports are displayed in a numerical form, and that the owning process ID is associated with each connection.</span></span> <span data-ttu-id="9f9f8-156">El carácter **|** define una canalización para el siguiente comando, **Findstr**o Find String.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-156">The character **|** defines a pipe to the next command, **findstr**, or find string.</span></span> <span data-ttu-id="9f9f8-157">El número 5269 y 23456 que se pasa a Findstr como parámetro indica a Findstr que busque en la salida de netstat las cadenas 5269 y 23456.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-157">The number 5269 and 23456 that is passed to findstr as a parameter instructs findstr to search the output of netstat for the strings 5269 and 23456.</span></span> <span data-ttu-id="9f9f8-158">Si XMPP está configurado correctamente, el resultado de los comandos debe dar como resultado conexiones y conexiones establecidas, tanto en la interfaz externa (puerto 5269) como en la interfaz interna (puerto 23456) del servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-158">If XMPP is correctly configured, the result of the commands should result in listening and established connections, both on the external (port 5269) and the internal (port 23456) interfaces of the Edge Server.</span></span>
+    
+    <span data-ttu-id="9f9f8-159">Si los comandos no devuelven puertos establecidos o que atienden en 5269 y 23456, compruebe lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-159">If the commands do not return established or listening ports on 5269 and 23456, check the following:</span></span>
+
+</div>
+
+<div>
+
+## <a name="troubleshooting-xmpp-federation"></a><span data-ttu-id="9f9f8-160">Solución de problemas de Federación de XMPP</span><span class="sxs-lookup"><span data-stu-id="9f9f8-160">Troubleshooting XMPP Federation</span></span>
+
+1.  <span data-ttu-id="9f9f8-161">Para determinar si el proxy XMPP se está ejecutando, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="9f9f8-161">To determine if the XMPP Proxy is running, do the following:</span></span>
+
+2.  <span data-ttu-id="9f9f8-162">Inicie sesión en el servidor perimetral que está ejecutando el servicio de proxy XMPP como miembro del grupo de administradores locales.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-162">Log on to the Edge server that is running the XMPP Proxy service as a member of the local administrator’s group.</span></span>
+
+3.  <span data-ttu-id="9f9f8-163">Haga clic en **Inicio**, en **todos los programas**, en **herramientas administrativas**y en **servicios** .</span><span class="sxs-lookup"><span data-stu-id="9f9f8-163">Click **Start**, click **All Programs**, click **Administrative Tools**, click **Services**</span></span>
+
+4.  <span data-ttu-id="9f9f8-164">En servicios, localice el proxy de puerta de enlace de Lync Server XMPP.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-164">In Services, locate Lync Server XMPP Translating Gateway Proxy.</span></span> <span data-ttu-id="9f9f8-165">El servicio debe estar en estado de **Inicio** .</span><span class="sxs-lookup"><span data-stu-id="9f9f8-165">The service should be in the **Started** state.</span></span> <span data-ttu-id="9f9f8-166">Si no se ha iniciado, haga clic en el icono **Inicio** de la barra de herramientas.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-166">If it is not started, click the **Start** icon in the toolbar.</span></span> <span data-ttu-id="9f9f8-167">El icono aparece como una flecha verde que señala hacia la derecha.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-167">The icon appears as a green, right-pointing arrow.</span></span>
+
+5.  <span data-ttu-id="9f9f8-168">Confirme que el servicio ha cambiado a **iniciado**.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-168">Confirm that the service has changed to **Started**.</span></span> <span data-ttu-id="9f9f8-169">Si se ha iniciado correctamente, cierra **servicios** y continúa.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-169">If it has successfully started, close **Services** and continue.</span></span>
+    
+    <span data-ttu-id="9f9f8-170">Si el servicio no se ha iniciado correctamente, en herramientas administrativas, abra visor de eventos y consulte los errores y advertencias en la parte de **Lync Server** en **registros de aplicaciones y servicios**.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-170">If ther service has not successfully started, from Administrative Tools, open Event Viewer and refer to the errors and warnings in the **Lync Server** portion under **Applications and Services Logs**.</span></span>
+
+6.  <span data-ttu-id="9f9f8-171">Una vez que se esté ejecutando el servicio de **puerta de enlace de Lync Server XMPP** , vuelva a comprobar los comandos netstat usados previamente.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-171">Once the **Lync Server XMPP Translating Gateway** service is running, recheck the netstat commands used previously.</span></span> <span data-ttu-id="9f9f8-172">Si no ve las sesiones de establecimiento o escucha, compruebe y asegúrese de que la **ruta de Federación de XMPP** esté correctamente configurada en el generador de topología</span><span class="sxs-lookup"><span data-stu-id="9f9f8-172">If you are not seeing established or listening sessions, check and ensure that the **XMPP Federation Route** is correctly configured in Topology Builder</span></span>
+
+7.  <span data-ttu-id="9f9f8-173">Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-173">Log on to the computer where Topology Builder is installed as a member of the Domain Admins group and the RTCUniversalServerAdmins group.</span></span>
+
+8.  <span data-ttu-id="9f9f8-174">Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-174">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+9.  <span data-ttu-id="9f9f8-175">En el generador de topologías, seleccione el sitio de la ruta y revisión de la Federación XMPP para confirmar que la asignación de enrutamiento de la **Federación de sitios** para la **Federación XMPP** muestra el servidor perimetral o el grupo perimetral como la asignación de ruta de Federación XMPP seleccionada.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-175">In Topology Builder, select the site for the XMPP federation route and review to confirm that the **Site federation route assignment** for **XMPP federation** shows your Edge Server or Edge pool as the selected XMPP federation route assignment.</span></span>
+    
+    <span data-ttu-id="9f9f8-176">Si la asignación de ruta es incorrecta o no está configurada, haga clic con el botón secundario en el sitio y haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-176">If the route assignment is incorrect or is not set, right-click the site, click **Edit Properties**.</span></span> <span data-ttu-id="9f9f8-177">Seleccione la casilla Federación de XMPP y, a continuación, seleccione el servidor perimetral o el grupo de límites correctos.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-177">Select the XMPP federation check box and then select the correct Edge Server or Edge pool.</span></span>
+
+10. <span data-ttu-id="9f9f8-178">Publique la topología.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-178">Publish the topology.</span></span> <span data-ttu-id="9f9f8-179">Para obtener más información, vea [publicar una topología en Lync Server 2013](lync-server-2013-publish-your-topology.md)</span><span class="sxs-lookup"><span data-stu-id="9f9f8-179">For details, see [Publish your topology in Lync Server 2013](lync-server-2013-publish-your-topology.md)</span></span>
+    
+    <div class=" ">
     
 
-
-24. Configurar una nueva directiva de acceso externo para habilitar a todos los usuarios abriendo la Consola de administración de Lync Server en el servidor front-end y escriba:
-    
-    ```
-    New-CsExternalAccessPolicy -Identity <name of policy to create.  If site scope, prepend with 'site:'> -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    ```
-    ```
-    New-CsExternalAccessPolicy -Identity FedPic -EnableFederationAcces $true -EnablePublicCloudAccess $true
-    ```
-    ```
-    Get-CsUser | Grant-CsExternalAccessPolicy -PolicyName FedPic
-    ```
-
-    Habilite el acceso de XMPP para usuarios externos escribiendo:
-    
-    ```
-    Set-CsExternalAccessPolicy -Identity <name of the policy being used> EnableXmppAccess $true
-    ```
-    ```
-    Set-CsExternalAccessPolicy -Identity FedPic -EnableXmppAccess $true
-    ```
-
-25. En el Servidor perimetral en el que se haya implementado el proxy XMPP, abra un símbolo del sistema o una Interfaz de línea de comandos de Windows PowerShell™ y escriba lo siguiente:
-    
-    ```
-    Netstat -ano | findstr 5269
-    ```
-    ```
-    Netstat -ano | findstr 23456
-    ```
-    
-    El comando **netstat –ano** es un comando de estadísticas de red; los parámetros **–ano** solicitan que netstat muestre todas las conexiones y puertos de escucha (las direcciones y puertos se muestran en un formato numérico) y el identificador del proceso asociado a cada conexión. El carácter **|** define la canalización al siguiente comando, **findstr** (o cadena de búsqueda). Los números 5269 y 23456 que se pasan a findstr como parámetro indican a findstr que busque en el resultado de netstat las cadenas 5269 y 23456. Si XMPP está bien configurado, el resultado de los comandos debería reflejar las escuchas y las conexiones establecidas tanto en la interfaz externa (puerto 5269) como en la interfaz interna (puerto 23456) del Servidor perimetral.
-    
-    Si los comandos no devuelven unos puertos establecidos y de escucha en 5269 y 23456, compruebe lo siguiente:
-
-## Solucionar problemas de la federación XMPP
-
-1.  Haga lo siguiente para saber si el proxy XMPP se está ejecutando:
-
-2.  Inicie sesión en el servidor perimetral que ejecuta el servicio de proxy XMPP como miembro del grupo del administrador local.
-
-3.  Haga clic sucesivamente en **Inicio**, **Todos los programas**, **Herramientas administrativas** y **Servicios**.
-
-4.  En Servicios, busque el proxy de puerta de enlace de traducción de XMPP de Lync Server. Este servicio debe estar en estado **Iniciado** ; si no lo está, haga clic en el icono **Iniciar** de la barra de herramientas. El icono se mostrará como una flecha verde que apunta hacia la derecha.
-
-5.  Confirme que el servicio ha cambiado a **Iniciado** . Si así es, cierre **Servicios** y prosiga.
-    
-    Si el servicio no se ha iniciado, abra el Visor de eventos desde Herramientas administrativas y consulte los errores y advertencias en la sección **Lync Server** de **Registros de aplicaciones y servicios** .
-
-6.  Cuando el servicio **Puerta de enlace de traducción de XMPP de Lync Server** se esté ejecutando, vuelva a comprobar los comandos netstat que empleamos anteriormente. Si no ve que se establezcan o escuchen sesiones, compruebe y asegúrese de que la opción **Ruta de federación XMPP** está correctamente configurada en el Generador de topologías.
-
-7.  Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
-
-8.  Inicie el Generador de topologías: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Generador de topologías de Lync Server**.
-
-9.  En el Generador de topologías, seleccione el sitio de la ruta de federación XMPP y revise para confirmar que la opción **Asignación de ruta de federación del sitio** en **Federación XMPP** refleja su Servidor perimetral o Grupo de servidores perimetrales como la asignación de ruta de federación XMPP seleccionada.
-    
-    Si la asignación de ruta es incorrecta o no se ha establecido, haga clic con el botón secundario en el sitio y haga clic en **Editar propiedades** . Active la casilla de federación XMPP y, después, seleccione el Servidor perimetral o Grupo de servidores perimetrales adecuado.
-
-10. Publique la topología. Para obtener información detallada, consulte [Publicar una topología en Lync Server 2013](lync-server-2013-publish-your-topology.md)
-    
     > [!TIP]  
-    > Aunque no suele ser necesario, puede que deba reiniciar los Servidores perimetrales.
+    > <span data-ttu-id="9f9f8-180">Aunque no es obligatorio y generalmente no es necesario, es posible que tenga que reiniciar los servidores perimetrales</span><span class="sxs-lookup"><span data-stu-id="9f9f8-180">Though not required and typically not necessary, you may find that you will need to restart the Edge Servers</span></span>
+
     
+    </div>
+
+11. <span data-ttu-id="9f9f8-181">Con el proceso de netstat usado anteriormente, confirme que el servidor perimetral está escuchando o ha establecido sesiones en el puerto 5269 y en el puerto 23456.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-181">Using the netstat process used previously, confirm that the Edge Server is now listening or has established sessions on port 5269 and port 23456.</span></span>
+
+12. <span data-ttu-id="9f9f8-182">Si sigue sin ver las sesiones esperadas, compruebe en el visor de eventos si se producen posibles causas de contribución por el problema de comunicación.</span><span class="sxs-lookup"><span data-stu-id="9f9f8-182">If you still are not seeing the expected sessions, check the Event Viewer for possible contributing causes for the communication problem.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="9f9f8-183">Vea también</span><span class="sxs-lookup"><span data-stu-id="9f9f8-183">See Also</span></span>
 
 
-11. Con el proceso netstat, confirme que el Servidor perimetral escucha o establece sesiones en los puertos 5269 y 23456.
+[<span data-ttu-id="9f9f8-184">Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk</span><span class="sxs-lookup"><span data-stu-id="9f9f8-184">Example XMPP configuration in Lync Server 2013 – XMPP federation with Google Talk</span></span>](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-12. Si sigue sin ver las sesiones que espera, consulte el Visor de eventos para ver las causas que pueden intervenir en el problema de comunicación.
 
-## Vea también
+[<span data-ttu-id="9f9f8-185">Administrar socios federados XMPP para su organización en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9f9f8-185">Manage XMPP federated partners in Lync Server 2013</span></span>](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)  
+  
 
-#### Tareas
+</div>
 
-[Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
+</div>
 
-#### Otros recursos
+<span> </span>
 
-[Administrar socios federados XMPP para su organización en Lync Server 2013](lync-server-2013-manage-xmpp-federated-partners-for-your-organization.md)
+</div>
+
+</div>
+
+</div>
 

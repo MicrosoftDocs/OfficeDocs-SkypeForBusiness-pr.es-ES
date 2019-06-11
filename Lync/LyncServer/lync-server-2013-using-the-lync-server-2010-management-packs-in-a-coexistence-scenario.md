@@ -1,93 +1,135 @@
-﻿---
-title: "Usar paquetes de administración de Lync Server 2010 en un escenario de coexistencia"
-TOCTitle: "Ut. des packs d’admin. de Lync Server 2010 dans un scénario de coexistence"
-ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205078(v=OCS.15)
-ms:contentKeyID: 48275946
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Usar los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Using the Lync Server 2010 management packs in a coexistence scenario
+ms:assetid: 8b792503-bd88-47fe-9d97-b071e8d429a5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205078(v=OCS.15)
+ms:contentKeyID: 48184772
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 159aaa55e61068356701abaed3c0a67a60265c75
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850172"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Uso de los paquetes de administración de Lync Server 2010 en un escenario de coexistencia
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-22_
+# <a name="using-the-lync-server-2010-management-packs-in-a-coexistence-scenario"></a><span data-ttu-id="9d247-102">Usar los paquetes de administración de Lync Server 2010 en un escenario de coexistencia</span><span class="sxs-lookup"><span data-stu-id="9d247-102">Using the Lync Server 2010 management packs in a coexistence scenario</span></span>
 
-Muchos clientes adoptan un programa de implementación dentro de su empresa en el que los usuarios se migran de manera progresiva desde Microsoft Lync Server 2010 hasta Lync Server 2013. Los administradores de esas compañías se ocupan de supervisar las dos versiones de Lync Server para que la comunicación de sus usuarios finales sea lo mejor posible. Para ese escenario, el módulo de administración de Lync Server 2013 ofrece una ruta de migración en paralelo con el módulo de administración de Lync Server 2010.
+</div>
 
-En Lync Server 2010, se detectaron equipos de Lync Server en el documento de topología guardado con el Almacén de administración central. En esta configuración, un solo equipo informaría de la existencia de todos los demás equipos de Lync Server.
+<div id="mainSection">
 
-Ahora, los módulos de administración de Lync Server 2013 utilizan detección en el nivel de máquina, en lugar del mecanismo de detección central que se empleaba en Lync Server 2010. Por ello, cada agente de System Center, básicamente, se detecta a sí mismo e informa de su existencia a System Center Operations Manager. El uso de la detección en el nivel de máquina simplifica la administración de su infraestructura de System Center y, además, permite que convivan con más facilidad diferentes versiones de los módulos de administración de Lync Server (por ejemplo, los módulos de administración de Lync Server 2010 y los de Lync Server 2013).
+<div id="mainBody">
 
-Para esta migración, primero tiene que actualizar la supervisión de Lync Server 2010 existente, de modo que no haya lagunas en la cobertura. Para ello, elija un equipo de Lync Server 2010 existente, que revisará el script de detección central de Lync Server 2010 antes de actualizar el Almacén de administración central a Lync Server 2013. Este proceso tiene cuatro pasos:
+<span> </span>
 
-1.  Actualice los módulos de administración de Lync Server 2010 a la actualización acumulativa 7.
+<span data-ttu-id="9d247-103">_**Última modificación del tema:** 2012-10-22_</span><span class="sxs-lookup"><span data-stu-id="9d247-103">_**Topic Last Modified:** 2012-10-22_</span></span>
 
-2.  Ordene a un equipo de Lync Server 2010 que ejecute el script de detección central.
+<span data-ttu-id="9d247-104">Muchos clientes adoptan un programa de implementación dentro de sus empresas en el que los usuarios se migran progresivamente desde Microsoft Lync Server 2010 a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9d247-104">Many customers adopt a rollout program inside of their enterprises in which users are progressively migrated from Microsoft Lync Server 2010 to Lync Server 2013.</span></span> <span data-ttu-id="9d247-105">Los administradores de estas empresas se interesan en la supervisión de ambas versiones de Lync Server para garantizar que todos los usuarios finales obtengan la mejor experiencia de comunicación posible.</span><span class="sxs-lookup"><span data-stu-id="9d247-105">The administrators at these companies will care about monitoring both versions of Lync Server to help ensure that all of their end users are getting the best possible communication experience.</span></span> <span data-ttu-id="9d247-106">Para este escenario, el paquete de administración de Lync Server 2013 admite una ruta de migración en paralelo con el módulo de administración de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-106">For this scenario, the Lync Server 2013 Management Pack supports a side-by-side migration path with the Lync Server 2010 Management Pack.</span></span>
 
-3.  Invalide el candidato de detección central del módulo de administración de Microsoft Lync Server 2010.
+<span data-ttu-id="9d247-107">En Lync Server 2010, los equipos de Lync Server se detectaron a través del documento de topología almacenado con el almacén central de administración.</span><span class="sxs-lookup"><span data-stu-id="9d247-107">In the Lync Server 2010, Lync Server computers were discovered through the topology document stored with the Central Management store.</span></span> <span data-ttu-id="9d247-108">En esta configuración, un único equipo notificaría la existencia de todos los demás equipos de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="9d247-108">In this configuration, a single computer would report the existence of all the other Lync Server computers.</span></span>
 
-4.  Compruebe que se ha detectado el nuevo candidato de detección central.
+<span data-ttu-id="9d247-109">Los módulos de administración para Lync Server 2013 ahora usan la detección a nivel de equipo en lugar del mecanismo de detección central que se usó en Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-109">The management packs for Lync Server 2013 now use machine-level discovery instead of the central discovery mechanism that was used in Lync Server 2010.</span></span> <span data-ttu-id="9d247-110">Esto significa que cada agente de System Center se descubre por sí mismo e informa de su existencia en System Center Operations Manager.</span><span class="sxs-lookup"><span data-stu-id="9d247-110">This means that each System Center agent essentially discovers itself and reports its existence to System Center Operations Manager.</span></span> <span data-ttu-id="9d247-111">El uso de detección en el nivel de equipo simplifica la administración de la infraestructura de System Center y también permite diferentes versiones de los paquetes de administración de Lync Server (por ejemplo, módulos de administración para Lync Server 2010 y paquetes de administración para Lync Server 2013) coexistir más fácilmente.</span><span class="sxs-lookup"><span data-stu-id="9d247-111">Using machine-level discovery simplifies administration of your System Center infrastructure and also enables different versions of the Lync Server management packs (for example, management packs for Lync Server 2010 and management packs for Lync Server 2013) to coexist more easily.</span></span>
 
-## Ordenar a un equipo de Lync Server 2010 que ejecute el script de detección central
+<span data-ttu-id="9d247-112">Para admitir esta migración, primero deberá actualizar la supervisión de Lync Server 2010 existente para evitar lagunas en la cobertura.</span><span class="sxs-lookup"><span data-stu-id="9d247-112">To support this migration, you will first need to upgrade your existing Lync Server 2010 monitoring to avoid gaps in coverage.</span></span> <span data-ttu-id="9d247-113">Para ello, elija un equipo de Lync Server 2010 existente para que sea servicio del script de detección central de Lync Server 2010 antes de actualizar su almacén de administración central a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="9d247-113">To do this, elect an existing Lync Server 2010 computer to service the Central Discovery script for the Lync Server 2010 before upgrading your Central Management store to Lync Server 2013.</span></span> <span data-ttu-id="9d247-114">Este es un proceso de cuatro pasos:</span><span class="sxs-lookup"><span data-stu-id="9d247-114">This is a four-step process:</span></span>
 
-Para designar un equipo ajeno al Almacén de administración central (por ejemplo, un servidor front-end de Lync Server) para que se ocupe de la detección central, deberá crear la siguiente clave del Registro en el servidor ajeno al Almacén de administración central:
+1.  <span data-ttu-id="9d247-115">Actualice los paquetes de administración de Lync Server 2010 a la actualización acumulativa 7.</span><span class="sxs-lookup"><span data-stu-id="9d247-115">Upgrade the Lync Server 2010 Management Packs to Cumulative Update 7.</span></span>
 
-HKLM\\Software\\Microsoft\\Real-Time Communications\\Health\\CentralDiscoveryCandidate
+2.  <span data-ttu-id="9d247-116">Indique a un equipo de Lync Server 2010 que ejecute el script de detección central.</span><span class="sxs-lookup"><span data-stu-id="9d247-116">Instruct a Lync Server 2010 computer to run the Central Discovery script.</span></span>
 
-Puede crear esta clave del Registro llevando a cabo el siguiente procedimiento:
+3.  <span data-ttu-id="9d247-117">Invalide el candidato de detección central en el módulo de administración de Microsoft Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-117">Override the Central Discovery Candidate in the Microsoft Lync Server 2010 Management Pack.</span></span>
 
-1.  Haga clic en **Inicio** y, a continuación, en **Ejecutar**.
+4.  <span data-ttu-id="9d247-118">Compruebe que se ha descubierto el nuevo candidato de detección central.</span><span class="sxs-lookup"><span data-stu-id="9d247-118">Verify that the new Central Discovery Candidate has been discovered.</span></span>
 
-2.  En el cuadro de diálogo **Ejecutar**, escriba **regedit** y, a continuación, presione ENTRAR.
+<div>
 
-3.  En el Editor del Registro, expanda **HKEY\_LOCAL\_MACHINE**, expanda **SOFTWARE**, expanda **Microsoft** y, a continuación, expanda **Real-Time Communications**.
+## <a name="instructing-a-lync-server-2010-computer-to-run-the-central-discovery-script"></a><span data-ttu-id="9d247-119">Instrucciones para que un equipo de Lync Server 2010 ejecute el script de detección central</span><span class="sxs-lookup"><span data-stu-id="9d247-119">Instructing a Lync Server 2010 Computer to Run the Central Discovery script</span></span>
 
-4.  Haga clic con el botón secundario en **Health**, haga clic en **Nuevo** y, después, haga clic en **Clave**. Si no existe la clave **Health**, haga clic con el botón secundario en **Real-Time Communications**, elija **Nuevo** y, luego, haga clic en **Clave**. Cuando se haya creado la nueva clave, escriba Health y presione ENTRAR.
+<span data-ttu-id="9d247-120">Para designar un equipo de almacenamiento de administración no central (por ejemplo, un servidor front-end de Lync Server) para controlar la detección centralizada, tendrá que crear la siguiente clave de registro en el servidor de almacenamiento de administración no central:</span><span class="sxs-lookup"><span data-stu-id="9d247-120">To nominate a non-Central Management store computer (for example, a Lync Server Front End) server to handle central discovery, you will need to create the following registry key on the non-Central Management store server:</span></span>
+
+<span data-ttu-id="9d247-121">Software\\\\HKLM CentralDiscoveryCandidate\\de salud\\de las\\comunicaciones en tiempo real de Microsoft</span><span class="sxs-lookup"><span data-stu-id="9d247-121">HKLM\\Software\\Microsoft\\Real-Time Communications\\Health\\CentralDiscoveryCandidate</span></span>
+
+<span data-ttu-id="9d247-122">Puede crear esta clave del registro completando el procedimiento siguiente:</span><span class="sxs-lookup"><span data-stu-id="9d247-122">You can create this registry key by completing the following procedure:</span></span>
+
+1.  <span data-ttu-id="9d247-123">Haga clic en **Inicio** y, después, en **Ejecutar**.</span><span class="sxs-lookup"><span data-stu-id="9d247-123">Click **Start** and then click **Run**.</span></span>
+
+2.  <span data-ttu-id="9d247-124">En el cuadro de diálogo **Ejecutar** , \*\*\*\* escriba regedit y, a continuación, presione Entrar.</span><span class="sxs-lookup"><span data-stu-id="9d247-124">In the **Run** dialog box, type **regedit** and then press ENTER.</span></span>
+
+3.  <span data-ttu-id="9d247-125">En el editor del registro, expanda el **\_equipo local\_HKEY**, expanda **software**, expanda **Microsoft**y, a continuación, expanda **comunicaciones en tiempo real**.</span><span class="sxs-lookup"><span data-stu-id="9d247-125">In Registry Editor, expand **HKEY\_LOCAL\_MACHINE**, expand **SOFTWARE**, expand **Microsoft**, and then expand **Real-Time Communications**.</span></span>
+
+4.  <span data-ttu-id="9d247-126">Haga clic con el botón derecho en **mantenimiento**, seleccione **nuevo**y, a continuación, haga clic en **clave**.</span><span class="sxs-lookup"><span data-stu-id="9d247-126">Right-click **Health**, click **New**, and then click **Key**.</span></span> <span data-ttu-id="9d247-127">Si la clave de **Estado** no existe, haga clic con el botón secundario en **comunicaciones en tiempo real**, seleccione **nuevo**y, a continuación, haga clic en **clave**.</span><span class="sxs-lookup"><span data-stu-id="9d247-127">If the **Health** key does not exist, then right-click **Real-Time Communications**, point to **New**, and then click **Key**.</span></span> <span data-ttu-id="9d247-128">Cuando se cree la nueva clave, escriba Health y, a continuación, presione Entrar.</span><span class="sxs-lookup"><span data-stu-id="9d247-128">When the new key is created, type Health, and then press ENTER.</span></span>
     
-    Después de que se haya creado la nueva clave, escriba **CentralDiscoveryCandidate** y presione ENTRAR para cambiar el nombre de la clave.
+    <span data-ttu-id="9d247-129">Una vez creada la nueva clave, escriba **CentralDiscoveryCandidate** y, a continuación, presione Entrar para cambiar el nombre de la clave.</span><span class="sxs-lookup"><span data-stu-id="9d247-129">After the new key has been created, type **CentralDiscoveryCandidate** and then press ENTER to rename the key.</span></span>
 
-El equipo puede tardar varias horas en adoptar este cambio. Para que el cambio se aplique de inmediato, detenga el servicio Agente de mantenimiento y reinícielo. Para reiniciar el servicio Agente de mantenimiento, lleve a cabo el siguiente procedimiento en el equipo de Lync Server 2010:
+<span data-ttu-id="9d247-130">Es posible que tarde el equipo varias horas en detectar este cambio.</span><span class="sxs-lookup"><span data-stu-id="9d247-130">It may take the computer several hours to pick up this change.</span></span> <span data-ttu-id="9d247-131">Para que el cambio surta efecto inmediatamente, detenga y reinicie el servicio de agente de estado.</span><span class="sxs-lookup"><span data-stu-id="9d247-131">To make the change take effect immediately, stop and then restart the Health Agent service.</span></span> <span data-ttu-id="9d247-132">Para reiniciar el servicio agente de estado, complete el procedimiento siguiente en el equipo con Lync Server 2010:</span><span class="sxs-lookup"><span data-stu-id="9d247-132">To restart the Health Agent service, complete the following procedure on the Lync Server 2010 computer:</span></span>
 
-1.  Haga clic en **Inicio**, **Todos los programas**, **Accesorios**, haga clic con el botón secundario en **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
+1.  <span data-ttu-id="9d247-133">Haga clic en **Inicio**, seleccione **todos los programas**, **accesorios**, haga clic con el botón derecho en **símbolo del sistema**y, a continuación, haga clic en **Ejecutar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="9d247-133">Click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
 
-2.  En la ventana de la consola, escriba el siguiente comando y presione ENTRAR:
+2.  <span data-ttu-id="9d247-134">En la ventana de consola, escriba el siguiente comando y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="9d247-134">In the console window, type the following command and then press ENTER:</span></span>
     
         Net stop HealthService
 
-3.  Verá el siguiente mensaje: "El servicio de administración de System Center se está deteniendo", seguido de un segundo mensaje para informarle de que el servicio se ha detenido. Después de que el servicio se haya detenido, puede reiniciarlo escribiendo el siguiente comando y presionando ENTRAR:
+3.  <span data-ttu-id="9d247-135">Verá un mensaje que indica "el servicio de administración de System Center se está deteniendo" seguido de un segundo mensaje que le indica que el servicio se ha detenido.</span><span class="sxs-lookup"><span data-stu-id="9d247-135">You will see a message that states "The System Center Management service is stopping," followed by a second message that tells you that the service has been stopped.</span></span> <span data-ttu-id="9d247-136">Una vez que el servicio se haya detenido, puede reiniciarlo escribiendo el siguiente comando y presionando entrar:</span><span class="sxs-lookup"><span data-stu-id="9d247-136">After the service has stopped, you can restart it by typing the following command and pressing ENTER:</span></span>
     
         Net start HealthService
 
-## Invalidación del candidato de detección central del módulo de administración de Lync Server 2010
+</div>
 
-Después de ordenar a un equipo de Lync Server 2010 que informe de los equipos de Lync Server 2010, deberá informar también al módulo de administración de Lync Server 2010 acerca de este cambio. Para ello, tendrá que crear una invalidación en el módulo de administración. Se puede hacer siguiendo este procedimiento:
+<div>
 
-1.  En la consola de Operations Manager, haga clic en **Creación**.
+## <a name="overriding-the-central-discovery-candidate-in-the-lync-server-2010-management-pack"></a><span data-ttu-id="9d247-137">Reemplazar el candidato de detección central en el módulo de administración de Lync Server 2010</span><span class="sxs-lookup"><span data-stu-id="9d247-137">Overriding the Central Discovery Candidate in the Lync Server 2010 Management Pack</span></span>
 
-2.  En la pestaña Creación, expanda **Objetos del módulo de administración**, haga clic en **Detecciones de objetos** y, después, haga clic en **Ámbito**.
+<span data-ttu-id="9d247-138">Después de indicar a un equipo de Lync Server 2010 que informe sobre los equipos de Lync Server 2010, tendrá que informar también al módulo de administración de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-138">After instructing a Lync Server 2010 computer to report on Lync Server 2010 computers, you will need to inform the Lync Server 2010 Management Pack about this change as well.</span></span> <span data-ttu-id="9d247-139">Para ello, tendrá que crear un reemplazo en el módulo de administración.</span><span class="sxs-lookup"><span data-stu-id="9d247-139">To do this, you will need to create an override in the Management Pack.</span></span> <span data-ttu-id="9d247-140">Esto se puede realizar mediante el siguiente procedimiento:</span><span class="sxs-lookup"><span data-stu-id="9d247-140">That can be done by completing the following procedure:</span></span>
 
-3.  En el cuadro de diálogo **Objetos de módulo de administración de ámbito**, seleccione el elemento que tenga el **candidato de detección de LS** de destino y, a continuación, haga clic en **Aceptar**. Tenga en cuenta que el candidato de detección de LS aparecerá solamente si ha instalado el módulo de administración de Lync Server 2010.
+1.  <span data-ttu-id="9d247-141">En la consola de Operations Manager, haga clic en **creación**.</span><span class="sxs-lookup"><span data-stu-id="9d247-141">In the Operations Manager console, click **Authoring**.</span></span>
 
-4.  En la consola de Operations Manager, haga clic con el botón secundario en **Candidato de detección de LS**, elija **Invalidaciones**, elija **Invalidar la detección de objetos** y, luego, haga clic en **Para todos los objetos de la clase: candidato de detección de LS**.
+2.  <span data-ttu-id="9d247-142">En la pestaña creación, expanda **objetos del módulo de administración**, haga clic en descubrimientos de **objetos**y, a continuación, haga clic en **ámbito**.</span><span class="sxs-lookup"><span data-stu-id="9d247-142">On the Authoring tab, expand **Management Pack Objects**, click **Object Discoveries**, and then click **Scope**.</span></span>
 
-5.  En el cuadro de diálogo **Propiedades de invalidación**, active la casilla **Invalidar** que hay junto al parámetro **Fqdn de WatcherNode de detección central**. Escriba el nombre de dominio completo del equipo de Lync Server 2010 en los cuadros **Invalidar valor** y **Valor efectivo**. Active la casilla **Aplicado** y haga clic en **Aceptar**.
+3.  <span data-ttu-id="9d247-143">En el cuadro de diálogo **objetos del módulo de administración del ámbito** , seleccione el elemento con el candidato de detección de **LS** de destino y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="9d247-143">In the **Scope Management Pack Objects** dialog box, select the item with the Target **LS Discovery Candidate** and then click **OK**.</span></span> <span data-ttu-id="9d247-144">Tenga en cuenta que el candidato de detección de LS solo aparecerá si ha instalado el módulo de administración de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-144">Note that LS Discovery Candidate will appear only if you have installed the Lync Server 2010 Management Pack.</span></span>
 
-Una vez haya creado la invalidación, debe reiniciar el servicio de mantenimiento del Servidor de administración raíz. Para reiniciar el servicio de mantenimiento, lleve a cabo el siguiente procedimiento en el Servidor de administración raíz:
+4.  <span data-ttu-id="9d247-145">En la consola de Operations Manager, haga clic con el botón secundario del \*\*\*\* mouse en la **detección de LS**, seleccione reemplazos, seleccione **invalidar la detección de objetos**y, a continuación, haga clic en **para todos los objetos de clase: candidato de detección de LS**.</span><span class="sxs-lookup"><span data-stu-id="9d247-145">In the Operations Manager console, right-click **LS Discovery Candidate**, point to **Overrides**, point to **Override the Object Discovery**, and then click **For all objects of class: LS Discovery Candidate**.</span></span>
 
-1.  Haga clic en **Inicio**, **Todos los programas**, **Accesorios**, haga clic con el botón secundario en **Símbolo del sistema** y haga clic en **Ejecutar como administrador**.
+5.  <span data-ttu-id="9d247-146">En el cuadro de diálogo **reemplazar propiedades** , seleccione \*\*\*\* la casilla invalidar situada junto al parámetro de **descubrimiento central WatcherNode FQDN**.</span><span class="sxs-lookup"><span data-stu-id="9d247-146">In the **Override Properties** dialog box, select the **Override** check box next to the parameter **Central Discovery WatcherNode Fqdn**.</span></span> <span data-ttu-id="9d247-147">Escriba el nombre de dominio completo del equipo de Lync Server 2010 en los cuadros **valor de reemplazo** y **valor efectivo** .</span><span class="sxs-lookup"><span data-stu-id="9d247-147">Type the fully qualified domain name of the Lync Server 2010 computer in the **Override Value** and **Effective Value** boxes.</span></span> <span data-ttu-id="9d247-148">Seleccione la \*\*\*\* casilla exigido y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="9d247-148">Select the **Enforced** check box and click **OK**.</span></span>
 
-2.  En la ventana de la consola, escriba el siguiente comando y presione ENTRAR:
+<span data-ttu-id="9d247-149">Una vez que haya creado el reemplazo, debe reiniciar el servicio de mantenimiento en el servidor de administración raíz.</span><span class="sxs-lookup"><span data-stu-id="9d247-149">After you have created the override, you need to restart the health service on the Root Management Server.</span></span> <span data-ttu-id="9d247-150">Para reiniciar el servicio de mantenimiento, complete el procedimiento siguiente en el servidor de administración raíz:</span><span class="sxs-lookup"><span data-stu-id="9d247-150">To restart the health service, complete the following procedure on the Root Management Server:</span></span>
+
+1.  <span data-ttu-id="9d247-151">Haga clic en **Inicio**, seleccione **todos los programas**, **accesorios**, haga clic con el botón derecho en **símbolo del sistema**y, a continuación, haga clic en **Ejecutar como administrador**.</span><span class="sxs-lookup"><span data-stu-id="9d247-151">Click **Start**, click **All Programs**, click **Accessories**, right-click **Command Prompt**, and then click **Run as administrator**.</span></span>
+
+2.  <span data-ttu-id="9d247-152">En la ventana de consola, escriba el siguiente comando y, a continuación, presione ENTRAR:</span><span class="sxs-lookup"><span data-stu-id="9d247-152">In the console window, type the following command, and then press ENTER:</span></span>
     
         Net stop HealthService
 
-3.  Verá el siguiente mensaje: "El servicio de administración de System Center se está deteniendo", seguido de un segundo mensaje para informarle de que el servicio se ha detenido. Después de que el servicio se haya detenido, puede reiniciarlo escribiendo el siguiente comando y presionando ENTRAR:
+3.  <span data-ttu-id="9d247-153">Verá un mensaje en el que se indica que "el servicio de administración de System Center se está deteniendo" seguido de un segundo mensaje que le indica que el servicio se ha detenido.</span><span class="sxs-lookup"><span data-stu-id="9d247-153">You will see a message stating that "The System Center Management service is stopping," followed by a second message that tells you that the service has been stopped.</span></span> <span data-ttu-id="9d247-154">Después de que el servicio se haya detenido, puede reiniciarlo escribiendo el siguiente comando y presionando entrar:</span><span class="sxs-lookup"><span data-stu-id="9d247-154">After the service has stopped, you can then restart it by typing the following command and pressing ENTER:</span></span>
     
         Net start HealthService
 
-## Comprobar que se detectó el nuevo candidato de detección central
+</div>
 
-El último paso antes de actualizar el Almacén de administración central es asegurarse de que el módulo de administración de Lync Server 2010 detectó el nuevo candidato de detección central. Para ello, abra la consola de Operations Manager y haga clic en Supervisión. En la pestaña Supervisión, expanda **Mantenimiento de Microsoft Lync Server 2010**, expanda **Detección de topologías** y, a continuación, haga clic en **Vista de estado de detección**. Compruebe que una fila de la pantalla tiene una **Ruta** con el nombre de dominio completo del candidato de detección central. También debe comprobar que el estado del equipo es **Correcto**.
+<div>
+
+## <a name="verifying-that-the-new-central-discovery-candidate-was-discovered"></a><span data-ttu-id="9d247-155">Comprobar que se detectó el nuevo candidato de detección central</span><span class="sxs-lookup"><span data-stu-id="9d247-155">Verifying that the New Central Discovery Candidate Was Discovered</span></span>
+
+<span data-ttu-id="9d247-156">El paso final antes de actualizar el almacén de administración central es asegurarse de que el nuevo candidato de detección central fue descubierto por el módulo de administración de Lync Server 2010.</span><span class="sxs-lookup"><span data-stu-id="9d247-156">The final step before upgrading Central Management store is to make sure that the new central discovery candidate was discovered by the Lync Server 2010 Management Pack.</span></span> <span data-ttu-id="9d247-157">Para ello, abra la consola de Operations Manager y, a continuación, haga clic en supervisión.</span><span class="sxs-lookup"><span data-stu-id="9d247-157">To do this, open the Operations Manager console and then click Monitoring.</span></span> <span data-ttu-id="9d247-158">En la pestaña supervisión, expanda **estado 2010 de Microsoft Lync Server**, expanda **descubrimiento de topología**y, a continuación, haga clic en **vista estado de detección**.</span><span class="sxs-lookup"><span data-stu-id="9d247-158">On the Monitoring tab, expand **Microsoft Lync Server 2010 Health**, expand **Topology Discovery**, and then click **Discovery State View**.</span></span> <span data-ttu-id="9d247-159">Compruebe que una fila de la pantalla tiene una **ruta de acceso** que indica el nombre de dominio completo del candidato de detección central.</span><span class="sxs-lookup"><span data-stu-id="9d247-159">Verify that a row in the display has a **Path** that lists the fully qualified domain name of the central discovery candidate.</span></span> <span data-ttu-id="9d247-160">También debe verificar que el estado del equipo sea **correcto**.</span><span class="sxs-lookup"><span data-stu-id="9d247-160">You should also verify that the computer state is reported as **Healthy**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

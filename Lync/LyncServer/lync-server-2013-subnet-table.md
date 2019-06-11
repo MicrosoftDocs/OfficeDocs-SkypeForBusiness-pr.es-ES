@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Tabla Subnet'
-TOCTitle: Tabla Subnet
-ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398582(v=OCS.15)
-ms:contentKeyID: 48275710
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Tabla Subnet'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Subnet table
+ms:assetid: 76f5c995-96c8-4aa3-bc30-1d74991d7c42
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398582(v=OCS.15)
+ms:contentKeyID: 48184544
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 20318d0ed2f487efccda81936b113044f75e2618
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850563"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Tabla Subnet en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="subnet-table-in-lync-server-2013"></a><span data-ttu-id="76b32-102">Tabla Subnet en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="76b32-102">Subnet table in Lync Server 2013</span></span>
 
-La tabla Subnet es una tabla de apoyo. Cada registro representa una subred definida en la configuración de red.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="76b32-103">_**Última modificación del tema:** 2012-10-02_</span><span class="sxs-lookup"><span data-stu-id="76b32-103">_**Topic Last Modified:** 2012-10-02_</span></span>
+
+<span data-ttu-id="76b32-104">La tabla de subred es una tabla de soporte técnico.</span><span class="sxs-lookup"><span data-stu-id="76b32-104">The Subnet table is a supporting table.</span></span> <span data-ttu-id="76b32-105">Cada registro representa una subred definida en la opción de configuración de red.</span><span class="sxs-lookup"><span data-stu-id="76b32-105">Each record represents one subnet defined in network configuration setting.</span></span>
 
 
 <table>
@@ -27,37 +47,48 @@ La tabla Subnet es una tabla de apoyo. Cada registro representa una subred defin
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Columna</strong></th>
-<th><strong>Tipo de datos</strong></th>
-<th><strong>Clave o índice</strong></th>
-<th><strong>Detalles</strong></th>
+<th><span data-ttu-id="76b32-106"><strong>Columna</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-106"><strong>Column</strong></span></span></th>
+<th><span data-ttu-id="76b32-107"><strong>Tipo de datos</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-107"><strong>Data Type</strong></span></span></th>
+<th><span data-ttu-id="76b32-108"><strong>Clave o índice</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-108"><strong>Key/Index</strong></span></span></th>
+<th><span data-ttu-id="76b32-109"><strong>Detalles</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-109"><strong>Details</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>SubnetIP</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Principal, Externa</p></td>
-<td><p>Representación en número entero de la IP de la subred.</p></td>
+<td><p><span data-ttu-id="76b32-110"><strong>SubnetIP</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-110"><strong>SubnetIP</strong></span></span></p></td>
+<td><p><span data-ttu-id="76b32-111">int</span><span class="sxs-lookup"><span data-stu-id="76b32-111">int</span></span></p></td>
+<td><p><span data-ttu-id="76b32-112">Principal, extranjero</span><span class="sxs-lookup"><span data-stu-id="76b32-112">Primary, Foreign</span></span></p></td>
+<td><p><span data-ttu-id="76b32-113">Representación de enteros de la IP de subred.</span><span class="sxs-lookup"><span data-stu-id="76b32-113">Integer representation for the subnet IP.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SubnetMask</strong></p></td>
-<td><p>Int</p></td>
-<td><p></p></td>
-<td><p>Máscara de la subred.</p></td>
+<td><p><span data-ttu-id="76b32-114"><strong>Máscaradesubred</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-114"><strong>SubnetMask</strong></span></span></p></td>
+<td><p><span data-ttu-id="76b32-115">int</span><span class="sxs-lookup"><span data-stu-id="76b32-115">int</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="76b32-116">Máscara de la subred.</span><span class="sxs-lookup"><span data-stu-id="76b32-116">Subnet mask.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>UserSiteKey</strong></p></td>
-<td><p>Int</p></td>
-<td><p>Externa</p></td>
-<td><p>Se obtiene de <a href="lync-server-2013-usersite-table.md">Tabla UserSite en Lync Server 2013</a>.</p></td>
+<td><p><span data-ttu-id="76b32-117"><strong>UserSiteKey</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-117"><strong>UserSiteKey</strong></span></span></p></td>
+<td><p><span data-ttu-id="76b32-118">int</span><span class="sxs-lookup"><span data-stu-id="76b32-118">int</span></span></p></td>
+<td><p><span data-ttu-id="76b32-119">Extranjero</span><span class="sxs-lookup"><span data-stu-id="76b32-119">Foreign</span></span></p></td>
+<td><p><span data-ttu-id="76b32-120">Se hace referencia a ellos desde la <a href="lync-server-2013-usersite-table.md">tabla UserSite en Lync Server 2013</a>.</span><span class="sxs-lookup"><span data-stu-id="76b32-120">Referenced from the <a href="lync-server-2013-usersite-table.md">UserSite table in Lync Server 2013</a>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>SubnetDescription</strong></p></td>
-<td><p>nvarchar(512)</p></td>
-<td><p></p></td>
-<td><p>Descripción de la subred.</p></td>
+<td><p><span data-ttu-id="76b32-121"><strong>SubnetDescription</strong></span><span class="sxs-lookup"><span data-stu-id="76b32-121"><strong>SubnetDescription</strong></span></span></p></td>
+<td><p><span data-ttu-id="76b32-122">nvarchar (512)</span><span class="sxs-lookup"><span data-stu-id="76b32-122">nvarchar(512)</span></span></p></td>
+<td></td>
+<td><p><span data-ttu-id="76b32-123">La descripción de la subred.</span><span class="sxs-lookup"><span data-stu-id="76b32-123">The description for the subnet.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

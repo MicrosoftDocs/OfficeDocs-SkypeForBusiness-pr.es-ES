@@ -1,41 +1,79 @@
-﻿---
-title: Quitar la base de datos SQL Server en un servidor de supervisión
-TOCTitle: Quitar la base de datos SQL Server en un servidor de supervisión
-ms:assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721848(v=OCS.15)
-ms:contentKeyID: 49889534
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Quitar la base de datos de SQL Server de un servidor de supervisión
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Remove the SQL Server database for a Monitoring server
+ms:assetid: aed5e394-d63e-4ad4-af40-f12d3a044344
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721848(v=OCS.15)
+ms:contentKeyID: 49733781
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fdb2888a6c3dc7cc5dd4e3b77b70310a405f607d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849856"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Quitar la base de datos SQL Server en un servidor de supervisión
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-04_
+# <a name="remove-the-sql-server-database-for-a-monitoring-server"></a><span data-ttu-id="276ab-102">Quitar la base de datos de SQL Server de un servidor de supervisión</span><span class="sxs-lookup"><span data-stu-id="276ab-102">Remove the SQL Server database for a Monitoring server</span></span>
 
-Tras quitar un Microsoft Lync Server 2010 de Servidor de supervisión, podrá quitar las bases de datos de SQL Server donde se hospedaban los datos del servidor. Use los siguientes procedimientos para quitar las definiciones del Generador de topologías, y luego quite los archivos de bases de datos y de registro del servidor de base de datos.
+</div>
 
-## Para quitar la base de datos de SQL Server con el Generador de topologías
+<div id="mainSection">
 
-1.  En el servidor front-end Lync Server 2013, abra el Generador de topologías.
+<div id="mainBody">
 
-2.  En el Generador de topologías, navegue hasta **Shared Components** y luego hasta **SQL Server Stores** , haga clic con el botón secundario en la instancia de SQL Server asociada al Servidor de supervisión quitado o reconfigurado, y haga clic en **Eliminar** .
+<span> </span>
 
-3.  Publique la topología y compruebe el estado de replicación.
+<span data-ttu-id="276ab-103">_**Última modificación del tema:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="276ab-103">_**Topic Last Modified:** 2012-10-04_</span></span>
 
-## Para quitar los archivos de bases de datos de SQL Server
+<span data-ttu-id="276ab-104">Después de quitar un servidor de supervisión de Microsoft Lync Server 2010, puede quitar las bases de datos de SQL Server que hospedaron los datos del servidor.</span><span class="sxs-lookup"><span data-stu-id="276ab-104">After you remove a Microsoft Lync Server 2010 Monitoring Server, you can remove the SQL Server databases that hosted the server data.</span></span> <span data-ttu-id="276ab-105">Use los procedimientos siguientes para quitar las definiciones del generador de topología y, a continuación, quite los archivos de base de datos y de registro del servidor de base de datos.</span><span class="sxs-lookup"><span data-stu-id="276ab-105">Use the following procedures to remove the definitions from Topology Builder, and then remove the database and log files from the database server.</span></span>
 
-1.  Para quitar las bases de datos del servidor basado en SQL Server, el usuario debe ser miembro del grupo sysadmins de SQL Server en el servidor SQL Server del que se quitarán los archivos de bases de datos.
+<div>
 
-2.  Abra Shell de administración de Lync Server.
+## <a name="to-remove-the-sql-server-database-using-topology-builder"></a><span data-ttu-id="276ab-106">Para quitar la base de datos de SQL Server con el generador de topologías</span><span class="sxs-lookup"><span data-stu-id="276ab-106">To remove the SQL Server database using Topology Builder</span></span>
 
-3.  En la línea de comandos, escriba:
+1.  <span data-ttu-id="276ab-107">En el servidor front-end de Lync Server 2013, abra Topology Builder.</span><span class="sxs-lookup"><span data-stu-id="276ab-107">On the Lync Server 2013 Front End Server, open Topology Builder.</span></span>
+
+2.  <span data-ttu-id="276ab-108">En el generador de topología, vaya a **componentes** compartidos y, a continuación, a **almacenes de SQL Server**, haga clic con el botón secundario en la instancia de SQL Server asociada al servidor de supervisión eliminado o reconfigurado y, a continuación, haga clic en **eliminar**.</span><span class="sxs-lookup"><span data-stu-id="276ab-108">In Topology Builder, navigate to **Shared Components** and then **SQL Server Stores**, right-click the SQL Server instance associated with the removed or reconfigured Monitoring Server, and then click **Delete**.</span></span>
+
+3.  <span data-ttu-id="276ab-109">Publique la topología y, a continuación, compruebe el estado de replicación.</span><span class="sxs-lookup"><span data-stu-id="276ab-109">Publish the topology, and then check replication status.</span></span>
+
+</div>
+
+<div>
+
+## <a name="to-remove-the-database-files-from-the-sql-server"></a><span data-ttu-id="276ab-110">Para quitar los archivos de base de datos de SQL Server</span><span class="sxs-lookup"><span data-stu-id="276ab-110">To remove the database files from the SQL Server</span></span>
+
+1.  <span data-ttu-id="276ab-111">Para quitar las bases de datos en el servidor basado en SQL Server, debe ser miembro del grupo de administradores de bases de datos de SQL Server para el servidor de SQL Server en el que va a quitar los archivos de base de datos.</span><span class="sxs-lookup"><span data-stu-id="276ab-111">To remove the databases on the SQL Server-based server, you must be a member of the SQL Server sysadmins group for the SQL Server server where you are removing the database files.</span></span>
+
+2.  <span data-ttu-id="276ab-112">Abra el shell de administración de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="276ab-112">Open the Lync Server Management Shell.</span></span>
+
+3.  <span data-ttu-id="276ab-113">En la línea de comandos, escriba:</span><span class="sxs-lookup"><span data-stu-id="276ab-113">At the command line, type the following:</span></span>
     
         Uninstall-CsDataBase -DatabaseType Monitoring -SqlServerFqdn <FQDN> [-SqlInstanceName <instance>]
     
-    Donde *\<FQDN\>* es el nombre de dominio completo (FQDN) del servidor de base de datos e *\<instance\>* es la instancia opcional de base de datos con nombre.
+    <span data-ttu-id="276ab-114">Donde \<FQDN\> es el nombre de dominio completo (FQDN) del servidor de base de datos \<e\> instancia es la instancia de base de datos con nombre opcional.</span><span class="sxs-lookup"><span data-stu-id="276ab-114">Where \<FQDN\> is the fully qualified domain name (FQDN) of the database server, and \<instance\> is the optional named database instance.</span></span>
 
-4.  Cuando el cmdlet **Uninstall-CsDataBase** le pida que confirme las acciones, lea la información y presione **Y** (o Entrar) para continuar, o bien presione **N** y luego Entrar si desea detener el cmdlet (es decir, en caso de errores).
+4.  <span data-ttu-id="276ab-115">Cuando el cmdlet **Uninstall-CsDataBase** le pida que confirme las acciones, lea la información y, a continuación, presione **s** (o presione Entrar) para continuar, o presione **N** y después entrar si quiere detener el cmdlet (es decir, en caso de que se produzcan errores).</span><span class="sxs-lookup"><span data-stu-id="276ab-115">When the **Uninstall-CsDataBase** cmdlet prompts you to confirm actions, read the information, and then press **Y** (or press Enter) to proceed, or press **N** and then Enter if you want to stop the cmdlet (that is, in case there errors).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

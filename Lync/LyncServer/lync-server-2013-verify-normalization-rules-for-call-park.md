@@ -1,30 +1,69 @@
-﻿---
-title: "Lync Server 2013: Comprobar reglas de normalización para estacionamiento de llamadas"
-TOCTitle: Comprobar las reglas de normalización para el estacionamiento de llamadas
-ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398981(v=OCS.15)
-ms:contentKeyID: 48276927
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: comprobar las reglas de normalización de la llamada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify normalization rules for Call Park
+ms:assetid: deaa170f-041e-45cb-8eab-f02931ab541e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398981(v=OCS.15)
+ms:contentKeyID: 48185646
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 114c7e035d96217f8cf41e88a87ccfd490fe5754
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850140"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobar las reglas de normalización para el estacionamiento de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-11_
+# <a name="verify-normalization-rules-for-call-park-in-lync-server-2013"></a><span data-ttu-id="32e5f-102">Comprobar reglas de normalización del parque de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32e5f-102">Verify normalization rules for Call Park in Lync Server 2013</span></span>
 
-Las órbitas de Estacionamiento de llamadas no deben normalizarse. Revise sus planes de marcado para comprobar que los números de órbita no estén normalizados. Si debe crear una regla de normalización adicional para evitar que las órbitas se normalicen, siga el procedimiento descrito en [Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir una regla de normalización nueva, como que el **Patrón con el que hacer coincidir** identifica el intervalo de órbita y el **Patrón de traducción** es **$1**. Por ejemplo, si su intervalo de órbitas de Estacionamiento de llamadas es 7000 – 7999, el **Patrón con el que hacer coincidir** es **^(7\\d{3})$** y el **Patrón de traducción** es **$1**.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="32e5f-103">_**Última modificación del tema:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="32e5f-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+
+<span data-ttu-id="32e5f-104">Las órbitas del parque de llamadas no deben normalizarse.</span><span class="sxs-lookup"><span data-stu-id="32e5f-104">Call Park orbits must not be normalized.</span></span> <span data-ttu-id="32e5f-105">Revise sus planes de marcado para comprobar que los números de órbita no estén normalizados.</span><span class="sxs-lookup"><span data-stu-id="32e5f-105">Check your dial plans to be sure that your orbit numbers are not normalized.</span></span> <span data-ttu-id="32e5f-106">Si tiene que crear una regla de normalización adicional para evitar que las órbitas se normalizaran, siga el procedimiento de [crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md) para definir una nueva regla de normalización, de modo que el **patrón para que coincida** identifique el intervalo de órbita y el **patrón de traducción** es **$1**.</span><span class="sxs-lookup"><span data-stu-id="32e5f-106">If you must create an additional normalization rule to prevent your orbits from being normalized, follow the procedure in [Create a dial plan in Lync Server 2013](lync-server-2013-create-a-dial-plan.md) to define a new normalization rule, so that **Pattern to match** identifies the orbit range and **Translation pattern** is **$1**.</span></span> <span data-ttu-id="32e5f-107">Por ejemplo, si el intervalo de llamada de estacionamiento orbital es 7000 – 7999, el **patrón de coincidencia** es **^\\({3}7 d) $** y el **patrón de traducción** es **$1**.</span><span class="sxs-lookup"><span data-stu-id="32e5f-107">For example, if your Call Park orbit range is 7000 – 7999, the **Pattern to match** is **^(7\\d{3})$** and **Translation pattern** is **$1**.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Compruebe que la regla de normalización predeterminada de sus planes de marcado no contenga <strong>^(\d*)</strong>. De lo contrario, la regla de normalización de Estacionamiento de llamadas no se ejecutará.
+> <span data-ttu-id="32e5f-108">Asegúrese de que la regla de normalización predeterminada de sus planes de marcado no contenga <STRONG>^(\d\*)</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="32e5f-108">Be sure that the default normalization rule in your dial plans does not contain <STRONG>^(\d\*)</STRONG>.</span></span> <span data-ttu-id="32e5f-109">En caso contrario, la regla de normalización del parque de llamadas nunca se ejecutará.</span><span class="sxs-lookup"><span data-stu-id="32e5f-109">Otherwise, your Call Park normalization rule will never run.</span></span>
 
 
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Crear un plan de marcado en Lync Server 2013](lync-server-2013-create-a-dial-plan.md)
+## <a name="see-also"></a><span data-ttu-id="32e5f-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="32e5f-110">See Also</span></span>
+
+
+[<span data-ttu-id="32e5f-111">Crear un plan de marcado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="32e5f-111">Create a dial plan in Lync Server 2013</span></span>](lync-server-2013-create-a-dial-plan.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

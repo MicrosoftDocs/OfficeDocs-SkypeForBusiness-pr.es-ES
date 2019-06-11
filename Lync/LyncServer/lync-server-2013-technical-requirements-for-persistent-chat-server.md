@@ -1,35 +1,57 @@
-﻿---
-title: "Lync Server 2013 : Conf. tech. pour le serveur de conversation permanente"
-TOCTitle: Requisitos técnicos para el servidor de chat persistente
-ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398495(v=OCS.15)
-ms:contentKeyID: 48275534
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos técnicos para el servidor de chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Technical requirements for Persistent Chat Server
+ms:assetid: 692b7d99-1bc9-4c99-a050-2bc2be8688b2
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398495(v=OCS.15)
+ms:contentKeyID: 48184383
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9b84f1a2932b76c8030c907463e8f0f2e93bedda
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850458"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos técnicos para el servidor de chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="technical-requirements-for-persistent-chat-server-in-lync-server-2013"></a><span data-ttu-id="ad8cf-102">Requisitos técnicos para el servidor de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ad8cf-102">Technical requirements for Persistent Chat Server in Lync Server 2013</span></span>
 
-Todos los equipos que hospedan un Servidor de chat persistente deben tener acceso a una topología de Lync Server 2013 existente con los siguientes componentes:
+</div>
 
-  - **Servidor front-end de Lync Server 2013.**. El Servidor front-end es la base del enrutamiento SIP (Protocolo de inicio de sesión), que hace posible las comunicaciones entre equipos que ejecutan el Servidor de chat persistente y la funcionalidad de Chat persistente. Antes de empezar a implementar el Servidor de chat persistente, compruebe que se ha implementado Lync Server 2013, Standard Edition o un Grupo de servidores front-end de Lync Server y cualquier otro equipo interno que ejecute Lync Server, según corresponda a su organización.
+<div id="mainSection">
 
-En las secciones siguientes se describen los requisitos específicos para el Servidor de chat persistente y la base de datos que almacena los datos de Chat persistente.
+<div id="mainBody">
 
-## Servidor de chat persistentefea-dialinconf-page
+<span> </span>
 
-Para obtener más información acerca del hardware recomendado para implementar Lync Server y la versión más reciente de Servidor de chat persistente, consulte [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación referente a la compatibilidad.
+<span data-ttu-id="ad8cf-103">_**Última modificación del tema:** 2013-01-06_</span><span class="sxs-lookup"><span data-stu-id="ad8cf-103">_**Topic Last Modified:** 2013-01-06_</span></span>
 
-Para obtener más información acerca de la compatibilidad del sistema operativo del servidor y las herramientas con Lync Server y Servidor de chat persistente, consulte [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación referente a la compatibilidad.
+<span data-ttu-id="ad8cf-104">Cada equipo que hospede un servidor de chat persistente debe tener acceso a una topología existente de Lync Server 2013 con los siguientes componentes:</span><span class="sxs-lookup"><span data-stu-id="ad8cf-104">Each computer that hosts Persistent Chat Server must have access to an existing Lync Server 2013 topology with the following components:</span></span>
 
-Para obtener más información acerca del software adicional requerido para implementar Servidor de chat persistente, consulte la siguiente tabla.
+  - <span data-ttu-id="ad8cf-105">**Lync Server 2013, servidor front-end.**  El servidor front-end es la base del enrutamiento SIP (Protocolo de inicio de sesión), que hace posible la comunicación entre equipos que ejecutan el servidor de chat persistente y la funcionalidad de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-105">**Lync Server 2013, Front End Server.** The Front End Server is the foundation for Session Initiation Protocol (SIP) routing, which makes communication between computers running Persistent Chat Server and the Persistent Chat functionality possible.</span></span> <span data-ttu-id="ad8cf-106">Antes de empezar a implementar un servidor de chat persistente, Compruebe la implementación de Lync Server 2013, Standard Edition o un grupo de servidores front-end de Lync Server y cualquier otro equipo interno que ejecute Lync Server, según corresponda a su organización.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-106">Before you begin to deploy Persistent Chat Server, verify the deployment of Lync Server 2013, Standard Edition, or a Lync Server Front End pool and any other internal computers running Lync Server, as appropriate to your organization.</span></span>
 
-### Requisitos previos de software del Servidor de chat persistente
+<span data-ttu-id="ad8cf-107">En las siguientes secciones se describen los requisitos específicos para el servidor de chat persistente y la base de datos que almacena los datos persistentes del chat.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-107">The following sections describe the specific requirements for the Persistent Chat Server and the database that stores the Persistent Chat data.</span></span>
+
+<div>
+
+## <a name="persistent-chat-server-requirements"></a><span data-ttu-id="ad8cf-108">Requisitos del servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="ad8cf-108">Persistent Chat Server Requirements</span></span>
+
+<span data-ttu-id="ad8cf-109">Para obtener detalles sobre el hardware recomendado para implementar Lync Server y la versión más reciente del servidor de chat persistente, consulte [plataformas de hardware de servidor para Lync server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación de soporte técnico.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-109">For details about the recommended hardware for deploying Lync Server and the latest version of Persistent Chat Server, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="ad8cf-110">Para obtener más información sobre el servidor y las herramientas que admite el sistema operativo para Lync Server y el servidor de chat persistente, consulte [compatibilidad del sistema operativo servidor y herramientas en Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md) en la documentación de soporte técnico.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-110">For details about the server and tools operating system support for Lync Server and Persistent Chat Server, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md) in the Supportability documentation.</span></span>
+
+<span data-ttu-id="ad8cf-111">Para obtener más información sobre software adicional necesario para implementar un servidor de chat persistente, consulte la tabla siguiente.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-111">For details about additional software required for deploying Persistent Chat Server, see the following table.</span></span>
+
+### <a name="persistent-chat-server-software-prerequisites"></a><span data-ttu-id="ad8cf-112">Requisitos previos del software del servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="ad8cf-112">Persistent Chat Server Software Prerequisites</span></span>
 
 <table>
 <colgroup>
@@ -38,39 +60,64 @@ Para obtener más información acerca del software adicional requerido para impl
 </colgroup>
 <thead>
 <tr class="header">
-<th>Software</th>
-<th>Descripción</th>
+<th><span data-ttu-id="ad8cf-113">Software</span><span class="sxs-lookup"><span data-stu-id="ad8cf-113">Software</span></span></th>
+<th><span data-ttu-id="ad8cf-114">Descripción</span><span class="sxs-lookup"><span data-stu-id="ad8cf-114">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Message Queue Server</p></td>
-<td><p>Para uso por parte del Servidor de chat persistente y del servicio de cumplimiento de Chat persistente (si está implementado).</p></td>
+<td><p><span data-ttu-id="ad8cf-115">Message Queue Server</span><span class="sxs-lookup"><span data-stu-id="ad8cf-115">Message Queuing</span></span></p></td>
+<td><p><span data-ttu-id="ad8cf-116">Utilizado por el servidor de chat persistente y por el servicio de cumplimiento de chat persistente, si se ha implementado.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-116">Used by the Persistent Chat Server and Persistent Chat Compliance service, if deployed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Requisitos de base de datos del Servidor de chat persistente
+</div>
 
-El Servidor de chat persistente usa la base de datos de Chat persistente para almacenar el historial de conversaciones, la configuración y los datos de aprovisionamiento de usuarios. También puede usar (opcionalmente) una base de datos de cumplimiento de Chat persistente para almacenar los datos de cumplimiento.
+<div>
+
+## <a name="persistent-chat-server-database-requirements"></a><span data-ttu-id="ad8cf-117">Requisitos de base de datos del servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="ad8cf-117">Persistent Chat Server Database Requirements</span></span>
+
+<span data-ttu-id="ad8cf-118">El servidor de chat persistente usa la base de datos de chat persistente para almacenar el historial de chat, la configuración y los datos de aprovisionamiento de usuario.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-118">Persistent Chat Server uses the Persistent Chat database to store chat history, configuration, and user provisioning data.</span></span> <span data-ttu-id="ad8cf-119">De manera opcional, usa la base de datos de cumplimiento de chat persistente para almacenar los datos de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-119">Optionally, it uses the Persistent Chat compliance database to store compliance data.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> La base de datos del Chat persistente (mgc) y la base de datos de cumplimiento (mgccomp) pueden estar ubicadas en la misma instancia de SQL Server o en Servidores SQL Server diferentes.
+> <span data-ttu-id="ad8cf-120">La base de datos de chat persistente (MGC) y la base de datos de cumplimiento (mgccomp) se pueden encontrar en la misma instancia de SQL Server o en diferentes servidores SQL.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-120">The Persistent Chat database (mgc) and the compliance database (mgccomp) can be located in the same instance of SQL Server or on different SQL Servers.</span></span>
 
 
 
-Para preparar una plataforma de servidor de bases de datos, asegúrese de que cada equipo reúne todos los requisitos de hardware y, a continuación, instale el software necesario como requisito previo.
+</div>
 
-La plataforma de servidor para los servidores de bases de datos del Chat persistente requiere el mismo hardware que el servidor de bases de datos back-end de Lync Server. Para obtener más información, consulte [Plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación de compatibilidad.
+<span data-ttu-id="ad8cf-121">Para preparar una plataforma de servidor de base de datos, asegúrese de que cada equipo cumpla los requisitos de hardware y, luego, instale el software que se necesita como requisito previo.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-121">To prepare a database server platform, be sure that each computer meets the hardware requirements, and then install the prerequisite software.</span></span>
 
-Confirme que una de las siguientes aplicaciones de software está instalada en el servidor de bases de datos:
+<span data-ttu-id="ad8cf-122">La plataforma de servidor de los servidores de base de datos de chat persistente requiere el mismo hardware que el servidor de base de datos back-end de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-122">The server platform for the Persistent Chat database servers requires the same hardware as the Lync Server back-end database server.</span></span> <span data-ttu-id="ad8cf-123">Para obtener más información, vea [plataformas de hardware de servidor para Lync Server 2013](lync-server-2013-server-hardware-platforms.md) en la documentación de soporte técnico.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-123">For details, see [Server hardware platforms for Lync Server 2013](lync-server-2013-server-hardware-platforms.md) in the Supportability documentation.</span></span>
 
-  - Microsoft SQL Server 2012. Para obtener información sobre cómo instalar Microsoft SQL Server 2012, vea "Instalar SQL Server 2012" en [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).
+<span data-ttu-id="ad8cf-124">Confirma que una de las siguientes aplicaciones de software está instalada en el servidor de bases de datos:</span><span class="sxs-lookup"><span data-stu-id="ad8cf-124">On the database server, be sure that one of the following software applications is installed:</span></span>
 
-  - Microsoft SQL Server 2008 R2. Para obtener información detallada sobre cómo instalar Microsoft SQL Server 2008 R2, vea "Instalación de SQL Server (SQL Server 2008 R2)" en <http://go.microsoft.com/fwlink/?linkid=275702>.
+  - <span data-ttu-id="ad8cf-125">Microsoft SQL Server 2012.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-125">Microsoft SQL Server 2012.</span></span> <span data-ttu-id="ad8cf-126">Para obtener más información sobre cómo instalar Microsoft SQL Server 2012, consulte "instalar SQL Server 2012" [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559)en.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-126">For details about how to install Microsoft SQL Server 2012, see "Install SQL Server 2012" at [http://go.microsoft.com/fwlink/p/?LinkID=248559](http://go.microsoft.com/fwlink/p/?linkid=248559).</span></span>
 
-## Requisitos de certificado del Servidor de chat persistente
+  - <span data-ttu-id="ad8cf-127">Microsoft SQL Server 2008 R2.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-127">Microsoft SQL Server 2008 R2.</span></span> <span data-ttu-id="ad8cf-128">Para obtener más información sobre cómo instalar Microsoft SQL Server 2008 R2, consulte "instalación de SQL Server (SQL Server 2008 R2) [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702)" en.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-128">For details about how to install Microsoft SQL Server 2008 R2, see "SQL Server Installation (SQL Server 2008 R2)" at [http://go.microsoft.com/fwlink/?LinkId=275702](http://go.microsoft.com/fwlink/?linkid=275702).</span></span>
 
-Para más información sobre la adquisición de certificados, la creación de bases de datos de SQL Server y la creación de almacenes de archivos, vea [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)en la documentación de implementación.
+</div>
+
+<div>
+
+## <a name="persistent-chat-server-certificate-requirements"></a><span data-ttu-id="ad8cf-129">Requisitos de certificados del servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="ad8cf-129">Persistent Chat Server Certificate Requirements</span></span>
+
+<span data-ttu-id="ad8cf-130">Para obtener detalles sobre la adquisición de certificados, la creación de la base de datos de SQL Server y la creación de almacenes de archivos, vea [implementar Lync server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="ad8cf-130">For details about acquiring certificates, creating the SQL Server database, and creating file stores, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

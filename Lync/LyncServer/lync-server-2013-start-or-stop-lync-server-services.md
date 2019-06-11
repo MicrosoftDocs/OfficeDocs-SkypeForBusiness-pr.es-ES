@@ -1,63 +1,106 @@
-﻿---
-title: Inicio o detención de los servicios de Lync Server 2013
-TOCTitle: Inicio o detención de los servicios de Lync Server 2013
-ms:assetid: 1c70b4ec-9de5-4f7a-a3c9-c0eb76710505
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520958(v=OCS.15)
-ms:contentKeyID: 48274603
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: iniciar o detener servicios de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Start or stop Lync Server 2013 services
+ms:assetid: 1c70b4ec-9de5-4f7a-a3c9-c0eb76710505
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520958(v=OCS.15)
+ms:contentKeyID: 48183554
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9a44e0725aa622b061acc936606bdf2941050952
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850567"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Inicio o detención de los servicios de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2014-02-05_
+# <a name="start-or-stop-lync-server-2013-services"></a><span data-ttu-id="21ee0-102">Iniciar o detener servicios de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21ee0-102">Start or stop Lync Server 2013 services</span></span>
 
-Puede usar Panel de control de Lync Server para iniciar o detener todos los servicios de Lync Server 2013 que se estén ejecutando en un equipo específico o iniciar y detener un servicio específico.
+</div>
 
-## Para iniciar o detener todos los servicios de Lync Server en un equipo
+<div id="mainSection">
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o se asigne al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que haya implementado Lync Server 2013.
+<div id="mainBody">
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span> </span>
 
-3.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
+<span data-ttu-id="21ee0-103">_**Última modificación del tema:** 2014-02-05_</span><span class="sxs-lookup"><span data-stu-id="21ee0-103">_**Topic Last Modified:** 2014-02-05_</span></span>
 
-4.  En la página **Estado**, ordene la lista o realice una búsqueda para encontrar el equipo que está ejecutando los servicios que desea iniciar o detener y después haga clic en los mismos.
+<span data-ttu-id="21ee0-104">Puede usar el panel de control de Lync Server para iniciar o detener todos los servicios de Lync Server 2013 que se ejecutan en un equipo específico o para iniciar o detener un servicio específico.</span><span class="sxs-lookup"><span data-stu-id="21ee0-104">You can use Lync Server Control Panel to start or stop all the Lync Server 2013 services running on a specific computer or to start or stop a specific service.</span></span>
 
-5.  Haga clic en **Acción**.
+<div>
 
-6.  Haga clic en **Iniciar todos los servicios** o **Detener todos los servicios**.
+## <a name="to-start-or-stop-all-lync-server-services-on-a-computer"></a><span data-ttu-id="21ee0-105">Para iniciar o detener todos los servicios de Lync Server en un equipo</span><span class="sxs-lookup"><span data-stu-id="21ee0-105">To start or stop all Lync Server services on a computer</span></span>
 
-## Para iniciar o detener un servicio específico
+1.  <span data-ttu-id="21ee0-106">Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="21ee0-106">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span> <span data-ttu-id="21ee0-107">Puede determinar si se le ha asignado el rol de CsServerAdministrator o el rol de RBAC de CsAdministrator ejecutando un comando similar al siguiente:</span><span class="sxs-lookup"><span data-stu-id="21ee0-107">You can determine whether you have been assigned the CsServerAdministrator or the CsAdministrator RBAC role by running a command similar to the following:</span></span>
+    
+        Get-CsAdminRoleAssignment -Identity "kenmyer"
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+2.  <span data-ttu-id="21ee0-108">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="21ee0-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="21ee0-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="21ee0-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+3.  <span data-ttu-id="21ee0-110">En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-110">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Topología** y después en **Estado**.
+4.  <span data-ttu-id="21ee0-111">En la página **Estado** , ordene o busque en la lista según sea necesario para buscar el equipo que ejecuta los servicios que desea iniciar o detener y, a continuación, haga clic en él.</span><span class="sxs-lookup"><span data-stu-id="21ee0-111">On the **Status** page, sort or search through the list as needed to find the computer that is running the services you want to start or stop, and then click it.</span></span>
 
-4.  En la página **Estado**, ordene la lista o realice una búsqueda para encontrar el equipo que está ejecutando el servicio que desea iniciar o detener y después haga clic en el servicio.
+5.  <span data-ttu-id="21ee0-112">Haga clic en **acción**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-112">Click **Action**.</span></span>
 
-5.  Haga clic en **Propiedades**.
+6.  <span data-ttu-id="21ee0-113">Haga clic en **iniciar todos los servicios** o en **detener todos los servicios**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-113">Click **Start All services** or **Stop All services**.</span></span>
 
-6.  Ordene la lista de servicios, si fuera necesario, y haga clic en el servicio que desea iniciar o detener.
+</div>
 
-7.  Haga clic en **Acción**.
+<div>
 
-8.  Haga clic en **Iniciar servicio** o **Detener servicio**.
+## <a name="to-start-or-stop-a-specific-service"></a><span data-ttu-id="21ee0-114">Para iniciar o detener un servicio específico</span><span class="sxs-lookup"><span data-stu-id="21ee0-114">To start or stop a specific service</span></span>
 
-9.  Haga clic en **Cerrar**.
+1.  <span data-ttu-id="21ee0-115">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="21ee0-115">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-## Vea también
+2.  <span data-ttu-id="21ee0-116">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="21ee0-116">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="21ee0-117">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="21ee0-117">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-#### Tareas
+3.  <span data-ttu-id="21ee0-118">En la barra de navegación izquierda, haga clic en **topología** y, a continuación, en **Estado**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-118">In the left navigation bar, click **Topology** and then click **Status**.</span></span>
 
-[Impedir sesiones para servicios en Lync Server 2013](lync-server-2013-prevent-sessions-for-services.md)  
+4.  <span data-ttu-id="21ee0-119">En la página **Estado** , ordene o busque en la lista según sea necesario para buscar el equipo que está ejecutando el servicio que desea iniciar o detener y, a continuación, haga clic en él.</span><span class="sxs-lookup"><span data-stu-id="21ee0-119">On the **Status** page, sort or search through the list as needed to find the computer that is running the service you want to start or stop, and then click it.</span></span>
 
-#### Otros recursos
+5.  <span data-ttu-id="21ee0-120">Haga clic en **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-120">Click **Properties**.</span></span>
 
-[Administración de la topología de Lync Server 2013](lync-server-2013-managing-the-lync-server-topology.md)
+6.  <span data-ttu-id="21ee0-121">Ordene la lista de servicios, si es necesario, y haga clic en el servicio que desea iniciar o detener.</span><span class="sxs-lookup"><span data-stu-id="21ee0-121">Sort the list of services, if necessary, and click the service you want to start or stop.</span></span>
+
+7.  <span data-ttu-id="21ee0-122">Haga clic en **acción**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-122">Click **Action**.</span></span>
+
+8.  <span data-ttu-id="21ee0-123">Haga clic en **Iniciar servicio** o **Detener servicio**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-123">Click **Start service** or **Stop service**.</span></span>
+
+9.  <span data-ttu-id="21ee0-124">Haga clic en **Cerrar**.</span><span class="sxs-lookup"><span data-stu-id="21ee0-124">Click **Close**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="21ee0-125">Vea también</span><span class="sxs-lookup"><span data-stu-id="21ee0-125">See Also</span></span>
+
+
+[<span data-ttu-id="21ee0-126">Evitar las sesiones de servicios en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21ee0-126">Prevent sessions for services in Lync Server 2013</span></span>](lync-server-2013-prevent-sessions-for-services.md)  
+
+
+[<span data-ttu-id="21ee0-127">Administración de la topología de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="21ee0-127">Managing the Lync Server 2013 topology</span></span>](lync-server-2013-managing-the-lync-server-topology.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,45 +1,79 @@
-﻿---
-title: "Lync Server 2013 : Vérif. de la connectivité pour les utilisateurs externes"
-TOCTitle: Comprobar la conectividad de usuarios externos
-ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398402(v=OCS.15)
-ms:contentKeyID: 48275388
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Comprobar la conectividad de usuarios externos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Verify connectivity for external users
+ms:assetid: 5c02bd6e-1c96-448a-a21d-58c9961c6640
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398402(v=OCS.15)
+ms:contentKeyID: 48184249
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 577ba970e272e2306aae3a587d9ae014ba75ba17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850143"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobar la conectividad de usuarios externos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-19_
+# <a name="verify-connectivity-for-external-users-in-lync-server-2013"></a><span data-ttu-id="a9e04-102">Comprobar la conectividad de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a9e04-102">Verify connectivity for external users in Lync Server 2013</span></span>
 
-La validación de conectividad para usuarios externos exige garantizar la conectividad de los usuarios con el servidor y el puerto para el servicio perimetral de acceso.
+</div>
 
-El sitio del Analizador de conectividad remota ( <https://www.testocsconnectivity.com/> ) es un recurso valioso para confirmar la configuración y la capacidad de conectarse, enviar y recibir los mensajes correctos en escenarios de acceso de usuarios externos. El soporte técnico de Microsoft se encarga de administrar y mantener este sitio. Para acceder al Analizador de conectividad remota, abra el sitio web en un explorador y siga las instrucciones para seleccionar el escenario.
+<div id="mainSection">
 
-## Probar la conectividad de los usuarios externos y el acceso externo
+<div id="mainBody">
 
-Las pruebas de acceso de usuarios externos deberán incluir cada tipo de usuario externo que admita su organización, incluidos todos los siguientes:
+<span> </span>
 
-  - Usuarios de al menos un dominio federado y uso compartido de mensajería instantánea de prueba, presencia, A/V y escritorio.
+<span data-ttu-id="a9e04-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="a9e04-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - Usuarios de cada proveedor de servicios de mensajería instantánea públicos que admita su organización (y para los que se haya completado el aprovisionamiento).
+<span data-ttu-id="a9e04-104">La validación de la conectividad de los usuarios externos requiere garantizar la conectividad de los usuarios con el servidor y el puerto del servicio perimetral de acceso.</span><span class="sxs-lookup"><span data-stu-id="a9e04-104">Validating connectivity for external users requires ensuring connectivity from users to the server and port for the Access Edge service.</span></span>
 
-  - Usuarios anónimos.
+<span data-ttu-id="a9e04-105">Un recurso muy útil para confirmar la configuración y la capacidad de conectar, enviar y recibir los mensajes correctos para los escenarios que requiere el acceso de usuarios externos es el analizador de conectividad<http://www.testocsconnectivity.com>remota ().</span><span class="sxs-lookup"><span data-stu-id="a9e04-105">A valuable resource for confirming your configuration and the ability to connect, send and receive the correct messages for the scenarios that external user access requires is the Remote Connectivity Analyzer site (<http://www.testocsconnectivity.com>).</span></span> <span data-ttu-id="a9e04-106">El sitio es administrado y mantenido por el soporte técnico de Microsoft.</span><span class="sxs-lookup"><span data-stu-id="a9e04-106">The site is managed and maintained by Microsoft Support.</span></span> <span data-ttu-id="a9e04-107">Para comunicarse con el analizador de conectividad remota, abra el sitio web en un explorador y siga las instrucciones para seleccionar el escenario.</span><span class="sxs-lookup"><span data-stu-id="a9e04-107">To reach the Remote Connectivity Analyzer, open the Web site in a browser and follow the instructions to select the scenario.</span></span>
 
-  - Usuarios de la organización que inicien la sesión de forma remota en Lync, pero que no usen una VPN.
+<div>
 
-Estas pruebas determinan si el servidor perimetral:
+## <a name="test-connectivity-of-external-users-and-external-access"></a><span data-ttu-id="a9e04-108">Probar la conectividad de usuarios externos y acceso externo</span><span class="sxs-lookup"><span data-stu-id="a9e04-108">Test Connectivity of External Users and External access</span></span>
 
-  - Escucha en los puertos necesarios a través de un cliente de telnet de fuera de la red.
+<span data-ttu-id="a9e04-109">Las pruebas para el acceso de usuarios externos deben incluir cada tipo de usuario externo que admita su organización, incluidos cualquiera de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="a9e04-109">Tests for external user access should include each type of external user that your organization supports, including any or all of the following:</span></span>
+
+  - <span data-ttu-id="a9e04-110">Usuarios de al menos un dominio federado y prueba la mensajería instantánea, la presencia, A/V y el uso compartido del escritorio.</span><span class="sxs-lookup"><span data-stu-id="a9e04-110">Users from at least one federated domain, and test IM, presence, A/V and desktop sharing.</span></span>
+
+  - <span data-ttu-id="a9e04-111">Usuarios de cada proveedor de servicios de mensajería instantánea pública que admita su organización (y para el que se ha completado el aprovisionamiento).</span><span class="sxs-lookup"><span data-stu-id="a9e04-111">Users of each public IM service provider that your organization supports (and for which provisioning has been completed).</span></span>
+
+  - <span data-ttu-id="a9e04-112">Usuarios anónimos.</span><span class="sxs-lookup"><span data-stu-id="a9e04-112">Anonymous users.</span></span>
+
+  - <span data-ttu-id="a9e04-113">Los usuarios de su organización que hayan iniciado sesión en Lync de forma remota, pero no utilicen VPN.</span><span class="sxs-lookup"><span data-stu-id="a9e04-113">Users within your organization who are logged into Lync remotely, but not using VPN.</span></span>
+
+<span data-ttu-id="a9e04-114">Estas pruebas determinan si su servidor perimetral es:</span><span class="sxs-lookup"><span data-stu-id="a9e04-114">These tests determine whether your Edge Server is:</span></span>
+
+  - <span data-ttu-id="a9e04-115">Escucha en los puertos necesarios a través de un cliente de telnet de fuera de la red.</span><span class="sxs-lookup"><span data-stu-id="a9e04-115">Listening on the necessary ports by using a telnet client from outside your network.</span></span>
     
-      - Ejemplo: telnet ae.contoso.com 443
+      - <span data-ttu-id="a9e04-116">Ejemplo: Telnet sip.contoso.com 443</span><span class="sxs-lookup"><span data-stu-id="a9e04-116">Example: telnet sip.contoso.com 443</span></span>
     
-      - Realice las pruebas anteriores en los puertos que esté usando en el servidor perimetral o en el grupo de servidores perimetrales según la implementación.
+      - <span data-ttu-id="a9e04-117">Realice la prueba anterior en los puertos que está usando en el servidor perimetral o en el grupo de servidores perimetrales dependiendo de su implementación.</span><span class="sxs-lookup"><span data-stu-id="a9e04-117">Perform the preceding test on ports you are using on the Edge Server or Edge Server pool depending on your deployment.</span></span>
 
-  - Logre una resolución de DNS externa precisa.
+  - <span data-ttu-id="a9e04-118">Logre una resolución de DNS externa precisa.</span><span class="sxs-lookup"><span data-stu-id="a9e04-118">Performing accurate external DNS resolution.</span></span>
     
-      - Desde fuera de la red, realice un ping de red de los FQDN externos de su servidor perimetral o grupo de servidores perimetrales. Incluso aunque el ping dé un error, verá las direcciones IP que podrá comparar con las que ha asignado.
+      - <span data-ttu-id="a9e04-119">Desde fuera de la red haga ping a cada uno de los FQDN externos de su grupo perimetral o perimetral.</span><span class="sxs-lookup"><span data-stu-id="a9e04-119">From outside your network ping each of the external FQDN’s of your Edge or Edge pool.</span></span> <span data-ttu-id="a9e04-120">Incluso si se produce un error en la ping, verá las direcciones IP, que puede comparar con las que ha asignado.</span><span class="sxs-lookup"><span data-stu-id="a9e04-120">Even if the ping fails you will see the IP addresses, which you can compare to the ones you have assigned.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

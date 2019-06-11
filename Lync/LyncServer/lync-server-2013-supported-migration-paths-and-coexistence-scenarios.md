@@ -1,25 +1,59 @@
-﻿---
-title: "Lync Server 2013: Rutas de migración compatibles y escenarios de coexistencia"
-TOCTitle: Rutas de acceso de migración compatibles y escenarios de coexistencia
-ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398367(v=OCS.15)
-ms:contentKeyID: 48275286
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Rutas de acceso de migración compatibles y escenarios de coexistencia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Supported migration paths and coexistence scenarios
+ms:assetid: 55449540-2f94-4a7c-9533-2b54e93fca58
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398367(v=OCS.15)
+ms:contentKeyID: 48184182
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4bdd08b70c6ef25400c7d13380c314093cff8356
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850543"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rutas de acceso de migración compatibles y escenarios de coexistencia en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-04-30_
+# <a name="supported-migration-paths-and-coexistence-scenarios-in-lync-server-2013"></a><span data-ttu-id="f5a94-102">Rutas de acceso de migración compatibles y escenarios de coexistencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5a94-102">Supported migration paths and coexistence scenarios in Lync Server 2013</span></span>
 
-Lync Server 2013 permite la migración desde versiones de Microsoft Lync Server 2010 y Microsoft Office Communications Server 2007 R2, incluida la coexistencia con componentes de cliente y servidor específicos de estas implementaciones anteriores.
+</div>
 
-## En esta sección
+<div id="mainSection">
 
-  - [Vías de migración de servidor compatibles y escenarios de coexistencia en Lync Server 2013](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+<div id="mainBody">
 
-  - [Clientes admitidos de implementaciones anteriores en Lync Server 2013](lync-server-2013-supported-clients-from-previous-deployments.md)
+<span> </span>
+
+<span data-ttu-id="f5a94-103">_**Última modificación del tema:** 2012-04-30_</span><span class="sxs-lookup"><span data-stu-id="f5a94-103">_**Topic Last Modified:** 2012-04-30_</span></span>
+
+<span data-ttu-id="f5a94-104">Lync Server 2013 admite la migración de Microsoft Lync Server 2010 y Microsoft Office Communications Server 2007 R2, incluida la coexistencia con componentes de cliente y servidor específicos de esas implementaciones anteriores.</span><span class="sxs-lookup"><span data-stu-id="f5a94-104">Lync Server 2013 supports migration from Microsoft Lync Server 2010 and Microsoft Office Communications Server 2007 R2, including coexistence with specific client and server components of those previous deployments.</span></span>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="f5a94-105">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f5a94-105">In This Section</span></span>
+
+  - [<span data-ttu-id="f5a94-106">Vías de migración de servidor compatibles y escenarios de coexistencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5a94-106">Supported server migration paths and coexistence scenarios in Lync Server 2013</span></span>](lync-server-2013-supported-server-migration-paths-and-coexistence-scenarios.md)
+
+  - [<span data-ttu-id="f5a94-107">Clientes admitidos de implementaciones anteriores en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f5a94-107">Supported clients from previous deployments in Lync Server 2013</span></span>](lync-server-2013-supported-clients-from-previous-deployments.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

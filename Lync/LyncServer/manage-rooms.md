@@ -1,74 +1,116 @@
-﻿---
-title: Administrar salones
-TOCTitle: Administrar salones
-ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205292(v=OCS.15)
-ms:contentKeyID: 48276790
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Administrar salones
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Manage rooms
+ms:assetid: d4835cf4-cd09-4769-a08e-e92706861b64
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205292(v=OCS.15)
+ms:contentKeyID: 48185505
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f611b3cb6d54711557c8a172b1213127696c9b3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34849994"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Administrar salones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="manage-rooms"></a><span data-ttu-id="bbc62-102">Administrar salones</span><span class="sxs-lookup"><span data-stu-id="bbc62-102">Manage rooms</span></span>
 
-Para crear un salón nuevo de Servidor de chat persistente
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="bbc62-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="bbc62-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="bbc62-104">Para crear un nuevo salón de servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="bbc62-104">To create a new Persistent Chat Server room</span></span>
 
     New-CsPersistentChatRoom -Name Foo1 -PersistentChatPoolFqdn client.contoso.com -Category client.contoso.com\Foo [other parameters]
 
+<div>
+
+
 > [!IMPORTANT]  
-> -PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes acciones:
-> <ul>
-> <li><p>Hay un solo Grupo de servidores de chat persistente.</p></li>
-> <li><p>Proporciona un poolFqdn a la categoría.</p></li>
-> <li><p>Proporciona un poolFqdn para agregar un salón.</p></li>
-> </ul>
+> <span data-ttu-id="bbc62-105">-PersistentChatPoolFqdn no es necesario si se cumple una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="bbc62-105">-PersistentChatPoolFqdn is not needed if one of the following is true:</span></span> 
+> <UL>
+> <LI>
+> <P><span data-ttu-id="bbc62-106">Solo hay un grupo de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="bbc62-106">There is only one Persistent Chat Server pool.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="bbc62-107">Proporciona un FQDN del grupo de servidores a la categoría.</span><span class="sxs-lookup"><span data-stu-id="bbc62-107">You provide a pool FQDN to the category.</span></span></P>
+> <LI>
+> <P><span data-ttu-id="bbc62-108">Proporciona un FQDN del grupo de servidores para agregar el salón.</span><span class="sxs-lookup"><span data-stu-id="bbc62-108">You provide a pool FQDN to adding the room.</span></span></P></LI></UL>
 
 
-Realizar cambios en una salón existente de Servidor de chat persistente
+
+</div>
+
+<span data-ttu-id="bbc62-109">Para realizar cambios en una sala de servidores de chat persistente existente</span><span class="sxs-lookup"><span data-stu-id="bbc62-109">To make changes to an existing Persistent Chat Server room</span></span>
 
     Set-CsPersistentChatRoom -Identity testCat -Members @{Add="sip:user1@contoso.com", "CN=container,DC=contoso,DC=com"}
     Set-CsPersistentChatRoom -Identity testCat -Managers @{Add="sip:user2@contoso.com"}
     Set-CsPersistentChatRoom -Identity testCat -Presenters @{Add="sip:user1@contoso.com"}
 
-Windows PowerShell: los miembros, administradores y moderadores pueden establecerse de manera simultánea. Deben estar en el subconjunto de AllowedMembers menos DeniedMembers de la categoría de host. Un salón que es type=normal no puede incluir moderadores.
+<span data-ttu-id="bbc62-110">Windows PowerShell: los miembros, los administradores y los moderadores pueden establecerse de forma simultánea.</span><span class="sxs-lookup"><span data-stu-id="bbc62-110">Windows PowerShell: Members, Managers and Presenters can be set simultaneously.</span></span> <span data-ttu-id="bbc62-111">Todos deben ser el subconjunto de AllowedMembers menos DeniedMembers de la categoría de host.</span><span class="sxs-lookup"><span data-stu-id="bbc62-111">They all should be the subset of AllowedMembers minus DeniedMembers of the host Category.</span></span> <span data-ttu-id="bbc62-112">Un salón que es Type = normal no puede incluir moderadores.</span><span class="sxs-lookup"><span data-stu-id="bbc62-112">A room that is type=normal cannot include Presenters.</span></span>
 
-## Crear, obtener, configurar, borrar o quitar un salón
+<div>
 
-Para crear un salón nuevo
+## <a name="create-get-set-clear-or-remove-a-room"></a><span data-ttu-id="bbc62-113">Crear, obtener, establecer, borrar o quitar una sala</span><span class="sxs-lookup"><span data-stu-id="bbc62-113">Create, Get, Set, Clear, or Remove a Room</span></span>
+
+<span data-ttu-id="bbc62-114">Para crear un nuevo salón</span><span class="sxs-lookup"><span data-stu-id="bbc62-114">To create a new room</span></span>
 
     New-CsPersistentChatRoom -Name <String> [-PersistentChatPoolFqdn <String>]-Category <String> [-Description <String>] [-Disabled <Switch Parameter>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Switch Parameter>]
 
-Para configurar un salón
+<span data-ttu-id="bbc62-115">Para establecer un salón</span><span class="sxs-lookup"><span data-stu-id="bbc62-115">To set a room</span></span>
 
     Set-CsPersistentChatRoom -Identity <String> [-Name <String>] [-Category <String>] [-Description <String>] [-Disabled <boolean>] [-Type <Normal | Auditorium>] [-AddIn <String>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Invitations <Enum>] [-Members <PSListModifier<String>>] [-Managers <PSListModifier<String>>] [-Presenters <PSListModifier<String>>] [-Force < Switch Parameter >] [-Confirm <Switch Parameter>][-WhatIf <Switch Parameter>]
 
-Para obtener un salón
+<span data-ttu-id="bbc62-116">Para obtener un salón</span><span class="sxs-lookup"><span data-stu-id="bbc62-116">To get a room</span></span>
 
     Get-CsPersistentChatRoom -Identity <String>
 
-o
+<span data-ttu-id="bbc62-117">o</span><span class="sxs-lookup"><span data-stu-id="bbc62-117">or</span></span>
 
     Get-CsPersistentChatRoom -filter <String> [-PersistentChatPoolFqdn <String>] [-SearchDescription] [-Member <String>] [-Manager <string>] [-Category <string>] [-Addin <string>] [-Disabled <bool>] [-Privacy <ChatRoomPrivacy> {Open | Closed | Secret}] [-Type <ChatRoomType> {Normal | Auditorium}] [-Invitations <ChatRoomInvitations> {False | Inherit}] [-ChatContentExceedsMB <int>] [-ResultSize <int>]
 
-donde el filtro–solo admita el nombre y la descripción y ayude a buscar salones cuyos nombres o descripciones coincidan con la cadena de la palabra clave. PoolFqdn busca en un determinado Grupo de servidores de chat persistente.
+<span data-ttu-id="bbc62-118">Dónde: filtrar solo admite nombre y descripción, y ayuda a buscar salas cuyo nombre/Descripción coincide con la cadena de palabra clave.</span><span class="sxs-lookup"><span data-stu-id="bbc62-118">where –filter supports only Name and Description and helps you find rooms whose Name/Description matches the keyword string.</span></span> <span data-ttu-id="bbc62-119">PoolFqdn busca en un grupo de servidores de chat persistente determinado.</span><span class="sxs-lookup"><span data-stu-id="bbc62-119">PoolFqdn searches in a given Persistent Chat Server pool.</span></span>
 
-Para borrar un salón y borrar los mensajes de un salón
+<span data-ttu-id="bbc62-120">Para borrar una sala y borrar los mensajes de una sala</span><span class="sxs-lookup"><span data-stu-id="bbc62-120">To clear a room and clear messages from a room</span></span>
 
     Clear-CsPersistentChatRoom [-Identity] <string> -EndDate <DateTime> [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-o
+<span data-ttu-id="bbc62-121">o</span><span class="sxs-lookup"><span data-stu-id="bbc62-121">or</span></span>
 
     Clear-CsPersistentChatRoom [-Instance] <ChatRoomObject> -EndDate <DateTime> [-WhatIf] [-Confirm] [<CommonParameters>]
 
-Para quitar un salón
+<span data-ttu-id="bbc62-122">Para quitar una sala</span><span class="sxs-lookup"><span data-stu-id="bbc62-122">To remove a room</span></span>
 
     Remove-CsPersistentChatRoom [-Identity] <string> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
 
-o
+<span data-ttu-id="bbc62-123">o</span><span class="sxs-lookup"><span data-stu-id="bbc62-123">or</span></span>
 
     Remove-CsPersistentChatRoom [-Instance] <ChatRoomObject> [-Force] [-WhatIf] [-Confirm]  [<CommonParameters>]
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

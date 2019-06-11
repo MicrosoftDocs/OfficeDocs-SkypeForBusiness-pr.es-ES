@@ -1,75 +1,117 @@
-﻿---
-title: 'Lync Server 2013: View Edge Server settings'
+---
+title: 'Lync Server 2013: ver la configuración del servidor perimetral'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: View Edge Server settings
 ms:assetid: 684154cc-cffc-4d2e-8baa-be52c625e5d7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn747890(v=OCS.15)
-ms:contentKeyID: 62293601
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn747890(v=OCS.15)
+ms:contentKeyID: 63969612
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 972a5861af803dbaf66843883595c446345ac29a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34850104"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# View Edge Server settings in Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2014-05-20_
+# <a name="view-edge-server-settings-in-lync-server-2013"></a><span data-ttu-id="28433-102">Ver la configuración del servidor perimetral en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="28433-102">View Edge Server settings in Lync Server 2013</span></span>
 
-General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.
+</div>
 
-Additional checks could include those that are described in the following sections:
+<div id="mainSection">
 
-## Verify the Allow and block lists
+<div id="mainBody">
 
-Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.
+<span> </span>
 
-You can use Windows PowerShell to view the allowed and blocked lists. To review the domains on the Allowed Domains list, run the following Windows PowerShell command:
+<span data-ttu-id="28433-103">_**Última modificación del tema:** 2014-05-20_</span><span class="sxs-lookup"><span data-stu-id="28433-103">_**Topic Last Modified:** 2014-05-20_</span></span>
+
+<span data-ttu-id="28433-104">Las configuraciones de servidor de borde general se deben revisar según los datos de la base de datos de administración de la configuración, para ayudar a garantizar que todos los cambios se documentaron según los procedimientos de control de cambios definidos.</span><span class="sxs-lookup"><span data-stu-id="28433-104">General Edge Server configurations should be reviewed against the data in the configuration management database—to help guarantee that all changes were documented as per the defined change control procedures.</span></span>
+
+<span data-ttu-id="28433-105">Las comprobaciones adicionales podrían incluir las que se describen en las siguientes secciones:</span><span class="sxs-lookup"><span data-stu-id="28433-105">Additional checks could include those that are described in the following sections:</span></span>
+
+<div>
+
+## <a name="verify-the-allow-and-block-lists"></a><span data-ttu-id="28433-106">Comprobar las listas permitir o bloquear</span><span class="sxs-lookup"><span data-stu-id="28433-106">Verify the Allow and block lists</span></span>
+
+<span data-ttu-id="28433-107">Comprobar el URI del SIP las listas "permitir" y "bloquear" de los dominios federados, para determinar si los espacios de nombres en la lista siguen siendo válidos.</span><span class="sxs-lookup"><span data-stu-id="28433-107">Verify the SIP URI "Allow" and "Block" lists for Federated domains—to determine whether listed namespaces are still valid.</span></span>
+
+<span data-ttu-id="28433-108">Puede usar Windows PowerShell para ver las listas permitidas y bloqueadas.</span><span class="sxs-lookup"><span data-stu-id="28433-108">You can use Windows PowerShell to view the allowed and blocked lists.</span></span> <span data-ttu-id="28433-109">Para revisar los dominios en la lista dominios permitidos, ejecute el siguiente comando de Windows PowerShell:</span><span class="sxs-lookup"><span data-stu-id="28433-109">To review the domains on the Allowed Domains list, run the following Windows PowerShell command:</span></span>
 
 `Get-CsAllowedDomain`
 
-That command returns information similar to this for the domains on the Allowed Domains list:
+<span data-ttu-id="28433-110">Ese comando devuelve información similar a la siguiente para los dominios de la lista de dominios permitidos:</span><span class="sxs-lookup"><span data-stu-id="28433-110">That command returns information similar to this for the domains on the Allowed Domains list:</span></span>
 
-Identity : contoso.com
+<span data-ttu-id="28433-111">Identidad: contoso.com</span><span class="sxs-lookup"><span data-stu-id="28433-111">Identity : contoso.com</span></span>
 
-Domain : contoso.com
+<span data-ttu-id="28433-112">Dominio: contoso.com</span><span class="sxs-lookup"><span data-stu-id="28433-112">Domain : contoso.com</span></span>
 
-ProxyFqdn :
+<span data-ttu-id="28433-113">ProxyFqdn :</span><span class="sxs-lookup"><span data-stu-id="28433-113">ProxyFqdn :</span></span>
 
-Comment :
+<span data-ttu-id="28433-114">Lín</span><span class="sxs-lookup"><span data-stu-id="28433-114">Comment :</span></span>
 
-MarkForMonitoring : False
+<span data-ttu-id="28433-115">MarkForMonitoring: falso</span><span class="sxs-lookup"><span data-stu-id="28433-115">MarkForMonitoring : False</span></span>
 
-Comment :
+<span data-ttu-id="28433-116">Lín</span><span class="sxs-lookup"><span data-stu-id="28433-116">Comment :</span></span>
 
-To review the domains on the blocked domains list, use this command:
+<span data-ttu-id="28433-117">Para revisar los dominios de la lista de dominios bloqueados, use este comando:</span><span class="sxs-lookup"><span data-stu-id="28433-117">To review the domains on the blocked domains list, use this command:</span></span>
 
 `Get-CsBlockedDomain`
 
-In turn, you'll receive information such as this for each blocked domain:
+<span data-ttu-id="28433-118">A su vez, recibirá información como esta para cada dominio bloqueado:</span><span class="sxs-lookup"><span data-stu-id="28433-118">In turn, you'll receive information such as this for each blocked domain:</span></span>
 
-Identity : tailspintoys.com
+<span data-ttu-id="28433-119">Identidad: tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="28433-119">Identity : tailspintoys.com</span></span>
 
-Domain : tailspintoys.com
+<span data-ttu-id="28433-120">Dominio: tailspintoys.com</span><span class="sxs-lookup"><span data-stu-id="28433-120">Domain : tailspintoys.com</span></span>
 
-Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list. For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:
+<span data-ttu-id="28433-121">Windows PowerShell también le permite comprobar si puede conectarse a los dominios de su lista de dominios permitidos.</span><span class="sxs-lookup"><span data-stu-id="28433-121">Windows PowerShell also enables you to verify that you can connection to the domains on your Allowed Domains list.</span></span> <span data-ttu-id="28433-122">Por ejemplo, este comando comprueba la conexión entre el servidor perimetral (el TargetFqdn) y el dominio federado contoso.com:</span><span class="sxs-lookup"><span data-stu-id="28433-122">For example, this command verifies the connection between your Edge Server (the TargetFqdn) and the federated domain contoso.com:</span></span>
 
 `Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain "contoso.com"`
 
-And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:
+<span data-ttu-id="28433-123">Y este comando comprueba la conexión entre el servidor perimetral y todos los dominios que se encuentran en la lista de dominios permitidos:</span><span class="sxs-lookup"><span data-stu-id="28433-123">And this command verifies the connection between your Edge Server and all of the domains found on your Allowed Domains list:</span></span>
 
 `Get-CsAllowedDomain | ForEach-Object {Test-CsFederatedPartner -TargetFqdn "atl-edge-001.litwareinc.com" -Domain $_.Domain}`
 
-## Verify multiple Edge Servers are identical
+</div>
 
-If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.
+<div>
 
-You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.
+## <a name="verify-multiple-edge-servers-are-identical"></a><span data-ttu-id="28433-124">Comprobar si hay varios servidores perimetrales idénticos</span><span class="sxs-lookup"><span data-stu-id="28433-124">Verify multiple Edge Servers are identical</span></span>
 
-## Vea también
+<span data-ttu-id="28433-125">Si se implementan varios servidores perimetrales en una matriz de equilibrio de carga, le recomendamos verificar que todos los servidores perimetrales de la matriz estén configurados de la misma manera.</span><span class="sxs-lookup"><span data-stu-id="28433-125">If multiple Edge Servers are deployed in a load balanced array, we recommend verifying that all Edge Servers in the array are configured in the same manner.</span></span>
 
-#### Otros recursos
+<span data-ttu-id="28433-126">Puede ver la configuración de los servidores perimetrales en el panel de detalles de la extensión 2013 de Lync Server para el complemento Administración de equipos.</span><span class="sxs-lookup"><span data-stu-id="28433-126">You can view settings for Edge Servers in the details pane of the Lync Server 2013 extension for the Computer Management snap-in.</span></span>
 
-[Get-CsAllowedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsAllowedDomain)  
-[Get-CsBlockedDomain](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsBlockedDomain)  
-[Test-CsFederatedPartner](https://docs.microsoft.com/en-us/powershell/module/skype/Test-CsFederatedPartner)
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="28433-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="28433-127">See Also</span></span>
+
+
+[<span data-ttu-id="28433-128">Get-CsAllowedDomain</span><span class="sxs-lookup"><span data-stu-id="28433-128">Get-CsAllowedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsAllowedDomain)  
+[<span data-ttu-id="28433-129">Get-CsBlockedDomain</span><span class="sxs-lookup"><span data-stu-id="28433-129">Get-CsBlockedDomain</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsBlockedDomain)  
+[<span data-ttu-id="28433-130">Test-CsFederatedPartner</span><span class="sxs-lookup"><span data-stu-id="28433-130">Test-CsFederatedPartner</span></span>](https://docs.microsoft.com/powershell/module/skype/Test-CsFederatedPartner)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
