@@ -1,51 +1,89 @@
-﻿---
-title: Requisitos de configuración del proxy inverso de Lync Server 2013
-TOCTitle: Requisitos de configuración del proxy inverso de Lync Server 2013
-ms:assetid: c37d688a-28e4-4822-80cc-6add59c71052
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945651(v=OCS.15)
-ms:contentKeyID: 52061736
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: requisitos de configuración para el proxy inverso'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuration requirements for reverse proxy
+ms:assetid: c37d688a-28e4-4822-80cc-6add59c71052
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945651(v=OCS.15)
+ms:contentKeyID: 51541518
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0367ea79a0f3de6ad716f18aab980e9d9442e148
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842452"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de configuración del proxy inverso de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-03-05_
+# <a name="configuration-requirements-for-reverse-proxy-in-lync-server-2013"></a><span data-ttu-id="f14bc-102">Requisitos de configuración para el proxy inverso en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f14bc-102">Configuration requirements for reverse proxy in Lync Server 2013</span></span>
 
-En Lync Server 2013 es necesario reunir algunos requisitos en las comunicaciones desde el cliente externo que luego pasan a los servicios web externos hospedados en el Director, el Grupo de directores, el Servidor front-end o el Grupo de servidores front-end. El proxy inverso también es responsable de publicar el Servidor Office Web Apps, en caso de estar dando una conferencia a los usuarios.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f14bc-103">_**Última modificación del tema:** 2013-03-05_</span><span class="sxs-lookup"><span data-stu-id="f14bc-103">_**Topic Last Modified:** 2013-03-05_</span></span>
+
+<span data-ttu-id="f14bc-104">Lync Server 2013 impone algunos requisitos en las comunicaciones del cliente externo que, a continuación, se transfieren a los servicios web externos alojados en el director, el grupo de directores, el servidor front-end o el grupo front-end.</span><span class="sxs-lookup"><span data-stu-id="f14bc-104">Lync Server 2013 imposes a few requirements on communications from the external client that are then passed on to the external Web services hosted on the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="f14bc-105">El proxy inverso también es responsable de publicar el servidor de Office Web Apps, si ofrece conferencias a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="f14bc-105">The reverse proxy is also responsible for publishing the Office Web Apps Server, if you are offering conferencing to your users.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Lync Server 2013 no especifica que deba usarse un proxy inverso en concreto. Lync Server 2013 únicamente define los requisitos operativos que el proxy inverso debe ser capaz de cumplir, si bien, por lo general, el proxy inverso que haya implementado en la infraestructura probablemente los reúna.
+> [!NOTE]  
+> <span data-ttu-id="f14bc-106">Lync Server 2013 no especifica un proxy inverso determinado que deba usarse.</span><span class="sxs-lookup"><span data-stu-id="f14bc-106">Lync Server 2013 does not specify a particular reverse proxy that you must use.</span></span> <span data-ttu-id="f14bc-107">Lync Server 2013 solo define los requisitos operativos que el proxy inverso debe poder hacer.</span><span class="sxs-lookup"><span data-stu-id="f14bc-107">Lync Server 2013 only defines operational requirements that the reverse proxy must be able to do.</span></span> <span data-ttu-id="f14bc-108">Normalmente, el proxy inverso que ya ha implementado en su infraestructura puede cumplir los requisitos.</span><span class="sxs-lookup"><span data-stu-id="f14bc-108">Typically, the reverse proxy that you already have deployed in your infrastructure may be able to meet the requirements.</span></span>
 
 
 
-## Requisitos de proxy inverso
+</div>
 
-Estas son las operaciones funcionales que Lync Server 2013 espera del proxy inverso:
+<div>
 
-  - Usar la Capa de sockets seguros (SSL) y la Seguridad de la capa de transporte (TLS) implementadas mediante certificados emitidos por una entidad de certificación pública para conectarse a los servicios web externos publicados del Director, Grupo de directores, Servidor front-end o Grupo de servidores front-end. El Director y el Servidor front-end pueden estar en un grupo de carga equilibrada mediante equilibradores de carga de hardware.
+## <a name="reverse-proxy-requirements"></a><span data-ttu-id="f14bc-109">Requisitos del proxy inverso</span><span class="sxs-lookup"><span data-stu-id="f14bc-109">Reverse Proxy Requirements</span></span>
 
-  - Poder publicar sitios web internos mediante certificados para cifrado, o bien publicarlos mediante métodos sin cifrar, en caso necesario.
+<span data-ttu-id="f14bc-110">Las operaciones funcionales en las que Lync Server 2013 esperan que se realice un proxy inverso son las siguientes:</span><span class="sxs-lookup"><span data-stu-id="f14bc-110">The functional operations that Lync Server 2013 expect a reverse proxy to perform are:</span></span>
 
-  - Poder publicar externamente un sitio web hospedado de forma interna usando su nombre de dominio completo (FQDN).
+  - <span data-ttu-id="f14bc-111">Use la capa de sockets seguros (SSL) y la seguridad de la capa de transporte (TLS) implementada mediante certificados adquiridos de una entidad de certificación pública para conectarse a los servicios web externos publicados del Director, grupo de directores, servidor front-end o grupo front-end.</span><span class="sxs-lookup"><span data-stu-id="f14bc-111">Use secure socket layer (SSL) and transport layer security (TLS) implemented by using certificates acquired from a public certification authority to connect to the published external Web services of the Director, Director pool, Front End Server or Front End pool.</span></span> <span data-ttu-id="f14bc-112">El director y el servidor front-end pueden estar en un grupo de equilibrio de carga con equilibradores de carga de hardware.</span><span class="sxs-lookup"><span data-stu-id="f14bc-112">The Director and the Front End Server can be in a load-balanced pool by using hardware load balancers.</span></span>
 
-  - Poder publicar todo el contenido del sitio web hospedado. Se puede usar de forma predeterminada la directiva **/\***, que la mayoría de los servidores web identifica como que significa "Publicar todo el contenido en el servidor web". También se puede modificar la directiva, por ejemplo, **/Uwca/\***, que quiere decir "Publicar todo el contenido en el directorio virtual Ucwa".
+  - <span data-ttu-id="f14bc-113">Posibilidad de publicar sitios Web internos mediante certificados para el cifrado, o publicarlos a través de un medio sin cifrar, si es necesario.</span><span class="sxs-lookup"><span data-stu-id="f14bc-113">Able to publish internal Web sites using certificates for encryption, or publish them over an unencrypted means, if needed.</span></span>
 
-  - Debe ser configurable para requerir conexiones de Capa de sockets seguros (SSL) o de Seguridad de la capa de transporte (TLS) con los clientes que soliciten contenido de un sitio web publicado.
+  - <span data-ttu-id="f14bc-114">Puede publicar un sitio web hospedado internamente de forma externa usando un nombre de dominio completo (FQDN).</span><span class="sxs-lookup"><span data-stu-id="f14bc-114">Able to publish an internally hosted web site externally by using a fully qualified domain name (FQDN).</span></span>
 
-  - Debe aceptar certificados con entradas de nombre alternativo del firmante (SAN).
+  - <span data-ttu-id="f14bc-115">Puede publicar todo el contenido del sitio web hospedado.</span><span class="sxs-lookup"><span data-stu-id="f14bc-115">Able to publish all contents of the hosted web site.</span></span> <span data-ttu-id="f14bc-116">De forma predeterminada, puede usar la \*\* / \*\* Directiva, que es reconocida por la mayoría de los servidores web para indicar "publicar todo el contenido en el servidor Web".</span><span class="sxs-lookup"><span data-stu-id="f14bc-116">By default, you can use the **/\*** directive, which is recognized by most web servers to mean "Publish all content on the web server."</span></span> <span data-ttu-id="f14bc-117">También puede modificar la Directiva, por ejemplo, **/Uwca/\***, lo que significa "publicar todo el contenido del directorio virtual Ucwa".</span><span class="sxs-lookup"><span data-stu-id="f14bc-117">You can also modify the directive—for example, **/Uwca/\***, which means "Publish all content under the virtual directory Ucwa."</span></span>
 
-  - Debe poder permitir el enlace de un certificado a una interfaz o agente de escucha a través del que el FQDN de servicios web externos vaya a resolverse. Se prefiere una configuración de agente de escucha a una de interfaz. Se pueden configurar varios agentes de escucha en una sola interfaz.
+  - <span data-ttu-id="f14bc-118">Debe ser configurable para requerir conexiones de capa de sockets seguros (SSL) o seguridad de la capa de transporte (TLS) con los clientes que solicitan contenido de un sitio Web publicado.</span><span class="sxs-lookup"><span data-stu-id="f14bc-118">Must be configurable to require Secure Sockets Layer (SSL) and/or Transport Layer Security (TLS) connections with clients that request content from a published website.</span></span>
 
-  - Debe permitir la configuración de control de encabezados de host. Con frecuencia, el encabezado de host original enviado por el cliente solicitante debe pasar de forma transparente, en lugar de modificarse a través del proxy inverso.
+  - <span data-ttu-id="f14bc-119">Debe aceptar certificados con entradas de nombre alternativo del sujeto (SAN).</span><span class="sxs-lookup"><span data-stu-id="f14bc-119">Must accept certificates with subject alternative name (SAN) entries.</span></span>
 
-  - Crear un puente para el tráfico SSL y TLS desde un puerto definido externamente (TCP 443, por ejemplo) a otro puerto definido (TCP 4443, por ejemplo). El proxy inverso puede descifrar el paquete al recibirlo y, seguidamente, volver a cifrarlo en el envío.
+  - <span data-ttu-id="f14bc-120">Debe poder permitir el enlace de un certificado a un agente de escucha o a una interfaz a través de la cual se resolverá el FQDN de servicios web externos.</span><span class="sxs-lookup"><span data-stu-id="f14bc-120">Must be able to allow binding of a certificate to a listener or interface through which the external web services FQDN will resolve.</span></span> <span data-ttu-id="f14bc-121">Se prefiere una configuración de agente de escucha a una de interfaz.</span><span class="sxs-lookup"><span data-stu-id="f14bc-121">Listener configurations are preferable to interfaces.</span></span> <span data-ttu-id="f14bc-122">Se pueden configurar varios agentes de escucha en una sola interfaz.</span><span class="sxs-lookup"><span data-stu-id="f14bc-122">Many listeners can be configured on a single interface.</span></span>
 
-  - Crear un puente para el tráfico TCP no cifrado desde un puerto (TCP 80, por ejemplo) a otro (TCP 8080, por ejemplo).
+  - <span data-ttu-id="f14bc-123">Debe permitir la configuración de la administración de encabezados de host.</span><span class="sxs-lookup"><span data-stu-id="f14bc-123">Must allow for the configuration of host header handling.</span></span> <span data-ttu-id="f14bc-124">A menudo, el encabezado de host original enviado por el cliente solicitante debe transferirse de forma transparente, en lugar de ser modificado por el proxy inverso.</span><span class="sxs-lookup"><span data-stu-id="f14bc-124">Often, the original host header sent by the requesting client must be passed transparently, instead of being modified by the reverse proxy.</span></span>
 
-  - Permitir la configuración de los tipos de autenticación NTLM, Sin autenticación y Autenticación de paso a través, o aceptar estos tipos de autenticación.
+  - <span data-ttu-id="f14bc-125">Puentes de tráfico SSL y TLS de un puerto definido externamente (por ejemplo, TCP 443) a otro puerto definido (por ejemplo, TCP 4443).</span><span class="sxs-lookup"><span data-stu-id="f14bc-125">Bridging of SSL and TLS traffic from one externally defined port (for example, TCP 443) to another defined port (for example, TCP 4443).</span></span> <span data-ttu-id="f14bc-126">El proxy inverso puede descifrar el paquete en el recibo y, después, volver a cifrar el paquete al enviarlo.</span><span class="sxs-lookup"><span data-stu-id="f14bc-126">The reverse proxy may decrypt the packet on receipt and then reencrypt the packet on sending.</span></span>
+
+  - <span data-ttu-id="f14bc-127">Puentes de tráfico TCP no cifrado de un puerto (por ejemplo, TCP 80) a otro (por ejemplo, TCP 8080).</span><span class="sxs-lookup"><span data-stu-id="f14bc-127">Bridging of unencrypted TCP traffic from one port (for example, TCP 80) to another (for example, TCP 8080).</span></span>
+
+  - <span data-ttu-id="f14bc-128">Permitir la configuración de autenticación NTLM o aceptarla, sin autenticación ni autenticación de acceso directo.</span><span class="sxs-lookup"><span data-stu-id="f14bc-128">Allow configuration of, or accept, NTLM authentication, No authentication and Pass-through authentication.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

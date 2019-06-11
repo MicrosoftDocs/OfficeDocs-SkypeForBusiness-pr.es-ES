@@ -1,28 +1,55 @@
-﻿---
-title: Planeamiento de capacidad de la respuesta de llamadas en grupo
-TOCTitle: Planeamiento de capacidad de la respuesta de llamadas en grupo
-ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ984297(v=OCS.15)
-ms:contentKeyID: 52061591
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planeación de capacidad para la recogida de llamadas grupales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Group Call Pickup
+ms:assetid: 0d654a19-6cf0-4118-903d-ec2c4e519253
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ984297(v=OCS.15)
+ms:contentKeyID: 51476680
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ba588de723e7482039fdae4b97991080a1b92c47
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842676"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planeamiento de capacidad de la respuesta de llamadas en grupo
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="capacity-planning-for-group-call-pickup-in-lync-server-2013"></a><span data-ttu-id="3bbac-102">Planificación de la capacidad para la recopilación de llamadas grupales en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="3bbac-102">Capacity planning for Group Call Pickup in Lync Server 2013</span></span>
 
-En la siguiente tabla se describe el modelo de usuario de la atención de llamadas grupales que puede usar como base para los requisitos de planeación de la capacidad.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="3bbac-103">_**Última modificación del tema:** 2013-02-12_</span><span class="sxs-lookup"><span data-stu-id="3bbac-103">_**Topic Last Modified:** 2013-02-12_</span></span>
+
+<div id="sectionSection0" class="section">
+
+<span data-ttu-id="3bbac-104">En la siguiente tabla se describe el modelo de usuario de recogida de llamadas grupales que puede usar como base para los requisitos de planes de capacidad.</span><span class="sxs-lookup"><span data-stu-id="3bbac-104">The following table describes the Group Call Pickup user model that you can use as the basis for capacity planning requirements.</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> La atención de llamadas grupales se basa en el Aplicación de estacionamiento de llamadas. Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debe poder administrar las cargas de trabajo de los servicios de Estacionamiento de llamadas, incluida la atención de llamadas grupales, en ambos grupos.
+> <span data-ttu-id="3bbac-105">La recogida de llamadas grupales se basa en la aplicación de estacionamiento de llamadas.</span><span class="sxs-lookup"><span data-stu-id="3bbac-105">Group Call Pickup is based on the Call Park application.</span></span> <span data-ttu-id="3bbac-106">Tenga en cuenta que, para la planeación de la capacidad de recuperación ante desastres, cada grupo de un grupo emparejado debería poder controlar las cargas de trabajo de los servicios de estacionamiento de llamadas, incluida la recogida de llamadas grupales, en ambos grupos.</span><span class="sxs-lookup"><span data-stu-id="3bbac-106">Keep in mind that, for disaster recovery capacity planning, each pool of a paired pool should be able to handle the workloads for Call Park services, including Group Call Pickup, in both pools.</span></span>
 
 
 
-### Modelo de usuario de la atención de llamadas grupales
+</div>
+
+### <a name="group-call-pickup-user-model"></a><span data-ttu-id="3bbac-107">Modelo de usuario de llamada grupal</span><span class="sxs-lookup"><span data-stu-id="3bbac-107">Group Call Pickup User Model</span></span>
 
 <table>
 <colgroup>
@@ -32,47 +59,64 @@ En la siguiente tabla se describe el modelo de usuario de la atención de llamad
 </colgroup>
 <thead>
 <tr class="header">
-<th>Métrica</th>
-<th>Por Grupo de servidores front-end (con 8 servidores front-end)</th>
-<th>Por Servidor Standard Edition</th>
+<th><span data-ttu-id="3bbac-108">Métrica</span><span class="sxs-lookup"><span data-stu-id="3bbac-108">Metric</span></span></th>
+<th><span data-ttu-id="3bbac-109">Por grupo front-end (con 8 servidores frontales)</span><span class="sxs-lookup"><span data-stu-id="3bbac-109">Per Front End pool (with 8 Front End Servers)</span></span></th>
+<th><span data-ttu-id="3bbac-110">Por servidor Standard Edition</span><span class="sxs-lookup"><span data-stu-id="3bbac-110">Per Standard Edition server</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Número recomendado de usuarios por grupo</p></td>
-<td><p>50</p></td>
-<td><p>50</p></td>
+<td><p><span data-ttu-id="3bbac-111">Cantidad recomendada de usuarios por grupo</span><span class="sxs-lookup"><span data-stu-id="3bbac-111">Recommended number of users per group</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-112">50</span><span class="sxs-lookup"><span data-stu-id="3bbac-112">50</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-113">50</span><span class="sxs-lookup"><span data-stu-id="3bbac-113">50</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Número recomendado de grupos</p></td>
-<td><p>500</p></td>
-<td><p>60</p></td>
+<td><p><span data-ttu-id="3bbac-114">Cantidad recomendada de grupos</span><span class="sxs-lookup"><span data-stu-id="3bbac-114">Recommended number of groups</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-115">500</span><span class="sxs-lookup"><span data-stu-id="3bbac-115">500</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-116">60</span><span class="sxs-lookup"><span data-stu-id="3bbac-116">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Número máximo de usuarios por grupo habilitados para la atención de llamadas grupales</p></td>
-<td><p>25.000</p></td>
-<td><p>3.000</p></td>
+<td><p><span data-ttu-id="3bbac-117">Cantidad máxima de usuarios por grupo habilitados para la atención de llamadas grupales</span><span class="sxs-lookup"><span data-stu-id="3bbac-117">Maximum number of users per pool enabled for Group Call Pickup</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-118">25 000</span><span class="sxs-lookup"><span data-stu-id="3bbac-118">25,000</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-119">3.000</span><span class="sxs-lookup"><span data-stu-id="3bbac-119">3,000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo, por minuto</p></td>
-<td><p>500</p></td>
-<td><p>60</p></td>
+<td><p><span data-ttu-id="3bbac-120">Tasa máxima de llamadas entrantes al total de usuarios habilitados para la atención de llamadas grupales por grupo, por minuto</span><span class="sxs-lookup"><span data-stu-id="3bbac-120">Maximum rate of incoming calls to total users enabled for Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-121">500</span><span class="sxs-lookup"><span data-stu-id="3bbac-121">500</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-122">60</span><span class="sxs-lookup"><span data-stu-id="3bbac-122">60</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Tasa máxima de llamadas recuperadas por los usuarios con la atención de llamadas grupales por grupo, por minuto</p></td>
-<td><p>200</p></td>
-<td><p>25</p></td>
+<td><p><span data-ttu-id="3bbac-123">Tasa máxima de llamadas recuperadas por los usuarios con la atención de llamadas grupales por grupo, por minuto</span><span class="sxs-lookup"><span data-stu-id="3bbac-123">Maximum rate of calls retrieved by users with Group Call Pickup per pool per minute</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-124">200</span><span class="sxs-lookup"><span data-stu-id="3bbac-124">200</span></span></p></td>
+<td><p><span data-ttu-id="3bbac-125">veinticinco</span><span class="sxs-lookup"><span data-stu-id="3bbac-125">25</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-> [!NOTE]
+
+> [!NOTE]  
 > <UL>
 > <LI>
-> <P>Para los Grupos de servidores front-end con menos de ocho Servidores front-end, calcule las métricas de manera lineal. Por ejemplo, si su Grupo de servidores front-end tiene un Servidor front-end, calcule la carga máxima como un octavo de los valores que se muestran en la tabla.</P>
+> <P><span data-ttu-id="3bbac-126">Para los grupos de servidores front-end que tienen menos de ocho servidores front-end, calcule las métricas linealmente.</span><span class="sxs-lookup"><span data-stu-id="3bbac-126">For Front End pools that have fewer than eight Front End Servers, calculate the metrics linearly.</span></span> <span data-ttu-id="3bbac-127">Por ejemplo, si el grupo de servidores front-end tiene un servidor front-end, calcule la carga máxima como 1/8 de los valores que se muestran en la tabla.</span><span class="sxs-lookup"><span data-stu-id="3bbac-127">For example, if your Front End pool has one Front End Server, calculate the maximum load as 1/8 of the values shown in the table.</span></span></P>
 > <LI>
-> <P>Puede aumentar o disminuir el número recomendado de usuarios por grupo y el número de grupos siempre y cuando no supere el número máximo de usuarios por grupo. Por ejemplo, su Servidor Standard Edition puede tener 120 grupos con 25 usuarios por grupo porque el número de usuarios habilitados para la atención de llamadas grupales aún se encuentra dentro del máximo del modelo de usuario (es decir, 120 grupos por 25 usuarios arroja un total de 3.000 usuarios habilitados para la atención de llamadas grupales).</P></LI></UL>
+> <P><span data-ttu-id="3bbac-128">Puedes aumentar o disminuir la cantidad recomendada de usuarios por grupo y la cantidad de grupos siempre y cuando no supere la cantidad máxima de usuarios por grupo.</span><span class="sxs-lookup"><span data-stu-id="3bbac-128">You can increase or decrease the recommended number of users per group and number of groups as long as you do not exceed the maximum number of users per pool.</span></span> <span data-ttu-id="3bbac-129">Por ejemplo, su servidor Standard Edition puede tener 120 grupos con 25 usuarios por grupo, porque la cantidad de usuarios habilitada para la recogida de llamadas grupales todavía está dentro del modelo de usuario máximo (es decir, 120 grupos de 25 usuarios es 3.000 usuarios habilitados para la recogida de llamadas grupales).</span><span class="sxs-lookup"><span data-stu-id="3bbac-129">For example, your Standard Edition server can have 120 groups with 25 users per group because the number of users enabled for Group Call Pickup is still within the user model maximum (that is, 120 groups times 25 users is 3,000 users enabled for Group Call Pickup).</span></span></P></LI></UL>
 
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,68 +1,74 @@
-﻿---
-title: Cmdlets de ámbito global y de etiqueta
-TOCTitle: Cmdlets de ámbito global y de etiqueta
-ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362774(v=OCS.15)
-ms:contentKeyID: 56271271
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets de ámbito global y de etiqueta
+title: Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de la etiqueta
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use the global scope and the tag scope
+ms:assetid: 1e2bc055-8a72-425e-967b-e253add7018c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362774(v=OCS.15)
+ms:contentKeyID: 56558824
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 51327b98be69f92736c1c8523c97b4de6463273b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842094"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-the-global-scope-and-the-tag-scope"></a><span data-ttu-id="57c40-102">Cmdlets de Skype empresarial online que usan el ámbito global y el ámbito de la etiqueta</span><span class="sxs-lookup"><span data-stu-id="57c40-102">Cmdlets in Skype for Business Online that use the global scope and the tag scope</span></span>
 
  
 
-_**Última modificación del tema:** 2015-06-22_
 
-En Skype Empresarial Online, las directivas se pueden configurar en el *ámbito global* o en el *ámbito de etiqueta* (o *ámbito por usuario*). Al usar los cmdlets de **Get-Cs**, no tiene que especificar un ámbito ni una identidad. Si llama a uno de estos cmdlets sin ningún parámetro, se devolverán todos los elementos relevantes. Por ejemplo, este comando devuelve información sobre todas las directivas de acceso externo:
+<span data-ttu-id="57c40-103">En Skype empresarial online, las directivas se pueden configurar en el *ámbito global* o en el *ámbito* de la etiqueta (o *por ámbito de usuario*).</span><span class="sxs-lookup"><span data-stu-id="57c40-103">In Skype for Business Online, policies can be configured at either the *global scope* or at the *tag scope* (or *per-user scope*).</span></span> <span data-ttu-id="57c40-104">Al usar los cmdlets **Get-CS** , no tiene que especificar un ámbito o una identidad.</span><span class="sxs-lookup"><span data-stu-id="57c40-104">When using the **Get-Cs** cmdlets, you do not have to specify a scope or identity.</span></span> <span data-ttu-id="57c40-105">Si llama a uno de estos cmdlets sin parámetros, se devolverán todos los elementos pertinentes.</span><span class="sxs-lookup"><span data-stu-id="57c40-105">If you call one of these cmdlets without any parameters, then all the relevant items will be returned.</span></span> <span data-ttu-id="57c40-106">Por ejemplo, este comando devuelve información acerca de todas las directivas de acceso externas:</span><span class="sxs-lookup"><span data-stu-id="57c40-106">For example, this command returns information about all your external access policies:</span></span>
 
     Get-CsExternalAccessPolicy
 
-Solo tiene que incluir el parámetro Identity o Filter si quiere limitar los datos devueltos. Por ejemplo, para devolver solo la directiva global, use este comando:
+<span data-ttu-id="57c40-107">Si desea limitar los datos devueltos, solo tiene que incluir el parámetro Identity o el parámetro filter.</span><span class="sxs-lookup"><span data-stu-id="57c40-107">You need to include only the Identity parameter or the Filter parameter if you want to limit the returned data.</span></span> <span data-ttu-id="57c40-108">Por ejemplo, para devolver solo la directiva global, use este comando:</span><span class="sxs-lookup"><span data-stu-id="57c40-108">For example, to return only the global policy, use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Identity "global"
 
-Para devolver una directiva por usuario que tenga la identidad "RedmondAccessPolicy", use este comando:
+<span data-ttu-id="57c40-109">Para devolver una directiva por usuario que tenga la identidad "RedmondAccessPolicy", use este comando:</span><span class="sxs-lookup"><span data-stu-id="57c40-109">To return a per-user policy that has the Identity “RedmondAccessPolicy”, use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Identity "RedmondAccessPolicy"
 
 
-> [!NOTE]
-> Al hacer referencia a una directiva por usuario, el <STRONG>prefijo</STRONG> "tag" (etiqueta) es opcional. Esta sintaxis, que incluye el prefijo, también es válida:<BR>Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"
+> [!NOTE]  
+> <span data-ttu-id="57c40-110">Cuando se hace referencia a una directiva por usuario, <STRONG></STRONG> el prefijo de etiqueta es opcional.</span><span class="sxs-lookup"><span data-stu-id="57c40-110">When referencing a per-user policy, the tag <STRONG>prefix</STRONG> is optional.</span></span> <span data-ttu-id="57c40-111">Esta sintaxis, que incluye el prefijo, también es válida:</span><span class="sxs-lookup"><span data-stu-id="57c40-111">This syntax, which includes the prefix, is also valid:</span></span><BR><span data-ttu-id="57c40-112">Get-CsExternalAccessPolicy – Identity "etiqueta: RedmondAccessPolicy"</span><span class="sxs-lookup"><span data-stu-id="57c40-112">Get-CsExternalAccessPolicy –Identity "tag:RedmondAccessPolicy"</span></span>
 
 
 
-Para devolver todas las directivas excepto las globales (es decir, todas las directivas por usuario), use este comando:
+<span data-ttu-id="57c40-113">Para devolver todas las directivas excepto las directivas globales (es decir, todas las directivas por usuario), use este comando:</span><span class="sxs-lookup"><span data-stu-id="57c40-113">To return all policies except the global policies (that is, all the per-user policies), use this command:</span></span>
 
     Get-CsExternalAccessPolicy -Filter "tag:*"
 
-Los cmdlets siguientes funcionan tanto en el ámbito global como en el ámbito por usuario (de etiqueta):
+<span data-ttu-id="57c40-114">Los siguientes cmdlets funcionan contra el ámbito global y el ámbito por usuario (etiqueta):</span><span class="sxs-lookup"><span data-stu-id="57c40-114">The following cmdlets operate against both the global scope and the per-user (tag) scope:</span></span>
 
-  - [Get-CsClientPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsClientPolicy)
+  - <span data-ttu-id="57c40-115">[Get-ClientPolicy](https://technet.microsoft.com/en-us/library/gg398830\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-115">[Get-CsClientPolicy](https://technet.microsoft.com/en-us/library/gg398830\(v=ocs.15\))</span></span>
 
-  - [Get-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsConferencingPolicy)
+  - <span data-ttu-id="57c40-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg398293\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-116">[Get-CsConferencingPolicy](https://technet.microsoft.com/en-us/library/gg398293\(v=ocs.15\))</span></span>
 
-  - [Get-CsDialPlan](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsDialPlan)
+  - <span data-ttu-id="57c40-117">[Get-CsDialPlan](https://technet.microsoft.com/en-us/library/gg413043\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-117">[Get-CsDialPlan](https://technet.microsoft.com/en-us/library/gg413043\(v=ocs.15\))</span></span>
 
-  - [Get-CsExternalAccessPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExternalAccessPolicy)
+  - <span data-ttu-id="57c40-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425805\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-118">[Get-CsExternalAccessPolicy](https://technet.microsoft.com/en-us/library/gg425805\(v=ocs.15\))</span></span>
 
-  - [Get-CsHostedVoicemailPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostedVoicemailPolicy)
+  - <span data-ttu-id="57c40-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg398348\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-119">[Get-CsHostedVoicemailPolicy](https://technet.microsoft.com/en-us/library/gg398348\(v=ocs.15\))</span></span>
 
-  - [Get-CsPresencePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPresencePolicy)
+  - <span data-ttu-id="57c40-120">[Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/gg398463\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-120">[Get-CsPresencePolicy](https://technet.microsoft.com/en-us/library/gg398463\(v=ocs.15\))</span></span>
 
-  - [Get-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsVoicePolicy)
-
-
-> [!NOTE]
-> A pesar del nombre, los planes de marcado son directivas desde el punto de vista funcional. El término <EM>plan de marcado</EM> se usa en lugar de, por ejemplo, directiva de marcado para mantener la coherencia con la terminología de las versiones anteriores de Lync Server.
+  - <span data-ttu-id="57c40-121">[Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-121">[Get-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398101\(v=ocs.15\))</span></span>
 
 
+> [!NOTE]  
+> <span data-ttu-id="57c40-122">A pesar del nombre, los planes de marcado son, en términos funcionales, directivas.</span><span class="sxs-lookup"><span data-stu-id="57c40-122">Despite the name, dial plans are, functionally speaking, policies.</span></span> <span data-ttu-id="57c40-123">El <EM>plan de marcado</EM> de términos se usa en lugar de, por ejemplo, la Directiva de marcado, a fin de preservar la terminología que se usa con versiones anteriores de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="57c40-123">The term <EM>dial plan</EM> is used instead of, for example, dialing policy, in order to preserve the terminology used with previous versions of Lync Server.</span></span>
 
-## Vea también
 
-#### Conceptos
 
-[Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+## <a name="see-also"></a><span data-ttu-id="57c40-124">Vea también</span><span class="sxs-lookup"><span data-stu-id="57c40-124">See Also</span></span>
+
+
+[<span data-ttu-id="57c40-125">Identidades, ámbitos y espacios empresariales en Skype empresarial online</span><span class="sxs-lookup"><span data-stu-id="57c40-125">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="57c40-126">[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="57c40-126">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

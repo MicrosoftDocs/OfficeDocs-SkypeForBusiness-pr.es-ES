@@ -1,63 +1,101 @@
-﻿---
-title: Procedimientos recomendados de copia de seguridad y restauración
-TOCTitle: Procedimientos recomendados de copia de seguridad y restauración
-ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202184(v=OCS.15)
-ms:contentKeyID: 52061751
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: procedimientos recomendados para copias de seguridad y restauración'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for backup and restoration
+ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
+ms:contentKeyID: 51541500
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842725"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Procedimientos recomendados de copia de seguridad y restauración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a><span data-ttu-id="5daa4-102">Procedimientos recomendados para copias de seguridad y restauración de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="5daa4-102">Best practices for backup and restoration for Lync Server 2013</span></span>
 
-Esta sección incluye dos tipos de procedimientos recomendados:
+</div>
 
-  - Procedimientos recomendados de copia de seguridad y restauración.
+<div id="mainSection">
 
-  - Procedimientos recomendados para minimizar el impacto de un desastre.
+<div id="mainBody">
 
-## Procedimientos recomendados de copia de seguridad y restauración
+<span> </span>
 
-Aplique los siguientes procedimientos recomendados para facilitar los procesos de copia de seguridad y restauración:
+<span data-ttu-id="5daa4-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="5daa4-103">_**Topic Last Modified:** 2013-02-21_</span></span>
 
-  - Haga copias de seguridad periódicamente y a intervalos apropiados. La rutina más sencilla y habitual a la hora de programar copias de seguridad es hacer cada noche copias completas de toda la base de datos de SQL Server. Así, si hay que restaurar el sistema, solo se necesita una copia de seguridad y no suele perderse más de un día de datos.
+<span data-ttu-id="5daa4-104">Esta sección incluye dos tipos de procedimientos recomendados:</span><span class="sxs-lookup"><span data-stu-id="5daa4-104">This section includes two types of best practices:</span></span>
 
-  - Si usa cmdlets o el Panel de control de Lync Server para hacer cambios de configuración, use el cmdlet **Export-CsConfiguration** para hacer una copia de seguridad tipo instantánea del archivo de configuración de topología (Xds.mdf) tras hacer los cambios. Así, si necesita restaurar sus bases de datos, no perderá los cambios. Observe que esta configuración se guarda en una copia de seguridad en formato XML y en un archivo comprimido ZIP.
+  - <span data-ttu-id="5daa4-105">Procedimientos recomendados para la copia de seguridad y la restauración.</span><span class="sxs-lookup"><span data-stu-id="5daa4-105">Best practices for backup and restoration.</span></span>
 
-  - Asegúrese de que la carpeta compartida que prevé usar para hacer copias de seguridad de Lync Server tiene suficiente espacio en el disco para guardar todos los datos de los que haga copia de seguridad.
+  - <span data-ttu-id="5daa4-106">Procedimientos recomendados para minimizar el impacto de un desastre.</span><span class="sxs-lookup"><span data-stu-id="5daa4-106">Best practices for minimizing the impact of a disaster.</span></span>
 
-  - Programe las copias de seguridad para que se hagan en los momentos en los que se suela usar menos Lync Server. De esta manera, mejorará el rendimiento del servidor y la experiencia del usuario.
+<div>
 
-  - Asegúrese de que la ubicación en la que guarda la copia de seguridad de los datos sea segura (recomendamos una ubicación remota).
+## <a name="best-practices-for-backup-and-restoration"></a><span data-ttu-id="5daa4-107">Procedimientos recomendados para copias de seguridad y restauración</span><span class="sxs-lookup"><span data-stu-id="5daa4-107">Best Practices for Backup and Restoration</span></span>
 
-  - Guarde las copias de seguridad en una ubicación de de fácil acceso por si necesita restaurar los datos.
+<span data-ttu-id="5daa4-108">Para facilitar el proceso de copia de seguridad y restauración, al hacer una copia de seguridad o restaurar los datos, siga estos procedimientos recomendados:</span><span class="sxs-lookup"><span data-stu-id="5daa4-108">To facilitate your backup and restoration process, apply the following best practices when you back up or restore your data:</span></span>
 
-  - Planee y programe pruebas periódicas de los procesos de restauración con el apoyo de su organización.
+  - <span data-ttu-id="5daa4-109">Realice copias de seguridad periódicas en intervalos apropiados.</span><span class="sxs-lookup"><span data-stu-id="5daa4-109">Perform regular backups at appropriate intervals.</span></span> <span data-ttu-id="5daa4-110">La programación de rotación y el tipo de copia de seguridad más simple y frecuente es una copia de seguridad nocturna completa de toda la base de datos de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="5daa4-110">The simplest and most commonly used backup type and rotation schedule is a full, nightly backup of the entire SQL Server database.</span></span> <span data-ttu-id="5daa4-111">Después, si es necesario restaurar, el proceso de restauración solo requiere una copia de seguridad, y no se deben perder más de un día.</span><span class="sxs-lookup"><span data-stu-id="5daa4-111">Then, if restoration is necessary, the restoration process requires only one backup, and no more than a day’s data should be lost.</span></span>
 
-  - Valide los procesos de copia de seguridad y restauración por adelantado para asegurarse de que funcionan según lo esperado.
+  - <span data-ttu-id="5daa4-112">Si usa cmdlets o el panel de control de Lync Server para realizar cambios de configuración, use el cmdlet **Export-CsConfiguration** para tomar una copia de seguridad de instantáneas del archivo de configuración de topología (XDS. MDF) después de realizar los cambios, de modo que no pierda los cambios si debe restaurar las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="5daa4-112">If you use cmdlets or the Lync Server Control Panel to make configuration changes, use the **Export-CsConfiguration** cmdlet to take a snapshot backup of the topology configuration file (Xds.mdf) after you make the changes, so that you won't lose the changes if you need to restore your databases.</span></span> <span data-ttu-id="5daa4-113">Tenga en cuenta que se realiza una copia de seguridad de esta configuración en formato XML y se comprime como archivo ZIP.</span><span class="sxs-lookup"><span data-stu-id="5daa4-113">Note that this configuration is backed up in XML format and compressed as a ZIP file.</span></span>
 
-## Procedimientos recomendados para minimizar el impacto de un desastre
+  - <span data-ttu-id="5daa4-114">Asegúrese de que la carpeta compartida que va a usar para realizar copias de seguridad de Lync Server tenga suficiente espacio en disco para almacenar todos los datos de la copia de seguridad.</span><span class="sxs-lookup"><span data-stu-id="5daa4-114">Make sure that the shared folder you plan to use for backing up Lync Server has sufficient disk space to hold all the backed up data.</span></span>
 
-La mejor estrategia para enfrentarse a interrupciones del servicio de consecuencias desastrosas (provocadas por situaciones incontrolables como cortes del suministro eléctrico o errores repentinos de hardware) es dar por sentado que ocurrirán y hacer los planes pertinentes.
+  - <span data-ttu-id="5daa4-115">Programe copias de seguridad cuando el uso de Lync Server sea generalmente bajo, para mejorar el rendimiento del servidor y la experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="5daa4-115">Schedule backups when Lync Server usage is typically low, to improve server performance and user experience.</span></span>
 
-Si los servicios de Lync, con un mínimo de interrupción, son fundamentales para su organización, considere la opción de implementar grupos emparejados de servidores front-end, tal como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Después de hacerlo, si se produce un desastre en uno de estos grupos, un administrador podrá mover los usuarios de ese grupo para que reciban el servicio del otro grupo con un tiempo de inactividad mínimo.
+  - <span data-ttu-id="5daa4-116">Asegúrese de que la ubicación donde se realiza la copia de seguridad de los datos es segura (recomendamos una ubicación remota).</span><span class="sxs-lookup"><span data-stu-id="5daa4-116">Make sure that the location where you back up data is secure (we recommend a remote location).</span></span>
 
-En los planes de administración de desastres que implemente como parte de su estrategia de copia de seguridad y restauración, se debe tener en cuenta lo siguiente:
+  - <span data-ttu-id="5daa4-117">Mantenga los archivos de copia de seguridad donde estarán disponibles, en caso de que necesite restaurar los datos.</span><span class="sxs-lookup"><span data-stu-id="5daa4-117">Keep the backup files where they will be available, in case you need to restore the data.</span></span>
 
-  - Tenga siempre a mano los medios de software y las actualizaciones de software y firmware.
+  - <span data-ttu-id="5daa4-118">Planear y programar pruebas periódicas de los procesos de restauración admitidos por su organización.</span><span class="sxs-lookup"><span data-stu-id="5daa4-118">Plan for and schedule periodic testing of the restoration processes that are supported by your organization.</span></span>
 
-  - Mantenga registros de hardware y software.
+  - <span data-ttu-id="5daa4-119">Valide los procesos de copia de seguridad y restauración por adelantado para asegurarse de que funcionan de la forma esperada.</span><span class="sxs-lookup"><span data-stu-id="5daa4-119">Validate your backup and restoration processes in advance to make sure that they work as expected.</span></span>
 
-  - Haga copias de seguridad de sus datos periódicamente y supervise la integridad de las mismas.
+</div>
 
-  - Forme a su personal en recuperación de desastres, documente todos los procedimientos y lleve a cabo simulacros de recuperación de desastres.
+<div>
 
-  - Tenga siempre a mano hardware de repuesto. Si tiene un contrato de nivel de servicio (SLA), póngase en contacto con los distribuidores y minoristas de hardware para obtener rápidamente equipos de repuesto.
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a><span data-ttu-id="5daa4-120">Procedimientos recomendados para minimizar el impacto de un desastre</span><span class="sxs-lookup"><span data-stu-id="5daa4-120">Best Practices for Minimizing the Impact of a Disaster</span></span>
 
-  - Separe la ubicación de sus archivos de registro de transacciones (archivos .ldf) y los archivos de bases de datos (archivos .mdf).
+<span data-ttu-id="5daa4-121">La mejor estrategia para resolver interrupciones de servicio desastrosas (causadas por eventos no manejables, como cortes de energía o errores de hardware repentinos) es asumir que ocurrirán y planificar según corresponda.</span><span class="sxs-lookup"><span data-stu-id="5daa4-121">The best strategy for dealing with disastrous service interruptions (caused by unmanageable events such as power outages or sudden hardware failures) is to assume they will happen, and to plan accordingly.</span></span>
+
+<span data-ttu-id="5daa4-122">Si los servicios de Lync, con un mínimo de interrupción y interrupción, son importantes para la empresa, debe considerar la posibilidad de implementar grupos de servidores de solicitudes de cliente emparejados, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server. 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span><span class="sxs-lookup"><span data-stu-id="5daa4-122">If Lync services, with a minimum of disruption and outage, are business-critical for your organization, you should consider implementing paired pools of Front End Servers, as described in [Planning for high availability and disaster recovery in Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md).</span></span> <span data-ttu-id="5daa4-123">Después, si uno de estos grupos de servidores tiene un desastre, un administrador puede cambiar los usuarios de ese grupo para que el otro grupo lo atienda, con un mínimo de tiempo de inactividad.</span><span class="sxs-lookup"><span data-stu-id="5daa4-123">Then, if one of these pools has a disaster, an administrator can switch the users of that pool to be served by the other pool, with a minimum of downtime.</span></span>
+
+<span data-ttu-id="5daa4-124">Los planes de administración ante desastres que desarrolla como parte de su estrategia de copia de seguridad y restauración deben incluir lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="5daa4-124">The disaster management plans that you develop as part of your backup and restoration strategy should include the following:</span></span>
+
+  - <span data-ttu-id="5daa4-125">Cómo mantener los medios de software y las actualizaciones de software y firmware disponibles.</span><span class="sxs-lookup"><span data-stu-id="5daa4-125">Keeping your software media, and your software and firmware updates, readily available.</span></span>
+
+  - <span data-ttu-id="5daa4-126">Mantener registros de hardware y software.</span><span class="sxs-lookup"><span data-stu-id="5daa4-126">Maintaining hardware and software records.</span></span>
+
+  - <span data-ttu-id="5daa4-127">Realizar copias de seguridad de los datos de forma periódica y supervisar la integridad de las copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="5daa4-127">Backing up your data regularly and monitoring the integrity of your backups.</span></span>
+
+  - <span data-ttu-id="5daa4-128">Formación de su personal en la recuperación de desastres, documentación de procedimientos e implementación de simulacros de recuperación ante desastres.</span><span class="sxs-lookup"><span data-stu-id="5daa4-128">Training your staff in disaster recovery, documenting procedures, and implementing disaster recovery simulation drills.</span></span>
+
+  - <span data-ttu-id="5daa4-129">Mantener disponible el hardware de repuesto o, si tiene un contrato de nivel de servicio (SLA), contratar a proveedores de hardware y proveedores para el reemplazo de solicitudes.</span><span class="sxs-lookup"><span data-stu-id="5daa4-129">Keeping spare hardware available, or, if you have a service level agreement (SLA), contracting with hardware vendors and suppliers for prompt replacements.</span></span>
+
+  - <span data-ttu-id="5daa4-130">Separar la ubicación de los archivos de registro de transacciones (archivos. ldf) y los archivos de base de datos (archivos. MDF).</span><span class="sxs-lookup"><span data-stu-id="5daa4-130">Separating the location of your transaction log files (.ldf files) and database files (.mdf files).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

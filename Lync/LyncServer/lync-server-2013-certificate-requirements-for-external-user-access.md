@@ -1,92 +1,136 @@
-﻿---
-title: 'Lync Server 2013: Requisitos de certificado para el acceso de usuarios externos'
-TOCTitle: Requisitos de certificado para el acceso de usuarios externos
-ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398920(v=OCS.15)
-ms:contentKeyID: 48276789
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos de certificado para el acceso de usuarios externos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for external user access
+ms:assetid: d45b6b10-556f-4b10-b1a7-fb0d0a64a498
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398920(v=OCS.15)
+ms:contentKeyID: 48185503
+ms.date: 03/29/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e7e7a0802cee8b91e18eaf50e5c2c3942ca54308
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842662"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de certificado para el acceso de usuarios externos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="certificate-requirements-for-external-user-access-in-lync-server-2013"></a><span data-ttu-id="98115-102">Requisitos de certificado para el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98115-102">Certificate requirements for external user access in Lync Server 2013</span></span>
 
-El Microsoft Lync Server 2013 software de comunicaciones admite el uso de un único certificado público para interfaces externas perimetrales, de conferencia web y de acceso, además del servicio de autenticación A/V. La interfaz interna perimetral utiliza generalmente un certificado privado que emite una autoridad de certificación (CA) interna, pero también puede usar un certificado público siempre y cuando sea de una CA pública de confianza. El servidor proxy inverso de la implementación utiliza un certificado público y cifra la comunicación desde el proxy inverso hacia los clientes y del proxy inverso hacia los servidores internos utilizando HTTP (es decir, seguridad de la capa de transporte por HTTP).
+</div>
 
-Después se indican los requisitos para el certificado público usado para interfaces externas perimetrales, de conferencia web y de acceso, así como el servicio de autenticación A/V:
+<div id="mainSection">
 
-  - El certificado debe ser emitido por una CA pública aprobada que admita el nombre alternativo de sujeto. Para más información, vea el artículo 929395 de Microsoft Knowledge Base, "Socios de certificado de comunicaciones unificadas de Exchange Server y para Communications Server", en <http://go.microsoft.com/fwlink/?linkid=202834>.
+<div id="mainBody">
 
-  - Si el certificado se va a usar en un grupo de servidores perimetrales, créelo como exportable, con el mismo certificado usado en cada servidor perimetral en el grupo de servidores perimetrales. El requisito de clave privada exportable se debe al servicio de autenticación A/V, que debe usar la misma clave privada a través de todos los servidores perimetrales en el grupo.
+<span> </span>
 
-  - Si desea obtener el máximo provecho del tiempo de actividad de los servicios de audio y vídeo, revise los requisitos del certificado para implementar un certificado de Servicio perimetral A/V separado (es decir un certificado de Servicio perimetral A/V diferente de los otros fines del certificado de perímetro externo). Para más información, vea [Cambios en Lync Server 2013 que afectan a la planificación del servidor perimetral](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Plan para certificados de servidores perimetrales en Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) y [Prueba de certificados de OAuth y audio y vídeo en Lync Server 2013 utilizando -Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCertificate).
+<span data-ttu-id="98115-103">_**Última modificación del tema:** 2016-03-29_</span><span class="sxs-lookup"><span data-stu-id="98115-103">_**Topic Last Modified:** 2016-03-29_</span></span>
 
-  - El nombre de sujeto del certificado es el nombre de dominio completo (FQDN) de la interfaz perimetral externa de Servidor perimetral de acceso o la IP virtual (VIP) del equilibrador de carga de hardware (por ejemplo, access.contoso.com).
+<span data-ttu-id="98115-104">El software de comunicaciones Microsoft Lync Server 2013 admite el uso de un único certificado público para las interfaces externas de acceso y de conferencia Web, además del servicio de autenticación A/V.</span><span class="sxs-lookup"><span data-stu-id="98115-104">Microsoft Lync Server 2013 communications software supports the use of a single public certificate for access and web conferencing Edge external interfaces, plus the A/V Authentication service.</span></span> <span data-ttu-id="98115-105">La interfaz interna de Edge generalmente usa un certificado privado emitido por una entidad de certificación (CA) interna, pero también puede usar un certificado público, siempre que proviene de una CA pública de confianza.</span><span class="sxs-lookup"><span data-stu-id="98115-105">The Edge internal interface typically uses a private certificate issued by an internal certification authority (CA), but can also use a public certificate, provided that it is from a trusted public CA.</span></span> <span data-ttu-id="98115-106">El proxy inverso de la implementación usa un certificado público y cifra la comunicación desde el proxy inverso a los clientes y el proxy inverso a los servidores internos mediante HTTP (es decir, la seguridad de la capa de transporte a través de HTTP).</span><span class="sxs-lookup"><span data-stu-id="98115-106">The reverse proxy in your deployment uses a public certificate and encrypts the communication from the reverse proxy to clients and the reverse proxy to internal servers by using HTTP (that is, Transport Layer Security over HTTP).</span></span>
+
+<span data-ttu-id="98115-107">A continuación se indican los requisitos para el certificado público que se usa para las interfaces externas de acceso y de la conferencia Web, y el servicio de autenticación A/V:</span><span class="sxs-lookup"><span data-stu-id="98115-107">Following are the requirements for the public certificate used for access and web conferencing Edge external interfaces, and the A/V authentication service:</span></span>
+
+  - <span data-ttu-id="98115-108">El certificado debe ser emitido por una entidad de certificación pública aprobada que admita el nombre alternativo del sujeto.</span><span class="sxs-lookup"><span data-stu-id="98115-108">The certificate must be issued by an approved public CA that supports subject alternative name.</span></span> <span data-ttu-id="98115-109">Para obtener más información, consulte el artículo 929395 de Microsoft Knowledge base, "asociados de certificados de comunicaciones unificadas para Exchange Server [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834)y Communications Server", en.</span><span class="sxs-lookup"><span data-stu-id="98115-109">For details, see Microsoft Knowledge Base article 929395, "Unified Communications Certificate Partners for Exchange Server and for Communications Server," at [http://go.microsoft.com/fwlink/p/?linkId=202834](http://go.microsoft.com/fwlink/p/?linkid=202834).</span></span>
+
+  - <span data-ttu-id="98115-110">Si el certificado se va a usar en un grupo perimetral, debe crearse como exportable, con el mismo certificado que se usa en cada servidor perimetral del grupo Edge.</span><span class="sxs-lookup"><span data-stu-id="98115-110">If the certificate will be used on an Edge pool, it must be created as exportable, with the same certificate used on each Edge Server in the Edge pool.</span></span> <span data-ttu-id="98115-111">El requisito de clave privada exportable es para los fines del servicio de autenticación A/V, que debe usar la misma clave privada en todos los servidores perimetrales del grupo.</span><span class="sxs-lookup"><span data-stu-id="98115-111">The exportable private key requirement is for the purposes of the A/V Authentication service, which must use the same private key across all Edge Servers in the pool.</span></span>
+
+  - <span data-ttu-id="98115-112">Si desea maximizar el tiempo de actividad de sus servicios de audio/vídeo, revise los requisitos del certificado para implementar un certificado de servicio perimetral A/V desvinculado (es decir, un certificado de servicio perimetral A/V independiente de los otros objetivos de certificado de borde externo).</span><span class="sxs-lookup"><span data-stu-id="98115-112">If you want to maximize the uptime for your Audio/Video services, review the certificate requirements for implementing a decoupled A/V Edge service certificate (that is, a separate A/V Edge service certificate from the other External Edge certificate purposes).</span></span> <span data-ttu-id="98115-113">Para obtener más información, vea [cambios en Lync server 2013 que afectan a la planeación de los servidores perimetrales](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [plan para certificados de servidor perimetral en Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) y [certificados AV y OAuth en Lync Server 2013 mediante-Roll en Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate).</span><span class="sxs-lookup"><span data-stu-id="98115-113">For details, see [Changes in Lync Server 2013 that affect Edge Server planning](lync-server-2013-changes-in-lync-server-that-affect-edge-server-planning.md), [Plan for Edge Server certificates in Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md) and [Staging AV and OAuth certificates in Lync Server 2013 using -Roll in Set-CsCertificate](lync-server-2013-staging-av-and-oauth-certificates-using-roll-in-https://docs.microsoft.com/powershell/module/skype/Set-CsCertificate).</span></span>
+
+  - <span data-ttu-id="98115-114">El nombre de firmante del certificado es el nombre de dominio completo de la interfaz externa de servicio perimetral de Access (FQDN) o el equilibrio de carga de hardware VIP (por ejemplo, access.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="98115-114">The subject name of the certificate is the Access Edge service external interface fully qualified domain name (FQDN) or hardware load balancer VIP (for example, access.contoso.com).</span></span> <span data-ttu-id="98115-115">).</span><span class="sxs-lookup"><span data-stu-id="98115-115"></span></span> <span data-ttu-id="98115-116">El nombre del asunto no puede tener un carácter comodín, debe ser un nombre explícito.</span><span class="sxs-lookup"><span data-stu-id="98115-116">The subject name can’t have a wildcard character, it must be an explicit name.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Para Lync Server 2013, ya no se trata de un requisito, pero sigue siendo recomendable para la compatibilidad con Office Communications Server.
+    > [!NOTE]  
+    > <span data-ttu-id="98115-117">Para Lync Server 2013, esto ya no es necesario, pero se le sigue recomendando para la compatibilidad con Office Communications Server.</span><span class="sxs-lookup"><span data-stu-id="98115-117">For Lync Server 2013, this is no longer a requirement, but it is still recommended for compatibility with Office Communications Server.</span></span>
 
-
-
-  - La lista de nombres alternativos de sujeto contiene los FQDN de:
     
-      - La interfaz externa de Servidor perimetral de acceso o la VIP del equilibrador de carga de hardware (por ejemplo, sip.contoso.com).
+    </div>
+
+  - <span data-ttu-id="98115-118">La lista de nombres alternativos de asunto contiene los FQDN de los siguientes elementos:</span><span class="sxs-lookup"><span data-stu-id="98115-118">The subject alternative name list contains the FQDNs of the following:</span></span>
+    
+      - <span data-ttu-id="98115-119">La VIP de la interfaz externa del servicio perimetral de acceso o del equilibrador de carga del hardware (por ejemplo, sip.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="98115-119">The Access Edge service external interface or hardware load balancer VIP (for example, sip.contoso.com).</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > A pesar de que el nombre de sujeto del certificado equivale al FQDN del servidor perimetral de acceso, el nombre alternativo del sujeto también debe contener el FQDN del servidor perimetral de acceso porque Seguridad de la capa de transporte (TLS, Transport Layer Security) ignora el nombre de sujeto y usa las entradas del nombre alternativo del sujeto para la validación.
+        > [!NOTE]  
+        > <span data-ttu-id="98115-120">Aunque el nombre del sujeto del certificado es igual al FQDN del perímetro de acceso, el nombre alternativo del sujeto también debe contener el FQDN del perímetro de acceso porque la seguridad de la capa de transporte (TLS) omite el nombre del sujeto y usa las entradas de nombre alternativo de asunto para validación.</span><span class="sxs-lookup"><span data-stu-id="98115-120">Even though the certificate subject name is equal to the access Edge FQDN, the subject alternative name must also contain the access Edge FQDN because Transport Layer Security (TLS) ignores the subject name and uses the subject alternative name entries for validation.</span></span>
+
+        
+        </div>
+    
+      - <span data-ttu-id="98115-121">La interfaz externa perimetral de la conferencia web o el equilibrador de carga del hardware VIP (por ejemplo, webcon.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="98115-121">The web conferencing Edge external interface or hardware load balancer VIP (for example, webcon.contoso.com).</span></span>
+    
+      - <span data-ttu-id="98115-122">Si está usando la configuración automática o la Federación de clientes, incluya también cualquier FQDN de dominio SIP usado dentro de su empresa (por ejemplo, sip.contoso.com, sip.fabrikam.com).</span><span class="sxs-lookup"><span data-stu-id="98115-122">If you are using client auto-configuration or federation, also include any SIP domain FQDNs used within your company (for example, sip.contoso.com, sip.fabrikam.com).</span></span>
+    
+      - <span data-ttu-id="98115-123">El servicio de borde A/V no usa las entradas de nombre de sujeto o de nombre alternativo de asunto.</span><span class="sxs-lookup"><span data-stu-id="98115-123">The A/V Edge service does not use the subject name or the subject alternative names entries.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="98115-124">El orden de los FQDN en la lista de nombres alternativos de asunto no es relevante.</span><span class="sxs-lookup"><span data-stu-id="98115-124">The order of the FQDNs in the subject alternative names list does not matter.</span></span>
 
     
-      - La interfaz perimetral externa de conferencia web o la VIP del equilibrador de carga de hardware (por ejemplo, webcon.contoso.com).
-    
-      - Si usa una federación o configuración automática de clientes, incluya también todos los FQDN de dominios SIP usados en la compañía (por ejemplo, sip.contoso.com, sip.fabrikam.com).
-    
-      - El Servicio perimetral A/V no utiliza las entradas de nombre de sujeto ni de nombres alternativos de sujeto.
-    
+    </div>
 
-    > [!NOTE]
-    > El orden de los FQDN en la lista de nombres alternativos del sujeto no importa.
+<span data-ttu-id="98115-125">Si implementa varios servidores perimetrales con equilibrio de carga en un sitio, el certificado del servicio de autenticación A/V instalado en cada servidor perimetral debe ser de la misma CA y debe usar la misma clave privada.</span><span class="sxs-lookup"><span data-stu-id="98115-125">If you are deploying multiple, load-balanced Edge Servers at a site, the A/V authentication service certificate that is installed on each Edge Server must be from the same CA and must use the same private key.</span></span> <span data-ttu-id="98115-126">Tenga en cuenta que la clave privada del certificado debe ser exportable, independientemente de si se usa en un servidor perimetral o en muchos servidores perimetrales.</span><span class="sxs-lookup"><span data-stu-id="98115-126">Note that the certificate's private key must be exportable, regardless of whether it is used on one Edge Server or many Edge Servers.</span></span> <span data-ttu-id="98115-127">También debe ser exportable si solicita el certificado desde cualquier equipo que no sea el servidor perimetral.</span><span class="sxs-lookup"><span data-stu-id="98115-127">It must also be exportable if you request the certificate from any computer other than the Edge Server.</span></span> <span data-ttu-id="98115-128">Puesto que el servicio de autenticación A/V no usa el nombre de asunto ni el nombre alternativo de asunto, puede volver a usar el certificado perimetral de acceso siempre que se cumplan los requisitos de nombre de asunto y nombre alternativo del sujeto para el límite de acceso y el borde de conferencia Web y la clave privada del certificado es exportable.</span><span class="sxs-lookup"><span data-stu-id="98115-128">Because the A/V authentication service does not use the subject name or subject alternative name, you can reuse the access Edge certificate as long as the subject name and subject alternative name requirements are met for the access Edge and the web conferencing Edge and the certificate’s private key is exportable.</span></span>
+
+<span data-ttu-id="98115-129">Los requisitos para el certificado privado (o público) que se usa para la interfaz interna de Edge son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="98115-129">Requirements for the private (or public) certificate used for the Edge internal interface are as follows:</span></span>
+
+  - <span data-ttu-id="98115-130">El certificado puede ser emitido por una entidad de certificación interna o por una entidad emisora de certificados pública aprobada.</span><span class="sxs-lookup"><span data-stu-id="98115-130">The certificate can be issued by an internal CA or an approved public certificate CA.</span></span>
+
+  - <span data-ttu-id="98115-131">El nombre de firmante del certificado suele ser el FQDN de la interfaz interna del perímetro o el VIP del equilibrador de carga de hardware (por ejemplo, lsedge.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="98115-131">The subject name of the certificate is typically the Edge internal interface FQDN or hardware load balancer VIP (for example, lsedge.contoso.com).</span></span> <span data-ttu-id="98115-132">Sin embargo, puede usar un certificado comodín en el perímetro interno.</span><span class="sxs-lookup"><span data-stu-id="98115-132">However, you can use a wildcard certificate on the Edge internal.</span></span>
+
+  - <span data-ttu-id="98115-133">No se requiere ninguna lista de nombres alternativos de asunto.</span><span class="sxs-lookup"><span data-stu-id="98115-133">No subject alternative name list is required.</span></span>
+
+<span data-ttu-id="98115-134">El proxy inverso en las solicitudes de servicios de implementación para:</span><span class="sxs-lookup"><span data-stu-id="98115-134">The reverse proxy in your deployment services requests for:</span></span>
+
+  - <span data-ttu-id="98115-135">Acceso de usuarios externos a contenido de reuniones para reuniones</span><span class="sxs-lookup"><span data-stu-id="98115-135">External user access to meeting content for meetings</span></span>
+
+  - <span data-ttu-id="98115-136">Acceso de usuarios externos para expandir y mostrar miembros de grupos de distribución</span><span class="sxs-lookup"><span data-stu-id="98115-136">External user access to expand and display members of distribution groups</span></span>
+
+  - <span data-ttu-id="98115-137">Acceso de usuarios externos a archivos descargables desde el servicio de libreta de direcciones</span><span class="sxs-lookup"><span data-stu-id="98115-137">External user access to downloadable files from the Address Book Service</span></span>
+
+  - <span data-ttu-id="98115-138">Acceso de usuarios externos al cliente de Lync Web App</span><span class="sxs-lookup"><span data-stu-id="98115-138">External user access to the Lync Web App client</span></span>
+
+  - <span data-ttu-id="98115-139">Acceso de usuarios externos a la Página Web de la configuración de conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="98115-139">External user access to the Dial-in Conferencing Settings web page</span></span>
+
+  - <span data-ttu-id="98115-140">Acceso de usuarios externos al servicio de información de ubicación</span><span class="sxs-lookup"><span data-stu-id="98115-140">External user access to the Location Information Service</span></span>
+
+  - <span data-ttu-id="98115-141">Acceso de dispositivo externo al servicio de actualización de dispositivos y obtener actualizaciones</span><span class="sxs-lookup"><span data-stu-id="98115-141">External device access to the Device Update Service and obtain updates</span></span>
+
+<span data-ttu-id="98115-142">El proxy inverso publica las direcciones URL de los componentes Web internos del servidor.</span><span class="sxs-lookup"><span data-stu-id="98115-142">The reverse proxy publishes the internal server Web Components URLs.</span></span> <span data-ttu-id="98115-143">Las direcciones URL de los componentes Web se definen en el director, el servidor front-end o el grupo front-end como **servicios web externos** en el generador de topología.</span><span class="sxs-lookup"><span data-stu-id="98115-143">The Web Components URLs are defined on the Director, Front End Server or Front End pool as the **External web services** in Topology Builder.</span></span>
+
+<span data-ttu-id="98115-144">Las entradas con comodín son compatibles con el campo Nombre alternativo del sujeto del certificado asignado al proxy inverso.</span><span class="sxs-lookup"><span data-stu-id="98115-144">Wildcard entries are supported in the subject alternative name field of the certificate assigned to the reverse proxy.</span></span> <span data-ttu-id="98115-145">Para obtener más información sobre cómo configurar la solicitud de certificado para el proxy inverso, consulte [solicitar y configurar un certificado para su proxy http inverso en Lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).</span><span class="sxs-lookup"><span data-stu-id="98115-145">For details about how to configure the certificate request for the reverse proxy, see [Request and configure a certificate for your reverse HTTP proxy in Lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).</span></span>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="98115-146">Vea también</span><span class="sxs-lookup"><span data-stu-id="98115-146">See Also</span></span>
 
 
+[<span data-ttu-id="98115-147">Compatibilidad de certificado de comodín en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="98115-147">Wildcard certificate support in Lync Server 2013</span></span>](lync-server-2013-wildcard-certificate-support.md)  
+  
 
-Si va a implementar varios servidores perimetrales de carga equilibrada en un sitio, el certificado de servicio de autenticación A/V instalado en cada servidor perimetral debe ser de la misma CA y debe usar la misma clave privada. Tenga en cuenta que la clave privada del certificado debe poder exportarse, independientemente de si se usa en un servidor perimetral o en varios. También debe poder exportarse si solicita el certificado desde cualquier equipo que no sea el servidor perimetral.
+</div>
 
-Estos son los requisitos para el certificado privado (o público) usado para la interfaz perimetral interna:
+</div>
 
-  - El certificado puede ser emitido por una CA interna o por una CA pública de certificados aprobada.
+<span> </span>
 
-  - El nombre de sujeto del certificado suele ser el FQDN de la interfaz perimetral interna o la VIP del equilibrador de carga de hardware (por ejemplo, lsedge.contoso.com). No obstante, puede usar un certificado de comodín en la interfaz perimetral interna.
+</div>
 
-  - No se necesita ningún nombre alternativo de sujeto.
+</div>
 
-El servidor proxy inverso de los servicios de implementación solicitan que los usuarios externos puedan obtener acceso a:
-
-  - El contenido de las reuniones
-
-  - Expandir y mostrar los miembros de los grupos de distribución
-
-  - Archivos descargables del servicio de libreta de direcciones
-
-  - El cliente Lync Web App
-
-  - La página web de configuración de las conferencias de acceso telefónico
-
-  - El servicio de información de ubicación
-
-  - Que los dispositivos externos obtengan acceso al servicio de actualización de dispositivos y obtengan las actualizaciones
-
-El servidor proxy inverso publique las direcciones URL de los componentes web del servidor interno. Estas direcciones se definen en el director, Servidor front-end o Grupo de servidores front-end como los **servicios web externos** de Generador de topologías.
-
-Se pueden utilizar entradas de caracteres comodín en el campo de nombre alternativo de sujeto del certificado asignado al proxy inverso. Para más información sobre cómo configurar la solicitud de certificado para el proxy inverso, vea [Solicitar y configurar un certificado para el proxy HTTP inverso en Lync Server 2013](lync-server-2013-request-and-configure-a-certificate-for-your-reverse-http-proxy.md).
-
-## Vea también
-
-#### Conceptos
-
-[Compatibilidad de certificado de comodín en Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)
+</div>
 

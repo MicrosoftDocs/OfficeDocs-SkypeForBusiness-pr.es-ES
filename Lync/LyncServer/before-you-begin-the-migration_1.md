@@ -1,31 +1,65 @@
-﻿---
-title: Antes de comenzar la migración
-TOCTitle: Antes de comenzar la migración
-ms:assetid: 5938f360-017d-4658-8f99-e605b4129b18
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204909(v=OCS.15)
-ms:contentKeyID: 48275346
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Antes de comenzar la migración
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Before you begin the migration
+ms:assetid: 5938f360-017d-4658-8f99-e605b4129b18
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204909(v=OCS.15)
+ms:contentKeyID: 48184202
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dbf3f53d654dbc3b0b8c0de8a4c527601d44f767
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842100"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Antes de comenzar la migración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-08-29_
+# <a name="before-you-begin-the-migration"></a><span data-ttu-id="fd3b0-102">Antes de comenzar la migración</span><span class="sxs-lookup"><span data-stu-id="fd3b0-102">Before you begin the migration</span></span>
 
-Antes de comenzar, se recomienda leer este documento y las guías siguientes para familiarizarse con la implementación de los roles correspondientes de Lync Server 2013:
+</div>
 
-  - [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+<div id="mainSection">
 
-  - [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
+<div id="mainBody">
 
-  - [Implementación de clientes y dispositivos en Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md)
+<span> </span>
 
-## En esta sección
+<span data-ttu-id="fd3b0-103">_**Última modificación del tema:** 2012-08-29_</span><span class="sxs-lookup"><span data-stu-id="fd3b0-103">_**Topic Last Modified:** 2012-08-29_</span></span>
 
-  - [Proceso de migración](migration-process_1.md)
+<span data-ttu-id="fd3b0-104">Antes de empezar, le recomendamos que lea este documento y las siguientes guías para familiarizarse con la implementación de las funciones de Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="fd3b0-104">Before you begin, we recommend that you read this document and the following guides to familiarize yourself with deploying the corresponding Lync Server 2013 roles:</span></span>
 
-  - [Fases de migración](migration-phases_1.md)
+  - [<span data-ttu-id="fd3b0-105">Implementar Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd3b0-105">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)
+
+  - [<span data-ttu-id="fd3b0-106">Implementar el acceso de usuarios externos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd3b0-106">Deploying external user access in Lync Server 2013</span></span>](lync-server-2013-deploying-external-user-access.md)
+
+  - [<span data-ttu-id="fd3b0-107">Implementación de clientes y dispositivos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="fd3b0-107">Deploying clients and devices in Lync Server 2013</span></span>](lync-server-2013-deploying-clients-and-devices.md)
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="fd3b0-108">En esta sección</span><span class="sxs-lookup"><span data-stu-id="fd3b0-108">In This Section</span></span>
+
+  - [<span data-ttu-id="fd3b0-109">Proceso de migración</span><span class="sxs-lookup"><span data-stu-id="fd3b0-109">Migration process</span></span>](migration-process_1.md)
+
+  - [<span data-ttu-id="fd3b0-110">Fases de la migración</span><span class="sxs-lookup"><span data-stu-id="fd3b0-110">Migration phases</span></span>](migration-phases_1.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

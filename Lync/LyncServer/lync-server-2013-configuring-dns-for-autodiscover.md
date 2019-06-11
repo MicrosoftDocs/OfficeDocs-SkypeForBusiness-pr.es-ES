@@ -1,169 +1,240 @@
-﻿---
-title: Configurar DNS para la detección automática
-TOCTitle: Configurar DNS para la detección automática
-ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945656(v=OCS.15)
-ms:contentKeyID: 52061966
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de DNS para la detección automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring DNS for Autodiscover
+ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
+ms:contentKeyID: 51541528
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c490cac475f3b9a9c8038636f4ac7f6670f22637
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842269"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar DNS para la detección automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-12-12_
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a><span data-ttu-id="6d849-102">Configuración de DNS para la detección automática en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6d849-102">Configuring DNS for Autodiscover in Lync Server 2013</span></span>
 
-Para admitir la detección automática de clientes de Lync, debe crear los siguientes registros del Sistema de nombres de dominio (DNS):
+</div>
 
-  - Un registro DNS interno para admitir clientes de Lync que se conectan desde la red de su organización
+<div id="mainSection">
 
-  - Un registro DNS externo, o público, para admitir clientes de Lync que se conectan desde Internet
+<div id="mainBody">
 
-Debe crear un registro DNS interno y un registro DNS externo para cada dominio SIP.
+<span> </span>
 
-Los registros DNS pueden ser registros de host (A) o registros CNAME, según cuál sea su capacidad para crear certificados con el nombre alternativo del firmante (SAN) adicional. En caso de que no pueda solicitar e implementar un nuevo certificado externo (público) con el SAN lyncdiscover.\<nombre de dominio\>, recurra al procedimiento para usar el puerto HTTP/TCP 80. Con los siguientes procedimientos se explica cómo crear registros DNS internos y externos.
+<span data-ttu-id="6d849-103">_**Última modificación del tema:** 2012-12-12_</span><span class="sxs-lookup"><span data-stu-id="6d849-103">_**Topic Last Modified:** 2012-12-12_</span></span>
 
-## Para crear registros CNAME de DNS
+<span data-ttu-id="6d849-104">Para admitir la detección automática de los clientes de Lync, debe crear los siguientes registros del sistema de nombres de dominio (DNS):</span><span class="sxs-lookup"><span data-stu-id="6d849-104">To support autodiscovery for Lync clients, you need to create the following Domain Name System (DNS) records:</span></span>
 
-1.  Inicie sesión en un servidor DNS de la siguiente manera:
+  - <span data-ttu-id="6d849-105">Un registro DNS interno para admitir clientes de Lync que se conecten desde la red de la organización</span><span class="sxs-lookup"><span data-stu-id="6d849-105">An internal DNS record to support Lync clients who connect from within your organization's network</span></span>
+
+  - <span data-ttu-id="6d849-106">Un registro DNS público o externo para admitir clientes de Lync que se conectan desde Internet</span><span class="sxs-lookup"><span data-stu-id="6d849-106">An external, or public, DNS record to support Lync clients who connect from the Internet</span></span>
+
+<span data-ttu-id="6d849-107">Debe crear un registro DNS interno y un registro DNS externo para cada dominio SIP.</span><span class="sxs-lookup"><span data-stu-id="6d849-107">You must create an internal DNS record and an external DNS record for each SIP domain.</span></span>
+
+<span data-ttu-id="6d849-108">Los registros DNS pueden ser A (host) o registros CNAME, en función de su capacidad para crear certificados nuevos con el nombre alternativo de asunto adicional (SAN).</span><span class="sxs-lookup"><span data-stu-id="6d849-108">The DNS records can be either A (host) records or CNAME records, based on your ability to create new certificates with the additional subject alternate name (SAN).</span></span> <span data-ttu-id="6d849-109">Si no puede solicitar e implementar un nuevo certificado externo (público) con el lyncdiscover. \<nombre\> de dominio San, use el procedimiento para usar el puerto http/TCP 80.</span><span class="sxs-lookup"><span data-stu-id="6d849-109">If you are not able to request and deploy a new external (public) certificate with the lyncdiscover.\<domain name\> SAN, use the procedure for using HTTP/TCP port 80.</span></span> <span data-ttu-id="6d849-110">Los procedimientos siguientes describen cómo crear registros DNS internos y externos.</span><span class="sxs-lookup"><span data-stu-id="6d849-110">The following procedures describe how to create internal and external DNS records.</span></span>
+
+<div>
+
+## <a name="to-create-dns-cname-records"></a><span data-ttu-id="6d849-111">Para crear registros CNAME de DNS</span><span class="sxs-lookup"><span data-stu-id="6d849-111">To create DNS CNAME records</span></span>
+
+1.  <span data-ttu-id="6d849-112">Inicie sesión en un servidor DNS de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-112">Log on to a DNS server as follows:</span></span>
     
-      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo Admins. del dominio o miembro del grupo DnsAdmins.
+      - <span data-ttu-id="6d849-113">Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="6d849-113">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
     
-      - Para crear un registro DNS externo, conéctese a su proveedor de DNS público.
+      - <span data-ttu-id="6d849-114">Para crear un registro DNS externo, conéctese a su proveedor de DNS público.</span><span class="sxs-lookup"><span data-stu-id="6d849-114">To create an external DNS record, connect to your public DNS provider.</span></span>
 
-2.  Abra el complemento administrativo de DNS: haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.
+2.  <span data-ttu-id="6d849-115">Abra el complemento administrativo DNS: haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.</span><span class="sxs-lookup"><span data-stu-id="6d849-115">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  Siga uno de estos procedimientos:
+3.  <span data-ttu-id="6d849-116">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="6d849-116">Do one of the following:</span></span>
     
-      - Si es un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio de Active Directory (por ejemplo, contoso.local).
+      - <span data-ttu-id="6d849-117">Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para el dominio de Active Directory (por ejemplo, contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-117">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Este dominio es el dominio de Active Directory donde el grupo de Director de Lync Server 2013 y el Grupo de servidores front-end se instalan.
+        > [!NOTE]  
+        > <span data-ttu-id="6d849-118">Este dominio es el dominio de Active Directory donde se instalan&nbsp;el grupo de directores de Lync Server 2013 y el grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="6d849-118">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
+        
+        </div>
     
-      - Si es un registro DNS externo, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio SIP (por ejemplo, contoso.com).
+      - <span data-ttu-id="6d849-119">Para un registro DNS externo, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-119">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-4.  Compruebe que haya un registro de host A para el Grupo de directores de la manera siguiente:
+4.  <span data-ttu-id="6d849-120">Compruebe que existe un registro para el grupo de directores de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-120">Verify that a host A record exists for your Director pool as follows:</span></span>
     
-      - Si es un registro DNS interno, debería haber un registro de host A relativo al nombre de dominio completo (FQDN) interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local).
+      - <span data-ttu-id="6d849-121">Para un registro DNS interno, debe existir un registro A para el nombre de dominio completo (FQDN) de los servicios Web internos para el grupo de directores (por ejemplo, lyncwebdir01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-121">For an internal DNS record, a host A record should exist for the internal Web Services fully qualified domain name (FQDN) for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
     
-      - Si es un registro DNS externo, debería haber un registro de host A relativo al FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
+      - <span data-ttu-id="6d849-122">Para un registro DNS externo, debe existir un registro A host para el FQDN de los servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-122">For an external DNS record, a host A record should exist for the external web services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
 
-5.  Compruebe que haya un registro de host A para el Grupo de servidores front-end de la manera siguiente:
+5.  <span data-ttu-id="6d849-123">Compruebe que existe un registro de host para el grupo de servidores front-end de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-123">Verify that a host A record exists for your Front End pool as follows:</span></span>
     
-      - Si es un registro DNS interno, debería haber un registro de host A para el FQDN interno de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebpool01.contoso.local).
+      - <span data-ttu-id="6d849-124">Para un registro DNS interno, debe existir un registro A en el FQDN de los servicios Web internos para el grupo de servidores front-end (por ejemplo, lyncwebpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-124">For an internal DNS record, a host A record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
     
-      - Si es un registro DNS externo, debería haber un registro de host A relativo al FQDN externo de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - <span data-ttu-id="6d849-125">Para un registro DNS externo, debe existir un registro A host para el FQDN de los servicios web externos para el grupo de front-end (por ejemplo, lyncwebextpool01.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-125">For an external DNS record, a host A record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
 
-6.  Si es un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** del dominio SIP (por ejemplo, contoso.com).
+6.  <span data-ttu-id="6d849-126">Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-126">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
     
-
-    > [!NOTE]
-    > Si crea un registro DNS externo, <STRONG>Zonas de búsqueda directa</STRONG> ya está expandido en el dominio SIP desde el paso&nbsp;3.
-
-
-
-7.  Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **Nuevo alias (CNAME)**.
-
-8.  En **Nombre de alias**, escriba una de las siguientes opciones:
-    
-      - Si es un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio Detección automática.
-    
-      - Si es un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL externa del servicio Detección automática.
-
-9.  En **Nombre de dominio completo (FQDN) para el host de destino**, realice una de las operaciones siguientes:
-    
-      - Si es un registro DNS interno, escriba o busque el FQDN interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local) y haga clic en **Aceptar**.
-    
-      - Si es un registro DNS externo, escriba o busque el FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com) y haga clic en **Aceptar**.
+    <div>
     
 
-    > [!NOTE]
-    > Si no usa un Director, use el FQDN interno y externo de servicio web del Grupo de servidores front-end o, para un único servidor único, el FQDN del Servidor front-end o el Servidor Standard Edition.
+    > [!NOTE]  
+    > <span data-ttu-id="6d849-127">Si va a crear un registro DNS externo, las <STRONG>zonas de búsqueda directa</STRONG> ya están expandidas para su dominio SIP del paso 3.</span><span class="sxs-lookup"><span data-stu-id="6d849-127">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
 
     
+    </div>
+
+7.  <span data-ttu-id="6d849-128">Haga clic con el botón derecho en el nombre de dominio SIP y después haga clic en **nuevo alias (CNAME)**.</span><span class="sxs-lookup"><span data-stu-id="6d849-128">Right-click the SIP domain name, and then click **New Alias (CNAME)**.</span></span>
+
+8.  <span data-ttu-id="6d849-129">En **nombre de alias**, escriba una de las opciones siguientes:</span><span class="sxs-lookup"><span data-stu-id="6d849-129">In **Alias name**, type one of the following:</span></span>
+    
+      - <span data-ttu-id="6d849-130">Para un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio de detección automática.</span><span class="sxs-lookup"><span data-stu-id="6d849-130">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
+    
+      - <span data-ttu-id="6d849-131">Para un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.</span><span class="sxs-lookup"><span data-stu-id="6d849-131">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+
+9.  <span data-ttu-id="6d849-132">En el **nombre de dominio completo (FQDN) del host de destino**, realice una de las siguientes acciones:</span><span class="sxs-lookup"><span data-stu-id="6d849-132">In **Fully qualified domain name (FQDN) for target host**, do one of the following:</span></span>
+    
+      - <span data-ttu-id="6d849-133">Para un registro DNS interno, escriba o busque el FQDN de servicios Web internos de su grupo de directores (por ejemplo, lyncwebdir01. contoso. local) y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d849-133">For an internal DNS record, type or browse to the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local), and then click **OK**.</span></span>
+    
+      - <span data-ttu-id="6d849-134">Para un registro DNS externo, escriba o busque el FQDN de servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com) y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d849-134">For an external DNS record, type or browse to the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com), and then click **OK**.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="6d849-135">Si no usa un director, use el FQDN de los servicios Web internos y externos para el grupo de servidores front-end, o bien, para un único servidor, el FQDN del servidor front-end o el servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="6d849-135">If you do not use a Director, use the internal and external Web Services FQDN for the Front End pool, or, for a single server, the FQDN for the Front End Server or Standard Edition server.</span></span>
+
+    
+    </div>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe crear un nuevo registro CNAME de Detección automática en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    > <span data-ttu-id="6d849-136">Debe crear un nuevo registro CNAME de detección automática en la zona de búsqueda directa de cada dominio SIP que admita en el entorno de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d849-136">You must create a new Autodiscover CNAME record in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
+
     
+    </div>
 
+</div>
 
-## Para crear registros DNS A
+<div>
 
-1.  Inicie sesión en un servidor DNS de la siguiente manera:
+## <a name="to-create-dns-a-records"></a><span data-ttu-id="6d849-137">Para crear registros A de DNS</span><span class="sxs-lookup"><span data-stu-id="6d849-137">To create DNS A records</span></span>
+
+1.  <span data-ttu-id="6d849-138">Inicie sesión en un servidor DNS de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-138">Log on to a DNS server as follows:</span></span>
     
-      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo Admins. del dominio o miembro del grupo DnsAdmins.
+      - <span data-ttu-id="6d849-139">Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.</span><span class="sxs-lookup"><span data-stu-id="6d849-139">To create an internal DNS record, log on to a DNS server in your network as a member of the Domain Admins group or a member of the DnsAdmins group.</span></span>
     
-      - Para crear un registro DNS externo, conéctese a su proveedor de DNS público o servidor DNS externo.
+      - <span data-ttu-id="6d849-140">Para crear un registro DNS externo, conéctese a su proveedor de DNS público o servidor DNS externo.</span><span class="sxs-lookup"><span data-stu-id="6d849-140">To create an external DNS record, connect to your public DNS provider or external DNS server.</span></span>
 
-2.  Abra el complemento administrativo de DNS: haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.
+2.  <span data-ttu-id="6d849-141">Abra el complemento administrativo DNS: haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.</span><span class="sxs-lookup"><span data-stu-id="6d849-141">Open the DNS administrative snap-in: Click **Start**, click **Administrative Tools**, and then click **DNS**.</span></span>
 
-3.  Realice una de las siguientes acciones:
+3.  <span data-ttu-id="6d849-142">Siga uno de estos pasos:</span><span class="sxs-lookup"><span data-stu-id="6d849-142">Do one of the following:</span></span>
     
-      - En el caso de un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio de Active Directory (por ejemplo, contoso.local).
+      - <span data-ttu-id="6d849-143">Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para el dominio de Active Directory (por ejemplo, contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-143">For an internal DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your Active Directory domain (for example, contoso.local).</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Este dominio es el dominio de Active Directory donde el grupo de Director de Lync Server 2013 y el Grupo de servidores front-end se instalan.
+        > [!NOTE]  
+        > <span data-ttu-id="6d849-144">Este dominio es el dominio de Active Directory donde se instalan&nbsp;el grupo de directores de Lync Server 2013 y el grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="6d849-144">This domain is the Active Directory domain where your Lync Server 2013&nbsp;Director pool and Front End pool are installed.</span></span>
 
+        
+        </div>
     
-      - En el caso de un registro DNS externo, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio SIP (por ejemplo, contoso.com).
+      - <span data-ttu-id="6d849-145">Para un registro DNS externo, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-145">For an external DNS record, in the console tree of the DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
 
-4.  Compruebe que haya un registro de host A (para IPv6, AAAA) correspondiente al Grupo de directores de la manera siguiente:
+4.  <span data-ttu-id="6d849-146">Compruebe que existe un registro A (para IPv6, AAAA) para el grupo de directores de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-146">Verify that a host A (for IPv6, AAAA) record exists for your Director pool as follows:</span></span>
     
-      - Si es un registro DNS interno, debería haber un registro de host A (para IPv6, AAAA) relativo al nombre de dominio completo (FQDN) interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local).
+      - <span data-ttu-id="6d849-147">Para un registro DNS interno, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios Web internos para el grupo de directores (por ejemplo, lyncwebdir01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-147">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Director pool (for example, lyncwebdir01.contoso.local).</span></span>
     
-      - Si es un registro DNS externo, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
+      - <span data-ttu-id="6d849-148">Para un registro DNS externo, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-148">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Director pool (for example, lyncwebextdir.contoso.com).</span></span>
 
-5.  Compruebe que haya un registro de host A (para IPv6, AAAA) correspondiente al Grupo de servidores front-end de la manera siguiente:
+5.  <span data-ttu-id="6d849-149">Compruebe que existe un registro host (para IPv6, AAAA) para el grupo de servidores front-end de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-149">Verify that a host A (for IPv6, AAAA) record exists for your Front End pool as follows:</span></span>
     
-      - Si es un registro DNS interno, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN interno de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebpool01.contoso.local).
+      - <span data-ttu-id="6d849-150">Para un registro DNS interno, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios Web internos de su grupo de front-end (por ejemplo, lyncwebpool01. contoso. local).</span><span class="sxs-lookup"><span data-stu-id="6d849-150">For an internal DNS record, a host A (for IPv6, AAAA) record should exist for the internal Web Services FQDN for your Front End pool (for example, lyncwebpool01.contoso.local).</span></span>
     
-      - Si es un registro DNS externo, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN externo de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - <span data-ttu-id="6d849-151">Para un registro DNS externo, debe existir un registro host (para IPv6, AAAA) para el FQDN de los servicios web externos para el grupo de front-end (por ejemplo, lyncwebextpool01.contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-151">For an external DNS record, a host A (for IPv6, AAAA) record should exist for the external Web Services FQDN for your Front End pool (for example, lyncwebextpool01.contoso.com).</span></span>
 
-6.  En el caso de un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** del dominio SIP (por ejemplo, contoso.com).
+6.  <span data-ttu-id="6d849-152">Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).</span><span class="sxs-lookup"><span data-stu-id="6d849-152">For an internal DNS record, in the console tree of your DNS server, expand **Forward Lookup Zones** for your SIP domain (for example, contoso.com).</span></span>
     
-
-    > [!NOTE]
-    > Si crea un registro DNS externo, <STRONG>Zonas de búsqueda directa</STRONG> ya está expandido en el dominio SIP desde el paso&nbsp;3.
-
-
-
-7.  Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **Nuevo host (A o AAAA)**.
-
-8.  En **Nombre**, escriba el nombre de host de la siguiente manera:
-    
-      - Si es un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio Detección automática.
-    
-      - Si es un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL externa del servicio Detección automática.
+    <div>
     
 
-    > [!NOTE]
-    > El nombre de dominio se deduce de la zona en la que se define el registro y, por lo tanto, no es necesario introducirlo como parte del registro&nbsp;A.
+    > [!NOTE]  
+    > <span data-ttu-id="6d849-153">Si va a crear un registro DNS externo, las <STRONG>zonas de búsqueda directa</STRONG> ya están expandidas para su dominio SIP del paso 3.</span><span class="sxs-lookup"><span data-stu-id="6d849-153">If you are creating an external DNS record, <STRONG>Forward Lookup Zones</STRONG> is already expanded for your SIP domain from step 3.</span></span>
 
-
-
-9.  En **Dirección IP**, escriba la dirección IP de la siguiente manera:
     
-      - Si es un registro DNS interno, escriba la dirección IP interna de servicios web del Director (o, si usa un equilibrador de carga, escriba la IP virtual (VIP) del equilibrador de carga del Director).
+    </div>
+
+7.  <span data-ttu-id="6d849-154">Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **nuevo host (A o aaaa)**.</span><span class="sxs-lookup"><span data-stu-id="6d849-154">Right-click the SIP domain name, and then click **New Host (A or AAAA)**.</span></span>
+
+8.  <span data-ttu-id="6d849-155">En **nombre**, escriba el nombre de host como se indica a continuación:</span><span class="sxs-lookup"><span data-stu-id="6d849-155">In **Name**, type the host name as follows:</span></span>
+    
+      - <span data-ttu-id="6d849-156">Para un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio de detección automática.</span><span class="sxs-lookup"><span data-stu-id="6d849-156">For an internal DNS record, type lyncdiscoverinternal as the host name for the internal Autodiscover Service URL.</span></span>
+    
+      - <span data-ttu-id="6d849-157">Para un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.</span><span class="sxs-lookup"><span data-stu-id="6d849-157">For an external DNS record, type lyncdiscover as the host name for the external Autodiscover Service URL.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="6d849-158">El nombre de dominio se supone de la zona en la que se define el registro y, por lo tanto, no es necesario escribirlo como parte del registro A.</span><span class="sxs-lookup"><span data-stu-id="6d849-158">The domain name is assumed from the zone in which the record is defined and, therefore, does not need to be entered as part of the A record.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="6d849-159">En **dirección IP**, escriba la dirección IP de la siguiente manera:</span><span class="sxs-lookup"><span data-stu-id="6d849-159">In **IP Address**, type the IP address as follows:</span></span>
+    
+      - <span data-ttu-id="6d849-160">Para un registro DNS interno, escriba la dirección IP de los servicios Web internos del Director (o bien, si usa un equilibrador de carga, escriba la dirección IP virtual (VIP) del equilibrador de carga del Director).</span><span class="sxs-lookup"><span data-stu-id="6d849-160">For an internal DNS record, type the internal Web Services IP address of the Director (or, if you use a load balancer, type the virtual IP (VIP) of the Director load balancer).</span></span>
+        
+        <div>
         
 
-        > [!NOTE]
-        > Si no usa un Director, escriba la dirección IP del Servidor front-end o Servidor Standard Edition o, si usa un equilibrador de carga, escriba la VIP del equilibrador de carga del Grupo de servidores front-end.
+        > [!NOTE]  
+        > <span data-ttu-id="6d849-161">Si no usa un director, escriba la dirección IP del servidor front-end o del servidor Standard Edition, o bien, si usa un equilibrador de carga, escriba la VIP del equilibrador de carga del grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="6d849-161">If you do not use a Director, type the IP address of the Front End Server or Standard Edition server, or, if you use a load balancer, type the VIP of the Front End pool load balancer.</span></span>
 
+        
+        </div>
     
-      - Si es un registro DNS externo, escriba la dirección IP externa o pública del proxy inverso.
+      - <span data-ttu-id="6d849-162">Para un registro DNS externo, escriba la dirección IP externa o pública del proxy inverso.</span><span class="sxs-lookup"><span data-stu-id="6d849-162">For an external DNS record, type the external or public IP address of the reverse proxy.</span></span>
 
-10. Haga clic en **Agregar host** y, a continuación, haga clic en **Aceptar**.
+10. <span data-ttu-id="6d849-163">Haga clic en **Agregar host**y, a continuación, en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6d849-163">Click **Add Host**, and then click **OK**.</span></span>
 
-11. Para crear más registros A, repita los pasos del 8 al 10.
+11. <span data-ttu-id="6d849-164">Para crear un registro A adicional, repita los pasos 8 a 10.</span><span class="sxs-lookup"><span data-stu-id="6d849-164">To create an additional A record, repeat steps 8 through 10.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe crear registros A de lyncdiscover y lyncdiscoverinternal en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    > <span data-ttu-id="6d849-165">Debe crear una nueva lyncdiscover y lyncdiscoverinternal registros A en la zona de búsqueda directa de cada dominio SIP que admita en el entorno de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6d849-165">You must create a new lyncdiscover and lyncdiscoverinternal A records in the forward lookup zone of each SIP domain that you support in your Lync Server 2013 environment.</span></span>
+
     
+    </div>
 
+12. <span data-ttu-id="6d849-166">Cuando haya terminado de crear un registro (para IPv6, AAAA), haga clic en **listo**.</span><span class="sxs-lookup"><span data-stu-id="6d849-166">When you are finished creating A (for IPv6, AAAA) records, click **Done**.</span></span>
 
-12. Cuando termine de crear registros A (para IPv6, AAAA), haga clic en **Listo**.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

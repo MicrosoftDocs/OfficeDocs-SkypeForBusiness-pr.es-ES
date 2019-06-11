@@ -1,52 +1,94 @@
-﻿---
-title: "Lync Server 2013 : Conf. de la strat. globale pour la conversation permanente"
-TOCTitle: Configurar la directiva global para chat persistente
-ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204951(v=OCS.15)
-ms:contentKeyID: 48275450
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar la directiva global para chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure the global policy for Persistent Chat
+ms:assetid: 6176eb5c-19de-4c07-bcc0-2e38f8965966
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204951(v=OCS.15)
+ms:contentKeyID: 48184323
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 236023756f8d2c917812d38f5a03da8dd4c40b5b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842315"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar la directiva global para chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-06_
+# <a name="configure-the-global-policy-for-persistent-chat-in-lync-server-2013"></a><span data-ttu-id="378bd-102">Configurar la directiva global para chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="378bd-102">Configure the global policy for Persistent Chat in Lync Server 2013</span></span>
 
-Puede usar la directiva global predeterminada por sí misma para habilitar la configuración de Chat persistente para todos los usuarios de su implementación. También puede especificar directivas adicionales para sitios y usuarios para controlar si Chat persistente está habilitado o deshabilitado para usuarios y sitios específicos.
+</div>
 
-No puede eliminar la directiva global. Si trata de hacerlo, la configuración se restablecerá a los valores predeterminados.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="378bd-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="378bd-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="378bd-104">Puede usar la directiva global predeterminada por sí misma para habilitar la configuración de chat persistente para todos los usuarios de su implementación.</span><span class="sxs-lookup"><span data-stu-id="378bd-104">You can use the default global policy by itself to enable Persistent Chat settings for all users in your deployment.</span></span> <span data-ttu-id="378bd-105">También puede especificar directivas adicionales para que los usuarios puedan controlar si el chat persistente está habilitado o deshabilitado para determinados usuarios y sitios.</span><span class="sxs-lookup"><span data-stu-id="378bd-105">You can also specify additional policies for sites and users to control whether Persistent Chat is enabled or disabled for specific users and sites.</span></span>
+
+<span data-ttu-id="378bd-106">No puede eliminar la directiva global.</span><span class="sxs-lookup"><span data-stu-id="378bd-106">You cannot delete the global policy.</span></span> <span data-ttu-id="378bd-107">Si intenta eliminarla, la configuración se restablecerá en los valores predeterminados.</span><span class="sxs-lookup"><span data-stu-id="378bd-107">If you attempt to delete it, the configuration resets to the default values.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Para configurar y usar el Servidor de chat persistente, primero debe usar el Generador de topologías a fin de agregar la compatibilidad del Servidor de chat persistente con la topología y, luego, publicar la topología. Para más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a la implementación en Lync Server 2013</A> en la documentación sobre implementación.<BR>Para establecer las opciones de configuración del Servidor de chat persistente, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes en Lync Server 2013</A> en la documentación sobre implementación.
+> [!NOTE]  
+> <span data-ttu-id="378bd-108">Para configurar y usar el servidor de chat persistente, primero debe usar topología Builder para agregar la compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología.</span><span class="sxs-lookup"><span data-stu-id="378bd-108">To configure and use Persistent Chat Server, you must first use Topology Builder to add Persistent Chat Server support to the topology, and then publish the topology.</span></span> <span data-ttu-id="378bd-109">Para obtener más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a su implementación en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="378bd-109">For details, see <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Adding Persistent Chat Server to your deployment in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="378bd-110">Para configurar las opciones de configuración del servidor de chat persistentes, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">configurar las opciones del servidor de chat persistente globalmente o para el grupo de servidores de chat persistente en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="378bd-110">To configure Persistent Chat Server configuration settings, see <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configure Persistent Chat Server options globally or for Persistent Chat Server pool in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-## Para configurar la directiva global para el Chat persistente
+</div>
 
-1.  En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<div>
 
-2.  En el menú **Inicio** , seleccione el Panel de control de Lync Server o abra una ventana del explorador y escriba la dirección URL de administración. Para obtener información sobre los diferentes métodos que se pueden usar para iniciar el Panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md) en la documentación sobre operaciones.
+## <a name="to-configure-the-global-policy-for-persistent-chat"></a><span data-ttu-id="378bd-111">Para configurar la directiva global para el chat persistente</span><span class="sxs-lookup"><span data-stu-id="378bd-111">To configure the Global Policy for Persistent Chat</span></span>
+
+1.  <span data-ttu-id="378bd-112">Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="378bd-112">From a user account that is assigned to the CsPersistentChatAdministrator, CsAdministrator, or CsUserAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="378bd-113">En el menú **Inicio** , seleccione el panel de control de Lync Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador.</span><span class="sxs-lookup"><span data-stu-id="378bd-113">From the **Start** menu, select the Lync Server Control Panel or open a browser window, and then enter the Admin URL.</span></span> <span data-ttu-id="378bd-114">Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md) en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="378bd-114">For details about the different methods that you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md) in the Operations documentation.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > También puede usar cmdlets de Windows PowerShell. Para saber cómo, consulte <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación sobre implementación.
+    > <span data-ttu-id="378bd-115">También puede usar los cmdlets de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="378bd-115">You can also use Windows PowerShell cmdlets.</span></span> <span data-ttu-id="378bd-116">Para obtener más información, vea <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">configuración del servidor de chat persistente mediante cmdlets de Windows PowerShell</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="378bd-116">For details, see <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuring Persistent Chat Server by using Windows PowerShell cmdlets</A> in Deployment documentation.</span></span>
+
     
+    </div>
 
+3.  <span data-ttu-id="378bd-117">En el panel de control de Lync Server, haga clic en **chat persistente**y en **Directiva de chat persistente**.</span><span class="sxs-lookup"><span data-stu-id="378bd-117">In Lync Server Control Panel, click **Persistent Chat**, and then click **Persistent Chat Policy**.</span></span>
 
-3.  En Panel de control de Lync Server, haga clic en **Chat persistente** y, a continuación, en **Directiva de Chat persistente**.
+4.  <span data-ttu-id="378bd-118">Haga clic en **Global** en la lista de directivas, en **Editar** y, luego, en **Mostrar detalles**.</span><span class="sxs-lookup"><span data-stu-id="378bd-118">Click **Global** in the list of policies, click **Edit**, and then click **Show details**.</span></span>
 
-4.  Haga clic en **Global** en la lista de directivas, haga clic en **Editar** y, a continuación, haga clic en **Mostrar detalles**.
-
-5.  Haga lo siguiente en **Editar Chat persistente - Global**:
+5.  <span data-ttu-id="378bd-119">En **Editar directiva de chat persistente - Global**, haga lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="378bd-119">In **Edit Persistent Chat Policy - Global**, do the following:</span></span>
     
-      - En **Nombre**, especifique un nuevo nombre para la directiva global si no desea usar el valor predeterminado de Global.
+      - <span data-ttu-id="378bd-120">En **Nombre**, especifique un nuevo nombre para la directiva global si no desea usar el valor predeterminado de Global.</span><span class="sxs-lookup"><span data-stu-id="378bd-120">In **Name**, specify a new name for the global policy, if you do not want to use the default of Global.</span></span>
     
-      - En **Descripción**, proporcione información detallada acerca de la función de la directiva de usuario (por ejemplo, directiva global de *centralSiteName*).
+      - <span data-ttu-id="378bd-121">En **Descripción**, proporcione detalles sobre cuál es la Directiva de usuario (por ejemplo, la directiva global de centralSiteName).</span><span class="sxs-lookup"><span data-stu-id="378bd-121">In **Description**, provide details about what the user policy is (for example, Global policy for centralSiteName).</span></span>
     
-      - Para controlar el Chat persistente para todos los sitios y usuarios que no estén controlados específicamente a través de una directiva de sitio o de usuario, active o desactive la casilla **Habilitar Chat persistente**.
+      - <span data-ttu-id="378bd-122">Para controlar el chat persistente de todos los sitios y usuarios que no se controlan específicamente mediante una directiva de sitio o una directiva de usuario, Active o desactive la casilla de verificación **Habilitar conversación persistente** .</span><span class="sxs-lookup"><span data-stu-id="378bd-122">To control Persistent Chat for all sites and users not specifically controlled through a site policy or user policy, select or clear the **Enable Persistent Chat** check box.</span></span>
 
-6.  Haga clic en **Confirmar**.
+6.  <span data-ttu-id="378bd-123">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="378bd-123">Click **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

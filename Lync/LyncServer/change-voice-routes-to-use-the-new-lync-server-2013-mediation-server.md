@@ -1,45 +1,79 @@
-﻿---
-title: "Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013"
-TOCTitle: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
-ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205162(v=OCS.15)
-ms:contentKeyID: 48276330
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Cambiar las rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Change voice routes to use the new Lync Server 2013 Mediation Server
+ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205162(v=OCS.15)
+ms:contentKeyID: 48185069
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 898901690b1caf5d57b33ffaec7231080554cca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842096"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-28_
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a><span data-ttu-id="1bf0b-102">Cambiar las rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bf0b-102">Change voice routes to use the new Lync Server 2013 Mediation Server</span></span>
 
-Con este procedimiento se cambian las rutas de voz a fin de utilizar el servidor de mediación de Lync Server 2013 en vez del servidor de mediación heredado de Office Communications Server 2007 R2.
+</div>
 
-## Para cambiar las rutas de voz para usar el nuevo servidor de mediación
+<div id="mainSection">
 
-1.  Panel de control de Lync Server 2013
+<div id="mainBody">
 
-2.  En el panel izquierdo, seleccione **Enrutamiento de voz** y luego **Ruta** .
+<span> </span>
 
-3.  Haga clic en **Nueva** para crear una nueva ruta de voz.
+<span data-ttu-id="1bf0b-103">_**Última modificación del tema:** 2012-09-28_</span><span class="sxs-lookup"><span data-stu-id="1bf0b-103">_**Topic Last Modified:** 2012-09-28_</span></span>
 
-4.  Rellene los siguientes campos:
+<span data-ttu-id="1bf0b-104">En este procedimiento se cambian las rutas de voz para usar el servidor de mediación de Lync Server 2013, en lugar del servidor de mediación de Office Communications Server 2007 R2.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-104">This procedure changes the voice routes to use the Lync Server 2013 Mediation Server, instead of the legacy Office Communications Server 2007 R2 Mediation Server.</span></span>
+
+<div>
+
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a><span data-ttu-id="1bf0b-105">Para cambiar las rutas de voz para usar el nuevo servidor de mediación</span><span class="sxs-lookup"><span data-stu-id="1bf0b-105">To change the voice routes to use the new Mediation Server</span></span>
+
+1.  <span data-ttu-id="1bf0b-106">Panel de control de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1bf0b-106">Lync Server 2013 Control Panel</span></span>
+
+2.  <span data-ttu-id="1bf0b-107">En el panel izquierdo, seleccione **enrutamiento de voz** y \*\*\*\*, a continuación, enrutar.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-107">In the left pane, select **Voice Routing** and then **Route**.</span></span>
+
+3.  <span data-ttu-id="1bf0b-108">Haga clic en **nuevo** para crear una nueva ruta de voz.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-108">Click **New** to create a New Voice Route.</span></span>
+
+4.  <span data-ttu-id="1bf0b-109">Rellene los siguientes campos:</span><span class="sxs-lookup"><span data-stu-id="1bf0b-109">Fill in the following fields:</span></span>
     
-      - **Nombre** : escriba un nombre descriptivo de la ruta de voz. En este documento usaremos **W14PSTNRoute** .
+      - <span data-ttu-id="1bf0b-110">**Nombre**: escriba un nombre descriptivo para la ruta de voz.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-110">**Name**: Type a descriptive name of the voice route.</span></span> <span data-ttu-id="1bf0b-111">Para este documento, usaremos **W15PSTNRoute**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-111">For this document we will use **W15PSTNRoute**.</span></span>
     
-      - **Descripción** : escriba una breve descripción de la ruta de voz.
+      - <span data-ttu-id="1bf0b-112">**Descripción**: escriba una breve descripción de la ruta de voz.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-112">**Description**: Type a short description of the voice route.</span></span>
 
-5.  Omita todas las secciones restantes hasta llegar a **Puertas de enlace asociadas** . Haga clic en **Agregar** . Seleccione la nueva puerta de enlace predeterminada y haga clic en **Aceptar** .
+5.  <span data-ttu-id="1bf0b-113">Omita todas las secciones restantes hasta que llegue **a las puertas de enlace asociadas**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-113">Skip all remaining sections until you reach **Associated gateways**.</span></span> <span data-ttu-id="1bf0b-114">Haga clic en **Agregar**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-114">Click **Add**.</span></span> <span data-ttu-id="1bf0b-115">Seleccione la nueva puerta de enlace predeterminada y haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-115">Select the new default gateway and click **OK**.</span></span>
 
-6.  En **Usos de la RTC asociados** , haga clic en **Seleccionar** .
+6.  <span data-ttu-id="1bf0b-116">En **usos de RTC asociados**, haga clic en **seleccionar**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-116">Under **Associated PSTN Usages**, click **Select**.</span></span>
 
-7.  En la página **Seleccionar registro de uso de RTC** , seleccione un nombre de registro y haga clic en **Aceptar** .
+7.  <span data-ttu-id="1bf0b-117">En la página **seleccionar registro de uso de RTC** , seleccione un nombre de registro y, a continuación, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-117">From the **Select PSTN Usage Record** page, select a record name and then click **OK**.</span></span>
 
-8.  En la página **Nueva ruta de voz** , haga clic en **Aceptar** para crear la ruta de voz.
+8.  <span data-ttu-id="1bf0b-118">En la **nueva** página de la ruta de voz, haga clic en **Aceptar** para crear la **ruta de voz**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-118">From the **New Voice Route** page, click **OK** to create the **Voice Route**.</span></span>
 
-9.  En la página **Enrutamiento de voz** , seleccione **Ruta** .
+9.  <span data-ttu-id="1bf0b-119">En la página de **enrutamiento de voz** , seleccione enrutar. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="1bf0b-119">From the **Voice Routing** page, select **Route**.</span></span>
 
-10. Mueva la ruta que acaba de crear al principio de la lista y seleccione **Confirmar** .
+10. <span data-ttu-id="1bf0b-120">Mueva la ruta recién creada a la parte superior de la lista y, a continuación, seleccione **confirmar**.</span><span class="sxs-lookup"><span data-stu-id="1bf0b-120">Move the newly created route to the top of the list and then select **Commit**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

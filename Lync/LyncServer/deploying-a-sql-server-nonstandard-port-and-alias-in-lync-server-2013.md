@@ -1,179 +1,248 @@
-﻿---
-title: "Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013"
-TOCTitle: "Dépl. d’un port non standard et d’un alias SQL Server dans Lync Server 2013"
-ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn776290(v=OCS.15)
-ms:contentKeyID: 62634520
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying a SQL Server nonstandard port and alias in Lync Server 2013
+ms:assetid: 2da92c1f-250e-407a-8651-fb2aec76aeb0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn776290(v=OCS.15)
+ms:contentKeyID: 62634609
+ms.date: 09/17/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 35365cbd43aa3bea9afe5cdd036bd3834fae5037
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842876"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="deploying-a-sql-server-nonstandard-port-and-alias-in-lync-server-2013"></a><span data-ttu-id="c6c82-102">Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6c82-102">Deploying a SQL Server nonstandard port and alias in Lync Server 2013</span></span>
 
-Microsoft Lync Server 2013 admite el uso de un alias y un puerto no estándar en SQL Server. El uso de un alias y un puerto no estándar de SQL Server aumenta la seguridad y crea un ambiente más flexible para la implementación de Lync. Estos pasos solo son un único paso de asegurar correctamente su entorno de Lync Server 2013. Deben tomarse medidas adicionales para reducir la superficie de ataque de una implementación de Lync Server 2013.
+</div>
 
-En el siguiente artículo se describen los pasos necesarios para configurar un alias y un puerto no estándar de SQL Server en Lync Server 2013.
+<div id="mainSection">
 
-## Implementación de un alias y un puerto no estándar de SQL Server en Lync Server 2013
+<div id="mainBody">
 
-Lync Server 2013Generador de topologías admite el uso de un alias de SQL Server como el nombre de dominio completo (FQDN) en vez del FQDN real de SQL Server al configurar Lync Server 2013. Esto permite que el real FQDN de SQL Server se oculte de cualquier atacante malintencionado. Además, el uso de un puerto no estándar oscurece el puerto real de cualquier intento de un atacante de atacar la base de datos en el puerto estándar 1433, como se muestra en la siguiente ilustración.
+<span> </span>
 
-![Los atacantes no saben el número de puerto al que atacar.](images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "Los atacantes no saben el número de puerto al que atacar.")
+<span data-ttu-id="c6c82-103">_**Última modificación del tema:** 2015-09-16_</span><span class="sxs-lookup"><span data-stu-id="c6c82-103">_**Topic Last Modified:** 2015-09-16_</span></span>
 
-Para tener éxito a la hora de determinar el puerto que usa Lync Server 2013 para comunicarse con SQL Server, el atacante tendría que examinar todos los puertos para obtener la información del mismo. Un examen de puertos por parte de un atacante aumenta las posibilidades de que la seguridad pueda detectar y detener la instrucción. Además de agregar mayor seguridad con un puerto no estándar, también puede utilizar un alias de SQL Server para proporcionar flexibilidad en la implementación. Esto es valioso para reducir los cambios de configuración en situaciones donde se requiere un cambio de nombre de SQL Server.
+<span data-ttu-id="c6c82-104">Microsoft Lync Server 2013 admite el uso de un puerto y un alias no estándar en SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-104">Microsoft Lync Server 2013 supports using a non-standard port and alias in SQL Server.</span></span> <span data-ttu-id="c6c82-105">El uso de un puerto no estándar de SQL Server y un alias aumenta la seguridad y crea un entorno más flexible para la implementación de Lync.</span><span class="sxs-lookup"><span data-stu-id="c6c82-105">Using a SQL Server non-standard port and an alias increases security and creates a more flexible environment for the Lync deployment.</span></span> <span data-ttu-id="c6c82-106">Estos pasos son solo un paso para proteger correctamente el entorno de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-106">These steps are only a single step in properly securing your Lync Server 2013 environment.</span></span> <span data-ttu-id="c6c82-107">Hay que seguir pasos adicionales para reducir la superficie de ataque de una implementación de 2013 de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-107">Additional steps should be taken to reduce the attack surface of a Lync Server 2013 implementation.</span></span>
+
+<span data-ttu-id="c6c82-108">En el siguiente artículo se describen los pasos necesarios para configurar un puerto no estándar y un alias de SQL Server en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-108">The following article describes the steps required to setup a SQL Server non-standard port and alias in Lync Server 2013.</span></span>
+
+<div>
+
+## <a name="deploying-a-sql-server-non-standard-port-and-alias-in-lync-server-2013"></a><span data-ttu-id="c6c82-109">Implementar un puerto y alias no estándar de SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6c82-109">Deploying a SQL Server Non-Standard Port and Alias in Lync Server 2013</span></span>
+
+<span data-ttu-id="c6c82-110">El generador de topología de Lync Server 2013 admite el uso de un alias de SQL Server como nombre de dominio completo (FQDN) en lugar del FQDN real de SQL Server al configurar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-110">Lync Server 2013 Topology Builder supports using a SQL Server alias as the Fully Qualified Domain Name (FQDN) instead of the actual SQL Server FQDN when configuring Lync Server 2013.</span></span> <span data-ttu-id="c6c82-111">Esto permite que el FQDN real de SQL Server esté oculto para cualquier atacante malintencionado.</span><span class="sxs-lookup"><span data-stu-id="c6c82-111">This allows the actual SQL Server FQDN to be hidden from any malicious attacker.</span></span> <span data-ttu-id="c6c82-112">Además, el uso de un puerto no estándar oculta el puerto real de cualquier atacante que pudiera intentar atacar la base de datos en el puerto estándar 1433, tal como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-112">In addition, using a non-standard port obscures the actual port from any would be attacker attempting to attack the database on the standard port 1433, as shown in the following figure.</span></span>
+
+<span data-ttu-id="c6c82-113">![Un pirata informático no sabe que el número de puerto es atacado.] (images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "Un pirata informático no sabe que el número de puerto es atacado.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-113">![A hacker doesn't know the port number to attack.](images/Dn776290.2f3923e0-2bdc-416b-a66b-bf56599eb14e(OCS.15).jpg "A hacker doesn't know the port number to attack.")</span></span>
+
+<span data-ttu-id="c6c82-114">Para tener éxito al determinar el puerto que usa Lync Server 2013 para comunicarse con SQL Server, el atacante necesita examinar todos los puertos para obtener la información del puerto.</span><span class="sxs-lookup"><span data-stu-id="c6c82-114">In order to be successful in determining the port Lync Server 2013 is using to communicate with SQL Server, the attacker would need to scan all ports to obtain the port information.</span></span> <span data-ttu-id="c6c82-115">Una exploración de puertos por parte de un atacante aumenta las probabilidades de que la seguridad pueda detectar y detener la instrucción.</span><span class="sxs-lookup"><span data-stu-id="c6c82-115">A port scan by an attacker increases the chances that security can detect and stop the instruction.</span></span> <span data-ttu-id="c6c82-116">Además de agregar mayor seguridad con un puerto no estándar, también puede usar un alias de SQL Server para proporcionar flexibilidad a la implementación.</span><span class="sxs-lookup"><span data-stu-id="c6c82-116">In addition to adding increased security with a non-standard port, you can also use a SQL Server alias to provide flexibility for the deployment.</span></span> <span data-ttu-id="c6c82-117">Esto es útil para reducir los cambios de configuración en situaciones en las que se requiere un cambio de nombre de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-117">This is valuable in order to reduce configuration changes in situations where a SQL Server name change is required.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> SQL Server proporciona dos métodos de tolerancia a errores (clúster de conmutación por error y creación de reflejo). Ambos métodos de tolerancia a errores de SQL Server se admiten utilizando un alias y un puerto no estándar de SQL Server con Lync Server 2013.
+> [!NOTE]  
+> <span data-ttu-id="c6c82-118">SQL Server proporciona dos métodos de tolerancia a errores (clústeres de conmutación por error y reflejos).</span><span class="sxs-lookup"><span data-stu-id="c6c82-118">SQL Server provides two fault tolerance methods (Failover Clustering and Mirroring).</span></span> <span data-ttu-id="c6c82-119">Los métodos de tolerancia a errores de SQL Server se admiten con un puerto no estándar y un alias de SQL Server con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-119">Both SQL Server fault tolerance methods are supported using a SQL Server non-standard port and alias with Lync Server 2013.</span></span> <span data-ttu-id="c6c82-120">Si el back-end de SQL Server utilizado por el grupo está en una configuración duplicada, el servicio explorador SQL de los servidores back-end de SQL Server debe estar ejecutándose para que los servidores de aplicaciones para el usuario se conecten a la base de datos reflejada cuando las bases de datos se conmutan por error a la SQL duplicada Servidores.</span><span class="sxs-lookup"><span data-stu-id="c6c82-120">If the SQL Server backend used by the pool is in a mirrored configuration, then the SQL browser service on the SQL Server backend servers should be running for Front End servers to connect to the mirrored database when the databases are failed over to the mirrored SQL Server.</span></span>
 
 
 
-Al configurar la conectividad de base de datos de SQL Server desde dentro de una Generador de topologías o al usar el cmdlet Install-CsDatabase, no es posible definir explícitamente un número de puerto no estándar de SQL Server y asociarlo con una instancia SQL. Para configurar un puerto no estándar, necesitará usar utilidades de SQL Server y Windows Server.
+</div>
 
-Para configurar un alias y un puerto no estándar de SQL Server para su uso con Lync Server 2013, necesitará completar tres pasos principales. Estos pasos son:
+<span data-ttu-id="c6c82-121">Al configurar la conectividad de base de datos de SQL Server desde el generador de topología, o al usar el cmdlet install-CsDatabase, no es posible definir de forma explícita un número de puerto no estándar de SQL Server y asociarlo a una instancia de SQL.</span><span class="sxs-lookup"><span data-stu-id="c6c82-121">When configuring SQL Server database connectivity from within Topology Builder, or when using the Install-CsDatabase cmdlet, it’s not possible to explicitly define a SQL Server non-standard port number and associate it with a SQL instance.</span></span> <span data-ttu-id="c6c82-122">Para establecer un puerto no estándar, tendrá que usar las utilidades de SQL Server y de Windows Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-122">To set a non-standard port, you’ll need to use SQL Server and Windows Server utilities.</span></span>
 
-  - Confirmar que Lync Server 2013 tiene aplicadas las últimas actualizaciones.
+<span data-ttu-id="c6c82-123">Para configurar un puerto y un alias no estándar de SQL Server para usar con Lync Server 2013, tendrá que completar tres pasos principales.</span><span class="sxs-lookup"><span data-stu-id="c6c82-123">To set up a SQL Server non-standard port and alias for use with Lync Server 2013, you will need to complete three primary steps.</span></span> <span data-ttu-id="c6c82-124">Estos pasos son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="c6c82-124">These steps are:</span></span>
 
-  - Configurar el alias y el puerto no estándar de SQL Server.
+  - <span data-ttu-id="c6c82-125">Confirme que Lync Server 2013 tiene las actualizaciones más recientes aplicadas.</span><span class="sxs-lookup"><span data-stu-id="c6c82-125">Confirm that Lync Server 2013 has the Latest Updates Applied.</span></span>
 
-  - Configurar Lync Server 2013 con el alias de SQL Server con la Generador de topologías.
+  - <span data-ttu-id="c6c82-126">Configure el puerto y el alias no estándar de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-126">Setup the SQL Server Non-Standard Port and Alias.</span></span>
 
-  - Publicar la topología y comprobar la base de datos.
+  - <span data-ttu-id="c6c82-127">Configure Lync Server 2013 con el alias de SQL Server con el generador de topología.</span><span class="sxs-lookup"><span data-stu-id="c6c82-127">Configure Lync Server 2013 with the SQL Server alias using Topology Builder.</span></span>
 
-## Confirmar que Lync Server 2013 tiene aplicadas las últimas actualizaciones
+  - <span data-ttu-id="c6c82-128">Publique la topología y Compruebe la base de datos.</span><span class="sxs-lookup"><span data-stu-id="c6c82-128">Publish the Topology, and Verify the Database.</span></span>
 
-Es importante mantener Lync Server 2013 actualizado. Para comprobar las actualizaciones más recientes e información sobre la manera de aplicarlas, vea [Actualizaciones para Lync Server 2013](http://support.microsoft.com/kb/2809243).
+<div>
 
-## Configurar el alias y el puerto no estándar de SQL Server
+## <a name="confirm-that-lync-server-2013-has-the-latest-updates-applied"></a><span data-ttu-id="c6c82-129">Confirmar que Lync Server 2013 tiene las actualizaciones más recientes aplicadas</span><span class="sxs-lookup"><span data-stu-id="c6c82-129">Confirm that Lync Server 2013 has the Latest Updates Applied</span></span>
 
-El alias y el puerto no estándar de SQL Server deben configurarse en la instancia de base de datos antes de que se puedan referenciar desde Lync Server 2013Generador de topologías. Para configurar un alias y un puerto no estándar de SQL Server, tendrá que completar tres pasos principales. Estos pasos son:
+<span data-ttu-id="c6c82-130">Es importante mantener Lync Server 2013 actualizado.</span><span class="sxs-lookup"><span data-stu-id="c6c82-130">It is important to keep Lync Server 2013 up to date.</span></span> <span data-ttu-id="c6c82-131">Para consultar las actualizaciones más recientes e información sobre cómo aplicarlas, consulte [actualizaciones para Lync Server 2013](http://support.microsoft.com/kb/2809243).</span><span class="sxs-lookup"><span data-stu-id="c6c82-131">To check for the most recent updates and information on how to apply them, see [Updates for Lync Server 2013](http://support.microsoft.com/kb/2809243).</span></span>
 
-  - Cambiar los valores predeterminados del protocolo TCP/IP.
+</div>
 
-  - Crear y configurar un alias de SQL Server.
+<div>
 
-  - Crear un registro de recursos del nombre canónico (CNAME) del sistema de nombres de dominio (DNS) .
+## <a name="setup-the-sql-server-non-standard-port-and-alias"></a><span data-ttu-id="c6c82-132">Configurar el puerto y el alias no estándar de SQL Server</span><span class="sxs-lookup"><span data-stu-id="c6c82-132">Setup the SQL Server Non-Standard Port and Alias</span></span>
 
-**Modificar los valores predeterminados del protocolo TCP/IP**
+<span data-ttu-id="c6c82-133">El puerto y el alias no estándar de SQL Server se deben configurar en la instancia de la base de datos para que se pueda hacer referencia a ellos desde el generador de topología de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-133">The SQL Server non-standard port and alias must be set up on the database instance before it can be referenced from Lync Server 2013 Topology Builder.</span></span> <span data-ttu-id="c6c82-134">Para configurar un puerto y un alias no estándar de SQL Server, tendrá que completar tres pasos principales.</span><span class="sxs-lookup"><span data-stu-id="c6c82-134">To set up a SQL Server non-standard port and alias, you will have to complete three primary steps.</span></span> <span data-ttu-id="c6c82-135">Estos pasos son los siguientes:</span><span class="sxs-lookup"><span data-stu-id="c6c82-135">These steps are as follows:</span></span>
 
-1.  Seleccione **Inicio** y **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.
+  - <span data-ttu-id="c6c82-136">Cambie los valores predeterminados de los protocolos TCP/IP.</span><span class="sxs-lookup"><span data-stu-id="c6c82-136">Change the Default TCP/IP Protocol Values.</span></span>
+
+  - <span data-ttu-id="c6c82-137">Crear y configurar un alias de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-137">Create and Configure a SQL Server Alias.</span></span>
+
+  - <span data-ttu-id="c6c82-138">Crear un registro de recursos de nombre canónico (CNAME) del sistema de nombres de dominio (DNS).</span><span class="sxs-lookup"><span data-stu-id="c6c82-138">Create a Domain Name System (DNS) Canonical Name (CNAME) Resource Record.</span></span>
+
+<span data-ttu-id="c6c82-139">**Modificar los valores predeterminados de los protocolos TCP/IP**</span><span class="sxs-lookup"><span data-stu-id="c6c82-139">**Modify the Default TCP/IP Protocol Values**</span></span>
+
+1.  <span data-ttu-id="c6c82-140">Seleccione **Inicio**y elija **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-140">Select **Start**, and choose **SQL Server Configuration Manager**, as shown in the following figure.</span></span>
     
-    ![Icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Icono de SQL Server Management Studio")
+    <span data-ttu-id="c6c82-141">![El icono de SQL Server Management Studio] (images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")</span><span class="sxs-lookup"><span data-stu-id="c6c82-141">![The SQL Server Management Studio icon](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "The SQL Server Management Studio icon")</span></span>
 
-2.  En el panel de navegación, expanda la **instancia de SQL Server**, expanda **Configuración de red de SQL Server** y seleccione **Protocolos de \<nombre de instancia\>**, como se muestra en la siguiente ilustración.
+2.  <span data-ttu-id="c6c82-142">En el panel de navegación, elija expandir la **instancia de SQL Server**, expanda la **configuración de red de SQL Server**y elija **protocolos para\>el nombre de \<instancia**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-142">In the navigation pane, choose to expand the **SQL Server instance**, choose to expand **SQL Server Network Configuration**, and choose **Protocols for \<instance name\>**, as shown in the following figure.</span></span>
     
-    ![Propiedades de Navegar a TCP/IP](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Propiedades de Navegar a TCP/IP")
+    <span data-ttu-id="c6c82-143">![Ir a propiedades de TCP/IP] (images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Ir a propiedades de TCP/IP")</span><span class="sxs-lookup"><span data-stu-id="c6c82-143">![Navigate to TCP/IP Properties](images/Dn776290.3d7a964c-f17e-47fd-8f0c-535453da7fad(OCS.15).jpg "Navigate to TCP/IP Properties")</span></span>
 
-3.  En el panel de la derecha, haga clic con el botón secundario en **TCP/IP** y seleccione **Propiedades**. Se muestra el cuadro de diálogo Propiedades de TCP/IP.
+3.  <span data-ttu-id="c6c82-144">En el panel derecho, haga clic con el botón derecho en **TCP/IP**y seleccione **propiedades**.</span><span class="sxs-lookup"><span data-stu-id="c6c82-144">In the right pane, right-click **TCP/IP**, and select **Properties**.</span></span> <span data-ttu-id="c6c82-145">Se muestra el cuadro de diálogo Propiedades de TCP/IP.</span><span class="sxs-lookup"><span data-stu-id="c6c82-145">The TCP/IP Properties dialog box is displayed.</span></span>
 
-4.  Seleccione la pestaña **Direcciones IP**. La pestaña Direcciones IP muestra todas las direcciones IP activas en el servidor en el formato IP1, IP2, hasta IPAll, como se muestra en la siguiente ilustración.
+4.  <span data-ttu-id="c6c82-146">Seleccione la ficha **direcciones IP** . La ficha direcciones IP muestra todas las direcciones IP activas en el servidor.</span><span class="sxs-lookup"><span data-stu-id="c6c82-146">Select the **IP Addresses** tab. The IP Addresses tab shows all of the active IP addresses on the server.</span></span> <span data-ttu-id="c6c82-147">Están en el formato IP1, IP2, hasta IPAll, tal y como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-147">These are in the format IP1, IP2, up to IPAll, as shown in the following figure.</span></span>
     
-    ![Propiedades de Abrir TCP/IP.](images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "Propiedades de Abrir TCP/IP.")
+    <span data-ttu-id="c6c82-148">![Abra propiedades de TCP/IP.] (images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "Abra propiedades de TCP/IP.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-148">![Open TCP/IP properties.](images/Dn776290.ed2fd70d-1836-4ebf-80fe-09191d96585e(OCS.15).jpg "Open TCP/IP properties.")</span></span>
 
-5.  Borre el campo **Puertos dinámicos TCP** de todas las direcciones IP. Si el campo contiene un carácter cero, esto quiere decir que SQL Server está escuchando en los puertos dinámicos. Asegúrese de que estos campos están borrados y que no contienen un cero.
+5.  <span data-ttu-id="c6c82-149">Borre el campo **puertos dinámicos TCP** para todas las direcciones IP.</span><span class="sxs-lookup"><span data-stu-id="c6c82-149">Clear the **TCP Dynamic Ports** field for all IP addresses.</span></span> <span data-ttu-id="c6c82-150">Si el campo contiene un carácter cero, significa que SQL Server está escuchando en puertos dinámicos.</span><span class="sxs-lookup"><span data-stu-id="c6c82-150">If the field contains a zero character, then it means SQL Server is listening on dynamic ports.</span></span> <span data-ttu-id="c6c82-151">Asegúrese de que estos campos están desactivados y no contienen un cero.</span><span class="sxs-lookup"><span data-stu-id="c6c82-151">Make sure these fields are cleared and do not contain a zero.</span></span>
 
-6.  En la dirección IP que utilizará Lync Server para conectarse a la base de datos, asegúrese de **habilitado** está establecido en **Sí**, como se muestra en la siguiente ilustración.
+6.  <span data-ttu-id="c6c82-152">En la dirección IP que usará Lync Server para conectarse a la base de datos, asegúrese de que la **opción habilitada** está establecida en **sí**, tal y como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-152">For the IP address that Lync Server will be using to connect to the database, make sure that **Enabled** is set to **Yes**, as shown in the following figure.</span></span>
     
-    ![Establece habilitado en Sí para la IP correcta.](images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "Establece habilitado en Sí para la IP correcta.")
+    <span data-ttu-id="c6c82-153">![Establezca la opción habilitada como sí para la dirección IP correcta.] (images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "Establezca la opción habilitada como sí para la dirección IP correcta.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-153">![Set enabled as Yes for the correct IP.](images/Dn776290.7f818b91-0793-4594-8932-90447270fad9(OCS.15).jpg "Set enabled as Yes for the correct IP.")</span></span>
 
-7.  En la sección **IPAll**, en la parte inferior del cuadro de diálogo, introduzca el puerto deseado en el campo **Puerto TCP**, como se muestra en la siguiente ilustración. En este ejemplo, usamos el puerto 50062, pero puede utilizar cualquier puerto entre 49152 y 65535. Son los puertos asignados para uso dinámico y privado y así se asegura de que que no entrarán en conflicto con otros puertos que se utiliza en la implementación de Lync Server 2013.
+7.  <span data-ttu-id="c6c82-154">En la sección **IPAll** de la parte inferior del cuadro de diálogo, escriba el puerto deseado en el campo **puerto TCP** , como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-154">In the **IPAll** section at the bottom of the dialog, enter the desired port in the **TCP Port** field, as shown in the following figure.</span></span> <span data-ttu-id="c6c82-155">En este ejemplo, usamos el puerto 50062, pero puede usar cualquier puerto entre 49152 y 65535.</span><span class="sxs-lookup"><span data-stu-id="c6c82-155">In this example, we use port 50062, but you can use any port between 49152 and 65535.</span></span> <span data-ttu-id="c6c82-156">Estos son los puertos asignados a uso dinámico y privado, y esto garantiza que no entrará en conflicto con otros puertos que se usan en la implementación de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="c6c82-156">These are the ports assigned to dynamic and private use, and this ensures you won’t conflict with other ports being used in the Lync Server 2013 deployment.</span></span>
     
-    ![Establece el puerto en la sección IPAII.](images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "Establece el puerto en la sección IPAII.")
+    <span data-ttu-id="c6c82-157">![Establezca puerto en la sección IPAll.] (images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "Establezca puerto en la sección IPAll.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-157">![Set port in IPAll section.](images/Dn776290.b5af53e2-7961-4664-b586-3ca8f3a17f06(OCS.15).jpg "Set port in IPAll section.")</span></span>
 
-8.  Seleccione **Aceptar** para salir del cuadro de diálogo Propiedades de TCP/IP.
+8.  <span data-ttu-id="c6c82-158">Elija **Aceptar** para salir del cuadro de diálogo Propiedades de TCP/IP.</span><span class="sxs-lookup"><span data-stu-id="c6c82-158">Choose **OK** to exit the TCP/IP Properties dialog.</span></span>
 
-9.  Para reiniciar la instancia de SQL Server, seleccione **Servicios de SQL Server** en el panel izquierdo de Administrador de configuración de SQL Server. Luego haga clic con el botón secundario en **\<nombre de instancia\> de SQL Server** en el panel derecho y seleccione **Reiniciar**, como se muestra en la siguiente ilustración.
+9.  <span data-ttu-id="c6c82-159">Para reiniciar la instancia de SQL Server, seleccione **servicios de SQL** Server en el panel izquierdo del administrador de configuración de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-159">Restart the SQL Server instance by selecting **SQL Server Services** in the left pane of SQL Server Configuration Manager.</span></span> <span data-ttu-id="c6c82-160">A continuación, haga clic con el botón secundario en **nombre \<\> de instancia de SQL Server** en el panel derecho y seleccione **reiniciar**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-160">Then right-click **SQL Server \<instance name\>** in the right pane, and select **Restart**, as shown in the following figure.</span></span>
     
-    ![Restablecer el servicio de SQL Server para la instancia.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablecer el servicio de SQL Server para la instancia.")
+    <span data-ttu-id="c6c82-161">![Restablezca el servicio SQL Server para la instancia.] (images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Restablezca el servicio SQL Server para la instancia.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-161">![Reset the SQL Server service for instance.](images/Dn776290.a965c8cf-f769-4b52-bb38-c48a438cf491(OCS.15).jpg "Reset the SQL Server service for instance.")</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Asegúrese de actualizar la configuración de su firewall para adaptarla al nuevo puerto de SQL Server.
+> <span data-ttu-id="c6c82-162">Asegúrate de actualizar la configuración del firewall para que quepa en el nuevo puerto de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-162">Make sure you update your firewall settings to accommodate the new SQL Server port.</span></span>
 
 
 
-**Crear y configurar un alias de SQL Server**
+</div>
 
-1.  Seleccione **Inicio** y **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.
+<span data-ttu-id="c6c82-163">**Crear y configurar un alias de SQL Server**</span><span class="sxs-lookup"><span data-stu-id="c6c82-163">**Create and Configure a SQL Server Alias**</span></span>
+
+1.  <span data-ttu-id="c6c82-164">Seleccione **Inicio**y elija **Administrador de configuración de SQL Server**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-164">Select **Start**, and choose **SQL Server Configuration Manager**, as shown in the following figure.</span></span>
     
-    ![Icono de SQL Server Management Studio](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "Icono de SQL Server Management Studio")
+    <span data-ttu-id="c6c82-165">![El icono de SQL Server Management Studio] (images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "El icono de SQL Server Management Studio")</span><span class="sxs-lookup"><span data-stu-id="c6c82-165">![The SQL Server Management Studio icon](images/Dn776290.6e811f27-cea9-4437-b44c-55bff013150f(OCS.15).png "The SQL Server Management Studio icon")</span></span>
 
-2.  En el panel izquierdo, expanda la **instancia de SQL Server**, expanda **Configuración SQL Native Client \<versión\>** y luego seleccione **Alias**, como se muestra en la siguiente ilustración.
+2.  <span data-ttu-id="c6c82-166">En el panel izquierdo, elija expandir la **instancia de SQL Server**, seleccione para expandir la configuración de la \*\* \<versión\> de SQL Native Client\*\*y, a continuación, elija **alias**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-166">In the left pane, choose to expand **SQL Server instance**, choose to expand **SQL Native Client \<version\> Configuration**, and then choose **Aliases**, as shown in the following figure.</span></span>
     
-    ![Alias de Administrador de configuración de SQL Server.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Alias de Administrador de configuración de SQL Server.")
+    <span data-ttu-id="c6c82-167">![Alias en el administrador de configuración de SQL Server.] (images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Alias en el administrador de configuración de SQL Server.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-167">![Aliases in SQL Server Configuration Manager.](images/Dn776290.95341826-55d7-425f-ae19-d47d6668c5d8(OCS.15).jpg "Aliases in SQL Server Configuration Manager.")</span></span>
 
-3.  Haga clic con el botón secundario en **Aliases** y seleccione **Alias nuevo…**.
+3.  <span data-ttu-id="c6c82-168">Haga clic con el botón derecho en **alias**y seleccione **nuevo alias...**.</span><span class="sxs-lookup"><span data-stu-id="c6c82-168">Right-click **Aliases**, and select **New Alias…**.</span></span>
 
-4.  Introduzca el **Nombre de alias**, **Número de puerto**, **Protocolo** y **Servidor**, como se muestra en la siguiente ilustración.
+4.  <span data-ttu-id="c6c82-169">Escriba el **nombre de alias**, el **número de Puerto**, el **Protocolo**y el **servidor**, tal y como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-169">Enter the **Alias Name**, **Port Number**, **Protocol**, and **Server**, as shown in the following figure.</span></span>
     
-    ![Creando un alias nuevo](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creando un alias nuevo")
+    <span data-ttu-id="c6c82-170">![Crear un nuevo alias] (images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Crear un nuevo alias")</span><span class="sxs-lookup"><span data-stu-id="c6c82-170">![Creating a new alias](images/Dn776290.03653588-aecf-4fdd-b58a-95f5b372d478(OCS.15).jpg "Creating a new alias")</span></span>
     
+    <div>
+    
+
     > [!CAUTION]  
-    > Asegúrese de introducir el mismo puerto no estándar que usó en el paso anterior ya que SQL Server escuchará en este puerto. Si un alias configurado se conecta al FQDN o a la instancia del SQL Server erróneos, deshabilite y luego vuelva a habilitar el protocolo de red asociado. Al hacer esto se borra cualquier información de conexión de la memoria caché y permite al cliente conectarse correctamente.
+    > <span data-ttu-id="c6c82-171">Asegúrese de introducir el mismo puerto no estándar que usó en el paso anterior, ya que es el puerto en el que se escuchará SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-171">Make sure to enter the same non-standard port you used in the previous step since that is the port SQL Server will be listening on.</span></span> <span data-ttu-id="c6c82-172">Si un alias configurado se está conectando a un FQDN o instancia incorrecto de SQL Server, deshabilite y vuelva a habilitar el protocolo de red asociado.</span><span class="sxs-lookup"><span data-stu-id="c6c82-172">If a configured alias is connecting to the wrong SQL Server FQDN or Instance, disable and then re-enable the associated network protocol.</span></span> <span data-ttu-id="c6c82-173">De este modo, se borrará la información de conexión almacenada en la memoria caché y el cliente se conectará correctamente.</span><span class="sxs-lookup"><span data-stu-id="c6c82-173">Doing this clears any cached connection information and allows the client to connect correctly.</span></span>
+
     
+    </div>
 
+<span data-ttu-id="c6c82-174">**Crear un registro de recursos CNAME de DNS**</span><span class="sxs-lookup"><span data-stu-id="c6c82-174">**Create a DNS CNAME Resource Record**</span></span>
 
-**Crear un registro de recursos del CNAME del DNS**
+1.  <span data-ttu-id="c6c82-175">Inicie sesión en el equipo que administra DNS.</span><span class="sxs-lookup"><span data-stu-id="c6c82-175">Sign into the computer managing DNS.</span></span>
 
-1.  Inicie sesión en el equipo que administra DNS.
-
-2.  Seleccione **Inicio** y **Administrador de servidor**, como se muestra en la siguiente ilustración.
+2.  <span data-ttu-id="c6c82-176">Seleccione **Inicio**y elija **Administrador del servidor**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-176">Select **Start**, and choose **Server Manager**, as shown in the following figure.</span></span>
     
-    ![Abriendo Administrador de servidores](images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "Abriendo Administrador de servidores")
+    <span data-ttu-id="c6c82-177">![Abrir el administrador del servidor] (images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "Abrir el administrador del servidor")</span><span class="sxs-lookup"><span data-stu-id="c6c82-177">![Opening Server Manager](images/Dn776290.3e4bd8ad-2a65-4a05-af40-c8dd3583bc8f(OCS.15).jpg "Opening Server Manager")</span></span>
 
-3.  Seleccione el desplegable **Herramientas** y luego **DNS**, como se muestra en la siguiente ilustración.
+3.  <span data-ttu-id="c6c82-178">Seleccione el menú desplegable **herramientas** y, a continuación, seleccione **DNS**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-178">Choose the **Tools** drop-down, and select **DNS**, as shown in the following figure.</span></span>
     
-    ![Abriendo DNS desde el Administrador de servidores.](images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "Abriendo DNS desde el Administrador de servidores.")
+    <span data-ttu-id="c6c82-179">![Abrir DNS desde el administrador del servidor.] (images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "Abrir DNS desde el administrador del servidor.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-179">![Opening DNS from Server Manager.](images/Dn776290.415e1da1-7c9a-4a4e-a896-ca34a76aaeff(OCS.15).jpg "Opening DNS from Server Manager.")</span></span>
 
-4.  En el panel izquierdo, expanda el nodo del nombre de servidor, expanda el nodo Zonas de búsqueda directa y seleccione el dominio correspondiente.
+4.  <span data-ttu-id="c6c82-180">En el panel de la izquierda, expanda el nodo nombre del servidor, expanda el nodo zonas de búsqueda directa y elija el dominio correspondiente.</span><span class="sxs-lookup"><span data-stu-id="c6c82-180">In the left pane, expand the server name node, expand the Forward Lookup Zones node, and choose the relevant domain.</span></span>
 
-5.  Haga clic con el botón secundario en el dominio y seleccione **Alias nuevo (CNAME)…**, como se muestra en la siguiente ilustración.
+5.  <span data-ttu-id="c6c82-181">Haga clic con el botón derecho en el dominio y seleccione **nuevo alias (CNAME)...**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-181">Right-click the domain, and select **New Alias (CNAME)…**, as shown in the following figure.</span></span>
     
-    ![Seleccionando opción para crear un nuevo CNAME de alias](images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "Seleccionando opción para crear un nuevo CNAME de alias")
+    <span data-ttu-id="c6c82-182">![Selección de la opción para crear un nuevo alias CNAME] (images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "Selección de la opción para crear un nuevo alias CNAME")</span><span class="sxs-lookup"><span data-stu-id="c6c82-182">![Selecting option to create a new alias CNAME](images/Dn776290.abe66cca-b53c-427a-9094-1a59dc6840ca(OCS.15).jpg "Selecting option to create a new alias CNAME")</span></span>
 
-6.  Introduzca el **Nombre de alias** y el **FQDN de SQL Server**, como se muestra en la siguiente ilustración.
+6.  <span data-ttu-id="c6c82-183">Escriba el **nombre de alias** y el **FQDN de SQL Server**, como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-183">Enter the **Alias Name** and the **FQDN for SQL Server**, as shown in the following figure.</span></span>
     
-    ![Cuadro de diálogo Rellenando el nuevo CNAME de alias.](images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "Cuadro de diálogo Rellenando el nuevo CNAME de alias.")
+    <span data-ttu-id="c6c82-184">![Rellenando el cuadro de diálogo nuevo alias CNAME.] (images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "Rellenando el cuadro de diálogo nuevo alias CNAME.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-184">![Filling in the new alias CNAME dialog.](images/Dn776290.dd0ebd2d-3407-4459-8bd9-2b389a7bc440(OCS.15).jpg "Filling in the new alias CNAME dialog.")</span></span>
 
-7.  Seleccione **Aceptar** para guardar el CNAME y verlo en el Administrador de DNS.
+7.  <span data-ttu-id="c6c82-185">Elija **Aceptar** para guardar el CNAME y verlo en el administrador de DNS.</span><span class="sxs-lookup"><span data-stu-id="c6c82-185">Choose **OK** to save the CNAME and view it in DNS Manager.</span></span>
 
-## Validar la conectividad de base de datos
+</div>
 
-Hay muchas maneras diferentes para asegurarse de que funciona. Quiere asegurarse de que la base de datos SQL Server está escuchando en el puerto especificado utilizando el alias. Una comprobación rápida puede ser realizada con los comandos **netstat** y **telnet**.
+<div>
+
+## <a name="validate-database-connectivity"></a><span data-ttu-id="c6c82-186">Validar la conectividad de la base de datos</span><span class="sxs-lookup"><span data-stu-id="c6c82-186">Validate Database Connectivity</span></span>
+
+<span data-ttu-id="c6c82-187">Hay varias formas diferentes de asegurarse de que funciona.</span><span class="sxs-lookup"><span data-stu-id="c6c82-187">There are many different ways to make sure it is working.</span></span> <span data-ttu-id="c6c82-188">Desea asegurarse de que la base de datos de SQL Server está escuchando en el puerto especificado usando el alias.</span><span class="sxs-lookup"><span data-stu-id="c6c82-188">You want to make sure that the SQL Server database is listening on the specified port using the alias.</span></span> <span data-ttu-id="c6c82-189">Una comprobación rápida se puede completar con los comandos **netstat** y **telnet** .</span><span class="sxs-lookup"><span data-stu-id="c6c82-189">A quick check can be completed using the **netstat** and **telnet** commands.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Cliente Telnet es una característica que viene con Windows Server, pero que debe instalarse. Una característica de Windows Server se puede instalar abriendo el Administrador de servidores y seleccionando Agregar roles y características en el menú Administrar.
+> [!NOTE]  
+> <span data-ttu-id="c6c82-190">El cliente Telnet es una característica que se incluye con Windows Server, pero que debe instalarse.</span><span class="sxs-lookup"><span data-stu-id="c6c82-190">Telnet Client is a Feature that comes with Windows Server but that must be installed.</span></span> <span data-ttu-id="c6c82-191">Para instalar una característica de Windows Server, abra el administrador del servidor y seleccione Agregar roles y características en el menú administrar.</span><span class="sxs-lookup"><span data-stu-id="c6c82-191">A Windows Server Feature can be installed by opening Server Manager and selecting Add Roles and Features from the Manage menu.</span></span>
 
 
 
-**Usar netstat y telnet para comprobar la conectividad de base de datos**
+</div>
 
-1.  Seleccione **Inicio** y escriba **cmd** para abrir un símbolo del sistema.
+<span data-ttu-id="c6c82-192">**Usar netstat y Telnet para comprobar la conectividad de la base de datos**</span><span class="sxs-lookup"><span data-stu-id="c6c82-192">**Use netstat and telnet to verify database connectivity**</span></span>
 
-2.  Escriba **netstat -a -f** y confirme que SQL Server se está ejecutando con el puerto correcto, como se muestra en la siguiente ilustración.
+1.  <span data-ttu-id="c6c82-193">Seleccione **Inicio**y escriba **cmd** para abrir un símbolo del sistema.</span><span class="sxs-lookup"><span data-stu-id="c6c82-193">Select **Start**, and type **cmd** to open a command prompt.</span></span>
+
+2.  <span data-ttu-id="c6c82-194">Escriba **netstat-a-f**y confirme que SQL Server se está ejecutando con el puerto correcto, tal y como se muestra en la siguiente ilustración.</span><span class="sxs-lookup"><span data-stu-id="c6c82-194">Type **netstat -a -f**, and confirm that SQL Server is running with the correct port, as shown in the following figure.</span></span>
     
-    ![Usando netstat para comprobar el puerto.](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Usando netstat para comprobar el puerto.")
+    <span data-ttu-id="c6c82-195">![Uso de netstat para comprobar el puerto.] (images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Uso de netstat para comprobar el puerto.")</span><span class="sxs-lookup"><span data-stu-id="c6c82-195">![Using netstat to verify port.](images/Dn776290.4ff3a1b2-c5eb-4496-8be7-374c351fa027(OCS.15).jpg "Using netstat to verify port.")</span></span>
 
-3.  Escriba **telnet \<nombre de alias\> \<número de puerto \>** para confirmar la conexión a la instancia de SQL Server. Si la conexión es correcta, telnet se conectará y no debería ver ningún error. Esto demuestra que la instancia de SQL Server está escuchando en el puerto correcto con el alias correcto. Si hay un problema de conexión a la base de datos de SQL Server, entonces telnet muestra un error que indica que no se puede realizar la conexión. Ahora que ha comprobado la conectividad de base de datos en el servidor de base de datos, puede hacer lo mismo desde Lync Server (a través de la red) y asegurarse de que no hay ningún firewall que bloquee el acceso en toda la ruta.
+3.  <span data-ttu-id="c6c82-196">Escriba **Puerto \< \# de nombre\> \<de alias de Telnet** para confirmar la conexión a la instancia de SQL Server.</span><span class="sxs-lookup"><span data-stu-id="c6c82-196">Type **telnet \<alias name\> \<port \#\>** to confirm the connection to the SQL Server instance.</span></span> <span data-ttu-id="c6c82-197">Si la conexión se realiza correctamente, Telnet se conectará y no se producirá un error.</span><span class="sxs-lookup"><span data-stu-id="c6c82-197">If the connection is successful, telnet will connect and you shouldn’t see an error.</span></span> <span data-ttu-id="c6c82-198">Esto muestra que la instancia de SQL Server está escuchando en el puerto correcto con el alias correcto.</span><span class="sxs-lookup"><span data-stu-id="c6c82-198">This shows that the SQL Server instance is listening on the correct port with the correct alias.</span></span> <span data-ttu-id="c6c82-199">Si hay un problema al conectarse a la base de datos de SQL Server, entonces Telnet muestra un error que indica que no se puede establecer la conexión.</span><span class="sxs-lookup"><span data-stu-id="c6c82-199">If there’s a problem connecting to the SQL Server database, then telnet shows an error that the connection cannot be made.</span></span> <span data-ttu-id="c6c82-200">Ahora que ha verificado la conectividad de la base de datos en el servidor de base de datos, puede hacer lo mismo desde Lync Server (a través de la red) y asegurarse de que no haya firewalls bloqueando el acceso durante el proceso.</span><span class="sxs-lookup"><span data-stu-id="c6c82-200">Now that you have checked database connectivity on the database server, you can do the same thing from Lync Server (over the network) and make sure there aren’t any firewalls blocking access along the way.</span></span>
 
-## Conclusión
+</div>
 
-Una vez configurado el alias de SQL Server, puede utilizarlo para crear una topología de Lync Server 2013 en la herramienta Generador de topologías . Para más información sobre topologías, consulte [Definición y configuración de la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)Supported Lync Server 2013 Preview Topologies.
+<div>
 
-## Vea también
+## <a name="conclusion"></a><span data-ttu-id="c6c82-201">Conclusión</span><span class="sxs-lookup"><span data-stu-id="c6c82-201">Conclusion</span></span>
 
-#### Conceptos
+<span data-ttu-id="c6c82-202">Una vez que el alias de SQL Server se ha configurado, puede usarlo para crear una topología de Lync Server 2013 en la herramienta Generador de topología.</span><span class="sxs-lookup"><span data-stu-id="c6c82-202">Once the SQL Server alias has been configured, you can use it to create a Lync Server 2013 topology in the Topology Builder tool.</span></span> <span data-ttu-id="c6c82-203">Para obtener más información acerca de las topologías, consulte [definir y configurar la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).</span><span class="sxs-lookup"><span data-stu-id="c6c82-203">For more information about topologies, see [Defining and configuring the topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md).</span></span>
 
-[Microsoft Lync Server 2013](microsoft-lync-server-2013.md)  
+</div>
 
-#### Otros recursos
+</div>
 
-[Planeación de seguridad en Lync Server 2013](lync-server-2013-planning-for-security.md)  
-[Definición y configuración de la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md)  
-[Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="c6c82-204">Vea también</span><span class="sxs-lookup"><span data-stu-id="c6c82-204">See Also</span></span>
+
+
+<span data-ttu-id="c6c82-205">[Microsoft Lync Server 2013](microsoft-lync-server-2013.md) 
+[Planning for Security in Lync Server 2013](lync-server-2013-planning-for-security.md)</span><span class="sxs-lookup"><span data-stu-id="c6c82-205">[Microsoft Lync Server 2013](microsoft-lync-server-2013.md) 
+[Planning for security in Lync Server 2013](lync-server-2013-planning-for-security.md)</span></span>  
+[<span data-ttu-id="c6c82-206">Definición y configuración de la topología en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6c82-206">Defining and configuring the topology in Lync Server 2013</span></span>](lync-server-2013-defining-and-configuring-the-topology.md)  
+[<span data-ttu-id="c6c82-207">Implementar Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c6c82-207">Deploying Lync Server 2013</span></span>](lync-server-2013-deploying-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

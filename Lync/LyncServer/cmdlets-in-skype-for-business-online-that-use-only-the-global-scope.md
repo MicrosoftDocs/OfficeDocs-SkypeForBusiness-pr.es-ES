@@ -1,62 +1,69 @@
-﻿---
-title: Cmdlets exclusivamente de ámbito global
-TOCTitle: Cmdlets exclusivamente de ámbito global
-ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362771(v=OCS.15)
-ms:contentKeyID: 56271266
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets exclusivamente de ámbito global
+title: Cmdlets de Skype empresarial online que solo usan el ámbito global
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use only the global scope
+ms:assetid: 0ffd3bc9-a6a1-4c2e-8d52-e599acc49d2d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362771(v=OCS.15)
+ms:contentKeyID: 56558800
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: af9bb88fc4dbe3b7814d1f2f69d711527a769a3b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842099"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-only-the-global-scope"></a><span data-ttu-id="2cd42-102">Cmdlets de Skype empresarial online que solo usan el ámbito global</span><span class="sxs-lookup"><span data-stu-id="2cd42-102">Cmdlets in Skype for Business Online that use only the global scope</span></span>
 
  
 
-_**Última modificación del tema:** 2015-06-22_
 
-Algunas opciones de configuración de Skype Empresarial Online solo están disponibles en el *ámbito global*. Esto significa que hay una sola colección de configuraciones que se aplica a todos los usuarios que están asignados a ese inquilino. (Cada inquilino tiene su propia colección única de configuraciones globales). Al usar cmdlets limitados al ámbito global, el parámetro Identity es opcional. Por ejemplo, para recuperar opciones de configuración de reunión, puede usar este comando:
+<span data-ttu-id="2cd42-103">Una serie de opciones de configuración de Skype empresarial online solo están disponibles en el *ámbito global*.</span><span class="sxs-lookup"><span data-stu-id="2cd42-103">A number of Skype for Business Online settings are available only at the *global scope*.</span></span> <span data-ttu-id="2cd42-104">Esto significa que hay una sola colección de opciones de configuración que se aplica a todos los usuarios que están asignados a ese inquilino.</span><span class="sxs-lookup"><span data-stu-id="2cd42-104">This means that there is a single collection of settings that applies to all the users who are assigned to that tenant.</span></span> <span data-ttu-id="2cd42-105">(Cada inquilino tiene su propia recopilación exclusiva de la configuración global). Cuando se usan cmdlets que se limitan al ámbito global, el parámetro Identity es opcional.</span><span class="sxs-lookup"><span data-stu-id="2cd42-105">(Each tenant has its own unique collection of global settings.) When you are using cmdlets that are limited to the global scope, the Identity parameter is optional.</span></span> <span data-ttu-id="2cd42-106">Por ejemplo, para recuperar la configuración de la reunión, puede usar este comando:</span><span class="sxs-lookup"><span data-stu-id="2cd42-106">For example, to retrieve meeting configuration settings, you can use this command:</span></span>
 
     Get-CsMeetingConfiguration -Identity "global"
 
-Si lo prefiere, puede omitir el parámetro Identity y usar este otro comando más simple:
+<span data-ttu-id="2cd42-107">Como alternativa, puede omitir el parámetro Identity y usar este comando más sencillo en su lugar:</span><span class="sxs-lookup"><span data-stu-id="2cd42-107">Alternatively, you can omit the Identity parameter and use this simpler command instead:</span></span>
 
     Get-CsMeetingConfiguration
 
-Como solo hay una colección global de opciones de configuración de reunión, los dos comandos devuelven exactamente la misma información. El parámetro Identity también se puede omitir al usar uno de los cmdlets de **Set-Cs**. Estos dos comandos son idénticos:
+<span data-ttu-id="2cd42-108">Como solo hay una colección global de valores de configuración de reuniones, los dos comandos devuelven exactamente la misma información.</span><span class="sxs-lookup"><span data-stu-id="2cd42-108">Because there is only one global collection of meeting configuration settings, the two commands return the exact same information.</span></span> <span data-ttu-id="2cd42-109">El parámetro Identity también se puede omitir al usar uno de los cmdlets **set-CS** .</span><span class="sxs-lookup"><span data-stu-id="2cd42-109">The Identity parameter can also be omitted when using one of the **Set-Cs** cmdlets.</span></span> <span data-ttu-id="2cd42-110">Estos dos comandos son idénticos:</span><span class="sxs-lookup"><span data-stu-id="2cd42-110">These two commands are identical:</span></span>
 
     Set-CsMeetingConfiguration -Identity "global" -AdmitAnonymousUsersByDefault $False
     Set-CsMeetingConfiguration -AdmitAnonymousUsersByDefault $False
 
-Los dos comandos son idénticos porque, de manera predeterminada, Windows PowerShell modifica la colección global si no se incluye el parámetro Identity.
+<span data-ttu-id="2cd42-111">Los dos comandos son idénticos porque, de forma predeterminada, Windows PowerShell modificará la colección global si no incluye el parámetro Identity.</span><span class="sxs-lookup"><span data-stu-id="2cd42-111">The two commands are identical because, by default, Windows PowerShell will modify the global collection if you do not include the Identity parameter.</span></span>
 
-Los cmdlets siguientes solo funcionan en el ámbito global:
+<span data-ttu-id="2cd42-112">Los siguientes cmdlets solo funcionan en el ámbito global:</span><span class="sxs-lookup"><span data-stu-id="2cd42-112">The following cmdlets operate only at the global scope:</span></span>
 
-  - [Get-CsImFilterConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsImFilterConfiguration)
+  - <span data-ttu-id="2cd42-113">[Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/gg398980\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-113">[Get-CsImFilterConfiguration](https://technet.microsoft.com/en-us/library/gg398980\(v=ocs.15\))</span></span>
 
-  - [Get-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingConfiguration)
+  - <span data-ttu-id="2cd42-114">[Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg425875\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-114">[Get-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg425875\(v=ocs.15\))</span></span>
 
-  - [Get-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsPrivacyConfiguration)
+  - <span data-ttu-id="2cd42-115">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg413002\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-115">[Get-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg413002\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantFederationConfiguration](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantFederationConfiguration)
+  - <span data-ttu-id="2cd42-116">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-116">[Get-CsTenantFederationConfiguration](https://technet.microsoft.com/en-us/library/jj994072\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantHybridConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantHybridConfiguration)
+  - <span data-ttu-id="2cd42-117">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-117">[Get-CsTenantHybridConfiguration](https://technet.microsoft.com/en-us/library/jj994034\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantLicensingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsTenantLicensingConfiguration)
+  - <span data-ttu-id="2cd42-118">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-118">[Get-CsTenantLicensingConfiguration](https://technet.microsoft.com/en-us/library/dn362770\(v=ocs.15\))</span></span>
 
-  - [Get-CsTenantPublicProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsTenantPublicProvider)
+  - <span data-ttu-id="2cd42-119">[Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/jj994016\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-119">[Get-CsTenantPublicProvider](https://technet.microsoft.com/en-us/library/jj994016\(v=ocs.15\))</span></span>
 
-  - [Remove-CsVoicePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsVoicePolicy)
+  - <span data-ttu-id="2cd42-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398309\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-120">[Remove-CsVoicePolicy](https://technet.microsoft.com/en-us/library/gg398309\(v=ocs.15\))</span></span>
 
-  - [Set-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingConfiguration)
+  - <span data-ttu-id="2cd42-121">[Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg398648\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-121">[Set-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/gg398648\(v=ocs.15\))</span></span>
 
-  - [Set-CsPrivacyConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsPrivacyConfiguration)
+  - <span data-ttu-id="2cd42-122">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg398484\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-122">[Set-CsPrivacyConfiguration](https://technet.microsoft.com/en-us/library/gg398484\(v=ocs.15\))</span></span>
 
-Observe que el cmdlet **Remove-CsVoicePolicy** es un poco inusual. En primer lugar, no exige incluir el parámetro Identity:
+<span data-ttu-id="2cd42-123">Tenga en cuenta que el cmdlet **Remove-CsVoicePolicy** es algo de una anomalía.</span><span class="sxs-lookup"><span data-stu-id="2cd42-123">Note that the **Remove-CsVoicePolicy** cmdlet is something of an anomaly.</span></span> <span data-ttu-id="2cd42-124">En primer lugar, este cmdlet requiere que incluyas el parámetro Identity:</span><span class="sxs-lookup"><span data-stu-id="2cd42-124">First, this cmdlet does require you to include the Identity parameter:</span></span>
 
     Remove-CsVoicePolicy -Identity "global"
 
-En segundo lugar, el cmdlet **Remove-CsVoicePolicy**, en realidad, no elimina la directiva de voz global; Skype Empresarial Online no permite eliminar directivas globales ni opciones de configuración. Lo que hace el cmdlet es permitir restablecer todas las propiedades de la directiva de voz global a los valores predeterminados. Por ejemplo, la propiedad AllowCallForwarding está definida en False de manera predeterminada, pero puede haberse cambiado y tener el valor definido en True. Al ejecutar el cmdlet **Remove-CsVoicePolicy**, la propiedad AllowCallForwarding recupera su valor predeterminado: False. En la tabla siguiente se resume este escenario:
+<span data-ttu-id="2cd42-125">En segundo lugar, el cmdlet **Remove-CsVoicePolicy** realmente no elimina la Directiva de voz global; Skype empresarial online no le permite eliminar directivas globales ni parámetros de configuración.</span><span class="sxs-lookup"><span data-stu-id="2cd42-125">Second, the **Remove-CsVoicePolicy** cmdlet does not actually delete the global voice policy; Skype for Business Online does not allow you to delete global policies or configuration settings.</span></span> <span data-ttu-id="2cd42-126">Lo que hace el cmdlet es le permite restablecer todas las propiedades de la Directiva de voz global a sus valores predeterminados.</span><span class="sxs-lookup"><span data-stu-id="2cd42-126">What the cmdlet does do is enable you to reset all the properties in the global voice policy to their default values.</span></span> <span data-ttu-id="2cd42-127">Por ejemplo, de forma predeterminada, la propiedad AllowCallForwarding se establece en false.</span><span class="sxs-lookup"><span data-stu-id="2cd42-127">For example, by default, the AllowCallForwarding property is set to False.</span></span> <span data-ttu-id="2cd42-128">Sin embargo, es posible que se haya modificado AllowCallForwarding, con el valor ahora establecido en true.</span><span class="sxs-lookup"><span data-stu-id="2cd42-128">However, AllowCallForwarding may have been modified, with the value now set to True.</span></span> <span data-ttu-id="2cd42-129">Al ejecutar el cmdlet **Remove-CsVoicePolicy** , la propiedad AllowCallForwarding revertirá a su valor predeterminado: false.</span><span class="sxs-lookup"><span data-stu-id="2cd42-129">When you run the **Remove-CsVoicePolicy** cmdlet, the AllowCallForwarding property will revert to its default value: False.</span></span> <span data-ttu-id="2cd42-130">En la tabla siguiente se resume este escenario:</span><span class="sxs-lookup"><span data-stu-id="2cd42-130">The following table summarizes this scenario:</span></span>
 
 
 <table>
@@ -66,31 +73,30 @@ En segundo lugar, el cmdlet **Remove-CsVoicePolicy**, en realidad, no elimina la
 </colgroup>
 <thead>
 <tr class="header">
-<th>Valor de AllowCallForwarding</th>
-<th>Escenario</th>
+<th><span data-ttu-id="2cd42-131">Valor de AllowCallForwarding</span><span class="sxs-lookup"><span data-stu-id="2cd42-131">AllowCallForwarding Value</span></span></th>
+<th><span data-ttu-id="2cd42-132">Escenario</span><span class="sxs-lookup"><span data-stu-id="2cd42-132">Scenario</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>False</p></td>
-<td><p>Valor predeterminado</p></td>
+<td><p><span data-ttu-id="2cd42-133">False</span><span class="sxs-lookup"><span data-stu-id="2cd42-133">False</span></span></p></td>
+<td><p><span data-ttu-id="2cd42-134">Valor predeterminado</span><span class="sxs-lookup"><span data-stu-id="2cd42-134">Default value</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>True</p></td>
-<td><p>Después de modificar la directiva global</p></td>
+<td><p><span data-ttu-id="2cd42-135">True</span><span class="sxs-lookup"><span data-stu-id="2cd42-135">True</span></span></p></td>
+<td><p><span data-ttu-id="2cd42-136">Una vez modificada la directiva global</span><span class="sxs-lookup"><span data-stu-id="2cd42-136">After the global policy has been modified</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>False</p></td>
-<td><p>Después de ejecutar el cmdlet <strong>Remove-CsVoicePolicy</strong></p></td>
+<td><p><span data-ttu-id="2cd42-137">False</span><span class="sxs-lookup"><span data-stu-id="2cd42-137">False</span></span></p></td>
+<td><p><span data-ttu-id="2cd42-138">Después <strong>de ejecutar el cmdlet Remove-CsVoicePolicy</strong></span><span class="sxs-lookup"><span data-stu-id="2cd42-138">After <strong>Remove-CsVoicePolicy</strong> cmdlet has been run</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+## <a name="see-also"></a><span data-ttu-id="2cd42-139">Vea también</span><span class="sxs-lookup"><span data-stu-id="2cd42-139">See Also</span></span>
 
-#### Conceptos
 
-[Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[<span data-ttu-id="2cd42-140">Identidades, ámbitos y espacios empresariales en Skype empresarial online</span><span class="sxs-lookup"><span data-stu-id="2cd42-140">Identities, scopes, and tenants in Skype for Business Online</span></span>](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+<span data-ttu-id="2cd42-141">[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span><span class="sxs-lookup"><span data-stu-id="2cd42-141">[The Skype for Business Online cmdlets](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))</span></span>
 

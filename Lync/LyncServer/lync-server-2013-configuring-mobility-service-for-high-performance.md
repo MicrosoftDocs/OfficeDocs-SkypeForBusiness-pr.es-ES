@@ -1,60 +1,75 @@
-﻿---
-title: Configurar el servicio de movilidad para alto rendimiento
-TOCTitle: Configurar el servicio de movilidad para alto rendimiento
-ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690042(v=OCS.15)
-ms:contentKeyID: 48276590
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración del servicio de movilidad para un alto rendimiento'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Mobility Service for high performance
+ms:assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690042(v=OCS.15)
+ms:contentKeyID: 48185332
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 54a1c9b901e9a861b40a5cfa8c2642e3e3e41ffe
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842201"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar el servicio de movilidad para alto rendimiento
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-17_
+# <a name="configuring-mobility-service-for-high-performance-in-lync-server-2013"></a><span data-ttu-id="c9be8-102">Configurar el servicio de movilidad para un alto rendimiento en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c9be8-102">Configuring Mobility Service for high performance in Lync Server 2013</span></span>
 
-Al instalar el servicio de movilidad de Lync Server 2013 en Servicios de Internet Information Server (IIS) 7.5, el instalador del servicio de movilidad configura algunos parámetros de rendimiento en el Servidor front-end. Se recomienda usar IIS 7.5 para la movilidad. Si usa IIS 7.0 en Windows Server 2008, debe configurar estos parámetros manualmente. Los parámetros afectan al número máximo de solicitudes de usuario simultáneas y al número máximo de subprocesos permitidos para el servicio de movilidad.
+</div>
 
-Los parámetros de rendimiento son los siguientes:
+<div id="mainSection">
 
-  - **maxConcurrentThreadsPerCPU** está configurado en cero (0).
+<div id="mainBody">
 
-  - **maxConcurrentRequestsPerCPU** está configurado en cero (0).
+<span> </span>
 
-  - El modelo del proceso ASP.NET está configurado en AutoConfig (solo para IIS 7.5).
+<span data-ttu-id="c9be8-103">_**Última modificación del tema:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="c9be8-103">_**Topic Last Modified:** 2013-02-17_</span></span>
 
-  - El límite de cola HTTP.sys está configurado en 1.000 (de manera predeterminada).
+<div>
 
-Si usa IIS 7.0, se recomienda instalar la actualización disponible del artículo 2290617 de Microsoft Knowledge Base, "REVISIÓN: Una revisión está disponible para habilitar la configuración de algunos controles de ASP.NET para cada grupo de aplicaciones en IIS 7.0," en [http://go.microsoft.com/fwlink/?linkid=3052\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=3052%26clcid=0xc0a) para que pueda aplicar los cambios solamente al servicio de movilidad sin influir en otros servicios web.
-
-El siguiente procedimiento describe cómo cambiar los máximos de solicitudes simultáneas y subprocesos de ASP.NET en IIS 7.0 si no instala la actualización disponible en el artículo 2290617 de Knowledge Base. Sin embargo, aunque instale el artículo 2290617 de Knowledge Base, debe usar la documentación proporcionada por el artículo para aplicar los mismos cambios solo para los grupos de aplicaciones IIS internas y externas de movilidad. En este caso, debe usar un archivo de configuración independiente para los parámetros de ASP.NET.
 
 > [!IMPORTANT]  
-> Si usa el siguiente procedimiento para cambiar los máximos, los cambios afectarán a los grupos de aplicaciones IIS.
+> <span data-ttu-id="c9be8-104">Este tema se aplica solo al servicio de movilidad de Lync Server 2013 (MCX) y no se aplica a la API Web de comunicaciones unificadas (UCWA), tal como se proporciona en las actualizaciones acumulativas para Lync Server 2013: febrero de 2013.</span><span class="sxs-lookup"><span data-stu-id="c9be8-104">This topic applies only to the Lync Server 2013 Mobility Service (Mcx), and does not apply to Unified Communications Web API (UCWA), as delivered in the Cumulative Updates for Lync Server 2013: February 2013.</span></span>
 
 
 
-Para más información sobre estos parámetros, vea [http://go.microsoft.com/fwlink/?linkid=234537\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=234537%26clcid=0xc0a).
+</div>
 
-## Para cambiar los máximos de solicitudes simultáneas y subprocesos
+<span data-ttu-id="c9be8-105">Al instalar el servicio de movilidad (MCX) en servicios de Internet Information Server (IIS) 7,5, el instalador del servicio de movilidad configura algunos valores de rendimiento en el servidor front-end.</span><span class="sxs-lookup"><span data-stu-id="c9be8-105">When you install the Mobility Service (Mcx) on Internet Information Services (IIS) 7.5, the Mobility Service installer configures some performance settings on the Front End Server.</span></span> <span data-ttu-id="c9be8-106">Recomendamos usar IIS 7.5 para la movilidad.</span><span class="sxs-lookup"><span data-stu-id="c9be8-106">We recommend that you use IIS 7.5 for mobility.</span></span> <span data-ttu-id="c9be8-107">Los parámetros afectan al número máximo de solicitudes de usuario simultáneas y al número máximo de subprocesos permitidos para el servicio de movilidad.</span><span class="sxs-lookup"><span data-stu-id="c9be8-107">The settings affect the maximum number of concurrent user requests and the maximum number of threads that are allowed for the Mobility Service.</span></span>
 
-1.  Haga clic en **Iniciar** y, a continuación, en **Ejecutar**.
+<span data-ttu-id="c9be8-108">Estos son los parámetros de rendimiento:</span><span class="sxs-lookup"><span data-stu-id="c9be8-108">Here are the performance settings:</span></span>
 
-2.  En el cuadro **Ejecutar**, escriba lo siguiente:
-    
-        notepad %SystemRoot%\Microsoft.NET\Framework64\v2.0.50727\Aspnet.config
+<div>
 
-3.  Haga clic en **Aceptar**.
+## <a name="settings-for-mcx-on-iis-75"></a><span data-ttu-id="c9be8-109">Parámetros para Mcx en IIS 7.5</span><span class="sxs-lookup"><span data-stu-id="c9be8-109">Settings for Mcx on IIS 7.5</span></span>
 
-4.  Agregue o reemplace el siguiente elemento \<system.web\> como secundario del elemento \<configuration\> en el archivo Aspnet.:
-    
-        <system.web>
-        <applicationPool maxConcurrentRequestsPerCPU="<#>" maxConcurrentThreadsPerCPU="0" requestQueueLimit="5000"/>
-        </system.web>
-    
-    donde \# es 0 para quitar el límite o el nuevo número según se describe anteriormente en esta sección.
+1.  <span data-ttu-id="c9be8-110">**maxConcurrentThreadsPerCPU** está configurado en cero (0).</span><span class="sxs-lookup"><span data-stu-id="c9be8-110">**maxConcurrentThreadsPerCPU** is set to zero (0).</span></span>
 
-5.  Guarde el archivo Aspnet.config y cierre el Bloc de notas.
+2.  <span data-ttu-id="c9be8-111">**maxConcurrentRequestsPerCPU** está configurado en cero (0).</span><span class="sxs-lookup"><span data-stu-id="c9be8-111">**maxConcurrentRequestsPerCPU** is set to zero (0).</span></span>
+
+3.  <span data-ttu-id="c9be8-112">El modelo del proceso ASP.NET está configurado en AutoConfig (solo para IIS 7.5).</span><span class="sxs-lookup"><span data-stu-id="c9be8-112">ASP.NET process model is set to AutoConfig (for IIS 7.5 only).</span></span>
+
+4.  <span data-ttu-id="c9be8-113">El límite de cola HTTP.sys está configurado en 1.000 (de manera predeterminada).</span><span class="sxs-lookup"><span data-stu-id="c9be8-113">HTTP.sys queue limit is set to 1,000 (by default).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

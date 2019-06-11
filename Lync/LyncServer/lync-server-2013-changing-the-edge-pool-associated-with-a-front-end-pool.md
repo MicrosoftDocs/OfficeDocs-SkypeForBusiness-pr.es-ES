@@ -1,35 +1,73 @@
-﻿---
-title: "Lync Server 2013: Cambio del grupo perimetrale asociado a servidores front-end"
-TOCTitle: Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end
-ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688023(v=OCS.15)
-ms:contentKeyID: 49889045
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changing the Edge pool associated with a Front End pool
+ms:assetid: 369468c7-2c0b-48cc-bbc3-825dad7b85aa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688023(v=OCS.15)
+ms:contentKeyID: 49733613
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0bbb2e6ffdaa238dcbd4a184c8db890c26dd6340
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842588"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-21_
+# <a name="changing-the-edge-pool-associated-with-a-front-end-pool-in-lync-server-2013"></a><span data-ttu-id="09ba9-102">Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09ba9-102">Changing the Edge pool associated with a Front End pool in Lync Server 2013</span></span>
 
-Si se produce un error en un grupo perimetral pero el grupo de front-end del mismo sitio sigue en ejecución, deberá establecer el grupo de servidores front-end para que use un grupo perimetral de otro sitio hasta que se restablezca el grupo perimetral en el que se ha producido el error.
+</div>
 
-## Cambio del grupo de servidores perimetrales asociado al grupo de servidores front-end
+<div id="mainSection">
 
-1.  En el Generador de topologías, navegue hasta el nombre del grupo de servidores front-end que desea cambiar.
+<div id="mainBody">
 
-2.  Haga clic con el botón secundario en el grupo y, a continuación, haga clic en **Editar propiedades**.
+<span> </span>
 
-3.  En la sección **Asociaciones**, en **Asociar grupo perimetral (para componentes multimedia)**, use el cuadro desplegable para seleccionar el grupo perimetral al que desea asociar este grupo de servidores front-end.
+<span data-ttu-id="09ba9-103">_**Última modificación del tema:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="09ba9-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-4.  Haga clic en **Aceptar**.
+<span data-ttu-id="09ba9-104">Si un grupo de servidores perimetrales deja de funcionar pero el grupo de servidores front-end en el mismo sitio aún se está ejecutando, tendrá que configurar el grupo de servidores front-end para que use un grupo de límites en un sitio diferente hasta que se restaure el grupo perimetral con error.</span><span class="sxs-lookup"><span data-stu-id="09ba9-104">If an Edge pool goes down but the Front End pool at the same site is still running, you will need to set the Front End pool to use an Edge pool at a different site until the failed Edge pool is restored.</span></span>
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="changing-the-edge-pool-associated-with-a-front-end-pool"></a><span data-ttu-id="09ba9-105">Cambiar el grupo perimetral asociado a un grupo de servidores front-end</span><span class="sxs-lookup"><span data-stu-id="09ba9-105">Changing the Edge Pool Associated with a Front End Pool</span></span>
 
-[Recuperación ante desastres del servidor perimetral en Lync Server 2013](lync-server-2013-edge-server-disaster-recovery.md)
+1.  <span data-ttu-id="09ba9-106">En el generador de topología, vaya al nombre del grupo de servidores front-end que necesita cambiar.</span><span class="sxs-lookup"><span data-stu-id="09ba9-106">In Topology Builder, navigate to the name of the Front End pool you need to change.</span></span>
+
+2.  <span data-ttu-id="09ba9-107">Haga clic con el botón secundario en el grupo y luego haga clic en **Editar propiedades**.</span><span class="sxs-lookup"><span data-stu-id="09ba9-107">Right-click the pool, and then click **Edit Properties**.</span></span>
+
+3.  <span data-ttu-id="09ba9-108">En la sección **asociaciones** , en **asociar grupo perimetral (para componentes multimedia)**, use el cuadro desplegable para seleccionar el grupo perimetral al que desea asociar este grupo de servidores front-end.</span><span class="sxs-lookup"><span data-stu-id="09ba9-108">In the **Associations** section, under **Associate Edge Pool (for media components)**, use the drop down box to select the Edge pool you want to associate this Front End pool with.</span></span>
+
+4.  <span data-ttu-id="09ba9-109">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="09ba9-109">Click **OK**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="09ba9-110">Vea también</span><span class="sxs-lookup"><span data-stu-id="09ba9-110">See Also</span></span>
+
+
+[<span data-ttu-id="09ba9-111">Recuperación ante desastres del servidor perimetral en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="09ba9-111">Edge Server disaster recovery in Lync Server 2013</span></span>](lync-server-2013-edge-server-disaster-recovery.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

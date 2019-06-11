@@ -1,133 +1,204 @@
-﻿---
-title: "Configurar transferencia de archivos y filtrado de URL para MI en Lync Server 2013"
-TOCTitle: "Conf. du transf. de fich. et du filtr. des URL pour mess. inst. dans LS 2013"
-ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520952(v=OCS.15)
-ms:contentKeyID: 48274467
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi)
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring file transfer and URL filtering for instant messaging (IM)
+ms:assetid: 115a1a2c-599f-474c-a063-52f7144b5246
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520952(v=OCS.15)
+ms:contentKeyID: 48183440
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 97a9e39799815a86bc255b9aa58627df94eb3f81
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842255"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de la transferencia de archivos y el filtrado de direcciones URL para la mensajería instantánea (MI) en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-11-01_
+# <a name="configuring-file-transfer-and-url-filtering-for-instant-messaging-im-in-lync-server-2013"></a><span data-ttu-id="f41ba-102">Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f41ba-102">Configuring file transfer and URL filtering for instant messaging (IM) in Lync Server 2013</span></span>
 
-La herramienta Filtro inteligente de mensajería instantánea ayuda a proteger la implementación de Lync Server 2013 contra la propagación de las formas más comunes de virus con una degradación mínima de la experiencia por parte de los usuarios. Use el filtro inteligente de mensajería instantánea para configurar filtros que bloqueen los mensajes instantáneos no solicitados o potencialmente dañinos procedentes de extremos desconocidos más allá del firewall corporativo. Los filtros se configuran al especificar los criterios que se van a usar para determinar lo que se va a bloquear, como mensajes instantáneos que contienen hipervínculos con prefijos determinados y archivos con extensiones específicas.
+</div>
 
-El filtro inteligente de mensajería instantánea ofrece lo siguiente:
+<div id="mainSection">
 
-  - Filtrado mejorado de direcciones URL.
+<div id="mainBody">
 
-  - Filtrado mejorado de transferencias de archivos.
+<span> </span>
 
-La configuración del filtro inteligente de mensajería instantánea incluye lo siguiente:
+<span data-ttu-id="f41ba-103">_**Última modificación del tema:** 2012-11-01_</span><span class="sxs-lookup"><span data-stu-id="f41ba-103">_**Topic Last Modified:** 2012-11-01_</span></span>
 
-  - Configuración de filtrado de direcciones URL.
+<span data-ttu-id="f41ba-104">La herramienta filtro inteligente de mensajes instantáneos ayuda a proteger la implementación de Lync Server 2013 contra la propagación de las formas más comunes de virus con una degradación mínima para la experiencia del usuario.</span><span class="sxs-lookup"><span data-stu-id="f41ba-104">The Intelligent IM Filter tool helps protect your Lync Server 2013 deployment against the spread of the most common forms of viruses with minimal degradation to the user experience.</span></span> <span data-ttu-id="f41ba-105">Use el filtro inteligente de mi para configurar filtros para bloquear mensajes instantáneos no solicitados o potencialmente dañinos de puntos de conexión desconocidos fuera del firewall de la empresa.</span><span class="sxs-lookup"><span data-stu-id="f41ba-105">Use Intelligent IM Filter to configure filters to block unsolicited or potentially harmful instant messages from unknown endpoints outside the corporate firewall.</span></span> <span data-ttu-id="f41ba-106">Para configurar filtros, especifique los criterios que se van a usar para determinar qué se debe bloquear, por ejemplo, los mensajes instantáneos que contengan hipervínculos con determinados prefijos y archivos con extensiones específicas.</span><span class="sxs-lookup"><span data-stu-id="f41ba-106">You configure filters by specifying the criteria to be used to determine what should be blocked, such as instant messages containing hyperlinks with specific prefixes and files with specific extensions.</span></span>
 
-  - Configuración de filtrado de transferencias de archivos.
+<span data-ttu-id="f41ba-107">El filtro inteligente de mensajes instantáneos proporciona lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="f41ba-107">Intelligent IM Filter provides the following:</span></span>
 
-## Cómo se aplican las opciones de filtrado a los mensajes instantáneos
+  - <span data-ttu-id="f41ba-108">Filtrado de URL mejorado.</span><span class="sxs-lookup"><span data-stu-id="f41ba-108">Enhanced URL filtering.</span></span>
 
-Antes de implementar la herramienta Filtro inteligente de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado cuando se enrutan los mensajes de un servidor Lync Server 2013 a otro. Estas opciones de filtrado se aplican de manera coherente, independientemente de si los servidores se encuentran en una sola organización o en varias organizaciones. Esta coherencia se aplica a la forma en que se insertan los avisos y advertencias personalizados en los mensajes y se envían a través de los servidores.
+  - <span data-ttu-id="f41ba-109">Filtrado mejorado de transferencia de archivos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-109">Enhanced file transfer filtering.</span></span>
 
+<span data-ttu-id="f41ba-110">La configuración del filtro inteligente de mensajes instantáneos incluye lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="f41ba-110">Configuring Intelligent IM Filter includes the following:</span></span>
 
-> [!NOTE]
-> El filtro de mensajes instantáneos aumenta la cantidad de recursos de CPU necesarios para procesar las direcciones URL de un mensaje. Este aumento de la demanda de CPU afecta asimismo al rendimiento de Lync Server.
+  - <span data-ttu-id="f41ba-111">Configuración del filtrado de URL.</span><span class="sxs-lookup"><span data-stu-id="f41ba-111">Configuring URL filtering.</span></span>
 
+  - <span data-ttu-id="f41ba-112">Configuración del filtrado de transferencia de archivos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-112">Configuring file transfer filtering.</span></span>
 
+<div>
 
-Al usar la página **Filtro para direcciones URL** del grupo **Mensajería instantánea y presencia** en Panel de control de Lync Server, puede bloquear algunos hipervínculos o todos ellos, o configurar una advertencia. La advertencia se introduce al comienzo de un mensaje instantáneo que contiene un hipervínculo al seleccionar la opción **Prefijo de hipervínculoEnviar mensaje de advertencia**.
+## <a name="how-filtering-options-are-applied-to-instant-messages"></a><span data-ttu-id="f41ba-113">Cómo se aplican las opciones de filtrado a los mensajes instantáneos</span><span class="sxs-lookup"><span data-stu-id="f41ba-113">How Filtering Options Are Applied to Instant Messages</span></span>
 
-Cuando un mensaje instantáneo pasa de un servidor a otro, se aplican las siguientes pautas generales:
+<span data-ttu-id="f41ba-114">Antes de implementar la herramienta inteligente de filtro de mensajes de mensajería instantánea, debe comprender cómo se aplican las opciones de filtrado a medida que los mensajes se dirigen desde un servidor de Lync Server 2013 a otro.</span><span class="sxs-lookup"><span data-stu-id="f41ba-114">Before you deploy the Intelligent IM Message Filter tool, you need to understand how filtering options are applied as messages are routed from one Lync Server 2013 server to another.</span></span> <span data-ttu-id="f41ba-115">La manera en que se aplican estas opciones de filtrado es coherente, independientemente de si los servidores se encuentran en una sola organización o en los límites de la organización.</span><span class="sxs-lookup"><span data-stu-id="f41ba-115">The way these filtering options are applied is consistent, regardless of whether the servers are located in a single organization or across organizational boundaries.</span></span> <span data-ttu-id="f41ba-116">Esta coherencia se aplica a la forma en que el aviso personalizado y los mensajes de advertencia se insertan en mensajes y se envían por servidores.</span><span class="sxs-lookup"><span data-stu-id="f41ba-116">This consistency applies to the way that the customized notice and warning texts are inserted into messages and sent across servers.</span></span>
 
-  - Si un servidor bloquea un mensaje instantáneo (porque ha activado la casilla **Bloquear direcciones URL con extensión de archivo** de la página **Filtro para direcciones URL** o porque ha seleccionado la opción **Prefijo de hipervínculoBloquear hipervínculos**), el cliente recibe un mensaje de error. Los servidores subsiguientes no reciben este mensaje instantáneo.
-
-  - Si un servidor (Server1) agrega una advertencia a un mensaje instantáneo que tiene un hipervínculo activo, un servidor subsiguiente (Server2) que reciba este mensaje instantáneo podrá emprender otra acción basándose en este hipervínculo activo presente en el mensaje instantáneo, y bloquear el mensaje o agregar una advertencia. Si Server2 está configurado de modo que solo agregue una advertencia para esta dirección URL, se quitará la advertencia anterior agregada por Server1 y se agregará al comienzo del mensaje instantáneo la advertencia configurada en Server2.
-
-
-> [!NOTE]
-> Si está ejecutando Lync Server 2013 en un entorno mixto, Live Communications Server 2005 con SP1 es la versión mínima necesaria para usar la aplicación Filtro inteligente de mensajería instantánea. El filtro inteligente de mensajería instantánea no se puede usar en Live Communications Server 2005 sin SP1.
-
-
-
-## Filtrado para direcciones URL
-
-Las direcciones URL se filtran en función de su prefijo de hipervínculo. A continuación se muestran ejemplos de prefijos válidos:
-
-  - www\*.
-
-  - ftp.
-
-  - http:
-
-Si no se configura el filtro de mensajería instantánea para que realice algún filtrado de direcciones URL, todas las direcciones URL que aparezcan en mensajes instantáneos pasarán a través del servidor sin sufrir modificaciones. Si configura el filtro de mensajería instantánea para que realice un filtrado de direcciones URL, las URL de los mensajes instantáneos se filtrarán de acuerdo con las opciones que seleccione en el cuadro de diálogo **Editar filtro para direcciones URL** o **Nuevo filtro para direcciones URL**.
-
-  - **Habilitar filtro para direcciones URL**   Esta opción permite el filtrado de direcciones URL para toda la implementación o para el sitio que seleccione.
-
-  - **Bloquear direcciones URL con extensión de archivo**  El filtro para mensajería instantánea bloquea cualquier dirección URL activa de la intranet o de Internet que contenga un archivo con una extensión incluida en **Extensiones de tipo de archivo a bloquear** en el cuadro de diálogo **Editar filtro de archivo**. Cuando se bloquea una dirección URL, el remitente recibe un mensaje de error. Al seleccionar dicha opción, esta tiene prioridad sobre todas las demás opciones de filtrado para cualquier extensión de archivo definida en **Extensiones de tipo de archivo a bloquear**.
-    
-    > [!IMPORTANT]  
-    > El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
-    
-
-
-Para configurar la forma en la que se administran los hipervínculos en las conversaciones de mensajes instantáneos, seleccione una de las siguientes opciones en **Prefijo de hipervínculo**:
-
-  - **No filtrar**   Las direcciones URL de los mensajes se envían a través del servidor. Al seleccionar esta opción se muestra el cuadro **Permitir mensaje**. En el cuadro **Permitir mensaje**, especifique el aviso que desea insertar al comienzo de cada mensaje instantáneo que contenga hipervínculos. Este aviso no puede tener más de 65.535 caracteres.
-
-  - **Bloquear hipervínculos**   Lync Server bloquea la entrega de mensajes instantáneos que tengan algún hipervínculo activo y el remitente recibe un mensaje de error.
-
-  - **Enviar mensaje de advertencia**   Lync Server permite hipervínculos activos en los mensajes instantáneos, pero incluye una advertencia. Al seleccionar esta opción, se muestra el cuadro **Mensaje de advertencia**. En el cuadro **Mensaje de advertencia**, debe escribir la advertencia que desea incluir en los mensajes instantáneos que contengan hipervínculos válidos. Por ejemplo, esta advertencia podría indicar los posibles riesgos de hacer clic en vínculos desconocidos o hacer referencia a directivas y requisitos relevantes para la organización. La advertencia no puede tener más de 65.535 caracteres.
-
-Si selecciona **Bloquear hipervínculos** o **Enviar mensaje de advertencia**, puede definir las siguientes opciones:
-
-  - **Excluir hipervínculos de intranet locales**   El filtro de mensajes instantáneos solo bloquea las direcciones URL de Internet. Las direcciones URL de ubicaciones que se encuentran en la intranet pasan por el servidor sin sufrir modificaciones. Sin embargo, las direcciones URL de intranet que atraviesen servidores individuales que ejecuten Lync Server dependen de los tipos de sitios web locales que se consideren parte de su zona de intranet. Para comprobar la configuración de zona de intranet de un servidor, consulte el procedimiento "Para establecer la configuración de intranet en Internet Explorer” en [Modificar el filtro para direcciones URL predeterminado](lync-server-2013-modify-the-default-url-filter.md).
-
-  - **Filtrar estos prefijos de hipervínculos**   Para seleccionar los prefijos que desea bloquear, haga clic en **Seleccionar** y en **Seleccionar prefijo de hipervínculos** y agregue los prefijos a la lista **Prefijos de hipervínculos**.
-    
-    Todos los prefijos, salvo **href**, deben terminar con un punto, un signo de dos puntos o un asterisco seguido de un punto. Los prefijos válidos pueden contener cualquier carácter del juego de caracteres válidos para direcciones URL, salvo el asterisco (\*). El juego de caracteres válidos para direcciones URL es: \#\*+/0123456789=@ABCDEFGHIJKLMNOPQRSTUVWXYZ^\_\` abcdefghijklmnopqrstuvwxyz|~
-
-## Filtrado para transferencia de archivos
-
-El filtro para transferencia afecta tanto a los mensajes instantáneos como a las conferencias. En el caso de las conferencias, esta configuración afecta a la característica de documentos en el cliente de Office Live Meeting 2007 y a las características de reproducción multimedia.
+<div>
 
 
 > [!NOTE]
-> Lync Server ofrece asimismo opciones de configuración para la transferencia de archivos. Esta opción del servidor se ofrece además de los controles del cliente disponibles en Lync Server.
+> <span data-ttu-id="f41ba-117">El filtro de mensajes instantáneos aumenta la cantidad de recursos de CPU necesarios para procesar las direcciones URL en un mensaje.</span><span class="sxs-lookup"><span data-stu-id="f41ba-117">The instant message filter increases the amount of CPU resources required to process URLs in a message.</span></span> <span data-ttu-id="f41ba-118">Este aumento en la demanda de la CPU también afecta al rendimiento de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f41ba-118">This increase in CPU demand also affects the performance of Lync Server.</span></span>
 
 
 
-Puede filtrar transferencias de archivos durante conversaciones de mensajes instantáneos, cuando use la característica de documentos en el cliente de Office Live Meeting 2007, así como las características de reproducción multimedia para todos los tipos de archivo. Puede definir las opciones siguientes para controlar las transferencias de archivos:
+</div>
 
-  - **Habilitar filtro de archivo**   Esta opción permite el filtrado de archivos para toda la implementación o para el sitio que seleccione.
+<span data-ttu-id="f41ba-119">Si usa la página **filtro de URL** en el grupo **presencia y mi** en el panel de control de Lync Server, puede bloquear algunos o todos los hipervínculos o configurar una advertencia.</span><span class="sxs-lookup"><span data-stu-id="f41ba-119">By using the **URL Filter** page in the **IM and Presence** group in Lync Server Control Panel, you can block some or all hyperlinks or configure a warning.</span></span> <span data-ttu-id="f41ba-120">La advertencia se inserta al principio de un mensaje instantáneo que contiene un hipervínculo cuando se elige la opción **Enviar mensaje de advertencia**en el prefijo de hipervínculo. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="f41ba-120">The warning is inserted at the beginning of an instant message that contains a hyperlink when you choose the **Hyperlink prefix** option **Send warning message**.</span></span>
+
+<span data-ttu-id="f41ba-121">Cuando un mensaje instantáneo viaja de un servidor a otro, se aplican las siguientes directrices generales:</span><span class="sxs-lookup"><span data-stu-id="f41ba-121">When an instant message travels from one server to another, the following general guidelines apply:</span></span>
+
+  - <span data-ttu-id="f41ba-122">Si un servidor bloquea un mensaje instantáneo (porque ha activado la casilla de verificación **bloquear direcciones URL con extensión de archivo** en la página **filtro de URL** o \*\*\*\* porque ha elegido la opción **bloquear hipervínculos**del hipervínculo), se devuelve un mensaje de error a el cliente.</span><span class="sxs-lookup"><span data-stu-id="f41ba-122">If a server blocks an instant message (because you selected the **Block URLs with file extension** check box on the **URL Filter** page or because you chose the **Hyperlink prefix** option **Block hyperlinks**), an error message is returned to the client.</span></span> <span data-ttu-id="f41ba-123">Los siguientes servidores no reciben este mensaje instantáneo.</span><span class="sxs-lookup"><span data-stu-id="f41ba-123">Subsequent servers do not receive this instant message.</span></span>
+
+  - <span data-ttu-id="f41ba-124">Si un servidor (Servidor1) agrega una advertencia a un mensaje instantáneo que contiene un hipervínculo activo, un servidor posterior (servidor2) que reciba este mensaje instantáneo aún puede tomar una acción diferente según este hipervínculo activo presente en el mensaje instantáneo y bloquear la envía mensajes instantáneos o agrega una advertencia.</span><span class="sxs-lookup"><span data-stu-id="f41ba-124">If a server (Server1) adds a warning to an instant message that contains an active hyperlink, a subsequent server (Server2) that receives this instant message can still take a different action based on this active hyperlink present in the instant message and block the instant message or add a warning.</span></span> <span data-ttu-id="f41ba-125">Si server2 está configurado únicamente para agregar una advertencia para esta dirección URL, se quitará la advertencia anterior agregada por server1 y se agregará la advertencia configurada en server2 al principio del mensaje instantáneo.</span><span class="sxs-lookup"><span data-stu-id="f41ba-125">If Server2 is configured only to add a warning for this URL, the earlier warning added by Server1 is removed, and the warning configured on Server2 is added to the beginning of the instant message.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="f41ba-126">Si ejecuta Lync Server 2013 en un entorno mixto, Live Communications Server 2005 con SP1 es la versión mínima requerida para usar la aplicación de filtro inteligente de mensajes instantáneos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-126">If you are running Lync Server 2013 in a mixed environment, Live Communications Server 2005 with SP1 is the minimum version required to use the Intelligent IM Filter application.</span></span> <span data-ttu-id="f41ba-127">El filtro inteligente de mensajes instantáneos no es compatible con Live Communications Server 2005 sin SP1.</span><span class="sxs-lookup"><span data-stu-id="f41ba-127">The Intelligent IM Filter is not supported on Live Communications Server 2005 without SP1.</span></span>
+
+
+
+</div>
+
+<div>
+
+## <a name="url-filtering"></a><span data-ttu-id="f41ba-128">Filtrado de URL</span><span class="sxs-lookup"><span data-stu-id="f41ba-128">URL Filtering</span></span>
+
+<span data-ttu-id="f41ba-129">Las direcciones URL se filtran según su prefijo de hipervínculo.</span><span class="sxs-lookup"><span data-stu-id="f41ba-129">URLs are filtered according to their hyperlink prefix.</span></span> <span data-ttu-id="f41ba-130">Los siguientes ejemplos son prefijos válidos:</span><span class="sxs-lookup"><span data-stu-id="f41ba-130">The following examples are valid prefixes:</span></span>
+
+  - <span data-ttu-id="f41ba-131">www\*.</span><span class="sxs-lookup"><span data-stu-id="f41ba-131">www\*.</span></span>
+
+  - <span data-ttu-id="f41ba-132">FTP.</span><span class="sxs-lookup"><span data-stu-id="f41ba-132">ftp.</span></span>
+
+  - <span data-ttu-id="f41ba-133">Protocolo</span><span class="sxs-lookup"><span data-stu-id="f41ba-133">http:</span></span>
+
+<span data-ttu-id="f41ba-134">Si no configura el filtro de mensajes instantáneos para realizar el filtrado de URL, todas las direcciones URL incluidas en los mensajes instantáneos se pasan sin modificar a través del servidor.</span><span class="sxs-lookup"><span data-stu-id="f41ba-134">If you do not configure the instant message filter to perform any URL filtering, all URLs contained in instant messages are passed unmodified through the server.</span></span> <span data-ttu-id="f41ba-135">Si configura el filtro de mensaje instantáneo para que realice el filtrado de URL, las direcciones URL de los mensajes instantáneos se filtran de acuerdo con las opciones que seleccione en el cuadro de diálogo Editar filtro de **URL** o **nuevo filtro de URL** .</span><span class="sxs-lookup"><span data-stu-id="f41ba-135">If you configure the instant message filter to perform URL filtering, URLs in instant messages are filtered according to the options that you select in the **Edit URL Filter** or **New URL Filter** dialog box.</span></span>
+
+  - <span data-ttu-id="f41ba-136">**Habilitar filtro**   de URL esta opción habilita el filtrado de URL para la implementación global o para el sitio que seleccione.</span><span class="sxs-lookup"><span data-stu-id="f41ba-136">**Enable URL filter**   This option enables URL filtering for the global deployment or for the site that you select.</span></span>
+
+  - <span data-ttu-id="f41ba-137">**Bloquear direcciones URL con extensión**   de archivo el filtro de mensaje instantáneo bloquea cualquier dirección URL activa de la intranet o de Internet que contenga un archivo con una extensión enumerada en **extensiones de tipo de archivo que se bloquean** en el cuadro de diálogo **Editar filtro de archivos** .</span><span class="sxs-lookup"><span data-stu-id="f41ba-137">**Block URLs with file extension**   The instant message filter blocks any active intranet or Internet URL that contains a file with an extension listed under **File type extensions to block** in the **Edit File Filter** dialog box.</span></span> <span data-ttu-id="f41ba-138">Cuando se bloquea una dirección URL, se muestra un mensaje de error al remitente.</span><span class="sxs-lookup"><span data-stu-id="f41ba-138">When a URL is blocked, an error message is displayed to the sender.</span></span> <span data-ttu-id="f41ba-139">Cuando se selecciona, esta opción tiene prioridad sobre todas las demás opciones de filtrado para cualquier extensión de archivo definida en **extensiones de tipo de archivo que se bloquee**.</span><span class="sxs-lookup"><span data-stu-id="f41ba-139">When selected, this option takes precedence over all other filtering options for any file extensions defined under **File type extensions to block**.</span></span>
     
-    Al activar el filtro de archivo, puede seleccionar una de las opciones siguientes en **Transferencia de archivos**:
+    <div>
     
-      - **Bloquear tipos de archivos específicos**   Especifique qué solicitudes de transferencia de archivos filtrará el servidor mediante una lista de las extensiones de archivo que se deben bloquear. Las entradas de la lista pueden contener todos los caracteres estándar, salvo el carácter comodín (\*). En el cliente de Office Live Meeting 2007, la característica de documentos está habilitada, pero no se podrán cargar ni descargar los archivos que tengan estas extensiones. Si activa la casilla **Bloquear direcciones URL con extensión de archivo** en la configuración de un filtro de direcciones URL de la ficha **Filtro para direcciones URL**, el filtro para direcciones URL usa la misma lista para bloquear hipervínculos activos que contengan cualquiera de esas extensiones de archivo. Para seleccionar los tipos de archivo que desea bloquear, haga clic en **Seleccionar** y, en **Seleccionar tipo de archivo**, agregue las extensiones de tipo de archivo a la lista **Extensiones de tipo de archivo seleccionadas**.
+
+    > [!IMPORTANT]
+    > <span data-ttu-id="f41ba-140">El filtrado de extensiones de archivo está limitado a los nombres de archivo estándar.</span><span class="sxs-lookup"><span data-stu-id="f41ba-140">Filtering of file extensions is limited to standard file names.</span></span> <span data-ttu-id="f41ba-141">Es posible que el filtrado no funcione con las extensiones de archivo incrustadas en otros nombres.</span><span class="sxs-lookup"><span data-stu-id="f41ba-141">Filtering may not work with file extensions embedded in other names.</span></span>
+
     
-      - **Bloquear todo**   El servidor quita todos los mensajes instantáneos que incluyan solicitudes de transferencia de archivos y envía un mensaje de error al remitente de la solicitud. Se deshabilita la característica de documentos en el cliente de Office Live Meeting 2007.
+    </div>
 
-> [!IMPORTANT]  
-> El filtrado de las extensiones de archivo se limita a los nombres de archivo estándar. Puede que el filtrado no funcione con las extensiones de archivo insertadas en otros nombres.
+<span data-ttu-id="f41ba-142">Para configurar cómo se administran los hipervínculos en las conversaciones de mensajes instantáneos, seleccione una \*\*\*\* de las siguientes opciones en Prefijo de hipervínculo:</span><span class="sxs-lookup"><span data-stu-id="f41ba-142">To configure how hyperlinks are handled in instant message conversations, select one of the following options under **Hyperlink prefix**:</span></span>
+
+  - <span data-ttu-id="f41ba-143">**No filtre**   las direcciones URL de los mensajes que se envían a través del servidor.</span><span class="sxs-lookup"><span data-stu-id="f41ba-143">**Do not filter**   URLs in messages are sent through the server.</span></span> <span data-ttu-id="f41ba-144">Al elegir esta opción, aparece el cuadro de **mensaje permitir** .</span><span class="sxs-lookup"><span data-stu-id="f41ba-144">When you choose this option, the **Allow message** box appears.</span></span> <span data-ttu-id="f41ba-145">En el cuadro **permitir mensaje** , especifique el aviso que desea insertar al principio de cada mensaje instantáneo que contenga hipervínculos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-145">In the **Allow message** box, specify the notice that you want to insert at the beginning of each instant message containing hyperlinks.</span></span> <span data-ttu-id="f41ba-146">Este aviso no puede contener más de 65535 caracteres.</span><span class="sxs-lookup"><span data-stu-id="f41ba-146">This notice can consist of no more than 65535 characters.</span></span>
+
+  - <span data-ttu-id="f41ba-147">**Bloquear**   hipervínculos la entrega de mensajes instantáneos que contienen hipervínculos activos está bloqueada por Lync Server y se muestra un mensaje de error al remitente.</span><span class="sxs-lookup"><span data-stu-id="f41ba-147">**Block hyperlinks**   Delivery of instant messages containing active hyperlinks is blocked by Lync Server, and an error message is displayed to the sender.</span></span>
+
+  - <span data-ttu-id="f41ba-148">**Enviar mensaje**   de advertencia Lync Server permite hipervínculos activos en mensajes instantáneos, pero incluye una advertencia.</span><span class="sxs-lookup"><span data-stu-id="f41ba-148">**Send warning message**   Lync Server permits active hyperlinks in instant messages, but it includes a warning.</span></span> <span data-ttu-id="f41ba-149">Al elegir esta opción, aparece el cuadro de **mensaje de advertencia** .</span><span class="sxs-lookup"><span data-stu-id="f41ba-149">When you choose this option, the **Warning message** box appears.</span></span> <span data-ttu-id="f41ba-150">En el cuadro de **mensaje de advertencia** , debe escribir la advertencia que desea incluir con los mensajes instantáneos que contengan hipervínculos válidos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-150">In the **Warning message** box, you must type the warning that you want to include with instant messages containing valid hyperlinks.</span></span> <span data-ttu-id="f41ba-151">Por ejemplo, esta advertencia podría indicar los peligros potenciales de hacer clic en un vínculo desconocido o puede hacer referencia a las directivas y requisitos relevantes de su organización.</span><span class="sxs-lookup"><span data-stu-id="f41ba-151">For example, this warning might state the potential dangers of clicking an unknown link, or it might refer to your organization’s relevant policies and requirements.</span></span> <span data-ttu-id="f41ba-152">La advertencia no puede tener más de 65535 caracteres.</span><span class="sxs-lookup"><span data-stu-id="f41ba-152">The warning can be no more than 65535 characters.</span></span>
+
+<span data-ttu-id="f41ba-153">Si selecciona **bloquear** hipervínculos o **Enviar mensaje de advertencia**, las siguientes opciones están disponibles:</span><span class="sxs-lookup"><span data-stu-id="f41ba-153">If you select **Block hyperlinks** or **Send warning message**, the following options are available:</span></span>
+
+  - <span data-ttu-id="f41ba-154">**Excluir**   hipervínculos de Intranet local el filtro de mensajes instantáneos bloquea solo direcciones URL de Internet.</span><span class="sxs-lookup"><span data-stu-id="f41ba-154">**Exclude local intranet hyperlinks**   The instant message filter blocks only Internet URLs.</span></span> <span data-ttu-id="f41ba-155">Las direcciones URL de ubicaciones dentro de la intranet se pasan sin modificar a través del servidor.</span><span class="sxs-lookup"><span data-stu-id="f41ba-155">URLs for locations within your intranet are passed unmodified through the server.</span></span> <span data-ttu-id="f41ba-156">Sin embargo, las direcciones URL de intranet a las que pasan los servidores individuales que ejecutan Lync Server dependen de qué tipos de sitios web locales se consideran parte de su zona de intranet.</span><span class="sxs-lookup"><span data-stu-id="f41ba-156">However, the intranet URLs that individual servers running Lync Server pass depend on which types of local websites are considered part of their intranet zone.</span></span> <span data-ttu-id="f41ba-157">Para comprobar la configuración de la zona Intranet de un servidor, consulte el procedimiento "para configurar la configuración de la intranet en Internet Explorer" en [modificar el filtro de URL predeterminado en Lync server 2013](lync-server-2013-modify-the-default-url-filter.md).</span><span class="sxs-lookup"><span data-stu-id="f41ba-157">To check a server’s intranet zone settings, see the “To configure your intranet settings in Internet Explorer” procedure in [Modify the default URL filter in Lync Server 2013](lync-server-2013-modify-the-default-url-filter.md).</span></span>
+
+  - <span data-ttu-id="f41ba-158">**Filtre estos**   prefijos de hipervínculo para elegir los prefijos que desea bloquear, haga clic en **seleccionar**y, a continuación, en **seleccionar prefijo**de hipervínculo, agregue los prefijos a la lista de prefijos de hipervínculos. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="f41ba-158">**Filter these hyperlink prefixes**   To choose which prefixes you want to block, click **Select**, and then, in **Select Hyperlink Prefix**, add the prefixes to the **Hyperlink prefixes** list.</span></span>
+    
+    <span data-ttu-id="f41ba-159">Todos los prefijos excepto **href** deben finalizar con un punto o un signo de dos puntos, o un asterisco seguido de un punto.</span><span class="sxs-lookup"><span data-stu-id="f41ba-159">All prefixes except **href** must end with a period or a colon, or an asterisk followed by a period.</span></span> <span data-ttu-id="f41ba-160">Los prefijos válidos pueden contener cualquier carácter del conjunto de caracteres de dirección URL válidos excepto el asterisco (\*).</span><span class="sxs-lookup"><span data-stu-id="f41ba-160">Valid prefixes can contain any characters in the set of valid URL characters except the asterisk (\*).</span></span> <span data-ttu-id="f41ba-161">El conjunto de caracteres válidos de URL \# \*es: +/0123456789 =\_ \` @ABCDEFGHIJKLMNOPQRSTUVWXYZ ^ ABCDEFGHIJKLMNOPQRSTUVWXYZ | ~</span><span class="sxs-lookup"><span data-stu-id="f41ba-161">The set of valid URL characters is: \#\*+/0123456789=@ABCDEFGHIJKLMNOPQRSTUVWXYZ^\_\` abcdefghijklmnopqrstuvwxyz|~</span></span>
+
+</div>
+
+<div>
+
+## <a name="file-transfer-filtering"></a><span data-ttu-id="f41ba-162">Filtrado de transferencia de archivos</span><span class="sxs-lookup"><span data-stu-id="f41ba-162">File Transfer Filtering</span></span>
+
+<span data-ttu-id="f41ba-163">Filtrar el filtrado de transferencia afecta tanto a los mensajes instantáneos como a las conferencias.</span><span class="sxs-lookup"><span data-stu-id="f41ba-163">Filter transfer filtering affects both instant messages and conferences.</span></span> <span data-ttu-id="f41ba-164">Para las conferencias, esta configuración afecta a la característica de documentos de las características de reproducción multimedia y cliente de Office Live Meeting 2007.</span><span class="sxs-lookup"><span data-stu-id="f41ba-164">For conferences, these settings affect the handout feature in the Office Live Meeting 2007 client and multimedia playback features.</span></span>
+
+<div>
+
+
+> [!NOTE]
+> <span data-ttu-id="f41ba-165">Lync Server también ofrece opciones de configuración para la transferencia de archivos.</span><span class="sxs-lookup"><span data-stu-id="f41ba-165">Lync Server also offers file transfer setting options.</span></span> <span data-ttu-id="f41ba-166">Esta opción del servidor se ofrece además de los controles del cliente disponibles en Lync Server.</span><span class="sxs-lookup"><span data-stu-id="f41ba-166">This server-side option is offered in addition to the client-side controls available in Lync Server.</span></span>
 
 
 
-## En esta sección
+</div>
 
-  - [Modificar el filtro de transferencia de archivos predeterminado](lync-server-2013-modify-the-default-file-transfer-filter.md)
+<span data-ttu-id="f41ba-167">Puede filtrar las transferencias de archivos durante las conversaciones de mensajes instantáneos, cuando use la característica de documentos en el cliente de Office Live Meeting 2007 y las características de reproducción multimedia de todos los tipos de archivo.</span><span class="sxs-lookup"><span data-stu-id="f41ba-167">You can filter file transfers during instant message conversations, when you are using the handout feature in the Office Live Meeting 2007 client, and for multimedia playback features for all file types.</span></span> <span data-ttu-id="f41ba-168">Puede establecer las siguientes opciones para controlar las transferencias de archivos:</span><span class="sxs-lookup"><span data-stu-id="f41ba-168">You can set the following options to control file transfers:</span></span>
 
-  - [Crear un filtro de transferencia de archivos nuevo para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
+  - <span data-ttu-id="f41ba-169">**Habilitar filtro**   de archivos esta opción habilita el filtrado de archivos para la implementación global o para el sitio que seleccione.</span><span class="sxs-lookup"><span data-stu-id="f41ba-169">**Enable file filter**   This option enables file filtering for the global deployment or for the site that you select.</span></span>
+    
+    <span data-ttu-id="f41ba-170">Al habilitar el filtro de archivos, puede elegir una de las siguientes opciones en la **transferencia de archivos**:</span><span class="sxs-lookup"><span data-stu-id="f41ba-170">When you enable the file filter, you can choose one of the following options in **File transfer**:</span></span>
+    
+      - <span data-ttu-id="f41ba-171">**Bloquear tipos**   de archivo específicos especifique las solicitudes de transferencia de archivos filtradas por el servidor especificando una lista de extensiones de archivo para bloquear.</span><span class="sxs-lookup"><span data-stu-id="f41ba-171">**Block specific file types**   You specify which file transfer requests are filtered by the server by specifying a list of file extensions to block.</span></span> <span data-ttu-id="f41ba-172">Las entradas de la lista pueden contener todos los caracteres estándar, pero no el carácter\*comodín ().</span><span class="sxs-lookup"><span data-stu-id="f41ba-172">Entries in the list can contain all standard characters, but not the wildcard character (\*).</span></span> <span data-ttu-id="f41ba-173">En el cliente de Office Live Meeting 2007 la característica de documentos está habilitada, pero no se puede cargar ni descargar ningún archivo con esta extensión.</span><span class="sxs-lookup"><span data-stu-id="f41ba-173">In the Office Live Meeting 2007 client the handout feature is enabled, but any file with this extension cannot be uploaded or downloaded.</span></span> <span data-ttu-id="f41ba-174">Si selecciona la casilla de verificación **bloquear direcciones URL con extensión de archivo** en la configuración de un filtro de URL que aparece en la pestaña **filtro de URL** , el filtro de dirección URL usa esta misma lista para bloquear los hipervínculos activos que contienen cualquiera de estas extensiones de archivo.</span><span class="sxs-lookup"><span data-stu-id="f41ba-174">If you select the **Block URLs with file extension** check box on the settings for a URL filter listed on the **URL Filter** tab, the URL filter uses this same list to block active hyperlinks that contain any of these file extensions.</span></span> <span data-ttu-id="f41ba-175">Para elegir qué tipos de archivo desea bloquear, haga clic en **seleccionar**y, a continuación, en **Seleccionar tipo de archivo**, agregue las extensiones de tipos de archivo a la lista Extensiones de tipos de **archivo seleccionados** .</span><span class="sxs-lookup"><span data-stu-id="f41ba-175">To choose which file types you want to block, click **Select**, and then, in **Select File Type**, add the file type extensions to the **Selected file type extensions** list.</span></span>
+    
+      - <span data-ttu-id="f41ba-176">**Bloquear todo**   el servidor elimina todos los mensajes instantáneos que contienen solicitudes de transferencia de archivos y devuelve un mensaje de error al remitente de la solicitud.</span><span class="sxs-lookup"><span data-stu-id="f41ba-176">**Block All**   The server drops all instant messages that contain file transfer requests and returns an error message to the sender of the request.</span></span> <span data-ttu-id="f41ba-177">La característica de documentos del cliente de Office Live Meeting 2007 está deshabilitada.</span><span class="sxs-lookup"><span data-stu-id="f41ba-177">The handout feature in the Office Live Meeting 2007 client is disabled.</span></span>
 
-  - [Modificar el filtro para direcciones URL predeterminado](lync-server-2013-modify-the-default-url-filter.md)
+<div>
 
-  - [Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
 
-## Vea también
+> [!IMPORTANT]
+> <span data-ttu-id="f41ba-178">El filtrado de extensiones de archivo está limitado a los nombres de archivo estándar.</span><span class="sxs-lookup"><span data-stu-id="f41ba-178">Filtering of file extensions is limited to standard file names.</span></span> <span data-ttu-id="f41ba-179">Es posible que el filtrado no funcione con las extensiones de archivo incrustadas en otros nombres.</span><span class="sxs-lookup"><span data-stu-id="f41ba-179">Filtering may not work with file extensions embedded in other names.</span></span>
 
-#### Otros recursos
 
-[Administrar la configuración de mensajería instantánea y de presencia en Lync Server 2013](lync-server-2013-managing-im-and-presence-settings.md)
+
+</div>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="in-this-section"></a><span data-ttu-id="f41ba-180">En esta sección</span><span class="sxs-lookup"><span data-stu-id="f41ba-180">In This Section</span></span>
+
+  - [<span data-ttu-id="f41ba-181">Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f41ba-181">Modify the default file transfer filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-file-transfer-filter.md)
+
+  - [<span data-ttu-id="f41ba-182">Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico</span><span class="sxs-lookup"><span data-stu-id="f41ba-182">Create a new file transfer filter in Lync Server 2013 for a specific site</span></span>](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)
+
+  - [<span data-ttu-id="f41ba-183">Modificar el filtro de dirección URL predeterminado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f41ba-183">Modify the default URL filter in Lync Server 2013</span></span>](lync-server-2013-modify-the-default-url-filter.md)
+
+  - [<span data-ttu-id="f41ba-184">Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea</span><span class="sxs-lookup"><span data-stu-id="f41ba-184">Create a new URL filter in Lync Server 2013 to handle hyperlinks in IM conversations</span></span>](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="f41ba-185">Vea también</span><span class="sxs-lookup"><span data-stu-id="f41ba-185">See Also</span></span>
+
+
+[<span data-ttu-id="f41ba-186">Administrar la configuración de mensajería instantánea y de presencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f41ba-186">Managing IM and presence settings in Lync Server 2013</span></span>](lync-server-2013-managing-im-and-presence-settings.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

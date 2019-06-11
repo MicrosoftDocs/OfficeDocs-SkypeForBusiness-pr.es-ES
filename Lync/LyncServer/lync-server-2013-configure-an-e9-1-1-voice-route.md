@@ -1,63 +1,101 @@
-﻿---
-title: "Conf. un itinéraire des communications vocales E9-1-1 dans Lync Server 2013"
-TOCTitle: "Conf. un itinéraire des communications vocales E9-1-1 dans Lync Server 2013"
-ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398496(v=OCS.15)
-ms:contentKeyID: 48275539
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar una ruta de voz E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure an E9-1-1 voice route
+ms:assetid: 6933b840-0e7b-4509-ae43-bc9065677547
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398496(v=OCS.15)
+ms:contentKeyID: 48184384
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 59f4e2a6707d270f66a66663b19f975ac69961c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842440"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar una ruta de voz de E9-1-1 en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-17_
+# <a name="configure-an-e9-1-1-voice-route-in-lync-server-2013"></a><span data-ttu-id="e83d6-102">Configurar una ruta de voz E9-1-1 en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e83d6-102">Configure an E9-1-1 voice route in Lync Server 2013</span></span>
 
-Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamadas de emergencia. Para obtener información sobre cómo crear rutas de voz, consulte [Crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md). Puede definir más de una ruta si, por ejemplo, su implementación incluye un tronco SIP principal y otro secundario.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="e83d6-103">_**Última modificación del tema:** 2012-09-17_</span><span class="sxs-lookup"><span data-stu-id="e83d6-103">_**Topic Last Modified:** 2012-09-17_</span></span>
+
+<span data-ttu-id="e83d6-104">Para implementar E9-1-1, deberá configurar primero una ruta de voz para llamadas de emergencia.</span><span class="sxs-lookup"><span data-stu-id="e83d6-104">To deploy E9-1-1, you first need to configure an emergency call voice route.</span></span> <span data-ttu-id="e83d6-105">Para obtener detalles sobre la creación de rutas de voz, vea [crear una ruta de voz en Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span><span class="sxs-lookup"><span data-stu-id="e83d6-105">For details about creating voice routes, see [Create a voice route in Lync Server 2013](lync-server-2013-create-a-voice-route.md).</span></span> <span data-ttu-id="e83d6-106">Puede definir más de una ruta si, por ejemplo, su implementación incluye un tronco SIP principal y otro secundario.</span><span class="sxs-lookup"><span data-stu-id="e83d6-106">You may define more than one route if, for example, your deployment includes a primary SIP trunk and a secondary SIP trunk.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Para incluir información de ubicación en una solicitud E9-1-1 INVITE, deberá configurar primero el tronco&nbsp;SIP que se conecta al proveedor de servicios E9-1-1 para enrutar las llamadas de emergencia por la puerta de enlace. Para ello, establezca la marca EnablePIDFLOSupport del cmdlet <STRONG>Set-CsTrunkConfiguration</STRONG> en True (el valor predeterminado de EnablePIDFLOSupport es False). Por ejemplo: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE><BR>No es necesario habilitar las ubicaciones de recepción para puertas de enlace de Red telefónica conmutada (RTC) de conmutación por error o para puertas de enlace de número de identificación de ubicación de emergencia (ELIN).
+> [!NOTE]  
+> <span data-ttu-id="e83d6-107">Para incluir información de ubicación en una invitación E9-1-1, necesita configurar el tronco del SIP que se conecta al proveedor de servicios E9-1-1 para enrutar las llamadas de emergencia a través de la puerta de enlace.</span><span class="sxs-lookup"><span data-stu-id="e83d6-107">To include location information in an E9-1-1 INVITE, you need to configure the SIP trunk that connects to the E9-1-1 service provider to route emergency calls through the gateway.</span></span> <span data-ttu-id="e83d6-108">Para ello, establezca la marca EnablePIDFLOSupport en el cmdlet <STRONG>set-CsTrunkConfiguration</STRONG> en true.</span><span class="sxs-lookup"><span data-stu-id="e83d6-108">To do this, set the EnablePIDFLOSupport flag on the <STRONG>Set-CsTrunkConfiguration</STRONG> cmdlet to True.</span></span> <span data-ttu-id="e83d6-109">El valor predeterminado de EnablePIDFLOSupport es false.</span><span class="sxs-lookup"><span data-stu-id="e83d6-109">The default value for EnablePIDFLOSupport is False.</span></span> <span data-ttu-id="e83d6-110">Por ejemplo:<CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE></span><span class="sxs-lookup"><span data-stu-id="e83d6-110">For example: <CODE>Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.</CODE></span></span><BR><span data-ttu-id="e83d6-111">No es necesario habilitar las ubicaciones de recepción para puertas de enlace de Red telefónica conmutada (RTC) de conmutación por error o para puertas de enlace de número de identificación de ubicación de emergencia (ELIN).</span><span class="sxs-lookup"><span data-stu-id="e83d6-111">It is not necessary to enable receiving locations for fallback public switched telephone network (PSTN) gateways and Emergency Location Identification Number (ELIN) gateways.</span></span>
 
 
 
-Para obtener más información acerca de trabajar con rutas de voz, consulte la documentación del Shell de administración de Lync Server con relación a los siguientes cmdlets:
+</div>
 
-  - **Set-CsPstnUsage**
+<span data-ttu-id="e83d6-112">Para obtener más información sobre cómo trabajar con rutas de voz, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="e83d6-112">For details about working with voice routes, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - **Get-CsPstnUsage**
+  - <span data-ttu-id="e83d6-113">**Set-CsPstnUsage**</span><span class="sxs-lookup"><span data-stu-id="e83d6-113">**Set-CsPstnUsage**</span></span>
 
-  - **New-CsVoiceRoute**
+  - <span data-ttu-id="e83d6-114">**Get-CsPstnUsage**</span><span class="sxs-lookup"><span data-stu-id="e83d6-114">**Get-CsPstnUsage**</span></span>
 
-  - **Get-CsVoiceRoute**
+  - <span data-ttu-id="e83d6-115">**Nuevo: CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="e83d6-115">**New-CsVoiceRoute**</span></span>
 
-  - **Set-CsVoiceRoute**
+  - <span data-ttu-id="e83d6-116">**Get-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="e83d6-116">**Get-CsVoiceRoute**</span></span>
 
-  - **Remove-CsVoiceRoute**
+  - <span data-ttu-id="e83d6-117">**Set-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="e83d6-117">**Set-CsVoiceRoute**</span></span>
 
-## Para configurar una ruta de voz de E9-1-1
+  - <span data-ttu-id="e83d6-118">**Remove-CsVoiceRoute**</span><span class="sxs-lookup"><span data-stu-id="e83d6-118">**Remove-CsVoiceRoute**</span></span>
 
-1.  Inicie sesión en el equipo con una cuenta que sea miembro de los grupos RTCUniversalServerAdmins o del rol administrativo CsVoiceAdministrator.
+<div>
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-configure-an-e9-1-1-voice-route"></a><span data-ttu-id="e83d6-119">Para configurar una ruta de voz de E9-1-1</span><span class="sxs-lookup"><span data-stu-id="e83d6-119">To configure an E9-1-1 voice route</span></span>
 
-3.  Ejecute el siguiente cmdlet para crear un nuevo registro de uso de RTC.
+1.  <span data-ttu-id="e83d6-120">Inicie sesión en el equipo con una cuenta que sea miembro de los grupos RTCUniversalServerAdmins o del rol administrativo CsVoiceAdministrator.</span><span class="sxs-lookup"><span data-stu-id="e83d6-120">Log on to the computer with an account that is a member of the RTCUniversalServerAdmins groups, or a member of the CsVoiceAdministrator administrative role.</span></span>
+
+2.  <span data-ttu-id="e83d6-121">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="e83d6-121">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+3.  <span data-ttu-id="e83d6-122">Ejecute el siguiente cmdlet para crear un nuevo registro de uso de RTC.</span><span class="sxs-lookup"><span data-stu-id="e83d6-122">Run the following cmdlet to create a new PSTN usage record.</span></span>
     
-    Debe ser el mismo nombre que vaya a usar para la configuración de **RTC** en la directiva de ubicación. Aunque la implementación va a tener varios registros de uso telefónico, en el siguiente ejemplo se agrega “Uso para emergencias” a la lista actual de usos de de RTC disponibles. Para obtener más información, consulte [Configurar directivas de voz y registros de uso de la RTC para autorizar características y privilegios de llamada en Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+    <span data-ttu-id="e83d6-123">Debe ser el mismo nombre que vaya a usar para la configuración de **RTC** en la directiva de ubicación.</span><span class="sxs-lookup"><span data-stu-id="e83d6-123">This must be the same name that you will use for the **PSTN** setting in the location policy.</span></span> <span data-ttu-id="e83d6-124">Aunque la implementación va a tener varios registros de uso telefónico, en el siguiente ejemplo se agrega “Uso para emergencias” a la lista actual de usos de de RTC disponibles.</span><span class="sxs-lookup"><span data-stu-id="e83d6-124">Although your deployment will have multiple phone usage records, the following example adds "Emergency Usage" to the current list of available PSTN usages.</span></span> <span data-ttu-id="e83d6-125">Para obtener más información, vea [configuración de directivas de voz y registros de uso de RTC para autorizar llamadas y características de Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span><span class="sxs-lookup"><span data-stu-id="e83d6-125">For details, see [Configuring voice policies and PSTN usage records to authorize calling features and privileges in Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).</span></span>
     
         Set-CsPstnUsage -Usage @{add='EmergencyUsage'}
 
-4.  Ejecute el siguiente cmdlet para crear una nueva ruta de voz usando el registro de uso de RTC creado en el paso anterior.
+4.  <span data-ttu-id="e83d6-126">Ejecute el siguiente cmdlet para crear una nueva ruta de voz usando el registro de uso de RTC creado en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="e83d6-126">Run the following cmdlet to create a new voice route by using the PSTN usage record that you created in the previous step.</span></span>
     
-    El patrón numérico debe coincidir con el patrón numérico que se usa en la configuración de **Cadena de marcado de emergencia** en la directiva de ubicación. El signo “+” es necesario porque Lync agrega “+” a las llamadas de emergencia. "Co1-pstngateway-1" es el identificador del servicio de tronco SIP del proveedor de servicios E9-11. En el siguiente ejemplo se usa “EmergencyRoute” como nombre de la ruta de voz.
+    <span data-ttu-id="e83d6-127">El patrón numérico debe coincidir con el patrón numérico que se usa en la configuración de **Cadena de marcado de emergencia** en la directiva de ubicación.</span><span class="sxs-lookup"><span data-stu-id="e83d6-127">The number pattern must be the same number pattern that is used in the **Emergency Dial String** setting in the location policy.</span></span> <span data-ttu-id="e83d6-128">Es necesario un signo "+" porque Lync agrega "+" a las llamadas de emergencia.</span><span class="sxs-lookup"><span data-stu-id="e83d6-128">A "+" sign is needed because Lync adds "+" to emergency calls.</span></span> <span data-ttu-id="e83d6-129">"Co1-pstngateway-1" es el identificador del servicio de tronco SIP del proveedor de servicios E9-11.</span><span class="sxs-lookup"><span data-stu-id="e83d6-129">"Co1-pstngateway-1" is the SIP trunk service ID for the E9-1-1 service provider or for the ELIN gateway service ID.</span></span> <span data-ttu-id="e83d6-130">En el siguiente ejemplo se usa “EmergencyRoute” como nombre de la ruta de voz.</span><span class="sxs-lookup"><span data-stu-id="e83d6-130">The following example uses "EmergencyRoute" as the name of the voice route.</span></span>
     
         New-CsVoiceRoute -Name "EmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="EmergencyUsage"} -PstnGatewayList @{add="co1-pstngateway-1"}
 
-5.  Opcionalmente, en las conexiones de tronco SIP se recomienda ejecutar el siguiente cmdlet para crear una ruta local para llamadas que no administra el tronco SIP del proveedor de servicios E9-11. Esta ruta se usará en el caso de que la conexión con el proveedor de servicios de E9-11 no esté disponible.
+5.  <span data-ttu-id="e83d6-p105">Opcionalmente, en las conexiones de tronco SIP se recomienda ejecutar el siguiente cmdlet para crear una ruta local para llamadas que no administra el tronco SIP del proveedor de servicios E9-11. Esta ruta se usará en el caso de que la conexión con el proveedor de servicios de E9-11 no esté disponible.</span><span class="sxs-lookup"><span data-stu-id="e83d6-p105">Optionally, for SIP trunk connections, we recommend that you run the following cmdlet to create a local route for calls that are not handled by the E9-1-1 service provider’s SIP trunk. This route will be used if the connection to the E9-1-1 service provider is not available.</span></span>
     
-    En el siguiente ejemplo se da por hecho que el usuario tiene un uso “Local” en su directiva de voz.
+    <span data-ttu-id="e83d6-133">En el siguiente ejemplo se da por hecho que el usuario tiene un uso “Local” en su directiva de voz.</span><span class="sxs-lookup"><span data-stu-id="e83d6-133">The following example assumes that user has "Local" usage in their voice policy.</span></span>
     
         New-CsVoiceRoute -Name "LocalEmergencyRoute" -NumberPattern "^\+911$" -PstnUsages @{add="Local"} -PstnGatewayList @{add="co1-pstngateway-2"}
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

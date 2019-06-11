@@ -1,27 +1,61 @@
-﻿---
-title: Copia de seguridad de las bases de datos de archivado y supervisión
-TOCTitle: Copia de seguridad de las bases de datos de archivado y supervisión
-ms:assetid: c120db81-b02c-4a4c-90cd-8aca6cff64f9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202188(v=OCS.15)
-ms:contentKeyID: 52061730
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: copia de seguridad y control de bases de datos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up Archiving and Monitoring databases
+ms:assetid: c120db81-b02c-4a4c-90cd-8aca6cff64f9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202188(v=OCS.15)
+ms:contentKeyID: 51541515
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fdc7a6c871fcb5a91b3f98e2838cb3237e945e58
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842896"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Copia de seguridad de las bases de datos de archivado y supervisión
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-17_
+# <a name="backing-up-archiving-and-monitoring-databases-in-lync-server-2013"></a><span data-ttu-id="87690-102">Realizar copias de seguridad del archivado y la supervisión de bases de datos en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="87690-102">Backing up Archiving and Monitoring databases in Lync Server 2013</span></span>
 
-Si implementó el archivado o la supervisión, cree una copia de seguridad de estas bases de datos según la política de copias de seguridad de SQL Server de la organización.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="87690-103">_**Última modificación del tema:** 2013-02-17_</span><span class="sxs-lookup"><span data-stu-id="87690-103">_**Topic Last Modified:** 2013-02-17_</span></span>
+
+<span data-ttu-id="87690-104">Si implementó el archivado o la supervisión, tendrá que realizar una copia de seguridad de estas bases de datos de acuerdo con la Directiva de copia de seguridad de SQL Server de su organización.</span><span class="sxs-lookup"><span data-stu-id="87690-104">If you deployed Archiving or Monitoring, you need to back up these databases according to your organization's SQL Server backup policy.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Se crea una copia de seguridad de las configuraciones de archivado y supervisión cuando se hace una copia de seguridad de Almacén de administración central. Para obtener información detallada, vea <A href="lync-server-2013-backing-up-core-data-and-settings.md">Copia de seguridad de la configuración y los datos básicos</A>.
+> [!NOTE]  
+> <span data-ttu-id="87690-105">Se realiza una copia de seguridad de la configuración de archivado y supervisión cuando se realiza una copia de seguridad del almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="87690-105">The settings for Archiving and Monitoring are backed up when you back up the Central Management store.</span></span> <span data-ttu-id="87690-106">Para obtener más información, consulte <A href="lync-server-2013-backing-up-core-data-and-settings.md">realizar copias de seguridad de datos y configuraciones en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="87690-106">For details, see <A href="lync-server-2013-backing-up-core-data-and-settings.md">Backing up core data and settings in Lync Server 2013</A>.</span></span>
 
 
 
-Para el archivado y la supervisión, puede usar una herramienta de SQL Server como SQL Server Management Studio para hacer una copia de seguridad manual, o bien puede usar las herramientas de administración de SQL Server para programar copias de seguridad periódicas y automáticas.
+</div>
+
+<span data-ttu-id="87690-107">Para archivar y supervisar, puede usar una herramienta de SQL Server, como SQL Server Management Studio, para realizar una copia de seguridad manual, o bien, puede usar las herramientas de administración de SQL Server para programar copias de seguridad regulares y automáticas.</span><span class="sxs-lookup"><span data-stu-id="87690-107">For Archiving and Monitoring, you can use a SQL Server tool such as SQL Server Management Studio to perform a manual backup, or you can use SQL Server management tools to schedule regular, automatic backups.</span></span>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
