@@ -1,31 +1,57 @@
-﻿---
-title: Informe de fecha y hora de conexión a una conferencia
-TOCTitle: Informe de fecha y hora de conexión a una conferencia
-ms:assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205344(v=OCS.15)
-ms:contentKeyID: 48277010
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: informe de tiempo de combinación de conferencia'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Conference Join Time Report
+ms:assetid: e64dc89a-25e4-4cb8-bcb1-51712e69ba5a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205344(v=OCS.15)
+ms:contentKeyID: 48185686
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fac854b9e296d744473593562f32430c6e21fc87
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842493"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Informe de fecha y hora de conexión a una conferencia
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="conference-join-time-report-in-lync-server-2013"></a>Informe de tiempo de combinación en conferencia en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-04-23_
 
 El Resumen del tiempo de incorporación a la conferencia permite determinar cuánto tardan los usuarios en unirse a una conferencia. El informe muestra el tiempo de unión promedio (en milisegundos), así como un desglose que permite saber cuántos usuarios pudieron unirse a una conferencia en 2 o menos segundos, cuántos usuarios necesitaron entre 2 y 5 segundos para unirse a la conferencia, etc.
 
-## Acceder al informe de tiempo de incorporación a la conferencia
+<div>
+
+## <a name="accessing-the-conference-join-time-report"></a>Obtener acceso al informe de tiempo de incorporación a la conferencia
 
 Para obtener acceso al informe del tiempo de incorporación a la conferencia tiene que ir a la página principal de los informes de supervisión.
 
-## Filtros
+</div>
+
+<div>
+
+## <a name="filters"></a>Filtros
 
 Los filtros se emplean para recuperar un conjunto de datos más específico o para ver los datos devueltos de diferentes formas. En la tabla siguiente, se muestran los filtros que se pueden utilizar en el informe de tiempo de incorporación a la conferencia.
 
-### Filtros del informe de tiempo de incorporación a la conferencia
+### <a name="conference-join-time-report-filters"></a>Filtros del informe de tiempo de incorporación a la conferencia
 
 <table>
 <colgroup>
@@ -40,23 +66,23 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Desde</strong></p></td>
-<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Si no escribe una hora de inicio, el informe comienza automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p><strong>De</strong></p></td>
+<td><p>Fecha y hora de inicio del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de inicio como se indica a continuación:</p>
+<p>7/7/2012 1:00 P.M.</p>
+<p>Si no escribe una hora de inicio, el informe se iniciará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
-<p>3/7/2012</p>
+<p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Hasta</strong></p></td>
-<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización tal como se indica a continuación:</p>
-<p>7/7/2012 1:00 PM</p>
-<p>Si no escribe una hora de finalización, el informe termina automáticamente a las 12:00 h del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
+<td><p>Fecha y hora de finalización del intervalo de tiempo. Para ver los datos por horas, escriba la fecha y hora de finalización como se indica a continuación:</p>
+<p>7/7/2012 1:00 P.M.</p>
+<p>Si no escribe una hora de finalización, el informe finalizará automáticamente a las 12:00 del día especificado. Para ver los datos por día, escriba solo la fecha:</p>
 <p>7/7/2012</p>
 <p>Para verlos por semanas o por meses, escriba una fecha que caiga en cualquier punto de la semana o del mes que desee ver (no es necesario escribir el primer día de la semana o del mes):</p>
-<p>3/7/2012</p>
+<p>7/3/2012</p>
 <p>Las semanas siempre van del domingo al sábado.</p></td>
 </tr>
 <tr class="odd">
@@ -68,18 +94,18 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 <li><p>Cada semana (se puede ver un máximo de 12 semanas)</p></li>
 <li><p>Cada mes (se puede ver un máximo de 12 meses)</p></li>
 </ul>
-<p>Si las fecha de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo Cada día con una fecha de inicio del 7/8/2012 y una fecha de finalización del 28/9/2012, aparecerán los datos correspondientes a los días entre el 7/8/2012 a las 12:00 horas y el 7/9/2012 a las 12:00 horas (es decir, datos para un total de 31 días).</p></td>
+<p>Si las fechas de inicio y finalización superan la cantidad máxima de valores permitidos para el intervalo seleccionado, solo se mostrará la cantidad máxima de valores (comenzando en la fecha de inicio). Por ejemplo, si selecciona el intervalo diario con una fecha de inicio de 7/7/2012 y una fecha de finalización de 2/28/2012, los datos se muestran para los días 8/7/2012 12:00 A.M. a 9/7/2012 12:00 A.M. (es decir, un total de 31 días de datos).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Grupo de servidores</strong></p></td>
-<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Seleccione un grupo individual o haga clic en <strong>[Todo]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
+<td><p>Nombre de dominio completo (FQDN) del grupo de registradores o servidor perimetral. Puede seleccionar un grupo individual o hacer clic en <strong>[Todos]</strong> para ver los datos de todos los grupos. Esta lista desplegable se rellena automáticamente en función de los registros de la base de datos.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sesiones de conferencia</strong></p></td>
 <td><p>Tipo de sesión. Los valores permitidos son:</p>
 <ul>
-<li><p>[Todos]</p></li>
-<li><p>Sesiones de foco</p></li>
+<li><p>[Todas]</p></li>
+<li><p>Sesiones de foco (el foco es la directiva central y el administrador de estados para las reuniones en línea; coordina todos los aspectos de una conferencia)</p></li>
 <li><p>Uso compartido de aplicaciones</p></li>
 <li><p>Conferencia A/V</p></li>
 </ul>
@@ -89,11 +115,15 @@ Los filtros se emplean para recuperar un conjunto de datos más específico o pa
 </table>
 
 
-## Métricas
+</div>
+
+<div>
+
+## <a name="metrics"></a>Métricas
 
 En la tabla siguiente, se muestra la información proporcionada en el informe de tiempo de incorporación a la conferencia.
 
-### Métricas del informe de tiempo de incorporación a la conferencia
+### <a name="conference-join-time-report-metrics"></a>Métricas del informe de tiempo de incorporación a la conferencia
 
 <table>
 <colgroup>
@@ -118,7 +148,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <tr class="even">
 <td><p><strong>Total de sesiones</strong></p></td>
 <td><p>No</p></td>
-<td><p>Número total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</p></td>
+<td><p>Cantidad total de sesiones, incluidas las sesiones correctas, las sesiones con errores (tanto esperados como inesperados) y las sesiones sin categoría.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Promedio (ms)</strong></p></td>
@@ -126,14 +156,14 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <td><p>Promedio del tiempo (en milisegundos) que tardaron los participantes en unirse a la conferencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sesiones &lt; 2 segundos, Volumen</strong></p></td>
+<td><p><strong>Sesiones &lt; 2 segundos, volumen</strong></p></td>
 <td><p>No</p></td>
 <td><p>Número de participantes que pudieron unirse a la conferencia en menos de 2 segundos.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sesiones &lt; 2 segundos, Porcentaje</strong></p></td>
+<td><p><strong>Sesiones &lt; 2 segundos, porcentaje</strong></p></td>
 <td><p>No</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p><strong>Sesiones 2-5 segundos, Volumen</strong></p></td>
@@ -148,7 +178,7 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <tr class="even">
 <td><p><strong>Sesiones 5-10 segundos, Volumen</strong></p></td>
 <td><p>No</p></td>
-<td><p>Número de participantes que tardaron entre 5 y 10 segundos en unirse a la conferencia.</p></td>
+<td><p>Cantidad de participantes que tardaron entre 5 y 10 segundos en unirse a la conferencia.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Sesiones 5-10 segundos, Porcentaje</strong></p></td>
@@ -156,15 +186,28 @@ En la tabla siguiente, se muestra la información proporcionada en el informe de
 <td><p>Porcentaje del número total de participantes que llamaron que tardaron entre 5 y 10 segundos en unirse a la conferencia.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Sesiones &lt; 10 segundos, Volumen</strong></p></td>
+<td><p><strong>Sesiones &gt; 10 segundos, volumen</strong></p></td>
 <td><p>No</p></td>
 <td><p>Número de participantes que necesitaron más de 10 segundos en unirse a la conferencia.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Sesiones &lt; 10 segundos, Porcentaje</strong></p></td>
+<td><p><strong>Sesiones &gt; 10 segundos, porcentaje</strong></p></td>
 <td><p>No</p></td>
 <td><p>Porcentaje del número total de participantes que necesitaron más de 10 segundos en unirse a la conferencia.</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,48 +1,95 @@
-﻿---
-title: Presentación del identificador del destinatario de la llamada en Lync Server 2013
-TOCTitle: Presentación del identificador del destinatario de la llamada en Lync Server 2013
-ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721892(v=OCS.15)
-ms:contentKeyID: 49889694
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: presentación del identificador denominado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Called ID presentation
+ms:assetid: cf6c6af5-3418-411e-a50b-7a9cf8e100d4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721892(v=OCS.15)
+ms:contentKeyID: 49733826
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 30bd84e60118697c94aba6c6088de68fc37d34c1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842687"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Presentación del identificador del destinatario de la llamada en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="called-id-presentation-in-lync-server-2013"></a>Llamada presentación de identificación en Lync Server 2013
 
-Con Lync Server 2010, el número de teléfono que recibe la llamada (es decir, el número de teléfono al que se llama) se puede traducir del formato E.164 al formato de marcado local que el *tronco de mismo nivel* necesita (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-21_
+
+Con Lync Server 2010, el número de teléfono de la persona que se llama (es decir, el número de teléfono llamado) se puede traducir desde el formato E. 164 al formato de marcado local requerido por el interlocutor troncal (es decir, la puerta de enlace asociada, la central de conmutación (PBX) o el tronco del SIP). Para ello, defina una o varias reglas de traslación para traducir la URI de la solicitud antes de redirigirla al tronco de mismo nivel.
+
+<div>
+
 
 > [!IMPORTANT]  
-> La capacidad para asociar una o varias reglas de traslación a una configuración de tronco de Telefonía IP empresarial ha sido diseñada para usarla como <em>alternativa</em> a la configuración de las reglas de traslación en el tronco de mismo nivel. No asocie las reglas de traslación a una configuración de tronco Telefonía IP empresarial si ha configurado reglas de conversión en el tronco de mismo nivel porque las dos reglas podrían entrar en conflicto.
+> La capacidad de asociar una o más reglas de traducción con una configuración de telefonía IP empresarial está pensada para su uso como <EM>alternativa</EM> a la configuración de reglas de traducción en el punto de conexión del mismo nivel. No asociar reglas de traducción con una configuración de telefonía IP empresarial si ha configurado reglas de traducción en el punto de conexión del mismo nivel porque las dos reglas podrían entrar en conflicto.
 
 
 
-Use uno de los métodos siguientes para crear o modificar una regla de traslación:
+</div>
 
-  - Use la herramienta **Crear una regla de conversión** para especificar valores para los dígitos de inicio, la longitud, los dígitos que deben quitarse y los que deben agregarse y después, deje que Panel de control de Lync Server genere en su lugar el patrón de comprobación correspondiente y la regla de traslación.
+Puede usar cualquiera de los siguientes métodos para crear o modificar una regla de traducción:
 
-  - Escriba expresiones regulares manualmente para definir el patrón de comparación y la regla de traslación.
+  - Use la herramienta **generar una regla de traducción** para especificar valores para los dígitos de inicio, la longitud, los dígitos que se van a quitar y los dígitos que se van a agregar y, a continuación, permita que el panel de control de Lync Server genere el patrón correspondiente y la regla de traducción correspondiente.
+
+  - Escriba de forma manual expresiones regulares para definir el patrón de coincidencia y la regla de traducción.
+
+<div>
 
 
-> [!NOTE]
-> Para más información sobre la escritura de expresiones regulares, vea la sección sobre "Expresiones regulares de .NET Framework" en <A href="http://go.microsoft.com/fwlink/?linkid=140927%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=140927&amp;clcid=0xC0A</A>.
+> [!NOTE]  
+> Para obtener información sobre cómo escribir expresiones regulares, vea "expresiones regulares de .NET Framework" <A href="http://go.microsoft.com/fwlink/p/?linkid=140927">http://go.microsoft.com/fwlink/p/?linkId=140927</A>en.
 
 
 
-## En esta sección
+</div>
 
-  - [Crear o modificar una regla de conversión mediante la herramienta Generar una regla de conversión](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
+<div>
 
-  - [Crear o modificar una regla de conversión manualmente](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
+## <a name="in-this-section"></a>En esta sección
 
-## Vea también
+  - [Crear o modificar una regla de traducción con la herramienta generar una regla de traducción de Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-by-using-the-build-a-translation-rule-tool.md)
 
-#### Conceptos
+  - [Crear o modificar una regla de traducción de forma manual en Lync Server 2013](lync-server-2013-create-or-modify-a-translation-rule-manually.md)
 
-[Presentación del id. de autor de llamada en Lync Server 2013](lync-server-2013-caller-id-presentation.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Presentación de la identificación de llamadas en Lync Server 2013](lync-server-2013-caller-id-presentation.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

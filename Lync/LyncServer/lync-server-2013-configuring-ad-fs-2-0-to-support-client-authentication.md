@@ -1,19 +1,39 @@
-﻿---
-title: 'Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes'
-TOCTitle: Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes
-ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn308565(v=OCS.15)
-ms:contentKeyID: 56271286
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de AD FS 2,0 para admitir la autenticación de cliente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring AD FS 2.0 to support client authentication
+ms:assetid: 4d93d400-ccaa-4da8-a71b-d05d7ba79d93
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn308565(v=OCS.15)
+ms:contentKeyID: 54973687
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 12f7cad4b36eb96f7b36925aa91e6363b8cdd264
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842294"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de AD FS 2.0 para que sea compatible con la autenticación de clientes
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="configuring-ad-fs-20-to-support-client-authentication-in-lync-server-2013"></a>Configuración de AD FS 2,0 para admitir la autenticación de cliente en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-07-03_
 
 Hay dos tipos de autenticación posibles que se pueden configurar para permitir que AD FS 2.0 admita autenticación con tarjetas inteligentes:
 
@@ -21,24 +41,26 @@ Hay dos tipos de autenticación posibles que se pueden configurar para permitir 
 
   - Autenticación de cliente de seguridad de capa de transporte
 
-Al usar la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse ya sea por medio de su nombre de usuario/contraseña o por medio de su tarjeta inteligente y PIN. Este tema se enfoca en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2.0. Para obtener más información acerca de los tipos de autenticación de AD FS 2.0, consulte el tema sobre AD FS 2.0: cómo cambiar el tipo de autenticación local en [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384).
+Al usar la autenticación basada en formularios, puede desarrollar una página web que permita a los usuarios autenticarse ya sea por medio de su nombre de usuario/contraseña o por medio de su tarjeta inteligente y PIN. Este tema se enfoca en cómo implementar la autenticación de cliente de seguridad de capa de transporte con AD FS 2.0. Para obtener más información sobre los tipos de autenticación 2,0 de AD FS, consulte AD FS 2,0: Cómo cambiar el tipo [http://go.microsoft.com/fwlink/p/?LinkId=313384](http://go.microsoft.com/fwlink/p/?linkid=313384)de autenticación local en.
+
+<div>
 
 
 **Para configurar AD FS 2.0 para admitir la autenticación de cliente**
 
-1.  Inicie sesión en el equipo con AD FS 2.0 mediante una cuenta de administrador de dominio.
+1.  Inicie sesión en el equipo con AD FS 2.0 por medio de una cuenta de administrador de dominio.
 
 2.  Inicie Windows Explorer.
 
-3.  Vaya a C:\\inetpub\\adfs\\ls
+3.  Ir a C:\\Inetpub\\ADFS\\LS
 
 4.  Haga una copia de seguridad del archivo web.config existente.
 
 5.  Abra el archivo web.config existente con el Bloc de notas.
 
-6.  Desde la barra de menús, seleccione **Editar** y, a continuación, seleccione **Buscar**.
+6.  Desde la barra de menús, seleccione **Editar** y, luego, seleccione **Buscar**.
 
-7.  Busque **\<localAuthenticationTypes\>**.
+7.  Busque ** \<localAuthenticationTypes\>**.
     
     Tenga en cuenta que hay cuatro tipos de autenticación enumerados, uno por línea.
 
@@ -51,4 +73,16 @@ Al usar la autenticación basada en formularios, puede desarrollar una página w
 11. Reinicie IIS ejecutando el siguiente comando:
     
         IISReset /Restart /NoForce
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

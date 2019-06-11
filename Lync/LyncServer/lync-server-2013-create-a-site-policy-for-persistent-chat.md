@@ -1,54 +1,96 @@
-﻿---
-title: "Lync Server 2013 : Créa. d’une strat. de site pour la conversation permanente"
-TOCTitle: Crear una directiva de sitio para chat persistente
-ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204693(v=OCS.15)
-ms:contentKeyID: 48274494
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Crear una directiva de sitio para chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a site policy for Persistent Chat
+ms:assetid: 1327ff5c-b859-4010-a240-e0b2b084b5bd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204693(v=OCS.15)
+ms:contentKeyID: 48183470
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: be98028bf06c20c82dca98fc3bc20d25e97a94c5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842075"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear una directiva de sitio para chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-a-site-policy-for-persistent-chat-in-lync-server-2013"></a>Crear una directiva de sitio para chat persistente en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-06_
 
-Para cada sitio que ha implementado, puede crear un directiva de Chat persistente específica de sitio.
+Para cada sitio que haya implementado, puede crear una directiva de chat persistente específica de un sitio.
 
-La configuración de la directiva de sitio invalida la directiva global, aunque solo para el sitio específico cubierto por la directiva de sitio.
+La configuración de la directiva de sitio reemplaza la directiva global, pero solo para el sitio específico que abarca la directiva de sitio.
 
-
-> [!NOTE]
-> Para configurar y usar el Servidor de chat persistente, primero debe usar el Generador de topologías a fin de agregar la compatibilidad del Servidor de chat persistente con la topología y, luego, publicar la topología. Para más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a la implementación en Lync Server 2013</A> en la documentación sobre implementación.<BR>Para establecer las opciones de configuración del Servidor de chat persistente, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">Configurar opciones de servidor de chat persistentes a escala global o para grupos de servidores de chat persistentes en Lync Server 2013</A> en la documentación sobre implementación.
+<div>
 
 
+> [!NOTE]  
+> Para configurar y usar el servidor de chat persistente, primero debe usar topología Builder para agregar la compatibilidad con el servidor de chat persistente a la topología y, a continuación, publicar la topología. Para obtener más información, vea <A href="lync-server-2013-adding-persistent-chat-server-to-your-deployment.md">Agregar un servidor de chat persistente a su implementación en Lync Server 2013</A> en la documentación de implementación.<BR>Para configurar las opciones de configuración del servidor de chat persistentes, vea <A href="lync-server-2013-configure-persistent-chat-server-options-globally-or-for-persistent-chat-server-pool.md">configurar las opciones del servidor de chat persistente globalmente o para el grupo de servidores de chat persistente en Lync Server 2013</A> en la documentación de implementación.
 
-## Para crear una directiva de Chat persistente para un sitio
 
-1.  En una cuenta de usuario asignada al rol CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  En el menú **Inicio**, seleccione el Panel de control de Lync Server o abra la ventana del explorador y, después, escriba la dirección URL del administrador. Para más información sobre los diferentes métodos que puede usar para abrir el Panel de control de Lync Server, vea [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+</div>
 
-3.  En la barra de navegación izquierda, haga clic en **Chat persistente** y luego en Directiva **Chat persistente**.
+<div>
+
+## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>Para crear una directiva de chat persistente para un sitio
+
+1.  Inicie sesión en cualquier equipo de la implementación interna con una cuenta de usuario asignada a los roles CsPersistentChatAdministrator, CsAdministrator o CsUserAdministrator.
+
+2.  En el menú **Inicio** , seleccione el panel de control de Lync Server o abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas de Lync server 2013](lync-server-2013-open-lync-server-administrative-tools.md).
+
+3.  En la barra de navegación izquierda, haga clic en **Chat persistente** y, luego, en **Directiva de chat persistente**.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > También puede utilizar cmdlets Windows PowerShell. Para más información, vea <a href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">Configuración del servidor de chat persistente con cmdlets de Windows PowerShell</a> en la documentación de implementación.
-    
+    > También puede usar los cmdlets de Windows PowerShell. Para obtener más información, vea <A href="configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md">configuración del servidor de chat persistente mediante cmdlets de Windows PowerShell</A> en la documentación de implementación.
 
+    
+    </div>
 
 4.  Haga clic en **Nuevo** y en **Directiva de sitio**.
 
 5.  En **Seleccionar un sitio**, haga clic en el sitio al que se va a aplicar la directiva.
 
-6.  En **Nueva directiva de Chat persistente**, siga estos pasos:
+6.  En **Nueva directiva de chat persistente**, haga lo siguiente:
     
       - En **Nombre**, especifique un nombre para la nueva directiva de sitio (por ejemplo, Redmond).
     
-      - En **Descripción**, proporcione detalles acerca de lo que es la directiva del sitio (por ejemplo, directiva de salón de chat de Redmond).
+      - En **Descripción**, dé detalles sobre lo que es la directiva del sitio (por ejemplo, directiva de salón de chat de Redmond).
     
-      - Para controlar Chat persistente para todos los sitios no específicamente controlados a través de una directiva de sitio, active o desactive la casilla **Habilitar Chat persistente**.
+      - Para controlar el chat persistente para todos los sitios no controlados específicamente con una directiva de sitio, active o desactive la casilla **Habilitar chat persistente**.
 
 7.  Haga clic en **Confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

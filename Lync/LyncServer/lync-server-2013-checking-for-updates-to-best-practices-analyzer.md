@@ -1,33 +1,71 @@
-﻿---
-title: Comprobar existencia de actualizaciones del Analizador de procedimientos recomendados
-TOCTitle: Comprobación de la existencia de actualizaciones del Analizador de procedimientos recomendados
-ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204645(v=OCS.15)
-ms:contentKeyID: 48274321
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: búsqueda de actualizaciones para el analizador de procedimientos recomendados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Checking for updates to Best Practices Analyzer
+ms:assetid: 06f1da8b-99a7-4871-911e-bfb7542baced
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204645(v=OCS.15)
+ms:contentKeyID: 48183307
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6a52aec0748bb5e96de0b3e6dafae4e05ddf9c15
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842570"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Comprobación de la existencia de actualizaciones del Analizador de procedimientos recomendados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="checking-for-updates-to-best-practices-analyzer-in-lync-server-2013"></a>Buscar actualizaciones del analizador de procedimientos recomendados en Lync Server 2013
 
-Cuando inicia el Analizador de procedimientos recomendados, la herramienta le ofrece una opción para buscar las actualizaciones más recientes de la herramienta. Si hay una actualización disponible, puede descargar la actualización. Si elige no descargar actualizaciones, o si el Analizador de procedimientos recomendados no tiene acceso a Internet, puede continuar usando la versión que ya está en el equipo.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-02_
+
+Cuando inicia Best Practices Analyzer, la herramienta le proporciona una opción para buscar las últimas actualizaciones de la herramienta. Si hay una actualización disponible, puede descargarla. Si elige no descargar actualizaciones, o si el analizador de procedimientos recomendados no puede obtener acceso a Internet, puede continuar usando la versión que ya está en el equipo.
+
+<div>
 
 
-> [!NOTE]
-> Si necesita la autenticación de proxy para tener acceso a Internet, el Analizador de procedimientos recomendados no puede obtener acceso a nuevas actualizaciones para que las descargue. Sin embargo, puede descargar manualmente la versión más reciente de RtcBPA.msi desde el Centro de descarga de Microsoft en <A href="http://go.microsoft.com/fwlink/?linkid=266539%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=266539&amp;clcid=0xC0A</A>. Tras descargar el archivo, puede copiarlo en el equipo en el que desea actualizar el Analizador de procedimientos recomendados y usar el archivo .msi para instalar la nueva versión de la herramienta en dicho equipo.
+> [!NOTE]  
+> Si necesita autenticación de proxy para acceder a Internet, el analizador de procedimientos recomendados no puede acceder a las nuevas actualizaciones para que las descargue. Sin embargo, puede descargar manualmente la última versión de RtcBPA. msi desde el centro de descarga de <A href="http://go.microsoft.com/fwlink/p/?linkid=266539">http://go.microsoft.com/fwlink/p/?linkId=266539</A>Microsoft en. Después de descargar el archivo, puede copiarlo en el equipo en el que desea actualizar Best Practices Analyzer y usar el archivo. msi para instalar la nueva versión de la herramienta en ese equipo.
 
 
 
-Para actualizar las reglas del Analizador de procedimientos recomendados, debe ejecutar la herramienta como Administrador en el equipo local. Si no ha iniciado sesión con una cuenta que es miembro del grupo Administradores y se detectan actualizaciones, cierre el Analizador de procedimientos recomendados y, a continuación, use el siguiente procedimiento para iniciar el programa.
+</div>
 
-## Para abrir el Analizador de procedimientos recomendados como Administrador para buscar actualizaciones
+Para actualizar las reglas del analizador de procedimientos recomendados, debe ejecutar la herramienta como administrador en el equipo local. Si no ha iniciado sesión con una cuenta que sea miembro del grupo administradores y se detectan las actualizaciones, cierre el analizador de procedimientos recomendados y, a continuación, use el siguiente procedimiento para iniciar el programa.
 
-1.  En un equipo en el que está instalado el Analizador de procedimientos recomendados, haga clic en **Inicio**, seleccione **Microsoft Lync Server 2013**, haga clic con el botón secundario en **Analizador de procedimientos recomendados** y, a continuación, haga clic en **Ejecutar como administrador**.
+<div>
 
-2.  Especifique las credenciales de una cuenta que es miembro del grupo Administradores.
+## <a name="to-open-best-practices-analyzer-as-administrator-to-check-for-updates"></a>Para abrir Best Practices Analyzer como administrador para buscar actualizaciones
+
+1.  En un equipo en el que se instale Best Practices Analyzer, haga clic en **Inicio**, seleccione **Microsoft Lync Server 2013**, haga clic con el botón derecho en **Best Practices Analyzer**y, a continuación, haga clic en **Ejecutar como administrador**.
+
+2.  Especifique las credenciales de una cuenta que sea miembro del grupo administradores.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

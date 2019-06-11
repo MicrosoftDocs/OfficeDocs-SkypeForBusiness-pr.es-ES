@@ -1,47 +1,85 @@
-﻿---
-title: Asignación de directivas por usuario
-TOCTitle: Asignación de directivas por usuario
-ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182561(v=OCS.15)
-ms:contentKeyID: 48276188
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: asignación de directivas por usuario'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Assigning per-user policies
+ms:assetid: a4ed0120-d9e5-4eb2-acfd-8de2cb503652
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182561(v=OCS.15)
+ms:contentKeyID: 48184971
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9088326d5d7a11bd186a594327eb083df590849
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842869"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asignación de directivas por usuario
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="assigning-per-user-policies-in-lync-server-2013"></a>Asignación de directivas por usuario en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-14_
 
-Puede asignar ciertas directivas a un usuario o a un grupo de usuarios con el fin de especificar una configuración determinada distinta a la definida en las directivas que se asignaron a otros usuarios, como por ejemplo, directivas globales. Estas directivas se denominan directivas por usuario.
+Puede asignar determinadas directivas a un usuario o a un grupo de usuarios para especificar valores particulares que se desvíen de la configuración definida en las directivas asignadas a otros usuarios, como directivas globales. Estas directivas se denominan directivas por usuario.
 
-## En esta sección
+<div>
 
-  - [Asignación de una directiva de conferencia por usuario](lync-server-2013-assign-a-per-user-conferencing-policy.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Asignación de una directiva de versión por usuario](lync-server-2013-assign-a-per-user-client-version-policy.md)
+  - [Asignar una directiva de conferencia por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-conferencing-policy.md)
 
-  - [Asignación de una directiva de PIN por usuario](lync-server-2013-assign-a-per-user-pin-policy.md)
+  - [Asignar una directiva de versión de cliente por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-client-version-policy.md)
+
+  - [Asignar una directiva de PIN por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-pin-policy.md)
 
   - [Asignar una directiva de acceso de usuario externo a un usuario habilitado para Lync en Lync Server 2013](lync-server-2013-assign-an-external-user-access-policy-to-a-lync-enabled-user.md)
 
-  - [Asignación de una directiva de archivado por usuario](lync-server-2013-assign-a-per-user-archiving-policy.md)
+  - [Asignar una directiva de archivado por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-archiving-policy.md)
 
-  - [Asignación de una directiva de ubicación por usuario](lync-server-2013-assign-a-per-user-location-policy.md)
+  - [Asignar una directiva de ubicación por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-location-policy.md)
 
-  - [Asignación de una directiva de movilidad por usuario](lync-server-2013-assign-a-per-user-mobility-policy.md)
+  - [Asignar una directiva de movilidad por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-mobility-policy.md)
 
-  - [Asignación de una directiva de chat persistente por usuario](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
+  - [Asignar una directiva de chat persistente por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-persistent-chat-policy.md)
 
-  - [Asignación de una directiva de plan de marcado por usuario](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
+  - [Asignar una directiva de plan de marcado por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-dial-plan-policy.md)
 
-  - [Asignación de una directiva de voz por usuario](lync-server-2013-assign-a-per-user-voice-policy.md)
+  - [Asignar una directiva de voz por usuario en Lync Server 2013](lync-server-2013-assign-a-per-user-voice-policy.md)
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Administración de usuarios en Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)
+## <a name="see-also"></a>Vea también
+
+
+[Administración de usuarios en Lync Server 2013](lync-server-2013-managing-users-in-lync-server.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

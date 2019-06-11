@@ -1,153 +1,207 @@
-﻿---
-title: Configurar una puerta de enlace XMPP en Lync Server 2013
-TOCTitle: Configurar una puerta de enlace XMPP en Lync Server 2013
-ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721881(v=OCS.15)
-ms:contentKeyID: 49889674
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Configurar la puerta de enlace XMPP en Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure XMPP gateway on Lync Server 2013
+ms:assetid: c70282e0-b502-47e2-a0be-a32eb1faf99d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721881(v=OCS.15)
+ms:contentKeyID: 49733816
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5609ecc72e43c28c87f9cdab1a4a7be93b89bf8f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842843"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar una puerta de enlace XMPP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-xmpp-gateway-on-lync-server-2013"></a>Configurar la puerta de enlace XMPP en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-10-28_
 
-Los últimos pasos para migrar la puerta de enlace XMPP consisten en configurar los certificados del servidor perimetral de Lync Server 2013, implementar la puerta de enlace XMPP de Lync Server 2013 y actualizar los registros de DNS para la misma. Estos pasos deben realizarse paralelamente para minimizar el tiempo de inactividad de la puerta de enlace XMPP. Antes de realizar estos pasos, es necesario mover a todos los usuarios a la implementación de Microsoft Lync Server 2013.
+Los pasos finales para migrar la puerta de enlace XMPP son configurar certificados para el servidor perimetral de Lync Server 2013, implementar la puerta de enlace XMPP de Lync Server 2013 y actualizar los registros DNS para la puerta de enlace XMPP. Estos pasos deben realizarse en paralelo para reducir el tiempo de inactividad de la puerta de enlace XMPP. Debe mover todos los usuarios a la implementación de Microsoft Lync Server 2013 antes de realizar estos pasos.
+
+<div class=" ">
+
 
 > [!IMPORTANT]  
-> La federación XMPP no es compatible para usuarios alojados en aplicaciones de sucursal con funciones de supervivencia. Esto se aplica a la visualización de información de presencia y al intercambio de mensajes instantáneos.
+> La Federación de XMPP no es compatible con los usuarios que están alojados en dispositivos de sucursales con las que es posible. Esto se aplica a la información de presencia y a intercambiar mensajes INSTANTÁNEos.
 
 
 
-## Configurar los certificados de la puerta de enlace XMPP en el servidor perimetral de Lync Server 2013
+</div>
 
-1.  En el Asistente para la implementación del servidor perimetral, junto a **Paso 3: Solicitar, instalar o asignar certificados** , haga clic en **Ejecutar de nuevo** .
+<div>
+
+## <a name="configure-xmpp-gateway-certificates-on-the-lync-server-2013-edge-server"></a>Configurar certificados de puerta de enlace XMPP en el servidor perimetral 2013 de Lync Server
+
+1.  En el servidor perimetral, en el Asistente para la implementación, junto al **paso 3: solicitar, instalar o asignar certificados**, haga clic en **Ejecutar de nuevo**.
     
+    <div class=" ">
+    
+
     > [!TIP]  
-    > Si es la primera vez que implementa el servidor perimetral, aparecerá Ejecutar en lugar de Ejecutar de nuevo.
+    > Si está implementando el servidor perimetral por primera vez, verá ejecutar en lugar de volver a ejecutar.
+
+    
+    </div>
+
+2.  En la página **Tareas de certificado disponibles**, haga clic en **Crear una nueva solicitud de certificado**.
+
+3.  En la página **solicitud de certificado** , haga clic en certificado de **borde externo**.
+
+4.  En la página **solicitud inmediata o** demorada, active la casilla **preparar la solicitud ahora pero enviarla más tarde** .
+
+5.  En la **Página archivo de solicitud de certificado** , escriba la ruta de acceso completa y el nombre del archivo en el que se va a guardar la solicitud (por\\ejemplo\_,\_c: CERT la Edge. cer).
+
+6.  En la página **especificar plantilla de certificado alternativa** , para usar una plantilla distinta de la plantilla predeterminada de WebServer, seleccione la casilla **Usar plantilla de certificado alternativa para la entidad emisora de certificados seleccionada** .
+
+7.  En la página **nombre y configuración de seguridad** , haga lo siguiente:
+    
+    1.  En **nombre descriptivo**, escriba un nombre para mostrar para el certificado.
+    
+    2.  En **longitud bit**, especifique la longitud en bits (normalmente, el valor predeterminado de 2048).
+    
+    3.  Compruebe que la casilla **marcar clave privada de certificado como** exportable está activada.
+
+8.  En la página información de la **organización** , escriba el nombre de la organización y la unidad organizativa (por ejemplo, una división o un departamento).
+
+9.  En la página **información geográfica** , especifique la información de ubicación.
+
+10. En la página **nombre de sujeto/nombres alternativos de asunto** , se muestra la información que el asistente rellenará automáticamente. Si se necesitan nombres alternativos adicionales, debe especificarlos en los dos pasos siguientes.
+
+11. En la página **configuración del dominio SIP en la página de nombres alternativos de asunto (San)** , seleccione la casilla dominio para agregar un SIP. \<sipdomain\> entrada a la lista de nombres alternativos de asunto.
+
+12. En la página **configurar otros nombres alternativos de asunto** , especifique los nombres alternativos adicionales que sean obligatorios.
+    
+    <div class=" ">
     
 
-
-2.  En la página **Tareas de certificado disponibles** , haga clic en **Crear una nueva solicitud de certificado** .
-
-3.  En la página **Solicitud de certificado** , haga clic en **Certificado perimetral externo** .
-
-4.  En la página **Solicitud retrasada o inmediata** , active la casilla **Prepare ahora la solicitud, pero enviarla más tarde** .
-
-5.  En la página **Archivo de solicitud de certificados** , escriba la ruta de acceso completa y el nombre del archivo en el que se guardará la solicitud (por ejemplo, c:\\cert\_exernal\_edge.cer).
-
-6.  En la página **Especificar plantilla de certificado alternativa** , para usar una plantilla distinta a la plantilla predeterminada WebServer, active la casilla **Usar plantilla de certificado alternativa para la entidad de certificación seleccionada** .
-
-7.  En la página **Nombre y configuración de seguridad** , siga este procedimiento:
-    
-    1.  En **Nombre descriptivo** , escriba un nombre para mostrar para el certificado.
-    
-    2.  En **Longitud de bits** , especifique la longitud de bits (normalmente, el valor predeterminado es 2048).
-    
-    3.  Compruebe que la casilla **Marcar la clave privada del certificado como exportable** está activada.
-
-8.  En la página **Información de la organización** , escriba un nombre para la organización y la unidad organizativa (por ejemplo, una división o departamento).
-
-9.  En la página **Información geográfica** , escriba la información de ubicación.
-
-10. En la página **Nombre de sujeto/nombres alternativos de sujeto** , la información se rellenará automáticamente gracias al asistente que se muestra. Si necesita otros nombres alternativos del firmante, especifíquelos en los dos pasos siguientes.
-
-11. En la página **Configuración de dominio SIP en nombres alternativos de sujeto (SAN)** , active la casilla del dominio para agregar una entrada sip.\<dominiosip\> a la lista de nombres alternativos del firmante.
-
-12. En la página **Configurar nombres alternativos de sujeto adicionales** , especifique cualquier nombre alternativo del firmante adicional que necesite.
-    
     > [!TIP]  
-    > Si el proxy de XMPP está instalado, las entradas SAN se cumplimentan de forma predeterminada con el nombre de dominio (por ejemplo, contoso.com). Si necesita más entradas, agréguelas en este paso.
+    > Si el proxy XMPP está instalado, de forma predeterminada, el nombre de dominio (por ejemplo, contoso.com) se rellena en las entradas SAN. Si necesita más entradas, agréguelos en este paso.
+
     
+    </div>
 
+13. En la página **solicitar Resumen** , revise la información del certificado que se va a usar para generar la solicitud.
 
-13. En la página **Resumen de la solicitud** , revise la información del certificado que va a usar para generar la solicitud.
+14. Cuando termine de ejecutarse los comandos, puede **ver el registro**o hacer clic en siguiente para continuar.
 
-14. Una vez que los comandos terminen de ejecutarse, puede **Ver el registro** o hacer clic en Siguiente para continuar.
+15. En la página de **archivo de solicitud de certificado** , puede ver el archivo de solicitud de firma de certificado generado (CSR) haciendo clic en **Ver** o salir del asistente de certificados haciendo clic en **Finalizar**.
 
-15. En la página **Archivo de solicitud de certificados** , puede ver el archivo de solicitud de firma de certificado (CSR) que se ha generado. Para ello, haga clic en **Ver** o haga clic en **Finalizar** para salir del Asistente para certificados.
+16. Copie el archivo de solicitud y envíelo a la entidad emisora de certificados pública.
 
-16. Copie el archivo de solicitud y envíelo a la entidad de certificación pública.
-
-17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Para ello, escriba en la consola de administración de Lync Server:
+17. Después de recibir, importar y asignar el certificado público, debe detener y reiniciar los servicios del servidor perimetral. Esto se hace escribiendo en la consola de administración de Lync Server:
     
-    ```
-    Stop-CsWindowsService
-    ```
-    ```
-    Start-CsWindowsService
-    ```
+        Stop-CsWindowsService
 
-## Configurar una nueva puerta de enlace XMPP de Lync Server 2013
+      &nbsp;
+    
+        Start-CsWindowsService
 
-1.  Abra Panel de control de Lync Server.
+</div>
 
-2.  En el barra de navegación izquierda, haga clic en **Federación y acceso externo** y en **Socios federados de XMPP** .
+<div>
 
-3.  Para crear una configuración, haga clic en **Nuevo** .
+## <a name="configure-a-new-lync-server-2013-xmpp-gateway"></a>Configurar una nueva puerta de enlace de Lync Server 2013 XMPP
+
+1.  Abra el Panel de control de Lync Server.
+
+2.  En la barra de navegación izquierda, haga clic en **Federación y acceso externo** y, a continuación, haga clic en **XMPP federados**.
+
+3.  Para crear una configuración nueva, haga clic en **nuevo**.
 
 4.  Defina la configuración siguiente:
 
-5.  **Dominio principal**     Obligatorio. El dominio principal es el dominio base del socio de XMPP. Por ejemplo, escriba **fabrikam.com** para el nombre de dominio de socio de XMPP. Es un campo obligatorio.
+5.  **Dominio principal (**     obligatorio). El dominio principal es el dominio base del socio XMPP. Por ejemplo, tendría que escribir **fabrikam.com** para el nombre de dominio del socio XMPP. Esta es una entrada obligatoria.
 
-6.  **Descripción**    La descripción es para las notas u otra información de identificación de esta configuración determinada. Este campo es opcional.
+6.  **Descripción**   la descripción es para notas u otras informaciones identificativas para esta configuración en particular. Esta entrada es opcional.
 
-7.  **Dominios adicionales**    Son dominios que forman parte del dominio del socio de XMPP que debe incluirse como parte de la comunicación de XMPP permitida. Por ejemplo, si el dominio principal es **fabrikam.com**, se enumerará el resto de los dominios por debajo de fabrikam.com con los que se comunicará por medio de XMPP.
+7.  **Dominios adicionales los**   dominios adicionales son dominios que forman parte del dominio del asociado XMPP y que deben incluirse como parte de la comunicación XMPP permitida. Por ejemplo, si el dominio principal es **fabrikam.com**, se mostrarán todos los demás dominios de fabrikam.com con los que se comunicará mediante XMPP.
 
-8.  **Tipo de socio**    El **tipo de socio** es un valor obligatorio. Debe elegir uno de los siguientes para describir y aplicar los contactos que pueden agregarse. Puede seleccionar entre:
+8.  **Tipo de socio**   el **tipo de socio** es un valor obligatorio. Debe elegir una de las siguientes opciones para describir y exigir qué contactos se pueden agregar. Puede seleccionar:
     
-      - **Federado**    Un tipo de socio **federado** representa un alto nivel de confianza entre la implementación de Lync Server y el socio de XMPP. Este tipo socio es aconsejable para federarse con los servidores de XMPP en la misma empresa o si hay una relación comercial establecida. Los contactos de XMPP en los socios federados pueden:
+      - **Federado**   un tipo de socio **federado** representa un alto nivel de confianza entre la implementación de Lync Server y el socio XMPP.Este tipo de socio es recomendable para la Federación con servidores XMPP dentro de la misma empresa o cuando existe una relación comercial establecida.Los contactos XMPP de los socios federados pueden:
         
-        1.  Agregar los contactos de Lync y ver su presencia sin autorización expresa del usuario de Lync.
+        1.  Agregar contactos de Lync y ver su presencia sin autorización expresa por parte del usuario de Lync.
         
-        2.  Enviar mensajes instantáneos a los contactos de Lync con independencia de que el usuario de Lync los haya agregado a su lista de contactos.
+        2.  Enviar mensajes instantáneos a los contactos de Lync si el usuario de Lync los ha agregado a su lista de contactos.
         
-        3.  Ver las notas de estado del usuario de Lync.
+        3.  Vea las notas de estado de un usuario de Lync.
     
-      - **Público verificado**    Un socio **público verificado** es un proveedor de XMPP público a quien se le otorga la confianza para verificar la identidad de sus usuarios. Los contactos de XMPP en las redes públicas verificadas pueden agregar contactos de Lync, ver su presencia y enviarles mensajes instantáneos sin autorización expresa de los usuarios de Lync. Los contactos de XMPP de las redes públicas verificadas no pueden ver las notas de estado de los usuarios de Lync. Este valor no se recomienda.
+      - **Pública verificada**   un socio **verificado públicamente** es un proveedor de XMPP público en el que se confía para comprobar la identidad de los usuarios.Los contactos XMPP pueden agregar contactos de Lync y ver su estado de presencia y enviarles mensajes instantáneos sin autorización expresa de los usuarios de Lync.Los contactos XMPP de las redes públicas verificadas nunca ven las notas de estado de los usuarios de Lync.No se recomienda esta opción.
     
-      - **Público no verificado**    Un socio **público no verificado** es un proveedor de XMPP público a quien no se le otorga la confianza para verificar la identidad de sus usuarios. Los usuarios de XMPP de las redes públicas no verificadas solo pueden comunicarse con los usuarios de Lync si estos lo han autorizado expresamente y los han agregado a su lista de contactos. Los usuarios de XMPP de las redes públicas no verificadas no pueden ver las notas de estado de los usuarios de Lync. Este valor no se recomienda para las federaciones con proveedores de XMPP públicos, como Google Talk.
+      - **Pública sin verificar**   un socio **público** XMPP es un proveedor público XMPP que no es de confianza para comprobar la identidad de los usuarios.Los usuarios XMPP de redes públicas no verificadas no pueden comunicarse con los usuarios de Lync a menos que el usuario de Lync los haya autorizado expresamente agregándolos a la lista de contactos.Los usuarios XMPP de redes públicas sin verificar nunca ven las notas de estado de los usuarios de Lync.Se recomienda esta opción para cualquier federación con proveedores de XMPP público, como Google Talk.
 
-9.  **Tipo de conexión:** define las diversas reglas y valores de rellamada.
+9.  **Tipo de conexión:** Define las diversas reglas y la configuración de Dialback.
     
-      - **Negociación TLS**    Define las reglas de negociación de TLS. Un servicio de XMPP puede requerir TLS, determinar que TLS es opcional o definir que TLS no se admite. Si se opta por la posibilidad opcional, es el servicio de XMPP quien decide si la negociación es obligatoria. Para ver todos los valores posibles y detalles de negociación de rellamada, TLS y SASL, incluidas las configuraciones incorrectas conocidas y las no válidas, consulte [Configuración de la negociación para socios federados XMPP en Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
+      - **La negociación**   TLS define las reglas de negociación de TLS. Un servicio XMPP puede requerir TLS, puede hacer que TLS sea opcional o usted define que no se admite la TLS. Si elige opcional, el requisito quedará en el servicio XMPP para una decisión obligatoria para la negociación. Para ver todas las configuraciones posibles y los detalles de la negociación SASL, TLS y Dialback, incluidas las configuraciones no válidas y de errores conocidos, vea [configuración de la negociación para socios de XMPP federados en Lync Server 2013](lync-server-2013-negotiation-settings-for-xmpp-federated-partners.md).
         
-          -   
-            **Obligatorio**    El servicio de XMPP requiere la negociación TLS.
+          - <span></span>  
+            **Requerido**   el servicio XMPP requiere la negociación de TLS.
         
-          -   
-            **Opcional**    El servicio de XMPP determina que TLS es de negociación obligatoria.
+          - <span></span>  
+            **Opcional**   el servicio XMPP indica que TLS es obligatorio para negociar.
         
-          -   
-            **No admitido**    El servicio de XMPP no admite TLS.
+          - <span></span>  
+            **No admitido**   el servicio XMPP no admite TLS.
     
-      - **Negociación SASL**    Define las reglas de negociación de SASL. Un servicio de XMPP puede requerir SASL, determinar que SASL sea opcional o definir que SASL no se admite. Si se opta por la posibilidad opcional, es el servicio de XMPP de socio quien decide si la negociación es obligatoria.
+      - **La negociación**   SASL define las reglas de negociación de SASL. Un servicio XMPP puede requerir SASL, puede hacer que SASL sea opcional o usted define que SASL no es compatible. Si elige opcional, el servicio XMPP del socio dejará de ser necesario para una decisión obligatoria para la negociación.
         
-          -   
-            **Obligatorio**   El servicio de XMPP requiere la negociación SASL.
+          - <span></span>  
+            **Requerido**   el servicio XMPP requiere negociación SASL.
         
-          -   
-            **Opcional**    El servicio de XMPP determina que SASL es de negociación obligatoria.
+          - <span></span>  
+            **Opcional**   el servicio XMPP indica que SASL es obligatorio para negociar.
         
-          -   
-            **No admitido**    El servicio de XMPP no admite SASL.
+          - <span></span>  
+            **No admitido**   el servicio XMPP no admite SASL.
     
-      - **Negociación de rellamada de servidor compatible** El proceso de negociación de rellamada de servidor compatible usa el sistema de nombres de dominio (DNS) y un servidor de autorización para verificar que la solicitud procede de un socio de XMPP válido. Para ello, el servidor de origen crea un mensaje de un tipo específico con una clave de rellamada y busca al servidor en el DNS. El servidor de origen envía la clave en un flujo XML al resultado de la búsqueda de DNS, en principio, el servidor destinatario. A recibir la clave por el flujo XML, el servidor destinatario no responde al servidor de origen, sino que envía la clave a un servidor de autorización conocido. Este verifica que la validez de la clave. Si no lo es, el servidor destinatario no responde al servidor de origen. Si lo es, el servidor destinatario informa al servidor de origen de que la identidad y la clave son válidas, y la conversación puede iniciarse.
+      - **Soporte de servidor de soporte Dialback negociación** El proceso de negociación del servidor de soporte Dialback usa el sistema de nombres de dominio (DNS) y un servidor autorizado para comprobar que la solicitud procede de un socio XMPP válido. Para ello, el servidor de origen crea un mensaje de un tipo específico con una clave de Dialback generada y busca el servidor de recepción en DNS. El servidor de origen envía la clave en una secuencia XML a la búsqueda DNS resultante, supuestamente el servidor de recepción. Al recibir la clave sobre la secuencia XML, el servidor de recepción no responde al servidor de origen, pero envía la clave a un servidor conocido de autorización. El servidor autorizado verifica que la clave sea válida o no válida. Si no es válido, el servidor de recepción no responde al servidor de origen. Si la clave es válida, el servidor receptor informa al servidor de origen de que la identidad y la clave son válidas y que la conversación puede comenzar.
         
-        Existen dos estados válidos en la **negociación de rellamada**:
+        Existen dos Estados válidos para la **negociación de Dialback**:
         
-          -   
-            **True**    El servidor de XMPP está configurado para usar la negociación de rellamada en el caso de que se reciba una solicitud de un servidor de origen.
+          - <span></span>  
+            **True**   : el servidor XMPP está configurado para usar la negociación de Dialback si se debe recibir una solicitud de un servidor de origen.
         
-          -   
-            **False**    El servidor de XMPP no está configurado para usar la negociación de rellamada y se pasarán por alto las solicitudes que se reciban de un servidor de origen.
+          - <span></span>  
+            **False**   el servidor XMPP no está configurado para usar la negociación de Dialback y, si se debe recibir una solicitud de un servidor de origen, se pasará por alto.
 
-10. Haga clic en **Confirmar** para guardar los cambios en la directiva de sitio o usuario.
+10. Haga clic en **confirmar** para guardar los cambios en el sitio o en la Directiva de usuario.
 
-## Actualizar los registros de DNS para la puerta de enlace XMPP de Lync server 2013
+</div>
 
-1.  Para configurar el DNS para la federación de XMPP, debe agregar el siguiente registro SRV al DNS externo:\_xmpp-server.\_tcp.\<nombre de dominio\>. El registro SRV resolverá el FQDN del servidor perimetral de acceso del servidor perimetral, con el valor de puerto 5269.
+<div>
+
+## <a name="update-dns-records-for-lync-server-2013-xmpp-gateway"></a>Actualizar registros DNS para Lync Server 2013 puerta de enlace XMPP
+
+1.  Para configurar DNS para la Federación XMPP, agregue el siguiente registro SRV a su DNS externo:\_XMPP-Server. \_TCP. \<nombre\> de dominio el registro SRV se resolverá en el FQDN perimetral de acceso del servidor perimetral, con un valor de puerto de 5269.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

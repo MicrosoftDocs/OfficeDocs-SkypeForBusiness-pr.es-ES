@@ -1,48 +1,86 @@
-﻿---
-title: Configurar la detección automática para implementaciones híbridas
-TOCTitle: Configurar la detección automática para implementaciones híbridas
-ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945653(v=OCS.15)
-ms:contentKeyID: 52061761
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de detección automática para implementaciones híbridas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Autodiscover for hybrid deployments
+ms:assetid: ca605e62-181c-42ca-80a1-e37e610f8277
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945653(v=OCS.15)
+ms:contentKeyID: 51541521
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cc2c28d42569d2f52b55dd04a90f5a788969c3ab
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842277"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar la detección automática para implementaciones híbridas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-autodiscover-in-lync-server-2013-for-hybrid-deployments"></a>Configuración de la detección automática en Lync Server 2013 para implementaciones híbridas
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-12-12_
 
-Las implementaciones híbridas son configuraciones que utilizan tanto el servicio de nube de Microsoft Lync Online como la implementación local. En este tipo de configuración, el servicio Detección automática puede determinar dónde está ubicado realmente el usuario. Es decir, Detección automática ayuda a encontrar la cuenta de usuario y el lugar en el que el servidor hospeda la cuenta del usuario, independientemente de si es en una implementación local o en la implementación de Skype Empresarial Online.
+Las implementaciones híbridas son configuraciones que usan el servicio en la nube de Microsoft Lync Online y la implementación local. En este tipo de configuración, el servicio Detección automática debe poder ubicar dónde se encuentra realmente el usuario. Es decir, la detección automática ayuda a buscar la cuenta de usuario y dónde se encuentra el servidor que hospeda la cuenta del usuario, independientemente de si se encuentra en la implementación local o en la implementación de Lync Online.
 
-Por ejemplo, si una cuenta de usuario se hospeda en un servidor en Skype Empresarial Online, el intento de localizar al usuario se realizará según se indica a continuación, en un proceso conocido como *detectabilidad*:
+Por ejemplo, si la cuenta de un usuario se hospeda en un servidor de Lync Online, el intento de ubicar al usuario tendrá el siguiente aspecto, en un proceso conocido como *descubrimiento*:
 
-  - El usuario inicia un intento de conexión en la implementación local, **contoso.com**.
+  - El usuario inicia un intento de conexión a la implementación local, **contoso.com**.
 
-  - Se envía el intento a lyncdiscover.contoso.com, el nombre de DNS asociado al servicio de detección automática.
+  - El intento se envía a lyncdiscover.contoso.com, el nombre DNS asociado al servicio Detección automática.
 
-  - Detección automática remite al supuesto grupo de servidores de registro en la implementación local de contoso.com y recibe información sobre el servidor principal real del usuario hospedado en Skype Empresarial Online. Tras ello, Detección automática envía al usuario una derivación al servicio Detección automática en línea de **lync.com**.
+  - Detección automática hace referencia al grupo de registradores supuesto en la implementación local de contoso.com y se le proporciona información sobre el servidor principal real del usuario hospedado en Lync Online. La detección automática después envía al usuario una referencia al servicio de detección automática de **Lync.com** online.
 
-  - El usuario inicia un intento de conexión al servicio Detección automática en línea de lync.com y puede localizar la cuenta de usuario y el servidor principal del usuario.
+  - El usuario inicia un intento de conexión al servicio de detección automática de lync.com online y puede ubicar la cuenta del usuario y el servidor principal del usuario.
 
-Para que los clientes puedan detectar la implementación en la que se encuentra el servidor principal del usuario, debe configurar el servicio Detección automática con un localizador de recursos uniforme (URL) nuevo. Para ello, haga lo siguiente:
+Para permitir que los clientes descubran la implementación en la que se encuentra el servidor principal del usuario, debe configurar el servicio Detección automática con un localizador de recursos uniforme (URL) nuevo. Siga este procedimiento para configurar el servicio Detección automática.
 
-## Configuración de Detección automática para implementaciones híbridas
+<div>
 
-1.  En el tema [Requisitos del servicio Detección automática para Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md), se utiliza Get-CsHostingProvider para recuperar el valor del atributo ProxyFQDN.
+## <a name="configuring-autodiscover-for-hybrid-deployments"></a>Configuración de detección automática para implementaciones híbridas
 
-2.  En el Shell de administración de Lync Server, escriba:
+1.  En el tema [requisitos del servicio Autodiscover para Lync Server 2013](lync-server-2013-autodiscover-service-requirements.md), use Get-CsHostingProvider para recuperar el valor del atributo ProxyFQDN.
+
+2.  Desde el shell de administración de Lync Server, escriba
     
         Set-CsHostingProvider -Identity [identity] -AutodiscoverUrl https://webdir.online.lync.com/autodiscover/autodisccoverservice.svc/root
     
-    Donde \[identity\] se sustituye por el nombre de dominio del espacio de direcciones SIP compartido.
+    Donde \[identidad\] se reemplaza con el nombre de dominio del espacio de direcciones SIP compartido.
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Get-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsHostingProvider)  
-[Set-CsHostingProvider](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsHostingProvider)
+## <a name="see-also"></a>Vea también
+
+
+[Get-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Get-CsHostingProvider)  
+[Set-CsHostingProvider](https://docs.microsoft.com/powershell/module/skype/Set-CsHostingProvider)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

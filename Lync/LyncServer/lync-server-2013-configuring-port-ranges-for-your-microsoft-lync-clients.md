@@ -1,27 +1,57 @@
-﻿---
-title: Configuración de los intervalos de puertos para clientes de Microsoft Lync
-TOCTitle: Configuración de los intervalos de puertos para clientes de Microsoft Lync
-ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204760(v=OCS.15)
-ms:contentKeyID: 48274753
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de intervalos de puertos para los clientes de Microsoft Lync'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Microsoft Lync clients
+ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
+ms:contentKeyID: 48183694
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 03cd4c109760756dd265526bd9d5285fdc9fed30
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842188"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de los intervalos de puertos para clientes de Microsoft Lync
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="configuring-port-ranges-for-your-microsoft-lync-clients-in-lync-server-2013"></a>Configurar intervalos de puertos para los clientes de Microsoft Lync en Lync Server 2013
 
-De forma predeterminada, las aplicaciones cliente de Lync pueden usar cualquier puerto entre los puertos 1024 y 65535 en sesiones de comunicación. Esto se debe a que los intervalos de puertos específicos no están habilitados automáticamente para los clientes. Para usar la Calidad de servicio, deberá reasignar los tipos de tráfico (audio, vídeo, multimedia, uso compartido de aplicaciones y transferencia de archivos) a una serie de intervalos de puertos única. Para ello, utilice el cmdlet Set-CsConferencingConfiguration.
+</div>
 
-Puede determinar qué intervalos de puertos se están utilizando actualmente para las sesiones de comunicación ejecutando el comando siguiente desde el Shell de administración de Microsoft Lync Server 2013:
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-04-22_
+
+De forma predeterminada, las aplicaciones cliente de Lync pueden usar cualquier puerto entre los puertos 1024 y 65535 cuando participan en una sesión de comunicación; Esto se debe a que los intervalos de puertos específicos no se habilitan automáticamente para los clientes. Sin embargo, para usar la calidad de servicio, tendrá que reasignar los diversos tipos de tráfico (audio, vídeo, multimedia, uso compartido de aplicaciones y transferencia de archivos) a una serie de intervalos de puertos únicos. Esto se puede hacer con el cmdlet Set-CsConferencingConfiguration.
+
+<div>
+
+
+> [!NOTE]  
+> Los usuarios finales no pueden realizar estos cambios por sí mismos. Los administradores solo pueden hacer cambios en el puerto mediante el cmdlet Set-CsConferencingConfiguration.
+
+
+
+</div>
+
+Puede determinar qué intervalos de puertos se usan actualmente para las sesiones de comunicación ejecutando el siguiente comando desde el shell de administración de Microsoft Lync Server 2013:
 
     Get-CsConferencingConfiguration
 
-Si no ha realizado ningún cambio en la configuración de conferencia desde la instalación de Lync Server 2013, el sistema debería devolver información que incluya los valores de propiedad siguientes:
+Suponiendo que no ha realizado ningún cambio en la configuración de conferencia después de instalar Lync Server 2013, debe obtener información que incluya estos valores de propiedad:
 
     ClientMediaPortRangeEnabled : False
     ClientAudioPort             : 5350
@@ -33,30 +63,30 @@ Si no ha realizado ningún cambio en la configuración de conferencia desde la i
     ClientFileTransferPort      : 5350
     ClientTransferPortRange     : 40
 
-Si presta atención a los resultados anteriores, verá que hay dos elementos de gran importancia. En primer lugar, la propiedad ClientMediaPortRangeEnabled está establecida como False:
+Si examina detenidamente la salida anterior, verá dos cuestiones de importancia. En primer lugar, la propiedad ClientMediaPortRangeEnabled se establece en false:
 
     ClientMediaPortRangeEnabled : False
 
-Esto es importante porque cuando esta propiedad se establece como False, los clientes de Lync utilizan siempre cualquier puerto disponible entre los puertos 1024 y 65535 en sesiones de comunicación. Esto tiene lugar independientemente de cuál sea la configuración del resto de puertos (por ejemplo, ClientMediaPort o ClientVideoPort). Si desea restringir el uso a un conjunto de puertos específico (cosa que puede hacer si tiene planeado implementar el servicio de calidad de servicio), deberá habilitar en primer lugar los intervalos de puertos multimedia de clientes. Para ello, utilice el comando de Windows PowerShell siguiente:
+Eso es importante porque, cuando esta propiedad se establece en false, los clientes de Lync usarán cualquier puerto disponible entre los puertos 1024 y 65535 cuando participen en una sesión de comunicación; Esto es así independientemente de cualquier otra configuración de puertos (por ejemplo, ClientMediaPort o ClientVideoPort). Si desea restringir el uso de un conjunto de puertos especificado (y esto es algo que quiera hacer si piensa implementar la calidad de servicio), primero debe habilitar los intervalos de puertos de los medios de cliente. Esto se puede realizar con el siguiente comando de Windows PowerShell:
 
     Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True
 
-El comando anterior habilita los intervalos de puertos multimedia para la recopilación global de opciones de configuración de conferencia; sin embargo, esta configuración también puede aplicarse al ámbito del sitio o del servicio (solo para el servicio de Servidor de conferencia). Para habilitar los intervalos de puertos multimedia de clientes para un servidor o sitio específicos, especifique la identidad de dicho servidor o sitio al llamar al cmdlet Set-CsConferencingConfiguration:
+El comando anterior habilita los intervalos de puertos de medios de cliente para la colección global de opciones de configuración de conferencias; sin embargo, esta configuración también se puede aplicar al ámbito del sitio o al ámbito del servicio (solo para el servicio de servidor de conferencias). Para habilitar los intervalos de puertos de medios de cliente para un sitio o servidor específico, especifique la identidad de ese sitio o servidor cuando llame a set-CsConferencingConfiguration:
 
     Set-CsConferencingConfiguration -Identity "site:Redmond" -ClientMediaPortRangeEnabled $True
 
-De forma alternativa, puede usar este comando para habilitar intervalos de puertos para todas las opciones de configuración de conferencia:
+También puede usar este comando para habilitar simultáneamente los intervalos de puertos para todas las opciones de configuración de Conferencia:
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration  -ClientMediaPortRangeEnabled $True
 
-El segundo elemento importante es que los resultados de muestra indican que, de forma predeterminada, los intervalos de puertos multimedia configurados para cada tipo de tráfico de red son idénticos:
+La segunda importancia que observará es que la salida de ejemplo muestra que, de forma predeterminada, los intervalos de puertos de medios establecidos para cada tipo de tráfico de red son idénticos:
 
     ClientAudioPort             : 5350
     ClientVideoPort             : 5350
     ClientAppSharingPort        : 5350
     ClientFileTransferPort      : 5350
 
-Para implementar el servicio QoS, cada uno de estos intervalos de puertos debe ser único. Por ejemplo, puede configurar los intervalos de puertos del modo siguiente:
+Para implementar QoS, cada uno de estos intervalos de puertos tendrá que ser único. Por ejemplo, puede configurar los intervalos de puertos como este:
 
 
 <table>
@@ -67,52 +97,67 @@ Para implementar el servicio QoS, cada uno de estos intervalos de puertos debe s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tipo de tráfico cliente</th>
-<th>Inicio de puerto</th>
-<th>Intervalo de puerto</th>
+<th>Tipo de tráfico de cliente</th>
+<th>Inicio de Puerto</th>
+<th>Intervalo de puertos</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Audio</p></td>
 <td><p>50020</p></td>
-<td><p>20</p></td>
+<td><p>veinte</p></td>
 </tr>
 <tr class="even">
 <td><p>Vídeo</p></td>
 <td><p>58000</p></td>
-<td><p>20</p></td>
+<td><p>veinte</p></td>
 </tr>
 <tr class="odd">
 <td><p>Uso compartido de aplicaciones</p></td>
 <td><p>42000</p></td>
-<td><p>20</p></td>
+<td><p>veinte</p></td>
 </tr>
 <tr class="even">
 <td><p>Transferencia de archivos</p></td>
 <td><p>42020</p></td>
-<td><p>20</p></td>
+<td><p>veinte</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En la tabla anterior, los intervalos de puertos de clientes representan un subconjunto de intervalos de puertos configurados para los servidores. Por ejemplo, en los servidores, el uso compartido de aplicaciones estaba configurado para utilizar los puertos del 40803 al 49151. En los equipos cliente, el uso compartido de aplicaciones está configurado para utilizar los puertos del 42000 al 42019. Esto facilita la administración de QoS: los puertos de los clientes no tienen que representar ningún subconjunto de los puertos utilizados en el servidor. (Por ejemplo, en los equipos cliente puede configurar el uso compartido de aplicaciones para que utilice los puertos del 10000 al 10019.) Sin embargo, se recomienda crear un subconjunto de los intervalos de puertos del servidor para los intervalos de puertos de los clientes.
+En la tabla anterior, los intervalos de puertos de cliente representan un subconjunto de los intervalos de puertos configurados para los servidores. Por ejemplo, en los servidores, el uso compartido de aplicaciones se configuró para usar los puertos 40803 a 49151; en los equipos cliente, el uso compartido de aplicaciones está configurado para usar los puertos de 42000 a 42019. Esto también se hace principalmente para facilitar la administración de QoS: los puertos de cliente no tienen que representar un subconjunto de los puertos que se usan en el servidor. (Por ejemplo, en los equipos cliente, puede configurar el uso compartido de aplicaciones para que lo use, por ejemplo, los puertos 10000 a 10019). Sin embargo, le recomendamos que los intervalos de puertos de cliente sean un subconjunto de intervalos de puertos de servidor.
 
-Además, se habrá dado cuenta de que se han reservado 8348 puertos para el uso compartido de aplicaciones en los servidores, pero solo se han reservado 20 puertos para el uso compartido de aplicaciones en los clientes. Esta es la práctica recomendada, aunque no puede considerarse como la norma más rápida y eficaz. En general, puede utilizar cada uno de los puertos disponibles para representar una única sesión de comunicación: si tiene 100 puertos disponibles en un intervalo de puertos, quiere decir que el equipo en cuestión podría participar en 100 sesiones de comunicación como máximo en un momento determinado. Puesto que, probablemente, los servidores participarán en muchas más conversaciones que los clientes, tiene sentido abrir más puertos en los servidores que en los clientes. Si se reservan 20 puertos para el uso compartido de aplicaciones en un cliente, quiere decir que el usuario podría participar en 20 sesiones de uso compartido de aplicaciones con el dispositivo especificado y de forma simultánea, lo cual es suficiente para la mayoría de los usuarios.
+Además, es posible que haya observado que se han reservado 8348 puertos para el uso compartido de aplicaciones en los servidores, pero solo se reservaron 20 puertos para el uso compartido de aplicaciones en los clientes. Esto también se recomienda, pero no es una regla difícil y rápida. En general, puede considerar que cada puerto disponible representa una única sesión de comunicación: Si tiene 100 puertos disponibles en un intervalo de puertos que significa que el equipo en cuestión puede participar, como máximo, de las sesiones de comunicación de 100 en cualquier momento. Dado que es probable que los servidores adquieran parte de muchas más conversaciones que clientes, tiene sentido abrir muchos más puertos en servidores que en los clientes. La reserva de 20 puertos para el uso compartido de aplicaciones en un cliente significa que un usuario puede participar en 20 sesiones de uso compartido de aplicaciones en el dispositivo especificado, y todas al mismo tiempo. Eso debería ser suficiente para la gran mayoría de los usuarios.
 
-Para asignar los intervalos de puertos anteriores a la recopilación global de opciones de configuración de conferencia, utilice el comando de Shell de administración de Lync Server siguiente:
+Para asignar los intervalos de puertos anteriores a la colección global de opciones de configuración de conferencias, puede usar el siguiente comando del shell de administración de Lync Server:
 
     Set-CsConferencingConfiguration -Identity global -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-O bien, utilice este comando para asignar estos intervalos de puertos a todas las opciones de configuración de conferencia:
+O bien, use este comando para asignar estos mismos intervalos de puerto para todas las opciones de configuración de Conferencia:
 
     Get-CsConferencingConfiguration | Set-CsConferencingConfiguration -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 - ClientFileTransferPort 42020 -ClientFileTransferPortRange 20
 
-Los usuarios individuales deberán cerrar la sesión de Lync y volver a iniciarla antes de que surtan efecto estos cambios.
+Los usuarios individuales deben cerrar sesión en Lync y, a continuación, iniciar sesión de nuevo antes de que estos cambios se hagan efectivos.
+
+<div>
 
 
-> [!NOTE]
-> También puede habilitar los intervalos de puertos multimedia y, a continuación, asignar dichos intervalos de puertos mediante un comando simple. Por ejemplo:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
+> [!NOTE]  
+> También puede habilitar intervalos de puertos de medios de cliente y, a continuación, asignar esos intervalos de puertos con un solo comando. Por ejemplo:<BR><CODE>Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True -ClientAudioPort 50020 -ClientAudioPortRange 20 -ClientVideoPort 58000 -ClientVideoPortRange 20 -ClientAppSharingPort 42000 -ClientAppSharingPortRange 20 -ClientFileTransferPort 42020 -ClientFileTransferPortRange 20</CODE>
 
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

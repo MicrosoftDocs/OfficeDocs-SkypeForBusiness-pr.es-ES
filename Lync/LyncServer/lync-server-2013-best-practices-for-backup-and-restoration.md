@@ -1,63 +1,101 @@
-﻿---
-title: Procedimientos recomendados de copia de seguridad y restauración
-TOCTitle: Procedimientos recomendados de copia de seguridad y restauración
-ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202184(v=OCS.15)
-ms:contentKeyID: 52061751
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: procedimientos recomendados para copias de seguridad y restauración'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Best practices for backup and restoration
+ms:assetid: abbce0e4-973a-4624-a0c1-e0f22e1d348b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202184(v=OCS.15)
+ms:contentKeyID: 51541500
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4fc7a926bd8fd5c61f87d5e8252c30f40e5a6a69
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842725"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Procedimientos recomendados de copia de seguridad y restauración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="best-practices-for-backup-and-restoration-for-lync-server-2013"></a>Procedimientos recomendados para copias de seguridad y restauración de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-21_
 
 Esta sección incluye dos tipos de procedimientos recomendados:
 
-  - Procedimientos recomendados de copia de seguridad y restauración.
+  - Procedimientos recomendados para la copia de seguridad y la restauración.
 
   - Procedimientos recomendados para minimizar el impacto de un desastre.
 
-## Procedimientos recomendados de copia de seguridad y restauración
+<div>
 
-Aplique los siguientes procedimientos recomendados para facilitar los procesos de copia de seguridad y restauración:
+## <a name="best-practices-for-backup-and-restoration"></a>Procedimientos recomendados para copias de seguridad y restauración
 
-  - Haga copias de seguridad periódicamente y a intervalos apropiados. La rutina más sencilla y habitual a la hora de programar copias de seguridad es hacer cada noche copias completas de toda la base de datos de SQL Server. Así, si hay que restaurar el sistema, solo se necesita una copia de seguridad y no suele perderse más de un día de datos.
+Para facilitar el proceso de copia de seguridad y restauración, al hacer una copia de seguridad o restaurar los datos, siga estos procedimientos recomendados:
 
-  - Si usa cmdlets o el Panel de control de Lync Server para hacer cambios de configuración, use el cmdlet **Export-CsConfiguration** para hacer una copia de seguridad tipo instantánea del archivo de configuración de topología (Xds.mdf) tras hacer los cambios. Así, si necesita restaurar sus bases de datos, no perderá los cambios. Observe que esta configuración se guarda en una copia de seguridad en formato XML y en un archivo comprimido ZIP.
+  - Realice copias de seguridad periódicas en intervalos apropiados. La programación de rotación y el tipo de copia de seguridad más simple y frecuente es una copia de seguridad nocturna completa de toda la base de datos de SQL Server. Después, si es necesario restaurar, el proceso de restauración solo requiere una copia de seguridad, y no se deben perder más de un día.
 
-  - Asegúrese de que la carpeta compartida que prevé usar para hacer copias de seguridad de Lync Server tiene suficiente espacio en el disco para guardar todos los datos de los que haga copia de seguridad.
+  - Si usa cmdlets o el panel de control de Lync Server para realizar cambios de configuración, use el cmdlet **Export-CsConfiguration** para tomar una copia de seguridad de instantáneas del archivo de configuración de topología (XDS. MDF) después de realizar los cambios, de modo que no pierda los cambios si debe restaurar las bases de datos. Tenga en cuenta que se realiza una copia de seguridad de esta configuración en formato XML y se comprime como archivo ZIP.
 
-  - Programe las copias de seguridad para que se hagan en los momentos en los que se suela usar menos Lync Server. De esta manera, mejorará el rendimiento del servidor y la experiencia del usuario.
+  - Asegúrese de que la carpeta compartida que va a usar para realizar copias de seguridad de Lync Server tenga suficiente espacio en disco para almacenar todos los datos de la copia de seguridad.
 
-  - Asegúrese de que la ubicación en la que guarda la copia de seguridad de los datos sea segura (recomendamos una ubicación remota).
+  - Programe copias de seguridad cuando el uso de Lync Server sea generalmente bajo, para mejorar el rendimiento del servidor y la experiencia del usuario.
 
-  - Guarde las copias de seguridad en una ubicación de de fácil acceso por si necesita restaurar los datos.
+  - Asegúrese de que la ubicación donde se realiza la copia de seguridad de los datos es segura (recomendamos una ubicación remota).
 
-  - Planee y programe pruebas periódicas de los procesos de restauración con el apoyo de su organización.
+  - Mantenga los archivos de copia de seguridad donde estarán disponibles, en caso de que necesite restaurar los datos.
 
-  - Valide los procesos de copia de seguridad y restauración por adelantado para asegurarse de que funcionan según lo esperado.
+  - Planear y programar pruebas periódicas de los procesos de restauración admitidos por su organización.
 
-## Procedimientos recomendados para minimizar el impacto de un desastre
+  - Valide los procesos de copia de seguridad y restauración por adelantado para asegurarse de que funcionan de la forma esperada.
 
-La mejor estrategia para enfrentarse a interrupciones del servicio de consecuencias desastrosas (provocadas por situaciones incontrolables como cortes del suministro eléctrico o errores repentinos de hardware) es dar por sentado que ocurrirán y hacer los planes pertinentes.
+</div>
 
-Si los servicios de Lync, con un mínimo de interrupción, son fundamentales para su organización, considere la opción de implementar grupos emparejados de servidores front-end, tal como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Después de hacerlo, si se produce un desastre en uno de estos grupos, un administrador podrá mover los usuarios de ese grupo para que reciban el servicio del otro grupo con un tiempo de inactividad mínimo.
+<div>
 
-En los planes de administración de desastres que implemente como parte de su estrategia de copia de seguridad y restauración, se debe tener en cuenta lo siguiente:
+## <a name="best-practices-for-minimizing-the-impact-of-a-disaster"></a>Procedimientos recomendados para minimizar el impacto de un desastre
 
-  - Tenga siempre a mano los medios de software y las actualizaciones de software y firmware.
+La mejor estrategia para resolver interrupciones de servicio desastrosas (causadas por eventos no manejables, como cortes de energía o errores de hardware repentinos) es asumir que ocurrirán y planificar según corresponda.
 
-  - Mantenga registros de hardware y software.
+Si los servicios de Lync, con un mínimo de interrupción y interrupción, son importantes para la empresa, debe considerar la posibilidad de implementar grupos de servidores de solicitudes de cliente emparejados, como se describe en [planear la alta disponibilidad y la recuperación ante desastres en Lync Server. 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Después, si uno de estos grupos de servidores tiene un desastre, un administrador puede cambiar los usuarios de ese grupo para que el otro grupo lo atienda, con un mínimo de tiempo de inactividad.
 
-  - Haga copias de seguridad de sus datos periódicamente y supervise la integridad de las mismas.
+Los planes de administración ante desastres que desarrolla como parte de su estrategia de copia de seguridad y restauración deben incluir lo siguiente:
 
-  - Forme a su personal en recuperación de desastres, documente todos los procedimientos y lleve a cabo simulacros de recuperación de desastres.
+  - Cómo mantener los medios de software y las actualizaciones de software y firmware disponibles.
 
-  - Tenga siempre a mano hardware de repuesto. Si tiene un contrato de nivel de servicio (SLA), póngase en contacto con los distribuidores y minoristas de hardware para obtener rápidamente equipos de repuesto.
+  - Mantener registros de hardware y software.
 
-  - Separe la ubicación de sus archivos de registro de transacciones (archivos .ldf) y los archivos de bases de datos (archivos .mdf).
+  - Realizar copias de seguridad de los datos de forma periódica y supervisar la integridad de las copias de seguridad.
+
+  - Formación de su personal en la recuperación de desastres, documentación de procedimientos e implementación de simulacros de recuperación ante desastres.
+
+  - Mantener disponible el hardware de repuesto o, si tiene un contrato de nivel de servicio (SLA), contratar a proveedores de hardware y proveedores para el reemplazo de solicitudes.
+
+  - Separar la ubicación de los archivos de registro de transacciones (archivos. ldf) y los archivos de base de datos (archivos. MDF).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

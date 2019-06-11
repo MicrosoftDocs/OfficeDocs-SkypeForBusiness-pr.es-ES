@@ -1,81 +1,122 @@
-﻿---
-title: Adición de bases de datos de archivado a la topología de Lync Server 2013
-TOCTitle: Adición de bases de datos de archivado a la topología de Lync Server 2013
-ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204654(v=OCS.15)
-ms:contentKeyID: 48274351
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: agregar bases de datos de archivado a la topología de Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding Archiving databases to the Lync Server 2013 topology
+ms:assetid: 089ab32f-1167-4bb8-a283-fdc6c9613072
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204654(v=OCS.15)
+ms:contentKeyID: 48183338
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: fe77c57050d6d6c70d5818405fd657d5a8fd3f0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842937"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Adición de bases de datos de archivado a la topología de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="adding-archiving-databases-to-the-lync-server-2013-topology"></a>Agregar bases de datos de archivado a la topología de 2013 de Lync Server
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-10_
 
-Debe incorporar el archivado a la topología para poder configurar la implementación a fin de admitir el archivado. La información de este tema explica cómo usar Generador de topologías para agregar el archivado a su topología existente.
+Es preciso incorporar el archivado a la topología para poder configurar la implementación a fin de admitir el archivado. La información de este tema explica cómo usar el generador de topología para agregar el archivado a la topología existente.
+
+<div>
 
 
-> [!NOTE]
-> Si desea usar la integración de Microsoft Exchange para almacenar datos de archivado en servidores de Exchange 2013 para todos sus usuarios en su implementación, no especifique la información de <STRONG>Almacén SQL Server de archivado</STRONG> o <STRONG>Usar la creación de reflejos de almacén SQL Server</STRONG>.
+> [!NOTE]  
+> Si desea usar la integración de Microsoft Exchange para almacenar datos y archivos en servidores de Exchange 2013 para todos los usuarios de su implementación, no especifique el <STRONG>almacenamiento de SQL Server</STRONG> en el almacén o use la información de reflejo de la <STRONG>tienda SQL Server</STRONG> .
 
 
 
-## Para agregar la compatibilidad de base de datos de archivado a la topología
+</div>
 
-1.  En un equipo que ejecute Lync Server 2013 o en el que se instalen herramientas administrativas de Lync Server, inicie sesión usando una cuenta que sea miembro del grupo Usuarios locales (o una cuenta con derechos de usuario equivalente).
+<div>
+
+## <a name="to-add-archiving-database-support-to-your-topology"></a>Para agregar compatibilidad con la base de datos de archivado a su topología
+
+1.  En un equipo que ejecute Lync Server 2013 o en el que estén instaladas las herramientas administrativas de Lync Server, inicie sesión con una cuenta que sea miembro del grupo usuarios locales (o una cuenta con derechos de usuario equivalentes).
+    
+    <div>
     
 
-    > [!NOTE]
-    > Puede definir una topología con una cuenta que sea miembro del grupo Usuarios locales, pero para publicar una topología, que es necesario para instalar un servidor a la topología, debe usar una cuenta que sea miembro del grupo <STRONG>Admins. del dominio</STRONG> y del grupo <STRONG>RTCUniversalServerAdmins</STRONG>, y que tenga permisos de control total (es decir, leer, escribir y modificar) en el recurso compartido de archivos que va a usar para el almacén de archivos de Lync Server 2013 (es decir, para que la Generador de topologías pueda configurar las listas de control de acceso discrecionales (DACL), o una cuenta con derechos similares.
+    > [!NOTE]  
+    > Puede definir una topología con una cuenta que sea miembro del grupo usuarios locales, pero para publicar una topología, que es necesaria para agregar un servidor a la topología, debe usar una cuenta que sea miembro del grupo de <STRONG>administradores de dominio</STRONG> y la de <STRONG>RTCUniversalServer Grupo administradores</STRONG> , que tiene permisos de control total (es decir, lectura, escritura y modificación) en el recurso compartido de archivos que está usando para el almacén de archivos de Lync Server 2013 (es decir, el generador de topología puede configurar la lista de control de acceso discrecional (DACL) requerida. o una cuenta con derechos equivalentes.
 
+    
+    </div>
 
+2.  Iniciar el generador de topología.
 
-2.  Inicie la Generador de topologías.
-
-3.  En el árbol de consola, vaya al grupo de servidores front-end en el que desee implementar el archivado y haga clic en el nombre de dicho grupo.
+3.  En el árbol de consola, vaya al grupo de servidores front-end en el que desea implementar el archivado y, a continuación, haga clic en el nombre del grupo de servidores front-end en el que desea implementar el archivado.
 
 4.  En el menú **Acción**, haga clic en **Editar propiedades**.
 
 5.  En el cuadro de diálogo **Editar propiedades**, haga clic en **General**.
 
-6.  Desplácese a **Archivado**.
+6.  Desplácese hacia abajo hasta **Archivado**.
 
-7.  Seleccione la casilla **Archivado**.
+7.  Marque la casilla **Archivado**.
 
-8.  En **Almacén SQL Server de archivado**, siga uno de estos pasos:
+8.  En **archivar almacén de SQL Server,** realice una de las siguientes acciones:
     
-      - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desea usar. Si todos los usuarios se hospedan en Microsoft Exchange Server 2013 o superior, puede archivar las comunicaciones de Lync para todos los usuarios en Exchange. En este caso, no tiene que configurar el almacén de archivado de SQL Server.
+      - Para usar un almacén de SQL Server existente, en el cuadro de lista desplegable, haga clic en el nombre del almacén de SQL Server que desee usar. Si todos los usuarios están alojados en Microsoft Exchange Server 2013 o una versión posterior, puede archivar las comunicaciones de Lync para todos los usuarios de Exchange. En este caso, no es necesario configurar el almacén de archivado de SQL Server.
     
-      - Para especificar un nuevo almacén SQL Server, haga clic en **Nuevo** y, a continuación, en el cuadro de diálogo **Definir nuevo almacén SQL Server**, siga uno de estos pasos:
+      - Para especificar un nuevo almacén de SQL Server, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **definir nuevo almacén de SQL Server** , haga lo siguiente:
         
-          - En **FQDN de SQL Server**, especifique el FQDN del servidor donde desee crear el nuevo almacén SQL Server.
+          - En **FQDN de SQL Server**, especifique el nombre completo del servidor en el que desea crear el nuevo almacén de SQL Server.
         
-          - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o bien, para especificar una instancia diferente, haga clic en **Instancia con nombre** y, a continuación, especifique la instancia que desea usar.
+          - Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
         
-          - Si la instancia de SQL Server especificada está en una relación de creación de reflejo, active la casilla **Esta instancia de SQL se encuentra en una relación de creación de reflejo** y, a continuación, en **Número de puerto de reflejo**, especifique el número de puerto.
+          - Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
 
-9.  Si desea usar la creación de reflejos de almacén SQL Server, seleccione **Habilitar la creación de reflejos de almacén SQL Server** y siga estos pasos:
+9.  Si desea usar el reflejo de la tienda SQL Server, seleccione **Habilitar reflejo de la tienda SQL Server**y, a continuación, haga lo siguiente:
     
-      - Para usar un almacén SQL Server existente para creación de reflejos, haga clic en el nombre del almacén SQL Server que desee usar para creación de reflejos en el cuadro de lista desplegable **Archivado de creación de reflejos de SQL Server**.
+      - Para usar un almacén de SQL Server existente para la creación de reflejo, en el cuadro de lista desplegable archivado reflejado de **SQL Server** , haga clic en el nombre del almacén de SQL Server que desea usar para el reflejo.
     
-      - Para especificar un nuevo almacén SQL Server para la creación de reflejos, haga clic en **Nuevo** y, a continuación, en el cuadro de diálogo **Definir nuevo almacén SQL Server**, siga uno de estos pasos:
+      - Para especificar un nuevo almacén de SQL Server para la creación de reflejo, haga clic en **nuevo**y, a continuación, en el cuadro de diálogo **definir nuevo almacén de SQL Server** , realice una de las siguientes acciones:
         
-        1.  En **SQL Server FQDN**, especifique el FQDN del SQL Server en el que desea crear el nuevo almacén de SQL Server.
+        1.  En **FQDN de SQL Server**, especifique el nombre completo del servidor SQL Server en el que desea crear el nuevo almacén de SQL Server.
         
-        2.  Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y, a continuación, especifique la instancia que desee usar.
+        2.  Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar.
         
-        3.  Si la instancia de SQL Server especificada está en una relación de creación de reflejo, active la casilla **Esta instancia de SQL se encuentra en una relación de creación de reflejo** y, a continuación, en **Número de puerto de reflejo**, especifique el número de puerto.
+        3.  Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
     
-      - Si habilita la creación de reflejos de SQL Server y desea incluir un testigo de creación de reflejo de SQL Server (una tercera instancia de SQL Server independiente que puede detectar el estado del servidor principal de SQL Server y las instancias de reflejo), seleccione el testigo de creación de reflejo de la casilla **Usar testigo de creación de reflejo de SQL Server para habilitar la conmutación automática por error** y, a continuación, realice una de las siguientes acciones:
+      - Si habilita el reflejo de SQL Server y desea incluir un testigo de reflejo de SQL Server (una tercera, instancia independiente de SQL Server que pueda detectar el estado del servidor SQL Server principal y de las instancias reflejadas), seleccione el **testigo de reflejo de SQL Server para habilitarlo. casilla de verificación conmutación por error automática** y, a continuación, siga uno de estos procedimientos:
         
-        1.  En **FQDN de SQL Server**, especifique el FQDN del servidor donde desee crear el nuevo testigo de creación de reflejo de SQL Server.
+        1.  En **FQDN de SQL Server**, especifique el nombre completo del servidor en el que desea crear el nuevo testigo de reflejo de SQL Server.
         
-        2.  Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y, a continuación, especifique la instancia que desee usar para el testigo de creación de reflejo.
+        2.  Haga clic en **Instancia predeterminada** para usar la instancia predeterminada o, para especificar una instancia distinta, haga clic en **Instancia con nombre** y especifique la instancia que desee usar para el testigo de reflejo.
         
-        3.  Si la instancia de SQL Server especificada está en una relación de creación de reflejo, active la casilla **Esta instancia de SQL se encuentra en una relación de creación de reflejo** y, a continuación, en **Número de puerto de reflejo**, especifique el número de puerto.
+        3.  Si la instancia de SQL Server especificada tiene una relación de creación de reflejos, seleccione la casilla **de verificación esta instancia de SQL está en relación de creación de reflejo** y, a continuación, en número de puerto de **réplica**, especifique el número de puerto.
 
 10. Para guardar la configuración, haga clic en **Aceptar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

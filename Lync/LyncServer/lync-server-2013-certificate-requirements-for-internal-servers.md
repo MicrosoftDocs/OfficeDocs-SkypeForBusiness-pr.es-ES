@@ -1,50 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Requisitos de certificado para Servidores internos'
-TOCTitle: Requisitos de certificado para Servidores internos
-ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398094(v=OCS.15)
-ms:contentKeyID: 48274282
-ms.date: 02/18/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Requisitos de certificado para Servidores internos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate requirements for internal servers
+ms:assetid: 0444cdbd-538c-43b1-b9a1-9d7d6cf818d6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398094(v=OCS.15)
+ms:contentKeyID: 48183270
+ms.date: 02/17/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a4a3f1eb54321c6cac7548d282bd3cea31c3f24a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842667"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de certificado para Servidores internos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="certificate-requirements-for-internal-servers-in-lync-server-2013"></a>Requisitos de certificado para Servidores internos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2017-02-17_
 
-Los servidores internos que ejecutan Lync Server y que requieren certificados incluyen un servidor Standard Edition, un servidor front-end Enterprise Edition, un servidor de mediación y un director. En la siguiente tabla se muestran los requisitos de certificado para estos servidores. Puede usar el asistente para certificados de Lync Server para solicitar dichos certificados.
+Los servidores internos que ejecutan Lync Server y que requieren certificados incluyen el servidor Standard Edition, el servidor front-end Enterprise Edition, el servidor de mediación y el director. En la tabla siguiente se muestran los requisitos de certificados para estos servidores. Puede usar el Asistente para certificados de Lync Server para solicitar estos certificados.
+
+<div>
+
 
 > [!TIP]  
-> Se admiten los certificados de comodín para los nombres alternativos de sujeto asociados a las direcciones URL simples en Grupo de servidores front-end, Servidor front-end o director. Para obtener información sobre el soporte técnico de certificados de comodín, consulte <a href="lync-server-2013-wildcard-certificate-support.md">Compatibilidad de certificado de comodín en Lync Server 2013</a>.
+> Los certificados comodín son compatibles con los nombres alternativos de asunto asociados con las direcciones URL simples del grupo de servidores front-end, del servidor front-end o del director. Para obtener más información acerca de la compatibilidad con certificados comodín, consulte <A href="lync-server-2013-wildcard-certificate-support.md">compatibilidad de certificados comodín en Lync Server 2013</A>.
 
 
 
-Aunque para los servidores internos se recomienda una entidad de certificación (CA) empresarial interna, también puede usar una pública. Para obtener una lista de entidades de certificación públicas que proporcionan certificados que cumplen los requisitos específicos para los certificados de comunicaciones unificadas (UC) y que están asociadas con Microsoft para asegurar que funcionan con el Asistente para certificados de Lync Server, consulte el artículo 929395 de Microsoft Knowledge Base, "Socios de certificado de comunicaciones unificadas de Exchange Server y para Communications Server", en [http://go.microsoft.com/fwlink/?linkid=202834\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=202834%26clcid=0xc0a).
+</div>
 
-La comunicación con el resto de aplicaciones y servidores como, por ejemplo, Exchange 2013, requiere el uso de un certificado compatible con las otras aplicaciones y productos. Para la versión de 2013, Lync Server 2013 y el resto de productos de servidor de Microsoft, incluidos Exchange 2013 y SharePoint Server, admiten el protocolo Open Authorization (OAuth) para la autorización y la autenticación de servidor a servidor. Para obtener más detalles, vea [Administración de la autenticación servidor a servidor (Oauth) y las aplicaciones de socio en Lync Server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) en la documentación sobre implementación o sobre operaciones.
+Aunque se recomienda una entidad de certificación (CA) interna de empresa para los servidores internos, también puede usar una CA pública. Para obtener una lista de las entidades emisoras de certificados públicas que proporcionan certificados que cumplen con los requisitos específicos para los certificados de comunicaciones unificadas y se han asociado con Microsoft para garantizar que funcionan con el Asistente para certificados de Lync Server, consulte el artículo Microsoft Knowledge Base 929395, "socios de certificados de comunicaciones unificadas para Exchange Server y Communications Server" [https://go.microsoft.com/fwlink/p/?linkId=202834](https://go.microsoft.com/fwlink/p/?linkid=202834)en.
 
-Para conexiones desde clientes que ejecuten Sistema operativo Windows 7, Sistema operativo Windows Server 2008, Sistema operativo Windows Server 2008 R2, Sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye compatibilidad con certificados firmados (aunque no los requiere de forma obligatoria) mediante la función de hash de cifrado SHA-256. Para permitir el acceso externo mediante SHA-256, el certificado externo lo emite una entidad de certificación pública que usa SHA-256.
+La comunicación con otras aplicaciones y servidores, como Exchange 2013, requiere un certificado que sea compatible con otras aplicaciones y productos. Para la versión 2013, Lync Server 2013 y otros productos de Microsoft Server, incluidos Exchange 2013 y SharePoint Server, admiten el protocolo de autorización abierta (OAuth) para la autenticación y la autorización de servidor a servidor. Para obtener más información, vea [administrar la autenticación de servidor a servidor (OAuth) y las aplicaciones de socios en Lync server 2013](lync-server-2013-managing-server-to-server-authentication-oauth-and-partner-applications.md) en la documentación de implementación o en la documentación de operaciones.
 
-En las tablas siguientes, se muestran los requisitos de certificado por rol de servidor para los grupos de servidores front-end y los servidores Standard Edition. Todos ellos son certificados de servidor web estándar, con clave privada y no exportables.
+Para las conexiones de clientes que ejecutan el sistema operativo Windows 7, el sistema operativo Windows Server 2008, el sistema operativo Windows Server 2008 R2, el sistema operativo Windows Vista y Microsoft Lync Phone Edition, Lync Server 2013 incluye compatibilidad con (pero no requerir) certificados firmados con la función de hash criptográfica SHA-256. Para admitir el acceso externo mediante SHA-256, un certificado externo es emitido por una entidad de certificación pública con SHA-256.
 
-Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura automáticamente al usar el asistente para certificados para solicitar certificados.
+En las tablas siguientes se muestran los requisitos de los certificados por función del servidor para los servidores front-end y los servidores Standard Edition. Todos son certificados de servidor web estándar, clave privada, no exportable.
 
+Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura automáticamente cuando usa el Asistente para certificados para solicitar certificados.
 
-> [!NOTE]
-> El nombre descriptivo de cada certificado debe ser único en el almacén del equipo.
-
-
+<div>
 
 
-> [!NOTE]
-> Si ha configurado sipinternal.contoso.com o sipexternal.contoso.com en su DNS, tendrá que agregarlos al Nombre alternativo de sujeto de los certificados.
+> [!NOTE]  
+> Cada nombre descriptivo de certificado debe ser único en el almacén de equipos.
 
 
 
-### Certificados para el servidor Standard Edition
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Si ha configurado sipinternal.contoso.com o sipexternal.contoso.com en su DNS, tendrá que agregarlos en el nombre alternativo de asunto del certificado.
+
+
+
+</div>
+
+### <a name="certificates-for-standard-edition-server"></a>Certificados para un servidor Standard Edition
 
 <table>
 <colgroup>
@@ -57,7 +90,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <thead>
 <tr class="header">
 <th>Certificado</th>
-<th>Nombre de sujeto/ Nombre común</th>
+<th>Nombre del asunto/nombre común</th>
 <th>Nombre alternativo de sujeto</th>
 <th>Ejemplo</th>
 <th>Comentarios</th>
@@ -65,14 +98,14 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
-<td><p>Nombre de dominio completo (FQDN) del grupo de servidores</p></td>
-<td><p>FQDN del grupo de servidores y FQDN del servidor</p>
+<td><p>Predeterminado</p></td>
+<td><p>Nombre de dominio completo (FQDN) del grupo</p></td>
+<td><p>FQDN del grupo y el FQDN del servidor</p>
 <p>Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</p>
 <p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta del sistema de nombres de dominio (DNS) en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</p></td>
 <td><p>SN=se01.contoso.com; SAN=se01.contoso.com</p>
 <p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
-<td><p>En el servidor Standard Edition, el FQDN del servidor es igual que el FQDN del grupo de servidores.</p>
+<td><p>En el servidor Standard Edition, el FQDN del servidor es el mismo que el FQDN del grupo.</p>
 <p>El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</p>
 <p>También puede usar este certificado para la autenticación de servidor a servidor.</p></td>
 </tr>
@@ -84,16 +117,14 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <li><p>FQDN web interno (que es igual que el FQDN del servidor)</p></li>
 <li><p>URL sencilla de reunión</p></li>
 <li><p>URL sencilla de marcado</p></li>
-<li><p>URL sencilla de administración</p>
-<p></p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
-</ul>
-<p></p></td>
+<li><p>URL sencilla de administración</p></li>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
+</ul></td>
 <td><p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Con un certificado de comodín:</p>
 <p>SN=se01.contoso.com; SAN=se01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>El FQDN web interno del Generador de topologías no puede invalidarse.</p>
-<p>Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</p>
+<td><p>No puede invalidar el FQDN de la web interna en el generador de topología.</p>
+<p>Si tiene varias direcciones URL simples, debe incluirlas como nombres alternativos de asunto.</p>
 <p>Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</p></td>
 </tr>
 <tr class="odd">
@@ -104,19 +135,19 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <li><p>FQDN web externo</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>Direcciones URL sencillas de reunión por dominio SIP</p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
 </ul></td>
 <td><p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Con un certificado de comodín:</p>
 <p>SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</p>
+<td><p>Si tiene varias direcciones URL simples, debe incluirlas como nombres alternativos de asunto.</p>
 <p>Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Certificados para un servidor front-end en un grupo de servidores front-end
+### <a name="certificates-for-front-end-server-in-a-front-end-pool"></a>Certificados para el servidor front-end en un grupo de servidores front-end
 
 <table>
 <colgroup>
@@ -129,7 +160,7 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <thead>
 <tr class="header">
 <th>Certificado</th>
-<th>Nombre de sujeto/ Nombre común</th>
+<th>Nombre del asunto/nombre común</th>
 <th>Nombre alternativo de sujeto</th>
 <th>Ejemplo</th>
 <th>Comentarios</th>
@@ -137,34 +168,33 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
-<td><p>FQDN del grupo de servidores y FQDN del servidor.</p>
+<td><p>FQDN del grupo y FQDN del servidor.</p>
 <p>Si hay varios dominios SIP y está habilitada la configuración automática de los clientes, el Asistente para certificados detectará y agregará los FQDN de todos los dominios SIP admitidos.</p>
-<p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</p></td>
-<td><p>SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com</p>
+<p>Si este grupo es el servidor de inicio de sesión automático para clientes y se requiere coincidencia de DNS estricta en la Directiva de grupo, también necesitarás entradas para SIP. sipdomain (para cada dominio SIP que tengas).</p></td>
+<td><p>SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com </p>
 <p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
 <td><p>El asistente detecta todos los dominios SIP especificados durante la instalación y los agrega automáticamente al nombre alternativo de sujeto.</p>
 <p>También puede usar este certificado para la autenticación de servidor a servidor.</p></td>
 </tr>
 <tr class="even">
-<td><p>Web interno</p></td>
+<td><p>Interno de la web</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>Cada uno de los siguientes elementos:</p>
 <ul>
 <li><p>FQDN web interno (que NO es el mismo que el FQDN del servidor)</p></li>
 <li><p>FQDN del servidor</p></li>
-<li><p>FQDN del grupo de servidores de Lync</p></li>
+<li><p>FQDN del grupo de Lync</p></li>
 <li><p>URL sencilla de reunión</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>URL sencilla de administración</p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
-</ul>
-<p></p></td>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
+</ul></td>
 <td><p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>Con un certificado de comodín:</p>
 <p>SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</p>
+<td><p>Si tiene varias direcciones URL simples, debe incluirlas como nombres alternativos de asunto.</p>
 <p>Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</p></td>
 </tr>
 <tr class="odd">
@@ -175,19 +205,19 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <li><p>FQDN web externo</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>URL sencilla de administración</p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
 </ul></td>
 <td><p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>Con un certificado de comodín:</p>
 <p>SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=*.contoso.com</p></td>
-<td><p>Si dispone de varias URL simples de reunión, deberá incluirlas todas como nombres alternativos de sujeto.</p>
+<td><p>Si tiene varias direcciones URL simples, debe incluirlas como nombres alternativos de asunto.</p>
 <p>Las entradas de comodín se admiten para las entradas de direcciones URL sencillas.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-### Certificados para el director
+### <a name="certificates-for-director"></a>Certificados para Director
 
 <table>
 <colgroup>
@@ -199,32 +229,33 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <thead>
 <tr class="header">
 <th>Certificado</th>
-<th>Nombre de sujeto/ Nombre común</th>
+<th>Nombre del asunto/nombre común</th>
 <th>Nombre alternativo de sujeto</th>
 <th>Ejemplo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
-<td><p>FQDN del grupo de servidores del director</p></td>
-<td><p>FQDN del director, FQDN del grupo de servidores del director</p>
-<p>Si este grupo de servidores es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también entradas para sip.sipdomain (para cada uno de los dominios SIP que tenga).</p></td>
-<td><p>SN=dir-pool.contoso.com; SAN=dir-pool.contoso.com; SAN=dir01.contoso.com</p>
-<p>Si este grupo de servidores del director es el servidor de inicio automático de sesión de los clientes y se requiere una correspondencia exacta de DNS en la directiva del grupo, necesitará también SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
+<td><p>Predeterminado</p></td>
+<td><p>FQDN del grupo de directores</p></td>
+<td><p>FQDN del Director, FQDN del grupo de directores</p>
+<p>Si este grupo es el servidor de inicio de sesión automático para clientes y se requiere coincidencia de DNS estricta en la Directiva de grupo, también necesitarás entradas para SIP. sipdomain (para cada dominio SIP que tengas).</p></td>
+<td><p>SN = dir-pool.contoso.com; SAN = dir-pool.contoso.com; SAN = dir01. contoso. com</p>
+<p>Si este grupo de directores es el servidor de inicio de sesión automático para clientes y se requiere una coincidencia de DNS estricta en la Directiva de grupo, también necesita SAN = SIP. contoso. com; SAN = SIP. fabrikam. com</p></td>
 </tr>
 <tr class="even">
-<td><p>Web interno</p></td>
+<td><p>Interno de la web</p></td>
 <td><p>FQDN del servidor</p></td>
 <td><p>Cada uno de los siguientes elementos:</p>
 <ul>
 <li><p>FQDN web interno (que es igual que el FQDN del servidor)</p></li>
+<li><p>FQDN del servidor</p></li>
+<li><p>FQDN del grupo de Lync</p></li>
 <li><p>URL sencilla de reunión</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>URL sencilla de administración</p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
-</ul>
-<p></p></td>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
+</ul></td>
 <td><p>SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=*.contoso.com</p></td>
 </tr>
@@ -236,9 +267,9 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 <li><p>FQDN web externo</p></li>
 <li><p>URL sencilla de marcado</p></li>
 <li><p>URL sencilla de administración</p></li>
-<li><p>O una entrada de comodín para las direcciones URL sencillas</p></li>
+<li><p>O bien, una entrada comodín para las direcciones URL simples</p></li>
 </ul></td>
-<td><p>El FQDN web externo de director debe ser diferente a Grupo de servidores front-end o Servidor front-end.</p>
+<td><p>El FQDN de la web externa del Director debe ser diferente del de la aplicación front end o del servidor front-end.</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com</p>
 <p>SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=*.contoso.com</p></td>
 </tr>
@@ -246,9 +277,9 @@ Tenga en cuenta que el uso mejorado de clave (EKU) del servidor se configura aut
 </table>
 
 
-Si tiene un grupo de servidores de mediación independientes, cada uno de los servidores de mediación que incluya necesitará los certificados listados en la siguiente tabla. Si combina el servidor de mediación con los servidores front-end, bastará con los certificados enumerados anteriormente en la tabla "Certificados para un servidor front-end en un grupo de servidores front-end" de este tema.
+Si tiene un grupo de servidores de mediación independiente, cada uno de los servidores de mediación de cada uno necesita los certificados enumerados en la tabla siguiente. Si Collocate el servidor de mediación con los servidores front-end, los certificados que figuran en la tabla "certificados para el servidor front-end en la agrupación front end" anteriormente en este tema son suficientes.
 
-### Certificados para un servidor de mediación independiente
+### <a name="certificates-for-stand-alone-mediation-server"></a>Certificados para el servidor de mediación independiente
 
 <table>
 <colgroup>
@@ -260,14 +291,14 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 <thead>
 <tr class="header">
 <th>Certificado</th>
-<th>Nombre de sujeto/ Nombre común</th>
+<th>Nombre del asunto/nombre común</th>
 <th>Nombre alternativo de sujeto</th>
 <th>Ejemplo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN del grupo de servidores</p></td>
 <td><p>FQDN del grupo de servidores</p>
 <p>FQDN del servidor miembro del grupo</p></td>
@@ -277,7 +308,7 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 </table>
 
 
-### Certificados para una aplicación de sucursal con funciones de supervivencia
+### <a name="certificates-for-survivable-branch-appliance"></a>Certificados para la aplicación de rama superviviente
 
 <table>
 <colgroup>
@@ -289,25 +320,39 @@ Si tiene un grupo de servidores de mediación independientes, cada uno de los se
 <thead>
 <tr class="header">
 <th>Certificado</th>
-<th>Nombre de sujeto/ Nombre común</th>
+<th>Nombre del asunto/nombre común</th>
 <th>Nombre alternativo de sujeto</th>
 <th>Ejemplo</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Valor predeterminado</p></td>
+<td><p>Predeterminado</p></td>
 <td><p>FQDN de la aplicación</p></td>
-<td><p>SIP.&lt;sipdomain&gt; (requiere una entrada por dominio SIP)</p></td>
+<td><p>SIP. &lt;sipdomain&gt; (necesita una entrada por cada dominio SIP)</p></td>
 <td><p>SN=sba01.contoso.net; SAN=sip.contoso.com; SAN=sip.fabrikam.com</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+<div>
 
-#### Conceptos
+## <a name="see-also"></a>Vea también
 
-[Compatibilidad de certificado de comodín en Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)
+
+[Compatibilidad de certificado de comodín en Lync Server 2013](lync-server-2013-wildcard-certificate-support.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

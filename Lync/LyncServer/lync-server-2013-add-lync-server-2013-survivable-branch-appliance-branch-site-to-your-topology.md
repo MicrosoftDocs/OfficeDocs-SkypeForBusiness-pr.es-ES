@@ -1,58 +1,96 @@
-﻿---
-title: "Agregar sucursal de aplic. sucursal con supervivencia de Lync Server 2013 a topología"
-TOCTitle: Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología
-ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721896(v=OCS.15)
-ms:contentKeyID: 49889747
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add Lync Server 2013 Survivable Branch Appliance branch site to your topology
+ms:assetid: d3142a37-4606-456d-8ea9-6cc0e51e55f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721896(v=OCS.15)
+ms:contentKeyID: 49733830
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 83ae19b3683b725db64b2f598eb6fc3d182bac17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842946"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology"></a>Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-07_
 
-Las Aplicaciones de sucursal con funciones de supervivencia (SBA) de Microsoft Lync Server 2013 no se pueden asociar a un Grupo de servidores front-end de Microsoft Lync Server 2010 como registrador de copia de seguridad. Asocie la SBA a un Grupo de servidores front-end de Microsoft Lync Server 2013. Estos pasos presuponen la existencia de una SBA de Microsoft Lync Server 2013. Ejecute este procedimiento en el sitio central.
+Los equipos de la sucursal de Microsoft Lync Server 2013 (SBA) no se pueden asociar a un grupo front-end de Microsoft Lync Server 2010 como registrador de copias de seguridad. SBA debe estar asociado a un grupo front end de Microsoft Lync Server 2013. En estos pasos se supone que se 2013 SBA de Microsoft Lync Server. Realice este procedimiento en el sitio central.
 
-## Para agregar sucursales con SBA de Microsoft Lync Server 2013 a la topología
+<div>
 
-1.  Inicie el Generador de topologías: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Generador de topologías de Lync Server**.
+## <a name="to-add-branch-sites-with-microsoft-lync-server-2013-sba-to-your-topology"></a>Para agregar sitios de sucursales con Microsoft Lync Server 2013 SBA a su topología
 
-2.  En el árbol de consola, expanda sucesivamente el sitio central y los **Sitios de sucursal** y luego haga clic en **Nuevo sitio de sucursal**.
+1.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
 
-3.  En el cuadro de diálogo **Definir nuevo sitio de sucursal**, haga clic en **Nombre** y escriba un nombre para el sitio de sucursal nuevo.
+2.  En el árbol de consola, expanda el sitio central, expanda **sitios de sucursal**y, a continuación, haga clic en **nuevo sitio de sucursal**.
 
-4.  (Opcional) Haga clic en **Descripción** y luego escriba una descripción significativa para el sitio de sucursal.
+3.  En el cuadro de diálogo **definir nuevo sitio de sucursal** , haga clic en **nombre**y, a continuación, escriba un nombre para el nuevo sitio de la sucursal.
 
-5.  Después, haga clic en **Siguiente** .
+4.  Faculta Haga clic en **Descripción**y, a continuación, escriba una descripción para el sitio de la sucursal.
 
-6.  (Opcional) En el siguiente cuadro de diálogo **Definir nuevo sitio de sucursal**, realice una de las siguientes acciones:
+5.  Haga clic en **Siguiente**.
+
+6.  Faculta En el cuadro de diálogo **definir siguiente sitio de sucursal** , realice una de las siguientes acciones:
     
-      - Haga clic en **Ciudad** y escriba el nombre de la ciudad en la se ubica el sitio de sucursal.
+      - Haga clic en **ciudad**y, a continuación, escriba el nombre de la ciudad en la que se encuentra el sitio de la sucursal.
     
-      - Haga clic en **Provincia o región** y escriba el nombre de la provincia o la región en la que se ubica el sitio de sucursal.
+      - Haga clic en **Estado o región**y, a continuación, escriba el nombre del estado o la región en la que se encuentra el sitio de la sucursal.
     
-      - Haga clic en **Código de país** y luego escriba el código telefónico de dos dígitos del país o la región en el que se ubica el sitio de sucursal.
+      - Haga clic en **prefijo internacional**y escriba el código de la llamada de dos dígitos para el país o la región en la que se encuentra el sitio de la sucursal.
 
-7.  Haga clic en **Siguiente** y luego siga uno de estos procedimientos:
+7.  Haga clic en **siguiente**y, a continuación, siga uno de estos procedimientos:
     
-      - Si usa una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia en este sitio, compruebe que la casilla **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre este asistente** esté activada.
+      - Si está usando una aplicación de sucursal o un servidor de sucursal con la supervivencia, asegúrese de que esté activada la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** .
     
-      - Si usa una Aplicación de sucursal con funciones de supervivencia o un Servidor de sucursal con funciones de supervivencia en este sitio, desactive la casilla **Abrir el Asistente con nuevas funciones de supervivencia cuando se cierre este asistente**.
+      - Si no usa una aplicación de sucursal o un servidor de sucursal que sea revivientes en este sitio, desactive la casilla **abrir el nuevo asistente superviviente cuando se cierre este asistente** .
     
-      - Haga clic en **Finalizar** y siga las instrucciones del asistente que se abre. Para más información sobre el asistente, vea [Definir un servidor o aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
+      - Haga clic en **Finalizar**y, a continuación, siga las instrucciones del asistente que se abre. Para obtener información sobre los elementos del asistente, consulte [definir un dispositivo o servidor de sucursal con la que sea reviviente en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md).
 
 8.  Repita los pasos anteriores para cada sitio de sucursal que desee agregar a la topología.
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Definir un servidor o aplicación de sucursal con funciones de supervivencia en Lync Server 2013](lync-server-2013-define-a-survivable-branch-appliance-or-server.md)  
 [Definir una puerta de enlace RTC para un sitio de sucursal en Lync Server 2013](lync-server-2013-define-a-pstn-gateway-for-a-branch-site.md)  
-[Configurar un tronco con omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
-[Configurar un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)
+[Configure a trunk with media bypass in Lync Server 2013](lync-server-2013-configure-a-trunk-with-media-bypass.md)  
+[Configurar un tronco sin omisión de medios en Lync Server 2013](lync-server-2013-configure-a-trunk-without-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

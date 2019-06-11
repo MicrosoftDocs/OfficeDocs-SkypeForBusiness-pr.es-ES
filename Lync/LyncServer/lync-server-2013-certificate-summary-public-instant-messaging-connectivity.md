@@ -1,23 +1,45 @@
-﻿---
-title: Resumen de certificado - Conectividad de mensajería instantánea pública
-TOCTitle: Resumen de certificado - Conectividad de mensajería instantánea pública
-ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618370(v=OCS.15)
-ms:contentKeyID: 49115276
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen del certificado-conectividad de mensajería instantánea pública'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Public instant messaging connectivity
+ms:assetid: 2b3687ee-50c2-4c1c-880e-8dcf8bd4f309
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618370(v=OCS.15)
+ms:contentKeyID: 49105657
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31988207403ef1ccb5ea366da6e1ec6b3d448b4e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842639"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de certificado - Conectividad de mensajería instantánea pública
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="certificate-summary---public-instant-messaging-connectivity-in-lync-server-2013"></a>Resumen del certificado: conectividad de mensajería instantánea pública en Lync Server 2013
 
-Para configurar certificados para conectividad de mensajería instantánea pública, primero debe comprender que no hay diferencia con otros tipos de federación SIP o incluso certificados de Servidor perimetral estándar, excepto que America Online (AOL) requiere una configuración de certificado única. Además del uso mejorado de clave (EKU) normal del servidor, America Online requiere que el certificado o los certificados (en el caso de un Grupo de servidores perimetrales) también incluyan el EKU del cliente. El EKU del cliente es un agregado del certificado y forma parte del certificado público externo asignado a su Servidor perimetral.
+</div>
 
-## Resumen del certificado: conectividad de mensajería instantánea pública
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-02-19_
+
+Para configurar certificados para la conectividad de mensajería instantánea pública, primero debe tener en cuenta que no hay nada diferente de otros tipos de Federación SIP o incluso los certificados de servidor perimetral estándar, excepto que America Online (AOL) requiere un único configuración de certificado. Además del uso mejorado de claves (EKU) del servidor, America Online requiere que el certificado o los certificados (en el caso de un grupo de límites) contengan también el EKU de cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna al servidor perimetral.
+
+<div>
+
+## <a name="certificate-summary--public-instant-messaging-connectivity"></a>Resumen del certificado: conectividad de mensajería instantánea pública
 
 
 <table>
@@ -30,33 +52,49 @@ Para configurar certificados para conectividad de mensajería instantánea públ
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nombre de sujeto</th>
-<th>Nombres alternativos de sujeto (SAN)/orden</th>
+<th>Nombre del asunto</th>
+<th>Nombres alternativos de asunto (SAN)/Order</th>
 <th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Externo/perimetral de acceso</p></td>
+<td><p>Perimetral de acceso externo</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>sip.fabrikam.com</p></td>
-<td><p>El certificado debe provenir de una entidad de certificación pública y debe tener el EKU del servidor y el EKU del cliente si se implementará la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces externas de Servidor perimetral para:</p>
+<td><p>El certificado debe ser de una entidad de certificación pública y debe tener el EKU de servidor y el EKU de cliente si se va a implementar la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces del servidor perimetral externo para:</p>
 <ul>
-<li><p>Servidor perimetral de acceso</p></li>
+<li><p>Servicio perimetral de acceso</p></li>
 <li><p>Servicio perimetral de conferencia web</p></li>
 <li><p>Servicio perimetral A/V</p></li>
 </ul>
-<p>Tenga en cuenta que los SAN se agregan automáticamente al certificado en función de sus definiciones del Generador de topologías. Puede agregar entradas de SAN a medida que lo necesite para otros dominios SIP y otras entradas que deba admitir. El nombre de sujeto se replica en el SAN y debe estar presente para un correcto funcionamiento.</p></td>
+<p>Tenga en cuenta que las redes San se agregan automáticamente al certificado según sus definiciones en el generador de topologías. Agregue las entradas de SAN según sea necesario para dominios SIP adicionales y otras entradas que necesite admitir. El nombre del asunto se replica en el SAN y debe estar presente para que funcione correctamente.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
 
-[Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)
+## <a name="see-also"></a>Vea también
+
+
+[Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

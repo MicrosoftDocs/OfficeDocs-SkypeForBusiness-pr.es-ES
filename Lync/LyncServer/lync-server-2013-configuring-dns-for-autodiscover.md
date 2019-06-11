@@ -1,169 +1,240 @@
-﻿---
-title: Configurar DNS para la detección automática
-TOCTitle: Configurar DNS para la detección automática
-ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945656(v=OCS.15)
-ms:contentKeyID: 52061966
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de DNS para la detección automática'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring DNS for Autodiscover
+ms:assetid: f07a634c-3cf3-4958-8556-84596319ef54
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945656(v=OCS.15)
+ms:contentKeyID: 51541528
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c490cac475f3b9a9c8038636f4ac7f6670f22637
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842269"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar DNS para la detección automática
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-dns-for-autodiscover-in-lync-server-2013"></a>Configuración de DNS para la detección automática en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-12-12_
 
-Para admitir la detección automática de clientes de Lync, debe crear los siguientes registros del Sistema de nombres de dominio (DNS):
+Para admitir la detección automática de los clientes de Lync, debe crear los siguientes registros del sistema de nombres de dominio (DNS):
 
-  - Un registro DNS interno para admitir clientes de Lync que se conectan desde la red de su organización
+  - Un registro DNS interno para admitir clientes de Lync que se conecten desde la red de la organización
 
-  - Un registro DNS externo, o público, para admitir clientes de Lync que se conectan desde Internet
+  - Un registro DNS público o externo para admitir clientes de Lync que se conectan desde Internet
 
 Debe crear un registro DNS interno y un registro DNS externo para cada dominio SIP.
 
-Los registros DNS pueden ser registros de host (A) o registros CNAME, según cuál sea su capacidad para crear certificados con el nombre alternativo del firmante (SAN) adicional. En caso de que no pueda solicitar e implementar un nuevo certificado externo (público) con el SAN lyncdiscover.\<nombre de dominio\>, recurra al procedimiento para usar el puerto HTTP/TCP 80. Con los siguientes procedimientos se explica cómo crear registros DNS internos y externos.
+Los registros DNS pueden ser A (host) o registros CNAME, en función de su capacidad para crear certificados nuevos con el nombre alternativo de asunto adicional (SAN). Si no puede solicitar e implementar un nuevo certificado externo (público) con el lyncdiscover. \<nombre\> de dominio San, use el procedimiento para usar el puerto http/TCP 80. Los procedimientos siguientes describen cómo crear registros DNS internos y externos.
 
-## Para crear registros CNAME de DNS
+<div>
+
+## <a name="to-create-dns-cname-records"></a>Para crear registros CNAME de DNS
 
 1.  Inicie sesión en un servidor DNS de la siguiente manera:
     
-      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo Admins. del dominio o miembro del grupo DnsAdmins.
+      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.
     
       - Para crear un registro DNS externo, conéctese a su proveedor de DNS público.
 
-2.  Abra el complemento administrativo de DNS: haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.
+2.  Abra el complemento administrativo DNS: haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.
 
-3.  Siga uno de estos procedimientos:
+3.  Siga uno de estos pasos:
     
-      - Si es un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio de Active Directory (por ejemplo, contoso.local).
+      - Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para el dominio de Active Directory (por ejemplo, contoso. local).
+        
+        <div>
         
 
-        > [!NOTE]
-        > Este dominio es el dominio de Active Directory donde el grupo de Director de Lync Server 2013 y el Grupo de servidores front-end se instalan.
+        > [!NOTE]  
+        > Este dominio es el dominio de Active Directory donde se instalan&nbsp;el grupo de directores de Lync Server 2013 y el grupo de servidores front-end.
 
+        
+        </div>
     
-      - Si es un registro DNS externo, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio SIP (por ejemplo, contoso.com).
+      - Para un registro DNS externo, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
 
-4.  Compruebe que haya un registro de host A para el Grupo de directores de la manera siguiente:
+4.  Compruebe que existe un registro para el grupo de directores de la siguiente manera:
     
-      - Si es un registro DNS interno, debería haber un registro de host A relativo al nombre de dominio completo (FQDN) interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local).
+      - Para un registro DNS interno, debe existir un registro A para el nombre de dominio completo (FQDN) de los servicios Web internos para el grupo de directores (por ejemplo, lyncwebdir01. contoso. local).
     
-      - Si es un registro DNS externo, debería haber un registro de host A relativo al FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
+      - Para un registro DNS externo, debe existir un registro A host para el FQDN de los servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
 
-5.  Compruebe que haya un registro de host A para el Grupo de servidores front-end de la manera siguiente:
+5.  Compruebe que existe un registro de host para el grupo de servidores front-end de la siguiente manera:
     
-      - Si es un registro DNS interno, debería haber un registro de host A para el FQDN interno de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebpool01.contoso.local).
+      - Para un registro DNS interno, debe existir un registro A en el FQDN de los servicios Web internos para el grupo de servidores front-end (por ejemplo, lyncwebpool01. contoso. local).
     
-      - Si es un registro DNS externo, debería haber un registro de host A relativo al FQDN externo de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - Para un registro DNS externo, debe existir un registro A host para el FQDN de los servicios web externos para el grupo de front-end (por ejemplo, lyncwebextpool01.contoso.com).
 
-6.  Si es un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** del dominio SIP (por ejemplo, contoso.com).
+6.  Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
     
-
-    > [!NOTE]
-    > Si crea un registro DNS externo, <STRONG>Zonas de búsqueda directa</STRONG> ya está expandido en el dominio SIP desde el paso&nbsp;3.
-
-
-
-7.  Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **Nuevo alias (CNAME)**.
-
-8.  En **Nombre de alias**, escriba una de las siguientes opciones:
-    
-      - Si es un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio Detección automática.
-    
-      - Si es un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL externa del servicio Detección automática.
-
-9.  En **Nombre de dominio completo (FQDN) para el host de destino**, realice una de las operaciones siguientes:
-    
-      - Si es un registro DNS interno, escriba o busque el FQDN interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local) y haga clic en **Aceptar**.
-    
-      - Si es un registro DNS externo, escriba o busque el FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com) y haga clic en **Aceptar**.
+    <div>
     
 
-    > [!NOTE]
-    > Si no usa un Director, use el FQDN interno y externo de servicio web del Grupo de servidores front-end o, para un único servidor único, el FQDN del Servidor front-end o el Servidor Standard Edition.
+    > [!NOTE]  
+    > Si va a crear un registro DNS externo, las <STRONG>zonas de búsqueda directa</STRONG> ya están expandidas para su dominio SIP del paso 3.
 
     
+    </div>
+
+7.  Haga clic con el botón derecho en el nombre de dominio SIP y después haga clic en **nuevo alias (CNAME)**.
+
+8.  En **nombre de alias**, escriba una de las opciones siguientes:
+    
+      - Para un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio de detección automática.
+    
+      - Para un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.
+
+9.  En el **nombre de dominio completo (FQDN) del host de destino**, realice una de las siguientes acciones:
+    
+      - Para un registro DNS interno, escriba o busque el FQDN de servicios Web internos de su grupo de directores (por ejemplo, lyncwebdir01. contoso. local) y, a continuación, haga clic en **Aceptar**.
+    
+      - Para un registro DNS externo, escriba o busque el FQDN de servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com) y, a continuación, haga clic en **Aceptar**.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > Si no usa un director, use el FQDN de los servicios Web internos y externos para el grupo de servidores front-end, o bien, para un único servidor, el FQDN del servidor front-end o el servidor Standard Edition.
+
+    
+    </div>
+    
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe crear un nuevo registro CNAME de Detección automática en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    > Debe crear un nuevo registro CNAME de detección automática en la zona de búsqueda directa de cada dominio SIP que admita en el entorno de Lync Server 2013.
+
     
+    </div>
 
+</div>
 
-## Para crear registros DNS A
+<div>
+
+## <a name="to-create-dns-a-records"></a>Para crear registros A de DNS
 
 1.  Inicie sesión en un servidor DNS de la siguiente manera:
     
-      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo Admins. del dominio o miembro del grupo DnsAdmins.
+      - Para crear un registro DNS interno, inicie sesión en un servidor DNS de la red como miembro del grupo administradores de dominio o miembro del grupo DnsAdmins.
     
       - Para crear un registro DNS externo, conéctese a su proveedor de DNS público o servidor DNS externo.
 
-2.  Abra el complemento administrativo de DNS: haga clic en **Iniciar**, en **Herramientas administrativas** y en **DNS**.
+2.  Abra el complemento administrativo DNS: haga clic en **Inicio**, haga clic en **herramientas administrativas**y, a continuación, haga clic en **DNS**.
 
-3.  Realice una de las siguientes acciones:
+3.  Siga uno de estos pasos:
     
-      - En el caso de un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio de Active Directory (por ejemplo, contoso.local).
+      - Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para el dominio de Active Directory (por ejemplo, contoso. local).
+        
+        <div>
         
 
-        > [!NOTE]
-        > Este dominio es el dominio de Active Directory donde el grupo de Director de Lync Server 2013 y el Grupo de servidores front-end se instalan.
+        > [!NOTE]  
+        > Este dominio es el dominio de Active Directory donde se instalan&nbsp;el grupo de directores de Lync Server 2013 y el grupo de servidores front-end.
 
+        
+        </div>
     
-      - En el caso de un registro DNS externo, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** de su dominio SIP (por ejemplo, contoso.com).
+      - Para un registro DNS externo, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
 
-4.  Compruebe que haya un registro de host A (para IPv6, AAAA) correspondiente al Grupo de directores de la manera siguiente:
+4.  Compruebe que existe un registro A (para IPv6, AAAA) para el grupo de directores de la siguiente manera:
     
-      - Si es un registro DNS interno, debería haber un registro de host A (para IPv6, AAAA) relativo al nombre de dominio completo (FQDN) interno de servicios web del Grupo de directores (por ejemplo, lyncwebdir01.contoso.local).
+      - Para un registro DNS interno, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios Web internos para el grupo de directores (por ejemplo, lyncwebdir01. contoso. local).
     
-      - Si es un registro DNS externo, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN externo de servicios web del Grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
+      - Para un registro DNS externo, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios web externos para el grupo de directores (por ejemplo, lyncwebextdir.contoso.com).
 
-5.  Compruebe que haya un registro de host A (para IPv6, AAAA) correspondiente al Grupo de servidores front-end de la manera siguiente:
+5.  Compruebe que existe un registro host (para IPv6, AAAA) para el grupo de servidores front-end de la siguiente manera:
     
-      - Si es un registro DNS interno, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN interno de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebpool01.contoso.local).
+      - Para un registro DNS interno, debe existir un registro host A (para IPv6, AAAA) para el FQDN de los servicios Web internos de su grupo de front-end (por ejemplo, lyncwebpool01. contoso. local).
     
-      - Si es un registro DNS externo, debería haber un registro de host A (para IPv6, AAAA) relativo al FQDN externo de servicios web del Grupo de servidores front-end (por ejemplo, lyncwebextpool01.contoso.com).
+      - Para un registro DNS externo, debe existir un registro host (para IPv6, AAAA) para el FQDN de los servicios web externos para el grupo de front-end (por ejemplo, lyncwebextpool01.contoso.com).
 
-6.  En el caso de un registro DNS interno, en el árbol de la consola del servidor DNS, expanda **Zonas de búsqueda directa** del dominio SIP (por ejemplo, contoso.com).
+6.  Para un registro DNS interno, en el árbol de consola del servidor DNS, expanda **zonas de búsqueda directa** para su dominio SIP (por ejemplo, contoso.com).
     
-
-    > [!NOTE]
-    > Si crea un registro DNS externo, <STRONG>Zonas de búsqueda directa</STRONG> ya está expandido en el dominio SIP desde el paso&nbsp;3.
-
-
-
-7.  Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **Nuevo host (A o AAAA)**.
-
-8.  En **Nombre**, escriba el nombre de host de la siguiente manera:
-    
-      - Si es un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio Detección automática.
-    
-      - Si es un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL externa del servicio Detección automática.
+    <div>
     
 
-    > [!NOTE]
-    > El nombre de dominio se deduce de la zona en la que se define el registro y, por lo tanto, no es necesario introducirlo como parte del registro&nbsp;A.
+    > [!NOTE]  
+    > Si va a crear un registro DNS externo, las <STRONG>zonas de búsqueda directa</STRONG> ya están expandidas para su dominio SIP del paso 3.
 
-
-
-9.  En **Dirección IP**, escriba la dirección IP de la siguiente manera:
     
-      - Si es un registro DNS interno, escriba la dirección IP interna de servicios web del Director (o, si usa un equilibrador de carga, escriba la IP virtual (VIP) del equilibrador de carga del Director).
+    </div>
+
+7.  Haga clic con el botón secundario en el nombre de dominio SIP y, a continuación, haga clic en **nuevo host (A o aaaa)**.
+
+8.  En **nombre**, escriba el nombre de host como se indica a continuación:
+    
+      - Para un registro DNS interno, escriba lyncdiscoverinternal como nombre de host para la dirección URL interna del servicio de detección automática.
+    
+      - Para un registro DNS externo, escriba lyncdiscover como nombre de host para la dirección URL del servicio de detección automática externa.
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > El nombre de dominio se supone de la zona en la que se define el registro y, por lo tanto, no es necesario escribirlo como parte del registro A.
+
+    
+    </div>
+
+9.  En **dirección IP**, escriba la dirección IP de la siguiente manera:
+    
+      - Para un registro DNS interno, escriba la dirección IP de los servicios Web internos del Director (o bien, si usa un equilibrador de carga, escriba la dirección IP virtual (VIP) del equilibrador de carga del Director).
+        
+        <div>
         
 
-        > [!NOTE]
-        > Si no usa un Director, escriba la dirección IP del Servidor front-end o Servidor Standard Edition o, si usa un equilibrador de carga, escriba la VIP del equilibrador de carga del Grupo de servidores front-end.
+        > [!NOTE]  
+        > Si no usa un director, escriba la dirección IP del servidor front-end o del servidor Standard Edition, o bien, si usa un equilibrador de carga, escriba la VIP del equilibrador de carga del grupo de servidores front-end.
 
+        
+        </div>
     
-      - Si es un registro DNS externo, escriba la dirección IP externa o pública del proxy inverso.
+      - Para un registro DNS externo, escriba la dirección IP externa o pública del proxy inverso.
 
-10. Haga clic en **Agregar host** y, a continuación, haga clic en **Aceptar**.
+10. Haga clic en **Agregar host**y, a continuación, en **Aceptar**.
 
-11. Para crear más registros A, repita los pasos del 8 al 10.
+11. Para crear un registro A adicional, repita los pasos 8 a 10.
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Debe crear registros A de lyncdiscover y lyncdiscoverinternal en la zona de búsqueda directa de cada dominio SIP que admita en su entorno de Lync Server 2013.
+    > Debe crear una nueva lyncdiscover y lyncdiscoverinternal registros A en la zona de búsqueda directa de cada dominio SIP que admita en el entorno de Lync Server 2013.
+
     
+    </div>
 
+12. Cuando haya terminado de crear un registro (para IPv6, AAAA), haga clic en **listo**.
 
-12. Cuando termine de crear registros A (para IPv6, AAAA), haga clic en **Listo**.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

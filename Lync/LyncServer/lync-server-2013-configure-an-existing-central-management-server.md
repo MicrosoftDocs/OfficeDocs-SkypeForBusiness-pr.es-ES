@@ -1,30 +1,68 @@
-﻿---
-title: 'Lync Server 2013: Configurar un servidor de administración central existente'
-TOCTitle: Configurar un servidor de administración central existente
-ms:assetid: d715b24a-1256-4a7c-a5ef-1cee41d6b733
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205315(v=OCS.15)
-ms:contentKeyID: 48276823
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar un servidor de administración central existente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure an existing Central Management Server
+ms:assetid: d715b24a-1256-4a7c-a5ef-1cee41d6b733
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205315(v=OCS.15)
+ms:contentKeyID: 48185584
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: eec9193d8c40a26179c5dfe1f142740abdda8bc4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842433"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar un servidor de administración central existente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-an-existing-central-management-server-in-lync-server-2013"></a>Configurar un servidor de administración central existente en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-21_
 
-Si reutiliza un Servidor de administración central de una implementación existente de Lync Server 2013, debe ejecutar el procedimiento que se describe más abajo para garantizar que Panel de control de Lync Server y Windows PowerShell funciona correctamente.
+Si reutiliza un servidor de administración central de una implementación existente de Lync Server 2013, debe ejecutar el procedimiento que se describe a continuación para asegurarse de que Lync Server panel de control y Windows PowerShell funcionen correctamente.
 
-## Para configurar un Servidor de administración centralexistente
+<div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-configure-an-existing-central-management-server"></a>Para configurar un servidor de administración central existente
 
-2.  Utilice el cmdlet **Update-CsAdminRole** para actualizar los roles de control de acceso basados en roles (RBAC) almacenados en Servidor de administración central.
+1.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+2.  Use el cmdlet **Update-CsAdminRole** para actualizar los roles de control de acceso basado en roles (RBAC) almacenados en el servidor de administración central.
+    
+    <div>
     
 
-    > [!NOTE]
-    > No se espera ningún resultado a no ser que ocurra un error.
+    > [!NOTE]  
+    > No se espera ninguna salida a menos que haya un error.
 
+    
+    </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

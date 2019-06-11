@@ -1,74 +1,121 @@
-﻿---
-title: Modificar la URL de servicios web en Lync Server 2013
-TOCTitle: Modificar la URL de servicios web en Lync Server 2013
-ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520992(v=OCS.15)
-ms:contentKeyID: 48275173
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: cambiar la dirección URL de los servicios Web'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Change the Web Services URL
+ms:assetid: 4cee37c0-3b99-4207-997f-bf4229d760c0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520992(v=OCS.15)
+ms:contentKeyID: 48184063
+ms.date: 11/16/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 335c73a56da1d8b9a28e7089a7cc2238724a322b
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842620"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modificar la URL de servicios web en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="change-the-web-services-url-in-lync-server-2013"></a>Cambiar la dirección URL de los servicios web en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2015-11-16_
 
-Cuando configura los grupos de servidores front-end y los servidores Standard Edition, tiene la opción de configurar un nombre de dominio completo (FQDN) de la granja de servidores web externa y los puertos asociados. Si no configuró esta dirección URL al ejecutar Asistente para la implementación de Lync Server, es necesario configurar manualmente estos parámetros. Un administrador no suele necesitar modificar estos parámetros, ya que son los puertos predeterminados y recomendados.
+Al configurar las agrupaciones front-end y los servidores Standard Edition, tiene la opción de configurar un nombre de dominio completo (FQDN) y los puertos asociados de la granja de servidores web externos. Si no configuró esta dirección URL al ejecutar el Asistente para la implementación de Lync Server, tendrá que configurar manualmente esta configuración. Por lo general, un administrador no necesita modificar esta configuración, ya que son los puertos recomendados y predeterminados.
+
+<div>
 
 
-> [!NOTE]
-> La siguiente pantalla se capturó mientras se configuraba un servidor Standard Edition, por lo que la opción para invalidar el FQDN está desactivada. Esa opción se activa cuando se configura un servidor Enterprise Edition en un grupo de servidores front end.
+> [!NOTE]  
+> La siguiente captura de pantalla se tomó al configurar un servidor Standard Edition, por lo que la opción reemplazar FQDN está deshabilitada. Esta opción está habilitada al configurar un servidor Enterprise Edition en un grupo de servidores front end.
 
 
 
-![Editar configuración de grupo de servicios web](images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar configuración de grupo de servicios web")
+</div>
 
-## Para configurar servicios web
+![Editar la configuración del grupo de servicios web] (images/Gg520992.fbdf5cc9-479a-463f-bb1d-53575ecdfc9d(OCS.15).jpg "Editar la configuración del grupo de servicios web")
+
+<div>
+
+## <a name="to-configure-web-services"></a>Para configurar servicios Web
 
 1.  Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
 
-2.  Inicie el Generador de topologías: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Generador de topologías de Lync Server**.
+2.  Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.
 
-3.  En Generador de topologías, en el árbol de la consola que hay bajo **Servidores front-end Standard Edition**, **Grupos de servidores front-end Enterprise Edition** y **Grupos de servidores Directory**, seleccione el nombre del grupo de servidores. Haga clic con el botón secundario en el nombre, seleccione **Editar propiedades** y después haga clic en **Servicios web**.
+3.  En el generador de topología, en el árbol de consola, en **servidores front-end Standard Edition**, **grupos de aplicaciones para el usuario de Enterprise Edition**y **grupos de directorios**, seleccione el nombre del grupo. Haga clic con el botón secundario en el nombre, haga clic en **Editar propiedades**y, a continuación, en **servicios web**.
 
-4.  Agregue o edite el **FQDN de servicios web externos** y después haga clic en **Aceptar**.
+4.  Agregue o edite el FQDN de los **servicios web externos**y, a continuación, haga clic en **Aceptar**.
     
+    <div>
+    
+
     > [!WARNING]  
-	> Si tiene más de un Grupo de servidores front-end o Servidor front-end el FQDN de los servicios web externos deben ser únicos. Por ejemplo, si define el FQDN de los servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end. Si también implementa Directores, el FQDN de los servicios web externos definidos desde cualquier Director o Grupo de directores debe ser único desde cualquier otro Director o Grupo de directores y también desde cualquier Grupo de servidores front-end o Servidor front-end.
+    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de los servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end. Si también va a implementar directores, el FQDN de servicios Web externo definido para cualquier Director o grupo de directores debe ser único de cualquier otro grupo de directores o directores, así como de cualquier grupo de servidores front-end o servidor front-end.
 
-
-5.  Verifique que los puertos de escucha y los puertos publicados están configurados correctamente para su entorno.
-
-6.  Repita estos pasos para todos los servidores Standard Edition, los grupos de servidores front-end y los grupos de servidores de Active Directory de su entorno.
-
-7.  En el árbol de la consola, haga clic en **Lync Server 2013** y después en el panel **Acciones**, haga clic en **Publicar topología**.
-
-A continuación se enumeran algunos requisitos que es necesario conocer a la hora de configurar los puertos de escucha y publicación.
-
-  - Los puertos de escucha que se muestran son los puertos configurados para Internet Information Server (IIS) en cada servidor front-end.
-
-  - Los puertos de escucha internos y externos deben ser diferentes para IIS. En el caso de los puertos de escucha externos, suele tratarse del mismo puerto, ya que uno representa el equilibrador de carga de hardware para el tráfico web interno y otro representa el servidor proxy inverso para el tráfico web externo.
-
-  - Puede reemplazar los servicios web internos en un Grupo de servidores front-end, Director o un Grupo de directores y definir su propio FQDN.
     
+    </div>
+
+5.  Verifique que los puertos de escucha y publicados estén configurados correctamente en su entorno.
+
+6.  Repita estos pasos para todos los servidores Standard Edition, los grupos front-end y los grupos de directores de su entorno.
+
+7.  En el árbol de consola, haga clic en **Lync Server 2013**y, a continuación, en el panel **acciones** , haga clic en **publicar topología**.
+
+Hay algunos requisitos que debe tener en cuenta al configurar los puertos de escucha y publicación:
+
+  - Los puertos de escucha que se muestran son los puertos que están configurados para Internet Information Server (IIS) en cada servidor front-end.
+
+  - Los puertos de escucha internos y externos deben ser diferentes para IIS. En el caso de los puertos de escucha externos, estos suelen ser los mismos porque uno representa el equilibrador de carga de hardware para el tráfico web interno y otro representa el servidor proxy inverso para el tráfico web externo.
+
+  - Puede invalidar los servicios Web internos en un grupo de servidores front-end, un director o un grupo de directores y definir su propio FQDN.
+    
+    <div>
+    
+
     > [!WARNING]  
-    > Si decide reemplazar los servicios web internos con un FQDN definido por usted mismo, cada FQDN debe ser único en cualquier Grupo de servidores front-end, Director o Grupo de directores.
+    > Si decide omitir los servicios Web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores.
+
     
+    </div>
 
+  - Los puertos publicados deben estar configurados en el proxy inverso o en el equilibrador de carga de hardware como puertos en escucha.
 
-  - Los puertos publicados deben configurarse como puertos de escucha en el servidor proxy inverso o el equilibrador de carga de hardware.
+  - Para un grupo de servidores front-end (no se muestra en el ejemplo), el FQDN del grupo interno de SIP debe ser diferente del FQDN de los servicios Web internos, porque el tráfico Web pasa por el equilibrador de carga de hardware y el tráfico de grupo interno de SIP se transmite a través del equilibrador de carga de DNS . Este requisito debe cumplirse.
 
-  - En el caso de un grupo de servidores front-end (que no aparecen en el ejemplo), el FQDN del grupo de servidores SIP interno debe ser diferente al FQDN de servicios web internos, ya que el tráfico web viaja a través del equilibrador de carga de hardware, mientras que el tráfico del grupo de servidores SIP interno viaja a través el equilibrador de carga de DNS. Este requisito se debe cumplir.
+  - Una implementación de Lync Server Standard Edition no necesita o permite que se invalide un FQDN de servicios Web internos porque no se puede equilibrar la carga de este servidor.
 
-  - Una implementación de Lync Server Standard Edition no precisa ni permite que se invalide el FQDN de servicios web internos, ya que dicho servidor no acepta la carga equilibrada.
-
-  - Si tiene un equilibrador de carga de hardware en su entorno que se usa tanto para el tráfico web como para el tráfico SIP interno, Generador de topologías no puede hacer la distinción.
+  - Si tiene un equilibrador de carga de hardware en su entorno que usa para tráfico interno y de SIP, el generador de topología no puede distinguirlo.
     
-    Los FQDN de servicios web se deben diferenciar fácilmente entre sí. Esta medida ayuda a garantizar que la redirección URL conduce a los clientes al servidor adecuado. Por ejemplo, si tiene dos FQDN, sería recomendable que le asignara a uno el nombre, meeting.contoso.com y al otro, conferencing.contoso.com. En teoría, podría tener problemas de redirección si tuviera FQDN con nombres más parecidos entre sí, como, por ejemplo, meet1.contoso.com y meet2.contoso.com.
+    Los FQDN de los servicios web deberían diferenciarse fácilmente entre sí; que ayuda a garantizar que el redireccionamiento URL dirija a los clientes hacia el servidor adecuado. Por ejemplo, si tiene dos FQDN, podría nombrar un meeting.contoso.com y el otro conferencing.contoso.com. Es posible que se produzcan problemas de redirección si tiene FQDN con nombres similares, como meet1.contoso.com y meet2.contoso.com.
 
-Los servicios web externos trabajan en combinación con un proxy inverso en la red perimetral. Proporciona a los clientes acceso externo con el uso de dichos servicios web. Los FQDN configurados aquí se envían a los clientes cuando inician sesión y se usan para hacer una conexión HTTPS con el proxy inverso en conexiones remotas. El servidor proxy inverso reenvía el FQDN de servicios web externo a un equilibrador de carga de hardware, o directamente al grupo de servidores. El proxy inverso debe poder resolver el FQDN de servicios web externos en la dirección IP del servidor web interno. El FDQN de servicios web externos debe poder resolverse en Internet.
+Los servicios web externos funcionan conjuntamente con un proxy inverso en la red perimetral. Proporciona a los clientes acceso externo a usando estos servicios Web. Los FQDN que se configuran aquí se envían a los clientes cuando inician sesión y se usan para devolver una conexión HTTPS al proxy inverso cuando se conectan de forma remota. El servidor de proxy inverso reenvía el FQDN del servicio Web externo a un equilibrador de carga de hardware interno o directamente al grupo. El proxy inverso debe poder resolver el FQDN de los servicios web externos en la dirección IP del servidor Web interno. La FDQN de servicios web externos debe poder resolverse en la Internet pública.
 
-Si el servidor interno es un Servidor Standard Edition, el FQDN interno es el FQDN de Servidor Standard Edition. Si el servidor interno es un grupo de servidores front-end, el FQDN es una IP virtual (VIP) de equilibrador de carga de hardware que equilibra la carga de la granja de servidores web internos. Es necesario un equilibrador de carga de hardware en un grupo de servidores front-end con varios servidores Enterprise Edition. No se requiere un equilibrador de carga para un servidor Standard Edition o un solo servidor front-end Enterprise Edition.
+Si su servidor interno es un servidor Standard Edition, el FQDN interno es el FQDN del servidor Standard Edition. Si el servidor interno es un grupo de servidores front-end, el FQDN es una IP virtual (VIP) de equilibrador de carga de hardware que equilibra la carga de los servidores internos de la granja de servidores Web. Es necesario un equilibrador de carga de hardware en un grupo de servidores front end con más de un servidor Enterprise Edition. Un equilibrador de carga no es necesario para un servidor Standard Edition o un servidor front-end Enterprise Edition.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: "Config. intervalos de puertos de servidores de conferencias, aplicaciones y mediación"
-TOCTitle: "Conf. des plages de ports pour vos serv. de confér., d’app. et de médiation"
-ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204872(v=OCS.15)
-ms:contentKeyID: 48275229
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de intervalos de puertos para los servidores de conferencias, aplicaciones y mediación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Conferencing, Application, and Mediation servers
+ms:assetid: 4d6eaa5d-0127-453f-be6a-e55384772d83
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204872(v=OCS.15)
+ms:contentKeyID: 48184074
+ms.date: 05/01/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5402da56fa646c6ae6e2247baa70a5ef03b851cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842193"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de intervalos de puertos para servidores de conferencias, aplicaciones y mediación
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-port-ranges-in-lync-server-2013-for-your-conferencing-application-and-mediation-servers"></a>Configuración de intervalos de puertos en Lync Server 2013 para sus servidores de conferencias, aplicaciones y mediación
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2015-04-30_
 
-Con el fin de implementar Calidad de servicio, debe configurar intervalos de puertos idénticos para audio, vídeo y aplicaciones que comparten los servidores de conferencias, aplicaciones y la mediación; además, los intervalos de puertos no deben superponerse de ninguna manera. Para usar un ejemplo sencillo, suponga que usa los puertos 10000 hasta 10999 para vídeo en los servidores de conferencias. Eso significa que también deben reservar los puertos 10000 hasta 10999 para vídeo en sus servidores de aplicaciones y mediación. Si no lo haces, QoS no funcionará como se espera.
+Para implementar la calidad de servicio, debe configurar los intervalos de puertos idénticos para el audio, el vídeo y el uso compartido de aplicaciones en sus servidores de conferencias, aplicaciones y mediación. Además, esos intervalos de puertos no deben superponerse de ninguna manera. Para usar un ejemplo sencillo, suponga que usa los puertos 10000 a 10999 para vídeo en los servidores de conferencia. Eso significa que también debe reservar los puertos 10000 a 10999 para vídeo en su aplicación y servidores de mediación. De lo contrario, QoS no funcionará de la forma esperada.
 
-Del mismo modo, suponga que reserva los puertos 10000 hasta 10999 para vídeo, pero luego reserva los puertos 10500 hasta 11999 para audio. Esto puede crear problemas de Calidad de servicio, porque los intervalos de puerto se superponen. Con QoS, cada modalidad debe tener un único conjunto de puertos: si usa los puertos 10000 hasta 10999 para vídeo, luego tendrá que usar otro intervalo (por ejemplo, 11000 hasta 11999) para audio.
+De forma similar, suponga que reserva los puertos 10000 a 10999 para video, pero después reserva los puertos 10500 a 11999 para audio. Esto puede crear problemas de calidad de servicio porque los intervalos de puertos se superponen. Con QoS, cada modalidad debe tener un único conjunto de puertos: Si usas los puertos 10000 a 10999 para video, tendrás que usar un intervalo diferente (por ejemplo, 11000 a 11999 para audio).
 
-De forma predeterminada, los intervalos de puertos de audio y vídeo no se superponen en Microsoft Lync Server 2013; Sin embargo, los intervalos de puertos asignados al uso compartido de aplicaciones se superponen con ambos intervalos de puertos de audio y vídeo. (Los que, a su vez, significa que ninguno de estos intervalos es único). Puede comprobar los intervalos de puertos existentes para los servidores conferencias, aplicaciones y mediaciones ejecutando los siguientes tres comandos desde dentro de Shell de administración de Lync Server 2013:
+De forma predeterminada, los intervalos de puertos de audio y vídeo no se superponen en Microsoft Lync Server 2013; sin embargo, los intervalos de puertos asignados al uso compartido de aplicaciones se superponen con los intervalos de puertos de audio y vídeo. (Que, a su vez, significa que ninguno de estos intervalos es único). Puede comprobar los intervalos de puertos existentes para los servidores de conferencia, aplicación y mediación ejecutando los siguientes tres comandos desde el shell de administración de Lync Server 2013:
 
     Get-CsService -ConferencingServer | Select-Object Identity, AudioPortStart, AudioPortCount, VideoPortStart, VideoPortCount, AppSharingPortStart, AppSharingPortCount
     
@@ -27,12 +47,17 @@ De forma predeterminada, los intervalos de puertos de audio y vídeo no se super
     
     Get-CsService -MediationServer | Select-Object Identity, AudioPortStart, AudioPortCount
 
+<div>
+
+
 > [!WARNING]  
-> Como puede ver en los comandos anteriores, a cada tipo de puerto: audio, vídeo y uso compartido de aplicaciones se les asigna dos valores de propiedad separados: el puerto de inicio y el número de puerto. El inicio de puerto indica el primer puerto que se usa para esa modalidad; por ejemplo, si el puerto de inicio de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es puerto 50000. Si el recuento del puerto de audio es 2 (que no es un valor válido, pero se usa aquí para fines de ilustración) eso significa que solo se asignan para el audio 2 puertos. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, eso significa que el segundo puerto debe ser el 50001 (los intervalos de puertos tienen que ser contiguos). Como resultado, el intervalo de puertos de audio sería del puerto 50000 hasta el 50001, incluidos.
-> Tenga en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para audio; no necesita cambiar el vídeo o el uso compartido de aplicaciones de puertos en sus servidores de aplicaciones o mediación.
+> Como puede ver en los comandos anteriores, cada tipo de puerto (audio, vídeo y uso compartido de aplicaciones) tiene asignados dos valores de propiedad distintos: el inicio del puerto y el recuento de puertos. El inicio del puerto indica el primer puerto utilizado para ese modal; por ejemplo, si el inicio del puerto de audio es igual a 50000, significa que el primer puerto que se usa para el tráfico de audio es el puerto 50000. Si el recuento de puertos de audio es 2 (que no es un valor válido, pero se usa aquí con fines de ilustración) significa que solo se asignan 2 puertos para el audio. Si el primer puerto es el puerto 50000 y hay un total de dos puertos, significa que el segundo puerto debe ser el puerto 50001 (los intervalos de puertos deben ser contiguos). Como resultado, el intervalo de puertos para el audio sería los puertos 50000 a 50001, ambos incluidos.<BR>Ten en cuenta que el servidor de aplicaciones y el servidor de mediación solo admiten QoS para el audio; no es necesario cambiar los puertos de uso compartido de vídeo o aplicaciones en los servidores de aplicaciones o servidores de mediación.
 
 
-Si ejecuta los tres comandos anteriores verá que los valores de puerto predeterminados para Lync Server 2013 se configuran como este:
+
+</div>
+
+Si ejecuta los tres comandos anteriores, verá que los valores de puerto predeterminados de Lync Server 2013 se han configurado de esta manera:
 
 
 <table>
@@ -45,7 +70,7 @@ Si ejecuta los tres comandos anteriores verá que los valores de puerto predeter
 <thead>
 <tr class="header">
 <th>Propiedad</th>
-<th>Servidor de conferencias</th>
+<th>Servidor de conferencia</th>
 <th>Servidor de aplicaciones</th>
 <th>Servidor de mediación</th>
 </tr>
@@ -91,19 +116,29 @@ Si ejecuta los tres comandos anteriores verá que los valores de puerto predeter
 </table>
 
 
-Como se indicaba anteriormente, al configurar los puertos de Lync Server para QoS, debe asegurarse de que: 1) la configuración del puerto de audio es idéntica en los servidores de conferencias, aplicaciones y mediación; y 2) los intervalos de puertos no se superponen. Si observa detenidamente la tabla anterior, verá que los intervalos de puertos son idénticos a través de los tres tipos de servidores. Por ejemplo, el puerto de inicio de audio se establece en Puerto 49152 en cada tipo de servidor y el número total de puertos reservados en cada servidor de audio también es idéntico: 8348. Sin embargo, el intervalo de puertos se superpone: los puertos de audio comienzan en el puerto 49152, pero, al hacerlo así, los puertos se reservan para uso compartido de aplicaciones. Para usar correctamente la Calidad de servicio, el uso compartido de aplicaciones debe configurarse para utilizar un único intervalo de puertos. Por ejemplo, podría configurar el uso compartido de aplicaciones para que se inicie en el puerto 40803 y use 8348 puertos. ¿Por qué 8348 puertos? Si agrega esos valores juntos (40803 + 8348) significa que el uso compartido de aplicaciones utilizará los puertos 40803 hasta 49151. Ya que los puertos de audio no comienzan hasta el puerto 49152, ya no tendrá ningún intervalo de puertos superpuestos.
+Como se mencionó anteriormente, al configurar los puertos de Lync Server para QoS, debe asegurarse de que: 1) la configuración del puerto de audio sea idéntica en los servidores de conferencias, aplicaciones y mediación. y 2) los intervalos de puertos no se superponen. Si examina atentamente la tabla anterior, verá que los intervalos de puertos son idénticos en los tres tipos de servidor. Por ejemplo, el puerto de salida de audio se establece en el puerto 49152 en cada tipo de servidor, y el número total de puertos reservados para el audio en cada servidor también es idéntico: 8348. Sin embargo, los intervalos de puertos se superponen: los puertos de audio comienzan en el puerto 49152, pero también hacen que los puertos reservados para uso compartido de aplicaciones. Para hacer uso óptimo de la calidad de servicio, el uso compartido de aplicaciones debe reconfigurarse para que use un intervalo de puertos único. Por ejemplo, puede configurar el uso compartido de aplicaciones para que se inicie en el puerto 40803 y para usar puertos 8348. (¿Por qué 8348 puertos? Si suma esos valores juntos, 40803 + 8348, eso significa que el uso compartido de aplicaciones usará los puertos 40803 a través del puerto 49150. Puesto que los puertos de audio no comienzan hasta el puerto 49152, ya no tendrá intervalos de puertos superpuestos.)
 
-Después de haber seleccionado el nuevo intervalo de puertos para uso compartido de aplicaciones, puede hacer el cambio con el cmdlet Set-CsConferencingServer. Este cambio no tiene que hacerse en los servidores de aplicaciones o en los servidores de mediación, porque estos servidores no controlan tráfico de uso compartido de aplicaciones. Solo necesita cambiar los valores del puerto en estos servidores si decide volver a asignar los puertos usados para el tráfico de audio.
+Una vez que haya seleccionado el nuevo intervalo de puertos para compartir aplicaciones, puede realizar su cambio con el cmdlet Set-CsConferencingServer. No es necesario realizar este cambio en los servidores de aplicaciones o en los servidores de mediación, ya que estos servidores no manejan tráfico de uso compartido de aplicaciones. Solo necesita cambiar los valores de puerto en estos servidores si decide reasignar los puertos usados para el tráfico de audio.
 
-Para cambiar los valores de puerto de uso compartido de aplicaciones en un único servidor de conferencias, ejecute un comando similar a este desde dentro del Shell de administración de Lync Server:
+Para modificar los valores de puerto para el uso compartido de aplicaciones en un solo servidor de conferencia ejecute un comando similar a este desde el shell de administración de Lync Server:
 
     Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348
 
-Si desea realizar estos cambios en todos los servidores de conferencias, puede ejecutar este comando en su lugar:
+Si desea realizar estos cambios en todos los servidores de conferencia, puede ejecutar este comando en su lugar:
 
     Get-CsService -ConferencingServer | ForEach-Object {Set-CsConferenceServer -Identity $_.Identity -AppSharingPortStart 40803 -AppSharingPortCount 8348}
 
-Después de cambiar la configuración del puerto debe detener y reiniciar cada servicio afectado por los cambios.
+Después de cambiar la configuración del puerto, debe detener y reiniciar cada servicio afectado por los cambios.
 
-No es obligatorio que los servidores de conferencias, servidores de aplicaciones y servidores de mediación compartan el mismo intervalo de puertos exacto; el único requisito real es que reserve intervalos de puertos únicos en todos los servidores. Sin embargo, la administración suele ser más fácil si se usa el mismo conjunto de puertos en todos los servidores.
+No es obligatorio que los servidores de conferencia, los servidores de aplicaciones y los servidores de mediación compartan exactamente el mismo intervalo de puertos; el único requisito es que se reserven intervalos de puertos exclusivos en todos los servidores. Sin embargo, la administración generalmente será más fácil si usa el mismo conjunto de puertos en todos los servidores.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

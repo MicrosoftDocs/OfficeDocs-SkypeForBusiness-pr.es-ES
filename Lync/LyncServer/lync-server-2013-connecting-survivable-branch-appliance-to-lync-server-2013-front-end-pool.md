@@ -1,39 +1,73 @@
-﻿---
-title: "Conexión aplic. sucursal con supervivencia a servidores front-end de Lync Server 2013"
-TOCTitle: Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013
-ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688026(v=OCS.15)
-ms:contentKeyID: 49889050
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Connecting Survivable Branch Appliance to Lync Server 2013 Front End pool
+ms:assetid: 3c7ca33f-5295-4d82-9152-41d8bc6f35cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688026(v=OCS.15)
+ms:contentKeyID: 49733616
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 77d22a71272ae7dd3c426b0439f7a3765ca6848c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842145"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="connecting-survivable-branch-appliance-to-lync-server-2013-front-end-pool"></a>Conexión de la aplicación de sucursal con funciones de supervivencia a un grupo de servidores front-end de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-05_
 
-Cada Aplicación de sucursal con funciones de supervivencia (SBA) está asociada con un Grupo de servidores front-end, que funciona como un registrador de reserva para la SBA. Cuando el Grupo de servidores front-end se actualiza a Lync Server 2013, la SBA debe desasociarse del Grupo de servidores front-end mientras que el Grupo de servidores front-end se actualiza. Una vez que el Grupo de servidores front-end se ha actualizado, la SBA puede reasociarse con el Grupo de servidores front-end. Esto implica eliminar la SBA de la topología en Topology Builder y luego agregar nuevamente la SBA a Topology Builder. Los usuarios hospedados en la SBA deben trasladarse a otro Grupo de servidores front-end antes de eliminar la SBA de la topología. Luego de que la SBA se agrega nuevamente a la topología, esos usuarios pueden trasladarse de vuelta a la SBA.
+Cada dispositivo de sucursal con supervivencia (SBA) está asociado con un grupo de servidores front-end, que sirve como registrador de copias de seguridad de la SBA. Cuando se actualiza el grupo de servidores front-end a Lync Server 2013, SBA debe estar desvinculada del grupo de servidores front-end mientras se actualiza el grupo de servidores front-end. Una vez actualizado el grupo de servidores front-end, SBA puede reasociarse con el grupo de servidores front-end. Esto implica eliminar la SBA de la topología en el generador de topología y, a continuación, agregar la SBA de nuevo al generador de topología. Los usuarios alojados en SBA deben moverse a otro grupo de servidores front end antes de quitar SBA de la topología. Después de agregar SBA a la topología, esos usuarios pueden devolverse a la SBA.
 
-Estos pasos se sintetizan a continuación:
+Estos pasos se resumen a continuación:
 
-1.  Trasladar los usuarios de la sucursal hospedados en SBA a otro Grupo de servidores front-end.
+1.  Mueva los usuarios alojados en SBA a otro grupo de servidores front-end.
 
-2.  Eliminar SBA de su topología para desasociar el Grupo de servidores front-end existente como el registrador de reserva.
+2.  Quite SBA de su topología para desvincular el grupo de servidores front-end existente como registrador de la copia de seguridad.
 
-3.  Actualizar Grupo de servidores front-end a Microsoft Lync Server 2013.
+3.  Actualice el grupo de servidores front-end a Microsoft Lync Server 2013.
 
-4.  Agregar SBA de vuelta en su topología.
+4.  Agregue SBA a su topología.
 
-5.  Asociar el nuevo Grupo de servidores front-end a la SBA como un registrador de reserva.
+5.  Asocie el nuevo grupo de servidores front-end a SBA como registrador de copias de seguridad.
 
-6.  Mover los usuarios de la sucursal de vuelta a la SBA.
+6.  Mueva los usuarios de la sucursal de nuevo a SBA.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia de Lync Server 2013 a la topología](lync-server-2013-add-lync-server-2013-survivable-branch-appliance-branch-site-to-your-topology.md)
 
   - [Agregar un sitio de sucursal de aplicación de sucursal con función de supervivencia Lync Server 2010 a la topología](lync-server-2013-add-lync-server-2010-survivable-branch-appliance-branch-site-to-your-topology.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

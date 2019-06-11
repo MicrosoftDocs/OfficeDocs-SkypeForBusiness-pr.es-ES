@@ -1,84 +1,133 @@
-﻿---
-title: "Configuración de mensajería unificada en MS Exchange Server con Lync Server 2013"
-TOCTitle: Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
-ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398106(v=OCS.15)
-ms:contentKeyID: 48274301
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Unified Messaging on Microsoft Exchange Server to work with Lync Server 2013
+ms:assetid: 058da9c4-23af-4ddb-9f63-70133a8aafc6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398106(v=OCS.15)
+ms:contentKeyID: 48183289
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 461d822862e837879f1feb2d3f980b816aae5280
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842166"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="configuring-unified-messaging-on-microsoft-exchange-server-to-work-with-lync-server-2013"></a>Configuración de la mensajería unificada en Microsoft Exchange Server para trabajar con Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-11_
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si desea usar Mensajería unificada de Exchange (UM) para proporcionar a los usuarios de Telefonía IP empresarial contestador automático, Outlook Voice Access o servicios de operador automático, lea <a href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">Planear la integración de la mensajería unificada de Exchange en Lync Server 2013</a> en la documentación referente a la planeación y siga las instrucciones de esta sección.
+> Si desea usar la mensajería unificada de Exchange (UM) para proporcionar contestador automático, Outlook Voice Access o los servicios de operador automático para usuarios de Enterprise Voice, consulte <A href="lync-server-2013-planning-for-exchange-unified-messaging-integration.md">planificación de la integración de mensajería unificada de Exchange en Lync Server 2013</A> en la planificación documentación y, a continuación, siga las instrucciones de esta sección.
 
 
 
-Para configurar Mensajería unificada de Exchange (UM) para que trabaje con Telefonía IP empresarial, tendrá que llevar a cabo las siguientes tareas:
+</div>
 
-  - Configurar certificados en el servidor que ejecuta los servicios de Mensajería unificada de Exchange (UM)
+Para configurar la mensajería unificada de Exchange para que funcione con la telefonía IP empresarial, tendrá que realizar las siguientes tareas:
+
+  - Configurar certificados en el servidor que ejecuta los servicios de mensajería unificada (UM) de Exchange
+    
+    <div>
     
 
-    > [!NOTE]
-    > Agregue todos los servidores de buzón de correo y de acceso de cliente a todos los planes de marcado URI de SIP de mensajería unificada. De no hacerlo así, el enrutamiento de llamadas salientes no funcionará de la manera prevista.
+    > [!NOTE]  
+    > Agregar todos los servidores de acceso de cliente y de buzón a todos los planes de marcado URI SIP de mensajería unificada. Si no es así, el enrutamiento de llamadas salientes no funciona según lo esperado.
 
-
-
-  - Cree uno o varios planes de marcado del URI de SIP de mensajería unificada, junto con los números de teléfono de acceso de suscriptor, si fuera necesario, y, posteriormente, cree los planes de marcado de Lync Server correspondientes.
-
-  - Use el script **exchucutil.ps1** para:
     
-      - Crear puertas de enlace IP de Mensajería unificada.
+    </div>
+
+  - Cree uno o varios planes de marcado URI SIP de MU, junto con los números de teléfono de acceso del suscriptor, según sea necesario y, a continuación, cree los planes de marcado de Lync Server correspondientes.
+
+  - Use el script **ExchUCUtil. PS1** para:
     
-      - Crear grupos de extensiones de Mensajería unificada.
+      - Crear puertas de enlace IP de MU.
     
-      - Garantizar que Lync Server 2013 tiene permiso para leer objetos de Servicios de dominio de Active Directory de Mensajería unificada.
+      - Crear grupos de extensiones de mensajería unificada.
+    
+      - Otorgue a Lync Server 2013 permiso para leer objetos de servicios de dominio de Active Directory de MU.
 
-  - Cree un objeto operador automático de Mensajería unificada.
+  - Crear un objeto de operador automático de mensajería unificada.
 
-  - Cree un objeto de acceso de suscriptor.
+  - Crear un objeto de acceso de suscriptor.
 
-  - Cree un URI de SIP para cada usuario y asociar usuarios a un plan de marcado del URI de SIP de Mensajería unificada.
+  - Crear un URI de SIP para cada usuario y asociar a los usuarios con un plan de marcado URI SIP de mensajería unificada.
 
-## Requisitos y recomendaciones
+<div>
 
-En la documentación de esta sección se asume que ha implementado los siguientes roles de Exchange 2013: acceso de cliente y buzón de correo. En Microsoft Exchange Server 2013, Mensajería unificada de Exchange se ejecuta como un servicio en estos servidores.
+## <a name="requirements-and-recommendations"></a>Requisitos y recomendaciones
 
-Para obtener más información acerca de la implementación de Exchange 2013, vea la biblioteca de Technet referente a Exchange 2013 en [http://go.microsoft.com/fwlink/?linkid=266637\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=266637%26clcid=0xc0a).
+Antes de empezar, en la documentación de esta sección se supone que ha implementado los siguientes roles de Exchange 2013: acceso de cliente y buzón de correo. En Microsoft Exchange Server 2013, la mensajería unificada de Exchange se ejecuta como un servicio en estos servidores.
 
-También debe tener en cuenta lo siguiente:
+Para obtener más información sobre la implementación de Exchange 2013, consulte la biblioteca de TechNet de Exchange 2013 en[http://go.microsoft.com/fwlink/p/?LinkId=266637](http://go.microsoft.com/fwlink/p/?linkid=266637)
 
-  - Si se instala Mensajería unificada de Exchange en varios bosques, los pasos de la integración de Exchange Server se deben realizar para cada uno de los bosques de Mensajería unificada. Además, cada bosque de Mensajería unificada se debe configurar para que confíe en el bosque en el que se implementa Lync Server 2013, y el bosque en el que se implementa Lync Server 2013 se debe configurar para que confíe en cada uno de los bosques de Mensajería unificada.
+Además, tenga en cuenta lo siguiente:
 
-  - Los pasos de la integración se realizan en los roles de Exchange Server donde se ejecutan los servicios de Mensajería unificada y en el servidor que ejecuta Lync Server 2013. Los pasos de integración de la Mensajería unificada de Exchange Server deben realizarse antes que los pasos de integración de Lync Server 2013.
+  - Si la mensajería unificada de Exchange se instala en varios bosques, los pasos de integración del servidor de Exchange deben realizarse para cada bosque de MU. Además, cada bosque de MU debe estar configurado para confiar en el bosque en el que se implementa Lync Server 2013, y el bosque en el que se implementa Lync Server 2013 debe estar configurado para confiar en cada bosque de MU.
+
+  - Los pasos de integración se realizan en las funciones de Exchange Server donde se ejecutan los servicios de mensajería unificada y en el servidor que ejecuta Lync Server 2013. Debe realizar los pasos de integración de mensajería unificada de Exchange Server antes de realizar los pasos de integración de Lync Server 2013.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Para consultar qué pasos de integración se realizan en qué servidores y mediante qué roles de administrador, consulte <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">Proceso de implementación de la integración de la mensajería unificada local y Lync Server 2013</A>.
+    > [!NOTE]  
+    > Para ver qué pasos de integración se realizan en qué servidores y con qué roles de administrador, vea <A href="lync-server-2013-deployment-process-for-integrating-on-premises-unified-messaging.md">proceso de implementación para integrar mensajería unificada local y Lync Server 2013</A>.
 
+    
+    </div>
 
-
-Las herramientas siguientes deben estar disponibles en cada uno de los servidores que ejecuten Mensajería unificada de Exchange:
+Las siguientes herramientas deben estar disponibles en cada servidor que ejecute la mensajería unificada de Exchange:
 
   - Shell de administración de Exchange
 
-  - El script **exchucutil.ps1**, que realiza las siguientes tareas:
+  - El script **ExchUCUtil. PS1**, que realiza las siguientes tareas:
     
-      - Crea una puerta de enlace IP de Mensajería unificada para cada Lync Server 2013.
+      - Crea una puerta de enlace IP de MU para cada servidor de Lync 2013.
     
-      - Crea un grupo de búsqueda para cada puerta de enlace. El identificador piloto de cada grupo de búsqueda especifica el plan de marcado del URI de SIP de mensajería unificada utilizado por el Grupo de servidores front-end o Servidor Standard Edition asociado a la puerta de enlace.
+      - Crea un grupo de captura para cada puerta de enlace. El identificador piloto de cada grupo de captura especifica el plan de marcado URI SIP de MU usado por el grupo de servidores front-end o el servidor Standard Edition asociado a la puerta de enlace.
     
-      - Garantiza el permiso de Lync Server 2013 para leer objetos de Mensajería unificada de Exchange en Servicios de dominio de Active Directory.
+      - Concede el permiso 2013 de Lync Server para leer objetos de mensajería unificada de Exchange en servicios de dominio de Active Directory.
 
-## En esta sección
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar certificados en el servidor que ejecuta la mensajería unificada de Microsoft Exchange Server](lync-server-2013-configure-certificates-on-the-server-running-microsoft-exchange-server-unified-messaging.md)
 
-  - [Configuración de la mensajería unificada de Microsoft Exchange en Lync Server 2013](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
+  - [Configurar la mensajería unificada en Microsoft Exchange para Lync Server 2013](lync-server-2013-configure-unified-messaging-on-microsoft-exchange.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,35 +1,62 @@
-﻿---
-title: "Lync Server 2013: Configurar ruta estática para el control remoto de llamadas"
-TOCTitle: Configurar una ruta estática para el control remoto de llamadas
-ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615051(v=OCS.15)
-ms:contentKeyID: 48277194
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar una ruta estática para el control remoto de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure a static route for remote call control
+ms:assetid: f7003023-443d-48ee-989b-71e8b0b0abbd
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615051(v=OCS.15)
+ms:contentKeyID: 48185855
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2e6a388c602d30e6f60eac0c575d7640f63993f9
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842462"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-a-static-route-for-remote-call-control-in-lync-server-2013"></a>Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-22_
 
-El control remoto de llamadas precisa que cada grupo de servidores de Lync Server se configure con una ruta que va de ese grupo de servidores a la puerta de enlace de SIP/CSTA que se conecta con la central de conmutación (PBX). Esta ruta necesita que cada grupo de servidores tenga una ruta estática para cada puerta de enlace a la que el grupo de servidores delegará mensajes de control de llamadas SIP asociados con llamadas a la central de conmutación. Si configura una ruta estática global para el control remoto de llamadas, cada grupo de servidores no configurado con una ruta estática en el nivel del grupo empleará la ruta estática global.
+El control remoto de llamadas requiere que cada grupo de servidores Lync esté configurado con una ruta de acceso de ese grupo a la puerta de enlace SIP/CSTA que se conecta a la central de conmutación (PBX). Esta ruta requiere que cada grupo tenga una ruta estática para cada una de las puertas de enlace a las que el grupo se dirigirá por proxy los mensajes de control de llamada SIP asociados con llamadas a la PBX. Si configura una ruta estática global para el control remoto de llamadas, cada grupo de servidores que no esté configurado con una ruta estática en el nivel del grupo usará la ruta estática global.
 
-## Para configurar una ruta estática para control remoto de llamadas
+<div>
 
-1.  Inicie sesión en un equipo en el que Shell de administración de Lync Server esté instalado como miembro del grupo RTCUniversalServerAdmins o un rol de control de acceso basado en roles al que haya asignado el cmdlet **New-CsStaticRoute**.
+## <a name="to-configure-a-static-route-for-remote-call-control"></a>Para configurar una ruta estática para el control remoto de llamadas
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+1.  Inicie sesión en un equipo en el que esté instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o en un rol de control de acceso basado en roles (RBAC) al que haya asignado el cmdlet **New-CsStaticRoute** .
 
-3.  Para crear una ruta estática y ponerla en la variable $TLSRoute o $TCPRoute, efectúe una de las acciones siguientes:
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+3.  Para crear una ruta estática y colocarla en la variable $TLSRoute o $TCPRoute, realice una de las siguientes acciones:
     
+    <div class="">
+    
+
     > [!TIP]  
-    > Para establecer una coincidencia con los dominios secundarios de un dominio, use un valor de comodín en el parámetro MatchUri. Por ejemplo, <strong>*.contoso.net</strong>. Ese valor coincide con todos los dominios que tienen el sufijo <strong>contoso.net</strong>.
+    > Para que coincidan los dominios secundarios de un dominio, puede especificar un valor comodín en el parámetro MatchUri. Por ejemplo, <STRONG>*. contoso.net</STRONG>. Ese valor coincide con cualquier dominio que termine con el sufijo <STRONG>contoso.net</STRONG>.
+
     
+    </div>
     
-      - Para una conexión de Seguridad de la capa de transporte (TLS), escriba el siguiente comando en el símbolo del sistema:
+      - Para una conexión de seguridad de nivel de transporte (TLS), escriba lo siguiente en el símbolo del sistema:
         
             $TLSRoute = New-CsStaticRoute -TLSRoute -Destination <gateway FQDN> -Port <gateway SIP listening port> -UseDefaultCertificate $true -MatchUri <destination domain>
         
@@ -37,16 +64,20 @@ El control remoto de llamadas precisa que cada grupo de servidores de Lync Serve
         
             $TLSRoute = New-CsStaticRoute -TLSRoute -Destination rccgateway.contoso.net -Port 5065 -UseDefaultCertificate $true -MatchUri *.contoso.net
         
-        Si UseDefaultCertificate se define en False, debe especificar los parámetros TLSCertIssuer y TLSCertSerialNumber. Dichos parámetros indican, respectivamente, el nombre de la entidad de certificación que ha emitido el certificado empleado en la ruta estática y el número de serie de este certificado TLS. Para obtener información detallada sobre estos parámetros, vea la Ayuda de Shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
+        Si UseDefaultCertificate se establece en false, debe especificar parámetros TLSCertIssuer y TLSCertSerialNumber. Estos parámetros indican el nombre de la entidad de certificación (CA) que emitió el certificado que se usó en la ruta estática y el número de serie de ese certificado TLS, respectivamente. Para obtener más información sobre estos parámetros, consulte la ayuda del shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
         
             Get-Help New-CsStaticRoute -Full
     
-      - Para una conexión de Protocolo de control de transmisión (TCP), escriba el siguiente comando en el símbolo del sistema:
+      - Para una conexión de protocolo de control de transmisión (TCP), escriba lo siguiente en el símbolo del sistema:
+        
+        <div class="">
         
 
-        > [!NOTE]
-        > Si se especifica un nombre de dominio completo, primero debe configurar un registro A del Sistema de nombres de dominio (DNS).
+        > [!NOTE]  
+        > Si especifica un nombre de dominio completo (FQDN), primero debe configurar un registro DNS (sistema de nombres de dominio).
 
+        
+        </div>
         
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination <gateway IP address or FQDN> -Port <gateway SIP listening port> -MatchUri <destination domain>
         
@@ -54,31 +85,48 @@ El control remoto de llamadas precisa que cada grupo de servidores de Lync Serve
         
             $TCPRoute = New-CsStaticRoute -TCPRoute -Destination 192.168.0.240 -Port 5065 -MatchUri *.contoso.net
         
-        Después se muestran los valores predeterminados de los parámetros opcionales de rutas estáticas:
+        A continuación se muestran los valores predeterminados de parámetros opcionales para rutas estáticas:
         
-          - Enabled = True
+          - Enabled = true
         
-          - MatchOnlyPhoneUri = False
+          - MatchOnlyPhoneUri = false
         
-          - ReplaceHostInRequestUri = False
+          - ReplaceHostInRequestUri = false
         
-        Recomendamos encarecidamente no cambiar estos valores predeterminados. Sin embargo, si tuviera que cambiar alguno de estos parámetros, vea la Ayuda de Shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
+        Le recomendamos encarecidamente que no cambie estos valores predeterminados. Sin embargo, si tiene que cambiar alguno de estos parámetros, consulte la ayuda del shell de administración de Lync Server escribiendo lo siguiente en el símbolo del sistema:
         
             Get-Help New-CsStaticRoute -Full
 
-4.  Para mantener una ruta estática creada recientemente en el Almacén de administración central, ejecute una de las opciones siguientes, según corresponda:
+4.  Para conservar una ruta estática recién creada en el almacén de administración central, ejecute una de las siguientes opciones, según corresponda:
     
-    ```
-    Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
-    ```
-    ```
-    Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
-    ```
+       ```
+        Set-CsStaticRoutingConfiguration -Route @{Add=$TLSRoute}
+       ```
+    
+       ```
+        Set-CsStaticRoutingConfiguration -Route @{Add=$TCPRoute}
+       ```
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Configurar una entrada de aplicación de confianza para control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md)  
-[Definir una dirección IP de puerta de enlace SIP/CSTA en Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)
+[Definir una dirección IP de puerta de enlace SIP/CSTA en Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

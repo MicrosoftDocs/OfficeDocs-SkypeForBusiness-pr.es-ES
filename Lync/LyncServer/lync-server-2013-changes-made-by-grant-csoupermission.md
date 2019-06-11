@@ -1,29 +1,51 @@
-﻿---
-title: Cambios realizados por Grant-CsOUPermission en Lync Server 2013
-TOCTitle: Cambios realizados por Grant-CsOUPermission en Lync Server 2013
-ms:assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205310(v=OCS.15)
-ms:contentKeyID: 48276832
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: cambios realizados por Grant-CsOUPermission'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Changes made by Grant-CsOUPermission
+ms:assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205310(v=OCS.15)
+ms:contentKeyID: 48185564
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6ce6b16dff48afeeec848024d763655695905008
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842604"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cambios realizados por Grant-CsOUPermission en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="changes-made-by-grant-csoupermission-in-lync-server-2013"></a>Cambios realizados por Grant-CsOUPermission en Lync Server 2013
 
-Para delegar la administración de Lync Server 2013, puede agregar permisos a unidades organizativas (OU) especificadas para que los miembros de los grupos universales de RTC creados por la preparación del bosque puedan tener acceso a las unidades organizativas sin ser miembros del grupo Administradores de dominio.
+</div>
 
-El cmdlet **Grant-CsOuPermission** concede permisos a objetos en la unidad organizativa especificada como se indica en las tablas siguientes.
+<div id="mainSection">
 
-## Concesión de permisos para objetos de usuario
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-06-20_
+
+Para delegar la administración de Lync Server 2013, puede Agregar permisos a unidades organizativas (OU) especificadas de modo que los miembros de los grupos RTC universales creados por la preparación del bosque puedan tener acceso a las unidades organizativas sin ser miembros del grupo administradores de dominio.
+
+El cmdlet **Grant-CsOuPermission** otorga permisos a objetos en la ou especificada, tal como se especifica en las tablas siguientes.
+
+<div>
+
+## <a name="granting-permission-for-user-objects"></a>Conceder permisos a los objetos de usuario
 
 Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de usuario en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
 
-### Permisos concedidos para objetos de usuario
+### <a name="permissions-granted-for-user-objects"></a>Permisos otorgados para objetos de usuario
 
 <table>
 <colgroup>
@@ -33,7 +55,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de usuario en una un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Mesa</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -41,51 +63,55 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de usuario en una un
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replicar los cambios de directorio</p></td>
+<td><p>Replicar cambios de directorio</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>RTCUserSearchPropertySet de lectura</p>
-<p>RTCUserProvisioningPropertySet de lectura</p>
-<p>RTCPropertySet de lectura</p>
-<p>Public-Information</p>
-<p>General-Information de lectura</p>
-<p>User-Account-Restrictions de lectura</p></td>
+<td><p>Leer RTCUserSearchPropertySet</p>
+<p>Leer RTCUserProvisioningPropertySet</p>
+<p>Leer RTCPropertySet</p>
+<p>Leer información pública</p>
+<p>Leer información general</p>
+<p>Leer las restricciones de la cuenta de usuario</p></td>
 <td><p>Objetos de usuario descendientes</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>RTCUserSearchPropertySet de escritura</p>
-<p>msExchUCVoiceMailSettings de escritura</p>
-<p>RTCUserProvisioningPropertySet de escritura</p>
-<p>RTCPropertySet de escritura</p>
-<p>proxyAddresses de escritura</p></td>
+<td><p>Escribir RTCUserSearchPropertySet</p>
+<p>Escribir msExchUCVoiceMailSettings</p>
+<p>Escribir RTCUserProvisioningPropertySet</p>
+<p>Escribir RTCPropertySet</p>
+<p>Escribir proxyAddresses</p></td>
 <td><p>Objetos de usuario descendientes</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Concesión de permisos para objetos de equipo
+</div>
 
-Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente
+<div>
 
-### Permisos concedidos para objetos de equipo
+## <a name="granting-permission-for-computer-objects"></a>Concesión de permisos para objetos de equipo
+
+Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+
+### <a name="permissions-granted-for-computer-objects"></a>Permisos otorgados para objetos de equipo
 
 <table>
 <colgroup>
@@ -95,7 +121,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una uni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Mesa</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -103,44 +129,48 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de equipo en una uni
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replicar los cambios de directorio</p></td>
+<td><p>Replicar cambios de directorio</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Public-Information de lectura</p>
-<p>Validated-DNS-Host-Name de lectura</p></td>
+<td><p>Leer información pública</p>
+<p>Lectura validada: nombre-DNS-host</p></td>
 <td><p>Objetos de equipo descendientes</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Public-Information de lectura</p>
-<p>Validated-DNS-Host-Name de lectura</p></td>
+<td><p>Leer información pública</p>
+<p>Lectura validada: nombre-DNS-host</p></td>
 <td><p>Objetos de equipo descendientes</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Concesión de permisos para objetos Contact o AppContact
+</div>
 
-Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos Contact u objetos AppContact en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+<div>
 
-### Permisos concedidos para objetos Contact o AppContact
+## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Concesión de permisos para objetos de contacto o de AppContact
+
+Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de contacto o objetos de AppContact en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+
+### <a name="permissions-granted-for-contact-or-appcontact-objects"></a>Permisos concedidos para objetos de contacto o AppContact
 
 <table>
 <colgroup>
@@ -150,7 +180,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos Contact u objetos Ap
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Mesa</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -158,56 +188,60 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos Contact u objetos Ap
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replicar los cambios de directorio</p></td>
+<td><p>Replicar cambios de directorio</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>RTCUserSearchPropertySet de lectura</p>
-<p>RTCUserProvisioningPropertySet de lectura</p>
-<p>RTCPropertySet de lectura</p>
-<p>Public-Information de lectura</p>
-<p>General-Information de lectura</p>
-<p>Personal-Information de lectura</p>
-<p>User-Account-Restrictions de lectura</p></td>
-<td><p>Objetos de contacto descendientes</p></td>
+<td><p>Leer RTCUserSearchPropertySet</p>
+<p>Leer RTCUserProvisioningPropertySet</p>
+<p>Leer RTCPropertySet</p>
+<p>Leer información pública</p>
+<p>Leer información general</p>
+<p>Leer información personal</p>
+<p>Leer las restricciones de la cuenta de usuario</p></td>
+<td><p>Objetos de contacto descendiente</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>RTCUserSearchPropertySet de escritura</p>
-<p>otherIpPhone de escritura</p>
-<p>displayName de escritura</p>
-<p>description de escritura</p>
-<p>telephoneNumber de escritura</p>
-<p>msExchUCVoiceMailSettings de escritura</p>
-<p>RTCUserProvisioningPropertySet de escritura</p>
-<p>RTCPropertySet de escritura</p>
-<p>proxyAddresses de escritura</p></td>
-<td><p>Objetos de contacto descendientes</p></td>
+<td><p>Escribir RTCUserSearchPropertySet</p>
+<p>Escribir otherIpPhone</p>
+<p>Escribir displayName</p>
+<p>Escribir Descripción</p>
+<p>Escribir telephoneNumber</p>
+<p>Escribir msExchUCVoiceMailSettings</p>
+<p>Escribir RTCUserProvisioningPropertySet</p>
+<p>Escribir RTCPropertySet</p>
+<p>Escribir proxyAddresses</p></td>
+<td><p>Objetos de contacto descendiente</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Concesión de permisos para objetos de dispositivo
+</div>
 
-Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de dispositivo en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+<div>
 
-### Permisos concedidos para objetos de dispositivo
+## <a name="granting-permission-for-device-objects"></a>Conceder permisos a objetos de dispositivo
+
+Al ejecutar el cmdlet **Grant-CsOuPermission** en una unidad organizativa, se conceden permisos a los grupos, como se muestra en la tabla siguiente.
+
+### <a name="permissions-granted-for-device-objects"></a>Permisos concedidos para objetos de dispositivo
 
 <table>
 <colgroup>
@@ -217,7 +251,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de dispositivo en un
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Mesa</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -225,70 +259,74 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos de dispositivo en un
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replicar los cambios de directorio</p></td>
+<td><p>Replicar cambios de directorio</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>RTCUserSearchPropertySet de lectura</p>
-<p>RTCUserProvisioningPropertySet de lectura</p>
-<p>RTCPropertySet de lectura</p>
-<p>Public-Information de lectura</p>
-<p>Personal-Information de lectura</p>
-<p>General-Information de lectura</p>
-<p>User-Account-Restrictions de lectura</p></td>
-<td><p>Objetos de contacto descendientes</p></td>
+<td><p>Leer RTCUserSearchPropertySet</p>
+<p>Leer RTCUserProvisioningPropertySet</p>
+<p>Leer RTCPropertySet</p>
+<p>Leer información pública</p>
+<p>Leer información personal</p>
+<p>Leer información general</p>
+<p>Leer las restricciones de la cuenta de usuario</p></td>
+<td><p>Objetos de contacto descendiente</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>Crear secundario</p>
-<p>Eliminar secundario</p>
+<td><p>Crear elemento secundario</p>
+<p>Eliminar hijo</p>
 <p>Eliminar árbol</p></td>
-<td><p>Contacto</p></td>
+<td><p>Con</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>displayName de escritura</p>
-<p>description de escritura</p>
-<p>telephoneNumber de escritura</p></td>
+<td><p>Escribir displayName</p>
+<p>Escribir Descripción</p>
+<p>Escribir telephoneNumber</p></td>
 <td><p>Objetos de usuario descendientes</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>RTCUserSearchPropertySet de escritura</p>
-<p>otherIpPhone de escritura</p>
-<p>displayName de escritura</p>
-<p>description de escritura</p>
-<p>telephoneNumber de escritura</p>
-<p>msExchUCVoiceMailSettings de escritura</p>
-<p>RTCUserProvisioningPropertySet de escritura</p>
-<p>RTCPropertySet de escritura</p>
-<p>proxyAddresses de escritura</p></td>
-<td><p>Objetos de contacto descendientes</p></td>
+<td><p>Escribir RTCUserSearchPropertySet</p>
+<p>Escribir otherIpPhone</p>
+<p>Escribir displayName</p>
+<p>Escribir Descripción</p>
+<p>Escribir telephoneNumber</p>
+<p>Escribir msExchUCVoiceMailSettings</p>
+<p>Escribir RTCUserProvisioningPropertySet</p>
+<p>Escribir RTCPropertySet</p>
+<p>Escribir proxyAddresses</p></td>
+<td><p>Objetos de contacto descendiente</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Concesión de permisos para objetos InetOrgPerson
+</div>
 
-Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson en una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+<div>
 
-### Permisos concedidos para objetos InetOrgPerson
+## <a name="granting-permission-for-inetorgperson-objects"></a>Conceder permisos a objetos InetOrgPerson
+
+Al ejecutar el cmdlet **Grant-CsOuPermission** para los objetos InetOrgPerson de una unidad organizativa, se conceden permisos a los grupos como se muestra en la tabla siguiente.
+
+### <a name="permissions-granted-for-inetorgperson-objects"></a>Permisos otorgados a los objetos InetOrgPerson
 
 <table>
 <colgroup>
@@ -298,7 +336,7 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson en una
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo</th>
+<th>Mesa</th>
 <th>Permiso</th>
 <th>Se aplica a</th>
 </tr>
@@ -306,42 +344,55 @@ Al ejecutar el cmdlet **Grant-CsOuPermission** para objetos InetOrgPerson en una
 <tbody>
 <tr class="odd">
 <td><p>RTCHSUniversalServices</p></td>
-<td><p>Replicar los cambios de directorio</p></td>
+<td><p>Replicar cambios de directorio</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalServerReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>Contenidos de la lista</p>
+<td><p>Contenido de la lista</p>
 <p>Leer todas las propiedades</p>
-<p>Leer permisos</p></td>
+<p>Permisos de lectura</p></td>
 <td><p>Solo este objeto</p></td>
 </tr>
 <tr class="even">
 <td><p>RTCUniversalUserReadOnlyGroup</p></td>
-<td><p>RTCUserSearchPropertySet de lectura</p>
-<p>RTCUserProvisioningPropertySet de lectura</p>
-<p>RTCPropertySet de lectura</p>
-<p>Personal-Information de lectura</p>
-<p>Public-Information de lectura</p>
-<p>General-Information de lectura</p>
-<p>User-Account-Restrictions de lectura</p></td>
-<td><p>Objetos inetOrgPerson descendientes</p></td>
+<td><p>Leer RTCUserSearchPropertySet</p>
+<p>Leer RTCUserProvisioningPropertySet</p>
+<p>Leer RTCPropertySet</p>
+<p>Leer información personal</p>
+<p>Leer información pública</p>
+<p>Leer información general</p>
+<p>Leer las restricciones de la cuenta de usuario</p></td>
+<td><p>Objetos descendientes de inetOrgPerson</p></td>
 </tr>
 <tr class="odd">
 <td><p>RTCUniversalUserAdmins</p></td>
-<td><p>RTCUserSearchPropertySet de escritura</p>
-<p>RTCUserProvisioningPropertySet de escritura</p>
-<p>RTCPropertySet de escritura</p>
-<p>proxyAddresses de escritura</p></td>
-<td><p>Objetos inetOrgPerson descendientes</p></td>
+<td><p>Escribir RTCUserSearchPropertySet</p>
+<p>Escribir RTCUserProvisioningPropertySet</p>
+<p>Escribir RTCPropertySet</p>
+<p>Escribir proxyAddresses</p></td>
+<td><p>Objetos descendientes de inetOrgPerson</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

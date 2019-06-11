@@ -1,27 +1,47 @@
-﻿---
-title: 'Lync Server 2013: Resumen de certificado - Proxy inverso'
-TOCTitle: Resumen de certificado - Proxy inverso
-ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205381(v=OCS.15)
-ms:contentKeyID: 48277154
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen de certificado - Proxy inverso'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - Reverse proxy
+ms:assetid: f2b9a53f-aead-413d-81e9-4a294a010fbb
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205381(v=OCS.15)
+ms:contentKeyID: 48185820
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b9a10259ac4a0beb6d79897b26bf446b109801a8
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842642"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de certificado - Proxy inverso en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="certificate-summary---reverse-proxy-in-lync-server-2013"></a>Resumen de certificado - Proxy inverso en Lync Server 2013
 
-Los requisitos de certificado para el proxy inverso son mucho más simples que los de los Servidores perimetrales. El diagrama de flujo proporcionado muestra los requisitos necesarios. La tabla muestra un nombre de sujeto típico para un certificado y nombres alternativos de sujetos relacionados con los escenarios que se revisaron en las discusiones sobre el Servidor perimetral. Para obtener información detallada sobre los escenarios de Servidor perimetral, vea: [Escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+</div>
 
-**Diagrama de flujo de certificados para proxy inverso**
+<div id="mainSection">
 
-![Diagrama de flujo de certificados para servidor perimetral](images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Diagrama de flujo de certificados para servidor perimetral")
+<div id="mainBody">
 
-### Proxy inverso: Interfaz externa
+<span> </span>
+
+_**Última modificación del tema:** 2012-11-14_
+
+Los requisitos de certificados para el proxy inverso son mucho más simples que el de los servidores perimetrales. El diagrama de flujo proporcionado presenta los requisitos necesarios. La tabla adjunta presenta el nombre de asunto del certificado y los nombres alternativos del sujeto típicos en relación con los escenarios que hemos revisado en las discusiones del servidor perimetral. Para obtener más información sobre los escenarios del servidor perimetral, consulte [escenarios para el acceso de usuarios externos en Lync Server 2013](lync-server-2013-scenarios-for-external-user-access.md).
+
+**Diagrama de flujo de certificados para el proxy inverso**
+
+![Diagrama de flujo de certificados para servidor perimetral] (images/JJ205381.026045d7-1b4b-4651-b32f-2d43a7161198(OCS.15).jpg "Diagrama de flujo de certificados para servidor perimetral")
+
+### <a name="reverse-proxy-external-interface"></a>Proxy inverso: interfaz externa
 
 <table>
 <colgroup>
@@ -33,8 +53,8 @@ Los requisitos de certificado para el proxy inverso son mucho más simples que l
 <thead>
 <tr class="header">
 <th>Componente</th>
-<th>Nombre de sujeto</th>
-<th>Nombre alternativo del sujeto (SAN)/orden</th>
+<th>Nombre del asunto</th>
+<th>Nombre alternativo de asunto (SAN)/Order</th>
 <th>Comentarios</th>
 </tr>
 </thead>
@@ -48,18 +68,29 @@ Los requisitos de certificado para el proxy inverso son mucho más simples que l
 <p>meet.contoso.com</p>
 <p>officewebapps01.contoso.com</p>
 <p>lyncdiscover.contoso.com</p>
-<p>(Opcional): *.contoso.com</p></td>
-<td><p>Una entidad emisora de certificados debe otorgar el certificado junto con el servidor EKU. Los servicios incluyen el servicio de Libreta de direcciones, Office Web Apps de expansión del grupo de distribución y las reglas de publicación del dispositivo IP de Lync. Los nombres alternativos del firmante incluyen:</p>
+<p>(Opcional):*. contoso.com</p></td>
+<td><p>El certificado debe ser emitido por una entidad de certificación pública y con el EKU de servidor. Los servicios incluyen el servicio de libreta de direcciones, Office Web Apps para conferencias y las reglas de publicación de dispositivos IP de Lync. El nombre alternativo del firmante incluye:</p>
 <ul>
-<li><p>FQDN de servicios web externos para el Servidor front-end o el Grupo de servidores front-end</p></li>
-<li><p>FQDN de servicios web externos para el Director o el Grupo de directores</p></li>
+<li><p>FQDN de servicios web externos para servidor front-end o grupo front-end</p></li>
+<li><p>FQDN de servicios web externos para el grupo de directores o directores</p></li>
 <li><p>Conferencia de acceso telefónico local</p></li>
-<li><p>Regla de publicación de reunión en línea</p></li>
+<li><p>Regla de publicación de reuniones en línea</p></li>
 <li><p>Office Web Apps para conferencias</p></li>
-<li><p>Lyncdiscover (Detección automática)</p></li>
+<li><p>Lyncdiscover (detección automática)</p></li>
 </ul>
-<p>El carácter comodín opcional sustituye tanto la SAN de reuniones, como de marcado</p></td>
+<p>El comodín opcional reemplaza a reunirse y a través de SAN</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,66 +1,108 @@
-﻿---
-title: 'Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory'
-TOCTitle: Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory
-ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425906(v=OCS.15)
-ms:contentKeyID: 48275018
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Add a Survivable Branch Appliance to Active Directory
+ms:assetid: 3e63507c-d60b-40ec-8bbe-586b1d707c3e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425906(v=OCS.15)
+ms:contentKeyID: 48183938
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 4dc057318a0d241a28b8529802ea9f2016a1f5b5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842956"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="add-a-survivable-branch-appliance-to-active-directory-in-lync-server-2013"></a>Agregar una aplicación de sucursal con funciones de supervivencia a Active Directory en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-23_
 
-Si piensa implementar una Aplicación de sucursal con funciones de supervivencia, debe agregar la Aplicación de sucursal con funciones de supervivencia a los Servicios de dominio de Active Directory. Realice este procedimiento en el sitio central.
+Si tiene previsto implementar un dispositivo de sucursal que sea reviviente, debe agregar la aplicación de la rama que es reviviente a los servicios de dominio de Active Directory. Realice este procedimiento en el sitio central.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Realice este procedimiento únicamente si implementa una Aplicación de sucursal con funciones de supervivencia. No lo realice si implementa un Servidor de sucursal con funciones de supervivencia.
+> Realice este procedimiento solo si está implementando un dispositivo de sucursal con la supervivencia. No lo lleve a cabo si está implementando un servidor de sucursal con la supervivencia.
 
 
 
-## Para agregar una aplicación de sucursal con funciones de supervivencia a los Servicios de dominio de Active Directory
+</div>
 
-1.  Inicie sesión en un servidor miembro como miembro del grupo Administradores de organización.
+<div>
 
-2.  Haga clic en **Inicio**, en **Herramientas administrativas** y, a continuación, en **Usuarios y equipos de Active Directory**.
+## <a name="to-add-an-survivable-branch-appliance-to-active-directory-domain-services"></a>Para agregar un dispositivo de rama con la que los servicios de dominio de Active Directory son supervivientes
 
-3.  En el menú **Acciones**, haga clic en **Nuevo** y, a continuación, en **Equipo**.
+1.  Inicie sesión en un servidor miembro como miembro del grupo administradores de la empresa.
 
-4.  En el cuadro de diálogo **Nuevo objeto - Equipo**, escriba el nombre del objeto de equipo de la Aplicación de sucursal con funciones de supervivencia (por ejemplo, BranchOffice1) y haga clic en **Cambiar**.
+2.  Haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **usuarios y equipos de Active**Directory.
 
-5.  En el cuadro de diálogo **Seleccionar usuario o grupo**, agregue el grupo RTCUniversalSBATechnicians y haga clic en **Aceptar**.
+3.  En el menú **acciones** , haga clic en **nuevo** y, a continuación, en **equipo**.
+
+4.  En el cuadro de diálogo **nuevo objeto-equipo** , escriba un nombre para el objeto de equipo de la aplicación de sucursal que sea sobreviviente (por ejemplo, BranchOffice1) y, a continuación, haga clic en **cambiar**.
+
+5.  En el cuadro de diálogo **Seleccionar usuario o grupo** , agregue el grupo RTCUniversalSBATechnicians y haga clic en **Aceptar**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Más adelante, un miembro del grupo RTCUniversalSBATechnicians del sitio de sucursal agregará este dispositivo al dominio.
+    > [!NOTE]  
+    > Un miembro del grupo RTCUniversalSBATechnicians en el sitio de la sucursal agregará este dispositivo al dominio más adelante.
 
+    
+    </div>
 
+6.  Haga clic en **Aceptar** para guardar el objeto de equipo de la aplicación de sucursal superviviente.
 
-6.  Haga clic en **Aceptar** para guardar el objeto de equipo de la Aplicación de sucursal con funciones de supervivencia.
+7.  Haga clic en **Inicio**, seleccione **herramientas administrativas**y, a continuación, haga clic en **ADSI Edit**.
 
-7.  Haga clic en **Inicio**, en **Herramientas administrativas** y, a continuación, en **Editor ADSI**.
+8.  En el editor **ADSI**, haga clic con el botón secundario en el objeto de equipo que creó en los pasos anteriores y, a continuación, haga clic en **propiedades**.
 
-8.  En el **Editor ADSI**, haga clic con el botón secundario en el objeto de equipo que creó en los pasos anteriores y, a continuación, haga clic en **Propiedades**.
+9.  En la lista de atributos, haga clic en **ServicePrincipalName**y, a continuación, en **Editar**.
 
-9.  En la lista de atributos, haga clic en **servicePrincipalName** y luego en **Editar**.
+10. En el **campo valor para agregar** ,\<escriba FQDN\> /SBA de SBA \<donde el\> FQDN de SBA es el nombre de dominio completo (FQDN) de su equipo de sucursal con la supervivencia. Por ejemplo, escriba **host/BranchOffice1. contoso. com**.
 
-10. En el campo **Valor para agregar**, escriba HOST/\<SBA FQDN\>, donde \<FQDN SBA\> corresponde al nombre de dominio completo (FQDN) de la Aplicación de sucursal con funciones de supervivencia. Por ejemplo, escriba **HOST/BranchOffice1.contoso.com** .
+11. Haga clic en **Aceptar** para guardar la configuración del atributo **ServicePrincipalName** y, a continuación, haga clic en **Aceptar** para guardar las propiedades del objeto de equipo.
 
-11. Haga clic en **Aceptar** para guardar la configuración de atributo **servicePrincipalName** y, a continuación, en **Aceptar** para guardar las propiedades del objeto de equipo.
+12. En **usuarios y equipos de Active**Directory, haga clic con el botón secundario en **usuarios**, seleccione **nuevo**y, a continuación, haga clic en **usuario**.
 
-12. En **Usuarios y equipos de Active Directory**, haga clic con el botón secundario en **Usuarios**, haga clic en **Nuevo** y, a continuación, en **Usuario**.
+13. Escriba información en el Asistente para crear una cuenta de usuario de dominio para un técnico de la aplicación de rama superviviente.
 
-13. Introduzca información en el asistente para crear una cuenta de usuario de dominio para un técnico de la Aplicación de sucursal con funciones de supervivencia.
+14. En **usuarios y equipos de Active**Directory, haga clic en **usuarios**, haga clic con el botón derecho en el objeto de usuario y, después, haga clic en **Agregar a un grupo**.
 
-14. En **Usuarios y equipos de Active Directory**, haga clic en **Usuarios**, haga clic con el botón secundario en el objeto de equipo y luego haga clic **Agregar a un grupo**.
+15. En **Escriba los nombres de objeto que desea seleccionar**, escriba **RTCUniversalSBATechnicians**y, a continuación, haga clic en **Aceptar**.
 
-15. En **Escribir los nombres de objeto para seleccionar**, escriba **RTCUniversalSBATechnicians** y haga clic en **Aceptar**.
+16. Repita los pasos 12-15 para cada técnico del sitio de la sucursal.
 
-16. Repita los pasos 12-15 para cada técnico del sitio de sucursal.
+**Siguiente paso**: [Agregar sitios de sucursales a la topología de Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
 
-**Siguiente paso**: [Agregar sitios de sucursal a la topología en Lync Server 2013](lync-server-2013-add-branch-sites-to-your-topology.md)
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

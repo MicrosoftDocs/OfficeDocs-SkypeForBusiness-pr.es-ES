@@ -1,47 +1,81 @@
-﻿---
-title: Copia de seguridad y restauración de Lync Server 2013
-TOCTitle: Copia de seguridad y restauración de Lync Server 2013
-ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202160(v=OCS.15)
-ms:contentKeyID: 52061588
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: copia de seguridad y restauración de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up and restoring Lync Server 2013
+ms:assetid: 07dc1f5e-af66-4e18-bf39-881dceff8bc3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202160(v=OCS.15)
+ms:contentKeyID: 51541443
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 5a0cf9f9baabd095e54373c31acd4f4522974a82
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842897"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Copia de seguridad y restauración de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="backing-up-and-restoring-lync-server-2013"></a>Copia de seguridad y restauración de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-21_
 
-En esta sección, encontrará los procedimientos recomendados para realizar la copia de seguridad de los datos de Lync Server 2013 y para restaurarlos en el caso de un error. Estos procedimientos recomendados se aplican a las siguientes situaciones:
+En esta sección, encontrarás los procedimientos recomendados para realizar copias de seguridad de los datos de Lync Server 2013 y de restaurarlos si tienes un error. Estas prácticas recomendadas se aplican a las siguientes situaciones:
 
-  - Un grupo de Lync Server completo de cualquier tipo (Servidor front-end, Servidor perimetral, Servidor de mediación, Servidor de chat persistente o Director) o un servidor individual de uno de estos grupos.
+  - Un grupo de servidores de Lync completo de cualquier tipo (servidor front-end, servidor perimetral, servidor de mediación, servidor de chat persistente o director) o un servidor individual de uno de estos grupos.
 
-  - El Servidor de administración central
+  - El servidor de administración central
 
   - Un servidor Standard Edition
 
-  - Un Servidor back-end de Enterprise Edition
+  - Un servidor de back-end Enterprise Edition
 
-  - Un Almacén de archivos
+  - Un almacén de archivos
 
-  - Una Base de datos de archivado, una Base de datos de supervisión o una base de datos de chat persistente
+  - Una base de datos de archivado, una base de datos de supervisión o una base de datos de chat persistente
 
-Esta sección no incluye información sobre cómo restaurar un sitio completo o desarrollar un sitio en espera. Para obtener información detallada sobre cómo desarrollar una solución de recuperación ante desastres con grupos de servidores front-end emparejados, consulte [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Este es el método recomendado para planear una recuperación ante desastres.
+Esta sección no incluye información sobre cómo restaurar todo un sitio o para desarrollar un sitio en espera. Para obtener información sobre cómo desarrollar una solución de recuperación ante desastres con grupos front-end emparejados, vea [planear la alta disponibilidad y la recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md). Este es el método recomendado para planear la recuperación de desastres.
 
-Si ha implementado grupos de servidores front-end emparejados y se produce un error irrecuperable en uno de estos grupos, puede restaurarlo con un nuevo nombre de dominio completo (FQDN) desde su grupo emparejado. Para obtener detalles sobre los pasos de esta recuperación, consulte [Conmutación por error de un grupo en Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Además, si más tarde desea volver a crear un grupo en el que se ha producido un error irrecuperable y que formaba parte de un par de servidores front-end, puede usar los pasos descritos en [Ejecutar una conmutación por error de grupo de servidores front-end ABC](lync-server-2013-performing-an-abc-front-end-pool-failover.md).
+Si ha implementado agrupaciones front-end emparejadas, si uno de estos grupos tiene errores y se vuelve irrecuperable, puede restaurar este grupo con un nuevo nombre de dominio completo (FQDN) de su grupo emparejado. Para obtener más información sobre los pasos necesarios para realizar esta recuperación, consulte [conmutación por error de un grupo en Lync Server 2013](lync-server-2013-failing-over-a-pool.md). Además, si posteriormente desea volver a crear un grupo con errores e irrecuperables que formaba parte de un par front-end, puede seguir los pasos que se indican en [realizar una conmutación por error de la agrupación de front-end ABC en Lync Server 2013](lync-server-2013-performing-an-abc-front-end-pool-failover.md).
 
-La metodología descrita en este documento incluye consideraciones especiales durante la fase de planeación. Para obtener detalles, consulte [Definir un plan de copia de seguridad y restauración](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
+La metodología descrita en este documento implica consideraciones especiales durante la fase de planificación. Para obtener más información, consulte [establecer un plan de copia de seguridad y restauración para Lync Server 2013](lync-server-2013-establishing-a-backup-and-restoration-plan.md).
 
-## En esta sección
+<div>
 
-  - [Preparar la copia de seguridad y restauración de Lync Server](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
+## <a name="in-this-section"></a>En esta sección
 
-  - [Copia de seguridad de los datos y la configuración](lync-server-2013-backing-up-data-and-settings.md)
+  - [Prepararse para la copia de seguridad y restauración de Lync Server 2013](lync-server-2013-preparing-for-lync-server-backup-and-restoration.md)
 
-  - [Restaurar los datos y la configuración](lync-server-2013-restoring-data-and-settings.md)
+  - [Copia de seguridad de datos y configuración en Lync Server 2013](lync-server-2013-backing-up-data-and-settings.md)
 
-  - [Hojas de cálculo de copia de seguridad y restauración](lync-server-2013-backup-and-restoration-worksheets.md)
+  - [Restauración de datos y configuración en Lync Server 2013](lync-server-2013-restoring-data-and-settings.md)
+
+  - [Copias de seguridad y restauración de hojas de cálculo para Lync Server 2013](lync-server-2013-backup-and-restoration-worksheets.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

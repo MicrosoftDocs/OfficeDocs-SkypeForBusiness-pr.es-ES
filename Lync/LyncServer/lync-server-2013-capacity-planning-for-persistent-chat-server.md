@@ -1,78 +1,122 @@
-﻿---
-title: "Lync Server 2013 : Plan. de capacité pr le serveur de conv. permanente"
-TOCTitle: Planificar la capacidad para el servidor de chat persistente
-ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg615006(v=OCS.15)
-ms:contentKeyID: 48275764
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planeación de capacidad para el servidor de chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Capacity planning for Persistent Chat Server
+ms:assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg615006(v=OCS.15)
+ms:contentKeyID: 48184580
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7af60947a1132d26d5e8ba015d54cdbea80b8b54
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842704"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planificar la capacidad para el servidor de chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="capacity-planning-for-persistent-chat-server-in-lync-server-2013"></a>Planificación de capacidad para el servidor de chat persistente en Lync Server 2013
 
-Con el Servidor de chat persistente se pueden realizar chats multiusuario en tiempo real que persisten para poder recuperarlos y buscar en ellos más adelante. A diferencia de la mensajería instantánea (MI) de grupo que se guarda en el buzón del usuario si se configura el historial de conversaciones, las sesiones del Servidor de chat persistente permanecen más tiempo abiertas y su contenido se guarda en un servidor, junto con los mensajes, los archivos, las direcciones URL y los demás datos que se incluyan en una conversación en curso.
+</div>
 
-La planeación de la capacidad es una parte importante de la preparación para implementar Servidor de chat persistente. Este tema describe los detalles de las topologías de Servidor de chat persistente compatibles y tablas de planeación de la capacidad que puede usar para averiguar cuál es la mejor configuración para la implementación. Explica también cómo administrar mejor las implementaciones de Servidor de chat persistente que necesiten mayor capacidad en horas pico.
+<div id="mainSection">
 
-Para descargar el Servidor de chat persistente, vea “Servidor de chat persistente de Microsoft Lync Server 2013” en [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539).
+<div id="mainBody">
 
-Para ver los detalles acerca de cómo instalar Servidor de chat persistente, consulte [Instalación del servidor de chat persistente en Lync Server 2013](lync-server-2013-installing-persistent-chat-server.md) y [Configurar servidor de chat persistente en Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) en la documentación de planeación.
+<span> </span>
 
-Las herramientas de soporte, como la herramienta de planeación de Lync Server, pueden serle de gran utilidad para planear la capacidad. Para más información sobre la herramienta de planeación, vea [Iniciar el proceso de planeación para Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) en la documentación sobre planeación.
+_**Última modificación del tema:** 2012-10-05_
 
-## Topologías compatibles con el Servidor de chat persistente
+El servidor de chat persistente puede llevar a cabo una conversación en tiempo real con varios usuarios que puede persistir para una recuperación y búsqueda futura. A diferencia de la mensajería instantánea (mi) grupal que se guarda en el buzón de un usuario si está configurado el historial de conversaciones, una sesión de servidor de chat persistente permanece abierta más tiempo y el contenido se guarda en un servidor, junto con los mensajes, archivos, direcciones URL y otros datos que forman parte de un conversación en curso.
 
-Puede implementar el Servidor de chat persistente en un grupo de un único servidor o de varios, y con una topología de un único grupo o de varios.
+El plan de capacidad es una parte importante de la preparación para implementar un servidor de chat persistente. Este tema proporciona detalles sobre las topologías de servidores de chat persistentes compatibles y las tablas de planeación de capacidad que puede usar para determinar la mejor configuración para su implementación. También se describe cómo administrar mejor las implementaciones del servidor de chat persistentes que requieren mayor capacidad en horas punta.
 
-Ahora también ofrecemos compatibilidad del Servidor de chat persistente en el Servidor Standard Edition para nuevas implementaciones de Lync Server 2013. No obstante, el rendimiento y la escalabilidad se verán afectados y, ya que no existe ninguna opción de alta disponibilidad para esta nueva implementación, esperamos que lo utilice principalmente para la prueba de concepto o con fines de evaluación.
+Para descargar el servidor de chat persistente, consulte "servidor de chat persistente de Microsoft Lync [http://go.microsoft.com/fwlink/p/?linkId=209539](http://go.microsoft.com/fwlink/p/?linkid=209539)Server 13" en.
+
+Para obtener más información sobre cómo instalar el servidor de chat persistente, consulte [instalar el servidor de chat persistente en Lync server 2013](lync-server-2013-installing-persistent-chat-server.md) y [configurar el servidor de chat persistente en Lync Server 2013](lync-server-2013-configuring-persistent-chat-server.md) en la documentación de implementación.
+
+Las herramientas de soporte técnico, como la herramienta de planeación de Lync Server, pueden ayudarle aún más para planear la capacidad. Para obtener más información sobre la herramienta de planeación, consulte [comenzar el proceso de planeación de Lync Server 2013](lync-server-2013-beginning-the-planning-process.md) en la documentación de planeación.
+
+<div>
+
+## <a name="persistent-chat-server-supported-topologies"></a>Topologías compatibles con el servidor de chat persistente
+
+Puede implementar un servidor de chat persistente en grupos de un solo servidor o de varios servidores, y con topología de un único grupo o de varios grupos.
+
+También se admite el servidor de chat persistente en el servidor Standard Edition para nuevas implementaciones de Lync Server 2013. Sin embargo, el rendimiento y la escala se verán afectados, y dado que no hay una opción de alta disponibilidad para esta nueva implementación, esperamos que use esto principalmente para fines de pruebas de concepto, evaluación, etc.
+
+<div>
 
 
-> [!NOTE]
-> Para ver más detalles sobre estas dos topologías, consulte <A href="lync-server-2013-planning-for-persistent-chat-server.md">Planeación del servidor de chat persistente en Lync Server 2013</A> en este conjunto de documentación y <A href="lync-server-2013-deploying-persistent-chat-server.md">Implementar el servidor de chat persistente en Lync Server 2013</A> en la documentación de implementación.
+> [!NOTE]  
+> Para obtener más información sobre las dos topologías, vea <A href="lync-server-2013-planning-for-persistent-chat-server.md">planear el servidor de chat persistente en Lync server 2013</A> en la documentación de implementación y en <A href="lync-server-2013-deploying-persistent-chat-server.md">implementar el servidor de chat persistente en Lync Server 2013</A> .
 
 
 
-## Topología de un solo servidor
+</div>
 
-La configuración mínima y la implementación más sencilla del Servidor de chat persistente es la topología de un solo Servidor front-end de Servidor de chat persistente. Requiere un servidor único para ejecutar el Servidor de chat persistente (que ejecuta opcionalmente el servicio de cumplimiento, en caso de que este se habilite), un servidor para hospedar la base de datos de SQL Server y, si se requiere el cumplimiento de normas, la base de datos de SQL Server para almacenar los datos de cumplimiento.
+<div>
+
+## <a name="single-server-topology"></a>Topología de servidor único
+
+La configuración mínima y la implementación más sencilla para el servidor de chat persistente es una topología única de servidor de chat persistente. Esta implementación requiere un único servidor que ejecute el servidor de chat persistente (que, opcionalmente, ejecuta el servicio de cumplimiento, si el cumplimiento está habilitado), un servidor que hospede tanto la base de datos de SQL Server como la de la base de datos de SQL Server para almacenar el datos de cumplimiento.
+
+<div>
+
 
 > [!IMPORTANT]  
-> No se pueden agregar servidores adicionales a un Grupo de servidores de chat persistente que se inició como implementación de un único servidor en el Generador de topologías. Recomendamos utilizar la topología de grupos de varios servidores aunque solo se vaya a usar un único servidor, de manera que se puedan agregar otros servidores más adelante.
+> No puede agregar servidores adicionales a un grupo de servidores de chat persistente que se inicie como una implementación de servidor único en el generador de topología. Le recomendamos que use la topología del grupo de varios servidores, incluso si está usando un solo servidor. De esta manera, podrás agregar más servidores más adelante, si es necesario. 
 
 
+</div>
 
-En la siguiente ilustración se muestran todos los componentes opcionales y obligatorios de una topología de un solo Servidor front-end de Servidor de chat persistente con el servicio de cumplimiento.
+La siguiente ilustración muestra todos los componentes obligatorios y opcionales de una topología para un único servidor de usuario de chat persistente con cumplimiento normativo.
 
-**Un solo servidor de chat persistente**
+**Servidor único de chat persistente**
 
-![Topología de un solo servidor con servicio de cumplimiento](images/Gg615006.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de un solo servidor con servicio de cumplimiento")
+![Topología de servidor único con servicio de cumplimiento] (images/Gg398500.9168fa52-61e0-4d17-a14d-45fd32e81456(OCS.15).jpg "Topología de servidor único con servicio de cumplimiento")
 
-## Topología de varios servidores
+</div>
 
-Para ofrecer mayor capacidad y fiabilidad, puede implementar una topología de varios servidores, tal como se describe en [Planeación del servidor de chat persistente en Lync Server 2013](lync-server-2013-planning-for-persistent-chat-server.md). Con la topología de varios servidores, el Servidor de chat persistente puede estar ejecutándose hasta en cuatro equipos activos (las configuraciones de recuperación ante desastres y la alta disponibilidad permitirán hasta ocho, pero solamente cuatro pueden estar activos, mientras que el resto permanecen en espera). Cada servidor puede admitir un máximo de 20.000 usuarios simultáneos para dar servicio a un total de 80.000 usuarios simultáneos conectados a un Grupo de servidores de chat persistente con 4 servidores. Las topologías de varios servidores son iguales que las de un solo servidor, salvo por el hecho de que el Servidor de chat persistente está hospedado en varios servidores y puede escalarse más. Los equipos en los que se ejecute el Servidor de chat persistente deben residir en el mismo dominio de Servicios de dominio de Active Directory que Lync Server y el servicio de cumplimiento.
+<div>
 
-En la ilustración siguiente se muestran todos los componentes de una topología de varios servidores con varios equipos en los que se ejecuta el Servidor de chat persistente, el servicio opcional de cumplimiento y una base de datos de cumplimiento independiente.
+## <a name="multiple-server-topology"></a>Topología de varios servidores
 
-**Varios servidores de chat persistente**
+Para proporcionar mayor capacidad y confiabilidad, puede implementar una topología de varios servidores, como se describe en [planear el servidor de chat persistente en Lync server 2013](lync-server-2013-planning-for-persistent-chat-server.md). La topología de varios servidores puede incluir hasta cuatro equipos activos que ejecutan el servidor de chat persistente (la alta disponibilidad y las configuraciones de recuperación ante desastres permiten hasta ocho, pero solo cuatro pueden estar activos y los cuatro restantes en espera). Cada servidor puede admitir hasta 20.000 usuarios simultáneos, para un total de 80.000 usuarios simultáneos conectados a un grupo de servidores de chat persistente con 4 servidores. Una topología de varios servidores es la misma que la topología de servidor único, excepto en que varios servidores hospedan un servidor de chat persistente y pueden escalar más alto. Varios equipos que ejecutan el servidor de chat persistente deben residir en el mismo dominio de servicios de dominio de Active Directory que Lync Server y el servicio de cumplimiento.
 
-![Topología de varios servidores](images/Gg615006.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
+La siguiente ilustración muestra todos los componentes de una topología de varios servidores con varios equipos que ejecutan un servidor de chat persistente, el servicio de cumplimiento opcional y una base de datos de cumplimiento independiente.
 
-En una implementación del Servidor de chat persistente de cuatro servidores, donde 80.000 usuarios pueden tener una sesión abierta y usar el Chat persistente simultáneamente, la carga se distribuye a partes iguales con 20.000 usuarios en cada servidor. Si uno de los servidores deja de estar disponible, los usuarios conectados a ese servidor perderán el acceso al Servidor de chat persistente. Los usuarios desconectados se transferirán automáticamente al resto de los servidores hasta que se restaure el servidor no disponible. Dependiendo de la cantidad de tráfico del Chat persistente en la red, esta transferencia puede tardar unos pocos minutos o más tiempo. Dado que cada uno de los servidores restantes puede hospedar hasta 30.000 usuarios, recomendamos restaurar el servidor que no está disponible tan pronto como sea posible para evitar problemas de rendimiento. De lo contrario, puede habilitar otro Servidor de chat persistente utilizando el Generador de topologías o el cmdlet de Windows PowerShell, **set-CsPersistentChatActiveServer**.
+**Varios servidores de chat persistentes**
 
-## Planeación de la capacidad del Servidor de chat persistente
+![Topología de varios servidores] (images/Gg398500.19aea898-28df-4d9b-903c-f72ef062d919(OCS.15).jpg "Topología de varios servidores")
 
-Las siguientes tablas pueden ayudarle a planear la capacidad del Servidor de chat persistente. En ellas se indica cómo los cambios de diversas configuraciones del Servidor de chat persistente influyen en las funcionalidades de capacidad.
+En una implementación de servidor de chat persistente de cuatro servidores, en la que los usuarios de 80.000 pueden iniciar sesión y usar la conversación de forma permanente, la carga se distribuye uniformemente en 20.000 usuarios por servidor. Si un servidor no está disponible, los usuarios que estén conectados a él perderán el acceso al servidor de chat persistente. Los usuarios desconectados se transferirán automáticamente a los servidores restantes hasta que se restaure el servidor que no se encuentra disponible. En función de la cantidad de tráfico de chat persistente en la red, esta transferencia puede demorar unos minutos o más. Como es posible que cada uno de los servidores restantes aloje hasta 30.000 usuarios, le recomendamos que restaure el servidor no disponible lo antes posible para evitar problemas de rendimiento. De lo contrario, puede hacer que otro servidor de chat persistente esté disponible con el generador de topologías o el cmdlet de Windows PowerShell **set-CsPersistentChatActiveServer**.
 
-## Planeación de su capacidad máxima para el Servidor de chat persistente
+</div>
 
-Use la siguiente tabla de muestra para averiguar el número de usuarios que podrá admitir.
+</div>
 
-### Muestra de capacidad máxima del Grupo de servidores de chat persistente
+<div>
+
+## <a name="persistent-chat-server-capacity-planning"></a>Planificación de capacidad del servidor de chat persistente
+
+Las siguientes tablas pueden ayudarle con la planificación de capacidad de un servidor de chat persistente. Modelan cómo afectan las capacidades de capacidad a cambiar la configuración del servidor de chat persistente.
+
+<div>
+
+## <a name="planning-your-maximum-capacity-for-persistent-chat-server"></a>Planificación de su capacidad máxima para el servidor de chat persistente
+
+Usa la siguiente tabla de muestra para determinar la cantidad de usuarios que podrás admitir.
+
+### <a name="persistent-chat-server-pool-maximum-capacity-sample"></a>Muestra de capacidad máxima del grupo de servidores de chat persistente
 
 <table>
 <colgroup>
@@ -81,36 +125,40 @@ Use la siguiente tabla de muestra para averiguar el número de usuarios que podr
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Instancias activas del servicio de Chat persistente</p></td>
+<td><p>Instancias activas del servicio de chat persistente</p></td>
 <td><p><em>4</em></p></td>
 </tr>
 <tr class="even">
-<td><p>Instancias del servicio de Chat persistente</p></td>
-<td><p><em>8 (4 must be inactive; only a maximum of 4 can be active)</em></p></td>
+<td><p>Instancias del servicio de chat persistentes</p></td>
+<td><p><em>8 (4 debe estar inactivo; solo un máximo de 4 puede estar activo)</em></p></td>
 </tr>
 <tr class="odd">
 <td><p>Usuarios activos conectados</p></td>
 <td><p><em>80,000</em></p></td>
 </tr>
 <tr class="even">
-<td><p>Número total de usuarios configurados</p></td>
-<td><p>150.000</p></td>
+<td><p>Cantidad total de usuarios aprovisionados</p></td>
+<td><p>150,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de extremos</p></td>
-<td><p>120.000</p></td>
+<td><p>Cantidad de extremos</p></td>
+<td><p>120,000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En el ejemplo anterior, el plan es permitir la máxima cantidad de usuarios que permita el Servidor de chat persistente: cuatro servidores o instancias del servicio de Chat persistente (que puede tener cuatro servidores pasivos más ejecutando el Servidor de chat persistente por alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, con un total de 80.000 usuarios activos.
+En el ejemplo anterior, el plan es compatible con el número máximo de usuarios que el servidor de chat persistente permite: cuatro servidores/instancias del servicio de chat persistente (pueden tener cuatro servidores más pasivos que ejecuten servidores de chat persistentes para una alta disponibilidad y recuperación ante desastres) y 20.000 usuarios por servidor, para un total de 80.000 usuarios activos.
 
-## Planeación de la capacidad para administrar el acceso a los salones de Chat persistente
+</div>
 
-La siguiente tabla de muestra puede ayudarle a planear la administración del acceso a los salones de chat de Chat persistente en un Grupo de servidores de chat persistente.
+<div>
 
-### Muestra de administración del acceso a salones de chat
+## <a name="capacity-planning-for-managing-persistent-chat-room-access"></a>Planificación de capacidad para administrar el acceso permanente al salón de chat
+
+La siguiente tabla de ejemplo puede ayudarle a planear la administración del acceso permanente al salón de chat en un grupo de servidores de chat persistente.
+
+### <a name="managing-chat-room-access-sample"></a>Ejemplo de administración de acceso al salón de chat
 
 <table>
 <colgroup>
@@ -131,32 +179,32 @@ La siguiente tabla de muestra puede ayudarle a planear la administración del ac
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tamaño de salones de chat (número de usuarios conectados)</p></td>
+<td><p>Tamaño de los salones de chat (cantidad de usuarios conectados)</p></td>
 <td><p>30 por salón</p></td>
 <td><p>150 por salón</p></td>
-<td><p>16.000 por salón</p></td>
-<td><p></p></td>
+<td><p>16 000 por salón</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Salones de chat</p></td>
-<td><p>32.000</p></td>
-<td><p>1.067</p></td>
-<td><p>10</p></td>
-<td><p>33.077</p></td>
+<td><p>32,000</p></td>
+<td><p>1,067</p></td>
+<td><p>base10</p></td>
+<td><p>33,077</p></td>
 </tr>
 <tr class="odd">
-<td><p>% de salones que son auditorio</p></td>
-<td><p>1%</p></td>
-<td><p>1%</p></td>
+<td><p>% de salones que son auditorios</p></td>
+<td><p>1 %</p></td>
+<td><p>1 %</p></td>
 <td><p>50%</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>% de salones que están abiertos</p></td>
+<td><p>% de salones que están abiertos</p></td>
 <td><p>3%</p></td>
 <td><p>3%</p></td>
 <td><p>50%</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Salones abiertos (ninguna pertenencia explícita)</p></td>
@@ -167,172 +215,172 @@ La siguiente tabla de muestra puede ayudarle a planear la administración del ac
 </tr>
 <tr class="even">
 <td><p>Salones no abiertos (salones regulares con pertenencia explícita)</p></td>
-<td><p>31.040</p></td>
-<td><p>1,035</p></td>
+<td><p>31,040</p></td>
+<td><p>1.035</p></td>
 <td><p>5</p></td>
-<td><p>32.080</p></td>
+<td><p>32,080</p></td>
 </tr>
 <tr class="odd">
 <td><p>Salones de auditorio (entrada de moderadores adicionales)</p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>32</p></td>
 <td><p>5</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Salones administrados por pertenencia directa</p></td>
 <td><p>50%</p></td>
 <td><p>10%</p></td>
 <td><p>0%</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Salones administrados por grupos de usuarios</p></td>
 <td><p>50%</p></td>
 <td><p>90%</p></td>
 <td><p>100%</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Grupos de usuarios en la lista de miembros de cada salón de chat para salones abiertos (no especificado explícitamente)</p></td>
-<td><p>0</p></td>
-<td><p>0</p></td>
-<td><p>0</p></td>
-<td><p></p></td>
+<td><p>Grupos de usuarios en la lista de pertenencia de cada salón de chat para los salones abiertos (no especificado explícitamente)</p></td>
+<td><p>,0</p></td>
+<td><p>,0</p></td>
+<td><p>,0</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Usuarios en la lista de miembros de cada salón de chat para salones no abiertos</p></td>
-<td><p>30</p></td>
+<td><p>Usuarios en la lista de pertenencia de cada salón de chat para los salones no abiertos</p></td>
+<td><p>0,30</p></td>
 <td><p>150</p></td>
-<td><p>16.000</p></td>
-<td><p></p></td>
+<td><p>16,000</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Grupos de usuarios en la lista de miembros de cada salón de chat para salones no abiertos</p></td>
+<td><p>Grupos de usuarios en la lista de pertenencia de cada salón de chat para los salones no abiertos</p></td>
 <td><p>3</p></td>
 <td><p>5</p></td>
-<td><p>10</p></td>
-<td><p></p></td>
+<td><p>base10</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Usuarios y grupos de usuarios en la lista del administrador de cada salón de chat (para salones abiertos y no abiertos)</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Usuarios y grupos de usuarios en la lista de moderadores de cada salón de chat de auditorio (para salones abiertos y no abiertos)</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Entidades de miembros basadas en usuarios en todos los salones no abiertos</p></td>
-<td><p>465.600</p></td>
-<td><p>15.520</p></td>
+<td><p>Entidades de pertenencia basadas en usuarios en todos los salones no abiertos</p></td>
+<td><p>465,600</p></td>
+<td><p>15,520</p></td>
 <td><p>-</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Entidades de miembros basadas en grupos de usuarios en todos los salones no abiertos</p></td>
-<td><p>46.560</p></td>
+<td><p>Entidades de pertenencia basadas en grupos de usuarios en todos los salones no abiertos</p></td>
+<td><p>46,560</p></td>
 <td><p>4656</p></td>
 <td><p>50</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Entidades basadas en usuarios y grupos de usuarios en todos los salones de chat de auditorio</p></td>
-<td><p>0</p></td>
+<td><p>,0</p></td>
 <td><p>192</p></td>
 <td><p>50</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Entidades de administradores basdas en usuarios y grupos de usuarios en todas las listas de administrador de salones de chat</p></td>
-<td><p>192.000</p></td>
-<td><p>6.400</p></td>
+<td><p>Entidades de administradores basadas en usuarios y grupos de usuarios en todas las listas de administrador de salones de chat</p></td>
+<td><p>192,000</p></td>
+<td><p>6,400</p></td>
 <td><p>60</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Usuarios activos por salón de chat</p></td>
-<td><p><em>30</em></p></td>
+<td><p><em>0,30</em></p></td>
 <td><p><em>150</em></p></td>
 <td><p><em>16,000</em></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Salones de chat por usuario</p></td>
-<td><p><em>12</em></p></td>
+<td><p><em>2007</em></p></td>
 <td><p><em>2</em></p></td>
 <td><p><em>2</em></p></td>
-<td><p><em>16</em></p></td>
+<td><p><em>apartado</em></p></td>
 </tr>
 <tr class="odd">
-<td><p>Grupos de usuarios en la lista de miembros de cada salón de chat</p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>10</em></p></td>
-<td><p><em>15</em></p></td>
-<td><p></p></td>
+<td><p>Grupos de usuarios en la lista de pertenencia de cada salón de chat</p></td>
+<td><p><em>base10</em></p></td>
+<td><p><em>base10</em></p></td>
+<td><p><em>4,5</em></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Salones administrados por grupos de usuarios</p></td>
 <td><p><em>50%</em></p></td>
 <td><p><em>50%</em></p></td>
 <td><p><em>50%</em></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Entidades de miembros basadas en grupos de usuarios en todos los salones de chat</p></td>
-<td><p>155.200</p></td>
+<td><p>Entidades de pertenencia basadas en grupos de usuarios en todos los salones de chat</p></td>
+<td><p>155,200</p></td>
 <td><p>5173</p></td>
 <td><p>68</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Entidades de miembros basadas en usuarios en todos los salones de chat</p></td>
-<td><p>465.600</p></td>
-<td><p>77.600</p></td>
-<td><p>72.000</p></td>
-<td><p></p></td>
+<td><p>Entidades de pertenencia basadas en usuarios en todos los salones de chat</p></td>
+<td><p>465,600</p></td>
+<td><p>77,600</p></td>
+<td><p>72,000</p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Usuarios y grupos de usuarios en las listas de administradores, moderadores y ámbitos de cada salón de chat</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
 <td><p>6</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Usuarios y grupos de usuarios en las listas de administradores, moderadores y ámbitos de todos los salones de chat</p></td>
-<td><p>192.000</p></td>
+<td><p>192,000</p></td>
 <td><p>6400</p></td>
 <td><p>60</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Entradas de control de acceso</p></td>
-<td><p>704.160</p></td>
-<td><p>26.768</p></td>
+<td><p>704,160</p></td>
+<td><p>26,768</p></td>
 <td><p>160</p></td>
-<td><p>731.088</p></td>
+<td><p>731,088</p></td>
 </tr>
 <tr class="even">
 <td><p>Máximo de entradas de control de acceso</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>2.000.000</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>2,000,000</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En la muestra anterior, al implementar los Servidores de chat persistente según las recomendaciones, podrán abarcar hasta 80.000 usuarios activos en un grupo de cuatro servidores con cumplimiento habilitado.
+En el ejemplo anterior, al implementar los servidores de chat persistentes de acuerdo con las pautas recomendadas, pueden administrar hasta 80.000 usuarios activos en un grupo de cuatro servidores con la compatibilidad habilitada.
 
-Esta muestra representa los salones de chat clasificados como pequeños (30 usuarios activos en un momento dado), medianos (150 usuarios activos) y grandes (16.000 usuarios activos). El número de salones de chat de un tamaño determinado se calcula según el número total de:
+Esta muestra representa los salones de chat clasificados como pequeños (30 usuarios activos en un momento dado), medianos (150 usuarios activos) y grandes (16 000 usuarios activos). El número de salones de chat con un tamaño determinado se calcula en función del número total de:
 
   - Usuarios activos en el sistema
 
@@ -340,25 +388,39 @@ Esta muestra representa los salones de chat clasificados como pequeños (30 usua
 
   - Salones de chat del tamaño correspondiente a los que se una un solo usuario
 
-Para cada salón de chat, la tabla de planeación de la capacidad anterior especifica el número de entradas de control de acceso asociadas al salón de chat, incluidas las entradas asignadas directamente al salón de chat. Puede controlar el acceso a salones de chat individuales usando listas de control de acceso (ACL). También puede controlar el acceso en el nivel de categoría. En una ACL, una entrada de control de acceso individual puede corresponder a un grupo de usuarios (por ejemplo, un grupo de seguridad, una lista de distribución o a un solo usuario). Puede definir las entradas de control de acceso de los administradores, los moderadores y los miembros de los salones de chat.
+Para cada salón de chat, la tabla de planificación de la capacidad anterior especifica la cantidad de entradas de control de acceso asociadas al salón de chat, incluidas las entradas asignadas directamente al salón de chat. Puedes controlar el acceso a salones de chat individuales al utilizar listas de control de acceso (ACL). También puedes controlar el acceso en cuanto a la categoría. En una ACL, una entrada de control de acceso individual puede corresponder a un grupo de usuarios (por ejemplo, un grupo de seguridad, una lista de distribución o a un solo usuario). Puedes definir las entradas de control de acceso de los administradores, los moderadores y los miembros de los salones de chat.
+
+<div>
+
 
 > [!IMPORTANT]  
-> A la hora de planear su estrategia para administrar salones de chat, tenga en cuenta que el número total de entradas de control de acceso permitidas es 2 millones. Si las entradas de control de acceso que calcule superan los 2 millones, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, siempre que sea posible, asegúrese de que las entradas de control de acceso sean grupos de usuarios, en lugar de usuarios individuales.
+> A la hora de planificar tu estrategia para administrar los salones de chat, ten en cuenta que la cantidad total de entradas de control de acceso permitida es 2 millones. Si las entradas de control de acceso que calcules superan los 2 millones, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, siempre que sea posible, asegúrate de que las entradas de control de acceso sean grupos de usuarios, en lugar de usuarios individuales.
 
 
 
-## Planeación de la capacidad para administrar el acceso a los salones de chat por invitación
+</div>
 
-En la siguiente tabla de planeación de la capacidad puede ver el número de invitaciones que el Servidor de chat persistente crea y almacena en la base de datos del Chat persistente cuando se configura para enviar invitaciones. Puede administrar las invitaciones de la Categoría desde la página de **Configuración de la Categoría de los salones de chat** , en el Panel de control de Lync Server, o mediante el cmdlet de Windows PowerShell, **set-csPersistentChatCategory**. Puede administrar las invitaciones en un salón de chat (en línea con lo que permite la categoría) desde la página **Administración de los salones** iniciada desde el cliente de Lync, o bien con un cmdlet de Windows PowerShell, **set-csPersistentChatRoom**.
+</div>
 
-Los datos de muestra de la siguiente tabla presuponen que, en la página de **Configuración de salones de chat** para el 50% de los salones de chat, la opción **Invitación** se ha configurado como **Sí** .
+<div>
+
+## <a name="capacity-planning-for-managing-chat-room-access-by-invitation"></a>Planificación de capacidad para administrar el acceso al salón de chat mediante una invitación
+
+Puede usar la siguiente tabla de planeación de capacidad para comprender el número de invitaciones que el servidor de chat persistente crea y almacena en la base de datos de chat persistente cuando está configurada para enviar invitaciones. Para administrar las invitaciones de la categoría, use la página **configuración de categoría de salón de chat** en el panel de control de Lync Server, o bien use el cmdlet de Windows PowerShell **set-csPersistentChatCategory**. Puede administrar invitaciones en un salón de chat (en función de lo que permita la categoría) mediante la página de **Administración de salas** iniciada desde el cliente Lync, o mediante un cmdlet de Windows PowerShell, **set-csPersistentChatRoom**.
+
+Los datos de muestra de la siguiente tabla presuponen que, en la página **Configuración de salones de chat** para el 50 % de los salones de chat, la opción **Invitaciones** se ha configurado como **Sí**.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si el valor calculado del número de invitaciones que el servidor genera supera 1 millón, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, asegúrese de reducir al mínimo el número de salones de chat configurados para enviar invitaciones o restrinja la cantidad de usuarios que pueden unirse a los salones de chat que se hayan configurado para enviar invitaciones.
+> Si el valor calculado para la cantidad de invitaciones que el servidor genera supera 1 millón, el rendimiento del servidor puede disminuir en gran medida. Para evitar este problema, asegúrese de minimizar la cantidad de salones de chat configurados para enviar invitaciones o restringir el número de usuarios que pueden unirse a salones de chat que se han configurado para enviar invitaciones.
 
 
 
-### Muestra de acceso a salones de chat por invitación
+</div>
+
+### <a name="chat-room-access-by-invitation-sample"></a>Acceso a salón de chat por muestra de invitación
 
 <table>
 <colgroup>
@@ -379,53 +441,53 @@ Los datos de muestra de la siguiente tabla presuponen que, en la página de **Co
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Usuarios que pueden tener acceso a salas de chat</p></td>
+<td><p>Usuarios que pueden tener acceso a salones de chat</p></td>
 <td><p>30 por salón</p></td>
 <td><p>150 por salón</p></td>
-<td><p>16.000 por salón</p></td>
-<td><p></p></td>
+<td><p>16 000 por salón</p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Porcentaje de salones que disponen de invitaciones</p></td>
 <td><p>50%</p></td>
 <td><p>50%</p></td>
 <td><p>50%</p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Salones de chat configurados para enviar invitaciones</p></td>
 <td><p><em>16,000</em></p></td>
 <td><p><em>533</em></p></td>
 <td><p><em>5</em></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Usuarios que pueden acceder al salón de chat</p></td>
 <td><p><em>60</em></p></td>
 <td><p><em>225</em></p></td>
 <td><p><em>16,000</em></p></td>
-<td><p></p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Invitaciones generadas por Servidor de chat persistente</p></td>
-<td><p>960.000</p></td>
-<td><p>120.000</p></td>
-<td><p>80.000</p></td>
-<td><p>1.160.000</p></td>
+<td><p>Invitaciones generadas por el servidor de chat persistente</p></td>
+<td><p>960,000</p></td>
+<td><p>120,000</p></td>
+<td><p>80,000</p></td>
+<td><p>1,160,000</p></td>
 </tr>
 <tr class="even">
-<td><p>Número máximo de invitaciones permisible</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p>2.000.000</p></td>
+<td><p>Cantidad máxima de invitaciones permitidas</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td><p>2,000,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>Modelo 1: Inicio con el número esperado de mensajes por salón por día</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Modelo 1: Inicio con la cantidad esperada de mensajes por salón por día</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="even">
 <td><p>Tasa de chats por salón (por día)</p></td>
@@ -436,48 +498,52 @@ Los datos de muestra de la siguiente tabla presuponen que, en la página de **Co
 </tr>
 <tr class="odd">
 <td><p>Tasa de chats (por segundo) en todos los salones</p></td>
-<td><p>55,56</p></td>
-<td><p>18,52</p></td>
-<td><p>0,03</p></td>
+<td><p>55.56</p></td>
+<td><p>18.52</p></td>
+<td><p>0.03</p></td>
 <td><p>74</p></td>
 </tr>
 <tr class="even">
-<td><p>Modelo 2: Inicio con el número de mensajes publicados por usuario por día</p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
-<td><p></p></td>
+<td><p>Modelo 2: Inicio con la cantidad de mensajes publicados por usuario por día</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td><p>Tasa de chats por usuario por día</p></td>
-<td><p>15</p></td>
+<td><p>4,5</p></td>
 <td><p>5</p></td>
-<td><p>0,1</p></td>
-<td><p>20</p></td>
+<td><p>0.1</p></td>
+<td><p>veinte</p></td>
 </tr>
 <tr class="even">
 <td><p>Tasa de chats por salón (por día)</p></td>
 <td><p>38</p></td>
 <td><p>375</p></td>
 <td><p>800</p></td>
-<td><p>1.213</p></td>
+<td><p>1,213</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tasa de chats (por segundo) en todos los salones</p></td>
-<td><p>41,67</p></td>
-<td><p>13,89</p></td>
-<td><p>0,28</p></td>
+<td><p>41.67</p></td>
+<td><p>13.89</p></td>
+<td><p>0.28</p></td>
 <td><p>56</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Modelo de usuario de rendimiento del Servidor de chat persistente
+</div>
 
-La siguiente tabla describe el modelo de usuario de Servidor de chat persistente. Constituye la base de los requisitos de planeación de la capacidad y representa una organización típica con 80.000 usuarios simultáneos, en cuatro servidores.
+<div>
 
-### Modelo de usuario de rendimiento del Servidor de chat persistente
+## <a name="persistent-chat-server-performance-user-model"></a>Modelo de usuario de rendimiento del servidor de chat persistente
+
+En la siguiente tabla se describe el modelo de usuario para el servidor de chat persistente. Constituye la base de los requisitos de planificación de la capacidad y representa una organización típica con 80 000 usuarios simultáneos, en cuatro servidores.
+
+### <a name="persistent-chat-server-performance-user-model"></a>Modelo de usuario de rendimiento del servidor de chat persistente
 
 <table>
 <colgroup>
@@ -486,11 +552,11 @@ La siguiente tabla describe el modelo de usuario de Servidor de chat persistente
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p>Número de usuarios activos conectados</p></td>
-<td><p>80.000</p></td>
+<td><p>Cantidad de usuarios activos conectados</p></td>
+<td><p>80,000</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de instancias de servicio de Servidor de chat persistente</p></td>
+<td><p>Número de instancias de servicio del servidor de chat persistentes</p></td>
 <td><p>4</p></td>
 </tr>
 <tr class="odd">
@@ -503,43 +569,43 @@ La siguiente tabla describe el modelo de usuario de Servidor de chat persistente
 </tr>
 <tr class="odd">
 <td><p>Tamaño de salones de chat grandes</p></td>
-<td><p>16.000 usuarios</p></td>
+<td><p>16 000 usuarios</p></td>
 </tr>
 <tr class="even">
-<td><p>Número total de salones de chat</p></td>
-<td><p>33.077</p></td>
+<td><p>Cantidad total de salones de chat</p></td>
+<td><p>33,077</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de salones de chat pequeños</p></td>
-<td><p>32.000</p></td>
+<td><p>Cantidad de salones de chat pequeños</p></td>
+<td><p>32,000</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de salones de chat medianos</p></td>
-<td><p>1.067</p></td>
+<td><p>Cantidad de salones de chat medianos</p></td>
+<td><p>1,067</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de salones de chat grandes</p></td>
-<td><p>10</p></td>
+<td><p>Cantidad de salones de chat grandes</p></td>
+<td><p>base10</p></td>
 </tr>
 <tr class="even">
-<td><p>Número total de salones de chat por usuario</p></td>
-<td><p>16</p></td>
+<td><p>Cantidad total de salones de chat por usuario</p></td>
+<td><p>apartado</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de salones de chat pequeños por usuario</p></td>
-<td><p>12</p></td>
+<td><p>Cantidad de salones de chat pequeños por usuario</p></td>
+<td><p>2007</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de salones de chat medianos por usuario</p></td>
+<td><p>Cantidad de salones de chat medianos por usuario</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de salones de chat grandes por usuario</p></td>
+<td><p>Cantidad de salones de chat grandes por usuario</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de salones a los que se han unido por usuario</p></td>
-<td><p>24</p></td>
+<td><p>Cantidad de salones a los que se han unido por usuario</p></td>
+<td><p>veinticuatro</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tasa máxima de uniones</p></td>
@@ -551,68 +617,83 @@ La siguiente tabla describe el modelo de usuario de Servidor de chat persistente
 </tr>
 <tr class="odd">
 <td><p>Tasa de chats en salones de chat pequeños</p></td>
-<td><p>22,22/segundo</p></td>
+<td><p>22.22/second</p></td>
 </tr>
 <tr class="even">
 <td><p>Tasa de chats en salones de chat medianos</p></td>
-<td><p>1,67/segundo</p></td>
+<td><p>1.67/second</p></td>
 </tr>
 <tr class="odd">
 <td><p>Tasa de chats en salones de chat grandes</p></td>
-<td><p>~0,15/segundo</p></td>
+<td><p>~0.15/second</p></td>
 </tr>
 <tr class="even">
 <td><p>Porcentaje de salones de chat configurados con invitaciones</p></td>
 <td><p>50%</p></td>
 </tr>
 <tr class="odd">
-<td><p>Porcentaje de miembros directos</p></td>
+<td><p>Porcentaje de pertenencia directa</p></td>
 <td><p>50%</p></td>
 </tr>
 <tr class="even">
-<td><p>Porcentaje de miembros de grupo</p></td>
+<td><p>Porcentaje de pertenencia de grupo</p></td>
 <td><p>50%</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número medio de afiliaciones de antecesores en Servicios de dominio de Active Directory</p></td>
+<td><p>Número promedio de afiliaciones antecesoras en servicios de dominio de Active Directory</p></td>
 <td><p>100 - 200</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de contactos suscritos por usuario</p></td>
+<td><p>Cantidad de contactos suscritos por usuario</p></td>
 <td><p>80</p></td>
 </tr>
 <tr class="odd">
-<td><p>Promedio de extremos por usuario</p></td>
-<td><p>1,5</p></td>
+<td><p>Cantidad promedio de extremos por usuario</p></td>
+<td><p>1.5</p></td>
 </tr>
 <tr class="even">
-<td><p>Número medio de salones de chat visibles por extremo</p></td>
-<td><p>1,5</p></td>
+<td><p>Cantidad promedio de salones de chat visibles por extremo</p></td>
+<td><p>1.5</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número medio de salones de chat visibles por usuario</p></td>
+<td><p>Cantidad promedio de salones de chat visibles por usuario</p></td>
 <td><p>2,25 (50% para 1 salón y 50% para 2 salones); hasta 6 salones abiertos, uno por monitor</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de participantes sondeados por intervalo</p></td>
+<td><p>Cantidad de participantes sondeados por intervalo</p></td>
 <td><p>25 por salón de chat visible</p></td>
 </tr>
 <tr class="odd">
 <td><p>Longitud del intervalo de sondeo</p></td>
-<td><p>5 minutos</p></td>
+<td><p>5 minutos</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de participantes sondeados por segundo</p></td>
-<td><p>15.000</p></td>
+<td><p>Cantidad de participantes sondeados por segundo</p></td>
+<td><p>15,000</p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de cambios de presencia por hora y usuario</p></td>
+<td><p>Cantidad de cambios de presencia por hora y usuario</p></td>
 <td><p>6</p></td>
 </tr>
 <tr class="even">
-<td><p>Número de cambios de presencia por segundo</p></td>
-<td><p>133,33</p></td>
+<td><p>Cantidad de cambios de presencia por segundo</p></td>
+<td><p>133.33</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

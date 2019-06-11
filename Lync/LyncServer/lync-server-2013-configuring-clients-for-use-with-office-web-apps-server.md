@@ -1,23 +1,53 @@
-﻿---
-title: "Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server"
-TOCTitle: Configuración de clientes para su uso con Office Web Apps Server
-ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205339(v=OCS.15)
-ms:contentKeyID: 48276983
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de clientes para su uso con Office Web Apps Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring clients for use with Office Web Apps Server
+ms:assetid: e5eaead7-0b32-42fb-97eb-ca203af59a9d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205339(v=OCS.15)
+ms:contentKeyID: 48185668
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 263f53b61aa609c4385af2a9646bf84da2dea3cd
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842273"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-clients-of-lync-server-2013-for-use-with-office-web-apps-server"></a>Configuración de clientes de Lync Server 2013 para su uso con Office Web Apps Server
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-25_
 
-Si quiere que los usuarios experimenten todas las capacidades de Office Web App Server, actualícelos a Microsoft Lync 2013. Solo los usuarios de Lync 2013 podrán hacer tareas como desplazarse por diapositivas de PowerPoint independientemente de la presentación real de PowerPoint. (Es decir, estos usuarios podrán mirar cualquier diapositiva de la presentación en cualquier momento, sin interferir de ningún modo en la presentación real.) Los usuarios que no usen Lync 2013 seguirán pudiendo unirse a conferencias en línea y ver la presentación de PowerPoint. No obstante, no podrán desplazarse independientemente por las diapositivas, ni podrán ver las transiciones entre diapositivas, ni ver los vídeos incrustados..
+Si quiere que los usuarios experimenten todas las capacidades de Office Web App Server, debe actualizar esos usuarios a Microsoft Lync 2013. solo los usuarios de Lync 2013 podrán realizar tareas como desplazarse por las diapositivas de PowerPoint independientemente de la presentación real de PowerPoint. (Es decir, estos usuarios pueden ver cualquier diapositiva de la presentación en cualquier momento, sin interferir de ninguna manera con la presentación real). Los usuarios que no utilicen Lync 2013 seguirán pudiendo unirse a conferencias en línea y ver la presentación de PowerPoint. sin embargo, no podrán desplazarse independientemente por las diapositivas, ni podrán ver las transiciones de diapositivas ni ver los vídeos incrustados.
 
-Estas capacidades estarán siempre disponibles para los usuarios de Lync 2013. Y esto es cierto aunque el moderador de PowerPoint ejecute Microsoft Lync 2010. Si una presentación de PowerPoint está hospedada por un usuario que ejecuta Lync 2010, Lync Server 2013 se coordinará con Office Web Apps Server para garantizar que los usuarios de Lync 2013 vean la versión Office Web Apps Server de la presentación. Office Web Apps Server no proporciona servicios de PowerPoint a los usuarios que ejecuten clientes que no sean Lync 2013. En su lugar, estos usuarios se conectan al servicio del servidor de conferencia y ven las presentaciones de PowerPoint igual que lo hacían en Microsoft Lync Server 2010. Esto también significa que estos usuarios solo tendrán acceso a las capacidades más limitadas ofrecidas por Lync Server 2010.
+Tenga en cuenta que estas capacidades siempre estarán disponibles para los usuarios de Lync 2013. Esto es cierto incluso si el moderador de PowerPoint ejecuta Microsoft Lync 2010. Si un usuario que ejecuta Lync 2010 está hospedando una presentación de PowerPoint, Lync Server 2013 se coordinará con Office Web Apps Server para asegurarse de que los usuarios de Lync 2013 verán la versión de Office Web Apps Server de la presentación. Office Web Apps Server no proporciona servicios de PowerPoint para los usuarios que ejecutan clientes distintos de Lync 2013. En su lugar, estos usuarios se conectan al servicio del servidor de conferencia y ven las presentaciones de PowerPoint de la misma manera que lo hacían en Microsoft Lync Server 2010. Esto también significa que estos usuarios solo tendrán acceso a las funciones más limitadas que ofrece Lync Server 2010.
 
-Aunque no se necesita ninguna configuración cliente para Office Web Apps Server (salvo actualizar los usuarios a Lync 2013), recomendamos que los asistentes a la conferencia se actualicen a Internet Explorer 9. Aunque se puede obtener acceso a las conferencias con Internet Explorer 8, existen algunas limitaciones al uso del explorador web. Por ejemplo, los usuarios de Internet Explorer 8 no podrán cambiar el tamaño de la región de PowerPoint por un tamaño personalizado. En su lugar, tendrán que limitarse a usar uno de los tamaños de región predefinidos. Igualmente, los usuarios de Internet Explorer 8 no podrán reproducir archivos multimedia.
+Aunque no se necesita ninguna configuración de cliente para Office Web Apps Server (aparte de la actualización de usuarios a Lync 2013), se recomienda que los asistentes a la Conferencia se actualicen a Internet Explorer 9. A pesar de que se puede acceder a las conferencias con Internet Explorer 8, hay algunas limitaciones en el uso de ese explorador Web. Por ejemplo, los usuarios de Internet Explorer 8 no podrán cambiar el tamaño de la fase de PowerPoint a un tamaño personalizado; en su lugar, se limitarán a usar uno de los tres tamaños de escenario predefinidos. Del mismo modo, los usuarios de Internet Explorer 8 no podrán reproducir archivos multimedia.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

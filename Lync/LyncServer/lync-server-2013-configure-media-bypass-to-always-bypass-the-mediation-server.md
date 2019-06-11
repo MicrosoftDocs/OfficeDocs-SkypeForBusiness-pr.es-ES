@@ -1,53 +1,94 @@
-﻿---
-title: "Configurar el desvío de medios en Lync Server 2013 para omitir servidor de mediación"
-TOCTitle: "Conf. le contourn. de média ds LS 2013 pr tjs contourner le serv. de médiation"
-ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg425846(v=OCS.15)
-ms:contentKeyID: 48274914
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configurar la omisión de medios para omitir siempre el servidor de mediación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure media bypass to always bypass the Mediation Server
+ms:assetid: 370c4f54-e520-4d77-96a3-84c5e84a9996
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg425846(v=OCS.15)
+ms:contentKeyID: 48183819
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 7aca094110036692c5ac5327b166a3f81e4b769f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842349"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar el desvío de medios en Lync Server 2013 para omitir siempre el servidor de mediación
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configure-media-bypass-in-lync-server-2013-to-always-bypass-the-mediation-server"></a>Configure media bypass in Lync Server 2013 to always bypass the Mediation Server
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-25_
 
-
-> [!NOTE]
-> En este tema se presupone que ya ha configurado el desvío de medios para las conexiones de enlace troncal con un par (una puerta de enlace de red telefónica conmutada [RTC], un sistema PBX IP o un controlador de borde de sesión [SBC] en un proveedor de servicios de telefonía por Internet [ITSP]) para un sitio o servicio específico en el que desea que los medios omitan el servidor de mediación.<BR>No puede configurar los medios para que omitan siempre el servidor de mediación al tiempo que también habilita el control de admisión de llamadas. Estas configuraciones son incompatibles y, por lo tanto, se excluyen mutuamente en la interfaz de usuario de Panel de control de Lync Server.
+<div>
 
 
+> [!NOTE]  
+> En este tema se supone que ya ha configurado la omisión de medios para cualquier conexión troncal a un interlocutor (una puerta de enlace de red de telefonía pública conmutada (RTC), un IP-PBX o un controlador de borde de sesión (SBC) en un proveedor de servicios de telefonía de Internet (ITSP)) para una determinada sitio o servicio para el que quiere que el medio eluda el servidor de mediación.<BR>No puede configurar los medios para omitir siempre el servidor de mediación y también habilitar el control de admisión de llamadas. Esta configuración es incompatible y, por lo tanto, es mutuamente excluyente en la interfaz de usuario del panel de control de Lync Server.
 
-Además de habilitar el desvío de medios para conexiones de enlace troncal individuales asociadas a un par en el servidor de mediación, debe configurar también opciones globales para el desvío de medios. Si sigue los pasos indicados en este tema para configurar las opciones globales del desvío de medios, se presupone que cuenta con una buena conectividad entre los extremos de Lync y cualquier par para el que haya configurado el desvío de medios en la conexión de enlace troncal.
 
-Si no dispone de buena conectividad entre los extremos de Lync Server y todos los pares con el servidor de mediación cuyas conexiones de enlace troncal se han habilitado para el desvío de medios, debe configurar las opciones globales de desvío de medios para que usen la información del sitio y la región cuando se emplee el desvío de medios. Con esto se permite un control más preciso para determinar cuándo los medios omiten el servidor de mediación. Para ello, siga en su lugar los pasos indicados en [Configurar las opciones globales del desvío de medios en Lync Server 2013 para usar la información de sitio y región](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) y [Asociar una subred a un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
 
-## Para habilitar globalmente el desvío de medios para que omita siempre el servidor de mediación
+</div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+Además de habilitar la omisión de medios para conexiones troncales individuales asociadas con un servidor de mediación, también debe establecer la configuración global para la omisión de medios. Si usa los pasos de este tema para establecer la configuración global de omisión de elementos multimedia, se supone que tiene una buena conectividad entre los puntos de conexión de Lync y cualquier elemento del mismo nivel para el que haya configurado el bypass de medios en la conexión troncal.
+
+Si no tiene buena conectividad entre los puntos de conexión de Lync Server y todos los elementos del servidor de media cuyas conexiones troncales se han habilitado para la omisión de medios, debe configurar la configuración de omisión de multimedia global para usar la información del sitio y de la región cuando usar la omisión de medios. Esto permite un mayor control para determinar cuándo el contenido multimedia pasa por alto el servidor de mediación. Para ello, siga los pasos de [configurar la configuración global de omisión de medios en Lync server 2013 para usar la información del sitio y de la región](lync-server-2013-configure-media-bypass-global-settings-to-use-site-and-region-information.md) y asociar [una subred con un sitio de red en Lync Server 2013 en](lync-server-2013-associate-a-subnet-with-a-network-site.md) su lugar.
+
+<div>
+
+## <a name="to-enable-media-bypass-globally-to-always-bypass-the-mediation-server"></a>Para habilitar globalmente el desvío de medios para que omita siempre el servidor de mediación
+
+1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 2.  En la barra de navegación izquierda, haga clic en **Configuración de red**.
 
 3.  Haga doble clic en la configuración **Global** de la lista.
 
-4.  En la página **Editar configuración global**, seleccione la casilla **Habilitar desvío de medios**.
+4.  En la página **Editar configuración global**, seleccione la casilla **Habilitar omisión de medios**.
 
-5.  Haga clic en **Desviar siempre**.
+5.  Haga clic en **Omitir siempre**.
 
 6.  Haga clic en **Confirmar**.
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Configurar la omisión de medios en Lync Server 2013](lync-server-2013-configure-media-bypass.md)  
-[Opciones globales de desvío de medios en Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
+[Opciones de omisión de multimedia global en Lync Server 2013](lync-server-2013-global-media-bypass-options.md)  
 [Omisión de medios y servidor de mediación en Lync Server 2013](lync-server-2013-media-bypass-and-mediation-server.md)  
 
-#### Otros recursos
 
-[Planificar la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)
+[Planificar la omisión de medios en Lync Server 2013](lync-server-2013-planning-for-media-bypass.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

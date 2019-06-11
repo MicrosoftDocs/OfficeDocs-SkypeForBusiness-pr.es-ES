@@ -1,45 +1,79 @@
-﻿---
-title: "Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013"
-TOCTitle: "Mod. des it. de comm. voc. pour l’ut. du nveau serv. de médiation LS 2013"
-ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205162(v=OCS.15)
-ms:contentKeyID: 48276330
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Cambiar las rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Change voice routes to use the new Lync Server 2013 Mediation Server
+ms:assetid: acd487b3-377c-46bf-9f71-fe6152002664
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205162(v=OCS.15)
+ms:contentKeyID: 48185069
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 898901690b1caf5d57b33ffaec7231080554cca2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842096"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Cambiar rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="change-voice-routes-to-use-the-new-lync-server-2013-mediation-server"></a>Cambiar las rutas de voz para usar el nuevo servidor de mediación de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-28_
 
-Con este procedimiento se cambian las rutas de voz a fin de utilizar el servidor de mediación de Lync Server 2013 en vez del servidor de mediación heredado de Office Communications Server 2007 R2.
+En este procedimiento se cambian las rutas de voz para usar el servidor de mediación de Lync Server 2013, en lugar del servidor de mediación de Office Communications Server 2007 R2.
 
-## Para cambiar las rutas de voz para usar el nuevo servidor de mediación
+<div>
+
+## <a name="to-change-the-voice-routes-to-use-the-new-mediation-server"></a>Para cambiar las rutas de voz para usar el nuevo servidor de mediación
 
 1.  Panel de control de Lync Server 2013
 
-2.  En el panel izquierdo, seleccione **Enrutamiento de voz** y luego **Ruta** .
+2.  En el panel izquierdo, seleccione **enrutamiento de voz** y ****, a continuación, enrutar.
 
-3.  Haga clic en **Nueva** para crear una nueva ruta de voz.
+3.  Haga clic en **nuevo** para crear una nueva ruta de voz.
 
 4.  Rellene los siguientes campos:
     
-      - **Nombre** : escriba un nombre descriptivo de la ruta de voz. En este documento usaremos **W14PSTNRoute** .
+      - **Nombre**: escriba un nombre descriptivo para la ruta de voz. Para este documento, usaremos **W15PSTNRoute**.
     
-      - **Descripción** : escriba una breve descripción de la ruta de voz.
+      - **Descripción**: escriba una breve descripción de la ruta de voz.
 
-5.  Omita todas las secciones restantes hasta llegar a **Puertas de enlace asociadas** . Haga clic en **Agregar** . Seleccione la nueva puerta de enlace predeterminada y haga clic en **Aceptar** .
+5.  Omita todas las secciones restantes hasta que llegue **a las puertas de enlace asociadas**. Haga clic en **Agregar**. Seleccione la nueva puerta de enlace predeterminada y haga clic en **Aceptar**.
 
-6.  En **Usos de la RTC asociados** , haga clic en **Seleccionar** .
+6.  En **usos de RTC asociados**, haga clic en **seleccionar**.
 
-7.  En la página **Seleccionar registro de uso de RTC** , seleccione un nombre de registro y haga clic en **Aceptar** .
+7.  En la página **seleccionar registro de uso de RTC** , seleccione un nombre de registro y, a continuación, haga clic en **Aceptar**.
 
-8.  En la página **Nueva ruta de voz** , haga clic en **Aceptar** para crear la ruta de voz.
+8.  En la **nueva** página de la ruta de voz, haga clic en **Aceptar** para crear la **ruta de voz**.
 
-9.  En la página **Enrutamiento de voz** , seleccione **Ruta** .
+9.  En la página de **enrutamiento de voz** , seleccione enrutar. ****
 
-10. Mueva la ruta que acaba de crear al principio de la lista y seleccione **Confirmar** .
+10. Mueva la ruta recién creada a la parte superior de la lista y, a continuación, seleccione **confirmar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

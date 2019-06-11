@@ -1,21 +1,41 @@
-﻿---
-title: 'Lync Server 2013: Componentes y topologías para la supervisión'
-TOCTitle: Componentes y topologías para la supervisión
-ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412952(v=OCS.15)
-ms:contentKeyID: 48276569
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Componentes y topologías para la supervisión'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for monitoring
+ms:assetid: c1bb36b0-1fb8-4d8e-9cc9-9bef740fe3c6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412952(v=OCS.15)
+ms:contentKeyID: 48185313
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a0c848b3c404bc9bce3b54d6ed52157d1b9da679
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842515"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componentes y topologías para la supervisión en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="components-and-topologies-for-monitoring-in-lync-server-2013"></a>Componentes y topologías para la supervisión en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-05_
 
-Dado que los agentes de recopilación de datos unificados se instalan y activan automáticamente en cada servidor front-end, no es necesario configurar un servidor para que actúe como Servidor de supervisión: cada servidor front-end funciona de hecho como Servidor de supervisión. No obstante, deberá instalar y configurar una base de datos para que actúe como almacén de datos back-end para los datos de supervisión. Microsoft Lync Server 2013 puede usar cualquiera de las bases de datos siguientes como almacén back-end para la supervisión:
+Debido a que los agentes de recopilación de datos unificados se instalan y activan automáticamente en cada servidor front-end, no es necesario configurar un servidor para que actúe como servidor de supervisión; cada servidor front-end funciona como servidor de supervisión. Sin embargo, necesitará instalar y configurar una base de datos para que actúe como almacén de datos del back-end para los datos de supervisión. Microsoft Lync Server 2013 puede usar cualquiera de las siguientes bases de datos como almacén back-end para la supervisión:
 
   - Microsoft SQL Server 2008 R2 Enterprise Edition
 
@@ -25,25 +45,39 @@ Dado que los agentes de recopilación de datos unificados se instalan y activan 
 
   - Microsoft SQL Server 2012 Standard Edition
 
-Tenga en cuenta que debe usar las ediciones de 64 bits de estas bases de datos y que las versiones de 32 bits de SQL Server no se pueden usar como almacén back-end para la supervisión. Asimismo, Lync Server 2013 no admite las versiones Express Edition de SQL Server 2008 ni de SQL Server 2012. Para más información sobre los requisitos de base de datos para Lync Server 2013, consulte el tema [Compatibilidad con software de base de datos en Lync Server 2013](lync-server-2013-database-software-support.md) en la guía de compatibilidad de Lync Server 2013.
+Tenga en cuenta que debe usar las ediciones de 64 bits de estas bases de datos; las versiones de 32 bits de SQL Server no se pueden usar como almacén de back-end para la supervisión. Del mismo modo, Lync Server 2013 no es compatible con las ediciones Express de SQL Server 2008 o SQL Server 2012. Para obtener más información sobre los requisitos de base de datos de Lync Server 2013 consulte el tema [compatibilidad de software de base de datos en Lync server 2013](lync-server-2013-database-software-support.md) en la guía de compatibilidad de lync Server 2013.
 
-Recuerde que SQL Server debe estar instalado y configurado antes de implementar y configurar la supervisión. No obstante, solo tiene que implementar el propio SQL Server, no tiene que instalar las bases de datos de supervisión por adelantado. Estas bases de datos se crearán automáticamente cuando publique la topología de Lync Server.
+Recuerde que es preciso que SQL Server esté instalado y configurado antes de implementar y configurar la supervisión. Sin embargo, solo necesita implementar SQL Server en sí; no es necesario configurar las bases de datos de supervisión con antelación. En su lugar, estas bases de datos se crearán automáticamente cuando publique la topología de Lync Server.
 
-Al supervisar los datos se puede compartir una instancia de SQL Server con otros tipos de datos. Generalmente, las bases de datos de registro detallado de llamadas (LcsCdr) y de calidad de experiencia (QoEMetrics) comparten la misma instancia de SQL. También es habitual que las dos bases de datos de supervisión se encuentren en la misma instancia de SQL que la base de datos de archivado (LcsLog). El único requisito real con relación a las instancias de SQL Server es que cada una de ellas se limite conforme a lo siguiente:
+Al supervisar los datos se puede compartir una instancia de SQL Server con otros tipos de datos. Generalmente, las bases de datos del registro detallado de llamadas (LcsCdr) y de la calidad de la experiencia (QoEMetrics) comparten la misma instancia de SQL. También es habitual que las dos bases de datos de supervisión se encuentren en la misma instancia de SQL que la base de datos de archivado (LcsLog). El único requisito real con relación a las instancias de SQL Server es que cada una de ellas se limite conforme a lo siguiente:
 
-  - Una instancia de la base de datos back-end de Lync Server 2013. Como norma general, no es aconsejable que la base de datos de supervisión se encuentre en la misma instancia de SQL ni siquiera en el mismo equipo, que la base de datos back-end. Aunque técnicamente es posible, corre el riesgo de que la base de datos de supervisión agote el espacio en disco que necesita la base de datos back-end.
+  - Una instancia de la base de datos back-end de Lync Server 2013. Como norma general, no recomendamos que la base de datos de supervisión se encuentre en la misma instancia de SQL, ni siquiera en el mismo equipo, que la base de datos back-end. Aunque técnicamente es posible, corre el riesgo de que la base de datos de supervisión agote el espacio en disco que necesita la base de datos back-end.
 
-  - Una instancia de la base de datos de registro detallado de llamadas.
+  - Una instancia de la base de datos del registro detallado de llamadas.
 
-  - Una instancia de la base de datos de calidad de experiencia.
+  - Una instancia de la base de datos de la calidad de la experiencia.
 
   - Una instancia de la base de datos de archivado.
 
-En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, deberá configurar varias instancias de SQL Server.
+En otras palabras, no puede tener dos instancias de la base de datos LcsCdr en la misma instancia de SQL Server. Si necesita varias instancias de la base de datos LcsCdr, tendrá que configurar varias instancias de SQL Server.
 
-## Vea también
+<div>
 
-#### Otros recursos
+## <a name="see-also"></a>Vea también
 
-[Implementación de supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md)
+
+[Implementación de la supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,21 +1,43 @@
-﻿---
-title: Configuración de los intervalos de puertos para servidores perimetrales
-TOCTitle: Configuración de los intervalos de puertos para servidores perimetrales
-ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204996(v=OCS.15)
-ms:contentKeyID: 48275604
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de intervalos de puertos para los servidores perimetrales'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring port ranges for your Edge Servers
+ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
+ms:contentKeyID: 48184469
+ms.date: 07/24/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 73827b9c16903a6b3cf06f0c56446c0409fb9cd4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842187"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de los intervalos de puertos para servidores perimetrales
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="configuring-port-ranges-for-your-edge-servers-in-lync-server-2013"></a>Configurar intervalos de puertos para los servidores perimetrales en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2015-07-24_
 
-Con los servidores perimetrales, no tendrá que configurar de forma independiente los intervalos de puertos para el uso compartido de aplicaciones, audio y vídeo. Del mismo modo, no es necesario que los intervalos de puertos utilizados para los servidores perimetrales coincidan con los utilizados con los servidores de mediación, aplicación y conferencia. No obstante, para facilitar la administración, puede que desee cambiar los intervalos de puertos del de los servidores perimetrales para que coincidan con los de los otros servidores. Supongamos que ha configurado los servidores de mediación, aplicación y conferencia para que usen estos intervalos de puertos:
+Con los servidores perimetrales no es necesario configurar distintos intervalos de puertos para el audio, el vídeo y el uso compartido de aplicaciones. del mismo modo, los intervalos de puertos usados para los servidores perimetrales no tienen que coincidir con los intervalos de puertos que se usan en los servidores de conferencias, aplicaciones y mediación. Antes de continuar con nuestro ejemplo, es importante enfatizar que, a pesar de que esta opción existe, le recomendamos que no cambie los intervalos de puerto, ya que esto puede afectar negativamente a algunos escenarios si sale del intervalo de puertos 50000.
+
+Por ejemplo, supongamos que ha configurado los servidores de conferencias, aplicaciones y mediación para que usen estos intervalos de puertos:
 
 
 <table>
@@ -27,7 +49,7 @@ Con los servidores perimetrales, no tendrá que configurar de forma independient
 <thead>
 <tr class="header">
 <th>Tipo de paquete</th>
-<th>Puerto inicial</th>
+<th>Puerto de inicio</th>
 <th>Número de puertos reservados</th>
 </tr>
 </thead>
@@ -48,7 +70,7 @@ Con los servidores perimetrales, no tendrá que configurar de forma independient
 <td><p>8034</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Total</strong></p></td>
+<td><p><strong>Totales</strong></p></td>
 <td><p>--</p></td>
 <td><p>24730</p></td>
 </tr>
@@ -56,15 +78,27 @@ Con los servidores perimetrales, no tendrá que configurar de forma independient
 </table>
 
 
-Como puede ver, sus intervalos de puertos para el uso compartido de aplicaciones, vídeo y audio comienzan en el puerto 40803 y abarcan un total de 24732 puertos. Si lo prefiere, puede configurar un servidor perimetral determinado para que utilice estos valores de puerto generales con un comando similar a este del Shell de administración de Communications Server:
+Como puede ver, los intervalos de puertos para el audio, el vídeo y el uso compartido de aplicaciones comienzan en el puerto 40803 y abarcan un total de 24732 puertos. Si lo prefiere, puede configurar un servidor perimetral determinado para usar estos valores de Puerto generales ejecutando un comando similar a este en el shell de administración de Lync Server:
 
     Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730
 
-También puede usar el comando siguiente para configurar simultáneamente todos los servidores perimetrales de su organización:
+O bien, use el comando siguiente para configurar simultáneamente todos los servidores perimetrales de su organización:
 
     Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_.Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}
 
-Puede comprobar la configuración actual de puertos de sus servidores perimetrales con este comando del Shell de administración de Lync Server:
+Puede comprobar la configuración actual del puerto de los servidores perimetrales con este comando del shell de administración de Lync Server:
 
     Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount
+
+De nuevo, si bien proporcionamos estas opciones, le recomendamos encarecidamente que deje las cosas como están para la configuración del puerto.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

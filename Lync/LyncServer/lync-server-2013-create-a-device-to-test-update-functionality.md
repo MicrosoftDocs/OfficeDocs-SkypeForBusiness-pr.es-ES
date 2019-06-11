@@ -1,71 +1,117 @@
-﻿---
-title: Creación de un dispositivo para probar la funcionalidad de las actualizaciones
-TOCTitle: Creación de un dispositivo para probar la funcionalidad de las actualizaciones
-ms:assetid: ce509fd1-17b3-4b78-b269-fe5d06fe2e1d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182587(v=OCS.15)
-ms:contentKeyID: 48276698
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear un dispositivo para probar la funcionalidad de actualización'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create a device to test update functionality
+ms:assetid: ce509fd1-17b3-4b78-b269-fe5d06fe2e1d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182587(v=OCS.15)
+ms:contentKeyID: 48185466
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ad2fa5283561e1096cfe7e3053db59c3cd2e40e1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842138"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación de un dispositivo para probar la funcionalidad de las actualizaciones
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-a-device-to-test-update-functionality-in-lync-server-2013"></a>Crear un dispositivo para probar la funcionalidad de actualización en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede agregar un dispositivo de prueba a la página **Dispositivo de prueba** y luego usar este dispositivo para comprobar las funciones de las actualizaciones nuevas antes de implementar estas actualizaciones en los dispositivos de producción. Pruebe un dispositivo de forma global (en todo el entorno de Lync Server) o en un sitio único. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando agrega un dispositivo, aparece en la lista de la página **Dispositivo de prueba** de Panel de control de Lync Server.
+Puede agregar un dispositivo de prueba a la página **Dispositivo de prueba** y, luego, usar este dispositivo para comprobar la funcionalidad de las actualizaciones nuevas antes de implementarlas en los dispositivos de producción. Puede probar un dispositivo de forma global (en todo el entorno de Lync Server) o dentro de un solo sitio. Un dispositivo de prueba se identifica por su dirección Media Access Control (MAC) o número de serie. Cuando agregue un dispositivo, aparecerá en la lista de la página **probar dispositivo** del panel de control de Lync Server.
 
-## Para agregar un dispositivo de prueba
+<div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-add-a-test-device"></a>Para agregar un dispositivo de prueba
 
-2.  En la barra de navegación izquierda, haga clic en **Clientes** y luego en **Dispositivo de prueba**.
+1.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  Haga clic en **Nuevo** y después en **Dispositivo de prueba global** o en **Dispositivo de prueba de sitio**.
+2.  En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en **probar dispositivo**.
 
-4.  Siga uno de estos procedimientos:
+3.  Haga clic en **nuevo**y, a continuación, en **dispositivo de prueba global** o **dispositivo de prueba del sitio**.
+
+4.  Siga uno de estos pasos:
     
-      - Si hizo clic en **Dispositivo de prueba global**, vaya al paso siguiente.
+      - Si hizo clic en **dispositivo de prueba global**, vaya al siguiente paso.
     
-      - Si hizo clic en **Dispositivo de prueba de sitio**, seleccione un sitio en la lista de sitios disponibles y luego haga clic en **Aceptar**.
+      - Si hizo clic en **dispositivo de prueba de sitio**, seleccione un sitio de la lista de sitios disponibles y, a continuación, haga clic en **Aceptar**.
 
-5.  En **Dispositivo de prueba nuevo**, especifique un nombre para el dispositivo en **Nombre de dispositivo**.
+5.  En **nuevo dispositivo de prueba**, escriba un nombre para el dispositivo en **nombre del dispositivo**.
 
-6.  En **Tipo de identificador**, haga clic en **Dirección MAC** o en **Número de serie**.
+6.  En **tipo de identificador**, haga clic en **dirección Mac** o en **número de serie**.
 
-7.  En el cuadro **Identificador único**, escriba la dirección MAC o número de serie del dispositivo.
+7.  En el cuadro **identificador único** , escriba la dirección Mac o el número de serie del dispositivo.
 
 8.  Haga clic en **Confirmar**.
 
-## Crear dispositivos de prueba mediante cmdlets de Windows PowerShell
+</div>
 
-Los dispositivos de prueba se pueden crear con Windows PowerShell y el cmdlet New-CsTestDevice. Este cmdlet se ejecuta desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-Cuando cree dispositivos de prueba con este cmdlet, haga dos cosas:
+## <a name="creating-test-devices-by-using-windows-powershell-cmdlets"></a>Creación de dispositivos de prueba con cmdlets de Windows PowerShell
 
-  - Especifique el valor de MACAddress o de SerialNumber como IdentifierType.
+Los dispositivos de prueba se pueden crear con Windows PowerShell y el cmdlet New-CsTestDevice. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
 
-  - Incluya el ámbito cuando especifique la identidad del dispositivo. Para crear un dispositivo nuevo en el ámbito global use una sintaxis similar a la siguiente:
+Al crear dispositivos de prueba con este cmdlet, debe hacer dos cosas:
+
+  - Especifique MACAddress o SerialNumber como IdentifierType.
+
+  - Incluir el ámbito al especificar la identidad del dispositivo. Para crear un nuevo dispositivo en el ámbito global use una sintaxis similar a la siguiente:
     
         -Identity "global/WindowsPhone"
     
-    Para crear un dispositivo de prueba en el ámbito del sitio, use una sintaxis similar a la siguiente:
+    Para crear un dispositivo de prueba en el ámbito de sitio, use una sintaxis similar a esta:
     
         -Identity "site:Redmond/WindowsPhone"
 
-## Para crear un dispositivo de prueba mediante una dirección MAC
+<div>
+
+## <a name="to-create-a-test-device-by-using-the-mac-address"></a>Para crear un dispositivo de prueba con la dirección MAC
 
   - Este comando crea un dispositivo de prueba en el ámbito global y usa la dirección MAC como IdentifierType:
     
         New-CsTestDevice -Identity "global/WindowsPhone" -IdentifierType "MACAddress" -Identifier "01:02:03:04:05:06"
 
-## Para crear un dispositivo de prueba mediante un número de serie
+</div>
 
-  - Este comando crea un dispositivo de prueba nuevo en el ámbito de sitio (para el sitio de Redmond) y usa el número de serie como IdentifierType:
+<div>
+
+## <a name="to-create-a-test-device-by-using-the-serial-number"></a>Para crear un dispositivo de prueba con el número de serie
+
+  - Este comando crea un nuevo dispositivo de prueba en el ámbito del sitio (para el sitio de Redmond) y usa el número de serie como IdentifierType:
     
         New-CsTestDevice -Identity "site:Redmond/WindowsPhone" -IdentifierType "SerialNumber" -Identifier "01ABC5419JKR55T"
 
-Para más información, vea el tema de ayuda del cmdlet [New-CsTestDevice](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsTestDevice).
+</div>
+
+Para obtener más información, vea el tema de ayuda sobre el cmdlet [New-CsTestDevice](https://docs.microsoft.com/powershell/module/skype/New-CsTestDevice) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

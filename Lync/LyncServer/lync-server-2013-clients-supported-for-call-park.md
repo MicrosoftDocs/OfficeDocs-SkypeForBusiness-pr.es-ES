@@ -1,33 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Clientes admitidos para el estacionamiento de llamadas'
-TOCTitle: Clientes admitidos para el estacionamiento de llamadas
-ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412958(v=OCS.15)
-ms:contentKeyID: 48276573
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Clientes admitidos para el estacionamiento de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Clients supported for Call Park
+ms:assetid: c236d2ba-9d83-418c-9cbc-92541f115fb0
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412958(v=OCS.15)
+ms:contentKeyID: 48185320
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 46b9ac77a82cf8d833c3f06a8fe3c738e2501937
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842541"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Clientes admitidos para el estacionamiento de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="clients-supported-for-call-park-in-lync-server-2013"></a>Clientes admitidos para el estacionamiento de llamadas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-13_
 
-En esta sección se indican los clientes que se pueden usar para estacionar llamadas y los clientes que se pueden usar para recuperar llamadas estacionadas.
+En esta sección se identifican los clientes que se pueden usar para detener llamadas y los clientes que se pueden usar para recuperar llamadas estacionadas.
 
-## Clientes admitidos para el estacionamiento de llamadas
+<div>
 
-Se pueden estacionar las llamadas de cualquier IP, PBX, RTC o teléfono móvil.
+## <a name="clients-supported-for-parking-calls"></a>Clientes compatibles con el estacionamiento de llamadas
+
+Se pueden estacionar las llamadas de cualquier IP, central de conmutación (PBX), red telefónica conmutada (RTC) o teléfono móvil.
+
+<div>
 
 
-> [!NOTE]
+> [!NOTE]  
 > Únicamente se pueden estacionar las llamadas de audio. No se pueden estacionar los mensajes instantáneos ni las conferencias.
 
 
 
-Los siguientes clientes pueden usar el Estacionamiento de llamadas para estacionar llamadas:
+</div>
+
+Los siguientes clientes pueden usar el activador de llamadas para detener llamadas:
 
   - Lync 2013
 
@@ -37,19 +63,27 @@ Los siguientes clientes pueden usar el Estacionamiento de llamadas para estacion
 
   - Lync Phone Edition
 
-
-> [!NOTE]
-> Los teléfonos móviles no pueden usar el Estacionamiento de llamadas para estacionar llamadas.
+<div>
 
 
+> [!NOTE]  
+> Los teléfonos móviles no pueden usar el parque de llamadas para detener llamadas.
 
-## Clientes admitidos para la recuperación de llamadas
 
-Los intervalos de órbitas están configurados como bloques de extensiones virtuales (extensiones sin ningún usuario ni teléfono asignado). Cuando configura órbitas como extensiones virtuales, teléfonos móviles y teléfono RTC, no puede recuperar llamadas estacionadas.
 
-Los usuarios asociados no pueden recuperar llamadas estacionadas.
+</div>
 
-Los siguientes clientes pueden recuperar llamadas que están estacionadas en el Estacionamiento de llamadas:
+</div>
+
+<div>
+
+## <a name="clients-supported-for-retrieving-calls"></a>Clientes compatibles con la recuperación de llamadas
+
+Los intervalos de órbitas están configurados como bloques de extensiones virtuales (extensiones sin ningún usuario ni teléfono asignado). Cuando configuras órbitas como extensiones virtuales, teléfonos móviles y teléfono RTC, no puedes recuperar llamadas estacionadas.
+
+Los usuarios federados no pueden recuperar llamadas estacionadas.
+
+Los siguientes clientes pueden recuperar llamadas estacionadas en el parque de llamadas:
 
   - Lync 2013
 
@@ -61,5 +95,17 @@ Los siguientes clientes pueden recuperar llamadas que están estacionadas en el 
 
   - Teléfonos IP de área común
 
-  - Los teléfonos que no usan IP que están conectados a la infraestructura de Lync Server 2013, incluidos los teléfonos de área común y los teléfonos PBX
+  - Teléfonos no basados en IP que están conectados a la infraestructura de Lync Server 2013, incluidos teléfonos de área común y teléfonos de central de conmutación (PBX)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

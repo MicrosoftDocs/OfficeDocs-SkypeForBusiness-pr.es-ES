@@ -1,31 +1,69 @@
-﻿---
-title: 'Lync Server 2013: Agregar roles de servidor'
-TOCTitle: Agregar roles de servidor
-ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412794(v=OCS.15)
-ms:contentKeyID: 48276258
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Agregar roles de servidor'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Adding server roles
+ms:assetid: a8ff5f0b-50eb-43ff-941f-028e4383783c
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412794(v=OCS.15)
+ms:contentKeyID: 48185033
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3954fd59431341e917a3bf39dc9790d66cf56312
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842924"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Agregar roles de servidor en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="adding-server-roles-in-lync-server-2013"></a>Agregar roles de servidor en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-06-19_
 
-Una vez instalada y puesta en marcha la implementación, puede agregar roles de servidor adicionales para Lync Server 2013, como un Director, un Servidor de mediación independiente (solo Enterprise Edition) y un fea-mediation-server-role independiente.
+Una vez que su implementación inicial esté en funcionamiento, puede Agregar roles de servidor adicionales para Lync Server 2013, como un director o un servidor de mediación independiente.
+
+<div>
 
 
-> [!NOTE]
-> Antes de instalar roles de servidor adicionales, consulte los temas referentes a la planeación relacionados con cada rol en Planeación de Microsoft Lync Server 2010 (candidato de versión comercial). Los temas sobre implementación están disponibles en la lista a continuación.
+> [!NOTE]  
+> Antes de realizar la tarea de instalación de roles de servidor adicionales, vea los temas de planeación relacionados con cada rol.
 
 
 
-## En esta sección
+</div>
+
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Configurar una conferencia de acceso telefónico local en Lync Server 2013](lync-server-2013-configuring-dial-in-conferencing.md)
 
-Asimismo, para obtener información detallada sobre la implementación de los dispositivos y el software cliente que pueden usarse con Lync Server 2013, consulte [Implementación de clientes y dispositivos en Lync Server 2013](lync-server-2013-deploying-clients-and-devices.md).
+Además, para obtener información detallada sobre la implementación del software de cliente y los dispositivos que se pueden usar con Lync Server 2013, consulte [implementación de clientes y dispositivos en Lync server 2013](lync-server-2013-deploying-clients-and-devices.md).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

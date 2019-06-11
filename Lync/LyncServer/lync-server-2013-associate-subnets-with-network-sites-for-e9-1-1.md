@@ -1,21 +1,51 @@
-﻿---
-title: Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013
-TOCTitle: Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013
-ms:assetid: f03f3ffb-dc07-4a01-8ab6-526ed786272a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412992(v=OCS.15)
-ms:contentKeyID: 48277124
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: asociar subredes con sitios de red para E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Associate subnets with network sites for E9-1-1
+ms:assetid: f03f3ffb-dc07-4a01-8ab6-526ed786272a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412992(v=OCS.15)
+ms:contentKeyID: 48185787
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d2003def7d831b6282b471c5ec500f80a48e159a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842911"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Asociar subredes a sitios de red para E9-1-1 en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="associate-subnets-with-network-sites-for-e9-1-1-in-lync-server-2013"></a>Asociar subredes con sitios de red para E9-1-1 en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-02_
 
-Todas las subredes de la red deben estar asociadas con un sitio de red específico. Por este motivo la información de las subredes se usa para determinar el sitio de red en el que se encuentra un extremo.
+Cada subred de su red que quiera habilitar para E9-1-1 debe estar asociada a un sitio de red específico. Esto se debe a que la información de subred se usa para determinar el sitio de red en el que se encuentra un extremo.
 
-El servicio E9-1-1 no tiene requisitos especiales para la asociación de subredes con sitios de red. Para crear una asociación entre las subredes y los sitios de red de su topología, siga los procedimientos de [Asociar una subred a un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+E9-1-1 no tiene ningún requisito especial para asociar subredes con sitios de red. Para crear una asociación entre las subredes y los sitios de red de su topología, siga los procedimientos que se describen en [asociar una subred con un sitio de red en Lync Server 2013](lync-server-2013-associate-a-subnet-with-a-network-site.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,46 +1,95 @@
-﻿---
-title: Configure Lync Server 2013 Scenarios
+---
+title: Configurar escenarios de 2013 de Lync Server
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Configure Lync Server 2013 Scenarios
 ms:assetid: 6705346b-1512-4af3-85e4-64dfa6ee6f80
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945596(v=OCS.15)
-ms:contentKeyID: 52061989
-ms.date: 06/25/2014
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945596(v=OCS.15)
+ms:contentKeyID: 51541420
+ms.date: 12/28/2016
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: 93ad7a3be8b69c956b1cca0f1d1554a5fa288f17
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34843055"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configure Lync Server 2013 Scenarios
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-24_
+# <a name="configure-lync-server-2013-scenarios"></a>Configurar escenarios de 2013 de Lync Server
 
-To run the Lync Server 2013 Stress and Performance Tool (LyncPerfTool), the Lync Server 2013 topology must first be configured for the scenarios that will be executed. If Lync Server 2013 is not configured or is configured incorrectly, load simulation will fail in most cases. With the Lync Server 2013 Stress and Performance Tool, we have provided example Shell de administración de Lync Server scripts and basic resource files that can be used as a starting point for configuring Lync Server 2013. This topic describes the Windows PowerShell examples provided. Note that it is not the goal of this topic to describe how to configure Lync Server 2013 in general. For details about working with Windows PowerShell in Lync Server 2013, see the Shell de administración de Lync Server documentation at <http://technet.microsoft.com/en-us/library/gg398474.aspx>.
+</div>
 
-## About Running Lync Server Management Shell Scripts
+<div id="mainSection">
 
-We have provided example Shell de administración de Lync Server scripts that may be used in preparation for running load simulation. Because the scripts are intended for load simulation, they are simple and permissive, and therefore may not be appropriate for production. All scripts are examples and must be reviewed, and, in some cases, modified to reflect your topology. At a minimum, we expect that the Response Group Service (RGS) scenario would need to be modified to specify the agents that are assigned to the agent groups. However, you have the option to not simulate this load.
+<div id="mainBody">
 
-> [!CAUTION]  
-> Take care in reviewing and understanding the examples provided. Scripts will overwrite any existing settings in the topology.
+<span> </span>
+
+_**Última modificación del tema:** 2016-12-28_
+
+Para ejecutar la herramienta Lync Server 2013 stress and Performance (LyncPerfTool), la topología de Lync Server 2013 debe estar configurada en primer lugar para los escenarios que se ejecutarán. Si Lync Server 2013 no está configurado o no está configurado correctamente, la simulación de carga fallará en la mayoría de los casos. Con la herramienta Lync Server 2013 stress and performance, hemos proporcionado ejemplos de scripts del shell de administración de Lync Server y archivos de recursos básicos que se pueden usar como punto de partida para configurar Lync Server 2013. En este tema se describen los ejemplos de Windows PowerShell proporcionados. Tenga en cuenta que no es el objetivo de este tema describir cómo configurar Lync Server 2013 en general. Para obtener más información sobre cómo trabajar con Windows PowerShell en Lync Server 2013, consulte la documentación del shell <https://technet.microsoft.com/en-us/library/gg398474.aspx>de administración de Lync Server en.
+
+<div>
+
+## <a name="about-running-lync-server-management-shell-scripts"></a>Acerca de la ejecución de scripts de Shell de administración de Lync Server
+
+Proporcionamos ejemplos de scripts del shell de administración de Lync Server que se pueden usar en la preparación de la ejecución de la simulación de carga. Dado que los scripts están pensados para la simulación de carga, son sencillos y permisivos, por lo que es posible que no sean adecuados para la producción. Todos los scripts son ejemplos y deben revisarse y, en algunos casos, modificarse para reflejar su topología. Como mínimo, esperamos que el escenario del servicio de grupo de respuesta (RGS) deba modificarse para especificar los agentes que se asignan a los grupos de agentes. Sin embargo, tiene la opción de no simular esta carga.
+
+<div>
 
 
-> [!NOTE]
-> For details about using Windows PowerShell and the Shell de administración de Lync Server, see the Lync Server 2013 Windows PowerShell Blog at <A href="http://go.microsoft.com/fwlink/?linkid=203150">http://go.microsoft.com/fwlink/?LinkId=203150</A>.
+> [!WARNING]  
+> Preste atención en la revisión y la comprensión de los ejemplos proporcionados. Los scripts sobrescribirán cualquier configuración existente en la topología.
 
 
 
-## Stress and Performance Tool Client Version Monikers
+</div>
 
-You may need to configure the Client Version Check policy if you have changed the settings from the default values. For details, see “Client Version Check” at <http://technet.microsoft.com/library/gg39882.aspx>. The Lync Server 2013 Stress and Performance Tool uses the following User Agent Versions by default when communicating with Lync Server 2013:
+<div>
 
-  - LSPT/15.0.0.0 (Lync Server 2013 Stress and Performance Tool)
+
+> [!NOTE]  
+> Para obtener más información sobre el uso de Windows PowerShell y el shell de administración de Lync Server, consulte el blog <A href="https://go.microsoft.com/fwlink/?linkid=203150">https://go.microsoft.com/fwlink/?LinkId=203150</A>de lync Server 2013 de Windows PowerShell en.
+
+
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="stress-and-performance-tool-client-version-monikers"></a>Herramienta de carga y rendimiento del cliente de la versión del cliente
+
+Es posible que tenga que configurar la Directiva de comprobación de versión del cliente si ha cambiado la configuración de los valores predeterminados. Para obtener más información, consulte "configurar versiones de cliente <https://technet.microsoft.com/en-us/library/gg412832(v=ocs.15).aspx>admitidas" en. La herramienta de estrés y rendimiento de Lync Server 2013 usa las siguientes versiones de agente de usuario de forma predeterminada al comunicarse con Lync Server 2013:
+
+  - LSPT/15.0.0.0 (herramienta Lync Server 2013 stress and Performance)
 
   - OCPHONE/.0.522
 
-These are for the Mobility (UCWA) client in LyncPerfTool:
+Estos son para el cliente de Mobility (UCWA) en LyncPerfTool:
 
-  - Ucwa Perf Tool/Web Conference
+  - Herramienta de rendimiento de Ucwa y conferencia Web
 
-  - Ucwa Perf Tool/Mobile
+  - Herramienta de Perf de Ucwa/móvil
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

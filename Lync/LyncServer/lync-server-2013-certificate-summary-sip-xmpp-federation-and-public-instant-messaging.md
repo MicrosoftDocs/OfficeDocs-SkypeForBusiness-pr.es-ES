@@ -1,27 +1,49 @@
-﻿---
-title: "Resumen de certif.: federación SIP, federación XMPP y mensajería instantánea pública"
-TOCTitle: "Résumé des certif. - Fédération SIP, XMPP et messagerie instantanée publique"
-ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618372(v=OCS.15)
-ms:contentKeyID: 49115300
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Resumen del certificado: SIP, Federación XMPP y mensajería instantánea pública'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Certificate summary - SIP, XMPP federation, and public instant messaging
+ms:assetid: 933d6351-cfa6-4432-b3ed-1aff3ac92065
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618372(v=OCS.15)
+ms:contentKeyID: 49105659
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6dccb46b9f2b6d934f1cd0960bb11a369fb585ad
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842623"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de certificados: federación SIP, federación XMPP y mensajería instantánea pública
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="certificate-summary---sip-xmpp-federation-and-public-instant-messaging-in-lync-server-2013"></a>Resumen del certificado: SIP, Federación XMPP y mensajería instantánea pública en Lync Server 2013
 
-Por lo general, los certificados que configure, solicite y asigne a su Servidor perimetral cumplirán los requisitos de los certificados que necesita para la federación con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server.
+</div>
 
-Los requisitos de los certificados para habilitar y establecer comunicaciones con socios del protocolo extensible de mensajería y presencia (XMPP) requieren la adición de entradas para sus dominios XMPP. El registro incluido en el certificado como nombre alternativo del firmante (SAN) será el dominio que puede participar en las comunicaciones XMPP. El dominio puede ser el dominio de nivel de raíz (por ejemplo, contoso.com) si quiere habilitar XMPP para todo el dominio, o bien dominios secundarios seleccionados (por ejemplo, corp.contoso.com o finance.contoso.com) si quiere habilitar XMPP para un subconjunto de usuarios.
+<div id="mainSection">
 
-Al configurar certificados para la conectividad de la mensajería instantánea pública, debe saber que no hay nada que varíe respecto de otros tipos de federación SIP o, incluso, los certificados Servidor perimetral estándar, salvo por el hecho de que America Online (AOL) requiere que el certificado o los certificados (si se trata de un Grupo de servidores perimetrales) contengan también el EKU del cliente. El EKU del cliente se agrega al certificado y forma parte del certificado público externo asignado a su Servidor perimetral.
+<div id="mainBody">
 
-Para confirmar que cumple los requisitos de certificados correctos para su implementación de Servidor perimetral, consulte los temas indicados en la sección **Vea también**.
+<span> </span>
+
+_**Última modificación del tema:** 2013-03-15_
+
+Los certificados que necesita para la Federación con Microsoft Lync Server 2013, Lync Server 2010 y Office Communications Server generalmente se cumplirán con los certificados que configure, solicite y asigne a su servidor perimetral.
+
+Los requisitos de certificados para habilitar y establecer comunicaciones con los partners protocolo de presencia y mensajería extensible (XMPP) requieren agregar entradas a los dominios XMPP. El registro que se incluye en el certificado como un nombre alternativo del sujeto (SAN) será el dominio que puede participar en las comunicaciones XMPP. El dominio puede ser el dominio de nivel raíz (por ejemplo, contoso.com) Si desea habilitar XMPP para todo el dominio o puede seleccionar dominios secundarios (por ejemplo, corp.contoso.com, finance.contoso.com) si va a habilitar XMPP para un subconjunto de usuarios.
+
+Para configurar certificados para la conectividad de mensajería instantánea pública, tenga en cuenta que no hay nada diferente de otros tipos de Federación SIP o incluso de certificados de servidor perimetral estándar, excepto en que America Online (AOL) requiere el certificado o certificados (en el caso de un grupo perimetral) para contener también el EKU de cliente. El EKU de cliente es una adición al certificado y forma parte del certificado público externo que se asigna al servidor perimetral.
+
+Para confirmar que ha cumplido los requisitos de certificado correctos para su implementación del servidor perimetral, revise los temas que aparecen en la sección titulada **también**.
+
+<div>
 
 
 
@@ -34,73 +56,88 @@ Para confirmar que cumple los requisitos de certificados correctos para su imple
 </colgroup>
 <thead>
 <tr class="header">
-<th>Componentes</th>
-<th>Nombre del firmante</th>
-<th>Nombres alternativos del firmante (SAN)</th>
+<th>Componente</th>
+<th>Nombre del asunto</th>
+<th>Nombres alternativos de asunto (SAN)</th>
 <th>Comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Perímetro de acceso/externo</p></td>
+<td><p>Perimetral de acceso externo</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>sip.contoso.com</p>
 <p>webcon.contoso.com</p>
 <p>contoso.com</p>
-<div>
+
+
 
 > [!NOTE]
-> Para admitir el espacio de nombres de XMPP contoso.com
+> Para admitir el espacio de nombres XMPP de contoso.com
 
 
-</div>
 <p>sip.fabrikam.com</p>
-<div>
+
+
 
 > [!NOTE]
-> Para admitir el espacio de nombres de SIP fabrikam.com
+> Para admitir el espacio de nombres SIP fabrikam.com
 
 
-</div>
 <p>fabrikam.com</p>
-<div>
+
+
 
 > [!NOTE]
-> Para admitir el espacio de nombres de XMPP fabrikam.com
+> Para admitir el espacio de nombres XMPP de fabrikam.com
 
-
-</div></td>
-<td><p>El certificado debe provenir de una entidad de certificación pública y debe tener el EKU del servidor y el EKU del cliente si se va a implementar la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces externas de Servidor perimetral para:</p>
+</td>
+<td><p>El certificado debe ser de una entidad de certificación pública y debe tener el EKU de servidor y el EKU de cliente si se va a implementar la conectividad de mensajería instantánea pública con AOL. El certificado se asigna a las interfaces del servidor perimetral externo para:</p>
 <ul>
-<li><p>Servidor perimetral de acceso</p></li>
+<li><p>Servicio perimetral de acceso</p></li>
 <li><p>Servicio perimetral de conferencia web</p></li>
 <li><p>Servicio perimetral A/V</p></li>
 </ul>
-<div>
+
+
 
 > [!NOTE]
-> Técnicamente, no se asigna un certificado al perímetro A/V. La comunicación y la autenticación seguras se administran con el servicio de autenticación de relé multimedia (MRAS). MRAS usa el certificado asignado a la interfaz interna de Servidor perimetral.
+> Técnicamente, no se asigna un certificado al borde de A/V. La comunicación y la autenticación seguras se administran mediante el servicio de autenticación de retransmisión multimedia (MRAS). MRAS usa el certificado asignado a la interfaz interna del servidor perimetral.
 
 
-</div>
-<p>Tenga en cuenta que los SAN se agregan automáticamente al certificado a partir de las definiciones del Generador de topologías. Agregue tantas entradas de SAN como necesite para los dominios SIP adicionales y las demás entradas que necesite admitir. El nombre del firmante se replica en el SAN y debe estar presente para que el funcionamiento sea correcto.</p></td>
+<p>Tenga en cuenta que las redes San se agregan automáticamente al certificado según sus definiciones en el generador de topologías. Agregue las entradas de SAN según sea necesario para dominios SIP adicionales y otras entradas que necesite admitir. El nombre del asunto se replica en el SAN y debe estar presente para que funcione correctamente.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Configuración XMPP de ejemplo en Lync Server 2013 - Federación XMPP con Google Talk](lync-server-2013-example-xmpp-configuration-–-xmpp-federation-with-google-talk.md)  
 
-#### Conceptos
 
 [Plan para certificados de servidores perimetrales en Lync Server 2013](lync-server-2013-plan-for-edge-server-certificates.md)  
 [Resumen de certificado - Servidor perimetral consolidado simple con direcciones IP privadas mediante NAT en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-private-ip-addresses-using-nat.md)  
 [Resumen de certificado - Perímetro consolidado de equipo único con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-single-consolidated-edge-with-public-ip-addresses.md)  
 [Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP privadas con NAT en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-private-ip-addresses-using-nat.md)  
 [Resumen de certificado - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md)  
-[Resumen de certificado - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)
+[Resumen de certificado - Servidor perimetral consolidado ampliado con equilibradores de carga de hardware en Lync Server 2013](lync-server-2013-certificate-summary-scaled-consolidated-edge-with-hardware-load-balancers.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,23 +1,30 @@
-﻿---
-title: Cmdlets que usan identidades de usuario
-TOCTitle: Cmdlets que usan identidades de usuario
-ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn362842(v=OCS.15)
-ms:contentKeyID: 56271347
-ms.date: 06/02/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
-
-# Cmdlets que usan identidades de usuario
+title: Cmdlets de Skype empresarial online que usan una identidad de usuario
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Cmdlets that use a user identity
+ms:assetid: be87409f-6372-4c70-91ac-6ef13dfbe65a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn362842(v=OCS.15)
+ms:contentKeyID: 56558859
+ms.date: 05/04/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 63e0086f4b04dd199a285820db811a57899cdc0f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842095"
+---
+# <a name="cmdlets-in-skype-for-business-online-that-use-a-user-identity"></a>Cmdlets de Skype empresarial online que usan una identidad de usuario
 
  
 
-_**Última modificación del tema:** 2015-06-22_
 
-Skype Empresarial Online permite hacer referencia al parámetro Identity de un usuario individual de varias formas:
+En Skype empresarial online, hay varias maneras de hacer referencia a una identidad de usuario individual:
 
-  - Use el nombre para mostrar de Servicios de dominio de Active Directory del usuario. Por ejemplo:
+  - Use el nombre para mostrar de los servicios de dominio de Active Directory del usuario. Por ejemplo:
     
         -Identity "Ken Myer"
 
@@ -29,48 +36,47 @@ Skype Empresarial Online permite hacer referencia al parámetro Identity de un u
     
         -Identity " kenmyer@litwareinc.com"
 
-  - Use el nombre distintivo (DN) de Servicios de dominio de Active Directory del usuario. Por ejemplo:
+  - Use el nombre completo de los servicios de dominio de Active Directory del usuario. Por ejemplo:
     
         -Identity "CN=48ebd1ba-95d4-460c-b751-811ebf0c4611,OU=fa8226f5-14fa-46da-8 236-039b25bc7a27,OU=Lync Online Tenants,DC=litwareinc,DC=com"
 
-Los cmdlets siguientes aceptan el parámetro Identity de usuario:
+Los siguientes cmdlets aceptan una identidad de usuario:
 
-  - [Disable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Disable-CsMeetingRoom)
+  - [Disable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204723\(v=ocs.15\))
 
-  - [Enable-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Enable-CsMeetingRoom)
+  - [Enable-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205062\(v=ocs.15\))
 
-  - [Get-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsExUmContact)
+  - [Get-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412725\(v=ocs.15\))
 
-  - [Get-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsMeetingRoom)
+  - [Get-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj205277\(v=ocs.15\))
 
-  - [Get-CsOnlineUser](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsOnlineUser?view=skype-ps)
+  - [Get-CsOnlineUser](https://technet.microsoft.com/en-us/library/jj994026\(v=ocs.15\))
 
-  - [Get-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsUserAcp)
+  - [Get-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398978\(v=ocs.15\))
 
-  - [New-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsExUmContact)
+  - [New-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398139\(v=ocs.15\))
 
-  - [Remove-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsExUmContact)
+  - [Remove-CsExUmContact](https://technet.microsoft.com/en-us/library/gg398946\(v=ocs.15\))
 
-  - [Remove-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsUserAcp)
+  - [Remove-CsUserAcp](https://technet.microsoft.com/en-us/library/gg398982\(v=ocs.15\))
 
-  - [Set-CsExUmContact](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsExUmContact)
+  - [Set-CsExUmContact](https://technet.microsoft.com/en-us/library/gg412944\(v=ocs.15\))
 
-  - [Set-CsMeetingRoom](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMeetingRoom)
+  - [Set-CsMeetingRoom](https://technet.microsoft.com/en-us/library/jj204831\(v=ocs.15\))
 
-  - [Set-CsUserAcp](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsUserAcp)
+  - [Set-CsUserAcp](https://technet.microsoft.com/en-us/library/gg413018\(v=ocs.15\))
 
-Tenga en cuenta que no es necesario especificar el parámetro Identity de usuario al llamar a los cmdlets **Get-Cs**. Estos cmdlets devuelven todas las instancias del elemento especificado. Por ejemplo, este comando devuelve información sobre todos los usuarios que se han habilitado para Skype Empresarial Online:
+Tenga en cuenta que no es necesario especificar una identidad de usuario al llamar a uno de los cmdlets **Get-CS** . En este caso, los cmdlets devuelven todas las instancias del elemento especificado. Por ejemplo, este comando devuelve información acerca de todos los usuarios que se han habilitado para Skype empresarial online:
 
     Get-CsOnlineUser
 
-El parámetro Identity solo se requiere para devolver información de un usuario específico:
+El parámetro Identity solo es necesario si desea devolver información para un usuario específico:
 
     Get-CsOnlineUser -Identity "Ken Myer"
 
-## Vea también
+## <a name="see-also"></a>Vea también
 
-#### Conceptos
 
-[Identidades, ámbitos e inquilinos](identities-scopes-and-tenants-in-skype-for-business-online.md)  
-[Los cmdlets de Lync Online](https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+[Identidades, ámbitos y espacios empresariales en Skype empresarial online](identities-scopes-and-tenants-in-skype-for-business-online.md)  
+[Los cmdlets de Lync Online](https://technet.microsoft.com/en-us/library/dn362817\(v=ocs.15\))
 

@@ -1,27 +1,57 @@
-﻿---
-title: Copia de seguridad de las bases de datos de chat persistente
-TOCTitle: Copia de seguridad de las bases de datos de chat persistente
-ms:assetid: b99ebdc0-a025-44d7-9d74-37a7365f330d
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ945646(v=OCS.15)
-ms:contentKeyID: 52061759
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: copia de seguridad de las bases de datos de chat persistentes'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Backing up Persistent Chat databases
+ms:assetid: b99ebdc0-a025-44d7-9d74-37a7365f330d
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ945646(v=OCS.15)
+ms:contentKeyID: 51541507
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c8ffb99effcf0a42bbddefd7151aa40a8d691d9c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842891"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Copia de seguridad de las bases de datos de chat persistente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="backing-up-persistent-chat-databases-in-lync-server-2013"></a>Copia de seguridad de bases de datos de chat persistente en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-17_
 
-El contenido del salón del Chat persistente se almacena en la base de datos de Chat persistente (Mgc.mdf). Se trata de los datos importantes para el negocio de los que se debe hacer una copia de seguridad cada cierto tiempo. Aparte del contenido del salón de chat, en la base de datos del Chat persistente también se almacena información sobre las entidades de seguridad (como los usuarios y grupos de usuarios) y los roles y el acceso que tienen a los salones de chat.
+El contenido del salón de chat persistente se almacena en la base de datos de chat persistente (MGC. MDF). Se debería realizar una copia de seguridad de estos datos importantes para la empresa de forma regular. Además del contenido de los salones de chat, la base de datos de chat persistente también almacena información sobre los principales (como usuarios y grupos de usuarios), así como las funciones y el acceso que tienen a los salones de chat y el salón de chat.
 
-Existen dos formas de hacer una copia de seguridad de los datos del Chat persistente.
+Existen dos formas de realizar copias de seguridad de datos persistentes del chat.
 
-  - Copia de seguridad de SQL Server
+  - Copia de seguridad de SQL Server
 
-  - El cmdlet `Export-CsPersistentChatData`, con el que los datos del Chat persistente se exportan como un archivo
+  - El `Export-CsPersistentChatData` cmdlet, que exporta datos de chat persistentes como un archivo
 
-Si bien los datos que se crean con la copia de seguridad de SQL Server necesitan un espacio en disco notablemente mayor (hasta 20 veces más) que los creados con `Export-CsPersistentChatData`, lo más seguro es que los administradores estén más familiarizados con el primer procedimiento.
+Los datos que se crean con copia de seguridad de SQL Server requieren significativamente más espacio en el disco (posiblemente 20 veces más `Export-CsPersistentChatData`) que el creado por, pero es más probable que la copia de seguridad de SQL Server sea un procedimiento con el que estén familiarizados los administradores.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

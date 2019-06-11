@@ -1,58 +1,101 @@
-﻿---
-title: 'Lync Server 2013: Componentes y topologías para el enlace troncal SIP'
-TOCTitle: Componentes y topologías para el enlace troncal SIP
-ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398720(v=OCS.15)
-ms:contentKeyID: 48275993
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Componentes y topologías para el enlace troncal SIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Components and topologies for SIP trunking
+ms:assetid: 8ed9a9d0-517e-4f36-a131-22cdafa257fa
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398720(v=OCS.15)
+ms:contentKeyID: 48184775
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: dc1b80078f942f3f70957a7af6b27b7dd9210046
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842509"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componentes y topologías para el enlace troncal SIP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="components-and-topologies-for-sip-trunking-in-lync-server-2013"></a>Componentes y topologías para el enlace troncal SIP en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-La ilustración siguiente refleja la topología de enlace troncal SIP de Lync Server.
+En la siguiente ilustración se muestra la topología de Troncalización SIP de Lync Server.
 
-**Topología del enlace troncal SIP**
+**Topología de Troncalización SIP**
 
-![Topología de enlace troncal SIP](images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topología de enlace troncal SIP")
+![Topología de Troncalización SIP] (images/Gg398720.669fb55d-7c81-4e21-9421-fabc43d6e064(OCS.15).jpg "Topología de Troncalización SIP")
 
-Como se muestra en el diagrama, se usa una red privada virtual (VPN) de IP para la conectividad entre la red empresarial y el proveedor de servicios de la red telefónica conmutada (RTC). El objetivo de esta red privada es proporcionar conectividad IP, mejorar la seguridad y obtener garantías (opcionales) de Calidad de servicio (QoS). Dada la naturaleza de una VPN, no necesita usar Seguridad de la capa de transporte (TLS) para el tráfico de señalización SIP ni el Protocolo de transporte en tiempo real seguro (SRTP) para el tráfico de medios. Las conexiones entre la empresa y el proveedor de servicios constan, por lo tanto, de conexiones TCP simples para SIP y el Protocolo de transporte en tiempo real (RTP) simple (sobre UDP) para los medios de túnel a través de una VPN de IP. Asegúrese de que todos los firewalls que hay entre los enrutadores de VPN tienen los puertos abiertos para permitir la comunicación de dichos enrutadores, y que las direcciones IP de los bordes externos de los enrutadores de VPN se pueden redirigir públicamente.
+Como se muestra en el diagrama, se usa una red privada virtual (VPN) de IP para la conectividad entre la red empresarial y el proveedor de servicios de la red telefónica conmutada (RTC). El objetivo de esta red privada es proporcionar conectividad IP, mejorar la seguridad y obtener garantías (opcionales) de calidad de servicio (QoS). Dada la naturaleza de una VPN, no necesitas usar seguridad de la capa de transporte (TLS) para el tráfico de señalización SIP ni el protocolo de transporte en tiempo real seguro (SRTP) para el tráfico de medios. Las conexiones entre la empresa y el proveedor de servicios constan, por lo tanto, de conexiones TCP simples para SIP y el protocolo de transporte en tiempo real (RTP) simple (sobre UDP) para los medios de túnel a través de una VPN de IP. Asegúrate de que todos los firewalls que hay entre los enrutadores de VPN tienen los puertos abiertos para permitir la comunicación de dichos enrutadores, y que las direcciones IP de los bordes externos de los enrutadores de VPN se pueden redirigir públicamente.
+
+<div>
+
 
 > [!IMPORTANT]  
-> Consulte a su proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrá que averiguar los procedimientos para instalarla. Por ejemplo, ¿es necesario configurar una sola dirección IP y un tronco SIP en cada Servidor de mediación, o tiene que configurar varios troncos SIP en cada Servidor de mediación?<br />
-> Si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a otro sitio central y desde él.
+> Consulta a tu proveedor de servicios para saber si admite alta disponibilidad, incluida la conmutación por error. Si es así, tendrás que determinar los procedimientos para instalarla. Por ejemplo, ¿necesita configurar solamente una dirección IP y un tronco SIP en cada servidor de mediación o necesita configurar varios troncos SIP en cada servidor de mediación?<BR>Si tiene varios sitios centrales, pregunte también si el proveedor de servicios tiene la capacidad de habilitar conexiones a otro sitio central.
 
 
 
-> [!NOTE]
-> Para el enlace troncal SIP, se recomienda encarecidamente implementar Servidores de mediación independientes. Para ver más detalles, consulte <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">Implementar servidores de mediación y definir servidores del mismo nivel en Lync Server 2013</A> en la documentación sobre implementación.
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Para el Troncalización SIP, recomendamos encarecidamente que implemente servidores de mediación independientes. Para obtener más información, vea <A href="lync-server-2013-deploying-mediation-servers-and-defining-peers.md">implementación de servidores de mediación y definición de pares en Lync Server 2013</A> en la documentación de implementación.
 
 
 
-## Protección del servidor de mediación para el enlace troncal SIP
+</div>
 
-Por motivos de seguridad, debe instalar una LAN virtual (VLAN) por cada conexión que haya entre ambos enrutadores de VPN. El proceso concreto para instalar una VLAN varía según el fabricante del enrutador. Para obtener información detallada, contacte con el proveedor de su enrutador.
+<div>
 
-Se recomienda seguir estas instrucciones:
+## <a name="securing-the-mediation-server-for-sip-trunking"></a>Protección del servidor de mediación para el enlace troncal SIP
 
-  - Instale una LAN virtual (VLAN) entre el Servidor de mediación y el enrutador de VPN en la red perimetral (también llamada DMZ, zona desmilitarizada o subred filtrada).
+Por motivos de seguridad, necesitas instalar una LAN virtual (VLAN) por cada conexión que haya entre ambos enrutadores de VPN. El proceso concreto para instalar una VLAN varía según el fabricante del enrutador. Para obtener más detalles, ponte en contacto con el proveedor de tu enrutador.
 
-  - No permita la difusión ni la transferencia de paquetes multidifusión desde el enrutador a la VLAN.
+Recomendamos seguir estas instrucciones:
 
-  - Bloquee todas las reglas de enrutamiento que enruten el tráfico del enrutador a cualquier lugar que no sea el Servidor de mediación.
+  - Configure una LAN virtual (VLAN) entre el servidor de mediación y el enrutador VPN en la red perimetral (también conocida como DMZ, zona desmilitarizada y subred filtrada).
 
-Si usa un servidor de VPN, se recomienda seguir estas instrucciones:
+  - No permitas la difusión ni la transferencia de paquetes de multidifusión desde el enrutador a la VLAN.
 
-  - Instale una VLAN entre el servidor de VPN y el Servidor de mediación.
+  - Bloquear cualquier regla de enrutamiento que enrute el tráfico del router a cualquier lugar del servidor de mediación.
 
-  - No permita la difusión ni la transmisión de paquetes multidifusión desde el servidor de VPN a la VLAN.
+Si usas un servidor de VPN, recomendamos seguir estas instrucciones:
 
-  - Bloquee todas las reglas de enrutamiento que enruten el tráfico del servidor de VPN a cualquier lugar que no sea el Servidor de mediación.
+  - Configure una VLAN entre el servidor VPN y el servidor de mediación.
 
-  - Cifre los datos de la VPN mediante encapsulación de enrutamiento genérico (GRE).
+  - No permitas la difusión ni la transmisión de paquetes de multidifusión desde el servidor de VPN a la VLAN.
+
+  - Bloquear cualquier regla de enrutamiento que enrute el tráfico del servidor VPN a cualquier lugar del servidor de mediación.
+
+  - Cifra los datos de la VPN con encapsulación de enrutamiento genérico (GRE).
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,55 +1,85 @@
-﻿---
-title: Implementar un servidor perimetral piloto
-TOCTitle: Implementar un servidor perimetral piloto
-ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205306(v=OCS.15)
-ms:contentKeyID: 48276877
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Implementar el servidor perimetral piloto
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Deploy pilot Edge Server
+ms:assetid: dab345c0-8577-4c11-ac73-fe8b2a75f4cf
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205306(v=OCS.15)
+ms:contentKeyID: 48185559
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bd8fddd611422562c9384a52748623623d4e6f68
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842836"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementar un servidor perimetral piloto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploy-pilot-edge-server"></a>Implementar el servidor perimetral piloto
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-19_
 
-En esta sección se destacan las configuraciones que debe tener en cuenta antes de implementar Lync Server 2013 Servidor perimetral. Los procesos de implementación y configuración de Lync Server 2013 son muy parecidos a Lync Server 2010. En esta sección solo se destacan los puntos clave que se deben tener en cuenta como parte de la implementación de un grupo piloto. Para informarse detalladamente, vea [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación, en la que se describe el proceso de implementación y, asimismo, se ofrece información de configuración para el acceso de los usuarios externos.
+En este tema se destacan las opciones de configuración que debe tener en cuenta antes de implementar el servidor perimetral de Lync Server 2013. Los procesos de implementación y configuración de Lync Server 2013 son muy similares a los de Lync Server 2010. Esta sección solo resalta los puntos clave que debe considerar como parte de la implementación de un grupo piloto. Para conocer los pasos detallados, vea [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación, que describe el proceso de implementación y también proporciona información de configuración para el acceso de usuarios externos.
 
-Al navegar por el asistente **Definir nuevo grupo de servidores perimetrales**, repase las principales opciones de configuración recogidas en cada paso. Observe que solo se muestran unas cuantas páginas de este asistente.
+Mientras navega por el asistente **definir nuevo grupo de bordes** , revise la configuración de clave que se muestra en los siguientes pasos. Observe que solo se muestran algunas páginas del asistente **definir nuevo grupo de bordes** .
 
-**Definir un grupo de servidores perimetrales**
+**Definir un grupo perimetral**
 
 1.  Inicie sesión en el equipo donde se encuentre instalado el Generador de topologías como miembro del grupo Administradores del dominio y el grupo RTCUniversalServerAdmins.
 
-2.  Desplácese hasta el nodo Lync Server 2013. haga clic con el botón secundario en **Grupos de servidores perimetrales** y en **Nuevo grupo de servidores perimetrales**.
+2.  Vaya al nodo de 2013 de Lync Server. Haga clic con **** el botón secundario en agrupaciones perimetrales y haga clic en **nuevo borde**.
     
-    ![Cuadro de diálogo Definir el nuevo grupo de servidores perimetrales](images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Cuadro de diálogo Definir el nuevo grupo de servidores perimetrales")
+    ![Definir el cuadro de diálogo nuevo grupo perimetral] (images/JJ205306.a90d388c-49ff-4620-a19d-42e2f1bb559c(OCS.15).jpg "Definir el cuadro de diálogo nuevo grupo perimetral")
 
-3.  Un grupo de servidores perimetrales puede ser un **Grupo de varios equipos** o un **Grupo de un solo equipo**.
+3.  Un grupo de servidores perimetrales puede ser un **grupo de varios equipos** o un **único grupo de equipos**.
     
-    ![Cuadro de diálogo Definir el FQDN del grupo de servidores perimetrales](images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Cuadro de diálogo Definir el FQDN del grupo de servidores perimetrales")
+    ![Definir el cuadro de diálogo FQDN del grupo de bordes] (images/JJ205306.4904fe8f-537c-4e66-a399-1bd8a316dc10(OCS.15).jpg "Definir el cuadro de diálogo FQDN del grupo de bordes")
 
-4.  En la página **Seleccionar características**, no habilite la federación ni la federación XMPP. La federación y la federación XMPP actualmente se redirigen a través del Servidor perimetral de Lync Server 2010heredado. Estas características se configurarán en una fase posterior de la migración.
+4.  En la página **seleccionar características** , no habilite la Federación ni la Federación XMPP. La Federación y la Federación XMPP actualmente se enrutan a través del servidor perimetral antiguo de Lync Server 2010. Estas características se configurarán en una fase posterior de la migración.
     
-    ![Cuadro de diálogo Seleccionar características](images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Cuadro de diálogo Seleccionar características")
+    ![Cuadro de diálogo Seleccionar características] (images/JJ205306.cb0b45a4-2856-45ba-bd97-e49fafbb077e(OCS.15).jpg "Cuadro de diálogo Seleccionar características")
 
-5.  Tras ello, siga cumplimentando las siguientes páginas del asistente: **FQDN externos**, **Definir la dirección IP interna** y **Definir la dirección IP externa**.
+5.  A continuación, siga completando las siguientes páginas del asistente: **FQDN externos**, **defina la dirección IP interna**y **defina la dirección IP externa**.
 
-6.  En la página **Definir el próximo salto**, seleccione el Director para el próximo salto del Grupo de servidores perimetrales de Lync Server 2010.
+6.  En la página **definir el siguiente salto** , seleccione el director para el próximo salto del grupo de servidores perimetrales de Lync Server 2010.
     
-    ![Cuadro de diálogo Definir el próximo salto](images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Cuadro de diálogo Definir el próximo salto")
+    ![Definir el cuadro de diálogo siguiente del salto] (images/JJ205306.11baf3ea-74f5-4eb7-8650-b03b3b190416(OCS.15).jpg "Definir el cuadro de diálogo siguiente del salto")
 
-7.  En la página **Asociar grupos de servidores de mediación o front-end**, no asocie un grupo de servidores a este Grupo de servidores perimetrales en este momento. Actualmente el tráfico de medios externos se redirige a través del Lync Server 2010 de Servidor perimetral. Definiremos esta configuración en una fase posterior de la migración.
+7.  En la página **asociar grupos de servicios de media o front-end** , no asocie un grupo con este grupo de límites en este momento. El tráfico multimedia externo está enrutado a través del servidor perimetral heredado de Lync Server 2010. Esta configuración se configurará en una fase posterior de la migración.
     
-    ![Cuadro de diálogo Asociar grupos de servidores front-end](images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Cuadro de diálogo Asociar grupos de servidores front-end")
+    ![Cuadro de diálogo asociar grupos front-end] (images/JJ205306.fe0da887-7b51-4564-afc5-d57da95a2eb6(OCS.15).jpg "Cuadro de diálogo asociar grupos front-end")
 
-8.  Haga clic en **Finalizar** y después en **Publicar** la topología.
+8.  Haga clic en **Finalizar** y, a continuación, **publique** la topología.
 
-9.  Siga los pasos descritos en [Instalar servidores perimetrales para Lync Server 2013](lync-server-2013-install-edge-servers.md) en la documentación de implementación para instalar los archivos en el nuevo Servidor perimetral, configurar los certificados e iniciar los servicios.
+9.  Siga los pasos que se indican en [instalar servidores perimetrales para Lync Server 2013](lync-server-2013-install-edge-servers.md) en la documentación de implementación para instalar los archivos en el nuevo servidor perimetral, configurar certificados e iniciar los servicios.
 
-Es de suma importancia que siga las instrucciones de los temas [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) de la documentación de implementación. En esta sección solo se ha proporcionado cierta orientación sobre las opciones de configuración al instalar estos roles de servidor.
+Es muy importante seguir las directrices de los temas [implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md) en la documentación de implementación. En esta sección se proporciona una mera información sobre las opciones de configuración al instalar estos roles de servidor.
 
-Ahora tiene un servidor perimetral de Lync Server 2010heredado, implementado en paralelo con una implementación de servidor perimetral Lync Server 2013. Compruebe que las dos implementaciones se ejecuten correctamente, se inician los servicios y puede administrar cada implementación anterior para pasar a la fase siguiente.
+Ahora debe implementar un servidor perimetral antiguo de Lync Server 2010 en paralelo con una implementación de servidor perimetral de Lync Server 2013. Compruebe que las implementaciones se ejecutan correctamente y que se inician los servicios, y puede administrar cada implementación antes de pasar a la siguiente fase.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

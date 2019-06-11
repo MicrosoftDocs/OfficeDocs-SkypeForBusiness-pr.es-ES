@@ -1,21 +1,41 @@
-﻿---
-title: Configuración de Telefonía IP empresarial en Lync Server 2013
-TOCTitle: Configuración de Telefonía IP empresarial en Lync Server 2013
-ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994041(v=OCS.15)
-ms:contentKeyID: 52061662
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: configuración de telefonía IP empresarial'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configuring Enterprise Voice
+ms:assetid: 7df179fa-d3a2-4b23-a433-b750aedf980b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994041(v=OCS.15)
+ms:contentKeyID: 51803952
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3e46bd64efd8aa2eb6e1aead17083aa8593c8544
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842260"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configuración de Telefonía IP empresarial en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="configuring-enterprise-voice-in-lync-server-2013"></a>Configurar la telefonía IP empresarial en Lync Server 2013
 
-Para implementar Telefonía IP empresarial, necesitará configurar lo siguiente:
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-03-12_
+
+Para implementar la telefonía IP empresarial, tendrá que configurar lo siguiente:
 
   - Crear un tronco
 
@@ -23,13 +43,15 @@ Para implementar Telefonía IP empresarial, necesitará configurar lo siguiente:
 
   - Definir una ruta de voz
 
-  - Habilitar usuarios para telefonía IP empresarial
+  - Enable Users for Enterprise Voice
 
-## Crear un tronco
+<div>
 
-Debe definir troncos en la implementación de Telefonía IP empresarial. Para el enrutamiento según ubicación, debe crear una configuración troncal por tronco. Use Lync ServerGenerador de topologías para definir los troncos y use el comando Lync ServerWindows PowerShell, New-CsTrunkConfiguration, o Panel de control de Lync Server para definir las configuraciones troncales correspondientes. Se puede obtener más información acerca de cómo habilitar el enrutamiento según ubicación en configuraciones troncales en la sección "Habilitar el enrutamiento según ubicación en troncos", en el tema [Habilitación del enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). Para este ejemplo, la siguiente tabla ilustra los troncos utilizados en este escenario.
+## <a name="create-a-trunk"></a>Crear un tronco
 
-Para obtener más información, consulte [Definir troncos adicionales en el Generador de topologías en Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
+Debe definir los troncos en su implementación de telefonía IP empresarial. Para el enrutamiento basado en la ubicación, debe crear una configuración troncal por tronco. Use el generador de topología de Lync Server para definir sus troncos y use el comando de Windows PowerShell de Lync Server, New-CsTrunkConfiguration o el panel de control de Lync Server para definir las configuraciones de troncal correspondientes. Para obtener más información sobre cómo habilitar el enrutamiento basado en la ubicación en las configuraciones troncales, vaya a la sección habilitar el enrutamiento basado en la ubicación para los troncos, en el tema [Habilitar el enrutamiento basado en la ubicación en Lync Server 2013](lync-server-2013-enabling-location-based-routing.md). En este ejemplo, la tabla siguiente muestra las troncos que se usan en este escenario.
+
+Para obtener más información, vea [definir más troncos en el generador de topología en Lync Server 2013](lync-server-2013-define-additional-trunks-in-topology-builder.md).
 
 
 <table>
@@ -51,7 +73,7 @@ Para obtener más información, consulte [Definir troncos adicionales en el Gene
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Troncal 1 DEL-GW</p></td>
+<td><p>Tronco 1 DEL-GW</p></td>
 <td><p>Puerta de enlace RTC</p></td>
 <td><p>DEL-GW</p></td>
 <td><p>Delhi</p></td>
@@ -82,12 +104,20 @@ Para obtener más información, consulte [Definir troncos adicionales en el Gene
 </table>
 
 
+<div>
 
-## Define directivas de voz
 
-Debe definir directivas de voz para la implementación de Telefonía IP empresarial. Defina una directiva de voz para aplicar las restricciones de enrutamiento según ubicación en un subconjunto de usuarios si solo un subconjunto se requiere para usar el enrutamiento según ubicación. Para este ejemplo, la siguiente tabla ilustra las directivas de voz utilizadas en este escenario. Solo los parámetros que son específicos al enrutamiento según ubicación se incluyen en la tabla con fines meramente ilustrativos.
+</div>
 
-Para obtener más información, consulte [Configurar directivas de voz y registros de uso de la RTC para autorizar características y privilegios de llamada en Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
+</div>
+
+<div>
+
+## <a name="defines-voice-policies"></a>Define directivas de voz
+
+Debe definir directivas de voz para su implementación de telefonía IP empresarial. Defina una directiva de voz para aplicar restricciones de enrutamiento basado en la ubicación a un subconjunto de usuarios si solo se necesita un subconjunto de ellas para usar el enrutamiento basado en la ubicación. En este ejemplo, la tabla siguiente muestra las directivas de voz que se usan en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+
+Para obtener más información, vea [configuración de directivas de voz y registros de uso de RTC para autorizar llamadas y características de Lync Server 2013](lync-server-2013-configuring-voice-policies-and-pstn-usage-records-to-authorize-calling-features-and-privileges.md).
 
 
 <table>
@@ -99,20 +129,20 @@ Para obtener más información, consulte [Configurar directivas de voz y registr
 <thead>
 <tr class="header">
 <th></th>
-<th>Directiva de voz 1</th>
-<th>Directiva de voz 2</th>
+<th>Política de voz 1</th>
+<th>Política de voz 2</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Id. de directiva de voz</p></td>
-<td><p>Directiva de voz Delhi</p></td>
-<td><p>Directiva de voz Hyderabad</p></td>
+<td><p>IDENTIFICADOR de la Directiva de voz</p></td>
+<td><p>Directiva de voz de Delhi</p></td>
+<td><p>Política de voz de Hyderabad</p></td>
 </tr>
 <tr class="even">
 <td><p>Usos de RTC</p></td>
-<td><p>Uso Delhi, uso PBX Del, uso PBX Hyd</p></td>
-<td><p>Uso Hyderabad, uso PBX Hyd, uso PBX Del</p></td>
+<td><p>Uso de la Delhi, PBX del uso, uso de HYD de PBX</p></td>
+<td><p>Uso de Hyderabad, uso de HYD de PBX, PBX del uso</p></td>
 </tr>
 <tr class="odd">
 <td><p>PreventPSTNTollBypass</p></td>
@@ -123,12 +153,20 @@ Para obtener más información, consulte [Configurar directivas de voz y registr
 </table>
 
 
+<div>
 
-## Definir rutas de voz
 
-Debe definir rutas de voz para la implementación de Telefonía IP empresarial. Para este ejemplo, la siguiente tabla ilustra las rutas de voz utilizadas en este escenario. Solo los parámetros que son específicos al enrutamiento según ubicación se incluyen en la tabla con fines meramente ilustrativos.
+</div>
 
-Para obtener más información, consulte [Configuración de rutas de voz para llamadas salientes en Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
+</div>
+
+<div>
+
+## <a name="define-voice-routes"></a>Definir rutas de voz
+
+Debe definir rutas de voz para su implementación de telefonía IP empresarial. En este ejemplo, la tabla siguiente muestra las rutas de voz usadas en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+
+Para obtener más información, consulte [configuración de rutas de voz para llamadas salientes en Lync Server 2013](lync-server-2013-configuring-voice-routes-for-outbound-calls.md).
 
 
 <table>
@@ -151,21 +189,21 @@ Para obtener más información, consulte [Configuración de rutas de voz para ll
 <tbody>
 <tr class="odd">
 <td><p>Nombre</p></td>
-<td><p>Ruta Delhi</p></td>
-<td><p>Ruta Hyderabad</p></td>
-<td><p>Ruta PBX Del</p></td>
-<td><p>Ruta PBX Hyd</p></td>
+<td><p>Ruta de Delhi</p></td>
+<td><p>Ruta de Hyderabad</p></td>
+<td><p>PBX del camino</p></td>
+<td><p>Ruta de HYD PBX</p></td>
 </tr>
 <tr class="even">
 <td><p>Usos de RTC</p></td>
-<td><p>Uso Delhi</p></td>
-<td><p>Uso Hyderabad</p></td>
-<td><p>Uso PBX Del</p></td>
-<td><p>Uso PBX Hyd</p></td>
+<td><p>Uso de Delhi</p></td>
+<td><p>Uso de Hyderabad</p></td>
+<td><p>Uso de PBX</p></td>
+<td><p>Uso de HYD de PBX</p></td>
 </tr>
 <tr class="odd">
-<td><p>Troncal</p></td>
-<td><p>Troncal 1 DEL-GW</p></td>
+<td><p>Tronco</p></td>
+<td><p>Tronco 1 DEL-GW</p></td>
 <td><p>Troncal 2 HYD-GW</p></td>
 <td><p>Troncal 3 DEL-PBX</p></td>
 <td><p>Troncal 4 HYD-PBX</p></td>
@@ -174,12 +212,20 @@ Para obtener más información, consulte [Configuración de rutas de voz para ll
 </table>
 
 
+<div>
 
-## Habilitar usuarios para telefonía IP empresarial
 
-Habilite usuarios para Telefonía IP empresarial y asígnelos a una directiva de voz definida previamente. Para este ejemplo, la siguiente tabla ilustra la asignación utilizada en este escenario. Solo los parámetros que son específicos al enrutamiento según ubicación se incluyen en la tabla con fines meramente ilustrativos.
+</div>
 
-Para obtener más información, consulte [Habilitar a los usuarios para la telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
+</div>
+
+<div>
+
+## <a name="enable-users-for-enterprise-voice"></a>Enable Users for Enterprise Voice
+
+Habilitar a los usuarios para la telefonía IP empresarial y asignarles una directiva de voz que haya definido previamente. En este ejemplo, la tabla siguiente muestra la asignación que se usa en este escenario. En la tabla solo se incluyen los valores específicos del enrutamiento basado en la ubicación con fines de ilustración.
+
+Para obtener más información, consulte [Habilitar usuarios para telefonía IP empresarial en Lync Server 2013](lync-server-2013-enable-users-for-enterprise-voice.md).
 
 
 <table>
@@ -192,28 +238,48 @@ Para obtener más información, consulte [Habilitar a los usuarios para la telef
 <tr class="header">
 <th></th>
 <th>Usuarios ubicados en Delhi</th>
-<th>Usuarios ubicados en Hyderabad</th>
+<th>Usuarios que se encuentran en Hyderabad</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Directiva de voz asociada</p></td>
-<td><p>Directiva de voz Delhi</p></td>
-<td><p>Directiva de voz Hyderabad</p></td>
+<td><p>Directiva de voz de Delhi</p></td>
+<td><p>Política de voz de Hyderabad</p></td>
 </tr>
 <tr class="even">
 <td><p>Usuarios de muestra</p></td>
-<td><p>DEL-LYNC-1,DEL-LYNC-2,DEL-LYNC-3</p></td>
+<td><p>DE-LYNC-1, DE-LYNC-2, DE-LYNC-3</p></td>
 <td><p>HYD-LYNC-1, HYD-LYNC-2, HYD-LYNC-3</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
 
-## Vea también
 
-#### Otros recursos
+</div>
 
-[Configurar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Configurar el enrutamiento basado en ubicación en Lync Server 2013](lync-server-2013-configuring-location-based-routing.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

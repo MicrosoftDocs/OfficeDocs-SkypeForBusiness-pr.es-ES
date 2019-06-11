@@ -1,49 +1,79 @@
-﻿---
-title: El modelo de usuario de conferencias
-TOCTitle: El modelo de usuario de conferencias
-ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205199(v=OCS.15)
-ms:contentKeyID: 48276492
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Modelo de usuario de conferencia de Lync Server 2013
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: The conferencing user model
+ms:assetid: ba4bbba9-f2e3-4cab-8eba-b51f12133cab
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205199(v=OCS.15)
+ms:contentKeyID: 48185229
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0d4e8f55a9538c9cb70847bc090680662047b6ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842461"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# El modelo de usuario de conferencias
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="the-conferencing-user-model-in-lync-server-2013"></a>El modelo de usuario de conferencias en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-22_
 
-Una parte esencial del modelo de usuario de conferencia de Lync Server es el tamaño de las reuniones. Después de recopilar datos de varios puntos de datos (conforme a lo descrito en la sección anterior), se puede determinar lo siguiente:
+Una parte crítica del modelo de usuario de conferencia de Lync Server es el tamaño de la reunión. Después de recopilar datos de los diversos puntos de datos (tal y como se describe en la sección anterior), determinamos lo siguiente:
 
-  - La mayoría de las reuniones son reuniones de colaboración pequeñas, con una media de cuatro a seis participantes.
+  - La mayoría de las reuniones son pequeñas reuniones de colaboración con un promedio de cuatro a seis participantes
 
-  - Aproximadamente, el 80 % de las reuniones tienen menos de 20 participantes.
+  - Aproximadamente el 80 por ciento de las reuniones tiene menos de 20 participantes.
 
-  - El 99,98 % de las reuniones tienen menos de 100 participantes.
+  - el 99,98 por ciento de las reuniones tiene menos de 100 participantes.
 
-Además del tamaño de la reunión, el modelo de usuario de conferencia también tiene en cuenta otros factores, como:
+Además del tamaño de la reunión, el modelo de usuario de conferencia también tiene en cuenta diversos factores, como:
 
-  - **Reuniones simultáneas**   ¿Cuántos usuarios se prevé que asistirán simultáneamente a la reunión?
+  - **Reuniones simultáneas**   ¿cuántos usuarios esperan estar en las reuniones al mismo tiempo?
 
-  - **Combinación de medios**   ¿Qué tipos de medios se encuentran disponibles y se espera que usen los usuarios en la reuniones?
+  - ****¿Qué tipos de elementos multimedia están disponibles y qué usuarios de las reuniones pueden usarlos?   
 
-  - **Tipos de usuarios**   ¿Se trata de usuarios internos, remotos, federados o anónimos?
+  - ****   ¿Los tipos de usuario son usuarios internos, usuarios remotos, usuarios federados o usuarios anónimos?
 
-  - **Tiempo de incorporación a la reunión**   ¿Cuánto tiempo necesitan todos los usuarios de una reunión para unirse a la misma?
+  - **Tiempo de aumento**   de la reunión ¿cuánto tiempo tardan los usuarios de una reunión en unirse a una reunión?
 
-Para más información sobre el modelo de usuario, consulte [Modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md).
+Para obtener más información sobre el modelo de usuario, consulte [modelos de usuario en Lync Server 2013](lync-server-2013-user-models.md).
 
-Para determinar el número de reuniones y usuarios que debían usarse en la prueba, hicimos lo siguiente:
+Para determinar el número de reuniones y usuarios que se van a usar para las pruebas, hicimos lo siguiente:
 
-  - Tomamos el número total de usuarios de una organización (por ejemplo 80.000 usuarios) y lo multiplicamos por el índice de simultaneidad de reuniones (por ejemplo, el 5 % de todos los usuarios) para determinar el número total de usuarios previstos en las reuniones de forma simultánea (en este ejemplo, 4.000 usuarios).
+  - Ha tomado el número total de usuarios de una organización (por ejemplo, 80.000 usuarios) y la ha multiplicado por la tasa de simultaneidad de la reunión (por ejemplo, el 5% de todos los usuarios) para determinar el número total de usuarios que se espera que estén en las reuniones al mismo tiempo (en este ejemplo , 4000 usuarios).
 
-  - Dividimos el número total de usuarios entre el número de Lync Server 2013, Servidores front-end en la implementación (por ejemplo, 8 servidores), para determinar el número estimado de participantes en las reuniones por Servidor front-end (en este ejemplo, 500 usuarios por Servidor front-end).
+  - Dividir el número total de usuarios por el número de servidores de Lync Server 2013, front-end en la implementación (por ejemplo, 8 servidores) para determinar el número estimado de participantes de la reunión por servidor front-end (en este ejemplo, 500 usuarios por servidor front-end).
 
-  - Dividimos el número de usuarios por Servidor front-end entre el tamaño medio de reunión (por ejemplo, 4 usuarios) para determinar la media estimada de reuniones por Servidor front-end (en este ejemplo, 125 reuniones por Servidor front-end).
+  - Divide el número de usuarios por servidor front-end por el tamaño medio de la reunión (por ejemplo, 4 usuarios) para determinar el número promedio estimado de reuniones por servidor front-end (en este ejemplo, 125 reuniones por servidor front-end).
 
-  - Para obtener la carga media en cada Servidor front-end, calculamos la combinación de medios. Por ejemplo, suponiendo que el 75 % de las reuniones requieren más que la simple compatibilidad con audio, y que el 50 % de estas reuniones requieren el uso compartido de aplicaciones, una media de 47 reuniones y 188 usuarios se conectarían simultáneamente a cada Servidor front-end para realizar un uso compartido de las aplicaciones.
+  - Para obtener la carga por multimedia de cada servidor front-end, hemos estimado la combinación de medios. Por ejemplo, suponiendo que el 75% de las reuniones necesite algo más que compatibilidad de audio y el 50% de esas reuniones requieren compartir aplicaciones, un promedio de 47 reuniones y 188 usuarios se conectan simultáneamente a cada servidor front-end para el uso compartido de aplicaciones.
 
-  - Probamos diversos tamaños de reunión (sobre la base de nuestro modelo de usuario, de hasta 250 usuarios en un grupo compartido) para asegurar la escalabilidad de los servidores.
+  - Se han probado diversos tamaños de reunión (basados en nuestro modelo de usuario de hasta 250 usuarios en un grupo compartido) para garantizar la escalabilidad del servidor.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

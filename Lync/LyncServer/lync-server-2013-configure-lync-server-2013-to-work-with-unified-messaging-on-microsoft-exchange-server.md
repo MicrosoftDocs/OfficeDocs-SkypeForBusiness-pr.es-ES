@@ -1,100 +1,151 @@
-﻿---
-title: "Configurar Lync Server 2013 para la mensajería unificada en MS Exchange Server"
-TOCTitle: Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server
-ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398193(v=OCS.15)
-ms:contentKeyID: 48274461
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Configure Lync Server 2013 to work with Unified Messaging on Microsoft Exchange Server
+ms:assetid: 1098ae4d-f57f-44f3-804e-39889d9fc14e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398193(v=OCS.15)
+ms:contentKeyID: 48183430
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 27909f4ae6231b1452cbfefdd82e0a0eb107c6fa
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842361"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="configure-lync-server-2013-to-work-with-unified-messaging-on-microsoft-exchange-server"></a>Configurar Lync Server 2013 para trabajar con la mensajería unificada en Microsoft Exchange Server
 
-Para realizar este paso hace falta la utilidad de integración de Mensajería unificada de Exchange (OcsUmUtil.exe). Esta herramienta se encuentra en el servidor Lync Server 2013 en la carpeta ..\\Program Files\\Common Files\\Microsoft Lync Server 2013\\Support.
+</div>
 
-## Ejecución de la utilidad de integración de MU de Exchange
+<div id="mainSection">
 
-La utilidad de integración de Mensajería unificada de Exchange se debe ejecutar desde una cuenta de usuario con las siguientes características:
+<div id="mainBody">
 
-  - Pertenencia a los grupos RTCUniversalServerAdmins y RtcUniversalUserAdmins (que incluyen permisos para leer la configuración de Mensajería unificada de Exchange Server).
+_**Última modificación del tema:** 2013-04-03_
 
-  - Derechos de usuario dentro del dominio para crear objetos de contacto en el contenedor especificado de la unidad organizativa.
+Este paso requiere la utilidad de integración de mensajería unificada de Exchange (OcsUmUtil. exe). Esta herramienta se encuentra en el servidor de Lync Server 2013, en... \\Archivos\\comunes de programa\\archivos comunes carpeta de\\soporte técnico de Microsoft Lync Server 2013.
 
-Al ejecutar la utilidad de integración de Mensajería unificada de Exchange, se realizan las tareas siguientes:
+<div>
 
-  - Se crean objetos de contacto para cada número de operador automático y acceso de suscriptor que vayan a usar los usuarios de Telefonía IP empresarial.
+## <a name="running-the-exchange-um-integration-utility"></a>Ejecución de la utilidad de integración de MU de Exchange
 
-  - Se comprueba que el nombre de cada uno de los planes de marcado de Telefonía IP empresarial coincide con su contexto telefónico de plan de marcado de mensajería unificada (MU) correspondiente. Esta coincidencia es necesaria únicamente si el plan de marcado de la mensajería unificada se ejecuta en una versión de Exchange *anterior* a Exchange 2010 Service Pack 1 (SP1).
+La utilidad de integración de MU de Exchange debe ejecutarse desde una cuenta de usuario con las siguientes características:
 
-> [!IMPORTANT]  
-> Antes de ejecutar la utilidad de integración de Mensajería unificada de Exchange, asegúrese de que ha llevado a cabo lo siguiente:
+  - Pertenencia a los grupos RTCUniversalServerAdmins y RtcUniversalUserAdmins (que incluye permisos para leer la configuración de mensajería unificada de Exchange Server).
+
+  - Derechos de usuario dentro del dominio para crear objetos de contacto en el contenedor de unidades organizativas (OU) especificadas.
+
+Al ejecutar la herramienta de integración de mensajería unificada de Exchange, se realizan las siguientes tareas:
+
+  - Crea objetos de contacto para cada número de acceso de suscriptor y de operador automático que usarán los usuarios de voz de telefonía.
+
+  - Comprueba que el nombre de cada plan de marcado de voz de empresa coincida con su contexto de teléfono del plan de marcado de mensajería unificada (UM) correspondiente. Esta coincidencia es necesaria solo si el plan de marcado de MU se está ejecutando en una versión de Exchange *anterior* a Exchange 2010 Service Pack 1 (SP1).
+
+> [!IMPORTANT]
+> Antes de ejecutar la utilidad de integración de MU de Exchange, asegúrese de que ha hecho lo siguiente:
 > <ul>
-> <li><p>Crear uno o varios planes de marcado de Mensajería unificada de Exchange, tal y como se describe en la documentación de producto de Exchange.</p>
-> <p>Para Microsoft Exchange Server 2010, consulte &quot;Crear un plan de marcado de mensajería unificada&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=186177%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=186177&amp;clcid=0xC0A</a>.</p>
-> <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;Cómo crear un plan de marcado del URI del SIP de mensajería unificada&quot; en <a href="http://go.microsoft.com/fwlink/?linkid=185771%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=185771&amp;clcid=0xC0A</a>.</p></li>
-> <li><p>Crear uno o varios planes de marcado de Lync Server correspondientes, tal y como se describe en <a href="lync-server-2013-create-a-dial-plan.md">Crear un plan de marcado en Lync Server 2013</a>.</p></li>
-> <ul><li>Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, deberá escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de Mensajería unificada de Exchange (UM) correspondiente en el plan de marcado Lync Server 2013, en el campo <strong>Nombre sencillo</strong>. Si está usando Microsoft Exchange Server 2010 SP1 o el service pack más reciente, no es necesario que coincida el nombre del plan de marcado.</li></ul>
-> <li>Crear un operador automático y asegurarse de que tanto el número de acceso del suscriptor y el número del operador automático están en formato E.164.</li></ul>
+> <li><p>Cree uno o varios planes de marcado de mensajería unificada de Exchange, como se describe en la documentación del producto de Exchange.</p>
+> <p>Para Microsoft Exchange Server 2010, consulte &quot;crear un plan&quot; de marcado de <a href="http://go.microsoft.com/fwlink/p/?linkid=186177">http://go.microsoft.com/fwlink/p/?linkId=186177</a>MU en.</p>
+> <p>Para Microsoft Exchange Server 2007 Service Pack 1 (SP1), consulte &quot;cómo crear un plan&quot; de marcado URI SIP Messaging Messaging en <a href="http://go.microsoft.com/fwlink/p/?linkid=185771">http://go.microsoft.com/fwlink/p/?linkId=185771</a>.</p></li>
+> <li><p>Cree uno o varios de los planes de marcado de Lync Server correspondientes, tal y como se describe en <a href="lync-server-2013-create-a-dial-plan.md">crear un plan de marcado en Lync Server 2013</a>.</p></li>
+> <ul><li>Si está usando una versión de Exchange anterior a Microsoft Exchange Server 2010 SP1, debe escribir el nombre de dominio completo (FQDN) del plan de marcado SIP de mensajería unificada de Exchange (UM) correspondiente en el nombre simple del plan de marcado de Lync Server 2013 <STRONG> </STRONG>campo. Si está usando Microsoft Exchange Server 2010 SP1 o el Service Pack más reciente, la coincidencia de nombres de plan de marcado no es necesaria.</li></ul>
+> <li>Cree un operador automático y asegúrese de que tanto el número de acceso del suscriptor como el número de operador automático estén en formato E. 164.</li></ul>
 
 
-## Para ejecutar la utilidad de integración de MU de Exchange
+<div>
 
-1.  En un Servidor front-end, abra una ventana de símbolo del sistema y escriba **cd %CommonProgramFiles%\\Microsoft Lync Server 2013\\Support** . A continuación, pulse Entrar.
+## <a name="to-run-the-exchange-um-integration-utility"></a>Para ejecutar la utilidad de integración de mensajería unificada de Exchange
 
-2.  Escriba **OcsUmUtil.exe** y pulse Entrar.
+1.  En un servidor front-end, abra un símbolo del sistema y escriba **CD%\\CommonProgramFiles% Microsoft Lync\\Server 2013 support**y, a continuación, presione Entrar.
 
-3.  Haga clic en **Cargar datos** para buscar todos los bosques de Exchange de confianza.
+2.  Escriba **OcsUmUtil. exe**y, a continuación, presione Entrar.
 
-4.  En la lista **Planes de marcado de SIP**, seleccione un plan de marcado de SIP de MU para el que desee crear objetos de contacto y, a continuación, haga clic en **Agregar**.
+3.  Haga clic en **cargar datos** para buscar todos los bosques de confianza de Exchange.
 
-5.  En el cuadro **Contacto**, acepte la unidad organizativa predeterminada o haga clic en **Examinar** para iniciar el **Selector de unidad organizativa**. En el cuadro **Selector de unidad organizativa**, puede seleccionar una unidad organizativa y hacer clic en **Aceptar**, o puede hacer clic en **Crear nueva unidad organizativa** para crear una nueva unidad organizativa en la raíz o en cualquier otra unidad organizativa del dominio (por ejemplo, "OU=RTC Special Accounts,DC=fourthcoffee,DC=com") y, a continuación, hacer clic en **Aceptar**.
+4.  En la lista de los **planes de marcado SIP** , seleccione un plan de marcado SIP de mensajería unificada para el que desee crear objetos de contacto y, a continuación, haga clic en **Agregar**.
+
+5.  En el cuadro **contacto** , acepte la unidad organizativa predeterminada o haga clic en **examinar** para iniciar el **selector de Uo**. En el cuadro **selector de ou** , seleccione una unidad organizativa y haga clic en **Aceptar**, o bien haga clic en crear una **nueva** unidad organizativa para crear una nueva unidad organizativa en la raíz o en cualquier otra unidad organizativa del dominio (por ejemplo, "ou = RTC Special Accounts, DC = fourthcoffee, DC = com") y, a continuación, haga clic en **Aceptar**.
+    
+    <div>
     
 
-    > [!NOTE]
-    > El nombre distintivo (DN) de la unidad organizativa que ha seleccionado o creado se muestra ahora en el cuadro <STRONG>Unidad organizativa</STRONG>.
+    > [!NOTE]  
+    > El nombre distintivo (DN) de la OU que ha seleccionado o creado se muestra ahora en el cuadro <STRONG>unidad organizativa</STRONG> .
 
+    
+    </div>
 
-
-6.  En el cuadro **Nombre**, acepte el nombre del plan de marcado predeterminado o escriba un nuevo nombre para mostrar para el objeto de contacto que está creando.
+6.  En el cuadro **nombre** , acepte el nombre del plan de marcado predeterminado o escriba un nuevo nombre para mostrar para el objeto de contacto que está creando.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Por ejemplo, si va a crear un objeto de contacto de acceso de suscriptor, podría denominarlo simplemente Acceso de suscriptor.
+    > [!NOTE]  
+    > Por ejemplo, si va a crear un objeto de contacto de acceso de suscriptor, es posible que simplemente le asigne el nombre de acceso de suscriptor.
 
+    
+    </div>
 
-
-7.  En el cuadro **Dirección SIP**, acepte la dirección SIP predeterminada o escriba una nueva dirección SIP.
+7.  En el cuadro **dirección SIP** , acepte la dirección SIP predeterminada o escriba una nueva.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si escribe una nueva dirección SIP, esta debe empezar por <STRONG>SIP:</STRONG> (es decir, "SIP:" incluidos los dos puntos).
+    > [!NOTE]  
+    > Si escribe una dirección SIP nueva, debe comenzar con <STRONG>SIP:</STRONG> (es decir, "SIP:" incluyendo los dos puntos).
 
+    
+    </div>
 
-
-8.  En la lista **Servidor o grupo de servidores**, seleccione el servidor Standard Edition o el Grupo de servidores front-end en el que se va a habilitar el objeto de contacto.
+8.  En la lista **servidor o grupo** de servidores, seleccione el servidor Standard Edition o el grupo de servidores front-end en el que se va a habilitar el objeto de contacto.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Preferiblemente, el grupo de servidores que seleccione debe ser el mismo que el servidor en el que se han implementado los usuarios habilitados para Telefonía IP empresarial y MU de Exchange.
+    > [!NOTE]  
+    > Preferiblemente, el grupo que seleccione es el mismo grupo en el que se implementan los usuarios habilitados para telefonía IP empresarial y mensajería unificada de Exchange.
 
+    
+    </div>
 
+9.  En la lista **número de teléfono** , seleccione **Escriba el número de teléfono** o **use este número piloto de la mensajería unificada de Exchange** y, a continuación, escriba un número de teléfono.
 
-9.  En la lista **Número de teléfono**, seleccione **Escriba el número de teléfono** o **Use este número piloto de mensajería unificada de Exchange** y escriba un número de teléfono.
+10. En la lista **tipo de contacto** , seleccione el tipo de contacto que desea crear y, a continuación, haga clic en **Aceptar**.
 
-10. En la lista **Tipo de contacto**, seleccione el tipo de contacto que desea crear y, a continuación, haga clic en **Aceptar**.
-
-11. Repita los pasos del 1 al 10 para los objetos de contacto adicionales que desee crear.
+11. Repita los pasos 1 a 10 para obtener objetos de contacto adicionales que desee crear.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Debe crear al menos un contacto para cada operador automático. Si desea tener acceso externo, necesita también un contacto Acceso de suscriptor y especificar números DID (llamada directa a la extensión).
+    > [!NOTE]  
+    > Debes crear al menos un contacto para cada operador automático. Si desea obtener acceso externo, también necesitará un contacto de acceso de suscriptor y especificar números de marcado directo directo (sí).
 
+    
+    </div>
 
+</div>
 
-Para comprobar que se han creado los objetos de contacto, abra Usuarios y equipos de Active Directory y seleccione la unidad organizativa en la que se crearon los objetos. Los objetos de contacto deben aparecer en el panel de detalles.
+Para comprobar que los objetos de contacto se han creado, abra usuarios y equipos de Active Directory y seleccione la OU en la que se crearon los objetos. Los objetos de contacto deberían aparecer en el panel de detalles.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

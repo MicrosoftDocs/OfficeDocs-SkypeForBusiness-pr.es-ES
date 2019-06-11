@@ -1,35 +1,65 @@
-﻿---
-title: Habilitar control de llamadas remoto
-TOCTitle: Habilitar control de llamadas remoto
-ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204664(v=OCS.15)
-ms:contentKeyID: 48274396
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Habilitar control remoto de llamadas
+ms.reviewer: ''
+ms.author: kenwith
+author: kenwith
+TOCTitle: Enable remote call control
+ms:assetid: 0b91d418-e6ed-4556-97af-e8523e01f249
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204664(v=OCS.15)
+ms:contentKeyID: 48183380
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 310a140d3497a77ddcaeb8ba32403aa8f28b68e5
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34842873"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar control de llamadas remoto
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-remote-call-control"></a>Habilitar control remoto de llamadas
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-02_
 
-El control remoto de llamadas hace posible que los usuarios puedan controlar sus teléfonos de central de conmutación (PBX) de escritorio mediante Lync Server 2013. Si implementó el control remoto de llamadas en el entorno heredado y desea migrarlo a Lync Server 2013, debe realizar las siguientes tareas:
+El control remoto de llamadas permite a los usuarios controlar sus teléfonos de escritorio privado de escritorio (PBX) con Lync Server 2013. Si ha implementado el control remoto de llamadas en su entorno heredado y desea migrar it Lync Server 2013, debe realizar las siguientes tareas:
 
-1.  Instale una puerta de enlace SIP/CSTA y configúrela para que se comunique con su PBX. Debe hacer este paso al implementar su grupo piloto de Lync Server 2013.
+1.  Instala una puerta de enlace SIP/CSTA y configúrela para comunicarse con tu PBX. Debe realizar este paso al implementar el grupo piloto de Lync Server 2013.
 
-2.  Una vez que combina su topología y migra sus directivas y su configuración, configure Lync Server 2013 para enrutar las solicitudes CSTA a la puerta de enlace SIP/CSTA. Se trata de un paso manual que sigue a la migración automatizada. Para configurar el enrutamiento de solicitudes CSTA, lleve a cabo una de las siguientes acciones:
+2.  Después de combinar su topología y migrar las directivas y la configuración, configure Lync Server 2013 para que enruten las solicitudes de CSTA a la puerta de enlace SIP/CSTA. Este paso es un paso manual que sigue la migración automática. Para configurar el enrutamiento de las solicitudes de CSTA, haga lo siguiente:
     
-      - Quite las entradas de host autorizado heredadas (denominadas *entradas de servidor de confianza* en Lync Server 2013). Si va a migrar usuarios de la implementación heredada, asegúrese de que quita todas las entradas de host autorizado heredadas que creó para la puerta de enlace SIP/CSTA antes de configurar nuevas entradas de aplicación de confianza en el grupo piloto de Lync Server 2013. Para obtener información sobre cómo quitar las entradas de host autorizado heredadas, consulte [Quitar una entrada de host autorizada](remove-an-authorized-host-entry.md).
+      - Elimine las entradas de host autorizadas heredadas (conocidas como *entradas de servidor de confianza* en Lync Server 2013). Si va a migrar usuarios de la implementación heredada, asegúrese de quitar todas las entradas de host autorizadas existentes que haya creado para la puerta de enlace SIP/CSTA antes de configurar las nuevas entradas de aplicaciones de confianza en el grupo piloto de Lync Server 2013. Para obtener más información sobre cómo quitar entradas de host heredadas, consulte [quitar una entrada de host autorizado](remove-an-authorized-host-entry.md).
     
-      - Configure una ruta estática para el control remoto de llamadas. Puede configurar una ruta estática para los grupos individuales en los que quiera usar el control remoto de llamadas, o bien configurar una ruta estática global para que la usen los grupos que no tengan una ruta grupal configurada expresamente. Para obtener información sobre cómo configurar la ruta estática, consulte [Configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md) en la documentación sobre implementación.
+      - Configurar una ruta estática para el control remoto de llamadas. Puede configurar una ruta estática para agrupaciones individuales que desee que admitan el control remoto de llamadas o puede configurar una ruta estática global para que cada grupo de servidores que no esté configurado con una ruta estática en el nivel de grupo use la ruta estática global. Para obtener más información sobre cómo configurar la ruta estática, vea [configurar una ruta estática para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-static-route-for-remote-call-control.md) en la documentación de implementación.
     
-      - Configure una entrada de aplicación de confianza de control remoto de llamadas en cada grupo en el que quiera admitir el control remoto de llamadas. Para obtener información sobre cómo configurar una entrada de aplicación de confianza, consulte [Configurar una entrada de aplicación de confianza para control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md) en la documentación sobre implementación.
+      - Configure una entrada de aplicación de confianza para el control remoto de llamadas en cada grupo para el que desee admitir el control remoto de llamadas. Para obtener más información sobre cómo configurar una entrada de aplicación de confianza, vea [configurar una entrada de aplicación de confianza para el control remoto de llamadas en Lync Server 2013](lync-server-2013-configure-a-trusted-application-entry-for-remote-call-control.md) en la documentación de implementación.
 
-3.  Si ha implementado una puerta de enlace SIP/CSTA que use el Protocolo de control de transmisión (TCP) para conectarse a Lync Server 2013, defina la dirección IP de la puerta de enlace en Topology Builder. Para obtener información sobre la definición de la dirección IP, consulte [Definir una dirección IP de puerta de enlace SIP/CSTA en Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) en la documentación sobre implementación.
+3.  Si ha implementado una puerta de enlace SIP/CSTA que usa el protocolo de control de transmisión (TCP) para conectarse a Lync Server 2013, defina la dirección IP de la puerta de enlace en el generador de topología. Para obtener más información sobre cómo definir la dirección IP, consulte [definir una dirección IP de puerta de enlace SIP/CSTA en Lync Server 2013](lync-server-2013-define-a-sip-csta-gateway-ip-address.md) en la documentación de implementación.
 
-4.  Configure usuarios de Lync 2013 para el control remoto de llamadas; para ello, habilite el control remoto de llamadas y asigne un identificador uniforme de recursos (URI) de servidor de línea y un URI de línea. Cuando migre los usuarios de la implementación heredada a Lync Server 2013, la configuración del control remoto de llamadas se migrará junto con el resto de configuraciones de los usuarios.
+4.  Configure los usuarios de Lync 2013 para el control remoto de llamadas habilitando el control remoto de llamadas y asignando un identificador uniforme de recursos (URI) de line Server y un URI de línea. Al migrar usuarios de la implementación heredada a Lync Server 2013, se migra la configuración de control de llamada remota junto con la configuración del otro usuario.
 
-5.  Si personalizó las reglas de normalización de números de teléfono de la libreta de direcciones en la implementación heredada, cuando finalice la migración automatizada de las directivas y las configuraciones deberá realizar algunas tareas manuales para migrar estas reglas de normalización personalizadas. Si no personalizó ninguna regla, la libreta de direcciones se migra con el resto de la topología. Para obtener información detallada sobre cómo migrar manualmente las reglas de normalización personalizadas, consulte [Migrar la libreta de direcciones](migrate-address-book_1.md).
+5.  Si ha personalizado las reglas de normalización de números de teléfono de la libreta de direcciones en la implementación heredada, tendrá que realizar algunas tareas manuales una vez completada la migración automática de las directivas y la configuración para migrar las reglas de normalización personalizadas. Si no ha personalizado las reglas de normalización, la libreta de direcciones se migrará junto con el resto de la topología. Para obtener detalles sobre la migración manual de reglas de normalización, consulte migrar la [Libreta de direcciones](migrate-address-book_1.md).
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
