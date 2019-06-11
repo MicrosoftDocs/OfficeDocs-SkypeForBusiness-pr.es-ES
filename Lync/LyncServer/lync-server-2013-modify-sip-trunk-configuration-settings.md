@@ -1,31 +1,51 @@
-﻿---
-title: "Modificación de las opciones de configuración de troncos SIP en Lync Server 2013"
-TOCTitle: "Modif. des paramètres de conf. d’une jonction SIP dans Lync Server 2013"
-ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688104(v=OCS.15)
-ms:contentKeyID: 49889243
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modificar las opciones de configuración del tronco del SIP'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify SIP trunk configuration settings
+ms:assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688104(v=OCS.15)
+ms:contentKeyID: 49733703
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3b70b005fc0a276ea7585d2953a3419c713fe478
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826916"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modificación de las opciones de configuración de troncos SIP en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="modify-sip-trunk-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="ede08-102">Modificar la configuración de los enlaces de SIP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ede08-102">Modify SIP trunk configuration settings in Lync Server 2013</span></span>
 
-Las opciones de configuración de troncos SIP definen la relación y funcionalidades entre el Servidor de Mediación y la puerta de enlace de la red telefónica conmutada (RTC), una central de conmutación de IP pública (PBX) o un controlador de borde de sesión (SBC) en el proveedor de servicio. Estas opciones de configuración hacen estas cosas como se especifica:
+</div>
 
-  - Si el desvío de medios debe habilitarse en los troncos.
+<div id="mainSection">
 
-  - Las condiciones en que se envían los paquetes de Protocolo de control de transporte en tiempo real (RTP).
+<div id="mainBody">
 
-  - Si se necesita o no un protocolo seguro en tiempo real (SRTP) en cada tronco.
+<span> </span>
 
-Cuando instala Microsoft Lync Server 2013, una colección global de opciones de configuración de enlaces troncales SIP se crea por usted. Además, los administradores pueden crear colecciones de configuración personalizada en el ámbito del sitio o del servicio (solo para el servicio de puerta de enlace RTC). Cualquiera de estas colecciones luego puede modificarse mediante el Panel de control de Lync Server o Windows PowerShell.
+<span data-ttu-id="ede08-103">_**Última modificación del tema:** 2013-02-22_</span><span class="sxs-lookup"><span data-stu-id="ede08-103">_**Topic Last Modified:** 2013-02-22_</span></span>
 
-Al modificar las opciones de configuración de troncos SIP con Panel de control de Lync Server, se ofrecen las siguientes opciones:
+<span data-ttu-id="ede08-104">Los ajustes de configuración del tronco del SIP definen la relación y las capacidades entre un servidor de mediación y la puerta de enlace de red de telefonía pública conmutada (RTC), una central de conmutación (PBX) IP o un controlador de borde de sesión (SBC) en el proveedor de servicios.</span><span class="sxs-lookup"><span data-stu-id="ede08-104">SIP trunk configuration settings define the relationship and capabilities between a Mediation Server and the public switched telephone network (PSTN) gateway, an IP-public branch exchange (PBX), or a Session Border Controller (SBC) at the service provider.</span></span> <span data-ttu-id="ede08-105">Estas opciones de configuración especifican:</span><span class="sxs-lookup"><span data-stu-id="ede08-105">These settings do such things as specify:</span></span>
+
+  - <span data-ttu-id="ede08-106">Si se debe activar la omisión de medios en los troncos.</span><span class="sxs-lookup"><span data-stu-id="ede08-106">Whether media bypass should be enabled on the trunks.</span></span>
+
+  - <span data-ttu-id="ede08-107">Las condiciones en que se envían paquetes de protocolo de control de transporte (RTCP) en tiempo real.</span><span class="sxs-lookup"><span data-stu-id="ede08-107">The conditions under which real-time transport control protocol (RTCP) packets are sent.</span></span>
+
+  - <span data-ttu-id="ede08-108">Si se requiere o no cifrado de protocolo en tiempo real seguro (SRTP) en cada tronco.</span><span class="sxs-lookup"><span data-stu-id="ede08-108">Whether or not secure real-time protocol (SRTP) encryption is required on each trunk.</span></span>
+
+<span data-ttu-id="ede08-109">Al instalar Microsoft Lync Server 2013, se crea una colección global de parámetros de configuración del tronco del SIP.</span><span class="sxs-lookup"><span data-stu-id="ede08-109">When you install Microsoft Lync Server 2013, a global collection of SIP trunk configuration settings is created for you.</span></span> <span data-ttu-id="ede08-110">Los administradores también pueden crear colecciones de valores personalizadas en el ámbito del sitio o servicio (solo para el servicio de puerta de enlace de RTC).</span><span class="sxs-lookup"><span data-stu-id="ede08-110">In addition, administrators can create custom setting collections at the site scope or at the service scope (for the PSTN gateway service, only).</span></span> <span data-ttu-id="ede08-111">Cualquiera de estas colecciones se puede modificar posteriormente con el panel de control de Lync Server o Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ede08-111">Any of these collections can later be modified using either Lync Server Control Panel or Windows PowerShell.</span></span>
+
+<span data-ttu-id="ede08-112">Al modificar las opciones de configuración del tronco del SIP mediante el panel de control de Lync Server, las siguientes opciones están disponibles:</span><span class="sxs-lookup"><span data-stu-id="ede08-112">When modifying SIP trunk configuration settings using Lync Server Control Panel, the following options are available to you:</span></span>
 
 
 <table>
@@ -36,132 +56,150 @@ Al modificar las opciones de configuración de troncos SIP con Panel de control 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Configuración de la IU</th>
-<th>Parámetro PowerShell</th>
-<th>Descripción</th>
+<th><span data-ttu-id="ede08-113">Valor de IU</span><span class="sxs-lookup"><span data-stu-id="ede08-113">UI Setting</span></span></th>
+<th><span data-ttu-id="ede08-114">Parámetro de PowerShell</span><span class="sxs-lookup"><span data-stu-id="ede08-114">PowerShell Parameter</span></span></th>
+<th><span data-ttu-id="ede08-115">Descripción</span><span class="sxs-lookup"><span data-stu-id="ede08-115">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Nombre</p></td>
-<td><p>Identidad</p></td>
-<td><p>Identificador único para la colección. Esta propiedad es de solo lectura; no puede cambiar la Identidad de una colección o las opciones de configuración de troncos.</p></td>
+<td><p><span data-ttu-id="ede08-116">Nombre</span><span class="sxs-lookup"><span data-stu-id="ede08-116">Name</span></span></p></td>
+<td><p><span data-ttu-id="ede08-117">Identity</span><span class="sxs-lookup"><span data-stu-id="ede08-117">Identity</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p103">Identificador único para la colección. Esta propiedad es de solo lectura; no puede cambiar la Identidad de una colección o las opciones de configuración de troncos.</span><span class="sxs-lookup"><span data-stu-id="ede08-p103">Unique identifier for the collection. This property is read-only; you cannot change the Identity of a collection of trunk configuration settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Descripción</p></td>
-<td><p>Descripción</p></td>
-<td><p>Proporciona una manera para que los administradores almacenen información adicional acerca de la configuración (por ejemplo, el propósito de la configuración de troncos).</p></td>
+<td><p><span data-ttu-id="ede08-120">Descripción</span><span class="sxs-lookup"><span data-stu-id="ede08-120">Description</span></span></p></td>
+<td><p><span data-ttu-id="ede08-121">Description</span><span class="sxs-lookup"><span data-stu-id="ede08-121">Description</span></span></p></td>
+<td><p><span data-ttu-id="ede08-122">Proporciona un método para que los administradores almacenen información adicional acerca de la configuración (por ejemplo, el propósito de la configuración de troncos).</span><span class="sxs-lookup"><span data-stu-id="ede08-122">Provides a way for administrators to store addition information about the settings (for example, the purpose of the trunk configuration).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Cantidad máxima de cuadros de diálogo admitidos</p></td>
-<td><p>MaxEarlyDialogs</p></td>
-<td><p>La cantidad máxima de respuestas bifurcadas que puede recibir una puerta de enlace RTC, IP-PBX o SBC en el proveedor de servicio para una invitación enviada al Servidor de mediación.</p></td>
+<td><p><span data-ttu-id="ede08-123">Número máximo de diálogos iniciales admitidos</span><span class="sxs-lookup"><span data-stu-id="ede08-123">Maximum early dialogs supported</span></span></p></td>
+<td><p><span data-ttu-id="ede08-124">MaxEarlyDialogs</span><span class="sxs-lookup"><span data-stu-id="ede08-124">MaxEarlyDialogs</span></span></p></td>
+<td><p><span data-ttu-id="ede08-125">Cantidad máxima de respuestas bifurcadas que puede recibir una puerta de enlace RTC, IP-PBX o SBC en el proveedor de servicio para una invitación enviada al Servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="ede08-125">The maximum number of forked responses a PSTN gateway, IP-PBX, or SBC at the service provider can receive to an Invite that it sent to the Mediation Server.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Nivel de compatibilidad con el cifrado</p></td>
-<td><p>SRTPMode</p></td>
-<td><p>Indica el nivel de apoyo para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX, o SBC en el proveedor de servicio. Para los casos de desvío de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios. La configuración de medios se establece con los cmdlets <a href="https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> y <a href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a>.</p>
-<p>los valores permitidos son los siguientes:</p>
+<td><p><span data-ttu-id="ede08-126">Nivel de compatibilidad de cifrado</span><span class="sxs-lookup"><span data-stu-id="ede08-126">Encryption support level</span></span></p></td>
+<td><p><span data-ttu-id="ede08-127">SRTPMode</span><span class="sxs-lookup"><span data-stu-id="ede08-127">SRTPMode</span></span></p></td>
+<td><p><span data-ttu-id="ede08-128">Indica el nivel de compatibilidad para proteger el tráfico de medios entre el Servidor de mediación y la puerta de enlace RTC, IP-PBX o SBC en el proveedor de servicio.</span><span class="sxs-lookup"><span data-stu-id="ede08-128">Indicates the level of support for protecting media traffic between the Mediation Server and the PSTN Gateway, IP-PBX, or SBC at the service provider.</span></span> <span data-ttu-id="ede08-129">Para los casos de omisión de medios, este valor debe ser compatible con la configuración de EncryptionLevel en la configuración de medios.</span><span class="sxs-lookup"><span data-stu-id="ede08-129">For media bypass cases, this value must be compatible with the EncryptionLevel setting in the media configuration.</span></span> <span data-ttu-id="ede08-130">La configuración multimedia se establece mediante los cmdlets <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> y <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">set-CsMediaConfiguration</a> .</span><span class="sxs-lookup"><span data-stu-id="ede08-130">Media configuration is set by using the <a href="https://docs.microsoft.com/powershell/module/skype/New-CsMediaConfiguration">New-CsMediaConfiguration</a> and <a href="https://docs.microsoft.com/powershell/module/skype/Set-CsMediaConfiguration">Set-CsMediaConfiguration</a> cmdlets.</span></span></p>
+<p><span data-ttu-id="ede08-131">Los valores permitidos son:</span><span class="sxs-lookup"><span data-stu-id="ede08-131">Allowed values are:</span></span></p>
 <ul>
-<li><p>Requeridos: debe usarse el cifrado SRTP.</p></li>
-<li><p>Opcional: el SRTP se utilizará si la puerta de enlace lo admite.</p></li>
-<li><p>No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se utilizará.</p></li>
+<li><p><span data-ttu-id="ede08-132">Requeridos: debe usarse el cifrado SRTP.</span><span class="sxs-lookup"><span data-stu-id="ede08-132">Required: SRTP encryption must be used.</span></span></p></li>
+<li><p><span data-ttu-id="ede08-133">Opcional: el SRTP se usará si la puerta de enlace lo admite.</span><span class="sxs-lookup"><span data-stu-id="ede08-133">Optional: SRTP will be used if the gateway supports it.</span></span></p></li>
+<li><p><span data-ttu-id="ede08-134">No admitido: el cifrado SRTP no está admitido y, por lo tanto, no se usará.</span><span class="sxs-lookup"><span data-stu-id="ede08-134">Not Supported: SRTP encryption is not supported and therefore will not be used.</span></span></p></li>
 </ul>
-<p>El SRTPMode se utiliza solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, el SRTPMode se configura internamente como No admitido.</p></td>
+<p><span data-ttu-id="ede08-p105">El SRTPMode se usa solo si la puerta de enlace está configurada para usar la Seguridad de la capa de transporte (TLS). Si la puerta de enlace está configurada con el Protocolo de control de transporte (TCP) como transporte, SRTPMode se configura internamente como No admitido.</span><span class="sxs-lookup"><span data-stu-id="ede08-p105">SRTPMode is used only if the gateway is configured to use Transport Layer Security (TLS). If the gateway is configured with Transmission Control Protocol (TCP) as the transport, SRTPMode is internally set to Not Supported.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Hacer referencia al soporte</p></td>
-<td><p>Enable3pccRefer</p>
-<p>EnableReferSupport</p></td>
-<td><p>Si se configura en <strong>Habilitar enviar referencia a la puerta de enlace</strong>, indica que el tronco admite la recepción de Solicitudes de referencia desde el Servidor de mediación.</p>
-<p>Si está establecido como <strong>Habilitar la referencia mediante un control de llamadas de terceros</strong>, indica que el protocolo 3pcc puede ser utilizado para permitir llamadas transferidas para desviar el sitio hospedado. 3pcc también se conoce como &quot;control de terceros&quot; y ocurre cuando un tercero se utiliza para conectar un par de personas que llaman (por ejemplo, un operador que realiza una llamada de la persona A a una persona B).</p></td>
+<td><p><span data-ttu-id="ede08-137">Compatibilidad con referencias</span><span class="sxs-lookup"><span data-stu-id="ede08-137">Refer support</span></span></p></td>
+<td><p><span data-ttu-id="ede08-138">Enable3pccRefer</span><span class="sxs-lookup"><span data-stu-id="ede08-138">Enable3pccRefer</span></span></p>
+<p><span data-ttu-id="ede08-139">EnableReferSupport</span><span class="sxs-lookup"><span data-stu-id="ede08-139">EnableReferSupport</span></span></p></td>
+<td><p><span data-ttu-id="ede08-140">Si se establece en <strong>Habilitar referencias de envío a la puerta de enlace</strong>, indica que el tronco admite la recepción de Solicitudes de referencia del Servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="ede08-140">If set to <strong>Enable sending refer to the gateway</strong>, indicates that the trunk supports receiving Refer requests from the Mediation Server.</span></span></p>
+<p><span data-ttu-id="ede08-141">Si se establece en en <strong>Habilitar referencia mediante el control de llamadas a terceros</strong>, indica que se puede usar el protocolo 3pcc para permitir llamadas transferidas para omitir el sitio hospedado.</span><span class="sxs-lookup"><span data-stu-id="ede08-141">If set to <strong>Enable refer using third-party call control</strong>, indicates that the 3pcc protocol can be used to allow transferred calls to bypass the hosted site.</span></span> <span data-ttu-id="ede08-142">3pcc también se conoce como &quot;control de terceros&quot; y se produce cuando se usa un tercero para conectar un par de personas que llaman (por ejemplo, un operador que llama a la persona a a la persona B).</span><span class="sxs-lookup"><span data-stu-id="ede08-142">3pcc is also known as &quot;third party control,&quot; and occurs when a third-party is used to connect a pair of callers (for example, an operator placing a call from person A to person B).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Habilitar el desvío de medios</p></td>
-<td><p>EnableBypass</p></td>
-<td><p>Indica si la omisión de medios se encuentra habilitado para este tronco. La omisión de medios solo puede estar habilitada si el <strong>Procesamiento de medios centralizado</strong> también está habilitado.</p></td>
+<td><p><span data-ttu-id="ede08-143">Habilitar omisión de medios</span><span class="sxs-lookup"><span data-stu-id="ede08-143">Enable media bypass</span></span></p></td>
+<td><p><span data-ttu-id="ede08-144">EnableBypass</span><span class="sxs-lookup"><span data-stu-id="ede08-144">EnableBypass</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p107">Indica si la omisión de medios está habilitada para este tronco. La omisión de medios solo puede estar habilitada si la opción <strong>Procesamiento de medios centralizado</strong> también está habilitada.</span><span class="sxs-lookup"><span data-stu-id="ede08-p107">Indicates whether media bypass is enabled for this trunk. Media bypass can only be enabled if <strong>Centralized media processing</strong> is also enabled.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Procesamiento de medios centralizado</p></td>
-<td><p>ConcentratedTopology</p></td>
-<td><p>Indica si existe un punto de terminación de medios conocido. (Un ejemplo de punto de terminación de medios conocido puede ser una puerta de enlace RTC donde una terminación de medios tiene la misma IP que la terminación de señal).</p></td>
+<td><p><span data-ttu-id="ede08-147">Procesamiento de medios centralizado</span><span class="sxs-lookup"><span data-stu-id="ede08-147">Centralized media processing</span></span></p></td>
+<td><p><span data-ttu-id="ede08-148">ConcentratedTopology</span><span class="sxs-lookup"><span data-stu-id="ede08-148">ConcentratedTopology</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p108">Indica si existe un punto de terminación de medios conocido. (Un ejemplo de punto de terminación de medios conocido puede ser una puerta de enlace RTC donde una terminación de medios tiene la misma IP que la terminación de señal).</span><span class="sxs-lookup"><span data-stu-id="ede08-p108">Indicates whether there is a well-known media termination point. (An example of a well-known media termination point would be a PSTN gateway where the media termination has the same IP as the signaling termination.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Habilitar el cierre RTP</p></td>
-<td><p>EnableRTPLatching</p></td>
-<td><p>Indica si los troncos admiten o no el cierre RTP. El cierre RTP es una tecnología que permite la conectividad RTP/RTCP mediante un firewall o dispositivo NAT (traductor de direcciones de red).</p></td>
+<td><p><span data-ttu-id="ede08-151">Habilitar cierre RTP</span><span class="sxs-lookup"><span data-stu-id="ede08-151">Enable RTP latching</span></span></p></td>
+<td><p><span data-ttu-id="ede08-152">EnableRTPLatching</span><span class="sxs-lookup"><span data-stu-id="ede08-152">EnableRTPLatching</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p109">Indica si los troncos admiten o no el cierre RTP. El cierre RTP es una tecnología que permite la conectividad RTP/RTCP mediante un firewall o dispositivo NAT (traductor de direcciones de red).</span><span class="sxs-lookup"><span data-stu-id="ede08-p109">Indicates whether or not the SIP trunks support RTP latching. RTP latching is a technology that enables RTP/RTCP connectivity through a NAT (network address translator) device or firewall.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Habilitar el historial de desvío de llamadas</p></td>
-<td><p>ForwardCallHistory</p></td>
-<td><p>Indica si la información del historial de llamadas se reenviará mediante el tronco.</p></td>
+<td><p><span data-ttu-id="ede08-155">Habilitar el historial de llamadas reenviadas</span><span class="sxs-lookup"><span data-stu-id="ede08-155">Enable forward call history</span></span></p></td>
+<td><p><span data-ttu-id="ede08-156">ForwardCallHistory</span><span class="sxs-lookup"><span data-stu-id="ede08-156">ForwardCallHistory</span></span></p></td>
+<td><p><span data-ttu-id="ede08-157">Indica si la información del historial de llamadas se reenviará a través del tronco.</span><span class="sxs-lookup"><span data-stu-id="ede08-157">Indicates whether call history information will be forwarded through the trunk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Habilitar los datos de reenvío de la identidad p-asserted</p></td>
-<td><p>ForwardPAI</p></td>
-<td><p>Indica si el encabezado de la identidad p-asserted (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona una forma de verificar la identidad de la persona que realiza la llamada.</p></td>
+<td><p><span data-ttu-id="ede08-158">Habilitar el reenvío de datos P-Asserted-Identity</span><span class="sxs-lookup"><span data-stu-id="ede08-158">Enable forward P-Asserted-Identity data</span></span></p></td>
+<td><p><span data-ttu-id="ede08-159">ForwardPAI</span><span class="sxs-lookup"><span data-stu-id="ede08-159">ForwardPAI</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p110">Indica si el encabezado P-Asserted-Identity (PAI) se reenviará junto con la llamada. El encabezado PAI proporciona un método para comprobar la identidad de la persona que realiza la llamada.</span><span class="sxs-lookup"><span data-stu-id="ede08-p110">Indicates whether the P-Asserted-Identity (PAI) header will be forwarded along with the call. The PAI header provides a way to verify the identity of the caller.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Habilitar el temporizador de desvío de conmutación por error saliente</p></td>
-<td><p>EnableFastFailoverTimer</p></td>
-<td><p>Indica que si las llamadas salientes no son respondidas por la puerta de enlace dentro de los 10 segundos se enrutarán al siguiente tronco disponible; si no existen troncos adicionales, la llamada se perderá automáticamente. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que se pierdan innecesariamente las llamadas.</p></td>
+<td><p><span data-ttu-id="ede08-162">Habilitar temporizador de conmutación por error del enrutamiento de salida</span><span class="sxs-lookup"><span data-stu-id="ede08-162">Enable outbound routing failover timer</span></span></p></td>
+<td><p><span data-ttu-id="ede08-163">EnableFastFailoverTimer</span><span class="sxs-lookup"><span data-stu-id="ede08-163">EnableFastFailoverTimer</span></span></p></td>
+<td><p><span data-ttu-id="ede08-p111">Indica que si las llamadas salientes no son respondidas por la puerta de enlace en el plazo de 10 segundos se enrutarán al siguiente tronco disponible; si no existen troncos adicionales, la llamada se perderá automáticamente. En una organización con redes y respuestas de puerta de enlace lentas, esto puede tener como resultado que las llamadas se pierdan innecesariamente.</span><span class="sxs-lookup"><span data-stu-id="ede08-p111">Indicates whether outbound calls that are not answered by the gateway within 10 seconds will be routed to the next available trunk; if there are no additional trunks then the call will automatically be dropped. In an organization with slow networks and gateway responses, that could potentially result in calls being dropped unnecessarily.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Usos asociados de la RTC</p></td>
-<td><p>PSTNUsages</p></td>
-<td><p>Recopilación de los usos de RTC asignados al tronco.</p></td>
+<td><p><span data-ttu-id="ede08-166">Usos de la RTC asociados</span><span class="sxs-lookup"><span data-stu-id="ede08-166">Associated PSTN usages</span></span></p></td>
+<td><p><span data-ttu-id="ede08-167">PSTNUsages</span><span class="sxs-lookup"><span data-stu-id="ede08-167">PSTNUsages</span></span></p></td>
+<td><p><span data-ttu-id="ede08-168">Colección de usos de RTC asignados al tronco.</span><span class="sxs-lookup"><span data-stu-id="ede08-168">Collection of PSTN usages assigned to the trunk.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Número traducido para probar</p></td>
-<td><p>N/D</p></td>
-<td><p>Número telefónico que puede utilizarse para realizar una prueba ad hoc de la configuración del tronco.</p></td>
+<td><p><span data-ttu-id="ede08-169">Número traducido para probar</span><span class="sxs-lookup"><span data-stu-id="ede08-169">Translated number to test</span></span></p></td>
+<td><p><span data-ttu-id="ede08-170">N/D</span><span class="sxs-lookup"><span data-stu-id="ede08-170">N/A</span></span></p></td>
+<td><p><span data-ttu-id="ede08-171">Número telefónico que puede usare para realizar una prueba ad hoc de la configuración del tronco.</span><span class="sxs-lookup"><span data-stu-id="ede08-171">Phone number that can be used to do an ad hoc test of the trunk configuration settings.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Reglas asociadas de traducción</p></td>
-<td><p>OutboundTranslationRulesList</p></td>
-<td><p>Recopilación de reglas de traducción de números telefónicos que se aplican a las llamadas administradas por el Enrutamiento de salida (llamadas enrutadas a destinos PBX o RTC).</p></td>
+<td><p><span data-ttu-id="ede08-172">Reglas de conversión asociadas</span><span class="sxs-lookup"><span data-stu-id="ede08-172">Associated translation rules</span></span></p></td>
+<td><p><span data-ttu-id="ede08-173">OutboundTranslationRulesList</span><span class="sxs-lookup"><span data-stu-id="ede08-173">OutboundTranslationRulesList</span></span></p></td>
+<td><p><span data-ttu-id="ede08-174">Recopilación de reglas de conversión de números telefónicos que se aplican a las llamadas administradas por el Enrutamiento de salida (llamadas enrutadas a destinos PBX o RTC).</span><span class="sxs-lookup"><span data-stu-id="ede08-174">Collection of phone number translation rules that apply to calls handled by Outbound Routing (calls routed to PBX or PSTN destinations).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Reglas de traducción de los números llamados</p></td>
-<td><p>OutboundCallingNumberTranslationRulesList</p></td>
-<td><p>Colección de reglas de traducción para números de llamada saliente asignadas al tronco.</p></td>
+<td><p><span data-ttu-id="ede08-175">Reglas de traducción de números llamados</span><span class="sxs-lookup"><span data-stu-id="ede08-175">Called number translation rules</span></span></p></td>
+<td><p><span data-ttu-id="ede08-176">OutboundCallingNumberTranslationRulesList</span><span class="sxs-lookup"><span data-stu-id="ede08-176">OutboundCallingNumberTranslationRulesList</span></span></p></td>
+<td><p><span data-ttu-id="ede08-177">Colección de reglas de conversión de números de llamadas salientes asignadas al tronco.</span><span class="sxs-lookup"><span data-stu-id="ede08-177">Collection of outbound calling number translation rules assigned to the trunk.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Número de teléfono que se debe probar</p></td>
-<td><p>N/D</p></td>
-<td><p>Número telefónico que puede utilizarse para realizar una prueba ad hoc de las reglas de traducción.</p></td>
+<td><p><span data-ttu-id="ede08-178">Número de teléfono para probar</span><span class="sxs-lookup"><span data-stu-id="ede08-178">Phone number to test</span></span></p></td>
+<td><p><span data-ttu-id="ede08-179">N/D</span><span class="sxs-lookup"><span data-stu-id="ede08-179">N/A</span></span></p></td>
+<td><p><span data-ttu-id="ede08-180">Número telefónico que puede usarse para realizar una prueba ad hoc de las reglas de conversión.</span><span class="sxs-lookup"><span data-stu-id="ede08-180">Phone number that can be used to do an ad hoc test of the translation rules.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>Número de llamada</p></td>
-<td><p>N/D</p></td>
-<td><p>Indica que el número de teléfono que se debe probar es el número telefónico de la persona que llama.</p></td>
+<td><p><span data-ttu-id="ede08-181">Número que llamada</span><span class="sxs-lookup"><span data-stu-id="ede08-181">Calling number</span></span></p></td>
+<td><p><span data-ttu-id="ede08-182">N/D</span><span class="sxs-lookup"><span data-stu-id="ede08-182">N/A</span></span></p></td>
+<td><p><span data-ttu-id="ede08-183">Indica que el número de teléfono que se debe probar es el número telefónico de la persona que llama.</span><span class="sxs-lookup"><span data-stu-id="ede08-183">Indicates that the phone number to test is the phone number of the caller.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>Número llamado</p></td>
-<td><p>N/D</p></td>
-<td><p>Indica que el número de teléfono que se debe probar es el número telefónico de la persona llamada.</p></td>
+<td><p><span data-ttu-id="ede08-184">Número llamado</span><span class="sxs-lookup"><span data-stu-id="ede08-184">Called number</span></span></p></td>
+<td><p><span data-ttu-id="ede08-185">N/D</span><span class="sxs-lookup"><span data-stu-id="ede08-185">N/A</span></span></p></td>
+<td><p><span data-ttu-id="ede08-186">Indica que el número de teléfono que se debe probar es el número telefónico de la persona llamada.</span><span class="sxs-lookup"><span data-stu-id="ede08-186">Indicates that the phone number to test is the phone number of the person being called.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-
-> [!NOTE]
-> Loas cmdlets Lync Server CsTrunkConfiguration admiten propiedades adicionales que no se muestran en Panel de control de Lync Server. Para más información, vea la ayuda para el cmdlet <A href="https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A>.
+<div>
 
 
+> [!NOTE]  
+> <span data-ttu-id="ede08-187">Los cmdlets de CsTrunkConfiguration de Lync Server admiten propiedades adicionales que no se muestran en el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="ede08-187">The Lync Server CsTrunkConfiguration cmdlets support additional properties not shown in Lync Server Control Panel.</span></span> <span data-ttu-id="ede08-188">Para obtener más información, consulte el tema de ayuda para el cmdlet <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">set-CsTrunkConfiguration</A> .</span><span class="sxs-lookup"><span data-stu-id="ede08-188">For more information, see the help topic for the <A href="https://docs.microsoft.com/powershell/module/skype/Set-CsTrunkConfiguration">Set-CsTrunkConfiguration</A> cmdlet.</span></span>
 
-## Modificar las opciones de configuración de troncos SIP con Panel de control de Lync Server
 
-1.  En Panel de control de Lync Server, haga clic en **Enrutamiento de voz** y luego en **Configuración de tronco**.
 
-2.  En la pestaña **Configuración de tronco** haga doble clic en las opciones de configuración de troncos que se modificarán. Tenga en cuenta que solo puede editar un grupo de opciones de configuración a la vez. Si desea realizar los mismos cambios en varias colecciones, utilice Windows PowerShell.
+</div>
 
-3.  En el cuadro de diálogo **Editar configuración de tronco**, realice las selecciones apropiadas y seleccione **Aceptar**.
+<div>
 
-4.  La propiedad **Estado** para la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.
+## <a name="to-modify-sip-trunk-configuration-settings-by-using-lync-server-control-panel"></a><span data-ttu-id="ede08-189">Para modificar los ajustes de configuración del tronco del Protocolo de PREENLACE SIP con el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="ede08-189">To modify SIP trunk configuration settings by using Lync Server Control Panel</span></span>
 
-5.  En el cuadro de diálogo **Valores de configuración de voz no confirmados** haga clic en **Aceptar**.
+1.  <span data-ttu-id="ede08-190">En el panel de control de Lync Server, haga clic en **enrutamiento de voz**y luego en **configuración troncal**.</span><span class="sxs-lookup"><span data-stu-id="ede08-190">In Lync Server Control Panel, click **Voice Routing**, and then click **Trunk Configuration**.</span></span>
 
-6.  En el cuadro de diálogo **Panel de control de Microsoft Lync Server 2013** haga clic en **Aceptar**.
+2.  <span data-ttu-id="ede08-p113">En la pestaña **Configuración de tronco**, haga doble clic en las opciones de configuración de tronco que se modificarán. Tenga en cuenta que solo puede editar un grupo de opciones de configuración a la vez. Si desea realizar los mismos cambios en varias colecciones, use Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ede08-p113">On the **Trunk Configuration** tab, double-click the trunk configuration settings to be modified. Note that you can only edit one collection of settings at a time. If you would like to make the same changes on multiple collections, use Windows PowerShell instead.</span></span>
+
+3.  <span data-ttu-id="ede08-194">En el cuadro de diálogo **Editar configuración de tronco**, realice las selecciones apropiadas y seleccione **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ede08-194">In the **Edit Trunk Configuration** dialog, make the appropriate selections and then click **OK**.</span></span>
+
+4.  <span data-ttu-id="ede08-p114">La propiedad **Estado** para la colección se actualizará a **No confirmado**. Para confirmar los cambios y eliminar la colección, haga clic en **Confirmar** y luego en **Confirmar todo**.</span><span class="sxs-lookup"><span data-stu-id="ede08-p114">The **State** property for the collection will be updated to **Uncommitted**. To commit the changes, and to delete the collection, click **Commit** and then click **Commit All**.</span></span>
+
+5.  <span data-ttu-id="ede08-197">En el cuadro de diálogo **Valores de configuración de voz no confirmados**, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ede08-197">In the **Uncommitted Voice Configuration Settings** dialog box, click **OK**.</span></span>
+
+6.  <span data-ttu-id="ede08-198">En el cuadro de diálogo **Panel de control de Microsoft Lync Server 2013** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="ede08-198">In the **Microsoft Lync Server 2013 Control Panel** dialog box click **OK**.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,55 @@
-﻿---
-title: 'Lync Server 2013: Nuevas características de administración'
-TOCTitle: Nuevas características de administración
-ms:assetid: 72f7b719-32b0-4736-ba8e-c54bcebf42e5
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398546(v=OCS.15)
-ms:contentKeyID: 48275671
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Nuevas características de administración'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: New management and administration features
+ms:assetid: 72f7b719-32b0-4736-ba8e-c54bcebf42e5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398546(v=OCS.15)
+ms:contentKeyID: 48184476
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: cbb91770e521e8a242b548485549f7866cbe83c6
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826174"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Nuevas características de administración en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-26_
+# <a name="new-management-and-administration-features-in-lync-server-2013"></a><span data-ttu-id="9d392-102">Nuevas características de administración en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d392-102">New management and administration features in Lync Server 2013</span></span>
 
-Lync Server 2013 incluye las características nuevas siguientes para simplificar la tarea de administrar la implementación.
+</div>
 
-  - [El Generador de topologías es compatible con la creación de reflejos de SQL Server en Lync Server 2013](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+<div id="mainSection">
 
-  - [Características nuevas del control de acceso basado en roles en Lync Server 2013](lync-server-2013-has-new-role-based-access-control-features.md)
+<div id="mainBody">
 
-  - [Integración de herramientas de administración de chat persistente en Lync Server 2013](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+<span> </span>
+
+<span data-ttu-id="9d392-103">_**Última modificación del tema:** 2012-09-26_</span><span class="sxs-lookup"><span data-stu-id="9d392-103">_**Topic Last Modified:** 2012-09-26_</span></span>
+
+<span data-ttu-id="9d392-104">Lync Server 2013 incluye las siguientes características nuevas para simplificar la tarea de administración de la implementación.</span><span class="sxs-lookup"><span data-stu-id="9d392-104">Lync Server 2013 includes the following new features to simplify the task of managing your deployment.</span></span>
+
+  - [<span data-ttu-id="9d392-105">El Generador de topologías es compatible con la creación de reflejos de SQL Server en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d392-105">Topology Builder supports SQL Server mirroring in Lync Server 2013</span></span>](lync-server-2013-topology-builder-supports-sql-server-mirroring.md)
+
+  - [<span data-ttu-id="9d392-106">Características nuevas del control de acceso basado en roles en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d392-106">New role based access control features in Lync Server 2013</span></span>](lync-server-2013-has-new-role-based-access-control-features.md)
+
+  - [<span data-ttu-id="9d392-107">Integración de herramientas de administración de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d392-107">Integration of Persistent Chat management tools in Lync Server 2013</span></span>](lync-server-2013-integration-of-persistent-chat-management-tools.md)
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
