@@ -1,57 +1,103 @@
-﻿---
-title: 'Lync Server 2013: Instalar las herramientas administrativas de Lync Server'
-TOCTitle: Instalar las herramientas administrativas de Lync Server
-ms:assetid: 842b85e4-2eeb-464f-b1c1-ceb8cc04f8d5
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398665(v=OCS.15)
-ms:contentKeyID: 48275873
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instalar las herramientas administrativas de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Install Lync Server administrative tools
+ms:assetid: 842b85e4-2eeb-464f-b1c1-ceb8cc04f8d5
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398665(v=OCS.15)
+ms:contentKeyID: 48184695
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f1115d5848806f95d35a158f36b7689967cec5d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835007"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalar las herramientas administrativas de Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-21_
+# <a name="install-lync-server-2013-administrative-tools"></a><span data-ttu-id="6fadb-102">Instalar las herramientas administrativas de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6fadb-102">Install Lync Server 2013 administrative tools</span></span>
 
-En este tema se describe cómo instalar las herramientas administrativas que debe usar para implementar y administrar Lync Server 2013. Las herramientas administrativas se instalan de forma predeterminada en cada servidor en el que se ejecuta Lync Server 2013. Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas. Se recomienda encarecidamente que instale las herramientas administrativas en un equipo que esté en el mismo dominio o bosque que la implementación de Lync Server 2013 que esté creando, porque de esta manera se asegura de que los pasos de preparación de Servicios de dominio de Active Directory ya estén completos, lo que le permite a usted usar las herramientas administrativas en ese equipo más adelante para publicar su topología.
+</div>
 
-Asegúrese de revisar los requisitos de infraestructura, sistema operativos, software y derechos de administrador antes de instalar o usar las herramientas administrativas de Lync Server 2013. Para obtener información detallada sobre los requisitos de infraestructura, vea [Requisitos de infraestructura de herramientas administrativas de Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md). Para obtener información detallada sobre los requisitos de sistema operativo y software para instalar las herramientas administrativas de Lync Server 2013 vea [Compatibilidad del sistema operativo con el servidor y las herramientas en Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Requisitos adicionales de software para Lync Server 2013](lync-server-2013-additional-software-requirements.md) y [Compatibilidad y requisitos para un servidor adicional en Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md). Para obtener información detallada sobre los permisos y derechos de usuario requeridos para instalar y usar las herramientas, vea [Derechos de administrador y permisos requeridos para la instalación y la administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="6fadb-103">_**Última modificación del tema:** 2013-02-21_</span><span class="sxs-lookup"><span data-stu-id="6fadb-103">_**Topic Last Modified:** 2013-02-21_</span></span>
+
+<span data-ttu-id="6fadb-104">En este tema se describe cómo instalar las herramientas administrativas que necesita usar para implementar y administrar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6fadb-104">This topic describes how to install the administrative tools you need to use to deploy and manage Lync Server 2013.</span></span> <span data-ttu-id="6fadb-105">Las herramientas administrativas se instalan de forma predeterminada en todos los servidores que ejecutan Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6fadb-105">The administrative tools are installed by default on each server running Lync Server 2013.</span></span> <span data-ttu-id="6fadb-106">Además, puede instalar las herramientas administrativas en otros equipos, como consolas administrativas dedicadas.</span><span class="sxs-lookup"><span data-stu-id="6fadb-106">Additionally, you can install the administrative tools on other computers, such as dedicated administrative consoles.</span></span> <span data-ttu-id="6fadb-107">Le recomendamos encarecidamente que instale las herramientas administrativas en un equipo del mismo dominio o bosque que la implementación de Lync Server 2013 que está creando porque, de esta manera, tendrá que asegurarse de que los pasos de preparación de los servicios de dominio de Active Directory ya están completado, que le permite usar las herramientas administrativas en ese equipo más tarde para publicar su topología.</span><span class="sxs-lookup"><span data-stu-id="6fadb-107">We strongly recommend that you install the administrative tools on a computer that is in the same domain or forest as the Lync Server 2013 deployment you are creating because by doing so you make sure that Active Directory Domain Services preparation steps are already complete, which enables you to use the administrative tools on that computer later to publish your topology.</span></span>
+
+<span data-ttu-id="6fadb-108">Asegúrese de revisar los requisitos de los derechos de infraestructura, sistema operativo, software y administrador antes de instalar o usar las herramientas administrativas de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="6fadb-108">Make sure that you review infrastructure, operating system, software, and administrator rights requirements before you install or use the Lync Server 2013 administrative tools.</span></span> <span data-ttu-id="6fadb-109">Para obtener más información sobre los requisitos de infraestructura, consulte [requisitos de infraestructura de herramientas administrativas en Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="6fadb-109">For details about infrastructure requirements, see [Administrative tools infrastructure requirements in Lync Server 2013](lync-server-2013-administrative-tools-infrastructure-requirements.md).</span></span> <span data-ttu-id="6fadb-110">Para obtener más información sobre los requisitos del sistema operativo y del software para instalar las herramientas administrativas de Lync Server 2013, consulte [compatibilidad del sistema operativo de servidor y herramientas en Lync server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [requisitos de software adicionales para Lync Server 2013](lync-server-2013-additional-software-requirements.md)y [Requisitos y compatibilidad de servidor adicionales en Lync server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span><span class="sxs-lookup"><span data-stu-id="6fadb-110">For details about operating system and software requirements to install the Lync Server 2013 administrative tools, see [Server and tools operating system support in Lync Server 2013](lync-server-2013-server-and-tools-operating-system-support.md), [Additional software requirements for Lync Server 2013](lync-server-2013-additional-software-requirements.md), and [Additional server support and requirements in Lync Server 2013](lync-server-2013-additional-server-support-and-requirements.md).</span></span> <span data-ttu-id="6fadb-111">Para obtener más información sobre los derechos de usuario y los permisos necesarios para instalar y usar las herramientas, consulte [derechos y permisos de administrador necesarios para la configuración y administración de Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).</span><span class="sxs-lookup"><span data-stu-id="6fadb-111">For details about the user rights and permissions required to install and use the tools, see [Administrator rights and permissions required for setup and administration of Lync Server 2013](lync-server-2013-administrator-rights-and-permissions-required-for-setup-and-administration.md).</span></span>
+
+<div>
+
 
 > [!IMPORTANT]  
-> Si su organización necesita que ubique Internet Information Services (IIS) y todos los servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.
+> <span data-ttu-id="6fadb-112">Si su organización requiere que encuentre Internet Information Services (IIS) y todos los servicios web en una unidad distinta de la del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server en el cuadro de diálogo Configuración.</span><span class="sxs-lookup"><span data-stu-id="6fadb-112">If your organization requires that you locate Internet Information Services (IIS) and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server files in the Setup dialog box.</span></span> <span data-ttu-id="6fadb-113">Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 se implementarán también en esta unidad.</span><span class="sxs-lookup"><span data-stu-id="6fadb-113">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive as well.</span></span>
 
 
 
-## Para instalar las herramientas de administración de Lync Server 2013
+</div>
 
-1.  Inicie sesión como administrador local (requisito mínimo) en el equipo donde desee instalar las herramientas administrativas. Si ha iniciado la sesión como usuario estándar en los sistemas operativos Windows Vista o Windows 7 y está habilitado el control de cuenta de usuarios (UAC), se le pedirá que indique el administrador local o un nombre de usuario equivalente del dominio y una contraseña.
+<div>
 
-2.  Busque los medios de instalación en el equipo y, a continuación, haga doble clic en \\Setup\\amd64\\Setup.exe.
+## <a name="to-install-the-lync-server-2013-administrative-tools"></a><span data-ttu-id="6fadb-114">Para instalar las herramientas administrativas 2013 de Lync Server</span><span class="sxs-lookup"><span data-stu-id="6fadb-114">To install the Lync Server 2013 administrative tools</span></span>
 
-3.  Si se le pide que instale Microsoft Visual C++ 2008 distribuibles, haga clic en **Sí**.
+1.  <span data-ttu-id="6fadb-115">Inicie sesión como administrador local (requisito mínimo) en el equipo en el que desea instalar las herramientas administrativas.</span><span class="sxs-lookup"><span data-stu-id="6fadb-115">Log on as a local administrator (minimum requirement) to the computer where you want to install the administrative tools.</span></span> <span data-ttu-id="6fadb-116">Si ha iniciado sesión como un usuario estándar en los sistemas operativos Windows Vista o Windows 7, y el control de cuentas de usuario (UAC) está habilitado, se le solicitará el administrador local o un nombre de usuario y una contraseña de dominio equivalente.</span><span class="sxs-lookup"><span data-stu-id="6fadb-116">If you are logged on as an a standard user on the Windows Vista or Windows 7 operating systems, and User Account Control (UAC) is enabled, you will be prompted for the local administrator or a domain equivalent user name and password.</span></span>
 
-4.  En la página **Microsoft Lync Server 2013Ubicación de instalación de Microsoft Lync Server 2010** , haga clic en **Aceptar** . Cambie esta ruta de acceso a otra ubicación o unidad si necesita que los archivos se instalen en una ubicación diferente.
+2.  <span data-ttu-id="6fadb-117">Busque los medios de instalación en el equipo y, a continuación, \\haga\\doble\\clic en Setup AMD64 Setup. exe.</span><span class="sxs-lookup"><span data-stu-id="6fadb-117">Locate the installation media on your computer, and then double-click \\Setup\\amd64\\Setup.exe.</span></span>
+
+3.  <span data-ttu-id="6fadb-118">Si se le pide que instale el paquete distribuible de Microsoft Visual C++ 2008, haga clic en **sí**.</span><span class="sxs-lookup"><span data-stu-id="6fadb-118">If you are prompted to install the Microsoft Visual C++ 2008 distributable, click **Yes**.</span></span>
+
+4.  <span data-ttu-id="6fadb-119">En la página **Ubicación de instalación de Microsoft Lync Server 2013** , haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6fadb-119">On the **Microsoft Lync Server 2013 Installation Location** page, click **OK**.</span></span> <span data-ttu-id="6fadb-120">Cambie esta ruta de acceso a otra ubicación o unidad si necesita tener los archivos instalados en otra ubicación.</span><span class="sxs-lookup"><span data-stu-id="6fadb-120">Change this path to another location or drive if you need to have the files installed to another location.</span></span>
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > Si su organización necesita que ubique Servicios de Internet Information Server (IIS) y todos los Servicios web en una unidad que no sea la unidad del sistema, debe cambiar la ruta de acceso a la ubicación de instalación de los archivos de Lync Server 2013 en el cuadro de diálogo de instalación. Si instala los archivos de instalación, incluido OCSCore.msi, a esta ruta de acceso, el resto de los archivos de Lync Server 2013 se implementará también en esta unidad.
+    > <span data-ttu-id="6fadb-121">Si su organización requiere que encuentre Internet Information Services (IIS) y todos los servicios web en una unidad distinta de la del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server 2013 en el cuadro de diálogo de configuración.</span><span class="sxs-lookup"><span data-stu-id="6fadb-121">If your organization requires that you locate Internet Information Services (IIS) and all Web Services on a drive other than the system drive, you can change the installation location path for the Lync Server 2013 files in the Setup dialog box.</span></span> <span data-ttu-id="6fadb-122">Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server 2013 se implementarán también en esta unidad.</span><span class="sxs-lookup"><span data-stu-id="6fadb-122">If you install the Setup files to this path, including OCSCore.msi, the rest of the Lync Server 2013 files will be deployed to this drive too.</span></span>
+
     
+    </div>
+
+5.  <span data-ttu-id="6fadb-123">En la página contrato de licencia para el **usuario final** , revise los términos \*\*\*\* de licencia, haga clic en Acepto y, después, haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="6fadb-123">On the **End User License Agreement** page, review the license terms, click **I accept**, and then click **OK**.</span></span> <span data-ttu-id="6fadb-124">Este paso es necesario para poder continuar.</span><span class="sxs-lookup"><span data-stu-id="6fadb-124">This step is required before you can continue.</span></span>
+
+6.  <span data-ttu-id="6fadb-125">En la página **Microsoft Lync Server 2013: Asistente para la implementación** , haga clic en **instalar herramientas del administrador**.</span><span class="sxs-lookup"><span data-stu-id="6fadb-125">On the **Microsoft Lync Server 2013 – Deployment Wizard** page, click **Install Administrator Tools**.</span></span>
+
+7.  <span data-ttu-id="6fadb-126">Cuando la instalación finalice correctamente, haga clic en **salir**.</span><span class="sxs-lookup"><span data-stu-id="6fadb-126">When the installation successfully completes, click **Exit**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="6fadb-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="6fadb-127">See Also</span></span>
 
 
-5.  En la página **Contrato de licencia para el usuario final** , revise los términos de la licencia, haga clic en **Acepto** y, a continuación, haga clic en **Aceptar** . Este paso es necesario para poder continuar
+[<span data-ttu-id="6fadb-128">Abrir las herramientas administrativas de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6fadb-128">Open Lync Server 2013 administrative tools</span></span>](lync-server-2013-open-lync-server-administrative-tools.md)  
 
-6.  En la página **Microsoft Lync Server 2013 – Asistente para la implementación**, haga clic en **Instalar herramientas de administrador**.
 
-7.  Cuando finalice la instalación correctamente, haga clic en **Salir** .
+[<span data-ttu-id="6fadb-129">Herramientas administrativas de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="6fadb-129">Lync Server 2013 administrative tools</span></span>](lync-server-2013-lync-server-administrative-tools.md)  
+  
 
-## Vea también
+</div>
 
-#### Tareas
+</div>
 
-[Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md)  
+<span> </span>
 
-#### Conceptos
+</div>
 
-[Herramientas administrativas de Lync Server 2013](lync-server-2013-lync-server-administrative-tools.md)
+</div>
+
+</div>
 

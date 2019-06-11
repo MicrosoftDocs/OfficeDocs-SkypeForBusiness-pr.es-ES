@@ -1,23 +1,45 @@
-﻿---
-title: "Resumen de DNS - Federación del Protocolo extensible de mensajería y presencia (XMPP)"
-TOCTitle: "Résumé des enr. DNS - Féd. XMPP (Extensible Messaging and Presence Protocol)"
-ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ618368(v=OCS.15)
-ms:contentKeyID: 49115268
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Resumen de DNS: Federación protocolo de presencia y mensajería extensible (XMPP)'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Extensible messaging and presence protocol (XMPP) federation
+ms:assetid: 0f720a2a-8ab5-43cc-882a-ab595ed3cec7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ618368(v=OCS.15)
+ms:contentKeyID: 49105655
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ff58998ef9114baeb7dc7c6462ca0ebaae114f10
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835347"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de DNS - Federación del Protocolo extensible de mensajería y presencia (XMPP)
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="dns-summary---extensible-messaging-and-presence-protocol-xmpp-federation-in-lync-server-2013"></a><span data-ttu-id="9d047-102">Resumen de DNS: Federación protocolo de presencia y mensajería extensible (XMPP) en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d047-102">DNS summary - Extensible messaging and presence protocol (XMPP) federation in Lync Server 2013</span></span>
 
-Para configurar el Protocolo extensible de presencia y mensajería (XMPP) para su implementación, puede crear dos registros de sistemas de nombre de dominio (DNS) en un servidor DNS externo que resolverá los registros al Servidor perimetral de acceso de su Servidor perimetral o Grupo de servidores perimetrales.
+</div>
 
-## Resumen del DNS para el Protocolo extensible de presencia y mensajería
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="9d047-103">_**Última modificación del tema:** 2014-04-08_</span><span class="sxs-lookup"><span data-stu-id="9d047-103">_**Topic Last Modified:** 2014-04-08_</span></span>
+
+<span data-ttu-id="9d047-104">Para configurar el protocolo de presencia y mensajería extensible (XMPP) para su implementación, debe crear dos registros del sistema de nombres de dominio (DNS) en un servidor DNS externo que resuelva los registros para el servicio perimetral de acceso de su servidor perimetral o de grupo perimetral.</span><span class="sxs-lookup"><span data-stu-id="9d047-104">To configure extensible messaging and presence protocol (XMPP) for your deployment, you create two Domain Name System (DNS) records in an external DNS server that will resolve the records to the Access Edge service of your Edge Server or Edge pool.</span></span>
+
+<div>
+
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a><span data-ttu-id="9d047-105">Resumen de DNS para el protocolo de presencia y mensajería extensible</span><span class="sxs-lookup"><span data-stu-id="9d047-105">DNS Summary for Extensible Messaging and Presence Protocol</span></span>
 
 
 <table>
@@ -29,36 +51,51 @@ Para configurar el Protocolo extensible de presencia y mensajería (XMPP) para s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación/TIPO/Puerto</th>
-<th>FQDN</th>
-<th>Dirección IP/registro de host FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th><span data-ttu-id="9d047-106">Ubicación/tipo/puerto</span><span class="sxs-lookup"><span data-stu-id="9d047-106">Location/TYPE/Port</span></span></th>
+<th><span data-ttu-id="9d047-107">FQDN</span><span class="sxs-lookup"><span data-stu-id="9d047-107">FQDN</span></span></th>
+<th><span data-ttu-id="9d047-108">Dirección IP/registro de host FQDN</span><span class="sxs-lookup"><span data-stu-id="9d047-108">IP address/FQDN host record</span></span></th>
+<th><span data-ttu-id="9d047-109">Se asigna a/comentarios</span><span class="sxs-lookup"><span data-stu-id="9d047-109">Maps to/Comments</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externo/SRV/5269</p></td>
-<td><p>_xmpp-server._tcp.contoso.com</p></td>
-<td><p>xmpp.contoso.com</p></td>
-<td><p>La interfaz externa de proxy XMPP en el Servidor perimetral de acceso o Grupo de servidores perimetrales. Repetir la cantidad de veces que sea necesario para todos los dominios SIP internos con usuarios habilitados en Lync donde el contacto con contactos de XMPP está permitido mediante la configuración de la directiva de acceso externo a través de una directiva global, directiva de sitio en la que se ubica al usuario o directiva de usuario aplicada al usuario habilitado en Lync. Un dominio de XMPP permitido también debe configurarse en la directiva de socios federados de XMPP. Consulte los temas que se encuentran en <strong>Ver también</strong> para obtener más detalles</p></td>
+<td><p><span data-ttu-id="9d047-110">DNS/SRV/5269 externo</span><span class="sxs-lookup"><span data-stu-id="9d047-110">External DNS/SRV/5269</span></span></p></td>
+<td><p><span data-ttu-id="9d047-111">_xmpp-server._tcp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9d047-111">_xmpp-server._tcp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="9d047-112">xmpp.contoso.com</span><span class="sxs-lookup"><span data-stu-id="9d047-112">xmpp.contoso.com</span></span></p></td>
+<td><p><span data-ttu-id="9d047-113">Interfaz externa de proxy XMPP en el servicio perimetral de acceso o grupo perimetral. Repita el procedimiento según sea necesario para todos los dominios SIP internos con los usuarios habilitados para Lync donde se permite el contacto con los contactos XMPP a través de la configuración de la Directiva de acceso externo a través de una directiva global, una directiva de sitio donde se encuentra el usuario o la Directiva de usuario aplicada al Usuario habilitado para Lync.</span><span class="sxs-lookup"><span data-stu-id="9d047-113">XMPP proxy external interface on the Access Edge service or Edge pool.Repeat as necessary for all internal SIP domains with Lync enabled users where contact with XMPP contacts is allowed through the configuration of the External Access Policy through a global policy, site policy where the user is located, or user policy applied to the Lync-enabled user.</span></span> <span data-ttu-id="9d047-114">También se debe configurar un dominio XMPP permitido en la Directiva del socio XMPP federado.</span><span class="sxs-lookup"><span data-stu-id="9d047-114">An allowed XMPP domain must also be configured in the XMPP Federated Partners policy.</span></span> <span data-ttu-id="9d047-115">Vea temas en <strong>vea también</strong> para obtener más información.</span><span class="sxs-lookup"><span data-stu-id="9d047-115">See topics in <strong>See Also</strong> for additional details</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
-<td><p>xmpp.contoso.com (por ejemplo)</p></td>
-<td><p>Dirección IP de Servidor perimetral de acceso en su Servidor perimetral o Grupo de servidores perimetrales que hospede el proxy de XMPP</p></td>
-<td><p>Señala el Servidor perimetral de acceso o Grupo de servidores perimetrales que hospeda el servicio de proxy de XMPP. Normalmente, el registro SRV que crea señalará a este registro (A o AAAA) de host</p></td>
+<td><p><span data-ttu-id="9d047-116">DNS externo/A</span><span class="sxs-lookup"><span data-stu-id="9d047-116">External DNS/A</span></span></p></td>
+<td><p><span data-ttu-id="9d047-117">xmpp.contoso.com (por ejemplo)</span><span class="sxs-lookup"><span data-stu-id="9d047-117">xmpp.contoso.com (for example)</span></span></p></td>
+<td><p><span data-ttu-id="9d047-118">Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo perimetral que aloja el proxy XMPP</span><span class="sxs-lookup"><span data-stu-id="9d047-118">IP address of Access Edge service on your Edge Server or Edge pool hosting XMPP proxy</span></span></p></td>
+<td><p><span data-ttu-id="9d047-119">Señala el servicio perimetral de Access o el grupo de límites que alberga el servicio de proxy XMPP.</span><span class="sxs-lookup"><span data-stu-id="9d047-119">Points to the Access Edge service or Edge pool that hosts the XMPP proxy service.</span></span> <span data-ttu-id="9d047-120">Normalmente, el registro SRV que cree apuntará a este registro de host (A o AAAA).</span><span class="sxs-lookup"><span data-stu-id="9d047-120">Typically, the SRV record that you create will point to this host (A or AAAA) record</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Configurar la federación XMPP en Lync Server 2013](lync-server-2013-setting-up-xmpp-federation.md)  
+## <a name="see-also"></a><span data-ttu-id="9d047-121">Vea también</span><span class="sxs-lookup"><span data-stu-id="9d047-121">See Also</span></span>
 
-#### Conceptos
 
-[Determinar los requisitos DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md)
+[<span data-ttu-id="9d047-122">Configurar la federación XMPP en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d047-122">Setting up XMPP federation in Lync Server 2013</span></span>](lync-server-2013-setting-up-xmpp-federation.md)  
+
+
+[<span data-ttu-id="9d047-123">Determinar los requisitos DNS para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="9d047-123">Determine DNS requirements for Lync Server 2013</span></span>](lync-server-2013-determine-dns-requirements.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

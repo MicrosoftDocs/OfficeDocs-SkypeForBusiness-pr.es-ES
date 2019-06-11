@@ -1,27 +1,47 @@
-﻿---
-title: Crear directivas de ubicación en Lync Server 2013
-TOCTitle: Crear directivas de ubicación en Lync Server 2013
-ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413006(v=OCS.15)
-ms:contentKeyID: 48277140
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear directivas de ubicación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create location policies
+ms:assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413006(v=OCS.15)
+ms:contentKeyID: 48185794
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6f420d3b634df79411bbc72cd4c029f9b5d97e19
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835851"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear directivas de ubicación en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="create-location-policies-in-lync-server-2013"></a><span data-ttu-id="bfbd2-102">Crear directivas de ubicación en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="bfbd2-102">Create location policies in Lync Server 2013</span></span>
 
-Lync Server usa una directiva de ubicación para habilitar clientes de Lync en E9-1-1 durante el registro de clientes. Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1.
+</div>
 
-La directiva de ubicación global puede editarse y crear otras directivas de ubicación con etiqueta. Un cliente obtiene una directiva global si no se ubica en una subred que tenga asociada una directiva de ubicación o, bien, si el cliente no tiene asignada directamente una directiva de ubicación. Las directivas con etiquetas se asignan a subredes o usuarios.
+<div id="mainSection">
 
-Para crear una directiva de ubicación, debe usar una cuenta que pertenezca al grupo RTCUniversalServerAdmins, o bien que tenga el rol administrativo CsVoiceAdministrator o derechos y permisos de administrador equivalentes.
+<div id="mainBody">
 
-Encontrará una descripción completa de las directivas de ubicación en [Definir una directiva de ubicación para Lync Server 2013](lync-server-2013-defining-the-location-policy.md). Los cmdlets de este procedimiento usan una directiva de ubicación definida que aplica los valores siguientes:
+<span> </span>
+
+<span data-ttu-id="bfbd2-103">_**Última modificación del tema:** 2012-09-11_</span><span class="sxs-lookup"><span data-stu-id="bfbd2-103">_**Topic Last Modified:** 2012-09-11_</span></span>
+
+<span data-ttu-id="bfbd2-104">Lync Server usa una directiva de ubicación para habilitar los clientes de Lync para E9-1-1 durante el registro de clientes.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-104">Lync Server uses a location policy to enable Lync clients for E9-1-1 during client registration.</span></span> <span data-ttu-id="bfbd2-105">Una directiva de ubicación contiene la configuración que define cómo se implementará E9-1-1.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-105">A location policy contains the settings that define how E9-1-1 will be implemented.</span></span>
+
+<span data-ttu-id="bfbd2-p102">La directiva de ubicación global puede editarse y crear otras directivas de ubicación con etiqueta. Un cliente obtiene una directiva global si no se ubica en una subred que tenga asociada una directiva de ubicación o, bien, si el cliente no tiene asignada directamente una directiva de ubicación. Las directivas con etiquetas se asignan a subredes o usuarios.  </span><span class="sxs-lookup"><span data-stu-id="bfbd2-p102">You can edit the global location policy and create new tagged location policies. A client obtains a global policy when it is not located within a subnet with an associated location policy, or when the client has not been directly assigned a location policy. Tagged policies are assigned to subnets or users.</span></span>
+
+<span data-ttu-id="bfbd2-109">Para crear una directiva de ubicación, debe usar una cuenta que pertenezca al grupo RTCUniversalServerAdmins, o bien que tenga el rol administrativo CsVoiceAdministrator o derechos y permisos de administrador equivalentes.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-109">To create a location policy, you must use an account that is a member of the RTCUniversalServerAdmins group, or is a member of the CsVoiceAdministrator administrative role, or has equivalent administrator rights and permissions.</span></span>
+
+<span data-ttu-id="bfbd2-110">Para obtener una descripción completa de las directivas de ubicación, consulte [definir la Directiva de ubicación de Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span><span class="sxs-lookup"><span data-stu-id="bfbd2-110">For a complete description of Location policies, see [Defining the location policy for Lync Server 2013](lync-server-2013-defining-the-location-policy.md).</span></span> <span data-ttu-id="bfbd2-111">Cmdlets de este procedimiento use una directiva de ubicación definida con los valores siguientes:</span><span class="sxs-lookup"><span data-stu-id="bfbd2-111">Cmdlets in this procedure use a location policy defined using the following values:</span></span>
 
 
 <table>
@@ -31,90 +51,107 @@ Encontrará una descripción completa de las directivas de ubicación en [Defini
 </colgroup>
 <thead>
 <tr class="header">
-<th>Elemento</th>
-<th>Valor</th>
+<th><span data-ttu-id="bfbd2-112">Elemento</span><span class="sxs-lookup"><span data-stu-id="bfbd2-112">Element</span></span></th>
+<th><span data-ttu-id="bfbd2-113">Valor</span><span class="sxs-lookup"><span data-stu-id="bfbd2-113">Value</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>EnhancedEmergencyServicesEnabled</p></td>
-<td><p><strong>True</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-114">EnhancedEmergencyServicesEnabled</span><span class="sxs-lookup"><span data-stu-id="bfbd2-114">EnhancedEmergencyServicesEnabled</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-115"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-115"><strong>True</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>LocationRequired</p></td>
-<td><p><strong>Disclaimer</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-116">LocationRequired</span><span class="sxs-lookup"><span data-stu-id="bfbd2-116">LocationRequired</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-117"><strong>Disclaimer</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-117"><strong>Disclaimer</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>EnhancedEmergencyServiceDisclaimer</p></td>
-<td><p>La directiva de compañía le exige que indique una ubicación. Si no define una ubicación, los servicios de emergencia no podrán localizarle en caso de emergencia. Especifique una ubicación.</p></td>
+<td><p><span data-ttu-id="bfbd2-118">EnhancedEmergencyServiceDisclaimer</span><span class="sxs-lookup"><span data-stu-id="bfbd2-118">EnhancedEmergencyServiceDisclaimer</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-p104">La directiva de compañía le exige que indique una ubicación. Si no define una ubicación, los servicios de emergencia no podrán localizarle en caso de emergencia. Especifique una ubicación.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-p104">Your company policy requires you to set a location. If you do not set a location, emergency services will not be able to locate you in an emergency. Please set a location.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>UseLocationForE911Only</p></td>
-<td><p><strong>False</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-122">UseLocationForE911Only</span><span class="sxs-lookup"><span data-stu-id="bfbd2-122">UseLocationForE911Only</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-123"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-123"><strong>False</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>PstnUsage</p></td>
-<td><p><strong>EmergencyUsage</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-124">PstnUsage</span><span class="sxs-lookup"><span data-stu-id="bfbd2-124">PstnUsage</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-125"><strong>EmergencyUsage</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-125"><strong>EmergencyUsage</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>EmergencyDialString</p></td>
-<td><p><strong>911</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-126">EmergencyDialString</span><span class="sxs-lookup"><span data-stu-id="bfbd2-126">EmergencyDialString</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-127"><strong>911</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-127"><strong>911</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>EmergencyDialMask</p></td>
-<td><p><strong>112</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-128">EmergencyDialMask</span><span class="sxs-lookup"><span data-stu-id="bfbd2-128">EmergencyDialMask</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-129"><strong>112</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-129"><strong>112</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>NotificationUri</p></td>
-<td><p><strong>sip:security@litwareinc.com</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-130">NotificationUri</span><span class="sxs-lookup"><span data-stu-id="bfbd2-130">NotificationUri</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-131"><strong>sip:security@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-131"><strong>sip:security@litwareinc.com</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>ConferenceUri</p></td>
-<td><p><strong>sip:+14255550123@litwareinc.com</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-132">ConferenceUri</span><span class="sxs-lookup"><span data-stu-id="bfbd2-132">ConferenceUri</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-133"><strong>sip:+14255550123@litwareinc.com</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-133"><strong>sip:+14255550123@litwareinc.com</strong></span></span></p></td>
 </tr>
 <tr class="even">
-<td><p>ConferenceMode</p></td>
-<td><p><strong>twoway</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-134">ConferenceMode</span><span class="sxs-lookup"><span data-stu-id="bfbd2-134">ConferenceMode</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-135"><strong>twoway</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-135"><strong>twoway</strong></span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p>LocationRefreshInterval</p></td>
-<td><p><strong>2</strong></p></td>
+<td><p><span data-ttu-id="bfbd2-136">LocationRefreshInterval</span><span class="sxs-lookup"><span data-stu-id="bfbd2-136">LocationRefreshInterval</span></span></p></td>
+<td><p><span data-ttu-id="bfbd2-137"><strong>2</strong></span><span class="sxs-lookup"><span data-stu-id="bfbd2-137"><strong>2</strong></span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Para obtener información detallada sobre cómo trabajar con directivas de ubicación, consulte la documentación de Shell de administración de Lync Server para los siguientes cmdlets:
+<span data-ttu-id="bfbd2-138">Para obtener más información sobre cómo trabajar con directivas de ubicación, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="bfbd2-138">For details about working with location policies, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - New-CsLocationPolicy
+  - <span data-ttu-id="bfbd2-139">New-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="bfbd2-139">New-CsLocationPolicy</span></span>
 
-  - Get-CsLocationPolicy
+  - <span data-ttu-id="bfbd2-140">Get-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="bfbd2-140">Get-CsLocationPolicy</span></span>
 
-  - Set-CsLocationPolicy
+  - <span data-ttu-id="bfbd2-141">Set-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="bfbd2-141">Set-CsLocationPolicy</span></span>
 
-  - Remove-CsLocationPolicy
+  - <span data-ttu-id="bfbd2-142">Remove-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="bfbd2-142">Remove-CsLocationPolicy</span></span>
 
-  - Grant-CsLocationPolicy
+  - <span data-ttu-id="bfbd2-143">Grant-CsLocationPolicy</span><span class="sxs-lookup"><span data-stu-id="bfbd2-143">Grant-CsLocationPolicy</span></span>
 
-## Para crear directivas de ubicación
+<div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+## <a name="to-create-location-policies"></a><span data-ttu-id="bfbd2-144">Para crear directivas de ubicación</span><span class="sxs-lookup"><span data-stu-id="bfbd2-144">To create location policies</span></span>
+
+1.  <span data-ttu-id="bfbd2-145">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-145">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > CsLocationPolicy no funcionará correctamente si el valor de <STRONG>PstnUsage</STRONG> no está ya presente en la lista global de PstnUsages.
+    > [!NOTE]  
+    > <span data-ttu-id="bfbd2-146">CsLocationPolicy no funcionará correctamente si el valor de <STRONG>PstnUsage</STRONG> no está ya presente en la lista global de PstnUsages.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-146">CsLocationPolicy will fail if the setting for <STRONG>PstnUsage</STRONG> is not already in the Global list of PstnUsages.</span></span>
 
+    
+    </div>
 
-
-2.  También puede ejecutar el cmdlet siguiente para editar la directiva de ubicación global:
+2.  <span data-ttu-id="bfbd2-147">También puede ejecutar el cmdlet siguiente para editar la directiva de ubicación global:</span><span class="sxs-lookup"><span data-stu-id="bfbd2-147">Optionally, run the following cmdlet to edit the global Location Policy:</span></span>
     
         Set-CsLocationPolicy -Identity Global -EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -PstnUsage "emergencyUsage" -EmergencyDialString "911" -ConferenceMode "twoway" -ConferenceUri "sip:+14255550123@litwareinc.com" -EmergencyDialMask "112" NotificationUri "sip:security@litwareinc.com" -UseLocationForE911Only $true -LocationRefreshInterval 2
 
-3.  Ejecute el cmdlet siguiente para crear una directiva de ubicación con etiqueta.
+3.  <span data-ttu-id="bfbd2-148">Ejecute el cmdlet siguiente para crear una directiva de ubicación con etiqueta.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-148">Run the following to create a tagged Location Policy.</span></span>
     
         New-CsLocationPolicy -Identity Tag:Redmond - EnhancedEmergencyServicesEnabled $true -LocationRequired "disclaimer" -EnhancedEmergencyServiceDisclaimer "Your company policy requires you to set a location. If you do not set a location emergency services will not be able to locate you in an emergency. Please set a location." -UseLocationForE911Only $false -PstnUsage "EmergencyUsage" -EmergencyDialString "911" -EmergencyDialMask "112" -NotificationUri "sip:security@litwareinc.com" -ConferenceUri "sip:+14255550123@litwareinc.com" -ConferenceMode "twoway" -LocationRefreshInterval 2
 
-4.  Ejecute el cmdlet siguiente para aplicar la directiva de ubicación con etiqueta que se ha creado en el paso 3 en una directiva de usuario.
+4.  <span data-ttu-id="bfbd2-149">Ejecute el cmdlet siguiente para aplicar la directiva de ubicación con etiqueta que se ha creado en el paso 3 en una directiva de usuario.</span><span class="sxs-lookup"><span data-stu-id="bfbd2-149">Run the following cmdlet to apply the tagged Location Policy created in step 3 to a user policy.</span></span>
     
         (Get-CsUser | where { $_.Name -match "UserName" }) | Grant-CsLocationPolicy -PolicyName Redmond
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

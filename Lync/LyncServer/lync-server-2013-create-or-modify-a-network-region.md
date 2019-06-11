@@ -1,113 +1,171 @@
-﻿---
-title: 'Lync Server 2013: Crear o modificar una región de red'
-TOCTitle: Crear o modificar una región de red
-ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412933(v=OCS.15)
-ms:contentKeyID: 48276532
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear o modificar una región de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a network region
+ms:assetid: bf7a3dc4-71a2-4559-a547-d90305d4f904
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412933(v=OCS.15)
+ms:contentKeyID: 48185281
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 21a9b7a8adbb4ca4c0853aa7013662433701201d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835795"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear o modificar una región de red en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-19_
+# <a name="create-or-modify-a-network-region-in-lync-server-2013"></a><span data-ttu-id="76e8b-102">Crear o modificar una región de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="76e8b-102">Create or modify a network region in Lync Server 2013</span></span>
 
-Las *regiones de red* son concentradores de red o redes troncales que se usan en la configuración del control de admisión de llamadas, E9-1-1 y del desvío de medios. Siga estos procedimientos para crear o modificar regiones de red. Por ejemplo, si ha creado regiones de red para una característica de Voz, no necesitará crear nuevas regiones de red puesto que otras características de Voz avanzadas de la versión Enterprise usarán esas mismas regiones. Sin embargo, sí que es posible que deba modificar una región de red existente para aplicar una configuración específica de una característica. Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren ningún sitio centralizado) y, a continuación, implementa el control de admisión de llamadas, deberá modificar las definiciones de región de red para especificar un sitio centralizado. Para más detalles, consulte [Configurar regiones de red para el control de admisión de llamadas en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="76e8b-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="76e8b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
+
+<span data-ttu-id="76e8b-104">Las *regiones de red* son los concentradores de red o las redes troncales que se usan en la configuración de control de admisión de llamadas, E9-1-1 y omisión de medios.</span><span class="sxs-lookup"><span data-stu-id="76e8b-104">*Network regions* are the network hubs or backbones used in the configuration of call admission control, E9-1-1, and media bypass.</span></span> <span data-ttu-id="76e8b-105">Use los procedimientos siguientes para crear o modificar regiones de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-105">Use the following procedures to create or modify network regions.</span></span> <span data-ttu-id="76e8b-106">Por ejemplo, si ya ha creado regiones de red para una característica de voz, no es necesario crear regiones de red nuevas; otras características avanzadas de telefonía empresarial usarán esas mismas regiones de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-106">For example, if you have already created network regions for one Voice feature, you do not need to create new network regions; other advanced Enterprise Voice features will use those same network regions.</span></span> <span data-ttu-id="76e8b-107">Sin embargo, es posible que necesite modificar una definición de región de red existente para aplicar una configuración específica de una característica.</span><span class="sxs-lookup"><span data-stu-id="76e8b-107">You may, however, need to modify an existing network region definition to apply feature-specific settings.</span></span> <span data-ttu-id="76e8b-108">Por ejemplo, si ha creado regiones de red para E9-1-1 (que no requieren un sitio central asociado) y, a continuación, implementa el control de admisión de llamadas, debe modificar las definiciones de región de red para especificar un sitio central.</span><span class="sxs-lookup"><span data-stu-id="76e8b-108">For example, if you have created network regions for E9-1-1 (which do not require an associated central site) and you then deploy call admission control, you need to modify the network region definitions to specify a central site.</span></span> <span data-ttu-id="76e8b-109">Para obtener más información, vea [configurar regiones de red para CAC en Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span><span class="sxs-lookup"><span data-stu-id="76e8b-109">For details, see [Configure network regions for CAC in Lync Server 2013](lync-server-2013-configure-network-regions-for-cac.md).</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Cualquier requisito específico de la característica para las definiciones de región de red está documentado en los temas sobre implementación para la característica.
+> [!NOTE]  
+> <span data-ttu-id="76e8b-110">En los temas de implementación de la característica se documentan los requisitos específicos de las características de las definiciones de regiones de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-110">Any feature-specific requirements for network region definitions are documented in the Deployment topics for the feature.</span></span>
 
 
 
-Para más información sobre cómo trabajar con regiones de red, consulte la documentación del Shell de administración de Lync Server para los cmdlets siguientes:
+</div>
 
-  - [New-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkRegion)
+<span data-ttu-id="76e8b-111">Para obtener más información sobre cómo trabajar con regiones de red, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="76e8b-111">For details about working with network regions, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-  - [Get-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkRegionLink)
+  - [<span data-ttu-id="76e8b-112">New-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="76e8b-112">New-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkRegion)
 
-  - [Set-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkRegion)
+  - [<span data-ttu-id="76e8b-113">Get-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="76e8b-113">Get-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkRegionLink)
 
-  - [Remove-CsNetworkRegion](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkRegion)
+  - [<span data-ttu-id="76e8b-114">Set-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="76e8b-114">Set-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkRegion)
 
-## Crear una región de red
+  - [<span data-ttu-id="76e8b-115">Remove-CsNetworkRegion</span><span class="sxs-lookup"><span data-stu-id="76e8b-115">Remove-CsNetworkRegion</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkRegion)
 
-Cree una región de red que sirva para el control de admisión de llamadas, E9-1-1 o el desvío de medios.
+<div>
 
-## Para crear una región de red con el Shell de administración de Lync Server
+## <a name="create-a-network-region"></a><span data-ttu-id="76e8b-116">Crear una región de red</span><span class="sxs-lookup"><span data-stu-id="76e8b-116">Create a Network Region</span></span>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<span data-ttu-id="76e8b-117">Cree una región de red que pueda usar el control de admisión de llamadas, el E9-1-1 o la omisión de medios.</span><span class="sxs-lookup"><span data-stu-id="76e8b-117">Create a network region that can be used by call admission control, E9-1-1, or media bypass.</span></span>
 
-2.  Ejecute el cmdlet New-CsNetworkRegion para crear regiones de red:
+<div>
+
+## <a name="to-create-a-network-region-using-lync-server-management-shell"></a><span data-ttu-id="76e8b-118">Para crear una región de red con el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="76e8b-118">To create a network region using Lync Server Management Shell</span></span>
+
+1.  <span data-ttu-id="76e8b-119">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-119">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="76e8b-120">Ejecute el cmdlet New-CsNetworkRegion para crear regiones de red:</span><span class="sxs-lookup"><span data-stu-id="76e8b-120">Run the New-CsNetworkRegion cmdlet to create network regions:</span></span>
     
         New-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Por ejemplo:
+    <span data-ttu-id="76e8b-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="76e8b-121">For example:</span></span>
     
         New-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "All North America Locations"
     
-    En este ejemplo, ha creado una región de red denominada “NorthAmerica” que está asociada a un sitio central con identificador de sitio CHICAGO.
+    <span data-ttu-id="76e8b-122">En este ejemplo, ha creado una región de red denominada “NorthAmerica” que está asociada a un sitio central con identificador de sitio CHICAGO.</span><span class="sxs-lookup"><span data-stu-id="76e8b-122">In this example, you created a network region called “NorthAmerica” that is associated with a central site with site ID CHICAGO.</span></span>
 
-3.  Para terminar de crear regiones de red para la topología, repita el paso 2 con parámetros para cada región de red.
+3.  <span data-ttu-id="76e8b-123">Para terminar de crear regiones de red para la topología, repita el paso 2 con parámetros para cada región de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-123">To finish creating network regions for your topology, repeat step 2 with settings for each network region.</span></span>
 
-## Para crear una región de red mediante el Panel de control de Lync Server
+</div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-2.  En la barra de navegación izquierda, haga clic en **Configuración de red** .
+## <a name="to-create-a-network-region-using-lync-server-control-panel"></a><span data-ttu-id="76e8b-124">Para crear una región de red con el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="76e8b-124">To create a network region using Lync Server Control Panel</span></span>
 
-3.  Haga clic en **Región**
+1.  <span data-ttu-id="76e8b-125">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="76e8b-125">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="76e8b-126">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="76e8b-126">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  Haga clic en **Nuevo** .
+2.  <span data-ttu-id="76e8b-127">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-127">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  En la página **Región nueva** , haga clic en **Nombre** y escriba un nombre para la región de red.
+3.  <span data-ttu-id="76e8b-128">Haga clic en **Región**</span><span class="sxs-lookup"><span data-stu-id="76e8b-128">Click **Region**.</span></span>
 
-6.  Haga clic en **Sitio central** y haga clic en un sitio central de la lista.
+4.  <span data-ttu-id="76e8b-129">Haga clic en **Nuevo**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-129">Click **New**.</span></span>
 
-7.  Si lo desea, también puede hacer clic en **Descripción** y aportar más información que describa este sitio de red.
+5.  <span data-ttu-id="76e8b-130">En la página **Región nueva**, haga clic en **Nombre** y escriba un nombre para la región de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-130">On the **New Region** page, click **Name** and then type a name for the network region.</span></span>
 
-8.  Haga clic en **Confirmar** .
+6.  <span data-ttu-id="76e8b-131">Haga clic en **Sitio central** y, a continuación, haga clic en un sitio central de la lista.</span><span class="sxs-lookup"><span data-stu-id="76e8b-131">Click **Central site**, and then click a central site in the list.</span></span>
 
-9.  Para terminar de crear regiones de red para la topología, repita los pasos del 4 al 8 con parámetros para otras regiones.
+7.  <span data-ttu-id="76e8b-132">Si lo desea, también puede hacer clic en **Descripción** y aportar más información que describa este sitio de red.</span><span class="sxs-lookup"><span data-stu-id="76e8b-132">Optionally, click **Description**, and then type additional information to describe this network site.</span></span>
 
-## Modificar una región de red
+8.  <span data-ttu-id="76e8b-133">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-133">Click **Commit**.</span></span>
 
-Modifique la configuración de una región de red existente para adaptar los cambios en la información básica de región o los cambios que requiere una nueva característica.
+9.  <span data-ttu-id="76e8b-134">Para terminar de crear regiones de red para la topología, repita los pasos del 4 al 8 con parámetros para otras regiones.</span><span class="sxs-lookup"><span data-stu-id="76e8b-134">To finish creating network regions for your topology, repeat steps 4 through 8 with settings for other regions.</span></span>
 
-## Para modificar una región de red con el Shell de administración de Lync Server
+</div>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+</div>
 
-2.  Ejecute el cmdlet Set-CsNetworkRegion para modificar una región de red existente:
+<div>
+
+## <a name="modify-a-network-region"></a><span data-ttu-id="76e8b-135">Modificar una región de red</span><span class="sxs-lookup"><span data-stu-id="76e8b-135">Modify a Network Region</span></span>
+
+<span data-ttu-id="76e8b-136">Modificar la configuración de una región de red existente para acomodar los cambios en la información de la región básica o los cambios necesarios para una nueva característica.</span><span class="sxs-lookup"><span data-stu-id="76e8b-136">Modify settings for an existing network region to accommodate changes to the basic region information or changes required by a new feature.</span></span>
+
+<div>
+
+## <a name="to-modify-a-network-region-using-lync-server-management-shell"></a><span data-ttu-id="76e8b-137">Para modificar una región de red mediante el shell de administración de Lync Server</span><span class="sxs-lookup"><span data-stu-id="76e8b-137">To modify a network region using Lync Server Management Shell</span></span>
+
+1.  <span data-ttu-id="76e8b-138">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-138">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="76e8b-139">Ejecute el cmdlet Set-CsNetworkRegion para modificar una región de red existente:</span><span class="sxs-lookup"><span data-stu-id="76e8b-139">Run the Set-CsNetworkRegion cmdlet to modify an existing network region:</span></span>
     
         Set-CsNetworkRegion -Identity <String> -CentralSite <String>
     
-    Por ejemplo:
+    <span data-ttu-id="76e8b-140">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="76e8b-140">For example:</span></span>
     
         Set-CsNetworkRegion -Identity NorthAmerica -CentralSite CHICAGO -Description "North American Region"
     
-    En este ejemplo, ha modificado una región de red existente denominada “NorthAmerica” (creada mediante los procedimientos descritos anteriormente en este tema) cambiando la descripción. Si ya existía una descripción para la región “NorthAmerica”, este comando la sobrescribirá con este valor; si no se había definido ninguna descripción, el comando la definirá.
+    <span data-ttu-id="76e8b-p103">En este ejemplo, ha modificado una región de red existente denominada “NorthAmerica” (creada mediante los procedimientos descritos anteriormente en este tema) cambiando la descripción. Si ya existía una descripción para la región “NorthAmerica”, este comando la sobrescribirá con este valor; si no se había definido ninguna descripción, el comando la definirá.</span><span class="sxs-lookup"><span data-stu-id="76e8b-p103">In this example, you modified an existing network region called “NorthAmerica” (created using the procedures earlier in this topic) by changing the description. If a description existed for the “NorthAmerica” region, this command overwrites it with this value; if no description had been set, then this command sets it.</span></span>
 
-3.  Para modificar otras regiones de red, repita el paso 2 con parámetros para otras regiones.
+3.  <span data-ttu-id="76e8b-143">Para modificar otras regiones de red, repita el paso 2 con parámetros para otras regiones.</span><span class="sxs-lookup"><span data-stu-id="76e8b-143">To modify other network regions, repeat step 2 with settings for other regions.</span></span>
 
-## Para modificar una región de red mediante el Panel de control de Lync Server
+</div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-2.  En la barra de navegación izquierda, haga clic en **Configuración de red** .
+## <a name="to-modify-a-network-region-using-lync-server-control-panel"></a><span data-ttu-id="76e8b-144">Para modificar una región de red con el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="76e8b-144">To modify a network region using Lync Server Control Panel</span></span>
 
-3.  Haga clic en el botón de navegación **Región** .
+1.  <span data-ttu-id="76e8b-145">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="76e8b-145">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="76e8b-146">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="76e8b-146">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  En la tabla, haga clic en la región de red que desee modificar.
+2.  <span data-ttu-id="76e8b-147">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-147">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  Haga clic en **Editar** y, a continuación, en **Mostrar detalles…** .
+3.  <span data-ttu-id="76e8b-148">Haga clic en el botón de navegación **Región**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-148">Click the **Region** navigation button.</span></span>
 
-6.  En la página **Editar región** , modifique los valores de la configuración de esta región de red, según corresponda.
+4.  <span data-ttu-id="76e8b-149">En la tabla, haga clic en la región de red que desee modificar.</span><span class="sxs-lookup"><span data-stu-id="76e8b-149">In the table, click the network region that you want to modify.</span></span>
 
-7.  Haga clic en **Confirmar** .
+5.  <span data-ttu-id="76e8b-150">Haga clic en **Editar** y, a continuación, en **Mostrar detalles…**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-150">Click **Edit**, and then click **Show details…**.</span></span>
 
-8.  Para terminar de modificar regiones de red, repita los pasos del 4 al 7 con parámetros para otras regiones.
+6.  <span data-ttu-id="76e8b-151">En la página **Editar región**, modifique los valores de la configuración de esta región de red, según corresponda.</span><span class="sxs-lookup"><span data-stu-id="76e8b-151">On the **Edit Region** page, change the values for this network region’s settings as appropriate.</span></span>
+
+7.  <span data-ttu-id="76e8b-152">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="76e8b-152">Click **Commit**.</span></span>
+
+8.  <span data-ttu-id="76e8b-153">Para terminar de modificar regiones de red, repita los pasos del 4 al 7 con parámetros para otras regiones.</span><span class="sxs-lookup"><span data-stu-id="76e8b-153">To finish modify network regions, repeat steps 4 through 7 with settings for other regions.</span></span>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

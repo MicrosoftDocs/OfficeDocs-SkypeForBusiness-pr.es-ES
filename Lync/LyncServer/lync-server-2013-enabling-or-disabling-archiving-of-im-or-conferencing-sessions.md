@@ -1,56 +1,98 @@
-﻿---
-title: "Habilitar/deshabilitar archivado de sesiones de mensajería instantánea o conferencia"
-TOCTitle: "Act. ou dés. de l’archivage de sessions de mes. instantanée ou de conférence"
-ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182567(v=OCS.15)
-ms:contentKeyID: 48276307
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Habilitar o deshabilitar el archivado de mensajes instantáneos o sesiones de conferencia
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling Archiving of IM or conferencing sessions
+ms:assetid: aa4b5983-dbe1-4d64-8a18-fe2c33994e94
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182567(v=OCS.15)
+ms:contentKeyID: 48185104
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 65712cf15ae73ec7cdb49dc7652348085a4c93d4
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835252"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar y deshabilitar el archivado de sesiones de mensajería instantánea (MI) o de conferencia
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-10_
+# <a name="enabling-or-disabling-archiving-of-im-or-conferencing-sessions-in-lync-server-2013"></a><span data-ttu-id="554ab-102">Habilitar o deshabilitar el archivado de sesiones de mensajería instantánea o de conferencia en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="554ab-102">Enabling or disabling Archiving of IM or conferencing sessions in Lync Server 2013</span></span>
 
-En el Panel de control de Lync Server 2013, use las configuraciones de archivado para habilitar y deshabilitar el archivado de sesiones de MI, de conferencia o ambas. Esto incluye las siguientes configuraciones de archivado:
+</div>
 
-  - Una configuración global creada de manera predeterminada al implementar Lync Server 2013.
+<div id="mainSection">
 
-  - Configuraciones opcionales de nivel de sitio y de grupo que puede crear y usar para especificar cómo se implementa el archivado para sitios o grupos específicos.
+<div id="mainBody">
 
-Las configuraciones de archivado se definen inicialmente al implementar el archivado, pero es posible cambiar, agregar y eliminar configuraciones después de la implementación. Para más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de configuraciones de archivado, vea [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación sobre planeación, implementación u operaciones.
+<span> </span>
+
+<span data-ttu-id="554ab-103">_**Última modificación del tema:** 2012-10-10_</span><span class="sxs-lookup"><span data-stu-id="554ab-103">_**Topic Last Modified:** 2012-10-10_</span></span>
+
+<span data-ttu-id="554ab-104">En el panel de control de Lync Server 2013, puede usar las configuraciones de archivado para habilitar y deshabilitar el archivado de mensajes instantáneos, sesiones de conferencia o ambos.</span><span class="sxs-lookup"><span data-stu-id="554ab-104">In Lync Server 2013 Control Panel, you use Archiving configurations to enable and disable archiving of IM, conferencing sessions, or both.</span></span> <span data-ttu-id="554ab-105">Esto incluye las siguientes configuraciones de archivado:</span><span class="sxs-lookup"><span data-stu-id="554ab-105">This includes the following Archiving configurations:</span></span>
+
+  - <span data-ttu-id="554ab-106">Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="554ab-106">A global configuration that is created by default when you deploy Lync Server 2013.</span></span>
+
+  - <span data-ttu-id="554ab-107">Configuraciones de nivel de sitio y de grupo opcionales que puede crear y usar para especificar cómo se implementa el archivado para grupos o sitios específicos.</span><span class="sxs-lookup"><span data-stu-id="554ab-107">Optional site-level and pool-level configurations that you can create and use to specify how archiving is implemented for specific sites or pools.</span></span>
+
+<span data-ttu-id="554ab-108">Inicialmente, debe configurar las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación.</span><span class="sxs-lookup"><span data-stu-id="554ab-108">You initially set up Archiving configurations when you deploy Archiving, but you can change, add, and delete configurations after deployment.</span></span> <span data-ttu-id="554ab-109">Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.</span><span class="sxs-lookup"><span data-stu-id="554ab-109">For details about how Archiving configurations are implemented, including which options you can specify and the hierarchy of Archiving configurations, see [How Archiving works in Lync Server 2013](lync-server-2013-how-archiving-works.md) in the Planning documentation, Deployment documentation, or Operations documentation.</span></span>
+
+<div>
 
 
 > [!NOTE]
-> Para usar el archivado, debe configurar directivas de archivado para especificar si desea habilitar el archivado para comunicaciones internas, para comunicaciones externas o para ambas, para usuarios hospedados en Lync Server 2013. De manera predeterminada, el archivado no está habilitado ni para las comunicaciones internas ni para las externas. Antes de habilitar el archivado en una directiva, debe especificar las configuraciones de archivado adecuadas para su implementación y, de manera opcional, para sitios y grupos específicos, como se describe en esta sección. Para más información sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurar y asignar directivas de archivado</A> en la documentación sobre implementación.<BR>Si decide después de implementar el archivado que desea usar la integración de Microsoft Exchange para almacenar archivos y datos de archivado en servidores Exchange 2013, y todos sus usuarios están hospedados en los servidores Exchange 2013, debe quitar de su topología la configuración de la base de datos de SQL Server. Debe usar el Generador de topologías para hacerlo. Para más información, vea <A href="lync-server-2013-changing-archiving-database-options.md">Cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación sobre operaciones.
+> <span data-ttu-id="554ab-110">Para usar el archivado, debe configurar las directivas de archivado para especificar si desea habilitar el archivado de las comunicaciones internas, de las comunicaciones externas o de ambos para los usuarios alojados en Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="554ab-110">To use archiving, you must configure Archiving policies to specify whether to enable archiving for internal communications, for external communications, or for both for users homed on Lync Server 2013.</span></span> <span data-ttu-id="554ab-111">De forma predeterminada, el archivado no está habilitado para las comunicaciones internas o externas.</span><span class="sxs-lookup"><span data-stu-id="554ab-111">By default, archiving is not enabled for either internal or external communications.</span></span> <span data-ttu-id="554ab-112">Antes de habilitar el archivado en cualquier directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, opcionalmente, para determinados sitios y grupos, tal y como se describe en esta sección.</span><span class="sxs-lookup"><span data-stu-id="554ab-112">Before enabling Archiving in any policies, you should specify the appropriate Archiving configurations for your deployment and, optionally, for specific sites and pools, as described in this section.</span></span> <span data-ttu-id="554ab-113">Para obtener más información sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configurar y asignar directivas de archivado en Lync Server 2013</A> en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="554ab-113">For details about enabling Archiving, see <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configuring and assigning Archiving policies in Lync Server 2013</A> in the Deployment documentation.</span></span><BR><span data-ttu-id="554ab-114">Si decide que después de implementar el archivado desea usar la integración de Microsoft Exchange para almacenar datos y archivos en servidores de Exchange 2013 y todos los usuarios están alojados en los servidores de Exchange 2013, debe quitar la configuración de la base de datos de SQL Server desde su topología.</span><span class="sxs-lookup"><span data-stu-id="554ab-114">If you decide after you deploy Archiving that you want to use Microsoft Exchange integration to store archiving data and files on Exchange 2013 servers and all your users are homed on your Exchange 2013 servers, you should remove the SQL Server database configuration from your topology.</span></span> <span data-ttu-id="554ab-115">Para ello, debe usar el generador de topología.</span><span class="sxs-lookup"><span data-stu-id="554ab-115">You must use Topology Builder to do this.</span></span> <span data-ttu-id="554ab-116">Para obtener más información, vea <A href="lync-server-2013-changing-archiving-database-options.md">cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación de operaciones.</span><span class="sxs-lookup"><span data-stu-id="554ab-116">For details, see <A href="lync-server-2013-changing-archiving-database-options.md">Changing Archiving database options in Lync Server 2013</A> in the Operations documentation.</span></span>
 
 
 
-## Procedimiento para habilitar o deshabilitar el archivado de sesiones de MI o de conferencia
+</div>
 
-1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<div>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-enable-or-disable-archiving-of-im-or-conferencing-sessions"></a><span data-ttu-id="554ab-117">Para habilitar o deshabilitar el archivado de mensajes instantáneos o sesiones de conferencia</span><span class="sxs-lookup"><span data-stu-id="554ab-117">To enable or disable archiving of IM or conferencing sessions</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
+1.  <span data-ttu-id="554ab-118">Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="554ab-118">From a user account that is assigned to the CsArchivingAdministrator or CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-4.  Seleccione la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado, haga clic en **Editar** y en **Mostrar detalles**, y luego siga estos pasos:
+2.  <span data-ttu-id="554ab-119">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="554ab-119">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="554ab-120">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="554ab-120">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="554ab-121">En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.</span><span class="sxs-lookup"><span data-stu-id="554ab-121">In the left navigation bar, click **Monitoring and Archiving**, and then click **Archiving Configuration**.</span></span>
+
+4.  <span data-ttu-id="554ab-122">Seleccione la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado, haga clic en **Editar** y en **Mostrar detalles**, y luego siga estos pasos:</span><span class="sxs-lookup"><span data-stu-id="554ab-122">Select the appropriate global, site, or pool configuration from the list of archiving configurations, click **Edit**, click **Show details**, and then do the following:</span></span>
     
-      - Para habilitar el archivado solamente para las sesiones de MI, haga clic en **Archivar sesiones de mensajería instantánea**.
+      - <span data-ttu-id="554ab-123">Para habilitar el archivado solo para las sesiones de mensajería instantánea (MI), haga clic en **Archivar sesiones de mensajería instantánea (MI)**.</span><span class="sxs-lookup"><span data-stu-id="554ab-123">To enable archiving only for instant messaging (IM) sessions, click **Archive IM sessions**.</span></span>
     
-      - Para habilitar el archivado para las sesiones de MI y de conferencia, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.
+      - <span data-ttu-id="554ab-124">Para habilitar el archivado para las sesiones de MI y de conferencia, haga clic en **Archivar sesiones de mensajería instantánea y conferencias web**.</span><span class="sxs-lookup"><span data-stu-id="554ab-124">To enable archiving for both IM sessions and conferences, click **Archive IM and conferencing sessions**.</span></span>
     
-      - Para deshabilitar el archivado para la directiva, haga clic en **Deshabilitar archivado**.
+      - <span data-ttu-id="554ab-125">A fin de deshabilitar el archivado de la directiva, haga clic en **Deshabilitar archivado**.</span><span class="sxs-lookup"><span data-stu-id="554ab-125">To disable archiving for the policy, click **Disable archiving**.</span></span>
 
-5.  Haga clic en **Confirmar**.
+5.  <span data-ttu-id="554ab-126">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="554ab-126">Click **Commit**.</span></span>
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Administrar las opciones de configuración de archivado de Lync Server 2013 para su organización, sitios y grupos de servidores](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
-[Configurar y asignar directivas de archivado](lync-server-2013-configuring-and-assigning-archiving-policies.md)
+## <a name="see-also"></a><span data-ttu-id="554ab-127">Vea también</span><span class="sxs-lookup"><span data-stu-id="554ab-127">See Also</span></span>
+
+
+[<span data-ttu-id="554ab-128">Administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos</span><span class="sxs-lookup"><span data-stu-id="554ab-128">Managing Archiving configuration options in Lync Server 2013 for your organization, sites, and pools</span></span>](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+[<span data-ttu-id="554ab-129">Configurar y asignar directivas de archivado en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="554ab-129">Configuring and assigning Archiving policies in Lync Server 2013</span></span>](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

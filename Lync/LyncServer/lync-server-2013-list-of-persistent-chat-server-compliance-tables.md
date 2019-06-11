@@ -1,23 +1,45 @@
-﻿---
-title: "Lync Server 2013: Lista de tablas de cumplimiento del servidor de chat persistente"
-TOCTitle: Lista de tablas de cumplimiento del servidor de chat persistente
-ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215878(v=OCS.15)
-ms:contentKeyID: 48275898
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Lista de tablas de cumplimiento del servidor de chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: List of Persistent Chat Server compliance tables
+ms:assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215878(v=OCS.15)
+ms:contentKeyID: 48706007
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 31d3df9a0bfd5fa4b8b4acdda15ed86940c2572a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834939"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Lista de tablas de cumplimiento del servidor de chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="list-of-persistent-chat-server-compliance-tables-in-lync-server-2013"></a><span data-ttu-id="a711b-102">Lista de tablas de cumplimiento del servidor de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a711b-102">List of Persistent Chat Server compliance tables in Lync Server 2013</span></span>
 
-El esquema de la base de datos de cumplimiento de Chat persistente consiste en las siguientes tablas.
+</div>
 
-## Lista de tablas de cumplimiento de Servidor de chat persistente
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a711b-103">_**Última modificación del tema:** 2012-10-06_</span><span class="sxs-lookup"><span data-stu-id="a711b-103">_**Topic Last Modified:** 2012-10-06_</span></span>
+
+<span data-ttu-id="a711b-104">El esquema de base de datos de cumplimiento de chat persistente consta de las siguientes tablas.</span><span class="sxs-lookup"><span data-stu-id="a711b-104">The Persistent Chat compliance database schema consists of the following tables.</span></span>
+
+<div>
+
+## <a name="list-of-persistent-chat-server-compliance-tables"></a><span data-ttu-id="a711b-105">Lista de tablas de cumplimiento del servidor de chat persistente</span><span class="sxs-lookup"><span data-stu-id="a711b-105">List of Persistent Chat Server Compliance Tables</span></span>
 
 
 <table>
@@ -27,29 +49,42 @@ El esquema de la base de datos de cumplimiento de Chat persistente consiste en l
 </colgroup>
 <thead>
 <tr class="header">
-<th>Tabla</th>
-<th>Descripción</th>
+<th><span data-ttu-id="a711b-106">Tabla</span><span class="sxs-lookup"><span data-stu-id="a711b-106">Table</span></span></th>
+<th><span data-ttu-id="a711b-107">Descripción</span><span class="sxs-lookup"><span data-stu-id="a711b-107">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData en Lync Server 2013</a></p></td>
-<td><p>Contiene los eventos de cumplimiento que aún no fueron procesados por el adaptador configurado.</p>
-<p>Esta tabla incluye los eventos relacionados con Chat persistente, como los mensajes de chat y las descargas de archivos. (Los eventos participantes son seguidos por la tabla tblComplianceParticipant).</p>
-<p>(Los servidores que procesaron los eventos en esta tabla se enumeran en la tabla tblComplianceFanout).</p></td>
+<td><p><span data-ttu-id="a711b-108"><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a711b-108"><a href="lync-server-2013-tblcompliancedata.md">tblComplianceData in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a711b-109">Contiene los eventos de cumplimiento que el adaptador configurado aún no ha procesado.</span><span class="sxs-lookup"><span data-stu-id="a711b-109">Contains the compliance events that have not yet been processed by the configured adapter.</span></span></p>
+<p><span data-ttu-id="a711b-110">Esta tabla incluye eventos persistentes relacionados con el chat, como mensajes instantáneos y descargas de archivos.</span><span class="sxs-lookup"><span data-stu-id="a711b-110">This table includes Persistent Chat-related events, such as chat messages and file downloads.</span></span> <span data-ttu-id="a711b-111">(Los eventos de participantes se controlan en la tabla tblComplianceParticipant).</span><span class="sxs-lookup"><span data-stu-id="a711b-111">(Participant events are tracked by the tblComplianceParticipant table.)</span></span></p>
+<p><span data-ttu-id="a711b-112">(Los servidores que procesaron los eventos de esta tabla se muestran en la tabla tblComplianceFanout).</span><span class="sxs-lookup"><span data-stu-id="a711b-112">(The servers that processed the events in this table are listed in the tblComplianceFanout table.)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout en Lync Server 2013</a></p></td>
-<td><p>Contiene los servidores que procesaron un evento de cumplimiento. Esta tabla está fuertemente vinculada con la tabla tblComplianceData.</p></td>
+<td><p><span data-ttu-id="a711b-113"><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a711b-113"><a href="lync-server-2013-tblcompliancefanout.md">tblComplianceFanout in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a711b-114">Contiene los servidores que procesaron un evento de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="a711b-114">Contains the servers that processed a compliance event.</span></span> <span data-ttu-id="a711b-115">Esta tabla está estrechamente acoplada a la tabla tblComplianceData.</span><span class="sxs-lookup"><span data-stu-id="a711b-115">This table is tightly coupled with the tblComplianceData table.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant en Lync Server 2013</a></p></td>
-<td><p>Contiene los participantes actuales por servicio de chat y por servidor. Se mantiene basado en eventos de cumplimiento de unión y participación recibidos por el servicio de Chat persistente.</p></td>
+<td><p><span data-ttu-id="a711b-116"><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a711b-116"><a href="lync-server-2013-tblcomplianceparticipant.md">tblComplianceParticipant in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a711b-117">Contiene participantes actuales por servicio de chat y por servidor.</span><span class="sxs-lookup"><span data-stu-id="a711b-117">Contains current participants per chat service and per server.</span></span> <span data-ttu-id="a711b-118">Se mantiene según los eventos de conformidad con la Unión y la parte recibidos del servicio de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="a711b-118">It is maintained based on join and part compliance events received from the Persistent Chat service.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState en Lync Server 2013</a></p></td>
-<td><p>Contiene información de estado de cumplimiento de todo el grupo.</p></td>
+<td><p><span data-ttu-id="a711b-119"><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState en Lync Server 2013</a></span><span class="sxs-lookup"><span data-stu-id="a711b-119"><a href="lync-server-2013-tblcompliancestate.md">tblComplianceState in Lync Server 2013</a></span></span></p></td>
+<td><p><span data-ttu-id="a711b-120">Contiene información de estado de cumplimiento para todo el grupo.</span><span class="sxs-lookup"><span data-stu-id="a711b-120">Contains pool-wide compliance state information.</span></span></p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

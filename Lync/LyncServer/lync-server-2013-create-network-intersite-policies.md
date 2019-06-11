@@ -1,46 +1,85 @@
-﻿---
-title: Crear directivas entre sitios de red en Lync Server 2013
-TOCTitle: Crear directivas entre sitios de red en Lync Server 2013
-ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412844(v=OCS.15)
-ms:contentKeyID: 48276375
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear directivas de sitios intersitios de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create network intersite policies
+ms:assetid: b0714aae-55dc-4587-b718-34a03f596b22
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412844(v=OCS.15)
+ms:contentKeyID: 48185148
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b6309b27ddedb37c2c38e7d40e74e427f61b904a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835831"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear directivas entre sitios de red en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-19_
+# <a name="create-network-intersite-policies-in-lync-server-2013"></a><span data-ttu-id="ec19b-102">Crear directivas de intersitios de red en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ec19b-102">Create network intersite policies in Lync Server 2013</span></span>
 
-Una *directiva entre sitios de red* define las limitaciones de ancho de banda entre sitios que tienen vínculos WAN entre ellos.
+</div>
 
-Para ver más detalles, consulte la documentación del Shell de administración de Lync Server correspondiente a los siguientes cmdlets:
+<div id="mainSection">
 
-  - [New-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsNetworkInterSitePolicy)
+<div id="mainBody">
 
-  - [Get-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+<span> </span>
 
-  - [Set-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+<span data-ttu-id="ec19b-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="ec19b-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-  - [Remove-CsNetworkInterSitePolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+<span data-ttu-id="ec19b-104">Una *Directiva de red entre sitios* define limitaciones de ancho de banda entre los sitios que tienen vínculos WAN directos entre ellos.</span><span class="sxs-lookup"><span data-stu-id="ec19b-104">A *network intersite policy* defines bandwidth limitations between sites that have direct WAN links between them.</span></span>
+
+<span data-ttu-id="ec19b-105">Para obtener más información, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="ec19b-105">For details, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
+
+  - [<span data-ttu-id="ec19b-106">New-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="ec19b-106">New-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/New-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="ec19b-107">Get-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="ec19b-107">Get-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="ec19b-108">Set-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="ec19b-108">Set-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkInterSitePolicy)
+
+  - [<span data-ttu-id="ec19b-109">Remove-CsNetworkInterSitePolicy</span><span class="sxs-lookup"><span data-stu-id="ec19b-109">Remove-CsNetworkInterSitePolicy</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkInterSitePolicy)
+
+<div>
+
 
 > [!IMPORTANT]  
-> Una directiva entre sitios de red <em>solo</em> se necesita si hay un vínculo cruzado directo entre dos sitios de red.
+> <span data-ttu-id="ec19b-110">Una directiva de red entre sitios <EM>solo</EM> es necesaria si hay un vínculo cruzado directo entre dos sitios de red.</span><span class="sxs-lookup"><span data-stu-id="ec19b-110">A network intersite policy is required <EM>only</EM> if there is a direct cross link between two network sites.</span></span>
 
 
 
-En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque. Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado. En el siguiente ejemplo se aplica el perfil 20Mb\_Link.
+</div>
 
-## Para crear una directiva entre sitios de red
+<span data-ttu-id="ec19b-111">En la topología de ejemplo de la región de Norteamérica, hay un vínculo directo entre los sitios de Reno y Albuquerque.</span><span class="sxs-lookup"><span data-stu-id="ec19b-111">In the example topology North America region, there is a direct link between the Reno and Albuquerque sites.</span></span> <span data-ttu-id="ec19b-112">Estos dos sitios requieren una directiva entre sitios que aplique un perfil de directiva de ancho de banda adecuado.</span><span class="sxs-lookup"><span data-stu-id="ec19b-112">These two sites require an intersite policy that applies an appropriate bandwidth policy profile.</span></span> <span data-ttu-id="ec19b-113">En el siguiente ejemplo se aplica\_el perfil de vínculo de 20 MB.</span><span class="sxs-lookup"><span data-stu-id="ec19b-113">The following example applies the 20Mb\_Link profile.</span></span>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<div>
 
-2.  Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tienen un vínculo cruzado directo. Por ejemplo, ejecute lo siguiente:
+## <a name="to-create-a-network-intersite-policy"></a><span data-ttu-id="ec19b-114">Para crear una directiva de intersitios de red</span><span class="sxs-lookup"><span data-stu-id="ec19b-114">To create a network intersite policy</span></span>
+
+1.  <span data-ttu-id="ec19b-115">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="ec19b-115">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="ec19b-116">Ejecute el cmdlet New-CsNetworkInterSitePolicy para crear directivas entre sitios de red y aplicar un perfil de directiva de ancho de banda adecuado para dos sitios que tengan un vínculo cruzado directo.</span><span class="sxs-lookup"><span data-stu-id="ec19b-116">Run the New-CsNetworkInterSitePolicy cmdlet to create network intersite policies and apply an appropriate bandwidth policy profile for two sites that have a direct cross link.</span></span> <span data-ttu-id="ec19b-117">Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="ec19b-117">For example, run:</span></span>
     
         New-CsNetworkInterSitePolicy -InterNetworkSitePolicyID Reno_Albuquerque -NetworkSiteID1 Reno -NetworkSiteID2 Albuquerque -BWPolicyProfileID 20Mb_Link
 
-3.  Repita el paso 2 según sea necesario para crear directivas entre sitios de red para todos los pares de sitios de red que tengan un vínculo cruzado directo.
+3.  <span data-ttu-id="ec19b-118">Repita el paso 2 según sea necesario para crear directivas de intersitios de red para todas las parejas de sitios de red con vínculos cruzados directos.</span><span class="sxs-lookup"><span data-stu-id="ec19b-118">Repeat step 2 as needed to create network intersite policies for all network sites pairs that have a direct cross link.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

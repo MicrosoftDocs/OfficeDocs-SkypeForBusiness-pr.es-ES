@@ -1,59 +1,113 @@
-﻿---
-title: Eliminación de una directiva de conferencias existente
-TOCTitle: Eliminación de una directiva de conferencias existente
-ms:assetid: 709ed771-790f-4bf1-a4de-b37ca5168688
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688089(v=OCS.15)
-ms:contentKeyID: 49889225
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: eliminar una directiva de conferencia existente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing conferencing policy
+ms:assetid: 709ed771-790f-4bf1-a4de-b37ca5168688
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688089(v=OCS.15)
+ms:contentKeyID: 49733688
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 3571c7b731579c0397da62d2c5805be19dcfa809
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835609"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eliminación de una directiva de conferencias existente
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-23_
+# <a name="delete-an-existing-conferencing-policy-in-lync-server-2013"></a><span data-ttu-id="4e182-102">Eliminar una directiva de conferencia existente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="4e182-102">Delete an existing conferencing policy in Lync Server 2013</span></span>
 
-Siga estos pasos para eliminar una directiva de conferencia de nivel de usuario o de nivel de sitio.
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="4e182-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="4e182-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="4e182-104">Siga estos pasos para eliminar una directiva de conferencia de nivel de usuario o de sitio.</span><span class="sxs-lookup"><span data-stu-id="4e182-104">Follow these steps to delete a user-level or a site-level conferencing policy.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> No puede eliminar la directiva de conferencia global.
+> [!NOTE]  
+> <span data-ttu-id="4e182-105">No puede eliminar la Directiva de conferencia global.</span><span class="sxs-lookup"><span data-stu-id="4e182-105">You cannot delete the global conferencing policy.</span></span>
 
 
 
-## Para eliminar una directiva de conferencia de usuario o sitio
+</div>
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<div>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-delete-a-site-or-user-conferencing-policy"></a><span data-ttu-id="4e182-106">Para eliminar un sitio o una directiva de conferencia de usuario</span><span class="sxs-lookup"><span data-stu-id="4e182-106">To delete a site or user conferencing policy</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.
+1.  <span data-ttu-id="4e182-107">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="4e182-107">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
 
-4.  En la lista de directivas de conferencia, haga clic en la directiva de usuario o sitio que desea eliminar, haga clic en Editar y, después, en Eliminar .
+2.  <span data-ttu-id="4e182-108">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="4e182-108">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="4e182-109">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="4e182-109">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-## Eliminación de directivas de conferencia utilizando cmdlets del Shell de administración de Lync Server
+3.  <span data-ttu-id="4e182-110">En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **Directiva de conferencia**.</span><span class="sxs-lookup"><span data-stu-id="4e182-110">In the left navigation bar, click **Conferencing** and then click **Conferencing Policy**.</span></span>
 
-También puede eliminar las opciones de configuración de tronco con Shell de administración de Lync Server y el cmdlet **Remove-CsConferencingPolicy**. Puede ejecutar el cmdlet desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+4.  <span data-ttu-id="4e182-111">En la lista de directivas de conferencia, haga clic en la directiva de usuario o en el sitio que desea eliminar, haga clic en **Editar** y, después, en **Eliminar**.</span><span class="sxs-lookup"><span data-stu-id="4e182-111">In the list of conferencing policies, click the site or user policy that you want to delete, click **Edit**, and then click **Delete**.</span></span>
 
-## Para quitar una directiva de conferencia determinada
+</div>
 
-  - El comando siguiente quita la directiva de conferencia con el valor de identidad RedmondConferencingPolicy:
+<div>
+
+## <a name="removing-conferencing-policies-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="4e182-112">Quitar directivas de conferencia con cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="4e182-112">Removing Conferencing Policies by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="4e182-113">Puede eliminar directivas de conferencia con el shell de administración de Lync Server y el cmdlet **Remove-CsConferencingPolicy** .</span><span class="sxs-lookup"><span data-stu-id="4e182-113">You can delete conferencing policies by using Lync Server Management Shell and the **Remove-CsConferencingPolicy** cmdlet.</span></span> <span data-ttu-id="4e182-114">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="4e182-114">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="4e182-115">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="4e182-115">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-remove-a-specified-conferencing-policy"></a><span data-ttu-id="4e182-116">Para quitar una directiva de conferencia especificada</span><span class="sxs-lookup"><span data-stu-id="4e182-116">To remove a specified conferencing policy</span></span>
+
+  - <span data-ttu-id="4e182-117">El comando siguiente quita la directiva de conferencia con el valor de identidad RedmondConferencingPolicy:</span><span class="sxs-lookup"><span data-stu-id="4e182-117">The following command removes the conferencing policy with the Identity RedmondConferencingPolicy:</span></span>
     
         Remove-CsConferencingPolicy -Identity "RedmondConferencingPolicy"
 
-## Para quitar todas las directivas de conferencia aplicadas en el ámbito por usuario
+</div>
 
-  - El comando siguiente quita todas las directivas de conferencia configuradas en el ámbito por usuario:
+<div>
+
+## <a name="to-remove-all-of-the-conferencing-policies-applied-to-the-per-user-scope"></a><span data-ttu-id="4e182-118">Para quitar todas las directivas de conferencia que se aplican al ámbito de cada usuario</span><span class="sxs-lookup"><span data-stu-id="4e182-118">To remove all of the conferencing policies applied to the per-user scope</span></span>
+
+  - <span data-ttu-id="4e182-119">El siguiente comando quita todas las directivas de conferencia configuradas en el ámbito de cada usuario:</span><span class="sxs-lookup"><span data-stu-id="4e182-119">The following command removes all the conferencing policies configured at the per-user scope:</span></span>
     
         Get-CsConferencingPolicy -Filter "tag:*" | Remove-CsConferencingPolicy
 
-## Para quitar todas las directivas de conferencia que permiten la grabación por parte de usuarios externos
+</div>
 
-  - El comando siguiente quita todas las directivas de conferencia que permiten que usuarios externos graben la conferencia:
+<div>
+
+## <a name="to-remove-all-of-the-conferencing-polices-that-allow-recording-by-external-users"></a><span data-ttu-id="4e182-120">Para quitar todas las directivas de conferencia que permiten la grabación de usuarios externos</span><span class="sxs-lookup"><span data-stu-id="4e182-120">To remove all of the conferencing polices that allow recording by external users</span></span>
+
+  - <span data-ttu-id="4e182-121">El siguiente comando elimina las directivas de conferencia que permiten a los usuarios externos grabar la Conferencia:</span><span class="sxs-lookup"><span data-stu-id="4e182-121">The following command deletes any conferencing policies that allow external users to record the conference:</span></span>
     
         Get-CsConferencingPolicy | Where-Object {$_.AllowExternalUsersToRecordMeetings -eq $True} | Remove-CsConferencingPolicy
 
-Para más información, consulte [Remove-CsConferencingPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsConferencingPolicy).
+</div>
+
+<span data-ttu-id="4e182-122">Para obtener más información, consulte [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span><span class="sxs-lookup"><span data-stu-id="4e182-122">For details, see [Remove-CsConferencingPolicy](https://docs.microsoft.com/powershell/module/skype/Remove-CsConferencingPolicy).</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

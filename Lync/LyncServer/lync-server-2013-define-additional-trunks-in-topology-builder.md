@@ -1,88 +1,147 @@
-﻿---
-title: "Lync Server 2013 : Déf. d’autres jonctions dans le Gestionnaire de topologies"
-TOCTitle: Definir troncos adicionales en el Generador de topologías
-ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721915(v=OCS.15)
-ms:contentKeyID: 49889774
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: definir troncos adicionales en el generador de topología'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define additional trunks in Topology Builder
+ms:assetid: e68b8377-50a2-452a-bf5c-910929e34236
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721915(v=OCS.15)
+ms:contentKeyID: 49733849
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b18d12762566258051d5fe0e7c71921b9fff160c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835722"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definir troncos adicionales en el Generador de topologías en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-04_
+# <a name="define-additional-trunks-in-topology-builder-in-lync-server-2013"></a><span data-ttu-id="1ea39-102">Definir más troncos en el generador de topología en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ea39-102">Define additional trunks in Topology Builder in Lync Server 2013</span></span>
 
-Siga estos pasos para usar Generador de topologías para definir un tronco adicional al que pueda asociar un *punto* con un Servidor de mediación. Un punto proporciona usuarios habilitados para Telefonía IP empresarial con conectividad con la red telefónica conmutada (RTC). Un punto puede ser una puerta de enlace PSTN, un IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicios de telefonía por Internet (ITSP). El tronco define esta conexión entre el Servidor de mediación y el punto. Se pueden definir varios troncos por Servidor de mediación. Un Servidor de mediación puede asociarse a varios puntos.
+</div>
 
-Un tronco es una conexión lógica entre un Servidor de mediación y una puerta de enlace con identificación única efectuada mediante tupla:
+<div id="mainSection">
 
-{FQDN de Servidor de mediación, puerto de escucha Servidor de mediación (TLS o TCP): puerta de enlace IP y FQDN, puerto de escucha de la pasarela de enlace}
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="1ea39-103">_**Última modificación del tema:** 2012-10-04_</span><span class="sxs-lookup"><span data-stu-id="1ea39-103">_**Topic Last Modified:** 2012-10-04_</span></span>
+
+<span data-ttu-id="1ea39-104">Siga estos pasos para usar el generador de topología para definir un enlace adicional al que pueda asociar un *interlocutor* con un servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-104">Follow these steps to use Topology Builder to define an additional trunk to which you can associate a *peer* with a Mediation Server.</span></span> <span data-ttu-id="1ea39-105">Un interlocutor proporciona a los usuarios habilitados para telefonía IP empresarial con conectividad a la red de telefonía pública conmutada (RTC).</span><span class="sxs-lookup"><span data-stu-id="1ea39-105">A peer provides users enabled for Enterprise Voice with connectivity to the public switched telephone network (PSTN).</span></span> <span data-ttu-id="1ea39-106">Un par puede ser una puerta de enlace RTC, un IP-PBX o un controlador de borde de sesión (SBC) para un proveedor de servicios de telefonía por Internet (ITSP).</span><span class="sxs-lookup"><span data-stu-id="1ea39-106">A peer can be a PSTN gateway, an IP-PBX, or a Session Border Controller (SBC) for an Internet Telephony Service Provider (ITSP).</span></span> <span data-ttu-id="1ea39-107">El tronco define esta conexión entre el servidor de mediación y el interlocutor.</span><span class="sxs-lookup"><span data-stu-id="1ea39-107">The trunk defines this connection between the Mediation Server and peer.</span></span> <span data-ttu-id="1ea39-108">Se pueden definir varios troncos por servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-108">Multiple trunks can be defined per Mediation Server.</span></span> <span data-ttu-id="1ea39-109">Se puede asociar un servidor de mediación con varios elementos del mismo nivel.</span><span class="sxs-lookup"><span data-stu-id="1ea39-109">A Mediation Server can be associated with multiple peers.</span></span>
+
+<span data-ttu-id="1ea39-110">Un tronco es una conexión lógica entre un servidor de mediación y una puerta de enlace identificada de forma única por la tupla:</span><span class="sxs-lookup"><span data-stu-id="1ea39-110">A trunk is a logical connection between a Mediation Server and a gateway uniquely identified by the tuple:</span></span>
+
+<span data-ttu-id="1ea39-111">{Media Server FQDN, Puerto de escucha del servidor de mediación (TLS o TCP): IP de puerta de enlace y FQDN, Puerto de escucha de la puerta de enlace}</span><span class="sxs-lookup"><span data-stu-id="1ea39-111">{Mediation Server FQDN, Mediation Server listening port (TLS or TCP) : gateway IP and FQDN, gateway listening port}</span></span>
+
+<div>
 
 
-> [!NOTE]
-> En este tema se presupone que ha instalado una puerta de enlace PSTN y un tronco raíz con, como mínimo, un Servidor de mediación o grupo de servidores, combinado o independiente, tal como se describe en <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Definir una puerta de enlace en el Generador de topologías en Lync Server 2013</A> en la documentación de implementación.
+> [!NOTE]  
+> <span data-ttu-id="1ea39-112">En este tema se supone que tiene configurado una puerta de enlace PSTN y un tronco raíz con al menos un servidor o grupo de mediación de proviene o independiente, tal y como se describe en <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">definir una puerta de enlace en el generador de topología de Lync Server 2013</A> , en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-112">This topic assumes that you have setup a PSTN gateway and root trunk with at least one collocated or stand-alone Mediation Server or pool as described in <A href="lync-server-2013-define-a-gateway-in-topology-builder.md">Define a gateway in Topology Builder in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
+</div>
 
-> [!NOTE]
-> En este tema se presupone que ha configurado como mínimo un Grupo de servidores front-end o un Servidor Standard Edition en un sitio central como mínimo, tal como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">Publicar la topología en Lync Server 2013</A> en la documentación de implementación.
+<div>
+
+
+> [!NOTE]  
+> <span data-ttu-id="1ea39-113">En este tema se supone que ha configurado al menos un grupo de servidores front-end o un servidor Standard Edition en un sitio central como mínimo, como se describe en <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync server 2013</A> y <A href="lync-server-2013-publish-the-topology.md">publicar la topología en Lync. Server 2013</A> en la documentación de la implementación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-113">This topic assumes that you have set up at least one Front End pool or Standard Edition server in at least one central site, as described in <A href="lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server.md">Define and configure a Front End pool or Standard Edition server in Lync Server 2013</A> and <A href="lync-server-2013-publish-the-topology.md">Publish the topology in Lync Server 2013</A> in the Deployment documentation.</span></span>
 
 
 
-## Para definir un tronco adicional entre un Servidor de mediación y una puerta de enlace de mismo nivel
+</div>
 
-1.  Inicie el Generador de topologías: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Generador de topologías de Lync Server**.
+<div>
 
-2.  En Lync Server 2013, el nombre de sitio, **Componentes compartidos** , haga clic con el botón secundario en el nodo **Troncos** y después en **Nuevo tronco** .
+## <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a><span data-ttu-id="1ea39-114">Para definir un troncal adicional entre un servidor de mediación y un interlocutor de puerta de enlace</span><span class="sxs-lookup"><span data-stu-id="1ea39-114">To Define an additional Trunk between a Mediation Server and a Gateway Peer</span></span>
+
+1.  <span data-ttu-id="1ea39-115">Iniciar generador de topología: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **generador de topología de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="1ea39-115">Start Topology Builder: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Topology Builder**.</span></span>
+
+2.  <span data-ttu-id="1ea39-116">En Lync Server 2013, nombre del sitio, **componentes**compartidos, haga clic con el botón derecho en el nodo **troncos** y, después, haga clic en **nuevo tronco**.</span><span class="sxs-lookup"><span data-stu-id="1ea39-116">Under Lync Server 2013, your site name, **Shared Components**, right-click the **Trunks** node, and then click **New Trunk**.</span></span>
     
-    ![Pantalla de la estructura de archivos del Generador de topologías de Lync Server](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Pantalla de la estructura de archivos del Generador de topologías de Lync Server")
+    <span data-ttu-id="1ea39-117">![Pantalla de estructura de archivos del generador de topología de Lync Server] (images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Pantalla de estructura de archivos del generador de topología de Lync Server")</span><span class="sxs-lookup"><span data-stu-id="1ea39-117">![Lync Server Topology Builder file structure screen](images/JJ721915.90d5b349-aa1e-407a-87ed-fa112f478560(OCS.15).png "Lync Server Topology Builder file structure screen")</span></span>
 
-3.  En **Definir nuevo tronco** , escriba un nombre descriptivo para identificar con exclusividad el tronco. Dos troncos no pueden tener el mismo nombre.
+3.  <span data-ttu-id="1ea39-118">En **Definir nuevo tronco**, escriba un nombre descriptivo para identificar con exclusividad el tronco.</span><span class="sxs-lookup"><span data-stu-id="1ea39-118">In **Define New Trunk**, specify a friendly name to uniquely identify the trunk.</span></span> <span data-ttu-id="1ea39-119">Dos troncos no pueden tener el mismo nombre.</span><span class="sxs-lookup"><span data-stu-id="1ea39-119">You cannot have two trunks with the same name.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si especifica Seguridad de la capa de transporte (TLS) como tipo de transporte, especifique el FQDN en vez de la dirección IP del punto del Servidor de mediación.
-
-
-
-4.  En **Puerta de enlace PSTN asociada** , seleccione la puerta de enlace de mismo nivel PSTN para asociarla a este tronco.
-    
-    ![Configuración de propiedades para puertas de enlace RTC del mismo nivel para tronco](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Configuración de propiedades para puertas de enlace RTC del mismo nivel para tronco")
-
-5.  En el **Puerto de escucha para la puerta de enlace PSTN** , escriba el puerto de escucha en el que el punto (puerta de enlace PSTN, IP-PBX o SBC) recibirá los mensajes SIP del Servidor de mediación que se asociará a este tronco. Los puertos de mismo nivel habituales son 5066 para el protocolo de control de transmisiones (TCP) y 5067 para la seguridad de la capa de transporte (TLS). Los puertos Aplicación de sucursal con funciones de supervivencia habituales son 5081 para TCP y 5082 para TLS.
-
-6.  En **Protocolo de transporte SIP** , haga clic en el tipo de transporte que usa el punto.
-    
-
-    > [!NOTE]
-    > Por motivos de seguridad, recomendamos encarecidamente que implemente un punto para el Servidor de mediación que puede usar TLS.
-
-
-
-7.  En el **Servidor de mediación asociado** , seleccione el grupo de servidores de Servidor de mediación que asociará al tronco raíz de este punto
-
-8.  En el **Puerto del servidor de mediación asociado** , escriba el puerto de escucha en el que el Servidor de mediación recibirá mensajes SIP del punto.
-    
-
-    > [!NOTE]
-    > Con el soporte de varios troncos en Lync Server 2013, dos troncos con nombres de tronco diferentes no se pueden configurar con el mismo <STRONG>Puerto de Servidor de mediación asociado</STRONG> y <STRONG>Puerto de escucha para la puerta de enlace IP/PSTN</STRONG>
+    > [!NOTE]  
+    > <span data-ttu-id="1ea39-120">Si especifica la seguridad de la capa de transporte (TLS) como tipo de transporte, debe especificar el FQDN en lugar de la dirección IP del interlocutor del servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-120">If you specify Transport Layer Security (TLS) as the transport type, you must specify the FQDN instead of the IP address of the peer of the Mediation Server.</span></span>
 
     
+    </div>
 
-    > [!NOTE]
-    > Con el soporte de varios troncos en Lync Server 2013, se pueden definir varios puertos de señalización SIP en el Servidor de mediación para comunicarse con varios puntos. Cuando defina un tronco, el número del <STRONG>Puerto de Servidor de mediación asociado</STRONG> debe estar en el intervalo de los puertos de escucha para el protocolo respectivo permitido por el Servidor de mediación. Este intervalo de puerto se define en Lync Server 2013 y Grupos de servidores de mediación. Haga clic con el botón secundario en el Grupo de servidores de mediación pertinente y seleccione <STRONG>Editar propiedades</STRONG> . Especifique el intervalo de puertos en el campo <STRONG>Puertos de escucha</STRONG> .
+4.  <span data-ttu-id="1ea39-121">En **Puerta de enlace PSTN asociada**, seleccione la puerta de enlace de mismo nivel PSTN para asociarla a este tronco.</span><span class="sxs-lookup"><span data-stu-id="1ea39-121">Under **Associated PSTN gateway**, select the PSTN gateway peer to associate with this trunk.</span></span>
+    
+    <span data-ttu-id="1ea39-122">![Configuración de propiedades para puerta de enlace RTC peer para troncal] (images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Configuración de propiedades para puerta de enlace RTC peer para troncal")</span><span class="sxs-lookup"><span data-stu-id="1ea39-122">![Property settings for PSTN gateway peer for trunk](images/JJ721915.7c3fe8ee-8f4c-4413-8462-8347228e61bb(OCS.15).png "Property settings for PSTN gateway peer for trunk")</span></span>
+
+5.  <span data-ttu-id="1ea39-123">En **Puerto en escucha para la puerta de enlace RTC**, escriba el puerto de escucha que el interlocutor (puerta de enlace PSTN, IP-PBX o SBC) recibirá los mensajes SIP del servidor de mediación que se va a asociar con este tronco.</span><span class="sxs-lookup"><span data-stu-id="1ea39-123">Under **Listening Port for PSTN gateway**, type the listening port that the peer (PSTN gateway, IP-PBX, or SBC) will receive SIP messages from the Mediation Server that is to be associated with this trunk.</span></span> <span data-ttu-id="1ea39-124">Los puertos de mismo nivel habituales son 5066 para el protocolo de control de transmisiones (TCP) y 5067 para la seguridad de la capa de transporte (TLS).</span><span class="sxs-lookup"><span data-stu-id="1ea39-124">The default peer ports are 5066 for Transmission Control Protocol (TCP) and 5067 for Transport Layer Security (TLS).</span></span> <span data-ttu-id="1ea39-125">Los puertos predeterminados de los equipos de las sucursales supervivientes son 5081 para TCP y 5082 para TLS.</span><span class="sxs-lookup"><span data-stu-id="1ea39-125">The default Survivable Branch Appliance ports are 5081 for TCP and 5082 for TLS.</span></span>
+
+6.  <span data-ttu-id="1ea39-126">En **Protocolo de transporte SIP**, haga clic en el tipo de transporte que usa el punto.</span><span class="sxs-lookup"><span data-stu-id="1ea39-126">Under **SIP Transport Protocol**, click the transport type that the peer uses.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1ea39-127">Por razones de seguridad, le recomendamos encarecidamente que implemente un interlocutor en el servidor de mediación que pueda usar TLS.</span><span class="sxs-lookup"><span data-stu-id="1ea39-127">For security reasons, we strongly recommend that you deploy a peer to the Mediation Server that can use TLS.</span></span>
+
+    
+    </div>
+
+7.  <span data-ttu-id="1ea39-128">En **servidor de mediación asociado**, seleccione el grupo de servidores de mediación para asociarlo con el tronco raíz de este punto de conexión.</span><span class="sxs-lookup"><span data-stu-id="1ea39-128">Under **Associated Mediation Server**, select the Mediation Server pool to associate with the root trunk of this peer</span></span>
+
+8.  <span data-ttu-id="1ea39-129">En **Puerto de servidor de mediación asociado**, escriba el puerto de escucha que el servidor de mediación recibirá los mensajes SIP del interlocutor.</span><span class="sxs-lookup"><span data-stu-id="1ea39-129">Under **Associated Mediation Server port**, type the listening port that the Mediation Server will receive SIP messages from the peer.</span></span>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1ea39-130">Con varias compatibilidades troncales en Lync Server 2013, no se pueden configurar dos troncos con diferentes nombres de tronco con el mismo <STRONG>Puerto de servidor de mediación asociado</STRONG> y <STRONG>Puerto de escucha para la puerta de enlace IP/PSTN</STRONG></span><span class="sxs-lookup"><span data-stu-id="1ea39-130">With multiple trunk support in Lync Server 2013, two trunks with different trunk names cannot be configured with the same <STRONG>Associated Mediation Server port</STRONG> and <STRONG>Listening Port for IP/PSTN gateway</STRONG></span></span>
+
+    
+    </div>
+    
+    <div>
+    
+
+    > [!NOTE]  
+    > <span data-ttu-id="1ea39-131">Con varias compatibilidades troncales en Lync Server 2013, se pueden definir varios puertos de señalización SIP en el servidor de mediación para la comunicación con varios elementos del mismo nivel.</span><span class="sxs-lookup"><span data-stu-id="1ea39-131">With multiple trunk support in Lync Server 2013, multiple SIP signaling ports can be defined on the Mediation Server for communication with multiple peers.</span></span> <span data-ttu-id="1ea39-132">Al definir un tronco, el número de <STRONG>Puerto de servidor de mediación asociado</STRONG> debe estar dentro del intervalo de los puertos de escucha para el protocolo respectivo permitido por el servidor de mediación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-132">When defining a trunk, the <STRONG>Associated Mediation Server port</STRONG> number must be within the range of the listening ports for the respective protocol allowed by the Mediation Server.</span></span> <span data-ttu-id="1ea39-133">Este intervalo de puertos se define en Lync Server 2013 y en grupos de servidores de mediación.</span><span class="sxs-lookup"><span data-stu-id="1ea39-133">This port range is defined under Lync Server 2013 and Mediation Server pools.</span></span> <span data-ttu-id="1ea39-134">Haga clic con el botón derecho en el grupo de servidores de mediación y seleccione <STRONG>Editar propiedades</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="1ea39-134">Right-click the relevant Mediation Server pool, and select <STRONG>Edit Properties</STRONG>.</span></span> <span data-ttu-id="1ea39-135">Specify the port range in the <STRONG>Listening ports</STRONG> field.</span><span class="sxs-lookup"><span data-stu-id="1ea39-135">Specify the port range in the <STRONG>Listening ports</STRONG> field.</span></span>
+
+    
+    </div>
+
+9.  <span data-ttu-id="1ea39-136">Haga clic en **Aceptar**.</span><span class="sxs-lookup"><span data-stu-id="1ea39-136">Click **OK**.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="1ea39-137">Vea también</span><span class="sxs-lookup"><span data-stu-id="1ea39-137">See Also</span></span>
 
 
+[<span data-ttu-id="1ea39-138">Modificar un tronco en el generador de topología en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="1ea39-138">Modify a trunk in Topology Builder in Lync Server 2013</span></span>](lync-server-2013-modify-a-trunk-in-topology-builder.md)  
+  
 
-9.  Haga clic en **Aceptar**.
+</div>
 
-## Vea también
+</div>
 
-#### Tareas
+<span> </span>
 
-[Modificación de un tronco en el Generador de topologías en Lync Server 2013](lync-server-2013-modify-a-trunk-in-topology-builder.md)
+</div>
+
+</div>
+
+</div>
 

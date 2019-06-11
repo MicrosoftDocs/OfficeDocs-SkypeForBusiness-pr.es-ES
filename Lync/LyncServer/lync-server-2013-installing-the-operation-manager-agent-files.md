@@ -1,51 +1,81 @@
-﻿---
-title: Instalación de los archivos del agente Operations Manager
-TOCTitle: Instalación de los archivos del agente Operations Manager
-ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205345(v=OCS.15)
-ms:contentKeyID: 48276970
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: instalar los archivos del agente de Operations Manager'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing the Operation Manager agent files
+ms:assetid: e2246c44-0c75-43fc-8b04-26e53c5dd572
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205345(v=OCS.15)
+ms:contentKeyID: 48185692
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: bb8675e6c75c288e6594e45ecdcc2f65497a047a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834971"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalación de los archivos del agente Operations Manager
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-20_
+# <a name="installing-the-operation-manager-agent-files-in-lync-server-2013"></a><span data-ttu-id="12ef6-102">Instalación de los archivos del agente de Operations Manager en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="12ef6-102">Installing the Operation Manager agent files in Lync Server 2013</span></span>
 
-Para instalar los archivos de agente de Operations Manager en el PC, ejecute los pasos siguientes.
+</div>
 
-1.  En el medio de instalación de System Center, haga doble clic en **SetupOM.exe**.
+<div id="mainSection">
 
-2.  En la instalación de System Center Operation Manager, haga clic en **Instalar el agente Operations Manager**.
+<div id="mainBody">
 
-3.  En el Asistente para la instalación de System Center, en la página del Asistente de **Bienvenida a la instalación de System Center Operations Manager**, haga clic en **Siguiente**.
+<span> </span>
 
-4.  En la página **Carpeta de destino**, seleccione la carpeta en la que se instalarán los archivos agente de Operations Manager y después haga clic en **Siguiente**.
+<span data-ttu-id="12ef6-103">_**Última modificación del tema:** 2012-10-20_</span><span class="sxs-lookup"><span data-stu-id="12ef6-103">_**Topic Last Modified:** 2012-10-20_</span></span>
 
-5.  En la página **Configuración del grupo de administración**, seleccione **Especificar información del grupo de administración** y después haga clic en **Siguiente**.
+<span data-ttu-id="12ef6-104">Siga los pasos que se indican a continuación para instalar los archivos del agente Operations Manager en el equipo.</span><span class="sxs-lookup"><span data-stu-id="12ef6-104">To install the Operations Manager agent files on the computer, complete the following steps.</span></span>
 
-6.  En la página **Configuración del grupo de administración**, escriba el nombre del grupo de administración de Operations Manager en el cuadro **Nombre del grupo de administración** y después escriba el nombre del host del servidor de Operations Manager (por ejemplo, atl-scom-001) en el cuadro **Servidor de administración**. Si ha cambiado el número de puerto que Operations Manager usa, escriba el nuevo número en el cuadro del puerto del servidor de administración. De lo contrario, deje el puerto en el valor predeterminado 5723 y haga clic en **Siguiente**.
+1.  <span data-ttu-id="12ef6-105">En los medios de configuración de System Center, haga doble clic en **SetupOM. exe**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-105">On your System Center setup media, double-click **SetupOM.exe**.</span></span>
 
-7.  En la página **Cuenta de acción del agente**, seleccione **Sistema local** y haga clic en **Siguiente**.
+2.  <span data-ttu-id="12ef6-106">En el programa de instalación de System Center Operation Manager, haga clic en **instalar agente Operations Manager**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-106">In System Center Operation Manager setup, click **Install Operations Manager Agent**.</span></span>
 
-8.  En la página **Microsoft Update**, seleccione **No quiero usar Microsoft Update** y haga clic en **Siguiente**.
+3.  <span data-ttu-id="12ef6-107">En el Asistente de configuración de System Center, en la página asistente **para la instalación de System Center Operations Manager** , haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-107">In System Center Setup wizard, on the **Welcome to the System Center Operations Manager Setup** wizard page, click **Next**.</span></span>
 
-9.  En la página **Preparado para instalar**, haga clic en **Instalar**.
+4.  <span data-ttu-id="12ef6-108">En la página **carpeta de destino** , seleccione la carpeta en la que se instalarán los archivos del agente de Operations Manager y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-108">On the **Destination Folder** page, select the folder where the Operations Manager Agent files will be installed, and then click **Next**.</span></span>
 
-10. En la página **Completar el Asistente para instalar System Center Operations Manager**, haga clic en **Finalizar**.
+5.  <span data-ttu-id="12ef6-109">En la página **configuración del grupo de administración** , seleccione **especificar información del grupo de administración**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-109">On the **Management Group Configuration** page, select **Specify Management Group information**, and then click **Next**.</span></span>
 
-11. Haga clic en **Salir**.
+6.  <span data-ttu-id="12ef6-110">En la página **configuración del grupo** de administración, escriba el nombre del grupo de administración de Operations Manager en el cuadro Nombre del grupo de **Administración** y, a continuación, escriba el nombre de host del servidor de Operations Manager (por ejemplo, ATL-SCOM-001) en la \*\* Cuadro servidor de administración\*\* .</span><span class="sxs-lookup"><span data-stu-id="12ef6-110">On the **Management Group Configuration** page, type the name of your Operations Manager Management Group in the **Management Group Name** box, and then type the host name of your Operations Manager server (for example, atl-scom-001) in the **Management Server** box.</span></span> <span data-ttu-id="12ef6-111">Si ha cambiado el número de Puerto usado por Operations Manager, escriba el nuevo número de puerto en el cuadro puerto del servidor de administración.</span><span class="sxs-lookup"><span data-stu-id="12ef6-111">If you have changed the port number used by Operations Manager, then type the new port number in the Management Server Port box.</span></span> <span data-ttu-id="12ef6-112">En caso contrario, deje el puerto con el valor predeterminado de 5723 y haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-112">Otherwise, leave the port at the default value of 5723 and click **Next**.</span></span>
 
-Si usa System Center 2007 R2, compruebe que se haya creado el agente, haciendo clic sucesivamente en **Inicio**, **Todos los programas**, **System Center Operations Manager 2007 R2** y **Shell de Operations Manager**. En el Shell de Operations Manager, escriba el comando de Windows PowerShell siguiente y presione ENTRAR:
+7.  <span data-ttu-id="12ef6-113">En la página **cuenta de acción del agente** , seleccione **sistema local**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-113">On the **Agent Action Account** page, select **Local System**, and then click **Next**.</span></span>
+
+8.  <span data-ttu-id="12ef6-114">En la página de **Microsoft Update** , seleccione **no quiero usar Microsoft Update**y, a continuación, haga clic en **siguiente**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-114">On the **Microsoft Update** page, select **I don't want to use Microsoft Update**, and then click **Next**.</span></span>
+
+9.  <span data-ttu-id="12ef6-115">En la página **preparado para instalar** , haga clic en **instalar**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-115">On the **Ready to Install** page, click **Install**.</span></span>
+
+10. <span data-ttu-id="12ef6-116">En la página **finalización del Asistente para la instalación de System Center Operations Manager** , haga clic en **Finalizar**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-116">On the **Completing the System Center Operations Manager Setup wizard** page, click **Finish**.</span></span>
+
+11. <span data-ttu-id="12ef6-117">Haga clic en **Salir**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-117">Click **Exit**.</span></span>
+
+<span data-ttu-id="12ef6-118">Si usa System Center 2007 R2, puede comprobar que el agente se ha creado haciendo clic en **Inicio**, en **todos los programas**, en **System Center Operations Manager 2007 R2**y, a continuación, en **Operations Manager Shell**.</span><span class="sxs-lookup"><span data-stu-id="12ef6-118">If you are using System Center 2007 R2, you can verify that the agent has been created by clicking **Start**, clicking **All Programs**, clicking **System Center Operations Manager 2007 R2**, and then clicking **Operations Manager Shell**.</span></span> <span data-ttu-id="12ef6-119">In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:</span><span class="sxs-lookup"><span data-stu-id="12ef6-119">In the Operations Manager Shell, type the following Windows PowerShell command, and then press ENTER:</span></span>
 
     Get-Agent 
 
-Aparecerá en pantalla una lista de todos los agentes de Operations Manager.
+<span data-ttu-id="12ef6-120">Aparecerá una lista de todos tus agentes de Operations Manager en pantalla.</span><span class="sxs-lookup"><span data-stu-id="12ef6-120">A list of all your Operations Manager agents will appear onscreen.</span></span>
 
-Si usa System Center 2012, ejecute este comando desde el shell de Operations Manager 2012:
+<span data-ttu-id="12ef6-121">Si usa System Center 2012, ejecute este comando desde el shell de Operations 2012 Manager:</span><span class="sxs-lookup"><span data-stu-id="12ef6-121">If you are using System Center 2012, run this command from the Operations 2012 Manager Shell:</span></span>
 
     Get-SCOMAgent
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

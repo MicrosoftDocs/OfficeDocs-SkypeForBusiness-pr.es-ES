@@ -1,49 +1,83 @@
-﻿---
-title: 'Lync Server 2013: Conmutación por error de una base de datos reflejada'
-TOCTitle: Conmutación por error de una base de datos reflejada
-ms:assetid: 70185476-e3d4-440a-9316-fa24b226343e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204991(v=OCS.15)
-ms:contentKeyID: 48275611
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Conmutación por error de una base de datos reflejada'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Failing over a mirrored database
+ms:assetid: 70185476-e3d4-440a-9316-fa24b226343e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204991(v=OCS.15)
+ms:contentKeyID: 48184450
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a943705f13cff4f015285b1ef74feb11dc540091
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835174"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Conmutación por error de una base de datos reflejada en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2014-03-14_
+# <a name="failing-over-a-mirrored-database-in-lync-server-2013"></a><span data-ttu-id="f45d0-102">Conmutación por error de una base de datos reflejada en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f45d0-102">Failing over a mirrored database in Lync Server 2013</span></span>
 
-Si ha configurado su base de datos back-end para que use la creación de reflejos sincronizados con un testigo, la conmutación por error es automática. Si ha configurado la creación de reflejos sincronizados sin testigo, puede usar los siguientes procedimientos para conmutar por error y conmutar por recuperación su base de datos. También puede usar estos procedimientos para conmutar por error y conmutar por recuperación manualmente sus bases de datos aunque haya configurado un testigo.
+</div>
 
-## Procedimiento para conmutar por error su base de datos back-end
+<div id="mainSection">
 
-1.  Antes de la conmutación por error, determine qué base de datos back-end es la principal y cuál es la reflejada escribiendo el siguiente cmdlet:
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="f45d0-103">_**Última modificación del tema:** 2014-03-14_</span><span class="sxs-lookup"><span data-stu-id="f45d0-103">_**Topic Last Modified:** 2014-03-14_</span></span>
+
+<span data-ttu-id="f45d0-104">Si ha configurado la base de datos back-end para usar el reflejo sincronizado con un testigo, la conmutación por error es automática.</span><span class="sxs-lookup"><span data-stu-id="f45d0-104">If you have configured your back-end database to use synchronized mirroring with a witness, failover is automatic.</span></span> <span data-ttu-id="f45d0-105">Si ha configurado el reflejo sincronizado sin un testigo, puede usar los siguientes procedimientos para realizar la conmutación por error y la recuperación de la base de datos.</span><span class="sxs-lookup"><span data-stu-id="f45d0-105">If you have configured synchronized mirroring without a witness, you can use the following procedures to failover and failback your database.</span></span> <span data-ttu-id="f45d0-106">También puede usar estos procedimientos para realizar un failover manual de las bases de datos y hacer un failback, incluso si ha configurado un testigo.</span><span class="sxs-lookup"><span data-stu-id="f45d0-106">You can also use these procedures to manually failover and failback your databases even if you have configured a witness.</span></span>
+
+<div>
+
+## <a name="to-fail-over-your-back-end-database"></a><span data-ttu-id="f45d0-107">Para conmutar por error a la base de datos back-end</span><span class="sxs-lookup"><span data-stu-id="f45d0-107">To fail over your back-end database</span></span>
+
+1.  <span data-ttu-id="f45d0-108">Antes de realizar la conmutación por error, determine qué base de datos back-end es el principal y cuál es el reflejo; para ello, escriba el siguiente cmdlet:</span><span class="sxs-lookup"><span data-stu-id="f45d0-108">Before failing over, determine which back-end database is the principal and which is the mirror by typing the following cmdlet:</span></span>
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType User
 
-2.  Si Almacén de administración central está hospedado en este grupo de servidores, escriba el siguiente cmdlet para determinar cuál es la principal y cuál la reflejada para Almacén de administración central:
+2.  <span data-ttu-id="f45d0-109">Si el almacén de administración central está hospedado en este grupo, escriba el siguiente cmdlet para determinar cuál es el principal y cuál es el reflejo del almacén central de administración:</span><span class="sxs-lookup"><span data-stu-id="f45d0-109">If the Central Management store is hosted in this pool, type the following cmdlet to determine which is the principal and which is the mirror for the Central Management store:</span></span>
     
         Get-CsDatabaseMirrorState -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt
 
-3.  Realice la conmutación por error de la base de datos del usuario:
+3.  <span data-ttu-id="f45d0-110">Realice la conmutación por error de la base de datos de usuario:</span><span class="sxs-lookup"><span data-stu-id="f45d0-110">Perform the failover of the user database:</span></span>
     
-      - Si ha fallado la principal y está realizando la conmutación por error de la reflejada, escriba:
+      - <span data-ttu-id="f45d0-111">Si el principal ha fallado y se está produciendo un error en el reflejo, escriba:</span><span class="sxs-lookup"><span data-stu-id="f45d0-111">If the primary has failed and you are failing over to the mirror, type:</span></span>
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal mirror -Verbose
     
-      - Si ha fallado la reflejada y está realizando la conmutación por error de la principal, escriba:
+      - <span data-ttu-id="f45d0-112">Si el reflejo ha fallado y se está conmutando por error al principal, escriba:</span><span class="sxs-lookup"><span data-stu-id="f45d0-112">If the mirror has failed and you are failing over to the primary, type:</span></span>
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType User -NewPrincipal primary -Verbose
 
-4.  Si el grupo de servidores hospeda Servidor de administración central, realice la conmutación por error de Almacén de administración central.
+4.  <span data-ttu-id="f45d0-113">Si el grupo hospeda el servidor de administración central, realice la conmutación por error del almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="f45d0-113">If the pool hosts the Central Management Server, perform the failover of the Central Management store.</span></span>
     
-      - Si ha fallado la principal y está realizando la conmutación por error de la reflejada, escriba:
+      - <span data-ttu-id="f45d0-114">Si el principal ha fallado y se está produciendo un error en el reflejo, escriba:</span><span class="sxs-lookup"><span data-stu-id="f45d0-114">If the primary has failed and you are failing over to the mirror, type:</span></span>
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal mirror -Verbose
     
-      - Si ha fallado la reflejada y está realizando la conmutación por error de la principal, escriba:
+      - <span data-ttu-id="f45d0-115">Si el reflejo ha fallado y se está conmutando por error al principal, escriba:</span><span class="sxs-lookup"><span data-stu-id="f45d0-115">If the mirror has failed and you are failing over to the primary, type:</span></span>
         
             Invoke-CsDatabaseFailover -PoolFqdn <poolFQDN> -DatabaseType CentralMgmt -NewPrincipal primary -Verbose
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,93 +1,147 @@
-﻿---
-title: "Lync Server 2013: Requisitos y permisos config. en conferencias de acceso telefónico"
-TOCTitle: Requisitos previos y permisos de configuración para conferencias de acceso telefónico
-ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412865(v=OCS.15)
-ms:contentKeyID: 48276410
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Requisitos previos y permisos de configuración para conferencias de acceso telefónico
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Dial-in conferencing configuration prerequisites and permissions
+ms:assetid: b3b251e5-78ac-44a2-8c36-2a061c9b2314
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412865(v=OCS.15)
+ms:contentKeyID: 48185165
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a60fc58e0ec40dadff044257d43629c2f3cb01ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835407"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos previos y permisos de configuración para conferencias de acceso telefónico en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-06-20_
+# <a name="dial-in-conferencing-configuration-prerequisites-and-permissions-in-lync-server-2013"></a><span data-ttu-id="16ac7-102">Requisitos previos y permisos de configuración para conferencias de acceso telefónico en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="16ac7-102">Dial-in conferencing configuration prerequisites and permissions in Lync Server 2013</span></span>
 
-Las conferencias de acceso telefónico local son un componente opcional de la carga de trabajo de conferencias de Lync Server 2013. Los componentes que debe instalar antes de que pueda configurar las conferencias de acceso telefónico local están implementados cuando usa la fea-cs-plan-tool-1st y Generador de topologías para diseñar la topología y configurar el grupo de servidores front-end o el servidor Standard Edition. En este tema se describe lo que tiene que haber realizado antes de poder configurar las conferencias de acceso telefónico local.
+</div>
 
-En esta sección se presupone que ya ha leído todas las secciones de planeación relacionadas con la carga de trabajo de conferencias y con las conferencias de acceso telefónico local en particular.
+<div id="mainSection">
 
-## Requisitos previos de configuración para conferencia de acceso telefónico local
+<div id="mainBody">
 
-La conferencia de acceso telefónico local requiere los siguientes componentes de Lync Server 2013:
+<span> </span>
 
-  - Servicio de aplicaciones de comunicaciones unificadas (UCAS) (denominado el *servicio de aplicación* )
+<span data-ttu-id="16ac7-103">_**Última modificación del tema:** 2012-06-20_</span><span class="sxs-lookup"><span data-stu-id="16ac7-103">_**Topic Last Modified:** 2012-06-20_</span></span>
 
-  - Aplicación Operador de conferencia
+<span data-ttu-id="16ac7-104">Conferencias de acceso telefónico local es un componente opcional de la carga de trabajo de conferencia de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16ac7-104">Dial-in conferencing is an optional component of the Lync Server 2013 Conferencing workload.</span></span> <span data-ttu-id="16ac7-105">Los componentes que necesita instalar para poder configurar las conferencias de acceso telefónico local se implementan al usar el generador de topología para diseñar su topología y, a continuación, configurar su grupo de servidores front-end o servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="16ac7-105">The components you need to install before you can configure dial-in conferencing are deployed when you use the Topology Builder to design your topology and then set up your Front End pool or Standard Edition server.</span></span> <span data-ttu-id="16ac7-106">En este tema se describe lo que debe hacer antes de poder configurar las conferencias de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="16ac7-106">This topic describes what you need to have accomplished before you can configure dial-in conferencing.</span></span>
 
-  - Aplicación de anuncio de conferencia
+<span data-ttu-id="16ac7-107">En esta sección se supone que ha leído las secciones de planeación relacionadas con la carga de trabajo de conferencia y la Conferencia de acceso telefónico local en particular.</span><span class="sxs-lookup"><span data-stu-id="16ac7-107">This section assumes that you have read the planning sections related to the Conferencing workload and dial-in conferencing in particular.</span></span>
 
-  - Página web de configuración de la conferencia de acceso telefónico local
+<div>
 
-  - Al menos un servidor de mediación de Lync Server 2013 y al menos una puerta de enlace RTC
+## <a name="dial-in-conferencing-configuration-prerequisites"></a><span data-ttu-id="16ac7-108">Requisitos previos de configuración de conferencias de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="16ac7-108">Dial-in Conferencing Configuration Prerequisites</span></span>
 
-Implementa estos componentes cuando usa la fea-cs-plan-tool-2nd y Generador de topologías para definir y publicar la topología e implementar un grupo de servidores front-end o un servidor Standard Edition. Si implementa Telefonía IP empresarial, debe implementarlo antes de configurar la conferencia de acceso telefónico local. Si no implementa Telefonía IP empresarial, puede implementar un servidor de mediación y una puerta de enlace de red telefónica conmutada (RTC) cuando implementa el grupo de servidores front-end o el servidor Standard Edition.
+<span data-ttu-id="16ac7-109">Las conferencias de acceso telefónico local requieren los siguientes componentes de Lync Server 2013:</span><span class="sxs-lookup"><span data-stu-id="16ac7-109">Dial-in conferencing requires the following Lync Server 2013 components:</span></span>
+
+  - <span data-ttu-id="16ac7-110">Servicio de aplicaciones de comunicaciones unificadas (UCAS) (denominado el *servicio de aplicación*)</span><span class="sxs-lookup"><span data-stu-id="16ac7-110">Unified Communications Application Service (UCAS) (called the *Application service*)</span></span>
+
+  - <span data-ttu-id="16ac7-111">Aplicación Operador de conferencia</span><span class="sxs-lookup"><span data-stu-id="16ac7-111">Conferencing Attendant application</span></span>
+
+  - <span data-ttu-id="16ac7-112">Aplicación de anuncio de conferencia</span><span class="sxs-lookup"><span data-stu-id="16ac7-112">Conferencing Announcement application</span></span>
+
+  - <span data-ttu-id="16ac7-113">Página web de configuración de la conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="16ac7-113">Dial-in Conferencing Settings webpage</span></span>
+
+  - <span data-ttu-id="16ac7-114">Al menos un servidor de mediación de Lync Server 2013 y una puerta de enlace PSTN como mínimo</span><span class="sxs-lookup"><span data-stu-id="16ac7-114">At least one Lync Server 2013 Mediation Server and at least one PSTN gateway</span></span>
+
+<span data-ttu-id="16ac7-115">Estos componentes se implementan al usar el generador de topología para definir y publicar la topología y, a continuación, implementar un grupo de servidores front-end o un servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="16ac7-115">You deploy these components when you use the Topology Builder to define and publish your topology and then deploy a Front End pool or a Standard Edition server.</span></span> <span data-ttu-id="16ac7-116">Si va a implementar la telefonía IP empresarial, debe implementarla antes de configurar la Conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="16ac7-116">If you are deploying Enterprise Voice, you should deploy it before you configure dial-in conferencing.</span></span> <span data-ttu-id="16ac7-117">Si no va a implementar la telefonía IP empresarial, puede implementar un servidor de mediación y una puerta de enlace de red telefónica conmutada (RTC) al implementar el grupo de servidores front-end o el servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="16ac7-117">If you are not deploying Enterprise Voice, you can deploy a Mediation Server and a public switched telephone network (PSTN) gateway when you deploy your Front End pool or Standard Edition server.</span></span>
+
+<div>
 
 
 > [!NOTE]
-> Si actualiza desde Office Communications Server 2007 R2 a Lync Server 2013, implemente la conferencia con acceso telefónico en cada grupo que utilizará para alojar las conferencias de Lync Server 2013. Para obtener información detallada sobre la migración de conferencias con acceso telefónico, vea <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migrar de Office Communications Server 2007 R2 a Lync Server 2013</A>.
+> <span data-ttu-id="16ac7-118">Si va a actualizar de Office Communications Server 2007 R2 a Lync Server 2013, implemente conferencias de acceso telefónico local en todos los grupos que planea usar para hospedar conferencias de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16ac7-118">If you are upgrading from Office Communications Server 2007 R2 to Lync Server 2013, deploy dial-in conferencing in every pool that you plan to use to host Lync Server 2013 conferences.</span></span> <span data-ttu-id="16ac7-119">Para obtener más información sobre cómo migrar conferencias de acceso telefónico local, consulte <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">migración de Office Communications server 2007 R2 a Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="16ac7-119">For details about migrating dial-in conferencing, see <A href="migration-from-office-communications-server-2007-r2-to-lync-server-2013.md">Migration from Office Communications Server 2007 R2 to Lync Server 2013</A>.</span></span>
 
 
 
-En esta sección se presupone que ya he realizado el siguiente procedimiento:
+</div>
 
-  - Aplicar las últimas actualizaciones al entorno Office Communications Server 2007 R2, si migra a Lync Server 2013.
+<span data-ttu-id="16ac7-120">En esta sección se presupone que ha realizado lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="16ac7-120">This section assumes that you have done the following:</span></span>
 
-  - Usar Generador de topologías para diseñar y configurar su topología. Mientras especifica la carga de trabajo de conferencias, debe seleccionar la opción de conferencia de acceso telefónico local. Para más información sobre cómo definir la topología, consulte [Definición y configuración de la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) en la documentación referente a la implementación.
+  - <span data-ttu-id="16ac7-121">Aplicó las últimas actualizaciones al entorno de Office Communications Server 2007 R2, si va a migrar a Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="16ac7-121">Applied the latest updates to your Office Communications Server 2007 R2 environment, if you are migrating to Lync Server 2013.</span></span>
 
-  - Publicar la topología y configurar el grupo de servidores front-end o el servidor Standard Edition. Para más información sobre cómo publicar la topología e instalar Lync Server 2013, consulte [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md) en la documentación referente a la implementación.
+  - <span data-ttu-id="16ac7-122">Se usó el generador de topología para diseñar y configurar su topología.</span><span class="sxs-lookup"><span data-stu-id="16ac7-122">Used Topology Builder to design and configure your topology.</span></span> <span data-ttu-id="16ac7-123">Mientras especifica la carga de trabajo de la Conferencia, seleccionó la opción de conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="16ac7-123">While specifying the Conferencing workload, you selected the dial-in conferencing option.</span></span> <span data-ttu-id="16ac7-124">Para obtener más información sobre cómo definir su topología, consulte [definir y configurar la topología en Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="16ac7-124">For details about defining your topology, see [Defining and configuring the topology in Lync Server 2013](lync-server-2013-defining-and-configuring-the-topology.md) in the Deployment documentation.</span></span>
+
+  - <span data-ttu-id="16ac7-125">Publicó su topología y configure el grupo de servidores front-end o el servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="16ac7-125">Published your topology, and set up the Front End pool or Standard Edition server.</span></span> <span data-ttu-id="16ac7-126">Para obtener más información sobre la publicación de la topología y la instalación de Lync Server 2013, consulte [implementación de Lync server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="16ac7-126">For details about publishing the topology and installing Lync Server 2013, see [Deploying Lync Server 2013](lync-server-2013-deploying-lync-server.md) in the Deployment documentation.</span></span>
+    
+    <div>
     
 
     > [!NOTE]
-    > Cuando instale la topología publicada, la página web de configuración de la conferencia de acceso telefónico local estará instalada en el grupo de servidores front-end o el servidor Standard Edition como parte de los servicios web.
+    > <span data-ttu-id="16ac7-127">Al instalar su topología publicada, la página de configuración de conferencias de acceso telefónico local se instala en el servidor front-end o en el servidor Standard Edition como parte de los servicios Web.</span><span class="sxs-lookup"><span data-stu-id="16ac7-127">When you install your published topology, the Dial-in Conferencing Settings webpage is installed on the Front End Server or Standard Edition server as part of Web Services.</span></span>
 
     
-    > [!IMPORTANT]  
-    > Si cambia la ruta del almacén de archivos en Generador de topologías después de implementar Lync Server 2013, debe reiniciar las aplicaciones de operador de conferencia y anuncio de conferencia para usar la nueva ruta.
+    </div>
+    
+    <div>
     
 
+    > [!IMPORTANT]
+    > <span data-ttu-id="16ac7-128">Si cambia la ruta de acceso del almacén de archivos en el generador de topología después de implementar Lync Server 2013, tendrá que reiniciar el operador de conferencia y las aplicaciones de anuncios de conferencia para usar la nueva ruta de acceso.</span><span class="sxs-lookup"><span data-stu-id="16ac7-128">If you change the path for the File Store in Topology Builder after you deploy Lync Server 2013, you need to restart the Conferencing Attendant and Conferencing Announcement applications to use the new path.</span></span>
 
-  - Implementar Telefonía IP empresarial. Si no implementa Telefonía IP empresarial, ha instalado un servidor de mediación en el servidor front-end Enterprise Edition o el servidor Standard Edition, o ha implementado un servicio de mediación independiente y ha implementado una puerta de enlace RTC. Para obtener información detallada sobre la implementación de Telefonía IP empresarial, consulte [Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación referente en la implementación. Para más información sobre la instalación de un servidor de mediación independiente y una puerta de enlace RTC, consulte [Implementar servidores de mediación y definir servidores del mismo nivel en Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) en la documentación referente a la implementación.
+    
+    </div>
 
-En el siguiente diagrama se muestran los pasos que debe realizar antes de poder configurar la conferencia de acceso telefónico local y los pasos que debe realizar para configurar la conferencia de acceso telefónico local.
+  - <span data-ttu-id="16ac7-129">Implementación de telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="16ac7-129">Deployed Enterprise Voice.</span></span> <span data-ttu-id="16ac7-130">Si no está implementando la telefonía IP empresarial, ya ha colocado un servidor de mediación en el servidor front-end Enterprise Edition o en el servidor Standard Edition, o si ha implementado un servidor de mediación independiente y ha implementado una puerta de enlace RTC.</span><span class="sxs-lookup"><span data-stu-id="16ac7-130">If you are not deploying Enterprise Voice, you either collocated a Mediation Server on the Enterprise Edition Front End Server or the Standard Edition server, or you deployed a stand-alone Mediation Server, and you deployed a PSTN gateway.</span></span> <span data-ttu-id="16ac7-131">Para obtener detalles sobre la implementación de telefonía IP empresarial, consulte [implementación de telefonía empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="16ac7-131">For details about deploying Enterprise Voice, see [Deploying Enterprise Voice in Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md) in the Deployment documentation.</span></span> <span data-ttu-id="16ac7-132">Para obtener detalles sobre la instalación de un servidor de mediación independiente y una puerta de enlace RTC, consulte [implementar servidores de mediación y definir pares en Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="16ac7-132">For details about installing a stand-alone Mediation Server and PSTN gateway, see [Deploying Mediation Servers and defining peers in Lync Server 2013](lync-server-2013-deploying-mediation-servers-and-defining-peers.md) in the Deployment documentation.</span></span>
 
-**Implementación de la característica de conferencia de acceso telefónico local**
+<span data-ttu-id="16ac7-133">En el siguiente diagrama de flujo se muestran los pasos que debe realizar para poder configurar las conferencias de acceso telefónico local y los pasos que realiza para configurar las conferencias de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="16ac7-133">The following flowchart shows the steps that you must perform before you can configure dial-in conferencing and the steps that you perform to configure dial-in conferencing.</span></span>
 
-![Diagrama de flujo de implementación de conferencia de acceso telefónico local](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagrama de flujo de implementación de conferencia de acceso telefónico local")
+<span data-ttu-id="16ac7-134">**Implementación de conferencias de acceso telefónico local**</span><span class="sxs-lookup"><span data-stu-id="16ac7-134">**Deploying dial-in conferencing**</span></span>
 
-## Permisos para la conferencia de acceso telefónico local
+<span data-ttu-id="16ac7-135">![Diagrama de flujo de implementación de conferencias de acceso telefónico local] (images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Diagrama de flujo de implementación de conferencias de acceso telefónico local")</span><span class="sxs-lookup"><span data-stu-id="16ac7-135">![Dial-in Conferencing Deployment flowchart](images/Gg412865.fde8c246-b5ed-4323-a6e7-af1983a5ec86(OCS.15).jpg "Dial-in Conferencing Deployment flowchart")</span></span>
 
-Para configurar la conferencia de acceso telefónico local, debe usar las siguientes herramientas administrativas:
+</div>
 
-  - Panel de control de Lync Server 2013
+<div>
 
-  - Shell de administración de Lync Server
+## <a name="dial-in-conferencing-permissions"></a><span data-ttu-id="16ac7-136">Permisos de conferencia de acceso telefónico local</span><span class="sxs-lookup"><span data-stu-id="16ac7-136">Dial-in Conferencing Permissions</span></span>
 
-Debe usar estas herramientas administrativas para configurar la conferencia de acceso telefónico local, y los planes de marcado, directivas y otras configuraciones que requiera la conferencia de acceso telefónico local.
+<span data-ttu-id="16ac7-137">Para configurar las conferencias de acceso telefónico local, tiene que usar las siguientes herramientas administrativas:</span><span class="sxs-lookup"><span data-stu-id="16ac7-137">To configure dial-in conferencing, you need to use the following administrative tools:</span></span>
 
-La configuración de la conferencia de acceso telefónico local requiere cualquiera de los siguientes roles administrativos, según la tarea:
+  - <span data-ttu-id="16ac7-138">Panel de control de Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="16ac7-138">Lync Server 2013 Control Panel</span></span>
 
-  - **CsVoiceAdministrator**   Este rol de administrador puede crear, configurar y administrar configuraciones y directivas relacionadas con la voz.
+  - <span data-ttu-id="16ac7-139">Shell de administración de Communications Server</span><span class="sxs-lookup"><span data-stu-id="16ac7-139">Lync Server Management Shell</span></span>
 
-  - **CsUserAdministrator**   Este rol de administrador puede habilitar y deshabilitar a los usuarios para Lync Server y asignar directivas existentes, como directivas de conferencia y directivas de PIN a los usuarios.
+<span data-ttu-id="16ac7-140">Use estas herramientas administrativas para configurar la configuración de conferencias de acceso telefónico local, así como los planes de marcado, las directivas y otras opciones que requiere la Conferencia de acceso telefónico local.</span><span class="sxs-lookup"><span data-stu-id="16ac7-140">You use these administrative tools to configure dial-in conferencing settings, and the dial plans, policies, and other settings that dial-in conferencing requires.</span></span>
 
-  - **CsAdministrator**   Este rol de administrador puede realizar todas las tareas de CsVoiceAdministrator y CsUserAdministrator.
+<span data-ttu-id="16ac7-141">La configuración de conferencias de acceso telefónico local requiere cualquiera de los siguientes roles administrativos, en función de la tarea:</span><span class="sxs-lookup"><span data-stu-id="16ac7-141">Configuring dial-in conferencing requires any of the following administrative roles, depending on the task:</span></span>
 
-## Vea también
+  - <span data-ttu-id="16ac7-142">**CsVoiceAdministrator**   esta función de administrador puede crear, configurar y administrar directivas y configuración relacionadas con las voz.</span><span class="sxs-lookup"><span data-stu-id="16ac7-142">**CsVoiceAdministrator**   This administrator role can create, configure, and manage voice-related settings and policies.</span></span>
 
-#### Conceptos
+  - <span data-ttu-id="16ac7-143">**CsUserAdministrator**   esta función de administrador puede habilitar y deshabilitar usuarios para Lync Server y asignar directivas existentes, como directivas de conferencia y directivas de PIN, a los usuarios.</span><span class="sxs-lookup"><span data-stu-id="16ac7-143">**CsUserAdministrator**   This administrator role can enable and disable users for Lync Server and assign existing policies, such as conferencing policies and PIN policies, to users.</span></span>
 
-[Implementar la telefonía IP empresarial en Lync Server 2013](lync-server-2013-deploying-enterprise-voice.md)
+  - <span data-ttu-id="16ac7-144">**CsAdministrator**   esta función de administrador puede realizar todas las tareas de CsVoiceAdministrator y CsUserAdministrator.</span><span class="sxs-lookup"><span data-stu-id="16ac7-144">**CsAdministrator**   This administrator role can perform all of the tasks of CsVoiceAdministrator and CsUserAdministrator.</span></span>
+
+</div>
+
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="16ac7-145">Vea también</span><span class="sxs-lookup"><span data-stu-id="16ac7-145">See Also</span></span>
+
+
+[<span data-ttu-id="16ac7-146">Implementación de telefonía IP empresarial en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="16ac7-146">Deploying Enterprise Voice in Lync Server 2013</span></span>](lync-server-2013-deploying-enterprise-voice.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,59 +1,100 @@
-﻿---
-title: Habilitar el control de admisión de llamadas en Lync Server 2013
-TOCTitle: Habilitar el control de admisión de llamadas en Lync Server 2013
-ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398642(v=OCS.15)
-ms:contentKeyID: 48275839
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar el control de admisión de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable call admission control
+ms:assetid: 80201105-18f7-4c02-9c71-8df5a952f6c7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398642(v=OCS.15)
+ms:contentKeyID: 48184650
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 864de6f8ac456ad8a312b5c47af1f19124e7be3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835322"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar el control de admisión de llamadas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-10-19_
+# <a name="enable-call-admission-control-in-lync-server-2013"></a><span data-ttu-id="8cfe6-102">Habilitar el control de admisión de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="8cfe6-102">Enable call admission control in Lync Server 2013</span></span>
 
-Después de configurar las opciones de red para la implementación del control de admisión de llamadas, debe habilitar el CAC para que se apliquen las directivas de ancho de banda.
+</div>
 
-Para ver más detalles, consulte la documentación del Shell de administración de Lync Server correspondiente a los siguientes cmdlets:
+<div id="mainSection">
 
-  - [Get-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Get-CsNetworkConfiguration)
+<div id="mainBody">
 
-  - [Set-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsNetworkConfiguration)
+<span> </span>
 
-  - [Remove-CsNetworkConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsNetworkConfiguration)
+<span data-ttu-id="8cfe6-103">_**Última modificación del tema:** 2012-10-19_</span><span class="sxs-lookup"><span data-stu-id="8cfe6-103">_**Topic Last Modified:** 2012-10-19_</span></span>
 
-## Para habilitar el control de admisión de llamadas usando el shell de administración
+<span data-ttu-id="8cfe6-104">Después de configurar las opciones de red para la implementación del control de admisión de llamadas, debe habilitar el CAC para que se apliquen las directivas de ancho de banda.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-104">After you have configured your network settings for call admission control deployment, you must enable CAC to put your bandwidth policies into effect.</span></span>
 
-1.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+<span data-ttu-id="8cfe6-105">Para obtener más información, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:</span><span class="sxs-lookup"><span data-stu-id="8cfe6-105">For details, see the Lync Server Management Shell documentation for the following cmdlets:</span></span>
 
-2.  Ejecute el cmdlet Set-CsNetworkConfiguration para habilitar el CAC en su red. Por ejemplo, ejecute lo siguiente:
+  - [<span data-ttu-id="8cfe6-106">Get-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8cfe6-106">Get-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Get-CsNetworkConfiguration)
+
+  - [<span data-ttu-id="8cfe6-107">Set-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8cfe6-107">Set-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Set-CsNetworkConfiguration)
+
+  - [<span data-ttu-id="8cfe6-108">Remove-CsNetworkConfiguration</span><span class="sxs-lookup"><span data-stu-id="8cfe6-108">Remove-CsNetworkConfiguration</span></span>](https://docs.microsoft.com/powershell/module/skype/Remove-CsNetworkConfiguration)
+
+<div>
+
+## <a name="to-enable-call-admission-control-by-using-management-shell"></a><span data-ttu-id="8cfe6-109">Para habilitar el control de admisión de llamadas mediante el shell de administración</span><span class="sxs-lookup"><span data-stu-id="8cfe6-109">To enable call admission control by using Management Shell</span></span>
+
+1.  <span data-ttu-id="8cfe6-110">Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-110">Start the Lync Server Management Shell: Click **Start**, click **All Programs**, click **Microsoft Lync Server 2013**, and then click **Lync Server Management Shell**.</span></span>
+
+2.  <span data-ttu-id="8cfe6-p101">Ejecute el cmdlet Set-CsNetworkConfiguration para habilitar el CAC en su red. Por ejemplo, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8cfe6-p101">Run the Set-CsNetworkConfiguration cmdlet to enable CAC in your network. For example, run:</span></span>
     
         Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 1
     
-    Si desea deshabilitar el CAC en la red, ejecute lo siguiente:
+    <span data-ttu-id="8cfe6-113">Si desea deshabilitar el CAC en la red, ejecute lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="8cfe6-113">If you want to disable CAC in your network, run the following:</span></span>
     
         Set-CsNetworkConfiguration -EnableBandwidthPolicyCheck 0
 
-## Para habilitar el control de admisión de llamadas usando el Panel de control de Lync Server
+</div>
 
-1.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<div>
 
-2.  En la barra de navegación izquierda, haga clic en **Configuración de red**.
+## <a name="to-enable-call-admission-control-by-using-lync-server-control-panel"></a><span data-ttu-id="8cfe6-114">Para habilitar el control de admisión de llamadas con el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="8cfe6-114">To enable call admission control by using Lync Server Control Panel</span></span>
 
-3.  Haga clic en el botón de navegación **Global**.
+1.  <span data-ttu-id="8cfe6-115">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-115">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="8cfe6-116">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="8cfe6-116">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
 
-4.  Haga clic en **Global** en la lista y, a continuación, seleccione **Mostrar detalles** en el menú **Edición**.
+2.  <span data-ttu-id="8cfe6-117">En la barra de navegación izquierda, haga clic en **Configuración de red**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-117">In the left navigation bar, click **Network Configuration**.</span></span>
 
-5.  En la página **Editar configuración global**, active la casilla **Habilitar control de admisión de llamadas**.
+3.  <span data-ttu-id="8cfe6-118">Haga clic en el botón de navegación **Global**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-118">Click the **Global** navigation button.</span></span>
+
+4.  <span data-ttu-id="8cfe6-119">Haga clic en **Global** en la lista y, a continuación, seleccione **Mostrar detalles** en el menú **Editar**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-119">Click **Global** in the list, and then select **Show Details** on the **Edit** menu.</span></span>
+
+5.  <span data-ttu-id="8cfe6-120">En la página **Editar configuración global**, active la casilla **Habilitar control de admisión de llamadas**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-120">On the **Edit Global Settings** page, select the **Enable call admission control** check box.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Si desea deshabilitar el control de admisión de llamadas en toda la implementación, desactive esta casilla.
+    > [!NOTE]  
+    > <span data-ttu-id="8cfe6-121">Si desea deshabilitar el control de admisión de llamadas en toda la implementación, desactive esta casilla.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-121">If you want to disable call admission control throughout your deployment, clear this check box.</span></span>
 
+    
+    </div>
 
+6.  <span data-ttu-id="8cfe6-122">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="8cfe6-122">Click **Commit**.</span></span>
 
-6.  Haga clic en **Confirmar**.
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
