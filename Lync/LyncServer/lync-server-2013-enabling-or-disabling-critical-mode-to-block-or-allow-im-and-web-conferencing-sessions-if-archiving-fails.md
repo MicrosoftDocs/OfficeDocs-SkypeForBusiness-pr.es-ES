@@ -1,77 +1,129 @@
-﻿---
-title: "Hab./deshabilitar modo crítico para bloquear o permitir MI y conf. web si hay errores"
-TOCTitle: "Act/dés mode crit. pr bloq./aut. sess. mess. inst. et conf. web si échec arch."
-ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182609(v=OCS.15)
-ms:contentKeyID: 48277236
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar o deshabilitar el modo crítico para bloquear o permitir sesiones de mensajería instantánea y Web si se produce un error de archivado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling critical mode to block or allow IM and web conferencing sessions if Archiving fails
+ms:assetid: fafdcd2e-b778-4ed5-a25f-09208aa3b699
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182609(v=OCS.15)
+ms:contentKeyID: 48185927
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9c690c235a3a753db8cc07cebbc8749a0d27c99f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835243"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitación o deshabilitación del modo crítico para bloquear o permitir mensajería instantánea y sesiones de conferencia web si hay errores de archivado
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enabling-or-disabling-critical-mode-in-lync-server-2013-to-block-or-allow-im-and-web-conferencing-sessions-if-archiving-fails"></a>Habilitar o deshabilitar el modo crítico en Lync Server 2013 para bloquear o permitir sesiones de mensajería instantánea y Web si se produce un error de archivado
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-En Panel de control de Lync Server 2013, se utilizan las configuraciones de archivado para habilitar y deshabilitar el modo crítico, que incluye las siguientes configuraciones de archivo:
+En el panel de control de Lync Server 2013, se usan configuraciones de archivado para habilitar y deshabilitar el modo crítico. Esto incluye las siguientes configuraciones de archivado:
 
-  - Una configuración global que se crea de manera predeterminada al implementar Lync Server 2013.
+  - Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.
 
-  - Configuraciones opcionales de sitio y de grupo de servidores que se crean y usan para especificar cómo se realizarán las operaciones de archivado en sitios y grupos de servidores concretos.
+  - Configuraciones de nivel de sitio y de grupo opcionales que puede crear y usar para especificar cómo se implementa el archivado para grupos o sitios específicos.
 
-Las configuraciones de archivado se definen inicialmente al implementar el archivado, pero posteriormente se pueden crear, agregar y eliminar. Si desea información adicional sobre las configuraciones de archivado, incluidas las opciones que se pueden especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planificación, la documentación de implementación o la documentación de operaciones.
+Inicialmente, debe configurar las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.
 
-
-> [!NOTE]
-> Para utilizar el archivado, debe configurar las directivas de archivado con el fin de indicar si desea habilitar el archivado para las comunicaciones internas, las comunicaciones externas o ambas, para los usuarios hospedados en Lync Server 2013. De manera predeterminada, el archivado no está habilitado para las comunicaciones ni internas, ni externas. Antes de habilitar el archivado en ninguna directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, si lo desea, para sitios y grupos de servidores concretos, como se describe en este apartado. Encontrará información detalladas sobre la habilitación del archivado en <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurar y asignar directivas de archivado</A>, en la documentación de implementación.<BR>Si decide después de implementar el archivado que desea utilizar la integración del servidor Exchange para almacenar datos y archivos de archivo en los servidores Exchange 2013 y todos los usuarios se hospedan en sus servidores Exchange 2013, deberá eliminar de la topología la configuración de la base de datos SQL Server. Para ello, debe utilizar Generador de topologías. Encontrará más información en <A href="lync-server-2013-changing-archiving-database-options.md">Cambiar las opciones de base de datos de archivado en Lync Server 2013</A>, en la documentación de operaciones.
+<div>
 
 
+> [!NOTE]  
+> Para usar el archivado, debe configurar las directivas de archivado para especificar si desea habilitar el archivado de las comunicaciones internas, de las comunicaciones externas o de ambos para los usuarios alojados en Lync Server 2013. De forma predeterminada, el archivado no está habilitado para las comunicaciones internas o externas. Antes de habilitar el archivado en cualquier directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, opcionalmente, para determinados sitios y grupos, tal y como se describe en esta sección. Para obtener más información sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configurar y asignar directivas de archivado en Lync Server 2013</A> en la documentación de implementación.<BR>Si decide que después de implementar el archivado desea usar la integración de Exchange Server para almacenar datos y archivos en servidores de Exchange 2013 y todos los usuarios están alojados en los servidores de Exchange 2013, debe quitar la configuración de la base de datos de SQL Server de su topología. Para ello, debe usar el generador de topología. Para obtener más información, vea <A href="lync-server-2013-changing-archiving-database-options.md">cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación de operaciones.
 
-## Para habilitar o deshabilitar el bloqueo de las sesiones de conferencias web y MI cuando se produzca algún error en el archivado
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-blocking-of-im-and-web-conferencing-sessions-if-archiving-fails"></a>Para habilitar o deshabilitar el bloqueo de las sesiones de mensajería instantánea y conferencias web si falla el archivado
 
 1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
 
-4.  Haga clic en el nombre de la configuración global, de sitio o de grupo de servidores adecuada en la lista de configuraciones de archivado, haga clic en **Editar**, haga clic en **Mostrar detalles** y, a continuación, haga lo siguiente:
+4.  Haga clic en el nombre de la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado; haga clic en **Editar**, en **Mostrar detalles** y, luego, haga lo siguiente:
 
 5.  Para configurar el comportamiento del archivado cuando se produzca un error, active o desactive la casilla **Bloquear sesiones de mensajería instantánea o conferencias web si no se pueden archivar**.
 
 6.  Haga clic en **Confirmar**.
 
-## Habilitación y deshabilitación del modo crítico usando los cmdlets de Lync ServerWindows PowerShell
+</div>
 
-Puede habilitar o deshabilitar el modo crítico usando el cmdlet **Set-CsArchivingConfiguration**, que puede ejecutar desde Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Habilitación del modo crítico
+## <a name="enabling-and-disabling-critical-mode-by-using-windows-powershell-cmdlets"></a>Habilitar y deshabilitar el modo crítico mediante cmdlets de Windows PowerShell
 
-  - Para habilitar el modo crítico, ajuste el valor de la propiedad BlockOnArchiveFailure en ($True). Por ejemplo:
+Puede habilitar o deshabilitar el modo crítico con el cmdlet **set-CsArchivingConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-enable-critical-mode"></a>Para habilitar el modo crítico
+
+  - Para habilitar el modo crítico, establezca el valor de la propiedad BlockOnArchiveFailure en true ($True). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $True
 
-## Deshabilitación del modo crítico
+</div>
 
-  - Para deshabilitar el modo crítico, ajuste el valor de la propiedad BlockOnArchiveFailure en False ($False). Por ejemplo:
+<div>
+
+## <a name="to-disable-critical-mode"></a>Para deshabilitar el modo crítico
+
+  - Para deshabilitar el modo crítico, establece el valor de la propiedad BlockOnArchiveFailure en false ($False). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 
-Si desea más información, consulte el tema de ayuda relativo al cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
+</div>
 
-## Vea también
+Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) .
 
-#### Tareas
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Cambiar las opciones de base de datos de archivado en Lync Server 2013](lync-server-2013-changing-archiving-database-options.md)  
 
-#### Conceptos
 
 [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md)  
 
-#### Otros recursos
 
-[Administrar las opciones de configuración de archivado de Lync Server 2013 para su organización, sitios y grupos de servidores](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[Administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

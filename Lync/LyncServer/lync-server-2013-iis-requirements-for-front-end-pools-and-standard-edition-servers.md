@@ -1,53 +1,74 @@
-﻿---
-title: "Lync Server 2013: Requisitos IIS para servidores front-end y servs. Standard Edition"
-TOCTitle: Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition
-ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg399038(v=OCS.15)
-ms:contentKeyID: 48277035
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: IIS requirements for Front End pools and Standard Edition servers
+ms:assetid: e8a6c7ac-b6d5-4c7e-abe9-d8ea5eedbc62
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg399038(v=OCS.15)
+ms:contentKeyID: 48185888
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 9d804df614eab49eeabe82cca9d304e082d9ced3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835040"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="iis-requirements-for-front-end-pools-and-standard-edition-servers-in-lync-server-2013"></a>Requisitos de IIS para grupos de servidores front-end y servidores Standard Edition en Lync Server 2013
 
-Para servidores Standard Edition, servidores front-end y directores, el instalador de Lync Server 2013 crea directorios virtuales en Servicios de Internet Information Server (IIS) para:
+</div>
 
-  - Habilitar a los usuarios para descargar archivos desde el Servicio de libreta de direcciones
+<div id="mainSection">
 
-  - Habilitar a los clientes para obtener actualizaciones
+<div id="mainBody">
 
-  - Habilitar las conferencias
+<span> </span>
 
-  - Permitir que los usuarios descarguen el contenido de las reuniones
+_**Última modificación del tema:** 2012-06-19_
 
-  - Habilitar a los usuarios para expandir grupos de distribución
+Para los servidores Standard Edition y los servidores front-end y directores, el instalador de Lync Server 2013 crea directorios virtuales en servicios de Internet Information Server (IIS) para los siguientes fines:
 
-  - Habilitar las conferencias telefónicas
+  - Para permitir que los usuarios descarguen archivos desde el servicio de libreta de direcciones
 
-  - Habilitar las características de grupo de respuesta
+  - Para permitir que los clientes obtengan actualizaciones
 
-Además, el instalador de la actualización acumulada de Lync Server 2010: noviembre de 2011 crea directorios virtuales en IIS con los siguientes fines:
+  - Para habilitar la Conferencia
 
-  - En Servidores front-end o servidores Standard Edition para admitir la funcionalidad de movilidad, como la mensajería instantánea (MI) y la presencia, en dispositivos móviles
+  - Para permitir que los usuarios descarguen contenido de la reunión
 
-  - En Servidores front-end o servidores Standard Edition y en directores para habilitar dispositivos móviles para detectar automáticamente recursos de movilidad
+  - Para permitir a los usuarios expandir grupos de distribución
+
+  - Para habilitar las conferencias telefónicas
+
+  - Para habilitar las características de grupo de respuesta
+
+Además, la actualización acumulativa para Lync Server 2010: el instalador de 2011 de noviembre crea directorios virtuales en IIS con los siguientes fines:
+
+  - En servidores front-end o servidores Standard Edition para admitir la funcionalidad de movilidad, como la mensajería instantánea (mi) y la presencia, en dispositivos móviles
+
+  - En servidores front-end o servidores Standard Edition y en directores para permitir que los dispositivos móviles descubran automáticamente los recursos de movilidad
+
 
 
 > [!NOTE]
-> Si va a implementar la movilidad, se recomienda usar IIS 7.5. El instalador del servicio de movilidad de Lync Server define algunas marcas de ASP.NET para mejorar el rendimiento. IIS 7.5 se instala de manera predeterminada en Windows Server 2008 R2 y el instalador del servicio de movilidad cambia automáticamente los parámetros de ASP.NET. Si usa IIS 7.0 en Windows Server 2008, cambie manualmente estos parámetros.
+> Si va a implementar la movilidad, le recomendamos que use IIS 7,5. El instalador del servicio de movilidad de Lync Server establece algunas marcas ASP.NET para mejorar el rendimiento. IIS 7,5 se instala de forma predeterminada en Windows Server 2008 R2 y el instalador del servicio de movilidad cambia automáticamente la configuración de ASP.NET. Si usa IIS 7,0 en Windows Server 2008, tendrá que cambiar manualmente esta configuración.
 
 
 
-Lync Server necesita la instalación de los módulos IIS siguientes:
+Lync Server requiere que se instalen los siguientes módulos de IIS:
 
-> [!IMPORTANT]  
-> Si la organización exige que localice IIS y todos los servicios web en una unidad que no sea la del sistema, cambie la ruta de acceso a la instalación de los archivos de Lync Server en el cuadro de diálogo Configuración. Si instala los archivos de instalación a esa ruta de acceso, incluido el OCSCore.msi, el resto de los archivos de Lync Server también se implementarán en esta unidad. Si desea información detallada sobre cómo cambiar la ubicación del INETPUB que emplea Windows Server Manager al instalar ISS, vea <a href="http://go.microsoft.com/fwlink/?linkid=216888%26clcid=0xc0a">http://go.microsoft.com/fwlink/?linkid=216888&amp;clcid=0xC0A</a>.
 
+> [!IMPORTANT]
+> Si su organización requiere que encuentre IIS y todos los servicios web en una unidad distinta de la del sistema, puede cambiar la ruta de acceso de la ubicación de instalación para los archivos de Lync Server en el cuadro de diálogo de configuración. Si instala los archivos de instalación en esta ruta de acceso, incluido OCSCore. msi, el resto de los archivos de Lync Server también se implementarán en esta unidad. Para más información sobre cómo cambiar la ubicación de INETPUB implementada por el administrador de Windows Server al <A href="http://go.microsoft.com/fwlink/p/?linkid=216888">http://go.microsoft.com/fwlink/p/?linkId=216888</A>instalar IIS, consulte.
 
 
   - Contenido estático
@@ -60,7 +81,7 @@ Lync Server necesita la instalación de los módulos IIS siguientes:
 
   - Extensibilidad de .NET
 
-  - Extensiones de Internet Server API (ISAPI)
+  - Extensiones de API de servidor de Internet (ISAPI)
 
   - Filtros ISAPI
 
@@ -82,13 +103,13 @@ Lync Server necesita la instalación de los módulos IIS siguientes:
 
   - Scripts y herramientas de administración de IIS
 
-  - Autenticación anónima (se instala de forma predeterminada al instalar IIS)
+  - Autenticación anónima (se instala de forma predeterminada cuando se instala IIS)
 
   - Autenticación por asignación de certificados de clientes
 
-En la tabla siguiente, se muestran los identificadores URI de los directorios virtuales para el acceso interno y los recursos del sistema de archivos a los que hacen referencia.
+En la tabla siguiente se enumeran los URI de los directorios virtuales de acceso interno y los recursos del sistema de archivos a los que hacen referencia.
 
-### Directorios virtuales para el acceso interno
+### <a name="virtual-directories-for-internal-access"></a>Directorios virtuales para acceso interno
 
 <table>
 <colgroup>
@@ -100,86 +121,96 @@ En la tabla siguiente, se muestran los identificadores URI de los directorios vi
 <tr class="header">
 <th>Característica</th>
 <th>URI de directorio virtual</th>
-<th>Hace referencia a</th>
+<th>Se refiere a</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>Servidor de libreta de direcciones</p></td>
-<td><p>https://<em>&lt;FQDN interno&gt;</em>/ABS/int/Handler</p></td>
-<td><p>Ubicación de los archivos de descarga del servidor de libreta de direcciones para los usuarios internos.</p></td>
+<td><p>https://&lt;FQDN&gt;interno de/ABS/int/handler</p></td>
+<td><p>Ubicación del servidor de libretas de direcciones descargar archivos para usuarios internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Servicio Detección automática</p></td>
-<td><p>https://<em>&lt;FQDN interno&gt;</em>/Autodiscover</p></td>
-<td><p>Ubicación del servicio Detección automática de Lync Server que localiza recursos de movilidad para usuarios de dispositivos móviles internos.</p></td>
+<td><p>https://&lt;FQDN&gt;interno de/Autodiscover</p></td>
+<td><p>Ubicación del servicio Detección automática de Lync Server que busca recursos de movilidad para usuarios internos de dispositivos móviles.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Actualizaciones del cliente</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/AutoUpdate/Int</p></td>
-<td><p>Ubicación de los archivos de actualización para los clientes basados en equipo internos.</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/AutoUpdate/int</p></td>
+<td><p>Ubicación de los archivos de actualización para clientes internos basados en equipos.</p></td>
 </tr>
 <tr class="even">
-<td><p>Conf</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/Conf/Int</p></td>
-<td><p>Ubicación de los recursos de conferencia para los usuarios internos.</p></td>
+<td><p>Conferencia</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/conf/int</p></td>
+<td><p>Ubicación de los recursos de conferencia para usuarios internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Actualizaciones de dispositivos</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/DeviceUpdateFiles_Int</p></td>
-<td><p>Ubicación de los archivos de actualización de dispositivos de comunicaciones unificadas (UC) para los dispositivos UC internos.</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/DeviceUpdateFiles_Int</p></td>
+<td><p>Ubicación de los archivos de actualización de dispositivos de comunicaciones unificadas (UC) para dispositivos internos de UC.</p></td>
 </tr>
 <tr class="even">
-<td><p>Reunión</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/etc/place/null</p></td>
-<td><p>Ubicación del contenido de las reuniones de los usuarios internos.</p></td>
+<td><p>Satisfacción</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/etc/Place/null</p></td>
+<td><p>Ubicación del contenido de la reunión para usuarios internos.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Servicio de movilidad</p></td>
-<td><p>https://<em>&lt;FQDN interno&gt;</em>/Mcx</p></td>
-<td><p>Ubicación de los recursos del servicio de movilidad para usuarios de dispositivos móviles internos.</p></td>
+<td><p>https://&lt;FQDN&gt;interno de/MCX</p></td>
+<td><p>Ubicación de los recursos del servicio de movilidad para usuarios internos de dispositivos móviles.</p></td>
 </tr>
 <tr class="even">
-<td><p>Servicio de consulta web de libreta de direcciones y expansión de grupos</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/GroupExpansion/int/service.asmx</p></td>
-<td><p>Ubicación del servicio web que habilita la expansión de grupos para los usuarios internos. Además, la ubicación del servicio de consulta web de libreta de direcciones que proporciona información de la lista global de direcciones a los clientes internos de Lync MobileMicrosoft Lync 2010 Mobile.</p></td>
+<td><p>Servicio de consulta Web de expansión de grupo y libreta de direcciones</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/GroupExpansion/int/Service.asmx</p></td>
+<td><p>Ubicación del servicio Web que permite la expansión de grupos para usuarios internos. Además, la ubicación del servicio de consultas Web de la libreta de direcciones que proporciona información de la lista global de direcciones a los clientes móviles internos de Lync Mobile Microsoft Lync 2010.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Conferencias telefónicas</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/PhoneConferencing/Int</p></td>
-<td><p>Ubicación de los datos de conferencia telefónica para los usuarios internos.</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/PhoneConferencing/int</p></td>
+<td><p>Ubicación de los datos de la conferencia telefónica para usuarios internos.</p></td>
 </tr>
 <tr class="even">
 <td><p>Actualizaciones de dispositivos</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/RequestHandler</p></td>
-<td><p>Ubicación del controlador de solicitudes del Servicio web de actualización de dispositivos que habilita los dispositivos UC internos para cargar los registros y comprobar las actualizaciones.</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/RequestHandler</p></td>
+<td><p>Ubicación del controlador de solicitudes de servicio Web de actualización de dispositivos que permite a los dispositivos de UC internos cargar registros y comprobar si hay actualizaciones.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Aplicación de grupo de respuesta</p></td>
-<td><p>http://<em>&lt;FQDN interno&gt;</em>/RgsConfig</p>
-<p>http://<em>&lt;FQDN interno&gt;</em>/RgsClients</p></td>
-<td><p>Ubicación de la herramienta de configuración de grupos de respuesta.</p></td>
+<td><p>http://&lt;FQDN&gt;interno de/RgsConfig</p>
+<p>http://&lt;FQDN&gt;interno de/RgsClients</p></td>
+<td><p>Ubicación de la herramienta de configuración de grupo de respuesta.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-
 > [!NOTE]
-> En el caso de los Grupos de servidores front-end en una configuración consolidada, implemente IIS para agregar servidores al grupo de servidores.
-
+> Para los grupos de servidores front-end en una configuración consolidada, debe implementar IIS antes de agregar servidores al grupo.
 
 
 <table>
 <thead>
 <tr class="header">
-<th><img src="images/Gg399038.security(OCS.15).gif" title="security" alt="security" />Seguridad Nota:</th>
+<th><img src="images/Gg398321.security(OCS.15).gif" title="seguridad" alt="security" />Nota de seguridad:</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Se debe usar el complemento administrativo de IIS para asignar el certificado usado por el servidor de componentes web de IIS.</td>
+<td>Debe usar el complemento administrativo de IIS para asignar el certificado utilizado por el servidor de componentes Web de IIS.</td>
 </tr>
 </tbody>
 </table>
+
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

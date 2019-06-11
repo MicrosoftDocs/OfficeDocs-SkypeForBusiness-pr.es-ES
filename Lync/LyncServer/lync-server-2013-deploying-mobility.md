@@ -1,27 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Implementar la movilidad'
-TOCTitle: Implementar la movilidad
-ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh690055(v=OCS.15)
-ms:contentKeyID: 48277164
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Implementar la movilidad'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deploying mobility
+ms:assetid: f41e6b25-d2cd-43fd-a17b-22cfda8bcd4f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh690055(v=OCS.15)
+ms:contentKeyID: 48185805
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8dc43742381bdbc9c40675039be12737d8208d3f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835530"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Implementar la movilidad en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="deploying-mobility-in-lync-server-2013"></a>Implementar la movilidad en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-08_
 
-Al implementar la característica de movilidad de Lync Server 2013, los usuarios móviles pueden usar dispositivos móviles admitidos para funcionalidad de Lync como mensajería instantánea (MI), presencia y contactos.
+Al implementar la característica de movilidad de Lync Server 2013, los usuarios móviles pueden usar dispositivos móviles compatibles para las características de Lync, como la mensajería instantánea (mi), la presencia y los contactos.
 
-Para obtener información sobre los requisitos para implementar la característica de movilidad, consulte [Planeación de movilidad en Lync Server 2013](lync-server-2013-planning-for-mobility.md).
+Para obtener más información sobre los requisitos para implementar la característica de movilidad, consulte [planificación de movilidad en Lync Server 2013](lync-server-2013-planning-for-mobility.md).
 
-En esta sección se le indican los pasos para implementar y comprobar las características de movilidad y detección automática disponibles con la actualización acumulada de nm-ocs-14-2nd: noviembre de 2011.
+Esta sección le guiará a través de los pasos para implementar y comprobar las características de movilidad y detección automática.
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Creación de registros DNS para el servicio Detección automática en Lync Server 2013](lync-server-2013-creating-dns-records-for-the-autodiscover-service.md)
 
@@ -36,4 +58,16 @@ En esta sección se le indican los pasos para implementar y comprobar las caract
   - [Configurar las notificaciones de inserción en Lync Server 2013](lync-server-2013-configuring-for-push-notifications.md)
 
   - [Configuración de la directiva de movilidad en Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

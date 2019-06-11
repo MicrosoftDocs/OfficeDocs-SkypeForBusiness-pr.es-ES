@@ -1,67 +1,121 @@
-﻿---
-title: "Lync Server 2013 : Activ. ou désactiv. de l’accès des utilisateurs anonymes"
-TOCTitle: Habilitar y deshabilitar el acceso anónimo de usuarios
-ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ619192(v=OCS.15)
-ms:contentKeyID: 49129322
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Habilitar y deshabilitar el acceso anónimo de usuarios'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable or disable anonymous user access
+ms:assetid: f10c19e6-b6f9-4d26-9923-0165f36e4af8
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ619192(v=OCS.15)
+ms:contentKeyID: 49733872
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8d07bf27f5424f121c5dcf070f5231e2fd8c324f
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835312"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar y deshabilitar el acceso anónimo de usuarios en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enable-or-disable-anonymous-user-access-in-lync-server-2013"></a>Habilitar y deshabilitar el acceso anónimo de usuarios en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Los usuarios anónimos son usuarios que no disponen de una cuenta de usuario en Servicios de dominio de Active Directory de la organización o en un dominio federado permitido, pero que pueden recibir una invitación para participar de forma remota en una conferencia local. Al permitir la participación anónima en las reuniones, se habilita a usuarios anónimos (es decir, usuarios cuya identidad solo se comprueba a través de la clave de reunión o conferencia) a participar en las reuniones. Para permitir la participación anónima es necesario habilitarla para la organización.
+Los usuarios anónimos son usuarios que no tienen una cuenta de usuario en los servicios de dominio de Active Directory de su organización o en un dominio federado admitido, pero se les puede invitar a participar de forma remota en una conferencia local. Al permitir la participación anónima en las reuniones, habilita los usuarios anónimos (es decir, los usuarios cuya identidad se comprueba a través de la reunión o de la clave de conferencia) para unirse a las reuniones. Permitir la participación anónima requiere habilitarlo para su organización.
 
-Si, posteriormente, desea evitar temporal o permanentemente el acceso de usuarios anónimos, puede deshabilitarlo para la organización. Use el procedimiento que se describe en esta sección para habilitar o deshabilitar el acceso de usuarios anónimos para la organización.
+Si posteriormente desea impedir de forma temporal o permanente el acceso de usuarios anónimos, puede deshabilitarlo para su organización. Use el procedimiento de esta sección para habilitar o deshabilitar el acceso de usuarios anónimos a su organización.
 
-
-> [!NOTE]
-> Al habilitar el permiso del acceso de usuarios anónimos para la organización, solo se especifica que los servidores en los que se ejecute el servicio perimetral de acceso permitan el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de la organización hasta que también se configure al menos una directiva de conferencia y se aplique a uno o varios usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a reuniones son aquellos usuarios que tengan asignada una directiva de conferencia configurada para permitir usuarios anónimos. Para obtener más información acerca de cómo configurar directivas de conferencia para admitir la invitación a usuarios anónimos, consulte <A href="lync-server-2013-conferencing-policies.md">Directivas de conferencia de Lync Server 2013</A>.
+<div>
 
 
+> [!NOTE]  
+> Al permitir el acceso de usuarios anónimos a su organización, solo se especifica que los servidores que ejecutan el servicio perimetral de acceso admiten el acceso de usuarios anónimos. Los usuarios anónimos no pueden participar en ninguna reunión de su organización hasta que también configure al menos una directiva de conferencia y la aplique a uno o más usuarios o grupos de usuarios. Los únicos usuarios que pueden invitar a usuarios anónimos a las reuniones son aquellos a los que se les ha asignado una directiva de conferencia que está configurada para admitir usuarios anónimos. Para obtener más información sobre cómo configurar directivas de conferencia para admitir la invitación a usuarios anónimos, consulte <A href="lync-server-2013-conferencing-policies.md">directivas de conferencia en Lync Server 2013</A>.
 
-## Para habilitar o deshabilitar el acceso de usuarios anónimos para la organización
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-anonymous-user-access-for-your-organization"></a>Para habilitar o deshabilitar el acceso de usuarios anónimos para su organización
 
 1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o esté asignada al rol CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En el barra de navegación izquierda, haga clic en **Acceso para usuarios externos** y, a continuación, en **Configuración perimetral de acceso** .
+3.  En la barra de navegación izquierda, haga clic en **acceso de usuarios externos**y, después, en **configuración del borde de Access**.
 
-4.  En la página **Configuración perimetral de acceso**, haga clic en **Global**, en **Editar** y, a continuación en **Mostrar detalles**.
+4.  En la página **configuración de perímetro de Access** , haga clic en **global**, haga clic en **Editar**y, a continuación, haga clic en **Mostrar detalles**.
 
-5.  En **Editar configuración perimetral de acceso**, lleve a cabo uno de los procedimientos siguientes:
+5.  En **Editar configuración del límite de acceso**, realice una de las siguientes acciones:
     
-      - Para habilitar el acceso de usuarios anónimos para la organización, active la casilla de verificación **Habilitar comunicaciones con usuarios anónimos**.
+      - Para habilitar el acceso de usuarios anónimos para su organización, seleccione la casilla de verificación **habilitar las comunicaciones con usuarios anónimos** .
     
-      - Para deshabilitar el acceso de usuarios anónimos para la organización, desactive la casilla de verificación **Habilitar comunicaciones con usuarios anónimos**.
+      - Para deshabilitar el acceso de usuarios anónimos para su organización, desactive la casilla **habilitar las comunicaciones con usuarios anónimos** .
 
 6.  Haga clic en **Confirmar**.
 
-## Habilitar o deshabilitar el acceso de usuarios anónimos con los cmdlets de Windows PowerShell
+</div>
 
-Puede administrar el acceso de usuarios anónimos usando el cmdlet Windows PowerShell y el **Set-CsAccessEdgeConfiguration**. Puede ejecutar este cmdlet desde Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para habilitar el acceso de usuarios anónimos
+## <a name="enabling-or-disabling-anonymous-user-access-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar el acceso de usuarios anónimos mediante cmdlets de Windows PowerShell
 
-  - Para habilitar el acceso de usuarios anónimos, ajuste el valor de la propiedad **AllowAnonymousUsers** en True ($True):
+Puede administrar el acceso de usuarios anónimos mediante Windows PowerShell y el cmdlet **set-CsAccessEdgeConfiguration** . Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-enable-anonymous-user-access"></a>Para habilitar el acceso de usuarios anónimos
+
+  - Para habilitar el acceso de usuarios anónimos, establece el valor de la propiedad **AllowAnonymousUsers** en True ($true):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $True
 
-## Para deshabilitar el acceso de usuarios anónimos
+</div>
 
-  - Para deshabilitar el acceso de usuarios anónimos, ajuste el valor de la propiedad **AllowAnonymousUsers** en False ($False):
+<div>
+
+## <a name="to-disable-anonymous-user-access"></a>Para deshabilitar el acceso de usuarios anónimos
+
+  - Para deshabilitar el acceso de usuarios anónimos, establece el valor de la propiedad **AllowAnonymousUsers** en False ($false):
     
         Set-CsAccessEdgeConfiguration -AllowAnonymousUsers $False
 
-## Vea también
+</div>
 
-#### Conceptos
+</div>
 
-[Referencia de configuración de directivas de conferencias en Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Referencia de configuración de directiva de conferencia para Lync Server 2013](lync-server-2013-conferencing-policy-settings-reference.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

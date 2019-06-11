@@ -1,89 +1,151 @@
-﻿---
-title: Creación o modificación de una directiva de movilidad
-TOCTitle: Creación o modificación de una directiva de movilidad
-ms:assetid: fc2dfea0-2215-440d-9f4b-7c985da29211
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721946(v=OCS.15)
-ms:contentKeyID: 49889830
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear o modificar una directiva de movilidad'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a mobility policy
+ms:assetid: fc2dfea0-2215-440d-9f4b-7c985da29211
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721946(v=OCS.15)
+ms:contentKeyID: 49733884
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 91d3f03735048ab4354db9653554b6227bb7399e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835793"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación o modificación de una directiva de movilidad
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-or-modify-a-mobility-policy-in-lync-server-2013"></a>Crear o modificar una directiva de movilidad en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Puede crear o modificar directivas de movilidad para permitir a los usuarios de móviles utilizar los dispositivos móviles compatibles para las funcionalidades de Lync, como la mensajería instantánea (MI), presencia y contactos. Puede crear o modificar directivas de movilidad en Panel de control de Lync Server 2013 o Shell de administración de Lync Server 2013
+Puede crear o modificar la Directiva de movilidad para permitir a los usuarios móviles usar dispositivos móviles compatibles para las características de Lync, como la mensajería instantánea (mi), la presencia y los contactos. Puede crear o modificar directivas de movilidad desde el panel de control de Lync Server 2013 o del shell de administración de Lync Server 2013
 
-## Para crear una directiva de movilidad en Panel de control de Lync Server
+<div>
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
-
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
-
-3.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en el botón de navegación **Directiva de movilidad**.
-
-4.  En la página **Directiva de movilidad**, haga clic en **Nueva** y siga uno de los procedimientos siguientes:
-    
-    1.  Para crear una directiva de movilidad de sitio, haga clic en **Directiva de sitio**, haga clic en un sitio y en **Aceptar**. Reviste la configuración predeterminada y realice los cambios que desee.
-    
-    2.  Para crear una directiva de movilidad, haga clic en **Directiva de usuario**, escriba un nombre, revise la configuración predeterminada y realice los cambios que desee.
-
-5.  Haga clic en **Confirmar** .
-
-## Para modificar una directiva de movilidad en Panel de control de Lync Server
+## <a name="to-create-a-mobility-policy-with-lync-server-control-panel"></a>Para crear una directiva de movilidad con el panel de control de Lync Server
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Clientes** y, a continuación, en el botón de navegación **Directiva de movilidad**.
+3.  En la barra de navegación izquierda, haga clic en **clientes**y luego en el botón de navegación de la **Directiva de movilidad** .
 
-4.  En la página **Directiva de movilidad**, haga clic en una de las directivas de movilidad existentes.
+4.  En la página **Directiva de movilidad** , haga clic en **nuevo**y realice una de las siguientes acciones:
+    
+    1.  Para crear una directiva de movilidad de sitio, haga clic en **Directiva del sitio**, haga clic en un sitio, haga clic en **Aceptar**, revise la configuración predeterminada y, si lo desea, realice los cambios.
+    
+    2.  Para crear una directiva de movilidad de usuario, haga clic en **Directiva de usuario**, escriba un nombre, revise la configuración predeterminada y, si lo desea, realice los cambios.
 
-5.  En el menú **Editar** , haga clic en **Mostrar detalles** .
+5.  Haga clic en **Confirmar**.
 
-6.  Edite cualquiera de las opciones.
+</div>
 
-7.  Haga clic en **Confirmar** .
+<div>
 
-## Eliminación de directivas de acceso externo usando los cmdlets de Windows PowerShell
+## <a name="to-modify-a-mobility-policy-with-lync-server-control-panel"></a>Para modificar una directiva de movilidad con el panel de control de Lync Server
 
-Las directivas de movilidad también se pueden crear (en el ámbito de sitio y en el de usuario) usando Windows PowerShell y el cmdlet **New-CsMobilityPolicy**. Además, puede utilizar el cmdlet **Set-CsMobilityPolicy** para modificar cualquiera de las directivas existentes, incluida la directiva global. Estos cmdlets se pueden ejecutar desde Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-## Creación de una directiva de movilidad en el ámbito de sitio
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-  - Este comando crea una directiva de movilidad nueva para el sitio Redmond:
+3.  En la barra de navegación izquierda, haga clic en **clientes**y luego en el botón de navegación de la **Directiva de movilidad** .
+
+4.  En la página **Directiva de movilidad** , haga clic en una de las directivas de movilidad existentes.
+
+5.  En el menú **Editar**, haga clic en **Mostrar detalles**.
+
+6.  Edite cualquiera de los valores de configuración.
+
+7.  Haga clic en **Confirmar**.
+
+</div>
+
+<div>
+
+## <a name="creating-external-access-policies-by-using-windows-powershell-cmdlets"></a>Crear directivas de acceso externas mediante cmdlets de Windows PowerShell
+
+Puede crear directivas de movilidad (en el ámbito del sitio o en el ámbito por usuario) mediante Windows PowerShell y el cmdlet **New-CsMobilityPolicy** . Además, puede usar el cmdlet **set-CsMobilityPolicy** para modificar cualquiera de las directivas existentes, incluida la directiva global. Estos cmdlets se pueden ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-create-a-mobility-policy-at-the-site-scope"></a>Para crear una directiva de movilidad en el ámbito del sitio
+
+  - Este comando crea una nueva Directiva de movilidad para el sitio de Redmond:
     
         New-CsMobilityPolicy -Identity "site:Redmond"
     
-    Como no se han especificado parámetros (aparte del parámetro obligatorio Identity) en el comando anterior, las directivas utilizarán los valores predeterminados en todas sus propiedades.
+    Dado que no se especificó ningún parámetro (excepto el parámetro de identidad obligatorio) en el comando anterior, las directivas usarán los valores predeterminados para todas sus propiedades.
 
-## Creación de una directiva de movilidad en el ámbito de usuario
+</div>
 
-  - Para crear una directiva de movilidad en el ámbito de usuario, especifique una identidad única para la directiva:
+<div>
+
+## <a name="to-create-a-mobility-policy-at-the-per-user-scope"></a>Para crear una directiva de movilidad en el ámbito de cada usuario
+
+  - Para crear una directiva de movilidad en el ámbito de cada usuario, especifique una identidad única para la Directiva:
     
         New-CsMobilityPolicy -Identity "RedmondMobilityPolicy"
 
-## Cambio de un valor de propiedad único cuando se crea una directiva de movilidad
+</div>
 
-  - Para crear directivas que utilicen diferentes valores de propiedad, incluya el parámetro adecuado y el valor de parámetro. Por ejemplo, este comando crea una directiva de movilidad que deshabilita las llamadas vía trabajo:
+<div>
+
+## <a name="to-change-a-single-property-value-when-creating-a-mobility-policy"></a>Para cambiar un único valor de propiedad al crear una directiva de movilidad
+
+  - Para crear directivas que usen valores de propiedad diferentes, incluya el parámetro adecuado y el valor de parámetro. Por ejemplo, este comando crea una directiva de movilidad que deshabilita la llamada a través del trabajo:
     
         New-CsMobilityPolicy -Identity "site:Redmond" -EnableOutsideVoice $False
 
-## Cambio de varios valores de propiedades al crear una directiva de movilidad
+</div>
 
-  - Se pueden modificar varios valores de propiedad incluyendo varios parámetros. Por ejemplo, este comando crea una directiva que deshabilita tanto la movilidad como la llamada vía trabajo:
+<div>
+
+## <a name="to-change-multiple-property-values-when-creating-a-mobility-policy"></a>Para cambiar varios valores de propiedad al crear una directiva de movilidad
+
+  - Puede incluir varios parámetros para modificar varios valores de propiedad. Por ejemplo, este comando crea una directiva que deshabilita la movilidad y la llamada a través del trabajo:
     
         New-CsMobilityPolicy "site:Redmond" -EnableMobility $False -EnableOutsideVoice $False
 
-Para obtener más información, consulte el tema de ayuda relativo a los cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMobilityPolicy) y [Set-CsMobilityPolicy](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsMobilityPolicy).
+</div>
 
-## Vea también
+Para obtener más información, vea el tema de ayuda sobre los cmdlets [New-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/New-CsMobilityPolicy) y [set-CsMobilityPolicy](https://docs.microsoft.com/powershell/module/skype/Set-CsMobilityPolicy) .
 
-#### Tareas
+</div>
 
-[Configuración de la directiva de movilidad en Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)
+<div>
+
+## <a name="see-also"></a>Vea también
+
+
+[Configuración de la directiva de movilidad en Lync Server 2013](lync-server-2013-configuring-mobility-policy.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

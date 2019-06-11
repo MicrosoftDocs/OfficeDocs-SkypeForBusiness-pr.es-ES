@@ -1,34 +1,89 @@
-﻿---
-title: 'Lync Server 2013: Crear o editar un salón de chat nuevo'
-TOCTitle: Crear o editar un salón de chat nuevo
-ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ215880(v=OCS.15)
-ms:contentKeyID: 48276303
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Crear o editar un salón de chat nuevo'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Creating or editing a new room
+ms:assetid: aa8f4349-cfd9-4036-9c4d-de8fb2c4c8a4
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ215880(v=OCS.15)
+ms:contentKeyID: 48706008
+ms.date: 03/19/2015
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1442454b2afb129fda50d98ed17ccdc2c7ba35c2
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835753"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear o editar un salón de chat nuevo en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="creating-or-editing-a-new-room-in-lync-server-2013"></a>Crear o editar un salón de chat nuevo en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2015-03-19_
 
-Los usuarios suelen controlar la configuración de los salones de Chat persistente. Por lo general, los administradores de Chat persistente no configuran ni administran los salones de chat. Los cmdlets del Windows PowerShell para administrar los salones de chat solo están disponibles para los administradores **CsPersistentChatAdministrator**.
+La configuración de los salones de chat persistentes es común para los usuarios; un administrador de chat persistente, por lo general, no configura ni administra salones de chat. Los cmdlets de Windows PowerShell para administrar salas solo están disponibles para los administradores de **CsPersistentChatAdministrator** .
 
-Los usuarios que son **creadores** en cualquier categoría determinada pueden usar el cliente de Lync para crear y administrar salones. Los usuarios designados como responsables de un salón de chat específico también pueden realizar tareas de administración continuas en el salón, por ejemplo, modificar las propiedades o los miembros del salón.
+Los usuarios que son **creadores** de cualquier categoría pueden usar el cliente de Lync para crear y administrar salas. Los usuarios que se han designado como administradores de un salón de chat específico también pueden realizar la administración continuada de la sala, como editar las propiedades de la sala o la pertenencia.
+
+<div>
+
 
 > [!TIP]  
-> Los administradores de Chat persistente también pueden ser creadores, pero no están sujetos a las restricciones impuestas en los creadores.
+> Los administradores de chats persistentes también pueden ser creadores, y no están sujetos a las restricciones impuestas a los creadores.
 
 
 
-Además, si es un administrador de Chat persistente, puede emplear una interfaz de usuario para crear y administrar salones de chat, en lugar de usar los cmdlets de Windows PowerShell. Para ello, habilite para SIP un administrador para el Servidor de chat persistente, y luego use el cliente de Lync para crear y administrar salones de chat.
+</div>
 
-Si desea crear un flujo de trabajo de administración de salones personalizado para los usuarios, puede establecer la propiedad **RoomManagementUrl** en la configuración del Servidor de chat persistente a fin de redirigir a los usuarios hasta su solución personalizada desde el cliente de Lync.
+De manera opcional, si es un administrador de chat persistente, puede usar una interfaz de usuario para crear y administrar salones de chat en lugar de usar cmdlets de Windows PowerShell. Para ello, habilite SIP para el servidor de chat persistente y, a continuación, use el cliente de Lync para crear y administrar los salones de chat.
 
-Para más información sobre cómo configurar salones de chat con la Interfaz de la línea de comandos Windows PowerShell, vea "Administrar salones" en [Configuración del servidor de chat persistente con cmdlets de Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+Si desea crear un flujo de trabajo de administración de salas personalizado para los usuarios, puede establecer la propiedad **RoomManagementUrl** en la configuración del servidor de chat persistente para redirigir a los usuarios a la solución personalizada desde el cliente de Lync.
 
-Para más información sobre la configuración de salones de chat, vea [Configurar salones en Lync Server 2013](lync-server-2013-configure-rooms.md) en la documentación de implementación.
+Para obtener detalles sobre la configuración de salones de chat con la interfaz de línea de comandos de Windows PowerShell, consulte "administración de salas" en [configurar el servidor de chat persistente mediante cmdlets de Windows PowerShell](configuring-persistent-chat-server-by-using-windows-powershell-cmdlets.md).
+
+Para obtener más información sobre cómo configurar salones de chat, consulte [configurar salas en Lync Server 2013](lync-server-2013-configure-rooms.md) en la documentación de implementación.
+
+<div>
+
+
+> [!NOTE]  
+> El servidor de chat persistente permite a los usuarios crear y administrar el salón de chat para un sitio específico. Sin embargo, los usuarios no pueden crear ni administrar salones de chat en otros sitios dentro de la misma topología. Asegúrese de especificar los creadores y administradores del salón de chat de todos los sitios de su organización.
+
+
+
+</div>
+
+<div>
+
+
+> [!NOTE]  
+> Los usuarios que estén alojados en un equipo con la aplicación de Lync Server superviviente no pueden crear nuevos salones de chat o ver la tarjeta de la sala de las habitaciones existentes.
+
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

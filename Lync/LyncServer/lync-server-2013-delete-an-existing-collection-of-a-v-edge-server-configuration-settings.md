@@ -1,55 +1,100 @@
-﻿---
-title: "Eliminar conjunto existente de opciones de configuración del servidor perimetral A/V"
-TOCTitle: "Suppr. d’une collection existante de par. de conf. d’un serveur Edge A/V"
-ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688077(v=OCS.15)
-ms:contentKeyID: 49889210
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Eliminar una colección existente de parámetros de configuración del servidor perimetral A/V
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Delete an existing collection of A/V Edge Server configuration settings
+ms:assetid: 668d3613-e464-4b68-967a-cfff90b9ce4b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688077(v=OCS.15)
+ms:contentKeyID: 49733673
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 6af42c338cb7032231ce562ac2227ff4089729ba
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835618"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Eliminación de un conjunto existente de opciones de configuración del servidor perimetral A/V
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="delete-an-existing-collection-of-av-edge-server-configuration-settings-in-lync-server-2013"></a>Eliminar una colección existente de valores de configuración del servidor perimetral A/V en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
-El servicio perimetral A/V constituye un modo de que los usuarios internos (aquellos que han iniciado sesión en la red de la organización) puedan compartir audio y vídeo con los usuarios externos (aquellos que no han iniciado sesión en la red de la organización). El servicio perimetral A/V se administra principalmente a mediante la configuración de servidor perimetral A/V, que se puede definir en el ámbito de sitio o en el ámbito de servicio (esto es, se puede configurar para un solo servidor perimetral A/V).
+El servicio perimetral A/V proporciona a los usuarios internos (los usuarios que han iniciado sesión en la red de la organización) una forma de compartir audio y vídeo con usuarios externos (usuarios que no han iniciado sesión en la red de su organización). El servicio perimetral A/V se administra principalmente usando la configuración de borde de A/V, la configuración que se puede configurar en el ámbito del sitio o en el ámbito del servicio (es decir, se puede configurar para un servidor perimetral de A/V individual).
 
-Al instalar Lync Server, se crea automáticamente una colección global de opciones de configuración de servidor perimetral A/V. Esta colección no se puede eliminar, pero puede se usar el Shell de administración de Lync Server y el cmdlet Remove-CsAVEdgeConfiguration para "restablecerla"; esto quiere decir, sencillamente, que todos los valores de propiedad de la colección global se volverán a su valor predeterminado original. Así, por ejemplo, si ha establecido la propiedad MaxTokenLifetime en 16 horas, se restablecerá a su valor predeterminado, que es de 8 horas.
+Al instalar Lync Server, se crea una colección global de las opciones de configuración del borde A/V. No se puede eliminar esta colección global. Sin embargo, puede usar Windows PowerShell y el cmdlet Remove-CsAVEdgeConfiguration para "restablecer" la colección global; eso simplemente significa que todos los valores de propiedad de la colección global se restablecerán a su valor predeterminado. Por ejemplo, si ha establecido la propiedad MaxTokenLifetime en 16 horas, esa propiedad se restablecerá a su valor predeterminado de 8 horas.
 
-En cambio, las colecciones de opciones de configuración personalizadas que haya creado (ya sea en el ámbito de sitio o de servicio) se pueden eliminar con el cmdlet Remove-CsAVEdgeConfiguration. Si elimina la configuración de sitio, los servidores perimetrales A/V de dicho sitio pasarán a administrarse mediante la configuración global y, si elimina la configuración de servicio, el servidor se administrará por medio de su configuración de sitio (si la hay) o por la configuración global (en caso de que no haya configuración de sitio disponible).
+Sin embargo, las colecciones de configuración personalizadas que haya creado en el ámbito del sitio o en el ámbito del servicio se pueden eliminar con el cmdlet Remove-CsAVEdgeConfiguration. Si elimina la configuración del sitio, los servidores perimetrales A/V de ese sitio serán administrados por la configuración global. Si elimina la configuración de ámbito de servicio, ese servidor se administrará por la configuración del sitio, si existe, o por la configuración global, si no hay ninguna configuración de sitio disponible.
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration).
+Para obtener más información, consulte el tema de ayuda para el cmdlet [Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15)) .
 
-## Restablecer la colección global
+<div>
 
-  - Con el siguiente comando se restablece la colección global de la configuración de servidor perimetral A/V:
+## <a name="to-reset-the-global-collection"></a>Para restablecer la colección global
+
+  - El siguiente comando restablece la colección global de valores de configuración de borde A/V:
     
         Remove-CsAVEdgeConfiguration -Identity "global"
 
-## Quitar una colección del ámbito de sitio
+</div>
 
-  - Con este comando se quita la configuración de servidor perimetral A/V que se ha usado en el sitio de Redmond:
+<div>
+
+## <a name="to-remove-a-collection-from-the-site-scope"></a>Para quitar una colección del ámbito de sitio
+
+  - Este comando quita la configuración del borde A/V que se aplica al sitio de Redmond:
     
         Remove-CsAVEdgeConfiguration -Identity "site:Redmond"
 
-## Quitar una colección del ámbito de servicio
+</div>
 
-  - Con este comando se quita la configuración utilizada en el servidor perimetral A/V atl-edge-001.litwareinc.com:
+<div>
+
+## <a name="to-remove-a-collection-from-the-service-scope"></a>Para quitar una colección del ámbito de servicio
+
+  - Este comando quita la configuración aplicada al servidor perimetral A/V atl-edge-001.litwareinc.com:
     
         Remove-CsAVEdgeConfiguration -Identity "service:EdgeServer:atl-edge-001.litwareinc.com"
 
-## Vea también
+</div>
 
-#### Tareas
+<div>
 
-[Devolución de información de configuración del servidor perimetral de A/V](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
-[Creación o modificación de conjuntos de opciones de configuración del servidor perimetral A/V](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+## <a name="see-also"></a>Vea también
 
-#### Otros recursos
+
+[Devolver información de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-return-a-v-edge-server-configuration-information.md)  
+[Crear o modificar una colección de valores de configuración del servidor perimetral A/V en Lync Server 2013](lync-server-2013-create-or-modify-a-collection-of-a-v-edge-server-configuration-settings.md)  
+
 
 [Servidores perimetrales de audio y vídeo (A/V) en Lync Server 2013](lync-server-2013-audio-video-a-v-edge-servers.md)  
-[Remove-CsAVEdgeConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Remove-CsAVEdgeConfiguration)
+[Remove-CsAVEdgeConfiguration](https://technet.microsoft.com/en-us/library/Gg398786(v=OCS.15))  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,78 +1,108 @@
-﻿---
-title: "Resumen DNS: Servidor perimetral consol. ampliado, equilib. carga DNS con IP públicas"
-TOCTitle: Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas
-ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ205319(v=OCS.15)
-ms:contentKeyID: 48276906
-ms.date: 03/09/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: DNS summary - Scaled consolidated edge, DNS load balancing with public IP addresses
+ms:assetid: dc8f096a-a0a4-4f71-8930-88ff8fc089d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ205319(v=OCS.15)
+ms:contentKeyID: 48185594
+ms.date: 03/09/2017
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 226f0ac1c27b18ea19cc1893300ad3614130c798
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835357"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="dns-summary---scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-in-lync-server-2013"></a>Resumen de DNS - Servidor perimetral consolidado ampliado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2017-03-09_
 
-Los requisitos de registro DNS para tener acceso de manera remota a Lync Server 2013 son bastante sencillos en comparación con los de los certificados y los puertos. Además, muchos registros son opcionales, en función de cómo configure los clientes de Lync 2013 y de si habilita la federación.
+Los requisitos de registro DNS para el acceso remoto a Lync Server 2013 son bastante sencillos en comparación con los de certificados y puertos. Además, muchos registros son opcionales, en función de cómo configure los clientes que ejecutan Lync 2013 y si habilita la Federación.
 
-Para más información sobre los requisitos de DNS de Lync 2013, vea [Determinar los requisitos DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Para obtener más información sobre los requisitos de DNS de Lync 2013, consulte [determinar los requisitos de DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-Para más información sobre la configuración automática de clientes de Lync 2013 si no está configurado el DNS de cerebro dividido, consulte “Configuración automática sin DNS de cerebro dividido” en [Determinar los requisitos DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
+Para obtener más información sobre cómo configurar la configuración automática de los clientes de Lync 2013, si no se ha configurado el servidor DNS de horizonte dividido, consulte la sección "configuración automática sin DNS de división de datos" en [determinar los requisitos de DNS para Lync Server 2013](lync-server-2013-determine-dns-requirements.md).
 
-En la siguiente tabla se incluye un resumen de los registros DNS que se necesitan para admitir la topología perimetral consolidada de un solo equipo que se muestra en la figura Topología perimetral consolidada de un solo equipo. Tenga en cuenta que ciertos registros DNS solo se necesitan para la configuración automática de clientes de Lync 2013. Si piensa usar objetos de directiva de grupo (GPO) para configurar clientes de Lync los registros asociados no son necesarios.
+La tabla siguiente contiene un resumen de los registros DNS necesarios para admitir la única topología de arista consolidada que se muestra en la ilustración de una única topología de borde consolidado. Tenga en cuenta que algunos registros DNS solo son necesarios para la configuración automática de clientes de Lync 2013. Si planea usar objetos de directiva de grupo (GPO) para configurar clientes de Lync, los registros asociados no son necesarios.
 
-## IMPORTANTE: requisitos de adaptador de red de Servidor perimetral
+<div>
 
-Para evitar problemas de redirección, compruebe que haya, como mínimo, dos adaptadores de red en los Servidores perimetrales y que la puerta de enlace predeterminada esté configurada solo en el adaptador de red asociado a la interfaz externa. Por ejemplo, como se muestra en la figura Escenario perimetral consolidado escalado en [Perímetro consolidado escalado, equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md), la puerta de enlace predeterminada apuntaría al firewall externo.
+## <a name="important-edge-server-network-adapter-requirements"></a>IMPORTANTE: requisitos del adaptador de red del servidor perimetral
 
-Puede configurar dos adaptadores de red en cada servidor perimetral de la siguiente forma
+Para evitar problemas de enrutamiento, compruebe que hay al menos dos adaptadores de red en los servidores perimetrales y que la puerta de enlace predeterminada solo está configurada en el adaptador de red asociado a la interfaz externa. Por ejemplo, tal y como se muestra en el escenario de borde consolidado escalado en el [nivel perimetral consolidado, el equilibrio de carga DNS con direcciones IP públicas en Lync Server 2013](lync-server-2013-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses.md) , la puerta de enlace predeterminada apunta al firewall externo.
 
-  - **Adaptador de red 1 - Nodo 1 (Interfaz interna)**
+Puede configurar dos adaptadores de red en cada uno de los servidores perimetrales de la siguiente manera:
+
+  - **Adaptador de red 1-nodo 1 (interfaz interna)**
     
     Interfaz interna con 172.25.33.10 asignado.
     
-    No se ha definido ninguna puerta de enlace predeterminada.
+    No hay ninguna puerta de enlace predeterminada definida.
     
-    Asegúrese de que existe una ruta desde la red que contiene la interfaz perimetral interna hasta todas las redes que contienen servidores que ejecutan clientes de Lync Server 2013 o Lync Server 2013 por ejemplo, de 172.25.33.0 a 192.168.10.0).
+    Asegúrese de que haya una ruta desde la red que contenga la interfaz interna perimetral a cualquier red que contenga servidores que ejecuten Lync Server 2013 o clientes de Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0).
 
-  - **Adaptador de red 1 - Nodo 2 (Interfaz interna)**
+  - **Adaptador de red 1-nodo 2 (interfaz interna)**
     
-    Interfaz interna con 172.25.33.11 asignada.
+    Interfaz interna con 172.25.33.11 asignado.
     
-    No se ha definido ninguna puerta de enlace predeterminada.
+    No hay ninguna puerta de enlace predeterminada definida.
     
-    Asegúrese de que existe una ruta desde la red que contiene la interfaz perimetral interna hasta todas las redes que contienen servidores que ejecutan clientes de Lync Server 2013 o Lync Server 2013 por ejemplo, de 172.25.33.0 a 192.168.10.0).
+    Asegúrese de que haya una ruta desde la red que contenga la interfaz interna perimetral a cualquier red que contenga servidores que ejecuten Lync Server 2013 o clientes de Lync Server 2013 (por ejemplo, de 172.25.33.0 a 192.168.10.0).
 
-  - **Adaptador de red 2 - Nodo 1 (Interfaz externa)**
+  - **Adaptador de red 2 nodo 1 (interfaz externa)**
     
-    Tres direcciones IP privadas se asignan a este adaptador de red, por ejemplo 131.107.155.10 para el Servidor perimetral de acceso, 131.107.155.20 para el Servicio perimetral de conferencia web, 131.107.155.30 para el Servicio perimetral A/V.
+    Se asignan tres direcciones IP privadas a este adaptador de red, por ejemplo, 131.107.155.10 para el servicio perimetral de acceso, 131.107.155.20 para el servicio perimetral de conferencias web, 131.107.155.30 para el servicio perimetral A/V.
     
-    La dirección IP pública de Servidor perimetral de acceso es principal con puerta de enlace predeterminada establecida en el enrutador público (131.107.155.1).
+    La dirección IP pública del servicio perimetral de acceso es principal con la puerta de enlace predeterminada establecida para el enrutador público (131.107.155.1).
     
-    Las direcciones IP privadas de Servicio perimetral de conferencia web y de Servicio perimetral A/V son direcciones IP adicionales de la sección **Avanzadas** de las propiedades de **Protocolo de Internet versión 4 (TCP/IPv4)** y **Protocolo de Internet versión 6 (TCP/IPv6)** de las **Propiedades de conexión de área local** en Windows Server.
+    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de la **Propiedades de conexión de área local** en Windows Server.
+    
+    <div>
     
 
-    > [!NOTE]
-    > Aunque no lo recomendamos, es posible usar una sola dirección IP para las tres interfaces de servicio perimetral. Si bien esto guarda las direcciones IP, se necesitan números de puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, que garantiza que la mayoría de los firewalls remotos permitirán el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el Servidor perimetral de acceso, 444/TCP para el Servicio perimetral de conferencia web y 443/TCP para el Servicio perimetral A/V puede ocasionarle problemas a los usuarios remotos si se encuentran detrás de un firewall que no permite el tráfico por 5061/TCP y 444/TCP. Además, tres direcciones IP diferentes facilitan la solución de problemas ya que es posible filtrar la dirección IP.
+    > [!NOTE]  
+    > Es posible, aunque no recomendable, usar una única dirección IP para las tres interfaces de servicio perimetral. Aunque esto sí guarda las direcciones IP, requiere números de Puerto diferentes para cada servicio. El número de puerto predeterminado es 443/TCP, lo que garantiza que la mayoría de los firewalls remotos permitan el tráfico. Cambiar los valores del puerto a (por ejemplo) 5061/TCP para el servicio perimetral de acceso, 444/TCP para el servicio perimetral de las conferencias web y 443/TCP para el servicio perimetral a/V puede causar problemas a los usuarios remotos en los que un firewall que estén detrás no permite el tráfico por 5061/TCP y 444/TCP. Además, tres direcciones IP distintas hacen que la solución de problemas sea más fácil, ya que es posible filtrar por dirección IP.
 
+    
+    </div>
 
+  - **Adaptador de red 2 nodo 2 (interfaz externa)**
+    
+    Se asignan tres direcciones IP privadas a este adaptador de red, por ejemplo, 131.107.155.11 para el servicio perimetral de acceso, 131.107.155.21 para el servicio perimetral de conferencias web, 131.107.155.31 para el servicio perimetral A/V.
+    
+    La dirección IP pública del servicio perimetral de acceso es principal con la puerta de enlace predeterminada establecida para el enrutador público (131.107.155.1).
+    
+    Servicio perimetral de conferencias web y direcciones IP privadas de servicio perimetral A/V son direcciones IP adicionales en la sección **avanzadas** de las propiedades del **Protocolo de Internet versión 4 (TCP/IPv4)** y el **Protocolo de Internet versión 6 (TCP/IPv6)** de la **Propiedades de conexión de área local** en Windows Server.
 
-  - **Adaptador de red 2 - Nodo 2 (Interfaz externa)**
-    
-    Tres direcciones IP privadas se asignan a este adaptador de red, por ejemplo 131.107.155.11 para el Servidor perimetral de acceso, 131.107.155.21 para el Servicio perimetral de conferencia web y 131.107.155.31 para el Servicio perimetral A/V.
-    
-    La dirección IP pública de Servidor perimetral de acceso es principal con puerta de enlace predeterminada establecida en el enrutador público (131.107.155.1).
-    
-    Las direcciones IP privadas de Servicio perimetral de conferencia web y de Servicio perimetral A/V son direcciones IP adicionales de la sección **Avanzadas** de las propiedades de **Protocolo de Internet versión 4 (TCP/IPv4)** y **Protocolo de Internet versión 6 (TCP/IPv6)** de las **Propiedades de conexión de área local** en Windows Server.
+<div>
+
 
 > [!TIP]  
-> La configuración del Servidor perimetral con dos adaptadores de red es una de las dos opciones disponibles. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del Servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por servicio de Servidor perimetral, y es necesaria la recopilación de datos potencialmente más concisos al solucionar problemas.
+> La configuración del servidor perimetral con dos adaptadores de red es una de dos opciones. La otra opción es usar un adaptador de red para el lado interno y tres adaptadores de red para el lado externo del servidor perimetral. La principal ventaja de esta opción es un adaptador de red distinto por cada servicio de servidor perimetral, así como una recopilación de datos potencialmente más concisa cuando se necesita la solución de problemas.
 
 
 
-### Registros DNS necesarios para una topología perimetral consolidada escalada, equilibrio de carga de DNS con direcciones IP públicas (ejemplo)
+</div>
+
+### <a name="dns-records-required-for-scaled-consolidated-edge-dns-load-balancing-with-public-ip-addresses-example"></a>Registros DNS necesarios para el límite consolidado de la escala, el equilibrio de carga DNS con direcciones IP públicas (ejemplo)
 
 <table>
 <colgroup>
@@ -83,54 +113,58 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación/TIPO/Puerto</th>
-<th>FQDN/Registro DNS</th>
+<th>Ubicación/tipo/puerto</th>
+<th>FQDN/registro DNS</th>
 <th>Dirección IP/FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th>Se asigna a/comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>sip.contoso.com</p></td>
 <td><p>131.107.155.10 y 131.107.155.11</p></td>
-<td><p>Interfaz externa del Servidor perimetral de acceso (Contoso) Repita tantas veces como sea necesario para todos los dominios SIP con usuarios de Lync habilitados</p></td>
+<td><p>Interfaz externa de servicio perimetral de acceso (contoso) Repita según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>webcon.contoso.com</p></td>
 <td><p>131.107.155.20 y 131.107.155.21</p></td>
-<td><p>Interfaz externa de Servicio perimetral de conferencia web</p></td>
+<td><p>Interfaz externa de servicio perimetral de conferencia Web</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>av.contoso.com</p></td>
 <td><p>131.107.155.30 y 131.107.155.31</p></td>
-<td><p>Servicio perimetral A/Vfea-webconfedge-service</p></td>
+<td><p>Interfaz externa de servicio perimetral A/V</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS externo/SRV/443</p></td>
+<td><p>DNS/SRV/443 externo</p></td>
 <td><p>_sip._tls.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Interfaz externa de Servidor perimetral de acceso. Necesaria para la configuración automática de clientes de Lync 2013 y Lync 2010 para que trabajen de manera externa. Repita tantas veces como sea necesario para todos los usuarios de Lync habilitados.</p></td>
+<td><p>Interfaz externa de servicio perimetral de acceso. Necesario para que la configuración automática de los clientes de Lync 2013 y Lync 2010 funcione de forma externa. Repita el procedimiento según sea necesario para todos los dominios SIP con usuarios habilitados para Lync.</p></td>
 </tr>
 <tr class="odd">
-<td><p>DNS externo</p></td>
+<td><p>DNS externo/SRV/5061</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Interfaz externa de Servidor perimetral de acceso. Necesaria para la detección DNS automática de socios federados conocidos como “Dominio SIP permitido” (denominada federación ampliada en versiones anteriores). Repita tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados de Lync</p></td>
+<td><p>Servicio perimetral de acceso interfaz externa necesaria para la detección automática de DNS de los socios federados conocidos como "dominio SIP permitido" (denominado Federación mejorada en versiones anteriores). Repetir según sea necesario para todos los dominios SIP con usuarios habilitados para Lync</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS interno/A</p></td>
+<td><p>DNS/A interno</p></td>
 <td><p>lsedge.contoso.net</p></td>
 <td><p>172.25.33.10 y 172.25.33.11</p></td>
-<td><p>Interfaz perimetral interna consolidada</p></td>
+<td><p>Interfaz interna de Edge consolidado</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Registros necesarios para la federación
+</div>
+
+<div>
+
+## <a name="records-required-for-federation"></a>Registros necesarios para la Federación
 
 
 <table>
@@ -142,22 +176,22 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación/TIPO/Puerto</th>
+<th>Ubicación/tipo/puerto</th>
 <th>FQDN</th>
-<th>Dirección IP/Registro de host FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th>Dirección IP/registro de host FQDN</th>
+<th>Se asigna a/comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externo</p></td>
+<td><p>DNS externo/SRV/5061</p></td>
 <td><p>_sipfederationtls._tcp.contoso.com</p></td>
 <td><p>sip.contoso.com</p></td>
-<td><p>Interfaz externa del Servidor perimetral de acceso SIP. Necesaria para la detección automática DNS de su federación ante los posibles socios de federación. Conocida como “Dominios SIP permitidos” (denominado federación ampliada en versiones anteriores).</p>
+<td><p>Servicio perimetral de acceso SIP interfaz externa necesaria para la detección automática de DNS de su Federación a otros potenciales socios de Federación, y se conoce como "dominios SIP permitidos" (denominada Federación mejorada en versiones anteriores).</p>
 <div>
 
 > [!IMPORTANT]  
-> Repita tantas veces como sea necesario para todos los dominios SIP con usuarios habilitados para Lync y clientes de Microsoft Lync Mobile que usen el Servicios de notificaciones de inserción o el Servicios de notificaciones de inserción de Apple
+> Repita el procedimiento según sea necesario para todos los dominios SIP con usuarios habilitados para Lync y los clientes móviles de Microsoft Lync que usan el servicio de notificaciones Push o el servicio de notificaciones push de Apple
 
 
 </div></td>
@@ -166,7 +200,11 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 </table>
 
 
-## Resumen de DNS – Conectividad de mensajería instantánea pública
+</div>
+
+<div>
+
+## <a name="dns-summary-for-extensible-messaging-and-presence-protocol"></a>Resumen de DNS para el protocolo de presencia y mensajería extensible
 
 
 <table>
@@ -178,54 +216,38 @@ Puede configurar dos adaptadores de red en cada servidor perimetral de la siguie
 </colgroup>
 <thead>
 <tr class="header">
-<th>Ubicación/TIPO/Puerto</th>
-<th>FQDN/Registro DNS</th>
-<th>Dirección IP/FQDN</th>
-<th>Asignado a/Comentarios</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>DNS/A externo</p></td>
-<td><p>sip.contoso.com</p></td>
-<td><p>Servidor perimetral de accesofea-avedge-service</p></td>
-<td><p>Interfaz externa del Servidor perimetral de acceso (Contoso) Repita tantas veces como sea necesario para todos los dominios SIP con usuarios de Lync habilitados</p></td>
-</tr>
-</tbody>
-</table>
-
-
-## Resumen de DNS para el protocolo extensible de mensajería y presencia
-
-
-<table>
-<colgroup>
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-<col style="width: 25%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Ubicación/TIPO/Puerto</th>
+<th>Ubicación/tipo/puerto</th>
 <th>FQDN</th>
-<th>Dirección IP/Registro de host FQDN</th>
-<th>Asignado a/Comentarios</th>
+<th>Dirección IP/registro de host FQDN</th>
+<th>Se asigna a/comentarios</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>DNS externo/SRV/5269</p></td>
+<td><p>DNS/SRV/5269 externo</p></td>
 <td><p>_xmpp-server._tcp.contoso.com</p></td>
 <td><p>xmpp.contoso.com</p></td>
-<td><p>Interfaz externa de proxy XMPP en el Servidor perimetral de acceso o el Grupo de servidores perimetrales. Repita tantas veces como sea necesario para todos los dominios SIP internos con usuarios de Lync habilitados, donde el contacto con contactos XMPP se permite por medio de la configuración de la directiva de acceso externo, una directiva global, una directiva del sitio donde se encuentra el usuario o una directiva de usuario aplicada al usuario de Lync habilitado. Configure también un dominio de XMPP permitido en la directiva de socios federados de XMPP. Vea los temas de <strong>Vea también</strong> para más información</p></td>
+<td><p>Interfaz externa de proxy XMPP en el servicio perimetral de acceso o grupo perimetral. Repita el procedimiento según sea necesario para todos los dominios SIP internos con los usuarios habilitados para Lync donde se permite el contacto con los contactos XMPP a través de la configuración de la Directiva de acceso externo a través de una directiva global, una directiva de sitio donde se encuentra el usuario o la Directiva de usuario aplicada al Usuario habilitado para Lync. También se debe configurar un dominio XMPP permitido en la Directiva del socio XMPP federado. Vea temas en <strong>vea también</strong> para obtener más información.</p></td>
 </tr>
 <tr class="even">
-<td><p>DNS/A externo</p></td>
+<td><p>DNS externo/A</p></td>
 <td><p>xmpp.contoso.com (por ejemplo)</p></td>
-<td><p>Dirección IP del Servidor perimetral de acceso en el Servidor perimetral o el Grupo de servidores perimetrales que hospeda el proxy de XMPP</p></td>
-<td><p>Apunta al Servidor perimetral de acceso o al Grupo de servidores perimetrales que hospeda el servicio de proxy de XMPP. Normalmente el registro SRV que crea apuntará a este registro host (A o AAAA)</p></td>
+<td><p>Dirección IP del servicio perimetral de acceso en el servidor perimetral o grupo perimetral que aloja el proxy XMPP</p></td>
+<td><p>Señala el servicio perimetral de Access o el grupo de límites que alberga el servicio de proxy XMPP. Normalmente, el registro SRV que cree apuntará a este registro de host (A o AAAA).</p></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

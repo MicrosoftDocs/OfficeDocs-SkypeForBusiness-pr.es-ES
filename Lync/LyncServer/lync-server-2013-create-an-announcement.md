@@ -1,17 +1,37 @@
-﻿---
-title: 'Lync Server 2013: Crear un anuncio'
-TOCTitle: Crear un anuncio
-ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412783(v=OCS.15)
-ms:contentKeyID: 48276281
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear un anuncio'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create an announcement
+ms:assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412783(v=OCS.15)
+ms:contentKeyID: 48185005
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b80210787a8261d122fa7508807ab995279c7d0e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835849"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear un anuncio en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-an-announcement-in-lync-server-2013"></a>Crear un anuncio en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-11-01_
 
@@ -23,22 +43,28 @@ Para crear un anuncio, debe seguir estos pasos:
 
 3.  Ejecute el cmdlet **New-CsAnnouncement** para crear y asignar un nombre al anuncio. Lleve a cabo este paso para crear anuncios con un mensaje de audio, con un mensaje TTS o sin mensaje.
     
-    > [!TIP]  
-    > Puede que le interese crear un anuncio sin mensaje; por ejemplo, si quiere transferir las llamadas a un destino específico sin reproducir un mensaje.
+    <div>
     
 
+    > [!TIP]  
+    > Puede que le interese crear un anuncio sin mensaje; por ejemplo, si quiere transferir las llamadas a un destino específico sin reproducir un mensaje.
+
+    
+    </div>
 
 4.  Asigne el nuevo anuncio a un intervalo de números en la tabla de números no asignados.
 
-En este tema se describe cómo importar y crear anuncios. Para obtener información sobre la asignación de anuncios en la tabla de números no asignados, consulte [Configurar la tabla de números sin asignar en Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
+En este tema se describe cómo importar y crear anuncios. Para obtener más información sobre la asignación de anuncios en la tabla de números sin asignar, consulte [configurar la tabla de números sin asignar en Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md).
 
-## Para crear un anuncio
+<div>
+
+## <a name="to-create-a-new-announcement"></a>Para crear un anuncio
 
 1.  Para mensajes de audio, cree el archivo de audio.
 
-2.  Inicie sesión en un equipo que tenga instalado el Shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios que se describen en [Delegar permisos de instalación en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
+2.  Inicie sesión en el equipo donde está instalado el shell de administración de Lync Server como miembro del grupo RTCUniversalServerAdmins o con los derechos de usuario necesarios, tal y como se describe en [permisos de configuración de delegado en Lync Server 2013](lync-server-2013-delegate-setup-permissions.md).
 
-3.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+3.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
 
 4.  Para mensajes de audio, ejecute:
     
@@ -48,7 +74,7 @@ En este tema se describe cómo importar y crear anuncios. Para obtener informaci
     
         New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
     
-    Para transferir llamadas al correo de voz, escriba el parámetro SIPAddress en el formato sip:nombre\_usuario@nombre\_dominio;opaque=app:voicemail (por ejemplo, sip:bob@contoso.com;opaque=app:voicemail). Para transferir llamadas a un número de teléfono, escriba el parámetro SIPAddress en el formato sip:número@nombre\_dominio;user=phone (por ejemplo, sip:+ 14255550121@contoso.com;user=phone).
+    Para transferir llamadas al correo de voz, escriba el parámetro SIPAddress en el formato sip:nombre_usuario@nombre_dominio;opaque=app:voicemail (por ejemplo, sip:bob@contoso.com;opaque=app:voicemail). Para transferir llamadas a un número de teléfono, escriba el parámetro SIPAddress en el formato sip:número@nombre_dominio;user=phone (por ejemplo, sip:+ 14255550121@contoso.com;user=phone).
     
     Por ejemplo, para especificar un mensaje de audio:
     
@@ -60,13 +86,29 @@ En este tema se describe cómo importar y crear anuncios. Para obtener informaci
     
         New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
     
-    Para más información sobre estos cmdlets y para ver la lista de códigos de idioma que usar en el parámetro **TextToSpeechPrompt**, consulte [New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement).
+    Para obtener más información sobre estos cmdlets y para ver una lista de los códigos de idioma que se usan en el parámetro **TextToSpeechPrompt** , vea [New-CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement).
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Import-CsAnnouncementFile](https://docs.microsoft.com/en-us/powershell/module/skype/Import-CsAnnouncementFile)  
-[New-CsAnnouncement](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsAnnouncement)  
-[Configurar la tabla de números sin asignar en Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)
+## <a name="see-also"></a>Vea también
+
+
+[Import-CsAnnouncementFile](https://docs.microsoft.com/powershell/module/skype/Import-CsAnnouncementFile)  
+[Nuevo: CsAnnouncement](https://docs.microsoft.com/powershell/module/skype/New-CsAnnouncement)  
+[Configurar la tabla de números sin asignar en Lync Server 2013](lync-server-2013-configure-the-unassigned-number-table.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

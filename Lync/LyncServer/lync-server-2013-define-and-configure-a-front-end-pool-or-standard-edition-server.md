@@ -1,23 +1,43 @@
-﻿---
-title: "Definir y configurar un grupo de servidores front-end o un servidor Standard Edition"
-TOCTitle: Definir y configurar un grupo de servidores front-end o un servidor Standard Edition
-ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398538(v=OCS.15)
-ms:contentKeyID: 48275620
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Definir y configurar un grupo de servidores front-end o un servidor Standard Edition
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Define and configure a Front End pool or Standard Edition server
+ms:assetid: 713fc263-23dd-414a-b001-82932e4fe966
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398538(v=OCS.15)
+ms:contentKeyID: 48184457
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 8ac840cb40da71f81a24501f3d9caa53fb316e86
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835738"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="define-and-configure-a-front-end-pool-or-standard-edition-server-in-lync-server-2013"></a>Definir y configurar un grupo de servidores front-end o un servidor Standard Edition en Lync Server 2013
 
-Este procedimiento no requiere pertenencia al grupo de dominio con privilegios o de administrador local. Deberá iniciar sesión en un equipo como usuario estándar.
+</div>
 
-Si está implementando un servidor Enterprise, se debe ejecutar un número mínimo de Servidores front-end en un grupo en cada momento. En la tabla siguiente, se resumen estos requisitos.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2013-03-08_
+
+Este procedimiento no requiere la pertenencia a un grupo de dominio de administrador o de privilegios local. Debe iniciar sesión en un equipo como usuario estándar.
+
+Si está implementando un servidor empresarial, un número mínimo de servidores front-end de un grupo debe estar ejecutándose en todo momento. En la tabla siguiente se resumen estos requisitos.
 
 
 <table>
@@ -27,94 +47,104 @@ Si está implementando un servidor Enterprise, se debe ejecutar un número míni
 </colgroup>
 <thead>
 <tr class="header">
-<th>Número total de servidores front-end de un grupo</th>
-<th>Número de servidores que deben estar en ejecución para que el grupo funcione</th>
+<th>Número total de servidores front-end en el grupo</th>
+<th>Cantidad de servidores que es preciso que estén en ejecución para que el grupo funcione</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>1 -2</p></td>
+<td><p>1-2</p></td>
 <td><p>1</p></td>
 </tr>
 <tr class="even">
-<td><p>3 -4</p></td>
+<td><p>3-4</p></td>
 <td><p>2</p></td>
 </tr>
 <tr class="odd">
-<td><p>5 -6</p></td>
+<td><p>5-6</p></td>
 <td><p>3</p></td>
 </tr>
 <tr class="even">
-<td><p>7 -8</p></td>
+<td><p>7-8</p></td>
 <td><p>4</p></td>
 </tr>
 <tr class="odd">
-<td><p>9 -10</p></td>
+<td><p>9-10</p></td>
 <td><p>5</p></td>
 </tr>
 <tr class="even">
-<td><p>11 -12</p></td>
+<td><p>11-12</p></td>
 <td><p>6</p></td>
 </tr>
 </tbody>
 </table>
 
 
+<div>
+
 
 > [!NOTE]
-> Para Lync Server 2013, cada vez que agregue o quite un servidor front-end del grupo, debe reiniciar los servicios. La eliminación y la adición de servidores se deben realizar como operaciones independientes. Por ejemplo, si va a agregar dos servidores front-end y a quitar dos servidores front-end, siga este procedimiento: 
+> Para Lync Server 2013, siempre que agregue o quite un servidor front-end de la agrupación, debe reiniciar los servicios. Quitar y agregar servidores se debe realizar como operaciones independientes. Por ejemplo, si va a agregar dos servidores front-end y quitar dos servidores front-end, use el siguiente proceso: 
 > <OL>
 > <LI>
-> <P>Elimine los dos servidores front-end.</P>
+> <P>Quite los dos servidores front-end.</P>
 > <LI>
-> <P>Publique y reactive a topología.</P>
+> <P>Publique y vuelva a activar la topología.</P>
 > <LI>
-> <P>Reinicie los servicios</P>
+> <P>Reiniciar los servicios</P>
 > <LI>
-> <P>Añada los dos servidores front-end.</P>
+> <P>Agregue los dos servidores front-end.</P>
 > <LI>
-> <P>Publique y reactive a topología.</P>
+> <P>Publique y vuelva a activar la topología.</P>
 > <LI>
 > <P>Reinicie los servicios.</P></LI></OL>
 
 
 
-Una vez definida la topología, siga el siguiente procedimiento para definir un Grupo de servidores front-end para el sitio. Para obtener información detallada sobre cómo definir la topología, consulte [Definir y configurar una topología en Topology Builder para Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md).
+</div>
 
-## Definición de un Grupo de servidores front-end
+Una vez que haya definido su topología, use el siguiente procedimiento para definir un grupo de servidores front-end para el sitio. Para obtener más información sobre cómo definir la topología, consulte [definir y configurar una topología en el generador de topologías para Lync Server 2013](lync-server-2013-define-and-configure-a-topology-in-topology-builder.md).
 
-1.  En el Asistente para definir un nuevo grupo de servidores front-end, en la página **Definir el nuevo Grupo de servidores front-end**, haga clic en **Siguiente** .
+<div>
 
-2.  En la página **Definir el FQDN de Grupo de servidores front-end**, escriba un nombre de dominio completo (FQDN) para el grupo de servidores que está creando, haga clic en **Enterprise Edition Grupo de servidores front-end** y luego haga clic en **Siguiente**.
+## <a name="to-define-a-front-end-pool"></a>Para definir un grupo de servidores front-end
 
-3.  En la página **Definir los equipos de este grupo**, escriba un FQDN de equipo para el primer Servidor front-end del grupo y luego haga clic en **Agregar**. Repita este paso para todos los equipos adicionales (hasta ocho) que desee agregar al grupo de servidores y luego haga clic en **Siguiente**.
+1.  En el Asistente para definir nuevo grupo front-end, en la página **definir el nuevo grupo front-end** , haga clic en **siguiente**.
 
-4. En la página **Seleccionar características**, active las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si está implementando solo las características de presencia y mensajería instantánea (MI), deberá activar la casilla **Conferencia** para habilitar la MI de varios participantes, pero no las casillas **Conferencia de acceso telefónico local (RTC)** , **Enterprise Voice** o **Control de admisión de llamadas**, ya que representan características de conferencias de colaboración, voz y vídeo.
+2.  En la página **definir el FQDN del grupo de servidores front-end** , escriba un nombre de dominio completo (FQDN) para el grupo que está creando, haga clic en **Grupo front-end de Enterprise Edition**y, a continuación, haga clic en **siguiente**.
+
+3.  En la página **definir los equipos de este grupo** , escriba un FQDN de equipo para el primer servidor front-end en el grupo y, a continuación, haga clic en **Agregar**. Repita este paso para todos los equipos adicionales (hasta doce) que desee agregar a la agrupación y, a continuación, haga clic en **siguiente**.
+
+4.  En la página **seleccionar características** , seleccione las casillas de las características que desee en este grupo de servidores front-end. Por ejemplo, si está implementando solo la mensajería instantánea (mi) y las características de presencia, debe activar la casilla **conferencias** para permitir la mensajería instantánea de varias partes pero no seleccionar las **conferencias de acceso telefónico local (RTC)**, la **telefonía IP empresarial**o ** **Marque las casillas de verificación de control de admisión, ya que representan características de conferencia de voz, vídeo y colaboración.
     
-      - **Conferencia :** esta selección permite un amplio conjunto de características, entre las que se incluyen:
+      - **Conferencia**   : esta selección permite un conjunto de características completo, entre las que se incluyen:
         
-          - Mensajería instantánea con más de dos interlocutores en una sesión de mensajería instantánea
+          - MENSAJERÍA instantánea con más de dos partes en una sesión de mensajería instantánea.
         
-          - Conferencias, lo que incluye colaboración en documentos, uso compartido de aplicaciones y uso compartido de escritorio
+          - Conferencias, que incluye colaboración de documentos, uso compartido de aplicaciones y uso compartido de escritorio.
         
-          - Conferencia A/V, que habilita a los usuarios para conferencias de audio y vídeo (A/V) en tiempo real sin necesidad de servicios externos como, por ejemplo, el servicio de Live Meeting o un puente de audio de otro fabricante
+          - Conferencias a/V, que permite a los usuarios tener conferencias de audio y vídeo (A/V) en tiempo real sin necesidad de disponer de servicios externos, como el servicio Live Meeting o un puente de audio de terceros.
     
-      - **Conferencia de acceso telefónico local (RTC) :** permite a los usuarios unirse a la sección de audio de una conferencia de Lync Server 2013 a través de un teléfono de red telefónica conmutada (RTC) sin necesidad de un proveedor de conferencias de audio.
+      - **Las conferencias**   de acceso telefónico local (RTC) permiten a los usuarios unirse a la parte de audio de una conferencia de 2013 de Lync Server mediante un teléfono con red telefónica conmutada (RTC) sin requerir un proveedor de servicios de audioconferencia.
     
-      - **Enterprise Voice :** Enterprise Voice es la solución de Voz sobre IP (VoIP) de Lync Server 2013 que permite a los usuarios realizar y recibir llamadas telefónicas. Debería implementar esta característica si tiene pensado usar Lync Server 2013 para llamadas de voz, correo de voz y otras funciones que usen un dispositivo de hardware o un cliente de software.
+      - **Enterprise Voice**   Enterprise Voice es la solución de voz sobre IP (VoIP) de Lync Server 2013 que permite a los usuarios realizar y recibir llamadas telefónicas. Puede implementar esta característica si piensa usar Lync Server 2013 para las llamadas de voz, el correo de voz y otras funciones que usan un dispositivo de hardware o un cliente de software.
     
-      - **Sistema de control de admisión de llamadas (CAC) :** el CAC determina, en función del ancho de banda disponible, si permite establecer sesiones de comunicaciones en tiempo real como, por ejemplo, llamadas de voz o de vídeo. Si solo ha implementado mensajería instantánea y presencia, no necesita el CAC, ya que ninguna de estas características lo usa.
+      - **El CAC control de admisión de llamadas (CAC)**   determina, en función del ancho de banda de red disponible, si se permiten sesiones de comunicaciones en tiempo real, como las de voz o videollamadas que se pueden establecer. Si solo ha implementado la mensajería instantánea y la presencia, CAC no es necesario porque ninguna de estas dos características utiliza CAC.
     
-      - **Servidor de archivado :** el servidor de archivado le ofrece una forma de archivar contenido de MI, contenido de conferencias (reuniones), o ambos que se envían a través del Lync Server 2013.
+      - **** El archivado de archivado le permite archivar contenido de mensajería instantánea, conferencias (reunión) o ambos que se envían a través de Lync Server 2013.   
     
-      - **Servidor de supervisión :** el servidor de supervisión le permite recoger datos numéricos que describen la calidad multimedia de su red y sus extremos, la información de uso relacionada con las llamadas VoIP, los mensajes de MI, las conversaciones de A/V, las reuniones, el uso compartido de aplicaciones y la transferencia de archivos, así como la información de errores de llamada y solución de problemas para las llamadas que han fallado.
+      - ****   El servidor de supervisión de supervisión le permite recopilar datos numéricos que describan la calidad de los medios de su red y puntos de conexión, información de uso relacionada con llamadas de VoIP, mensajes instantáneos, conversaciones a/V, reuniones, uso compartido de aplicaciones y archivos transfiere y llama a información de errores y de solución de problemas para llamadas fallidas.
+    
+    <div>
     
 
     > [!NOTE]
-    > Si desea habilitar el CAC en la implementación, es preciso habilitarlo exactamente en un grupo de servidores por sitio central. El CAC se recomienda si está implementando características de voz o conferencia A/V.
+    > Si desea habilitar CAC en su implementación, es necesario que habilite CAC en un solo grupo por sitio central. Se recomienda CAC si está implementando características de voz o conferencias A/V.
 
     
-    En la tabla siguiente se muestran las características disponibles (arriba) y las funciones que se ofrecen a los usuarios (izquierda). Las selecciones de la tabla son las opciones que debe seleccionar para habilitar dichas características para su organización.
+    </div>
+    
+    En la tabla siguiente se muestran las características disponibles (superior) y las funciones que se ofrecen a los usuarios (a la izquierda). Las selecciones de la tabla son lo que debe seleccionar para habilitar dichas características para su organización.
     
     
     <table>
@@ -128,8 +158,8 @@ Una vez definida la topología, siga el siguiente procedimiento para definir un 
     <thead>
     <tr class="header">
     <th></th>
-    <th>Conferencia</th>
-    <th>Conferencia de acceso telefónico local</th>
+    <th>Conferencias</th>
+    <th>Conferencias de acceso telefónico local</th>
     <th>Telefonía IP empresarial</th>
     <th>Control de admisión de llamadas</th>
     </tr>
@@ -138,28 +168,28 @@ Una vez definida la topología, siga el siguiente procedimiento para definir un 
     <tr class="odd">
     <td><p>Mensajería instantánea y presencia</p></td>
     <td><p>X</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
-    <td><p></p></td>
+    <td></td>
+    <td></td>
+    <td></td>
     </tr>
     <tr class="even">
-    <td><p>Conferencia</p></td>
+    <td><p>Conferencias</p></td>
     <td><p>X</p></td>
     <td><p>X</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
+    <td></td>
+    <td></td>
     </tr>
     <tr class="odd">
     <td><p>Conferencia A/V</p></td>
     <td><p>X</p></td>
     <td><p>X</p></td>
-    <td><p></p></td>
+    <td></td>
     <td><p>X</p></td>
     </tr>
     <tr class="even">
     <td><p>Telefonía IP empresarial</p></td>
-    <td><p></p></td>
-    <td><p></p></td>
+    <td></td>
+    <td></td>
     <td><p>X</p></td>
     <td><p>X</p></td>
     </tr>
@@ -167,104 +197,144 @@ Una vez definida la topología, siga el siguiente procedimiento para definir un 
     </table>
 
 
-5.  En la página **Seleccionar roles de servidor instalados** , puede instalar el Servidor de mediación en el Servidor front-end o implementarlo como servidor independiente.
+5.  En la página **Seleccionar roles de servidor** colocados, puede Collocate el servidor de mediación en el servidor front-end o para implementarlo como servidor independiente.
     
-    Puede instalar el Servidor de mediación en el Grupo de servidores front-end.
+    Puede Collocate el servidor de mediación en el grupo de servidores front-end.
     
-      - Si desea instalar el Servidor de mediación en el Grupo de servidores front-end de Enterprise Edition, asegúrese de que se han activado las casillas. Los roles de servidor se implementarán en los servidores del grupo.
+      - Si tiene previsto Collocate el servidor de mediación en el grupo de servidores front-end Enterprise Edition, asegúrese de que la casilla está activada. El rol de servidor se implementará en los servidores del grupo.
     
-      - Si desea implementar el Servidor de mediación como servidor independiente, desactive la casilla que corresponda. Implementará el Servidor de mediación en un paso de implementación independiente una vez que el Servidor front-end se haya implementado por completo.
+      - Si tiene previsto implementar el servidor de mediación como un servidor independiente, desactive la casilla correspondiente. Implementará el servidor de mediación en un paso de implementación independiente después de implementar completamente el servidor front-end.
+    
+    <div>
     
 
     > [!NOTE]
-    > Se recomienda combinar el servidor de mediación si fuera posible. Para obtener información detallada sobre la compatibilidad con servidores de mediación independientes o combinados, consulte <A href="lync-server-2013-components-and-topologies-for-mediation-server.md">Componentes y topologías para el servidor de mediación en Lync Server 2013</A> en la documentación de planeación.
+    > Recomendamos que Collocate el servidor de mediación, si es posible. Para obtener más información sobre la compatibilidad de los servidores de mediación colocados o independientes, vea <A href="lync-server-2013-components-and-topologies-for-mediation-server.md">componentes y topologías de servidor de mediación en Lync server 2013</A> en la documentación de planificación.
 
+    
+    </div>
 
+6.  La página **asociar roles de servidor con este grupo de servidores front-end** le permite definir y asociar roles de servidor con el grupo de servidores front-end. Se encuentra disponible el siguiente rol:
+    
+    **Habilitar un grupo**   perimetral define y asocia un único servidor perimetral o un grupo de servidores perimetrales. Un servidor perimetral facilita la comunicación y la colaboración entre usuarios de la organización y las personas ajenas a esta, incluidos usuarios federados.
+    
+    Existen dos escenarios posibles que puede usar para implementar y asociar los roles de servidor:
+    
+    Para el escenario uno, se define una nueva topología para una nueva instalación. Puede enfocar la instalación de una de estas dos maneras:
+    
+      - Deje la casilla desactivada y continúe con la definición de la topología. Una vez que hayan publicado, configurado y comprobado los roles de los servidores front-end y back-end, puede volver a ejecutar el Generador de topologías para agregar los servidores de roles a la topología. Esta estrategia le permitirá probar el grupo de servidores front-end y el servidor que ejecuta SQL Server sin complicaciones adicionales de roles adicionales. Una vez completada la prueba inicial, puede volver a ejecutar el Generador de topologías para seleccionar los roles que necesite implementar.
+    
+      - Seleccione los roles que necesita instalar y, luego, configure el hardware para hospedar los roles seleccionados.
+    
+    En el escenario dos, tiene una implementación existente y su infraestructura está lista para los nuevos roles o necesita asociar los roles existentes con un nuevo servidor front-end:
+    
+      - En este caso, deberá seleccionar los roles que pretende implementar o asociar con el nuevo servidor front-end. En cualquier caso, continuará con la definición de los roles, la configuración de cualquier hardware necesario y procederá con la instalación.
 
-6.  La página **Asociar roles de servidor a este grupo de servidores front-end** le permite definir y asociar roles de servidor al Grupo de servidores front-end. Los tres roles disponibles son:
+7.  En la página **definir la tienda SQL** , realice una de las siguientes acciones:
     
-    **Habilitar un Grupo de servidores perimetrales:** define y asocia un único Servidor perimetral o un grupo de servidores perimetrales. Un Servidor perimetral facilita la comunicación y la colaboración entre usuarios de la organización y personas de fuera de la misma, incluidos los usuarios federados.
+      - Para usar el almacén de SQL Server existente que ya se ha definido en la topología, seleccione una instancia del **Almacén de SQL**.
     
-    Existen dos escenarios posibles que pueden usarse para implementar y asociar roles de servidor:
+      - Para definir una nueva instancia de SQL Server para almacenar la información del grupo, haga clic en **nuevo** y, a continuación, especifique el **FQDN de SQL Server**en el cuadro de diálogo **definir nueva tienda SQL** .
     
-    Para el escenario uno, se define una nueva topología para una nueva instalación. Puede acometer la instalación de dos formas:
+      - Para especificar el nombre de una instancia de SQL Server, seleccione **Instancia con nombre** y, luego, especifique el nombre de la instancia.
     
-      - Dejar todas las casillas sin activar y proceder con la definición de la topología. Una vez que hayan publicado, configurado y comprobado los roles de servidor front-end y back-end, podrá volver a ejecutar Generador de topologías para agregar los servidores de roles a la topología. Esta estrategia le permitirá comprobar el Grupo de servidores front-end y el servidor basado en SQL Server sin las complicaciones añadidas de los roles adicionales. Una vez completada la prueba inicial, puede volver a ejecutar el Generador de topologías para seleccionar los roles que necesite implementar.
+      - Para usar la instancia predeterminada, haga clic en **Instancia predeterminada**.
     
-      - Seleccione los roles que necesita instalar y, a continuación, configure le hardware para hospedar los roles seleccionados.
-    
-    Para el escenario dos, tiene una implementación existente y la infraestructura está preparada para nuevos roles, o bien necesita asociar roles existentes con un nuevo Servidor front-end.
-    
-      - En este caso, seleccionará los roles que pretenda implementar o asociar con el nuevo Servidor front-end. En cualquier caso, continuará con la definición de los roles, la configuración de cualquier hardware necesario y procederá con la instalación.
+      - Para usar la creación de reflejos de SQL, seleccione **Habilitar reflejo SQL** y seleccione una instancia existente o cree una nueva.
 
-7.  En la página **Definir el almacén de SQL** , realice una de las operaciones siguientes:
+8.  En la página **definir el recurso compartido de archivos** , realice una de las siguientes acciones:
     
-      - Para usar el almacén de SQL Server existente que ya se ha definido en la topología, seleccione **Usar un almacén de SQL definido previamente** .
+      - Para usar un recurso compartido de archivos ya definido en la topología, seleccione **Usar un recurso compartido de archivos ya definido**.
     
-      - Para definir una nueva instancia de SQL Server para almacenar la información del grupo de servidores, haga clic en **Nuevo** y, a continuación, especifique **FQDN de SQL Server** en el cuadro de diálogo **Definir un nuevo almacén de SQL** .
+      - Para definir un nuevo recurso compartido de archivos, seleccione **Definir un nuevo recurso compartido de archivos** en el cuadro **FQDN del servidor de archivos**, escriba el FQDN del servidor de archivos existente donde se ubicará el recurso compartido de archivos y, luego, escriba un nombre para el recurso compartido de archivos en el cuadro **Recurso compartido de archivos**.
     
-      - Para especificar el nombre de una instancia de SQL Server, seleccione **Instancia con nombre** y, a continuación, especifique el nombre de la instancia.
-    
-      - Para usar la instancia predeterminada, haga clic en **Instancia predeterminada** .
-    
-      - Para utilizar la creación de reflejos de SQL, seleccione **Habilitar creación de reflejos de SQL** y seleccione una instancia existente o cree una nueva instancia.
-
-8.  En la página **Definir el uso compartido de archivos** , siga uno de estos procedimientos:
-    
-      - Para usar un uso compartido de archivos ya definido en la topología, seleccione **Usar un uso compartido de archivos ya definido** .
-    
-      - Para definir un nuevo recurso compartido de archivos, seleccione **Definir un nuevo recurso compartido de archivos** , en el cuadro **FQDN de servidor de archivos** , escriba el FQDN del servidor de archivos existente donde se ubicará el recurso compartido de archivos y, a continuación, escriba un nombre para el recurso compartido de archivos en el cuadro **Recurso compartido de archivos** .
-    
-    > [!IMPORTANT]  
-    > El recurso compartido de archivos para Lync Server 2013 no puede ubicarse en el Servidor front-end. Tenga en cuenta que, en este ejemplo, el recurso compartido de archivos se ha colocado en el servidor back-end basado en SQL Server. Esta podría no ser una ubicación óptima para los requisitos de su organización y es posible que un servidor de archivos fuera una opción mejor. Puede definir el uso compartido de archivos sin que este se haya creado. Tendrá que crear el uso compartido de archivos en la ubicación que defina antes de publicar la topología.
+    <div>
     
 
+    > [!IMPORTANT]
+    > El recurso compartido de archivos de Lync Server 2013 no se puede encontrar en el servidor front-end. Tenga en cuenta que en este ejemplo, el recurso compartido de archivos se ha ubicado en el servidor back-end basado en SQL Server. Es posible que no sea una ubicación óptima para los requisitos de la organización, y un servidor de archivos puede ser una mejor opción. Puede definir el recurso compartido de archivos sin que se haya creado el recurso compartido de archivos. Tendrá que crear el recurso compartido de archivos en la ubicación que defina antes de publicar la topología.
 
-9.  En la página **Especificar la dirección URL de servicios web** , siga uno o varios de estos procedimientos:
     
-    > [!IMPORTANT]  
-    > La dirección URL base es la identidad de Servicios web de la dirección URL, menos https://. Por ejemplo, si la dirección URL completa de Servicios web del grupo de servidores es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.
+    </div>
+
+9.  En la página **especificar la dirección URL de los servicios web** , siga uno de estos procedimientos o ambos:
     
+    <div>
     
-    > [!WARNING]  
-    > Si dispone de más de un Grupo de servidores front-end o de un Servidor front-end, el FQDN de servicios web externos ha de ser único. Por ejemplo, si define el FQDN de servicios web externos de un Servidor front-end como <strong>pool01.contoso.com</strong>, no puede usar <strong>pool01.contoso.com</strong> para otro Grupo de servidores front-end o Servidor front-end.
+
+    > [!IMPORTANT]
+    > La dirección URL base es la identidad de los servicios web para la dirección URL, sin la porción https://. Por ejemplo, si la dirección URL completa de los servicios web del grupo es https://pool01.contoso.net, la dirección URL base es pool01.contoso.net.
+
     
+    </div>
     
-    1.  Si está configurando el equilibrio de carga de DNS, active la casilla **Invalidar el FQDN del grupo de servidores de servicios web interno** , escriba la dirección URL base interna (que debe ser diferente al FQDN del grupo de servidores y podría ser, por ejemplo, internal-\<su dirección URL base\>) en **Dirección URL base interna** .
+    <div>
+    
+
+    > [!WARNING]
+    > Si tiene más de un grupo de servidores front-end o un servidor front-end, el FQDN de los servicios web externos debe ser único. Por ejemplo, si define el FQDN de los servicios web externos de un servidor front-end como <STRONG>pool01.contoso.com</STRONG>, no puede usar <STRONG>pool01.contoso.com</STRONG> para otro grupo de servidores front-end o servidor front-end.
+
+    
+    </div>
+    
+    1.  Si está configurando el equilibrio de carga de DNS, active la casilla invalidar el **FQDN del grupo de servicios Web internos** , escriba la dirección URL de base interna (que debe ser diferente de la del FQDN\<del grupo y\>podría ser, por ejemplo, la dirección URL base) en ** Dirección URL base interna**.
         
-        > [!WARNING]  
-        > Si decide omitir los servicios web externos con un FQDN autodefinido, todos los FQDN deben ser diferentes de otros Grupo de servidores front-end, Director o un Grupo de directores. <strong>Use solo caracteres estándar</strong> (incluidos A–Z, a–z, 0–9 y guiones) al definir direcciones URL o nombres de dominio completos. No use caracteres Unicode ni de subrayado. Los caracteres no estándar en una URL o FQDN no suelen admitirse en DNS externos y CA públicos (es decir, cuando la URL o FQDN deben asignarse al nombre del sujeto o al nombre alternativo de sujeto en el certificado).
+        <div>
         
+
+        > [!WARNING]
+        > Si decide omitir los servicios Web internos con un FQDN autodefinido, cada FQDN debe ser único de cualquier otro grupo de servidores front-end, director o grupo de directores. <STRONG>Utilice únicamente caracteres estándar</STRONG> (incluyendo A–Z, a–z, 0–9 y guiones) al definir direcciones URL o nombres de dominio completos. No utilice caracteres Unicode ni de subrayado. Los caracteres no estándar en una dirección URL o un FQDN a menudo no son compatibles con DNS externos y CA públicas (es decir, cuando la dirección URL o el FQDN deben asignarse al nombre de sujeto o al nombre alternativo de sujeto en el certificado).
+
+        
+        </div>
     
-    2.  Opcionalmente, escriba la dirección URL base externa en **Dirección URL base externa** . Deberá introducir la dirección URL base externa con el fin de diferenciar la asignación de nombres de dominio interna. Por ejemplo, el dominio interno es contoso.net, pero el nombre del dominio externo es contoso.com. La dirección URL se define mediante el nombre de dominio contoso.com. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa será el mismo que el nombre de dominio del FQDN del servidor proxy inverso. La mensajería instantánea y la presencia deben tener acceso HTTP al Grupo de servidores front-end.
+    2.  De manera opcional, escriba la dirección URL de base externa en **dirección URL de base externa**. Debe escribir la dirección URL básica externa para diferenciarla del nombre de dominio interno. Por ejemplo, el dominio interno es contoso.net, pero el nombre de dominio externo es contoso.com. Definiría la dirección URL con el nombre de dominio contoso.com. También es importante en el caso de un proxy inverso. El nombre de dominio de la dirección URL base externa sería el mismo que el nombre de dominio del FQDN del servidor proxy inverso. La mensajería instantánea y la presencia requieren acceso HTTP al grupo de servidores front-end.
     
-
-    > [!NOTE]
-    > Para usar el equilibrio de carga de DNS, debe crear los registros DNS correspondientes. Para obtener más información, consulte <A href="lync-server-2013-configure-dns-for-load-balancing.md">Configurar el DNS para el equilibrio de carga en Lync Server 2013</A>.
-
-
-
-10. Si seleccionó **Conferencias** en la página **Seleccionar características** , en la página **Seleccionar un servidor de Office Web Apps** seleccione **Asociar el grupo con un servidor de Office Web Apps** y haga clic en **Nuevo** o elija un Servidor Office Web Apps existente de la lista desplegable.
-
-11. En el cuadro de diálogo **Definición de un servidor de Office Web Apps nuevo** , escriba el nombre de dominio completo (FQDN) del equipo de su Servidor Office Web Apps en el cuadro **FQDN del servidor de Office Web Apps** . Cuando lo haga, la dirección URL de descubrimiento de su Servidor Office Web Apps debería aparecer automáticamente en el cuadro **Dirección URL de descubrimiento del servidor de Office Web Apps** .
-    
-    Si el Servidor Office Web Apps se instaló localmente y en la misma zona de red que Lync Server 2013, la opción **El servidor de Office Web Apps se implementa en una red externa (es decir, perimetral/Internet)** no se debería seleccionar.
-    
-    Si el Servidor Office Web Apps se implementa fuera de su firewall interno, seleccione la opción **El servidor de Office Web Apps se implementa en una red externa (es decir, perimetral/Internet)** .
+    <div>
     
 
     > [!NOTE]
-    > Para ver información detallada, consulte <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">Configuración de la integración de Office Web Apps Server y Lync Server 2013</A>.
+    > Para usar el equilibrio de carga de DNS, debe crear los registros DNS adecuados. Para obtener más información, vea <A href="lync-server-2013-configure-dns-for-load-balancing.md">configurar DNS para el equilibrio de carga en Lync Server 2013</A>.
 
+    
+    </div>
 
+10. Si seleccionó **conferencias** en la página **seleccionar características** , en la página **seleccionar un servidor de Office Web Apps** , seleccione **asociar grupo con un servidor de Office Web Apps** y, a continuación, haga clic en **nuevo** (o seleccione un Office Web Apps existente Servidor de la lista desplegable).
 
-12. En la página **Definir el almacén de SQL para el archivado** , seleccione una instancia existente o un servidor SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con los datos de archivado.
+11. En el cuadro de diálogo **Definir nuevo Office Web Apps Server**, escriba el nombre de dominio completo (FQDN) del equipo de Office Web Apps Server en el cuadro **FQDN de Office Web Apps Server**; al hacerlo, la dirección URL de descubrimiento de Office Web Apps Server deberá aparecer automáticamente en el cuadro **Dirección URL de descubrimiento de Office Web Apps Server**.
+    
+    Si Office Web Apps Server está instalado en local y en la misma zona de red que Lync Server 2013, la opción **Office Web Apps Server se implementa en una red externa (es decir,** no se debe seleccionar el perímetro o la Internet).
+    
+    Si Office Web Apps Server está implementado fuera del firewall interno, seleccione la opción **Office Web Apps Server se implementa en una red externa (esto es, perimetral/Internet)**.
+    
+    <div>
+    
 
-13. En la página **Definir el almacén SQL para la supervisión** , seleccione una instancia existente o un servidor SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con los datos de supervisión.
+    > [!NOTE]
+    > Para obtener más información, vea <A href="lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013.md">configurar la integración con Office Web Apps Server y Lync server 2013</A>.
 
-14. Haga clic en **Siguiente**. Si ha definido otros roles de servidor en la página **Asociar roles de servidor con este grupo front-end**, se abrirán páginas de asistente para la configuración de roles independientes para que pueda configurar los roles de servidor.
+    
+    </div>
+
+12. En la página **definir la tienda SQL** de archivado, seleccione una instancia existente o SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con el archivado de datos.
+
+13. En la página **definir la supervisión de la tienda SQL** , seleccione una instancia existente o SQL Server, o bien defina una nueva instancia para almacenar los datos asociados con la supervisión de datos.
+
+14. Haga clic en **Siguiente**. Si definió otros servidores de roles en la página **asociar roles de servidor con este grupo de servidores front-end** , se abrirán las páginas del Asistente para configuración de roles para que pueda configurar los roles de servidor. Para obtener más información, vea lo siguiente:
     
     [Implementar el acceso de usuarios externos en Lync Server 2013](lync-server-2013-deploying-external-user-access.md)
 
-15. Si no ha seleccionado roles de servidor adicionales para configurarlos e implementarlos, o una vez finalizada la configuración de los roles de servidor adicionales, haga clic en **Finalizar** .
+15. Si no ha seleccionado roles de servidor adicionales para configurar e implementar, o cuando haya finalizado la configuración de los servidores de roles adicionales, haga clic en **Finalizar**.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

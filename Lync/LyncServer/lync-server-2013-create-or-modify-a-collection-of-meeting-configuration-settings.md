@@ -1,29 +1,51 @@
-﻿---
-title: "Crear/modificar conjunto de opciones de configuración reuniones en Lync Server 2013"
-TOCTitle: "Créa. ou modif. d’une coll. de param. de conf. de réunion ds Lync Server 2013"
-ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ721889(v=OCS.15)
-ms:contentKeyID: 49889691
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Crear o modificar una colección de valores de configuración de reuniones
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of meeting configuration settings
+ms:assetid: ce6773c1-a0d5-4405-8e32-33a6f3a46a1a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ721889(v=OCS.15)
+ms:contentKeyID: 49733822
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 2b948d5aded2447e5319378a613fdf474c3e5450
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835814"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación o modificación de un conjunto de opciones de configuración de reuniones en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="create-or-modify-a-collection-of-meeting-configuration-settings-in-lync-server-2013"></a>Crear o modificar una colección de opciones de configuración de reuniones en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-Use la configuración de la página Configuración de reunión para definir diversas características de la experiencia de participar en una reunión. Normalmente, la participación se rige por la configuración global. También puede crear configuraciones de participación en reuniones en el nivel de sitio y en el nivel de grupo de servidores. Si crea una configuración en el nivel de grupo de servidores, esa configuración se aplicará a todas las reuniones que ese grupo de servidores hospeda. Si no crea ninguna configuración en el nivel de grupo de servidores, se aplicará la configuración del nivel de sitio, si existe. Si no define la configuración en el nivel de sitio, se aplicará la configuración global a todas las reuniones.
+Puede usar la configuración de la página Configuración de la reunión para definir diversas características de la experiencia de unirse a la reunión. De forma predeterminada, la configuración global define la experiencia de la combinación. También puede crear la configuración de combinación de reuniones en el nivel de sitio y en el nivel de grupo. Si crea una configuración a nivel de grupo, esa configuración se aplicará a todas las reuniones que ese grupo de servidores hospeda. Si no crea ninguna configuración a nivel de grupo, se aplicará la configuración a nivel de sitio, si existe. Si no define la configuración a nivel de sitio, se aplicará la configuración global a todas las reuniones.
 
-## Para crear nuevas configuraciones de participación en reuniones
+<div>
+
+## <a name="to-create-new-meeting-join-settings"></a>Para crear una nueva configuración de unirse a la reunión
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
+3.  En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **configuración de reunión**.
 
 4.  En la página **Configuración de reunión**, haga clic en **Nueva** y después realice una de las siguientes acciones:
     
@@ -45,60 +67,96 @@ Use la configuración de la página Configuración de reunión para definir dive
 
 8.  Para evitar que se admitan automáticamente a usuarios anónimos (sin autenticar), desactive la casilla **Admitir usuarios anónimos de forma predeterminada**. Normalmente, los usuarios anónimos se admiten automáticamente en las reuniones.
 
-9.  Para personalizar la invitación a la reunión que se envía a los participantes, haga lo siguiente. Recuerde que la longitud máxima de las direcciones URL y el texto de pie de página personalizado es de 1 KB. Salvo en el caso de la **Dirección URL de la Ayuda**, si no especifica un valor para las personalizaciones, no se incluirán en la reunión. Si no incluye una dirección URL de ayuda personalizada, en la invitación aparecerá la dirección URL de ayuda habitual para Lync.
+9.  Para personalizar la invitación a la reunión que se envía a los participantes, haga lo siguiente. Recuerde que la longitud máxima de las direcciones URL y el texto de pie de página personalizado es de 1 KB. Salvo en el caso de la **Dirección URL de la Ayuda**, si no especifica un valor para las personalizaciones, no se incluirán en la reunión. Si no incluye una dirección URL de ayuda personalizada, la dirección URL de la ayuda predeterminada para Lync se mostrará en la invitación.
     
-      - Para personalizar el logotipo que aparece en la invitación de la reunión, en **Dirección URL del logotipo**, especifique la ubicación del logotipo.
+      - Para personalizar el logotipo que aparece en la invitación a la reunión, en **dirección URL del logotipo** introduzca la ubicación del logotipo.
+        
+        <div>
         
 
         > [!NOTE]
         > El logotipo debe ser una imagen GIF o JPG con un tamaño de 188 por 30 píxeles.
 
+        
+        </div>
     
-      - Para personalizar el texto de ayuda que aparece en la invitación a la reunión, en la **Dirección URL de la Ayuda**, especifique la ubicación del texto de ayuda.
+      - Para personalizar el texto de ayuda que aparece en la invitación a la reunión, en la **Dirección URL de la Ayuda**, introduzca la ubicación del texto de ayuda.
     
-      - Para personalizar el texto legal que aparece en la invitación de la reunión, en **Dirección URL del texto legal**, especifique la ubicación del logotipo.
+      - Para personalizar el texto legal que aparece en la invitación de la reunión, en **Dirección URL del texto legal**, introduzca la ubicación del texto legal.
     
       - Para personalizar el texto del pie de página que aparece en la invitación a la reunión, en **Texto de pie de página personalizado**, escriba el texto.
 
 10. Haga clic en **Confirmar**.
 
-## Para modificar una colección de configuraciones de reunión existente
+</div>
+
+<div>
+
+## <a name="to-modify-an-existing-collection-of-meeting-configurations"></a>Para modificar una colección de configuraciones de reunión existente
 
 1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
-3.  En la barra de navegación izquierda, haga clic en **Conferencia** y después en **Configuración de reunión**.
+3.  En la barra de navegación izquierda, haga clic en **Conferencia** y, a continuación, en **configuración de reunión**.
 
 4.  En la lista de configuraciones de la reunión, haga clic en la configuración que desee cambiar, luego, haga clic en **Editar** y, por último, en **Mostrar detalles**.
 
-5.  En **Editar configuración de reunión**, modifique cualquiera de las configuraciones de participación en reuniones, excepto el nombre, que no se puede modificar.
+5.  En **Editar configuración de reunión**, modifique cualquiera de las opciones de configuración, excepto el nombre de la configuración, que no se puede modificar.
 
 6.  Haga clic en **Confirmar**.
 
-## Crear configuraciones de reunión nuevas con cmdlets de Windows PowerShell
+</div>
 
-Las configuraciones de reunión también se pueden crear (si bien solo en el ámbito del sitio) con Windows PowerShell y el cmdlet New-CsMeetingConfiguration. Este cmdlet se ejecuta desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Para crear configuraciones de reunión que usen los valores predeterminados
+## <a name="creating-new-meeting-configuration-settings-by-using-windows-powershell-cmdlets"></a>Crear una nueva configuración de reunión mediante cmdlets de Windows PowerShell
 
-  - Este comando crea un conjunto de configuraciones de reunión nuevo para el sitio de Redmond:
+Se pueden crear parámetros de configuración de reunión (solo en el ámbito del sitio) mediante Windows PowerShell y el cmdlet New-CsMeetingConfiguration. Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-create-meeting-configuration-settings-that-use-the-default-values"></a>Para crear una configuración de reunión que use los valores predeterminados
+
+  - Este comando crea un nuevo conjunto de opciones de configuración de reunión para el sitio de Redmond:
     
         New-CsMeetingConfiguration -Identity "site:Redmond"
     
     Como no se especificó ningún parámetro (salvo el parámetro de identidad obligatorio) en el comando anterior, la configuración de reunión nueva usará los valores habituales para todas sus propiedades.
 
-## Para cambiar un valor de propiedad al crear configuraciones de reunión
+</div>
+
+<div>
+
+## <a name="to-change-a-property-value-when-creating-meeting-configuration-settings"></a>Para cambiar el valor de una propiedad al crear una configuración de reunión
 
   - Para crear configuraciones que usen valores de propiedad diferentes, solo tiene que incluir el parámetro y el valor de parámetro adecuado. Por ejemplo, para crear una colección de configuraciones de reunión que admitan siempre a todos los participantes de una reunión como moderadores, use un comando como este:
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"
 
-## Para cambiar varios valores de propiedad al crear configuraciones de reunión
+</div>
 
-  - Puede cambiar varios valores de propiedad incluyendo varios parámetros. Por ejemplo, este comando admite a todos los participantes de la reunión como moderadores y también obliga a los usuarios de RTC a permanecer en la sala de espera hasta que se les admita formalmente a la reunión:
+<div>
+
+## <a name="to-change-multiple-property-values-when-creating-meeting-configuration-settings"></a>Para cambiar los valores de varias propiedades al crear una configuración de reunión
+
+  - Puede incluir varios parámetros para modificar varios valores de propiedad. Por ejemplo, este comando admite a todos los participantes en una reunión como moderador y también obliga a los usuarios de la RTC a esperar en la sala de espera hasta que se admitan formalmente en la reunión:
     
         New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone" -PSTNUCallersBypassLobby $True
 
-Para más información, vea el tema de ayuda del cmdlet [New-CsMeetingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsMeetingConfiguration).
+</div>
+
+Para obtener más información, vea el tema de ayuda sobre el cmdlet [New-CsMeetingConfiguration](https://technet.microsoft.com/en-us/library/Gg398065(v=OCS.15)) .
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

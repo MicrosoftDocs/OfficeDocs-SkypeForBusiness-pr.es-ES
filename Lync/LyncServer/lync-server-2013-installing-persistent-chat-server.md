@@ -1,19 +1,49 @@
-﻿---
-title: 'Lync Server 2013: Instalación del servidor de chat persistente'
-TOCTitle: Instalación del servidor de chat persistente
-ms:assetid: 58a17327-5896-4f03-8009-cad28f2ea36f
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ204918(v=OCS.15)
-ms:contentKeyID: 48275324
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instalación del servidor de chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Installing Persistent Chat Server
+ms:assetid: 58a17327-5896-4f03-8009-cad28f2ea36f
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204918(v=OCS.15)
+ms:contentKeyID: 48184216
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 005109c963ccbe8b046c3249bfdbbfbdcf7c2c22
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34834978"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instalación del servidor de chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="installing-persistent-chat-server-in-lync-server-2013"></a>Instalación del servidor de chat persistente en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-01_
 
-La instalación de Servidor de chat persistente está integrada en la configuración de Lync Server 2013 y usa el mismo programa previo que Lync Server 2013 para la instalación. Para instrucciones de instalación, vea [Implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de la implementación.
+La instalación del servidor de chat persistente está integrada en el programa de instalación de Lync Server 2013 y usa el mismo programa previo que usa Lync Server 2013 para la instalación. Para obtener instrucciones de instalación, consulte [implementar Lync Server 2013](lync-server-2013-deploying-lync-server.md) en la documentación de implementación.
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

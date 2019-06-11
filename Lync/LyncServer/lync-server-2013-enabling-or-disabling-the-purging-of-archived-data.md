@@ -1,90 +1,147 @@
-﻿---
-title: Habilitar o deshabilitar la depuración de datos archivados
-TOCTitle: Habilitar o deshabilitar la depuración de datos archivados
-ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520968(v=OCS.15)
-ms:contentKeyID: 48274741
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar o deshabilitar la purga de datos archivados'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enabling or disabling the purging of archived data
+ms:assetid: 28cef09f-0970-4fc3-8315-f26689e3e187
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520968(v=OCS.15)
+ms:contentKeyID: 48183678
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 28eba32895ca928b40e42a04d8d701c7257f1e43
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835237"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar o deshabilitar la depuración de datos archivados
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="enabling-or-disabling-the-purging-of-archived-data-in-lync-server-2013"></a>Habilitar o deshabilitar la purga de datos archivados en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2013-02-23_
 
-En Panel de control de Lync Server 2013, usa las configuraciones de archivado para habilitar y deshabilitar la depuración y configurar la manera en que se implementa la depuración. Esto incluye las siguientes configuraciones de archivado:
+En el panel de control de Lync Server 2013, se usan configuraciones de archivado para habilitar y deshabilitar la purga y configuración de la implementación de la purga. Esto incluye las siguientes configuraciones de archivado:
 
-  - Una configuración global que se crea de manera predeterminada al implementar Lync Server 2013.
+  - Una configuración global que se crea de forma predeterminada al implementar Lync Server 2013.
 
-  - Las configuraciones de nivel de sitio opcional y nivel de grupo de servidores que puede crear y usar para especificar la manera en que se implementa el archivado para sitios o grupos de servidores específicos.
+  - Configuraciones de nivel de sitio y de grupo opcionales que puede crear y usar para especificar cómo se implementa el archivado para grupos o sitios específicos.
 
-Configure inicialmente configuraciones de archivado al implementar el archivado, aunque podrá cambiar, agregar y eliminar las configuraciones después de la implementación. Para obtener información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que se pueden especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación sobre planificación, sobre implementación o sobre operaciones.
+Inicialmente, debe configurar las configuraciones de archivado al implementar el archivado, pero puede cambiar, agregar y eliminar configuraciones después de la implementación. Para obtener más información sobre cómo se implementan las configuraciones de archivado, incluidas las opciones que puede especificar y la jerarquía de las configuraciones de archivado, consulte [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md) en la documentación de planeación, implementación documentación u operación.
 
-
-> [!NOTE]
-> Para utilizar el archivado para los usuarios hospedados en Lync Server 2013 debe configurar las directivas de Archivado para especificar si habilita el archivado para las comunicaciones internas, para las externas o para ambas. De forma predeterminada, el archivado no está habilitado ni para la comunicación interna ni para la externa. Antes de habilitar el archivado de ninguna directiva, debería especificar la configuración de archivado pertinente para su implementación y, de manera opcional, para sitios y grupos específicos, descritos en esta sección. Para obtener información sobre cómo habilitar el archivado, consulte <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">Configurar y asignar directivas de archivado</A> en la documentación sobre implementación.<BR>Si decide después de implementar Archivado que desea usar la integración de Microsoft Exchange para almacenar datos y archivos de archivado en servidores Exchange 2013 y todos sus usuarios están alojados en sus servidores Exchange 2013, debe quitar de su topología la configuración de la base de datos SQL Server. Deberá usar Generador de topologías para hacerlo. Para obtener más información, vea <A href="lync-server-2013-changing-archiving-database-options.md">Cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación referente a las operaciones.
+<div>
 
 
+> [!NOTE]  
+> Para usar el archivado para los usuarios alojados en Lync Server 2013 debe configurar las directivas de archivado para especificar si desea habilitar el archivado de las comunicaciones internas, de las comunicaciones externas o de ambos. De forma predeterminada, el archivado no está habilitado para las comunicaciones internas o externas. Antes de habilitar el archivado en cualquier directiva, debe especificar las configuraciones de archivado apropiadas para su implementación y, opcionalmente, para determinados sitios y grupos, tal y como se describe en esta sección. Para obtener más información sobre cómo habilitar el archivado, vea <A href="lync-server-2013-configuring-and-assigning-archiving-policies.md">configurar y asignar directivas de archivado en Lync Server 2013</A> en la documentación de implementación.<BR>Si decide que después de implementar el archivado desea usar la integración de Microsoft Exchange para almacenar datos y archivos en servidores de Exchange 2013 y todos los usuarios están alojados en los servidores de Exchange 2013, debe quitar la configuración de la base de datos de SQL Server desde su topología. Para ello, debe usar el generador de topología. Para obtener más información, vea <A href="lync-server-2013-changing-archiving-database-options.md">cambiar las opciones de base de datos de archivado en Lync Server 2013</A> en la documentación de operaciones.
 
-## Para habilitar o deshabilitar la depuración de archivado
+
+
+</div>
+
+<div>
+
+## <a name="to-enable-or-disable-purging-for-archiving"></a>Para habilitar o deshabilitar la depuración para el archivado
 
 1.  Desde una cuenta de usuario que se asigne al rol CsArchivingAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+2.  Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server. Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
 
 3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, después, en **Configuración de archivado**.
 
-4.  Haga clic en el nombre de la configuración global, de sitio o de grupo de servidores adecuada en la lista de configuraciones de archivado, haga clic en **Editar**, haga clic en **Mostrar detalles** y, a continuación, haga lo siguiente:
+4.  Haga clic en el nombre de la configuración global, de sitio o de grupo adecuada en la lista de configuraciones de archivado; haga clic en **Editar**, en **Mostrar detalles** y, luego, haga lo siguiente:
     
-      - Para habilitar la depuración, active la casilla de verificación **Habilitar depuración de datos archivados** y siga uno de estos procedimientos:
+      - Para habilitar la purga, active la casilla **Habilitar purgado de los datos de archivado** y siga uno de estos procedimientos:
         
-          - Para depurar todos los registros, haga clic en **Depurar datos archivados exportados y datos archivados almacenados tras una duración máxima (días)** y luego especifique el número de días.
+          - Para purgar todos los registros, haga clic en **Purgar los datos de archivado exportados y los datos de archivado almacenados tras la duración máxima (días)** y, luego, especifique la cantidad de días.
         
-          - Para depurar solo los datos que se han exportado, haga clic en **Depurar solo datos archivados exportados**.
+          - Para purgar solo los datos que se han exportado, haga clic en **Purgar solo datos de archivado exportados**.
     
-      - Para deshabilitar la depuración, desactive la casilla de verificación **Habilitar depuración de datos archivados**.
+      - Para deshabilitar la purga, desactive la casilla **Habilitar purgado de los datos de archivado**.
 
 5.  Haga clic en **Confirmar**.
 
-## Habilitar y deshabilitar la depuración de datos de archivado mediante los cmdlets de Shell de administración de Lync Server
+</div>
 
-La habilitación y la deshabilitación de la depuración automatizada de los datos de archivado también se pueden administrar mediante Windows PowerShell y el cmdlet **Set-CsArchivingConfiguration**. Este cmdlet se puede ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div>
 
-## Habilitar la depuración de todos los datos de archivado
+## <a name="enabling-or-disabling-the-purging-of-archiving-data-by-using-windows-powershell-cmdlets"></a>Habilitar o deshabilitar la purga de datos de archivado mediante cmdlets de Windows PowerShell
 
-  - Para habilitar la depuración de todos los datos de archivado establezca la propiedad **EnablePurging** en verdadero ($True). Por ejemplo:
+Habilitar y deshabilitar la purga automática de datos de archivado se puede administrar mediante Windows PowerShell y el cmdlet **set-CsArchivingConfiguration** . Este cmdlet se puede ejecutar desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.
+
+<div>
+
+## <a name="to-enable-the-purging-of-all-archiving-data"></a>Para habilitar la purga de todos los datos de archivado
+
+  - Para habilitar la purga de todos los datos de archivado, establezca la propiedad **EnablePurging** en true ($true). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
     
-    Una vez se ejecuta este comando, todos los días Lync Server depurará todos los registros de archivado con mayor antigüedad que el valor especificado para la propiedad **KeepArchivingDataForDays**.
+    Después de ejecutar este comando, cada día, Lync Server purgará todos los registros de archivado anteriores al valor especificado para la propiedad **KeepArchivingDataForDays** .
 
-## Habilitar la depuración solo de los datos de archivado exportados
+</div>
 
-  - Para limitar la depuración a los registros de archivado que se han exportado a un archivo de datos (mediante el cmdlet [Export-CsArchivingData](https://docs.microsoft.com/en-us/powershell/module/skype/Export-CsArchivingData)) también debe establecer la propiedad PurgeExportedArchivesOnly en True ($True). Por ejemplo:
+<div>
+
+## <a name="to-enable-the-purging-only-of-exported-archiving-data"></a>Para habilitar la purga solamente de datos de archivado exportados
+
+  - Para limitar la purga a los registros que se han exportado a un archivo de datos (mediante el cmdlet [Export-CsArchivingData](https://docs.microsoft.com/powershell/module/skype/Export-CsArchivingData) ), también debe establecer la propiedad PurgeExportedArchivesOnly en True ($true). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
     
-    Una vez se ejecuta este comando, Lync Server solo depurará registros de archivado que cumplan dos criterios: 1) son más antiguos que el valor especificado para la propiedad **KeepArchivingDataForDays**; y 2) se han exportado mediante el cmdlet **Export-CsArchivingData**.
+    Después de ejecutar este comando, Lync Server solo purgará los registros de archivado que cumplan con dos criterios: 1) son anteriores al valor especificado para la propiedad **KeepArchivingDataForDays** ; y 2) se han exportado con el cmdlet **Export-CsArchivingData** .
 
-## Deshabilitar la depuración de todos los datos de archivado
+</div>
 
-  - Para deshabilitar la depuración automatizada de los registros de archivados, establezca la propiedad **EnablePurging** en False ($False). Por ejemplo:
+<div>
+
+## <a name="to-disable-the-purging-of-all-archiving-data"></a>Para deshabilitar la purga de todos los datos de archivado
+
+  - Para deshabilitar la purga automática de registros archivados, establezca la propiedad **EnablePurging** en falso ($false). Por ejemplo:
     
         Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $False
 
-Para obtener más información, incluyendo opciones adicionales para la depuración de datos de archivado, vea el tema de la Ayuda para el cmdlet [Set-CsArchivingConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsArchivingConfiguration).
+</div>
 
-## Vea también
+Para obtener más información, incluidas opciones adicionales para purgar el archivado de datos, consulte el tema de ayuda sobre el cmdlet [set-CsArchivingConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsArchivingConfiguration) .
 
-#### Conceptos
+</div>
+
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Cómo funciona el archivado en Lync Server 2013](lync-server-2013-how-archiving-works.md)  
 
-#### Otros recursos
 
-[Configurar y asignar directivas de archivado](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
-[Administrar las opciones de configuración de archivado de Lync Server 2013 para su organización, sitios y grupos de servidores](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)
+[Configurar y asignar directivas de archivado en Lync Server 2013](lync-server-2013-configuring-and-assigning-archiving-policies.md)  
+[Administrar las opciones de configuración de archivado en Lync Server 2013 para su organización, sitios y grupos](lync-server-2013-managing-archiving-configuration-options-for-your-organization-sites-and-pools.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

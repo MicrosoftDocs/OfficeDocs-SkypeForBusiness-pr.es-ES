@@ -1,23 +1,43 @@
-﻿---
-title: 'Lync Server 2013: personalización del archivo de definición XSLT'
-TOCTitle: Personalización del archivo de definición XSLT
-ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ679898(v=OCS.15)
-ms:contentKeyID: 49889811
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: personalización del archivo de definición XSLT'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Customizing the XSLT definition file
+ms:assetid: f18dd78c-3598-4f38-b496-96b750c6e518
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ679898(v=OCS.15)
+ms:contentKeyID: 49557733
+ms.date: 09/11/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: e57acbd4cbcd66a3a3371c4ce144fcd2a23bd0ed
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835743"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Personalización del archivo de definición XSLT en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="customizing-the-xslt-definition-file-in-lync-server-2013"></a>Personalización del archivo de definición XSLT en Lync Server 2013
 
-El servicio de cumplimiento registra y archiva datos relacionados con cada conversación de Lync Server 2013, Servidor de chat persistente, incluido el hecho de que un participante:
+</div>
 
-  - Se una a un salón de Chat persistente
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-09-11_
+
+El servicio de cumplimiento almacena y archiva datos relacionados con cada 2013 de Lync Server, una conversación del servidor de chat persistente, incluso cuando un participante:
+
+  - Se une a un salón de chat persistente
 
   - Abandone un salón de chat
 
@@ -29,11 +49,13 @@ El servicio de cumplimiento registra y archiva datos relacionados con cada conve
 
   - Descargue un archivo
 
-Los datos se proporcionan en formato XML, que puede convertir al formato que mejor se adapte a las necesidades de su organización, mediante el uso de un archivo de definición XSLT. En este tema se describe el archivo XML que crea el Servicio de cumplimiento. También proporciona ejemplos de archivos de definición XSLT y de salida.
+Los datos se entregan como XML, que puede transformar en el formato que mejor se adapte a su organización, mediante un archivo de definición XSLT. En este tema se describe el archivo XML que crea el Servicio de cumplimiento. También proporciona ejemplos de archivos de salida y de definición XSLT.
 
-## Formato de salida
+<div>
 
-La salida del Servicio de cumplimiento se categoriza por conversación (el elemento Conversation) y, posteriormente, por mensaje (el elemento Messages), tal como se muestra en el siguiente código de ejemplo.
+## <a name="output-format"></a>Formato de salida
+
+La salida del servicio de cumplimiento se clasifica por conversación (elemento de conversación) y, a continuación, por mensaje (el elemento messages), como se muestra en el siguiente ejemplo de código.
 
     <?xml version="1.0" encoding="utf-8" ?> 
     <Conversations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -48,14 +70,14 @@ La salida del Servicio de cumplimiento se categoriza por conversación (el eleme
       </Conversation>
     </Conversations>
 
-Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, StartTimeUTC y EndTimeUTC). El elemento Channel contiene el Identificador uniforme de recursos (URI) del salón de chat, mientras que el elemento FirstMessage describe el primer mensaje del elemento Messages. Los elementos StartTimeUTC y EndTimeUTC contienen las horas de inicio y de finalización de la conversación, tal como se muestra en el siguiente código de ejemplo.
+Un elemento Conversation contiene cuatro elementos (Channel, FirstMessage, StartTimeUTC y EndTimeUTC). El elemento Channel contiene el Identificador uniforme de recursos (URI) del salón de chat, mientras que el elemento FirstMessage describe el primer mensaje del elemento Messages. Los elementos StartTimeUTC y EndTimeUTC proporcionan las horas de inicio y finalización de la conversación, tal y como se muestra en el siguiente ejemplo de código.
 
     <<FirstMessage type="JOIN" content="" id="0">
           <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
           <DateTimeUTC since1970="1212610540953" string="2008-06-04T20:15:40.9535482Z" long="633482073409535482" /> 
     </FirstMessage>
 
-Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa el usuario que envía el mensaje, mientras que el elemento DateTimeUTC representa el momento en el que tiene lugar un evento, tal como se muestra en el siguiente código de ejemplo.
+Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atributos (Type, Content e ID). El elemento Sender representa al usuario que envía el mensaje y el elemento DateTimeUTC representa cuando se produce un evento, tal y como se muestra en el siguiente ejemplo de código.
 
     <Message type="JOIN" content="" id="0">
       <Sender UserName="TestUser kazuto" id="10" email="kazuto@litwareinc.com" internal="true" uri="kazuto@litwareinc.com" /> 
@@ -64,7 +86,7 @@ Un elemento Message contiene dos elementos (Sender y DateTimeUTC) y tres atribut
 
 En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 
-### Atributos del elemento Messages
+### <a name="messages-element-attributes"></a>Atributos del elemento Messages
 
 <table>
 <colgroup>
@@ -81,17 +103,17 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Tipo</p></td>
-<td><p>Especifica el tipo de mensaje. Los tipos de mensaje se describen en la tabla Tipos de mensaje de los elementos de mensaje.</p></td>
+<td><p>Type</p></td>
+<td><p>Especifica el tipo de mensaje. Los tipos de mensajes se describen en la tabla Tipos de mensajes de los elementos de mensaje.</p></td>
 <td><p>Obligatorio</p></td>
 </tr>
 <tr class="even">
-<td><p>Contenido</p></td>
+<td><p>Content</p></td>
 <td><p>Contiene el contenido del mensaje. Aquellos mensajes que presenten el tipo Join o Part no usan este atributo.</p></td>
 <td><p>Opcional</p></td>
 </tr>
 <tr class="odd">
-<td><p>Id.</p></td>
+<td><p>ID</p></td>
 <td><p>Especifica el identificador único del contenido. Este atributo solo se usa cuando los mensajes son del tipo Chat.</p></td>
 <td><p>Opcional</p></td>
 </tr>
@@ -99,9 +121,9 @@ En la tabla siguiente se describen los atributos de mensaje Type, Content e ID.
 </table>
 
 
-Cada elemento Sender contiene cinco atributos: nombre de usuario, identificador, correo electrónico, interno y URI. Estos atributos se describen en la siguiente tabla.
+Cada elemento Sender contiene cinco atributos: user name, ID, email, internal y URI. Estos atributos se describen en la siguiente tabla.
 
-### Atributos del elemento Sender
+### <a name="sender-element-attributes"></a>Atributos del elemento Sender
 
 <table>
 <colgroup>
@@ -118,27 +140,27 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, identificador,
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>UserName</p></td>
+<td><p>Username</p></td>
 <td><p>El nombre del remitente.</p></td>
 <td><p>Opcional</p></td>
 </tr>
 <tr class="even">
-<td><p>Id.</p></td>
+<td><p>ID</p></td>
 <td><p>Identificador único del remitente.</p></td>
 <td><p>Obligatorio</p></td>
 </tr>
 <tr class="odd">
-<td><p>Correo electrónico</p></td>
+<td><p>Email</p></td>
 <td><p>Dirección de correo electrónico del remitente.</p></td>
 <td><p>Opcional</p></td>
 </tr>
 <tr class="even">
-<td><p>Interna</p></td>
-<td><p>Determina si el usuario es un usuario interno o un usuario federado. Si el valor está establecido en true, el usuario es interno.</p></td>
+<td><p>Internal</p></td>
+<td><p>Determina si el usuario es un usuario interno o un usuario federado. Si el valor está establecido en True, el usuario es interno.</p></td>
 <td><p>Opcional</p></td>
 </tr>
 <tr class="odd">
-<td><p>Uri</p></td>
+<td><p>URI</p></td>
 <td><p>URI de SIP del usuario.</p></td>
 <td><p>Obligatorio</p></td>
 </tr>
@@ -146,9 +168,9 @@ Cada elemento Sender contiene cinco atributos: nombre de usuario, identificador,
 </table>
 
 
-En la siguiente tabla se describen los tipos de mensaje que el elemento Messages puede contener. Contiene ejemplos también de la forma en la que se usa cada elemento.
+En la siguiente tabla se describen los tipos de mensajes que el elemento Messages puede contener. Contiene ejemplos también de la forma en la que se usa cada elemento.
 
-### Tipos de mensaje del elemento Message
+### <a name="message-element-message-types"></a>Tipos de mensajes del elemento Message
 
 <table>
 <colgroup>
@@ -165,7 +187,7 @@ En la siguiente tabla se describen los tipos de mensaje que el elemento Messages
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Unirse</p></td>
+<td><p>Join</p></td>
 <td><p>Un usuario se une a un salón de chat.</p></td>
 <td><pre><code>&lt;Message type=&quot;JOIN&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt;Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -173,7 +195,7 @@ En la siguiente tabla se describen los tipos de mensaje que el elemento Messages
 &lt;/Message</code></pre></td>
 </tr>
 <tr class="even">
-<td><p>Parte</p></td>
+<td><p>Part</p></td>
 <td><p>Un usuario sale de un salón de chat.</p></td>
 <td><pre><code>&lt;Message type=&quot;PART&quot; content=&quot;&quot; id=&quot;0&quot;&gt;
   &lt; Sender UserName=&quot;TestUser kazuto&quot; id=&quot;10&quot; email=&quot;kazuto@litwareinc.com&quot; internal=&quot;true&quot; uri=&quot;kazuto@litwareinc.com&quot; /&gt; 
@@ -216,9 +238,11 @@ En la siguiente tabla se describen los tipos de mensaje que el elemento Messages
 </table>
 
 
-## XSD de salida de Chat persistente predeterminado y transformación XSL de ejemplo
+<div>
 
-El siguiente código de ejemplo muestra la salida predeterminada del Servidor de cumplimiento.
+## <a name="default-persistent-chat-output-xsd-and-example-xsl-transform"></a>Salida de chat persistente predeterminada XSD y transformación XSL de ejemplo
+
+El siguiente ejemplo de código contiene el resultado predeterminado del servidor de cumplimiento.
 
     <?xml version="1.0" encoding="utf-8"?>
     <xs:schema id="Conversations"  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
@@ -315,7 +339,7 @@ El siguiente código de ejemplo muestra la salida predeterminada del Servidor de
       </xs:element>
     </xs:schema>
 
-El siguiente código de ejemplo contiene una transformación XSL de muestra.
+El siguiente ejemplo de código contiene una transformación XSL de ejemplo.
 
     <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs">
        <xsl:output method="xml" encoding="UTF-8" indent="yes" />
@@ -384,4 +408,18 @@ El siguiente código de ejemplo contiene una transformación XSL de muestra.
           <DateTimeUTC><xsl:value-of select="DateTimeUTC/@since1970" /></DateTimeUTC>
        </xsl:template>
     </xsl:stylesheet>
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
