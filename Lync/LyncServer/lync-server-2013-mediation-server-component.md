@@ -1,67 +1,93 @@
-﻿---
-title: 'Lync Server 2013: Componente de servidor de mediación'
-TOCTitle: Componente de servidor de mediación
-ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398399(v=OCS.15)
-ms:contentKeyID: 48275377
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: componente de servidor de mediación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Mediation Server component
+ms:assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398399(v=OCS.15)
+ms:contentKeyID: 48184239
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a1f3476f8b4e99b2abccb67f1d75446a126df03d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34827231"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Componente de servidor de mediación en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="mediation-server-component-in-lync-server-2013"></a>Componente de servidor de mediación de Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-09-21_
 
-Debe implementar un Servidor de mediación de Lync Server 2013 si implementa la carga de trabajo de Telefonía IP empresarial. En esta sección se describe la funcionalidad básica, dependencias, topologías básicas y directrices de planeación.
+Debe implementar Lync Server 2013, servidor de mediación si implementa la carga de trabajo de telefonía IP empresarial. En esta sección se describen la funcionalidad básica, las dependencias, las topologías básicas y las directrices de planificación.
 
-El Servidor de mediación traduce la señalización y, en algunas configuraciones, los medios entre el servidor de Lync Server 2013, la infraestructura de Telefonía IP empresarial y una puerta de enlace de red telefónica conmutada (RTC) o un tronco de Protocolo de inicio de sesión (SIP). En el lado de Lync Server 2013, el Servidor de mediación escucha en una única dirección de transporte de Mutual TLS (MTLS). En el lado de la puerta de enlace, el servidor de mediación escucha en todos los puertos de escucha asociados con los troncos definidos en el documento de topología. Todas las puertas de enlace cualificadas deben admitir TLS, pero pueden estar habilitadas también para TCP. El protocolo TCP es compatible con puertas de enlace que no admiten TLS.
+El servidor de mediación traduce la señalización y, en algunas configuraciones, multimedia entre su Lync Server 2013 interno, la infraestructura de telefonía IP empresarial y una puerta de enlace de red telefónica conmutada (RTC) o un tronco de protocolo de inicio de sesión (SIP). En el lado de Lync Server 2013, el servidor de mediación escucha en una única dirección de transporte TLS Mutual (MTLS). En la puerta de enlace, el servidor de mediación escucha en todos los puertos de escucha asociados a los troncos definidos en el documento de topología. Todas las puertas de enlace calificadas necesitan compatibilidad con TLS, pero también pueden habilitar TCP. TCP es compatible con las puertas de enlace que no son compatibles con TLS.
 
-Si su entorno también dispone de una central pública de conmutación (PBX), el Servidor de mediación administra las llamadas entre usuarios de Telefonía IP empresarial y la PBX. Si dicha PBX es una IP-PBX, puede crear una conexión SIP directa entre ella y el Servidor de mediación; si es una PBX de multiplexación por división de tiempo (TDM), deberá implementar también una puerta de enlace RTC entre el Servidor de mediación y la PBX.
+Si también tiene una central de conmutación (PBX) existente en su entorno, el servidor de mediación controla las llamadas entre los usuarios de voz de empresa y la PBX. Si su PBX es IP-PBX, puede crear una conexión SIP directa entre la PBX y el servidor de mediación. Si su PBX es un PBX de división de tiempo (TDM), también debe implementar una puerta de enlace RTC entre el servidor de mediación y la PBX.
 
-El Servidor de mediación se combina con el Servidor front-end de manera predeterminada. El Servidor de mediación también se puede implementar en un grupo de servidores independiente por motivos de rendimiento o si implementa enlaces troncales SIP, en cuyo caso se recomienda encarecidamente el grupo de servidores independiente.
+El servidor de mediación se encuentra en el servidor front-end de forma predeterminada. El servidor de mediación también se puede implementar en un grupo independiente por razones de rendimiento o si implementa la Troncalización SIP, en cuyo caso se recomienda encarecidamente el grupo independiente.
 
-Si implementa conexiones SIP directas hacia una puerta de enlace RTC cualificada compatible con el desvío de medios y el equilibrio de carga DNS, no será necesario un Grupo de servidores de mediación independiente, ya que las puertas de enlace cualificadas pueden realizar el equilibrio de carga DNS en un grupo de servidores de mediación y pueden recibir tráfico de cualquier Servidor de mediación de un grupo.
+Si implementa conexiones SIP directas en una puerta de enlace PSTN calificada que admite la omisión de medios y el equilibrio de carga de DNS, no es necesario disponer de un grupo de servidores de mediación independiente. No es necesario un grupo de servidores de mediación independiente porque las puertas de enlace válidas son capaces de equilibrar la carga de DNS en un grupo de servidores de mediación y pueden recibir tráfico de cualquier servidor de mediación de un grupo.
 
-Se recomienda también combinar el Servidor de mediación en un Grupo de servidores front-end si se ha implementado sistemas IP-PBX o si se conecta a un controlador de borde de sesión (SBC) del proveedor de servicios de telefonía por Internet, siempre y cuando se cumpla alguna de las condiciones siguientes:
+También le recomendamos que Collocate el servidor de mediación en un grupo de servidores front-end cuando haya implementado PBX IP o conecte con un controlador de borde de sesión (SBC) de un proveedor de servicios de telefonía por Internet, siempre que se cumpla cualquiera de las siguientes condiciones:
 
-  - El IP-PBX o SBC se configura para recibir tráfico desde cualquier Servidor de mediación del grupo de servidores y puede enrutar el tráfico uniformemente a todos los Servidores de mediación del grupo.
+  - El IP-PBX o SBC está configurado para recibir tráfico de cualquier servidor de mediación del grupo y puede enrutar uniformemente el tráfico a todos los servidores de mediación del grupo.
 
-  - El IP-PBX no admite el desvío de medios, pero el Grupo de servidores front-end en que se hospeda el Servidor de mediación puede gestionar la transcodificación de voz para llamadas en las que no se aplique el desvío de medios.
+  - El IP-PBX no admite la omisión de medios, pero el grupo de servidores front-end que hospeda el servidor de mediación puede controlar la transcodificación de voz para las llamadas a las que no se aplica la omisión de medios.
 
-Puede utilizar Microsoft Lync Server 2013, herramienta de planeación para evaluar si el Grupo de servidores front-end en el que ha combinado el Servidor de mediación puede gestionar la carga. Si el entorno no cumple estos requisitos, deberá implementar un Grupo de servidores de mediación independiente.
+Puede usar la herramienta de planeación de Microsoft Lync Server 2013 para evaluar si el grupo de servidores front-end en el que desea Collocate el servidor de mediación puede controlar la carga. Si su entorno no puede cumplir estos requisitos, debe implementar un grupo de servidores de mediación independiente.
 
-Las funciones principales del Servidor de mediación son las siguientes:
+Las funciones principales del servidor de mediación son las siguientes:
 
-  - Cifrar y descifrar SRTP en el lado de Lync Server
+  - Cifrar y descifrar SRTP en el servidor de Lync
 
-  - Convertir SIP sobre TCP (para puertas de enlace que no admiten TLS) en SIP sobre Mutual TLS
+  - Conversión de SIP a través de TCP (para puertas de enlace que no admiten TLS) a SIP a través de TLS Mutual
 
-  - Convertir secuencias de medios entre Lync Server y la puerta de enlace del mismo nivel del Servidor de mediación
+  - Traducción de transmisiones de medios entre Lync Server y Gateway peer of the Media Server
 
-  - Conectar clientes que están fuera de la red con componentes ICE internos, que habilitan el paso de los medios a través de NAT y firewalls
+  - Conectar clientes que están fuera de la red a componentes de ICE internos, que permiten un recorrido multimedia de NAT y firewalls
 
-  - Actuar como intermediario de los flujos de llamada que una puerta de enlace no admite, como las llamadas de trabajadores remotos en un cliente de Telefonía IP empresarial
+  - Actuar como intermediario de los flujos de llamadas que no admite una puerta de enlace, como las llamadas de trabajadores remotos en un cliente de telefonía empresarial
 
-  - En implementaciones que incluyen enlaces troncales SIP, trabajar con el proveedor de servicios de enlaces troncales SIP para proporcionar compatibilidad con la RTC, con lo que se elimina la necesidad de una puerta de enlace de RTC
+  - En las implementaciones que incluyen el Troncalización SIP, al trabajar con el proveedor de servicios de Troncalización SIP para proporcionar compatibilidad con RTC, que elimina la necesidad de una puerta de enlace RTC
 
-En la siguiente figura se muestran los protocolos de señalización y medios que el Servidor de mediación usa al comunicarse con una puerta de enlace RTC básica y la infraestructura de Telefonía IP empresarial.
+La siguiente ilustración muestra los protocolos de señalización y multimedia que usa el servidor de mediación al comunicarse con una puerta de enlace PSTN básica y la infraestructura de telefonía IP empresarial.
 
 **Señalización y protocolos multimedia que usa el servidor de mediación**
 
-![Diagrama de protocolos de servidor de mediación](images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagrama de protocolos de servidor de mediación")
+![Diagrama protocolos de servidor] de mediación (images/Gg398399.c3d39ba0-e323-4a58-8f07-4e80d3278af2(OCS.15).jpg "Diagrama protocolos de servidor") de mediación
+
+<div>
 
 
-> [!NOTE]
-> Si usa TCP o RTP/RTCP (en lugar de SRTP o SRTCP) en la red entre la puerta de enlace RTC y el Servidor de mediación, recomendamos que adopte las medidas necesarias para garantizar la seguridad y privacidad de la red.
+> [!NOTE]  
+> Si está usando TCP o RTP/RTCP (en lugar de SRTP o SRTCP) en la red entre la puerta de enlace PSTN y el servidor de mediación, le recomendamos que tome medidas para garantizar la seguridad y la privacidad de la red.
 
 
 
-## En esta sección
+</div>
 
-  - [Tronco M:N en Lync Server 2013](lync-server-2013-m-n-trunk.md)
+<div>
+
+## <a name="in-this-section"></a>En esta sección
+
+  - [M:N troncal en Lync Server 2013](lync-server-2013-m-n-trunk.md)
 
   - [Control de admisión de llamadas y servidor de mediación en Lync Server 2013](lync-server-2013-call-admission-control-and-mediation-server.md)
 
@@ -71,5 +97,17 @@ En la siguiente figura se muestran los protocolos de señalización y medios que
 
   - [Componentes y topologías para el servidor de mediación en Lync Server 2013](lync-server-2013-components-and-topologies-for-mediation-server.md)
 
-  - [Directrices de implementación para el servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+  - [Instrucciones de implementación para el servidor de mediación en Lync Server 2013](lync-server-2013-deployment-guidelines-for-mediation-server.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

@@ -1,25 +1,45 @@
-﻿---
-title: 'Lync Server 2013: Monitoring back end Lync Server storage performance'
+---
+title: 'Lync Server 2013: supervisar el rendimiento de almacenamiento de back end de Lync Server'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
 TOCTitle: Monitoring back end Lync Server 2013 storage performance
 ms:assetid: 71627c70-1953-4ac2-afbe-f3ad85be0f44
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn720917(v=OCS.15)
-ms:contentKeyID: 62246708
-ms.date: 01/07/2017
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720917(v=OCS.15)
+ms:contentKeyID: 63969619
+ms.date: 01/27/2015
+manager: serdars
 mtps_version: v=OCS.15
-ms.translationtype: HT
+ms.openlocfilehash: b4c63956cebc7f532f92b6e0729bdfe811d0fdfb
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826762"
 ---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Monitoring back end Lync Server 2013 storage performance
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="monitoring-back-end-lync-server-2013-storage-performance"></a>Supervisar el rendimiento de almacenamiento de back end de Lync Server 2013
 
-The Lync Server 2013 back-end databases are a very important part of the Lync Server 2013 deployment. We recommend constantly monitoring the databases and respective transaction logs to help to make sure that the Lync Server 2013 back end is performing optimally.
+</div>
 
-The following table identifies performance counters that should be monitored to learn information about Storage Performance. The baseline values for these counters must be determined first (when system is at its normal, expected load) to understand the performance changes when system is stressed.
+<div id="mainSection">
 
-### Performance counters to be monitored
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2014-05-02_
+
+Las bases de datos back-end de Lync Server 2013 son una parte muy importante de la implementación de Lync Server 2013. Recomendamos supervisar constantemente las bases de datos y los registros de transacciones respectivos para asegurarse de que el back-end de 2013 de Lync Server está funcionando de manera óptima.
+
+La siguiente tabla identifica los contadores de rendimiento que deben supervisarse para obtener información sobre el rendimiento del almacenamiento. Los valores de línea base de estos contadores deben determinarse en primer lugar (cuando el sistema tiene la carga normal, esperada) para comprender los cambios de rendimiento cuando el sistema está estresado.
+
+### <a name="performance-counters-to-be-monitored"></a>Contadores de rendimiento que se van a supervisar
 
 <table>
 <colgroup>
@@ -28,51 +48,62 @@ The following table identifies performance counters that should be monitored to 
 </colgroup>
 <thead>
 <tr class="header">
-<th>Performance Counter</th>
-<th>Baseline thresholds</th>
+<th>Contador de rendimiento</th>
+<th>Umbrales de línea base</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Transactions/sec (RTC)</p></td>
-<td><p></p></td>
+<td><p>Transacciones/s (RTC)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Transactions/sec (rtcdyn)</p></td>
-<td><p></p></td>
+<td><p>Transacciones/seg (RTCDyn)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Transactions/sec (tempdb)</p></td>
-<td><p></p></td>
+<td><p>Transacciones/s (tempdb)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Log Flushes/sec (RTC)</p></td>
-<td><p></p></td>
+<td><p>Vaciados del registro/s (RTC)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Log Flushes/sec (rtcdyn)</p></td>
-<td><p></p></td>
+<td><p>Vaciados del registro/seg (RTCDyn)</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Log Flushes/sec (tempdb)</p></td>
-<td><p></p></td>
+<td><p>Vaciados de registro/sec (tempdb)</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk Transfers/sec (read+write) - RTC db</p></td>
-<td><p></p></td>
+<td><p>Transferencias de disco/seg (lectura y escritura): base de BD de RTC</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Disk Transfers/sec - RTC log</p></td>
-<td><p></p></td>
+<td><p>Transferencias de disco/seg.</p></td>
+<td></td>
 </tr>
 <tr class="odd">
-<td><p>Disk Transfers/sec - rtcdyn db</p></td>
-<td><p></p></td>
+<td><p>Transferencias de disco/seg-RTCDyn dB</p></td>
+<td></td>
 </tr>
 <tr class="even">
-<td><p>Disk Transfers/sec - rtcdyn log</p></td>
-<td><p></p></td>
+<td><p>Transferencias de disco/seg: registro de RTCDyn</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
+
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

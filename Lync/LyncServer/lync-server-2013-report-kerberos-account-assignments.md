@@ -1,37 +1,59 @@
-﻿---
-title: 'Lync Server 2013: Creación de informes de asignación de cuentas Kerberos'
-TOCTitle: Creación de informes de asignación de cuentas Kerberos
-ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398343(v=OCS.15)
-ms:contentKeyID: 48275267
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Creación de informes de asignación de cuentas Kerberos'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Report Kerberos account assignments
+ms:assetid: 523231f6-81b3-454b-996d-663d9bd5cf83
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398343(v=OCS.15)
+ms:contentKeyID: 48184151
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1b02eb3cae7a7d2bbeb4cc3b9dce0a7daa8ee5c3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34823227"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación de informes de asignación de cuentas Kerberos en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="report-kerberos-account-assignments-in-lync-server-2013"></a>Creación de informes de asignación de cuentas Kerberos en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-01-16_
 
-Para completar correctamente este procedimiento, debe iniciar sesión como usuario miembro del grupo RTCUniversalServerAdmins.
+Para completar correctamente este procedimiento, debe haber iniciado sesión como un usuario que sea miembro del grupo RTCUniversalServerAdmins.
 
-Puede usar el cmdlet **Get-CsKerberosAccountAssignment** para consultar información sobre las asignaciones de cuenta de autenticación Kerberos e información de informe sobre las asignaciones actuales de su implementación.
+Puede usar el cmdlet **Get-CsKerberosAccountAssignment** para consultar información acerca de las asignaciones de cuentas de autenticación Kerberos y notificar la información sobre las asignaciones actuales de su implementación.
 
-## Para consultar las asignaciones de cuenta de autenticación Kerberos de un sitio
+<div>
 
-1.  Como miembro del grupo RTCUniversalServerAdmins, inicie sesión en un equipo del dominio en que se ejecuta Lync Server 2013 o en un equipo en el que estén instaladas las herramientas administrativas.
+## <a name="to-query-kerberos-authentication-account-assignments-for-a-site"></a>Para consultar asignaciones de cuentas de autenticación Kerberos para un sitio
 
-2.  Inicie el Shell de administración de Lync Server: haga clic en **Inicio**, **Todos los programas**, **Microsoft Lync Server 2013** y, después, en **Shell de administración de Lync Server**.
+1.  Como miembro del grupo RTCUniversalServerAdmins, inicie sesión en un equipo del dominio que ejecute Lync Server 2013 o en un equipo en el que estén instaladas las herramientas administrativas.
 
-3.  En la línea de comandos, ejecute uno de los comandos que se indican a continuación:
+2.  Inicie el shell de administración de Lync Server: haga clic en **Inicio**, seleccione **todos los programas**, **Microsoft Lync Server 2013**y, a continuación, haga clic en **Shell de administración de Lync Server**.
+
+3.  En la línea de comandos, ejecute uno de los siguientes comandos:
     
-      - Para consultar todas las asignaciones de cuenta de autenticación Kerberos de su organización y devolver información de asignación sobre cada una de ellas, ejecute el cmdlet sin ningún parámetro:
+      - Para consultar todas las asignaciones de cuentas de autenticación Kerberos de su organización y devolver información de asignación sobre cada una de ellas, ejecute el cmdlet sin ningún parámetro:
         
             Get-CsKerberosAccountAssignment
     
-      - Para consultar todas las asignaciones de cuenta de autenticación Kerberos de su implementación y devolver información de asignación del sitio sobre cada una de ellas, ejecute el cmdlet con el parámetro Identity:
+      - Para consultar todas las asignaciones de cuentas de autenticación Kerberos de su implementación y devolver información de asignación de sitio sobre cada una de ellas, ejecute el cmdlet con el parámetro Identity:
         
             Get-CsKerberosAccountAssignment -Identity "site:SiteName"
         
@@ -39,7 +61,7 @@ Puede usar el cmdlet **Get-CsKerberosAccountAssignment** para consultar informac
         
             Get-CsKerberosAccountAssignment -Identity "site:Redmond"
     
-      - Para consultar todas las asignaciones de cuenta de autenticación Kerberos de un único sitio y devolver información de asignación sobre cada una de ellas, ejecute el cmdlet con el parámetro Filter:
+      - Para consultar todas las asignaciones de cuentas de autenticación Kerberos en un solo sitio y devolver información sobre cada una de ellas, ejecute el cmdlet con el parámetro Filter:
         
             Get-CsKerberosAccountAssignment -Filter "SiteName"
         
@@ -47,8 +69,24 @@ Puede usar el cmdlet **Get-CsKerberosAccountAssignment** para consultar informac
         
             Get-CsKerberosAccountAssignment -Filter "*Redmond"
         
+        <div>
+        
 
-        > [!NOTE]
-        > La especificación de *SiteName para el parámetro Filter devuelve información acerca de todos los sitios que contienen el nombre de sitio especificado en cualquier lugar del identificador del sitio (por ejemplo, todos los sitios que contengan la cadena Redmond en el identificador del sitio).
+        > [!NOTE]  
+        > Si se especifica * SiteName para el parámetro de filtro, se devuelve información acerca de todos los sitios que contienen el nombre de sitio especificado en el identificador de sitio (por ejemplo, todos los sitios que contienen la cadena Redmond en el identificador de sitio).
 
+        
+        </div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

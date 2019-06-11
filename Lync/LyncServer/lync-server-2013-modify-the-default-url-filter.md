@@ -1,36 +1,70 @@
-﻿---
-title: Modificar el filtro para direcciones URL predeterminado
-TOCTitle: Modificar el filtro para direcciones URL predeterminado
-ms:assetid: 80a472b3-054e-45a6-80fc-9ee2bda28ee6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg182544(v=OCS.15)
-ms:contentKeyID: 48275834
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: modificar el filtro de dirección URL predeterminado'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Modify the default URL filter
+ms:assetid: 80a472b3-054e-45a6-80fc-9ee2bda28ee6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182544(v=OCS.15)
+ms:contentKeyID: 48184653
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: c95916729afc7d37dc195aeaa1a7ff214e28ca03
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826818"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Modificar el filtro para direcciones URL predeterminado
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="modify-the-default-url-filter-in-lync-server-2013"></a>Modificar el filtro de dirección URL predeterminado en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-06-26_
 
-Al usar el filtro de mensajería instantánea, Lync Server 2013 proporciona un filtro global de direcciones URL que bloquea direcciones URL específicas que se incluyen en conversaciones de mensajería instantánea entre usuarios en la totalidad de la implementación de Lync Server 2013. Si usa Panel de control de Lync Server, puede llevar a cabo las siguientes acciones:
+Al usar el filtro de mensajería instantánea (mi), Lync Server 2013 proporciona un filtro de URL global que bloquea las direcciones URL específicas contenidas en las conversaciones de mensajería instantánea entre los usuarios de toda la implementación de Lync Server 2013. Mediante el panel de control de Lync Server, puede hacer lo siguiente:
 
-  - Bloquear todas las direcciones URL o un subconjunto de las mismas en conversaciones de mensajería instantánea.
+  - Bloquear todo o un subconjunto de direcciones URL en conversaciones de mensajes instantáneos.
 
-  - Permitir todas las direcciones URL. A modo de opción, puede crear una notificación que se inserta al inicio de cada mensaje instantáneo con una dirección URL.
+  - Permitir todas las direcciones URL. Como opción, puede crear un aviso que se inserte al principio de cada mensaje instantáneo que contenga una dirección URL.
 
-  - Permitir URL específicas e incluir una advertencia en cada mensaje instantáneo que incluya una dirección URL.
+  - Permitir direcciones URL específicas e incluir una advertencia con cada mensaje instantáneo que contenga una dirección URL.
 
-Por otra parte, puede elegir bloquear direcciones URL que contengan tipos de archivo específicos o bloquear solamente direcciones URL de Internet permitiendo direcciones URL que estén comprendidas en la zona de intranet local del servidor (direcciones URL de intranet) para que puedan pasar por el servidor. Para obtener más información acerca del filtrado de direcciones URL, consulte [Configuración de la transferencia de archivos y el filtrado de direcciones URL para la mensajería instantánea (MI) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
+Además, puede elegir bloquear las direcciones URL que contienen determinados tipos de archivo o bloquear solo las direcciones URL de Internet permitiendo que las direcciones URL que se encuentran dentro de la zona de Intranet local del servidor (direcciones URL de la intranet) pasen a través del servidor. Para obtener más información sobre el filtrado de URL, consulte [configuración de la transferencia de archivos y filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md).
 
-## Vea también
+<div>
 
-#### Tareas
+## <a name="see-also"></a>Vea también
 
-[Configuración de la transferencia de archivos y el filtrado de direcciones URL para la mensajería instantánea (MI) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
-[Crear un filtro de transferencia de archivos nuevo para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
-[Crear un filtro nuevo para direcciones URL para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
-[Modificar el filtro de transferencia de archivos predeterminado](lync-server-2013-modify-the-default-file-transfer-filter.md)
+
+[Configuración de la transferencia de archivos y el filtrado de URL para mensajería instantánea (mi) en Lync Server 2013](lync-server-2013-configuring-file-transfer-and-url-filtering-for-instant-messaging-im.md)  
+[Crear un filtro de transferencia de archivos nuevo en Lync Server 2013 para un sitio específico](lync-server-2013-create-a-new-file-transfer-filter-for-a-specific-site.md)  
+[Crear un filtro de dirección URL en Lync Server 2013 para administrar hipervínculos en conversaciones de mensajería instantánea](lync-server-2013-create-a-new-url-filter-to-handle-hyperlinks-in-im-conversations.md)  
+[Modificar el filtro de transferencia de archivos predeterminado en Lync Server 2013](lync-server-2013-modify-the-default-file-transfer-filter.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

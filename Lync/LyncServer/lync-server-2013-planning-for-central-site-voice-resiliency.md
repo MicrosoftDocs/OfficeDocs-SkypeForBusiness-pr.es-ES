@@ -1,89 +1,122 @@
-﻿---
-title: 'Lync Server 2013: Planeación de resistencia de voz de sitio central'
-TOCTitle: Planeación de resistencia de voz de sitio central
-ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398347(v=OCS.15)
-ms:contentKeyID: 48275271
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Planeación de resistencia de voz de sitio central'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Planning for central site voice resiliency
+ms:assetid: 52dd0c3e-cd3c-44cf-bef5-8c49ff5e4c7a
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398347(v=OCS.15)
+ms:contentKeyID: 48184164
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 13195c50e88c035b0775d2958cf62cf71f7924c1
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825145"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Planeación de resistencia de voz de sitio central en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="planning-for-central-site-voice-resiliency-in-lync-server-2013"></a>Planeación de resistencia de voz de sitio central en Lync Server 2013
 
-Cada día con mayor frecuencia, las empresas tienen varios sitios distribuidos por todo el mundo. El mantenimiento de servicios de emergencia, el acceso al departamento de soporte técnico y la capacidad de realizar tareas empresariales fundamentales cuando un sitio central está fuera de servicio son esenciales para una solución de resistencia de Telefonía IP empresarial. Cuando un sitio central no está disponible, es necesario que se cumplan las siguientes condiciones:
+</div>
 
-  - Debe proporcionar conmutación por error de voz.
+<div id="mainSection">
 
-  - Los usuarios que normalmente se registran con el Grupo de servidores front-end en el sitio central deben poder registrarse con un Grupo de servidores front-end alternativo. Esto se puede lograr mediante la creación de varios registros de servidor DNS, cada uno de los cuales se resuelve en un Grupo de directores o un Grupo de servidores front-end de cada uno de los sitios centrales. Puede ajustar la prioridad y el peso de los registros SRV, de forma que los usuarios que reciben servicio mediante el sitio central obtengan el Director y Grupo de servidores front-end correspondiente antes que los de otros registros SRV.
+<div id="mainBody">
 
-  - Las llamadas realizadas a usuarios o desde usuarios ubicados en otros sitios se deben enrutar a través de la RTC.
+<span> </span>
 
-En este tema se describe la solución recomendada para garantizar la resistencia de voz del sitio central.
+_**Última modificación del tema:** 2013-10-30_
 
-## Arquitectura y topología
+Cada vez más, las empresas tienen varios sitios diseminados por todo el mundo. El mantenimiento de los servicios de emergencia, el acceso al Departamento de soporte técnico y la capacidad de realizar tareas críticas empresariales cuando un sitio central está fuera de servicio es esencial para cualquier solución de resiliencia de telefonía empresarial. Cuando un sitio central deja de estar disponible, se deben cumplir las condiciones siguientes:
 
-La planificación de la resistencia de voz en un sitio central requiere una comprensión básica del rol central que cumple el registrador de Lync Server 2013 al habilitar la conmutación por error de voz. El registrador de Lync Server es un rol de servidor que permite el registro y la autenticación de clientes y proporciona servicios de enrutamiento. Se encuentra, junto a otros componentes, en un Servidor Standard Edition, Servidor front-end, Director o Aplicación de sucursal con funciones de supervivencia. Un grupo de registrador está formado por servicios de registrador que se ejecutan en el Grupo de servidores front-end y que residen en el mismo sitio. El Grupo de servidores front-end debe estar equilibrado. Se recomienda un equilibrio de carga de DNS, aunque también es aceptable un equilibrio de carga de hardware. Un cliente de Lync detecta el Grupo de servidores front-end a través del siguiente mecanismo de detección.
+  - Debe proporcionarse la conmutación por error.
 
-1.  Registro DNS SRV
+  - Los usuarios que normalmente se registran con el grupo de servidores front-end en el sitio central deben poder registrarse con un grupo de servidores front-end alternativo. Esto puede hacerse creando varios registros SRV de DNS, cada uno de los cuales se resuelve en un grupo de directores o grupo de servidores front-end en cada uno de sus sitios centrales. Puede ajustar la prioridad y los pesos de los registros SRV para que los usuarios atendidos por ese sitio central obtengan el director y el grupo de servidores front-end correspondiente antes que los de otros registros SRV.
 
-2.  Servicio web de detección automática (nuevo en Lync Server 2013)
+  - Las llamadas entre usuarios que se encuentren en otros sitios deben ser redirigidas a la RTC.
 
-3.  Opción 120 de DHCP
+En este tema se describe la solución recomendada para proteger la resistencia de voz del sitio central.
 
-Después de que el cliente de Lync se conecta al Grupo de servidores front-end, el equilibrador de carga lo dirige a uno de los Servidores front-end del grupo. Ese Servidor front-end redirige al cliente a un registrador preferido del grupo.
+<div>
 
-Cada uno de los usuarios habilitados para Telefonía IP empresarial se asigna a un grupo de registrador concreto, que pasa a ser el grupo de registrador principal del usuario. En un sitio determinado, cientos o miles de usuarios normalmente comparten un único grupo de registrador principal. Para tener en cuenta el consumo de los recursos del sitio central a través de los usuarios de cualquier sitio de sucursal que confíen en el sitio central para fines de presencia, conferencia o conmutación por error, se aconseja considerar cada usuario de sitio de sucursal teniendo en cuenta que el usuario es un usuario registrado en el sitio central. Actualmente no hay límites con respecto al número de usuarios de sitios de sucursal, incluidos los usuarios registrados con una Aplicación de sucursal con funciones de supervivencia.
+## <a name="architecture-and-topology"></a>Arquitectura y topología
 
-Para garantizar la resistencia de voz en caso de error en el sitio central, el grupo de registrador principal debe tener un solo grupo de registrador de reserva designado ubicado en otro sitio. Este grupo de reserva se puede configurar mediante los ajustes de resistencia de Generador de topologías. Dando por supuesto que existe un vínculo WAN resistente entre los dos sitios, los usuarios cuyo grupo de registrador primario ya no está disponible se direccionan automáticamente al grupo de registrador de reserva.
+La planificación de resistencia de voz en un sitio central requiere un conocimiento básico del rol central que desempeña el registrador de Lync Server 2013 registrador en habilitar la conmutación por error de voz. El registrador de Lync Server es un rol de servidor que permite la autenticación y el registro de clientes, y proporciona servicios de enrutamiento. Se encuentra junto con otros componentes en un servidor Standard Edition, un servidor front-end, un director o un equipo de sucursales con la supervivencia. Un grupo de registradores consta de registrar servicios que se ejecutan en el grupo de servidores front-end y que residen en el mismo sitio. El grupo de servidores front-end debe tener equilibrio de carga. Se recomienda el equilibrio de carga de DNS, pero el equilibrio de carga de hardware es aceptable. Un cliente de Lync detecta el grupo de servidores front-end mediante el siguiente mecanismo de detección:
 
-En los pasos siguientes se describe el proceso de detección y registro de clientes:
+1.  Registro SRV de DNS
 
-1.  Un cliente descubre Lync Server a través de registros del servidor DNS. En Lync Server 2013, los registros del servidor DNS se pueden configurar para que devuelvan más de un FQDN para la consulta del servidor DNS. Por ejemplo, si la empresa Contoso tiene tres sitios centrales (Norteamérica, Europa y Asia-Pacífico) y un grupo de directores en cada sitio central, los registros del servidor DNS pueden orientarse a los FQDN de los grupos de directores de cada una de las tres ubicaciones. Mientras que el grupo de directores de una de las ubicaciones esté disponible, el cliente se puede conectar al primer salto Lync Server.
+2.  Servicio Web de descubrimiento automático (nuevo en Lync Server 2013)
+
+3.  Opción de DHCP 120
+
+Después de que el cliente Lync se conecte al grupo de servidores front-end, lo dirigirá el equilibrador de carga a uno de los servidores front-end en el grupo. Ese servidor front-end, a su vez, redirige al cliente a un registrador preferido en el grupo.
+
+Cada usuario habilitado para telefonía IP se asigna a un grupo de registrador concreto, que se convierte en el grupo de registrador principal de ese usuario. En un sitio determinado, cientos o miles de usuarios suelen compartir un único grupo de servidores principal. Para tener en cuenta el consumo de recursos del sitio central por parte de los usuarios de un sitio de sucursal que dependen del sitio central para la presencia, la Conferencia o la conmutación por error, le recomendamos que considere a cada usuario del sitio de sucursal como si el usuario fuera un usuario registrado con el sitio central. Por el momento, no hay límites en el número de usuarios de la sucursal, incluidos los registrados en un equipo de sucursales con la supervivencia.
+
+Para garantizar la resistencia de voz en el caso de que se produzca un error en un sitio central, el grupo de registrador principal debe tener un único grupo de registrador de copia de seguridad ubicado en otro sitio. La copia de seguridad se puede configurar con la configuración de resistencia del generador de topología. Suponiendo un vínculo WAN resistente entre los dos sitios, los usuarios cuyo grupo principal ya no esté disponible se dirigen automáticamente al grupo de registro de la copia de seguridad.
+
+Los pasos siguientes describen el proceso de detección y registro de clientes:
+
+1.  Un cliente Descubre Lync Server a través de registros SRV de DNS. En Lync Server 2013, los registros SRV de DNS se pueden configurar para que devuelvan más de un FQDN a la consulta SRV de DNS. Por ejemplo, si Enterprise Contoso tiene tres sitios centrales (Norteamérica, Europa y Asia Pacífico) y un grupo de directores en cada sitio central, los registros SRV de DNS pueden apuntar a los FQDN del grupo de directores en cada una de las tres ubicaciones. Siempre que el grupo de directores esté disponible en una de las ubicaciones, el cliente puede conectarse al primer salto de Lync Server.
+    
+    <div>
     
 
-    > [!NOTE]
-    > La utilización de un Grupo de directores es opcional. En su lugar puede usar un Grupo de servidores front-end.
+    > [!NOTE]  
+    > El uso de un grupo de directores es opcional. En su lugar, se puede usar un grupo de servidores front-end.
 
+    
+    </div>
 
+2.  El grupo de directores informa al cliente de Lync sobre el grupo de registradores principal del usuario y el grupo de registro de la copia de seguridad.
 
-2.  El Grupo de directores informa al cliente de Lync sobre el grupo de registrador principal del usuario y el grupo de registrador de reserva.
+3.  En primer lugar, el cliente de Lync intenta conectarse al grupo de registrador principal del usuario. Si el registrador principal está disponible, el registrador acepta el registro. Si el registrador principal del registrador no está disponible, el cliente de Lync intenta conectarse al grupo de registro de la copia de seguridad. Si el grupo de registro de la copia de seguridad está disponible y ha determinado que el registrador principal del usuario no está disponible (al detectar la falta de latido para un intervalo de conmutación por error especificado) el grupo de registro de la copia de seguridad acepta el registro del usuario. Después de que el registrador de la copia de seguridad detecta que el registrador principal está de nuevo disponible, el grupo de registro de la copia de seguridad redirigirá los clientes de Lync a su grupo principal.
 
-3.  El cliente de Lync intenta conectarse en primer lugar al grupo de registrador principal del usuario. Si el grupo de registrador principal está disponible, el registrador acepta el registro. Si no lo está, el cliente de Lync intenta conectarse al grupo de registrador de reserva. Si el grupo de registrador de reserva está disponible y ha determinado que el grupo de registrador principal del usuario no está disponible (mediante la detección de una ausencia de latido durante un intervalo de conmutación por error determinado), el grupo de registrador de reserva acepta el registro del usuario. Cuando el registrador de reserva detecta que el registrador principal vuelve a estar disponible, el grupo de registrador de reserva redirecciona los clientes de Lync de conmutación por error al grupo principal.
-
-La figura siguiente muestra la topología recomendada para garantizar la resistencia de un sitio central. Los dos sitios están conectados mediante un vínculo WAN resistente. Si el sitio central deja de estar disponible, los usuarios asignados a dicho grupo se dirigen al sitio de reserva para su registro.
+La siguiente ilustración muestra la topología recomendada para garantizar una resistencia de sitio central. Los dos sitios están conectados mediante un vínculo WAN resistente. Si el sitio central no está disponible, los usuarios asignados a ese grupo se dirigen al sitio de copia de seguridad para su registro.
 
 **Topología recomendada para resistencia de voz de sitio central**
 
-![Topología de resistencia de voz para sitio central](images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topología de resistencia de voz para sitio central")
+![Topología para resliency de voz de sitio central] (images/Gg398347.19ea3e74-8a5c-488c-a34e-fc180ab9a50a(OCS.15).jpg "Topología para resliency de voz de sitio central")
 
-## Requisitos y recomendaciones
+</div>
 
-A continuación se muestran los requisitos y las recomendaciones para implementar una resistencia de voz de sitio central adecuados para la mayoría de las organizaciones:
+<div>
 
-  - Los sitios en los que se encuentren los grupos de registrador principal y de reserva deberán estar conectados mediante un vínculo WAN resistente.
+## <a name="requirements-and-recommendations"></a>Requisitos y recomendaciones
 
-  - Cada sitio central debe contener un grupo de registrador formado por uno o varios registradores.
+Los siguientes requisitos y recomendaciones para implementar la resistencia de voz de sitio central son adecuados para la mayoría de las organizaciones:
 
-  - Cada grupo de registradores debe tener la carga equilibrada mediante el equilibrio de carga de DNS, el equilibrio de carga de hardware o ambos. Para obtener información detallada sobre la planeación de su configuración del equilibrio de carga, vea [Requisitos del equilibrio de carga de Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
+  - Los sitios en los que residen los grupos principal y de registro de la entidad de seguridad deben conectarse con un vínculo WAN resistente.
 
-  - Cada usuario debe estar asignado a un grupo de registrador principal mediante el cmdlet **set-CsUser** del Shell de administración de Lync Server o desde el Panel de control de Lync Server.
+  - Cada sitio central debe contener un grupo de registradores formado por uno o varios registradores.
 
-  - El grupo de registrador principal debe tener un único grupo de registrador de reserva en otro sitio central.
+  - Cada grupo de registrador debe tener equilibrio de carga mediante el equilibrio de carga de DNS, el equilibrio de carga de hardware o ambos. Para obtener información detallada sobre cómo planear la configuración del equilibrio de carga, consulte [requisitos de equilibrio de carga para Lync Server 2013](lync-server-2013-load-balancing-requirements.md).
 
-  - El grupo de registrador principal se debe configurar para realizar la conmutación por error para el grupo de registrador de reserva. De forma predeterminada, el registrador principal se configura para realizar la conmutación por error para el grupo de registrador de reserva después de un intervalo de 300 segundos. Puede modificar este intervalo a través del Generador de topologías de Lync Server 2013.
+  - Cada usuario debe estar asignado a un grupo de registrador principal mediante el cmdlet **de Shell Set-CsUser** del shell de administración de Lync Server o el panel de control de Lync Server.
 
-  - Configure una ruta de conmutación por error tal como se describe en el tema " [Configurar una ruta de conmutación por error en Lync Server 2013](lync-server-2013-configuring-a-failover-route.md) de la documentación referente a la planeación. Al configurar la ruta, especifique una puerta de enlace que se encuentre en un sitio diferente al de la puerta de enlace especificada en la ruta principal.
+  - El grupo de registrador principal debe tener un único grupo de registradores de copia de seguridad ubicado en un sitio central diferente.
 
-  - Si el sitio central contenía el servidor de administración principal y es probable que el sitio no esté operativo durante un período de tiempo prolongado, tendrá que volver a instalar las herramientas de administración en el sitio de reserva; de no hacerlo así, no podrá modificar la configuración de administración.
+  - El grupo de registrador principal debe configurarse para conmutar por error al grupo de registro de la copia de seguridad. De forma predeterminada, el registrador principal se establece para migrar tras un intervalo de 300 segundos. Puede cambiar este intervalo mediante el generador de topología de Lync Server 2013.
 
-## Dependencias
+  - Configure una ruta de conmutación por error, como se describe en el tema "[configuración de una ruta de conmutación por error en Lync Server 2013](lync-server-2013-configuring-a-failover-route.md)" en la documentación de planificación. Al configurar la ruta, especifique una puerta de enlace que se encuentre en un sitio diferente de la puerta de enlace especificada en la ruta principal.
 
-Lync Server depende de los siguientes componentes de software e infraestructura para garantizar la resistencia de voz:
+  - Si el sitio central contenía su servidor de administración principal y es probable que el sitio esté inactiva durante un período prolongado, tendrá que volver a instalar las herramientas de administración en el sitio de copia de seguridad. de lo contrario, no podrá cambiar ninguna configuración de administración.
+
+</div>
+
+<div>
+
+## <a name="dependencies"></a>Dependencias
+
+Lync Server depende de los siguientes componentes de infraestructura y software para garantizar la resistencia de la voz:
 
 
 <table>
@@ -94,83 +127,103 @@ Lync Server depende de los siguientes componentes de software e infraestructura 
 <tbody>
 <tr class="odd">
 <td><p><strong>Componente</strong></p></td>
-<td><p><strong>Funcional</strong></p></td>
+<td><p><strong>Funcionan</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>DNS</p></td>
-<td><p>Resolver registros de servidor y registros A para conectividad de servidor a servidor y de servidor a cliente</p></td>
+<td><p>Resolver registros SRV y A para la conectividad de servidor-servidor y servidor-cliente</p></td>
 </tr>
 <tr class="odd">
-<td><p>Exchange y servicios Web Exchange (EWS)</p></td>
+<td><p>Exchange y Exchange Web Services (EWS)</p></td>
 <td><p>Almacenamiento de contactos; datos de calendario</p></td>
 </tr>
 <tr class="even">
-<td><p>Mensajería unificada de Exchange y servicios Web Exchange</p></td>
-<td><p>Registros de llamadas, lista de correo de voz y correo de voz</p></td>
+<td><p>Mensajería unificada de Exchange y servicios Web de Exchange</p></td>
+<td><p>Registros de llamadas, lista de correo de voz, correo de voz</p></td>
 </tr>
 <tr class="odd">
 <td><p>Opciones de DHCP 120</p></td>
-<td><p>Si el servidor DNS no está disponible, el cliente intentará usar Opción de DHCP 120 para descubrir el registrador. Para esta tarea, debe haber configurado un servidor DHCP o Lync Server 2013 DHCP tiene que estar habilitado. Para más información, vea Requisitos de hardware y software para resistencia de sitios de sucursal en la sección <a href="lync-server-2013-branch-site-resiliency-requirements.md">Requisitos de resistencia de sitios de sucursal para Lync Server 2013</a>.</p></td>
+<td><p>Si SRV de DNS no está disponible, el cliente intentará usar la opción 120 de DHCP para descubrir el registrador. Para que esto funcione, se debe configurar un servidor DHCP o Lync Server 2013 DHCP debe estar habilitado. Para obtener más información, vea requisitos de hardware y software para la resistencia a sitios de sucursal en <a href="lync-server-2013-branch-site-resiliency-requirements.md">la sección requisitos de resistencia de sitios de sucursales para Lync Server 2013</a> .</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## Características de voz con funciones de supervivencia
+</div>
 
-Si ha implementado los requisitos y recomendaciones anteriores, el grupo de registrador de reserva ofrecerá las siguientes características de voz:
+<div>
 
-  - Llamadas RTC realizadas
+## <a name="survivable-voice-features"></a>Características de voz revivientes
 
-  - Llamadas RTC entrantes, si el proveedor de servicios de telefonía ofrece la posibilidad de conmutar por error a un sitio secundario.
+Si se han implementado los requisitos y las recomendaciones anteriores, el grupo de registro de la copia de seguridad proporcionará las siguientes características de voz:
 
-  - Llamadas de empresa entre usuarios del mismo sitio y entre dos sitios diferentes
+  - Llamadas RTC salientes
 
-  - Administración básica de llamadas, incluida la retención, recuperación y transferencia de llamadas.
+  - Llamadas RTC entrantes, si el proveedor de servicios de telefonía admite la posibilidad de migrar por error a un sitio de copia de seguridad
 
-  - Mensajería instantánea entre dos participantes y uso compartido de audio y vídeo entre usuarios del mismo sitio
+  - Llamadas empresariales entre usuarios en el mismo sitio y entre dos sitios diferentes
 
-  - Servicios de desvío de llamadas, llamadas simultáneas de extremos, delegación de llamadas y llamada de equipo, pero solo si están configuradas en el mismo sitio ambas partes para la delegación de llamadas, o todos los miembros del equipo.
+  - Manejo básico de llamadas, que incluye la llamada en espera, la recuperación y la transferencia
+
+  - Mensajería instantánea de dos participantes y uso compartido de audio y vídeo entre usuarios del mismo sitio
+
+  - Desvío de llamadas, llamadas simultáneas a puntos de conexión, Delegación de llamadas y servicios de llamada de equipo, pero solo si las dos partes para llamar a la delegación o todos los miembros del equipo, se configuran en el mismo sitio.
 
   - Los teléfonos y clientes existentes siguen funcionando.
 
-  - Registro de detalles de llamadas (CDR)
+  - Registro detallado de llamadas (CDR)
 
   - Autenticación y autorización
 
-En función de cómo estén configuradas, las características de voz que se indican a continuación pueden funcionar o no cuando un sitio central principal está fuera de servicio:
+Según el modo en que estén configuradas, las siguientes características de voz pueden funcionar o no cuando un sitio central principal está fuera de servicio:
 
-  - Depósito y recuperación de correos de voz
+  - Depósito y recuperación de correo de voz
     
-    Si desea hacer que la mensajería unificada de Exchange esté disponible cuando el sitio central principal esté fuera de servicio, deberá realizar una de las acciones siguientes:
+    Si desea que la mensajería unificada de Exchange esté disponible cuando el sitio central principal está fuera de servicio, debe realizar una de las siguientes acciones:
     
-      - Cambiar los registros de servidor DNS para que los servidores de mensajería unificada de Exchange del sitio central apunten hacia los servidores de mensajería unificada de Exchange de reserva de otro sitio.
+      - Cambie los registros SRV de DNS para que los servidores de mensajería unificada de Exchange en el sitio central apunten a la copia de seguridad de los servidores MU de otro sitio.
     
-      - Configurar el plan de marcado de Mensajería unificada de Exchange de cada usuario para que incluya servidores de Mensajería unificada de Exchange en el sitio central y en el sitio de reserva, pero designar los servidores de Mensajería unificada de Exchange de reserva como deshabilitados. Si el sitio principal deja de estar disponible, el administrador de Exchange tiene que marcar como habilitados los servidores de Mensajería unificada de Exchange del sitio de reserva.
+      - Configure el plan de marcado de MU de Exchange de cada usuario para incluir servidores MU de Exchange en el sitio central y en el sitio de copia de seguridad, pero designe los servidores de Exchange UM como deshabilitados. Si el sitio primario no está disponible, el administrador de Exchange tiene que marcar los servidores de mensajería unificada de Exchange en el sitio de copia de seguridad como habilitado.
     
-    Si no se puede aplicar ninguna de las soluciones anteriores, Mensajería unificada de Exchange no estará disponible en el caso de que el sitio central deje de estar disponible.
+    Si ninguna de las soluciones anteriores es posible, la mensajería unificada de Exchange no estará disponible en caso de que el sitio central deje de estar disponible.
 
   - Conferencias de todos los tipos
     
-    Un usuario que ha experimentado una conmutación por error a un sitio de copia de seguridad se puede unir a una conferencia creada u hospedada por un organizador cuyo grupo esté disponible, pero no puede crear ni hospedar una conferencia en su propio grupo principal, que ya no está disponible. Del mismo modo, otros usuarios no se pueden unir a conferencias hospedadas en el grupo principal del usuario afectado.
+    Un usuario que conmuta por error a un sitio de copia de seguridad puede unirse a una conferencia creada o hospedada por un organizador cuyo grupo está disponible, pero no puede crear ni hospedar una conferencia en su propio grupo principal, que ya no está disponible. De forma similar, otros usuarios no pueden unirse a conferencias hospedadas en el grupo primario del usuario afectado.
 
-Las características de voz que se indican a continuación no funcionan cuando un sitio central principal está fuera de servicio:
+Las siguientes características de voz no funcionan cuando un sitio central principal está fuera de servicio:
 
   - Operador automático de conferencia
 
-  - Enrutamiento basado en DNS y presencia
+  - Presencia y enrutamiento basado en DND
 
   - Actualización de la configuración del desvío de llamadas
 
-  - Servicio de grupo de respuesta y estacionamiento de llamadas
+  - Servicio de grupo de respuesta y Parque de llamadas
 
   - Aprovisionamiento de nuevos teléfonos y clientes
 
-  - Búsqueda en la web de la libreta de direcciones
+  - Búsqueda en Internet de la libreta de direcciones
 
-## Vea también
+</div>
 
-#### Otros recursos
+<div>
 
-[Planificar la resistencia de voz en sitios de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)
+## <a name="see-also"></a>Vea también
+
+
+[Planificar la resistencia de voz en sitios de sucursal en Lync Server 2013](lync-server-2013-planning-for-branch-site-voice-resiliency.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

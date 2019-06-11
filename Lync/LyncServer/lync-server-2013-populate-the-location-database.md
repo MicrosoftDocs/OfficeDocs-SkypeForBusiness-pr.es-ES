@@ -1,23 +1,43 @@
-﻿---
-title: Rellenar la base de datos de ubicación
-TOCTitle: Rellenar la base de datos de ubicación
-ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg413069(v=OCS.15)
-ms:contentKeyID: 48277244
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: rellenar la base de datos de ubicación'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Populate the location database
+ms:assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg413069(v=OCS.15)
+ms:contentKeyID: 48185939
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 08c1718c3d7ffdc79b82ac34016e79bf647ae6f3
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34824053"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Rellenar la base de datos de ubicación
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="populate-the-location-database-in-lync-server-2013"></a>Rellenar la base de datos de ubicación en Lync Server 2013
 
-Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un *diagrama de cableado* de red, del cual asigna elementos de red a direcciones postales. Para definir el diagrama de cableado puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
+</div>
 
-Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo en formato .csv con los formatos de columna que se describen en la tabla siguiente.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-09-17_
+
+Para buscar clientes en una red de manera automática, primero es preciso rellenar la base de datos de ubicaciones con un *diagrama de cableado de red*, que asigna elementos de red a direcciones postales. Para definir el diagrama de cableado, puede usar subredes, puntos de acceso inalámbrico, conmutadores y puertos.
+
+Puede agregar direcciones a la base de datos de ubicaciones una a una, pero también puede incorporar varias de ellas a la vez mediante un archivo .csv con los formatos de columna que se describen en la tabla siguiente.
 
 Si utiliza una puerta de enlace de Número de identificación de ubicación de emergencia (ELIN), incluya el ELIN en el campo **CompanyName** de cada ubicación. Puede incluir varios ELIN para cada ubicación, separándolos por un punto y coma.
 
@@ -36,23 +56,23 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 <tbody>
 <tr class="odd">
 <td><p><strong>Punto de acceso inalámbrico</strong></p></td>
-<td><p>&lt;BSSID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;BSSID&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predireccional&gt;,...</p>
+<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccional&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt;país&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Subred</strong></p></td>
-<td><p>&lt;Subnet&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;Subred&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predireccional&gt;,...</p>
+<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccional&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt;país&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Puerto</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,…</p>
-<p>…&lt;PreDirectional&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;ChassisID&gt;,&lt;PortIDSubType&gt;,&lt;PortID&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt; HouseNumberSuffix&gt;,...</p>
+<p>... &lt;Predireccionales&gt;,&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccionales&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt; Tercer&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Conmutador</strong></p></td>
-<td><p>&lt;ChassisID&gt;,&lt;Description&gt;,&lt;Location&gt;,&lt;CompanyName&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;PreDirectional&gt;,…</p>
-<p>…&lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;PostDirectional&gt;,&lt;City&gt;,&lt;State&gt;,&lt;PostalCode&gt;,&lt;Country&gt;</p></td>
+<td><p>&lt;ChassisID&gt;,&lt;Descripción&gt;,&lt;ubicación&gt;,&lt;NombreCompañía&gt;,&lt;HouseNumber&gt;,&lt;HouseNumberSuffix&gt;,&lt;predireccional&gt;,...</p>
+<p>... &lt;StreetName&gt;,&lt;StreetSuffix&gt;,&lt;posdireccional&gt;,&lt;ciudad&gt;,&lt;estado&gt;,&lt;CódigoPostal&gt;,&lt;país&gt;</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +80,7 @@ Si utiliza una puerta de enlace de Número de identificación de ubicación de e
 
 Si no rellena la base de datos de ubicaciones y el valor de **Ubicación obligatoria** de la directiva de ubicación se define en **Sí** o **Declinación de responsabilidades**, el cliente indicará al usuario que especifique una ubicación manualmente.
 
-Para obtener más información sobre cómo rellenar la base de datos de ubicaciones, consulte la documentación de Shell de administración de Lync Server en relación con los cmdlets siguientes:
+Para obtener detalles sobre cómo rellenar la base de datos de ubicación, consulte la documentación del shell de administración de Lync Server para los siguientes cmdlets:
 
   - **Get-CsLisSubnet**
 
@@ -86,7 +106,9 @@ Para obtener más información sobre cómo rellenar la base de datos de ubicacio
 
   - **Remove-CsLisPort**
 
-## Para agregar elementos de red a la base de datos de ubicaciones
+<div>
+
+## <a name="to-add-network-elements-to-the-location-database"></a>Para agregar elementos de red a la base de datos de ubicaciones
 
 1.  Ejecute el cmdlet siguiente para agregar una ubicación de subred a la base de datos de ubicaciones.
     
@@ -129,4 +151,16 @@ Para obtener más información sobre cómo rellenar la base de datos de ubicacio
     
         $g = Import-Csv ports.csv
         $g | Set-CsLisPort
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

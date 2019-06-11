@@ -1,25 +1,45 @@
-﻿---
-title: "Lync Server 2013: Preparación de los Servicios de dominio de Active Directory"
-TOCTitle: Información general sobre la preparación de los Servicios de dominio de Active Directory
-ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398869(v=OCS.15)
-ms:contentKeyID: 48276692
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Información general sobre la preparación de los Servicios de dominio de Active Directory'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of Active Directory Domain Services preparation
+ms:assetid: cdd2a652-6a0d-4728-9950-3fcaa7a80066
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398869(v=OCS.15)
+ms:contentKeyID: 48185662
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 26636846ce7b985a33af3175d51798c4c12c5ea7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825824"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre la preparación de los Servicios de dominio de Active Directory en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2015-03-09_
+# <a name="overview-of-active-directory-domain-services-preparation-in-lync-server-2013"></a>Información general sobre la preparación de los Servicios de dominio de Active Directory en Lync Server 2013
 
-Para preparar Servicios de dominio de Active Directory para la implementación de Lync Server 2013, debe seguir tres pasos en una secuencia específica.
+</div>
 
-En la tabla siguiente se describen los pasos necesarios para preparar AD DS para Lync Server.
+<div id="mainSection">
 
-### Pasos de preparación de Active Directory
+<div id="mainBody">
+
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-29_
+
+Para preparar los servicios de dominio de Active Directory para la implementación de Lync Server 2013, debe realizar tres pasos en una secuencia específica.
+
+En la tabla siguiente se describen los pasos necesarios para preparar AD DS para Lync Server.
+
+### <a name="active-directory-preparation-steps"></a>Pasos de preparación de Active Directory
 
 <table>
 <colgroup>
@@ -33,20 +53,20 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <th></th>
 <th>Paso</th>
 <th>Descripción</th>
-<th>Dónde se ejecuta</th>
+<th>Donde se ejecuta</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p>1.</p></td>
 <td><p><a href="lync-server-2013-preparing-the-active-directory-schema.md">Preparación del esquema de Active Directory en Lync Server 2013</a></p></td>
-<td><p>Extienda el esquema de Active Directory. Para ello, agregue las nuevas clases y atributos que usa Lync Server.</p>
-<p>Ejecútelo una vez para cada bosque de la implementación donde se vaya a implementar Lync Server.</p></td>
-<td><p>En el maestro de esquema del dominio raíz de cada bosque donde se vaya a implementar Lync Server.</p>
+<td><p>Extiende el esquema de Active Directory agregando nuevas clases y atributos usados por Lync Server.</p>
+<p>Se ejecuta una vez para cada bosque de su implementación donde se implementará Lync Server.</p></td>
+<td><p>Contra el maestro de esquema en el dominio raíz de cada bosque donde se va a implementar Lync Server.</p>
 <div>
 
-> [!NOTE]
-> No es necesario realizar este paso en el dominio raíz si tiene permisos en el maestro de esquema, pero debe ser miembro de los grupos Administradores de esquema en el dominio raíz y Administradores de organización en el maestro de esquema. En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de usuarios.
+> [!NOTE]  
+> No es necesario ejecutar este paso en el dominio raíz si tiene permisos en el maestro de esquema, pero debe ser miembro del grupo de administradores de esquema en el dominio raíz y miembro del grupo de administradores de empresa en el maestro de esquema. En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de los usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de los usuarios.
 
 
 </div></td>
@@ -54,13 +74,13 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <tr class="even">
 <td><p>2.</p></td>
 <td><p><a href="lync-server-2013-preparing-the-forest.md">Preparación del bosque para Lync Server 2013</a></p></td>
-<td><p>Crea la configuración global y los grupos universales que usa Lync Server.</p>
-<p>Ejecútelo una vez para cada bosque de la implementación donde se vaya a implementar Lync Server.</p></td>
-<td><p>En el dominio raíz de cada bosque donde se va a implementar Lync Server. Para llevar a cabo este paso, debe ser miembro del grupo Administradores de organización.</p>
+<td><p>Crea la configuración global y los grupos universales usados por Lync Server.</p>
+<p>Se ejecuta una vez para cada bosque de su implementación donde se implementará Lync Server.</p></td>
+<td><p>En el dominio raíz de cada bosque donde se va a implementar Lync Server. Para ejecutar este paso, debe ser miembro del grupo administradores de la empresa.</p>
 <div>
 
-> [!NOTE]
-> En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de usuarios.
+> [!NOTE]  
+> En una topología de bosque de recursos, ejecute este paso solo en el bosque de recursos, no en los bosques de los usuarios. En una topología de bosque central, ejecute este paso solo en el bosque central, no en los bosques de los usuarios.
 
 
 </div></td>
@@ -68,54 +88,71 @@ En la tabla siguiente se describen los pasos necesarios para preparar AD DS par
 <tr class="odd">
 <td><p>3.</p></td>
 <td><p><a href="lync-server-2013-preparing-domains.md">Preparar dominios para Lync Server 2013</a></p></td>
-<td><p>Agrega permisos a los objetos que van a usar los miembros de grupos universales.</p>
-<p>Ejecútelo una vez por dominio de usuario o dominio de servidor.</p>
+<td><p>Agrega permisos sobre los objetos que usarán los miembros de los grupos universales.</p>
+<p>Ejecutar una vez por dominio de usuario o dominio de servidor.</p>
 <div>
 
-> [!NOTE]
-> Si va a migrar de Lync Server 2010 a Lync Server 2013, el Asistente para la implementación puede indicar que la preparación del dominio ya se ha completado. No necesita volver a ejecutar la preparación del dominio. Los permisos no se han cambiado de Lync Server 2010 a Lync Server 2013.
+> [!NOTE]  
+> Si va a migrar de Lync Server 2010 a Lync Server 2013, es posible que el Asistente para la implementación indique que ya se ha completado la preparación del dominio. No es necesario volver a ejecutar la preparación del dominio. No se cambiaron los permisos de Lync Server 2010 a Lync Server 2013.
 
 
 </div></td>
-<td><p>En un servidor miembro en cada dominio donde se vaya a implementar Lync Server. Para llevar a cabo este paso, debe ser miembro del grupo de administradores del dominio.</p></td>
+<td><p>En un servidor miembro de cada dominio donde se va a implementar Lync Server. Para ejecutar este paso, debe ser miembro del grupo administradores de dominio.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-En Lync Server 2013, como en Lync Server 2010, mucha de la información de configuración se almacena en Almacén de administración central, en lugar de en AD DS, como ocurría en Office Communications Server 2007 R2. No obstante, en AD DS se almacena la información siguiente:
+<div id="sectionSection0" class="section">
+
+Lync Server 2013, al igual que Lync Server 2010, almacena gran parte de la información de configuración en el almacén central de administración en lugar de en AD DS como sucede en Office Communications Server 2007 R2. Sin embargo, la siguiente información se almacena en AD DS:
 
   - **Extensiones de esquema**:
     
       - Extensiones de objetos de usuario
     
-      - Extensiones para las clases de Office Communications Server 2007 R2 con el fin de mantener la compatibilidad con versiones anteriores.
+      - Extensiones para las clases de Office Communications Server 2007 R2 para mantener la compatibilidad con versiones anteriores
 
 <!-- end list -->
 
-  - **Datos** (almacenados en el esquema extendido de Lync Server y en las clases de esquema existentes):
+  - **Datos** (se almacena en el esquema extendido de Lync Server y en las clases de esquema existentes):
     
-      - Identificador uniforme de recursos (URI) de SIP del usuario y otros parámetros de usuario
+      - Identificador uniforme de recursos (URI) SIP de usuario y otra configuración de usuario
     
-      - Objetos de contacto para aplicaciones como Grupo de respuesta y Operador de conferencia
+      - Objetos de contacto para aplicaciones como el operador de conferencia y el grupo de respuesta
     
-      - Un puntero al Almacén de administración central
+      - Puntero al almacén de administración central
     
       - Cuenta de autenticación Kerberos (un objeto de equipo opcional)
 
-En Lync Server 2013, se delegan las tareas de administración e instalación. Para ello, se conceden permisos de instalación al grupo universal RTCUniversalServerAdmins de forma que los miembros de dicho grupo pueden instalar y activar Lync Server 2013 en un servidor local (después de agregar, publicar y habilitar el servidor en la topología). Los usuarios delegados deben ser administradores locales en el equipo donde se va a instalar y activar Lync Server 2013, pero no es necesario que sean miembros del grupo de administradores del dominio. También puede conceder permisos para objetos en unidades organizativas (OU) especificadas, de modo que los miembros de los grupos universales que se crean durante la preparación del bosque pueden obtener acceso a los objetos sin ser miembros del grupo de administradores del dominio.
+En Lync Server 2013, delega la configuración y la administración al otorgar permisos de configuración al grupo universal de RTCUniversalServerAdmins para que los miembros de ese grupo puedan instalar y activar Lync Server 2013 en un servidor local (después de que se haya agregado el servidor a la topología, publicada y habilitada). Los usuarios delegados deben ser administradores locales en el equipo en el que están instalando y activando Lync Server 2013, pero no es necesario que sean miembros del grupo administradores de dominio. También puede conceder permisos a los objetos de unidades organizativas (OU) especificadas para que los miembros de los grupos universales creados durante la preparación del bosque puedan tener acceso a esos objetos sin ser miembros del grupo administradores del dominio.
 
-Para nuevas implementaciones de Lync Server 2013, la configuración global debe almacenarse en el contenedor de configuración. Si su organización se va actualizar desde una versión anterior y todavía tiene la configuración global en el contenedor del sistema, el contenedor del sistema seguirá siendo compatible.
+Para implementaciones nuevas de Lync Server 2013, la configuración global debe almacenarse en el contenedor de configuración. Si su organización está actualizando desde una versión anterior y aún así tiene una configuración global en el contenedor del sistema, el contenedor del sistema aún es compatible.
 
-## Vea también
+</div>
 
-#### Conceptos
+<div>
+
+## <a name="see-also"></a>Vea también
+
 
 [Preparación del esquema de Active Directory en Lync Server 2013](lync-server-2013-preparing-the-active-directory-schema.md)  
 [Extensiones de esquema, clases y atributos de Active Directory usados por Lync Server 2013](lync-server-2013-active-directory-schema-extensions-classes-and-attributes-used-by-lync-server.md)  
 
-#### Otros recursos
 
 [Preparación del bosque para Lync Server 2013](lync-server-2013-preparing-the-forest.md)  
-[Preparar dominios para Lync Server 2013](lync-server-2013-preparing-domains.md)
+[Preparar dominios para Lync Server 2013](lync-server-2013-preparing-domains.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

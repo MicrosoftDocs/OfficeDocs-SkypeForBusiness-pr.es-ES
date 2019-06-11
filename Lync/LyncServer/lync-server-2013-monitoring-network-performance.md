@@ -1,45 +1,73 @@
-﻿---
-title: 'Lync Server 2013: supervisar el rendimiento de red'
-TOCTitle: Supervisar el rendimiento de red
-ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Dn720923(v=OCS.15)
-ms:contentKeyID: 62246714
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: supervisar el rendimiento de red'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Monitoring network performance
+ms:assetid: bc3a01da-91eb-4c0c-9598-35e5e46b00f6
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Dn720923(v=OCS.15)
+ms:contentKeyID: 63969647
+ms.date: 04/27/2016
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: a2fa3c2685b4da32d5f2e3f123a938920b5ce9f7
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826720"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Supervisar el rendimiento de red en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="monitoring-network-performance-in-lync-server-2013"></a>Supervisar el rendimiento de red en Lync Server 2013
 
-Lync Server 2013 es una tecnología de comunicaciones en tiempo real que depende en gran medida de la red para habilitar la comunicación entre usuarios, ya sea mediante mensajería instantánea (IM), llamadas de voz o comunicación por vídeo. Por ello es importante supervisar continuamente el rendimiento de la red para garantizar que la modalidad de comunicación elegida ofrezca la mejor experiencia posible.
+</div>
 
-El rendimiento de la red puede medirse en dos niveles:
+<div id="mainSection">
 
-  - **Rendimiento general de la red**   Este nivel de medición permite a la organización crear una "imagen general" de su red y suele implementarse mediante sistemas de supervisión de red de terceros. Estos sistemas reciben datos de rendimiento y capacidad de dispositivos de red remotos, como routers, y se activan y desactivan a lo largo de la red para que los administradores puedan determinar el estado de cualquier componente en cualquier momento del día.
+<div id="mainBody">
 
-  - **Rendimiento de un servidor Individual**   Este nivel de medición se limita a un servidor concreto y ayuda a los administradores a valorar el rendimiento de red del mismo con el fin de resolver problemas específicos o determinar el rendimiento a lo largo de un periodo determinado, como parte del proceso de planificación de la capacidad.
+<span> </span>
 
-Puede supervisar la red mediante las herramientas descritas en las siguientes secciones.
+_**Última modificación del tema:** 2016-04-27_
 
-## Herramientas para la supervisión del rendimiento general de la red
+Lync Server 2013 es una tecnología de comunicaciones en tiempo real que depende principalmente de la red para habilitar la comunicación entre los usuarios, ya sea a través de la mensajería instantánea (mi), las llamadas de voz o la comunicación de vídeo. Por lo tanto, es importante supervisar el rendimiento de la red continuamente para ayudar a garantizar que la modalidad de comunicación elegida por un usuario ofrezca la mejor experiencia posible.
 
-## System Center Operations Manager 2012
+El rendimiento de la red puede medirse a dos niveles:
 
-System Center Operations Manager proporciona una administración de servicios de un extremo a otro fácil de personalizar y ampliar, para lograr así mejores niveles de servicio en todo el entorno de TI. Esto permite a los equipos de operaciones y administración de TI identificar y resolver incidencias que afectan al estado de los servicios de TI distribuidos. La administración de servicios de un extremo a otro no se limita a los entornos basados en Microsoft. La compatibilidad con Servicios Web para administración (WS-Management), el Protocolo simple de administración de redes (SNMP) y las soluciones de partners permite incluir en la supervisión de servicios de System Center Operations Manager 2012 sistemas que no ejecutan sistemas operativos o hardware de Microsoft.
+  - **Rendimiento general de la red**   este nivel de rendimiento permite a una organización crear una vista de "panorama general" de su red y suele implementarse a través de sistemas de supervisión de redes de terceros. Estos sistemas recibirán datos de rendimiento y capacidad de los dispositivos de red remotos, como los enrutadores y se han cambiado por la red, lo que permite a los administradores determinar el estado de cualquier componente de red determinado en cualquier momento del día.
 
-## System Center Operations Manager 2012 y soluciones de administración de red de terceros
+  - **Rendimiento del servidor individual**   este nivel de rendimiento se limita a un servidor específico y ayudará a los administradores a medir el rendimiento de la red de un servidor específico para ayudarle a solucionar un determinado rendimiento. problema o para evaluar el rendimiento del servidor correspondiente a lo largo de un período determinado como parte de un proceso de planeación de capacidad.
 
-**EMC Smarts**   EMC Solutions for Operations Manager le ayuda a resolver rápidamente problemas de nivel de servicio. Podrá administrar y supervisar toda la cadena de servicios de TI desde una única solución integrada y automatizada. Podrá identificar fácilmente las causas de un problema de rendimiento y disponibilidad y resolverlo más rápidamente, lo que reducirá los efectos y los costes. Entre las principales ventajas están las siguientes:
+Puede supervisar la red con las herramientas que se describen en las siguientes secciones.
 
-  - Administración avanzada y fácil de usar   Céntrese en ofrecer valor empresarial estratégico y no en ordenar y filtrar manualmente alertas confusas.
+<div>
 
-  - **Resolución más rápida**   Resuelva las incidencias de TI y responda a las necesidades empresariales más rápido, lo que reduce los efectos y los costes.
+## <a name="tools-for-overall-network-performance-monitoring"></a>Herramientas para la supervisión general del rendimiento de la red
 
-  - **Operaciones simplificadas**   Evite la complejidad en TI combinando varias herramientas, aplicaciones y terminales de administración.
+<div>
+
+## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
+
+System Center Operations Manager proporciona administración de servicios de extremo a extremo que es fácil de personalizar y extender para mejorar los niveles de servicio en un entorno de ti. Esto permite a las operaciones y a los equipos de administración de ti identificar y resolver los problemas que afectan al estado de los servicios de ti distribuidos. La administración de servicios end-to-end no está restringida a entornos basados en Microsoft. La compatibilidad con los servicios web para administración (WS-Management), el Protocolo simple de administración de redes (SNMP) y las soluciones de socio permiten que los sistemas que no ejecutan sistemas operativos y hardware de Microsoft se incluyan en la supervisión de servicios de System Center. Operations Manager 2012.
+
+</div>
+
+<div>
+
+## <a name="system-center-operations-manager-2012-and-third-party-network-management-solutions"></a>System Center Operations Manager 2012 y soluciones de administración de redes de terceros
+
+****   Las soluciones de EMC Smarts de EMC para Operations Manager le ayudan a resolver rápidamente los problemas que afectan a los niveles de servicio. Al usar las soluciones de EMC para Operations Manager, puede administrar y monitorear toda su cadena de servicios de TI con una solución integrada y automática. Podrá identificar fácilmente las causas de origen y los problemas de disponibilidad y resolverlos más rápido, lo que reduce los efectos y los costos. Entre las principales ventajas se incluyen las siguientes:
+
+  - El enfoque de administración avanzada y fácil de usar es ofrecer un valor comercial estratégico en lugar de ordenar y filtrar de forma manual alertas confusas.
+
+  - **Resolución más rápida**   solucione problemas de ti y responda a las necesidades empresariales más rápidamente, reduciendo el efecto y el costo.
+
+  - **Las operaciones**   simplificadas evitan la complejidad de TI al combinar varias herramientas de administración, aplicaciones y terminales.
 
 Puede encontrar más información aquí:
 
@@ -47,35 +75,69 @@ Puede encontrar más información aquí:
 
 [Soluciones para Microsoft System Center Operations Manager](http://www.emc.com/collateral/software/data-sheet/h6135-server-manager-ds.pdf)
 
-## Soluciones de terceros
+</div>
 
-**HP Network Management Center (antes conocido como HP OpenView)**   [HP Network Management Center](https://h10078.www1.hp.com/cda/hpms/display/main/hpms_content.jsp?zn=bto%26cp=1-11-15-119_4000_100__) proporciona administración integrada de errores y rendimiento para mejorar la disponibilidad y el rendimiento de red. Network Management Center es parte de la solución automatizada de administración de red de HP, que unifica la gestión de errores, rendimiento, configuración y cambios.
+<div>
 
-**Productos de automatización y administración de red de Cisco**   Cisco dispone de varios productos de administración para la empresa, como CiscoWorks LAN Management Solution y Cisco Network Analysis Module, que ayudan a mejorar la eficiencia operativa y reducen el tiempo de inactividad de la red. Para obtener más información sobre estos productos, visite el sitio web de Cisco en [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html).
+## <a name="third-party-solutions"></a>Soluciones de terceros
 
-Protocolo simple de administración de redes (SNMP)   El Protocolo simple de administración de redes (SNMP) es un estándar que define una estrategia de administración de redes TCP/IP. SNMP le permite capturar información de configuración y estado de la red y enviar dicha información a un equipo designado para la supervisión de eventos. Este protocolo emplea una arquitectura distribuida que incluye lo siguiente:
+**Centro de administración de redes HP (anteriormente conocido como HP OpenView)** El    [centro de administración de redes HP](http://www8.hp.com/us/en/software-solutions/network-management/index.html?%26zn=bto%26cp=1-11-15-119_4000_100__) ofrece administración integrada de errores y rendimiento para mejorar la disponibilidad y el rendimiento de la red. El centro de administración de redes es parte de la solución de administración automatizada de redes HP, que unifica los errores, el rendimiento, la configuración y la administración de los cambios.
 
-  - Varios nodos administrados, cada uno con una entidad SNMP denominada agente que proporciona acceso remoto al instrumental de administración.
+**Productos de administración de redes y de automatización de Cisco**   para empresas, Cisco tiene varios productos de administración disponibles, como la solución de administración LAN de CiscoWorks y el módulo de análisis de redes Cisco, para ayudar a mejorar la eficacia operativa y reduce el tiempo de inactividad de la red. Para obtener más información sobre estos productos, visite el sitio web de [http://www.cisco.com/en/US/products/sw/netmgtsw/index.html](http://www.cisco.com/en/us/products/sw/netmgtsw/index.html)Cisco en.
 
-  - Al menos una entidad SNMP conocida como administrador que ejecuta aplicaciones para supervisar y controlar los elementos administrados. Estos elementos son dispositivos como servidores, routers, etcétera, que son supervisados y controlados accediendo a su información de administración.
+El Protocolo simple de administración de redes (SNMP) es un estándar de administración de redes que define una estrategia de administración de redes TCP/IP. SNMP le permite capturar información de configuración y estado de la red, y enviar la información a un equipo designado para su supervisión de eventos. Este protocolo basado en estándares de administración de redes usa una arquitectura distribuida que incluye lo siguiente:
 
-  - Se utiliza el protocolo SNMP para comunicar información de administración entre los puestos de administración y los agentes. Esta información se refiere a una recopilación de objetos administrados que residen en un almacén de información virtual denominado Base de datos de información de administración (MIB).
+  - Varios nodos administrados, cada uno con una entidad SNMP denominada agente, que proporciona acceso remoto al instrumental de administración.
+
+  - Al menos una entidad SNMP denominada administrador que ejecuta las aplicaciones de administración para supervisar y controlar los elementos administrados. Los elementos administrados son dispositivos como los hosts, los enrutadores, etc. Se supervisan y controlan accediendo a su información de administración.
+
+  - Se usa un protocolo de administración, SNMP, para comunicar la información de administración entre las estaciones y los agentes de administración. La información de administración hace referencia a una colección de objetos administrados que residen en un almacén de información virtual denominado base de información de administración (MIB).
+
+<div>
 
 
-> [!NOTE]
-> Más arriba se han ofrecido algunos ejemplos de soluciones de supervisión de red de terceros. No se trata de una lista completa y Microsoft no tiene preferencia por ninguna solución específica. Consulte con un proveedor de servicios de red y con su proveedor de tecnología para determinar cuál es la mejor solución de supervisión de red para su organización.
+> [!NOTE]  
+> Anteriormente se proporcionan ejemplos de soluciones de supervisión de red de terceros. Esta lista no es definitiva y Microsoft no favorece la solución de un proveedor específico. Comuníquese con un proveedor de servicios de red o con su proveedor de tecnología respectivo para determinar la mejor solución de supervisión de red para su organización.
 
 
 
-## Herramientas para la supervisión del rendimiento de red de un servidor concreto
+</div>
 
-## System Center Operations Manager 2012
+</div>
 
-System Center Operations Manager 2012 permite a los administradores ver el rendimiento de red de cada servidor mediante el pack de administración de Windows Server 2012. El pack de administración del sistema operativo de Windows Server incluye un pack de administración de rendimiento que permite supervisar el rendimiento y el estado del adaptador de red.
+</div>
 
-## Monitor de red de Windows
+<div>
 
-Recopila, muestra y analiza el uso de recursos en un servidor y mide el tráfico de red. Monitor de red supervisa exclusivamente la actividad de red. El análisis de estos datos y de los registros de rendimiento permite determinar el uso de la red, identificar problemas y predecir necesidades futuras.
+## <a name="tools-for-monitoring-individual-server-network-performance"></a>Herramientas para supervisar el rendimiento de la red del servidor
 
-Para obtener más información sobre Monitor de red 3.4, aprender a instalar y configurar la aplicación y capturar y analizar datos, consulte esta sesión: Información general sobre Monitor de red 3.3. Vea también el blog de Monitor de red en: <http://blogs.technet.com/b/netmon/>.
+<div>
+
+## <a name="system-center-operations-manager-2012"></a>System Center Operations Manager 2012
+
+System Center Operations Manager 2012 permite a los administradores ver el rendimiento de la red de servidores individuales a través del módulo de administración de Windows Server 2012: el módulo de administración de sistema operativo Windows Server incluye un módulo de administración de "rendimiento" eso permitiría que los administradores supervisaran el rendimiento del adaptador de red y el estado del adaptador.
+
+</div>
+
+<div>
+
+## <a name="windows-network-monitor"></a>Monitor de red de Windows
+
+Recopila, muestra, analiza el uso de recursos en un servidor y mide el tráfico de red. Monitor de red supervisa la actividad de la red de modo exclusivo. Al capturar y analizar datos de red, y usar estos datos con registros de rendimiento, puede determinar el uso de la red, identificar problemas de red y prever las necesidades futuras de la red.
+
+Para obtener más información sobre el monitor de red 3,4, y para obtener información sobre cómo instalar y configurar el monitor de red y capturar y analizar datos, consulte la descripción de esta sesión: monitor de red 3,3. Además, revise el [blog del monitor de red](http://blogs.technet.com/b/netmon/).
+
+</div>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

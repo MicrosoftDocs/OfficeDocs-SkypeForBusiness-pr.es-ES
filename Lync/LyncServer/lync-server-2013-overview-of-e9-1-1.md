@@ -1,46 +1,66 @@
-﻿---
-title: 'Lync Server 2013: Información general sobre E9-1-1'
-TOCTitle: Información general sobre E9-1-1
-ms:assetid: c01e6774-bc9f-4c5b-a60b-478b7317b2b7
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412936(v=OCS.15)
-ms:contentKeyID: 48276544
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Información general sobre E9-1-1'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Overview of E9-1-1
+ms:assetid: c01e6774-bc9f-4c5b-a60b-478b7317b2b7
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412936(v=OCS.15)
+ms:contentKeyID: 48185290
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 144f189c119653ddb02316193e78b9156fad2278
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34825488"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Información general sobre E9-1-1 en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
+
+# <a name="overview-of-e9-1-1-in-lync-server-2013"></a>Información general sobre E9-1-1 en Lync Server 2013
+
+</div>
+
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
 
 _**Última modificación del tema:** 2012-10-29_
 
-Microsoft Lync Server 2013 es compatible con las llamadas al 9-1-1 mejorado (E9-1-1) desde clientes de Lync y dispositivos de Lync Phone Edition. Cuando un usuario configura Lync Server para E9-1-1, las llamadas SOS que se realizan desde Lync 2013 o Lync Phone Edition incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos de Servicio de información de ubicaciones. Las ERL se componen de direcciones civiles (es decir, postales) e información adicional que ayuda a identificar con mayor precisión una ubicación en edificios de oficinas y otras instalaciones con varios inquilinos. Cuando un usuario realiza una llamada SOS, Lync Server redirige el audio de la llamada, junto con información de ubicación y devolución de llamada, a través de Servidor de mediación a un proveedor de servicios de E9-1-1, quien usa la dirección civil del autor de la llamada para redirigir la llamada al punto de respuesta de seguridad pública (PSAP) específico. Desde aquí se facilita la ubicación del autor de la llamada junto con una clave de consulta de servicios de emergencia (ESQK) que permite al PSAP buscar la ERL de esta persona.
+Microsoft Lync Server 2013 es compatible con las llamadas de 9-1-1 (E9-1-1) mejoradas desde los clientes de Lync y los dispositivos de Lync Phone Edition. Al configurar Lync Server para E9-1-1, las llamadas de emergencia realizadas desde Lync 2013 o Lync Phone Edition incluyen información de ubicación de respuesta de emergencia (ERL) de la base de datos del servicio de información de ubicación. Las ERL se componen de direcciones civiles (es decir, postales) e información adicional que ayuda a identificar con mayor precisión una ubicación en edificios de oficinas y otras instalaciones con varios inquilinos. Cuando un usuario realiza una llamada de emergencia, Lync Server enruta el audio de la llamada, junto con la información de la ubicación y la devolución de llamada, a través de un servidor de mediación a un proveedor de servicios E9-1-1. Desde aquí se facilita la ubicación del autor de la llamada junto con una clave de consulta de servicios de emergencia (ESQK) que permite al PSAP buscar la ERL de esta persona.
 
-Lync Server admite dos métodos para redirigir llamadas SOS al proveedor de servicios E9-1-1:
+Lync Server admite dos métodos para el enrutamiento de llamadas de emergencia a un proveedor de servicios E9-1-1:
 
   - Una conexión de enlace troncal SIP (Protocolo de inicio de sesión) a un proveedor de servicios E9-1-1 cualificado.
 
   - Una puerta de enlace de número de identificación de ubicación de emergencia (ELIN) a un proveedor de servicios E9-1-1 basado en una Red telefónica conmutada (RTC).
 
-Cuando se usa un proveedor de servicios de E9-1-1 de enlace troncal SIP, se agregan las ERL a la base de datos de Servicio de información de ubicaciones y se validan las ubicaciones cotejándolas con la Guía de calles maestra (MSAG) del proveedor de servicios E9-1-1. Si el proveedor recibe una llamada que no cuenta con información de ubicación o cuya ubicación no se ha validado en la MSAG, redirige la llamada a un Centro de respuesta de llamadas SOS (ECRC) nacional o regional, que dispone de personal especialmente preparado para obtener de forma oral la ubicación del autor de la llamada (si es posible) y redirigir manualmente la llamada al PSAP correspondiente. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
+Cuando usa un proveedor de servicios E9-1-1 de SIP, agrega ERLs a la base de datos de servicios de información de ubicación y, a continuación, valida las ubicaciones con una guía de dirección maestra (MSAG) que mantiene el proveedor de servicios E9-1-1. Si el proveedor recibe una llamada que no cuenta con información de ubicación o cuya ubicación no se ha validado en la MSAG, redirige la llamada a un Centro de respuesta de llamadas SOS (ECRC) nacional o regional, que dispone de personal especialmente preparado para obtener de forma oral la ubicación del autor de la llamada (si es posible) y redirigir manualmente la llamada al PSAP correspondiente. Algunos proveedores de servicios E9-1-1 de enlace troncal SIP también proporcionan a los clientes un número de marcado directo (DID) de RTC para el ECRC, que constituye un medio alternativo de enrutamiento de las llamadas al 9-1-1 si por algún motivo se produce un error en el enlace troncal SIP.
 
-A diferencia de los teléfonos de centrales de conmutación (PBX) basados en IP y multiplexación por división de tiempo (TDM) que cuentan con ubicaciones fijas, un extremo de Lync puede tener una gran movilidad. Cuando se implementa la característica E9-1-1, Lync Server ayuda a garantizar que, con independencia de donde se halle el autor de la llamada, la llamada SOS va a redirigirse al PSAP que facilita la ubicación de esta persona. Por ejemplo, si la oficina principal de un usuario está ubicada en Redmond (Washington), pero el usuario realiza una llamada SOS desde el equipo de una sucursal en Wichita (Kansas), el proveedor de servicios E9-1-1 basado en RTC o de enlace troncal SIP redirigirá la llamada al PSAP de Wichita, y no al de Redmond.
+A diferencia de la multiplexación de división de tiempo (TDM) y los teléfonos de central de conmutación (PBX) basados en IP, que tienen ubicaciones fijas, un punto de conexión de Lync puede ser muy móvil. Al implementar la característica E9-1-1, Lync Server le ayuda a garantizar que no importa dónde se encuentre la persona que llama, la llamada de emergencia se puede enrutar al PSAP que sirve la ubicación de la persona que llama. Por ejemplo, si la oficina principal de un usuario está ubicada en Redmond (Washington), pero el usuario realiza una llamada SOS desde el equipo de una sucursal en Wichita (Kansas), el proveedor de servicios E9-1-1 basado en RTC o de enlace troncal SIP redirigirá la llamada al PSAP de Wichita, y no al de Redmond.
 
-Cuando se usa una puerta de enlace de ELIN, también se agregan ERL a la base de datos de Servicio de información de ubicaciones, pero además se incluye un número ELIN para cada ubicación. El número ELIN pasa a ser el número de llamada SOS durante la llamada. Debe comprobar que el proveedor de RTC carga los ELIN en una base de datos de identificación de ubicación automática (ALI).
+Al usar una puerta de enlace de ELIN, también puede Agregar ERLs a la base de datos de servicios de información de ubicación, pero también puede incluir un número de ELIN para cada ubicación. El número ELIN pasa a ser el número de llamada SOS durante la llamada. Es preciso comprobar que el proveedor de RTC carga los ELIN en una base de datos de identificación de ubicación automática (ALI).
+
+<div>
 
 
-> [!NOTE]
-> Los dispositivos analógicos conectados a Lync no pueden recibir información de ubicación de Servicio de información de ubicaciones ni transmitir la ubicación al proveedor de servicios E9-1-1. Si usa la opción del proveedor de servicios E9-1-1 de enlace troncal SIP y tiene que admitir llamadas E9-1-1 desde teléfonos analógicos, tiene dos opciones: 
+> [!NOTE]  
+> Los dispositivos analógicos conectados a Lync no pueden recibir información de la ubicación del servicio de información de ubicación o la ubicación de transmisión al proveedor de servicios E9-1-1. Si usa la opción del proveedor de servicios E9-1-1 de enlace troncal SIP y tiene que admitir llamadas E9-1-1 desde teléfonos analógicos, tiene dos opciones: 
 > <UL>
 > <LI>
-> <P><STRONG>Opción PS-ALI tradicional</STRONG> Si dispone de puertas de enlace de RTC locales en cada sitio donde se implementan teléfonos analógicos y cada teléfono analógico tiene un DID, puede proporcionar la ubicación del dispositivo analógico directamente con un proveedor de servicios de identificación de ubicación automática o conmutador privado (PS-ALI). En este caso, debe configurar directivas de voz específicas de Lync y asignarlas a los objetos contacto del dispositivo analógico para que las llamadas E9-1-1 que se realizan desde esos teléfonos se redirijan directamente a través de la puerta de enlace local al proveedor de RTC del sitio (en lugar de redirigir la llamada a un enlace troncal SIP del proveedor de servicios E9-1-1). Cuando se realiza una llamada SOS, una base de datos de un proveedor de PS-ALI asociado con el enlace troncal de RTC asigna el DID de cada teléfono analógico a una ubicación física, y proporciona esta ubicación al PSAP. Estos registros deben actualizarse con el proveedor de servicios de PS-ALI cada vez que los teléfonos se desplazan a ERL diferentes.</P>
+> <P><STRONG></STRONG>&nbsp;Opción&nbsp;PS&nbsp;-Ali tradicional si tiene puertas de enlace RTC locales en cada sitio en el que se implementan teléfonos analógicos y cada teléfono analógico tiene un sistema, puede aprovisionar la ubicación del dispositivo analógico directamente con un conmutador privado o automático Proveedor de servicios de identificación de ubicación (PS-ALI). En este caso, debe configurar directivas de Skype Lync especialmente diseñadas y asignarlas a los objetos de contacto de dispositivos analógicos para que las llamadas de E9 desde esos teléfonos enruten directamente a través de la puerta de enlace local al proveedor de RTC que presta servicio al sitio (en lugar de enrutar el llamada a un proveedor de servicios de E9-1-1 de SIP). Cuando se realiza una llamada SOS, una base de datos de un proveedor de PS-ALI asociado con el enlace troncal de RTC asigna el DID de cada teléfono analógico a una ubicación física, y proporciona esta ubicación al PSAP. Estos registros necesitan actualizarse con el proveedor de servicios de PS-ALI cada vez que los teléfonos se desplazan a ERL diferentes.</P>
 > <LI>
-> <P><STRONG>Opción de proveedor de servicios E9-1-1</STRONG> Puede registrar los DID de teléfono analógico y sus ERL correspondientes con el proveedor de servicios E9-1-1 si dicho proveedor lo admite. Si el proveedor recibe una llamada de Lync Server que no incluye datos PIDF-LO, puede ver si hay una coincidencia de la base de datos en el número DID de quien realiza la llamada. Mediante la ERL que se recupera desde su base de datos, el proveedor puede redirigir automáticamente la llamada SOS al PSAP correcto y este recibirá el DID del dispositivo analógico y un registro de ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.</P></LI></UL>Si usa la opción de puerta de enlace de ELIN y necesita compatibilidad con las llamadas E9-1-1 desde teléfonos analógicos, puede dar la ubicación del dispositivo analógico directamente con el proveedor de servicios PS-ALI, como se describe en la primera opción mencionada anteriormente.
+> <P><STRONG></STRONG>&nbsp;Opción&nbsp;de&nbsp;proveedor de servicios E9-1-1 puede registrar el DIDs de teléfono analógico y su ERLs correspondiente con el proveedor de servicios E9-1-1, si es compatible con el proveedor de servicios E9-1-1. Si el proveedor recibe una llamada de Lync Server que no incluye datos de PIDF-lo, el proveedor puede ver si hay una coincidencia de base de datos en el número de "la parte de la llamada". Por medio de la ERL que se recupera desde su base de datos, el proveedor puede redirigir automáticamente la llamada SOS al PSAP correcto y este recibirá el DID del dispositivo analógico y un registro de ESQK que permite al distribuidor buscar la ubicación del autor de la llamada.</P></LI></UL>Si usa la opción de puerta de enlace de ELIN y necesita compatibilidad con las llamadas E9-1-1 desde teléfonos analógicos, puede dar la ubicación del dispositivo analógico directamente con el proveedor de servicios PS-ALI, como se describe en la primera opción mencionada anteriormente.</div>
 
-
-
-Desde el punto de vista de Lync Server, el proceso de E9-1-1 se puede diferenciar en dos fases independientes:
+Desde una perspectiva de Lync Server, el E9-1-1 se puede dividir en dos fases:
 
   - Fase 1: adquisición de una ubicación
 
@@ -48,13 +68,27 @@ Desde el punto de vista de Lync Server, el proceso de E9-1-1 se puede diferencia
 
 En esta sección se describe cómo funcionan estas fases.
 
-Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero debe decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para más información sobre las opciones posibles, consulte [Definir los elementos de red que se usan para determinar la ubicación en Lync Server 2013](lync-server-2013-defining-the-network-elements-used-to-determine-location.md).
+Si va a configurar la infraestructura para detectar automáticamente la ubicación del cliente, primero necesita decidir qué elementos de red usará para asignar los autores de las llamadas a las ubicaciones. Para obtener más información sobre las posibles opciones, vea [definir los elementos de red usados para determinar la ubicación en Lync Server 2013](lync-server-2013-defining-the-network-elements-used-to-determine-location.md).
 
-## En esta sección
+<div>
+
+## <a name="in-this-section"></a>En esta sección
 
   - [Adquirir una ubicación en Lync Server 2013](lync-server-2013-acquiring-a-location.md)
 
   - [Enrutamiento de llamadas E9-1-1 mediante un SIP troncal en Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-a-sip-trunk.md)
 
   - [Enrutamiento de llamadas E9-1-1 mediante una puerta de enlace ELIN en Lync Server 2013](lync-server-2013-routing-e9-1-1-calls-by-using-an-elin-gateway.md)
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

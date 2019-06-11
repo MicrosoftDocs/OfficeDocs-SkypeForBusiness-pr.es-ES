@@ -1,124 +1,189 @@
-﻿---
-title: 'Lync Server 2013: Mover usuarios a telefonía IP empresarial'
-TOCTitle: Mover usuarios a telefonía IP empresarial
-ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg412758(v=OCS.15)
-ms:contentKeyID: 48276178
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Mover usuarios a telefonía IP empresarial'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Moving users to Enterprise Voice
+ms:assetid: a2df6d51-5cf2-4d3e-8f97-496af5fd5e5e
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg412758(v=OCS.15)
+ms:contentKeyID: 48184958
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 1127bd0c767da7f02df8aefb30fda41a64bd353a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34826741"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Mover usuarios a telefonía IP empresarial en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2016-12-08_
+# <a name="moving-users-to-enterprise-voice-in-lync-server-2013"></a>Mover usuarios a telefonía IP empresarial en Lync Server 2013
 
-Si va a mover usuarios de una infraestructura de telefonía RTC existente a Telefonía IP empresarial, el proceso de implementación incluye algunos pasos que no forman parte del proceso de planeamiento descrito en la sección [Planear la telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md). Para obtener información sobre la migración de usuarios de una implementación de Telefonía IP empresarial anterior, consulte la documentación sobre migración incluida con el disco de instalación.
+</div>
 
-El proceso de mover a los usuarios de una infraestructura de telefonía existente a Telefonía IP empresarial consta de los siguientes pasos:
+<div id="mainSection">
 
-1.  Designar los números de teléfono principales.
+<div id="mainBody">
 
-2.  Habilitar a los usuarios para Telefonía IP empresarial.
+<span> </span>
+
+_**Última modificación del tema:** 2012-10-18_
+
+Si va a mover usuarios de una infraestructura de telefonía PBX existente a Enterprise Voice, el proceso de implementación incluye algunos pasos que no forman parte del proceso de planeación ya descrito en [planificación de telefonía IP empresarial en Lync Server 2013](lync-server-2013-planning-for-enterprise-voice.md). Para obtener información sobre cómo migrar usuarios de una implementación de voz de empresa anterior, consulte los documentos de migración que se incluyeron con los medios de instalación.
+
+El proceso de mover usuarios de una infraestructura de telefonía existente a Enterprise Voice consta de los siguientes pasos:
+
+1.  Designar números de teléfono principales.
+
+2.  Habilitar a los usuarios para Enterprise Voice.
 
 3.  Preparar planes de marcado para los usuarios.
 
-4.  Planear las directivas de voz de los usuarios.
+4.  Planear las directivas de voz de usuario.
 
-5.  Planear rutas de llamadas.
+5.  Planificar rutas de llamadas.
 
-6.  Configurar el sistema PBX o el tronco SIP de modo que vuelva a enrutar las llamadas de los usuarios habilitados para Enterprise Voice.
+6.  Configure el tronco de PBX o SIP para redirigir las llamadas para los usuarios habilitados para telefonía IP empresarial.
 
-7.  Mover los usuarios a Mensajería unificada de Exchange (UM) (se recomienda).
+7.  Mover usuarios a mensajería unificada (UM) de Exchange (recomendado).
 
-En este tema se describe cómo planear cada uno de estos pasos.
+En este tema se describe la planificación necesaria para cada uno de estos pasos.
 
-## Paso 1. Designar los números de teléfono principales
+<div>
 
-Telefonía IP empresarial integra la voz con otros medios de mensajería de forma que, cuando una llamada entrante llega al servidor, este asigne el número al URI de SIP del usuario y, a continuación, bifurque la llamada a todos los extremos del cliente asociados a dicho URI de SIP. Este proceso requiere que cada usuario esté asociado a un número de teléfono principal.
+## <a name="step-1-designate-primary-phone-numbers"></a>Paso 1. Designar números de teléfono principales
+
+Enterprise Voice integra voz con otros medios de mensajería, como cuando una llamada llega al servidor, el servidor asigna el número al URI SIP del usuario y, después, bifurca la llamada a todos los puntos de conexión de cliente asociados con ese SIP-URI. Este proceso requiere que cada usuario esté asociado a un número de teléfono principal.
 
 Un número de teléfono principal debe ser:
 
-  - Único a escala mundial o, en el caso de las extensiones internas, único en la empresa.
+  - Único globalmente o, en el caso de las extensiones internas, exclusiva de la empresa.
 
-  - Propiedad de la empresa y enrutable en la empresa. No deben usarse números personales.
+  - Pertenece a la empresa y se pueda enrutar. No se deben usar números personales.
 
-Los usuarios corporativos pueden tener dos o más números de teléfono en el Servicios de dominio de Active Directory. Todos los números de teléfono asociados a un usuario determinado se pueden ver o modificar en la hoja de propiedades de dicho usuario en el complemento Usuarios y equipos de Active Directory.
+Los usuarios de la empresa pueden tener dos o más números de teléfono que se indican en servicios de dominio de Active Directory. Todos los números de teléfono asociados con un usuario en particular se pueden ver o cambiar en la hoja de propiedades de ese usuario en el complemento usuarios y equipos de Active Directory.
 
-El cuadro de texto **Número de teléfono** de la pestaña **General** del cuadro de diálogo **Propiedades del usuario** debe contener el número principal del trabajo del usuario. Normalmente, este número se designará como número de teléfono principal del usuario.
+El cuadro **número de teléfono** en la pestaña **General** del cuadro de diálogo Propiedades del **usuario** debe contener el número de trabajo principal del usuario. Este número normalmente se designará como número de teléfono principal del usuario.
 
-Algunos usuarios pueden tener requisitos especiales (por ejemplo, un directivo que desea que todas las llamadas recibidas se enruten a través de un asistente administrativo), pero esas excepciones deben limitarse únicamente a aquellos usuarios cuyas necesidades sean claras y de vital importancia.
+Es posible que algunos usuarios tengan requisitos especiales (por ejemplo, un ejecutivo que quiera que todas las llamadas entrantes se dirijan a través de un auxiliar administrativo), pero dichas excepciones deben limitarse a aquellos casos en los que la necesidad sea clara y crítica.
 
-Una vez elegido el número principal, se debe:
+Una vez que se elige un número principal, debe ser:
 
-  - Normalizar al formato E.164, cuando sea posible.
+  - Normalizado al formato E. 164, siempre que sea posible.
 
-  - Copiarlo en el atributo **msRTCSIP-line** de Active Directory.
+  - Se ha copiado en el atributo de **msRTCSIP-line de** Active Directory.
+    
+    <div>
     
 
-    > [!NOTE]
-    > <STRONG>Coexistencia con el control remoto de llamadas (RCC)</STRONG><BR>RCC permite usar Lync Server para supervisar y controlar un teléfono PBX de escritorio. El control se enruta a través del servidor, que actúa como puerta de enlace al sistema PBX. A pesar de que no puede configurar un usuario para RCC y para Telefonía IP empresarial, el valor de URI de línea designa el número de teléfono principal de un usuario en ambos casos.<BR>Si ya dispone de una infraestructura PBX que desea que sigan usando los usuarios seleccionados, puede introducir Telefonía IP empresarial de forma gradual en su organización. Para obtener información sobre este escenario de implementación, consulte <A href="lync-server-2013-direct-sip-deployment-options.md">Opciones de implementación SIP directa en Lync Server 2013</A> en la documentación sobre planeamiento.<BR>En versiones anteriores, era posible habilitar tanto RCC como Telefonía IP empresarial para un mismo usuario, pero únicamente si también se configuraba el usuario para la bifurcación doble, una característica mediante la cual una llamada entrante suena al mismo tiempo en el teléfono PBX de un usuario y en Communicator. En Lync Server 2010, la bifurcación doble no está admitida.
+    > [!NOTE]  
+    > <STRONG>Coexistencia con control remoto de llamadas (RCC)</STRONG><BR>RCC es la capacidad de usar Lync Server para supervisar y controlar un teléfono PBX de escritorio. El control se enruta a través del servidor, que actúa como una puerta de enlace a la PBX. Aunque no puede configurar un usuario tanto para RCC como para telefonía IP empresarial, la configuración de URI de línea designa el número de teléfono principal de un usuario en cualquier caso.<BR>Si ya tiene una infraestructura PBX existente que quiere que los usuarios seleccionados puedan seguir usando, puede introducir una voz empresarial incremental en la organización. Para obtener más información sobre este escenario de implementación, consulte <A href="lync-server-2013-direct-sip-deployment-options.md">Opciones de implementación de SIP directo en Lync Server 2013</A> en la documentación de planeación.<BR>En versiones anteriores, se podía habilitar tanto RCC como empresarial Voice para un usuario, pero solo si también has configurado el usuario para la bifurcación dual, una característica en la que una llamada entrante sonará al teléfono PBX de un usuario y a Communicator al mismo tiempo. En Lync Server 2010, no se admite la bifurcación dual.
 
+    
+    </div>
 
+Hay tres métodos para rellenar el atributo **msRTCSIP-line** :
 
-Hay tres métodos para rellenar el atributo **msRTCSIP-line**:
+  - Microsoft Identity Integration Server (recomendado)
 
-  - Microsoft Identity Integration Server (se recomienda)
+  - Página **usuarios** del panel de control de Lync Server
 
-  - La página **Usuarios** en el Panel de control de Lync Server
+Desde dónde se deben procesar muchos números de teléfono, la mejor opción es una secuencia de comandos personalizada desarrollada por su organización. Según el modo en que la organización represente los números de teléfono en los servicios de dominio de Active Directory, es posible que la secuencia de comandos tenga que normalizar los números de teléfono principales al formato E. 164 antes de copiarlos en el atributo de **msRTCSIP-line** .
 
-Cuando hay que procesar muchos números de teléfono, la mejor opción es usar un script desarrollado de forma personalizada por su organización. Dependiendo de la forma en que la organización represente los números de teléfono en los Servicios de dominio de Active Directory, es posible que el script tenga que normalizar los números de teléfono principales según el formato E.164 antes de copiarlos en el atributo **msRTCSIP-line**.
+  - Si su organización mantiene todos los números de teléfono en los servicios de dominio de Active Directory en un solo formato y este formato es E. 164, su script solo necesita escribir cada número de teléfono principal en el atributo **msRTCSIP-line** .
 
-  - Si la organización mantiene todos los números de teléfono de los Servicios de dominio de Active Directory en un único formato y ese formato es E.164, el script solo deberá escribir cada número de teléfono principal en el atributo **msRTCSIP-line**.
+  - Si su organización mantiene todos los números de teléfono en los servicios de dominio de Active Directory en un solo formato, pero ese formato no es E. 164, su script debe definir una regla de normalización adecuada para convertir los números de teléfono principales de su formato existente. a E. 164 antes de escribirlos en el atributo **msRTCSIP-line** .
 
-  - Si la organización mantiene todos los números de teléfono de los Servicios de dominio Active Directory en un único formato, pero ese formato no es E.164, el script deberá definir una regla de normalización adecuada para convertir los números de teléfono principales al formato E.164 antes de escribirlos en el atributo **msRTCSIP-line**.
+  - Si su organización no impone un formato estándar para los números de teléfono de los servicios de dominio de Active Directory, su script debe definir las reglas de normalización apropiadas para convertir los números de teléfono principales de los distintos formatos a E. 164 conformidad antes de escribir los números de teléfono primarios en el atributo de **msRTCSIP-line** .
 
-  - Si la organización no exige ningún formato estándar para los números de teléfono de los Servicios de dominio de Active Directory, el script deberá definir reglas de normalización adecuadas para convertir los distintos formatos de los números de teléfono principales al formato E.164 antes de escribirlos en el atributo **msRTCSIP-line**.
-
-El script también deberá insertar el prefijo **Tel:** delante de cada número principal antes de escribirlo en el atributo **msRTCSIP-line**.
+El script también tendrá que insertar el prefijo **Tel:** antes de cada número principal antes de escribirlo en el atributo de **msRTCSIP-line** .
 
 El formato esperado del número especificado en este atributo es:
 
-  - Tel:+14255550100;ext=50100.
+  - Tel: + 14255550100; ext = 50100.
 
-  - Tel:5550100 (para extensiones únicas en toda la empresa)
+  - Tel: 5550100 (para extensiones exclusivas de toda la empresa)
     
+    <div>
+    
+
     > [!IMPORTANT]  
-    > La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza ni elimina de ningún otro modo la necesidad de normalizar el número de teléfono principal de cada usuario en los Servicios de dominio de Active Directory porque ABS carece de acceso a Active Directory y, por lo tanto, no puede copiar los números principales en el atributo <strong>msRTCSIP-line</strong>.
+    > La normalización realizada por el servicio de libreta de direcciones (ABS) no reemplaza o elimina la necesidad de normalizar el número de teléfono principal de cada usuario en servicios de dominio de Active Directory porque ABS no tiene acceso a los servicios de dominio de Active Directory y por lo tanto, no puede copiar números primarios en el atributo <STRONG>msRTCSIP-line</STRONG> .
+
     
+    </div>
 
+</div>
 
-## Paso 2. Habilitar a los usuarios para Enterprise Voice
+<div>
 
-Aparte de identificar a los usuarios que se van a habilitar, no se requiere ninguna otra planeación especial para llevar a cabo este paso.
+## <a name="step-2-enable-users-for-enterprise-voice"></a>Paso 2. Habilitar a los usuarios para la telefonía IP empresarial
 
-## Paso 3. Preparar planes de marcado para los usuarios.
+Aparte de identificar qué usuarios se deben habilitar, no es necesario realizar ninguna planificación especial para completar este paso.
 
-Los usuarios que estén habilitados para Telefonía IP empresarial no podrán realizar llamadas a la RTC si no hay planes de marcado. Un plan de marcado es un conjunto de reglas de normalización especificado por el usuario que convierte números de teléfono para una ubicación especificada por el usuario, un usuario individual o un objeto de contacto a un formato estándar único (E.164) con fines de autorización telefónica y enrutamiento de llamadas. Las reglas de normalización definen la forma en que los números de teléfono expresados en diversos formatos se van a enrutar en cada ubicación, usuario u objeto de contacto que se haya especificado.
+</div>
 
-Para obtener más información sobre la preparación de planes de marcado, consulte la sección [Planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md).
+<div>
 
-## Paso 4. Planear las directivas de voz de los usuarios
+## <a name="step-3-prepare-dial-plans-for-users"></a>Paso 3. Preparar planes de marcado para los usuarios.
 
-Las clases de servicio de los usuarios en un sistema PBX heredado, como el derecho a realizar llamadas de larga distancia o llamadas internacionales desde teléfonos de la compañía, deben volver a configurarse como directivas VoIP para los usuarios que se pasen a Enterprise Voice. Si desea obtener información detallada sobre la planeación y la creación de directivas para Enterprise Voice, consulte [Directivas de voz en Lync Server 2013](lync-server-2013-voice-policies.md).
+Los usuarios que están habilitados para telefonía IP empresarial no podrán llamar a la llamada a la RTC sin realizar planes de marcado. Un plan de marcado es un conjunto de reglas de normalización especificado por el usuario que convierte números de teléfono para una ubicación especificada por el usuario, un usuario individual o un objeto de contacto a un formato estándar único (E.164) con fines de autorización telefónica y enrutamiento de llamadas. Las reglas de normalización definen la forma en que los números de teléfono expresados en diversos formatos se van a redirigir en cada ubicación, usuario u objeto de contacto que se haya especificado.
 
-## Paso 5. Planear rutas de llamadas salientes
+Para obtener información sobre la preparación de los planes de marcado, consulte [planes de marcado y reglas de normalización en Lync Server 2013](lync-server-2013-dial-plans-and-normalization-rules.md).
 
-Las rutas de llamadas especifican la forma en que Lync Server administra las llamadas salientes realizadas por usuarios de Enterprise Voice. Cuando un usuario marca un número, el servidor normaliza la cadena de marcado al formato E.164, si es necesario, e intenta establecer una coincidencia con un URI de SIP. Si el servidor no puede establecer esa coincidencia, aplicará la lógica de enrutamiento de llamadas salientes basándose en el número. El paso final para definir la lógica consiste en crear una ruta de llamada con nombre independiente para cada conjunto de números de teléfono de destino indicados en cada plan de marcado.
+</div>
 
-Para obtener información detallada sobre cómo planear rutas de llamadas, consulte [Rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md).
+<div>
 
-## Paso 6. Configurar el sistema PBX o el tronco SIP para volver a enrutar las llamadas de los usuarios de Enterprise Voice
+## <a name="step-4-plan-user-voice-policies"></a>Paso 4. Planear las directivas de voz de usuario
 
-Los usuarios que anteriormente se hospedaban en una conexión tradicional PBX o en una conexión basada en troncos SIP con un proveedor de servicios de telefonía por Internet (ITSP) conservan su número de teléfono después del traslado. El único requisito tras el traslado es que el sistema PBX o el tronco SIP debe volver a configurarse de forma que enrute las llamadas entrantes para los usuarios de Telefonía IP empresarial al Servidor de mediación.
+La configuración de clase de usuario de servicio en un sistema PBX heredado, como el derecho de hacer llamadas de larga distancia o internacionales desde teléfonos de la empresa, debe ser reconfigurada como directivas de VoIP para los usuarios que han migrado a la telefonía IP empresarial. Para obtener más información sobre la planeación y la creación de directivas para telefonía IP empresarial, consulte [directivas de voz en Lync Server 2013](lync-server-2013-voice-policies.md).
 
-## Paso 7. Mover los usuarios a la mensajería unificada de Exchange (se recomienda)
+</div>
 
-Para mover a los usuarios a la Mensajería unificada de Exchange, deben realizarse estas tareas:
+<div>
 
-  - Configurar la mensajería unificada de Exchange y Lync Server para que trabajen conjuntamente.
+## <a name="step-5-plan-outbound-call-routes"></a>Paso 5. Planificar rutas de llamadas salientes
 
-  - Habilitar a los usuarios para el contestador automático de la Mensajería unificada de Exchange y Outlook Voice Access. Esta tarea se realiza en el servidor de Mensajería unificada de Exchange. Para obtener información detallada, consulte la biblioteca de TechNet de Exchange Server 2010 en [http://go.microsoft.com/fwlink/?linkid=139372\&clcid=0xC0A](http://go.microsoft.com/fwlink/?linkid=139372%26clcid=0xc0a).
+Las rutas de llamadas especifican cómo Lync Server administra las llamadas salientes que hacen los usuarios de telefonía IP. Cuando un usuario marca un número, el servidor, si es necesario, normaliza la cadena de marcado al formato E. 164 e intenta hacerlo coincidir con el URI del SIP. Si el servidor no puede establecer la coincidencia, aplica la lógica de enrutamiento de llamadas salientes en función del número. El último paso para definir esa lógica es crear una ruta de llamada con nombre diferente para cada conjunto de números de teléfono de destino que aparecen en cada plan de marcado.
+
+Para obtener más información sobre la planeación de rutas de llamadas, consulte [rutas de voz en Lync Server 2013](lync-server-2013-voice-routes.md).
+
+</div>
+
+<div>
+
+## <a name="step-6-configure-pbx-or-sip-trunk-to-reroute-calls-for-enterprise-voice-users"></a>Paso 6. Configurar el tronco de PBX o SIP para redirigir llamadas para usuarios de Enterprise Voice
+
+Los usuarios que anteriormente se hospedaban en una PBX tradicional o en una conexión SIP troncal a un proveedor de servicios de telefonía por Internet (ITSP) conservan sus números de teléfono después del movimiento. El único requisito es que, después de la mudanza, el troncal de PBX o SIP debe reconfigurarse para enrutar las llamadas entrantes para los usuarios de la empresa de telefonía al servidor de mediación.
+
+</div>
+
+<div>
+
+## <a name="step-7-move-users-to-exchange-unified-messaging-recommended"></a>Paso 7. Mover usuarios a la mensajería unificada de Exchange (recomendado)
+
+El traslado de usuarios a la mensajería unificada de Exchange consta de las siguientes tareas:
+
+  - Configure la mensajería unificada de Exchange y Lync Server para que funcionen conjuntamente.
+
+  - Habilite los usuarios para la respuesta de la mensajería unificada de Exchange y Outlook Voice Access. Esta tarea se realiza en el servidor de mensajería unificada de Exchange. Para obtener más información, consulte la biblioteca de TechNet de [http://go.microsoft.com/fwlink/p/?linkID=139372](http://go.microsoft.com/fwlink/p/?linkid=139372)Exchange Server 2010 en.
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
