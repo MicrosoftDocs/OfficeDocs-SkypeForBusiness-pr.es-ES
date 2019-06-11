@@ -1,76 +1,134 @@
-﻿---
-title: "Crear o modificar un conjunto de opciones de configuración de Lync Phone Edition"
-TOCTitle: "Créat. ou mod. d’une collection de param. de conf. de Lync Phone Edition"
-ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ688086(v=OCS.15)
-ms:contentKeyID: 49889221
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: Crear o modificar una colección de opciones de configuración de Lync Phone Edition
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a collection of Lync Phone Edition configuration settings
+ms:assetid: 6cf714af-8f57-4a71-89ad-0a776302b2ba
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ688086(v=OCS.15)
+ms:contentKeyID: 49733683
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: f3012ffeeb8dd4559ee05a45dd07becefd099691
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835816"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Creación o modificación de un conjunto de opciones de configuración de Lync Phone Edition
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-23_
+# <a name="create-or-modify-a-collection-of-lync-phone-edition-configuration-settings-in-lync-server-2013"></a><span data-ttu-id="04be5-102">Crear o modificar una colección de opciones de configuración de Lync Phone Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04be5-102">Create or modify a collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>
 
-Cuando se instala Lync Server, se obtiene una colección global de configuraciones de Lync Phone Edition. Estas configuraciones se aplican a todos los dispositivos de su implementación que ejecuten Lync Phone Edition. Además de poder cambiarlas en cualquier momento, también se puede configurar una colección nueva que se aplique a los dispositivos de un sitio específico. Las opciones de configuración de sitio tienen preferencia sobre las globales.
+</div>
 
-Las opciones de configuración están constituidas por: el nombre y el ámbito (de sitio o global) de la colección, la opción de seguridad SIP, el nivel de registro, el nivel de calidad del servicio (QoS) de voz, la opción del bloqueo del teléfono y, por último, los detalles del bloqueo del teléfono, que definen la longitud del número de identificación personal (PIN) de desbloqueo y el tiempo que el teléfono permanece inactivo hasta que se bloquea.
+<div id="mainSection">
 
-## Para crear una colección de opciones de configuración de Lync Phone Edition o editar las de una colección existente
+<div id="mainBody">
 
-1.  Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.
+<span> </span>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+<span data-ttu-id="04be5-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="04be5-103">_**Topic Last Modified:** 2013-02-23_</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Clientes** y, después, en el botón de navegación **Configuración de dispositivo**.
+<span data-ttu-id="04be5-104">Al instalar Lync Server, obtiene una colección global de la configuración de Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="04be5-104">When you install Lync Server, you get a global collection of Lync Phone Edition settings.</span></span> <span data-ttu-id="04be5-105">Esta configuración se aplica a todos los dispositivos que ejecutan Lync Phone Edition en su implementación.</span><span class="sxs-lookup"><span data-stu-id="04be5-105">These settings apply to all devices running Lync Phone Edition in your deployment.</span></span> <span data-ttu-id="04be5-106">Puedes cambiar esta configuración en cualquier momento.</span><span class="sxs-lookup"><span data-stu-id="04be5-106">You can change these settings at any time.</span></span> <span data-ttu-id="04be5-107">También puede configurar una nueva colección de opciones de configuración que se apliquen a los dispositivos de un sitio específico.</span><span class="sxs-lookup"><span data-stu-id="04be5-107">You can also set up a new collection of settings that apply to the devices in a specific site.</span></span> <span data-ttu-id="04be5-108">La configuración del sitio tiene prioridad sobre la configuración global.</span><span class="sxs-lookup"><span data-stu-id="04be5-108">Site settings take precedence over global settings.</span></span>
 
-4.  En la página **Configuración de dispositivo**, realice alguna de las operaciones siguientes:
+<span data-ttu-id="04be5-109">Las opciones de configuración consisten en el nombre de la colección, el ámbito (global o sitio), la configuración de seguridad SIP, el nivel de registro, la calidad de servicio (QoS) de voz, la configuración de bloqueo de teléfono y el bloqueo de teléfono, es decir, cuánto tiempo se desbloquea el número de identificación personal ( PIN) debe ser y b el teléfono permanecerá inactivo antes de bloquearse.</span><span class="sxs-lookup"><span data-stu-id="04be5-109">Configuration settings consist of the collection name, scope (global or site), SIP security setting, logging level, voice quality of service (QoS) level, phone-lock setting, and phone-lock details, that is, how long the a) unlock personal identification number (PIN) must be and b) phone stays idle before locking itself.</span></span>
+
+<div>
+
+## <a name="to-create-a-collection-of-lync-phone-edition-configuration-settings-or-edit-settings-for-an-existing-collection"></a><span data-ttu-id="04be5-110">Para crear una colección de opciones de configuración de Lync Phone Edition o editar la configuración de una colección existente</span><span class="sxs-lookup"><span data-stu-id="04be5-110">To create a collection of Lync Phone Edition configuration settings or edit settings for an existing collection</span></span>
+
+1.  <span data-ttu-id="04be5-111">Desde una cuenta de usuario que se asigne al rol CsUserAdministrator o CsAdministrator, inicie sesión en cualquier equipo en la implementación interna.</span><span class="sxs-lookup"><span data-stu-id="04be5-111">From a user account that is assigned to the CsUserAdministrator role or the CsAdministrator role, log on to any computer in your internal deployment.</span></span>
+
+2.  <span data-ttu-id="04be5-112">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="04be5-112">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="04be5-113">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="04be5-113">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="04be5-114">En la barra de navegación izquierda, haga clic en **clientes**y, a continuación, haga clic en el botón de navegación **configuración de dispositivo** .</span><span class="sxs-lookup"><span data-stu-id="04be5-114">In the left navigation bar, click **Clients**, and then click the **Device Configuration** navigation button.</span></span>
+
+4.  <span data-ttu-id="04be5-115">En la página **configuración de dispositivo** , siga uno de estos procedimientos:</span><span class="sxs-lookup"><span data-stu-id="04be5-115">On the **Device Configuration** page, do one of the following:</span></span>
     
-      - Para crear una colección de opciones de configuración de Lync Phone Edition, haga clic en **Nuevo**, seleccione un sitio, haga clic en **Aceptar**, revise la configuración predeterminada y realice los cambios que desee.
+      - <span data-ttu-id="04be5-116">Para crear una nueva colección de opciones de configuración de Lync Phone Edition, haga clic en **nuevo**, seleccione un sitio, haga clic en **Aceptar**, revise la configuración predeterminada y, si lo desea, realice los cambios.</span><span class="sxs-lookup"><span data-stu-id="04be5-116">To create a new collection of Lync Phone Edition configuration settings, click **New**, select a site, click **OK**, review the default settings, and, if you want to, make any changes.</span></span>
     
-      - Para editar alguna configuración de una colección existente, haga clic en la colección, haga clic en el menú **Editar**, en **Mostrar detalles** y realice los cambios que desee.
+      - <span data-ttu-id="04be5-117">Para modificar la configuración de una colección existente, haga clic en la colección, haga clic en el menú **Editar** , haga clic en **Mostrar detalles**y, a continuación, realice los cambios.</span><span class="sxs-lookup"><span data-stu-id="04be5-117">To edit any of the settings in an existing collection, click the collection, click the **Edit** menu, click **Show details**, and then make your changes.</span></span>
         
-        > [!TIP]  
-        > Para volver a usar las opciones en configuración predeterminadas en la colección global, haga clic en ella, haga clic en el menú <strong>Editar</strong>, en <strong>Eliminar</strong> y, después, en <strong>Aceptar</strong>. Con esto no se eliminará la colección global, sino que solo se restablecerán las opciones predeterminadas.
+        <div>
         
 
+        > [!TIP]
+        > <span data-ttu-id="04be5-118">Para volver a usar la configuración predeterminada de la colección global, haga clic en la colección global, haga clic en el menú <STRONG>Editar</STRONG> , haga clic en <STRONG>eliminar</STRONG>y, a continuación, haga clic en <STRONG>Aceptar</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="04be5-118">To go back to using the default settings for the global collection, click the global collection, click the <STRONG>Edit</STRONG> menu, click <STRONG>Delete</STRONG>, and then click <STRONG>OK</STRONG>.</span></span> <span data-ttu-id="04be5-119">Esto no eliminará la colección global; simplemente restablece la configuración a los valores predeterminados.</span><span class="sxs-lookup"><span data-stu-id="04be5-119">This will not delete the global collection; it just resets the settings to the defaults.</span></span>
 
-5.  Haga clic en **Confirmar**.
+        
+        </div>
 
-## Para crear opciones de configuración de Lync Phone Edition con los cmdlets de Shell de administración de Lync Server
+5.  <span data-ttu-id="04be5-120">Haga clic en **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="04be5-120">Click **Commit**.</span></span>
 
-También puede crear opciones de configuración de Lync Phone Edition (solo en el ámbito de sitio) con el Shell de administración de Lync Server y el cmdlet **New-CsUCPhoneConfiguration**. Puede ejecutar el cmdlet desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+</div>
 
-## Para crear opciones de configuración de Lync Phone Edition que usen los valores predeterminados
+<div>
 
-  - Este comando crea un conjunto de opciones de configuración de teléfonos para UC para el sitio Redmond:
+## <a name="creating-new-lync-phone-edition-configuration-settings-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="04be5-121">Crear nuevas opciones de configuración de Lync Phone Edition con cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="04be5-121">Creating New Lync Phone Edition Configuration Settings by Using Windows PowerShell Cmdlets</span></span>
+
+<span data-ttu-id="04be5-122">Puede crear opciones de configuración de Lync Phone Edition (solo en el ámbito del sitio) mediante Windows PowerShell y el cmdlet **New-CsUCPhoneConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="04be5-122">You can create Lync Phone Edition configuration settings can (at the site scope only) by using Windows PowerShell and the **New-CsUCPhoneConfiguration** cmdlet.</span></span> <span data-ttu-id="04be5-123">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="04be5-123">You can run this cmdlet from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="04be5-124">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="04be5-124">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
+
+## <a name="to-create-new-lync-phone-edition-configuration-settings-that-use-the-default-values"></a><span data-ttu-id="04be5-125">Para crear una nueva configuración de Lync Phone Edition que use los valores predeterminados</span><span class="sxs-lookup"><span data-stu-id="04be5-125">To create new Lync Phone Edition configuration settings that use the default values</span></span>
+
+  - <span data-ttu-id="04be5-126">Este comando crea un nuevo conjunto de parámetros de configuración del teléfono UC para el sitio de Redmond:</span><span class="sxs-lookup"><span data-stu-id="04be5-126">This command creates a new set of UC phone configuration settings for the Redmond site:</span></span>
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond"
     
-    Como no se especificó ningún parámetro (aparte del parámetro obligatorio Identity) en el comando anterior, la colección nueva de opciones de configuración usará los valores predeterminados para todas sus propiedades.
+    <span data-ttu-id="04be5-127">Dado que, en el comando anterior, no se especificaron parámetros (además del parámetro de identidad obligatorio), la nueva colección de valores de configuración usará los valores predeterminados para todas sus propiedades.</span><span class="sxs-lookup"><span data-stu-id="04be5-127">Because no parameters (other than the mandatory Identity parameter) were specified in the preceding command, the new collection of configuration settings will use the default values for all its properties.</span></span>
 
-## Para crear un único valor de propiedad al crear opciones de configuración de Lync Phone Edition
+</div>
 
-  - Para crear opciones de configuración que usen valores de propiedad distintos, simplemente tiene que incluir el valor del parámetro y el parámetro adecuados. Por ejemplo, para crear una colección de opciones de configuración de teléfonos para UC que utilicen el bloqueo del teléfono de forma predeterminada, use un comando como este:
+<div>
+
+## <a name="to-change-a-single-property-value-when-creating-new-lync-phone-edition-configuration-settings"></a><span data-ttu-id="04be5-128">Para cambiar un único valor de propiedad al crear nuevas opciones de configuración de Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="04be5-128">To change a single property value when creating new Lync Phone Edition configuration settings</span></span>
+
+  - <span data-ttu-id="04be5-129">Para crear una configuración que use otros valores de propiedad, basta con incluir el parámetro y el valor correspondiente adecuados.</span><span class="sxs-lookup"><span data-stu-id="04be5-129">To create settings that use different property values, simply include the appropriate parameter and parameter value.</span></span> <span data-ttu-id="04be5-130">Por ejemplo, para crear una colección de opciones de configuración de teléfono UC que, de forma predeterminada, requieren bloqueo de teléfono, use un comando como este:</span><span class="sxs-lookup"><span data-stu-id="04be5-130">For example, to create a collection of UC phone configuration settings that, by default, require phone locking, use a command like this:</span></span>
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True
 
-## Para cambiar varios valores de propiedad al crear opciones de configuración de Lync Phone Edition
+</div>
 
-  - Se pueden modificar varios valores de propiedad incluyendo varios parámetros. Este comando, por ejemplo, sirve para aplicar el bloqueo del teléfono y para establecer una longitud mínima de 8 dígitos del PIN:
+<div>
+
+## <a name="to-change-multiple-property-values-when-creating-new-lync-phone-edition-configuration-settings"></a><span data-ttu-id="04be5-131">Para cambiar varios valores de propiedad al crear nuevas opciones de configuración de Lync Phone Edition</span><span class="sxs-lookup"><span data-stu-id="04be5-131">To change multiple property values when creating new Lync Phone Edition configuration settings</span></span>
+
+  - <span data-ttu-id="04be5-132">Puede incluir varios parámetros para modificar varios valores de propiedad.</span><span class="sxs-lookup"><span data-stu-id="04be5-132">Multiple property values can be modified by including multiple parameters.</span></span> <span data-ttu-id="04be5-133">Por ejemplo, este comando aplica bloqueo de teléfono y establece también la longitud mínima del PIN en 8 dígitos:</span><span class="sxs-lookup"><span data-stu-id="04be5-133">For example, this command enforces phone locking and also sets the minimum PIN length to 8 digits:</span></span>
     
         New-CsUCPhoneConfiguration -Identity "site:Redmond" -EnforcePhoneLock $True -MinPhonePinLength 8
 
-Para más información, consulte [New-CsUCPhoneConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsUCPhoneConfiguration).
+</div>
 
-## Vea también
+<span data-ttu-id="04be5-134">Para obtener más información, vea [New-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398445(v=OCS.15)).</span><span class="sxs-lookup"><span data-stu-id="04be5-134">For details, see [New-CsUCPhoneConfiguration](https://technet.microsoft.com/en-us/library/Gg398445(v=OCS.15)).</span></span>
 
-#### Tareas
+</div>
 
-[Eliminación de un conjunto existente de opciones de configuración de Lync Phone Edition](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
-[Configuración de la seguridad para Lync Phone Edition](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
-[Exigir el bloqueo del teléfono](lync-server-2013-enforce-phone-locking.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="04be5-135">Vea también</span><span class="sxs-lookup"><span data-stu-id="04be5-135">See Also</span></span>
+
+
+[<span data-ttu-id="04be5-136">Eliminar una colección existente de opciones de configuración de Lync Phone Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04be5-136">Delete an existing collection of Lync Phone Edition configuration settings in Lync Server 2013</span></span>](lync-server-2013-delete-an-existing-collection-of-lync-phone-edition-configuration-settings.md)  
+[<span data-ttu-id="04be5-137">Establecer la configuración de seguridad de Lync Phone Edition en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04be5-137">Configure security settings for Lync Phone Edition in Lync Server 2013</span></span>](lync-server-2013-configure-security-settings-for-lync-phone-edition.md)  
+[<span data-ttu-id="04be5-138">Exigir el bloqueo de teléfono en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="04be5-138">Enforce phone locking in Lync Server 2013</span></span>](lync-server-2013-enforce-phone-locking.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

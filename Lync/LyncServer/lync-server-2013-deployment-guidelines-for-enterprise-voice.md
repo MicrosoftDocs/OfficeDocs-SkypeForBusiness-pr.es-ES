@@ -1,75 +1,128 @@
-﻿---
-title: 'Lync Server 2013: Instrucciones para la implementación de la telefonía IP empresarial'
-TOCTitle: Instrucciones para la implementación de la telefonía IP empresarial
-ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg398694(v=OCS.15)
-ms:contentKeyID: 48275934
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Instrucciones para la implementación de la telefonía IP empresarial'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Deployment guidelines for Enterprise Voice
+ms:assetid: 8985bd93-7613-4cef-9c89-51df6049ed9b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398694(v=OCS.15)
+ms:contentKeyID: 48184733
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b0f4f6198f8fb82720834d112bcf363554aaf84d
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835494"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Instrucciones para la implementación de la telefonía IP empresarial en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-09-21_
+# <a name="deployment-guidelines-for-enterprise-voice-in-lync-server-2013"></a><span data-ttu-id="e99b2-102">Instrucciones para la implementación de la telefonía IP empresarial en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="e99b2-102">Deployment guidelines for Enterprise Voice in Lync Server 2013</span></span>
 
-Este tema describe los requisitos previos y otras instrucciones que debe tener en cuenta al planear la implementación de la carga de trabajo de Lync Server 2013 y Telefonía IP empresarial.
+</div>
 
-## Requisitos previos de implementación
+<div id="mainSection">
 
-Para obtener una experiencia óptima al implementar Telefonía IP empresarial, asegúrese de que la infraestructura de TI, la red y los sistemas cumplen los siguientes requisitos previos:
+<div id="mainBody">
 
-  - Lync Server 2013 Standard Edition o Enterprise Edition está instalado y operativo en la red.
+<span> </span>
 
-  - Tener implementados y operativos todos los servidores perimetrales de la red perimetral, incluidos los servidores perimetrales con Servidor perimetral de acceso, Servicio perimetral A/V, Servicio perimetral de conferencia web y un proxy inverso.
+<span data-ttu-id="e99b2-103">_**Última modificación del tema:** 2012-09-21_</span><span class="sxs-lookup"><span data-stu-id="e99b2-103">_**Topic Last Modified:** 2012-09-21_</span></span>
 
-  - Haber creado y habilitado uno o varios usuarios en Lync Server.
+<span data-ttu-id="e99b2-104">En este tema se describen los requisitos previos y otras directrices que se deben tener en cuenta al planear la implementación de Lync Server 2013 y la carga de trabajo de telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="e99b2-104">This topic describes prerequisites and other guidelines to consider when you are planning to deploy Lync Server 2013 and the Enterprise Voice workload.</span></span>
 
-  - Se necesita tener instalado Microsoft Exchange Server 2007 Service Pack 1 (SP1) o el último service pack, o bien Microsoft Exchange Server 2010. Una de estas dos opciones es necesaria para integrar Mensajería unificada de Exchange (UM) en Lync Server y para proporcionar notificaciones avanzadas e información de registro de llamadas a los extremos de cliente.
+<div>
 
-  - Debe haberse designado, normalizado y copiado un número de teléfono principal único en el atributo **msRTCSIP-line** de cada usuario que vaya a habilitarse para Telefonía IP empresarial.
+## <a name="deployment-prerequisites"></a><span data-ttu-id="e99b2-105">Requisitos previos de implementación</span><span class="sxs-lookup"><span data-stu-id="e99b2-105">Deployment Prerequisites</span></span>
+
+<span data-ttu-id="e99b2-106">Para obtener una experiencia óptima al implementar la telefonía IP empresarial, asegúrese de que la infraestructura de ti, la red y los sistemas cumplan los siguientes requisitos previos:</span><span class="sxs-lookup"><span data-stu-id="e99b2-106">For an optimum experience when deploying Enterprise Voice, make sure that your IT infrastructure, network, and systems meet the following prerequisites:</span></span>
+
+  - <span data-ttu-id="e99b2-107">Lync Server 2013 Standard Edition o Enterprise Edition está instalado y en funcionamiento en su red.</span><span class="sxs-lookup"><span data-stu-id="e99b2-107">Lync Server 2013 Standard Edition or Enterprise Edition is installed and operational on your network.</span></span>
+
+  - <span data-ttu-id="e99b2-108">Todos los servidores perimetrales se implementan y funcionan en la red perimetral, incluidos los servidores perimetrales con el servicio perimetral de acceso, el servicio perimetral a/V, el servicio perimetral de conferencias web y un proxy inverso.</span><span class="sxs-lookup"><span data-stu-id="e99b2-108">All Edge Servers are deployed and operational in your perimeter network, including Edge Servers with Access Edge service, A/V Edge service, Web Conferencing Edge service, and a reverse proxy.</span></span>
+
+  - <span data-ttu-id="e99b2-109">Uno o más usuarios se han creado y habilitado para Lync Server.</span><span class="sxs-lookup"><span data-stu-id="e99b2-109">One or more users have been created and enabled for Lync Server.</span></span>
+
+  - <span data-ttu-id="e99b2-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) o el Service Pack más reciente o Microsoft Exchange Server 2010 está instalado.</span><span class="sxs-lookup"><span data-stu-id="e99b2-110">Microsoft Exchange Server 2007 Service Pack 1 (SP1) or latest service pack, or Microsoft Exchange Server 2010 is installed.</span></span> <span data-ttu-id="e99b2-111">Una de estas opciones es necesaria para integrar la mensajería unificada de Exchange (UM) con Lync Server y para proporcionar notificaciones enriquecidas e información de registro de llamadas a los puntos de conexión de cliente.</span><span class="sxs-lookup"><span data-stu-id="e99b2-111">One of these is required for integrating Exchange Unified Messaging (UM) with Lync Server and to provide rich notifications and call log information to client endpoints.</span></span>
+
+  - <span data-ttu-id="e99b2-112">Se ha designado un número de teléfono principal único, se ha normalizado y se ha copiado en el atributo **msRTCSIP-line** para cada usuario que va a estar habilitado para telefonía IP empresarial.</span><span class="sxs-lookup"><span data-stu-id="e99b2-112">A unique primary phone number has been designated, normalized, and copied to the **msRTCSIP-line** attribute for each user who is to be enabled for Enterprise Voice.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > Lync Server admite números E.164 y números que no sean de Llamada directa a la extensión (DID). Los números que no son DID se pueden representar con el formato <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> o como una cadena de dígitos, siempre que la extensión privada sea única en toda la empresa. Por ejemplo, el número privado 1001 se puede representar como <STRONG>+1425550100;ext=1001</STRONG> o como <STRONG>1001</STRONG>. Cuando se representa como <STRONG>1001</STRONG>, se espera que este número privado sea único en toda la empresa.
+    > [!NOTE]  
+    > <span data-ttu-id="e99b2-113">Lync Server admite números E. 164 y números de marcación directa (no) directos.</span><span class="sxs-lookup"><span data-stu-id="e99b2-113">Lync Server supports E.164 numbers and non-Direct Inward Dialing (DID) numbers.</span></span> <span data-ttu-id="e99b2-114">Los números no recuperados se pueden representar con el formato <STRONG> &lt;E.&gt;164; ext&lt;=&gt; Extension</STRONG> o como una cadena de dígitos, con el requisito de que la extensión privada sea única en toda la empresa.</span><span class="sxs-lookup"><span data-stu-id="e99b2-114">Non-DID numbers can be represented in the format <STRONG>&lt;E.164&gt;;ext=&lt;extension&gt;</STRONG> or as a string of digits, with the requirement that the private extension is unique across the enterprise.</span></span> <span data-ttu-id="e99b2-115">Por ejemplo, un número privado de 1001 puede estar representado como <STRONG>+ 1425550100; ext = 1001</STRONG>o como <STRONG>1001</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="e99b2-115">For example, a private number of 1001 can be represented as <STRONG>+1425550100;ext=1001</STRONG>, or as <STRONG>1001</STRONG>.</span></span> <span data-ttu-id="e99b2-116">Cuando se representa como <STRONG>1001</STRONG>, la expectativa es que este número privado sea único en toda la empresa.</span><span class="sxs-lookup"><span data-stu-id="e99b2-116">When represented as <STRONG>1001</STRONG>, the expectation is that this private number is unique across the enterprise.</span></span>
 
-
-
-  - Los administradores que implementen Telefonía IP empresarial deben ser miembros del grupo RTCUniversalServerAdmins.
-
-  - Como mínimo, debe estar implementado correctamente Office Communicator 2007. Para usar las nuevas características de esta versión, se implementa Lync 2013.
-
-  - Hay implementada y configurada una infraestructura de clave administrada (MKI) con una infraestructura de entidad de certificación (CA) de Microsoft o de otro fabricante.
-
-  - Cada equipo donde se instale el servidor de mediación deberá:
     
-      - Ser miembro de un dominio y estar preparado para Servicios de dominio de Active Directory. Para ver los procedimientos de preparación de Servicios de dominio de Active Directory, vea [Preparar Servicios de dominio de Active Directory en Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) en la documentación sobre implementación.
+    </div>
+
+  - <span data-ttu-id="e99b2-117">Los administradores que implementan Enterprise Voice deben ser miembros del grupo RTCUniversalServerAdmins.</span><span class="sxs-lookup"><span data-stu-id="e99b2-117">Administrators who deploy Enterprise Voice should be members of the RTCUniversalServerAdmins group.</span></span>
+
+  - <span data-ttu-id="e99b2-118">Como mínimo, Office Communicator 2007 se ha implementado correctamente.</span><span class="sxs-lookup"><span data-stu-id="e99b2-118">At a minimum, Office Communicator 2007 is successfully deployed.</span></span> <span data-ttu-id="e99b2-119">Para usar las características nuevas de esta versión, Lync 2013 está implementado.</span><span class="sxs-lookup"><span data-stu-id="e99b2-119">To use features new to this release, Lync 2013 is deployed.</span></span>
+
+  - <span data-ttu-id="e99b2-120">La infraestructura de clave administrada (MKI) se implementa y configura con una infraestructura de entidad de certificación (CA) de Microsoft o de terceros.</span><span class="sxs-lookup"><span data-stu-id="e99b2-120">Managed key infrastructure (MKI) is deployed and configured, using either a Microsoft or a third-party certification authority (CA) infrastructure.</span></span>
+
+  - <span data-ttu-id="e99b2-121">Cada equipo en el que instale Media Server debe ser:</span><span class="sxs-lookup"><span data-stu-id="e99b2-121">Each computer on which you install Mediation Server must be:</span></span>
     
-      - Ejecutar uno de los sistemas operativos siguientes:
+      - <span data-ttu-id="e99b2-122">Un servidor miembro de un dominio y preparado para los servicios de dominio de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="e99b2-122">A member server of a domain, and prepared for Active Directory Domain Services.</span></span> <span data-ttu-id="e99b2-123">Para los procedimientos de preparación de los servicios de dominio de Active Directory, vea [preparar los servicios de dominio de Active Directory para Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) en la documentación de implementación.</span><span class="sxs-lookup"><span data-stu-id="e99b2-123">For Active Directory Domain Services preparation procedures, see [Preparing Active Directory Domain Services for Lync Server 2013](lync-server-2013-preparing-active-directory-domain-services.md) in the Deployment documentation.</span></span>
+    
+      - <span data-ttu-id="e99b2-124">Ejecutando uno de los siguientes sistemas operativos:</span><span class="sxs-lookup"><span data-stu-id="e99b2-124">Running one of the following operating systems:</span></span>
         
-          -   
-            La edición de 64 bits del sistema operativo Windows Server 2008 Standard
+          - <span></span>  
+            <span data-ttu-id="e99b2-125">La edición de 64 bits del sistema operativo Windows Server 2008 estándar</span><span class="sxs-lookup"><span data-stu-id="e99b2-125">The 64-bit edition of the Windows Server 2008 Standard operating system</span></span>
         
-          -   
-            La edición de 64 bits del sistema operativo Windows Server 2008 Enterprise
+          - <span></span>  
+            <span data-ttu-id="e99b2-126">La edición de 64 bits del sistema operativo Windows Server 2008 Enterprise</span><span class="sxs-lookup"><span data-stu-id="e99b2-126">The 64-bit edition of the Windows Server 2008 Enterprise operating system</span></span>
 
-  - Si la conexión a la red telefónica conmutada (RTC) o central de conmutación (PBX) se realiza por medio de una conexión de multiplexación por división de tiempo (TDM), una o más puertas de enlace RTC deben estar disponibles para la implementación. (Si la conexión se realiza por medio de un tronco SIP, no se necesita ninguna puerta de enlace RTC.)
+  - <span data-ttu-id="e99b2-127">Si la conexión a la red de telefonía pública conmutada (RTC) o a la central de conmutación (PBX) se hace por medio de una conexión de multiplexación de división de tiempo (TDM), una o más puertas de enlace RTC estarán disponibles para su implementación.</span><span class="sxs-lookup"><span data-stu-id="e99b2-127">If the connection to the public switched telephone network (PSTN) or private branch exchange (PBX) is by means of a Time Division Multiplexing (TDM) connection, one or more PSTN gateways are available for deployment.</span></span> <span data-ttu-id="e99b2-128">(Si la conexión se hace por medio de un tronco de SIP, no es necesario una puerta de enlace RTC).</span><span class="sxs-lookup"><span data-stu-id="e99b2-128">(If the connection is by means of a SIP trunk, a PSTN gateway is not required.)</span></span>
 
-## Interrupciones de alimentación, de la red o del servicio telefónico
+</div>
 
-Si se produce una interrupción, un corte u otro tipo de degradación de la alimentación eléctrica, de la red o de los servicios telefónicos en su ubicación, es posible que no funcionen correctamente las características de voz, mensajería instantánea, presencia y otras funciones de Lync Server, así como los dispositivos conectados a Lync Server.
+<div>
 
-## Enterprise Voice depende de la disponibilidad del servidor y de la operabilidad del cliente VoIP y del hardware
+## <a name="power-network-or-telephone-service-outages"></a><span data-ttu-id="e99b2-129">Interrupciones en el servicio de alimentación eléctrica, red o redes</span><span class="sxs-lookup"><span data-stu-id="e99b2-129">Power, Network, or Telephone Service Outages</span></span>
 
-Las comunicaciones de voz con Lync Server dependen de la disponibilidad del software de servidor y del correcto funcionamiento de los clientes de voz o de los dispositivos telefónicos que se conectan al software de servidor.
+<span data-ttu-id="e99b2-130">Si se produce una interrupción, una interrupción u otra degradación de los servicios de energía, red o teléfono de su ubicación, la voz, la mensajería instantánea, la presencia y otras características de Lync Server y cualquier dispositivo conectado a Lync Server pueden no funcionar correctamente.</span><span class="sxs-lookup"><span data-stu-id="e99b2-130">If there is an outage, disruption, or other degradation of the power, network, or telephone services at your location, the voice, instant messaging, presence, and other features of Lync Server and any device connected to Lync Server may not work properly.</span></span>
 
-## Métodos de acceso alternativos a los servicios de emergencia
+</div>
 
-En aquellas ubicaciones donde instale un cliente de voz (por ejemplo, un equipo que ejecute un cliente de Lync o un dispositivo Lync Phone Edition), se recomienda tener una opción de respaldo para que los usuarios puedan llamar a los servicios de emergencia (por ejemplo, 911 o 999) en el caso de que se produzca un apagón, una degradación de la conectividad de red, una interrupción en el servicio telefónico u otro problema que pueda impedir el funcionamiento de Lync Server, Lync o de los dispositivos Lync Phone Edition. Esas opciones alternativas pueden ser un teléfono conectado a una línea de la red telefónica conmutada estándar o un teléfono móvil.
+<div>
 
-## Llamadas de emergencia y sistemas telefónicos de varias líneas
+## <a name="enterprise-voice-depends-on-server-availability-and-voice-client-and-hardware-operability"></a><span data-ttu-id="e99b2-131">La telefonía IP empresarial depende de la disponibilidad del servidor y de la operatividad de hardware y cliente de voz</span><span class="sxs-lookup"><span data-stu-id="e99b2-131">Enterprise Voice Depends on Server Availability and Voice Client and Hardware Operability</span></span>
 
-El uso de un sistema telefónico de varias líneas (MLTS) podría estar sujeto a leyes estatales o federales de EE. UU., o a las legislaciones de otros países o regiones que requieran que el MLTS proporcione a los servicios de emergencia correspondientes el número de teléfono, la extensión y/o la ubicación física de las personas que llaman a los servicios de emergencia (por ejemplo, cuando se marca un número de emergencia, como el 911 o el 999). En esta versión, Lync Server se puede configurar para facilitar la ubicación física del autor de una llamada al proveedor de servicios de emergencia, según se describe en [Planeación de los servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md). El cumplimiento con la legislación sobre MLTS es responsabilidad exclusiva del comprador de Lync Server, el cliente Lync y los dispositivos Lync Phone Edition.
+<span data-ttu-id="e99b2-132">Las comunicaciones de voz con Lync Server dependen de la disponibilidad del software de servidor y del funcionamiento adecuado de los clientes de voz o de los dispositivos telefónicos de hardware que se conectan al software de servidor.</span><span class="sxs-lookup"><span data-stu-id="e99b2-132">Voice communications with Lync Server depend upon the availability of the server software and the proper functioning of the voice clients or the hardware phone devices connecting to the server software.</span></span>
+
+</div>
+
+<div>
+
+## <a name="alternative-means-of-accessing-emergency-services"></a><span data-ttu-id="e99b2-133">Métodos alternativos para acceder a servicios de emergencia</span><span class="sxs-lookup"><span data-stu-id="e99b2-133">Alternative Means of Accessing Emergency Services</span></span>
+
+<span data-ttu-id="e99b2-134">Para las ubicaciones en las que se instala un cliente de voz (por ejemplo, un equipo con cliente de Lync o un dispositivo de Lync Phone Edition), le recomendamos que mantenga una opción de copia de seguridad para que los usuarios llamen a servicios de emergencia (por ejemplo, 911 o 999) en caso de que se produzca un error de alimentación. , la degradación de la conectividad de red, la interrupción del servicio telefónico u otro problema que pueda inhibir el funcionamiento de los dispositivos Lync Server, Lync o Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="e99b2-134">For those locations where you install a voice client (for example, a PC running Lync client or an Lync Phone Edition device), we recommend that you maintain a backup option for users to call emergency services (for example, 911 or 999) in case of a power failure, network connectivity degradation, telephone service outage, or other issue that may inhibit operation of Lync Server, Lync, or Lync Phone Edition devices.</span></span> <span data-ttu-id="e99b2-135">Estas opciones alternativas pueden incluir un teléfono conectado a una línea de red de telefonía pública conmutada estándar o a un teléfono móvil.</span><span class="sxs-lookup"><span data-stu-id="e99b2-135">Such alternative options could include a telephone connected to a standard public switched telephone network line or a cell phone.</span></span>
+
+</div>
+
+<div>
+
+## <a name="emergency-calls-and-multi-line-telephone-systems"></a><span data-ttu-id="e99b2-136">Llamadas de emergencia y sistemas telefónicos de varias líneas</span><span class="sxs-lookup"><span data-stu-id="e99b2-136">Emergency Calls and Multi-Line Telephone Systems</span></span>
+
+<span data-ttu-id="e99b2-137">El uso de un sistema telefónico multilínea (MLTS) puede estar sujeto al estado U de la legislación federal o a la legislación de otros países o regiones que requieran que el MLTS ofrezca a los servicios de emergencia el número de teléfono, la extensión o la ubicación física de un llamador cuando un la persona que llama se coloca en los servicios de emergencia (por ejemplo, al marcar un número de acceso de emergencia, como 911 o 999).</span><span class="sxs-lookup"><span data-stu-id="e99b2-137">The use of a multiline telephone system (MLTS) may be subject to U.S state or federal laws or the laws of other countries/regions that require the MLTS to provide a caller’s telephone number, extension, and/or physical location to applicable emergency services when a caller is placed to emergency services (for example, when dialing an emergency access number such as 911 or 999).</span></span> <span data-ttu-id="e99b2-138">En esta versión, Lync Server se puede configurar para proporcionar a un proveedor de servicios de emergencia la ubicación física de una llamada, como se describe en [planeamiento de servicios de emergencia (E9-1-1) en Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span><span class="sxs-lookup"><span data-stu-id="e99b2-138">In this release, Lync Server can be configured to provide a caller’s physical location to an emergency services provider, as described in [Planning for emergency services (E9-1-1) in Lync Server 2013](lync-server-2013-planning-for-emergency-services-e9-1-1.md).</span></span> <span data-ttu-id="e99b2-139">El cumplimiento de las leyes de MLTS es responsabilidad exclusiva del comprador de Lync Server, del cliente de Lync y de los dispositivos Lync Phone Edition.</span><span class="sxs-lookup"><span data-stu-id="e99b2-139">Compliance with MLTS laws is the sole responsibility of the purchaser of Lync Server, Lync client, and Lync Phone Edition devices.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

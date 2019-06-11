@@ -1,74 +1,135 @@
-﻿---
-title: Habilitar el Registro de detalles de llamadas
-TOCTitle: Habilitar el Registro de detalles de llamadas
-ms:assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Gg520980(v=OCS.15)
-ms:contentKeyID: 48274986
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: habilitar grabación de detalles de llamadas'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Enable call detail recording
+ms:assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520980(v=OCS.15)
+ms:contentKeyID: 48183865
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: b12359e331e9abd2767285a5ef8c32d56433731e
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835324"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Habilitar el Registro de detalles de llamadas
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-23_
+# <a name="enable-call-detail-recording-in-lync-server-2013"></a><span data-ttu-id="a8425-102">Habilitar la grabación de detalles de llamadas en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8425-102">Enable call detail recording in Lync Server 2013</span></span>
 
-El registro detallado de llamadas (CDR) registra la información de uso y diagnóstico sobre actividades punto a punto, incluida la mensajería instantánea, llamadas de voz sobre IP (VoIP), uso compartido de aplicaciones, transferencia de archivos y reuniones. Los datos de uso pueden servir para calcular el retorno de la inversión y los datos de diagnóstico se pueden usar para solucionar problemas de actividades punto a punto y reuniones.
+</div>
 
-Use el procedimiento siguiente para habilitar el registro detallado de llamadas (CDR) en toda la organización o en cada sitio de la organización.
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="a8425-103">_**Última modificación del tema:** 2013-02-23_</span><span class="sxs-lookup"><span data-stu-id="a8425-103">_**Topic Last Modified:** 2013-02-23_</span></span>
+
+<span data-ttu-id="a8425-p101">El registro detallado de llamadas (CDR) registra la información de uso y diagnóstico sobre actividades punto a punto, incluida la mensajería instantánea, llamadas de voz sobre IP (VoIP), uso compartido de aplicaciones, transferencia de archivos y reuniones. Los datos de uso pueden servir para calcular el retorno de la inversión y los datos de diagnóstico se pueden usar para solucionar problemas de actividades punto a punto y reuniones.</span><span class="sxs-lookup"><span data-stu-id="a8425-p101">Call detail recording (CDR) records usage and diagnostic information about peer-to-peer activities including instance messaging, Voice over Internet Protocol (VoIP) calls, application sharing, file transfer, and meetings. The usage data can be used to calculate return on investment (ROI) and the diagnostic data can be used to troubleshoot peer-to-peer activities and meetings.</span></span>
+
+<span data-ttu-id="a8425-106">Use el procedimiento siguiente para habilitar el registro detallado de llamadas (CDR) en toda la organización o en cada sitio de la organización.</span><span class="sxs-lookup"><span data-stu-id="a8425-106">Use the following procedure to enable CDR for your whole organization or each site in your organization.</span></span>
+
+<div>
 
 
-> [!NOTE]
-> Para poder habilitar el CDR debe configurar la supervisión y una base de datos de supervisión. Para obtener más información, consulte <A href="lync-server-2013-deploying-monitoring.md">Implementación de supervisión en Lync Server 2013</A>.
+> [!NOTE]  
+> <span data-ttu-id="a8425-107">Para poder habilitar el CDR necesita configurar la supervisión y una base de datos de supervisión.</span><span class="sxs-lookup"><span data-stu-id="a8425-107">In order to enable CDR you must configure monitoring and a monitoring database.</span></span> <span data-ttu-id="a8425-108">Para obtener más información, consulte <A href="lync-server-2013-deploying-monitoring.md">implementación de la supervisión en Lync Server 2013</A>.</span><span class="sxs-lookup"><span data-stu-id="a8425-108">For details, see <A href="lync-server-2013-deploying-monitoring.md">Deploying monitoring in Lync Server 2013</A>.</span></span>
 
 
 
-## Habilitar CDR utilizando Panel de control de Lync Server
+</div>
 
-1.  Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o tenga derechos de usuario equivalentes), o se asigne al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo que esté en la red en la que haya implementado Lync Server 2013.
+<div>
 
-2.  Abra una ventana del explorador y después introduzca la dirección URL de administración para abrir el panel de control de Lync Server. Para más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [Abrir las herramientas administrativas de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).
+## <a name="to-enable-cdr-with-lync-server-control-panel"></a><span data-ttu-id="a8425-109">Para habilitar CDR con el panel de control de Lync Server</span><span class="sxs-lookup"><span data-stu-id="a8425-109">To enable CDR with Lync Server Control Panel</span></span>
 
-3.  En la barra de navegación izquierda, haga clic en **Supervisión y archivado** y, a continuación, en **Registro detallado de llamadas**.
+1.  <span data-ttu-id="a8425-110">Desde una cuenta de usuario que sea miembro del grupo RTCUniversalServerAdmins (o que tenga derechos de usuario equivalentes), o asignada al rol CsServerAdministrator o CsAdministrator, inicie sesión en cualquier equipo de la red en el que haya implementado Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="a8425-110">From a user account that is a member of the RTCUniversalServerAdmins group (or has equivalent user rights), or assigned to the CsServerAdministrator or CsAdministrator role, log on to any computer that is in the network in which you deployed Lync Server 2013.</span></span>
 
-4.  En la página **Registro detallado de llamadas**, haga clic en el sitio apropiado de la lista, seleccione **Acción** y, a continuación, haga clic en **Habilitar CDR**.
+2.  <span data-ttu-id="a8425-111">Abra una ventana del explorador y, a continuación, escriba la dirección URL del administrador para abrir el panel de control de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="a8425-111">Open a browser window, and then enter the Admin URL to open the Lync Server Control Panel.</span></span> <span data-ttu-id="a8425-112">Para obtener más información sobre los diferentes métodos que puede usar para iniciar el panel de control de Lync Server, consulte [abrir las herramientas administrativas 2013 de Lync Server](lync-server-2013-open-lync-server-administrative-tools.md).</span><span class="sxs-lookup"><span data-stu-id="a8425-112">For details about the different methods you can use to start Lync Server Control Panel, see [Open Lync Server 2013 administrative tools](lync-server-2013-open-lync-server-administrative-tools.md).</span></span>
+
+3.  <span data-ttu-id="a8425-113">En la barra de navegación de la izquierda, haga clic en **Supervisión y archivado** y en **Registro detallado de llamadas**.</span><span class="sxs-lookup"><span data-stu-id="a8425-113">In the left navigation bar, click **Monitoring and Archiving**, and then click **Call Detail Recording**.</span></span>
+
+4.  <span data-ttu-id="a8425-114">En la página **Registro detallado de llamadas**, haga clic en el sitio apropiado de la lista, seleccione **Acción** y, luego, haga clic en **Habilitar CDR**.</span><span class="sxs-lookup"><span data-stu-id="a8425-114">On the **Call Detail Recording** page, click the appropriate site from the table, click **Action**, and then click **Enable CDR**.</span></span>
+    
+    <div>
     
 
-    > [!NOTE]
-    > CDR habilitado de forma predeterminada.
+    > [!NOTE]  
+    > <span data-ttu-id="a8425-115">CDR habilitado de forma predeterminada.</span><span class="sxs-lookup"><span data-stu-id="a8425-115">CDR is enabled by default.</span></span>
 
+    
+    </div>
 
+</div>
 
-## Habilitar CDR utilizando los cmdlets Shell de administración de Lync Server
+<div>
 
-También puede habilitar CDR utilizando Windows PowerShell y el cmdlet **Set-CsCdrConfiguration**. Este cmdlet puede ejecutarse ya sea desde el Shell de administración de Lync Server 2013 o bien desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a><span data-ttu-id="a8425-116">Habilitar CDR con cmdlets de Windows PowerShell</span><span class="sxs-lookup"><span data-stu-id="a8425-116">Enabling CDR by Using Windows PowerShell Cmdlets</span></span>
 
-## Para habilitar CDR para una única ubicación
+<span data-ttu-id="a8425-117">Puede habilitar CDR mediante Windows PowerShell y el cmdlet **set-CsCdrConfiguration** .</span><span class="sxs-lookup"><span data-stu-id="a8425-117">You can enable CDR by using Windows PowerShell and the **Set-CsCdrConfiguration** cmdlet.</span></span> <span data-ttu-id="a8425-118">Puede ejecutar este cmdlet desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="a8425-118">You can run this cmdlet either from the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="a8425-119">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="a8425-119">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
 
-  - Para deshabilitar CDR, establezca el parámetro EnableCDR en True ($True).
+<div>
+
+## <a name="to-enable-cdr-for-a-single-location"></a><span data-ttu-id="a8425-120">Para habilitar CDR para una única ubicación</span><span class="sxs-lookup"><span data-stu-id="a8425-120">To enable CDR for a single location</span></span>
+
+  - <span data-ttu-id="a8425-121">Para deshabilitar CDR, establezca el parámetro EnableCDR en True ($True).</span><span class="sxs-lookup"><span data-stu-id="a8425-121">To disable CDR, set the EnableCDR parameter to True ($True).</span></span>
     
         Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $True
 
-## Para deshabilitar CDR para una única ubicación
+</div>
 
-  - Para deshabilitar CDR, establezca el parámetro EnableCDR en False ($False). Esto no desinstala la supervisión; pausa la recopilación y el almacenamiento de datos de CDR.
+<div>
+
+## <a name="to-disable-cdr-for-a-single-location"></a><span data-ttu-id="a8425-122">Para deshabilitar CDR para una única ubicación</span><span class="sxs-lookup"><span data-stu-id="a8425-122">To disable CDR for a single location</span></span>
+
+  - <span data-ttu-id="a8425-p105">Para deshabilitar CDR, establezca el parámetro EnableCDR en False ($False). Esto no desinstala la supervisión, sino que pausa la recopilación y el almacenamiento de datos de CDR.</span><span class="sxs-lookup"><span data-stu-id="a8425-p105">To disable CDR, set the EnableCDR parameter to False ($False). Disabling CDR does not uninstall monitoring. It pauses the collection and storage of CDR data.</span></span>
     
         Set-CsCdrConfiguration -Identity "site:Redmond" -EnableCDR $False
 
-## Utilizar un único comando para habilitar CDR en varias ubicaciones
+</div>
 
-  - Este comando habilita CDR para todos los parámetros de CDR que se encuentran actualmente en uso en su organización.
+<div>
+
+## <a name="to-use-a-single-command-to-enable-cdr-in-multiple-locations"></a><span data-ttu-id="a8425-126">Utilizar un único comando para habilitar CDR en varias ubicaciones</span><span class="sxs-lookup"><span data-stu-id="a8425-126">To use a single command to enable CDR in multiple locations</span></span>
+
+  - <span data-ttu-id="a8425-127">Este comando habilita CDR para todos los parámetros de CDR que se encuentran actualmente en uso en su organización.</span><span class="sxs-lookup"><span data-stu-id="a8425-127">This command enables CDR for all the CDR configuration settings currently in use in your organization.</span></span>
     
         Get-CsCdrConfiguration | Set-CsCdrConfiguration "site:Redmond" -EnableCDR $True
 
-Para obtener más información, consulte el tema de ayuda del cmdlet [Set-CsCdrConfiguration](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCdrConfiguration).
+</div>
 
-## Vea también
+<span data-ttu-id="a8425-128">Para obtener más información, consulte el tema de ayuda para el cmdlet [set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) .</span><span class="sxs-lookup"><span data-stu-id="a8425-128">For more information, see the help topic for the [Set-CsCdrConfiguration](https://docs.microsoft.com/powershell/module/skype/Set-CsCdrConfiguration) cmdlet.</span></span>
 
-#### Otros recursos
+</div>
 
-[Planeamiento de la supervisión en Lync Server 2013](lync-server-2013-planning-for-monitoring.md)  
-[Implementación de supervisión en Lync Server 2013](lync-server-2013-deploying-monitoring.md)
+<div>
+
+## <a name="see-also"></a><span data-ttu-id="a8425-129">Vea también</span><span class="sxs-lookup"><span data-stu-id="a8425-129">See Also</span></span>
+
+
+[<span data-ttu-id="a8425-130">Planeamiento de la supervisión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8425-130">Planning for monitoring in Lync Server 2013</span></span>](lync-server-2013-planning-for-monitoring.md)  
+[<span data-ttu-id="a8425-131">Implementación de la supervisión en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="a8425-131">Deploying monitoring in Lync Server 2013</span></span>](lync-server-2013-deploying-monitoring.md)  
+  
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

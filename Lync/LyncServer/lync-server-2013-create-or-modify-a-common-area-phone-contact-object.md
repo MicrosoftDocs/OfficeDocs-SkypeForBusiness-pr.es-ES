@@ -1,44 +1,86 @@
-﻿---
-title: Crear o modificar un objeto de contacto de teléfono de área común
-TOCTitle: Crear o modificar un objeto de contacto de teléfono de área común
-ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ994083(v=OCS.15)
-ms:contentKeyID: 52061962
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: crear o modificar un objeto de contacto telefónico de área común'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Create or modify a common area phone Contact object
+ms:assetid: eec33ad1-e4f2-49b2-91d6-d5a9d2e1714b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ994083(v=OCS.15)
+ms:contentKeyID: 51803995
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: ee1345477178d7991083332e809de3f764be4c3a
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835806"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Crear o modificar un objeto de contacto de teléfono de área común
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-02-20_
+# <a name="create-or-modify-a-common-area-phone-contact-object-in-lync-server-2013"></a><span data-ttu-id="ff963-102">Crear o modificar un objeto de contacto telefónico de área común en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="ff963-102">Create or modify a common area phone Contact object in Lync Server 2013</span></span>
 
-Use el cmdlet **New-CsCommonAreaPhone** para crear objetos de contacto de Servicios de dominio de Active Directory para todos los teléfonos de área común. Con este cmdlet se pueden crear objetos de contacto para usarlos con teléfonos de área común, o bien asociar objetos de contacto existentes a nuevos teléfonos de área común. Use el cmdlet **Set-CsCommonAreaPhone** para modificar las propiedades de los objetos de contacto asociados con los teléfonos de área común. Hay otros parámetros opcionales para **Set-CsCommonAreaPhone** que permiten cambiar elementos (como el nombre para mostrar de Active Directory del contacto o el Identificador uniforme de recursos (URI) de línea asociado al teléfono), así como habilitar o deshabilitar la cuenta para usarla con Lync Server. Para más información sobre las modificaciones disponibles, vea la sección de parámetros en [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone). Para más información sobre los parámetros de **New-CsCommonAreaPhone**, vea [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone).
+</div>
 
-Estos dos cmdlets se pueden ejecutar desde el Shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell. Para más información sobre el uso de una conexión remota de Windows PowerShell a Lync Server, consulte el artículo del blog sobre Windows PowerShell de Lync Server "Inicio rápido: Administración de Microsoft Lync Server 2010 con PowerShell remoto" en [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).
+<div id="mainSection">
+
+<div id="mainBody">
+
+<span> </span>
+
+<span data-ttu-id="ff963-103">_**Última modificación del tema:** 2013-02-20_</span><span class="sxs-lookup"><span data-stu-id="ff963-103">_**Topic Last Modified:** 2013-02-20_</span></span>
+
+<span data-ttu-id="ff963-104">Para crear objetos de contacto de servicios de dominio de Active Directory para todos los teléfonos de área común, use el cmdlet **New-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="ff963-104">To create Active Directory Domain Services contact objects for all your common area phones, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="ff963-105">Este cmdlet puede crear nuevos objetos de contacto para usarlos con teléfonos de área común o puede asociar objetos de contacto existentes con un nuevo teléfono de área común.</span><span class="sxs-lookup"><span data-stu-id="ff963-105">This cmdlet can either create new contact objects for use with common area phones, or it can associate existing contact objects with a new common area phone.</span></span> <span data-ttu-id="ff963-106">Para modificar las propiedades de los objetos de contacto asociados con teléfonos de área común, use el cmdlet **set-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="ff963-106">To modify the properties of the contact objects associated with common area phones, use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="ff963-107">Los parámetros opcionales para **set-CsCommonAreaPhone** permiten cambiar elementos, como el nombre para mostrar de Active Directory del contacto o el identificador uniforme de recursos (URI) de la línea asociada al teléfono, y habilitar y deshabilitar la cuenta para su uso con Lync Servidores.</span><span class="sxs-lookup"><span data-stu-id="ff963-107">Optional parameters for **Set-CsCommonAreaPhone** enable you to change items, such as the contact’s Active Directory display name or the line Uniform Resource Identifier (URI) associated with the phone, and enable and disable the account for use with Lync Server.</span></span> <span data-ttu-id="ff963-108">Para obtener más información sobre todas las modificaciones disponibles, consulte la sección parámetros en [set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone).</span><span class="sxs-lookup"><span data-stu-id="ff963-108">For details about all the available modifications, see the Parameters section at [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone).</span></span> <span data-ttu-id="ff963-109">Para obtener más información sobre los parámetros **de CsCommonAreaPhone nuevos** , consulte [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).</span><span class="sxs-lookup"><span data-stu-id="ff963-109">For details about **New-CsCommonAreaPhone** parameters, see [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone).</span></span>
+
+<span data-ttu-id="ff963-110">Puede ejecutar estos dos cmdlets desde el shell de administración de Lync Server 2013 o desde una sesión remota de Windows PowerShell.</span><span class="sxs-lookup"><span data-stu-id="ff963-110">You can run these two cmdlets from either the Lync Server 2013 Management Shell or from a remote session of Windows PowerShell.</span></span> <span data-ttu-id="ff963-111">Para obtener más información sobre cómo usar Windows PowerShell remoto para conectarse a Lync Server, consulte el artículo del blog de Lync Server de Windows PowerShell "Inicio rápido: administrar Microsoft Lync Server [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876)2010 mediante PowerShell remoto" en.</span><span class="sxs-lookup"><span data-stu-id="ff963-111">For details about using remote Windows PowerShell to connect to Lync Server, see the Lync Server Windows PowerShell blog article "Quick Start: Managing Microsoft Lync Server 2010 Using Remote PowerShell" at [http://go.microsoft.com/fwlink/p/?linkId=255876](http://go.microsoft.com/fwlink/p/?linkid=255876).</span></span>
+
+<div>
 
 
-## Crear un objeto de contacto de teléfono de área común
+<div>
 
-  - Use el cmdlet **New-CsCommonAreaPhone** para crear un objeto de contacto de teléfono de área común. Al crear un objeto de contacto, debe proporcionar la siguiente información como mínimo:
+## <a name="creating-a-common-area-phone-contact-object"></a><span data-ttu-id="ff963-112">Crear un objeto de contacto de teléfono de área común</span><span class="sxs-lookup"><span data-stu-id="ff963-112">Creating a common area phone contact object</span></span>
+
+  - <span data-ttu-id="ff963-113">Para crear un nuevo objeto de contacto de teléfono de área común, use el cmdlet **New-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="ff963-113">To create a new common area phone contact object, use the **New-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="ff963-114">Como mínimo, debe proporcionar la siguiente información al crear un objeto de contacto:</span><span class="sxs-lookup"><span data-stu-id="ff963-114">At a minimum, you must supply the following information when creating a contact object:</span></span>
     
-      - **LineUri**: número de teléfono asignado al teléfono de área común. No olvide que tiene que usar el formato E.164 al especifica este número de teléfono.
+      - <span data-ttu-id="ff963-115">**LineUri**: el número de teléfono asignado al teléfono de área común.</span><span class="sxs-lookup"><span data-stu-id="ff963-115">**LineUri**: The telephone number assigned to the common area phone.</span></span> <span data-ttu-id="ff963-116">Ten en cuenta que debes usar el formato E. 164 al especificar el número de teléfono.</span><span class="sxs-lookup"><span data-stu-id="ff963-116">Note that you must use the E.164 format when specifying the phone number.</span></span>
     
-      - **RegistrarPool**: nombre de dominio completo (FQDN) del grupo de registradores que va a hospedar el objeto de contacto.
+      - <span data-ttu-id="ff963-117">**RegistrarPool**: el nombre de dominio completo (FQDN) del grupo de servidores de registro que hospedará el objeto de contacto.</span><span class="sxs-lookup"><span data-stu-id="ff963-117">**RegistrarPool**: The fully qualified domain name (FQDN) of the Registrar pool that will host the contact object.</span></span>
     
-      - **OU**: nombre distintivo del contenedor de Active Directory donde se va a crear el objeto de contacto.
+      - <span data-ttu-id="ff963-118">**Ou**: nombre distintivo del contenedor de Active Directory en el que se creará el objeto de contacto.</span><span class="sxs-lookup"><span data-stu-id="ff963-118">**OU**: Distinguished name of the Active Directory container where the contact object will be created.</span></span>
     
-    También es aconsejable proporcionar un nombre para mostrar de Servicios de dominio de Active Directory o, de lo contrario, deberá usar un GUID para indicar la identidad del teléfono. Por ejemplo:
+    <span data-ttu-id="ff963-119">También le recomendamos que proporcione un nombre para mostrar de los servicios de dominio de Active Directory.</span><span class="sxs-lookup"><span data-stu-id="ff963-119">We also recommend that you provide an Active Directory Domain Services display name.</span></span> <span data-ttu-id="ff963-120">De lo contrario, tendrá que usar un GUID para especificar la identidad del teléfono.</span><span class="sxs-lookup"><span data-stu-id="ff963-120">Otherwise, you will need to use a GUID to specify the phone Identity.</span></span> <span data-ttu-id="ff963-121">Por ejemplo:</span><span class="sxs-lookup"><span data-stu-id="ff963-121">For example:</span></span>
     
         New-CsCommonAreaPhone -LineUri "tel:+12065551219" -RegistrarPool "atl-cs-001.litwareinc.com" -OU "OU=Phones,dc=litwareinc,dc=com" -DisplayName "Lobby"
 
-## Modificar un objeto de contacto de teléfono de área común
+</div>
 
-  - Use el cmdlet **Set-CsCommonAreaPhone** para modificar las propiedades de un teléfono de área común existente. Por ejemplo, con este comando se configura la dirección SIP del teléfono de área común con el nombre para mostrar Lobby:
+<div>
+
+## <a name="modifying-a-common-area-phone-contact-object"></a><span data-ttu-id="ff963-122">Modificar un objeto de contacto de teléfono de área común</span><span class="sxs-lookup"><span data-stu-id="ff963-122">Modifying a common area phone contact object</span></span>
+
+  - <span data-ttu-id="ff963-123">Para modificar las propiedades de un teléfono de área común existente, objeto de contacto use el cmdlet **set-CsCommonAreaPhone** .</span><span class="sxs-lookup"><span data-stu-id="ff963-123">To modify the properties of an existing common area phone, contact object use the **Set-CsCommonAreaPhone** cmdlet.</span></span> <span data-ttu-id="ff963-124">Por ejemplo, este comando configura la dirección SIP de la zona telefónica común con DisplayName:</span><span class="sxs-lookup"><span data-stu-id="ff963-124">For example, this command configures the SIP address for the common area phone with the DisplayName Lobby:</span></span>
     
         Set-CsCommonAreaPhone -Identity "Lobby" -SipAddress "sip:lobby@litwareinc.com"
 
-Para ver detalles, consulte los temas de ayuda relativos a los cmdlets [New-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/New-CsCommonAreaPhone) y [Set-CsCommonAreaPhone](https://docs.microsoft.com/en-us/powershell/module/skype/Set-CsCommonAreaPhone).
+</div>
+
+<span data-ttu-id="ff963-125">Para obtener más información, consulte los temas de ayuda para el cmdlet [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) y el cmdlet [set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) .</span><span class="sxs-lookup"><span data-stu-id="ff963-125">For details, see the Help topics for the [New-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/New-CsCommonAreaPhone) cmdlet and the [Set-CsCommonAreaPhone](https://docs.microsoft.com/powershell/module/skype/Set-CsCommonAreaPhone) cmdlet.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

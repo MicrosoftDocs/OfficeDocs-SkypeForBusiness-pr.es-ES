@@ -1,137 +1,213 @@
-﻿---
-title: Funcionamiento del servidor de chat persistente en Lync Server 2013
-TOCTitle: Funcionamiento del servidor de chat persistente en Lync Server 2013
-ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/JJ683096(v=OCS.15)
-ms:contentKeyID: 49889052
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: Cómo funciona el servidor de chat persistente'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: How Persistent Chat Server works
+ms:assetid: 3d04e9a1-3f0c-458e-bcbe-d27c8c464276
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ683096(v=OCS.15)
+ms:contentKeyID: 49684643
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: 0bf6179e1ce24264c2079b3096fa9bb8c539ca1c
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835071"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Funcionamiento del servidor de chat persistente en Lync Server 2013
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2012-11-21_
+# <a name="how-persistent-chat-server-works-in-lync-server-2013"></a><span data-ttu-id="f86e5-102">Cómo funciona el servidor de chat persistente en Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="f86e5-102">How Persistent Chat Server works in Lync Server 2013</span></span>
 
-Lync Server 2013, Servidor de chat persistente le permite participar en conversaciones basadas en temas con varios participantes que persisten a lo largo del tiempo. Servidor de chat persistente puede ayudar a la organización a hacer lo siguiente:
+</div>
 
-  - Mejorar la comunicación entre equipos geográficamente dispersos y multifuncionales
+<div id="mainSection">
 
-  - Ampliar el uso de la información y la participación
+<div id="mainBody">
 
-  - Mejorar la comunicación con la organización extendida
+<span> </span>
 
-  - Reducir la sobrecarga de la información
+<span data-ttu-id="f86e5-103">_**Última modificación del tema:** 2012-11-21_</span><span class="sxs-lookup"><span data-stu-id="f86e5-103">_**Topic Last Modified:** 2012-11-21_</span></span>
 
-  - Mejorar el uso de la información
+<span data-ttu-id="f86e5-104">Lync Server 2013, el servidor de chat persistente le permite participar en conversaciones con varias partes y basadas en temas que se conservan a lo largo del tiempo.</span><span class="sxs-lookup"><span data-stu-id="f86e5-104">Lync Server 2013, Persistent Chat Server enables you to participate in multiparty, topic-based conversations that persist over time.</span></span> <span data-ttu-id="f86e5-105">El servidor de chat persistente puede ayudar a su organización a hacer lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="f86e5-105">Persistent Chat Server can help your organization do the following:</span></span>
 
-  - Aumentar la divulgación de información y conocimientos importantes
+  - <span data-ttu-id="f86e5-106">Mejorar la comunicación entre equipos geográficamente dispersos y con varias funciones</span><span class="sxs-lookup"><span data-stu-id="f86e5-106">Improve communication between geographically dispersed and cross-functional teams</span></span>
 
-Puede implementar Servidor de chat persistente como un rol opcional con Lync Server 2013. Los servicios de Chat persistente se ejecutan en un grupo de servidores dedicados, y un Grupo de servidores de chat persistente depende de que un grupo de servidores Lync Server le enrute mensajes. Los clientes utilizan eXtensible Chat Communication Over SIP (XCCOS). Los Lync ServerServidores front-end se configuran para que enruten el tráfico a un Grupo de servidores de chat persistente.
+  - <span data-ttu-id="f86e5-107">Ampliar el conocimiento y la participación de la información</span><span class="sxs-lookup"><span data-stu-id="f86e5-107">Broaden information awareness and participation</span></span>
 
-## Arquitectura de alto nivel
+  - <span data-ttu-id="f86e5-108">Mejorar la comunicación con su organización extendida</span><span class="sxs-lookup"><span data-stu-id="f86e5-108">Improve communication with your extended organization</span></span>
 
-El siguiente diagrama proporciona perspectivas de alto nivel de los servicios y la arquitectura de Servidor de chat persistente.
+  - <span data-ttu-id="f86e5-109">Reducir sobrecarga de información</span><span class="sxs-lookup"><span data-stu-id="f86e5-109">Reduce information overload</span></span>
 
-**Arquitectura de alto nivel del servidor de chat persistente**
+  - <span data-ttu-id="f86e5-110">Mejorar el conocimiento de la información</span><span class="sxs-lookup"><span data-stu-id="f86e5-110">Improve information awareness</span></span>
 
-![Arquitectura del servidor de chat persistente.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Arquitectura del servidor de chat persistente.")
+  - <span data-ttu-id="f86e5-111">Aumentar la dispersión de información y conocimientos importantes</span><span class="sxs-lookup"><span data-stu-id="f86e5-111">Increase dispersion of important knowledge and information</span></span>
 
-**Servicios de alto nivel del servidor de chat persistente**
+<span data-ttu-id="f86e5-112">Puede implementar el servidor de chat persistente como un rol opcional con Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f86e5-112">You can deploy Persistent Chat Server as an optional role with Lync Server 2013.</span></span> <span data-ttu-id="f86e5-113">Los servicios de chat persistente se ejecutan en un grupo dedicado y un grupo de servidores de chat persistente depende de un grupo de Lync Server para enrutar mensajes a él.</span><span class="sxs-lookup"><span data-stu-id="f86e5-113">Persistent Chat services run on a dedicated pool, and a Persistent Chat Server pool depends on a Lync Server pool to route messages to it.</span></span> <span data-ttu-id="f86e5-114">Los clientes usan la comunicación de chats extensibles a través de SIP (XCCOS).</span><span class="sxs-lookup"><span data-stu-id="f86e5-114">Clients use eXtensible Chat Communication Over SIP (XCCOS).</span></span> <span data-ttu-id="f86e5-115">Los servidores front-end de Lync Server están configurados para enrutar el tráfico a un grupo de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-115">The Lync Server Front End Servers are configured to route the traffic to a Persistent Chat Server pool.</span></span>
 
-![Componentes del servidor de chat persistente.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Componentes del servidor de chat persistente.")
+<div>
 
-Dos servicios se ejecutan en el Servidor de chat persistenteServidores front-end:
+## <a name="high-level-architecture"></a><span data-ttu-id="f86e5-116">Arquitectura de alto nivel</span><span class="sxs-lookup"><span data-stu-id="f86e5-116">High-Level Architecture</span></span>
 
-  - Chat persistente (Canal)
+<span data-ttu-id="f86e5-117">Los siguientes diagramas proporcionan perspectivas de alto nivel de los servicios y la arquitectura del servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-117">The following diagrams provide high-level perspectives of the Persistent Chat Server architecture and services.</span></span>
 
-  - Cumplimiento
+<span data-ttu-id="f86e5-118">**Arquitectura de alto nivel del servidor de chat persistente**</span><span class="sxs-lookup"><span data-stu-id="f86e5-118">**Persistent Chat Server High-Level Architecture**</span></span>
 
-## Servicio de chat persistente (Canal)
+<span data-ttu-id="f86e5-119">![Arquitectura de servidor de chat persistente.] (images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Arquitectura de servidor de chat persistente.")</span><span class="sxs-lookup"><span data-stu-id="f86e5-119">![Persistent Chat Server architecture.](images/JJ683096.5db6f36f-4461-4d87-ba77-463b7ffe609b(OCS.15).jpg "Persistent Chat Server architecture.")</span></span>
 
-El servicio (Canal) de Chat persistente es el servicio central responsable de Servidor de chat persistente. Este servicio proporciona las siguientes funciones:
+<span data-ttu-id="f86e5-120">**Servicios de alto nivel del servidor de chat persistente**</span><span class="sxs-lookup"><span data-stu-id="f86e5-120">**Persistent Chat Server High-Level Services**</span></span>
 
-  - Acepta mensajes entrantes
+<span data-ttu-id="f86e5-121">![Componentes de servidor de chat persistentes.] (images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Componentes de servidor de chat persistentes.")</span><span class="sxs-lookup"><span data-stu-id="f86e5-121">![Persistent Chat Server components.](images/JJ683096.b6d743aa-3a86-4081-aaef-4fe3257db4e7(OCS.15).jpg "Persistent Chat Server components.")</span></span>
 
-  - Registra y enumera los participantes en línea dentro de una sala de Chat persistente
+<span data-ttu-id="f86e5-122">Se ejecutan dos servicios en los servidores front-end del servidor de chat persistente:</span><span class="sxs-lookup"><span data-stu-id="f86e5-122">Two services run on the Persistent Chat Server Front End Servers:</span></span>
 
-  - Retransmite mensajes a los suscriptores de otros canales
+  - <span data-ttu-id="f86e5-123">Chat persistente (canal)</span><span class="sxs-lookup"><span data-stu-id="f86e5-123">Persistent Chat (Channel)</span></span>
 
-  - Implementa la lógica para la administración del canal, la invitación a una sala de chat, las búsquedas y las notificaciones de nuevo contenido
+  - <span data-ttu-id="f86e5-124">Respeto</span><span class="sxs-lookup"><span data-stu-id="f86e5-124">Compliance</span></span>
 
-El servicio (Canal) de Chat persistente almacena el contenido de la sala de chat y otros metadatos del sistema (reglas de autorización, entre otros) y accede a ellos utilizando el Almacén de Chat persistente. Este servicio almacena archivos que se cargan en salas de chat en el Almacén de archivos de Chat persistente.
+<div>
 
-## Servicio de Cumplimiento
+## <a name="persistent-chat-channel-service"></a><span data-ttu-id="f86e5-125">Servicio de chat persistente (canal)</span><span class="sxs-lookup"><span data-stu-id="f86e5-125">Persistent Chat (Channel) Service</span></span>
 
-El servicio de Cumplimiento es un componente opcional de Servidor de chat persistente y es responsable de archivar eventos y contenido de chat en el Almacén de Cumplimiento de Chat persistente. Si su organización tiene normativas que requieren que se archive la actividad de Chat persistente, puede implementar el servicio de Cumplimiento Chat persistente opcional. El servicio de Cumplimiento se instala en cada Servidor de chat persistente en un grupo de servidores de Chat persistente. Al configurarse, el cumplimiento de Servidor de chat persistente registra la actividad de usuario como la conexión y desconexión de salas y la publicación y lectura de mensajes. El servicio de Cumplimiento almacena archivos que deben ser archivados en el Almacén de archivos de Cumplimiento de Chat persistente.
+<span data-ttu-id="f86e5-126">El servicio de chat persistente (canal) es el servicio principal responsable del servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-126">The Persistent Chat (Channel) service is the core service responsible for Persistent Chat Server.</span></span> <span data-ttu-id="f86e5-127">Este servicio ofrece las siguientes funciones:</span><span class="sxs-lookup"><span data-stu-id="f86e5-127">This service provides the following functions:</span></span>
 
-## Servicios web de Chat persistente
+  - <span data-ttu-id="f86e5-128">Acepta mensajes entrantes</span><span class="sxs-lookup"><span data-stu-id="f86e5-128">Accepts incoming messages</span></span>
 
-En los Lync ServerServidores front-end, se ejecutan dos servicios que dependen de Servicios de Internet Information Server (IIS) y se implementan como componentes web:
+  - <span data-ttu-id="f86e5-129">Registra y enumera los participantes en línea dentro de un salón de chat persistente</span><span class="sxs-lookup"><span data-stu-id="f86e5-129">Registers and lists online participants within a Persistent Chat room</span></span>
 
-  - **Chat persistente Servicios web para cargar y descargar archivos** Responsable de publicar archivos y recuperarlos de las salas de chat.
+  - <span data-ttu-id="f86e5-130">Retransmite mensajes a los suscriptores de otros canales</span><span class="sxs-lookup"><span data-stu-id="f86e5-130">Retransmits messages to other channel subscribers</span></span>
 
-  - **Chat persistente Servicios web para la administración de salas de chat** Responsable de brindar a los usuarios la capacidad de administrar sus salas de chat y de crear nuevas salas de chat.
+  - <span data-ttu-id="f86e5-131">Implementa lógica para la administración de canales, la invitación a un salón de chat, una búsqueda y nuevas notificaciones de contenido</span><span class="sxs-lookup"><span data-stu-id="f86e5-131">Implements logic for channel management, chat room invitation, search, and new content notifications</span></span>
 
-## ¿Cómo empezar a utilizar Servidor de chat persistente?
+<span data-ttu-id="f86e5-132">El servicio de chat persistente (canal) almacena y accede al contenido del salón de chat y otros metadatos del sistema (reglas de autorización, etc.) mediante el almacén de chats persistentes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-132">The Persistent Chat (Channel) service stores and accesses chat room content and other system metadata (authorization rules, and so on) by using the Persistent Chat Store.</span></span> <span data-ttu-id="f86e5-133">Este servicio almacena los archivos cargados en salones de chat en el almacén de archivos de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-133">This service stores files that are uploaded into chat rooms in the Persistent Chat File Store.</span></span>
 
-Servidor de chat persistente es un rol de servidor opcional dentro de la infraestructura de Lync Server 2013. Si instala el rol Servidor de chat persistente, cualquier usuario que haya sido habilitado por un administrador a través de directivas puede utilizar Chat persistente con el cliente Lync 2013. Para obtener detalles sobre cómo implementar Servidor de chat persistente y permitir a los usuarios aprovechar las capacidades a través de directivas, consulte [Implementar el servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).
+</div>
 
-Para obtener detalles sobre cómo configurar los parámetros en su implementación de Servidor de chat persistente, consulte [Implementar el servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) y [Administrar el servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md).
+<div>
 
-Para obtener detalles sobre cómo habilitar a los usuarios a través de directivas de modo tal que puedan aprovechar las capacidades de Chat persistente en el cliente Lync 2013, consulte [Implementar el servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) y [Administrar el servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md).
+## <a name="compliance-service"></a><span data-ttu-id="f86e5-134">Servicio de cumplimiento</span><span class="sxs-lookup"><span data-stu-id="f86e5-134">Compliance Service</span></span>
 
-Si implementó el cumplimiento de Chat persistente, consulte [Administrar el servidor de chat persistente de Lync Server 2013](managing-lync-server-2013-persistent-chat-server.md) para obtener detalles sobre cómo configurar los parámetros para el cumplimiento.
+<span data-ttu-id="f86e5-135">El servicio de cumplimiento normativo es un componente opcional de un servidor de chat persistente y es el responsable de archivar el contenido y los eventos de chat en el almacén de cumplimiento persistente de la conversación.</span><span class="sxs-lookup"><span data-stu-id="f86e5-135">The Compliance service is an optional component of Persistent Chat Server and is responsible for archiving chat content and events to the Persistent Chat Compliance Store.</span></span> <span data-ttu-id="f86e5-136">Si la organización cuenta con normas que precisan que se archive la actividad del chat persistente, puede implementar el servicio de cumplimiento opcional del chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-136">If your organization has regulations that require Persistent Chat activity to be archived, you can deploy the optional Persistent Chat Compliance service.</span></span> <span data-ttu-id="f86e5-137">El servicio de cumplimiento está instalado en cada servidor de chat persistente en un grupo de chats persistentes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-137">The Compliance service is installed on each Persistent Chat Server in a Persistent Chat pool.</span></span> <span data-ttu-id="f86e5-138">Una vez configurado, el cumplimiento del servidor de chat persistente registra la actividad de los usuarios, como unirse a salas y abandonarlos, y publicar y leer los mensajes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-138">When configured, Persistent Chat Server compliance records user activity such as joining and leaving rooms, and posting and reading of messages.</span></span> <span data-ttu-id="f86e5-139">El servicio de cumplimiento almacena los archivos que necesitan archivarse en el almacén de archivos de cumplimiento de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-139">The Compliance service stores files that need to be archived in the Persistent Chat Compliance File Store.</span></span>
 
-## Flujos de llamadas de Chat persistente
+</div>
 
-El cliente de Lync se comunica con el servicio de Chat persistente utilizando XCCOS. Las siguientes secuencias describen el proceso de inicio de sesión y un escenario típico de suscripción a la sala y de publicación de mensaje.
+<div>
 
-## Inicio de sesión
+## <a name="persistent-chat-web-services"></a><span data-ttu-id="f86e5-140">Servicios Web de chat persistente</span><span class="sxs-lookup"><span data-stu-id="f86e5-140">Persistent Chat Web Services</span></span>
 
-La siguiente secuencia describe el proceso de inicio de sesión.
+<span data-ttu-id="f86e5-141">En los servidores front-end de Lync Server, se ejecutan dos servicios que dependen de Internet Information Services (IIS) y se implementan como componentes Web:</span><span class="sxs-lookup"><span data-stu-id="f86e5-141">On the Lync Server Front End Servers, two services run that depend on Internet Information Services (IIS), and are implemented as web components:</span></span>
 
-1.  El cliente Lync primero envía un SIP SUBSCRIBE para recuperar el documento de aprovisionamiento en banda del servidor. Este documento indica si Chat persistente está habilitado o deshabilitado para el usuario y la lista de URI de SIP para el Grupo de servidores de chat persistente.
+  - <span data-ttu-id="f86e5-142">**Servicios Web de chat persistente para carga y descarga de archivos** Responsable de publicar y recuperar archivos de salones de chat.</span><span class="sxs-lookup"><span data-stu-id="f86e5-142">**Persistent Chat Web Services for File Upload/Download** Responsible for posting and retrieving files from chat rooms.</span></span>
 
-2.  El cliente Lync envía un mensaje SIP INVITE al URI de SIP del Servidor de chat persistente que obtuvo en el paso anterior. Luego de la secuencia INVITE sigue 200 OK y ACK, y el cliente Lync ha abierto ahora una sesión SIP con un extremo de Servidor de chat persistente. En consecuencia, el cliente se comunica con Servidor de chat persistente enviando mensajes SIP INFO que contienen mensajes de chat o comandos que solicitan al servidor que actúe. Todos estos mensajes son reconocidos con 200 OK o 503 Service Unavailable (es decir, en caso de fuertes carga de servidor). Si el cliente recibe una respuesta 503, volverá a intentar el mensaje. (Este ejemplo no incluye una respuesta 503). Si el servidor acepta el mensaje o comando y envía 200 OK, brinda una respuesta al cliente como mensaje SIP INFO independiente. Esta respuesta incluye una referencia al comando original.
+  - <span data-ttu-id="f86e5-143">**Servicios Web de chat persistente para la administración de salones de chat** Responsable de proporcionar a los usuarios la capacidad de administrar sus salones de chat y de crear nuevos salones de chat.</span><span class="sxs-lookup"><span data-stu-id="f86e5-143">**Persistent Chat Web Services for Chat Room Management** Responsible for providing users the ability to manage their chat rooms, and create new chat rooms.</span></span>
 
-3.  El cliente Lync envía un mensaje SIP INFO que contiene el comando **getserverinfo** de XCCOS. Servidor de chat persistente responde con un nuevo mensaje SIP INFO que contiene información sobre la configuración del servicio de Chat persistente.
+</div>
 
-4.  El cliente Lync envía un mensaje SIP INFO que contiene el comando **getassociations** de XCCOS. Servidor de chat persistente responde con un nuevo mensaje SIP INFO que contiene la lista de salas de las cuales es miembro el usuario. El cliente Lync repite el comando para recuperar la lista de salas de las cuales es administrador el usuario.
+</div>
 
-5.  El cliente Lync recibe la lista de salas seguidas del documento de "presencia", donde cada sala seguida se representa con una categoría "roomSetting". Todas las salas seguidas están unidas por un único mensaje SIP INFO que contiene el comando **bjoin** de XCCOS que contiene la lista de URI de las salas. Puesto que la lista de salas seguidas se guarda en el servidor, cualquier cliente desde cualquier equipo tiene la misma lista de salas seguidas para el URI de usuario especificado. El cliente Lync también guarda la lista de salas abiertas (si esta opción está habilitada por el usuario) en el registro del equipo local y se une a cada una de estas salas al iniciar sesión enviando un mensaje SIP INFO que contiene el comando **join** XCCOS para cada sala abierta. Puesto que esta lista se guarda en el registro, puede ser distinta en dos clientes Lync que se ejecuten en diferentes equipos.
+<div>
 
-6.  Por cada sala a la que se ha unido, el cliente Lync envía un mensaje SIP INFO que contiene el comando **bccontext** de XCCOS. Servidor de chat persistente responde con un nuevo mensaje SIP INFO que contiene el mensaje de chat más reciente de la sala.
+## <a name="how-do-i-start-using-persistent-chat-server"></a><span data-ttu-id="f86e5-144">¿Cómo empiezo a usar el servidor de chat persistente?</span><span class="sxs-lookup"><span data-stu-id="f86e5-144">How Do I Start Using Persistent Chat Server?</span></span>
 
-7.  El cliente Lync envía un mensaje SIP INFO que contiene un comando **getinv** (es decir, recibir invitación) de XCCOS para solicitar cualquier nueva invitación de salas que el cliente aún no ha visto. En un mensaje SIP INFO independiente, Servidor de chat persistente devuelve una lista de esas salas.
+<span data-ttu-id="f86e5-145">El servidor de chat persistente es un rol de servidor opcional dentro de la infraestructura de Lync Server 2013.</span><span class="sxs-lookup"><span data-stu-id="f86e5-145">Persistent Chat Server is an optional server role within the Lync Server 2013 infrastructure.</span></span> <span data-ttu-id="f86e5-146">Si instala el rol de servidor de chat persistente, los usuarios que hayan habilitado la Directiva mediante un administrador pueden usar la conversación persistente con el cliente de Lync 2013.</span><span class="sxs-lookup"><span data-stu-id="f86e5-146">If you install the Persistent Chat Server role, any users who have been enabled through policy by an administrator can use Persistent Chat with the Lync 2013 client.</span></span>
 
-## Suscribirse a una sala y publicar un mensaje
+<span data-ttu-id="f86e5-147">Para obtener más información sobre cómo implementar el servidor de chat persistente y permitir que los usuarios aprovechen las funciones por directiva, consulte [implementar un servidor de chat persistente en Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="f86e5-147">For details about how to deploy Persistent Chat Server and enable users to leverage the capabilities by policy, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md).</span></span>
 
-La siguiente secuencia describe un escenario típico de suscripción a una sala y publicación de un mensaje.
+<span data-ttu-id="f86e5-148">Para obtener más información sobre cómo configurar las opciones de la implementación del servidor de chat persistente, consulte [implementar un servidor de chat persistente en Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) y [administrar Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="f86e5-148">For details about how to configure settings on your Persistent Chat Server deployment, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) and [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).</span></span>
 
-1.  Desde el cliente Lync, Usuario1 hace clic en **Conectarse a una sala de chat**, hace clic en **Buscar** y luego introduce algún criterio de búsqueda. El cliente envía un mensaje SIP INFO que contiene el comando **chansrch** (búsqueda de sala) de XCCOS, junto con los criterios de búsqueda. Servidor de chat persistente realiza consultas en la base de datos back-end y responde en un nuevo mensaje SIP INFO que contiene una lista de salas disponibles que cumplen con los criterios de búsqueda.
+<span data-ttu-id="f86e5-149">Para obtener detalles sobre cómo habilitar a los usuarios mediante directivas de modo que puedan aprovechar la funcionalidad de chat persistente en el cliente de Lync 2013, consulte [implementar el servidor de chat persistente en Lync server 2013](lync-server-2013-deploying-persistent-chat-server.md) y [administrar Lync Server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md).</span><span class="sxs-lookup"><span data-stu-id="f86e5-149">For details about how to enable users by policy such that they can leverage Persistent Chat functionality in Lync 2013 client, see [Deploying Persistent Chat Server in Lync Server 2013](lync-server-2013-deploying-persistent-chat-server.md) and [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md).</span></span>
 
-2.  Usuario1 selecciona la sala de chat a la que desea conectarse y luego hace clic en **Seguir esta sala**. El cliente envía Servidor de chat persistente un mensaje SIP INFO que contiene el comando **join** de XCCOS y el identificador de sala de la sala de chat que seleccionó el usuario. Servidor de chat persistente responde con un mensaje SIP INFO que contiene los datos de aprovisionamiento.
+<span data-ttu-id="f86e5-150">Si ha implementado el cumplimiento persistente de la conversación, consulte [administrar Lync server 2013, servidor de chat persistente](managing-lync-server-2013-persistent-chat-server.md) para obtener información sobre cómo configurar las opciones de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="f86e5-150">If you deployed Persistent Chat compliance, see [Managing Lync Server 2013, Persistent Chat Server](managing-lync-server-2013-persistent-chat-server.md) for details about how to configure settings for compliance.</span></span>
 
-3.  El cliente Lync envía Servidor de chat persistente un mensaje SIP INFO que contiene el comando **bccontext** (contexto de backchat) de XCCOS. Servidor de chat persistente recupera el historial de chat y lo devuelve al cliente en un mensaje SIP INFO independiente. En este momento, el usuario ingresa a la sala de chat y está listo para participar.
+</div>
 
-4.  Usuario1 introduce un nuevo mensaje y luego hace clic en **Enviar**. El cliente Lync publica el mensaje en la sala de chat en un mensaje SIP INFO con el comando **grpchat** de XCCOS. Servidor de chat persistente almacena una copia de este nuevo mensaje en la base de datos back-end Chat persistente.
+<div>
 
-5.  Servidor de chat persistente envía una copia independiente del mensaje SIP INFO con el comando **grpchat** de XCCOS al Usuario2, que ya ha ingresado a la sala de chat.
+## <a name="persistent-chat-call-flows"></a><span data-ttu-id="f86e5-151">Flujos de llamadas de chat persistentes</span><span class="sxs-lookup"><span data-stu-id="f86e5-151">Persistent Chat Call Flows</span></span>
 
-## Flujos de llamadas de Cumplimiento de Chat persistente
+<span data-ttu-id="f86e5-152">El cliente de chat persistente se comunica con el servicio de chat persistente usando XCCOS.</span><span class="sxs-lookup"><span data-stu-id="f86e5-152">The Persistent Chat client communicates with the Persistent Chat service by using XCCOS.</span></span> <span data-ttu-id="f86e5-153">Las siguientes secuencias describen el proceso de inicio de sesión y un escenario típico de suscripción a salas y mensajes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-153">The following sequences describe the sign-in process and a typical room subscription and message post scenario.</span></span>
 
-Servidor de chat persistente utiliza Message Queuing (también conocido como MSMQ) y una base de datos de cumplimiento adicional (mgccomp) para procesar los datos de cumplimiento. Como ejemplo de cómo se procesan los eventos de cumplimiento, la siguiente secuencia de eventos describe cómo se procesa un evento de publicación de mensaje.
+<div>
 
-1.  Un usuario publica un mensaje en una sala.
+## <a name="sign-in"></a><span data-ttu-id="f86e5-154">Inicio de sesión</span><span class="sxs-lookup"><span data-stu-id="f86e5-154">Sign-in</span></span>
 
-2.  Servidor de chat persistente coloca información relacionada con el evento en una cola privada de Message Queuing.
+<span data-ttu-id="f86e5-155">El siguiente diagrama de flujo de llamadas y los pasos describen el proceso de inicio de sesión.</span><span class="sxs-lookup"><span data-stu-id="f86e5-155">The following call flow diagram and steps describe the sign-in process.</span></span>
 
-3.  El servidor de Cumplimiento de Chat persistente lee este evento desde la cola y lo coloca en la base de datos mgccomp para que sea procesado posteriormente.
+<span data-ttu-id="f86e5-156">**Flujo de llamadas de inicio de sesión de clientes de chat persistente**</span><span class="sxs-lookup"><span data-stu-id="f86e5-156">**Persistent Chat Client Sign-in Call Flow**</span></span>
 
-4.  Periódicamente, el servidor de Cumplimiento de Chat persistente procesa una serie de eventos de la base de datos y los envía al adaptador de Cumplimiento de Chat persistente para que sean procesados.
+<span data-ttu-id="f86e5-157">![Diagrama de flujo de llamadas del servidor de chat persistente.] (images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Diagrama de flujo de llamadas del servidor de chat persistente.")</span><span class="sxs-lookup"><span data-stu-id="f86e5-157">![Persistent Chat Server call flow diagram.](images/JJ683096.9b3b3c61-caca-42b6-853c-6a09e6ff5c44(OCS.15).jpg "Persistent Chat Server call flow diagram.")</span></span>
 
-5.  Si el adaptador procesa los datos correctamente, el servidor de Cumplimiento de Chat persistente elimina los eventos de la base de datos mgccomp.
+1.  <span data-ttu-id="f86e5-158">El cliente de chat persistente envía primero un SIP SUBSCRIBE para recuperar el documento de aprovisionamiento en banda del servidor.</span><span class="sxs-lookup"><span data-stu-id="f86e5-158">The Persistent Chat client first sends a SIP SUBSCRIBE to retrieve the in-band provisioning document from the server.</span></span> <span data-ttu-id="f86e5-159">Este documento indica si el chat persistente está habilitado o deshabilitado para el usuario y la lista de URI de SIP para el grupo de servidores de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-159">This document indicates if Persistent Chat is enabled or disabled for the user and the list of SIP URIs for the Persistent Chat Server pool.</span></span>
+
+2.  <span data-ttu-id="f86e5-160">El cliente de chat persistente envía un mensaje SIP INVITE al URI SIP del servidor de chat persistente que obtuvo en el paso anterior.</span><span class="sxs-lookup"><span data-stu-id="f86e5-160">The Persistent Chat client sends a SIP INVITE message to the SIP URI of the Persistent Chat Server that it obtained in the previous step.</span></span> <span data-ttu-id="f86e5-161">La secuencia de invitación viene seguida de 200 aceptar y ACK, y el cliente de chat persistente ha abierto una sesión SIP con un extremo del servidor de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-161">The INVITE sequence is followed by 200 OK and ACK, and the Persistent Chat client has now opened a SIP session with a Persistent Chat Server endpoint.</span></span> <span data-ttu-id="f86e5-162">Por lo tanto, el cliente de chat persistente se comunica con el servidor de chat persistente enviando mensajes de información SIP que contienen mensajes de chat o comandos que solicitan que el servidor realice una acción.</span><span class="sxs-lookup"><span data-stu-id="f86e5-162">Consequently, the Persistent Chat client communicates with Persistent Chat Server by sending SIP INFO messages that contain either chat messages or commands requesting the server to take an action.</span></span> <span data-ttu-id="f86e5-163">Todos estos mensajes se confirman con el servicio 200 aceptar o 503, ya sea no disponible (es decir, en el caso de una carga pesada del servidor).</span><span class="sxs-lookup"><span data-stu-id="f86e5-163">All of these messages are acknowledged with either 200 OK or 503 Service Unavailable (that is, in the event of heavy server load).</span></span> <span data-ttu-id="f86e5-164">Si el cliente recibe una respuesta de 503, se volverá a intentar el mensaje.</span><span class="sxs-lookup"><span data-stu-id="f86e5-164">If the client receives a 503 response, it will retry the message.</span></span> <span data-ttu-id="f86e5-165">(Este ejemplo no incluye una respuesta 503). Si el servidor acepta el mensaje o el comando y envía 200 aceptar, proporciona una respuesta al cliente en forma de mensaje de información SIP independiente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-165">(This example does not include a 503 response.) If the server accepts the message or command and sends 200 OK, it provides a response to the client in the form of a separate SIP INFO message.</span></span> <span data-ttu-id="f86e5-166">Esta respuesta incluye una referencia al comando de origen.</span><span class="sxs-lookup"><span data-stu-id="f86e5-166">This response includes a reference to the originating command.</span></span>
+
+3.  <span data-ttu-id="f86e5-167">El cliente de chat persistente envía un mensaje de información SIP que contiene el comando XCCOS **getServerInfo** .</span><span class="sxs-lookup"><span data-stu-id="f86e5-167">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **getserverinfo** command.</span></span> <span data-ttu-id="f86e5-168">El servidor de chat persistente responde con un nuevo mensaje de información SIP que contiene información sobre la configuración del servicio de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-168">Persistent Chat Server replies with a new SIP INFO message that contains information about the Persistent Chat service configuration.</span></span>
+
+4.  <span data-ttu-id="f86e5-169">El cliente de chat persistente envía un mensaje de información SIP que contiene el comando XCCOS **getassociations** .</span><span class="sxs-lookup"><span data-stu-id="f86e5-169">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **getassociations** command.</span></span> <span data-ttu-id="f86e5-170">El servidor de chat persistente responde con un nuevo mensaje de información SIP que contiene la lista de salas de las que es miembro el usuario.</span><span class="sxs-lookup"><span data-stu-id="f86e5-170">Persistent Chat Server replies with a new SIP INFO message that contains the list of rooms of which the user is a member.</span></span> <span data-ttu-id="f86e5-171">El cliente de chat persistente repite el comando para recuperar la lista de salas de las que el usuario es administrador.</span><span class="sxs-lookup"><span data-stu-id="f86e5-171">The Persistent Chat client repeats the command to retrieve the list of rooms of which the user is a manager.</span></span>
+
+5.  <span data-ttu-id="f86e5-172">El cliente de chat persistente obtiene la lista de salones seguidos del documento "de presencia", en el que cada sala seguida está representada por una categoría "roomSetting".</span><span class="sxs-lookup"><span data-stu-id="f86e5-172">The Persistent Chat client gets the list of followed rooms from the "presence" document, where each followed room is represented by a "roomSetting" category.</span></span> <span data-ttu-id="f86e5-173">Todas las salas seguidas se unen mediante un solo mensaje SIP que contiene el XCCOS **búnete** que contiene la lista de URI de la sala.</span><span class="sxs-lookup"><span data-stu-id="f86e5-173">All followed rooms are joined by a single SIP INFO message that contains the XCCOS **bjoin** command that contains the list of room URIs.</span></span> <span data-ttu-id="f86e5-174">Dado que la lista de salas seguidas se guarda en el servidor, cualquier cliente en cualquier equipo tiene la misma lista de salones seguidos para el URI de usuario especificado.</span><span class="sxs-lookup"><span data-stu-id="f86e5-174">Because the list of followed rooms is kept on the server, any client on any computer has the same list of followed rooms for the specified user URI.</span></span> <span data-ttu-id="f86e5-175">El cliente de chat persistente también mantiene la lista de salas abiertas (si el usuario ha habilitado esta opción) en el registro del equipo local y se une a cada una de estas salas en el inicio de sesión enviando un mensaje de información SIP que contiene el comando XCCOS **join** para cada sala abierta .</span><span class="sxs-lookup"><span data-stu-id="f86e5-175">The Persistent Chat client also keeps the list of opened rooms (if this option is enabled by the user) in the local computer registry, and joins each of these rooms at sign-in by sending a SIP INFO message that contains the XCCOS **join** command for each opened room.</span></span> <span data-ttu-id="f86e5-176">Como esta lista se guarda en el registro, puede ser diferente en dos clientes de chat persistentes que se ejecutan en equipos diferentes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-176">Because this list is kept in the registry, it can be different on two Persistent Chat clients running on different computers.</span></span>
+
+6.  <span data-ttu-id="f86e5-177">Para cada habitación Unido, el cliente de chat persistente envía un mensaje SIP INFO que contiene el comando XCCOS **bccontext** .</span><span class="sxs-lookup"><span data-stu-id="f86e5-177">For each room joined, the Persistent Chat client sends a SIP INFO message that contains the XCCOS **bccontext** command.</span></span> <span data-ttu-id="f86e5-178">El servidor de chat persistente responde con un nuevo mensaje de información SIP que contiene el mensaje de chat más reciente en el salón.</span><span class="sxs-lookup"><span data-stu-id="f86e5-178">Persistent Chat Server replies with a new SIP INFO message that contains the most recent chat message in the room.</span></span>
+
+7.  <span data-ttu-id="f86e5-179">El cliente de la conversación persistente envía un mensaje de información SIP que contiene un XCCOS **getinv** (es decir, obtener invitación) para solicitar nuevas invitaciones Room que el cliente aún no ha visto.</span><span class="sxs-lookup"><span data-stu-id="f86e5-179">The Persistent Chat client sends a SIP INFO message that contains a XCCOS **getinv** (that is, get invitation) command to request any new room invitations that the client has not yet seen.</span></span> <span data-ttu-id="f86e5-180">En un mensaje de información SIP independiente, el servidor de chat persistente devuelve una lista de esas salas.</span><span class="sxs-lookup"><span data-stu-id="f86e5-180">In a separate SIP INFO message, Persistent Chat Server returns a list of those rooms.</span></span>
+
+</div>
+
+<div>
+
+## <a name="subscribe-to-a-room-and-post-a-message"></a><span data-ttu-id="f86e5-181">Suscribirse a una sala y publicar un mensaje</span><span class="sxs-lookup"><span data-stu-id="f86e5-181">Subscribe to a Room and Post a Message</span></span>
+
+<span data-ttu-id="f86e5-182">El siguiente diagrama de flujo de llamadas y los pasos describen un escenario típico de suscripción a un salón y mensaje.</span><span class="sxs-lookup"><span data-stu-id="f86e5-182">The following call flow diagram and steps describe a typical room subscription and message post scenario.</span></span>
+
+<span data-ttu-id="f86e5-183">**Suscripción al salón del cliente de chat persistente y flujo de llamadas de publicación de mensajes**</span><span class="sxs-lookup"><span data-stu-id="f86e5-183">**Persistent Chat Client Room Subscription and Message Posting Call Flow**</span></span>
+
+<span data-ttu-id="f86e5-184">![Escenario de suscripción de sala y mensaje.] (images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Escenario de suscripción de sala y mensaje.")</span><span class="sxs-lookup"><span data-stu-id="f86e5-184">![Room subscription and message post scenario.](images/JJ683096.2d3c417e-c91b-42bd-964e-285b72bb2e44(OCS.15).jpg "Room subscription and message post scenario.")</span></span>
+
+1.  <span data-ttu-id="f86e5-185">Desde el cliente de chat persistente, usuario1 hace clic en **unirse a un salón de chat**, hace clic en **Buscar**y, a continuación, escribe algunos criterios de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f86e5-185">From the Persistent Chat client, User1 clicks **Join a Chat Room**, clicks **Search**, and then enters some search criteria.</span></span> <span data-ttu-id="f86e5-186">El cliente de chat persistente envía un mensaje SIP INFO que contiene el comando XCCOS **chansrch** (búsqueda de la sala) junto con los criterios de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f86e5-186">The Persistent Chat client sends a SIP INFO message that contains the XCCOS **chansrch** (room search) command, along with the search criteria.</span></span> <span data-ttu-id="f86e5-187">El servidor de chat persistente consulta la base de datos back-end y responde en un mensaje de información SIP nueva que contiene una lista de las salas disponibles que cumplen los criterios de búsqueda.</span><span class="sxs-lookup"><span data-stu-id="f86e5-187">Persistent Chat Server queries the back-end database and replies in a new SIP INFO message that contains a list of available rooms that meet the search criteria.</span></span>
+
+2.  <span data-ttu-id="f86e5-188">Usuario1 selecciona el salón de chat al que desea unirse y, a continuación, hace clic en **seguir este salón**.</span><span class="sxs-lookup"><span data-stu-id="f86e5-188">User1 selects the chat room that he or she wants to join, and then clicks **Follow this room**.</span></span> <span data-ttu-id="f86e5-189">El cliente de la conversación persistente envía un mensaje SIP INFO que contiene el comando XCCOS **join** y el identificador Room del salón de chat que seleccionó el usuario.</span><span class="sxs-lookup"><span data-stu-id="f86e5-189">The Persistent Chat client sends Persistent Chat Server a SIP INFO message that contains the XCCOS **join** command and the room ID of the chat room that the user selected.</span></span> <span data-ttu-id="f86e5-190">El servidor de chat persistente responde con un mensaje de información SIP que contiene los datos de aprovisionamiento.</span><span class="sxs-lookup"><span data-stu-id="f86e5-190">Persistent Chat Server replies with a SIP INFO message that contains the provisioning data.</span></span>
+
+3.  <span data-ttu-id="f86e5-191">El cliente de la conversación persistente envía un mensaje de información SIP que contiene el XCCOS **bccontext** (contexto de chat).</span><span class="sxs-lookup"><span data-stu-id="f86e5-191">The Persistent Chat client sends Persistent Chat Server a SIP INFO message that contains the XCCOS **bccontext** (backchat context) command.</span></span> <span data-ttu-id="f86e5-192">El servidor de chat persistente recupera el historial de chats y lo devuelve al cliente de chat persistente en un mensaje SIP independiente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-192">Persistent Chat Server retrieves the chat history, and returns it to the Persistent Chat client in a separate SIP INFO message.</span></span> <span data-ttu-id="f86e5-193">En este punto, el usuario entra en el salón de chat y está listo para participar.</span><span class="sxs-lookup"><span data-stu-id="f86e5-193">At this point, the user enters the chat room and is ready to participate.</span></span>
+
+4.  <span data-ttu-id="f86e5-194">Usuario1 escribe un nuevo mensaje y, a continuación, hace clic en **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="f86e5-194">User1 enters a new message, and then clicks **Send**.</span></span> <span data-ttu-id="f86e5-195">El cliente de chat persistente publica el mensaje en el salón de chat en un comando SIP INFO XCCOS **grpchat** .</span><span class="sxs-lookup"><span data-stu-id="f86e5-195">The Persistent Chat client posts the message to the chat room in a SIP INFO XCCOS **grpchat** command.</span></span> <span data-ttu-id="f86e5-196">El servidor de chat persistente almacena una copia de este mensaje nuevo en la base de datos back-end de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="f86e5-196">Persistent Chat Server stores a copy of this new message in the Persistent Chat back-end database.</span></span>
+
+5.  <span data-ttu-id="f86e5-197">El servidor de chat persistente envía una copia separada del mensaje SIP INFO XCCOS **grpchat** a user2, que ya ha entrado en el salón de chat.</span><span class="sxs-lookup"><span data-stu-id="f86e5-197">Persistent Chat Server sends a separate copy of the SIP INFO XCCOS **grpchat** message to User2, who has already entered the chat room.</span></span>
+
+</div>
+
+</div>
+
+<div>
+
+## <a name="persistent-chat-compliance-call-flows"></a><span data-ttu-id="f86e5-198">Flujos de llamada de cumplimiento de chat persistente</span><span class="sxs-lookup"><span data-stu-id="f86e5-198">Persistent Chat Compliance Call Flows</span></span>
+
+<span data-ttu-id="f86e5-199">El servidor de chat persistente usa Message Queue Server (también conocido como MSMQ) y una base de datos de cumplimiento adicional (mgccomp) para procesar los datos de cumplimiento.</span><span class="sxs-lookup"><span data-stu-id="f86e5-199">Persistent Chat Server uses Message Queuing (also known as MSMQ) and an additional compliance database (mgccomp) to process compliance data.</span></span> <span data-ttu-id="f86e5-200">Como ejemplo de cómo se procesan los eventos de conformidad, la siguiente secuencia de eventos describe cómo se procesa un evento de exposición de mensajes.</span><span class="sxs-lookup"><span data-stu-id="f86e5-200">As an example of how compliance events are processed, the following sequence of events describes how a message post event is processed.</span></span>
+
+1.  <span data-ttu-id="f86e5-201">Un usuario publica un mensaje en un salón.</span><span class="sxs-lookup"><span data-stu-id="f86e5-201">A user posts a message to a room.</span></span>
+
+2.  <span data-ttu-id="f86e5-202">El servidor de chat persistente coloca información relacionada con el evento en una cola privada de Message Queue Server.</span><span class="sxs-lookup"><span data-stu-id="f86e5-202">Persistent Chat Server places information pertaining to the event in a private Message Queuing queue.</span></span>
+
+3.  <span data-ttu-id="f86e5-203">El servidor de cumplimiento de chat persistente Lee este evento en la cola y lo coloca en la base de datos mgccomp para su procesamiento posterior.</span><span class="sxs-lookup"><span data-stu-id="f86e5-203">Persistent Chat Compliance server reads this event from the queue, and places it into the mgccomp database for processing later.</span></span>
+
+4.  <span data-ttu-id="f86e5-204">Periódicamente, el servidor de cumplimiento de chat persistente procesa un conjunto de eventos en la base de datos y los envía al adaptador de cumplimiento de chat persistente para su procesamiento.</span><span class="sxs-lookup"><span data-stu-id="f86e5-204">Periodically, the Persistent Chat Compliance server processes a set of events in the database, and sends them to the Persistent Chat Compliance adapter for processing.</span></span>
+
+5.  <span data-ttu-id="f86e5-205">Si el adaptador procesa correctamente los datos, el servidor de cumplimiento de chat persistente elimina los eventos de la base de datos de mgccomp.</span><span class="sxs-lookup"><span data-stu-id="f86e5-205">If the adapter successfully processes the data, Persistent Chat Compliance server deletes the events from the mgccomp database.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 

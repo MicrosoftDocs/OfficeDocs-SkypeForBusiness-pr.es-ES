@@ -1,67 +1,105 @@
-﻿---
-title: Trazar una estrategia de copia de seguridad y restauración
-TOCTitle: Trazar una estrategia de copia de seguridad y restauración
-ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
-ms:mtpsurl: https://technet.microsoft.com/es-es/library/Hh202195(v=OCS.15)
-ms:contentKeyID: 52061979
-ms.date: 01/07/2017
-mtps_version: v=OCS.15
-ms.translationtype: HT
 ---
+title: 'Lync Server 2013: establecimiento de una estrategia de copia de seguridad y restauración'
+ms.reviewer: ''
+ms.author: v-lanac
+author: lanachin
+TOCTitle: Establishing a backup and restoration strategy
+ms:assetid: f545a75f-bbc4-4968-b510-8f6f3920112b
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202195(v=OCS.15)
+ms:contentKeyID: 51541532
+ms.date: 07/23/2014
+manager: serdars
+mtps_version: v=OCS.15
+ms.openlocfilehash: d378c66ae820ef0be7b7b3b0492b023863e977ea
+ms.sourcegitcommit: bb53f131fabb03a66f0d000f8ba668fbad190778
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "34835194"
+---
+<div data-xmlns="http://www.w3.org/1999/xhtml">
 
-# Trazar una estrategia de copia de seguridad y restauración
+<div class="topic" data-xmlns="http://www.w3.org/1999/xhtml" data-msxsl="urn:schemas-microsoft-com:xslt" data-cs="http://msdn.microsoft.com/en-us/">
 
- 
+<div data-asp="http://msdn2.microsoft.com/asp">
 
-_**Última modificación del tema:** 2013-03-26_
+# <a name="establishing-a-backup-and-restoration-strategy-for-lync-server-2013"></a><span data-ttu-id="c7b97-102">Establecer una estrategia de copia de seguridad y restauración para Lync Server 2013</span><span class="sxs-lookup"><span data-stu-id="c7b97-102">Establishing a backup and restoration strategy for Lync Server 2013</span></span>
 
-Para desarrollar un plan de copia de seguridad y restauración para Lync Server, desarrolle una estrategia acorde con los objetivos de la organización. El desarrollo de una estrategia de copia de seguridad y restauración eficaz incluye lo siguiente:
+</div>
 
-  - Establecer las prioridades profesionales
+<div id="mainSection">
 
-  - Identificar los requisitos de copia de seguridad y restauración
+<div id="mainBody">
 
-## Establecer las prioridades profesionales
+<span> </span>
 
-Evaluar las prioridades profesionales de la organización. Normalmente, las principales prioridades profesionales que afectan a la estrategia de copia de seguridad y restauración son las siguientes:
+<span data-ttu-id="c7b97-103">_**Última modificación del tema:** 2013-03-26_</span><span class="sxs-lookup"><span data-stu-id="c7b97-103">_**Topic Last Modified:** 2013-03-26_</span></span>
 
-  - Requisitos de continuidad profesionales
+<span data-ttu-id="c7b97-104">Para poder desarrollar un plan de copia de seguridad y restauración de Lync Server, necesita desarrollar una estrategia que se ajuste a los objetivos de su organización.</span><span class="sxs-lookup"><span data-stu-id="c7b97-104">Before you can develop a backup and restoration plan for Lync Server, you need to develop a strategy that fits with your organization's goals.</span></span> <span data-ttu-id="c7b97-105">Para desarrollar una estrategia de copia de seguridad y restauración eficaz, tendrá que:</span><span class="sxs-lookup"><span data-stu-id="c7b97-105">To develop an effective backup and restoration strategy, you will need to:</span></span>
 
-  - Precisión de los datos
+  - <span data-ttu-id="c7b97-106">Establecer prioridades empresariales.</span><span class="sxs-lookup"><span data-stu-id="c7b97-106">Establish business priorities.</span></span>
 
-  - Importancia de los datos
+  - <span data-ttu-id="c7b97-107">Identifique los requisitos de copia de seguridad y restauración.</span><span class="sxs-lookup"><span data-stu-id="c7b97-107">Identify backup and restoration requirements.</span></span>
 
-  - Requisitos de portabilidad
+<div>
 
-  - Restricciones de costos
+## <a name="establishing-business-priorities"></a><span data-ttu-id="c7b97-108">Establecer prioridades empresariales</span><span class="sxs-lookup"><span data-stu-id="c7b97-108">Establishing Business Priorities</span></span>
 
-Con las necesidades profesionales de este tipo es más fácil determinar los contratos de nivel de servicio que puede desarrollar con sus clientes. Los contratos de nivel de servicio tienen una gran influencia en la estrategia de copia de seguridad y restauración.
+<span data-ttu-id="c7b97-109">Evaluar las prioridades empresariales de su organización.</span><span class="sxs-lookup"><span data-stu-id="c7b97-109">Evaluate the business priorities of your organization.</span></span> <span data-ttu-id="c7b97-110">Normalmente, las prioridades empresariales principales que afectan a la copia de seguridad y la estrategia de restauración son las siguientes:</span><span class="sxs-lookup"><span data-stu-id="c7b97-110">Typically, the primary business priorities that affect your backup and restoration strategy are the following:</span></span>
 
-## Identificar los requisitos de copia de seguridad y restauración
+  - <span data-ttu-id="c7b97-111">Requisitos de continuidad empresarial</span><span class="sxs-lookup"><span data-stu-id="c7b97-111">Business continuity requirements</span></span>
 
-Las prioridades profesionales y los contratos de nivel de servicio determinan los requisitos de la organización para realizar copias de seguridad de Lync Server y restaurarlo. Identifique y documente los requisitos para lo siguiente:
+  - <span data-ttu-id="c7b97-112">Integridad de los datos</span><span class="sxs-lookup"><span data-stu-id="c7b97-112">Data completeness</span></span>
 
-  - **Frecuencia de copias de seguridad**   Recuerde que, salvo en el caso de los grupos de servidores front end en las relaciones emparejadas, tal como se describe en [Planeación de alta disponibilidad y recuperación ante desastres en Lync Server 2013](lync-server-2013-planning-for-high-availability-and-disaster-recovery.md), Lync Server admite únicamente el modelo de recuperación simple, lo que significa que se restaura hasta la última copia de seguridad completa. Planee exhaustivamente la frecuencia con la que necesita realizar una copia de seguridad completa. Para más información sobre los procesos recomendados con relación a la frecuencia de las copias de seguridad, vea [Procedimientos recomendados de copia de seguridad y restauración](lync-server-2013-best-practices-for-backup-and-restoration.md).
+  - <span data-ttu-id="c7b97-113">Criticidad de los datos</span><span class="sxs-lookup"><span data-stu-id="c7b97-113">Data criticality</span></span>
 
-  - **Herramientas de copia de seguridad y restauración**   Indique quién utilizará las herramientas y en qué equipos. Para más información sobre las herramientas que se describen en este tema y los permisos necesarios, vea [Requisitos de copia de seguridad y restauracion: herramientas y permisos](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).
+  - <span data-ttu-id="c7b97-114">Requisitos de portabilidad</span><span class="sxs-lookup"><span data-stu-id="c7b97-114">Portability requirements</span></span>
 
-  - **Ubicación de copia de seguridad**   Identifique si las copias de seguridad se conservan de forma local o remota, teniendo en cuenta la seguridad y la accesibilidad. Especifique los medios que se utilizarán para las copias de seguridad.
+  - <span data-ttu-id="c7b97-115">Restricciones de costo</span><span class="sxs-lookup"><span data-stu-id="c7b97-115">Cost constraints</span></span>
 
-  - **Requisitos de hardware y software**   Identifique y documente sus requisitos específicos de hardware y software, incluido el hardware para el almacenamiento de copias de seguridad, la restauración de componentes específicos y cualquier software y conectividad de red necesarios para la realización de copias de seguridad y la restauración. A medida que desarrolle sus requisitos de hardware y software, tenga en cuenta los distintos escenarios de restauración que se exponen a continuación.
+<span data-ttu-id="c7b97-116">Necesidades empresariales, como estas ayudan a determinar los contratos de nivel de servicio (SLA) que usted desarrolla con sus clientes.</span><span class="sxs-lookup"><span data-stu-id="c7b97-116">Business needs such as these help to determine the service level agreements (SLAs) that you develop with your customers.</span></span> <span data-ttu-id="c7b97-117">Los acuerdos de nivel de servicio influyen considerablemente en su estrategia de copia de seguridad y recuperación.</span><span class="sxs-lookup"><span data-stu-id="c7b97-117">Service level agreements greatly influence your backup and recovery strategy.</span></span>
 
-  - **Escenarios de restauración**   Se describen los procesos de restauración para los escenarios siguientes:
+</div>
+
+<div>
+
+## <a name="identifying-backup-and-restoration-requirements"></a><span data-ttu-id="c7b97-118">Identificar los requisitos de copia de seguridad y restauración</span><span class="sxs-lookup"><span data-stu-id="c7b97-118">Identifying Backup and Restoration Requirements</span></span>
+
+<span data-ttu-id="c7b97-119">Las prioridades empresariales y los acuerdos de nivel de servicio actúan en la determinación de los requisitos de las organizaciones para realizar copias de seguridad y restaurar el servidor de Lync.</span><span class="sxs-lookup"><span data-stu-id="c7b97-119">Your business priorities and service level agreements act in determining your organizations' requirements for backing up and restoring Lync Server.</span></span> <span data-ttu-id="c7b97-120">Identifique y documente sus requisitos para lo siguiente:</span><span class="sxs-lookup"><span data-stu-id="c7b97-120">Identify and document your requirements for the following:</span></span>
+
+  - <span data-ttu-id="c7b97-121">**Frecuencia de las copias**   de seguridad para obtener detalles sobre los procedimientos recomendados para la frecuencia de copia de seguridad, vea [procedimientos recomendados para copias de seguridad y restauración de Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).</span><span class="sxs-lookup"><span data-stu-id="c7b97-121">**Frequency of backups**   For details about best practices for backup frequency, see [Best practices for backup and restoration for Lync Server 2013](lync-server-2013-best-practices-for-backup-and-restoration.md).</span></span>
+
+  - <span data-ttu-id="c7b97-122">\*\*\*\*   Entre las herramientas de copia de seguridad y restauración se incluye quién va a usar las herramientas y en qué equipos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-122">**Backup and restoration tools**   Include who is to use the tools, and on which computers.</span></span> <span data-ttu-id="c7b97-123">Para obtener más información sobre las herramientas descritas en este tema y los permisos necesarios, consulte [requisitos de copia de seguridad y restauración en Lync Server 2013: herramientas y permisos](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span><span class="sxs-lookup"><span data-stu-id="c7b97-123">For details about the tools discussed in this topic and necessary permissions, see [Backup and restoration requirements in Lync Server 2013: tools and permissions](lync-server-2013-backup-and-restoration-requirements-tools-and-permissions.md).</span></span>
+
+  - <span data-ttu-id="c7b97-124">**Ubicación**   de la copia de seguridad identifique si las copias de seguridad se guardan de forma local o remota, teniendo en cuenta la seguridad y la accesibilidad.</span><span class="sxs-lookup"><span data-stu-id="c7b97-124">**Backup location**   Identify whether the backups are kept locally or remotely, taking security and accessibility into consideration.</span></span> <span data-ttu-id="c7b97-125">Especifique el medio que se va a usar para las copias de seguridad.</span><span class="sxs-lookup"><span data-stu-id="c7b97-125">Specify the media to be used for the backups.</span></span>
+
+  - <span data-ttu-id="c7b97-126">**Los requisitos**   de hardware y software identifican y documentan los requisitos específicos de hardware y software, incluido el hardware para el almacenamiento de copias de seguridad y la restauración de componentes específicos y cualquier software y conectividad de red necesarios para admitir copia de seguridad y restauración.</span><span class="sxs-lookup"><span data-stu-id="c7b97-126">**Hardware and software requirements**   Identify and document your specific hardware and software requirements, including the hardware for backup storage and restoration of specific components and any software and network connectivity required to support backup and restoration.</span></span> <span data-ttu-id="c7b97-127">A medida que desarrolla los requisitos de hardware y software, tenga en cuenta los distintos escenarios de restauración que siguen.</span><span class="sxs-lookup"><span data-stu-id="c7b97-127">As you develop your hardware and software requirements, keep in mind the various restoration scenarios that follow.</span></span>
+
+  - <span data-ttu-id="c7b97-128">**Escenarios de restauración**   a continuación se muestran los procesos de restauración de los siguientes escenarios:</span><span class="sxs-lookup"><span data-stu-id="c7b97-128">**Restoration scenarios**   Here are the restoration processes for the following scenarios:</span></span>
     
-      - Error en un grupo de Lync Server. Este escenario requiere volver a generar cada servidor del grupo.
+      - <span data-ttu-id="c7b97-129">Se produce un error en un grupo de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c7b97-129">A Lync Server pool fails.</span></span> <span data-ttu-id="c7b97-130">Este escenario requiere que se Recompile cada servidor del grupo.</span><span class="sxs-lookup"><span data-stu-id="c7b97-130">This scenario requires rebuilding each server in the pool.</span></span>
     
-      - Error en un Servidor Standard Edition. Este escenario requiere volver a generar el servidor en un equipo nuevo o limpio y restaurar las bases de datos.
+      - <span data-ttu-id="c7b97-131">Se produce un error en un servidor Standard Edition.</span><span class="sxs-lookup"><span data-stu-id="c7b97-131">A Standard Edition server fails.</span></span> <span data-ttu-id="c7b97-132">Este escenario requiere que se recompile el servidor en un equipo nuevo o limpio, y el restore de las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-132">This scenario requires rebuilding the server on a new or clean computer and restoring databases.</span></span>
     
-      - Pérdida de Almacén de administración central. Como mínimo, este escenario requiere la restauración y publicación de Almacén de administración central.
+      - <span data-ttu-id="c7b97-133">Pérdida del almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="c7b97-133">Loss of the Central Management store.</span></span> <span data-ttu-id="c7b97-134">Como mínimo, este escenario requiere restaurar y publicar el almacén de administración central.</span><span class="sxs-lookup"><span data-stu-id="c7b97-134">At a minimum, this scenario requires restoring and publishing the Central Management store.</span></span>
     
-      - Pérdida de un servidor back-end cuando Almacén de administración central aún funciona normalmente. Este escenario requiere volver a generar el servidor en un equipo nuevo o limpio y restaurar las bases de datos.
+      - <span data-ttu-id="c7b97-135">Pérdida de un servidor back-end cuando el almacén de administración central sigue funcionando con normalidad.</span><span class="sxs-lookup"><span data-stu-id="c7b97-135">Loss of a Back End Server when the Central Management store is still functioning normally.</span></span> <span data-ttu-id="c7b97-136">Este escenario requiere que se recompile el servidor en un equipo nuevo o limpio, y el restore de las bases de datos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-136">This scenario requires rebuilding the server on a new or clean computer and restoring databases.</span></span>
     
-      - Error en un servidor miembro de un grupo de Lync Server. Este escenario requiere volver a generar el servidor en un equipo nuevo o limpio.
+      - <span data-ttu-id="c7b97-137">Se produce un error en un servidor que es miembro de un grupo de servidores de Lync.</span><span class="sxs-lookup"><span data-stu-id="c7b97-137">A server that is a member of a Lync Server pool fails.</span></span> <span data-ttu-id="c7b97-138">Este escenario requiere que se recompile el servidor en un equipo nuevo o limpio.</span><span class="sxs-lookup"><span data-stu-id="c7b97-138">This scenario requires rebuilding the server on a new or clean computer.</span></span>
     
-      - Error en un Almacén de archivos. Este escenario requiere restaurar el servidor de archivos o el clúster de archivos.
+      - <span data-ttu-id="c7b97-139">Se produce un error en el almacén de archivos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-139">A File Store fails.</span></span> <span data-ttu-id="c7b97-140">Este escenario requiere restaurar el servidor de archivos o el clúster de archivos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-140">This scenario requires restoring the file server or file cluster.</span></span>
     
-      - Una base de datos de archivado, supervisión o chat persistente da un error. En este escenario deben volver a crearse las bases de datos y, si los datos son de importancia crítica para la organización, deben restaurarse. Los datos de archivado, supervisión o chat persistente no son necesarios para obtener y ejecutar una copia de seguridad de Lync Server.
+      - <span data-ttu-id="c7b97-141">Se produce un error en un archivo, supervisión o base de datos de chat persistente.</span><span class="sxs-lookup"><span data-stu-id="c7b97-141">An Archiving, Monitoring, or Persistent Chat database fails.</span></span> <span data-ttu-id="c7b97-142">Este escenario requiere volver a crear las bases de datos y, si los datos son críticos para su organización, restaurar los datos.</span><span class="sxs-lookup"><span data-stu-id="c7b97-142">This scenario requires recreating the databases, and, if the data is critical to your organization, restoring the data.</span></span> <span data-ttu-id="c7b97-143">El archivado, la supervisión y los datos persistentes del chat no son necesarios para obtener la copia de seguridad y la ejecución de Lync Server.</span><span class="sxs-lookup"><span data-stu-id="c7b97-143">Archiving, Monitoring, and Persistent Chat data is not required to get Lync Server back up and running.</span></span>
+
+</div>
+
+</div>
+
+<span> </span>
+
+</div>
+
+</div>
+
+</div>
 
